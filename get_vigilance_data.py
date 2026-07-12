@@ -1034,7 +1034,15 @@ def main():
 
     # --- RÉSEAUX SOCIAUX DYNAMIQUES (SANS MÉTÉO-FRANCE) ---
     html_lines.append('        <div class="section-title">📱 PROPOSITION DE POSTS RÉSEAUX SOCIAUX</div>')
-        html_lines.append(f'        <div class="social-box">{clean_social_posts(tw_post)}</div>')
+    
+    li_post = editorial.get("linkedin_post", "")
+    tw_post = editorial.get("twitter_post", "")
+
+    html_lines.append(f'        <p><strong>Post LinkedIn (Sans mention de source) :</strong></p>')
+    html_lines.append(f'        <div class="social-box">{clean_social_posts(li_post)}</div>')
+    
+    html_lines.append(f'        <p><strong>Post Twitter / X (Sans mention de source) :</strong></p>')
+    html_lines.append(f'        <div class="social-box">{clean_social_posts(tw_post)}</div>')
 
     html_lines.append("""
         </div>
