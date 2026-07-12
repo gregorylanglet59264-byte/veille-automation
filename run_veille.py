@@ -635,7 +635,9 @@ def send_email(html_body, date_str):
             server.sendmail(gmail_email, recipients, raw_message.encode('ascii'))
         print("[SMTP] E-mail envoye avec succes via Gmail !")
     except Exception as e:
+        import traceback
         print(f"[SMTP] Erreur Gmail : {e}")
+        traceback.print_exc()
         sys.exit(1)
 
 def main():
