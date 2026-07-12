@@ -581,6 +581,9 @@ def send_email(html_body, date_str):
     from email.mime.base import MIMEBase
     from email import encoders
     
+    # Nettoyage du BOM et caractères non-ASCII problématiques
+    html_body = html_body.lstrip('\ufeff')
+    
     msg = MIMEMultipart('mixed')
     msg['From'] = f"Gregory LANGLET <{gmail_email if gmail_password else smtp_email}>"
     msg['To'] = ", ".join(recipients)
@@ -599,38 +602,20 @@ def send_email(html_body, date_str):
     part.add_header('Content-Disposition', 'attachment', filename=filename)
     msg.attach(part)
     
-    # Essai Gmail en priorité (accessible depuis GitHub Actions)
-    if gmail_password:
-        print(f"[SMTP] Envoi via Gmail à {', '.join(recipients)}...")
-        try:
-            with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
-                server.starttls()
-                server.login(gmail_email, gmail_password)
-                server.sendmail(gmail_email, recipients, msg.as_string())
-            print("[SMTP] E-mail envoyé avec succès via Gmail !")
-            return
-        except Exception as e:
-            print(f"[SMTP] Erreur Gmail : {e} — tentative via SFR...")
-    
-    # Fallback SFR avec 3 tentatives espacées de 5 secondes
-    if not smtp_password:
-        print("[SMTP] ERREUR : Ni GMAIL_APP_PASSWORD ni SMTP_PASSWORD configurés. Impossible d'envoyer.")
+    # Gmail (seul relais fiable depuis GitHub Actions — SFR bloque les IP cloud)
+    if not gmail_password:
+        print("[SMTP] ERREUR : GMAIL_APP_PASSWORD non configuré. Impossible d'envoyer.")
         sys.exit(1)
-    for attempt in range(1, 4):
-        print(f"[SMTP] Envoi via SFR à {', '.join(recipients)}... (tentative {attempt}/3)")
-        try:
-            with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
-                server.login(smtp_email, smtp_password)
-                server.sendmail(smtp_email, recipients, msg.as_string())
-            print("[SMTP] E-mail envoyé avec succès via SFR !")
-            return
-        except Exception as e:
-            print(f"[SMTP] Erreur SFR tentative {attempt}/3 : {e}")
-            if attempt < 3:
-                import time
-                time.sleep(5)
-    print("[SMTP] ERREUR : Échec après 3 tentatives SFR.")
-    sys.exit(1)
+    print(f"[SMTP] Envoi via Gmail à {', '.join(recipients)}...")
+    try:
+        with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
+            server.starttls()
+            server.login(gmail_email, gmail_password)
+            server.send_message(msg)  # send_message gère l'encodage UTF-8 correctement
+        print("[SMTP] E-mail envoyé avec succès via Gmail !")
+    except Exception as e:
+        print(f"[SMTP] Erreur Gmail : {e}")
+        sys.exit(1)
 
 def main():
     parser = argparse.ArgumentParser(description="Superviseur Veille Globale")
