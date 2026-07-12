@@ -11,6 +11,9 @@ import os
 import concurrent.futures
 import time
 from datetime import datetime
+import xml.etree.ElementTree as ET
+import urllib.request
+import urllib.parse
 
 SUBS_FILE = "subscriptions.json"
 OUTPUT_MD = "youtube_recommandations.md"
@@ -91,8 +94,75 @@ def get_latest_video(channel):
     handle = channel['handle']
     name = channel['name']
     category = channel['category']
-    url = f"https://www.youtube.com/{handle}/videos"
+    channel_id = channel.get('id', '')
     
+    # 1. Tenter la récupération via le flux RSS officiel (fiable et non bloqué)
+    if channel_id and channel_id.startswith("UC"):
+        feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+        req = urllib.request.Request(feed_url, headers={'User-Agent': 'Mozilla/5.0'})
+        try:
+            with urllib.request.urlopen(req, timeout=12) as response:
+                xml_data = response.read()
+                root = ET.fromstring(xml_data)
+                
+                # Namespaces Atom / Media / YouTube
+                namespaces = {
+                    'atom': 'http://www.w3.org/2005/Atom',
+                    'media': 'http://search.yahoo.com/mrss/',
+                    'yt': 'http://www.youtube.com/xml/schemas/2015'
+                }
+                
+                entry = root.find('atom:entry', namespaces)
+                if entry is not None:
+                    video_id = entry.find('yt:videoId', namespaces).text
+                    video_url = f"https://www.youtube.com/watch?v={video_id}"
+                    
+                    # Titre
+                    raw_title = entry.find('atom:title', namespaces).text
+                    translated_title = translate_to_french(raw_title)
+                    
+                    # Date de publication pour valider l'âge (max 36 heures)
+                    published_str = entry.find('atom:published', namespaces).text
+                    from datetime import timezone, timedelta
+                    try:
+                        pub_dt_str = published_str.replace("Z", "+00:00")
+                        upload_dt = datetime.fromisoformat(pub_dt_str)
+                        now_tz = datetime.now(timezone.utc)
+                        if upload_dt.tzinfo is None:
+                            upload_dt = upload_dt.replace(tzinfo=timezone.utc)
+                        if now_tz - upload_dt > timedelta(hours=36):
+                            return None
+                    except Exception as date_err:
+                        print(f"  [Date] Erreur date pour {name} : {date_err}")
+                        
+                    # Description
+                    media_group = entry.find('media:group', namespaces)
+                    description = ""
+                    if media_group is not None:
+                        desc_el = media_group.find('media:description', namespaces)
+                        if desc_el is not None:
+                            description = desc_el.text or ""
+                            
+                    base_score = INTEREST_SCORES.get(category, 5.0)
+                    weight = CHANNEL_WEIGHTS.get(handle, base_score)
+                    summary = generate_summary(translated_title, category, name)
+                    
+                    return {
+                        "channel_name": name,
+                        "handle": handle,
+                        "category": category,
+                        "title": translated_title,
+                        "url": video_url,
+                        "id": video_id,
+                        "score": weight,
+                        "summary": summary,
+                        "description": description[:1000]
+                    }
+        except Exception as e:
+            print(f"  [RSS] Échec flux RSS pour {name} ({handle}) : {e}")
+            
+    # 2. Fallback via yt-dlp si pas d'ID ou si le flux RSS a échoué
+    url = f"https://www.youtube.com/{handle}/videos"
     cmd = [
         "yt-dlp",
         "--playlist-end", "1",
@@ -100,12 +170,11 @@ def get_latest_video(channel):
         url
     ]
     try:
-        # Configuration spécifique pour éviter de planter sous Linux/Windows dans les environnements CI/CD
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=20, encoding='utf-8', errors='ignore')
         if result.returncode == 0 and result.stdout:
             data = json.loads(result.stdout.strip().split('\n')[0])
             
-            # Vérifier l'âge de la vidéo (doit être de moins de 36 heures)
+            # Vérifier l'âge (max 36 heures)
             upload_date_str = data.get("upload_date")
             if upload_date_str:
                 upload_dt = datetime.strptime(upload_date_str, "%Y%m%d")
@@ -117,7 +186,6 @@ def get_latest_video(channel):
             raw_title = data.get("title")
             translated_title = translate_to_french(raw_title)
             
-            # Calculer le score d'intérêt
             base_score = INTEREST_SCORES.get(category, 5.0)
             weight = CHANNEL_WEIGHTS.get(handle, base_score)
             summary = generate_summary(translated_title, category, name)
@@ -133,8 +201,8 @@ def get_latest_video(channel):
                 "summary": summary,
                 "description": data.get("description", "")[:800]
             }
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"  [yt-dlp] Échec fallback yt-dlp pour {name} : {e}")
     return None
 
 def main():
