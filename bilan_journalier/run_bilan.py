@@ -30,7 +30,7 @@ REGIONS = {
     "grand est": ["08", "10", "51", "52", "54", "55", "57", "67", "68", "88"]
 }
 
-def send_email_report(body_text, subject, recipient):
+def send_email_report(html_body, subject, recipient):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if not gmail_password:
@@ -46,9 +46,9 @@ def send_email_report(body_text, subject, recipient):
     # Nettoyage ASCII du sujet pour éviter les rejets SMTP
     clean_subj = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
     
-    # Corps textuel
-    body_text = body_text.replace('\ufeff', '').replace('\ufffe', '')
-    text_b64 = base64.b64encode(body_text.encode('utf-8')).decode('ascii')
+    # Corps HTML en Base64
+    html_body = html_body.replace('\ufeff', '').replace('\ufffe', '')
+    text_b64 = base64.b64encode(html_body.encode('utf-8')).decode('ascii')
     
     boundary = uuid.uuid4().hex
     
@@ -61,7 +61,7 @@ def send_email_report(body_text, subject, recipient):
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
         f'\r\n'
         f'--{boundary}\r\n'
-        f'Content-Type: text/plain; charset=utf-8\r\n'
+        f'Content-Type: text/html; charset=utf-8\r\n'
         f'Content-Transfer-Encoding: base64\r\n'
         f'\r\n'
         f'{text_b64}\r\n'
@@ -77,9 +77,61 @@ def send_email_report(body_text, subject, recipient):
             server.ehlo()
             server.login(gmail_email, gmail_password)
             server.sendmail(gmail_email, recipients, raw_message.encode('ascii'))
-        print("[SMTP] E-mail de Bilan Régional envoyé avec succès !")
+        print("[SMTP] E-mail de Bilan Régional (HTML Premium) envoyé avec succès !")
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi du bilan régional : {e}")
+
+def make_html_section(title, icon, data_list, param_type):
+    html = f"""
+    <div class="section-card">
+        <div class="section-title">
+            <span class="section-title-icon">{icon}</span>
+            <span>{title}</span>
+        </div>
+        <div class="list-container">"""
+        
+    if not data_list:
+        html += '<p style="font-size: 13px; color: #64748b; font-style: italic; margin-left: 12px; margin-top: 0;">Aucune donnée disponible pour aujourd\'hui.</p>'
+    else:
+        for idx, (name, dept, val, rec_m, rec_date) in enumerate(data_list):
+            if idx == 0:
+                rank_class = "rank-1"
+                rank_str = "🥇"
+            elif idx == 1:
+                rank_class = "rank-2"
+                rank_str = "🥈"
+            elif idx == 2:
+                rank_class = "rank-3"
+                rank_str = "🥉"
+            else:
+                rank_class = "rank-other"
+                rank_str = str(idx + 1)
+                
+            rec_str = ""
+            if rec_m is not None:
+                if (param_type == 'froid' and val <= rec_m) or (param_type != 'froid' and val >= rec_m):
+                    rec_str = '<span class="record-alert">Record</span>'
+                    
+            if param_type == 'chaleur' or param_type == 'froid':
+                val_str = f"{val:.1f}°C"
+            elif param_type == 'pluie':
+                val_str = f"{val:.1f} mm"
+            else:
+                val_str = f"{val:.0f} km/h"
+                
+            html += f"""
+            <div class="list-item">
+                <div class="station-info">
+                    <span class="rank-badge {rank_class}">{rank_str}</span>
+                    <span class="station-name">{name}</span>
+                    <span class="dept-code">({dept})</span>
+                    {rec_str}
+                </div>
+                <div class="val-badge val-{param_type}">{val_str}</div>
+            </div>"""
+            
+    html += "</div></div>"
+    return html
 
 def main():
     parser = argparse.ArgumentParser(description="Pipeline Bilan Régionalisé (Top 10)")
@@ -179,70 +231,75 @@ def main():
     gust_list = cursor.fetchall()
     conn.close()
     
-    # 3. Formater le rapport régional sans astérisques (identique au modèle national)
-    post_content = f"BILAN METEO REGIONAL - REGION {zone_label.upper()} - CE {date_str}\n\n"
-    post_content += f"Synthèse des postes les plus remarquables pour chaque paramètre relevé sur le réseau régional.\n\n"
-    
-    # Chaleur
-    post_content += "🔥 TOP TEMPÉRATURES MAXIMALES (CHALEUR) :\n"
-    if tmax_list:
-        for idx, (name, dept, val, rec_m, rec_date) in enumerate(tmax_list):
-            rec_str = ""
-            if rec_m is not None and val >= rec_m:
-                rec_str = f" [RECORDBATTU] (ancien : {rec_m}°C le {rec_date})"
-            post_content += f"{idx+1}. {name} ({dept}) : {val:.1f}°C{rec_str}\n"
-    else:
-        post_content += "Aucune donnée disponible.\n"
-    post_content += "\n"
-    
-    # Froid
-    post_content += "❄️ TOP TEMPÉRATURES MINIMALES (FRAÎCHEUR/FROID) :\n"
-    if tmin_list:
-        for idx, (name, dept, val, rec_m, rec_date) in enumerate(tmin_list):
-            rec_str = ""
-            if rec_m is not None and val <= rec_m:
-                rec_str = f" [RECORDBATTU] (ancien : {rec_m}°C le {rec_date})"
-            post_content += f"{idx+1}. {name} ({dept}) : {val:.1f}°C{rec_str}\n"
-    else:
-        post_content += "Aucune donnée disponible.\n"
-    post_content += "\n"
-    
-    # Pluie
-    post_content += "🌧️ TOP CUMULS DE PRÉCIPITATIONS (PLUIE) :\n"
-    if precip_list:
-        for idx, (name, dept, val, rec_m, rec_date) in enumerate(precip_list):
-            rec_str = ""
-            if rec_m is not None and val >= rec_m:
-                rec_str = f" [RECORDBATTU] (ancien : {rec_m} mm le {rec_date})"
-            post_content += f"{idx+1}. {name} ({dept}) : {val:.1f} mm{rec_str}\n"
-    else:
-        post_content += "Aucun cumul significatif enregistré.\n"
-    post_content += "\n"
-    
-    # Vent
-    post_content += "💨 TOP RAFALES DE VENT :\n"
-    if gust_list:
-        for idx, (name, dept, val, rec_m, rec_date) in enumerate(gust_list):
-            rec_str = ""
-            if rec_m is not None and val >= rec_m:
-                rec_str = f" [RECORDBATTU] (ancien : {rec_m} km/h le {rec_date})"
-            post_content += f"{idx+1}. {name} ({dept}) : {val:.0f} km/h{rec_str}\n"
-    else:
-        post_content += "Aucune rafale remarquable enregistrée.\n"
-        
-    post_content += f"""
----
-Données climatologiques basées sur les relevés officiels Météo-France comparés aux normales de référence.
+    # 3. Formater les sections HTML
+    html_sections = []
+    html_sections.append(make_html_section("Top Températures Maximales (Chaleur)", "🔥", tmax_list, "chaleur"))
+    html_sections.append(make_html_section("Top Températures Minimales (Froid)", "❄️", tmin_list, "froid"))
+    html_sections.append(make_html_section("Top Cumuls de Précipitations (Pluie)", "🌧️", precip_list, "pluie"))
+    html_sections.append(make_html_section("Top Rafales de Vent", "💨", gust_list, "vent"))
 
-#Meteo #Climat #BilanRegional #{zone_label.replace(' ', '').replace('-', '')}
-"""
+    # Style CSS et Template HTML
+    style_css = """
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+    body { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #f8fafc; color: #1e293b; padding: 30px; margin: 0; }
+    .card { max-width: 620px; background: #ffffff; margin: 0 auto; border-radius: 24px; border: 1px solid #e2e8f0; box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.05), 0 4px 6px -4px rgba(15, 23, 42, 0.05); overflow: hidden; }
+    .header { background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%); padding: 40px 30px; text-align: center; color: #ffffff; }
+    .header-badge { display: inline-block; padding: 4px 12px; border-radius: 20px; background: rgba(255, 255, 255, 0.15); font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; }
+    .header h1 { font-family: 'Outfit', sans-serif; font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -0.5px; }
+    .header p { font-size: 13.5px; margin: 8px 0 0 0; opacity: 0.85; }
+    .content { padding: 35px 30px; }
+    .section-card { margin-bottom: 35px; }
+    .section-title { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #475569; display: flex; align-items: center; margin-bottom: 16px; }
+    .section-title-icon { margin-right: 8px; font-size: 18px; }
+    .list-container { display: flex; flex-direction: column; gap: 8px; }
+    .list-item { background: #ffffff; border: 1px solid #f1f5f9; border-radius: 12px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02); }
+    .station-info { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: #334155; }
+    .rank-badge { width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 800; border-radius: 50%; }
+    .rank-1 { background-color: #fef08a; color: #854d0e; }
+    .rank-2 { background-color: #f1f5f9; color: #475569; }
+    .rank-3 { background-color: #ffedd5; color: #c2410c; }
+    .rank-other { background-color: #f8fafc; color: #64748b; }
+    .station-name { font-weight: 700; color: #0f172a; }
+    .dept-code { color: #64748b; font-size: 12px; }
+    .val-badge { font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px; color: #ffffff; min-width: 60px; text-align: center; }
+    .val-chaleur { background: linear-gradient(135deg, #f97316 0%, #ef4444 100%); }
+    .val-froid { background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%); }
+    .val-pluie { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
+    .val-vent { background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); }
+    .record-alert { font-family: 'Outfit', sans-serif; font-size: 9px; font-weight: 800; text-transform: uppercase; color: #ffffff; background-color: #ef4444; padding: 2px 8px; border-radius: 4px; margin-left: 6px; display: inline-block; vertical-align: middle; }
+    .footer { text-align: center; padding: 25px; font-size: 11.5px; color: #64748b; border-top: 1px solid #f1f5f9; background-color: #f8fafc; line-height: 1.5; }
+    """
     
-    print(post_content)
+    html_body = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <style>{style_css}</style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <div class="header-badge">MÉTÉO REGIONAL</div>
+            <h1>BILAN METEO REGIONAL</h1>
+            <p>Région {zone_label} • Synthèse des postes clés du {date_str}</p>
+        </div>
+        <div class="content">
+            {"".join(html_sections)}
+        </div>
+        <div class="footer">
+            Données climatologiques basées sur les relevés officiels Météo-France comparés aux normales de référence.
+        </div>
+    </div>
+</body>
+</html>
+"""
     
     # Send Email
     if not args.no_email:
         subject = f"Bilan Regional {zone_label} - {date_str}"
-        send_email_report(post_content, subject, args.to)
+        send_email_report(html_body, subject, args.to)
+    else:
+        print("Mode no-email activé. Affichage du code HTML.")
 
 if __name__ == "__main__":
     main()
