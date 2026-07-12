@@ -618,7 +618,9 @@ def send_email(html_body, date_str):
             server.starttls()
             server.ehlo()
             server.login(gmail_email, gmail_password)
-            server.send_message(msg)
+            # send_message() reset utf8=False si les adresses sont ASCII — on bypass
+            # en passant les bytes bruts avec as_bytes() qui respecte SMTPUTF8
+            server.sendmail(gmail_email, recipients, msg.as_bytes())
         print("[SMTP] E-mail envoye avec succes via Gmail !")
     except Exception as e:
         print(f"[SMTP] Erreur Gmail : {e}")
