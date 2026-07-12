@@ -612,19 +612,25 @@ def send_email(html_body, date_str):
         except Exception as e:
             print(f"[SMTP] Erreur Gmail : {e} — tentative via SFR...")
     
-    # Fallback SFR
+    # Fallback SFR avec 3 tentatives espacées de 5 secondes
     if not smtp_password:
         print("[SMTP] ERREUR : Ni GMAIL_APP_PASSWORD ni SMTP_PASSWORD configurés. Impossible d'envoyer.")
         sys.exit(1)
-    print(f"[SMTP] Envoi via SFR à {', '.join(recipients)}...")
-    try:
-        with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
-            server.login(smtp_email, smtp_password)
-            server.sendmail(smtp_email, recipients, msg.as_string())
-        print("[SMTP] E-mail envoyé avec succès via SFR !")
-    except Exception as e:
-        print(f"[SMTP] Erreur SFR : {e}")
-        sys.exit(1)
+    for attempt in range(1, 4):
+        print(f"[SMTP] Envoi via SFR à {', '.join(recipients)}... (tentative {attempt}/3)")
+        try:
+            with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
+                server.login(smtp_email, smtp_password)
+                server.sendmail(smtp_email, recipients, msg.as_string())
+            print("[SMTP] E-mail envoyé avec succès via SFR !")
+            return
+        except Exception as e:
+            print(f"[SMTP] Erreur SFR tentative {attempt}/3 : {e}")
+            if attempt < 3:
+                import time
+                time.sleep(5)
+    print("[SMTP] ERREUR : Échec après 3 tentatives SFR.")
+    sys.exit(1)
 
 def main():
     parser = argparse.ArgumentParser(description="Superviseur Veille Globale")
