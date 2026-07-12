@@ -1,0 +1,874 @@
+[
+  {
+    "id": "UCwW1d_I3Hn0f3g7fWbL24YQ",
+    "name": "Météo-France",
+    "handle": "@MeteoFrance",
+    "category": "Météo",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1592217643599-22355e77627c?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_2",
+    "name": "Ludo Salenne",
+    "handle": "@LudovicSalenne",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_3",
+    "name": "Soush",
+    "handle": "@Soush",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_4",
+    "name": "L' immigré parisien",
+    "handle": "@LImmigreparisien",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_5",
+    "name": "Nerdy Kings",
+    "handle": "@NerdyKings",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_6",
+    "name": "Renaud Varoqueaux",
+    "handle": "@RenaudDekode",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_7",
+    "name": "LEGEND",
+    "handle": "@legendmedia",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_8",
+    "name": "IA Talkshow",
+    "handle": "@Parlons.IA.2",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_9",
+    "name": "Coriace | No-Code",
+    "handle": "@coriace-co",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_10",
+    "name": "Shubham SHARMA",
+    "handle": "@Shubham_Sharma",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_11",
+    "name": "Dr. Firas",
+    "handle": "@DRFIRASS",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_12",
+    "name": "Bricolo2.0",
+    "handle": "@bricolo2.0",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_13",
+    "name": "RTL",
+    "handle": "@rtl_france",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_14",
+    "name": "Alex DEW - Automatisation & IA",
+    "handle": "@DEW-Automatisation",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_15",
+    "name": "iAlan",
+    "handle": "@iAlan_automatise",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_16",
+    "name": "La Famille Ventura",
+    "handle": "@LaFamilleVentura",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_17",
+    "name": "Grégory Beyrouti",
+    "handle": "@gregory.beyrouti",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_18",
+    "name": "Elliott Pierret",
+    "handle": "@elliottpierret",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_19",
+    "name": "W9",
+    "handle": "@W9officiel",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_20",
+    "name": "ChocolatAndVanillah",
+    "handle": "@ChocolatAndVanillah2",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_21",
+    "name": "Melvynx",
+    "handle": "@melvynxdev",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_22",
+    "name": "Esprit de justice",
+    "handle": "@Espritdejusticedoc",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_23",
+    "name": "AI Professor",
+    "handle": "@IAProfesseur",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_24",
+    "name": "Vision IA",
+    "handle": "@VisionIA-FR",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_25",
+    "name": "HugoDécrypte - Actus du jour",
+    "handle": "@hugodecrypteactus",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_26",
+    "name": "Duvolcan I.",
+    "handle": "@Duvolcanl",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_27",
+    "name": "La.sweety",
+    "handle": "@La.Sweety",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_28",
+    "name": "Henri · ExplorIA",
+    "handle": "@HenriExplorIA",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_29",
+    "name": "LeKillerBettips",
+    "handle": "@lekillerbettips",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_30",
+    "name": "Alegria Group",
+    "handle": "@alegria-group-nocode-ia",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_31",
+    "name": "Barthélémy Nobili",
+    "handle": "@barthelemynobili",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_32",
+    "name": "Julien Massey",
+    "handle": "@julien-massey",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_33",
+    "name": "Jérémy DE CAMPOS",
+    "handle": "@nocodeskills",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_34",
+    "name": "Hero Quiz",
+    "handle": "@heroquiz_",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_35",
+    "name": "Ludovic Nédélec",
+    "handle": "@Ludovicnédélec",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_36",
+    "name": "Anthony Marandon",
+    "handle": "@AnthonyMarandon",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_37",
+    "name": "IA Technologie",
+    "handle": "@iatechnologie-com",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_38",
+    "name": "Kevko",
+    "handle": "@KevkoYt",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_39",
+    "name": "Unchained",
+    "handle": "@Unchainedytb",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_40",
+    "name": "Johan : Solutions Digitales",
+    "handle": "@johansolutionsdigitales",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_41",
+    "name": "Unchained_Off",
+    "handle": "@UnchainedOff",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_42",
+    "name": "Let's Talk AI",
+    "handle": "@ParlonIA",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_43",
+    "name": "Experentaja",
+    "handle": "@experentaja",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_44",
+    "name": "Androide Mathias",
+    "handle": "@AndroideMathias",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_45",
+    "name": "jules_api",
+    "handle": "@jules_api",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_46",
+    "name": "Sardance",
+    "handle": "@SardanceTV",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_47",
+    "name": "Kevin Badi | AI Operating Systems",
+    "handle": "@KevBuildsApps",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_48",
+    "name": "LearnyClub",
+    "handle": "@LearnyClub",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_49",
+    "name": "Khubaib Shayan",
+    "handle": "@KhubaibShayan",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_50",
+    "name": "Mohamed ali Nahali",
+    "handle": "@MohamedaliNahali",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_51",
+    "name": "Patrick Bellair",
+    "handle": "@patrickbellair",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_52",
+    "name": "MechaPizzAI",
+    "handle": "@MechaPizzAI",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_53",
+    "name": "Larzizematteo",
+    "handle": "@Larzizematteo_",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_54",
+    "name": "Cossi",
+    "handle": "@Cossiyt",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_55",
+    "name": "Simple&Gratuit",
+    "handle": "@SimpleGratuit",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_56",
+    "name": "Le Bretzel",
+    "handle": "@lebretzel_",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_57",
+    "name": "Didier Laket | IA & Automatisation",
+    "handle": "@didierlaket",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_58",
+    "name": "Eve & Leïa",
+    "handle": "@evetdody",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_59",
+    "name": "Antoine",
+    "handle": "@AntoineS2S",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_60",
+    "name": "Underscore_",
+    "handle": "@Underscore_",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_61",
+    "name": "Graphyx Gaming",
+    "handle": "@GraphyxGaming",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_62",
+    "name": "Weather 37",
+    "handle": "@meteo37",
+    "category": "Météo",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1592217643599-22355e77627c?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_63",
+    "name": "AMELINKA",
+    "handle": "@AMELINKA",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_64",
+    "name": "Yem Univers",
+    "handle": "@YemUnivers",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_65",
+    "name": "Ben BK",
+    "handle": "@BenBK",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_66",
+    "name": "Enzo - Les WebMasters 2.0",
+    "handle": "@enzo-webmaster2.0",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_67",
+    "name": "Seb Connect",
+    "handle": "@SebConnect",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_68",
+    "name": "Slimane",
+    "handle": "@slimane_music",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_69",
+    "name": "ZarTek",
+    "handle": "@ZarTekYT",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_70",
+    "name": "Hamza-ye AI",
+    "handle": "@Hamza-ye",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_71",
+    "name": "AFP",
+    "handle": "@AFPfr",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_72",
+    "name": "Justine Morin",
+    "handle": "@justine_morin1",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_73",
+    "name": "Orage19",
+    "handle": "@Monster-ll4ey",
+    "category": "Météo",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1592217643599-22355e77627c?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_74",
+    "name": "OpenAI",
+    "handle": "@OpenAI",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_75",
+    "name": "Jay Ferreira",
+    "handle": "@jay.ferreira",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_76",
+    "name": "Monsieur IA",
+    "handle": "@monsieur_ia",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_77",
+    "name": "Tony Comiti Media",
+    "handle": "@tonycomitimedia",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_78",
+    "name": "Claire no-code",
+    "handle": "@clairenocode",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_79",
+    "name": "iampauljames",
+    "handle": "@iampauljames",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_80",
+    "name": "Believemy",
+    "handle": "@believemy",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_81",
+    "name": "Darkito",
+    "handle": "@Darkito",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_82",
+    "name": "Yao AG",
+    "handle": "@yao_ag",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_83",
+    "name": "Les vidéos d'Alexis sur le no-code et l'IA",
+    "handle": "@alexkovax",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_84",
+    "name": "Zakino",
+    "handle": "@zakiiino",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_85",
+    "name": "Accélérer dans le Digital",
+    "handle": "@AccélérateurDigital",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_86",
+    "name": "AI Insights Hub",
+    "handle": "@AIinsighthub001",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_87",
+    "name": "ARAD",
+    "handle": "@Le_arad",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_88",
+    "name": "Sora",
+    "handle": "@Universdesora",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_89",
+    "name": "Stokes Twins",
+    "handle": "@StokesTwins",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_90",
+    "name": "Yasmine rblx",
+    "handle": "@Yasrblx90",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_91",
+    "name": "BFM Tech",
+    "handle": "@BFM_Tech",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_92",
+    "name": "Cauet",
+    "handle": "@cauet",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_93",
+    "name": "Brock Mesarich | AI for Non Techies",
+    "handle": "@BrockMesarich",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_94",
+    "name": "CodFamilya _",
+    "handle": "@codfamilya",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_95",
+    "name": "RRayroxOfficiel",
+    "handle": "@RRayroxOfficiel",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_96",
+    "name": "lilbronn",
+    "handle": "@lilbronn",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_97",
+    "name": "Clair.",
+    "handle": "@Clair.officiel",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_98",
+    "name": "Litsu Roblox",
+    "handle": "@LitsuRoblox",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_99",
+    "name": "Meydeey | AI Automation",
+    "handle": "@meydeey",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_100",
+    "name": "Maytou",
+    "handle": "@MaytouOG",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_101",
+    "name": "NAOXO",
+    "handle": "@Naoxo_gaming",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_102",
+    "name": "Julian Goldie SEO",
+    "handle": "@JulianGoldieSEO",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_103",
+    "name": "Alpa14",
+    "handle": "@Alpa14",
+    "category": "IA",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_104",
+    "name": "ZKA",
+    "handle": "@zakcecrack",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_105",
+    "name": "Graphyx",
+    "handle": "@GraphyxYT",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_106",
+    "name": "Mr HacHana",
+    "handle": "@H-Hachana",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_107",
+    "name": "WBE12",
+    "handle": "@WBE12Yt",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_108",
+    "name": "Neezay 2.0",
+    "handle": "@neezayshorts",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": "chan_user_109",
+    "name": "Swan The Voice - Neo & Swan",
+    "handle": "@SWANTheVoice",
+    "category": "Actualités Générales",
+    "active": true,
+    "logo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100&h=100&fit=crop"
+  }
+]

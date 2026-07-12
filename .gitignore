@@ -1,0 +1,6 @@
+__pycache__/
+*.html
+*.json
+*.md
+!README.md
+!subscriptions.json
