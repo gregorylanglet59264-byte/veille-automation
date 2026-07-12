@@ -70,54 +70,33 @@ def call_llm(system_prompt, user_prompt):
     print("[LLM] ERREUR : Aucune clé API configurée.")
     return None
 
-def main():
-    print(f"1. Chargement de l'index du forum : {INDEX_URL}")
-    try:
-        html_index = fetch_url(INDEX_URL)
-    except Exception as e:
-        print(f"Erreur index : {e}")
-        sys.exit(1)
-        
-    topic_links = re.findall(r'href=["\'](https://forums.infoclimat.fr/f/topic/\d+-[^"\']+)["\']', html_index)
-    clean_topics = []
-    seen = set()
-    for link in topic_links:
-        base_link = link.split('?')[0].split('#')[0]
-        if base_link not in seen and ("previsions" in base_link or "pr%C3%A9visions" in base_link or "semaine" in base_link):
-            seen.add(base_link)
-            clean_topics.append(base_link)
-            
-    if not clean_topics:
-        print("Aucun sujet de prévisions trouvé.")
-        sys.exit(1)
-        
-    target_topic = clean_topics[0]
+def process_topic(target_topic, topic_idx):
     # Extraire et décoder un titre propre du sujet à partir de l'URL
     import urllib.parse
     decoded_topic = urllib.parse.unquote(target_topic)
     topic_title_slug = decoded_topic.rstrip('/').split('/')[-1]
     topic_title_slug = re.sub(r'^\d+-', '', topic_title_slug)  # Enlever l'ID du sujet au début
     topic_title_clean = topic_title_slug.replace('-', ' ').title()
-    print(f"Sujet identifié : {topic_title_clean} ({target_topic})")
+    print(f"\n--- Sujet [{topic_idx+1}] : {topic_title_clean} ({target_topic}) ---")
     
-    print("Analyse de la pagination...")
+    print(f"[{topic_idx+1}] Analyse de la pagination...")
     try:
         html_topic = fetch_url(target_topic)
     except Exception as e:
         print(f"Erreur sujet : {e}")
-        sys.exit(1)
+        return None
         
     pages = re.findall(r'\?page=(\d+)', html_topic)
     last_page = 1
     if pages:
         last_page = max(int(p) for p in pages)
-    print(f"Pages détectées : {last_page}")
+    print(f"[{topic_idx+1}] Pages détectées : {last_page}")
     
     start_page = max(1, last_page - 2)
     all_comments = []
     all_authors = []
     
-    print(f"Chargement des commentaires des pages {start_page} à {last_page}...")
+    print(f"[{topic_idx+1}] Chargement des commentaires des pages {start_page} à {last_page}...")
     for page in range(start_page, last_page + 1):
         page_url = f"{target_topic}?page={page}"
         try:
@@ -142,7 +121,7 @@ def main():
     recent_messages_text = "\n\n=======================\n\n".join(cleaned_comments_data[-15:])
     
     # Extraire et télécharger les graphiques candidats
-    print("Extraction des graphiques...")
+    print(f"[{topic_idx+1}] Extraction des graphiques...")
     candidate_imgs = []
     seen_imgs = set()
     for comment in all_comments:
@@ -158,19 +137,14 @@ def main():
     candidate_imgs.sort(key=lambda x: x[1], reverse=True)
     
     os.makedirs("candidates", exist_ok=True)
-    # Vider le dossier
-    for f in os.listdir("candidates"):
-        try: os.remove(os.path.join("candidates", f))
-        except: pass
-        
     downloaded_images = []
     for idx, (img_url, prio) in enumerate(candidate_imgs[:3]):
         ext = "png"
         if ".gif" in img_url.lower(): ext = "gif"
         elif ".jpg" in img_url.lower() or ".jpeg" in img_url.lower(): ext = "jpg"
         
-        dest_file = f"candidates/candidate_{idx+1}.{ext}"
-        print(f"Téléchargement graphique {idx+1} : {img_url} -> {dest_file}")
+        dest_file = f"candidates/topic_{topic_idx+1}_candidate_{idx+1}.{ext}"
+        print(f"[{topic_idx+1}] Téléchargement graphique {idx+1} : {img_url} -> {dest_file}")
         try:
             req = urllib.request.Request(img_url, headers={'User-Agent': USER_AGENT})
             with urllib.request.urlopen(req, timeout=12) as img_resp:
@@ -181,18 +155,18 @@ def main():
             print(f"Erreur téléchargement graphique {idx+1} : {e}")
 
     # Appeler l'IA pour l'analyse des scénarios et la rédaction du post LinkedIn
-    print("Appel de l'IA pour l'analyse des scénarios météo...")
-    system_prompt = """Tu es un analyste météorologue senior (Monsieur Météo). Ton rôle est d'analyser en profondeur les discussions récentes des prévisionnistes du forum pour en extraire la tendance à moyen et long terme sous forme de 3 scénarios (Majoritaire, Médian, Minoritaire) avec leurs probabilités associées.
+    print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse des scénarios météo...")
+    system_prompt = """Tu es un analyste météorologue senior (Monsieur Météo). Ton rôle est d'analyser en profondeur les discussions récentes des prévisionnistes du forum pour en extraire la tendance de cette semaine cible sous forme de 3 scénarios (Majoritaire, Médian, Minoritaire) avec leurs probabilités associées.
 
-Tu dois ensuite rédiger un post LinkedIn extrêmement complet et engageant, prêt à copier-coller.
+Tu dois ensuite rédiger un post LinkedIn extrêmement percutant et engageant, prêt à copier-coller.
 
 RÈGLES CRITIQUES ET ABSOLUES :
-1. RÈGLE CRITIQUE : Ne mentionne JAMAIS le nom du forum 'Infoclimat', ses membres, ni leurs pseudos. Présente les analyses comme "le consensus de la communauté des prévisionnistes", "les analyses des modèles" ou "notre consensus".
+1. RÈGLE CRITIQUE : Ne mentionne JAMAIS le forum Infoclimat, ses membres, ni leurs pseudos. Présente les analyses comme "le consensus de la communauté des prévisionnistes", "les analyses des modèles" ou "notre consensus".
 2. RÈGLE CRITIQUE : Ne mets AUCUN formatage markdown (comme ** ou * ou # ou `) dans le post LinkedIn. Le texte doit être brut, aéré, structuré uniquement avec des émojis et des listes à puces.
 3. RÈGLE CRITIQUE : Rédige en français uniquement.
 4. RÈGLE CRITIQUE : Calcule la probabilité des 3 scénarios en utilisant une pondération logique. Le scénario minoritaire (option extrême/isolée) doit être estimé à moins de 5%.
-5. RÈGLE CRITIQUE : Chaque scénario (majoritaire, médian, minoritaire) doit être extrêmement détaillé et faire au moins 3 à 4 paragraphes complets (au moins 200 à 250 mots par scénario). Explique les mécanismes physiques précis (rôle des centres d'action, gouttes froides, dorsales anticycloniques, flux à 850 hPa, etc.), les impacts géographiques contrastés (détails distincts pour le Nord et le Sud de la France) et les anomalies thermiques/précipitations.
-6. RÈGLE CRITIQUE : Le post LinkedIn doit être extrêmement qualitatif, technique mais accessible, avec du storytelling haletant, et faire au moins 300 à 450 mots.
+5. RÈGLE CRITIQUE : Chaque scénario (majoritaire, médian, minoritaire) doit être clair, synthétique, percutant et faire 1 à 2 paragraphes maximum (environ 100 à 150 mots). Explique succinctement mais précisément les mécanismes physiques (anticyclones, dépressions, gouttes froides, flux à 850 hPa) et les impacts géographiques Nord/Sud.
+6. RÈGLE CRITIQUE : Le post LinkedIn doit être extrêmement qualitatif, technique mais accessible, avec du storytelling haletant, et faire environ 200 à 300 mots.
 7. RÈGLE CRITIQUE : Termine obligatoirement le post LinkedIn par une question engageante pour susciter les commentaires des professionnels.
 
 Format de sortie attendu : Rends les différentes parties séparées EXACTEMENT par les balises suivantes dans ton texte brut (ne mets pas de bloc de code markdown) :
@@ -204,22 +178,22 @@ Titre indiquant la semaine et les dates de prévision (ex: Semaine 30 du 20 au 2
 70%
 
 [SCENARIO_MAJORITAIRE_DESC]
-Texte ultra-détaillé de plusieurs paragraphes (200-250 mots minimum) sur le scénario majoritaire.
+Texte synthétique et percutant de 1-2 paragraphes sur le scénario majoritaire.
 
 [SCENARIO_MEDIAN_PROB]
 25%
 
 [SCENARIO_MEDIAN_DESC]
-Texte ultra-détaillé de plusieurs paragraphes (200-250 mots minimum) sur le scénario médian.
+Texte synthétique et percutant de 1-2 paragraphes sur le scénario médian.
 
 [SCENARIO_MINORITAIRE_PROB]
 5%
 
 [SCENARIO_MINORITAIRE_DESC]
-Texte ultra-détaillé de plusieurs paragraphes (200-250 mots minimum) sur le scénario minoritaire.
+Texte synthétique et percutant de 1-2 paragraphes sur le scénario minoritaire.
 
 [LINKEDIN_POST]
-Texte complet du post LinkedIn, aéré, sans aucun markdown, rempli d'émojis."""
+Texte complet du post LinkedIn professionnel optimisé, aéré, sans aucun markdown, rempli d'émojis."""
 
     user_prompt = f"Discussions récentes des prévisionnistes :\n\n{recent_messages_text}"
     response = call_llm(system_prompt, user_prompt)
@@ -227,7 +201,7 @@ Texte complet du post LinkedIn, aéré, sans aucun markdown, rempli d'émojis.""
     data = None
     if response:
         try:
-            print("Parsing de la réponse textuelle de l'IA...")
+            print(f"[{topic_idx+1}] Parsing de la réponse de l'IA...")
             blocks = {
                 "subject_title": r"\[SUBJECT_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "majoritaire_prob": r"\[SCENARIO_MAJORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
@@ -257,13 +231,12 @@ Texte complet du post LinkedIn, aéré, sans aucun markdown, rempli d'émojis.""
                     },
                     "linkedin_post": parsed["linkedin_post"]
                 }
-                print("Parsing textuel réussi avec succès !")
+                print(f"[{topic_idx+1}] Parsing textuel réussi avec succès !")
         except Exception as e:
-            print(f"Erreur de parsing textuel : {e}")
-            data = None
+            print(f"[{topic_idx+1}] Erreur parsing textuel : {e}")
             
     if not data:
-        print("Utilisation du plan de secours (fallback)...")
+        print(f"[{topic_idx+1}] Utilisation du plan de secours...")
         data = {
             "subject_title": topic_title_clean,
             "scenarios": {
@@ -274,94 +247,156 @@ Texte complet du post LinkedIn, aéré, sans aucun markdown, rempli d'émojis.""
             "linkedin_post": f"🚨 FOCUS MÉTÉO : Tendances pour la semaine !\n\nConsensus des prévisionnistes :\n- Scénario Majoritaire (70%) : Temps de saison.\n- Scénario Médian (25%) : Instabilité orageuse.\n- Scénario Minoritaire (5%) : Canicule isolée.\n\n💬 Et chez vous, quel temps préférez-vous ? 👇\n\n#Meteo #Previsions #Climat"
         }
         
-    # Encodage des images téléchargées en base64 pour insertion HTML directe
-    html_images_block = ""
-    for idx, img_path in enumerate(downloaded_images):
-        try:
-            with open(img_path, "rb") as f_img:
-                img_b64 = base64.b64encode(f_img.read()).decode('ascii')
-            ext = img_path.split('.')[-1]
-            html_images_block += f"""
-            <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 28px; text-align: center;">
-                <span style="font-weight: bold; font-size: 13px; color: #1e293b; display: block; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">📈 Graphique Météo Candidat {idx+1}</span>
-                <img src="data:image/{ext};base64,{img_b64}" style="width: 100%; max-width: 600px; border: 1px solid #cbd5e1; border-radius: 6px; display: inline-block;" alt="Graphique Infoclimat {idx+1}">
-            </div>
-            """
-        except Exception as e:
-            print(f"Erreur encodage base64 pour {img_path} : {e}")
+    return {
+        "data": data,
+        "images": downloaded_images
+    }
 
-    # Nettoyage des posts LinkedIn (remplacer sauts de ligne pour affichage propre dans le box)
-    linkedin_post_clean = data["linkedin_post"].replace('<br>', '\n').replace('<br/>', '\n')
-
-    # Génération du HTML
+def main():
+    print(f"1. Chargement de l'index du forum : {INDEX_URL}")
+    try:
+        html_index = fetch_url(INDEX_URL)
+    except Exception as e:
+        print(f"Erreur index : {e}")
+        sys.exit(1)
+        
+    topic_links = re.findall(r'href=["\'](https://forums.infoclimat.fr/f/topic/\d+-[^"\']+)["\']', html_index)
+    clean_topics = []
+    seen = set()
+    for link in topic_links:
+        base_link = link.split('?')[0].split('#')[0]
+        if base_link not in seen and ("previsions" in base_link or "pr%C3%A9visions" in base_link or "semaine" in base_link):
+            seen.add(base_link)
+            clean_topics.append(base_link)
+            
+    if not clean_topics:
+        print("Aucun sujet de prévisions trouvé.")
+        sys.exit(1)
+        
+    # Extraire les deux semaines : clean_topics[1] (cours) et clean_topics[0] (suivante)
+    # On les trie par ordre chronologique pour l'affichage (semaine en cours d'abord, puis semaine suivante)
+    topics_to_process = []
+    if len(clean_topics) >= 2:
+        topics_to_process = [clean_topics[1], clean_topics[0]]
+    else:
+        topics_to_process = [clean_topics[0]]
+        
+    results = []
+    for idx, topic in enumerate(topics_to_process):
+        res = process_topic(topic, idx)
+        if res:
+            results.append(res)
+            
+    if not results:
+        print("Aucun sujet n'a pu être traité.")
+        sys.exit(1)
+        
+    # Génération du HTML combiné pour les deux semaines
     style = """
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #334155; background-color: #f1f5f9; margin: 0; padding: 20px; }
-    .container { max-width: 700px; background-color: #ffffff; margin: 0 auto; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border: 1px solid #e2e8f0; }
-    .header { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: #ffffff; padding: 30px; text-align: center; }
-    .header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+    .container { max-width: 800px; background-color: #ffffff; margin: 0 auto; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border: 1px solid #e2e8f0; }
+    .header { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: #ffffff; padding: 35px; text-align: center; }
+    .header h1 { margin: 0; font-size: 26px; font-weight: 800; letter-spacing: 0.5px; }
     .header p { margin: 8px 0 0 0; font-size: 14px; opacity: 0.9; }
-    .content { padding: 30px; }
-    .section-title { font-size: 15px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #1e3a8a; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #3b82f6; padding-bottom: 6px; }
-    .scenario-card { border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid #e2e8f0; }
+    .content { padding: 35px; }
+    .week-divider { border-top: 3px dashed #cbd5e1; margin: 50px 0; }
+    .week-header { font-size: 20px; font-weight: 800; color: #1e3a8a; margin-bottom: 25px; padding-left: 10px; border-left: 5px solid #3b82f6; text-transform: uppercase; }
+    .section-title { font-size: 14px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #475569; margin-top: 25px; margin-bottom: 12px; border-bottom: 1px solid #cbd5e1; padding-bottom: 4px; }
+    .scenario-card { border-radius: 12px; padding: 18px; margin-bottom: 15px; border: 1px solid #e2e8f0; }
     .sc-major { background-color: #ecfdf5; border-left: 5px solid #10b981; }
     .sc-median { background-color: #fef3c7; border-left: 5px solid #f59e0b; }
     .sc-minor { background-color: #fef2f2; border-left: 5px solid #ef4444; }
-    .sc-title { font-size: 16px; font-weight: 700; color: #1e293b; display: flex; justify-content: space-between; margin-bottom: 10px; }
-    .sc-prob { font-size: 14px; padding: 2px 8px; border-radius: 20px; color: #ffffff; }
+    .sc-title { font-size: 15px; font-weight: 700; color: #1e293b; display: flex; justify-content: space-between; margin-bottom: 8px; }
+    .sc-prob { font-size: 13px; padding: 2px 8px; border-radius: 20px; color: #ffffff; font-weight: 700; }
     .bg-major { background-color: #10b981; }
     .bg-median { background-color: #f59e0b; }
     .bg-minor { background-color: #ef4444; }
-    .social-box { background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 20px; border-radius: 8px; font-family: monospace; font-size: 13.5px; white-space: pre-wrap; color: #334155; margin-bottom: 25px; line-height: 1.5; }
+    .social-box { background-color: #f8fafc; border: 1px dashed #3b82f6; padding: 20px; border-radius: 10px; font-family: monospace; font-size: 13px; white-space: pre-wrap; color: #1e293b; margin-bottom: 30px; line-height: 1.5; border-left: 4px solid #3b82f6; }
     """
+
+    weeks_html = ""
+    for w_idx, w_res in enumerate(results):
+        data = w_res["data"]
+        downloaded_images = w_res["images"]
+        
+        # Encodage des graphiques de cette semaine
+        html_images_block = ""
+        for idx, img_path in enumerate(downloaded_images):
+            try:
+                with open(img_path, "rb") as f_img:
+                    img_b64 = base64.b64encode(f_img.read()).decode('ascii')
+                ext = img_path.split('.')[-1]
+                html_images_block += f"""
+                <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 15px; margin-top: 15px; text-align: center; display: inline-block; width: 45%; margin-right: 4%; vertical-align: top;">
+                    <span style="font-weight: bold; font-size: 11px; color: #475569; display: block; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">📈 Graphique Candidat {idx+1}</span>
+                    <img src="data:image/{ext};base64,{img_b64}" style="width: 100%; border: 1px solid #cbd5e1; border-radius: 4px;" alt="Graphique Infoclimat {idx+1}">
+                </div>
+                """
+            except Exception as e:
+                print(f"Erreur encodage base64 pour {img_path} : {e}")
+        
+        if html_images_block:
+            html_images_block = f"""
+            <div class="section-title">📊 GRAPHIQUES METEO ASSOCIES</div>
+            <div style="text-align: left;">{html_images_block}</div>
+            """
+
+        linkedin_post_clean = data["linkedin_post"].replace('<br>', '\n').replace('<br/>', '\n')
+        
+        divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
+        weeks_html += f"""
+        {divider}
+        <div class="week-header">📅 {data['subject_title']}</div>
+        
+        <div class="section-title">📰 PROPOSITION DE POST LINKEDIN OPTIMISE (SANS MARKDOWN)</div>
+        <div class="social-box">{linkedin_post_clean}</div>
+        
+        <div class="section-title">🔮 LES 3 SCENARIOS DE PROBABILITES</div>
+        
+        <div class="scenario-card sc-major">
+            <div class="sc-title">
+                <span>🟢 SCÉNARIO MAJORITAIRE</span>
+                <span class="sc-prob bg-major">{data['scenarios']['majoritaire']['prob']}</span>
+            </div>
+            <p style="margin: 0; font-size: 13px; line-height: 1.5; text-align: justify; color: #334155;">{data['scenarios']['majoritaire']['desc']}</p>
+        </div>
+        
+        <div class="scenario-card sc-median">
+            <div class="sc-title">
+                <span>🟡 SCÉNARIO MÉDIAN</span>
+                <span class="sc-prob bg-median">{data['scenarios']['median']['prob']}</span>
+            </div>
+            <p style="margin: 0; font-size: 13px; line-height: 1.5; text-align: justify; color: #334155;">{data['scenarios']['median']['desc']}</p>
+        </div>
+        
+        <div class="scenario-card sc-minor">
+            <div class="sc-title">
+                <span>🔴 SCÉNARIO MINORITAIRE</span>
+                <span class="sc-prob bg-minor">{data['scenarios']['minoritaire']['prob']}</span>
+            </div>
+            <p style="margin: 0; font-size: 13px; line-height: 1.5; text-align: justify; color: #334155;">{data['scenarios']['minoritaire']['desc']}</p>
+        </div>
+        
+        {html_images_block}
+        """
 
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyses & Tendances - {data['subject_title']}</title>
+    <title>Analyses & Tendances Météo - Forum</title>
     <style>{style}</style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
-            <h1>📊 ÉVOLUTION & TENDANCES MÉTÉO</h1>
-            <p>{data['subject_title']} • Analyse du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
+            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</h1>
+            <p>Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} pour les 2 prochaines semaines</p>
         </div>
         <div class="content">
-            
-            <div class="section-title">📰 PROPOSITION DE POST LINKEDIN (SANS MARKDOWN)</div>
-            <div class="social-box">{linkedin_post_clean}</div>
-            
-            <div class="section-title">🔮 LES 3 SCÉNARIOS DE PROBABILITÉS</div>
-            
-            <div class="scenario-card sc-major">
-                <div class="sc-title">
-                    <span>🟢 SCÉNARIO MAJORITAIRE</span>
-                    <span class="sc-prob bg-major">{data['scenarios']['majoritaire']['prob']}</span>
-                </div>
-                <p style="margin: 0; font-size: 13.5px; line-height: 1.6; text-align: justify;">{data['scenarios']['majoritaire']['desc']}</p>
-            </div>
-            
-            <div class="scenario-card sc-median">
-                <div class="sc-title">
-                    <span>🟡 SCÉNARIO MÉDIAN</span>
-                    <span class="sc-prob bg-median">{data['scenarios']['median']['prob']}</span>
-                </div>
-                <p style="margin: 0; font-size: 13.5px; line-height: 1.6; text-align: justify;">{data['scenarios']['median']['desc']}</p>
-            </div>
-            
-            <div class="scenario-card sc-minor">
-                <div class="sc-title">
-                    <span>🔴 SCÉNARIO MINORITAIRE</span>
-                    <span class="sc-prob bg-minor">{data['scenarios']['minoritaire']['prob']}</span>
-                </div>
-                <p style="margin: 0; font-size: 13.5px; line-height: 1.6; text-align: justify;">{data['scenarios']['minoritaire']['desc']}</p>
-            </div>
-            
-            {html_images_block}
-            
+            {weeks_html}
         </div>
     </div>
 </body>
@@ -389,14 +424,20 @@ Texte complet du post LinkedIn, aéré, sans aucun markdown, rempli d'émojis.""
         sys.exit(0)
         
     sender = gmail_email
-    # Convertir le sujet en ASCII pur pour éviter les erreurs d'encodage SMTP sur les caractères non-ASCII
+    
+    # Titres abrégés pour le sujet du mail
+    subject_week_names = " & ".join([r["data"]["subject_title"].split("-")[0].strip() for r in results])
+    subject = f"Analyses & Tendances Meteo - {subject_week_names}"
+    
+    # Nettoyage ASCII du sujet pour éviter les rejets SMTP
     import unicodedata
-    clean_subj = unicodedata.normalize('NFKD', data['subject_title']).encode('ASCII', 'ignore').decode('ASCII')
-    subject = f"Analyses & Tendances Meteo - {clean_subj}"
+    clean_subj = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
+    subject = clean_subj
+    
     filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
     html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
-    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint l'analyse des tendances et de l'évolution météo à long terme issue du forum Infoclimat pour : {data['subject_title']}.\n\nLe rapport HTML contenant le post LinkedIn rédigé ainsi que les graphiques joints est attaché à ce message.\n\nCordialement,\nMonsieur Météo"
+    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint l'analyse consolidée des tendances météo pour la semaine en cours et la semaine suivante.\n\nLe rapport HTML contenant les scénarios synthétisés, les posts LinkedIn associés et les graphiques de modélisation est joint à ce message.\n\nCordialement,\nMonsieur Météo"
     text_b64 = base64.b64encode(text_body.encode('utf-8')).decode('ascii')
     boundary = uuid.uuid4().hex
     
