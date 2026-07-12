@@ -428,11 +428,15 @@ def send_email(html_body, date_str):
     smtp_email = os.environ.get("SMTP_EMAIL", "gregory.langlet@sfr.fr")
     smtp_password = os.environ.get("SMTP_PASSWORD")
     
+    # Récupération des destinataires (par défaut toi, sinon liste séparée par des virgules)
+    recipients_raw = os.environ.get("RECIPIENT_EMAILS", smtp_email)
+    recipients = [r.strip() for r in recipients_raw.split(",") if r.strip()]
+    
     if not smtp_password:
         print("[SMTP] ERREUR : SMTP_PASSWORD manquant dans l'environnement. Impossible d'envoyer le mail.")
         sys.exit(1)
         
-    print(f"[SMTP] Connexion à smtp.sfr.fr pour envoi à {smtp_email}...")
+    print(f"[SMTP] Connexion à smtp.sfr.fr pour envoi à {', '.join(recipients)}...")
     try:
         from email.mime.base import MIMEBase
         from email import encoders
@@ -441,15 +445,15 @@ def send_email(html_body, date_str):
         msg = MIMEMultipart('mixed')
         display_name = "Gregory LANGLET"
         msg['From'] = f"{display_name} <{smtp_email}>"
-        msg['To'] = f"{display_name} <{smtp_email}>"
+        msg['To'] = ", ".join(recipients)
         msg['Subject'] = f"Veille Quotidienne Unifiee - {date_str}"
         msg['Message-ID'] = make_msgid()
         msg['Date'] = formatdate(localtime=True)
         msg['MIME-Version'] = '1.0'
         msg['X-Mailer'] = 'Python/smtplib (Linux)'
         
-        # Corps simple et épuré pour éviter le filtre anti-spam
-        text_body = f"Bonjour Gregory,\n\nVeuillez trouver ci-joint votre rapport de veille unifiée mis en page pour aujourd'hui ({date_str}).\n\nLe document complet au format HTML avec tous les liens cliquables est attaché à ce message.\n\nCordialement,\nGregory LANGLET"
+        # Corps simple et épuré pour éviter le filtre anti-spam (générique)
+        text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le rapport de veille unifiée mis en page pour aujourd'hui ({date_str}).\n\nLe document complet au format HTML avec tous les liens cliquables est attaché à ce message.\n\nCordialement,\nL'assistant de Veille"
         msg.attach(MIMEText(text_body, 'plain', 'utf-8'))
         
         # Ajout du HTML en pièce jointe
@@ -462,7 +466,7 @@ def send_email(html_body, date_str):
         
         with smtplib.SMTP_SSL("smtp.sfr.fr", 465) as server:
             server.login(smtp_email, smtp_password)
-            server.sendmail(smtp_email, [smtp_email], msg.as_string())
+            server.sendmail(smtp_email, recipients, msg.as_string())
         print("[SMTP] E-mail envoyé avec succès !")
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi de l'e-mail : {e}")
