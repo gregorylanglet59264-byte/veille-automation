@@ -1,2 +1,4 @@
 yt-dlp
-# Aucun autre package n'est requis car les appels d'API et l'envoi de mail SMTP utilisent les bibliothèques standard de Python (urllib, xml, smtplib, email).
+pymupdf
+pillow
+playwright
