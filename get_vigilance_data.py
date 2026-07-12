@@ -966,7 +966,7 @@ C'est du jamais vu pour un début juillet ! Une masse d'air d'une chaleur histor
             
             # Objet de mail multipart mixed
             msg = MIMEMultipart('mixed')
-            display_name = "Monsieur Météo"
+            display_name = "Monsieur Meteo"
             msg['From'] = f"{display_name} <{smtp_email}>"
             msg['To'] = ", ".join(recipients)
             msg['Subject'] = f"Bulletin de Vigilance Météo-France - {now.strftime('%d/%m/%Y')}"
