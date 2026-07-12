@@ -29,6 +29,19 @@ REGIONS = {
     "bourgogne-franche-comte": ["21", "25", "39", "58", "70", "71", "89", "90"],
     "grand est": ["08", "10", "51", "52", "54", "55", "57", "67", "68", "88"]
 }
+import re
+
+def normalize_text(text):
+    text = text.lower().strip()
+    text = re.sub(r'[éèêë]', 'e', text)
+    text = re.sub(r'[àâä]', 'a', text)
+    text = re.sub(r'[îï]', 'i', text)
+    text = re.sub(r'[ôö]', 'o', text)
+    text = re.sub(r'[ûü]', 'u', text)
+    text = re.sub(r'[ç]', 'c', text)
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
+    text = re.sub(r'[\s-]+', ' ', text)
+    return text.strip()
 
 def send_email_report(html_body, subject, recipient):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
