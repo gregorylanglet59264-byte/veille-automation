@@ -191,36 +191,79 @@ RÈGLES CRITIQUES ET ABSOLUES :
 2. RÈGLE CRITIQUE : Ne mets AUCUN formatage markdown (comme ** ou * ou # ou `) dans le post LinkedIn. Le texte doit être brut, aéré, structuré uniquement avec des émojis et des listes à puces.
 3. RÈGLE CRITIQUE : Rédige en français uniquement.
 4. RÈGLE CRITIQUE : Calcule la probabilité des 3 scénarios en utilisant une pondération logique. Le scénario minoritaire (option extrême/isolée) doit être estimé à moins de 5%.
-5. RÈGLE CRITIQUE : Chaque scénario (majoritaire, médian, minoritaire) dans la section 'scenarios' de ta réponse doit être extrêmement détaillé et faire au moins 3 à 4 paragraphes complets (au moins 200 à 250 mots par scénario). Explique les mécanismes physiques précis (rôle des centres d'action, gouttes froides, dorsales anticycloniques, flux à 850 hPa, etc.), les impacts géographiques contrastés (détails distincts pour le Nord et le Sud de la France) et les anomalies thermiques/précipitations.
+5. RÈGLE CRITIQUE : Chaque scénario (majoritaire, médian, minoritaire) doit être extrêmement détaillé et faire au moins 3 à 4 paragraphes complets (au moins 200 à 250 mots par scénario). Explique les mécanismes physiques précis (rôle des centres d'action, gouttes froides, dorsales anticycloniques, flux à 850 hPa, etc.), les impacts géographiques contrastés (détails distincts pour le Nord et le Sud de la France) et les anomalies thermiques/précipitations.
 6. RÈGLE CRITIQUE : Le post LinkedIn doit être extrêmement qualitatif, technique mais accessible, avec du storytelling haletant, et faire au moins 300 à 450 mots.
 7. RÈGLE CRITIQUE : Termine obligatoirement le post LinkedIn par une question engageante pour susciter les commentaires des professionnels.
 
-Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :
-{
-  "subject_title": "Titre propre et précis indiquant explicitement la semaine et les dates de prévision (ex: Semaine 30 du 20 au 26 Juillet 2026 - Tendances de la Communauté)",
-  "scenarios": {
-    "majoritaire": {"prob": "70%", "desc": "Rapport complet et ultra-détaillé du scénario majoritaire (plusieurs paragraphes de physique et géographie)"},
-    "median": {"prob": "25%", "desc": "Rapport complet et ultra-détaillé du scénario médian (plusieurs paragraphes de physique et géographie)"},
-    "minoritaire": {"prob": "5%", "desc": "Rapport complet et ultra-détaillé du scénario minoritaire expliquant sa physique et pourquoi il reste minoritaire"}
-  },
-  "linkedin_post": "Texte complet du post LinkedIn professionnel, aéré, sans aucun markdown, rempli d'émojis"
-}"""
+Format de sortie attendu : Rends les différentes parties séparées EXACTEMENT par les balises suivantes dans ton texte brut (ne mets pas de bloc de code markdown) :
+
+[SUBJECT_TITLE]
+Titre indiquant la semaine et les dates de prévision (ex: Semaine 30 du 20 au 26 Juillet 2026 - Tendances de la Communauté)
+
+[SCENARIO_MAJORITAIRE_PROB]
+70%
+
+[SCENARIO_MAJORITAIRE_DESC]
+Texte ultra-détaillé de plusieurs paragraphes (200-250 mots minimum) sur le scénario majoritaire.
+
+[SCENARIO_MEDIAN_PROB]
+25%
+
+[SCENARIO_MEDIAN_DESC]
+Texte ultra-détaillé de plusieurs paragraphes (200-250 mots minimum) sur le scénario médian.
+
+[SCENARIO_MINORITAIRE_PROB]
+5%
+
+[SCENARIO_MINORITAIRE_DESC]
+Texte ultra-détaillé de plusieurs paragraphes (200-250 mots minimum) sur le scénario minoritaire.
+
+[LINKEDIN_POST]
+Texte complet du post LinkedIn, aéré, sans aucun markdown, rempli d'émojis."""
 
     user_prompt = f"Discussions récentes des prévisionnistes :\n\n{recent_messages_text}"
     response = call_llm(system_prompt, user_prompt)
     
+    data = None
     if response:
         try:
-            response_clean = response.strip().replace("```json", "").replace("```", "").strip()
-            data = json.loads(response_clean, strict=False)
+            print("Parsing de la réponse textuelle de l'IA...")
+            blocks = {
+                "subject_title": r"\[SUBJECT_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "majoritaire_prob": r"\[SCENARIO_MAJORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "majoritaire_desc": r"\[SCENARIO_MAJORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "median_prob": r"\[SCENARIO_MEDIAN_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "median_desc": r"\[SCENARIO_MEDIAN_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "minoritaire_prob": r"\[SCENARIO_MINORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "minoritaire_desc": r"\[SCENARIO_MINORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "linkedin_post": r"\[LINKEDIN_POST\]\s*\n(.*?)(?=\n\s*\[|$)"
+            }
+            
+            parsed = {}
+            for key, pattern in blocks.items():
+                match = re.search(pattern, response, re.DOTALL)
+                if match:
+                    parsed[key] = match.group(1).strip()
+                else:
+                    parsed[key] = ""
+            
+            if parsed["subject_title"] and parsed["linkedin_post"]:
+                data = {
+                    "subject_title": parsed["subject_title"],
+                    "scenarios": {
+                        "majoritaire": {"prob": parsed["majoritaire_prob"] or "70%", "desc": parsed["majoritaire_desc"]},
+                        "median": {"prob": parsed["median_prob"] or "25%", "desc": parsed["median_desc"]},
+                        "minoritaire": {"prob": parsed["minoritaire_prob"] or "5%", "desc": parsed["minoritaire_desc"]}
+                    },
+                    "linkedin_post": parsed["linkedin_post"]
+                }
+                print("Parsing textuel réussi avec succès !")
         except Exception as e:
-            print(f"Erreur parsing JSON IA : {e}")
+            print(f"Erreur de parsing textuel : {e}")
             data = None
-    else:
-        data = None
-        
+            
     if not data:
-        # Fallback de secours si l'IA échoue
+        print("Utilisation du plan de secours (fallback)...")
         data = {
             "subject_title": topic_title_clean,
             "scenarios": {
@@ -228,7 +271,7 @@ Format de sortie attendu : JSON uniquement avec la structure suivante (sans bloc
                 "median": {"prob": "25%", "desc": "Variante humide avec baisse des températures par l'ouest et retour d'une instabilité orageuse localisée."},
                 "minoritaire": {"prob": "5%", "desc": "Option caniculaire extrême isolée non confirmée par les modèles d'ensemble."}
             },
-            "linkedin_post": "🚨 FOCUS MÉTÉO : Tendances pour les prochains jours !\n\nConsensus des prévisionnistes :\n- Scénario Majoritaire (70%) : Temps de saison.\n- Scénario Médian (25%) : Instabilité orageuse.\n- Scénario Minoritaire (5%) : Canicule isolée.\n\n💬 Et chez vous, quel temps préférez-vous ? 👇\n\n#Meteo #Previsions #Climat"
+            "linkedin_post": f"🚨 FOCUS MÉTÉO : Tendances pour la semaine !\n\nConsensus des prévisionnistes :\n- Scénario Majoritaire (70%) : Temps de saison.\n- Scénario Médian (25%) : Instabilité orageuse.\n- Scénario Minoritaire (5%) : Canicule isolée.\n\n💬 Et chez vous, quel temps préférez-vous ? 👇\n\n#Meteo #Previsions #Climat"
         }
         
     # Encodage des images téléchargées en base64 pour insertion HTML directe
