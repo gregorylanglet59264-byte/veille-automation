@@ -31,20 +31,32 @@ def get_date_fr():
 
 # 1. Collecte Google News RSS
 def fetch_google_news(query):
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     try:
         encoded_query = urllib.parse.quote(query)
         url = f"https://news.google.com/rss/search?q={encoded_query}&hl=fr&gl=FR&ceid=FR:fr"
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": user_agent})
         with urllib.request.urlopen(req, timeout=15) as response:
             xml_data = response.read()
-        
+    except Exception as e:
+        print(f"Échec de Google News pour la requête '{query}' ({e}). Utilisation du flux de secours Le Monde RSS...")
+        try:
+            url = "https://www.lemonde.fr/rss/une.xml"
+            req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+            with urllib.request.urlopen(req, timeout=15) as response:
+                xml_data = response.read()
+        except Exception as e2:
+            print(f"Échec du flux de secours Le Monde : {e2}")
+            return []
+            
+    try:
         root = ET.fromstring(xml_data)
         articles = []
         for item in root.findall(".//item")[:20]: # On récupère 20 candidats pour en garder 10 de qualité
             title = item.find("title").text if item.find("title") is not None else ""
             link = item.find("link").text if item.find("link") is not None else ""
             pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
-            source = item.find("source").text if item.find("source") is not None else ""
+            source = item.find("source").text if item.find("source") is not None else "Le Monde"
             articles.append({
                 "title": title,
                 "url": link,
@@ -53,7 +65,7 @@ def fetch_google_news(query):
             })
         return articles
     except Exception as e:
-        print(f"Erreur de collecte pour la requête '{query}': {e}")
+        print(f"Erreur de parsing XML pour la requête '{query}': {e}")
         return []
 
 # 2. Appel API IA (Gemini ou OpenRouter) sans dépendances lourdes
@@ -422,7 +434,11 @@ def send_email(html_body, date_str):
         
     print(f"[SMTP] Connexion à smtp.sfr.fr pour envoi à {smtp_email}...")
     try:
-        msg = MIMEMultipart('alternative')
+        from email.mime.base import MIMEBase
+        from email import encoders
+        
+        # Format multipart mixed pour supporter la pièce jointe
+        msg = MIMEMultipart('mixed')
         display_name = "Gregory LANGLET"
         msg['From'] = f"{display_name} <{smtp_email}>"
         msg['To'] = f"{display_name} <{smtp_email}>"
@@ -432,7 +448,17 @@ def send_email(html_body, date_str):
         msg['MIME-Version'] = '1.0'
         msg['X-Mailer'] = 'Python/smtplib (Linux)'
         
-        msg.attach(MIMEText(html_body, 'html', 'utf-8'))
+        # Corps simple et épuré pour éviter le filtre anti-spam
+        text_body = f"Bonjour Gregory,\n\nVeuillez trouver ci-joint votre rapport de veille unifiée mis en page pour aujourd'hui ({date_str}).\n\nLe document complet au format HTML avec tous les liens cliquables est attaché à ce message.\n\nCordialement,\nGregory LANGLET"
+        msg.attach(MIMEText(text_body, 'plain', 'utf-8'))
+        
+        # Ajout du HTML en pièce jointe
+        part = MIMEBase('text', 'html')
+        part.set_payload(html_body.encode('utf-8'))
+        encoders.encode_base64(part)
+        filename = f"veille_globale_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+        part.add_header('Content-Disposition', 'attachment', filename=filename)
+        msg.attach(part)
         
         with smtplib.SMTP_SSL("smtp.sfr.fr", 465) as server:
             server.login(smtp_email, smtp_password)
