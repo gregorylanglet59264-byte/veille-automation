@@ -1001,31 +1001,7 @@ C'est du jamais vu pour un début juillet ! Une masse d'air d'une chaleur histor
             part_html.add_header('Content-Disposition', 'attachment', filename=f"vigilance_bulletin_{now.strftime('%Y_%m_%d')}.html")
             msg.attach(part_html)
             
-            # Pièces jointes des cartes d'évolution (CID inline + attachement)
-            attachments = []
-            if national_map and os.path.exists(national_map):
-                attachments.append(national_map)
-            for img in pdf_images:
-                if os.path.exists(img):
-                    attachments.append(img)
-                    
-            for filepath in attachments:
-                filename = os.path.basename(filepath)
-                ctype, encoding = mimetypes.guess_type(filepath)
-                if ctype is None or encoding is not None:
-                    ctype = 'application/octet-stream'
-                maintype, subtype = ctype.split('/', 1)
-                
-                with open(filepath, 'rb') as img_f:
-                    img_data = img_f.read()
-                    
-                part_img = MIMEBase(maintype, subtype)
-                part_img.set_payload(img_data)
-                encoders.encode_base64(part_img)
-                part_img.add_header('Content-ID', f'<{filename}>')
-                part_img.add_header('Content-Disposition', 'inline', filename=filename)
-                msg.attach(part_img)
-                
+
             with smtplib.SMTP_SSL("smtp.sfr.fr", 465) as server:
                 server.login(smtp_email, smtp_password)
                 server.sendmail(smtp_email, recipients, msg.as_string())
