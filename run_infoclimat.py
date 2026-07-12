@@ -92,8 +92,11 @@ def main():
         sys.exit(1)
         
     target_topic = clean_topics[0]
-    # Extraire un titre propre du sujet à partir de l'URL
-    topic_title_slug = target_topic.split('/')[-1]
+    # Extraire et décoder un titre propre du sujet à partir de l'URL
+    import urllib.parse
+    decoded_topic = urllib.parse.unquote(target_topic)
+    topic_title_slug = decoded_topic.rstrip('/').split('/')[-1]
+    topic_title_slug = re.sub(r'^\d+-', '', topic_title_slug)  # Enlever l'ID du sujet au début
     topic_title_clean = topic_title_slug.replace('-', ' ').title()
     print(f"Sujet identifié : {topic_title_clean} ({target_topic})")
     
@@ -179,27 +182,28 @@ def main():
 
     # Appeler l'IA pour l'analyse des scénarios et la rédaction du post LinkedIn
     print("Appel de l'IA pour l'analyse des scénarios météo...")
-    system_prompt = """Tu es un analyste météorologue senior (Monsieur Météo). Ton rôle est d'analyser les discussions récentes des prévisionnistes du forum Infoclimat pour en extraire la tendance à moyen et long terme sous forme de 3 scénarios (Majoritaire, Médian, Minoritaire) avec leurs probabilités associées.
+    system_prompt = """Tu es un analyste météorologue senior (Monsieur Météo). Ton rôle est d'analyser en profondeur les discussions récentes des prévisionnistes du forum pour en extraire la tendance à moyen et long terme sous forme de 3 scénarios (Majoritaire, Médian, Minoritaire) avec leurs probabilités associées.
 
-Tu dois ensuite rédiger un post LinkedIn prêt à copier-coller pour présenter ces prévisions de façon claire et engageante pour des professionnels.
+Tu dois ensuite rédiger un post LinkedIn extrêmement complet et engageant, prêt à copier-coller.
 
 RÈGLES CRITIQUES ET ABSOLUES :
 1. RÈGLE CRITIQUE : Ne mentionne JAMAIS le nom du forum 'Infoclimat', ses membres, ni leurs pseudos. Présente les analyses comme "le consensus de la communauté des prévisionnistes", "les analyses des modèles" ou "notre consensus".
-2. RÈGLE CRITIQUE : Ne mets AUCUN formatage markdown (comme ** ou * ou # ou `) dans le post LinkedIn. Il doit être en brut propre avec des émojis et des listes à puces.
+2. RÈGLE CRITIQUE : Ne mets AUCUN formatage markdown (comme ** ou * ou # ou `) dans le post LinkedIn. Le texte doit être brut, aéré, structuré uniquement avec des émojis et des listes à puces.
 3. RÈGLE CRITIQUE : Rédige en français uniquement.
 4. RÈGLE CRITIQUE : Calcule la probabilité des 3 scénarios en utilisant une pondération logique. Le scénario minoritaire (option extrême/isolée) doit être estimé à moins de 5%.
-5. RÈGLE CRITIQUE : Utilise un ton de blogueur météorologue passionné, naturel, direct, avec du storytelling. Évite les phrases trop robotiques d'IA.
-6. RÈGLE CRITIQUE : Termine obligatoirement le post LinkedIn par une question d'engagement pour inciter les lecteurs à commenter.
+5. RÈGLE CRITIQUE : Chaque scénario (majoritaire, médian, minoritaire) dans la section 'scenarios' de ta réponse doit être extrêmement détaillé et faire au moins 3 à 4 paragraphes complets (au moins 200 à 250 mots par scénario). Explique les mécanismes physiques précis (rôle des centres d'action, gouttes froides, dorsales anticycloniques, flux à 850 hPa, etc.), les impacts géographiques contrastés (détails distincts pour le Nord et le Sud de la France) et les anomalies thermiques/précipitations.
+6. RÈGLE CRITIQUE : Le post LinkedIn doit être extrêmement qualitatif, technique mais accessible, avec du storytelling haletant, et faire au moins 300 à 450 mots.
+7. RÈGLE CRITIQUE : Termine obligatoirement le post LinkedIn par une question engageante pour susciter les commentaires des professionnels.
 
 Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :
 {
-  "subject_title": "Titre propre de la semaine de prévision (ex: Semaine du 13 au 19 juillet)",
+  "subject_title": "Titre propre et précis indiquant explicitement la semaine et les dates de prévision (ex: Semaine 30 du 20 au 26 Juillet 2026 - Tendances de la Communauté)",
   "scenarios": {
-    "majoritaire": {"prob": "70%", "desc": "Description du scénario majoritaire avec détails physiques (blocage, masses d'air) et géographiques (moitié nord / moitié sud)"},
-    "median": {"prob": "25%", "desc": "Description détaillée du scénario médian"},
-    "minoritaire": {"prob": "5%", "desc": "Description détaillée du scénario minoritaire et explication de sa faible probabilité"}
+    "majoritaire": {"prob": "70%", "desc": "Rapport complet et ultra-détaillé du scénario majoritaire (plusieurs paragraphes de physique et géographie)"},
+    "median": {"prob": "25%", "desc": "Rapport complet et ultra-détaillé du scénario médian (plusieurs paragraphes de physique et géographie)"},
+    "minoritaire": {"prob": "5%", "desc": "Rapport complet et ultra-détaillé du scénario minoritaire expliquant sa physique et pourquoi il reste minoritaire"}
   },
-  "linkedin_post": "Texte complet du post LinkedIn propre (sans aucun markdown, avec émojis et retours à la ligne)"
+  "linkedin_post": "Texte complet du post LinkedIn professionnel, aéré, sans aucun markdown, rempli d'émojis"
 }"""
 
     user_prompt = f"Discussions récentes des prévisionnistes :\n\n{recent_messages_text}"
@@ -342,7 +346,10 @@ Format de sortie attendu : JSON uniquement avec la structure suivante (sans bloc
         sys.exit(0)
         
     sender = gmail_email
-    subject = f"Analyses & Tendances Meteo - {data['subject_title']}"
+    # Convertir le sujet en ASCII pur pour éviter les erreurs d'encodage SMTP sur les caractères non-ASCII
+    import unicodedata
+    clean_subj = unicodedata.normalize('NFKD', data['subject_title']).encode('ASCII', 'ignore').decode('ASCII')
+    subject = f"Analyses & Tendances Meteo - {clean_subj}"
     filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
     html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
