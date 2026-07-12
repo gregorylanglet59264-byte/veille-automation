@@ -478,7 +478,9 @@ Bilan complet des observations météorologiques répertoriant les températures
     # Send Email
     if not args.no_email:
         subject = f"Bilan Meteo {zone_label} - {date_str}"
-        send_email_report(post_content, pdf_path, subject, args.to)
+        # Nettoyer les astérisques du post_content pour l'email
+        email_body = post_content.replace('**', '').replace('*', '')
+        send_email_report(email_body, None, subject, args.to)
 
 if __name__ == "__main__":
     main()
