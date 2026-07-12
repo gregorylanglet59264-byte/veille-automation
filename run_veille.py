@@ -171,7 +171,7 @@ def call_llm(system_prompt, user_prompt):
         }
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=45) as response:
+            with urllib.request.urlopen(req, timeout=90) as response:
                 res_data = json.loads(response.read().decode("utf-8"))
                 return res_data["candidates"][0]["content"]["parts"][0]["text"]
         except Exception as e:
@@ -185,7 +185,7 @@ def call_llm(system_prompt, user_prompt):
             "Authorization": f"Bearer {openrouter_key}"
         }
         payload = {
-            "model": "deepseek/deepseek-v4-flash",
+            "model": "deepseek/deepseek-chat",
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
@@ -194,7 +194,7 @@ def call_llm(system_prompt, user_prompt):
         import urllib.error
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=45) as response:
+            with urllib.request.urlopen(req, timeout=90) as response:
                 res_data = json.loads(response.read().decode("utf-8"))
                 return res_data["choices"][0]["message"]["content"]
         except urllib.error.HTTPError as http_err:
