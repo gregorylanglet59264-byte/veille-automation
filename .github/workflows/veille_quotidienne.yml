@@ -30,6 +30,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           SMTP_EMAIL: "gregory.langlet@sfr.fr"
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          GMAIL_EMAIL: "langlet.gregory@gmail.com"
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           # Adresse e-mail du/des destinataire(s) (separees par des virgules si plusieurs)
           RECIPIENT_EMAILS: "gregory.langlet@sfr.fr, langlet.gregory@gmail.com"
           # Utilise au choix GEMINI_API_KEY ou OPENROUTER_API_KEY configurés dans les Secrets GitHub du dépôt

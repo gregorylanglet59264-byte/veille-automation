@@ -570,48 +570,60 @@ def send_email(html_body, date_str):
     smtp_email = os.environ.get("SMTP_EMAIL", "gregory.langlet@sfr.fr")
     smtp_password = os.environ.get("SMTP_PASSWORD")
     
+    # Gmail optionnel (fonctionne depuis GitHub Actions contrairement à SFR)
+    gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
+    gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
+    
     # Récupération des destinataires (par défaut toi, sinon liste séparée par des virgules)
     recipients_raw = os.environ.get("RECIPIENT_EMAILS", smtp_email)
     recipients = [r.strip() for r in recipients_raw.split(",") if r.strip()]
     
+    from email.mime.base import MIMEBase
+    from email import encoders
+    
+    msg = MIMEMultipart('mixed')
+    msg['From'] = f"Gregory LANGLET <{gmail_email if gmail_password else smtp_email}>"
+    msg['To'] = ", ".join(recipients)
+    msg['Subject'] = f"Veille Quotidienne Unifiee - {date_str}"
+    msg['Message-ID'] = make_msgid()
+    msg['Date'] = formatdate(localtime=True)
+    msg['MIME-Version'] = '1.0'
+    
+    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le rapport de veille unifiée mis en page pour aujourd'hui ({date_str}).\n\nCordialement,\nL'assistant de Veille"
+    msg.attach(MIMEText(text_body, 'plain', 'utf-8'))
+    
+    part = MIMEBase('text', 'html')
+    part.set_payload(html_body.encode('utf-8'))
+    encoders.encode_base64(part)
+    filename = f"veille_globale_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+    part.add_header('Content-Disposition', 'attachment', filename=filename)
+    msg.attach(part)
+    
+    # Essai Gmail en priorité (accessible depuis GitHub Actions)
+    if gmail_password:
+        print(f"[SMTP] Envoi via Gmail à {', '.join(recipients)}...")
+        try:
+            with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
+                server.starttls()
+                server.login(gmail_email, gmail_password)
+                server.sendmail(gmail_email, recipients, msg.as_string())
+            print("[SMTP] E-mail envoyé avec succès via Gmail !")
+            return
+        except Exception as e:
+            print(f"[SMTP] Erreur Gmail : {e} — tentative via SFR...")
+    
+    # Fallback SFR
     if not smtp_password:
-        print("[SMTP] ERREUR : SMTP_PASSWORD manquant dans l'environnement. Impossible d'envoyer le mail.")
+        print("[SMTP] ERREUR : Ni GMAIL_APP_PASSWORD ni SMTP_PASSWORD configurés. Impossible d'envoyer.")
         sys.exit(1)
-        
-    print(f"[SMTP] Connexion à smtp.sfr.fr pour envoi à {', '.join(recipients)}...")
+    print(f"[SMTP] Envoi via SFR à {', '.join(recipients)}...")
     try:
-        from email.mime.base import MIMEBase
-        from email import encoders
-        
-        # Format multipart mixed pour supporter la pièce jointe
-        msg = MIMEMultipart('mixed')
-        display_name = "Gregory LANGLET"
-        msg['From'] = f"{display_name} <{smtp_email}>"
-        msg['To'] = ", ".join(recipients)
-        msg['Subject'] = f"Veille Quotidienne Unifiee - {date_str}"
-        msg['Message-ID'] = make_msgid()
-        msg['Date'] = formatdate(localtime=True)
-        msg['MIME-Version'] = '1.0'
-        msg['X-Mailer'] = 'Python/smtplib (Linux)'
-        
-        # Corps simple et épuré pour éviter le filtre anti-spam (générique)
-        text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le rapport de veille unifiée mis en page pour aujourd'hui ({date_str}).\n\nLe document complet au format HTML avec tous les liens cliquables est attaché à ce message.\n\nCordialement,\nL'assistant de Veille"
-        msg.attach(MIMEText(text_body, 'plain', 'utf-8'))
-        
-        # Ajout du HTML en pièce jointe
-        part = MIMEBase('text', 'html')
-        part.set_payload(html_body.encode('utf-8'))
-        encoders.encode_base64(part)
-        filename = f"veille_globale_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
-        part.add_header('Content-Disposition', 'attachment', filename=filename)
-        msg.attach(part)
-        
         with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
             server.login(smtp_email, smtp_password)
             server.sendmail(smtp_email, recipients, msg.as_string())
-        print("[SMTP] E-mail envoyé avec succès !")
+        print("[SMTP] E-mail envoyé avec succès via SFR !")
     except Exception as e:
-        print(f"[SMTP] Erreur d'envoi de l'e-mail : {e}")
+        print(f"[SMTP] Erreur SFR : {e}")
         sys.exit(1)
 
 def main():
