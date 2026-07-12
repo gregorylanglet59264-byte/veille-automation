@@ -246,7 +246,7 @@ def build_actu_report(date_str):
         return None
     # Nettoyer d'éventuels marqueurs markdown
     response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean)
+    return json.loads(response_clean, strict=False)
 
 def build_ia_report(date_str):
     print("[Rapport] Collecte et rédaction Intelligence Artificielle...")
@@ -270,7 +270,7 @@ def build_ia_report(date_str):
     if not response:
         return None
     response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean)
+    return json.loads(response_clean, strict=False)
 
 def build_meteo_report(date_str):
     print("[Rapport] Collecte et rédaction Météo & Climat...")
@@ -294,7 +294,7 @@ def build_meteo_report(date_str):
     if not response:
         return None
     response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean)
+    return json.loads(response_clean, strict=False)
 
 def process_youtube_report():
     print("[Rapport] Chargement, notation et rédaction Vidéos YouTube...")
@@ -342,7 +342,7 @@ def process_youtube_report():
         response = call_llm(system_prompt, user_prompt)
         if response:
             response_clean = response.strip().replace("```json", "").replace("```", "")
-            return json.loads(response_clean)
+            return json.loads(response_clean, strict=False)
             
         # Fallback si l'IA échoue : tri classique par score d'origine
         print("Fallback YouTube : Échec de l'IA, utilisation du tri par défaut.")
@@ -380,7 +380,7 @@ def build_synthesis(actu, ia, meteo, yt, date_str):
     if not response:
         return None
     response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean)
+    return json.loads(response_clean, strict=False)
 
 # 5. Compilation HTML Premium Responsive
 def compile_html(synthesis, actu, ia, meteo, yt, date_str):

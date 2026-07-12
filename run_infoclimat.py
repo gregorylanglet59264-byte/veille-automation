@@ -208,7 +208,7 @@ Format de sortie attendu : JSON uniquement avec la structure suivante (sans bloc
     if response:
         try:
             response_clean = response.strip().replace("```json", "").replace("```", "").strip()
-            data = json.loads(response_clean)
+            data = json.loads(response_clean, strict=False)
         except Exception as e:
             print(f"Erreur parsing JSON IA : {e}")
             data = None
