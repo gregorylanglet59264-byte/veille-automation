@@ -34,6 +34,6 @@ jobs:
           SMTP_EMAIL: "gregory.langlet@sfr.fr"
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           # Destinataire(s) (séparés par des virgules si plusieurs)
-          RECIPIENT_EMAILS: "patrick.marliere@wanadoo.fr"
+          RECIPIENT_EMAILS: "gregory.langlet@sfr.fr"
         run: |
           python get_vigilance_data.py --out-dir output --send
