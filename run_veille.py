@@ -576,6 +576,11 @@ def send_email(html_body, date_str):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     
+    if gmail_email:
+        gmail_email = gmail_email.replace('\ufeff', '').replace('\ufffe', '').strip()
+    if gmail_password:
+        gmail_password = gmail_password.replace('\ufeff', '').replace('\ufffe', '').strip()
+        
     # Récupération des destinataires (par défaut toi, sinon liste séparée par des virgules)
     recipients_raw = os.environ.get("RECIPIENT_EMAILS", smtp_email)
     recipients = [r.strip() for r in recipients_raw.split(",") if r.strip()]
