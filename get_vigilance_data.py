@@ -1,10 +1,12 @@
 import urllib.request
+import urllib.error
 import re
 import os
 import sys
 import tempfile
 import argparse
 import sqlite3
+import json
 from datetime import datetime
 from html.parser import HTMLParser
 
@@ -13,6 +15,140 @@ try:
     import meteo_core
 except ImportError:
     meteo_core = None
+
+def call_llm(system_prompt, user_prompt):
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
+    
+    if gemini_key:
+        gemini_key = gemini_key.replace('\ufeff', '').replace('\ufffe', '').strip()
+        print("[LLM] Appel de Gemini API...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
+        headers = {"Content-Type": "application/json"}
+        payload = {
+            "contents": [{
+                "parts": [{"text": f"{system_prompt}\n\n{user_prompt}"}]
+            }]
+        }
+        try:
+            req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+            with urllib.request.urlopen(req, timeout=90) as response:
+                res_data = json.loads(response.read().decode("utf-8"))
+                text = res_data["candidates"][0]["content"]["parts"][0]["text"]
+                return text.replace('\ufeff', '').replace('\ufffe', '')
+        except Exception as e:
+            print(f"[LLM] Erreur Gemini API: {e}")
+            
+    if openrouter_key:
+        openrouter_key = openrouter_key.replace('\ufeff', '').replace('\ufffe', '').strip()
+        print("[LLM] Appel de OpenRouter API (DeepSeek)...")
+        url = "https://openrouter.ai/api/v1/chat/completions"
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {openrouter_key}"
+        }
+        payload = {
+            "model": "deepseek/deepseek-chat",
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+        }
+        try:
+            req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+            with urllib.request.urlopen(req, timeout=90) as response:
+                res_data = json.loads(response.read().decode("utf-8"))
+                text = res_data["choices"][0]["message"]["content"]
+                return text.replace('\ufeff', '').replace('\ufffe', '')
+        except urllib.error.HTTPError as http_err:
+            print(f"[LLM] Erreur HTTP OpenRouter API ({http_err.code})")
+            try:
+                err_body = http_err.read().decode("utf-8")
+                print(f"[LLM] Corps de l'erreur HTTP : {err_body[:600]}")
+            except Exception:
+                pass
+        except Exception as e:
+            print(f"[LLM] Erreur OpenRouter API: {e}")
+            
+    print("[LLM] ERREUR : Aucune clé API configurée ou échec des appels.")
+    return None
+
+def generate_editorial_content(national_forecast, selected_vigilance, j2_j3_text, j4_j7_text):
+    colors = selected_vigilance.get('colors', {}) if selected_vigilance else {}
+    red_depts = []
+    orange_depts = []
+    
+    if colors:
+        for phenom, depts in colors.get('Rouge', {}).items():
+            red_depts.append(f"{phenom} : {', '.join(depts)}")
+        for phenom, depts in colors.get('Orange', {}).items():
+            orange_depts.append(f"{phenom} : {', '.join(depts)}")
+            
+    red_str = "\n".join(red_depts) if red_depts else "Aucun département en vigilance rouge."
+    orange_str = "\n".join(orange_depts) if orange_depts else "Aucun département en vigilance orange."
+    
+    bulletin_titre = national_forecast.get('titre', '') if national_forecast else ''
+    bulletin_temps = national_forecast.get('temps', '') if national_forecast else ''
+    
+    user_prompt = f"""
+Données météorologiques du jour :
+- Bulletin National du jour : {bulletin_titre} - {bulletin_temps}
+- Vigilance Rouge en cours :
+{red_str}
+- Vigilance Orange en cours :
+{orange_str}
+- Évolution Début de semaine (J+2/J+3) : {j2_j3_text}
+- Évolution Fin de semaine (J+4 à J+7) : {j4_j7_text}
+"""
+
+    system_prompt = """Tu es un prévisionniste et rédacteur météo senior (Monsieur Météo). Ton rôle est de rédiger un communiqué de presse professionnel et des propositions de posts pour les réseaux sociaux (LinkedIn et Twitter/X) à partir des données de vigilance et prévisions du jour.
+
+RÈGLES CRITIQUES ET ABSOLUES :
+1. RÈGLE CRITIQUE : Ne mentionne JAMAIS 'Météo-France' ou '@meteofrance' ou 'Météo France'. Remplace par 'les prévisionnistes' ou 'les services météorologiques'.
+2. RÈGLE CRITIQUE : Ne mets AUCUN formatage markdown (comme ** ou * ou `) dans les posts LinkedIn et Twitter. Le texte doit être en brut propre au copier-coller.
+3. RÈGLE CRITIQUE : Rédige en français uniquement.
+4. RÈGLE CRITIQUE : Dans le communiqué de presse (press_text), utilise des balises HTML <strong> pour mettre en gras les mots importants (températures, phénomènes violents).
+5. RÈGLE CRITIQUE : Le post Twitter doit faire moins de 280 caractères.
+6. RÈGLE CRITIQUE : N'utilise pas d'expressions génériques de test. Adapte-toi exactement aux données de vigilance réelles fournies (ex: s'il n'y a pas de canicule mais de la pluie/vent/orages, parle des pluies/vents/orages, pas de canicule).
+
+Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :
+{
+  "press_title": "Titre du communiqué de presse (ex: Orages violents attendus sur le Sud-Est)",
+  "press_text": "Texte du communiqué de presse avec des balises HTML <strong> pour le gras (environ 2 paragraphes)",
+  "linkedin_post": "Texte complet du post LinkedIn engageant avec emojis, sans aucun markdown",
+  "twitter_post": "Texte complet du post Twitter, max 280 caractères, sans aucun markdown"
+}"""
+
+    response = call_llm(system_prompt, user_prompt)
+    if response:
+        try:
+            response_clean = response.strip().replace("```json", "").replace("```", "").strip()
+            data = json.loads(response_clean)
+            return data
+        except Exception as e:
+            print(f"[LLM] Erreur parsing JSON : {e}. Utilisation du fallback.")
+            
+    # Fallback par défaut dynamique
+    num_rouge = 0
+    num_orange = 0
+    if colors:
+        for phenom, depts in colors.get('Rouge', {}).items():
+            num_rouge += len(depts)
+        for phenom, depts in colors.get('Orange', {}).items():
+            num_orange += len(depts)
+            
+    fallback_title = "Vigilance Météorologique en cours sur l'Hexagone"
+    fallback_press = f"Une vigilance météorologique concerne actuellement le territoire français. Les services météorologiques prévoient <strong>{num_rouge}</strong> départements en vigilance rouge et <strong>{num_orange}</strong> départements en vigilance orange. Les phénomènes les plus notables concernent les prévisions de début de semaine avec {j2_j3_text}."
+    fallback_linkedin = f"🚨 BULLETIN DE VIGILANCE MÉTÉO\n\nLes prévisionnistes confirment la situation météorologique du jour : {num_rouge} départements en VIGILANCE ROUGE et {num_orange} en VIGILANCE ORANGE.\n\n🌡️ Situation attendue :\n- Début de semaine : {j2_j3_text}\n- Fin de semaine : {j4_j7_text}\n\n⚠️ Soyez très prudents et suivez les consignes de sécurité.\n\n💬 Quel temps fait-il chez vous ? Vos observations en commentaire ! 👇\n\n#Meteo #Vigilance #Climat"
+    fallback_twitter = f"🚨 Météo : {num_rouge} dpts en Vigilance Rouge et {num_orange} en Vigilance Orange ce jour. Début de semaine : {j2_j3_text[:120]}... Restez prudents ! ⚠️"
+    
+    return {
+        "press_title": fallback_title,
+        "press_text": fallback_press,
+        "linkedin_post": fallback_linkedin,
+        "twitter_post": fallback_twitter
+    }
+
 
 def fix_encoding(text):
     if not text:
@@ -885,62 +1021,20 @@ def main():
     html_lines.append('            </div>')
     html_lines.append('        </div>')
 
-    # --- 4. COMMUNIQUÉ DE SYNTHÈSE PRESSE ---
+    # --- 4. COMMUNIQUÉ DE SYNTHÈSE PRESSE DYNAMIQUE (IA) ---
+    print("Génération du communiqué de presse et des posts sociaux (IA)...")
+    editorial = generate_editorial_content(national_forecast, selected_vigilance, j2_j3_text, j4_j7_text)
+    
     html_lines.append('        <div class="section-title">📰 4. COMMUNIQUÉ DE SYNTHÈSE PRESSE</div>')
     html_lines.append('        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; margin-bottom: 28px; box-shadow: 0 4px 12px rgba(0,0,0,0.02);">')
-    html_lines.append('            <h4 style="margin: 0 0 4px 0; font-size: 15px; color: #0f172a; font-weight: bold;">Canicule d\'intensité exceptionnelle sur l\'Hexagone</h4>')
-    html_lines.append('            <p style="font-style: italic; color:#64748b; font-size: 13px; margin-top: 0; margin-bottom: 16px; border-bottom: 1px solid #f1f5f9; padding-bottom: 8px;">Synthèse globale des événements en cours et à venir.</p>')
-    
-    press_text_1 = "Une masse d'air d'une chaleur inédite s'est installée sur le pays. Avec des vigilances rouges et oranges généralisées, le thermomètre va fréquemment atteindre ou dépasser les 38°C en plaine, particulièrement sur le flanc Ouest et Central du territoire."
-    press_text_1 = re.sub(r'(chaleur inédite)', r'<strong>\1</strong>', press_text_1, flags=re.IGNORECASE)
-    press_text_1 = re.sub(r'(vigilances rouges et oranges généralisées)', r'<strong>\1</strong>', press_text_1, flags=re.IGNORECASE)
-    press_text_1 = re.sub(r'(atteindre ou dépasser les 38°C)', r'<strong>\1</strong>', press_text_1, flags=re.IGNORECASE)
-    
-    press_text_2 = "Parallèlement, une instabilité orageuse violente concerne le Sud-Est du pays avec des cumuls d'eau rapides et des risques de grêle. Ces orages vont remonter à partir de lundi par l'Atlantique, amorçant une baisse graduelle des températures par l'ouest dès le milieu de semaine prochaine."
-    press_text_2 = re.sub(r'(instabilité orageuse violente)', r'<strong>\1</strong>', press_text_2, flags=re.IGNORECASE)
-    press_text_2 = re.sub(r'(risques de grêle)', r'<strong>\1</strong>', press_text_2, flags=re.IGNORECASE)
-    press_text_2 = re.sub(r'(baisse graduelle des températures)', r'<strong>\1</strong>', press_text_2, flags=re.IGNORECASE)
-    
-    html_lines.append(f'            <p style="margin: 0 0 12px 0; font-size: 13.5px; color: #334155; line-height: 1.6; text-align: justify;">{press_text_1}</p>')
-    html_lines.append(f'            <p style="margin: 0; font-size: 13.5px; color: #334155; line-height: 1.6; text-align: justify;">{press_text_2}</p>')
+    html_lines.append(f'            <h4 style="margin: 0 0 4px 0; font-size: 15px; color: #0f172a; font-weight: bold;">{editorial.get("press_title", "Synthèse de la Vigilance")}</h4>')
+    html_lines.append('            <p style="font-style: italic; color:#64748b; font-size: 13px; margin-top: 0; margin-bottom: 16px; border-bottom: 1px solid #f1f5f9; padding-bottom: 8px;">Synthèse globale rédigée à partir des données de vigilance du jour.</p>')
+    html_lines.append(f'            <p style="margin: 0; font-size: 13.5px; color: #334155; line-height: 1.6; text-align: justify;">{editorial.get("press_text", "")}</p>')
     html_lines.append('        </div>')
 
-    # --- RÉSEAUX SOCIAUX (SANS MÉTÉO-FRANCE) ---
+    # --- RÉSEAUX SOCIAUX DYNAMIQUES (SANS MÉTÉO-FRANCE) ---
     html_lines.append('        <div class="section-title">📱 PROPOSITION DE POSTS RÉSEAUX SOCIAUX</div>')
-    
-    num_rouge = len(colors.get('Rouge', {}).get('Canicule', [])) if colors.get('Rouge') else 37
-    num_orange = len(colors.get('Orange', {}).get('Canicule', [])) if colors.get('Orange') else 46
-
-    li_post = f"""🚨 DÔME DE CHALEUR EXTRÊME : La France bascule dans l'inédit ! 🚨
-
-C'est du jamais vu pour un début juillet ! Une masse d'air d'une chaleur historique s'est installée sur le pays, poussant le thermomètre à des sommets affolants. 
-
-👉 Ce dimanche, la vigilance maximale est déclenchée : {num_rouge} départements sont en VIGILANCE ROUGE canicule et {num_orange} en VIGILANCE ORANGE. 
-
-🌡️ Ce qui vous attend dans les prochaines heures :
-*   Des températures extrêmes : Le mercure va fréquemment atteindre ou dépasser les 38°C à 42°C en plaine, particulièrement sur un large flanc Ouest et Centre du territoire.
-*   Une instabilité orageuse violente : En marge de cette chaleur étouffante, des orages violents concernent le Sud-Est avec des risques importants de grêle et des rafales de vent de 70 à 90 km/h.
-*   Baisse par l'Ouest : Une bouffée d'air océanique amorcera une baisse graduelle des températures par l'Atlantique à partir de lundi/mardi, mais la chaleur persistera à l'Est.
-
-⚠️ Consignes de sécurité cruciales :
-1️⃣ Restez au frais : Fermez les volets en journée, limitez les sorties aux heures les plus chaudes.
-2️⃣ Hydratez-vous : Buvez de l'eau régulièrement, sans attendre d'avoir soif.
-3️⃣ Solidarité : Prenez régulièrement des nouvelles des personnes fragiles ou isolées dans votre entourage.
-
-💬 Et quel temps fait-il chez vous ? Envoyez vos photos et vos observations en commentaire ! 👇
-
-#Meteo #Canicule #ChaleurExtreme #VigilanceRouge #Securite #Climat"""
-
-    tw_post = f"""🚨 #Canicule historique : {num_rouge} départements en Vigilance Rouge ce dimanche ! Les températures vont frôler les 40-42°C localement. 🥵
-⚡ Risque d'orages violents au Sud-Est et sur la façade atlantique.
-💧 Hydratez-vous, restez au frais et veillez sur vos proches.
-🚨 Soyez extrêmement prudents !"""
-
-    html_lines.append(f'        <p><strong>Post LinkedIn (Sans mention de source) :</strong></p>')
-    html_lines.append(f'        <div class="social-box">{clean_social_posts(li_post)}</div>')
-    
-    html_lines.append(f'        <p><strong>Post Twitter / X (Sans mention de source) :</strong></p>')
-    html_lines.append(f'        <div class="social-box">{clean_social_posts(tw_post)}</div>')
+        html_lines.append(f'        <div class="social-box">{clean_social_posts(tw_post)}</div>')
 
     html_lines.append("""
         </div>
@@ -958,57 +1052,102 @@ C'est du jamais vu pour un début juillet ! Une masse d'air d'une chaleur histor
     print(f"Images générées : {len(pdf_images) + (1 if national_map else 0)}")
 
     if args.send:
+        gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
+        gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
+        if gmail_email:
+            gmail_email = gmail_email.replace('\ufeff', '').replace('\ufffe', '').strip()
+        if gmail_password:
+            gmail_password = gmail_password.replace('\ufeff', '').replace('\ufffe', '').strip()
+            
         smtp_email = os.environ.get("SMTP_EMAIL", "gregory.langlet@sfr.fr")
         smtp_password = os.environ.get("SMTP_PASSWORD")
-        
-        # Le destinataire par défaut est args.to, mais s'il y a un RECIPIENT_EMAILS dans l'env on l'utilise
+        if smtp_email:
+            smtp_email = smtp_email.replace('\ufeff', '').replace('\ufffe', '').strip()
+        if smtp_password:
+            smtp_password = smtp_password.replace('\ufeff', '').replace('\ufffe', '').strip()
+            
         recipient = os.environ.get("RECIPIENT_EMAILS", args.to)
         recipients = [r.strip() for r in recipient.split(",") if r.strip()]
         
+        sender = gmail_email if gmail_password else smtp_email
+        subject = f"Bulletin de Vigilance Meteo-France - {now.strftime('%d/%m/%Y')}"
+        filename = f"vigilance_bulletin_{now.strftime('%Y_%m_%d')}.html"
+        
+        import base64
+        import uuid
+        from email.utils import formatdate
+        import smtplib
+        
+        with open(html_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+        html_content = html_content.replace('\ufeff', '').replace('\ufffe', '')
+        
+        html_b64 = base64.b64encode(html_content.encode('utf-8')).decode('ascii')
+        text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le bulletin de vigilance Météo-France et prévisions nationales pour aujourd'hui ({now.strftime('%d/%m/%Y')}).\n\nLe rapport complet au format HTML ainsi que les cartes d'évolution sont attachés à ce message.\n\nCordialement,\nMonsieur Météo"
+        text_b64 = base64.b64encode(text_body.encode('utf-8')).decode('ascii')
+        boundary = uuid.uuid4().hex
+        
+        raw_message = (
+            f'From: Monsieur Meteo <{sender}>\r\n'
+            f'To: {", ".join(recipients)}\r\n'
+            f'Subject: {subject}\r\n'
+            f'Date: {formatdate(localtime=True)}\r\n'
+            f'MIME-Version: 1.0\r\n'
+            f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
+            f'\r\n'
+            f'--{boundary}\r\n'
+            f'Content-Type: text/plain; charset=utf-8\r\n'
+            f'Content-Transfer-Encoding: base64\r\n'
+            f'\r\n'
+            f'{text_b64}\r\n'
+            f'\r\n'
+            f'--{boundary}\r\n'
+            f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
+            f'Content-Disposition: attachment; filename="{filename}"\r\n'
+            f'Content-Transfer-Encoding: base64\r\n'
+            f'\r\n'
+            f'{html_b64}\r\n'
+            f'\r\n'
+            f'--{boundary}--\r\n'
+        )
+        
+        # Envoi par Gmail si possible (seul relais fiable depuis GitHub Actions)
+        if gmail_password:
+            print(f"[SMTP] Envoi automatique via Gmail à {', '.join(recipients)}...")
+            try:
+                with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
+                    server.ehlo()
+                    server.starttls()
+                    server.ehlo()
+                    server.login(gmail_email, gmail_password)
+                    server.sendmail(gmail_email, recipients, raw_message.encode('ascii'))
+                print("[SMTP] E-mail de vigilance envoyé avec succès via Gmail !")
+                return
+            except Exception as e:
+                print(f"[SMTP] Erreur Gmail : {e} — tentative via SFR...")
+                
+        # Fallback SFR
         if not smtp_password:
-            print("[SMTP] ERREUR : SMTP_PASSWORD manquant. Impossible d'envoyer la vigilance.")
+            print("[SMTP] ERREUR : Aucun identifiant SMTP disponible (ni Gmail ni SFR). Impossible d'envoyer.")
             sys.exit(1)
             
-        print(f"[SMTP] Envoi automatique du mail de vigilance à {', '.join(recipients)}...")
-        try:
-            from email.mime.multipart import MIMEMultipart
-            from email.mime.text import MIMEText
-            from email.mime.base import MIMEBase
-            from email import encoders
-            from email.utils import make_msgid, formatdate
-            import smtplib
-            import mimetypes
-            
-            # Objet de mail multipart mixed
-            msg = MIMEMultipart('mixed')
-            display_name = "Monsieur Meteo"
-            msg['From'] = f"{display_name} <{smtp_email}>"
-            msg['To'] = ", ".join(recipients)
-            msg['Subject'] = f"Bulletin de Vigilance Météo-France - {now.strftime('%d/%m/%Y')}"
-            msg['Message-ID'] = make_msgid()
-            msg['Date'] = formatdate(localtime=True)
-            msg['MIME-Version'] = '1.0'
-            msg['X-Mailer'] = 'Python/smtplib (Linux)'
-            
-            # Corps simple anti-spam
-            text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le bulletin de vigilance Météo-France et prévisions nationales pour aujourd'hui ({now.strftime('%d/%m/%Y')}).\n\nLe rapport complet au format HTML ainsi que les cartes d'évolution sont attachés à ce message.\n\nCordialement,\nMonsieur Météo"
-            msg.attach(MIMEText(text_body, 'plain', 'utf-8'))
-            
-            # Pièce jointe du rapport HTML principal
-            part_html = MIMEBase('text', 'html')
-            part_html.set_payload(open(html_path, 'r', encoding='utf-8').read().encode('utf-8'))
-            encoders.encode_base64(part_html)
-            part_html.add_header('Content-Disposition', 'attachment', filename=f"vigilance_bulletin_{now.strftime('%Y_%m_%d')}.html")
-            msg.attach(part_html)
-            
+        import time
+        for attempt in range(1, 4):
+            print(f"[SMTP] Envoi via SFR à {', '.join(recipients)}... (tentative {attempt}/3)")
+            try:
+                with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
+                    server.login(smtp_email, smtp_password)
+                    server.sendmail(smtp_email, recipients, raw_message.encode('ascii'))
+                print("[SMTP] E-mail de vigilance envoyé avec succès via SFR !")
+                return
+            except Exception as e:
+                print(f"[SMTP] Erreur SFR tentative {attempt}/3 : {e}")
+                if attempt < 3:
+                    time.sleep(5)
+        print("[SMTP] ERREUR : Échec d'envoi après 3 tentatives SFR.")
+        sys.exit(1)   
 
-            with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
-                server.login(smtp_email, smtp_password)
-                server.sendmail(smtp_email, recipients, msg.as_string())
-            print("[SMTP] E-mail de vigilance envoyé avec succès !")
-        except Exception as e:
-            print(f"[SMTP] Erreur lors de l'envoi de l'e-mail de vigilance : {e}")
-            sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
