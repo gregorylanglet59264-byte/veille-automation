@@ -90,7 +90,7 @@ def send_email_report(html_body, subject, recipient):
             server.ehlo()
             server.login(gmail_email, gmail_password)
             server.sendmail(gmail_email, recipients, raw_message.encode('ascii'))
-        print("[SMTP] E-mail de Bilan Régional (HTML Premium) envoyé avec succès !")
+        print("[SMTP] E-mail de Bilan Régional (HTML Table) envoyé avec succès !")
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi du bilan régional : {e}")
 
@@ -101,7 +101,7 @@ def make_html_section(title, icon, data_list, param_type):
             <span class="section-title-icon">{icon}</span>
             <span>{title}</span>
         </div>
-        <div class="list-container">"""
+        <div style="margin-top: 10px;">"""
         
     if not data_list:
         html += '<p style="font-size: 13px; color: #64748b; font-style: italic; margin-left: 12px; margin-top: 0;">Aucune donnée disponible pour aujourd\'hui.</p>'
@@ -133,15 +133,19 @@ def make_html_section(title, icon, data_list, param_type):
                 val_str = f"{val:.0f} km/h"
                 
             html += f"""
-            <div class="list-item">
-                <div class="station-info">
-                    <span class="rank-badge {rank_class}">{rank_str}</span>
-                    <span class="station-name">{name}</span>
-                    <span class="dept-code">({dept})</span>
-                    {rec_str}
-                </div>
-                <div class="val-badge val-{param_type}">{val_str}</div>
-            </div>"""
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width: 100%; border-collapse: collapse; margin-bottom: 6px;">
+                <tr>
+                    <td align="left" valign="middle" style="background-color: #f8fafc; border: 1px solid #f1f5f9; border-right: none; border-top-left-radius: 12px; border-bottom-left-radius: 12px; padding: 12px 16px; font-size: 13.5px; color: #334155;">
+                        <span class="rank-badge {rank_class}" style="display: inline-block; vertical-align: middle; margin-right: 8px;">{rank_str}</span>
+                        <span class="station-name" style="font-weight: 700; color: #0f172a; display: inline-block; vertical-align: middle;">{name}</span>
+                        <span class="dept-code" style="color: #64748b; font-size: 12px; display: inline-block; vertical-align: middle; margin-left: 4px;">({dept})</span>
+                        {rec_str}
+                    </td>
+                    <td align="right" valign="middle" width="90" style="background-color: #f8fafc; border: 1px solid #f1f5f9; border-left: none; border-top-right-radius: 12px; border-bottom-right-radius: 12px; padding: 12px 16px; text-align: right;">
+                        <div class="val-badge val-{param_type}" style="display: inline-block;">{val_str}</div>
+                    </td>
+                </tr>
+            </table>"""
             
     html += "</div></div>"
     return html
@@ -264,16 +268,11 @@ def main():
     .section-card { margin-bottom: 35px; }
     .section-title { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #475569; display: flex; align-items: center; margin-bottom: 16px; }
     .section-title-icon { margin-right: 8px; font-size: 18px; }
-    .list-container { display: flex; flex-direction: column; gap: 8px; }
-    .list-item { background: #ffffff; border: 1px solid #f1f5f9; border-radius: 12px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02); }
-    .station-info { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: #334155; }
-    .rank-badge { width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 800; border-radius: 50%; }
+    .rank-badge { width: 22px; height: 22px; display: inline-block; text-align: center; line-height: 22px; font-size: 11px; font-weight: 800; border-radius: 50%; }
     .rank-1 { background-color: #fef08a; color: #854d0e; }
     .rank-2 { background-color: #f1f5f9; color: #475569; }
     .rank-3 { background-color: #ffedd5; color: #c2410c; }
     .rank-other { background-color: #f8fafc; color: #64748b; }
-    .station-name { font-weight: 700; color: #0f172a; }
-    .dept-code { color: #64748b; font-size: 12px; }
     .val-badge { font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px; color: #ffffff; min-width: 60px; text-align: center; }
     .val-chaleur { background: linear-gradient(135deg, #f97316 0%, #ef4444 100%); }
     .val-froid { background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%); }
@@ -294,7 +293,7 @@ def main():
         <div class="header">
             <div class="header-badge">MÉTÉO REGIONAL</div>
             <h1>BILAN METEO REGIONAL</h1>
-            <p>Région {zone_label} • Synthèse des postes clés du {date_str}</p>
+            <p>Région {zone_label} • Relevés du {date_str}</p>
         </div>
         <div class="content">
             {"".join(html_sections)}
