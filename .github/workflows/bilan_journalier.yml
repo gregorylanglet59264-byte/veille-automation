@@ -1,5 +1,5 @@
 name: Bilan Journalier Regional
-3: 
+
 on:
   schedule:
     # 21h00 heure française d'été (19h00 UTC)
