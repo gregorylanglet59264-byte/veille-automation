@@ -17,6 +17,8 @@ import xml.etree.ElementTree as ET
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import re
+import email.utils
 from email.utils import make_msgid, formatdate
 
 # Dictionnaires de traduction pour les dates dynamiques
@@ -29,44 +31,129 @@ def get_date_fr():
     now = datetime.datetime.now()
     return f"{now.day} {MONTHS_FR[now.month - 1]} {now.year}"
 
-# 1. Collecte Google News RSS
-def fetch_google_news(query):
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    try:
-        encoded_query = urllib.parse.quote(query)
-        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=fr&gl=FR&ceid=FR:fr"
-        req = urllib.request.Request(url, headers={"User-Agent": user_agent})
-        with urllib.request.urlopen(req, timeout=15) as response:
-            xml_data = response.read()
-    except Exception as e:
-        print(f"Échec de Google News pour la requête '{query}' ({e}). Utilisation du flux de secours Le Monde RSS...")
+# Helper pour filtrer les articles récents
+def filter_recent_articles(articles, max_hours=24):
+    recent = []
+    now = datetime.datetime.now(datetime.timezone.utc)
+    for art in articles:
+        pub_str = art.get("date")
+        if not pub_str:
+            recent.append(art)
+            continue
         try:
-            url = "https://www.lemonde.fr/rss/une.xml"
-            req = urllib.request.Request(url, headers={"User-Agent": user_agent})
-            with urllib.request.urlopen(req, timeout=15) as response:
-                xml_data = response.read()
-        except Exception as e2:
-            print(f"Échec du flux de secours Le Monde : {e2}")
-            return []
+            pub_dt = email.utils.parsedate_to_datetime(pub_str)
+            if pub_dt.tzinfo is None:
+                pub_dt = pub_dt.replace(tzinfo=datetime.timezone.utc)
+            else:
+                pub_dt = pub_dt.astimezone(datetime.timezone.utc)
             
-    try:
-        root = ET.fromstring(xml_data)
-        articles = []
-        for item in root.findall(".//item")[:20]: # On récupère 20 candidats pour en garder 10 de qualité
-            title = item.find("title").text if item.find("title") is not None else ""
-            link = item.find("link").text if item.find("link") is not None else ""
-            pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
-            source = item.find("source").text if item.find("source") is not None else "Le Monde"
-            articles.append({
-                "title": title,
-                "url": link,
-                "date": pub_date,
-                "source": source
-            })
-        return articles
-    except Exception as e:
-        print(f"Erreur de parsing XML pour la requête '{query}': {e}")
-        return []
+            age = now - pub_dt
+            art["age_seconds"] = age.total_seconds()
+            if age <= datetime.timedelta(hours=max_hours):
+                recent.append(art)
+        except Exception:
+            recent.append(art)
+    return recent
+
+# 1. Collecte Google News RSS & Flux Directs récents
+def fetch_google_news(query):
+    feeds = {
+        "Le Monde": "https://www.lemonde.fr/rss/une.xml",
+        "FranceInfo": "https://www.francetvinfo.fr/titres.rss",
+        "France 3 HDF": "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
+        "PresseCitron": "https://www.presse-citron.net/feed/"
+    }
+    
+    all_articles = []
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    for name, url in feeds.items():
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                xml_data = response.read()
+            
+            root = ET.fromstring(xml_data)
+            for item in root.findall(".//item"):
+                title = item.find("title").text if item.find("title") is not None else ""
+                link = item.find("link").text if item.find("link") is not None else ""
+                pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
+                all_articles.append({
+                    "title": title,
+                    "url": link,
+                    "date": pub_date,
+                    "source": name
+                })
+        except Exception as e:
+            print(f"[RSS] Échec de récupération du flux {name} : {e}")
+            
+    # Filtrer d'abord à < 24h
+    recent_articles = filter_recent_articles(all_articles, 24)
+    # Fallback à 48h si on n'a pas assez d'articles récents
+    if len(recent_articles) < 15:
+        recent_articles = filter_recent_articles(all_articles, 48)
+    if len(recent_articles) < 15:
+        recent_articles = all_articles
+
+    # Trier du plus récent au plus ancien
+    recent_articles = sorted(recent_articles, key=lambda x: x.get("age_seconds", 999999))
+
+    query_lower = query.lower()
+    is_meteo = any(w in query_lower for w in ["météo", "meteo", "climat", "vigilance", "records", "intempéries", "canicule"])
+    is_ia = any(re.search(r'\b' + w + r'\b', query_lower) for w in ["ai", "ia"]) or any(w in query_lower for w in ["models", "tools", "claude", "gemini", "llama", "deepseek", "chatgpt", "openai"])
+    is_hdf = any(w in query_lower for w in ["hauts-de-france", "hdf", "lille", "pas-de-calais", "nord"])
+    
+    filtered = []
+    
+    if is_meteo:
+        meteo_keywords = ["météo", "meteo", "climat", "température", "chaleur", "pluie", "inondation", "vent", "tempête", "orage", "vigilance", "sécheresse", "neige", "copernicus", "records", "noaa", "canicule"]
+        for art in recent_articles:
+            title_lower = art["title"].lower()
+            if any(kw in title_lower for kw in meteo_keywords):
+                filtered.append(art)
+    elif is_ia:
+        ia_keywords = ["ia", "ai", "chatgpt", "openai", "claude", "gemini", "llama", "deepseek", "anthropic", "copilot", "midjourney", "sora", "robot", "algorithme", "machine learning", "technologie"]
+        for art in recent_articles:
+            title_lower = art["title"].lower()
+            has_ia = False
+            for kw in ia_keywords:
+                if kw in ["ia", "ai"]:
+                    if re.search(r'\b' + kw + r'\b', title_lower):
+                        has_ia = True
+                        break
+                else:
+                    if kw in title_lower:
+                        has_ia = True
+                        break
+            if has_ia:
+                filtered.append(art)
+    elif is_hdf:
+        hdf_keywords = ["nord", "pas-de-calais", "picardie", "lille", "hdf", "amiens", "arras", "dunkerque", "douai", "calais", "somme", "aisne", "oise"]
+        for art in recent_articles:
+            if art["source"] == "France 3 HDF":
+                filtered.append(art)
+            else:
+                title_lower = art["title"].lower()
+                if any(kw in title_lower for kw in hdf_keywords):
+                    filtered.append(art)
+    else:
+        # Actualités générales (Le Monde, FranceInfo)
+        for art in recent_articles:
+            if art["source"] in ["Le Monde", "FranceInfo"]:
+                filtered.append(art)
+                
+    # Si on a trop peu de résultats ciblés, on comble avec des articles récents du Monde ou FranceInfo
+    if len(filtered) < 15:
+        seen_urls = {art["url"] for art in filtered}
+        for art in recent_articles:
+            if len(filtered) >= 20:
+                break
+            if art["url"] not in seen_urls:
+                if is_ia and art["source"] != "PresseCitron":
+                    continue
+                filtered.append(art)
+                seen_urls.add(art["url"])
+                
+    return filtered[:25]
 
 # 2. Appel API IA (Gemini ou OpenRouter) sans dépendances lourdes
 def call_llm(system_prompt, user_prompt):
@@ -133,6 +220,7 @@ def build_actu_report(date_str):
         "Tu es un analyste de presse senior. Ton rôle est de trier et de synthétiser les actualités fournies.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister EXACTEMENT 10 articles pour chaque catégorie (Mondial, International, France, Hauts-de-France).\n"
         "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et une courte description (1 à 2 lignes).\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs de code markdown ```json) :\n"
         "{\n"
         "  \"mondial\": [ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... (10 items) ],\n"
@@ -159,6 +247,7 @@ def build_ia_report(date_str):
         "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister EXACTEMENT 10 actualités/outils majeurs.\n"
         "Pour chaque élément, fournis un titre, l'outil/modèle concerné, sa description technique succincte, son URL et une note d'intérêt éditorial /10.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"tool\": \"...\", \"summary\": \"...\", \"url\": \"...\", \"score\": 8.5},\n"
@@ -182,6 +271,7 @@ def build_meteo_report(date_str):
         "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister EXACTEMENT 10 actualités/vigilances/records.\n"
         "Pour chaque élément, fournis un titre, la zone géographique, le phénomène concerné, sa description détaillée et son URL source.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
@@ -197,15 +287,59 @@ def build_meteo_report(date_str):
     return json.loads(response_clean)
 
 def process_youtube_report():
-    print("[Rapport] Chargement et filtrage Vidéos YouTube...")
+    print("[Rapport] Chargement, notation et rédaction Vidéos YouTube...")
     try:
         with open("youtube_recommandations.json", "r", encoding="utf-8") as f:
             videos = json.load(f)
-        # Garder exactement les 10 vidéos avec le plus fort score d'intérêt
+        
+        if not videos:
+            return []
+            
+        # On va passer les vidéos à l'IA pour qu'elle sélectionne et justifie les 10 meilleures
+        system_prompt = (
+            "Tu es un analyste éditorial média senior. Ton rôle est de trier, noter et résumer les vidéos récentes proposées.\n"
+            "RÈGLE CRITIQUE : Tu DOIS sélectionner les 10 vidéos les plus pertinentes et intéressantes de la liste fournie (ou toutes si moins de 10) et les ordonner par note décroissante.\n"
+            "Pour chaque vidéo sélectionnée, fournis :\n"
+            "1. Une note d'intérêt de 0 à 10 pour Gregory (expert météo, IA, programmation et automatisation).\n"
+            "2. Un résumé de 2-3 phrases en français expliquant POURQUOI il doit regarder cette vidéo en se basant sur son titre, sa chaîne et sa description.\n"
+            "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+            "[\n"
+            "  {\n"
+            "    \"channel_name\": \"...\",\n"
+            "    \"category\": \"...\",\n"
+            "    \"title\": \"...\",\n"
+            "    \"url\": \"...\",\n"
+            "    \"score\": 9.5,\n"
+            "    \"summary\": \"...\"\n"
+            "  },\n"
+            "  ... (jusqu'à 10 éléments)\n"
+            "]"
+        )
+        
+        # Pour limiter la taille des tokens, on ne passe que les champs essentiels
+        input_data = []
+        for v in videos:
+            input_data.append({
+                "channel_name": v.get("channel_name", ""),
+                "category": v.get("category", ""),
+                "title": v.get("title", ""),
+                "url": v.get("url", ""),
+                "description": v.get("description", "")
+            })
+            
+        user_prompt = f"Vidéos récentes récoltées :\n{json.dumps(input_data, ensure_ascii=False)}"
+        
+        response = call_llm(system_prompt, user_prompt)
+        if response:
+            response_clean = response.strip().replace("```json", "").replace("```", "")
+            return json.loads(response_clean)
+            
+        # Fallback si l'IA échoue : tri classique par score d'origine
+        print("Fallback YouTube : Échec de l'IA, utilisation du tri par défaut.")
         top_videos = sorted(videos, key=lambda x: -x.get("score", 0))[:10]
         return top_videos
     except Exception as e:
-        print(f"Erreur de chargement des recommandations YouTube : {e}")
+        print(f"Erreur lors du traitement des recommandations YouTube : {e}")
         return []
 
 # 4. Générateur de Synthèse Globale

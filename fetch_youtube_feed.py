@@ -130,7 +130,8 @@ def get_latest_video(channel):
                 "url": video_url,
                 "id": data.get("id"),
                 "score": weight,
-                "summary": summary
+                "summary": summary,
+                "description": data.get("description", "")[:800]
             }
     except Exception:
         pass
