@@ -5,6 +5,12 @@ on:
     # 7h et 17h heure française d'été (5h et 15h UTC)
     - cron: '0 5,15 * * *'
   workflow_dispatch: # Permet de lancer manuellement depuis GitHub
+    inputs:
+      test_mode:
+        description: "Mode test (envoyer uniquement a Gregory, pas a Patrick)"
+        required: true
+        type: boolean
+        default: true
 
 jobs:
   run-vigilance:
@@ -38,7 +44,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Destinataire(s) (séparés par des virgules si plusieurs)
-          RECIPIENT_EMAILS: "gregory.langlet@sfr.fr, langlet.gregory@gmail.com, patrick.marliere@wanadoo.fr"
+          # Envoi a Patrick uniquement en production (cron schedule ou test_mode désactivé)
+          RECIPIENT_EMAILS: ${{ (github.event_name == 'schedule' || github.event.inputs.test_mode == 'false') && 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com, patrick.marliere@wanadoo.fr' || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com' }}
         run: |
           python get_vigilance_data.py --out-dir output --send
