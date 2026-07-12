@@ -1002,7 +1002,7 @@ C'est du jamais vu pour un début juillet ! Une masse d'air d'une chaleur histor
             msg.attach(part_html)
             
 
-            with smtplib.SMTP_SSL("smtp.sfr.fr", 465) as server:
+            with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
                 server.login(smtp_email, smtp_password)
                 server.sendmail(smtp_email, recipients, msg.as_string())
             print("[SMTP] E-mail de vigilance envoyé avec succès !")

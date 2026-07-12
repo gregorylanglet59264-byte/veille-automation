@@ -191,11 +191,19 @@ def call_llm(system_prompt, user_prompt):
                 {"role": "user", "content": user_prompt}
             ]
         }
+        import urllib.error
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=45) as response:
                 res_data = json.loads(response.read().decode("utf-8"))
                 return res_data["choices"][0]["message"]["content"]
+        except urllib.error.HTTPError as http_err:
+            print(f"[LLM] Erreur HTTP OpenRouter API ({http_err.code})")
+            try:
+                err_body = http_err.read().decode("utf-8")
+                print(f"[LLM] Corps de l'erreur HTTP : {err_body[:600]}")
+            except Exception:
+                pass
         except Exception as e:
             print(f"[LLM] Erreur OpenRouter API: {e}")
             
@@ -598,7 +606,7 @@ def send_email(html_body, date_str):
         part.add_header('Content-Disposition', 'attachment', filename=filename)
         msg.attach(part)
         
-        with smtplib.SMTP_SSL("smtp.sfr.fr", 465) as server:
+        with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
             server.login(smtp_email, smtp_password)
             server.sendmail(smtp_email, recipients, msg.as_string())
         print("[SMTP] E-mail envoyé avec succès !")
