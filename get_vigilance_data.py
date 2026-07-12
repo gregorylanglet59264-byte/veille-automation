@@ -22,6 +22,18 @@ def fix_encoding(text):
     except Exception:
         return text
 
+def get_image_base64(filepath):
+    if not filepath or not os.path.exists(filepath):
+        return ""
+    import base64
+    try:
+        with open(filepath, "rb") as f:
+            encoded = base64.b64encode(f.read()).decode("utf-8")
+        return f"data:image/png;base64,{encoded}"
+    except Exception as e:
+        print(f"Erreur d'encodage base64 pour {filepath}: {e}")
+        return ""
+
 def generate_records_alert_html(date_compact):
     if not meteo_core:
         return ""
@@ -798,7 +810,8 @@ def main():
         
         # Carte de vigilance nationale (si dispo)
         if national_map:
-            html_lines.append('        <img src="cid:vigilance_carte.png" class="map-img" alt="Carte de Vigilance Nationale">')
+            img_b64 = get_image_base64(national_map)
+            html_lines.append(f'        <img src="{img_b64}" class="map-img" alt="Carte de Vigilance Nationale">')
             
         colors = selected_vigilance['colors']
         if colors.get('Rouge'):
@@ -828,15 +841,17 @@ def main():
     
     # 3.1 Cartes d'évolution (PDF intégrés)
     if len(pdf_images) >= 1:
+        img_b64 = get_image_base64(pdf_images[0])
         html_lines.append('        <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-bottom: 24px; text-align: center;">')
         html_lines.append('            <span style="font-weight: bold; font-size: 13px; color: #1e293b; display: block; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">📈 Carte Officielle - Début de semaine (Lundi J+2 & Mardi J+3)</span>')
-        html_lines.append('            <img src="cid:carte_jours_suivants_page_1.png" style="width: 100%; max-width: 600px; border: 1px solid #cbd5e1; border-radius: 6px; display: inline-block;" alt="Bulletin J+2 & J+3">')
+        html_lines.append(f'            <img src="{img_b64}" style="width: 100%; max-width: 600px; border: 1px solid #cbd5e1; border-radius: 6px; display: inline-block;" alt="Bulletin J+2 & J+3">')
         html_lines.append('        </div>')
         
     if len(pdf_images) >= 2:
+        img_b64 = get_image_base64(pdf_images[1])
         html_lines.append('        <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-bottom: 24px; text-align: center;">')
         html_lines.append('            <span style="font-weight: bold; font-size: 13px; color: #1e293b; display: block; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">📈 Carte Officielle - Fin de semaine (De Mercredi J+4 à Samedi J+7)</span>')
-        html_lines.append('            <img src="cid:carte_jours_suivants_page_2.png" style="width: 100%; max-width: 600px; border: 1px solid #cbd5e1; border-radius: 6px; display: inline-block;" alt="Bulletin J+4 à J+7">')
+        html_lines.append(f'            <img src="{img_b64}" style="width: 100%; max-width: 600px; border: 1px solid #cbd5e1; border-radius: 6px; display: inline-block;" alt="Bulletin J+4 à J+7">')
         html_lines.append('        </div>')
 
     # 3.2 Article de commentaire détaillé (Extrait du PDF)
