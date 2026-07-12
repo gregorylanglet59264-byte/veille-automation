@@ -577,42 +577,46 @@ def send_email(html_body, date_str):
     # Récupération des destinataires (par défaut toi, sinon liste séparée par des virgules)
     recipients_raw = os.environ.get("RECIPIENT_EMAILS", smtp_email)
     recipients = [r.strip() for r in recipients_raw.split(",") if r.strip()]
+
+    import email.policy
+    from email.message import EmailMessage
     
-    from email.mime.base import MIMEBase
-    from email import encoders
+    # Suppression totale de tout BOM ou caractère non-ASCII parasite
+    html_body = html_body.replace('\ufeff', '').replace('\ufffe', '')
     
-    # Nettoyage du BOM et caractères non-ASCII problématiques
-    html_body = html_body.lstrip('\ufeff')
+    sender = gmail_email if gmail_password else smtp_email
     
-    msg = MIMEMultipart('mixed')
-    msg['From'] = f"Gregory LANGLET <{gmail_email if gmail_password else smtp_email}>"
+    # Construction du message avec policy UTF-8 natif — aucun encodage ASCII
+    msg = EmailMessage(policy=email.policy.SMTP)
+    msg['From'] = f"Gregory LANGLET <{sender}>"
     msg['To'] = ", ".join(recipients)
     msg['Subject'] = f"Veille Quotidienne Unifiee - {date_str}"
-    msg['Message-ID'] = make_msgid()
     msg['Date'] = formatdate(localtime=True)
-    msg['MIME-Version'] = '1.0'
     
-    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le rapport de veille unifiée mis en page pour aujourd'hui ({date_str}).\n\nCordialement,\nL'assistant de Veille"
-    msg.attach(MIMEText(text_body, 'plain', 'utf-8'))
+    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le rapport de veille unifiee pour aujourd'hui ({date_str}).\n\nCordialement,\nL'assistant de Veille"
+    msg.set_content(text_body, charset='utf-8')
     
-    part = MIMEBase('text', 'html')
-    part.set_payload(html_body.encode('utf-8'))
-    encoders.encode_base64(part)
     filename = f"veille_globale_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
-    part.add_header('Content-Disposition', 'attachment', filename=filename)
-    msg.attach(part)
+    msg.add_attachment(
+        html_body.encode('utf-8'),
+        maintype='text',
+        subtype='html',
+        filename=filename
+    )
     
-    # Gmail (seul relais fiable depuis GitHub Actions — SFR bloque les IP cloud)
+    # Gmail (seul relais fiable depuis GitHub Actions — SFR bloque les IP cloud avec erreur 550)
     if not gmail_password:
-        print("[SMTP] ERREUR : GMAIL_APP_PASSWORD non configuré. Impossible d'envoyer.")
+        print("[SMTP] ERREUR : GMAIL_APP_PASSWORD non configure. Impossible d'envoyer.")
         sys.exit(1)
-    print(f"[SMTP] Envoi via Gmail à {', '.join(recipients)}...")
+    print(f"[SMTP] Envoi via Gmail a {', '.join(recipients)}...")
     try:
         with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
+            server.ehlo()
             server.starttls()
+            server.ehlo()
             server.login(gmail_email, gmail_password)
-            server.send_message(msg)  # send_message gère l'encodage UTF-8 correctement
-        print("[SMTP] E-mail envoyé avec succès via Gmail !")
+            server.send_message(msg)
+        print("[SMTP] E-mail envoye avec succes via Gmail !")
     except Exception as e:
         print(f"[SMTP] Erreur Gmail : {e}")
         sys.exit(1)
