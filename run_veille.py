@@ -173,7 +173,8 @@ def call_llm(system_prompt, user_prompt):
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=90) as response:
                 res_data = json.loads(response.read().decode("utf-8"))
-                return res_data["candidates"][0]["content"]["parts"][0]["text"]
+                text = res_data["candidates"][0]["content"]["parts"][0]["text"]
+                return text.replace('\ufeff', '').replace('\ufffe', '')
         except Exception as e:
             print(f"[LLM] Erreur Gemini API: {e}")
             
@@ -196,7 +197,8 @@ def call_llm(system_prompt, user_prompt):
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=90) as response:
                 res_data = json.loads(response.read().decode("utf-8"))
-                return res_data["choices"][0]["message"]["content"]
+                text = res_data["choices"][0]["message"]["content"]
+                return text.replace('\ufeff', '').replace('\ufffe', '')
         except urllib.error.HTTPError as http_err:
             print(f"[LLM] Erreur HTTP OpenRouter API ({http_err.code})")
             try:
@@ -580,6 +582,7 @@ def send_email(html_body, date_str):
 
     import email.policy
     from email.message import EmailMessage
+    # ponytail: SMTPUTF8 = UTF-8 natif partout, pas juste dans le body
     
     # Suppression totale de tout BOM ou caractère non-ASCII parasite
     html_body = html_body.replace('\ufeff', '').replace('\ufffe', '')
@@ -587,7 +590,7 @@ def send_email(html_body, date_str):
     sender = gmail_email if gmail_password else smtp_email
     
     # Construction du message avec policy UTF-8 natif — aucun encodage ASCII
-    msg = EmailMessage(policy=email.policy.SMTP)
+    msg = EmailMessage(policy=email.policy.SMTPUTF8)
     msg['From'] = f"Gregory LANGLET <{sender}>"
     msg['To'] = ", ".join(recipients)
     msg['Subject'] = f"Veille Quotidienne Unifiee - {date_str}"
