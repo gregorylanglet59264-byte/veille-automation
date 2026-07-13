@@ -205,13 +205,14 @@ def build_report_data(raw_news, tweets, date_str):
         f"   - Signature de fin : Un paragraphe en italique 'Rapport de veille spécifique rédigé le {date_str} par Gregory Langlet.'\n\n"
         "2. \"cards\": Une liste d'exactement 10 objets pour la pièce jointe HTML premium. Chaque objet doit avoir la structure suivante :\n"
         "   - \"title\": Le titre précis et percutant de l'événement.\n"
+        "   - \"category\": La catégorie exacte de l'événement parmi : 'CYCLONE', 'ORAGES', 'GRÊLE', 'INONDATIONS', 'VENT', 'VIGILANCE'. Choisis avec soin (par exemple, un orage avec grêle doit être catégorisé en 'ORAGES' ou 'GRÊLE' et NON pas en 'CYCLONE' sous prétexte que la source s'appelle Cycloneoi).\n"
         "   - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales, pluie, grêle) et les impacts constatés.\n"
         "   - \"url\": L'URL d'origine de l'article ou du tweet (recopiée à la lettre sans modification).\n\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "{\n"
         "  \"email_report\": \"...\",\n"
         "  \"cards\": [\n"
-        "    {\"title\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "    {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
         "    ... (10 items)\n"
         "  ]\n"
         "}"
@@ -232,17 +233,52 @@ def build_report_data(raw_news, tweets, date_str):
         time.sleep(10)
     return None
 
-def get_badge_info(title, summary):
-    text = (title + " " + summary).lower()
-    if any(k in text for k in ["cyclone", "ouragan", "typhon"]):
+def validate_and_correct_report(report_json, date_str):
+    print("[LLM-Control] Lancement de la phase de contrôle et validation de cohérence...")
+    system_prompt = (
+        "Tu es un expert en météorologie, rédacteur en chef et réviseur technique senior.\n"
+        "Ton rôle est de contrôler et de corriger les erreurs de cohérence ou d'étiquetage dans le rapport de veille météo fourni.\n\n"
+        "RÈGLES CRITIQUES DE VALIDATION ET CORRECTION :\n"
+        "1. ÉTIQUETAGE & COHÉRENCE : Assure-toi qu'un événement classé dans la catégorie 'CYCLONE' concerne bien un cyclone tropical actif mondial (ou typhon/ouragan). Si c'est un simple orage localisé en métropole, ou une tempête classique, requalifie la catégorie en 'ORAGES', 'VENT' ou 'VIGILANCE'. Ne te laisse pas tromper par le nom de la source d'information (par exemple, un tweet du compte '@Cycloneoi' ou '@infosyclone_44' traitant d'un orage localisé ou de fortes pluies à La Réunion doit être étiqueté 'INONDATIONS' ou 'ORAGES' et NON pas 'CYCLONE').\n"
+        "2. LIENS DES SOURCES : Assure-toi que toutes les adresses de liens 'url' du JSON sont strictement conservées et non altérées ou inventées.\n"
+        "3. TEXTE & STYLE : Conserve le style fluide et journalistique développé dans le corps d'e-mail (email_report) et les descriptions denses et approfondies (summary) dans la liste 'cards'.\n\n"
+        "Renvoie obligatoirement le JSON corrigé avec la structure suivante :\n"
+        "{\n"
+        "  \"email_report\": \"... (HTML corrigé et nettoyé)\",\n"
+        "  \"cards\": [\n"
+        "    {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "    ... (10 items)\n"
+        "  ]\n"
+        "}"
+    )
+    
+    user_prompt = f"Rapport initial généré :\n{json.dumps(report_json, ensure_ascii=False)}"
+    
+    for attempt in range(2):
+        response = call_llm(system_prompt, user_prompt)
+        if response:
+            try:
+                response_clean = response.strip().replace("```json", "").replace("```", "")
+                parsed = json.loads(response_clean, strict=False)
+                if isinstance(parsed, dict) and "email_report" in parsed and "cards" in parsed and len(parsed["cards"]) == 10:
+                    print("[LLM-Control] Rapport validé et auto-corrigé avec succès !")
+                    return parsed
+            except Exception as e:
+                print(f"[LLM-Control] Échec du parsing de correction (tentative {attempt+1}): {e}")
+    print("[LLM-Control] Attention : Échec de la correction auto, utilisation du rapport brut d'origine.")
+    return report_json
+
+def get_badge_info(category):
+    cat = str(category).upper().strip()
+    if "CYCLONE" in cat or "OURAGAN" in cat or "TYPHON" in cat:
         return "CYCLONE / OURAGAN", "#7c3aed", "#f5f3ff" # Purple
-    elif any(k in text for k in ["orage", "foudre", "supercellule"]):
+    elif "ORAGES" in cat or "ORAGE" in cat or "FOUDRE" in cat:
         return "ORAGES VIOLENTS", "#dc2626", "#fef2f2" # Red
-    elif any(k in text for k in ["grêle", "grele"]):
+    elif "GRÊLE" in cat or "GRELE" in cat:
         return "GRÊLE MAJEURE", "#b91c1c", "#fef2f2" # Dark Red
-    elif any(k in text for k in ["inondation", "crues", "débordement", "crue"]):
+    elif "INONDATION" in cat or "CRUE" in cat or "DÉBORDEMENT" in cat or "INONDATIONS" in cat:
         return "INONDATIONS / CRUES", "#2563eb", "#eff6ff" # Blue
-    elif any(k in text for k in ["vent", "rafale", "tornade", "tempête", "tempete"]):
+    elif "VENT" in cat or "RAFALE" in cat or "TORNADE" in cat or "TEMPÊTE" in cat or "TEMPETE" in cat:
         return "RAFALES / TORNADES", "#d97706", "#fffbeb" # Orange
     else:
         return "VIGILANCE MÉTÉO", "#4b5563", "#f9fafb" # Gray
@@ -271,7 +307,7 @@ def send_email(report_json, date_str):
     # 1. Construction du corps HTML du rapport en pièce jointe (fiches techniques ultra-premium)
     html_items = ""
     for idx, item in enumerate(cards_list, 1):
-        label, color, bg = get_badge_info(item.get('title', ''), item.get('summary', ''))
+        label, color, bg = get_badge_info(item.get('category', ''))
         html_items += f"""
         <div class="card">
             <span class="badge" style="background-color: {bg}; color: {color}; border: 1px solid {color}40;">{label} — Point {idx}</span>
@@ -406,6 +442,9 @@ def main():
     report_json = build_report_data(raw_news, tweets, date_str)
     
     if report_json:
+        # Phase de contrôle et validation de cohérence (self-correction pass)
+        report_json = validate_and_correct_report(report_json, date_str)
+        
         # Sauvegarde locale
         output_file = "veille_intemperies_final.json"
         with open(output_file, "w", encoding="utf-8") as f:
