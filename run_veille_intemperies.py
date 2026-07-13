@@ -354,13 +354,20 @@ def send_email(report_json, date_str):
     </html>
     """
     
-    # 2. Construction du rapport fluide directement dans le corps de l'e-mail
+    # 2. Construction du rapport fluide directement dans le corps de l'e-mail avec une mise en forme premium
     email_items_html = ""
     for idx, item in enumerate(report_json, 1):
+        label, color, bg = get_badge_info(item.get('category', ''))
         email_items_html += f"""
-        <div style="margin-bottom: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-          <h4 style="margin: 0 0 10px 0; color: #0f172a; font-size: 16px; font-weight: 700; line-height: 1.4;">
-            {idx}. {item.get('title')}
+        <div style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #f1f5f9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+          <div style="margin-bottom: 8px;">
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; background-color: {bg}; color: {color}; border: 1px solid {color}30; margin-right: 8px; vertical-align: middle;">
+              {label}
+            </span>
+            <span style="font-size: 13px; color: #64748b; font-weight: 600; vertical-align: middle;">Point {idx}</span>
+          </div>
+          <h4 style="margin: 0 0 10px 0; color: #0f172a; font-size: 16px; font-weight: 700; line-height: 1.45;">
+            {item.get('title')}
           </h4>
           <p style="margin: 0; color: #334155; font-size: 14.5px; line-height: 1.65; text-align: justify;">
             {item.get('summary')}
@@ -373,28 +380,38 @@ def send_email(report_json, date_str):
         
     html_email_body = f"""<html>
     <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; background-color: #f8fafc; padding: 25px; margin: 0; line-height: 1.65;">
-      <div style="max-width: 750px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 35px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+      <div style="max-width: 750px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); overflow: hidden;">
         
-        <h2 style="color: #1e3a8a; border-bottom: 3px solid #1e3a8a; padding-bottom: 12px; margin-top: 0; font-size: 24px; font-weight: 800; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">⛈️ Rapport de Veille Intempéries &amp; Cyclones — {date_str}</h2>
-        
-        <h3 style="color: #475569; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 25px; margin-bottom: 15px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Résumé exécutif</h3>
-        <p style="font-size: 15.5px; color: #334155; line-height: 1.65; text-align: justify; margin-bottom: 30px; margin-top: 0;">
-          Cette veille spécialisée est dédiée à la surveillance en temps réel des phénomènes météorologiques violents (orages, grêle, rafales de vent, tornades, inondations) en France métropolitaine et outre-mer, ainsi qu'au suivi de l'activité cyclonique tropicale, avec des sources de données rigoureusement datées de moins de 24h à 48h.
-        </p>
-        
-        {email_items_html}
-        
-        <p style="font-style: italic; font-size: 14.5px; color: #64748b; margin-top: 35px; border-top: 1px solid #e2e8f0; padding-top: 15px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-          Rapport de veille spécifique rédigé le {date_str} par Gregory Langlet.
-        </p>
-        
-        <div style="background-color: #eff6ff; border: 1px dashed #2563eb; padding: 20px; border-radius: 8px; margin: 30px 0; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-          <h3 style="color: #1e3a8a; margin: 0 0 8px 0; font-size: 16px; font-weight: 700;">📂 Rapport Technique Joint</h3>
-          <p style="margin: 0; font-size: 13.5px; color: #334155;">Le fichier joint <strong>{filename}</strong> contient les fiches techniques approfondies et les valeurs physiques relevées (rafales, pluie, grêle) prêtes pour diffusion.</p>
+        <!-- En-tête Premium -->
+        <div style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); padding: 35px 40px; color: #ffffff;">
+          <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #93c5fd; margin-bottom: 8px;">Veille Risques &amp; Menaces</div>
+          <h1 style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.5px; line-height: 1.2;">⛈️ Suivi Intempéries &amp; Cyclones</h1>
+          <div style="font-size: 14.5px; color: #cbd5e1; margin-top: 6px; font-weight: 500;">Rapport décisionnel du {date_str}</div>
         </div>
         
-        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
-        <p style="font-size: 11px; color: #94a3b8; text-align: center; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Généré automatiquement par le workflow GitHub Actions de Veille Météo.</p>
+        <div style="padding: 40px;">
+          <!-- Résumé exécutif -->
+          <div style="background-color: #f8fafc; border-left: 4px solid #2563eb; padding: 20px; border-radius: 0 8px 8px 0; margin-bottom: 35px;">
+            <h3 style="margin: 0 0 6px 0; color: #1e293b; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Résumé exécutif</h3>
+            <p style="margin: 0; font-size: 14.5px; color: #475569; line-height: 1.6; text-align: justify;">
+              Cette veille spécialisée est dédiée à la surveillance en temps réel des phénomènes météorologiques violents (orages, grêle, rafales de vent, tornades, inondations) en France métropolitaine et outre-mer, ainsi qu'au suivi de l'activité cyclonique tropicale, avec des sources de données rigoureusement datées de moins de 24h à 48h.
+            </p>
+          </div>
+          
+          {email_items_html}
+          
+          <!-- Encadré Rapport Joint Premium -->
+          <div style="background-color: #f0fdf4; border: 1px dashed #16a34a; padding: 22px; border-radius: 12px; margin: 35px 0; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <h3 style="color: #14532d; margin: 0 0 6px 0; font-size: 16px; font-weight: 700;">📂 Rapport Technique Joint</h3>
+            <p style="margin: 0 0 14px 0; font-size: 13.5px; color: #166534;">Le fichier joint <strong>{filename}</strong> contient les fiches techniques approfondies et les valeurs physiques relevées (rafales, pluie, grêle) prêtes pour diffusion.</p>
+            <div style="display: inline-block; padding: 8px 16px; background-color: #16a34a; color: #ffffff; border-radius: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Fiche technique en pièce jointe</div>
+          </div>
+          
+          <!-- Signature -->
+          <p style="font-style: italic; font-size: 14px; color: #64748b; margin-top: 35px; border-top: 1px solid #e2e8f0; padding-top: 20px; text-align: right; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            Rapport rédigé le {date_str} par Gregory Langlet.
+          </p>
+        </div>
       </div>
     </body>
     </html>
