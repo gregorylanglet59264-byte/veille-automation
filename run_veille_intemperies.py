@@ -300,20 +300,18 @@ def send_email(report_json, date_str):
     
     filename = f"veille_intemperies_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
-    # Récupérer les deux composants du rapport JSON
-    email_report_html = report_json.get("email_report", "")
-    cards_list = report_json.get("cards", [])
-    
     # 1. Construction du corps HTML du rapport en pièce jointe (fiches techniques ultra-premium)
     html_items = ""
-    for idx, item in enumerate(cards_list, 1):
+    for idx, item in enumerate(report_json, 1):
         label, color, bg = get_badge_info(item.get('category', ''))
         html_items += f"""
         <div class="card">
             <span class="badge" style="background-color: {bg}; color: {color}; border: 1px solid {color}40;">{label} — Point {idx}</span>
-            <h3 class="card-title">{item.get('title')}</h3>
+            <h3 class="card-title">
+                <a href="{item.get('url', '#')}" target="_blank" style="color: #0f172a; text-decoration: none;">{item.get('title')}</a>
+            </h3>
             <p class="card-summary">{item.get('summary')}</p>
-            <a href="{item.get('url', '#')}" target="_blank" class="btn-source">Consulter la source officielle</a>
+            <a href="{item.get('url', '#')}" target="_blank" class="btn-source">Consulter la source officielle ({item.get('source', '')})</a>
         </div>
         """
         
@@ -325,6 +323,7 @@ def send_email(report_json, date_str):
     .subtitle { font-size: 16px; color: #93c5fd; margin: 0; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
     .card { background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 24px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
     .card-title { font-size: 19px; font-weight: 700; margin: 0 0 12px 0; color: #0f172a; line-height: 1.4; }
+    .card-title a:hover { color: #2563eb !important; text-decoration: underline !important; }
     .card-summary { font-size: 14.5px; line-height: 1.7; color: #334155; margin: 0; text-align: justify; }
     .badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 12px; }
     .btn-source { display: inline-block; padding: 9px 18px; background-color: #1e3a8a; color: #ffffff !important; text-decoration: none; border-radius: 8px; font-size: 12px; font-weight: 600; margin-top: 16px; text-transform: uppercase; letter-spacing: 0.5px; }
@@ -355,20 +354,47 @@ def send_email(report_json, date_str):
     </html>
     """
     
-    # 2. Construction du corps de l'e-mail au format HTML contenant le rapport fluide rédigé
+    # 2. Construction du rapport fluide directement dans le corps de l'e-mail
+    email_items_html = ""
+    for idx, item in enumerate(report_json, 1):
+        email_items_html += f"""
+        <div style="margin-bottom: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+          <h4 style="margin: 0 0 10px 0; color: #0f172a; font-size: 16px; font-weight: 700; line-height: 1.4;">
+            {idx}. {item.get('title')}
+          </h4>
+          <p style="margin: 0; color: #334155; font-size: 14.5px; line-height: 1.65; text-align: justify;">
+            {item.get('summary')}
+            <span style="font-size: 13.5px; font-weight: 600; white-space: nowrap; margin-left: 6px;">
+              (lire la suite sur <a href="{item.get('url', '#')}" target="_blank" style="color: #2563eb; text-decoration: underline;">{item.get('source', 'la source')}</a>)
+            </span>
+          </p>
+        </div>
+        """
+        
     html_email_body = f"""<html>
     <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; background-color: #f8fafc; padding: 25px; margin: 0; line-height: 1.65;">
       <div style="max-width: 750px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 35px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         
-        {email_report_html}
+        <h2 style="color: #1e3a8a; border-bottom: 3px solid #1e3a8a; padding-bottom: 12px; margin-top: 0; font-size: 24px; font-weight: 800; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">⛈️ Rapport de Veille Intempéries &amp; Cyclones — {date_str}</h2>
         
-        <div style="background-color: #eff6ff; border: 1px dashed #2563eb; padding: 20px; border-radius: 8px; margin: 30px 0; text-align: center;">
+        <h3 style="color: #475569; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 25px; margin-bottom: 15px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Résumé exécutif</h3>
+        <p style="font-size: 15.5px; color: #334155; line-height: 1.65; text-align: justify; margin-bottom: 30px; margin-top: 0;">
+          Cette veille spécialisée est dédiée à la surveillance en temps réel des phénomènes météorologiques violents (orages, grêle, rafales de vent, tornades, inondations) en France métropolitaine et outre-mer, ainsi qu'au suivi de l'activité cyclonique tropicale, avec des sources de données rigoureusement datées de moins de 24h à 48h.
+        </p>
+        
+        {email_items_html}
+        
+        <p style="font-style: italic; font-size: 14.5px; color: #64748b; margin-top: 35px; border-top: 1px solid #e2e8f0; padding-top: 15px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+          Rapport de veille spécifique rédigé le {date_str} par Gregory Langlet.
+        </p>
+        
+        <div style="background-color: #eff6ff; border: 1px dashed #2563eb; padding: 20px; border-radius: 8px; margin: 30px 0; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
           <h3 style="color: #1e3a8a; margin: 0 0 8px 0; font-size: 16px; font-weight: 700;">📂 Rapport Technique Joint</h3>
           <p style="margin: 0; font-size: 13.5px; color: #334155;">Le fichier joint <strong>{filename}</strong> contient les fiches techniques approfondies et les valeurs physiques relevées (rafales, pluie, grêle) prêtes pour diffusion.</p>
         </div>
         
         <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
-        <p style="font-size: 11px; color: #94a3b8; text-align: center; margin: 0;">Généré automatiquement par le workflow GitHub Actions de Veille Météo.</p>
+        <p style="font-size: 11px; color: #94a3b8; text-align: center; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Généré automatiquement par le workflow GitHub Actions de Veille Météo.</p>
       </div>
     </body>
     </html>
