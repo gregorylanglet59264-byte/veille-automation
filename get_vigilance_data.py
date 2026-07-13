@@ -376,8 +376,8 @@ def overlay_logo_on_map(map_path, logo_path):
             
         img_logo_resized = img_logo.resize((logo_w, logo_h), resampling)
         
-        # Position top-left
-        position = (15, 15)
+        # Position top-right (haut à droite) - évite de masquer l'Île-de-France
+        position = (map_w - logo_w - 15, 15)
         
         img_map.paste(img_logo_resized, position, img_logo_resized)
         
