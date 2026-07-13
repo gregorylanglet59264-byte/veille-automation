@@ -869,7 +869,8 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
                         break
                 if situation_text:
                     md += "### 🌐 Situation Synoptique Générale & Évolution\n\n"
-                    md += f"> {situation_text.replace('\n', ' ')}\n\n"
+                    situation_single_line = situation_text.replace('\n', ' ')
+                    md += f"> {situation_single_line}\n\n"
                     
                 # 3. Prévisions côtières détaillées rédigées (Demain et Après-demain)
                 md += "### ⚓ Prévisions Marines Côtières Détaillées\n\n"
