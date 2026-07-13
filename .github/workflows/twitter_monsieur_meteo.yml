@@ -93,11 +93,16 @@ jobs:
 
       # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
 
-      - name: Récupérer les actualités météo (Google News RSS)
+      - name: Récupérer les tweets du fil (Tweepy API v2)
         if: steps.mode.outputs.do_debrief == 'true'
+        env:
+          TWITTER_API_KEY:       ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET:    ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN:  ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
         run: |
           mkdir -p data output
-          python fetch_news.py
+          python fetch_tweets.py --hours 2 --limit 100
 
       - name: Générer l'infographie de débriefing
         if: steps.mode.outputs.do_debrief == 'true'
