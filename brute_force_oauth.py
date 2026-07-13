@@ -19,13 +19,11 @@ TINY_GIF = b'GIF89a\x01\x00\x01\x00\x80\x00\x00\xff\xff\xff\x00\x00\x00!\xf9\x04
 def test_combination(api_key, api_secret, access_token, access_token_secret):
     auth = OAuth1(api_key, api_secret, access_token, access_token_secret)
     try:
-        # We perform a media upload test which is supported on the Free tier
-        # and doesn't post any public tweet.
         r = requests.post(
             "https://upload.twitter.com/1.1/media/upload.json",
             auth=auth,
             files={"media": ("test.gif", TINY_GIF, "image/gif")},
-            timeout=4
+            timeout=3
         )
         if r.status_code == 200:
             return {
@@ -43,17 +41,17 @@ def main():
     # Load raw secrets from env
     raw_api_key = os.environ.get("TWITTER_API_KEY", "").strip()
     raw_api_secret = os.environ.get("TWITTER_API_SECRET", "").strip()
-    access_token = os.environ.get("TWITTER_ACCESS_TOKEN", "").strip()
+    raw_access_token = os.environ.get("TWITTER_ACCESS_TOKEN", "").strip()
     raw_access_secret = os.environ.get("TWITTER_ACCESS_SECRET", "").strip()
     
-    if not all([raw_api_key, raw_api_secret, access_token, raw_access_secret]):
+    if not all([raw_api_key, raw_api_secret, raw_access_token, raw_access_secret]):
         print("Missing OAuth1 credentials in env.")
         sys.exit(1)
 
     print("\nStarting OAuth1 credentials verification via Media Upload...")
     
     # 1. First check if the keys work as they are
-    res = test_combination(raw_api_key, raw_api_secret, access_token, raw_access_secret)
+    res = test_combination(raw_api_key, raw_api_secret, raw_access_token, raw_access_secret)
     if res:
         print("✅ Provided credentials are already 100% VALID!")
         os.makedirs("data", exist_ok=True)
@@ -65,8 +63,6 @@ def main():
 
     # 2. Generate combinations for API Key
     # E.g. "dBuAhm2VgKRSWePZew6Fz1PAB"
-    # Ambiguity 1: "V" in "2Vg" (could be "v")
-    # Ambiguity 2: "1" in "6Fz1PAB" (could be "l" or "I")
     api_key_combos = []
     api_key_base_left = "dBuAhm2"
     api_key_base_mid = "gKRSWePZew6Fz"
@@ -83,8 +79,6 @@ def main():
 
     # 3. Generate combinations for Consumer Secret
     # E.g. "9QBebgaQFekofi49WYppQyUV3vJ6z7YAzY8SlF0Rr9P5VIoJ0S"
-    # Ambiguity 1: "Sl" after "Y8"
-    # Ambiguity 2: "I" in "5VIoJ0S"
     api_secret_base_left = "9QBebgaQFekofi49WYppQyUV3vJ6z7YAzY8"
     api_secret_base_mid = "F0Rr9P5V"
     api_secret_base_right = "oJ0S"
@@ -102,10 +96,21 @@ def main():
     if raw_api_secret not in api_secret_combos:
         api_secret_combos.append(raw_api_secret)
 
-    # 4. Generate combinations for Access Token Secret
+    # 4. Generate combinations for Access Token
+    # E.g. "1564047918-gBSPkUzIX9bjWsrSdYrACjPE57U65FMNDUmGKJV"
+    # Ambiguity: "I" in "UzIX9" (could be "l" or "1")
+    access_token_combos = []
+    access_token_base_left = "1564047918-gBSPkUz"
+    access_token_base_right = "X9bjWsrSdYrACjPE57U65FMNDUmGKJV"
+    
+    for c in ["I", "l", "1"]:
+        access_token_combos.append(f"{access_token_base_left}{c}{access_token_base_right}")
+        
+    if raw_access_token not in access_token_combos:
+        access_token_combos.append(raw_access_token)
+
+    # 5. Generate combinations for Access Token Secret
     # E.g. "gXGWKUdOWDqVu7pVZWZ2MvIt0QDa0OnSqD2dhDMBMtpos"
-    # Ambiguity 1: "pV" after "Vu7"
-    # Ambiguity 2: "I" in "MvIt0Q"
     access_secret_base_left = "gXGWKUdOWDqVu7"
     access_secret_base_mid = "ZWZ2Mv"
     access_secret_base_right = "t0QDa0OnSqD2dhDMBMtpos"
@@ -127,14 +132,14 @@ def main():
     tasks = []
     for key in api_key_combos:
         for sec in api_secret_combos:
-            for a_sec in access_secret_combos:
-                tasks.append((key, sec, access_token, a_sec))
+            for tok in access_token_combos:
+                for a_sec in access_secret_combos:
+                    tasks.append((key, sec, tok, a_sec))
                 
-    print(f"Testing {len(tasks)} combinations using up to 40 concurrent workers...")
+    print(f"Testing {len(tasks)} combinations using up to 60 concurrent workers...")
     
     success_res = None
-    # We use a larger thread pool to test combinations quickly (takes < 20s for 1000 tasks)
-    with ThreadPoolExecutor(max_workers=40) as executor:
+    with ThreadPoolExecutor(max_workers=60) as executor:
         futures = {
             executor.submit(test_combination, t[0], t[1], t[2], t[3]): t 
             for t in tasks
