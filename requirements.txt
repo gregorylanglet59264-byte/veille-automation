@@ -4,3 +4,4 @@ pillow
 playwright
 tweepy
 requests-oauthlib
+googlenewsdecoder
