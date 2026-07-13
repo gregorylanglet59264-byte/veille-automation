@@ -2,13 +2,13 @@ name: "Twitter Monsieur Météo — Infographies & Vigilance"
 
 on:
   schedule:
-    # Débriefing toutes les 2 heures (UTC) : 4h, 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h UTC
-    # = 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h, 0h heure France (UTC+2)
+    # Débriefing toutes les 2 heures (heure France UTC+2)
+    # 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h, 0h France = 4h, 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h UTC
     - cron: '0 4,6,8,10,12,14,16,18,20,22 * * *'
-    # Vigilance Matin (6h00 heure France = 4h UTC)
-    # -> Capturée par le 1er run du cron ci-dessus
-    # Vigilance Soir (16h00 heure France = 14h UTC)
-    # -> Capturée par le run de 14h UTC ci-dessus
+    # Vigilance Matin — 6h30 France (UTC+2) = 4h30 UTC
+    - cron: '30 4 * * *'
+    # Vigilance Soir — 16h30 France (UTC+2) = 14h30 UTC
+    - cron: '30 14 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -55,22 +55,22 @@ jobs:
       - name: Déterminer le mode de lancement
         id: mode
         run: |
-          # Heure UTC courante
           HOUR=$(date -u +%H | sed 's/^0*//')
+          MIN=$(date -u +%M | sed 's/^0*//')
           MODE="${{ github.event.inputs.mode }}"
           
-          # En mode planifié, on décide automatiquement
+          # En mode planifié, on décide selon l'heure et les minutes
           if [ "${{ github.event_name }}" = "schedule" ] || [ -z "$MODE" ]; then
-            if [ "$HOUR" = "4" ]; then
-              MODE="vigilance_matin_and_debrief"
-            elif [ "$HOUR" = "14" ]; then
-              MODE="vigilance_soir_and_debrief"
+            if [ "$HOUR" = "4" ] && [ "$MIN" = "30" ]; then
+              MODE="vigilance_matin"
+            elif [ "$HOUR" = "14" ] && [ "$MIN" = "30" ]; then
+              MODE="vigilance_soir"
             else
               MODE="debrief"
             fi
           fi
           
-          echo "Determined mode: $MODE"
+          echo "Determined mode: $MODE (UTC ${HOUR}h${MIN})"
           echo "mode=$MODE" >> $GITHUB_OUTPUT
 
       # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
