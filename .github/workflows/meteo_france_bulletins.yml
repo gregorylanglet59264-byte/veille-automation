@@ -1,0 +1,56 @@
+name: Météo France Bulletins Premium
+
+on:
+  schedule:
+    # 18h45 heure française d'été (16h45 UTC)
+    - cron: '45 16 * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: "Mode test (envoyer uniquement à Gregory, pas à Patrick)"
+        required: true
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  run-meteo-france:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lancer la génération des bulletins Météo France
+        env:
+          PYTHONUNBUFFERED: "1"
+          GMAIL_EMAIL: "langlet.gregory@gmail.com"
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          # Envoi à Patrick uniquement en production (cron ou test_mode désactivé)
+          RECIPIENT_EMAILS: ${{ (github.event_name == 'schedule' || github.event.inputs.test_mode == 'false') && 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com, patrick.marliere@wanadoo.fr' || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python meteo_france/run_meteo_france.py
+
+      - name: Committer et Pousser les rapports sur le dépôt
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add meteo_france/rapports/
+          # Commit seulement s'il y a des modifications
+          git diff-index --quiet HEAD || git commit -m "Auto: Publication des bulletins météo du $(date +'%d/%m/%Y')"
+          git push
