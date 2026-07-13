@@ -9,6 +9,7 @@ compile le tout en HTML premium responsive et l'envoie par e-mail via SMTP SFR.
 import os
 import sys
 import json
+import time
 import argparse
 import datetime
 import urllib.request
@@ -157,9 +158,9 @@ def fetch_google_news(query):
 
 # 2. Appel API IA (Gemini ou OpenRouter) sans dépendances lourdes
 def call_llm(system_prompt, user_prompt):
-    gemini_key = os.environ.get("GEMINI_API_KEY")
-    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
-    
+    gemini_key = (os.environ.get("GEMINI_API_KEY") or "").strip()
+    openrouter_key = (os.environ.get("OPENROUTER_API_KEY") or "").strip()
+
     if gemini_key:
         print("[LLM] Appel de Gemini API...")
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
@@ -212,6 +213,24 @@ def call_llm(system_prompt, user_prompt):
     print("[LLM] ERREUR : Aucune clé API configurée ou échec des appels.")
     return None
 
+def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
+    """Appelle call_llm et parse le JSON. Retry x3 si réponse vide ou JSON invalide."""
+    for attempt in range(retries):
+        response = call_llm(system_prompt, user_prompt)
+        if not response or not response.strip():
+            print(f"[LLM] Tentative {attempt+1}/{retries} : réponse vide pour {label}.")
+        else:
+            response_clean = response.strip().replace("```json", "").replace("```", "")
+            try:
+                return json.loads(response_clean, strict=False)
+            except json.JSONDecodeError as e:
+                print(f"[LLM] Tentative {attempt+1}/{retries} : JSON invalide pour {label} : {e}")
+        if attempt < retries - 1:
+            print(f"[LLM] Nouvelle tentative dans {delay}s...")
+            time.sleep(delay)
+    print(f"[LLM] ERREUR : {retries} tentatives échouées pour {label}.")
+    return None
+
 # 3. Rédacteurs thématiques (avec règle stricte des 10 articles)
 def build_actu_report(date_str):
     print("[Rapport] Collecte et rédaction Actualités...")
@@ -241,12 +260,7 @@ def build_actu_report(date_str):
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_data, ensure_ascii=False)}"
     
-    response = call_llm(system_prompt, user_prompt)
-    if not response:
-        return None
-    # Nettoyer d'éventuels marqueurs markdown
-    response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean, strict=False)
+    return llm_parse_json(system_prompt, user_prompt, label="build_actu_report")
 
 def build_ia_report(date_str):
     print("[Rapport] Collecte et rédaction Intelligence Artificielle...")
@@ -266,11 +280,7 @@ def build_ia_report(date_str):
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     
-    response = call_llm(system_prompt, user_prompt)
-    if not response:
-        return None
-    response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean, strict=False)
+    return llm_parse_json(system_prompt, user_prompt, label="build_ia_report")
 
 def build_meteo_report(date_str):
     print("[Rapport] Collecte et rédaction Météo & Climat...")
@@ -290,11 +300,7 @@ def build_meteo_report(date_str):
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     
-    response = call_llm(system_prompt, user_prompt)
-    if not response:
-        return None
-    response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean, strict=False)
+    return llm_parse_json(system_prompt, user_prompt, label="build_meteo_report")
 
 def process_youtube_report():
     print("[Rapport] Chargement, notation et rédaction Vidéos YouTube...")
@@ -339,11 +345,9 @@ def process_youtube_report():
             
         user_prompt = f"Vidéos récentes récoltées :\n{json.dumps(input_data, ensure_ascii=False)}"
         
-        response = call_llm(system_prompt, user_prompt)
-        if response:
-            response_clean = response.strip().replace("```json", "").replace("```", "")
-            return json.loads(response_clean, strict=False)
-            
+        result = llm_parse_json(system_prompt, user_prompt, label="process_youtube_report")
+        if result:
+            return result
         # Fallback si l'IA échoue : tri classique par score d'origine
         print("Fallback YouTube : Échec de l'IA, utilisation du tri par défaut.")
         top_videos = sorted(videos, key=lambda x: -x.get("score", 0))[:10]
@@ -376,11 +380,7 @@ def build_synthesis(actu, ia, meteo, yt, date_str):
     )
     user_prompt = f"Données pour le {date_str} :\n- Presse : {json.dumps(actu, ensure_ascii=False)[:3000]}\n- IA : {json.dumps(ia, ensure_ascii=False)[:3000]}\n- Météo : {json.dumps(meteo, ensure_ascii=False)[:3000]}\n- YouTube : {json.dumps(yt, ensure_ascii=False)[:3000]}"
     
-    response = call_llm(system_prompt, user_prompt)
-    if not response:
-        return None
-    response_clean = response.strip().replace("```json", "").replace("```", "")
-    return json.loads(response_clean, strict=False)
+    return llm_parse_json(system_prompt, user_prompt, label="build_synthesis")
 
 # 5. Compilation HTML Premium Responsive
 def compile_html(synthesis, actu, ia, meteo, yt, date_str):
