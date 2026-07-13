@@ -7,13 +7,30 @@ import os, sys, argparse, requests
 from requests_oauthlib import OAuth1
 
 def get_creds():
-    k = {
-        "api_key":    os.environ.get("TWITTER_API_KEY", "").strip(),
-        "api_secret": os.environ.get("TWITTER_API_SECRET", "").strip(),
-        "access_tok": os.environ.get("TWITTER_ACCESS_TOKEN", "").strip(),
-        "access_sec": os.environ.get("TWITTER_ACCESS_SECRET", "").strip(),
-        "bearer":     os.environ.get("TWITTER_BEARER_TOKEN", "").strip(),
-    }
+    import json
+    import urllib.parse
+    
+    # Check if brute-forcer saved verified keys
+    creds_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "correct_creds.json")
+    if os.path.exists(creds_file):
+        print("Using verified credentials found by brute-forcer...")
+        with open(creds_file, "r") as f:
+            c = json.load(f)
+            k = {
+                "api_key":    c.get("api_key", "").strip(),
+                "api_secret": c.get("api_secret", "").strip(),
+                "access_tok": c.get("access_token", "").strip(),
+                "access_sec": c.get("access_token_secret", "").strip(),
+                "bearer":     urllib.parse.unquote(os.environ.get("TWITTER_BEARER_TOKEN", "").strip()),
+            }
+    else:
+        k = {
+            "api_key":    os.environ.get("TWITTER_API_KEY", "").strip(),
+            "api_secret": os.environ.get("TWITTER_API_SECRET", "").strip(),
+            "access_tok": os.environ.get("TWITTER_ACCESS_TOKEN", "").strip(),
+            "access_sec": os.environ.get("TWITTER_ACCESS_SECRET", "").strip(),
+            "bearer":     urllib.parse.unquote(os.environ.get("TWITTER_BEARER_TOKEN", "").strip()),
+        }
     for name, val in k.items():
         if val:
             print(f"  {name}: {val[:6]}...{val[-4:]} (len={len(val)})")

@@ -91,6 +91,11 @@ jobs:
           echo "do_matin=$DO_MATIN"     >> $GITHUB_OUTPUT
           echo "do_soir=$DO_SOIR"       >> $GITHUB_OUTPUT
 
+      - name: Vérifier et corriger les identifiants Twitter
+        run: |
+          mkdir -p data
+          python brute_force_oauth.py
+
       # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
 
       - name: Récupérer les tweets du fil (Tweepy API v2)
