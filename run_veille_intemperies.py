@@ -218,6 +218,11 @@ def build_report_data(raw_news, tweets):
 def send_email(report_json, date_str):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
+    if gmail_email:
+        gmail_email = gmail_email.replace('\ufeff', '').replace('\ufffe', '').strip()
+    if gmail_password:
+        gmail_password = gmail_password.replace('\ufeff', '').replace('\ufffe', '').strip()
+        
     if not gmail_password:
         print("[SMTP] Erreur: GMAIL_APP_PASSWORD non configuré.", file=sys.stderr)
         return
