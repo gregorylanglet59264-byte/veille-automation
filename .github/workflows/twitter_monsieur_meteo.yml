@@ -1,14 +1,14 @@
 name: "Twitter Monsieur Météo — Infographies & Vigilance"
 
 on:
-  schedule:
-    # Débriefing toutes les 2 heures (heure France UTC+2)
-    # 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h, 0h France = 4h, 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h UTC
-    - cron: '0 4,6,8,10,12,14,16,18,20,22 * * *'
-    # Vigilance Matin — 6h30 France (UTC+2) = 4h30 UTC
-    - cron: '30 4 * * *'
-    # Vigilance Soir — 16h30 France (UTC+2) = 14h30 UTC
-    - cron: '30 14 * * *'
+  # schedule:
+  #   # Débriefing toutes les 2 heures (heure France UTC+2)
+  #   # 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h, 0h France = 4h, 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h UTC
+  #   - cron: '0 4,6,8,10,12,14,16,18,20,22 * * *'
+  #   # Vigilance Matin — 6h30 France (UTC+2) = 4h30 UTC
+  #   - cron: '30 4 * * *'
+  #   # Vigilance Soir — 16h30 France (UTC+2) = 14h30 UTC
+  #   - cron: '30 14 * * *'
   workflow_dispatch:
     inputs:
       mode:

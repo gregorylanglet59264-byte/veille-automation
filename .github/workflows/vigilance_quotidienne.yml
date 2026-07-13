@@ -1,9 +1,9 @@
 name: Vigilance Météo-France Quotidienne
 
 on:
-  schedule:
-    # 6h30 et 16h30 heure française d'été (4h30 et 14h30 UTC)
-    - cron: '30 4,14 * * *'
+  # schedule:
+  #   # 6h30 et 16h30 heure française d'été (4h30 et 14h30 UTC)
+  #   - cron: '30 4,14 * * *'
   workflow_dispatch: # Permet de lancer manuellement depuis GitHub
     inputs:
       test_mode:

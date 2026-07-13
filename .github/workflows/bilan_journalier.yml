@@ -1,9 +1,9 @@
 name: Bilan Journalier Regional
 
 on:
-  schedule:
-    # 18h30 heure française d'été (16h30 UTC)
-    - cron: '30 16 * * *'
+  # schedule:
+  #   # 18h30 heure française d'été (16h30 UTC)
+  #   - cron: '30 16 * * *'
   workflow_dispatch:
     inputs:
       date:
