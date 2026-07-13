@@ -1,0 +1,136 @@
+name: "Twitter Monsieur Météo — Infographies & Vigilance"
+
+on:
+  schedule:
+    # Débriefing toutes les 2 heures (UTC) : 4h, 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h UTC
+    # = 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h, 0h heure France (UTC+2)
+    - cron: '0 4,6,8,10,12,14,16,18,20,22 * * *'
+    # Vigilance Matin (6h00 heure France = 4h UTC)
+    # -> Capturée par le 1er run du cron ci-dessus
+    # Vigilance Soir (16h00 heure France = 14h UTC)
+    # -> Capturée par le run de 14h UTC ci-dessus
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Mode : debrief, vigilance_matin, vigilance_soir, ou all"
+        required: true
+        type: choice
+        options:
+          - all
+          - debrief
+          - vigilance_matin
+          - vigilance_soir
+        default: "all"
+
+jobs:
+  twitter-post:
+    runs-on: ubuntu-latest
+    env:
+      TWITTER_API_KEY:       ${{ secrets.TWITTER_API_KEY }}
+      TWITTER_API_SECRET:    ${{ secrets.TWITTER_API_SECRET }}
+      TWITTER_ACCESS_TOKEN:  ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+      PYTHONUNBUFFERED:      "1"
+
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installer les dépendances Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Installer Playwright Chromium
+        run: |
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Déterminer le mode de lancement
+        id: mode
+        run: |
+          # Heure UTC courante
+          HOUR=$(date -u +%H | sed 's/^0*//')
+          MODE="${{ github.event.inputs.mode }}"
+          
+          # En mode planifié, on décide automatiquement
+          if [ "${{ github.event_name }}" = "schedule" ] || [ -z "$MODE" ]; then
+            if [ "$HOUR" = "4" ]; then
+              MODE="vigilance_matin_and_debrief"
+            elif [ "$HOUR" = "14" ]; then
+              MODE="vigilance_soir_and_debrief"
+            else
+              MODE="debrief"
+            fi
+          fi
+          
+          echo "Determined mode: $MODE"
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
+
+      # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
+      - name: Générer le texte du débriefing (RSS)
+        if: contains(steps.mode.outputs.mode, 'debrief')
+        run: |
+          mkdir -p data
+          python run_veille.py --twitter-only || echo "Warning: run_veille.py tweet generation failed"
+
+      - name: Générer l'infographie de débriefing
+        if: contains(steps.mode.outputs.mode, 'debrief')
+        run: |
+          mkdir -p data
+          python capture_debrief.py || echo "Warning: capture_debrief.py failed"
+
+      - name: Publier le débriefing sur X
+        if: contains(steps.mode.outputs.mode, 'debrief') && hashFiles('debrief_twitter.jpg') != ''
+        run: |
+          python publish_to_twitter.py \
+            --image debrief_twitter.jpg \
+            --text-file data/debrief_tweet.txt
+
+      # ── 2. CARTE DE VIGILANCE MATIN (6h00 France = run 4h UTC) ─────────────
+      - name: Générer la carte de vigilance du matin (Aujourd'hui - J0)
+        if: contains(steps.mode.outputs.mode, 'vigilance_matin')
+        run: |
+          python generate_vigilance_twitter.py \
+            --period 0 \
+            --output vigilance_matin.jpg
+
+      - name: Générer le texte vigilance matin
+        if: contains(steps.mode.outputs.mode, 'vigilance_matin')
+        run: |
+          python get_vigilance_data.py --out-dir output --twitter-only
+          cp output/twitter_post.txt data/vigilance_matin_tweet.txt 2>/dev/null || echo "⚠️ Vigilance Météorologique — Consultez https://vigilance.meteofrance.fr/fr pour les détails du jour." > data/vigilance_matin_tweet.txt
+
+      - name: Publier la vigilance matin sur X
+        if: contains(steps.mode.outputs.mode, 'vigilance_matin') && hashFiles('vigilance_matin.jpg') != ''
+        run: |
+          python publish_to_twitter.py \
+            --image vigilance_matin.jpg \
+            --text-file data/vigilance_matin_tweet.txt
+
+      # ── 3. CARTE DE VIGILANCE SOIR (16h00 France = run 14h UTC) ────────────
+      - name: Générer la carte de vigilance du soir (Demain - J+1)
+        if: contains(steps.mode.outputs.mode, 'vigilance_soir')
+        run: |
+          python generate_vigilance_twitter.py \
+            --period 1 \
+            --output vigilance_soir.jpg
+
+      - name: Générer le texte vigilance soir
+        if: contains(steps.mode.outputs.mode, 'vigilance_soir')
+        run: |
+          python get_vigilance_data.py --out-dir output --twitter-only --period 1
+          cp output/twitter_post.txt data/vigilance_soir_tweet.txt 2>/dev/null || echo "⚠️ Vigilance Météorologique Demain — Consultez https://vigilance.meteofrance.fr/fr pour les détails." > data/vigilance_soir_tweet.txt
+
+      - name: Publier la vigilance soir sur X
+        if: contains(steps.mode.outputs.mode, 'vigilance_soir') && hashFiles('vigilance_soir.jpg') != ''
+        run: |
+          python publish_to_twitter.py \
+            --image vigilance_soir.jpg \
+            --text-file data/vigilance_soir_tweet.txt
