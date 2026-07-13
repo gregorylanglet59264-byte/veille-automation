@@ -78,9 +78,19 @@ def fetch_google_news(query):
             link = item.findtext("link") or ""
             pub_date = item.findtext("pubDate") or ""
             source = item.findtext("source") or ""
+            
+            # Décoder le lien de redirection Google News pour avoir l'URL directe
+            decoded_link = link
+            try:
+                res = gnewsdecoder(link)
+                if res.get("status") and res.get("decoded_url"):
+                    decoded_link = res["decoded_url"]
+            except Exception as e:
+                print(f"[RSS] Échec décodage lien Google News: {e}")
+                
             articles.append({
                 "title": title,
-                "url": link,
+                "url": decoded_link,
                 "date": pub_date,
                 "source": source
             })
