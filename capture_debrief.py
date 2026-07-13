@@ -145,13 +145,14 @@ def main():
 
     # Write tweet text for publication
     os.makedirs(os.path.dirname(TWEET_FILE), exist_ok=True)
-    top3 = [t for t in tweets[:3] if t and not t.get("id", "").startswith("mock_")]
-    lines = ["🌤️ Débriefing Météo du fil de veille :\n"]
-    for t in top3:
-        lines.append(f"• @{t.get('username','?')} : {truncate(t.get('text',''), 90)}")
-    lines.append("\n#Météo #MeteoFrance #Vigilance")
+    report_text = (
+        f"DEBRIEF METEO - {date_str} ({heure_str})\n\n"
+        f"Retrouvez le debriefing en direct du reseau de veille scientifique (alertes, observations et tendances des modeles).\n\n"
+        f"Details complets sur l'infographie ci-dessous.\n"
+        f"#Meteo #Climat"
+    )
     with open(TWEET_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+        f.write(report_text)
 
     # Capture via Playwright
     with tempfile.NamedTemporaryFile(suffix=".html", delete=False, mode="w", encoding="utf-8") as tmp:

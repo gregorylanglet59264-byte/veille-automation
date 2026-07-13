@@ -310,16 +310,14 @@ def main():
     # Generate text report summarizing the highlights in data/debrief_tweet.txt
     tweet_text_file = os.path.join(os.path.dirname(output_file), "debrief_tweet.txt")
     
-    a_txt = alerts[0]["text"] if alerts[0] else ""
-    g_txt = general[0]["text"] if general[0] else ""
-    m_txt = models[0]["text"] if models[0] else ""
+    date_str = now.strftime("%d/%m/%Y")
+    heure_str = now.strftime("%H:%M UTC")
     
     report_text = (
-        f"🌤️ DEBRIEFING ACTUS MÉTÉO (Dernières {chosen_hours}h)\n\n"
-        f"🚨 ALERTE : {a_txt[:100]}...\n\n"
-        f"🌤️ GÉNÉRAL : {g_txt[:100]}...\n\n"
-        f"📡 MODÈLES : {m_txt[:100]}...\n\n"
-        f"Retrouvez l'infographie complète ci-dessous."
+        f"DEBRIEF METEO - {date_str} ({heure_str})\n\n"
+        f"Retrouvez le debriefing en direct du reseau de veille scientifique (alertes, observations et tendances des modeles).\n\n"
+        f"Details complets sur l'infographie ci-dessous.\n"
+        f"#Meteo #Climat"
     )
     
     with open(tweet_text_file, "w", encoding="utf-8") as f:
