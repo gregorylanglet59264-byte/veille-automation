@@ -139,7 +139,21 @@ def md_to_html(md_text):
     
     return html
 
-def send_email_with_summary(summary_md, national_md, date_str, reports_urls):
+import zipfile
+
+def create_zip_archive(today_str, rapports_dir, zip_output_path):
+    with zipfile.ZipFile(zip_output_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        for file in os.listdir(rapports_dir):
+            file_path = os.path.join(rapports_dir, file)
+            if os.path.isfile(file_path):
+                if "bulletin_france" in file:
+                    # Bulletin national à la racine du zip
+                    zipf.write(file_path, file)
+                else:
+                    # Bulletins régionaux dans un sous-dossier "bulletins_regionaux"
+                    zipf.write(file_path, os.path.join("bulletins_regionaux", file))
+
+def send_email_with_summary(national_md, date_str, zip_path):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if not gmail_password:
@@ -155,14 +169,9 @@ def send_email_with_summary(summary_md, national_md, date_str, reports_urls):
     subject = f"Meteo France - Bulletin National & Regional du {date_str}"
     clean_subject = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
     
-    # Conversion du résumé Markdown en HTML
-    summary_html = md_to_html(summary_md)
+    # Conversion du bulletin national complet en HTML
+    national_html = md_to_html(national_md)
     
-    # Construction du corps HTML du mail
-    links_html = ""
-    for reg, url in reports_urls.items():
-        links_html += f'<a href="{url}" style="display:inline-block; margin:4px; padding:6px 12px; background-color:#eff6ff; color:#1d4ed8; text-decoration:none; border-radius:4px; font-size:12px; font-weight:bold; border:1px solid #bfdbfe;">{reg}</a>'
-        
     email_body = f"""
     <!DOCTYPE html>
     <html>
@@ -178,7 +187,6 @@ def send_email_with_summary(summary_md, national_md, date_str, reports_urls):
             .content {{ padding: 25px; }}
             .section-card {{ background-color: #f8fafc; border-radius: 8px; padding: 20px; margin-bottom: 20px; border: 1px solid #e2e8f0; }}
             .section-card h2 {{ margin-top: 0; font-size: 18px; color: #1e3a8a; border-bottom: 2px solid #3b82f6; padding-bottom: 6px; }}
-            .links-container {{ padding: 15px; background-color: #fafafa; border-radius: 8px; text-align: center; border: 1px dashed #cbd5e1; }}
             .footer {{ background-color: #f8fafc; padding: 15px; text-align: center; font-size: 11px; color: #64748b; border-top: 1px solid #e2e8f0; }}
         </style>
     </head>
@@ -190,18 +198,15 @@ def send_email_with_summary(summary_md, national_md, date_str, reports_urls):
             </div>
             <div class="content">
                 <div class="section-card">
-                    <h2>🎯 Resume National - A retenir</h2>
-                    <div style="line-height: 1.6; font-size: 14px;">
-                        {summary_html}
-                    </div>
+                    {national_html}
                 </div>
                 
-                <div class="section-card">
-                    <h2>📍 Bulletins Regionaux (Disponibles sur GitHub)</h2>
-                    <p style="font-size: 13px; color: #475569; margin-bottom: 15px;">Cliquez sur votre region pour consulter son bulletin Premium detaille :</p>
-                    <div class="links-container">
-                        {links_html}
-                    </div>
+                <div class="section-card" style="margin-top: 20px;">
+                    <h2>📦 Pieces Jointes (Dossiers)</h2>
+                    <p style="font-size: 13px; color: #334155; line-height: 1.5;">
+                        Tous vos bulletins météo Premium (les 13 bulletins régionaux ainsi que le bulletin national) sont archivés et classés dans des dossiers à l'intérieur de l'archive ZIP ci-jointe :<br>
+                        📂 <strong>bulletins_meteo_france_{date_str.replace('/', '_')}.zip</strong>
+                    </p>
                 </div>
             </div>
             <div class="footer">
@@ -216,30 +221,16 @@ def send_email_with_summary(summary_md, national_md, date_str, reports_urls):
     # Nettoyage BOM
     email_body = email_body.replace('\ufeff', '').replace('\ufffe', '')
     
-    # Encodage Base64
+    # Encodage Base64 du corps
     html_b64 = base64.b64encode(email_body.encode('utf-8')).decode('ascii')
     
-    # Préparation du bulletin national complet en pièce jointe HTML
-    national_html = md_to_html(national_md)
-    attached_html = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <style>
-            body {{ font-family: 'Outfit', sans-serif; color: #1e293b; padding: 30px; line-height: 1.6; max-width: 800px; margin: 0 auto; }}
-        </style>
-    </head>
-    <body>
-        {national_html}
-    </body>
-    </html>
-    """
-    attached_b64 = base64.b64encode(attached_html.encode('utf-8')).decode('ascii')
+    # Encodage Base64 de l'archive ZIP
+    zip_filename = f"bulletins_meteo_france_{date_str.replace('/', '_')}.zip"
+    with open(zip_path, 'rb') as f:
+        zip_data = f.read()
+    zip_b64 = base64.b64encode(zip_data).decode('ascii')
     
     boundary = uuid.uuid4().hex
-    filename = f"bulletin_national_{date_str.replace('/', '_')}.html"
     
     raw_message = (
         f'From: Gregory LANGLET <{gmail_email}>\r\n'
@@ -256,11 +247,11 @@ def send_email_with_summary(summary_md, national_md, date_str, reports_urls):
         f'{html_b64}\r\n'
         f'\r\n'
         f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
-        f'Content-Disposition: attachment; filename="{filename}"\r\n'
+        f'Content-Type: application/zip; name="{zip_filename}"\r\n'
+        f'Content-Disposition: attachment; filename="{zip_filename}"\r\n'
         f'Content-Transfer-Encoding: base64\r\n'
         f'\r\n'
-        f'{attached_b64}\r\n'
+        f'{zip_b64}\r\n'
         f'\r\n'
         f'--{boundary}--\r\n'
     )
@@ -295,12 +286,8 @@ def main():
     
     # 3. Générer les bulletins pour toutes les régions
     print("\n=== Etape 2 : Generation des bulletins regionaux ===")
-    reports_urls = {}
-    github_repo = "gregorylanglet59264-byte/veille-automation"
-    
     national_content = ""
     
-    # Nous itérons sur la liste complète des régions définies
     for region in REGIONS.keys():
         region_norm = normalize_name(region)
         filename = f"bulletin_{region_norm}_{today_str}.md"
@@ -310,31 +297,26 @@ def main():
         try:
             generer_bulletin_premium(region, source_dir, output_file)
             
-            # Si c'est le bulletin national, on garde le contenu pour le résumé et la pièce jointe
+            # Si c'est le bulletin national, on garde le contenu
             if region == "France":
                 if os.path.exists(output_file):
                     with open(output_file, 'r', encoding='utf-8') as f:
                         national_content = f.read()
-                        
-            # URL relative de consultation sur GitHub
-            url_github = f"https://github.com/{github_repo}/blob/main/meteo_france/rapports/{today_str}/{filename}"
-            reports_urls[region] = url_github
         except Exception as e:
             print(f"[ERREUR] Echec de la generation pour {region} : {e}")
             
-    # 4. Rédiger le résumé national
-    print("\n=== Etape 3 : Resume national par LLM ===")
-    if national_content:
-        summary = call_llm_summary(national_content)
-    else:
-        summary = "Le bulletin meteo national n'a pas pu etre genere."
-        
-    print("\nResume genere :")
-    print(summary)
+    # 4. Créer l'archive ZIP
+    print("\n=== Etape 3 : Creation de l'archive ZIP ===")
+    zip_path = os.path.join(meteo_dir, "rapports", f"bulletins_{today_str}.zip")
+    create_zip_archive(today_str, rapports_dir, zip_path)
+    print(f"Archive ZIP creee avec succes dans : {zip_path}")
     
-    # 5. Envoyer l'email
+    # 5. Envoyer l'email avec le bulletin national en corps de mail et le ZIP attaché
     print("\n=== Etape 4 : Envoi de l'e-mail ===")
-    send_email_with_summary(summary, national_content, date_display, reports_urls)
+    if national_content:
+        send_email_with_summary(national_content, date_display, zip_path)
+    else:
+        print("[ERREUR] Impossible d'envoyer l'e-mail: contenu national vide.")
 
 if __name__ == "__main__":
     main()

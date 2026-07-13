@@ -7,5 +7,5 @@ __pycache__/
 !bilan_journalier/data/*.json
 !bilan_journalier/data/*.db
 reports/
-!meteo_france/rapports/**/*.md
+meteo_france/rapports/
 meteo_france/meteo_data/

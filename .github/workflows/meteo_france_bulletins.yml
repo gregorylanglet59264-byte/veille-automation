@@ -45,12 +45,3 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           python meteo_france/run_meteo_france.py
-
-      - name: Committer et Pousser les rapports sur le dépôt
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add meteo_france/rapports/
-          # Commit seulement s'il y a des modifications
-          git diff-index --quiet HEAD || git commit -m "Auto: Publication des bulletins météo du $(date +'%d/%m/%Y')"
-          git push
