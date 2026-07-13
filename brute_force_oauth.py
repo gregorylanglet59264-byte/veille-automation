@@ -100,7 +100,7 @@ def main():
     # Ambiguity 1: "pV" after "Vu7"
     # Ambiguity 2: "I" in "MvIt0Q"
     access_secret_base_left = "gXGWKUdOWDqVu7"
-    access_secret_base_mid = "VZWZ2Mv"
+    access_secret_base_mid = "ZWZ2Mv"
     access_secret_base_right = "t0QDa0OnSqD2dhDMBMtpos"
     
     y1_candidates = ["pV", "pv", "Pv", "PV", "qV", "qv"]
