@@ -2,9 +2,10 @@
 """
 run_veille.py
 Superviseur autonome de veille globale.
-Collecte les données (Actualités, Météo, IA via Google News RSS, Vidéos via fetch_youtube_feed),
+Collecte les données via flux RSS directs (BFM TV, Le Figaro, Le Monde, FranceInfo, Libération,
+L'Obs, France 3 HDF, France 3 Nord-Pas-de-Calais, Hacker News),
 appelle l'API de l'IA (Gemini ou OpenRouter) pour rédiger les rapports et la synthèse de 10 éléments,
-compile le tout en HTML premium responsive et l'envoie par e-mail via SMTP SFR.
+compile le tout en HTML premium responsive et l'envoie par e-mail via SMTP Gmail.
 """
 import os
 import sys
@@ -56,13 +57,22 @@ def filter_recent_articles(articles, max_hours=24):
             recent.append(art)
     return recent
 
-# 1. Collecte Google News RSS & Flux Directs récents
+# 1. Collecte RSS multi-sources
 def fetch_google_news(query):
     feeds = {
-        "Le Monde": "https://www.lemonde.fr/rss/une.xml",
-        "FranceInfo": "https://www.francetvinfo.fr/titres.rss",
-        "France 3 HDF": "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
-        "PresseCitron": "https://www.presse-citron.net/feed/"
+        # ── National ──
+        "Le Monde":      "https://www.lemonde.fr/rss/une.xml",
+        "FranceInfo":    "https://www.francetvinfo.fr/titres.rss",
+        "BFM TV":        "https://www.bfmtv.com/rss/news-24-7/",
+        "Le Figaro":     "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+        "Liberation":    "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml",
+        "L'Obs":         "https://www.nouvelobs.com/rss.xml",
+        # ── Régional Hauts-de-France ──
+        "France 3 HDF":  "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
+        "France 3 NPC":  "https://france3-regions.francetvinfo.fr/hauts-de-france/nord-pas-de-calais/rss",
+        # ── IA / Tech ──
+        "Hacker News":   "https://hnrss.org/frontpage",
+        "PresseCitron":  "https://www.presse-citron.net/feed/",
     }
     
     all_articles = []
@@ -100,8 +110,8 @@ def fetch_google_news(query):
 
     query_lower = query.lower()
     is_meteo = any(w in query_lower for w in ["météo", "meteo", "climat", "vigilance", "records", "intempéries", "canicule"])
-    is_ia = any(re.search(r'\b' + w + r'\b', query_lower) for w in ["ai", "ia"]) or any(w in query_lower for w in ["models", "tools", "claude", "gemini", "llama", "deepseek", "chatgpt", "openai"])
-    is_hdf = any(w in query_lower for w in ["hauts-de-france", "hdf", "lille", "pas-de-calais", "nord"])
+    is_ia = any(re.search(r'\b' + w + r'\b', query_lower) for w in ["ai", "ia"]) or any(w in query_lower for w in ["models", "tools", "claude", "gemini", "llama", "deepseek", "chatgpt", "openai", "hacker news", "github"])
+    is_hdf = any(w in query_lower for w in ["hauts-de-france", "hdf", "lille", "pas-de-calais", "nord", "arras", "valenciennes", "dunkerque", "calais", "boulogne"])
     
     filtered = []
     
