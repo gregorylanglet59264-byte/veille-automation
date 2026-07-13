@@ -22,25 +22,26 @@ def get_creds():
     return k
 
 def test_bearer(bearer):
-    """Vérifie que l'app est valide avec le Bearer Token (lecture)."""
+    """Test Bearer Token sur un endpoint app-only valide."""
     if not bearer:
-        print("No bearer token — skipping app validation test.")
+        print("No bearer token — skipping.")
         return
+    # /2/tweets/search/recent fonctionne avec Bearer sur Free tier
     r = requests.get(
-        "https://api.twitter.com/2/users/me",
+        "https://api.twitter.com/2/tweets/search/recent?query=from:monsieurmeteo07&max_results=10",
         headers={"Authorization": f"Bearer {bearer}"},
         timeout=10
     )
-    print(f"[BEARER TEST] GET /2/users/me → HTTP {r.status_code}: {r.text[:200]}")
+    print(f"[BEARER TEST] search/recent → HTTP {r.status_code}: {r.text[:300]}")
 
 def test_oauth1_read(k):
-    """Vérifie les credentials OAuth1 avec une lecture (verify_credentials)."""
+    """Vérifie les credentials OAuth1 avec v2 GET /2/users/me (Free tier compatible)."""
     auth = OAuth1(k["api_key"], k["api_secret"], k["access_tok"], k["access_sec"])
     r = requests.get(
-        "https://api.twitter.com/1.1/account/verify_credentials.json",
+        "https://api.twitter.com/2/users/me",
         auth=auth, timeout=10
     )
-    print(f"[OAUTH1 READ] verify_credentials → HTTP {r.status_code}: {r.text[:300]}")
+    print(f"[OAUTH1 v2 READ] GET /2/users/me → HTTP {r.status_code}: {r.text[:300]}")
     return r.status_code == 200
 
 def upload_media(image_path, k):
