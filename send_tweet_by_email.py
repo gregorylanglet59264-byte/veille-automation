@@ -3,6 +3,7 @@
 send_tweet_by_email.py
 Sends the generated tweet text and image to the user's email address
 so they can copy-paste and publish it manually.
+Handles unicode characters (UTF-8) properly.
 """
 import os
 import sys
@@ -11,7 +12,6 @@ import smtplib
 import uuid
 import base64
 from email.utils import formatdate
-from datetime import datetime, timezone
 
 def main():
     parser = argparse.ArgumentParser()
@@ -27,7 +27,8 @@ def main():
         print(f"Error: Image not found at {args.image}", file=sys.stderr)
         sys.exit(1)
 
-    with open(args.text_file, "r", encoding="utf-8") as f:
+    # Read and clean UTF-8 text (removing BOM \ufeff if present)
+    with open(args.text_file, "r", encoding="utf-8-sig") as f:
         tweet_text = f.read().strip()
 
     # Get email configuration from environment
@@ -72,14 +73,17 @@ def main():
 </body>
 </html>"""
 
-    # Construct the raw email message
-    boundary = uuid.uuid4().hex
+    # Base64 encode the HTML body to preserve Unicode/accents perfectly in MIME format
     html_b64 = base64.b64encode(html_body.encode("utf-8")).decode("ascii")
+    boundary = uuid.uuid4().hex
     
+    # We encode headers correctly in UTF-8
+    encoded_subject = f"=?utf-8?B?{base64.b64encode(args.subject.encode('utf-8')).decode('ascii')}?="
+
     raw_message = (
         f'From: Monsieur Meteo <{sender}>\r\n'
         f'To: {", ".join(recipients)}\r\n'
-        f'Subject: {args.subject}\r\n'
+        f'Subject: {encoded_subject}\r\n'
         f'Date: {formatdate(localtime=True)}\r\n'
         f'MIME-Version: 1.0\r\n'
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
@@ -100,6 +104,9 @@ def main():
         f'--{boundary}--\r\n'
     )
 
+    # We encode the entire raw message to UTF-8 bytes instead of ASCII
+    message_bytes = raw_message.encode("utf-8")
+
     # Send via Gmail (default)
     if gmail_password:
         print("[SMTP] Sending via Gmail...")
@@ -109,7 +116,7 @@ def main():
                 server.starttls()
                 server.ehlo()
                 server.login(gmail_email, gmail_password)
-                server.sendmail(gmail_email, recipients, raw_message.encode("ascii"))
+                server.sendmail(gmail_email, recipients, message_bytes)
             print("✅ Email sent successfully via Gmail!")
             return
         except Exception as e:
@@ -121,7 +128,7 @@ def main():
         try:
             with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
                 server.login(smtp_email, smtp_password)
-                server.sendmail(smtp_email, recipients, raw_message.encode("ascii"))
+                server.sendmail(smtp_email, recipients, message_bytes)
             print("✅ Email sent successfully via SFR!")
             return
         except Exception as e:
