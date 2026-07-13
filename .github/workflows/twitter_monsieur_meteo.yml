@@ -93,11 +93,11 @@ jobs:
 
       # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
 
-      - name: Récupérer les tweets du fil (Tweepy API v2)
+      - name: Récupérer les actualités météo (Google News RSS)
         if: steps.mode.outputs.do_debrief == 'true'
         run: |
           mkdir -p data output
-          python fetch_tweets.py --hours 2 --limit 100
+          python fetch_news.py
 
       - name: Générer l'infographie de débriefing
         if: steps.mode.outputs.do_debrief == 'true'
@@ -127,12 +127,7 @@ jobs:
       - name: Générer le texte vigilance matin
         if: steps.mode.outputs.do_matin == 'true'
         run: |
-          python get_vigilance_data.py --out-dir output --twitter-only || true
-          if [ -f output/twitter_post.txt ]; then
-            cp output/twitter_post.txt data/vigilance_matin_tweet.txt
-          else
-            echo "⚠️ Vigilance Météorologique — Retrouvez les alertes en cours sur https://vigilance.meteofrance.fr/fr — #MeteoFrance #Vigilance" > data/vigilance_matin_tweet.txt
-          fi
+          python generate_vigilance_text.py --period 0 --output data/vigilance_matin_tweet.txt
 
       - name: Envoyer la vigilance matin par email
         if: steps.mode.outputs.do_matin == 'true'
@@ -157,12 +152,7 @@ jobs:
       - name: Générer le texte vigilance soir
         if: steps.mode.outputs.do_soir == 'true'
         run: |
-          python get_vigilance_data.py --out-dir output --twitter-only --period 1 || true
-          if [ -f output/twitter_post.txt ]; then
-            cp output/twitter_post.txt data/vigilance_soir_tweet.txt
-          else
-            echo "⚠️ Vigilance Météo Demain — Retrouvez les prévisions d'alertes sur https://vigilance.meteofrance.fr/fr — #MeteoFrance #Vigilance" > data/vigilance_soir_tweet.txt
-          fi
+          python generate_vigilance_text.py --period 1 --output data/vigilance_soir_tweet.txt
 
       - name: Envoyer la vigilance soir par email
         if: steps.mode.outputs.do_soir == 'true'
