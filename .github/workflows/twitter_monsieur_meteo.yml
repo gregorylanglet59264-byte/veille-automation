@@ -93,11 +93,11 @@ jobs:
 
       # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
 
-      - name: Récupérer les actualités météo (Google News RSS)
+      - name: Récupérer les actualités météo (Twitter Syndication)
         if: steps.mode.outputs.do_debrief == 'true'
         run: |
           mkdir -p data output
-          python fetch_news.py
+          python fetch_tweets.py --hours 2
 
       - name: Générer l'infographie de débriefing
         if: steps.mode.outputs.do_debrief == 'true'

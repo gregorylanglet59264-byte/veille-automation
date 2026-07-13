@@ -1,19 +1,39 @@
 # -*- coding: utf-8 -*-
 """
 fetch_tweets.py
-Fetches recent tweets from a Twitter/X list using the Tweepy API v2 (works on GitHub Actions).
-Filters tweets locally by age to avoid X API list_tweets start_time parameter errors.
-Falls back to opencli when running locally if Twitter API keys are not configured or fail.
+Fetches recent tweets from the user's Twitter/X abonnements list using the free, no-cookie,
+no-credentials syndication API. Runs concurrently to fetch 100+ accounts in seconds.
+Saves the structured 9-item list to data/latest_tweets.json for capture_debrief.py.
 """
 import argparse
 import json
 import os
 import sys
-import subprocess
+import re
+import urllib.request
 import unicodedata
 from datetime import datetime, timezone, timedelta
+import concurrent.futures
 
-DEFAULT_LIST_ID = "1270471213819854852"
+ACCOUNTS = [
+    "laradiometeo", "AEMET_Esp", "AEMET_Aragon", "Aigle_e", "stormchaser_a81", "AlexyMeteo",
+    "AnthoGrillon", "Arameteo_france", "globerourdiales", "ChroChao", "Cycloneoi", "DorianDziadula",
+    "TropicalTidbits", "SergeZaka", "ElTiempoes", "Estofex", "EtienneFargetMC", "EvelyneDheliat",
+    "extremetemps", "FayenceMeteo", "FeuxdeForet_FR", "Florent_Boutet", "FloC36", "ForceThirteen",
+    "l_garcelon", "GregCornard", "GJauseau", "Meteovilles", "GWoznica", "Guitri13", "hurrtrackerapp",
+    "GlobalCyclones", "ROrage09", "infoccitanie", "InfoMeteoTuit", "Infosyclone_44", "peacockreports",
+    "Alpenweerman", "JulienSugier", "KeraunosObs", "StormChaser220", "Kevin_Fillin", "Firinga_le_site",
+    "lachainemeteo", "meteo_reunion", "LyonMeteo69", "Marc_Hay_Meteo", "MatthieuSorel", "MaxenceLeDrogo1",
+    "metofficestorms", "tiempo_guada", "meteo60", "meteociel", "meteophile", "MeteoredFR", "Meteouragans",
+    "T2mike", "MeteoMonsieur", "Vincent_06v", "37Meteo", "MeteoBretagne", "meteoconcept", "MeteoExpress",
+    "MeteoNord", "MeteoHerault", "MeteoLanguedoc", "MeteoNordParis", "msa6768", "Meteoinfo_FR", "meteofrance",
+    "MeteoFrance_AG", "meteo_76", "MeteoCarnoux", "meteosuisse", "meteovillages", "nicolasberrod",
+    "NicolasLeFriant", "Ninofishing", "meteo_tropicale", "ouragans", "Pat_wx", "La_Meteo_du_13",
+    "philklotzbach", "SkyPhilippe", "previneige", "Prefet971", "Prefet972", "Prefet974", "romumartinik",
+    "smlmrn", "Thom_Wx", "Stormyalert", "StevenTual_off", "sxmcyclone", "ThomasBlanchar2", "lePlaymobil28",
+    "TimeoLepert", "Djpuco", "Navarrameteo", "AutanTramontane", "VigiMeteoFrance", "StormchaserUKEU",
+    "wxcharts", "Zactus_re"
+]
 
 def get_output_file():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -22,9 +42,8 @@ def get_output_file():
     return os.path.join(data_dir, "latest_tweets.json")
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Fetch and filter recent tweets from a Twitter list.")
+    parser = argparse.ArgumentParser(description="Fetch and filter recent tweets from Twitter accounts.")
     parser.add_argument("--hours", type=float, default=2.0, help="Filter tweets from the last N hours (default: 2.0)")
-    parser.add_argument("--list-id", type=str, default=DEFAULT_LIST_ID)
     parser.add_argument("--limit", type=int, default=100)
     return parser.parse_args()
 
@@ -34,210 +53,250 @@ def clean_accents(s):
 
 def is_alert_tweet(text):
     if not text: return False
-    triggers = ["vigilance rouge","vigilance orange","alerte rouge","alerte orange",
-                "incendie","tornade","record absolu","record mensuel","tempête",
-                "inondation","canicule","orage"]
+    triggers = ["vigilance rouge", "vigilance orange", "alerte rouge", "alerte orange",
+                "incendie", "tornade", "record absolu", "record mensuel", "tempete",
+                "inondation", "canicule", "orage", "grele", "foudre", "inondations", "seisme", "alerte"]
     ct = clean_accents(text)
-    return any(clean_accents(t) in ct for t in triggers)
+    return any(t in ct for t in triggers)
 
 def is_model_trend_tweet(text):
     if not text: return False
-    triggers = ["arome","arpege","ifs","ecmwf","gfs","icon","ukmo","gem","aifs",
-                "modele","tendance","anomalie","projection","moyen terme","long terme",
-                "saisonniere","saisonnier"]
+    triggers = ["arome", "arpege", "ifs", "ecmwf", "gfs", "icon", "ukmo", "gem", "aifs",
+                "modele", "tendance", "anomalie", "projection", "moyen terme", "long terme",
+                "saisonniere", "saisonnier", "graphe", "run", "simulation"]
     ct = clean_accents(text)
-    return any(clean_accents(t) in ct for t in triggers)
+    return any(t in ct for t in triggers)
 
-def fetch_via_tweepy(list_id, limit, hours):
-    """Fetch list tweets using Tweepy API v2 — works on GitHub Actions."""
+def fetch_single_account(username):
+    url = f"https://syndication.twitter.com/srv/timeline-profile/screen-name/{username}"
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
+    tweets = []
     try:
-        import tweepy
-    except ImportError:
-        print("Tweepy not installed.", file=sys.stderr)
-        return None
-
-    api_key    = os.environ.get("TWITTER_API_KEY")
-    api_secret = os.environ.get("TWITTER_API_SECRET")
-    access_tok = os.environ.get("TWITTER_ACCESS_TOKEN")
-    access_sec = os.environ.get("TWITTER_ACCESS_SECRET")
-    
-    if not all([api_key, api_secret, access_tok, access_sec]):
-        print("Twitter API credentials not found in environment.", file=sys.stderr)
-        return None
-
-    try:
-        client = tweepy.Client(
-            consumer_key=api_key,
-            consumer_secret=api_secret,
-            access_token=access_tok,
-            access_token_secret=access_sec,
-            wait_on_rate_limit=True
-        )
-        
-        tweets = []
-        paginator = tweepy.Paginator(
-            client.get_list_tweets,
-            id=list_id,
-            tweet_fields=["created_at", "author_id", "public_metrics", "attachments"],
-            expansions=["author_id", "attachments.media_keys"],
-            media_fields=["url", "preview_image_url", "type"],
-            user_fields=["username", "name"],
-            max_results=min(limit, 100),
-            limit=2
-        )
-        
-        users_map = {}
-        media_map = {}
-        
-        for response in paginator:
-            if response.includes:
-                if response.includes.get("users"):
-                    for u in response.includes["users"]:
-                        users_map[u.id] = u
-                if response.includes.get("media"):
-                    for m in response.includes["media"]:
-                        media_map[m.media_key] = m
-
-            if not response.data:
-                continue
-            for t in response.data:
-                user = users_map.get(t.author_id)
-                metrics = t.public_metrics or {}
-                likes    = metrics.get("like_count", 0)
-                retweets = metrics.get("retweet_count", 0)
-                replies  = metrics.get("reply_count", 0)
-                engagement = likes + retweets * 3 + replies * 2
-
-                text = t.text or ""
-                is_alert = is_alert_tweet(text)
-                is_model = is_model_trend_tweet(text)
-                if is_alert: engagement += 100
-                if is_model:  engagement += 100
-
-                media_urls = []
-                if t.attachments and t.attachments.get("media_keys"):
-                    for mk in t.attachments["media_keys"]:
-                        m = media_map.get(mk)
-                        if m and m.type == "photo":
-                            media_urls.append(m.url)
-
-                tweets.append({
-                    "id": str(t.id),
-                    "text": text,
-                    "created_at": t.created_at.strftime("%a %b %d %H:%M:%S +0000 %Y") if t.created_at else "",
-                    "username": user.username if user else "unknown",
-                    "name": user.name if user else "unknown",
-                    "likes": likes,
-                    "retweets": retweets,
-                    "replies": replies,
-                    "engagement_score": engagement,
-                    "is_alert": is_alert,
-                    "is_model_trend": is_model,
-                    "media_urls": media_urls,
-                    "url": f"https://x.com/{user.username if user else 'i'}/status/{t.id}"
-                })
-        
-        # Filter by age locally
-        now = datetime.now(timezone.utc)
-        threshold = timedelta(hours=hours)
-        filtered_tweets = []
-        
-        for t in tweets:
-            created_at_str = t.get("created_at", "")
-            try:
-                tweet_time = datetime.strptime(created_at_str, "%a %b %d %H:%M:%S %z %Y")
-                age = now - tweet_time
-                if age <= threshold:
-                    t["age_hours"] = round(age.total_seconds() / 3600, 2)
-                    filtered_tweets.append(t)
-            except ValueError:
-                continue
-                
-        filtered_tweets.sort(key=lambda x: -x["engagement_score"])
-        return filtered_tweets
-        
+        with urllib.request.urlopen(req, timeout=10) as response:
+            html = response.read().decode('utf-8')
+            m = re.search(r'__NEXT_DATA__.*?>(.*?)<\/script>', html)
+            if not m:
+                return []
+            data = json.loads(m.group(1))
+            entries = data.get('props', {}).get('pageProps', {}).get('timeline', {}).get('entries', [])
+            for entry in entries:
+                if entry.get('type') == 'tweet':
+                    t = entry.get('content', {}).get('tweet', {})
+                    if t:
+                        tweets.append(t)
     except Exception as e:
-        print(f"Tweepy error: {e}", file=sys.stderr)
-        return None
+        # Ignore errors for single accounts to avoid halting the pipeline
+        pass
+    return tweets
 
-def fetch_via_opencli(list_id, limit):
-    """Fallback: fetch via local opencli tool (Windows only)."""
-    cmd = ["opencli", "twitter", "list-tweets", list_id, "--limit", str(limit), "-f", "json"]
+def process_raw_tweet(t, now):
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore", shell=True)
-        if result.returncode != 0:
-            print(f"opencli error: {result.stderr.strip()}", file=sys.stderr)
-            return None
-        return json.loads(result.stdout.strip())
-    except Exception as e:
-        print(f"opencli failed: {e}", file=sys.stderr)
-        return None
-
-def filter_tweets_by_age(tweets, hours):
-    now = datetime.now(timezone.utc)
-    threshold = timedelta(hours=hours)
-    filtered = []
-    for t in tweets:
-        created_at_str = t.get("created_at", "")
-        # opencli date format: "Mon Jul 13 12:53:59 +0000 2026"
-        # or "Mon Jul 13 12:53:59 UTC 2026"
-        # standard strptime formats to try
-        date_formats = ["%a %b %d %H:%M:%S %z %Y", "%a %b %d %H:%M:%S UTC %Y"]
-        tweet_time = None
-        for fmt in date_formats:
-            try:
-                # remove UTC literal if using first format
-                clean_date_str = created_at_str.replace("UTC", "+0000")
-                tweet_time = datetime.strptime(clean_date_str, "%a %b %d %H:%M:%S %z %Y")
-                break
-            except ValueError:
-                continue
-                
-        if tweet_time is None:
-            continue
-            
+        created_at_str = t.get('created_at', '')
+        tweet_time = datetime.strptime(created_at_str, "%a %b %d %H:%M:%S %z %Y")
         age = now - tweet_time
+        
+        likes = int(t.get("favorite_count", 0) or 0)
+        retweets = int(t.get("retweet_count", 0) or 0)
+        replies = int(t.get("reply_count", 0) or 0)
+        engagement = likes + retweets * 3 + replies * 2
+        
+        text = t.get("full_text", "")
+        is_alert = is_alert_tweet(text)
+        is_model = is_model_trend_tweet(text)
+        if is_alert: engagement += 100
+        if is_model: engagement += 100
+        
+        media_urls = []
+        entities = t.get("entities", {})
+        if "media" in entities:
+            for m_item in entities["media"]:
+                if m_item.get("type") == "photo":
+                    m_url = m_item.get("media_url_https")
+                    if m_url:
+                        media_urls.append(m_url)
+                        
+        user_info = t.get("user", {})
+        username = user_info.get("screen_name", "unknown")
+        
+        return {
+            "id": str(t.get("id_str", t.get("id", ""))),
+            "text": text,
+            "created_at": created_at_str,
+            "tweet_time": tweet_time,
+            "username": username,
+            "name": user_info.get("name", username),
+            "likes": likes,
+            "retweets": retweets,
+            "replies": replies,
+            "engagement_score": engagement,
+            "is_alert": is_alert,
+            "is_model_trend": is_model,
+            "media_urls": media_urls,
+            "url": f"https://x.com/{username}/status/{t.get('id_str', t.get('id', ''))}",
+            "age_hours": round(age.total_seconds() / 3600, 2)
+        }
+    except Exception:
+        return None
+
+def filter_and_classify(processed_tweets, hours_limit):
+    now = datetime.now(timezone.utc)
+    threshold = timedelta(hours=hours_limit)
+    
+    seen_ids = set()
+    filtered = []
+    for t in processed_tweets:
+        if t["id"] in seen_ids:
+            continue
+        age = now - t["tweet_time"]
         if age <= threshold:
-            likes    = int(t.get("likes", 0) or 0)
-            retweets = int(t.get("retweets", 0) or 0)
-            replies  = int(t.get("replies", 0) or 0)
-            engagement = likes + retweets * 3 + replies * 2
-            
-            # Map opencli names to match tweepy's output
-            t["username"] = t.get("author", t.get("username", "unknown"))
             t["age_hours"] = round(age.total_seconds() / 3600, 2)
-            t["engagement_score"] = engagement
-            t["is_alert"]       = is_alert_tweet(t.get("text", ""))
-            t["is_model_trend"] = is_model_trend_tweet(t.get("text", ""))
-            if t["is_alert"]: t["engagement_score"] += 100
-            if t["is_model_trend"]: t["engagement_score"] += 100
+            seen_ids.add(t["id"])
             filtered.append(t)
             
-    filtered.sort(key=lambda x: -x["engagement_score"])
-    return filtered
+    # Classify
+    alerts = [t for t in filtered if t["is_alert"]]
+    models = [t for t in filtered if t["is_model_trend"]]
+    general = [t for t in filtered if not t["is_alert"] and not t["is_model_trend"]]
+    
+    # Sort by engagement
+    alerts.sort(key=lambda x: -x["engagement_score"])
+    models.sort(key=lambda x: -x["engagement_score"])
+    general.sort(key=lambda x: -x["engagement_score"])
+    
+    return alerts, models, general
 
 def main():
     args = parse_args()
     output_file = get_output_file()
     
-    print(f"Fetching tweets from list {args.list_id} (last {args.hours}h)...")
+    print(f"Fetching tweets from {len(ACCOUNTS)} accounts...")
     
-    # Try Tweepy first
-    tweets = fetch_via_tweepy(args.list_id, args.limit, args.hours)
+    raw_tweets = []
+    # Concurrency to fetch all accounts in parallel
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+        results = executor.map(fetch_single_account, ACCOUNTS)
+        for res in results:
+            raw_tweets.extend(res)
+            
+    print(f"Fetched {len(raw_tweets)} raw tweets. Processing...")
     
-    if tweets is None:
-        print("Falling back to opencli...")
-        raw = fetch_via_opencli(args.list_id, args.limit)
-        if raw is None:
-            print("ERROR: Could not fetch tweets via Tweepy or opencli.", file=sys.stderr)
-            tweets = []
+    now = datetime.now(timezone.utc)
+    processed = []
+    for r in raw_tweets:
+        pt = process_raw_tweet(r, now)
+        if pt:
+            processed.append(pt)
+            
+    # Try different time windows to populate the 3x3 grid
+    alerts, models, general = [], [], []
+    chosen_hours = args.hours
+    for h in [args.hours, 6.0, 12.0, 24.0, 48.0]:
+        chosen_hours = h
+        alerts, models, general = filter_and_classify(processed, h)
+        # We need at least some tweets in each category or a decent total
+        if len(alerts) >= 3 and len(models) >= 3 and len(general) >= 3:
+            break
+            
+    print(f"Filtered window: {chosen_hours}h. Found {len(alerts)} alerts, {len(models)} models, {len(general)} general.")
+    
+    # Fill categories up to 3 using other categories or placeholders
+    while len(alerts) < 3:
+        if general:
+            item = general.pop(0)
+            item["is_alert"] = True
+            alerts.append(item)
+        elif models:
+            item = models.pop(0)
+            item["is_alert"] = True
+            alerts.append(item)
         else:
-            tweets = filter_tweets_by_age(raw, args.hours)
+            alerts.append({
+                "id": "mock_alert",
+                "text": "Pas d'alerte météo signalée récemment dans le réseau.",
+                "created_at": "",
+                "username": "Infos",
+                "name": "Monsieur Météo",
+                "likes": 0, "retweets": 0, "replies": 0,
+                "engagement_score": 0, "is_alert": True, "is_model_trend": False,
+                "media_urls": [], "url": "", "age_hours": 0
+            })
+            
+    while len(models) < 3:
+        if general:
+            item = general.pop(0)
+            item["is_model_trend"] = True
+            models.append(item)
+        elif alerts:
+            if len(alerts) > 3:
+                item = alerts.pop(3)
+                item["is_model_trend"] = True
+                models.append(item)
+            else:
+                models.append({
+                    "id": "mock_model",
+                    "text": "Pas de nouvelles projections de modèles météo récentes.",
+                    "created_at": "",
+                    "username": "Infos",
+                    "name": "Monsieur Météo",
+                    "likes": 0, "retweets": 0, "replies": 0,
+                    "engagement_score": 0, "is_alert": False, "is_model_trend": True,
+                    "media_urls": [], "url": "", "age_hours": 0
+                })
+        else:
+            models.append({
+                "id": "mock_model",
+                "text": "Pas de nouvelles projections de modèles météo récentes.",
+                "created_at": "",
+                "username": "Infos",
+                "name": "Monsieur Météo",
+                "likes": 0, "retweets": 0, "replies": 0,
+                "engagement_score": 0, "is_alert": False, "is_model_trend": True,
+                "media_urls": [], "url": "", "age_hours": 0
+            })
+            
+    while len(general) < 3:
+        general.append({
+            "id": "mock_general",
+            "text": "Pas d'actualité générale signalée.",
+            "created_at": "",
+            "username": "Infos",
+            "name": "Monsieur Météo",
+            "likes": 0, "retweets": 0, "replies": 0,
+            "engagement_score": 0, "is_alert": False, "is_model_trend": False,
+            "media_urls": [], "url": "", "age_hours": 0
+        })
+        
+    # Interleave to match capture_debrief.py format
+    final_list = [
+        alerts[0], general[0], models[0],
+        alerts[1], general[1], models[1],
+        alerts[2], general[2], models[2]
+    ]
     
+    # Save JSON
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(tweets, f, ensure_ascii=False, indent=2)
+        json.dump(final_list, f, ensure_ascii=False, indent=2)
+        
+    # Generate text report summarizing the highlights in data/debrief_tweet.txt
+    tweet_text_file = os.path.join(os.path.dirname(output_file), "debrief_tweet.txt")
     
-    print(f"Done: {len(tweets)} tweets saved to {output_file}")
+    # Select the top 1 alert, top 1 general, and top 1 model
+    a_txt = alerts[0]["text"] if alerts[0] else ""
+    g_txt = general[0]["text"] if general[0] else ""
+    m_txt = models[0]["text"] if models[0] else ""
+    
+    report_text = (
+        f"🌤️ DEBRIEFING ACTUS MÉTÉO (Dernières {chosen_hours}h)\n\n"
+        f"🚨 ALERTE : {a_txt[:100]}...\n\n"
+        f"🌤️ GÉNÉRAL : {g_txt[:100]}...\n\n"
+        f"📡 MODÈLES : {m_txt[:100]}...\n\n"
+        f"Retrouvez l'infographie complète ci-dessous."
+    )
+    
+    with open(tweet_text_file, "w", encoding="utf-8") as f:
+        f.write(report_text)
+        
+    print(f"Successfully saved 9 tweets to {output_file} and debrief text to {tweet_text_file}")
 
 if __name__ == "__main__":
     main()
