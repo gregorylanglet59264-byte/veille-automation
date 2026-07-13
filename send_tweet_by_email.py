@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
 """
 send_tweet_by_email.py
-Sends the generated tweet text and image to the user's email address
-so they can copy-paste and publish it manually.
-Handles unicode characters (UTF-8) properly.
+Sends the generated tweet text and image to the user's email address.
+Uses Python's standard email library for robust MIME/UTF-8/BOM handling.
 """
 import os
 import sys
 import argparse
 import smtplib
-import uuid
-import base64
-from email.utils import formatdate
+from email.message import EmailMessage
+from email.headerregistry import Address
 
 def main():
     parser = argparse.ArgumentParser()
@@ -32,13 +30,13 @@ def main():
         tweet_text = f.read().strip()
 
     # Get email configuration from environment
-    gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com").strip()
-    gmail_password = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
-    smtp_email = os.environ.get("SMTP_EMAIL", "gregory.langlet@sfr.fr").strip()
-    smtp_password = os.environ.get("SMTP_PASSWORD", "").strip()
-    recipient = os.environ.get("RECIPIENT_EMAILS", "langlet.gregory@gmail.com").strip()
+    gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com").strip().replace("\ufeff", "")
+    gmail_password = os.environ.get("GMAIL_APP_PASSWORD", "").strip().replace("\ufeff", "")
+    smtp_email = os.environ.get("SMTP_EMAIL", "gregory.langlet@sfr.fr").strip().replace("\ufeff", "")
+    smtp_password = os.environ.get("SMTP_PASSWORD", "").strip().replace("\ufeff", "")
+    recipient_env = os.environ.get("RECIPIENT_EMAILS", "langlet.gregory@gmail.com").strip().replace("\ufeff", "")
     
-    recipients = [r.strip() for r in recipient.split(",") if r.strip()]
+    recipients = [r.strip() for r in recipient_env.split(",") if r.strip()]
     if not recipients:
         recipients = [gmail_email]
 
@@ -51,10 +49,9 @@ def main():
     print(f"Subject: {args.subject}")
     print(f"Tweet Text:\n---\n{tweet_text}\n---")
 
-    # Read image and encode in base64
+    # Read image
     with open(args.image, "rb") as img_f:
         img_data = img_f.read()
-    img_b64 = base64.b64encode(img_data).decode("ascii")
     img_name = os.path.basename(args.image)
 
     # HTML Body with styled copy-paste block
@@ -73,39 +70,18 @@ def main():
 </body>
 </html>"""
 
-    # Base64 encode the HTML body to preserve Unicode/accents perfectly in MIME format
-    html_b64 = base64.b64encode(html_body.encode("utf-8")).decode("ascii")
-    boundary = uuid.uuid4().hex
+    # Build Email Message using modern EmailMessage class (bulletproof)
+    msg = EmailMessage()
+    msg["Subject"] = args.subject
+    msg["From"] = f"Monsieur Meteo <{sender}>"
+    msg["To"] = ", ".join(recipients)
     
-    # We encode headers correctly in UTF-8
-    encoded_subject = f"=?utf-8?B?{base64.b64encode(args.subject.encode('utf-8')).decode('ascii')}?="
-
-    raw_message = (
-        f'From: Monsieur Meteo <{sender}>\r\n'
-        f'To: {", ".join(recipients)}\r\n'
-        f'Subject: {encoded_subject}\r\n'
-        f'Date: {formatdate(localtime=True)}\r\n'
-        f'MIME-Version: 1.0\r\n'
-        f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{html_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: image/jpeg; name="{img_name}"\r\n'
-        f'Content-Disposition: attachment; filename="{img_name}"\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{img_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}--\r\n'
-    )
-
-    # We encode the entire raw message to UTF-8 bytes instead of ASCII
-    message_bytes = raw_message.encode("utf-8")
+    # Set HTML content
+    msg.set_content("Veuillez utiliser un client mail compatible HTML pour voir ce message.")
+    msg.add_alternative(html_body, subtype="html")
+    
+    # Add attachment
+    msg.add_attachment(img_data, maintype="image", subtype="jpeg", filename=img_name)
 
     # Send via Gmail (default)
     if gmail_password:
@@ -116,7 +92,7 @@ def main():
                 server.starttls()
                 server.ehlo()
                 server.login(gmail_email, gmail_password)
-                server.sendmail(gmail_email, recipients, message_bytes)
+                server.send_message(msg)
             print("✅ Email sent successfully via Gmail!")
             return
         except Exception as e:
@@ -128,7 +104,7 @@ def main():
         try:
             with smtplib.SMTP_SSL("smtp.sfr.fr", 465, timeout=30) as server:
                 server.login(smtp_email, smtp_password)
-                server.sendmail(smtp_email, recipients, message_bytes)
+                server.send_message(msg)
             print("✅ Email sent successfully via SFR!")
             return
         except Exception as e:
