@@ -1,68 +1,87 @@
 # -*- coding: utf-8 -*-
 """
 publish_to_twitter.py
-Authenticates with the Twitter API using OAuth 1.0a/v2 keys,
-uploads the provided image, and posts the tweet text.
+Posts a tweet with an image using Twitter API v2 (Free tier compatible).
+Media upload still requires v1.1 OAuth1 — but falls back to text-only if upload fails.
 """
 import os
 import sys
 import argparse
 import tweepy
 
-def publish_tweet(image_path, text_path):
-    # Load secrets
-    api_key = os.environ.get("TWITTER_API_KEY")
-    api_secret = os.environ.get("TWITTER_API_SECRET")
-    access_token = os.environ.get("TWITTER_ACCESS_TOKEN")
-    access_secret = os.environ.get("TWITTER_ACCESS_SECRET")
-    
-    if not all([api_key, api_secret, access_token, access_secret]):
-        print("Error: Missing one or more Twitter API credentials in environment variables.")
-        print(f"DEBUG keys presence: Key: {bool(api_key)}, Secret: {bool(api_secret)}, Token: {bool(access_token)}, Token Secret: {bool(access_secret)}")
-        sys.exit(1)
-        
-    # Read text content
-    if not os.path.exists(text_path):
-        print(f"Error: Text file not found at {text_path}")
-        sys.exit(1)
-    with open(text_path, "r", encoding="utf-8") as f:
-        tweet_text = f.read().strip()
-        
-    print(f"Posting tweet with text ({len(tweet_text)} chars)...")
-    print(f"Content:\n---\n{tweet_text}\n---")
-    
-    try:
-        # OAuth 1.0a authentication for media upload (Twitter API v1.1)
-        auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
-        api_v1 = tweepy.API(auth)
-        
-        # Upload the media
-        print(f"Uploading image: {image_path}...")
-        media = api_v1.media_upload(filename=image_path)
-        media_id = media.media_id_string
-        print(f"Media uploaded successfully! ID: {media_id}")
-        
-        # Twitter API v2 Client for posting the tweet
-        client = tweepy.Client(
-            consumer_key=api_key,
-            consumer_secret=api_secret,
-            access_token=access_token,
-            access_token_secret=access_secret
-        )
-        
-        # Create tweet with the media ID attached
-        response = client.create_tweet(text=tweet_text, media_ids=[media_id])
-        print("Tweet posted successfully!")
-        print(f"Tweet details: {response}")
-        
-    except Exception as e:
-        print(f"Error posting tweet: {e}")
+def get_client():
+    api_key    = os.environ.get("TWITTER_API_KEY", "").strip()
+    api_secret = os.environ.get("TWITTER_API_SECRET", "").strip()
+    access_tok = os.environ.get("TWITTER_ACCESS_TOKEN", "").strip()
+    access_sec = os.environ.get("TWITTER_ACCESS_SECRET", "").strip()
+
+    if not all([api_key, api_secret, access_tok, access_sec]):
+        print("ERROR: Missing Twitter API credentials.", file=sys.stderr)
         sys.exit(1)
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Publishes a tweet with an image to X.")
-    parser.add_argument("--image", required=True, help="Path to the image file")
-    parser.add_argument("--text-file", required=True, help="Path to the text file containing the tweet body")
+    return api_key, api_secret, access_tok, access_sec
+
+def upload_media(image_path, api_key, api_secret, access_tok, access_sec):
+    """Upload image via v1.1 OAuth1 (required for media_upload endpoint)."""
+    try:
+        auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_tok, access_sec)
+        api_v1 = tweepy.API(auth)
+        media = api_v1.media_upload(filename=image_path)
+        print(f"✅ Image uploadée (media_id={media.media_id_string})")
+        return media.media_id_string
+    except tweepy.errors.Unauthorized as e:
+        print(f"⚠️  Upload v1.1 refusé ({e}) — publication sans image.")
+        return None
+    except Exception as e:
+        print(f"⚠️  Upload échoué ({e}) — publication sans image.")
+        return None
+
+def post_tweet(text, media_id, api_key, api_secret, access_tok, access_sec):
+    """Post tweet via v2 Client."""
+    client = tweepy.Client(
+        consumer_key=api_key,
+        consumer_secret=api_secret,
+        access_token=access_tok,
+        access_token_secret=access_sec,
+    )
+    kwargs = {"text": text}
+    if media_id:
+        kwargs["media_ids"] = [media_id]
+
+    response = client.create_tweet(**kwargs)
+    tweet_id = response.data["id"]
+    print(f"✅ Tweet publié ! https://x.com/i/status/{tweet_id}")
+    return tweet_id
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--image",     required=True)
+    parser.add_argument("--text-file", required=True)
     args = parser.parse_args()
-    
-    publish_tweet(args.image, args.text_file)
+
+    if not os.path.exists(args.text_file):
+        print(f"ERROR: text file not found: {args.text_file}", file=sys.stderr)
+        sys.exit(1)
+
+    with open(args.text_file, encoding="utf-8") as f:
+        tweet_text = f.read().strip()
+
+    # Twitter hard limit: 280 chars
+    if len(tweet_text) > 280:
+        tweet_text = tweet_text[:277] + "…"
+
+    print(f"Texte du tweet ({len(tweet_text)} chars) :\n---\n{tweet_text}\n---")
+
+    api_key, api_secret, access_tok, access_sec = get_client()
+
+    # Try to upload image; fall back to text-only if v1.1 not available
+    media_id = None
+    if os.path.exists(args.image):
+        media_id = upload_media(args.image, api_key, api_secret, access_tok, access_sec)
+    else:
+        print(f"⚠️  Image not found: {args.image} — publication sans image.")
+
+    post_tweet(tweet_text, media_id, api_key, api_secret, access_tok, access_sec)
+
+if __name__ == "__main__":
+    main()
