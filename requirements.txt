@@ -3,3 +3,4 @@ pymupdf
 pillow
 playwright
 tweepy
+requests-oauthlib
