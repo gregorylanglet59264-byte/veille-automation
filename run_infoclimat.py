@@ -427,7 +427,7 @@ def main():
     
     # Titres abrégés pour le sujet du mail
     subject_week_names = " & ".join([r["data"]["subject_title"].split("-")[0].strip() for r in results])
-    subject = f"Analyses & Tendances Meteo - {subject_week_names}"
+    subject = f"Tendances de la semaine - {subject_week_names}"
     
     # Nettoyage ASCII du sujet pour éviter les rejets SMTP
     import unicodedata
@@ -442,10 +442,12 @@ def main():
     boundary = uuid.uuid4().hex
     
     raw_message = (
-        f'From: Monsieur Meteo <{sender}>\r\n'
+        f'From: Meteo Climat Pro <{sender}>\r\n'
         f'To: {", ".join(recipients)}\r\n'
+        f'Reply-To: gregory.langlet@sfr.fr\r\n'
         f'Subject: {subject}\r\n'
         f'Date: {formatdate(localtime=True)}\r\n'
+        f'X-Mailer: Python\r\n'
         f'MIME-Version: 1.0\r\n'
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
         f'\r\n'

@@ -66,10 +66,12 @@ def send_email_report(html_body, subject, recipient):
     boundary = uuid.uuid4().hex
     
     raw_message = (
-        f'From: Gregory LANGLET <{sender}>\r\n'
+        f'From: Meteo Climat Pro <{sender}>\r\n'
         f'To: {", ".join(recipients)}\r\n'
+        f'Reply-To: gregory.langlet@sfr.fr\r\n'
         f'Subject: {clean_subj}\r\n'
         f'Date: {formatdate(localtime=True)}\r\n'
+        f'X-Mailer: Python\r\n'
         f'MIME-Version: 1.0\r\n'
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
         f'\r\n'
@@ -308,7 +310,7 @@ def main():
     
     # Send Email
     if not args.no_email:
-        subject = f"Bilan Regional {zone_label} - {date_str}"
+        subject = f"Resume regional - {date_str}"
         send_email_report(html_body, subject, args.to)
     else:
         print("Mode no-email activé. Affichage du code HTML.")

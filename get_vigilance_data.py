@@ -1081,7 +1081,8 @@ def main():
         recipients = [r.strip() for r in recipient.split(",") if r.strip()]
         
         sender = gmail_email if gmail_password else smtp_email
-        subject = f"Bulletin de Vigilance Meteo-France - {now.strftime('%d/%m/%Y')}"
+        day_str = now.strftime('%d %B %Y').lstrip('0')
+        subject = f"Rapport du jour - {day_str}"
         filename = f"vigilance_bulletin_{now.strftime('%Y_%m_%d')}.html"
         
         import base64
@@ -1099,10 +1100,12 @@ def main():
         boundary = uuid.uuid4().hex
         
         raw_message = (
-            f'From: Monsieur Meteo <{sender}>\r\n'
+            f'From: Meteo Climat Pro <{sender}>\r\n'
             f'To: {", ".join(recipients)}\r\n'
+            f'Reply-To: gregory.langlet@sfr.fr\r\n'
             f'Subject: {subject}\r\n'
             f'Date: {formatdate(localtime=True)}\r\n'
+            f'X-Mailer: Python\r\n'
             f'MIME-Version: 1.0\r\n'
             f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
             f'\r\n'

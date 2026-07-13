@@ -612,10 +612,12 @@ def send_email(html_body, date_str):
     
     # Construction du MIME brut
     raw_message = (
-        f'From: Gregory LANGLET <{sender}>\r\n'
+        f'From: Meteo Climat Pro <{sender}>\r\n'
         f'To: {", ".join(recipients)}\r\n'
-        f'Subject: Veille Quotidienne Unifiee - {date_str}\r\n'
+        f'Reply-To: gregory.langlet@sfr.fr\r\n'
+        f'Subject: Synthese - {date_str}\r\n'
         f'Date: {formatdate(localtime=True)}\r\n'
+        f'X-Mailer: Python\r\n'
         f'MIME-Version: 1.0\r\n'
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
         f'\r\n'
