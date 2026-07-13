@@ -26,12 +26,12 @@ jobs:
   twitter-post:
     runs-on: ubuntu-latest
     env:
-      TWITTER_API_KEY:       ${{ secrets.TWITTER_API_KEY }}
-      TWITTER_API_SECRET:    ${{ secrets.TWITTER_API_SECRET }}
-      TWITTER_ACCESS_TOKEN:  ${{ secrets.TWITTER_ACCESS_TOKEN }}
-      TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
-      TWITTER_BEARER_TOKEN:  ${{ secrets.TWITTER_BEARER_TOKEN }}
-      PYTHONUNBUFFERED:      "1"
+      SMTP_EMAIL: "gregory.langlet@sfr.fr"
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      GMAIL_EMAIL: "langlet.gregory@gmail.com"
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      RECIPIENT_EMAILS: "gregory.langlet@sfr.fr, langlet.gregory@gmail.com"
+      PYTHONUNBUFFERED: "1"
 
     steps:
       - name: Récupérer le code du dépôt
@@ -91,11 +91,6 @@ jobs:
           echo "do_matin=$DO_MATIN"     >> $GITHUB_OUTPUT
           echo "do_soir=$DO_SOIR"       >> $GITHUB_OUTPUT
 
-      - name: Vérifier et corriger les identifiants Twitter
-        run: |
-          mkdir -p data
-          python brute_force_oauth.py
-
       # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
 
       - name: Récupérer les tweets du fil (Tweepy API v2)
@@ -109,15 +104,16 @@ jobs:
         run: |
           python capture_debrief.py
 
-      - name: Publier le débriefing sur X
+      - name: Envoyer le débriefing par email
         if: steps.mode.outputs.do_debrief == 'true'
         run: |
           if [ -f debrief_twitter.jpg ]; then
-            python publish_to_twitter.py \
+            python send_tweet_by_email.py \
               --image debrief_twitter.jpg \
-              --text-file data/debrief_tweet.txt
+              --text-file data/debrief_tweet.txt \
+              --subject "🌤️ Monsieur Météo — Débriefing Twitter"
           else
-            echo "Aucune image de débriefing générée — publication ignorée."
+            echo "Aucune image de débriefing générée — envoi ignoré."
           fi
 
       # ── 2. CARTE DE VIGILANCE MATIN (6h30 France = 4h30 UTC) ────────────────
@@ -138,15 +134,16 @@ jobs:
             echo "⚠️ Vigilance Météorologique — Retrouvez les alertes en cours sur https://vigilance.meteofrance.fr/fr — #MeteoFrance #Vigilance" > data/vigilance_matin_tweet.txt
           fi
 
-      - name: Publier la vigilance matin sur X
+      - name: Envoyer la vigilance matin par email
         if: steps.mode.outputs.do_matin == 'true'
         run: |
           if [ -f vigilance_matin.jpg ]; then
-            python publish_to_twitter.py \
+            python send_tweet_by_email.py \
               --image vigilance_matin.jpg \
-              --text-file data/vigilance_matin_tweet.txt
+              --text-file data/vigilance_matin_tweet.txt \
+              --subject "⚠️ Monsieur Météo — Vigilance Matin (J0)"
           else
-            echo "Aucune image de vigilance matin générée — publication ignorée."
+            echo "Aucune image de vigilance matin générée — envoi ignoré."
           fi
 
       # ── 3. CARTE DE VIGILANCE SOIR (16h30 France = 14h30 UTC) ──────────────
@@ -167,15 +164,16 @@ jobs:
             echo "⚠️ Vigilance Météo Demain — Retrouvez les prévisions d'alertes sur https://vigilance.meteofrance.fr/fr — #MeteoFrance #Vigilance" > data/vigilance_soir_tweet.txt
           fi
 
-      - name: Publier la vigilance soir sur X
+      - name: Envoyer la vigilance soir par email
         if: steps.mode.outputs.do_soir == 'true'
         run: |
           if [ -f vigilance_soir.jpg ]; then
-            python publish_to_twitter.py \
+            python send_tweet_by_email.py \
               --image vigilance_soir.jpg \
-              --text-file data/vigilance_soir_tweet.txt
+              --text-file data/vigilance_soir_tweet.txt \
+              --subject "⚠️ Monsieur Météo — Vigilance Soir (J+1)"
           else
-            echo "Aucune image de vigilance soir générée — publication ignorée."
+            echo "Aucune image de vigilance soir générée — envoi ignoré."
           fi
 
       # ── 4. RÉSUMÉ FINAL ─────────────────────────────────────────────────────
@@ -185,6 +183,6 @@ jobs:
         run: |
           echo "=== Résumé ==="
           echo "Mode : ${{ steps.mode.outputs.mode }}"
-          [ -f debrief_twitter.jpg ]   && echo "✅ Débriefing publié"    || echo "⏭ Débriefing : pas d'image"
-          [ -f vigilance_matin.jpg ]   && echo "✅ Vigilance matin publié" || echo "⏭ Vigilance matin : pas d'image"
-          [ -f vigilance_soir.jpg ]    && echo "✅ Vigilance soir publié"  || echo "⏭ Vigilance soir : pas d'image"
+          [ -f debrief_twitter.jpg ]   && echo "✅ Débriefing envoyé par email"    || echo "Base : pas de débriefing"
+          [ -f vigilance_matin.jpg ]   && echo "✅ Vigilance matin envoyée par email" || echo "Base : pas de vigilance matin"
+          [ -f vigilance_soir.jpg ]    && echo "✅ Vigilance soir envoyée par email"  || echo "Base : pas de vigilance soir"
