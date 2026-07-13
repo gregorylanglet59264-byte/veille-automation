@@ -24,8 +24,22 @@ def send_email_with_image(image_path, text_path, subject):
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD", "").strip().replace("\ufeff", "")
     smtp_email = os.environ.get("SMTP_EMAIL", "gregory.langlet@sfr.fr").strip().replace("\ufeff", "")
     smtp_password = os.environ.get("SMTP_PASSWORD", "").strip().replace("\ufeff", "")
-    recipient_env = os.environ.get("RECIPIENT_EMAILS", "langlet.gregory@gmail.com").strip().replace("\ufeff", "")
+    recipient_env = os.environ.get("RECIPIENT_EMAILS", "gregory.langlet@sfr.fr, langlet.gregory@gmail.com").strip().replace("\ufeff", "")
     
+    # Fallback to local config file for SFR SMTP if not defined in env
+    if not smtp_password:
+        import json
+        config_path = r"C:\Users\grego\.gemini\config\skills\mail\config.json"
+        if os.path.exists(config_path):
+            try:
+                with open(config_path, "r", encoding="utf-8") as conf_f:
+                    conf = json.load(conf_f)
+                    smtp_email = conf.get("email", smtp_email)
+                    smtp_password = conf.get("password", "")
+                    print(f"[SMTP] Loaded local SFR config: {smtp_email}")
+            except Exception as conf_e:
+                print(f"[SMTP] Error loading local config: {conf_e}", file=sys.stderr)
+
     recipients = [r.strip() for r in recipient_env.split(",") if r.strip()]
     if not recipients:
         recipients = [gmail_email]

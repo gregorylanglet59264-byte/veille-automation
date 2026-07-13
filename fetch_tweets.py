@@ -3,11 +3,13 @@
 fetch_tweets.py
 Fetches recent tweets from a Twitter/X list using the Tweepy API v2 (works on GitHub Actions).
 Filters tweets locally by age to avoid X API list_tweets start_time parameter errors.
+Falls back to opencli when running locally if Twitter API keys are not configured or fail.
 """
 import argparse
 import json
 import os
 import sys
+import subprocess
 import unicodedata
 from datetime import datetime, timezone, timedelta
 
@@ -73,8 +75,6 @@ def fetch_via_tweepy(list_id, limit, hours):
         )
         
         tweets = []
-        # Note: X API v2 list_tweets does NOT support start_time parameter.
-        # We fetch the latest tweets and filter them by age locally in Python.
         paginator = tweepy.Paginator(
             client.get_list_tweets,
             id=list_id,
@@ -145,7 +145,6 @@ def fetch_via_tweepy(list_id, limit, hours):
         for t in tweets:
             created_at_str = t.get("created_at", "")
             try:
-                # e.g. "Mon Jul 13 12:45:02 +0000 2026"
                 tweet_time = datetime.strptime(created_at_str, "%a %b %d %H:%M:%S %z %Y")
                 age = now - tweet_time
                 if age <= threshold:
@@ -161,18 +160,79 @@ def fetch_via_tweepy(list_id, limit, hours):
         print(f"Tweepy error: {e}", file=sys.stderr)
         return None
 
+def fetch_via_opencli(list_id, limit):
+    """Fallback: fetch via local opencli tool (Windows only)."""
+    cmd = ["opencli", "twitter", "list-tweets", list_id, "--limit", str(limit), "-f", "json"]
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore", shell=True)
+        if result.returncode != 0:
+            print(f"opencli error: {result.stderr.strip()}", file=sys.stderr)
+            return None
+        return json.loads(result.stdout.strip())
+    except Exception as e:
+        print(f"opencli failed: {e}", file=sys.stderr)
+        return None
+
+def filter_tweets_by_age(tweets, hours):
+    now = datetime.now(timezone.utc)
+    threshold = timedelta(hours=hours)
+    filtered = []
+    for t in tweets:
+        created_at_str = t.get("created_at", "")
+        # opencli date format: "Mon Jul 13 12:53:59 +0000 2026"
+        # or "Mon Jul 13 12:53:59 UTC 2026"
+        # standard strptime formats to try
+        date_formats = ["%a %b %d %H:%M:%S %z %Y", "%a %b %d %H:%M:%S UTC %Y"]
+        tweet_time = None
+        for fmt in date_formats:
+            try:
+                # remove UTC literal if using first format
+                clean_date_str = created_at_str.replace("UTC", "+0000")
+                tweet_time = datetime.strptime(clean_date_str, "%a %b %d %H:%M:%S %z %Y")
+                break
+            except ValueError:
+                continue
+                
+        if tweet_time is None:
+            continue
+            
+        age = now - tweet_time
+        if age <= threshold:
+            likes    = int(t.get("likes", 0) or 0)
+            retweets = int(t.get("retweets", 0) or 0)
+            replies  = int(t.get("replies", 0) or 0)
+            engagement = likes + retweets * 3 + replies * 2
+            
+            # Map opencli names to match tweepy's output
+            t["username"] = t.get("author", t.get("username", "unknown"))
+            t["age_hours"] = round(age.total_seconds() / 3600, 2)
+            t["engagement_score"] = engagement
+            t["is_alert"]       = is_alert_tweet(t.get("text", ""))
+            t["is_model_trend"] = is_model_trend_tweet(t.get("text", ""))
+            if t["is_alert"]: t["engagement_score"] += 100
+            if t["is_model_trend"]: t["engagement_score"] += 100
+            filtered.append(t)
+            
+    filtered.sort(key=lambda x: -x["engagement_score"])
+    return filtered
+
 def main():
     args = parse_args()
     output_file = get_output_file()
     
     print(f"Fetching tweets from list {args.list_id} (last {args.hours}h)...")
     
-    tweets = fetch_via_tweepy(args.period_id if hasattr(args, 'period_id') else args.list_id, args.limit, args.hours)
+    # Try Tweepy first
+    tweets = fetch_via_tweepy(args.list_id, args.limit, args.hours)
     
     if tweets is None:
-        print("ERROR: Could not fetch tweets via Tweepy.", file=sys.stderr)
-        # Fallback to empty list to prevent downstream crashes
-        tweets = []
+        print("Falling back to opencli...")
+        raw = fetch_via_opencli(args.list_id, args.limit)
+        if raw is None:
+            print("ERROR: Could not fetch tweets via Tweepy or opencli.", file=sys.stderr)
+            tweets = []
+        else:
+            tweets = filter_tweets_by_age(raw, args.hours)
     
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(tweets, f, ensure_ascii=False, indent=2)
