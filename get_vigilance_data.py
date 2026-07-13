@@ -717,10 +717,13 @@ def main():
         shutil.copy(logo_src, logo_dest)
         print("Logo Météo Climat Pro copié avec succès !")
     
-    # Déterminer la vigilance à afficher :
-    # - Demain ("demain") si envoyé après 16h30
-    # - Aujourd'hui ("aujourdhui") si envoyé avant midi (ou entre midi et 16h30)
-    now = datetime.now()
+    # Déterminer la vigilance à afficher en heure locale de Paris (généralement UTC+2 en été, UTC+1 en hiver)
+    from datetime import timezone, timedelta
+    now_utc = datetime.now(timezone.utc)
+    is_summer = 3 < now_utc.month < 11
+    tz_offset = 2 if is_summer else 1
+    now = now_utc.astimezone(timezone(timedelta(hours=tz_offset)))
+    
     if now.hour > 16 or (now.hour == 16 and now.minute >= 30):
         use_tomorrow = True
     else:
