@@ -92,15 +92,10 @@ def main():
 
     # Diagnostic : test lecture
     test_bearer(k["bearer"])
-    ok = test_oauth1_read(k)
+    test_oauth1_read(k)
 
-    if not ok:
-        print("\n⚠️  OAuth1 verify_credentials a échoué.")
-        print("→ Vérifiez que OAuth 1.0a est activé dans User Auth Settings sur developer.twitter.com")
-        print("→ Et que les tokens ont été régénérés APRES la sauvegarde des settings.")
-        sys.exit(1)
-
-    # Publication
+    # On tente quand même la publication (ne bloque pas sur le test de lecture)
+    print("\n🚀 Tentative de publication sur Twitter...")
     media_id = upload_media(args.image, k)
     post_tweet(tweet_text, media_id, k)
 
