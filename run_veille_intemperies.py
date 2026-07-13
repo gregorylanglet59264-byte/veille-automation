@@ -197,25 +197,18 @@ def build_report_data(raw_news, tweets, date_str):
     system_prompt = (
         "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
         "Ton rôle est de rédiger un bulletin de veille complet et extrêmement détaillé sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que l'activité cyclonique mondiale.\n\n"
-        f"Tu dois générer une structure JSON contenant deux clés :\n"
-        "1. \"email_report\": Une chaîne HTML contenant le rapport de veille rédigé de manière fluide, littéraire, journalistique et prête à être envoyée dans le corps de l'e-mail. Cette chaîne DOIT suivre la structure suivante :\n"
-        f"   - Titre principal : H2 avec le texte '⛈️ Rapport de Veille Intempéries & Cyclones — {date_str}'\n"
-        "   - Section 'Résumé exécutif' : Une introduction de 3-4 lignes décrivant l'objet de la veille, la fraîcheur des données (moins de 24h/48h) et la situation d'ensemble.\n"
-        "   - Les 10 points critiques, numérotés de 1 à 10. Chaque point doit avoir son titre en gras (H3 ou div) et une description rédigée de façon fluide (4-5 lignes minimum) qui explique l'événement. RÈGLE CRITIQUE : Tu DOIS intégrer les sources sous forme de liens HTML cliquables directement dans le texte, par exemple : '(lire la dépêche de <a href=\"URL\" style=\"color: #2563eb; text-decoration: underline;\">franceinfo</a> ou le suivi sur <a href=\"URL\" style=\"color: #2563eb; text-decoration: underline;\">Météo Express</a>)'. Copie-colle sans modification la clé 'url' de l'article source.\n"
-        f"   - Signature de fin : Un paragraphe en italique 'Rapport de veille spécifique rédigé le {date_str} par Gregory Langlet.'\n\n"
-        "2. \"cards\": Une liste d'exactement 10 objets pour la pièce jointe HTML premium. Chaque objet doit avoir la structure suivante :\n"
-        "   - \"title\": Le titre précis et percutant de l'événement.\n"
-        "   - \"category\": La catégorie exacte de l'événement parmi : 'CYCLONE', 'ORAGES', 'GRÊLE', 'INONDATIONS', 'VENT', 'VIGILANCE'. Choisis avec soin (par exemple, un orage avec grêle doit être catégorisé en 'ORAGES' ou 'GRÊLE' et NON pas en 'CYCLONE' sous prétexte que la source s'appelle Cycloneoi).\n"
-        "   - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales, pluie, grêle) et les impacts constatés.\n"
-        "   - \"url\": L'URL d'origine de l'article ou du tweet (recopiée à la lettre sans modification).\n\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
-        "{\n"
-        "  \"email_report\": \"...\",\n"
-        "  \"cards\": [\n"
-        "    {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
-        "    ... (10 items)\n"
-        "  ]\n"
-        "}"
+        "Tu dois générer une liste JSON contenant exactement 10 objets représentant les 10 points de vigilance météo critiques.\n"
+        "Chaque objet de la liste doit posséder la structure suivante :\n"
+        "  - \"title\": Le titre précis et percutant de l'événement.\n"
+        "  - \"category\": La catégorie exacte de l'événement parmi : 'CYCLONE', 'ORAGES', 'GRÊLE', 'INONDATIONS', 'VENT', 'VIGILANCE'. Choisis avec soin (par exemple, un orage avec grêle doit être catégorisé en 'ORAGES' ou 'GRÊLE' et NON pas en 'CYCLONE' sous prétexte que la source s'appelle Cycloneoi).\n"
+        "  - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales en km/h, cumuls de pluie en mm, diamètre des grêlons) et les impacts constatés.\n"
+        "  - \"source\": Le nom de la source d'origine de l'information (ex: 'franceinfo', 'Météo-France', 'Météo Express', 'Le Quotidien de La Réunion', etc.).\n"
+        "  - \"url\": L'URL d'origine de l'article ou du tweet (recopiée à la lettre sans modification).\n\n"
+        "Format de sortie attendu : un tableau JSON uniquement contenant les 10 objets (sans blocs ```json et sans clé d'enveloppe) :\n"
+        "[\n"
+        "  {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"source\": \"...\", \"url\": \"...\"},\n"
+        "  ... (10 items)\n"
+        "]"
     )
     
     user_prompt = f"Données météo :\n{json.dumps(raw_news, ensure_ascii=False)}\n\nDonnées Twitter :\n{json.dumps(tweets, ensure_ascii=False)}"
@@ -226,7 +219,7 @@ def build_report_data(raw_news, tweets, date_str):
             try:
                 response_clean = response.strip().replace("```json", "").replace("```", "")
                 parsed = json.loads(response_clean, strict=False)
-                if isinstance(parsed, dict) and "email_report" in parsed and "cards" in parsed and len(parsed["cards"]) == 10:
+                if isinstance(parsed, list) and len(parsed) == 10:
                     return parsed
             except Exception as e:
                 print(f"[LLM] Tentative {attempt+1} échec parsing JSON: {e}")
@@ -237,19 +230,16 @@ def validate_and_correct_report(report_json, date_str):
     print("[LLM-Control] Lancement de la phase de contrôle et validation de cohérence...")
     system_prompt = (
         "Tu es un expert en météorologie, rédacteur en chef et réviseur technique senior.\n"
-        "Ton rôle est de contrôler et de corriger les erreurs de cohérence ou d'étiquetage dans le rapport de veille météo fourni.\n\n"
+        "Ton rôle est de contrôler et de corriger les erreurs de cohérence ou d'étiquetage dans la liste d'événements météo fournie.\n\n"
         "RÈGLES CRITIQUES DE VALIDATION ET CORRECTION :\n"
         "1. ÉTIQUETAGE & COHÉRENCE : Assure-toi qu'un événement classé dans la catégorie 'CYCLONE' concerne bien un cyclone tropical actif mondial (ou typhon/ouragan). Si c'est un simple orage localisé en métropole, ou une tempête classique, requalifie la catégorie en 'ORAGES', 'VENT' ou 'VIGILANCE'. Ne te laisse pas tromper par le nom de la source d'information (par exemple, un tweet du compte '@Cycloneoi' ou '@infosyclone_44' traitant d'un orage localisé ou de fortes pluies à La Réunion doit être étiqueté 'INONDATIONS' ou 'ORAGES' et NON pas 'CYCLONE').\n"
         "2. LIENS DES SOURCES : Assure-toi que toutes les adresses de liens 'url' du JSON sont strictement conservées et non altérées ou inventées.\n"
-        "3. TEXTE & STYLE : Conserve le style fluide et journalistique développé dans le corps d'e-mail (email_report) et les descriptions denses et approfondies (summary) dans la liste 'cards'.\n\n"
-        "Renvoie obligatoirement le JSON corrigé avec la structure suivante :\n"
-        "{\n"
-        "  \"email_report\": \"... (HTML corrigé et nettoyé)\",\n"
-        "  \"cards\": [\n"
-        "    {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
-        "    ... (10 items)\n"
-        "  ]\n"
-        "}"
+        "3. TEXTE & STYLE : Conserve le style descriptif dense et approfondi (summary, minimum 6-8 lignes) pour chacun des 10 points.\n\n"
+        "Renvoie obligatoirement le tableau JSON corrigé avec la même structure (liste de 10 objets) :\n"
+        "[\n"
+        "  {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"source\": \"...\", \"url\": \"...\"},\n"
+        "  ... (10 items)\n"
+        "]"
     )
     
     user_prompt = f"Rapport initial généré :\n{json.dumps(report_json, ensure_ascii=False)}"
@@ -260,7 +250,7 @@ def validate_and_correct_report(report_json, date_str):
             try:
                 response_clean = response.strip().replace("```json", "").replace("```", "")
                 parsed = json.loads(response_clean, strict=False)
-                if isinstance(parsed, dict) and "email_report" in parsed and "cards" in parsed and len(parsed["cards"]) == 10:
+                if isinstance(parsed, list) and len(parsed) == 10:
                     print("[LLM-Control] Rapport validé et auto-corrigé avec succès !")
                     return parsed
             except Exception as e:
