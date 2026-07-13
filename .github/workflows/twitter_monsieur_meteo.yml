@@ -57,10 +57,11 @@ jobs:
         run: |
           HOUR=$(date -u +%H | sed 's/^0*//')
           MIN=$(date -u +%M | sed 's/^0*//')
-          MODE="${{ github.event.inputs.mode }}"
-          
-          # En mode planifié, on décide selon l'heure et les minutes
-          if [ "${{ github.event_name }}" = "schedule" ] || [ -z "$MODE" ]; then
+          INPUT_MODE="${{ github.event.inputs.mode }}"
+          EVENT="${{ github.event_name }}"
+
+          if [ "$EVENT" = "schedule" ]; then
+            # Déclenchement automatique : on décide selon l'heure
             if [ "$HOUR" = "4" ] && [ "$MIN" = "30" ]; then
               MODE="vigilance_matin"
             elif [ "$HOUR" = "14" ] && [ "$MIN" = "30" ]; then
@@ -68,69 +69,116 @@ jobs:
             else
               MODE="debrief"
             fi
+          elif [ "$INPUT_MODE" = "all" ] || [ -z "$INPUT_MODE" ]; then
+            MODE="all"
+          else
+            MODE="$INPUT_MODE"
           fi
-          
-          echo "Determined mode: $MODE (UTC ${HOUR}h${MIN})"
+
+          echo "Event: $EVENT — UTC ${HOUR}h${MIN} — Mode: $MODE"
           echo "mode=$MODE" >> $GITHUB_OUTPUT
 
+          # Dériver les booléens pour chaque section
+          DO_DEBRIEF="false"
+          DO_MATIN="false"
+          DO_SOIR="false"
+          [ "$MODE" = "debrief" ] || [ "$MODE" = "all" ] && DO_DEBRIEF="true"
+          [ "$MODE" = "vigilance_matin" ] || [ "$MODE" = "all" ] && DO_MATIN="true"
+          [ "$MODE" = "vigilance_soir" ] || [ "$MODE" = "all" ] && DO_SOIR="true"
+
+          echo "do_debrief=$DO_DEBRIEF" >> $GITHUB_OUTPUT
+          echo "do_matin=$DO_MATIN"     >> $GITHUB_OUTPUT
+          echo "do_soir=$DO_SOIR"       >> $GITHUB_OUTPUT
+
       # ── 1. INFOGRAPHIE DE DÉBRIEFING (Toutes les 2 heures) ──────────────────
-      - name: Générer le texte du débriefing (RSS)
-        if: contains(steps.mode.outputs.mode, 'debrief')
+
+      - name: Récupérer les tweets du fil (Tweepy API v2)
+        if: steps.mode.outputs.do_debrief == 'true'
         run: |
-          mkdir -p data
-          python run_veille.py --twitter-only || echo "Warning: run_veille.py tweet generation failed"
+          mkdir -p data output
+          python fetch_tweets.py --hours 2 --limit 100
 
       - name: Générer l'infographie de débriefing
-        if: contains(steps.mode.outputs.mode, 'debrief')
+        if: steps.mode.outputs.do_debrief == 'true'
         run: |
-          mkdir -p data
-          python capture_debrief.py || echo "Warning: capture_debrief.py failed"
+          python capture_debrief.py
 
       - name: Publier le débriefing sur X
-        if: contains(steps.mode.outputs.mode, 'debrief') && hashFiles('debrief_twitter.jpg') != ''
+        if: steps.mode.outputs.do_debrief == 'true'
         run: |
-          python publish_to_twitter.py \
-            --image debrief_twitter.jpg \
-            --text-file data/debrief_tweet.txt
+          if [ -f debrief_twitter.jpg ]; then
+            python publish_to_twitter.py \
+              --image debrief_twitter.jpg \
+              --text-file data/debrief_tweet.txt
+          else
+            echo "Aucune image de débriefing générée — publication ignorée."
+          fi
 
-      # ── 2. CARTE DE VIGILANCE MATIN (6h00 France = run 4h UTC) ─────────────
+      # ── 2. CARTE DE VIGILANCE MATIN (6h30 France = 4h30 UTC) ────────────────
+
       - name: Générer la carte de vigilance du matin (Aujourd'hui - J0)
-        if: contains(steps.mode.outputs.mode, 'vigilance_matin')
+        if: steps.mode.outputs.do_matin == 'true'
         run: |
-          python generate_vigilance_twitter.py \
-            --period 0 \
-            --output vigilance_matin.jpg
+          mkdir -p data output
+          python generate_vigilance_twitter.py --period 0 --output vigilance_matin.jpg
 
       - name: Générer le texte vigilance matin
-        if: contains(steps.mode.outputs.mode, 'vigilance_matin')
+        if: steps.mode.outputs.do_matin == 'true'
         run: |
-          python get_vigilance_data.py --out-dir output --twitter-only
-          cp output/twitter_post.txt data/vigilance_matin_tweet.txt 2>/dev/null || echo "⚠️ Vigilance Météorologique — Consultez https://vigilance.meteofrance.fr/fr pour les détails du jour." > data/vigilance_matin_tweet.txt
+          python get_vigilance_data.py --out-dir output --twitter-only || true
+          if [ -f output/twitter_post.txt ]; then
+            cp output/twitter_post.txt data/vigilance_matin_tweet.txt
+          else
+            echo "⚠️ Vigilance Météorologique — Retrouvez les alertes en cours sur https://vigilance.meteofrance.fr/fr — #MeteoFrance #Vigilance" > data/vigilance_matin_tweet.txt
+          fi
 
       - name: Publier la vigilance matin sur X
-        if: contains(steps.mode.outputs.mode, 'vigilance_matin') && hashFiles('vigilance_matin.jpg') != ''
+        if: steps.mode.outputs.do_matin == 'true'
         run: |
-          python publish_to_twitter.py \
-            --image vigilance_matin.jpg \
-            --text-file data/vigilance_matin_tweet.txt
+          if [ -f vigilance_matin.jpg ]; then
+            python publish_to_twitter.py \
+              --image vigilance_matin.jpg \
+              --text-file data/vigilance_matin_tweet.txt
+          else
+            echo "Aucune image de vigilance matin générée — publication ignorée."
+          fi
 
-      # ── 3. CARTE DE VIGILANCE SOIR (16h00 France = run 14h UTC) ────────────
+      # ── 3. CARTE DE VIGILANCE SOIR (16h30 France = 14h30 UTC) ──────────────
+
       - name: Générer la carte de vigilance du soir (Demain - J+1)
-        if: contains(steps.mode.outputs.mode, 'vigilance_soir')
+        if: steps.mode.outputs.do_soir == 'true'
         run: |
-          python generate_vigilance_twitter.py \
-            --period 1 \
-            --output vigilance_soir.jpg
+          mkdir -p data output
+          python generate_vigilance_twitter.py --period 1 --output vigilance_soir.jpg
 
       - name: Générer le texte vigilance soir
-        if: contains(steps.mode.outputs.mode, 'vigilance_soir')
+        if: steps.mode.outputs.do_soir == 'true'
         run: |
-          python get_vigilance_data.py --out-dir output --twitter-only --period 1
-          cp output/twitter_post.txt data/vigilance_soir_tweet.txt 2>/dev/null || echo "⚠️ Vigilance Météorologique Demain — Consultez https://vigilance.meteofrance.fr/fr pour les détails." > data/vigilance_soir_tweet.txt
+          python get_vigilance_data.py --out-dir output --twitter-only --period 1 || true
+          if [ -f output/twitter_post.txt ]; then
+            cp output/twitter_post.txt data/vigilance_soir_tweet.txt
+          else
+            echo "⚠️ Vigilance Météo Demain — Retrouvez les prévisions d'alertes sur https://vigilance.meteofrance.fr/fr — #MeteoFrance #Vigilance" > data/vigilance_soir_tweet.txt
+          fi
 
       - name: Publier la vigilance soir sur X
-        if: contains(steps.mode.outputs.mode, 'vigilance_soir') && hashFiles('vigilance_soir.jpg') != ''
+        if: steps.mode.outputs.do_soir == 'true'
         run: |
-          python publish_to_twitter.py \
-            --image vigilance_soir.jpg \
-            --text-file data/vigilance_soir_tweet.txt
+          if [ -f vigilance_soir.jpg ]; then
+            python publish_to_twitter.py \
+              --image vigilance_soir.jpg \
+              --text-file data/vigilance_soir_tweet.txt
+          else
+            echo "Aucune image de vigilance soir générée — publication ignorée."
+          fi
+
+      # ── 4. RÉSUMÉ FINAL ─────────────────────────────────────────────────────
+
+      - name: Résumé des publications
+        if: always()
+        run: |
+          echo "=== Résumé ==="
+          echo "Mode : ${{ steps.mode.outputs.mode }}"
+          [ -f debrief_twitter.jpg ]   && echo "✅ Débriefing publié"    || echo "⏭ Débriefing : pas d'image"
+          [ -f vigilance_matin.jpg ]   && echo "✅ Vigilance matin publié" || echo "⏭ Vigilance matin : pas d'image"
+          [ -f vigilance_soir.jpg ]    && echo "✅ Vigilance soir publié"  || echo "⏭ Vigilance soir : pas d'image"
