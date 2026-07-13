@@ -262,6 +262,8 @@ def send_email(report_json, date_str):
     raw_recipients = os.environ.get("RECIPIENT_EMAILS", gmail_email)
     recipients = [r.strip() for r in raw_recipients.split(",") if r.strip()]
     
+    filename = f"veille_intemperies_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+    
     # Récupérer les deux composants du rapport JSON
     email_report_html = report_json.get("email_report", "")
     cards_list = report_json.get("cards", [])
