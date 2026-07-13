@@ -98,60 +98,138 @@ def call_llm_summary(bulletin_content):
     return "Consultez le bulletin national en pièce jointe pour plus de détails."
 
 def md_to_html(md_text):
-    """
-    Convertit le Markdown de base en HTML avec un style élégant.
-    """
-    # Échapper les caractères HTML
-    html = md_text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    # Échapper les caractères HTML d'abord pour plus de sécurité
+    escaped = md_text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
     
-    # Remplacer les titres
-    html = re.sub(r'^###\s*(.*?)$', r'<h3 style="color:#0f172a; margin-top:20px; font-family:\'Outfit\',sans-serif;">\1</h3>', html, flags=re.MULTILINE)
-    html = re.sub(r'^##\s*(.*?)$', r'<h2 style="color:#1e3a8a; border-bottom:1px solid #e2e8f0; padding-bottom:5px; margin-top:30px; font-family:\'Outfit\',sans-serif;">\1</h2>', html, flags=re.MULTILINE)
-    html = re.sub(r'^#\s*(.*?)$', r'<h1 style="color:#1e40af; font-family:\'Outfit\',sans-serif; margin-bottom:10px;">\1</h1>', html, flags=re.MULTILINE)
+    lines = escaped.splitlines()
+    html_lines = []
     
-    # Remplacer le gras
-    html = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html)
+    in_blockquote = False
+    blockquote_type = "standard"  # "standard" ou "important"
+    blockquote_lines = []
     
-    # Blocs de citation (Alertes Github / Markdown)
-    # Remplacement des > [!IMPORTANT]
-    html = re.sub(
-        r'^&gt;\s*\[!IMPORTANT\]\s*\n(.*?)(?=\n\n|\n&gt;|$)',
-        r'<div style="background-color:#fee2e2; border-left:4px solid #ef4444; padding:12px; margin:15px 0; border-radius:4px; color:#991b1b; font-size:14px;"><strong>[IMPORTANT]</strong><br>\1</div>',
-        html,
-        flags=re.MULTILINE | re.DOTALL
-    )
-    # Remplacement des blocs > standards
-    html = re.sub(
-        r'^&gt;\s*(.*?)$',
-        r'<div style="background-color:#f8fafc; border-left:4px solid #64748b; padding:8px 12px; margin:10px 0; font-style:italic; color:#475569;">\1</div>',
-        html,
-        flags=re.MULTILINE
-    )
-    
-    # Remplacer les puces (listes)
-    html = re.sub(r'^\s*-\s*(.*?)$', r'<li style="margin-bottom:6px; margin-left:20px; color:#334155;">\1</li>', html, flags=re.MULTILINE)
-    
-    # Remplacer les lignes de séparation
-    html = html.replace('---', '<hr style="border:0; border-top:1px solid #e2e8f0; margin:20px 0;">')
-    
-    # Gérer les retours à la ligne restants
-    html = html.replace('\n', '<br>')
-    
-    return html
+    for line in lines:
+        if line.startswith("&gt;"):
+            in_blockquote = True
+            content = line[4:].strip() if line.startswith("&gt; ") else line[3:].strip()
+            if "[!IMPORTANT]" in content:
+                blockquote_type = "important"
+                content = content.replace("[!IMPORTANT]", "").strip()
+            # Nettoyer les gras à l'intérieur
+            content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', content)
+            blockquote_lines.append(content)
+        else:
+            if in_blockquote:
+                # Clôture du bloc de citation
+                bq_content = "<br>".join(blockquote_lines)
+                if blockquote_type == "important":
+                    html_lines.append(
+                        f'<div style="background-color:#fee2e2; border-left:4px solid #ef4444; padding:12px; margin:15px 0; border-radius:4px; color:#991b1b; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.5;">'
+                        f'<strong>⚠️ IMPORTANT</strong><br>{bq_content}'
+                        f'</div>'
+                    )
+                else:
+                    html_lines.append(
+                        f'<div style="background-color:#f8fafc; border-left:4px solid #64748b; padding:10px 14px; margin:12px 0; font-style:italic; color:#475569; font-family:\'Outfit\',sans-serif; border-radius:4px; line-height:1.5;">'
+                        f'{bq_content}'
+                        f'</div>'
+                    )
+                in_blockquote = False
+                blockquote_lines = []
+                blockquote_type = "standard"
+            
+            processed_line = line.strip()
+            if not processed_line:
+                html_lines.append("<br>")
+                continue
+            
+            if processed_line.startswith("###"):
+                title = processed_line[3:].strip()
+                html_lines.append(f'<h3 style="color:#0f172a; margin-top:20px; font-family:\'Outfit\',sans-serif; font-size:16px; font-weight:600;">{title}</h3>')
+            elif processed_line.startswith("##"):
+                title = processed_line[2:].strip()
+                html_lines.append(f'<h2 style="color:#1e3a8a; border-bottom:1px solid #e2e8f0; padding-bottom:5px; margin-top:30px; font-family:\'Outfit\',sans-serif; font-size:18px; font-weight:600;">{title}</h2>')
+            elif processed_line.startswith("#"):
+                title = processed_line[1:].strip()
+                html_lines.append(f'<h1 style="color:#1e40af; font-family:\'Outfit\',sans-serif; margin-bottom:15px; font-size:22px; font-weight:700;">{title}</h1>')
+            elif processed_line.startswith("-"):
+                item = processed_line[1:].strip()
+                item = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item)
+                html_lines.append(f'<li style="margin-bottom:6px; margin-left:20px; color:#334155; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.5;">{item}</li>')
+            elif processed_line == "---":
+                html_lines.append('<hr style="border:0; border-top:1px solid #e2e8f0; margin:20px 0;">')
+            else:
+                processed_line = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', processed_line)
+                html_lines.append(f'<p style="margin:6px 0; color:#334155; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.6;">{processed_line}</p>')
+                
+    if in_blockquote:
+        bq_content = "<br>".join(blockquote_lines)
+        if blockquote_type == "important":
+            html_lines.append(
+                f'<div style="background-color:#fee2e2; border-left:4px solid #ef4444; padding:12px; margin:15px 0; border-radius:4px; color:#991b1b; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.5;">'
+                f'<strong>⚠️ IMPORTANT</strong><br>{bq_content}'
+                f'</div>'
+            )
+        else:
+            html_lines.append(
+                f'<div style="background-color:#f8fafc; border-left:4px solid #64748b; padding:10px 14px; margin:12px 0; font-style:italic; color:#475569; font-family:\'Outfit\',sans-serif; border-radius:4px; line-height:1.5;">'
+                f'{bq_content}'
+                f'</div>'
+            )
+            
+    return "\n".join(html_lines)
 
 import zipfile
 
 def create_zip_archive(today_str, rapports_dir, zip_output_path):
     with zipfile.ZipFile(zip_output_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for file in os.listdir(rapports_dir):
-            file_path = os.path.join(rapports_dir, file)
-            if os.path.isfile(file_path):
+            if file.endswith('.md'):
+                file_path = os.path.join(rapports_dir, file)
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    md_content = f.read()
+                
+                html_body = md_to_html(md_content)
+                title_clean = file.replace('.md', '').replace('bulletin_', '').replace('_', ' ').title()
+                
+                # Document HTML complet autonome et premium
+                full_html = f"""<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{title_clean}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {{
+            font-family: 'Outfit', sans-serif;
+            background-color: #f1f5f9;
+            color: #1e293b;
+            padding: 30px;
+            line-height: 1.6;
+        }}
+        .container {{
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            border: 1px solid #e2e8f0;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        {html_body}
+    </div>
+</body>
+</html>"""
+                
+                html_filename = file.replace('.md', '.html')
                 if "bulletin_france" in file:
-                    # Bulletin national à la racine du zip
-                    zipf.write(file_path, file)
+                    zipf.writestr(html_filename, full_html)
                 else:
-                    # Bulletins régionaux dans un sous-dossier "bulletins_regionaux"
-                    zipf.write(file_path, os.path.join("bulletins_regionaux", file))
+                    zipf.writestr(os.path.join("bulletins_regionaux", html_filename), full_html)
 
 def send_email_with_summary(national_md, date_str, zip_path):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
