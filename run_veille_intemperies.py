@@ -52,14 +52,25 @@ WEATHER_KEYWORDS = [
     'réunion', 'reunion', 'tropical', 'haishen', 'caraïbes'
 ]
 
+def fetch_gnews_xml_with_retry(query):
+    encoded_query = urllib.parse.quote(query)
+    url = f"https://news.google.com/rss/search?q={encoded_query}&hl=fr&gl=FR&ceid=FR:fr"
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    
+    for attempt in range(4):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+            with urllib.request.urlopen(req, timeout=15) as response:
+                return response.read()
+        except Exception as e:
+            if attempt == 3:
+                raise e
+            print(f"[RSS] Erreur temporaire '{query}' (tentative {attempt+1}/4) : {e}. Pause...")
+            time.sleep(attempt * 2 + 2)
+
 def fetch_google_news(query):
     try:
-        encoded_query = urllib.parse.quote(query)
-        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=fr&gl=FR&ceid=FR:fr"
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=15) as response:
-            xml_data = response.read()
-        
+        xml_data = fetch_gnews_xml_with_retry(query)
         root = ET.fromstring(xml_data)
         articles = []
         for item in root.findall(".//item")[:15]:
@@ -75,7 +86,7 @@ def fetch_google_news(query):
             })
         return articles
     except Exception as e:
-        print(f"[RSS] Échec de récupération de la requête '{query}': {e}", file=sys.stderr)
+        print(f"[RSS] Échec final de récupération pour '{query}': {e}", file=sys.stderr)
         return []
 
 def clean_accents(s):
@@ -91,19 +102,17 @@ def fetch_twitter_tweets_gnews():
     # Étape 1 : Récupérer les liens Google News correspondants aux comptes
     for chunk in chunks[:4]:  # On limite à 40 comptes clés pour rester rapide
         q = " OR ".join([f"site:x.com/{acc}" for acc in chunk])
-        url = f"https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl=fr&gl=FR&ceid=FR:fr"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         try:
-            with urllib.request.urlopen(req, timeout=15) as r:
-                root = ET.fromstring(r.read())
-                for item in root.findall('.//item')[:12]:
-                    all_items.append({
-                        "title": item.findtext('title') or "",
-                        "link": item.findtext('link') or "",
-                        "pubDate": item.findtext('pubDate') or ""
-                    })
+            xml_data = fetch_gnews_xml_with_retry(q)
+            root = ET.fromstring(xml_data)
+            for item in root.findall('.//item')[:12]:
+                all_items.append({
+                    "title": item.findtext('title') or "",
+                    "link": item.findtext('link') or "",
+                    "pubDate": item.findtext('pubDate') or ""
+                })
         except Exception as e:
-            print(f"[Twitter] Erreur chunk: {e}", file=sys.stderr)
+            print(f"[Twitter] Erreur chunk : {e}", file=sys.stderr)
             
     # Étape 2 : Décoder les URLs Google News et filtrer
     filtered_tweets = []
