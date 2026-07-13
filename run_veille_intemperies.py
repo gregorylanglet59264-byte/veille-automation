@@ -195,13 +195,13 @@ def call_llm(system_prompt, user_prompt):
 
 def build_report_data(raw_news, tweets):
     system_prompt = (
-        "Tu es un prévisionniste météo et analyste climatique senior.\n"
-        "Ton rôle est de rédiger un rapport condensé d'intempéries et de veille cyclonique.\n"
+        "Tu es un prévisionniste météo expert et un analyste des risques climatiques senior.\n"
+        "Ton rôle est de rédiger un bulletin de veille technique extrêmement détaillé et approfondi sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que la veille cyclonique mondiale.\n"
         "RÈGLE CRITIQUE : Tu DOIS obligatoirement lister EXACTEMENT 10 points numérotés de 1 à 10.\n"
-        "Pour chaque point, fournis :\n"
-        "- Le titre de l'information en français\n"
-        "- La description condensée et explicative en français (2-3 lignes)\n"
-        "- L'URL exacte de l'article ou du tweet correspondant. Copie-colle sans modification la clé 'url' de l'élément sélectionné.\n"
+        "Pour chaque point, tu DOIS fournir :\n"
+        "1. Un titre très précis, professionnel et informatif (ex: 'Orages supercellulaires et grêle géante dans la Drôme : vergers et cultures ravagés').\n"
+        "2. Un résumé de description approfondi, technique et détaillé (6 à 8 lignes minimum) expliquant précisément : le contexte thermodynamique, les observations physiques relevées (rafales en km/h, cumuls de pluie en mm, diamètre des grêlons), les dégâts ou impacts constatés sur le terrain (infrastructures, transports, agriculture) ainsi que l'évolution attendue à court terme.\n"
+        "3. L'URL exacte de l'article ou du tweet correspondant. Copie-colle sans modification la clé 'url' de l'élément sélectionné.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
@@ -224,6 +224,21 @@ def build_report_data(raw_news, tweets):
         time.sleep(10)
     return None
 
+def get_badge_info(title, summary):
+    text = (title + " " + summary).lower()
+    if any(k in text for k in ["cyclone", "ouragan", "typhon"]):
+        return "CYCLONE / OURAGAN", "#7c3aed", "#f5f3ff" # Purple
+    elif any(k in text for k in ["orage", "foudre", "supercellule"]):
+        return "ORAGES VIOLENTS", "#dc2626", "#fef2f2" # Red
+    elif any(k in text for k in ["grêle", "grele"]):
+        return "GRÊLE MAJEURE", "#b91c1c", "#fef2f2" # Dark Red
+    elif any(k in text for k in ["inondation", "crues", "débordement", "crue"]):
+        return "INONDATIONS / CRUES", "#2563eb", "#eff6ff" # Blue
+    elif any(k in text for k in ["vent", "rafale", "tornade", "tempête", "tempete"]):
+        return "RAFALES / TORNADES", "#d97706", "#fffbeb" # Orange
+    else:
+        return "VIGILANCE MÉTÉO", "#4b5563", "#f9fafb" # Gray
+
 def send_email(report_json, date_str):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
@@ -239,69 +254,119 @@ def send_email(report_json, date_str):
     raw_recipients = os.environ.get("RECIPIENT_EMAILS", gmail_email)
     recipients = [r.strip() for r in raw_recipients.split(",") if r.strip()]
     
-    # Construction du corps HTML
+    # 1. Construction du corps HTML du rapport en pièce jointe
     html_items = ""
     for idx, item in enumerate(report_json, 1):
+        label, color, bg = get_badge_info(item.get('title', ''), item.get('summary', ''))
         html_items += f"""
         <div class="card">
-            <span class="badge badge-meteo">Actualité {idx}</span>
-            <h3 class="card-title">
-                <a href="{item.get('url', '#')}" target="_blank">{item.get('title')}</a>
-            </h3>
+            <span class="badge" style="background-color: {bg}; color: {color}; border: 1px solid {color}40;">{label} — Point {idx}</span>
+            <h3 class="card-title">{item.get('title')}</h3>
             <p class="card-summary">{item.get('summary')}</p>
+            <a href="{item.get('url', '#')}" target="_blank" class="btn-source">Consulter la source officielle</a>
         </div>
         """
         
-    style = """
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; background-color: #f3f4f6; color: #1f2937; margin: 0; padding: 0; }
-    .wrapper { width: 100%; max-width: 700px; margin: 0 auto; padding: 20px; box-sizing: border-box; }
-    header { text-align: center; padding: 25px 0; background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%); color: #ffffff; border-radius: 12px; margin-bottom: 20px; }
-    h1 { margin: 0 0 8px 0; font-size: 24px; }
-    .subtitle { font-size: 14px; color: #9ca3af; margin: 0; }
-    .card { background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 15px; margin-bottom: 12px; }
-    .card-title { font-size: 15px; margin: 0 0 6px 0; font-weight: 600; }
-    .card-title a { color: #1e3a8a; text-decoration: none; }
-    .card-title a:hover { text-decoration: underline; }
-    .card-summary { font-size: 13.5px; line-height: 1.5; color: #4b5563; margin: 0; }
-    .badge { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-bottom: 6px; }
-    .badge-meteo { background-color: #dbeafe; color: #1e40af; }
-    footer { text-align: center; padding: 20px 0; font-size: 11px; color: #9ca3af; }
+    attachment_style = """
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #1e293b; margin: 0; padding: 0; }
+    .wrapper { width: 100%; max-width: 850px; margin: 0 auto; padding: 30px; box-sizing: border-box; }
+    header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1e40af 100%); color: #ffffff; border-radius: 16px; margin-bottom: 30px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); }
+    h1 { margin: 0 0 12px 0; font-size: 32px; font-weight: 800; letter-spacing: -0.5px; }
+    .subtitle { font-size: 16px; color: #93c5fd; margin: 0; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
+    .card { background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 24px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+    .card-title { font-size: 19px; font-weight: 700; margin: 0 0 12px 0; color: #0f172a; line-height: 1.4; }
+    .card-summary { font-size: 14.5px; line-height: 1.7; color: #334155; margin: 0; text-align: justify; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 12px; }
+    .btn-source { display: inline-block; padding: 9px 18px; background-color: #1e3a8a; color: #ffffff !important; text-decoration: none; border-radius: 8px; font-size: 12px; font-weight: 600; margin-top: 16px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .btn-source:hover { background-color: #2563eb; }
+    footer { text-align: center; padding: 30px 0; font-size: 13px; color: #64748b; border-top: 1px solid #e2e8f0; margin-top: 50px; }
     """
     
-    html_body = f"""<!DOCTYPE html>
+    html_attachment = f"""<!DOCTYPE html>
     <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <style>{style}</style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bulletin Veille Intempéries &amp; Cyclones - {date_str}</title>
+        <style>{attachment_style}</style>
     </head>
     <body>
         <div class="wrapper">
             <header>
                 <h1>Veille Spécifique Intempéries &amp; Cyclones</h1>
-                <p class="subtitle">Bulletin du {date_str}</p>
+                <p class="subtitle">Bulletin technique du {date_str}</p>
             </header>
             {html_items}
             <footer>
-                <p>Veille générée automatiquement et envoyée via GitHub Actions.</p>
+                <p>Ce bulletin a été compilé de manière autonome par le robot de veille météorologique.</p>
             </footer>
         </div>
     </body>
     </html>
     """
     
-    # Construction du résumé textuel pour le corps du mail
-    summary_text = "Bonjour,\n\nVoici le résumé rapide de votre veille actu meteo du jour :\n\n"
+    # 2. Construction du corps de l'e-mail au format HTML avec un tableau récapitulatif structuré
+    filename = f"veille_intemperies_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+    email_rows = ""
     for idx, item in enumerate(report_json, 1):
-        summary_text += f"{idx}. {item.get('title')}\n"
-    summary_text += "\nVous trouverez le rapport complet avec tous les liens cliquables dans le fichier HTML joint à ce message.\n\nCordialement,\nL'assistant de Veille"
+        label, color, bg = get_badge_info(item.get('title', ''), item.get('summary', ''))
+        # Limiter le titre dans le tableau pour la lisibilité
+        title_display = item.get('title', '')
+        if len(title_display) > 85:
+            title_display = title_display[:82] + "..."
+            
+        email_rows += f"""
+        <tr style="border-bottom: 1px solid #e2e8f0;">
+          <td style="padding: 12px 10px; font-weight: bold; color: #1e3a8a; font-size: 14px; width: 30px;">{idx}</td>
+          <td style="padding: 12px 10px;">
+            <span style="display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: bold; background-color: {bg}; color: {color}; text-transform: uppercase; margin-bottom: 4px;">{label}</span>
+            <div style="font-weight: 600; font-size: 14px; color: #0f172a;">{title_display}</div>
+            <div style="font-size: 12px; color: #64748b; margin-top: 4px;">{item.get('summary')[:130]}...</div>
+          </td>
+          <td style="padding: 12px 10px; text-align: right; width: 80px;">
+            <a href="{item.get('url', '#')}" target="_blank" style="font-size: 12px; font-weight: bold; color: #2563eb; text-decoration: none;">Source ↗</a>
+          </td>
+        </tr>
+        """
+        
+    html_email_body = f"""<html>
+    <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; background-color: #f8fafc; padding: 20px; margin: 0; line-height: 1.6;">
+      <div style="max-width: 750px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h2 style="color: #1e3a8a; border-bottom: 3px solid #1e3a8a; padding-bottom: 12px; margin-top: 0; font-size: 22px; font-weight: 800;">🌤️ Veille Actu Météo — {date_str}</h2>
+        <p style="font-size: 15px; color: #334155;">Bonjour Gregory,</p>
+        <p style="font-size: 15px; color: #334155;">Votre bulletin de veille quotidien sur les <strong>Intempéries nationales, outre-mer et l'activité cyclonique</strong> a été généré. Vous trouverez ci-dessous la synthèse des 10 points critiques relevés au cours des dernières 24 heures.</p>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 25px 0;">
+          <thead>
+            <tr style="background-color: #f1f5f9; border-bottom: 2px solid #e2e8f0; text-align: left;">
+              <th style="padding: 10px; font-size: 11px; color: #475569; text-transform: uppercase; font-weight: 700; width: 30px;">N°</th>
+              <th style="padding: 10px; font-size: 11px; color: #475569; text-transform: uppercase; font-weight: 700;">Événement majeur</th>
+              <th style="padding: 10px; font-size: 11px; color: #475569; text-transform: uppercase; font-weight: 700; text-align: right; width: 80px;">Lien</th>
+            </tr>
+          </thead>
+          <tbody>
+            {email_rows}
+          </tbody>
+        </table>
+        
+        <div style="background-color: #eff6ff; border: 1px dashed #2563eb; padding: 20px; border-radius: 8px; margin: 25px 0; text-align: center;">
+          <h3 style="color: #1e3a8a; margin: 0 0 8px 0; font-size: 16px; font-weight: 700;">📂 Rapport Complet Joint</h3>
+          <p style="margin: 0; font-size: 13.5px; color: #334155;">Le fichier joint <strong>{filename}</strong> contient les analyses techniques et climatiques détaillées (6 à 8 lignes par événement), prêtes pour diffusion ou impression.</p>
+        </div>
+        
+        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+        <p style="font-size: 11px; color: #94a3b8; text-align: center; margin: 0;">Généré automatiquement par le workflow GitHub Actions de Veille Météo.</p>
+      </div>
+    </body>
+    </html>
+    """
     
     # Encodages
     boundary = uuid.uuid4().hex
-    filename = f"veille_intemperies_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
-    html_b64 = base64.b64encode(html_body.encode('utf-8')).decode('ascii')
-    text_b64 = base64.b64encode(summary_text.encode('utf-8')).decode('ascii')
+    html_att_b64 = base64.b64encode(html_attachment.encode('utf-8')).decode('ascii')
+    html_email_b64 = base64.b64encode(html_email_body.encode('utf-8')).decode('ascii')
     
-    # Nettoyage ASCII strict du sujet
+    # Nettoyage ASCII strict du sujet pour éviter les spams
     subject_raw = f"Veille actu meteo - {date_str}"
     clean_subject = unicodedata.normalize('NFKD', subject_raw).encode('ASCII', 'ignore').decode('ASCII')
     
@@ -314,17 +379,17 @@ def send_email(report_json, date_str):
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
         f'\r\n'
         f'--{boundary}\r\n'
-        f'Content-Type: text/plain; charset=utf-8\r\n'
+        f'Content-Type: text/html; charset=utf-8\r\n'
         f'Content-Transfer-Encoding: base64\r\n'
         f'\r\n'
-        f'{text_b64}\r\n'
+        f'{html_email_b64}\r\n'
         f'\r\n'
         f'--{boundary}\r\n'
         f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
         f'Content-Disposition: attachment; filename="{filename}"\r\n'
         f'Content-Transfer-Encoding: base64\r\n'
         f'\r\n'
-        f'{html_b64}\r\n'
+        f'{html_att_b64}\r\n'
         f'\r\n'
         f'--{boundary}--\r\n'
     )
