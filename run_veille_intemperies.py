@@ -193,20 +193,28 @@ def call_llm(system_prompt, user_prompt):
             
     return None
 
-def build_report_data(raw_news, tweets):
+def build_report_data(raw_news, tweets, date_str):
     system_prompt = (
-        "Tu es un prévisionniste météo expert et un analyste des risques climatiques senior.\n"
-        "Ton rôle est de rédiger un bulletin de veille technique extrêmement détaillé et approfondi sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que la veille cyclonique mondiale.\n"
-        "RÈGLE CRITIQUE : Tu DOIS obligatoirement lister EXACTEMENT 10 points numérotés de 1 à 10.\n"
-        "Pour chaque point, tu DOIS fournir :\n"
-        "1. Un titre très précis, professionnel et informatif (ex: 'Orages supercellulaires et grêle géante dans la Drôme : vergers et cultures ravagés').\n"
-        "2. Un résumé de description approfondi, technique et détaillé (6 à 8 lignes minimum) expliquant précisément : le contexte thermodynamique, les observations physiques relevées (rafales en km/h, cumuls de pluie en mm, diamètre des grêlons), les dégâts ou impacts constatés sur le terrain (infrastructures, transports, agriculture) ainsi que l'évolution attendue à court terme.\n"
-        "3. L'URL exacte de l'article ou du tweet correspondant. Copie-colle sans modification la clé 'url' de l'élément sélectionné.\n"
+        "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
+        "Ton rôle est de rédiger un bulletin de veille complet et extrêmement détaillé sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que l'activité cyclonique mondiale.\n\n"
+        f"Tu dois générer une structure JSON contenant deux clés :\n"
+        "1. \"email_report\": Une chaîne HTML contenant le rapport de veille rédigé de manière fluide, littéraire, journalistique et prête à être envoyée dans le corps de l'e-mail. Cette chaîne DOIT suivre la structure suivante :\n"
+        f"   - Titre principal : H2 avec le texte '⛈️ Rapport de Veille Intempéries & Cyclones — {date_str}'\n"
+        "   - Section 'Résumé exécutif' : Une introduction de 3-4 lignes décrivant l'objet de la veille, la fraîcheur des données (moins de 24h/48h) et la situation d'ensemble.\n"
+        "   - Les 10 points critiques, numérotés de 1 à 10. Chaque point doit avoir son titre en gras (H3 ou div) et une description rédigée de façon fluide (4-5 lignes minimum) qui explique l'événement. RÈGLE CRITIQUE : Tu DOIS intégrer les sources sous forme de liens HTML cliquables directement dans le texte, par exemple : '(lire la dépêche de <a href=\"URL\" style=\"color: #2563eb; text-decoration: underline;\">franceinfo</a> ou le suivi sur <a href=\"URL\" style=\"color: #2563eb; text-decoration: underline;\">Météo Express</a>)'. Copie-colle sans modification la clé 'url' de l'article source.\n"
+        f"   - Signature de fin : Un paragraphe en italique 'Rapport de veille spécifique rédigé le {date_str} par Gregory Langlet.'\n\n"
+        "2. \"cards\": Une liste d'exactement 10 objets pour la pièce jointe HTML premium. Chaque objet doit avoir la structure suivante :\n"
+        "   - \"title\": Le titre précis et percutant de l'événement.\n"
+        "   - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales, pluie, grêle) et les impacts constatés.\n"
+        "   - \"url\": L'URL d'origine de l'article ou du tweet (recopiée à la lettre sans modification).\n\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
-        "[\n"
-        "  {\"title\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
-        "  ... (10 items)\n"
-        "]"
+        "{\n"
+        "  \"email_report\": \"...\",\n"
+        "  \"cards\": [\n"
+        "    {\"title\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "    ... (10 items)\n"
+        "  ]\n"
+        "}"
     )
     
     user_prompt = f"Données météo :\n{json.dumps(raw_news, ensure_ascii=False)}\n\nDonnées Twitter :\n{json.dumps(tweets, ensure_ascii=False)}"
@@ -217,7 +225,7 @@ def build_report_data(raw_news, tweets):
             try:
                 response_clean = response.strip().replace("```json", "").replace("```", "")
                 parsed = json.loads(response_clean, strict=False)
-                if len(parsed) == 10:
+                if isinstance(parsed, dict) and "email_report" in parsed and "cards" in parsed and len(parsed["cards"]) == 10:
                     return parsed
             except Exception as e:
                 print(f"[LLM] Tentative {attempt+1} échec parsing JSON: {e}")
@@ -254,9 +262,13 @@ def send_email(report_json, date_str):
     raw_recipients = os.environ.get("RECIPIENT_EMAILS", gmail_email)
     recipients = [r.strip() for r in raw_recipients.split(",") if r.strip()]
     
-    # 1. Construction du corps HTML du rapport en pièce jointe
+    # Récupérer les deux composants du rapport JSON
+    email_report_html = report_json.get("email_report", "")
+    cards_list = report_json.get("cards", [])
+    
+    # 1. Construction du corps HTML du rapport en pièce jointe (fiches techniques ultra-premium)
     html_items = ""
-    for idx, item in enumerate(report_json, 1):
+    for idx, item in enumerate(cards_list, 1):
         label, color, bg = get_badge_info(item.get('title', ''), item.get('summary', ''))
         html_items += f"""
         <div class="card">
@@ -305,53 +317,16 @@ def send_email(report_json, date_str):
     </html>
     """
     
-    # 2. Construction du corps de l'e-mail au format HTML avec un tableau récapitulatif structuré
-    filename = f"veille_intemperies_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
-    email_rows = ""
-    for idx, item in enumerate(report_json, 1):
-        label, color, bg = get_badge_info(item.get('title', ''), item.get('summary', ''))
-        # Limiter le titre dans le tableau pour la lisibilité
-        title_display = item.get('title', '')
-        if len(title_display) > 85:
-            title_display = title_display[:82] + "..."
-            
-        email_rows += f"""
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 12px 10px; font-weight: bold; color: #1e3a8a; font-size: 14px; width: 30px;">{idx}</td>
-          <td style="padding: 12px 10px;">
-            <span style="display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: bold; background-color: {bg}; color: {color}; text-transform: uppercase; margin-bottom: 4px;">{label}</span>
-            <div style="font-weight: 600; font-size: 14px; color: #0f172a;">{title_display}</div>
-            <div style="font-size: 12px; color: #64748b; margin-top: 4px;">{item.get('summary')[:130]}...</div>
-          </td>
-          <td style="padding: 12px 10px; text-align: right; width: 80px;">
-            <a href="{item.get('url', '#')}" target="_blank" style="font-size: 12px; font-weight: bold; color: #2563eb; text-decoration: none;">Source ↗</a>
-          </td>
-        </tr>
-        """
-        
+    # 2. Construction du corps de l'e-mail au format HTML contenant le rapport fluide rédigé
     html_email_body = f"""<html>
-    <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; background-color: #f8fafc; padding: 20px; margin: 0; line-height: 1.6;">
-      <div style="max-width: 750px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h2 style="color: #1e3a8a; border-bottom: 3px solid #1e3a8a; padding-bottom: 12px; margin-top: 0; font-size: 22px; font-weight: 800;">🌤️ Veille Actu Météo — {date_str}</h2>
-        <p style="font-size: 15px; color: #334155;">Bonjour Gregory,</p>
-        <p style="font-size: 15px; color: #334155;">Votre bulletin de veille quotidien sur les <strong>Intempéries nationales, outre-mer et l'activité cyclonique</strong> a été généré. Vous trouverez ci-dessous la synthèse des 10 points critiques relevés au cours des dernières 24 heures.</p>
+    <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; background-color: #f8fafc; padding: 25px; margin: 0; line-height: 1.65;">
+      <div style="max-width: 750px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 35px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         
-        <table style="width: 100%; border-collapse: collapse; margin: 25px 0;">
-          <thead>
-            <tr style="background-color: #f1f5f9; border-bottom: 2px solid #e2e8f0; text-align: left;">
-              <th style="padding: 10px; font-size: 11px; color: #475569; text-transform: uppercase; font-weight: 700; width: 30px;">N°</th>
-              <th style="padding: 10px; font-size: 11px; color: #475569; text-transform: uppercase; font-weight: 700;">Événement majeur</th>
-              <th style="padding: 10px; font-size: 11px; color: #475569; text-transform: uppercase; font-weight: 700; text-align: right; width: 80px;">Lien</th>
-            </tr>
-          </thead>
-          <tbody>
-            {email_rows}
-          </tbody>
-        </table>
+        {email_report_html}
         
-        <div style="background-color: #eff6ff; border: 1px dashed #2563eb; padding: 20px; border-radius: 8px; margin: 25px 0; text-align: center;">
-          <h3 style="color: #1e3a8a; margin: 0 0 8px 0; font-size: 16px; font-weight: 700;">📂 Rapport Complet Joint</h3>
-          <p style="margin: 0; font-size: 13.5px; color: #334155;">Le fichier joint <strong>{filename}</strong> contient les analyses techniques et climatiques détaillées (6 à 8 lignes par événement), prêtes pour diffusion ou impression.</p>
+        <div style="background-color: #eff6ff; border: 1px dashed #2563eb; padding: 20px; border-radius: 8px; margin: 30px 0; text-align: center;">
+          <h3 style="color: #1e3a8a; margin: 0 0 8px 0; font-size: 16px; font-weight: 700;">📂 Rapport Technique Joint</h3>
+          <p style="margin: 0; font-size: 13.5px; color: #334155;">Le fichier joint <strong>{filename}</strong> contient les fiches techniques approfondies et les valeurs physiques relevées (rafales, pluie, grêle) prêtes pour diffusion.</p>
         </div>
         
         <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
@@ -426,7 +401,7 @@ def main():
     
     # 3. Génération IA
     print("[LLM] Synthèse et rédaction du rapport final...")
-    report_json = build_report_data(raw_news, tweets)
+    report_json = build_report_data(raw_news, tweets, date_str)
     
     if report_json:
         # Sauvegarde locale
