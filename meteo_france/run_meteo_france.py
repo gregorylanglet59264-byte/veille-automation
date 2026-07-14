@@ -490,32 +490,10 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
     <meta charset="UTF-8">
     <title>{title_full}</title>
     <style>
-        :root {{
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --bg-body: #f8fafc;
-            --bg-card: #ffffff;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --border: #e2e8f0;
-            
-            --vigi-orange-bg: #fff7ed;
-            --vigi-orange-border: #f97316;
-            --vigi-orange-text: #9a3412;
-            
-            --vigi-yellow-bg: #fefce8;
-            --vigi-yellow-border: #eab308;
-            --vigi-yellow-text: #854d0e;
-            
-            --vigi-red-bg: #fef2f2;
-            --vigi-red-border: #ef4444;
-            --vigi-red-text: #991b1b;
-        }}
-        
         body {{
             font-family: 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background-color: var(--bg-body);
-            color: var(--text-main);
+            background-color: #f8fafc;
+            color: #1e293b;
             line-height: 1.6;
             margin: 0;
             padding: 30px 15px;
@@ -524,10 +502,10 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
         .container {{
             max-width: 800px;
             margin: 0 auto;
-            background-color: var(--bg-card);
+            background-color: #ffffff;
             border-radius: 16px;
             box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
-            border: 1px solid var(--border);
+            border: 1px solid #e2e8f0;
             overflow: hidden;
         }}
         
@@ -536,7 +514,7 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             color: #ffffff;
             padding: 35px 24px;
             text-align: center;
-            border-bottom: 4px solid var(--primary);
+            border-bottom: 4px solid #2563eb;
             position: relative;
         }}
         
@@ -561,7 +539,7 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             color: #0f172a;
             font-size: 16px;
             font-weight: 700;
-            border-bottom: 2px solid var(--border);
+            border-bottom: 2px solid #e2e8f0;
             padding-bottom: 8px;
             margin-top: 30px;
             margin-bottom: 16px;
@@ -617,20 +595,20 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
         }}
         
         .callout-important {{
-            background-color: var(--vigi-orange-bg);
-            border-color: var(--vigi-orange-border);
-            color: var(--vigi-orange-text);
+            background-color: #fff7ed;
+            border-color: #f97316;
+            color: #9a3412;
         }}
         
         .callout-warning {{
-            background-color: var(--vigi-yellow-bg);
-            border-color: var(--vigi-yellow-border);
-            color: var(--vigi-yellow-text);
+            background-color: #fefce8;
+            border-color: #eab308;
+            color: #854d0e;
         }}
         
         .callout-note {{
             background-color: #f1f5f9;
-            border-color: var(--border);
+            border-color: #e2e8f0;
             color: #334155;
         }}
         
@@ -639,7 +617,7 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             overflow-x: auto;
             margin-bottom: 20px;
             border-radius: 8px;
-            border: 1px solid var(--border);
+            border: 1px solid #e2e8f0;
         }}
         
         table {{
@@ -654,13 +632,13 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             font-weight: 600;
             font-size: 12.5px;
             padding: 10px 14px;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid #e2e8f0;
         }}
         
         td {{
             padding: 10px 14px;
             font-size: 13.5px;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid #e2e8f0;
             color: #334155;
             background-color: #ffffff;
         }}
@@ -680,17 +658,17 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
         hr {{
             border: 0;
             height: 1px;
-            background-color: var(--border);
+            background-color: #e2e8f0;
             margin: 30px 0;
         }}
         
         .footer {{
             background-color: #f8fafc;
             padding: 20px;
-            border-top: 1px solid var(--border);
+            border-top: 1px solid #e2e8f0;
             text-align: center;
             font-size: 11px;
-            color: var(--text-muted);
+            color: #64748b;
         }}
     </style>
 </head>
@@ -752,32 +730,10 @@ def send_email_with_summary(national_md, date_str, zip_path):
     <meta charset="UTF-8">
     <title>{title_full}</title>
     <style>
-        :root {{
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --bg-body: #f8fafc;
-            --bg-card: #ffffff;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --border: #e2e8f0;
-            
-            --vigi-orange-bg: #fff7ed;
-            --vigi-orange-border: #f97316;
-            --vigi-orange-text: #9a3412;
-            
-            --vigi-yellow-bg: #fefce8;
-            --vigi-yellow-border: #eab308;
-            --vigi-yellow-text: #854d0e;
-            
-            --vigi-red-bg: #fef2f2;
-            --vigi-red-border: #ef4444;
-            --vigi-red-text: #991b1b;
-        }}
-        
         body {{
             font-family: 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background-color: var(--bg-body);
-            color: var(--text-main);
+            background-color: #f8fafc;
+            color: #1e293b;
             line-height: 1.6;
             margin: 0;
             padding: 30px 15px;
@@ -786,10 +742,10 @@ def send_email_with_summary(national_md, date_str, zip_path):
         .container {{
             max-width: 800px;
             margin: 0 auto;
-            background-color: var(--bg-card);
+            background-color: #ffffff;
             border-radius: 16px;
             box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
-            border: 1px solid var(--border);
+            border: 1px solid #e2e8f0;
             overflow: hidden;
         }}
         
@@ -798,7 +754,7 @@ def send_email_with_summary(national_md, date_str, zip_path):
             color: #ffffff;
             padding: 35px 24px;
             text-align: center;
-            border-bottom: 4px solid var(--primary);
+            border-bottom: 4px solid #2563eb;
             position: relative;
         }}
         
@@ -823,7 +779,7 @@ def send_email_with_summary(national_md, date_str, zip_path):
             color: #0f172a;
             font-size: 16px;
             font-weight: 700;
-            border-bottom: 2px solid var(--border);
+            border-bottom: 2px solid #e2e8f0;
             padding-bottom: 8px;
             margin-top: 30px;
             margin-bottom: 16px;
@@ -879,20 +835,20 @@ def send_email_with_summary(national_md, date_str, zip_path):
         }}
         
         .callout-important {{
-            background-color: var(--vigi-orange-bg);
-            border-color: var(--vigi-orange-border);
-            color: var(--vigi-orange-text);
+            background-color: #fff7ed;
+            border-color: #f97316;
+            color: #9a3412;
         }}
         
         .callout-warning {{
-            background-color: var(--vigi-yellow-bg);
-            border-color: var(--vigi-yellow-border);
-            color: var(--vigi-yellow-text);
+            background-color: #fefce8;
+            border-color: #eab308;
+            color: #854d0e;
         }}
         
         .callout-note {{
             background-color: #f1f5f9;
-            border-color: var(--border);
+            border-color: #e2e8f0;
             color: #334155;
         }}
         
@@ -901,7 +857,7 @@ def send_email_with_summary(national_md, date_str, zip_path):
             overflow-x: auto;
             margin-bottom: 20px;
             border-radius: 8px;
-            border: 1px solid var(--border);
+            border: 1px solid #e2e8f0;
         }}
         
         table {{
@@ -916,13 +872,13 @@ def send_email_with_summary(national_md, date_str, zip_path):
             font-weight: 600;
             font-size: 12.5px;
             padding: 10px 14px;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid #e2e8f0;
         }}
         
         td {{
             padding: 10px 14px;
             font-size: 13.5px;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid #e2e8f0;
             color: #334155;
             background-color: #ffffff;
         }}
@@ -942,17 +898,17 @@ def send_email_with_summary(national_md, date_str, zip_path):
         hr {{
             border: 0;
             height: 1px;
-            background-color: var(--border);
+            background-color: #e2e8f0;
             margin: 30px 0;
         }}
         
         .footer {{
             background-color: #f8fafc;
             padding: 20px;
-            border-top: 1px solid var(--border);
+            border-top: 1px solid #e2e8f0;
             text-align: center;
             font-size: 11px;
-            color: var(--text-muted);
+            color: #64748b;
         }}
     </style>
 </head>
