@@ -150,6 +150,7 @@ def md_to_html(md_text):
     in_card = False
     in_columns_mode = False
     columns_items = []
+    current_vigi_color = "standard"  # "rouge", "orange", "jaune", "verte", "standard"
     
     def close_blockquote():
         if not blockquote_lines:
@@ -175,21 +176,56 @@ def md_to_html(md_text):
         if not columns_items:
             return ""
         items_html = []
+        
+        # Attribution de couleurs précises type Météo-France
+        if current_vigi_color == "rouge":
+            bg_color = "#fee2e2"
+            text_color = "#991b1b"
+            border_color = "#fca5a5"
+        elif current_vigi_color == "orange":
+            bg_color = "#ffedd5"
+            text_color = "#c2410c"
+            border_color = "#fed7aa"
+        elif current_vigi_color == "jaune":
+            bg_color = "#fef9c3"
+            text_color = "#854d0e"
+            border_color = "#fef08a"
+        elif current_vigi_color == "verte":
+            bg_color = "#dcfce7"
+            text_color = "#166534"
+            border_color = "#bbf7d0"
+        else:
+            bg_color = "#f8fafc"
+            text_color = "#475569"
+            border_color = "#cbd5e1"
+            
         for item in columns_items:
             item_hl = highlight_figures(item)
             item_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item_hl)
             items_html.append(
-                f'<div style="font-size:11.5px; color:#475569; margin:2px 0; padding-left:8px; border-left:2px solid #cbd5e1; white-space:nowrap; display:inline-block; width:90%;">{item_clean}</div>'
+                f'<span style="display:inline-block; font-size:11px; font-family:\'Outfit\',sans-serif; color:{text_color}; '
+                f'background-color:{bg_color}; border:1px solid {border_color}; border-radius:4px; padding:2px 8px; margin:2px; '
+                f'white-space:nowrap; font-weight:600;">{item_clean}</span>'
             )
         columns_items.clear()
         return (
-            f'<div style="column-count:3; -webkit-column-count:3; -moz-column-count:3; column-gap:15px; margin:8px 0 10px 0;">'
+            f'<div style="margin:4px 0 8px 0; line-height:1.6;">'
             f'{"".join(items_html)}'
             f'</div>'
         )
 
     for line in lines:
         processed_line = line.strip()
+        
+        # Suivi de la couleur de vigilance courante
+        if "🔴" in processed_line or "rouge" in processed_line.lower():
+            current_vigi_color = "rouge"
+        elif "🟠" in processed_line or "orange" in processed_line.lower():
+            current_vigi_color = "orange"
+        elif "🟡" in processed_line or "jaune" in processed_line.lower():
+            current_vigi_color = "jaune"
+        elif "🟢" in processed_line or "verte" in processed_line.lower():
+            current_vigi_color = "verte"
         
         if processed_line.startswith("&gt;"):
             if columns_items:
@@ -229,11 +265,21 @@ def md_to_html(md_text):
             if match_icon:
                 icon = match_icon.group(1)
                 title_text = match_icon.group(2)
+            
+            words = title_text.split()
+            if words:
+                first_word = words[0]
+                rest_text = " ".join(words[1:])
+                header_content = f'<span style="white-space:nowrap;"><span style="margin-right:6px; font-size:16px; display:inline-block; vertical-align:middle;">{icon}</span>{first_word}</span>'
+                if rest_text:
+                    header_content += f' {rest_text}'
+            else:
+                header_content = f'<span style="font-size:16px; display:inline-block; vertical-align:middle;">{icon}</span>'
                 
             html_lines.append(
                 f'<div style="text-align:center; margin-bottom:12px; border-bottom:2px solid #1e3a8a; padding-bottom:6px;">'
                 f'<h1 style="color:#1e3a8a; font-family:\'Outfit\',sans-serif; font-size:15px; font-weight:700; margin:0 0 2px 0; text-transform:uppercase; letter-spacing:0.05em;">'
-                f'<span style="margin-right:6px;">{icon}</span>{title_text}'
+                f'{header_content}'
                 f'</h1>'
                 f'</div>'
             )
@@ -253,6 +299,7 @@ def md_to_html(md_text):
                 in_columns_mode = True
             else:
                 in_columns_mode = False
+                current_vigi_color = "standard"
                 
             icon = "📋"
             title_text = title
@@ -281,13 +328,23 @@ def md_to_html(md_text):
                 title_text = "Marine"
                 icon = "🌊"
                 
+            words = title_text.split()
+            if words:
+                first_word = words[0]
+                rest_text = " ".join(words[1:])
+                header_content = f'<span style="white-space:nowrap;"><span style="margin-right:6px; font-size:13px; display:inline-block; vertical-align:middle;">{icon}</span>{first_word}</span>'
+                if rest_text:
+                    header_content += f' {rest_text}'
+            else:
+                header_content = f'<span style="font-size:13px; display:inline-block; vertical-align:middle;">{icon}</span>'
+                
             card_html = (
                 f'{close_card_html}'
-                f'<div style="background-color:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:12px 14px; margin-bottom:10px; box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);">'
-                f'<h2 style="color:#1e3a8a; font-family:\'Outfit\',sans-serif; font-size:12px; font-weight:700; margin:0 0 8px 0; border-bottom:1px solid #f1f5f9; padding-bottom:5px; text-transform:uppercase; letter-spacing:0.05em; display:flex; align-items:center;">'
-                f'<span style="margin-right:6px; font-size:14px;">{icon}</span> {title_text}'
-                f'</h2>'
-                f'<div style="font-size:12px; color:#334155; line-height:1.5;">'
+                f'<div style="background-color:#ffffff; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:10px; overflow:hidden; box-shadow:0 1.5px 3px rgb(0 0 0 / 0.04);">'
+                f'<div style="background-color:#1e3a8a; padding:6px 12px; color:#ffffff; font-family:\'Outfit\',sans-serif; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:flex; align-items:center; flex-wrap:nowrap;">'
+                f'{header_content}'
+                f'</div>'
+                f'<div style="padding:12px; font-size:12px; color:#334155; line-height:1.5;">'
             )
             html_lines.append(card_html)
             in_card = True
@@ -320,16 +377,26 @@ def md_to_html(md_text):
                 title_text = "Températures"
                 icon = "🌡"
                 
+            words = title_text.split()
+            if words:
+                first_word = words[0]
+                rest_text = " ".join(words[1:])
+                header_content = f'<span style="white-space:nowrap;"><span style="margin-right:4px; font-size:11px; display:inline-block; vertical-align:middle;">{icon}</span>{first_word}</span>'
+                if rest_text:
+                    header_content += f' {rest_text}'
+            else:
+                header_content = f'<span style="font-size:11px; display:inline-block; vertical-align:middle;">{icon}</span>'
+                
             if "prévision" in title_lower or "cette nuit" in title_lower or "demain" in title_lower or "après-demain" in title_lower:
                 html_lines.append(
                     f'<div style="background-color:#f1f5f9; color:#1e3a8a; font-size:9.5px; font-weight:700; padding:2px 6px; border-radius:4px; margin-top:8px; margin-bottom:5px; text-transform:uppercase; letter-spacing:0.05em; display:inline-block;">'
-                    f'{icon} {title_text}'
+                    f'{header_content}'
                     f'</div>'
                 )
             else:
                 html_lines.append(
-                    f'<h4 style="color:#0f172a; font-family:\'Outfit\',sans-serif; font-size:11px; font-weight:700; margin:6px 0 2px 0; display:flex; align-items:center;">'
-                    f'<span style="margin-right:4px; font-size:11px;">{icon}</span> {title_text}'
+                    f'<h4 style="color:#0f172a; font-family:\'Outfit\',sans-serif; font-size:11px; font-weight:700; margin:6px 0 2px 0;">'
+                    f'{header_content}'
                     f'</h4>'
                 )
             continue
