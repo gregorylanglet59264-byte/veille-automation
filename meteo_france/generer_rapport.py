@@ -326,6 +326,8 @@ def parse_marine_bulletin(text):
         "dpression": "dépression",
         "gnrale": "générale",
         "volution": "évolution",
+        "voluant": "évoluant",
+        "associ": "associé",
         "ctier": "côtier",
         "frontire": "frontière",
         "Emis le": "Émis le",
@@ -343,6 +345,10 @@ def parse_marine_bulletin(text):
         "noeuds": "nœuds",
         "tendance": "tendance",
         "mollissant": "mollissant",
+        "aprs": "après",
+        "aprs-midi": "après-midi",
+        "claircies": "éclaircies",
+        "clairs": "éclairs",
     }
     
     for k, v in replacements.items():
@@ -446,110 +452,245 @@ def nettoyer_nom_departement(nom):
     nom = re.sub(r'^bulletin\s+départemental\s+(?:de\s+l\'|de\s+la\s+|du\s+|d\'|de\s+|des\s+)?', '', nom, flags=re.I)
     return nom.strip()
 
-def generer_briefing_regional_fallback(region, previsions_brutes):
-    return (
-        f"### 📅 Prévisions pour la Nuit Prochaine\n\n"
-        f"#### 🌐 Situation Générale :\n"
-        f"Le ciel nocturne s'annonce généralement calme et dégagé sur l'ensemble de la région, favorisant une atmosphère agréable.\n\n"
-        f"#### 🗺️ Éléments clés par secteur :\n"
-        f"- **Plaines et Vallées :** Ciel clair avec de légères brises locales.\n"
-        f"- **Zones Urbaines :** La chaleur de la journée reste légèrement emprisonnée, douceur notable.\n\n"
-        f"#### 🌡️ Le Thermomètre :\n"
-        f"- Les températures minimales nocturnes oscilleront entre 16 °C et 20 °C.\n\n"
-        f"### 📅 Prévisions pour Demain (Journée)\n\n"
-        f"#### 🌐 Situation Générale :\n"
-        f"Une journée très ensoleillée et chaude s'annonce sur l'ensemble du territoire régional sous un vent faible.\n\n"
-        f"#### 🗺️ Éléments clés par secteur :\n"
-        f"- **Littoral / Côtes :** Brises marines rafraîchissantes l'après-midi.\n"
-        f"- **Intérieur des terres :** Ensoleillement total et conditions sèches.\n\n"
-        f"#### 🌡️ Le Thermomètre :\n"
-        f"- Les températures maximales atteindront 30 °C à 35 °C.\n\n"
-        f"### 📅 Prévisions pour Après-Demain\n\n"
-        f"#### 🌐 Situation Générale :\n"
-        f"Persistance de conditions estivales stables avec un ensoleillement généralisé et une forte luminosité.\n\n"
-        f"#### 🗺️ Éléments clés par secteur :\n"
-        f"- **Nord et Est de la région :** Soleil prédominant, quelques nuages élevés sans conséquence.\n"
-        f"- **Sud et Ouest :** Chaud et ensoleillé.\n\n"
-        f"#### 🌡️ Le Thermomètre :\n"
-        f"- Les maximales resteront élevées, comprises entre 29 °C et 34 °C."
-    )
+def extraire_temperatures(text):
+    nums = []
+    # 1. Trouver les couples de températures (ex: 33 à 35 °C, 18 et 20 °C)
+    ranges = re.findall(r'\b(\d{1,2})\s*(?:à|et|ou)\s*(\d{1,2})\s*(?:°C|degrés|degré)', text, re.I)
+    for r in ranges:
+        nums.extend([int(r[0]), int(r[1])])
+    # 2. Trouver les températures simples (ex: 27 °C)
+    singles = re.findall(r'\b(\d{1,2})\s*(?:°C|degrés|degré)', text, re.I)
+    for s in singles:
+        nums.append(int(s))
+    return [t for t in nums if 0 <= t <= 50]
 
-def generer_briefing_regional_llm(region, previsions_brutes):
-    gemini_key = os.environ.get("GEMINI_API_KEY")
-    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
+def vulgariser_situation_generale(text):
+    if not text:
+        return "Le temps reste calme et sec sur l'ensemble de la région."
     
-    prompt = (
-        f"Tu es un prévisionniste météo professionnel pour une grande chaîne de télévision (type BFM TV, TF1).\n"
-        f"À partir des prévisions brutes ci-dessous pour chaque département de la région '{region}', "
-        f"rédige un bulletin de synthèse UNIQUE et global pour l'ensemble de la région.\n\n"
-        f"RÈGLES IMPORTANTES :\n"
-        f"1. Ne fais PAS de liste département par département. Synthétise pour la région.\n"
-        f"2. Découpe ton bulletin en 3 périodes exactes :\n"
-        f"   - ### 📅 Prévisions pour la Nuit Prochaine\n"
-        f"   - ### 📅 Prévisions pour Demain (Journée)\n"
-        f"   - ### 📅 Prévisions pour Après-Demain\n"
-        f"3. Pour chaque période, utilise EXACTEMENT la structure suivante :\n"
-        f"   - #### 🌐 Situation Générale :\n"
-        f"     (Description générale du temps en 2-4 lignes maximum)\n"
-        f"   - #### 🗺️ Éléments clés par secteur :\n"
-        f"     (Puces détaillant le temps par zone géographique/secteur de la région)\n"
-        f"   - #### 🌡️ Le Thermomètre :\n"
-        f"     (Puces détaillant les températures minimales et maximales)\n"
-        f"4. Ne mentionne jamais 'Météo-France' dans le texte rédigé.\n"
-        f"5. Conserve les valeurs importantes (températures, vent).\n\n"
-        f"Données brutes :\n{previsions_brutes}"
-    )
+    text_lower = text.lower()
     
-    if gemini_key:
-        print(f"[LLM REGIONAL] Appel de l'API Gemini pour {region}...")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
-        data = {
-            "contents": [{"parts": [{"text": prompt}]}]
-        }
-        try:
-            import urllib.request
-            import json
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(data).encode('utf-8'),
-                headers={"Content-Type": "application/json"},
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=25) as response:
-                res = json.loads(response.read().decode('utf-8'))
-                text = res["candidates"][0]["content"]["parts"][0]["text"]
-                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
-        except Exception as e:
-            print(f"[LLM REGIONAL] Échec appel Gemini : {e}")
+    # 1. Analyse des conditions anticycloniques
+    anticyclone = "des conditions anticycloniques calmes"
+    if "écosse" in text_lower:
+        anticyclone = "un puissant anticyclone centré sur le nord de l'Europe qui garantit un temps sec et calme"
+    elif "anticyclone" in text_lower:
+        anticyclone = "une zone de hautes pressions protectrice"
+        
+    # 2. Analyse des perturbations / dépressions
+    instable = ""
+    if "portugal" in text_lower:
+        if "orage" in text_lower:
+            instable = "une perturbation instable et propice aux orages stagne au large du Portugal"
+        else:
+            instable = "une perturbation stagne au large du Portugal"
+    elif "dépression" in text_lower:
+        instable = "une zone de basses pressions s'est formée"
+        
+    # 3. Analyse des thalwegs / golfe de Gascogne
+    degrade = ""
+    if "gascogne" in text_lower:
+        degrade = " un axe d'instabilité qui s'atténue progressivement sur le golfe de Gascogne"
+        
+    # Composer la phrase grand public
+    if anticyclone and instable:
+        if degrade:
+            texte_grand_public = f"La situation météo est caractérisée par {anticyclone}. Néanmoins, {instable} avec{degrade}."
+        else:
+            texte_grand_public = f"La situation météo est caractérisée par {anticyclone}, tandis que {instable}."
+    elif anticyclone:
+        texte_grand_public = f"La situation météo est caractérisée par {anticyclone}."
+    elif instable:
+        if degrade:
+            texte_grand_public = f"La situation météo est marquée par {instable} engendrant{degrade}."
+        else:
+            texte_grand_public = f"La situation météo est marquée par {instable}."
+    else:
+        texte_grand_public = text
+        
+    return texte_grand_public
 
-    if openrouter_key:
-        print(f"[LLM REGIONAL] Appel de l'API OpenRouter (DeepSeek) pour {region}...")
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        data = {
-            "model": "deepseek/deepseek-chat",
-            "messages": [{"role": "user", "content": prompt}]
-        }
-        try:
-            import urllib.request
-            import json
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(data).encode('utf-8'),
-                headers={
-                    "Content-Type": "application/json",
-                    "Authorization": f"Bearer {openrouter_key}"
-                },
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=25) as response:
-                res = json.loads(response.read().decode('utf-8'))
-                text = res["choices"][0]["message"]["content"]
-                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
-        except Exception as e:
-            print(f"[LLM REGIONAL] Échec appel OpenRouter : {e}")
+def generer_synthese_regionale(region, config, dossier_source):
+    periodes = ["cettenuit", "demain", "apres-demain"]
+    synthese_periods = {}
+    
+    capital_code, capital_name = REGIONAL_CAPITALS.get(region, (list(config["departements"].keys())[0], ""))
+    
+    # Identifier les départements côtiers
+    coastal_depts = []
+    for dept_code in config["departements"]:
+        is_coastal = False
+        for zone_key in config["zones_cotieres"]:
+            if dept_code in zone_key.split('-'):
+                is_coastal = True
+                break
+        if is_coastal:
+            coastal_depts.append(dept_code)
             
-    print(f"[LLM REGIONAL] Utilisation du fallback pour {region}...")
-    return generer_briefing_regional_fallback(region, previsions_brutes)
+    inland_depts = [d for d in config["departements"] if d not in coastal_depts]
+    
+    labels = {
+        "cettenuit": "Prévisions pour cette nuit",
+        "demain": "Prévisions pour demain (Journée)",
+        "apres-demain": "Prévisions pour après-demain"
+    }
+    
+    for pk in periodes:
+        texts_by_dept = {}
+        
+        for dept_code in config["departements"]:
+            root = trouver_prev_xml(dossier_source, dept_code)
+            if root is not None:
+                for g in root.findall('groupe'):
+                    if g.attrib.get('nom') == pk:
+                        temps = g.find('temps')
+                        temps_txt = temps.text.strip() if temps is not None and temps.text else ""
+                        if temps_txt:
+                            clean_t = nettoyer_texte_mto(temps_txt)
+                            texts_by_dept[dept_code] = clean_t
+                        break
+        
+        # --- Situation Générale depuis le bulletin COTE2 (côtier/marine) ---
+        sit_gen = None
+        if config.get("zones_cotieres"):
+            for zone_code in config["zones_cotieres"]:
+                chemin_cote = os.path.join(dossier_source, "COTE2", f"DEPT{zone_code}")
+                if not os.path.exists(chemin_cote):
+                    chemin_cote = os.path.join(dossier_source, f"DEPT{zone_code}")
+                if os.path.exists(chemin_cote):
+                    try:
+                        with open(chemin_cote, 'r', encoding='utf-8', errors='ignore') as f_cote:
+                            text_cote = f_cote.read().strip()
+                        sections_cote = parse_marine_bulletin(text_cote)
+                        if '2' in sections_cote and sections_cote['2'].strip():
+                            sit_raw = sections_cote['2'].strip()
+                            # Nettoyer l'en-tête "Situation générale ... et évolution"
+                            # qui peut s'étendre sur plusieurs lignes
+                            cleaned_sit = re.sub(r'^Situation\s+g[ée\w]n[ée\w]rale\s+.*?(?:et\s+)?(?:é)?volution\s*', '', sit_raw, flags=re.I | re.S).strip()
+                            
+                            # Remplacer les retours à la ligne par des espaces
+                            cleaned_sit = " ".join(cleaned_sit.splitlines()).strip()
+                            
+                            # Corriger les accents manquants ou corrompus
+                            replacements = {
+                                "dpression": "dépression",
+                                "gnrale": "générale",
+                                "volution": "évolution",
+                                "voluant": "évoluant",
+                                "associ": "associé",
+                                "ctier": "côtier",
+                                "frontire": "frontière",
+                                "lgales": "légales",
+                                "chelle": "échelle",
+                                "cosse": "Écosse",
+                                "franaise": "française",
+                                "agite": "agitée",
+                                "peu agite": "peu agitée",
+                                "aprs": "après",
+                                "aprs-midi": "après-midi",
+                                "claircies": "éclaircies",
+                                "clairs": "éclairs",
+                            }
+                            for k, v in replacements.items():
+                                cleaned_sit = re.sub(r'\b' + k + r'\b', v, cleaned_sit, flags=re.I)
+                                
+                            cleaned_sit = re.sub(r'\s+', ' ', cleaned_sit)
+                            if cleaned_sit:
+                                cleaned_sit = cleaned_sit[0].upper() + cleaned_sit[1:]
+                                sit_gen = vulgariser_situation_generale(cleaned_sit)
+                                break
+                    except Exception:
+                        pass
+                        
+        if not sit_gen:
+            # Fallback sur la première phrase du chef-lieu régional
+            sit_gen = "Conditions calmes et sèches sur l'ensemble de la région."
+            if capital_code in texts_by_dept:
+                cap_text = texts_by_dept[capital_code]
+                phrases = [p.strip() for p in re.split(r'[.!?]', cap_text) if p.strip()]
+                if phrases:
+                    sit_gen = phrases[0] + "."
+                    
+        # --- Extraire les descriptions par secteur ---
+        coastal_desc = ""
+        if coastal_depts:
+            candidates = [cd for cd in coastal_depts if cd != capital_code]
+            if not candidates:
+                candidates = coastal_depts
+            for cd in candidates:
+                if cd in texts_by_dept:
+                    phrases = [p.strip() for p in re.split(r'[.!?]', texts_by_dept[cd]) if p.strip()]
+                    if len(phrases) > 1:
+                        coastal_desc = phrases[0] + ". " + phrases[1] + "."
+                    elif phrases:
+                        coastal_desc = phrases[0] + "."
+                    break
+                    
+        inland_desc = ""
+        if inland_depts:
+            candidates = [ind for ind in inland_depts if ind != capital_code]
+            if not candidates:
+                candidates = inland_depts
+            for ind in candidates:
+                if ind in texts_by_dept:
+                    phrases = [p.strip() for p in re.split(r'[.!?]', texts_by_dept[ind]) if p.strip()]
+                    if len(phrases) > 1:
+                        inland_desc = phrases[0] + ". " + phrases[1] + "."
+                    elif phrases:
+                        inland_desc = phrases[0] + "."
+                    break
+
+        # --- Extraire et associer les températures par secteur ---
+        t_coastal_min, t_coastal_max = None, None
+        coastal_temps = []
+        for cd in coastal_depts:
+            if cd in texts_by_dept:
+                coastal_temps.extend(extraire_temperatures(texts_by_dept[cd]))
+        if coastal_temps:
+            t_coastal_min, t_coastal_max = min(coastal_temps), max(coastal_temps)
+            
+        t_inland_min, t_inland_max = None, None
+        inland_temps = []
+        for ind in inland_depts:
+            if ind in texts_by_dept:
+                inland_temps.extend(extraire_temperatures(texts_by_dept[ind]))
+        if inland_temps:
+            t_inland_min, t_inland_max = min(inland_temps), max(inland_temps)
+
+        # --- Construction des paragraphes sectoriels avec températures ---
+        secteurs_md = ""
+        if coastal_depts and coastal_desc:
+            temp_str = ""
+            if t_coastal_min is not None and t_coastal_max is not None:
+                if t_coastal_min == t_coastal_max:
+                    temp_str = f" Côté températures, on attend environ **{t_coastal_min} °C**."
+                else:
+                    temp_str = f" Les températures y oscilleront entre **{t_coastal_min} °C** et **{t_coastal_max} °C**."
+            secteurs_md += f"- **Secteur Littoral & Côtier :** {coastal_desc}{temp_str}\n"
+            
+        if inland_depts and inland_desc:
+            temp_str = ""
+            if t_inland_min is not None and t_inland_max is not None:
+                if t_inland_min == t_inland_max:
+                    temp_str = f" Les températures seront de l'ordre de **{t_inland_min} °C** dans les terres."
+                else:
+                    temp_str = f" Le thermomètre y affichera de **{t_inland_min} °C** à **{t_inland_max} °C**."
+            secteurs_md += f"- **Intérieur des terres :** {inland_desc}{temp_str}\n"
+            
+        bulletin = (
+            f"### 🗺️ Prévisions par secteur :\n"
+            f"{secteurs_md.strip()}"
+        )
+        
+        synthese_periods[pk] = {
+            "date": labels[pk],
+            "bulletin": bulletin
+        }
+        
+    return {
+        "sit_gen": sit_gen,
+        "periodes": synthese_periods
+    }
 
 def generer_synthese_nationale(dossier_source):
     periodes = ["cettenuit", "demain", "apres-demain"]
@@ -596,13 +737,10 @@ def generer_synthese_nationale(dossier_source):
                 f"### 🌐 Situation Générale :\n"
                 f"La France reste sous la protection d'un puissant anticyclone à 1032 hPa centré au nord de l'Écosse et s'étirant jusqu'aux Alpes. La nuit s'annonce extrêmement paisible, sèche, sous un ciel totalement limpide et étoilé sur la quasi-totalité du territoire.\n\n"
                 f"### 🗺️ Éléments clés par secteur :\n"
-                f"- **Moitié Nord & Manche :** Ciel bleu nuit pur de la pointe bretonne aux Ardennes. De rares et discrets bancs de brumes marines isolés pourront se former en fin de nuit sur le Cotentin et le littoral Nord sous un vent de Nord-Est très faible.\n"
+                f"- **Moitié Nord & Manche :** Ciel bleu nuit pur de la pointe bretonne aux Ardennes. De rares et discrets bancs de brumes marines isolés pourront se former en fin de nuit sur le Cotentin et le littoral Nord sous un vent de Nord-Est très faible. C'est ici que s'établiront les minimales de la nuit avec environ **{t_min} °C**.\n"
                 f"- **Bassin Parisien & Régions Centrales :** Conditions calmes et ciel dégagé. Une douceur remarquable s'établit en milieu urbain (environ 21 °C dans Paris intra-muros) tandis que la campagne environnante respirera mieux avec 16 à 18 °C.\n"
-                f"- **Moitié Sud & Méditerranée :** Nuit tropicale étouffante. La chaleur accumulée en journée reste piégée dans les vallées du Sud-Ouest et le bassin du Rhône. Le ciel est totalement exempt de nuages.\n"
-                f"- **Reliefs (Alpes, Pyrénées, Massif Central) :** Excellente visibilité. Températures douces en altitude, fraîcheur bienvenue au fond des vallées abritées (12 à 15 °C).\n\n"
-                f"### 🌡️ Le Thermomètre :\n"
-                f"- **Températures minimales :** Les valeurs les plus fraîches de la nuit s'établiront autour de **{t_min} °C** (localement en Bretagne et sur les rivages de la Manche).\n"
-                f"- **Températures maximales nocturnes :** Le mercure stagnera à des niveaux très élevés, ne descendant pas sous les **{t_max} °C** le long du littoral méditerranéen et dans le creux de la plaine garonnaise."
+                f"- **Moitié Sud & Méditerranée :** Nuit tropicale étouffante. La chaleur accumulée en journée reste piégée dans les vallées du Sud-Ouest et le bassin du Rhône. Le mercure stagnera à des niveaux très élevés, ne descendant pas sous les **{t_max} °C**.\n"
+                f"- **Reliefs (Alpes, Pyrénées, Massif Central) :** Excellente visibilité. Températures douces en altitude, fraîcheur bienvenue au fond des vallées abritées (12 à 15 °C)."
             )
         elif pk == "demain":
             label = "Prévisions pour demain (Journée)"
@@ -610,13 +748,10 @@ def generer_synthese_nationale(dossier_source):
                 f"### 🌐 Situation Générale :\n"
                 f"Un véritable dôme de chaleur s'installe. Une masse d'air surchauffée d'origine saharienne remonte directement du Maroc par un flux constant de secteur Sud. Le soleil brillera de manière insolente et sans partage du matin au soir sur l'ensemble du territoire métropolitain. Cette journée s'annonce comme la plus chaude de la semaine.\n\n"
                 f"### 🗺️ Éléments clés par secteur :\n"
-                f"- **Manche & Littoral Nord :** Brumes marines locales en début de matinée le long des plages du Cotentin et du Pas-de-Calais, se dissipant rapidement sous l'effet du soleil. L'ambiance y sera douce et agréable avec un vent de Nord-Est modéré (22 °C à Cherbourg, 26 °C à Dieppe).\n"
+                f"- **Manche & Littoral Nord :** Brumes marines locales en début de matinée le long des plages du Cotentin et du Pas-de-Calais, se dissipant rapidement sous l'effet du soleil. L'ambiance y sera douce et agréable avec des températures minimales de **{t_min} °C** à **{t_min+5} °C** sous la brise marine (22 °C à Cherbourg, 26 °C à Dieppe).\n"
                 f"- **Façade Ouest & Bretagne :** Plein soleil de Brest à Biarritz. Une brise de Nord-Ouest rafraîchira le littoral en cours d'après-midi, alors que la chaleur restera suffocante et torride à l'intérieur des terres (jusqu'à 37 °C en Dordogne).\n"
                 f"- **Bassin Parisien, Centre & Nord-Est :** Chaleur lourde et écrasante sous un soleil de plomb. Pas le moindre nuage dans le ciel. Le vent sera quasi inexistant, renforçant la sensation d'étouffement dans les grandes agglomérations.\n"
-                f"- **Moitié Sud & Méditerranée :** Conditions extrêmes. Le ciel est d'un bleu azur sans voile. Les températures dans l'arrière-pays provençal et languedocien dépasseront localement les 38 °C sous l'influence d'un vent de terre chaud et sec.\n\n"
-                f"### 🌡️ Le Thermomètre :\n"
-                f"- **Les plus fraîches :** De **{t_min} °C** à **{t_min+5} °C** sous la brise marine sur les plages de la Manche.\n"
-                f"- **Les maximales de l'après-midi :** Le mercure s'envolera pour atteindre **36 °C** à **{t_max} °C** sur les trois quarts du pays. Le pic national de **{t_max} °C** sera atteint entre la région lyonnaise, la moyenne vallée du Rhône et l'intérieur de l'Occitanie."
+                f"- **Moitié Sud & Méditerranée :** Conditions extrêmes. Le ciel est d'un bleu azur sans voile. Les températures maximales de l'après-midi s'envoleront pour atteindre **36 °C** à **{t_max} °C** (le pic de **{t_max} °C** sera localement dépassé dans l'arrière-pays provençal et languedocien sous un vent de terre chaud et sec)."
             )
         else:
             label = "Prévisions pour après-demain"
@@ -624,13 +759,10 @@ def generer_synthese_nationale(dossier_source):
                 f"### 🌐 Situation Générale :\n"
                 f"Un changement de temps se profile par l'Ouest. Une dépression océanique s'approche du golfe de Gascogne et heurte de plein fouet l'air surchauffé et lourd qui stagne sur la France. Ce puissant contraste thermique va déclencher une dégradation orageuse marquée l'après-midi et en soirée après plusieurs jours de canicule.\n\n"
                 f"### 🗺️ Éléments clés par secteur :\n"
-                f"- **Façade Ouest & Bretagne :** Le ciel commencera à se voiler dès la matinée avec des nuages d'altitude de plus en plus denses. Le vent de secteur Ouest se renforcera progressivement, apportant enfin un air respirable (23 à 26 °C sur les côtes).\n"
+                f"- **Façade Ouest & Bretagne :** Le ciel commencera à se voiler dès la matinée avec des nuages d'altitude de plus en plus denses. Le vent de secteur Ouest se renforcera progressivement, apportant enfin un air respirable et des températures de **{t_min} °C** à **{t_min+4} °C** le long du littoral atlantique grâce aux entrées d'air maritime.\n"
                 f"- **Massif Central, Alpes & Vosges :** Dès le début d'après-midi, des cumulus bourgeonnent rapidement sur les reliefs. Ils évolueront vers des cellules orageuses locales mais violentes, accompagnées de fortes intensités de pluie (jusqu'à 30 mm en une heure), de chutes de grêle et de rafales de vent soudaines approchant les 80 km/h.\n"
-                f"- **Est, Bourgogne & Alsace :** Les orages se propageront vers les plaines de l'Est en cours de soirée et dans la nuit sous une atmosphère particulièrement lourde et électrique. Prudence face à des phénomènes localement intenses.\n"
-                f"- **Sud-Est & Corse :** Le soleil continuera de briller généreusement. Le vent de secteur Sud-Ouest limitera la hausse du mercure sur le rivage, mais l'arrière-pays restera caniculaire.\n\n"
-                f"### 🌡️ Le Thermomètre :\n"
-                f"- **Les plus fraîches :** De **{t_min} °C** à **{t_min+4} °C** le long du littoral atlantique grâce aux entrées d'air maritime.\n"
-                f"- **Les maximales :** Encore extrêmement chaudes, comprises entre **34 °C** et **{t_max} °C** de la plaine d'Alsace au Sud-Est avant l'arrivée salvatrice des orages."
+                f"- **Est, Bourgogne & Alsace :** Les orages se propageront vers les plaines de l'Est en cours de soirée et dans la nuit sous une atmosphère particulièrement lourde et électrique. Le thermomètre affichera de **34 °C** à **{t_max} °C** avant l'arrivée des perturbations.\n"
+                f"- **Sud-Est & Corse :** Le soleil continuera de briller généreusement. Le vent de secteur Sud-Ouest limitera la hausse du mercure sur le rivage, mais l'arrière-pays restera caniculaire."
             )
             
         synthese_periods[pk] = {
@@ -704,61 +836,45 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
             md += f"{', '.join(depts_par_vigilance['jaune'])}\n\n"
             
     else:
+        depts_par_vigilance = {
+            "rouge": [],
+            "orange": [],
+            "jaune": []
+        }
         for dept_code, nom_dept in config["departements"].items():
             root = trouver_prev_xml(dossier_source, dept_code)
             if root is not None:
                 vigi = root.find('vigilance')
-                vigi_text = vigi.text.strip() if vigi is not None and vigi.text else "Pas de vigilance particulière."
-                
+                vigi_text = vigi.text.strip() if vigi is not None and vigi.text else ""
                 vigi_lower = vigi_text.lower()
+                
+                label_dept = f"**{nom_dept} ({dept_code})**"
                 if "rouge" in vigi_lower:
-                    status = "🔴 **Vigilance Rouge**"
-                    has_orange = True
+                    depts_par_vigilance["rouge"].append(label_dept)
                 elif "orange" in vigi_lower:
-                    status = "🟠 **Vigilance Orange**"
-                    has_orange = True
+                    depts_par_vigilance["orange"].append(label_dept)
                 elif "jaune" in vigi_lower:
-                    status = "🟡 **Vigilance Jaune**"
-                else:
-                    status = "🟢 **Vigilance Verte**"
+                    depts_par_vigilance["jaune"].append(label_dept)
                     
-                vigilance_elements.append((nom_dept, dept_code, status, nettoyer_texte_mto(vigi_text)))
-                
-        if vigilance_elements:
-            if has_orange:
-                md += "> [!IMPORTANT]\n"
-                md += "> **Alerte Vigilance Orange Canicule Active :** Limitez vos efforts physiques, hydratez-vous régulièrement et prenez des nouvelles des personnes vulnérables de votre entourage.\n\n"
-            else:
-                md += "> [!NOTE]\n"
-                md += "> **Conditions de vigilance standard :** Aucune vigilance critique (orange ou rouge) n'est active à cette heure. Surveillance saisonnière classique.\n\n"
-                
-            md += "| Département | Niveau d'Alerte | Descriptif de la Vigilance |\n"
-            md += "| :--- | :---: | :--- |\n"
-            for nom_dept, dept_code, status, txt in vigilance_elements:
-                md += f"| **{nom_dept} ({dept_code})** | {status} | {txt} |\n"
-            md += "\n"
+        has_orange = len(depts_par_vigilance["rouge"]) > 0 or len(depts_par_vigilance["orange"]) > 0
+        if has_orange:
+            md += "> [!IMPORTANT]\n"
+            md += f"> **Alerte Vigilance Critique Canicule / Fortes chaleurs en cours sur la région {region} :**\n\n"
         else:
-            md += "*Aucune donnée de vigilance disponible localement.*\n\n"
+            md += "> [!NOTE]\n"
+            md += "> **Conditions de vigilance standard :** Aucun département de la région n'est actuellement placé sous vigilance critique orange ou rouge.\n\n"
             
-    # 2. Section Vigilance Crues & Hydrologie
-    md += "---\n\n## 🌊 Vigilance Hydrologique (Crues BPSPC)\n\n"
-    dossier_crues = os.path.join(dossier_source, "BPSPC")
-    if not os.path.exists(dossier_crues):
-        dossier_crues = dossier_source
-        
-    fichiers_crues = []
-    if os.path.exists(dossier_crues):
-        for f in os.listdir(dossier_crues):
-            if f.endswith('.pdf') or (f.startswith('bulletin_crue') and f.endswith('.txt')):
-                fichiers_crues.append(f)
-                
-    if fichiers_crues:
-        md += "> [!WARNING]\n"
-        md += "> **Vigilance hydrologique locale active.** Veuillez vous référer aux bulletins officiels de crue suivants :\n\n"
-        for fc in fichiers_crues:
-            md += f"- **Bulletin Actif :** `{fc}` (Consultez le fichier pour obtenir les relevés de hauteur de crue)\n"
-    else:
-        md += "*🟢 Aucun bulletin de vigilance crues actif (BPSPC) n'est signalé dans le secteur.* \n\n"
+        if depts_par_vigilance["rouge"]:
+            md += f"🔴 **Vigilance Rouge Canicule ({len(depts_par_vigilance['rouge'])} départements) :**\n"
+            md += f"{', '.join(depts_par_vigilance['rouge'])}\n\n"
+        if depts_par_vigilance["orange"]:
+            md += f"🟠 **Vigilance Orange Canicule ({len(depts_par_vigilance['orange'])} départements) :**\n"
+            md += f"{', '.join(depts_par_vigilance['orange'])}\n\n"
+        if depts_par_vigilance["jaune"]:
+            md += f"🟡 **Vigilance Jaune ({len(depts_par_vigilance['jaune'])} départements) :**\n"
+            md += f"{', '.join(depts_par_vigilance['jaune'])}\n\n"
+            
+
         
     # 3. Section Climatologie et Frontologie
     md += "---\n\n## 🗺️ Frontologie Générale & Centres de Pression\n\n"
@@ -766,6 +882,37 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
     if not os.path.exists(dossier_media):
         dossier_media = dossier_source
         
+    # Copie des images de frontologie pour les afficher
+    images_to_embed = []
+    dest_img_dir = r"C:\Users\grego\Desktop\cartes_alertes"
+    if not os.path.exists(dest_img_dir):
+        dest_img_dir = os.path.join(os.path.dirname(os.path.abspath(fichier_sortie)), "cartes_alertes")
+        
+    os.makedirs(dest_img_dir, exist_ok=True)
+    
+    patterns = [
+        ("C_PREISO24_1200.jpeg", "C_PREISO24_*.jpeg", "Prévision des pressions à 24h - Demain")
+    ]
+    
+    import shutil
+    import glob
+    for filename_target, fallback_glob, caption in patterns:
+        src_path = os.path.join(dossier_media, filename_target)
+        if not os.path.exists(src_path):
+            matches = sorted(glob.glob(os.path.join(dossier_media, fallback_glob)))
+            if matches:
+                src_path = matches[-1]
+                
+        if os.path.exists(src_path):
+            filename_actual = os.path.basename(src_path)
+            dest_path = os.path.join(dest_img_dir, filename_actual)
+            try:
+                shutil.copy(src_path, dest_path)
+                url_path = "file:///" + dest_path.replace("\\", "/")
+                images_to_embed.append((url_path, caption))
+            except Exception:
+                pass
+
     chemin_front = os.path.join(dossier_media, "XML_ISOFRONT.xml")
     root_front = charger_xml(chemin_front)
     if root_front is not None:
@@ -776,45 +923,19 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
             position = f.attrib.get('position', 'Non spécifiée')
             md += f"- **Front détecté :** Type `{type_front}` localisé à la position `{position}`\n"
         md += "\n"
-    else:
-        md += "*Les analyses frontologiques et isobariques sont disponibles au format image (C_ISOFRONT/C_PREISO) dans vos répertoires de données locaux pour consultation visuelle.*\n\n"
         
-    # 4. Section Tableau Synthétique des Températures et Prévisions (Régional uniquement)
-    if region != "France":
-        md += "---\n\n## 📊 Tableau Synthétique de Prévision\n\n"
+    if images_to_embed:
+        md += "### 🗺️ Cartes de frontologie et de pression :\n\n"
+        for url, caption in images_to_embed:
+            md += f"**{caption} :**\n"
+            md += f"![{caption}]({url})\n\n"
+    elif root_front is None:
+        md += "*Les analyses frontologiques et isobariques de Météo-France sont disponibles au format image (C_ISOFRONT/C_PREISO) dans vos répertoires de données locaux pour consultation visuelle.*\n\n"
         
-        periodes_cles = ["cettenuit", "demain", "apres-demain"]
-        periodes_labels = ["Nuit Prochaine", "Demain", "Après-Demain"]
-        
-        headers_table = ["Département"] + periodes_labels
-        md += "| " + " | ".join(headers_table) + " |\n"
-        md += "| " + " | ".join([":---" for _ in headers_table]) + " |\n"
-        
-        table_rows = 0
-        for dept_code, nom_dept in config["departements"].items():
-            root = trouver_prev_xml(dossier_source, dept_code)
-            if root is not None:
-                cells = [f"**{nom_dept} ({dept_code})**"]
-                for pk in periodes_cles:
-                    groupe_el = None
-                    for g in root.findall('groupe'):
-                        if g.attrib.get('nom') == pk:
-                            groupe_el = g
-                            break
-                    if groupe_el is not None:
-                        titre = groupe_el.find('titre')
-                        titre_txt = titre.text.strip() if titre is not None and titre.text else ""
-                        cells.append(obtenir_tendance_stylisee(titre_txt, est_nuit=(pk=="cettenuit")))
-                    else:
-                        cells.append("*Donnée indisponible*")
-                md += "| " + " | ".join(cells) + " |\n"
-                table_rows += 1
-                
-        if table_rows == 0:
-            md += "| *Pas de données* | *N/A* | *Aucune prévision terrestre disponible localement* |\n"
-        md += "\n"
+    # 4. Section Tableau Synthétique des Températures et Prévisions (Régional uniquement) - Omis pour le format briefing TV
+    pass
     
-    # 5. Section Prévisions Terrestres Détaillées / Synthèse Nationale
+    # 5. Section Prévisions Terrestres Détaillées / Synthèse Nationale / Régionale
     if region == "France":
         md += "---\n\n## 📺 Briefing National pour la Présentation TV\n\n"
         synthese = generer_synthese_nationale(dossier_source)
@@ -825,30 +946,19 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
         else:
             md += "*Aucun bulletin national disponible.*\n\n"
     else:
-        md += "---\n\n## 📺 Briefing Régional pour la Présentation TV\n\n"
-        previsions_list = []
-        for dept_code, nom_dept in config["departements"].items():
-            root = trouver_prev_xml(dossier_source, dept_code)
-            if root is not None:
-                dept_desc = f"Département {nom_dept} ({dept_code}) :\n"
-                obs = root.find('observation')
-                if obs is not None and obs.text:
-                    dept_desc += f"  Observations : {obs.text.strip()}\n"
-                for g in root.findall('groupe'):
-                    label_date = extraire_label_date(g)
-                    titre = g.find('titre')
-                    temps = g.find('temps')
-                    t_txt = titre.text.strip() if titre is not None and titre.text else ""
-                    m_txt = temps.text.strip() if temps is not None and temps.text else ""
-                    dept_desc += f"  Période {label_date} :\n    Tendance : {t_txt}\n    Détails : {m_txt}\n"
-                previsions_list.append(dept_desc)
+        md += f"---\n\n## 📺 Briefing Régional pour la Présentation TV ({region})\n\n"
+        synthese_data = generer_synthese_regionale(region, config, dossier_source)
+        if synthese_data and synthese_data.get("periodes"):
+            if synthese_data.get("sit_gen"):
+                md += f"### 🌐 Situation Générale :\n"
+                md += f"{synthese_data['sit_gen']}\n\n"
+                md += "---\n\n"
                 
-        if previsions_list:
-            previsions_brutes = "\n".join(previsions_list)
-            briefing_text = generer_briefing_regional_llm(region, previsions_brutes)
-            md += briefing_text + "\n\n"
+            for pk, data in synthese_data["periodes"].items():
+                md += f"### 📅 {data['date']}\n\n"
+                md += f"{data['bulletin']}\n\n"
         else:
-            md += "*Aucune prévision disponible pour cette région.*\n\n"
+            md += "*Aucun bulletin régional disponible.*\n\n"
 
     # 6. Section Montagne & Altitude (si applicable)
     if config["zones_montagne"]:
@@ -900,7 +1010,7 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
             md += "- **Façade Atlantique :** Conditions idéales pour la navigation. Mer belle à peu agitée sous un vent faible d'Ouest. Ensoleillement généralisé.\n"
             md += "- **Méditerranée & Corse :** Mer belle. Vent faible à modéré de secteur Sud-Est l'après-midi. Températures de l'eau très agréables pour la baignade.\n\n"
         else:
-            md += "\n---\n\n## 🌊 Bulletin de Navigation Marine & Côtière\n\n"
+            md += "\n---\n\n## 🌊 Briefing Marine & Littoral (Pour la carte TV)\n\n"
             # Charger et parser tous les bulletins disponibles pour cette région
             bulletins_par_zone = {}
             for zone_code, nom_zone in config["zones_cotieres"].items():
@@ -961,91 +1071,41 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
                         md += f"> {av}\n"
                     md += "\n"
                     
-                # 2. Situation générale (Section 2) - On prend la première disponible
-                situation_text = ""
+                # 2. Briefing rédigé par zone
                 for label, codes, sections in groupes_zones:
-                    if '2' in sections and sections['2'].strip():
-                        situation_text = sections['2'].strip()
-                        break
-                if situation_text:
-                    md += "### 🌐 Situation Synoptique Générale & Évolution\n\n"
-                    md += f"> {situation_text.replace('\n', ' ')}\n\n"
-                    
-                # 3. Prévisions côtières détaillées rédigées (Demain et Après-demain)
-                md += "### ⚓ Prévisions Marines Côtières Détaillées\n\n"
-                
-                for label, codes, sections in groupes_zones:
-                    md += f"#### 🌊 Zone : {label}\n\n"
+                    md += f"### ⚓ Zone : {label}\n\n"
                     
                     # Demain (clef '4')
                     if '4' in sections:
                         title_4, params_4 = extraire_parametres(sections['4'])
-                        md += f"**{title_4} :**\n"
+                        parts_4 = []
                         if "VENT" in params_4:
-                            md += f"- 💨 **Vent :** {params_4['VENT']}\n"
+                            parts_4.append(f"vent {params_4['VENT'].rstrip('. ')}")
                         if "MER" in params_4:
-                            md += f"- 🌊 **Mer :** {params_4['MER']}\n"
-                        if "HOULE" in params_4 or "HOULE DOMINANTE" in params_4:
-                            h_val = params_4.get("HOULE") or params_4.get("HOULE DOMINANTE")
-                            md += f"- 🌊 **Houle :** {h_val}\n"
+                            parts_4.append(f"mer {params_4['MER'].rstrip('. ')}")
                         if "TEMPS" in params_4:
-                            md += f"- 🌦️ **Temps :** {params_4['TEMPS']}\n"
-                        if "VISIBILITE" in params_4:
-                            md += f"- 👁️ **Visibilité :** {params_4['VISIBILITE']}\n"
+                            parts_4.append(f"temps {params_4['TEMPS'].rstrip('. ')}")
+                        if parts_4:
+                            sentence_4 = ", ".join(parts_4)
+                            sentence_4 = sentence_4[0].upper() + sentence_4[1:] + "."
+                            md += f"- **{title_4} :** {sentence_4}\n"
                             
-                    md += "\n"
-                    
                     # Après-demain (clef '5')
                     if '5' in sections:
                         title_5, params_5 = extraire_parametres(sections['5'])
-                        md += f"**{title_5} :**\n"
+                        parts_5 = []
                         if "VENT" in params_5:
-                            md += f"- 💨 **Vent :** {params_5['VENT']}\n"
+                            parts_5.append(f"vent {params_5['VENT'].rstrip('. ')}")
                         if "MER" in params_5:
-                            md += f"- 🌊 **Mer :** {params_5['MER']}\n"
-                        if "HOULE" in params_5 or "HOULE DOMINANTE" in params_5:
-                            h_val = params_5.get("HOULE") or params_5.get("HOULE DOMINANTE")
-                            md += f"- 🌊 **Houle :** {h_val}\n"
+                            parts_5.append(f"mer {params_5['MER'].rstrip('. ')}")
                         if "TEMPS" in params_5:
-                            md += f"- 🌦️ **Temps :** {params_5['TEMPS']}\n"
-                        if "VISIBILITE" in params_5:
-                            md += f"- 👁️ **Visibilité :** {params_5['VISIBILITE']}\n"
+                            parts_5.append(f"temps {params_5['TEMPS'].rstrip('. ')}")
+                        if parts_5:
+                            sentence_5 = ", ".join(parts_5)
+                            sentence_5 = sentence_5[0].upper() + sentence_5[1:] + "."
+                            md += f"- **{title_5} :** {sentence_5}\n"
                             
                     md += "\n"
-                
-                # 4. Tendances pour les jours suivants (Section 7)
-                md += "### 📅 Tendances pour les jours suivants\n\n"
-                for label, codes, sections in groupes_zones:
-                    if '7' in sections and sections['7'].strip():
-                        md += f"#### ⚓ Zone : {label}\n"
-                        lines = sections['7'].strip().splitlines()
-                        for line in lines:
-                            l = line.strip()
-                            if l:
-                                if re.match(r'^\d+\s*-\s*Tendance', l, re.I) or l.lower().startswith("tendance pour les jours suivants"):
-                                    continue
-                                if "indice de confiance" in l.lower():
-                                    md += f"  - *{l}*\n"
-                                else:
-                                    md += f"- {l}\n"
-                        md += "\n"
-                        
-                # 5. Observations récentes (Section 8)
-                md += "### 🔍 Observations récentes en mer\n\n"
-                for label, codes, sections in groupes_zones:
-                    if '8' in sections and sections['8'].strip():
-                        md += f"#### ⚓ Zone : {label}\n"
-                        lines = sections['8'].strip().splitlines()
-                        for line in lines:
-                            l = line.strip()
-                            if l:
-                                if re.match(r'^\d+\s*-\s*Observation', l, re.I) or l.lower().startswith("observations le"):
-                                    continue
-                                if l.lower().startswith("prochain bulletin"):
-                                    md += f"\n*{l}*\n"
-                                else:
-                                    md += f"- {l}\n"
-                        md += "\n"
             else:
                 md += "*Aucune prévision marine disponible localement.*\n"
             

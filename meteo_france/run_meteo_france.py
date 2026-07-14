@@ -13,7 +13,7 @@ from email.utils import formatdate
 
 # Ajout du répertoire courant pour les imports locaux
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from download_data import download_bulletins
+from download_data import download_bulletins, download_isobar_media
 from generer_rapport import generer_bulletin_premium, REGIONS
 
 def normalize_name(name):
@@ -405,6 +405,23 @@ def md_to_html(md_text):
                 html_lines.append("</ul>")
                 in_list = False
                 
+        # Convertir les images Markdown ![alt](src) en HTML
+        if "![" in processed_line:
+            img_match = re.search(r'!\[(.*?)\]\((.*?)\)', processed_line)
+            if img_match:
+                alt = img_match.group(1)
+                src = img_match.group(2)
+                filename = os.path.basename(src)
+                img_tag = (
+                    f'<div style="text-align:center; margin: 25px 0;">'
+                    f'<img src="{filename}" alt="{alt}" style="max-width:100%; border-radius:12px; border: 1px solid rgba(255,255,255,0.15); box-shadow:0 8px 24px rgba(0,0,0,0.3);">'
+                    f'<div style="font-size:12px; color:#9ca3af; font-style:italic; margin-top:8px;">{alt}</div>'
+                    f'</div>'
+                )
+                processed_line = re.sub(r'!\[.*?\]\(.*?\)', img_tag, processed_line)
+                html_lines.append(processed_line)
+                continue
+                
         # Paragraphes normaux
         p_hl = highlight_figures(processed_line)
         p_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', p_hl)
@@ -429,7 +446,22 @@ def md_to_html(md_text):
 import zipfile
 
 def create_zip_archive(today_str, rapports_dir, zip_output_path):
+    img_to_add = None
+    meteo_dir = os.path.dirname(os.path.abspath(rapports_dir.rstrip('/\\')))
+    source_dir = os.path.join(meteo_dir, "meteo_data")
+    media_dir = os.path.join(source_dir, "MEDIA")
+    if os.path.exists(media_dir):
+        import glob
+        matches = glob.glob(os.path.join(media_dir, "C_PREISO24_*.jpeg"))
+        if matches:
+            img_to_add = sorted(matches)[-1]
+            
     with zipfile.ZipFile(zip_output_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        if img_to_add:
+            img_name = os.path.basename(img_to_add)
+            zipf.write(img_to_add, img_name)
+            zipf.write(img_to_add, os.path.join("bulletins_regionaux", img_name))
+            
         for file in os.listdir(rapports_dir):
             if file.endswith('.md'):
                 file_path = os.path.join(rapports_dir, file)
@@ -455,159 +487,172 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
     <meta charset="UTF-8">
     <title>{title_full}</title>
     <style>
-        body {{
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #2c3e50;
-            background-color: #f4f6f8;
+        :root {{
+            --bg-color: #0b0f19;
+            --card-bg: #151b26;
+            --card-border: #232d3d;
+            --primary: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.15);
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent-orange: #f97316;
+            --accent-yellow: #eab308;
+            --accent-blue: #0ea5e9;
+        }}
+        * {{
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
         }}
+        body {{
+            background-color: #0b0f19;
+            color: #f3f4f6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            padding: 2.5rem 1.5rem;
+            background-image: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 45%),
+                              radial-gradient(circle at 90% 80%, rgba(249, 115, 22, 0.05) 0%, transparent 45%);
+            background-attachment: fixed;
+        }}
         .container {{
-            max-width: 720px;
-            margin: 30px auto;
-            background-color: #ffffff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            border: 1px solid #e1e8ed;
+            max-width: 800px;
+            margin: 0 auto;
         }}
         .header {{
-            background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: #ffffff;
-            padding: 35px 24px;
             text-align: center;
-            border-bottom: 3px solid #3b82f6;
+            margin-bottom: 3rem;
+            position: relative;
         }}
         .header h1 {{
-            margin: 0;
-            font-size: 22px;
-            font-weight: 700;
-            letter-spacing: 0.5px;
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f3f4f6 30%, #a5b4fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.025em;
         }}
         .header p {{
-            margin: 8px 0 0 0;
-            font-size: 13px;
-            opacity: 0.8;
+            font-size: 0.95rem;
+            color: #9ca3af;
         }}
         .content {{
-            padding: 24px;
+            background: #151b26;
+            border: 1px solid #232d3d;
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }}
         .section-title {{
-            color: #1e293b;
-            font-size: 16px;
-            font-weight: 700;
-            border-bottom: 2px solid #f1f5f9;
-            padding-bottom: 6px;
-            margin-top: 30px;
-            margin-bottom: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            color: #0ea5e9;
+            font-size: 1.25rem;
+            font-weight: 800;
+            border-bottom: 1px solid #232d3d;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1.25rem;
         }}
         .badge-red {{
-            background-color: #fef2f2;
-            color: #991b1b;
+            background-color: rgba(239, 68, 68, 0.15);
+            color: #f87171;
             padding: 4px 8px;
             border-radius: 4px;
             font-weight: 700;
             font-size: 12px;
             display: inline-block;
+            border: 1px solid rgba(239, 68, 68, 0.2);
         }}
         .badge-orange {{
-            background-color: #fff7ed;
-            color: #9a3412;
+            background-color: rgba(249, 115, 22, 0.15);
+            color: #fb923c;
             padding: 4px 8px;
             border-radius: 4px;
             font-weight: 700;
             font-size: 12px;
             display: inline-block;
+            border: 1px solid rgba(249, 115, 22, 0.2);
         }}
         .badge-yellow {{
-            background-color: #fef9c3;
-            color: #854d0e;
+            background-color: rgba(234, 179, 8, 0.15);
+            color: #fde047;
             padding: 4px 8px;
             border-radius: 4px;
             font-weight: 700;
             font-size: 12px;
             display: inline-block;
+            border: 1px solid rgba(234, 179, 8, 0.2);
         }}
         .vigilance-card {{
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
-            border: 1px solid #e2e8f0;
+            border: 1px solid #232d3d;
+            background: rgba(255,255,255,0.01);
         }}
         .vigilance-red {{
-            background-color: #fef2f2;
             border-left: 5px solid #ef4444;
         }}
         .vigilance-orange {{
-            background-color: #fff7ed;
             border-left: 5px solid #f97316;
         }}
         .vigilance-yellow {{
-            background-color: #fef9c3;
             border-left: 5px solid #eab308;
         }}
         .badge-dept-red {{
             display: inline-block;
-            background-color: #fee2e2;
-            color: #991b1b;
+            background-color: rgba(239, 68, 68, 0.2);
+            color: #f87171;
             padding: 2px 8px;
-            margin: 2px 1px;
+            margin: 2px 2px;
             border-radius: 12px;
             font-size: 11px;
             font-weight: 600;
-            border: 1px solid #fecaca;
+            border: 1px solid rgba(239, 68, 68, 0.3);
         }}
         .badge-dept-orange {{
             display: inline-block;
-            background-color: #ffedd5;
-            color: #c2410c;
+            background-color: rgba(249, 115, 22, 0.2);
+            color: #fb923c;
             padding: 2px 8px;
-            margin: 2px 1px;
+            margin: 2px 2px;
             border-radius: 12px;
             font-size: 11px;
             font-weight: 600;
-            border: 1px solid #fed7aa;
+            border: 1px solid rgba(249, 115, 22, 0.3);
         }}
         .badge-dept-yellow {{
             display: inline-block;
-            background-color: #fef9c3;
-            color: #854d0e;
+            background-color: rgba(234, 179, 8, 0.2);
+            color: #fde047;
             padding: 2px 8px;
-            margin: 2px 1px;
+            margin: 2px 2px;
             border-radius: 12px;
             font-size: 11px;
             font-weight: 600;
-            border: 1px solid #fef08a;
+            border: 1px solid rgba(234, 179, 8, 0.3);
         }}
         .info-card {{
-            background-color: #f0fdf4;
-            border-left: 5px solid #22c55e;
+            background-color: rgba(16, 185, 129, 0.05);
+            border-left: 5px solid #10b981;
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
-            border-top: 1px solid #bbf7d0;
-            border-right: 1px solid #bbf7d0;
-            border-bottom: 1px solid #bbf7d0;
+            border: 1px solid rgba(16, 185, 129, 0.15);
         }}
         .warning-card {{
-            background-color: #fffbeb;
+            background-color: rgba(245, 158, 11, 0.05);
             border-left: 5px solid #f59e0b;
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
-            border-top: 1px solid #fef3c7;
-            border-right: 1px solid #fef3c7;
-            border-bottom: 1px solid #fef3c7;
+            border: 1px solid rgba(245, 158, 11, 0.15);
         }}
         .table-container {{
             margin-bottom: 20px;
-            border: 1px solid #e2e8f0;
+            border: 1px solid #232d3d;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
         }}
         table {{
             width: 100%;
@@ -620,36 +665,37 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             padding: 10px 12px;
             text-align: left;
             font-weight: 700;
-            border-bottom: 2px solid #cbd5e1;
+            border-bottom: 2px solid #232d3d;
         }}
         td {{
             padding: 10px 12px;
-            border-bottom: 1px solid #e2e8f0;
-            background-color: #ffffff;
+            border-bottom: 1px solid #232d3d;
+            background-color: #151b26;
+            color: #f3f4f6;
         }}
         tr:nth-child(even) td {{
-            background-color: #f8fafc;
+            background-color: rgba(255, 255, 255, 0.01);
         }}
         .footer {{
-            background-color: #f8fafc;
-            padding: 20px;
             text-align: center;
             font-size: 11px;
-            color: #64748b;
-            border-top: 1px solid #e2e8f0;
+            color: #9ca3af;
+            border-top: 1px solid #232d3d;
+            padding-top: 1.5rem;
+            margin-top: 2rem;
         }}
         blockquote {{
-            background-color: #f8fafc;
-            border-left: 4px solid #cbd5e1;
+            background-color: rgba(255,255,255,0.015);
+            border-left: 4px solid #3b82f6;
             padding: 8px 16px;
             margin: 0 0 16px 0;
             font-style: italic;
-            color: #475569;
+            color: #9ca3af;
         }}
         p {{
             margin: 0 0 12px 0;
             text-align: justify;
-            line-height: 1.5;
+            line-height: 1.6;
             font-size: 14.5px;
         }}
         ul {{
@@ -719,21 +765,21 @@ def send_email_with_summary(national_md, date_str, zip_path):
     <title>{title_full}</title>
     <style>
         body {{
+            background-color: #0b0f19;
+            color: #f3f4f6;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            color: #2c3e50;
-            background-color: #f4f6f8;
             margin: 0;
-            padding: 0;
+            padding: 30px 15px;
         }}
         .container {{
-            max-width: 720px;
-            margin: 30px auto;
-            background-color: #ffffff;
-            border-radius: 12px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #151b26;
+            border: 1px solid #232d3d;
+            border-radius: 16px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            border: 1px solid #e1e8ed;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }}
         .header {{
             background: linear-gradient(135deg, #0f172a, #1e293b);
@@ -745,22 +791,22 @@ def send_email_with_summary(national_md, date_str, zip_path):
         .header h1 {{
             margin: 0;
             font-size: 22px;
-            font-weight: 700;
+            font-weight: 800;
             letter-spacing: 0.5px;
         }}
         .header p {{
             margin: 8px 0 0 0;
             font-size: 13px;
-            opacity: 0.8;
+            color: #9ca3af;
         }}
         .content {{
             padding: 24px;
         }}
         .section-title {{
-            color: #1e293b;
+            color: #0ea5e9;
             font-size: 16px;
-            font-weight: 700;
-            border-bottom: 2px solid #f1f5f9;
+            font-weight: 800;
+            border-bottom: 1px solid #232d3d;
             padding-bottom: 6px;
             margin-top: 30px;
             margin-bottom: 14px;
@@ -768,109 +814,105 @@ def send_email_with_summary(national_md, date_str, zip_path):
             letter-spacing: 0.5px;
         }}
         .badge-red {{
-            background-color: #fef2f2;
-            color: #991b1b;
+            background-color: rgba(239, 68, 68, 0.15);
+            color: #f87171;
             padding: 4px 8px;
             border-radius: 4px;
             font-weight: 700;
             font-size: 12px;
             display: inline-block;
+            border: 1px solid rgba(239, 68, 68, 0.2);
         }}
         .badge-orange {{
-            background-color: #fff7ed;
-            color: #9a3412;
+            background-color: rgba(249, 115, 22, 0.15);
+            color: #fb923c;
             padding: 4px 8px;
             border-radius: 4px;
             font-weight: 700;
             font-size: 12px;
             display: inline-block;
+            border: 1px solid rgba(249, 115, 22, 0.2);
         }}
         .badge-yellow {{
-            background-color: #fef9c3;
-            color: #854d0e;
+            background-color: rgba(234, 179, 8, 0.15);
+            color: #fde047;
             padding: 4px 8px;
             border-radius: 4px;
             font-weight: 700;
             font-size: 12px;
             display: inline-block;
+            border: 1px solid rgba(234, 179, 8, 0.2);
         }}
         .vigilance-card {{
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
-            border: 1px solid #e2e8f0;
+            border: 1px solid #232d3d;
+            background: rgba(255,255,255,0.01);
         }}
         .vigilance-red {{
-            background-color: #fef2f2;
             border-left: 5px solid #ef4444;
         }}
         .vigilance-orange {{
-            background-color: #fff7ed;
             border-left: 5px solid #f97316;
         }}
         .vigilance-yellow {{
-            background-color: #fef9c3;
             border-left: 5px solid #eab308;
         }}
         .badge-dept-red {{
             display: inline-block;
-            background-color: #fee2e2;
-            color: #991b1b;
+            background-color: rgba(239, 68, 68, 0.2);
+            color: #f87171;
             padding: 2px 8px;
-            margin: 2px 1px;
+            margin: 2px 2px;
             border-radius: 12px;
             font-size: 11px;
             font-weight: 600;
-            border: 1px solid #fecaca;
+            border: 1px solid rgba(239, 68, 68, 0.3);
         }}
         .badge-dept-orange {{
             display: inline-block;
-            background-color: #ffedd5;
-            color: #c2410c;
+            background-color: rgba(249, 115, 22, 0.2);
+            color: #fb923c;
             padding: 2px 8px;
-            margin: 2px 1px;
+            margin: 2px 2px;
             border-radius: 12px;
             font-size: 11px;
             font-weight: 600;
-            border: 1px solid #fed7aa;
+            border: 1px solid rgba(249, 115, 22, 0.3);
         }}
         .badge-dept-yellow {{
             display: inline-block;
-            background-color: #fef9c3;
-            color: #854d0e;
+            background-color: rgba(234, 179, 8, 0.2);
+            color: #fde047;
             padding: 2px 8px;
-            margin: 2px 1px;
+            margin: 2px 2px;
             border-radius: 12px;
             font-size: 11px;
             font-weight: 600;
-            border: 1px solid #fef08a;
+            border: 1px solid rgba(234, 179, 8, 0.3);
         }}
         .info-card {{
-            background-color: #f0fdf4;
-            border-left: 5px solid #22c55e;
+            background-color: rgba(16, 185, 129, 0.05);
+            border-left: 5px solid #10b981;
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
-            border-top: 1px solid #bbf7d0;
-            border-right: 1px solid #bbf7d0;
-            border-bottom: 1px solid #bbf7d0;
+            border: 1px solid rgba(16, 185, 129, 0.15);
         }}
         .warning-card {{
-            background-color: #fffbeb;
+            background-color: rgba(245, 158, 11, 0.05);
             border-left: 5px solid #f59e0b;
             border-radius: 8px;
             padding: 16px;
             margin-bottom: 16px;
-            border-top: 1px solid #fef3c7;
-            border-right: 1px solid #fef3c7;
-            border-bottom: 1px solid #fef3c7;
+            border: 1px solid rgba(245, 158, 11, 0.15);
         }}
         .table-container {{
             margin-bottom: 20px;
-            border: 1px solid #e2e8f0;
+            border: 1px solid #232d3d;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
         }}
         table {{
             width: 100%;
@@ -883,36 +925,37 @@ def send_email_with_summary(national_md, date_str, zip_path):
             padding: 10px 12px;
             text-align: left;
             font-weight: 700;
-            border-bottom: 2px solid #cbd5e1;
+            border-bottom: 2px solid #232d3d;
         }}
         td {{
             padding: 10px 12px;
-            border-bottom: 1px solid #e2e8f0;
-            background-color: #ffffff;
+            border-bottom: 1px solid #232d3d;
+            background-color: #151b26;
+            color: #f3f4f6;
         }}
         tr:nth-child(even) td {{
-            background-color: #f8fafc;
+            background-color: rgba(255, 255, 255, 0.01);
         }}
         .footer {{
-            background-color: #f8fafc;
-            padding: 20px;
             text-align: center;
             font-size: 11px;
-            color: #64748b;
-            border-top: 1px solid #e2e8f0;
+            color: #9ca3af;
+            border-top: 1px solid #232d3d;
+            padding-top: 1.5rem;
+            margin-top: 2rem;
         }}
         blockquote {{
-            background-color: #f8fafc;
-            border-left: 4px solid #cbd5e1;
+            background-color: rgba(255,255,255,0.015);
+            border-left: 4px solid #3b82f6;
             padding: 8px 16px;
             margin: 0 0 16px 0;
             font-style: italic;
-            color: #475569;
+            color: #9ca3af;
         }}
         p {{
             margin: 0 0 12px 0;
             text-align: justify;
-            line-height: 1.5;
+            line-height: 1.6;
             font-size: 14.5px;
         }}
         ul {{
@@ -1011,6 +1054,7 @@ def main():
     print("=== Etape 1 : Telechargement des bulletins XML ===")
     download_bulletins("PREV_XML", source_dir)
     download_bulletins("COTE2", source_dir)
+    download_isobar_media(source_dir)
     
     # 2. Définir le dossier de sortie
     today_str = datetime.datetime.now().strftime("%Y-%m-%d")
