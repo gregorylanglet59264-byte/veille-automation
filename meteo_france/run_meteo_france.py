@@ -97,86 +97,270 @@ def call_llm_summary(bulletin_content):
         return "### ⚠️ Vigilances actives :\n" + "\n".join(summary_parts[:10])
     return "Consultez le bulletin national en pièce jointe pour plus de détails."
 
+def highlight_figures(text):
+    # Met en valeur les chiffres clés : 23 départements, 38 °C, 1032 hPa, 80 km/h, 25 à 30 nœuds...
+    regex_units = r'\b(\d+(?:\s*(?:à|ou)\s*\d+)?\s*(?:départements?|hPa|°C|mm|km/h|nœuds))\b'
+    return re.sub(
+        regex_units,
+        r'<strong style="color:#1e3a8a; background-color:#eff6ff; padding:1px 5px; border-radius:3px; font-size:11.5px; border:1px solid #bfdbfe; white-space:nowrap;">\1</strong>',
+        text
+    )
+
+def split_paragraphs_and_highlight(text):
+    text_clean = text.strip()
+    if not text_clean:
+        return ""
+    
+    text_highlighted = highlight_figures(text_clean)
+    
+    # Division à la volée sur les fins de phrases pour éviter tout bloc compact
+    sentences = re.split(r'(?<=[.!?])\s+', text_highlighted)
+    chunks = []
+    current_chunk = []
+    
+    for s in sentences:
+        if s.strip():
+            current_chunk.append(s.strip())
+            if len(current_chunk) >= 2:
+                chunks.append(" ".join(current_chunk))
+                current_chunk = []
+                
+    if current_chunk:
+        chunks.append(" ".join(current_chunk))
+        
+    paragraphs_html = []
+    for chunk in chunks:
+        paragraphs_html.append(
+            f'<p style="margin:4px 0; color:#334155; font-size:12px; font-family:\'Outfit\',sans-serif; line-height:1.5;">'
+            f'{chunk}'
+            f'</p>'
+        )
+    return "\n".join(paragraphs_html)
+
 def md_to_html(md_text):
-    # Échapper les caractères HTML d'abord pour plus de sécurité
     escaped = md_text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
     
     lines = escaped.splitlines()
     html_lines = []
     
     in_blockquote = False
-    blockquote_type = "standard"  # "standard" ou "important"
+    blockquote_type = "standard"
     blockquote_lines = []
     
+    in_card = False
+    in_columns_mode = False
+    columns_items = []
+    
+    def close_blockquote():
+        if not blockquote_lines:
+            return ""
+        bq_content = "<br>".join(blockquote_lines)
+        bq_content = highlight_figures(bq_content)
+        bq_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', bq_content)
+        
+        if blockquote_type == "important":
+            return (
+                f'<div style="background-color:#fee2e2; border-left:3px solid #ef4444; padding:10px 12px; margin:10px 0; border-radius:6px; color:#991b1b; font-size:12px; font-family:\'Outfit\',sans-serif; line-height:1.4;">'
+                f'<strong>⚠️ IMPORTANT</strong><br>{bq_content}'
+                f'</div>'
+            )
+        else:
+            return (
+                f'<div style="background-color:#f8fafc; border-left:3px solid #64748b; padding:8px 12px; margin:8px 0; font-style:italic; color:#475569; font-family:\'Outfit\',sans-serif; border-radius:6px; line-height:1.4;">'
+                f'{bq_content}'
+                f'</div>'
+            )
+            
+    def close_columns_mode():
+        if not columns_items:
+            return ""
+        items_html = []
+        for item in columns_items:
+            item_hl = highlight_figures(item)
+            item_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item_hl)
+            items_html.append(
+                f'<div style="font-size:11.5px; color:#475569; margin:2px 0; padding-left:8px; border-left:2px solid #cbd5e1; white-space:nowrap; display:inline-block; width:90%;">{item_clean}</div>'
+            )
+        columns_items.clear()
+        return (
+            f'<div style="column-count:3; -webkit-column-count:3; -moz-column-count:3; column-gap:15px; margin:8px 0 10px 0;">'
+            f'{"".join(items_html)}'
+            f'</div>'
+        )
+
     for line in lines:
-        if line.startswith("&gt;"):
+        processed_line = line.strip()
+        
+        if processed_line.startswith("&gt;"):
+            if columns_items:
+                html_lines.append(close_columns_mode())
             in_blockquote = True
             content = line[4:].strip() if line.startswith("&gt; ") else line[3:].strip()
             if "[!IMPORTANT]" in content:
                 blockquote_type = "important"
                 content = content.replace("[!IMPORTANT]", "").strip()
-            # Nettoyer les gras à l'intérieur
-            content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', content)
             blockquote_lines.append(content)
+            continue
         else:
             if in_blockquote:
-                # Clôture du bloc de citation
-                bq_content = "<br>".join(blockquote_lines)
-                if blockquote_type == "important":
-                    html_lines.append(
-                        f'<div style="background-color:#fee2e2; border-left:4px solid #ef4444; padding:12px; margin:15px 0; border-radius:4px; color:#991b1b; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.5;">'
-                        f'<strong>⚠️ IMPORTANT</strong><br>{bq_content}'
-                        f'</div>'
-                    )
-                else:
-                    html_lines.append(
-                        f'<div style="background-color:#f8fafc; border-left:4px solid #64748b; padding:10px 14px; margin:12px 0; font-style:italic; color:#475569; font-family:\'Outfit\',sans-serif; border-radius:4px; line-height:1.5;">'
-                        f'{bq_content}'
-                        f'</div>'
-                    )
+                html_lines.append(close_blockquote())
                 in_blockquote = False
                 blockquote_lines = []
                 blockquote_type = "standard"
-            
-            processed_line = line.strip()
-            if not processed_line:
-                html_lines.append("<br>")
-                continue
-            
-            if processed_line.startswith("###"):
-                title = processed_line[3:].strip()
-                html_lines.append(f'<h3 style="color:#0f172a; margin-top:20px; font-family:\'Outfit\',sans-serif; font-size:16px; font-weight:600;">{title}</h3>')
-            elif processed_line.startswith("##"):
-                title = processed_line[2:].strip()
-                html_lines.append(f'<h2 style="color:#1e3a8a; border-bottom:1px solid #e2e8f0; padding-bottom:5px; margin-top:30px; font-family:\'Outfit\',sans-serif; font-size:18px; font-weight:600;">{title}</h2>')
-            elif processed_line.startswith("#"):
-                title = processed_line[1:].strip()
-                html_lines.append(f'<h1 style="color:#1e40af; font-family:\'Outfit\',sans-serif; margin-bottom:15px; font-size:22px; font-weight:700;">{title}</h1>')
-            elif processed_line.startswith("-"):
-                item = processed_line[1:].strip()
-                item = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item)
-                html_lines.append(f'<li style="margin-bottom:6px; margin-left:20px; color:#334155; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.5;">{item}</li>')
-            elif processed_line == "---":
-                html_lines.append('<hr style="border:0; border-top:1px solid #e2e8f0; margin:20px 0;">')
-            else:
-                processed_line = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', processed_line)
-                html_lines.append(f'<p style="margin:6px 0; color:#334155; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.6;">{processed_line}</p>')
                 
-    if in_blockquote:
-        bq_content = "<br>".join(blockquote_lines)
-        if blockquote_type == "important":
-            html_lines.append(
-                f'<div style="background-color:#fee2e2; border-left:4px solid #ef4444; padding:12px; margin:15px 0; border-radius:4px; color:#991b1b; font-size:14px; font-family:\'Outfit\',sans-serif; line-height:1.5;">'
-                f'<strong>⚠️ IMPORTANT</strong><br>{bq_content}'
-                f'</div>'
-            )
-        else:
-            html_lines.append(
-                f'<div style="background-color:#f8fafc; border-left:4px solid #64748b; padding:10px 14px; margin:12px 0; font-style:italic; color:#475569; font-family:\'Outfit\',sans-serif; border-radius:4px; line-height:1.5;">'
-                f'{bq_content}'
-                f'</div>'
-            )
+        if not processed_line:
+            if columns_items:
+                html_lines.append(close_columns_mode())
+            continue
             
+        if processed_line == "---":
+            if columns_items:
+                html_lines.append(close_columns_mode())
+            html_lines.append('<hr style="border:0; border-top:1px solid #e2e8f0; margin:10px 0;">')
+            continue
+            
+        if processed_line.startswith("#") and not processed_line.startswith("##"):
+            if columns_items:
+                html_lines.append(close_columns_mode())
+            title = processed_line[1:].strip()
+            icon = ""
+            title_text = title
+            match_icon = re.match(r'^([^\w\s])\s*(.*)$', title)
+            if match_icon:
+                icon = match_icon.group(1)
+                title_text = match_icon.group(2)
+                
+            html_lines.append(
+                f'<div style="text-align:center; margin-bottom:12px; border-bottom:2px solid #1e3a8a; padding-bottom:6px;">'
+                f'<h1 style="color:#1e3a8a; font-family:\'Outfit\',sans-serif; font-size:15px; font-weight:700; margin:0 0 2px 0; text-transform:uppercase; letter-spacing:0.05em;">'
+                f'<span style="margin-right:6px;">{icon}</span>{title_text}'
+                f'</h1>'
+                f'</div>'
+            )
+            continue
+            
+        if processed_line.startswith("##") and not processed_line.startswith("###"):
+            if columns_items:
+                html_lines.append(close_columns_mode())
+                in_columns_mode = False
+                
+            title = processed_line[2:].strip()
+            close_card_html = ""
+            if in_card:
+                close_card_html = "</div></div><!-- close card -->"
+                
+            if "vigilance" in title.lower() or "alerte" in title.lower():
+                in_columns_mode = True
+            else:
+                in_columns_mode = False
+                
+            icon = "📋"
+            title_text = title
+            match_icon = re.match(r'^([^\w\s])\s*(.*)$', title)
+            if match_icon:
+                icon = match_icon.group(1)
+                title_text = match_icon.group(2)
+                
+            title_lower = title_text.lower()
+            if "vigilance institutionnelle" in title_lower:
+                title_text = "Vigilance Canicule"
+                icon = "⚠️"
+            elif "vigilance hydrologique" in title_lower:
+                title_text = "Hydrologie"
+                icon = "🌊"
+            elif "frontologie" in title_lower:
+                title_text = "Situation générale"
+                icon = "🗺"
+            elif "briefing" in title_lower:
+                title_text = "Prévisions"
+                icon = "📺"
+            elif "altitude" in title_lower or "montagne" in title_lower:
+                title_text = "Altitude / Montagne"
+                icon = "🏔️"
+            elif "marine" in title_lower or "navigation" in title_lower:
+                title_text = "Marine"
+                icon = "🌊"
+                
+            card_html = (
+                f'{close_card_html}'
+                f'<div style="background-color:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:12px 14px; margin-bottom:10px; box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);">'
+                f'<h2 style="color:#1e3a8a; font-family:\'Outfit\',sans-serif; font-size:12px; font-weight:700; margin:0 0 8px 0; border-bottom:1px solid #f1f5f9; padding-bottom:5px; text-transform:uppercase; letter-spacing:0.05em; display:flex; align-items:center;">'
+                f'<span style="margin-right:6px; font-size:14px;">{icon}</span> {title_text}'
+                f'</h2>'
+                f'<div style="font-size:12px; color:#334155; line-height:1.5;">'
+            )
+            html_lines.append(card_html)
+            in_card = True
+            continue
+            
+        if processed_line.startswith("###") or processed_line.startswith("####"):
+            if columns_items:
+                html_lines.append(close_columns_mode())
+                
+            if processed_line.startswith("####"):
+                title = processed_line[4:].strip()
+            else:
+                title = processed_line[3:].strip()
+                
+            icon = ""
+            title_text = title
+            match_icon = re.match(r'^([^\w\s])\s*(.*)$', title)
+            if match_icon:
+                icon = match_icon.group(1)
+                title_text = match_icon.group(2)
+                
+            title_lower = title_text.lower()
+            if "situation" in title_lower:
+                title_text = "Situation générale"
+                icon = "🌐"
+            elif "secteur" in title_lower:
+                title_text = "Par secteur"
+                icon = "🗺"
+            elif "thermomètre" in title_lower or "température" in title_lower:
+                title_text = "Températures"
+                icon = "🌡"
+                
+            if "prévision" in title_lower or "cette nuit" in title_lower or "demain" in title_lower or "après-demain" in title_lower:
+                html_lines.append(
+                    f'<div style="background-color:#f1f5f9; color:#1e3a8a; font-size:9.5px; font-weight:700; padding:2px 6px; border-radius:4px; margin-top:8px; margin-bottom:5px; text-transform:uppercase; letter-spacing:0.05em; display:inline-block;">'
+                    f'{icon} {title_text}'
+                    f'</div>'
+                )
+            else:
+                html_lines.append(
+                    f'<h4 style="color:#0f172a; font-family:\'Outfit\',sans-serif; font-size:11px; font-weight:700; margin:6px 0 2px 0; display:flex; align-items:center;">'
+                    f'<span style="margin-right:4px; font-size:11px;">{icon}</span> {title_text}'
+                    f'</h4>'
+                )
+            continue
+            
+        if processed_line.startswith("-"):
+            item = processed_line[1:].strip()
+            if in_columns_mode:
+                columns_items.append(item)
+            else:
+                item_hl = highlight_figures(item)
+                item_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item_hl)
+                html_lines.append(
+                    f'<li style="margin-bottom:2px; margin-left:14px; color:#334155; font-size:12px; font-family:\'Outfit\',sans-serif; line-height:1.4;">'
+                    f'{item_clean}'
+                    f'</li>'
+                )
+            continue
+        else:
+            if columns_items:
+                html_lines.append(close_columns_mode())
+                
+        p_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', processed_line)
+        html_lines.append(split_paragraphs_and_highlight(p_clean))
+        
+    if columns_items:
+        html_lines.append(close_columns_mode())
+    if in_blockquote:
+        html_lines.append(close_blockquote())
+    if in_card:
+        html_lines.append("</div></div><!-- close card final -->")
+        
     return "\n".join(html_lines)
 
 import zipfile

@@ -737,16 +737,24 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
         
     if depts_par_vigilance["rouge"]:
         md += f"🔴 **Vigilance Rouge Canicule ({len(depts_par_vigilance['rouge'])} départements) :**\n"
-        md += f"{', '.join(depts_par_vigilance['rouge'])}\n\n"
+        for d in depts_par_vigilance["rouge"]:
+            md += f"- {d}\n"
+        md += "\n"
     if depts_par_vigilance["orange"]:
         md += f"🟠 **Vigilance Orange Canicule ({len(depts_par_vigilance['orange'])} départements) :**\n"
-        md += f"{', '.join(depts_par_vigilance['orange'])}\n\n"
+        for d in depts_par_vigilance["orange"]:
+            md += f"- {d}\n"
+        md += "\n"
     if depts_par_vigilance["jaune"]:
         md += f"🟡 **Vigilance Jaune ({len(depts_par_vigilance['jaune'])} départements) :**\n"
-        md += f"{', '.join(depts_par_vigilance['jaune'])}\n\n"
+        for d in depts_par_vigilance["jaune"]:
+            md += f"- {d}\n"
+        md += "\n"
     if depts_par_vigilance["verte"] and region != "France": # Optionnel pour la France car trop long
         md += f"🟢 **Vigilance Verte ({len(depts_par_vigilance['verte'])} départements) :**\n"
-        md += f"{', '.join(depts_par_vigilance['verte'])}\n\n"
+        for d in depts_par_vigilance["verte"]:
+            md += f"- {d}\n"
+        md += "\n"
             
     # 2. Section Vigilance Crues & Hydrologie
     md += "---\n\n## 🌊 Vigilance Hydrologique (Crues BPSPC)\n\n"
