@@ -135,7 +135,7 @@ def split_paragraphs_and_highlight(text):
         )
     return "\n".join(paragraphs_html)
 
-def md_to_html(md_text):
+def md_to_html(md_text, is_email=False):
     escaped = md_text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
     
     lines = escaped.splitlines()
@@ -411,10 +411,10 @@ def md_to_html(md_text):
             if img_match:
                 alt = img_match.group(1)
                 src = img_match.group(2)
-                filename = os.path.basename(src)
+                img_src = "cid:frontology_map" if is_email else os.path.basename(src)
                 img_tag = (
                     f'<div style="text-align:center; margin: 25px 0;">'
-                    f'<img src="{filename}" alt="{alt}" style="max-width:100%; border-radius:12px; border: 1px solid rgba(255,255,255,0.15); box-shadow:0 8px 24px rgba(0,0,0,0.3);">'
+                    f'<img src="{img_src}" alt="{alt}" style="max-width:100%; border-radius:12px; border: 1px solid rgba(255,255,255,0.15); box-shadow:0 8px 24px rgba(0,0,0,0.3);">'
                     f'<div style="font-size:12px; color:#9ca3af; font-style:italic; margin-top:8px;">{alt}</div>'
                     f'</div>'
                 )
@@ -753,7 +753,7 @@ def send_email_with_summary(national_md, date_str, zip_path):
     if lines and lines[0].startswith("#"):
         title_full = lines[0][1:].strip()
         
-    national_html = md_to_html(national_md)
+    national_html = md_to_html(national_md, is_email=True)
     
     now = datetime.datetime.now()
     time_str = now.strftime('%H:%M')
@@ -1007,8 +1007,27 @@ def send_email_with_summary(national_md, date_str, zip_path):
         zip_data = f.read()
     zip_b64 = base64.b64encode(zip_data).decode('ascii')
     
+    # Trouver et encoder l'image de frontologie pour intégration inline (cid)
+    meteo_dir = os.path.dirname(os.path.abspath(zip_path))
+    source_dir = os.path.join(os.path.dirname(meteo_dir), "meteo_data")
+    media_dir = os.path.join(source_dir, "MEDIA")
+    img_to_attach = None
+    img_b64 = None
+    if os.path.exists(media_dir):
+        import glob
+        matches = glob.glob(os.path.join(media_dir, "C_PREISO24_*.jpeg"))
+        if matches:
+            img_to_attach = sorted(matches)[-1]
+            try:
+                with open(img_to_attach, 'rb') as img_f:
+                    img_data = img_f.read()
+                img_b64 = base64.b64encode(img_data).decode('ascii')
+            except Exception as e:
+                print(f"[SMTP] Impossible de lire la carte de frontologie : {e}")
+    
     boundary = uuid.uuid4().hex
     
+    # Message de base (HTML)
     raw_message = (
         f'From: Gregory LANGLET <{gmail_email}>\r\n'
         f'To: {", ".join(recipients)}\r\n'
@@ -1023,6 +1042,24 @@ def send_email_with_summary(national_md, date_str, zip_path):
         f'\r\n'
         f'{html_b64}\r\n'
         f'\r\n'
+    )
+    
+    # Ajout de l'image de frontologie si disponible (inline)
+    if img_b64 and img_to_attach:
+        img_name = os.path.basename(img_to_attach)
+        raw_message += (
+            f'--{boundary}\r\n'
+            f'Content-Type: image/jpeg; name="{img_name}"\r\n'
+            f'Content-Disposition: inline; filename="{img_name}"\r\n'
+            f'Content-ID: <frontology_map>\r\n'
+            f'Content-Transfer-Encoding: base64\r\n'
+            f'\r\n'
+            f'{img_b64}\r\n'
+            f'\r\n'
+        )
+        
+    # Ajout du fichier ZIP attaché
+    raw_message += (
         f'--{boundary}\r\n'
         f'Content-Type: application/zip; name="{zip_filename}"\r\n'
         f'Content-Disposition: attachment; filename="{zip_filename}"\r\n'
