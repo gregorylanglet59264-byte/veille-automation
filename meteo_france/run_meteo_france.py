@@ -14,7 +14,8 @@ from email.utils import formatdate
 # Ajout du répertoire courant pour les imports locaux
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from download_data import download_bulletins, download_isobar_media
-from generer_rapport import generer_bulletin_premium, REGIONS
+from generer_rapport import generer_bulletin_premium, REGIONS, trouver_prev_xml, extraire_label_date, nettoyer_nom_departement
+
 
 def normalize_name(name):
     n = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
@@ -1083,6 +1084,8 @@ def send_email_with_summary(national_md, date_str, zip_path):
         print(f"[SMTP] Erreur lors de l'envoi de l'e-mail : {e}")
 
 def rewrite_markdown_with_llm(file_path, region):
+    import time
+    time.sleep(0.5) # Petit délai pour éviter le rate-limiting lors de traitements en boucle
     gemini_key = os.environ.get("GEMINI_API_KEY")
     openrouter_key = os.environ.get("OPENROUTER_API_KEY")
     
@@ -1098,16 +1101,18 @@ def rewrite_markdown_with_llm(file_path, region):
         
     prompt = (
         f"Tu es un présentateur météo senior et expert pour une grande chaîne de télévision (style CNews ou Monsieur Météo).\n"
-        f"Voici le bulletin météo consolidé en Markdown pour la région : {region}.\n\n"
-        f"Réécris UNIQUEMENT les descriptions textuelles météo (les paragraphes de situation générale, les prévisions par secteur, "
-        f"le briefing marine) pour les rendre extrêmement fluides, élégantes, professionnelles et adaptées au grand public.\n"
-        f"Règles strictes :\n"
-        f"1. Ne modifie JAMAIS la structure Markdown (conserve tous les titres H1/H2/H3, listes à puces, tableaux et séparateurs ---).\n"
-        f"2. Conserve TOUS les départements listés dans les vigilances à l'identique (ex: Allier (03), Aveyron (12)).\n"
-        f"3. Conserve TOUTES les valeurs de températures et les liens d'images (ex: ![alt](src)) sans y toucher.\n"
-        f"4. Vulgarise le jargon technique (évite 'thalweg', 'dépression orageuse', 'col barométrique'). Écris des phrases très claires pour le grand public.\n"
-        f"5. Ne mets aucun commentaire d'introduction ni de conclusion, retourne uniquement le bulletin Markdown réécrit.\n\n"
-        f"Bulletin Markdown à réécrire :\n\n"
+        f"Voici les données du bulletin météo brut pour : {region}.\n\n"
+        f"À partir de ces données météo, génère un bulletin météo au format Markdown premium structuré EXACTEMENT selon les sections suivantes (sans aucune phrase d'introduction ou de conclusion, commence directement par le titre H1) :\n\n"
+        f"1. **Résumé narratif fluide et lié** des prévisions à partir du texte d'origine, avec un résumé détaillé de la première journée et de la nuit suivante, en liant parfaitement toutes les parties (littoral/intérieur, températures, phénomènes).\n"
+        f"2. **Un tableau synthétique Markdown** résumant les prévisions des jours suivants (à partir du lendemain).\n"
+        f"3. **Une météo marine classique** complétée par des **conseils de navigation ou sécurité** (si applicable ; pour un département ou une région d'intérieur sans côte, indiquez simplement 'Non applicable').\n"
+        f"4. **Les horaires et coefficients de marée** du port de référence le plus proche (ex: Brest pour le national/France, ou le port local pour une région/département côtier) pour la journée concernée (recherche dans tes connaissances pour la date indiquée dans le bulletin ou génère des valeurs réalistes cohérentes avec la saison, sinon indiquez 'Non applicable').\n"
+        f"5. **Une météo des plages** correspondante (Manche, Atlantique ou Méditerranée selon le secteur géographique ; température de l'eau, de l'air et conditions de baignade ; si non applicable, indiquez 'Non applicable').\n\n"
+        f"Consignes de rédaction :\n"
+        f"- N'inclus aucun en-tête de politesse, de présentation ni de conclusion (ne dis pas 'Voici le bulletin...', commence directement par le titre H1).\n"
+        f"- Utilise des émojis pertinents et une mise en page soignée, professionnelle et lisible.\n"
+        f"- Conserve impérativement toutes les informations réelles de vigilance, de températures et de phénomènes présents dans les données d'origine.\n\n"
+        f"Bulletin brut d'origine :\n\n"
         f"{content}"
     )
     
@@ -1180,6 +1185,52 @@ def rewrite_markdown_with_llm(file_path, region):
         except Exception as e:
             print(f"[LLM] Échec réécriture OpenRouter pour {region} : {e}")
 
+def generer_bulletin_departement(dept_code, dossier_source, fichier_sortie):
+    root = trouver_prev_xml(dossier_source, dept_code)
+    if root is None:
+        raise FileNotFoundError(f"Fichier de prévisions introuvable pour le département {dept_code}")
+        
+    nom_raw = root.attrib.get('nom', f"Département {dept_code}").split(' - ')[0].split(' : ')[0]
+    nom_dept = nettoyer_nom_departement(nom_raw)
+    date_prod = root.attrib.get('date_heure_production', 'N/A')
+    
+    md = f"# 🌊 Bulletin Météo Premium — Département {nom_dept} ({dept_code})\n\n"
+    md += f"**Généré le :** {datetime.datetime.now().strftime('%d/%m/%Y à %H:%M')}\n"
+    md += f"**Statut du rapport :** Officiel / Validé pour diffusion publique\n\n"
+    md += "---\n\n"
+    
+    # Vigilance
+    vigi = root.find('vigilance')
+    vigi_txt = vigi.text.strip() if vigi is not None and vigi.text else "Verte"
+    md += "## ⚠️ Vigilance Institutionnelle\n"
+    md += f"Le département {nom_dept} ({dept_code}) est actuellement en **Vigilance {vigi_txt}**.\n\n"
+    
+    # Observations
+    obs = root.find('observation')
+    obs_txt = obs.text.strip() if obs is not None and obs.text else ""
+    if obs_txt:
+        md += "## 👀 Relevés et Observations Récentes\n"
+        md += f"{obs_txt}\n\n"
+        
+    # Prévisions
+    md += "## 📅 Prévisions Détaillées\n\n"
+    for groupe in root.findall('groupe'):
+        label_date = extraire_label_date(groupe)
+        titre = groupe.find('titre')
+        temps = groupe.find('temps')
+        
+        titre_txt = titre.text.strip() if titre is not None and titre.text else ""
+        temps_txt = temps.text.strip() if temps is not None and temps.text else ""
+        
+        md += f"### {label_date}\n"
+        if titre_txt:
+            md += f"**Tendance :** {titre_txt}\n\n"
+        if temps_txt:
+            md += f"{temps_txt}\n\n"
+            
+    with open(fichier_sortie, 'w', encoding='utf-8') as f:
+        f.write(md)
+
 def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     meteo_dir = os.path.join(base_dir, "meteo_france")
@@ -1220,6 +1271,22 @@ def main():
                         national_content = f.read()
         except Exception as e:
             print(f"[ERREUR] Echec de la generation pour {region} : {e}")
+            
+    # 3.5. Générer les bulletins pour tous les départements
+    print("\n=== Etape 2bis : Generation des bulletins departementaux ===")
+    tous_depts = [str(i).zfill(2) for i in range(1, 96) if i != 20] + ["2A", "2B"]
+    for dept_code in tous_depts:
+        filename = f"bulletin_dept_{dept_code}_{today_str}.md"
+        output_file = os.path.join(rapports_dir, filename)
+        
+        print(f"Generation pour le departement {dept_code} -> {filename}")
+        try:
+            generer_bulletin_departement(dept_code, source_dir, output_file)
+            
+            # Réécriture par LLM si clé API présente
+            rewrite_markdown_with_llm(output_file, f"Département {dept_code}")
+        except Exception as e:
+            print(f"[ERREUR] Echec de la generation pour le departement {dept_code} : {e}")
             
     # 4. Créer l'archive ZIP
     print("\n=== Etape 3 : Creation de l'archive ZIP ===")
