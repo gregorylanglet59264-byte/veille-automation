@@ -1045,6 +1045,104 @@ def send_email_with_summary(national_md, date_str, zip_path):
     except Exception as e:
         print(f"[SMTP] Erreur lors de l'envoi de l'e-mail : {e}")
 
+def rewrite_markdown_with_llm(file_path, region):
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
+    
+    if not gemini_key and not openrouter_key:
+        print(f"[LLM] Aucune clé API (GEMINI_API_KEY/OPENROUTER_API_KEY) configurée. Pas de réécriture LLM pour {region}.")
+        return
+        
+    if not os.path.exists(file_path):
+        return
+        
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+        
+    prompt = (
+        f"Tu es un présentateur météo senior et expert pour une grande chaîne de télévision (style CNews ou Monsieur Météo).\n"
+        f"Voici le bulletin météo consolidé en Markdown pour la région : {region}.\n\n"
+        f"Réécris UNIQUEMENT les descriptions textuelles météo (les paragraphes de situation générale, les prévisions par secteur, "
+        f"le briefing marine) pour les rendre extrêmement fluides, élégantes, professionnelles et adaptées au grand public.\n"
+        f"Règles strictes :\n"
+        f"1. Ne modifie JAMAIS la structure Markdown (conserve tous les titres H1/H2/H3, listes à puces, tableaux et séparateurs ---).\n"
+        f"2. Conserve TOUS les départements listés dans les vigilances à l'identique (ex: Allier (03), Aveyron (12)).\n"
+        f"3. Conserve TOUTES les valeurs de températures et les liens d'images (ex: ![alt](src)) sans y toucher.\n"
+        f"4. Vulgarise le jargon technique (évite 'thalweg', 'dépression orageuse', 'col barométrique'). Écris des phrases très claires pour le grand public.\n"
+        f"5. Ne mets aucun commentaire d'introduction ni de conclusion, retourne uniquement le bulletin Markdown réécrit.\n\n"
+        f"Bulletin Markdown à réécrire :\n\n"
+        f"{content}"
+    )
+    
+    # Tentative avec Gemini
+    if gemini_key:
+        print(f"[LLM] Réécriture de {region} via Gemini...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
+        data = {
+            "contents": [{"parts": [{"text": prompt}]}]
+        }
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(data).encode('utf-8'),
+                headers={"Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=30) as response:
+                res = json.loads(response.read().decode('utf-8'))
+                rewritten = res["candidates"][0]["content"]["parts"][0]["text"]
+                # Nettoyage si le modèle a entouré le résultat de ```markdown ... ```
+                if rewritten.startswith("```markdown"):
+                    rewritten = rewritten[11:]
+                elif rewritten.startswith("```"):
+                    rewritten = rewritten[3:]
+                if rewritten.endswith("```"):
+                    rewritten = rewritten[:-3]
+                rewritten = rewritten.strip()
+                
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(rewritten)
+                print(f"[LLM] Réécriture de {region} réussie avec Gemini !")
+                return
+        except Exception as e:
+            print(f"[LLM] Échec réécriture Gemini pour {region} : {e}")
+
+    # Tentative avec OpenRouter (DeepSeek)
+    if openrouter_key:
+        print(f"[LLM] Réécriture de {region} via OpenRouter (DeepSeek)...")
+        url = "https://openrouter.ai/api/v1/chat/completions"
+        data = {
+            "model": "deepseek/deepseek-chat",
+            "messages": [{"role": "user", "content": prompt}]
+        }
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(data).encode('utf-8'),
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {openrouter_key}"
+                },
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=30) as response:
+                res = json.loads(response.read().decode('utf-8'))
+                rewritten = res["choices"][0]["message"]["content"]
+                if rewritten.startswith("```markdown"):
+                    rewritten = rewritten[11:]
+                elif rewritten.startswith("```"):
+                    rewritten = rewritten[3:]
+                if rewritten.endswith("```"):
+                    rewritten = rewritten[:-3]
+                rewritten = rewritten.strip()
+                
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(rewritten)
+                print(f"[LLM] Réécriture de {region} réussie avec OpenRouter !")
+                return
+        except Exception as e:
+            print(f"[LLM] Échec réécriture OpenRouter pour {region} : {e}")
+
 def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     meteo_dir = os.path.join(base_dir, "meteo_france")
@@ -1074,6 +1172,9 @@ def main():
         print(f"Generation pour {region} -> {filename}")
         try:
             generer_bulletin_premium(region, source_dir, output_file)
+            
+            # Réécriture par LLM si clé API présente
+            rewrite_markdown_with_llm(output_file, region)
             
             # Si c'est le bulletin national, on garde le contenu
             if region == "France":
