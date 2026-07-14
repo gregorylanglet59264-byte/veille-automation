@@ -1223,6 +1223,85 @@ def generer_bulletin_departement(dept_code, dossier_source, fichier_sortie):
     with open(fichier_sortie, 'w', encoding='utf-8') as f:
         f.write(md)
 
+def generer_bulletin_nord_pas_de_calais(dossier_source, fichier_sortie):
+    root59 = trouver_prev_xml(dossier_source, "59")
+    root62 = trouver_prev_xml(dossier_source, "62")
+    
+    if root59 is None or root62 is None:
+        raise FileNotFoundError("Fichiers XML manquants pour le Nord (59) ou le Pas-de-Calais (62)")
+        
+    date_prod = root59.attrib.get('date_heure_production', 'N/A')
+    
+    md = f"# 🌊 Bulletin Météo Premium — Nord-Pas-de-Calais (59 / 62)\n\n"
+    md += f"**Généré le :** {datetime.datetime.now().strftime('%d/%m/%Y à %H:%M')}\n"
+    md += f"**Statut du rapport :** Officiel / Validé pour diffusion publique\n\n"
+    md += "---\n\n"
+    
+    # Vigilance Nord
+    vigi59 = root59.find('vigilance')
+    vigi59_txt = vigi59.text.strip() if vigi59 is not None and vigi59.text else "Verte"
+    
+    # Vigilance Pas-de-Calais
+    vigi62 = root62.find('vigilance')
+    vigi62_txt = vigi62.text.strip() if vigi62 is not None and vigi62.text else "Verte"
+    
+    md += "## ⚠️ Vigilance Institutionnelle\n"
+    md += f"- **Nord (59) :** Vigilance {vigi59_txt}\n"
+    md += f"- **Pas-de-Calais (62) :** Vigilance {vigi62_txt}\n\n"
+    
+    # Observations
+    obs59 = root59.find('observation')
+    obs59_txt = obs59.text.strip() if obs59 is not None and obs59.text else ""
+    obs62 = root62.find('observation')
+    obs62_txt = obs62.text.strip() if obs62 is not None and obs62.text else ""
+    
+    if obs59_txt or obs62_txt:
+        md += "## 👀 Relevés et Observations Récentes\n"
+        if obs59_txt:
+            md += f"- **Nord (59) :** {obs59_txt}\n"
+        if obs62_txt:
+            md += f"- **Pas-de-Calais (62) :** {obs62_txt}\n"
+        md += "\n"
+        
+    # Prévisions
+    md += "## 📅 Prévisions Détaillées\n\n"
+    
+    groupes59 = root59.findall('groupe')
+    groupes62 = root62.findall('groupe')
+    
+    for i in range(min(len(groupes59), len(groupes62))):
+        g59 = groupes59[i]
+        g62 = groupes62[i]
+        
+        label_date = extraire_label_date(g59)
+        
+        t59 = g59.find('titre')
+        temp59 = g59.find('temps')
+        t59_txt = t59.text.strip() if t59 is not None and t59.text else ""
+        temp59_txt = temp59.text.strip() if temp59 is not None and temp59.text else ""
+        
+        t62 = g62.find('titre')
+        temp62 = g62.find('temps')
+        t62_txt = t62.text.strip() if t62 is not None and t62.text else ""
+        temp62_txt = temp62.text.strip() if temp62 is not None and temp62.text else ""
+        
+        md += f"### {label_date}\n"
+        md += f"**Pour le Nord (59) :**\n"
+        if t59_txt:
+            md += f"- *Tendance :* {t59_txt}\n"
+        if temp59_txt:
+            md += f"- {temp59_txt}\n"
+            
+        md += f"\n**Pour le Pas-de-Calais (62) :**\n"
+        if t62_txt:
+            md += f"- *Tendance :* {t62_txt}\n"
+        if temp62_txt:
+            md += f"- {temp62_txt}\n"
+        md += "\n"
+        
+    with open(fichier_sortie, 'w', encoding='utf-8') as f:
+        f.write(md)
+
 def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     meteo_dir = os.path.join(base_dir, "meteo_france")
@@ -1279,6 +1358,17 @@ def main():
             rewrite_markdown_with_llm(output_file, f"Département {dept_code}")
         except Exception as e:
             print(f"[ERREUR] Echec de la generation pour le departement {dept_code} : {e}")
+
+    # 3.7. Générer le bulletin combiné Nord-Pas-de-Calais
+    print("\n=== Etape 2ter : Generation du bulletin combine Nord-Pas-de-Calais ===")
+    filename_npc = f"bulletin_nord_pas_de_calais_{today_str}.md"
+    output_npc = os.path.join(rapports_dir, filename_npc)
+    print(f"Generation pour Nord-Pas-de-Calais -> {filename_npc}")
+    try:
+        generer_bulletin_nord_pas_de_calais(source_dir, output_npc)
+        rewrite_markdown_with_llm(output_npc, "Nord-Pas-de-Calais")
+    except Exception as e:
+        print(f"[ERREUR] Echec de la generation pour Nord-Pas-de-Calais : {e}")
             
     # 4. Créer l'archive ZIP
     print("\n=== Etape 3 : Creation de l'archive ZIP ===")
