@@ -1,10 +1,7 @@
 name: Veille Spécifique Intempéries & Cyclones
 
 on:
-  schedule:
-    # Lancement quotidien à 18h15 heure française (heure d'été UTC+2 = 16h15 UTC)
-    - cron: '15 16 * * *'
-  workflow_dispatch: # Permet le lancement manuel depuis l'interface GitHub
+  workflow_dispatch: # Permet le lancement manuel depuis l'interface GitHub ou les dashboards
 
 jobs:
   run-veille:
