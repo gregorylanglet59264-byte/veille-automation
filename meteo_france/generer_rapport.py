@@ -672,7 +672,7 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
             md += f"- **Front détecté :** Type `{type_front}` localisé à la position `{position}`\n"
         md += "\n"
     else:
-        md += "*Les analyses frontologiques et isobariques de Météo-France sont disponibles au format image (C_ISOFRONT/C_PREISO) dans vos répertoires de données locaux pour consultation visuelle.*\n\n"
+        md += "*Les analyses frontologiques et isobariques sont disponibles au format image (C_ISOFRONT/C_PREISO) dans vos répertoires de données locaux pour consultation visuelle.*\n\n"
         
     # 4. Section Tableau Synthétique des Températures et Prévisions (Régional uniquement)
     if region != "France":

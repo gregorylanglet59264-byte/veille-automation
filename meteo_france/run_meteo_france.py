@@ -658,7 +658,7 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             {html_body}
         </div>
         <div class="footer">
-            <p style="text-align:center; font-size:11px; margin:0;">Météo-France Officiel — Synthèse consolidée de diffusion. Tous droits réservés.</p>
+            <p style="text-align:center; font-size:11px; margin:0;">Synthèse consolidée de diffusion. Tous droits réservés.</p>
         </div>
     </div>
 </body>
@@ -931,7 +931,7 @@ def send_email_with_summary(national_md, date_str, zip_path):
             </div>
         </div>
         <div class="footer">
-            <p style="text-align:center; font-size:11px; margin:0;">Météo-France Officiel — Synthèse consolidée de diffusion. Tous droits réservés.</p>
+            <p style="text-align:center; font-size:11px; margin:0;">Synthèse consolidée de diffusion. Tous droits réservés.</p>
         </div>
     </div>
 </body>
