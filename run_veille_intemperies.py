@@ -566,7 +566,7 @@ def main():
         raw_news[key] = fetch_google_news(query)
         
     # 2. Collecte Twitter
-    tweets = fetch_twitter_tweets_gnews()
+    tweets = fetch_twitter_tweets_nitter()
     
     # 3. Génération IA
     print("[LLM] Synthèse et rédaction du rapport final...")
