@@ -61,7 +61,7 @@ def call_llm_summary(bulletin_content):
         print("[LLM] Appel de l'API OpenRouter (DeepSeek)...")
         url = "https://openrouter.ai/api/v1/chat/completions"
         data = {
-            "model": "deepseek/deepseek-chat",
+            "model": "deepseek/deepseek-v4-flash",
             "messages": [{"role": "user", "content": prompt}]
         }
         try:
@@ -1146,7 +1146,7 @@ def rewrite_markdown_with_llm(file_path, region):
         print(f"[LLM] Réécriture de {region} via OpenRouter (DeepSeek)...")
         url = "https://openrouter.ai/api/v1/chat/completions"
         data = {
-            "model": "deepseek/deepseek-chat",
+            "model": "deepseek/deepseek-v4-flash",
             "messages": [{"role": "user", "content": prompt}]
         }
         try:
