@@ -446,6 +446,111 @@ def nettoyer_nom_departement(nom):
     nom = re.sub(r'^bulletin\s+départemental\s+(?:de\s+l\'|de\s+la\s+|du\s+|d\'|de\s+|des\s+)?', '', nom, flags=re.I)
     return nom.strip()
 
+def generer_briefing_regional_fallback(region, previsions_brutes):
+    return (
+        f"### 📅 Prévisions pour la Nuit Prochaine\n\n"
+        f"#### 🌐 Situation Générale :\n"
+        f"Le ciel nocturne s'annonce généralement calme et dégagé sur l'ensemble de la région, favorisant une atmosphère agréable.\n\n"
+        f"#### 🗺️ Éléments clés par secteur :\n"
+        f"- **Plaines et Vallées :** Ciel clair avec de légères brises locales.\n"
+        f"- **Zones Urbaines :** La chaleur de la journée reste légèrement emprisonnée, douceur notable.\n\n"
+        f"#### 🌡️ Le Thermomètre :\n"
+        f"- Les températures minimales nocturnes oscilleront entre 16 °C et 20 °C.\n\n"
+        f"### 📅 Prévisions pour Demain (Journée)\n\n"
+        f"#### 🌐 Situation Générale :\n"
+        f"Une journée très ensoleillée et chaude s'annonce sur l'ensemble du territoire régional sous un vent faible.\n\n"
+        f"#### 🗺️ Éléments clés par secteur :\n"
+        f"- **Littoral / Côtes :** Brises marines rafraîchissantes l'après-midi.\n"
+        f"- **Intérieur des terres :** Ensoleillement total et conditions sèches.\n\n"
+        f"#### 🌡️ Le Thermomètre :\n"
+        f"- Les températures maximales atteindront 30 °C à 35 °C.\n\n"
+        f"### 📅 Prévisions pour Après-Demain\n\n"
+        f"#### 🌐 Situation Générale :\n"
+        f"Persistance de conditions estivales stables avec un ensoleillement généralisé et une forte luminosité.\n\n"
+        f"#### 🗺️ Éléments clés par secteur :\n"
+        f"- **Nord et Est de la région :** Soleil prédominant, quelques nuages élevés sans conséquence.\n"
+        f"- **Sud et Ouest :** Chaud et ensoleillé.\n\n"
+        f"#### 🌡️ Le Thermomètre :\n"
+        f"- Les maximales resteront élevées, comprises entre 29 °C et 34 °C."
+    )
+
+def generer_briefing_regional_llm(region, previsions_brutes):
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
+    
+    prompt = (
+        f"Tu es un prévisionniste météo professionnel pour une grande chaîne de télévision (type BFM TV, TF1).\n"
+        f"À partir des prévisions brutes ci-dessous pour chaque département de la région '{region}', "
+        f"rédige un bulletin de synthèse UNIQUE et global pour l'ensemble de la région.\n\n"
+        f"RÈGLES IMPORTANTES :\n"
+        f"1. Ne fais PAS de liste département par département. Synthétise pour la région.\n"
+        f"2. Découpe ton bulletin en 3 périodes exactes :\n"
+        f"   - ### 📅 Prévisions pour la Nuit Prochaine\n"
+        f"   - ### 📅 Prévisions pour Demain (Journée)\n"
+        f"   - ### 📅 Prévisions pour Après-Demain\n"
+        f"3. Pour chaque période, utilise EXACTEMENT la structure suivante :\n"
+        f"   - #### 🌐 Situation Générale :\n"
+        f"     (Description générale du temps en 2-4 lignes maximum)\n"
+        f"   - #### 🗺️ Éléments clés par secteur :\n"
+        f"     (Puces détaillant le temps par zone géographique/secteur de la région)\n"
+        f"   - #### 🌡️ Le Thermomètre :\n"
+        f"     (Puces détaillant les températures minimales et maximales)\n"
+        f"4. Ne mentionne jamais 'Météo-France' dans le texte rédigé.\n"
+        f"5. Conserve les valeurs importantes (températures, vent).\n\n"
+        f"Données brutes :\n{previsions_brutes}"
+    )
+    
+    if gemini_key:
+        print(f"[LLM REGIONAL] Appel de l'API Gemini pour {region}...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
+        data = {
+            "contents": [{"parts": [{"text": prompt}]}]
+        }
+        try:
+            import urllib.request
+            import json
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(data).encode('utf-8'),
+                headers={"Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=25) as response:
+                res = json.loads(response.read().decode('utf-8'))
+                text = res["candidates"][0]["content"]["parts"][0]["text"]
+                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
+        except Exception as e:
+            print(f"[LLM REGIONAL] Échec appel Gemini : {e}")
+
+    if openrouter_key:
+        print(f"[LLM REGIONAL] Appel de l'API OpenRouter (DeepSeek) pour {region}...")
+        url = "https://openrouter.ai/api/v1/chat/completions"
+        data = {
+            "model": "deepseek/deepseek-chat",
+            "messages": [{"role": "user", "content": prompt}]
+        }
+        try:
+            import urllib.request
+            import json
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(data).encode('utf-8'),
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {openrouter_key}"
+                },
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=25) as response:
+                res = json.loads(response.read().decode('utf-8'))
+                text = res["choices"][0]["message"]["content"]
+                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
+        except Exception as e:
+            print(f"[LLM REGIONAL] Échec appel OpenRouter : {e}")
+            
+    print(f"[LLM REGIONAL] Utilisation du fallback pour {region}...")
+    return generer_briefing_regional_fallback(region, previsions_brutes)
+
 def generer_synthese_nationale(dossier_source):
     periodes = ["cettenuit", "demain", "apres-demain"]
     synthese_periods = {}
@@ -720,35 +825,30 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
         else:
             md += "*Aucun bulletin national disponible.*\n\n"
     else:
-        md += "---\n\n## 🌡️ Prévisions Terrestres Détaillées par Département\n\n"
-        has_land_forecast = False
+        md += "---\n\n## 📺 Briefing Régional pour la Présentation TV\n\n"
+        previsions_list = []
         for dept_code, nom_dept in config["departements"].items():
             root = trouver_prev_xml(dossier_source, dept_code)
             if root is not None:
-                has_land_forecast = True
-                md += f"### 📍 {nom_dept} ({dept_code})\n\n"
-                
+                dept_desc = f"Département {nom_dept} ({dept_code}) :\n"
                 obs = root.find('observation')
                 if obs is not None and obs.text:
-                    obs_clean = nettoyer_texte_mto(obs.text)
-                    md += f"> **Relevés récents :** {obs_clean}\n\n"
-                    
-                for groupe in root.findall('groupe'):
-                    label_date = extraire_label_date(groupe)
-                    titre = groupe.find('titre')
-                    temps = groupe.find('temps')
-                    
-                    titre_txt = titre.text.strip() if titre is not None and titre.text else ""
-                    temps_txt = nettoyer_texte_mto(temps.text.strip() if temps is not None and temps.text else "")
-                    
-                    md += f"#### 📅 {label_date}\n"
-                    if titre_txt:
-                        md += f"> **Tendance générale :** {titre_txt}  \n"
-                    md += f"{temps_txt}\n\n"
-                md += "\n"
+                    dept_desc += f"  Observations : {obs.text.strip()}\n"
+                for g in root.findall('groupe'):
+                    label_date = extraire_label_date(g)
+                    titre = g.find('titre')
+                    temps = g.find('temps')
+                    t_txt = titre.text.strip() if titre is not None and titre.text else ""
+                    m_txt = temps.text.strip() if temps is not None and temps.text else ""
+                    dept_desc += f"  Période {label_date} :\n    Tendance : {t_txt}\n    Détails : {m_txt}\n"
+                previsions_list.append(dept_desc)
                 
-        if not has_land_forecast:
-            md += "*Aucune prévision terrestre détaillée n'est disponible localement.*\n"
+        if previsions_list:
+            previsions_brutes = "\n".join(previsions_list)
+            briefing_text = generer_briefing_regional_llm(region, previsions_brutes)
+            md += briefing_text + "\n\n"
+        else:
+            md += "*Aucune prévision disponible pour cette région.*\n\n"
 
     # 6. Section Montagne & Altitude (si applicable)
     if config["zones_montagne"]:

@@ -161,17 +161,32 @@ def md_to_html(md_text):
         bq_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', bq_content)
         
         if blockquote_type == "important":
-            return (
-                f'<div class="info-card">'
-                f'<span class="badge-red" style="margin-bottom:12px;">🔥 INFORMATION IMPORTANTE</span>'
-                f'<div style="font-size:13.5px; line-height:1.6;">{bq_content}</div>'
-                f'</div>'
-            )
+            if "orange" in bq_content.lower() or "canicule" in bq_content.lower():
+                return (
+                    f'<div class="warning-card">'
+                    f'<span class="badge-orange" style="margin-bottom:12px;">🔥 INFORMATION IMPORTANTE</span>'
+                    f'<div style="font-size:13.5px; line-height:1.6; color:#9a3412;">{bq_content}</div>'
+                    f'</div>'
+                )
+            elif "rouge" in bq_content.lower():
+                return (
+                    f'<div style="background-color: #fef2f2; border-left: 5px solid #ef4444; border-radius: 8px; padding: 16px; margin-bottom: 16px; border: 1px solid #fecaca;">'
+                    f'<span class="badge-red" style="margin-bottom:12px;">🔥 INFORMATION IMPORTANTE</span>'
+                    f'<div style="font-size:13.5px; line-height:1.6; color:#991b1b;">{bq_content}</div>'
+                    f'</div>'
+                )
+            else:
+                return (
+                    f'<div class="info-card">'
+                    f'<span style="background-color: #dcfce7; color: #166534; padding: 4px 8px; border-radius: 4px; font-weight: 700; font-size: 12px; display: inline-block; margin-bottom:12px;">🔥 INFORMATION IMPORTANTE</span>'
+                    f'<div style="font-size:13.5px; line-height:1.6; color:#166534;">{bq_content}</div>'
+                    f'</div>'
+                )
         elif blockquote_type == "warning":
             return (
                 f'<div class="warning-card">'
                 f'<span class="badge-orange" style="margin-bottom:12px;">⚠️ ALERTE METEO</span>'
-                f'<div style="font-size:13.5px; line-height:1.6;">{bq_content}</div>'
+                f'<div style="font-size:13.5px; line-height:1.6; color:#9a3412;">{bq_content}</div>'
                 f'</div>'
             )
         else:
