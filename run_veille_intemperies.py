@@ -24,8 +24,8 @@ import email.utils
 from email.utils import formatdate
 from googlenewsdecoder import gnewsdecoder
 
-# Comptes météo à suivre (issus de votre liste d'abonnements)
-ACCOUNTS = [
+# Tous les abonnements Twitter (liste complète)
+PRIORITY_ACCOUNTS = [
     "laradiometeo", "AEMET_Esp", "AEMET_Aragon", "Aigle_e", "stormchaser_a81", "AlexyMeteo",
     "AnthoGrillon", "Arameteo_france", "globerourdiales", "ChroChao", "Cycloneoi", "DorianDziadula",
     "TropicalTidbits", "SergeZaka", "ElTiempoes", "Estofex", "EtienneFargetMC", "EvelyneDheliat",
@@ -42,14 +42,28 @@ ACCOUNTS = [
     "philklotzbach", "SkyPhilippe", "previneige", "Prefet971", "Prefet972", "Prefet974", "romumartinik",
     "smlmrn", "Thom_Wx", "Stormyalert", "StevenTual_off", "sxmcyclone", "ThomasBlanchar2", "lePlaymobil28",
     "TimeoLepert", "Djpuco", "Navarrameteo", "AutanTramontane", "VigiMeteoFrance", "StormchaserUKEU",
-    "wxcharts", "Zactus_re"
+    "wxcharts", "Zactus_re",
 ]
 
+# Instances Nitter en rotation (fallback automatique si l'une tombe)
+NITTER_INSTANCES = [
+    "nitter.privacyredirect.com",
+    "nitter.poast.org",
+    "nitter.net",
+    "nitter.1d4.us",
+]
+
+# Comptes toujours inclus sans filtre mot-clé (cycloniques)
+CYCLONE_ACCOUNTS = {
+    "globalcyclones", "cycloneoi", "meteo_reunion", "sxmcyclone",
+    "meteouragans", "infosyclone_44", "hurrtrackerapp", "philklotzbach",
+}
+
 WEATHER_KEYWORDS = [
-    'orage', 'grêle', 'grele', 'vent', 'rafale', 'tornade', 'inondation', 
-    'débordement', 'crues', 'foudre', 'cyclone', 'ouragan', 'typhon', 
-    'tempête', 'tempete', 'antilles', 'guadeloupe', 'martinique', 
-    'réunion', 'reunion', 'tropical', 'haishen', 'caraïbes'
+    'orage', 'grêle', 'grele', 'vent', 'rafale', 'tornade', 'inondation',
+    'débordement', 'crues', 'foudre', 'cyclone', 'ouragan', 'typhon',
+    'tempête', 'tempete', 'antilles', 'guadeloupe', 'martinique',
+    'réunion', 'reunion', 'tropical', 'caraïbes', 'vigilance', 'alerte',
 ]
 
 def fetch_gnews_xml_with_retry(query):
@@ -133,68 +147,127 @@ def clean_accents(s):
     nfkd = unicodedata.normalize('NFKD', s)
     return "".join([c for c in nfkd if not unicodedata.combining(c)]).lower()
 
-def fetch_twitter_tweets_gnews():
-    print("[Twitter] Collecte indirecte via Google News RSS...")
-    # Regrouper les requêtes en chunks de 10 comptes
-    chunks = [ACCOUNTS[i:i+10] for i in range(0, len(ACCOUNTS), 10)]
-    all_items = []
-    
-    # Étape 1 : Récupérer les liens Google News correspondants aux comptes
-    for chunk in chunks[:4]:  # On limite à 40 comptes clés pour rester rapide
-        q = " OR ".join([f"site:x.com/{acc}" for acc in chunk])
-        try:
-            xml_data = fetch_gnews_xml_with_retry(q)
-            root = ET.fromstring(xml_data)
-            for item in root.findall('.//item')[:12]:
-                all_items.append({
-                    "title": item.findtext('title') or "",
-                    "link": item.findtext('link') or "",
-                    "pubDate": item.findtext('pubDate') or ""
-                })
-        except Exception as e:
-            print(f"[Twitter] Erreur chunk : {e}", file=sys.stderr)
-            
-    # Étape 2 : Décoder les URLs Google News et filtrer
-    filtered_tweets = []
+def fetch_nitter_rss(username, instance):
+    """Récupère le flux RSS Nitter d'un compte Twitter."""
+    url = f"https://{instance}/{username}/rss"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            return response.read()
+    except Exception:
+        return None
+
+def nitter_to_xcom(url):
+    """Convertit une URL Nitter en URL x.com standard et lisible par tous."""
+    # Ex: https://nitter.privacyredirect.com/meteofrance/status/123 -> https://x.com/meteofrance/status/123
+    match = re.search(r'/([^/]+)/status/(\d+)', url)
+    if match:
+        return f"https://x.com/{match.group(1)}/status/{match.group(2)}"
+    return url
+
+def is_valid_url(url):
+    """Vérifie qu'une URL est utilisable (pas vide, pas Google News, bien formée)."""
+    if not url:
+        return False
+    if "news.google.com" in url:
+        return False
+    if not url.startswith("http"):
+        return False
+    return True
+
+def fetch_twitter_tweets_nitter():
+    """Collecte les tweets météo via flux RSS Nitter. URLs converties en x.com."""
+    print("[Twitter/Nitter] Collecte via flux RSS Nitter...")
+    tweets = []
     now = datetime.datetime.now(datetime.timezone.utc)
-    for item in all_items:
+    instance_idx = 0
+
+    for username in PRIORITY_ACCOUNTS:
+        if len(tweets) >= 50:
+            break
+
+        # Rotation d'instances Nitter
+        xml_data = None
+        for i in range(len(NITTER_INSTANCES)):
+            instance = NITTER_INSTANCES[(instance_idx + i) % len(NITTER_INSTANCES)]
+            xml_data = fetch_nitter_rss(username, instance)
+            if xml_data:
+                break
+        instance_idx += 1
+
+        if not xml_data:
+            continue
+
         try:
-            real_url = resolve_google_news_link(item["link"])
-            if real_url and "news.google.com" not in real_url:
-                match = re.search(r'(?:x|twitter)\.com/([^/]+)/status/(\d+)', real_url)
-                if match:
-                    username = match.group(1)
-                    text = item["title"]
-                    if text.endswith(" - x.com"):
-                        text = text[:-8]
-                    elif text.endswith(" - twitter.com"):
-                        text = text[:-14]
-                        
-                    # Filtrer par mots-clés
-                    text_lower = clean_accents(text)
-                    if any(kw in text_lower for kw in WEATHER_KEYWORDS) or username.lower() in ["globalcyclones", "cycloneoi", "meteo_reunion"]:
-                        pub_dt = email.utils.parsedate_to_datetime(item["pubDate"])
-                        if pub_dt.tzinfo is None:
-                            pub_dt = pub_dt.replace(tzinfo=datetime.timezone.utc)
-                        age = now - pub_dt
-                        
-                        # Limiter aux dernières 24 heures pour la fraîcheur
-                        if age <= datetime.timedelta(hours=24):
-                            filtered_tweets.append({
-                                "author": username,
-                                "text": text,
-                                "url": real_url,
-                                "date": item["pubDate"]
-                            })
-        except Exception:
-            pass
-            
-    return filtered_tweets[:15]
+            root = ET.fromstring(xml_data)
+            count = 0
+            for item in root.findall(".//item"):
+                title = item.findtext("title") or ""
+                link = item.findtext("link") or ""
+                pub_date = item.findtext("pubDate") or ""
+
+                # Filtre 24h STRICT : sans date valide, on rejette
+                try:
+                    pub_dt = email.utils.parsedate_to_datetime(pub_date)
+                    if pub_dt.tzinfo is None:
+                        pub_dt = pub_dt.replace(tzinfo=datetime.timezone.utc)
+                    if now - pub_dt > datetime.timedelta(hours=24):
+                        continue  # Trop vieux
+                except Exception:
+                    continue  # Pas de date = rejet
+
+                # Conversion URL Nitter -> x.com (liens ouverts par tous)
+                xcom_url = nitter_to_xcom(link)
+                if not is_valid_url(xcom_url):
+                    continue
+
+                # Filtre mot-clé (comptes cycloniques toujours inclus)
+                text_lower = clean_accents(title)
+                if username.lower() in CYCLONE_ACCOUNTS or any(kw in text_lower for kw in WEATHER_KEYWORDS):
+                    tweets.append({
+                        "author": f"@{username}",
+                        "text": title,
+                        "url": xcom_url,
+                        "date": pub_date
+                    })
+                    count += 1
+                    if count >= 4:  # Max 4 tweets par compte
+                        break
+        except Exception as e:
+            print(f"[Nitter] Erreur parsing @{username}: {e}")
+
+        time.sleep(0.3)  # Crawling poli
+
+    print(f"[Twitter/Nitter] {len(tweets)} tweets collectés sur {len(PRIORITY_ACCOUNTS)} comptes")
+    return tweets
 
 def call_llm(system_prompt, user_prompt):
-    gemini_key = (os.environ.get("GEMINI_API_KEY") or "").strip()
     openrouter_key = (os.environ.get("OPENROUTER_API_KEY") or "").strip()
+    gemini_key = (os.environ.get("GEMINI_API_KEY") or "").strip()
 
+    # OpenRouter (DeepSeek) — Prioritaire
+    if openrouter_key:
+        url = "https://openrouter.ai/api/v1/chat/completions"
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {openrouter_key}"
+        }
+        payload = {
+            "model": "deepseek/deepseek-v4-flash",
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+        }
+        try:
+            req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+            with urllib.request.urlopen(req, timeout=90) as response:
+                res_data = json.loads(response.read().decode("utf-8"))
+                return res_data["choices"][0]["message"]["content"]
+        except Exception as e:
+            print(f"[LLM] Échec OpenRouter API: {e}")
+
+    # Gemini — Fallback
     if gemini_key:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
         headers = {"Content-Type": "application/json"}
@@ -210,28 +283,7 @@ def call_llm(system_prompt, user_prompt):
                 return res_data["candidates"][0]["content"]["parts"][0]["text"]
         except Exception as e:
             print(f"[LLM] Échec Gemini API: {e}")
-            
-    if openrouter_key:
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {openrouter_key}"
-        }
-        payload = {
-            "model": "google/gemini-2.5-flash",
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ]
-        }
-        try:
-            req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=90) as response:
-                res_data = json.loads(response.read().decode("utf-8"))
-                return res_data["choices"][0]["message"]["content"]
-        except Exception as e:
-            print(f"[LLM] Échec OpenRouter API: {e}")
-            
+
     return None
 
 def build_report_data(raw_news, tweets, date_str):
@@ -239,16 +291,17 @@ def build_report_data(raw_news, tweets, date_str):
         "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
         "Ton rôle est de rédiger un bulletin de veille complet et extrêmement détaillé sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que l'activité cyclonique mondiale.\n\n"
         "Tu dois générer une liste JSON contenant au maximum 10 objets représentant les points de vigilance météo critiques des dernières 24 heures.\n"
-        "RÈGLES D'INTEGRITÉ ET DE RECUL TEMPOREL :\n"
-        "1. STRICTEMENT MOINS DE 24 HEURES : Tous les événements décrits doivent dater de moins de 24 heures par rapport à la date du rapport. Ne mentionne aucun événement passé plus ancien.\n"
-        "2. PAS D'INVENTION : Ne crée ou n'invente aucun événement météo fictif. Si les données fournies contiennent moins de 10 événements uniques dans les dernières 24 heures, génère simplement la liste avec le nombre exact d'événements réels présents (entre 1 et 10, sans forcer à 10).\n\n"
+        "RÈGLES IMPERATIVES — VIOLATION = RAPPORT INVALIDE :\n"
+        "1. STRICTEMENT MOINS DE 24 HEURES : Chaque événement doit IMPERATIVEMENT dater de moins de 24 heures. Ne mentionne JAMAIS un événement plus ancien, même si les données en contiennent.\n"
+        "2. PAS D'INVENTION : Ne crée ou n'invente aucun événement météo fictif. Si les données contiennent moins de 10 événements réels dans les 24h, génère uniquement ce nombre exact.\n"
+        "3. URLS EXACTES ET VALIDES : Le champ 'url' doit être RECOPIE A LA LETTRE depuis les données source, sans aucune modification, invention ou troncature. Les URLs x.com/... ou https://... doivent être conservées telles quelles. Ne génère JAMAIS une URL inventeé ou incohérente.\n\n"
         "Chaque objet de la liste doit posséder la structure suivante :\n"
         "  - \"title\": Le titre précis et percutant de l'événement.\n"
-        "  - \"category\": La catégorie exacte de l'événement parmi : 'CYCLONE', 'ORAGES', 'GRÊLE', 'INONDATIONS', 'VENT', 'VIGILANCE'. Choisis avec soin (par exemple, un orage avec grêle doit être catégorisé en 'ORAGES' ou 'GRÊLE' et NON pas en 'CYCLONE' sous prétexte que la source s'appelle Cycloneoi).\n"
-        "  - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales en km/h, cumuls de pluie en mm, diamètre des grêlons) et les impacts constatés.\n"
-        "  - \"source\": Le nom de la source d'origine de l'information (ex: 'franceinfo', 'Météo-France', 'Météo Express', 'Le Quotidien de La Réunion', etc.).\n"
-        "  - \"url\": L'URL d'origine de l'article ou du tweet (recopiée à la lettre sans modification).\n\n"
-        "Format de sortie attendu : un tableau JSON uniquement contenant les objets (sans blocs ```json et sans clé d'enveloppe) :\n"
+        "  - \"category\": La catégorie exacte de l'événement parmi : 'CYCLONE', 'ORAGES', 'GRÊLE', 'INONDATIONS', 'VENT', 'VIGILANCE'.\n"
+        "  - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales en km/h, cumuls de pluie en mm, diamètre des grëlons) et les impacts constatés.\n"
+        "  - \"source\": Le nom de la source d'origine (compte Twitter @xxx, ou nom du média).\n"
+        "  - \"url\": L'URL EXACTE recopiée depuis les données source. JAMAIS inventée.\n\n"
+        "Format de sortie attendu : un tableau JSON uniquement (sans blocs ```json et sans clé d'enveloppe) :\n"
         "[\n"
         "  {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"source\": \"...\", \"url\": \"...\"},\n"
         "  ...\n"
