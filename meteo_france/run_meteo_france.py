@@ -35,28 +35,7 @@ def call_llm_summary(bulletin_content):
         "(vigilance canicule/orages, températures extrêmes, etc.) :\n\n" + bulletin_content
     )
     
-    # Tentative avec Gemini
-    if gemini_key:
-        print("[LLM] Appel de l'API Gemini...")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
-        data = {
-            "contents": [{"parts": [{"text": prompt}]}]
-        }
-        try:
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(data).encode('utf-8'),
-                headers={"Content-Type": "application/json"},
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=20) as response:
-                res = json.loads(response.read().decode('utf-8'))
-                text = res["candidates"][0]["content"]["parts"][0]["text"]
-                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
-        except Exception as e:
-            print(f"[LLM] Échec appel Gemini : {e}")
-
-    # Tentative avec OpenRouter (DeepSeek)
+    # Tentative avec OpenRouter (DeepSeek) - Prioritaire
     if openrouter_key:
         print("[LLM] Appel de l'API OpenRouter (DeepSeek)...")
         url = "https://openrouter.ai/api/v1/chat/completions"
@@ -80,6 +59,27 @@ def call_llm_summary(bulletin_content):
                 return text.replace('\ufeff', '').replace('\ufffe', '').strip()
         except Exception as e:
             print(f"[LLM] Échec appel OpenRouter : {e}")
+
+    # Tentative avec Gemini - Fallback
+    if gemini_key:
+        print("[LLM] Appel de l'API Gemini...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
+        data = {
+            "contents": [{"parts": [{"text": prompt}]}]
+        }
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(data).encode('utf-8'),
+                headers={"Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=20) as response:
+                res = json.loads(response.read().decode('utf-8'))
+                text = res["candidates"][0]["content"]["parts"][0]["text"]
+                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
+        except Exception as e:
+            print(f"[LLM] Échec appel Gemini : {e}")
             
     # Fallback si pas de clés d'API ou si échec des appels
     print("[LLM] Utilisation du fallback d'extraction textuelle...")
@@ -490,225 +490,208 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
     <meta charset="UTF-8">
     <title>{title_full}</title>
     <style>
-        :root {{
-            --bg-color: #0b0f19;
-            --card-bg: #151b26;
-            --card-border: #232d3d;
-            --primary: #3b82f6;
-            --primary-glow: rgba(59, 130, 246, 0.15);
-            --text-main: #f3f4f6;
-            --text-muted: #9ca3af;
-            --accent-orange: #f97316;
-            --accent-yellow: #eab308;
-            --accent-blue: #0ea5e9;
-        }}
-        * {{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }}
-        body {{
-            background-color: #0b0f19;
-            color: #f3f4f6;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            
+            --vigi-orange-bg: #fff7ed;
+            --vigi-orange-border: #f97316;
+            --vigi-orange-text: #9a3412;
+            
+            --vigi-yellow-bg: #fefce8;
+            --vigi-yellow-border: #eab308;
+            --vigi-yellow-text: #854d0e;
+            
+            --vigi-red-bg: #fef2f2;
+            --vigi-red-border: #ef4444;
+            --vigi-red-text: #991b1b;
+        }
+        
+        body {
+            font-family: 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
             line-height: 1.6;
-            padding: 2.5rem 1.5rem;
-            background-image: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 45%),
-                              radial-gradient(circle at 90% 80%, rgba(249, 115, 22, 0.05) 0%, transparent 45%);
-            background-attachment: fixed;
-        }}
-        .container {{
+            margin: 0;
+            padding: 30px 15px;
+        }
+        
+        .container {
             max-width: 800px;
             margin: 0 auto;
-        }}
-        .header {{
-            text-align: center;
-            margin-bottom: 3rem;
-            position: relative;
-        }}
-        .header h1 {{
-            font-size: 2rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #f3f4f6 30%, #a5b4fc 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.025em;
-        }}
-        .header p {{
-            font-size: 0.95rem;
-            color: #9ca3af;
-        }}
-        .content {{
-            background: #151b26;
-            border: 1px solid #232d3d;
+            background-color: var(--bg-card);
             border-radius: 16px;
-            padding: 2.5rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }}
-        .section-title {{
-            color: #0ea5e9;
-            font-size: 1.25rem;
-            font-weight: 800;
-            border-bottom: 1px solid #232d3d;
-            padding-bottom: 0.5rem;
-            margin-top: 2rem;
-            margin-bottom: 1.25rem;
-        }}
-        .badge-red {{
-            background-color: rgba(239, 68, 68, 0.15);
-            color: #f87171;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 12px;
-            display: inline-block;
-            border: 1px solid rgba(239, 68, 68, 0.2);
-        }}
-        .badge-orange {{
-            background-color: rgba(249, 115, 22, 0.15);
-            color: #fb923c;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 12px;
-            display: inline-block;
-            border: 1px solid rgba(249, 115, 22, 0.2);
-        }}
-        .badge-yellow {{
-            background-color: rgba(234, 179, 8, 0.15);
-            color: #fde047;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 12px;
-            display: inline-block;
-            border: 1px solid rgba(234, 179, 8, 0.2);
-        }}
-        .vigilance-card {{
-            border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 16px;
-            border: 1px solid #232d3d;
-            background: rgba(255,255,255,0.01);
-        }}
-        .vigilance-red {{
-            border-left: 5px solid #ef4444;
-        }}
-        .vigilance-orange {{
-            border-left: 5px solid #f97316;
-        }}
-        .vigilance-yellow {{
-            border-left: 5px solid #eab308;
-        }}
-        .badge-dept-red {{
-            display: inline-block;
-            background-color: rgba(239, 68, 68, 0.2);
-            color: #f87171;
-            padding: 2px 8px;
-            margin: 2px 2px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 600;
-            border: 1px solid rgba(239, 68, 68, 0.3);
-        }}
-        .badge-dept-orange {{
-            display: inline-block;
-            background-color: rgba(249, 115, 22, 0.2);
-            color: #fb923c;
-            padding: 2px 8px;
-            margin: 2px 2px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 600;
-            border: 1px solid rgba(249, 115, 22, 0.3);
-        }}
-        .badge-dept-yellow {{
-            display: inline-block;
-            background-color: rgba(234, 179, 8, 0.2);
-            color: #fde047;
-            padding: 2px 8px;
-            margin: 2px 2px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 600;
-            border: 1px solid rgba(234, 179, 8, 0.3);
-        }}
-        .info-card {{
-            background-color: rgba(16, 185, 129, 0.05);
-            border-left: 5px solid #10b981;
-            border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 16px;
-            border: 1px solid rgba(16, 185, 129, 0.15);
-        }}
-        .warning-card {{
-            background-color: rgba(245, 158, 11, 0.05);
-            border-left: 5px solid #f59e0b;
-            border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 16px;
-            border: 1px solid rgba(245, 158, 11, 0.15);
-        }}
-        .table-container {{
-            margin-bottom: 20px;
-            border: 1px solid #232d3d;
-            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+            border: 1px solid var(--border);
             overflow: hidden;
-        }}
-        table {{
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            padding: 35px 24px;
+            text-align: center;
+            border-bottom: 4px solid var(--primary);
+            position: relative;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        
+        .header p {
+            margin-top: 8px;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+        
+        .content {
+            padding: 24px;
+        }
+        
+        .section-title {
+            color: #0f172a;
+            font-size: 16px;
+            font-weight: 700;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }
+        
+        .subsection-title {
+            color: #1e293b;
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-top: 0;
+            margin-bottom: 14px;
+            color: #334155;
+            font-size: 14.5px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 6px;
+            color: #334155;
+            font-size: 14.5px;
+        }
+        
+        /* Callouts / Alert boxes */
+        .callout {
+            display: flex;
+            gap: 12px;
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+        }
+        
+        .callout-icon {
+            font-size: 18px;
+            line-height: 1;
+        }
+        
+        .callout-body {
+            font-size: 13.5px;
+            font-weight: 500;
+        }
+        
+        .callout-important {
+            background-color: var(--vigi-orange-bg);
+            border-color: var(--vigi-orange-border);
+            color: var(--vigi-orange-text);
+        }
+        
+        .callout-warning {
+            background-color: var(--vigi-yellow-bg);
+            border-color: var(--vigi-yellow-border);
+            color: var(--vigi-yellow-text);
+        }
+        
+        .callout-note {
+            background-color: #f1f5f9;
+            border-color: var(--border);
+            color: #334155;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        
+        table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 13.5px;
-        }}
-        th {{
-            background-color: #0f172a;
-            color: #ffffff;
-            padding: 10px 12px;
             text-align: left;
-            font-weight: 700;
-            border-bottom: 2px solid #232d3d;
-        }}
-        td {{
-            padding: 10px 12px;
-            border-bottom: 1px solid #232d3d;
-            background-color: #151b26;
-            color: #f3f4f6;
-        }}
-        tr:nth-child(even) td {{
-            background-color: rgba(255, 255, 255, 0.01);
-        }}
-        .footer {{
+        }
+        
+        th {
+            background-color: #f8fafc;
+            color: #0f172a;
+            font-weight: 600;
+            font-size: 12.5px;
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        td {
+            padding: 10px 14px;
+            font-size: 13.5px;
+            border-bottom: 1px solid var(--border);
+            color: #334155;
+            background-color: #ffffff;
+        }
+        
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        strong {
+            color: #0f172a;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: var(--border);
+            margin: 30px 0;
+        }
+        
+        .footer {
+            background-color: #f8fafc;
+            padding: 20px;
+            border-top: 1px solid var(--border);
             text-align: center;
             font-size: 11px;
-            color: #9ca3af;
-            border-top: 1px solid #232d3d;
-            padding-top: 1.5rem;
-            margin-top: 2rem;
-        }}
-        blockquote {{
-            background-color: rgba(255,255,255,0.015);
-            border-left: 4px solid #3b82f6;
-            padding: 8px 16px;
-            margin: 0 0 16px 0;
-            font-style: italic;
-            color: #9ca3af;
-        }}
-        p {{
-            margin: 0 0 12px 0;
-            text-align: justify;
-            line-height: 1.6;
-            font-size: 14.5px;
-        }}
-        ul {{
-            margin: 0 0 16px 0;
-            padding-left: 20px;
-        }}
-        li {{
-            margin-bottom: 6px;
-            font-size: 14px;
-        }}
+            color: var(--text-muted);
+        }
     </style>
 </head>
 <body>
@@ -769,207 +752,207 @@ def send_email_with_summary(national_md, date_str, zip_path):
     <meta charset="UTF-8">
     <title>{title_full}</title>
     <style>
+        :root {{
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            
+            --vigi-orange-bg: #fff7ed;
+            --vigi-orange-border: #f97316;
+            --vigi-orange-text: #9a3412;
+            
+            --vigi-yellow-bg: #fefce8;
+            --vigi-yellow-border: #eab308;
+            --vigi-yellow-text: #854d0e;
+            
+            --vigi-red-bg: #fef2f2;
+            --vigi-red-border: #ef4444;
+            --vigi-red-text: #991b1b;
+        }}
+        
         body {{
-            background-color: #0b0f19;
-            color: #f3f4f6;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
             line-height: 1.6;
             margin: 0;
             padding: 30px 15px;
         }}
+        
         .container {{
             max-width: 800px;
             margin: 0 auto;
-            background: #151b26;
-            border: 1px solid #232d3d;
+            background-color: var(--bg-card);
             border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+            border: 1px solid var(--border);
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }}
+        
         .header {{
-            background: linear-gradient(135deg, #0f172a, #1e293b);
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: #ffffff;
             padding: 35px 24px;
             text-align: center;
-            border-bottom: 3px solid #3b82f6;
+            border-bottom: 4px solid var(--primary);
+            position: relative;
         }}
+        
         .header h1 {{
             margin: 0;
             font-size: 22px;
-            font-weight: 800;
-            letter-spacing: 0.5px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
         }}
+        
         .header p {{
-            margin: 8px 0 0 0;
+            margin-top: 8px;
             font-size: 13px;
-            color: #9ca3af;
+            color: #94a3b8;
         }}
+        
         .content {{
             padding: 24px;
         }}
+        
         .section-title {{
-            color: #0ea5e9;
+            color: #0f172a;
             font-size: 16px;
-            font-weight: 800;
-            border-bottom: 1px solid #232d3d;
-            padding-bottom: 6px;
+            font-weight: 700;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
             margin-top: 30px;
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }}
+        
+        .subsection-title {{
+            color: #1e293b;
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }}
+        
+        p {{
+            margin-top: 0;
             margin-bottom: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            color: #334155;
+            font-size: 14.5px;
+            text-align: justify;
         }}
-        .badge-red {{
-            background-color: rgba(239, 68, 68, 0.15);
-            color: #f87171;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 12px;
-            display: inline-block;
-            border: 1px solid rgba(239, 68, 68, 0.2);
-        }}
-        .badge-orange {{
-            background-color: rgba(249, 115, 22, 0.15);
-            color: #fb923c;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 12px;
-            display: inline-block;
-            border: 1px solid rgba(249, 115, 22, 0.2);
-        }}
-        .badge-yellow {{
-            background-color: rgba(234, 179, 8, 0.15);
-            color: #fde047;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 12px;
-            display: inline-block;
-            border: 1px solid rgba(234, 179, 8, 0.2);
-        }}
-        .vigilance-card {{
-            border-radius: 8px;
-            padding: 16px;
+        
+        ul {{
+            margin-top: 0;
             margin-bottom: 16px;
-            border: 1px solid #232d3d;
-            background: rgba(255,255,255,0.01);
+            padding-left: 20px;
         }}
-        .vigilance-red {{
-            border-left: 5px solid #ef4444;
+        
+        li {{
+            margin-bottom: 6px;
+            color: #334155;
+            font-size: 14.5px;
         }}
-        .vigilance-orange {{
-            border-left: 5px solid #f97316;
-        }}
-        .vigilance-yellow {{
-            border-left: 5px solid #eab308;
-        }}
-        .badge-dept-red {{
-            display: inline-block;
-            background-color: rgba(239, 68, 68, 0.2);
-            color: #f87171;
-            padding: 2px 8px;
-            margin: 2px 2px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 600;
-            border: 1px solid rgba(239, 68, 68, 0.3);
-        }}
-        .badge-dept-orange {{
-            display: inline-block;
-            background-color: rgba(249, 115, 22, 0.2);
-            color: #fb923c;
-            padding: 2px 8px;
-            margin: 2px 2px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 600;
-            border: 1px solid rgba(249, 115, 22, 0.3);
-        }}
-        .badge-dept-yellow {{
-            display: inline-block;
-            background-color: rgba(234, 179, 8, 0.2);
-            color: #fde047;
-            padding: 2px 8px;
-            margin: 2px 2px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 600;
-            border: 1px solid rgba(234, 179, 8, 0.3);
-        }}
-        .info-card {{
-            background-color: rgba(16, 185, 129, 0.05);
-            border-left: 5px solid #10b981;
-            border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 16px;
-            border: 1px solid rgba(16, 185, 129, 0.15);
-        }}
-        .warning-card {{
-            background-color: rgba(245, 158, 11, 0.05);
-            border-left: 5px solid #f59e0b;
-            border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 16px;
-            border: 1px solid rgba(245, 158, 11, 0.15);
-        }}
-        .table-container {{
+        
+        /* Callouts / Alert boxes */
+        .callout {{
+            display: flex;
+            gap: 12px;
+            padding: 14px;
+            border-radius: 10px;
             margin-bottom: 20px;
-            border: 1px solid #232d3d;
-            border-radius: 8px;
-            overflow: hidden;
+            border: 1px solid transparent;
         }}
+        
+        .callout-icon {{
+            font-size: 18px;
+            line-height: 1;
+        }}
+        
+        .callout-body {{
+            font-size: 13.5px;
+            font-weight: 500;
+        }}
+        
+        .callout-important {{
+            background-color: var(--vigi-orange-bg);
+            border-color: var(--vigi-orange-border);
+            color: var(--vigi-orange-text);
+        }}
+        
+        .callout-warning {{
+            background-color: var(--vigi-yellow-bg);
+            border-color: var(--vigi-yellow-border);
+            color: var(--vigi-yellow-text);
+        }}
+        
+        .callout-note {{
+            background-color: #f1f5f9;
+            border-color: var(--border);
+            color: #334155;
+        }}
+        
+        /* Tables */
+        .table-container {{
+            overflow-x: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }}
+        
         table {{
             width: 100%;
             border-collapse: collapse;
-            font-size: 13.5px;
-        }}
-        th {{
-            background-color: #0f172a;
-            color: #ffffff;
-            padding: 10px 12px;
             text-align: left;
-            font-weight: 700;
-            border-bottom: 2px solid #232d3d;
         }}
+        
+        th {{
+            background-color: #f8fafc;
+            color: #0f172a;
+            font-weight: 600;
+            font-size: 12.5px;
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border);
+        }}
+        
         td {{
-            padding: 10px 12px;
-            border-bottom: 1px solid #232d3d;
-            background-color: #151b26;
-            color: #f3f4f6;
+            padding: 10px 14px;
+            font-size: 13.5px;
+            border-bottom: 1px solid var(--border);
+            color: #334155;
+            background-color: #ffffff;
         }}
+        
         tr:nth-child(even) td {{
-            background-color: rgba(255, 255, 255, 0.01);
+            background-color: #f8fafc;
         }}
+        
+        tr:last-child td {{
+            border-bottom: none;
+        }}
+        
+        strong {{
+            color: #0f172a;
+        }}
+        
+        hr {{
+            border: 0;
+            height: 1px;
+            background-color: var(--border);
+            margin: 30px 0;
+        }}
+        
         .footer {{
+            background-color: #f8fafc;
+            padding: 20px;
+            border-top: 1px solid var(--border);
             text-align: center;
             font-size: 11px;
-            color: #9ca3af;
-            border-top: 1px solid #232d3d;
-            padding-top: 1.5rem;
-            margin-top: 2rem;
-        }}
-        blockquote {{
-            background-color: rgba(255,255,255,0.015);
-            border-left: 4px solid #3b82f6;
-            padding: 8px 16px;
-            margin: 0 0 16px 0;
-            font-style: italic;
-            color: #9ca3af;
-        }}
-        p {{
-            margin: 0 0 12px 0;
-            text-align: justify;
-            line-height: 1.6;
-            font-size: 14.5px;
-        }}
-        ul {{
-            margin: 0 0 16px 0;
-            padding-left: 20px;
-        }}
-        li {{
-            margin-bottom: 6px;
-            font-size: 14px;
+            color: var(--text-muted);
         }}
     </style>
 </head>
@@ -1108,40 +1091,7 @@ def rewrite_markdown_with_llm(file_path, region):
         f"Texte envoyé :\n\n{content}"
     )
     
-    # Tentative avec Gemini
-    if gemini_key:
-        print(f"[LLM] Réécriture de {region} via Gemini...")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
-        data = {
-            "contents": [{"parts": [{"text": prompt}]}]
-        }
-        try:
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(data).encode('utf-8'),
-                headers={"Content-Type": "application/json"},
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=30) as response:
-                res = json.loads(response.read().decode('utf-8'))
-                rewritten = res["candidates"][0]["content"]["parts"][0]["text"]
-                # Nettoyage si le modèle a entouré le résultat de ```markdown ... ```
-                if rewritten.startswith("```markdown"):
-                    rewritten = rewritten[11:]
-                elif rewritten.startswith("```"):
-                    rewritten = rewritten[3:]
-                if rewritten.endswith("```"):
-                    rewritten = rewritten[:-3]
-                rewritten = rewritten.strip()
-                
-                with open(file_path, 'w', encoding='utf-8') as f:
-                    f.write(rewritten)
-                print(f"[LLM] Réécriture de {region} réussie avec Gemini !")
-                return
-        except Exception as e:
-            print(f"[LLM] Échec réécriture Gemini pour {region} : {e}")
-
-    # Tentative avec OpenRouter (DeepSeek)
+    # Tentative avec OpenRouter (DeepSeek) - Prioritaire
     if openrouter_key:
         print(f"[LLM] Réécriture de {region} via OpenRouter (DeepSeek)...")
         url = "https://openrouter.ai/api/v1/chat/completions"
@@ -1176,6 +1126,39 @@ def rewrite_markdown_with_llm(file_path, region):
                 return
         except Exception as e:
             print(f"[LLM] Échec réécriture OpenRouter pour {region} : {e}")
+
+    # Tentative avec Gemini - Fallback
+    if gemini_key:
+        print(f"[LLM] Réécriture de {region} via Gemini...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
+        data = {
+            "contents": [{"parts": [{"text": prompt}]}]
+        }
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(data).encode('utf-8'),
+                headers={"Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=30) as response:
+                res = json.loads(response.read().decode('utf-8'))
+                rewritten = res["candidates"][0]["content"]["parts"][0]["text"]
+                # Nettoyage si le modèle a entouré le résultat de ```markdown ... ```
+                if rewritten.startswith("```markdown"):
+                    rewritten = rewritten[11:]
+                elif rewritten.startswith("```"):
+                    rewritten = rewritten[3:]
+                if rewritten.endswith("```"):
+                    rewritten = rewritten[:-3]
+                rewritten = rewritten.strip()
+                
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(rewritten)
+                print(f"[LLM] Réécriture de {region} réussie avec Gemini !")
+                return
+        except Exception as e:
+            print(f"[LLM] Échec réécriture Gemini pour {region} : {e}")
 
 def generer_bulletin_departement(dept_code, dossier_source, fichier_sortie):
     root = trouver_prev_xml(dossier_source, dept_code)
