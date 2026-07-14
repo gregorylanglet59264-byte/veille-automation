@@ -68,6 +68,31 @@ def fetch_gnews_xml_with_retry(query):
             print(f"[RSS] Erreur temporaire '{query}' (tentative {attempt+1}/4) : {e}. Pause...")
             time.sleep(attempt * 2 + 2)
 
+def resolve_google_news_link(url):
+    # 1. Essai de décodage local rapide via googlenewsdecoder
+    try:
+        res = gnewsdecoder(url)
+        if res.get("status") and res.get("decoded_url"):
+            d_url = res["decoded_url"]
+            if d_url and "news.google.com" not in d_url:
+                return d_url
+    except Exception:
+        pass
+
+    # 2. En cas d'échec, suivre la redirection HTTP réelle pour obtenir l'URL finale
+    try:
+        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+        # urlopen suit automatiquement les redirections 301/302, donc response.geturl() donne l'adresse finale
+        with urllib.request.urlopen(req, timeout=8) as response:
+            final_url = response.geturl()
+            if final_url and "news.google.com" not in final_url:
+                return final_url
+    except Exception as e:
+        print(f"[RSS] Échec résolution HTTP de redirection pour {url}: {e}")
+        
+    return url # Fallback ultime
+
 def fetch_google_news(query):
     try:
         xml_data = fetch_gnews_xml_with_retry(query)
@@ -79,14 +104,19 @@ def fetch_google_news(query):
             pub_date = item.findtext("pubDate") or ""
             source = item.findtext("source") or ""
             
-            # Décoder le lien de redirection Google News pour avoir l'URL directe
-            decoded_link = link
+            # Filtre strict de fraîcheur (moins de 24h)
             try:
-                res = gnewsdecoder(link)
-                if res.get("status") and res.get("decoded_url"):
-                    decoded_link = res["decoded_url"]
-            except Exception as e:
-                print(f"[RSS] Échec décodage lien Google News: {e}")
+                pub_dt = email.utils.parsedate_to_datetime(pub_date)
+                if pub_dt.tzinfo is None:
+                    pub_dt = pub_dt.replace(tzinfo=datetime.timezone.utc)
+                now = datetime.datetime.now(datetime.timezone.utc)
+                if now - pub_dt > datetime.timedelta(hours=24):
+                    continue  # Ignorer les articles de plus de 24h
+            except Exception:
+                pass
+            
+            # Résoudre le lien Google News en URL directe propre
+            decoded_link = resolve_google_news_link(link)
                 
             articles.append({
                 "title": title,
@@ -129,15 +159,16 @@ def fetch_twitter_tweets_gnews():
     now = datetime.datetime.now(datetime.timezone.utc)
     for item in all_items:
         try:
-            res = gnewsdecoder(item["link"])
-            if res.get("status") and res.get("decoded_url"):
-                real_url = res["decoded_url"]
-                match = re.search(r'x\.com/([^/]+)/status/(\d+)', real_url)
+            real_url = resolve_google_news_link(item["link"])
+            if real_url and "news.google.com" not in real_url:
+                match = re.search(r'(?:x|twitter)\.com/([^/]+)/status/(\d+)', real_url)
                 if match:
                     username = match.group(1)
                     text = item["title"]
                     if text.endswith(" - x.com"):
                         text = text[:-8]
+                    elif text.endswith(" - twitter.com"):
+                        text = text[:-14]
                         
                     # Filtrer par mots-clés
                     text_lower = clean_accents(text)
@@ -147,8 +178,8 @@ def fetch_twitter_tweets_gnews():
                             pub_dt = pub_dt.replace(tzinfo=datetime.timezone.utc)
                         age = now - pub_dt
                         
-                        # Limiter aux dernières 36 heures pour la fraîcheur
-                        if age <= datetime.timedelta(hours=36):
+                        # Limiter aux dernières 24 heures pour la fraîcheur
+                        if age <= datetime.timedelta(hours=24):
                             filtered_tweets.append({
                                 "author": username,
                                 "text": text,
@@ -207,17 +238,20 @@ def build_report_data(raw_news, tweets, date_str):
     system_prompt = (
         "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
         "Ton rôle est de rédiger un bulletin de veille complet et extrêmement détaillé sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que l'activité cyclonique mondiale.\n\n"
-        "Tu dois générer une liste JSON contenant exactement 10 objets représentant les 10 points de vigilance météo critiques.\n"
+        "Tu dois générer une liste JSON contenant au maximum 10 objets représentant les points de vigilance météo critiques des dernières 24 heures.\n"
+        "RÈGLES D'INTEGRITÉ ET DE RECUL TEMPOREL :\n"
+        "1. STRICTEMENT MOINS DE 24 HEURES : Tous les événements décrits doivent dater de moins de 24 heures par rapport à la date du rapport. Ne mentionne aucun événement passé plus ancien.\n"
+        "2. PAS D'INVENTION : Ne crée ou n'invente aucun événement météo fictif. Si les données fournies contiennent moins de 10 événements uniques dans les dernières 24 heures, génère simplement la liste avec le nombre exact d'événements réels présents (entre 1 et 10, sans forcer à 10).\n\n"
         "Chaque objet de la liste doit posséder la structure suivante :\n"
         "  - \"title\": Le titre précis et percutant de l'événement.\n"
         "  - \"category\": La catégorie exacte de l'événement parmi : 'CYCLONE', 'ORAGES', 'GRÊLE', 'INONDATIONS', 'VENT', 'VIGILANCE'. Choisis avec soin (par exemple, un orage avec grêle doit être catégorisé en 'ORAGES' ou 'GRÊLE' et NON pas en 'CYCLONE' sous prétexte que la source s'appelle Cycloneoi).\n"
         "  - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales en km/h, cumuls de pluie en mm, diamètre des grêlons) et les impacts constatés.\n"
         "  - \"source\": Le nom de la source d'origine de l'information (ex: 'franceinfo', 'Météo-France', 'Météo Express', 'Le Quotidien de La Réunion', etc.).\n"
         "  - \"url\": L'URL d'origine de l'article ou du tweet (recopiée à la lettre sans modification).\n\n"
-        "Format de sortie attendu : un tableau JSON uniquement contenant les 10 objets (sans blocs ```json et sans clé d'enveloppe) :\n"
+        "Format de sortie attendu : un tableau JSON uniquement contenant les objets (sans blocs ```json et sans clé d'enveloppe) :\n"
         "[\n"
         "  {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"source\": \"...\", \"url\": \"...\"},\n"
-        "  ... (10 items)\n"
+        "  ...\n"
         "]"
     )
     
@@ -229,7 +263,7 @@ def build_report_data(raw_news, tweets, date_str):
             try:
                 response_clean = response.strip().replace("```json", "").replace("```", "")
                 parsed = json.loads(response_clean, strict=False)
-                if isinstance(parsed, list) and len(parsed) == 10:
+                if isinstance(parsed, list) and 0 < len(parsed) <= 10:
                     return parsed
             except Exception as e:
                 print(f"[LLM] Tentative {attempt+1} échec parsing JSON: {e}")
@@ -244,11 +278,12 @@ def validate_and_correct_report(report_json, date_str):
         "RÈGLES CRITIQUES DE VALIDATION ET CORRECTION :\n"
         "1. ÉTIQUETAGE & COHÉRENCE : Assure-toi qu'un événement classé dans la catégorie 'CYCLONE' concerne bien un cyclone tropical actif mondial (ou typhon/ouragan). Si c'est un simple orage localisé en métropole, ou une tempête classique, requalifie la catégorie en 'ORAGES', 'VENT' ou 'VIGILANCE'. Ne te laisse pas tromper par le nom de la source d'information (par exemple, un tweet du compte '@Cycloneoi' ou '@infosyclone_44' traitant d'un orage localisé ou de fortes pluies à La Réunion doit être étiqueté 'INONDATIONS' ou 'ORAGES' et NON pas 'CYCLONE').\n"
         "2. LIENS DES SOURCES : Assure-toi que toutes les adresses de liens 'url' du JSON sont strictement conservées et non altérées ou inventées.\n"
-        "3. TEXTE & STYLE : Conserve le style descriptif dense et approfondi (summary, minimum 6-8 lignes) pour chacun des 10 points.\n\n"
-        "Renvoie obligatoirement le tableau JSON corrigé avec la même structure (liste de 10 objets) :\n"
+        "3. TEXTE & STYLE : Conserve le style descriptif dense et approfondi (summary, minimum 6-8 lignes) pour chacun des points.\n"
+        "4. EXCLUSION D'ANCIENS ÉVÉNEMENTS : Assure-toi qu'aucun événement ne date d'il y a plus de 24 heures.\n\n"
+        "Renvoie obligatoirement le tableau JSON corrigé avec la même structure (liste d'objets) :\n"
         "[\n"
         "  {\"title\": \"...\", \"category\": \"...\", \"summary\": \"...\", \"source\": \"...\", \"url\": \"...\"},\n"
-        "  ... (10 items)\n"
+        "  ...\n"
         "]"
     )
     
@@ -260,7 +295,7 @@ def validate_and_correct_report(report_json, date_str):
             try:
                 response_clean = response.strip().replace("```json", "").replace("```", "")
                 parsed = json.loads(response_clean, strict=False)
-                if isinstance(parsed, list) and len(parsed) == 10:
+                if isinstance(parsed, list) and 0 < len(parsed) <= 10:
                     print("[LLM-Control] Rapport validé et auto-corrigé avec succès !")
                     return parsed
             except Exception as e:
@@ -468,8 +503,8 @@ def main():
     # 1. Collecte Google News
     queries = {
         "france_intemperies": "(orages OR grêle OR vent OR tornade OR inondation) France vigilance when:24h",
-        "dom_tom_intemperies": "(orages OR inondations OR vigilance OR cyclone OR tempête) (Guadeloupe OR Martinique OR Réunion OR Mayotte OR Guyane) when:3d",
-        "veille_cyclonique": "(cyclone OR ouragan OR typhon OR tempête OR tropicale) when:3d"
+        "dom_tom_intemperies": "(orages OR inondations OR vigilance OR cyclone OR tempête) (Guadeloupe OR Martinique OR Réunion OR Mayotte OR Guyane) when:24h",
+        "veille_cyclonique": "(cyclone OR ouragan OR typhon OR tempête OR tropicale) when:24h"
     }
     
     raw_news = {}
