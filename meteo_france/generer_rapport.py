@@ -535,142 +535,6 @@ def generer_synthese_nationale(dossier_source):
         
     return synthese_periods
 
-def generer_briefing_regional_fallback(region, dossier_source):
-    if region not in REGIONAL_CAPITALS:
-        return "*Aucun briefing régional disponible (fallback indisponible).*\n"
-    
-    cap_code, cap_name = REGIONAL_CAPITALS[region]
-    root = trouver_prev_xml(dossier_source, cap_code)
-    if root is None:
-        return f"*Aucun briefing régional disponible. Les prévisions pour la capitale régionale ({cap_name}) sont introuvables.*\n"
-        
-    md = f"*(Note: Ce briefing est basé sur les prévisions terrestres de la métropole régionale : {cap_name})*\n\n"
-    
-    periodes = {
-        "cettenuit": "Prévisions pour cette nuit",
-        "demain": "Prévisions pour demain (Journée)",
-        "apres-demain": "Prévisions pour après-demain"
-    }
-    
-    for pk, label in periodes.items():
-        groupe_el = None
-        for g in root.findall('groupe'):
-            if g.attrib.get('nom') == pk:
-                groupe_el = g
-                break
-        
-        md += f"### 📅 {label}\n"
-        if groupe_el is not None:
-            titre = groupe_el.find('titre')
-            temps = groupe_el.find('temps')
-            
-            titre_txt = titre.text.strip() if titre is not None and titre.text else "Tendance stable"
-            temps_txt = nettoyer_texte_mto(temps.text.strip() if temps is not None and temps.text else "")
-            
-            md += f"#### 🌐 Situation Générale :\n"
-            md += f"Les conditions observées sur la métropole régionale prévoient une tendance générale : {titre_txt}.\n\n"
-            md += f"#### 🗺️ Éléments clés par secteur :\n"
-            md += f"- **Secteur Central :** {temps_txt}\n\n"
-            
-            nums = [int(n) for n in re.findall(r'\b(\d{1,2})\s*(?:°C|degrés)', temps_txt)]
-            if nums:
-                t_min = min(nums)
-                t_max = max(nums)
-                md += f"#### 🌡️ Le Thermomètre :\n"
-                md += f"- **Températures minimales / maximales attendues :** {t_min} à {t_max} °C\n\n"
-            else:
-                md += f"#### 🌡️ Le Thermomètre :\n"
-                md += f"- **Températures :** Voir descriptif détaillé.\n\n"
-        else:
-            md += "*Donnée de prévision indisponible pour cette période.*\n\n"
-            
-    return md
-
-def generer_briefing_regional_llm(region, previsions_brutes):
-    gemini_key = os.environ.get("GEMINI_API_KEY")
-    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
-    
-    prompt = f"""Rédige un briefing météo régional premium en français pour la région française '{region}'.
-Voici les prévisions départementales brutes collectées pour cette région :
-{previsions_brutes}
-
-Tu DOIS rédiger un bulletin structuré EXACTEMENT sous ce format Markdown (conserve ces titres H3 et H4, remplace les textes entre parenthèses) :
-
-### 📅 Prévisions pour cette nuit
-#### 🌐 Situation Générale :
-(Rédige un court paragraphe résumant la situation météo globale de la nuit pour cette région)
-#### 🗺️ Éléments clés par secteur :
-- (Indique 1 ou 2 puces clés pour différents secteurs géographiques de la région, par exemple littoral, plaines ou reliefs)
-#### 🌡️ Le Thermomètre :
-- **Températures minimales :** (Indique la température la plus basse ou fourchette dans la région)
-- **Températures maximales :** (Indique la température la plus élevée ou fourchette dans la région)
-
-### 📅 Prévisions pour demain (Journée)
-#### 🌐 Situation Générale :
-(Rédige un court paragraphe résumant la journée à l'échelle régionale)
-#### 🗺️ Éléments clés par secteur :
-- (Puces sectorielles clés de la journée)
-#### 🌡️ Le Thermomètre :
-- **Températures minimales :** (Valeurs minimales)
-- **Températures maximales :** (Valeurs maximales)
-
-### 📅 Prévisions pour après-demain
-#### 🌐 Situation Générale :
-(Rédige un court paragraphe)
-#### 🗺️ Éléments clés par secteur :
-- (Puces sectorielles clés)
-#### 🌡️ Le Thermomètre :
-- **Températures minimales :** (Valeurs minimales)
-- **Températures maximales :** (Valeurs maximales)
-
-Rédige dans un style journalistique/TV fluide et naturel. N'utilise pas d'introduction ou de conclusion, commence directement par les titres."""
-
-    if gemini_key:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
-        data = {"contents": [{"parts": [{"text": prompt}]}]}
-        try:
-            import urllib.request
-            import json
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(data).encode('utf-8'),
-                headers={"Content-Type": "application/json"},
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=20) as response:
-                res = json.loads(response.read().decode('utf-8'))
-                text = res["candidates"][0]["content"]["parts"][0]["text"]
-                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
-        except Exception as e:
-            print(f"[LLM Régional] Échec appel Gemini : {e}")
-
-    if openrouter_key:
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        data = {
-            "model": "deepseek/deepseek-chat",
-            "messages": [{"role": "user", "content": prompt}]
-        }
-        try:
-            import urllib.request
-            import json
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(data).encode('utf-8'),
-                headers={
-                    "Content-Type": "application/json",
-                    "Authorization": f"Bearer {openrouter_key}"
-                },
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=20) as response:
-                res = json.loads(response.read().decode('utf-8'))
-                text = res["choices"][0]["message"]["content"]
-                return text.replace('\ufeff', '').replace('\ufffe', '').strip()
-        except Exception as e:
-            print(f"[LLM Régional] Échec appel OpenRouter : {e}")
-            
-    return None
-
 def generer_bulletin_premium(region, dossier_source, fichier_sortie):
     if region not in REGIONS:
         print(f"Erreur : La région '{region}' n'est pas configurée.")
@@ -683,78 +547,93 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
     md += f"**Statut du rapport :** Officiel / Validé pour diffusion publique\n\n"
     md += "---\n\n"
     
-    # 1. Section Alerte et Vigilance (Groupement par Couleur)
+    # 1. Section Alerte et Vigilance
     md += "## ⚠️ Vigilance Institutionnelle & Alertes Canicule\n\n"
+    vigilance_elements = []
+    has_orange = False
     
-    tous_depts = []
     if region == "France":
         tous_depts = [str(i).zfill(2) for i in range(1, 96)] + ["2A", "2B"]
         if "20" in tous_depts:
             tous_depts.remove("20")
-    else:
-        tous_depts = list(config["departements"].keys())
-        
-    depts_par_vigilance = {
-        "rouge": [],
-        "orange": [],
-        "jaune": [],
-        "verte": []
-    }
-    
-    for dept_code in tous_depts:
-        root = trouver_prev_xml(dossier_source, dept_code)
-        if root is not None:
-            vigi = root.find('vigilance')
-            vigi_text = vigi.text.strip() if vigi is not None and vigi.text else ""
-            vigi_lower = vigi_text.lower()
             
-            if region != "France":
-                nom_dept = config["departements"][dept_code]
-            else:
+        depts_par_vigilance = {
+            "rouge": [],
+            "orange": [],
+            "jaune": []
+        }
+        
+        for dept_code in tous_depts:
+            root = trouver_prev_xml(dossier_source, dept_code)
+            if root is not None:
+                vigi = root.find('vigilance')
+                vigi_text = vigi.text.strip() if vigi is not None and vigi.text else ""
+                vigi_lower = vigi_text.lower()
                 nom_raw = root.attrib.get('nom', f"Département {dept_code}").split(' - ')[0].split(' : ')[0]
                 nom_dept = nettoyer_nom_departement(nom_raw)
                 
-            label_dept = f"**{nom_dept} ({dept_code})**"
-            if "rouge" in vigi_lower:
-                depts_par_vigilance["rouge"].append(label_dept)
-            elif "orange" in vigi_lower:
-                depts_par_vigilance["orange"].append(label_dept)
-            elif "jaune" in vigi_lower:
-                depts_par_vigilance["jaune"].append(label_dept)
-            else:
-                depts_par_vigilance["verte"].append(label_dept)
-                
-    has_orange = len(depts_par_vigilance["rouge"]) > 0 or len(depts_par_vigilance["orange"]) > 0
-    if has_orange:
-        md += "> [!IMPORTANT]\n"
-        if region == "France":
+                label_dept = f"**{nom_dept} ({dept_code})**"
+                if "rouge" in vigi_lower:
+                    depts_par_vigilance["rouge"].append(label_dept)
+                elif "orange" in vigi_lower:
+                    depts_par_vigilance["orange"].append(label_dept)
+                elif "jaune" in vigi_lower:
+                    depts_par_vigilance["jaune"].append(label_dept)
+                    
+        has_orange = len(depts_par_vigilance["rouge"]) > 0 or len(depts_par_vigilance["orange"]) > 0
+        if has_orange:
+            md += "> [!IMPORTANT]\n"
             md += "> **Alerte Vigilance Critique Canicule / Fortes chaleurs en cours sur le territoire national :**\n\n"
         else:
-            md += f"> **Alerte Vigilance Critique Canicule active sur la région {region} :**\n\n"
+            md += "> [!NOTE]\n"
+            md += "> **Conditions de vigilance standard :** Aucun département métropolitain n'est actuellement placé sous vigilance critique orange ou rouge.\n\n"
+            
+        if depts_par_vigilance["rouge"]:
+            md += f"🔴 **Vigilance Rouge Canicule ({len(depts_par_vigilance['rouge'])} départements) :**\n"
+            md += f"{', '.join(depts_par_vigilance['rouge'])}\n\n"
+        if depts_par_vigilance["orange"]:
+            md += f"🟠 **Vigilance Orange Canicule ({len(depts_par_vigilance['orange'])} départements) :**\n"
+            md += f"{', '.join(depts_par_vigilance['orange'])}\n\n"
+        if depts_par_vigilance["jaune"]:
+            md += f"🟡 **Vigilance Jaune ({len(depts_par_vigilance['jaune'])} départements) :**\n"
+            md += f"{', '.join(depts_par_vigilance['jaune'])}\n\n"
+            
     else:
-        md += "> [!NOTE]\n"
-        md += f"> **Conditions de vigilance standard :** Aucun département de la région n'est actuellement placé sous vigilance critique orange ou rouge.\n\n"
-        
-    if depts_par_vigilance["rouge"]:
-        md += f"🔴 **Vigilance Rouge Canicule ({len(depts_par_vigilance['rouge'])} départements) :**\n"
-        for d in depts_par_vigilance["rouge"]:
-            md += f"- {d}\n"
-        md += "\n"
-    if depts_par_vigilance["orange"]:
-        md += f"🟠 **Vigilance Orange Canicule ({len(depts_par_vigilance['orange'])} départements) :**\n"
-        for d in depts_par_vigilance["orange"]:
-            md += f"- {d}\n"
-        md += "\n"
-    if depts_par_vigilance["jaune"]:
-        md += f"🟡 **Vigilance Jaune ({len(depts_par_vigilance['jaune'])} départements) :**\n"
-        for d in depts_par_vigilance["jaune"]:
-            md += f"- {d}\n"
-        md += "\n"
-    if depts_par_vigilance["verte"] and region != "France": # Optionnel pour la France car trop long
-        md += f"🟢 **Vigilance Verte ({len(depts_par_vigilance['verte'])} départements) :**\n"
-        for d in depts_par_vigilance["verte"]:
-            md += f"- {d}\n"
-        md += "\n"
+        for dept_code, nom_dept in config["departements"].items():
+            root = trouver_prev_xml(dossier_source, dept_code)
+            if root is not None:
+                vigi = root.find('vigilance')
+                vigi_text = vigi.text.strip() if vigi is not None and vigi.text else "Pas de vigilance particulière."
+                
+                vigi_lower = vigi_text.lower()
+                if "rouge" in vigi_lower:
+                    status = "🔴 **Vigilance Rouge**"
+                    has_orange = True
+                elif "orange" in vigi_lower:
+                    status = "🟠 **Vigilance Orange**"
+                    has_orange = True
+                elif "jaune" in vigi_lower:
+                    status = "🟡 **Vigilance Jaune**"
+                else:
+                    status = "🟢 **Vigilance Verte**"
+                    
+                vigilance_elements.append((nom_dept, dept_code, status, nettoyer_texte_mto(vigi_text)))
+                
+        if vigilance_elements:
+            if has_orange:
+                md += "> [!IMPORTANT]\n"
+                md += "> **Alerte Vigilance Orange Canicule Active :** Limitez vos efforts physiques, hydratez-vous régulièrement et prenez des nouvelles des personnes vulnérables de votre entourage.\n\n"
+            else:
+                md += "> [!NOTE]\n"
+                md += "> **Conditions de vigilance standard :** Aucune vigilance critique (orange ou rouge) n'est active à cette heure. Surveillance saisonnière classique.\n\n"
+                
+            md += "| Département | Niveau d'Alerte | Descriptif de la Vigilance |\n"
+            md += "| :--- | :---: | :--- |\n"
+            for nom_dept, dept_code, status, txt in vigilance_elements:
+                md += f"| **{nom_dept} ({dept_code})** | {status} | {txt} |\n"
+            md += "\n"
+        else:
+            md += "*Aucune donnée de vigilance disponible localement.*\n\n"
             
     # 2. Section Vigilance Crues & Hydrologie
     md += "---\n\n## 🌊 Vigilance Hydrologique (Crues BPSPC)\n\n"
@@ -795,7 +674,42 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
     else:
         md += "*Les analyses frontologiques et isobariques de Météo-France sont disponibles au format image (C_ISOFRONT/C_PREISO) dans vos répertoires de données locaux pour consultation visuelle.*\n\n"
         
-    # 4. Section Briefing / Prévisions Terrestres
+    # 4. Section Tableau Synthétique des Températures et Prévisions (Régional uniquement)
+    if region != "France":
+        md += "---\n\n## 📊 Tableau Synthétique de Prévision\n\n"
+        
+        periodes_cles = ["cettenuit", "demain", "apres-demain"]
+        periodes_labels = ["Nuit Prochaine", "Demain", "Après-Demain"]
+        
+        headers_table = ["Département"] + periodes_labels
+        md += "| " + " | ".join(headers_table) + " |\n"
+        md += "| " + " | ".join([":---" for _ in headers_table]) + " |\n"
+        
+        table_rows = 0
+        for dept_code, nom_dept in config["departements"].items():
+            root = trouver_prev_xml(dossier_source, dept_code)
+            if root is not None:
+                cells = [f"**{nom_dept} ({dept_code})**"]
+                for pk in periodes_cles:
+                    groupe_el = None
+                    for g in root.findall('groupe'):
+                        if g.attrib.get('nom') == pk:
+                            groupe_el = g
+                            break
+                    if groupe_el is not None:
+                        titre = groupe_el.find('titre')
+                        titre_txt = titre.text.strip() if titre is not None and titre.text else ""
+                        cells.append(obtenir_tendance_stylisee(titre_txt, est_nuit=(pk=="cettenuit")))
+                    else:
+                        cells.append("*Donnée indisponible*")
+                md += "| " + " | ".join(cells) + " |\n"
+                table_rows += 1
+                
+        if table_rows == 0:
+            md += "| *Pas de données* | *N/A* | *Aucune prévision terrestre disponible localement* |\n"
+        md += "\n"
+    
+    # 5. Section Prévisions Terrestres Détaillées / Synthèse Nationale
     if region == "France":
         md += "---\n\n## 📺 Briefing National pour la Présentation TV\n\n"
         synthese = generer_synthese_nationale(dossier_source)
@@ -806,32 +720,35 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
         else:
             md += "*Aucun bulletin national disponible.*\n\n"
     else:
-        md += "---\n\n## 📺 Briefing Régional pour la Présentation TV\n\n"
-        
-        previsions_list = []
+        md += "---\n\n## 🌡️ Prévisions Terrestres Détaillées par Département\n\n"
+        has_land_forecast = False
         for dept_code, nom_dept in config["departements"].items():
             root = trouver_prev_xml(dossier_source, dept_code)
             if root is not None:
-                dept_desc = f"Département {nom_dept} ({dept_code}) :\n"
+                has_land_forecast = True
+                md += f"### 📍 {nom_dept} ({dept_code})\n\n"
+                
                 obs = root.find('observation')
                 if obs is not None and obs.text:
-                    dept_desc += f"  Observations : {obs.text.strip()}\n"
-                for g in root.findall('groupe'):
-                    label_date = extraire_label_date(g)
-                    titre = g.find('titre')
-                    temps = g.find('temps')
-                    t_txt = titre.text.strip() if titre is not None and titre.text else ""
-                    m_txt = temps.text.strip() if temps is not None and temps.text else ""
-                    dept_desc += f"  Période {label_date} :\n    Tendance : {t_txt}\n    Détails : {m_txt}\n"
-                previsions_list.append(dept_desc)
+                    obs_clean = nettoyer_texte_mto(obs.text)
+                    md += f"> **Relevés récents :** {obs_clean}\n\n"
+                    
+                for groupe in root.findall('groupe'):
+                    label_date = extraire_label_date(groupe)
+                    titre = groupe.find('titre')
+                    temps = groupe.find('temps')
+                    
+                    titre_txt = titre.text.strip() if titre is not None and titre.text else ""
+                    temps_txt = nettoyer_texte_mto(temps.text.strip() if temps is not None and temps.text else "")
+                    
+                    md += f"#### 📅 {label_date}\n"
+                    if titre_txt:
+                        md += f"> **Tendance générale :** {titre_txt}  \n"
+                    md += f"{temps_txt}\n\n"
+                md += "\n"
                 
-        previsions_brutes = "\n".join(previsions_list)
-        
-        briefing_text = generer_briefing_regional_llm(region, previsions_brutes)
-        if briefing_text:
-            md += briefing_text + "\n\n"
-        else:
-            md += generer_briefing_regional_fallback(region, dossier_source) + "\n\n"
+        if not has_land_forecast:
+            md += "*Aucune prévision terrestre détaillée n'est disponible localement.*\n"
 
     # 6. Section Montagne & Altitude (si applicable)
     if config["zones_montagne"]:
@@ -952,8 +869,7 @@ def generer_bulletin_premium(region, dossier_source, fichier_sortie):
                         break
                 if situation_text:
                     md += "### 🌐 Situation Synoptique Générale & Évolution\n\n"
-                    situation_single_line = situation_text.replace('\n', ' ')
-                    md += f"> {situation_single_line}\n\n"
+                    md += f"> {situation_text.replace('\n', ' ')}\n\n"
                     
                 # 3. Prévisions côtières détaillées rédigées (Demain et Après-demain)
                 md += "### ⚓ Prévisions Marines Côtières Détaillées\n\n"

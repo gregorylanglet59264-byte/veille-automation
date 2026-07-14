@@ -152,6 +152,10 @@ def md_to_html(md_text):
     columns_items = []
     current_vigi_color = "standard"  # "rouge", "orange", "jaune", "verte", "standard"
     
+    in_table = False
+    table_headers = []
+    table_rows = []
+    
     def close_blockquote():
         if not blockquote_lines:
             return ""
@@ -214,6 +218,30 @@ def md_to_html(md_text):
             f'</div>'
         )
 
+    def render_html_table(headers, rows):
+        headers_html = []
+        for h in headers:
+            h_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', h)
+            headers_html.append(f'<th style="padding:6px 10px; font-weight:700; color:#1e3a8a; border-bottom:2px solid #cbd5e1; text-align:left;">{h_clean}</th>')
+            
+        rows_html = []
+        for row in rows:
+            row_cells = []
+            for cell in row:
+                cell_hl = highlight_figures(cell)
+                cell_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', cell_hl)
+                row_cells.append(f'<td style="padding:6px 10px; color:#334155; border-bottom:1px solid #e2e8f0;">{cell_clean}</td>')
+            rows_html.append(f'<tr>{"".join(row_cells)}</tr>')
+            
+        return (
+            f'<div style="overflow-x:auto; margin:8px 0; border:1px solid #cbd5e1; border-radius:6px;">'
+            f'<table style="width:100%; border-collapse:collapse; font-family:\'Outfit\',sans-serif; font-size:11px;">'
+            f'<thead><tr style="background-color:#f1f5f9;">{"".join(headers_html)}</tr></thead>'
+            f'<tbody>{"".join(rows_html)}</tbody>'
+            f'</table>'
+            f'</div>'
+        )
+
     for line in lines:
         processed_line = line.strip()
         
@@ -226,6 +254,26 @@ def md_to_html(md_text):
             current_vigi_color = "jaune"
         elif "🟢" in processed_line or "verte" in processed_line.lower():
             current_vigi_color = "verte"
+            
+        # Parseur de tableaux Markdown
+        is_table_row = processed_line.startswith("|") and processed_line.endswith("|")
+        if is_table_row:
+            cells = [c.strip() for c in processed_line.split("|")[1:-1]]
+            is_separator = all(re.match(r'^[\s:-]+$', cell) for cell in cells) if cells else False
+            if is_separator:
+                continue
+            if not in_table:
+                in_table = True
+                table_headers = cells
+            else:
+                table_rows.append(cells)
+            continue
+        else:
+            if in_table:
+                html_lines.append(render_html_table(table_headers, table_rows))
+                in_table = False
+                table_headers = []
+                table_rows = []
         
         if processed_line.startswith("&gt;"):
             if columns_items:
@@ -421,6 +469,8 @@ def md_to_html(md_text):
         p_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', processed_line)
         html_lines.append(split_paragraphs_and_highlight(p_clean))
         
+    if in_table:
+        html_lines.append(render_html_table(table_headers, table_rows))
     if columns_items:
         html_lines.append(close_columns_mode())
     if in_blockquote:
