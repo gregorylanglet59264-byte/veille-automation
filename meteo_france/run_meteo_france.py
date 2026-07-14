@@ -490,7 +490,7 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
     <meta charset="UTF-8">
     <title>{title_full}</title>
     <style>
-        :root {
+        :root {{
             --primary: #2563eb;
             --primary-dark: #1d4ed8;
             --bg-body: #f8fafc;
@@ -510,18 +510,18 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             --vigi-red-bg: #fef2f2;
             --vigi-red-border: #ef4444;
             --vigi-red-text: #991b1b;
-        }
+        }}
         
-        body {
+        body {{
             font-family: 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif;
             background-color: var(--bg-body);
             color: var(--text-main);
             line-height: 1.6;
             margin: 0;
             padding: 30px 15px;
-        }
+        }}
         
-        .container {
+        .container {{
             max-width: 800px;
             margin: 0 auto;
             background-color: var(--bg-card);
@@ -529,35 +529,35 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
             border: 1px solid var(--border);
             overflow: hidden;
-        }
+        }}
         
-        .header {
+        .header {{
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: #ffffff;
             padding: 35px 24px;
             text-align: center;
             border-bottom: 4px solid var(--primary);
             position: relative;
-        }
+        }}
         
-        .header h1 {
+        .header h1 {{
             margin: 0;
             font-size: 22px;
             font-weight: 700;
             letter-spacing: -0.5px;
-        }
+        }}
         
-        .header p {
+        .header p {{
             margin-top: 8px;
             font-size: 13px;
             color: #94a3b8;
-        }
+        }}
         
-        .content {
+        .content {{
             padding: 24px;
-        }
+        }}
         
-        .section-title {
+        .section-title {{
             color: #0f172a;
             font-size: 16px;
             font-weight: 700;
@@ -566,132 +566,132 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
             margin-top: 30px;
             margin-bottom: 16px;
             letter-spacing: -0.3px;
-        }
+        }}
         
-        .subsection-title {
+        .subsection-title {{
             color: #1e293b;
             font-size: 14px;
             font-weight: 700;
             margin-top: 20px;
             margin-bottom: 10px;
-        }
+        }}
         
-        p {
+        p {{
             margin-top: 0;
             margin-bottom: 14px;
             color: #334155;
             font-size: 14.5px;
             text-align: justify;
-        }
+        }}
         
-        ul {
+        ul {{
             margin-top: 0;
             margin-bottom: 16px;
             padding-left: 20px;
-        }
+        }}
         
-        li {
+        li {{
             margin-bottom: 6px;
             color: #334155;
             font-size: 14.5px;
-        }
+        }}
         
         /* Callouts / Alert boxes */
-        .callout {
+        .callout {{
             display: flex;
             gap: 12px;
             padding: 14px;
             border-radius: 10px;
             margin-bottom: 20px;
             border: 1px solid transparent;
-        }
+        }}
         
-        .callout-icon {
+        .callout-icon {{
             font-size: 18px;
             line-height: 1;
-        }
+        }}
         
-        .callout-body {
+        .callout-body {{
             font-size: 13.5px;
             font-weight: 500;
-        }
+        }}
         
-        .callout-important {
+        .callout-important {{
             background-color: var(--vigi-orange-bg);
             border-color: var(--vigi-orange-border);
             color: var(--vigi-orange-text);
-        }
+        }}
         
-        .callout-warning {
+        .callout-warning {{
             background-color: var(--vigi-yellow-bg);
             border-color: var(--vigi-yellow-border);
             color: var(--vigi-yellow-text);
-        }
+        }}
         
-        .callout-note {
+        .callout-note {{
             background-color: #f1f5f9;
             border-color: var(--border);
             color: #334155;
-        }
+        }}
         
         /* Tables */
-        .table-container {
+        .table-container {{
             overflow-x: auto;
             margin-bottom: 20px;
             border-radius: 8px;
             border: 1px solid var(--border);
-        }
+        }}
         
-        table {
+        table {{
             width: 100%;
             border-collapse: collapse;
             text-align: left;
-        }
+        }}
         
-        th {
+        th {{
             background-color: #f8fafc;
             color: #0f172a;
             font-weight: 600;
             font-size: 12.5px;
             padding: 10px 14px;
             border-bottom: 1px solid var(--border);
-        }
+        }}
         
-        td {
+        td {{
             padding: 10px 14px;
             font-size: 13.5px;
             border-bottom: 1px solid var(--border);
             color: #334155;
             background-color: #ffffff;
-        }
+        }}
         
-        tr:nth-child(even) td {
+        tr:nth-child(even) td {{
             background-color: #f8fafc;
-        }
+        }}
         
-        tr:last-child td {
+        tr:last-child td {{
             border-bottom: none;
-        }
+        }}
         
-        strong {
+        strong {{
             color: #0f172a;
-        }
+        }}
         
-        hr {
+        hr {{
             border: 0;
             height: 1px;
             background-color: var(--border);
             margin: 30px 0;
-        }
+        }}
         
-        .footer {
+        .footer {{
             background-color: #f8fafc;
             padding: 20px;
             border-top: 1px solid var(--border);
             text-align: center;
             font-size: 11px;
             color: var(--text-muted);
-        }
+        }}
     </style>
 </head>
 <body>
