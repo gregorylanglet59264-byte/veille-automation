@@ -461,7 +461,9 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
         if img_to_add:
             img_name = os.path.basename(img_to_add)
             zipf.write(img_to_add, img_name)
-            zipf.write(img_to_add, os.path.join("bulletins_regionaux", img_name))
+            zipf.write(img_to_add, os.path.join("national", img_name))
+            zipf.write(img_to_add, os.path.join("regions", img_name))
+            zipf.write(img_to_add, os.path.join("departements", img_name))
             
         for file in os.listdir(rapports_dir):
             if file.endswith('.md'):
@@ -728,9 +730,11 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
                 
                 html_filename = file.replace('.md', '.html')
                 if "bulletin_france" in file:
-                    zipf.writestr(html_filename, full_html)
+                    zipf.writestr(os.path.join("national", html_filename), full_html)
+                elif "bulletin_dept_" in file:
+                    zipf.writestr(os.path.join("departements", html_filename), full_html)
                 else:
-                    zipf.writestr(os.path.join("bulletins_regionaux", html_filename), full_html)
+                    zipf.writestr(os.path.join("regions", html_filename), full_html)
 
 def send_email_with_summary(national_md, date_str, zip_path):
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
