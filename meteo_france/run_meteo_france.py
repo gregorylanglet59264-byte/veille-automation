@@ -650,7 +650,6 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
 <body>
     <div class="container">
         <div class="header">
-            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; color: #3b82f6; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
             <h1>{title_full}</h1>
             <div style="width: 40px; height: 2px; background-color: #3b82f6; margin: 12px auto;"></div>
             <p>Édité le {date_display} à {time_display} • Officiel / Validé pour diffusion publique</p>
@@ -914,7 +913,6 @@ def send_email_with_summary(national_md, date_str, zip_path):
 <body>
     <div class="container">
         <div class="header">
-            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; color: #3b82f6; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
             <h1>{title_full}</h1>
             <div style="width: 40px; height: 2px; background-color: #3b82f6; margin: 12px auto;"></div>
             <p>Édité le {date_str} à {time_str} • Officiel / Validé pour diffusion publique</p>
