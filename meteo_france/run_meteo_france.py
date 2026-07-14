@@ -61,7 +61,7 @@ def call_llm_summary(bulletin_content):
         print("[LLM] Appel de l'API OpenRouter (DeepSeek)...")
         url = "https://openrouter.ai/api/v1/chat/completions"
         data = {
-            "model": "deepseek/deepseek-chat",
+            "model": "deepseek/deepseek-v4-flash",
             "messages": [{"role": "user", "content": prompt}]
         }
         try:
@@ -1146,7 +1146,7 @@ def rewrite_markdown_with_llm(file_path, region):
         print(f"[LLM] Réécriture de {region} via OpenRouter (DeepSeek)...")
         url = "https://openrouter.ai/api/v1/chat/completions"
         data = {
-            "model": "deepseek/deepseek-chat",
+            "model": "deepseek/deepseek-v4-flash",
             "messages": [{"role": "user", "content": prompt}]
         }
         try:
@@ -1343,21 +1343,7 @@ def main():
         except Exception as e:
             print(f"[ERREUR] Echec de la generation pour {region} : {e}")
             
-    # 3.5. Générer les bulletins pour tous les départements
-    print("\n=== Etape 2bis : Generation des bulletins departementaux ===")
-    tous_depts = [str(i).zfill(2) for i in range(1, 96) if i != 20] + ["2A", "2B"]
-    for dept_code in tous_depts:
-        filename = f"bulletin_dept_{dept_code}_{today_str}.md"
-        output_file = os.path.join(rapports_dir, filename)
-        
-        print(f"Generation pour le departement {dept_code} -> {filename}")
-        try:
-            generer_bulletin_departement(dept_code, source_dir, output_file)
-            
-            # Réécriture par LLM si clé API présente
-            rewrite_markdown_with_llm(output_file, f"Département {dept_code}")
-        except Exception as e:
-            print(f"[ERREUR] Echec de la generation pour le departement {dept_code} : {e}")
+    # Les bulletins départementaux individuels ont été retirés pour accélérer le traitement (ponytail)
 
     # 3.7. Générer le bulletin combiné Nord-Pas-de-Calais
     print("\n=== Etape 2ter : Generation du bulletin combine Nord-Pas-de-Calais ===")
