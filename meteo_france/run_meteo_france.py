@@ -1104,20 +1104,8 @@ def rewrite_markdown_with_llm(file_path, region):
         content = f.read()
         
     prompt = (
-        f"Tu es un présentateur météo senior et expert pour une grande chaîne de télévision (style CNews ou Monsieur Météo).\n"
-        f"Voici les données du bulletin météo brut pour : {region}.\n\n"
-        f"À partir de ces données météo, génère un bulletin météo au format Markdown premium structuré EXACTEMENT selon les sections suivantes (sans aucune phrase d'introduction ou de conclusion, commence directement par le titre H1) :\n\n"
-        f"1. **Résumé narratif fluide et lié** des prévisions à partir du texte d'origine, avec un résumé détaillé de la première journée et de la nuit suivante, en liant parfaitement toutes les parties (littoral/intérieur, températures, phénomènes).\n"
-        f"2. **Un tableau synthétique Markdown** résumant les prévisions des jours suivants (à partir du lendemain).\n"
-        f"3. **Une météo marine classique** complétée par des **conseils de navigation ou sécurité** (si applicable ; pour un département ou une région d'intérieur sans côte, indiquez simplement 'Non applicable').\n"
-        f"4. **Les horaires et coefficients de marée** du port de référence le plus proche (ex: Brest pour le national/France, ou le port local pour une région/département côtier) pour la journée concernée (recherche dans tes connaissances pour la date indiquée dans le bulletin ou génère des valeurs réalistes cohérentes avec la saison, sinon indiquez 'Non applicable').\n"
-        f"5. **Une météo des plages** correspondante (Manche, Atlantique ou Méditerranée selon le secteur géographique ; température de l'eau, de l'air et conditions de baignade ; si non applicable, indiquez 'Non applicable').\n\n"
-        f"Consignes de rédaction :\n"
-        f"- N'inclus aucun en-tête de politesse, de présentation ni de conclusion (ne dis pas 'Voici le bulletin...', commence directement par le titre H1).\n"
-        f"- Utilise des émojis pertinents et une mise en page soignée, professionnelle et lisible.\n"
-        f"- Conserve impérativement toutes les informations réelles de vigilance, de températures et de phénomènes présents dans les données d'origine.\n\n"
-        f"Bulletin brut d'origine :\n\n"
-        f"{content}"
+        "peux tu me refaire un résumé des prévisions à partir du texte envoyé, un résumé détaillé de la première journée  et de la nuit suivante, mais en liant parfaitement toutes les parties. et ensuite un tableau qui résume la prévision des jours suivants a partir du lendemain .Enfin une meteo marine classique avec des conseils , et enfin les horaires et coefficients de marée et une météo des plages.\n\n"
+        f"Texte envoyé :\n\n{content}"
     )
     
     # Tentative avec Gemini
