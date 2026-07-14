@@ -27,7 +27,7 @@ jobs:
           PYTHONUNBUFFERED: "1"
           GMAIL_EMAIL: "langlet.gregory@gmail.com"
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          RECIPIENT_EMAILS: "gregory.langlet@sfr.fr, langlet.gregory@gmail.com"
+          RECIPIENT_EMAILS: "gregory.langlet@sfr.fr, langlet.gregory@gmail.com, patrick.marliere@wanadoo.fr"
           # Clés API configurées dans les Secrets GitHub
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
