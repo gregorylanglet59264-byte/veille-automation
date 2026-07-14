@@ -102,7 +102,7 @@ def highlight_figures(text):
     regex_units = r'\b(\d+(?:\s*(?:à|ou)\s*\d+)?\s*(?:départements?|hPa|°C|mm|km/h|nœuds))\b'
     return re.sub(
         regex_units,
-        r'<strong style="color:#1e3a8a; background-color:#eff6ff; padding:1px 5px; border-radius:3px; font-size:11.5px; border:1px solid #bfdbfe; white-space:nowrap;">\1</strong>',
+        r'<strong>\1</strong>',
         text
     )
 
@@ -131,9 +131,7 @@ def split_paragraphs_and_highlight(text):
     paragraphs_html = []
     for chunk in chunks:
         paragraphs_html.append(
-            f'<p style="margin:4px 0; color:#334155; font-size:12px; font-family:\'Outfit\',sans-serif; line-height:1.5;">'
-            f'{chunk}'
-            f'</p>'
+            f'<p>{chunk}</p>'
         )
     return "\n".join(paragraphs_html)
 
@@ -147,14 +145,13 @@ def md_to_html(md_text):
     blockquote_type = "standard"
     blockquote_lines = []
     
-    in_card = False
-    in_columns_mode = False
-    columns_items = []
-    current_vigi_color = "standard"  # "rouge", "orange", "jaune", "verte", "standard"
-    
     in_table = False
     table_headers = []
     table_rows = []
+    
+    in_list = False
+    
+    active_vigi_card = None  # "red", "orange", "yellow", None
     
     def close_blockquote():
         if not blockquote_lines:
@@ -165,99 +162,73 @@ def md_to_html(md_text):
         
         if blockquote_type == "important":
             return (
-                f'<div style="background-color:#fee2e2; border-left:3px solid #ef4444; padding:10px 12px; margin:10px 0; border-radius:6px; color:#991b1b; font-size:12px; font-family:\'Outfit\',sans-serif; line-height:1.4;">'
-                f'<strong>⚠️ IMPORTANT</strong><br>{bq_content}'
+                f'<div class="info-card">'
+                f'<span class="badge-red" style="margin-bottom:12px;">🔥 INFORMATION IMPORTANTE</span>'
+                f'<div style="font-size:13.5px; line-height:1.6;">{bq_content}</div>'
                 f'</div>'
             )
-        else:
+        elif blockquote_type == "warning":
             return (
-                f'<div style="background-color:#f8fafc; border-left:3px solid #64748b; padding:8px 12px; margin:8px 0; font-style:italic; color:#475569; font-family:\'Outfit\',sans-serif; border-radius:6px; line-height:1.4;">'
-                f'{bq_content}'
+                f'<div class="warning-card">'
+                f'<span class="badge-orange" style="margin-bottom:12px;">⚠️ ALERTE METEO</span>'
+                f'<div style="font-size:13.5px; line-height:1.6;">{bq_content}</div>'
                 f'</div>'
             )
-            
-    def close_columns_mode():
-        if not columns_items:
-            return ""
-        items_html = []
-        
-        # Attribution de couleurs précises type Météo-France
-        if current_vigi_color == "rouge":
-            bg_color = "#fee2e2"
-            text_color = "#991b1b"
-            border_color = "#fca5a5"
-        elif current_vigi_color == "orange":
-            bg_color = "#ffedd5"
-            text_color = "#c2410c"
-            border_color = "#fed7aa"
-        elif current_vigi_color == "jaune":
-            bg_color = "#fef9c3"
-            text_color = "#854d0e"
-            border_color = "#fef08a"
-        elif current_vigi_color == "verte":
-            bg_color = "#dcfce7"
-            text_color = "#166534"
-            border_color = "#bbf7d0"
         else:
-            bg_color = "#f8fafc"
-            text_color = "#475569"
-            border_color = "#cbd5e1"
-            
-        for item in columns_items:
-            item_hl = highlight_figures(item)
-            item_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item_hl)
-            items_html.append(
-                f'<span style="display:inline-block; font-size:11px; font-family:\'Outfit\',sans-serif; color:{text_color}; '
-                f'background-color:{bg_color}; border:1px solid {border_color}; border-radius:4px; padding:2px 8px; margin:2px; '
-                f'white-space:nowrap; font-weight:600;">{item_clean}</span>'
-            )
-        columns_items.clear()
-        return (
-            f'<div style="margin:4px 0 8px 0; line-height:1.6;">'
-            f'{"".join(items_html)}'
-            f'</div>'
-        )
+            return f'<blockquote>{bq_content}</blockquote>'
 
     def render_html_table(headers, rows):
         headers_html = []
         for h in headers:
             h_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', h)
-            headers_html.append(f'<th style="padding:6px 10px; font-weight:700; color:#1e3a8a; border-bottom:2px solid #cbd5e1; text-align:left;">{h_clean}</th>')
+            headers_html.append(f'<th style="padding:10px 12px; font-weight:700; color:#ffffff; border-bottom:2px solid #cbd5e1; text-align:left;">{h_clean}</th>')
             
         rows_html = []
-        for row in rows:
+        for i, row in enumerate(rows):
             row_cells = []
+            bg_color = "#f8fafc" if i % 2 == 1 else "#ffffff"
             for cell in row:
                 cell_hl = highlight_figures(cell)
                 cell_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', cell_hl)
-                row_cells.append(f'<td style="padding:6px 10px; color:#334155; border-bottom:1px solid #e2e8f0;">{cell_clean}</td>')
+                # Formater les indicateurs de vigilance dans la table régionale
+                if "🔴" in cell_clean:
+                    cell_clean = cell_clean.replace("🔴", '<span style="color:#ef4444;">🔴</span>')
+                elif "🟠" in cell_clean:
+                    cell_clean = cell_clean.replace("🟠", '<span style="color:#f97316;">🟠</span>')
+                elif "🟡" in cell_clean:
+                    cell_clean = cell_clean.replace("🟡", '<span style="color:#eab308;">🟡</span>')
+                elif "🟢" in cell_clean:
+                    cell_clean = cell_clean.replace("🟢", '<span style="color:#22c55e;">🟢</span>')
+                    
+                row_cells.append(f'<td style="padding:10px 12px; color:#2c3e50; border-bottom:1px solid #e2e8f0; background-color:{bg_color};">{cell_clean}</td>')
             rows_html.append(f'<tr>{"".join(row_cells)}</tr>')
             
         return (
-            f'<div style="overflow-x:auto; margin:8px 0; border:1px solid #cbd5e1; border-radius:6px;">'
-            f'<table style="width:100%; border-collapse:collapse; font-family:\'Outfit\',sans-serif; font-size:11px;">'
-            f'<thead><tr style="background-color:#f1f5f9;">{"".join(headers_html)}</tr></thead>'
+            f'<div class="table-container">'
+            f'<table style="width:100%; border-collapse:collapse; font-size:13.5px;">'
+            f'<thead><tr style="background-color:#0f172a;">{"".join(headers_html)}</tr></thead>'
             f'<tbody>{"".join(rows_html)}</tbody>'
             f'</table>'
             f'</div>'
         )
 
+    # Ignorer le premier titre H1 du markdown (qui est déjà mis dans le header global)
+    first_h1_skipped = False
+
     for line in lines:
         processed_line = line.strip()
         
-        # Suivi de la couleur de vigilance courante
-        if "🔴" in processed_line or "rouge" in processed_line.lower():
-            current_vigi_color = "rouge"
-        elif "🟠" in processed_line or "orange" in processed_line.lower():
-            current_vigi_color = "orange"
-        elif "🟡" in processed_line or "jaune" in processed_line.lower():
-            current_vigi_color = "jaune"
-        elif "🟢" in processed_line or "verte" in processed_line.lower():
-            current_vigi_color = "verte"
+        # Ignorer le premier h1
+        if processed_line.startswith("#") and not processed_line.startswith("##") and not first_h1_skipped:
+            first_h1_skipped = True
+            continue
             
         # Parseur de tableaux Markdown
         is_table_row = processed_line.startswith("|") and processed_line.endswith("|")
         if is_table_row:
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             cells = [c.strip() for c in processed_line.split("|")[1:-1]]
             is_separator = all(re.match(r'^[\s:-]+$', cell) for cell in cells) if cells else False
             if is_separator:
@@ -274,15 +245,20 @@ def md_to_html(md_text):
                 in_table = False
                 table_headers = []
                 table_rows = []
-        
+                
+        # Parseur de blockquotes
         if processed_line.startswith("&gt;"):
-            if columns_items:
-                html_lines.append(close_columns_mode())
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             in_blockquote = True
             content = line[4:].strip() if line.startswith("&gt; ") else line[3:].strip()
             if "[!IMPORTANT]" in content:
                 blockquote_type = "important"
                 content = content.replace("[!IMPORTANT]", "").strip()
+            elif "[!WARNING]" in content:
+                blockquote_type = "warning"
+                content = content.replace("[!WARNING]", "").strip()
             blockquote_lines.append(content)
             continue
         else:
@@ -293,190 +269,145 @@ def md_to_html(md_text):
                 blockquote_type = "standard"
                 
         if not processed_line:
-            if columns_items:
-                html_lines.append(close_columns_mode())
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             continue
             
         if processed_line == "---":
-            if columns_items:
-                html_lines.append(close_columns_mode())
-            html_lines.append('<hr style="border:0; border-top:1px solid #e2e8f0; margin:10px 0;">')
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
+            html_lines.append('<hr style="border:0; border-top:1px solid #e2e8f0; margin:24px 0;">')
             continue
             
-        if processed_line.startswith("#") and not processed_line.startswith("##"):
-            if columns_items:
-                html_lines.append(close_columns_mode())
-            title = processed_line[1:].strip()
-            icon = ""
-            title_text = title
-            match_icon = re.match(r'^([^\w\s])\s*(.*)$', title)
-            if match_icon:
-                icon = match_icon.group(1)
-                title_text = match_icon.group(2)
-            
-            words = title_text.split()
-            if words:
-                first_word = words[0]
-                rest_text = " ".join(words[1:])
-                header_content = f'<span style="white-space:nowrap;"><span style="margin-right:6px; font-size:16px; display:inline-block; vertical-align:middle;">{icon}</span>{first_word}</span>'
-                if rest_text:
-                    header_content += f' {rest_text}'
-            else:
-                header_content = f'<span style="font-size:16px; display:inline-block; vertical-align:middle;">{icon}</span>'
+        # Parseur des vigilances spécifiques au bulletin national
+        if "🔴" in processed_line or "rouge" in processed_line.lower():
+            if "vigilance rouge" in processed_line.lower() or "alerte rouge" in processed_line.lower():
+                if active_vigi_card:
+                    html_lines.append("</div></div>")
+                active_vigi_card = "red"
+                badge_title = "🔴 ALERTE ROUGE CANICULE"
+                html_lines.append(
+                    f'<div class="vigilance-card vigilance-red">'
+                    f'<span class="badge-red" style="margin-bottom:12px; border: 1px solid #fee2e2;">{badge_title}</span>'
+                    f'<div style="margin-top: 4px; line-height: 1.8;">'
+                )
+                continue
+        elif "🟠" in processed_line or "orange" in processed_line.lower():
+            if "vigilance orange" in processed_line.lower() or "alerte orange" in processed_line.lower():
+                if active_vigi_card:
+                    html_lines.append("</div></div>")
+                active_vigi_card = "orange"
+                badge_title = "🟠 ALERTE ORANGE CANICULE"
+                html_lines.append(
+                    f'<div class="vigilance-card vigilance-orange">'
+                    f'<span class="badge-orange" style="margin-bottom:12px; border: 1px solid #fee2e2;">{badge_title}</span>'
+                    f'<div style="margin-top: 4px; line-height: 1.8;">'
+                )
+                continue
+        elif "🟡" in processed_line or "jaune" in processed_line.lower():
+            if "vigilance jaune" in processed_line.lower() or "alerte jaune" in processed_line.lower():
+                if active_vigi_card:
+                    html_lines.append("</div></div>")
+                active_vigi_card = "yellow"
+                badge_title = "🟡 VIGILANCE JAUNE CANICULE"
+                html_lines.append(
+                    f'<div class="vigilance-card vigilance-yellow">'
+                    f'<span class="badge-yellow" style="margin-bottom:12px; border: 1px solid #fee2e2;">{badge_title}</span>'
+                    f'<div style="margin-top: 4px; line-height: 1.8;">'
+                )
+                continue
                 
-            html_lines.append(
-                f'<div style="text-align:center; margin-bottom:12px; border-bottom:2px solid #1e3a8a; padding-bottom:6px;">'
-                f'<h1 style="color:#1e3a8a; font-family:\'Outfit\',sans-serif; font-size:15px; font-weight:700; margin:0 0 2px 0; text-transform:uppercase; letter-spacing:0.05em;">'
-                f'{header_content}'
-                f'</h1>'
-                f'</div>'
-            )
+        # Traitement des départements quand on est dans une vigilance-card
+        if active_vigi_card and ("," in processed_line or "(" in processed_line):
+            parts = processed_line.split(",")
+            dept_badges = []
+            for p in parts:
+                dept_name = p.replace("**", "").strip()
+                if dept_name:
+                    dept_badges.append(f'<span class="badge-dept-{active_vigi_card}">{dept_name}</span>')
+            html_lines.append("\n".join(dept_badges))
+            html_lines.append("</div></div>")
+            active_vigi_card = None
             continue
             
+        # Titres des cartes principales (Rubriques H2)
         if processed_line.startswith("##") and not processed_line.startswith("###"):
-            if columns_items:
-                html_lines.append(close_columns_mode())
-                in_columns_mode = False
-                
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
             title = processed_line[2:].strip()
-            close_card_html = ""
-            if in_card:
-                close_card_html = "</div></div><!-- close card -->"
-                
-            if "vigilance" in title.lower() or "alerte" in title.lower():
-                in_columns_mode = True
-            else:
-                in_columns_mode = False
-                current_vigi_color = "standard"
-                
-            icon = "📋"
-            title_text = title
-            match_icon = re.match(r'^([^\w\s])\s*(.*)$', title)
-            if match_icon:
-                icon = match_icon.group(1)
-                title_text = match_icon.group(2)
-                
-            title_lower = title_text.lower()
+            title_lower = title.lower()
             if "vigilance institutionnelle" in title_lower:
-                title_text = "Vigilance Canicule"
-                icon = "⚠️"
+                title = "⚠️ Vigilance Institutionnelle & Alertes Canicule"
             elif "vigilance hydrologique" in title_lower:
-                title_text = "Hydrologie"
-                icon = "🌊"
+                title = "🌊 Vigilance Hydrologique (Crues BPSPC)"
             elif "frontologie" in title_lower:
-                title_text = "Situation générale"
-                icon = "🗺"
+                title = "🗺️ Frontologie Générale & Centres de Pression"
             elif "briefing" in title_lower:
-                title_text = "Prévisions"
-                icon = "📺"
+                title = "📺 Briefing National pour la Présentation TV"
             elif "altitude" in title_lower or "montagne" in title_lower:
-                title_text = "Altitude / Montagne"
-                icon = "🏔️"
+                title = "⛰️ Paramètres d'Altitude & Montagne"
             elif "marine" in title_lower or "navigation" in title_lower:
-                title_text = "Marine"
-                icon = "🌊"
+                title = "🌊 Bulletin de Navigation Marine & Côtière"
                 
-            words = title_text.split()
-            if words:
-                first_word = words[0]
-                rest_text = " ".join(words[1:])
-                header_content = f'<span style="white-space:nowrap;"><span style="margin-right:6px; font-size:13px; display:inline-block; vertical-align:middle;">{icon}</span>{first_word}</span>'
-                if rest_text:
-                    header_content += f' {rest_text}'
-            else:
-                header_content = f'<span style="font-size:13px; display:inline-block; vertical-align:middle;">{icon}</span>'
-                
-            card_html = (
-                f'{close_card_html}'
-                f'<div style="background-color:#ffffff; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:10px; overflow:hidden; box-shadow:0 1.5px 3px rgb(0 0 0 / 0.04);">'
-                f'<div style="background-color:#1e3a8a; padding:6px 12px; color:#ffffff; font-family:\'Outfit\',sans-serif; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; display:flex; align-items:center; flex-wrap:nowrap;">'
-                f'{header_content}'
-                f'</div>'
-                f'<div style="padding:12px; font-size:12px; color:#334155; line-height:1.5;">'
-            )
-            html_lines.append(card_html)
-            in_card = True
+            html_lines.append(f'<div class="section-title">{title}</div>')
             continue
             
+        # Sous-titres (H3 et H4)
         if processed_line.startswith("###") or processed_line.startswith("####"):
-            if columns_items:
-                html_lines.append(close_columns_mode())
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
                 
             if processed_line.startswith("####"):
                 title = processed_line[4:].strip()
             else:
                 title = processed_line[3:].strip()
                 
-            icon = ""
-            title_text = title
-            match_icon = re.match(r'^([^\w\s])\s*(.*)$', title)
-            if match_icon:
-                icon = match_icon.group(1)
-                title_text = match_icon.group(2)
-                
-            title_lower = title_text.lower()
-            if "situation" in title_lower:
-                title_text = "Situation générale"
-                icon = "🌐"
-            elif "secteur" in title_lower:
-                title_text = "Par secteur"
-                icon = "🗺"
-            elif "thermomètre" in title_lower or "température" in title_lower:
-                title_text = "Températures"
-                icon = "🌡"
-                
-            words = title_text.split()
-            if words:
-                first_word = words[0]
-                rest_text = " ".join(words[1:])
-                header_content = f'<span style="white-space:nowrap;"><span style="margin-right:4px; font-size:11px; display:inline-block; vertical-align:middle;">{icon}</span>{first_word}</span>'
-                if rest_text:
-                    header_content += f' {rest_text}'
+            if title.startswith("📍"):
+                html_lines.append(f'<h3 style="margin-top:24px; margin-bottom:12px; color:#1e293b; border-bottom:1px solid #e2e8f0; padding-bottom:4px;">{title}</h3>')
+            elif title.startswith("📅"):
+                html_lines.append(f'<h4 style="margin-top:16px; margin-bottom:8px; color:#334155; font-size:14.5px;">{title}</h4>')
             else:
-                header_content = f'<span style="font-size:11px; display:inline-block; vertical-align:middle;">{icon}</span>'
-                
-            if "prévision" in title_lower or "cette nuit" in title_lower or "demain" in title_lower or "après-demain" in title_lower:
-                html_lines.append(
-                    f'<div style="background-color:#f1f5f9; color:#1e3a8a; font-size:9.5px; font-weight:700; padding:2px 6px; border-radius:4px; margin-top:8px; margin-bottom:5px; text-transform:uppercase; letter-spacing:0.05em; display:inline-block;">'
-                    f'{header_content}'
-                    f'</div>'
-                )
-            else:
-                html_lines.append(
-                    f'<h4 style="color:#0f172a; font-family:\'Outfit\',sans-serif; font-size:11px; font-weight:700; margin:6px 0 2px 0;">'
-                    f'{header_content}'
-                    f'</h4>'
-                )
+                html_lines.append(f'<h3 style="margin-top:20px; margin-bottom:10px; color:#1e293b;">{title}</h3>')
             continue
             
-        if processed_line.startswith("-"):
-            item = processed_line[1:].strip()
-            if in_columns_mode:
-                columns_items.append(item)
-            else:
-                item_hl = highlight_figures(item)
-                item_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item_hl)
-                html_lines.append(
-                    f'<li style="margin-bottom:2px; margin-left:14px; color:#334155; font-size:12px; font-family:\'Outfit\',sans-serif; line-height:1.4;">'
-                    f'{item_clean}'
-                    f'</li>'
-                )
+        # Listes à puces
+        if processed_line.startswith("- "):
+            item = processed_line[2:].strip()
+            item_hl = highlight_figures(item)
+            item_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', item_hl)
+            
+            if not in_list:
+                html_lines.append("<ul>")
+                in_list = True
+            html_lines.append(f"<li>{item_clean}</li>")
             continue
         else:
-            if columns_items:
-                html_lines.append(close_columns_mode())
+            if in_list:
+                html_lines.append("</ul>")
+                in_list = False
                 
-        p_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', processed_line)
-        html_lines.append(split_paragraphs_and_highlight(p_clean))
+        # Paragraphes normaux
+        p_hl = highlight_figures(processed_line)
+        p_clean = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', p_hl)
         
+        # Conserver les courtes lignes de métadonnées sans division
+        if len(p_clean) < 120 or p_clean.startswith("*") or ":" in p_clean[:25]:
+            html_lines.append(f'<p>{p_clean}</p>')
+        else:
+            html_lines.append(split_paragraphs_and_highlight(p_clean))
+            
     if in_table:
         html_lines.append(render_html_table(table_headers, table_rows))
-    if columns_items:
-        html_lines.append(close_columns_mode())
     if in_blockquote:
         html_lines.append(close_blockquote())
-    if in_card:
-        html_lines.append("</div></div><!-- close card final -->")
+    if in_list:
+        html_lines.append("</ul>")
+    if active_vigi_card:
+        html_lines.append("</div></div>")
         
     return "\n".join(html_lines)
 
@@ -490,38 +421,246 @@ def create_zip_archive(today_str, rapports_dir, zip_output_path):
                 with open(file_path, 'r', encoding='utf-8') as f:
                     md_content = f.read()
                 
-                html_body = md_to_html(md_content)
-                title_clean = file.replace('.md', '').replace('bulletin_', '').replace('_', ' ').title()
+                # Récupérer le titre H1 exact depuis le markdown
+                lines = md_content.splitlines()
+                title_full = "Bulletin Météo Premium"
+                if lines and lines[0].startswith("#"):
+                    title_full = lines[0][1:].strip()
                 
-                # Document HTML complet autonome et premium
+                html_body = md_to_html(md_content)
+                
+                now = datetime.datetime.now()
+                date_display = now.strftime('%d/%m/%Y')
+                time_display = now.strftime('%H:%M')
+                
+                # Document HTML complet autonome et premium (exactement identique à la maquette du bureau)
                 full_html = f"""<!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <title>{title_clean}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>{title_full}</title>
     <style>
         body {{
-            font-family: 'Outfit', sans-serif;
-            background-color: #f1f5f9;
-            color: #1e293b;
-            padding: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
         }}
         .container {{
-            max-width: 800px;
-            margin: 0 auto;
+            max-width: 720px;
+            margin: 30px auto;
             background-color: #ffffff;
             border-radius: 12px;
-            padding: 40px;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e1e8ed;
+        }}
+        .header {{
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #ffffff;
+            padding: 35px 24px;
+            text-align: center;
+            border-bottom: 3px solid #3b82f6;
+        }}
+        .header h1 {{
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }}
+        .header p {{
+            margin: 8px 0 0 0;
+            font-size: 13px;
+            opacity: 0.8;
+        }}
+        .content {{
+            padding: 24px;
+        }}
+        .section-title {{
+            color: #1e293b;
+            font-size: 16px;
+            font-weight: 700;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 6px;
+            margin-top: 30px;
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+        .badge-red {{
+            background-color: #fef2f2;
+            color: #991b1b;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            display: inline-block;
+        }}
+        .badge-orange {{
+            background-color: #fff7ed;
+            color: #9a3412;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            display: inline-block;
+        }}
+        .badge-yellow {{
+            background-color: #fef9c3;
+            color: #854d0e;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            display: inline-block;
+        }}
+        .vigilance-card {{
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
             border: 1px solid #e2e8f0;
+        }}
+        .vigilance-red {{
+            background-color: #fef2f2;
+            border-left: 5px solid #ef4444;
+        }}
+        .vigilance-orange {{
+            background-color: #fff7ed;
+            border-left: 5px solid #f97316;
+        }}
+        .vigilance-yellow {{
+            background-color: #fef9c3;
+            border-left: 5px solid #eab308;
+        }}
+        .badge-dept-red {{
+            display: inline-block;
+            background-color: #fee2e2;
+            color: #991b1b;
+            padding: 2px 8px;
+            margin: 2px 1px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #fecaca;
+        }}
+        .badge-dept-orange {{
+            display: inline-block;
+            background-color: #ffedd5;
+            color: #c2410c;
+            padding: 2px 8px;
+            margin: 2px 1px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #fed7aa;
+        }}
+        .badge-dept-yellow {{
+            display: inline-block;
+            background-color: #fef9c3;
+            color: #854d0e;
+            padding: 2px 8px;
+            margin: 2px 1px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #fef08a;
+        }}
+        .info-card {{
+            background-color: #f0fdf4;
+            border-left: 5px solid #22c55e;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-top: 1px solid #bbf7d0;
+            border-right: 1px solid #bbf7d0;
+            border-bottom: 1px solid #bbf7d0;
+        }}
+        .warning-card {{
+            background-color: #fffbeb;
+            border-left: 5px solid #f59e0b;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-top: 1px solid #fef3c7;
+            border-right: 1px solid #fef3c7;
+            border-bottom: 1px solid #fef3c7;
+        }}
+        .table-container {{
+            margin-bottom: 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }}
+        table {{
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13.5px;
+        }}
+        th {{
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 700;
+            border-bottom: 2px solid #cbd5e1;
+        }}
+        td {{
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            background-color: #ffffff;
+        }}
+        tr:nth-child(even) td {{
+            background-color: #f8fafc;
+        }}
+        .footer {{
+            background-color: #f8fafc;
+            padding: 20px;
+            text-align: center;
+            font-size: 11px;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+        }}
+        blockquote {{
+            background-color: #f8fafc;
+            border-left: 4px solid #cbd5e1;
+            padding: 8px 16px;
+            margin: 0 0 16px 0;
+            font-style: italic;
+            color: #475569;
+        }}
+        p {{
+            margin: 0 0 12px 0;
+            text-align: justify;
+            line-height: 1.5;
+            font-size: 14.5px;
+        }}
+        ul {{
+            margin: 0 0 16px 0;
+            padding-left: 20px;
+        }}
+        li {{
+            margin-bottom: 6px;
+            font-size: 14px;
         }}
     </style>
 </head>
 <body>
     <div class="container">
-        {html_body}
+        <div class="header">
+            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; color: #3b82f6; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
+            <h1>{title_full}</h1>
+            <div style="width: 40px; height: 2px; background-color: #3b82f6; margin: 12px auto;"></div>
+            <p>Édité le {date_display} à {time_display} • Officiel / Validé pour diffusion publique</p>
+        </div>
+        <div class="content">
+            {html_body}
+        </div>
+        <div class="footer">
+            <p style="text-align:center; font-size:11px; margin:0;">Météo-France Officiel — Synthèse consolidée de diffusion. Tous droits réservés.</p>
+        </div>
     </div>
 </body>
 </html>"""
@@ -548,54 +687,257 @@ def send_email_with_summary(national_md, date_str, zip_path):
     subject = f"Meteo France - Bulletin National & Regional du {date_str}"
     clean_subject = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
     
-    # Conversion du bulletin national complet en HTML
+    # Récupérer le titre H1 exact depuis le markdown
+    lines = national_md.splitlines()
+    title_full = "Bulletin Météo Premium — Région France"
+    if lines and lines[0].startswith("#"):
+        title_full = lines[0][1:].strip()
+        
     national_html = md_to_html(national_md)
     
-    email_body = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <style>
-            body {{ font-family: 'Outfit', sans-serif; background-color: #f1f5f9; color: #1e293b; padding: 20px; }}
-            .container {{ max-width: 650px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }}
-            .header {{ background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); padding: 30px 20px; text-align: center; color: #ffffff; }}
-            .header h1 {{ margin: 0; font-size: 24px; font-weight: 700; }}
-            .header p {{ margin: 5px 0 0 0; font-size: 14px; opacity: 0.9; }}
-            .content {{ padding: 25px; }}
-            .section-card {{ background-color: #f8fafc; border-radius: 8px; padding: 20px; margin-bottom: 20px; border: 1px solid #e2e8f0; }}
-            .section-card h2 {{ margin-top: 0; font-size: 18px; color: #1e3a8a; border-bottom: 2px solid #3b82f6; padding-bottom: 6px; }}
-            .footer {{ background-color: #f8fafc; padding: 15px; text-align: center; font-size: 11px; color: #64748b; border-top: 1px solid #e2e8f0; }}
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1>🌊 BULLETIN METEO PREMIUM</h1>
-                <p>Synthese Officielle Meteo France du {date_str}</p>
-            </div>
-            <div class="content">
-                <div class="section-card">
-                    {national_html}
+    now = datetime.datetime.now()
+    time_str = now.strftime('%H:%M')
+    
+    email_body = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{title_full}</title>
+    <style>
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }}
+        .container {{
+            max-width: 720px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e1e8ed;
+        }}
+        .header {{
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #ffffff;
+            padding: 35px 24px;
+            text-align: center;
+            border-bottom: 3px solid #3b82f6;
+        }}
+        .header h1 {{
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }}
+        .header p {{
+            margin: 8px 0 0 0;
+            font-size: 13px;
+            opacity: 0.8;
+        }}
+        .content {{
+            padding: 24px;
+        }}
+        .section-title {{
+            color: #1e293b;
+            font-size: 16px;
+            font-weight: 700;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 6px;
+            margin-top: 30px;
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+        .badge-red {{
+            background-color: #fef2f2;
+            color: #991b1b;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            display: inline-block;
+        }}
+        .badge-orange {{
+            background-color: #fff7ed;
+            color: #9a3412;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            display: inline-block;
+        }}
+        .badge-yellow {{
+            background-color: #fef9c3;
+            color: #854d0e;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            display: inline-block;
+        }}
+        .vigilance-card {{
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border: 1px solid #e2e8f0;
+        }}
+        .vigilance-red {{
+            background-color: #fef2f2;
+            border-left: 5px solid #ef4444;
+        }}
+        .vigilance-orange {{
+            background-color: #fff7ed;
+            border-left: 5px solid #f97316;
+        }}
+        .vigilance-yellow {{
+            background-color: #fef9c3;
+            border-left: 5px solid #eab308;
+        }}
+        .badge-dept-red {{
+            display: inline-block;
+            background-color: #fee2e2;
+            color: #991b1b;
+            padding: 2px 8px;
+            margin: 2px 1px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #fecaca;
+        }}
+        .badge-dept-orange {{
+            display: inline-block;
+            background-color: #ffedd5;
+            color: #c2410c;
+            padding: 2px 8px;
+            margin: 2px 1px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #fed7aa;
+        }}
+        .badge-dept-yellow {{
+            display: inline-block;
+            background-color: #fef9c3;
+            color: #854d0e;
+            padding: 2px 8px;
+            margin: 2px 1px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #fef08a;
+        }}
+        .info-card {{
+            background-color: #f0fdf4;
+            border-left: 5px solid #22c55e;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-top: 1px solid #bbf7d0;
+            border-right: 1px solid #bbf7d0;
+            border-bottom: 1px solid #bbf7d0;
+        }}
+        .warning-card {{
+            background-color: #fffbeb;
+            border-left: 5px solid #f59e0b;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-top: 1px solid #fef3c7;
+            border-right: 1px solid #fef3c7;
+            border-bottom: 1px solid #fef3c7;
+        }}
+        .table-container {{
+            margin-bottom: 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }}
+        table {{
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13.5px;
+        }}
+        th {{
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 700;
+            border-bottom: 2px solid #cbd5e1;
+        }}
+        td {{
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            background-color: #ffffff;
+        }}
+        tr:nth-child(even) td {{
+            background-color: #f8fafc;
+        }}
+        .footer {{
+            background-color: #f8fafc;
+            padding: 20px;
+            text-align: center;
+            font-size: 11px;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+        }}
+        blockquote {{
+            background-color: #f8fafc;
+            border-left: 4px solid #cbd5e1;
+            padding: 8px 16px;
+            margin: 0 0 16px 0;
+            font-style: italic;
+            color: #475569;
+        }}
+        p {{
+            margin: 0 0 12px 0;
+            text-align: justify;
+            line-height: 1.5;
+            font-size: 14.5px;
+        }}
+        ul {{
+            margin: 0 0 16px 0;
+            padding-left: 20px;
+        }}
+        li {{
+            margin-bottom: 6px;
+            font-size: 14px;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; color: #3b82f6; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
+            <h1>{title_full}</h1>
+            <div style="width: 40px; height: 2px; background-color: #3b82f6; margin: 12px auto;"></div>
+            <p>Édité le {date_str} à {time_str} • Officiel / Validé pour diffusion publique</p>
+        </div>
+        <div class="content">
+            {national_html}
+            
+            <hr style="border:0; border-top:1px solid #e2e8f0; margin:24px 0;">
+            
+            <div class="warning-card">
+                <span class="badge-orange" style="margin-bottom:12px;">📦 Pieces Jointes (Dossiers)</span>
+                <div style="font-size:13.5px; line-height:1.6; color:#2c3e50;">
+                    Tous vos bulletins météo Premium (les 13 bulletins régionaux ainsi que le bulletin national) sont archivés et classés dans des dossiers à l'intérieur de l'archive ZIP ci-jointe :<br>
+                    📂 <strong>bulletins_meteo_france_{date_str.replace('/', '_')}.zip</strong>
                 </div>
-                
-                <div class="section-card" style="margin-top: 20px;">
-                    <h2>📦 Pieces Jointes (Dossiers)</h2>
-                    <p style="font-size: 13px; color: #334155; line-height: 1.5;">
-                        Tous vos bulletins météo Premium (les 13 bulletins régionaux ainsi que le bulletin national) sont archivés et classés dans des dossiers à l'intérieur de l'archive ZIP ci-jointe :<br>
-                        📂 <strong>bulletins_meteo_france_{date_str.replace('/', '_')}.zip</strong>
-                    </p>
-                </div>
-            </div>
-            <div class="footer">
-                Ce rapport a ete genere et envoye automatiquement depuis GitHub Actions.<br>
-                Meteo France - Meteotel Server
             </div>
         </div>
-    </body>
-    </html>
-    """
+        <div class="footer">
+            <p style="text-align:center; font-size:11px; margin:0;">Météo-France Officiel — Synthèse consolidée de diffusion. Tous droits réservés.</p>
+        </div>
+    </div>
+</body>
+</html>"""
     
     # Nettoyage BOM
     email_body = email_body.replace('\ufeff', '').replace('\ufffe', '')
