@@ -2,6 +2,12 @@ name: Veille Spécifique Intempéries & Cyclones
 
 on:
   workflow_dispatch: # Permet le lancement manuel depuis l'interface GitHub ou les dashboards
+    inputs:
+      triggered_by:
+        description: "Declenche par (gregory ou patrick)"
+        required: false
+        type: string
+        default: 'gregory'
 
 jobs:
   run-veille:

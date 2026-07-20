@@ -8,9 +8,14 @@ on:
     inputs:
       test_mode:
         description: "Mode test (envoyer uniquement a Gregory, pas a Patrick)"
-        required: true
+        required: false
         type: boolean
         default: true
+      triggered_by:
+        description: "Declenche par (gregory ou patrick)"
+        required: false
+        type: string
+        default: 'gregory'
 
 jobs:
   run-vigilance:
