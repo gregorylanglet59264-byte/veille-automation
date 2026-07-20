@@ -40,25 +40,10 @@ CHANNEL_WEIGHTS = {
 }
 
 def translate_to_french(text):
-    if not text:
-        return ""
-    english_keywords = {'the', 'is', 'in', 'and', 'before', 'coming', 'peak', 'heatwave', 'storms', 'return', 'with', 'how', 'to', 'for', 'you', 'your', 'are', 'what', 'can', 'do', 'surpasses', 'incredible', 'destroys', 'over'}
-    words = set((text or "").lower().replace("?", " ").replace("!", " ").replace(".", " ").split())
-    if not words.intersection(english_keywords):
-        return text  # Déjà en français ou autre langue
-        
-    try:
-        import urllib.request
-        import urllib.parse
-        url = "https://api.mymemory.translated.net/get?q=" + urllib.parse.quote(text) + "&langpair=en|fr"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=5) as response:
-            data = json.loads(response.read().decode('utf-8'))
-            translated = data.get("responseData", {}).get("translatedText", text)
-            import html
-            return html.unescape(translated)
-    except Exception:
-        return text
+    # ponytail: désactivation de la traduction MyMemory instable.
+    # Les titres sont laissés en VO et traduits plus tard via LLM si nécessaire.
+    return text
+
 
 def generate_summary(title, category, channel_name):
     t = (title or "").lower()

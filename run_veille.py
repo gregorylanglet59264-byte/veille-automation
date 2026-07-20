@@ -9,12 +9,18 @@ compile le tout en HTML premium responsive et l'envoie par e-mail via SMTP Gmail
 """
 import os
 import sys
+try:
+    from dotenv import load_dotenv
+    load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"))
+except ImportError:
+    pass
 import json
 import time
 import argparse
 import datetime
 import urllib.request
 import urllib.parse
+import urllib.error
 import xml.etree.ElementTree as ET
 import smtplib
 from email.mime.text import MIMEText
@@ -203,7 +209,6 @@ def call_llm(system_prompt, user_prompt):
                 {"role": "user", "content": user_prompt}
             ]
         }
-        import urllib.error
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=90) as response:
@@ -595,47 +600,21 @@ def send_email(html_body, date_str):
     recipients_raw = os.environ.get("RECIPIENT_EMAILS", smtp_email)
     recipients = [r.strip() for r in recipients_raw.split(",") if r.strip()]
 
-    import base64
-    import uuid
-    
     # Suppression totale de tout BOM ou caractère non-ASCII parasite
     html_body = html_body.replace('\ufeff', '').replace('\ufffe', '')
     
     sender = gmail_email if gmail_password else smtp_email
-    boundary = uuid.uuid4().hex
-    filename = f"veille_globale_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
-    # Encodage complet en base64 pour garantir que tout passe en ASCII pur sur le canal SMTP
-    html_b64 = base64.b64encode(html_body.encode('utf-8')).decode('ascii')
-    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint le rapport de veille unifiee pour aujourd'hui ({date_str}).\n\nCordialement,\nL'assistant de Veille"
-    text_b64 = base64.b64encode(text_body.encode('utf-8')).decode('ascii')
+    # Construction du message MIME propre avec corps HTML en ligne (sans pièce jointe)
+    msg = MIMEMultipart('alternative')
+    msg['Subject'] = f'Synthèse Veille - {date_str}'
+    msg['From'] = f'Meteo Climat Pro <{sender}>'
+    msg['To'] = ", ".join(recipients)
+    msg['Reply-To'] = "gregory.langlet@sfr.fr"
+    msg['Date'] = formatdate(localtime=True)
     
-    # Construction du MIME brut
-    raw_message = (
-        f'From: Meteo Climat Pro <{sender}>\r\n'
-        f'To: {", ".join(recipients)}\r\n'
-        f'Reply-To: gregory.langlet@sfr.fr\r\n'
-        f'Subject: Synthese - {date_str}\r\n'
-        f'Date: {formatdate(localtime=True)}\r\n'
-        f'X-Mailer: Python\r\n'
-        f'MIME-Version: 1.0\r\n'
-        f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/plain; charset=utf-8\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{text_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
-        f'Content-Disposition: attachment; filename="{filename}"\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{html_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}--\r\n'
-    )
+    # Attacher la version HTML directement
+    msg.attach(MIMEText(html_body, 'html', 'utf-8'))
     
     # Gmail (seul relais fiable depuis GitHub Actions — SFR bloque les IP cloud avec erreur 550)
     if not gmail_password:
@@ -649,13 +628,14 @@ def send_email(html_body, date_str):
             server.starttls()
             server.ehlo()
             server.login(gmail_email, gmail_password)
-            server.sendmail(gmail_email, recipients, raw_message.encode('ascii'))
+            server.sendmail(gmail_email, recipients, msg.as_string())
         print("[SMTP] E-mail envoye avec succes via Gmail !")
     except Exception as e:
         import traceback
         print(f"[SMTP] Erreur Gmail : {e}")
         traceback.print_exc()
         sys.exit(1)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Superviseur Veille Globale")

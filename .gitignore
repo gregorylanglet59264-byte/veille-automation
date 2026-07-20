@@ -9,3 +9,5 @@ __pycache__/
 reports/
 meteo_france/rapports/
 meteo_france/meteo_data/
+
+.env
