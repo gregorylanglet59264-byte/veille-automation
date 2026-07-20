@@ -1,9 +1,9 @@
 name: Veille Quotidienne Unifiée
 
 on:
-  schedule:
+  # schedule:
     # Lancement 5 fois par jour (8h, 12h, 16h, 20h, 23h heure francaise - configure pour l'heure d'ete UTC+2)
-    - cron: '0 6,10,14,18,21 * * *'
+    # - cron: '0 6,10,14,18,21 * * *'
   workflow_dispatch: # Permet de lancer le workflow manuellement depuis l'interface GitHub
 
 jobs:
