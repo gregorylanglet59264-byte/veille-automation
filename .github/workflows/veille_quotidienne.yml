@@ -11,6 +11,10 @@ on:
         required: false
         type: string
         default: 'all'
+      triggered_by:
+        description: "Qui déclenche ? (gregory = Gregory seulement, patrick = Patrick + Gregory en copie)"
+        required: false
+        default: "gregory"
 
 jobs:
   run-veille:
