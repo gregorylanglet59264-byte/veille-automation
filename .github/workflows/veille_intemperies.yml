@@ -33,7 +33,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL || 'langlet.gregory@gmail.com' }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          RECIPIENT_EMAILS: ${{ secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com' }}
+          # Adresse e-mail du/des destinataire(s) dynamique selon le déclencheur
+          RECIPIENT_EMAILS: ${{ (github.event.inputs.triggered_by == 'patrick') && (secrets.RECIPIENT_EMAILS_PROD || 'patrick.marliere@wanadoo.fr, gregory.langlet@sfr.fr, langlet.gregory@gmail.com') || (secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com') }}
           # Clés API configurées dans les Secrets GitHub
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}

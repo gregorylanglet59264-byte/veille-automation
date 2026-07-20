@@ -43,7 +43,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Envoi uniquement à Gregory en test, ou configurable
-          RECIPIENT_EMAILS: ${{ secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com' }}
+          # Envoi dynamique selon l'expediteur
+          RECIPIENT_EMAILS: ${{ (github.event.inputs.triggered_by == 'patrick') && (secrets.RECIPIENT_EMAILS_PROD || 'patrick.marliere@wanadoo.fr, gregory.langlet@sfr.fr, langlet.gregory@gmail.com') || (secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com') }}
         run: |
           python run_infoclimat.py

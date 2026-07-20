@@ -38,8 +38,8 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL || 'langlet.gregory@gmail.com' }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          # Adresse e-mail du/des destinataire(s) (separees par des virgules si plusieurs)
-          RECIPIENT_EMAILS: ${{ secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com' }}
+          # Adresse e-mail du/des destinataire(s) dynamique selon le déclencheur
+          RECIPIENT_EMAILS: ${{ (github.event.inputs.triggered_by == 'patrick') && (secrets.RECIPIENT_EMAILS_PROD || 'patrick.marliere@wanadoo.fr, gregory.langlet@sfr.fr, langlet.gregory@gmail.com') || (secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com') }}
           # Utilise au choix GEMINI_API_KEY ou OPENROUTER_API_KEY configurés dans les Secrets GitHub du dépôt
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
