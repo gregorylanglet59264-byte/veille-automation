@@ -65,7 +65,7 @@ def filter_recent_articles(articles, max_hours=48):
             recent.append(art)
     return recent
 
-# Flux RSS nationaux (presse générale)
+# Flux RSS nationaux (presse générale France)
 FEEDS_NATIONAL = {
     "Le Monde":    "https://www.lemonde.fr/rss/une.xml",
     "FranceInfo":  "https://www.francetvinfo.fr/titres.rss",
@@ -73,6 +73,21 @@ FEEDS_NATIONAL = {
     "Le Figaro":   "https://www.lefigaro.fr/rss/figaro_actualites.xml",
     "Liberation":  "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml",
     "L'Obs":       "https://www.nouvelobs.com/rss.xml",
+}
+# Flux RSS presse internationale
+FEEDS_INTERNATIONAL = {
+    "France 24":            "https://www.france24.com/fr/rss",
+    "Courrier Int.":        "https://www.courrierinternational.com/feed/all/rss.xml",
+    "Euronews FR":          "https://fr.euronews.com/rss?format=xml",
+    "RFI Monde":            "https://www.rfi.fr/fr/g%C3%A9n%C3%A9ral/rss",
+    "BBC World News":       "https://feeds.bbci.co.uk/news/world/rss.xml",
+}
+# Flux RSS presse mondiale / grands enjeux
+FEEDS_MONDIAL = {
+    "France 24 Monde":      "https://www.france24.com/fr/monde/rss",
+    "Le Monde Int.":        "https://www.lemonde.fr/international/rss_full.xml",
+    "Courrier Int.":        "https://www.courrierinternational.com/feed/all/rss.xml",
+    "BBC News":             "https://feeds.bbci.co.uk/news/world/rss.xml",
 }
 # Flux RSS Hauts-de-France uniquement
 FEEDS_HDF = {
@@ -244,29 +259,31 @@ def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
 
 # 3. Rédacteurs thématiques
 def build_actu_report(date_str):
-    print("[Rapport] Collecte et rédaction Actualités...")
-    # Collectes séparées : national d'un côté, HDF de l'autre (flux dédiés)
-    raw_national = _fetch_feeds({**FEEDS_NATIONAL}, max_articles=50)
-    raw_hdf      = _fetch_feeds(FEEDS_HDF, max_articles=50)
+    print("[Rapport] Collecte et rédaction Actualités (France, International, Mondial, HDF)...")
+    raw_national      = _fetch_feeds(FEEDS_NATIONAL, max_articles=40)
+    raw_international = _fetch_feeds(FEEDS_INTERNATIONAL, max_articles=40)
+    raw_mondial       = _fetch_feeds(FEEDS_MONDIAL, max_articles=40)
+    raw_hdf           = _fetch_feeds(FEEDS_HDF, max_articles=40)
     raw_data = {
-        "mondial":       raw_national,
-        "international": raw_national,
         "france":        raw_national,
+        "international": raw_international,
+        "mondial":       raw_mondial,
         "hdf":           raw_hdf,   # UNIQUEMENT des articles des flux HDF
     }
     system_prompt = (
         "Tu es un analyste de presse senior. Ton rôle est de trier et de synthétiser les actualités fournies.\n"
         "RÈGLE ABSOLUE N°1 : Ne conserver QUE des informations et articles publiés depuis MOINS DE 48 HEURES.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 10 articles pertinents pour chaque catégorie.\n"
-        "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et une courte description (1 à 2 lignes).\n"
+        "RÈGLE CRITIQUE DE TRADUCTION : Si un article international/mondial est en anglais (ex: BBC, CNN), TRADUIS IMPÉRATIVEMENT LE TITRE ET LE RÉSUMÉ EN FRANÇAIS IMPECCABLE.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 10 articles pertinents pour chaque catégorie (france, international, mondial, hdf).\n"
+        "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et une courte description en français (1 à 2 lignes).\n"
         "RÈGLE HAUTS-DE-FRANCE : La clé 'hdf' doit contenir EXCLUSIVEMENT des articles parlant de la région Hauts-de-France (Nord, Pas-de-Calais, Somme, Aisne, Oise) : faits divers, société, emploi, élus locaux, événements régionaux. N'inclus JAMAIS un article national dans 'hdf'.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
         "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "{\n"
-        "  \"mondial\": [ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... ],\n"
-        "  \"international\": [ ... ],\n"
-        "  \"france\": [ ... ],\n"
-        "  \"hdf\": [ ... ]\n"
+        "  \"france\": [ {\"title\": \"... (en français)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"... (en français)\"}, ... ],\n"
+        "  \"international\": [ {\"title\": \"... (en français)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"... (en français)\"}, ... ],\n"
+        "  \"mondial\": [ {\"title\": \"... (en français)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"... (en français)\"}, ... ],\n"
+        "  \"hdf\": [ {\"title\": \"... (en français)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"... (en français)\"}, ... ]\n"
         "}"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_data, ensure_ascii=False)}"
@@ -412,25 +429,32 @@ def build_synthesis(actu, ia, meteo, yt, date_str, intemperies=None, bonsplans=N
     intemperies = intemperies or []
     bonsplans = bonsplans or []
     print("[Synthèse] Rédaction de la synthèse globale...")
+    
+    press_france = actu.get('france', []) if isinstance(actu, dict) else []
+    press_inter  = actu.get('international', []) + actu.get('mondial', []) if isinstance(actu, dict) else []
+    hdf_data     = actu.get('hdf', []) if isinstance(actu, dict) else []
+    
     system_prompt = (
         "Tu es un rédacteur en chef. Ton rôle est de compiler une synthèse quotidienne pour un créateur de contenu météo et tech.\n"
         "RÈGLE ABSOLUE ANTI-HALLUCINATION : Tu ne dois JAMAIS inventer, extrapoler ou créer de toutes pièces des actualités.\n"
-        "Chaque élément listé dans top_press, top_hdf, top_ia, top_meteo, top_intemperies et top_bonsplans DOIT correspondre EXACTEMENT à un article présent dans les données fournies ci-dessous.\n"
-        "Si les données ne contiennent que 3 articles IA, liste UNIQUEMENT ces 3 articles — ne complète JAMAIS avec des items inventés.\n"
+        "Chaque élément listé dans top_press, top_international, top_hdf, top_ia, top_meteo, top_intemperies et top_bonsplans DOIT correspondre EXACTEMENT à un article présent dans les données fournies ci-dessous.\n"
+        "Si les données ne contiennent que 3 articles, liste UNIQUEMENT ces 3 articles — ne complète JAMAIS avec des items inventés.\n"
         "À partir des données fournies, rédige une synthèse condensée contenant :\n"
         "1. Une introduction de 3-4 lignes décrivant la situation globale du jour (basée uniquement sur les données).\n"
-        "2. Jusqu'à 10 actualités presse majeures (titres exacts des articles fournis).\n"
-        "3. Jusqu'à 5 actualités Hauts-de-France (titres exacts des articles fournis).\n"
-        "4. Jusqu'à 10 nouveautés IA (titres exacts des articles fournis).\n"
-        "5. Jusqu'à 10 événements météo (titres exacts des articles fournis).\n"
-        "6. Jusqu'à 5 intempéries/cyclones (titres exacts des articles fournis).\n"
-        "7. Jusqu'à 5 bons plans IA (titres exacts des articles fournis).\n"
-        "8. Jusqu'à 10 vidéos YouTube (titres exacts des articles fournis, avec score /10).\n"
-        "9. Un planning éditorial suggéré (3 sujets inspirés des données du jour).\n"
+        "2. Jusqu'à 10 actualités presse France majeure (titres exacts des articles fournis).\n"
+        "3. Jusqu'à 5 actualités presse internationale/mondiale majeure (titres exacts des articles fournis en français).\n"
+        "4. Jusqu'à 5 actualités Hauts-de-France (titres exacts des articles fournis).\n"
+        "5. Jusqu'à 10 nouveautés IA (titres exacts des articles fournis).\n"
+        "6. Jusqu'à 10 événements météo (titres exacts des articles fournis).\n"
+        "7. Jusqu'à 5 intempéries/cyclones (titres exacts des articles fournis).\n"
+        "8. Jusqu'à 5 bons plans IA (titres exacts des articles fournis).\n"
+        "9. Jusqu'à 10 vidéos YouTube (titres exacts des articles fournis, avec score /10).\n"
+        "10. Un planning éditorial suggéré (3 sujets inspirés des données du jour).\n"
         "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "{\n"
         "  \"intro\": \"...\",\n"
         "  \"top_press\": [ \"...\", ... ],\n"
+        "  \"top_international\": [ \"...\", ... ],\n"
         "  \"top_hdf\": [ \"...\", ... ],\n"
         "  \"top_ia\": [ \"...\", ... ],\n"
         "  \"top_meteo\": [ \"...\", ... ],\n"
@@ -440,16 +464,16 @@ def build_synthesis(actu, ia, meteo, yt, date_str, intemperies=None, bonsplans=N
         "  \"editorial_plan\": [ {\"subject\": \"...\", \"hook\": \"...\", \"format\": \"...\"}, ... (3 items) ]\n"
         "}"
     )
-    hdf_data = actu.get('hdf', []) if isinstance(actu, dict) else []
     user_prompt = (
         f"Données pour le {date_str} :\n"
-        f"- Presse nationale : {json.dumps(actu, ensure_ascii=False)[:2500]}\n"
+        f"- Presse France : {json.dumps(press_france, ensure_ascii=False)[:2500]}\n"
+        f"- Presse Internationale / Mondiale : {json.dumps(press_inter, ensure_ascii=False)[:2500]}\n"
         f"- Hauts-de-France : {json.dumps(hdf_data, ensure_ascii=False)[:1500]}\n"
         f"- IA : {json.dumps(ia, ensure_ascii=False)[:2500]}\n"
         f"- Météo : {json.dumps(meteo, ensure_ascii=False)[:2500]}\n"
-        f"- YouTube : {json.dumps(yt, ensure_ascii=False)[:2500]}\n"
         f"- Intempéries : {json.dumps(intemperies, ensure_ascii=False)[:1500]}\n"
-        f"- Bons Plans IA : {json.dumps(bonsplans, ensure_ascii=False)[:1500]}"
+        f"- Bons Plans IA : {json.dumps(bonsplans, ensure_ascii=False)[:1500]}\n"
+        f"- YouTube : {json.dumps(yt, ensure_ascii=False)[:2500]}"
     )
     return llm_parse_json(system_prompt, user_prompt, label="build_synthesis")
 
@@ -523,10 +547,17 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str, intemperies=None, bon
             <div class="section-title">📌 Synthèse Rapide du Jour</div>
             
             <div class="synthesis-list">
-                <h3>Presse Générale</h3>
+                <h3>Presse France</h3>
                 <ul>
     """
     for item in synthesis.get('top_press', []):
+        html += f"<li>{item}</li>"
+    html += """
+                </ul>
+                <h3>🌍 Presse Internationale &amp; Mondiale</h3>
+                <ul>
+    """
+    for item in synthesis.get('top_international', []):
         html += f"<li>{item}</li>"
     html += """
                 </ul>
