@@ -65,31 +65,42 @@ def filter_recent_articles(articles, max_hours=48):
             recent.append(art)
     return recent
 
-# 1. Collecte RSS multi-sources (flux fixes fiables sur GitHub Actions)
-def fetch_google_news(query):
-    """Collecte depuis des flux RSS fixes et fiables.
-    ponytail: Google News RSS donne des dates incohérentes sur GitHub Actions.
-    Les flux RSS directs des médias sont stables et datés correctement."""
-    feeds = {
-        # ── National ──
-        "Le Monde":      "https://www.lemonde.fr/rss/une.xml",
-        "FranceInfo":    "https://www.francetvinfo.fr/titres.rss",
-        "BFM TV":        "https://www.bfmtv.com/rss/news-24-7/",
-        "Le Figaro":     "https://www.lefigaro.fr/rss/figaro_actualites.xml",
-        "Liberation":    "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml",
-        "L'Obs":         "https://www.nouvelobs.com/rss.xml",
-        # ── Régional Hauts-de-France ──
-        "France 3 HDF":  "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
-        "France 3 NPC":  "https://france3-regions.francetvinfo.fr/hauts-de-france/nord-pas-de-calais/rss",
-        "La Voix du Nord": "https://www.lavoixdunord.fr/arc/outboundfeeds/rss/?outputType=xml",
-        # ── IA / Tech ──
-        "Hacker News":   "https://hnrss.org/frontpage",
-        "PresseCitron":  "https://www.presse-citron.net/feed/",
-        "Numerama":      "https://www.numerama.com/feed/",
-        # ── Météo / Science ──
-        "Science & Vie": "https://www.science-et-vie.com/feed",
-    }
+# Flux RSS nationaux (presse générale)
+FEEDS_NATIONAL = {
+    "Le Monde":    "https://www.lemonde.fr/rss/une.xml",
+    "FranceInfo":  "https://www.francetvinfo.fr/titres.rss",
+    "BFM TV":      "https://www.bfmtv.com/rss/news-24-7/",
+    "Le Figaro":   "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+    "Liberation":  "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml",
+    "L'Obs":       "https://www.nouvelobs.com/rss.xml",
+}
+# Flux RSS Hauts-de-France uniquement
+FEEDS_HDF = {
+    "France 3 HDF":    "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
+    "France 3 NPC":    "https://france3-regions.francetvinfo.fr/hauts-de-france/nord-pas-de-calais/rss",
+    "La Voix du Nord": "https://www.lavoixdunord.fr/arc/outboundfeeds/rss/?outputType=xml",
+}
+# Flux RSS IA / Tech
+FEEDS_IA = {
+    "Hacker News":  "https://hnrss.org/frontpage",
+    "PresseCitron": "https://www.presse-citron.net/feed/",
+    "Numerama":     "https://www.numerama.com/feed/",
+}
+# Flux RSS Bons Plans / Deals
+FEEDS_BONSPLANS = {
+    "Dealabs":      "https://www.dealabs.com/rss",
+    "ProductHunt":  "https://www.producthunt.com/feed",
+    "PresseCitron": "https://www.presse-citron.net/feed/",
+}
+# Flux RSS Météo / Science
+FEEDS_METEO = {
+    "FranceInfo":  "https://www.francetvinfo.fr/titres.rss",
+    "Science & Vie": "https://www.science-et-vie.com/feed",
+    "BFM TV":      "https://www.bfmtv.com/rss/news-24-7/",
+}
 
+def _fetch_feeds(feeds, max_articles=50, max_hours=48):
+    """Collecte RSS générique depuis un dict {nom: url}."""
     all_articles = []
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     for name, url in feeds.items():
@@ -110,12 +121,17 @@ def fetch_google_news(query):
                 })
         except Exception as e:
             print(f"[RSS] Flux {name} inaccessible : {e}")
+    print(f"[RSS] {len(feeds)} flux → {len(all_articles)} articles bruts")
+    recent = filter_recent_articles(all_articles, max_hours)
+    recent = sorted(recent, key=lambda x: x.get("age_seconds", 999999))
+    print(f"[RSS] {len(recent)} articles retenus apres filtre {max_hours}h")
+    return recent[:max_articles]
 
-    print(f"[RSS] Total articles collectes depuis {len(feeds)} flux : {len(all_articles)}")
-    recent_articles = filter_recent_articles(all_articles, 48)
-    recent_articles = sorted(recent_articles, key=lambda x: x.get("age_seconds", 999999))
-    print(f"[RSS] Articles retenus apres filtre 48h : {len(recent_articles)}")
-    return recent_articles[:50]
+# ponytail: conservé pour compatibilité avec build_ia_report, build_meteo_report, build_intemperies_report
+def fetch_google_news(query):
+    """Collecte depuis les flux nationaux + IA selon le contexte."""
+    feeds = {**FEEDS_NATIONAL, **FEEDS_IA, **FEEDS_METEO}
+    return _fetch_feeds(feeds, max_articles=50)
 
 def _repair_truncated_json(text):
     """Tente de réparer un JSON tronqué en fermant les structures ouvertes."""
@@ -215,27 +231,26 @@ def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
     print(f"[LLM] ERREUR : {retries} tentatives échouées pour {label}.")
     return None
 
-# 3. Rédacteurs thématiques (avec règle stricte des 10 articles)
+# 3. Rédacteurs thématiques
 def build_actu_report(date_str):
     print("[Rapport] Collecte et rédaction Actualités...")
-    queries = {
-        "mondial": "monde actualités grands titres breaking news",
-        "international": "actualités internationales géopolitique Europe US Asie",
-        "france": "actualités France politique société économie",
-        "hdf": "actualités Hauts-de-France Nord Pas-de-Calais Picardie Lille"
+    # Collectes séparées : national d'un côté, HDF de l'autre (flux dédiés)
+    raw_national = _fetch_feeds({**FEEDS_NATIONAL}, max_articles=50)
+    raw_hdf      = _fetch_feeds(FEEDS_HDF, max_articles=50)
+    raw_data = {
+        "mondial":       raw_national,
+        "international": raw_national,
+        "france":        raw_national,
+        "hdf":           raw_hdf,   # UNIQUEMENT des articles des flux HDF
     }
-    
-    raw_data = {}
-    for key, q in queries.items():
-        raw_data[key] = fetch_google_news(q)
-        
     system_prompt = (
         "Tu es un analyste de presse senior. Ton rôle est de trier et de synthétiser les actualités fournies.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des informations et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article datant de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 articles pertinents pour chaque catégorie (Mondial, International, France, Hauts-de-France).\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des informations et articles publiés depuis MOINS DE 48 HEURES.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 10 articles pertinents pour chaque catégorie.\n"
         "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et une courte description (1 à 2 lignes).\n"
-        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs de code markdown ```json) :\n"
+        "RÈGLE HAUTS-DE-FRANCE : La clé 'hdf' doit contenir EXCLUSIVEMENT des articles parlant de la région Hauts-de-France (Nord, Pas-de-Calais, Somme, Aisne, Oise) : faits divers, société, emploi, élus locaux, événements régionaux. N'inclus JAMAIS un article national dans 'hdf'.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "{\n"
         "  \"mondial\": [ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... ],\n"
         "  \"international\": [ ... ],\n"
@@ -244,7 +259,6 @@ def build_actu_report(date_str):
         "}"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_data, ensure_ascii=False)}"
-    
     return llm_parse_json(system_prompt, user_prompt, label="build_actu_report")
 
 def build_ia_report(date_str):
@@ -311,16 +325,17 @@ def build_intemperies_report(date_str):
 
 def build_bonsplans_report(date_str):
     print("[Rapport] Collecte et rédaction Bons Plans IA & Outils...")
-    query = "bon plan IA promo réduction outil SaaS gratuit coupon"
-    raw_articles = fetch_google_news(query)
-    
+    # Flux dédiés deals/tech : Dealabs pour les promos, ProductHunt pour les nouveaux outils gratuits
+    raw_articles = _fetch_feeds(FEEDS_BONSPLANS, max_articles=30, max_hours=168)  # 7 jours
+    if not raw_articles:
+        print("[Rapport] Bons Plans : aucun article trouvé dans les flux dédiés.")
+        return []
     system_prompt = (
-        "Tu es un dénicheur de bons plans IA et Tech. Ton rôle est de repérer les outils gratuits, promotions et offres spéciales du moment.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des offres publiées depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT toute offre de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 15 bons plans.\n"
-        "Pour chaque bon plan, fournis un titre (title), l'outil concerné (tool), le type d'offre (offer_type), une courte description succincte (1 à 2 lignes) (summary) et son URL (url).\n"
+        "Tu es un dénicheur de bons plans IA et Tech. Ton rôle est de repérer les outils gratuits, promotions, lancements et offres spéciales du moment.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 10 bons plans depuis les articles fournis. Si un article présente un outil ou une promotion intéressante, inclus-le même sans prix explicite.\n"
+        "Pour chaque bon plan, fournis un titre (title), l'outil concerné (tool), le type d'offre (offer_type : 'Gratuit', 'Promo', 'Nouveau lancement', 'Open Source'...), une courte description (summary) et son URL (url).\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
         "  ...\n"
