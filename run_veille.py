@@ -103,13 +103,8 @@ def fetch_google_news(query):
         except Exception as e:
             print(f"[RSS] Échec de récupération du flux {name} : {e}")
             
-    # Filtrer d'abord à < 24h
+    # RÈGLE ABSOLUE N°1 : Filtrer STRICTEMENT à moins de 24 heures (0 fallback au-delà)
     recent_articles = filter_recent_articles(all_articles, 24)
-    # Fallback à 48h si on n'a pas assez d'articles récents
-    if len(recent_articles) < 15:
-        recent_articles = filter_recent_articles(all_articles, 48)
-    if len(recent_articles) < 15:
-        recent_articles = all_articles
 
     # Trier du plus récent au plus ancien
     recent_articles = sorted(recent_articles, key=lambda x: x.get("age_seconds", 999999))
@@ -262,6 +257,7 @@ def build_actu_report(date_str):
         
     system_prompt = (
         "Tu es un analyste de presse senior. Ton rôle est de trier et de synthétiser les actualités fournies.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des informations et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article datant de plus de 24 heures.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 articles pertinents pour chaque catégorie (Mondial, International, France, Hauts-de-France).\n"
         "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et une courte description (1 à 2 lignes).\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
@@ -284,6 +280,7 @@ def build_ia_report(date_str):
     
     system_prompt = (
         "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des nouveautés publiées depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout élément de plus de 24 heures.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/outils majeurs.\n"
         "Pour chaque élément, fournis un titre, l'outil/modèle concerné, sa description technique succincte, son URL et une note d'intérêt éditorial /10.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
@@ -304,6 +301,7 @@ def build_meteo_report(date_str):
     
     system_prompt = (
         "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article de plus de 24 heures.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/vigilances/records.\n"
         "Pour chaque élément, fournis un titre, la zone géographique, le phénomène concerné, sa description détaillée et son URL source.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
