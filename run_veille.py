@@ -82,9 +82,11 @@ FEEDS_HDF = {
 }
 # Flux RSS IA / Tech
 FEEDS_IA = {
-    "Hacker News":  "https://hnrss.org/frontpage",
-    "PresseCitron": "https://www.presse-citron.net/feed/",
-    "Numerama":     "https://www.numerama.com/feed/",
+    "Hacker News":      "https://hnrss.org/frontpage",
+    "PresseCitron":     "https://www.presse-citron.net/feed/",
+    "Numerama":         "https://www.numerama.com/feed/",
+    "TechCrunch":       "https://techcrunch.com/feed/",
+    "MIT Tech Review":  "https://www.technologyreview.com/feed/",
 }
 # Flux RSS Bons Plans IA uniquement
 FEEDS_BONSPLANS = {
@@ -93,11 +95,19 @@ FEEDS_BONSPLANS = {
     "Numerama":     "https://www.numerama.com/feed/",
     "TechCrunch":   "https://techcrunch.com/feed/",
 }
-# Flux RSS Météo / Science
+# Flux RSS Météo / Climat
 FEEDS_METEO = {
-    "FranceInfo":  "https://www.francetvinfo.fr/titres.rss",
-    "Science & Vie": "https://www.science-et-vie.com/feed",
-    "BFM TV":      "https://www.bfmtv.com/rss/news-24-7/",
+    "FranceInfo":       "https://www.francetvinfo.fr/titres.rss",
+    "La Chaîne Météo": "https://www.lachainemeteo.com/rss/actualites.xml",
+    "BFM TV":           "https://www.bfmtv.com/rss/news-24-7/",
+    "Science & Vie":    "https://www.science-et-vie.com/feed",
+}
+# Flux RSS Intempéries & Cyclones (dédiés)
+FEEDS_INTEMPERIES = {
+    "La Chaîne Météo": "https://www.lachainemeteo.com/rss/actualites.xml",
+    "FranceInfo":       "https://www.francetvinfo.fr/titres.rss",
+    "BFM TV":           "https://www.bfmtv.com/rss/news-24-7/",
+    "Le Monde":         "https://www.lemonde.fr/rss/une.xml",
 }
 
 def _fetch_feeds(feeds, max_articles=50, max_hours=48):
@@ -264,13 +274,12 @@ def build_actu_report(date_str):
 
 def build_ia_report(date_str):
     print("[Rapport] Collecte et rédaction Intelligence Artificielle...")
-    query = "AI models tools releases benchmark github cursor claude gemini llama deepseek"
-    raw_articles = fetch_google_news(query)
-    
+    raw_articles = _fetch_feeds(FEEDS_IA, max_articles=50, max_hours=48)
+
     system_prompt = (
         "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des nouveautés publiées depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout élément de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/outils majeurs.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des nouveautés publiées depuis MOINS DE 48 HEURES.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 15 actualités/outils majeurs.\n"
         "Pour chaque élément, fournis un titre, l'outil/modèle concerné, sa description technique succincte, son URL et une note d'intérêt éditorial /10.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
@@ -280,42 +289,39 @@ def build_ia_report(date_str):
         "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
-    
     return llm_parse_json(system_prompt, user_prompt, label="build_ia_report")
 
 def build_meteo_report(date_str):
     print("[Rapport] Collecte et rédaction Météo & Climat...")
-    query = "météo france vigilance climat records Copernicus NOAA OMM intempéries"
-    raw_articles = fetch_google_news(query)
-    
+    raw_articles = _fetch_feeds(FEEDS_METEO, max_articles=40, max_hours=48)
+
     system_prompt = (
         "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/vigilances/records.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 48 HEURES.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 15 actualités/vigilances/records liés à la météo ou au climat.\n"
+        "EXCLURE : les articles sans rapport avec la météo ou le climat.\n"
         "Pour chaque élément, fournis un titre, la zone géographique, le phénomène concerné, sa description détaillée et son URL source.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
         "  ...\n"
         "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
-    
     return llm_parse_json(system_prompt, user_prompt, label="build_meteo_report")
 
 def build_intemperies_report(date_str):
     print("[Rapport] Collecte et rédaction Intempéries & Cyclones...")
-    query = "orages inondations vigilance cyclone tempête grêle tornade dégâts"
-    raw_articles = fetch_google_news(query)
-    
+    raw_articles = _fetch_feeds(FEEDS_INTEMPERIES, max_articles=40, max_hours=48)
+
     system_prompt = (
         "Tu es un expert en risques naturels et météorologiques. Ton rôle est de lister les événements d'intempéries et d'activité cyclonique clés.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout événement de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 événements/vigilances.\n"
-        "Pour chaque élément, fournis un titre, la zone concernée (location), le phénomène (phenomenon), une courte description succincte (1 à 2 lignes) (summary) et son URL source (url).\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 48 HEURES.\n"
+        "RÈGLE CRITIQUE : Ne retenir QUE les articles parlant d'intempéries (orages, inondations, cyclones, tempêtes, grêle, tornade, canicule, etc.). EXCLURE tout article sans rapport avec les intempéries.\n"
+        "Pour chaque élément, fournis un titre, la zone concernée (location), le phénomène (phenomenon), une courte description (summary) et son URL source (url).\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
         "  ...\n"
@@ -404,26 +410,29 @@ def build_synthesis(actu, ia, meteo, yt, date_str, intemperies=None, bonsplans=N
     print("[Synthèse] Rédaction de la synthèse globale...")
     system_prompt = (
         "Tu es un rédacteur en chef. Ton rôle est de compiler une synthèse quotidienne pour un créateur de contenu météo et tech.\n"
-        "À partir des thématiques fournies, rédige une synthèse condensée contenant :\n"
-        "1. Une introduction de 3-4 lignes décrivant la situation globale du jour.\n"
-        "2. Les 10 actualités presse majeures (nationale/internationale).\n"
-        "3. Les 5 actualités Hauts-de-France (faits divers, société, événements régionaux).\n"
-        "4. Les 10 nouveautés IA clés.\n"
-        "5. Les 10 événements/alertes météo clés.\n"
-        "6. Les 5 faits marquants d'intempéries ou cyclones.\n"
-        "7. Les 5 meilleurs bons plans IA du moment (abonnements, nouveaux outils gratuits, lancements).\n"
-        "8. Les 10 vidéos YouTube recommandées (avec score /10).\n"
-        "9. Un planning éditorial suggéré (3 sujets de vidéos ou posts).\n"
+        "RÈGLE ABSOLUE ANTI-HALLUCINATION : Tu ne dois JAMAIS inventer, extrapoler ou créer de toutes pièces des actualités.\n"
+        "Chaque élément listé dans top_press, top_hdf, top_ia, top_meteo, top_intemperies et top_bonsplans DOIT correspondre EXACTEMENT à un article présent dans les données fournies ci-dessous.\n"
+        "Si les données ne contiennent que 3 articles IA, liste UNIQUEMENT ces 3 articles — ne complète JAMAIS avec des items inventés.\n"
+        "À partir des données fournies, rédige une synthèse condensée contenant :\n"
+        "1. Une introduction de 3-4 lignes décrivant la situation globale du jour (basée uniquement sur les données).\n"
+        "2. Jusqu'à 10 actualités presse majeures (titres exacts des articles fournis).\n"
+        "3. Jusqu'à 5 actualités Hauts-de-France (titres exacts des articles fournis).\n"
+        "4. Jusqu'à 10 nouveautés IA (titres exacts des articles fournis).\n"
+        "5. Jusqu'à 10 événements météo (titres exacts des articles fournis).\n"
+        "6. Jusqu'à 5 intempéries/cyclones (titres exacts des articles fournis).\n"
+        "7. Jusqu'à 5 bons plans IA (titres exacts des articles fournis).\n"
+        "8. Jusqu'à 10 vidéos YouTube (titres exacts des articles fournis, avec score /10).\n"
+        "9. Un planning éditorial suggéré (3 sujets inspirés des données du jour).\n"
         "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "{\n"
         "  \"intro\": \"...\",\n"
-        "  \"top_press\": [ \"...\", ... (10 items) ],\n"
-        "  \"top_hdf\": [ \"...\", ... (5 items) ],\n"
-        "  \"top_ia\": [ \"...\", ... (10 items) ],\n"
-        "  \"top_meteo\": [ \"...\", ... (10 items) ],\n"
-        "  \"top_intemperies\": [ \"...\", ... (5 items) ],\n"
-        "  \"top_bonsplans\": [ \"...\", ... (5 items) ],\n"
-        "  \"top_youtube\": [ \"...\", ... (10 items) ],\n"
+        "  \"top_press\": [ \"...\", ... ],\n"
+        "  \"top_hdf\": [ \"...\", ... ],\n"
+        "  \"top_ia\": [ \"...\", ... ],\n"
+        "  \"top_meteo\": [ \"...\", ... ],\n"
+        "  \"top_intemperies\": [ \"...\", ... ],\n"
+        "  \"top_bonsplans\": [ \"...\", ... ],\n"
+        "  \"top_youtube\": [ \"...\", ... ],\n"
         "  \"editorial_plan\": [ {\"subject\": \"...\", \"hook\": \"...\", \"format\": \"...\"}, ... (3 items) ]\n"
         "}"
     )
