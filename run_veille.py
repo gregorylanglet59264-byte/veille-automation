@@ -63,138 +63,58 @@ def filter_recent_articles(articles, max_hours=24):
             recent.append(art)
     return recent
 
-# 1. Collecte RSS — Google News multi-requêtes par thème
-# ponytail: Google News RSS est public, anonyme, ~50-200 résultats/requête depuis des centaines de sources
-GNEWS_BASE = "https://news.google.com/rss/search?q={query}&hl=fr&gl=FR&ceid=FR:fr"
-
-def _gnews_fetch(queries, max_articles=200):
-    """Interroge Google News RSS pour chaque requête, déduplique, filtre <24h. Retourne jusqu'à max_articles items."""
-    user_agent = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
-    seen_urls = set()
-    all_articles = []
-    for source_name, q in queries.items():
-        url = GNEWS_BASE.format(query=urllib.parse.quote(q))
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": user_agent})
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                root = ET.fromstring(resp.read())
-            for item in root.findall(".//item"):
-                title_el = item.find("title")
-                link_el  = item.find("link")
-                date_el  = item.find("pubDate")
-                src_el   = item.find("source")
-                title = title_el.text if title_el is not None else ""
-                link  = link_el.text  if link_el  is not None else ""
-                if not link or link in seen_urls:
-                    continue
-                seen_urls.add(link)
-                all_articles.append({
-                    "title":  title.strip(),
-                    "url":    link,
-                    "date":   date_el.text if date_el is not None else "",
-                    "source": src_el.text  if src_el  is not None else source_name,
-                })
-        except Exception as e:
-            print(f"[RSS] Échec Google News '{q}' : {e}")
-
-    # Filtre strict 24h puis tri du plus récent au plus ancien
-    recent = filter_recent_articles(all_articles, 24)
-    recent.sort(key=lambda x: x.get("age_seconds", 999999))
-    return recent[:max_articles]
-
-
-def _fetch_actu():
-    """Collecte presse nationale + internationale : vise 80+ articles <24h."""
-    queries = {
-        "une_france":   "actualités France politiques société économie",
-        "monde":        "actualités monde international breaking news",
-        "geopolitique": "géopolitique Europe Etats-Unis guerre diplomatie",
-        "politique_fr": "politique française gouvernement parlement élections",
-        "société_fr":   "société faits divers France justice police",
-        "economie":     "économie entreprises marchés inflation bourse",
-        "europe":       "actualités Europe Commission Parlement europeen",
-        "usa":          "United States politics news Trump Biden White House",
-    }
-    return _gnews_fetch(queries, max_articles=150)
-
-
-def _fetch_ia():
-    """Collecte IA & Tech : vise 80+ articles <24h."""
-    queries = {
-        "llm_models":   "LLM ChatGPT Claude Gemini Llama DeepSeek GPT release",
-        "openai":       "OpenAI announcement model release update",
-        "anthropic":    "Anthropic Claude AI update",
-        "google_ai":    "Google Gemini AI DeepMind update",
-        "ia_outils":    "intelligence artificielle outils IA France nouveauté",
-        "github_ai":    "GitHub Copilot open source AI tools developer",
-        "securite_ia":  "AI safety cybersecurity LLM jailbreak vulnerability",
-        "hacker_news":  "AI machine learning software engineering Hacker News",
-        "robotique":    "robotique robots autonomes IA industrielle",
-        "ia_emploi":    "intelligence artificielle emploi automatisation impact société",
-    }
-    return _gnews_fetch(queries, max_articles=150)
-
-
-def _fetch_meteo():
-    """Collecte météo & climat : vise 80+ articles <24h."""
-    queries = {
-        "vigilance_mf": "Météo-France vigilance orange rouge alerte",
-        "canicule":     "canicule chaleur record température France Europe",
-        "inondation":   "inondations crues pluies torrentielles France",
-        "tempete":      "tempête vents violents ouragan cyclone",
-        "orage":        "orages grêle foudre tornade France",
-        "climat_global": "changement climatique records OMM NOAA Copernicus",
-        "neige":        "neige gel verglas grand froid montagne",
-        "secheresse":   "sécheresse incendies de forêt canicule été",
-        "meteo_monde":  "weather extreme events flooding hurricane wildfire",
-        "previsions":   "prévisions météo semaine France températures",
-    }
-    return _gnews_fetch(queries, max_articles=150)
-
-
-def _fetch_hdf():
-    """Collecte Hauts-de-France : vise 60+ articles <24h."""
-    queries = {
-        "lille":        "Lille actualités Nord faits divers",
-        "pas_de_calais": "Pas-de-Calais Calais Boulogne Lens Béthune actualités",
-        "picardie":     "Amiens Somme Oise Aisne Picardie actualités",
-        "nord_faits":   "Nord faits divers accidents justice police",
-        "hdf_economie": "Hauts-de-France économie emploi usines industrie",
-        "hdf_culture":  "Hauts-de-France culture sport événements",
-        "dunkerque":    "Dunkerque Valenciennes Douai actualités",
-        "arras":        "Arras Saint-Quentin Soissons actualités",
-    }
-    return _gnews_fetch(queries, max_articles=150)
-
-
-def _fetch_intemperies():
-    """Collecte intempéries & cyclones : vise 60+ articles <24h."""
-    queries = {
-        "orages":       "orages grêle foudre tornade France Europe",
-        "cyclones":     "cyclone ouragan typhon tropical storm",
-        "inondations":  "inondations crues catastrophe naturelle",
-        "vigilance":    "Météo-France vigilance rouge orange alerte météo",
-        "tornades":     "tornado tornades Etats-Unis France Europe",
-        "canicule_ex":  "canicule record chaleur extrême Europe monde",
-        "tempete_vent": "tempête vents violents gusts storm damage",
-        "neige_montagne": "neige avalanche montagne alerte grand froid",
-    }
-    return _gnews_fetch(queries, max_articles=150)
-
-
-# Rétrocompat: fetch_google_news conservée pour process_youtube_report ou autres appels
+# 1. Collecte RSS multi-sources
+# 1. Collecte RSS dynamique via Google News
+# ponytail: Google News RSS public et gratuit, évite les limitations des flux fixes.
 def fetch_google_news(query):
-    """Alias de compatibilité — routes vers le bon collecteur thématique."""
-    q = query.lower()
-    if any(w in q for w in ["météo", "meteo", "climat", "vigilance", "canicule"]):
-        return _fetch_meteo()[:45]
-    if any(w in q for w in ["hauts-de-france", "hdf", "lille", "pas-de-calais"]):
-        return _fetch_hdf()[:45]
-    if any(w in q for w in ["ia", "ai", "claude", "gemini", "llama", "deepseek", "chatgpt", "openai", "github"]):
-        return _fetch_ia()[:45]
-    if any(w in q for w in ["intempéries", "orages", "cyclone", "tornade", "inondation"]):
-        return _fetch_intemperies()[:45]
-    return _fetch_actu()[:45]
+    encoded_query = urllib.parse.quote(query)
+    url = f"https://news.google.com/rss/search?q={encoded_query}&hl=fr&gl=FR&ceid=FR:fr"
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    
+    all_articles = []
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+        with urllib.request.urlopen(req, timeout=15) as response:
+            xml_data = response.read()
+        root = ET.fromstring(xml_data)
+        for item in root.findall(".//item"):
+            title = item.find("title").text if item.find("title") is not None else ""
+            link = item.find("link").text if item.find("link") is not None else ""
+            pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
+            src_el = item.find("source")
+            source = src_el.text if src_el is not None else "Google News"
+            
+            all_articles.append({
+                "title": title.strip(),
+                "url": link,
+                "date": pub_date,
+                "source": source
+            })
+    except Exception as e:
+        print(f"[RSS] Échec de récupération de la requête '{query}' : {e}")
+        
+    recent_articles = filter_recent_articles(all_articles, 24)
+    recent_articles = sorted(recent_articles, key=lambda x: x.get("age_seconds", 999999))
+    return recent_articles[:45]
+
+def _repair_truncated_json(text):
+    """Tente de réparer un JSON tronqué en fermant les structures ouvertes."""
+    text = text.strip()
+    # Supprimer la dernière entrée incomplète
+    for cutoff in [',', '{', '[']:
+        idx = text.rfind(cutoff)
+        if idx > 0:
+            candidate = text[:idx]
+            opens = candidate.count('{') - candidate.count('}')
+            close_obj = '}' * max(0, opens)
+            opens_arr = candidate.count('[') - candidate.count(']')
+            close_arr = ']' * max(0, opens_arr)
+            repaired = candidate + close_obj + close_arr
+            try:
+                return json.loads(repaired, strict=False)
+            except Exception:
+                continue
+    return None
 
 # 2. Appel API IA (Gemini ou OpenRouter) sans dépendances lourdes
 def call_llm(system_prompt, user_prompt):
@@ -252,26 +172,6 @@ def call_llm(system_prompt, user_prompt):
     print("[LLM] ERREUR : Aucune clé API configurée ou échec des appels.")
     return None
 
-def _repair_truncated_json(text):
-    """Tente de réparer un JSON tronqué en fermant les structures ouvertes."""
-    text = text.strip()
-    # Supprimer la dernière entrée incomplète (après la dernière virgule ou accolade/crochet ouvrant)
-    for cutoff in [',', '{', '[']:
-        idx = text.rfind(cutoff)
-        if idx > 0:
-            candidate = text[:idx]
-            # Fermer les structures JSON ouvertes
-            opens = candidate.count('{') - candidate.count('}')
-            close_obj = '}' * max(0, opens)
-            opens_arr = candidate.count('[') - candidate.count(']')
-            close_arr = ']' * max(0, opens_arr)
-            repaired = candidate + close_obj + close_arr
-            try:
-                return json.loads(repaired, strict=False)
-            except Exception:
-                continue
-    return None
-
 def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
     """Appelle call_llm et parse le JSON. Retry x3 si réponse vide ou JSON invalide. Repair auto si tronqué."""
     for attempt in range(retries):
@@ -284,10 +184,10 @@ def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
                 return json.loads(response_clean, strict=False)
             except json.JSONDecodeError as e:
                 print(f"[LLM] Tentative {attempt+1}/{retries} : JSON invalide pour {label} : {e}")
-                # Tentative de réparation automatique si JSON tronqué
+                # Tentative de réparation si JSON tronqué
                 repaired = _repair_truncated_json(response_clean)
                 if repaired is not None:
-                    print(f"[LLM] JSON réparé automatiquement pour {label} ({len(repaired) if isinstance(repaired, list) else 'dict'} éléments récupérés).")
+                    print(f"[LLM] JSON réparé automatiquement pour {label}.")
                     return repaired
         if attempt < retries - 1:
             print(f"[LLM] Nouvelle tentative dans {delay}s...")
@@ -295,129 +195,119 @@ def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
     print(f"[LLM] ERREUR : {retries} tentatives échouées pour {label}.")
     return None
 
-# 3. Rédacteurs thématiques — format complet conforme aux compétences veille
+# 3. Rédacteurs thématiques (avec règle stricte des 10 articles)
 def build_actu_report(date_str):
     print("[Rapport] Collecte et rédaction Actualités...")
-    raw_data = {
-        "mondial":       _fetch_actu()[:80],
-        "international": _fetch_actu()[:80],
-        "france":        _fetch_actu()[:80],
+    queries = {
+        "mondial": "monde actualités grands titres breaking news",
+        "international": "actualités internationales géopolitique Europe US Asie",
+        "france": "actualités France politique société économie",
+        "hdf": "actualités Hauts-de-France Nord Pas-de-Calais Picardie Lille"
     }
+    
+    raw_data = {}
+    for key, q in queries.items():
+        raw_data[key] = fetch_google_news(q)
+        
     system_prompt = (
-        f"Tu es un journaliste d'investigation senior spécialisé dans l'actualité nationale et internationale. Aujourd'hui nous sommes le {date_str}.\n\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. Ignore tout article sans date claire.\n"
-        "DÉDOUBLONNAGE : Si plusieurs médias parlent du même événement, ne conserve qu'une seule actualité (la meilleure source).\n"
-        "PRIORITÉ : Géopolitique, conflits, réformes, crises économiques, sécurité, justice, catastrophes, grondements sociaux. Ignore sport/culture/agenda/pub.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url' de la source. N'invente jamais une URL.\n\n"
-        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
-        "Le résumé doit être un paragraphe unique et fluide de 5 lignes exactes expliquant les faits, le contexte, les conséquences géopolitiques/nationales, les réactions et les suites. Terminer par : '**Source :** [Nom](URL)'.\n\n"
-        "Format JSON attendu (sans blocs ```json) :\n"
+        "Tu es un analyste de presse senior. Ton rôle est de trier et de synthétiser les actualités fournies.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des informations et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article datant de plus de 24 heures.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 articles pertinents pour chaque catégorie (Mondial, International, France, Hauts-de-France).\n"
+        "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et une courte description (1 à 2 lignes).\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
+        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs de code markdown ```json) :\n"
         "{\n"
-        "  \"mondial\": [ {\"title\": \"1. Titre complet (Pays/Zone)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ],\n"
+        "  \"mondial\": [ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... ],\n"
         "  \"international\": [ ... ],\n"
-        "  \"france\": [ ... ]\n"
+        "  \"france\": [ ... ],\n"
+        "  \"hdf\": [ ... ]\n"
         "}"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_data, ensure_ascii=False)}"
+    
     return llm_parse_json(system_prompt, user_prompt, label="build_actu_report")
 
 def build_ia_report(date_str):
     print("[Rapport] Collecte et rédaction Intelligence Artificielle...")
-    raw_articles = _fetch_ia()
+    query = "AI models tools releases benchmark github cursor claude gemini llama deepseek"
+    raw_articles = fetch_google_news(query)
+    
     system_prompt = (
-        f"Tu es un journaliste d'investigation et analyste senior spécialisé dans l'Intelligence Artificielle et l'écosystème Tech. Aujourd'hui nous sommes le {date_str}.\n\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. Ignore tout article sans date claire.\n"
-        "PÉRIMÈTRE : Modèles LLM, Outils/IDE développeur, Recherche ArXiv/benchmarks, Entreprises/financement/régulation.\n"
-        "PRIORITÉ : Releases, découvertes scientifiques, nouveaux outils, régulation, failles sécurité, investissements, benchmarks. Ignore rumeurs/pub/opinions.\n"
-        "DÉDOUBLONNAGE : une seule actualité par modèle/outil, source officielle prioritaire.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
-        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
-        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits et spécifications techniques, le contexte, les conséquences pour l'écosystème et les développeurs, et les suites/accès. Terminer par : '**Source :** [Nom](URL)'.\n\n"
-        "Format JSON attendu (sans blocs ```json) :\n"
-        "[ {\"title\": \"1. Titre complet\", \"tool\": \"...\", \"url\": \"...\", \"score\": 8.5, \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
+        "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des nouveautés publiées depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout élément de plus de 24 heures.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/outils majeurs.\n"
+        "Pour chaque élément, fournis un titre, l'outil/modèle concerné, sa description technique succincte, son URL et une note d'intérêt éditorial /10.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
+        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "[\n"
+        "  {\"title\": \"...\", \"tool\": \"...\", \"summary\": \"...\", \"url\": \"...\", \"score\": 8.5},\n"
+        "  ...\n"
+        "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
+    
     return llm_parse_json(system_prompt, user_prompt, label="build_ia_report")
 
 def build_meteo_report(date_str):
     print("[Rapport] Collecte et rédaction Météo & Climat...")
-    raw_articles = _fetch_meteo()
+    query = "météo france vigilance climat records Copernicus NOAA OMM intempéries"
+    raw_articles = fetch_google_news(query)
+    
     system_prompt = (
-        f"Tu es un journaliste d'investigation et prévisionniste senior spécialisé en Météorologie et Climatologie. Aujourd'hui nous sommes le {date_str}.\n\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES.\n"
-        "DOMÀINES : Vigilances Météo-France, modèles numériques, intempéries confirmées, météo mondiale (cyclones/vagues de chaleur), climatologie (Copernicus/NOAA/OMM).\n"
-        "PRIORITÉ : Vigilances orange/rouge, dégâts confirmés, évolution modèles, cyclones actifs, records. Ignore prévisions >14j non fiables et rumeurs réseaux sociaux.\n"
-        "DÉDOUBLONNAGE : une seule actualité par phénomène/événement.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
-        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
-        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits et mesures observées, le contexte météorologique, les conséquences et les prévisions/tendances. Terminer par : '**Source :** [Nom](URL)'.\n\n"
-        "Format JSON attendu (sans blocs ```json) :\n"
-        "[ {\"title\": \"1. Titre complet (Zone/Pays)\", \"location\": \"...\", \"phenomenon\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
+        "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article de plus de 24 heures.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/vigilances/records.\n"
+        "Pour chaque élément, fournis un titre, la zone géographique, le phénomène concerné, sa description détaillée et son URL source.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
+        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "[\n"
+        "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "  ...\n"
+        "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
+    
     return llm_parse_json(system_prompt, user_prompt, label="build_meteo_report")
-
-def build_hdf_report(date_str):
-    print("[Rapport] Collecte et rédaction Hauts-de-France...")
-    raw_articles = _fetch_hdf()
-    system_prompt = (
-        f"Tu es un journaliste d'investigation senior spécialisé dans l'actualité régionale des Hauts-de-France. Aujourd'hui nous sommes le {date_str}.\n\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. Ignore tout article sans date claire.\n"
-        "ZONE : Uniquement Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02).\n"
-        "PRIORITÉ : Faits divers majeurs, incendies, accidents graves, disparitions, justice, police, santé publique, intempéries, économie régionale, grondements politiques locaux. Ignore sport/culture/agenda/pub SAUF si exceptionnel.\n"
-        "DÉDOUBLONNAGE : un seul article par événement, source régionale prioritaire (La Voix du Nord, France Bleu Nord, France 3 HDF, Actu.fr).\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
-        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
-        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits, le contexte local, les conséquences, la réaction des secours/police et les suites de l'affaire. Terminer par : '**Source :** [Nom](URL)'.\n\n"
-        "Format JSON attendu (sans blocs ```json) :\n"
-        "[ {\"title\": \"1. Titre complet (Département + Code)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
-    )
-    user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
-    return llm_parse_json(system_prompt, user_prompt, label="build_hdf_report")
-
 
 def build_intemperies_report(date_str):
     print("[Rapport] Collecte et rédaction Intempéries & Cyclones...")
-    raw_articles = _fetch_intemperies()
+    query = "orages inondations vigilance cyclone tempête grêle tornade dégâts"
+    raw_articles = fetch_google_news(query)
+    
     system_prompt = (
-        f"Tu es un journaliste d'investigation spécialisé dans les risques naturels majeurs, les intempéries graves et l'activité cyclonique mondiale. Aujourd'hui nous sommes le {date_str}.\n\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES.\n"
-        "PÉRIMÈTRE : Inondations, tempêtes violentes, tornades homologuées, cyclones/typhons/ouragans actifs, feux de forêt hors contrôle, glissements meurtriers.\n"
-        "PRIORITÉ : Bilans humains, évacuations d'urgence, destructions d'infrastructures, alertes rouge/violette, crues centennales, feux menaçant des zones urbaines. Ignore orages classiques sans dégâts.\n"
-        "DÉDOUBLONNAGE : une seule actualité par événement, source officielle (NHC, Météo-France, Keraunos, AFP) prioritaire.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
-        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
-        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits et bilan provisoire, le contexte météorologique et dynamique, les conséquences humaines/matérielles et la trajectoire/évolution attendue. Terminer par : '**Source :** [Nom](URL)'.\n\n"
-        "Format JSON attendu (sans blocs ```json) :\n"
-        "[ {\"title\": \"1. Titre complet (Zone/Pays)\", \"category\": \"CYCLONE|ORAGES|GRÊLE|INONDATIONS|VENT|VIGILANCE\", \"location\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
+        "Tu es un expert en risques naturels et météorologiques. Ton rôle est de lister les événements d'intempéries et d'activité cyclonique clés.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout événement de plus de 24 heures.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 événements/vigilances.\n"
+        "Pour chaque élément, fournis un titre, la zone concernée (location), le phénomène (phenomenon), une courte description succincte (1 à 2 lignes) (summary) et son URL source (url).\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
+        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "[\n"
+        "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "  ...\n"
+        "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     return llm_parse_json(system_prompt, user_prompt, label="build_intemperies_report")
 
-
 def build_bonsplans_report(date_str):
     print("[Rapport] Collecte et rédaction Bons Plans IA & Outils...")
-    queries = {
-        "deals_ia":       "IA tools free plan promo deal discount coupon 2025",
-        "outils_gratuits": "intelligence artificielle outil gratuit nouveauté offre lancement",
-        "github_free":    "open source AI tool free release GitHub 2025",
-        "promo_tech":     "SaaS promotion code promo outil développeur offre spéciale",
-        "nouveautes":     "nouveauté IA outil gratuit lancement beta access 2025",
-    }
-    raw_articles = _gnews_fetch(queries, max_articles=80)
+    query = "bon plan IA promo réduction outil SaaS gratuit coupon"
+    raw_articles = fetch_google_news(query)
+    
     system_prompt = (
-        f"Tu es un chasseur de bons plans tech & IA. Aujourd'hui nous sommes le {date_str}.\n\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des offres publiées depuis MOINS DE 24 HEURES.\n"
-        "PÉRIMÈTRE : Outils gratuits, promotions, accès beta, codes promo, offres limitées dans l'écosystème IA & Tech.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
-        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
-        "Paragraphe unique et fluide de 5 lignes exactes décrivant ce que l'offre inclut, sa valeur réelle, les conditions d'utilisation, la date d'expiration si connue, et pourquoi Gregory devrait en profiter. Terminer par : '**Source :** [Nom](URL)'.\n\n"
-        "Format JSON attendu (sans blocs ```json) :\n"
-        "[ {\"title\": \"1. Titre de l'offre\", \"tool\": \"...\", \"offer_type\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
+        "Tu es un dénicheur de bons plans IA et Tech. Ton rôle est de repérer les outils gratuits, promotions et offres spéciales du moment.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des offres publiées depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT toute offre de plus de 24 heures.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 15 bons plans.\n"
+        "Pour chaque bon plan, fournis un titre (title), l'outil concerné (tool), le type d'offre (offer_type), une courte description succincte (1 à 2 lignes) (summary) et son URL (url).\n"
+        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
+        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "[\n"
+        "  {\"title\": \"...\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "  ...\n"
+        "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     return llm_parse_json(system_prompt, user_prompt, label="build_bonsplans_report")
-
 
 def process_youtube_report():
     print("[Rapport] Chargement, notation et rédaction Vidéos YouTube...")
@@ -474,34 +364,39 @@ def process_youtube_report():
         return []
 
 # 4. Générateur de Synthèse Globale
-def build_synthesis(actu, ia, meteo, yt, date_str):
+def build_synthesis(actu, ia, meteo, yt, date_str, intemperies=None, bonsplans=None):
+    intemperies = intemperies or []
+    bonsplans = bonsplans or []
     print("[Synthèse] Rédaction de la synthèse globale...")
     system_prompt = (
         "Tu es un rédacteur en chef. Ton rôle est de compiler une synthèse quotidienne pour un créateur de contenu.\n"
-        "À partir des quatre thématiques fournies (Presse, IA, Météo, YouTube), rédige une synthèse condensée contenant :\n"
+        "À partir des thématiques fournies (Presse, IA, Météo, YouTube, Intempéries, Bons Plans), rédige une synthèse condensée contenant :\n"
         "1. Une introduction de 3-4 lignes décrivant la situation globale du jour.\n"
         "2. Les 10 actualités presse majeures à retenir.\n"
         "3. Les 10 nouveautés IA clés.\n"
         "4. Les 10 événements/alertes météo clés.\n"
-        "5. Les 10 vidéos YouTube recommandées (en mentionnant le score /10).\n"
-        "6. Un planning éditorial suggéré (3 sujets de vidéos ou posts, avec accroches et formats conseillés).\n"
+        "5. Les 5 faits marquants d'intempéries ou cyclones clés.\n"
+        "6. Les 5 offres/outils IA gratuits de bons plans clés.\n"
+        "7. Les 10 vidéos YouTube recommandées (en mentionnant le score /10).\n"
+        "8. Un planning éditorial suggéré (3 sujets de vidéos ou posts, avec accroches et formats conseillés).\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "{\n"
         "  \"intro\": \"...\",\n"
         "  \"top_press\": [ \"...\", ... (10 items) ],\n"
         "  \"top_ia\": [ \"...\", ... (10 items) ],\n"
         "  \"top_meteo\": [ \"...\", ... (10 items) ],\n"
+        "  \"top_intemperies\": [ \"...\", ... (5 items) ],\n"
+        "  \"top_bonsplans\": [ \"...\", ... (5 items) ],\n"
         "  \"top_youtube\": [ \"...\", ... (10 items) ],\n"
         "  \"editorial_plan\": [ {\"subject\": \"...\", \"hook\": \"...\", \"format\": \"...\"}, ... (3 items) ]\n"
         "}"
     )
-    user_prompt = f"Données pour le {date_str} :\n- Presse : {json.dumps(actu, ensure_ascii=False)[:3000]}\n- IA : {json.dumps(ia, ensure_ascii=False)[:3000]}\n- Météo : {json.dumps(meteo, ensure_ascii=False)[:3000]}\n- YouTube : {json.dumps(yt, ensure_ascii=False)[:3000]}"
+    user_prompt = f"Données pour le {date_str} :\n- Presse : {json.dumps(actu, ensure_ascii=False)[:3000]}\n- IA : {json.dumps(ia, ensure_ascii=False)[:3000]}\n- Météo : {json.dumps(meteo, ensure_ascii=False)[:3000]}\n- YouTube : {json.dumps(yt, ensure_ascii=False)[:3000]}\n- Intempéries : {json.dumps(intemperies, ensure_ascii=False)[:2000]}\n- Bons Plans : {json.dumps(bonsplans, ensure_ascii=False)[:2000]}"
     
     return llm_parse_json(system_prompt, user_prompt, label="build_synthesis")
 
 # 5. Compilation HTML Premium Responsive
-def compile_html(synthesis, actu, ia, meteo, yt, date_str, hdf=None, intemperies=None, bonsplans=None):
-    hdf = hdf or []
+def compile_html(synthesis, actu, ia, meteo, yt, date_str, intemperies=None, bonsplans=None):
     intemperies = intemperies or []
     bonsplans = bonsplans or []
     print("[HTML] Compilation du template premium...")
@@ -524,6 +419,8 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str, hdf=None, intemperies
     .badge-ia { background-color: #ede9fe; color: #8b5cf6; }
     .badge-meteo { background-color: #dcfce7; color: #22c55e; }
     .badge-yt { background-color: #fce7f3; color: #db2777; }
+    .badge-intemperies { background-color: #ffe4e6; color: #e11d48; }
+    .badge-bonsplans { background-color: #faf5ff; color: #7e22ce; }
     
     .card { background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 18px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); transition: transform 0.2s; }
     .card-title { font-size: 16px; font-weight: 600; margin: 0 0 8px 0; }
@@ -589,6 +486,20 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str, hdf=None, intemperies
         html += f"<li>{item}</li>"
     html += """
                 </ul>
+                <h3>Intempéries & Cyclones</h3>
+                <ul>
+    """
+    for item in synthesis.get('top_intemperies', []):
+        html += f"<li>{item}</li>"
+    html += """
+                </ul>
+                <h3>Bons Plans IA & Outils</h3>
+                <ul>
+    """
+    for item in synthesis.get('top_bonsplans', []):
+        html += f"<li>{item}</li>"
+    html += """
+                </ul>
                 <h3>Vidéos YouTube</h3>
                 <ul>
     """
@@ -628,80 +539,77 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str, hdf=None, intemperies
         """
         
     html += """
-            <div class="section-title">🌐 Presse & Actualités Générales</div>
+            <div class="section-title">🌐 Presse & Actualités Générales (40)</div>
     """
-    for key, label, badge_style in [("mondial", "Mondial", "badge-mondial"), ("international", "International", "badge-inter"), ("france", "France", "badge-france")]:
+    
+    # 10 de chaque catégorie
+    categories = [("mondial", "Mondial", "badge-mondial"), ("international", "International", "badge-inter"), ("france", "France", "badge-france"), ("hdf", "Hauts-de-France", "badge-hdf")]
+    for key, label, badge_style in categories:
         for item in actu.get(key, []):
             html += f"""
             <div class="card">
                 <span class="badge {badge_style}">{label}</span>
-                <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
+                <div class="card-title">
+                    <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
+                </div>
                 <div class="card-meta">Source: <strong>{item.get('source', '')}</strong></div>
                 <p class="card-summary">{item.get('summary', '')}</p>
-            </div>"""
-
+            </div>
+            """
+            
     html += """
-            <div class="section-title">📍 Hauts-de-France</div>
-    """
-    hdf_items = hdf if hdf else actu.get("hdf", [])
-    for item in hdf_items:
-        html += f"""
-            <div class="card">
-                <span class="badge badge-hdf">Hauts-de-France</span>
-                <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
-                <div class="card-meta">Source: <strong>{item.get('source', '')}</strong></div>
-                <p class="card-summary">{item.get('summary', '')}</p>
-            </div>"""
-
-    html += """
-            <div class="section-title">🌩️ Intempéries & Cyclones</div>
-    """
-    for item in intemperies:
-        badge_cat = item.get('category', 'VIGILANCE').upper()
-        badge_color = "badge-meteo"
-        if "CYCLONE" in badge_cat or "OURAGAN" in badge_cat: badge_color = "badge-ia"
-        elif "VENT" in badge_cat or "TORNADE" in badge_cat: badge_color = "badge-inter"
-        elif "INONDATION" in badge_cat or "CRUE" in badge_cat: badge_color = "badge-france"
-        html += f"""
-            <div class="card">
-                <span class="badge {badge_color}">{item.get('category', 'VIGILANCE')}</span>
-                <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
-                <div class="card-meta">Zone: <strong>{item.get('location', '')}</strong></div>
-                <p class="card-summary">{item.get('summary', '')}</p>
-            </div>"""
-
-    html += """
-            <div class="section-title">🤖 Intelligence Artificielle</div>
+            <div class="section-title">🤖 Intelligence Artificielle (10)</div>
     """
     for item in ia:
         html += f"""
         <div class="card">
             <span class="score-badge">Éditorial: {item.get('score', 0)}/10</span>
             <span class="badge badge-ia">IA & Tech</span>
-            <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
+            <div class="card-title">
+                <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
+            </div>
             <div class="card-meta">Techno/Modèle: <strong>{item.get('tool', '')}</strong></div>
             <p class="card-summary">{item.get('summary', '')}</p>
-        </div>"""
-
+        </div>
+        """
+        
     html += """
             <div class="section-title">🎁 Bons Plans IA & Outils</div>
     """
     for item in bonsplans:
         html += f"""
         <div class="card">
-            <span class="badge badge-yt">{item.get('offer_type', 'Bon Plan')}</span>
-            <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
+            <span class="badge badge-bonsplans">{item.get('offer_type', 'Bon Plan')}</span>
+            <div class="card-title">
+                <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
+            </div>
             <div class="card-meta">Outil: <strong>{item.get('tool', '')}</strong></div>
             <p class="card-summary">{item.get('summary', '')}</p>
-        </div>"""
-
+        </div>
+        """
+        
     html += """
-            <div class="section-title">🌤️ Météo & Climat</div>
+            <div class="section-title">🌤️ Météo & Climat (10)</div>
     """
     for item in meteo:
         html += f"""
         <div class="card">
             <span class="badge badge-meteo">Météo & Climat</span>
+            <div class="card-title">
+                <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
+            </div>
+            <div class="card-meta">Phénomène: <strong>{item.get('phenomenon', '')}</strong> | Zone: <strong>{item.get('location', '')}</strong></div>
+            <p class="card-summary">{item.get('summary', '')}</p>
+        </div>
+        """
+        
+    html += """
+            <div class="section-title">🌪️ Intempéries & Cyclones</div>
+    """
+    for item in intemperies:
+        html += f"""
+        <div class="card">
+            <span class="badge badge-intemperies">Intempérie</span>
             <div class="card-title">
                 <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
             </div>
@@ -797,26 +705,32 @@ def main():
     
     # 2. Collecte & Rédaction toutes thématiques
     print("\n--- Étape 2 : Rédactions Thématiques ---")
-    actu_report       = build_actu_report(date_str)        or {"mondial": [], "international": [], "france": [], "hdf": []}
-    hdf_report        = build_hdf_report(date_str)         or []
-    ia_report         = build_ia_report(date_str)          or []
-    meteo_report      = build_meteo_report(date_str)       or []
+    actu_report        = build_actu_report(date_str)        or {"mondial": [], "international": [], "france": [], "hdf": []}
+    ia_report          = build_ia_report(date_str)          or []
+    meteo_report       = build_meteo_report(date_str)       or []
     intemperies_report = build_intemperies_report(date_str) or []
-    bonsplans_report  = build_bonsplans_report(date_str)   or []
-
+    bonsplans_report   = build_bonsplans_report(date_str)   or []
+    
     # 3. Rédaction de la Synthèse
     print("\n--- Étape 3 : Synthèse ---")
-    synthesis_report = build_synthesis(actu_report, ia_report, meteo_report, yt_report, date_str)
-
+    synthesis_report = build_synthesis(
+        actu_report, ia_report, meteo_report, yt_report, date_str,
+        intemperies=intemperies_report, bonsplans=bonsplans_report
+    )
+    
     if not synthesis_report:
         print("[Avertissement] Synthèse indisponible, utilisation d'un résumé minimal.")
-        synthesis_report = {"intro": "Veille du " + date_str, "top_press": [], "top_ia": [], "top_meteo": [], "top_youtube": [], "editorial_plan": []}
-
+        synthesis_report = {
+            "intro": f"Veille du {date_str}.",
+            "top_press": [], "top_ia": [], "top_meteo": [], "top_youtube": [],
+            "top_intemperies": [], "top_bonsplans": [], "editorial_plan": []
+        }
+        
     # 4. Compilation HTML
     print("\n--- Étape 4 : Compilation HTML ---")
     html_output = compile_html(
         synthesis_report, actu_report, ia_report, meteo_report, yt_report, date_str,
-        hdf=hdf_report, intemperies=intemperies_report, bonsplans=bonsplans_report
+        intemperies=intemperies_report, bonsplans=bonsplans_report
     )
     
     # 5. Envoi ou Sauvegarde locale
