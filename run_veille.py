@@ -223,8 +223,28 @@ def call_llm(system_prompt, user_prompt):
     print("[LLM] ERREUR : Aucune clé API configurée ou échec des appels.")
     return None
 
+def _repair_truncated_json(text):
+    """Tente de réparer un JSON tronqué en fermant les structures ouvertes."""
+    text = text.strip()
+    # Supprimer la dernière entrée incomplète (après la dernière virgule ou accolade/crochet ouvrant)
+    for cutoff in [',', '{', '[']:
+        idx = text.rfind(cutoff)
+        if idx > 0:
+            candidate = text[:idx]
+            # Fermer les structures JSON ouvertes
+            opens = candidate.count('{') - candidate.count('}')
+            close_obj = '}' * max(0, opens)
+            opens_arr = candidate.count('[') - candidate.count(']')
+            close_arr = ']' * max(0, opens_arr)
+            repaired = candidate + close_obj + close_arr
+            try:
+                return json.loads(repaired, strict=False)
+            except Exception:
+                continue
+    return None
+
 def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
-    """Appelle call_llm et parse le JSON. Retry x3 si réponse vide ou JSON invalide."""
+    """Appelle call_llm et parse le JSON. Retry x3 si réponse vide ou JSON invalide. Repair auto si tronqué."""
     for attempt in range(retries):
         response = call_llm(system_prompt, user_prompt)
         if not response or not response.strip():
@@ -235,6 +255,11 @@ def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
                 return json.loads(response_clean, strict=False)
             except json.JSONDecodeError as e:
                 print(f"[LLM] Tentative {attempt+1}/{retries} : JSON invalide pour {label} : {e}")
+                # Tentative de réparation automatique si JSON tronqué
+                repaired = _repair_truncated_json(response_clean)
+                if repaired is not None:
+                    print(f"[LLM] JSON réparé automatiquement pour {label} ({len(repaired) if isinstance(repaired, list) else 'dict'} éléments récupérés).")
+                    return repaired
         if attempt < retries - 1:
             print(f"[LLM] Nouvelle tentative dans {delay}s...")
             time.sleep(delay)
@@ -657,21 +682,17 @@ def main():
     
     # 2. Collecte & Rédaction IA/Météo/Actu
     print("\n--- Étape 2 : Rédactions Thématiques ---")
-    actu_report = build_actu_report(date_str)
-    ia_report = build_ia_report(date_str)
-    meteo_report = build_meteo_report(date_str)
+    actu_report = build_actu_report(date_str) or {"mondial": [], "international": [], "france": [], "hdf": []}
+    ia_report = build_ia_report(date_str) or []
+    meteo_report = build_meteo_report(date_str) or []
     
-    if not (actu_report and ia_report and meteo_report):
-        print("Erreur : La collecte ou la rédaction IA a échoué. Arrêt.")
-        sys.exit(1)
-        
     # 3. Rédaction de la Synthèse
     print("\n--- Étape 3 : Synthèse ---")
     synthesis_report = build_synthesis(actu_report, ia_report, meteo_report, yt_report, date_str)
     
     if not synthesis_report:
-        print("Erreur : Impossible de rédiger la synthèse. Arrêt.")
-        sys.exit(1)
+        print("[Avertissement] Synthèse indisponible, utilisation d'un résumé minimal.")
+        synthesis_report = {"intro": "Veille du " + date_str, "top_press": [], "top_ia": [], "top_meteo": [], "top_youtube": [], "editorial_plan": []}
         
     # 4. Compilation HTML
     print("\n--- Étape 4 : Compilation HTML ---")
