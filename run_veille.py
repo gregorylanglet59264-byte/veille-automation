@@ -542,8 +542,8 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str, intemperies=None, bon
             <div class="section-title">🌐 Presse & Actualités Générales (40)</div>
     """
     
-    # 10 de chaque catégorie
-    categories = [("mondial", "Mondial", "badge-mondial"), ("international", "International", "badge-inter"), ("france", "France", "badge-france"), ("hdf", "Hauts-de-France", "badge-hdf")]
+    # 10 de chaque catégorie (sans HDF qui est séparé ci-dessous)
+    categories = [("mondial", "Mondial", "badge-mondial"), ("international", "International", "badge-inter"), ("france", "France", "badge-france")]
     for key, label, badge_style in categories:
         for item in actu.get(key, []):
             html += f"""
@@ -556,6 +556,21 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str, intemperies=None, bon
                 <p class="card-summary">{item.get('summary', '')}</p>
             </div>
             """
+            
+    html += """
+            <div class="section-title">📍 Hauts-de-France</div>
+    """
+    for item in actu.get("hdf", []):
+        html += f"""
+        <div class="card">
+            <span class="badge badge-hdf">Hauts-de-France</span>
+            <div class="card-title">
+                <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
+            </div>
+            <div class="card-meta">Source: <strong>{item.get('source', '')}</strong></div>
+            <p class="card-summary">{item.get('summary', '')}</p>
+        </div>
+        """
             
     html += """
             <div class="section-title">🤖 Intelligence Artificielle (10)</div>
