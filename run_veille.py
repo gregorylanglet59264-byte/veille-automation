@@ -170,7 +170,7 @@ def fetch_google_news(query):
                 filtered.append(art)
                 seen_urls.add(art["url"])
                 
-    return filtered[:25]
+    return filtered[:45]
 
 # 2. Appel API IA (Gemini ou OpenRouter) sans dépendances lourdes
 def call_llm(system_prompt, user_prompt):
@@ -262,15 +262,15 @@ def build_actu_report(date_str):
         
     system_prompt = (
         "Tu es un analyste de presse senior. Ton rôle est de trier et de synthétiser les actualités fournies.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister EXACTEMENT 10 articles pour chaque catégorie (Mondial, International, France, Hauts-de-France).\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 articles pertinents pour chaque catégorie (Mondial, International, France, Hauts-de-France).\n"
         "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et une courte description (1 à 2 lignes).\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs de code markdown ```json) :\n"
         "{\n"
-        "  \"mondial\": [ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... (10 items) ],\n"
-        "  \"international\": [ ... (10 items) ],\n"
-        "  \"france\": [ ... (10 items) ],\n"
-        "  \"hdf\": [ ... (10 items) ]\n"
+        "  \"mondial\": [ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... ],\n"
+        "  \"international\": [ ... ],\n"
+        "  \"france\": [ ... ],\n"
+        "  \"hdf\": [ ... ]\n"
         "}"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_data, ensure_ascii=False)}"
@@ -284,13 +284,13 @@ def build_ia_report(date_str):
     
     system_prompt = (
         "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister EXACTEMENT 10 actualités/outils majeurs.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/outils majeurs.\n"
         "Pour chaque élément, fournis un titre, l'outil/modèle concerné, sa description technique succincte, son URL et une note d'intérêt éditorial /10.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"tool\": \"...\", \"summary\": \"...\", \"url\": \"...\", \"score\": 8.5},\n"
-        "  ... (10 items)\n"
+        "  ...\n"
         "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
@@ -304,13 +304,13 @@ def build_meteo_report(date_str):
     
     system_prompt = (
         "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister EXACTEMENT 10 actualités/vigilances/records.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/vigilances/records.\n"
         "Pour chaque élément, fournis un titre, la zone géographique, le phénomène concerné, sa description détaillée et son URL source.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "[\n"
         "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
-        "  ... (10 items)\n"
+        "  ...\n"
         "]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
