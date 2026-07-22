@@ -48,7 +48,7 @@ def call_llm(system_prompt, user_prompt):
             "Authorization": f"Bearer {openrouter_key}"
         }
         payload = {
-            "model": "deepseek/deepseek-chat",
+            "model": "deepseek/deepseek-v4-flash",
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
