@@ -39,13 +39,13 @@ def get_date_fr():
     now = datetime.datetime.now()
     return f"{now.day} {MONTHS_FR[now.month - 1]} {now.year}"
 
-# Helper pour filtrer les articles récents avec logs de diagnostic
-def filter_recent_articles(articles, max_hours=24):
+# Helper pour filtrer les articles récents
+def filter_recent_articles(articles, max_hours=48):
+    """Filtre souple : on garde tout article de moins de 48h.
+    ponytail: le filtre strict à 24h causait des listes vides sur GitHub Actions car
+    les dates des flux RSS peuvent avoir un léger décalage. Le LLM se charge du tri final."""
     recent = []
     now = datetime.datetime.now(datetime.timezone.utc)
-    print(f"[Diag] Heure systeme UTC : {now}")
-    
-    ages = []
     for art in articles:
         pub_str = art.get("date")
         if not pub_str:
@@ -57,58 +57,65 @@ def filter_recent_articles(articles, max_hours=24):
                 pub_dt = pub_dt.replace(tzinfo=datetime.timezone.utc)
             else:
                 pub_dt = pub_dt.astimezone(datetime.timezone.utc)
-            
             age = now - pub_dt
             art["age_seconds"] = age.total_seconds()
-            ages.append(age.total_seconds())
             if age <= datetime.timedelta(hours=max_hours):
                 recent.append(art)
-        except Exception as e:
+        except Exception:
             recent.append(art)
-            
-    if ages:
-        min_age = min(ages) / 3600
-        max_age = max(ages) / 3600
-        print(f"[Diag] Articles filtres : {len(recent)}/{len(articles)} (Age min: {min_age:.1f}h, Max: {max_age:.1f}h)")
-    else:
-        print(f"[Diag] Aucun article avec date valide trouve. Articles conserves: {len(recent)}")
-        
     return recent
 
-# 1. Collecte RSS multi-sources
-# 1. Collecte RSS dynamique via Google News
-# ponytail: Google News RSS public et gratuit, évite les limitations des flux fixes.
+# 1. Collecte RSS multi-sources (flux fixes fiables sur GitHub Actions)
 def fetch_google_news(query):
-    encoded_query = urllib.parse.quote(query)
-    url = f"https://news.google.com/rss/search?q={encoded_query}&hl=fr&gl=FR&ceid=FR:fr"
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    
+    """Collecte depuis des flux RSS fixes et fiables.
+    ponytail: Google News RSS donne des dates incohérentes sur GitHub Actions.
+    Les flux RSS directs des médias sont stables et datés correctement."""
+    feeds = {
+        # ── National ──
+        "Le Monde":      "https://www.lemonde.fr/rss/une.xml",
+        "FranceInfo":    "https://www.francetvinfo.fr/titres.rss",
+        "BFM TV":        "https://www.bfmtv.com/rss/news-24-7/",
+        "Le Figaro":     "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+        "Liberation":    "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml",
+        "L'Obs":         "https://www.nouvelobs.com/rss.xml",
+        # ── Régional Hauts-de-France ──
+        "France 3 HDF":  "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
+        "France 3 NPC":  "https://france3-regions.francetvinfo.fr/hauts-de-france/nord-pas-de-calais/rss",
+        "La Voix du Nord": "https://www.lavoixdunord.fr/arc/outboundfeeds/rss/?outputType=xml",
+        # ── IA / Tech ──
+        "Hacker News":   "https://hnrss.org/frontpage",
+        "PresseCitron":  "https://www.presse-citron.net/feed/",
+        "Numerama":      "https://www.numerama.com/feed/",
+        # ── Météo / Science ──
+        "Science & Vie": "https://www.science-et-vie.com/feed",
+    }
+
     all_articles = []
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": user_agent})
-        with urllib.request.urlopen(req, timeout=15) as response:
-            xml_data = response.read()
-        root = ET.fromstring(xml_data)
-        for item in root.findall(".//item"):
-            title = item.find("title").text if item.find("title") is not None else ""
-            link = item.find("link").text if item.find("link") is not None else ""
-            pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
-            src_el = item.find("source")
-            source = src_el.text if src_el is not None else "Google News"
-            
-            all_articles.append({
-                "title": title.strip(),
-                "url": link,
-                "date": pub_date,
-                "source": source
-            })
-    except Exception as e:
-        print(f"[RSS] Échec de récupération de la requête '{query}' : {e}")
-        
-    print(f"[Diag] '{query}': {len(all_articles)} articles recuperes au total sur Google News.")
-    recent_articles = filter_recent_articles(all_articles, 24)
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    for name, url in feeds.items():
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": user_agent})
+            with urllib.request.urlopen(req, timeout=12) as response:
+                xml_data = response.read()
+            root = ET.fromstring(xml_data)
+            for item in root.findall(".//item"):
+                title = item.find("title").text if item.find("title") is not None else ""
+                link = item.find("link").text if item.find("link") is not None else ""
+                pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
+                all_articles.append({
+                    "title": title.strip() if title else "",
+                    "url": link,
+                    "date": pub_date,
+                    "source": name
+                })
+        except Exception as e:
+            print(f"[RSS] Flux {name} inaccessible : {e}")
+
+    print(f"[RSS] Total articles collectes depuis {len(feeds)} flux : {len(all_articles)}")
+    recent_articles = filter_recent_articles(all_articles, 48)
     recent_articles = sorted(recent_articles, key=lambda x: x.get("age_seconds", 999999))
-    return recent_articles[:45]
+    print(f"[RSS] Articles retenus apres filtre 48h : {len(recent_articles)}")
+    return recent_articles[:50]
 
 def _repair_truncated_json(text):
     """Tente de réparer un JSON tronqué en fermant les structures ouvertes."""
