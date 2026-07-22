@@ -19,56 +19,35 @@ def fetch_url(url):
         return response.read().decode('utf-8', errors='ignore')
 
 def call_llm(system_prompt, user_prompt):
-    gemini_key = os.environ.get("GEMINI_API_KEY")
-    openrouter_key = os.environ.get("OPENROUTER_API_KEY")
-    
-    if gemini_key:
-        gemini_key = gemini_key.replace('\ufeff', '').replace('\ufffe', '').strip()
-        print("[LLM] Appel de Gemini API...")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
-        headers = {"Content-Type": "application/json"}
-        payload = {
-            "contents": [{
-                "parts": [{"text": f"{system_prompt}\n\n{user_prompt}"}]
-            }]
-        }
-        try:
-            req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=90) as response:
-                res_data = json.loads(response.read().decode("utf-8"))
-                text = res_data["candidates"][0]["content"]["parts"][0]["text"]
-                return text.replace('\ufeff', '').replace('\ufffe', '')
-        except Exception as e:
-            print(f"[LLM] Erreur Gemini API: {e}")
-            
-    if openrouter_key:
-        openrouter_key = openrouter_key.replace('\ufeff', '').replace('\ufffe', '').strip()
-        print("[LLM] Appel de OpenRouter API (DeepSeek)...")
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {openrouter_key}"
-        }
-        payload = {
-            "model": "deepseek/deepseek-chat",
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ]
-        }
-        try:
-            req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=90) as response:
-                res_data = json.loads(response.read().decode("utf-8"))
-                text = res_data["choices"][0]["message"]["content"]
-                return text.replace('\ufeff', '').replace('\ufffe', '')
-        except urllib.error.HTTPError as http_err:
-            print(f"[LLM] Erreur HTTP OpenRouter API ({http_err.code})")
-        except Exception as e:
-            print(f"[LLM] Erreur OpenRouter API: {e}")
-            
-    print("[LLM] ERREUR : Aucune clé API configurée.")
+    openrouter_key = os.environ.get("OPENROUTER_API_KEY", "").replace('\ufeff', '').strip()
+    if not openrouter_key:
+        print("[LLM] ERREUR : OPENROUTER_API_KEY non configurée.")
+        return None
+    print("[LLM] Appel DeepSeek V4 Flash via OpenRouter...")
+    url = "https://openrouter.ai/api/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {openrouter_key}"
+    }
+    payload = {
+        "model": "deepseek/deepseek-chat-v3-5k:free",
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+    }
+    try:
+        req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+        with urllib.request.urlopen(req, timeout=90) as response:
+            res_data = json.loads(response.read().decode("utf-8"))
+            text = res_data["choices"][0]["message"]["content"]
+            return text.replace('\ufeff', '').replace('\ufffe', '')
+    except urllib.error.HTTPError as http_err:
+        print(f"[LLM] Erreur HTTP OpenRouter ({http_err.code})")
+    except Exception as e:
+        print(f"[LLM] Erreur OpenRouter: {e}")
     return None
+
 
 def process_topic(target_topic, topic_idx):
     # Extraire et décoder un titre propre du sujet à partir de l'URL
