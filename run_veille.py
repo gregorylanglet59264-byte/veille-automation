@@ -86,11 +86,12 @@ FEEDS_IA = {
     "PresseCitron": "https://www.presse-citron.net/feed/",
     "Numerama":     "https://www.numerama.com/feed/",
 }
-# Flux RSS Bons Plans / Deals
+# Flux RSS Bons Plans IA uniquement
 FEEDS_BONSPLANS = {
-    "Dealabs":      "https://www.dealabs.com/rss",
     "ProductHunt":  "https://www.producthunt.com/feed",
     "PresseCitron": "https://www.presse-citron.net/feed/",
+    "Numerama":     "https://www.numerama.com/feed/",
+    "TechCrunch":   "https://techcrunch.com/feed/",
 }
 # Flux RSS Météo / Science
 FEEDS_METEO = {
@@ -325,23 +326,21 @@ def build_intemperies_report(date_str):
 
 def build_bonsplans_report(date_str):
     print("[Rapport] Collecte et rédaction Bons Plans IA & Outils...")
-    # Flux dédiés deals/tech : Dealabs pour les promos, ProductHunt pour les nouveaux outils gratuits
     raw_articles = _fetch_feeds(FEEDS_BONSPLANS, max_articles=30, max_hours=168)  # 7 jours
     if not raw_articles:
         print("[Rapport] Bons Plans : aucun article trouvé dans les flux dédiés.")
         return []
     system_prompt = (
-        "Tu es un dénicheur de bons plans IA et Tech. Ton rôle est de repérer les outils gratuits, promotions, lancements et offres spéciales du moment.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 10 bons plans depuis les articles fournis. Si un article présente un outil ou une promotion intéressante, inclus-le même sans prix explicite.\n"
-        "Pour chaque bon plan, fournis un titre (title), l'outil concerné (tool), le type d'offre (offer_type : 'Gratuit', 'Promo', 'Nouveau lancement', 'Open Source'...), une courte description (summary) et son URL (url).\n"
-        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
-        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
-        "[\n"
-        "  {\"title\": \"...\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
-        "  ...\n"
-        "]"
+        "Tu es un expert veille IA et Tech. Ton rôle est de repérer UNIQUEMENT les bons plans liés à l'intelligence artificielle.\n"
+        "RÈGLE ABSOLUE : Ne retenir QUE les articles concernant l'IA : nouveaux abonnements ChatGPT/Claude/Gemini, nouveaux outils IA gratuits, lancements de modèles, nouveaux sites IA, offres d'essai gratuit, open source IA.\n"
+        "EXCLURE impérativement : électroménager, vêtements, jeux vidéo, voyages, et tout ce qui n'est pas lié à l'IA ou au Tech.\n"
+        "RÈGLE CRITIQUE : Lister jusqu'à 10 bons plans. Si peu d'articles correspondent, ne liste que ceux qui sont vraiment liés à l'IA.\n"
+        "Pour chaque bon plan : titre (title), outil/service IA (tool), type (offer_type : 'Gratuit', 'Nouveau lancement', 'Open Source', 'Promo abonnement', 'Essai gratuit'...), description courte (summary), URL (url).\n"
+        "RÈGLE URL : copier-coller EXACTEMENT la valeur 'url' sans modification. N'invente pas d'URL.\n"
+        "Format JSON uniquement (sans ```json) :\n"
+        "[{\"title\": \"...\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"...\", \"url\": \"...\"},...]\n"
     )
-    user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
+    user_prompt = f"Articles récoltés pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     return llm_parse_json(system_prompt, user_prompt, label="build_bonsplans_report")
 
 def process_youtube_report():
@@ -404,20 +403,22 @@ def build_synthesis(actu, ia, meteo, yt, date_str, intemperies=None, bonsplans=N
     bonsplans = bonsplans or []
     print("[Synthèse] Rédaction de la synthèse globale...")
     system_prompt = (
-        "Tu es un rédacteur en chef. Ton rôle est de compiler une synthèse quotidienne pour un créateur de contenu.\n"
-        "À partir des thématiques fournies (Presse, IA, Météo, YouTube, Intempéries, Bons Plans), rédige une synthèse condensée contenant :\n"
+        "Tu es un rédacteur en chef. Ton rôle est de compiler une synthèse quotidienne pour un créateur de contenu météo et tech.\n"
+        "À partir des thématiques fournies, rédige une synthèse condensée contenant :\n"
         "1. Une introduction de 3-4 lignes décrivant la situation globale du jour.\n"
-        "2. Les 10 actualités presse majeures à retenir.\n"
-        "3. Les 10 nouveautés IA clés.\n"
-        "4. Les 10 événements/alertes météo clés.\n"
-        "5. Les 5 faits marquants d'intempéries ou cyclones clés.\n"
-        "6. Les 5 offres/outils IA gratuits de bons plans clés.\n"
-        "7. Les 10 vidéos YouTube recommandées (en mentionnant le score /10).\n"
-        "8. Un planning éditorial suggéré (3 sujets de vidéos ou posts, avec accroches et formats conseillés).\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
+        "2. Les 10 actualités presse majeures (nationale/internationale).\n"
+        "3. Les 5 actualités Hauts-de-France (faits divers, société, événements régionaux).\n"
+        "4. Les 10 nouveautés IA clés.\n"
+        "5. Les 10 événements/alertes météo clés.\n"
+        "6. Les 5 faits marquants d'intempéries ou cyclones.\n"
+        "7. Les 5 meilleurs bons plans IA du moment (abonnements, nouveaux outils gratuits, lancements).\n"
+        "8. Les 10 vidéos YouTube recommandées (avec score /10).\n"
+        "9. Un planning éditorial suggéré (3 sujets de vidéos ou posts).\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "{\n"
         "  \"intro\": \"...\",\n"
         "  \"top_press\": [ \"...\", ... (10 items) ],\n"
+        "  \"top_hdf\": [ \"...\", ... (5 items) ],\n"
         "  \"top_ia\": [ \"...\", ... (10 items) ],\n"
         "  \"top_meteo\": [ \"...\", ... (10 items) ],\n"
         "  \"top_intemperies\": [ \"...\", ... (5 items) ],\n"
@@ -426,8 +427,17 @@ def build_synthesis(actu, ia, meteo, yt, date_str, intemperies=None, bonsplans=N
         "  \"editorial_plan\": [ {\"subject\": \"...\", \"hook\": \"...\", \"format\": \"...\"}, ... (3 items) ]\n"
         "}"
     )
-    user_prompt = f"Données pour le {date_str} :\n- Presse : {json.dumps(actu, ensure_ascii=False)[:3000]}\n- IA : {json.dumps(ia, ensure_ascii=False)[:3000]}\n- Météo : {json.dumps(meteo, ensure_ascii=False)[:3000]}\n- YouTube : {json.dumps(yt, ensure_ascii=False)[:3000]}\n- Intempéries : {json.dumps(intemperies, ensure_ascii=False)[:2000]}\n- Bons Plans : {json.dumps(bonsplans, ensure_ascii=False)[:2000]}"
-    
+    hdf_data = actu.get('hdf', []) if isinstance(actu, dict) else []
+    user_prompt = (
+        f"Données pour le {date_str} :\n"
+        f"- Presse nationale : {json.dumps(actu, ensure_ascii=False)[:2500]}\n"
+        f"- Hauts-de-France : {json.dumps(hdf_data, ensure_ascii=False)[:1500]}\n"
+        f"- IA : {json.dumps(ia, ensure_ascii=False)[:2500]}\n"
+        f"- Météo : {json.dumps(meteo, ensure_ascii=False)[:2500]}\n"
+        f"- YouTube : {json.dumps(yt, ensure_ascii=False)[:2500]}\n"
+        f"- Intempéries : {json.dumps(intemperies, ensure_ascii=False)[:1500]}\n"
+        f"- Bons Plans IA : {json.dumps(bonsplans, ensure_ascii=False)[:1500]}"
+    )
     return llm_parse_json(system_prompt, user_prompt, label="build_synthesis")
 
 # 5. Compilation HTML Premium Responsive
@@ -521,14 +531,21 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str, intemperies=None, bon
         html += f"<li>{item}</li>"
     html += """
                 </ul>
-                <h3>Intempéries & Cyclones</h3>
+                <h3>📍 Hauts-de-France</h3>
+                <ul>
+    """
+    for item in synthesis.get('top_hdf', []):
+        html += f"<li>{item}</li>"
+    html += """
+                </ul>
+                <h3>Intempéries &amp; Cyclones</h3>
                 <ul>
     """
     for item in synthesis.get('top_intemperies', []):
         html += f"<li>{item}</li>"
     html += """
                 </ul>
-                <h3>Bons Plans IA & Outils</h3>
+                <h3>🤖 Bons Plans IA &amp; Outils</h3>
                 <ul>
     """
     for item in synthesis.get('top_bonsplans', []):
