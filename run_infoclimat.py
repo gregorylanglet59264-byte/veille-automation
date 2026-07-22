@@ -649,7 +649,7 @@ def main():
     sender = gmail_email
     
     # Titres abrégés pour le sujet du mail
-    subject_week_names = " & ".join([r["data"]["subject_title"].split("-")[0].strip() for r in results])
+    subject_week_names = " & ".join([r["data"].get("title_line1", r["data"].get("subject_title", "Semaine")).split("-")[0].strip() for r in results])
     subject = f"Tendances de la semaine - {subject_week_names}"
     
     # Nettoyage ASCII du sujet pour éviter les rejets SMTP
