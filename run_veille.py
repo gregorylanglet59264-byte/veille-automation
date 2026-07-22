@@ -63,109 +63,138 @@ def filter_recent_articles(articles, max_hours=24):
             recent.append(art)
     return recent
 
-# 1. Collecte RSS multi-sources
-def fetch_google_news(query):
-    feeds = {
-        # ── National ──
-        "Le Monde":      "https://www.lemonde.fr/rss/une.xml",
-        "FranceInfo":    "https://www.francetvinfo.fr/titres.rss",
-        "BFM TV":        "https://www.bfmtv.com/rss/news-24-7/",
-        "Le Figaro":     "https://www.lefigaro.fr/rss/figaro_actualites.xml",
-        "Liberation":    "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml",
-        "L'Obs":         "https://www.nouvelobs.com/rss.xml",
-        # ── Régional Hauts-de-France ──
-        "France 3 HDF":  "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
-        "France 3 NPC":  "https://france3-regions.francetvinfo.fr/hauts-de-france/nord-pas-de-calais/rss",
-        # ── IA / Tech ──
-        "Hacker News":   "https://hnrss.org/frontpage",
-        "PresseCitron":  "https://www.presse-citron.net/feed/",
-    }
-    
+# 1. Collecte RSS — Google News multi-requêtes par thème
+# ponytail: Google News RSS est public, anonyme, ~50-200 résultats/requête depuis des centaines de sources
+GNEWS_BASE = "https://news.google.com/rss/search?q={query}&hl=fr&gl=FR&ceid=FR:fr"
+
+def _gnews_fetch(queries, max_articles=200):
+    """Interroge Google News RSS pour chaque requête, déduplique, filtre <24h. Retourne jusqu'à max_articles items."""
+    user_agent = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+    seen_urls = set()
     all_articles = []
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    for name, url in feeds.items():
+    for source_name, q in queries.items():
+        url = GNEWS_BASE.format(query=urllib.parse.quote(q))
         try:
             req = urllib.request.Request(url, headers={"User-Agent": user_agent})
-            with urllib.request.urlopen(req, timeout=10) as response:
-                xml_data = response.read()
-            
-            root = ET.fromstring(xml_data)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                root = ET.fromstring(resp.read())
             for item in root.findall(".//item"):
-                title = item.find("title").text if item.find("title") is not None else ""
-                link = item.find("link").text if item.find("link") is not None else ""
-                pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
+                title_el = item.find("title")
+                link_el  = item.find("link")
+                date_el  = item.find("pubDate")
+                src_el   = item.find("source")
+                title = title_el.text if title_el is not None else ""
+                link  = link_el.text  if link_el  is not None else ""
+                if not link or link in seen_urls:
+                    continue
+                seen_urls.add(link)
                 all_articles.append({
-                    "title": title,
-                    "url": link,
-                    "date": pub_date,
-                    "source": name
+                    "title":  title.strip(),
+                    "url":    link,
+                    "date":   date_el.text if date_el is not None else "",
+                    "source": src_el.text  if src_el  is not None else source_name,
                 })
         except Exception as e:
-            print(f"[RSS] Échec de récupération du flux {name} : {e}")
-            
-    # RÈGLE ABSOLUE N°1 : Filtrer STRICTEMENT à moins de 24 heures (0 fallback au-delà)
-    recent_articles = filter_recent_articles(all_articles, 24)
+            print(f"[RSS] Échec Google News '{q}' : {e}")
 
-    # Trier du plus récent au plus ancien
-    recent_articles = sorted(recent_articles, key=lambda x: x.get("age_seconds", 999999))
+    # Filtre strict 24h puis tri du plus récent au plus ancien
+    recent = filter_recent_articles(all_articles, 24)
+    recent.sort(key=lambda x: x.get("age_seconds", 999999))
+    return recent[:max_articles]
 
-    query_lower = query.lower()
-    is_meteo = any(w in query_lower for w in ["météo", "meteo", "climat", "vigilance", "records", "intempéries", "canicule"])
-    is_ia = any(re.search(r'\b' + w + r'\b', query_lower) for w in ["ai", "ia"]) or any(w in query_lower for w in ["models", "tools", "claude", "gemini", "llama", "deepseek", "chatgpt", "openai", "hacker news", "github"])
-    is_hdf = any(w in query_lower for w in ["hauts-de-france", "hdf", "lille", "pas-de-calais", "nord", "arras", "valenciennes", "dunkerque", "calais", "boulogne"])
-    
-    filtered = []
-    
-    if is_meteo:
-        meteo_keywords = ["météo", "meteo", "climat", "température", "chaleur", "pluie", "inondation", "vent", "tempête", "orage", "vigilance", "sécheresse", "neige", "copernicus", "records", "noaa", "canicule"]
-        for art in recent_articles:
-            title_lower = art["title"].lower()
-            if any(kw in title_lower for kw in meteo_keywords):
-                filtered.append(art)
-    elif is_ia:
-        ia_keywords = ["ia", "ai", "chatgpt", "openai", "claude", "gemini", "llama", "deepseek", "anthropic", "copilot", "midjourney", "sora", "robot", "algorithme", "machine learning", "technologie"]
-        for art in recent_articles:
-            title_lower = art["title"].lower()
-            has_ia = False
-            for kw in ia_keywords:
-                if kw in ["ia", "ai"]:
-                    if re.search(r'\b' + kw + r'\b', title_lower):
-                        has_ia = True
-                        break
-                else:
-                    if kw in title_lower:
-                        has_ia = True
-                        break
-            if has_ia:
-                filtered.append(art)
-    elif is_hdf:
-        hdf_keywords = ["nord", "pas-de-calais", "picardie", "lille", "hdf", "amiens", "arras", "dunkerque", "douai", "calais", "somme", "aisne", "oise"]
-        for art in recent_articles:
-            if art["source"] == "France 3 HDF":
-                filtered.append(art)
-            else:
-                title_lower = art["title"].lower()
-                if any(kw in title_lower for kw in hdf_keywords):
-                    filtered.append(art)
-    else:
-        # Actualités générales (Le Monde, FranceInfo)
-        for art in recent_articles:
-            if art["source"] in ["Le Monde", "FranceInfo"]:
-                filtered.append(art)
-                
-    # Si on a trop peu de résultats ciblés, on comble avec des articles récents du Monde ou FranceInfo
-    if len(filtered) < 15:
-        seen_urls = {art["url"] for art in filtered}
-        for art in recent_articles:
-            if len(filtered) >= 20:
-                break
-            if art["url"] not in seen_urls:
-                if is_ia and art["source"] != "PresseCitron":
-                    continue
-                filtered.append(art)
-                seen_urls.add(art["url"])
-                
-    return filtered[:45]
+
+def _fetch_actu():
+    """Collecte presse nationale + internationale : vise 80+ articles <24h."""
+    queries = {
+        "une_france":   "actualités France politiques société économie",
+        "monde":        "actualités monde international breaking news",
+        "geopolitique": "géopolitique Europe Etats-Unis guerre diplomatie",
+        "politique_fr": "politique française gouvernement parlement élections",
+        "société_fr":   "société faits divers France justice police",
+        "economie":     "économie entreprises marchés inflation bourse",
+        "europe":       "actualités Europe Commission Parlement europeen",
+        "usa":          "United States politics news Trump Biden White House",
+    }
+    return _gnews_fetch(queries, max_articles=150)
+
+
+def _fetch_ia():
+    """Collecte IA & Tech : vise 80+ articles <24h."""
+    queries = {
+        "llm_models":   "LLM ChatGPT Claude Gemini Llama DeepSeek GPT release",
+        "openai":       "OpenAI announcement model release update",
+        "anthropic":    "Anthropic Claude AI update",
+        "google_ai":    "Google Gemini AI DeepMind update",
+        "ia_outils":    "intelligence artificielle outils IA France nouveauté",
+        "github_ai":    "GitHub Copilot open source AI tools developer",
+        "securite_ia":  "AI safety cybersecurity LLM jailbreak vulnerability",
+        "hacker_news":  "AI machine learning software engineering Hacker News",
+        "robotique":    "robotique robots autonomes IA industrielle",
+        "ia_emploi":    "intelligence artificielle emploi automatisation impact société",
+    }
+    return _gnews_fetch(queries, max_articles=150)
+
+
+def _fetch_meteo():
+    """Collecte météo & climat : vise 80+ articles <24h."""
+    queries = {
+        "vigilance_mf": "Météo-France vigilance orange rouge alerte",
+        "canicule":     "canicule chaleur record température France Europe",
+        "inondation":   "inondations crues pluies torrentielles France",
+        "tempete":      "tempête vents violents ouragan cyclone",
+        "orage":        "orages grêle foudre tornade France",
+        "climat_global": "changement climatique records OMM NOAA Copernicus",
+        "neige":        "neige gel verglas grand froid montagne",
+        "secheresse":   "sécheresse incendies de forêt canicule été",
+        "meteo_monde":  "weather extreme events flooding hurricane wildfire",
+        "previsions":   "prévisions météo semaine France températures",
+    }
+    return _gnews_fetch(queries, max_articles=150)
+
+
+def _fetch_hdf():
+    """Collecte Hauts-de-France : vise 60+ articles <24h."""
+    queries = {
+        "lille":        "Lille actualités Nord faits divers",
+        "pas_de_calais": "Pas-de-Calais Calais Boulogne Lens Béthune actualités",
+        "picardie":     "Amiens Somme Oise Aisne Picardie actualités",
+        "nord_faits":   "Nord faits divers accidents justice police",
+        "hdf_economie": "Hauts-de-France économie emploi usines industrie",
+        "hdf_culture":  "Hauts-de-France culture sport événements",
+        "dunkerque":    "Dunkerque Valenciennes Douai actualités",
+        "arras":        "Arras Saint-Quentin Soissons actualités",
+    }
+    return _gnews_fetch(queries, max_articles=150)
+
+
+def _fetch_intemperies():
+    """Collecte intempéries & cyclones : vise 60+ articles <24h."""
+    queries = {
+        "orages":       "orages grêle foudre tornade France Europe",
+        "cyclones":     "cyclone ouragan typhon tropical storm",
+        "inondations":  "inondations crues catastrophe naturelle",
+        "vigilance":    "Météo-France vigilance rouge orange alerte météo",
+        "tornades":     "tornado tornades Etats-Unis France Europe",
+        "canicule_ex":  "canicule record chaleur extrême Europe monde",
+        "tempete_vent": "tempête vents violents gusts storm damage",
+        "neige_montagne": "neige avalanche montagne alerte grand froid",
+    }
+    return _gnews_fetch(queries, max_articles=150)
+
+
+# Rétrocompat: fetch_google_news conservée pour process_youtube_report ou autres appels
+def fetch_google_news(query):
+    """Alias de compatibilité — routes vers le bon collecteur thématique."""
+    q = query.lower()
+    if any(w in q for w in ["météo", "meteo", "climat", "vigilance", "canicule"]):
+        return _fetch_meteo()[:45]
+    if any(w in q for w in ["hauts-de-france", "hdf", "lille", "pas-de-calais"]):
+        return _fetch_hdf()[:45]
+    if any(w in q for w in ["ia", "ai", "claude", "gemini", "llama", "deepseek", "chatgpt", "openai", "github"]):
+        return _fetch_ia()[:45]
+    if any(w in q for w in ["intempéries", "orages", "cyclone", "tornade", "inondation"]):
+        return _fetch_intemperies()[:45]
+    return _fetch_actu()[:45]
 
 # 2. Appel API IA (Gemini ou OpenRouter) sans dépendances lourdes
 def call_llm(system_prompt, user_prompt):
@@ -340,6 +369,61 @@ def build_meteo_report(date_str):
     
     return llm_parse_json(system_prompt, user_prompt, label="build_meteo_report")
 
+def build_hdf_report(date_str):
+    print("[Rapport] Collecte et rédaction Hauts-de-France...")
+    raw_articles = _fetch_hdf()
+    system_prompt = (
+        "Tu es un journaliste régional spécialisé dans les Hauts-de-France. Ton rôle est de sélectionner et résumer les actualités régionales clés.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article de plus de 24 heures.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités régionales (faits divers, économie, culture, sport, politique locale, accidents, justice).\n"
+        "Pour chaque article, fournis son titre, sa source, son URL exacte et un résumé de 1-2 lignes.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copier-coller EXACTEMENT la valeur 'url' sans modification.\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
+        "[ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... ]"
+    )
+    user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
+    return llm_parse_json(system_prompt, user_prompt, label="build_hdf_report")
+
+
+def build_intemperies_report(date_str):
+    print("[Rapport] Collecte et rédaction Intempéries & Cyclones...")
+    raw_articles = _fetch_intemperies()
+    system_prompt = (
+        "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 24 HEURES.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 points de vigilance : orages, grêle, vent, tornades, inondations, cyclones.\n"
+        "Pour chaque événement, fournis son titre, sa catégorie (CYCLONE/ORAGES/GRÊLE/INONDATIONS/VENT/VIGILANCE), sa zone, son résumé technique et son URL exacte.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copier-coller EXACTEMENT la valeur 'url' sans modification.\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
+        "[ {\"title\": \"...\", \"category\": \"...\", \"location\": \"...\", \"summary\": \"...\", \"url\": \"...\"}, ... ]"
+    )
+    user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
+    return llm_parse_json(system_prompt, user_prompt, label="build_intemperies_report")
+
+
+def build_bonsplans_report(date_str):
+    print("[Rapport] Collecte et rédaction Bons Plans IA & Outils...")
+    queries = {
+        "deals_ia":     "IA tools free plan promo deal discount coupon 2025",
+        "outils_gratuits": "intelligence artificielle outil gratuit nouveauté offre lancement",
+        "github_free":  "open source AI tool free release GitHub 2025",
+        "promo_tech":   "SaaS promotion code promo outil développeur offre spéciale",
+        "nouveautes":   "nouveauté IA outil gratuit lancement beta access 2025",
+    }
+    raw_articles = _gnews_fetch(queries, max_articles=80)
+    system_prompt = (
+        "Tu es un chasseur de bons plans tech & IA. Ton rôle est de repérer les meilleures offres, outils gratuits, codes promos et accès beta du moment.\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des offres publiées depuis MOINS DE 24 HEURES.\n"
+        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 10 bons plans (outils gratuits, promotions, accès beta, codes promo, offres limitées).\n"
+        "Pour chaque bon plan, fournis son titre, l'outil/service concerné, le type d'offre, sa description et son URL exacte.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copier-coller EXACTEMENT la valeur 'url' sans modification.\n"
+        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
+        "[ {\"title\": \"...\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"...\", \"url\": \"...\"}, ... ]"
+    )
+    user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
+    return llm_parse_json(system_prompt, user_prompt, label="build_bonsplans_report")
+
+
 def process_youtube_report():
     print("[Rapport] Chargement, notation et rédaction Vidéos YouTube...")
     try:
@@ -421,7 +505,10 @@ def build_synthesis(actu, ia, meteo, yt, date_str):
     return llm_parse_json(system_prompt, user_prompt, label="build_synthesis")
 
 # 5. Compilation HTML Premium Responsive
-def compile_html(synthesis, actu, ia, meteo, yt, date_str):
+def compile_html(synthesis, actu, ia, meteo, yt, date_str, hdf=None, intemperies=None, bonsplans=None):
+    hdf = hdf or []
+    intemperies = intemperies or []
+    bonsplans = bonsplans or []
     print("[HTML] Compilation du template premium...")
     
     # CSS Inline pour compatibilité e-mail maximale
@@ -546,42 +633,75 @@ def compile_html(synthesis, actu, ia, meteo, yt, date_str):
         """
         
     html += """
-            <div class="section-title">🌐 Presse & Actualités Générales (40)</div>
+            <div class="section-title">🌐 Presse & Actualités Générales</div>
     """
-    
-    # 10 de chaque catégorie
-    categories = [("mondial", "Mondial", "badge-mondial"), ("international", "International", "badge-inter"), ("france", "France", "badge-france"), ("hdf", "Hauts-de-France", "badge-hdf")]
-    for key, label, badge_style in categories:
+    for key, label, badge_style in [("mondial", "Mondial", "badge-mondial"), ("international", "International", "badge-inter"), ("france", "France", "badge-france")]:
         for item in actu.get(key, []):
             html += f"""
             <div class="card">
                 <span class="badge {badge_style}">{label}</span>
-                <div class="card-title">
-                    <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
-                </div>
+                <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
                 <div class="card-meta">Source: <strong>{item.get('source', '')}</strong></div>
                 <p class="card-summary">{item.get('summary', '')}</p>
-            </div>
-            """
-            
+            </div>"""
+
     html += """
-            <div class="section-title">🤖 Intelligence Artificielle (10)</div>
+            <div class="section-title">📍 Hauts-de-France</div>
+    """
+    hdf_items = hdf if hdf else actu.get("hdf", [])
+    for item in hdf_items:
+        html += f"""
+            <div class="card">
+                <span class="badge badge-hdf">Hauts-de-France</span>
+                <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
+                <div class="card-meta">Source: <strong>{item.get('source', '')}</strong></div>
+                <p class="card-summary">{item.get('summary', '')}</p>
+            </div>"""
+
+    html += """
+            <div class="section-title">🌩️ Intempéries & Cyclones</div>
+    """
+    for item in intemperies:
+        badge_cat = item.get('category', 'VIGILANCE').upper()
+        badge_color = "badge-meteo"
+        if "CYCLONE" in badge_cat or "OURAGAN" in badge_cat: badge_color = "badge-ia"
+        elif "VENT" in badge_cat or "TORNADE" in badge_cat: badge_color = "badge-inter"
+        elif "INONDATION" in badge_cat or "CRUE" in badge_cat: badge_color = "badge-france"
+        html += f"""
+            <div class="card">
+                <span class="badge {badge_color}">{item.get('category', 'VIGILANCE')}</span>
+                <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
+                <div class="card-meta">Zone: <strong>{item.get('location', '')}</strong></div>
+                <p class="card-summary">{item.get('summary', '')}</p>
+            </div>"""
+
+    html += """
+            <div class="section-title">🤖 Intelligence Artificielle</div>
     """
     for item in ia:
         html += f"""
         <div class="card">
             <span class="score-badge">Éditorial: {item.get('score', 0)}/10</span>
             <span class="badge badge-ia">IA & Tech</span>
-            <div class="card-title">
-                <a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a>
-            </div>
+            <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
             <div class="card-meta">Techno/Modèle: <strong>{item.get('tool', '')}</strong></div>
             <p class="card-summary">{item.get('summary', '')}</p>
-        </div>
-        """
-        
+        </div>"""
+
     html += """
-            <div class="section-title">🌤️ Météo & Climat (10)</div>
+            <div class="section-title">🎁 Bons Plans IA & Outils</div>
+    """
+    for item in bonsplans:
+        html += f"""
+        <div class="card">
+            <span class="badge badge-yt">{item.get('offer_type', 'Bon Plan')}</span>
+            <div class="card-title"><a href="{item.get('url', '#')}" target="_blank">{item.get('title', '')}</a></div>
+            <div class="card-meta">Outil: <strong>{item.get('tool', '')}</strong></div>
+            <p class="card-summary">{item.get('summary', '')}</p>
+        </div>"""
+
+    html += """
+            <div class="section-title">🌤️ Météo & Climat</div>
     """
     for item in meteo:
         html += f"""
@@ -680,23 +800,29 @@ def main():
         
     yt_report = process_youtube_report()
     
-    # 2. Collecte & Rédaction IA/Météo/Actu
+    # 2. Collecte & Rédaction toutes thématiques
     print("\n--- Étape 2 : Rédactions Thématiques ---")
-    actu_report = build_actu_report(date_str) or {"mondial": [], "international": [], "france": [], "hdf": []}
-    ia_report = build_ia_report(date_str) or []
-    meteo_report = build_meteo_report(date_str) or []
-    
+    actu_report       = build_actu_report(date_str)        or {"mondial": [], "international": [], "france": [], "hdf": []}
+    hdf_report        = build_hdf_report(date_str)         or []
+    ia_report         = build_ia_report(date_str)          or []
+    meteo_report      = build_meteo_report(date_str)       or []
+    intemperies_report = build_intemperies_report(date_str) or []
+    bonsplans_report  = build_bonsplans_report(date_str)   or []
+
     # 3. Rédaction de la Synthèse
     print("\n--- Étape 3 : Synthèse ---")
     synthesis_report = build_synthesis(actu_report, ia_report, meteo_report, yt_report, date_str)
-    
+
     if not synthesis_report:
         print("[Avertissement] Synthèse indisponible, utilisation d'un résumé minimal.")
         synthesis_report = {"intro": "Veille du " + date_str, "top_press": [], "top_ia": [], "top_meteo": [], "top_youtube": [], "editorial_plan": []}
-        
+
     # 4. Compilation HTML
     print("\n--- Étape 4 : Compilation HTML ---")
-    html_output = compile_html(synthesis_report, actu_report, ia_report, meteo_report, yt_report, date_str)
+    html_output = compile_html(
+        synthesis_report, actu_report, ia_report, meteo_report, yt_report, date_str,
+        hdf=hdf_report, intemperies=intemperies_report, bonsplans=bonsplans_report
+    )
     
     # 5. Envoi ou Sauvegarde locale
     if args.dry_run:
