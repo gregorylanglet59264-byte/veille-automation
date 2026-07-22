@@ -16,12 +16,17 @@ try:
 except Exception:
     pass
 
-INDEX_URL = "https://forums.infoclimat.fr/f/forum/20-evolution-%C3%A0-plus-long-terme/"
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+import socket
+import time
 
-def fetch_url(url):
+socket.setdefaulttimeout(10)
+
+INDEX_URL = "https://forums.infoclimat.fr/f/forum/20-evolution-%C3%A0-plus-long-terme/"
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+
+def fetch_url(url, timeout=8):
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
-    with urllib.request.urlopen(req, timeout=15) as response:
+    with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read().decode('utf-8', errors='ignore')
 
 def call_llm(system_prompt, user_prompt):
@@ -132,7 +137,7 @@ def process_topic(target_topic, topic_idx):
         print(f"[{topic_idx+1}] Téléchargement graphique {idx+1} : {img_url} -> {dest_file}")
         try:
             req = urllib.request.Request(img_url, headers={'User-Agent': USER_AGENT})
-            with urllib.request.urlopen(req, timeout=12) as img_resp:
+            with urllib.request.urlopen(req, timeout=6) as img_resp:
                 with open(dest_file, 'wb') as f_out:
                     f_out.write(img_resp.read())
             downloaded_images.append(dest_file)
