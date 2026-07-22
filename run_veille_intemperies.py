@@ -290,7 +290,7 @@ def build_report_data(raw_news, tweets, date_str):
     system_prompt = (
         "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
         "Ton rôle est de rédiger un bulletin de veille complet et extrêmement détaillé sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que l'activité cyclonique mondiale.\n\n"
-        "Tu dois générer une liste JSON contenant au maximum 10 objets représentant les points de vigilance météo critiques des dernières 24 heures.\n"
+        "Tu dois générer une liste JSON contenant jusqu'à 40 objets représentant les points de vigilance météo critiques des dernières 24 heures.\n"
         "RÈGLES IMPERATIVES — VIOLATION = RAPPORT INVALIDE :\n"
         "1. STRICTEMENT MOINS DE 24 HEURES : Chaque événement doit IMPERATIVEMENT dater de moins de 24 heures. Ne mentionne JAMAIS un événement plus ancien, même si les données en contiennent.\n"
         "2. PAS D'INVENTION : Ne crée ou n'invente aucun événement météo fictif. Si les données contiennent moins de 10 événements réels dans les 24h, génère uniquement ce nombre exact.\n"
