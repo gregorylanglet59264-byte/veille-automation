@@ -28,6 +28,8 @@ from email.mime.multipart import MIMEMultipart
 import re
 import email.utils
 from email.utils import make_msgid, formatdate
+import socket
+socket.setdefaulttimeout(10)
 
 # Dictionnaires de traduction pour les dates dynamiques
 MONTHS_FR = [
