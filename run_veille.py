@@ -295,91 +295,82 @@ def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
     print(f"[LLM] ERREUR : {retries} tentatives échouées pour {label}.")
     return None
 
-# 3. Rédacteurs thématiques (avec règle stricte des 10 articles)
+# 3. Rédacteurs thématiques — format complet conforme aux compétences veille
 def build_actu_report(date_str):
     print("[Rapport] Collecte et rédaction Actualités...")
-    queries = {
-        "mondial": "monde actualités grands titres breaking news",
-        "international": "actualités internationales géopolitique Europe US Asie",
-        "france": "actualités France politique société économie",
-        "hdf": "actualités Hauts-de-France Nord Pas-de-Calais Picardie Lille"
+    raw_data = {
+        "mondial":       _fetch_actu()[:80],
+        "international": _fetch_actu()[:80],
+        "france":        _fetch_actu()[:80],
     }
-    
-    raw_data = {}
-    for key, q in queries.items():
-        raw_data[key] = fetch_google_news(q)
-        
     system_prompt = (
-        "Tu es un analyste de presse senior. Ton rôle est de trier et de synthétiser les actualités fournies.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des informations et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article datant de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 articles pertinents pour chaque catégorie (Mondial, International, France, Hauts-de-France).\n"
-        "Pour chaque article, fournis son titre en français, sa source, son URL d'origine et un résumé développé de MINIMUM 3 lignes (contexte, faits clés, chiffres, enjeux, impact).\n"
-        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs de code markdown ```json) :\n"
+        f"Tu es un journaliste d'investigation senior spécialisé dans l'actualité nationale et internationale. Aujourd'hui nous sommes le {date_str}.\n\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. Ignore tout article sans date claire.\n"
+        "DÉDOUBLONNAGE : Si plusieurs médias parlent du même événement, ne conserve qu'une seule actualité (la meilleure source).\n"
+        "PRIORITÉ : Géopolitique, conflits, réformes, crises économiques, sécurité, justice, catastrophes, grondements sociaux. Ignore sport/culture/agenda/pub.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url' de la source. N'invente jamais une URL.\n\n"
+        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
+        "Le résumé doit être un paragraphe unique et fluide de 5 lignes exactes expliquant les faits, le contexte, les conséquences géopolitiques/nationales, les réactions et les suites. Terminer par : '**Source :** [Nom](URL)'.\n\n"
+        "Format JSON attendu (sans blocs ```json) :\n"
         "{\n"
-        "  \"mondial\": [ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... ],\n"
+        "  \"mondial\": [ {\"title\": \"1. Titre complet (Pays/Zone)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ],\n"
         "  \"international\": [ ... ],\n"
-        "  \"france\": [ ... ],\n"
-        "  \"hdf\": [ ... ]\n"
+        "  \"france\": [ ... ]\n"
         "}"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_data, ensure_ascii=False)}"
-    
     return llm_parse_json(system_prompt, user_prompt, label="build_actu_report")
 
 def build_ia_report(date_str):
     print("[Rapport] Collecte et rédaction Intelligence Artificielle...")
-    query = "AI models tools releases benchmark github cursor claude gemini llama deepseek"
-    raw_articles = fetch_google_news(query)
-    
+    raw_articles = _fetch_ia()
     system_prompt = (
-        "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des nouveautés publiées depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout élément de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/outils majeurs.\n"
-        "Pour chaque élément, fournis un titre, l'outil/modèle concerné, une description technique développée de MINIMUM 3 lignes (contexte, fonctionnement, cas d'usage, impact pour les développeurs), son URL et une note d'intérêt éditorial /10.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
-        "[\n"
-        "  {\"title\": \"...\", \"tool\": \"...\", \"summary\": \"...\", \"url\": \"...\", \"score\": 8.5},\n"
-        "  ...\n"
-        "]"
+        f"Tu es un journaliste d'investigation et analyste senior spécialisé dans l'Intelligence Artificielle et l'écosystème Tech. Aujourd'hui nous sommes le {date_str}.\n\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. Ignore tout article sans date claire.\n"
+        "PÉRIMÈTRE : Modèles LLM, Outils/IDE développeur, Recherche ArXiv/benchmarks, Entreprises/financement/régulation.\n"
+        "PRIORITÉ : Releases, découvertes scientifiques, nouveaux outils, régulation, failles sécurité, investissements, benchmarks. Ignore rumeurs/pub/opinions.\n"
+        "DÉDOUBLONNAGE : une seule actualité par modèle/outil, source officielle prioritaire.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
+        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
+        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits et spécifications techniques, le contexte, les conséquences pour l'écosystème et les développeurs, et les suites/accès. Terminer par : '**Source :** [Nom](URL)'.\n\n"
+        "Format JSON attendu (sans blocs ```json) :\n"
+        "[ {\"title\": \"1. Titre complet\", \"tool\": \"...\", \"url\": \"...\", \"score\": 8.5, \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
-    
     return llm_parse_json(system_prompt, user_prompt, label="build_ia_report")
 
 def build_meteo_report(date_str):
     print("[Rapport] Collecte et rédaction Météo & Climat...")
-    query = "météo france vigilance climat records Copernicus NOAA OMM intempéries"
-    raw_articles = fetch_google_news(query)
-    
+    raw_articles = _fetch_meteo()
     system_prompt = (
-        "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements et articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités/vigilances/records.\n"
-        "Pour chaque élément, fournis un titre, la zone géographique, le phénomène concerné, une description développée de MINIMUM 3 lignes (données mesurées, valeurs, impacts, contexte climatique), et son URL source.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
-        "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
-        "[\n"
-        "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
-        "  ...\n"
-        "]"
+        f"Tu es un journaliste d'investigation et prévisionniste senior spécialisé en Météorologie et Climatologie. Aujourd'hui nous sommes le {date_str}.\n\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES.\n"
+        "DOMÀINES : Vigilances Météo-France, modèles numériques, intempéries confirmées, météo mondiale (cyclones/vagues de chaleur), climatologie (Copernicus/NOAA/OMM).\n"
+        "PRIORITÉ : Vigilances orange/rouge, dégâts confirmés, évolution modèles, cyclones actifs, records. Ignore prévisions >14j non fiables et rumeurs réseaux sociaux.\n"
+        "DÉDOUBLONNAGE : une seule actualité par phénomène/événement.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
+        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
+        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits et mesures observées, le contexte météorologique, les conséquences et les prévisions/tendances. Terminer par : '**Source :** [Nom](URL)'.\n\n"
+        "Format JSON attendu (sans blocs ```json) :\n"
+        "[ {\"title\": \"1. Titre complet (Zone/Pays)\", \"location\": \"...\", \"phenomenon\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
-    
     return llm_parse_json(system_prompt, user_prompt, label="build_meteo_report")
 
 def build_hdf_report(date_str):
     print("[Rapport] Collecte et rédaction Hauts-de-France...")
     raw_articles = _fetch_hdf()
     system_prompt = (
-        "Tu es un journaliste régional spécialisé dans les Hauts-de-France. Ton rôle est de sélectionner et résumer les actualités régionales clés.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. IGNORE IMPÉRATIVEMENT tout article de plus de 24 heures.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 actualités régionales (faits divers, économie, culture, sport, politique locale, accidents, justice).\n"
-        "Pour chaque article, fournis son titre, sa source, son URL exacte et un résumé développé de MINIMUM 3 lignes (contexte local, faits, acteurs, chiffres, enjeux pour la région).\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copier-coller EXACTEMENT la valeur 'url' sans modification.\n"
-        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
-        "[ {\"title\": \"...\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"...\"}, ... ]"
+        f"Tu es un journaliste d'investigation senior spécialisé dans l'actualité régionale des Hauts-de-France. Aujourd'hui nous sommes le {date_str}.\n\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES. Ignore tout article sans date claire.\n"
+        "ZONE : Uniquement Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02).\n"
+        "PRIORITÉ : Faits divers majeurs, incendies, accidents graves, disparitions, justice, police, santé publique, intempéries, économie régionale, grondements politiques locaux. Ignore sport/culture/agenda/pub SAUF si exceptionnel.\n"
+        "DÉDOUBLONNAGE : un seul article par événement, source régionale prioritaire (La Voix du Nord, France Bleu Nord, France 3 HDF, Actu.fr).\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
+        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
+        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits, le contexte local, les conséquences, la réaction des secours/police et les suites de l'affaire. Terminer par : '**Source :** [Nom](URL)'.\n\n"
+        "Format JSON attendu (sans blocs ```json) :\n"
+        "[ {\"title\": \"1. Titre complet (Département + Code)\", \"source\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     return llm_parse_json(system_prompt, user_prompt, label="build_hdf_report")
@@ -389,13 +380,16 @@ def build_intemperies_report(date_str):
     print("[Rapport] Collecte et rédaction Intempéries & Cyclones...")
     raw_articles = _fetch_intemperies()
     system_prompt = (
-        "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
-        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 24 HEURES.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 40 points de vigilance : orages, grêle, vent, tornades, inondations, cyclones.\n"
-        "Pour chaque événement, fournis son titre, sa catégorie (CYCLONE/ORAGES/GRÊLE/INONDATIONS/VENT/VIGILANCE), sa zone, un résumé technique développé de MINIMUM 3 lignes (valeurs mesurées en mm/km/h, dégâts, zones touchées, contexte synoptique) et son URL exacte.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copier-coller EXACTEMENT la valeur 'url' sans modification.\n"
-        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
-        "[ {\"title\": \"...\", \"category\": \"...\", \"location\": \"...\", \"summary\": \"...\", \"url\": \"...\"}, ... ]"
+        f"Tu es un journaliste d'investigation spécialisé dans les risques naturels majeurs, les intempéries graves et l'activité cyclonique mondiale. Aujourd'hui nous sommes le {date_str}.\n\n"
+        "RÈGLE ABSOLUE N°1 : Ne conserver QUE des articles publiés depuis MOINS DE 24 HEURES.\n"
+        "PÉRIMÈTRE : Inondations, tempêtes violentes, tornades homologuées, cyclones/typhons/ouragans actifs, feux de forêt hors contrôle, glissements meurtriers.\n"
+        "PRIORITÉ : Bilans humains, évacuations d'urgence, destructions d'infrastructures, alertes rouge/violette, crues centennales, feux menaçant des zones urbaines. Ignore orages classiques sans dégâts.\n"
+        "DÉDOUBLONNAGE : une seule actualité par événement, source officielle (NHC, Météo-France, Keraunos, AFP) prioritaire.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
+        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
+        "Paragraphe unique et fluide de 5 lignes exactes expliquant les faits et bilan provisoire, le contexte météorologique et dynamique, les conséquences humaines/matérielles et la trajectoire/évolution attendue. Terminer par : '**Source :** [Nom](URL)'.\n\n"
+        "Format JSON attendu (sans blocs ```json) :\n"
+        "[ {\"title\": \"1. Titre complet (Zone/Pays)\", \"category\": \"CYCLONE|ORAGES|GRÊLE|INONDATIONS|VENT|VIGILANCE\", \"location\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     return llm_parse_json(system_prompt, user_prompt, label="build_intemperies_report")
@@ -404,21 +398,22 @@ def build_intemperies_report(date_str):
 def build_bonsplans_report(date_str):
     print("[Rapport] Collecte et rédaction Bons Plans IA & Outils...")
     queries = {
-        "deals_ia":     "IA tools free plan promo deal discount coupon 2025",
+        "deals_ia":       "IA tools free plan promo deal discount coupon 2025",
         "outils_gratuits": "intelligence artificielle outil gratuit nouveauté offre lancement",
-        "github_free":  "open source AI tool free release GitHub 2025",
-        "promo_tech":   "SaaS promotion code promo outil développeur offre spéciale",
-        "nouveautes":   "nouveauté IA outil gratuit lancement beta access 2025",
+        "github_free":    "open source AI tool free release GitHub 2025",
+        "promo_tech":     "SaaS promotion code promo outil développeur offre spéciale",
+        "nouveautes":     "nouveauté IA outil gratuit lancement beta access 2025",
     }
     raw_articles = _gnews_fetch(queries, max_articles=80)
     system_prompt = (
-        "Tu es un chasseur de bons plans tech & IA. Ton rôle est de repérer les meilleures offres, outils gratuits, codes promos et accès beta du moment.\n"
+        f"Tu es un chasseur de bons plans tech & IA. Aujourd'hui nous sommes le {date_str}.\n\n"
         "RÈGLE ABSOLUE N°1 : Ne conserver QUE des offres publiées depuis MOINS DE 24 HEURES.\n"
-        "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 10 bons plans (outils gratuits, promotions, accès beta, codes promo, offres limitées).\n"
-        "Pour chaque bon plan, fournis son titre, l'outil/service concerné, le type d'offre, une description développée de MINIMUM 3 lignes (ce que l'offre inclut, valeur réelle, conditions, date d'expiration si connue) et son URL exacte.\n"
-        "RÈGLE CRITIQUE POUR L'URL : Copier-coller EXACTEMENT la valeur 'url' sans modification.\n"
-        "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
-        "[ {\"title\": \"...\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"...\", \"url\": \"...\"}, ... ]"
+        "PÉRIMÈTRE : Outils gratuits, promotions, accès beta, codes promo, offres limitées dans l'écosystème IA & Tech.\n"
+        "RÈGLE CRITIQUE POUR L'URL : Copie-colle EXACTEMENT la valeur 'url'. N'invente jamais une URL.\n\n"
+        "FORMAT OBLIGATOIRE pour chaque actualité dans le champ 'summary' :\n"
+        "Paragraphe unique et fluide de 5 lignes exactes décrivant ce que l'offre inclut, sa valeur réelle, les conditions d'utilisation, la date d'expiration si connue, et pourquoi Gregory devrait en profiter. Terminer par : '**Source :** [Nom](URL)'.\n\n"
+        "Format JSON attendu (sans blocs ```json) :\n"
+        "[ {\"title\": \"1. Titre de l'offre\", \"tool\": \"...\", \"offer_type\": \"...\", \"url\": \"...\", \"summary\": \"Paragraphe 5 lignes...\\n**Source :** [Nom](URL)\"}, ... ]"
     )
     user_prompt = f"Données récoltées pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     return llm_parse_json(system_prompt, user_prompt, label="build_bonsplans_report")
