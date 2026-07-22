@@ -29,12 +29,12 @@ def fetch_url(url, timeout=8):
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read().decode('utf-8', errors='ignore')
 
-def call_llm(system_prompt, user_prompt):
+def call_llm(system_prompt, user_prompt, max_retries=3):
     openrouter_key = os.environ.get("OPENROUTER_API_KEY", "").replace('\ufeff', '').strip()
     if not openrouter_key:
         print("[LLM] ERREUR : OPENROUTER_API_KEY non configurée.")
         return None
-    print("[LLM] Appel DeepSeek V4 Flash via OpenRouter...")
+    
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
@@ -47,16 +47,23 @@ def call_llm(system_prompt, user_prompt):
             {"role": "user", "content": user_prompt}
         ]
     }
-    try:
-        req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-        with urllib.request.urlopen(req, timeout=90) as response:
-            res_data = json.loads(response.read().decode("utf-8"))
-            text = res_data["choices"][0]["message"]["content"]
-            return text.replace('\ufeff', '').replace('\ufffe', '')
-    except urllib.error.HTTPError as http_err:
-        print(f"[LLM] Erreur HTTP OpenRouter ({http_err.code})")
-    except Exception as e:
-        print(f"[LLM] Erreur OpenRouter: {e}")
+    
+    for attempt in range(1, max_retries + 1):
+        print(f"[LLM] Tentative {attempt}/{max_retries} — DeepSeek V4 Flash via OpenRouter...")
+        try:
+            req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+            with urllib.request.urlopen(req, timeout=120) as response:
+                res_data = json.loads(response.read().decode("utf-8"))
+                text = res_data["choices"][0]["message"]["content"]
+                return text.replace('\ufeff', '').replace('\ufffe', '')
+        except urllib.error.HTTPError as http_err:
+            print(f"[LLM] Tentative {attempt} échouée : HTTP {http_err.code}")
+        except Exception as e:
+            print(f"[LLM] Tentative {attempt} échouée : {e}")
+        
+        if attempt < max_retries:
+            time.sleep(5 * attempt)
+            
     return None
 
 
