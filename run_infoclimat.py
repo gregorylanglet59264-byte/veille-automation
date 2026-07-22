@@ -96,8 +96,8 @@ def process_topic(target_topic, topic_idx):
         author = all_authors[idx] if idx < len(all_authors) else "Membre"
         cleaned_comments_data.append(f"Auteur: {author}\nMessage:\n{clean_comment}")
         
-    # Garder les 15 derniers messages pour l'analyse
-    recent_messages_text = "\n\n=======================\n\n".join(cleaned_comments_data[-15:])
+    # Garder les 20 derniers messages pour l'analyse
+    recent_messages_text = "\n\n=======================\n\n".join(cleaned_comments_data[-20:])
     
     # Extraire et télécharger les graphiques candidats
     print(f"[{topic_idx+1}] Extraction des graphiques...")
@@ -135,46 +135,56 @@ def process_topic(target_topic, topic_idx):
 
     # Appeler l'IA pour l'analyse des scénarios et la rédaction du post LinkedIn
     print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse des scénarios météo...")
-    system_prompt = """Tu es un analyste météorologue senior (Monsieur Météo). Ton rôle est d'analyser en profondeur les discussions récentes des prévisionnistes du forum pour en extraire la tendance de cette semaine cible sous forme de 3 scénarios (Majoritaire, Médian, Minoritaire) avec leurs probabilités associées.
+    system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale (Monsieur Météo). 
+Ton rôle est d'analyser en profondeur les discussions récentes des prévisionnistes pour en extraire les tendances de la semaine cible.
+Tu dois produire 3 scénarios météo LONGS et TRÈS DÉTAILLÉS ainsi qu'un post LinkedIn de haute qualité.
 
-Tu dois ensuite rédiger un post LinkedIn extrêmement percutant et engageant, prêt à copier-coller.
+RÈGLES ABSOLUES :
+1. Ne mentionne JAMAIS le forum Infoclimat, ses membres, ni leurs pseudos. Présente les analyses comme "le consensus des prévisionnistes", "les modèles d'ensemble" ou "notre analyse".
+2. Aucun formatage markdown (* ** # `) dans le post LinkedIn — texte brut uniquement, émojis autorisés.
+3. Rédige EXCLUSIVEMENT en français.
+4. RÈGLE DE LONGUEUR CRITIQUE : Chaque scénario doit faire MINIMUM 200 mots et MAXIMUM 350 mots. Sois précis, technique, géographique.
+5. Détaille impérativement pour chaque scénario :
+   - Le mécanisme synoptique (position des anticyclones, dépressions, thalwegs, dorsales)
+   - Les flux à 850 hPa et 500 hPa si mentionnés
+   - Les impacts géographiques précis : Nord/Sud, façade atlantique/méditerranée, montagne
+   - Les températures attendues (anomalies par rapport aux normales)
+   - Les précipitations, orages, épisodes remarquables
+   - La fiabilité des modèles GFS/CEP/ARPEGE si mentionnée dans les discussions
+6. Probabilités logiques : Majoritaire > 55%, Médian 25-40%, Minoritaire < 10%.
+7. Post LinkedIn : 350-450 mots, storytelling fort, introduction accrocheuse, conclusion avec question engageante.
 
-RÈGLES CRITIQUES ET ABSOLUES :
-1. RÈGLE CRITIQUE : Ne mentionne JAMAIS le forum Infoclimat, ses membres, ni leurs pseudos. Présente les analyses comme "le consensus de la communauté des prévisionnistes", "les analyses des modèles" ou "notre consensus".
-2. RÈGLE CRITIQUE : Ne mets AUCUN formatage markdown (comme ** ou * ou # ou `) dans le post LinkedIn. Le texte doit être brut, aéré, structuré uniquement avec des émojis et des listes à puces.
-3. RÈGLE CRITIQUE : Rédige en français uniquement.
-4. RÈGLE CRITIQUE : Calcule la probabilité des 3 scénarios en utilisant une pondération logique. Le scénario minoritaire (option extrême/isolée) doit être estimé à moins de 5%.
-5. RÈGLE CRITIQUE : Chaque scénario (majoritaire, médian, minoritaire) doit être clair, synthétique, percutant et faire 1 à 2 paragraphes maximum (environ 100 à 150 mots). Explique succinctement mais précisément les mécanismes physiques (anticyclones, dépressions, gouttes froides, flux à 850 hPa) et les impacts géographiques Nord/Sud.
-6. RÈGLE CRITIQUE : Le post LinkedIn doit être extrêmement qualitatif, technique mais accessible, avec du storytelling haletant, et faire environ 200 à 300 mots.
-7. RÈGLE CRITIQUE : Termine obligatoirement le post LinkedIn par une question engageante pour susciter les commentaires des professionnels.
-
-Format de sortie attendu : Rends les différentes parties séparées EXACTEMENT par les balises suivantes dans ton texte brut (ne mets pas de bloc de code markdown) :
+Format de sortie OBLIGATOIRE — utilise EXACTEMENT ces balises :
 
 [SUBJECT_TITLE]
-Titre indiquant la semaine et les dates de prévision (ex: Semaine 30 du 20 au 26 Juillet 2026 - Tendances de la Communauté)
+Titre avec la semaine, les dates et un sous-titre accrocheur
 
 [SCENARIO_MAJORITAIRE_PROB]
-70%
+65%
 
 [SCENARIO_MAJORITAIRE_DESC]
-Texte synthétique et percutant de 1-2 paragraphes sur le scénario majoritaire.
+Texte LONG et DÉTAILLÉ de 200 à 350 mots sur le scénario majoritaire.
 
 [SCENARIO_MEDIAN_PROB]
-25%
+30%
 
 [SCENARIO_MEDIAN_DESC]
-Texte synthétique et percutant de 1-2 paragraphes sur le scénario médian.
+Texte LONG et DÉTAILLÉ de 200 à 350 mots sur le scénario médian.
 
 [SCENARIO_MINORITAIRE_PROB]
 5%
 
 [SCENARIO_MINORITAIRE_DESC]
-Texte synthétique et percutant de 1-2 paragraphes sur le scénario minoritaire.
+Texte LONG et DÉTAILLÉ de 200 à 350 mots sur le scénario minoritaire.
 
 [LINKEDIN_POST]
-Texte complet du post LinkedIn professionnel optimisé, aéré, sans aucun markdown, rempli d'émojis."""
+Texte complet du post LinkedIn professionnel (350-450 mots), aéré, sans aucun markdown, rempli d'émojis pertinents, avec une question finale engageante."""
 
-    user_prompt = f"Discussions récentes des prévisionnistes :\n\n{recent_messages_text}"
+    user_prompt = f"""Voici les 20 derniers messages des prévisionnistes à analyser :
+
+{recent_messages_text}
+
+Analyse ces discussions en profondeur et génère les 3 scénarios détaillés + le post LinkedIn."""
     response = call_llm(system_prompt, user_prompt)
     
     data = None
@@ -215,17 +225,8 @@ Texte complet du post LinkedIn professionnel optimisé, aéré, sans aucun markd
             print(f"[{topic_idx+1}] Erreur parsing textuel : {e}")
             
     if not data:
-        print(f"[{topic_idx+1}] Utilisation du plan de secours...")
-        data = {
-            "subject_title": topic_title_clean,
-            "scenarios": {
-                "majoritaire": {"prob": "70%", "desc": "Poursuite du flux dominant avec des températures saisonnières. Les modèles convergent vers un scénario stable sur la majeure partie du pays."},
-                "median": {"prob": "25%", "desc": "Variante humide avec baisse des températures par l'ouest et retour d'une instabilité orageuse localisée."},
-                "minoritaire": {"prob": "5%", "desc": "Option caniculaire extrême isolée non confirmée par les modèles d'ensemble."}
-            },
-            "linkedin_post": f"🚨 FOCUS MÉTÉO : Tendances pour la semaine !\n\nConsensus des prévisionnistes :\n- Scénario Majoritaire (70%) : Temps de saison.\n- Scénario Médian (25%) : Instabilité orageuse.\n- Scénario Minoritaire (5%) : Canicule isolée.\n\n💬 Et chez vous, quel temps préférez-vous ? 👇\n\n#Meteo #Previsions #Climat"
-        }
-        
+        print(f"[{topic_idx+1}] ERREUR : Parsing échoué — vérifier les logs du LLM ci-dessus.")
+        return None
     return {
         "data": data,
         "images": downloaded_images
