@@ -39,10 +39,13 @@ def get_date_fr():
     now = datetime.datetime.now()
     return f"{now.day} {MONTHS_FR[now.month - 1]} {now.year}"
 
-# Helper pour filtrer les articles récents
+# Helper pour filtrer les articles récents avec logs de diagnostic
 def filter_recent_articles(articles, max_hours=24):
     recent = []
     now = datetime.datetime.now(datetime.timezone.utc)
+    print(f"[Diag] Heure systeme UTC : {now}")
+    
+    ages = []
     for art in articles:
         pub_str = art.get("date")
         if not pub_str:
@@ -57,10 +60,19 @@ def filter_recent_articles(articles, max_hours=24):
             
             age = now - pub_dt
             art["age_seconds"] = age.total_seconds()
+            ages.append(age.total_seconds())
             if age <= datetime.timedelta(hours=max_hours):
                 recent.append(art)
-        except Exception:
+        except Exception as e:
             recent.append(art)
+            
+    if ages:
+        min_age = min(ages) / 3600
+        max_age = max(ages) / 3600
+        print(f"[Diag] Articles filtres : {len(recent)}/{len(articles)} (Age min: {min_age:.1f}h, Max: {max_age:.1f}h)")
+    else:
+        print(f"[Diag] Aucun article avec date valide trouve. Articles conserves: {len(recent)}")
+        
     return recent
 
 # 1. Collecte RSS multi-sources
@@ -93,6 +105,7 @@ def fetch_google_news(query):
     except Exception as e:
         print(f"[RSS] Échec de récupération de la requête '{query}' : {e}")
         
+    print(f"[Diag] '{query}': {len(all_articles)} articles recuperes au total sur Google News.")
     recent_articles = filter_recent_articles(all_articles, 24)
     recent_articles = sorted(recent_articles, key=lambda x: x.get("age_seconds", 999999))
     return recent_articles[:45]
