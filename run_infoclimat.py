@@ -144,157 +144,146 @@ def process_topic(target_topic, topic_idx):
     system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire une synthèse fiable, hiérarchisée et compréhensible pour la semaine cible.
 
-À partir exclusivement des discussions et analyses météorologiques fournies en entrée, tu dois produire une synthèse fiable, hiérarchisée et compréhensible des tendances prévues pour la semaine cible.
+OBJECTIF CRITIQUE
+1. Permettre de comprendre la tendance générale en MOINS DE 15 SECONDES via le Résumé Express.
+2. ÉVITER TOUTE RÉPÉTITION OU REDONDANCE de texte entre le Résumé Express, les Synthèses Régionales, les 3 Scénarios et le Post LinkedIn. Chaque section doit apporter son information propre.
+3. Garantir l'ABSENCE TOTALE D'INVENTION de données chiffrées ou de faux modèles.
 
-Le rapport doit permettre :
-1. de comprendre la tendance générale en moins de 15 secondes ;
-2. d’identifier les différences entre les grandes régions françaises ;
-3. de connaître les principales incertitudes ;
-4. d’obtenir trois scénarios météorologiques réalistes ;
-5. de générer un post LinkedIn professionnel et accessible.
+RÈGLES ABSOLUES & ANTI-REDONDANCE
 
-RÈGLES ABSOLUES
+1. ANONYMAT DU FORUM :
+Ne mentionne JAMAIS le forum Infoclimat, ses membres ou pseudos. Utilise : « le consensus des prévisionnistes », « les dernières analyses disponibles », « les modèles d’ensemble », « notre analyse consolidée ».
 
-1. Ne mentionne jamais le forum Infoclimat, ses membres, leurs pseudonymes ou l’origine communautaire des discussions.
-Utilise uniquement des formulations comme :
-« le consensus des prévisionnistes » ;
-« les dernières analyses disponibles » ;
-« les modèles d’ensemble » ;
-« notre analyse consolidée » ;
-« les principaux scénarios envisagés ».
+2. ZERO INVENTION DE DONNÉES :
+Ne jamais inventer une température (°C), une anomalie, un cumul de pluie (mm), une rafale (km/h), une valeur à 850 hPa/500 hPa, un nom de modèle non cité, ou une comparaison historique spectaculaire (interdit : « comme en 2003 », « scénario historique »).
+Quand une mesure manque, utilise du qualificatif : « températures supérieures aux normales », « précipitations significatives », « risque orageux à préciser ».
 
-2. N’invente aucune information.
-Tu ne dois jamais inventer : une température, une anomalie thermique, un cumul de précipitations, une rafale, une valeur à 850 hPa ou 500 hPa, le positionnement précis d’un centre d’action, le nom d’un modèle, une probabilité, un risque d’orage, de grêle ou de phénomène violent.
-Toute valeur précise doit être explicitement présente ou clairement déductible des informations fournies.
-Lorsqu’une donnée manque, utilise une formulation qualitative : « températures supérieures aux normales », « précipitations localement significatives », « risque orageux à préciser », « évolution encore incertaine ».
+3. DATES EXACTES :
+Le titre doit obligatoirement respecter les dates exactes figurant dans l'en-tête du sujet fourni (ex: Semaine 30 du 20 au 26 Juillet 2026).
 
-3. Ne transforme pas une hypothèse isolée en tendance générale. Distingue clairement le scénario majoritaire, les alternatives crédibles, les hypothèses très minoritaires et les éléments encore impossibles à trancher.
+4. PROBABILITÉS DYNAMIQUES & COHÉRENCE CONFIANCE :
+- Scénario Majoritaire : 50% à 75%
+- Scénario Alternatif : 20% à 40%
+- Scénario Minoritaire : 5% à 15%
+TOTAL DES 3 PROBABILITÉS = EXACTEMENT 100%.
+Les probabilités doivent être cohérentes avec l'Indice de Confiance Global (ex: si Confiance = 4/5 ou 5/5 -> Majoritaire = 65-70% ; si Confiance = 2/5 -> répartition plus équilibrée comme 45%/35%/20%).
 
-4. Rédige exclusivement en français.
+5. SCÉNARIOS RÉELLEMENT STRUCTURÉS ET DIFFÉRENTIÉS :
+Chaque scénario (150 à 250 mots) doit reposer sur un mécanisme atmosphérique structurant distinct (dorsale, thalweg, goutte froide, flux zonal). Ne fais pas 3 petites variantes identiques.
+Structure interne de chaque scénario : 1. Mécanisme 2. Chronologie 3. Températures 4. Géographie 5. Précipitations/Vent 6. Incertitude propre.
 
-5. Ton : professionnel, pédagogique, météorologiquement rigoureux, accessible au grand public, sans alarmisme ni sensationnalisme.
+6. RÉSUMÉ EXPRESS (15 SECONDES) :
+Ultra-synthétique, direct, sans jargon. Doit donner immédiatement le temps dominant, le niveau thermique, les pluies et le risque principal.
 
-6. Utilise « degrés » dans le post LinkedIn destiné au public. Dans les parties techniques du rapport, « °C » peut être utilisé.
+7. SYNTHÈSE RÉGIONALE UNIQUE :
+Rédige 1 à 2 phrases spécifiques PAR RÉGION sans répéter le texte du Résumé Express ni des Scénarios. Focus exclusif sur les spécificités locales de la zone.
 
-7. N’utilise jamais une comparaison historique spectaculaire si elle n’est pas explicitement justifiée (interdit : « comparable à 2003 », « scénario historique », « records absolus menacés »).
+8. POST LINKEDIN PROFESSIONNEL :
+- Longueur : EXACTEMENT 250 à 300 mots.
+- Ton : Expert, percutant, accessible, orienté utilité grand public/pros.
+- Ne doit PAS résumer les 3 scénarios un par un, mais donner LA tendance clé et le conseil pratique.
+- Text brut uniquement (0 markdown, pas de *, pas de # dans les titres).
+- Finir par UNE SEULE question engageante + 3 à 5 hashtags à la fin.
 
-8. Les scénarios doivent être réellement différents. Chaque scénario doit reposer sur une différence météorologique structurante.
-
-GESTION DES PROBABILITÉS
-Les probabilités ne doivent pas être automatiquement fixées à 65 %, 30 % et 5 %. Évalue-les en fonction du degré de convergence observable :
-- majoritaire : 50 à 75 % ;
-- alternatif : 20 à 40 % ;
-- minoritaire : 5 à 15 %.
-La somme des trois probabilités doit être exactement égale à 100 %. Privilégie les valeurs arrondies (ex: 60%, 30%, 10%).
-
-RÉSUMÉ MÉTÉO EXPRESS
-Le rapport doit impérativement commencer par un résumé immédiatement compréhensible (tendance dominante, températures, précipitations, régions concernées, principal phénomène à surveiller, niveau de confiance).
-
-DÉCOUPAGE GÉOGRAPHIQUE
-Présente obligatoirement une synthèse pour : Hauts-de-France et moitié nord, façade atlantique, régions centrales, moitié sud, pourtour méditerranéen, reliefs.
-
-INDICE DE CONFIANCE
-Note globale entre 1/5 et 5/5 avec une explication courte.
-
-CONTENU DES SCÉNARIOS
-Chaque scénario doit faire entre 150 et 250 mots.
-Présente dans cet ordre : 1. Mécanisme 2. Chronologie 3. Températures 4. Géographie 5. Précipitations/vent/orages 6. Principale incertitude 7. Confiance propre.
-
-POST LINKEDIN
-Texte brut de 220 à 320 mots, aucun markdown, pas de *, pas de # dans les titres, au maximum 5 hashtags à la fin.
+VÉRIFICATION AUTOMATIQUE SILENCIEUSE (AVANT DE RÉPONDRE) :
+Vérifie impérativement que :
+- Probabilités sum = 100%
+- Aucune phrase n'est copiée-collée entre sections
+- 0 donnée chiffrée inventée
+- Post LinkedIn fait entre 250 et 300 mots, sans aucun markdown
 
 FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ces balises :
 
 [SUBJECT_TITLE]
-Titre avec la semaine, les dates et la tendance principale.
+Titre exact avec la semaine, les dates et la tendance principale.
 
 [EXPRESS_SUMMARY]
-Résumé de 2 à 3 phrases maximum présentant la tendance générale.
+Résumé ultra-synthétique en 2 phrases de la tendance générale.
 
 [EXPRESS_TREND]
-Une phrase très courte résumant la tendance dominante.
+Tendance dominante en 5-8 mots.
 
 [EXPRESS_TEMPERATURES]
-Une phrase sur le niveau général des températures et leur évolution.
+Niveau général des températures en 5-8 mots.
 
 [EXPRESS_PRECIPITATIONS]
-Une phrase sur la répartition générale des pluies ou des orages.
+Répartition des pluies/orages en 5-8 mots.
 
 [EXPRESS_MAIN_RISK]
-Le phénomène météorologique principal à surveiller. Écrire « Aucun phénomène majeur identifié » si nécessaire.
-
-[REGIONAL_HDF_NORTH]
-Synthèse pour les Hauts-de-France et la moitié nord.
-
-[REGIONAL_ATLANTIC]
-Synthèse pour la façade atlantique.
-
-[REGIONAL_CENTRAL]
-Synthèse pour les régions centrales.
-
-[REGIONAL_SOUTH]
-Synthèse pour la moitié sud.
-
-[REGIONAL_MEDITERRANEAN]
-Synthèse pour le pourtour méditerranéen.
-
-[REGIONAL_MOUNTAINS]
-Synthèse pour les reliefs. Écrire « Pas de particularité notable » si aucune information spécifique n’est disponible.
+Phénomène principal à surveiller (ou « Aucun phénomène majeur »).
 
 [GLOBAL_CONFIDENCE_SCORE]
-Note comprise entre 1/5 et 5/5.
+Ex: 4/5
 
 [GLOBAL_CONFIDENCE_DESC]
-Explication courte de la note de confiance.
+Explication courte en une phrase du niveau de confiance.
+
+[REGIONAL_HDF_NORTH]
+Spécificités pour Hauts-de-France et Nord.
+
+[REGIONAL_ATLANTIC]
+Spécificités pour la Façade Atlantique.
+
+[REGIONAL_CENTRAL]
+Spécificités pour les Régions Centrales.
+
+[REGIONAL_SOUTH]
+Spécificités pour la Moitié Sud.
+
+[REGIONAL_MEDITERRANEAN]
+Spécificités pour le Pourtour Méditerranéen.
+
+[REGIONAL_MOUNTAINS]
+Spécificités pour les Reliefs (ou « Pas de particularité notable »).
 
 [SCENARIO_MAJORITAIRE_PROB]
-60%
+65%
 
 [SCENARIO_MAJORITAIRE_TITLE]
-Titre court et descriptif.
+Titre synoptique court.
 
 [SCENARIO_MAJORITAIRE_DESC]
-Description du scénario majoritaire entre 150 et 250 mots.
+Description détaillée (150-250 mots).
 
 [SCENARIO_MEDIAN_PROB]
-30%
+25%
 
 [SCENARIO_MEDIAN_TITLE]
-Titre court et descriptif.
+Titre synoptique court.
 
 [SCENARIO_MEDIAN_DESC]
-Description du scénario alternatif entre 150 et 250 mots.
+Description détaillée (150-250 mots).
 
 [SCENARIO_MINORITAIRE_PROB]
 10%
 
 [SCENARIO_MINORITAIRE_TITLE]
-Titre court et descriptif.
+Titre synoptique court.
 
 [SCENARIO_MINORITAIRE_DESC]
-Description du scénario minoritaire entre 150 et 250 mots.
+Description détaillée (150-250 mots).
 
 [KEY_UNCERTAINTIES]
 - Incertitude 1
 - Incertitude 2
-- Incertitude 3
 
 [MONITORING_POINTS]
 - Point de vigilance 1
 - Point de vigilance 2
 
 [LINKEDIN_POST]
-Post LinkedIn en texte brut de 220 à 320 mots.
+Post LinkedIn en texte brut de 250 à 300 mots.
 
 [LINKEDIN_HASHTAGS]
 #Meteo #Previsions #France #Climat #MonsieurMeteo"""
 
-    user_prompt = f"""Voici les 20 derniers messages des prévisionnistes à analyser :
+    user_prompt = f"""Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}
 
 {recent_messages_text}
 
-Analyse ces discussions en profondeur selon tes règles absolues et génère le rapport complet et le post LinkedIn."""
+Analyse ces discussions en appliquant scrupuleusement la vérification de cohérence et génère le rapport complet."""
 
     response = call_llm(system_prompt, user_prompt)
     
@@ -310,15 +299,15 @@ Analyse ces discussions en profondeur selon tes règles absolues et génère le 
                 "express_precipitations": r"\[EXPRESS_PRECIPITATIONS\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "express_main_risk": r"\[EXPRESS_MAIN_RISK\]\s*\n(.*?)(?=\n\s*\[|$)",
                 
+                "global_confidence_score": r"\[GLOBAL_CONFIDENCE_SCORE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "global_confidence_desc": r"\[GLOBAL_CONFIDENCE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+
                 "regional_hdf_north": r"\[REGIONAL_HDF_NORTH\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "regional_atlantic": r"\[REGIONAL_ATLANTIC\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "regional_central": r"\[REGIONAL_CENTRAL\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "regional_south": r"\[REGIONAL_SOUTH\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "regional_mediterranean": r"\[REGIONAL_MEDITERRANEAN\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "regional_mountains": r"\[REGIONAL_MOUNTAINS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "global_confidence_score": r"\[GLOBAL_CONFIDENCE_SCORE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "global_confidence_desc": r"\[GLOBAL_CONFIDENCE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
                 
                 "majoritaire_prob": r"\[SCENARIO_MAJORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "majoritaire_title": r"\[SCENARIO_MAJORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
@@ -357,6 +346,10 @@ Analyse ces discussions en profondeur selon tes règles absolues et génère le 
                         "precipitations": parsed["express_precipitations"],
                         "main_risk": parsed["express_main_risk"],
                     },
+                    "confidence": {
+                        "score": parsed["global_confidence_score"] or "4/5",
+                        "desc": parsed["global_confidence_desc"],
+                    },
                     "regional": {
                         "hdf_north": parsed["regional_hdf_north"],
                         "atlantic": parsed["regional_atlantic"],
@@ -365,12 +358,8 @@ Analyse ces discussions en profondeur selon tes règles absolues et génère le 
                         "mediterranean": parsed["regional_mediterranean"],
                         "mountains": parsed["regional_mountains"],
                     },
-                    "confidence": {
-                        "score": parsed["global_confidence_score"] or "4/5",
-                        "desc": parsed["global_confidence_desc"],
-                    },
                     "scenarios": {
-                        "majoritaire": {"prob": parsed["majoritaire_prob"] or "60%", "title": parsed["majoritaire_title"] or "Scénario Principal", "desc": parsed["majoritaire_desc"]},
+                        "majoritaire": {"prob": parsed["majoritaire_prob"] or "60%", "title": parsed["majoritaire_title"] or "Scénario Majoritaire", "desc": parsed["majoritaire_desc"]},
                         "median": {"prob": parsed["median_prob"] or "30%", "title": parsed["median_title"] or "Scénario Alternatif", "desc": parsed["median_desc"]},
                         "minoritaire": {"prob": parsed["minoritaire_prob"] or "10%", "title": parsed["minoritaire_title"] or "Scénario Minoritaire", "desc": parsed["minoritaire_desc"]}
                     },
@@ -430,49 +419,58 @@ def main():
         print("Aucun sujet n'a pu être traité.")
         sys.exit(1)
         
-    # Génération du HTML combiné pour les deux semaines
+    # Génération du HTML combiné pour les deux semaines avec hiérarchie visuelle premium
     style = """
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #1e293b; background-color: #f8fafc; margin: 0; padding: 20px; }
-    .container { max-width: 850px; background-color: #ffffff; margin: 0 auto; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08); border: 1px solid #e2e8f0; }
-    .header { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #2563eb 100%); color: #ffffff; padding: 35px; text-align: center; }
-    .header h1 { margin: 0; font-size: 26px; font-weight: 800; letter-spacing: 0.5px; }
-    .header p { margin: 8px 0 0 0; font-size: 14px; opacity: 0.9; }
-    .content { padding: 35px; }
-    .week-divider { border-top: 3px dashed #cbd5e1; margin: 50px 0; }
-    .week-header { font-size: 22px; font-weight: 800; color: #1e3a8a; margin-bottom: 25px; padding-left: 12px; border-left: 6px solid #2563eb; text-transform: uppercase; }
-    .section-title { font-size: 14px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #475569; margin-top: 30px; margin-bottom: 14px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f1f5f9; margin: 0; padding: 25px 15px; }
+    .container { max-width: 880px; background-color: #ffffff; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.09); border: 1px solid #cbd5e1; }
+    .header { background: linear-gradient(135deg, #0284c7 0%, #1e3a8a 60%, #0f172a 100%); color: #ffffff; padding: 40px 30px; text-align: center; }
+    .header-badge { display: inline-block; background: rgba(255, 255, 255, 0.18); backdrop-filter: blur(10px); padding: 4px 14px; border-radius: 30px; font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+    .header h1 { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+    .header p { margin: 10px 0 0 0; font-size: 14px; opacity: 0.92; }
+    .content { padding: 35px 30px; }
+    .week-divider { border-top: 3px dashed #94a3b8; margin: 55px 0; }
+    .week-header { font-size: 23px; font-weight: 800; color: #1e3a8a; margin-bottom: 25px; padding-left: 14px; border-left: 6px solid #0284c7; text-transform: uppercase; letter-spacing: 0.5px; }
+    .section-title { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; color: #475569; margin-top: 35px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
     
-    /* Résumé Express */
-    .express-box { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-radius: 14px; padding: 22px; margin-bottom: 25px; border: 1px solid #bfdbfe; }
-    .express-summary-text { font-size: 15px; font-weight: 600; color: #1e40af; margin-bottom: 15px; line-height: 1.6; }
-    .express-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .express-item { background: #ffffff; border-radius: 8px; padding: 10px 14px; font-size: 13px; border: 1px solid #dbeafe; }
-    .express-item strong { color: #1e3a8a; display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
+    /* 1. HERO RESUME EXPRESS */
+    .hero-express { background: linear-gradient(135deg, #0284c7 0%, #1e40af 100%); color: #ffffff; border-radius: 16px; padding: 26px; margin-bottom: 30px; box-shadow: 0 10px 20px -5px rgba(2, 132, 199, 0.3); position: relative; }
+    .hero-title { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; opacity: 0.85; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
+    .hero-summary { font-size: 17px; font-weight: 700; line-height: 1.5; margin-bottom: 20px; }
+    .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .hero-card { background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(8px); border-radius: 10px; padding: 12px 14px; border: 1px solid rgba(255, 255, 255, 0.2); }
+    .hero-card label { display: block; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.8; margin-bottom: 3px; }
+    .hero-card span { font-size: 13px; font-weight: 600; }
+    .hero-badge-conf { background: #10b981; color: #ffffff; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.15); }
     
-    /* Régions */
-    .regional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 25px; }
-    .regional-card { background: #f8fafc; border-radius: 10px; padding: 14px; border: 1px solid #e2e8f0; }
-    .regional-card strong { color: #0f172a; font-size: 13px; display: block; margin-bottom: 4px; }
-    .regional-card p { margin: 0; font-size: 13px; color: #475569; line-height: 1.5; }
+    /* 2. REGIONS */
+    .regional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 30px; }
+    .regional-card { background: #ffffff; border-radius: 12px; padding: 16px; border: 1px solid #e2e8f0; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+    .regional-card strong { color: #0f172a; font-size: 13px; display: block; margin-bottom: 6px; }
+    .regional-card p { margin: 0; font-size: 13px; color: #475569; line-height: 1.55; }
     
-    /* Confiance & Incertitudes */
-    .confidence-box { background: #f0fdf4; border-radius: 10px; padding: 16px; border: 1px solid #bbf7d0; margin-bottom: 20px; display: flex; align-items: center; justify-content: space-between; }
-    .confidence-score { font-size: 22px; font-weight: 800; color: #166534; background: #dcfce7; padding: 4px 14px; border-radius: 20px; }
+    /* 3. CONFIANCE & INCERTITUDES */
+    .confidence-panel { background: #f8fafc; border-radius: 14px; padding: 20px; border: 1px solid #e2e8f0; margin-bottom: 30px; }
+    .confidence-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .confidence-head strong { font-size: 14px; color: #0f172a; }
+    .confidence-desc { font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 14px; }
+    .uncertainties-box { background: #ffffff; border-radius: 10px; padding: 14px; border-left: 4px solid #f59e0b; border: 1px solid #fef3c7; border-left-width: 4px; font-size: 13px; color: #334155; line-height: 1.55; }
     
-    /* Scénarios */
-    .scenario-card { border-radius: 12px; padding: 20px; margin-bottom: 16px; border: 1px solid #e2e8f0; }
-    .sc-major { background-color: #ecfdf5; border-left: 6px solid #10b981; }
-    .sc-median { background-color: #fffbeb; border-left: 6px solid #f59e0b; }
-    .sc-minor { background-color: #fef2f2; border-left: 6px solid #ef4444; }
-    .sc-title { font-size: 16px; font-weight: 700; color: #1e293b; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-    .sc-prob { font-size: 13px; padding: 3px 10px; border-radius: 20px; color: #ffffff; font-weight: 700; }
+    /* 4. SCENARIOS */
+    .scenario-card { border-radius: 14px; padding: 22px; margin-bottom: 18px; border: 1px solid #e2e8f0; background: #ffffff; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
+    .sc-major { border-left: 6px solid #10b981; }
+    .sc-median { border-left: 6px solid #f59e0b; }
+    .sc-minor { border-left: 6px solid #ef4444; }
+    .sc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .sc-header h3 { margin: 0; font-size: 16px; font-weight: 800; color: #0f172a; }
+    .sc-prob { font-size: 13px; padding: 3px 12px; border-radius: 20px; color: #ffffff; font-weight: 800; }
     .bg-major { background-color: #10b981; }
     .bg-median { background-color: #f59e0b; }
     .bg-minor { background-color: #ef4444; }
+    .sc-text { margin: 0; font-size: 13px; line-height: 1.65; color: #334155; text-align: justify; }
     
-    /* Social Box */
-    .social-box { background-color: #f8fafc; border: 1px dashed #2563eb; padding: 20px; border-radius: 12px; font-family: monospace; font-size: 13px; white-space: pre-wrap; color: #1e293b; margin-bottom: 25px; line-height: 1.6; border-left: 5px solid #2563eb; }
-    .hashtags { font-size: 13px; font-weight: 700; color: #2563eb; margin-top: 10px; }
+    /* 5. LINKEDIN */
+    .linkedin-box { background-color: #ffffff; border: 2px dashed #0284c7; padding: 22px; border-radius: 14px; font-family: monospace; font-size: 13px; white-space: pre-wrap; color: #0f172a; margin-bottom: 25px; line-height: 1.65; border-left: 6px solid #0284c7; }
+    .hashtags { font-size: 13px; font-weight: 700; color: #0284c7; margin-top: 12px; }
     """
 
     weeks_html = ""
@@ -488,8 +486,8 @@ def main():
                     img_b64 = base64.b64encode(f_img.read()).decode('ascii')
                 ext = img_path.split('.')[-1]
                 html_images_block += f"""
-                <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px; text-align: center; display: inline-block; width: 45%; margin-right: 3%; margin-bottom: 15px; vertical-align: top; box-shadow: 0 2px 4px rgba(0,0,0,0.04);">
-                    <span style="font-weight: bold; font-size: 11px; color: #475569; display: block; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">📈 Graphique Candidat {idx+1}</span>
+                <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px; text-align: center; display: inline-block; width: 45%; margin-right: 3%; margin-bottom: 15px; vertical-align: top; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+                    <span style="font-weight: 800; font-size: 11px; color: #475569; display: block; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">📈 Modélisation Candidate {idx+1}</span>
                     <img src="data:image/{ext};base64,{img_b64}" style="width: 100%; border-radius: 6px;" alt="Graphique Météo {idx+1}">
                 </div>
                 """
@@ -498,7 +496,7 @@ def main():
         
         if html_images_block:
             html_images_block = f"""
-            <div class="section-title">📊 GRAPHIQUES METEO ASSOCIES</div>
+            <div class="section-title">📊 MODÉLISATIONS & GRAPHIQUES DE TENDANCE</div>
             <div style="text-align: left;">{html_images_block}</div>
             """
 
@@ -515,21 +513,25 @@ def main():
         {divider}
         <div class="week-header">📅 {data['subject_title']}</div>
         
-        <!-- 1. RESUME EXPRESS (15 SECONDES) -->
-        <div class="express-box">
-            <div class="express-summary-text">⚡ EN 15 SECONDES : {express.get('summary', '')}</div>
-            <div class="express-grid">
-                <div class="express-item"><strong>🌤️ Tendance Dominante</strong>{express.get('trend', '')}</div>
-                <div class="express-item"><strong>🌡️ Températures</strong>{express.get('temperatures', '')}</div>
-                <div class="express-item"><strong>🌧️ Précipitations</strong>{express.get('precipitations', '')}</div>
-                <div class="express-item"><strong>⚠️ Risque Principal</strong>{express.get('main_risk', 'Aucun phénomène majeur')}</div>
+        <!-- 1. HERO RESUME EXPRESS (15 SECONDES) -->
+        <div class="hero-express">
+            <div class="hero-title">
+                <span>⚡ EN 15 SECONDES : RESUMÉ EXPRESS</span>
+                <span class="hero-badge-conf">Confiance : {conf.get('score', '4/5')}</span>
+            </div>
+            <div class="hero-summary">{express.get('summary', '')}</div>
+            <div class="hero-grid">
+                <div class="hero-card"><label>🌤️ Temps Dominant</label><span>{express.get('trend', '-')}</span></div>
+                <div class="hero-card"><label>🌡️ Températures</label><span>{express.get('temperatures', '-')}</span></div>
+                <div class="hero-card"><label>🌧️ Précipitations</label><span>{express.get('precipitations', '-')}</span></div>
+                <div class="hero-card"><label>⚠️ Risque Principal</label><span>{express.get('main_risk', 'Aucun risque majeur')}</span></div>
             </div>
         </div>
 
         <!-- 2. GRAPHIQUES METEO -->
         {html_images_block}
 
-        <!-- 3. SYNTHESE REGIONALE -->
+        <!-- 3. SYNTHESE PAR REGIONS -->
         <div class="section-title">🗺️ SYNTHÈSE PAR GRANDES RÉGIONS</div>
         <div class="regional-grid">
             <div class="regional-card"><strong>📍 Hauts-de-France & Nord</strong><p>{regional.get('hdf_north', '-')}</p></div>
@@ -537,54 +539,53 @@ def main():
             <div class="regional-card"><strong>🏙️ Régions Centrales</strong><p>{regional.get('central', '-')}</p></div>
             <div class="regional-card"><strong>☀️ Moitié Sud</strong><p>{regional.get('south', '-')}</p></div>
             <div class="regional-card"><strong>🏖️ Pourtour Méditerranéen</strong><p>{regional.get('mediterranean', '-')}</p></div>
-            <div class="regional-card"><strong>⛰️ Reliefs & Montagnes</strong><p>{regional.get('mountains', 'Pas de particularité notable')}</p></div>
+            <div class="regional-card"><strong>⛰️ Reliefs & Montagnes</strong><p>{regional.get('mountains', 'Pas de particularité remarquable')}</p></div>
         </div>
 
-        <!-- 4. INDICE DE CONFIANCE & INCERTITUDES -->
-        <div class="section-title">🎯 CONFIANCE & INCERTITUDES</div>
-        <div class="confidence-box">
-            <div>
-                <strong style="color: #166534; font-size: 14px; display: block;">Indice de Confiance Global</strong>
-                <span style="font-size: 13px; color: #374151;">{conf.get('desc', '')}</span>
+        <!-- 4. CONFIANCE & INCERTITUDES -->
+        <div class="section-title">🎯 CONFIANCE ET INCERTITUDES RESTANTES</div>
+        <div class="confidence-panel">
+            <div class="confidence-head">
+                <strong>Analyse de la Fiabilité Globale</strong>
+                <span style="font-weight: 800; color: #0284c7;">Note : {conf.get('score', '4/5')}</span>
             </div>
-            <div class="confidence-score">{conf.get('score', '4/5')}</div>
-        </div>
-        
-        <div style="background: #f8fafc; border-radius: 10px; padding: 16px; border: 1px solid #e2e8f0; margin-bottom: 25px;">
-            <strong style="color: #334155; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">❓ Principales Incertitudes & Points à Surveiller :</strong>
-            <div style="font-size: 13px; color: #475569; line-height: 1.5; white-space: pre-wrap;">{data.get('key_uncertainties', '')}\n\n<strong>Points de vigilance :</strong>\n{data.get('monitoring_points', '')}</div>
+            <div class="confidence-desc">{conf.get('desc', '')}</div>
+            <div class="uncertainties-box">
+                <strong style="display: block; margin-bottom: 4px; color: #d97706; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes Majeures & Points à Surveiller :</strong>
+                {data.get('key_uncertainties', '')}\n{data.get('monitoring_points', '')}
+            </div>
         </div>
 
         <!-- 5. LES 3 SCENARIOS -->
-        <div class="section-title">🔮 LES 3 SCÉNARIOS MÉTÉOROLOGIQUES</div>
+        <div class="section-title">🔮 LES 3 SCÉNARIOS ATMOSPHÉRIQUES DÉTAILLÉS</div>
         
         <div class="scenario-card sc-major">
-            <div class="sc-title">
-                <span>🟢 {scenarios.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</span>
+            <div class="sc-header">
+                <h3>🟢 {scenarios.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h3>
                 <span class="sc-prob bg-major">{scenarios.get('majoritaire', {}).get('prob', '60%')}</span>
             </div>
-            <p style="margin: 0; font-size: 13px; line-height: 1.6; text-align: justify; color: #334155;">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
+            <p class="sc-text">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
         </div>
         
         <div class="scenario-card sc-median">
-            <div class="sc-title">
-                <span>🟡 {scenarios.get('median', {}).get('title', 'Scénario Alternatif')}</span>
+            <div class="sc-header">
+                <h3>🟡 {scenarios.get('median', {}).get('title', 'Scénario Alternatif')}</h3>
                 <span class="sc-prob bg-median">{scenarios.get('median', {}).get('prob', '30%')}</span>
             </div>
-            <p style="margin: 0; font-size: 13px; line-height: 1.6; text-align: justify; color: #334155;">{scenarios.get('median', {}).get('desc', '')}</p>
+            <p class="sc-text">{scenarios.get('median', {}).get('desc', '')}</p>
         </div>
         
         <div class="scenario-card sc-minor">
-            <div class="sc-title">
-                <span>🔴 {scenarios.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</span>
+            <div class="sc-header">
+                <h3>🔴 {scenarios.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h3>
                 <span class="sc-prob bg-minor">{scenarios.get('minoritaire', {}).get('prob', '10%')}</span>
             </div>
-            <p style="margin: 0; font-size: 13px; line-height: 1.6; text-align: justify; color: #334155;">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
+            <p class="sc-text">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
         </div>
 
-        <!-- 6. POST LINKEDIN -->
-        <div class="section-title">📰 POST LINKEDIN PROFESSIONNEL (PRÊT À PUBLIER)</div>
-        <div class="social-box">
+        <!-- 6. LINKEDIN -->
+        <div class="section-title">📰 POST LINKEDIN PROFESSIONNEL (PRÊT À PUBLIER - 250-300 MOTS)</div>
+        <div class="linkedin-box">
 {linkedin_post_clean}
 
 <div class="hashtags">{hashtags_clean}</div>
