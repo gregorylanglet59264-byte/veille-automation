@@ -279,12 +279,13 @@ def build_ia_report(date_str):
     system_prompt = (
         "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
         "RÈGLE ABSOLUE N°1 : Ne conserver QUE des nouveautés publiées depuis MOINS DE 48 HEURES.\n"
+        "RÈGLE CRITIQUE DE TRADUCTION : Si un titre, un outil ou une description d'origine est en anglais, TRADUIS-LE IMPÉRATIVEMENT EN FRANÇAIS. Rien ne doit rester en anglais.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 15 actualités/outils majeurs.\n"
-        "Pour chaque élément, fournis un titre, l'outil/modèle concerné, sa description technique succincte, son URL et une note d'intérêt éditorial /10.\n"
+        "Pour chaque élément, fournis un titre en français, l'outil/modèle concerné, sa description technique succincte en français, son URL d'origine et une note d'intérêt éditorial /10.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url' de l'article source choisi. N'invente pas d'URL, ne la modifie pas.\n"
         "Format de sortie attendu : JSON uniquement avec la structure suivante (sans blocs ```json) :\n"
         "[\n"
-        "  {\"title\": \"...\", \"tool\": \"...\", \"summary\": \"...\", \"url\": \"...\", \"score\": 8.5},\n"
+        "  {\"title\": \"... (en français)\", \"tool\": \"...\", \"summary\": \"... (en français)\", \"url\": \"...\", \"score\": 8.5},\n"
         "  ...\n"
         "]"
     )
@@ -298,13 +299,14 @@ def build_meteo_report(date_str):
     system_prompt = (
         "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
         "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 48 HEURES.\n"
+        "RÈGLE CRITIQUE DE TRADUCTION : Si une source est en anglais, TRADUIS IMPÉRATIVEMENT le titre et le résumé en français.\n"
         "RÈGLE CRITIQUE : Tu DOIS lister jusqu'à 15 actualités/vigilances/records liés à la météo ou au climat.\n"
         "EXCLURE : les articles sans rapport avec la météo ou le climat.\n"
-        "Pour chaque élément, fournis un titre, la zone géographique, le phénomène concerné, sa description détaillée et son URL source.\n"
+        "Pour chaque élément, fournis un titre en français, la zone géographique, le phénomène concerné, sa description détaillée en français et son URL source.\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
         "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "[\n"
-        "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "  {\"title\": \"... (en français)\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"... (en français)\", \"url\": \"...\"},\n"
         "  ...\n"
         "]"
     )
@@ -318,12 +320,13 @@ def build_intemperies_report(date_str):
     system_prompt = (
         "Tu es un expert en risques naturels et météorologiques. Ton rôle est de lister les événements d'intempéries et d'activité cyclonique clés.\n"
         "RÈGLE ABSOLUE N°1 : Ne conserver QUE des événements publiés depuis MOINS DE 48 HEURES.\n"
+        "RÈGLE CRITIQUE DE TRADUCTION : Si une source est en anglais, TRADUIS IMPÉRATIVEMENT le titre et le résumé en français.\n"
         "RÈGLE CRITIQUE : Ne retenir QUE les articles parlant d'intempéries (orages, inondations, cyclones, tempêtes, grêle, tornade, canicule, etc.). EXCLURE tout article sans rapport avec les intempéries.\n"
-        "Pour chaque élément, fournis un titre, la zone concernée (location), le phénomène (phenomenon), une courte description (summary) et son URL source (url).\n"
+        "Pour chaque élément, fournis un titre en français, la zone concernée (location), le phénomène (phenomenon), une courte description en français (summary) et son URL source (url).\n"
         "RÈGLE CRITIQUE POUR L'URL : Tu DOIS copier-coller EXACTEMENT sans modification la valeur de la clé 'url'. N'invente pas d'URL.\n"
         "Format de sortie attendu : JSON uniquement (sans blocs ```json) :\n"
         "[\n"
-        "  {\"title\": \"...\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"...\", \"url\": \"...\"},\n"
+        "  {\"title\": \"... (en français)\", \"location\": \"...\", \"phenomenon\": \"...\", \"summary\": \"... (en français)\", \"url\": \"...\"},\n"
         "  ...\n"
         "]"
     )
@@ -339,12 +342,13 @@ def build_bonsplans_report(date_str):
     system_prompt = (
         "Tu es un expert veille IA et Tech. Ton rôle est de repérer UNIQUEMENT les bons plans liés à l'intelligence artificielle.\n"
         "RÈGLE ABSOLUE : Ne retenir QUE les articles concernant l'IA : nouveaux abonnements ChatGPT/Claude/Gemini, nouveaux outils IA gratuits, lancements de modèles, nouveaux sites IA, offres d'essai gratuit, open source IA.\n"
+        "RÈGLE CRITIQUE DE TRADUCTION : Si l'article ou l'outil d'origine vient d'une source anglophone (ProductHunt, TechCrunch...), TRADUIS IMPÉRATIVEMENT le titre (title) et le résumé (summary) EN FRANÇAIS IMPECCABLE.\n"
         "EXCLURE impérativement : électroménager, vêtements, jeux vidéo, voyages, et tout ce qui n'est pas lié à l'IA ou au Tech.\n"
         "RÈGLE CRITIQUE : Lister jusqu'à 10 bons plans. Si peu d'articles correspondent, ne liste que ceux qui sont vraiment liés à l'IA.\n"
-        "Pour chaque bon plan : titre (title), outil/service IA (tool), type (offer_type : 'Gratuit', 'Nouveau lancement', 'Open Source', 'Promo abonnement', 'Essai gratuit'...), description courte (summary), URL (url).\n"
+        "Pour chaque bon plan : titre en français (title), outil/service IA (tool), type en français (offer_type : 'Gratuit', 'Nouveau lancement', 'Open Source', 'Promo abonnement', 'Essai gratuit'...), description courte en français (summary), URL (url).\n"
         "RÈGLE URL : copier-coller EXACTEMENT la valeur 'url' sans modification. N'invente pas d'URL.\n"
         "Format JSON uniquement (sans ```json) :\n"
-        "[{\"title\": \"...\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"...\", \"url\": \"...\"},...]\n"
+        "[{\"title\": \"... (en français)\", \"tool\": \"...\", \"offer_type\": \"...\", \"summary\": \"... (en français)\", \"url\": \"...\"},...]\n"
     )
     user_prompt = f"Articles récoltés pour le {date_str} :\n{json.dumps(raw_articles, ensure_ascii=False)}"
     return llm_parse_json(system_prompt, user_prompt, label="build_bonsplans_report")
