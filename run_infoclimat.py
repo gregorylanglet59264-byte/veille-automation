@@ -67,7 +67,7 @@ def call_llm(system_prompt, user_prompt, max_retries=3):
     return None
 
 
-def process_topic(target_topic, topic_idx):
+def process_topic(target_topic, topic_idx, date_context_str):
     # Extraire et décoder un titre propre du sujet à partir de l'URL
     import urllib.parse
     decoded_topic = urllib.parse.unquote(target_topic)
@@ -151,66 +151,71 @@ def process_topic(target_topic, topic_idx):
         except Exception as e:
             print(f"Erreur téléchargement graphique {idx+1} : {e}")
 
-    # Appeler l'IA pour l'analyse des scénarios et la rédaction du post LinkedIn
+    # Appeler l'IA pour l'analyse des scénarios et la rédaction du pack réseaux sociaux
     print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse des scénarios météo...")
     system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
-À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique professionnel, grand public, hyper-visuel, pédagogique et directement publiable sans retouche.
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique professionnel, grand public, hyper-visuel, pédagogique et directement exploitable sur le web et les réseaux sociaux sans aucune modification manuelle.
 
 RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
-Dans TOUTES les sections (Résumé, Chronologie, Régions, Scénarios, Incertitudes, À Retenir, Post LinkedIn), tu dois OBLIGATOIREMENT mentionner les jours précis associés à leurs dates exactes (ex: Lundi 20 juillet, Mardi 21 juillet, Mercredi 22 juillet, Jeudi 23 juillet, Vendredi 24 juillet, Samedi 25 juillet, Dimanche 26 juillet). Ne dis plus jamais "début de semaine" ou "week-end" sans associer la date exacte.
+Dans TOUTES les sections (Résumé, Chronologie, Régions, Scénarios, Incertitudes, À Retenir, Posts Sociaux), tu devez mentionner les jours précis associés à leurs dates exactes (ex: Lundi 20 juillet, Mardi 21 juillet, Mercredi 22 juillet, Jeudi 23 juillet, Vendredi 24 juillet, Samedi 25 juillet, Dimanche 26 juillet). Ne dis plus jamais "début de semaine" ou "week-end" sans les associer directement à leur date.
 
-RÈGLE D'OR N°2 : PÉDAGOGIE SCIENTIFIQUE & VULGARISATION EXPERT
-Explique avec clarté le mécanisme synoptique sous-jacent (ex: goutte froide, dorsale anticyclonique, talweg, marais barométrique, flux océanique) en une phrase simple et élégante accessible à tous pour affirmer notre expertise d'expert météo.
+RÈGLE D'OR N°2 : INTÉGRATION DE LA DATE DE GÉNÉRATION & PÉRIODE PERTINENTE
+- Analyse avec attention la "Date actuelle de génération" transmise dans l'invite.
+- Si le sujet correspond à la "Semaine en cours" : toute journée précédant cette date est déjà passée. Les prévisions doivent se concentrer EXCLUSIVEMENT sur la période allant de la date de génération au dimanche de cette semaine. Ignore ou mentionne comme "déjà écoulées" les journées passées.
+- Si le sujet correspond à la "Semaine suivante" (Semaine future) : c'est la véritable semaine de tendance à moyen terme. Rédige les prévisions complètes jour par jour, du lundi au dimanche.
 
-RÈGLE D'OR N°3 : IMPACTS CONCRETS SUR LE QUOTIDIEN
-Mentionne systématiquement les conséquences pratiques du temps prévu : confort thermique/ressenti, vacances et activités extérieures, transports/déplacements, travaux agricoles/BTP, risque d'orages ou pluies utiles.
+RÈGLE D'OR N°3 : PÉDAGOGIE SYNOPTIQUE VULGARISÉE
+Explique de manière simple et pédagogique le mécanisme synoptique sous-jacent (goutte froide, dorsale anticyclonique, talweg, marais barométrique, flux océanique) en une phrase fluide pour montrer notre expertise météorologique sans perdre le grand public.
 
-RÈGLE D me D'OR N°4 : DIFFÉRENCIATION DES SCÉNARIOS & RAISON DU CHOIX
-Indique clairement POURQUOI le Scénario Majoritaire est privilégié par rapport aux autres (ex: "Privilégié à 65% par la majorité des modèles d'ensemble GFS/ECMWF en raison de la stabilité du blocage anticyclonique").
-- Majoritaire : ~130 à 150 mots max.
-- Alternatifs : 80 à 120 mots max chacun.
+RÈGLE D'OR N°4 : IMPACTS CONCRETS SUR LA VIE QUOTIDIENNE
+Mentionne systématiquement les répercussions pratiques du temps prévu : confort/ressenti thermique (chaleur lourde, fraîcheur humide), vacances et activités extérieures, transports/déplacements, travaux agricoles/BTP, orages ou pluies bénéfiques.
 
-RÈGLE D'OR N°5 : POST LINKEDIN RÉSEAUX SOCIAUX & SMARTPHONE (<300 mots)
-- Conçu comme un VÉRITABLE post réseaux sociaux viral et engageant.
-- Accroche percutante dès la toute première phrase.
-- Paragraphes TRÈS COURTS (1 à 2 lignes max) pour une lecture fluide sur smartphone.
-- Émojis pertinents et visuels (🌤️, 🌡️, ⚡, 🏖️, 🚜).
-- Storytelling météo captivant avec dates exactes et vulgarisation simple.
-- Conclusion incitant naturellement les abonnés à commenter ou partager leur avis.
-- Texte brut uniquement (0 markdown, pas de *, pas de # dans le corps).
+RÈGLE D'OR N°5 : CALIBRAGE DES SCÉNARIOS & RAISON DU CHOIX
+Indique précisément POURQUOI le Scénario Majoritaire est privilégié par rapport aux deux autres.
+- Majoritaire : ~130 à 150 mots maximum.
+- Alternatif & Minoritaire : 80 à 120 mots maximum chacun.
+
+RÈGLE D'OR N°6 : PACK MULTI-RÉSEAUX SOCIAUX CONÇU POUR MOBILES
+Rédige 5 publications distinctes, spécifiquement adaptées à l'audience, au style et aux limites de caractères de chaque plateforme :
+- **LinkedIn** : Storytelling expert météo captivant, ton pro et pédagogique. Paragraphes courts, émojis et hashtags ciblés. (250-300 mots)
+- **Facebook** : Message chaleureux, axé vie quotidienne et communauté. Paragraphes aérés, émojis.
+- **X (Twitter)** : Post court, percutant et dynamique. Limite stricte de 280 caractères, hashtags inclus.
+- **TikTok** : Description de vidéo dynamique, phrases courtes, appel à l'action visuel et hashtags tendance.
+- **Instagram** : Légende soignée, esthétique, invitant à la contemplation ou à la préparation, avec un appel à l'action pour lire le rapport HTML complet en bio.
 
 VÉRIFICATION QUALITÉ AUTOMATIQUE SILENCIEUSE (AVANT D'ÉMETTRE) :
 Effectue un contrôle qualité automatique et silencieux :
 1. Les probabilités des 3 scénarios totalisent-elles EXACTEMENT 100% ?
-2. Toutes les sections contiennent-elles les jours et dates exactes ?
-3. Le texte est-il 100% fluide, varié et sans répétitions entre sections ?
-4. Aucune donnée chiffrée n'a-t-elle été inventée ?
-5. Le post LinkedIn est-il en paragraphes très courts sans aucun markdown ?
+2. Les jours passés pour la semaine en cours ont-ils bien été exclus des prévisions à venir ?
+3. Le post X (Twitter) fait-il moins de 280 caractères ?
+4. Toutes les dates et jours correspondent-ils à la semaine analysée ?
+5. Aucune donnée chiffrée n'a-t-elle été inventée ?
+6. Le post LinkedIn est-il en paragraphes très courts sans aucun markdown ?
 
 FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ces balises :
 
 [SUBJECT_TITLE_LINE1]
-Semaine 30 - Du Lundi 20 au Dimanche 26 Juillet 2026
+Semaine X - Du Lundi DD au Dimanche DD Mois AAAA
 
 [SUBJECT_TITLE_LINE2]
-Accroche météo courte résumant le temps de la semaine avec dates
+Accroche météo courte résumant le temps de la semaine avec dates exactes
 
 [EXPRESS_SUMMARY]
 2 phrases ultra-concises allant à l'essentiel avec les jours et dates précis (ex: Du Lundi 20 au Mercredi 22 juillet, temps sec et chaud...).
 
 [EXPRESS_TREND]
-1 à 3 mots max (ex: Sec & Chaud)
+1 à 3 mots max
 
 [EXPRESS_TEMPERATURES]
-1 à 3 mots max (ex: En Hausse)
+1 à 3 mots max
 
 [EXPRESS_PRECIPITATIONS]
-1 à 3 mots max (ex: Orages Isoles)
+1 à 3 mots max
 
 [EXPRESS_MAIN_RISK]
-1 à 3 mots max (ex: Aucun)
+1 à 3 mots max
 
 [GLOBAL_CONFIDENCE_SCORE]
 4/5 (ou 3/5, 5/5)
@@ -219,65 +224,65 @@ Accroche météo courte résumant le temps de la semaine avec dates
 Une phrase courte expliquant la raison du niveau de confiance.
 
 [TIMELINE_EARLY_WEEK]
-Lundi 20 & Mardi 21 Juillet : Temps prévu, températures, mécanisme vulgarisé et impacts concrets.
+Jours exacts : Prévisions, mécanisme synoptique vulgarisé et impacts concrets.
 
 [TIMELINE_MID_WEEK]
-Mercredi 22 & Jeudi 23 Juillet : Évolution chronologique, ressenti et activités.
+Jours exacts : Évolution chronologique, ressenti et activités.
 
 [TIMELINE_LATE_WEEK]
-Vendredi 24 Juillet : Tendance pour la fin de semaine et vigilance éventuelle.
+Jours exacts : Tendance pour la fin de semaine et vigilance.
 
 [TIMELINE_WEEKEND]
-Samedi 25 & Dimanche 26 Juillet : Prévisions pour le week-end et loisirs d'extérieur.
+Jours exacts : Prévisions pour le week-end et loisirs extérieurs.
 
 [REGIONAL_HDF_NORTH]
-1-2 phrases avec jours/dates pour Hauts-de-France & Nord.
+1-2 phrases pour Hauts-de-France & Nord.
 
 [REGIONAL_ATLANTIC]
-1-2 phrases avec jours/dates pour la Façade Atlantique.
+1-2 phrases pour Façade Atlantique.
 
 [REGIONAL_CENTRAL]
-1-2 phrases avec jours/dates pour les Régions Centrales.
+1-2 phrases pour Régions Centrales.
 
 [REGIONAL_SOUTH]
-1-2 phrases avec jours/dates pour la Moitié Sud.
+1-2 phrases pour Moitié Sud.
 
 [REGIONAL_MEDITERRANEAN]
-1-2 phrases avec jours/dates pour le Pourtour Méditerranéen.
+1-2 phrases pour Pourtour Méditerranéen.
 
 [REGIONAL_MOUNTAINS]
-1-2 phrases avec jours/dates pour les Reliefs.
+1-2 phrases pour Reliefs.
 
 [SCENARIO_MAJORITAIRE_PROB]
 65%
 
 [SCENARIO_MAJORITAIRE_TITLE]
-Titre synoptique court mentionnant le mécanisme et les dates.
+Titre synoptique court
 
 [SCENARIO_MAJORITAIRE_DESC]
-Description concise (~130-150 mots) avec dates précises, raison du privilège par rapport aux autres scénarios, mécanisme vulgarisé et impacts pratiques.
+Description concise (~130-150 mots)
 
 [SCENARIO_MEDIAN_PROB]
 25%
 
 [SCENARIO_MEDIAN_TITLE]
-Titre synoptique court.
+Titre synoptique court
 
 [SCENARIO_MEDIAN_DESC]
-Description concise (80-120 mots) avec dates précises et nuance synoptique principale.
+Description concise (80-120 mots)
 
 [SCENARIO_MINORITAIRE_PROB]
 10%
 
 [SCENARIO_MINORITAIRE_TITLE]
-Titre synoptique court.
+Titre synoptique court
 
 [SCENARIO_MINORITAIRE_DESC]
-Description concise (80-120 mots) avec dates précises et scénario alternatif.
+Description concise (80-120 mots)
 
 [KEY_UNCERTAINTIES]
-- Incertitude 1 (avec jours précis)
-- Incertitude 2 (avec jours précis)
+- Incertitude 1
+- Incertitude 2
 
 [MONITORING_POINTS]
 - Point de vigilance 1
@@ -289,13 +294,27 @@ Description concise (80-120 mots) avec dates précises et scénario alternatif.
 - Puce essentielle 3 avec date
 - Puce essentielle 4 avec impact concret
 
-[LINKEDIN_POST]
+[SOCIAL_LINKEDIN]
 Post LinkedIn réseaux sociaux captivant en texte brut (250-300 mots) aéré en paragraphes très courts pour smartphone avec dates exactes et question d'interaction finale.
+
+[SOCIAL_FACEBOOK]
+Post Facebook chaleureux et aéré pour grand public, avec émojis et dates exactes.
+
+[SOCIAL_TWITTER]
+Post X (Twitter) percutant et court (MAXIMUM 280 caractères, espaces compris) avec hashtags.
+
+[SOCIAL_TIKTOK]
+Description TikTok avec accroches, émojis et hashtags ciblés.
+
+[SOCIAL_INSTAGRAM]
+Légende Instagram soignée et esthétique avec appel à l'action pour bio.
 
 [LINKEDIN_HASHTAGS]
 #Meteo #Previsions #France #Climat #MonsieurMeteo"""
 
-    user_prompt = f"""Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}
+    user_prompt = f"""Contexte de date : {date_context_str}
+
+Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}
 
 {recent_messages_text}
 
@@ -347,7 +366,11 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
                 "monitoring_points": r"\[MONITORING_POINTS\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "key_takeaways": r"\[KEY_TAKEAWAYS\]\s*\n(.*?)(?=\n\s*\[|$)",
                 
-                "linkedin_post": r"\[LINKEDIN_POST\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_linkedin": r"\[SOCIAL_LINKEDIN\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_facebook": r"\[SOCIAL_FACEBOOK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_twitter": r"\[SOCIAL_TWITTER\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_tiktok": r"\[SOCIAL_TIKTOK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_instagram": r"\[SOCIAL_INSTAGRAM\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "linkedin_hashtags": r"\[LINKEDIN_HASHTAGS\]\s*\n(.*?)(?=\n\s*\[|$)",
             }
             
@@ -396,7 +419,13 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
                     "key_uncertainties": parsed["key_uncertainties"],
                     "monitoring_points": parsed["monitoring_points"],
                     "key_takeaways": parsed["key_takeaways"],
-                    "linkedin_post": parsed["linkedin_post"],
+                    "social_pack": {
+                        "linkedin": parsed["social_linkedin"],
+                        "facebook": parsed["social_facebook"],
+                        "twitter": parsed["social_twitter"],
+                        "tiktok": parsed["social_tiktok"],
+                        "instagram": parsed["social_instagram"],
+                    },
                     "linkedin_hashtags": parsed["linkedin_hashtags"],
                 }
                 print(f"[{topic_idx+1}] Parsing textuel réussi avec succès !")
@@ -410,6 +439,7 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
         "data": data,
         "images": downloaded_images
     }
+
 
 def main():
     print(f"1. Chargement de l'index du forum : {INDEX_URL}")
@@ -432,17 +462,47 @@ def main():
         print("Aucun sujet de prévisions trouvé.")
         sys.exit(1)
         
-    # Extraire les deux semaines : clean_topics[1] (cours) et clean_topics[0] (suivante)
-    # On les trie par ordre chronologique pour l'affichage (semaine en cours d'abord, puis semaine suivante)
+    # Calcul dynamique des dates de référence en français
+    now = datetime.datetime.now()
+    DAYS_FR = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    MONTHS_FR = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
+    
+    def get_french_date(dt):
+        return f"{DAYS_FR[dt.weekday()]} {dt.day} {MONTHS_FR[dt.month - 1]} {dt.year}"
+        
+    def fmt_date_range(d1, d2):
+        m1 = MONTHS_FR[d1.month - 1]
+        m2 = MONTHS_FR[d2.month - 1]
+        if m1 == m2:
+            return f"du Lundi {d1.day} au Dimanche {d2.day} {m1} {d1.year}"
+        else:
+            return f"du Lundi {d1.day} {m1} au Dimanche {d2.day} {m2} {d1.year}"
+            
+    lundi_cours = now - datetime.timedelta(days=now.weekday())
+    dimanche_cours = lundi_cours + datetime.timedelta(days=6)
+    lundi_suiv = lundi_cours + datetime.timedelta(days=7)
+    dimanche_suiv = lundi_suiv + datetime.timedelta(days=6)
+    
+    today_str = get_french_date(now)
+    semaine_cours_str = fmt_date_range(lundi_cours, dimanche_cours)
+    semaine_suivante_str = fmt_date_range(lundi_suiv, dimanche_suiv)
+    jours_restants_cours_str = f"du {DAYS_FR[now.weekday()]} {now.day} {MONTHS_FR[now.month-1]} au Dimanche {dimanche_cours.day} {MONTHS_FR[dimanche_cours.month-1]} {dimanche_cours.year}"
+
+    # Semaine future (clean_topics[0]) en premier, Semaine en cours (clean_topics[1]) en second
     topics_to_process = []
     if len(clean_topics) >= 2:
-        topics_to_process = [clean_topics[1], clean_topics[0]]
+        topics_to_process = [
+            (clean_topics[0], "future", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine suivante (Tendance à moyen terme)\nPériode à analyser : {semaine_suivante_str} (semaine complète)."),
+            (clean_topics[1], "cours", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine en cours\nPériode à analyser : {jours_restants_cours_str} (jours restants uniquement). Les journées antérieures au {today_str} sont déjà passées, concentre-toi sur la fin de semaine.")
+        ]
     else:
-        topics_to_process = [clean_topics[0]]
+        topics_to_process = [
+            (clean_topics[0], "cours", f"Date actuelle de génération : {today_str}\nSemaine en cours : {semaine_cours_str} (jours restants à prévoir : {jours_restants_cours_str})\nSemaine suivante : {semaine_suivante_str}.\nDétermine selon le titre du sujet s'il s'agit de la semaine en cours ou de la semaine suivante, et applique les règles correspondantes.")
+        ]
         
     results = []
-    for idx, topic in enumerate(topics_to_process):
-        res = process_topic(topic, idx)
+    for idx, (topic, sem_type, date_context) in enumerate(topics_to_process):
+        res = process_topic(topic, idx, date_context)
         if res:
             results.append(res)
             
@@ -450,30 +510,26 @@ def main():
         print("Aucun sujet n'a pu être traité.")
         sys.exit(1)
         
-    # Génération du HTML combiné pour les deux semaines avec hiérarchie visuelle premium
+    # Style CSS Premium & Responsive
     style = """
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f1f5f9; margin: 0; padding: 25px 15px; }
     .container { max-width: 880px; background-color: #ffffff; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.09); border: 1px solid #cbd5e1; }
     .header { background: linear-gradient(135deg, #0284c7 0%, #1e3a8a 60%, #0f172a 100%); color: #ffffff; padding: 40px 30px; text-align: center; }
-    .header-badge { display: inline-block; background: rgba(255, 255, 255, 0.18); backdrop-filter: blur(10px); padding: 4px 14px; border-radius: 30px; font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
     .header h1 { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
     .header p { margin: 10px 0 0 0; font-size: 14px; opacity: 0.92; }
     .content { padding: 35px 30px; }
     .week-divider { border-top: 3px dashed #94a3b8; margin: 55px 0; }
     
-    /* Titre de semaine 2 Lignes */
     .week-title-box { margin-bottom: 25px; padding-left: 16px; border-left: 6px solid #0284c7; }
     .week-title-line1 { font-size: 22px; font-weight: 800; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; }
     .week-title-line2 { font-size: 15px; font-weight: 600; color: #0284c7; margin-top: 4px; }
 
     .section-title { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; color: #475569; margin-top: 35px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
     
-    /* 1. HERO RESUME EXPRESS */
     .hero-express { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: #ffffff; border-radius: 18px; padding: 26px; margin-bottom: 30px; box-shadow: 0 12px 25px -5px rgba(30, 58, 138, 0.3); }
     .hero-top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
     .hero-label { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: #38bdf8; }
     
-    /* Badge Confiance Dynamique */
     .conf-badge-green { background: #10b981; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
     .conf-badge-orange { background: #f59e0b; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
     .conf-badge-red { background: #ef4444; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
@@ -481,31 +537,26 @@ def main():
     .hero-summary { font-size: 16px; font-weight: 700; line-height: 1.5; margin-bottom: 14px; color: #ffffff; }
     .hero-conf-explanation { font-size: 12.5px; font-style: italic; color: #93c5fd; margin-bottom: 18px; background: rgba(255,255,255,0.08); padding: 8px 12px; border-radius: 8px; border-left: 3px solid #38bdf8; }
 
-    /* Cartes ultra-visuelles 1-3 mots */
     .hero-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
     .hero-card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 10px; padding: 10px 8px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: center; }
     .hero-card label { display: block; font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #93c5fd; margin-bottom: 4px; }
     .hero-card span { font-size: 13px; font-weight: 800; color: #ffffff; text-transform: capitalize; }
     
-    /* 2. CHRONOLOGIE DE LA SEMAINE PAR DATES */
     .timeline-container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 30px; }
     .timeline-step { background: #f8fafc; border-radius: 12px; padding: 14px 12px; border: 1px solid #e2e8f0; border-top: 4px solid #0284c7; }
     .timeline-step strong { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px; color: #0284c7; margin-bottom: 6px; }
     .timeline-step p { margin: 0; font-size: 12.5px; color: #334155; line-height: 1.45; }
 
-    /* 3. REGIONS HARMONISEES */
     .regional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 30px; }
     .regional-card { background: #ffffff; border-radius: 12px; padding: 14px 16px; border: 1px solid #e2e8f0; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
     .regional-card strong { color: #0f172a; font-size: 12.5px; display: block; margin-bottom: 5px; }
     .regional-card p { margin: 0; font-size: 12.5px; color: #475569; line-height: 1.5; }
     
-    /* 4. CONFIANCE & INCERTITUDES */
     .confidence-panel { background: #f8fafc; border-radius: 14px; padding: 18px; border: 1px solid #e2e8f0; margin-bottom: 30px; }
     .confidence-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
     .confidence-head strong { font-size: 13.5px; color: #0f172a; }
     .uncertainties-box { background: #ffffff; border-radius: 10px; padding: 12px 14px; border-left: 4px solid #f59e0b; border: 1px solid #fef3c7; border-left-width: 4px; font-size: 12.5px; color: #334155; line-height: 1.5; }
     
-    /* 5. SCENARIOS CALIBRES */
     .scenario-card { border-radius: 14px; padding: 18px; margin-bottom: 16px; border: 1px solid #e2e8f0; background: #ffffff; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
     .sc-major { border-left: 6px solid #10b981; }
     .sc-median { border-left: 6px solid #f59e0b; }
@@ -518,15 +569,29 @@ def main():
     .bg-minor { background-color: #ef4444; }
     .sc-text { margin: 0; font-size: 12.5px; line-height: 1.55; color: #334155; text-align: justify; }
 
-    /* 6. A RETENIR (KEY TAKEAWAYS) */
     .takeaways-panel { background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 6px solid #10b981; border-radius: 14px; padding: 18px; margin-bottom: 30px; }
     .takeaways-panel h3 { margin: 0 0 10px 0; font-size: 13.5px; font-weight: 800; color: #166534; text-transform: uppercase; letter-spacing: 0.5px; }
     .takeaways-panel ul { margin: 0; padding-left: 18px; color: #15803d; font-size: 12.5px; line-height: 1.6; }
     .takeaways-panel li { margin-bottom: 4px; }
     
-    /* 7. LINKEDIN STORYTELLING & SMARTPHONE FORMAT */
-    .linkedin-box { background-color: #ffffff; border: 2px dashed #0284c7; padding: 22px; border-radius: 14px; font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; font-size: 13px; white-space: pre-wrap; color: #0f172a; margin-bottom: 25px; line-height: 1.65; border-left: 6px solid #0284c7; }
-    .hashtags { font-size: 13px; font-weight: 700; color: #0284c7; margin-top: 12px; }
+    /* Graphiques Météo */
+    .meteo-images-container { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 30px; justify-content: space-between; }
+    .meteo-image-card { flex: 1 1 45%; min-width: 280px; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); text-align: center; }
+    .meteo-image-card span { font-weight: 800; font-size: 11px; color: #475569; display: block; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .meteo-image-card img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #f1f5f9; }
+
+    /* Pack Réseaux Sociaux */
+    .social-pack-container { display: flex; flex-direction: column; gap: 16px; margin-bottom: 30px; }
+    .social-platform-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
+    .social-platform-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; font-weight: 800; font-size: 13px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.5px; }
+    .sp-linkedin { background: #0077b5; }
+    .sp-facebook { background: #1877f2; }
+    .sp-twitter { background: #0f1419; }
+    .sp-tiktok { background: #fe2c55; }
+    .sp-instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+    .social-platform-body { padding: 18px; font-size: 12.5px; white-space: pre-wrap; color: #334155; line-height: 1.6; font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; }
+    .copy-btn { background: rgba(255, 255, 255, 0.25); border: none; color: #ffffff; font-size: 10px; font-weight: bold; padding: 4px 10px; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.2s; }
+    .copy-btn:hover { background: rgba(255, 255, 255, 0.4); }
     """
 
     weeks_html = ""
@@ -542,9 +607,9 @@ def main():
                     img_b64 = base64.b64encode(f_img.read()).decode('ascii')
                 ext = img_path.split('.')[-1]
                 html_images_block += f"""
-                <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px; text-align: center; display: inline-block; width: 45%; margin-right: 3%; margin-bottom: 15px; vertical-align: top; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
-                    <span style="font-weight: 800; font-size: 11px; color: #475569; display: block; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">📈 Modélisation Candidate {idx+1}</span>
-                    <img src="data:image/{ext};base64,{img_b64}" style="width: 100%; border-radius: 6px;" alt="Graphique Météo {idx+1}">
+                <div class="meteo-image-card">
+                    <span>📈 Modélisation Météo {idx+1}</span>
+                    <img src="data:image/{ext};base64,{img_b64}" alt="Graphique Météo {idx+1}">
                 </div>
                 """
             except Exception as e:
@@ -553,17 +618,15 @@ def main():
         if html_images_block:
             html_images_block = f"""
             <div class="section-title">📊 MODÉLISATIONS & GRAPHIQUES DE TENDANCE</div>
-            <div style="text-align: left;">{html_images_block}</div>
+            <div class="meteo-images-container">{html_images_block}</div>
             """
-
-        linkedin_post_clean = data["linkedin_post"].replace('<br>', '\n').replace('<br/>', '\n')
-        hashtags_clean = data.get("linkedin_hashtags", "")
         
         express = data.get("express", {})
         timeline = data.get("timeline", {})
         regional = data.get("regional", {})
         conf = data.get("confidence", {})
         scenarios = data.get("scenarios", {})
+        social = data.get("social_pack", {})
 
         # Couleur dynamique du badge de confiance
         conf_score_raw = conf.get('score', '4/5')
@@ -677,12 +740,53 @@ def main():
             </ul>
         </div>
 
-        <!-- 8. LINKEDIN STORYTELLING -->
-        <div class="section-title">📰 POST LINKEDIN PROFESSIONNEL OPTIMISÉ (STORYTELLING EXPERT - 250-300 MOTS)</div>
-        <div class="linkedin-box">
-{linkedin_post_clean}
+        <!-- 8. PACK RÉSEAUX SOCIAUX PRÊT À PUBLIER -->
+        <div class="section-title">📢 PACK RÉSEAUX SOCIAUX (PRÊT À DIFFUSER)</div>
+        <div class="social-pack-container">
+            <!-- LinkedIn -->
+            <div class="social-platform-card">
+                <div class="social-platform-header sp-linkedin">
+                    <span>🔗 LinkedIn (Storytelling Expert Météo)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+            </div>
 
-<div class="hashtags">{hashtags_clean}</div>
+            <!-- Facebook -->
+            <div class="social-platform-card">
+                <div class="social-platform-header sp-facebook">
+                    <span>👥 Facebook (Communautaire & Grand Public)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('facebook', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+            </div>
+
+            <!-- X (Twitter) -->
+            <div class="social-platform-card">
+                <div class="social-platform-header sp-twitter">
+                    <span>🐦 X (Twitter - 280 Caractères max)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('twitter', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+            </div>
+
+            <!-- TikTok -->
+            <div class="social-platform-card">
+                <div class="social-platform-header sp-tiktok">
+                    <span>🎵 TikTok (Description vidéo)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="social-platform-card">
+                <div class="social-platform-header sp-instagram">
+                    <span>📸 Instagram (Légende & CTA Bio)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+            </div>
         </div>
         """
 
@@ -743,7 +847,7 @@ def main():
     filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
     html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
-    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint l'analyse consolidée des tendances météo pour la semaine en cours et la semaine suivante.\n\nLe rapport HTML contenant les scénarios synthétisés, les posts LinkedIn associés et les graphiques de modélisation est joint à ce message.\n\nCordialement,\nMonsieur Météo"
+    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint l'analyse consolidée des tendances météo pour la semaine en cours (jours restants) et la semaine suivante.\n\nLe rapport HTML contenant le Pack Réseaux Sociaux multi-plateforme complet et prêt à diffuser ainsi que les graphiques de modélisation est joint à ce message.\n\nCordialement,\nMonsieur Météo"
     text_b64 = base64.b64encode(text_body.encode('utf-8')).decode('ascii')
     boundary = uuid.uuid4().hex
     
