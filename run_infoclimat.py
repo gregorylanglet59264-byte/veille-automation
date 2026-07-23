@@ -626,7 +626,14 @@ def main():
         regional = data.get("regional", {})
         conf = data.get("confidence", {})
         scenarios = data.get("scenarios", {})
-        social = data.get("social_pack", {})
+        social = data.get("social_pack", {}) or {}
+
+        # Nettoyage des posts sociaux pour éviter les backslashes dans le f-string (SyntaxError en Python <3.12)
+        linkedin_clean = social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')
+        facebook_clean = social.get('facebook', '').replace('<br>', '\n').replace('<br/>', '\n')
+        twitter_clean = social.get('twitter', '').replace('<br>', '\n').replace('<br/>', '\n')
+        tiktok_clean = social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')
+        instagram_clean = social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')
 
         # Couleur dynamique du badge de confiance
         conf_score_raw = conf.get('score', '4/5')
@@ -749,7 +756,7 @@ def main():
                     <span>🔗 LinkedIn (Storytelling Expert Météo)</span>
                     <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
                 </div>
-                <div class="social-platform-body">{social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+                <div class="social-platform-body">{linkedin_clean}</div>
             </div>
 
             <!-- Facebook -->
@@ -758,7 +765,7 @@ def main():
                     <span>👥 Facebook (Communautaire & Grand Public)</span>
                     <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
                 </div>
-                <div class="social-platform-body">{social.get('facebook', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+                <div class="social-platform-body">{facebook_clean}</div>
             </div>
 
             <!-- X (Twitter) -->
@@ -767,7 +774,7 @@ def main():
                     <span>🐦 X (Twitter - 280 Caractères max)</span>
                     <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
                 </div>
-                <div class="social-platform-body">{social.get('twitter', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+                <div class="social-platform-body">{twitter_clean}</div>
             </div>
 
             <!-- TikTok -->
@@ -776,7 +783,7 @@ def main():
                     <span>🎵 TikTok (Description vidéo)</span>
                     <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
                 </div>
-                <div class="social-platform-body">{social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+                <div class="social-platform-body">{tiktok_clean}</div>
             </div>
 
             <!-- Instagram -->
@@ -785,7 +792,7 @@ def main():
                     <span>📸 Instagram (Légende & CTA Bio)</span>
                     <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
                 </div>
-                <div class="social-platform-body">{social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
+                <div class="social-platform-body">{instagram_clean}</div>
             </div>
         </div>
         """
