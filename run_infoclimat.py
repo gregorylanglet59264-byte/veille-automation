@@ -817,6 +817,12 @@ def main():
         else:
             return "background-color: #6b7280;"
 
+    def format_list_items(text):
+        if not text:
+            return ""
+        lines = [line.strip().lstrip("-* ").strip() for line in text.split("\n") if line.strip()]
+        return "".join([f"<li>{line}</li>" for line in lines])
+
     print(f"1. Chargement de l'index du forum : {INDEX_URL}")
     try:
         html_index = fetch_url(INDEX_URL)
@@ -1198,7 +1204,15 @@ def main():
         if not summary_10s_html: summary_10s_html = "<li>Aucun résumé disponible.</li>"
 
         alert_lvl = alert.get('level', 'Vert').strip().replace('[', '').replace(']', '')
-        alert_bg_class = f"alert-banner-{{alert_lvl}}"
+        alert_bg_class = f"alert-banner-{alert_lvl}"
+
+        u_text = full_data.get("france", {}).get("key_uncertainties", "")
+        m_text = full_data.get("france", {}).get("monitoring_points", "")
+        u_li = format_list_items(u_text)
+        m_li = format_list_items(m_text)
+        uncertainties_li_html = u_li + m_li
+        if not uncertainties_li_html:
+            uncertainties_li_html = "<li>Aucune incertitude majeure signalée.</li>"
 
         divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
         france_weeks_html += f"""
@@ -1316,7 +1330,7 @@ def main():
                 </div>
                 <div class="uncertainties-box">
                     <strong style="display: block; margin-bottom: 6px; color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes & Points Clés :</strong>
-                    {full_data.get('france', {}).get('key_uncertainties', '')}\n{full_data.get('france', {}).get('monitoring_points', '')}
+                    <ul>{uncertainties_li_html}</ul>
                 </div>
             </div>
             <div class="takeaways-panel" style="margin-bottom: 0;">
@@ -1548,7 +1562,7 @@ def main():
     html = france_html
     print(f"HTML généré avec succès : {html_path}")
 
-    # Envoi e-mail via Gmail SMTP Base64 brut
+    # Envoi e-mail via Gmail SMTP (national en ligne + 14 pièces jointes)
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if gmail_email:
@@ -1574,47 +1588,60 @@ def main():
     clean_subj = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
     subject = clean_subj
     
-    filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
-    
-    html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    from email.mime.base import MIMEBase
+    from email import encoders
+
+    # Message principal multipart/mixed
+    msg = MIMEMultipart('mixed')
+    msg['From'] = f"Meteo Climat Pro <{sender}>"
+    msg['To'] = ", ".join(recipients)
+    msg['Subject'] = subject
+    msg['Date'] = formatdate(localtime=True)
+    msg['Reply-To'] = "gregory.langlet@sfr.fr"
+
+    # Partie affichée directement (corps du mail) : multipart/alternative
+    msg_alternative = MIMEMultipart('alternative')
+    msg.attach(msg_alternative)
+
+    # Version texte brut de secours
     text_body = f"Bonjour,\n\nVeuillez trouver ci-joint l'analyse consolidée des tendances météo pour la semaine en cours (jours restants) et la semaine suivante.\n\nLe rapport HTML contenant le Pack Réseaux Sociaux multi-plateforme complet et prêt à diffuser ainsi que les graphiques de modélisation est joint à ce message.\n\nCordialement,\nMonsieur Météo"
-    text_b64 = base64.b64encode(text_body.encode('utf-8')).decode('ascii')
-    boundary = uuid.uuid4().hex
-    
-    raw_message = (
-        f'From: Meteo Climat Pro <{sender}>\r\n'
-        f'To: {", ".join(recipients)}\r\n'
-        f'Reply-To: gregory.langlet@sfr.fr\r\n'
-        f'Subject: {subject}\r\n'
-        f'Date: {formatdate(localtime=True)}\r\n'
-        f'X-Mailer: Python\r\n'
-        f'MIME-Version: 1.0\r\n'
-        f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/plain; charset=utf-8\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{text_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
-        f'Content-Disposition: attachment; filename="{filename}"\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{html_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}--\r\n'
-    )
-    
+    msg_alternative.attach(MIMEText(text_body, 'plain', 'utf-8'))
+
+    # Version HTML inlined pour affichage immédiat dans la boîte de réception
+    msg_alternative.attach(MIMEText(france_html, 'html', 'utf-8'))
+
+    # Ajout du bulletin national en pièce jointe
+    filename_france = f"bulletin_tendance_france_{date_suffix}.html"
+    part_fr = MIMEBase('text', 'html', charset='utf-8')
+    part_fr.set_payload(france_html.encode('utf-8'))
+    encoders.encode_base64(part_fr)
+    part_fr.add_header('Content-Disposition', f'attachment; filename="{filename_france}"')
+    msg.attach(part_fr)
+
+    # Ajout des bulletins régionaux en pièces jointes
+    for r_key, r_name in REGIONS_MAP.items():
+        filename_region = f"bulletin_tendance_{r_key}_{date_suffix}.html"
+        try:
+            with open(filename_region, "r", encoding="utf-8") as f_r:
+                r_html_content = f_r.read()
+            part_r = MIMEBase('text', 'html', charset='utf-8')
+            part_r.set_payload(r_html_content.encode('utf-8'))
+            encoders.encode_base64(part_r)
+            part_r.add_header('Content-Disposition', f'attachment; filename="{filename_region}"')
+            msg.attach(part_r)
+        except Exception as e:
+            print(f"Erreur d'attachement pour {filename_region} : {e}")
+
     print(f"[SMTP] Envoi via Gmail à {', '.join(recipients)}...")
     try:
-        with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
+        with smtplib.SMTP("smtp.gmail.com", 587, timeout=45) as server:
             server.ehlo()
             server.starttls()
             server.ehlo()
             server.login(gmail_email, gmail_password)
-            server.sendmail(gmail_email, recipients, raw_message.encode('ascii'))
+            server.sendmail(gmail_email, recipients, msg.as_bytes())
         print("[SMTP] E-mail envoyé avec succès !")
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi : {e}")
