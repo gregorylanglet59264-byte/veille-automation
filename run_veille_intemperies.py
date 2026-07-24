@@ -294,7 +294,7 @@ def build_report_data(raw_news, tweets, date_str):
     system_prompt = (
         "Tu es un expert en météorologie opérationnelle et analyste en risques climatiques senior.\n"
         "Ton rôle est de rédiger un bulletin de veille complet et extrêmement détaillé sur les intempéries (orages, grêle, vent, tornades, inondations) en France et DOM-TOM, ainsi que l'activité cyclonique mondiale.\n\n"
-        "Tu dois générer une liste JSON contenant jusqu'à 40 objets représentant les points de vigilance météo critiques des dernières 24 heures.\n"
+        "Tu dois générer une liste JSON contenant jusqu'à 10 objets représentant les points de vigilance météo critiques des dernières 24 heures.\n"
         "RÈGLES IMPERATIVES — VIOLATION = RAPPORT INVALIDE :\n"
         "1. STRICTEMENT MOINS DE 24 HEURES : Chaque événement doit IMPERATIVEMENT dater de moins de 24 heures. Ne mentionne JAMAIS un événement plus ancien, même si les données en contiennent.\n"
         "2. PAS D'INVENTION : Ne crée ou n'invente aucun événement météo fictif. Si les données contiennent moins de 10 événements réels dans les 24h, génère uniquement ce nombre exact.\n"
@@ -302,7 +302,7 @@ def build_report_data(raw_news, tweets, date_str):
         "Chaque objet de la liste doit posséder la structure suivante :\n"
         "  - \"title\": Le titre précis et percutant de l'événement.\n"
         "  - \"category\": La catégorie exacte de l'événement parmi : 'CYCLONE', 'ORAGES', 'GRÊLE', 'INONDATIONS', 'VENT', 'VIGILANCE'.\n"
-        "  - \"summary\": Une description technique très approfondie et développée (6 à 8 lignes minimum) décrivant le contexte thermodynamique, les valeurs mesurées (rafales en km/h, cumuls de pluie en mm, diamètre des grëlons) et les impacts constatés.\n"
+        "  - \"summary\": Une description technique (4 à 6 lignes) décrivant le contexte, les valeurs mesurées (rafales en km/h, cumuls en mm) et les impacts constatés.\n"
         "  - \"source\": Le nom de la source d'origine (compte Twitter @xxx, ou nom du média).\n"
         "  - \"url\": L'URL EXACTE recopiée depuis les données source. JAMAIS inventée.\n\n"
         "Format de sortie attendu : un tableau JSON uniquement (sans blocs ```json et sans clé d'enveloppe) :\n"
@@ -320,7 +320,7 @@ def build_report_data(raw_news, tweets, date_str):
             try:
                 response_clean = response.strip().replace("```json", "").replace("```", "")
                 parsed = json.loads(response_clean, strict=False)
-                if isinstance(parsed, list) and 0 < len(parsed) <= 10:
+                if isinstance(parsed, list) and 0 < len(parsed) <= 15:  # ponytail: 15 = marge si LLM génère un item de plus
                     return parsed
             except Exception as e:
                 print(f"[LLM] Tentative {attempt+1} échec parsing JSON: {e}")
@@ -352,7 +352,7 @@ def validate_and_correct_report(report_json, date_str):
             try:
                 response_clean = response.strip().replace("```json", "").replace("```", "")
                 parsed = json.loads(response_clean, strict=False)
-                if isinstance(parsed, list) and 0 < len(parsed) <= 10:
+                if isinstance(parsed, list) and 0 < len(parsed) <= 15:
                     print("[LLM-Control] Rapport validé et auto-corrigé avec succès !")
                     return parsed
             except Exception as e:
