@@ -317,19 +317,21 @@ def fetch_llm_section(days=1):
                     break
                 pricing = m.get("pricing", {})
                 prompt_price = float(pricing.get("prompt", 0) or 0)
-                price_label = "Gratuit" if prompt_price == 0 else f"{prompt_price*1e6:.2f}$/M tokens"
+                price_label = "Gratuit" if prompt_price == 0 else f"{prompt_price*1e6:.2f}$/M tx"
                 results.append({
-                    "title": f"[OpenRouter] {m.get('name', m.get('id'))}",
+                    "title": m.get("name", m.get("id")),
                     "url": f"https://openrouter.ai/models/{m.get('id', '')}",
                     "source": "OpenRouter",
-                    "desc": f"{price_label} · {m.get('description', '')[:150]}",
+                    "type": "API",
+                    "price": price_label,
+                    "desc": m.get("description", "")[:180],
                     "dt": datetime.datetime.fromtimestamp(m.get("created", 0), datetime.timezone.utc),
                 })
         except Exception as e:
             print(f"  [LLM] OpenRouter: {e}")
 
     def _hf_models():
-        """Nouveaux modèles text-generation sur HuggingFace."""
+        """Nouveaux modèles text-generation sur HuggingFace (filtrés par likes)."""
         try:
             url = "https://huggingface.co/api/models?filter=text-generation&sort=lastModified&direction=-1&limit=30"
             req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -342,13 +344,17 @@ def fetch_llm_section(days=1):
                 dt = datetime.datetime.fromisoformat(lm.replace("Z", "+00:00"))
                 if dt < cutoff:
                     continue
-                model_id = m.get("id", "")
                 likes = m.get("likes", 0)
+                if likes < 5:  # Filtrer le bruit des mini-checkpoints de recherche
+                    continue
+                model_id = m.get("id", "")
                 results.append({
-                    "title": f"[HuggingFace] {model_id}",
+                    "title": model_id.split("/")[-1], # Juste le nom du modèle pour la clarté
                     "url": f"https://huggingface.co/{model_id}",
-                    "source": "HuggingFace",
-                    "desc": f"{likes} ❤️ · {m.get('author', '')} · text-generation",
+                    "source": f"HuggingFace ({model_id})",
+                    "type": "OpenSource",
+                    "price": "Open Source",
+                    "desc": f"Publié par {m.get('author', 'inconnu')}. {likes} likes ❤️",
                     "dt": dt,
                 })
         except Exception as e:
@@ -371,13 +377,16 @@ def fetch_llm_section(days=1):
                     if dt < cutoff:
                         break
                     results.append({
-                        "title": f"[{repo}] {rel.get('tag_name', '')}",
+                        "title": f"{repo.capitalize()} {rel.get('tag_name', '')}",
                         "url": rel.get("html_url", f"https://github.com/{owner}/{repo}/releases"),
-                        "source": repo,
-                        "desc": (rel.get("body", "") or "")[:180],
+                        "source": repo.capitalize(),
+                        "type": "Runtime",
+                        "price": "Local gratuit",
+                        "desc": (rel.get("body", "") or "")[:150].strip() + "...",
                         "dt": dt,
                     })
             except Exception as e:
+                print(f"  [LLM] GitHub {repo}: {e}")
                 print(f"  [LLM] GitHub {repo}: {e}")
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
@@ -439,26 +448,69 @@ def build_html(all_data, date_str):
             continue
         color = CATEGORY_COLORS.get(cat, "#334155")
         items_html = ""
-        for a in articles:
-            date_label = _format_date_fr(a.get("dt"))
-            desc = a.get("desc", "")
-            items_html += f"""
-            <div style="padding:12px 0;border-bottom:1px solid #f1f5f9;">
-              <div style="display:flex;align-items:flex-start;gap:10px;">
-                <div style="width:4px;min-width:4px;height:100%;background:{color};border-radius:2px;margin-top:4px;"></div>
-                <div>
-                  <a href="{a['url']}" target="_blank"
-                     style="font-size:14px;font-weight:600;color:#1e293b;text-decoration:none;line-height:1.4;display:block;">
-                    {a['title']}
-                  </a>
-                  {"<p style='margin:4px 0 0;font-size:12px;color:#64748b;line-height:1.5;'>"+desc+"</p>" if desc else ""}
-                  <div style="margin-top:5px;display:flex;gap:10px;align-items:center;">
-                    <span style="font-size:11px;font-weight:700;color:#fff;background:{color};padding:2px 8px;border-radius:12px;">{a['source']}</span>
-                    {"<span style='font-size:11px;color:#94a3b8;'>"+date_label+"</span>" if date_label else ""}
+        
+        if cat == "🧠 Modèles LLM":
+            # Rendu spécial ultra-clair pour le catalogue de modèles LLM
+            for a in articles:
+                date_label = _format_date_fr(a.get("dt"))
+                desc = a.get("desc", "")
+                t_type = a.get("type", "API")
+                price = a.get("price", "Gratuit")
+                
+                # Définition des styles selon le type
+                if t_type == "API":
+                    badge = "🌐 API Commerciale"
+                    badge_color = "#059669"
+                elif t_type == "OpenSource":
+                    badge = "🤗 Open Source"
+                    badge_color = "#7c3aed"
+                else:
+                    badge = "💻 Moteur Local"
+                    badge_color = "#475569"
+                    
+                items_html += f"""
+                <div style="padding:14px 0;border-bottom:1px solid #f1f5f9;">
+                  <div style="display:flex;align-items:flex-start;gap:10px;">
+                    <div style="width:4px;min-width:4px;height:100%;background:{badge_color};border-radius:2px;margin-top:4px;"></div>
+                    <div style="flex:1;">
+                      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:4px;">
+                        <span style="font-size:10px;font-weight:700;color:#fff;background:{badge_color};padding:2px 6px;border-radius:4px;text-transform:uppercase;">{badge}</span>
+                        <span style="font-size:10px;font-weight:700;color:{badge_color};background:{badge_color}1a;padding:2px 6px;border-radius:4px;">{price}</span>
+                      </div>
+                      <a href="{a['url']}" target="_blank"
+                         style="font-size:14px;font-weight:700;color:#0f172a;text-decoration:none;line-height:1.4;display:block;">
+                        {a['title']}
+                      </a>
+                      {"<p style='margin:4px 0 0;font-size:12px;color:#475569;line-height:1.5;'>"+desc+"</p>" if desc else ""}
+                      <div style="margin-top:6px;display:flex;gap:10px;align-items:center;">
+                        <span style="font-size:11px;color:#94a3b8;font-weight:500;">Source : {a['source']}</span>
+                        {"<span style='font-size:11px;color:#cbd5e1;'>•</span><span style='font-size:11px;color:#94a3b8;'>"+date_label+"</span>" if date_label else ""}
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>"""
+                </div>"""
+        else:
+            # Rendu standard pour les autres flux d'actus
+            for a in articles:
+                date_label = _format_date_fr(a.get("dt"))
+                desc = a.get("desc", "")
+                items_html += f"""
+                <div style="padding:12px 0;border-bottom:1px solid #f1f5f9;">
+                  <div style="display:flex;align-items:flex-start;gap:10px;">
+                    <div style="width:4px;min-width:4px;height:100%;background:{color};border-radius:2px;margin-top:4px;"></div>
+                    <div>
+                      <a href="{a['url']}" target="_blank"
+                         style="font-size:14px;font-weight:600;color:#1e293b;text-decoration:none;line-height:1.4;display:block;">
+                        {a['title']}
+                      </a>
+                      {"<p style='margin:4px 0 0;font-size:12px;color:#64748b;line-height:1.5;'>"+desc+"</p>" if desc else ""}
+                      <div style="margin-top:5px;display:flex;gap:10px;align-items:center;">
+                        <span style="font-size:11px;font-weight:700;color:#fff;background:{color};padding:2px 8px;border-radius:12px;">{a['source']}</span>
+                        {"<span style='font-size:11px;color:#94a3b8;'>"+date_label+"</span>" if date_label else ""}
+                      </div>
+                    </div>
+                  </div>
+                </div>"""
 
         sections_html += f"""
         <div style="margin:24px 0;background:#fff;border-radius:12px;border:1px solid #e2e8f0;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.06);">
