@@ -161,48 +161,47 @@ def process_topic(topic_url, topic_idx, date_context_str):
     system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
-À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique professionnel, grand public, hyper-visuel, pédagogique et directement exploitable sur le web et les réseaux sociaux sans aucune modification manuelle.
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique sous forme de tableau de bord exécutif professionnel destiné à des clients grand public et professionnels. Le document doit être lisible en moins de 10 secondes tout en conservant une exactitude scientifique absolue et les nuances de probabilité (pas de sensationnalisme).
 
 RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
-Dans TOUTES les sections (Alerte, Dashboard, Chronologie, Régions, Scénarios, Incertitudes, À Retenir, Posts Sociaux), tu devez mentionner les jours précis associés à leurs dates exactes (ex: Lundi 20 juillet, Mardi 21 juillet, Mercredi 22 juillet, Jeudi 23 juillet, Vendredi 24 juillet, Samedi 25 juillet, Dimanche 26 juillet). Ne dis plus jamais "début de semaine" ou "week-end" sans les associer directement à leur date.
+Dans TOUTES les sections (KPI, Chronologie, Régions, Scénarios, Incertitudes, À Retenir, Posts Sociaux), tu devez mentionner les jours précis associés à leurs dates exactes (ex: Lundi 27 Juillet, Mardi 28 Juillet). Ne dis plus jamais "début de semaine" ou "week-end" sans les associer directement à leur date.
 
 RÈGLE D'OR N°2 : INTÉGRATION DE LA DATE DE GÉNÉRATION & PÉRIODE PERTINENTE
 - Analyse avec attention la "Date actuelle de génération" transmise dans l'invite.
 - Si le sujet correspond à la "Semaine en cours" : toute journée précédant cette date est déjà passée. Les prévisions doivent se concentrer EXCLUSIVEMENT sur la période allant de la date de génération au dimanche de cette semaine. Ignore ou mentionne comme "déjà écoulées" les journées passées.
 - Si le sujet correspond à la "Semaine suivante" (Semaine future) : c'est la véritable semaine de tendance à moyen terme. Rédige les prévisions complètes jour par jour, du lundi au dimanche.
 
-RÈGLE D'OR N°3 : CHRONOLOGIE EN BLOCS DE PHASES
-- Rédige la chronologie sous forme de 4 phases distinctes : Phase 1 (Montée en puissance), Phase 2 (Pic d'intensité), Phase 3 (Maintien), Phase 4 (Dégradation ou Variable).
-- Rédige chaque phase de manière hyper-synthétique, avec seulement 2 lignes maximum.
-- Commence impérativement chaque phase par un émoji météo représentatif (ex: ☀️, ⛈️, 🌧️, 💨) suivi du jour et de la date précise. Mets en évidence les températures principales.
+RÈGLE D'OR N°3 : HANDLING DE LA TEMPÉRATURE (PAS DE CHIFFRE GÉANT)
+- Ne propose JAMAIS une température maximale unique géante isolée, car cela donne l'impression d'une certitude et d'une uniformité fausse pour une tendance météo.
+- Propose obligatoirement soit une plage de températures (ex: "38 à 42 °C"), soit une température maximale accompagnée de son qualificatif de localisation (ex: "jusqu'à 42 °C localement").
+- Cet indicateur de température maximale attendue doit avoir la même taille, le même style et le même poids visuel que les autres indicateurs de la ligne de KPI.
 
 RÈGLE D'OR N°4 : RÉGIONS EN LIGNE STRUCTURÉE (POUR LE TABLEAU)
 - Rédige obligatoirement une seule ligne contenant exactement ces 4 valeurs séparées par des barres verticales `|` : 
   Température attendue | Niveau de pluie | Risque dominant | Indice de confiance
-  Exemple : 18°C à 24°C | Faible | Aucun | 4/5
+  Exemple : 18 à 24 °C | Faible | Aucun | 4/5
 - Pour le niveau de pluie et le risque, utilise obligatoirement un qualificatif simple et lisible par tous parmi : Très faible, Faible, Modéré, Fort, Très fort (sans longue phrase explicative).
 
-RÈGLE D'OR N°5 : VALEURS DE CARTES ULTRA-COURTES (DASHBOARD ET ALERTE)
-- Pour le bandeau d'alerte et le tableau de bord (DASHBOARD), les valeurs doivent être très courtes (1 à 3 mots max) pour être lisibles instantanément :
-  - `[DASHBOARD_TEMP_MAX]` : ex: "45°C" (pas de phrase)
-  - `[DASHBOARD_TEMP_MIN]` : ex: "22-26°C" (pas de phrase)
-  - `[DASHBOARD_DURATION]` : ex: "5 jours" (pas de phrase)
-  - `[DASHBOARD_EVOLUTION_TREND]` : ex: "↗️ ↘️" ou "↗️ Hausse"
-- Pour les jauges de risques physiques, propose à la fois un score (de 0/5 à 5/5) et une phrase d'interprétation courte :
-  - `[INTERP_HEAT]` : ex: "Situation exceptionnelle" ou "Risque élevé"
-  - `[INTERP_RAIN]` : ex: "Déficit marqué" ou "Situation normale"
-  - `[INTERP_STORM]` : ex: "Risque modéré" ou "Situation calme"
-  - `[INTERP_WIND]` : ex: "Situation normale" ou "Risque faible"
+RÈGLE D'OR N°5 : INDICATION KPI COURTE
+- Rédige des valeurs de KPI très courtes et condensées (1 à 3 mots max) :
+  - `[KPI_TEMP_RANGE]` : ex: "38 à 42 °C" ou "jusqu'à 42 °C localement"
+  - `[KPI_PERIOD]` : ex: "27 Juillet au 2 Août"
+  - `[KPI_DURATION]` : ex: "5 jours"
+  - `[KPI_CONFIDENCE]` : ex: "4/5 (Élevée)"
+  - `[KPI_RISKS]` : ex: "Canicule & Orages"
+  - `[KPI_ZONE]` : ex: "Sud-Ouest / Nord-Est"
 
-RÈGLE D'OR N°6 : RÉDUCTION DRASTIQUE DES TEXTES DÉTAILLÉS (60-70%)
+RÈGLE D'OR N°6 : CHRONOLOGIE HORIZONTALE EN 4 ÉTAPES
+- Rédige la chronologie sous forme de 4 étapes horizontales simples : Début, Montée, Pic, Fin.
+- Pour chaque étape, écris uniquement la date exacte et une phrase très courte (10-15 mots maximum).
+
+RÈGLE D'OR N°7 : RÉDUCTION DRASTIQUE DES TEXTES DÉTAILLÉS (60-70%)
 - Le Scénario Majoritaire doit faire ~50-80 mots max, et les Scénarios Alternatif et Minoritaire ~40-60 mots max chacun.
 - Utilise des listes à puces pour lister les impacts réels. Mets en gras les valeurs numériques importantes.
-
-RÈGLE D'OR N°7 : PACK MULTI-RÉSEAUX SOCIAUX CONÇU POUR MOBILES
-Rédige 5 publications distinctes, spécifiquement adaptées à l'audience de chaque plateforme (LinkedIn, Facebook, X/Twitter, TikTok, Instagram).
+- Ne répète pas les informations déjà présentes en haut de document.
 
 RÈGLE D'OR N°8 : FIDÉLITÉ ABSOLUE AUX DONNÉES ET ANALYSES SOURCES (PAS D'EXAGÉRATION)
-- Tu ne dois jamais sur-interpréter, accentuer ou exagérer une formulation météo. Si les prévisionnistes parlent de "risque d'orage" ou d'une "tendance incertaine", décris-le exactement comme un risque ou une incertitude. Ne transforme jamais une hypothèse en certitude.
+- Tu ne devez jamais sur-interpréter, accentuer ou exagérer une formulation météo. Si les prévisionnistes parlent de "risque d'orage" ou d'une "tendance incertaine", décris-le exactement comme un risque ou une incertitude. Ne transforme jamais une hypothèse en certitude.
 - Ne cherche pas à rendre le titre ou les résumés plus accrocheurs en déformant la réalité scientifique fournie dans les discussions. Conserve strictement le niveau de nuance, les réserves et l'indice de confiance donnés par les experts.
 
 FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ces balises :
@@ -213,79 +212,46 @@ Semaine X - Du Lundi DD au Dimanche DD Mois AAAA
 [SUBJECT_TITLE_LINE2]
 Accroche météo courte résumant le temps de la semaine avec dates exactes
 
-[ALERT_EVENT_TYPE]
-Canicule historique (ou autre type d'événement marquant)
-
 [ALERT_LEVEL]
-Rouge (Vert, Jaune, Orange, Rouge)
+Rouge (ou Vert, Jaune, Orange, Rouge)
+
+[ALERT_EVENT_TYPE]
+Canicule (ou autre phénomène attendu)
 
 [ALERT_START]
-Jour et date de début de l'alerte (ex: Mercredi 29 Juillet)
+Mercredi 29 Juillet
 
 [ALERT_END]
-Jour et date de fin de l'alerte (ex: Dimanche 2 Août)
-
-[ALERT_TEMP_MAX]
-45°C (Température maximale écrite en très grand)
-
-[ALERT_MAIN_RISK]
-Canicule, orages, incendies
+Dimanche 2 Août
 
 [ALERT_CONFIDENCE]
 4/5
 
-[SUMMARY_10S]
-- Début de l'épisode : ...
-- Pic attendu : ...
-- Température maximale : ...
-- Durée : ...
-- Principal risque : ...
-- Confiance : ...
+[KPI_TEMP_RANGE]
+38 à 42 °C (ou jusqu'à 42 °C localement)
 
-[EXPRESS_SUMMARY]
-2 phrases ultra-concises allant à l'essentiel avec les jours et dates précis
+[KPI_PERIOD]
+Du 27 Juillet au 2 Août
 
-[EXPRESS_TREND]
-1 à 3 mots max
+[KPI_DURATION]
+6 jours
 
-[EXPRESS_TEMPERATURES]
-1 à 3 mots max
+[KPI_CONFIDENCE]
+4/5 (Élevée)
 
-[EXPRESS_PRECIPITATIONS]
-1 à 3 mots max
+[KPI_RISKS]
+Canicule, orages, incendies
 
-[EXPRESS_MAIN_RISK]
-1 à 3 mots max
+[KPI_ZONE]
+Axe Sud-Ouest / Nord-Est
 
-[GLOBAL_CONFIDENCE_SCORE]
-4/5 (ou 3/5, 5/5)
-
-[GLOBAL_CONFIDENCE_DESC]
-Une phrase courte expliquant la raison du niveau de confiance.
-
-[DASHBOARD_START]
-Lundi 27 Juillet
-
-[DASHBOARD_PIC]
-Jeudi 30 Juillet
-
-[DASHBOARD_END]
-Dimanche 2 Août
-
-[DASHBOARD_TEMP_MAX]
-45°C
-
-[DASHBOARD_TEMP_MIN]
-22-26°C
-
-[DASHBOARD_DURATION]
-5 jours
-
-[DASHBOARD_CONFIDENCE]
-4/5
-
-[DASHBOARD_EVOLUTION_TREND]
-↗️ ↘️
+[TAKEAWAYS_10S]
+- Phrase courte 1 (maximum une ligne)
+- Phrase courte 2 (maximum une ligne)
+- Phrase courte 3 (maximum une ligne)
+- Phrase courte 4 (maximum une ligne)
+- Phrase courte 5 (maximum une ligne)
+- Phrase courte 6 (maximum une ligne)
 
 [SCORE_HEAT]
 Note sur 5 (ex: 3/5)
@@ -311,24 +277,47 @@ Note sur 5 (ex: 2/5)
 [INTERP_WIND]
 Risque faible
 
-[KEY_NUMBERS]
-Valeur 1 | Libellé 1
-Valeur 2 | Libellé 2
-Valeur 3 | Libellé 3
-Valeur 4 | Libellé 4
-Valeur 5 | Libellé 5
+[IMPACT_POPULATION]
+Quelques mots clairs résumant l'impact (ex: Vigilance canicule)
 
-[TIMELINE_PHASE_1]
-Emoji + Montée en puissance (Jours et dates exacts) : Description (2 lignes max).
+[IMPACT_TRAVEL]
+Quelques mots clairs (ex: Risque de retards rails)
 
-[TIMELINE_PHASE_2]
-Emoji + Pic d'intensité (Jours et dates exacts) : Description (2 lignes max).
+[IMPACT_WORK]
+Quelques mots clairs (ex: Horaires décalés BTP)
 
-[TIMELINE_PHASE_3]
-Emoji + Maintien (Jours et dates exacts) : Description (2 lignes max).
+[IMPACT_AGRI]
+Quelques mots clairs (ex: Stress thermique cultures)
 
-[TIMELINE_PHASE_4]
-Emoji + Dégradation (Jours et dates exacts) : Description (2 lignes max).
+[IMPACT_STORM]
+Quelques mots clairs (ex: Localement violents)
+
+[IMPACT_DROUGHT]
+Quelques mots clairs (ex: Sécheresse accentuée)
+
+[TIMELINE_DATE_DEBUT]
+Lundi 27 Juillet
+
+[TIMELINE_DESC_DEBUT]
+Début de l'épisode chaud sur l'extrême sud du pays.
+
+[TIMELINE_DATE_MONTEE]
+Mardi 28 Juillet
+
+[TIMELINE_DESC_MONTEE]
+Extension rapide de la chaleur sur les deux tiers sud de la France.
+
+[TIMELINE_DATE_PIC]
+Jeudi 30 et Vendredi 31 Juillet
+
+[TIMELINE_DESC_PIC]
+Pic de chaleur exceptionnelle de 38 à 42 °C localement.
+
+[TIMELINE_DATE_FIN]
+Dimanche 2 Août
+
+[TIMELINE_DESC_FIN]
+Baisse progressive des températures par l'ouest.
 
 [REGIONAL_HDF_NORTH]
 Température | Pluie | Risque dominant | Confiance
@@ -384,7 +373,7 @@ Description très concise (~40-60 mots max)
 - Point de vigilance 2
 
 [KEY_TAKEAWAYS]
-- Puce essentielle 1 (5 à 6 puces max)
+- Puce essentielle 1
 - Puce essentielle 2
 - Puce essentielle 3
 - Puce essentielle 4
@@ -427,34 +416,21 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
                 "title_line1": r"\[SUBJECT_TITLE_LINE1\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "title_line2": r"\[SUBJECT_TITLE_LINE2\]\s*\n(.*?)(?=\n\s*\[|$)",
                 
-                "alert_event_type": r"\[ALERT_EVENT_TYPE\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "alert_level": r"\[ALERT_LEVEL\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "alert_event_type": r"\[ALERT_EVENT_TYPE\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "alert_start": r"\[ALERT_START\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "alert_end": r"\[ALERT_END\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "alert_temp_max": r"\[ALERT_TEMP_MAX\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "alert_main_risk": r"\[ALERT_MAIN_RISK\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "alert_confidence": r"\[ALERT_CONFIDENCE\]\s*\n(.*?)(?=\n\s*\[|$)",
 
-                "summary_10s": r"\[SUMMARY_10S\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "kpi_temp_range": r"\[KPI_TEMP_RANGE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "kpi_period": r"\[KPI_PERIOD\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "kpi_duration": r"\[KPI_DURATION\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "kpi_confidence": r"\[KPI_CONFIDENCE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "kpi_risks": r"\[KPI_RISKS\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "kpi_zone": r"\[KPI_ZONE\]\s*\n(.*?)(?=\n\s*\[|$)",
 
-                "express_summary": r"\[EXPRESS_SUMMARY\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_trend": r"\[EXPRESS_TREND\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_temperatures": r"\[EXPRESS_TEMPERATURES\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_precipitations": r"\[EXPRESS_PRECIPITATIONS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_main_risk": r"\[EXPRESS_MAIN_RISK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "global_confidence_score": r"\[GLOBAL_CONFIDENCE_SCORE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "global_confidence_desc": r"\[GLOBAL_CONFIDENCE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "takeaways_10s": r"\[TAKEAWAYS_10S\]\s*\n(.*?)(?=\n\s*\[|$)",
 
-                "dashboard_start": r"\[DASHBOARD_START\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "dashboard_pic": r"\[DASHBOARD_PIC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "dashboard_end": r"\[DASHBOARD_END\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "dashboard_temp_max": r"\[DASHBOARD_TEMP_MAX\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "dashboard_temp_min": r"\[DASHBOARD_TEMP_MIN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "dashboard_duration": r"\[DASHBOARD_DURATION\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "dashboard_confidence": r"\[DASHBOARD_CONFIDENCE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "dashboard_evolution_trend": r"\[DASHBOARD_EVOLUTION_TREND\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
                 "score_heat": r"\[SCORE_HEAT\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "interp_heat": r"\[INTERP_HEAT\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "score_rain": r"\[SCORE_RAIN\]\s*\n(.*?)(?=\n\s*\[|$)",
@@ -463,12 +439,22 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
                 "interp_storm": r"\[INTERP_STORM\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "score_wind": r"\[SCORE_WIND\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "interp_wind": r"\[INTERP_WIND\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "key_numbers": r"\[KEY_NUMBERS\]\s*\n(.*?)(?=\n\s*\[|$)",
 
-                "timeline_phase_1": r"\[TIMELINE_PHASE_1\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_phase_2": r"\[TIMELINE_PHASE_2\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_phase_3": r"\[TIMELINE_PHASE_3\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_phase_4": r"\[TIMELINE_PHASE_4\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "impact_population": r"\[IMPACT_POPULATION\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "impact_travel": r"\[IMPACT_TRAVEL\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "impact_work": r"\[IMPACT_WORK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "impact_agri": r"\[IMPACT_AGRI\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "impact_storm": r"\[IMPACT_STORM\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "impact_drought": r"\[IMPACT_DROUGHT\]\s*\n(.*?)(?=\n\s*\[|$)",
+
+                "timeline_date_debut": r"\[TIMELINE_DATE_DEBUT\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_desc_debut": r"\[TIMELINE_DESC_DEBUT\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_date_montee": r"\[TIMELINE_DATE_MONTEE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_desc_montee": r"\[TIMELINE_DESC_MONTEE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_date_pic": r"\[TIMELINE_DATE_PIC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_desc_pic": r"\[TIMELINE_DESC_PIC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_date_fin": r"\[TIMELINE_DATE_FIN\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_desc_fin": r"\[TIMELINE_DESC_FIN\]\s*\n(.*?)(?=\n\s*\[|$)",
 
                 "regional_hdf_north": r"\[REGIONAL_HDF_NORTH\]\s*\n(.*?)(?=\n\s*\[|$)",
                 "regional_atlantic": r"\[REGIONAL_ATLANTIC\]\s*\n(.*?)(?=\n\s*\[|$)",
@@ -509,42 +495,28 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
                 else:
                     parsed[key] = ""
             
-            if (parsed["title_line1"] or parsed["title_line2"]) and (parsed["express_summary"] or parsed["majoritaire_desc"]):
+            if (parsed["title_line1"] or parsed["title_line2"]) and (parsed["takeaways_10s"] or parsed["majoritaire_desc"]):
                 data = {
                     "title_line1": parsed["title_line1"] or topic_title_clean,
                     "title_line2": parsed["title_line2"] or "Tendances et synthèses météorologiques",
                     
                     "alert": {
-                        "event_type": parsed["alert_event_type"],
                         "level": parsed["alert_level"] or "Vert",
+                        "event_type": parsed["alert_event_type"],
                         "start": parsed["alert_start"],
                         "end": parsed["alert_end"],
-                        "temp_max": parsed["alert_temp_max"],
-                        "main_risk": parsed["alert_main_risk"],
                         "confidence": parsed["alert_confidence"],
                     },
-                    "summary_10s": parsed["summary_10s"],
-                    
-                    "express": {
-                        "summary": parsed["express_summary"],
-                        "trend": parsed["express_trend"],
-                        "temperatures": parsed["express_temperatures"],
-                        "precipitations": parsed["express_precipitations"],
-                        "main_risk": parsed["express_main_risk"],
+                    "kpis": {
+                        "temp_range": parsed["kpi_temp_range"],
+                        "period": parsed["kpi_period"],
+                        "duration": parsed["kpi_duration"],
+                        "confidence": parsed["kpi_confidence"],
+                        "risks": parsed["kpi_risks"],
+                        "zone": parsed["kpi_zone"],
                     },
-                    "confidence": {
-                        "score": parsed["global_confidence_score"] or "4/5",
-                        "desc": parsed["global_confidence_desc"],
-                    },
+                    "takeaways_10s": parsed["takeaways_10s"],
                     "dashboard": {
-                        "start": parsed["dashboard_start"],
-                        "pic": parsed["dashboard_pic"],
-                        "end": parsed["dashboard_end"],
-                        "temp_max": parsed["dashboard_temp_max"],
-                        "temp_min": parsed["dashboard_temp_min"],
-                        "duration": parsed["dashboard_duration"],
-                        "confidence": parsed["dashboard_confidence"],
-                        "evolution_trend": parsed["dashboard_evolution_trend"],
                         "score_heat": parsed["score_heat"] or "0/5",
                         "interp_heat": parsed["interp_heat"] or "Situation normale",
                         "score_rain": parsed["score_rain"] or "0/5",
@@ -554,12 +526,23 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
                         "score_wind": parsed["score_wind"] or "0/5",
                         "interp_wind": parsed["interp_wind"] or "Situation normale",
                     },
-                    "key_numbers": parsed["key_numbers"],
+                    "impacts": {
+                        "population": parsed["impact_population"],
+                        "travel": parsed["impact_travel"],
+                        "work": parsed["impact_work"],
+                        "agri": parsed["impact_agri"],
+                        "storm": parsed["impact_storm"],
+                        "drought": parsed["impact_drought"],
+                    },
                     "timeline": {
-                        "phase_1": parsed["timeline_phase_1"],
-                        "phase_2": parsed["timeline_phase_2"],
-                        "phase_3": parsed["timeline_phase_3"],
-                        "phase_4": parsed["timeline_phase_4"],
+                        "date_debut": parsed["timeline_date_debut"],
+                        "desc_debut": parsed["timeline_desc_debut"],
+                        "date_montee": parsed["timeline_date_montee"],
+                        "desc_montee": parsed["timeline_desc_montee"],
+                        "date_pic": parsed["timeline_date_pic"],
+                        "desc_pic": parsed["timeline_desc_pic"],
+                        "date_fin": parsed["timeline_date_fin"],
+                        "desc_fin": parsed["timeline_desc_fin"],
                     },
                     "regional": {
                         "hdf_north": parsed["regional_hdf_north"],
@@ -745,7 +728,7 @@ def main():
         print("Aucun sujet n'a pu être traité.")
         sys.exit(1)
         
-    # Style CSS Premium & Responsive (Design System v4)
+    # Style CSS Premium & Responsive (Design System v5)
     style = """
     :root {
         --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -754,7 +737,6 @@ def main():
         --text-base: 14.5px;
         --text-lg: 16px;
         --text-xl: 20px;
-        --text-huge: 72px;
         --radius-lg: 24px;
         --radius-md: 16px;
         --radius-sm: 10px;
@@ -762,12 +744,14 @@ def main():
         --spacing-sm: 15px;
         --spacing-md: 24px;
         --spacing-lg: 35px;
+        --shadow-sm: 0 2px 8px rgba(0,0,0,0.02);
+        --shadow-md: 0 10px 30px rgba(0,0,0,0.03);
     }
     body { font-family: var(--font-sans); font-size: var(--text-base); line-height: 1.6; color: #0f172a; background-color: #f1f5f9; margin: 0; padding: 25px 12px; }
-    .container { max-width: 900px; background-color: #ffffff; margin: 0 auto; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04); border: 1px solid #e2e8f0; }
-    .header { background: linear-gradient(135deg, #0b0f19 0%, #1e293b 100%); color: #ffffff; padding: 45px 30px; text-align: center; position: relative; }
+    .container { max-width: 900px; background-color: #ffffff; margin: 0 auto; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid #e2e8f0; }
+    .header { background: linear-gradient(135deg, #0b0f19 0%, #1e293b 100%); color: #ffffff; padding: 40px 30px; text-align: center; position: relative; }
     .header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, #2563eb, #7c3aed, #ec4899); }
-    .header h1 { margin: 0; font-size: 26px; font-weight: 900; letter-spacing: -0.5px; text-transform: uppercase; }
+    .header h1 { margin: 0; font-size: 24px; font-weight: 900; letter-spacing: -0.5px; text-transform: uppercase; }
     .header p { margin: 8px 0 0 0; font-size: 13px; opacity: 0.85; font-weight: 500; }
     .content { padding: var(--spacing-lg) 30px; display: flex; flex-direction: column; gap: var(--spacing-lg); }
     .week-divider { border-top: 4px dashed #cbd5e1; margin: var(--spacing-lg) 0; }
@@ -776,66 +760,42 @@ def main():
     .week-title-line1 { font-size: var(--text-xl); font-weight: 900; color: #0f172a; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; }
     .week-title-line2 { font-size: var(--text-base); font-weight: 600; color: #64748b; margin-top: 6px; }
 
-    .section-title { font-size: var(--text-xs); font-weight: 850; text-transform: uppercase; letter-spacing: 1.5px; color: #475569; border-bottom: 2px solid #f1f5f9; padding-bottom: 8px; display: flex; align-items: center; gap: 8px; margin: 0; }
+    .section-title { font-size: var(--text-xs); font-weight: 900; text-transform: uppercase; letter-spacing: 1.5px; color: #475569; border-bottom: 2px solid #f1f5f9; padding-bottom: 8px; display: flex; align-items: center; gap: 8px; margin: 0; }
     
-    /* Bandeau d'alerte supérieur */
-    .alert-banner { padding: 30px; color: #ffffff; border-radius: var(--radius-md); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); display: flex; flex-direction: column; gap: 20px; position: relative; overflow: hidden; }
+    /* Bandeau d'alerte et de synthèse supérieur */
+    .alert-banner { padding: 25px 30px; color: #ffffff; border-radius: var(--radius-md); display: flex; flex-direction: column; gap: 15px; position: relative; overflow: hidden; }
     .alert-banner-Rouge { background: linear-gradient(135deg, #7f1d1d 0%, #dc2626 100%); }
     .alert-banner-Orange { background: linear-gradient(135deg, #7c2d12 0%, #ea580c 100%); }
     .alert-banner-Jaune { background: linear-gradient(135deg, #713f12 0%, #eab308 100%); }
     .alert-banner-Vert { background: linear-gradient(135deg, #064e3b 0%, #10b981 100%); }
     
     .alert-main-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-    .alert-left { display: flex; flex-direction: column; gap: 8px; }
+    .alert-left { display: flex; flex-direction: column; gap: 6px; }
     .alert-badge-top { font-size: 9px; font-weight: 900; background: rgba(255,255,255,0.22); padding: 5px 12px; border-radius: 9999px; text-transform: uppercase; align-self: flex-start; letter-spacing: 1px; }
-    .alert-title-lg { font-size: 26px; font-weight: 900; line-height: 1.1; text-transform: uppercase; margin: 0; letter-spacing: -0.5px; }
-    .alert-date-block { display: flex; flex-direction: column; font-size: var(--text-xs); background: rgba(0,0,0,0.25); padding: 8px 14px; border-radius: var(--radius-sm); font-weight: 700; max-width: fit-content; margin-top: 4px; }
-    
-    .alert-right-temp { font-size: 84px; font-weight: 900; line-height: 1; letter-spacing: -3px; display: flex; align-items: flex-start; text-shadow: 0 4px 15px rgba(0,0,0,0.15); }
-    .alert-right-temp span { font-size: 42px; margin-top: 5px; }
+    .alert-title-lg { font-size: 24px; font-weight: 900; line-height: 1.2; text-transform: uppercase; margin: 0; }
+    .alert-date-block { font-size: var(--text-xs); font-weight: 700; opacity: 0.9; }
 
-    .alert-details-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 15px; }
-    .alert-detail-item { display: flex; flex-direction: column; }
-    .alert-detail-lbl { font-size: 9px; font-weight: 800; text-transform: uppercase; opacity: 0.8; letter-spacing: 0.5px; margin-bottom: 2px; }
-    .alert-detail-val { font-size: var(--text-base); font-weight: 800; }
+    /* Ligne de KPI compacte homogène */
+    .kpi-row-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+    @media (max-width: 768px) {
+        .kpi-row-6 { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 480px) {
+        .kpi-row-6 { grid-template-columns: repeat(2, 1fr); }
+    }
+    .kpi-card-6 { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 14px 10px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 95px; box-shadow: var(--shadow-sm); }
+    .kpi-icon { font-size: 18px; margin-bottom: 5px; }
+    .kpi-val { font-size: 13.5px; font-weight: 850; color: #0f172a; line-height: 1.2; word-break: break-word; }
+    .kpi-lbl { font-size: 9px; font-weight: 800; color: #64748b; text-transform: uppercase; margin-top: 3px; letter-spacing: 0.5px; }
 
-    /* Résumé 10 secondes */
-    .summary-10s-box { background: #f8fafc; border: 1px solid #cbd5e1; border-left: 6px solid #2563eb; border-radius: var(--radius-md); padding: 22px; }
-    .summary-10s-box h3 { margin: 0 0 12px 0; font-size: var(--text-sm); font-weight: 850; color: #1e293b; text-transform: uppercase; letter-spacing: 1px; }
-    .summary-10s-list { margin: 0; padding: 0; list-style: none; font-size: var(--text-sm); color: #334155; line-height: 1.6; }
-    .summary-10s-list li { margin-bottom: 6px; padding-left: 18px; position: relative; }
+    /* À retenir en 10 secondes */
+    .summary-10s-box { background: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #2563eb; border-radius: var(--radius-md); padding: 20px; }
+    .summary-10s-box h3 { margin: 0 0 10px 0; font-size: var(--text-xs); font-weight: 900; color: #1e293b; text-transform: uppercase; letter-spacing: 1px; }
+    .summary-10s-list { margin: 0; padding: 0; list-style: none; font-size: var(--text-sm); color: #334155; line-height: 1.5; }
+    .summary-10s-list li { margin-bottom: 5px; padding-left: 15px; position: relative; }
     .summary-10s-list li::before { content: '•'; position: absolute; left: 0; color: #2563eb; font-weight: 900; }
 
-    /* Dashboard Redesigned (3 colonnes larges & clean) */
-    .dashboard-grid-10 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
-    @media (max-width: 600px) {
-        .dashboard-grid-10 { grid-template-columns: repeat(2, 1fr); }
-    }
-    .dash-card-10 { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 18px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 130px; transition: transform 0.2s; position: relative; }
-    .dash-card-10:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02); }
-    .dash-card-10-icon { font-size: 18px; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 50%; margin-bottom: 6px; }
-    
-    .dc-temp-max { border-top: 4px solid #dc2626; }
-    .dc-temp-max .dash-card-10-icon { background: #fee2e2; }
-    .dc-temp-min { border-top: 4px solid #2563eb; }
-    .dc-temp-min .dash-card-10-icon { background: #dbeafe; }
-    .dc-start { border-top: 4px solid #4b5563; }
-    .dc-start .dash-card-10-icon { background: #f3f4f6; }
-    .dc-pic { border-top: 4px solid #ea580c; }
-    .dc-pic .dash-card-10-icon { background: #ffedd5; }
-    .dc-end { border-top: 4px solid #4b5563; }
-    .dc-end .dash-card-10-icon { background: #f3f4f6; }
-    .dc-duration { border-top: 4px solid #10b981; }
-    .dc-duration .dash-card-10-icon { background: #d1fae5; }
-    .dc-conf { border-top: 4px solid #7c3aed; }
-    .dc-conf .dash-card-10-icon { background: #f3e8ff; }
-    .dc-trend { border-top: 4px solid #06b6d4; }
-    .dc-trend .dash-card-10-icon { background: #ecfeff; }
-    
-    .dash-card-10-val { font-size: 22px; font-weight: 900; margin-bottom: 2px; color: #0f172a; line-height: 1.1; letter-spacing: -0.5px; }
-    .dash-card-10-lbl { font-size: 9.5px; font-weight: 800; color: #64748b; text-transform: uppercase; }
-
-    /* Jauges et scores */
+    /* Jauges compactes */
     .dashboard-meters-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
     @media (max-width: 768px) {
         .dashboard-meters-row { grid-template-columns: repeat(2, 1fr); }
@@ -843,24 +803,24 @@ def main():
     @media (max-width: 480px) {
         .dashboard-meters-row { grid-template-columns: 1fr; }
     }
-    .meter-card-premium { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+    .meter-card-premium { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 12px; display: flex; flex-direction: column; gap: 6px; }
     .meter-card-header { display: flex; align-items: center; justify-content: space-between; }
-    .meter-card-header h4 { margin: 0; font-size: var(--text-xs); font-weight: 850; color: #475569; text-transform: uppercase; letter-spacing: 0.5px; }
-    .meter-badge { font-size: 8.5px; font-weight: 900; padding: 3px 10px; border-radius: 9999px; text-transform: uppercase; color: #ffffff; }
-    .mb-chaleur { background-color: #dc2626; }
-    .mb-pluie { background-color: #2563eb; }
-    .mb-orage { background-color: #7c3aed; }
-    .mb-vent { background-color: #4b5563; }
-    
-    .meter-track-premium { width: 100%; height: 8px; background: #e2e8f0; border-radius: 9999px; overflow: hidden; }
+    .meter-card-header h4 { margin: 0; font-size: 11px; font-weight: 850; color: #475569; text-transform: uppercase; }
+    .meter-badge { font-size: 8px; font-weight: 900; padding: 2px 8px; border-radius: 9999px; text-transform: uppercase; color: #ffffff; }
+    .meter-track-premium { width: 100%; height: 6px; background: #e2e8f0; border-radius: 9999px; overflow: hidden; }
     .meter-fill-premium { height: 100%; border-radius: 9999px; }
-    .mf-heat { background: linear-gradient(90deg, #fca5a5, #dc2626); }
-    .mf-rain { background: linear-gradient(90deg, #93c5fd, #2563eb); }
-    .mf-storm { background: linear-gradient(90deg, #c084fc, #7c3aed); }
-    .mf-wind { background: linear-gradient(90deg, #cbd5e1, #4b5563); }
+    .meter-info { display: flex; align-items: center; justify-content: space-between; font-size: 10.5px; font-weight: 800; color: #1e293b; }
     
-    .meter-info { display: flex; align-items: center; justify-content: space-between; font-size: var(--text-xs); font-weight: 800; color: #1e293b; }
-    .meter-lbl-text { text-transform: uppercase; font-size: 8.5px; letter-spacing: 0.5px; color: #0284c7; }
+    /* Bloc Impacts Attendus */
+    .impacts-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    @media (max-width: 768px) {
+        .impacts-grid { grid-template-columns: 1fr; }
+    }
+    .impact-item { background: #ffffff; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 14px; display: flex; align-items: flex-start; gap: 12px; box-shadow: var(--shadow-sm); }
+    .impact-icon { font-size: 18px; line-height: 1; }
+    .impact-content { display: flex; flex-direction: column; gap: 1px; }
+    .impact-title { font-size: 10.5px; font-weight: 900; color: #475569; text-transform: uppercase; letter-spacing: 0.5px; }
+    .impact-text { font-size: 12.5px; color: #334155; line-height: 1.4; }
 
     /* Chiffres à retenir */
     .numbers-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
@@ -871,37 +831,32 @@ def main():
         .numbers-grid { grid-template-columns: 1fr; }
     }
     .number-card { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 15px; text-align: center; }
-    .number-val { font-size: 24px; font-weight: 900; color: #1e3a8a; line-height: 1.1; margin-bottom: 2px; }
+    .number-val { font-size: 22px; font-weight: 900; color: #1e3a8a; line-height: 1.1; margin-bottom: 2px; }
     .number-lbl { font-size: 9.5px; font-weight: 800; color: #475569; line-height: 1.3; }
 
-    /* Chronologie par blocs de phases colorés connectés */
-    .timeline-phases-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    /* Chronologie Horizontale */
+    .timeline-horizontal { display: flex; align-items: stretch; justify-content: space-between; gap: 8px; }
     @media (max-width: 768px) {
-        .timeline-phases-grid { grid-template-columns: 1fr; }
+        .timeline-horizontal { flex-direction: column; gap: 15px; }
     }
-    .phase-block { border-radius: var(--radius-md); padding: 18px; border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 8px; position: relative; }
-    .pb-phase1 { background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 100%); border-left: 6px solid #eab308; }
-    .pb-phase1 .phase-name { color: #b45309; }
-    .pb-phase2 { background: linear-gradient(135deg, #fee2e2 0%, #fef2f2 100%); border-left: 6px solid #dc2626; }
-    .pb-phase2 .phase-name { color: #b91c1c; }
-    .pb-phase3 { background: linear-gradient(135deg, #ffedd5 0%, #fff7ed 100%); border-left: 6px solid #ea580c; }
-    .pb-phase3 .phase-name { color: #c2410c; }
-    .pb-phase4 { background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 100%); border-left: 6px solid #2563eb; }
-    .pb-phase4 .phase-name { color: #1d4ed8; }
-    
-    .phase-header { display: flex; justify-content: space-between; align-items: center; }
-    .phase-name { font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.8px; }
-    .phase-emoji { font-size: 22px; }
-    .phase-title { font-size: var(--text-sm); font-weight: 900; color: #0f172a; line-height: 1.2; text-transform: uppercase; }
-    .phase-desc { margin: 0; font-size: 12px; color: #334155; line-height: 1.5; }
+    .timeline-item-h { flex: 1; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 15px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; }
+    .timeline-circle { width: 24px; height: 24px; border-radius: 50%; background: #2563eb; color: #ffffff; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+    .timeline-phase-h { font-size: 9.5px; font-weight: 900; text-transform: uppercase; color: #2563eb; letter-spacing: 0.5px; }
+    .timeline-date-h { font-size: 13px; font-weight: 850; color: #0f172a; }
+    .timeline-desc-h { font-size: 12px; color: #475569; margin: 0; line-height: 1.45; }
+    .timeline-arrow { display: flex; align-items: center; justify-content: center; font-size: 18px; color: #94a3b8; }
+    @media (max-width: 768px) {
+        .timeline-arrow { display: none; }
+    }
 
     /* Tableau régional épuré */
     .table-responsive { width: 100%; overflow-x: auto; border-radius: var(--radius-md); border: 1px solid #cbd5e1; box-shadow: 0 4px 6px rgba(0,0,0,0.01); }
     .regional-table { width: 100%; border-collapse: collapse; text-align: left; font-size: var(--text-sm); }
-    .regional-table th { background-color: #0f172a; color: #ffffff; font-weight: 900; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 15px; border-bottom: 2px solid #cbd5e1; }
-    .regional-table td { padding: 12px 15px; border-bottom: 1px solid #cbd5e1; color: #334155; }
+    .regional-table th { background-color: #0f172a; color: #ffffff; font-weight: 900; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 15px; }
+    .regional-table td { padding: 12px 15px; border-bottom: 1px solid #e2e8f0; color: #334155; }
+    .regional-table tr:nth-child(even) { background-color: #f8fafc; }
     .regional-table tr:last-child td { border-bottom: none; }
-    .badge-temp { font-weight: 900; color: #ffffff; background: #dc2626; padding: 5px 10px; border-radius: 8px; font-size: 12.5px; display: inline-block; box-shadow: 0 2px 5px rgba(220,38,38,0.15); }
+    .badge-temp { font-weight: 900; color: #ffffff; background: #dc2626; padding: 5px 10px; border-radius: 8px; font-size: 12.5px; display: inline-block; }
 
     /* Graphiques Météo plein format */
     .meteo-images-container { display: flex; flex-direction: column; gap: 25px; }
@@ -925,8 +880,6 @@ def main():
     .bg-median { background-color: #f59e0b; }
     .bg-minor { background-color: #ef4444; }
     .sc-text { margin: 0; font-size: 12.5px; line-height: 1.5; color: #334155; }
-    .sc-text ul { margin: 6px 0 0 0; padding-left: 15px; }
-    .sc-text li { margin-bottom: 3px; }
 
     .confidence-panel { background: #ffffff; border-radius: var(--radius-md); padding: 18px; border: 1px solid #cbd5e1; display: flex; flex-direction: column; gap: 10px; }
     .confidence-head { display: flex; justify-content: space-between; align-items: center; }
@@ -981,7 +934,6 @@ def main():
             <div class="meteo-images-container">{html_images_block}</div>
             """
         
-        express = data.get("express", {})
         timeline = data.get("timeline", {})
         regional = data.get("regional", {})
         conf = data.get("confidence", {})
@@ -989,6 +941,8 @@ def main():
         scenarios = data.get("scenarios", {})
         social = data.get("social_pack", {}) or {}
         alert = data.get("alert", {}) or {}
+        kpis = data.get("kpis", {}) or {}
+        impacts = data.get("impacts", {}) or {}
 
         # Nettoyage des posts sociaux pour éviter les backslashes dans le f-string
         linkedin_clean = social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')
@@ -997,9 +951,8 @@ def main():
         tiktok_clean = social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')
         instagram_clean = social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')
 
-        # Couleur dynamique du badge de confiance et calcul du score de confiance
+        # Couleur dynamique du badge de confiance
         conf_score_raw = conf.get('score', '4/5')
-        conf_percent = parse_score(conf_score_raw) * 20
         conf_class = "conf-badge-green"
         if "3/" in conf_score_raw:
             conf_class = "conf-badge-orange"
@@ -1044,12 +997,6 @@ def main():
         if not key_numbers_html:
             key_numbers_html = "<div style='grid-column: span 5; text-align: center; color: #64748b; font-style: italic; padding: 15px;'>Aucune donnée chiffrée remarquable.</div>"
 
-        # Extraction des émojis et textes pour la frise chronologique
-        p1_emoji, p1_text = extract_emoji_and_text(timeline.get('phase_1', ''))
-        p2_emoji, p2_text = extract_emoji_and_text(timeline.get('phase_2', ''))
-        p3_emoji, p3_text = extract_emoji_and_text(timeline.get('phase_3', ''))
-        p4_emoji, p4_text = extract_emoji_and_text(timeline.get('phase_4', ''))
-
         # Traitement du tableau régional
         hdf_data = parse_region_line(regional.get('hdf_north', ''))
         atl_data = parse_region_line(regional.get('atlantic', ''))
@@ -1084,14 +1031,14 @@ def main():
 
         # Traitement du résumé en 10s
         summary_10s_html = ""
-        summary_10s_raw = data.get("summary_10s", "")
+        summary_10s_raw = data.get("takeaways_10s", "")
         if summary_10s_raw:
             lines_10s = [l.strip("-* ").strip() for l in summary_10s_raw.split("\n") if l.strip()]
             for l in lines_10s:
                 if l:
                     summary_10s_html += f"<li>{l}</li>"
         if not summary_10s_html:
-            summary_10s_html = "<li>Résumé des tendances en cours d'établissement.</li>"
+            summary_10s_html = "<li>Synthèse des faits disponible.</li>"
 
         # Traitement du bandeau d'alerte supérieur
         alert_lvl = alert.get('level', 'Vert').strip().replace('[', '').replace(']', '')
@@ -1106,28 +1053,6 @@ def main():
             alert_class_suffix = "Vert"
         alert_bg_class = f"alert-banner-{alert_class_suffix}"
 
-        # Mini Sparklines (Inline SVG)
-        # 1. Temp Max Trend SVG (Ascending Curve with Red Dot & Label)
-        spark_temp_max = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><path d="M 10,25 L 30,20 L 50,8 L 70,12 L 90,22" fill="none" stroke="#dc2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="50" cy="8" r="4" fill="#dc2626"/></svg>'
-        # 2. Temp Min Trend SVG (Stable-low Blue Curve)
-        spark_temp_min = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><path d="M 10,18 L 30,16 L 50,22 L 70,18 L 90,16" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="50" cy="22" r="3.5" fill="#2563eb"/></svg>'
-        # 3. Anomaly Trend SVG (Peak Curve)
-        spark_anomaly = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><path d="M 10,26 L 30,22 L 50,10 L 70,24 L 90,26" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="50" cy="10" r="3.5" fill="#f97316"/></svg>'
-        # 4. Duration SVG (Horizontal Progress bar)
-        spark_duration = '<svg width="100" height="15" viewBox="0 0 100 15" style="display:block; margin: 12px auto 0 auto;"><rect x="0" y="3" width="100" height="8" rx="4" fill="#e2e8f0"/><rect x="0" y="3" width="80" height="8" rx="4" fill="#4b5563"/></svg>'
-        # 5. Risk SVG (Vivid Risk progression bar)
-        spark_risk = '<svg width="100" height="15" viewBox="0 0 100 15" style="display:block; margin: 12px auto 0 auto;"><rect x="0" y="3" width="100" height="8" rx="4" fill="#e2e8f0"/><rect x="0" y="3" width="90" height="8" rx="4" fill="#ea580c"/></svg>'
-        # 6. Confidence SVG (Target target dot)
-        spark_conf = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><circle cx="50" cy="15" r="10" fill="none" stroke="#10b981" stroke-width="2"/><circle cx="50" cy="15" r="3.5" fill="#10b981"/></svg>'
-        # 7. Precip expected SVG (Histogram bars)
-        spark_precip = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><rect x="15" y="20" width="8" height="6" rx="2" fill="#93c5fd"/><rect x="35" y="12" width="8" height="14" rx="2" fill="#3b82f6"/><rect x="55" y="24" width="8" height="2" rx="2" fill="#93c5fd"/><rect x="75" y="17" width="8" height="9" rx="2" fill="#3b82f6"/></svg>'
-        # 8. Wind expected SVG (Wind Waves)
-        spark_wind = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><path d="M 10,12 C 25,12 30,8 40,12 C 50,16 55,12 70,12 C 80,12 90,15" fill="none" stroke="#4b5563" stroke-width="2" stroke-linecap="round"/><path d="M 15,22 C 30,22 35,20 45,22 C 55,24 60,22 75,22" fill="none" stroke="#9ca3af" stroke-width="1.2" stroke-linecap="round"/></svg>'
-        # 9. General Trend SVG (Arrows shape path)
-        spark_trend = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><path d="M 15,22 L 45,8 L 60,8 L 85,22" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 73,22 L 85,22 L 85,12" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round"/></svg>'
-        # 10. Probability SVG (Arc gauge)
-        spark_prob = '<svg width="100" height="30" viewBox="0 0 100 30" style="display:block; margin: 10px auto 0 auto;"><path d="M 20,25 A 30,30 0 0,1 80,25" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/><path d="M 20,25 A 30,30 0 0,1 68,10" fill="none" stroke="#06b6d4" stroke-width="4" stroke-linecap="round"/></svg>'
-
         divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
         weeks_html += f"""
         {divider}
@@ -1138,100 +1063,62 @@ def main():
             <div class="week-title-line2">{data.get('title_line2', 'Synthèse des prévisions')}</div>
         </div>
         
-        <!-- BANDEAU D'ALERTE SPECTACULAIRE -->
-        <div class="alert-banner {alert_bg_class}">
-            <div class="alert-main-row">
-                <div class="alert-left">
-                    <span class="alert-badge-top">Alerte Météo {alert_lvl}</span>
-                    <h2 class="alert-title-lg">{alert.get('event_type', 'Événement')}</h2>
-                    <div class="alert-date-block">
-                        <span>PÉRIODE :</span>
-                        <span>{alert.get('start', '-')} au {alert.get('end', '-')}</span>
-                    </div>
-                </div>
-                <div class="alert-right-temp">
-                    {alert.get('temp_max', '-').replace('°C','').replace('°','') or '-'}<span>°</span>
-                </div>
-            </div>
-            <div class="alert-details-grid">
-                <div class="alert-detail-item">
-                    <span class="alert-detail-lbl">Risque Dominant</span>
-                    <span class="alert-detail-val">{alert.get('main_risk', '-')}</span>
-                </div>
-                <div class="alert-detail-item">
-                    <span class="alert-detail-lbl">Indice de Confiance</span>
-                    <span class="alert-detail-val">🟢 {alert.get('confidence', '-')}</span>
-                </div>
-                <div class="alert-detail-item">
-                    <span class="alert-detail-lbl">Impact Population</span>
-                    <span class="alert-detail-val">⚠️ ÉLEVÉ (Vigilance)</span>
+        <!-- BANDEAU DE SYNTHÈSE PLEINE LARGEUR (REMPLACE L'ANCIEN BANDEAU GEANT ROUGE) -->
+        <div class="alert-banner {alert_bg_class}" style="margin-bottom: 25px;">
+            <div class="alert-left">
+                <span class="alert-badge-top">Synthèse Exécutive - Alerte {alert_lvl}</span>
+                <h2 class="alert-title-lg">{alert.get('event_type', 'Événement')}</h2>
+                <div class="alert-date-block">
+                    PÉRIODE CONCERNÉE : {alert.get('start', '-')} au {alert.get('end', '-')} (Fiabilité : {alert.get('confidence', '-')})
                 </div>
             </div>
         </div>
 
-        <!-- RÉSUMÉ EN 10 SECONDES -->
-        <div class="summary-10s-box">
-            <h3>⏱️ L'Essentiel en 10 Secondes</h3>
+        <!-- LIGNE DE 6 KPI DE POIDS ÉGAL -->
+        <div class="kpi-row-6" style="margin-bottom: 25px;">
+            <div class="kpi-card-6">
+                <div class="kpi-icon">🌡️</div>
+                <div class="kpi-val">{kpis.get('temp_range', '-')}</div>
+                <div class="kpi-lbl">Température</div>
+            </div>
+            <div class="kpi-card-6">
+                <div class="kpi-icon">📅</div>
+                <div class="kpi-val">{kpis.get('period', '-')}</div>
+                <div class="kpi-lbl">Période</div>
+            </div>
+            <div class="kpi-card-6">
+                <div class="kpi-icon">⏱️</div>
+                <div class="kpi-val">{kpis.get('duration', '-')}</div>
+                <div class="kpi-lbl">Durée</div>
+            </div>
+            <div class="kpi-card-6">
+                <div class="kpi-icon">🎯</div>
+                <div class="kpi-val">{kpis.get('confidence', '-')}</div>
+                <div class="kpi-lbl">Confiance</div>
+            </div>
+            <div class="kpi-card-6">
+                <div class="kpi-icon">⚠️</div>
+                <div class="kpi-val">{kpis.get('risks', '-')}</div>
+                <div class="kpi-lbl">Risques</div>
+            </div>
+            <div class="kpi-card-6">
+                <div class="kpi-icon">📍</div>
+                <div class="kpi-val">{kpis.get('zone', '-')}</div>
+                <div class="kpi-lbl">Zone</div>
+            </div>
+        </div>
+
+        <!-- RÉSUMÉ EN 10 SECONDES (4 à 6 phrases courtes) -->
+        <div class="summary-10s-box" style="margin-bottom: 25px;">
+            <h3>⏱️ À Retenir en 10 Secondes</h3>
             <ul class="summary-10s-list">
                 {summary_10s_html}
             </ul>
         </div>
 
-        <!-- TABLEAU DE BORD (10 CARTES VISUELLES & SPARKLINES) -->
-        <div class="section-title">📊 TABLEAU DE BORD DE L'ÉPISODE</div>
-        <div class="dashboard-grid-10">
-            <div class="dash-card-10 dc-start">
-                <div class="dash-card-10-icon">📅</div>
-                <div class="dash-card-10-val">{dash.get('start', '-')}</div>
-                <div class="dash-card-10-lbl">Début</div>
-                {spark_duration}
-            </div>
-            <div class="dash-card-10 dc-pic">
-                <div class="dash-card-10-icon">📈</div>
-                <div class="dash-card-10-val">{dash.get('pic', '-')}</div>
-                <div class="dash-card-10-lbl">Date du Pic</div>
-                {spark_temp_max}
-            </div>
-            <div class="dash-card-10 dc-end">
-                <div class="dash-card-10-icon">🛑</div>
-                <div class="dash-card-10-val">{dash.get('end', '-')}</div>
-                <div class="dash-card-10-lbl">Fin</div>
-                {spark_duration}
-            </div>
-            <div class="dash-card-10 dc-temp-max">
-                <div class="dash-card-10-icon">🔥</div>
-                <div class="dash-card-10-val">{dash.get('temp_max', '-')}</div>
-                <div class="dash-card-10-lbl">Temp. Max</div>
-                {spark_temp_max}
-            </div>
-            <div class="dash-card-10 dc-temp-min">
-                <div class="dash-card-10-icon">🌙</div>
-                <div class="dash-card-10-val">{dash.get('temp_min', '-')}</div>
-                <div class="dash-card-10-lbl">Temp. Min Nuit</div>
-                {spark_temp_min}
-            </div>
-            <div class="dash-card-10 dc-duration">
-                <div class="dash-card-10-icon">⏱️</div>
-                <div class="dash-card-10-val">{dash.get('duration', '-')}</div>
-                <div class="dash-card-10-lbl">Durée</div>
-                {spark_duration}
-            </div>
-            <div class="dash-card-10 dc-conf">
-                <div class="dash-card-10-icon">🎯</div>
-                <div class="dash-card-10-val">{dash.get('confidence', '-')}</div>
-                <div class="dash-card-10-lbl">Confiance</div>
-                {spark_conf}
-            </div>
-            <div class="dash-card-10 dc-trend">
-                <div class="dash-card-10-icon">🔄</div>
-                <div class="dash-card-10-val">{dash.get('evolution_trend', '-')}</div>
-                <div class="dash-card-10-lbl">Tendance</div>
-                {spark_trend}
-            </div>
-        </div>
-
-        <!-- JAUGES DE RISQUES & CONFIANCE QUALIFIÉES ET DÉTAILLÉES -->
-        <div class="dashboard-meters-row">
+        <!-- JAUGES DE RISQUES & CONFIANCE COMPACTES -->
+        <div class="section-title">📊 INDICES DE RISQUES PHYSIQUES</div>
+        <div class="dashboard-meters-row" style="margin-bottom: 25px;">
             <div class="meter-card-premium">
                 <div class="meter-card-header">
                     <h4>🔥 Chaleur</h4>
@@ -1247,7 +1134,7 @@ def main():
             </div>
             <div class="meter-card-premium">
                 <div class="meter-card-header">
-                    <h4>🌧️ Précipitations</h4>
+                    <h4>🌧️ Pluie</h4>
                     <span class="meter-badge mb-pluie">{get_score_label(dash.get('score_rain', '0/5'))}</span>
                 </div>
                 <div class="meter-track-premium">
@@ -1273,7 +1160,7 @@ def main():
             </div>
             <div class="meter-card-premium">
                 <div class="meter-card-header">
-                    <h4>💨 Vent Fort</h4>
+                    <h4>💨 Vent</h4>
                     <span class="meter-badge mb-vent">{get_score_label(dash.get('score_wind', '0/5'))}</span>
                 </div>
                 <div class="meter-track-premium">
@@ -1286,63 +1173,96 @@ def main():
             </div>
         </div>
 
-        <!-- 2. GRAPHIQUES METEO PLEIN FORMAT (REMONTÉS) -->
-        {html_images_block}
-
-        <!-- 3. RUBRIQUE "LES CHIFFRES À RETENIR" -->
-        <div class="section-title">🔢 LES CHIFFRES À RETENIR</div>
-        <div class="numbers-grid">
-            {key_numbers_html}
+        <!-- BLOC IMPACTS SECTORIELS ATTENDUS -->
+        <div class="section-title">⚠️ IMPACTS ATTENDUS PAR SECTEUR</div>
+        <div class="impacts-grid" style="margin-bottom: 25px;">
+            <div class="impact-item">
+                <span class="impact-icon">👥</span>
+                <div class="impact-content">
+                    <strong class="impact-title">Population</strong>
+                    <span class="impact-text">{impacts.get('population', '-')}</span>
+                </div>
+            </div>
+            <div class="impact-item">
+                <span class="impact-icon">🚗</span>
+                <div class="impact-content">
+                    <strong class="impact-title">Déplacements</strong>
+                    <span class="impact-text">{impacts.get('travel', '-')}</span>
+                </div>
+            </div>
+            <div class="impact-item">
+                <span class="impact-icon">🏗️</span>
+                <div class="impact-content">
+                    <strong class="impact-title">Travaux & BTP</strong>
+                    <span class="impact-text">{impacts.get('work', '-')}</span>
+                </div>
+            </div>
+            <div class="impact-item">
+                <span class="impact-icon">🌾</span>
+                <div class="impact-content">
+                    <strong class="impact-title">Agriculture</strong>
+                    <span class="impact-text">{impacts.get('agri', '-')}</span>
+                </div>
+            </div>
+            <div class="impact-item">
+                <span class="impact-icon">⚡</span>
+                <div class="impact-content">
+                    <strong class="impact-title">Orages & Réseaux</strong>
+                    <span class="impact-text">{impacts.get('storm', '-')}</span>
+                </div>
+            </div>
+            <div class="impact-item">
+                <span class="impact-icon">🌿</span>
+                <div class="impact-content">
+                    <strong class="impact-title">Sécheresse & Eau</strong>
+                    <span class="impact-text">{impacts.get('drought', '-')}</span>
+                </div>
+            </div>
         </div>
 
-        <!-- 4. CHRONOLOGIE EN BLOCS DE PHASES COLORÉS CONNECTÉS -->
-        <div class="section-title">🗓️ CHRONOLOGIE EN PHASES</div>
-        <div class="timeline-phases-grid">
-            <div class="phase-block pb-phase1">
-                <div class="phase-header">
-                    <span class="phase-name">Phase 1</span>
-                    <span class="phase-emoji">{p1_emoji}</span>
-                </div>
-                <div class="phase-title">Montée en puissance</div>
-                <p class="phase-desc">{p1_text}</p>
+        <!-- CHRONOLOGIE HORIZONTALE EN 4 ETAPES -->
+        <div class="section-title">🗓️ CHRONOLOGIE DE L'ÉPISODE</div>
+        <div class="timeline-horizontal" style="margin-bottom: 25px;">
+            <div class="timeline-item-h">
+                <div class="timeline-circle">1</div>
+                <strong class="timeline-phase-h">Début</strong>
+                <span class="timeline-date-h">{timeline.get('date_debut', '-')}</span>
+                <p class="timeline-desc-h">{timeline.get('desc_debut', '-')}</p>
             </div>
-            <div class="phase-block pb-phase2">
-                <div class="phase-header">
-                    <span class="phase-name">Phase 2</span>
-                    <span class="phase-emoji">{p2_emoji}</span>
-                </div>
-                <div class="phase-title">Pic d'intensité</div>
-                <p class="phase-desc">{p2_text}</p>
+            <div class="timeline-arrow">➔</div>
+            <div class="timeline-item-h">
+                <div class="timeline-circle">2</div>
+                <strong class="timeline-phase-h">Montée</strong>
+                <span class="timeline-date-h">{timeline.get('date_montee', '-')}</span>
+                <p class="timeline-desc-h">{timeline.get('desc_montee', '-')}</p>
             </div>
-            <div class="phase-block pb-phase3">
-                <div class="phase-header">
-                    <span class="phase-name">Phase 3</span>
-                    <span class="phase-emoji">{p3_emoji}</span>
-                </div>
-                <div class="phase-title">Maintien chaud</div>
-                <p class="phase-desc">{p3_text}</p>
+            <div class="timeline-arrow">➔</div>
+            <div class="timeline-item-h">
+                <div class="timeline-circle">3</div>
+                <strong class="timeline-phase-h">Pic</strong>
+                <span class="timeline-date-h">{timeline.get('date_pic', '-')}</span>
+                <p class="timeline-desc-h">{timeline.get('desc_pic', '-')}</p>
             </div>
-            <div class="phase-block pb-phase4">
-                <div class="phase-header">
-                    <span class="phase-name">Phase 4</span>
-                    <span class="phase-emoji">{p4_emoji}</span>
-                </div>
-                <div class="phase-title">Dégradation / Tempêtes</div>
-                <p class="phase-desc">{p4_text}</p>
+            <div class="timeline-arrow">➔</div>
+            <div class="timeline-item-h">
+                <div class="timeline-circle">4</div>
+                <strong class="timeline-phase-h">Fin</strong>
+                <span class="timeline-date-h">{timeline.get('date_fin', '-')}</span>
+                <p class="timeline-desc-h">{timeline.get('desc_fin', '-')}</p>
             </div>
         </div>
 
-        <!-- 5. TABLEAU DE SYNTHÈSE RÉGIONALE SYNTHÉTIQUE -->
-        <div class="section-title">🗺️ SYNTHÈSE DES RÉGIONS</div>
-        <div class="table-responsive">
+        <!-- TABLEAU DE SYNTHÈSE RÉGIONALE LISIBLE -->
+        <div class="section-title">🗺️ TENDANCE PAR GRANDES RÉGIONS</div>
+        <div class="table-responsive" style="margin-bottom: 25px;">
             <table class="regional-table">
                 <thead>
                     <tr>
-                        <th>Grande Région</th>
-                        <th>🌡️ Temp. Attendue</th>
-                        <th>🌧️ Niveau de Pluie</th>
-                        <th>⚠️ Risque Dominant</th>
-                        <th>🎯 Confiance</th>
+                        <th>Région</th>
+                        <th>🌡️ Températures</th>
+                        <th>🌧️ Pluviométrie</th>
+                        <th>⚠️ Risque Majeur</th>
+                        <th>🎯 Fiabilité</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1351,101 +1271,105 @@ def main():
             </table>
         </div>
 
-        <!-- 6. ANALYSE DÉTAILLÉE (SCÉNARIOS & INCERTITUDES) DÉPORTÉE PLUS BAS -->
-        <div class="detailed-analysis-panel">
-            <h3 class="detailed-analysis-title">🔮 ANALYSE DÉTAILLÉE & SCÉNARIOS</h3>
+        <!-- GRAPHIQUES METEO DE TENDANCE (REMONTÉS JUSTE APRÈS LA SYNTHÈSE) -->
+        {html_images_block}
+
+        <!-- RUBRIQUE "LES CHIFFRES À RETENIR" -->
+        <div class="section-title">🔢 LES CHIFFRES À RETENIR</div>
+        <div class="numbers-grid" style="margin-bottom: 25px;">
+            {key_numbers_html}
+        </div>
+
+        <!-- ANALYSE DÉTAILLÉE (SCÉNARIOS & INCERTITUDES) DÉPORTÉE PLUS BAS -->
+        <div class="detailed-analysis-panel" style="margin-bottom: 25px;">
+            <h3 class="detailed-analysis-title">🔮 SCÉNARIOS DE MODÉLISATIONS & ANALYSES</h3>
             
             <div class="scenarios-container">
                 <div class="scenario-card sc-major">
                     <div class="sc-header">
-                        <h3>🟢 {scenarios.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h3>
-                        <span class="sc-prob bg-major">{scenarios.get('majoritaire', {}).get('prob', '65%')}</span>
+                        <h3>🟢 Scénario Majoritaire ({scenarios.get('majoritaire', {}).get('prob', '65%')})</h3>
                     </div>
+                    <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#10b981;">{scenarios.get('majoritaire', {}).get('title', '')}</strong>
                     <p class="sc-text">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
                 </div>
                 
                 <div class="scenario-card sc-median">
                     <div class="sc-header">
-                        <h3>🟡 {scenarios.get('median', {}).get('title', 'Scénario Alternatif')}</h3>
-                        <span class="sc-prob bg-median">{scenarios.get('median', {}).get('prob', '25%')}</span>
+                        <h3>🟡 Scénario Alternatif ({scenarios.get('median', {}).get('prob', '25%')})</h3>
                     </div>
+                    <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#f59e0b;">{scenarios.get('median', {}).get('title', '')}</strong>
                     <p class="sc-text">{scenarios.get('median', {}).get('desc', '')}</p>
                 </div>
                 
                 <div class="scenario-card sc-minor">
                     <div class="sc-header">
-                        <h3>🔴 {scenarios.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h3>
-                        <span class="sc-prob bg-minor">{scenarios.get('minoritaire', {}).get('prob', '10%')}</span>
+                        <h3>🔴 Scénario Minoritaire ({scenarios.get('minoritaire', {}).get('prob', '10%')})</h3>
                     </div>
+                    <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#ef4444;">{scenarios.get('minoritaire', {}).get('title', '')}</strong>
                     <p class="sc-text">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
                 </div>
             </div>
 
             <!-- INCERTITUDES -->
-            <div class="confidence-panel" style="padding: 15px; margin-bottom: 20px;">
+            <div class="confidence-panel" style="padding: 15px; margin-bottom: 0;">
                 <div class="confidence-head" style="margin-bottom: 8px;">
-                    <strong>Fiabilité du Consensus des Modèles</strong>
-                    <span class="{conf_class}" style="padding: 4px 12px; border-radius: 9999px; font-weight: 800; font-size: 11px; color: white; {get_badge_color_class(conf_label)}">Note : {conf_score_raw} ({conf_label})</span>
+                    <strong>Incertitudes Modélisations</strong>
+                    <span class="{conf_class}" style="padding: 4px 12px; border-radius: 9999px; font-weight: 800; font-size: 11px; color: white; {get_badge_color_class(conf_label)}">Consensus : {conf_score_raw}</span>
                 </div>
                 <div class="uncertainties-box">
-                    <strong style="display: block; margin-bottom: 6px; color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes Majeures & Points à Surveiller :</strong>
+                    <strong style="display: block; margin-bottom: 6px; color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes & Points Clés :</strong>
                     {data.get('key_uncertainties', '')}\n{data.get('monitoring_points', '')}
                 </div>
             </div>
 
             <!-- À RETENIR -->
-            <div class="takeaways-panel">
-                <h3>📌 À Retenir — L'Essentiel</h3>
+            <div class="takeaways-panel" style="margin-bottom: 0;">
+                <h3>📌 Synthèse Récapitulative</h3>
                 <ul>
                     {takeaways_li_html}
                 </ul>
             </div>
         </div>
 
-        <!-- 7. PACK RÉSEAUX SOCIAUX PRÊT À PUBLIER -->
-        <div class="section-title">📢 PACK RÉSEAUX SOCIAUX (PRÊT À DIFFUSER)</div>
+        <!-- PACK RÉSEAUX SOCIAUX -->
+        <div class="section-title">📢 PACK DE DIFFUSION RÉSEAUX SOCIAUX</div>
         <div class="social-pack-container">
-            <!-- LinkedIn -->
             <div class="social-platform-card">
                 <div class="social-platform-header sp-linkedin">
-                    <span>🔗 LinkedIn (Storytelling Expert - {len(linkedin_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                    <span>🔗 LinkedIn ({len(linkedin_clean)} car.)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
                 </div>
                 <div class="social-platform-body">{linkedin_clean}</div>
             </div>
 
-            <!-- Facebook -->
             <div class="social-platform-card">
                 <div class="social-platform-header sp-facebook">
-                    <span>👥 Facebook (Communautaire - {len(facebook_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                    <span>👥 Facebook ({len(facebook_clean)} car.)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
                 </div>
                 <div class="social-platform-body">{facebook_clean}</div>
             </div>
 
-            <!-- X (Twitter) -->
             <div class="social-platform-card">
                 <div class="social-platform-header sp-twitter">
                     <span>🐦 X (Twitter - {len(twitter_clean)} / 280 car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
                 </div>
                 <div class="social-platform-body">{twitter_clean}</div>
             </div>
 
-            <!-- TikTok -->
             <div class="social-platform-card">
                 <div class="social-platform-header sp-tiktok">
-                    <span>🎵 TikTok (Description - {len(tiktok_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                    <span>🎵 TikTok ({len(tiktok_clean)} car.)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
                 </div>
                 <div class="social-platform-body">{tiktok_clean}</div>
             </div>
 
-            <!-- Instagram -->
             <div class="social-platform-card">
                 <div class="social-platform-header sp-instagram">
-                    <span>📸 Instagram (Légende - {len(instagram_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                    <span>📸 Instagram ({len(instagram_clean)} car.)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
                 </div>
                 <div class="social-platform-body">{instagram_clean}</div>
             </div>
@@ -1457,7 +1381,7 @@ def main():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyses & Tendances Météo - Forum</title>
+    <title>Analyses & Tendances Météo - Tableau de Bord</title>
     <style>{style}</style>
 </head>
 <body>
@@ -1465,7 +1389,7 @@ def main():
         <div class="header">
             <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
             <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</h1>
-            <p>Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} pour les 2 prochaines semaines</p>
+            <p>Tableau de bord de synthèse du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
         </div>
         <div class="content">
             {weeks_html}
