@@ -703,12 +703,14 @@ Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title
 
 Analyse ces discussions en appliquant scrupuleusement la vérification de cohérence et génère le rapport au format JSON spécifié."""
 
-    response = call_llm(system_prompt, user_prompt)
-    
     data = None
-    if response:
+    curr_user_prompt = user_prompt
+    for attempt in range(1, 4):
+        response = call_llm(system_prompt, curr_user_prompt)
+        if not response:
+            continue
         try:
-            print(f"[{topic_idx+1}] Extraction du JSON...")
+            print(f"[{topic_idx+1}] Extraction du JSON (Tentative {attempt}/3)...")
             match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
             if match:
                 json_str = match.group(1)
@@ -722,9 +724,13 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
             
             data = json.loads(json_str)
             print(f"[{topic_idx+1}] Parsing JSON réussi avec succès !")
+            break
         except Exception as e:
-            print(f"Erreur parsing JSON : {e}")
-            print(f"Réponse brute de l'IA : {response[:500]}...")
+            print(f"Erreur parsing JSON (Tentative {attempt}/3) : {e}")
+            if attempt == 3:
+                print(f"Réponse brute de l'IA lors de l'échec final : {response[:1000]}...")
+            else:
+                curr_user_prompt = user_prompt + f"\n\n[ERREUR CONSTATÉE] Lors de la tentative précédente, le format JSON généré était invalide : {e}. Veille absolument à générer un JSON valide avec toutes les virgules fermées et sans aucun guillemet non échappé."
             
     return {"data": data, "images": downloaded_images}
 def main():
@@ -874,7 +880,7 @@ def main():
     results = []
     for idx, (topic, sem_type, date_context) in enumerate(topics_to_process):
         res = process_topic(topic, idx, date_context)
-        if res:
+        if res and res.get("data"):
             results.append(res)
             
     if not results:
