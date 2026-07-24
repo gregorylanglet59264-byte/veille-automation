@@ -18,6 +18,7 @@ import json
 import time
 import argparse
 import datetime
+import concurrent.futures
 import urllib.request
 import urllib.parse
 import urllib.error
@@ -29,7 +30,6 @@ import re
 import email.utils
 from email.utils import make_msgid, formatdate
 import socket
-socket.setdefaulttimeout(10)
 
 # Dictionnaires de traduction pour les dates dynamiques
 MONTHS_FR = [
@@ -93,9 +93,11 @@ FEEDS_MONDIAL = {
 }
 # Flux RSS Hauts-de-France uniquement
 FEEDS_HDF = {
-    "France 3 HDF":    "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
-    "France 3 NPC":    "https://france3-regions.francetvinfo.fr/hauts-de-france/nord-pas-de-calais/rss",
-    "La Voix du Nord": "https://www.lavoixdunord.fr/arc/outboundfeeds/rss/?outputType=xml",
+    "France 3 HDF":       "https://france3-regions.francetvinfo.fr/hauts-de-france/rss",
+    "France 3 NPC":       "https://france3-regions.francetvinfo.fr/hauts-de-france/nord-pas-de-calais/rss",
+    "La Voix du Nord":    "https://www.lavoixdunord.fr/arc/outboundfeeds/rss/?outputType=xml",
+    "BFM Grand Lille":    "https://www.bfmtv.com/rss/grand-lille/",
+    "BFM Grand Littoral": "https://www.bfmtv.com/rss/grand-littoral/",
 }
 # Flux RSS IA / Tech
 FEEDS_IA = {
@@ -104,6 +106,7 @@ FEEDS_IA = {
     "Numerama":         "https://www.numerama.com/feed/",
     "TechCrunch":       "https://techcrunch.com/feed/",
     "MIT Tech Review":  "https://www.technologyreview.com/feed/",
+    "BFM Tech IA":      "https://www.bfmtv.com/rss/tech/intelligence-artificielle/",
 }
 # Flux RSS Bons Plans IA uniquement
 FEEDS_BONSPLANS = {
@@ -196,7 +199,7 @@ def call_llm(system_prompt, user_prompt):
         }
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=90) as response:
+            with urllib.request.urlopen(req, timeout=30) as response:
                 res_data = json.loads(response.read().decode("utf-8"))
                 text = res_data["candidates"][0]["content"]["parts"][0]["text"]
                 return text.replace('\ufeff', '').replace('\ufffe', '')
@@ -219,7 +222,7 @@ def call_llm(system_prompt, user_prompt):
         }
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=90) as response:
+            with urllib.request.urlopen(req, timeout=30) as response:
                 res_data = json.loads(response.read().decode("utf-8"))
                 text = res_data["choices"][0]["message"]["content"]
                 return text.replace('\ufeff', '').replace('\ufffe', '')
@@ -262,10 +265,10 @@ def llm_parse_json(system_prompt, user_prompt, label="", retries=3, delay=20):
 # 3. Rédacteurs thématiques
 def build_actu_report(date_str):
     print("[Rapport] Collecte et rédaction Actualités (France, International, Mondial, HDF)...")
-    raw_national      = _fetch_feeds(FEEDS_NATIONAL, max_articles=40)
-    raw_international = _fetch_feeds(FEEDS_INTERNATIONAL, max_articles=40)
-    raw_mondial       = _fetch_feeds(FEEDS_MONDIAL, max_articles=40)
-    raw_hdf           = _fetch_feeds(FEEDS_HDF, max_articles=40)
+    raw_national      = _fetch_feeds(FEEDS_NATIONAL, max_articles=15)
+    raw_international = _fetch_feeds(FEEDS_INTERNATIONAL, max_articles=15)
+    raw_mondial       = _fetch_feeds(FEEDS_MONDIAL, max_articles=15)
+    raw_hdf           = _fetch_feeds(FEEDS_HDF, max_articles=15)
     raw_data = {
         "france":        raw_national,
         "international": raw_international,
@@ -293,7 +296,7 @@ def build_actu_report(date_str):
 
 def build_ia_report(date_str):
     print("[Rapport] Collecte et rédaction Intelligence Artificielle...")
-    raw_articles = _fetch_feeds(FEEDS_IA, max_articles=50, max_hours=48)
+    raw_articles = _fetch_feeds(FEEDS_IA, max_articles=20, max_hours=48)
 
     system_prompt = (
         "Tu es un analyste IA senior. Ton rôle est de sélectionner et décrire les nouveautés majeures de l'écosystème IA.\n"
@@ -313,7 +316,7 @@ def build_ia_report(date_str):
 
 def build_meteo_report(date_str):
     print("[Rapport] Collecte et rédaction Météo & Climat...")
-    raw_articles = _fetch_feeds(FEEDS_METEO, max_articles=40, max_hours=48)
+    raw_articles = _fetch_feeds(FEEDS_METEO, max_articles=20, max_hours=48)
 
     system_prompt = (
         "Tu es un prévisionniste météo senior. Ton rôle est de lister les événements météo et climatologiques clés.\n"
@@ -334,7 +337,7 @@ def build_meteo_report(date_str):
 
 def build_intemperies_report(date_str):
     print("[Rapport] Collecte et rédaction Intempéries & Cyclones...")
-    raw_articles = _fetch_feeds(FEEDS_INTEMPERIES, max_articles=40, max_hours=48)
+    raw_articles = _fetch_feeds(FEEDS_INTEMPERIES, max_articles=20, max_hours=48)
 
     system_prompt = (
         "Tu es un expert en risques naturels et météorologiques. Ton rôle est de lister les événements d'intempéries et d'activité cyclonique clés.\n"
@@ -354,7 +357,7 @@ def build_intemperies_report(date_str):
 
 def build_bonsplans_report(date_str):
     print("[Rapport] Collecte et rédaction Bons Plans IA & Outils...")
-    raw_articles = _fetch_feeds(FEEDS_BONSPLANS, max_articles=30, max_hours=168)  # 7 jours
+    raw_articles = _fetch_feeds(FEEDS_BONSPLANS, max_articles=15, max_hours=168)  # 7 jours
     if not raw_articles:
         print("[Rapport] Bons Plans : aucun article trouvé dans les flux dédiés.")
         return []
@@ -814,15 +817,24 @@ def main():
     except Exception as e:
         print(f"Erreur lors du scan YouTube : {e}")
         
-    yt_report = process_youtube_report()
-    
-    # 2. Collecte & Rédaction toutes thématiques
-    print("\n--- Étape 2 : Rédactions Thématiques ---")
-    actu_report        = build_actu_report(date_str)        or {"mondial": [], "international": [], "france": [], "hdf": []}
-    ia_report          = build_ia_report(date_str)          or []
-    meteo_report       = build_meteo_report(date_str)       or []
-    intemperies_report = build_intemperies_report(date_str) or []
-    bonsplans_report   = build_bonsplans_report(date_str)   or []
+    # 2. Collecte & Rédaction toutes thématiques en parallèle
+    print("\n--- Étape 2 : Rédactions Thématiques en Parallèle ---")
+    start_time = time.time()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        future_yt = executor.submit(process_youtube_report)
+        future_actu = executor.submit(build_actu_report, date_str)
+        future_ia = executor.submit(build_ia_report, date_str)
+        future_meteo = executor.submit(build_meteo_report, date_str)
+        future_intemperies = executor.submit(build_intemperies_report, date_str)
+        future_bonsplans = executor.submit(build_bonsplans_report, date_str)
+
+        yt_report          = future_yt.result()          or []
+        actu_report        = future_actu.result()        or {"mondial": [], "international": [], "france": [], "hdf": []}
+        ia_report          = future_ia.result()          or []
+        meteo_report       = future_meteo.result()       or []
+        intemperies_report = future_intemperies.result() or []
+        bonsplans_report   = future_bonsplans.result()   or []
+    print(f"Rédactions thématiques terminées en {time.time() - start_time:.2f} secondes.")
     
     # 3. Rédaction de la Synthèse
     print("\n--- Étape 3 : Synthèse ---")
