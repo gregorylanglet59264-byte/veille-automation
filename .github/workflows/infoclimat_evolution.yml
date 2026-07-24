@@ -46,3 +46,11 @@ jobs:
           RECIPIENT_EMAILS: ${{ secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com' }}
         run: |
           python run_infoclimat.py
+
+      - name: Télécharger les bulletins HTML générés
+        uses: actions/upload-artifact@v4
+        with:
+          name: bulletins-tendance-meteo
+          path: |
+            bulletin_tendance_*.html
+            bulletin_infoclimat.html
