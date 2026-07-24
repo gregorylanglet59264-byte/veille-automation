@@ -805,86 +805,123 @@ def main():
         
     # Style CSS Premium & Responsive
     style = """
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f1f5f9; margin: 0; padding: 25px 15px; }
-    .container { max-width: 880px; background-color: #ffffff; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.09); border: 1px solid #cbd5e1; }
-    .header { background: linear-gradient(135deg, #0284c7 0%, #1e3a8a 60%, #0f172a 100%); color: #ffffff; padding: 40px 30px; text-align: center; }
-    .header h1 { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
-    .header p { margin: 10px 0 0 0; font-size: 14px; opacity: 0.92; }
-    .content { padding: 35px 30px; }
-    .week-divider { border-top: 3px dashed #94a3b8; margin: 55px 0; }
-    
-    .week-title-box { margin-bottom: 25px; padding-left: 16px; border-left: 6px solid #0284c7; }
-    .week-title-line1 { font-size: 22px; font-weight: 800; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; }
-    .week-title-line2 { font-size: 15px; font-weight: 600; color: #0284c7; margin-top: 4px; }
+    body { margin: 0; background: #eef3f8; font-family: Arial, Helvetica, sans-serif; color: #172033; font-size: 16px; line-height: 1.6; }
+    .wrap { max-width: 920px; margin: 22px auto; background: #fff; border: 1px solid #dce4ee; border-radius: 22px; overflow: hidden; box-shadow: 0 16px 42px rgba(28,48,75,.10); }
+    .pad { padding: 30px; }
+    .header { padding: 34px 30px; background: #102a43; color: #fff; }
+    .kicker { font-size: 13px; letter-spacing: 2px; text-transform: uppercase; font-weight: 800; color: #7dd3fc; }
+    .hero-title { font-size: 33px; line-height: 1.15; margin: 8px 0; font-weight: 850; letter-spacing: .2px; }
+    .sub { font-size: 15px; line-height: 1.55; color: #d7e5f2; }
+    .section { margin-top: 34px; }
+    .section-title { font-size: 16px; letter-spacing: .7px; text-transform: uppercase; color: #102a43; font-weight: 850; border-bottom: 2px solid #e8eef5; padding-bottom: 9px; margin-bottom: 15px; }
+    .week { border: 1px solid #d8e3ef; border-radius: 18px; overflow: hidden; margin-top: 22px; }
+    .week-head { padding: 22px 22px 18px; background: #f4f8fc; border-bottom: 1px solid #d8e3ef; }
+    .week-head h2 { font-size: 24px; line-height: 1.25; margin: 0 0 7px; color: #14395b; }
+    .week-head p { margin: 0; font-size: 15px; line-height: 1.55; color: #40556b; }
+    .alert { padding: 20px; border-radius: 15px; background: #102a43; color: #fff; margin-top: 18px; }
+    .alert.orange { background: #7c3f00; }
+    .alert.blue { background: #153e75; }
+    .alert.green { background: #065f46; }
+    .alert .eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; color: #bae6fd; font-weight: 800; }
+    .alert h3 { font-size: 21px; line-height: 1.35; margin: 7px 0 8px; }
+    .alert p { font-size: 14px; line-height: 1.55; margin: 0; color: #eaf4fb; }
+    .grid2, .grid3, .grid4 { display: table; width: 100%; table-layout: fixed; border-spacing: 10px; }
+    .cell { display: table-cell; vertical-align: top; }
+    .metric { border: 1px solid #dce6f0; background: #fff; border-radius: 14px; padding: 14px; text-align: center; height: 82px; }
+    .metric .big { font-size: 30px; font-weight: 900; color: #14395b; line-height: 1; }
+    .metric .label { margin-top: 7px; font-size: 12px; line-height: 1.45; text-transform: uppercase; letter-spacing: .7px; color: #60758a; font-weight: 800; }
+    .metric.hot .big { color: #b45309; }
+    .metric.risk .big { color: #b91c1c; }
+    .metric.good .big { color: #047857; }
+    .chips { margin: 12px 0 -4px; }
+    .chip { display: inline-block; padding: 6px 9px; margin: 0 5px 6px 0; border-radius: 999px; background: #e9f2f9; color: #173b5d; font-size: 12px; font-weight: 750; }
+    .chip.warn { background: #fff2dc; color: #914b00; }
+    .chip.red { background: #fee8e8; color: #991b1b; }
+    .chip.green { background: #e7f8ef; color: #087443; }
+    .timeline-table { width: 100%; border-collapse: separate; border-spacing: 8px; }
+    .timeline-table td { width: 25%; vertical-align: top; background: #f7fafc; border: 1px solid #dce6f0; border-top: 4px solid #1d78a8; border-radius: 12px; padding: 13px; }
+    .timeline-table strong { font-size: 12px; text-transform: uppercase; color: #14658d; letter-spacing: .5px; }
+    .timeline-table .dates { font-size: 14px; font-weight: 850; color: #172033; margin: 5px 0; }
+    .timeline-table .keys { font-size: 13px; line-height: 1.55; color: #304a62; }
+    .barbox { border: 1px solid #dce6f0; border-radius: 14px; padding: 16px; background: #fff; }
+    .barrow { margin: 11px 0; }
+    .barlabel { display: table; width: 100%; font-size: 12px; font-weight: 750; color: #3f556a; margin-bottom: 5px; }
+    .barlabel span { display: table-cell; }
+    .barlabel .right { text-align: right; }
+    .track { height: 12px; background: #e9eff5; border-radius: 999px; overflow: hidden; }
+    .fill { height: 12px; border-radius: 999px; background: #247ba0; }
+    .fill.orange { background: #d97706; }
+    .fill.red { background: #c2413a; }
+    .fill.green { background: #15936b; }
+    .fill.gray { background: #718096; }
+    .caption { font-size: 11px; color: #718096; line-height: 1.45; margin-top: 10px; }
+    .region { border: 1px solid #dce6f0; border-radius: 14px; padding: 15px; background: #fff; }
+    .region h4 { margin: 0 0 8px; font-size: 14px; color: #14395b; }
+    .region .numbers { font-size: 20px; color: #b45309; font-weight: 900; margin-bottom: 7px; }
+    .region p { margin: 0; font-size: 13.5px; line-height: 1.58; color: #40586e; }
+    .conf { display: table; width: 100%; border: 1px solid #dce6f0; border-radius: 14px; overflow: hidden; }
+    .conf > div { display: table-cell; padding: 16px; vertical-align: middle; }
+    .conf-score { width: 110px; text-align: center; background: #e8f7ef; }
+    .conf-score.conf-badge-orange { background: #fff3dd; }
+    .conf-score.conf-badge-red { background: #fee8e8; }
+    .conf-score .big { font-size: 34px; font-weight: 900; color: #087443; }
+    .conf-score .big.conf-text-orange { color: #a95c00; }
+    .conf-score .big.conf-text-red { color: #991b1b; }
+    .conf-text { font-size: 13.5px; line-height: 1.55; color: #40586e; }
+    .listbox { border-left: 5px solid #d97706; background: #fff8ec; border-radius: 12px; padding: 15px 17px; }
+    .listbox ul { margin: 0; padding-left: 18px; }
+    .listbox li { font-size: 13.5px; line-height: 1.55; color: #55452d; margin: 4px 0; }
+    .scenario { border: 1px solid #dce6f0; border-radius: 14px; padding: 16px; margin: 10px 0; background: #fff; }
+    .scenario.major { border-left: 6px solid #15936b; }
+    .scenario.medium { border-left: 6px solid #d97706; }
+    .scenario.minor { border-left: 6px solid #c2413a; }
+    .scenario-head { display: table; width: 100%; }
+    .scenario-head h4 { display: table-cell; margin: 0; font-size: 14px; color: #173b5d; }
+    .pct { display: table-cell; width: 60px; text-align: right; font-size: 18px; font-weight: 900; }
+    .scenario p { font-size: 13.5px; line-height: 1.5; color: #40586e; margin: 9px 0 0; }
+    .takeaway { background: #edf9f3; border: 1px solid #c3ead4; border-left: 6px solid #15936b; border-radius: 14px; padding: 17px; }
+    .takeaway b { font-size: 15px; color: #166534; display: block; margin-bottom: 8px; }
+    .takeaway li { font-size: 13.5px; line-height: 1.55; color: #215b43; margin: 5px 0; }
+    .detail { margin-top: 12px; border: 1px solid #dce6f0; border-radius: 13px; background: #fbfdff; padding: 14px; }
+    .detail-title { font-size: 12px; text-transform: uppercase; letter-spacing: .8px; font-weight: 850; color: #60758a; margin-bottom: 7px; }
+    .detail p { font-size: 13.5px; line-height: 1.57; color: #435970; margin: 0; }
+    .social { border: 1px solid #cfdce8; border-radius: 16px; overflow: hidden; background: #fff; margin-bottom: 18px; }
+    .social-head { background: #0a66c2; color: #fff; padding: 14px 17px; font-size: 14px; font-weight: 850; }
+    .social-body { padding: 19px; font-size: 14.5px; line-height: 1.64; color: #24384b; white-space: pre-wrap; font-family: Arial, sans-serif; }
+    .social-body strong { font-weight: 850; }
+    .copy-note { font-size: 11.5px; color: #718096; background: #f5f8fb; padding: 9px 17px; border-top: 1px solid #e1e9f1; }
+    .copy-btn-modern { background: #102a43; border: none; color: #ffffff; font-size: 11px; font-weight: bold; padding: 5px 12px; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.2s; }
+    .copy-btn-modern:hover { background: #1d4ed8; }
+    .footer { padding: 20px 30px; background: #f2f6fa; color: #65798d; font-size: 11.5px; line-height: 1.5; text-align: center; }
+    .source-note { font-size: 11.5px; color: #718096; line-height: 1.45; margin-top: 15px; }
 
-    .section-title { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; color: #475569; margin-top: 35px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
-    
-    .hero-express { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: #ffffff; border-radius: 18px; padding: 26px; margin-bottom: 30px; box-shadow: 0 12px 25px -5px rgba(30, 58, 138, 0.3); }
-    .hero-top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
-    .hero-label { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: #38bdf8; }
-    
-    .conf-badge-green { background: #10b981; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-    .conf-badge-orange { background: #f59e0b; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-    .conf-badge-red { background: #ef4444; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-
-    .hero-summary { font-size: 16px; font-weight: 700; line-height: 1.5; margin-bottom: 14px; color: #ffffff; }
-    .hero-conf-explanation { font-size: 12.5px; font-style: italic; color: #93c5fd; margin-bottom: 18px; background: rgba(255,255,255,0.08); padding: 8px 12px; border-radius: 8px; border-left: 3px solid #38bdf8; }
-
-    .hero-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-    .hero-card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 10px; padding: 10px 8px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: center; }
-    .hero-card label { display: block; font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #93c5fd; margin-bottom: 4px; }
-    .hero-card span { font-size: 13px; font-weight: 800; color: #ffffff; text-transform: capitalize; }
-    
-    .timeline-container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 30px; }
-    .timeline-step { background: #f8fafc; border-radius: 12px; padding: 14px 12px; border: 1px solid #e2e8f0; border-top: 4px solid #0284c7; }
-    .timeline-step strong { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px; color: #0284c7; margin-bottom: 6px; }
-    .timeline-step p { margin: 0; font-size: 12.5px; color: #334155; line-height: 1.45; }
-
-    .regional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 30px; }
-    .regional-card { background: #ffffff; border-radius: 12px; padding: 14px 16px; border: 1px solid #e2e8f0; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
-    .regional-card strong { color: #0f172a; font-size: 12.5px; display: block; margin-bottom: 5px; }
-    .regional-card p { margin: 0; font-size: 12.5px; color: #475569; line-height: 1.5; }
-    
-    .confidence-panel { background: #f8fafc; border-radius: 14px; padding: 18px; border: 1px solid #e2e8f0; margin-bottom: 30px; }
-    .confidence-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-    .confidence-head strong { font-size: 13.5px; color: #0f172a; }
-    .uncertainties-box { background: #ffffff; border-radius: 10px; padding: 12px 14px; border-left: 4px solid #f59e0b; border: 1px solid #fef3c7; border-left-width: 4px; font-size: 12.5px; color: #334155; line-height: 1.5; }
-    
-    .scenario-card { border-radius: 14px; padding: 18px; margin-bottom: 16px; border: 1px solid #e2e8f0; background: #ffffff; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
-    .sc-major { border-left: 6px solid #10b981; }
-    .sc-median { border-left: 6px solid #f59e0b; }
-    .sc-minor { border-left: 6px solid #ef4444; }
-    .sc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-    .sc-header h3 { margin: 0; font-size: 14.5px; font-weight: 800; color: #0f172a; }
-    .sc-prob { font-size: 11.5px; padding: 3px 10px; border-radius: 20px; color: #ffffff; font-weight: 800; }
-    .bg-major { background-color: #10b981; }
-    .bg-median { background-color: #f59e0b; }
-    .bg-minor { background-color: #ef4444; }
-    .sc-text { margin: 0; font-size: 12.5px; line-height: 1.55; color: #334155; text-align: justify; }
-
-    .takeaways-panel { background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 6px solid #10b981; border-radius: 14px; padding: 18px; margin-bottom: 30px; }
-    .takeaways-panel h3 { margin: 0 0 10px 0; font-size: 13.5px; font-weight: 800; color: #166534; text-transform: uppercase; letter-spacing: 0.5px; }
-    .takeaways-panel ul { margin: 0; padding-left: 18px; color: #15803d; font-size: 12.5px; line-height: 1.6; }
-    .takeaways-panel li { margin-bottom: 4px; }
-    
-    /* Graphiques Météo */
-    .meteo-images-container { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 30px; justify-content: space-between; }
-    .meteo-image-card { flex: 1 1 45%; min-width: 280px; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); text-align: center; }
-    .meteo-image-card span { font-weight: 800; font-size: 11px; color: #475569; display: block; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .meteo-image-card img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #f1f5f9; }
-
-    /* Pack Réseaux Sociaux */
-    .social-pack-container { display: flex; flex-direction: column; gap: 16px; margin-bottom: 30px; }
-    .social-platform-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
-    .social-platform-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; font-weight: 800; font-size: 13px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.5px; }
-    .sp-linkedin { background: #0077b5; }
-    .sp-facebook { background: #1877f2; }
-    .sp-twitter { background: #0f1419; }
-    .sp-tiktok { background: #fe2c55; }
-    .sp-instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
-    .social-platform-body { padding: 18px; font-size: 12.5px; white-space: pre-wrap; color: #334155; line-height: 1.6; font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; }
-    .copy-btn { background: rgba(255, 255, 255, 0.25); border: none; color: #ffffff; font-size: 10px; font-weight: bold; padding: 4px 10px; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.2s; }
-    .copy-btn:hover { background: rgba(255, 255, 255, 0.4); }
+    @media only screen and (max-width:700px) {
+      body { padding: 0!important; background: #eef3f8!important; }
+      .wrap { width: 100%!important; max-width: 100%!important; margin: 0!important; border-radius: 0!important; border-left: 0!important; border-right: 0!important; box-shadow: none!important; }
+      .header { padding: 24px 16px!important; text-align: left!important; }
+      .hero-title { font-size: 29px!important; line-height: 1.18!important; }
+      .sub { font-size: 14px!important; }
+      .pad { padding: 18px 12px!important; }
+      .week { margin-top: 16px!important; border-radius: 14px!important; }
+      .week-head { padding: 17px 14px 15px!important; }
+      .week-head h2 { font-size: 21px!important; line-height: 1.25!important; }
+      .week-head p { font-size: 14px!important; }
+      .section { margin-top: 25px!important; }
+      .section-title { font-size: 15px!important; }
+      .grid2, .grid3, .grid4 { display: block!important; width: 100%!important; border-spacing: 0!important; }
+      .cell { display: block!important; width: 100%!important; margin: 0 0 10px 0!important; }
+      .metric { height: auto!important; min-height: 74px!important; padding: 13px 10px!important; }
+      .metric .label { font-size: 12px!important; }
+      .alert { padding: 17px 14px!important; border-radius: 13px!important; }
+      .alert h3 { font-size: 19px!important; }
+      .alert p { font-size: 14px!important; }
+      .timeline-table, .timeline-table tbody, .timeline-table tr { display: block!important; width: 100%!important; }
+      .timeline-table td { display: block!important; width: auto!important; margin-bottom: 9px!important; padding: 13px!important; }
+      .timeline-table .keys { font-size: 13px!important; }
+      .region p, .detail p, .scenario p, .conf-text, .listbox li, .takeaway li { font-size: 14px!important; }
+      .social-body { font-size: 14px!important; }
+      .caption, .copy-note, .footer, .source-note { font-size: 11px!important; }
+    }
     """
 
     weeks_html = ""
@@ -944,149 +981,178 @@ def main():
         if not takeaways_li_html:
             takeaways_li_html = "<li>Synthèse des prévisions établie avec succès.</li>"
 
-        divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
+        # Ajustement dynamique des classes de confiance
+        conf_bg_class = ""
+        conf_text_class = ""
+        conf_color_hex = "#087443"
+        if "3/" in conf_score_raw:
+            conf_bg_class = "conf-badge-orange"
+            conf_text_class = "conf-text-orange"
+            conf_color_hex = "#a95c00"
+        elif "1/" in conf_score_raw or "2/" in conf_score_raw:
+            conf_bg_class = "conf-badge-red"
+            conf_text_class = "conf-text-red"
+            conf_color_hex = "#991b1b"
+
+        # Traitement des incertitudes
+        uncertainties_raw = data.get("key_uncertainties", "") + "\n" + data.get("monitoring_points", "")
+        uncertainties_items = [u.strip("-* ").strip() for u in uncertainties_raw.split("\n") if u.strip()]
+        uncertainties_li_html = "".join([f"<li>{u}</li>" for u in uncertainties_items if u])
+        if not uncertainties_li_html:
+            uncertainties_li_html = "<li>Aucun élément d'incertitude particulier signalé.</li>"
+
+        # Couleur d'alerte pour le résumé express (basé sur la confiance ou la sévérité)
+        alert_cls = "blue"
+        if "canicule" in express.get('summary', '').lower() or "extreme" in express.get('summary', '').lower():
+            alert_cls = "orange"
+        if "4/" in conf_score_raw or "5/" in conf_score_raw:
+            if "canicule" in express.get('summary', '').lower():
+                alert_cls = "orange"
+            else:
+                alert_cls = "green"
+
+        divider = '<div style="margin: 40px 0; border-top: 2px dashed #cfdce8;"></div>' if w_idx > 0 else ""
         weeks_html += f"""
         {divider}
         
-        <!-- TITRE DE SEMAINE EN 2 LIGNES -->
-        <div class="week-title-box">
-            <h2 class="week-title-line1">📅 {data.get('title_line1', 'SEMAINE')}</h2>
-            <div class="week-title-line2">{data.get('title_line2', 'Synthèse des prévisions')}</div>
-        </div>
-        
-        <!-- 1. HERO RESUME EXPRESS (<10 SECONDES) -->
-        <div class="hero-express">
-            <div class="hero-top-bar">
-                <span class="hero-label">⚡ LECTURE < 10s : RÉSUMÉ EXPRESS</span>
-                <span class="{conf_class}">Confiance : {conf_score_raw}</span>
+        <div class="week">
+            <div class="week-head">
+                <h2>📅 {data.get('title_line1', 'SEMAINE')}</h2>
+                <p>{data.get('title_line2', 'Synthèse des prévisions')}</p>
             </div>
-            <div class="hero-summary">{express.get('summary', '')}</div>
-            <div class="hero-conf-explanation">🎯 <strong>Raison de la note ({conf_score_raw}) :</strong> {conf.get('desc', '')}</div>
-            <div class="hero-grid">
-                <div class="hero-card"><label>🌤️ Temps</label><span>{express.get('trend', '-')}</span></div>
-                <div class="hero-card"><label>🌡️ Températures</label><span>{express.get('temperatures', '-')}</span></div>
-                <div class="hero-card"><label>🌧️ Pluies</label><span>{express.get('precipitations', '-')}</span></div>
-                <div class="hero-card"><label>⚠️ Risque</label><span>{express.get('main_risk', 'Aucun')}</span></div>
-            </div>
-        </div>
-
-        <!-- 2. CHRONOLOGIE DE LA SEMAINE -->
-        <div class="section-title">🗓️ CHRONOLOGIE DE LA SEMAINE</div>
-        <div class="timeline-container">
-            <div class="timeline-step"><strong>Début de semaine</strong><p>{timeline.get('early', '-')}</p></div>
-            <div class="timeline-step"><strong>Milieu de semaine</strong><p>{timeline.get('mid', '-')}</p></div>
-            <div class="timeline-step"><strong>Fin de semaine</strong><p>{timeline.get('late', '-')}</p></div>
-            <div class="timeline-step"><strong>Week-end</strong><p>{timeline.get('weekend', '-')}</p></div>
-        </div>
-
-        <!-- 3. SYNTHESE PAR REGIONS HARMONISEES -->
-        <div class="section-title">🗺️ SYNTHÈSE PAR GRANDES RÉGIONS</div>
-        <div class="regional-grid">
-            <div class="regional-card"><strong>📍 Hauts-de-France & Nord</strong><p>{regional.get('hdf_north', '-')}</p></div>
-            <div class="regional-card"><strong>🌊 Façade Atlantique</strong><p>{regional.get('atlantic', '-')}</p></div>
-            <div class="regional-card"><strong>🏙️ Régions Centrales</strong><p>{regional.get('central', '-')}</p></div>
-            <div class="regional-card"><strong>☀️ Moitié Sud</strong><p>{regional.get('south', '-')}</p></div>
-            <div class="regional-card"><strong>🏖️ Pourtour Méditerranéen</strong><p>{regional.get('mediterranean', '-')}</p></div>
-            <div class="regional-card"><strong>⛰️ Reliefs & Montagnes</strong><p>{regional.get('mountains', 'Pas de particularité remarquable')}</p></div>
-        </div>
-
-        <!-- 4. CONFIANCE & INCERTITUDES -->
-        <div class="section-title">🎯 CONFIANCE ET INCERTITUDES RESTANTES</div>
-        <div class="confidence-panel">
-            <div class="confidence-head">
-                <strong>Fiabilité du Consensus des Modèles</strong>
-                <span class="{conf_class}">Note : {conf_score_raw}</span>
-            </div>
-            <div class="uncertainties-box">
-                <strong style="display: block; margin-bottom: 4px; color: #d97706; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes Majeures & Points à Surveiller :</strong>
-                {data.get('key_uncertainties', '')}\n{data.get('monitoring_points', '')}
-            </div>
-        </div>
-
-        <!-- 5. GRAPHIQUES METEO -->
-        {html_images_block}
-
-        <!-- 6. LES 3 SCENARIOS CALIBRES -->
-        <div class="section-title">🔮 LES 3 SCÉNARIOS ATMOSPHÉRIQUES DÉTAILLÉS</div>
-        
-        <div class="scenario-card sc-major">
-            <div class="sc-header">
-                <h3>🟢 {scenarios.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h3>
-                <span class="sc-prob bg-major">{scenarios.get('majoritaire', {}).get('prob', '65%')}</span>
-            </div>
-            <p class="sc-text">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
-        </div>
-        
-        <div class="scenario-card sc-median">
-            <div class="sc-header">
-                <h3>🟡 {scenarios.get('median', {}).get('title', 'Scénario Alternatif')}</h3>
-                <span class="sc-prob bg-median">{scenarios.get('median', {}).get('prob', '25%')}</span>
-            </div>
-            <p class="sc-text">{scenarios.get('median', {}).get('desc', '')}</p>
-        </div>
-        
-        <div class="scenario-card sc-minor">
-            <div class="sc-header">
-                <h3>🔴 {scenarios.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h3>
-                <span class="sc-prob bg-minor">{scenarios.get('minoritaire', {}).get('prob', '10%')}</span>
-            </div>
-            <p class="sc-text">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
-        </div>
-
-        <!-- 7. A RETENIR (KEY TAKEAWAYS) -->
-        <div class="takeaways-panel">
-            <h3>📌 À Retenir — L'Essentiel en 4 Puces</h3>
-            <ul>
-                {takeaways_li_html}
-            </ul>
-        </div>
-
-        <!-- 8. PACK RÉSEAUX SOCIAUX PRÊT À PUBLIER -->
-        <div class="section-title">📢 PACK RÉSEAUX SOCIAUX (PRÊT À DIFFUSER)</div>
-        <div class="social-pack-container">
-            <!-- LinkedIn -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-linkedin">
-                    <span>🔗 LinkedIn (Storytelling Expert Météo)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+            
+            <div class="pad">
+                <!-- 1. Lecture immédiate -->
+                <div class="alert {alert_cls}">
+                    <div class="eyebrow">Lecture immédiate · moins de 10 secondes</div>
+                    <h3>{express.get('summary', '')}</h3>
+                    <p>🎯 Confiance globale : {conf_score_raw} — {conf.get('desc', '')}</p>
                 </div>
-                <div class="social-platform-body">{social_linkedin}</div>
-            </div>
 
-            <!-- Facebook -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-facebook">
-                    <span>👥 Facebook (Communautaire & Grand Public)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                <!-- 2. Les Chiffres Clés (KPI) -->
+                <div class="section-title">Chiffres clés de la période</div>
+                <div class="grid4">
+                    <div class="cell"><div class="metric"><div class="big" style="font-size: 22px; padding-top: 4px;">{express.get('trend', '-')}</div><div class="label">Temps</div></div></div>
+                    <div class="cell"><div class="metric"><div class="big" style="font-size: 22px; padding-top: 4px;">{express.get('temperatures', '-')}</div><div class="label">Températures</div></div></div>
+                    <div class="cell"><div class="metric"><div class="big" style="font-size: 22px; padding-top: 4px;">{express.get('precipitations', '-')}</div><div class="label">Pluies</div></div></div>
+                    <div class="cell"><div class="metric risk"><div class="big" style="font-size: 22px; padding-top: 4px; color:#b91c1c;">{express.get('main_risk', 'Aucun')}</div><div class="label">Risque principal</div></div></div>
                 </div>
-                <div class="social-platform-body">{social_facebook}</div>
-            </div>
 
-            <!-- X (Twitter) -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-twitter">
-                    <span>🐦 X (Twitter - 280 Caractères max)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                <!-- 3. Chronologie visuelle -->
+                <div class="section">
+                    <div class="section-title">Chronologie visuelle</div>
+                    <table class="timeline-table" role="presentation">
+                        <tr>
+                            <td><strong>Début de semaine</strong><div class="keys">{timeline.get('early', '-')}</div></td>
+                            <td><strong>Milieu de semaine</strong><div class="keys">{timeline.get('mid', '-')}</div></td>
+                            <td><strong>Fin de semaine</strong><div class="keys">{timeline.get('late', '-')}</div></td>
+                            <td><strong>Week-end</strong><div class="keys">{timeline.get('weekend', '-')}</div></td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="social-platform-body">{social_twitter}</div>
-            </div>
 
-            <!-- TikTok -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-tiktok">
-                    <span>🎵 TikTok (Description vidéo)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                <!-- 4. Synthèse Régionale -->
+                <div class="section">
+                    <div class="section-title">Synthèse régionale · zones clés</div>
+                    <div class="grid3">
+                        <div class="cell"><div class="region"><h4>📍 Hauts-de-France & Nord</h4><p>{regional.get('hdf_north', '-')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>🌊 Façade Atlantique</h4><p>{regional.get('atlantic', '-')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>🏙️ Régions Centrales</h4><p>{regional.get('central', '-')}</p></div></div>
+                    </div>
+                    <div class="grid3" style="margin-top: 10px;">
+                        <div class="cell"><div class="region"><h4>☀️ Moitié Sud</h4><p>{regional.get('south', '-')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>🏖️ Pourtour Méditerranéen</h4><p>{regional.get('mediterranean', '-')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>⛰️ Reliefs & Montagnes</h4><p>{regional.get('mountains', '-')}</p></div></div>
+                    </div>
                 </div>
-                <div class="social-platform-body">{social_tiktok}</div>
-            </div>
 
-            <!-- Instagram -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-instagram">
-                    <span>📸 Instagram (Légende & CTA Bio)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                <!-- 5. Confiance & Incertitudes -->
+                <div class="section">
+                    <div class="section-title">Confiance et incertitudes</div>
+                    <div class="conf">
+                        <div class="conf-score {conf_bg_class}"><div class="big {conf_text_class}">{conf_score_raw}</div><div style="font-size:10px;font-weight:800;color:{conf_color_hex}">CONFIANCE</div></div>
+                        <div class="conf-text"><b>Consensus des modèles :</b> {conf.get('desc', '')}</div>
+                    </div>
+                    <div class="listbox" style="margin-top:12px">
+                        <ul>
+                            {uncertainties_li_html}
+                        </ul>
+                    </div>
                 </div>
-                <div class="social-platform-body">{social_instagram}</div>
+
+                <!-- 6. Les 3 Scénarios -->
+                <div class="section">
+                    <div class="section-title">Trois scénarios atmosphériques</div>
+                    <div class="scenario major">
+                        <div class="scenario-head"><h4>🟢 {scenarios.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h4><div class="pct">{scenarios.get('majoritaire', {}).get('prob', '65%')}</div></div>
+                        <div class="track" style="margin: 6px 0;"><div class="fill green" style="width:{scenarios.get('majoritaire', {}).get('prob', '65%')}"></div></div>
+                        <p>{scenarios.get('majoritaire', {}).get('desc', '')}</p>
+                    </div>
+                    <div class="scenario medium">
+                        <div class="scenario-head"><h4>🟡 {scenarios.get('median', {}).get('title', 'Scénario Alternatif')}</h4><div class="pct">{scenarios.get('median', {}).get('prob', '25%')}</div></div>
+                        <div class="track" style="margin: 6px 0;"><div class="fill orange" style="width:{scenarios.get('median', {}).get('prob', '25%')}"></div></div>
+                        <p>{scenarios.get('median', {}).get('desc', '')}</p>
+                    </div>
+                    <div class="scenario minor">
+                        <div class="scenario-head"><h4>🔴 {scenarios.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h4><div class="pct">{scenarios.get('minoritaire', {}).get('prob', '10%')}</div></div>
+                        <div class="track" style="margin: 6px 0;"><div class="fill red" style="width:{scenarios.get('minoritaire', {}).get('prob', '10%')}"></div></div>
+                        <p>{scenarios.get('minoritaire', {}).get('desc', '')}</p>
+                    </div>
+                </div>
+
+                <!-- 7. À retenir -->
+                <div class="section">
+                    <div class="takeaway">
+                        <b>À retenir en 20 secondes</b>
+                        <ul>
+                            {takeaways_li_html}
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 8. Modélisations (images) -->
+                {html_images_block}
+
+                <!-- 9. Pack Réseaux Sociaux -->
+                <div class="section">
+                    <div class="section-title">📢 Pack réseaux sociaux (prêt à diffuser)</div>
+                    <div class="social">
+                        <div class="social-head" style="background:#0a66c2;">🔗 LinkedIn · Storytelling Expert Météo</div>
+                        <div class="social-body">{social_linkedin}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post LinkedIn</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:#1877f2;">👥 Facebook · Communautaire & Grand Public</div>
+                        <div class="social-body">{social_facebook}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post Facebook</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:#0f1419;">🐦 X (Twitter) · 280 Caractères max</div>
+                        <div class="social-body">{social_twitter}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post X</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">📸 Instagram · Légende & CTA Bio</div>
+                        <div class="social-body">{social_instagram}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post Instagram</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:#fe2c55;">🎵 TikTok · Description vidéo</div>
+                        <div class="social-body">{social_tiktok}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier la description TikTok</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         """
@@ -1096,20 +1162,20 @@ def main():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyses & Tendances Météo - Forum</title>
+    <title>Tendances Moyen Terme</title>
     <style>{style}</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
-            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</h1>
-            <p>Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} pour les 2 prochaines semaines</p>
-        </div>
-        <div class="content">
-            {weeks_html}
-        </div>
+<div class="wrap">
+    <div class="header">
+        <div class="kicker">MONSIEUR MÉTÉO</div>
+        <div class="hero-title">BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</div>
+        <div class="sub">Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} · France · Prévisions à 2 semaines</div>
     </div>
+    <div class="pad">
+        {weeks_html}
+    </div>
+</div>
 </body>
 </html>
 """
@@ -1215,16 +1281,41 @@ Points de surveillance : {d.get('monitoring_points', '')}
         if not takeaways_r_li:
             takeaways_r_li = "<li>Information non précisée dans les sources pour cette région.</li>"
 
-        def make_social_block(platform_cls, platform_label, content):
-            safe = content.replace('<br>', '\n').replace('<br/>', '\n') if content else ""
-            return f"""
-            <div class="social-platform-card">
-                <div class="social-platform-header {platform_cls}">
-                    <span>{platform_label}</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
-                </div>
-                <div class="social-platform-body">{safe}</div>
-            </div>"""
+        # Ajustement des classes régionales
+        conf_bg_class_r = ""
+        conf_text_class_r = ""
+        conf_color_hex_r = "#087443"
+        if "3/" in conf_score_r:
+            conf_bg_class_r = "conf-badge-orange"
+            conf_text_class_r = "conf-text-orange"
+            conf_color_hex_r = "#a95c00"
+        elif "1/" in conf_score_r or "2/" in conf_score_r:
+            conf_bg_class_r = "conf-badge-red"
+            conf_text_class_r = "conf-text-red"
+            conf_color_hex_r = "#991b1b"
+
+        uncertainties_r_raw = r_data.get("key_uncertainties", "") + "\n" + r_data.get("monitoring_points", "")
+        uncertainties_r_items = [u.strip("-* ").strip() for u in uncertainties_r_raw.split("\n") if u.strip()]
+        uncertainties_r_li_html = "".join([f"<li>{u}</li>" for u in uncertainties_r_items if u])
+        if not uncertainties_r_li_html:
+            uncertainties_r_li_html = "<li>Aucun élément d'incertitude particulier signalé.</li>"
+
+        alert_cls_r = "blue"
+        if "canicule" in express_r.get('summary', '').lower() or "extreme" in express_r.get('summary', '').lower():
+            alert_cls_r = "orange"
+        if "4/" in conf_score_r or "5/" in conf_score_r:
+            if "canicule" in express_r.get('summary', '').lower():
+                alert_cls_r = "orange"
+            else:
+                alert_cls_r = "green"
+
+        # Pré-calculer les réseaux sociaux régionaux (pour éviter backslash dans f-string)
+        nl = "\n"
+        social_r_linkedin = social_r.get('linkedin', '').replace('<br>', nl).replace('<br/>', nl)
+        social_r_facebook = social_r.get('facebook', '').replace('<br>', nl).replace('<br/>', nl)
+        social_r_twitter = social_r.get('twitter', '').replace('<br>', nl).replace('<br/>', nl)
+        social_r_tiktok = social_r.get('tiktok', '').replace('<br>', nl).replace('<br/>', nl)
+        social_r_instagram = social_r.get('instagram', '').replace('<br>', nl).replace('<br/>', nl)
 
         region_html = f"""<!DOCTYPE html>
 <html lang="fr">
@@ -1235,103 +1326,153 @@ Points de surveillance : {d.get('monitoring_points', '')}
     <style>{style}</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO — BULLETIN RÉGIONAL</div>
-            <h1>📍 {r_name}</h1>
-            <p>Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
-        </div>
-        <div class="content">
-
-            <div class="week-title-box">
-                <h2 class="week-title-line1">📅 {r_data.get('title_line1', r_name)}</h2>
-                <div class="week-title-line2">{r_data.get('title_line2', '')}</div>
+<div class="wrap">
+    <div class="header">
+        <div class="kicker">MONSIEUR MÉTÉO — BULLETIN RÉGIONAL</div>
+        <div class="hero-title">📍 {r_name}</div>
+        <div class="sub">Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} · Prévisions à 2 semaines</div>
+    </div>
+    
+    <div class="pad">
+        <div class="week">
+            <div class="week-head">
+                <h2>📅 {r_data.get('title_line1', r_name)}</h2>
+                <p>{r_data.get('title_line2', '')}</p>
             </div>
-
-            <div class="hero-express">
-                <div class="hero-top-bar">
-                    <span class="hero-label">⚡ LECTURE &lt; 10s : RÉSUMÉ EXPRESS — {r_name}</span>
-                    <span class="{conf_class_r}">Confiance : {conf_score_r}</span>
+            
+            <div class="pad">
+                <!-- 1. Lecture immédiate -->
+                <div class="alert {alert_cls_r}">
+                    <div class="eyebrow">Lecture immédiate · moins de 10 secondes</div>
+                    <h3>{express_r.get('summary', '')}</h3>
+                    <p>🎯 Confiance globale : {conf_score_r} — {conf_r.get('desc', '')}</p>
                 </div>
-                <div class="hero-summary">{express_r.get('summary', '')}</div>
-                <div class="hero-conf-explanation">🎯 <strong>Raison de la note ({conf_score_r}) :</strong> {conf_r.get('desc', '')}</div>
-                <div class="hero-grid">
-                    <div class="hero-card"><label>🌤️ Temps</label><span>{express_r.get('trend', '-')}</span></div>
-                    <div class="hero-card"><label>🌡️ Températures</label><span>{express_r.get('temperatures', '-')}</span></div>
-                    <div class="hero-card"><label>🌧️ Pluies</label><span>{express_r.get('precipitations', '-')}</span></div>
-                    <div class="hero-card"><label>⚠️ Risque</label><span>{express_r.get('main_risk', 'Aucun')}</span></div>
+
+                <!-- 2. KPIs -->
+                <div class="section-title">Chiffres clés de la période</div>
+                <div class="grid4">
+                    <div class="cell"><div class="metric"><div class="big" style="font-size: 22px; padding-top: 4px;">{express_r.get('trend', '-')}</div><div class="label">Temps</div></div></div>
+                    <div class="cell"><div class="metric"><div class="big" style="font-size: 22px; padding-top: 4px;">{express_r.get('temperatures', '-')}</div><div class="label">Températures</div></div></div>
+                    <div class="cell"><div class="metric"><div class="big" style="font-size: 22px; padding-top: 4px;">{express_r.get('precipitations', '-')}</div><div class="label">Pluies</div></div></div>
+                    <div class="cell"><div class="metric risk"><div class="big" style="font-size: 22px; padding-top: 4px; color:#b91c1c;">{express_r.get('main_risk', 'Aucun')}</div><div class="label">Risque principal</div></div></div>
                 </div>
-            </div>
 
-            <div class="section-title">🗓️ CHRONOLOGIE DE LA SEMAINE EN {r_name.upper()}</div>
-            <div class="timeline-container">
-                <div class="timeline-step"><strong>Début de semaine</strong><p>{timeline_r.get('early', '-')}</p></div>
-                <div class="timeline-step"><strong>Milieu de semaine</strong><p>{timeline_r.get('mid', '-')}</p></div>
-                <div class="timeline-step"><strong>Fin de semaine</strong><p>{timeline_r.get('late', '-')}</p></div>
-                <div class="timeline-step"><strong>Week-end</strong><p>{timeline_r.get('weekend', '-')}</p></div>
-            </div>
-
-            <div class="section-title">🗺️ SECTEURS DE {r_name.upper()}</div>
-            <div class="regional-grid">
-                <div class="regional-card"><strong>🔹 Secteur Nord / NW</strong><p>{regional_r.get('hdf_north', '-')}</p></div>
-                <div class="regional-card"><strong>🌊 Façade Ouest</strong><p>{regional_r.get('atlantic', '-')}</p></div>
-                <div class="regional-card"><strong>🏙️ Intérieur / Centre</strong><p>{regional_r.get('central', '-')}</p></div>
-                <div class="regional-card"><strong>☀️ Secteur Sud</strong><p>{regional_r.get('south', '-')}</p></div>
-                <div class="regional-card"><strong>🏖️ Côtes / Méditerranée</strong><p>{regional_r.get('mediterranean', 'Non applicable')}</p></div>
-                <div class="regional-card"><strong>⛰️ Reliefs / Montagnes</strong><p>{regional_r.get('mountains', 'Non applicable')}</p></div>
-            </div>
-
-            <div class="section-title">🎯 CONFIANCE ET INCERTITUDES — {r_name.upper()}</div>
-            <div class="confidence-panel">
-                <div class="confidence-head">
-                    <strong>Fiabilité du Consensus des Modèles</strong>
-                    <span class="{conf_class_r}">Note : {conf_score_r}</span>
+                <!-- 3. Chronologie -->
+                <div class="section">
+                    <div class="section-title">Chronologie visuelle</div>
+                    <table class="timeline-table" role="presentation">
+                        <tr>
+                            <td><strong>Début de semaine</strong><div class="keys">{timeline_r.get('early', '-')}</div></td>
+                            <td><strong>Milieu de semaine</strong><div class="keys">{timeline_r.get('mid', '-')}</div></td>
+                            <td><strong>Fin de semaine</strong><div class="keys">{timeline_r.get('late', '-')}</div></td>
+                            <td><strong>Week-end</strong><div class="keys">{timeline_r.get('weekend', '-')}</div></td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="uncertainties-box">
-                    <strong style="display: block; margin-bottom: 4px; color: #d97706; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes & Points à Surveiller :</strong>
-                    {r_data.get('key_uncertainties', '')}<br>{r_data.get('monitoring_points', '')}
-                </div>
-            </div>
 
-            <div class="section-title">🔮 LES 3 SCÉNARIOS ATMOSPHÉRIQUES — {r_name.upper()}</div>
-            <div class="scenario-card sc-major">
-                <div class="sc-header">
-                    <h3>🟢 {scenarios_r.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h3>
-                    <span class="sc-prob bg-major">{scenarios_r.get('majoritaire', {}).get('prob', '65%')}</span>
+                <!-- 4. Découpage par secteurs -->
+                <div class="section">
+                    <div class="section-title">🗺️ Secteurs de {r_name.upper()}</div>
+                    <div class="grid3">
+                        <div class="cell"><div class="region"><h4>🔹 Secteur Nord / NW</h4><p>{regional_r.get('hdf_north', '-')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>🌊 Façade Ouest</h4><p>{regional_r.get('atlantic', '-')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>🏙️ Intérieur / Centre</h4><p>{regional_r.get('central', '-')}</p></div></div>
+                    </div>
+                    <div class="grid3" style="margin-top: 10px;">
+                        <div class="cell"><div class="region"><h4>☀️ Secteur Sud</h4><p>{regional_r.get('south', '-')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>🏖️ Côtes / Méditerranée</h4><p>{regional_r.get('mediterranean', 'Non applicable')}</p></div></div>
+                        <div class="cell"><div class="region"><h4>⛰️ Reliefs / Montagnes</h4><p>{regional_r.get('mountains', 'Non applicable')}</p></div></div>
+                    </div>
                 </div>
-                <p class="sc-text">{scenarios_r.get('majoritaire', {}).get('desc', '')}</p>
-            </div>
-            <div class="scenario-card sc-median">
-                <div class="sc-header">
-                    <h3>🟡 {scenarios_r.get('median', {}).get('title', 'Scénario Alternatif')}</h3>
-                    <span class="sc-prob bg-median">{scenarios_r.get('median', {}).get('prob', '25%')}</span>
+
+                <!-- 5. Confiance & Incertitudes -->
+                <div class="section">
+                    <div class="section-title">Confiance et incertitudes</div>
+                    <div class="conf">
+                        <div class="conf-score {conf_bg_class_r}"><div class="big {conf_text_class_r}">{conf_score_r}</div><div style="font-size:10px;font-weight:800;color:{conf_color_hex_r}">CONFIANCE</div></div>
+                        <div class="conf-text"><b>Consensus des modèles :</b> {conf_r.get('desc', '')}</div>
+                    </div>
+                    <div class="listbox" style="margin-top:12px">
+                        <ul>
+                            {uncertainties_r_li_html}
+                        </ul>
+                    </div>
                 </div>
-                <p class="sc-text">{scenarios_r.get('median', {}).get('desc', '')}</p>
-            </div>
-            <div class="scenario-card sc-minor">
-                <div class="sc-header">
-                    <h3>🔴 {scenarios_r.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h3>
-                    <span class="sc-prob bg-minor">{scenarios_r.get('minoritaire', {}).get('prob', '10%')}</span>
+
+                <!-- 6. Les 3 Scénarios -->
+                <div class="section">
+                    <div class="section-title">Trois scénarios atmosphériques</div>
+                    <div class="scenario major">
+                        <div class="scenario-head"><h4>🟢 {scenarios_r.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h4><div class="pct">{scenarios_r.get('majoritaire', {}).get('prob', '65%')}</div></div>
+                        <div class="track" style="margin: 6px 0;"><div class="fill green" style="width:{scenarios_r.get('majoritaire', {}).get('prob', '65%')}"></div></div>
+                        <p>{scenarios_r.get('majoritaire', {}).get('desc', '')}</p>
+                    </div>
+                    <div class="scenario medium">
+                        <div class="scenario-head"><h4>🟡 {scenarios_r.get('median', {}).get('title', 'Scénario Alternatif')}</h4><div class="pct">{scenarios_r.get('median', {}).get('prob', '25%')}</div></div>
+                        <div class="track" style="margin: 6px 0;"><div class="fill orange" style="width:{scenarios_r.get('median', {}).get('prob', '25%')}"></div></div>
+                        <p>{scenarios_r.get('median', {}).get('desc', '')}</p>
+                    </div>
+                    <div class="scenario minor">
+                        <div class="scenario-head"><h4>🔴 {scenarios_r.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h4><div class="pct">{scenarios_r.get('minoritaire', {}).get('prob', '10%')}</div></div>
+                        <div class="track" style="margin: 6px 0;"><div class="fill red" style="width:{scenarios_r.get('minoritaire', {}).get('prob', '10%')}"></div></div>
+                        <p>{scenarios_r.get('minoritaire', {}).get('desc', '')}</p>
+                    </div>
                 </div>
-                <p class="sc-text">{scenarios_r.get('minoritaire', {}).get('desc', '')}</p>
-            </div>
 
-            <div class="takeaways-panel">
-                <h3>📌 À Retenir — L'Essentiel en 4 Puces</h3>
-                <ul>{takeaways_r_li}</ul>
-            </div>
+                <!-- 7. À retenir -->
+                <div class="section">
+                    <div class="takeaway">
+                        <b>À retenir en 20 secondes</b>
+                        <ul>
+                            {takeaways_r_li}
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="section-title">📢 PACK RÉSEAUX SOCIAUX — {r_name.upper()} (PRÊT À DIFFUSER)</div>
-            <div class="social-pack-container">
-                {make_social_block('sp-linkedin', '🔗 LinkedIn (Storytelling Expert Météo)', social_r.get('linkedin', ''))}
-                {make_social_block('sp-facebook', '👥 Facebook (Communautaire & Grand Public)', social_r.get('facebook', ''))}
-                {make_social_block('sp-twitter', '🐦 X (Twitter - 280 Caractères max)', social_r.get('twitter', ''))}
-                {make_social_block('sp-tiktok', '🎵 TikTok (Description vidéo)', social_r.get('tiktok', ''))}
-                {make_social_block('sp-instagram', '📸 Instagram (Légende & CTA Bio)', social_r.get('instagram', ''))}
-            </div>
+                <!-- 9. Pack Réseaux Sociaux -->
+                <div class="section">
+                    <div class="section-title">📢 Pack réseaux sociaux — {r_name}</div>
+                    <div class="social">
+                        <div class="social-head" style="background:#0a66c2;">🔗 LinkedIn · Storytelling Expert Météo</div>
+                        <div class="social-body">{social_r_linkedin}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post LinkedIn</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:#1877f2;">👥 Facebook · Communautaire & Grand Public</div>
+                        <div class="social-body">{social_r_facebook}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post Facebook</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:#0f1419;">🐦 X (Twitter) · 280 Caractères max</div>
+                        <div class="social-body">{social_r_twitter}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post X</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">📸 Instagram · Légende & CTA Bio</div>
+                        <div class="social-body">{social_r_instagram}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier le post Instagram</button>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-head" style="background:#fe2c55;">🎵 TikTok · Description vidéo</div>
+                        <div class="social-body">{social_r_tiktok}</div>
+                        <div class="copy-note">
+                            <button class="copy-btn-modern" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-body').innerText); alert('Copié dans le presse-papiers !');">Copier la description TikTok</button>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
         </div>
     </div>
+</div>
 </body>
 </html>"""
 
