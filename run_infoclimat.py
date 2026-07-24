@@ -161,242 +161,539 @@ def process_topic(topic_url, topic_idx, date_context_str):
     system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
-À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique sous forme de tableau de bord exécutif professionnel destiné à des clients grand public et professionnels. Le document doit être lisible en moins de 10 secondes tout en conservant une exactitude scientifique absolue et les nuances de probabilité (pas de sensationnalisme).
-
-RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
-Dans TOUTES les sections (KPI, Chronologie, Régions, Scénarios, Incertitudes, À Retenir, Posts Sociaux), tu devez mentionner les jours précis associés à leurs dates exactes (ex: Lundi 27 Juillet, Mardi 28 Juillet). Ne dis plus jamais "début de semaine" ou "week-end" sans les associer directement à leur date.
-
-RÈGLE D'OR N°2 : INTÉGRATION DE LA DATE DE GÉNÉRATION & PÉRIODE PERTINENTE
-- Analyse avec attention la "Date actuelle de génération" transmise dans l'invite.
-- Si le sujet correspond à la "Semaine en cours" : toute journée précédant cette date est déjà passée. Les prévisions doivent se concentrer EXCLUSIVEMENT sur la période allant de la date de génération au dimanche de cette semaine. Ignore ou mentionne comme "déjà écoulées" les journées passées.
-- Si le sujet correspond à la "Semaine suivante" (Semaine future) : c'est la véritable semaine de tendance à moyen terme. Rédige les prévisions complètes jour par jour, du lundi au dimanche.
-
-RÈGLE D'OR N°3 : HANDLING DE LA TEMPÉRATURE (PAS DE CHIFFRE GÉANT)
-- Ne propose JAMAIS une température maximale unique géante isolée, car cela donne l'impression d'une certitude et d'une uniformité fausse pour une tendance météo.
-- Propose obligatoirement soit une plage de températures (ex: "38 à 42 °C"), soit une température maximale accompagnée de son qualificatif de localisation (ex: "jusqu'à 42 °C localement").
-- Cet indicateur de température maximale attendue doit avoir la même taille, le même style et le même poids visuel que les autres indicateurs de la ligne de KPI.
-
-RÈGLE D'OR N°4 : RÉGIONS EN LIGNE STRUCTURÉE (POUR LE TABLEAU)
-- Rédige obligatoirement une seule ligne contenant exactement ces 4 valeurs séparées par des barres verticales `|` : 
-  Température attendue | Niveau de pluie | Risque dominant | Indice de confiance
-  Exemple : 18 à 24 °C | Faible | Aucun | 4/5
-- Pour le niveau de pluie et le risque, utilise obligatoirement un qualificatif simple et lisible par tous parmi : Très faible, Faible, Modéré, Fort, Très fort (sans longue phrase explicative).
-
-RÈGLE D'OR N°5 : INDICATION KPI COURTE
-- Rédige des valeurs de KPI très courtes et condensées (1 à 3 mots max) :
-  - `[KPI_TEMP_RANGE]` : ex: "38 à 42 °C" ou "jusqu'à 42 °C localement"
-  - `[KPI_PERIOD]` : ex: "27 Juillet au 2 Août"
-  - `[KPI_DURATION]` : ex: "5 jours"
-  - `[KPI_CONFIDENCE]` : ex: "4/5 (Élevée)"
-  - `[KPI_RISKS]` : ex: "Canicule & Orages"
-  - `[KPI_ZONE]` : ex: "Sud-Ouest / Nord-Est"
-
-RÈGLE D'OR N°6 : CHRONOLOGIE HORIZONTALE EN 4 ÉTAPES
-- Rédige la chronologie sous forme de 4 étapes horizontales simples : Début, Montée, Pic, Fin.
-- Pour chaque étape, écris uniquement la date exacte et une phrase très courte (10-15 mots maximum).
-
-RÈGLE D'OR N°7 : RÉDUCTION DRASTIQUE DES TEXTES DÉTAILLÉS (60-70%)
-- Le Scénario Majoritaire doit faire ~50-80 mots max, et les Scénarios Alternatif et Minoritaire ~40-60 mots max chacun.
-- Utilise des listes à puces pour lister les impacts réels. Mets en gras les valeurs numériques importantes.
-- Ne répète pas les informations déjà présentes en haut de document.
-
-RÈGLE D'OR N°8 : FIDÉLITÉ ABSOLUE AUX DONNÉES ET ANALYSES SOURCES (PAS D'EXAGÉRATION)
-- Tu ne devez jamais sur-interpréter, accentuer ou exagérer une formulation météo. Si les prévisionnistes parlent de "risque d'orage" ou d'une "tendance incertaine", décris-le exactement comme un risque ou une incertitude. Ne transforme jamais une hypothèse en certitude.
-- Ne cherche pas à rendre le titre ou les résumés plus accrocheurs en déformant la réalité scientifique fournie dans les discussions. Conserve strictement le niveau de nuance, les réserves et l'indice de confiance donnés par les experts.
-
-FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ces balises :
-
-[SUBJECT_TITLE_LINE1]
-Semaine X - Du Lundi DD au Dimanche DD Mois AAAA
-
-[SUBJECT_TITLE_LINE2]
-Accroche météo courte résumant le temps de la semaine avec dates exactes
-
-[ALERT_LEVEL]
-Rouge (ou Vert, Jaune, Orange, Rouge)
-
-[ALERT_EVENT_TYPE]
-Canicule (ou autre phénomène attendu)
-
-[ALERT_START]
-Mercredi 29 Juillet
-
-[ALERT_END]
-Dimanche 2 Août
-
-[ALERT_CONFIDENCE]
-4/5
-
-[KPI_TEMP_RANGE]
-38 à 42 °C (ou jusqu'à 42 °C localement)
-
-[KPI_PERIOD]
-Du 27 Juillet au 2 Août
-
-[KPI_DURATION]
-6 jours
-
-[KPI_CONFIDENCE]
-4/5 (Élevée)
-
-[KPI_RISKS]
-Canicule, orages, incendies
-
-[KPI_ZONE]
-Axe Sud-Ouest / Nord-Est
-
-[TAKEAWAYS_10S]
-- Phrase courte 1 (maximum une ligne)
-- Phrase courte 2 (maximum une ligne)
-- Phrase courte 3 (maximum une ligne)
-- Phrase courte 4 (maximum une ligne)
-- Phrase courte 5 (maximum une ligne)
-- Phrase courte 6 (maximum une ligne)
-
-[SCORE_HEAT]
-Note sur 5 (ex: 3/5)
-
-[INTERP_HEAT]
-Situation exceptionnelle
-
-[SCORE_RAIN]
-Note sur 5 (ex: 1/5)
-
-[INTERP_RAIN]
-Situation normale
-
-[SCORE_STORM]
-Note sur 5 (ex: 4/5)
-
-[INTERP_STORM]
-Risque élevé
-
-[SCORE_WIND]
-Note sur 5 (ex: 2/5)
-
-[INTERP_WIND]
-Risque faible
-
-[IMPACT_POPULATION]
-Quelques mots clairs résumant l'impact (ex: Vigilance canicule)
-
-[IMPACT_TRAVEL]
-Quelques mots clairs (ex: Risque de retards rails)
-
-[IMPACT_WORK]
-Quelques mots clairs (ex: Horaires décalés BTP)
-
-[IMPACT_AGRI]
-Quelques mots clairs (ex: Stress thermique cultures)
-
-[IMPACT_STORM]
-Quelques mots clairs (ex: Localement violents)
-
-[IMPACT_DROUGHT]
-Quelques mots clairs (ex: Sécheresse accentuée)
-
-[TIMELINE_DATE_DEBUT]
-Lundi 27 Juillet
-
-[TIMELINE_DESC_DEBUT]
-Début de l'épisode chaud sur l'extrême sud du pays.
-
-[TIMELINE_DATE_MONTEE]
-Mardi 28 Juillet
-
-[TIMELINE_DESC_MONTEE]
-Extension rapide de la chaleur sur les deux tiers sud de la France.
-
-[TIMELINE_DATE_PIC]
-Jeudi 30 et Vendredi 31 Juillet
-
-[TIMELINE_DESC_PIC]
-Pic de chaleur exceptionnelle de 38 à 42 °C localement.
-
-[TIMELINE_DATE_FIN]
-Dimanche 2 Août
-
-[TIMELINE_DESC_FIN]
-Baisse progressive des températures par l'ouest.
-
-[REGIONAL_HDF_NORTH]
-Température | Pluie | Risque dominant | Confiance
-
-[REGIONAL_ATLANTIC]
-Température | Pluie | Risque dominant | Confiance
-
-[REGIONAL_CENTRAL]
-Température | Pluie | Risque dominant | Confiance
-
-[REGIONAL_SOUTH]
-Température | Pluie | Risque dominant | Confiance
-
-[REGIONAL_MEDITERRANEAN]
-Température | Pluie | Risque dominant | Confiance
-
-[REGIONAL_MOUNTAINS]
-Température | Pluie | Risque dominant | Confiance
-
-[SCENARIO_MAJORITAIRE_PROB]
-65%
-
-[SCENARIO_MAJORITAIRE_TITLE]
-Titre court
-
-[SCENARIO_MAJORITAIRE_DESC]
-Description très concise avec puces pour les impacts (~50-80 mots max)
-
-[SCENARIO_MEDIAN_PROB]
-25%
-
-[SCENARIO_MEDIAN_TITLE]
-Titre court
-
-[SCENARIO_MEDIAN_DESC]
-Description très concise (~40-60 mots max)
-
-[SCENARIO_MINORITAIRE_PROB]
-10%
-
-[SCENARIO_MINORITAIRE_TITLE]
-Titre court
-
-[SCENARIO_MINORITAIRE_DESC]
-Description très concise (~40-60 mots max)
-
-[KEY_UNCERTAINTIES]
-- Incertitude 1
-- Incertitude 2
-
-[MONITORING_POINTS]
-- Point de vigilance 1
-- Point de vigilance 2
-
-[KEY_TAKEAWAYS]
-- Puce essentielle 1
-- Puce essentielle 2
-- Puce essentielle 3
-- Puce essentielle 4
-- Puce essentielle 5
-- Puce essentielle 6
-
-[SOCIAL_LINKEDIN]
-Post LinkedIn réseaux sociaux captivant en texte brut (250-300 mots)
-
-[SOCIAL_FACEBOOK]
-Post Facebook chaleureux et aéré pour grand public
-
-[SOCIAL_TWITTER]
-Post X (Twitter) percutant et court (MAXIMUM 280 caractères, espaces compris)
-
-[SOCIAL_TIKTOK]
-Description TikTok avec accroches, émojis et hashtags ciblés
-
-[SOCIAL_INSTAGRAM]
-Légende Instagram soignée et esthétique
-
-[LINKEDIN_HASHTAGS]
-#Meteo #Previsions #France #Climat #MonsieurMeteo"""
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un objet JSON structuré représentant le bulletin d'analyse météorologique national (France) et les déclinaisons pour les 13 régions métropolitaines suivantes :
+- auvergne_rhone_alpes
+- bourgogne_franche_comte
+- bretagne
+- centre_val_de_loire
+- corse
+- grand_est
+- hauts_de_france
+- ile_de_france
+- normandie
+- nouvelle_aquitaine
+- occitanie
+- pays_de_la_loire
+- provence_alpes_cote_azur
+
+RÈGLES D'OR ABSOLUES :
+1. NE RIEN INVENTER. Si une information (température, risque, date, impact, etc.) n'est pas explicitement mentionnée ou déductible sans ambiguïté des sources pour une région donnée, écris obligatoirement "Information non précisée dans les sources" pour ce champ. Ne déduis jamais une tendance régionale à partir d'un élément uniquement national si le texte ne le justifie pas.
+2. DATES EXACTES : Associe toujours les jours aux dates exactes (ex: Lundi 27 Juillet).
+3. EXCLUSION DES JOURS PASSÉS : Conforme-toi à la "Date actuelle de génération" transmise dans l'invite.
+4. TEMPÉRATURES RÉGIONALES : Les températures régionales doivent correspondre aux valeurs réelles mentionnées pour cette région dans les messages du forum. Si aucune valeur n'est donnée, écris "Information non précisée dans les sources".
+5. IMPACTS GÉOLOCALISÉS : Pour chaque impact sectoriel régional, mentionne la localisation précise (ex: "Risque de fortes chaleurs principalement dans le sud de la région" ou "Impact non identifié dans les sources pour cette région").
+
+FORMAT DE SORTIE JSON OBLIGATOIRE :
+Renvoyez uniquement un objet JSON valide contenant la structure suivante. Pas de texte explicatif avant ou après le JSON.
+
+{{
+  "title_line1": "Semaine X - Du Lundi DD au Dimanche DD Mois AAAA",
+  "title_line2": "Accroche météo courte résumant le temps de la semaine",
+  "key_numbers": "Chiffre 1 | Libellé 1\nChiffre 2 | Libellé 2",
+  "france": {{
+    "alert": {{
+      "level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "start": "...",
+      "end": "...",
+      "confidence": "..."
+    }},
+    "kpis": {{
+      "temp_range": "38 à 42 °C (ou jusqu'à 42 °C localement)",
+      "period": "Du 27 Juillet au 2 Août",
+      "duration": "6 jours",
+      "confidence": "4/5 (Élevée)",
+      "risks": "Canicule, orages",
+      "zone": "Axe Sud-Ouest / Nord-Est"
+    }},
+    "takeaways_10s": [
+      "Phrase 1 (une ligne max)",
+      "Phrase 2 (une ligne max)",
+      "Phrase 3 (une ligne max)",
+      "Phrase 4 (une ligne max)"
+    ],
+    "dashboard": {{
+      "score_heat": "3/5",
+      "interp_heat": "Situation exceptionnelle",
+      "score_rain": "1/5",
+      "interp_rain": "Situation normale",
+      "score_storm": "4/5",
+      "interp_storm": "Risque élevé",
+      "score_wind": "2/5",
+      "interp_wind": "Risque faible"
+    }},
+    "impacts": {{
+      "population": "...",
+      "travel": "...",
+      "work": "...",
+      "agri": "...",
+      "storm": "...",
+      "drought": "..."
+    }},
+    "timeline": {{
+      "date_debut": "Lundi 27 Juillet", "desc_debut": "...",
+      "date_montee": "Mardi 28 Juillet", "desc_montee": "...",
+      "date_pic": "Jeudi 30 Juillet", "desc_pic": "...",
+      "date_fin": "Dimanche 2 Août", "desc_fin": "..."
+    }},
+    "regional": {{
+      "hdf_north": "22 à 26 °C | Faible | Aucun | 4/5",
+      "atlantic": "24 à 28 °C | Modéré | Vent | 4/5",
+      "central": "28 à 32 °C | Faible | Chaleur | 4/5",
+      "south": "35 à 40 °C | Faible | Canicule | 4/5",
+      "mediterranean": "32 à 36 °C | Faible | Vent | 4/5",
+      "mountains": "20 à 25 °C | Modéré | Orages | 3/5"
+    }},
+    "scenarios": {{
+      "majoritaire": {{"prob": "65%", "title": "...", "desc": "..."}},
+      "median": {{"prob": "25%", "title": "...", "desc": "..."}},
+      "minoritaire": {{"prob": "10%", "title": "...", "desc": "..."}}
+    }},
+    "key_uncertainties": "- Incertitude 1\n- Incertitude 2",
+    "monitoring_points": "- Point 1\n- Point 2",
+    "key_takeaways": "- Takeaway 1\n- Takeaway 2",
+    "social_pack": {{
+      "linkedin": "...",
+      "facebook": "...",
+      "twitter": "...",
+      "tiktok": "...",
+      "instagram": "..."
+    }}
+  }},
+  "regions": {{
+    "auvergne_rhone_alpes": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "3/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "2/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "bourgogne_franche_comte": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "bretagne": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "centre_val_de_loire": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "corse": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "grand_est": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "hauts_de_france": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "ile_de_france": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "normandie": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "nouvelle_aquitaine": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "occitanie": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "pays_de_la_loire": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }},
+    "provence_alpes_cote_azur": {{
+      "alert_level": "Vert|Jaune|Orange|Rouge",
+      "event_type": "...",
+      "kpis": {{
+        "temp_range": "...",
+        "period": "...",
+        "duration": "...",
+        "confidence": "...",
+        "risks": "...",
+        "zone": "..."
+      }},
+      "takeaways_10s": ["...", "..."],
+      "dashboard": {{
+        "score_heat": "1/5", "interp_heat": "...",
+        "score_rain": "1/5", "interp_rain": "...",
+        "score_storm": "1/5", "interp_storm": "...",
+        "score_wind": "1/5", "interp_wind": "..."
+      }},
+      "impacts": {{
+        "population": "...",
+        "travel": "...",
+        "work": "...",
+        "agri": "...",
+        "storm": "...",
+        "drought": "..."
+      }},
+      "timeline": {{
+        "date_debut": "...", "desc_debut": "...",
+        "date_montee": "...", "desc_montee": "...",
+        "date_pic": "...", "desc_pic": "...",
+        "date_fin": "...", "desc_fin": "..."
+      }}
+    }}
+  }}
+}}
+
+Rédige pour TOUTES les 13 régions sans en omettre aucune dans la clé 'regions'. Si aucune information n'existe, remplis avec la valeur 'Information non précisée dans les sources' pour les champs textes et 'Vert' pour alert_level. Sans aucun blabla d'introduction ou de conclusion."""
 
     user_prompt = f"""Contexte de date : {date_context_str}
 
@@ -404,174 +701,30 @@ Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title
 
 {recent_messages_text}
 
-Analyse ces discussions en appliquant scrupuleusement la vérification de cohérence et génère le rapport complet."""
+Analyse ces discussions en appliquant scrupuleusement la vérification de cohérence et génère le rapport au format JSON spécifié."""
 
     response = call_llm(system_prompt, user_prompt)
     
     data = None
     if response:
         try:
-            print(f"[{topic_idx+1}] Parsing de la réponse de l'IA...")
-            blocks = {
-                "title_line1": r"\[SUBJECT_TITLE_LINE1\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "title_line2": r"\[SUBJECT_TITLE_LINE2\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "alert_level": r"\[ALERT_LEVEL\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "alert_event_type": r"\[ALERT_EVENT_TYPE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "alert_start": r"\[ALERT_START\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "alert_end": r"\[ALERT_END\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "alert_confidence": r"\[ALERT_CONFIDENCE\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "kpi_temp_range": r"\[KPI_TEMP_RANGE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "kpi_period": r"\[KPI_PERIOD\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "kpi_duration": r"\[KPI_DURATION\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "kpi_confidence": r"\[KPI_CONFIDENCE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "kpi_risks": r"\[KPI_RISKS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "kpi_zone": r"\[KPI_ZONE\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "takeaways_10s": r"\[TAKEAWAYS_10S\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "score_heat": r"\[SCORE_HEAT\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "interp_heat": r"\[INTERP_HEAT\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "score_rain": r"\[SCORE_RAIN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "interp_rain": r"\[INTERP_RAIN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "score_storm": r"\[SCORE_STORM\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "interp_storm": r"\[INTERP_STORM\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "score_wind": r"\[SCORE_WIND\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "interp_wind": r"\[INTERP_WIND\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "impact_population": r"\[IMPACT_POPULATION\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "impact_travel": r"\[IMPACT_TRAVEL\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "impact_work": r"\[IMPACT_WORK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "impact_agri": r"\[IMPACT_AGRI\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "impact_storm": r"\[IMPACT_STORM\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "impact_drought": r"\[IMPACT_DROUGHT\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "timeline_date_debut": r"\[TIMELINE_DATE_DEBUT\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_desc_debut": r"\[TIMELINE_DESC_DEBUT\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_date_montee": r"\[TIMELINE_DATE_MONTEE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_desc_montee": r"\[TIMELINE_DESC_MONTEE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_date_pic": r"\[TIMELINE_DATE_PIC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_desc_pic": r"\[TIMELINE_DESC_PIC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_date_fin": r"\[TIMELINE_DATE_FIN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_desc_fin": r"\[TIMELINE_DESC_FIN\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "regional_hdf_north": r"\[REGIONAL_HDF_NORTH\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_atlantic": r"\[REGIONAL_ATLANTIC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_central": r"\[REGIONAL_CENTRAL\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_south": r"\[REGIONAL_SOUTH\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_mediterranean": r"\[REGIONAL_MEDITERRANEAN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_mountains": r"\[REGIONAL_MOUNTAINS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "majoritaire_prob": r"\[SCENARIO_MAJORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "majoritaire_title": r"\[SCENARIO_MAJORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "majoritaire_desc": r"\[SCENARIO_MAJORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "median_prob": r"\[SCENARIO_MEDIAN_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "median_title": r"\[SCENARIO_MEDIAN_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "median_desc": r"\[SCENARIO_MEDIAN_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "minoritaire_prob": r"\[SCENARIO_MINORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "minoritaire_title": r"\[SCENARIO_MINORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "minoritaire_desc": r"\[SCENARIO_MINORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "key_uncertainties": r"\[KEY_UNCERTAINTIES\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "monitoring_points": r"\[MONITORING_POINTS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "key_takeaways": r"\[KEY_TAKEAWAYS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "social_linkedin": r"\[SOCIAL_LINKEDIN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_facebook": r"\[SOCIAL_FACEBOOK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_twitter": r"\[SOCIAL_TWITTER\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_tiktok": r"\[SOCIAL_TIKTOK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_instagram": r"\[SOCIAL_INSTAGRAM\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "linkedin_hashtags": r"\[LINKEDIN_HASHTAGS\]\s*\n(.*?)(?=\n\s*\[|$)",
-            }
-            
-            parsed = {}
-            for key, pattern in blocks.items():
-                match = re.search(pattern, response, re.DOTALL)
-                if match:
-                    parsed[key] = match.group(1).strip()
+            print(f"[{topic_idx+1}] Extraction du JSON...")
+            match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
+            if match:
+                json_str = match.group(1)
+            else:
+                start_idx = response.find('{')
+                end_idx = response.rfind('}')
+                if start_idx != -1 and end_idx != -1:
+                    json_str = response[start_idx:end_idx+1]
                 else:
-                    parsed[key] = ""
+                    json_str = response
             
-            if (parsed["title_line1"] or parsed["title_line2"]) and (parsed["takeaways_10s"] or parsed["majoritaire_desc"]):
-                data = {
-                    "title_line1": parsed["title_line1"] or topic_title_clean,
-                    "title_line2": parsed["title_line2"] or "Tendances et synthèses météorologiques",
-                    
-                    "alert": {
-                        "level": parsed["alert_level"] or "Vert",
-                        "event_type": parsed["alert_event_type"],
-                        "start": parsed["alert_start"],
-                        "end": parsed["alert_end"],
-                        "confidence": parsed["alert_confidence"],
-                    },
-                    "kpis": {
-                        "temp_range": parsed["kpi_temp_range"],
-                        "period": parsed["kpi_period"],
-                        "duration": parsed["kpi_duration"],
-                        "confidence": parsed["kpi_confidence"],
-                        "risks": parsed["kpi_risks"],
-                        "zone": parsed["kpi_zone"],
-                    },
-                    "takeaways_10s": parsed["takeaways_10s"],
-                    "dashboard": {
-                        "score_heat": parsed["score_heat"] or "0/5",
-                        "interp_heat": parsed["interp_heat"] or "Situation normale",
-                        "score_rain": parsed["score_rain"] or "0/5",
-                        "interp_rain": parsed["interp_rain"] or "Situation normale",
-                        "score_storm": parsed["score_storm"] or "0/5",
-                        "interp_storm": parsed["interp_storm"] or "Situation normale",
-                        "score_wind": parsed["score_wind"] or "0/5",
-                        "interp_wind": parsed["interp_wind"] or "Situation normale",
-                    },
-                    "impacts": {
-                        "population": parsed["impact_population"],
-                        "travel": parsed["impact_travel"],
-                        "work": parsed["impact_work"],
-                        "agri": parsed["impact_agri"],
-                        "storm": parsed["impact_storm"],
-                        "drought": parsed["impact_drought"],
-                    },
-                    "timeline": {
-                        "date_debut": parsed["timeline_date_debut"],
-                        "desc_debut": parsed["timeline_desc_debut"],
-                        "date_montee": parsed["timeline_date_montee"],
-                        "desc_montee": parsed["timeline_desc_montee"],
-                        "date_pic": parsed["timeline_date_pic"],
-                        "desc_pic": parsed["timeline_desc_pic"],
-                        "date_fin": parsed["timeline_date_fin"],
-                        "desc_fin": parsed["timeline_desc_fin"],
-                    },
-                    "regional": {
-                        "hdf_north": parsed["regional_hdf_north"],
-                        "atlantic": parsed["regional_atlantic"],
-                        "central": parsed["regional_central"],
-                        "south": parsed["regional_south"],
-                        "mediterranean": parsed["regional_mediterranean"],
-                        "mountains": parsed["regional_mountains"],
-                    },
-                    "scenarios": {
-                        "majoritaire": {"prob": parsed["majoritaire_prob"] or "65%", "title": parsed["majoritaire_title"] or "Scénario Majoritaire", "desc": parsed["majoritaire_desc"]},
-                        "median": {"prob": parsed["median_prob"] or "25%", "title": parsed["median_title"] or "Scénario Alternatif", "desc": parsed["median_desc"]},
-                        "minoritaire": {"prob": parsed["minoritaire_prob"] or "10%", "title": parsed["minoritaire_title"] or "Scénario Minoritaire", "desc": parsed["minoritaire_desc"]}
-                    },
-                    "key_uncertainties": parsed["key_uncertainties"],
-                    "monitoring_points": parsed["monitoring_points"],
-                    "key_takeaways": parsed["key_takeaways"],
-                    "social_pack": {
-                        "linkedin": parsed["social_linkedin"],
-                        "facebook": parsed["social_facebook"],
-                        "twitter": parsed["social_twitter"],
-                        "tiktok": parsed["social_tiktok"],
-                        "instagram": parsed["social_instagram"],
-                    },
-                    "linkedin_hashtags": parsed["linkedin_hashtags"],
-                }
-                print(f"[{topic_idx+1}] Parsing textuel réussi avec succès !")
+            data = json.loads(json_str)
+            print(f"[{topic_idx+1}] Parsing JSON réussi avec succès !")
         except Exception as e:
-            print(f"Erreur parsing : {e}")
+            print(f"Erreur parsing JSON : {e}")
+            print(f"Réponse brute de l'IA : {response[:500]}...")
             
     return {"data": data, "images": downloaded_images}
 def main():
@@ -907,9 +1060,28 @@ def main():
     .copy-btn:hover { background: rgba(255, 255, 255, 0.35); }
     """
 
-    weeks_html = ""
+    REGIONS_MAP = {
+        "auvergne_rhone_alpes": "Auvergne-Rhône-Alpes",
+        "bourgogne_franche_comte": "Bourgogne-Franche-Comté",
+        "bretagne": "Bretagne",
+        "centre_val_de_loire": "Centre-Val de Loire",
+        "corse": "Corse",
+        "grand_est": "Grand Est",
+        "hauts_de_france": "Hauts-de-France",
+        "ile_de_france": "Île-de-France",
+        "normandie": "Normandie",
+        "nouvelle_aquitaine": "Nouvelle-Aquitaine",
+        "occitanie": "Occitanie",
+        "pays_de_la_loire": "Pays de la Loire",
+        "provence_alpes_cote_azur": "Provence-Alpes-Côte d'Azur"
+    }
+
+    date_suffix = datetime.datetime.now().strftime('%Y_%m_%d')
+
+    # Générer le bulletin national (France)
+    france_weeks_html = ""
     for w_idx, w_res in enumerate(results):
-        data = w_res["data"]
+        full_data = w_res["data"]
         downloaded_images = w_res["images"]
         
         # Encodage des graphiques
@@ -933,54 +1105,41 @@ def main():
             <div class="section-title">📊 MODÉLISATIONS & GRAPHIQUES DE TENDANCE</div>
             <div class="meteo-images-container">{html_images_block}</div>
             """
-        
+
+        data = full_data.get("france", {})
         timeline = data.get("timeline", {})
         regional = data.get("regional", {})
-        conf = data.get("confidence", {})
+        conf = data.get("confidence", {}) or {}
         dash = data.get("dashboard", {}) or {}
-        scenarios = data.get("scenarios", {})
+        scenarios = data.get("scenarios", {}) or {}
         social = data.get("social_pack", {}) or {}
         alert = data.get("alert", {}) or {}
         kpis = data.get("kpis", {}) or {}
         impacts = data.get("impacts", {}) or {}
 
-        # Nettoyage des posts sociaux pour éviter les backslashes dans le f-string
         linkedin_clean = social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')
         facebook_clean = social.get('facebook', '').replace('<br>', '\n').replace('<br/>', '\n')
         twitter_clean = social.get('twitter', '').replace('<br>', '\n').replace('<br/>', '\n')
         tiktok_clean = social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')
         instagram_clean = social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')
 
-        # Couleur dynamique du badge de confiance
-        conf_score_raw = conf.get('score', '4/5')
+        conf_score_raw = alert.get('confidence', '4/5')
         conf_class = "conf-badge-green"
-        if "3/" in conf_score_raw:
-            conf_class = "conf-badge-orange"
-        elif "1/" in conf_score_raw or "2/" in conf_score_raw:
-            conf_class = "conf-badge-red"
+        if "3/" in conf_score_raw: conf_class = "conf-badge-orange"
+        elif "1/" in conf_score_raw or "2/" in conf_score_raw: conf_class = "conf-badge-red"
 
-        # Traitement des puces "À Retenir"
-        takeaways_raw = data.get("key_takeaways", "")
-        takeaways_items = [t.strip("-* ").strip() for t in takeaways_raw.split("\n") if t.strip()]
-        takeaways_li_html = "".join([f"<li>{t}</li>" for t in takeaways_items if t])
-        if not takeaways_li_html:
-            takeaways_li_html = "<li>Synthèse des prévisions établie avec succès.</li>"
+        takeaways_li_html = "".join([f"<li>{t}</li>" for t in full_data.get("key_takeaways", "").split("\n") if t])
+        if not takeaways_li_html: takeaways_li_html = "<li>Synthèse des prévisions établie avec succès.</li>"
 
-        # Traitement des scores physiques pour le tableau de bord
         heat_score = parse_score(dash.get('score_heat', '0/5'))
         rain_score = parse_score(dash.get('score_rain', '0/5'))
         storm_score = parse_score(dash.get('score_storm', '0/5'))
         wind_score = parse_score(dash.get('score_wind', '0/5'))
-
-        heat_label = get_score_label(dash.get('score_heat', '0/5'))
-        rain_label = get_score_label(dash.get('score_rain', '0/5'))
-        storm_label = get_score_label(dash.get('score_storm', '0/5'))
-        wind_label = get_score_label(dash.get('score_wind', '0/5'))
         conf_label = get_score_label(conf_score_raw)
 
         # Génération des chiffres clés
         key_numbers_html = ""
-        key_numbers_raw = data.get("key_numbers", "")
+        key_numbers_raw = full_data.get("key_numbers", "")
         if key_numbers_raw:
             lines = [l.strip() for l in key_numbers_raw.split("\n") if l.strip()]
             for l in lines:
@@ -995,7 +1154,7 @@ def main():
                         </div>
                         """
         if not key_numbers_html:
-            key_numbers_html = "<div style='grid-column: span 5; text-align: center; color: #64748b; font-style: italic; padding: 15px;'>Aucune donnée chiffrée remarquable.</div>"
+            key_numbers_html = "<div style='grid-column: span 5; text-align: center; color: #64748b; font-style: italic; padding: 15px;'>Aucune donnée chiffrée.</div>"
 
         # Traitement du tableau régional
         hdf_data = parse_region_line(regional.get('hdf_north', ''))
@@ -1029,378 +1188,358 @@ def main():
             format_region_row("Reliefs & Montagnes", mnt_data)
         )
 
-        # Traitement du résumé en 10s
-        summary_10s_html = ""
-        summary_10s_raw = data.get("takeaways_10s", "")
-        if summary_10s_raw:
-            lines_10s = [l.strip("-* ").strip() for l in summary_10s_raw.split("\n") if l.strip()]
-            for l in lines_10s:
-                if l:
-                    summary_10s_html += f"<li>{l}</li>"
-        if not summary_10s_html:
-            summary_10s_html = "<li>Synthèse des faits disponible.</li>"
+        summary_10s_html = "".join([f"<li>{l.strip('-* ').strip()}</li>" for l in data.get("takeaways_10s", []) if l.strip()])
+        if not summary_10s_html: summary_10s_html = "<li>Aucun résumé disponible.</li>"
 
-        # Traitement du bandeau d'alerte supérieur
         alert_lvl = alert.get('level', 'Vert').strip().replace('[', '').replace(']', '')
-        alert_lvl_clean = alert_lvl.lower()
-        if "rouge" in alert_lvl_clean:
-            alert_class_suffix = "Rouge"
-        elif "orange" in alert_lvl_clean:
-            alert_class_suffix = "Orange"
-        elif "jaune" in alert_lvl_clean:
-            alert_class_suffix = "Jaune"
-        else:
-            alert_class_suffix = "Vert"
-        alert_bg_class = f"alert-banner-{alert_class_suffix}"
+        alert_bg_class = f"alert-banner-{{alert_lvl}}"
 
         divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
-        weeks_html += f"""
+        france_weeks_html += f"""
         {divider}
-        
-        <!-- TITRE DE SEMAINE EN 2 LIGNES -->
         <div class="week-title-box">
-            <h2 class="week-title-line1">📅 {data.get('title_line1', 'SEMAINE')}</h2>
-            <div class="week-title-line2">{data.get('title_line2', 'Synthèse des prévisions')}</div>
+            <h2 class="week-title-line1">📅 {full_data.get('title_line1', 'SEMAINE')}</h2>
+            <div class="week-title-line2">{full_data.get('title_line2', 'Synthèse France')}</div>
         </div>
         
-        <!-- BANDEAU DE SYNTHÈSE PLEINE LARGEUR (REMPLACE L'ANCIEN BANDEAU GEANT ROUGE) -->
         <div class="alert-banner {alert_bg_class}" style="margin-bottom: 25px;">
             <div class="alert-left">
-                <span class="alert-badge-top">Synthèse Exécutive - Alerte {alert_lvl}</span>
+                <span class="alert-badge-top">Synthèse France - Alerte {alert_lvl}</span>
                 <h2 class="alert-title-lg">{alert.get('event_type', 'Événement')}</h2>
                 <div class="alert-date-block">
-                    PÉRIODE CONCERNÉE : {alert.get('start', '-')} au {alert.get('end', '-')} (Fiabilité : {alert.get('confidence', '-')})
+                    PÉRIODE CONCERNÉE : {alert.get('start', '-')} au {alert.get('end', '-')}
                 </div>
             </div>
         </div>
 
-        <!-- LIGNE DE 6 KPI DE POIDS ÉGAL -->
         <div class="kpi-row-6" style="margin-bottom: 25px;">
-            <div class="kpi-card-6">
-                <div class="kpi-icon">🌡️</div>
-                <div class="kpi-val">{kpis.get('temp_range', '-')}</div>
-                <div class="kpi-lbl">Température</div>
-            </div>
-            <div class="kpi-card-6">
-                <div class="kpi-icon">📅</div>
-                <div class="kpi-val">{kpis.get('period', '-')}</div>
-                <div class="kpi-lbl">Période</div>
-            </div>
-            <div class="kpi-card-6">
-                <div class="kpi-icon">⏱️</div>
-                <div class="kpi-val">{kpis.get('duration', '-')}</div>
-                <div class="kpi-lbl">Durée</div>
-            </div>
-            <div class="kpi-card-6">
-                <div class="kpi-icon">🎯</div>
-                <div class="kpi-val">{kpis.get('confidence', '-')}</div>
-                <div class="kpi-lbl">Confiance</div>
-            </div>
-            <div class="kpi-card-6">
-                <div class="kpi-icon">⚠️</div>
-                <div class="kpi-val">{kpis.get('risks', '-')}</div>
-                <div class="kpi-lbl">Risques</div>
-            </div>
-            <div class="kpi-card-6">
-                <div class="kpi-icon">📍</div>
-                <div class="kpi-val">{kpis.get('zone', '-')}</div>
-                <div class="kpi-lbl">Zone</div>
-            </div>
+            <div class="kpi-card-6"><div class="kpi-icon">🌡️</div><div class="kpi-val">{kpis.get('temp_range', '-')}</div><div class="kpi-lbl">Température</div></div>
+            <div class="kpi-card-6"><div class="kpi-icon">📅</div><div class="kpi-val">{kpis.get('period', '-')}</div><div class="kpi-lbl">Période</div></div>
+            <div class="kpi-card-6"><div class="kpi-icon">⏱️</div><div class="kpi-val">{kpis.get('duration', '-')}</div><div class="kpi-lbl">Durée</div></div>
+            <div class="kpi-card-6"><div class="kpi-icon">🎯</div><div class="kpi-val">{kpis.get('confidence', '-')}</div><div class="kpi-lbl">Confiance</div></div>
+            <div class="kpi-card-6"><div class="kpi-icon">⚠️</div><div class="kpi-val">{kpis.get('risks', '-')}</div><div class="kpi-lbl">Risques</div></div>
+            <div class="kpi-card-6"><div class="kpi-icon">📍</div><div class="kpi-val">{kpis.get('zone', '-')}</div><div class="kpi-lbl">Zone</div></div>
         </div>
 
-        <!-- RÉSUMÉ EN 10 SECONDES (4 à 6 phrases courtes) -->
         <div class="summary-10s-box" style="margin-bottom: 25px;">
             <h3>⏱️ À Retenir en 10 Secondes</h3>
-            <ul class="summary-10s-list">
-                {summary_10s_html}
-            </ul>
+            <ul class="summary-10s-list">{summary_10s_html}</ul>
         </div>
 
-        <!-- JAUGES DE RISQUES & CONFIANCE COMPACTES -->
         <div class="section-title">📊 INDICES DE RISQUES PHYSIQUES</div>
         <div class="dashboard-meters-row" style="margin-bottom: 25px;">
             <div class="meter-card-premium">
-                <div class="meter-card-header">
-                    <h4>🔥 Chaleur</h4>
-                    <span class="meter-badge mb-chaleur">{get_score_label(dash.get('score_heat', '0/5'))}</span>
-                </div>
-                <div class="meter-track-premium">
-                    <div class="meter-fill-premium mf-heat" style="width: {heat_score * 20}%;"></div>
-                </div>
-                <div class="meter-info">
-                    <span class="meter-lbl-text">{dash.get('interp_heat', 'Situation normale')}</span>
-                    <span>{heat_score}/5</span>
-                </div>
+                <div class="meter-card-header"><h4>🔥 Chaleur</h4><span class="meter-badge mb-chaleur">{get_score_label(dash.get('score_heat', '0/5'))}</span></div>
+                <div class="meter-track-premium"><div class="meter-fill-premium mf-heat" style="width: {heat_score * 20}%;"></div></div>
+                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_heat', 'Situation normale')}</span><span>{heat_score}/5</span></div>
             </div>
             <div class="meter-card-premium">
-                <div class="meter-card-header">
-                    <h4>🌧️ Pluie</h4>
-                    <span class="meter-badge mb-pluie">{get_score_label(dash.get('score_rain', '0/5'))}</span>
-                </div>
-                <div class="meter-track-premium">
-                    <div class="meter-fill-premium mf-rain" style="width: {rain_score * 20}%;"></div>
-                </div>
-                <div class="meter-info">
-                    <span class="meter-lbl-text">{dash.get('interp_rain', 'Situation normale')}</span>
-                    <span>{rain_score}/5</span>
-                </div>
+                <div class="meter-card-header"><h4>🌧️ Pluie</h4><span class="meter-badge mb-pluie">{get_score_label(dash.get('score_rain', '0/5'))}</span></div>
+                <div class="meter-track-premium"><div class="meter-fill-premium mf-rain" style="width: {rain_score * 20}%;"></div></div>
+                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_rain', 'Situation normale')}</span><span>{rain_score}/5</span></div>
             </div>
             <div class="meter-card-premium">
-                <div class="meter-card-header">
-                    <h4>⛈️ Orages</h4>
-                    <span class="meter-badge mb-orage">{get_score_label(dash.get('score_storm', '0/5'))}</span>
-                </div>
-                <div class="meter-track-premium">
-                    <div class="meter-fill-premium mf-storm" style="width: {storm_score * 20}%;"></div>
-                </div>
-                <div class="meter-info">
-                    <span class="meter-lbl-text">{dash.get('interp_storm', 'Situation normale')}</span>
-                    <span>{storm_score}/5</span>
-                </div>
+                <div class="meter-card-header"><h4>⛈️ Orages</h4><span class="meter-badge mb-orage">{get_score_label(dash.get('score_storm', '0/5'))}</span></div>
+                <div class="meter-track-premium"><div class="meter-fill-premium mf-storm" style="width: {storm_score * 20}%;"></div></div>
+                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_storm', 'Situation normale')}</span><span>{storm_score}/5</span></div>
             </div>
             <div class="meter-card-premium">
-                <div class="meter-card-header">
-                    <h4>💨 Vent</h4>
-                    <span class="meter-badge mb-vent">{get_score_label(dash.get('score_wind', '0/5'))}</span>
-                </div>
-                <div class="meter-track-premium">
-                    <div class="meter-fill-premium mf-wind" style="width: {wind_score * 20}%;"></div>
-                </div>
-                <div class="meter-info">
-                    <span class="meter-lbl-text">{dash.get('interp_wind', 'Situation normale')}</span>
-                    <span>{wind_score}/5</span>
-                </div>
+                <div class="meter-card-header"><h4>💨 Vent</h4><span class="meter-badge mb-vent">{get_score_label(dash.get('score_wind', '0/5'))}</span></div>
+                <div class="meter-track-premium"><div class="meter-fill-premium mf-wind" style="width: {wind_score * 20}%;"></div></div>
+                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_wind', 'Situation normale')}</span><span>{wind_score}/5</span></div>
             </div>
         </div>
 
-        <!-- BLOC IMPACTS SECTORIELS ATTENDUS -->
         <div class="section-title">⚠️ IMPACTS ATTENDUS PAR SECTEUR</div>
         <div class="impacts-grid" style="margin-bottom: 25px;">
-            <div class="impact-item">
-                <span class="impact-icon">👥</span>
-                <div class="impact-content">
-                    <strong class="impact-title">Population</strong>
-                    <span class="impact-text">{impacts.get('population', '-')}</span>
-                </div>
-            </div>
-            <div class="impact-item">
-                <span class="impact-icon">🚗</span>
-                <div class="impact-content">
-                    <strong class="impact-title">Déplacements</strong>
-                    <span class="impact-text">{impacts.get('travel', '-')}</span>
-                </div>
-            </div>
-            <div class="impact-item">
-                <span class="impact-icon">🏗️</span>
-                <div class="impact-content">
-                    <strong class="impact-title">Travaux & BTP</strong>
-                    <span class="impact-text">{impacts.get('work', '-')}</span>
-                </div>
-            </div>
-            <div class="impact-item">
-                <span class="impact-icon">🌾</span>
-                <div class="impact-content">
-                    <strong class="impact-title">Agriculture</strong>
-                    <span class="impact-text">{impacts.get('agri', '-')}</span>
-                </div>
-            </div>
-            <div class="impact-item">
-                <span class="impact-icon">⚡</span>
-                <div class="impact-content">
-                    <strong class="impact-title">Orages & Réseaux</strong>
-                    <span class="impact-text">{impacts.get('storm', '-')}</span>
-                </div>
-            </div>
-            <div class="impact-item">
-                <span class="impact-icon">🌿</span>
-                <div class="impact-content">
-                    <strong class="impact-title">Sécheresse & Eau</strong>
-                    <span class="impact-text">{impacts.get('drought', '-')}</span>
-                </div>
-            </div>
+            <div class="impact-item"><span class="impact-icon">👥</span><div class="impact-content"><strong class="impact-title">Population</strong><span class="impact-text">{impacts.get('population', '-')}</span></div></div>
+            <div class="impact-item"><span class="impact-icon">🚗</span><div class="impact-content"><strong class="impact-title">Déplacements</strong><span class="impact-text">{impacts.get('travel', '-')}</span></div></div>
+            <div class="impact-item"><span class="impact-icon">🏗️</span><div class="impact-content"><strong class="impact-title">Travaux & BTP</strong><span class="impact-text">{impacts.get('work', '-')}</span></div></div>
+            <div class="impact-item"><span class="impact-icon">🌾</span><div class="impact-content"><strong class="impact-title">Agriculture</strong><span class="impact-text">{impacts.get('agri', '-')}</span></div></div>
+            <div class="impact-item"><span class="impact-icon">⚡</span><div class="impact-content"><strong class="impact-title">Orages & Réseaux</strong><span class="impact-text">{impacts.get('storm', '-')}</span></div></div>
+            <div class="impact-item"><span class="impact-icon">🌿</span><div class="impact-content"><strong class="impact-title">Sécheresse & Eau</strong><span class="impact-text">{impacts.get('drought', '-')}</span></div></div>
         </div>
 
-        <!-- CHRONOLOGIE HORIZONTALE EN 4 ETAPES -->
         <div class="section-title">🗓️ CHRONOLOGIE DE L'ÉPISODE</div>
         <div class="timeline-horizontal" style="margin-bottom: 25px;">
-            <div class="timeline-item-h">
-                <div class="timeline-circle">1</div>
-                <strong class="timeline-phase-h">Début</strong>
-                <span class="timeline-date-h">{timeline.get('date_debut', '-')}</span>
-                <p class="timeline-desc-h">{timeline.get('desc_debut', '-')}</p>
-            </div>
+            <div class="timeline-item-h"><div class="timeline-circle">1</div><strong class="timeline-phase-h">Début</strong><span class="timeline-date-h">{timeline.get('date_debut', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_debut', '-')}</p></div>
             <div class="timeline-arrow">➔</div>
-            <div class="timeline-item-h">
-                <div class="timeline-circle">2</div>
-                <strong class="timeline-phase-h">Montée</strong>
-                <span class="timeline-date-h">{timeline.get('date_montee', '-')}</span>
-                <p class="timeline-desc-h">{timeline.get('desc_montee', '-')}</p>
-            </div>
+            <div class="timeline-item-h"><div class="timeline-circle">2</div><strong class="timeline-phase-h">Montée</strong><span class="timeline-date-h">{timeline.get('date_montee', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_montee', '-')}</p></div>
             <div class="timeline-arrow">➔</div>
-            <div class="timeline-item-h">
-                <div class="timeline-circle">3</div>
-                <strong class="timeline-phase-h">Pic</strong>
-                <span class="timeline-date-h">{timeline.get('date_pic', '-')}</span>
-                <p class="timeline-desc-h">{timeline.get('desc_pic', '-')}</p>
-            </div>
+            <div class="timeline-item-h"><div class="timeline-circle">3</div><strong class="timeline-phase-h">Pic</strong><span class="timeline-date-h">{timeline.get('date_pic', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_pic', '-')}</p></div>
             <div class="timeline-arrow">➔</div>
-            <div class="timeline-item-h">
-                <div class="timeline-circle">4</div>
-                <strong class="timeline-phase-h">Fin</strong>
-                <span class="timeline-date-h">{timeline.get('date_fin', '-')}</span>
-                <p class="timeline-desc-h">{timeline.get('desc_fin', '-')}</p>
-            </div>
+            <div class="timeline-item-h"><div class="timeline-circle">4</div><strong class="timeline-phase-h">Fin</strong><span class="timeline-date-h">{timeline.get('date_fin', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_fin', '-')}</p></div>
         </div>
 
-        <!-- TABLEAU DE SYNTHÈSE RÉGIONALE LISIBLE -->
         <div class="section-title">🗺️ TENDANCE PAR GRANDES RÉGIONS</div>
         <div class="table-responsive" style="margin-bottom: 25px;">
             <table class="regional-table">
-                <thead>
-                    <tr>
-                        <th>Région</th>
-                        <th>🌡️ Températures</th>
-                        <th>🌧️ Pluviométrie</th>
-                        <th>⚠️ Risque Majeur</th>
-                        <th>🎯 Fiabilité</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {regional_table_rows}
-                </tbody>
+                <thead><tr><th>Région</th><th>🌡️ Températures</th><th>🌧️ Pluviométrie</th><th>⚠️ Risque Majeur</th><th>🎯 Fiabilité</th></tr></thead>
+                <tbody>{regional_table_rows}</tbody>
             </table>
         </div>
 
-        <!-- GRAPHIQUES METEO DE TENDANCE (REMONTÉS JUSTE APRÈS LA SYNTHÈSE) -->
         {html_images_block}
 
-        <!-- RUBRIQUE "LES CHIFFRES À RETENIR" -->
         <div class="section-title">🔢 LES CHIFFRES À RETENIR</div>
-        <div class="numbers-grid" style="margin-bottom: 25px;">
-            {key_numbers_html}
-        </div>
+        <div class="numbers-grid" style="margin-bottom: 25px;">{key_numbers_html}</div>
 
-        <!-- ANALYSE DÉTAILLÉE (SCÉNARIOS & INCERTITUDES) DÉPORTÉE PLUS BAS -->
         <div class="detailed-analysis-panel" style="margin-bottom: 25px;">
             <h3 class="detailed-analysis-title">🔮 SCÉNARIOS DE MODÉLISATIONS & ANALYSES</h3>
-            
             <div class="scenarios-container">
                 <div class="scenario-card sc-major">
-                    <div class="sc-header">
-                        <h3>🟢 Scénario Majoritaire ({scenarios.get('majoritaire', {}).get('prob', '65%')})</h3>
-                    </div>
+                    <div class="sc-header"><h3>🟢 Scénario Majoritaire ({scenarios.get('majoritaire', {}).get('prob', '65%')})</h3></div>
                     <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#10b981;">{scenarios.get('majoritaire', {}).get('title', '')}</strong>
                     <p class="sc-text">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
                 </div>
-                
                 <div class="scenario-card sc-median">
-                    <div class="sc-header">
-                        <h3>🟡 Scénario Alternatif ({scenarios.get('median', {}).get('prob', '25%')})</h3>
-                    </div>
+                    <div class="sc-header"><h3>🟡 Scénario Alternatif ({scenarios.get('median', {}).get('prob', '25%')})</h3></div>
                     <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#f59e0b;">{scenarios.get('median', {}).get('title', '')}</strong>
                     <p class="sc-text">{scenarios.get('median', {}).get('desc', '')}</p>
                 </div>
-                
                 <div class="scenario-card sc-minor">
-                    <div class="sc-header">
-                        <h3>🔴 Scénario Minoritaire ({scenarios.get('minoritaire', {}).get('prob', '10%')})</h3>
-                    </div>
+                    <div class="sc-header"><h3>🔴 Scénario Minoritaire ({scenarios.get('minoritaire', {}).get('prob', '10%')})</h3></div>
                     <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#ef4444;">{scenarios.get('minoritaire', {}).get('title', '')}</strong>
                     <p class="sc-text">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
                 </div>
             </div>
-
-            <!-- INCERTITUDES -->
             <div class="confidence-panel" style="padding: 15px; margin-bottom: 0;">
                 <div class="confidence-head" style="margin-bottom: 8px;">
                     <strong>Incertitudes Modélisations</strong>
-                    <span class="{conf_class}" style="padding: 4px 12px; border-radius: 9999px; font-weight: 800; font-size: 11px; color: white; {get_badge_color_class(conf_label)}">Consensus : {conf_score_raw}</span>
+                    <span class="{conf_class}" style="padding: 4px 12px; border-radius: 9999px; font-weight: 800; font-size: 11px; color: white; {get_badge_color_class(conf_score_raw)}">Consensus : {conf_score_raw}</span>
                 </div>
                 <div class="uncertainties-box">
                     <strong style="display: block; margin-bottom: 6px; color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes & Points Clés :</strong>
-                    {data.get('key_uncertainties', '')}\n{data.get('monitoring_points', '')}
+                    {full_data.get('france', {}).get('key_uncertainties', '')}\n{full_data.get('france', {}).get('monitoring_points', '')}
                 </div>
             </div>
-
-            <!-- À RETENIR -->
             <div class="takeaways-panel" style="margin-bottom: 0;">
                 <h3>📌 Synthèse Récapitulative</h3>
-                <ul>
-                    {takeaways_li_html}
-                </ul>
+                <ul>{takeaways_li_html}</ul>
             </div>
         </div>
 
-        <!-- PACK RÉSEAUX SOCIAUX -->
         <div class="section-title">📢 PACK DE DIFFUSION RÉSEAUX SOCIAUX</div>
         <div class="social-pack-container">
             <div class="social-platform-card">
-                <div class="social-platform-header sp-linkedin">
-                    <span>🔗 LinkedIn ({len(linkedin_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
-                </div>
+                <div class="social-platform-header sp-linkedin"><span>🔗 LinkedIn ({len(linkedin_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
                 <div class="social-platform-body">{linkedin_clean}</div>
             </div>
-
             <div class="social-platform-card">
-                <div class="social-platform-header sp-facebook">
-                    <span>👥 Facebook ({len(facebook_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
-                </div>
+                <div class="social-platform-header sp-facebook"><span>👥 Facebook ({len(facebook_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
                 <div class="social-platform-body">{facebook_clean}</div>
             </div>
-
             <div class="social-platform-card">
-                <div class="social-platform-header sp-twitter">
-                    <span>🐦 X (Twitter - {len(twitter_clean)} / 280 car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
-                </div>
+                <div class="social-platform-header sp-twitter"><span>🐦 X (Twitter - {len(twitter_clean)} / 280 car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
                 <div class="social-platform-body">{twitter_clean}</div>
             </div>
-
             <div class="social-platform-card">
-                <div class="social-platform-header sp-tiktok">
-                    <span>🎵 TikTok ({len(tiktok_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
-                </div>
+                <div class="social-platform-header sp-tiktok"><span>🎵 TikTok ({len(tiktok_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
                 <div class="social-platform-body">{tiktok_clean}</div>
             </div>
-
             <div class="social-platform-card">
-                <div class="social-platform-header sp-instagram">
-                    <span>📸 Instagram ({len(instagram_clean)} car.)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
-                </div>
+                <div class="social-platform-header sp-instagram"><span>📸 Instagram ({len(instagram_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
                 <div class="social-platform-body">{instagram_clean}</div>
             </div>
         </div>
         """
 
-    html = f"""<!DOCTYPE html>
+    france_html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyses & Tendances Météo - Tableau de Bord</title>
+    <title>Analyses & Tendances Météo - France</title>
     <style>{style}</style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
-            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</h1>
-            <p>Tableau de bord de synthèse du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
+            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO - FRANCE</h1>
+            <p>Tableau de bord national de synthèse du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
         </div>
         <div class="content">
-            {weeks_html}
+            {france_weeks_html}
         </div>
     </div>
 </body>
 </html>
 """
+    
+    with open(f"bulletin_tendance_france_{date_suffix}.html", "w", encoding="utf-8") as f_fr:
+        f_fr.write(france_html)
+    print(f"Bulletin national généré : bulletin_tendance_france_{date_suffix}.html")
+
+    # Générer les 13 bulletins régionaux
+    for r_key, r_name in REGIONS_MAP.items():
+        region_weeks_html = ""
+        for w_idx, w_res in enumerate(results):
+            full_data = w_res["data"]
+            r_data = full_data.get("regions", {}).get(r_key, {})
+            if not r_data:
+                # Fallback neutre si l'IA a omis une région
+                r_data = {
+                    "alert_level": "Vert",
+                    "event_type": "Information non précisée dans les sources",
+                    "kpis": {"temp_range": "Non précisé", "period": "Non précisé", "duration": "Non précisé", "confidence": "Non précisé", "risks": "Non précisé", "zone": "Non précisé"},
+                    "takeaways_10s": ["Information non précisée dans les sources"],
+                    "dashboard": {"score_heat": "0/5", "score_rain": "0/5", "score_storm": "0/5", "score_wind": "0/5"},
+                    "impacts": {"population": "Information non précisée", "travel": "Information non précisée", "work": "Information non précisée", "agri": "Information non précisée", "storm": "Information non précisée", "drought": "Information non précisée"},
+                    "timeline": {"date_debut": "-", "desc_debut": "-", "date_montee": "-", "desc_montee": "-", "date_pic": "-", "desc_pic": "-", "date_fin": "-", "desc_fin": "-"}
+                }
+
+            alert_lvl = r_data.get("alert_level", "Vert").strip().replace('[', '').replace(']', '')
+            alert_bg_class = f"alert-banner-{alert_lvl}"
+            
+            kpis = r_data.get("kpis", {}) or {}
+            timeline = r_data.get("timeline", {}) or {}
+            dash = r_data.get("dashboard", {}) or {}
+            impacts = r_data.get("impacts", {}) or {}
+
+            summary_10s_html = "".join([f"<li>{l.strip('-* ').strip()}</li>" for l in r_data.get("takeaways_10s", []) if l.strip()])
+            if not summary_10s_html:
+                summary_10s_html = "<li>Aucun résumé spécifique disponible pour cette région.</li>"
+
+            heat_score = parse_score(dash.get('score_heat', '0/5'))
+            rain_score = parse_score(dash.get('score_rain', '0/5'))
+            storm_score = parse_score(dash.get('score_storm', '0/5'))
+            wind_score = parse_score(dash.get('score_wind', '0/5'))
+
+            # Traitement dynamique de l'affichage des impacts (masquer si non précisé)
+            def format_impact_item(icon, title, val):
+                if not val or "non précisée" in val.lower() or "non identifié" in val.lower() or val == "-":
+                    return f"""
+                    <div class="impact-item" style="opacity: 0.6;">
+                        <span class="impact-icon">{icon}</span>
+                        <div class="impact-content">
+                            <strong class="impact-title">{title}</strong>
+                            <span class="impact-text" style="font-style: italic; color: #94a3b8;">Non précisé dans les sources</span>
+                        </div>
+                    </div>
+                    """
+                return f"""
+                <div class="impact-item">
+                    <span class="impact-icon">{icon}</span>
+                    <div class="impact-content">
+                        <strong class="impact-title">{title}</strong>
+                        <span class="impact-text">{val}</span>
+                    </div>
+                </div>
+                """
+
+            impacts_html = (
+                format_impact_item("👥", "Population", impacts.get("population")) +
+                format_impact_item("🚗", "Déplacements", impacts.get("travel")) +
+                format_impact_item("🏗️", "Travaux & BTP", impacts.get("work")) +
+                format_impact_item("🌾", "Agriculture", impacts.get("agri")) +
+                format_impact_item("⚡", "Orages & Réseaux", impacts.get("storm")) +
+                format_impact_item("🌿", "Sécheresse & Eau", impacts.get("drought"))
+            )
+
+            divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
+            region_weeks_html += f"""
+            {divider}
+            <div class="week-title-box">
+                <h2 class="week-title-line1">📅 {full_data.get('title_line1', 'SEMAINE')}</h2>
+                <div class="week-title-line2">Tendance Régionale - {r_name}</div>
+            </div>
+            
+            <div class="alert-banner {alert_bg_class}" style="margin-bottom: 25px;">
+                <div class="alert-left">
+                    <span class="alert-badge-top">Bulletin Régional - {r_name}</span>
+                    <h2 class="alert-title-lg">{r_data.get('event_type', 'Situation Stable')}</h2>
+                    <div class="alert-date-block">
+                        PÉRIODE : {kpis.get('period', 'Non précisée')}
+                    </div>
+                </div>
+            </div>
+
+            <div class="kpi-row-6" style="margin-bottom: 25px;">
+                <div class="kpi-card-6"><div class="kpi-icon">🌡️</div><div class="kpi-val">{kpis.get('temp_range', 'Non précisé')}</div><div class="kpi-lbl">Temp. Régionale</div></div>
+                <div class="kpi-card-6"><div class="kpi-icon">📅</div><div class="kpi-val">{kpis.get('period', 'Non précisé')}</div><div class="kpi-lbl">Période</div></div>
+                <div class="kpi-card-6"><div class="kpi-icon">⏱️</div><div class="kpi-val">{kpis.get('duration', 'Non précisé')}</div><div class="kpi-lbl">Durée</div></div>
+                <div class="kpi-card-6"><div class="kpi-icon">🎯</div><div class="kpi-val">{kpis.get('confidence', 'Non précisé')}</div><div class="kpi-lbl">Confiance</div></div>
+                <div class="kpi-card-6"><div class="kpi-icon">⚠️</div><div class="kpi-val">{kpis.get('risks', 'Non précisé')}</div><div class="kpi-lbl">Risques</div></div>
+                <div class="kpi-card-6"><div class="kpi-icon">📍</div><div class="kpi-val">{kpis.get('zone', 'Non précisé')}</div><div class="kpi-lbl">Départements</div></div>
+            </div>
+
+            <div class="summary-10s-box" style="margin-bottom: 25px;">
+                <h3>⏱️ À Retenir en 10 Secondes - {r_name}</h3>
+                <ul class="summary-10s-list">{summary_10s_html}</ul>
+            </div>
+
+            <div class="section-title">📊 INDICES DE RISQUES PHYSIQUES - {r_name}</div>
+            <div class="dashboard-meters-row" style="margin-bottom: 25px;">
+                <div class="meter-card-premium">
+                    <div class="meter-card-header"><h4>🔥 Chaleur</h4><span class="meter-badge mb-chaleur">{get_score_label(dash.get('score_heat', '0/5'))}</span></div>
+                    <div class="meter-track-premium"><div class="meter-fill-premium mf-heat" style="width: {heat_score * 20}%;"></div></div>
+                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_heat', 'Situation normale')}</span><span>{heat_score}/5</span></div>
+                </div>
+                <div class="meter-card-premium">
+                    <div class="meter-card-header"><h4>🌧️ Pluie</h4><span class="meter-badge mb-pluie">{get_score_label(dash.get('score_rain', '0/5'))}</span></div>
+                    <div class="meter-track-premium"><div class="meter-fill-premium mf-rain" style="width: {rain_score * 20}%;"></div></div>
+                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_rain', 'Situation normale')}</span><span>{rain_score}/5</span></div>
+                </div>
+                <div class="meter-card-premium">
+                    <div class="meter-card-header"><h4>⛈️ Orages</h4><span class="meter-badge mb-orage">{get_score_label(dash.get('score_storm', '0/5'))}</span></div>
+                    <div class="meter-track-premium"><div class="meter-fill-premium mf-storm" style="width: {storm_score * 20}%;"></div></div>
+                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_storm', 'Situation normale')}</span><span>{storm_score}/5</span></div>
+                </div>
+                <div class="meter-card-premium">
+                    <div class="meter-card-header"><h4>💨 Vent</h4><span class="meter-badge mb-vent">{get_score_label(dash.get('score_wind', '0/5'))}</span></div>
+                    <div class="meter-track-premium"><div class="meter-fill-premium mf-wind" style="width: {wind_score * 20}%;"></div></div>
+                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_wind', 'Situation normale')}</span><span>{wind_score}/5</span></div>
+                </div>
+            </div>
+
+            <div class="section-title">⚠️ IMPACTS ATTENDUS PAR SECTEUR - {r_name}</div>
+            <div class="impacts-grid" style="margin-bottom: 25px;">{impacts_html}</div>
+
+            <div class="section-title">🗓️ CHRONOLOGIE RÉGIONALE</div>
+            <div class="timeline-horizontal" style="margin-bottom: 25px;">
+                <div class="timeline-item-h"><div class="timeline-circle">1</div><strong class="timeline-phase-h">Début</strong><span class="timeline-date-h">{timeline.get('date_debut', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_debut', '-')}</p></div>
+                <div class="timeline-arrow">➔</div>
+                <div class="timeline-item-h"><div class="timeline-circle">2</div><strong class="timeline-phase-h">Montée</strong><span class="timeline-date-h">{timeline.get('date_montee', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_montee', '-')}</p></div>
+                <div class="timeline-arrow">➔</div>
+                <div class="timeline-item-h"><div class="timeline-circle">3</div><strong class="timeline-phase-h">Pic</strong><span class="timeline-date-h">{timeline.get('date_pic', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_pic', '-')}</p></div>
+                <div class="timeline-arrow">➔</div>
+                <div class="timeline-item-h"><div class="timeline-circle">4</div><strong class="timeline-phase-h">Fin</strong><span class="timeline-date-h">{timeline.get('date_fin', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_fin', '-')}</p></div>
+            </div>
+            """
+
+        region_html = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analances & Tendances Météo - {r_name}</title>
+    <style>{style}</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
+            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO - {r_name.upper()}</h1>
+            <p>Tableau de bord de synthèse du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
+        </div>
+        <div class="content">
+            {region_weeks_html}
+        </div>
+    </div>
+</body>
+</html>
+"""
+        with open(f"bulletin_tendance_{r_key}_{date_suffix}.html", "w", encoding="utf-8") as f_r:
+            f_r.write(region_html)
+        print(f"Bulletin régional généré : bulletin_tendance_{r_key}_{date_suffix}.html")
+
+    # Mettre à jour bulletin_infoclimat.html avec la version nationale
+    with open("bulletin_infoclimat.html", "w", encoding="utf-8") as f_def:
+        f_def.write(france_html)
+
     html_path = "bulletin_infoclimat.html"
-    with open(html_path, 'w', encoding='utf-8') as f:
-        f.write(html)
+    html = france_html
     print(f"HTML généré avec succès : {html_path}")
 
     # Envoi e-mail via Gmail SMTP Base64 brut
@@ -1474,6 +1613,3 @@ def main():
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi : {e}")
         sys.exit(1)
-
-if __name__ == "__main__":
-    main()
