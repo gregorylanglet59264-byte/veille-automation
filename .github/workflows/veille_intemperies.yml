@@ -12,6 +12,7 @@ on:
 jobs:
   run-veille:
     runs-on: ubuntu-latest
+    timeout-minutes: 8  # Filet de sécurité : tue le job si toujours en cours après 8 min
 
     steps:
       - name: Récupérer le code du dépôt

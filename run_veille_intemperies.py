@@ -152,7 +152,7 @@ def fetch_nitter_rss(username, instance):
     url = f"https://{instance}/{username}/rss"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=4) as response:  # ponytail: 4s max/instance, évite 40s d'attente par compte
             return response.read()
     except Exception:
         return None
@@ -181,9 +181,13 @@ def fetch_twitter_tweets_nitter():
     tweets = []
     now = datetime.datetime.now(datetime.timezone.utc)
     instance_idx = 0
+    deadline = time.monotonic() + 90  # ponytail: 90s max globaux, évite blocage si toutes instances Nitter mortes
 
     for username in PRIORITY_ACCOUNTS:
         if len(tweets) >= 50:
+            break
+        if time.monotonic() > deadline:
+            print(f"[Twitter/Nitter] Deadline 90s atteinte, arrêt avec {len(tweets)} tweets.")
             break
 
         # Rotation d'instances Nitter
