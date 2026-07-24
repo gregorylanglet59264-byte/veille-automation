@@ -37,9 +37,8 @@ REGIONS_MAP = {
     "nouvelle_aquitaine": "Nouvelle-Aquitaine",
     "occitanie": "Occitanie",
     "pays_de_la_loire": "Pays de la Loire",
-    "provence_alpes_cote_azur": "Provence-Alpes-Côte d'Azur"
+    "provence_alpes_cote_azur": "Provence-Alpes-Côte d'Azur",
 }
-
 
 def fetch_url(url, timeout=8):
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
@@ -84,39 +83,35 @@ def call_llm(system_prompt, user_prompt, max_retries=3):
     return None
 
 
-def process_topic(topic_url, topic_idx, date_context_str):
-    import concurrent.futures
-    print(f"\n--- Sujet [{topic_idx+1}] : {topic_url} ---")
+def process_topic(target_topic, topic_idx, date_context_str):
+    # Extraire et décoder un titre propre du sujet à partir de l'URL
+    import urllib.parse
+    decoded_topic = urllib.parse.unquote(target_topic)
+    topic_title_slug = decoded_topic.rstrip('/').split('/')[-1]
+    topic_title_slug = re.sub(r'^\d+-', '', topic_title_slug)  # Enlever l'ID du sujet au début
+    topic_title_clean = topic_title_slug.replace('-', ' ').title()
+    print(f"\n--- Sujet [{topic_idx+1}] : {topic_title_clean} ({target_topic}) ---")
     
+    print(f"[{topic_idx+1}] Analyse de la pagination...")
     try:
-        html_first = fetch_url(topic_url)
+        html_topic = fetch_url(target_topic)
     except Exception as e:
-        print(f"Erreur chargement sujet : {e}")
+        print(f"Erreur sujet : {e}")
         return None
         
-    topic_title_match = re.search(r'<h1[^>]*class=["\']ipsType_pageTitle[^>]*>(.*?)</h1>', html_first, re.DOTALL)
-    topic_title_clean = "Sujet de prévisions"
-    if topic_title_match:
-        topic_title_clean = re.sub(r'<[^>]+>', '', topic_title_match.group(1)).strip()
-        topic_title_clean = re.sub(r'\s+', ' ', topic_title_clean)
-        
-    print(f"[{topic_idx+1}] Analyse de la pagination...")
-    pages = [1]
-    pagination_match = re.search(r'class=["\']ipsPagination_pageList["\']>(.*?)</ul>', html_first, re.DOTALL)
-    if pagination_match:
-        page_nums = re.findall(r'data-page=["\'](\d+)["\']', pagination_match.group(1))
-        if page_nums:
-            pages = sorted(list(set(int(p) for p in page_nums)))
-            
-    print(f"[{topic_idx+1}] Pages détectées : {len(pages)}")
+    pages = re.findall(r'\?page=(\d+)', html_topic)
+    last_page = 1
+    if pages:
+        last_page = max(int(p) for p in pages)
+    print(f"[{topic_idx+1}] Pages détectées : {last_page}")
     
-    pages_to_load = pages[-3:] if len(pages) >= 3 else pages
+    start_page = max(1, last_page - 2)
     all_comments = []
     all_authors = []
     
-    print(f"[{topic_idx+1}] Chargement des commentaires des pages {pages_to_load[0]} à {pages_to_load[-1]}...")
-    for page in pages_to_load:
-        page_url = f"{topic_url}?page={page}"
+    print(f"[{topic_idx+1}] Chargement des commentaires des pages {start_page} à {last_page}...")
+    for page in range(start_page, last_page + 1):
+        page_url = f"{target_topic}?page={page}"
         try:
             html_page = fetch_url(page_url)
             page_comments = re.findall(r'<div[^>]*data-role=["\']commentContent["\'][^>]*>(.*?)</div>\s*</div>', html_page, re.DOTALL)
@@ -126,6 +121,7 @@ def process_topic(topic_url, topic_idx, date_context_str):
         except Exception as e:
             print(f"Erreur page {page} : {e}")
             
+    # Nettoyer les commentaires pour l'IA
     cleaned_comments_data = []
     for idx, comment in enumerate(all_comments):
         clean_comment = re.sub(r'<br\s*/?>', '\n', comment)
@@ -134,8 +130,10 @@ def process_topic(topic_url, topic_idx, date_context_str):
         author = all_authors[idx] if idx < len(all_authors) else "Membre"
         cleaned_comments_data.append(f"Auteur: {author}\nMessage:\n{clean_comment}")
         
+    # Garder les 20 derniers messages pour l'analyse
     recent_messages_text = "\n\n=======================\n\n".join(cleaned_comments_data[-20:])
     
+    # Extraire et télécharger les graphiques candidats
     print(f"[{topic_idx+1}] Extraction des graphiques...")
     candidate_imgs = []
     seen_imgs = set()
@@ -169,311 +167,574 @@ def process_topic(topic_url, topic_idx, date_context_str):
         except Exception as e:
             print(f"Erreur téléchargement graphique {idx+1} : {e}")
 
-    # --- APPEL NATIONAL ---
-    print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse nationale France...")
-    system_prompt_national = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
+    # Appeler l'IA pour l'analyse des scénarios et la rédaction du pack réseaux sociaux
+    print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse des scénarios météo...")
+    system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
-À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un objet JSON structuré représentant le bulletin d'analyse météorologique national (France) avec les informations globales de tendance.
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique professionnel, grand public, hyper-visuel, pédagogique et directement exploitable sur le web et les réseaux sociaux sans aucune modification manuelle.
 
-RÈGLES D'OR ABSOLUES :
-1. NE RIEN INVENTER. Si une information (température, risque, date, impact, etc.) n'est pas explicitement mentionnée dans les discussions pour la France, écris "Information non précisée dans les sources".
-2. DATES EXACTES : Associe toujours les jours aux dates exactes (ex: Lundi 27 Juillet).
-3. EXCLUSION DES JOURS PASSÉS : Conforme-toi à la "Date actuelle de génération" transmise dans l'invite.
+RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
+Dans TOUTES les sections (Résumé, Chronologie, Régions, Scénarios, Incertitudes, À Retenir, Posts Sociaux), tu devez mentionner les jours précis associés à leurs dates exactes (ex: Lundi 20 juillet, Mardi 21 juillet, Mercredi 22 juillet, Jeudi 23 juillet, Vendredi 24 juillet, Samedi 25 juillet, Dimanche 26 juillet). Ne dis plus jamais "début de semaine" ou "week-end" sans les associer directement à leur date.
 
-FORMAT DE SORTIE JSON OBLIGATOIRE :
-Renvoyez uniquement un objet JSON valide contenant la structure suivante. Pas de texte explicatif avant ou après le JSON.
+RÈGLE D'OR N°2 : INTÉGRATION DE LA DATE DE GÉNÉRATION & PÉRIODE PERTINENTE
+- Analyse avec attention la "Date actuelle de génération" transmise dans l'invite.
+- Si le sujet correspond à la "Semaine en cours" : toute journée précédant cette date est déjà passée. Les prévisions doivent se concentrer EXCLUSIVEMENT sur la période allant de la date de génération au dimanche de cette semaine. Ignore ou mentionne comme "déjà écoulées" les journées passées.
+- Si le sujet correspond à la "Semaine suivante" (Semaine future) : c'est la véritable semaine de tendance à moyen terme. Rédige les prévisions complètes jour par jour, du lundi au dimanche.
 
-{
-  "title_line1": "Semaine X - Du Lundi DD au Dimanche DD Mois AAAA",
-  "title_line2": "Accroche météo courte résumant le temps de la semaine",
-  "key_numbers": "Chiffre 1 | Libellé 1\nChiffre 2 | Libellé 2",
-  "france": {
-    "alert": {
-      "level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "start": "...",
-      "end": "...",
-      "confidence": "..."
-    },
-    "kpis": {
-      "temp_range": "38 à 42 °C (ou jusqu'à 42 °C localement)",
-      "period": "Du 27 Juillet au 2 Août",
-      "duration": "6 jours",
-      "confidence": "4/5 (Élevée)",
-      "risks": "Canicule, orages",
-      "zone": "Axe Sud-Ouest / Nord-Est"
-    },
-    "takeaways_10s": [
-      "Phrase 1 (une ligne max)",
-      "Phrase 2 (une ligne max)",
-      "Phrase 3 (une ligne max)",
-      "Phrase 4 (une ligne max)"
-    ],
-    "dashboard": {
-      "score_heat": "3/5",
-      "interp_heat": "Situation exceptionnelle",
-      "score_rain": "1/5",
-      "interp_rain": "Situation normale",
-      "score_storm": "4/5",
-      "interp_storm": "Risque élevé",
-      "score_wind": "2/5",
-      "interp_wind": "Risque faible"
-    },
-    "impacts": {
-      "population": "...",
-      "travel": "...",
-      "work": "...",
-      "agri": "...",
-      "storm": "...",
-      "drought": "..."
-    },
-    "timeline": {
-      "date_debut": "...", "desc_debut": "...",
-      "date_montee": "...", "desc_montee": "...",
-      "date_pic": "...", "desc_pic": "...",
-      "date_fin": "...", "desc_fin": "..."
-    },
-    "regional": {
-      "hdf_north": "22 à 26 °C | Faible | Aucun | 4/5",
-      "atlantic": "24 à 28 °C | Modéré | Vent | 4/5",
-      "central": "28 à 32 °C | Faible | Chaleur | 4/5",
-      "south": "35 à 40 °C | Faible | Canicule | 4/5",
-      "mediterranean": "32 à 36 °C | Faible | Vent | 4/5",
-      "mountains": "20 à 25 °C | Modéré | Orages | 3/5"
-    },
-    "scenarios": {
-      "majoritaire": {"prob": "65%", "title": "...", "desc": "..."},
-      "median": {"prob": "25%", "title": "...", "desc": "..."},
-      "minoritaire": {"prob": "10%", "title": "...", "desc": "..."}
-    },
-    "key_uncertainties": "- Incertitude 1\n- Incertitude 2",
-    "monitoring_points": "- Point 1\n- Point 2",
-    "key_takeaways": "- Takeaway 1\n- Takeaway 2",
-    "social_pack": {
-      "linkedin": "...",
-      "facebook": "...",
-      "twitter": "...",
-      "tiktok": "...",
-      "instagram": "..."
-    }
-  }
-}
-"""
+RÈGLE D'OR N°3 : PÉDAGOGIE SYNOPTIQUE VULGARISÉE
+Explique de manière simple et pédagogique le mécanisme synoptique sous-jacent (goutte froide, dorsale anticyclonique, talweg, marais barométrique, flux océanique) en une phrase fluide pour montrer notre expertise météorologique sans perdre le grand public.
 
-    user_prompt_national = f"Contexte de date : {date_context_str}\n\nVoici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}\n\n{recent_messages_text}\n\nAnalyse ces discussions et génère le rapport national au format JSON spécifié."
+RÈGLE D'OR N°4 : IMPACTS CONCRETS SUR LA VIE QUOTIDIENNE
+Mentionne systématiquement les répercussions pratiques du temps prévu : confort/ressenti thermique (chaleur lourde, fraîcheur humide), vacances et activités extérieures, transports/déplacements, travaux agricoles/BTP, orages ou pluies bénéfiques.
 
-    data_national = None
-    curr_user_prompt = user_prompt_national
-    for attempt in range(1, 4):
-        response = call_llm(system_prompt_national, curr_user_prompt)
-        if not response:
-            continue
+RÈGLE D'OR N°5 : CALIBRAGE DES SCÉNARIOS & RAISON DU CHOIX
+Indique précisément POURQUOI le Scénario Majoritaire est privilégié par rapport aux deux autres.
+- Majoritaire : ~130 à 150 mots maximum.
+- Alternatif & Minoritaire : 80 à 120 mots maximum chacun.
+
+RÈGLE D'OR N°6 : PACK MULTI-RÉSEAUX SOCIAUX CONÇU POUR MOBILES
+Rédige 5 publications distinctes, spécifiquement adaptées à l'audience, au style et aux limites de caractères de chaque plateforme :
+- **LinkedIn** : Storytelling expert météo captivant, ton pro et pédagogique. Paragraphes courts, émojis et hashtags ciblés. (250-300 mots)
+- **Facebook** : Message chaleureux, axé vie quotidienne et communauté. Paragraphes aérés, émojis.
+- **X (Twitter)** : Post court, percutant et dynamique. Limite stricte de 280 caractères, hashtags inclus.
+- **TikTok** : Description de vidéo dynamique, phrases courtes, appel à l'action visuel et hashtags tendance.
+- **Instagram** : Légende soignée, esthétique, invitant à la contemplation ou à la préparation, avec un appel à l'action pour lire le rapport HTML complet en bio.
+
+VÉRIFICATION QUALITÉ AUTOMATIQUE SILENCIEUSE (AVANT D'ÉMETTRE) :
+Effectue un contrôle qualité automatique et silencieux :
+1. Les probabilités des 3 scénarios totalisent-elles EXACTEMENT 100% ?
+2. Les jours passés pour la semaine en cours ont-ils bien été exclus des prévisions à venir ?
+3. Le post X (Twitter) fait-il moins de 280 caractères ?
+4. Toutes les dates et jours correspondent-ils à la semaine analysée ?
+5. Aucune donnée chiffrée n'a-t-elle été inventée ?
+6. Le post LinkedIn est-il en paragraphes très courts sans aucun markdown ?
+
+FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ces balises :
+
+[SUBJECT_TITLE_LINE1]
+Semaine X - Du Lundi DD au Dimanche DD Mois AAAA
+
+[SUBJECT_TITLE_LINE2]
+Accroche météo courte résumant le temps de la semaine avec dates exactes
+
+[EXPRESS_SUMMARY]
+2 phrases ultra-concises allant à l'essentiel avec les jours et dates précis (ex: Du Lundi 20 au Mercredi 22 juillet, temps sec et chaud...).
+
+[EXPRESS_TREND]
+1 à 3 mots max
+
+[EXPRESS_TEMPERATURES]
+1 à 3 mots max
+
+[EXPRESS_PRECIPITATIONS]
+1 à 3 mots max
+
+[EXPRESS_MAIN_RISK]
+1 à 3 mots max
+
+[GLOBAL_CONFIDENCE_SCORE]
+4/5 (ou 3/5, 5/5)
+
+[GLOBAL_CONFIDENCE_DESC]
+Une phrase courte expliquant la raison du niveau de confiance.
+
+[TIMELINE_EARLY_WEEK]
+Jours exacts : Prévisions, mécanisme synoptique vulgarisé et impacts concrets.
+
+[TIMELINE_MID_WEEK]
+Jours exacts : Évolution chronologique, ressenti et activités.
+
+[TIMELINE_LATE_WEEK]
+Jours exacts : Tendance pour la fin de semaine et vigilance.
+
+[TIMELINE_WEEKEND]
+Jours exacts : Prévisions pour le week-end et loisirs extérieurs.
+
+[REGIONAL_HDF_NORTH]
+1-2 phrases pour Hauts-de-France & Nord.
+
+[REGIONAL_ATLANTIC]
+1-2 phrases pour Façade Atlantique.
+
+[REGIONAL_CENTRAL]
+1-2 phrases pour Régions Centrales.
+
+[REGIONAL_SOUTH]
+1-2 phrases pour Moitié Sud.
+
+[REGIONAL_MEDITERRANEAN]
+1-2 phrases pour Pourtour Méditerranéen.
+
+[REGIONAL_MOUNTAINS]
+1-2 phrases pour Reliefs.
+
+[SCENARIO_MAJORITAIRE_PROB]
+65%
+
+[SCENARIO_MAJORITAIRE_TITLE]
+Titre synoptique court
+
+[SCENARIO_MAJORITAIRE_DESC]
+Description concise (~130-150 mots)
+
+[SCENARIO_MEDIAN_PROB]
+25%
+
+[SCENARIO_MEDIAN_TITLE]
+Titre synoptique court
+
+[SCENARIO_MEDIAN_DESC]
+Description concise (80-120 mots)
+
+[SCENARIO_MINORITAIRE_PROB]
+10%
+
+[SCENARIO_MINORITAIRE_TITLE]
+Titre synoptique court
+
+[SCENARIO_MINORITAIRE_DESC]
+Description concise (80-120 mots)
+
+[KEY_UNCERTAINTIES]
+- Incertitude 1
+- Incertitude 2
+
+[MONITORING_POINTS]
+- Point de vigilance 1
+- Point de vigilance 2
+
+[KEY_TAKEAWAYS]
+- Puce essentielle 1 avec date
+- Puce essentielle 2 avec date
+- Puce essentielle 3 avec date
+- Puce essentielle 4 avec impact concret
+
+[SOCIAL_LINKEDIN]
+Post LinkedIn réseaux sociaux captivant en texte brut (250-300 mots) aéré en paragraphes très courts pour smartphone avec dates exactes et question d'interaction finale.
+
+[SOCIAL_FACEBOOK]
+Post Facebook chaleureux et aéré pour grand public, avec émojis et dates exactes.
+
+[SOCIAL_TWITTER]
+Post X (Twitter) percutant et court (MAXIMUM 280 caractères, espaces compris) avec hashtags.
+
+[SOCIAL_TIKTOK]
+Description TikTok avec accroches, émojis et hashtags ciblés.
+
+[SOCIAL_INSTAGRAM]
+Légende Instagram soignée et esthétique avec appel à l'action pour bio.
+
+[LINKEDIN_HASHTAGS]
+#Meteo #Previsions #France #Climat #MonsieurMeteo"""
+
+    user_prompt = f"""Contexte de date : {date_context_str}
+
+Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}
+
+{recent_messages_text}
+
+Analyse ces discussions en appliquant scrupuleusement la vérification de cohérence et génère le rapport complet."""
+
+    response = call_llm(system_prompt, user_prompt)
+    
+    data = None
+    if response:
         try:
-            print(f"[{topic_idx+1}] Extraction du JSON National (Tentative {attempt}/3)...")
-            match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
-            if match:
-                json_str = match.group(1)
-            else:
-                start_idx = response.find('{')
-                end_idx = response.rfind('}')
-                if start_idx != -1 and end_idx != -1:
-                    json_str = response[start_idx:end_idx+1]
-                else:
-                    json_str = response
+            print(f"[{topic_idx+1}] Parsing de la réponse de l'IA...")
+            blocks = {
+                "title_line1": r"\[SUBJECT_TITLE_LINE1\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "title_line2": r"\[SUBJECT_TITLE_LINE2\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "express_summary": r"\[EXPRESS_SUMMARY\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "express_trend": r"\[EXPRESS_TREND\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "express_temperatures": r"\[EXPRESS_TEMPERATURES\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "express_precipitations": r"\[EXPRESS_PRECIPITATIONS\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "express_main_risk": r"\[EXPRESS_MAIN_RISK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                
+                "global_confidence_score": r"\[GLOBAL_CONFIDENCE_SCORE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "global_confidence_desc": r"\[GLOBAL_CONFIDENCE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+
+                "timeline_early": r"\[TIMELINE_EARLY_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_mid": r"\[TIMELINE_MID_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_late": r"\[TIMELINE_LATE_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "timeline_weekend": r"\[TIMELINE_WEEKEND\]\s*\n(.*?)(?=\n\s*\[|$)",
+
+                "regional_hdf_north": r"\[REGIONAL_HDF_NORTH\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "regional_atlantic": r"\[REGIONAL_ATLANTIC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "regional_central": r"\[REGIONAL_CENTRAL\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "regional_south": r"\[REGIONAL_SOUTH\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "regional_mediterranean": r"\[REGIONAL_MEDITERRANEAN\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "regional_mountains": r"\[REGIONAL_MOUNTAINS\]\s*\n(.*?)(?=\n\s*\[|$)",
+                
+                "majoritaire_prob": r"\[SCENARIO_MAJORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "majoritaire_title": r"\[SCENARIO_MAJORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "majoritaire_desc": r"\[SCENARIO_MAJORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                
+                "median_prob": r"\[SCENARIO_MEDIAN_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "median_title": r"\[SCENARIO_MEDIAN_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "median_desc": r"\[SCENARIO_MEDIAN_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                
+                "minoritaire_prob": r"\[SCENARIO_MINORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "minoritaire_title": r"\[SCENARIO_MINORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "minoritaire_desc": r"\[SCENARIO_MINORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+                
+                "key_uncertainties": r"\[KEY_UNCERTAINTIES\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "monitoring_points": r"\[MONITORING_POINTS\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "key_takeaways": r"\[KEY_TAKEAWAYS\]\s*\n(.*?)(?=\n\s*\[|$)",
+                
+                "social_linkedin": r"\[SOCIAL_LINKEDIN\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_facebook": r"\[SOCIAL_FACEBOOK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_twitter": r"\[SOCIAL_TWITTER\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_tiktok": r"\[SOCIAL_TIKTOK\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "social_instagram": r"\[SOCIAL_INSTAGRAM\]\s*\n(.*?)(?=\n\s*\[|$)",
+                "linkedin_hashtags": r"\[LINKEDIN_HASHTAGS\]\s*\n(.*?)(?=\n\s*\[|$)",
+            }
             
-            data_national = json.loads(json_str)
-            print(f"[{topic_idx+1}] Parsing JSON National réussi avec succès !")
-            break
+            parsed = {}
+            for key, pattern in blocks.items():
+                match = re.search(pattern, response, re.DOTALL)
+                if match:
+                    parsed[key] = match.group(1).strip()
+                else:
+                    parsed[key] = ""
+            
+            if (parsed["title_line1"] or parsed["title_line2"]) and (parsed["express_summary"] or parsed["majoritaire_desc"]):
+                data = {
+                    "title_line1": parsed["title_line1"] or topic_title_clean,
+                    "title_line2": parsed["title_line2"] or "Tendances et synthèses météorologiques",
+                    "express": {
+                        "summary": parsed["express_summary"],
+                        "trend": parsed["express_trend"],
+                        "temperatures": parsed["express_temperatures"],
+                        "precipitations": parsed["express_precipitations"],
+                        "main_risk": parsed["express_main_risk"],
+                    },
+                    "confidence": {
+                        "score": parsed["global_confidence_score"] or "4/5",
+                        "desc": parsed["global_confidence_desc"],
+                    },
+                    "timeline": {
+                        "early": parsed["timeline_early"],
+                        "mid": parsed["timeline_mid"],
+                        "late": parsed["timeline_late"],
+                        "weekend": parsed["timeline_weekend"],
+                    },
+                    "regional": {
+                        "hdf_north": parsed["regional_hdf_north"],
+                        "atlantic": parsed["regional_atlantic"],
+                        "central": parsed["regional_central"],
+                        "south": parsed["regional_south"],
+                        "mediterranean": parsed["regional_mediterranean"],
+                        "mountains": parsed["regional_mountains"],
+                    },
+                    "scenarios": {
+                        "majoritaire": {"prob": parsed["majoritaire_prob"] or "65%", "title": parsed["majoritaire_title"] or "Scénario Majoritaire", "desc": parsed["majoritaire_desc"]},
+                        "median": {"prob": parsed["median_prob"] or "25%", "title": parsed["median_title"] or "Scénario Alternatif", "desc": parsed["median_desc"]},
+                        "minoritaire": {"prob": parsed["minoritaire_prob"] or "10%", "title": parsed["minoritaire_title"] or "Scénario Minoritaire", "desc": parsed["minoritaire_desc"]}
+                    },
+                    "key_uncertainties": parsed["key_uncertainties"],
+                    "monitoring_points": parsed["monitoring_points"],
+                    "key_takeaways": parsed["key_takeaways"],
+                    "social_pack": {
+                        "linkedin": parsed["social_linkedin"],
+                        "facebook": parsed["social_facebook"],
+                        "twitter": parsed["social_twitter"],
+                        "tiktok": parsed["social_tiktok"],
+                        "instagram": parsed["social_instagram"],
+                    },
+                    "linkedin_hashtags": parsed["linkedin_hashtags"],
+                }
+                print(f"[{topic_idx+1}] Parsing textuel réussi avec succès !")
         except Exception as e:
-            print(f"Erreur parsing JSON National (Tentative {attempt}/3) : {e}")
-            curr_user_prompt = user_prompt_national + f"\n\n[ERREUR CONSTATÉE] Lors de la tentative précédente, le format JSON généré était invalide : {e}. Veille absolument à générer un JSON valide."
+            print(f"[{topic_idx+1}] Erreur parsing textuel : {e}")
+            
+    if not data:
+        print(f"[{topic_idx+1}] ERREUR : Parsing échoué — vérifier les logs du LLM ci-dessus.")
+        return None
+    return {
+        "data": data,
+        "images": downloaded_images
+    }
 
-    if not data_national:
-        return {"data": None, "images": downloaded_images}
 
-    # --- APPELS RÉGIONAUX PARALLÈLES ---
-    system_prompt_regional = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
+def process_region_query(r_key, r_name, recent_messages_text, topic_title_clean, date_context_str, topic_idx):
+    """Même prompt que le national, même balises, même richesse — focalisé sur r_name."""
+    system_prompt = f"""Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
-À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un objet JSON structuré représentant le bulletin d'analyse météorologique pour la région spécifique suivante : {region_name}
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique professionnel et complet pour la région : {r_name}
 
-RÈGLES D'OR ABSOLUES :
-1. NE RIEN INVENTER. Concentre-toi UNIQUEMENT sur la région {region_name} (et ses départements, villes ou reliefs limitrophes). Si aucune information (température, risque, date, impact, etc.) n'est explicitement mentionnée dans les discussions pour cette région spécifique, écris obligatoirement "Information non précisée dans les sources". Ne déduis jamais une tendance à partir d'une autre région.
-2. DATES EXACTES : Associe toujours les jours aux dates exactes (ex: Lundi 27 Juillet).
-3. EXCLUSION DES JOURS PASSÉS : Conforme-toi à la "Date actuelle de génération" transmise dans l'invite.
+RÈGLE D'OR N°0 : FOCUS GÉOGRAPHIQUE STRICT
+Toutes les analyses, températures, risques et impacts doivent concerner EXCLUSIVEMENT {r_name} (ses départements, villes, reliefs ou zones côtières). Si une information n'est pas précisée pour cette région, écris "Information non précisée dans les sources pour {r_name}". Ne déduis jamais depuis une autre région.
 
-FORMAT DE SORTIE JSON OBLIGATOIRE :
-Renvoyez uniquement un objet JSON valide contenant la structure suivante. Pas de texte explicatif avant ou après le JSON.
+RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
+Dans TOUTES les sections, tu dois mentionner les jours précis avec leurs dates exactes (ex: Lundi 27 Juillet, Mardi 28 Juillet).
 
-{
-  "alert_level": "Vert|Jaune|Orange|Rouge",
-  "event_type": "...",
-  "kpis": {
-    "temp_range": "24 à 28 °C (ou jusqu'à 30 °C localement)",
-    "period": "Du 27 Juillet au 2 Août",
-    "duration": "...",
-    "confidence": "...",
-    "risks": "...",
-    "zone": "..."
-  },
-  "takeaways_10s": [
-    "Phrase 1 (une ligne max)",
-    "Phrase 2 (une ligne max)"
-  ],
-  "dashboard": {
-    "score_heat": "3/5", "interp_heat": "...",
-    "score_rain": "1/5", "interp_rain": "...",
-    "score_storm": "2/5", "interp_storm": "...",
-    "score_wind": "1/5", "interp_wind": "..."
-  },
-  "impacts": {
-    "population": "...",
-    "travel": "...",
-    "work": "...",
-    "agri": "...",
-    "storm": "...",
-    "drought": "..."
-  },
-  "timeline": {
-    "date_debut": "...", "desc_debut": "...",
-    "date_montee": "...", "desc_montee": "...",
-    "date_pic": "...", "desc_pic": "...",
-    "date_fin": "...", "desc_fin": "..."
-  }
-}
-"""
+RÈGLE D'OR N°2 : INTÉGRATION DE LA DATE DE GÉNÉRATION
+Analyse la "Date actuelle de génération". Les journées déjà passées sont exclues des prévisions à venir.
 
-    def process_one_region(r_key, r_name):
-        print(f"[{topic_idx+1}] Lancement analyse régionale : {r_name}...")
-        sys_prompt = system_prompt_regional.replace("{region_name}", r_name)
-        user_prompt = f"Contexte de date : {date_context_str}\nRégion ciblée : {r_name}\n\nVoici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}\n\n{recent_messages_text}\n\nAnalyse ces discussions pour la région {r_name} et génère le rapport au format JSON spécifié."
+RÈGLE D'OR N°3 : PÉDAGOGIE SYNOPTIQUE VULGARISÉE
+Explique le mécanisme synoptique (dorsale, talweg, goutte froide, flux océanique) en une phrase simple et pédagogique.
 
-        data = None
-        curr_user_prompt = user_prompt
-        for attempt in range(1, 4):
-            response = call_llm(sys_prompt, curr_user_prompt)
-            if not response:
-                continue
-            try:
-                match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
-                if match:
-                    json_str = match.group(1)
-                else:
-                    start_idx = response.find('{')
-                    end_idx = response.rfind('}')
-                    if start_idx != -1 and end_idx != -1:
-                        json_str = response[start_idx:end_idx+1]
-                    else:
-                        json_str = response
-                
-                data = json.loads(json_str)
-                print(f"[{topic_idx+1}] JSON Régional {r_name} réussi !")
-                break
-            except Exception as e:
-                print(f"Erreur JSON régional {r_name} (tentative {attempt}/3) : {e}")
-                curr_user_prompt = user_prompt + f"\n\n[ERREUR CONSTATÉE] JSON invalide : {e}. Génère un JSON strictement valide."
-        return r_key, data
+RÈGLE D'OR N°4 : IMPACTS CONCRETS SUR LA VIE QUOTIDIENNE EN {r_name.upper()}
+Mentionne les répercussions pratiques : confort thermique, vacances, transports, agriculture/BTP, orages locaux.
 
-    regions_data = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=13) as executor:
-        futures = {executor.submit(process_one_region, k, v): (k, v) for k, v in REGIONS_MAP.items()}
-        for future in concurrent.futures.as_completed(futures):
-            k, r_data = future.result()
-            regions_data[k] = r_data
+RÈGLE D'OR N°5 : CALIBRAGE DES SCÉNARIOS POUR {r_name.upper()}
+3 scénarios calibrés pour cette région spécifique. Les probabilités totalisent EXACTEMENT 100%.
+- Majoritaire : ~130 à 150 mots maximum.
+- Alternatif & Minoritaire : 80 à 120 mots maximum chacun.
 
-    data_national["regions"] = regions_data
-    return {"data": data_national, "images": downloaded_images}
+RÈGLE D'OR N°6 : PACK MULTI-RÉSEAUX SOCIAUX POUR {r_name.upper()}
+5 publications distinctes adaptées à chaque plateforme, mentionnant la région {r_name} explicitement :
+- LinkedIn (250-300 mots, storytelling expert)
+- Facebook (message chaleureux, communauté locale)
+- X/Twitter (MAXIMUM 280 caractères, hashtags)
+- TikTok (description vidéo dynamique)
+- Instagram (légende soignée, CTA bio)
+
+VÉRIFICATION QUALITÉ AUTOMATIQUE SILENCIEUSE :
+1. Probabilités des 3 scénarios = exactement 100% ?
+2. Post Twitter < 280 caractères ?
+3. Toutes les données concernent bien {r_name} ?
+4. Aucune donnée chiffrée inventée ?
+
+FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ces balises :
+
+[SUBJECT_TITLE_LINE1]
+Semaine X - Du Lundi DD au Dimanche DD Mois AAAA — {r_name}
+
+[SUBJECT_TITLE_LINE2]
+Accroche météo courte résumant le temps de la semaine pour {r_name}
+
+[EXPRESS_SUMMARY]
+2 phrases ultra-concises avec jours et dates précis pour {r_name}.
+
+[EXPRESS_TREND]
+1 à 3 mots max
+
+[EXPRESS_TEMPERATURES]
+1 à 3 mots max
+
+[EXPRESS_PRECIPITATIONS]
+1 à 3 mots max
+
+[EXPRESS_MAIN_RISK]
+1 à 3 mots max
+
+[GLOBAL_CONFIDENCE_SCORE]
+4/5 (ou 3/5, 5/5)
+
+[GLOBAL_CONFIDENCE_DESC]
+Une phrase courte expliquant la raison du niveau de confiance pour {r_name}.
+
+[TIMELINE_EARLY_WEEK]
+Jours exacts : Prévisions pour le début de semaine en {r_name}, mécanisme synoptique et impacts.
+
+[TIMELINE_MID_WEEK]
+Jours exacts : Évolution chronologique pour le milieu de semaine en {r_name}.
+
+[TIMELINE_LATE_WEEK]
+Jours exacts : Tendance pour la fin de semaine en {r_name}.
+
+[TIMELINE_WEEKEND]
+Jours exacts : Prévisions pour le week-end en {r_name}.
+
+[REGIONAL_HDF_NORTH]
+Sous-zone ou secteur nord / nord-ouest de {r_name} (si pertinent).
+
+[REGIONAL_ATLANTIC]
+Sous-zone ou secteur ouest / façade maritime de {r_name} (si pertinent).
+
+[REGIONAL_CENTRAL]
+Secteur central / intérieur de {r_name} (si pertinent).
+
+[REGIONAL_SOUTH]
+Sous-zone ou secteur sud de {r_name} (si pertinent).
+
+[REGIONAL_MEDITERRANEAN]
+Secteur méditerranéen / côtier de {r_name} (si pertinent, sinon "Non applicable").
+
+[REGIONAL_MOUNTAINS]
+Secteur montagneux / relief de {r_name} (si pertinent, sinon "Non applicable").
+
+[SCENARIO_MAJORITAIRE_PROB]
+65%
+
+[SCENARIO_MAJORITAIRE_TITLE]
+Titre synoptique court pour {r_name}
+
+[SCENARIO_MAJORITAIRE_DESC]
+Description concise (~130-150 mots) pour {r_name}
+
+[SCENARIO_MEDIAN_PROB]
+25%
+
+[SCENARIO_MEDIAN_TITLE]
+Titre synoptique court
+
+[SCENARIO_MEDIAN_DESC]
+Description concise (80-120 mots) pour {r_name}
+
+[SCENARIO_MINORITAIRE_PROB]
+10%
+
+[SCENARIO_MINORITAIRE_TITLE]
+Titre synoptique court
+
+[SCENARIO_MINORITAIRE_DESC]
+Description concise (80-120 mots) pour {r_name}
+
+[KEY_UNCERTAINTIES]
+- Incertitude 1 propre à {r_name}
+- Incertitude 2 propre à {r_name}
+
+[MONITORING_POINTS]
+- Point de vigilance 1 pour {r_name}
+- Point de vigilance 2 pour {r_name}
+
+[KEY_TAKEAWAYS]
+- Puce essentielle 1 avec date pour {r_name}
+- Puce essentielle 2 avec date pour {r_name}
+- Puce essentielle 3 avec date pour {r_name}
+- Puce essentielle 4 avec impact concret pour {r_name}
+
+[SOCIAL_LINKEDIN]
+Post LinkedIn expert pour {r_name} (250-300 mots, paragraphes courts smartphone).
+
+[SOCIAL_FACEBOOK]
+Post Facebook chaleureux pour la communauté de {r_name}, avec émojis.
+
+[SOCIAL_TWITTER]
+Post X (MAXIMUM 280 caractères) pour {r_name} avec hashtags.
+
+[SOCIAL_TIKTOK]
+Description TikTok pour {r_name} avec accroches, émojis et hashtags.
+
+[SOCIAL_INSTAGRAM]
+Légende Instagram pour {r_name} avec CTA bio.
+
+[LINKEDIN_HASHTAGS]
+#Meteo #{r_name.replace('-', '').replace(' ', '').replace("'", '')} #Previsions #France #MonsieurMeteo"""
+
+    user_prompt = f"""Contexte de date : {date_context_str}
+Région analysée : {r_name}
+
+Voici les analyses des prévisionnistes pour : {topic_title_clean}
+
+{recent_messages_text}
+
+Analyse ces discussions EXCLUSIVEMENT pour la région {r_name} et génère le rapport complet au format spécifié."""
+
+    response = None
+    for attempt in range(1, 4):
+        print(f"[Région {r_name}] Tentative {attempt}/3...")
+        r = call_llm(system_prompt, user_prompt)
+        if r:
+            response = r
+            break
+
+    if not response:
+        print(f"[Région {r_name}] ERREUR : Pas de réponse LLM")
+        return r_key, None
+
+    # Même parser que le national
+    blocks = {
+        "title_line1": r"\[SUBJECT_TITLE_LINE1\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "title_line2": r"\[SUBJECT_TITLE_LINE2\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "express_summary": r"\[EXPRESS_SUMMARY\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "express_trend": r"\[EXPRESS_TREND\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "express_temperatures": r"\[EXPRESS_TEMPERATURES\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "express_precipitations": r"\[EXPRESS_PRECIPITATIONS\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "express_main_risk": r"\[EXPRESS_MAIN_RISK\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "global_confidence_score": r"\[GLOBAL_CONFIDENCE_SCORE\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "global_confidence_desc": r"\[GLOBAL_CONFIDENCE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "timeline_early": r"\[TIMELINE_EARLY_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "timeline_mid": r"\[TIMELINE_MID_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "timeline_late": r"\[TIMELINE_LATE_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "timeline_weekend": r"\[TIMELINE_WEEKEND\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "regional_hdf_north": r"\[REGIONAL_HDF_NORTH\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "regional_atlantic": r"\[REGIONAL_ATLANTIC\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "regional_central": r"\[REGIONAL_CENTRAL\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "regional_south": r"\[REGIONAL_SOUTH\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "regional_mediterranean": r"\[REGIONAL_MEDITERRANEAN\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "regional_mountains": r"\[REGIONAL_MOUNTAINS\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "majoritaire_prob": r"\[SCENARIO_MAJORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "majoritaire_title": r"\[SCENARIO_MAJORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "majoritaire_desc": r"\[SCENARIO_MAJORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "median_prob": r"\[SCENARIO_MEDIAN_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "median_title": r"\[SCENARIO_MEDIAN_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "median_desc": r"\[SCENARIO_MEDIAN_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "minoritaire_prob": r"\[SCENARIO_MINORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "minoritaire_title": r"\[SCENARIO_MINORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "minoritaire_desc": r"\[SCENARIO_MINORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "key_uncertainties": r"\[KEY_UNCERTAINTIES\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "monitoring_points": r"\[MONITORING_POINTS\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "key_takeaways": r"\[KEY_TAKEAWAYS\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "social_linkedin": r"\[SOCIAL_LINKEDIN\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "social_facebook": r"\[SOCIAL_FACEBOOK\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "social_twitter": r"\[SOCIAL_TWITTER\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "social_tiktok": r"\[SOCIAL_TIKTOK\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "social_instagram": r"\[SOCIAL_INSTAGRAM\]\s*\n(.*?)(?=\n\s*\[|$)",
+        "linkedin_hashtags": r"\[LINKEDIN_HASHTAGS\]\s*\n(.*?)(?=\n\s*\[|$)",
+    }
+
+    parsed = {}
+    for key, pattern in blocks.items():
+        match = re.search(pattern, response, re.DOTALL)
+        parsed[key] = match.group(1).strip() if match else ""
+
+    data = {
+        "title_line1": parsed["title_line1"] or f"Semaine — {r_name}",
+        "title_line2": parsed["title_line2"] or f"Tendances pour {r_name}",
+        "region_name": r_name,
+        "express": {
+            "summary": parsed["express_summary"],
+            "trend": parsed["express_trend"],
+            "temperatures": parsed["express_temperatures"],
+            "precipitations": parsed["express_precipitations"],
+            "main_risk": parsed["express_main_risk"],
+        },
+        "confidence": {
+            "score": parsed["global_confidence_score"] or "4/5",
+            "desc": parsed["global_confidence_desc"],
+        },
+        "timeline": {
+            "early": parsed["timeline_early"],
+            "mid": parsed["timeline_mid"],
+            "late": parsed["timeline_late"],
+            "weekend": parsed["timeline_weekend"],
+        },
+        "regional": {
+            "hdf_north": parsed["regional_hdf_north"],
+            "atlantic": parsed["regional_atlantic"],
+            "central": parsed["regional_central"],
+            "south": parsed["regional_south"],
+            "mediterranean": parsed["regional_mediterranean"],
+            "mountains": parsed["regional_mountains"],
+        },
+        "scenarios": {
+            "majoritaire": {"prob": parsed["majoritaire_prob"] or "65%", "title": parsed["majoritaire_title"], "desc": parsed["majoritaire_desc"]},
+            "median": {"prob": parsed["median_prob"] or "25%", "title": parsed["median_title"], "desc": parsed["median_desc"]},
+            "minoritaire": {"prob": parsed["minoritaire_prob"] or "10%", "title": parsed["minoritaire_title"], "desc": parsed["minoritaire_desc"]},
+        },
+        "key_uncertainties": parsed["key_uncertainties"],
+        "monitoring_points": parsed["monitoring_points"],
+        "key_takeaways": parsed["key_takeaways"],
+        "social_pack": {
+            "linkedin": parsed["social_linkedin"],
+            "facebook": parsed["social_facebook"],
+            "twitter": parsed["social_twitter"],
+            "tiktok": parsed["social_tiktok"],
+            "instagram": parsed["social_instagram"],
+        },
+        "linkedin_hashtags": parsed["linkedin_hashtags"],
+    }
+
+    print(f"[Région {r_name}] Bulletin parsé avec succès !")
+    return r_key, data
+
+
 def main():
-    def parse_region_line(region_str):
-        if not region_str:
-            return ["-", "-", "-", "-"]
-        parts = [p.strip() for p in region_str.split("|")]
-        while len(parts) < 4:
-            parts.append("-")
-        return parts[:4]
-
-    def parse_score(val):
-        if not val:
-            return 0
-        match = re.search(r'(\d+)', val)
-        if match:
-            num = int(match.group(1))
-            if num <= 5:
-                return num
-            elif num <= 100:
-                return round(num / 20)
-        return 0
-
-    def extract_emoji_and_text(text_str):
-        if not text_str:
-            return "🌤️", "-"
-        emoji_match = re.match(r'^([𐀀-􏿿☀-⟿⭐⬆←-⇿⛅⛈⚡☂☁☀]+)\s*(.*)', text_str)
-        if emoji_match:
-            return emoji_match.group(1), emoji_match.group(2)
-        return "🌤️", text_str
-
-    def get_score_label(score_val):
-        score = parse_score(score_val)
-        labels = {
-            0: "Très faible",
-            1: "Très faible",
-            2: "Faible",
-            3: "Modéré",
-            4: "Élevé",
-            5: "Très élevé"
-        }
-        return labels.get(score, "Modéré")
-
-    def get_level_badge(val):
-        val_clean = val.strip().lower()
-        if "très fort" in val_clean or "tres fort" in val_clean:
-            return '<span class="badge-level-tres-fort">🔴 Très fort</span>'
-        elif "fort" in val_clean:
-            return '<span class="badge-level-fort">🟠 Fort</span>'
-        elif "modéré" in val_clean or "modere" in val_clean:
-            return '<span class="badge-level-modere">🟡 Modéré</span>'
-        elif "très faible" in val_clean or "tres faible" in val_clean:
-            return '<span class="badge-level-tres-faible">⚪ Très faible</span>'
-        elif "faible" in val_clean:
-            return '<span class="badge-level-faible">🔵 Faible</span>'
-        else:
-            return f'<span class="badge-level-modere">{val}</span>'
-
-    def get_conf_badge(val):
-        val_clean = val.strip().lower()
-        if "5/5" in val_clean or "très élevé" in val_clean:
-            return '<span class="badge-level-tres-fort" style="background:#d1fae5; color:#065f46;">🟢 Très élevé</span>'
-        elif "4/5" in val_clean or "élevé" in val_clean:
-            return '<span class="badge-level-fort" style="background:#d1fae5; color:#065f46;">🟢 Élevé</span>'
-        elif "3/5" in val_clean or "modéré" in val_clean:
-            return '<span class="badge-level-modere" style="background:#fef3c7; color:#92400e;">🟡 Modéré</span>'
-        elif "2/5" in val_clean or "faible" in val_clean:
-            return '<span class="badge-level-faible" style="background:#fee2e2; color:#991b1b;">🔴 Faible</span>'
-        elif "1/5" in val_clean or "très faible" in val_clean:
-            return '<span class="badge-level-tres-faible" style="background:#fee2e2; color:#991b1b;">🔴 Très faible</span>'
-        else:
-            return f'<span class="badge-level-modere" style="background:#f1f5f9; color:#475569;">{val}</span>'
-
-    def get_badge_color_class(label):
-        l = label.lower()
-        if "très élevé" in l or "très fort" in l:
-            return "background-color: #dc2626;"
-        elif "élevé" in l or "fort" in l:
-            return "background-color: #ea580c;"
-        elif "modéré" in l:
-            return "background-color: #eab308;"
-        elif "faible" in l:
-            return "background-color: #2563eb;"
-        else:
-            return "background-color: #6b7280;"
-
-    def format_list_items(text):
-        if not text:
-            return ""
-        lines = [line.strip().lstrip("-* ").strip() for line in text.split("\n") if line.strip()]
-        return "".join([f"<li>{line}</li>" for line in lines])
-
     print(f"1. Chargement de l'index du forum : {INDEX_URL}")
     try:
         html_index = fetch_url(INDEX_URL)
@@ -482,12 +743,10 @@ def main():
         sys.exit(1)
         
     topic_links = re.findall(r'href=["\'](https://forums.infoclimat.fr/f/topic/\d+-[^"\']+)["\']', html_index)
-    
-    # Élimination des doublons et filtrage des prévisions
     clean_topics = []
     seen = set()
     for link in topic_links:
-        base_link = link.split('?')[0].strip()
+        base_link = link.split('?')[0].split('#')[0]
         if base_link not in seen and ("previsions" in base_link or "pr%C3%A9visions" in base_link or "semaine" in base_link):
             seen.add(base_link)
             clean_topics.append(base_link)
@@ -522,7 +781,7 @@ def main():
     semaine_suivante_str = fmt_date_range(lundi_suiv, dimanche_suiv)
     jours_restants_cours_str = f"du {DAYS_FR[now.weekday()]} {now.day} {MONTHS_FR[now.month-1]} au Dimanche {dimanche_cours.day} {MONTHS_FR[dimanche_cours.month-1]} {dimanche_cours.year}"
 
-    # Semaine future en premier, Semaine en cours en second
+    # Semaine future (clean_topics[0]) en premier, Semaine en cours (clean_topics[1]) en second
     topics_to_process = []
     if len(clean_topics) >= 2:
         topics_to_process = [
@@ -537,200 +796,100 @@ def main():
     results = []
     for idx, (topic, sem_type, date_context) in enumerate(topics_to_process):
         res = process_topic(topic, idx, date_context)
-        if res and res.get("data"):
+        if res:
             results.append(res)
             
     if not results:
         print("Aucun sujet n'a pu être traité.")
         sys.exit(1)
         
-    # Style CSS Premium & Responsive (Design System v5)
+    # Style CSS Premium & Responsive
     style = """
-    :root {
-        --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
-        --text-xs: 11px;
-        --text-sm: 13px;
-        --text-base: 14.5px;
-        --text-lg: 16px;
-        --text-xl: 20px;
-        --radius-lg: 24px;
-        --radius-md: 16px;
-        --radius-sm: 10px;
-        --spacing-xs: 10px;
-        --spacing-sm: 15px;
-        --spacing-md: 24px;
-        --spacing-lg: 35px;
-        --shadow-sm: 0 2px 8px rgba(0,0,0,0.02);
-        --shadow-md: 0 10px 30px rgba(0,0,0,0.03);
-    }
-    body { font-family: var(--font-sans); font-size: var(--text-base); line-height: 1.6; color: #0f172a; background-color: #f1f5f9; margin: 0; padding: 25px 12px; }
-    .container { max-width: 900px; background-color: #ffffff; margin: 0 auto; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid #e2e8f0; }
-    .header { background: linear-gradient(135deg, #0b0f19 0%, #1e293b 100%); color: #ffffff; padding: 40px 30px; text-align: center; position: relative; }
-    .header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, #2563eb, #7c3aed, #ec4899); }
-    .header h1 { margin: 0; font-size: 24px; font-weight: 900; letter-spacing: -0.5px; text-transform: uppercase; }
-    .header p { margin: 8px 0 0 0; font-size: 13px; opacity: 0.85; font-weight: 500; }
-    .content { padding: var(--spacing-lg) 30px; display: flex; flex-direction: column; gap: var(--spacing-lg); }
-    .week-divider { border-top: 4px dashed #cbd5e1; margin: var(--spacing-lg) 0; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f1f5f9; margin: 0; padding: 25px 15px; }
+    .container { max-width: 880px; background-color: #ffffff; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.09); border: 1px solid #cbd5e1; }
+    .header { background: linear-gradient(135deg, #0284c7 0%, #1e3a8a 60%, #0f172a 100%); color: #ffffff; padding: 40px 30px; text-align: center; }
+    .header h1 { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+    .header p { margin: 10px 0 0 0; font-size: 14px; opacity: 0.92; }
+    .content { padding: 35px 30px; }
+    .week-divider { border-top: 3px dashed #94a3b8; margin: 55px 0; }
     
-    .week-title-box { padding-left: 20px; border-left: 6px solid #2563eb; }
-    .week-title-line1 { font-size: var(--text-xl); font-weight: 900; color: #0f172a; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; }
-    .week-title-line2 { font-size: var(--text-base); font-weight: 600; color: #64748b; margin-top: 6px; }
+    .week-title-box { margin-bottom: 25px; padding-left: 16px; border-left: 6px solid #0284c7; }
+    .week-title-line1 { font-size: 22px; font-weight: 800; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; }
+    .week-title-line2 { font-size: 15px; font-weight: 600; color: #0284c7; margin-top: 4px; }
 
-    .section-title { font-size: var(--text-xs); font-weight: 900; text-transform: uppercase; letter-spacing: 1.5px; color: #475569; border-bottom: 2px solid #f1f5f9; padding-bottom: 8px; display: flex; align-items: center; gap: 8px; margin: 0; }
+    .section-title { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; color: #475569; margin-top: 35px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
     
-    /* Bandeau d'alerte et de synthèse supérieur */
-    .alert-banner { padding: 25px 30px; color: #ffffff; border-radius: var(--radius-md); display: flex; flex-direction: column; gap: 15px; position: relative; overflow: hidden; }
-    .alert-banner-Rouge { background: linear-gradient(135deg, #7f1d1d 0%, #dc2626 100%); }
-    .alert-banner-Orange { background: linear-gradient(135deg, #7c2d12 0%, #ea580c 100%); }
-    .alert-banner-Jaune { background: linear-gradient(135deg, #713f12 0%, #eab308 100%); }
-    .alert-banner-Vert { background: linear-gradient(135deg, #064e3b 0%, #10b981 100%); }
+    .hero-express { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: #ffffff; border-radius: 18px; padding: 26px; margin-bottom: 30px; box-shadow: 0 12px 25px -5px rgba(30, 58, 138, 0.3); }
+    .hero-top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .hero-label { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: #38bdf8; }
     
-    .alert-main-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-    .alert-left { display: flex; flex-direction: column; gap: 6px; }
-    .alert-badge-top { font-size: 9px; font-weight: 900; background: rgba(255,255,255,0.22); padding: 5px 12px; border-radius: 9999px; text-transform: uppercase; align-self: flex-start; letter-spacing: 1px; }
-    .alert-title-lg { font-size: 24px; font-weight: 900; line-height: 1.2; text-transform: uppercase; margin: 0; }
-    .alert-date-block { font-size: var(--text-xs); font-weight: 700; opacity: 0.9; }
+    .conf-badge-green { background: #10b981; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .conf-badge-orange { background: #f59e0b; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .conf-badge-red { background: #ef4444; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
 
-    /* Ligne de KPI compacte homogène */
-    .kpi-row-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
-    @media (max-width: 768px) {
-        .kpi-row-6 { grid-template-columns: repeat(3, 1fr); }
-    }
-    @media (max-width: 480px) {
-        .kpi-row-6 { grid-template-columns: repeat(2, 1fr); }
-    }
-    .kpi-card-6 { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 14px 10px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 95px; box-shadow: var(--shadow-sm); }
-    .kpi-icon { font-size: 18px; margin-bottom: 5px; }
-    .kpi-val { font-size: 13.5px; font-weight: 850; color: #0f172a; line-height: 1.2; word-break: break-word; }
-    .kpi-lbl { font-size: 9px; font-weight: 800; color: #64748b; text-transform: uppercase; margin-top: 3px; letter-spacing: 0.5px; }
+    .hero-summary { font-size: 16px; font-weight: 700; line-height: 1.5; margin-bottom: 14px; color: #ffffff; }
+    .hero-conf-explanation { font-size: 12.5px; font-style: italic; color: #93c5fd; margin-bottom: 18px; background: rgba(255,255,255,0.08); padding: 8px 12px; border-radius: 8px; border-left: 3px solid #38bdf8; }
 
-    /* À retenir en 10 secondes */
-    .summary-10s-box { background: #f8fafc; border: 1px solid #cbd5e1; border-left: 5px solid #2563eb; border-radius: var(--radius-md); padding: 20px; }
-    .summary-10s-box h3 { margin: 0 0 10px 0; font-size: var(--text-xs); font-weight: 900; color: #1e293b; text-transform: uppercase; letter-spacing: 1px; }
-    .summary-10s-list { margin: 0; padding: 0; list-style: none; font-size: var(--text-sm); color: #334155; line-height: 1.5; }
-    .summary-10s-list li { margin-bottom: 5px; padding-left: 15px; position: relative; }
-    .summary-10s-list li::before { content: '•'; position: absolute; left: 0; color: #2563eb; font-weight: 900; }
-
-    /* Jauges compactes */
-    .dashboard-meters-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-    @media (max-width: 768px) {
-        .dashboard-meters-row { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (max-width: 480px) {
-        .dashboard-meters-row { grid-template-columns: 1fr; }
-    }
-    .meter-card-premium { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 12px; display: flex; flex-direction: column; gap: 6px; }
-    .meter-card-header { display: flex; align-items: center; justify-content: space-between; }
-    .meter-card-header h4 { margin: 0; font-size: 11px; font-weight: 850; color: #475569; text-transform: uppercase; }
-    .meter-badge { font-size: 8px; font-weight: 900; padding: 2px 8px; border-radius: 9999px; text-transform: uppercase; color: #ffffff; }
-    .meter-track-premium { width: 100%; height: 6px; background: #e2e8f0; border-radius: 9999px; overflow: hidden; }
-    .meter-fill-premium { height: 100%; border-radius: 9999px; }
-    .meter-info { display: flex; align-items: center; justify-content: space-between; font-size: 10.5px; font-weight: 800; color: #1e293b; }
+    .hero-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+    .hero-card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 10px; padding: 10px 8px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: center; }
+    .hero-card label { display: block; font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #93c5fd; margin-bottom: 4px; }
+    .hero-card span { font-size: 13px; font-weight: 800; color: #ffffff; text-transform: capitalize; }
     
-    /* Bloc Impacts Attendus */
-    .impacts-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-    @media (max-width: 768px) {
-        .impacts-grid { grid-template-columns: 1fr; }
-    }
-    .impact-item { background: #ffffff; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 14px; display: flex; align-items: flex-start; gap: 12px; box-shadow: var(--shadow-sm); }
-    .impact-icon { font-size: 18px; line-height: 1; }
-    .impact-content { display: flex; flex-direction: column; gap: 1px; }
-    .impact-title { font-size: 10.5px; font-weight: 900; color: #475569; text-transform: uppercase; letter-spacing: 0.5px; }
-    .impact-text { font-size: 12.5px; color: #334155; line-height: 1.4; }
+    .timeline-container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 30px; }
+    .timeline-step { background: #f8fafc; border-radius: 12px; padding: 14px 12px; border: 1px solid #e2e8f0; border-top: 4px solid #0284c7; }
+    .timeline-step strong { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px; color: #0284c7; margin-bottom: 6px; }
+    .timeline-step p { margin: 0; font-size: 12.5px; color: #334155; line-height: 1.45; }
 
-    /* Chiffres à retenir */
-    .numbers-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
-    @media (max-width: 768px) {
-        .numbers-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (max-width: 480px) {
-        .numbers-grid { grid-template-columns: 1fr; }
-    }
-    .number-card { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 15px; text-align: center; }
-    .number-val { font-size: 22px; font-weight: 900; color: #1e3a8a; line-height: 1.1; margin-bottom: 2px; }
-    .number-lbl { font-size: 9.5px; font-weight: 800; color: #475569; line-height: 1.3; }
-
-    /* Chronologie Horizontale */
-    .timeline-horizontal { display: flex; align-items: stretch; justify-content: space-between; gap: 8px; }
-    @media (max-width: 768px) {
-        .timeline-horizontal { flex-direction: column; gap: 15px; }
-    }
-    .timeline-item-h { flex: 1; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md); padding: 15px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; }
-    .timeline-circle { width: 24px; height: 24px; border-radius: 50%; background: #2563eb; color: #ffffff; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
-    .timeline-phase-h { font-size: 9.5px; font-weight: 900; text-transform: uppercase; color: #2563eb; letter-spacing: 0.5px; }
-    .timeline-date-h { font-size: 13px; font-weight: 850; color: #0f172a; }
-    .timeline-desc-h { font-size: 12px; color: #475569; margin: 0; line-height: 1.45; }
-    .timeline-arrow { display: flex; align-items: center; justify-content: center; font-size: 18px; color: #94a3b8; }
-    @media (max-width: 768px) {
-        .timeline-arrow { display: none; }
-    }
-
-    /* Tableau régional épuré */
-    .table-responsive { width: 100%; overflow-x: auto; border-radius: var(--radius-md); border: 1px solid #cbd5e1; box-shadow: 0 4px 6px rgba(0,0,0,0.01); }
-    .regional-table { width: 100%; border-collapse: collapse; text-align: left; font-size: var(--text-sm); }
-    .regional-table th { background-color: #0f172a; color: #ffffff; font-weight: 900; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 15px; }
-    .regional-table td { padding: 12px 15px; border-bottom: 1px solid #e2e8f0; color: #334155; }
-    .regional-table tr:nth-child(even) { background-color: #f8fafc; }
-    .regional-table tr:last-child td { border-bottom: none; }
-    .badge-temp { font-weight: 900; color: #ffffff; background: #dc2626; padding: 5px 10px; border-radius: 8px; font-size: 12.5px; display: inline-block; }
-
-    /* Graphiques Météo plein format */
-    .meteo-images-container { display: flex; flex-direction: column; gap: 25px; }
-    .meteo-image-card { background-color: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-lg); padding: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.01); text-align: center; }
-    .meteo-image-card span { font-weight: 900; font-size: var(--text-sm); color: #0f172a; display: block; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .meteo-image-card img { width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid #e2e8f0; }
-
-    /* Section Analyse Détaillée */
-    .detailed-analysis-panel { background: #f8fafc; border-radius: var(--radius-lg); padding: 25px; border: 1px solid #cbd5e1; display: flex; flex-direction: column; gap: 20px; }
-    .detailed-analysis-title { font-size: 14px; font-weight: 900; text-transform: uppercase; letter-spacing: 1.5px; color: #0f172a; margin: 0; display: flex; align-items: center; gap: 8px; border-bottom: 2px solid #cbd5e1; padding-bottom: 8px; }
-
-    .scenarios-container { display: flex; flex-direction: column; gap: 12px; }
-    .scenario-card { border-radius: var(--radius-md); padding: 16px; border: 1px solid #cbd5e1; background: #ffffff; }
+    .regional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 30px; }
+    .regional-card { background: #ffffff; border-radius: 12px; padding: 14px 16px; border: 1px solid #e2e8f0; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+    .regional-card strong { color: #0f172a; font-size: 12.5px; display: block; margin-bottom: 5px; }
+    .regional-card p { margin: 0; font-size: 12.5px; color: #475569; line-height: 1.5; }
+    
+    .confidence-panel { background: #f8fafc; border-radius: 14px; padding: 18px; border: 1px solid #e2e8f0; margin-bottom: 30px; }
+    .confidence-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .confidence-head strong { font-size: 13.5px; color: #0f172a; }
+    .uncertainties-box { background: #ffffff; border-radius: 10px; padding: 12px 14px; border-left: 4px solid #f59e0b; border: 1px solid #fef3c7; border-left-width: 4px; font-size: 12.5px; color: #334155; line-height: 1.5; }
+    
+    .scenario-card { border-radius: 14px; padding: 18px; margin-bottom: 16px; border: 1px solid #e2e8f0; background: #ffffff; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
     .sc-major { border-left: 6px solid #10b981; }
     .sc-median { border-left: 6px solid #f59e0b; }
     .sc-minor { border-left: 6px solid #ef4444; }
-    .sc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
-    .sc-header h3 { margin: 0; font-size: 13.5px; font-weight: 900; color: #0f172a; text-transform: uppercase; }
-    .sc-prob { font-size: 10px; padding: 3px 10px; border-radius: 9999px; color: #ffffff; font-weight: 900; }
+    .sc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .sc-header h3 { margin: 0; font-size: 14.5px; font-weight: 800; color: #0f172a; }
+    .sc-prob { font-size: 11.5px; padding: 3px 10px; border-radius: 20px; color: #ffffff; font-weight: 800; }
     .bg-major { background-color: #10b981; }
     .bg-median { background-color: #f59e0b; }
     .bg-minor { background-color: #ef4444; }
-    .sc-text { margin: 0; font-size: 12.5px; line-height: 1.5; color: #334155; }
+    .sc-text { margin: 0; font-size: 12.5px; line-height: 1.55; color: #334155; text-align: justify; }
 
-    .confidence-panel { background: #ffffff; border-radius: var(--radius-md); padding: 18px; border: 1px solid #cbd5e1; display: flex; flex-direction: column; gap: 10px; }
-    .confidence-head { display: flex; justify-content: space-between; align-items: center; }
-    .confidence-head strong { font-size: var(--text-sm); color: #0f172a; text-transform: uppercase; letter-spacing: 0.5px; }
-    .uncertainties-box { background: #fff1f2; border-radius: var(--radius-sm); padding: 15px; border: 1px solid #fecdd3; border-left: 5px solid #f43f5e; font-size: 12.5px; color: #334155; line-height: 1.5; }
-    .uncertainties-box ul { margin: 5px 0 0 0; padding-left: 15px; }
-    .uncertainties-box li { margin-bottom: 3px; }
-
-    .takeaways-panel { background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 6px solid #10b981; border-radius: var(--radius-md); padding: 18px; }
-    .takeaways-panel h3 { margin: 0 0 10px 0; font-size: var(--text-sm); font-weight: 900; color: #166534; text-transform: uppercase; letter-spacing: 0.5px; }
-    .takeaways-panel ul { margin: 0; padding-left: 15px; color: #15803d; font-size: 12.5px; line-height: 1.55; }
+    .takeaways-panel { background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 6px solid #10b981; border-radius: 14px; padding: 18px; margin-bottom: 30px; }
+    .takeaways-panel h3 { margin: 0 0 10px 0; font-size: 13.5px; font-weight: 800; color: #166534; text-transform: uppercase; letter-spacing: 0.5px; }
+    .takeaways-panel ul { margin: 0; padding-left: 18px; color: #15803d; font-size: 12.5px; line-height: 1.6; }
     .takeaways-panel li { margin-bottom: 4px; }
+    
+    /* Graphiques Météo */
+    .meteo-images-container { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 30px; justify-content: space-between; }
+    .meteo-image-card { flex: 1 1 45%; min-width: 280px; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); text-align: center; }
+    .meteo-image-card span { font-weight: 800; font-size: 11px; color: #475569; display: block; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .meteo-image-card img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #f1f5f9; }
 
     /* Pack Réseaux Sociaux */
-    .social-pack-container { display: flex; flex-direction: column; gap: 15px; }
-    .social-platform-card { background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); overflow: hidden; }
-    .social-platform-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; font-weight: 900; font-size: 12px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.5px; }
+    .social-pack-container { display: flex; flex-direction: column; gap: 16px; margin-bottom: 30px; }
+    .social-platform-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
+    .social-platform-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; font-weight: 800; font-size: 13px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.5px; }
     .sp-linkedin { background: #0077b5; }
     .sp-facebook { background: #1877f2; }
     .sp-twitter { background: #0f1419; }
     .sp-tiktok { background: #fe2c55; }
     .sp-instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
-    .social-platform-body { padding: 16px; font-size: 12.5px; white-space: pre-wrap; color: #334155; line-height: 1.6; font-family: var(--font-sans); }
-    .copy-btn { background: rgba(255, 255, 255, 0.22); border: none; color: #ffffff; font-size: 9px; font-weight: 800; padding: 4px 10px; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; }
-    .copy-btn:hover { background: rgba(255, 255, 255, 0.35); }
+    .social-platform-body { padding: 18px; font-size: 12.5px; white-space: pre-wrap; color: #334155; line-height: 1.6; font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; }
+    .copy-btn { background: rgba(255, 255, 255, 0.25); border: none; color: #ffffff; font-size: 10px; font-weight: bold; padding: 4px 10px; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.2s; }
+    .copy-btn:hover { background: rgba(255, 255, 255, 0.4); }
     """
 
-
-
-    date_suffix = datetime.datetime.now().strftime('%Y_%m_%d')
-
-    # Générer le bulletin national (France)
-    france_weeks_html = ""
+    weeks_html = ""
     for w_idx, w_res in enumerate(results):
-        full_data = w_res["data"]
+        data = w_res["data"]
         downloaded_images = w_res["images"]
         
         # Encodage des graphiques
@@ -754,483 +913,450 @@ def main():
             <div class="section-title">📊 MODÉLISATIONS & GRAPHIQUES DE TENDANCE</div>
             <div class="meteo-images-container">{html_images_block}</div>
             """
-
-        data = full_data.get("france", {})
+        
+        express = data.get("express", {})
         timeline = data.get("timeline", {})
         regional = data.get("regional", {})
-        conf = data.get("confidence", {}) or {}
-        dash = data.get("dashboard", {}) or {}
-        scenarios = data.get("scenarios", {}) or {}
-        social = data.get("social_pack", {}) or {}
-        alert = data.get("alert", {}) or {}
-        kpis = data.get("kpis", {}) or {}
-        impacts = data.get("impacts", {}) or {}
+        conf = data.get("confidence", {})
+        scenarios = data.get("scenarios", {})
+        social = data.get("social_pack", {})
 
-        linkedin_clean = social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')
-        facebook_clean = social.get('facebook', '').replace('<br>', '\n').replace('<br/>', '\n')
-        twitter_clean = social.get('twitter', '').replace('<br>', '\n').replace('<br/>', '\n')
-        tiktok_clean = social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')
-        instagram_clean = social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')
-
-        conf_score_raw = alert.get('confidence', '4/5')
+        # Couleur dynamique du badge de confiance
+        conf_score_raw = conf.get('score', '4/5')
         conf_class = "conf-badge-green"
-        if "3/" in conf_score_raw: conf_class = "conf-badge-orange"
-        elif "1/" in conf_score_raw or "2/" in conf_score_raw: conf_class = "conf-badge-red"
+        if "3/" in conf_score_raw:
+            conf_class = "conf-badge-orange"
+        elif "1/" in conf_score_raw or "2/" in conf_score_raw:
+            conf_class = "conf-badge-red"
 
-        takeaways_li_html = "".join([f"<li>{t}</li>" for t in full_data.get("key_takeaways", "").split("\n") if t])
-        if not takeaways_li_html: takeaways_li_html = "<li>Synthèse des prévisions établie avec succès.</li>"
-
-        heat_score = parse_score(dash.get('score_heat', '0/5'))
-        rain_score = parse_score(dash.get('score_rain', '0/5'))
-        storm_score = parse_score(dash.get('score_storm', '0/5'))
-        wind_score = parse_score(dash.get('score_wind', '0/5'))
-        conf_label = get_score_label(conf_score_raw)
-
-        # Génération des chiffres clés
-        key_numbers_html = ""
-        key_numbers_raw = full_data.get("key_numbers", "")
-        if key_numbers_raw:
-            lines = [l.strip() for l in key_numbers_raw.split("\n") if l.strip()]
-            for l in lines:
-                if "|" in l:
-                    parts = [p.strip() for p in l.split("|")]
-                    if len(parts) == 2:
-                        val, lbl = parts[0], parts[1]
-                        key_numbers_html += f"""
-                        <div class="number-card">
-                            <div class="number-val">{val}</div>
-                            <div class="number-lbl">{lbl}</div>
-                        </div>
-                        """
-        if not key_numbers_html:
-            key_numbers_html = "<div style='grid-column: span 5; text-align: center; color: #64748b; font-style: italic; padding: 15px;'>Aucune donnée chiffrée.</div>"
-
-        # Traitement du tableau régional
-        hdf_data = parse_region_line(regional.get('hdf_north', ''))
-        atl_data = parse_region_line(regional.get('atlantic', ''))
-        cen_data = parse_region_line(regional.get('central', ''))
-        sou_data = parse_region_line(regional.get('south', ''))
-        med_data = parse_region_line(regional.get('mediterranean', ''))
-        mnt_data = parse_region_line(regional.get('mountains', ''))
-
-        def format_region_row(name, region_data):
-            temp = region_data[0]
-            rain = region_data[1]
-            risk = region_data[2]
-            conf_val = region_data[3]
-            return f"""
-            <tr>
-                <td><strong>{name}</strong></td>
-                <td><span class="badge-temp">{temp}</span></td>
-                <td>{get_level_badge(rain)}</td>
-                <td>{get_level_badge(risk)}</td>
-                <td>{get_conf_badge(conf_val)}</td>
-            </tr>
-            """
-
-        regional_table_rows = (
-            format_region_row("Hauts-de-France & Nord", hdf_data) +
-            format_region_row("Façade Atlantique", atl_data) +
-            format_region_row("Régions Centrales", cen_data) +
-            format_region_row("Moitié Sud", sou_data) +
-            format_region_row("Pourtour Méditerranéen", med_data) +
-            format_region_row("Reliefs & Montagnes", mnt_data)
-        )
-
-        summary_10s_html = "".join([f"<li>{l.strip('-* ').strip()}</li>" for l in data.get("takeaways_10s", []) if l.strip()])
-        if not summary_10s_html: summary_10s_html = "<li>Aucun résumé disponible.</li>"
-
-        alert_lvl = alert.get('level', 'Vert').strip().replace('[', '').replace(']', '')
-        alert_bg_class = f"alert-banner-{alert_lvl}"
-
-        u_text = full_data.get("france", {}).get("key_uncertainties", "")
-        m_text = full_data.get("france", {}).get("monitoring_points", "")
-        u_li = format_list_items(u_text)
-        m_li = format_list_items(m_text)
-        uncertainties_li_html = u_li + m_li
-        if not uncertainties_li_html:
-            uncertainties_li_html = "<li>Aucune incertitude majeure signalée.</li>"
+        # Traitement des puces "À Retenir"
+        takeaways_raw = data.get("key_takeaways", "")
+        takeaways_items = [t.strip("-* ").strip() for t in takeaways_raw.split("\n") if t.strip()]
+        takeaways_li_html = "".join([f"<li>{t}</li>" for t in takeaways_items if t])
+        if not takeaways_li_html:
+            takeaways_li_html = "<li>Synthèse des prévisions établie avec succès.</li>"
 
         divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
-        france_weeks_html += f"""
+        weeks_html += f"""
         {divider}
+        
+        <!-- TITRE DE SEMAINE EN 2 LIGNES -->
         <div class="week-title-box">
-            <h2 class="week-title-line1">📅 {full_data.get('title_line1', 'SEMAINE')}</h2>
-            <div class="week-title-line2">{full_data.get('title_line2', 'Synthèse France')}</div>
+            <h2 class="week-title-line1">📅 {data.get('title_line1', 'SEMAINE')}</h2>
+            <div class="week-title-line2">{data.get('title_line2', 'Synthèse des prévisions')}</div>
         </div>
         
-        <div class="alert-banner {alert_bg_class}" style="margin-bottom: 25px;">
-            <div class="alert-left">
-                <span class="alert-badge-top">Synthèse France - Alerte {alert_lvl}</span>
-                <h2 class="alert-title-lg">{alert.get('event_type', 'Événement')}</h2>
-                <div class="alert-date-block">
-                    PÉRIODE CONCERNÉE : {alert.get('start', '-')} au {alert.get('end', '-')}
-                </div>
+        <!-- 1. HERO RESUME EXPRESS (<10 SECONDES) -->
+        <div class="hero-express">
+            <div class="hero-top-bar">
+                <span class="hero-label">⚡ LECTURE < 10s : RÉSUMÉ EXPRESS</span>
+                <span class="{conf_class}">Confiance : {conf_score_raw}</span>
+            </div>
+            <div class="hero-summary">{express.get('summary', '')}</div>
+            <div class="hero-conf-explanation">🎯 <strong>Raison de la note ({conf_score_raw}) :</strong> {conf.get('desc', '')}</div>
+            <div class="hero-grid">
+                <div class="hero-card"><label>🌤️ Temps</label><span>{express.get('trend', '-')}</span></div>
+                <div class="hero-card"><label>🌡️ Températures</label><span>{express.get('temperatures', '-')}</span></div>
+                <div class="hero-card"><label>🌧️ Pluies</label><span>{express.get('precipitations', '-')}</span></div>
+                <div class="hero-card"><label>⚠️ Risque</label><span>{express.get('main_risk', 'Aucun')}</span></div>
             </div>
         </div>
 
-        <div class="kpi-row-6" style="margin-bottom: 25px;">
-            <div class="kpi-card-6"><div class="kpi-icon">🌡️</div><div class="kpi-val">{kpis.get('temp_range', '-')}</div><div class="kpi-lbl">Température</div></div>
-            <div class="kpi-card-6"><div class="kpi-icon">📅</div><div class="kpi-val">{kpis.get('period', '-')}</div><div class="kpi-lbl">Période</div></div>
-            <div class="kpi-card-6"><div class="kpi-icon">⏱️</div><div class="kpi-val">{kpis.get('duration', '-')}</div><div class="kpi-lbl">Durée</div></div>
-            <div class="kpi-card-6"><div class="kpi-icon">🎯</div><div class="kpi-val">{kpis.get('confidence', '-')}</div><div class="kpi-lbl">Confiance</div></div>
-            <div class="kpi-card-6"><div class="kpi-icon">⚠️</div><div class="kpi-val">{kpis.get('risks', '-')}</div><div class="kpi-lbl">Risques</div></div>
-            <div class="kpi-card-6"><div class="kpi-icon">📍</div><div class="kpi-val">{kpis.get('zone', '-')}</div><div class="kpi-lbl">Zone</div></div>
+        <!-- 2. CHRONOLOGIE DE LA SEMAINE -->
+        <div class="section-title">🗓️ CHRONOLOGIE DE LA SEMAINE</div>
+        <div class="timeline-container">
+            <div class="timeline-step"><strong>Début de semaine</strong><p>{timeline.get('early', '-')}</p></div>
+            <div class="timeline-step"><strong>Milieu de semaine</strong><p>{timeline.get('mid', '-')}</p></div>
+            <div class="timeline-step"><strong>Fin de semaine</strong><p>{timeline.get('late', '-')}</p></div>
+            <div class="timeline-step"><strong>Week-end</strong><p>{timeline.get('weekend', '-')}</p></div>
         </div>
 
-        <div class="summary-10s-box" style="margin-bottom: 25px;">
-            <h3>⏱️ À Retenir en 10 Secondes</h3>
-            <ul class="summary-10s-list">{summary_10s_html}</ul>
+        <!-- 3. SYNTHESE PAR REGIONS HARMONISEES -->
+        <div class="section-title">🗺️ SYNTHÈSE PAR GRANDES RÉGIONS</div>
+        <div class="regional-grid">
+            <div class="regional-card"><strong>📍 Hauts-de-France & Nord</strong><p>{regional.get('hdf_north', '-')}</p></div>
+            <div class="regional-card"><strong>🌊 Façade Atlantique</strong><p>{regional.get('atlantic', '-')}</p></div>
+            <div class="regional-card"><strong>🏙️ Régions Centrales</strong><p>{regional.get('central', '-')}</p></div>
+            <div class="regional-card"><strong>☀️ Moitié Sud</strong><p>{regional.get('south', '-')}</p></div>
+            <div class="regional-card"><strong>🏖️ Pourtour Méditerranéen</strong><p>{regional.get('mediterranean', '-')}</p></div>
+            <div class="regional-card"><strong>⛰️ Reliefs & Montagnes</strong><p>{regional.get('mountains', 'Pas de particularité remarquable')}</p></div>
         </div>
 
-        <div class="section-title">📊 INDICES DE RISQUES PHYSIQUES</div>
-        <div class="dashboard-meters-row" style="margin-bottom: 25px;">
-            <div class="meter-card-premium">
-                <div class="meter-card-header"><h4>🔥 Chaleur</h4><span class="meter-badge mb-chaleur">{get_score_label(dash.get('score_heat', '0/5'))}</span></div>
-                <div class="meter-track-premium"><div class="meter-fill-premium mf-heat" style="width: {heat_score * 20}%;"></div></div>
-                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_heat', 'Situation normale')}</span><span>{heat_score}/5</span></div>
+        <!-- 4. CONFIANCE & INCERTITUDES -->
+        <div class="section-title">🎯 CONFIANCE ET INCERTITUDES RESTANTES</div>
+        <div class="confidence-panel">
+            <div class="confidence-head">
+                <strong>Fiabilité du Consensus des Modèles</strong>
+                <span class="{conf_class}">Note : {conf_score_raw}</span>
             </div>
-            <div class="meter-card-premium">
-                <div class="meter-card-header"><h4>🌧️ Pluie</h4><span class="meter-badge mb-pluie">{get_score_label(dash.get('score_rain', '0/5'))}</span></div>
-                <div class="meter-track-premium"><div class="meter-fill-premium mf-rain" style="width: {rain_score * 20}%;"></div></div>
-                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_rain', 'Situation normale')}</span><span>{rain_score}/5</span></div>
-            </div>
-            <div class="meter-card-premium">
-                <div class="meter-card-header"><h4>⛈️ Orages</h4><span class="meter-badge mb-orage">{get_score_label(dash.get('score_storm', '0/5'))}</span></div>
-                <div class="meter-track-premium"><div class="meter-fill-premium mf-storm" style="width: {storm_score * 20}%;"></div></div>
-                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_storm', 'Situation normale')}</span><span>{storm_score}/5</span></div>
-            </div>
-            <div class="meter-card-premium">
-                <div class="meter-card-header"><h4>💨 Vent</h4><span class="meter-badge mb-vent">{get_score_label(dash.get('score_wind', '0/5'))}</span></div>
-                <div class="meter-track-premium"><div class="meter-fill-premium mf-wind" style="width: {wind_score * 20}%;"></div></div>
-                <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_wind', 'Situation normale')}</span><span>{wind_score}/5</span></div>
+            <div class="uncertainties-box">
+                <strong style="display: block; margin-bottom: 4px; color: #d97706; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes Majeures & Points à Surveiller :</strong>
+                {data.get('key_uncertainties', '')}\n{data.get('monitoring_points', '')}
             </div>
         </div>
 
-        <div class="section-title">⚠️ IMPACTS ATTENDUS PAR SECTEUR</div>
-        <div class="impacts-grid" style="margin-bottom: 25px;">
-            <div class="impact-item"><span class="impact-icon">👥</span><div class="impact-content"><strong class="impact-title">Population</strong><span class="impact-text">{impacts.get('population', '-')}</span></div></div>
-            <div class="impact-item"><span class="impact-icon">🚗</span><div class="impact-content"><strong class="impact-title">Déplacements</strong><span class="impact-text">{impacts.get('travel', '-')}</span></div></div>
-            <div class="impact-item"><span class="impact-icon">🏗️</span><div class="impact-content"><strong class="impact-title">Travaux & BTP</strong><span class="impact-text">{impacts.get('work', '-')}</span></div></div>
-            <div class="impact-item"><span class="impact-icon">🌾</span><div class="impact-content"><strong class="impact-title">Agriculture</strong><span class="impact-text">{impacts.get('agri', '-')}</span></div></div>
-            <div class="impact-item"><span class="impact-icon">⚡</span><div class="impact-content"><strong class="impact-title">Orages & Réseaux</strong><span class="impact-text">{impacts.get('storm', '-')}</span></div></div>
-            <div class="impact-item"><span class="impact-icon">🌿</span><div class="impact-content"><strong class="impact-title">Sécheresse & Eau</strong><span class="impact-text">{impacts.get('drought', '-')}</span></div></div>
-        </div>
-
-        <div class="section-title">🗓️ CHRONOLOGIE DE L'ÉPISODE</div>
-        <div class="timeline-horizontal" style="margin-bottom: 25px;">
-            <div class="timeline-item-h"><div class="timeline-circle">1</div><strong class="timeline-phase-h">Début</strong><span class="timeline-date-h">{timeline.get('date_debut', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_debut', '-')}</p></div>
-            <div class="timeline-arrow">➔</div>
-            <div class="timeline-item-h"><div class="timeline-circle">2</div><strong class="timeline-phase-h">Montée</strong><span class="timeline-date-h">{timeline.get('date_montee', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_montee', '-')}</p></div>
-            <div class="timeline-arrow">➔</div>
-            <div class="timeline-item-h"><div class="timeline-circle">3</div><strong class="timeline-phase-h">Pic</strong><span class="timeline-date-h">{timeline.get('date_pic', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_pic', '-')}</p></div>
-            <div class="timeline-arrow">➔</div>
-            <div class="timeline-item-h"><div class="timeline-circle">4</div><strong class="timeline-phase-h">Fin</strong><span class="timeline-date-h">{timeline.get('date_fin', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_fin', '-')}</p></div>
-        </div>
-
-        <div class="section-title">🗺️ TENDANCE PAR GRANDES RÉGIONS</div>
-        <div class="table-responsive" style="margin-bottom: 25px;">
-            <table class="regional-table">
-                <thead><tr><th>Région</th><th>🌡️ Températures</th><th>🌧️ Pluviométrie</th><th>⚠️ Risque Majeur</th><th>🎯 Fiabilité</th></tr></thead>
-                <tbody>{regional_table_rows}</tbody>
-            </table>
-        </div>
-
+        <!-- 5. GRAPHIQUES METEO -->
         {html_images_block}
 
-        <div class="section-title">🔢 LES CHIFFRES À RETENIR</div>
-        <div class="numbers-grid" style="margin-bottom: 25px;">{key_numbers_html}</div>
-
-        <div class="detailed-analysis-panel" style="margin-bottom: 25px;">
-            <h3 class="detailed-analysis-title">🔮 SCÉNARIOS DE MODÉLISATIONS & ANALYSES</h3>
-            <div class="scenarios-container">
-                <div class="scenario-card sc-major">
-                    <div class="sc-header"><h3>🟢 Scénario Majoritaire ({scenarios.get('majoritaire', {}).get('prob', '65%')})</h3></div>
-                    <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#10b981;">{scenarios.get('majoritaire', {}).get('title', '')}</strong>
-                    <p class="sc-text">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
-                </div>
-                <div class="scenario-card sc-median">
-                    <div class="sc-header"><h3>🟡 Scénario Alternatif ({scenarios.get('median', {}).get('prob', '25%')})</h3></div>
-                    <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#f59e0b;">{scenarios.get('median', {}).get('title', '')}</strong>
-                    <p class="sc-text">{scenarios.get('median', {}).get('desc', '')}</p>
-                </div>
-                <div class="scenario-card sc-minor">
-                    <div class="sc-header"><h3>🔴 Scénario Minoritaire ({scenarios.get('minoritaire', {}).get('prob', '10%')})</h3></div>
-                    <strong style="font-size:12.5px; display:block; margin-bottom:4px; color:#ef4444;">{scenarios.get('minoritaire', {}).get('title', '')}</strong>
-                    <p class="sc-text">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
-                </div>
+        <!-- 6. LES 3 SCENARIOS CALIBRES -->
+        <div class="section-title">🔮 LES 3 SCÉNARIOS ATMOSPHÉRIQUES DÉTAILLÉS</div>
+        
+        <div class="scenario-card sc-major">
+            <div class="sc-header">
+                <h3>🟢 {scenarios.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h3>
+                <span class="sc-prob bg-major">{scenarios.get('majoritaire', {}).get('prob', '65%')}</span>
             </div>
-            <div class="confidence-panel" style="padding: 15px; margin-bottom: 0;">
-                <div class="confidence-head" style="margin-bottom: 8px;">
-                    <strong>Incertitudes Modélisations</strong>
-                    <span class="{conf_class}" style="padding: 4px 12px; border-radius: 9999px; font-weight: 800; font-size: 11px; color: white; {get_badge_color_class(conf_score_raw)}">Consensus : {conf_score_raw}</span>
-                </div>
-                <div class="uncertainties-box">
-                    <strong style="display: block; margin-bottom: 6px; color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes & Points Clés :</strong>
-                    <ul>{uncertainties_li_html}</ul>
-                </div>
+            <p class="sc-text">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
+        </div>
+        
+        <div class="scenario-card sc-median">
+            <div class="sc-header">
+                <h3>🟡 {scenarios.get('median', {}).get('title', 'Scénario Alternatif')}</h3>
+                <span class="sc-prob bg-median">{scenarios.get('median', {}).get('prob', '25%')}</span>
             </div>
-            <div class="takeaways-panel" style="margin-bottom: 0;">
-                <h3>📌 Synthèse Récapitulative</h3>
-                <ul>{takeaways_li_html}</ul>
+            <p class="sc-text">{scenarios.get('median', {}).get('desc', '')}</p>
+        </div>
+        
+        <div class="scenario-card sc-minor">
+            <div class="sc-header">
+                <h3>🔴 {scenarios.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h3>
+                <span class="sc-prob bg-minor">{scenarios.get('minoritaire', {}).get('prob', '10%')}</span>
             </div>
+            <p class="sc-text">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
         </div>
 
-        <div class="section-title">📢 PACK DE DIFFUSION RÉSEAUX SOCIAUX</div>
+        <!-- 7. A RETENIR (KEY TAKEAWAYS) -->
+        <div class="takeaways-panel">
+            <h3>📌 À Retenir — L'Essentiel en 4 Puces</h3>
+            <ul>
+                {takeaways_li_html}
+            </ul>
+        </div>
+
+        <!-- 8. PACK RÉSEAUX SOCIAUX PRÊT À PUBLIER -->
+        <div class="section-title">📢 PACK RÉSEAUX SOCIAUX (PRÊT À DIFFUSER)</div>
         <div class="social-pack-container">
+            <!-- LinkedIn -->
             <div class="social-platform-card">
-                <div class="social-platform-header sp-linkedin"><span>🔗 LinkedIn ({len(linkedin_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
-                <div class="social-platform-body">{linkedin_clean}</div>
+                <div class="social-platform-header sp-linkedin">
+                    <span>🔗 LinkedIn (Storytelling Expert Météo)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
             </div>
+
+            <!-- Facebook -->
             <div class="social-platform-card">
-                <div class="social-platform-header sp-facebook"><span>👥 Facebook ({len(facebook_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
-                <div class="social-platform-body">{facebook_clean}</div>
+                <div class="social-platform-header sp-facebook">
+                    <span>👥 Facebook (Communautaire & Grand Public)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('facebook', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
             </div>
+
+            <!-- X (Twitter) -->
             <div class="social-platform-card">
-                <div class="social-platform-header sp-twitter"><span>🐦 X (Twitter - {len(twitter_clean)} / 280 car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
-                <div class="social-platform-body">{twitter_clean}</div>
+                <div class="social-platform-header sp-twitter">
+                    <span>🐦 X (Twitter - 280 Caractères max)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('twitter', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
             </div>
+
+            <!-- TikTok -->
             <div class="social-platform-card">
-                <div class="social-platform-header sp-tiktok"><span>🎵 TikTok ({len(tiktok_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
-                <div class="social-platform-body">{tiktok_clean}</div>
+                <div class="social-platform-header sp-tiktok">
+                    <span>🎵 TikTok (Description vidéo)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
             </div>
+
+            <!-- Instagram -->
             <div class="social-platform-card">
-                <div class="social-platform-header sp-instagram"><span>📸 Instagram ({len(instagram_clean)} car.)</span><button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button></div>
-                <div class="social-platform-body">{instagram_clean}</div>
+                <div class="social-platform-header sp-instagram">
+                    <span>📸 Instagram (Légende & CTA Bio)</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
+                </div>
+                <div class="social-platform-body">{social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')}</div>
             </div>
         </div>
         """
 
-    france_html = f"""<!DOCTYPE html>
+    html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyses & Tendances Météo - France</title>
+    <title>Analyses & Tendances Météo - Forum</title>
     <style>{style}</style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
-            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO - FRANCE</h1>
-            <p>Tableau de bord national de synthèse du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
+            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</h1>
+            <p>Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} pour les 2 prochaines semaines</p>
         </div>
         <div class="content">
-            {france_weeks_html}
+            {weeks_html}
         </div>
     </div>
 </body>
 </html>
 """
-    
-    with open(f"bulletin_tendance_france_{date_suffix}.html", "w", encoding="utf-8") as f_fr:
-        f_fr.write(france_html)
-    print(f"Bulletin national généré : bulletin_tendance_france_{date_suffix}.html")
 
-    # Générer les 13 bulletins régionaux
-    for r_key, r_name in REGIONS_MAP.items():
-        region_weeks_html = ""
-        for w_idx, w_res in enumerate(results):
-            full_data = w_res["data"]
-            r_data = full_data.get("regions", {}).get(r_key, {})
-            if not r_data:
-                # Fallback neutre si l'IA a omis une région
-                r_data = {
-                    "alert_level": "Vert",
-                    "event_type": "Information non précisée dans les sources",
-                    "kpis": {"temp_range": "Non précisé", "period": "Non précisé", "duration": "Non précisé", "confidence": "Non précisé", "risks": "Non précisé", "zone": "Non précisé"},
-                    "takeaways_10s": ["Information non précisée dans les sources"],
-                    "dashboard": {"score_heat": "0/5", "score_rain": "0/5", "score_storm": "0/5", "score_wind": "0/5"},
-                    "impacts": {"population": "Information non précisée", "travel": "Information non précisée", "work": "Information non précisée", "agri": "Information non précisée", "storm": "Information non précisée", "drought": "Information non précisée"},
-                    "timeline": {"date_debut": "-", "desc_debut": "-", "date_montee": "-", "desc_montee": "-", "date_pic": "-", "desc_pic": "-", "date_fin": "-", "desc_fin": "-"}
-                }
+    html_path = "bulletin_infoclimat.html"
+    with open(html_path, 'w', encoding='utf-8') as f:
+        f.write(html)
+    print(f"HTML généré avec succès : {html_path}")
 
-            alert_lvl = r_data.get("alert_level", "Vert").strip().replace('[', '').replace(']', '')
-            alert_bg_class = f"alert-banner-{alert_lvl}"
-            
-            kpis = r_data.get("kpis", {}) or {}
-            timeline = r_data.get("timeline", {}) or {}
-            dash = r_data.get("dashboard", {}) or {}
-            impacts = r_data.get("impacts", {}) or {}
+    date_suffix = datetime.datetime.now().strftime('%Y_%m_%d')
 
-            summary_10s_html = "".join([f"<li>{l.strip('-* ').strip()}</li>" for l in r_data.get("takeaways_10s", []) if l.strip()])
-            if not summary_10s_html:
-                summary_10s_html = "<li>Aucun résumé spécifique disponible pour cette région.</li>"
+    # Sauvegarder le bulletin national sous son nom daté
+    filename_france = f"bulletin_tendance_france_{date_suffix}.html"
+    with open(filename_france, "w", encoding="utf-8") as f_fr:
+        f_fr.write(html)
+    print(f"Bulletin national généré : {filename_france}")
 
-            heat_score = parse_score(dash.get('score_heat', '0/5'))
-            rain_score = parse_score(dash.get('score_rain', '0/5'))
-            storm_score = parse_score(dash.get('score_storm', '0/5'))
-            wind_score = parse_score(dash.get('score_wind', '0/5'))
+    # --- GÉNÉRATION PARALLÈLE DES 13 BULLETINS RÉGIONAUX ---
+    # On construit un texte de contexte agrégé à partir des données déjà analysées
+    context_parts = []
+    for res in results:
+        d = res.get("data", {})
+        express = d.get("express", {})
+        regional = d.get("regional", {})
+        scenarios = d.get("scenarios", {})
+        context_parts.append(f"""=== {d.get('title_line1', 'Prévisions')} ===
+Résumé France : {express.get('summary', '')}
+Tendance : {express.get('trend', '')} | Températures : {express.get('temperatures', '')} | Risque : {express.get('main_risk', '')}
+HDF & Nord : {regional.get('hdf_north', '')}
+Façade Atlantique : {regional.get('atlantic', '')}
+Régions Centrales : {regional.get('central', '')}
+Moitié Sud : {regional.get('south', '')}
+Pourtour Méditerranéen : {regional.get('mediterranean', '')}
+Reliefs & Montagnes : {regional.get('mountains', '')}
+Scénario majoritaire : {scenarios.get('majoritaire', {}).get('desc', '')}
+Scénario alternatif : {scenarios.get('median', {}).get('desc', '')}
+Incertitudes : {d.get('key_uncertainties', '')}
+Points de surveillance : {d.get('monitoring_points', '')}
+À retenir : {d.get('key_takeaways', '')}""")
 
-            # Traitement dynamique de l'affichage des impacts (masquer si non précisé)
-            def format_impact_item(icon, title, val):
-                if not val or "non précisée" in val.lower() or "non identifié" in val.lower() or val == "-":
-                    return f"""
-                    <div class="impact-item" style="opacity: 0.6;">
-                        <span class="impact-icon">{icon}</span>
-                        <div class="impact-content">
-                            <strong class="impact-title">{title}</strong>
-                            <span class="impact-text" style="font-style: italic; color: #94a3b8;">Non précisé dans les sources</span>
-                        </div>
-                    </div>
-                    """
-                return f"""
-                <div class="impact-item">
-                    <span class="impact-icon">{icon}</span>
-                    <div class="impact-content">
-                        <strong class="impact-title">{title}</strong>
-                        <span class="impact-text">{val}</span>
-                    </div>
+    all_context = "\n\n".join(context_parts)
+    topic_title_for_regions = " & ".join([r["data"].get("title_line1", "Prévisions") for r in results])
+    date_context_for_regions = topics_to_process[0][2]
+
+    import concurrent.futures
+
+    def gen_region(r_key, r_name):
+        return process_region_query(r_key, r_name, all_context, topic_title_for_regions, date_context_for_regions, 0)
+
+    print("\n--- Génération parallèle des 13 bulletins régionaux ---")
+    regions_data = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=13) as executor:
+        futures = {executor.submit(gen_region, k, v): (k, v) for k, v in REGIONS_MAP.items()}
+        for future in concurrent.futures.as_completed(futures):
+            k, r_data = future.result()
+            regions_data[k] = r_data
+
+    # Générer le HTML régional en réutilisant le même style et template que le national
+    for r_key, r_data in regions_data.items():
+        r_name = REGIONS_MAP[r_key]
+        filename_region = f"bulletin_tendance_{r_key}_{date_suffix}.html"
+
+        if not r_data:
+            print(f"[{r_name}] Bulletin manquant — fichier minimal généré.")
+            r_data = {
+                "title_line1": f"Semaine — {r_name}",
+                "title_line2": "Information non précisée dans les sources.",
+                "region_name": r_name,
+                "express": {"summary": "Information non précisée.", "trend": "-", "temperatures": "-", "precipitations": "-", "main_risk": "-"},
+                "confidence": {"score": "3/5", "desc": "Données insuffisantes pour cette région."},
+                "timeline": {"early": "-", "mid": "-", "late": "-", "weekend": "-"},
+                "regional": {"hdf_north": "-", "atlantic": "-", "central": "-", "south": "-", "mediterranean": "-", "mountains": "-"},
+                "scenarios": {
+                    "majoritaire": {"prob": "65%", "title": "Scénario Majoritaire", "desc": "Information non précisée dans les sources."},
+                    "median": {"prob": "25%", "title": "Scénario Alternatif", "desc": "Information non précisée dans les sources."},
+                    "minoritaire": {"prob": "10%", "title": "Scénario Minoritaire", "desc": "Information non précisée dans les sources."},
+                },
+                "key_uncertainties": "- Information non précisée.",
+                "monitoring_points": "- Information non précisée.",
+                "key_takeaways": "- Information non précisée dans les sources.",
+                "social_pack": {"linkedin": "", "facebook": "", "twitter": "", "tiktok": "", "instagram": ""},
+                "linkedin_hashtags": f"#Meteo #{r_name.replace(' ', '').replace('-', '')} #France #MonsieurMeteo",
+            }
+
+        # Même CSS que le national
+        express_r = r_data.get("express", {})
+        timeline_r = r_data.get("timeline", {})
+        regional_r = r_data.get("regional", {})
+        conf_r = r_data.get("confidence", {})
+        scenarios_r = r_data.get("scenarios", {})
+        social_r = r_data.get("social_pack", {})
+
+        conf_score_r = conf_r.get('score', '4/5')
+        conf_class_r = "conf-badge-green"
+        if "3/" in conf_score_r:
+            conf_class_r = "conf-badge-orange"
+        elif "1/" in conf_score_r or "2/" in conf_score_r:
+            conf_class_r = "conf-badge-red"
+
+        takeaways_r_raw = r_data.get("key_takeaways", "")
+        takeaways_r_items = [t.strip("-* ").strip() for t in takeaways_r_raw.split("\n") if t.strip()]
+        takeaways_r_li = "".join([f"<li>{t}</li>" for t in takeaways_r_items if t])
+        if not takeaways_r_li:
+            takeaways_r_li = "<li>Information non précisée dans les sources pour cette région.</li>"
+
+        def make_social_block(platform_cls, platform_label, content):
+            safe = content.replace('<br>', '\n').replace('<br/>', '\n') if content else ""
+            return f"""
+            <div class="social-platform-card">
+                <div class="social-platform-header {platform_cls}">
+                    <span>{platform_label}</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié !');">Copier</button>
                 </div>
-                """
-
-            impacts_html = (
-                format_impact_item("👥", "Population", impacts.get("population")) +
-                format_impact_item("🚗", "Déplacements", impacts.get("travel")) +
-                format_impact_item("🏗️", "Travaux & BTP", impacts.get("work")) +
-                format_impact_item("🌾", "Agriculture", impacts.get("agri")) +
-                format_impact_item("⚡", "Orages & Réseaux", impacts.get("storm")) +
-                format_impact_item("🌿", "Sécheresse & Eau", impacts.get("drought"))
-            )
-
-            divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
-            region_weeks_html += f"""
-            {divider}
-            <div class="week-title-box">
-                <h2 class="week-title-line1">📅 {full_data.get('title_line1', 'SEMAINE')}</h2>
-                <div class="week-title-line2">Tendance Régionale - {r_name}</div>
-            </div>
-            
-            <div class="alert-banner {alert_bg_class}" style="margin-bottom: 25px;">
-                <div class="alert-left">
-                    <span class="alert-badge-top">Bulletin Régional - {r_name}</span>
-                    <h2 class="alert-title-lg">{r_data.get('event_type', 'Situation Stable')}</h2>
-                    <div class="alert-date-block">
-                        PÉRIODE : {kpis.get('period', 'Non précisée')}
-                    </div>
-                </div>
-            </div>
-
-            <div class="kpi-row-6" style="margin-bottom: 25px;">
-                <div class="kpi-card-6"><div class="kpi-icon">🌡️</div><div class="kpi-val">{kpis.get('temp_range', 'Non précisé')}</div><div class="kpi-lbl">Temp. Régionale</div></div>
-                <div class="kpi-card-6"><div class="kpi-icon">📅</div><div class="kpi-val">{kpis.get('period', 'Non précisé')}</div><div class="kpi-lbl">Période</div></div>
-                <div class="kpi-card-6"><div class="kpi-icon">⏱️</div><div class="kpi-val">{kpis.get('duration', 'Non précisé')}</div><div class="kpi-lbl">Durée</div></div>
-                <div class="kpi-card-6"><div class="kpi-icon">🎯</div><div class="kpi-val">{kpis.get('confidence', 'Non précisé')}</div><div class="kpi-lbl">Confiance</div></div>
-                <div class="kpi-card-6"><div class="kpi-icon">⚠️</div><div class="kpi-val">{kpis.get('risks', 'Non précisé')}</div><div class="kpi-lbl">Risques</div></div>
-                <div class="kpi-card-6"><div class="kpi-icon">📍</div><div class="kpi-val">{kpis.get('zone', 'Non précisé')}</div><div class="kpi-lbl">Départements</div></div>
-            </div>
-
-            <div class="summary-10s-box" style="margin-bottom: 25px;">
-                <h3>⏱️ À Retenir en 10 Secondes - {r_name}</h3>
-                <ul class="summary-10s-list">{summary_10s_html}</ul>
-            </div>
-
-            <div class="section-title">📊 INDICES DE RISQUES PHYSIQUES - {r_name}</div>
-            <div class="dashboard-meters-row" style="margin-bottom: 25px;">
-                <div class="meter-card-premium">
-                    <div class="meter-card-header"><h4>🔥 Chaleur</h4><span class="meter-badge mb-chaleur">{get_score_label(dash.get('score_heat', '0/5'))}</span></div>
-                    <div class="meter-track-premium"><div class="meter-fill-premium mf-heat" style="width: {heat_score * 20}%;"></div></div>
-                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_heat', 'Situation normale')}</span><span>{heat_score}/5</span></div>
-                </div>
-                <div class="meter-card-premium">
-                    <div class="meter-card-header"><h4>🌧️ Pluie</h4><span class="meter-badge mb-pluie">{get_score_label(dash.get('score_rain', '0/5'))}</span></div>
-                    <div class="meter-track-premium"><div class="meter-fill-premium mf-rain" style="width: {rain_score * 20}%;"></div></div>
-                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_rain', 'Situation normale')}</span><span>{rain_score}/5</span></div>
-                </div>
-                <div class="meter-card-premium">
-                    <div class="meter-card-header"><h4>⛈️ Orages</h4><span class="meter-badge mb-orage">{get_score_label(dash.get('score_storm', '0/5'))}</span></div>
-                    <div class="meter-track-premium"><div class="meter-fill-premium mf-storm" style="width: {storm_score * 20}%;"></div></div>
-                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_storm', 'Situation normale')}</span><span>{storm_score}/5</span></div>
-                </div>
-                <div class="meter-card-premium">
-                    <div class="meter-card-header"><h4>💨 Vent</h4><span class="meter-badge mb-vent">{get_score_label(dash.get('score_wind', '0/5'))}</span></div>
-                    <div class="meter-track-premium"><div class="meter-fill-premium mf-wind" style="width: {wind_score * 20}%;"></div></div>
-                    <div class="meter-info"><span class="meter-lbl-text">{dash.get('interp_wind', 'Situation normale')}</span><span>{wind_score}/5</span></div>
-                </div>
-            </div>
-
-            <div class="section-title">⚠️ IMPACTS ATTENDUS PAR SECTEUR - {r_name}</div>
-            <div class="impacts-grid" style="margin-bottom: 25px;">{impacts_html}</div>
-
-            <div class="section-title">🗓️ CHRONOLOGIE RÉGIONALE</div>
-            <div class="timeline-horizontal" style="margin-bottom: 25px;">
-                <div class="timeline-item-h"><div class="timeline-circle">1</div><strong class="timeline-phase-h">Début</strong><span class="timeline-date-h">{timeline.get('date_debut', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_debut', '-')}</p></div>
-                <div class="timeline-arrow">➔</div>
-                <div class="timeline-item-h"><div class="timeline-circle">2</div><strong class="timeline-phase-h">Montée</strong><span class="timeline-date-h">{timeline.get('date_montee', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_montee', '-')}</p></div>
-                <div class="timeline-arrow">➔</div>
-                <div class="timeline-item-h"><div class="timeline-circle">3</div><strong class="timeline-phase-h">Pic</strong><span class="timeline-date-h">{timeline.get('date_pic', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_pic', '-')}</p></div>
-                <div class="timeline-arrow">➔</div>
-                <div class="timeline-item-h"><div class="timeline-circle">4</div><strong class="timeline-phase-h">Fin</strong><span class="timeline-date-h">{timeline.get('date_fin', '-')}</span><p class="timeline-desc-h">{timeline.get('desc_fin', '-')}</p></div>
-            </div>
-            """
+                <div class="social-platform-body">{safe}</div>
+            </div>"""
 
         region_html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analances & Tendances Météo - {r_name}</title>
+    <title>Bulletin Météo — {r_name}</title>
     <style>{style}</style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
-            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO - {r_name.upper()}</h1>
-            <p>Tableau de bord de synthèse du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
+            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO — BULLETIN RÉGIONAL</div>
+            <h1>📍 {r_name}</h1>
+            <p>Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')}</p>
         </div>
         <div class="content">
-            {region_weeks_html}
+
+            <div class="week-title-box">
+                <h2 class="week-title-line1">📅 {r_data.get('title_line1', r_name)}</h2>
+                <div class="week-title-line2">{r_data.get('title_line2', '')}</div>
+            </div>
+
+            <div class="hero-express">
+                <div class="hero-top-bar">
+                    <span class="hero-label">⚡ LECTURE &lt; 10s : RÉSUMÉ EXPRESS — {r_name}</span>
+                    <span class="{conf_class_r}">Confiance : {conf_score_r}</span>
+                </div>
+                <div class="hero-summary">{express_r.get('summary', '')}</div>
+                <div class="hero-conf-explanation">🎯 <strong>Raison de la note ({conf_score_r}) :</strong> {conf_r.get('desc', '')}</div>
+                <div class="hero-grid">
+                    <div class="hero-card"><label>🌤️ Temps</label><span>{express_r.get('trend', '-')}</span></div>
+                    <div class="hero-card"><label>🌡️ Températures</label><span>{express_r.get('temperatures', '-')}</span></div>
+                    <div class="hero-card"><label>🌧️ Pluies</label><span>{express_r.get('precipitations', '-')}</span></div>
+                    <div class="hero-card"><label>⚠️ Risque</label><span>{express_r.get('main_risk', 'Aucun')}</span></div>
+                </div>
+            </div>
+
+            <div class="section-title">🗓️ CHRONOLOGIE DE LA SEMAINE EN {r_name.upper()}</div>
+            <div class="timeline-container">
+                <div class="timeline-step"><strong>Début de semaine</strong><p>{timeline_r.get('early', '-')}</p></div>
+                <div class="timeline-step"><strong>Milieu de semaine</strong><p>{timeline_r.get('mid', '-')}</p></div>
+                <div class="timeline-step"><strong>Fin de semaine</strong><p>{timeline_r.get('late', '-')}</p></div>
+                <div class="timeline-step"><strong>Week-end</strong><p>{timeline_r.get('weekend', '-')}</p></div>
+            </div>
+
+            <div class="section-title">🗺️ SECTEURS DE {r_name.upper()}</div>
+            <div class="regional-grid">
+                <div class="regional-card"><strong>🔹 Secteur Nord / NW</strong><p>{regional_r.get('hdf_north', '-')}</p></div>
+                <div class="regional-card"><strong>🌊 Façade Ouest</strong><p>{regional_r.get('atlantic', '-')}</p></div>
+                <div class="regional-card"><strong>🏙️ Intérieur / Centre</strong><p>{regional_r.get('central', '-')}</p></div>
+                <div class="regional-card"><strong>☀️ Secteur Sud</strong><p>{regional_r.get('south', '-')}</p></div>
+                <div class="regional-card"><strong>🏖️ Côtes / Méditerranée</strong><p>{regional_r.get('mediterranean', 'Non applicable')}</p></div>
+                <div class="regional-card"><strong>⛰️ Reliefs / Montagnes</strong><p>{regional_r.get('mountains', 'Non applicable')}</p></div>
+            </div>
+
+            <div class="section-title">🎯 CONFIANCE ET INCERTITUDES — {r_name.upper()}</div>
+            <div class="confidence-panel">
+                <div class="confidence-head">
+                    <strong>Fiabilité du Consensus des Modèles</strong>
+                    <span class="{conf_class_r}">Note : {conf_score_r}</span>
+                </div>
+                <div class="uncertainties-box">
+                    <strong style="display: block; margin-bottom: 4px; color: #d97706; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes & Points à Surveiller :</strong>
+                    {r_data.get('key_uncertainties', '')}<br>{r_data.get('monitoring_points', '')}
+                </div>
+            </div>
+
+            <div class="section-title">🔮 LES 3 SCÉNARIOS ATMOSPHÉRIQUES — {r_name.upper()}</div>
+            <div class="scenario-card sc-major">
+                <div class="sc-header">
+                    <h3>🟢 {scenarios_r.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h3>
+                    <span class="sc-prob bg-major">{scenarios_r.get('majoritaire', {}).get('prob', '65%')}</span>
+                </div>
+                <p class="sc-text">{scenarios_r.get('majoritaire', {}).get('desc', '')}</p>
+            </div>
+            <div class="scenario-card sc-median">
+                <div class="sc-header">
+                    <h3>🟡 {scenarios_r.get('median', {}).get('title', 'Scénario Alternatif')}</h3>
+                    <span class="sc-prob bg-median">{scenarios_r.get('median', {}).get('prob', '25%')}</span>
+                </div>
+                <p class="sc-text">{scenarios_r.get('median', {}).get('desc', '')}</p>
+            </div>
+            <div class="scenario-card sc-minor">
+                <div class="sc-header">
+                    <h3>🔴 {scenarios_r.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h3>
+                    <span class="sc-prob bg-minor">{scenarios_r.get('minoritaire', {}).get('prob', '10%')}</span>
+                </div>
+                <p class="sc-text">{scenarios_r.get('minoritaire', {}).get('desc', '')}</p>
+            </div>
+
+            <div class="takeaways-panel">
+                <h3>📌 À Retenir — L'Essentiel en 4 Puces</h3>
+                <ul>{takeaways_r_li}</ul>
+            </div>
+
+            <div class="section-title">📢 PACK RÉSEAUX SOCIAUX — {r_name.upper()} (PRÊT À DIFFUSER)</div>
+            <div class="social-pack-container">
+                {make_social_block('sp-linkedin', '🔗 LinkedIn (Storytelling Expert Météo)', social_r.get('linkedin', ''))}
+                {make_social_block('sp-facebook', '👥 Facebook (Communautaire & Grand Public)', social_r.get('facebook', ''))}
+                {make_social_block('sp-twitter', '🐦 X (Twitter - 280 Caractères max)', social_r.get('twitter', ''))}
+                {make_social_block('sp-tiktok', '🎵 TikTok (Description vidéo)', social_r.get('tiktok', ''))}
+                {make_social_block('sp-instagram', '📸 Instagram (Légende & CTA Bio)', social_r.get('instagram', ''))}
+            </div>
+
         </div>
     </div>
 </body>
-</html>
-"""
-        with open(f"bulletin_tendance_{r_key}_{date_suffix}.html", "w", encoding="utf-8") as f_r:
+</html>"""
+
+        with open(filename_region, "w", encoding="utf-8") as f_r:
             f_r.write(region_html)
-        print(f"Bulletin régional généré : bulletin_tendance_{r_key}_{date_suffix}.html")
+        print(f"Bulletin régional généré : {filename_region}")
 
-    # Mettre à jour bulletin_infoclimat.html avec la version nationale
-    with open("bulletin_infoclimat.html", "w", encoding="utf-8") as f_def:
-        f_def.write(france_html)
-
-    html_path = "bulletin_infoclimat.html"
-    html = france_html
-    print(f"HTML généré avec succès : {html_path}")
-
-    # Envoi e-mail via Gmail SMTP (national en ligne + 14 pièces jointes)
+    # --- ENVOI EMAIL SMTP (national inline + 14 pièces jointes) ---
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if gmail_email:
         gmail_email = gmail_email.replace('\ufeff', '').replace('\ufffe', '').strip()
     if gmail_password:
         gmail_password = gmail_password.replace('\ufeff', '').replace('\ufffe', '').strip()
-        
+
     recipient = os.environ.get("RECIPIENT_EMAILS", "gregory.langlet@sfr.fr, langlet.gregory@gmail.com")
     recipients = [r.strip() for r in recipient.split(",") if r.strip()]
-    
+
     if not gmail_password:
         print("[SMTP] ERREUR : GMAIL_APP_PASSWORD non configuré. Annulation envoi.")
         sys.exit(0)
-        
+
     sender = gmail_email
-    
-    # Titres abrégés pour le sujet du mail
-    subject_week_names = " & ".join([r["data"].get("title_line1", r["data"].get("subject_title", "Semaine")).split("-")[0].strip() for r in results])
+    subject_week_names = " & ".join([r["data"].get("title_line1", "Semaine").split("-")[0].strip() for r in results])
     subject = f"Tendances de la semaine - {subject_week_names}"
-    
-    # Nettoyage ASCII du sujet pour éviter les rejets SMTP
     import unicodedata
-    clean_subj = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
-    subject = clean_subj
-    
+    subject = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
+
     from email.mime.multipart import MIMEMultipart
     from email.mime.text import MIMEText
     from email.mime.base import MIMEBase
     from email import encoders
 
-    # Message principal multipart/mixed
     msg = MIMEMultipart('mixed')
     msg['From'] = f"Meteo Climat Pro <{sender}>"
     msg['To'] = ", ".join(recipients)
@@ -1238,38 +1364,33 @@ def main():
     msg['Date'] = formatdate(localtime=True)
     msg['Reply-To'] = "gregory.langlet@sfr.fr"
 
-    # Partie affichée directement (corps du mail) : multipart/alternative
-    msg_alternative = MIMEMultipart('alternative')
-    msg.attach(msg_alternative)
+    msg_alt = MIMEMultipart('alternative')
+    msg.attach(msg_alt)
 
-    # Version texte brut de secours
-    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint l'analyse consolidée des tendances météo pour la semaine en cours (jours restants) et la semaine suivante.\n\nLe rapport HTML contenant le Pack Réseaux Sociaux multi-plateforme complet et prêt à diffuser ainsi que les graphiques de modélisation est joint à ce message.\n\nCordialement,\nMonsieur Météo"
-    msg_alternative.attach(MIMEText(text_body, 'plain', 'utf-8'))
+    text_body = "Bonjour,\n\nVeuillez trouver le bulletin national France en ligne ci-dessous, et les 13 bulletins régionaux en pièces jointes.\n\nCordialement,\nMonsieur Météo"
+    msg_alt.attach(MIMEText(text_body, 'plain', 'utf-8'))
+    msg_alt.attach(MIMEText(html, 'html', 'utf-8'))
 
-    # Version HTML inlined pour affichage immédiat dans la boîte de réception
-    msg_alternative.attach(MIMEText(france_html, 'html', 'utf-8'))
-
-    # Ajout du bulletin national en pièce jointe
-    filename_france = f"bulletin_tendance_france_{date_suffix}.html"
+    # Bulletin national en pièce jointe
     part_fr = MIMEBase('text', 'html', charset='utf-8')
-    part_fr.set_payload(france_html.encode('utf-8'))
+    part_fr.set_payload(html.encode('utf-8'))
     encoders.encode_base64(part_fr)
     part_fr.add_header('Content-Disposition', f'attachment; filename="{filename_france}"')
     msg.attach(part_fr)
 
-    # Ajout des bulletins régionaux en pièces jointes
-    for r_key, r_name in REGIONS_MAP.items():
-        filename_region = f"bulletin_tendance_{r_key}_{date_suffix}.html"
+    # 13 bulletins régionaux en pièces jointes
+    for r_key in REGIONS_MAP:
+        fn = f"bulletin_tendance_{r_key}_{date_suffix}.html"
         try:
-            with open(filename_region, "r", encoding="utf-8") as f_r:
+            with open(fn, "r", encoding="utf-8") as f_r:
                 r_html_content = f_r.read()
             part_r = MIMEBase('text', 'html', charset='utf-8')
             part_r.set_payload(r_html_content.encode('utf-8'))
             encoders.encode_base64(part_r)
-            part_r.add_header('Content-Disposition', f'attachment; filename="{filename_region}"')
+            part_r.add_header('Content-Disposition', f'attachment; filename="{fn}"')
             msg.attach(part_r)
         except Exception as e:
-            print(f"Erreur d'attachement pour {filename_region} : {e}")
+            print(f"Erreur attachement {fn} : {e}")
 
     print(f"[SMTP] Envoi via Gmail à {', '.join(recipients)}...")
     try:
