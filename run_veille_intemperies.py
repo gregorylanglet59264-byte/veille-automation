@@ -515,14 +515,19 @@ def send_email(report_json, date_str):
     html_email_b64 = base64.b64encode(html_email_body.encode('utf-8')).decode('ascii')
     
     # Nettoyage ASCII strict du sujet pour éviter les spams
-    subject_raw = f"Veille actu meteo - {date_str}"
+    import uuid as _uuid
+    from email.utils import make_msgid as _make_msgid
+    subject_raw = f"Veille Meteo Cyclones - {date_str}"
     clean_subject = unicodedata.normalize('NFKD', subject_raw).encode('ASCII', 'ignore').decode('ASCII')
-    
+
     raw_message = (
-        f'From: Gregory LANGLET <{gmail_email}>\r\n'
+        f'From: Meteo Climat Pro <{gmail_email}>\r\n'
         f'To: {", ".join(recipients)}\r\n'
+        f'Reply-To: gregory.langlet@sfr.fr\r\n'
         f'Subject: {clean_subject}\r\n'
         f'Date: {formatdate(localtime=True)}\r\n'
+        f'Message-ID: {_make_msgid(domain="gmail.com")}\r\n'
+        f'X-Mailer: Python/smtplib\r\n'
         f'MIME-Version: 1.0\r\n'
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
         f'\r\n'

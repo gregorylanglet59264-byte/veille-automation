@@ -769,11 +769,13 @@ def send_email(html_body, date_str):
     
     # Construction du message MIME propre avec corps HTML en ligne (sans pièce jointe)
     msg = MIMEMultipart('alternative')
-    msg['Subject'] = f'Synthèse Veille - {date_str}'
-    msg['From'] = f'Meteo Climat Pro <{sender}>'
-    msg['To'] = ", ".join(recipients)
-    msg['Reply-To'] = "gregory.langlet@sfr.fr"
-    msg['Date'] = formatdate(localtime=True)
+    msg['Subject']    = f'Synthese Veille - {date_str}'
+    msg['From']       = f'Meteo Climat Pro <{sender}>'
+    msg['To']         = ", ".join(recipients)
+    msg['Reply-To']   = "gregory.langlet@sfr.fr"
+    msg['Date']       = formatdate(localtime=True)
+    msg['Message-ID'] = make_msgid(domain="gmail.com")
+    msg['X-Mailer']   = "Python/smtplib"
     
     # Attacher la version HTML directement
     msg.attach(MIMEText(html_body, 'html', 'utf-8'))

@@ -568,13 +568,16 @@ def send_email(html_body, date_str):
         print("[SMTP] ERREUR : GMAIL_APP_PASSWORD manquant.")
         sys.exit(1)
 
+    import unicodedata
     msg = MIMEMultipart("alternative")
-    msg["Subject"]  = f"⚡ Veille Rapide RSS — {date_str}"
-    msg["From"]     = f"Veille Rapide <{gmail_email}>"
-    msg["To"]       = ", ".join(recipients)
-    msg["Reply-To"] = "gregory.langlet@sfr.fr"
-    msg["Date"]     = formatdate(localtime=True)
+    subject_raw = f"Veille Rapide RSS - {date_str}"
+    msg["Subject"]    = unicodedata.normalize('NFKD', subject_raw).encode('ASCII', 'ignore').decode('ASCII')
+    msg["From"]       = f"Meteo Climat Pro <{gmail_email}>"
+    msg["To"]         = ", ".join(recipients)
+    msg["Reply-To"]   = "gregory.langlet@sfr.fr"
+    msg["Date"]       = formatdate(localtime=True)
     msg["Message-ID"] = make_msgid(domain="gmail.com")
+    msg["X-Mailer"]   = "Python/smtplib"
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     print(f"[SMTP] Envoi à {', '.join(recipients)} via Gmail...")
