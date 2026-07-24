@@ -65,7 +65,8 @@ FEEDS = {
         "France 24":   "https://www.france24.com/fr/rss",
     },
     "🎯 Bons Plans IA & Outils": {
-        # Lancements & nouveaux outils
+        # Deals, promos & lancements
+        "AppSumo IA":         "https://appsumo.com/rss/",
         "ProductHunt AI":     "https://www.producthunt.com/feed?category=ai",
         "OpenAI Blog":        "https://openai.com/news/rss.xml",
         "HuggingFace Blog":   "https://huggingface.co/blog/feed.xml",
@@ -88,16 +89,12 @@ KEYWORDS_METEO = ["météo", "canicule", "orage", "tempête", "cyclone", "inonda
 KEYWORDS_INTEMPERIES = ["orage", "inondation", "cyclone", "tempête", "grêle", "tornade", "canicule", "alerte", "vigilance", "crues", "feux", "incendie", "catastrophe"]
 KEYWORDS_IA = ["ia", "intelligence artificielle", "chatgpt", "gemini", "claude", "llm", "mistral", "openai", "anthropic", "deepseek", "gpt", "modèle", "machine learning", "algorithme", "robot", "automation", "agent ia"]
 KEYWORDS_BONSPLANS = [
-    # Français
-    "gratuit", "lancement", "nouveau", "beta", "offre", "abonnement", "essai",
-    "freemium", "promo", "promotion", "réduction", "rabais", "outil ia",
-    "chatgpt plus", "claude pro", "gemini pro", "open source", "accès gratuit",
-    # Anglais (newsletters et sources US)
-    "free", "launch", "new", "deal", "discount", "subscription", "trial",
-    "release", "api", "tool", "app", "platform", "model", "agent",
-    "chatgpt", "claude", "gemini", "openai", "anthropic", "mistral",
-    "open-source", "open source", "free tier", "limited time", "lifetime",
-    "pro plan", "ai tool", "ai app", "ai platform", "ai agent",
+    # Français : termes de promos et d'abonnements/accès gratuits
+    "gratuit", "promo", "promotion", "réduction", "rabais", "offre", "abonnement",
+    "essai", "freemium", "accès gratuit", "offert", "cadeau", "bon plan", "deal",
+    # Anglais : termes de deal et freebies
+    "free", "deal", "discount", "subscription", "trial", "lifetime", "coupon",
+    "off", "sales", "free tier", "limited time", "freemium", "promo code", "save",
 ]
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -171,6 +168,40 @@ def _parse_date(date_str):
     except Exception:
         return None
 
+def _parse_xml_regex(xml_str):
+    """Regex-based parser for malformed RSS/Atom feeds (like AppSumo)."""
+    import re
+    items = []
+    # Support <item> (RSS) and <entry> (Atom)
+    for match in re.finditer(r'<(item|entry)>([\s\S]*?)</\1>', xml_str):
+        content = match.group(2)
+        title_match = re.search(r'<title[^>]*>([\s\S]*?)</title>', content)
+        
+        # Link extraction (support both <link>text</link> and <link href="..."/>)
+        link_match = re.search(r'<link[^>]*>([\s\S]*?)</link>', content)
+        link_txt = ""
+        if not link_match or not link_match.group(1).strip():
+            href_match = re.search(r'<link[^>]+href=["\']([^"\']+)["\']', content)
+            link_txt = href_match.group(1) if href_match else ""
+        else:
+            link_txt = link_match.group(1)
+            
+        pub_match = re.search(r'<(pubDate|published|updated)>([\s\S]*?)</\1>', content)
+        desc_match = re.search(r'<(description|summary|content[^>]*)>([\s\S]*?)</\1>', content)
+        
+        def clean(txt):
+            if not txt: return ""
+            txt = re.sub(r'<!\[CDATA\[([\s\S]*?)\]\]>', r'\1', txt)
+            return txt.strip()
+            
+        items.append({
+            "title": clean(title_match.group(1)) if title_match else "",
+            "url": clean(link_txt) if link_txt else "",
+            "pub": clean(pub_match.group(2)) if pub_match else "",
+            "desc": clean(desc_match.group(2)) if desc_match else ""
+        })
+    return items
+
 def fetch_one_feed(name, url, max_hours=24):
     """Fetch a single RSS feed, return list of recent articles."""
     articles = []
@@ -179,16 +210,35 @@ def fetch_one_feed(name, url, max_hours=24):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=10) as resp:
-            root = ET.fromstring(resp.read())
-        for item in root.findall(".//item"):
-            title_el = item.find("title")
-            link_el  = item.find("link")
-            pub_el   = item.find("pubDate")
-            desc_el  = item.find("description")
-            title = (title_el.text or "").strip() if title_el is not None else ""
-            link  = (link_el.text or "").strip() if link_el is not None else ""
-            pub   = (pub_el.text or "") if pub_el is not None else ""
-            desc  = (desc_el.text or "").strip() if desc_el is not None else ""
+            raw_data = resp.read()
+        
+        parsed_items = []
+        try:
+            # Standard XML Parser
+            root = ET.fromstring(raw_data)
+            for item in root.findall(".//item"):
+                title_el = item.find("title")
+                link_el  = item.find("link")
+                pub_el   = item.find("pubDate")
+                desc_el  = item.find("description")
+                parsed_items.append({
+                    "title": (title_el.text or "").strip() if title_el is not None else "",
+                    "url": (link_el.text or "").strip() if link_el is not None else "",
+                    "pub": (pub_el.text or "") if pub_el is not None else "",
+                    "desc": (desc_el.text or "").strip() if desc_el is not None else ""
+                })
+        except Exception:
+            # Fallback to robust regex parser if XML is malformed (e.g. AppSumo)
+            try:
+                parsed_items = _parse_xml_regex(raw_data.decode("utf-8", errors="ignore"))
+            except Exception as re_err:
+                print(f"  [RSS] Regex fallback failed for {name}: {re_err}")
+                
+        for item in parsed_items:
+            title = item["title"]
+            link  = item["url"]
+            pub   = item["pub"]
+            desc  = item["desc"]
             # Strip HTML from description
             import re
             desc = re.sub(r"<[^>]+>", "", desc)[:200]
@@ -217,7 +267,7 @@ def fetch_category(category_name, feeds_dict, max_hours=24, keywords=None, max_i
                 filtered.append(a)
         all_articles = filtered if filtered else all_articles  # fallback: keep all if too narrow
 
-    # Deduplicate by title similarity (first 60 chars)
+    # deduplicate by title similarity (first 60 chars)
     seen = set()
     deduped = []
     for a in all_articles:
@@ -228,9 +278,20 @@ def fetch_category(category_name, feeds_dict, max_hours=24, keywords=None, max_i
 
     # Sort newest first
     deduped.sort(key=lambda x: x["dt"].timestamp() if x["dt"] else 0, reverse=True)
-    deduped = deduped[:max_items]
-    print(f"  [{category_name}] {len(deduped)} articles retenus")
-    return translate_articles(deduped)
+
+    # ponytail: limit to max 4 articles per source to ensure diversity (so BFM or Le Monde aren't drowned out by FranceInfo)
+    source_counts = {}
+    diverse_articles = []
+    for a in deduped:
+        src = a.get("source")
+        count = source_counts.get(src, 0)
+        if count < 4:
+            diverse_articles.append(a)
+            source_counts[src] = count + 1
+
+    final_articles = diverse_articles[:max_items]
+    print(f"  [{category_name}] {len(final_articles)} articles retenus (diversité sources active)")
+    return translate_articles(final_articles)
 
 # ─── Collecte LLM (OpenRouter + HuggingFace + GitHub) ────────────────────────
 
