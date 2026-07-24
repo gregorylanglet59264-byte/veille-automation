@@ -24,6 +24,23 @@ socket.setdefaulttimeout(10)
 INDEX_URL = "https://forums.infoclimat.fr/f/forum/20-evolution-%C3%A0-plus-long-terme/"
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
+REGIONS_MAP = {
+    "auvergne_rhone_alpes": "Auvergne-Rhône-Alpes",
+    "bourgogne_franche_comte": "Bourgogne-Franche-Comté",
+    "bretagne": "Bretagne",
+    "centre_val_de_loire": "Centre-Val de Loire",
+    "corse": "Corse",
+    "grand_est": "Grand Est",
+    "hauts_de_france": "Hauts-de-France",
+    "ile_de_france": "Île-de-France",
+    "normandie": "Normandie",
+    "nouvelle_aquitaine": "Nouvelle-Aquitaine",
+    "occitanie": "Occitanie",
+    "pays_de_la_loire": "Pays de la Loire",
+    "provence_alpes_cote_azur": "Provence-Alpes-Côte d'Azur"
+}
+
+
 def fetch_url(url, timeout=8):
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
     with urllib.request.urlopen(req, timeout=timeout) as response:
@@ -68,9 +85,9 @@ def call_llm(system_prompt, user_prompt, max_retries=3):
 
 
 def process_topic(topic_url, topic_idx, date_context_str):
+    import concurrent.futures
     print(f"\n--- Sujet [{topic_idx+1}] : {topic_url} ---")
     
-    # 1. Charger le titre et la pagination du sujet
     try:
         html_first = fetch_url(topic_url)
     except Exception as e:
@@ -93,7 +110,6 @@ def process_topic(topic_url, topic_idx, date_context_str):
             
     print(f"[{topic_idx+1}] Pages détectées : {len(pages)}")
     
-    # Charger les 3 dernières pages pour avoir les commentaires récents
     pages_to_load = pages[-3:] if len(pages) >= 3 else pages
     all_comments = []
     all_authors = []
@@ -110,7 +126,6 @@ def process_topic(topic_url, topic_idx, date_context_str):
         except Exception as e:
             print(f"Erreur page {page} : {e}")
             
-    # Nettoyer les commentaires pour l'IA
     cleaned_comments_data = []
     for idx, comment in enumerate(all_comments):
         clean_comment = re.sub(r'<br\s*/?>', '\n', comment)
@@ -119,10 +134,8 @@ def process_topic(topic_url, topic_idx, date_context_str):
         author = all_authors[idx] if idx < len(all_authors) else "Membre"
         cleaned_comments_data.append(f"Auteur: {author}\nMessage:\n{clean_comment}")
         
-    # Garder les 20 derniers messages pour l'analyse
     recent_messages_text = "\n\n=======================\n\n".join(cleaned_comments_data[-20:])
     
-    # Extraire et télécharger les graphiques candidats
     print(f"[{topic_idx+1}] Extraction des graphiques...")
     candidate_imgs = []
     seen_imgs = set()
@@ -156,63 +169,48 @@ def process_topic(topic_url, topic_idx, date_context_str):
         except Exception as e:
             print(f"Erreur téléchargement graphique {idx+1} : {e}")
 
-    # Appeler l'IA pour l'analyse des scénarios et la rédaction du pack réseaux sociaux
-    print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse des scénarios météo...")
-    system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
+    # --- APPEL NATIONAL ---
+    print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse nationale France...")
+    system_prompt_national = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
-À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un objet JSON structuré représentant le bulletin d'analyse météorologique national (France) et les déclinaisons pour les 13 régions métropolitaines suivantes :
-- auvergne_rhone_alpes
-- bourgogne_franche_comte
-- bretagne
-- centre_val_de_loire
-- corse
-- grand_est
-- hauts_de_france
-- ile_de_france
-- normandie
-- nouvelle_aquitaine
-- occitanie
-- pays_de_la_loire
-- provence_alpes_cote_azur
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un objet JSON structuré représentant le bulletin d'analyse météorologique national (France) avec les informations globales de tendance.
 
 RÈGLES D'OR ABSOLUES :
-1. NE RIEN INVENTER. Si une information (température, risque, date, impact, etc.) n'est pas explicitement mentionnée ou déductible sans ambiguïté des sources pour une région donnée, écris obligatoirement "Information non précisée dans les sources" pour ce champ. Ne déduis jamais une tendance régionale à partir d'un élément uniquement national si le texte ne le justifie pas.
+1. NE RIEN INVENTER. Si une information (température, risque, date, impact, etc.) n'est pas explicitement mentionnée dans les discussions pour la France, écris "Information non précisée dans les sources".
 2. DATES EXACTES : Associe toujours les jours aux dates exactes (ex: Lundi 27 Juillet).
 3. EXCLUSION DES JOURS PASSÉS : Conforme-toi à la "Date actuelle de génération" transmise dans l'invite.
-4. TEMPÉRATURES RÉGIONALES : Les températures régionales doivent correspondre aux valeurs réelles mentionnées pour cette région dans les messages du forum. Si aucune valeur n'est donnée, écris "Information non précisée dans les sources".
-5. IMPACTS GÉOLOCALISÉS : Pour chaque impact sectoriel régional, mentionne la localisation précise (ex: "Risque de fortes chaleurs principalement dans le sud de la région" ou "Impact non identifié dans les sources pour cette région").
 
 FORMAT DE SORTIE JSON OBLIGATOIRE :
 Renvoyez uniquement un objet JSON valide contenant la structure suivante. Pas de texte explicatif avant ou après le JSON.
 
-{{
+{
   "title_line1": "Semaine X - Du Lundi DD au Dimanche DD Mois AAAA",
   "title_line2": "Accroche météo courte résumant le temps de la semaine",
   "key_numbers": "Chiffre 1 | Libellé 1\nChiffre 2 | Libellé 2",
-  "france": {{
-    "alert": {{
+  "france": {
+    "alert": {
       "level": "Vert|Jaune|Orange|Rouge",
       "event_type": "...",
       "start": "...",
       "end": "...",
       "confidence": "..."
-    }},
-    "kpis": {{
+    },
+    "kpis": {
       "temp_range": "38 à 42 °C (ou jusqu'à 42 °C localement)",
       "period": "Du 27 Juillet au 2 Août",
       "duration": "6 jours",
       "confidence": "4/5 (Élevée)",
       "risks": "Canicule, orages",
       "zone": "Axe Sud-Ouest / Nord-Est"
-    }},
+    },
     "takeaways_10s": [
       "Phrase 1 (une ligne max)",
       "Phrase 2 (une ligne max)",
       "Phrase 3 (une ligne max)",
       "Phrase 4 (une ligne max)"
     ],
-    "dashboard": {{
+    "dashboard": {
       "score_heat": "3/5",
       "interp_heat": "Situation exceptionnelle",
       "score_rain": "1/5",
@@ -221,496 +219,58 @@ Renvoyez uniquement un objet JSON valide contenant la structure suivante. Pas de
       "interp_storm": "Risque élevé",
       "score_wind": "2/5",
       "interp_wind": "Risque faible"
-    }},
-    "impacts": {{
+    },
+    "impacts": {
       "population": "...",
       "travel": "...",
       "work": "...",
       "agri": "...",
       "storm": "...",
       "drought": "..."
-    }},
-    "timeline": {{
-      "date_debut": "Lundi 27 Juillet", "desc_debut": "...",
-      "date_montee": "Mardi 28 Juillet", "desc_montee": "...",
-      "date_pic": "Jeudi 30 Juillet", "desc_pic": "...",
-      "date_fin": "Dimanche 2 Août", "desc_fin": "..."
-    }},
-    "regional": {{
+    },
+    "timeline": {
+      "date_debut": "...", "desc_debut": "...",
+      "date_montee": "...", "desc_montee": "...",
+      "date_pic": "...", "desc_pic": "...",
+      "date_fin": "...", "desc_fin": "..."
+    },
+    "regional": {
       "hdf_north": "22 à 26 °C | Faible | Aucun | 4/5",
       "atlantic": "24 à 28 °C | Modéré | Vent | 4/5",
       "central": "28 à 32 °C | Faible | Chaleur | 4/5",
       "south": "35 à 40 °C | Faible | Canicule | 4/5",
       "mediterranean": "32 à 36 °C | Faible | Vent | 4/5",
       "mountains": "20 à 25 °C | Modéré | Orages | 3/5"
-    }},
-    "scenarios": {{
-      "majoritaire": {{"prob": "65%", "title": "...", "desc": "..."}},
-      "median": {{"prob": "25%", "title": "...", "desc": "..."}},
-      "minoritaire": {{"prob": "10%", "title": "...", "desc": "..."}}
-    }},
+    },
+    "scenarios": {
+      "majoritaire": {"prob": "65%", "title": "...", "desc": "..."},
+      "median": {"prob": "25%", "title": "...", "desc": "..."},
+      "minoritaire": {"prob": "10%", "title": "...", "desc": "..."}
+    },
     "key_uncertainties": "- Incertitude 1\n- Incertitude 2",
     "monitoring_points": "- Point 1\n- Point 2",
     "key_takeaways": "- Takeaway 1\n- Takeaway 2",
-    "social_pack": {{
+    "social_pack": {
       "linkedin": "...",
       "facebook": "...",
       "twitter": "...",
       "tiktok": "...",
       "instagram": "..."
-    }}
-  }},
-  "regions": {{
-    "auvergne_rhone_alpes": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "3/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "2/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "bourgogne_franche_comte": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "bretagne": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "centre_val_de_loire": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "corse": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "grand_est": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "hauts_de_france": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "ile_de_france": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "normandie": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "nouvelle_aquitaine": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "occitanie": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "pays_de_la_loire": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }},
-    "provence_alpes_cote_azur": {{
-      "alert_level": "Vert|Jaune|Orange|Rouge",
-      "event_type": "...",
-      "kpis": {{
-        "temp_range": "...",
-        "period": "...",
-        "duration": "...",
-        "confidence": "...",
-        "risks": "...",
-        "zone": "..."
-      }},
-      "takeaways_10s": ["...", "..."],
-      "dashboard": {{
-        "score_heat": "1/5", "interp_heat": "...",
-        "score_rain": "1/5", "interp_rain": "...",
-        "score_storm": "1/5", "interp_storm": "...",
-        "score_wind": "1/5", "interp_wind": "..."
-      }},
-      "impacts": {{
-        "population": "...",
-        "travel": "...",
-        "work": "...",
-        "agri": "...",
-        "storm": "...",
-        "drought": "..."
-      }},
-      "timeline": {{
-        "date_debut": "...", "desc_debut": "...",
-        "date_montee": "...", "desc_montee": "...",
-        "date_pic": "...", "desc_pic": "...",
-        "date_fin": "...", "desc_fin": "..."
-      }}
-    }}
-  }}
-}}
+    }
+  }
+}
+"""
 
-Rédige pour TOUTES les 13 régions sans en omettre aucune dans la clé 'regions'. Si aucune information n'existe, remplis avec la valeur 'Information non précisée dans les sources' pour les champs textes et 'Vert' pour alert_level. Sans aucun blabla d'introduction ou de conclusion."""
+    user_prompt_national = f"Contexte de date : {date_context_str}\n\nVoici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}\n\n{recent_messages_text}\n\nAnalyse ces discussions et génère le rapport national au format JSON spécifié."
 
-    user_prompt = f"""Contexte de date : {date_context_str}
-
-Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}
-
-{recent_messages_text}
-
-Analyse ces discussions en appliquant scrupuleusement la vérification de cohérence et génère le rapport au format JSON spécifié."""
-
-    data = None
-    curr_user_prompt = user_prompt
+    data_national = None
+    curr_user_prompt = user_prompt_national
     for attempt in range(1, 4):
-        response = call_llm(system_prompt, curr_user_prompt)
+        response = call_llm(system_prompt_national, curr_user_prompt)
         if not response:
             continue
         try:
-            print(f"[{topic_idx+1}] Extraction du JSON (Tentative {attempt}/3)...")
+            print(f"[{topic_idx+1}] Extraction du JSON National (Tentative {attempt}/3)...")
             match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
             if match:
                 json_str = match.group(1)
@@ -722,17 +282,108 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
                 else:
                     json_str = response
             
-            data = json.loads(json_str)
-            print(f"[{topic_idx+1}] Parsing JSON réussi avec succès !")
+            data_national = json.loads(json_str)
+            print(f"[{topic_idx+1}] Parsing JSON National réussi avec succès !")
             break
         except Exception as e:
-            print(f"Erreur parsing JSON (Tentative {attempt}/3) : {e}")
-            if attempt == 3:
-                print(f"Réponse brute de l'IA lors de l'échec final : {response[:1000]}...")
-            else:
-                curr_user_prompt = user_prompt + f"\n\n[ERREUR CONSTATÉE] Lors de la tentative précédente, le format JSON généré était invalide : {e}. Veille absolument à générer un JSON valide avec toutes les virgules fermées et sans aucun guillemet non échappé."
-            
-    return {"data": data, "images": downloaded_images}
+            print(f"Erreur parsing JSON National (Tentative {attempt}/3) : {e}")
+            curr_user_prompt = user_prompt_national + f"\n\n[ERREUR CONSTATÉE] Lors de la tentative précédente, le format JSON généré était invalide : {e}. Veille absolument à générer un JSON valide."
+
+    if not data_national:
+        return {"data": None, "images": downloaded_images}
+
+    # --- APPELS RÉGIONAUX PARALLÈLES ---
+    system_prompt_regional = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
+
+MISSION
+À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un objet JSON structuré représentant le bulletin d'analyse météorologique pour la région spécifique suivante : {region_name}
+
+RÈGLES D'OR ABSOLUES :
+1. NE RIEN INVENTER. Concentre-toi UNIQUEMENT sur la région {region_name} (et ses départements, villes ou reliefs limitrophes). Si aucune information (température, risque, date, impact, etc.) n'est explicitement mentionnée dans les discussions pour cette région spécifique, écris obligatoirement "Information non précisée dans les sources". Ne déduis jamais une tendance à partir d'une autre région.
+2. DATES EXACTES : Associe toujours les jours aux dates exactes (ex: Lundi 27 Juillet).
+3. EXCLUSION DES JOURS PASSÉS : Conforme-toi à la "Date actuelle de génération" transmise dans l'invite.
+
+FORMAT DE SORTIE JSON OBLIGATOIRE :
+Renvoyez uniquement un objet JSON valide contenant la structure suivante. Pas de texte explicatif avant ou après le JSON.
+
+{
+  "alert_level": "Vert|Jaune|Orange|Rouge",
+  "event_type": "...",
+  "kpis": {
+    "temp_range": "24 à 28 °C (ou jusqu'à 30 °C localement)",
+    "period": "Du 27 Juillet au 2 Août",
+    "duration": "...",
+    "confidence": "...",
+    "risks": "...",
+    "zone": "..."
+  },
+  "takeaways_10s": [
+    "Phrase 1 (une ligne max)",
+    "Phrase 2 (une ligne max)"
+  ],
+  "dashboard": {
+    "score_heat": "3/5", "interp_heat": "...",
+    "score_rain": "1/5", "interp_rain": "...",
+    "score_storm": "2/5", "interp_storm": "...",
+    "score_wind": "1/5", "interp_wind": "..."
+  },
+  "impacts": {
+    "population": "...",
+    "travel": "...",
+    "work": "...",
+    "agri": "...",
+    "storm": "...",
+    "drought": "..."
+  },
+  "timeline": {
+    "date_debut": "...", "desc_debut": "...",
+    "date_montee": "...", "desc_montee": "...",
+    "date_pic": "...", "desc_pic": "...",
+    "date_fin": "...", "desc_fin": "..."
+  }
+}
+"""
+
+    def process_one_region(r_key, r_name):
+        print(f"[{topic_idx+1}] Lancement analyse régionale : {r_name}...")
+        sys_prompt = system_prompt_regional.replace("{region_name}", r_name)
+        user_prompt = f"Contexte de date : {date_context_str}\nRégion ciblée : {r_name}\n\nVoici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}\n\n{recent_messages_text}\n\nAnalyse ces discussions pour la région {r_name} et génère le rapport au format JSON spécifié."
+
+        data = None
+        curr_user_prompt = user_prompt
+        for attempt in range(1, 4):
+            response = call_llm(sys_prompt, curr_user_prompt)
+            if not response:
+                continue
+            try:
+                match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
+                if match:
+                    json_str = match.group(1)
+                else:
+                    start_idx = response.find('{')
+                    end_idx = response.rfind('}')
+                    if start_idx != -1 and end_idx != -1:
+                        json_str = response[start_idx:end_idx+1]
+                    else:
+                        json_str = response
+                
+                data = json.loads(json_str)
+                print(f"[{topic_idx+1}] JSON Régional {r_name} réussi !")
+                break
+            except Exception as e:
+                print(f"Erreur JSON régional {r_name} (tentative {attempt}/3) : {e}")
+                curr_user_prompt = user_prompt + f"\n\n[ERREUR CONSTATÉE] JSON invalide : {e}. Génère un JSON strictement valide."
+        return r_key, data
+
+    regions_data = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=13) as executor:
+        futures = {executor.submit(process_one_region, k, v): (k, v) for k, v in REGIONS_MAP.items()}
+        for future in concurrent.futures.as_completed(futures):
+            k, r_data = future.result()
+            regions_data[k] = r_data
+
+    data_national["regions"] = regions_data
+    return {"data": data_national, "images": downloaded_images}
 def main():
     def parse_region_line(region_str):
         if not region_str:
@@ -1072,21 +723,7 @@ def main():
     .copy-btn:hover { background: rgba(255, 255, 255, 0.35); }
     """
 
-    REGIONS_MAP = {
-        "auvergne_rhone_alpes": "Auvergne-Rhône-Alpes",
-        "bourgogne_franche_comte": "Bourgogne-Franche-Comté",
-        "bretagne": "Bretagne",
-        "centre_val_de_loire": "Centre-Val de Loire",
-        "corse": "Corse",
-        "grand_est": "Grand Est",
-        "hauts_de_france": "Hauts-de-France",
-        "ile_de_france": "Île-de-France",
-        "normandie": "Normandie",
-        "nouvelle_aquitaine": "Nouvelle-Aquitaine",
-        "occitanie": "Occitanie",
-        "pays_de_la_loire": "Pays de la Loire",
-        "provence_alpes_cote_azur": "Provence-Alpes-Côte d'Azur"
-    }
+
 
     date_suffix = datetime.datetime.now().strftime('%Y_%m_%d')
 
