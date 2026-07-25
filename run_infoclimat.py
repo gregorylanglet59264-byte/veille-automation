@@ -46,7 +46,118 @@ REGIONS_CONFIG = {
     "provence_alpes_cote_azur": ("Provence-Alpes-Côte d'Azur", "PACA.html"),
 }
 
+# Ancres géographiques précises par région : départements + villes + orientation cardinale interne
+# Utilisé dans le prompt LLM pour éviter qu'un "nord-ouest" générique soit mal attribué
+REGIONS_GEO = {
+    "auvergne_rhone_alpes": (
+        "Départements : Ain (01), Allier (03), Ardèche (07), Cantal (15), Drôme (26), Isère (38), "
+        "Loire (42), Haute-Loire (43), Puy-de-Dôme (63), Rhône (69), Savoie (73), Haute-Savoie (74). "
+        "Villes : Lyon, Grenoble, Saint-Étienne, Clermont-Ferrand, Annecy, Chambéry, Valence, Bourg-en-Bresse. "
+        "Repères : Nord = Ain/Bourg-en-Bresse | Nord-Ouest = Allier/Moulins | Ouest = Loire/Saint-Étienne | "
+        "Centre = Rhône/Lyon, Puy-de-Dôme/Clermont | Est = Isère/Grenoble, Savoie/Chambéry | "
+        "Sud-Est = Haute-Savoie/Annecy, Alpes | Sud = Ardèche, Drôme/Valence | Sud-Ouest = Cantal, Haute-Loire."
+    ),
+    "bourgogne_franche_comte": (
+        "Départements : Côte-d'Or (21), Doubs (25), Jura (39), Nièvre (58), Haute-Saône (70), "
+        "Saône-et-Loire (71), Yonne (89), Territoire de Belfort (90). "
+        "Villes : Dijon, Besançon, Chalon-sur-Saône, Mâcon, Belfort, Auxerre, Nevers, Lons-le-Saunier. "
+        "Repères : Nord-Ouest = Yonne/Auxerre, Nièvre/Nevers | Nord = Côte-d'Or/Dijon | "
+        "Nord-Est = Haute-Saône, Belfort | Est = Doubs/Besançon, Jura/Lons | "
+        "Sud = Saône-et-Loire/Chalon, Mâcon."
+    ),
+    "bretagne": (
+        "Départements : Côtes-d'Armor (22), Finistère (29), Ille-et-Vilaine (35), Morbihan (56). "
+        "Villes : Rennes, Brest, Quimper, Lorient, Vannes, Saint-Brieuc, Saint-Malo, Morlaix, Concarneau. "
+        "Repères : Nord = Côtes-d'Armor/Saint-Brieuc, Ille-et-Vilaine nord/Saint-Malo | "
+        "Nord-Ouest = Finistère nord/Brest, Morlaix | Ouest = Pointe du Finistère/Quimper | "
+        "Sud-Ouest = Morbihan ouest/Lorient | Sud = Morbihan/Vannes | Est = Ille-et-Vilaine/Rennes."
+    ),
+    "centre_val_de_loire": (
+        "Départements : Cher (18), Eure-et-Loir (28), Indre (36), Indre-et-Loire (37), "
+        "Loir-et-Cher (41), Loiret (45). "
+        "Villes : Orléans, Tours, Bourges, Chartres, Blois, Châteauroux, Vierzon. "
+        "Repères : Nord = Eure-et-Loir/Chartres, Loiret nord | Centre = Loir-et-Cher/Blois, Loiret/Orléans | "
+        "Ouest = Indre-et-Loire/Tours | Sud-Ouest = Indre/Châteauroux | Sud-Est = Cher/Bourges."
+    ),
+    "corse": (
+        "Départements : Haute-Corse (2B), Corse-du-Sud (2A). "
+        "Villes : Ajaccio, Bastia, Porto-Vecchio, Corte, Bonifacio, Calvi, L'Île-Rousse. "
+        "Repères : Nord = Cap Corse, Bastia, Haute-Corse/Calvi | Centre = Corte, massif central corse | "
+        "Sud = Corse-du-Sud/Ajaccio, Porto-Vecchio | Sud-Est = Bonifacio, Alta Rocca | "
+        "Côte Ouest (mer Tyrrhénienne) = Ajaccio, Porto | Côte Est = Bastia, Ghisonaccia."
+    ),
+    "grand_est": (
+        "Départements : Ardennes (08), Aube (10), Marne (51), Haute-Marne (52), Meurthe-et-Moselle (54), "
+        "Meuse (55), Moselle (57), Bas-Rhin (67), Haut-Rhin (68), Vosges (88). "
+        "Villes : Strasbourg, Reims, Metz, Nancy, Mulhouse, Colmar, Troyes, Charleville-Mézières, Épinal, Bar-le-Duc. "
+        "Repères : Nord-Ouest = Ardennes/Charleville-Mézières | Nord = Moselle/Metz, Meurthe-et-Moselle/Nancy | "
+        "Ouest = Marne/Reims, Aube/Troyes, Haute-Marne | Centre = Meuse/Bar-le-Duc, Vosges/Épinal | "
+        "Est = Bas-Rhin/Strasbourg, Haut-Rhin/Mulhouse, Colmar (façade rhénane)."
+    ),
+    "hauts_de_france": (
+        "Départements : Nord (59), Pas-de-Calais (62), Somme (80), Aisne (02), Oise (60). "
+        "Villes : Lille, Amiens, Valenciennes, Dunkerque, Calais, Boulogne-sur-Mer, Arras, "
+        "Beauvais, Laon, Compiègne, Maubeuge, Roubaix, Tourcoing. "
+        "Repères : Nord = Nord (59)/Lille, Dunkerque, littoral flamand | Nord-Ouest = Pas-de-Calais/Calais, "
+        "Boulogne, Côte d'Opale | Ouest = Somme/Amiens, baie de Somme | Sud = Oise/Beauvais, Compiègne | "
+        "Sud-Est = Aisne/Laon, Saint-Quentin | Est = Valenciennes, Maubeuge, frontière belge."
+    ),
+    "ile_de_france": (
+        "Départements : Paris (75), Seine-et-Marne (77), Yvelines (78), Essonne (91), "
+        "Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94), Val-d'Oise (95). "
+        "Villes : Paris, Versailles, Boulogne-Billancourt, Créteil, Pontoise, Meaux, Évry, Melun, Bobigny. "
+        "Repères : Nord = Val-d'Oise/Pontoise, Roissy | Nord-Est = Seine-Saint-Denis/Bobigny | "
+        "Est = Seine-et-Marne/Meaux, Melun | Sud-Est = Val-de-Marne/Créteil | "
+        "Sud = Essonne/Évry | Sud-Ouest = Yvelines/Versailles | Ouest = Hauts-de-Seine/Boulogne | "
+        "Centre = Paris."
+    ),
+    "normandie": (
+        "Départements : Calvados (14), Eure (27), Manche (50), Orne (61), Seine-Maritime (76). "
+        "Villes : Rouen, Caen, Le Havre, Cherbourg, Évreux, Alençon, Dieppe, Fécamp, Lisieux, Granville. "
+        "Repères : Nord-Ouest = Manche/Cherbourg, Cotentin | Nord = Seine-Maritime/Dieppe, Fécamp, côte d'Albâtre | "
+        "Nord-Est = Seine-Maritime/Le Havre, Rouen | Est = Eure/Évreux | "
+        "Centre = Calvados/Caen, Orne/Alençon | Sud = Orne intérieur."
+    ),
+    "nouvelle_aquitaine": (
+        "Départements : Charente (16), Charente-Maritime (17), Corrèze (19), Creuse (23), Dordogne (24), "
+        "Gironde (33), Landes (40), Lot-et-Garonne (47), Pyrénées-Atlantiques (64), Deux-Sèvres (79), "
+        "Vienne (86), Haute-Vienne (87). "
+        "Villes : Bordeaux, Limoges, Poitiers, Bayonne, Pau, La Rochelle, Angoulême, Brive-la-Gaillarde, Périgueux, Agen. "
+        "Repères : Nord = Deux-Sèvres/Poitiers, Vienne/Poitiers | Nord-Ouest = Charente-Maritime/La Rochelle | "
+        "Ouest = Gironde/Bordeaux, Landes/côte Atlantique | Sud-Ouest = Pyrénées-Atlantiques/Bayonne, Pau | "
+        "Sud = piémont pyrénéen | Est = Haute-Vienne/Limoges, Creuse, Corrèze/Brive | "
+        "Centre = Dordogne/Périgueux, Lot-et-Garonne/Agen."
+    ),
+    "occitanie": (
+        "Départements : Ariège (09), Aude (11), Aveyron (12), Gard (30), Haute-Garonne (31), Gers (32), "
+        "Hérault (34), Lot (46), Lozère (48), Hautes-Pyrénées (65), Pyrénées-Orientales (66), Tarn (81), "
+        "Tarn-et-Garonne (82). "
+        "Villes : Toulouse, Montpellier, Nîmes, Perpignan, Narbonne, Carcassonne, Albi, Tarbes, Cahors, Rodez, Mende. "
+        "Repères : Nord = Lot/Cahors, Aveyron/Rodez, Lozère/Mende | Nord-Est = Gard/Nîmes | "
+        "Est = Hérault/Montpellier, Gard, littoral méditerranéen | Sud-Est = Pyrénées-Orientales/Perpignan | "
+        "Sud = piémont pyrénéen (Hautes-Pyrénées/Tarbes, Ariège) | Ouest = Gers, Tarn-et-Garonne/Montauban | "
+        "Centre = Haute-Garonne/Toulouse, Tarn/Albi, Aude/Carcassonne."
+    ),
+    "pays_de_la_loire": (
+        "Départements : Loire-Atlantique (44), Maine-et-Loire (49), Mayenne (53), Sarthe (72), Vendée (85). "
+        "Villes : Nantes, Angers, Le Mans, Saint-Nazaire, La Roche-sur-Yon, Laval, Cholet, Les Sables-d'Olonne. "
+        "Repères : Nord = Mayenne/Laval, Sarthe/Le Mans | Nord-Ouest = Loire-Atlantique nord/Saint-Nazaire | "
+        "Ouest = Loire-Atlantique/Nantes, côte atlantique | Sud-Ouest = Vendée/Les Sables, La Roche-sur-Yon | "
+        "Sud = Vendée intérieure, Maine-et-Loire sud/Cholet | Centre-Est = Maine-et-Loire/Angers."
+    ),
+    "provence_alpes_cote_azur": (
+        "Départements : Alpes-de-Haute-Provence (04), Hautes-Alpes (05), Alpes-Maritimes (06), "
+        "Bouches-du-Rhône (13), Var (83), Vaucluse (84). "
+        "Villes : Marseille, Nice, Toulon, Aix-en-Provence, Avignon, Gap, Cannes, Antibes, "
+        "Arles, Digne-les-Bains, Fréjus, Draguignan. "
+        "Repères : Nord = Hautes-Alpes/Gap, Alpes-de-Haute-Provence/Digne | Nord-Ouest = Vaucluse/Avignon | "
+        "Ouest = Bouches-du-Rhône/Marseille, Arles, Camargue | Centre = Var/Toulon, Fréjus | "
+        "Est = Alpes-Maritimes/Nice, Cannes, Menton | Sud = littoral méditerranéen."
+    ),
+}
+
 REGIONS_MAP = {k: v[0] for k, v in REGIONS_CONFIG.items()}
+
 
 def fetch_url(url, timeout=8):
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
@@ -451,6 +562,7 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
 
 def process_region_query(r_key, r_name, recent_messages_text, topic_title_clean, date_context_str, topic_idx):
     """Même prompt que le national, 2 semaines couverts, même richesse — focalisé sur r_name."""
+    geo_anchors = REGIONS_GEO.get(r_key, "Non spécifié")
     system_prompt = f"""Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
@@ -460,7 +572,12 @@ Le bulletin doit couvrir les DEUX semaines fournies en contexte : la semaine en 
 RÈGLE D'OR N°0 : RÉALITÉ SAISONNIÈRE & FOCUS GÉOGRAPHIQUE
 - La date et la saison sont précisées dans le contexte. Respecte-les ABSOLUMENT.
 - En été (juin/juillet/août), les mentions de neige en plaine, de gel, de températures négatives sont INTERDITES sauf en haute altitude (>1500m) si les sources le mentionnent EXPLICITEMENT.
-- Toutes les analyses, températures, risques et impacts doivent concerner EXCLUSIVEMENT {r_name} (ses départements, villes, reliefs ou zones côtières). Si une information n'est pas précisée pour cette région, écris "Information non précisée dans les sources pour {r_name}". Ne déduis jamais depuis une autre région.
+- Toutes les analyses, températures, risques et impacts doivent concerner EXCLUSIVEMENT {r_name} (ses départements, villes, reliefs ou zones côtières).
+- Pour t'aider à faire le lien entre les termes généraux des prévisionnistes (comme 'nord-ouest de la France', 'sud-ouest', 'flanc est', etc.) et ta région spécifique, voici tes points d'ancrage géographiques officiels :
+  === ANCRAGE GÉOGRAPHIQUE DE LA RÉGION {r_name.upper()} ===
+  {geo_anchors}
+  ======================================================
+- Utilise ces repères pour savoir si les mentions du forum s'appliquent à ta région ou non. Si les messages parlent d'un phénomène touchant une zone qui correspond à un de tes repères, décris-le pour ta région. Sinon, si l'information n'est vraiment pas applicable ou non précisée pour ta région, écris "Information non précisée dans les sources pour {r_name}". Ne déduis jamais depuis une autre région sans rapport.
 
 RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
 Dans TOUTES les sections, tu dois mentionner les jours précis avec leurs dates exactes (ex: Lundi 27 Juillet, Mardi 28 Juillet).
@@ -831,122 +948,150 @@ def main():
         
     # Style CSS Premium & Responsive (Stripe-inspired)
     style = """
-    body { margin: 0; background: #eef3f8; font-family: Arial, Helvetica, sans-serif; color: #172033; font-size: 16px; line-height: 1.6; }
-    .wrap { max-width: 920px; margin: 22px auto; background: #fff; border: 1px solid #dce4ee; border-radius: 22px; overflow: hidden; box-shadow: 0 16px 42px rgba(28,48,75,.10); }
-    .pad { padding: 30px; }
-    .header { padding: 34px 30px; background: #102a43; color: #fff; }
-    .kicker { font-size: 13px; letter-spacing: 2px; text-transform: uppercase; font-weight: 800; color: #7dd3fc; }
-    .hero-title { font-size: 33px; line-height: 1.15; margin: 8px 0; font-weight: 850; letter-spacing: .2px; }
-    .sub { font-size: 15px; line-height: 1.55; color: #d7e5f2; }
-    .section { margin-top: 34px; }
-    .section-title { font-size: 16px; letter-spacing: .7px; text-transform: uppercase; color: #102a43; font-weight: 850; border-bottom: 2px solid #e8eef5; padding-bottom: 9px; margin-bottom: 15px; }
-    .week { border: 1px solid #d8e3ef; border-radius: 18px; overflow: hidden; margin-top: 22px; }
-    .week-head { padding: 22px 22px 18px; background: #f4f8fc; border-bottom: 1px solid #d8e3ef; }
-    .week-head h2 { font-size: 24px; line-height: 1.25; margin: 0 0 7px; color: #14395b; }
-    .week-head p { margin: 0; font-size: 15px; line-height: 1.55; color: #40556b; }
-    .alert { padding: 20px; border-radius: 15px; background: #102a43; color: #fff; margin-top: 18px; }
-    .alert.orange { background: #7c3f00; }
-    .alert.blue { background: #153e75; }
-    .alert.green { background: #065f46; }
-    .alert .eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; color: #bae6fd; font-weight: 800; }
-    .alert h3 { font-size: 21px; line-height: 1.35; margin: 7px 0 8px; }
-    .alert p { font-size: 14px; line-height: 1.55; margin: 0; color: #eaf4fb; }
-    .grid2, .grid3, .grid4 { display: table; width: 100%; table-layout: fixed; border-spacing: 10px; }
-    .cell { display: table-cell; vertical-align: top; }
-    .metric { border: 1px solid #dce6f0; background: #fff; border-radius: 14px; padding: 14px; text-align: center; height: 82px; }
-    .metric .big { font-size: 30px; font-weight: 900; color: #14395b; line-height: 1; }
-    .metric .label { margin-top: 7px; font-size: 12px; line-height: 1.45; text-transform: uppercase; letter-spacing: .7px; color: #60758a; font-weight: 800; }
-    .metric.hot .big { color: #b45309; }
-    .metric.risk .big { color: #b91c1c; }
-    .metric.good .big { color: #047857; }
-    .chips { margin: 12px 0 -4px; }
-    .chip { display: inline-block; padding: 6px 9px; margin: 0 5px 6px 0; border-radius: 999px; background: #e9f2f9; color: #173b5d; font-size: 12px; font-weight: 750; }
-    .chip.warn { background: #fff2dc; color: #914b00; }
-    .chip.red { background: #fee8e8; color: #991b1b; }
-    .chip.green { background: #e7f8ef; color: #087443; }
-    .timeline-table { width: 100%; border-collapse: separate; border-spacing: 8px; }
-    .timeline-table td { width: 25%; vertical-align: top; background: #f7fafc; border: 1px solid #dce6f0; border-top: 4px solid #1d78a8; border-radius: 12px; padding: 13px; }
-    .timeline-table strong { font-size: 12px; text-transform: uppercase; color: #14658d; letter-spacing: .5px; }
-    .timeline-table .dates { font-size: 14px; font-weight: 850; color: #172033; margin: 5px 0; }
-    .timeline-table .keys { font-size: 13px; line-height: 1.55; color: #304a62; }
-    .barbox { border: 1px solid #dce6f0; border-radius: 14px; padding: 16px; background: #fff; }
-    .barrow { margin: 11px 0; }
-    .barlabel { display: table; width: 100%; font-size: 12px; font-weight: 750; color: #3f556a; margin-bottom: 5px; }
-    .barlabel span { display: table-cell; }
-    .barlabel .right { text-align: right; }
-    .track { height: 12px; background: #e9eff5; border-radius: 999px; overflow: hidden; }
-    .fill { height: 12px; border-radius: 999px; background: #247ba0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f1f5f9; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #0f172a; font-size: 16px; line-height: 1.6; }
+    .wrap { max-width: 920px; margin: 24px auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05); }
+    .pad { padding: 32px; }
+    .header { padding: 40px 32px; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff; border-bottom: 1px solid #334155; }
+    .kicker { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; font-weight: 800; color: #38bdf8; margin-bottom: 4px; }
+    .hero-title { font-size: 32px; line-height: 1.15; margin: 8px 0; font-weight: 800; letter-spacing: -0.5px; }
+    .sub { font-size: 15px; line-height: 1.5; color: #94a3b8; }
+    .section { margin-top: 36px; }
+    .section-title { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; color: #1e293b; font-weight: 800; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+    .week { border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; margin-top: 24px; background: #ffffff; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05); }
+    .week-head { padding: 24px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
+    .week-head h2 { font-size: 22px; line-height: 1.25; margin: 0 0 6px; color: #0f172a; font-weight: 800; }
+    .week-head p { margin: 0; font-size: 15px; line-height: 1.5; color: #475569; }
+    
+    .alert { padding: 20px; border-radius: 16px; margin-top: 20px; border: 1px solid transparent; }
+    .alert .eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 800; margin-bottom: 6px; }
+    .alert h3 { font-size: 18px; line-height: 1.4; margin: 6px 0 8px; font-weight: 700; }
+    .alert p { font-size: 14.5px; line-height: 1.5; margin: 0; }
+    
+    .alert.orange { background: #fffbeb; color: #78350f; border-color: #fef3c7; }
+    .alert.orange .eyebrow { color: #d97706; }
+    .alert.orange h3 { color: #78350f; }
+    .alert.orange p { color: #92400e; }
+    
+    .alert.blue { background: #eff6ff; color: #1e3a8a; border-color: #dbeafe; }
+    .alert.blue .eyebrow { color: #2563eb; }
+    .alert.blue h3 { color: #1e3a8a; }
+    .alert.blue p { color: #1e40af; }
+    
+    .alert.green { background: #f0fdf4; color: #14532d; border-color: #dcfce7; }
+    .alert.green .eyebrow { color: #16a34a; }
+    .alert.green h3 { color: #14532d; }
+    .alert.green p { color: #166534; }
+    
+    .grid2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 16px 0; }
+    .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 16px 0; }
+    .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 16px 0; }
+    
+    .metric { border: 1px solid #e2e8f0; background: #ffffff; border-radius: 16px; padding: 16px; text-align: center; display: flex; flex-direction: column; justify-content: center; min-height: 90px; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02); transition: transform 0.2s, box-shadow 0.2s; }
+    .metric:hover { transform: translateY(-2px); box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); }
+    .metric .big { font-size: 26px; font-weight: 800; color: #0f172a; line-height: 1.1; }
+    .metric .label { margin-top: 6px; font-size: 11px; line-height: 1.4; text-transform: uppercase; letter-spacing: 0.5px; color: #64748b; font-weight: 700; }
+    .metric.hot .big { color: #ea580c; }
+    .metric.risk .big { color: #dc2626; }
+    .metric.good .big { color: #16a34a; }
+    
+    .chips { margin: 12px 0 -4px; display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip { display: inline-block; padding: 5px 12px; border-radius: 9999px; background: #f1f5f9; color: #334155; font-size: 12px; font-weight: 600; border: 1px solid #e2e8f0; }
+    .chip.warn { background: #fef3c7; color: #92400e; border-color: #fde68a; }
+    .chip.red { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
+    .chip.green { background: #dcfce7; color: #15803d; border-color: #bbf7d0; }
+    
+    .timeline-table { width: 100%; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; border-collapse: separate; margin: 16px 0; }
+    .timeline-table tbody, .timeline-table tr { display: contents; }
+    .timeline-table td { display: block; background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #0284c7; border-radius: 16px; padding: 16px; transition: border-color 0.2s; }
+    .timeline-table td:hover { border-color: #cbd5e1; }
+    .timeline-table strong { font-size: 11px; text-transform: uppercase; color: #0284c7; letter-spacing: 0.5px; display: block; margin-bottom: 6px; font-weight: 800; }
+    .timeline-table .dates { font-size: 14px; font-weight: 700; color: #0f172a; margin: 4px 0 8px; }
+    .timeline-table .keys { font-size: 13.5px; line-height: 1.5; color: #334155; }
+    
+    .barbox { border: 1px solid #e2e8f0; border-radius: 16px; padding: 20px; background: #ffffff; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02); }
+    .barrow { margin: 12px 0; }
+    .barlabel { display: flex; justify-content: space-between; font-size: 12px; font-weight: 700; color: #475569; margin-bottom: 6px; }
+    .barlabel span { display: inline-block; }
+    .barlabel .right { text-align: right; font-weight: 800; color: #0f172a; }
+    .track { height: 10px; background: #f1f5f9; border-radius: 999px; overflow: hidden; }
+    .fill { height: 10px; border-radius: 999px; background: #0284c7; }
     .fill.orange { background: #d97706; }
-    .fill.red { background: #c2413a; }
-    .fill.green { background: #15936b; }
-    .fill.gray { background: #718096; }
-    .caption { font-size: 11px; color: #718096; line-height: 1.45; margin-top: 10px; }
-    .region { border: 1px solid #dce6f0; border-radius: 14px; padding: 15px; background: #fff; }
-    .region h4 { margin: 0 0 8px; font-size: 14px; color: #14395b; }
-    .region .numbers { font-size: 20px; color: #b45309; font-weight: 900; margin-bottom: 7px; }
-    .region p { margin: 0; font-size: 13.5px; line-height: 1.58; color: #40586e; }
-    .conf { display: table; width: 100%; border: 1px solid #dce6f0; border-radius: 14px; overflow: hidden; }
-    .conf > div { display: table-cell; padding: 16px; vertical-align: middle; }
-    .conf-score { width: 110px; text-align: center; background: #e8f7ef; }
-    .conf-score.conf-badge-orange { background: #fff3dd; }
-    .conf-score.conf-badge-red { background: #fee8e8; }
-    .conf-score .big { font-size: 34px; font-weight: 900; color: #087443; }
-    .conf-score .big.conf-text-orange { color: #a95c00; }
-    .conf-score .big.conf-text-red { color: #991b1b; }
-    .conf-text { font-size: 13.5px; line-height: 1.55; color: #40586e; }
-    .listbox { border-left: 5px solid #d97706; background: #fff8ec; border-radius: 12px; padding: 15px 17px; }
-    .listbox ul { margin: 0; padding-left: 18px; }
-    .listbox li { font-size: 13.5px; line-height: 1.55; color: #55452d; margin: 4px 0; }
-    .scenario { border: 1px solid #dce6f0; border-radius: 14px; padding: 16px; margin: 10px 0; background: #fff; }
-    .scenario.major { border-left: 6px solid #15936b; }
-    .scenario.medium { border-left: 6px solid #d97706; }
-    .scenario.minor { border-left: 6px solid #c2413a; }
-    .scenario-head { display: table; width: 100%; }
-    .scenario-head h4 { display: table-cell; margin: 0; font-size: 14px; color: #173b5d; }
-    .pct { display: table-cell; width: 60px; text-align: right; font-size: 18px; font-weight: 900; }
-    .scenario p { font-size: 13.5px; line-height: 1.5; color: #40586e; margin: 9px 0 0; }
-    .takeaway { background: #edf9f3; border: 1px solid #c3ead4; border-left: 6px solid #15936b; border-radius: 14px; padding: 17px; }
-    .takeaway b { font-size: 15px; color: #166534; display: block; margin-bottom: 8px; }
-    .takeaway li { font-size: 13.5px; line-height: 1.55; color: #215b43; margin: 5px 0; }
-    .detail { margin-top: 12px; border: 1px solid #dce6f0; border-radius: 13px; background: #fbfdff; padding: 14px; }
-    .detail-title { font-size: 12px; text-transform: uppercase; letter-spacing: .8px; font-weight: 850; color: #60758a; margin-bottom: 7px; }
-    .detail p { font-size: 13.5px; line-height: 1.57; color: #435970; margin: 0; }
-    .social { border: 1px solid #cfdce8; border-radius: 16px; overflow: hidden; background: #fff; margin-bottom: 18px; }
-    .social-head { background: #0a66c2; color: #fff; padding: 14px 17px; font-size: 14px; font-weight: 850; }
-    .social-body { padding: 19px; font-size: 14.5px; line-height: 1.64; color: #24384b; white-space: pre-wrap; font-family: Arial, sans-serif; }
-    .social-body strong { font-weight: 850; }
-    .copy-note { font-size: 11.5px; color: #718096; background: #f5f8fb; padding: 9px 17px; border-top: 1px solid #e1e9f1; }
-    .copy-btn-modern { background: #102a43; border: none; color: #ffffff; font-size: 11px; font-weight: bold; padding: 5px 12px; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.2s; }
-    .copy-btn-modern:hover { background: #1d4ed8; }
-    .footer { padding: 20px 30px; background: #f2f6fa; color: #65798d; font-size: 11.5px; line-height: 1.5; text-align: center; }
-    .source-note { font-size: 11.5px; color: #718096; line-height: 1.45; margin-top: 15px; }
-
-    @media only screen and (max-width:700px) {
-      body { padding: 0!important; background: #eef3f8!important; }
-      .wrap { width: 100%!important; max-width: 100%!important; margin: 0!important; border-radius: 0!important; border-left: 0!important; border-right: 0!important; box-shadow: none!important; }
-      .header { padding: 24px 16px!important; text-align: left!important; }
-      .hero-title { font-size: 29px!important; line-height: 1.18!important; }
-      .sub { font-size: 14px!important; }
-      .pad { padding: 18px 12px!important; }
-      .week { margin-top: 16px!important; border-radius: 14px!important; }
-      .week-head { padding: 17px 14px 15px!important; }
-      .week-head h2 { font-size: 21px!important; line-height: 1.25!important; }
-      .week-head p { font-size: 14px!important; }
-      .section { margin-top: 25px!important; }
-      .section-title { font-size: 15px!important; }
-      .grid2, .grid3, .grid4 { display: block!important; width: 100%!important; border-spacing: 0!important; }
-      .cell { display: block!important; width: 100%!important; margin: 0 0 10px 0!important; }
-      .metric { height: auto!important; min-height: 74px!important; padding: 13px 10px!important; }
-      .metric .label { font-size: 12px!important; }
-      .alert { padding: 17px 14px!important; border-radius: 13px!important; }
-      .alert h3 { font-size: 19px!important; }
-      .alert p { font-size: 14px!important; }
-      .timeline-table, .timeline-table tbody, .timeline-table tr { display: block!important; width: 100%!important; }
-      .timeline-table td { display: block!important; width: auto!important; margin-bottom: 9px!important; padding: 13px!important; }
-      .timeline-table .keys { font-size: 13px!important; }
-      .region p, .detail p, .scenario p, .conf-text, .listbox li, .takeaway li { font-size: 14px!important; }
-      .social-body { font-size: 14px!important; }
-      .caption, .copy-note, .footer, .source-note { font-size: 11px!important; }
+    .fill.red { background: #dc2626; }
+    .fill.green { background: #16a34a; }
+    .fill.gray { background: #64748b; }
+    .caption { font-size: 12px; color: #64748b; line-height: 1.5; margin-top: 12px; }
+    
+    .region { border: 1px solid #e2e8f0; border-radius: 16px; padding: 18px; background: #ffffff; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02); transition: border-color 0.2s; }
+    .region:hover { border-color: #cbd5e1; }
+    .region h4 { margin: 0 0 8px; font-size: 14px; color: #0f172a; font-weight: 800; }
+    .region .numbers { font-size: 20px; color: #d97706; font-weight: 800; margin-bottom: 8px; }
+    .region p { margin: 0; font-size: 14px; line-height: 1.55; color: #475569; }
+    
+    .conf { display: flex; align-items: stretch; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden; background: #ffffff; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02); }
+    .conf-score { width: 110px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px; background: #f0fdf4; border-right: 1px solid #e2e8f0; flex-shrink: 0; text-align: center; }
+    .conf-score.conf-badge-orange { background: #fffbeb; border-right-color: #fef3c7; }
+    .conf-score.conf-badge-red { background: #fef2f2; border-right-color: #fee2e2; }
+    .conf-score .big { font-size: 32px; font-weight: 800; color: #16a34a; line-height: 1; }
+    .conf-score .big.conf-text-orange { color: #d97706; }
+    .conf-score .big.conf-text-red { color: #dc2626; }
+    .conf-text { padding: 16px 20px; font-size: 14px; line-height: 1.55; color: #334155; display: flex; align-items: center; }
+    
+    .listbox { border-left: 4px solid #ea580c; background: #fff7ed; border-radius: 16px; padding: 18px 20px; border: 1px solid #ffedd5; border-left-width: 5px; }
+    .listbox ul { margin: 0; padding-left: 20px; }
+    .listbox li { font-size: 14px; line-height: 1.55; color: #7c2d12; margin: 6px 0; }
+    
+    .scenario { border: 1px solid #e2e8f0; border-radius: 16px; padding: 18px; margin: 12px 0; background: #ffffff; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02); transition: transform 0.15s; }
+    .scenario:hover { transform: scale(1.005); }
+    .scenario.major { border-left: 5px solid #16a34a; }
+    .scenario.medium { border-left: 5px solid #ea580c; }
+    .scenario.minor { border-left: 5px solid #dc2626; }
+    .scenario-head { display: flex; justify-content: space-between; align-items: center; }
+    .scenario-head h4 { margin: 0; font-size: 14px; color: #0f172a; font-weight: 800; }
+    .pct { font-size: 16px; font-weight: 800; color: #0f172a; }
+    .scenario.major .pct { color: #16a34a; }
+    .scenario.medium .pct { color: #ea580c; }
+    .scenario.minor .pct { color: #dc2626; }
+    .scenario p { font-size: 14px; line-height: 1.55; color: #475569; margin: 10px 0 0; }
+    
+    .takeaway { background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 5px solid #16a34a; border-radius: 16px; padding: 20px; }
+    .takeaway b { font-size: 15px; color: #14532d; display: block; margin-bottom: 8px; font-weight: 800; }
+    .takeaway ul { margin: 0; padding-left: 20px; }
+    .takeaway li { font-size: 14.5px; line-height: 1.55; color: #166534; margin: 6px 0; }
+    
+    .detail { margin-top: 14px; border: 1px solid #e2e8f0; border-radius: 16px; background: #f8fafc; padding: 16px; }
+    .detail-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-weight: 800; color: #64748b; margin-bottom: 6px; }
+    .detail p { font-size: 13.5px; line-height: 1.55; color: #475569; margin: 0; }
+    
+    .social { border: 1px solid #e2e8f0; border-radius: 18px; overflow: hidden; background: #ffffff; margin-bottom: 20px; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05); }
+    .social-head { color: #ffffff; padding: 14px 20px; font-size: 14px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
+    .social-body { padding: 20px; font-size: 14.5px; line-height: 1.6; color: #334155; white-space: pre-wrap; font-family: system-ui, sans-serif; }
+    .social-body strong { font-weight: 700; color: #0f172a; }
+    .copy-note { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; background: #f8fafc; padding: 12px 20px; border-top: 1px solid #e2e8f0; }
+    .copy-btn-modern { background: #1e293b; border: none; color: #ffffff; font-size: 11px; font-weight: 700; padding: 6px 16px; border-radius: 8px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.15s, transform 0.1s; }
+    .copy-btn-modern:hover { background: #0f172a; }
+    .copy-btn-modern:active { transform: scale(0.97); }
+    
+    .footer { padding: 24px 32px; background: #f8fafc; color: #64748b; font-size: 12px; line-height: 1.6; text-align: center; border-top: 1px solid #e2e8f0; }
+    .source-note { font-size: 12px; color: #64748b; line-height: 1.5; margin-top: 16px; }
+ 
+    @media (max-width: 700px) {
+      body { background: #f1f5f9; }
+      .wrap { margin: 0; border-radius: 0; border: none; box-shadow: none; }
+      .header { padding: 32px 20px; }
+      .hero-title { font-size: 26px; }
+      .pad { padding: 20px 16px; }
+      .week { border-radius: 16px; margin-top: 16px; }
+      .week-head { padding: 20px 16px; }
+      .week-head h2 { font-size: 19px; }
+      .section { margin-top: 28px; }
+      .grid2, .grid3, .grid4 { grid-template-columns: 1fr; gap: 12px; }
+      .timeline-table { grid-template-columns: 1fr; gap: 10px; }
+      .timeline-table td { padding: 14px; }
+      .conf { flex-direction: column; }
+      .conf-score { width: auto; border-right: none; border-bottom: 1px solid #e2e8f0; padding: 16px 20px; }
+      .conf-text { padding: 16px 20px; }
+      .social-body { padding: 16px; }
     }
     """
 
@@ -1193,14 +1338,14 @@ def main():
 </head>
 <body>
 <div class="wrap">
-    <div class="header">
+    <header class="header">
         <div class="kicker">MONSIEUR MÉTÉO</div>
-        <div class="hero-title">BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</div>
+        <h1 class="hero-title">BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</h1>
         <div class="sub">Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} · France · Prévisions à 2 semaines</div>
-    </div>
-    <div class="pad">
+    </header>
+    <main class="pad">
         {weeks_html}
-    </div>
+    </main>
 </div>
 </body>
 </html>
@@ -1345,13 +1490,13 @@ def main():
 </head>
 <body>
 <div class="wrap">
-    <div class="header">
+    <header class="header">
         <div class="kicker">MONSIEUR MÉTÉO — BULLETIN RÉGIONAL</div>
-        <div class="hero-title">📍 {r_name}</div>
+        <h1 class="hero-title">📍 {r_name}</h1>
         <div class="sub">Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} · Prévisions à 2 semaines</div>
-    </div>
+    </header>
     
-    <div class="pad">
+    <main class="pad">
         <div class="week">
             <div class="week-head">
                 <h2>📅 {r_data.get('title_line1', r_name)}</h2>
@@ -1488,7 +1633,7 @@ def main():
 
             </div>
         </div>
-    </div>
+    </main>
 </div>
 </body>
 </html>"""
