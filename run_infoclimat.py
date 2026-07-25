@@ -449,14 +449,17 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
     }
 
 def process_region_query(r_key, r_name, recent_messages_text, topic_title_clean, date_context_str, topic_idx):
-    """Même prompt que le national, même balises, même richesse — focalisé sur r_name."""
+    """Même prompt que le national, 2 semaines couverts, même richesse — focalisé sur r_name."""
     system_prompt = f"""Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
 À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique professionnel et complet pour la région : {r_name}
+Le bulletin doit couvrir les DEUX semaines fournies en contexte : la semaine en cours ET la semaine suivante.
 
-RÈGLE D'OR N°0 : FOCUS GÉOGRAPHIQUE STRICT
-Toutes les analyses, températures, risques et impacts doivent concerner EXCLUSIVEMENT {r_name} (ses départements, villes, reliefs ou zones côtières). Si une information n'est pas précisée pour cette région, écris "Information non précisée dans les sources pour {r_name}". Ne déduis jamais depuis une autre région.
+RÈGLE D'OR N°0 : RÉALITÉ SAISONNIÈRE & FOCUS GÉOGRAPHIQUE
+- La date et la saison sont précisées dans le contexte. Respecte-les ABSOLUMENT.
+- En été (juin/juillet/août), les mentions de neige en plaine, de gel, de températures négatives sont INTERDITES sauf en haute altitude (>1500m) si les sources le mentionnent EXPLICITEMENT.
+- Toutes les analyses, températures, risques et impacts doivent concerner EXCLUSIVEMENT {r_name} (ses départements, villes, reliefs ou zones côtières). Si une information n'est pas précisée pour cette région, écris "Information non précisée dans les sources pour {r_name}". Ne déduis jamais depuis une autre région.
 
 RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
 Dans TOUTES les sections, tu dois mentionner les jours précis avec leurs dates exactes (ex: Lundi 27 Juillet, Mardi 28 Juillet).
@@ -724,9 +727,12 @@ Analyse ces discussions EXCLUSIVEMENT pour la région {r_name} et génère le ra
     return r_key, data
 
 def clean_html_for_email(html_content):
-    # Enlever les boutons de copie et les scripts/onclick du corps du mail
+    # Enlever les boutons de copie, les scripts/onclick et les images base64 (trop lourdes pour SFR/Gmail inline)
     cleaned = re.sub(r'<div class="copy-note">.*?</div>', '', html_content, flags=re.DOTALL)
     cleaned = re.sub(r'\s*onclick="[^"]*"', '', cleaned)
+    # Supprimer les blocs img base64 (src="data:image/...") qui gonflent le corps et le font rejeter
+    cleaned = re.sub(r'<div class="meteo-image-card".*?</div>\s*</div>', '', cleaned, flags=re.DOTALL)
+    cleaned = re.sub(r'<div class="meteo-images-container".*?</div>\s*</div>', '', cleaned, flags=re.DOTALL)
     return cleaned
 
 def main():
@@ -777,26 +783,41 @@ def main():
     jours_restants_cours_str = f"du {DAYS_FR[now.weekday()]} {now.day} {MONTHS_FR[now.month-1]} au Dimanche {dimanche_cours.day} {MONTHS_FR[dimanche_cours.month-1]} {dimanche_cours.year}"
 
     # Extraction et tri robuste des numéros de semaine pour l'ordre chronologique
-    def get_topic_sort_key(url):
+    current_iso_week = now.isocalendar()[1]
+
+    def get_topic_week_num(url):
         match = re.search(r'semaine-(\d+)', url.lower())
-        if match:
-            return int(match.group(1))
-        return 0
+        return int(match.group(1)) if match else 0
 
-    clean_topics.sort(key=get_topic_sort_key)
+    # Filtrer : garder uniquement les sujets dont le n° de semaine est dans la fenêtre
+    # [semaine_courante - 1 .. semaine_courante + 4] pour éviter les anciens fils hiver/printemps
+    # La tolérance -1 couvre le cas du lundi matin où le sujet "semaine en cours" n'est pas encore créé.
+    relevant_topics = [
+        t for t in clean_topics
+        if current_iso_week - 1 <= get_topic_week_num(t) <= current_iso_week + 4
+    ]
 
-    # Semaine en cours (clean_topics[0]) en premier, Semaine suivante (clean_topics[1]) en second
+    if not relevant_topics:
+        # Fallback : prendre les 2 topics avec le plus grand numéro de semaine
+        print(f"[WARN] Aucun topic dans la fenêtre semaine {current_iso_week}. Fallback sur les 2 plus récents.")
+        relevant_topics = sorted(clean_topics, key=get_topic_week_num, reverse=True)[:2]
+
+    # Trier par numéro de semaine croissant : semaine en cours d'abord, suivante ensuite
+    relevant_topics.sort(key=get_topic_week_num)
+    print(f"[INFO] Topics retenus (semaine ISO {current_iso_week}) : {[get_topic_week_num(t) for t in relevant_topics]} → {relevant_topics}")
+
+    # Construire la liste des topics à traiter (toujours 2 semaines si disponibles)
     topics_to_process = []
-    if len(clean_topics) >= 2:
+    if len(relevant_topics) >= 2:
         topics_to_process = [
-            (clean_topics[0], "cours", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine en cours\nPériode à analyser : {jours_restants_cours_str} (jours restants uniquement). Les journées antérieures au {today_str} sont déjà passées, concentre-toi sur la fin de semaine."),
-            (clean_topics[1], "future", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine suivante (Tendance à moyen terme)\nPériode à analyser : {semaine_suivante_str} (semaine complète).")
+            (relevant_topics[0], "cours", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine en cours\nPériode à analyser : {jours_restants_cours_str} (jours restants uniquement). Les journées antérieures au {today_str} sont déjà passées, concentre-toi sur la fin de semaine."),
+            (relevant_topics[1], "future", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine suivante (Tendance à moyen terme)\nPériode à analyser : {semaine_suivante_str} (semaine complète).")
         ]
     else:
         topics_to_process = [
-            (clean_topics[0], "cours", f"Date actuelle de génération : {today_str}\nSemaine en cours : {semaine_cours_str} (jours restants à prévoir : {jours_restants_cours_str})\nSemaine suivante : {semaine_suivante_str}.")
+            (relevant_topics[0], "cours", f"Date actuelle de génération : {today_str}\nSemaine en cours : {semaine_cours_str} (jours restants : {jours_restants_cours_str})\nSemaine suivante : {semaine_suivante_str}.")
         ]
-        
+
     results = []
     for idx, (topic, sem_type, date_context) in enumerate(topics_to_process):
         res = process_topic(topic, idx, date_context)
@@ -1218,7 +1239,15 @@ Points de surveillance : {d.get('monitoring_points', '')}
 
     all_context = "\n\n".join(context_parts)
     topic_title_for_regions = " & ".join([r["data"].get("title_line1", "Prévisions") for r in results])
-    date_context_for_regions = topics_to_process[0][2]
+    # Bug fix: passer le contexte des DEUX semaines aux régions, pas seulement la semaine en cours
+    # Aussi injecter la date ISO et la saison pour éviter les hallucinations (neige en été, etc.)
+    saison_actuelle = ["hiver", "printemps", "été", "automne"][(now.month % 12 // 3)]
+    date_context_for_regions = (
+        f"Date actuelle de génération : {today_str} ({now.strftime('%Y-%m-%d')}) — Saison : {saison_actuelle.upper()} EN FRANCE.\n"
+        f"ATTENTION ABSOLUE : Nous sommes en {saison_actuelle.upper()}. Toute mention de neige en plaine, de gel sévère ou de conditions hivernales est STRICTEMENT INTERDITE sauf en altitude (>1500m) si les sources le mentionnent explicitement.\n"
+        f"Semaine en cours : {semaine_cours_str} (jours restants à prévoir : {jours_restants_cours_str}).\n"
+        f"Semaine suivante : {semaine_suivante_str} (semaine complète à prévoir)."
+    )
 
     def gen_region(r_key, r_info):
         r_name, r_abbr = r_info
