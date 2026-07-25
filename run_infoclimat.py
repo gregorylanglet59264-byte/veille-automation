@@ -445,7 +445,8 @@ Analyse ces discussions en appliquant scrupuleusement la vérification de cohér
         return None
     return {
         "data": data,
-        "images": downloaded_images
+        "images": downloaded_images,
+        "raw_comments": recent_messages_text  # conservé pour injection directe dans les bulletins régionaux
     }
 
 def process_region_query(r_key, r_name, recent_messages_text, topic_title_clean, date_context_str, topic_idx):
@@ -522,16 +523,16 @@ Accroche météo courte résumant le temps de la semaine pour {r_name}
 Une phrase courte expliquant la raison du niveau de confiance pour {r_name}.
 
 [TIMELINE_EARLY_WEEK]
-Jours exacts : Prévisions pour le début de semaine en {r_name}, mécanisme synoptique et impacts.
+Semaine en cours — début (Lundi/Mardi) : météo, mécanisme synoptique et impacts pour {r_name}.
 
 [TIMELINE_MID_WEEK]
-Jours exacts : Évolution chronologique pour le milieu de semaine en {r_name}.
+Semaine en cours — fin (Mercredi à Dimanche) : évolution chronologique pour {r_name}.
 
 [TIMELINE_LATE_WEEK]
-Jours exacts : Tendance pour la fin de semaine en {r_name}.
+Semaine suivante — début (Lundi/Mardi) : premières tendances pour {r_name}.
 
 [TIMELINE_WEEKEND]
-Jours exacts : Prévisions pour le week-end en {r_name}.
+Semaine suivante — fin (Mercredi à Dimanche) : tendances de fin de semaine pour {r_name}.
 
 [REGIONAL_HDF_NORTH]
 Sous-zone ou secteur nord / nord-ouest de {r_name} (si pertinent).
@@ -1216,28 +1217,16 @@ def main():
     date_suffix = datetime.datetime.now().strftime('%Y_%m_%d')
 
     # --- GÉNÉRATION PARALLÈLE DES 13 BULLETINS RÉGIONAUX ---
-    context_parts = []
+    # Utiliser les commentaires BRUTS du forum (pas le résumé LLM) pour maximiser la fidélité régionale
+    raw_parts = []
     for res in results:
         d = res.get("data", {})
-        express = d.get("express", {})
-        regional = d.get("regional", {})
-        scenarios = d.get("scenarios", {})
-        context_parts.append(f"""=== {d.get('title_line1', 'Prévisions')} ===
-Résumé France : {express.get('summary', '')}
-Tendance : {express.get('trend', '')} | Températures : {express.get('temperatures', '')} | Risque : {express.get('main_risk', '')}
-HDF & Nord : {regional.get('hdf_north', '')}
-Façade Atlantique : {regional.get('atlantic', '')}
-Régions Centrales : {regional.get('central', '')}
-Moitié Sud : {regional.get('south', '')}
-Pourtour Méditerranéen : {regional.get('mediterranean', '')}
-Reliefs & Montagnes : {regional.get('mountains', '')}
-Scénario majoritaire : {scenarios.get('majoritaire', {}).get('desc', '')}
-Scénario alternatif : {scenarios.get('median', {}).get('desc', '')}
-Incertitudes : {d.get('key_uncertainties', '')}
-Points de surveillance : {d.get('monitoring_points', '')}
-À retenir : {d.get('key_takeaways', '')}""")
+        raw_text = res.get("raw_comments", "")
+        week_title = d.get("title_line1", "Prévisions")
+        raw_parts.append(f"=== {week_title} — DISCUSSIONS BRUTES DU FORUM ===\n{raw_text}")
 
-    all_context = "\n\n".join(context_parts)
+    # all_raw_context = les vraies discussions des prévisionnistes, source directe
+    all_raw_context = "\n\n".join(raw_parts)
     topic_title_for_regions = " & ".join([r["data"].get("title_line1", "Prévisions") for r in results])
     # Bug fix: passer le contexte des DEUX semaines aux régions, pas seulement la semaine en cours
     # Aussi injecter la date ISO et la saison pour éviter les hallucinations (neige en été, etc.)
@@ -1251,7 +1240,8 @@ Points de surveillance : {d.get('monitoring_points', '')}
 
     def gen_region(r_key, r_info):
         r_name, r_abbr = r_info
-        return process_region_query(r_key, r_name, all_context, topic_title_for_regions, date_context_for_regions, 0)
+        # Injection des commentaires bruts du forum directement au LLM régional
+        return process_region_query(r_key, r_name, all_raw_context, topic_title_for_regions, date_context_for_regions, 0)
 
     print("\n--- Génération parallèle des 13 bulletins régionaux ---")
     regions_data = {}
@@ -1385,15 +1375,14 @@ Points de surveillance : {d.get('monitoring_points', '')}
                     <div class="cell"><div class="metric risk"><div class="big" style="font-size: 22px; padding-top: 4px; color:#b91c1c;">{express_r.get('main_risk', 'Aucun')}</div><div class="label">Risque principal</div></div></div>
                 </div>
 
-                <!-- 3. Chronologie -->
                 <div class="section">
-                    <div class="section-title">Chronologie visuelle</div>
+                    <div class="section-title">Chronologie — 2 semaines</div>
                     <table class="timeline-table" role="presentation">
                         <tr>
-                            <td><strong>Début de semaine</strong><div class="keys">{timeline_r.get('early', '-')}</div></td>
-                            <td><strong>Milieu de semaine</strong><div class="keys">{timeline_r.get('mid', '-')}</div></td>
-                            <td><strong>Fin de semaine</strong><div class="keys">{timeline_r.get('late', '-')}</div></td>
-                            <td><strong>Week-end</strong><div class="keys">{timeline_r.get('weekend', '-')}</div></td>
+                            <td><strong>Sem. en cours · Début</strong><div class="keys">{timeline_r.get('early', '-')}</div></td>
+                            <td><strong>Sem. en cours · Fin</strong><div class="keys">{timeline_r.get('mid', '-')}</div></td>
+                            <td><strong>Sem. suivante · Début</strong><div class="keys">{timeline_r.get('late', '-')}</div></td>
+                            <td><strong>Sem. suivante · Fin</strong><div class="keys">{timeline_r.get('weekend', '-')}</div></td>
                         </tr>
                     </table>
                 </div>
