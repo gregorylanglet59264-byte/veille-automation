@@ -266,38 +266,32 @@ def build_model_cards(models):
         except Exception:
             conf_val = 80
             
-        color = "#16a34a"
+        color = "var(--green)"
         if conf_val < 60:
-            color = "#dc2626"
+            color = "var(--red)"
         elif conf_val < 75:
-            color = "#d97706"
+            color = "var(--amber)"
             
-        card_html = f"""
-        <article class="card accent">
-            <div class="model-head">
-                <div>
-                    <h3>{model.get("name", "Modèle")}</h3>
-                    <p>{model.get("timing", "-")}</p>
-                </div>
-                <div class="score" style="color: {color};">{conf_val}%</div>
+        row_html = f"""
+        <tr>
+          <td>
+            <div class="model-name">{model.get("name", "Modèle")}</div>
+            <div class="chips">
+              <span class="chip">{model.get("mentions_count", "0")} mentions</span>
+              {f'<span class="chip">{model.get("timing", "")}</span>' if model.get("timing") else ''}
             </div>
+          </td>
+          <td>{model.get("scenario", "-")}</td>
+          <td>{model.get("sensible_weather", "-")}</td>
+          <td>{model.get("affected_zones", "-")}</td>
+          <td>
+            <div class="score">{conf_val} %</div>
             <div class="bar"><div class="fill" style="width:{conf_val}%; background:{color};"></div></div>
-            <p style="margin-top:14px"><b>Scénario :</b> {model.get("scenario", "-")}</p>
-            <p><b>Temps sensible :</b> {model.get("sensible_weather", "-")}</p>
-            <p><b>Zones :</b> {model.get("affected_zones", "-")}</p>
-            <div class="tags">
-                <span class="tag">{model.get("mentions_count", "0")} mentions</span>
-            </div>
-        </article>
-        <article class="card">
-            <h3>Différences et limites ({model.get("name", "Modèle")})</h3>
-            <p><b>Écart avec les autres modèles :</b> {model.get("differences", "-")}</p>
-            <p><b>Pourquoi cette confiance :</b> {model.get("confidence_reason", "-")}</p>
-            <p><b>Limites :</b> {model.get("limits", "-")}</p>
-        </article>
+          </td>
+        </tr>
         """
-        html_blocks.append(card_html)
-    return "\n".join(html_blocks) if html_blocks else "<p>Aucun modèle spécifique n'est détaillé dans les sources.</p>"
+        html_blocks.append(row_html)
+    return "\n".join(html_blocks) if html_blocks else "<tr><td colspan='5'>Aucun modèle spécifique n'est détaillé dans les sources.</td></tr>"
 
 def build_image_cards(images_info, downloaded_images):
     html_blocks = []
@@ -310,21 +304,21 @@ def build_image_cards(images_info, downloaded_images):
             with open(img_path, "rb") as f_img:
                 img_b64 = base64.b64encode(f_img.read()).decode('ascii')
             ext = img_path.split('.')[-1]
-            img_html = f'<img src="data:image/{ext};base64,{img_b64}" style="width: 100%; border-bottom: 1px solid var(--line);" alt="Carte météo">'
+            img_html = f'<img src="data:image/{ext};base64,{img_b64}" style="width: 100%; height: 220px; object-fit: cover;" alt="Carte météo">'
         except Exception as e:
             print(f"Erreur encodage image {img_path} : {e}")
-            img_html = '<div class="ph">Erreur de chargement de l\'image</div>'
+            img_html = f'<div class="image-demo">IMAGE {i+1}<br>Erreur de chargement</div>'
             
         card_html = f"""
-        <div class="imagebox">
+        <div class="image-card">
             {img_html}
-            <div class="caption">
+            <div class="image-caption">
                 <h3>{img_info.get("title", "Carte météo")}</h3>
-                <p><b>Modèle :</b> {img_info.get("model", "-")} | <b>Run :</b> {img_info.get("run", "-")}</p>
-                <p style="margin-top:8px;">{img_info.get("why_important", "")}</p>
-                <p style="margin-top:4px;"><b>À regarder :</b> {img_info.get("what_to_watch", "")}</p>
-                <small style="display:block; margin-top:8px; font-weight:700;">Confiance d'interprétation : {img_info.get("confidence", "-")}</small>
-                {f'<small style="color:var(--red); display:block; margin-top:4px;">⚠️ {img_info.get("attribution_uncertainty")}</small>' if img_info.get("attribution_uncertainty") else ''}
+                <p>{img_info.get("why_important", "")} <br><b>À surveiller :</b> {img_info.get("what_to_watch", "")}</p>
+                <div class="image-meta">
+                    <span class="chip">{img_info.get("model", "-")}</span>
+                    <span class="chip">Confiance : {img_info.get("confidence", "-")}</span>
+                </div>
             </div>
         </div>
         """
@@ -624,6 +618,22 @@ Phénomènes météo récurrents
 Régions les plus touchées/concernées
 [GLOBAL_MAJOR_UNCERTAINTIES]
 Incertitudes majeurs globales
+[GLOBAL_CONSENSUS_KPI]
+Pourcentage de consensus global (ex: 74 %)
+[GLOBAL_CONSENSUS_NOTE]
+Commentaire court sur le consensus (ex: Accord modéré à bon)
+[GLOBAL_SCENARIO_KPI]
+Nom court du scénario dominant (ex: Chaud)
+[GLOBAL_SCENARIO_NOTE]
+Commentaire court sur le scénario (ex: Puis plus instable)
+[GLOBAL_CARDS_KPI]
+Nombre de cartes analysées (ex: 6)
+[GLOBAL_CARDS_NOTE]
+Détail court (ex: 3 par semaine)
+[GLOBAL_UNCERTAINTY_KPI]
+Nom de l'incertitude majeure (ex: Timing)
+[GLOBAL_UNCERTAINTY_NOTE]
+Commentaire court sur l'incertitude (ex: Dégradation encore mobile)
 [LINKEDIN_POST]
 Post LinkedIn complet prêt à copier-coller
 [GLOBAL_END]
@@ -674,10 +684,54 @@ Saison en France : {saison_actuelle.upper()}
     global_content = global_text.group(1) if global_text else ""
     doubts_content = doubts_text.group(1) if doubts_text else ""
 
+    def format_key_point(key_str):
+        if not key_str:
+            return ""
+        key_str = key_str.strip()
+        emoji = "💡"
+        
+        # Détection d'emoji
+        emoji_match = re.match(r'^([\U00010000-\U0010ffff]|\u2600-\u27bf)\s*', key_str)
+        if emoji_match:
+            emoji = emoji_match.group(1)
+            key_str = key_str[emoji_match.end():].strip()
+        else:
+            lower = key_str.lower()
+            if any(w in lower for w in ["temp", "chaud", "chaleur", "degré"]):
+                emoji = "🌡️"
+            elif any(w in lower for w in ["orage", "foudre"]):
+                emoji = "⛈️"
+            elif any(w in lower for w in ["pluie", "averse", "humide", "eau"]):
+                emoji = "🌦️"
+            elif any(w in lower for w in ["vent", "rafale"]):
+                emoji = "💨"
+            elif any(w in lower for w in ["soleil", "beau", "sec"]):
+                emoji = "☀️"
+            elif any(w in lower for w in ["nuage", "couvert", "gris"]):
+                emoji = "☁️"
+            elif any(w in lower for w in ["ouest", "atlantique", "manche"]):
+                emoji = "🧭"
+            elif any(w in lower for w in ["fiab", "confiance", "accord", "consensus"]):
+                emoji = "🤝"
+                
+        parts = key_str.split(":", 1)
+        if len(parts) == 2:
+            title = parts[0].strip()
+            desc = parts[1].strip()
+        else:
+            words = key_str.split()
+            if len(words) > 3:
+                title = " ".join(words[:2])
+                desc = " ".join(words[2:])
+            else:
+                title = key_str
+                desc = ""
+        return f'<div class="key"><i>{emoji}</i><div><strong>{title}</strong>{desc}</div></div>'
+
     # Semaine 1
     w1_dates = extract_tag(w1_content, "W1_DATES") or jours_restants_cours_str
     w1_keys = [extract_tag(w1_content, f"W1_KEY_POINT_{i}") for i in range(1, 7)]
-    w1_keys_html = "".join([f'<div class="key">{k}</div>' for k in w1_keys if k])
+    w1_keys_html = "".join([format_key_point(k) for k in w1_keys if k])
     w1_models = parse_models(w1_content, "W1")
     w1_models_html = build_model_cards(w1_models)
     w1_images_info = parse_images_info(w1_content, "W1")
@@ -686,11 +740,21 @@ Saison en France : {saison_actuelle.upper()}
     # Semaine 2
     w2_dates = extract_tag(w2_content, "W2_DATES") or semaine_suivante_str
     w2_keys = [extract_tag(w2_content, f"W2_KEY_POINT_{i}") for i in range(1, 7)]
-    w2_keys_html = "".join([f'<div class="key">{k}</div>' for k in w2_keys if k])
+    w2_keys_html = "".join([format_key_point(k) for k in w2_keys if k])
     w2_models = parse_models(w2_content, "W2")
     w2_models_html = build_model_cards(w2_models)
     w2_images_info = parse_images_info(w2_content, "W2")
     w2_images_html = build_image_cards(w2_images_info, week2_data["images"])
+
+    # Extraction des KPIs globaux du header
+    kpi_consensus_val = extract_tag(global_content, "GLOBAL_CONSENSUS_KPI") or "75 %"
+    kpi_consensus_note = extract_tag(global_content, "GLOBAL_CONSENSUS_NOTE") or "Accord modéré"
+    kpi_scenario_val = extract_tag(global_content, "GLOBAL_SCENARIO_KPI") or "Chaud"
+    kpi_scenario_note = extract_tag(global_content, "GLOBAL_SCENARIO_NOTE") or "Puis plus instable"
+    kpi_cards_val = extract_tag(global_content, "GLOBAL_CARDS_KPI") or str(len(week1_data["images"]) + len(week2_data["images"]))
+    kpi_cards_note = extract_tag(global_content, "GLOBAL_CARDS_NOTE") or "Cartes clés"
+    kpi_uncertainty_val = extract_tag(global_content, "GLOBAL_UNCERTAINTY_KPI") or "Timing"
+    kpi_uncertainty_note = extract_tag(global_content, "GLOBAL_UNCERTAINTY_NOTE") or "Dégradation encore mobile"
 
     # Extraction des confiances et températures pour l'historique
     try:
@@ -743,323 +807,258 @@ Saison en France : {saison_actuelle.upper()}
     linkedin_raw = extract_tag(global_content, "LINKEDIN_POST")
     linkedin_clean = linkedin_raw.replace('<br>', '\n').replace('<br/>', '\n')
 
-    # CSS
     style = """
-    :root {
-        --bg: #f8fafc;
-        --card: #ffffff;
-        --ink: #0f172a;
-        --muted: #64748b;
-        --line: #e2e8f0;
-        --navy: #0f172a;
-        --blue: #2563eb;
-        --cyan: #06b6d4;
-        --green: #16a34a;
-        --amber: #d97706;
-        --red: #dc2626;
-        --shadow: 0 10px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
-        --radius-lg: 24px;
-        --radius-md: 16px;
-        --radius-sm: 8px;
+    :root{
+      --bg:#eef4f8;
+      --surface:#ffffff;
+      --surface-2:#f8fbfd;
+      --ink:#13273a;
+      --muted:#64788c;
+      --line:#dce6ee;
+      --navy:#0d2f4f;
+      --blue:#1565d8;
+      --cyan:#1ea7c9;
+      --green:#23936b;
+      --amber:#df9d32;
+      --red:#d85b58;
+      --shadow:0 18px 50px rgba(18,55,88,.10);
+      --r-xl:28px;
+      --r-lg:20px;
+      --r-md:14px;
     }
-    * { box-sizing: border-box; }
-    body {
-        margin: 0;
-        background: var(--bg);
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        color: var(--ink);
-        line-height: 1.5;
-        -webkit-font-smoothing: antialiased;
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:
+        radial-gradient(circle at 12% 0%,rgba(30,167,201,.12),transparent 28%),
+        radial-gradient(circle at 90% 0%,rgba(21,101,216,.11),transparent 30%),
+        var(--bg);
+      color:var(--ink);
+      font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      line-height:1.5;
     }
-    .wrap {
-        width: min(1180px, calc(100% - 24px));
-        margin: 24px auto 60px;
+    button{font:inherit}
+    img{max-width:100%;display:block}
+    .page{width:min(1180px,calc(100% - 24px));margin:20px auto 50px}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      padding:40px;
+      border-radius:32px;
+      color:white;
+      background:
+        linear-gradient(135deg,rgba(8,38,67,.98),rgba(15,79,126,.96) 58%,rgba(26,150,177,.94)),
+        radial-gradient(circle at 80% 20%,rgba(255,255,255,.08),transparent 30%);
+      box-shadow:var(--shadow);
     }
-    .hero {
-        padding: 40px;
-        border-radius: var(--radius-lg);
-        color: #ffffff;
-        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-        box-shadow: var(--shadow);
-        position: relative;
-        overflow: hidden;
+    .hero:after{
+      content:"";
+      position:absolute;
+      width:380px;height:380px;
+      right:-120px;top:-140px;
+      border-radius:50%;
+      background:radial-gradient(circle,rgba(131,228,244,.35),transparent 68%);
     }
-    .eyebrow {
-        font-size: 11px;
-        font-weight: 800;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        color: #60a5fa;
-        margin-bottom: 8px;
+    .hero-inner{position:relative;z-index:2}
+    .hero-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
+    .brand{display:flex;gap:12px;align-items:center;font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
+    .brand-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:22px}
+    .demo{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:12px;font-weight:800}
+    .hero h1{margin:32px 0 10px;font-size:clamp(32px,5vw,52px);line-height:1.1;letter-spacing:-.045em}
+    .hero p{max-width:830px;margin:0;color:#e4f1f8;font-size:16px}
+    .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+    .meta span{padding:9px 13px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);font-size:12px;font-weight:800}
+    .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+    .kpi{
+      padding:20px;
+      border-radius:20px;
+      background:rgba(255,255,255,.11);
+      border:1px solid rgba(255,255,255,.16);
+      backdrop-filter:blur(10px);
     }
-    .hero h1 {
-        margin: 0 0 12px;
-        font-size: clamp(28px, 5vw, 44px);
-        line-height: 1.1;
-        font-weight: 800;
-        letter-spacing: -0.02em;
+    .kpi-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#cfe5f1;font-weight:900}
+    .kpi-value{font-size:30px;line-height:1.1;font-weight:900;margin-top:5px}
+    .kpi-note{font-size:12px;color:#dcebf3;margin-top:5px}
+    .tabs{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:10px;
+      margin:20px 0 0;
+      position:sticky;
+      top:8px;
+      z-index:20;
     }
-    .hero p {
-        max-width: 800px;
-        margin: 0;
-        color: #cbd5e1;
-        font-size: 16px;
-        line-height: 1.6;
+    .tabs button{
+      padding:14px 12px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:rgba(255,255,255,.96);
+      color:#496176;
+      font-weight:900;
+      cursor:pointer;
+      box-shadow:0 6px 18px rgba(18,55,88,.06);
+      transition: all 0.2s ease;
     }
-    .meta {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-        margin-top: 24px;
+    .tabs button:hover{background:#f8fbfd;}
+    .tabs button.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+    .panel{display:none}
+    .panel.active{display:block}
+    .section{
+      margin-top:18px;
+      padding:28px;
+      border-radius:var(--r-xl);
+      background:rgba(255,255,255,.96);
+      border:1px solid rgba(215,227,237,.95);
+      box-shadow:0 12px 34px rgba(18,55,88,.07);
     }
-    .chip {
-        padding: 6px 12px;
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.08);
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        font-size: 12px;
-        font-weight: 700;
-        color: #e2e8f0;
+    .section-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:20px}
+    .section h2{margin:0;font-size:clamp(22px,3vw,30px);line-height:1.1;letter-spacing:-.03em}
+    .section .sub{margin:7px 0 0;color:var(--muted)}
+    .badge{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border-radius:999px;background:#eaf3fb;color:#205d90;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}
+    .grid{display:grid;gap:14px}
+    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .card{
+      padding:20px;
+      border-radius:18px;
+      border:1px solid var(--line);
+      background:var(--surface-2);
     }
-    .tabs {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-        margin: 24px 0 16px;
+    .card h3{margin:0 0 8px;font-size:18px}
+    .card p{margin:0;color:var(--muted);font-size:14px}
+    .key{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      padding:18px;
+      border-radius:17px;
+      background:#f3f8fc;
+      border:1px solid var(--line);
     }
-    .tabs button {
-        border: 1px solid var(--line);
-        padding: 12px 20px;
-        border-radius: var(--radius-md);
-        background: var(--card);
-        color: #475569;
-        font-weight: 700;
-        cursor: pointer;
-        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02);
-        transition: all 0.2s ease;
+    .key i{
+      width:36px;height:36px;display:grid;place-items:center;flex:0 0 auto;
+      border-radius:12px;background:#e5f1fb;font-style:normal;font-size:20px
     }
-    .tabs button:hover {
-        background: #f8fafc;
-        border-color: #cbd5e1;
+    .key strong{display:block;margin-bottom:4px}
+    .model-table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0 10px;
     }
-    .tabs button.active {
-        background: var(--navy);
-        border-color: var(--navy);
-        color: #ffffff;
-        box-shadow: var(--shadow);
+    .model-table th{
+      padding:0 12px 8px;
+      text-align:left;
+      color:var(--muted);
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
     }
-    .panel {
-        display: none;
+    .model-table td{
+      padding:16px 12px;
+      background:#f8fbfd;
+      border-top:1px solid var(--line);
+      border-bottom:1px solid var(--line);
+      vertical-align:top;
+      font-size:14px;
     }
-    .panel.active {
-        display: block;
+    .model-table td:first-child{border-left:1px solid var(--line);border-radius:14px 0 0 14px}
+    .model-table td:last-child{border-right:1px solid var(--line);border-radius:0 14px 14px 0}
+    .model-name{font-weight:900;color:var(--navy)}
+    .score{font-size:22px;font-weight:900}
+    .bar{height:8px;background:#e7eef4;border-radius:999px;overflow:hidden;margin-top:7px}
+    .fill{height:100%;border-radius:999px;}
+    .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+    .chip{padding:5px 8px;border-radius:999px;background:#eaf3fb;color:#315f83;font-size:10px;font-weight:800}
+    .compare{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:14px;
     }
-    .section {
-        background: var(--card);
-        border: 1px solid var(--line);
-        border-radius: var(--radius-lg);
-        padding: 30px;
-        margin-top: 20px;
-        box-shadow: var(--shadow);
+    .compare .card:first-child{border-top:5px solid var(--green)}
+    .compare .card:last-child{border-top:5px solid var(--amber)}
+    .zones{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .zone{
+      min-height:210px;
+      padding:20px;
+      border-radius:18px;
+      border:1px solid var(--line);
+      background:#fbfdff;
     }
-    .section h2 {
-        margin: 0 0 8px;
-        font-size: 24px;
-        font-weight: 800;
-        letter-spacing: -0.015em;
-        color: var(--navy);
+    .zone-icon{font-size:28px}
+    .zone h3{margin:8px 0 8px}
+    .zone p{margin:0;color:var(--muted);font-size:14px}
+    .zone-foot{display:flex;justify-content:space-between;gap:10px;margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:11px;font-weight:800;color:#526d82}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .phase{
+      min-height:155px;
+      padding:18px;
+      border-radius:17px;
+      border:1px solid var(--line);
+      background:linear-gradient(180deg,#fbfdff,#f3f8fc);
     }
-    .sub {
-        margin: 0 0 24px;
-        color: var(--muted);
-        font-size: 14px;
+    .phase b{display:block;color:var(--blue);margin-bottom:8px}
+    .phase p{margin:0;color:var(--muted);font-size:14px}
+    .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .image-card{overflow:hidden;border-radius:18px;border:1px solid var(--line);background:white}
+    .image-demo{
+      height:220px;
+      display:grid;
+      place-items:center;
+      padding:20px;
+      text-align:center;
+      background:
+        radial-gradient(circle at 20% 20%,rgba(21,101,216,.18),transparent 25%),
+        radial-gradient(circle at 80% 30%,rgba(216,91,88,.15),transparent 24%),
+        linear-gradient(135deg,#eef4f8,#dce8f1);
+      color:#4e687d;
+      font-weight:900;
     }
-    .grid {
-        display: grid;
-        gap: 16px;
+    .image-caption{padding:18px}
+    .image-caption h3{margin:0 0 8px}
+    .image-caption p{margin:0;color:var(--muted);font-size:13px}
+    .image-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+    .alert{
+      padding:18px;
+      border-radius:17px;
+      background:#fff8e7;
+      border:1px solid #f2ddb0;
+      color:#7a591d;
+      font-weight:700;
     }
-    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-    .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .linkedin{
+      padding:24px;
+      border-radius:20px;
+      background:#0d2f4f;
+      color:white;
+      white-space:pre-wrap;
+      line-height:1.65;
+      font-size:15px;
+    }
+    .copy{
+      margin-top:12px;padding:11px 16px;border:0;border-radius:11px;
+      background:var(--blue);color:white;font-weight:900;cursor:pointer;
+      transition: background 0.15s ease;
+    }
+    .copy:hover{background:#114fa8}
+    .footer{padding:24px 8px 0;text-align:center;color:#6a7d8f;font-size:12px}
 
-    .card {
-        border: 1px solid var(--line);
-        border-radius: var(--radius-md);
-        padding: 20px;
-        background: #ffffff;
-        position: relative;
-    }
-    .card h3 {
-        margin: 0 0 10px;
-        font-size: 16px;
-        font-weight: 800;
-        color: var(--navy);
-    }
-    .card p {
-        margin: 0;
-        color: #475569;
-        font-size: 14px;
-        line-height: 1.5;
-    }
-    .accent {
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        color: #ffffff;
-        border: none;
-    }
-    .accent h3 { color: #ffffff; }
-    .accent p { color: #e2e8f0; }
-    
-    .key {
-        padding: 16px 20px;
-        border-radius: var(--radius-md);
-        background: #f1f5f9;
-        border-left: 4px solid var(--blue);
-        font-weight: 600;
-        font-size: 14px;
-        color: var(--navy);
-    }
-    .model-head {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-    }
-    .score {
-        font-size: 26px;
-        font-weight: 850;
-    }
-    .bar {
-        height: 8px;
-        background: #e2e8f0;
-        border-radius: 999px;
-        overflow: hidden;
-        margin-top: 12px;
-    }
-    .accent .bar { background: rgba(255, 255, 255, 0.15); }
-    .fill { height: 100%; border-radius: 999px; }
-    .tags {
-        display: flex;
-        gap: 6px;
-        flex-wrap: wrap;
-        margin-top: 14px;
-    }
-    .tag {
-        font-size: 10.5px;
-        font-weight: 700;
-        padding: 4px 8px;
-        border-radius: 999px;
-        background: #f1f5f9;
-        color: #475569;
-    }
-    .accent .tag { background: rgba(255, 255, 255, 0.1); color: #f1f5f9; }
-    .zone h3 { margin: 4px 0 8px; }
-    .zone small {
-        display: block;
-        margin-top: 12px;
-        color: var(--muted);
-        font-weight: 700;
-        font-size: 11px;
-        text-transform: uppercase;
-    }
-    .splitline {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-    .solid { border-top: 4px solid var(--green); }
-    .fragile { border-top: 4px solid var(--amber); }
-    
-    .timeline {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 12px;
-    }
-    .phase {
-        padding: 16px;
-        border-radius: var(--radius-md);
-        background: #f8fafc;
-        border: 1px solid var(--line);
-    }
-    .phase b {
-        display: block;
-        color: var(--blue);
-        margin-bottom: 6px;
-        font-weight: 800;
-        font-size: 14px;
-    }
-    .phase p { margin: 0; font-size: 13.5px; color: #475569; }
-    
-    .images {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-    }
-    .imagebox {
-        overflow: hidden;
-        border-radius: var(--radius-md);
-        border: 1px solid var(--line);
-        background: #ffffff;
-    }
-    .ph {
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
-        color: var(--muted);
-        font-weight: 700;
-        text-align: center;
-        padding: 20px;
-        border-bottom: 1px solid var(--line);
-    }
-    .caption { padding: 16px; }
-    .caption h3 { margin: 0 0 6px; font-size: 15px; font-weight: 800; color: var(--navy); }
-    .caption p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.4; }
-    
-    .linkedin {
-        white-space: pre-wrap;
-        background: #0f172a;
-        color: #f8fafc;
-        border-radius: var(--radius-md);
-        padding: 24px;
-        font-size: 14.5px;
-        line-height: 1.6;
-        border: 1px solid var(--line);
-    }
-    .copy {
-        margin-top: 14px;
-        border: none;
-        border-radius: var(--radius-sm);
-        padding: 10px 18px;
-        font-weight: 700;
-        cursor: pointer;
-        background: var(--blue);
-        color: #ffffff;
-    }
-    .notice {
-        padding: 16px 20px;
-        border-radius: var(--radius-md);
-        background: #fffbeb;
-        color: #78350f;
-        border: 1px solid #fef3c7;
-        font-weight: 600;
-        font-size: 14px;
-    }
+    /* History Box and Sparklines */
     .evolution-card {
-        background: #f8fafc;
+        background: var(--surface-2);
         border: 1px solid var(--line);
-        border-radius: var(--radius-md);
+        border-radius: 18px;
         padding: 20px;
     }
     .sparkline {
         font-family: monospace;
         font-size: 13px;
         line-height: 1.5;
-        color: var(--navy);
+        color: var(--ink);
         background: #ffffff;
         border: 1px solid var(--line);
-        border-radius: var(--radius-sm);
+        border-radius: 10px;
         padding: 12px;
         margin-top: 8px;
     }
@@ -1076,357 +1075,288 @@ Saison en France : {saison_actuelle.upper()}
         font-weight: 700;
     }
     .trend-up { background: #dcfce7; color: #166534; }
+    .trend-down { background: #fee2e2; color: #991b1b; }
 
-    @media (max-width: 900px) {
-        .grid-3, .grid-4, .images, .timeline { grid-template-columns: repeat(2, 1fr); }
-        .splitline { grid-template-columns: 1fr; }
+    @media(max-width:950px){
+      .kpis,.grid-4{grid-template-columns:repeat(2,1fr)}
+      .grid-3,.zones,.cards3,.timeline{grid-template-columns:repeat(2,1fr)}
+      .model-table{display:block;overflow-x:auto}
     }
-    @media (max-width: 620px) {
-        .hero { padding: 24px; }
-        .grid-2, .grid-3, .grid-4, .images, .timeline { grid-template-columns: 1fr; }
-        .section { padding: 20px; }
-        .tabs button { flex: 1 1 46%; padding: 10px; }
+    @media(max-width:650px){
+      .page{width:min(100% - 14px,1180px);margin:7px auto 30px}
+      .hero{padding:24px;border-radius:22px}
+      .tabs{grid-template-columns:repeat(2,1fr);top:4px}
+      .section{padding:20px;border-radius:22px}
+      .section-head{align-items:flex-start;flex-direction:column}
     }
-    @media print {
-        .tabs { display: none; }
-        .panel { display: block !important; }
-        .section, .hero { box-shadow: none; margin-top: 15px; }
+    @media print{
+      body{background:white}
+      .tabs{display:none}
+      .panel{display:block!important}
+      .section,.hero{box-shadow:none;break-inside:avoid}
     }
     """
 
-    # Template HTML de base avec des tags de remplacement
     html_template = """<!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bulletin de Tendances Météo Forum</title>
+<title>Tendances météo France — Bulletin premium</title>
 [STYLE_PLACEHOLDER]
 </head>
 <body>
-<div class="wrap">
+<main class="page">
+
 <header class="hero">
-    <div class="eyebrow">MONSIEUR MÉTÉO</div>
-    <h1>BULLETIN ÉVOLUTION & TENDANCES</h1>
-    <p>Analyse comparative multi-modèles basée sur les discussions des prévisionnistes du forum Infoclimat.</p>
-    <div class="meta">
-        <span class="chip">Semaine 1 : [W1_DATES_PLACEHOLDER]</span>
-        <span class="chip">Semaine 2 : [W2_DATES_PLACEHOLDER]</span>
-        <span class="chip">Génération : [TODAY_STR_PLACEHOLDER]</span>
+  <div class="hero-inner">
+    <div class="hero-top">
+      <div class="brand"><div class="brand-icon">🌦️</div>Tendances météo France</div>
+      <div class="demo">Monsieur Météo</div>
     </div>
+    <h1>Deux semaines de tendance, en un regard</h1>
+    <p>Comparaison des modèles météo, temps sensible par grandes zones, niveau de confiance, cartes clés, points solides et incertitudes.</p>
+    <div class="meta">
+      <span>Semaine 1 : [W1_DATES_PLACEHOLDER]</span>
+      <span>Semaine 2 : [W2_DATES_PLACEHOLDER]</span>
+      <span>Génération : [TODAY_STR_PLACEHOLDER]</span>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="kpi-label">Consensus général</div><div class="kpi-value">[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]</div></div>
+      <div class="kpi"><div class="kpi-label">Scénario dominant</div><div class="kpi-value">[GLOBAL_SCENARIO_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]</div></div>
+      <div class="kpi"><div class="kpi-label">Cartes retenues</div><div class="kpi-value">[GLOBAL_CARDS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CARDS_NOTE_PLACEHOLDER]</div></div>
+      <div class="kpi"><div class="kpi-label">Incertitude majeure</div><div class="kpi-value">[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]</div></div>
+    </div>
+  </div>
 </header>
 
 <nav class="tabs">
-    <button class="active" data-tab="w1">Semaine 1</button>
-    <button data-tab="w2">Semaine 2</button>
-    <button data-tab="summary">Synthèse 15 jours</button>
-    <button data-tab="doubts">Doutes et limites</button>
+  <button class="active" data-tab="week1">Semaine 1</button>
+  <button data-tab="week2">Semaine 2</button>
+  <button data-tab="summary">Synthèse 15 jours</button>
+  <button data-tab="doubts">Doutes et limites</button>
 </nav>
 
-<!-- SEMAINE 1 -->
-<section id="w1" class="panel active">
-    <div class="section">
-        <h2>À retenir — Semaine 1</h2>
-        <div class="grid grid-2">
-            [W1_KEYS_HTML_PLACEHOLDER]
-        </div>
+<section id="week1" class="panel active">
+  <div class="section">
+    <div class="section-head">
+      <div><span class="badge">À retenir</span><h2>Semaine 1</h2><p class="sub">Les informations principales.</p></div>
     </div>
-    
-    <div class="section">
-        <h2>Comparaison des modèles</h2>
-        <p class="sub">Modèles météo identifiés dans les échanges.</p>
-        <div class="grid grid-2">
-            [W1_MODELS_HTML_PLACEHOLDER]
-        </div>
+    <div class="grid grid-4">
+      [W1_KEYS_HTML_PLACEHOLDER]
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Convergences et divergences</h2>
-        <div class="splitline">
-            <div class="card solid">
-                <h3>Ce qui converge</h3>
-                <p>[W1_CONVERGENCES_PLACEHOLDER]</p>
-            </div>
-            <div class="card fragile">
-                <h3>Ce qui diverge</h3>
-                <p>[W1_DIVERGENCES_PLACEHOLDER]</p>
-            </div>
-        </div>
+  <div class="section">
+    <div class="section-head">
+      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique, modèle par modèle.</p></div>
     </div>
+    <table class="model-table">
+      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance d’extraction</th></tr></thead>
+      <tbody>
+        [W1_MODELS_HTML_PLACEHOLDER]
+      </tbody>
+    </table>
+  </div>
 
-    <div class="section">
-        <h2>Temps sensible par grandes zones</h2>
-        <div class="grid grid-3">
-            <div class="card zone">
-                <h3>Ouest et façade atlantique</h3>
-                <p>[W1_ZONE_WEST_PLACEHOLDER]</p>
-                <small>[W1_ZONE_WEST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Nord et Nord-Ouest</h3>
-                <p>[W1_ZONE_NORTH_PLACEHOLDER]</p>
-                <small>[W1_ZONE_NORTH_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Nord-Est</h3>
-                <p>[W1_ZONE_NORTHEAST_PLACEHOLDER]</p>
-                <small>[W1_ZONE_NORTHEAST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Centre</h3>
-                <p>[W1_ZONE_CENTRAL_PLACEHOLDER]</p>
-                <small>[W1_ZONE_CENTRAL_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Sud-Ouest</h3>
-                <p>[W1_ZONE_SOUTHWEST_PLACEHOLDER]</p>
-                <small>[W1_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Sud-Est et Méditerranée</h3>
-                <p>[W1_ZONE_SOUTHEAST_PLACEHOLDER]</p>
-                <small>[W1_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Corse</h3>
-                <p>[W1_ZONE_CORSICA_PLACEHOLDER]</p>
-                <small>[W1_ZONE_CORSICA_CONF_PLACEHOLDER]</small>
-            </div>
-        </div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences</h2></div></div>
+    <div class="compare">
+      <div class="card"><h3>Ce qui converge</h3><p>[W1_CONVERGENCES_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Ce qui diverge</h3><p>[W1_DIVERGENCES_PLACEHOLDER]</p></div>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Chronologie de la semaine</h2>
-        <div class="timeline">
-            <div class="phase"><b>[W1_PHASE_1_DATES_PLACEHOLDER]</b><p>[W1_PHASE_1_PLACEHOLDER]</p></div>
-            <div class="phase"><b>[W1_PHASE_2_DATES_PLACEHOLDER]</b><p>[W1_PHASE_2_PLACEHOLDER]</p></div>
-            <div class="phase"><b>[W1_PHASE_3_DATES_PLACEHOLDER]</b><p>[W1_PHASE_3_PLACEHOLDER]</p></div>
-            <div class="phase"><b>[W1_PHASE_4_DATES_PLACEHOLDER]</b><p>[W1_PHASE_4_PLACEHOLDER]</p></div>
-        </div>
+  <div class="section">
+    <div class="section-head">
+      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Ce que le public doit comprendre immédiatement.</p></div>
     </div>
+    <div class="zones">
+      <div class="zone"><div class="zone-icon">🧭</div><h3>Ouest et Atlantique</h3><p>[W1_ZONE_WEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_WEST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">☁️</div><h3>Nord et Nord-Ouest</h3><p>[W1_ZONE_NORTH_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_NORTH_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🌤️</div><h3>Nord-Est</h3><p>[W1_ZONE_NORTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_NORTHEAST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🌥️</div><h3>Centre</h3><p>[W1_ZONE_CENTRAL_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_CENTRAL_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🌡️</div><h3>Sud-Ouest</h3><p>[W1_ZONE_SOUTHWEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">☀️</div><h3>Sud-Est et Méditerranée</h3><p>[W1_ZONE_SOUTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🏖️</div><h3>Corse</h3><p>[W1_ZONE_CORSICA_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_CORSICA_CONF_PLACEHOLDER]</span></div></div>
+    </div>
+  </div>
 
-    <div class="section">
-        <h2>Éléments solides et fragiles</h2>
-        <div class="splitline">
-            <div class="card solid">
-                <h3>Éléments solides</h3>
-                <p>[W1_SOLID_POINTS_PLACEHOLDER]</p>
-            </div>
-            <div class="card fragile">
-                <h3>Éléments fragiles</h3>
-                <p>[W1_FRAGILE_POINTS_PLACEHOLDER]</p>
-            </div>
-        </div>
-        <div class="notice" style="margin-top:14px;">⚠️ À surveiller dans les prochains runs : [W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine</h2></div></div>
+    <div class="timeline">
+      <div class="phase"><b>[W1_PHASE_1_DATES_PLACEHOLDER]</b><p>[W1_PHASE_1_PLACEHOLDER]</p></div>
+      <div class="phase"><b>[W1_PHASE_2_DATES_PLACEHOLDER]</b><p>[W1_PHASE_2_PLACEHOLDER]</p></div>
+      <div class="phase"><b>[W1_PHASE_3_DATES_PLACEHOLDER]</b><p>[W1_PHASE_3_PLACEHOLDER]</p></div>
+      <div class="phase"><b>[W1_PHASE_4_DATES_PLACEHOLDER]</b><p>[W1_PHASE_4_PLACEHOLDER]</p></div>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Sélection de cartes météo analysées</h2>
-        <div class="images">
-            [W1_IMAGES_HTML_PLACEHOLDER]
-        </div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles</h2></div></div>
+    <div class="compare">
+      <div class="card"><h3>Éléments solides</h3><p>[W1_SOLID_POINTS_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Éléments fragiles</h3><p>[W1_FRAGILE_POINTS_PLACEHOLDER]</p></div>
     </div>
+    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : [W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><div><span class="badge">3 cartes clés</span><h2>Les images les plus intéressantes</h2><p class="sub">Les images réelles récoltées du forum.</p></div></div>
+    <div class="cards3">
+      [W1_IMAGES_HTML_PLACEHOLDER]
+    </div>
+  </div>
 </section>
 
-<!-- SEMAINE 2 -->
-<section id="w2" class="panel">
-    <div class="section">
-        <h2>À retenir — Semaine 2</h2>
-        <div class="grid grid-2">
-            [W2_KEYS_HTML_PLACEHOLDER]
-        </div>
+<section id="week2" class="panel">
+  <div class="section">
+    <div class="section-head">
+      <div><span class="badge">À retenir</span><h2>Semaine 2</h2><p class="sub">Les informations principales.</p></div>
     </div>
+    <div class="grid grid-4">
+      [W2_KEYS_HTML_PLACEHOLDER]
+    </div>
+  </div>
 
-    <div class="section">
-        <h2>Comparaison des modèles — Semaine 2</h2>
-        <div class="grid grid-2">
-            [W2_MODELS_HTML_PLACEHOLDER]
-        </div>
+  <div class="section">
+    <div class="section-head">
+      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique, modèle par modèle.</p></div>
     </div>
+    <table class="model-table">
+      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance d’extraction</th></tr></thead>
+      <tbody>
+        [W2_MODELS_HTML_PLACEHOLDER]
+      </tbody>
+    </table>
+  </div>
 
-    <div class="section">
-        <h2>Convergences et divergences — Semaine 2</h2>
-        <div class="splitline">
-            <div class="card solid">
-                <h3>Ce qui converge</h3>
-                <p>[W2_CONVERGENCES_PLACEHOLDER]</p>
-            </div>
-            <div class="card fragile">
-                <h3>Ce qui diverge</h3>
-                <p>[W2_DIVERGENCES_PLACEHOLDER]</p>
-            </div>
-        </div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences</h2></div></div>
+    <div class="compare">
+      <div class="card"><h3>Ce qui converge</h3><p>[W2_CONVERGENCES_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Ce qui diverge</h3><p>[W2_DIVERGENCES_PLACEHOLDER]</p></div>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Temps sensible par grandes zones — Semaine 2</h2>
-        <div class="grid grid-3">
-            <div class="card zone">
-                <h3>Ouest et façade atlantique</h3>
-                <p>[W2_ZONE_WEST_PLACEHOLDER]</p>
-                <small>[W2_ZONE_WEST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Nord et Nord-Ouest</h3>
-                <p>[W2_ZONE_NORTH_PLACEHOLDER]</p>
-                <small>[W2_ZONE_NORTH_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Nord-Est</h3>
-                <p>[W2_ZONE_NORTHEAST_PLACEHOLDER]</p>
-                <small>[W2_ZONE_NORTHEAST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Centre</h3>
-                <p>[W2_ZONE_CENTRAL_PLACEHOLDER]</p>
-                <small>[W2_ZONE_CENTRAL_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Sud-Ouest</h3>
-                <p>[W2_ZONE_SOUTHWEST_PLACEHOLDER]</p>
-                <small>[W2_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Sud-Est et Méditerranée</h3>
-                <p>[W2_ZONE_SOUTHEAST_PLACEHOLDER]</p>
-                <small>[W2_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</small>
-            </div>
-            <div class="card zone">
-                <h3>Corse</h3>
-                <p>[W2_ZONE_CORSICA_PLACEHOLDER]</p>
-                <small>[W2_ZONE_CORSICA_CONF_PLACEHOLDER]</small>
-            </div>
-        </div>
+  <div class="section">
+    <div class="section-head">
+      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Ce que le public doit comprendre immédiatement.</p></div>
     </div>
+    <div class="zones">
+      <div class="zone"><div class="zone-icon">🧭</div><h3>Ouest et Atlantique</h3><p>[W2_ZONE_WEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_WEST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">☁️</div><h3>Nord et Nord-Ouest</h3><p>[W2_ZONE_NORTH_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_NORTH_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🌤️</div><h3>Nord-Est</h3><p>[W2_ZONE_NORTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_NORTHEAST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🌥️</div><h3>Centre</h3><p>[W2_ZONE_CENTRAL_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_CENTRAL_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🌡️</div><h3>Sud-Ouest</h3><p>[W2_ZONE_SOUTHWEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">☀️</div><h3>Sud-Est et Méditerranée</h3><p>[W2_ZONE_SOUTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</span></div></div>
+      <div class="zone"><div class="zone-icon">🏖️</div><h3>Corse</h3><p>[W2_ZONE_CORSICA_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_CORSICA_CONF_PLACEHOLDER]</span></div></div>
+    </div>
+  </div>
 
-    <div class="section">
-        <h2>Chronologie de la semaine — Semaine 2</h2>
-        <div class="timeline">
-            <div class="phase"><b>[W2_PHASE_1_DATES_PLACEHOLDER]</b><p>[W2_PHASE_1_PLACEHOLDER]</p></div>
-            <div class="phase"><b>[W2_PHASE_2_DATES_PLACEHOLDER]</b><p>[W2_PHASE_2_PLACEHOLDER]</p></div>
-            <div class="phase"><b>[W2_PHASE_3_DATES_PLACEHOLDER]</b><p>[W2_PHASE_3_PLACEHOLDER]</p></div>
-            <div class="phase"><b>[W2_PHASE_4_DATES_PLACEHOLDER]</b><p>[W2_PHASE_4_PLACEHOLDER]</p></div>
-        </div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine</h2></div></div>
+    <div class="timeline">
+      <div class="phase"><b>[W2_PHASE_1_DATES_PLACEHOLDER]</b><p>[W2_PHASE_1_PLACEHOLDER]</p></div>
+      <div class="phase"><b>[W2_PHASE_2_DATES_PLACEHOLDER]</b><p>[W2_PHASE_2_PLACEHOLDER]</p></div>
+      <div class="phase"><b>[W2_PHASE_3_DATES_PLACEHOLDER]</b><p>[W2_PHASE_3_PLACEHOLDER]</p></div>
+      <div class="phase"><b>[W2_PHASE_4_DATES_PLACEHOLDER]</b><p>[W2_PHASE_4_PLACEHOLDER]</p></div>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Éléments solides et fragiles — Semaine 2</h2>
-        <div class="splitline">
-            <div class="card solid">
-                <h3>Éléments solides</h3>
-                <p>[W2_SOLID_POINTS_PLACEHOLDER]</p>
-            </div>
-            <div class="card fragile">
-                <h3>Éléments fragiles</h3>
-                <p>[W2_FRAGILE_POINTS_PLACEHOLDER]</p>
-            </div>
-        </div>
-        <div class="notice" style="margin-top:14px;">⚠️ À surveiller dans les prochains runs : [W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles</h2></div></div>
+    <div class="compare">
+      <div class="card"><h3>Éléments solides</h3><p>[W2_SOLID_POINTS_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Éléments fragiles</h3><p>[W2_FRAGILE_POINTS_PLACEHOLDER]</p></div>
     </div>
+    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : [W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
+  </div>
 
-    <div class="section">
-        <h2>Sélection de cartes météo — Semaine 2</h2>
-        <div class="images">
-            [W2_IMAGES_HTML_PLACEHOLDER]
-        </div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">3 cartes clés</span><h2>Les images les plus intéressantes</h2><p class="sub">Les images réelles récoltées du forum.</p></div></div>
+    <div class="cards3">
+      [W2_IMAGES_HTML_PLACEHOLDER]
     </div>
+  </div>
 </section>
 
-<!-- SYNTHÈSE 15 JOURS -->
 <section id="summary" class="panel">
-    [WHAT_CHANGED_BOX_PLACEHOLDER]
+  [WHAT_CHANGED_BOX_PLACEHOLDER]
 
-    <div class="section">
-        <h2>Synthèse des deux semaines</h2>
-        
-        <div id="history-box" class="grid grid-2" style="margin-bottom:20px;">
-            <div class="evolution-card">
-                <h3>📈 Évolution de la confiance (Scénario Principal)</h3>
-                <div class="sparkline">
-                    [SPARKLINE_CONF_PLACEHOLDER]
-                </div>
-            </div>
-            <div class="evolution-card">
-                <h3>🌡️ Évolution des températures attendues</h3>
-                <div class="sparkline">
-                    [TEMP_EVOLUTION_PLACEHOLDER]
-                </div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Synthèse</span><h2>À retenir sur les deux semaines</h2></div></div>
+    
+    <div id="history-box" class="grid grid-2" style="margin-bottom:20px;">
+        <div class="evolution-card">
+            <h3>📈 Évolution de la confiance (Scénario Principal)</h3>
+            <div class="sparkline">
+                [SPARKLINE_CONF_PLACEHOLDER]
             </div>
         </div>
-
-        <div class="grid grid-2">
-            <div class="card accent">
-                <h3>Évolution générale</h3>
-                <p>[GLOBAL_15_DAY_TREND_PLACEHOLDER]</p>
-            </div>
-            <div class="card">
-                <h3>Semaine la plus fiable</h3>
-                <p>[MOST_RELIABLE_WEEK_PLACEHOLDER]</p>
-            </div>
-            <div class="card solid">
-                <h3>Points les plus solides</h3>
-                <p>[GLOBAL_SOLID_POINTS_PLACEHOLDER]</p>
-            </div>
-            <div class="card fragile">
-                <h3>Incertitudes majeures</h3>
-                <p>[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]</p>
+        <div class="evolution-card">
+            <h3>🌡️ Évolution des températures attendues</h3>
+            <div class="sparkline">
+                [TEMP_EVOLUTION_PLACEHOLDER]
             </div>
         </div>
     </div>
 
-    <div class="section">
-        <h2>📢 Post LinkedIn prêt à copier-coller</h2>
-        <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
-        <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
+    <div class="grid grid-2">
+      <div class="card"><h3>Évolution générale</h3><p>[GLOBAL_15_DAY_TREND_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Semaine la plus fiable</h3><p>[MOST_RELIABLE_WEEK_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Phénomènes récurrents</h3><p>[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Incertitude majeure</h3><p>[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]</p></div>
     </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn prêt à copier-coller</h2></div></div>
+    <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
+    <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
+  </div>
 </section>
 
-<!-- DOUBT & LIMITS -->
 <section id="doubts" class="panel">
-    <div class="section">
-        <h2>Doutes, imprécisions et limites</h2>
-        <div class="grid grid-2">
-            <div class="card">
-                <h3>Calendrier</h3>
-                <p>[DOUBTS_TIMING_PLACEHOLDER]</p>
-            </div>
-            <div class="card">
-                <h3>Localisation</h3>
-                <p>[DOUBTS_LOCATION_PLACEHOLDER]</p>
-            </div>
-            <div class="card">
-                <h3>Intensité</h3>
-                <p>[DOUBTS_INTENSITY_PLACEHOLDER]</p>
-            </div>
-            <div class="card">
-                <h3>Données manquantes</h3>
-                <p>[MISSING_INFORMATION_PLACEHOLDER]</p>
-            </div>
-            <div class="card">
-                <h3>Modèles peu documentés</h3>
-                <p>[LOW_DOCUMENTED_MODELS_PLACEHOLDER]</p>
-            </div>
-            <div class="card">
-                <h3>Images difficiles à interpréter</h3>
-                <p>[UNCERTAIN_IMAGES_PLACEHOLDER]</p>
-            </div>
-        </div>
+  <div class="section">
+    <div class="section-head"><div><span class="badge">Transparence</span><h2>Doutes, imprécisions et limites</h2></div></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>Calendrier</h3><p>[DOUBTS_TIMING_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Localisation</h3><p>[DOUBTS_LOCATION_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Intensité</h3><p>[DOUBTS_INTENSITY_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Données manquantes</h3><p>[MISSING_INFORMATION_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Modèles peu documentés</h3><p>[LOW_DOCUMENTED_MODELS_PLACEHOLDER]</p></div>
+      <div class="card"><h3>Images incertaines</h3><p>[UNCERTAIN_IMAGES_PLACEHOLDER]</p></div>
     </div>
+  </div>
 </section>
-</div>
+
+<footer class="footer">
+Bulletin généré automatiquement à partir des messages et images du forum Infoclimat.
+</footer>
+
+</main>
 
 <script>
-document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {
-    document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+const buttons=document.querySelectorAll('.tabs button');
+const panels=document.querySelectorAll('.panel');
+buttons.forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    buttons.forEach(b=>b.classList.remove('active'));
+    panels.forEach(p=>p.classList.remove('active'));
     btn.classList.add('active');
     document.getElementById(btn.dataset.tab).classList.add('active');
-}));
-
-function copyLinkedIn() {
-    navigator.clipboard.writeText(document.getElementById('linkedin').innerText).then(() => {
-        alert('Le post LinkedIn a été copié dans votre presse-papiers !');
-    });
+    window.scrollTo({top:document.querySelector('.tabs').offsetTop-8,behavior:'smooth'});
+  });
+});
+function copyLinkedIn(){
+  const text=document.getElementById('linkedin').innerText;
+  navigator.clipboard.writeText(text).then(()=>{
+    const btn=document.querySelector('.copy');
+    const old=btn.textContent;
+    btn.textContent='Post copié';
+    setTimeout(()=>btn.textContent=old,1500);
+  });
 }
 </script>
 </body>
@@ -1435,7 +1365,7 @@ function copyLinkedIn() {
 
     # Remplacement des variables dans le template
     html = html_template
-    html = html.replace("[STYLE_PLACEHOLDER]", style)
+    html = html.replace("[STYLE_PLACEHOLDER]", f"<style>\n{style}\n</style>")
     html = html.replace("[W1_DATES_PLACEHOLDER]", w1_dates)
     html = html.replace("[W2_DATES_PLACEHOLDER]", w2_dates)
     html = html.replace("[TODAY_STR_PLACEHOLDER]", today_str)
@@ -1516,9 +1446,19 @@ function copyLinkedIn() {
     html = html.replace("[W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", extract_tag(w2_content, "W2_NEXT_RUNS_TO_WATCH") or "-")
 
     # Synthèse globale et doutes
+    html = html.replace("[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]", kpi_consensus_val)
+    html = html.replace("[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]", kpi_consensus_note)
+    html = html.replace("[GLOBAL_SCENARIO_KPI_PLACEHOLDER]", kpi_scenario_val)
+    html = html.replace("[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]", kpi_scenario_note)
+    html = html.replace("[GLOBAL_CARDS_KPI_PLACEHOLDER]", kpi_cards_val)
+    html = html.replace("[GLOBAL_CARDS_NOTE_PLACEHOLDER]", kpi_cards_note)
+    html = html.replace("[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]", kpi_uncertainty_val)
+    html = html.replace("[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]", kpi_uncertainty_note)
+
     html = html.replace("[GLOBAL_15_DAY_TREND_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_15_DAY_TREND") or "-")
     html = html.replace("[MOST_RELIABLE_WEEK_PLACEHOLDER]", extract_tag(global_content, "MOST_RELIABLE_WEEK") or "-")
     html = html.replace("[GLOBAL_SOLID_POINTS_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_SOLID_POINTS") or "-")
+    html = html.replace("[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_RECURRING_PHENOMENA") or "-")
     html = html.replace("[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_MAJOR_UNCERTAINTIES") or "-")
     
     html = html.replace("[DOUBTS_TIMING_PLACEHOLDER]", extract_tag(doubts_content, "DOUBTS_TIMING") or "-")
@@ -1565,8 +1505,8 @@ function copyLinkedIn() {
     # 1. Supprimer la balise script et son contenu
     html_body = re.sub(r'<script>.*?</script>', '', html_body, flags=re.DOTALL)
     # 2. Modifier le CSS pour afficher tous les panneaux et cacher la navigation par onglets
-    html_body = html_body.replace('.panel {\n        display: none;\n    }', '.panel {\n        display: block !important;\n        margin-bottom: 45px;\n    }')
-    html_body = html_body.replace('.tabs {\n        display: flex;', '.tabs {\n        display: none !important;')
+    html_body = html_body.replace('.panel{display:none}', '.panel{display:block !important;margin-bottom:30px}')
+    html_body = html_body.replace('.tabs{', '.tabs{display:none !important;')
 
     html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
     html_body_b64 = base64.b64encode(html_body.encode('utf-8')).decode('ascii')
