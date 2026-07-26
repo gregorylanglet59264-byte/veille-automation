@@ -253,7 +253,7 @@ def parse_models(week_text, prefix):
     models = []
     for b in blocks:
         raw_conf = extract_tag(b, f"{prefix}_MODEL_EXTRACTION_CONF")
-        model = {
+        models.append({
             "name": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_NAME")),
             "scenario": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_SCENARIO")),
             "sensible_weather": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_SENSIBLE_WEATHER")),
@@ -265,10 +265,8 @@ def parse_models(week_text, prefix):
             "run": format_run_string(extract_tag(b, f"{prefix}_MODEL_RUN")),
             "timing": extract_tag(b, f"{prefix}_MODEL_TIMING") or "Échéance non précisée",
             "details": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_DETAILS")) or "Pas de détails complémentaires."
-        }
-        if model["name"]:
-            models.append(model)
-    return models
+        })
+    return [m for m in models if m["name"]]
 
 def parse_images_info(week_text, prefix):
     blocks = re.findall(rf"\[{prefix}_IMAGE_START\](.*?)\[{prefix}_IMAGE_END\]", week_text, re.DOTALL)
@@ -512,16 +510,25 @@ def generate_sparklines_html(history_dir="history"):
 def build_model_cards(models):
     html_blocks = []
     for model in models:
-        raw_conf = model.get("extraction_conf", "Non estimable")
-        conf_digits = re.search(r'\d+', str(raw_conf))
+        raw_conf = str(model.get("extraction_conf", "Non estimable")).strip()
+        conf_digits = re.search(r'\d+', raw_conf)
         
-        if conf_digits and "non" not in str(raw_conf).lower():
+        if conf_digits and "non" not in raw_conf.lower():
             conf_num = int(conf_digits.group(0))
             color = "var(--green)"
             if conf_num < 60: color = "var(--red)"
             elif conf_num < 75: color = "var(--amber)"
             bar_html = f'<div class="bar"><div class="fill" style="width:{conf_num}%; background:{color};"></div></div>'
-            score_text = f"{conf_num} %"
+            score_text = f"{raw_conf}"
+        elif "élev" in raw_conf.lower() or "elev" in raw_conf.lower():
+            bar_html = '<div class="bar"><div class="fill" style="width:85%; background:var(--green);"></div></div>'
+            score_text = "Élevée (85 %)"
+        elif "modér" in raw_conf.lower() or "moder" in raw_conf.lower():
+            bar_html = '<div class="bar"><div class="fill" style="width:65%; background:var(--amber);"></div></div>'
+            score_text = "Modérée (65 %)"
+        elif "faibl" in raw_conf.lower():
+            bar_html = '<div class="bar"><div class="fill" style="width:45%; background:var(--red);"></div></div>'
+            score_text = "Faible (45 %)"
         else:
             score_text = "Non estimable"
             bar_html = '<div class="bar" style="background:#e2e8f0;"></div>'
@@ -736,7 +743,14 @@ def main():
 MISSION
 À partir des discussions et analyses météorologiques brutes de deux semaines distinctes de prévision, tu dois produire un bulletin d'analyse météorologique consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises et par JSON.
 
-RÈGLE TRANSPARENCE ABSOLUE (CRUCIAL) :
+RÈGLE CONFIANCE D'EXTRACTION (EVALUATION FACTUELLE DU NIVEAU DE DÉTAIL) :
+Évalue la précision et la richesse des informations extraites pour chaque modèle météo sur cette échelle :
+- Élevée (80% à 90%) : Le modèle est commenté en détail par les membres (plusieurs paramètres, runs et cartes).
+- Modérée (60% à 70%) : Le modèle est clairement cité avec sa tendance principale.
+- Faible (40% à 50%) : Le modèle est brièvement évoqué en une phrase.
+- Non estimable : Uniquement si aucune donnée exploitable n'existe pour ce modèle.
+
+RÈGLE TRANSPARENCE ABSOLUE :
 {w2_notice if w2_notice else 'Les deux sujets hebdomadaires sont ouverts sur Infoclimat.'}
 Si le sujet de la semaine 2 n'est pas encore créé, N'INVENTE AUCUNE DISCUSSION FICTIVE NI PSEUDO ! Utilise uniquement les projections à long terme (ECMWF 15j, GFS 384h, ensembles) et indique que les incertitudes restent fortes.
 
@@ -748,7 +762,7 @@ RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET CONDITIONNEL OBLIGATOIRE
 
 RÈGLE D'OR N°2 : SÉPARATION STRICTE DES SOUTIENS DE SCÉNARIOS ET DES RUNS
 Pour chaque modèle météo cité :
-1. Confiance d'extraction : Score 0-100% ou "Non estimable". Ne jamais forcer 80 % !
+1. Confiance d'extraction : Élevée (85%) | Modérée (65%) | Faible (45%) | Non estimable.
 2. Soutien du scénario (QUALITATIF UNIQUEMENT) : Utiliser uniquement : Majoritaire | Intermédiaire | Minoritaire | Isolé | Non déterminable. AUCUN POURCENTAGE INVENTÉ !
 3. Run : Si plusieurs runs sont cités, écrire "Runs cités : 00Z, 12Z". Si non précisé, écrire "Run du scénario : non déterminable".
 
