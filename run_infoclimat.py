@@ -13,6 +13,11 @@ import socket
 import time
 import unicodedata
 import io
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
+from email.header import Header
 from email.utils import formatdate
 
 try:
@@ -747,7 +752,7 @@ RÈGLE CONFIANCE D'EXTRACTION (EVALUATION FACTUELLE DU NIVEAU DE DÉTAIL) :
 Évalue la précision et la richesse des informations extraites pour chaque modèle météo sur cette échelle :
 - Élevée (80% à 90%) : Le modèle est commenté en détail par les membres (plusieurs paramètres, runs et cartes).
 - Modérée (60% à 70%) : Le modèle est clairement cité avec sa tendance principale.
-- Faible (40% à 50%) : Le modèle est brièvement évoqué en une phrase.
+- Faible (40% à 50%) : Le modèle est brièvement évoqué en une sentence.
 - Non estimable : Uniquement si aucune donnée exploitable n'existe pour ce modèle.
 
 RÈGLE TRANSPARENCE ABSOLUE :
@@ -1941,7 +1946,7 @@ if(document.getElementById('char-count')) {
         f.write(html)
     print(f"HTML généré avec succès : {html_path}")
 
-    # Envoi email SMTP
+    # Envoi email SMTP via structure anti-spam 100% propre (multipart/alternative + text/plain + piece jointe HTML)
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if gmail_email:
@@ -1957,56 +1962,79 @@ if(document.getElementById('char-count')) {
         sys.exit(0)
         
     sender = gmail_email
-    subject = f"PRÉVISIONS À MOYEN ET LONG TERME - {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
-    clean_subj = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
-    subject = clean_subj
+    subject = f"PRÉVISIONS À MOYEN ET LONG TERME — {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
     
-    filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
-    
-    html_body = html
-    html_body = re.sub(r'<script>.*?</script>', '', html_body, flags=re.DOTALL)
-    html_body = html_body.replace('.panel{display:none}', '.panel{display:block !important;margin-bottom:30px}')
-    html_body = html_body.replace('.tabs-wrapper{', '.tabs-wrapper{display:none !important;')
+    # Message racine mixed (support pièces jointes)
+    msg = MIMEMultipart("mixed")
+    msg['From'] = f"Meteo Climat Pro <{sender}>"
+    msg['To'] = ", ".join(recipients)
+    msg['Subject'] = Header(subject, 'utf-8').encode()
+    msg['Date'] = formatdate(localtime=True)
+    msg['Reply-To'] = "gregory.langlet@sfr.fr"
 
-    html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
-    html_body_b64 = base64.b64encode(html_body.encode('utf-8')).decode('ascii')
-    boundary = uuid.uuid4().hex
+    # Container alternative indispensable pour éviter le rejet anti-spam SFR (550 5.7.1)
+    msg_alt = MIMEMultipart("alternative")
+
+    # Body 1: Plain Text
+    text_body = f"""Bonjour,
+
+Veuillez trouver ci-joint l'analyse consolidée des prévisions météo à moyen et long terme ({w1_dates} & {w2_dates}).
+
+Le rapport HTML interactif complet (avec comparateur multi-modèles, prévisions par zones et post LinkedIn) est joint à ce message.
+
+Cordialement,
+Monsieur Météo
+"""
+    msg_alt.attach(MIMEText(text_body, 'plain', 'utf-8'))
+
+    # Body 2: Clean HTML Card
+    card_html_body = f"""<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="utf-8"></head>
+<body style="font-family: Arial, sans-serif; background-color: #f8fafc; color: #1e293b; padding: 20px;">
+  <div style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 16px; padding: 28px; border: 1px solid #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
+    <h2 style="color: #0d2f4f; margin-top: 0; font-size: 22px;">🌦️ PRÉVISIONS À MOYEN ET LONG TERME</h2>
+    <p style="font-size: 15px; color: #475569;">Bonjour,</p>
+    <p style="font-size: 15px; color: #334155;">Le bulletin d'analyse météorologique consolidé pour les deux prochaines semaines a été généré avec succès.</p>
     
-    raw_message = (
-        f'From: Meteo Climat Pro <{sender}>\r\n'
-        f'To: {", ".join(recipients)}\r\n'
-        f'Reply-To: gregory.langlet@sfr.fr\r\n'
-        f'Subject: {subject}\r\n'
-        f'Date: {formatdate(localtime=True)}\r\n'
-        f'X-Mailer: Python\r\n'
-        f'MIME-Version: 1.0\r\n'
-        f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{html_body_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
-        f'Content-Disposition: attachment; filename="{filename}"\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{html_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}--\r\n'
-    )
+    <div style="background: #eef4f8; padding: 16px; border-radius: 12px; border-left: 4px solid #1565d8; margin: 20px 0;">
+      <strong style="color: #0d2f4f;">📌 Périodes couvertes :</strong>
+      <ul style="margin: 8px 0 0; padding-left: 20px; color: #334155; font-size: 14px;">
+        <li><b>Semaine 1 :</b> {w1_dates}</li>
+        <li><b>Semaine 2 :</b> {w2_dates}</li>
+      </ul>
+    </div>
+
+    <p style="font-size: 14px; color: #475569;">📎 <b>Pièce jointe :</b> Le rapport HTML interactif complet (avec accordéons régionaux et visionneuse plein écran) est joint à ce message.</p>
     
-    print(f"[SMTP] Envoi via Gmail à {', '.join(recipients)}...")
+    <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 24px 0;">
+    <p style="font-size: 12px; color: #64748b; margin: 0;">Monsieur Météo — Automatisation Infoclimat</p>
+  </div>
+</body>
+</html>"""
+    msg_alt.attach(MIMEText(card_html_body, 'html', 'utf-8'))
+
+    msg.attach(msg_alt)
+
+    # Attach full interactive HTML file
+    if os.path.exists(html_path):
+        with open(html_path, "rb") as f_att:
+            att = MIMEBase('application', 'octet-stream')
+            att.set_payload(f_att.read())
+            encoders.encode_base64(att)
+            filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+            att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
+            msg.attach(att)
+
+    print(f"[SMTP] Envoi via Gmail (Structure Anti-Spam SFR conforme) à {', '.join(recipients)}...")
     try:
         with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
             server.ehlo()
             server.starttls()
             server.ehlo()
             server.login(gmail_email, gmail_password)
-            server.sendmail(gmail_email, recipients, raw_message.encode('ascii'))
-        print("[SMTP] E-mail envoyé avec succès !")
+            server.sendmail(gmail_email, recipients, msg.as_string())
+        print("[SMTP] E-mail anti-spam envoyé avec succès !")
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi : {e}")
         sys.exit(1)
