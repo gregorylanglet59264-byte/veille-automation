@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tendances météo France — Démonstration Visuelle</title>
+<style>
+:root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --ink: #0f172a;
+    --muted: #64748b;
+    --line: #e2e8f0;
+    --navy: #0f172a;
+    --blue: #2563eb;
+    --cyan: #06b6d4;
+    --green: #16a34a;
+    --amber: #d97706;
+    --red: #dc2626;
+    --shadow: 0 10px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+    --radius-lg: 24px;
+    --radius-md: 16px;
+    --radius-sm: 8px;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: var(--bg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+.wrap {
+    width: min(1180px, calc(100% - 24px));
+    margin: 24px auto 60px;
+}
+.hero {
+    padding: 40px;
+    border-radius: var(--radius-lg);
+    color: #ffffff;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(37,99,235,0.2) 0%, rgba(0,0,0,0) 70%);
+    pointer-events: none;
+}
+.eyebrow {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #60a5fa;
+    margin-bottom: 8px;
+}
+.hero h1 {
+    margin: 0 0 12px;
+    font-size: clamp(28px, 5vw, 44px);
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+.hero p {
+    max-width: 800px;
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+.chip {
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    font-size: 12px;
+    font-weight: 700;
+    color: #e2e8f0;
+}
+.tabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 24px 0 16px;
+}
+.tabs button {
+    border: 1px solid var(--line);
+    padding: 12px 20px;
+    border-radius: var(--radius-md);
+    background: var(--card);
+    color: #475569;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02);
+    transition: all 0.2s ease;
+}
+.tabs button:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+}
+.tabs button.active {
+    background: var(--navy);
+    border-color: var(--navy);
+    color: #ffffff;
+    box-shadow: var(--shadow);
+}
+.panel {
+    display: none;
+}
+.panel.active {
+    display: block;
+}
+.section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: var(--shadow);
+}
+.section h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    color: var(--navy);
+}
+.sub {
+    margin: 0 0 24px;
+    color: var(--muted);
+    font-size: 14px;
+}
+.grid {
+    display: grid;
+    gap: 16px;
+}
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.card {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    background: #ffffff;
+    position: relative;
+    transition: border-color 0.2s ease;
+}
+.card:hover {
+    border-color: #cbd5e1;
+}
+.card h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--navy);
+}
+.card p {
+    margin: 0;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.accent {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #ffffff;
+    border: none;
+}
+.accent h3 {
+    color: #ffffff;
+}
+.accent p {
+    color: #e2e8f0;
+}
+.key {
+    padding: 16px 20px;
+    border-radius: var(--radius-md);
+    background: #f1f5f9;
+    border-left: 4px solid var(--blue);
+    font-weight: 600;
+    font-size: 14.5px;
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.model-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+.score {
+    font-size: 26px;
+    font-weight: 850;
+    color: var(--green);
+}
+.accent .score {
+    color: #4ade80;
+}
+.bar {
+    height: 8px;
+    background: #e2e8f0;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.accent .bar {
+    background: rgba(255, 255, 255, 0.15);
+}
+.fill {
+    height: 100%;
+    background: var(--green);
+    border-radius: 999px;
+}
+.tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+.tag {
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #475569;
+}
+.accent .tag {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f1f5f9;
+}
+.zone-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.zone h3 {
+    margin: 4px 0 8px;
+}
+.zone small {
+    display: block;
+    margin-top: 12px;
+    color: var(--muted);
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.splitline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.solid {
+    border-top: 4px solid var(--green);
+}
+.fragile {
+    border-top: 4px solid var(--amber);
+}
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.phase {
+    padding: 16px;
+    border-radius: var(--radius-md);
+    background: #f8fafc;
+    border: 1px solid var(--line);
+}
+.phase b {
+    display: block;
+    color: var(--blue);
+    margin-bottom: 6px;
+    font-weight: 800;
+    font-size: 14px;
+}
+.phase p {
+    margin: 0;
+    font-size: 13.5px;
+    color: #475569;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+.imagebox {
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--line);
+    background: #ffffff;
+}
+.ph {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    color: var(--muted);
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--line);
+}
+.ph-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 4px;
+}
+.ph-desc {
+    font-size: 13px;
+    color: #475569;
+}
+.caption {
+    padding: 16px;
+}
+.caption h3 {
+    margin: 0 0 6px;
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--navy);
+}
+.caption p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.4;
+}
+.linkedin {
+    white-space: pre-wrap;
+    background: #0f172a;
+    color: #f8fafc;
+    border-radius: var(--radius-md);
+    padding: 24px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    border: 1px solid var(--line);
+}
+.copy {
+    margin-top: 14px;
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: 10px 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background: var(--blue);
+    color: #ffffff;
+    transition: background 0.2s ease;
+}
+.copy:hover {
+    background: #1d4ed8;
+}
+.notice {
+    padding: 16px 20px;
+    border-radius: var(--radius-md);
+    background: #fffbeb;
+    color: #78350f;
+    border: 1px solid #fef3c7;
+    font-weight: 600;
+    font-size: 14px;
+}
+.evolution-card {
+    background: #f8fafc;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 20px;
+}
+.sparkline {
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--navy);
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    margin-top: 8px;
+}
+.sparkline-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.sparkline-row:last-child {
+    margin-bottom: 0;
+}
+.trend-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.trend-up { background: #dcfce7; color: #166534; }
+.trend-down { background: #fee2e2; color: #991b1b; }
+
+@media (max-width: 900px) {
+    .grid-3, .grid-4, .images, .timeline { grid-template-columns: repeat(2, 1fr); }
+    .splitline { grid-template-columns: 1fr; }
+}
+@media (max-width: 620px) {
+    .hero { padding: 24px; }
+    .grid-2, .grid-3, .grid-4, .images, .timeline { grid-template-columns: 1fr; }
+    .section { padding: 20px; }
+    .tabs button { flex: 1 1 46%; padding: 10px; }
+}
+@media print {
+    .tabs { display: none; }
+    .panel { display: block !important; }
+    .section, .hero { box-shadow: none; margin-top: 15px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<div class="eyebrow">Démonstration visuelle — données fictives</div>
+<h1>Tendances météo France</h1>
+<p>Analyse comparative multi-modèles (ECMWF, GFS, ICON...) sur les 2 prochaines semaines. Suivi d'évolution temporelle depuis les précédents runs de juillet.</p>
+<div class="meta">
+    <span class="chip">Semaine 1 : Du Lundi 27 Juillet au Dimanche 2 Août 2026</span>
+    <span class="chip">Semaine 2 : Du Lundi 3 au Dimanche 9 Août 2026</span>
+    <span class="chip">20 messages analysés</span>
+    <span class="chip">5 modèles comparés</span>
+</div>
+</header>
+
+<nav class="tabs">
+<button class="active" data-tab="w1">Semaine 1</button>
+<button data-tab="w2">Semaine 2</button>
+<button data-tab="summary">Synthèse 15 jours</button>
+<button data-tab="doubts">Doutes et limites</button>
+</nav>
+
+<!-- SEMAINE 1 -->
+<section id="w1" class="panel active">
+<div class="section">
+    <h2>À retenir — Semaine 1</h2>
+    <p class="sub">Les faits marquants à retenir immédiatement pour la semaine en cours.</p>
+    <div class="grid grid-2">
+        <div class="key">☀️ Poussée anticyclonique confirmée dès le Lundi 27 Juillet.</div>
+        <div class="key">🌡️ Hausse progressive des températures, devenant très chaudes au Sud.</div>
+        <div class="key">⚡ Risque d'orages locaux sur les reliefs en fin de journée (Mercantour, Pyrénées).</div>
+        <div class="key">💨 Vent de Nord-Est modéré sur les côtes de la Manche.</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Comparaison des modèles</h2>
+    <p class="sub">Seuls les modèles cités par les prévisionnistes du forum apparaissent ci-dessous.</p>
+    <div class="grid grid-2">
+        <article class="card accent">
+            <div class="model-head">
+                <div>
+                    <h3>ECMWF (Européen)</h3>
+                    <p>Échéance moyenne & long terme</p>
+                </div>
+                <div class="score">85%</div>
+            </div>
+            <div class="bar"><div class="fill" style="width:85%; background:#4ade80;"></div></div>
+            <p style="margin-top:14px"><b>Scénario :</b> Blocage anticyclonique solide centré sur les îles britanniques, apportant un flux de Nord-Est continental sec et de plus en plus chaud.</p>
+            <p><b>Temps sensible :</b> Sec et très ensoleillé sur 90% du pays.</p>
+            <p><b>Zones :</b> National (hors Corse sous influence d'une goutte froide d'altitude).</p>
+            <div class="tags">
+                <span class="tag">8 mentions</span>
+                <span class="tag">Run 12Z</span>
+            </div>
+        </article>
+        
+        <article class="card">
+            <h3>Différences et limites (ECMWF)</h3>
+            <p><b>Écart avec les autres modèles :</b> Plus chaud que GFS sur la moitié Nord, s'accorde avec ICON sur la trajectoire de l'anticyclone.</p>
+            <p><b>Pourquoi cette confiance :</b> Cohérence parfaite des scénarios de l'ensemble (IFS) sur les 3 derniers runs.</p>
+            <p><b>Limites :</b> Incertitude sur l'intensité exacte de la hausse des températures au Sud.</p>
+        </article>
+
+        <article class="card accent">
+            <div class="model-head">
+                <div>
+                    <h3>GFS (Américain)</h3>
+                    <p>Mise à jour 4 fois par jour</p>
+                </div>
+                <div class="score">70%</div>
+            </div>
+            <div class="bar"><div class="fill" style="width:70%; background:#f59e0b;"></div></div>
+            <p style="margin-top:14px"><b>Scénario :</b> Option moins chaude avec des infiltrations maritimes humides par la Manche créant des plaques de grisaille matinale.</p>
+            <p><b>Temps sensible :</b> Ensoleillé mais nuageux au Nord.</p>
+            <p><b>Zones :</b> Moitié Nord (Bretagne, Normandie, Hauts-de-France).</p>
+            <div class="tags">
+                <span class="tag">6 mentions</span>
+                <span class="tag">Run 06Z</span>
+            </div>
+        </article>
+
+        <article class="card">
+            <h3>Différences et limites (GFS)</h3>
+            <p><b>Écart avec les autres modèles :</b> Limite l'extension de la chaleur vers les régions septentrionales.</p>
+            <p><b>Pourquoi cette confiance :</b> Scénario récurrent mais souvent jugé trop pessimiste par les membres du forum.</p>
+            <p><b>Limites :</b> Surestimation chronique de l'humidité de basse couche.</p>
+        </article>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Convergences et divergences</h2>
+    <div class="splitline">
+        <div class="card solid">
+            <h3>Ce qui converge</h3>
+            <p>Tous les modèles s'accordent sur le maintien de conditions sèches et ensoleillées sur la majeure partie du territoire, garantissant un temps de vacances idéal.</p>
+        </div>
+        <div class="card fragile">
+            <h3>Ce qui diverge</h3>
+            <p>Des incertitudes subsistent sur l'influence d'une goutte froide en Méditerranée (Corse) et sur le niveau maximal des températures sur la moitié Nord.</p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Temps sensible par grandes zones</h2>
+    <div class="grid grid-3">
+        <div class="card zone">
+            <div class="zone-icon">🌊</div>
+            <h3>Ouest et Atlantique</h3>
+            <p>Temps sec, ensoleillé avec brises côtières l'après-midi. Températures agréables (24-28°C).</p>
+            <small>Confiance : Forte (85%)</small>
+        </div>
+        <div class="card zone">
+            <div class="zone-icon">⛅</div>
+            <h3>Nord et Nord-Ouest</h3>
+            <p>Ciel voilé à peu nuageux, plus frais en bord de Manche. Températures de saison (22-25°C).</p>
+            <small>Confiance : Modérée (70%)</small>
+        </div>
+        <div class="card zone">
+            <div class="zone-icon">🌤️</div>
+            <h3>Nord-Est</h3>
+            <p>Plein soleil après dissipation de rares brumes. Températures en hausse constante.</p>
+            <small>Confiance : Forte (80%)</small>
+        </div>
+        <div class="card zone">
+            <div class="zone-icon">🌥️</div>
+            <h3>Centre</h3>
+            <p>Conditions sèches et chaudes. Vent d'Est faible.</p>
+            <small>Confiance : Forte (85%)</small>
+        </div>
+        <div class="card zone">
+            <div class="zone-icon">🌡️</div>
+            <h3>Sud-Ouest</h3>
+            <p>Chaleur marquée (32-35°C), ciel bleu azur toute la journée.</p>
+            <small>Confiance : Forte (90%)</small>
+        </div>
+        <div class="card zone">
+            <div class="zone-icon">☀️</div>
+            <h3>Sud-Est et Méditerranée</h3>
+            <p>Soleil de plomb, chaleur lourde à l'intérieur des terres (jusqu'à 37°C).</p>
+            <small>Confiance : Forte (90%)</small>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Chronologie de la semaine 1</h2>
+    <div class="timeline">
+        <div class="phase"><b>Lundi 27 - Mardi 28</b>Poussée de l'anticyclone, assèchement généralisé sur la France.</div>
+        <div class="phase"><b>Mercredi 29 - Jeudi 30</b>Pic de chaleur au Sud, le soleil s'impose partout.</div>
+        <div class="phase"><b>Vendredi 31</b>Faibles orages thermiques sur les Pyrénées.</div>
+        <div class="phase"><b>Samedi 1 - Dimanche 2</b>Week-end estival et sec sur l'ensemble du pays.</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Éléments solides et fragiles</h2>
+    <div class="splitline">
+        <div class="card solid">
+            <h3>Éléments solides</h3>
+            <p>L'installation des conditions estivales est acquise pour plus de 5 jours. Aucun signal de perturbation humide n'est détecté.</p>
+        </div>
+        <div class="card fragile">
+            <h3>Éléments fragiles</h3>
+            <p>La trajectoire précise de la goutte froide près de la Sardaigne pourrait apporter de l'instabilité sur le littoral varois et la Corse.</p>
+        </div>
+    </div>
+    <div class="notice" style="margin-top:14px">⚠️ À surveiller dans les prochains runs : Le positionnement de la dépression espagnole pour la fin de semaine.</div>
+</div>
+
+<div class="section">
+    <h2>Sélection de cartes météorologiques clés</h2>
+    <div class="images">
+        <div class="imagebox">
+            <div class="ph">
+                <div class="ph-title">Carte 1 (Simulée)</div>
+                <div class="ph-desc">Géopotentiels à 500 hPa - Modèle ECMWF</div>
+            </div>
+            <div class="caption">
+                <h3>Anticyclone Protecteur</h3>
+                <p>Montre le dôme de hautes pressions protégeant la France des perturbations océaniques.</p>
+            </div>
+        </div>
+        <div class="imagebox">
+            <div class="ph">
+                <div class="ph-title">Carte 2 (Simulée)</div>
+                <div class="ph-desc">Températures à 850 hPa - Divergence GFS/ECMWF</div>
+            </div>
+            <div class="caption">
+                <h3>Conflit de Températures</h3>
+                <p>Montre les écarts de modélisation thermique sur la frontière Nord-Est.</p>
+            </div>
+        </div>
+        <div class="imagebox">
+            <div class="ph">
+                <div class="ph-title">Carte 3 (Simulée)</div>
+                <div class="ph-desc">Précipitations cumulées - Signal d'orages</div>
+            </div>
+            <div class="caption">
+                <h3>Risque Orageux Localisé</h3>
+                <p>Cumuls faibles à modérés isolés sur la chaîne pyrénéenne.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- SEMAINE 2 -->
+<section id="w2" class="panel">
+<div class="section">
+    <h2>À retenir — Semaine 2</h2>
+    <p class="sub">Les tendances à moyen terme pour la semaine du 3 au 9 Août 2026.</p>
+    <div class="grid grid-2">
+        <div class="key">⚡ Risque accru d'une dégradation orageuse par l'Ouest en milieu de semaine.</div>
+        <div class="key">🌡️ Baisse des températures par l'Ouest, persistance de la chaleur à l'Est.</div>
+        <div class="key">💨 Flux basculant au Sud-Ouest, apportant de l'humidité océanique.</div>
+        <div class="key">🏜️ Incertitude forte sur la trajectoire des anomalies dépressionnaires.</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Comparaison des modèles — Semaine 2</h2>
+    <div class="grid grid-2">
+        <article class="card accent">
+            <div class="model-head">
+                <div>
+                    <h3>ECMWF</h3>
+                    <p>Scénario orageux progressif</p>
+                </div>
+                <div class="score">60%</div>
+            </div>
+            <div class="bar"><div class="fill" style="width:60%; background:#f59e0b;"></div></div>
+            <p style="margin-top:14px"><b>Scénario :</b> Rapprochement d'un talweg atlantique provoquant un conflit de masses d'air chaud/frais et déclenchant des orages structurés.</p>
+            <p><b>Temps sensible :</b> Lourd puis orageux.</p>
+            <p><b>Zones :</b> Façade ouest puis Bassin Parisien.</p>
+            <div class="tags">
+                <span class="tag">5 mentions</span>
+                <span class="tag">Run 12Z</span>
+            </div>
+        </article>
+        
+        <article class="card">
+            <h3>Différences et limites (ECMWF - S2)</h3>
+            <p><b>Écart avec les autres modèles :</b> Plus rapide à dégrader le temps que GFS.</p>
+            <p><b>Limites :</b> Précision temporelle faible à J+10.</p>
+        </article>
+    </div>
+</div>
+</section>
+
+<!-- SYNTHÈSE 15 JOURS -->
+<section id="summary" class="panel">
+<div class="section">
+    <h2>Synthèse des deux semaines</h2>
+    <p class="sub">Consolidation des tendances et comparaison avec l'historique des runs.</p>
+    
+    <div class="grid grid-2">
+        <div class="evolution-card">
+            <h3>📈 Évolution de la confiance (Scénario Principal)</h3>
+            <div class="sparkline">
+                <div class="sparkline-row"><span>22/07 (Il y a 4 jours) :</span> <span>██████░░░░ 62%</span></div>
+                <div class="sparkline-row"><span>23/07 (Il y a 3 jours) :</span> <span>███████░░░ 70%</span></div>
+                <div class="sparkline-row"><span>24/07 (Hier) :</span> <span>████████░░ 78%</span></div>
+                <div class="sparkline-row"><span>25/07 (Aujourd'hui) :</span> <span>█████████░ 85% <span class="trend-pill trend-up">⬆ +7%</span></span></div>
+            </div>
+        </div>
+
+        <div class="evolution-card">
+            <h3>🌡️ Évolution des températures attendues</h3>
+            <div class="sparkline">
+                <div class="sparkline-row"><span>Hier :</span> <span>Chaud</span></div>
+                <div class="sparkline-row"><span>Aujourd'hui :</span> <span>Très chaud</span></div>
+                <div class="sparkline-row"><span>Évolution :</span> <span><span class="trend-pill trend-up">⬆ Renforcement</span> (Flux continental)</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-2" style="margin-top: 16px;">
+        <div class="card accent">
+            <h3>Évolution générale</h3>
+            <p>Première semaine dominée par un anticyclone sec et chaud, suivi d'une transition instable et orageuse au cours de la deuxième semaine.</p>
+        </div>
+        <div class="card">
+            <h3>Semaine la plus fiable</h3>
+            <p>La semaine 1 présente un niveau de confiance excellent (85%) en raison d'un accord parfait des modèles à court terme.</p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>📢 Post LinkedIn prêt à copier-coller</h2>
+    <p class="sub">Publication optimisée sans markdown pour les smartphones et réseaux professionnels.</p>
+    <div id="linkedin" class="linkedin">🌡️ VERS UN PIC DE CHALEUR ESTIVAL CONFIRMÉ SUR LA FRANCE !
+
+Les derniers runs de modélisation de ce 25 Juillet confirment l'installation d'un blocage anticyclonique solide sur le pays. 
+
+Voici ce qu'il faut retenir de nos prévisions pour les deux prochaines semaines :
+
+☀️ Semaine 1 (27 Juillet - 2 Août) :
+- Plein soleil sur 90% du pays sous un flux continental de Nord-Est.
+- Températures en hausse constante, devenant très chaudes au Sud (32 à 35°C, localement 37°C sur l'arrière-pays méditerranéen).
+- Vent de Nord-Est modéré maintenant une relative fraîcheur sur le littoral de la Manche (22-25°C).
+
+⚡ Semaine 2 (3 - 9 Août) :
+- Transition instable par l'Ouest avec un risque d'orages de chaleur en milieu de semaine.
+- Températures de saison, restant chaudes à l'Est mais en baisse sur la façade Atlantique.
+
+Incertitudes : 
+Le comportement d'une goutte froide isolée près de la Sardaigne reste sous surveillance pour le littoral varois et la Corse.
+
+#Meteo #Previsions #France #Climat #MonsieurMeteo #Canicule #Vacances</div>
+    <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
+</div>
+</section>
+
+<!-- DOUBT & LIMITS -->
+<section id="doubts" class="panel">
+<div class="section">
+    <h2>Doutes, imprécisions et limites de la modélisation</h2>
+    <p class="sub">Synthèse des facteurs d'incertitude identifiés dans les discussions des prévisionnistes.</p>
+    <div class="grid grid-2">
+        <div class="card">
+            <h3>Calendrier</h3>
+            <p>La date exacte du passage orageux de la semaine 2 balance entre le mardi soir et le jeudi matin selon les modélisations d'ECMWF.</p>
+        </div>
+        <div class="card">
+            <h3>Localisation</h3>
+            <p>Le positionnement précis du dôme de hautes pressions détermine l'extension de la forte chaleur vers les frontières du Nord.</p>
+        </div>
+        <div class="card">
+            <h3>Intensité</h3>
+            <p>Les pointes de chaleur sur le Sud-Ouest dépendent de l'éventuelle levée d'un vent d'Autan modéré.</p>
+        </div>
+        <div class="card">
+            <h3>Données manquantes</h3>
+            <p>Absence de données issus du modèle britannique UKMO sur le long terme pour ce run.</p>
+        </div>
+    </div>
+</div>
+</section>
+</div>
+
+<script>
+document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+}));
+
+function copyLinkedIn() {
+    navigator.clipboard.writeText(document.getElementById('linkedin').innerText).then(() => {
+        alert('Le post LinkedIn a été copié dans votre presse-papiers !');
+    });
+}
+</script>
+</body>
+</html>

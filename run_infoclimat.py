@@ -1,5 +1,6 @@
 import urllib.request
 import urllib.error
+import urllib.parse
 import re
 import sys
 import os
@@ -8,6 +9,9 @@ import base64
 import uuid
 import datetime
 import smtplib
+import socket
+import time
+import unicodedata
 from email.utils import formatdate
 
 try:
@@ -15,9 +19,6 @@ try:
     load_dotenv()
 except Exception:
     pass
-
-import socket
-import time
 
 socket.setdefaulttimeout(10)
 
@@ -66,17 +67,13 @@ def call_llm(system_prompt, user_prompt, max_retries=3):
             
     return None
 
-
-def process_topic(target_topic, topic_idx, date_context_str):
-    # Extraire et décoder un titre propre du sujet à partir de l'URL
-    import urllib.parse
+def extract_comments_and_images(target_topic, topic_idx):
     decoded_topic = urllib.parse.unquote(target_topic)
     topic_title_slug = decoded_topic.rstrip('/').split('/')[-1]
-    topic_title_slug = re.sub(r'^\d+-', '', topic_title_slug)  # Enlever l'ID du sujet au début
+    topic_title_slug = re.sub(r'^\d+-', '', topic_title_slug)
     topic_title_clean = topic_title_slug.replace('-', ' ').title()
-    print(f"\n--- Sujet [{topic_idx+1}] : {topic_title_clean} ({target_topic}) ---")
+    print(f"\n--- Scraping Sujet [{topic_idx+1}] : {topic_title_clean} ---")
     
-    print(f"[{topic_idx+1}] Analyse de la pagination...")
     try:
         html_topic = fetch_url(target_topic)
     except Exception as e:
@@ -87,13 +84,11 @@ def process_topic(target_topic, topic_idx, date_context_str):
     last_page = 1
     if pages:
         last_page = max(int(p) for p in pages)
-    print(f"[{topic_idx+1}] Pages détectées : {last_page}")
     
     start_page = max(1, last_page - 2)
     all_comments = []
     all_authors = []
     
-    print(f"[{topic_idx+1}] Chargement des commentaires des pages {start_page} à {last_page}...")
     for page in range(start_page, last_page + 1):
         page_url = f"{target_topic}?page={page}"
         try:
@@ -105,7 +100,6 @@ def process_topic(target_topic, topic_idx, date_context_str):
         except Exception as e:
             print(f"Erreur page {page} : {e}")
             
-    # Nettoyer les commentaires pour l'IA
     cleaned_comments_data = []
     for idx, comment in enumerate(all_comments):
         clean_comment = re.sub(r'<br\s*/?>', '\n', comment)
@@ -114,11 +108,9 @@ def process_topic(target_topic, topic_idx, date_context_str):
         author = all_authors[idx] if idx < len(all_authors) else "Membre"
         cleaned_comments_data.append(f"Auteur: {author}\nMessage:\n{clean_comment}")
         
-    # Garder les 20 derniers messages pour l'analyse
     recent_messages_text = "\n\n=======================\n\n".join(cleaned_comments_data[-20:])
     
-    # Extraire et télécharger les graphiques candidats
-    print(f"[{topic_idx+1}] Extraction des graphiques...")
+    # Extraire les images
     candidate_imgs = []
     seen_imgs = set()
     for comment in all_comments:
@@ -141,7 +133,6 @@ def process_topic(target_topic, topic_idx, date_context_str):
         elif ".jpg" in img_url.lower() or ".jpeg" in img_url.lower(): ext = "jpg"
         
         dest_file = f"candidates/topic_{topic_idx+1}_candidate_{idx+1}.{ext}"
-        print(f"[{topic_idx+1}] Téléchargement graphique {idx+1} : {img_url} -> {dest_file}")
         try:
             req = urllib.request.Request(img_url, headers={'User-Agent': USER_AGENT})
             with urllib.request.urlopen(req, timeout=6) as img_resp:
@@ -151,295 +142,194 @@ def process_topic(target_topic, topic_idx, date_context_str):
         except Exception as e:
             print(f"Erreur téléchargement graphique {idx+1} : {e}")
 
-    # Appeler l'IA pour l'analyse des scénarios et la rédaction du pack réseaux sociaux
-    print(f"[{topic_idx+1}] Appel de l'IA pour l'analyse des scénarios météo...")
-    system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
-
-MISSION
-À partir EXCLUSIVEMENT des discussions et analyses météorologiques fournies en entrée, tu dois produire un bulletin d'analyse météorologique professionnel, grand public, hyper-visuel, pédagogique et directement exploitable sur le web et les réseaux sociaux sans aucune modification manuelle.
-
-RÈGLE D'OR N°1 : DATES EXACTES ET JOURS NOMMÉS DANS 100% DES SECTIONS
-Dans TOUTES les sections (Résumé, Chronologie, Régions, Scénarios, Incertitudes, À Retenir, Posts Sociaux), tu devez mentionner les jours précis associés à leurs dates exactes (ex: Lundi 20 juillet, Mardi 21 juillet, Mercredi 22 juillet, Jeudi 23 juillet, Vendredi 24 juillet, Samedi 25 juillet, Dimanche 26 juillet). Ne dis plus jamais "début de semaine" ou "week-end" sans les associer directement à leur date.
-
-RÈGLE D'OR N°2 : INTÉGRATION DE LA DATE DE GÉNÉRATION & PÉRIODE PERTINENTE
-- Analyse avec attention la "Date actuelle de génération" transmise dans l'invite.
-- Si le sujet correspond à la "Semaine en cours" : toute journée précédant cette date est déjà passée. Les prévisions doivent se concentrer EXCLUSIVEMENT sur la période allant de la date de génération au dimanche de cette semaine. Ignore ou mentionne comme "déjà écoulées" les journées passées.
-- Si le sujet correspond à la "Semaine suivante" (Semaine future) : c'est la véritable semaine de tendance à moyen terme. Rédige les prévisions complètes jour par jour, du lundi au dimanche.
-
-RÈGLE D'OR N°3 : PÉDAGOGIE SYNOPTIQUE VULGARISÉE
-Explique de manière simple et pédagogique le mécanisme synoptique sous-jacent (goutte froide, dorsale anticyclonique, talweg, marais barométrique, flux océanique) en une phrase fluide pour montrer notre expertise météorologique sans perdre le grand public.
-
-RÈGLE D'OR N°4 : IMPACTS CONCRETS SUR LA VIE QUOTIDIENNE
-Mentionne systématiquement les répercussions pratiques du temps prévu : confort/ressenti thermique (chaleur lourde, fraîcheur humide), vacances et activités extérieures, transports/déplacements, travaux agricoles/BTP, orages ou pluies bénéfiques.
-
-RÈGLE D'OR N°5 : CALIBRAGE DES SCÉNARIOS & RAISON DU CHOIX
-Indique précisément POURQUOI le Scénario Majoritaire est privilégié par rapport aux deux autres.
-- Majoritaire : ~130 à 150 mots maximum.
-- Alternatif & Minoritaire : 80 à 120 mots maximum chacun.
-
-RÈGLE D'OR N°6 : PACK MULTI-RÉSEAUX SOCIAUX CONÇU POUR MOBILES
-Rédige 5 publications distinctes, spécifiquement adaptées à l'audience, au style et aux limites de caractères de chaque plateforme :
-- **LinkedIn** : Storytelling expert météo captivant, ton pro et pédagogique. Paragraphes courts, émojis et hashtags ciblés. (250-300 mots)
-- **Facebook** : Message chaleureux, axé vie quotidienne et communauté. Paragraphes aérés, émojis.
-- **X (Twitter)** : Post court, percutant et dynamique. Limite stricte de 280 caractères, hashtags inclus.
-- **TikTok** : Description de vidéo dynamique, phrases courtes, appel à l'action visuel et hashtags tendance.
-- **Instagram** : Légende soignée, esthétique, invitant à la contemplation ou à la préparation, avec un appel à l'action pour lire le rapport HTML complet en bio.
-
-VÉRIFICATION QUALITÉ AUTOMATIQUE SILENCIEUSE (AVANT D'ÉMETTRE) :
-Effectue un contrôle qualité automatique et silencieux :
-1. Les probabilités des 3 scénarios totalisent-elles EXACTEMENT 100% ?
-2. Les jours passés pour la semaine en cours ont-ils bien été exclus des prévisions à venir ?
-3. Le post X (Twitter) fait-il moins de 280 caractères ?
-4. Toutes les dates et jours correspondent-ils à la semaine analysée ?
-5. Aucune donnée chiffrée n'a-t-elle été inventée ?
-6. Le post LinkedIn est-il en paragraphes très courts sans aucun markdown ?
-
-FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ces balises :
-
-[SUBJECT_TITLE_LINE1]
-Semaine X - Du Lundi DD au Dimanche DD Mois AAAA
-
-[SUBJECT_TITLE_LINE2]
-Accroche météo courte résumant le temps de la semaine avec dates exactes
-
-[EXPRESS_SUMMARY]
-2 phrases ultra-concises allant à l'essentiel avec les jours et dates précis (ex: Du Lundi 20 au Mercredi 22 juillet, temps sec et chaud...).
-
-[EXPRESS_TREND]
-1 à 3 mots max
-
-[EXPRESS_TEMPERATURES]
-1 à 3 mots max
-
-[EXPRESS_PRECIPITATIONS]
-1 à 3 mots max
-
-[EXPRESS_MAIN_RISK]
-1 à 3 mots max
-
-[GLOBAL_CONFIDENCE_SCORE]
-4/5 (ou 3/5, 5/5)
-
-[GLOBAL_CONFIDENCE_DESC]
-Une phrase courte expliquant la raison du niveau de confiance.
-
-[TIMELINE_EARLY_WEEK]
-Jours exacts : Prévisions, mécanisme synoptique vulgarisé et impacts concrets.
-
-[TIMELINE_MID_WEEK]
-Jours exacts : Évolution chronologique, ressenti et activités.
-
-[TIMELINE_LATE_WEEK]
-Jours exacts : Tendance pour la fin de semaine et vigilance.
-
-[TIMELINE_WEEKEND]
-Jours exacts : Prévisions pour le week-end et loisirs extérieurs.
-
-[REGIONAL_HDF_NORTH]
-1-2 phrases pour Hauts-de-France & Nord.
-
-[REGIONAL_ATLANTIC]
-1-2 phrases pour Façade Atlantique.
-
-[REGIONAL_CENTRAL]
-1-2 phrases pour Régions Centrales.
-
-[REGIONAL_SOUTH]
-1-2 phrases pour Moitié Sud.
-
-[REGIONAL_MEDITERRANEAN]
-1-2 phrases pour Pourtour Méditerranéen.
-
-[REGIONAL_MOUNTAINS]
-1-2 phrases pour Reliefs.
-
-[SCENARIO_MAJORITAIRE_PROB]
-65%
-
-[SCENARIO_MAJORITAIRE_TITLE]
-Titre synoptique court
-
-[SCENARIO_MAJORITAIRE_DESC]
-Description concise (~130-150 mots)
-
-[SCENARIO_MEDIAN_PROB]
-25%
-
-[SCENARIO_MEDIAN_TITLE]
-Titre synoptique court
-
-[SCENARIO_MEDIAN_DESC]
-Description concise (80-120 mots)
-
-[SCENARIO_MINORITAIRE_PROB]
-10%
-
-[SCENARIO_MINORITAIRE_TITLE]
-Titre synoptique court
-
-[SCENARIO_MINORITAIRE_DESC]
-Description concise (80-120 mots)
-
-[KEY_UNCERTAINTIES]
-- Incertitude 1
-- Incertitude 2
-
-[MONITORING_POINTS]
-- Point de vigilance 1
-- Point de vigilance 2
-
-[KEY_TAKEAWAYS]
-- Puce essentielle 1 avec date
-- Puce essentielle 2 avec date
-- Puce essentielle 3 avec date
-- Puce essentielle 4 avec impact concret
-
-[SOCIAL_LINKEDIN]
-Post LinkedIn réseaux sociaux captivant en texte brut (250-300 mots) aéré en paragraphes très courts pour smartphone avec dates exactes et question d'interaction finale.
-
-[SOCIAL_FACEBOOK]
-Post Facebook chaleureux et aéré pour grand public, avec émojis et dates exactes.
-
-[SOCIAL_TWITTER]
-Post X (Twitter) percutant et court (MAXIMUM 280 caractères, espaces compris) avec hashtags.
-
-[SOCIAL_TIKTOK]
-Description TikTok avec accroches, émojis et hashtags ciblés.
-
-[SOCIAL_INSTAGRAM]
-Légende Instagram soignée et esthétique avec appel à l'action pour bio.
-
-[LINKEDIN_HASHTAGS]
-#Meteo #Previsions #France #Climat #MonsieurMeteo"""
-
-    user_prompt = f"""Contexte de date : {date_context_str}
-
-Voici les 20 derniers messages des prévisionnistes pour le sujet : {topic_title_clean}
-
-{recent_messages_text}
-
-Analyse ces discussions en appliquant scrupuleusement la vérification de cohérence et génère le rapport complet."""
-
-    response = call_llm(system_prompt, user_prompt)
-    
-    data = None
-    if response:
-        try:
-            print(f"[{topic_idx+1}] Parsing de la réponse de l'IA...")
-            blocks = {
-                "title_line1": r"\[SUBJECT_TITLE_LINE1\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "title_line2": r"\[SUBJECT_TITLE_LINE2\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_summary": r"\[EXPRESS_SUMMARY\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_trend": r"\[EXPRESS_TREND\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_temperatures": r"\[EXPRESS_TEMPERATURES\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_precipitations": r"\[EXPRESS_PRECIPITATIONS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "express_main_risk": r"\[EXPRESS_MAIN_RISK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "global_confidence_score": r"\[GLOBAL_CONFIDENCE_SCORE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "global_confidence_desc": r"\[GLOBAL_CONFIDENCE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "timeline_early": r"\[TIMELINE_EARLY_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_mid": r"\[TIMELINE_MID_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_late": r"\[TIMELINE_LATE_WEEK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "timeline_weekend": r"\[TIMELINE_WEEKEND\]\s*\n(.*?)(?=\n\s*\[|$)",
-
-                "regional_hdf_north": r"\[REGIONAL_HDF_NORTH\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_atlantic": r"\[REGIONAL_ATLANTIC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_central": r"\[REGIONAL_CENTRAL\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_south": r"\[REGIONAL_SOUTH\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_mediterranean": r"\[REGIONAL_MEDITERRANEAN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "regional_mountains": r"\[REGIONAL_MOUNTAINS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "majoritaire_prob": r"\[SCENARIO_MAJORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "majoritaire_title": r"\[SCENARIO_MAJORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "majoritaire_desc": r"\[SCENARIO_MAJORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "median_prob": r"\[SCENARIO_MEDIAN_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "median_title": r"\[SCENARIO_MEDIAN_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "median_desc": r"\[SCENARIO_MEDIAN_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "minoritaire_prob": r"\[SCENARIO_MINORITAIRE_PROB\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "minoritaire_title": r"\[SCENARIO_MINORITAIRE_TITLE\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "minoritaire_desc": r"\[SCENARIO_MINORITAIRE_DESC\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "key_uncertainties": r"\[KEY_UNCERTAINTIES\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "monitoring_points": r"\[MONITORING_POINTS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "key_takeaways": r"\[KEY_TAKEAWAYS\]\s*\n(.*?)(?=\n\s*\[|$)",
-                
-                "social_linkedin": r"\[SOCIAL_LINKEDIN\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_facebook": r"\[SOCIAL_FACEBOOK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_twitter": r"\[SOCIAL_TWITTER\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_tiktok": r"\[SOCIAL_TIKTOK\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "social_instagram": r"\[SOCIAL_INSTAGRAM\]\s*\n(.*?)(?=\n\s*\[|$)",
-                "linkedin_hashtags": r"\[LINKEDIN_HASHTAGS\]\s*\n(.*?)(?=\n\s*\[|$)",
-            }
-            
-            parsed = {}
-            for key, pattern in blocks.items():
-                match = re.search(pattern, response, re.DOTALL)
-                if match:
-                    parsed[key] = match.group(1).strip()
-                else:
-                    parsed[key] = ""
-            
-            if (parsed["title_line1"] or parsed["title_line2"]) and (parsed["express_summary"] or parsed["majoritaire_desc"]):
-                data = {
-                    "title_line1": parsed["title_line1"] or topic_title_clean,
-                    "title_line2": parsed["title_line2"] or "Tendances et synthèses météorologiques",
-                    "express": {
-                        "summary": parsed["express_summary"],
-                        "trend": parsed["express_trend"],
-                        "temperatures": parsed["express_temperatures"],
-                        "precipitations": parsed["express_precipitations"],
-                        "main_risk": parsed["express_main_risk"],
-                    },
-                    "confidence": {
-                        "score": parsed["global_confidence_score"] or "4/5",
-                        "desc": parsed["global_confidence_desc"],
-                    },
-                    "timeline": {
-                        "early": parsed["timeline_early"],
-                        "mid": parsed["timeline_mid"],
-                        "late": parsed["timeline_late"],
-                        "weekend": parsed["timeline_weekend"],
-                    },
-                    "regional": {
-                        "hdf_north": parsed["regional_hdf_north"],
-                        "atlantic": parsed["regional_atlantic"],
-                        "central": parsed["regional_central"],
-                        "south": parsed["regional_south"],
-                        "mediterranean": parsed["regional_mediterranean"],
-                        "mountains": parsed["regional_mountains"],
-                    },
-                    "scenarios": {
-                        "majoritaire": {"prob": parsed["majoritaire_prob"] or "65%", "title": parsed["majoritaire_title"] or "Scénario Majoritaire", "desc": parsed["majoritaire_desc"]},
-                        "median": {"prob": parsed["median_prob"] or "25%", "title": parsed["median_title"] or "Scénario Alternatif", "desc": parsed["median_desc"]},
-                        "minoritaire": {"prob": parsed["minoritaire_prob"] or "10%", "title": parsed["minoritaire_title"] or "Scénario Minoritaire", "desc": parsed["minoritaire_desc"]}
-                    },
-                    "key_uncertainties": parsed["key_uncertainties"],
-                    "monitoring_points": parsed["monitoring_points"],
-                    "key_takeaways": parsed["key_takeaways"],
-                    "social_pack": {
-                        "linkedin": parsed["social_linkedin"],
-                        "facebook": parsed["social_facebook"],
-                        "twitter": parsed["social_twitter"],
-                        "tiktok": parsed["social_tiktok"],
-                        "instagram": parsed["social_instagram"],
-                    },
-                    "linkedin_hashtags": parsed["linkedin_hashtags"],
-                }
-                print(f"[{topic_idx+1}] Parsing textuel réussi avec succès !")
-        except Exception as e:
-            print(f"[{topic_idx+1}] Erreur parsing textuel : {e}")
-            
-    if not data:
-        print(f"[{topic_idx+1}] ERREUR : Parsing échoué — vérifier les logs du LLM ci-dessus.")
-        return None
     return {
-        "data": data,
+        "title_clean": topic_title_clean,
+        "comments_text": recent_messages_text,
         "images": downloaded_images
     }
 
+def extract_tag(text, tag):
+    pattern = rf"\[{tag}\]\s*\n(.*?)(?=\n\s*\[|$)"
+    match = re.search(pattern, text, re.DOTALL)
+    return match.group(1).strip() if match else ""
+
+def parse_models(week_text, prefix):
+    blocks = re.findall(rf"\[{prefix}_MODEL_START\](.*?)\[{prefix}_MODEL_END\]", week_text, re.DOTALL)
+    models = []
+    for b in blocks:
+        model = {
+            "name": extract_tag(b, f"{prefix}_MODEL_NAME"),
+            "scenario": extract_tag(b, f"{prefix}_MODEL_SCENARIO"),
+            "sensible_weather": extract_tag(b, f"{prefix}_MODEL_SENSIBLE_WEATHER"),
+            "temperatures": extract_tag(b, f"{prefix}_MODEL_TEMPERATURES"),
+            "precipitations": extract_tag(b, f"{prefix}_MODEL_PRECIPITATIONS"),
+            "affected_zones": extract_tag(b, f"{prefix}_MODEL_AFFECTED_ZONES"),
+            "timing": extract_tag(b, f"{prefix}_MODEL_TIMING"),
+            "mentions_count": extract_tag(b, f"{prefix}_MODEL_MENTIONS_COUNT"),
+            "differences": extract_tag(b, f"{prefix}_MODEL_DIFFERENCES"),
+            "confidence_reason": extract_tag(b, f"{prefix}_MODEL_CONFIDENCE_REASON"),
+            "limits": extract_tag(b, f"{prefix}_MODEL_LIMITS"),
+            "confidence": extract_tag(b, f"{prefix}_MODEL_CONFIDENCE")
+        }
+        if model["name"]:
+            models.append(model)
+    return models
+
+def parse_images_info(week_text, prefix):
+    blocks = re.findall(rf"\[{prefix}_IMAGE_START\](.*?)\[{prefix}_IMAGE_END\]", week_text, re.DOTALL)
+    imgs = []
+    for b in blocks:
+        img = {
+            "title": extract_tag(b, f"{prefix}_IMAGE_TITLE"),
+            "model": extract_tag(b, f"{prefix}_IMAGE_MODEL"),
+            "run": extract_tag(b, f"{prefix}_IMAGE_RUN"),
+            "why_important": extract_tag(b, f"{prefix}_IMAGE_WHY_IMPORTANT"),
+            "what_to_watch": extract_tag(b, f"{prefix}_IMAGE_WHAT_TO_WATCH"),
+            "confidence": extract_tag(b, f"{prefix}_IMAGE_CONFIDENCE"),
+            "attribution_uncertainty": extract_tag(b, f"{prefix}_IMAGE_ATTRIBUTION_UNCERTAINTY")
+        }
+        if img["title"]:
+            imgs.append(img)
+    return imgs
+
+def generate_sparklines_html(history_dir="history"):
+    if not os.path.exists(history_dir):
+        return "", ""
+        
+    files = [f for f in os.listdir(history_dir) if f.endswith(".json")]
+    if len(files) < 2:
+        return "", ""
+        
+    files.sort()
+    recent_files = files[-5:]
+    
+    sparkline_rows = []
+    temp_rows = []
+    
+    for f in recent_files:
+        path = os.path.join(history_dir, f)
+        try:
+            with open(path, "r", encoding="utf-8") as file_in:
+                run_data = json.load(file_in)
+                parts = f.replace(".json", "").split("_")[0].split("-")
+                date_str = f"{parts[2]}/{parts[1]}" if len(parts) >= 3 else f
+                
+                conf = run_data.get("w1_confidence", 80)
+                blocks = int(conf / 10)
+                empty = 10 - blocks
+                spark_bar = "█" * blocks + "░" * empty
+                sparkline_rows.append(f'<div class="sparkline-row"><span>{date_str} :</span> <span>{spark_bar} {conf}%</span></div>')
+                
+                temp = run_data.get("w1_temp", "De saison")
+                temp_rows.append(f'<div class="sparkline-row"><span>{date_str} :</span> <span>{temp}</span></div>')
+        except Exception as e:
+            print(f"Erreur lecture historique {f} : {e}")
+            
+    sparklines_html = "\n".join(sparkline_rows)
+    temp_evolution_html = ""
+    if len(recent_files) >= 2:
+        try:
+            with open(os.path.join(history_dir, recent_files[-2]), "r", encoding="utf-8") as f_prev:
+                prev_data = json.load(f_prev)
+            with open(os.path.join(history_dir, recent_files[-1]), "r", encoding="utf-8") as f_curr:
+                curr_data = json.load(f_curr)
+                
+            t_prev = prev_data.get("w1_temp", "De saison")
+            t_curr = curr_data.get("w1_temp", "De saison")
+            
+            trend = "➡️ Stable"
+            if t_curr.lower() != t_prev.lower():
+                if any(w in t_curr.lower() for w in ["chaud", "canicule", "hausse"]) and not any(w in t_prev.lower() for w in ["chaud", "canicule"]):
+                    trend = "⬆ Renforcement"
+                elif any(w in t_curr.lower() for w in ["frais", "baisse"]) and not any(w in t_prev.lower() for w in ["frais", "baisse"]):
+                    trend = "⬇ Baisse"
+                else:
+                    trend = "➡️ Évolution"
+                
+            temp_evolution_html = f"""
+            <div class="sparkline-row"><span>Précédent run :</span> <span>{t_prev}</span></div>
+            <div class="sparkline-row"><span>Run actuel :</span> <span>{t_curr}</span></div>
+            <div class="sparkline-row"><span>Évolution :</span> <span><span class="trend-pill trend-up">{trend}</span></span></div>
+            """
+        except Exception:
+            temp_evolution_html = "\n".join(temp_rows[-2:])
+    else:
+        temp_evolution_html = "\n".join(temp_rows)
+        
+    return sparklines_html, temp_evolution_html
+
+def build_model_cards(models):
+    html_blocks = []
+    for model in models:
+        try:
+            conf_val = int(re.search(r'\d+', model.get("confidence", "80")).group(0))
+        except Exception:
+            conf_val = 80
+            
+        color = "#16a34a"
+        if conf_val < 60:
+            color = "#dc2626"
+        elif conf_val < 75:
+            color = "#d97706"
+            
+        card_html = f"""
+        <article class="card accent">
+            <div class="model-head">
+                <div>
+                    <h3>{model.get("name", "Modèle")}</h3>
+                    <p>{model.get("timing", "-")}</p>
+                </div>
+                <div class="score" style="color: {color};">{conf_val}%</div>
+            </div>
+            <div class="bar"><div class="fill" style="width:{conf_val}%; background:{color};"></div></div>
+            <p style="margin-top:14px"><b>Scénario :</b> {model.get("scenario", "-")}</p>
+            <p><b>Temps sensible :</b> {model.get("sensible_weather", "-")}</p>
+            <p><b>Zones :</b> {model.get("affected_zones", "-")}</p>
+            <div class="tags">
+                <span class="tag">{model.get("mentions_count", "0")} mentions</span>
+            </div>
+        </article>
+        <article class="card">
+            <h3>Différences et limites ({model.get("name", "Modèle")})</h3>
+            <p><b>Écart avec les autres modèles :</b> {model.get("differences", "-")}</p>
+            <p><b>Pourquoi cette confiance :</b> {model.get("confidence_reason", "-")}</p>
+            <p><b>Limites :</b> {model.get("limits", "-")}</p>
+        </article>
+        """
+        html_blocks.append(card_html)
+    return "\n".join(html_blocks) if html_blocks else "<p>Aucun modèle spécifique n'est détaillé dans les sources.</p>"
+
+def build_image_cards(images_info, downloaded_images):
+    html_blocks = []
+    paired_count = min(len(images_info), len(downloaded_images))
+    for i in range(paired_count):
+        img_info = images_info[i]
+        img_path = downloaded_images[i]
+        
+        try:
+            with open(img_path, "rb") as f_img:
+                img_b64 = base64.b64encode(f_img.read()).decode('ascii')
+            ext = img_path.split('.')[-1]
+            img_html = f'<img src="data:image/{ext};base64,{img_b64}" style="width: 100%; border-bottom: 1px solid var(--line);" alt="Carte météo">'
+        except Exception as e:
+            print(f"Erreur encodage image {img_path} : {e}")
+            img_html = '<div class="ph">Erreur de chargement de l\'image</div>'
+            
+        card_html = f"""
+        <div class="imagebox">
+            {img_html}
+            <div class="caption">
+                <h3>{img_info.get("title", "Carte météo")}</h3>
+                <p><b>Modèle :</b> {img_info.get("model", "-")} | <b>Run :</b> {img_info.get("run", "-")}</p>
+                <p style="margin-top:8px;">{img_info.get("why_important", "")}</p>
+                <p style="margin-top:4px;"><b>À regarder :</b> {img_info.get("what_to_watch", "")}</p>
+                <small style="display:block; margin-top:8px; font-weight:700;">Confiance d'interprétation : {img_info.get("confidence", "-")}</small>
+                {f'<small style="color:var(--red); display:block; margin-top:4px;">⚠️ {img_info.get("attribution_uncertainty")}</small>' if img_info.get("attribution_uncertainty") else ''}
+            </div>
+        </div>
+        """
+        html_blocks.append(card_html)
+    return "\n".join(html_blocks) if html_blocks else "<p>Aucun graphique météo associé n'a été trouvé.</p>"
 
 def main():
     print(f"1. Chargement de l'index du forum : {INDEX_URL}")
@@ -462,7 +352,6 @@ def main():
         print("Aucun sujet de prévisions trouvé.")
         sys.exit(1)
         
-    # Calcul dynamique des dates de référence en français
     now = datetime.datetime.now()
     DAYS_FR = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
     MONTHS_FR = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
@@ -494,7 +383,6 @@ def main():
         match = re.search(r'semaine-(\d+)', url.lower())
         return int(match.group(1)) if match else 0
 
-    # Filtrer : garder uniquement les sujets de la fenêtre [courante - 1 .. courante + 4]
     relevant_topics = [
         t for t in clean_topics
         if current_iso_week - 1 <= get_topic_week_num(t) <= current_iso_week + 4
@@ -504,345 +392,1150 @@ def main():
         relevant_topics = sorted(clean_topics, key=get_topic_week_num, reverse=True)[:2]
 
     relevant_topics.sort(key=get_topic_week_num)
+    
+    if len(relevant_topics) < 2:
+        relevant_topics = sorted(clean_topics, key=get_topic_week_num, reverse=True)[:2]
+        relevant_topics.sort(key=get_topic_week_num)
+
     print(f"[INFO] Topics retenus (semaine ISO {current_iso_week}) : {[get_topic_week_num(t) for t in relevant_topics]} → {relevant_topics}")
 
-    topics_to_process = []
-    if len(relevant_topics) >= 2:
-        topics_to_process = [
-            (relevant_topics[0], "cours", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine en cours\nPériode à analyser : {jours_restants_cours_str} (jours restants uniquement). Les journées antérieures au {today_str} sont déjà passées, concentre-toi sur la fin de semaine."),
-            (relevant_topics[1], "future", f"Date actuelle de génération : {today_str}\nType de semaine : Semaine suivante (Tendance à moyen terme)\nPériode à analyser : {semaine_suivante_str} (semaine complète).")
-        ]
-    else:
-        topics_to_process = [
-            (relevant_topics[0], "cours", f"Date actuelle de génération : {today_str}\nSemaine en cours : {semaine_cours_str} (jours restants : {jours_restants_cours_str})\nSemaine suivante : {semaine_suivante_str}.")
-        ]
-        
-    results = []
-    for idx, (topic, sem_type, date_context) in enumerate(topics_to_process):
-        res = process_topic(topic, idx, date_context)
-        if res:
-            results.append(res)
-            
-    if not results:
-        print("Aucun sujet n'a pu être traité.")
+    week1_data = extract_comments_and_images(relevant_topics[0], 0)
+    week2_data = extract_comments_and_images(relevant_topics[1], 1)
+    
+    if not week1_data or not week2_data:
+        print("Erreur de récupération des données du forum.")
         sys.exit(1)
+
+    last_bulletin_path = "data/last_bulletin.json"
+    last_bulletin_context = "Aucun bulletin précédent disponible."
+    if os.path.exists(last_bulletin_path):
+        try:
+            with open(last_bulletin_path, "r", encoding="utf-8") as f_last:
+                last_data = json.load(f_last)
+                last_bulletin_context = (
+                    f"Dernier bulletin généré le {last_data.get('date_generation', 'Inconnue')}.\n"
+                    f"Résumé général précédent : {last_data.get('global_summary', 'Inconnu')}.\n"
+                    f"Confiance précédente de la semaine 1 : {last_data.get('w1_confidence', 80)}%.\n"
+                    f"Températures attendues précédemment : {last_data.get('w1_temp', 'De saison')}."
+                )
+        except Exception as e:
+            print(f"Erreur lecture dernier bulletin : {e}")
+
+    saison_actuelle = ["hiver", "printemps", "été", "automne"][(now.month % 12 // 3)]
+
+    system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
+
+MISSION
+À partir des discussions et analyses météorologiques brutes de deux semaines distinctes (Semaine en cours et Semaine suivante), tu dois produire un bulletin d'analyse météorologique consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises.
+
+RÈGLE D'OR N°1 : DISCIPLINE SAISONNIÈRE & PRUDENCE MÉTÉOROLOGIQUE
+- Nous sommes en ÉTÉ. Sauf mention explicite et justifiée en haute altitude (>1500m), toute référence à des conditions hivernales (neige en plaine, gel généralisé, températures négatives) est STRICTEMENT INTERDITE.
+- Ne transforme jamais une simple conjecture en certitude. Si les prévisionnistes du forum hésitent, utilise des termes prudents ("probable", "incertain", "à confirmer").
+- Ne cite jamais de pseudos ou d'utilisateurs du forum. Réfère-toi à "les prévisionnistes", "les modélisations" ou "le consensus".
+
+RÈGLE D'OR N°2 : ANALYSE PAR MODÈLE & CALCUL D'INDICE DE CONFIANCE
+- Pour chaque semaine, tu devez analyser la comparaison des modèles météo cités (ex: ECMWF, GFS, ICON, GEM, AIFS).
+- Pour chaque modèle, calcule un Indice de Confiance d'Extraction (de 0 à 100%) selon ce barème logique :
+  - Nombre de mentions positives ou convergentes du modèle : >=5 mentions = +30% | 2-4 mentions = +15% | 1 mention = +5%.
+  - Concordance générale avec les autres modèles : Accord total = +30% | Accord partiel = +15% | Contradiction forte = +5%.
+  - Précision des détails (zones, échéance) : Détails précis = +20% | Allusions générales = +10%.
+  - Présence de cartes associées : Oui = +20% | Non = +0%.
+  Si l'indice ne peut être estimé, écris "Non estimable". Cet indice mesure la fiabilité de la reconstitution du modèle depuis les messages et images du forum, pas une probabilité physique.
+
+RÈGLE D'OR N°3 : DÉCOUPAGE PAR GRANDES ZONES MÉTÉO (7 ZONES FIXES)
+Pour chaque semaine, tu devez évaluer le temps sensible pour ces 7 zones géographiques :
+1. Ouest et façade atlantique
+2. Nord et Nord-Ouest
+3. Nord-Est
+4. Centre
+5. Sud-Ouest
+6. Sud-Est et Méditerranée
+7. Corse (uniquement si documentée, sinon écrire "Informations insuffisantes dans les sources")
+Si les messages du forum ne parlent pas d'une zone, n'invente rien. Rédige explicitement "Informations insuffisantes dans les sources pour cette zone".
+
+RÈGLE D'OR N°4 : SYNTHÈSE GLOBALE & POST LINKEDIN
+- Produis une synthèse globale des 15 jours combinant l'évolution générale et le fait météo majeur.
+- Rédige un Post LinkedIn professionnel, prêt à copier-coller (250-300 mots), aéré en paragraphes très courts pour smartphone, contenant un titre fort, une introduction courte, les dates précises, les tendances, les divergences et 4 à 8 hashtags pertinents. Aucun formatage markdown gras/italique dans le post LinkedIn.
+
+RÈGLE D'OR N°5 : BULLETIN PRÉCÉDENT & COMPARAISON
+Si un bulletin précédent (données clés) est fourni dans l'invite utilisateur, tu dois générer une section "Ce qui a changé depuis le précédent bulletin". Rédige cette section sous la balise suivante :
+[WHAT_CHANGED_SINCE_LAST]
+Description des évolutions importantes constatées (ex: renforcement d'un scénario, hausse des températures, décalage d'une perturbation).
+Si aucun bulletin précédent n'est fourni, laisse cette section vide ou n'écris rien sous cette balise.
+
+FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ce balisage :
+
+[WEEK_1_START]
+[W1_DATES]
+Période exacte de la semaine 1 (ex: Du Lundi 27 Juillet au Dimanche 2 Août 2026)
+
+[W1_KEY_POINT_1]
+Premier fait marquant très court (max 15 mots)
+
+[W1_KEY_POINT_2]
+Deuxième fait marquant très court (max 15 mots)
+
+[W1_KEY_POINT_3]
+Troisième fait marquant très court (max 15 mots)
+
+[W1_KEY_POINT_4]
+Quatrième fait marquant très court (max 15 mots)
+
+[W1_KEY_POINT_5]
+Cinquième fait marquant très court (max 15 mots) ou laisser vide
+
+[W1_KEY_POINT_6]
+Sixième fait marquant très court (max 15 mots) ou laisser vide
+
+--- (Répéter le bloc ci-dessous pour chaque modèle météo cité) ---
+[W1_MODEL_START]
+[W1_MODEL_NAME]
+Nom du modèle
+[W1_MODEL_SCENARIO]
+Scénario général du modèle
+[W1_MODEL_SENSIBLE_WEATHER]
+Temps sensible (soleil, orages, etc.)
+[W1_MODEL_TEMPERATURES]
+Tendances de températures
+[W1_MODEL_PRECIPITATIONS]
+Tendances de précipitations
+[W1_MODEL_AFFECTED_ZONES]
+Régions ou zones géographiques concernées
+[W1_MODEL_TIMING]
+Échéance ou période d'application
+[W1_MODEL_MENTIONS_COUNT]
+Nombre de mentions exploitables
+[W1_MODEL_DIFFERENCES]
+Différences notables avec les autres modèles
+[W1_MODEL_CONFIDENCE_REASON]
+Justification de l'indice de confiance d'extraction
+[W1_MODEL_LIMITS]
+Limites de l'analyse pour ce modèle
+[W1_MODEL_CONFIDENCE]
+Valeur en % ou Non estimable
+[W1_MODEL_END]
+-----------------------------------------------------------------
+
+[W1_CONVERGENCES]
+Points de convergence entre les modèles
+
+[W1_DIVERGENCES]
+Points de divergence et désaccords
+
+[W1_ZONE_WEST]
+Description météo pour Ouest et façade atlantique
+[W1_ZONE_WEST_CONF]
+Confiance et origine de l'incertitude
+
+[W1_ZONE_NORTH]
+Description météo pour Nord et Nord-Ouest
+[W1_ZONE_NORTH_CONF]
+Confiance et origine de l'incertitude
+
+[W1_ZONE_NORTHEAST]
+Description météo pour Nord-Est
+[W1_ZONE_NORTHEAST_CONF]
+Confiance et origine de l'incertitude
+
+[W1_ZONE_CENTRAL]
+Description météo pour Centre
+[W1_ZONE_CENTRAL_CONF]
+Confiance et origine de l'incertitude
+
+[W1_ZONE_SOUTHWEST]
+Description météo pour Sud-Ouest
+[W1_ZONE_SOUTHWEST_CONF]
+Confiance et origine de l'incertitude
+
+[W1_ZONE_SOUTHEAST]
+Description météo pour Sud-Est et Méditerranée
+[W1_ZONE_SOUTHEAST_CONF]
+Confiance et origine de l'incertitude
+
+[W1_ZONE_CORSICA]
+Description météo pour Corse
+[W1_ZONE_CORSICA_CONF]
+Confiance et origine de l'incertitude
+
+[W1_SOLID_POINTS]
+Points les mieux établis de la semaine
+
+[W1_FRAGILE_POINTS]
+Points les plus fragiles de la semaine
+
+[W1_NEXT_RUNS_TO_WATCH]
+Ce qu'il faut surveiller dans les prochains runs
+
+[W1_PHASE_1_DATES]
+Dates/Jours de la phase 1
+[W1_PHASE_1]
+Description de la phase 1
+[W1_PHASE_2_DATES]
+Dates/Jours de la phase 2
+[W1_PHASE_2]
+Description de la phase 2
+[W1_PHASE_3_DATES]
+Dates/Jours de la phase 3
+[W1_PHASE_3]
+Description de la phase 3
+[W1_PHASE_4_DATES]
+Dates/Jours de la phase 4
+[W1_PHASE_4]
+Description de la phase 4
+
+--- (Répéter le bloc ci-dessous pour chaque image analysée, max 3) ---
+[W1_IMAGE_START]
+[W1_IMAGE_TITLE]
+Titre de l'image
+[W1_IMAGE_MODEL]
+Modèle de l'image (ex: ECMWF)
+[W1_IMAGE_RUN]
+Échéance ou run
+[W1_IMAGE_WHY_IMPORTANT]
+Pourquoi cette carte est importante
+[W1_IMAGE_WHAT_TO_WATCH]
+Ce qu'il faut regarder
+[W1_IMAGE_CONFIDENCE]
+Confiance d'interprétation
+[W1_IMAGE_ATTRIBUTION_UNCERTAINTY]
+Incertitude d'attribution (laisser vide si aucune)
+[W1_IMAGE_END]
+---------------------------------------------------------------------
+
+[WEEK_1_END]
+
+[WEEK_2_START]
+... (mêmes balises W2_ que pour W1_ ci-dessus) ...
+[WEEK_2_END]
+
+[GLOBAL_START]
+[GLOBAL_15_DAY_TREND]
+Tendance générale des 15 jours
+[MOST_RELIABLE_WEEK]
+Semaine la plus fiable des deux et pourquoi
+[GLOBAL_SOLID_POINTS]
+Points consolidés majeurs des deux semaines
+[GLOBAL_RECURRING_PHENOMENA]
+Phénomènes météo récurrents
+[GLOBAL_AFFECTED_ZONES]
+Régions les plus touchées/concernées
+[GLOBAL_MAJOR_UNCERTAINTIES]
+Incertitudes majeurs globales
+[LINKEDIN_POST]
+Post LinkedIn complet prêt à copier-coller
+[GLOBAL_END]
+
+[DOUBTS_START]
+[DOUBTS_TIMING]
+Incertitudes de calendrier (échéances)
+[DOUBTS_LOCATION]
+Incertitudes de localisation
+[DOUBTS_INTENSITY]
+Incertitudes d'intensité
+[MISSING_INFORMATION]
+Informations manquantes
+[LOW_DOCUMENTED_MODELS]
+Modèles trop peu commentés
+[UNCERTAIN_IMAGES]
+Images difficiles à interpréter
+[DOUBTS_END]
+"""
+
+    user_prompt = f"""Date actuelle de génération : {today_str}
+Saison en France : {saison_actuelle.upper()}
+
+=== PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
+{last_bulletin_context}
+============================================
+
+=== DISCUSSIONS SEMAINE 1 ({jours_restants_cours_str}) ===
+{week1_data["comments_text"]}
+
+=== DISCUSSIONS SEMAINE 2 ({semaine_suivante_str}) ===
+{week2_data["comments_text"]}
+"""
+
+    response = call_llm(system_prompt, user_prompt)
+    if not response:
+        print("[LLM] ERREUR : Pas de réponse du LLM.")
+        sys.exit(1)
+
+    w1_text = re.search(r'\[WEEK_1_START\](.*?)\[WEEK_1_END\]', response, re.DOTALL)
+    w2_text = re.search(r'\[WEEK_2_START\](.*?)\[WEEK_2_END\]', response, re.DOTALL)
+    global_text = re.search(r'\[GLOBAL_START\](.*?)\[GLOBAL_END\]', response, re.DOTALL)
+    doubts_text = re.search(r'\[DOUBTS_START\](.*?)\[DOUBTS_END\]', response, re.DOTALL)
+    what_changed = extract_tag(response, "WHAT_CHANGED_SINCE_LAST")
+
+    w1_content = w1_text.group(1) if w1_text else ""
+    w2_content = w2_text.group(1) if w2_text else ""
+    global_content = global_text.group(1) if global_text else ""
+    doubts_content = doubts_text.group(1) if doubts_text else ""
+
+    # Semaine 1
+    w1_dates = extract_tag(w1_content, "W1_DATES") or jours_restants_cours_str
+    w1_keys = [extract_tag(w1_content, f"W1_KEY_POINT_{i}") for i in range(1, 7)]
+    w1_keys_html = "".join([f'<div class="key">{k}</div>' for k in w1_keys if k])
+    w1_models = parse_models(w1_content, "W1")
+    w1_models_html = build_model_cards(w1_models)
+    w1_images_info = parse_images_info(w1_content, "W1")
+    w1_images_html = build_image_cards(w1_images_info, week1_data["images"])
+
+    # Semaine 2
+    w2_dates = extract_tag(w2_content, "W2_DATES") or semaine_suivante_str
+    w2_keys = [extract_tag(w2_content, f"W2_KEY_POINT_{i}") for i in range(1, 7)]
+    w2_keys_html = "".join([f'<div class="key">{k}</div>' for k in w2_keys if k])
+    w2_models = parse_models(w2_content, "W2")
+    w2_models_html = build_model_cards(w2_models)
+    w2_images_info = parse_images_info(w2_content, "W2")
+    w2_images_html = build_image_cards(w2_images_info, week2_data["images"])
+
+    # Extraction des confiances et températures pour l'historique
+    try:
+        w1_conf_val = int(re.search(r'\d+', w1_models[0].get("confidence", "80")).group(0)) if w1_models else 80
+    except Exception:
+        w1_conf_val = 80
         
-    # Style CSS Premium & Responsive
-    style = """
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f1f5f9; margin: 0; padding: 25px 15px; }
-    .container { max-width: 880px; background-color: #ffffff; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.09); border: 1px solid #cbd5e1; }
-    .header { background: linear-gradient(135deg, #0284c7 0%, #1e3a8a 60%, #0f172a 100%); color: #ffffff; padding: 40px 30px; text-align: center; }
-    .header h1 { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
-    .header p { margin: 10px 0 0 0; font-size: 14px; opacity: 0.92; }
-    .content { padding: 35px 30px; }
-    .week-divider { border-top: 3px dashed #94a3b8; margin: 55px 0; }
+    w1_temp_val = w1_models[0].get("temperatures", "De saison") if w1_models else "De saison"
+
+    try:
+        w2_conf_val = int(re.search(r'\d+', w2_models[0].get("confidence", "70")).group(0)) if w2_models else 70
+    except Exception:
+        w2_conf_val = 70
+        
+    w2_temp_val = w2_models[0].get("temperatures", "De saison") if w2_models else "De saison"
+
+    # Enregistrement
+    run_record = {
+        "date_generation": today_str,
+        "w1_confidence": w1_conf_val,
+        "w1_temp": w1_temp_val,
+        "w2_confidence": w2_conf_val,
+        "w2_temp": w2_temp_val,
+        "global_summary": extract_tag(global_content, "GLOBAL_15_DAY_TREND")
+    }
     
-    .week-title-box { margin-bottom: 25px; padding-left: 16px; border-left: 6px solid #0284c7; }
-    .week-title-line1 { font-size: 22px; font-weight: 800; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; }
-    .week-title-line2 { font-size: 15px; font-weight: 600; color: #0284c7; margin-top: 4px; }
-
-    .section-title { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; color: #475569; margin-top: 35px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
+    os.makedirs("history", exist_ok=True)
+    os.makedirs("data", exist_ok=True)
     
-    .hero-express { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: #ffffff; border-radius: 18px; padding: 26px; margin-bottom: 30px; box-shadow: 0 12px 25px -5px rgba(30, 58, 138, 0.3); }
-    .hero-top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
-    .hero-label { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: #38bdf8; }
-    
-    .conf-badge-green { background: #10b981; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-    .conf-badge-orange { background: #f59e0b; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-    .conf-badge-red { background: #ef4444; color: #ffffff; font-size: 13px; font-weight: 800; padding: 5px 14px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    date_fn = now.strftime('%Y-%m-%d_%H-%M')
+    with open(f"history/{date_fn}.json", "w", encoding="utf-8") as f_hist:
+        json.dump(run_record, f_hist, ensure_ascii=False, indent=2)
+    with open(last_bulletin_path, "w", encoding="utf-8") as f_last:
+        json.dump(run_record, f_last, ensure_ascii=False, indent=2)
 
-    .hero-summary { font-size: 16px; font-weight: 700; line-height: 1.5; margin-bottom: 14px; color: #ffffff; }
-    .hero-conf-explanation { font-size: 12.5px; font-style: italic; color: #93c5fd; margin-bottom: 18px; background: rgba(255,255,255,0.08); padding: 8px 12px; border-radius: 8px; border-left: 3px solid #38bdf8; }
+    sparkline_conf_html, temp_evolution_html = generate_sparklines_html()
 
-    .hero-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-    .hero-card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 10px; padding: 10px 8px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: center; }
-    .hero-card label { display: block; font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #93c5fd; margin-bottom: 4px; }
-    .hero-card span { font-size: 13px; font-weight: 800; color: #ffffff; text-transform: capitalize; }
-    
-    .timeline-container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 30px; }
-    .timeline-step { background: #f8fafc; border-radius: 12px; padding: 14px 12px; border: 1px solid #e2e8f0; border-top: 4px solid #0284c7; }
-    .timeline-step strong { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px; color: #0284c7; margin-bottom: 6px; }
-    .timeline-step p { margin: 0; font-size: 12.5px; color: #334155; line-height: 1.45; }
-
-    .regional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 30px; }
-    .regional-card { background: #ffffff; border-radius: 12px; padding: 14px 16px; border: 1px solid #e2e8f0; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
-    .regional-card strong { color: #0f172a; font-size: 12.5px; display: block; margin-bottom: 5px; }
-    .regional-card p { margin: 0; font-size: 12.5px; color: #475569; line-height: 1.5; }
-    
-    .confidence-panel { background: #f8fafc; border-radius: 14px; padding: 18px; border: 1px solid #e2e8f0; margin-bottom: 30px; }
-    .confidence-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-    .confidence-head strong { font-size: 13.5px; color: #0f172a; }
-    .uncertainties-box { background: #ffffff; border-radius: 10px; padding: 12px 14px; border-left: 4px solid #f59e0b; border: 1px solid #fef3c7; border-left-width: 4px; font-size: 12.5px; color: #334155; line-height: 1.5; }
-    
-    .scenario-card { border-radius: 14px; padding: 18px; margin-bottom: 16px; border: 1px solid #e2e8f0; background: #ffffff; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
-    .sc-major { border-left: 6px solid #10b981; }
-    .sc-median { border-left: 6px solid #f59e0b; }
-    .sc-minor { border-left: 6px solid #ef4444; }
-    .sc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-    .sc-header h3 { margin: 0; font-size: 14.5px; font-weight: 800; color: #0f172a; }
-    .sc-prob { font-size: 11.5px; padding: 3px 10px; border-radius: 20px; color: #ffffff; font-weight: 800; }
-    .bg-major { background-color: #10b981; }
-    .bg-median { background-color: #f59e0b; }
-    .bg-minor { background-color: #ef4444; }
-    .sc-text { margin: 0; font-size: 12.5px; line-height: 1.55; color: #334155; text-align: justify; }
-
-    .takeaways-panel { background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 6px solid #10b981; border-radius: 14px; padding: 18px; margin-bottom: 30px; }
-    .takeaways-panel h3 { margin: 0 0 10px 0; font-size: 13.5px; font-weight: 800; color: #166534; text-transform: uppercase; letter-spacing: 0.5px; }
-    .takeaways-panel ul { margin: 0; padding-left: 18px; color: #15803d; font-size: 12.5px; line-height: 1.6; }
-    .takeaways-panel li { margin-bottom: 4px; }
-    
-    /* Graphiques Météo */
-    .meteo-images-container { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 30px; justify-content: space-between; }
-    .meteo-image-card { flex: 1 1 45%; min-width: 280px; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); text-align: center; }
-    .meteo-image-card span { font-weight: 800; font-size: 11px; color: #475569; display: block; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .meteo-image-card img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #f1f5f9; }
-
-    /* Pack Réseaux Sociaux */
-    .social-pack-container { display: flex; flex-direction: column; gap: 16px; margin-bottom: 30px; }
-    .social-platform-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03); }
-    .social-platform-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; font-weight: 800; font-size: 13px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.5px; }
-    .sp-linkedin { background: #0077b5; }
-    .sp-facebook { background: #1877f2; }
-    .sp-twitter { background: #0f1419; }
-    .sp-tiktok { background: #fe2c55; }
-    .sp-instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
-    .social-platform-body { padding: 18px; font-size: 12.5px; white-space: pre-wrap; color: #334155; line-height: 1.6; font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; }
-    .copy-btn { background: rgba(255, 255, 255, 0.25); border: none; color: #ffffff; font-size: 10px; font-weight: bold; padding: 4px 10px; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.2s; }
-    .copy-btn:hover { background: rgba(255, 255, 255, 0.4); }
-    """
-
-    weeks_html = ""
-    for w_idx, w_res in enumerate(results):
-        data = w_res["data"]
-        downloaded_images = w_res["images"]
-        
-        # Encodage des graphiques
-        html_images_block = ""
-        for idx, img_path in enumerate(downloaded_images):
-            try:
-                with open(img_path, "rb") as f_img:
-                    img_b64 = base64.b64encode(f_img.read()).decode('ascii')
-                ext = img_path.split('.')[-1]
-                html_images_block += f"""
-                <div class="meteo-image-card">
-                    <span>📈 Modélisation Météo {idx+1}</span>
-                    <img src="data:image/{ext};base64,{img_b64}" alt="Graphique Météo {idx+1}">
-                </div>
-                """
-            except Exception as e:
-                print(f"Erreur encodage base64 pour {img_path} : {e}")
-        
-        if html_images_block:
-            html_images_block = f"""
-            <div class="section-title">📊 MODÉLISATIONS & GRAPHIQUES DE TENDANCE</div>
-            <div class="meteo-images-container">{html_images_block}</div>
-            """
-        
-        express = data.get("express", {})
-        timeline = data.get("timeline", {})
-        regional = data.get("regional", {})
-        conf = data.get("confidence", {})
-        scenarios = data.get("scenarios", {})
-        social = data.get("social_pack", {}) or {}
-
-        # Nettoyage des posts sociaux pour éviter les backslashes dans le f-string (SyntaxError en Python <3.12)
-        linkedin_clean = social.get('linkedin', '').replace('<br>', '\n').replace('<br/>', '\n')
-        facebook_clean = social.get('facebook', '').replace('<br>', '\n').replace('<br/>', '\n')
-        twitter_clean = social.get('twitter', '').replace('<br>', '\n').replace('<br/>', '\n')
-        tiktok_clean = social.get('tiktok', '').replace('<br>', '\n').replace('<br/>', '\n')
-        instagram_clean = social.get('instagram', '').replace('<br>', '\n').replace('<br/>', '\n')
-
-        # Couleur dynamique du badge de confiance
-        conf_score_raw = conf.get('score', '4/5')
-        conf_class = "conf-badge-green"
-        if "3/" in conf_score_raw:
-            conf_class = "conf-badge-orange"
-        elif "1/" in conf_score_raw or "2/" in conf_score_raw:
-            conf_class = "conf-badge-red"
-
-        # Traitement des puces "À Retenir"
-        takeaways_raw = data.get("key_takeaways", "")
-        takeaways_items = [t.strip("-* ").strip() for t in takeaways_raw.split("\n") if t.strip()]
-        takeaways_li_html = "".join([f"<li>{t}</li>" for t in takeaways_items if t])
-        if not takeaways_li_html:
-            takeaways_li_html = "<li>Synthèse des prévisions établie avec succès.</li>"
-
-        divider = '<div class="week-divider"></div>' if w_idx > 0 else ""
-        weeks_html += f"""
-        {divider}
-        
-        <!-- TITRE DE SEMAINE EN 2 LIGNES -->
-        <div class="week-title-box">
-            <h2 class="week-title-line1">📅 {data.get('title_line1', 'SEMAINE')}</h2>
-            <div class="week-title-line2">{data.get('title_line2', 'Synthèse des prévisions')}</div>
-        </div>
-        
-        <!-- 1. HERO RESUME EXPRESS (<10 SECONDES) -->
-        <div class="hero-express">
-            <div class="hero-top-bar">
-                <span class="hero-label">⚡ LECTURE < 10s : RÉSUMÉ EXPRESS</span>
-                <span class="{conf_class}">Confiance : {conf_score_raw}</span>
-            </div>
-            <div class="hero-summary">{express.get('summary', '')}</div>
-            <div class="hero-conf-explanation">🎯 <strong>Raison de la note ({conf_score_raw}) :</strong> {conf.get('desc', '')}</div>
-            <div class="hero-grid">
-                <div class="hero-card"><label>🌤️ Temps</label><span>{express.get('trend', '-')}</span></div>
-                <div class="hero-card"><label>🌡️ Températures</label><span>{express.get('temperatures', '-')}</span></div>
-                <div class="hero-card"><label>🌧️ Pluies</label><span>{express.get('precipitations', '-')}</span></div>
-                <div class="hero-card"><label>⚠️ Risque</label><span>{express.get('main_risk', 'Aucun')}</span></div>
-            </div>
-        </div>
-
-        <!-- 2. CHRONOLOGIE DE LA SEMAINE -->
-        <div class="section-title">🗓️ CHRONOLOGIE DE LA SEMAINE</div>
-        <div class="timeline-container">
-            <div class="timeline-step"><strong>Début de semaine</strong><p>{timeline.get('early', '-')}</p></div>
-            <div class="timeline-step"><strong>Milieu de semaine</strong><p>{timeline.get('mid', '-')}</p></div>
-            <div class="timeline-step"><strong>Fin de semaine</strong><p>{timeline.get('late', '-')}</p></div>
-            <div class="timeline-step"><strong>Week-end</strong><p>{timeline.get('weekend', '-')}</p></div>
-        </div>
-
-        <!-- 3. SYNTHESE PAR REGIONS HARMONISEES -->
-        <div class="section-title">🗺️ SYNTHÈSE PAR GRANDES RÉGIONS</div>
-        <div class="regional-grid">
-            <div class="regional-card"><strong>📍 Hauts-de-France & Nord</strong><p>{regional.get('hdf_north', '-')}</p></div>
-            <div class="regional-card"><strong>🌊 Façade Atlantique</strong><p>{regional.get('atlantic', '-')}</p></div>
-            <div class="regional-card"><strong>🏙️ Régions Centrales</strong><p>{regional.get('central', '-')}</p></div>
-            <div class="regional-card"><strong>☀️ Moitié Sud</strong><p>{regional.get('south', '-')}</p></div>
-            <div class="regional-card"><strong>🏖️ Pourtour Méditerranéen</strong><p>{regional.get('mediterranean', '-')}</p></div>
-            <div class="regional-card"><strong>⛰️ Reliefs & Montagnes</strong><p>{regional.get('mountains', 'Pas de particularité remarquable')}</p></div>
-        </div>
-
-        <!-- 4. CONFIANCE & INCERTITUDES -->
-        <div class="section-title">🎯 CONFIANCE ET INCERTITUDES RESTANTES</div>
-        <div class="confidence-panel">
-            <div class="confidence-head">
-                <strong>Fiabilité du Consensus des Modèles</strong>
-                <span class="{conf_class}">Note : {conf_score_raw}</span>
-            </div>
-            <div class="uncertainties-box">
-                <strong style="display: block; margin-bottom: 4px; color: #d97706; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">❓ Incertitudes Majeures & Points à Surveiller :</strong>
-                {data.get('key_uncertainties', '')}\n{data.get('monitoring_points', '')}
-            </div>
-        </div>
-
-        <!-- 5. GRAPHIQUES METEO -->
-        {html_images_block}
-
-        <!-- 6. LES 3 SCENARIOS CALIBRES -->
-        <div class="section-title">🔮 LES 3 SCÉNARIOS ATMOSPHÉRIQUES DÉTAILLÉS</div>
-        
-        <div class="scenario-card sc-major">
-            <div class="sc-header">
-                <h3>🟢 {scenarios.get('majoritaire', {}).get('title', 'Scénario Majoritaire')}</h3>
-                <span class="sc-prob bg-major">{scenarios.get('majoritaire', {}).get('prob', '65%')}</span>
-            </div>
-            <p class="sc-text">{scenarios.get('majoritaire', {}).get('desc', '')}</p>
-        </div>
-        
-        <div class="scenario-card sc-median">
-            <div class="sc-header">
-                <h3>🟡 {scenarios.get('median', {}).get('title', 'Scénario Alternatif')}</h3>
-                <span class="sc-prob bg-median">{scenarios.get('median', {}).get('prob', '25%')}</span>
-            </div>
-            <p class="sc-text">{scenarios.get('median', {}).get('desc', '')}</p>
-        </div>
-        
-        <div class="scenario-card sc-minor">
-            <div class="sc-header">
-                <h3>🔴 {scenarios.get('minoritaire', {}).get('title', 'Scénario Minoritaire')}</h3>
-                <span class="sc-prob bg-minor">{scenarios.get('minoritaire', {}).get('prob', '10%')}</span>
-            </div>
-            <p class="sc-text">{scenarios.get('minoritaire', {}).get('desc', '')}</p>
-        </div>
-
-        <!-- 7. A RETENIR (KEY TAKEAWAYS) -->
-        <div class="takeaways-panel">
-            <h3>📌 À Retenir — L'Essentiel en 4 Puces</h3>
-            <ul>
-                {takeaways_li_html}
-            </ul>
-        </div>
-
-        <!-- 8. PACK RÉSEAUX SOCIAUX PRÊT À PUBLIER -->
-        <div class="section-title">📢 PACK RÉSEAUX SOCIAUX (PRÊT À DIFFUSER)</div>
-        <div class="social-pack-container">
-            <!-- LinkedIn -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-linkedin">
-                    <span>🔗 LinkedIn (Storytelling Expert Météo)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
-                </div>
-                <div class="social-platform-body">{linkedin_clean}</div>
-            </div>
-
-            <!-- Facebook -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-facebook">
-                    <span>👥 Facebook (Communautaire & Grand Public)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
-                </div>
-                <div class="social-platform-body">{facebook_clean}</div>
-            </div>
-
-            <!-- X (Twitter) -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-twitter">
-                    <span>🐦 X (Twitter - 280 Caractères max)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
-                </div>
-                <div class="social-platform-body">{twitter_clean}</div>
-            </div>
-
-            <!-- TikTok -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-tiktok">
-                    <span>🎵 TikTok (Description vidéo)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
-                </div>
-                <div class="social-platform-body">{tiktok_clean}</div>
-            </div>
-
-            <!-- Instagram -->
-            <div class="social-platform-card">
-                <div class="social-platform-header sp-instagram">
-                    <span>📸 Instagram (Légende & CTA Bio)</span>
-                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.parentNode.parentNode.querySelector('.social-platform-body').innerText); alert('Copié dans le presse-papiers !');">Copier</button>
-                </div>
-                <div class="social-platform-body">{instagram_clean}</div>
+    # Section Ce qui a changé
+    what_changed_box = ""
+    if what_changed:
+        what_changed_box = f"""
+        <div class="section">
+            <h2>📈 Ce qui a changé depuis le précédent bulletin</h2>
+            <div class="notice" style="background:#eff6ff; color:#1e40af; border-color:#bfdbfe;">
+                {what_changed}
             </div>
         </div>
         """
 
-    html = f"""<!DOCTYPE html>
+    linkedin_raw = extract_tag(global_content, "LINKEDIN_POST")
+    linkedin_clean = linkedin_raw.replace('<br>', '\n').replace('<br/>', '\n')
+
+    # CSS
+    style = """
+    :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --ink: #0f172a;
+        --muted: #64748b;
+        --line: #e2e8f0;
+        --navy: #0f172a;
+        --blue: #2563eb;
+        --cyan: #06b6d4;
+        --green: #16a34a;
+        --amber: #d97706;
+        --red: #dc2626;
+        --shadow: 0 10px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+        --radius-lg: 24px;
+        --radius-md: 16px;
+        --radius-sm: 8px;
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        background: var(--bg);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: var(--ink);
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+        width: min(1180px, calc(100% - 24px));
+        margin: 24px auto 60px;
+    }
+    .hero {
+        padding: 40px;
+        border-radius: var(--radius-lg);
+        color: #ffffff;
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        box-shadow: var(--shadow);
+        position: relative;
+        overflow: hidden;
+    }
+    .eyebrow {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #60a5fa;
+        margin-bottom: 8px;
+    }
+    .hero h1 {
+        margin: 0 0 12px;
+        font-size: clamp(28px, 5vw, 44px);
+        line-height: 1.1;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+    }
+    .hero p {
+        max-width: 800px;
+        margin: 0;
+        color: #cbd5e1;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .meta {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 24px;
+    }
+    .chip {
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        font-size: 12px;
+        font-weight: 700;
+        color: #e2e8f0;
+    }
+    .tabs {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin: 24px 0 16px;
+    }
+    .tabs button {
+        border: 1px solid var(--line);
+        padding: 12px 20px;
+        border-radius: var(--radius-md);
+        background: var(--card);
+        color: #475569;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.02);
+        transition: all 0.2s ease;
+    }
+    .tabs button:hover {
+        background: #f8fafc;
+        border-color: #cbd5e1;
+    }
+    .tabs button.active {
+        background: var(--navy);
+        border-color: var(--navy);
+        color: #ffffff;
+        box-shadow: var(--shadow);
+    }
+    .panel {
+        display: none;
+    }
+    .panel.active {
+        display: block;
+    }
+    .section {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-lg);
+        padding: 30px;
+        margin-top: 20px;
+        box-shadow: var(--shadow);
+    }
+    .section h2 {
+        margin: 0 0 8px;
+        font-size: 24px;
+        font-weight: 800;
+        letter-spacing: -0.015em;
+        color: var(--navy);
+    }
+    .sub {
+        margin: 0 0 24px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+    .grid {
+        display: grid;
+        gap: 16px;
+    }
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+    .card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        padding: 20px;
+        background: #ffffff;
+        position: relative;
+    }
+    .card h3 {
+        margin: 0 0 10px;
+        font-size: 16px;
+        font-weight: 800;
+        color: var(--navy);
+    }
+    .card p {
+        margin: 0;
+        color: #475569;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .accent {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: #ffffff;
+        border: none;
+    }
+    .accent h3 { color: #ffffff; }
+    .accent p { color: #e2e8f0; }
+    
+    .key {
+        padding: 16px 20px;
+        border-radius: var(--radius-md);
+        background: #f1f5f9;
+        border-left: 4px solid var(--blue);
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--navy);
+    }
+    .model-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+    .score {
+        font-size: 26px;
+        font-weight: 850;
+    }
+    .bar {
+        height: 8px;
+        background: #e2e8f0;
+        border-radius: 999px;
+        overflow: hidden;
+        margin-top: 12px;
+    }
+    .accent .bar { background: rgba(255, 255, 255, 0.15); }
+    .fill { height: 100%; border-radius: 999px; }
+    .tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin-top: 14px;
+    }
+    .tag {
+        font-size: 10.5px;
+        font-weight: 700;
+        padding: 4px 8px;
+        border-radius: 999px;
+        background: #f1f5f9;
+        color: #475569;
+    }
+    .accent .tag { background: rgba(255, 255, 255, 0.1); color: #f1f5f9; }
+    .zone h3 { margin: 4px 0 8px; }
+    .zone small {
+        display: block;
+        margin-top: 12px;
+        color: var(--muted);
+        font-weight: 700;
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+    .splitline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .solid { border-top: 4px solid var(--green); }
+    .fragile { border-top: 4px solid var(--amber); }
+    
+    .timeline {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+    }
+    .phase {
+        padding: 16px;
+        border-radius: var(--radius-md);
+        background: #f8fafc;
+        border: 1px solid var(--line);
+    }
+    .phase b {
+        display: block;
+        color: var(--blue);
+        margin-bottom: 6px;
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .phase p { margin: 0; font-size: 13.5px; color: #475569; }
+    
+    .images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+    .imagebox {
+        overflow: hidden;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--line);
+        background: #ffffff;
+    }
+    .ph {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+        color: var(--muted);
+        font-weight: 700;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 1px solid var(--line);
+    }
+    .caption { padding: 16px; }
+    .caption h3 { margin: 0 0 6px; font-size: 15px; font-weight: 800; color: var(--navy); }
+    .caption p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.4; }
+    
+    .linkedin {
+        white-space: pre-wrap;
+        background: #0f172a;
+        color: #f8fafc;
+        border-radius: var(--radius-md);
+        padding: 24px;
+        font-size: 14.5px;
+        line-height: 1.6;
+        border: 1px solid var(--line);
+    }
+    .copy {
+        margin-top: 14px;
+        border: none;
+        border-radius: var(--radius-sm);
+        padding: 10px 18px;
+        font-weight: 700;
+        cursor: pointer;
+        background: var(--blue);
+        color: #ffffff;
+    }
+    .notice {
+        padding: 16px 20px;
+        border-radius: var(--radius-md);
+        background: #fffbeb;
+        color: #78350f;
+        border: 1px solid #fef3c7;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .evolution-card {
+        background: #f8fafc;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        padding: 20px;
+    }
+    .sparkline {
+        font-family: monospace;
+        font-size: 13px;
+        line-height: 1.5;
+        color: var(--navy);
+        background: #ffffff;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        padding: 12px;
+        margin-top: 8px;
+    }
+    .sparkline-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4px;
+    }
+    .trend-pill {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .trend-up { background: #dcfce7; color: #166534; }
+
+    @media (max-width: 900px) {
+        .grid-3, .grid-4, .images, .timeline { grid-template-columns: repeat(2, 1fr); }
+        .splitline { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 620px) {
+        .hero { padding: 24px; }
+        .grid-2, .grid-3, .grid-4, .images, .timeline { grid-template-columns: 1fr; }
+        .section { padding: 20px; }
+        .tabs button { flex: 1 1 46%; padding: 10px; }
+    }
+    @media print {
+        .tabs { display: none; }
+        .panel { display: block !important; }
+        .section, .hero { box-shadow: none; margin-top: 15px; }
+    }
+    """
+
+    # Template HTML de base avec des tags de remplacement
+    html_template = """<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyses & Tendances Météo - Forum</title>
-    <style>{style}</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bulletin de Tendances Météo Forum</title>
+[STYLE_PLACEHOLDER]
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div style="font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">MONSIEUR MÉTÉO</div>
-            <h1>📊 BULLETIN ÉVOLUTION & TENDANCES MÉTÉO</h1>
-            <p>Analyse consolidée du {datetime.datetime.now().strftime('%d/%m/%Y')} pour les 2 prochaines semaines</p>
-        </div>
-        <div class="content">
-            {weeks_html}
+<div class="wrap">
+<header class="hero">
+    <div class="eyebrow">MONSIEUR MÉTÉO</div>
+    <h1>BULLETIN ÉVOLUTION & TENDANCES</h1>
+    <p>Analyse comparative multi-modèles basée sur les discussions des prévisionnistes du forum Infoclimat.</p>
+    <div class="meta">
+        <span class="chip">Semaine 1 : [W1_DATES_PLACEHOLDER]</span>
+        <span class="chip">Semaine 2 : [W2_DATES_PLACEHOLDER]</span>
+        <span class="chip">Génération : [TODAY_STR_PLACEHOLDER]</span>
+    </div>
+</header>
+
+<nav class="tabs">
+    <button class="active" data-tab="w1">Semaine 1</button>
+    <button data-tab="w2">Semaine 2</button>
+    <button data-tab="summary">Synthèse 15 jours</button>
+    <button data-tab="doubts">Doutes et limites</button>
+</nav>
+
+<!-- SEMAINE 1 -->
+<section id="w1" class="panel active">
+    <div class="section">
+        <h2>À retenir — Semaine 1</h2>
+        <div class="grid grid-2">
+            [W1_KEYS_HTML_PLACEHOLDER]
         </div>
     </div>
+    
+    <div class="section">
+        <h2>Comparaison des modèles</h2>
+        <p class="sub">Modèles météo identifiés dans les échanges.</p>
+        <div class="grid grid-2">
+            [W1_MODELS_HTML_PLACEHOLDER]
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Convergences et divergences</h2>
+        <div class="splitline">
+            <div class="card solid">
+                <h3>Ce qui converge</h3>
+                <p>[W1_CONVERGENCES_PLACEHOLDER]</p>
+            </div>
+            <div class="card fragile">
+                <h3>Ce qui diverge</h3>
+                <p>[W1_DIVERGENCES_PLACEHOLDER]</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Temps sensible par grandes zones</h2>
+        <div class="grid grid-3">
+            <div class="card zone">
+                <h3>Ouest et façade atlantique</h3>
+                <p>[W1_ZONE_WEST_PLACEHOLDER]</p>
+                <small>[W1_ZONE_WEST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Nord et Nord-Ouest</h3>
+                <p>[W1_ZONE_NORTH_PLACEHOLDER]</p>
+                <small>[W1_ZONE_NORTH_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Nord-Est</h3>
+                <p>[W1_ZONE_NORTHEAST_PLACEHOLDER]</p>
+                <small>[W1_ZONE_NORTHEAST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Centre</h3>
+                <p>[W1_ZONE_CENTRAL_PLACEHOLDER]</p>
+                <small>[W1_ZONE_CENTRAL_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Sud-Ouest</h3>
+                <p>[W1_ZONE_SOUTHWEST_PLACEHOLDER]</p>
+                <small>[W1_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Sud-Est et Méditerranée</h3>
+                <p>[W1_ZONE_SOUTHEAST_PLACEHOLDER]</p>
+                <small>[W1_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Corse</h3>
+                <p>[W1_ZONE_CORSICA_PLACEHOLDER]</p>
+                <small>[W1_ZONE_CORSICA_CONF_PLACEHOLDER]</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Chronologie de la semaine</h2>
+        <div class="timeline">
+            <div class="phase"><b>[W1_PHASE_1_DATES_PLACEHOLDER]</b><p>[W1_PHASE_1_PLACEHOLDER]</p></div>
+            <div class="phase"><b>[W1_PHASE_2_DATES_PLACEHOLDER]</b><p>[W1_PHASE_2_PLACEHOLDER]</p></div>
+            <div class="phase"><b>[W1_PHASE_3_DATES_PLACEHOLDER]</b><p>[W1_PHASE_3_PLACEHOLDER]</p></div>
+            <div class="phase"><b>[W1_PHASE_4_DATES_PLACEHOLDER]</b><p>[W1_PHASE_4_PLACEHOLDER]</p></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Éléments solides et fragiles</h2>
+        <div class="splitline">
+            <div class="card solid">
+                <h3>Éléments solides</h3>
+                <p>[W1_SOLID_POINTS_PLACEHOLDER]</p>
+            </div>
+            <div class="card fragile">
+                <h3>Éléments fragiles</h3>
+                <p>[W1_FRAGILE_POINTS_PLACEHOLDER]</p>
+            </div>
+        </div>
+        <div class="notice" style="margin-top:14px;">⚠️ À surveiller dans les prochains runs : [W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
+    </div>
+
+    <div class="section">
+        <h2>Sélection de cartes météo analysées</h2>
+        <div class="images">
+            [W1_IMAGES_HTML_PLACEHOLDER]
+        </div>
+    </div>
+</section>
+
+<!-- SEMAINE 2 -->
+<section id="w2" class="panel">
+    <div class="section">
+        <h2>À retenir — Semaine 2</h2>
+        <div class="grid grid-2">
+            [W2_KEYS_HTML_PLACEHOLDER]
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Comparaison des modèles — Semaine 2</h2>
+        <div class="grid grid-2">
+            [W2_MODELS_HTML_PLACEHOLDER]
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Convergences et divergences — Semaine 2</h2>
+        <div class="splitline">
+            <div class="card solid">
+                <h3>Ce qui converge</h3>
+                <p>[W2_CONVERGENCES_PLACEHOLDER]</p>
+            </div>
+            <div class="card fragile">
+                <h3>Ce qui diverge</h3>
+                <p>[W2_DIVERGENCES_PLACEHOLDER]</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Temps sensible par grandes zones — Semaine 2</h2>
+        <div class="grid grid-3">
+            <div class="card zone">
+                <h3>Ouest et façade atlantique</h3>
+                <p>[W2_ZONE_WEST_PLACEHOLDER]</p>
+                <small>[W2_ZONE_WEST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Nord et Nord-Ouest</h3>
+                <p>[W2_ZONE_NORTH_PLACEHOLDER]</p>
+                <small>[W2_ZONE_NORTH_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Nord-Est</h3>
+                <p>[W2_ZONE_NORTHEAST_PLACEHOLDER]</p>
+                <small>[W2_ZONE_NORTHEAST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Centre</h3>
+                <p>[W2_ZONE_CENTRAL_PLACEHOLDER]</p>
+                <small>[W2_ZONE_CENTRAL_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Sud-Ouest</h3>
+                <p>[W2_ZONE_SOUTHWEST_PLACEHOLDER]</p>
+                <small>[W2_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Sud-Est et Méditerranée</h3>
+                <p>[W2_ZONE_SOUTHEAST_PLACEHOLDER]</p>
+                <small>[W2_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</small>
+            </div>
+            <div class="card zone">
+                <h3>Corse</h3>
+                <p>[W2_ZONE_CORSICA_PLACEHOLDER]</p>
+                <small>[W2_ZONE_CORSICA_CONF_PLACEHOLDER]</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Chronologie de la semaine — Semaine 2</h2>
+        <div class="timeline">
+            <div class="phase"><b>[W2_PHASE_1_DATES_PLACEHOLDER]</b><p>[W2_PHASE_1_PLACEHOLDER]</p></div>
+            <div class="phase"><b>[W2_PHASE_2_DATES_PLACEHOLDER]</b><p>[W2_PHASE_2_PLACEHOLDER]</p></div>
+            <div class="phase"><b>[W2_PHASE_3_DATES_PLACEHOLDER]</b><p>[W2_PHASE_3_PLACEHOLDER]</p></div>
+            <div class="phase"><b>[W2_PHASE_4_DATES_PLACEHOLDER]</b><p>[W2_PHASE_4_PLACEHOLDER]</p></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Éléments solides et fragiles — Semaine 2</h2>
+        <div class="splitline">
+            <div class="card solid">
+                <h3>Éléments solides</h3>
+                <p>[W2_SOLID_POINTS_PLACEHOLDER]</p>
+            </div>
+            <div class="card fragile">
+                <h3>Éléments fragiles</h3>
+                <p>[W2_FRAGILE_POINTS_PLACEHOLDER]</p>
+            </div>
+        </div>
+        <div class="notice" style="margin-top:14px;">⚠️ À surveiller dans les prochains runs : [W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
+    </div>
+
+    <div class="section">
+        <h2>Sélection de cartes météo — Semaine 2</h2>
+        <div class="images">
+            [W2_IMAGES_HTML_PLACEHOLDER]
+        </div>
+    </div>
+</section>
+
+<!-- SYNTHÈSE 15 JOURS -->
+<section id="summary" class="panel">
+    [WHAT_CHANGED_BOX_PLACEHOLDER]
+
+    <div class="section">
+        <h2>Synthèse des deux semaines</h2>
+        
+        <div id="history-box" class="grid grid-2" style="margin-bottom:20px;">
+            <div class="evolution-card">
+                <h3>📈 Évolution de la confiance (Scénario Principal)</h3>
+                <div class="sparkline">
+                    [SPARKLINE_CONF_PLACEHOLDER]
+                </div>
+            </div>
+            <div class="evolution-card">
+                <h3>🌡️ Évolution des températures attendues</h3>
+                <div class="sparkline">
+                    [TEMP_EVOLUTION_PLACEHOLDER]
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-2">
+            <div class="card accent">
+                <h3>Évolution générale</h3>
+                <p>[GLOBAL_15_DAY_TREND_PLACEHOLDER]</p>
+            </div>
+            <div class="card">
+                <h3>Semaine la plus fiable</h3>
+                <p>[MOST_RELIABLE_WEEK_PLACEHOLDER]</p>
+            </div>
+            <div class="card solid">
+                <h3>Points les plus solides</h3>
+                <p>[GLOBAL_SOLID_POINTS_PLACEHOLDER]</p>
+            </div>
+            <div class="card fragile">
+                <h3>Incertitudes majeures</h3>
+                <p>[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📢 Post LinkedIn prêt à copier-coller</h2>
+        <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
+        <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
+    </div>
+</section>
+
+<!-- DOUBT & LIMITS -->
+<section id="doubts" class="panel">
+    <div class="section">
+        <h2>Doutes, imprécisions et limites</h2>
+        <div class="grid grid-2">
+            <div class="card">
+                <h3>Calendrier</h3>
+                <p>[DOUBTS_TIMING_PLACEHOLDER]</p>
+            </div>
+            <div class="card">
+                <h3>Localisation</h3>
+                <p>[DOUBTS_LOCATION_PLACEHOLDER]</p>
+            </div>
+            <div class="card">
+                <h3>Intensité</h3>
+                <p>[DOUBTS_INTENSITY_PLACEHOLDER]</p>
+            </div>
+            <div class="card">
+                <h3>Données manquantes</h3>
+                <p>[MISSING_INFORMATION_PLACEHOLDER]</p>
+            </div>
+            <div class="card">
+                <h3>Modèles peu documentés</h3>
+                <p>[LOW_DOCUMENTED_MODELS_PLACEHOLDER]</p>
+            </div>
+            <div class="card">
+                <h3>Images difficiles à interpréter</h3>
+                <p>[UNCERTAIN_IMAGES_PLACEHOLDER]</p>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<script>
+document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+}));
+
+function copyLinkedIn() {
+    navigator.clipboard.writeText(document.getElementById('linkedin').innerText).then(() => {
+        alert('Le post LinkedIn a été copié dans votre presse-papiers !');
+    });
+}
+</script>
 </body>
 </html>
 """
+
+    # Remplacement des variables dans le template
+    html = html_template
+    html = html.replace("[STYLE_PLACEHOLDER]", style)
+    html = html.replace("[W1_DATES_PLACEHOLDER]", w1_dates)
+    html = html.replace("[W2_DATES_PLACEHOLDER]", w2_dates)
+    html = html.replace("[TODAY_STR_PLACEHOLDER]", today_str)
+    
+    html = html.replace("[W1_KEYS_HTML_PLACEHOLDER]", w1_keys_html)
+    html = html.replace("[W1_MODELS_HTML_PLACEHOLDER]", w1_models_html)
+    html = html.replace("[W1_IMAGES_HTML_PLACEHOLDER]", w1_images_html)
+    
+    html = html.replace("[W2_KEYS_HTML_PLACEHOLDER]", w2_keys_html)
+    html = html.replace("[W2_MODELS_HTML_PLACEHOLDER]", w2_models_html)
+    html = html.replace("[W2_IMAGES_HTML_PLACEHOLDER]", w2_images_html)
+    
+    html = html.replace("[W1_CONVERGENCES_PLACEHOLDER]", extract_tag(w1_content, "W1_CONVERGENCES") or "-")
+    html = html.replace("[W1_DIVERGENCES_PLACEHOLDER]", extract_tag(w1_content, "W1_DIVERGENCES") or "-")
+    
+    html = html.replace("[W2_CONVERGENCES_PLACEHOLDER]", extract_tag(w2_content, "W2_CONVERGENCES") or "-")
+    html = html.replace("[W2_DIVERGENCES_PLACEHOLDER]", extract_tag(w2_content, "W2_DIVERGENCES") or "-")
+
+    # Zones Semaine 1
+    html = html.replace("[W1_ZONE_WEST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_WEST") or "-")
+    html = html.replace("[W1_ZONE_WEST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_WEST_CONF") or "-")
+    html = html.replace("[W1_ZONE_NORTH_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTH") or "-")
+    html = html.replace("[W1_ZONE_NORTH_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTH_CONF") or "-")
+    html = html.replace("[W1_ZONE_NORTHEAST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTHEAST") or "-")
+    html = html.replace("[W1_ZONE_NORTHEAST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTHEAST_CONF") or "-")
+    html = html.replace("[W1_ZONE_CENTRAL_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CENTRAL") or "-")
+    html = html.replace("[W1_ZONE_CENTRAL_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CENTRAL_CONF") or "-")
+    html = html.replace("[W1_ZONE_SOUTHWEST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHWEST") or "-")
+    html = html.replace("[W1_ZONE_SOUTHWEST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHWEST_CONF") or "-")
+    html = html.replace("[W1_ZONE_SOUTHEAST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHEAST") or "-")
+    html = html.replace("[W1_ZONE_SOUTHEAST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHEAST_CONF") or "-")
+    html = html.replace("[W1_ZONE_CORSICA_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CORSICA") or "Informations insuffisantes dans les sources.")
+    html = html.replace("[W1_ZONE_CORSICA_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CORSICA_CONF") or "-")
+
+    # Zones Semaine 2
+    html = html.replace("[W2_ZONE_WEST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_WEST") or "-")
+    html = html.replace("[W2_ZONE_WEST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_WEST_CONF") or "-")
+    html = html.replace("[W2_ZONE_NORTH_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTH") or "-")
+    html = html.replace("[W2_ZONE_NORTH_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTH_CONF") or "-")
+    html = html.replace("[W2_ZONE_NORTHEAST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTHEAST") or "-")
+    html = html.replace("[W2_ZONE_NORTHEAST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTHEAST_CONF") or "-")
+    html = html.replace("[W2_ZONE_CENTRAL_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CENTRAL") or "-")
+    html = html.replace("[W2_ZONE_CENTRAL_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CENTRAL_CONF") or "-")
+    html = html.replace("[W2_ZONE_SOUTHWEST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHWEST") or "-")
+    html = html.replace("[W2_ZONE_SOUTHWEST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHWEST_CONF") or "-")
+    html = html.replace("[W2_ZONE_SOUTHEAST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHEAST") or "-")
+    html = html.replace("[W2_ZONE_SOUTHEAST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHEAST_CONF") or "-")
+    html = html.replace("[W2_ZONE_CORSICA_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CORSICA") or "Informations insuffisantes dans les sources.")
+    html = html.replace("[W2_ZONE_CORSICA_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CORSICA_CONF") or "-")
+
+    # Chronologie Semaine 1
+    html = html.replace("[W1_PHASE_1_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_1_DATES") or "Phase 1")
+    html = html.replace("[W1_PHASE_1_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_1") or "-")
+    html = html.replace("[W1_PHASE_2_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_2_DATES") or "Phase 2")
+    html = html.replace("[W1_PHASE_2_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_2") or "-")
+    html = html.replace("[W1_PHASE_3_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_3_DATES") or "Phase 3")
+    html = html.replace("[W1_PHASE_3_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_3") or "-")
+    html = html.replace("[W1_PHASE_4_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_4_DATES") or "Phase 4")
+    html = html.replace("[W1_PHASE_4_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_4") or "-")
+
+    # Chronologie Semaine 2
+    html = html.replace("[W2_PHASE_1_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_1_DATES") or "Phase 1")
+    html = html.replace("[W2_PHASE_1_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_1") or "-")
+    html = html.replace("[W2_PHASE_2_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_2_DATES") or "Phase 2")
+    html = html.replace("[W2_PHASE_2_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_2") or "-")
+    html = html.replace("[W2_PHASE_3_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_3_DATES") or "Phase 3")
+    html = html.replace("[W2_PHASE_3_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_3") or "-")
+    html = html.replace("[W2_PHASE_4_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_4_DATES") or "Phase 4")
+    html = html.replace("[W2_PHASE_4_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_4") or "-")
+
+    # Solides / Fragiles
+    html = html.replace("[W1_SOLID_POINTS_PLACEHOLDER]", extract_tag(w1_content, "W1_SOLID_POINTS") or "-")
+    html = html.replace("[W1_FRAGILE_POINTS_PLACEHOLDER]", extract_tag(w1_content, "W1_FRAGILE_POINTS") or "-")
+    html = html.replace("[W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", extract_tag(w1_content, "W1_NEXT_RUNS_TO_WATCH") or "-")
+    
+    html = html.replace("[W2_SOLID_POINTS_PLACEHOLDER]", extract_tag(w2_content, "W2_SOLID_POINTS") or "-")
+    html = html.replace("[W2_FRAGILE_POINTS_PLACEHOLDER]", extract_tag(w2_content, "W2_FRAGILE_POINTS") or "-")
+    html = html.replace("[W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", extract_tag(w2_content, "W2_NEXT_RUNS_TO_WATCH") or "-")
+
+    # Synthèse globale et doutes
+    html = html.replace("[GLOBAL_15_DAY_TREND_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_15_DAY_TREND") or "-")
+    html = html.replace("[MOST_RELIABLE_WEEK_PLACEHOLDER]", extract_tag(global_content, "MOST_RELIABLE_WEEK") or "-")
+    html = html.replace("[GLOBAL_SOLID_POINTS_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_SOLID_POINTS") or "-")
+    html = html.replace("[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_MAJOR_UNCERTAINTIES") or "-")
+    
+    html = html.replace("[DOUBTS_TIMING_PLACEHOLDER]", extract_tag(doubts_content, "DOUBTS_TIMING") or "-")
+    html = html.replace("[DOUBTS_LOCATION_PLACEHOLDER]", extract_tag(doubts_content, "DOUBTS_LOCATION") or "-")
+    html = html.replace("[DOUBTS_INTENSITY_PLACEHOLDER]", extract_tag(doubts_content, "DOUBTS_INTENSITY") or "-")
+    html = html.replace("[MISSING_INFORMATION_PLACEHOLDER]", extract_tag(doubts_content, "MISSING_INFORMATION") or "-")
+    html = html.replace("[LOW_DOCUMENTED_MODELS_PLACEHOLDER]", extract_tag(doubts_content, "LOW_DOCUMENTED_MODELS") or "-")
+    html = html.replace("[UNCERTAIN_IMAGES_PLACEHOLDER]", extract_tag(doubts_content, "UNCERTAIN_IMAGES") or "-")
+
+    html = html.replace("[LINKEDIN_CLEAN_PLACEHOLDER]", linkedin_clean)
+    html = html.replace("[WHAT_CHANGED_BOX_PLACEHOLDER]", what_changed_box)
+    html = html.replace("[SPARKLINE_CONF_PLACEHOLDER]", sparkline_conf_html)
+    html = html.replace("[TEMP_EVOLUTION_PLACEHOLDER]", temp_evolution_html)
 
     html_path = "bulletin_infoclimat.html"
     with open(html_path, 'w', encoding='utf-8') as f:
         f.write(html)
     print(f"HTML généré avec succès : {html_path}")
 
-    # Envoi e-mail via Gmail SMTP Base64 brut
+    # Envoi email SMTP
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if gmail_email:
@@ -858,20 +1551,20 @@ def main():
         sys.exit(0)
         
     sender = gmail_email
-    
-    # Titres abrégés pour le sujet du mail
-    subject_week_names = " & ".join([r["data"].get("title_line1", r["data"].get("subject_title", "Semaine")).split("-")[0].strip() for r in results])
-    subject = f"Tendances de la semaine - {subject_week_names}"
-    
-    # Nettoyage ASCII du sujet pour éviter les rejets SMTP
-    import unicodedata
+    subject = f"Tendances de la semaine - {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
     clean_subj = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
     subject = clean_subj
     
     filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
     html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
-    text_body = f"Bonjour,\n\nVeuillez trouver ci-joint l'analyse consolidée des tendances météo pour la semaine en cours (jours restants) et la semaine suivante.\n\nLe rapport HTML contenant le Pack Réseaux Sociaux multi-plateforme complet et prêt à diffuser ainsi que les graphiques de modélisation est joint à ce message.\n\nCordialement,\nMonsieur Météo"
+    text_body = (
+        f"Bonjour,\n\n"
+        f"Veuillez trouver ci-joint l'analyse consolidée des tendances météo pour les 2 prochaines semaines.\n\n"
+        f"Le rapport HTML interactif premium contenant le comparateur de modèles (ECMWF, GFS...), le découpage géographique complet, le post LinkedIn prêt à publier et l'évolution historique des runs est joint à ce message.\n\n"
+        f"Cordialement,\n"
+        f"Monsieur Météo"
+    )
     text_b64 = base64.b64encode(text_body.encode('utf-8')).decode('ascii')
     boundary = uuid.uuid4().hex
     
