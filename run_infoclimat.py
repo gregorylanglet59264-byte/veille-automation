@@ -32,15 +32,16 @@ socket.setdefaulttimeout(10)
 INDEX_URL = "https://forums.infoclimat.fr/f/forum/20-evolution-%C3%A0-plus-long-terme/"
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
-# Table de correspondance déterministe pour classer les territoires cités
+# Table de correspondance déterministe pour 8 zones météorologiques
 ZONE_TERRITORY_MAPPING = {
-    "ouest_atlantique": ["bretagne", "pays de la loire", "vendée", "charente-maritime", "gironde", "façade atlantique", "atlantique", "aquitaine occidentale", "finistère", "morbihan", "ille-et-vilaine", "côtes-d'armor", "loire-atlantique"],
-    "nord_nord_ouest": ["normandie", "hauts-de-france occidentaux", "hauts-de-france", "picardie", "pas-de-calais", "nord", "bassin parisien", "île-de-france", "manche", "nord-ouest", "seine-maritime"],
-    "nord_est": ["grand est", "champagne", "champagne-ardenne", "lorraine", "alsace", "ardennes", "avesnois", "bourgogne", "bourgogne-franche-comté", "nord-est", "marne", "meuse", "vosges", "haut-rhin", "bas-rhin"],
-    "centre": ["centre-val de loire", "berry", "limousin", "auvergne", "massif central", "orléanais", "touraine", "sologne", "allier", "puy-de-dôme"],
-    "sud_ouest": ["nouvelle-aquitaine", "occitanie occidentale", "midi toulousain", "pyrénées", "aquitaine", "dordogne", "lot-et-garonne", "landes", "béarn", "pays basque", "toulouse"],
-    "sud_est_mediterranee": ["paca", "languedoc-roussillon", "languedoc", "roussillon", "vallée du rhône", "provence", "côte d’azur", "côte d'azur", "alpes du sud", "méditerranée", "var", "vaucluse", "bouches-du-rhône", "hérault", "gard"],
-    "corse": ["corse", "haute-corse", "corse-du-sud", "bastia", "ajaccio"]
+    "nord_ouest": ["bretagne", "normandie", "pays de la loire", "finistère", "morbihan", "ille-et-vilaine", "côtes-d'armor", "manche", "seine-maritime", "calvados", "eure", "orne", "mayenne", "sarthe", "loire-atlantique"],
+    "nord": ["hauts-de-france", "île-de-france", "bassin parisien", "picardie", "pas-de-calais", "nord", "paris", "val-d'oise", "seine-et-marne", "yvelines", "essonne", "hauts-de-seine", "seine-saint-denis", "val-de-marne"],
+    "nord_est": ["grand est", "ardennes", "lorraine", "alsace", "franche-comté", "marne", "haute-marne", "meuse", "meurthe-et-moselle", "vosges", "haut-rhin", "bas-rhin", "haute-saône", "doubs", "jura", "avesnois"],
+    "ouest_atlantique": ["vendée", "charentes", "charente-maritime", "charente", "façade atlantique", "façade aquitaine", "littoral atlantique", "gironde littoral"],
+    "centre": ["centre-val de loire", "berry", "limousin", "auvergne", "orléanais", "touraine", "sologne", "cher", "indre", "indre-et-loire", "loir-et-cher", "loiret", "allier", "puy-de-dôme", "creuse", "haute-vienne"],
+    "sud_ouest": ["aquitaine", "nouvelle-aquitaine", "midi toulousain", "pyrénées", "gironde", "dordogne", "lot-et-garonne", "landes", "pyrénées-atlantiques", "hautes-pyrénées", "gers", "tarn", "tarn-et-garonne", "haute-garonne", "ariège"],
+    "sud_est_rhone": ["paca", "vallée du rhône", "alpes du sud", "vaucluse", "bouches-du-rhône", "var", "alpes-maritimes", "hautes-alpes", "alpes-de-haute-provence", "drôme", "isère", "rhône"],
+    "mediterranee_corse": ["languedoc", "roussillon", "provence littorale", "corse", "gard", "hérault", "aude", "pyrénées-orientales", "haute-corse", "corse-du-sud"]
 }
 
 def fetch_url(url, timeout=8):
@@ -214,10 +215,16 @@ def extract_tag(text, tag):
 
 def clean_text_typos(text):
     if not text: return ""
+    text = text.replace("scenario", "scénario")
+    text = text.replace("Scenario", "Scénario")
     text = text.replace("Sud-Eest", "Sud-Est")
     text = text.replace("Sud-eest", "sud-est")
     text = text.replace("vendudi", "vendredi")
     text = text.replace("un quart Nord-Est assoiffé", "un quart Nord-Est connaissant des précipitations très faibles")
+    text = text.replace("GEM est perdu", "Scénario GEM peu soutenu")
+    text = text.replace("sa crédibilité est remise en question", "scénario peu soutenu dans les messages analysés")
+    text = text.replace("Aucun sensible", "Aucune période particulièrement sensible identifiée")
+    text = text.replace("trace seulement", "traces possibles")
     text = re.sub(r'---+', '', text)
     text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
     return text.strip()
@@ -232,20 +239,31 @@ def clean_mentions_str(val):
     val = re.sub(r'\bmention\s+exploitable\s+mentions\b', 'mention exploitable', val, flags=re.IGNORECASE)
     return val
 
+def format_run_string(run_val):
+    if not run_val or run_val.strip().lower() in ["non précisé", "non precise", "non déterminable", "inconnu"]:
+        return "Run du scénario : non déterminable"
+    runs = re.findall(r'\b(00Z|06Z|12Z|18Z)\b', run_val, re.IGNORECASE)
+    if len(runs) > 1:
+        return f"Runs cités : {', '.join(set(runs))}"
+    elif len(runs) == 1:
+        return f"Run : {runs[0].upper()}"
+    return f"Run : {run_val.strip()}"
+
 def parse_models(week_text, prefix):
     blocks = re.findall(rf"\[{prefix}_MODEL_START\](.*?)\[{prefix}_MODEL_END\]", week_text, re.DOTALL)
     models = []
     for b in blocks:
+        raw_conf = extract_tag(b, f"{prefix}_MODEL_EXTRACTION_CONF")
         model = {
             "name": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_NAME")),
             "scenario": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_SCENARIO")),
             "sensible_weather": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_SENSIBLE_WEATHER")),
             "affected_zones": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_AFFECTED_ZONES")),
-            "extraction_conf": extract_tag(b, f"{prefix}_MODEL_EXTRACTION_CONF") or "80 %",
+            "extraction_conf": raw_conf if raw_conf else "Non estimable",
             "scenario_support": extract_tag(b, f"{prefix}_MODEL_SCENARIO_SUPPORT") or "Majoritaire",
             "status": extract_tag(b, f"{prefix}_MODEL_STATUS") or "Majoritaire",
             "mentions_count": clean_mentions_str(extract_tag(b, f"{prefix}_MODEL_MENTIONS_COUNT")),
-            "run": extract_tag(b, f"{prefix}_MODEL_RUN") or "Non précisé",
+            "run": format_run_string(extract_tag(b, f"{prefix}_MODEL_RUN")),
             "timing": extract_tag(b, f"{prefix}_MODEL_TIMING") or "Échéance non précisée",
             "details": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_DETAILS")) or "Pas de détails complémentaires."
         }
@@ -261,7 +279,7 @@ def parse_images_info(week_text, prefix):
             "type": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_TYPE")) or "Carte météo",
             "title": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_TITLE")) or "Carte d'analyse",
             "model": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_MODEL")) or "Modèle météo",
-            "run": extract_tag(b, f"{prefix}_IMAGE_RUN") or "Non précisé",
+            "run": format_run_string(extract_tag(b, f"{prefix}_IMAGE_RUN")),
             "timing": extract_tag(b, f"{prefix}_IMAGE_TIMING") or "Échéance",
             "why_important": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_WHY_IMPORTANT")),
             "what_to_watch": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_WHAT_TO_WATCH")),
@@ -288,15 +306,16 @@ def parse_zones_json(text, prefix):
         return {}
 
 def log_zones_diagnostics(zones_dict, week_num):
-    print(f"\n--- DIAGNOSTIC ZONES SEMAINE {week_num} ---")
+    print(f"\n--- DIAGNOSTIC 8 ZONES SEMAINE {week_num} ---")
     fixed_keys = [
-        ("ouest_atlantique", "Ouest et Atlantique"),
-        ("nord_nord_ouest", "Nord et Nord-Ouest"),
+        ("nord_ouest", "Nord-Ouest"),
+        ("nord", "Nord"),
         ("nord_est", "Nord-Est"),
+        ("ouest_atlantique", "Ouest et Façade Atlantique"),
         ("centre", "Centre"),
         ("sud_ouest", "Sud-Ouest"),
-        ("sud_est_mediterranee", "Sud-Est et Méditerranée"),
-        ("corse", "Corse")
+        ("sud_est_rhone", "Sud-Est et Vallée du Rhône"),
+        ("mediterranee_corse", "Méditerranée et Corse")
     ]
     for key, name in fixed_keys:
         zdata = zones_dict.get(key, {})
@@ -312,7 +331,6 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
     status = str(zone_data.get("status", "insufficient")).lower()
     weather = clean_text_typos(zone_data.get("weather", "")).strip()
     
-    # RÈGLE D'OR : Si la zone contient "Temps non spécifié" ou qu'elle n'a pas de météo renseignée, forcer le statut insufficient !
     if status == "insufficient" or not weather or "temps non spécifié" in weather.lower() or "non précisé" in weather.lower():
         return f"""
         <div class="zone zone-insufficient">
@@ -335,6 +353,8 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
     conf_level = str(zone_data.get("confidence_level", "moderee")).strip()
     uncert = clean_text_typos(zone_data.get("uncertainty", "")).strip()
     models = zone_data.get("source_models", [])
+    scope = zone_data.get("spatial_scope", "regional")
+    location = zone_data.get("location", "")
     
     conf_label = "Modérée"
     if "elev" in conf_level.lower() or "haut" in conf_level.lower(): conf_label = "Élevée"
@@ -346,12 +366,31 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
     details_items = []
     if weather: details_items.append(f'<li><b>Temps dominant :</b> {weather}</li>')
     if temp and temp.lower() not in ["non documenté", "non précisé"]: details_items.append(f'<li><b>Températures :</b> {temp}</li>')
-    if rain and rain.lower() not in ["non documenté", "non précisé"]: details_items.append(f'<li><b>Pluie / Orages :</b> {rain}</li>')
-    if wind and wind.lower() not in ["non documenté", "non précisé", "-"]: details_items.append(f'<li><b>Vent :</b> {wind}</li>')
+    
+    if rain and rain.lower() not in ["non documenté", "non précisé"]:
+        if scope == "local" and location:
+            details_items.append(f'<li><b>Pluie / Orages :</b> Des cumuls de {rain} sont évoqués localement vers {location}, sans pouvoir être généralisés à l\'ensemble de la zone.</li>')
+        else:
+            details_items.append(f'<li><b>Pluie / Orages :</b> {rain}</li>')
+            
+    # RÈGLE D'OR : Ne jamais inventer le vent. Si non documenté, masquer entièrement la ligne !
+    if wind and wind.lower() not in ["non documenté", "non précisé", "-", "vent non documenté"]:
+        details_items.append(f'<li><b>Vent :</b> {wind}</li>')
+        
     if timing and timing.lower() not in ["non documenté", "non précisé"]: details_items.append(f'<li><b>Période sensible :</b> {timing}</li>')
+    
+    # Transparence des sources par zone
+    evidence_count = zone_data.get("evidence_count", 0)
+    sources_meta = []
     if models and isinstance(models, list) and len(models) > 0:
-        models_str = ", ".join(models)
-        details_items.append(f'<li><b>Modèles associés :</b> {models_str}</li>')
+        sources_meta.append(f"Modèles : {', '.join(models)}")
+    if location:
+        sources_meta.append(f"Secteurs : {location}")
+    if evidence_count > 0:
+        sources_meta.append(f"{evidence_count} mentions")
+        
+    if sources_meta:
+        details_items.append(f'<li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources disponibles :</b> {" • ".join(sources_meta)}</li>')
 
     details_html = "".join(details_items)
     uncert_html = f'<span class="chip-uncert">Incertitude : {uncert}</span>' if uncert else ''
@@ -377,13 +416,14 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
 
 def render_zones_grid(zones_json_data):
     fixed_keys = [
-        ("ouest_atlantique", "🧭", "Ouest et Atlantique"),
-        ("nord_nord_ouest", "☁️", "Nord et Nord-Ouest"),
+        ("nord_ouest", "🧭", "Nord-Ouest"),
+        ("nord", "☁️", "Nord"),
         ("nord_est", "🌤️", "Nord-Est"),
+        ("ouest_atlantique", "🌊", "Ouest et Façade Atlantique"),
         ("centre", "🌥️", "Centre"),
         ("sud_ouest", "🌡️", "Sud-Ouest"),
-        ("sud_est_mediterranee", "☀️", "Sud-Est et Méditerranée"),
-        ("corse", "🏖️", "Corse")
+        ("sud_est_rhone", "☀️", "Sud-Est et Vallée du Rhône"),
+        ("mediterranee_corse", "🏖️", "Méditerranée et Corse")
     ]
     cards = []
     for key, icon, display_name in fixed_keys:
@@ -460,25 +500,34 @@ def generate_sparklines_html(history_dir="history"):
 def build_model_cards(models):
     html_blocks = []
     for model in models:
-        try:
-            conf_num = int(re.search(r'\d+', model.get("extraction_conf", "80")).group(0))
-        except Exception:
-            conf_num = 80
-            
-        color = "var(--green)"
-        if conf_num < 60:
-            color = "var(--red)"
-        elif conf_num < 75:
-            color = "var(--amber)"
-            
+        raw_conf = model.get("extraction_conf", "Non estimable")
+        conf_digits = re.search(r'\d+', str(raw_conf))
+        
+        # RÈGLE D'OR N°10 : Pas de jauge graphique si le score est Non estimable ou sans chiffre !
+        if conf_digits and "non" not in str(raw_conf).lower():
+            conf_num = int(conf_digits.group(0))
+            color = "var(--green)"
+            if conf_num < 60: color = "var(--red)"
+            elif conf_num < 75: color = "var(--amber)"
+            bar_html = f'<div class="bar"><div class="fill" style="width:{conf_num}%; background:{color};"></div></div>'
+            score_text = f"{conf_num} %"
+        else:
+            score_text = "Non estimable"
+            bar_html = '<div class="bar" style="background:#e2e8f0;"></div>'
+
+        # RÈGLE D'OR N°2 : Soutien qualitatif uniquement (Majoritaire / Intermédiaire / Minoritaire / Isolé)
+        support_text = clean_text_typos(model.get("scenario_support", "Majoritaire"))
+        support_text = re.sub(r'\d+\s*%', '', support_text).strip() # Purge les % inventés
+        if not support_text: support_text = "Majoritaire"
+
         status_class = "status-main"
         status_text = model.get("status", "Majoritaire")
-        if "minor" in status_text.lower():
+        if "minor" in status_text.lower() or "isol" in status_text.lower():
             status_class = "status-minor"
         elif "interm" in status_text.lower():
             status_class = "status-inter"
             
-        run_info = model.get("run", "Non précisé")
+        run_info = model.get("run", "Run du scénario : non déterminable")
         timing_info = model.get("timing", "-")
         mentions_info = model.get("mentions_count", "1 mention exploitable")
         
@@ -488,7 +537,7 @@ def build_model_cards(models):
             <div class="model-name">{model.get("name", "Modèle")}</div>
             <div class="chips">
               <span class="chip">{mentions_info}</span>
-              <span class="chip">Run : {run_info}</span>
+              <span class="chip">{run_info}</span>
               <span class="chip">{timing_info}</span>
             </div>
             <span class="status-badge {status_class}">{status_text}</span>
@@ -498,9 +547,9 @@ def build_model_cards(models):
           <td>{model.get("affected_zones", "-")}</td>
           <td>
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>{model.get("extraction_conf", "80 %")}</strong></div>
-              <div class="bar"><div class="fill" style="width:{conf_num}%; background:{color};"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>{model.get("scenario_support", "Majoritaire")}</strong></div>
+              <div class="score-label">Extraction : <strong>{score_text}</strong></div>
+              {bar_html}
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>{support_text}</strong></div>
             </div>
             <details class="model-details">
               <summary>Voir l'analyse complète</summary>
@@ -541,7 +590,7 @@ def build_image_cards(images_info, downloaded_images):
                 {limit_html}
                 <div class="image-meta">
                     <span class="chip">{img_info.get("model", "-")}</span>
-                    <span class="chip">Run : {img_info.get("run", "Non précisé")}</span>
+                    <span class="chip">{img_info.get("run", "Run non précisé")}</span>
                     <span class="chip">Échéance : {img_info.get("timing", "-")}</span>
                     <span class="chip">Confiance : {img_info.get("confidence", "Modérée")}</span>
                 </div>
@@ -593,8 +642,6 @@ def main():
     lundi_actuel = now - datetime.timedelta(days=now.weekday())
     current_iso_week = now.isocalendar()[1]
     
-    # RÈGLE D'OR PRIORITÉ 1 : Si la génération a lieu vendredi (4), samedi (5) ou dimanche (6),
-    # basculer sur les 2 semaines suivantes !
     if now.weekday() >= 4:
         target_w1_iso = current_iso_week + 1
         target_w2_iso = current_iso_week + 2
@@ -655,7 +702,7 @@ def main():
                 last_bulletin_context = (
                     f"Dernier bulletin généré le {last_data.get('date_generation', 'Inconnue')}.\n"
                     f"Résumé général précédent : {last_data.get('global_summary', 'Inconnu')}.\n"
-                    f"Confiance précédente de la semaine 1 : {last_data.get('w1_confidence', 80)}%.\n"
+                    f"Confiance précédente de la semaine 1 : {last_data.get('w1_confidence', 'Modérée')}.\n"
                     f"Températures attendues précédemment : {last_data.get('w1_temp', 'De saison')}."
                 )
         except Exception as e:
@@ -669,57 +716,57 @@ def main():
 MISSION
 À partir des discussions et analyses météorologiques brutes de deux semaines distinctes de prévision, tu dois produire un bulletin d'analyse météorologique consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises et par JSON.
 
-RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET PRÉSERVATION DES NUANCES
-- Ne transforme jamais une sortie isolée ou une conjecture en certitude.
-- Conserve systématiquement les nuances d'incertitude ("jusqu'à", "localement", "selon certains scénarios", "pourraient", "ordre de grandeur évoqué").
-- Ne cite jamais de pseudos ou d'utilisateurs du forum.
+RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET CONDITIONNEL OBLIGATOIRE (CRUCIAL)
+- Ne transforme JAMAIS une sortie isolée ou un scénario en certitude.
+- Formulations affirmatives interdites pour les événements futurs incertains ! Utilise systématiquement le conditionnel ("Forte chaleur possible", "Une période très chaude pourrait se mettre en place", "Des averses restent possibles", "Certains scénarios placent...").
+- Ne jamais utiliser le mot "canicule" sauf si les messages décrivent explicitement un épisode durable de températures très élevées de jour comme de nuit validé par le consensus.
+- Ne pas inventer le vent : s'il n'est pas mentionné dans les messages ou graphiques pour une zone, indiquer wind="Non documenté".
 
-RÈGLE D'OR N°2 : SÉPARATION STRICTE DE LA CONFIANCE D'EXTRACTION ET DU SOUTIEN DU SCÉNARIO
-Pour chaque modèle météo cité :
-1. Confiance d'extraction (0-100% ou Non estimable) : qualité des détails extraits des messages.
-2. Soutien du scénario (Majoritaire / Intermédiaire / Minoritaire et score en %) : degré d'accord avec les autres modélisations.
-3. Mentions exploitables : Écris proprement (ex: "5 mentions exploitables" ou "1 mention exploitable").
-4. Run : Indique le run cité (ex: 00Z, 12Z) ou "Non précisé". Ne jamais inventer un numéro de run !
-5. Échéance : Indique la période d'application (ex: Vendredi soir, Dimanche).
+RÈGLE D'OR N°2 : SÉPARATION STRICTE DES SOUTIENS DE SCÉNARIOS ET DES RUNS
+Pour chaque modèle météo cité (ex: GFS déterministe, GEFS, ECMWF déterministe, IFS ENS, AIFS, GEM, UKMO) :
+1. Confiance d'extraction : Indiquer un chiffre de 0 à 100% seulement si l'information est explicite, sinon écrire "Non estimable". Ne jamais forcer 80 % !
+2. Soutien du scénario (QUALITATIF UNIQUEMENT) : Utiliser uniquement l'un des termes suivants : Majoritaire | Intermédiaire | Minoritaire | Isolé | Non déterminable. AUCUN POURCENTAGE INVENTÉ !
+3. Run : Si plusieurs runs sont cités, écrire "Runs cités : 00Z, 12Z". Si non précisé, écrire "Run du scénario : non déterminable". Ne jamais écrire "Non précisé (runs multiples: ...)".
 
-RÈGLE D'OR N°3 : SYNTHÈSE DES ZONES EN JSON STRICT (OBLIGATOIRE)
+RÈGLE D'OR N°3 : SYNTHÈSE DES 8 ZONES MÉTÉOROLOGIQUES EN JSON STRICT
 Pour chaque semaine, tu DOIS obligatoirement retourner un objet JSON sous les balises [W1_ZONES_JSON_START] et [W2_ZONES_JSON_START].
-Utilise STRICTEMENT les 7 clés fixes suivantes (sans accents, sans variations) :
-- "ouest_atlantique"
-- "nord_nord_ouest"
-- "nord_est"
-- "centre"
-- "sud_ouest"
-- "sud_est_mediterranee"
-- "corse"
+Utilise STRICTEMENT les 8 clés fixes suivantes (sans accents, sans variations) :
+1. "nord_ouest" (Bretagne, Normandie, Pays de la Loire occidental)
+2. "nord" (Hauts-de-France, Île-de-France, Bassin parisien)
+3. "nord_est" (Grand Est, Ardennes, Lorraine, Alsace, Franche-Comté nord)
+4. "ouest_atlantique" (Vendée, Charentes, façade aquitaine)
+5. "centre" (Centre-Val de Loire, Berry, Limousin nord, Auvergne nord)
+6. "sud_ouest" (Aquitaine intérieure, Midi toulousain, Pyrénées)
+7. "sud_est_rhone" (PACA, vallée du Rhône, Alpes du Sud)
+8. "mediterranee_corse" (Languedoc, Roussillon, Provence littorale, Corse)
 
-Structure JSON exigée pour chaque zone :
+Structure JSON exigée par zone :
 {
   "status": "documented | partial | insufficient",
-  "weather": "Temps dominant constaté",
+  "weather": "Temps dominant envisagé",
   "temperatures": "Description des températures",
   "rain_storms": "Précipitations et orages",
+  "spatial_scope": "local | regional | broad",
+  "location": "Localisation précise si valeur locale (ex: Ardennes)",
   "wind": "Vent si documenté, sinon Non documenté",
-  "sensitive_period": "Jours ou moments sensibles",
+  "sensitive_period": "Jours sensibles",
   "confidence_level": "elevee | moderee | faible | non_estimable",
   "uncertainty": "Principale incertitude",
+  "evidence_count": 3,
   "source_models": ["GFS", "ECMWF"]
 }
 
-Règles de statut des zones :
-- status = "documented" : si suffisamment de détails précis existent.
-- status = "partial" : si quelques détails existent (ex: cumuls locaux aux Ardennes), préciser que les informations sont partielles pour l'ensemble de la zone.
-- status = "insufficient" : si aucune info fiable n'est citée. Mettre weather="", confidence_level="non_estimable", uncertainty="Données insuffisantes".
+Statuts des zones :
+- status = "documented" : synthèse fiable et complète possible.
+- status = "partial" : informations partielles (ex: cumuls évoqués localement pour un secteur).
+- status = "insufficient" : aucune info fiable. Mettre weather="", confidence_level="non_estimable", uncertainty="Données insuffisantes dans les sources".
 
-RÈGLE D'OR N°4 : CAPSULES "À RETENIR" (MAX 4 À 5 PAR SEMAINE)
-Rédige 4 à 5 faits marquants maximum par semaine.
-Format : Titre court (2-5 mots) : Explication courte d'une seule phrase.
-
-RÈGLE D'OR N°5 : POST LINKEDIN PROFESSIONNEL
+RÈGLE D'OR N°4 : POST LINKEDIN RÉVISÉ
 Rédige un post LinkedIn prêt à copier-coller (250-300 mots) :
-- Paragraphes courts aérés sur mobile.
-- Titre captivant en caractères gras Unicode (ex: 🌦️ 𝗧𝗲𝗻𝗱𝗮𝗻𝗰𝗲𝘀 𝗺𝗲́𝘁𝗲́𝗼 : ...). Aucun markdown **.
-- Utilise les dates exactes des semaines prévues.
+- Titre accrocheur et prudent (ex: 🌡️ 𝗣𝗿𝗲́𝘃𝗶𝘀𝗶𝗼𝗻𝘀 𝗺𝗲́𝘁𝗲́𝗼 : 𝗧𝗲𝗻𝗱𝗮𝗻𝗰𝗲𝘀 𝗲𝘁 𝗱𝗶𝘃𝗲𝗿𝗴𝗲𝗻𝗰𝗲𝘀 𝗺𝘂𝗹𝘁𝗶-𝗺𝗼𝗱𝗲̀𝗹𝗲𝘀).
+- Aucun markdown ** visible dans le texte.
+- Utilise des formulations nuancées ("forte chaleur possible", "scénarios chauds à affiner").
+- Pas d'injonctions sanitaires ("hydratez-vous") ni d'alertes officielles.
 - 4 à 7 hashtags pertinents.
 
 FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ce balisage :
@@ -729,26 +776,26 @@ FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ce balisage :
 Période exacte de la semaine 1 (ex: Du Lundi 27 Juillet au Dimanche 2 Août 2026)
 
 [W1_KEY_POINT_1]
-Titre court 2-5 mots : Explication courte.
+Titre court 2-5 mots : Explication courte d'une phrase.
 
 [W1_KEY_POINT_2]
-Titre court 2-5 mots : Explication courte.
+Titre court 2-5 mots : Explication courte d'une phrase.
 
 [W1_KEY_POINT_3]
-Titre court 2-5 mots : Explication courte.
+Titre court 2-5 mots : Explication courte d'une phrase.
 
 [W1_KEY_POINT_4]
-Titre court 2-5 mots : Explication courte.
+Titre court 2-5 mots : Explication courte d'une phrase.
 
 [W1_KEY_POINT_5]
-Titre court 2-5 mots : Explication courte.
+Titre court 2-5 mots : Explication courte d'une phrase.
 
 --- (Répéter pour chaque modèle) ---
 [W1_MODEL_START]
 [W1_MODEL_NAME]
-Nom du modèle
+Nom précis du modèle (ex: GFS déterministe, GEFS, ECMWF IFS)
 [W1_MODEL_SCENARIO]
-Scénario synthétique en une phrase
+Scénario synthétique au conditionnel
 [W1_MODEL_SENSIBLE_WEATHER]
 Temps sensible en une phrase
 [W1_MODEL_AFFECTED_ZONES]
@@ -756,17 +803,17 @@ Zones géographiques concernées
 [W1_MODEL_EXTRACTION_CONF]
 Score de 0 à 100% ou Non estimable
 [W1_MODEL_SCENARIO_SUPPORT]
-Soutien du scénario (ex: Majoritaire 75%)
+Majoritaire | Intermédiaire | Minoritaire | Isolé | Non déterminable
 [W1_MODEL_STATUS]
-Majoritaire | Intermédiaire | Minoritaire
+Majoritaire | Intermédiaire | Minoritaire | Isolé
 [W1_MODEL_MENTIONS_COUNT]
 ex: 5 mentions exploitables
 [W1_MODEL_RUN]
-ex: 00Z ou Non précisé
+ex: Run 00Z ou Runs cités : 00Z, 12Z ou Run du scénario : non déterminable
 [W1_MODEL_TIMING]
 Échéance (ex: Vendredi à dimanche)
 [W1_MODEL_DETAILS]
-Explications détaillées, écarts avec autres modèles, limites.
+Explications détaillées au conditionnel.
 [W1_MODEL_END]
 
 [W1_CONVERGENCES]
@@ -778,13 +825,14 @@ Points de divergence et désaccords
 [W1_ZONES_JSON_START]
 {
   "zones": {
-    "ouest_atlantique": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
-    "nord_nord_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
-    "nord_est": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
-    "centre": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
-    "sud_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
-    "sud_est_mediterranee": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
-    "corse": { "status": "insufficient", "weather": "", "temperatures": "", "rain_storms": "", "wind": "", "sensitive_period": "", "confidence_level": "non_estimable", "uncertainty": "Données insuffisantes", "source_models": [] }
+    "nord_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
+    "nord": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
+    "nord_est": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "local", "location": "Ardennes", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 3, "source_models": [] },
+    "ouest_atlantique": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
+    "centre": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
+    "sud_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
+    "sud_est_rhone": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
+    "mediterranee_corse": { "status": "insufficient", "weather": "", "temperatures": "", "rain_storms": "", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "", "confidence_level": "non_estimable", "uncertainty": "Données insuffisantes", "evidence_count": 0, "source_models": [] }
   }
 }
 [W1_ZONES_JSON_END]
@@ -799,7 +847,7 @@ Points les plus fragiles de la semaine
 Ce qu'il faut surveiller dans les prochains runs
 
 [W1_PHASE_1_DATES]
-Dates de la phase 1
+Dates phase 1
 [W1_PHASE_1]
 Description phase 1
 [W1_PHASE_2_DATES]
@@ -857,19 +905,19 @@ Régions les plus touchées
 [GLOBAL_MAJOR_UNCERTAINTIES]
 Incertitudes majeurs globales
 [GLOBAL_CONSENSUS_KPI]
-Consensus court (ex: 74 %)
+Niveau qualitatif du consensus : Modéré | Élevé | Faible
 [GLOBAL_CONSENSUS_NOTE]
-Note courte (ex: Accord modéré)
+Note très courte (ex: Accord sur la chaleur, désaccord d'intensité)
 [GLOBAL_SCENARIO_KPI]
-Scénario court (ex: Très chaud)
+Scénario très court et prudent (ex: Forte chaleur possible)
 [GLOBAL_SCENARIO_NOTE]
-Note courte (ex: Chaleur puis orages)
+Note très courte (ex: Intensité débattue entre GFS et ECMWF)
 [GLOBAL_UNCERTAINTY_KPI]
 Incertitude courte (ex: Intensité)
 [GLOBAL_UNCERTAINTY_NOTE]
 Note courte (ex: Écart GFS / ECMWF)
 [LINKEDIN_POST]
-Post LinkedIn complet
+Post LinkedIn complet au conditionnel
 [GLOBAL_END]
 
 [DOUBTS_START]
@@ -993,11 +1041,11 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     w2_images_html = build_image_cards(w2_images_info, week2_data["images"])
     w2_zones_html = render_zones_grid(w2_zones_dict)
 
-    # Extraction des KPIs globaux du header
-    kpi_consensus_val = extract_tag(global_content, "GLOBAL_CONSENSUS_KPI") or "75 %"
-    kpi_consensus_note = extract_tag(global_content, "GLOBAL_CONSENSUS_NOTE") or "Accord modéré à bon"
-    kpi_scenario_val = extract_tag(global_content, "GLOBAL_SCENARIO_KPI") or "Chaud"
-    kpi_scenario_note = extract_tag(global_content, "GLOBAL_SCENARIO_NOTE") or "Chaleur puis orages"
+    # KPIs globaux du header
+    kpi_consensus_val = extract_tag(global_content, "GLOBAL_CONSENSUS_KPI") or "Modéré"
+    kpi_consensus_note = extract_tag(global_content, "GLOBAL_CONSENSUS_NOTE") or "Accord sur la chaleur, intensité débattue"
+    kpi_scenario_val = extract_tag(global_content, "GLOBAL_SCENARIO_KPI") or "Forte chaleur possible"
+    kpi_scenario_note = extract_tag(global_content, "GLOBAL_SCENARIO_NOTE") or "Intensité très débattue en semaine 2"
     
     kpi_cards_val = f"{downloaded_cards_count} / {total_scraped_cards}" if total_scraped_cards > 0 else f"{downloaded_cards_count} retenues"
     kpi_cards_note = f"{downloaded_cards_count} cartes retenues sur {total_scraped_cards} analysées"
@@ -1005,22 +1053,11 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     kpi_uncertainty_val = extract_tag(global_content, "GLOBAL_UNCERTAINTY_KPI") or "Intensité"
     kpi_uncertainty_note = extract_tag(global_content, "GLOBAL_UNCERTAINTY_NOTE") or "Écart GFS et ECMWF"
 
-    # Confiances et températures pour l'historique
-    try:
-        w1_conf_val = int(re.search(r'\d+', w1_models[0].get("extraction_conf", "80")).group(0)) if w1_models else 80
-    except Exception:
-        w1_conf_val = 80
-        
+    w1_conf_val = "Modérée"
     w1_temp_val = w1_models[0].get("sensible_weather", "De saison") if w1_models else "De saison"
-
-    try:
-        w2_conf_val = int(re.search(r'\d+', w2_models[0].get("extraction_conf", "70")).group(0)) if w2_models else 70
-    except Exception:
-        w2_conf_val = 70
-        
+    w2_conf_val = "Modérée"
     w2_temp_val = w2_models[0].get("sensible_weather", "De saison") if w2_models else "De saison"
 
-    # Enregistrement de l'historique
     run_record = {
         "date_generation": today_str,
         "w1_confidence": w1_conf_val,
@@ -1115,7 +1152,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .brand{display:flex;gap:12px;align-items:center;font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
     .brand-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:22px}
     .demo{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:12px;font-weight:800}
-    .hero h1{margin:24px 0 6px;font-size:clamp(28px,4.5vw,44px);line-height:1.1;letter-spacing:-.04em;text-transform:uppercase;}
+    .hero h1{margin:24px 0 6px;font-size:clamp(26px,4vw,42px);line-height:1.1;letter-spacing:-.03em;text-transform:uppercase;}
     .hero-sub{font-size:15px;color:#dcebf3;font-weight:700;margin-bottom:16px;}
     .hero p{max-width:830px;margin:0;color:#e4f1f8;font-size:15px}
     .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
@@ -1129,7 +1166,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       backdrop-filter:blur(10px);
     }
     .kpi-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#cfe5f1;font-weight:900}
-    .kpi-value{font-size:26px;line-height:1.1;font-weight:900;margin-top:4px}
+    .kpi-value{font-size:24px;line-height:1.1;font-weight:900;margin-top:4px}
     .kpi-note{font-size:12px;color:#dcebf3;margin-top:4px}
     .tabs{
       display:grid;
@@ -1238,7 +1275,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     }
     .compare .card:first-child{border-top:5px solid var(--green)}
     .compare .card:last-child{border-top:5px solid var(--amber)}
-    .zones{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .zones{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
     .zone{
       min-height:220px;
       padding:20px;
@@ -1253,7 +1290,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .zone-notice { font-size: 13.5px; color: var(--muted); line-height: 1.5; margin: 10px 0; }
     .zone-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
     .zone-icon{font-size:26px}
-    .zone h3{margin:0;font-size:17px;color:var(--navy)}
+    .zone h3{margin:0;font-size:16px;color:var(--navy)}
     .zone-details{list-style:none;padding:0;margin:0;font-size:13px;color:var(--ink)}
     .zone-details li{margin-bottom:5px;line-height:1.4}
     .zone-foot{display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:11px;font-weight:800}
@@ -1351,9 +1388,12 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .trend-down { background: #fee2e2; color: #991b1b; }
 
     /* RESPONSIVE MOBILE EXPLICITE (< 650px) */
+    @media(max-width:1100px){
+      .zones{grid-template-columns:repeat(2,1fr)}
+    }
     @media(max-width:950px){
       .kpis,.grid-4{grid-template-columns:repeat(2,1fr)}
-      .grid-3,.zones,.cards3,.timeline{grid-template-columns:repeat(2,1fr)}
+      .grid-3,.cards3,.timeline{grid-template-columns:repeat(2,1fr)}
     }
     @media(max-width:650px){
       .page{width:min(100% - 14px,1180px);margin:7px auto 30px}
@@ -1452,7 +1492,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       </tbody>
     </table>
     <div class="table-footnote">
-      📌 La confiance d'extraction mesure la qualité des informations disponibles dans les messages. Le soutien du scénario mesure son niveau de convergence avec les autres analyses. Ces indicateurs ne constituent pas des probabilités météorologiques officielles.
+      📌 La confiance d'extraction mesure la clarté des informations disponibles dans les messages. Le soutien du scénario qualifie son niveau de convergence avec les autres analyses sans score numérique artificiel.
     </div>
   </div>
 
@@ -1466,7 +1506,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Lecture directe par région avec détails de confiance.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Lecture directe par région avec détails de confiance et transparence des sources.</p></div>
     </div>
     <div class="zones">
       [W1_ZONES_HTML_PLACEHOLDER]
@@ -1521,7 +1561,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       </tbody>
     </table>
     <div class="table-footnote">
-      📌 La confiance d'extraction mesure la qualité des informations disponibles dans les messages. Le soutien du scénario mesure son niveau de convergence avec les autres analyses. Ces indicateurs ne constituent pas des probabilités météorologiques officielles.
+      📌 La confiance d'extraction mesure la clarté des informations disponibles dans les messages. Le soutien du scénario qualifie son niveau de convergence avec les autres analyses sans score numérique artificiel.
     </div>
   </div>
 
@@ -1535,7 +1575,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Lecture directe par région avec détails de confiance.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Lecture directe par région avec détails de confiance et transparence des sources.</p></div>
     </div>
     <div class="zones">
       [W2_ZONES_HTML_PLACEHOLDER]
@@ -1613,7 +1653,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
   <div class="section">
     <div class="section-head"><div><span class="badge">Transparence</span><h2>Méthodologie des scores & doutes</h2></div></div>
     <div class="alert" style="margin-bottom:16px;">
-      💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté et la présence de cartes dans les messages. Le <i>soutien du scénario</i> évalue le degré d'accord entre les modélisations. Aucun chiffre artificiel n'est attribué aux mentions isolées non vérifiables.
+      💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté des informations dans les messages. Le <i>soutien du scénario</i> qualifie le niveau d'accord entre les modélisations (Majoritaire, Intermédiaire, Minoritaire, Isolé) sans aucun chiffre artificiel.
     </div>
     <div class="grid grid-2">
       <div class="card"><h3>Calendrier</h3><p>[DOUBTS_TIMING_PLACEHOLDER]</p></div>
