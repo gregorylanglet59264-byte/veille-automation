@@ -375,7 +375,7 @@ def main():
     today_str = get_french_date(now)
     semaine_cours_str = fmt_date_range(lundi_cours, dimanche_cours)
     semaine_suivante_str = fmt_date_range(lundi_suiv, dimanche_suiv)
-    jours_restants_cours_str = f"du {DAYS_FR[now.weekday()]} {now.day} {MONTHS_FR[now.month-1]} au Dimanche {dimanche_cours.day} {MONTHS_FR[dimanche_cours.month-1]} {dimanche_cours.year}"
+    jours_restants_cours_str = semaine_cours_str
 
     current_iso_week = now.isocalendar()[1]
 
@@ -383,19 +383,22 @@ def main():
         match = re.search(r'semaine-(\d+)', url.lower())
         return int(match.group(1)) if match else 0
 
+    # Sélection intelligente : on cherche d'abord la semaine courante et futures (>= current_iso_week)
     relevant_topics = [
         t for t in clean_topics
-        if current_iso_week - 1 <= get_topic_week_num(t) <= current_iso_week + 4
+        if current_iso_week <= get_topic_week_num(t) <= current_iso_week + 4
     ]
 
-    if not relevant_topics:
-        relevant_topics = sorted(clean_topics, key=get_topic_week_num, reverse=True)[:2]
-
-    relevant_topics.sort(key=get_topic_week_num)
-    
+    # Repli si moins de 2 sujets futurs (on ré-autorise la semaine précédente)
     if len(relevant_topics) < 2:
-        relevant_topics = sorted(clean_topics, key=get_topic_week_num, reverse=True)[:2]
-        relevant_topics.sort(key=get_topic_week_num)
+        relevant_topics = [
+            t for t in clean_topics
+            if current_iso_week - 1 <= get_topic_week_num(t) <= current_iso_week + 4
+        ]
+
+    # On prend les 2 plus futurs, triés par ordre croissant
+    relevant_topics = sorted(relevant_topics, key=get_topic_week_num, reverse=True)[:2]
+    relevant_topics.sort(key=get_topic_week_num)
 
     print(f"[INFO] Topics retenus (semaine ISO {current_iso_week}) : {[get_topic_week_num(t) for t in relevant_topics]} → {relevant_topics}")
 
@@ -1557,15 +1560,16 @@ function copyLinkedIn() {
     
     filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
+    # Version HTML pour le corps du mail (sans script, et avec tous les panneaux visibles)
+    html_body = html
+    # 1. Supprimer la balise script et son contenu
+    html_body = re.sub(r'<script>.*?</script>', '', html_body, flags=re.DOTALL)
+    # 2. Modifier le CSS pour afficher tous les panneaux et cacher la navigation par onglets
+    html_body = html_body.replace('.panel {\n        display: none;\n    }', '.panel {\n        display: block !important;\n        margin-bottom: 45px;\n    }')
+    html_body = html_body.replace('.tabs {\n        display: flex;', '.tabs {\n        display: none !important;')
+
     html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
-    text_body = (
-        f"Bonjour,\n\n"
-        f"Veuillez trouver ci-joint l'analyse consolidée des tendances météo pour les 2 prochaines semaines.\n\n"
-        f"Le rapport HTML interactif premium contenant le comparateur de modèles (ECMWF, GFS...), le découpage géographique complet, le post LinkedIn prêt à publier et l'évolution historique des runs est joint à ce message.\n\n"
-        f"Cordialement,\n"
-        f"Monsieur Météo"
-    )
-    text_b64 = base64.b64encode(text_body.encode('utf-8')).decode('ascii')
+    html_body_b64 = base64.b64encode(html_body.encode('utf-8')).decode('ascii')
     boundary = uuid.uuid4().hex
     
     raw_message = (
@@ -1579,10 +1583,10 @@ function copyLinkedIn() {
         f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
         f'\r\n'
         f'--{boundary}\r\n'
-        f'Content-Type: text/plain; charset=utf-8\r\n'
+        f'Content-Type: text/html; charset=utf-8\r\n'
         f'Content-Transfer-Encoding: base64\r\n'
         f'\r\n'
-        f'{text_b64}\r\n'
+        f'{html_body_b64}\r\n'
         f'\r\n'
         f'--{boundary}\r\n'
         f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
