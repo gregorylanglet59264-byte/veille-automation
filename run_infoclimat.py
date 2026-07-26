@@ -587,14 +587,18 @@ def build_model_cards(models):
         html_blocks.append(row_html)
     return "\n".join(html_blocks) if html_blocks else "<tr><td colspan='5'>Aucun modèle spécifique n'est détaillé dans les sources.</td></tr>"
 
-def build_image_cards(images_info, downloaded_images):
+def build_image_cards(images_info, downloaded_images, embed_cid=False, cid_prefix="w1_img"):
     html_blocks = []
     paired_count = min(len(images_info), len(downloaded_images))
     for i in range(paired_count):
         img_info = images_info[i]
         img_path = downloaded_images[i]
         
-        src_url, width, height = optimize_and_encode_image(img_path, max_width=900, quality=80)
+        if embed_cid:
+            src_url = f"cid:{cid_prefix}_{i}"
+            width, height = 800, 500
+        else:
+            src_url, width, height = optimize_and_encode_image(img_path, max_width=900, quality=80)
         
         title_attr = img_info.get("title", "Carte d'analyse").replace('"', '&quot;')
         model_attr = img_info.get("model", "-").replace('"', '&quot;')
@@ -976,6 +980,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     w1_models_html = build_model_cards(w1_models)
     w1_images_info = parse_images_info(w1_content, "W1")
     w1_images_html = build_image_cards(w1_images_info, week1_data["images"])
+    w1_images_email_html = build_image_cards(w1_images_info, week1_data["images"], embed_cid=True, cid_prefix="w1_img")
     w1_zones_html = render_zones_grid(w1_zones_dict)
 
     # Semaine 2
@@ -986,6 +991,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     w2_models_html = build_model_cards(w2_models)
     w2_images_info = parse_images_info(w2_content, "W2")
     w2_images_html = build_image_cards(w2_images_info, week2_data["images"])
+    w2_images_email_html = build_image_cards(w2_images_info, week2_data["images"], embed_cid=True, cid_prefix="w2_img")
     w2_zones_html = render_zones_grid(w2_zones_dict)
 
     # Banner d'avertissement de transparence si topic S2 non créé
@@ -1752,7 +1758,82 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
         f.write(html)
     print(f"HTML généré avec succès : {html_path}")
 
-    # Envoi email SMTP via structure anti-spam 100% propre (MIMEMultipart alternative avec HTML complet directement dans le corps)
+    # Construction de l'HTML épuré pour l'e-mail (utilisant les CIDs au lieu des lourdes chaînes base64)
+    email_html = html_template
+    email_html = email_html.replace("[STYLE_PLACEHOLDER]", f"<style>\n{style}\n</style>")
+    email_html = email_html.replace("[W1_DATES_PLACEHOLDER]", w1_dates)
+    email_html = email_html.replace("[W2_DATES_PLACEHOLDER]", w2_dates)
+    email_html = email_html.replace("[TODAY_STR_PLACEHOLDER]", today_str)
+    
+    email_html = email_html.replace("[W1_KEYS_HTML_PLACEHOLDER]", w1_keys_html)
+    email_html = email_html.replace("[W1_MODELS_HTML_PLACEHOLDER]", w1_models_html)
+    email_html = email_html.replace("[W1_ZONES_HTML_PLACEHOLDER]", w1_zones_html)
+    email_html = email_html.replace("[W1_IMAGES_HTML_PLACEHOLDER]", w1_images_email_html) # CID
+    
+    email_html = email_html.replace("[W2_KEYS_HTML_PLACEHOLDER]", w2_keys_html)
+    email_html = email_html.replace("[W2_MODELS_HTML_PLACEHOLDER]", w2_models_html)
+    email_html = email_html.replace("[W2_ZONES_HTML_PLACEHOLDER]", w2_zones_html)
+    email_html = email_html.replace("[W2_IMAGES_HTML_PLACEHOLDER]", w2_images_email_html) # CID
+    email_html = email_html.replace("[W2_NOTICE_HTML_PLACEHOLDER]", w2_notice_html)
+    
+    email_html = email_html.replace("[W1_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_CONVERGENCES")) or "-")
+    email_html = email_html.replace("[W1_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_DIVERGENCES")) or "-")
+    email_html = email_html.replace("[W2_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_CONVERGENCES")) or "-")
+    email_html = email_html.replace("[W2_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_DIVERGENCES")) or "-")
+
+    email_html = email_html.replace("[W1_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_1_DATES")) or "Phase 1")
+    email_html = email_html.replace("[W1_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_1")) or "-")
+    email_html = email_html.replace("[W1_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_2_DATES")) or "Phase 2")
+    email_html = email_html.replace("[W1_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_2")) or "-")
+    email_html = email_html.replace("[W1_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_3_DATES")) or "Phase 3")
+    email_html = email_html.replace("[W1_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_3")) or "-")
+    email_html = email_html.replace("[W1_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_4_DATES")) or "Phase 4")
+    email_html = email_html.replace("[W1_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_4")) or "-")
+
+    email_html = email_html.replace("[W2_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_1_DATES")) or "Phase 1")
+    email_html = email_html.replace("[W2_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_1")) or "-")
+    email_html = email_html.replace("[W2_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_2_DATES")) or "Phase 2")
+    email_html = email_html.replace("[W2_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_2")) or "-")
+    email_html = email_html.replace("[W2_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_3_DATES")) or "Phase 3")
+    email_html = email_html.replace("[W2_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_3")) or "-")
+    email_html = email_html.replace("[W2_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_4_DATES")) or "Phase 4")
+    email_html = email_html.replace("[W2_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_4")) or "-")
+
+    email_html = email_html.replace("[W1_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_SOLID_POINTS")) or "-")
+    email_html = email_html.replace("[W1_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_FRAGILE_POINTS")) or "-")
+    email_html = email_html.replace("[W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_NEXT_RUNS_TO_WATCH")) or "-")
+    email_html = email_html.replace("[W2_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_SOLID_POINTS")) or "-")
+    email_html = email_html.replace("[W2_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_FRAGILE_POINTS")) or "-")
+    email_html = email_html.replace("[W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_NEXT_RUNS_TO_WATCH")) or "-")
+
+    email_html = email_html.replace("[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]", clean_text_typos(kpi_consensus_val))
+    email_html = email_html.replace("[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]", clean_text_typos(kpi_consensus_note))
+    email_html = email_html.replace("[GLOBAL_SCENARIO_KPI_PLACEHOLDER]", clean_text_typos(kpi_scenario_val))
+    email_html = email_html.replace("[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]", clean_text_typos(kpi_scenario_note))
+    email_html = email_html.replace("[GLOBAL_CARDS_KPI_PLACEHOLDER]", kpi_cards_val)
+    email_html = email_html.replace("[GLOBAL_CARDS_NOTE_PLACEHOLDER]", kpi_cards_note)
+    email_html = email_html.replace("[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_val))
+    email_html = email_html.replace("[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_note))
+
+    email_html = email_html.replace("[GLOBAL_15_DAY_TREND_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_15_DAY_TREND")) or "-")
+    email_html = email_html.replace("[MOST_RELIABLE_WEEK_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "MOST_RELIABLE_WEEK")) or "-")
+    email_html = email_html.replace("[GLOBAL_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_SOLID_POINTS")) or "-")
+    email_html = email_html.replace("[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_RECURRING_PHENOMENA")) or "-")
+    email_html = email_html.replace("[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_MAJOR_UNCERTAINTIES")) or "-")
+    
+    email_html = email_html.replace("[DOUBTS_TIMING_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "DOUBTS_TIMING")) or "-")
+    email_html = email_html.replace("[DOUBTS_LOCATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "DOUBTS_LOCATION")) or "-")
+    email_html = email_html.replace("[DOUBTS_INTENSITY_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "DOUBTS_INTENSITY")) or "-")
+    email_html = email_html.replace("[MISSING_INFORMATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "MISSING_INFORMATION")) or "-")
+    email_html = email_html.replace("[LOW_DOCUMENTED_MODELS_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "LOW_DOCUMENTED_MODELS")) or "-")
+    email_html = email_html.replace("[UNCERTAIN_IMAGES_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "UNCERTAIN_IMAGES")) or "-")
+
+    email_html = email_html.replace("[LINKEDIN_CLEAN_PLACEHOLDER]", linkedin_clean)
+    email_html = email_html.replace("[WHAT_CHANGED_BOX_PLACEHOLDER]", what_changed_box)
+    email_html = email_html.replace("[SPARKLINE_CONF_PLACEHOLDER]", sparkline_conf_html)
+    email_html = email_html.replace("[TEMP_EVOLUTION_PLACEHOLDER]", temp_evolution_html)
+
+    # Envoi email SMTP via structure anti-spam 100% propre (MIMEMultipart avec HTML complet et CIDs)
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if gmail_email:
@@ -1789,16 +1870,47 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 2. SEMAINE 2 ({w2_dates})
 - Projections à long terme.
 
-Post LinkedIn et rapport visuel complet inclus dans le corps de l'e-mail.
+Rapport visuel complet inclus dans le corps de l'e-mail.
 """
     msg_alt.attach(MIMEText(text_body, 'plain', 'utf-8'))
 
-    # Integrated full HTML report directly in the email body
-    msg_alt.attach(MIMEText(html, 'html', 'utf-8'))
-
+    # Integrated full HTML report directly in the email body (using lightweight CIDs)
+    msg_alt.attach(MIMEText(email_html, 'html', 'utf-8'))
     msg.attach(msg_alt)
 
-    # File attachment
+    # Attach Semaine 1 images inline
+    for i, img_path in enumerate(week1_data["images"][:len(w1_images_info)]):
+        if os.path.exists(img_path):
+            try:
+                with open(img_path, "rb") as f_img:
+                    img_data = f_img.read()
+                ext = img_path.split('.')[-1].lower()
+                msg_img = MIMEBase('image', ext if ext in ['png', 'jpeg', 'jpg'] else 'octet-stream')
+                msg_img.set_payload(img_data)
+                encoders.encode_base64(msg_img)
+                msg_img.add_header('Content-ID', f'<w1_img_{i}>')
+                msg_img.add_header('Content-Disposition', 'inline', filename=os.path.basename(img_path))
+                msg.attach(msg_img)
+            except Exception as e:
+                print(f"Erreur d'attachement image W1 {i} : {e}")
+
+    # Attach Semaine 2 images inline
+    for i, img_path in enumerate(week2_data["images"][:len(w2_images_info)]):
+        if os.path.exists(img_path):
+            try:
+                with open(img_path, "rb") as f_img:
+                    img_data = f_img.read()
+                ext = img_path.split('.')[-1].lower()
+                msg_img = MIMEBase('image', ext if ext in ['png', 'jpeg', 'jpg'] else 'octet-stream')
+                msg_img.set_payload(img_data)
+                encoders.encode_base64(msg_img)
+                msg_img.add_header('Content-ID', f'<w2_img_{i}>')
+                msg_img.add_header('Content-Disposition', 'inline', filename=os.path.basename(img_path))
+                msg.attach(msg_img)
+            except Exception as e:
+                print(f"Erreur d'attachement image W2 {i} : {e}")
+
+    # Full self-contained file attachment
     if os.path.exists(html_path):
         with open(html_path, "rb") as f_att:
             att = MIMEBase('application', 'octet-stream')
@@ -1808,7 +1920,7 @@ Post LinkedIn et rapport visuel complet inclus dans le corps de l'e-mail.
             att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
             msg.attach(att)
 
-    print(f"[SMTP] Envoi du bulletin HTML complet directement dans le corps de l'e-mail à {', '.join(recipients)}...")
+    print(f"[SMTP] Envoi du bulletin HTML complet avec images CID à {', '.join(recipients)}...")
     try:
         with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
             server.ehlo()
