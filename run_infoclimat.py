@@ -396,7 +396,7 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
     uncert_html = f'<span class="chip-uncert">Incertitude : {uncert}</span>' if uncert else ''
     
     return f"""
-    <details class="zone zone-accordion">
+    <details class="zone zone-accordion" open>
       <summary class="zone-summary">
         <div>
           {badge_html}
@@ -575,7 +575,7 @@ def build_model_cards(models):
               {bar_html}
               <div class="score-label" style="margin-top:6px;">Soutien : <strong>{support_text}</strong></div>
             </div>
-            <details class="model-details">
+            <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
                 {model.get("details", "Pas de détails d'analyse disponibles.")}
@@ -1144,8 +1144,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     .sub-nav { display:none; gap:6px; overflow-x:auto; padding:6px 0; margin-top:6px; scrollbar-width:none; }
     .sub-nav a { flex:0 0 auto; padding:6px 12px; border-radius:999px; background:rgba(255,255,255,.8); border:1px solid var(--line); color:var(--navy); font-size:12px; font-weight:800; text-decoration:none; }
 
-    .panel{display:none}
-    .panel.active{display:block}
+    .panel{display:block; margin-bottom: 24px;}
     .section{
       margin-top:18px;
       padding:28px;
@@ -1313,24 +1312,6 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     }
     .copy:hover{background:#114fa8}
     .footer{padding:28px 8px 0;text-align:center;color:#6a7d8f;font-size:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-    .back-to-top { background:var(--surface); border:1px solid var(--line); padding:10px 16px; border-radius:10px; color:var(--navy); font-weight:800; cursor:pointer; min-height:44px; }
-    .fab-top { display:none; position:fixed; bottom:20px; right:20px; z-index:99; width:48px; height:48px; border-radius:50%; background:var(--navy); color:white; border:2px solid white; box-shadow:0 6px 20px rgba(0,0,0,.25); font-size:20px; place-items:center; cursor:pointer; }
-
-    .lightbox-modal {
-      display:none;
-      position:fixed;
-      inset:0;
-      z-index:9999;
-      background:rgba(0,0,0,0.92);
-      flex-direction:column;
-      justify-content:center;
-      align-items:center;
-      padding:16px;
-    }
-    .lightbox-modal.active { display:flex; }
-    .lightbox-content { max-width:100%; max-height:80vh; object-fit:contain; border-radius:8px; }
-    .lightbox-caption { color:white; text-align:center; margin-top:12px; max-width:600px; font-size:14px; }
-    .lightbox-close { position:absolute; top:20px; right:20px; background:rgba(255,255,255,.2); color:white; border:none; width:44px; height:44px; border-radius:50%; font-size:22px; cursor:pointer; display:grid; place-items:center; }
 
     .evolution-card { background: var(--surface-2); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
     .sparkline { font-family: monospace; font-size: 13px; line-height: 1.5; color: var(--ink); background: #ffffff; border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin-top: 8px; }
@@ -1364,27 +1345,6 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
       .kpi { padding:12px !important; border-radius:14px !important; }
       .kpi-value { font-size:19px !important; }
       .kpi-note { font-size:11px !important; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-
-      .tabs-wrapper { top:0; padding:6px 0; background:var(--bg); }
-      .tabs {
-        display: flex !important;
-        overflow-x: auto !important;
-        gap: 8px !important;
-        scrollbar-width: none !important;
-        scroll-snap-type: x mandatory !important;
-        padding-bottom: 2px !important;
-        -webkit-overflow-scrolling: touch;
-      }
-      .tabs::-webkit-scrollbar { display: none; }
-      .tabs button {
-        flex: 0 0 auto !important;
-        min-width: 105px !important;
-        scroll-snap-align: start !important;
-        padding: 10px 14px !important;
-        font-size: 13px !important;
-        border-radius: 12px !important;
-      }
-      .sub-nav { display: flex !important; }
 
       .grid-2,.grid-3,.grid-4,.zones,.cards3,.compare {
         grid-template-columns: 1fr !important;
@@ -1459,21 +1419,12 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
       }
 
       .linkedin {
-        max-height: 220px;
-        overflow: hidden;
-        position: relative;
+        max-height: none !important;
         font-size:14px;
         padding:16px;
       }
-      .linkedin.expanded { max-height: none; }
-      .linkedin-toggle-btn { display: block !important; }
       .linkedin-toolbar { flex-direction: column; align-items: stretch; }
       .copy { width: 100%; text-align: center; }
-      .fab-top { display: grid !important; }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      * { animation: none !important; transition: none !important; }
     }
     """
 
@@ -1513,23 +1464,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 </header>
 
-<div class="tabs-wrapper">
-  <nav class="tabs" role="tablist" aria-label="Navigation du bulletin">
-    <button class="active" id="tab-week1" role="tab" aria-selected="true" aria-controls="week1" data-tab="week1">Semaine 1</button>
-    <button id="tab-week2" role="tab" aria-selected="false" aria-controls="week2" data-tab="week2">Semaine 2</button>
-    <button id="tab-summary" role="tab" aria-selected="false" aria-controls="summary" data-tab="summary">Synthèse</button>
-    <button id="tab-doubts" role="tab" aria-selected="false" aria-controls="doubts" data-tab="doubts">Incertitudes</button>
-  </nav>
-  <div class="sub-nav">
-    <a href="#sec-w1-keys">À retenir</a>
-    <a href="#sec-w1-models">Modèles</a>
-    <a href="#sec-w1-zones">Zones</a>
-    <a href="#sec-w1-timeline">Chronologie</a>
-    <a href="#sec-w1-images">Graphiques</a>
-  </div>
-</div>
-
-<section id="week1" class="panel active" role="tabpanel" aria-labelledby="tab-week1">
+<section id="week1" class="panel">
   <div id="sec-w1-keys" class="section">
     <div class="section-head">
       <div><span class="badge">À retenir</span><h2>Semaine 1 — [W1_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
@@ -1541,7 +1476,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
   <div id="sec-w1-models" class="section">
     <div class="section-head">
-      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
+      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles (Semaine 1)</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
     </div>
     <table class="model-table">
       <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
@@ -1555,7 +1490,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences</h2></div></div>
+    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 1)</h2></div></div>
     <div class="compare">
       <div class="card"><h3>Ce qui converge</h3><p>[W1_CONVERGENCES_PLACEHOLDER]</p></div>
       <div class="card"><h3>Ce qui diverge</h3><p>[W1_DIVERGENCES_PLACEHOLDER]</p></div>
@@ -1564,7 +1499,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
   <div id="sec-w1-zones" class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Toucher une zone pour déplier les détails complets.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques (Semaine 1)</h2></div>
     </div>
     <div class="zones">
       [W1_ZONES_HTML_PLACEHOLDER]
@@ -1572,7 +1507,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div id="sec-w1-timeline" class="section">
-    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine</h2></div></div>
+    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 1</h2></div></div>
     <div class="timeline">
       <div class="phase"><b>[W1_PHASE_1_DATES_PLACEHOLDER]</b><p>[W1_PHASE_1_PLACEHOLDER]</p></div>
       <div class="phase"><b>[W1_PHASE_2_DATES_PLACEHOLDER]</b><p>[W1_PHASE_2_PLACEHOLDER]</p></div>
@@ -1582,7 +1517,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles</h2></div></div>
+    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 1)</h2></div></div>
     <div class="compare">
       <div class="card"><h3>Éléments solides</h3><p>[W1_SOLID_POINTS_PLACEHOLDER]</p></div>
       <div class="card"><h3>Éléments fragiles</h3><p>[W1_FRAGILE_POINTS_PLACEHOLDER]</p></div>
@@ -1591,14 +1526,14 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div id="sec-w1-images" class="section">
-    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images optimisées, touchez une carte pour l'agrandir.</p></div></div>
+    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes (Semaine 1)</h2></div></div>
     <div class="cards3">
       [W1_IMAGES_HTML_PLACEHOLDER]
     </div>
   </div>
 </section>
 
-<section id="week2" class="panel" role="tabpanel" aria-labelledby="tab-week2">
+<section id="week2" class="panel">
   [W2_NOTICE_HTML_PLACEHOLDER]
 
   <div class="section">
@@ -1612,7 +1547,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
+      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles (Semaine 2)</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
     </div>
     <table class="model-table">
       <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
@@ -1626,7 +1561,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences</h2></div></div>
+    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 2)</h2></div></div>
     <div class="compare">
       <div class="card"><h3>Ce qui converge</h3><p>[W2_CONVERGENCES_PLACEHOLDER]</p></div>
       <div class="card"><h3>Ce qui diverge</h3><p>[W2_DIVERGENCES_PLACEHOLDER]</p></div>
@@ -1635,7 +1570,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Toucher une zone pour déplier les détails complets.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques (Semaine 2)</h2></div>
     </div>
     <div class="zones">
       [W2_ZONES_HTML_PLACEHOLDER]
@@ -1643,7 +1578,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine</h2></div></div>
+    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 2</h2></div></div>
     <div class="timeline">
       <div class="phase"><b>[W2_PHASE_1_DATES_PLACEHOLDER]</b><p>[W2_PHASE_1_PLACEHOLDER]</p></div>
       <div class="phase"><b>[W2_PHASE_2_DATES_PLACEHOLDER]</b><p>[W2_PHASE_2_PLACEHOLDER]</p></div>
@@ -1653,7 +1588,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles</h2></div></div>
+    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 2)</h2></div></div>
     <div class="compare">
       <div class="card"><h3>Éléments solides</h3><p>[W2_SOLID_POINTS_PLACEHOLDER]</p></div>
       <div class="card"><h3>Éléments fragiles</h3><p>[W2_FRAGILE_POINTS_PLACEHOLDER]</p></div>
@@ -1662,14 +1597,14 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images optimisées, touchez une carte pour l'agrandir.</p></div></div>
+    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes (Semaine 2)</h2></div></div>
     <div class="cards3">
       [W2_IMAGES_HTML_PLACEHOLDER]
     </div>
   </div>
 </section>
 
-<section id="summary" class="panel" role="tabpanel" aria-labelledby="tab-summary">
+<section id="summary" class="panel">
   [WHAT_CHANGED_BOX_PLACEHOLDER]
 
   <div class="section">
@@ -1699,20 +1634,14 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn prêt à copier-coller</h2></div></div>
+    <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn</h2></div></div>
     <div class="linkedin-box">
       <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
-      <button id="linkedin-toggle" class="linkedin-toggle-btn" onclick="toggleLinkedIn()">Afficher le post complet</button>
     </div>
-    <div class="linkedin-toolbar">
-      <span id="char-count" class="char-counter">0 caractères</span>
-      <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
-    </div>
-    <div id="copy-status" aria-live="polite" style="margin-top:6px; font-weight:800; color:var(--green); text-align:center;"></div>
   </div>
 </section>
 
-<section id="doubts" class="panel" role="tabpanel" aria-labelledby="tab-doubts">
+<section id="doubts" class="panel">
   <div class="section">
     <div class="section-head"><div><span class="badge">Transparence</span><h2>Méthodologie des scores & doutes</h2></div></div>
     <div class="alert" style="margin-bottom:16px;">
@@ -1731,132 +1660,9 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 <footer class="footer">
 <span>Bulletin généré automatiquement à partir des discussions et images du forum Infoclimat.</span>
-<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Haut de page</button>
 </footer>
 
 </main>
-
-<button id="fab-top" class="fab-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut" aria-label="Retour en haut">↑</button>
-
-<!-- Lightbox Visionneuse Plein Écran Mobile & Desktop -->
-<div id="lightbox" class="lightbox-modal" onclick="closeLightbox(event)">
-  <button class="lightbox-close" onclick="closeLightbox(event)">✕</button>
-  <img id="lightbox-img" class="lightbox-content" src="" alt="Agrandissement carte météo">
-  <div id="lightbox-caption" class="lightbox-caption"></div>
-</div>
-
-<script>
-const buttons = document.querySelectorAll('.tabs button');
-const panels = document.querySelectorAll('.panel');
-
-function activateTab(tabId) {
-  buttons.forEach(b => {
-    const active = b.dataset.tab === tabId;
-    b.classList.toggle('active', active);
-    b.setAttribute('aria-selected', active ? 'true' : 'false');
-  });
-  panels.forEach(p => {
-    p.classList.toggle('active', p.id === tabId);
-  });
-  try { localStorage.setItem('infoclimat_active_tab', tabId); } catch(e){}
-}
-
-buttons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    activateTab(btn.dataset.tab);
-    window.scrollTo({top: document.querySelector('.tabs-wrapper').offsetTop - 4, behavior: 'smooth'});
-  });
-});
-
-const hash = window.location.hash.replace('#', '');
-const savedTab = localStorage.getItem('infoclimat_active_tab');
-if (['week1', 'week2', 'summary', 'doubts'].includes(hash)) {
-  activateTab(hash);
-} else if (savedTab && ['week1', 'week2', 'summary', 'doubts'].includes(savedTab)) {
-  activateTab(savedTab);
-}
-
-// Mobile FAB Top button
-const fabTop = document.getElementById('fab-top');
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 400) {
-    fabTop.style.display = 'grid';
-  } else {
-    fabTop.style.display = 'none';
-  }
-});
-
-// Visionneuse Lightbox Modal
-const lightbox = document.getElementById('lightbox');
-const lightboxImg = document.getElementById('lightbox-img');
-const lightboxCaption = document.getElementById('lightbox-caption');
-
-document.querySelectorAll('.lightbox-trigger').forEach(img => {
-  img.addEventListener('click', (e) => {
-    e.preventDefault();
-    const fullUrl = img.dataset.full || img.src;
-    const title = img.dataset.title || '';
-    const meta = img.dataset.meta || '';
-    lightboxImg.src = fullUrl;
-    lightboxCaption.innerHTML = '<strong>' + title + '</strong><br><small style="color:#cbd5e1;">' + meta + '</small>';
-    lightbox.classList.add('active');
-  });
-});
-
-function closeLightbox(e) {
-  if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
-    lightbox.classList.remove('active');
-    lightboxImg.src = '';
-  }
-}
-
-// Toggle LinkedIn text on mobile
-function toggleLinkedIn() {
-  const el = document.getElementById('linkedin');
-  const btn = document.getElementById('linkedin-toggle');
-  if (el.classList.contains('expanded')) {
-    el.classList.remove('expanded');
-    btn.textContent = 'Afficher le post complet';
-  } else {
-    el.classList.add('expanded');
-    btn.textContent = 'Réduire le post';
-  }
-}
-
-function copyLinkedIn() {
-  const text = document.getElementById('linkedin').innerText;
-  const statusEl = document.getElementById('copy-status');
-  
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(text).then(() => {
-      statusEl.textContent = '✓ Post LinkedIn copié dans le presse-papiers !';
-      setTimeout(() => statusEl.textContent = '', 3000);
-    }).catch(fallbackCopy);
-  } else {
-    fallbackCopy();
-  }
-
-  function fallbackCopy() {
-    const ta = document.createElement('textarea');
-    ta.value = text;
-    document.body.appendChild(ta);
-    ta.select();
-    try {
-      document.execCommand('copy');
-      statusEl.textContent = '✓ Post LinkedIn copié dans le presse-papiers !';
-      setTimeout(() => statusEl.textContent = '', 3000);
-    } catch(e) {
-      alert('Veuillez sélectionner et copier manuellement le texte du post.');
-    }
-    document.body.removeChild(ta);
-  }
-}
-
-const linkText = document.getElementById('linkedin') ? document.getElementById('linkedin').innerText : '';
-if(document.getElementById('char-count')) {
-  document.getElementById('char-count').textContent = linkText.length + ' caractères';
-}
-</script>
 </body>
 </html>"""
 
@@ -1946,7 +1752,7 @@ if(document.getElementById('char-count')) {
         f.write(html)
     print(f"HTML généré avec succès : {html_path}")
 
-    # Envoi email SMTP via structure anti-spam 100% propre (multipart/alternative + text/plain + piece jointe HTML)
+    # Envoi email SMTP via structure anti-spam 100% propre (MIMEMultipart alternative avec HTML complet directement dans le corps)
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
     if gmail_email:
@@ -1964,7 +1770,6 @@ if(document.getElementById('char-count')) {
     sender = gmail_email
     subject = f"PRÉVISIONS À MOYEN ET LONG TERME — {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
     
-    # Message racine mixed (support pièces jointes)
     msg = MIMEMultipart("mixed")
     msg['From'] = f"Meteo Climat Pro <{sender}>"
     msg['To'] = ", ".join(recipients)
@@ -1975,48 +1780,25 @@ if(document.getElementById('char-count')) {
     # Container alternative indispensable pour éviter le rejet anti-spam SFR (550 5.7.1)
     msg_alt = MIMEMultipart("alternative")
 
-    # Body 1: Plain Text
-    text_body = f"""Bonjour,
+    # Plain Text fallback
+    text_body = f"""PRÉVISIONS MÉTÉO À MOYEN ET LONG TERME ({w1_dates} & {w2_dates})
 
-Veuillez trouver ci-joint l'analyse consolidée des prévisions météo à moyen et long terme ({w1_dates} & {w2_dates}).
+1. SEMAINE 1 ({w1_dates})
+- Tendances modèles et synthèse par zones météo.
 
-Le rapport HTML interactif complet (avec comparateur multi-modèles, prévisions par zones et post LinkedIn) est joint à ce message.
+2. SEMAINE 2 ({w2_dates})
+- Projections à long terme.
 
-Cordialement,
-Monsieur Météo
+Post LinkedIn et rapport visuel complet inclus dans le corps de l'e-mail.
 """
     msg_alt.attach(MIMEText(text_body, 'plain', 'utf-8'))
 
-    # Body 2: Clean HTML Card
-    card_html_body = f"""<!DOCTYPE html>
-<html lang="fr">
-<head><meta charset="utf-8"></head>
-<body style="font-family: Arial, sans-serif; background-color: #f8fafc; color: #1e293b; padding: 20px;">
-  <div style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 16px; padding: 28px; border: 1px solid #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
-    <h2 style="color: #0d2f4f; margin-top: 0; font-size: 22px;">🌦️ PRÉVISIONS À MOYEN ET LONG TERME</h2>
-    <p style="font-size: 15px; color: #475569;">Bonjour,</p>
-    <p style="font-size: 15px; color: #334155;">Le bulletin d'analyse météorologique consolidé pour les deux prochaines semaines a été généré avec succès.</p>
-    
-    <div style="background: #eef4f8; padding: 16px; border-radius: 12px; border-left: 4px solid #1565d8; margin: 20px 0;">
-      <strong style="color: #0d2f4f;">📌 Périodes couvertes :</strong>
-      <ul style="margin: 8px 0 0; padding-left: 20px; color: #334155; font-size: 14px;">
-        <li><b>Semaine 1 :</b> {w1_dates}</li>
-        <li><b>Semaine 2 :</b> {w2_dates}</li>
-      </ul>
-    </div>
-
-    <p style="font-size: 14px; color: #475569;">📎 <b>Pièce jointe :</b> Le rapport HTML interactif complet (avec accordéons régionaux et visionneuse plein écran) est joint à ce message.</p>
-    
-    <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 24px 0;">
-    <p style="font-size: 12px; color: #64748b; margin: 0;">Monsieur Météo — Automatisation Infoclimat</p>
-  </div>
-</body>
-</html>"""
-    msg_alt.attach(MIMEText(card_html_body, 'html', 'utf-8'))
+    # Integrated full HTML report directly in the email body
+    msg_alt.attach(MIMEText(html, 'html', 'utf-8'))
 
     msg.attach(msg_alt)
 
-    # Attach full interactive HTML file
+    # File attachment
     if os.path.exists(html_path):
         with open(html_path, "rb") as f_att:
             att = MIMEBase('application', 'octet-stream')
@@ -2026,7 +1808,7 @@ Monsieur Météo
             att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
             msg.attach(att)
 
-    print(f"[SMTP] Envoi via Gmail (Structure Anti-Spam SFR conforme) à {', '.join(recipients)}...")
+    print(f"[SMTP] Envoi du bulletin HTML complet directement dans le corps de l'e-mail à {', '.join(recipients)}...")
     try:
         with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
             server.ehlo()
@@ -2034,7 +1816,7 @@ Monsieur Météo
             server.ehlo()
             server.login(gmail_email, gmail_password)
             server.sendmail(gmail_email, recipients, msg.as_string())
-        print("[SMTP] E-mail anti-spam envoyé avec succès !")
+        print("[SMTP] E-mail avec rapport complet envoyé avec succès !")
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi : {e}")
         sys.exit(1)
