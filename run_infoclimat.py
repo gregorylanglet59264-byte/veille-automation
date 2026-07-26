@@ -49,7 +49,7 @@ def fetch_url(url, timeout=8):
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read().decode('utf-8', errors='ignore')
 
-def optimize_and_encode_image(img_path, max_width=1200, quality=82):
+def optimize_and_encode_image(img_path, max_width=900, quality=80):
     if not os.path.exists(img_path):
         return "", 800, 500
     if HAS_PIL:
@@ -361,7 +361,7 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
     elif "faib" in conf_level.lower(): conf_label = "Faible"
     elif "non" in conf_level.lower(): conf_label = "Non estimable"
     
-    badge_html = '<span class="badge" style="margin-bottom:8px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>' if status == "partial" else ""
+    badge_html = '<span class="badge" style="margin-bottom:6px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>' if status == "partial" else ""
     
     details_items = []
     if weather: details_items.append(f'<li><b>Temps dominant :</b> {weather}</li>')
@@ -373,13 +373,11 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
         else:
             details_items.append(f'<li><b>Pluie / Orages :</b> {rain}</li>')
             
-    # RÈGLE D'OR : Ne jamais inventer le vent. Si non documenté, masquer entièrement la ligne !
     if wind and wind.lower() not in ["non documenté", "non précisé", "-", "vent non documenté"]:
         details_items.append(f'<li><b>Vent :</b> {wind}</li>')
         
     if timing and timing.lower() not in ["non documenté", "non précisé"]: details_items.append(f'<li><b>Période sensible :</b> {timing}</li>')
     
-    # Transparence des sources par zone
     evidence_count = zone_data.get("evidence_count", 0)
     sources_meta = []
     if models and isinstance(models, list) and len(models) > 0:
@@ -390,28 +388,37 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
         sources_meta.append(f"{evidence_count} mentions")
         
     if sources_meta:
-        details_items.append(f'<li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources disponibles :</b> {" • ".join(sources_meta)}</li>')
+        details_items.append(f'<li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> {" • ".join(sources_meta)}</li>')
 
     details_html = "".join(details_items)
     uncert_html = f'<span class="chip-uncert">Incertitude : {uncert}</span>' if uncert else ''
     
     return f"""
-    <div class="zone">
-      <div>
-        {badge_html}
-        <div class="zone-head">
-          <span class="zone-icon">{icon}</span>
-          <h3>{zone_display_name}</h3>
+    <details class="zone zone-accordion">
+      <summary class="zone-summary">
+        <div>
+          {badge_html}
+          <div class="zone-head" style="margin-bottom:2px;">
+            <span class="zone-icon">{icon}</span>
+            <h3>{zone_display_name}</h3>
+          </div>
+          <div class="zone-short-desc">{weather}</div>
         </div>
+        <div style="display:flex; align-items:center; gap:6px;">
+          <span class="chip-conf" style="font-size:10px;">{conf_label}</span>
+          <span class="zone-chevron">▼</span>
+        </div>
+      </summary>
+      <div class="zone-body">
         <ul class="zone-details">
           {details_html}
         </ul>
+        <div class="zone-foot">
+          <span class="chip-conf">Confiance : {conf_label}</span>
+          {uncert_html}
+        </div>
       </div>
-      <div class="zone-foot">
-        <span class="chip-conf">Confiance : {conf_label}</span>
-        {uncert_html}
-      </div>
-    </div>
+    </details>
     """
 
 def render_zones_grid(zones_json_data):
@@ -509,7 +516,6 @@ def build_model_cards(models):
         raw_conf = model.get("extraction_conf", "Non estimable")
         conf_digits = re.search(r'\d+', str(raw_conf))
         
-        # RÈGLE D'OR N°10 : Pas de jauge graphique si le score est Non estimable ou sans chiffre !
         if conf_digits and "non" not in str(raw_conf).lower():
             conf_num = int(conf_digits.group(0))
             color = "var(--green)"
@@ -521,9 +527,8 @@ def build_model_cards(models):
             score_text = "Non estimable"
             bar_html = '<div class="bar" style="background:#e2e8f0;"></div>'
 
-        # RÈGLE D'OR N°2 : Soutien qualitatif uniquement (Majoritaire / Intermédiaire / Minoritaire / Isolé)
         support_text = clean_text_typos(model.get("scenario_support", "Majoritaire"))
-        support_text = re.sub(r'\d+\s*%', '', support_text).strip() # Purge les % inventés
+        support_text = re.sub(r'\d+\s*%', '', support_text).strip()
         if not support_text: support_text = "Majoritaire"
 
         status_class = "status-main"
@@ -538,27 +543,29 @@ def build_model_cards(models):
         mentions_info = model.get("mentions_count", "1 mention exploitable")
         
         row_html = f"""
-        <tr>
-          <td>
-            <div class="model-name">{model.get("name", "Modèle")}</div>
-            <div class="chips">
+        <tr class="model-row">
+          <td data-label="Modèle">
+            <div class="model-name-box">
+              <div class="model-name">{model.get("name", "Modèle")}</div>
+              <span class="status-badge {status_class}">{status_text}</span>
+            </div>
+            <div class="chips" style="margin-top:6px;">
               <span class="chip">{mentions_info}</span>
               <span class="chip">{run_info}</span>
               <span class="chip">{timing_info}</span>
             </div>
-            <span class="status-badge {status_class}">{status_text}</span>
           </td>
-          <td>{model.get("scenario", "-")}</td>
-          <td>{model.get("sensible_weather", "-")}</td>
-          <td>{model.get("affected_zones", "-")}</td>
-          <td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>{model.get("scenario", "-")}</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>{model.get("sensible_weather", "-")}</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>{model.get("affected_zones", "-")}</td>
+          <td data-label="Confiance & Soutien">
             <div class="score-box">
               <div class="score-label">Extraction : <strong>{score_text}</strong></div>
               {bar_html}
               <div class="score-label" style="margin-top:6px;">Soutien : <strong>{support_text}</strong></div>
             </div>
             <details class="model-details">
-              <summary>Voir l'analyse complète</summary>
+              <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
                 {model.get("details", "Pas de détails d'analyse disponibles.")}
               </div>
@@ -576,10 +583,15 @@ def build_image_cards(images_info, downloaded_images):
         img_info = images_info[i]
         img_path = downloaded_images[i]
         
-        src_url, width, height = optimize_and_encode_image(img_path, max_width=1200, quality=82)
+        src_url, width, height = optimize_and_encode_image(img_path, max_width=900, quality=80)
+        
+        title_attr = img_info.get("title", "Carte d'analyse").replace('"', '&quot;')
+        model_attr = img_info.get("model", "-").replace('"', '&quot;')
+        run_attr = img_info.get("run", "Non précisé").replace('"', '&quot;')
+        timing_attr = img_info.get("timing", "-").replace('"', '&quot;')
         
         if src_url:
-            img_html = f'<a href="{src_url}" target="_blank" title="Cliquez pour agrandir l\'image" aria-label="Agrandir l\'image"><img src="{src_url}" loading="lazy" width="{width}" height="{height}" style="width: 100%; max-height: 240px; object-fit: contain; background: #0b1d2e;" alt="{img_info.get("title", "Carte météo")}"></a>'
+            img_html = f'<img src="{src_url}" loading="lazy" width="{width}" height="{height}" class="lightbox-trigger" data-full="{src_url}" data-title="{title_attr}" data-meta="{model_attr} • {run_attr} • {timing_attr}" style="width: 100%; max-height: 240px; object-fit: contain; background: #0b1d2e; cursor: pointer;" alt="{title_attr}">'
         else:
             img_html = f'<div class="image-demo">IMAGE {i+1}<br>Erreur de chargement</div>'
             
@@ -722,38 +734,38 @@ def main():
 MISSION
 À partir des discussions et analyses météorologiques brutes de deux semaines distinctes de prévision, tu dois produire un bulletin d'analyse météorologique consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises et par JSON.
 
-RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET CONDITIONNEL OBLIGATOIRE (CRUCIAL)
+RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET CONDITIONNEL OBLIGATOIRE
 - Ne transforme JAMAIS une sortie isolée ou un scénario en certitude.
-- Formulations affirmatives interdites pour les événements futurs incertains ! Utilise systématiquement le conditionnel ("Forte chaleur possible", "Une période très chaude pourrait se mettre en place", "Des averses restent possibles", "Certains scénarios placent...").
+- Formulations affirmatives interdites pour les événements futurs incertains ! Utilise le conditionnel.
 - Ne jamais utiliser le mot "canicule" sauf si les messages décrivent explicitement un épisode durable de températures très élevées de jour comme de nuit validé par le consensus.
-- Ne pas inventer le vent : s'il n'est pas mentionné dans les messages ou graphiques pour une zone, indiquer wind="Non documenté".
+- Ne pas inventer le vent : s'il n'est pas mentionné pour une zone, indiquer wind="Non documenté".
 
 RÈGLE D'OR N°2 : SÉPARATION STRICTE DES SOUTIENS DE SCÉNARIOS ET DES RUNS
-Pour chaque modèle météo cité (ex: GFS déterministe, GEFS, ECMWF déterministe, IFS ENS, AIFS, GEM, UKMO) :
-1. Confiance d'extraction : Indiquer un chiffre de 0 à 100% seulement si l'information est explicite, sinon écrire "Non estimable". Ne jamais forcer 80 % !
-2. Soutien du scénario (QUALITATIF UNIQUEMENT) : Utiliser uniquement l'un des termes suivants : Majoritaire | Intermédiaire | Minoritaire | Isolé | Non déterminable. AUCUN POURCENTAGE INVENTÉ !
-3. Run : Si plusieurs runs sont cités, écrire "Runs cités : 00Z, 12Z". Si non précisé, écrire "Run du scénario : non déterminable". Ne jamais écrire "Non précisé (runs multiples: ...)".
+Pour chaque modèle météo cité :
+1. Confiance d'extraction : Score 0-100% ou "Non estimable". Ne jamais forcer 80 % !
+2. Soutien du scénario (QUALITATIF UNIQUEMENT) : Utiliser uniquement : Majoritaire | Intermédiaire | Minoritaire | Isolé | Non déterminable. AUCUN POURCENTAGE INVENTÉ !
+3. Run : Si plusieurs runs sont cités, écrire "Runs cités : 00Z, 12Z". Si non précisé, écrire "Run du scénario : non déterminable".
 
 RÈGLE D'OR N°3 : SYNTHÈSE DES 8 ZONES MÉTÉOROLOGIQUES EN JSON STRICT
-Pour chaque semaine, tu DOIS obligatoirement retourner un objet JSON sous les balises [W1_ZONES_JSON_START] et [W2_ZONES_JSON_START].
-Utilise STRICTEMENT les 8 clés fixes suivantes (sans accents, sans variations) :
-1. "nord_ouest" (Bretagne, Normandie, Pays de la Loire occidental)
-2. "nord" (Hauts-de-France, Île-de-France, Bassin parisien)
-3. "nord_est" (Grand Est, Ardennes, Lorraine, Alsace, Franche-Comté nord)
-4. "ouest_atlantique" (Vendée, Charentes, façade aquitaine)
-5. "centre" (Centre-Val de Loire, Berry, Limousin nord, Auvergne nord)
-6. "sud_ouest" (Aquitaine intérieure, Midi toulousain, Pyrénées)
-7. "sud_est_rhone" (PACA, vallée du Rhône, Alpes du Sud)
-8. "mediterranee_corse" (Languedoc, Roussillon, Provence littorale, Corse)
+Tu DOIS obligatoirement retourner un objet JSON sous les balises [W1_ZONES_JSON_START] et [W2_ZONES_JSON_START].
+Utilise STRICTEMENT les 8 clés fixes suivantes :
+1. "nord_ouest"
+2. "nord"
+3. "nord_est"
+4. "ouest_atlantique"
+5. "centre"
+6. "sud_ouest"
+7. "sud_est_rhone"
+8. "mediterranee_corse"
 
 Structure JSON exigée par zone :
 {
   "status": "documented | partial | insufficient",
-  "weather": "Temps dominant envisagé",
+  "weather": "Temps dominant envisagé (max 15 mots sur mobile)",
   "temperatures": "Description des températures",
   "rain_storms": "Précipitations et orages",
   "spatial_scope": "local | regional | broad",
-  "location": "Localisation précise si valeur locale (ex: Ardennes)",
+  "location": "Localisation précise si valeur locale",
   "wind": "Vent si documenté, sinon Non documenté",
   "sensitive_period": "Jours sensibles",
   "confidence_level": "elevee | moderee | faible | non_estimable",
@@ -762,184 +774,98 @@ Structure JSON exigée par zone :
   "source_models": ["GFS", "ECMWF"]
 }
 
-Statuts des zones :
-- status = "documented" : synthèse fiable et complète possible.
-- status = "partial" : informations partielles (ex: cumuls évoqués localement pour un secteur).
-- status = "insufficient" : aucune info fiable. Mettre weather="", confidence_level="non_estimable", uncertainty="Données insuffisantes dans les sources".
-
 RÈGLE D'OR N°4 : POST LINKEDIN RÉVISÉ
 Rédige un post LinkedIn prêt à copier-coller (250-300 mots) :
 - Titre accrocheur et prudent (ex: 🌡️ 𝗣𝗿𝗲́𝘃𝗶𝘀𝗶𝗼𝗻𝘀 𝗺𝗲́𝘁𝗲́𝗼 : 𝗧𝗲𝗻𝗱𝗮𝗻𝗰𝗲𝘀 𝗲𝘁 𝗱𝗶𝘃𝗲𝗿𝗴𝗲𝗻𝗰𝗲𝘀 𝗺𝘂𝗹𝘁𝗶-𝗺𝗼𝗱𝗲̀𝗹𝗲𝘀).
 - Aucun markdown ** visible dans le texte.
-- Utilise des formulations nuancées ("forte chaleur possible", "scénarios chauds à affiner").
-- Pas d'injonctions sanitaires ("hydratez-vous") ni d'alertes officielles.
-- 4 à 7 hashtags pertinents.
 
-FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ce balisage :
+FORMAT DE SORTIE OBLIGATOIRE :
 
 [WEEK_1_START]
 [W1_DATES]
-Période exacte de la semaine 1 (ex: Du Lundi 27 Juillet au Dimanche 2 Août 2026)
+Période exacte semaine 1
 
 [W1_KEY_POINT_1]
-Titre court 2-5 mots : Explication courte d'une phrase.
-
+Titre court 2-5 mots : Explication courte d'une phrase (12-18 mots max).
 [W1_KEY_POINT_2]
-Titre court 2-5 mots : Explication courte d'une phrase.
-
+Titre court 2-5 mots : Explication courte.
 [W1_KEY_POINT_3]
-Titre court 2-5 mots : Explication courte d'une phrase.
-
+Titre court 2-5 mots : Explication courte.
 [W1_KEY_POINT_4]
-Titre court 2-5 mots : Explication courte d'une phrase.
-
+Titre court 2-5 mots : Explication courte.
 [W1_KEY_POINT_5]
-Titre court 2-5 mots : Explication courte d'une phrase.
+Titre court 2-5 mots : Explication courte.
 
---- (Répéter pour chaque modèle) ---
 [W1_MODEL_START]
-[W1_MODEL_NAME]
-Nom précis du modèle (ex: GFS déterministe, GEFS, ECMWF IFS)
-[W1_MODEL_SCENARIO]
-Scénario synthétique au conditionnel
-[W1_MODEL_SENSIBLE_WEATHER]
-Temps sensible en une phrase
-[W1_MODEL_AFFECTED_ZONES]
-Zones géographiques concernées
-[W1_MODEL_EXTRACTION_CONF]
-Score de 0 à 100% ou Non estimable
-[W1_MODEL_SCENARIO_SUPPORT]
-Majoritaire | Intermédiaire | Minoritaire | Isolé | Non déterminable
-[W1_MODEL_STATUS]
-Majoritaire | Intermédiaire | Minoritaire | Isolé
-[W1_MODEL_MENTIONS_COUNT]
-ex: 5 mentions exploitables
-[W1_MODEL_RUN]
-ex: Run 00Z ou Runs cités : 00Z, 12Z ou Run du scénario : non déterminable
-[W1_MODEL_TIMING]
-Échéance (ex: Vendredi à dimanche)
-[W1_MODEL_DETAILS]
-Explications détaillées au conditionnel.
+[W1_MODEL_NAME] ...
+[W1_MODEL_SCENARIO] ... (max 160 caractères)
+[W1_MODEL_SENSIBLE_WEATHER] ... (max 120 caractères)
+[W1_MODEL_AFFECTED_ZONES] ...
+[W1_MODEL_EXTRACTION_CONF] ...
+[W1_MODEL_SCENARIO_SUPPORT] ...
+[W1_MODEL_STATUS] ...
+[W1_MODEL_MENTIONS_COUNT] ...
+[W1_MODEL_RUN] ...
+[W1_MODEL_TIMING] ...
+[W1_MODEL_DETAILS] ...
 [W1_MODEL_END]
 
 [W1_CONVERGENCES]
-Points de convergence entre les modèles
-
+Points de convergence (max 3 points)
 [W1_DIVERGENCES]
-Points de divergence et désaccords
+Points de divergence (max 3 points)
 
 [W1_ZONES_JSON_START]
-{
-  "zones": {
-    "nord_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
-    "nord": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
-    "nord_est": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "local", "location": "Ardennes", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 3, "source_models": [] },
-    "ouest_atlantique": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
-    "centre": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
-    "sud_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
-    "sud_est_rhone": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "evidence_count": 2, "source_models": [] },
-    "mediterranee_corse": { "status": "insufficient", "weather": "", "temperatures": "", "rain_storms": "", "spatial_scope": "regional", "location": "", "wind": "Non documenté", "sensitive_period": "", "confidence_level": "non_estimable", "uncertainty": "Données insuffisantes", "evidence_count": 0, "source_models": [] }
-  }
-}
+{ "zones": { ... 8 zones ... } }
 [W1_ZONES_JSON_END]
 
 [W1_SOLID_POINTS]
-Points les mieux établis de la semaine
-
+Points solides (max 3)
 [W1_FRAGILE_POINTS]
-Points les plus fragiles de la semaine
-
+Points fragiles (max 3)
 [W1_NEXT_RUNS_TO_WATCH]
-Ce qu'il faut surveiller dans les prochains runs
+À surveiller
 
 [W1_PHASE_1_DATES]
 Dates phase 1
 [W1_PHASE_1]
-Description phase 1
+Une phrase courte
 [W1_PHASE_2_DATES]
 Dates phase 2
 [W1_PHASE_2]
-Description phase 2
+Une phrase courte
 [W1_PHASE_3_DATES]
 Dates phase 3
 [W1_PHASE_3]
-Description phase 3
+Une phrase courte
 [W1_PHASE_4_DATES]
 Dates phase 4
 [W1_PHASE_4]
-Description phase 4
+Une phrase courte
 
---- (Répéter pour chaque image, max 3) ---
-[W1_IMAGE_START]
-[W1_IMAGE_TYPE]
-Type de carte
-[W1_IMAGE_TITLE]
-Titre de la carte
-[W1_IMAGE_MODEL]
-Modèle
-[W1_IMAGE_RUN]
-Run
-[W1_IMAGE_TIMING]
-Échéance
-[W1_IMAGE_WHY_IMPORTANT]
-Pourquoi retenue
-[W1_IMAGE_WHAT_TO_WATCH]
-À regarder
-[W1_IMAGE_CONFIDENCE]
-Confiance
-[W1_IMAGE_LIMIT]
-Limite
-[W1_IMAGE_END]
+[W1_IMAGE_START] ... [W1_IMAGE_END]
 
 [WEEK_1_END]
 
-[WEEK_2_START]
-... (mêmes balises et même structure W2_ZONES_JSON_START que ci-dessus) ...
-[WEEK_2_END]
+[WEEK_2_START] ... [WEEK_2_END]
 
 [GLOBAL_START]
-[GLOBAL_15_DAY_TREND]
-Tendance générale des 15 jours
-[MOST_RELIABLE_WEEK]
-Semaine la plus fiable
-[GLOBAL_SOLID_POINTS]
-Points consolidés majeurs
-[GLOBAL_RECURRING_PHENOMENA]
-Phénomènes récurrents
-[GLOBAL_AFFECTED_ZONES]
-Régions les plus touchées
-[GLOBAL_MAJOR_UNCERTAINTIES]
-Incertitudes majeurs globales
-[GLOBAL_CONSENSUS_KPI]
-Niveau qualitatif du consensus : Modéré | Élevé | Faible
-[GLOBAL_CONSENSUS_NOTE]
-Note très courte (ex: Accord sur la chaleur, désaccord d'intensité)
-[GLOBAL_SCENARIO_KPI]
-Scénario très court et prudent (ex: Forte chaleur possible)
-[GLOBAL_SCENARIO_NOTE]
-Note très courte (ex: Intensité débattue entre GFS et ECMWF)
-[GLOBAL_UNCERTAINTY_KPI]
-Incertitude courte (ex: Intensité)
-[GLOBAL_UNCERTAINTY_NOTE]
-Note courte (ex: Écart GFS / ECMWF)
-[LINKEDIN_POST]
-Post LinkedIn complet au conditionnel
+[GLOBAL_15_DAY_TREND] ...
+[MOST_RELIABLE_WEEK] ...
+[GLOBAL_SOLID_POINTS] ...
+[GLOBAL_RECURRING_PHENOMENA] ...
+[GLOBAL_AFFECTED_ZONES] ...
+[GLOBAL_MAJOR_UNCERTAINTIES] ...
+[GLOBAL_CONSENSUS_KPI] Modéré | Élevé | Faible
+[GLOBAL_CONSENSUS_NOTE] Note très courte
+[GLOBAL_SCENARIO_KPI] Scénario très court
+[GLOBAL_SCENARIO_NOTE] Note très courte
+[GLOBAL_UNCERTAINTY_KPI] Incertitude courte
+[GLOBAL_UNCERTAINTY_NOTE] Note très courte
+[LINKEDIN_POST] ...
 [GLOBAL_END]
 
-[DOUBTS_START]
-[DOUBTS_TIMING]
-Incertitudes de calendrier
-[DOUBTS_LOCATION]
-Incertitudes de localisation
-[DOUBTS_INTENSITY]
-Incertitudes d'intensité
-[MISSING_INFORMATION]
-Informations manquantes
-[LOW_DOCUMENTED_MODELS]
-Modèles peu commentés
-[UNCERTAIN_IMAGES]
-Images difficiles à interpréter
-[DOUBTS_END]
+[DOUBTS_START] ... [DOUBTS_END]
 """
 
     user_prompt = f"""Date actuelle de génération : {today_str}
@@ -994,24 +920,15 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
             key_str = key_str[emoji_match.end():].strip()
         else:
             lower = key_str.lower()
-            if any(w in lower for w in ["temp", "chaud", "chaleur", "degré", "canicule"]):
-                emoji = "🌡️"
-            elif any(w in lower for w in ["orage", "foudre", "tonnerre"]):
-                emoji = "⛈️"
-            elif any(w in lower for w in ["pluie", "averse", "humide", "eau", "front"]):
-                emoji = "🌦️"
-            elif any(w in lower for w in ["vent", "rafale", "mistral"]):
-                emoji = "💨"
-            elif any(w in lower for w in ["soleil", "beau", "sec", "anticyclone"]):
-                emoji = "☀️"
-            elif any(w in lower for w in ["nuage", "couvert", "gris"]):
-                emoji = "☁️"
-            elif any(w in lower for w in ["ouest", "atlantique", "manche"]):
-                emoji = "🧭"
-            elif any(w in lower for w in ["fiab", "confiance", "accord", "consensus"]):
-                emoji = "🤝"
-            elif any(w in lower for w in ["incertain", "doute", "surveiller", "risq"]):
-                emoji = "⚠️"
+            if any(w in lower for w in ["temp", "chaud", "chaleur", "degré", "canicule"]): emoji = "🌡️"
+            elif any(w in lower for w in ["orage", "foudre", "tonnerre"]): emoji = "⛈️"
+            elif any(w in lower for w in ["pluie", "averse", "humide", "eau", "front"]): emoji = "🌦️"
+            elif any(w in lower for w in ["vent", "rafale", "mistral"]): emoji = "💨"
+            elif any(w in lower for w in ["soleil", "beau", "sec", "anticyclone"]): emoji = "☀️"
+            elif any(w in lower for w in ["nuage", "couvert", "gris"]): emoji = "☁️"
+            elif any(w in lower for w in ["ouest", "atlantique", "manche"]): emoji = "🧭"
+            elif any(w in lower for w in ["fiab", "confiance", "accord", "consensus"]): emoji = "🤝"
+            elif any(w in lower for w in ["incertain", "doute", "surveiller", "risq"]): emoji = "⚠️"
                 
         parts = key_str.split(":", 1)
         if len(parts) == 2:
@@ -1051,10 +968,10 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     kpi_consensus_val = extract_tag(global_content, "GLOBAL_CONSENSUS_KPI") or "Modéré"
     kpi_consensus_note = extract_tag(global_content, "GLOBAL_CONSENSUS_NOTE") or "Accord sur la chaleur, intensité débattue"
     kpi_scenario_val = extract_tag(global_content, "GLOBAL_SCENARIO_KPI") or "Forte chaleur possible"
-    kpi_scenario_note = extract_tag(global_content, "GLOBAL_SCENARIO_NOTE") or "Intensité très débattue en semaine 2"
+    kpi_scenario_note = extract_tag(global_content, "GLOBAL_SCENARIO_NOTE") or "Intensité débattue en semaine 2"
     
     kpi_cards_val = f"{downloaded_cards_count} / {total_scraped_cards}" if total_scraped_cards > 0 else f"{downloaded_cards_count} retenues"
-    kpi_cards_note = f"{downloaded_cards_count} cartes retenues sur {total_scraped_cards} analysées"
+    kpi_cards_note = f"{downloaded_cards_count} cartes sur {total_scraped_cards} analysées"
     
     kpi_uncertainty_val = extract_tag(global_content, "GLOBAL_UNCERTAINTY_KPI") or "Intensité"
     kpi_uncertainty_note = extract_tag(global_content, "GLOBAL_UNCERTAINTY_NOTE") or "Écart GFS et ECMWF"
@@ -1098,7 +1015,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     linkedin_raw = extract_tag(global_content, "LINKEDIN_POST")
     linkedin_clean = clean_text_typos(linkedin_raw).replace('<br>', '\n').replace('<br/>', '\n')
 
-    # CSS responsive et accessible
+    # CSS RESPONSIVE MOBILE MOBILE-FIRST COMPLET (< 650px)
     style = """
     :root{
       --bg:#eef4f8;
@@ -1129,8 +1046,9 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       color:var(--ink);
       font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
       line-height:1.5;
+      font-size:15px;
     }
-    button{font:inherit}
+    button{font:inherit; min-height:44px;}
     button:focus-visible, a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 2px; }
     img{max-width:100%;display:block}
     .page{width:min(1180px,calc(100% - 24px));margin:20px auto 50px}
@@ -1145,43 +1063,35 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
         radial-gradient(circle at 80% 20%,rgba(255,255,255,.08),transparent 30%);
       box-shadow:var(--shadow);
     }
-    .hero:after{
-      content:"";
-      position:absolute;
-      width:380px;height:380px;
-      right:-120px;top:-140px;
-      border-radius:50%;
-      background:radial-gradient(circle,rgba(131,228,244,.35),transparent 68%);
-    }
     .hero-inner{position:relative;z-index:2}
     .hero-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
     .brand{display:flex;gap:12px;align-items:center;font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
     .brand-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:22px}
     .demo{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:12px;font-weight:800}
-    .hero h1{margin:24px 0 6px;font-size:clamp(26px,4vw,42px);line-height:1.1;letter-spacing:-.03em;text-transform:uppercase;}
+    .hero h1{margin:24px 0 6px;font-size:clamp(26px,4vw,42px);line-height:1.15;letter-spacing:-.03em;text-transform:uppercase;}
     .hero-sub{font-size:15px;color:#dcebf3;font-weight:700;margin-bottom:16px;}
     .hero p{max-width:830px;margin:0;color:#e4f1f8;font-size:15px}
-    .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
-    .meta span{padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);font-size:12px;font-weight:800}
+    .meta-cards{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    .meta-card{padding:8px 14px;border-radius:12px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);font-size:12.5px;font-weight:800}
+    .generation-date{font-size:11.5px;color:#cfe5f1;margin-top:8px;}
+    
     .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
     .kpi{
       padding:18px;
       border-radius:20px;
       background:rgba(255,255,255,.11);
       border:1px solid rgba(255,255,255,.16);
-      backdrop-filter:blur(10px);
     }
     .kpi-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#cfe5f1;font-weight:900}
     .kpi-value{font-size:24px;line-height:1.1;font-weight:900;margin-top:4px}
     .kpi-note{font-size:12px;color:#dcebf3;margin-top:4px}
+
+    /* Tabs Navigation */
+    .tabs-wrapper { position:sticky; top:0; z-index:20; background:var(--bg); padding:10px 0 4px; }
     .tabs{
       display:grid;
       grid-template-columns:repeat(4,1fr);
       gap:10px;
-      margin:20px 0 0;
-      position:sticky;
-      top:8px;
-      z-index:20;
     }
     .tabs button{
       padding:14px 12px;
@@ -1193,9 +1103,15 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       cursor:pointer;
       box-shadow:0 6px 18px rgba(18,55,88,.06);
       transition: all 0.2s ease;
+      white-space:nowrap;
     }
     .tabs button:hover{background:#f8fbfd;}
     .tabs button.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+    
+    /* Sub-navigation mobile */
+    .sub-nav { display:none; gap:6px; overflow-x:auto; padding:6px 0; margin-top:6px; scrollbar-width:none; }
+    .sub-nav a { flex:0 0 auto; padding:6px 12px; border-radius:999px; background:rgba(255,255,255,.8); border:1px solid var(--line); color:var(--navy); font-size:12px; font-weight:800; text-decoration:none; }
+
     .panel{display:none}
     .panel.active{display:block}
     .section{
@@ -1207,9 +1123,9 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       box-shadow:0 12px 34px rgba(18,55,88,.07);
     }
     .section-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:20px}
-    .section h2{margin:0;font-size:clamp(22px,3vw,28px);line-height:1.1;letter-spacing:-.03em}
-    .section .sub{margin:7px 0 0;color:var(--muted)}
-    .badge{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border-radius:999px;background:#eaf3fb;color:#205d90;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}
+    .section h2{margin:0;font-size:clamp(20px,3vw,28px);line-height:1.15;letter-spacing:-.03em}
+    .section .sub{margin:7px 0 0;color:var(--muted);font-size:14px;}
+    .badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:#eaf3fb;color:#205d90;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}
     .grid{display:grid;gap:14px}
     .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
     .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -1220,7 +1136,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       border:1px solid var(--line);
       background:var(--surface-2);
     }
-    .card h3{margin:0 0 8px;font-size:17px}
+    .card h3{margin:0 0 8px;font-size:17px;color:var(--navy)}
     .card p{margin:0;color:var(--muted);font-size:14px}
     .key{
       display:flex;
@@ -1236,6 +1152,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       border-radius:12px;background:#e5f1fb;font-style:normal;font-size:20px
     }
     .key strong{display:block;margin-bottom:4px;color:var(--navy);font-size:15px}
+    
     .model-table{
       width:100%;
       border-collapse:separate;
@@ -1259,8 +1176,9 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     }
     .model-table td:first-child{border-left:1px solid var(--line);border-radius:14px 0 0 14px}
     .model-table td:last-child{border-right:1px solid var(--line);border-radius:0 14px 14px 0}
+    .model-name-box{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
     .model-name{font-weight:900;color:var(--navy);font-size:16px}
-    .status-badge { display:inline-block; margin-top:6px; padding:3px 8px; border-radius:6px; font-size:10.5px; font-weight:800; text-transform:uppercase; }
+    .status-badge { display:inline-block; padding:3px 8px; border-radius:6px; font-size:10.5px; font-weight:800; text-transform:uppercase; }
     .status-main { background:#dcfce7; color:#166534; }
     .status-inter { background:#fef3c7; color:#92400e; }
     .status-minor { background:#fee2e2; color:#991b1b; }
@@ -1273,6 +1191,8 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .model-details { margin-top:10px; border-top:1px dashed var(--line); padding-top:8px; font-size:13px; color:var(--ink); }
     .model-details summary { font-weight:800; color:var(--blue); cursor:pointer; font-size:12px; }
     .details-body { margin-top:6px; padding:10px; background:#f1f5f9; border-radius:10px; line-height:1.45; }
+    .m-label { display:none; font-weight:800; color:var(--navy); margin-bottom:4px; font-size:12px; text-transform:uppercase; }
+
     .table-footnote { margin-top:12px; font-size:12px; color:var(--muted); font-style:italic; }
     .compare{
       display:grid;
@@ -1281,30 +1201,33 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     }
     .compare .card:first-child{border-top:5px solid var(--green)}
     .compare .card:last-child{border-top:5px solid var(--amber)}
+    
+    /* Zones Grid */
     .zones{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
     .zone{
-      min-height:220px;
       padding:20px;
       border-radius:18px;
       border:1px solid var(--line);
       background:#fbfdff;
-      display:flex;
-      flex-direction:column;
-      justify-content:space-between;
     }
+    .zone-summary { display:block; cursor:default; }
+    .zone-short-desc { display:none; }
+    .zone-chevron { display:none; }
     .zone-insufficient { background: #f8fafc; border-style: dashed; }
     .zone-notice { font-size: 13.5px; color: var(--muted); line-height: 1.5; margin: 10px 0; }
     .zone-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
-    .zone-icon{font-size:26px}
+    .zone-icon{font-size:24px}
     .zone h3{margin:0;font-size:16px;color:var(--navy)}
-    .zone-details{list-style:none;padding:0;margin:0;font-size:13px;color:var(--ink)}
+    .zone-details{list-style:none;padding:0;margin:0;font-size:13.5px;color:var(--ink)}
     .zone-details li{margin-bottom:5px;line-height:1.4}
     .zone-foot{display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:11px;font-weight:800}
     .chip-conf { color:var(--green); background:#e6f4ea; padding:3px 8px; border-radius:6px; }
     .chip-uncert { color:var(--amber); background:#fef3c7; padding:3px 8px; border-radius:6px; }
+
+    /* Timeline */
     .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
     .phase{
-      min-height:155px;
+      min-height:140px;
       padding:18px;
       border-radius:17px;
       border:1px solid var(--line);
@@ -1312,26 +1235,27 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     }
     .phase b{display:block;color:var(--blue);margin-bottom:8px}
     .phase p{margin:0;color:var(--muted);font-size:13.5px}
+
+    /* Images */
     .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
     .image-card{overflow:hidden;border-radius:18px;border:1px solid var(--line);background:white}
     .image-demo{
-      height:220px;
+      height:200px;
       display:grid;
       place-items:center;
       padding:20px;
       text-align:center;
-      background:
-        radial-gradient(circle at 20% 20%,rgba(21,101,216,.18),transparent 25%),
-        radial-gradient(circle at 80% 30%,rgba(216,91,88,.15),transparent 24%),
-        linear-gradient(135deg,#eef4f8,#dce8f1);
+      background:linear-gradient(135deg,#eef4f8,#dce8f1);
       color:#4e687d;
       font-weight:900;
     }
-    .image-caption{padding:18px}
+    .image-caption{padding:16px}
     .image-caption h3{margin:0 0 8px;font-size:16px;color:var(--navy)}
     .image-caption p{margin:0;color:var(--muted);font-size:13px}
     .image-limit { margin-top:6px; padding:6px 10px; border-radius:8px; background:#fff3cd; color:#856404; font-size:12px; }
     .image-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+
+    /* Alert & LinkedIn */
     .alert{
       padding:18px;
       border-radius:17px;
@@ -1340,8 +1264,9 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       color:#7a591d;
       font-weight:700;
     }
+    .linkedin-box { position:relative; }
     .linkedin{
-      padding:24px;
+      padding:20px;
       border-radius:20px;
       background:#0d2f4f;
       color:white;
@@ -1349,51 +1274,48 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       line-height:1.65;
       font-size:14.5px;
     }
-    .linkedin-toolbar { display:flex; justify-content:space-between; align-items:center; margin-top:12px; }
+    .linkedin-toggle-btn { display:none; margin-top:8px; width:100%; padding:10px; border-radius:10px; background:rgba(255,255,255,.15); color:white; border:none; font-weight:800; cursor:pointer; }
+    .linkedin-toolbar { display:flex; justify-content:space-between; align-items:center; margin-top:12px; gap:10px; }
     .char-counter { font-size:12px; color:var(--muted); font-weight:700; }
     .copy{
-      padding:11px 18px;border:0;border-radius:11px;
+      padding:12px 20px;border:0;border-radius:12px;
       background:var(--blue);color:white;font-weight:900;cursor:pointer;
       transition: background 0.15s ease;
+      min-height:48px;
     }
     .copy:hover{background:#114fa8}
     .footer{padding:28px 8px 0;text-align:center;color:#6a7d8f;font-size:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-    .back-to-top { background:var(--surface); border:1px solid var(--line); padding:8px 14px; border-radius:10px; color:var(--navy); font-weight:800; cursor:pointer; }
+    .back-to-top { background:var(--surface); border:1px solid var(--line); padding:10px 16px; border-radius:10px; color:var(--navy); font-weight:800; cursor:pointer; min-height:44px; }
+    .fab-top { display:none; position:fixed; bottom:20px; right:20px; z-index:99; width:48px; height:48px; border-radius:50%; background:var(--navy); color:white; border:2px solid white; box-shadow:0 6px 20px rgba(0,0,0,.25); font-size:20px; place-items:center; cursor:pointer; }
 
-    /* History Box and Sparklines */
-    .evolution-card {
-        background: var(--surface-2);
-        border: 1px solid var(--line);
-        border-radius: 18px;
-        padding: 20px;
+    /* Lightbox Modal */
+    .lightbox-modal {
+      display:none;
+      position:fixed;
+      inset:0;
+      z-index:9999;
+      background:rgba(0,0,0,0.92);
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      padding:16px;
     }
-    .sparkline {
-        font-family: monospace;
-        font-size: 13px;
-        line-height: 1.5;
-        color: var(--ink);
-        background: #ffffff;
-        border: 1px solid var(--line);
-        border-radius: 10px;
-        padding: 12px;
-        margin-top: 8px;
-    }
-    .sparkline-row {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 4px;
-    }
-    .trend-pill {
-        display: inline-block;
-        padding: 2px 8px;
-        border-radius: 4px;
-        font-size: 11px;
-        font-weight: 700;
-    }
+    .lightbox-modal.active { display:flex; }
+    .lightbox-content { max-width:100%; max-height:80vh; object-fit:contain; border-radius:8px; }
+    .lightbox-caption { color:white; text-align:center; margin-top:12px; max-width:600px; font-size:14px; }
+    .lightbox-close { position:absolute; top:20px; right:20px; background:rgba(255,255,255,.2); color:white; border:none; width:44px; height:44px; border-radius:50%; font-size:22px; cursor:pointer; display:grid; place-items:center; }
+
+    /* Evolution Box */
+    .evolution-card { background: var(--surface-2); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
+    .sparkline { font-family: monospace; font-size: 13px; line-height: 1.5; color: var(--ink); background: #ffffff; border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin-top: 8px; }
+    .sparkline-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+    .trend-pill { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; }
     .trend-up { background: #dcfce7; color: #166534; }
     .trend-down { background: #fee2e2; color: #991b1b; }
 
-    /* RESPONSIVE MOBILE EXPLICITE (< 650px) */
+    /* ==========================================================================
+       RÈGLES RESPONSIVE MOBILE-FIRST STRICITES (< 650PX)
+       ========================================================================== */
     @media(max-width:1100px){
       .zones{grid-template-columns:repeat(2,1fr)}
     }
@@ -1402,37 +1324,141 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       .grid-3,.cards3,.timeline{grid-template-columns:repeat(2,1fr)}
     }
     @media(max-width:650px){
-      .page{width:min(100% - 14px,1180px);margin:7px auto 30px}
-      .hero{padding:24px;border-radius:22px}
-      .hero-top{flex-direction:column}
-      .grid-2,.grid-3,.grid-4,.kpis,.zones,.cards3,.timeline,.compare {
-        grid-template-columns: 1fr !important;
+      body { font-size:15px; }
+      .page{width:min(100% - 14px,1180px);margin:6px auto 30px}
+      
+      /* En-tête mobile compact */
+      .hero{padding:20px 16px;border-radius:22px;}
+      .hero-top{flex-direction:column; gap:8px;}
+      .hero h1{font-size:clamp(24px, 6vw, 30px); margin:12px 0 4px; line-height:1.2;}
+      .hero-sub{font-size:13.5px; margin-bottom:12px; line-height:1.4;}
+      .hero p{font-size:14px; line-height:1.45;}
+      .meta-cards{display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:14px;}
+      .meta-card{padding:6px 10px; font-size:11.5px; text-align:center;}
+      .generation-date{text-align:center; font-size:11px; margin-top:6px;}
+
+      /* KPIs Mobile */
+      .kpis { grid-template-columns: 1fr 1fr !important; gap:8px !important; margin-top:14px !important; }
+      @media(max-width:400px){ .kpis { grid-template-columns: 1fr !important; } }
+      .kpi { padding:12px !important; border-radius:14px !important; }
+      .kpi-value { font-size:19px !important; }
+      .kpi-note { font-size:11px !important; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+      /* Tabs Mobile horizontaux avec scroll-snap */
+      .tabs-wrapper { top:0; padding:6px 0; background:var(--bg); }
+      .tabs {
+        display: flex !important;
+        overflow-x: auto !important;
+        gap: 8px !important;
+        scrollbar-width: none !important;
+        scroll-snap-type: x mandatory !important;
+        padding-bottom: 2px !important;
+        -webkit-overflow-scrolling: touch;
       }
-      .tabs{grid-template-columns:repeat(2,1fr);top:4px}
-      .section{padding:20px;border-radius:22px}
-      .section-head{align-items:flex-start;flex-direction:column}
+      .tabs::-webkit-scrollbar { display: none; }
+      .tabs button {
+        flex: 0 0 auto !important;
+        min-width: 105px !important;
+        scroll-snap-align: start !important;
+        padding: 10px 14px !important;
+        font-size: 13px !important;
+        border-radius: 12px !important;
+      }
+      .sub-nav { display: flex !important; }
+
+      /* Grilles et sections mobile */
+      .grid-2,.grid-3,.grid-4,.zones,.cards3,.compare {
+        grid-template-columns: 1fr !important;
+        gap:10px !important;
+      }
+      .section{padding:16px !important; border-radius:20px !important; margin-top:14px !important;}
+      .section-head{align-items:flex-start; flex-direction:column; margin-bottom:14px; gap:8px;}
+
+      /* Cartes modèles véritables sur mobile */
       .model-table, .model-table tbody, .model-table tr, .model-table td {
         display: block !important;
         width: 100% !important;
       }
       .model-table thead { display: none !important; }
       .model-table tr {
-        margin-bottom: 16px;
+        margin-bottom: 14px;
         border: 1px solid var(--line);
         border-radius: 16px;
         background: #f8fbfd;
-        padding: 16px;
+        padding: 14px;
       }
       .model-table td {
         border: none !important;
         padding: 6px 0 !important;
       }
+      .m-label { display: block !important; }
+
+      /* Accordéons pour les 8 zones sur mobile */
+      .zone-accordion {
+        padding:0 !important;
+        border-radius:14px !important;
+        overflow:hidden;
+        background:white !important;
+      }
+      .zone-summary {
+        display:flex !important;
+        justify-content:space-between !important;
+        align-items:center !important;
+        padding:14px !important;
+        background:#f8fbfd !important;
+        cursor:pointer !important;
+        list-style:none !important;
+      }
+      .zone-summary::-webkit-details-marker { display:none; }
+      .zone-short-desc { display:block !important; font-size:12.5px; color:var(--muted); margin-top:2px; max-width:210px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+      .zone-chevron { display:inline-block !important; font-size:11px; color:var(--muted); transition:transform 0.2s; }
+      details[open] .zone-chevron { transform:rotate(180deg); }
+      .zone-body { padding:14px !important; border-top:1px solid var(--line); }
+
+      /* Chronologie verticale mobile */
+      .timeline {
+        display: flex !important;
+        flex-direction: column !important;
+        position: relative !important;
+        padding-left: 20px !important;
+        border-left: 2.5px solid var(--blue) !important;
+        gap: 12px !important;
+      }
+      .phase {
+        position: relative !important;
+        min-height: auto !important;
+        padding: 12px 14px !important;
+        border-radius: 12px !important;
+      }
+      .phase::before {
+        content: "" !important;
+        position: absolute !important;
+        left: -27px !important;
+        top: 16px !important;
+        width: 11px !important;
+        height: 11px !important;
+        border-radius: 50% !important;
+        background: var(--blue) !important;
+        border: 2px solid white !important;
+      }
+
+      /* LinkedIn mobile */
+      .linkedin {
+        max-height: 220px;
+        overflow: hidden;
+        position: relative;
+        font-size:14px;
+        padding:16px;
+      }
+      .linkedin.expanded { max-height: none; }
+      .linkedin-toggle-btn { display: block !important; }
+      .linkedin-toolbar { flex-direction: column; align-items: stretch; }
+      .copy { width: 100%; text-align: center; }
+      .fab-top { display: grid !important; }
     }
-    @media print{
-      body{background:white}
-      .tabs{display:none}
-      .panel{display:block!important}
-      .section,.hero{box-shadow:none;break-inside:avoid}
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
     }
     """
 
@@ -1456,38 +1482,49 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     <h1>PRÉVISIONS À MOYEN ET LONG TERME</h1>
     <div class="hero-sub">Analyse nationale • Comparaison multi-modèles • Consensus • Incertitudes • Deux prochaines semaines</div>
     <p>Analyse comparative multi-modèles, temps sensible par grandes zones, niveau de confiance et incertitudes.</p>
-    <div class="meta">
-      <span>Semaine 1 : [W1_DATES_PLACEHOLDER]</span>
-      <span>Semaine 2 : [W2_DATES_PLACEHOLDER]</span>
-      <span>Génération : [TODAY_STR_PLACEHOLDER]</span>
+    
+    <div class="meta-cards">
+      <div class="meta-card">Semaine 1 : [W1_DATES_PLACEHOLDER]</div>
+      <div class="meta-card">Semaine 2 : [W2_DATES_PLACEHOLDER]</div>
     </div>
+    <div class="generation-date">Génération : [TODAY_STR_PLACEHOLDER]</div>
+
     <div class="kpis">
-      <div class="kpi"><div class="kpi-label">Consensus général</div><div class="kpi-value">[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]</div></div>
-      <div class="kpi"><div class="kpi-label">Scénario dominant</div><div class="kpi-value">[GLOBAL_SCENARIO_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]</div></div>
-      <div class="kpi"><div class="kpi-label">Cartes retenues</div><div class="kpi-value">[GLOBAL_CARDS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CARDS_NOTE_PLACEHOLDER]</div></div>
-      <div class="kpi"><div class="kpi-label">Incertitude majeure</div><div class="kpi-value">[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]</div></div>
+      <div class="kpi"><div class="kpi-label">Consensus</div><div class="kpi-value">[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]</div></div>
+      <div class="kpi"><div class="kpi-label">Scénario</div><div class="kpi-value">[GLOBAL_SCENARIO_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]</div></div>
+      <div class="kpi"><div class="kpi-label">Cartes</div><div class="kpi-value">[GLOBAL_CARDS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CARDS_NOTE_PLACEHOLDER]</div></div>
+      <div class="kpi"><div class="kpi-label">Incertitude</div><div class="kpi-value">[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]</div></div>
     </div>
   </div>
 </header>
 
-<nav class="tabs" role="tablist" aria-label="Navigation du bulletin">
-  <button class="active" id="tab-week1" role="tab" aria-selected="true" aria-controls="week1" data-tab="week1">Semaine 1</button>
-  <button id="tab-week2" role="tab" aria-selected="false" aria-controls="week2" data-tab="week2">Semaine 2</button>
-  <button id="tab-summary" role="tab" aria-selected="false" aria-controls="summary" data-tab="summary">Synthèse 15 jours</button>
-  <button id="tab-doubts" role="tab" aria-selected="false" aria-controls="doubts" data-tab="doubts">Doutes et limites</button>
-</nav>
+<div class="tabs-wrapper">
+  <nav class="tabs" role="tablist" aria-label="Navigation du bulletin">
+    <button class="active" id="tab-week1" role="tab" aria-selected="true" aria-controls="week1" data-tab="week1">Semaine 1</button>
+    <button id="tab-week2" role="tab" aria-selected="false" aria-controls="week2" data-tab="week2">Semaine 2</button>
+    <button id="tab-summary" role="tab" aria-selected="false" aria-controls="summary" data-tab="summary">Synthèse</button>
+    <button id="tab-doubts" role="tab" aria-selected="false" aria-controls="doubts" data-tab="doubts">Incertitudes</button>
+  </nav>
+  <div class="sub-nav">
+    <a href="#sec-w1-keys">À retenir</a>
+    <a href="#sec-w1-models">Modèles</a>
+    <a href="#sec-w1-zones">Zones</a>
+    <a href="#sec-w1-timeline">Chronologie</a>
+    <a href="#sec-w1-images">Graphiques</a>
+  </div>
+</div>
 
 <section id="week1" class="panel active" role="tabpanel" aria-labelledby="tab-week1">
-  <div class="section">
+  <div id="sec-w1-keys" class="section">
     <div class="section-head">
-      <div><span class="badge">À retenir</span><h2>Semaine 1 — [W1_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales classées par ordre d'importance.</p></div>
+      <div><span class="badge">À retenir</span><h2>Semaine 1 — [W1_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
     </div>
     <div class="grid grid-2">
       [W1_KEYS_HTML_PLACEHOLDER]
     </div>
   </div>
 
-  <div class="section">
+  <div id="sec-w1-models" class="section">
     <div class="section-head">
       <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
     </div>
@@ -1498,7 +1535,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       </tbody>
     </table>
     <div class="table-footnote">
-      📌 La confiance d'extraction mesure la clarté des informations disponibles dans les messages. Le soutien du scénario qualifie son niveau de convergence avec les autres analyses sans score numérique artificiel.
+      📌 La confiance d'extraction mesure la clarté des informations. Le soutien du scénario qualifie son niveau de convergence (Majoritaire, Intermédiaire, Minoritaire, Isolé).
     </div>
   </div>
 
@@ -1510,16 +1547,16 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     </div>
   </div>
 
-  <div class="section">
+  <div id="sec-w1-zones" class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Lecture directe par région avec détails de confiance et transparence des sources.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Toucher une zone pour déplier les détails complets.</p></div>
     </div>
     <div class="zones">
       [W1_ZONES_HTML_PLACEHOLDER]
     </div>
   </div>
 
-  <div class="section">
+  <div id="sec-w1-timeline" class="section">
     <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine</h2></div></div>
     <div class="timeline">
       <div class="phase"><b>[W1_PHASE_1_DATES_PLACEHOLDER]</b><p>[W1_PHASE_1_PLACEHOLDER]</p></div>
@@ -1538,8 +1575,8 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : [W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
   </div>
 
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images récoltées, optimisées et lisibles au clic.</p></div></div>
+  <div id="sec-w1-images" class="section">
+    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images optimisées, touchez une carte pour l'agrandir.</p></div></div>
     <div class="cards3">
       [W1_IMAGES_HTML_PLACEHOLDER]
     </div>
@@ -1549,7 +1586,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 <section id="week2" class="panel" role="tabpanel" aria-labelledby="tab-week2">
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">À retenir</span><h2>Semaine 2 — [W2_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales classées par ordre d'importance.</p></div>
+      <div><span class="badge">À retenir</span><h2>Semaine 2 — [W2_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
     </div>
     <div class="grid grid-2">
       [W2_KEYS_HTML_PLACEHOLDER]
@@ -1567,7 +1604,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       </tbody>
     </table>
     <div class="table-footnote">
-      📌 La confiance d'extraction mesure la clarté des informations disponibles dans les messages. Le soutien du scénario qualifie son niveau de convergence avec les autres analyses sans score numérique artificiel.
+      📌 La confiance d'extraction mesure la clarté des informations. Le soutien du scénario qualifie son niveau de convergence (Majoritaire, Intermédiaire, Minoritaire, Isolé).
     </div>
   </div>
 
@@ -1581,7 +1618,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Lecture directe par région avec détails de confiance et transparence des sources.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques</h2><p class="sub">Toucher une zone pour déplier les détails complets.</p></div>
     </div>
     <div class="zones">
       [W2_ZONES_HTML_PLACEHOLDER]
@@ -1608,7 +1645,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images récoltées, optimisées et lisibles au clic.</p></div></div>
+    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images optimisées, touchez une carte pour l'agrandir.</p></div></div>
     <div class="cards3">
       [W2_IMAGES_HTML_PLACEHOLDER]
     </div>
@@ -1623,13 +1660,13 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     
     <div id="history-box" class="grid grid-2" style="margin-bottom:20px;">
         <div class="evolution-card">
-            <h3>📈 Évolution de la confiance (Scénario Principal)</h3>
+            <h3>📈 Évolution de la confiance</h3>
             <div class="sparkline">
                 [SPARKLINE_CONF_PLACEHOLDER]
             </div>
         </div>
         <div class="evolution-card">
-            <h3>🌡️ Évolution des températures attendues</h3>
+            <h3>🌡️ Évolution des températures</h3>
             <div class="sparkline">
                 [TEMP_EVOLUTION_PLACEHOLDER]
             </div>
@@ -1646,12 +1683,15 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 
   <div class="section">
     <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn prêt à copier-coller</h2></div></div>
-    <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
+    <div class="linkedin-box">
+      <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
+      <button id="linkedin-toggle" class="linkedin-toggle-btn" onclick="toggleLinkedIn()">Afficher le post complet</button>
+    </div>
     <div class="linkedin-toolbar">
       <span id="char-count" class="char-counter">0 caractères</span>
       <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
     </div>
-    <div id="copy-status" aria-live="polite" style="margin-top:6px; font-weight:800; color:var(--green);"></div>
+    <div id="copy-status" aria-live="polite" style="margin-top:6px; font-weight:800; color:var(--green); text-align:center;"></div>
   </div>
 </section>
 
@@ -1659,7 +1699,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
   <div class="section">
     <div class="section-head"><div><span class="badge">Transparence</span><h2>Méthodologie des scores & doutes</h2></div></div>
     <div class="alert" style="margin-bottom:16px;">
-      💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté des informations dans les messages. Le <i>soutien du scénario</i> qualifie le niveau d'accord entre les modélisations (Majoritaire, Intermédiaire, Minoritaire, Isolé) sans aucun chiffre artificiel.
+      💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté des informations. Le <i>soutien du scénario</i> qualifie le niveau d'accord entre les modélisations sans chiffre artificiel.
     </div>
     <div class="grid grid-2">
       <div class="card"><h3>Calendrier</h3><p>[DOUBTS_TIMING_PLACEHOLDER]</p></div>
@@ -1678,6 +1718,15 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 </footer>
 
 </main>
+
+<button id="fab-top" class="fab-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut" aria-label="Retour en haut">↑</button>
+
+<!-- Lightbox Visionneuse Plein Écran Mobile & Desktop -->
+<div id="lightbox" class="lightbox-modal" onclick="closeLightbox(event)">
+  <button class="lightbox-close" onclick="closeLightbox(event)">✕</button>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="Agrandissement carte météo">
+  <div id="lightbox-caption" class="lightbox-caption"></div>
+</div>
 
 <script>
 const buttons = document.querySelectorAll('.tabs button');
@@ -1698,7 +1747,7 @@ function activateTab(tabId) {
 buttons.forEach(btn => {
   btn.addEventListener('click', () => {
     activateTab(btn.dataset.tab);
-    window.scrollTo({top: document.querySelector('.tabs').offsetTop - 8, behavior: 'smooth'});
+    window.scrollTo({top: document.querySelector('.tabs-wrapper').offsetTop - 4, behavior: 'smooth'});
   });
 });
 
@@ -1708,6 +1757,53 @@ if (['week1', 'week2', 'summary', 'doubts'].includes(hash)) {
   activateTab(hash);
 } else if (savedTab && ['week1', 'week2', 'summary', 'doubts'].includes(savedTab)) {
   activateTab(savedTab);
+}
+
+// Mobile FAB Top button
+const fabTop = document.getElementById('fab-top');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 400) {
+    fabTop.style.display = 'grid';
+  } else {
+    fabTop.style.display = 'none';
+  }
+});
+
+// Visionneuse Lightbox Modal
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const lightboxCaption = document.getElementById('lightbox-caption');
+
+document.querySelectorAll('.lightbox-trigger').forEach(img => {
+  img.addEventListener('click', (e) => {
+    e.preventDefault();
+    const fullUrl = img.dataset.full || img.src;
+    const title = img.dataset.title || '';
+    const meta = img.dataset.meta || '';
+    lightboxImg.src = fullUrl;
+    lightboxCaption.innerHTML = '<strong>' + title + '</strong><br><small style="color:#cbd5e1;">' + meta + '</small>';
+    lightbox.classList.add('active');
+  });
+});
+
+function closeLightbox(e) {
+  if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+    lightbox.classList.remove('active');
+    lightboxImg.src = '';
+  }
+}
+
+// Toggle LinkedIn text on mobile
+function toggleLinkedIn() {
+  const el = document.getElementById('linkedin');
+  const btn = document.getElementById('linkedin-toggle');
+  if (el.classList.contains('expanded')) {
+    el.classList.remove('expanded');
+    btn.textContent = 'Afficher le post complet';
+  } else {
+    el.classList.add('expanded');
+    btn.textContent = 'Réduire le post';
+  }
 }
 
 function copyLinkedIn() {
@@ -1857,7 +1953,7 @@ if(document.getElementById('char-count')) {
     html_body = html
     html_body = re.sub(r'<script>.*?</script>', '', html_body, flags=re.DOTALL)
     html_body = html_body.replace('.panel{display:none}', '.panel{display:block !important;margin-bottom:30px}')
-    html_body = html_body.replace('.tabs{', '.tabs{display:none !important;')
+    html_body = html_body.replace('.tabs-wrapper{', '.tabs-wrapper{display:none !important;')
 
     html_b64 = base64.b64encode(html.encode('utf-8')).decode('ascii')
     html_body_b64 = base64.b64encode(html_body.encode('utf-8')).decode('ascii')
