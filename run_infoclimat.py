@@ -453,11 +453,17 @@ def generate_sparklines_html(history_dir="history"):
                 parts = f.replace(".json", "").split("_")[0].split("-")
                 date_str = f"{parts[2]}/{parts[1]}" if len(parts) >= 3 else f
                 
-                conf = run_data.get("w1_confidence", 80)
-                blocks = int(conf / 10)
+                conf_val = run_data.get("w1_confidence", 70)
+                if isinstance(conf_val, (int, float)):
+                    conf_num = int(conf_val)
+                    conf_disp = f"{conf_num}%"
+                else:
+                    conf_disp = str(conf_val)
+                    conf_num = 80 if "elev" in conf_disp.lower() else (50 if "faib" in conf_disp.lower() else 70)
+                blocks = int(conf_num / 10)
                 empty = 10 - blocks
                 spark_bar = "█" * blocks + "░" * empty
-                sparkline_rows.append(f'<div class="sparkline-row"><span>{date_str} :</span> <span>{spark_bar} {conf}%</span></div>')
+                sparkline_rows.append(f'<div class="sparkline-row"><span>{date_str} :</span> <span>{spark_bar} {conf_disp}</span></div>')
                 
                 temp = run_data.get("w1_temp", "De saison")
                 temp_rows.append(f'<div class="sparkline-row"><span>{date_str} :</span> <span>{temp}</span></div>')
