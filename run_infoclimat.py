@@ -12,7 +12,14 @@ import smtplib
 import socket
 import time
 import unicodedata
+import io
 from email.utils import formatdate
+
+try:
+    from PIL import Image
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
 
 try:
     from dotenv import load_dotenv
@@ -25,10 +32,62 @@ socket.setdefaulttimeout(10)
 INDEX_URL = "https://forums.infoclimat.fr/f/forum/20-evolution-%C3%A0-plus-long-terme/"
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
+# Table de correspondance déterministe pour classer les territoires cités
+ZONE_TERRITORY_MAPPING = {
+    "ouest_atlantique": ["bretagne", "pays de la loire", "vendée", "charente-maritime", "gironde", "façade atlantique", "atlantique", "aquitaine occidentale", "finistère", "morbihan", "ille-et-vilaine", "côtes-d'armor", "loire-atlantique"],
+    "nord_nord_ouest": ["normandie", "hauts-de-france occidentaux", "hauts-de-france", "picardie", "pas-de-calais", "nord", "bassin parisien", "île-de-france", "manche", "nord-ouest", "seine-maritime"],
+    "nord_est": ["grand est", "champagne", "champagne-ardenne", "lorraine", "alsace", "ardennes", "avesnois", "bourgogne", "bourgogne-franche-comté", "nord-est", "marne", "meuse", "vosges", "haut-rhin", "bas-rhin"],
+    "centre": ["centre-val de loire", "berry", "limousin", "auvergne", "massif central", "orléanais", "touraine", "sologne", "allier", "puy-de-dôme"],
+    "sud_ouest": ["nouvelle-aquitaine", "occitanie occidentale", "midi toulousain", "pyrénées", "aquitaine", "dordogne", "lot-et-garonne", "landes", "béarn", "pays basque", "toulouse"],
+    "sud_est_mediterranee": ["paca", "languedoc-roussillon", "languedoc", "roussillon", "vallée du rhône", "provence", "côte d’azur", "côte d'azur", "alpes du sud", "méditerranée", "var", "vaucluse", "bouches-du-rhône", "hérault", "gard"],
+    "corse": ["corse", "haute-corse", "corse-du-sud", "bastia", "ajaccio"]
+}
+
 def fetch_url(url, timeout=8):
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read().decode('utf-8', errors='ignore')
+
+def optimize_and_encode_image(img_path, max_width=1200, quality=82):
+    if not os.path.exists(img_path):
+        return "", 800, 500
+    if HAS_PIL:
+        try:
+            with Image.open(img_path) as img:
+                img_format = img.format if img.format in ['JPEG', 'PNG', 'WEBP'] else 'JPEG'
+                if img_format == 'JPEG' and img.mode in ('RGBA', 'LA', 'P'):
+                    img = img.convert('RGB')
+                
+                orig_w, orig_h = img.size
+                if orig_w > max_width:
+                    ratio = max_width / float(orig_w)
+                    new_h = int(float(orig_h) * ratio)
+                    img = img.resize((max_width, new_h), Image.Resampling.LANCZOS)
+                else:
+                    max_width, new_h = orig_w, orig_h
+                
+                buffer = io.BytesIO()
+                if img_format == 'PNG':
+                    img.save(buffer, format='PNG', optimize=True)
+                    mime = 'image/png'
+                else:
+                    img.save(buffer, format='JPEG', quality=quality, optimize=True)
+                    mime = 'image/jpeg'
+                
+                b64_str = base64.b64encode(buffer.getvalue()).decode('ascii')
+                return f"data:{mime};base64,{b64_str}", max_width, new_h
+        except Exception as e:
+            print(f"Erreur d'optimisation de l'image {img_path} avec PIL : {e}")
+
+    try:
+        with open(img_path, "rb") as f_img:
+            b64_str = base64.b64encode(f_img.read()).decode('ascii')
+        ext = img_path.split('.')[-1].lower()
+        mime = 'image/gif' if ext == 'gif' else ('image/png' if ext == 'png' else 'image/jpeg')
+        return f"data:{mime};base64,{b64_str}", 800, 500
+    except Exception as e:
+        print(f"Erreur d'encodage direct de l'image {img_path} : {e}")
+        return "", 800, 500
 
 def call_llm(system_prompt, user_prompt, max_retries=3):
     openrouter_key = os.environ.get("OPENROUTER_API_KEY", "").replace('\ufeff', '').strip()
@@ -110,7 +169,6 @@ def extract_comments_and_images(target_topic, topic_idx):
         
     recent_messages_text = "\n\n=======================\n\n".join(cleaned_comments_data[-20:])
     
-    # Extraire les images
     candidate_imgs = []
     seen_imgs = set()
     for comment in all_comments:
@@ -145,7 +203,8 @@ def extract_comments_and_images(target_topic, topic_idx):
     return {
         "title_clean": topic_title_clean,
         "comments_text": recent_messages_text,
-        "images": downloaded_images
+        "images": downloaded_images,
+        "total_scraped_images": len(candidate_imgs)
     }
 
 def extract_tag(text, tag):
@@ -153,23 +212,42 @@ def extract_tag(text, tag):
     match = re.search(pattern, text, re.DOTALL)
     return match.group(1).strip() if match else ""
 
+def clean_text_typos(text):
+    if not text: return ""
+    text = text.replace("Sud-Eest", "Sud-Est")
+    text = text.replace("Sud-eest", "sud-est")
+    text = text.replace("vendudi", "vendredi")
+    text = text.replace("un quart Nord-Est assoiffé", "un quart Nord-Est connaissant des précipitations très faibles")
+    text = re.sub(r'---+', '', text)
+    text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
+    return text.strip()
+
+def clean_mentions_str(val):
+    if not val:
+        return "1 mention exploitable"
+    val = val.strip()
+    val = re.sub(r'\bmentions\s+mentions\b', 'mentions', val, flags=re.IGNORECASE)
+    val = re.sub(r'\bmention\s+mentions\b', 'mentions', val, flags=re.IGNORECASE)
+    val = re.sub(r'\bmentions\s+exploitable\s+mentions\b', 'mentions exploitables', val, flags=re.IGNORECASE)
+    val = re.sub(r'\bmention\s+exploitable\s+mentions\b', 'mention exploitable', val, flags=re.IGNORECASE)
+    return val
+
 def parse_models(week_text, prefix):
     blocks = re.findall(rf"\[{prefix}_MODEL_START\](.*?)\[{prefix}_MODEL_END\]", week_text, re.DOTALL)
     models = []
     for b in blocks:
         model = {
-            "name": extract_tag(b, f"{prefix}_MODEL_NAME"),
-            "scenario": extract_tag(b, f"{prefix}_MODEL_SCENARIO"),
-            "sensible_weather": extract_tag(b, f"{prefix}_MODEL_SENSIBLE_WEATHER"),
-            "temperatures": extract_tag(b, f"{prefix}_MODEL_TEMPERATURES"),
-            "precipitations": extract_tag(b, f"{prefix}_MODEL_PRECIPITATIONS"),
-            "affected_zones": extract_tag(b, f"{prefix}_MODEL_AFFECTED_ZONES"),
-            "timing": extract_tag(b, f"{prefix}_MODEL_TIMING"),
-            "mentions_count": extract_tag(b, f"{prefix}_MODEL_MENTIONS_COUNT"),
-            "differences": extract_tag(b, f"{prefix}_MODEL_DIFFERENCES"),
-            "confidence_reason": extract_tag(b, f"{prefix}_MODEL_CONFIDENCE_REASON"),
-            "limits": extract_tag(b, f"{prefix}_MODEL_LIMITS"),
-            "confidence": extract_tag(b, f"{prefix}_MODEL_CONFIDENCE")
+            "name": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_NAME")),
+            "scenario": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_SCENARIO")),
+            "sensible_weather": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_SENSIBLE_WEATHER")),
+            "affected_zones": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_AFFECTED_ZONES")),
+            "extraction_conf": extract_tag(b, f"{prefix}_MODEL_EXTRACTION_CONF") or "80 %",
+            "scenario_support": extract_tag(b, f"{prefix}_MODEL_SCENARIO_SUPPORT") or "Majoritaire",
+            "status": extract_tag(b, f"{prefix}_MODEL_STATUS") or "Majoritaire",
+            "mentions_count": clean_mentions_str(extract_tag(b, f"{prefix}_MODEL_MENTIONS_COUNT")),
+            "run": extract_tag(b, f"{prefix}_MODEL_RUN") or "Non précisé",
+            "timing": extract_tag(b, f"{prefix}_MODEL_TIMING") or "Échéance non précisée",
+            "details": clean_text_typos(extract_tag(b, f"{prefix}_MODEL_DETAILS")) or "Pas de détails complémentaires."
         }
         if model["name"]:
             models.append(model)
@@ -180,17 +258,138 @@ def parse_images_info(week_text, prefix):
     imgs = []
     for b in blocks:
         img = {
-            "title": extract_tag(b, f"{prefix}_IMAGE_TITLE"),
-            "model": extract_tag(b, f"{prefix}_IMAGE_MODEL"),
-            "run": extract_tag(b, f"{prefix}_IMAGE_RUN"),
-            "why_important": extract_tag(b, f"{prefix}_IMAGE_WHY_IMPORTANT"),
-            "what_to_watch": extract_tag(b, f"{prefix}_IMAGE_WHAT_TO_WATCH"),
-            "confidence": extract_tag(b, f"{prefix}_IMAGE_CONFIDENCE"),
-            "attribution_uncertainty": extract_tag(b, f"{prefix}_IMAGE_ATTRIBUTION_UNCERTAINTY")
+            "type": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_TYPE")) or "Carte météo",
+            "title": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_TITLE")) or "Carte d'analyse",
+            "model": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_MODEL")) or "Modèle météo",
+            "run": extract_tag(b, f"{prefix}_IMAGE_RUN") or "Non précisé",
+            "timing": extract_tag(b, f"{prefix}_IMAGE_TIMING") or "Échéance",
+            "why_important": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_WHY_IMPORTANT")),
+            "what_to_watch": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_WHAT_TO_WATCH")),
+            "confidence": extract_tag(b, f"{prefix}_IMAGE_CONFIDENCE") or "Modérée",
+            "limit": clean_text_typos(extract_tag(b, f"{prefix}_IMAGE_LIMIT"))
         }
         if img["title"]:
             imgs.append(img)
     return imgs
+
+def parse_zones_json(text, prefix):
+    match = re.search(rf'\[{prefix}_ZONES_JSON_START\](.*?)\[{prefix}_ZONES_JSON_END\]', text, re.DOTALL)
+    if not match:
+        return {}
+    raw_json = match.group(1).strip()
+    raw_json = re.sub(r'^```json\s*', '', raw_json)
+    raw_json = re.sub(r'^```\s*', '', raw_json)
+    raw_json = re.sub(r'\s*```$', '', raw_json)
+    try:
+        data = json.loads(raw_json)
+        return data.get("zones", data)
+    except Exception as e:
+        print(f"Erreur parsing JSON zones {prefix} : {e}")
+        return {}
+
+def log_zones_diagnostics(zones_dict, week_num):
+    print(f"\n--- DIAGNOSTIC ZONES SEMAINE {week_num} ---")
+    fixed_keys = [
+        ("ouest_atlantique", "Ouest et Atlantique"),
+        ("nord_nord_ouest", "Nord et Nord-Ouest"),
+        ("nord_est", "Nord-Est"),
+        ("centre", "Centre"),
+        ("sud_ouest", "Sud-Ouest"),
+        ("sud_est_mediterranee", "Sud-Est et Méditerranée"),
+        ("corse", "Corse")
+    ]
+    for key, name in fixed_keys:
+        zdata = zones_dict.get(key, {})
+        status = zdata.get("status", "insufficient")
+        conf = zdata.get("confidence_level", "non_estimable")
+        sources = ", ".join(zdata.get("source_models", [])) if isinstance(zdata.get("source_models"), list) else "Aucun"
+        print(f"[ZONE: {key}] Status: {status} | Confiance: {conf} | Modèles: {sources}")
+
+def build_zone_card_from_dict(icon, zone_display_name, zone_data):
+    if not zone_data or not isinstance(zone_data, dict):
+        zone_data = {"status": "insufficient"}
+        
+    status = str(zone_data.get("status", "insufficient")).lower()
+    weather = clean_text_typos(zone_data.get("weather", "")).strip()
+    
+    # RÈGLE D'OR : Si la zone contient "Temps non spécifié" ou qu'elle n'a pas de météo renseignée, forcer le statut insufficient !
+    if status == "insufficient" or not weather or "temps non spécifié" in weather.lower() or "non précisé" in weather.lower():
+        return f"""
+        <div class="zone zone-insufficient">
+          <div class="zone-head">
+            <span class="zone-icon">{icon}</span>
+            <h3>{zone_display_name}</h3>
+          </div>
+          <p class="zone-notice">Informations insuffisantes dans les messages analysés pour établir une tendance fiable sur cette zone.</p>
+          <div class="zone-foot">
+            <span class="chip-conf" style="background:#f1f5f9; color:#64748b;">Confiance : Non estimable</span>
+            <span class="chip-uncert" style="background:#f1f5f9; color:#64748b;">Données insuffisantes</span>
+          </div>
+        </div>
+        """
+        
+    temp = clean_text_typos(zone_data.get("temperatures", "")).strip()
+    rain = clean_text_typos(zone_data.get("rain_storms", "")).strip()
+    wind = clean_text_typos(zone_data.get("wind", "")).strip()
+    timing = clean_text_typos(zone_data.get("sensitive_period", "")).strip()
+    conf_level = str(zone_data.get("confidence_level", "moderee")).strip()
+    uncert = clean_text_typos(zone_data.get("uncertainty", "")).strip()
+    models = zone_data.get("source_models", [])
+    
+    conf_label = "Modérée"
+    if "elev" in conf_level.lower() or "haut" in conf_level.lower(): conf_label = "Élevée"
+    elif "faib" in conf_level.lower(): conf_label = "Faible"
+    elif "non" in conf_level.lower(): conf_label = "Non estimable"
+    
+    badge_html = '<span class="badge" style="margin-bottom:8px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>' if status == "partial" else ""
+    
+    details_items = []
+    if weather: details_items.append(f'<li><b>Temps dominant :</b> {weather}</li>')
+    if temp and temp.lower() not in ["non documenté", "non précisé"]: details_items.append(f'<li><b>Températures :</b> {temp}</li>')
+    if rain and rain.lower() not in ["non documenté", "non précisé"]: details_items.append(f'<li><b>Pluie / Orages :</b> {rain}</li>')
+    if wind and wind.lower() not in ["non documenté", "non précisé", "-"]: details_items.append(f'<li><b>Vent :</b> {wind}</li>')
+    if timing and timing.lower() not in ["non documenté", "non précisé"]: details_items.append(f'<li><b>Période sensible :</b> {timing}</li>')
+    if models and isinstance(models, list) and len(models) > 0:
+        models_str = ", ".join(models)
+        details_items.append(f'<li><b>Modèles associés :</b> {models_str}</li>')
+
+    details_html = "".join(details_items)
+    uncert_html = f'<span class="chip-uncert">Incertitude : {uncert}</span>' if uncert else ''
+    
+    return f"""
+    <div class="zone">
+      <div>
+        {badge_html}
+        <div class="zone-head">
+          <span class="zone-icon">{icon}</span>
+          <h3>{zone_display_name}</h3>
+        </div>
+        <ul class="zone-details">
+          {details_html}
+        </ul>
+      </div>
+      <div class="zone-foot">
+        <span class="chip-conf">Confiance : {conf_label}</span>
+        {uncert_html}
+      </div>
+    </div>
+    """
+
+def render_zones_grid(zones_json_data):
+    fixed_keys = [
+        ("ouest_atlantique", "🧭", "Ouest et Atlantique"),
+        ("nord_nord_ouest", "☁️", "Nord et Nord-Ouest"),
+        ("nord_est", "🌤️", "Nord-Est"),
+        ("centre", "🌥️", "Centre"),
+        ("sud_ouest", "🌡️", "Sud-Ouest"),
+        ("sud_est_mediterranee", "☀️", "Sud-Est et Méditerranée"),
+        ("corse", "🏖️", "Corse")
+    ]
+    cards = []
+    for key, icon, display_name in fixed_keys:
+        zdata = zones_json_data.get(key, {})
+        cards.append(build_zone_card_from_dict(icon, display_name, zdata))
+    return "\n".join(cards)
 
 def generate_sparklines_html(history_dir="history"):
     if not os.path.exists(history_dir):
@@ -262,31 +461,53 @@ def build_model_cards(models):
     html_blocks = []
     for model in models:
         try:
-            conf_val = int(re.search(r'\d+', model.get("confidence", "80")).group(0))
+            conf_num = int(re.search(r'\d+', model.get("extraction_conf", "80")).group(0))
         except Exception:
-            conf_val = 80
+            conf_num = 80
             
         color = "var(--green)"
-        if conf_val < 60:
+        if conf_num < 60:
             color = "var(--red)"
-        elif conf_val < 75:
+        elif conf_num < 75:
             color = "var(--amber)"
             
+        status_class = "status-main"
+        status_text = model.get("status", "Majoritaire")
+        if "minor" in status_text.lower():
+            status_class = "status-minor"
+        elif "interm" in status_text.lower():
+            status_class = "status-inter"
+            
+        run_info = model.get("run", "Non précisé")
+        timing_info = model.get("timing", "-")
+        mentions_info = model.get("mentions_count", "1 mention exploitable")
+        
         row_html = f"""
         <tr>
           <td>
             <div class="model-name">{model.get("name", "Modèle")}</div>
             <div class="chips">
-              <span class="chip">{model.get("mentions_count", "0")} mentions</span>
-              {f'<span class="chip">{model.get("timing", "")}</span>' if model.get("timing") else ''}
+              <span class="chip">{mentions_info}</span>
+              <span class="chip">Run : {run_info}</span>
+              <span class="chip">{timing_info}</span>
             </div>
+            <span class="status-badge {status_class}">{status_text}</span>
           </td>
           <td>{model.get("scenario", "-")}</td>
           <td>{model.get("sensible_weather", "-")}</td>
           <td>{model.get("affected_zones", "-")}</td>
           <td>
-            <div class="score">{conf_val} %</div>
-            <div class="bar"><div class="fill" style="width:{conf_val}%; background:{color};"></div></div>
+            <div class="score-box">
+              <div class="score-label">Extraction : <strong>{model.get("extraction_conf", "80 %")}</strong></div>
+              <div class="bar"><div class="fill" style="width:{conf_num}%; background:{color};"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>{model.get("scenario_support", "Majoritaire")}</strong></div>
+            </div>
+            <details class="model-details">
+              <summary>Voir l'analyse complète</summary>
+              <div class="details-body">
+                {model.get("details", "Pas de détails d'analyse disponibles.")}
+              </div>
+            </details>
           </td>
         </tr>
         """
@@ -300,30 +521,38 @@ def build_image_cards(images_info, downloaded_images):
         img_info = images_info[i]
         img_path = downloaded_images[i]
         
-        try:
-            with open(img_path, "rb") as f_img:
-                img_b64 = base64.b64encode(f_img.read()).decode('ascii')
-            ext = img_path.split('.')[-1]
-            img_html = f'<img src="data:image/{ext};base64,{img_b64}" style="width: 100%; height: 220px; object-fit: cover;" alt="Carte météo">'
-        except Exception as e:
-            print(f"Erreur encodage image {img_path} : {e}")
+        src_url, width, height = optimize_and_encode_image(img_path, max_width=1200, quality=82)
+        
+        if src_url:
+            img_html = f'<a href="{src_url}" target="_blank" title="Cliquez pour agrandir l\'image" aria-label="Agrandir l\'image"><img src="{src_url}" loading="lazy" width="{width}" height="{height}" style="width: 100%; max-height: 240px; object-fit: contain; background: #0b1d2e;" alt="{img_info.get("title", "Carte météo")}"></a>'
+        else:
             img_html = f'<div class="image-demo">IMAGE {i+1}<br>Erreur de chargement</div>'
             
+        limit_html = f'<div class="image-limit">⚠️ <b>Limite :</b> {img_info.get("limit")}</div>' if img_info.get("limit") else ''
+        
         card_html = f"""
         <div class="image-card">
             {img_html}
             <div class="image-caption">
-                <h3>{img_info.get("title", "Carte météo")}</h3>
-                <p>{img_info.get("why_important", "")} <br><b>À surveiller :</b> {img_info.get("what_to_watch", "")}</p>
+                <div class="badge" style="margin-bottom:6px;">{img_info.get("type", "Carte météo")}</div>
+                <h3>{img_info.get("title", "Carte d'analyse")}</h3>
+                <p><b>Pourquoi retenue :</b> {img_info.get("why_important", "")}</p>
+                <p style="margin-top:4px;"><b>À regarder :</b> {img_info.get("what_to_watch", "")}</p>
+                {limit_html}
                 <div class="image-meta">
                     <span class="chip">{img_info.get("model", "-")}</span>
-                    <span class="chip">Confiance : {img_info.get("confidence", "-")}</span>
+                    <span class="chip">Run : {img_info.get("run", "Non précisé")}</span>
+                    <span class="chip">Échéance : {img_info.get("timing", "-")}</span>
+                    <span class="chip">Confiance : {img_info.get("confidence", "Modérée")}</span>
                 </div>
             </div>
         </div>
         """
         html_blocks.append(card_html)
-    return "\n".join(html_blocks) if html_blocks else "<p>Aucun graphique météo associé n'a été trouvé.</p>"
+        
+    if not html_blocks:
+        return "<p class='notice'>1 seule carte ou aucun graphique exploitable n'a pu être extrait pour cette semaine.</p>"
+    return "\n".join(html_blocks)
 
 def main():
     print(f"1. Chargement de l'index du forum : {INDEX_URL}")
@@ -357,44 +586,53 @@ def main():
         m1 = MONTHS_FR[d1.month - 1]
         m2 = MONTHS_FR[d2.month - 1]
         if m1 == m2:
-            return f"du Lundi {d1.day} au Dimanche {d2.day} {m1} {d1.year}"
+            return f"Du Lundi {d1.day} au Dimanche {d2.day} {m1} {d1.year}"
         else:
-            return f"du Lundi {d1.day} {m1} au Dimanche {d2.day} {m2} {d1.year}"
+            return f"Du Lundi {d1.day} {m1} au Dimanche {d2.day} {m2} {d1.year}"
             
-    lundi_cours = now - datetime.timedelta(days=now.weekday())
-    dimanche_cours = lundi_cours + datetime.timedelta(days=6)
-    lundi_suiv = lundi_cours + datetime.timedelta(days=7)
-    dimanche_suiv = lundi_suiv + datetime.timedelta(days=6)
-    
-    today_str = get_french_date(now)
-    semaine_cours_str = fmt_date_range(lundi_cours, dimanche_cours)
-    semaine_suivante_str = fmt_date_range(lundi_suiv, dimanche_suiv)
-    jours_restants_cours_str = semaine_cours_str
-
+    lundi_actuel = now - datetime.timedelta(days=now.weekday())
     current_iso_week = now.isocalendar()[1]
+    
+    # RÈGLE D'OR PRIORITÉ 1 : Si la génération a lieu vendredi (4), samedi (5) ou dimanche (6),
+    # basculer sur les 2 semaines suivantes !
+    if now.weekday() >= 4:
+        target_w1_iso = current_iso_week + 1
+        target_w2_iso = current_iso_week + 2
+        lundi_w1 = lundi_actuel + datetime.timedelta(days=7)
+        lundi_w2 = lundi_actuel + datetime.timedelta(days=14)
+    else:
+        target_w1_iso = current_iso_week
+        target_w2_iso = current_iso_week + 1
+        lundi_w1 = lundi_actuel
+        lundi_w2 = lundi_actuel + datetime.timedelta(days=7)
+
+    dimanche_w1 = lundi_w1 + datetime.timedelta(days=6)
+    dimanche_w2 = lundi_w2 + datetime.timedelta(days=6)
+
+    today_str = get_french_date(now)
+    w1_dates_calculated = fmt_date_range(lundi_w1, dimanche_w1)
+    w2_dates_calculated = fmt_date_range(lundi_w2, dimanche_w2)
 
     def get_topic_week_num(url):
         match = re.search(r'semaine-(\d+)', url.lower())
         return int(match.group(1)) if match else 0
 
-    # Sélection intelligente : on cherche d'abord la semaine courante et futures (>= current_iso_week)
     relevant_topics = [
         t for t in clean_topics
-        if current_iso_week <= get_topic_week_num(t) <= current_iso_week + 4
+        if target_w1_iso <= get_topic_week_num(t) <= target_w2_iso + 2
     ]
+    relevant_topics.sort(key=get_topic_week_num)
+    relevant_topics = relevant_topics[:2]
 
-    # Repli si moins de 2 sujets futurs (on ré-autorise la semaine précédente)
     if len(relevant_topics) < 2:
         relevant_topics = [
             t for t in clean_topics
-            if current_iso_week - 1 <= get_topic_week_num(t) <= current_iso_week + 4
+            if target_w1_iso - 1 <= get_topic_week_num(t) <= target_w2_iso + 2
         ]
+        relevant_topics.sort(key=get_topic_week_num)
+        relevant_topics = relevant_topics[:2]
 
-    # On prend les 2 plus futurs, triés par ordre croissant
-    relevant_topics = sorted(relevant_topics, key=get_topic_week_num, reverse=True)[:2]
-    relevant_topics.sort(key=get_topic_week_num)
-
-    print(f"[INFO] Topics retenus (semaine ISO {current_iso_week}) : {[get_topic_week_num(t) for t in relevant_topics]} → {relevant_topics}")
+    print(f"[INFO] Topics retenus pour prévisions (Semaines cible ISO {target_w1_iso} et {target_w2_iso}) : {[get_topic_week_num(t) for t in relevant_topics]} → {relevant_topics}")
 
     week1_data = extract_comments_and_images(relevant_topics[0], 0)
     week2_data = extract_comments_and_images(relevant_topics[1], 1)
@@ -403,9 +641,14 @@ def main():
         print("Erreur de récupération des données du forum.")
         sys.exit(1)
 
+    total_scraped_cards = week1_data.get("total_scraped_images", 0) + week2_data.get("total_scraped_images", 0)
+    downloaded_cards_count = len(week1_data["images"]) + len(week2_data["images"])
+
     last_bulletin_path = "data/last_bulletin.json"
     last_bulletin_context = "Aucun bulletin précédent disponible."
-    if os.path.exists(last_bulletin_path):
+    has_last_bulletin = os.path.exists(last_bulletin_path)
+    
+    if has_last_bulletin:
         try:
             with open(last_bulletin_path, "r", encoding="utf-8") as f_last:
                 last_data = json.load(f_last)
@@ -417,48 +660,67 @@ def main():
                 )
         except Exception as e:
             print(f"Erreur lecture dernier bulletin : {e}")
+            has_last_bulletin = False
 
     saison_actuelle = ["hiver", "printemps", "été", "automne"][(now.month % 12 // 3)]
 
     system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
-À partir des discussions et analyses météorologiques brutes de deux semaines distinctes (Semaine en cours et Semaine suivante), tu dois produire un bulletin d'analyse météorologique consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises.
+À partir des discussions et analyses météorologiques brutes de deux semaines distinctes de prévision, tu dois produire un bulletin d'analyse météorologique consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises et par JSON.
 
-RÈGLE D'OR N°1 : DISCIPLINE SAISONNIÈRE & PRUDENCE MÉTÉOROLOGIQUE
-- Nous sommes en ÉTÉ. Sauf mention explicite et justifiée en haute altitude (>1500m), toute référence à des conditions hivernales (neige en plaine, gel généralisé, températures négatives) est STRICTEMENT INTERDITE.
-- Ne transforme jamais une simple conjecture en certitude. Si les prévisionnistes du forum hésitent, utilise des termes prudents ("probable", "incertain", "à confirmer").
-- Ne cite jamais de pseudos ou d'utilisateurs du forum. Réfère-toi à "les prévisionnistes", "les modélisations" ou "le consensus".
+RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET PRÉSERVATION DES NUANCES
+- Ne transforme jamais une sortie isolée ou une conjecture en certitude.
+- Conserve systématiquement les nuances d'incertitude ("jusqu'à", "localement", "selon certains scénarios", "pourraient", "ordre de grandeur évoqué").
+- Ne cite jamais de pseudos ou d'utilisateurs du forum.
 
-RÈGLE D'OR N°2 : ANALYSE PAR MODÈLE & CALCUL D'INDICE DE CONFIANCE
-- Pour chaque semaine, tu devez analyser la comparaison des modèles météo cités (ex: ECMWF, GFS, ICON, GEM, AIFS).
-- Pour chaque modèle, calcule un Indice de Confiance d'Extraction (de 0 à 100%) selon ce barème logique :
-  - Nombre de mentions positives ou convergentes du modèle : >=5 mentions = +30% | 2-4 mentions = +15% | 1 mention = +5%.
-  - Concordance générale avec les autres modèles : Accord total = +30% | Accord partiel = +15% | Contradiction forte = +5%.
-  - Précision des détails (zones, échéance) : Détails précis = +20% | Allusions générales = +10%.
-  - Présence de cartes associées : Oui = +20% | Non = +0%.
-  Si l'indice ne peut être estimé, écris "Non estimable". Cet indice mesure la fiabilité de la reconstitution du modèle depuis les messages et images du forum, pas une probabilité physique.
+RÈGLE D'OR N°2 : SÉPARATION STRICTE DE LA CONFIANCE D'EXTRACTION ET DU SOUTIEN DU SCÉNARIO
+Pour chaque modèle météo cité :
+1. Confiance d'extraction (0-100% ou Non estimable) : qualité des détails extraits des messages.
+2. Soutien du scénario (Majoritaire / Intermédiaire / Minoritaire et score en %) : degré d'accord avec les autres modélisations.
+3. Mentions exploitables : Écris proprement (ex: "5 mentions exploitables" ou "1 mention exploitable").
+4. Run : Indique le run cité (ex: 00Z, 12Z) ou "Non précisé". Ne jamais inventer un numéro de run !
+5. Échéance : Indique la période d'application (ex: Vendredi soir, Dimanche).
 
-RÈGLE D'OR N°3 : DÉCOUPAGE PAR GRANDES ZONES MÉTÉO (7 ZONES FIXES)
-Pour chaque semaine, tu devez évaluer le temps sensible pour ces 7 zones géographiques :
-1. Ouest et façade atlantique
-2. Nord et Nord-Ouest
-3. Nord-Est
-4. Centre
-5. Sud-Ouest
-6. Sud-Est et Méditerranée
-7. Corse (uniquement si documentée, sinon écrire "Informations insuffisantes dans les sources")
-Si les messages du forum ne parlent pas d'une zone, n'invente rien. Rédige explicitement "Informations insuffisantes dans les sources pour cette zone".
+RÈGLE D'OR N°3 : SYNTHÈSE DES ZONES EN JSON STRICT (OBLIGATOIRE)
+Pour chaque semaine, tu DOIS obligatoirement retourner un objet JSON sous les balises [W1_ZONES_JSON_START] et [W2_ZONES_JSON_START].
+Utilise STRICTEMENT les 7 clés fixes suivantes (sans accents, sans variations) :
+- "ouest_atlantique"
+- "nord_nord_ouest"
+- "nord_est"
+- "centre"
+- "sud_ouest"
+- "sud_est_mediterranee"
+- "corse"
 
-RÈGLE D'OR N°4 : SYNTHÈSE GLOBALE & POST LINKEDIN
-- Produis une synthèse globale des 15 jours combinant l'évolution générale et le fait météo majeur.
-- Rédige un Post LinkedIn professionnel, prêt à copier-coller (250-300 mots), aéré en paragraphes très courts pour smartphone, contenant un titre fort, une introduction courte, les dates précises, les tendances, les divergences et 4 à 8 hashtags pertinents. Aucun formatage markdown gras/italique dans le post LinkedIn.
+Structure JSON exigée pour chaque zone :
+{
+  "status": "documented | partial | insufficient",
+  "weather": "Temps dominant constaté",
+  "temperatures": "Description des températures",
+  "rain_storms": "Précipitations et orages",
+  "wind": "Vent si documenté, sinon Non documenté",
+  "sensitive_period": "Jours ou moments sensibles",
+  "confidence_level": "elevee | moderee | faible | non_estimable",
+  "uncertainty": "Principale incertitude",
+  "source_models": ["GFS", "ECMWF"]
+}
 
-RÈGLE D'OR N°5 : BULLETIN PRÉCÉDENT & COMPARAISON
-Si un bulletin précédent (données clés) est fourni dans l'invite utilisateur, tu dois générer une section "Ce qui a changé depuis le précédent bulletin". Rédige cette section sous la balise suivante :
-[WHAT_CHANGED_SINCE_LAST]
-Description des évolutions importantes constatées (ex: renforcement d'un scénario, hausse des températures, décalage d'une perturbation).
-Si aucun bulletin précédent n'est fourni, laisse cette section vide ou n'écris rien sous cette balise.
+Règles de statut des zones :
+- status = "documented" : si suffisamment de détails précis existent.
+- status = "partial" : si quelques détails existent (ex: cumuls locaux aux Ardennes), préciser que les informations sont partielles pour l'ensemble de la zone.
+- status = "insufficient" : si aucune info fiable n'est citée. Mettre weather="", confidence_level="non_estimable", uncertainty="Données insuffisantes".
+
+RÈGLE D'OR N°4 : CAPSULES "À RETENIR" (MAX 4 À 5 PAR SEMAINE)
+Rédige 4 à 5 faits marquants maximum par semaine.
+Format : Titre court (2-5 mots) : Explication courte d'une seule phrase.
+
+RÈGLE D'OR N°5 : POST LINKEDIN PROFESSIONNEL
+Rédige un post LinkedIn prêt à copier-coller (250-300 mots) :
+- Paragraphes courts aérés sur mobile.
+- Titre captivant en caractères gras Unicode (ex: 🌦️ 𝗧𝗲𝗻𝗱𝗮𝗻𝗰𝗲𝘀 𝗺𝗲́𝘁𝗲́𝗼 : ...). Aucun markdown **.
+- Utilise les dates exactes des semaines prévues.
+- 4 à 7 hashtags pertinents.
 
 FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ce balisage :
 
@@ -467,51 +729,45 @@ FORMAT DE SORTIE OBLIGATOIRE - Utilise EXACTEMENT ce balisage :
 Période exacte de la semaine 1 (ex: Du Lundi 27 Juillet au Dimanche 2 Août 2026)
 
 [W1_KEY_POINT_1]
-Premier fait marquant très court (max 15 mots)
+Titre court 2-5 mots : Explication courte.
 
 [W1_KEY_POINT_2]
-Deuxième fait marquant très court (max 15 mots)
+Titre court 2-5 mots : Explication courte.
 
 [W1_KEY_POINT_3]
-Troisième fait marquant très court (max 15 mots)
+Titre court 2-5 mots : Explication courte.
 
 [W1_KEY_POINT_4]
-Quatrième fait marquant très court (max 15 mots)
+Titre court 2-5 mots : Explication courte.
 
 [W1_KEY_POINT_5]
-Cinquième fait marquant très court (max 15 mots) ou laisser vide
+Titre court 2-5 mots : Explication courte.
 
-[W1_KEY_POINT_6]
-Sixième fait marquant très court (max 15 mots) ou laisser vide
-
---- (Répéter le bloc ci-dessous pour chaque modèle météo cité) ---
+--- (Répéter pour chaque modèle) ---
 [W1_MODEL_START]
 [W1_MODEL_NAME]
 Nom du modèle
 [W1_MODEL_SCENARIO]
-Scénario général du modèle
+Scénario synthétique en une phrase
 [W1_MODEL_SENSIBLE_WEATHER]
-Temps sensible (soleil, orages, etc.)
-[W1_MODEL_TEMPERATURES]
-Tendances de températures
-[W1_MODEL_PRECIPITATIONS]
-Tendances de précipitations
+Temps sensible en une phrase
 [W1_MODEL_AFFECTED_ZONES]
-Régions ou zones géographiques concernées
-[W1_MODEL_TIMING]
-Échéance ou période d'application
+Zones géographiques concernées
+[W1_MODEL_EXTRACTION_CONF]
+Score de 0 à 100% ou Non estimable
+[W1_MODEL_SCENARIO_SUPPORT]
+Soutien du scénario (ex: Majoritaire 75%)
+[W1_MODEL_STATUS]
+Majoritaire | Intermédiaire | Minoritaire
 [W1_MODEL_MENTIONS_COUNT]
-Nombre de mentions exploitables
-[W1_MODEL_DIFFERENCES]
-Différences notables avec les autres modèles
-[W1_MODEL_CONFIDENCE_REASON]
-Justification de l'indice de confiance d'extraction
-[W1_MODEL_LIMITS]
-Limites de l'analyse pour ce modèle
-[W1_MODEL_CONFIDENCE]
-Valeur en % ou Non estimable
+ex: 5 mentions exploitables
+[W1_MODEL_RUN]
+ex: 00Z ou Non précisé
+[W1_MODEL_TIMING]
+Échéance (ex: Vendredi à dimanche)
+[W1_MODEL_DETAILS]
+Explications détaillées, écarts avec autres modèles, limites.
 [W1_MODEL_END]
------------------------------------------------------------------
 
 [W1_CONVERGENCES]
 Points de convergence entre les modèles
@@ -519,40 +775,19 @@ Points de convergence entre les modèles
 [W1_DIVERGENCES]
 Points de divergence et désaccords
 
-[W1_ZONE_WEST]
-Description météo pour Ouest et façade atlantique
-[W1_ZONE_WEST_CONF]
-Confiance et origine de l'incertitude
-
-[W1_ZONE_NORTH]
-Description météo pour Nord et Nord-Ouest
-[W1_ZONE_NORTH_CONF]
-Confiance et origine de l'incertitude
-
-[W1_ZONE_NORTHEAST]
-Description météo pour Nord-Est
-[W1_ZONE_NORTHEAST_CONF]
-Confiance et origine de l'incertitude
-
-[W1_ZONE_CENTRAL]
-Description météo pour Centre
-[W1_ZONE_CENTRAL_CONF]
-Confiance et origine de l'incertitude
-
-[W1_ZONE_SOUTHWEST]
-Description météo pour Sud-Ouest
-[W1_ZONE_SOUTHWEST_CONF]
-Confiance et origine de l'incertitude
-
-[W1_ZONE_SOUTHEAST]
-Description météo pour Sud-Est et Méditerranée
-[W1_ZONE_SOUTHEAST_CONF]
-Confiance et origine de l'incertitude
-
-[W1_ZONE_CORSICA]
-Description météo pour Corse
-[W1_ZONE_CORSICA_CONF]
-Confiance et origine de l'incertitude
+[W1_ZONES_JSON_START]
+{
+  "zones": {
+    "ouest_atlantique": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
+    "nord_nord_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
+    "nord_est": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
+    "centre": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
+    "sud_ouest": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
+    "sud_est_mediterranee": { "status": "...", "weather": "...", "temperatures": "...", "rain_storms": "...", "wind": "...", "sensitive_period": "...", "confidence_level": "...", "uncertainty": "...", "source_models": [] },
+    "corse": { "status": "insufficient", "weather": "", "temperatures": "", "rain_storms": "", "wind": "", "sensitive_period": "", "confidence_level": "non_estimable", "uncertainty": "Données insuffisantes", "source_models": [] }
+  }
+}
+[W1_ZONES_JSON_END]
 
 [W1_SOLID_POINTS]
 Points les mieux établis de la semaine
@@ -564,83 +799,82 @@ Points les plus fragiles de la semaine
 Ce qu'il faut surveiller dans les prochains runs
 
 [W1_PHASE_1_DATES]
-Dates/Jours de la phase 1
+Dates de la phase 1
 [W1_PHASE_1]
-Description de la phase 1
+Description phase 1
 [W1_PHASE_2_DATES]
-Dates/Jours de la phase 2
+Dates phase 2
 [W1_PHASE_2]
-Description de la phase 2
+Description phase 2
 [W1_PHASE_3_DATES]
-Dates/Jours de la phase 3
+Dates phase 3
 [W1_PHASE_3]
-Description de la phase 3
+Description phase 3
 [W1_PHASE_4_DATES]
-Dates/Jours de la phase 4
+Dates phase 4
 [W1_PHASE_4]
-Description de la phase 4
+Description phase 4
 
---- (Répéter le bloc ci-dessous pour chaque image analysée, max 3) ---
+--- (Répéter pour chaque image, max 3) ---
 [W1_IMAGE_START]
+[W1_IMAGE_TYPE]
+Type de carte
 [W1_IMAGE_TITLE]
-Titre de l'image
+Titre de la carte
 [W1_IMAGE_MODEL]
-Modèle de l'image (ex: ECMWF)
+Modèle
 [W1_IMAGE_RUN]
-Échéance ou run
+Run
+[W1_IMAGE_TIMING]
+Échéance
 [W1_IMAGE_WHY_IMPORTANT]
-Pourquoi cette carte est importante
+Pourquoi retenue
 [W1_IMAGE_WHAT_TO_WATCH]
-Ce qu'il faut regarder
+À regarder
 [W1_IMAGE_CONFIDENCE]
-Confiance d'interprétation
-[W1_IMAGE_ATTRIBUTION_UNCERTAINTY]
-Incertitude d'attribution (laisser vide si aucune)
+Confiance
+[W1_IMAGE_LIMIT]
+Limite
 [W1_IMAGE_END]
----------------------------------------------------------------------
 
 [WEEK_1_END]
 
 [WEEK_2_START]
-... (mêmes balises W2_ que pour W1_ ci-dessus) ...
+... (mêmes balises et même structure W2_ZONES_JSON_START que ci-dessus) ...
 [WEEK_2_END]
 
 [GLOBAL_START]
 [GLOBAL_15_DAY_TREND]
 Tendance générale des 15 jours
 [MOST_RELIABLE_WEEK]
-Semaine la plus fiable des deux et pourquoi
+Semaine la plus fiable
 [GLOBAL_SOLID_POINTS]
-Points consolidés majeurs des deux semaines
+Points consolidés majeurs
 [GLOBAL_RECURRING_PHENOMENA]
-Phénomènes météo récurrents
+Phénomènes récurrents
 [GLOBAL_AFFECTED_ZONES]
-Régions les plus touchées/concernées
+Régions les plus touchées
 [GLOBAL_MAJOR_UNCERTAINTIES]
 Incertitudes majeurs globales
 [GLOBAL_CONSENSUS_KPI]
-Pourcentage de consensus global (ex: 74 %)
+Consensus court (ex: 74 %)
 [GLOBAL_CONSENSUS_NOTE]
-Commentaire court sur le consensus (ex: Accord modéré à bon)
+Note courte (ex: Accord modéré)
 [GLOBAL_SCENARIO_KPI]
-Nom court du scénario dominant (ex: Chaud)
+Scénario court (ex: Très chaud)
 [GLOBAL_SCENARIO_NOTE]
-Commentaire court sur le scénario (ex: Puis plus instable)
-[GLOBAL_CARDS_KPI]
-Nombre de cartes analysées (ex: 6)
-[GLOBAL_CARDS_NOTE]
-Détail court (ex: 3 par semaine)
+Note courte (ex: Chaleur puis orages)
 [GLOBAL_UNCERTAINTY_KPI]
-Nom de l'incertitude majeure (ex: Timing)
+Incertitude courte (ex: Intensité)
 [GLOBAL_UNCERTAINTY_NOTE]
-Commentaire court sur l'incertitude (ex: Dégradation encore mobile)
+Note courte (ex: Écart GFS / ECMWF)
 [LINKEDIN_POST]
-Post LinkedIn complet prêt à copier-coller
+Post LinkedIn complet
 [GLOBAL_END]
 
 [DOUBTS_START]
 [DOUBTS_TIMING]
-Incertitudes de calendrier (échéances)
+Incertitudes de calendrier
 [DOUBTS_LOCATION]
 Incertitudes de localisation
 [DOUBTS_INTENSITY]
@@ -648,7 +882,7 @@ Incertitudes d'intensité
 [MISSING_INFORMATION]
 Informations manquantes
 [LOW_DOCUMENTED_MODELS]
-Modèles trop peu commentés
+Modèles peu commentés
 [UNCERTAIN_IMAGES]
 Images difficiles à interpréter
 [DOUBTS_END]
@@ -657,14 +891,18 @@ Images difficiles à interpréter
     user_prompt = f"""Date actuelle de génération : {today_str}
 Saison en France : {saison_actuelle.upper()}
 
+PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
+- SEMAINE 1 PREVISION : {w1_dates_calculated}
+- SEMAINE 2 PREVISION : {w2_dates_calculated}
+
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 {last_bulletin_context}
 ============================================
 
-=== DISCUSSIONS SEMAINE 1 ({jours_restants_cours_str}) ===
+=== DISCUSSIONS SEMAINE 1 ({w1_dates_calculated}) ===
 {week1_data["comments_text"]}
 
-=== DISCUSSIONS SEMAINE 2 ({semaine_suivante_str}) ===
+=== DISCUSSIONS SEMAINE 2 ({w2_dates_calculated}) ===
 {week2_data["comments_text"]}
 """
 
@@ -684,28 +922,33 @@ Saison en France : {saison_actuelle.upper()}
     global_content = global_text.group(1) if global_text else ""
     doubts_content = doubts_text.group(1) if doubts_text else ""
 
+    w1_zones_dict = parse_zones_json(w1_content, "W1")
+    w2_zones_dict = parse_zones_json(w2_content, "W2")
+
+    log_zones_diagnostics(w1_zones_dict, 1)
+    log_zones_diagnostics(w2_zones_dict, 2)
+
     def format_key_point(key_str):
         if not key_str:
             return ""
-        key_str = key_str.strip()
+        key_str = clean_text_typos(key_str).strip()
         emoji = "💡"
         
-        # Détection d'emoji
         emoji_match = re.match(r'^([\U00010000-\U0010ffff]|\u2600-\u27bf)\s*', key_str)
         if emoji_match:
             emoji = emoji_match.group(1)
             key_str = key_str[emoji_match.end():].strip()
         else:
             lower = key_str.lower()
-            if any(w in lower for w in ["temp", "chaud", "chaleur", "degré"]):
+            if any(w in lower for w in ["temp", "chaud", "chaleur", "degré", "canicule"]):
                 emoji = "🌡️"
-            elif any(w in lower for w in ["orage", "foudre"]):
+            elif any(w in lower for w in ["orage", "foudre", "tonnerre"]):
                 emoji = "⛈️"
-            elif any(w in lower for w in ["pluie", "averse", "humide", "eau"]):
+            elif any(w in lower for w in ["pluie", "averse", "humide", "eau", "front"]):
                 emoji = "🌦️"
-            elif any(w in lower for w in ["vent", "rafale"]):
+            elif any(w in lower for w in ["vent", "rafale", "mistral"]):
                 emoji = "💨"
-            elif any(w in lower for w in ["soleil", "beau", "sec"]):
+            elif any(w in lower for w in ["soleil", "beau", "sec", "anticyclone"]):
                 emoji = "☀️"
             elif any(w in lower for w in ["nuage", "couvert", "gris"]):
                 emoji = "☁️"
@@ -713,6 +956,8 @@ Saison en France : {saison_actuelle.upper()}
                 emoji = "🧭"
             elif any(w in lower for w in ["fiab", "confiance", "accord", "consensus"]):
                 emoji = "🤝"
+            elif any(w in lower for w in ["incertain", "doute", "surveiller", "risq"]):
+                emoji = "⚠️"
                 
         parts = key_str.split(":", 1)
         if len(parts) == 2:
@@ -729,49 +974,53 @@ Saison en France : {saison_actuelle.upper()}
         return f'<div class="key"><i>{emoji}</i><div><strong>{title}</strong>{desc}</div></div>'
 
     # Semaine 1
-    w1_dates = extract_tag(w1_content, "W1_DATES") or jours_restants_cours_str
-    w1_keys = [extract_tag(w1_content, f"W1_KEY_POINT_{i}") for i in range(1, 7)]
+    w1_dates = extract_tag(w1_content, "W1_DATES") or w1_dates_calculated
+    w1_keys = [extract_tag(w1_content, f"W1_KEY_POINT_{i}") for i in range(1, 6)]
     w1_keys_html = "".join([format_key_point(k) for k in w1_keys if k])
     w1_models = parse_models(w1_content, "W1")
     w1_models_html = build_model_cards(w1_models)
     w1_images_info = parse_images_info(w1_content, "W1")
     w1_images_html = build_image_cards(w1_images_info, week1_data["images"])
+    w1_zones_html = render_zones_grid(w1_zones_dict)
 
     # Semaine 2
-    w2_dates = extract_tag(w2_content, "W2_DATES") or semaine_suivante_str
-    w2_keys = [extract_tag(w2_content, f"W2_KEY_POINT_{i}") for i in range(1, 7)]
+    w2_dates = extract_tag(w2_content, "W2_DATES") or w2_dates_calculated
+    w2_keys = [extract_tag(w2_content, f"W2_KEY_POINT_{i}") for i in range(1, 6)]
     w2_keys_html = "".join([format_key_point(k) for k in w2_keys if k])
     w2_models = parse_models(w2_content, "W2")
     w2_models_html = build_model_cards(w2_models)
     w2_images_info = parse_images_info(w2_content, "W2")
     w2_images_html = build_image_cards(w2_images_info, week2_data["images"])
+    w2_zones_html = render_zones_grid(w2_zones_dict)
 
     # Extraction des KPIs globaux du header
     kpi_consensus_val = extract_tag(global_content, "GLOBAL_CONSENSUS_KPI") or "75 %"
-    kpi_consensus_note = extract_tag(global_content, "GLOBAL_CONSENSUS_NOTE") or "Accord modéré"
+    kpi_consensus_note = extract_tag(global_content, "GLOBAL_CONSENSUS_NOTE") or "Accord modéré à bon"
     kpi_scenario_val = extract_tag(global_content, "GLOBAL_SCENARIO_KPI") or "Chaud"
-    kpi_scenario_note = extract_tag(global_content, "GLOBAL_SCENARIO_NOTE") or "Puis plus instable"
-    kpi_cards_val = extract_tag(global_content, "GLOBAL_CARDS_KPI") or str(len(week1_data["images"]) + len(week2_data["images"]))
-    kpi_cards_note = extract_tag(global_content, "GLOBAL_CARDS_NOTE") or "Cartes clés"
-    kpi_uncertainty_val = extract_tag(global_content, "GLOBAL_UNCERTAINTY_KPI") or "Timing"
-    kpi_uncertainty_note = extract_tag(global_content, "GLOBAL_UNCERTAINTY_NOTE") or "Dégradation encore mobile"
+    kpi_scenario_note = extract_tag(global_content, "GLOBAL_SCENARIO_NOTE") or "Chaleur puis orages"
+    
+    kpi_cards_val = f"{downloaded_cards_count} / {total_scraped_cards}" if total_scraped_cards > 0 else f"{downloaded_cards_count} retenues"
+    kpi_cards_note = f"{downloaded_cards_count} cartes retenues sur {total_scraped_cards} analysées"
+    
+    kpi_uncertainty_val = extract_tag(global_content, "GLOBAL_UNCERTAINTY_KPI") or "Intensité"
+    kpi_uncertainty_note = extract_tag(global_content, "GLOBAL_UNCERTAINTY_NOTE") or "Écart GFS et ECMWF"
 
-    # Extraction des confiances et températures pour l'historique
+    # Confiances et températures pour l'historique
     try:
-        w1_conf_val = int(re.search(r'\d+', w1_models[0].get("confidence", "80")).group(0)) if w1_models else 80
+        w1_conf_val = int(re.search(r'\d+', w1_models[0].get("extraction_conf", "80")).group(0)) if w1_models else 80
     except Exception:
         w1_conf_val = 80
         
-    w1_temp_val = w1_models[0].get("temperatures", "De saison") if w1_models else "De saison"
+    w1_temp_val = w1_models[0].get("sensible_weather", "De saison") if w1_models else "De saison"
 
     try:
-        w2_conf_val = int(re.search(r'\d+', w2_models[0].get("confidence", "70")).group(0)) if w2_models else 70
+        w2_conf_val = int(re.search(r'\d+', w2_models[0].get("extraction_conf", "70")).group(0)) if w2_models else 70
     except Exception:
         w2_conf_val = 70
         
-    w2_temp_val = w2_models[0].get("temperatures", "De saison") if w2_models else "De saison"
+    w2_temp_val = w2_models[0].get("sensible_weather", "De saison") if w2_models else "De saison"
 
-    # Enregistrement
+    # Enregistrement de l'historique
     run_record = {
         "date_generation": today_str,
         "w1_confidence": w1_conf_val,
@@ -792,21 +1041,21 @@ Saison en France : {saison_actuelle.upper()}
 
     sparkline_conf_html, temp_evolution_html = generate_sparklines_html()
 
-    # Section Ce qui a changé
     what_changed_box = ""
-    if what_changed:
+    if has_last_bulletin and what_changed:
         what_changed_box = f"""
         <div class="section">
-            <h2>📈 Ce qui a changé depuis le précédent bulletin</h2>
-            <div class="notice" style="background:#eff6ff; color:#1e40af; border-color:#bfdbfe;">
-                {what_changed}
+            <div class="section-head"><div><span class="badge">Comparatif</span><h2>📈 Ce qui a changé depuis le précédent bulletin</h2></div></div>
+            <div class="alert" style="background:#eff6ff; color:#1e40af; border-color:#bfdbfe;">
+                {clean_text_typos(what_changed)}
             </div>
         </div>
         """
 
     linkedin_raw = extract_tag(global_content, "LINKEDIN_POST")
-    linkedin_clean = linkedin_raw.replace('<br>', '\n').replace('<br/>', '\n')
+    linkedin_clean = clean_text_typos(linkedin_raw).replace('<br>', '\n').replace('<br/>', '\n')
 
+    # CSS responsive et accessible
     style = """
     :root{
       --bg:#eef4f8;
@@ -839,6 +1088,7 @@ Saison en France : {saison_actuelle.upper()}
       line-height:1.5;
     }
     button{font:inherit}
+    button:focus-visible, a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 2px; }
     img{max-width:100%;display:block}
     .page{width:min(1180px,calc(100% - 24px));margin:20px auto 50px}
     .hero{
@@ -865,21 +1115,22 @@ Saison en France : {saison_actuelle.upper()}
     .brand{display:flex;gap:12px;align-items:center;font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
     .brand-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:22px}
     .demo{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:12px;font-weight:800}
-    .hero h1{margin:32px 0 10px;font-size:clamp(32px,5vw,52px);line-height:1.1;letter-spacing:-.045em}
-    .hero p{max-width:830px;margin:0;color:#e4f1f8;font-size:16px}
-    .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
-    .meta span{padding:9px 13px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);font-size:12px;font-weight:800}
+    .hero h1{margin:24px 0 6px;font-size:clamp(28px,4.5vw,44px);line-height:1.1;letter-spacing:-.04em;text-transform:uppercase;}
+    .hero-sub{font-size:15px;color:#dcebf3;font-weight:700;margin-bottom:16px;}
+    .hero p{max-width:830px;margin:0;color:#e4f1f8;font-size:15px}
+    .meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    .meta span{padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);font-size:12px;font-weight:800}
     .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
     .kpi{
-      padding:20px;
+      padding:18px;
       border-radius:20px;
       background:rgba(255,255,255,.11);
       border:1px solid rgba(255,255,255,.16);
       backdrop-filter:blur(10px);
     }
     .kpi-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#cfe5f1;font-weight:900}
-    .kpi-value{font-size:30px;line-height:1.1;font-weight:900;margin-top:5px}
-    .kpi-note{font-size:12px;color:#dcebf3;margin-top:5px}
+    .kpi-value{font-size:26px;line-height:1.1;font-weight:900;margin-top:4px}
+    .kpi-note{font-size:12px;color:#dcebf3;margin-top:4px}
     .tabs{
       display:grid;
       grid-template-columns:repeat(4,1fr);
@@ -913,7 +1164,7 @@ Saison en France : {saison_actuelle.upper()}
       box-shadow:0 12px 34px rgba(18,55,88,.07);
     }
     .section-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:20px}
-    .section h2{margin:0;font-size:clamp(22px,3vw,30px);line-height:1.1;letter-spacing:-.03em}
+    .section h2{margin:0;font-size:clamp(22px,3vw,28px);line-height:1.1;letter-spacing:-.03em}
     .section .sub{margin:7px 0 0;color:var(--muted)}
     .badge{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border-radius:999px;background:#eaf3fb;color:#205d90;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}
     .grid{display:grid;gap:14px}
@@ -926,11 +1177,11 @@ Saison en France : {saison_actuelle.upper()}
       border:1px solid var(--line);
       background:var(--surface-2);
     }
-    .card h3{margin:0 0 8px;font-size:18px}
+    .card h3{margin:0 0 8px;font-size:17px}
     .card p{margin:0;color:var(--muted);font-size:14px}
     .key{
       display:flex;
-      gap:12px;
+      gap:14px;
       align-items:flex-start;
       padding:18px;
       border-radius:17px;
@@ -938,10 +1189,10 @@ Saison en France : {saison_actuelle.upper()}
       border:1px solid var(--line);
     }
     .key i{
-      width:36px;height:36px;display:grid;place-items:center;flex:0 0 auto;
+      width:38px;height:38px;display:grid;place-items:center;flex:0 0 auto;
       border-radius:12px;background:#e5f1fb;font-style:normal;font-size:20px
     }
-    .key strong{display:block;margin-bottom:4px}
+    .key strong{display:block;margin-bottom:4px;color:var(--navy);font-size:15px}
     .model-table{
       width:100%;
       border-collapse:separate;
@@ -965,12 +1216,21 @@ Saison en France : {saison_actuelle.upper()}
     }
     .model-table td:first-child{border-left:1px solid var(--line);border-radius:14px 0 0 14px}
     .model-table td:last-child{border-right:1px solid var(--line);border-radius:0 14px 14px 0}
-    .model-name{font-weight:900;color:var(--navy)}
-    .score{font-size:22px;font-weight:900}
-    .bar{height:8px;background:#e7eef4;border-radius:999px;overflow:hidden;margin-top:7px}
+    .model-name{font-weight:900;color:var(--navy);font-size:16px}
+    .status-badge { display:inline-block; margin-top:6px; padding:3px 8px; border-radius:6px; font-size:10.5px; font-weight:800; text-transform:uppercase; }
+    .status-main { background:#dcfce7; color:#166534; }
+    .status-inter { background:#fef3c7; color:#92400e; }
+    .status-minor { background:#fee2e2; color:#991b1b; }
+    .score-box { background:#ffffff; border:1px solid var(--line); padding:8px 10px; border-radius:10px; }
+    .score-label { font-size:11.5px; color:var(--muted); }
+    .bar{height:7px;background:#e7eef4;border-radius:999px;overflow:hidden;margin-top:4px}
     .fill{height:100%;border-radius:999px;}
-    .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-    .chip{padding:5px 8px;border-radius:999px;background:#eaf3fb;color:#315f83;font-size:10px;font-weight:800}
+    .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+    .chip{padding:4px 8px;border-radius:999px;background:#eaf3fb;color:#315f83;font-size:10.5px;font-weight:800}
+    .model-details { margin-top:10px; border-top:1px dashed var(--line); padding-top:8px; font-size:13px; color:var(--ink); }
+    .model-details summary { font-weight:800; color:var(--blue); cursor:pointer; font-size:12px; }
+    .details-body { margin-top:6px; padding:10px; background:#f1f5f9; border-radius:10px; line-height:1.45; }
+    .table-footnote { margin-top:12px; font-size:12px; color:var(--muted); font-style:italic; }
     .compare{
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -980,16 +1240,25 @@ Saison en France : {saison_actuelle.upper()}
     .compare .card:last-child{border-top:5px solid var(--amber)}
     .zones{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
     .zone{
-      min-height:210px;
+      min-height:220px;
       padding:20px;
       border-radius:18px;
       border:1px solid var(--line);
       background:#fbfdff;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
     }
-    .zone-icon{font-size:28px}
-    .zone h3{margin:8px 0 8px}
-    .zone p{margin:0;color:var(--muted);font-size:14px}
-    .zone-foot{display:flex;justify-content:space-between;gap:10px;margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:11px;font-weight:800;color:#526d82}
+    .zone-insufficient { background: #f8fafc; border-style: dashed; }
+    .zone-notice { font-size: 13.5px; color: var(--muted); line-height: 1.5; margin: 10px 0; }
+    .zone-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+    .zone-icon{font-size:26px}
+    .zone h3{margin:0;font-size:17px;color:var(--navy)}
+    .zone-details{list-style:none;padding:0;margin:0;font-size:13px;color:var(--ink)}
+    .zone-details li{margin-bottom:5px;line-height:1.4}
+    .zone-foot{display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:11px;font-weight:800}
+    .chip-conf { color:var(--green); background:#e6f4ea; padding:3px 8px; border-radius:6px; }
+    .chip-uncert { color:var(--amber); background:#fef3c7; padding:3px 8px; border-radius:6px; }
     .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
     .phase{
       min-height:155px;
@@ -999,7 +1268,7 @@ Saison en France : {saison_actuelle.upper()}
       background:linear-gradient(180deg,#fbfdff,#f3f8fc);
     }
     .phase b{display:block;color:var(--blue);margin-bottom:8px}
-    .phase p{margin:0;color:var(--muted);font-size:14px}
+    .phase p{margin:0;color:var(--muted);font-size:13.5px}
     .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
     .image-card{overflow:hidden;border-radius:18px;border:1px solid var(--line);background:white}
     .image-demo{
@@ -1016,8 +1285,9 @@ Saison en France : {saison_actuelle.upper()}
       font-weight:900;
     }
     .image-caption{padding:18px}
-    .image-caption h3{margin:0 0 8px}
+    .image-caption h3{margin:0 0 8px;font-size:16px;color:var(--navy)}
     .image-caption p{margin:0;color:var(--muted);font-size:13px}
+    .image-limit { margin-top:6px; padding:6px 10px; border-radius:8px; background:#fff3cd; color:#856404; font-size:12px; }
     .image-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
     .alert{
       padding:18px;
@@ -1034,15 +1304,18 @@ Saison en France : {saison_actuelle.upper()}
       color:white;
       white-space:pre-wrap;
       line-height:1.65;
-      font-size:15px;
+      font-size:14.5px;
     }
+    .linkedin-toolbar { display:flex; justify-content:space-between; align-items:center; margin-top:12px; }
+    .char-counter { font-size:12px; color:var(--muted); font-weight:700; }
     .copy{
-      margin-top:12px;padding:11px 16px;border:0;border-radius:11px;
+      padding:11px 18px;border:0;border-radius:11px;
       background:var(--blue);color:white;font-weight:900;cursor:pointer;
       transition: background 0.15s ease;
     }
     .copy:hover{background:#114fa8}
-    .footer{padding:24px 8px 0;text-align:center;color:#6a7d8f;font-size:12px}
+    .footer{padding:28px 8px 0;text-align:center;color:#6a7d8f;font-size:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+    .back-to-top { background:var(--surface); border:1px solid var(--line); padding:8px 14px; border-radius:10px; color:var(--navy); font-weight:800; cursor:pointer; }
 
     /* History Box and Sparklines */
     .evolution-card {
@@ -1077,17 +1350,37 @@ Saison en France : {saison_actuelle.upper()}
     .trend-up { background: #dcfce7; color: #166534; }
     .trend-down { background: #fee2e2; color: #991b1b; }
 
+    /* RESPONSIVE MOBILE EXPLICITE (< 650px) */
     @media(max-width:950px){
       .kpis,.grid-4{grid-template-columns:repeat(2,1fr)}
       .grid-3,.zones,.cards3,.timeline{grid-template-columns:repeat(2,1fr)}
-      .model-table{display:block;overflow-x:auto}
     }
     @media(max-width:650px){
       .page{width:min(100% - 14px,1180px);margin:7px auto 30px}
       .hero{padding:24px;border-radius:22px}
+      .hero-top{flex-direction:column}
+      .grid-2,.grid-3,.grid-4,.kpis,.zones,.cards3,.timeline,.compare {
+        grid-template-columns: 1fr !important;
+      }
       .tabs{grid-template-columns:repeat(2,1fr);top:4px}
       .section{padding:20px;border-radius:22px}
       .section-head{align-items:flex-start;flex-direction:column}
+      .model-table, .model-table tbody, .model-table tr, .model-table td {
+        display: block !important;
+        width: 100% !important;
+      }
+      .model-table thead { display: none !important; }
+      .model-table tr {
+        margin-bottom: 16px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: #f8fbfd;
+        padding: 16px;
+      }
+      .model-table td {
+        border: none !important;
+        padding: 6px 0 !important;
+      }
     }
     @media print{
       body{background:white}
@@ -1102,7 +1395,7 @@ Saison en France : {saison_actuelle.upper()}
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tendances météo France — Bulletin premium</title>
+<title>PRÉVISIONS À MOYEN ET LONG TERME — Bulletin premium</title>
 [STYLE_PLACEHOLDER]
 </head>
 <body>
@@ -1114,8 +1407,9 @@ Saison en France : {saison_actuelle.upper()}
       <div class="brand"><div class="brand-icon">🌦️</div>Tendances météo France</div>
       <div class="demo">Monsieur Météo</div>
     </div>
-    <h1>Deux semaines de tendance, en un regard</h1>
-    <p>Comparaison des modèles météo, temps sensible par grandes zones, niveau de confiance, cartes clés, points solides et incertitudes.</p>
+    <h1>PRÉVISIONS À MOYEN ET LONG TERME</h1>
+    <div class="hero-sub">Analyse nationale • Comparaison multi-modèles • Consensus • Incertitudes • Deux prochaines semaines</div>
+    <p>Analyse comparative multi-modèles, temps sensible par grandes zones, niveau de confiance et incertitudes.</p>
     <div class="meta">
       <span>Semaine 1 : [W1_DATES_PLACEHOLDER]</span>
       <span>Semaine 2 : [W2_DATES_PLACEHOLDER]</span>
@@ -1130,33 +1424,36 @@ Saison en France : {saison_actuelle.upper()}
   </div>
 </header>
 
-<nav class="tabs">
-  <button class="active" data-tab="week1">Semaine 1</button>
-  <button data-tab="week2">Semaine 2</button>
-  <button data-tab="summary">Synthèse 15 jours</button>
-  <button data-tab="doubts">Doutes et limites</button>
+<nav class="tabs" role="tablist" aria-label="Navigation du bulletin">
+  <button class="active" id="tab-week1" role="tab" aria-selected="true" aria-controls="week1" data-tab="week1">Semaine 1</button>
+  <button id="tab-week2" role="tab" aria-selected="false" aria-controls="week2" data-tab="week2">Semaine 2</button>
+  <button id="tab-summary" role="tab" aria-selected="false" aria-controls="summary" data-tab="summary">Synthèse 15 jours</button>
+  <button id="tab-doubts" role="tab" aria-selected="false" aria-controls="doubts" data-tab="doubts">Doutes et limites</button>
 </nav>
 
-<section id="week1" class="panel active">
+<section id="week1" class="panel active" role="tabpanel" aria-labelledby="tab-week1">
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">À retenir</span><h2>Semaine 1</h2><p class="sub">Les informations principales.</p></div>
+      <div><span class="badge">À retenir</span><h2>Semaine 1 — [W1_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales classées par ordre d'importance.</p></div>
     </div>
-    <div class="grid grid-4">
+    <div class="grid grid-2">
       [W1_KEYS_HTML_PLACEHOLDER]
     </div>
   </div>
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique, modèle par modèle.</p></div>
+      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
     </div>
     <table class="model-table">
-      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance d’extraction</th></tr></thead>
+      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
       <tbody>
         [W1_MODELS_HTML_PLACEHOLDER]
       </tbody>
     </table>
+    <div class="table-footnote">
+      📌 La confiance d'extraction mesure la qualité des informations disponibles dans les messages. Le soutien du scénario mesure son niveau de convergence avec les autres analyses. Ces indicateurs ne constituent pas des probabilités météorologiques officielles.
+    </div>
   </div>
 
   <div class="section">
@@ -1169,16 +1466,10 @@ Saison en France : {saison_actuelle.upper()}
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Ce que le public doit comprendre immédiatement.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Lecture directe par région avec détails de confiance.</p></div>
     </div>
     <div class="zones">
-      <div class="zone"><div class="zone-icon">🧭</div><h3>Ouest et Atlantique</h3><p>[W1_ZONE_WEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_WEST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">☁️</div><h3>Nord et Nord-Ouest</h3><p>[W1_ZONE_NORTH_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_NORTH_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🌤️</div><h3>Nord-Est</h3><p>[W1_ZONE_NORTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_NORTHEAST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🌥️</div><h3>Centre</h3><p>[W1_ZONE_CENTRAL_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_CENTRAL_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🌡️</div><h3>Sud-Ouest</h3><p>[W1_ZONE_SOUTHWEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">☀️</div><h3>Sud-Est et Méditerranée</h3><p>[W1_ZONE_SOUTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🏖️</div><h3>Corse</h3><p>[W1_ZONE_CORSICA_PLACEHOLDER]</p><div class="zone-foot"><span>[W1_ZONE_CORSICA_CONF_PLACEHOLDER]</span></div></div>
+      [W1_ZONES_HTML_PLACEHOLDER]
     </div>
   </div>
 
@@ -1202,33 +1493,36 @@ Saison en France : {saison_actuelle.upper()}
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">3 cartes clés</span><h2>Les images les plus intéressantes</h2><p class="sub">Les images réelles récoltées du forum.</p></div></div>
+    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images récoltées, optimisées et lisibles au clic.</p></div></div>
     <div class="cards3">
       [W1_IMAGES_HTML_PLACEHOLDER]
     </div>
   </div>
 </section>
 
-<section id="week2" class="panel">
+<section id="week2" class="panel" role="tabpanel" aria-labelledby="tab-week2">
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">À retenir</span><h2>Semaine 2</h2><p class="sub">Les informations principales.</p></div>
+      <div><span class="badge">À retenir</span><h2>Semaine 2 — [W2_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales classées par ordre d'importance.</p></div>
     </div>
-    <div class="grid grid-4">
+    <div class="grid grid-2">
       [W2_KEYS_HTML_PLACEHOLDER]
     </div>
   </div>
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique, modèle par modèle.</p></div>
+      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
     </div>
     <table class="model-table">
-      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance d’extraction</th></tr></thead>
+      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
       <tbody>
         [W2_MODELS_HTML_PLACEHOLDER]
       </tbody>
     </table>
+    <div class="table-footnote">
+      📌 La confiance d'extraction mesure la qualité des informations disponibles dans les messages. Le soutien du scénario mesure son niveau de convergence avec les autres analyses. Ces indicateurs ne constituent pas des probabilités météorologiques officielles.
+    </div>
   </div>
 
   <div class="section">
@@ -1241,16 +1535,10 @@ Saison en France : {saison_actuelle.upper()}
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Ce que le public doit comprendre immédiatement.</p></div>
+      <div><span class="badge">Temps sensible</span><h2>Prévision par grandes zones</h2><p class="sub">Lecture directe par région avec détails de confiance.</p></div>
     </div>
     <div class="zones">
-      <div class="zone"><div class="zone-icon">🧭</div><h3>Ouest et Atlantique</h3><p>[W2_ZONE_WEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_WEST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">☁️</div><h3>Nord et Nord-Ouest</h3><p>[W2_ZONE_NORTH_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_NORTH_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🌤️</div><h3>Nord-Est</h3><p>[W2_ZONE_NORTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_NORTHEAST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🌥️</div><h3>Centre</h3><p>[W2_ZONE_CENTRAL_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_CENTRAL_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🌡️</div><h3>Sud-Ouest</h3><p>[W2_ZONE_SOUTHWEST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_SOUTHWEST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">☀️</div><h3>Sud-Est et Méditerranée</h3><p>[W2_ZONE_SOUTHEAST_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_SOUTHEAST_CONF_PLACEHOLDER]</span></div></div>
-      <div class="zone"><div class="zone-icon">🏖️</div><h3>Corse</h3><p>[W2_ZONE_CORSICA_PLACEHOLDER]</p><div class="zone-foot"><span>[W2_ZONE_CORSICA_CONF_PLACEHOLDER]</span></div></div>
+      [W2_ZONES_HTML_PLACEHOLDER]
     </div>
   </div>
 
@@ -1274,14 +1562,14 @@ Saison en France : {saison_actuelle.upper()}
   </div>
 
   <div class="section">
-    <div class="section-head"><div><span class="badge">3 cartes clés</span><h2>Les images les plus intéressantes</h2><p class="sub">Les images réelles récoltées du forum.</p></div></div>
+    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes</h2><p class="sub">Images récoltées, optimisées et lisibles au clic.</p></div></div>
     <div class="cards3">
       [W2_IMAGES_HTML_PLACEHOLDER]
     </div>
   </div>
 </section>
 
-<section id="summary" class="panel">
+<section id="summary" class="panel" role="tabpanel" aria-labelledby="tab-summary">
   [WHAT_CHANGED_BOX_PLACEHOLDER]
 
   <div class="section">
@@ -1313,13 +1601,20 @@ Saison en France : {saison_actuelle.upper()}
   <div class="section">
     <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn prêt à copier-coller</h2></div></div>
     <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
-    <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
+    <div class="linkedin-toolbar">
+      <span id="char-count" class="char-counter">0 caractères</span>
+      <button class="copy" onclick="copyLinkedIn()">Copier le post LinkedIn</button>
+    </div>
+    <div id="copy-status" aria-live="polite" style="margin-top:6px; font-weight:800; color:var(--green);"></div>
   </div>
 </section>
 
-<section id="doubts" class="panel">
+<section id="doubts" class="panel" role="tabpanel" aria-labelledby="tab-doubts">
   <div class="section">
-    <div class="section-head"><div><span class="badge">Transparence</span><h2>Doutes, imprécisions et limites</h2></div></div>
+    <div class="section-head"><div><span class="badge">Transparence</span><h2>Méthodologie des scores & doutes</h2></div></div>
+    <div class="alert" style="margin-bottom:16px;">
+      💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté et la présence de cartes dans les messages. Le <i>soutien du scénario</i> évalue le degré d'accord entre les modélisations. Aucun chiffre artificiel n'est attribué aux mentions isolées non vérifiables.
+    </div>
     <div class="grid grid-2">
       <div class="card"><h3>Calendrier</h3><p>[DOUBTS_TIMING_PLACEHOLDER]</p></div>
       <div class="card"><h3>Localisation</h3><p>[DOUBTS_LOCATION_PLACEHOLDER]</p></div>
@@ -1332,36 +1627,79 @@ Saison en France : {saison_actuelle.upper()}
 </section>
 
 <footer class="footer">
-Bulletin généré automatiquement à partir des messages et images du forum Infoclimat.
+<span>Bulletin généré automatiquement à partir des discussions et images du forum Infoclimat.</span>
+<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Haut de page</button>
 </footer>
 
 </main>
 
 <script>
-const buttons=document.querySelectorAll('.tabs button');
-const panels=document.querySelectorAll('.panel');
-buttons.forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    buttons.forEach(b=>b.classList.remove('active'));
-    panels.forEach(p=>p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById(btn.dataset.tab).classList.add('active');
-    window.scrollTo({top:document.querySelector('.tabs').offsetTop-8,behavior:'smooth'});
+const buttons = document.querySelectorAll('.tabs button');
+const panels = document.querySelectorAll('.panel');
+
+function activateTab(tabId) {
+  buttons.forEach(b => {
+    const active = b.dataset.tab === tabId;
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-selected', active ? 'true' : 'false');
+  });
+  panels.forEach(p => {
+    p.classList.toggle('active', p.id === tabId);
+  });
+  try { localStorage.setItem('infoclimat_active_tab', tabId); } catch(e){}
+}
+
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    activateTab(btn.dataset.tab);
+    window.scrollTo({top: document.querySelector('.tabs').offsetTop - 8, behavior: 'smooth'});
   });
 });
-function copyLinkedIn(){
-  const text=document.getElementById('linkedin').innerText;
-  navigator.clipboard.writeText(text).then(()=>{
-    const btn=document.querySelector('.copy');
-    const old=btn.textContent;
-    btn.textContent='Post copié';
-    setTimeout(()=>btn.textContent=old,1500);
-  });
+
+const hash = window.location.hash.replace('#', '');
+const savedTab = localStorage.getItem('infoclimat_active_tab');
+if (['week1', 'week2', 'summary', 'doubts'].includes(hash)) {
+  activateTab(hash);
+} else if (savedTab && ['week1', 'week2', 'summary', 'doubts'].includes(savedTab)) {
+  activateTab(savedTab);
+}
+
+function copyLinkedIn() {
+  const text = document.getElementById('linkedin').innerText;
+  const statusEl = document.getElementById('copy-status');
+  
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      statusEl.textContent = '✓ Post LinkedIn copié dans le presse-papiers !';
+      setTimeout(() => statusEl.textContent = '', 3000);
+    }).catch(fallbackCopy);
+  } else {
+    fallbackCopy();
+  }
+
+  function fallbackCopy() {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand('copy');
+      statusEl.textContent = '✓ Post LinkedIn copié dans le presse-papiers !';
+      setTimeout(() => statusEl.textContent = '', 3000);
+    } catch(e) {
+      alert('Veuillez sélectionner et copier manuellement le texte du post.');
+    }
+    document.body.removeChild(ta);
+  }
+}
+
+const linkText = document.getElementById('linkedin') ? document.getElementById('linkedin').innerText : '';
+if(document.getElementById('char-count')) {
+  document.getElementById('char-count').textContent = linkText.length + ' caractères';
 }
 </script>
 </body>
-</html>
-"""
+</html>"""
 
     # Remplacement des variables dans le template
     html = html_template
@@ -1372,101 +1710,71 @@ function copyLinkedIn(){
     
     html = html.replace("[W1_KEYS_HTML_PLACEHOLDER]", w1_keys_html)
     html = html.replace("[W1_MODELS_HTML_PLACEHOLDER]", w1_models_html)
+    html = html.replace("[W1_ZONES_HTML_PLACEHOLDER]", w1_zones_html)
     html = html.replace("[W1_IMAGES_HTML_PLACEHOLDER]", w1_images_html)
     
     html = html.replace("[W2_KEYS_HTML_PLACEHOLDER]", w2_keys_html)
     html = html.replace("[W2_MODELS_HTML_PLACEHOLDER]", w2_models_html)
+    html = html.replace("[W2_ZONES_HTML_PLACEHOLDER]", w2_zones_html)
     html = html.replace("[W2_IMAGES_HTML_PLACEHOLDER]", w2_images_html)
     
-    html = html.replace("[W1_CONVERGENCES_PLACEHOLDER]", extract_tag(w1_content, "W1_CONVERGENCES") or "-")
-    html = html.replace("[W1_DIVERGENCES_PLACEHOLDER]", extract_tag(w1_content, "W1_DIVERGENCES") or "-")
+    html = html.replace("[W1_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_CONVERGENCES")) or "-")
+    html = html.replace("[W1_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_DIVERGENCES")) or "-")
     
-    html = html.replace("[W2_CONVERGENCES_PLACEHOLDER]", extract_tag(w2_content, "W2_CONVERGENCES") or "-")
-    html = html.replace("[W2_DIVERGENCES_PLACEHOLDER]", extract_tag(w2_content, "W2_DIVERGENCES") or "-")
-
-    # Zones Semaine 1
-    html = html.replace("[W1_ZONE_WEST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_WEST") or "-")
-    html = html.replace("[W1_ZONE_WEST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_WEST_CONF") or "-")
-    html = html.replace("[W1_ZONE_NORTH_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTH") or "-")
-    html = html.replace("[W1_ZONE_NORTH_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTH_CONF") or "-")
-    html = html.replace("[W1_ZONE_NORTHEAST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTHEAST") or "-")
-    html = html.replace("[W1_ZONE_NORTHEAST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_NORTHEAST_CONF") or "-")
-    html = html.replace("[W1_ZONE_CENTRAL_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CENTRAL") or "-")
-    html = html.replace("[W1_ZONE_CENTRAL_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CENTRAL_CONF") or "-")
-    html = html.replace("[W1_ZONE_SOUTHWEST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHWEST") or "-")
-    html = html.replace("[W1_ZONE_SOUTHWEST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHWEST_CONF") or "-")
-    html = html.replace("[W1_ZONE_SOUTHEAST_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHEAST") or "-")
-    html = html.replace("[W1_ZONE_SOUTHEAST_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_SOUTHEAST_CONF") or "-")
-    html = html.replace("[W1_ZONE_CORSICA_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CORSICA") or "Informations insuffisantes dans les sources.")
-    html = html.replace("[W1_ZONE_CORSICA_CONF_PLACEHOLDER]", extract_tag(w1_content, "W1_ZONE_CORSICA_CONF") or "-")
-
-    # Zones Semaine 2
-    html = html.replace("[W2_ZONE_WEST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_WEST") or "-")
-    html = html.replace("[W2_ZONE_WEST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_WEST_CONF") or "-")
-    html = html.replace("[W2_ZONE_NORTH_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTH") or "-")
-    html = html.replace("[W2_ZONE_NORTH_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTH_CONF") or "-")
-    html = html.replace("[W2_ZONE_NORTHEAST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTHEAST") or "-")
-    html = html.replace("[W2_ZONE_NORTHEAST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_NORTHEAST_CONF") or "-")
-    html = html.replace("[W2_ZONE_CENTRAL_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CENTRAL") or "-")
-    html = html.replace("[W2_ZONE_CENTRAL_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CENTRAL_CONF") or "-")
-    html = html.replace("[W2_ZONE_SOUTHWEST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHWEST") or "-")
-    html = html.replace("[W2_ZONE_SOUTHWEST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHWEST_CONF") or "-")
-    html = html.replace("[W2_ZONE_SOUTHEAST_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHEAST") or "-")
-    html = html.replace("[W2_ZONE_SOUTHEAST_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_SOUTHEAST_CONF") or "-")
-    html = html.replace("[W2_ZONE_CORSICA_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CORSICA") or "Informations insuffisantes dans les sources.")
-    html = html.replace("[W2_ZONE_CORSICA_CONF_PLACEHOLDER]", extract_tag(w2_content, "W2_ZONE_CORSICA_CONF") or "-")
+    html = html.replace("[W2_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_CONVERGENCES")) or "-")
+    html = html.replace("[W2_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_DIVERGENCES")) or "-")
 
     # Chronologie Semaine 1
-    html = html.replace("[W1_PHASE_1_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_1_DATES") or "Phase 1")
-    html = html.replace("[W1_PHASE_1_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_1") or "-")
-    html = html.replace("[W1_PHASE_2_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_2_DATES") or "Phase 2")
-    html = html.replace("[W1_PHASE_2_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_2") or "-")
-    html = html.replace("[W1_PHASE_3_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_3_DATES") or "Phase 3")
-    html = html.replace("[W1_PHASE_3_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_3") or "-")
-    html = html.replace("[W1_PHASE_4_DATES_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_4_DATES") or "Phase 4")
-    html = html.replace("[W1_PHASE_4_PLACEHOLDER]", extract_tag(w1_content, "W1_PHASE_4") or "-")
+    html = html.replace("[W1_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_1_DATES")) or "Phase 1")
+    html = html.replace("[W1_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_1")) or "-")
+    html = html.replace("[W1_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_2_DATES")) or "Phase 2")
+    html = html.replace("[W1_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_2")) or "-")
+    html = html.replace("[W1_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_3_DATES")) or "Phase 3")
+    html = html.replace("[W1_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_3")) or "-")
+    html = html.replace("[W1_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_4_DATES")) or "Phase 4")
+    html = html.replace("[W1_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_PHASE_4")) or "-")
 
     # Chronologie Semaine 2
-    html = html.replace("[W2_PHASE_1_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_1_DATES") or "Phase 1")
-    html = html.replace("[W2_PHASE_1_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_1") or "-")
-    html = html.replace("[W2_PHASE_2_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_2_DATES") or "Phase 2")
-    html = html.replace("[W2_PHASE_2_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_2") or "-")
-    html = html.replace("[W2_PHASE_3_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_3_DATES") or "Phase 3")
-    html = html.replace("[W2_PHASE_3_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_3") or "-")
-    html = html.replace("[W2_PHASE_4_DATES_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_4_DATES") or "Phase 4")
-    html = html.replace("[W2_PHASE_4_PLACEHOLDER]", extract_tag(w2_content, "W2_PHASE_4") or "-")
+    html = html.replace("[W2_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_1_DATES")) or "Phase 1")
+    html = html.replace("[W2_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_1")) or "-")
+    html = html.replace("[W2_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_2_DATES")) or "Phase 2")
+    html = html.replace("[W2_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_2")) or "-")
+    html = html.replace("[W2_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_3_DATES")) or "Phase 3")
+    html = html.replace("[W2_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_3")) or "-")
+    html = html.replace("[W2_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_4_DATES")) or "Phase 4")
+    html = html.replace("[W2_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_PHASE_4")) or "-")
 
     # Solides / Fragiles
-    html = html.replace("[W1_SOLID_POINTS_PLACEHOLDER]", extract_tag(w1_content, "W1_SOLID_POINTS") or "-")
-    html = html.replace("[W1_FRAGILE_POINTS_PLACEHOLDER]", extract_tag(w1_content, "W1_FRAGILE_POINTS") or "-")
-    html = html.replace("[W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", extract_tag(w1_content, "W1_NEXT_RUNS_TO_WATCH") or "-")
+    html = html.replace("[W1_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_SOLID_POINTS")) or "-")
+    html = html.replace("[W1_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_FRAGILE_POINTS")) or "-")
+    html = html.replace("[W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_NEXT_RUNS_TO_WATCH")) or "-")
     
-    html = html.replace("[W2_SOLID_POINTS_PLACEHOLDER]", extract_tag(w2_content, "W2_SOLID_POINTS") or "-")
-    html = html.replace("[W2_FRAGILE_POINTS_PLACEHOLDER]", extract_tag(w2_content, "W2_FRAGILE_POINTS") or "-")
-    html = html.replace("[W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", extract_tag(w2_content, "W2_NEXT_RUNS_TO_WATCH") or "-")
+    html = html.replace("[W2_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_SOLID_POINTS")) or "-")
+    html = html.replace("[W2_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_FRAGILE_POINTS")) or "-")
+    html = html.replace("[W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content, "W2_NEXT_RUNS_TO_WATCH")) or "-")
 
     # Synthèse globale et doutes
-    html = html.replace("[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]", kpi_consensus_val)
-    html = html.replace("[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]", kpi_consensus_note)
-    html = html.replace("[GLOBAL_SCENARIO_KPI_PLACEHOLDER]", kpi_scenario_val)
-    html = html.replace("[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]", kpi_scenario_note)
+    html = html.replace("[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]", clean_text_typos(kpi_consensus_val))
+    html = html.replace("[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]", clean_text_typos(kpi_consensus_note))
+    html = html.replace("[GLOBAL_SCENARIO_KPI_PLACEHOLDER]", clean_text_typos(kpi_scenario_val))
+    html = html.replace("[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]", clean_text_typos(kpi_scenario_note))
     html = html.replace("[GLOBAL_CARDS_KPI_PLACEHOLDER]", kpi_cards_val)
     html = html.replace("[GLOBAL_CARDS_NOTE_PLACEHOLDER]", kpi_cards_note)
-    html = html.replace("[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]", kpi_uncertainty_val)
-    html = html.replace("[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]", kpi_uncertainty_note)
+    html = html.replace("[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_val))
+    html = html.replace("[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_note))
 
-    html = html.replace("[GLOBAL_15_DAY_TREND_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_15_DAY_TREND") or "-")
-    html = html.replace("[MOST_RELIABLE_WEEK_PLACEHOLDER]", extract_tag(global_content, "MOST_RELIABLE_WEEK") or "-")
-    html = html.replace("[GLOBAL_SOLID_POINTS_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_SOLID_POINTS") or "-")
-    html = html.replace("[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_RECURRING_PHENOMENA") or "-")
-    html = html.replace("[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]", extract_tag(global_content, "GLOBAL_MAJOR_UNCERTAINTIES") or "-")
+    html = html.replace("[GLOBAL_15_DAY_TREND_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_15_DAY_TREND")) or "-")
+    html = html.replace("[MOST_RELIABLE_WEEK_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "MOST_RELIABLE_WEEK")) or "-")
+    html = html.replace("[GLOBAL_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_SOLID_POINTS")) or "-")
+    html = html.replace("[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_RECURRING_PHENOMENA")) or "-")
+    html = html.replace("[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]", clean_text_typos(extract_tag(global_content, "GLOBAL_MAJOR_UNCERTAINTIES")) or "-")
     
-    html = html.replace("[DOUBTS_TIMING_PLACEHOLDER]", extract_tag(doubts_content, "DOUBTS_TIMING") or "-")
-    html = html.replace("[DOUBTS_LOCATION_PLACEHOLDER]", extract_tag(doubts_content, "DOUBTS_LOCATION") or "-")
-    html = html.replace("[DOUBTS_INTENSITY_PLACEHOLDER]", extract_tag(doubts_content, "DOUBTS_INTENSITY") or "-")
-    html = html.replace("[MISSING_INFORMATION_PLACEHOLDER]", extract_tag(doubts_content, "MISSING_INFORMATION") or "-")
-    html = html.replace("[LOW_DOCUMENTED_MODELS_PLACEHOLDER]", extract_tag(doubts_content, "LOW_DOCUMENTED_MODELS") or "-")
-    html = html.replace("[UNCERTAIN_IMAGES_PLACEHOLDER]", extract_tag(doubts_content, "UNCERTAIN_IMAGES") or "-")
+    html = html.replace("[DOUBTS_TIMING_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "DOUBTS_TIMING")) or "-")
+    html = html.replace("[DOUBTS_LOCATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "DOUBTS_LOCATION")) or "-")
+    html = html.replace("[DOUBTS_INTENSITY_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "DOUBTS_INTENSITY")) or "-")
+    html = html.replace("[MISSING_INFORMATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "MISSING_INFORMATION")) or "-")
+    html = html.replace("[LOW_DOCUMENTED_MODELS_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "LOW_DOCUMENTED_MODELS")) or "-")
+    html = html.replace("[UNCERTAIN_IMAGES_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content, "UNCERTAIN_IMAGES")) or "-")
 
     html = html.replace("[LINKEDIN_CLEAN_PLACEHOLDER]", linkedin_clean)
     html = html.replace("[WHAT_CHANGED_BOX_PLACEHOLDER]", what_changed_box)
@@ -1494,17 +1802,14 @@ function copyLinkedIn(){
         sys.exit(0)
         
     sender = gmail_email
-    subject = f"Tendances de la semaine - {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
+    subject = f"PRÉVISIONS À MOYEN ET LONG TERME - {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
     clean_subj = unicodedata.normalize('NFKD', subject).encode('ASCII', 'ignore').decode('ASCII')
     subject = clean_subj
     
     filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
     
-    # Version HTML pour le corps du mail (sans script, et avec tous les panneaux visibles)
     html_body = html
-    # 1. Supprimer la balise script et son contenu
     html_body = re.sub(r'<script>.*?</script>', '', html_body, flags=re.DOTALL)
-    # 2. Modifier le CSS pour afficher tous les panneaux et cacher la navigation par onglets
     html_body = html_body.replace('.panel{display:none}', '.panel{display:block !important;margin-bottom:30px}')
     html_body = html_body.replace('.tabs{', '.tabs{display:none !important;')
 
