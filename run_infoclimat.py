@@ -32,7 +32,6 @@ socket.setdefaulttimeout(10)
 INDEX_URL = "https://forums.infoclimat.fr/f/forum/20-evolution-%C3%A0-plus-long-terme/"
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
-# Table de correspondance déterministe pour 8 zones météorologiques
 ZONE_TERRITORY_MAPPING = {
     "nord_ouest": ["bretagne", "normandie", "pays de la loire", "finistère", "morbihan", "ille-et-vilaine", "côtes-d'armor", "manche", "seine-maritime", "calvados", "eure", "orne", "mayenne", "sarthe", "loire-atlantique"],
     "nord": ["hauts-de-france", "île-de-france", "bassin parisien", "picardie", "pas-de-calais", "nord", "paris", "val-d'oise", "seine-et-marne", "yvelines", "essonne", "hauts-de-seine", "seine-saint-denis", "val-de-marne"],
@@ -682,25 +681,28 @@ def main():
         match = re.search(r'semaine-(\d+)', url.lower())
         return int(match.group(1)) if match else 0
 
-    relevant_topics = [
-        t for t in clean_topics
-        if target_w1_iso <= get_topic_week_num(t) <= target_w2_iso + 2
-    ]
-    relevant_topics.sort(key=get_topic_week_num)
-    relevant_topics = relevant_topics[:2]
+    topics_by_week = {get_topic_week_num(t): t for t in clean_topics if get_topic_week_num(t) > 0}
+    
+    topic_w1 = topics_by_week.get(target_w1_iso)
+    topic_w2 = topics_by_week.get(target_w2_iso)
+    
+    w1_notice = ""
+    w2_notice = ""
+    
+    if not topic_w1:
+        topic_w1 = topics_by_week.get(target_w1_iso - 1)
+        w1_notice = f" (Sujet spécifique Semaine {target_w1_iso} non encore créé — Analyse basée sur Semaine {target_w1_iso - 1})"
+        
+    if not topic_w2:
+        topic_w2 = topic_w1
+        w2_notice = f" (⚠️ Le sujet spécifique de la Semaine {target_w2_iso} (du {w2_dates_calculated}) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine {get_topic_week_num(topic_w1)})."
 
-    if len(relevant_topics) < 2:
-        relevant_topics = [
-            t for t in clean_topics
-            if target_w1_iso - 1 <= get_topic_week_num(t) <= target_w2_iso + 2
-        ]
-        relevant_topics.sort(key=get_topic_week_num)
-        relevant_topics = relevant_topics[:2]
+    print(f"[INFO] Alignement strict des sujets Infoclimat par numéro ISO :")
+    print(f"  - Semaine 1 (ISO {target_w1_iso}) : {topic_w1}{w1_notice}")
+    print(f"  - Semaine 2 (ISO {target_w2_iso}) : {topic_w2}{w2_notice}")
 
-    print(f"[INFO] Topics retenus pour prévisions (Semaines cible ISO {target_w1_iso} et {target_w2_iso}) : {[get_topic_week_num(t) for t in relevant_topics]} → {relevant_topics}")
-
-    week1_data = extract_comments_and_images(relevant_topics[0], 0)
-    week2_data = extract_comments_and_images(relevant_topics[1], 1)
+    week1_data = extract_comments_and_images(topic_w1, 0)
+    week2_data = extract_comments_and_images(topic_w2, 1)
     
     if not week1_data or not week2_data:
         print("Erreur de récupération des données du forum.")
@@ -729,10 +731,14 @@ def main():
 
     saison_actuelle = ["hiver", "printemps", "été", "automne"][(now.month % 12 // 3)]
 
-    system_prompt = """Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
+    system_prompt = f"""Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
 
 MISSION
 À partir des discussions et analyses météorologiques brutes de deux semaines distinctes de prévision, tu dois produire un bulletin d'analyse météorologique consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises et par JSON.
+
+RÈGLE TRANSPARENCE ABSOLUE (CRUCIAL) :
+{w2_notice if w2_notice else 'Les deux sujets hebdomadaires sont ouverts sur Infoclimat.'}
+Si le sujet de la semaine 2 n'est pas encore créé, N'INVENTE AUCUNE DISCUSSION FICTIVE NI PSEUDO ! Utilise uniquement les projections à long terme (ECMWF 15j, GFS 384h, ensembles) et indique que les incertitudes restent fortes.
 
 RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET CONDITIONNEL OBLIGATOIRE
 - Ne transforme JAMAIS une sortie isolée ou un scénario en certitude.
@@ -759,7 +765,7 @@ Utilise STRICTEMENT les 8 clés fixes suivantes :
 8. "mediterranee_corse"
 
 Structure JSON exigée par zone :
-{
+{{
   "status": "documented | partial | insufficient",
   "weather": "Temps dominant envisagé (max 15 mots sur mobile)",
   "temperatures": "Description des températures",
@@ -772,12 +778,7 @@ Structure JSON exigée par zone :
   "uncertainty": "Principale incertitude",
   "evidence_count": 3,
   "source_models": ["GFS", "ECMWF"]
-}
-
-RÈGLE D'OR N°4 : POST LINKEDIN RÉVISÉ
-Rédige un post LinkedIn prêt à copier-coller (250-300 mots) :
-- Titre accrocheur et prudent (ex: 🌡️ 𝗣𝗿𝗲́𝘃𝗶𝘀𝗶𝗼𝗻𝘀 𝗺𝗲́𝘁𝗲́𝗼 : 𝗧𝗲𝗻𝗱𝗮𝗻𝗰𝗲𝘀 𝗲𝘁 𝗱𝗶𝘃𝗲𝗿𝗴𝗲𝗻𝗰𝗲𝘀 𝗺𝘂𝗹𝘁𝗶-𝗺𝗼𝗱𝗲̀𝗹𝗲𝘀).
-- Aucun markdown ** visible dans le texte.
+}}
 
 FORMAT DE SORTIE OBLIGATOIRE :
 
@@ -816,7 +817,7 @@ Points de convergence (max 3 points)
 Points de divergence (max 3 points)
 
 [W1_ZONES_JSON_START]
-{ "zones": { ... 8 zones ... } }
+{{ "zones": {{ ... 8 zones ... }} }}
 [W1_ZONES_JSON_END]
 
 [W1_SOLID_POINTS]
@@ -875,14 +876,18 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 - SEMAINE 1 PREVISION : {w1_dates_calculated}
 - SEMAINE 2 PREVISION : {w2_dates_calculated}
 
+TRANSPARENCE SUJETS FORUM INFOCLIMAT :
+- Sujet 1 exploité : {week1_data["title_clean"]}
+- Sujet 2 exploité : {week2_data["title_clean"]} {w2_notice}
+
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 {last_bulletin_context}
 ============================================
 
-=== DISCUSSIONS SEMAINE 1 ({w1_dates_calculated}) ===
+=== DISCUSSIONS APPLICABLES SEMAINE 1 ({w1_dates_calculated}) ===
 {week1_data["comments_text"]}
 
-=== DISCUSSIONS SEMAINE 2 ({w2_dates_calculated}) ===
+=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 ({w2_dates_calculated}) ===
 {week2_data["comments_text"]}
 """
 
@@ -964,6 +969,15 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     w2_images_html = build_image_cards(w2_images_info, week2_data["images"])
     w2_zones_html = render_zones_grid(w2_zones_dict)
 
+    # Banner d'avertissement de transparence si topic S2 non créé
+    w2_notice_html = ""
+    if w2_notice:
+        w2_notice_html = f"""
+        <div class="alert" style="margin-bottom:16px; background:#fff3cd; color:#856404; border-color:#ffeeba;">
+            📌 <b>Note de transparence :</b> Le sujet de discussion dédié à la Semaine 2 ({w2_dates_calculated}) n'est pas encore ouvert par les prévisionnistes du forum Infoclimat. Les tendances ci-dessous reposent sur les modélisations et projections à long terme (ECMWF 15j, GFS 384h) extraites du sujet Semaine 31.
+        </div>
+        """
+
     # KPIs globaux du header
     kpi_consensus_val = extract_tag(global_content, "GLOBAL_CONSENSUS_KPI") or "Modéré"
     kpi_consensus_note = extract_tag(global_content, "GLOBAL_CONSENSUS_NOTE") or "Accord sur la chaleur, intensité débattue"
@@ -978,7 +992,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 
     w1_conf_val = "Modérée"
     w1_temp_val = w1_models[0].get("sensible_weather", "De saison") if w1_models else "De saison"
-    w2_conf_val = "Modérée"
+    w2_conf_val = "Faible / Projections"
     w2_temp_val = w2_models[0].get("sensible_weather", "De saison") if w2_models else "De saison"
 
     run_record = {
@@ -1108,7 +1122,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .tabs button:hover{background:#f8fbfd;}
     .tabs button.active{background:var(--navy);color:#fff;border-color:var(--navy)}
     
-    /* Sub-navigation mobile */
     .sub-nav { display:none; gap:6px; overflow-x:auto; padding:6px 0; margin-top:6px; scrollbar-width:none; }
     .sub-nav a { flex:0 0 auto; padding:6px 12px; border-radius:999px; background:rgba(255,255,255,.8); border:1px solid var(--line); color:var(--navy); font-size:12px; font-weight:800; text-decoration:none; }
 
@@ -1202,7 +1215,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .compare .card:first-child{border-top:5px solid var(--green)}
     .compare .card:last-child{border-top:5px solid var(--amber)}
     
-    /* Zones Grid */
     .zones{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
     .zone{
       padding:20px;
@@ -1224,7 +1236,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .chip-conf { color:var(--green); background:#e6f4ea; padding:3px 8px; border-radius:6px; }
     .chip-uncert { color:var(--amber); background:#fef3c7; padding:3px 8px; border-radius:6px; }
 
-    /* Timeline */
     .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
     .phase{
       min-height:140px;
@@ -1236,7 +1247,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .phase b{display:block;color:var(--blue);margin-bottom:8px}
     .phase p{margin:0;color:var(--muted);font-size:13.5px}
 
-    /* Images */
     .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
     .image-card{overflow:hidden;border-radius:18px;border:1px solid var(--line);background:white}
     .image-demo{
@@ -1255,7 +1265,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .image-limit { margin-top:6px; padding:6px 10px; border-radius:8px; background:#fff3cd; color:#856404; font-size:12px; }
     .image-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 
-    /* Alert & LinkedIn */
     .alert{
       padding:18px;
       border-radius:17px;
@@ -1288,7 +1297,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .back-to-top { background:var(--surface); border:1px solid var(--line); padding:10px 16px; border-radius:10px; color:var(--navy); font-weight:800; cursor:pointer; min-height:44px; }
     .fab-top { display:none; position:fixed; bottom:20px; right:20px; z-index:99; width:48px; height:48px; border-radius:50%; background:var(--navy); color:white; border:2px solid white; box-shadow:0 6px 20px rgba(0,0,0,.25); font-size:20px; place-items:center; cursor:pointer; }
 
-    /* Lightbox Modal */
     .lightbox-modal {
       display:none;
       position:fixed;
@@ -1305,7 +1313,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .lightbox-caption { color:white; text-align:center; margin-top:12px; max-width:600px; font-size:14px; }
     .lightbox-close { position:absolute; top:20px; right:20px; background:rgba(255,255,255,.2); color:white; border:none; width:44px; height:44px; border-radius:50%; font-size:22px; cursor:pointer; display:grid; place-items:center; }
 
-    /* Evolution Box */
     .evolution-card { background: var(--surface-2); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
     .sparkline { font-family: monospace; font-size: 13px; line-height: 1.5; color: var(--ink); background: #ffffff; border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin-top: 8px; }
     .sparkline-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
@@ -1313,9 +1320,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
     .trend-up { background: #dcfce7; color: #166534; }
     .trend-down { background: #fee2e2; color: #991b1b; }
 
-    /* ==========================================================================
-       RÈGLES RESPONSIVE MOBILE-FIRST STRICITES (< 650PX)
-       ========================================================================== */
     @media(max-width:1100px){
       .zones{grid-template-columns:repeat(2,1fr)}
     }
@@ -1327,7 +1331,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       body { font-size:15px; }
       .page{width:min(100% - 14px,1180px);margin:6px auto 30px}
       
-      /* En-tête mobile compact */
       .hero{padding:20px 16px;border-radius:22px;}
       .hero-top{flex-direction:column; gap:8px;}
       .hero h1{font-size:clamp(24px, 6vw, 30px); margin:12px 0 4px; line-height:1.2;}
@@ -1337,14 +1340,12 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       .meta-card{padding:6px 10px; font-size:11.5px; text-align:center;}
       .generation-date{text-align:center; font-size:11px; margin-top:6px;}
 
-      /* KPIs Mobile */
       .kpis { grid-template-columns: 1fr 1fr !important; gap:8px !important; margin-top:14px !important; }
       @media(max-width:400px){ .kpis { grid-template-columns: 1fr !important; } }
       .kpi { padding:12px !important; border-radius:14px !important; }
       .kpi-value { font-size:19px !important; }
       .kpi-note { font-size:11px !important; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 
-      /* Tabs Mobile horizontaux avec scroll-snap */
       .tabs-wrapper { top:0; padding:6px 0; background:var(--bg); }
       .tabs {
         display: flex !important;
@@ -1366,7 +1367,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       }
       .sub-nav { display: flex !important; }
 
-      /* Grilles et sections mobile */
       .grid-2,.grid-3,.grid-4,.zones,.cards3,.compare {
         grid-template-columns: 1fr !important;
         gap:10px !important;
@@ -1374,7 +1374,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       .section{padding:16px !important; border-radius:20px !important; margin-top:14px !important;}
       .section-head{align-items:flex-start; flex-direction:column; margin-bottom:14px; gap:8px;}
 
-      /* Cartes modèles véritables sur mobile */
       .model-table, .model-table tbody, .model-table tr, .model-table td {
         display: block !important;
         width: 100% !important;
@@ -1393,7 +1392,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       }
       .m-label { display: block !important; }
 
-      /* Accordéons pour les 8 zones sur mobile */
       .zone-accordion {
         padding:0 !important;
         border-radius:14px !important;
@@ -1415,7 +1413,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
       details[open] .zone-chevron { transform:rotate(180deg); }
       .zone-body { padding:14px !important; border-top:1px solid var(--line); }
 
-      /* Chronologie verticale mobile */
       .timeline {
         display: flex !important;
         flex-direction: column !important;
@@ -1442,7 +1439,6 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
         border: 2px solid white !important;
       }
 
-      /* LinkedIn mobile */
       .linkedin {
         max-height: 220px;
         overflow: hidden;
@@ -1584,6 +1580,8 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 </section>
 
 <section id="week2" class="panel" role="tabpanel" aria-labelledby="tab-week2">
+  [W2_NOTICE_HTML_PLACEHOLDER]
+
   <div class="section">
     <div class="section-head">
       <div><span class="badge">À retenir</span><h2>Semaine 2 — [W2_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
@@ -1859,6 +1857,7 @@ if(document.getElementById('char-count')) {
     html = html.replace("[W2_MODELS_HTML_PLACEHOLDER]", w2_models_html)
     html = html.replace("[W2_ZONES_HTML_PLACEHOLDER]", w2_zones_html)
     html = html.replace("[W2_IMAGES_HTML_PLACEHOLDER]", w2_images_html)
+    html = html.replace("[W2_NOTICE_HTML_PLACEHOLDER]", w2_notice_html)
     
     html = html.replace("[W1_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_CONVERGENCES")) or "-")
     html = html.replace("[W1_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content, "W1_DIVERGENCES")) or "-")
