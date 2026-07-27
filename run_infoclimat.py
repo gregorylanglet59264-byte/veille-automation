@@ -213,7 +213,7 @@ def extract_comments_and_images(target_topic, topic_idx):
     }
 
 def extract_tag(text, tag):
-    pattern = rf"\[{tag}\]\s*\n(.*?)(?=\n\s*\[|$)"
+    pattern = rf"\[{tag}\][ \t]*(.*?)(?=\n\s*\[|$)"
     match = re.search(pattern, text, re.DOTALL)
     return match.group(1).strip() if match else ""
 
