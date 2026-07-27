@@ -36,6 +36,7 @@ jobs:
         with:
           path: |
             history
+            history_hdf
             data
           key: infoclimat-history-${{ github.run_id }}
           restore-keys: |

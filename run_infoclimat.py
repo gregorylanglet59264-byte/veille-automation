@@ -423,17 +423,26 @@ def build_zone_card_from_dict(icon, zone_display_name, zone_data):
     </details>
     """
 
-def render_zones_grid(zones_json_data):
-    fixed_keys = [
-        ("nord_ouest", "🧭", "Nord-Ouest"),
-        ("nord", "☁️", "Nord"),
-        ("nord_est", "🌤️", "Nord-Est"),
-        ("ouest_atlantique", "🌊", "Ouest et Façade Atlantique"),
-        ("centre", "🌥️", "Centre"),
-        ("sud_ouest", "🌡️", "Sud-Ouest"),
-        ("sud_est_rhone", "☀️", "Sud-Est et Vallée du Rhône"),
-        ("mediterranee_corse", "🏖️", "Méditerranée et Corse")
-    ]
+def render_zones_grid(zones_json_data, is_hdf=False):
+    if is_hdf:
+        fixed_keys = [
+            ("nord", "🦁", "Nord (59)"),
+            ("pas_de_calais", "🌊", "Pas-de-Calais (62)"),
+            ("somme", "🦆", "Somme (80)"),
+            ("oise", "🏰", "Oise (60)"),
+            ("aisne", "🍇", "Aisne (02)")
+        ]
+    else:
+        fixed_keys = [
+            ("nord_ouest", "🧭", "Nord-Ouest"),
+            ("nord", "☁️", "Nord"),
+            ("nord_est", "🌤️", "Nord-Est"),
+            ("ouest_atlantique", "🌊", "Ouest et Façade Atlantique"),
+            ("centre", "🌥️", "Centre"),
+            ("sud_ouest", "🌡️", "Sud-Ouest"),
+            ("sud_est_rhone", "☀️", "Sud-Est et Vallée du Rhône"),
+            ("mediterranee_corse", "🏖️", "Méditerranée et Corse")
+        ]
     cards = []
     for key, icon, display_name in fixed_keys:
         zdata = zones_json_data.get(key, {})
@@ -745,6 +754,24 @@ def main():
             print(f"Erreur lecture dernier bulletin : {e}")
             has_last_bulletin = False
 
+    last_bulletin_hdf_path = "data/last_bulletin_hdf.json"
+    last_bulletin_hdf_context = "Aucun bulletin régional précédent disponible."
+    has_last_bulletin_hdf = os.path.exists(last_bulletin_hdf_path)
+    
+    if has_last_bulletin_hdf:
+        try:
+            with open(last_bulletin_hdf_path, "r", encoding="utf-8") as f_last:
+                last_data_hdf = json.load(f_last)
+                last_bulletin_hdf_context = (
+                    f"Dernier bulletin HDF généré le {last_data_hdf.get('date_generation', 'Inconnue')}.\n"
+                    f"Résumé général HDF précédent : {last_data_hdf.get('global_summary', 'Inconnu')}.\n"
+                    f"Confiance précédente HDF de la semaine 1 : {last_data_hdf.get('w1_confidence', 'Modérée')}.\n"
+                    f"Températures attendues précédemment : {last_data_hdf.get('w1_temp', 'De saison')}."
+                )
+        except Exception as e:
+            print(f"Erreur lecture dernier bulletin HDF : {e}")
+            has_last_bulletin_hdf = False
+
     saison_actuelle = ["hiver", "printemps", "été", "automne"][(now.month % 12 // 3)]
 
     system_prompt = f"""Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo.
@@ -896,6 +923,145 @@ Une phrase courte
 [MISSING_INFORMATION] Informations importantes non abordées ou manquantes dans les discussions.
 [LOW_DOCUMENTED_MODELS] Modèles peu ou pas commentés par les membres.
 [UNCERTAIN_IMAGES] Incertitudes sur les graphiques et cartes du forum.
+[DOUBTS_END]
+"""
+
+    system_prompt_hdf = f"""Tu es Patrick Marlière, météorologue expert de renommée nationale pour Monsieur Météo, spécialiste de la région Hauts-de-France.
+
+MISSION
+À partir des discussions et analyses météorologiques brutes de deux semaines distinctes de prévision, tu dois produire un bulletin d'analyse météorologique pour la région Hauts-de-France (Nord, Pas-de-Calais, Somme, Oise, Aisne), consolidé, professionnel, grand public, hyper-visuel et rigoureusement structuré par balises et par JSON.
+
+RÈGLE CONFIANCE D'EXTRACTION (EVALUATION FACTUELLE DU NIVEAU DE DÉTAIL) :
+Évalue la précision et la richesse des informations extraites pour chaque modèle météo sur cette échelle :
+- Élevée (80% à 90%) : Le modèle est commenté en détail par les membres pour le Nord/HDF.
+- Modérée (60% à 70%) : Le modèle est clairement cité avec sa tendance pour la région.
+- Faible (40% à 50%) : Le modèle est brièvement évoqué en une sentence.
+- Non estimable.
+
+RÈGLE TRANSPARENCE ABSOLUE :
+{w2_notice if w2_notice else 'Les deux sujets hebdomadaires sont ouverts sur Infoclimat.'}
+Si le sujet de la semaine 2 n'est pas encore créé, N'INVENTE AUCUNE DISCUSSION FICTIVE NI PSEUDO ! Utilise uniquement les prévisions à long terme pour le Nord de la France (ECMWF, GFS) et indique que les incertitudes restent fortes.
+
+RÈGLE D'OR N°1 : PRUDENCE MÉTÉOROLOGIQUE ET CONDITIONNEL OBLIGATOIRE
+RÈGLE D'OR N°2 : SÉPARATION STRICTE DES SOUTIENS DE SCÉNARIOS ET DES RUNS
+RÈGLE D'OR N°3 : SYNTHÈSE DES 5 DÉPARTEMENTS HAUTS-DE-FRANCE EN JSON STRICT
+Tu DOIS obligatoirement retourner un objet JSON sous les balises [W1_ZONES_JSON_START] et [W2_ZONES_JSON_START].
+Utilise STRICTEMENT les 5 clés fixes suivantes :
+1. "nord"
+2. "pas_de_calais"
+3. "somme"
+4. "oise"
+5. "aisne"
+
+Structure JSON exigée par département :
+{{
+  "status": "documented | partial | insufficient",
+  "weather": "Temps dominant envisagé (max 15 mots sur mobile)",
+  "temperatures": "Description des températures",
+  "rain_storms": "Précipitations et orages",
+  "spatial_scope": "local | regional | broad",
+  "location": "Localisation précise si valeur locale",
+  "wind": "Vent si documenté, sinon Non documenté",
+  "sensitive_period": "Jours sensibles",
+  "confidence_level": "elevee | moderee | faible | non_estimable",
+  "uncertainty": "Principale incertitude",
+  "evidence_count": 2,
+  "source_models": ["GFS", "ECMWF"]
+}}
+
+FORMAT DE SORTIE OBLIGATOIRE :
+
+[WEEK_1_START]
+[W1_DATES]
+Période exacte semaine 1
+
+[W1_KEY_POINT_1]
+Titre court 2-5 mots : Explication courte d'une phrase (12-18 mots max) concernant la région HDF.
+[W1_KEY_POINT_2]
+Titre court 2-5 mots : Explication courte.
+[W1_KEY_POINT_3]
+Titre court 2-5 mots : Explication courte.
+[W1_KEY_POINT_4]
+Titre court 2-5 mots : Explication courte.
+[W1_KEY_POINT_5]
+Titre court 2-5 mots : Explication courte.
+
+[W1_MODEL_START]
+[W1_MODEL_NAME] ...
+[W1_MODEL_SCENARIO] ... (max 160 caractères)
+[W1_MODEL_SENSIBLE_WEATHER] ... (max 120 caractères)
+[W1_MODEL_AFFECTED_ZONES] ...
+[W1_MODEL_EXTRACTION_CONF] ...
+[W1_MODEL_SCENARIO_SUPPORT] ...
+[W1_MODEL_STATUS] ...
+[W1_MODEL_MENTIONS_COUNT] ...
+[W1_MODEL_RUN] ...
+[W1_MODEL_TIMING] ...
+[W1_MODEL_DETAILS] ...
+[W1_MODEL_END]
+
+[W1_CONVERGENCES]
+Points de convergence HDF (max 3 points)
+[W1_DIVERGENCES]
+Points de divergence HDF (max 3 points)
+
+[W1_ZONES_JSON_START]
+{{ "zones": {{ ... 5 départements HDF ... }} }}
+[W1_ZONES_JSON_END]
+
+[W1_SOLID_POINTS]
+Points solides HDF (max 3)
+[W1_FRAGILE_POINTS]
+Points fragiles HDF (max 3)
+[W1_NEXT_RUNS_TO_WATCH]
+À surveiller pour HDF
+
+[W1_PHASE_1_DATES]
+Dates phase 1
+[W1_PHASE_1]
+Une phrase courte
+[W1_PHASE_2_DATES]
+Dates phase 2
+[W1_PHASE_2]
+Une phrase courte
+[W1_PHASE_3_DATES]
+Dates phase 3
+[W1_PHASE_3]
+Une phrase courte
+[W1_PHASE_4_DATES]
+Dates phase 4
+[W1_PHASE_4]
+Une phrase courte
+
+[W1_IMAGE_START] ... [W1_IMAGE_END]
+
+[WEEK_1_END]
+
+[WEEK_2_START] ... [WEEK_2_END]
+
+[GLOBAL_START]
+[GLOBAL_15_DAY_TREND] ...
+[MOST_RELIABLE_WEEK] ...
+[GLOBAL_SOLID_POINTS] ...
+[GLOBAL_RECURRING_PHENOMENA] ...
+[GLOBAL_AFFECTED_ZONES] ...
+[GLOBAL_MAJOR_UNCERTAINTIES] ...
+[GLOBAL_CONSENSUS_KPI] Modéré | Élevé | Faible
+[GLOBAL_CONSENSUS_NOTE] Note très courte
+[GLOBAL_SCENARIO_KPI] Scénario très court
+[GLOBAL_SCENARIO_NOTE] Note très courte
+[GLOBAL_UNCERTAINTY_KPI] Incertitude courte
+[GLOBAL_UNCERTAINTY_NOTE] Note très courte
+[LINKEDIN_POST] ...
+[GLOBAL_END]
+
+[DOUBTS_START]
+[DOUBTS_TIMING] Doutes sur la chronologie et le timing des phénomènes HDF.
+[DOUBTS_LOCATION] Doutes sur la localisation précise HDF.
+[DOUBTS_INTENSITY] Doutes sur l'intensité HDF.
+[MISSING_INFORMATION] Informations importantes non abordées ou manquantes.
+[LOW_DOCUMENTED_MODELS] Modèles peu ou pas commentés par les membres.
+[UNCERTAIN_IMAGES] Incertitudes sur les graphiques.
 [DOUBTS_END]
 """
 
@@ -1060,6 +1226,131 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
     linkedin_raw = extract_tag(global_content, "LINKEDIN_POST")
     linkedin_clean = clean_text_typos(linkedin_raw).replace('<br>', '\n').replace('<br/>', '\n')
+
+    # === APPEL LLM HDF ===
+    print("\n[LLM] Appel pour la région Hauts-de-France (HDF)...")
+    user_prompt_hdf = f"""Date actuelle de génération : {today_str}
+Saison en France : {saison_actuelle.upper()}
+
+PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
+- SEMAINE 1 PREVISION : {w1_dates_calculated}
+- SEMAINE 2 PREVISION : {w2_dates_calculated}
+
+TRANSPARENCE SUJETS FORUM INFOCLIMAT :
+- Sujet 1 exploité : {week1_data["title_clean"]}
+- Sujet 2 exploité : {week2_data["title_clean"]} {w2_notice}
+
+=== PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
+{last_bulletin_hdf_context}
+============================================
+
+=== DISCUSSIONS APPLICABLES SEMAINE 1 ({w1_dates_calculated}) ===
+{week1_data["comments_text"]}
+
+=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 ({w2_dates_calculated}) ===
+{week2_data["comments_text"]}
+"""
+
+    response_hdf = call_llm(system_prompt_hdf, user_prompt_hdf)
+    if not response_hdf:
+        print("[LLM] ERREUR : Pas de réponse du LLM pour HDF. Utilisation de la réponse nationale en secours.")
+        response_hdf = response # Fallback
+
+    w1_text_hdf = re.search(r'\[WEEK_1_START\](.*?)\[WEEK_1_END\]', response_hdf, re.DOTALL)
+    w2_text_hdf = re.search(r'\[WEEK_2_START\](.*?)\[WEEK_2_END\]', response_hdf, re.DOTALL)
+    global_text_hdf = re.search(r'\[GLOBAL_START\](.*?)\[GLOBAL_END\]', response_hdf, re.DOTALL)
+    doubts_text_hdf = re.search(r'\[DOUBTS_START\](.*?)\[DOUBTS_END\]', response_hdf, re.DOTALL)
+    what_changed_hdf = extract_tag(response_hdf, "WHAT_CHANGED_SINCE_LAST")
+
+    w1_content_hdf = w1_text_hdf.group(1) if w1_text_hdf else ""
+    w2_content_hdf = w2_text_hdf.group(1) if w2_text_hdf else ""
+    global_content_hdf = global_text_hdf.group(1) if global_text_hdf else ""
+    doubts_content_hdf = doubts_text_hdf.group(1) if doubts_text_hdf else ""
+
+    w1_zones_dict_hdf = parse_zones_json(w1_content_hdf, "W1")
+    w2_zones_dict_hdf = parse_zones_json(w2_content_hdf, "W2")
+
+    log_zones_diagnostics(w1_zones_dict_hdf, 1)
+    log_zones_diagnostics(w2_zones_dict_hdf, 2)
+
+    # Semaine 1 HDF
+    w1_dates_hdf = extract_tag(w1_content_hdf, "W1_DATES") or w1_dates_calculated
+    w1_keys_hdf = [extract_tag(w1_content_hdf, f"W1_KEY_POINT_{i}") for i in range(1, 6)]
+    w1_keys_html_hdf = "".join([format_key_point(k) for k in w1_keys_hdf if k])
+    w1_models_hdf = parse_models(w1_content_hdf, "W1")
+    w1_models_html_hdf = build_model_cards(w1_models_hdf)
+    w1_images_info_hdf = parse_images_info(w1_content_hdf, "W1")
+    w1_images_html_hdf = build_image_cards(w1_images_info_hdf, week1_data["images"])
+    w1_images_email_html_hdf = build_image_cards(w1_images_info_hdf, week1_data["images"], embed_cid=True, cid_prefix="hdf_w1_img")
+    w1_zones_html_hdf = render_zones_grid(w1_zones_dict_hdf, is_hdf=True)
+
+    # Semaine 2 HDF
+    w2_dates_hdf = extract_tag(w2_content_hdf, "W2_DATES") or w2_dates_calculated
+    w2_keys_hdf = [extract_tag(w2_content_hdf, f"W2_KEY_POINT_{i}") for i in range(1, 6)]
+    w2_keys_html_hdf = "".join([format_key_point(k) for k in w2_keys_hdf if k])
+    w2_models_hdf = parse_models(w2_content_hdf, "W2")
+    w2_models_html_hdf = build_model_cards(w2_models_hdf)
+    w2_images_info_hdf = parse_images_info(w2_content_hdf, "W2")
+    w2_images_html_hdf = build_image_cards(w2_images_info_hdf, week2_data["images"])
+    w2_images_email_html_hdf = build_image_cards(w2_images_info_hdf, week2_data["images"], embed_cid=True, cid_prefix="hdf_w2_img")
+    w2_zones_html_hdf = render_zones_grid(w2_zones_dict_hdf, is_hdf=True)
+
+    # Banner d'avertissement de transparence HDF si topic S2 non créé
+    w2_notice_html_hdf = ""
+    if w2_notice:
+        w2_notice_html_hdf = f"""
+        <div class="alert" style="margin-bottom:16px; background:#fff3cd; color:#856404; border-color:#ffeeba;">
+            📌 <b>Note de transparence :</b> Le sujet de discussion dédié à la Semaine 2 ({w2_dates_calculated}) n'est pas encore ouvert par les prévisionnistes du forum Infoclimat. Les tendances ci-dessous reposent sur les modélisations et projections à long terme (ECMWF 15j, GFS 384h) extraites du sujet Semaine 31.
+        </div>
+        """
+
+    # KPIs globaux du header HDF
+    kpi_consensus_val_hdf = extract_tag(global_content_hdf, "GLOBAL_CONSENSUS_KPI") or "Modéré"
+    kpi_consensus_note_hdf = extract_tag(global_content_hdf, "GLOBAL_CONSENSUS_NOTE") or "Accord régional"
+    kpi_scenario_val_hdf = extract_tag(global_content_hdf, "GLOBAL_SCENARIO_KPI") or "Stable"
+    kpi_scenario_note_hdf = extract_tag(global_content_hdf, "GLOBAL_SCENARIO_NOTE") or "Incertitude en semaine 2"
+    
+    kpi_cards_val_hdf = f"{downloaded_cards_count} / {total_scraped_cards}" if total_scraped_cards > 0 else f"{downloaded_cards_count} retenues"
+    kpi_cards_note_hdf = f"{downloaded_cards_count} cartes analysées"
+    
+    kpi_uncertainty_val_hdf = extract_tag(global_content_hdf, "GLOBAL_UNCERTAINTY_KPI") or "Timing"
+    kpi_uncertainty_note_hdf = extract_tag(global_content_hdf, "GLOBAL_UNCERTAINTY_NOTE") or "Transition thermique"
+
+    w1_conf_val_hdf = "Modérée"
+    w1_temp_val_hdf = w1_models_hdf[0].get("sensible_weather", "De saison") if w1_models_hdf else "De saison"
+    w2_conf_val_hdf = "Faible / Projections"
+    w2_temp_val_hdf = w2_models_hdf[0].get("sensible_weather", "De saison") if w2_models_hdf else "De saison"
+
+    run_record_hdf = {
+        "date_generation": today_str,
+        "w1_confidence": w1_conf_val_hdf,
+        "w1_temp": w1_temp_val_hdf,
+        "w2_confidence": w2_conf_val_hdf,
+        "w2_temp": w2_temp_val_hdf,
+        "global_summary": extract_tag(global_content_hdf, "GLOBAL_15_DAY_TREND")
+    }
+    
+    os.makedirs("history_hdf", exist_ok=True)
+    with open(f"history_hdf/{date_fn}.json", "w", encoding="utf-8") as f_hist:
+        json.dump(run_record_hdf, f_hist, ensure_ascii=False, indent=2)
+    with open(last_bulletin_hdf_path, "w", encoding="utf-8") as f_last:
+        json.dump(run_record_hdf, f_last, ensure_ascii=False, indent=2)
+
+    sparkline_conf_html_hdf, temp_evolution_html_hdf = generate_sparklines_html(history_dir="history_hdf")
+
+    what_changed_box_hdf = ""
+    if has_last_bulletin_hdf and what_changed_hdf:
+        what_changed_box_hdf = f"""
+        <div class="section">
+            <div class="section-head"><div><span class="badge">Comparatif</span><h2>📈 Ce qui a changé depuis le précédent bulletin régional</h2></div></div>
+            <div class="alert" style="background:#eff6ff; color:#1e40af; border-color:#bfdbfe;">
+                {clean_text_typos(what_changed_hdf)}
+            </div>
+        </div>
+        """
+
+    linkedin_raw_hdf = extract_tag(global_content_hdf, "LINKEDIN_POST")
+    linkedin_clean_hdf = clean_text_typos(linkedin_raw_hdf).replace('<br>', '\n').replace('<br/>', '\n')
 
     # CSS RESPONSIVE MOBILE MOBILE-FIRST COMPLET (< 650px)
     style = """
@@ -1840,6 +2131,182 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     email_html = email_html.replace("[SPARKLINE_CONF_PLACEHOLDER]", sparkline_conf_html)
     email_html = email_html.replace("[TEMP_EVOLUTION_PLACEHOLDER]", temp_evolution_html)
 
+    # === GENERATION BULLETIN HDF STANDALONE & EMAIL ===
+    html_hdf = html_template
+    html_hdf = html_hdf.replace("Tendances météo France", "Tendances Hauts-de-France")
+    html_hdf = html_hdf.replace("Analyse nationale", "Analyse régionale HDF")
+    html_hdf = html_hdf.replace("par grandes zones", "par département")
+    html_hdf = html_hdf.replace("PRÉVISIONS À MOYEN ET LONG TERME", "PRÉVISIONS HAUTS-DE-FRANCE")
+    html_hdf = html_hdf.replace("Analyse comparative multi-modèles, temps sensible par grandes zones, niveau de confiance et incertitudes.", "Analyse comparative multi-modèles et prévision détaillée par département sur la région Hauts-de-France.")
+    html_hdf = html_hdf.replace("Prévision par 8 grandes zones géographiques", "Prévision par département")
+    
+    html_hdf = html_hdf.replace("[STYLE_PLACEHOLDER]", f"<style>\n{style}\n</style>")
+    html_hdf = html_hdf.replace("[W1_DATES_PLACEHOLDER]", w1_dates_hdf)
+    html_hdf = html_hdf.replace("[W2_DATES_PLACEHOLDER]", w2_dates_hdf)
+    html_hdf = html_hdf.replace("[TODAY_STR_PLACEHOLDER]", today_str)
+    
+    html_hdf = html_hdf.replace("[W1_KEYS_HTML_PLACEHOLDER]", w1_keys_html_hdf)
+    html_hdf = html_hdf.replace("[W1_MODELS_HTML_PLACEHOLDER]", w1_models_html_hdf)
+    html_hdf = html_hdf.replace("[W1_ZONES_HTML_PLACEHOLDER]", w1_zones_html_hdf)
+    html_hdf = html_hdf.replace("[W1_IMAGES_HTML_PLACEHOLDER]", w1_images_html_hdf)
+    
+    html_hdf = html_hdf.replace("[W2_KEYS_HTML_PLACEHOLDER]", w2_keys_html_hdf)
+    html_hdf = html_hdf.replace("[W2_MODELS_HTML_PLACEHOLDER]", w2_models_html_hdf)
+    html_hdf = html_hdf.replace("[W2_ZONES_HTML_PLACEHOLDER]", w2_zones_html_hdf)
+    html_hdf = html_hdf.replace("[W2_IMAGES_HTML_PLACEHOLDER]", w2_images_html_hdf)
+    html_hdf = html_hdf.replace("[W2_NOTICE_HTML_PLACEHOLDER]", w2_notice_html_hdf)
+    
+    html_hdf = html_hdf.replace("[W1_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_CONVERGENCES")) or "-")
+    html_hdf = html_hdf.replace("[W1_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_DIVERGENCES")) or "-")
+    html_hdf = html_hdf.replace("[W2_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_CONVERGENCES")) or "-")
+    html_hdf = html_hdf.replace("[W2_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_DIVERGENCES")) or "-")
+
+    # Chronologie HDF
+    html_hdf = html_hdf.replace("[W1_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_1_DATES")) or "Phase 1")
+    html_hdf = html_hdf.replace("[W1_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_1")) or "-")
+    html_hdf = html_hdf.replace("[W1_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_2_DATES")) or "Phase 2")
+    html_hdf = html_hdf.replace("[W1_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_2")) or "-")
+    html_hdf = html_hdf.replace("[W1_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_3_DATES")) or "Phase 3")
+    html_hdf = html_hdf.replace("[W1_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_3")) or "-")
+    html_hdf = html_hdf.replace("[W1_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_4_DATES")) or "Phase 4")
+    html_hdf = html_hdf.replace("[W1_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_4")) or "-")
+
+    html_hdf = html_hdf.replace("[W2_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_1_DATES")) or "Phase 1")
+    html_hdf = html_hdf.replace("[W2_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_1")) or "-")
+    html_hdf = html_hdf.replace("[W2_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_2_DATES")) or "Phase 2")
+    html_hdf = html_hdf.replace("[W2_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_2")) or "-")
+    html_hdf = html_hdf.replace("[W2_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_3_DATES")) or "Phase 3")
+    html_hdf = html_hdf.replace("[W2_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_3")) or "-")
+    html_hdf = html_hdf.replace("[W2_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_4_DATES")) or "Phase 4")
+    html_hdf = html_hdf.replace("[W2_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_4")) or "-")
+
+    # Solides / Fragiles HDF
+    html_hdf = html_hdf.replace("[W1_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_SOLID_POINTS")) or "-")
+    html_hdf = html_hdf.replace("[W1_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_FRAGILE_POINTS")) or "-")
+    html_hdf = html_hdf.replace("[W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_NEXT_RUNS_TO_WATCH")) or "-")
+    
+    html_hdf = html_hdf.replace("[W2_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_SOLID_POINTS")) or "-")
+    html_hdf = html_hdf.replace("[W2_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_FRAGILE_POINTS")) or "-")
+    html_hdf = html_hdf.replace("[W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_NEXT_RUNS_TO_WATCH")) or "-")
+
+    # KPIs HDF
+    html_hdf = html_hdf.replace("[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]", clean_text_typos(kpi_consensus_val_hdf))
+    html_hdf = html_hdf.replace("[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]", clean_text_typos(kpi_consensus_note_hdf))
+    html_hdf = html_hdf.replace("[GLOBAL_SCENARIO_KPI_PLACEHOLDER]", clean_text_typos(kpi_scenario_val_hdf))
+    html_hdf = html_hdf.replace("[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]", clean_text_typos(kpi_scenario_note_hdf))
+    html_hdf = html_hdf.replace("[GLOBAL_CARDS_KPI_PLACEHOLDER]", kpi_cards_val_hdf)
+    html_hdf = html_hdf.replace("[GLOBAL_CARDS_NOTE_PLACEHOLDER]", kpi_cards_note_hdf)
+    html_hdf = html_hdf.replace("[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_val_hdf))
+    html_hdf = html_hdf.replace("[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_note_hdf))
+
+    html_hdf = html_hdf.replace("[GLOBAL_15_DAY_TREND_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_15_DAY_TREND")) or "-")
+    html_hdf = html_hdf.replace("[MOST_RELIABLE_WEEK_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "MOST_RELIABLE_WEEK")) or "-")
+    html_hdf = html_hdf.replace("[GLOBAL_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_SOLID_POINTS")) or "-")
+    html_hdf = html_hdf.replace("[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_RECURRING_PHENOMENA")) or "-")
+    html_hdf = html_hdf.replace("[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_MAJOR_UNCERTAINTIES")) or "-")
+    
+    html_hdf = html_hdf.replace("[DOUBTS_TIMING_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "DOUBTS_TIMING")) or "-")
+    html_hdf = html_hdf.replace("[DOUBTS_LOCATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "DOUBTS_LOCATION")) or "-")
+    html_hdf = html_hdf.replace("[DOUBTS_INTENSITY_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "DOUBTS_INTENSITY")) or "-")
+    html_hdf = html_hdf.replace("[MISSING_INFORMATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "MISSING_INFORMATION")) or "-")
+    html_hdf = html_hdf.replace("[LOW_DOCUMENTED_MODELS_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "LOW_DOCUMENTED_MODELS")) or "-")
+    html_hdf = html_hdf.replace("[UNCERTAIN_IMAGES_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "UNCERTAIN_IMAGES")) or "-")
+
+    html_hdf = html_hdf.replace("[LINKEDIN_CLEAN_PLACEHOLDER]", linkedin_clean_hdf)
+    html_hdf = html_hdf.replace("[WHAT_CHANGED_BOX_PLACEHOLDER]", what_changed_box_hdf)
+    html_hdf = html_hdf.replace("[SPARKLINE_CONF_PLACEHOLDER]", sparkline_conf_html_hdf)
+    html_hdf = html_hdf.replace("[TEMP_EVOLUTION_PLACEHOLDER]", temp_evolution_html_hdf)
+
+    html_path_hdf = "bulletin_infoclimat_hdf.html"
+    with open(html_path_hdf, 'w', encoding='utf-8') as f:
+        f.write(html_hdf)
+    print(f"HTML régional généré avec succès : {html_path_hdf}")
+
+    # Email version for HDF (CIDs)
+    email_html_hdf = html_template
+    email_html_hdf = email_html_hdf.replace("Tendances météo France", "Tendances Hauts-de-France")
+    email_html_hdf = email_html_hdf.replace("Analyse nationale", "Analyse régionale HDF")
+    email_html_hdf = email_html_hdf.replace("par grandes zones", "par département")
+    email_html_hdf = email_html_hdf.replace("PRÉVISIONS À MOYEN ET LONG TERME", "PRÉVISIONS HAUTS-DE-FRANCE")
+    email_html_hdf = email_html_hdf.replace("Analyse comparative multi-modèles, temps sensible par grandes zones, niveau de confiance et incertitudes.", "Analyse comparative multi-modèles et prévision détaillée par département sur la région Hauts-de-France.")
+    email_html_hdf = email_html_hdf.replace("Prévision par 8 grandes zones géographiques", "Prévision par département")
+    
+    email_html_hdf = email_html_hdf.replace("[STYLE_PLACEHOLDER]", f"<style>\n{style}\n</style>")
+    email_html_hdf = email_html_hdf.replace("[W1_DATES_PLACEHOLDER]", w1_dates_hdf)
+    email_html_hdf = email_html_hdf.replace("[W2_DATES_PLACEHOLDER]", w2_dates_hdf)
+    email_html_hdf = email_html_hdf.replace("[TODAY_STR_PLACEHOLDER]", today_str)
+    
+    email_html_hdf = email_html_hdf.replace("[W1_KEYS_HTML_PLACEHOLDER]", w1_keys_html_hdf)
+    email_html_hdf = email_html_hdf.replace("[W1_MODELS_HTML_PLACEHOLDER]", w1_models_html_hdf)
+    email_html_hdf = email_html_hdf.replace("[W1_ZONES_HTML_PLACEHOLDER]", w1_zones_html_hdf)
+    email_html_hdf = email_html_hdf.replace("[W1_IMAGES_HTML_PLACEHOLDER]", w1_images_email_html_hdf) # CID HDF
+    
+    email_html_hdf = email_html_hdf.replace("[W2_KEYS_HTML_PLACEHOLDER]", w2_keys_html_hdf)
+    email_html_hdf = email_html_hdf.replace("[W2_MODELS_HTML_PLACEHOLDER]", w2_models_html_hdf)
+    email_html_hdf = email_html_hdf.replace("[W2_ZONES_HTML_PLACEHOLDER]", w2_zones_html_hdf)
+    email_html_hdf = email_html_hdf.replace("[W2_IMAGES_HTML_PLACEHOLDER]", w2_images_email_html_hdf) # CID HDF
+    email_html_hdf = email_html_hdf.replace("[W2_NOTICE_HTML_PLACEHOLDER]", w2_notice_html_hdf)
+    
+    email_html_hdf = email_html_hdf.replace("[W1_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_CONVERGENCES")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W1_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_DIVERGENCES")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_CONVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_CONVERGENCES")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_DIVERGENCES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_DIVERGENCES")) or "-")
+
+    # Chronologie HDF
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_1_DATES")) or "Phase 1")
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_1")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_2_DATES")) or "Phase 2")
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_2")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_3_DATES")) or "Phase 3")
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_3")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_4_DATES")) or "Phase 4")
+    email_html_hdf = email_html_hdf.replace("[W1_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_PHASE_4")) or "-")
+
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_1_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_1_DATES")) or "Phase 1")
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_1_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_1")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_2_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_2_DATES")) or "Phase 2")
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_2_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_2")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_3_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_3_DATES")) or "Phase 3")
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_3_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_3")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_4_DATES_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_4_DATES")) or "Phase 4")
+    email_html_hdf = email_html_hdf.replace("[W2_PHASE_4_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_PHASE_4")) or "-")
+
+    # Solides / Fragiles HDF
+    email_html_hdf = email_html_hdf.replace("[W1_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_SOLID_POINTS")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W1_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_FRAGILE_POINTS")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w1_content_hdf, "W1_NEXT_RUNS_TO_WATCH")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_SOLID_POINTS")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_FRAGILE_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_FRAGILE_POINTS")) or "-")
+    email_html_hdf = email_html_hdf.replace("[W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]", clean_text_typos(extract_tag(w2_content_hdf, "W2_NEXT_RUNS_TO_WATCH")) or "-")
+
+    # KPIs HDF
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]", clean_text_typos(kpi_consensus_val_hdf))
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]", clean_text_typos(kpi_consensus_note_hdf))
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_SCENARIO_KPI_PLACEHOLDER]", clean_text_typos(kpi_scenario_val_hdf))
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]", clean_text_typos(kpi_scenario_note_hdf))
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_CARDS_KPI_PLACEHOLDER]", kpi_cards_val_hdf)
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_CARDS_NOTE_PLACEHOLDER]", kpi_cards_note_hdf)
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_val_hdf))
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]", clean_text_typos(kpi_uncertainty_note_hdf))
+
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_15_DAY_TREND_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_15_DAY_TREND")) or "-")
+    email_html_hdf = email_html_hdf.replace("[MOST_RELIABLE_WEEK_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "MOST_RELIABLE_WEEK")) or "-")
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_SOLID_POINTS_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_SOLID_POINTS")) or "-")
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_RECURRING_PHENOMENA")) or "-")
+    email_html_hdf = email_html_hdf.replace("[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]", clean_text_typos(extract_tag(global_content_hdf, "GLOBAL_MAJOR_UNCERTAINTIES")) or "-")
+    
+    email_html_hdf = email_html_hdf.replace("[DOUBTS_TIMING_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "DOUBTS_TIMING")) or "-")
+    email_html_hdf = email_html_hdf.replace("[DOUBTS_LOCATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "DOUBTS_LOCATION")) or "-")
+    email_html_hdf = email_html_hdf.replace("[DOUBTS_INTENSITY_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "DOUBTS_INTENSITY")) or "-")
+    email_html_hdf = email_html_hdf.replace("[MISSING_INFORMATION_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "MISSING_INFORMATION")) or "-")
+    email_html_hdf = email_html_hdf.replace("[LOW_DOCUMENTED_MODELS_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "LOW_DOCUMENTED_MODELS")) or "-")
+    email_html_hdf = email_html_hdf.replace("[UNCERTAIN_IMAGES_PLACEHOLDER]", clean_text_typos(extract_tag(doubts_content_hdf, "UNCERTAIN_IMAGES")) or "-")
+
+    email_html_hdf = email_html_hdf.replace("[LINKEDIN_CLEAN_PLACEHOLDER]", linkedin_clean_hdf)
+    email_html_hdf = email_html_hdf.replace("[WHAT_CHANGED_BOX_PLACEHOLDER]", what_changed_box_hdf)
+    email_html_hdf = email_html_hdf.replace("[SPARKLINE_CONF_PLACEHOLDER]", sparkline_conf_html_hdf)
+    email_html_hdf = email_html_hdf.replace("[TEMP_EVOLUTION_PLACEHOLDER]", temp_evolution_html_hdf)
+
     # Envoi email SMTP via structure anti-spam 100% propre (MIMEMultipart avec HTML complet et CIDs)
     gmail_email = os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD")
@@ -1856,7 +2323,7 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
         sys.exit(0)
         
     sender = gmail_email
-    subject = f"PRÉVISIONS À MOYEN ET LONG TERME — {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
+    subject = f"PRÉVISIONS MÉTÉO (NATIONAL & HDF) — {w1_dates.split('-')[0].strip()} & {w2_dates.split('-')[0].strip()}"
     
     msg = MIMEMultipart("mixed")
     msg['From'] = f"Meteo Climat Pro <{sender}>"
@@ -1869,23 +2336,52 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     msg_alt = MIMEMultipart("alternative")
 
     # Plain Text fallback
-    text_body = f"""PRÉVISIONS MÉTÉO À MOYEN ET LONG TERME ({w1_dates} & {w2_dates})
+    text_body = f"""PRÉVISIONS MÉTÉO À MOYEN ET LONG TERME (NATIONAL & HAUTS-DE-FRANCE)
+Période : {w1_dates} & {w2_dates}
 
-1. SEMAINE 1 ({w1_dates})
-- Tendances modèles et synthèse par zones météo.
+1. BULLETIN NATIONAL
+- Tendances modèles, chronologie et prévision par zones météo (France).
 
-2. SEMAINE 2 ({w2_dates})
-- Projections à long terme.
+2. BULLETIN HAUTS-DE-FRANCE
+- Focus régional détaillé sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).
 
-Rapport visuel complet inclus dans le corps de l'e-mail.
+Les rapports visuels complets et interactifs sont inclus dans le corps de l'e-mail et joints en pièces jointes.
 """
     msg_alt.attach(MIMEText(text_body, 'plain', 'utf-8'))
 
-    # Integrated full HTML report directly in the email body (using lightweight CIDs)
-    msg_alt.attach(MIMEText(email_html, 'html', 'utf-8'))
+    # Helper pour extraire le contenu du body
+    def get_body_content(html_str):
+        body_match = re.search(r'<body>(.*?)</body>', html_str, re.DOTALL)
+        if body_match:
+            return body_match.group(1)
+        return html_str
+
+    # Assembler les deux bulletins sous un seul document HTML propre pour le mail
+    combined_email_html = f"""<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PRÉVISIONS MÉTÉO — Bulletin National & Régional Hauts-de-France</title>
+<style>
+{style}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#eef4f8;">
+{get_body_content(email_html)}
+<div style="text-align: center; margin: 40px 0;">
+    <hr style="border: 0; border-top: 3px dashed #0d2f4f; width: 60%; display: inline-block;">
+    <span style="display: block; font-size: 14px; font-weight: 800; color: #0d2f4f; text-transform: uppercase; margin-top: 10px;">Fin du Bulletin National • Début du Bulletin Hauts-de-France</span>
+</div>
+{get_body_content(email_html_hdf)}
+</body>
+</html>
+"""
+
+    msg_alt.attach(MIMEText(combined_email_html, 'html', 'utf-8'))
     msg.attach(msg_alt)
 
-    # Attach Semaine 1 images inline
+    # Attach National Semaine 1 images inline
     for i, img_path in enumerate(week1_data["images"][:len(w1_images_info)]):
         if os.path.exists(img_path):
             try:
@@ -1901,7 +2397,7 @@ Rapport visuel complet inclus dans le corps de l'e-mail.
             except Exception as e:
                 print(f"Erreur d'attachement image W1 {i} : {e}")
 
-    # Attach Semaine 2 images inline
+    # Attach National Semaine 2 images inline
     for i, img_path in enumerate(week2_data["images"][:len(w2_images_info)]):
         if os.path.exists(img_path):
             try:
@@ -1917,17 +2413,59 @@ Rapport visuel complet inclus dans le corps de l'e-mail.
             except Exception as e:
                 print(f"Erreur d'attachement image W2 {i} : {e}")
 
-    # Full self-contained file attachment
+    # Attach HDF Semaine 1 images inline
+    for i, img_path in enumerate(week1_data["images"][:len(w1_images_info_hdf)]):
+        if os.path.exists(img_path):
+            try:
+                with open(img_path, "rb") as f_img:
+                    img_data = f_img.read()
+                ext = img_path.split('.')[-1].lower()
+                msg_img = MIMEBase('image', ext if ext in ['png', 'jpeg', 'jpg'] else 'octet-stream')
+                msg_img.set_payload(img_data)
+                encoders.encode_base64(msg_img)
+                msg_img.add_header('Content-ID', f'<hdf_w1_img_{i}>')
+                msg_img.add_header('Content-Disposition', 'inline', filename=f"hdf_w1_img_{i}.{ext}")
+                msg.attach(msg_img)
+            except Exception as e:
+                print(f"Erreur d'attachement image HDF W1 {i} : {e}")
+
+    # Attach HDF Semaine 2 images inline
+    for i, img_path in enumerate(week2_data["images"][:len(w2_images_info_hdf)]):
+        if os.path.exists(img_path):
+            try:
+                with open(img_path, "rb") as f_img:
+                    img_data = f_img.read()
+                ext = img_path.split('.')[-1].lower()
+                msg_img = MIMEBase('image', ext if ext in ['png', 'jpeg', 'jpg'] else 'octet-stream')
+                msg_img.set_payload(img_data)
+                encoders.encode_base64(msg_img)
+                msg_img.add_header('Content-ID', f'<hdf_w2_img_{i}>')
+                msg_img.add_header('Content-Disposition', 'inline', filename=f"hdf_w2_img_{i}.{ext}")
+                msg.attach(msg_img)
+            except Exception as e:
+                print(f"Erreur d'attachement image HDF W2 {i} : {e}")
+
+    # Standalone HTML file attachment (National)
     if os.path.exists(html_path):
         with open(html_path, "rb") as f_att:
             att = MIMEBase('application', 'octet-stream')
             att.set_payload(f_att.read())
             encoders.encode_base64(att)
-            filename = f"analyse_infoclimat_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+            filename = f"analyse_infoclimat_national_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
             att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
             msg.attach(att)
 
-    print(f"[SMTP] Envoi du bulletin HTML complet avec images CID à {', '.join(recipients)}...")
+    # Standalone HTML file attachment (HDF)
+    if os.path.exists(html_path_hdf):
+        with open(html_path_hdf, "rb") as f_att:
+            att = MIMEBase('application', 'octet-stream')
+            att.set_payload(f_att.read())
+            encoders.encode_base64(att)
+            filename = f"analyse_infoclimat_hdf_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+            att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
+            msg.attach(att)
+
+    print(f"[SMTP] Envoi du bulletin HTML combiné avec images CID à {', '.join(recipients)}...")
     try:
         with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
             server.ehlo()
@@ -1935,7 +2473,7 @@ Rapport visuel complet inclus dans le corps de l'e-mail.
             server.ehlo()
             server.login(gmail_email, gmail_password)
             server.sendmail(gmail_email, recipients, msg.as_string())
-        print("[SMTP] E-mail avec rapport complet envoyé avec succès !")
+        print("[SMTP] E-mail avec rapports combinés envoyé avec succès !")
     except Exception as e:
         print(f"[SMTP] Erreur d'envoi : {e}")
         sys.exit(1)
