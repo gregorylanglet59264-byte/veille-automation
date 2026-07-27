@@ -889,7 +889,14 @@ Une phrase courte
 [LINKEDIN_POST] ...
 [GLOBAL_END]
 
-[DOUBTS_START] ... [DOUBTS_END]
+[DOUBTS_START]
+[DOUBTS_TIMING] Doutes sur la chronologie et le timing des phénomènes.
+[DOUBTS_LOCATION] Doutes sur la localisation précise et les zones géographiques concernées.
+[DOUBTS_INTENSITY] Doutes sur l'intensité (températures, force des orages, etc.).
+[MISSING_INFORMATION] Informations importantes non abordées ou manquantes dans les discussions.
+[LOW_DOCUMENTED_MODELS] Modèles peu ou pas commentés par les membres.
+[UNCERTAIN_IMAGES] Incertitudes sur les graphiques et cartes du forum.
+[DOUBTS_END]
 """
 
     user_prompt = f"""Date actuelle de génération : {today_str}
