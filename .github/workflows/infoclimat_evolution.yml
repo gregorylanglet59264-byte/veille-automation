@@ -20,6 +20,8 @@ on:
 jobs:
   run-infoclimat:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Récupérer le code du dépôt
@@ -58,3 +60,12 @@ jobs:
           RECIPIENT_EMAILS: ${{ (github.event.inputs.triggered_by == 'patrick') && (secrets.RECIPIENT_EMAILS_PROD || 'patrick.marliere@wanadoo.fr, gregory.langlet@sfr.fr, langlet.gregory@gmail.com') || (secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com') }}
         run: |
           python run_infoclimat.py
+
+      - name: Déployer le site Web sur GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          keep_files: false
+

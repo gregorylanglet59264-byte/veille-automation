@@ -2222,6 +2222,31 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
         f.write(html_hdf)
     print(f"HTML régional généré avec succès : {html_path_hdf}")
 
+    # === GENERATION PUBLIC DASHBOARD WEB (GITHUB PAGES) ===
+    import shutil
+    public_dir = "public"
+    os.makedirs(public_dir, exist_ok=True)
+
+    nav_nat = '<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, ui-sans-serif, sans-serif; font-size:14px; font-weight:700; border-bottom:3px solid #1ea7c9; display:flex; justify-content:center; align-items:center; gap:15px; flex-wrap:wrap;"><span style="opacity:0.85; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">🌐 Navigation bulletins en ligne :</span><a href="index.html" style="color:white; text-decoration:none; padding:7px 16px; background:#1565d8; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🇫🇷 Bulletin National</a><a href="hdf.html" style="color:white; text-decoration:none; padding:7px 16px; background:rgba(255,255,255,0.12); border-radius:8px; border:1px solid rgba(255,255,255,0.2);">📍 Hauts-de-France</a></div>'
+
+    nav_hdf = '<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, ui-sans-serif, sans-serif; font-size:14px; font-weight:700; border-bottom:3px solid #1ea7c9; display:flex; justify-content:center; align-items:center; gap:15px; flex-wrap:wrap;"><span style="opacity:0.85; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">🌐 Navigation bulletins en ligne :</span><a href="index.html" style="color:white; text-decoration:none; padding:7px 16px; background:rgba(255,255,255,0.12); border-radius:8px; border:1px solid rgba(255,255,255,0.2);">🇫🇷 Bulletin National</a><a href="hdf.html" style="color:white; text-decoration:none; padding:7px 16px; background:#1565d8; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);">📍 Hauts-de-France</a></div>'
+
+    web_html_nat = html.replace('<body>', '<body>\n' + nav_nat)
+    web_html_hdf = html_hdf.replace('<body>', '<body>\n' + nav_hdf)
+
+    with open(os.path.join(public_dir, "index.html"), 'w', encoding='utf-8') as f:
+        f.write(web_html_nat)
+    with open(os.path.join(public_dir, "hdf.html"), 'w', encoding='utf-8') as f:
+        f.write(web_html_hdf)
+
+    if os.path.exists("candidates"):
+        candidates_dest = os.path.join(public_dir, "candidates")
+        if os.path.exists(candidates_dest):
+            shutil.rmtree(candidates_dest)
+        shutil.copytree("candidates", candidates_dest)
+
+    print(f"Site web public généré avec succès dans ./{public_dir}/ (index.html, hdf.html, candidates/)")
+
     # Email version for HDF (CIDs)
     email_html_hdf = html_template
     email_html_hdf = email_html_hdf.replace("Tendances météo France", "Tendances Hauts-de-France")
@@ -2336,8 +2361,11 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     msg_alt = MIMEMultipart("alternative")
 
     # Plain Text fallback
+    web_link = "https://gregorylanglet59264-byte.github.io/veille-automation/"
     text_body = f"""PRÉVISIONS MÉTÉO À MOYEN ET LONG TERME (NATIONAL & HAUTS-DE-FRANCE)
 Période : {w1_dates} & {w2_dates}
+
+🌐 Version Web interactive (mises à jour en direct) : {web_link}
 
 1. BULLETIN NATIONAL
 - Tendances modèles, chronologie et prévision par zones météo (France).
@@ -2368,6 +2396,9 @@ Les rapports visuels complets et interactifs sont inclus dans le corps de l'e-ma
 </style>
 </head>
 <body style="margin:0; padding:0; background-color:#eef4f8;">
+<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, sans-serif; font-size:13px; font-weight:700; border-bottom:3px solid #1ea7c9;">
+  🌐 Version Web interactive avec onglets (mises à jour en direct) : <a href="{web_link}" style="color:#1ea7c9; text-decoration:underline;">{web_link}</a>
+</div>
 {get_body_content(email_html)}
 <div style="text-align: center; margin: 40px 0;">
     <hr style="border: 0; border-top: 3px dashed #0d2f4f; width: 60%; display: inline-block;">
