@@ -645,6 +645,254 @@ def build_image_cards(images_info, downloaded_images, embed_cid=False, cid_prefi
         return "<p class='notice'>1 seule carte ou aucun graphique exploitable n'a pu être extrait pour cette semaine.</p>"
     return "\n".join(html_blocks)
 
+
+def clean_text_markdown(text):
+    if not text: return ""
+    text = text.replace("scenario", "scénario")
+    text = text.replace("Scenario", "Scénario")
+    text = text.replace("Sud-Eest", "Sud-Est")
+    text = text.replace("Sud-eest", "sud-est")
+    text = text.replace("vendudi", "vendredi")
+    text = text.replace("un quart Nord-Est assoiffé", "un quart Nord-Est connaissant des précipitations très faibles")
+    text = text.replace("GEM est perdu", "Scénario GEM peu soutenu")
+    text = text.replace("sa crédibilité est remise en question", "scénario peu soutenu dans les messages analysés")
+    text = text.replace("Aucun sensible", "Aucune période particulièrement sensible identifiée")
+    text = text.replace("trace seulement", "traces possibles")
+    text = re.sub(r'---+', '', text)
+    text = re.sub(r'<[^>]+>', '', text)
+    return text.strip()
+
+def build_markdown_bulletin(is_hdf, w1_content, w2_content, global_content, doubts_content, today_str,
+                            w1_dates, w2_dates,
+                            kpi_consensus_val, kpi_consensus_note,
+                            kpi_scenario_val, kpi_scenario_note,
+                            kpi_cards_val, kpi_cards_note,
+                            kpi_uncertainty_val, kpi_uncertainty_note,
+                            what_changed_text, w1_zones_dict, w2_zones_dict):
+    
+    title = "BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)" if is_hdf else "BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)"
+    desc = "Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02)." if is_hdf else "Analyse nationale par grandes zones géographiques."
+    
+    md = []
+    md.append(f"# {title}")
+    md.append(f"**Généré le :** {today_str}")
+    md.append(f"**Période :** Semaine 1 ({w1_dates}) & Semaine 2 ({w2_dates})")
+    md.append(f"*{desc}*")
+    md.append("\n" + "=" * 40 + "\n")
+    
+    # KPIs
+    md.append("## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE")
+    md.append(f"- **Consensus des modèles :** {kpi_consensus_val} — *{kpi_consensus_note}*")
+    md.append(f"- **Fiabilité du scénario majoritaire :** {kpi_scenario_val} — *{kpi_scenario_note}*")
+    md.append(f"- **Stabilité des cartes/scénarios :** {kpi_cards_val} — *{kpi_cards_note}*")
+    md.append(f"- **Niveau d'incertitude global :** {kpi_uncertainty_val} — *{kpi_uncertainty_note}*")
+    
+    # Evolution
+    if what_changed_text:
+        md.append("\n## 🔄 ÉVOLUTION DEPUIS LE DERNIER BULLETIN")
+        md.append(clean_text_markdown(what_changed_text).strip())
+    
+    # Semaine 1
+    md.append(f"\n## 🗓️ SEMAINE 1 : {w1_dates}")
+    
+    # Points clés
+    md.append("### 💡 Points clés de la semaine 1")
+    for i in range(1, 6):
+        key_pt = extract_tag(w1_content, f"W1_KEY_POINT_{i}")
+        if key_pt:
+            md.append(f"{i}. {clean_text_markdown(key_pt).strip()}")
+            
+    # Convergence / Divergence
+    md.append("\n### 🤝 Modèles et scénarios (Semaine 1)")
+    conv = extract_tag(w1_content, "W1_CONVERGENCES")
+    div = extract_tag(w1_content, "W1_DIVERGENCES")
+    if conv:
+        md.append(f"**Points de convergence :**\n{clean_text_markdown(conv).strip()}")
+    if div:
+        md.append(f"**Points de divergence :**\n{clean_text_markdown(div).strip()}")
+
+    # Models table
+    md.append("\n### 🤖 Scénarios détaillés des modèles (Semaine 1)")
+    models_w1 = parse_models(w1_content, "W1")
+    if models_w1:
+        md.append("| Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |")
+        md.append("| --- | --- | --- | --- | --- | --- |")
+        for m in models_w1:
+            name = m.get("name", "-")
+            status = m.get("status", "-")
+            scenario = m.get("scenario", "-")
+            weather = m.get("sensible_weather", "-")
+            zones = m.get("affected_zones", "-")
+            conf = m.get("extraction_conf", "Non estimable")
+            details = m.get("details", "-").replace("\n", " ").replace("|", "&#124;")
+            md.append(f"| **{name}** ({status}) | {scenario} | {weather} | {zones} | {conf} | {details} |")
+    else:
+        md.append("Aucun modèle spécifique détaillé.")
+
+    # Synthèse par zones/départements
+    md.append("\n### 📍 Synthèse par zones/départements (Semaine 1)")
+    if is_hdf:
+        fixed_keys = [
+            ("nord_59", "Nord (59)"),
+            ("pas_de_calais_62", "Pas-de-Calais (62)"),
+            ("somme_80", "Somme (80)"),
+            ("oise_60", "Oise (60)"),
+            ("aisne_02", "Aisne (02)")
+        ]
+    else:
+        fixed_keys = [
+            ("nord_ouest", "Nord-Ouest"),
+            ("nord", "Nord"),
+            ("nord_est", "Nord-Est"),
+            ("ouest_atlantique", "Ouest et Façade Atlantique"),
+            ("centre", "Centre"),
+            ("sud_ouest", "Sud-Ouest"),
+            ("sud_est_rhone", "Sud-Est et Vallée du Rhône"),
+            ("mediterranee_corse", "Méditerranée et Corse")
+        ]
+        
+    md.append("| Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |")
+    md.append("| --- | --- | --- | --- | --- | --- |")
+    for key, display_name in fixed_keys:
+        z = w1_zones_dict.get(key, {})
+        sensible = z.get("sensible_weather", "-")
+        temp = z.get("temperature", "-")
+        reliability = z.get("reliability", "-")
+        models = z.get("models_agreement", "-")
+        note = z.get("analysis_note", "-").replace("\n", " ").replace("|", "&#124;")
+        md.append(f"| **{display_name}** | {sensible} | {temp} | {reliability} | {models} | {note} |")
+        
+    # Chronologie
+    md.append("\n### ⏳ Déroulé chronologique (Semaine 1)")
+    for p in range(1, 5):
+        p_dates = extract_tag(w1_content, f"W1_PHASE_{p}_DATES")
+        p_desc = extract_tag(w1_content, f"W1_PHASE_{p}")
+        if p_dates or p_desc:
+            md.append(f"- **{p_dates or f'Phase {p}'}** : {clean_text_markdown(p_desc or '-').strip()}")
+            
+    # Solides / Fragiles
+    solid = extract_tag(w1_content, "W1_SOLID_POINTS")
+    fragile = extract_tag(w1_content, "W1_FRAGILE_POINTS")
+    watch = extract_tag(w1_content, "W1_NEXT_RUNS_TO_WATCH")
+    if solid:
+        md.append(f"\n**Points solides :**\n{clean_text_markdown(solid).strip()}")
+    if fragile:
+        md.append(f"\n**Points fragiles :**\n{clean_text_markdown(fragile).strip()}")
+    if watch:
+        md.append(f"\n**À surveiller (prochains runs) :**\n{clean_text_markdown(watch).strip()}")
+        
+    # Semaine 2
+    md.append(f"\n\n## 🗓️ SEMAINE 2 : {w2_dates}")
+    
+    # Points clés
+    md.append("### 💡 Points clés de la semaine 2")
+    for i in range(1, 6):
+        key_pt = extract_tag(w2_content, f"W2_KEY_POINT_{i}")
+        if key_pt:
+            md.append(f"{i}. {clean_text_markdown(key_pt).strip()}")
+            
+    # Convergence / Divergence
+    md.append("\n### 🤝 Modèles et scénarios (Semaine 2)")
+    conv2 = extract_tag(w2_content, "W2_CONVERGENCES")
+    div2 = extract_tag(w2_content, "W2_DIVERGENCES")
+    if conv2:
+        md.append(f"**Points de convergence :**\n{clean_text_markdown(conv2).strip()}")
+    if div2:
+        md.append(f"**Points de divergence :**\n{clean_text_markdown(div2).strip()}")
+
+    # Models table W2
+    md.append("\n### 🤖 Scénarios détaillés des modèles (Semaine 2)")
+    models_w2 = parse_models(w2_content, "W2")
+    if models_w2:
+        md.append("| Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |")
+        md.append("| --- | --- | --- | --- | --- | --- |")
+        for m in models_w2:
+            name = m.get("name", "-")
+            status = m.get("status", "-")
+            scenario = m.get("scenario", "-")
+            weather = m.get("sensible_weather", "-")
+            zones = m.get("affected_zones", "-")
+            conf = m.get("extraction_conf", "Non estimable")
+            details = m.get("details", "-").replace("\n", " ").replace("|", "&#124;")
+            md.append(f"| **{name}** ({status}) | {scenario} | {weather} | {zones} | {conf} | {details} |")
+    else:
+        md.append("Aucun modèle spécifique détaillé.")
+
+    # Synthèse par zones W2
+    md.append("\n### 📍 Synthèse par zones/départements (Semaine 2)")
+    md.append("| Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |")
+    md.append("| --- | --- | --- | --- | --- | --- |")
+    for key, display_name in fixed_keys:
+        z = w2_zones_dict.get(key, {})
+        sensible = z.get("sensible_weather", "-")
+        temp = z.get("temperature", "-")
+        reliability = z.get("reliability", "-")
+        models = z.get("models_agreement", "-")
+        note = z.get("analysis_note", "-").replace("\n", " ").replace("|", "&#124;")
+        md.append(f"| **{display_name}** | {sensible} | {temp} | {reliability} | {models} | {note} |")
+        
+    # Chronologie
+    md.append("\n### ⏳ Déroulé chronologique (Semaine 2)")
+    for p in range(1, 5):
+        p_dates = extract_tag(w2_content, f"W2_PHASE_{p}_DATES")
+        p_desc = extract_tag(w2_content, f"W2_PHASE_{p}")
+        if p_dates or p_desc:
+            md.append(f"- **{p_dates or f'Phase {p}'}** : {clean_text_markdown(p_desc or '-').strip()}")
+            
+    # Solides / Fragiles
+    solid2 = extract_tag(w2_content, "W2_SOLID_POINTS")
+    fragile2 = extract_tag(w2_content, "W2_FRAGILE_POINTS")
+    watch2 = extract_tag(w2_content, "W2_NEXT_RUNS_TO_WATCH")
+    if solid2:
+        md.append(f"\n**Points solides :**\n{clean_text_markdown(solid2).strip()}")
+    if fragile2:
+        md.append(f"\n**Points fragiles :**\n{clean_text_markdown(fragile2).strip()}")
+    if watch2:
+        md.append(f"\n**À surveiller (prochains runs) :**\n{clean_text_markdown(watch2).strip()}")
+
+    # Global Trend
+    md.append("\n\n" + "=" * 40 + "\n")
+    md.append("## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES")
+    
+    trend15 = extract_tag(global_content, "GLOBAL_15_DAY_TREND")
+    reliable = extract_tag(global_content, "MOST_RELIABLE_WEEK")
+    recurring = extract_tag(global_content, "GLOBAL_RECURRING_PHENOMENA")
+    uncertain = extract_tag(global_content, "GLOBAL_MAJOR_UNCERTAINTIES")
+    
+    if trend15:
+        md.append(f"\n### Tendance 15 jours\n{clean_text_markdown(trend15).strip()}")
+    if reliable:
+        md.append(f"\n### Période la plus fiable\n{clean_text_markdown(reliable).strip()}")
+    if recurring:
+        md.append(f"\n### Phénomènes récurrents\n{clean_text_markdown(recurring).strip()}")
+    if uncertain:
+        md.append(f"\n### Principales incertitudes\n{clean_text_markdown(uncertain).strip()}")
+        
+    # Doubts
+    md.append("\n### 🚨 Analyse des doutes et lacunes")
+    d_timing = extract_tag(doubts_content, "DOUBTS_TIMING")
+    d_loc = extract_tag(doubts_content, "DOUBTS_LOCATION")
+    d_int = extract_tag(doubts_content, "DOUBTS_INTENSITY")
+    d_miss = extract_tag(doubts_content, "MISSING_INFORMATION")
+    d_models = extract_tag(doubts_content, "LOW_DOCUMENTED_MODELS")
+    d_img = extract_tag(doubts_content, "UNCERTAIN_IMAGES")
+    
+    if d_timing: md.append(f"- **Timing/Chronologie :** {clean_text_markdown(d_timing).strip()}")
+    if d_loc: md.append(f"- **Localisation :** {clean_text_markdown(d_loc).strip()}")
+    if d_int: md.append(f"- **Intensité :** {clean_text_markdown(d_int).strip()}")
+    if d_miss: md.append(f"- **Informations manquantes :** {clean_text_markdown(d_miss).strip()}")
+    if d_models: md.append(f"- **Modèles sous-documentés :** {clean_text_markdown(d_models).strip()}")
+    if d_img: md.append(f"- **Incertitudes images :** {clean_text_markdown(d_img).strip()}")
+    
+    # LinkedIn post
+    post = extract_tag(global_content, "LINKEDIN_POST")
+    if post:
+        md.append("\n\n" + "=" * 40 + "\n")
+        md.append("## 📝 PROPOSITION DE POST LINKEDIN")
+        md.append(clean_text_markdown(post).strip())
+        
+    return "\n".join(md)
+
 def main():
     print(f"1. Chargement de l'index du forum : {INDEX_URL}")
     try:
@@ -2056,6 +2304,21 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
         f.write(html)
     print(f"HTML généré avec succès : {html_path}")
 
+    # === GENERATION BULLETIN NATIONAL MD ===
+    md_national = build_markdown_bulletin(
+        False, w1_content, w2_content, global_content, doubts_content, today_str,
+        w1_dates, w2_dates,
+        kpi_consensus_val, kpi_consensus_note,
+        kpi_scenario_val, kpi_scenario_note,
+        kpi_cards_val, kpi_cards_note,
+        kpi_uncertainty_val, kpi_uncertainty_note,
+        what_changed, w1_zones_dict, w2_zones_dict
+    )
+    md_path = "bulletin_infoclimat.md"
+    with open(md_path, 'w', encoding='utf-8') as f:
+        f.write(md_national)
+    print(f"Markdown National généré avec succès : {md_path}")
+
     # Construction de l'HTML épuré pour l'e-mail (utilisant les CIDs au lieu des lourdes chaînes base64)
     email_html = html_template
     email_html = email_html.replace("[STYLE_PLACEHOLDER]", f"<style>\n{style}\n</style>")
@@ -2222,6 +2485,21 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
         f.write(html_hdf)
     print(f"HTML régional généré avec succès : {html_path_hdf}")
 
+    # === GENERATION BULLETIN HDF MD ===
+    md_hdf = build_markdown_bulletin(
+        True, w1_content_hdf, w2_content_hdf, global_content_hdf, doubts_content_hdf, today_str,
+        w1_dates_hdf, w2_dates_hdf,
+        kpi_consensus_val_hdf, kpi_consensus_note_hdf,
+        kpi_scenario_val_hdf, kpi_scenario_note_hdf,
+        kpi_cards_val_hdf, kpi_cards_note_hdf,
+        kpi_uncertainty_val_hdf, kpi_uncertainty_note_hdf,
+        what_changed_hdf, w1_zones_dict_hdf, w2_zones_dict_hdf
+    )
+    md_path_hdf = "bulletin_infoclimat_hdf.md"
+    with open(md_path_hdf, 'w', encoding='utf-8') as f:
+        f.write(md_hdf)
+    print(f"Markdown Régional généré avec succès : {md_path_hdf}")
+
     # === GENERATION PUBLIC DASHBOARD WEB (GITHUB PAGES) ===
     import shutil
     public_dir = "public"
@@ -2231,6 +2509,9 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
     nav_hdf = '<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, ui-sans-serif, sans-serif; font-size:14px; font-weight:700; border-bottom:3px solid #1ea7c9; display:flex; justify-content:center; align-items:center; gap:15px; flex-wrap:wrap;"><span style="opacity:0.85; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">🌐 Navigation bulletins en ligne :</span><a href="index.html" style="color:white; text-decoration:none; padding:7px 16px; background:rgba(255,255,255,0.12); border-radius:8px; border:1px solid rgba(255,255,255,0.2);">🇫🇷 Bulletin National</a><a href="hdf.html" style="color:white; text-decoration:none; padding:7px 16px; background:#1565d8; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);">📍 Hauts-de-France</a></div>'
 
+    nav_nat = nav_nat.replace('</a></div>', '</a><a href="national.md" download style="color:white; text-decoration:none; padding:7px 16px; background:#23936b; border-radius:8px; border:1px solid rgba(255,255,255,0.2); margin-left:15px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📥 Télécharger en .md (pour ChatGPT)</a></div>')
+    nav_hdf = nav_hdf.replace('</a></div>', '</a><a href="hdf.md" download style="color:white; text-decoration:none; padding:7px 16px; background:#23936b; border-radius:8px; border:1px solid rgba(255,255,255,0.2); margin-left:15px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📥 Télécharger en .md (pour ChatGPT)</a></div>')
+
     web_html_nat = html.replace('<body>', '<body>\n' + nav_nat)
     web_html_hdf = html_hdf.replace('<body>', '<body>\n' + nav_hdf)
 
@@ -2238,6 +2519,11 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
         f.write(web_html_nat)
     with open(os.path.join(public_dir, "hdf.html"), 'w', encoding='utf-8') as f:
         f.write(web_html_hdf)
+
+    with open(os.path.join(public_dir, "national.md"), 'w', encoding='utf-8') as f:
+        f.write(md_national)
+    with open(os.path.join(public_dir, "hdf.md"), 'w', encoding='utf-8') as f:
+        f.write(md_hdf)
 
     if os.path.exists("candidates"):
         candidates_dest = os.path.join(public_dir, "candidates")
@@ -2476,23 +2762,23 @@ Les rapports visuels complets et interactifs sont inclus dans le corps de l'e-ma
             except Exception as e:
                 print(f"Erreur d'attachement image HDF W2 {i} : {e}")
 
-    # Standalone HTML file attachment (National)
-    if os.path.exists(html_path):
-        with open(html_path, "rb") as f_att:
+    # Standalone Markdown file attachment (National)
+    if os.path.exists(md_path):
+        with open(md_path, "rb") as f_att:
             att = MIMEBase('application', 'octet-stream')
             att.set_payload(f_att.read())
             encoders.encode_base64(att)
-            filename = f"analyse_infoclimat_national_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+            filename = f"analyse_infoclimat_national_{datetime.datetime.now().strftime('%Y_%m_%d')}.md"
             att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
             msg.attach(att)
 
-    # Standalone HTML file attachment (HDF)
-    if os.path.exists(html_path_hdf):
-        with open(html_path_hdf, "rb") as f_att:
+    # Standalone Markdown file attachment (HDF)
+    if os.path.exists(md_path_hdf):
+        with open(md_path_hdf, "rb") as f_att:
             att = MIMEBase('application', 'octet-stream')
             att.set_payload(f_att.read())
             encoders.encode_base64(att)
-            filename = f"analyse_infoclimat_hdf_{datetime.datetime.now().strftime('%Y_%m_%d')}.html"
+            filename = f"analyse_infoclimat_hdf_{datetime.datetime.now().strftime('%Y_%m_%d')}.md"
             att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
             msg.attach(att)
 
