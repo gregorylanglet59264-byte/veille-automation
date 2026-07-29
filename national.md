@@ -1,42 +1,42 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
-**Généré le :** Mardi 28 Juillet 2026
+**Généré le :** Mercredi 29 Juillet 2026
 **Période :** Semaine 1 (Du Lundi 27 Juillet au Dimanche 2 Août 2026) & Semaine 2 (Du Lundi 3 Août au Dimanche 9 Août 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur le scénario d'une semaine 1 caniculaire puis orageuse, mais fort désaccord sur la suite.*
-- **Fiabilité du scénario majoritaire :** Yoyo caniculaire — *Semaine 1 : pic puis dégradation. Semaine 2 : très incertaine, tous les scénarios sont ouverts.*
+- **Consensus des modèles :** Modéré — *Consensus sur le dégradé et le rafraîchissement temporaire, mais divergence sur la durée et l'intensité.*
+- **Fiabilité du scénario majoritaire :** Scénario « yoyo thermique » — *Alternance de pics de chaleur et de courts répits, avec un gradient nord-ouest/sud-est.*
 - **Stabilité des cartes/scénarios :** 6 / 74 — *6 cartes sur 74 analysées*
-- **Niveau d'incertitude global :** Très élevée — *L'incertitude est maximale pour la semaine 2, principalement sur la persistance de la canicule.*
+- **Niveau d'incertitude global :** Incertitude sur la semaine 2 — *La dynamique de la dépression irlandaise et la persistance de la canicule au sud sont très incertaines.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 27 Juillet au Dimanche 2 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Canicule éclair : Un pic de chaleur intense mais bref jeudi, suivi d'une dégradation orageuse.
-2. Rafraîchissement par l'ouest : L'air océanique gagne le tiers nord-ouest dès vendredi.
-3. Sud-est en sursis : La fournaise persiste, avec un risque de 42/44°C dans le couloir du Rhône.
-4. Orages potentiellement violents : Le conflit de masses d'air menace l'est de la France.
-5. Répit sur les routes : Une embellie vendredi et samedi pour le chassé-croisé des vacanciers.
+1. Canicule brève : Pic de chaleur intense jeudi, suivi d'un répit rapide par l'ouest.
+2. Rafraîchissement temporaire : Vent d'ouest apporte un répit franc vendredi et samedi sur le nord-ouest.
+3. Orages violents potentiels : Forte instabilité possible jeudi sur l'est et le centre-est, avec grêle.
+4. Dorsale anglaise en embuscade : Risque de retour de la chaleur après le répit, notamment sur le sud-est.
+5. Dégradé nord-ouest/sud-est : Contraste thermique marqué, avec des températures bien plus élevées au sud-est.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Un pic de chaleur (Tx proches des records) est attendu jeudi 30 juillet sur l'est et le centre-est avant l'arrivée des orages.
-- Un rafraîchissement est envisagé par l'ouest pour la fin de semaine, épargnant le sud-est.
-- Le risque d'orages, potentiellement violents et accompagnés de grêle, est globalement reconnu lors du conflit de masses d'air.
+- Rafraîchissement temporaire par l'ouest entre jeudi et samedi, consensus sur un répit.
+- Pic de chaleur intense jeudi sur l'est et le centre-est, avec possibilité de records locaux.
+- Risque d'orages violents liés à la confrontation des masses d'air, avec grêle potentielle.
 **Points de divergence :**
-- L'intensité et le timing exact du rafraîchissement : ICON le voit plus fort et plus précoce (vendredi), d'autres modèles moins marqués.
-- La localisation des orages les plus forts : le consensus flou entre l'est, le centre-est et le nord-est.
-- L'ampleur de la chaleur résiduelle : le nord-ouest pourrait connaître un répit plus marqué qu'initialement prévu par GFS.
+- Durée du répit : ICON en voit un plus long, GFS et ECMWF un retour plus rapide de la chaleur.
+- Localisation précise des orages : UKMO voit des pluies généralisées sur le nord-est, les autres modèles des orages plus dispersés.
+- Intensité du pic de chaleur : GFS a d'abord simulé des valeurs extrêmes (42-44°C), finalement revues à la baisse par les autres modèles.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ICON (Allemand)** (Décrit en détail pour son scénario de répit et les conséquences.) | Modèle qui "amortit" le choc thermique et le raccourcit, avec un répit tangible dès vendredi 31 juillet quasiment partout sous les 35°C. | Rafraîchissement franc et rapide par l'ouest. Dorsale anglaise en embuscade pour un rebond de chaleur ultérieur. | Nord-ouest, Centre, Nord. Sud-ouest partiellement concerné par le répit. | Élevée (85%) | Mise en garde : le répit induit par une dorsale anglaise pourrait, à long terme, empêcher la descente d'air nordique et préparer un retour de la chaleur. |
-| **GEM (Canadien)** (Brièvement cité pour les signes d'instabilité.) | Montre des signes d'instabilité, laissant présager des orages potentiels lors de la confrontation des masses d'air. | Orages possibles en lien avec la dégradation. | Est de la France, quart nord-est. | Faible (45%) | Confirmation de l’hypothèse d’orages, principalement sur la zone de conflit. |
-| **UKMO (Britannique)** (Mentionné comme étant le seul à montrer des pluies à ces dates pour cette zone.) | Modèle isolé qui montre de véritables pluies sur la région Lorraine (est) jeudi et vendredi. | Pluies significatives localement sur l'est. | Nord-est, Lorraine. | Faible (45%) | Scénario remis en question par un membre, l'échéance étant jugée trop lointaine pour une localisation précise. |
-| **GFS (Américain)** (Très commenté. Critique sur son biais chaud, mais reconnu pour cibler les menaces.) | A surestimé la canicule généralisée. Désormais recalé sur un scénario moins extrême. Montre des signes d'instabilité. | Chaud surtout sur le sud-est, orages potentiels. Rafraîchissement au nord. | Toutes zones, avec un dégradé net. | Élevée (85%) | Excellent pour anticiper les menaces, mais a tendance à surestimer les températures à 850 hPa et au sol. Le consensus des autres modèles était plus juste. |
-| **GEFS (GFS Ensembliste)** (Cité comme meilleur outil à moyen-long terme que le déterministe GFS.) | Les cartes des médianes, Q25 et Q75 situaient le probable et le peu probable, y compris pour GFS. | Rafraîchissement par l'ouest, chaleur persistante au sud-est. | Toutes zones. | Modérée (65%) | Démonstration de la supériorité des approches ensemblistes pour évaluer les probabilités. |
+| **GFS (déterministe)** (Documenté) | Pic de chaleur très intense (42-44°C couloir du Rhône) rapidement suivi d'un rafraîchissement orageux, puis retour d'une dorsale chaude. | Canicule brève jeudi, orages localement violents, puis répit franc au nord-ouest. | Toutes zones, mais particulièrement est et sud-est pour le pic, ouest pour le répit. | Élevée (85%) | GFS a d'abord surestimé l'intensité, puis s'est aligné sur un scénario plus modéré avec un répit mieux marqué. Les signes convectifs sont détectés sur le run 12Z. |
+| **ECMWF (IFS/CEP)** (Documenté) | Schéma en yoyo : bouffée chaude entre mardi et mercredi, air plus océanique sur l'ouest jeudi-vendredi, nouvelle bouffée dimanche-lundi. | Succession de fortes chaleurs courtes et de répits, orages peu abondants. | Nord-ouest, ouest, sud-est, nord-est. | Modérée (65%) | Cité par Virgile pour son profil "yoyo" et par AmourDaria comme modèle plus fiable que GFS. Supporte l'idée d'un répit mais avec un retour rapide de la chaleur. |
+| **GEM (Global Environmental Multiscale)** (Partiel) | Orages violents possibles sur le nord-est en fin de semaine, avec un rafraîchissement moins marqué. | Instabilité marquée, orages isolés, chaleur persistante au sud. | Nord-est, est. | Faible (45%) | Mentionné par meteo noobs pour des signes d'instabilité sur le run 12Z. |
+| **ICON (DWD)** (Documenté) | Rafraîchissement plus prononcé et plus long vendredi et samedi, avec un répit sous les 35°C quasiment partout. | Répit bienvenu, puis menace d'une dorsale anglaise qui pourrait relancer la chaleur. | Nord-ouest, ouest, centre. | Modérée (65%) | Cité par bruno50 pour son répit plus marqué et le risque de dorsale anglaise. |
+| **UKMO (Met Office)** (Partiel) | Pluies significatives sur le nord-est jeudi et vendredi, option plus arrosée que les autres modèles. | Pluies généralisées sur le nord-est, orages, chaleur moins intense. | Nord-est, est. | Faible (45%) | Mentionné par bruno50 comme le seul modèle voyant des pluies notables en Lorraine. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
@@ -51,46 +51,51 @@
 | **Méditerranée et Corse** | - | - | - | - | - |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 27 et Mardi 28 Juillet** : Montée progressive des températures avec un ciel dégagé.
-- **Mercredi 29 et Jeudi 30 Juillet** : Pic de chaleur intense sur la moitié est, orages naissants.
-- **Vendredi 31 Juillet et Samedi 1er Août** : Dégradation orageuse et rafraîchissement par l'ouest pour le nord-ouest.
-- **Dimanche 2 Août** : Retour à un temps plus calme, encore chaud au sud-est.
+- **Lundi 27 juillet - Mercredi 29 juillet** : Montée progressive de la chaleur, point culminant mercredi.
+- **Jeudi 30 juillet** : Pic de canicule sur l'est et le sud-est, début de dégradation orageuse.
+- **Vendredi 31 juillet - Samedi 1er août** : Rafraîchissement franc par l'ouest, orages possibles sur l'est.
+- **Dimanche 2 août** : Retour possible de la chaleur par le sud, dorsale en approche.
 
 **Points solides :**
-- Un pic de chaleur intense, mais de courte durée, se produira jeudi sur une large moitié est.
-- Le nord-ouest de la France connaîtra un répit océanique notable dès la fin de semaine.
-- Le sud-est est la zone la plus exposée à une chaleur durable et intense.
+- Rafraîchissement par l'ouest confirmé vendredi et samedi.
+- Pic de chaleur intense jeudi sur l'est et le sud-est.
+- Risque d'orages violents localisé sur le nord-est.
 
 **Points fragiles :**
-- La localisation exacte et la violence des orages associés à la dégradation restent très incertaines.
-- La persistance de la chaleur dans le sud-ouest et le centre dépendra de l'évolution de la dorsale anglaise, un point qui n'a fait consensus.
+- Durée exacte du répit et timing du retour de la chaleur.
+- Localisation et intensité des orages.
+- Possibilité de records de température dans le couloir du Rhône.
+
+**À surveiller (prochains runs) :**
+- Runs 12Z de GFS et ECMWF pour affiner les orages.
+- Évolution de la dorsale anglaise sur ICON et GFS.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 3 Août au Dimanche 9 Août 2026
 ### 💡 Points clés de la semaine 2
-1. Fortes incertitudes : Les modèles peinent à trancher entre plusieurs scénarios radicalement différents.
-2. Dégradé nord-ouest/sud-est : C'est la configuration la plus probable, avec des températures très contrastées.
-3. Persistance d'une canicule au sud : Le pourtour méditerranéen pourrait rester en fournaise jusqu'au 7 août.
-4. Répit pour le nord ? Une baisse des températures est envisagée, mais son ampleur reste à définir.
-5. Retour de l'humidité ? Possible augmentation des pluies et des orages, mais très incertain.
+1. Incertitude majeure : Régime hésitant entre NAO+ et blocage, flux de sud-ouest probable.
+2. Dégradé nord-ouest/sud-est : Chaleur intense persistante au sud, répits ponctuels au nord-ouest.
+3. Pics de chaleur en yoyo : Bouffées chaudes successives, entrecoupées d'air océanique sur le nord-ouest.
+4. Risque de canicule prolongée : Pourtour méditerranéen et sud-est sans répit avant le 7 août.
+5. Baisse espérée en fin de semaine : Tendance à une modération des températures après le 7-8 août, mais incertitude.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Pour le début de semaine (3-4 août), un pic de chaleur est attendu dans le sud et l'est, déjà évoqué dans la semaine 1.
-- Un dégradé thermique nord-ouest / sud-est est le fil conducteur le plus partagé.
-- Le manque cruel de précipitations est un point d'inquiétude majeur pour l'ensemble de la France.
+- Dégradé nord-ouest/sud-est persistant, avec des températures bien plus élevées au sud.
+- Pics de chaleur en début de semaine (3-4 août) sur l'ensemble du pays.
+- Baisse possible des températures en fin de semaine (après le 7 août), mais incertitude.
 **Points de divergence :**
-- **Chronologie et étendue du rafraîchissement** : CEP voit un "yoyo" au nord, GEFS/GEM envisagent un reflux plus net de la chaleur.
-- **Deuxième pic caniculaire ?** Un scénario minoritaire (GFS, BL) suggère un retour de la canicule généralisée en fin de semaine, contre une baisse plus durable pour d'autres.
-- **Mécanisme météorologique** : Le rôle exact d'une dépression irlandaise (qui pourrait aspirer de l'air brûlant) versus une crête atlantique (qui bloquerait le frais).
+- Dynamisme de la dépression irlandaise : scénarios avec creusement fort et coup de chalumeau vs scénarios plus modérés.
+- Durée de la canicule au sud : certains modèles voient un répit dès le 7 août, d'autres une persistance.
+- Probabilité de précipitations : orages de chaleur possibles mais peu probables.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **IFS / CEP (Européen)** (Décrit en détail pour la persistance de la chaleur au sud et le "yoyo" au nord.) | Image d'une situation bloquée avec un flux de sud-ouest, un "thermo en yoyo" au nord, et une chaleur persistante au sud d'une ligne Bordeaux-Strasbourg. | Chaud, très chaud au sud. Alternance de bouffées chaudes et d'air maritime au nord-ouest. | Toutes zones, mais net dégradé. | Élevée (85%) | Scénario principal : des hauts géopotentiels du Maghreb à l’Europe centrale bloquent le flux océanique, qui ne tempère que l'extrême nord-ouest. |
-| **GEFS (GFS Ensembliste)** (Comparé à CEP, jugé plus "optimiste" pour la limitation de la canicule.) | Révision à la baisse de la canicule. Les fortes chaleurs pourraient refluer vers le seul pourtour méditerranéen. | Forte chaleur qui lâche le nord pour se concentrer sur la Méditerranée. | Sud-est, Méditerranée. Nord-ouest plus tempéré. | Modérée (65%) | GEFS a changé par rapport à ses modélisations précédentes, suggérant une limitation de la canicule plus rapide, contrairement à CEP. |
-| **GEM (Canadien)** (Brièvement cité comme en accord avec CEP.) | Appuie l'hypothèse d'une France coupée en deux, avec des très fortes chaleurs (voire une canicule) au sud d'une ligne Bordeaux – Dijon. | Canicule persistante dans un grand sud. | Sud-ouest, Centre, Sud-est, Méditerranée. | Faible (45%) | Scénario d'une France partagée en deux, avec les fortes chaleurs bloquées au sud. |
-| **GFS (Américain) [Projections Très Long Terme]** (Cité avec ironie et méfiance ("visionnaire", "égarement").) | "Visionnaire" mais peut-être égaré. Montre une anomalie T850 très chaude pour le 9 août, jugée peu fiable. | Potentiel retour de la très forte chaleur en toute fin de semaine. | Principalement la moitié sud. | Faible (45%) | Scénario à prendre avec des pincettes. L'historique de GFS montre des "visions" à très long terme qui se corrigent. |
+| **GFS (déterministe et GEFS)** (Documenté) | Scénario très chaud en début de semaine, puis baisse timide, mais nouvelle poussée chaude en fin de semaine (anomalie T850 > 8°C pour le 9 août). | Succession de bouffées chaudes, peu de précipitations, orages rares. | Toutes zones, mais sud-est très chaud, nord-ouest plus tempéré. | Élevée (85%) | GFS a été critiqué pour ses prévisions extrêmes, mais reste le modèle le plus cité. Les GEFS apportent une vision plus nuancée avec un dégradé nord-ouest/sud-est. |
+| **ECMWF (IFS/CEP)** (Documenté) | Marais barométrique sur la France, hautes pressions atlantiques, flux de sud-ouest chaud, persistance de la chaleur au sud, répit limité au nord-ouest. | Chaleur continue, canicule sur le sud-est jusqu'au 7 août, puis baisse progressive. | Sud-est, méditerranée, sud-ouest, nord-ouest temporairement. | Élevée (85%) | CEP montre une France coupée en deux, avec une canicule persistante au sud-est. Les ensembles prévoient une baisse en fin de semaine, mais les moyennes remontent ensuite. |
+| **GEM (Global Environmental Multiscale)** (Documenté) | France partagée en deux, chaleur très forte au sud d'une ligne Bordeaux-Dijon, répit possible au nord-ouest. | Chaleur intense persistante, orages de chaleur possibles dans l'est. | Sud-ouest, centre, sud-est, est. | Modérée (65%) | Cité par petit âge glaciaire 11 comme appuyant le scénario de CEP. |
+| **AIFS (ensemble)** (Partiel) | Scénarios variés : certains avec une dépression dynamique causant un coup de chalumeau, d'autres avec un flux zonal plus modéré. | Incertitude forte, possibilité de forte chaleur généralisée ou de dégradé. | Toutes zones possibles. | Modérée (65%) | Mentionné par Jojobarbar pour ses scénarios extrêmes ou modérés. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
@@ -105,19 +110,24 @@
 | **Méditerranée et Corse** | - | - | - | - | - |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 3 et Mardi 4 Août** : Continuation du pic de chaleur du week-end, surtout au sud et à l'est.
-- **Mercredi 5 et Jeudi 6 Août** : Possible dégradation par l'ouest avec un répit pour le nord-ouest.
-- **Vendredi 7 et Samedi 8 Août** : Période de transition. Très incertain. Soit retour de la chaleur, soit maintien d'un temps plus frais.
-- **Dimanche 9 Août** : Selon GFS, potentiel retour d'une anomalie très chaude. Scénario à très faible confiance.
+- **Lundi 3 août - Mardi 4 août** : Pic de chaleur généralisé, canicule sur le sud et l'est.
+- **Mercredi 5 août - Jeudi 6 août** : Répit possible sur le nord-ouest, chaleur persistante au sud.
+- **Vendredi 7 août - Samedi 8 août** : Baisse amorcée des températures, surtout au nord, mais incertitude.
+- **Dimanche 9 août** : Possible retour de la chaleur ou répit selon les modèles.
 
 **Points solides :**
-- Le dégradé nord-ouest / sud-est est la tendance la plus robuste.
-- Les régions méditerranéennes et le sud-est restent en canicule pour une longue période (au moins jusqu'au 7 août).
-- Le nord-ouest connaîtra une alternance, avec des moments de répit océanique.
+- Dégradé nord-ouest/sud-est très marqué, avec canicule au sud.
+- Pics de chaleur les 3 et 4 août sur l'ensemble du pays.
+- Tendance à une baisse des températures en fin de semaine, mais incertitude.
 
 **Points fragiles :**
-- L'intensité et la durée du rafraîchissement au nord sont très fragiles et pourraient être contredites.
-- La possibilité d'un nouveau pic de chaleur généralisé en toute fin de semaine (scénario "spectre" du BL) est un point extrêmement fragile mais dangereux à écarter.
+- Dynamisme de la dépression irlandaise et son impact sur le flux.
+- Durée exacte de la canicule au sud-est.
+- Possibilité de précipitations significatives (orages).
+
+**À surveiller (prochains runs) :**
+- Runs 12Z de GFS et ECMWF pour la dépression irlandaise.
+- Évolution des ensembles CEP et GEFS pour la fin de semaine.
 
 
 ========================================
@@ -125,46 +135,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-L'été reste marqué par une succession de bouffées de chaleur intense entrecoupées de brèves périodes de répit. Un dégradé nord-ouest / sud-est très marqué. Le pourtour méditerranéen reste en canicule presque sans discontinuer. Les incertitudes sont très fortes sur la durée du répit pour le nord en semaine 2.
+Succession de bouffées de chaleur intense entrecoupées de courts répits, avec un dégradé nord-ouest/sud-est très marqué. Le pourtour méditerranéen et le sud-est restent en canicule quasi-permanente. Les incertitudes sont fortes sur la durée du répit pour le nord en semaine 2.
 
 ### Période la plus fiable
-La **Semaine 1** est la plus fiable, avec un consensus clair sur le pic et le récit par l'ouest.
+Semaine 1 (27 juillet - 2 août) car les échéances sont plus courtes et le consensus sur le rafraîchissement temporaire est solide.
 
 ### Phénomènes récurrents
-Succession de coups de chalumeau. Manque de précipitations quasi généralisé.
+Bouffées de chaleur successives (yoyo), canicule durable sur le sud-est, orages localement violents sur l'est.
 
 ### Principales incertitudes
-Durée et intensité du rafraîchissement en semaine 2 pour le nord. Potentiel retour d'un blocage caniculaire après le 8 août.
+Durée du répit pour le nord en semaine 2 ; intensité et localisation des orages ; retour de la chaleur en fin de semaine 2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le timing exact du rafraîchissement en semaine 2 (mercredi ou jeudi) et le retour hypothétique de la chaleur sont très incertains.
-- **Localisation :** Localisation des orages violents en semaine 1 (est / centre-est / nord-est). En semaine 2, la ligne de partage exacte du rafraîchissement (Bordeaux-Strasbourg, ou plus au sud) est floue.
-- **Intensité :** Intensité des orages (grêle, rafales) en semaine 1. En semaine 2, force du pic de chaleur sur le sud-est et potentiel retour d'une canicule généralisée.
-- **Informations manquantes :** Très peu d'informations sur les précipitations potentielles pour la semaine 2, surtout au sud. Le vent n'est quasiment pas documenté pour la semaine 1 en dehors du sud-ouest en semaine 2.
-- **Modèles sous-documentés :** ARPEGE (Météo France) et les modèles IA (Huawei, Google) n'ont quasiment pas été commentés dans les discussions.
-- **Incertitudes images :** Les "boîtes à moustaches" d'Asperatus73 sont un sujet de discussion, mais les graphiques du forum meteociel et wetterzentrale étaient en panne ou en mode restreint, limitant les vérifications visuelles directes.
+- **Timing/Chronologie :** Doutes sur la chronologie exacte du rafraîchissement en semaine 1 (vendredi vs samedi) et sur le retour de la chaleur en semaine 2 (début ou fin de semaine).
+- **Localisation :** Doutes sur la localisation précise des orages violents (nord-est vs centre-est) et sur les zones exactes de la canicule persistante en semaine 2.
+- **Intensité :** Doutes sur l'intensité du pic de chaleur jeudi (42-44°C dans le couloir du Rhône ?) et sur la force des orages (grêle possible).
+- **Informations manquantes :** Pas d'information sur les précipitations à long terme (semaine 2) ni sur les risques de sécheresse. Le vent n'est pas systématiquement documenté.
+- **Modèles sous-documentés :** UKMO, GEM, AIFS (moins de 3 mentions) ; ICON (1 mention) ; les modèles ensemblistes (GEFS, ENS) ne sont pas détaillés.
+- **Incertitudes images :** Les cartes postées par les membres (isothermes, anomalies) ne sont pas disponibles en texte ; leur interprétation est subjective.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-**🔴 Bulletin Météo Exceptionnel | 28 Juillet 2026**
-
-L'été 2026 continue son show. Après des projections alarmistes de GFS pour cette semaine, le consensus des modèles (CEP, ICON) nous offre un scénario plus mesuré :
-
-**Semaine 1 (27 Juil - 2 Août) : Canicule éclair et orages ⛈️**
-* 🔥 Un pic de chaleur intense jeudi 30 sur l'est, proche des records.
-* ❗ Orages potentiellement violents entre jeudi et vendredi.
-* 💨 Rafraîchissement franc par l'ouest pour le nord-ouest. Le sud-est reste en fournaise.
-* ✅ Confiance : Modérée. Le répit est attendu, mais la violence des orages reste incertaine.
-
-**Semaine 2 (3 - 9 Août) : Le grand flou 🤔**
-* 📉 Les modèles sont en pleine hésitation. Plusieurs scénarios radicalement différents sont sur la table.
-* 🌡️ Le scénario principal : persistance d'une canicule au sud, avec un "yoyo" de températures au nord.
-* 🌍 Certains modèles (CEP) voient une France coupée en deux, d'autres (GEFS) un reflux de la chaleur.
-* ⚠️ Confiance : **Faible**. Un retour de la canicule généralisée n'est pas à exclure.
-* 📍 Le pourtour méditerranéen reste la zone la plus exposée.
-
-**À retenir :** L'été 2026 est marqué par un fort dégradé nord-ouest/sud-est. La prudence est de mise pour les prochains jours, l'incertitude est totale sur la semaine 2. Affaire à suivre de très près !
-
-#Météo #Canicule #Prévisions #Été2026 #Infoclimat
+🌡️🌤️ Bulletin météo exceptionnel : deux semaines sous le signe du yoyo thermique ! Un rafraîchissement bienvenu par l'ouest en fin de semaine 1, mais la canicule persiste au sud-est. La semaine 2 s'annonce très incertaine avec un possible maintien de la chaleur intense. Restez prudents, surtout sur les routes. #MétéoFrance #Canicule #Prévisions
