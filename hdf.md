@@ -6,35 +6,36 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur le scénario général, mais des divergences fortes sur les détails (intensité, localisation).*
-- **Fiabilité du scénario majoritaire :** Chaud puis répit incertain — *La tendance est à la chaleur, mais le timing et l'ampleur des périodes de répit sont très flous.*
+- **Consensus des modèles :** Modéré — *Consensus sur le scénario de chute des températures en W1 mais fort désaccord sur la deuxième semaine.*
+- **Fiabilité du scénario majoritaire :** Dégradé SO-NE chaud — *Le scénario le plus probable pour W2 est un gradient sud-ouest/nord-est maintenu avec des températures plus élevées à l'est.*
 - **Stabilité des cartes/scénarios :** 6 / 74 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Élevée pour la semaine 2 — *La seconde semaine est quasi impossible à prévoir avec précision ; les modèles divergent sur des éléments fondamentaux.*
+- **Niveau d'incertitude global :** Forte — *L'incertitude est très élevée pour la deuxième semaine, notamment sur la présence et la durée de l'air océanique.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 27 Juillet au Dimanche 2 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Canicule brève et brutale : Un pic de chaleur intense est attendu en début de semaine pour les Hauts-de-France, avant une dégradation orageuse.
-2. Rafraîchissement brutal : Le passage d'un front froid provoquera une chute des températures et des orages localement violents.
-3. Risque orageux marqué : Le risque d'orages, avec grêle et rafales, est à surveiller de près pour jeudi soir et vendredi sur l'est de la région.
-4. Répit temporaire : Un temps plus calme et moins chaud est envisagé pour le week-end, avec un ressenti plus agréable.
-5. Incertitude sur l'ICON : Les modèles divergent sur la durée exacte du répit, ICON voyant une accalmie plus rapide que les autres.
+1. Canicule brève : Un épisode de forte chaleur traverse les Hauts-de-France en début de semaine, avec des pointes à 35-37°C localement.
+2. Répit orageux : Une dégradation orageuse est attendue en fin de semaine, apportant un net rafraîchissement mais aussi un risque de phénomènes violents.
+3. Contraste nord-sud : Les températures chutent plus rapidement sur le littoral (Nord, Pas-de-Calais) tandis que l'intérieur (Aisne, Oise) reste plus chaud.
+4. Retour de fraîcheur : Dès vendredi 31, le thermomètre repasse sous les 30°C, avec des nuits de nouveau supportables.
+5. Incendies sous surveillance : La sécheresse de surface et les vents parfois soutenus pendant les orages augmentent le risque de départs de feu.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Un pic de chaleur significatif est attendu en début de semaine sur les Hauts-de-France, bien que son intensité et sa durée fassent débat.
-2. Une dégradation orageuse est attendue en fin de semaine (jeudi/vendredi), apportant un rafraîchissement.
-3. Le week-end s'annonce plus calme et moins chaud, offrant un répit temporaire dans la région.
+1. Forte chaleur en début de semaine, avec une baisse nette en fin de semaine.
+2. Risque orageux en fin de semaine, avec possible grêle sur HDF.
+3. Répit sur le littoral plus rapide que dans l'intérieur.
 **Points de divergence :**
-1. **Intensité et durée de la canicule** : GFS et d'autres modèles voyaient initialement une canicule plus forte et plus longue, tandis qu'ICON l'amortit considérablement.
-2. **Pluviométrie de la dégradation** : UKMO est le seul à voir des pluies significatives lors du passage orageux, les autres modèles suggèrent des précipitations plus faibles.
-3. **Risque de retour de la chaleur** : Le répit apporté par la dorsale anglaise selon ICON pourrait, à l'inverse, faciliter un retour rapide de la chaleur, un point non partagé par les autres modèles.
+1. Intensité des orages : localement violents ou simplement modérés ?
+2. Moment précis du rafraîchissement : vendredi ou samedi ?
+3. Rôle de la dorsale anglaise pour relancer la chaleur en semaine 2.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (Commenté en détail) | A montré un pic de chaleur intense avant d'être rejoint par d'autres modèles. Considéré comme moins fiable sur l'intensité, mais utile pour cibler la menace. (159 caractères) | Chaud puis orages violents possibles en fin de semaine, avec une baisse des températures. (100 caractères) | Toute la région Hauts-de-France, avec un risque orageux plus marqué sur l'Est. | Élevée | GFS a initialement vu une canicule plus intense et plus longue. Il a ensuite été rejoint par les autres modèles pour un scénario de chaleur brève suivie d'orages. (146 caractères) |
-| **ICON** (Commenté en détail) | Amortit et raccourcit considérablement le pic de chaleur, avec un répit plus rapide et marqué dès vendredi, sous l'influence d'une dorsale anglaise. (142 caractères) | Pic de chaleur court, puis net rafraîchissement avec un temps plus calme et sec. (91 caractères) | Toute la région Hauts-de-France. | Élevée | ICON est vu comme un modèle "amortissant" le choc thermique, avec un répit plus franc mais potentiellement dangereux car il pourrait préparer le retour de la chaleur. (149 caractères) |
-| **UKMO** (Brièvement évoqué) | Un des seuls modèles à montrer de véritables pluies pour la fin de semaine sur l'est de la France, suggérant une dégradation plus humide. (131 caractères) | Possibilité de pluies plus conséquentes lors de la dégradation orageuse de jeudi/vendredi. (102 caractères) | Est de la région Hauts-de-France (Lorraine, cité en exemple). | Modérée | Cité pour sa vision plus humide de la dégradation, ce qui est un point de divergence notable avec les autres modèles. (119 caractères) |
+| **ICON (Allemand)** (Documenté pour le scénario de répit) | ICON amortit le choc thermique et raccourcit la canicule avec un répit dès vendredi ; une dorsale anglaise pourrait relancer la chaleur ensuite. | Orages localement forts et grêle possibles en fin de semaine sur le nord de la France. | Hauts-de-France, Grand Est. | Modérée (60%) | ICON anticipe un repli rapide de la masse d'air très chaude, avec retour de températures sous les 35°C dès vendredi sur HDF. |
+| **GFS (Américain)** (Partiellement documenté (commentaires sur sa fiabilité)) | GFS a surestimé l'intensité et la durée de la canicule pour la région, puis a corrigé à la baisse. | Signes d'instabilité en fin de semaine : orages possibles. | Nord de la France. | Modérée (60%) | GFS montrait des températures caniculaires qui ne se sont pas réalisées ; désormais, il prévoit un passage orageux en fin de semaine pour HDF. |
+| **GEM (Canadien)** (Partiellement documenté) | GEM montre également des signes d'instabilité en fin de semaine, avec un risque orageux pour le nord lors du chassé-croisé. | Orages potentiellement violents. | Tiers nord du pays. | Faible (40%) | GEM rejoint GFS sur le potentiel orageux, mais sans précision sur la localisation en HDF. |
+| **UKMO (Britannique)** (Insuffisamment documenté pour HDF) | UKMO voyait des pluies plus régulières sur le nord-est de la France, mais ces prévisions sont jugées peu fiables à longue échéance. | Possibilité d'arrosage significatif. | Lorraine, nord-est. | Non estimable (aucun commentaire HDF) | UKMO évoque des précipitations sur le nord-est, mais la confiance est faible. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
@@ -46,49 +47,50 @@
 | **Aisne (02)** | - | - | - | - | - |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 27 et Mardi 28 Juillet** : Poussée de chaleur rapide avec des températures en forte hausse dans toute la région.
-- **Mercredi 29 Juillet** : Pic de chaleur probable, avec des maximales pouvant approcher les 35°C, surtout dans les terres.
-- **Jeudi 30 et Vendredi 31 Juillet** : Dégradation orageuse avec un risque de phénomènes violents (grêle, rafales) et une baisse marquée des températures.
-- **Samedi 1er et Dimanche 2 Août** : Retour à un temps plus calme et plus frais, avec un ciel variable et des températures de saison.
+- **Lundi 27 – mardi 28** : Pics de chaleur avec températures maximales dépassant 35°C, surtout dans l'intérieur. Nuits lourdes.
+- **Mercredi 29 – jeudi 30** : Maintien de la chaleur, mais approche d'un front orageux par l'ouest en fin de journée de jeudi.
+- **Vendredi 31 – samedi 1** : Dégradation orageuse active, rafraîchissement marqué, retour sous les 30°C.
+- **Dimanche 2 – début semaine 2** : Accalmie relative, mais risque de remontée de la chaleur en cours de semaine suivante.
 
 **Points solides :**
-1. **Chaleur brève mais réelle** : Un pic de chaleur est quasi-certain pour le début de semaine, même si l'intensité est débattue.
-2. **Dégradation orageuse** : Le passage à un temps plus instable en fin de semaine est un scénario très probable pour l'ensemble de la région.
-3. **Rafraîchissement notable** : Les températures baisseront significativement après le passage du front froid, offrant un répit.
+1. Canicule brève et localisée en début de semaine (confiance modérée).
+2. Rafraîchissement net en fin de semaine pour l'ensemble des Hauts-de-France.
+3. Risque orageux en fin de semaine, avec possibilité de grêle.
 
 **Points fragiles :**
-1. **Intensité du pic de chaleur** : Il est difficile de savoir si les 35°C seront atteints ou dépassés, et si la canicule sera classée comme telle.
-2. **Violence des orages** : Le risque de grêle et de rafales violentes est présent, mais leur localisation exacte et leur intensité maximale restent très incertaines.
-3. **Durée du répit** : La question de savoir si le week-end sera totalement sec et calme ou encore marqué par des averses résiduelles est en suspens.
+1. Localisation exacte des orages violents.
+2. Baisse des températures : plus ou moins rapide selon scénario.
+3. Relance de la chaleur par la dorsale anglaise en début de semaine 2.
 
 **À surveiller (prochains runs) :**
-Prochaines mises à jour des modèles GFS, ICON et UKMO pour affiner le timing et la localisation des orages de jeudi/vendredi.
+Prochains runs GFS 12Z et ECMWF 00Z pour affiner le timing du rafraîchissement et le potentiel orageux. Les sorties haute résolution (AROME) à J+2 seront cruciales.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 3 au Dimanche 9 Août 2026
 ### 💡 Points clés de la semaine 2
-1. Incertitude maximale : La semaine s'annonce très complexe à prévoir, avec des scénarios allant du très chaud au temporairement plus frais.
-2. Risque de retour de la chaleur : Plusieurs modèles, dont le CEP, envisagent une persistance de fortes chaleurs, notamment sur le sud de la région.
-3. La piste d'un répit : D'autres scénarios, portés par GFS et GEM, voient une possibilité de temps plus océanique et humide pour le nord-ouest.
-4. Un dégradé Nord-Ouest / Sud-Est : La configuration la plus probable est celle d'un contraste marqué, avec un Nord plus frais et un Sud plus chaud.
-5. Absence de précipitations notables : Le manque de pluie reste une constante inquiétante, avec seulement des orages localisés possibles.
+1. Incertitude majeure : Les modèles divergent fortement sur le comportement de la dépression irlandaise et l'orientation du flux.
+2. Dégradé nord-ouest/sud-est : Le nord-ouest des Hauts-de-France pourrait bénéficier d'un peu de fraîcheur océanique, tandis que l'est pourrait rester chaud.
+3. Retour de la chaleur ? : Plusieurs scénarios (GFS, CEP) envisagent une remontée de la chaleur en fin de semaine sur l'ensemble de la région.
+4. Faible pluviométrie : Peu de précipitations attendues, seulement quelques orages de chaleur localisés.
+5. Attention incendies : Vents changeants et sécheresse accrue pourraient favoriser les incendies de végétation.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. **Dégradé Nord-Ouest / Sud-Est** : Tous les modèles s'accordent sur un contraste thermique important au sein de la région.
-2. **Risque de forte chaleur** : La persistance d'une masse d'air très chaude sur le sud de la France est un point commun, avec un impact possible sur le sud des Hauts-de-France.
-3. **Manque de précipitations** : Le scénario de précipitations notables est peu probable. Seuls des orages de chaleur ou des passages nuageux sans pluie sont envisagés.
+1. Un gradient nord-ouest/sud-est est quasi certain : l'ouest du HDF sera moins chaud que l'est.
+2. La chaleur ne disparaît pas totalement ; un retour est possible en fin de semaine.
+3. Peu de précipitations, seulement quelques orages.
 **Points de divergence :**
-1. **Intensité et durée du rafraîchissement** : GFS voit un rafraîchissement net et durable pour le nord, tandis que le CEP le voit plus temporaire et moins marqué.
-2. **Localisation de la "zone de fracture"** : La limite entre l'air chaud et l'air plus océanique est très floue et pourrait se situer sur les Hauts-de-France, rendant la prévision très locale.
-3. **Dynamisme atlantique** : Le creusement et la trajectoire des dépressions sur l'Atlantique sont incertains, ce qui change radicalement la donne pour toute la région.
+1. Intensité de la poussée océanique en début de semaine : forte (GFS) ou faible (CEP) ?
+2. Durée : le rafraîchissement tient-il jusqu'au milieu de semaine ou juste un jour ?
+3. Fin de semaine : nouveau pic de chaleur (GFS, CEP) ou maintien de conditions océaniques ?
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **CEP (IFS-ECMWF)** (Commenté en détail (tao, Virgile, _sb, petit âge glaciaire 11)) | Maintient des hautes pressions sur l'Europe centrale, avec un flux de sud-ouest chaud pour la France. La région Hauts-de-France serait en marge, avec un temps plus humide mais toujours chaud. (156 caractères) | Temps chaud et potentiellement orageux, avec un dégradé nord-ouest / sud-est marqué. (95 caractères) | Toute la région, avec un contraste entre un nord-ouest plus humide et un sud-est plus chaud. | Élevée | Le CEP est crédité d'une certaine fiabilité pour voir la persistance de la chaleur. Il dessine un scénario de "yoyo" thermique avec des bouffées chaudes et des passages plus océaniques. (154 caractères) |
-| **GFS (et GEFS)** (Commenté en détail (jt75, bruno50, Jojobarbar, petit âge glaciaire 11)) | Très changeant. Après avoir surestimé la canicule de la semaine 1, il propose maintenant un scénario plus "optimiste" avec un rafraîchissement plus marqué et durable par un flux de nord-ouest. (161 caractères) | Possibilité d'un temps plus frais et humide, surtout pour le nord de la région, contrastant avec la chaleur du sud. (131 caractères) | Nord et ouest de la région Hauts-de-France. | Élevée | GFS et son ensemble GEFS montrent un scénario de dépression plus dynamique sur l'Atlantique, capable de faire plonger de l'air plus frais sur l'Europe de l'Ouest. (145 caractères) |
-| **GEM (Canadien)** (Brièvement évoqué) | Appuie le scénario du CEP d'une France coupée en deux, avec de fortes chaleurs qui persistent au sud d'une ligne Bordeaux-Dijon. (127 caractères) | Maintien de la chaleur sur le sud de la région, avec un nord peut-être plus épargné. (99 caractères) | Principalement le sud de la région Hauts-de-France (Oise, Aisne) qui serait en limite de la zone de forte chaleur. | Modérée | GEM conforte l'idée d'un fort gradient thermique nord-sud en France, ce qui place les Hauts-de-France en position charnière. (129 caractères) |
+| **CEP (ECMWF – Européen)** (Documenté pour le scénario chaud) | CEP voit une crête atlantique et un marais barométrique sur la France, avec un flux de sud-ouest apportant de la chaleur sur tout le pays. | Fortes chaleurs persistantes, surtout au sud ; HDF en bordure : passages nuageux et chaleur. | Toute la France, accent sur le sud-est. | Modérée (60%) | CEP maintient une masse d'air très chaude au sud-est, mais les Hauts-de-France seraient en limite : températures autour de 30°C, voire plus. |
+| **GFS (Américain)** (Documenté (critiqué mais tendance suivie)) | GFS a considérablement évolué : après avoir surestimé la canicule en semaine 1, il propose désormais un flux plus océanique pour le nord, avec une baisse des températures. | Temps plus tempéré sur le nord, chaud au sud. | Tiers nord-ouest. | Modérée (60%) | GFS et son ensemble montrent une poussée océanique en début de semaine, ramenant des températures plus proches des normales sur la moitié nord, mais la fiabilité est remise en cause. |
+| **GEM (Canadien)** (Partiellement documenté) | GEM rejoint CEP pour un dégradé nord-ouest/sud-est avec des fortes chaleurs au sud. | Orages de chaleur possibles dans l'est. | France entière. | Faible (40%) | GEM confirme la persistance de la chaleur au sud, mais le nord pourrait être épargné localement ; détail pour HDF non précisé. |
+| **AIFS (IA – ECMWF)** (Insuffisamment documenté pour HDF) | AIFS ENS montre des scénarios extrêmes : certains runs prévoient un coup de chalumeau généralisé, d'autres un flux océanique marqué. | Variabilité extrême entre chaleur et fraîcheur. | Nord de la France. | Non estimable (aucune indication HDF) | AIFS ENS est mentionné pour illustrer la dispersion des scénarios ; pas de détails pour HDF. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
@@ -100,23 +102,23 @@ Prochaines mises à jour des modèles GFS, ICON et UKMO pour affiner le timing e
 | **Aisne (02)** | - | - | - | - | - |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Dimanche 2 et Lundi 3 Août** : Poursuite de la chaleur, possiblement intense, en provenance de la semaine 1.
-- **Mardi 4 et Mercredi 5 Août** : Période charnière, avec une possible baisse des températures par le nord-ouest selon GFS.
-- **Jeudi 6 et Vendredi 7 Août** : Risque de regain de chaleur, surtout pour le sud-est de la région.
-- **Samedi 8 et Dimanche 9 Août** : Incertitude maximale. Possibilité de retour à la canicule ou de maintien d'un temps plus modéré.
+- **Lundi 3 – mardi 4** : Possible bouffée d'air océanique arrivant par l'ouest, températures en baisse sur le littoral.
+- **Mercredi 5 – jeudi 6** : Retour progressif de la chaleur par le sud-est, zone de contraste sur HDF.
+- **Vendredi 7 – samedi 8** : Possibilité d'accentuation de la chaleur avec un flux de sud-ouest plus marqué.
+- **Dimanche 9** : Situation très floue, scénarios allant d'un temps chaud à un nouveau rafraîchissement.
 
 **Points solides :**
-1. **Contexte chaud** : La région restera sous l'influence d'une masse d'air chaude pour l'été, avec des températures au-dessus des normales.
-2. **Dégradé Nord/Sud** : L'existence d'un contraste thermique entre le nord-ouest et le sud-est de la région est la quasi-certitude de la semaine.
-3. **Faible pluviométrie** : Les épisodes de pluie significative sont très peu probables.
+1. Gradient de températures nord-ouest/sud-est sera présent.
+2. Peu de précipitations attendues sur HDF.
+3. Le début de semaine pourrait être plus frais que la fin.
 
 **Points fragiles :**
-1. **Intensité de la chaleur** : Sera-t-on en simple “coup de chaud” ou en pleine canicule ? La fourchette est très large.
-2. **Position exacte du "front"** : La limite entre l'air chaud et l'air plus frais est impossible à situer avec précision à cette échéance.
-3. **Durabilité** : Le rafraîchissement prévu par GFS pourrait n'être qu'une parenthèse de 48h avant le retour d'une chaleur plus intense.
+1. Intensité du rafraîchissement début de semaine très incertaine.
+2. Durée exacte de la période océanique.
+3. Possibilité d'un nouveau pic caniculaire en fin de semaine.
 
 **À surveiller (prochains runs) :**
-Les runs de CEP et GFS de ce début de semaine pour tenter de cerner le positionnement de la goutte froide et l'orientation du flux.
+Prochains runs ECMWF (00Z) et GFS (06Z) pour évaluer la force de la dépression irlandaise et la résistance de la crête atlantique.
 
 
 ========================================
@@ -124,27 +126,27 @@ Les runs de CEP et GFS de ce début de semaine pour tenter de cerner le position
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Sur 15 jours, les Hauts-de-France connaîtront une alternance de périodes chaudes et de rafraîchissements orageux, avec des contrastes marqués. La première semaine est mieux cernée (chaleur brève puis répit). La seconde reste très incertaine, avec un risque de retour de la canicule en fin de période.
+Sur les deux semaines : alternance d'une canicule brève suivie d'un répit orageux, puis d'une nouvelle période très incertaine avec un possible retour de la chaleur en semaine 2. Les Hauts-de-France seront en première ligne des contrastes géographiques.
 
 ### Période la plus fiable
-Semaine 1 (27 juillet au 2 août).
+Semaine 1, mieux cernée grâce à l'approche court-terme des modèles.
 
 ### Phénomènes récurrents
-Orages localement violents en fin de semaine 1. Alternance chaleur/rafraîchissement en semaine 2.
+Orages localisés en fin de W1, puis faible pluviométrie ; alternance de flux de sud-ouest chaud et de poussées océaniques.
 
 ### Principales incertitudes
-Durée et intensité des pics de chaleur, localisation et violence des orages, tenue du rafraîchissement en semaine 2.
+1. Intensité des orages fin W1. 2. Poussée océanique en W2. 3. Retour de la canicule en fin de W2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le déclenchement exact de la dégradation orageuse de la semaine 1 (jeudi soir vs vendredi) et le début du rafraîchissement en semaine 2 (mardi, mercredi ou plus tard ?) sont très flous.
-- **Localisation :** La localisation des orages les plus violents en fin de semaine 1 (est de la région, mais à quel point ?) et la position de la "ligne de front" entre l'air chaud et l'air frais en semaine 2 sont des inconnues majeures.
-- **Intensité :** L'intensité du pic de chaleur (35°C ou plus ?) et la violence des orages (grêle, rafales ?) restent à confirmer.
-- **Informations manquantes :** Aucune information spécifique sur le vent pour la période, ni sur l'évolution précise pour chaque département. Les données sur les précipitations pour la semaine 2 sont quasi inexistantes.
-- **Modèles sous-documentés :** UKMO, AROME, ARPEGE (non cités pour la période).
-- **Incertitudes images :** Les diagrammes postés pour la semaine 2 montrent une très grande dispersion des membres, confirmant l'incertitude.
+- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes HDF. L'arrivée exacte du rafraîchissement en S1 (vendredi vs samedi) et sur la fenêtre océanique en S2.
+- **Localisation :** Doutes sur la localisation précise HDF. La distinction littoral/intérieur pour les orages et la fraîcheur reste floue.
+- **Intensité :** Doutes sur l'intensité HDF. Les orages pourraient être violents localement mais leur occurrence exacte est incertaine. Pour la chaleur en S2, l'intensité du pic est très variable selon les modèles.
+- **Informations manquantes :** Informations importantes non abordées ou manquantes. Aucune discussion sur les vents précis, le risque de grêle localisé, ou les phénomènes de foehn potentiels dans l'Aisne.
+- **Modèles sous-documentés :** Modèles peu ou pas commentés par les membres. ARPEGE, AROME, JMA, UKMO (pour la S2) n'ont pas été cités pour les zones HDF.
+- **Incertitudes images :** Incertitudes sur les graphiques. Les diagrammes postés (températures à 850hPa) montrent des tendances mais pas de cartes de précipitations ou de localisation fine.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🔥⛈️ Analyse météo des 15 prochains jours pour les Hauts-de-France. La semaine 1 s'annonce avec un pic de chaleur bref suivi d'orages. La semaine 2 est bien plus incertaine. Lecture détaillée en commentaire 👇 #Météo #HautsDeFrance #Prévisions #Canicule
+🌦️ Précisions pour les Hauts-de-France sur les 15 jours à venir : après une canicule brève et orages violents possibles, place à une semaine 2 très incertaine avec un possible retour de la chaleur. Suivez les prochains runs ! #Météo #HautsdeFrance #Canicule #Prévisions
