@@ -401,15 +401,15 @@
     
     <div class="meta-cards">
       <div class="meta-card">Semaine 1 : Du Lundi 27 Juillet au Dimanche 2 Août 2026</div>
-      <div class="meta-card">Semaine 2 : Du Lundi 3 au Dimanche 9 Août 2026</div>
+      <div class="meta-card">Semaine 2 : Du Lundi 3 Août au Dimanche 9 Août 2026</div>
     </div>
     <div class="generation-date">Génération : Mercredi 29 Juillet 2026</div>
 
     <div class="kpis">
-      <div class="kpi"><div class="kpi-label">Consensus</div><div class="kpi-value">Modéré</div><div class="kpi-note">Consensus sur le scénario de chute des températures en W1 mais fort désaccord sur la deuxième semaine.</div></div>
-      <div class="kpi"><div class="kpi-label">Scénario</div><div class="kpi-value">Dégradé SO-NE chaud</div><div class="kpi-note">Le scénario le plus probable pour W2 est un gradient sud-ouest/nord-est maintenu avec des températures plus élevées à l'est.</div></div>
-      <div class="kpi"><div class="kpi-label">Cartes</div><div class="kpi-value">6 / 74</div><div class="kpi-note">6 cartes analysées</div></div>
-      <div class="kpi"><div class="kpi-label">Incertitude</div><div class="kpi-value">Forte</div><div class="kpi-note">L'incertitude est très élevée pour la deuxième semaine, notamment sur la présence et la durée de l'air océanique.</div></div>
+      <div class="kpi"><div class="kpi-label">Consensus</div><div class="kpi-value">Modéré</div><div class="kpi-note">Consensus sur le schéma général de la semaine 1, mais forte divergence semaine 2.</div></div>
+      <div class="kpi"><div class="kpi-label">Scénario</div><div class="kpi-value">Canicule puis répit (semaine 1) / Flux de sud-ouest chaud (semaine 2)</div><div class="kpi-note">Scénario semaine 1 assez fiable, semaine 2 très incertain.</div></div>
+      <div class="kpi"><div class="kpi-label">Cartes</div><div class="kpi-value">6 / 75</div><div class="kpi-note">6 cartes analysées</div></div>
+      <div class="kpi"><div class="kpi-label">Incertitude</div><div class="kpi-value">Élevée pour semaine 2, modérée pour semaine 1</div><div class="kpi-note">La principale incertitude réside dans la position du dégradé thermique en semaine 2.</div></div>
     </div>
   </div>
 </header>
@@ -420,7 +420,7 @@
       <div><span class="badge">À retenir</span><h2>Semaine 1 — Du Lundi 27 Juillet au Dimanche 2 Août 2026</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
     </div>
     <div class="grid grid-2">
-      <div class="key"><i>🌡️</i><div><strong>Canicule brève</strong>Un épisode de forte chaleur traverse les Hauts-de-France en début de semaine, avec des pointes à 35-37°C localement.</div></div><div class="key"><i>⛈️</i><div><strong>Répit orageux</strong>Une dégradation orageuse est attendue en fin de semaine, apportant un net rafraîchissement mais aussi un risque de phénomènes violents.</div></div><div class="key"><i>🌡️</i><div><strong>Contraste nord-sud</strong>Les températures chutent plus rapidement sur le littoral (Nord, Pas-de-Calais) tandis que l'intérieur (Aisne, Oise) reste plus chaud.</div></div><div class="key"><i>🌦️</i><div><strong>Retour de fraîcheur</strong>Dès vendredi 31, le thermomètre repasse sous les 30°C, avec des nuits de nouveau supportables.</div></div><div class="key"><i>⛈️</i><div><strong>Incendies sous surveillance</strong>La sécheresse de surface et les vents parfois soutenus pendant les orages augmentent le risque de départs de feu.</div></div>
+      <div class="key"><i>🌡️</i><div><strong>Canicule éclair</strong>Un pic de chaleur marqué lundi-mardi, vite suivi d'un répit.</div></div><div class="key"><i>⛈️</i><div><strong>Risque orageux</strong>Jeudi-samedi, dégradation possible avec grêle localisée sur le nord.</div></div><div class="key"><i>🌡️</i><div><strong>Récupération thermique</strong>Les températures redeviennent supportables à partir de vendredi.</div></div><div class="key"><i>⛈️</i><div><strong>Incertitude géographique</strong>La localisation exacte des orages reste floue pour HDF.</div></div><div class="key"><i>🌡️</i><div><strong>Fiabilité modérée</strong>GFS a surestimé la canicule, ICON et CEP plus mesurés pour HDF.</div></div>
     </div>
   </div>
 
@@ -435,121 +435,28 @@
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">ICON (Allemand)</div>
-              <span class="status-badge status-main">Documenté pour le scénario de répit</span>
+              <div class="model-name">GFS, ICON, CEP, GEM</div>
+              <span class="status-badge status-main">Consensus modéré sur le schéma canicule-répit, divergence sur l'intensité orageuse.</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">2 (bruno50, meteo noobs indirect)</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Vendredi 31 – samedi 1</span>
+              <span class="chip">5 mentions directes pour HDF.</span>
+              <span class="chip">Runs cités : 12z</span>
+              <span class="chip">Lundi-mardi canicule, mercredi-jeudi orages, vendredi-samedi répit.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>ICON amortit le choc thermique et raccourcit la canicule avec un répit dès vendredi ; une dorsale anglaise pourrait relancer la chaleur ensuite.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages localement forts et grêle possibles en fin de semaine sur le nord de la France.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Hauts-de-France, Grand Est.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>GFS initialement très chaud, revu à la baisse ; ICON prévoit un répit vendredi-samedi ; CEP/GEM voient une canicule brève suivie d'orages.</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Canicule lundi-mardi, orages localement violents jeudi-samedi, grêle possible.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Hauts-de-France, surtout Nord, Pas-de-Calais, Somme.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60%)</strong></div>
-              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Bruno50 (dimanche)</strong></div>
+              <div class="score-label">Extraction : <strong>Élevée (80-90%) pour tendance générale, modérée pour détails orageux.</strong></div>
+              <div class="bar"><div class="fill" style="width:80%; background:var(--green);"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>ICON et CEP soutenus par GEM, GFS isolé initialement.</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                ICON anticipe un repli rapide de la masse d'air très chaude, avec retour de températures sous les 35°C dès vendredi sur HDF.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">GFS (Américain)</div>
-              <span class="status-badge status-main">Partiellement documenté (commentaires sur sa fiabilité)</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">3</span>
-              <span class="chip">Runs cités : 12Z, 06Z</span>
-              <span class="chip">Jeudi 30 – dimanche 2</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>GFS a surestimé l'intensité et la durée de la canicule pour la région, puis a corrigé à la baisse.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Signes d'instabilité en fin de semaine : orages possibles.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Nord de la France.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60%)</strong></div>
-              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Virgile, AmourDaria, Jojobarbar</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                GFS montrait des températures caniculaires qui ne se sont pas réalisées ; désormais, il prévoit un passage orageux en fin de semaine pour HDF.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">GEM (Canadien)</div>
-              <span class="status-badge status-main">Partiellement documenté</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">1</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Jeudi 30 – samedi 1</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>GEM montre également des signes d'instabilité en fin de semaine, avec un risque orageux pour le nord lors du chassé-croisé.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages potentiellement violents.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Tiers nord du pays.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Faible (40%)</strong></div>
-              <div class="bar"><div class="fill" style="width:40%; background:var(--red);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>meteo noobs</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                GEM rejoint GFS sur le potentiel orageux, mais sans précision sur la localisation en HDF.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">UKMO (Britannique)</div>
-              <span class="status-badge status-main">Insuffisamment documenté pour HDF</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">1</span>
-              <span class="chip">Run du scénario : non déterminable</span>
-              <span class="chip">Jeudi 30 – vendredi 31</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>UKMO voyait des pluies plus régulières sur le nord-est de la France, mais ces prévisions sont jugées peu fiables à longue échéance.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Possibilité d'arrosage significatif.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Lorraine, nord-est.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Non estimable</strong></div>
-              <div class="bar" style="background:#e2e8f0;"></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>bruno50</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                UKMO évoque des précipitations sur le nord-est, mais la confiance est faible.
+                GFS a surestimé les températures de 850 hPa, ICON montre une dorsale anglaise limitant la chaleur.
               </div>
             </details>
           </td>
@@ -565,12 +472,12 @@
   <div class="section">
     <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 1)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Ce qui converge</h3><p>1. Forte chaleur en début de semaine, avec une baisse nette en fin de semaine.
-2. Risque orageux en fin de semaine, avec possible grêle sur HDF.
-3. Répit sur le littoral plus rapide que dans l'intérieur.</p></div>
-      <div class="card"><h3>Ce qui diverge</h3><p>1. Intensité des orages : localement violents ou simplement modérés ?
-2. Moment précis du rafraîchissement : vendredi ou samedi ?
-3. Rôle de la dorsale anglaise pour relancer la chaleur en semaine 2.</p></div>
+      <div class="card"><h3>Ce qui converge</h3><p>- Accord sur un pic de chaleur en début de semaine suivi d'un répit.
+- Risque orageux en deuxième partie de semaine (jeudi-samedi).
+- Amélioration thermique à partir de vendredi.</p></div>
+      <div class="card"><h3>Ce qui diverge</h3><p>- Localisation et intensité des orages (Nord vs intérieur).
+- Durée exacte du répit (quelques modèles voient un retour de la chaleur dès dimanche).
+- Rôle de la dorsale anglaise (ICON vs autres).</p></div>
     </div>
   </div>
 
@@ -588,7 +495,7 @@
             <span class="zone-icon">🦁</span>
             <h3>Nord (59)</h3>
           </div>
-          <div class="zone-short-desc">Chaud lundi-mardi, puis orages et baisse des températures</div>
+          <div class="zone-short-desc">Canicule brève lundi-mardi, orages jeudi-vendredi, répit samedi</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -597,11 +504,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Chaud lundi-mardi, puis orages et baisse des températures</li><li><b>Températures :</b> Maximales autour de 33-36°C en début, puis 25-28°C en fin</li><li><b>Pluie / Orages :</b> Orages possibles jeudi-vendredi, localement forts</li><li><b>Période sensible :</b> Jeudi 30 – samedi 1</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : ICON, GFS, GEM • Secteurs : Littoral et intérieur • 3 mentions</li>
+          <li><b>Temps dominant :</b> Canicule brève lundi-mardi, orages jeudi-vendredi, répit samedi</li><li><b>Températures :</b> Max 32-35°C lundi-mardi, puis 25-28°C à partir de vendredi</li><li><b>Pluie / Orages :</b> Des cumuls de Orages localement forts possibles jeudi-samedi, grêle non exclue sont évoqués localement vers Littoral et intérieur du Nord, sans pouvoir être généralisés à l'ensemble de la zone.</li><li><b>Vent :</b> Faible à modéré, variable</li><li><b>Période sensible :</b> Jeudi 30 juillet au samedi 1er août</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, ICON, CEP • Secteurs : Littoral et intérieur du Nord • 3 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Localisation et intensité des orages</span>
+          <span class="chip-uncert">Incertitude : Localisation précise des orages</span>
         </div>
       </div>
     </details>
@@ -615,7 +522,7 @@
             <span class="zone-icon">🌊</span>
             <h3>Pas-de-Calais (62)</h3>
           </div>
-          <div class="zone-short-desc">Chaud puis orageux avec rafraîchissement</div>
+          <div class="zone-short-desc">Canicule brève, orages possibles, répit rapide</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -624,11 +531,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Chaud puis orageux avec rafraîchissement</li><li><b>Températures :</b> Max 32-35°C début, 22-26°C en fin</li><li><b>Pluie / Orages :</b> Risque d'orages localement forts vendredi</li><li><b>Période sensible :</b> Vendredi 31</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : ICON, GFS • Secteurs : Département entier • 2 mentions</li>
+          <li><b>Temps dominant :</b> Canicule brève, orages possibles, répit rapide</li><li><b>Températures :</b> Max 30-33°C lundi-mardi, puis 22-26°C vendredi-samedi</li><li><b>Pluie / Orages :</b> Risque d'orages jeudi-vendredi, moins intense que dans le Nord</li><li><b>Vent :</b> Vent d'ouest modéré en fin de semaine</li><li><b>Période sensible :</b> Jeudi 30 juillet</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : ICON, GEM • Secteurs : Pas-de-Calais • 2 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Précision des orages</span>
+          <span class="chip-uncert">Incertitude : Précipitations orageuses</span>
         </div>
       </div>
     </details>
@@ -642,7 +549,7 @@
             <span class="zone-icon">🦆</span>
             <h3>Somme (80)</h3>
           </div>
-          <div class="zone-short-desc">Canicule brève suivie d'orages</div>
+          <div class="zone-short-desc">Pic de chaleur puis orages et rafraîchissement</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -651,11 +558,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Canicule brève suivie d'orages</li><li><b>Températures :</b> Max 33-37°C mardi-mercredi, 25-28°C vendredi</li><li><b>Pluie / Orages :</b> Orages attendus jeudi soir/vendredi</li><li><b>Période sensible :</b> Jeudi 30 – vendredi 31</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : ICON, GFS • Secteurs : Somme centre et littoral • 2 mentions</li>
+          <li><b>Temps dominant :</b> Pic de chaleur puis orages et rafraîchissement</li><li><b>Températures :</b> Max 31-34°C lundi-mardi, puis 24-27°C</li><li><b>Pluie / Orages :</b> Orages possibles jeudi-samedi, grêle localisée</li><li><b>Période sensible :</b> Jeudi 30</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, UKMO • Secteurs : Somme • 2 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Timing exact</span>
+          <span class="chip-uncert">Incertitude : Intensité des orages</span>
         </div>
       </div>
     </details>
@@ -669,7 +576,7 @@
             <span class="zone-icon">🏰</span>
             <h3>Oise (60)</h3>
           </div>
-          <div class="zone-short-desc">Très chaud, puis orages et baisse des températures</div>
+          <div class="zone-short-desc">Canicule brève, orages en fin de semaine</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -678,11 +585,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Très chaud, puis orages et baisse des températures</li><li><b>Températures :</b> Max 35-38°C mercredi, 28-30°C samedi</li><li><b>Pluie / Orages :</b> Des cumuls de Risque d'orages forts en fin de semaine sont évoqués localement vers Est du département plus chaud, sans pouvoir être généralisés à l'ensemble de la zone.</li><li><b>Période sensible :</b> Mercredi 29 – samedi 1</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, ICON • Secteurs : Est du département plus chaud • 2 mentions</li>
+          <li><b>Temps dominant :</b> Canicule brève, orages en fin de semaine</li><li><b>Températures :</b> Max 33-36°C lundi-mardi, puis 26-29°C</li><li><b>Pluie / Orages :</b> Orages possibles vendredi-samedi</li><li><b>Période sensible :</b> Vendredi 31</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : CEP, GEM • Secteurs : Oise • 2 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Intensité orageuse</span>
+          <span class="chip-uncert">Incertitude : Timing des orages</span>
         </div>
       </div>
     </details>
@@ -696,7 +603,7 @@
             <span class="zone-icon">🍇</span>
             <h3>Aisne (02)</h3>
           </div>
-          <div class="zone-short-desc">Très chaud, dégradation orageuse en fin</div>
+          <div class="zone-short-desc">Forte chaleur puis orages</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -705,11 +612,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Très chaud, dégradation orageuse en fin</li><li><b>Températures :</b> Max 35-38°C, puis 27-30°C</li><li><b>Pluie / Orages :</b> Des cumuls de Orages possibles vendredi-samedi sont évoqués localement vers Sud du département plus chaud, sans pouvoir être généralisés à l'ensemble de la zone.</li><li><b>Période sensible :</b> Jeudi 30 – samedi 1</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, GEM • Secteurs : Sud du département plus chaud • 2 mentions</li>
+          <li><b>Temps dominant :</b> Forte chaleur puis orages</li><li><b>Températures :</b> Max 33-36°C lundi-mardi, puis 25-28°C</li><li><b>Pluie / Orages :</b> Orages localement forts vendredi-samedi</li><li><b>Période sensible :</b> Vendredi 31</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, ICON • Secteurs : Aisne • 2 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Chronologie exacte</span>
+          <span class="chip-uncert">Incertitude : Risque de grêle</span>
         </div>
       </div>
     </details>
@@ -720,24 +627,24 @@
   <div id="sec-w1-timeline" class="section">
     <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 1</h2></div></div>
     <div class="timeline">
-      <div class="phase"><b>Lundi 27 – mardi 28</b><p>Pics de chaleur avec températures maximales dépassant 35°C, surtout dans l'intérieur. Nuits lourdes.</p></div>
-      <div class="phase"><b>Mercredi 29 – jeudi 30</b><p>Maintien de la chaleur, mais approche d'un front orageux par l'ouest en fin de journée de jeudi.</p></div>
-      <div class="phase"><b>Vendredi 31 – samedi 1</b><p>Dégradation orageuse active, rafraîchissement marqué, retour sous les 30°C.</p></div>
-      <div class="phase"><b>Dimanche 2 – début semaine 2</b><p>Accalmie relative, mais risque de remontée de la chaleur en cours de semaine suivante.</p></div>
+      <div class="phase"><b>Lundi 27 – Mardi 28 juillet</b><p>Pic de chaleur avec max 32-36°C, ciel dégagé.</p></div>
+      <div class="phase"><b>Mercredi 29 – Jeudi 30 juillet</b><p>Canicule persistante, dégradation orageuse possible en fin de phase.</p></div>
+      <div class="phase"><b>Vendredi 31 juillet – Samedi 1er août</b><p>Répit avec baisse des températures, orages résiduels.</p></div>
+      <div class="phase"><b>Dimanche 2 août</b><p>Temps calme, températures de saison, incertitude sur un retour de la chaleur.</p></div>
     </div>
   </div>
 
   <div class="section">
     <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 1)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Éléments solides</h3><p>1. Canicule brève et localisée en début de semaine (confiance modérée).
-2. Rafraîchissement net en fin de semaine pour l'ensemble des Hauts-de-France.
-3. Risque orageux en fin de semaine, avec possibilité de grêle.</p></div>
-      <div class="card"><h3>Éléments fragiles</h3><p>1. Localisation exacte des orages violents.
-2. Baisse des températures : plus ou moins rapide selon scénario.
-3. Relance de la chaleur par la dorsale anglaise en début de semaine 2.</p></div>
+      <div class="card"><h3>Éléments solides</h3><p>- Canicule brève confirmée lundi-mardi sur HDF.
+- Rafraîchissement notable à partir de vendredi.
+- Présence d'instabilité en fin de semaine.</p></div>
+      <div class="card"><h3>Éléments fragiles</h3><p>- Localisation exacte des orages.
+- Intensité du répit (possibilité de retour de la chaleur).
+- Fiabilité des modèles à long terme pour les orages.</p></div>
     </div>
-    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : Prochains runs GFS 12Z et ECMWF 00Z pour affiner le timing du rafraîchissement et le potentiel orageux. Les sorties haute résolution (AROME) à J+2 seront cruciales.</div>
+    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : Runs ICON et GFS pour affiner le timing des orages et le répit.</div>
   </div>
 
   <div id="sec-w1-images" class="section">
@@ -770,10 +677,10 @@
 
   <div class="section">
     <div class="section-head">
-      <div><span class="badge">À retenir</span><h2>Semaine 2 — Du Lundi 3 au Dimanche 9 Août 2026</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
+      <div><span class="badge">À retenir</span><h2>Semaine 2 — Du Lundi 3 Août au Dimanche 9 Août 2026</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
     </div>
     <div class="grid grid-2">
-      <div class="key"><i>💡</i><div><strong>Incertitude majeure</strong>Les modèles divergent fortement sur le comportement de la dépression irlandaise et l'orientation du flux.</div></div><div class="key"><i>🌡️</i><div><strong>Dégradé nord-ouest/sud-est</strong>Le nord-ouest des Hauts-de-France pourrait bénéficier d'un peu de fraîcheur océanique, tandis que l'est pourrait rester chaud.</div></div><div class="key"><i>🌡️</i><div><strong>Retour de la chaleur ?</strong>Plusieurs scénarios (GFS, CEP) envisagent une remontée de la chaleur en fin de semaine sur l'ensemble de la région.</div></div><div class="key"><i>🌡️</i><div><strong>Faible pluviométrie</strong>Peu de précipitations attendues, seulement quelques orages de chaleur localisés.</div></div><div class="key"><i>💨</i><div><strong>Attention incendies</strong>Vents changeants et sécheresse accrue pourraient favoriser les incendies de végétation.</div></div>
+      <div class="key"><i>🌡️</i><div><strong>Incertitude majeure</strong>Le régime de la semaine reste très indécis entre chaleur et répit.</div></div><div class="key"><i>🌡️</i><div><strong>Flux de sud-ouest</strong>Probable, apportant des bouffées de chaleur sur HDF.</div></div><div class="key"><i>🌡️</i><div><strong>Dégradé nord-ouest/sud-est</strong>HDF pourrait être moins chaud que le sud, mais variable.</div></div><div class="key"><i>⛈️</i><div><strong>Peu de précipitations</strong>Les orages restent rares, sauf localement en fin de semaine.</div></div><div class="key"><i>🌡️</i><div><strong>Modèles divergents</strong>CEP voit un partage de la France, GEFS un reflux de la chaleur.</div></div>
     </div>
   </div>
 
@@ -788,121 +695,28 @@
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">CEP (ECMWF – Européen)</div>
-              <span class="status-badge status-main">Documenté pour le scénario chaud</span>
+              <div class="model-name">CEP, GEFS, GEM, AIFS</div>
+              <span class="status-badge status-main">Absence de consensus clair, grande incertitude.</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">3</span>
-              <span class="chip">Run : Ensemble CEP (42 membres)</span>
-              <span class="chip">Du 3 au 9 août</span>
+              <span class="chip">6 mentions indirectes pour HDF.</span>
+              <span class="chip">Runs cités : 12z</span>
+              <span class="chip">Lundi-mardi : bouffée chaude ; mercredi : répit ; jeudi-vendredi : nouvelle bouffée ; week-end : incertain.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>CEP voit une crête atlantique et un marais barométrique sur la France, avec un flux de sud-ouest apportant de la chaleur sur tout le pays.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Fortes chaleurs persistantes, surtout au sud ; HDF en bordure : passages nuageux et chaleur.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Toute la France, accent sur le sud-est.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>CEP : crête atlantique, dégradé nord-ouest/sud-est, chaleur limitée au nord. GEFS : reflux de la canicule vers le sud, HDF plus tempéré. GEM : soutient CEP. AIFS : scénarios variés.</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Bouffées de chaleur lundi-mardi et jeudi-vendredi, répit entre, orages isolés.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Hauts-de-France, surtout Nord, Pas-de-Calais, Somme.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60%)</strong></div>
+              <div class="score-label">Extraction : <strong>Modérée (60-70%) pour tendance, faible pour détails.</strong></div>
               <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>petit âge glaciaire 11, tao, _sb</strong></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>CEP et GEM plutôt en accord, GEFS en divergence.</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                CEP maintient une masse d'air très chaude au sud-est, mais les Hauts-de-France seraient en limite : températures autour de 30°C, voire plus.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">GFS (Américain)</div>
-              <span class="status-badge status-main">Documenté (critiqué mais tendance suivie)</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">4</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Du 3 au 5 août puis retour de chaleur possible</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>GFS a considérablement évolué : après avoir surestimé la canicule en semaine 1, il propose désormais un flux plus océanique pour le nord, avec une baisse des températures.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Temps plus tempéré sur le nord, chaud au sud.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Tiers nord-ouest.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60%)</strong></div>
-              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>jt75, bruno50, meteo noobs, Jojobarbar</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                GFS et son ensemble montrent une poussée océanique en début de semaine, ramenant des températures plus proches des normales sur la moitié nord, mais la fiabilité est remise en cause.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">GEM (Canadien)</div>
-              <span class="status-badge status-main">Partiellement documenté</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">2</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Du 3 au 9</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>GEM rejoint CEP pour un dégradé nord-ouest/sud-est avec des fortes chaleurs au sud.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages de chaleur possibles dans l'est.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>France entière.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Faible (40%)</strong></div>
-              <div class="bar"><div class="fill" style="width:40%; background:var(--red);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>petit âge glaciaire 11</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                GEM confirme la persistance de la chaleur au sud, mais le nord pourrait être épargné localement ; détail pour HDF non précisé.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">AIFS (IA – ECMWF)</div>
-              <span class="status-badge status-main">Insuffisamment documenté pour HDF</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">1</span>
-              <span class="chip">Run : AIFS ENS</span>
-              <span class="chip">Début de semaine</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>AIFS ENS montre des scénarios extrêmes : certains runs prévoient un coup de chalumeau généralisé, d'autres un flux océanique marqué.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Variabilité extrême entre chaleur et fraîcheur.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Nord de la France.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Non estimable</strong></div>
-              <div class="bar" style="background:#e2e8f0;"></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Jojobarbar</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                AIFS ENS est mentionné pour illustrer la dispersion des scénarios ; pas de détails pour HDF.
+                Les modèles divergent sur la force de la dépression irlandaise, influençant la chaleur.
               </div>
             </details>
           </td>
@@ -918,12 +732,12 @@
   <div class="section">
     <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 2)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Ce qui converge</h3><p>1. Un gradient nord-ouest/sud-est est quasi certain : l'ouest du HDF sera moins chaud que l'est.
-2. La chaleur ne disparaît pas totalement ; un retour est possible en fin de semaine.
-3. Peu de précipitations, seulement quelques orages.</p></div>
-      <div class="card"><h3>Ce qui diverge</h3><p>1. Intensité de la poussée océanique en début de semaine : forte (GFS) ou faible (CEP) ?
-2. Durée : le rafraîchissement tient-il jusqu'au milieu de semaine ou juste un jour ?
-3. Fin de semaine : nouveau pic de chaleur (GFS, CEP) ou maintien de conditions océaniques ?</p></div>
+      <div class="card"><h3>Ce qui converge</h3><p>- Accord sur un flux de sud-ouest dominant.
+- Peu de précipitations significatives.
+- Possibilité de bouffées de chaleur alternant avec des passages plus frais.</p></div>
+      <div class="card"><h3>Ce qui diverge</h3><p>- Intensité et durée des bouffées de chaleur.
+- Localisation du dégradé (nord-ouest tempéré vs sud-est chaud).
+- Évolution en fin de semaine (retour de la canicule ou pas).</p></div>
     </div>
   </div>
 
@@ -936,25 +750,25 @@
     <details class="zone zone-accordion" open>
       <summary class="zone-summary">
         <div>
-          <span class="badge" style="margin-bottom:6px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>
+          
           <div class="zone-head" style="margin-bottom:2px;">
             <span class="zone-icon">🦁</span>
             <h3>Nord (59)</h3>
           </div>
-          <div class="zone-short-desc">Alternance de chaud et d'air océanique, incertain</div>
+          <div class="zone-short-desc">Bouffées de chaleur, alternance avec passages plus frais</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
-          <span class="chip-conf" style="font-size:10px;">Faible</span>
+          <span class="chip-conf" style="font-size:10px;">Modérée</span>
           <span class="zone-chevron">▼</span>
         </div>
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Alternance de chaud et d'air océanique, incertain</li><li><b>Températures :</b> Max 25-32°C selon scénario, nuits fraîches possibles</li><li><b>Pluie / Orages :</b> Faible risque d'orages en milieu de semaine</li><li><b>Période sensible :</b> Mardi 4 – mercredi 5 (poussée océanique)</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, CEP • Secteurs : Littoral plus frais • 2 mentions</li>
+          <li><b>Temps dominant :</b> Bouffées de chaleur, alternance avec passages plus frais</li><li><b>Températures :</b> Max 28-33°C selon les bouffées, min 16-20°C</li><li><b>Pluie / Orages :</b> Très peu de précipitations, orages isolés possibles</li><li><b>Vent :</b> Vent de sud-ouest modéré</li><li><b>Période sensible :</b> Lundi 3 et jeudi 6 août</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : CEP, GEM • Secteurs : Nord • 2 mentions</li>
         </ul>
         <div class="zone-foot">
-          <span class="chip-conf">Confiance : Faible</span>
-          <span class="chip-uncert">Incertitude : Couverture et durée du rafraîchissement</span>
+          <span class="chip-conf">Confiance : Modérée</span>
+          <span class="chip-uncert">Incertitude : Intensité des bouffées de chaleur</span>
         </div>
       </div>
     </details>
@@ -963,25 +777,25 @@
     <details class="zone zone-accordion" open>
       <summary class="zone-summary">
         <div>
-          <span class="badge" style="margin-bottom:6px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>
+          
           <div class="zone-head" style="margin-bottom:2px;">
             <span class="zone-icon">🌊</span>
             <h3>Pas-de-Calais (62)</h3>
           </div>
-          <div class="zone-short-desc">Chaud, possible fraîcheur océanique en début de semaine</div>
+          <div class="zone-short-desc">Alternance chaleur/répit, possiblement plus frais que le sud</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
-          <span class="chip-conf" style="font-size:10px;">Faible</span>
+          <span class="chip-conf" style="font-size:10px;">Modérée</span>
           <span class="zone-chevron">▼</span>
         </div>
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Chaud, possible fraîcheur océanique en début de semaine</li><li><b>Températures :</b> Max 24-30°C</li><li><b>Pluie / Orages :</b> Peu de pluie, orages peu probables</li><li><b>Période sensible :</b> Lundi 3 – mardi 4</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, CEP • Secteurs : Côte d'Opale • 2 mentions</li>
+          <li><b>Temps dominant :</b> Alternance chaleur/répit, possiblement plus frais que le sud</li><li><b>Températures :</b> Max 26-31°C, plus frais sur le littoral</li><li><b>Pluie / Orages :</b> Faible risque orageux, plutôt sec</li><li><b>Vent :</b> Vent d'ouest à sud-ouest</li><li><b>Période sensible :</b> Lundi 3 et jeudi 6</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : CEP, GEFS • Secteurs : Pas-de-Calais • 2 mentions</li>
         </ul>
         <div class="zone-foot">
-          <span class="chip-conf">Confiance : Faible</span>
-          <span class="chip-uncert">Incertitude : Intensité du rafraîchissement</span>
+          <span class="chip-conf">Confiance : Modérée</span>
+          <span class="chip-uncert">Incertitude : Influence maritime</span>
         </div>
       </div>
     </details>
@@ -990,25 +804,25 @@
     <details class="zone zone-accordion" open>
       <summary class="zone-summary">
         <div>
-          <span class="badge" style="margin-bottom:6px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>
+          
           <div class="zone-head" style="margin-bottom:2px;">
             <span class="zone-icon">🦆</span>
             <h3>Somme (80)</h3>
           </div>
-          <div class="zone-short-desc">Chaud, quelques périodes de ciel variable</div>
+          <div class="zone-short-desc">Bouffées de chaleur, peu de pluie</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
-          <span class="chip-conf" style="font-size:10px;">Faible</span>
+          <span class="chip-conf" style="font-size:10px;">Modérée</span>
           <span class="zone-chevron">▼</span>
         </div>
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Chaud, quelques périodes de ciel variable</li><li><b>Températures :</b> Max 26-33°C</li><li><b>Pluie / Orages :</b> Orages isolés possibles surtout vers le sud du département</li><li><b>Période sensible :</b> Jeudi 6 – vendredi 7 (possible retour de chaleur)</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : CEP • Secteurs : Département entier • 1 mentions</li>
+          <li><b>Temps dominant :</b> Bouffées de chaleur, peu de pluie</li><li><b>Températures :</b> Max 27-32°C, nuits douces</li><li><b>Pluie / Orages :</b> Orages très isolés</li><li><b>Période sensible :</b> Jeudi 6</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GEM, AIFS • Secteurs : Somme • 2 mentions</li>
         </ul>
         <div class="zone-foot">
-          <span class="chip-conf">Confiance : Faible</span>
-          <span class="chip-uncert">Incertitude : Évolution à 5 jours</span>
+          <span class="chip-conf">Confiance : Modérée</span>
+          <span class="chip-uncert">Incertitude : Position du dégradé</span>
         </div>
       </div>
     </details>
@@ -1017,25 +831,25 @@
     <details class="zone zone-accordion" open>
       <summary class="zone-summary">
         <div>
-          <span class="badge" style="margin-bottom:6px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>
+          
           <div class="zone-head" style="margin-bottom:2px;">
             <span class="zone-icon">🏰</span>
             <h3>Oise (60)</h3>
           </div>
-          <div class="zone-short-desc">Chaud à très chaud, surtout en fin de semaine</div>
+          <div class="zone-short-desc">Périodes chaudes, possiblement plus chaud que le nord</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
-          <span class="chip-conf" style="font-size:10px;">Faible</span>
+          <span class="chip-conf" style="font-size:10px;">Modérée</span>
           <span class="zone-chevron">▼</span>
         </div>
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Chaud à très chaud, surtout en fin de semaine</li><li><b>Températures :</b> Max 30-36°C</li><li><b>Pluie / Orages :</b> Orages de chaleur localisés possibles</li><li><b>Période sensible :</b> Dimanche 9 et au-delà</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, CEP • Secteurs : Sud du département plus chaud • 2 mentions</li>
+          <li><b>Temps dominant :</b> Périodes chaudes, possiblement plus chaud que le nord</li><li><b>Températures :</b> Max 30-34°C lors des bouffées</li><li><b>Pluie / Orages :</b> Sec, orages de chaleur très localisés</li><li><b>Période sensible :</b> Lundi 3</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : CEP, GEFS • Secteurs : Oise • 2 mentions</li>
         </ul>
         <div class="zone-foot">
-          <span class="chip-conf">Confiance : Faible</span>
-          <span class="chip-uncert">Incertitude : Degré de chaleur fin de semaine</span>
+          <span class="chip-conf">Confiance : Modérée</span>
+          <span class="chip-uncert">Incertitude : Durée des bouffées</span>
         </div>
       </div>
     </details>
@@ -1044,25 +858,25 @@
     <details class="zone zone-accordion" open>
       <summary class="zone-summary">
         <div>
-          <span class="badge" style="margin-bottom:6px; font-size:10px; background:#fef3c7; color:#92400e;">Informations partielles</span>
+          
           <div class="zone-head" style="margin-bottom:2px;">
             <span class="zone-icon">🍇</span>
             <h3>Aisne (02)</h3>
           </div>
-          <div class="zone-short-desc">Chaud, notamment en seconde partie de semaine</div>
+          <div class="zone-short-desc">Chaleur modérée, alternance</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
-          <span class="chip-conf" style="font-size:10px;">Faible</span>
+          <span class="chip-conf" style="font-size:10px;">Modérée</span>
           <span class="zone-chevron">▼</span>
         </div>
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Chaud, notamment en seconde partie de semaine</li><li><b>Températures :</b> Max 28-35°C</li><li><b>Pluie / Orages :</b> Quelques orages possibles en milieu-fin de semaine</li><li><b>Période sensible :</b> Jeudi 6 – vendredi 7</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GFS, CEP • Secteurs : Est du département plus chaud • 2 mentions</li>
+          <li><b>Temps dominant :</b> Chaleur modérée, alternance</li><li><b>Températures :</b> Max 29-33°C, baisse possible en milieu de semaine</li><li><b>Pluie / Orages :</b> Très faible probabilité de pluie</li><li><b>Période sensible :</b> Jeudi 6</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : GEM, AIFS • Secteurs : Aisne • 2 mentions</li>
         </ul>
         <div class="zone-foot">
-          <span class="chip-conf">Confiance : Faible</span>
-          <span class="chip-uncert">Incertitude : Maintien de la chaleur</span>
+          <span class="chip-conf">Confiance : Modérée</span>
+          <span class="chip-uncert">Incertitude : Évolution week-end</span>
         </div>
       </div>
     </details>
@@ -1073,24 +887,24 @@
   <div class="section">
     <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 2</h2></div></div>
     <div class="timeline">
-      <div class="phase"><b>Lundi 3 – mardi 4</b><p>Possible bouffée d'air océanique arrivant par l'ouest, températures en baisse sur le littoral.</p></div>
-      <div class="phase"><b>Mercredi 5 – jeudi 6</b><p>Retour progressif de la chaleur par le sud-est, zone de contraste sur HDF.</p></div>
-      <div class="phase"><b>Vendredi 7 – samedi 8</b><p>Possibilité d'accentuation de la chaleur avec un flux de sud-ouest plus marqué.</p></div>
-      <div class="phase"><b>Dimanche 9</b><p>Situation très floue, scénarios allant d'un temps chaud à un nouveau rafraîchissement.</p></div>
+      <div class="phase"><b>Lundi 3 – Mardi 4 août</b><p>Bouffée chaude, max 30-34°C, ciel variable.</p></div>
+      <div class="phase"><b>Mercredi 5 – Jeudi 6 août</b><p>Répit temporaire, températures en baisse, possible orage isolé.</p></div>
+      <div class="phase"><b>Vendredi 7 – Samedi 8 août</b><p>Nouvelle bouffée chaude, incertitude sur l'intensité.</p></div>
+      <div class="phase"><b>Dimanche 9 août</b><p>Incertain, possible retour de la chaleur ou dégradation.</p></div>
     </div>
   </div>
 
   <div class="section">
     <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 2)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Éléments solides</h3><p>1. Gradient de températures nord-ouest/sud-est sera présent.
-2. Peu de précipitations attendues sur HDF.
-3. Le début de semaine pourrait être plus frais que la fin.</p></div>
-      <div class="card"><h3>Éléments fragiles</h3><p>1. Intensité du rafraîchissement début de semaine très incertaine.
-2. Durée exacte de la période océanique.
-3. Possibilité d'un nouveau pic caniculaire en fin de semaine.</p></div>
+      <div class="card"><h3>Éléments solides</h3><p>- Flux de sud-ouest probable.
+- Peu de précipitations.
+- Alternance de bouffées chaudes et de répits.</p></div>
+      <div class="card"><h3>Éléments fragiles</h3><p>- Intensité exacte des bouffées de chaleur.
+- Localisation du dégradé nord-ouest/sud-est.
+- Évolution en toute fin de semaine.</p></div>
     </div>
-    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : Prochains runs ECMWF (00Z) et GFS (06Z) pour évaluer la force de la dépression irlandaise et la résistance de la crête atlantique.</div>
+    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : Runs CEP et GEFS pour affiner le scénario de la dépression irlandaise.</div>
   </div>
 
   <div class="section">
@@ -1128,7 +942,7 @@
         <div class="evolution-card">
             <h3>📈 Évolution de la confiance</h3>
             <div class="sparkline">
-                <div class="sparkline-row"><span>28/07 :</span> <span>███████░░░ Modérée</span></div>
+                <div class="sparkline-row"><span>29/07 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>29/07 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>29/07 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>29/07 :</span> <span>███████░░░ Modérée</span></div>
@@ -1139,26 +953,26 @@
             <h3>🌡️ Évolution des températures</h3>
             <div class="sparkline">
                 
-            <div class="sparkline-row"><span>Précédent run :</span> <span>Chaud puis orages violents possibles en fin de semaine, avec une baisse des températures. (100 caractères)</span></div>
-            <div class="sparkline-row"><span>Run actuel :</span> <span>Orages localement forts et grêle possibles en fin de semaine sur le nord de la France.</span></div>
-            <div class="sparkline-row"><span>Évolution :</span> <span><span class="trend-pill trend-up">➡️ Évolution</span></span></div>
+            <div class="sparkline-row"><span>Précédent run :</span> <span>Orages localement forts et grêle possibles en fin de semaine sur le nord de la France.</span></div>
+            <div class="sparkline-row"><span>Run actuel :</span> <span>Canicule lundi-mardi, orages localement violents jeudi-samedi, grêle possible.</span></div>
+            <div class="sparkline-row"><span>Évolution :</span> <span><span class="trend-pill trend-up">⬆ Renforcement</span></span></div>
             
             </div>
         </div>
     </div>
 
     <div class="grid grid-2">
-      <div class="card"><h3>Évolution générale</h3><p>Sur les deux semaines : alternance d'une canicule brève suivie d'un répit orageux, puis d'une nouvelle période très incertaine avec un possible retour de la chaleur en semaine 2. Les Hauts-de-France seront en première ligne des contrastes géographiques.</p></div>
-      <div class="card"><h3>Semaine la plus fiable</h3><p>Semaine 1, mieux cernée grâce à l'approche court-terme des modèles.</p></div>
-      <div class="card"><h3>Phénomènes récurrents</h3><p>Orages localisés en fin de W1, puis faible pluviométrie ; alternance de flux de sud-ouest chaud et de poussées océaniques.</p></div>
-      <div class="card"><h3>Incertitude majeure</h3><p>1. Intensité des orages fin W1. 2. Poussée océanique en W2. 3. Retour de la canicule en fin de W2.</p></div>
+      <div class="card"><h3>Évolution générale</h3><p>Alternance d'une canicule brève suivie d'un répit orageux en semaine 1, puis une semaine 2 très incertaine avec un flux de sud-ouest dominant, bouffées de chaleur et peu de pluie.</p></div>
+      <div class="card"><h3>Semaine la plus fiable</h3><p>Semaine 1 (plus de consensus sur le schéma canicule-répit).</p></div>
+      <div class="card"><h3>Phénomènes récurrents</h3><p>Canicule, orages localisés, bouffées de chaleur.</p></div>
+      <div class="card"><h3>Incertitude majeure</h3><p>Évolution de la semaine 2, localisation des orages en semaine 1.</p></div>
     </div>
   </div>
 
   <div class="section">
     <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn</h2></div></div>
     <div class="linkedin-box">
-      <div id="linkedin" class="linkedin">🌦️ Précisions pour les Hauts-de-France sur les 15 jours à venir : après une canicule brève et orages violents possibles, place à une semaine 2 très incertaine avec un possible retour de la chaleur. Suivez les prochains runs ! #Météo #HautsdeFrance #Canicule #Prévisions</div>
+      <div id="linkedin" class="linkedin">🌤️ Prévisions météo Hauts-de-France : Semaine 1 sous le signe d'une canicule brève (lundi-mardi) suivie d'orages et d'un répit. Semaine 2 très incertaine, avec un flux de sud-ouest apportant des bouffées de chaleur. Restez prudents, la météo est capricieuse ! #Météo #HautsdeFrance #Canicule #Prévisions</div>
     </div>
   </div>
 </section>
@@ -1170,12 +984,12 @@
       💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté des informations. Le <i>soutien du scénario</i> qualifie le niveau d'accord entre les modélisations sans chiffre artificiel.
     </div>
     <div class="grid grid-2">
-      <div class="card"><h3>Calendrier</h3><p>Doutes sur la chronologie et le timing des phénomènes HDF. L'arrivée exacte du rafraîchissement en S1 (vendredi vs samedi) et sur la fenêtre océanique en S2.</p></div>
-      <div class="card"><h3>Localisation</h3><p>Doutes sur la localisation précise HDF. La distinction littoral/intérieur pour les orages et la fraîcheur reste floue.</p></div>
-      <div class="card"><h3>Intensité</h3><p>Doutes sur l'intensité HDF. Les orages pourraient être violents localement mais leur occurrence exacte est incertaine. Pour la chaleur en S2, l'intensité du pic est très variable selon les modèles.</p></div>
-      <div class="card"><h3>Données manquantes</h3><p>Informations importantes non abordées ou manquantes. Aucune discussion sur les vents précis, le risque de grêle localisé, ou les phénomènes de foehn potentiels dans l'Aisne.</p></div>
-      <div class="card"><h3>Modèles peu documentés</h3><p>Modèles peu ou pas commentés par les membres. ARPEGE, AROME, JMA, UKMO (pour la S2) n'ont pas été cités pour les zones HDF.</p></div>
-      <div class="card"><h3>Images incertaines</h3><p>Incertitudes sur les graphiques. Les diagrammes postés (températures à 850hPa) montrent des tendances mais pas de cartes de précipitations ou de localisation fine.</p></div>
+      <div class="card"><h3>Calendrier</h3><p>Doutes sur la chronologie des orages en semaine 1 et sur le timing des bouffées de chaleur en semaine 2.</p></div>
+      <div class="card"><h3>Localisation</h3><p>Localisation précise des orages en semaine 1 et du dégradé thermique en semaine 2 (HDF vs autres régions).</p></div>
+      <div class="card"><h3>Intensité</h3><p>Intensité des orages (grêle) et des bouffées de chaleur.</p></div>
+      <div class="card"><h3>Données manquantes</h3><p>Peu d'informations sur les vents, la nébulosité, et les conditions sur le littoral.</p></div>
+      <div class="card"><h3>Modèles peu documentés</h3><p>Modèles ARPEGE, UKMO peu commentés pour HDF en semaine 2.</p></div>
+      <div class="card"><h3>Images incertaines</h3><p>Aucune image disponible pour étayer les prévisions.</p></div>
     </div>
   </div>
 </section>
