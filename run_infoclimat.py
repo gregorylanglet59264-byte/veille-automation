@@ -1313,6 +1313,14 @@ Une phrase courte
 [DOUBTS_END]
 """
 
+    # Multi-source enrichment payload
+    try:
+        from multi_source_enricher import get_enriched_sources_context
+        ms_national_ctx = get_enriched_sources_context("France")
+    except Exception as e:
+        print("Notice: Could not load multi_source_enricher for national prompt:", e)
+        ms_national_ctx = ""
+
     user_prompt = f"""Date actuelle de génération : {today_str}
 Saison en France : {saison_actuelle.upper()}
 
@@ -1323,6 +1331,9 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 - Sujet 1 exploité : {week1_data["title_clean"]}
 - Sujet 2 exploité : {week2_data["title_clean"]} {w2_notice}
+
+=== SOURCES COMPLÉMENTAIRES (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
+{ms_national_ctx}
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 {last_bulletin_context}
@@ -1475,8 +1486,13 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     linkedin_raw = extract_tag(global_content, "LINKEDIN_POST")
     linkedin_clean = clean_text_typos(linkedin_raw).replace('<br>', '\n').replace('<br/>', '\n')
 
-    # === APPEL LLM HDF ===
-    print("\n[LLM] Appel pour la région Hauts-de-France (HDF)...")
+    # Multi-source enrichment payload HDF
+    try:
+        ms_hdf_ctx = get_enriched_sources_context("Hauts-de-France")
+    except Exception as e:
+        print("Notice: Could not load multi_source_enricher for HDF prompt:", e)
+        ms_hdf_ctx = ""
+
     user_prompt_hdf = f"""Date actuelle de génération : {today_str}
 Saison en France : {saison_actuelle.upper()}
 
@@ -1487,6 +1503,9 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 - Sujet 1 exploité : {week1_data["title_clean"]}
 - Sujet 2 exploité : {week2_data["title_clean"]} {w2_notice}
+
+=== SOURCES COMPLÉMENTAIRES HDF (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
+{ms_hdf_ctx}
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 {last_bulletin_hdf_context}
