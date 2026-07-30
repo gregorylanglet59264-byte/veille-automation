@@ -15,6 +15,7 @@ sys.path.append(os.path.dirname(__file__))
 import meteo_core
 
 REGIONS = {
+    "nord-pas-de-calais": ["59", "62"],
     "hauts-de-france": ["02", "59", "60", "62", "80"],
     "ile-de-france": ["75", "77", "78", "91", "92", "93", "94", "95"],
     "normandie": ["14", "27", "50", "61", "76"],
