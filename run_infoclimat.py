@@ -1351,6 +1351,17 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 {week2_data["comments_text"]}
 """
 
+    # Sauvegarde intégrale des sources brutes en fichier TXT (National)
+    try:
+        with open("sources_raw_national.txt", "w", encoding="utf-8") as f_src_nat:
+            f_src_nat.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL ({today_str}) ===\n\n{user_prompt}")
+        os.makedirs("public", exist_ok=True)
+        with open(os.path.join("public", "sources_national.txt"), "w", encoding="utf-8") as f_pub_nat:
+            f_pub_nat.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL ({today_str}) ===\n\n{user_prompt}")
+        print("Fichiers TXT de sources brutes nationales générés avec succès : sources_raw_national.txt & ./public/sources_national.txt")
+    except Exception as e_txt_nat:
+        print("Notice: Erreur écriture TXT sources nationales :", e_txt_nat)
+
     response = call_llm(system_prompt, user_prompt)
     if not response:
         print("[LLM] ERREUR : Pas de réponse du LLM.")
@@ -1522,6 +1533,17 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 ({w2_dates_calculated}) ===
 {week2_data["comments_text"]}
 """
+
+    # Sauvegarde intégrale des sources brutes en fichier TXT (Hauts-de-France)
+    try:
+        with open("sources_raw_hdf.txt", "w", encoding="utf-8") as f_src_hdf:
+            f_src_hdf.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE ({today_str}) ===\n\n{user_prompt_hdf}")
+        os.makedirs("public", exist_ok=True)
+        with open(os.path.join("public", "sources_hdf.txt"), "w", encoding="utf-8") as f_pub_hdf:
+            f_pub_hdf.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE ({today_str}) ===\n\n{user_prompt_hdf}")
+        print("Fichiers TXT de sources brutes HDF générés avec succès : sources_raw_hdf.txt & ./public/sources_hdf.txt")
+    except Exception as e_txt_hdf:
+        print("Notice: Erreur écriture TXT sources HDF :", e_txt_hdf)
 
     response_hdf = call_llm(system_prompt_hdf, user_prompt_hdf)
     if not response_hdf:

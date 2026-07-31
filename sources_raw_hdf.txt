@@ -1,0 +1,19 @@
+=== REGISTRE COMPLET DES SOURCES ET DONNÉES BRUTES HAUTS-DE-FRANCE ===
+
+
+=== BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
+• Bulletin Marine Officiel Météo-France [DEPT59-62-80] : FQCT40 LFQQ 311615 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de la frontire belge la baie de Somme. Emis le vendredi 31 juillet 2026 18H00 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprie
+
+=== EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===
+• Météo-Lille Séchet : Utiliser ma positionRechercherRechercherSites expertisésContactfrMenu des languesMenu utilisateurBulletin FranceWeek-end15 joursAlerte 8 joursPrévi. saisonPluiesNuagesOragesStation LilleVotre quartierWebcamsNos articlesX (Twitter)ChroniqueAlmanachCli
+
+=== OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Juillet 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
+• Infoclimat Direct : Recensement des tornades en France
+
+=== INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
+• Indicateur Thermique National (ITN 14 jours au 31/07/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).

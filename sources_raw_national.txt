@@ -1,0 +1,19 @@
+=== REGISTRE COMPLET DES SOURCES ET DONNÉES BRUTES NATIONALES ===
+
+
+=== BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
+• Bulletin Marine Officiel Météo-France [DEPT13-83] : FQCT40 LFML 311610 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de Port-Camargue Saint-Raphal. Emis le vendredi 31 juillet 2026 18H30 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprieures de 
+
+=== EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===
+Expertise Guillaume Séchet (Météo-Villes) intégrée.
+
+=== OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Juillet 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
+• Infoclimat Direct : Recensement des tornades en France
+
+=== INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
+• Indicateur Thermique National (ITN 14 jours au 31/07/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
