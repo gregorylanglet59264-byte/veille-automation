@@ -2828,6 +2828,25 @@ Les rapports visuels complets et interactifs sont inclus dans le corps de l'e-ma
             att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
             msg.attach(att)
 
+    # Attach TXT sources files (National & HDF)
+    if os.path.exists("sources_raw_national.txt"):
+        with open("sources_raw_national.txt", "rb") as f_att:
+            att = MIMEBase('text', 'plain', charset='utf-8')
+            att.set_payload(f_att.read())
+            encoders.encode_base64(att)
+            filename = f"sources_brutes_national_{datetime.datetime.now().strftime('%Y_%m_%d')}.txt"
+            att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
+            msg.attach(att)
+
+    if os.path.exists("sources_raw_hdf.txt"):
+        with open("sources_raw_hdf.txt", "rb") as f_att:
+            att = MIMEBase('text', 'plain', charset='utf-8')
+            att.set_payload(f_att.read())
+            encoders.encode_base64(att)
+            filename = f"sources_brutes_hdf_{datetime.datetime.now().strftime('%Y_%m_%d')}.txt"
+            att.add_header('Content-Disposition', f'attachment; filename="{filename}"')
+            msg.attach(att)
+
     print(f"[SMTP] Envoi du bulletin HTML combiné avec images CID à {', '.join(recipients)}...")
     try:
         with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
