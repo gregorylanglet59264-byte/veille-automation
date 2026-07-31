@@ -14,18 +14,19 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 === SOURCES COMPLÉMENTAIRES HDF (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
-• Bulletin Marine Officiel Météo-France [DEPT59-62-80] : FQCT40 LFQQ 311615 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de la frontire belge la baie de Somme. Emis le vendredi 31 juillet 2026 18H00 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprie
+• Bulletin Marine Officiel Météo-France [DEPT59-62-80] :
+FQCT40 LFQQ 311615 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de la frontire belge la baie de Somme. Emis le vendredi 31 juillet 2026 18H00 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prvu. 2 - Situation gnrale vendredi 31 juillet 2026 12H00 UTC, et volution Anticyclone 1023 hPa au large de la Bretagne, s'tendant lentement vers l'est, puis prvu en mer du Nord dimanche midi. Faible gradient de pression autour de 1015 hPa sur l'Allemagne. Zone de basse pression se creusant 1012 hPa sur la moiti sud de la France dimanche. 3 - Prvisions pour la nuit du vendredi 31 juillet au samedi 1 aot VENT : devenant Variable 2 3, parfois 4 en soire. MER : belle peu agite. HOULE : non significative. TEMPS : ciel peu nuageux, parfois voile. VISIBILITE : bonne. 4 - Prvisions pour la journe du samedi 1 aot VENT : s'orientant secteur Nord-Ouest dominant 2 4 en matine, puis Nord-Est dominant en mer du Nord l'aprs-midi. MER : belle. HOULE : non significative. TEMPS : passagrement nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 1 au 2, et la journe du dimanche 2 aot VENT : secteur Est 3 4, frachissant Nord-Est 4 5 la mi-journe, avec rafales l'aprs-midi. MER : belle, devenant progressivement peu agite en journe. HOULE : non significative. TEMPS : voil. VISIBILITE : bonne. 6 - Prvisions pour la nuit du 2 au 3 et la journe du lundi 3 aot VENT : Est Nord-Est 4 5, localement 6 en Manche. MER : peu agite. HOULE : En mer du nord houle dominante de Nord-Est 0,5 1 m. En Manche houle d'Ouest infrieure 1 m, s'orientant en milieu d'aprs-midi au Sud-Est. 7 - Tendance pour les jours suivants Mardi 4 aot secteur Sud-Ouest faible modr. Indice de confiance : 3 sur 5 Mercredi 5 aot secteur Sud-Ouest faible modr. Indice de confiance : 3 sur 5 Jeudi 6 aot variable faible. Indice de confiance : 3 sur 5 Vendredi 7 aot variable faible modr. Indice de confiance : 2 sur 5 8 - Observations le vendredi 31 juillet 2026 15H00 UTC Dunkerque : vent Nord 10 noeuds, mer peu agite, 1018 hPa en hausse, trs nuageux couvert, visibilit 7 milles. Cap Gris Nez : vent Nord-Est 12 noeuds. Boulogne : vent Nord 10 noeuds, 1018 hPa en hausse. Boue Sandettie : vent Nord-Nord-Est 12 noeuds, creux 0,3 mtre, 1018 hPa en baisse, visibilit 10 milles. Prochain bulletin le samedi 1 aot 2026, vers 06H30 lgales
 
 === EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===
-• Météo-Lille Séchet : Utiliser ma positionRechercherRechercherSites expertisésContactfrMenu des languesMenu utilisateurBulletin FranceWeek-end15 joursAlerte 8 joursPrévi. saisonPluiesNuagesOragesStation LilleVotre quartierWebcamsNos articlesX (Twitter)ChroniqueAlmanachCli
+• Guillaume Séchet (Météo-Lille) : Vos dons sont indispensables pour préserver la gratuité du site. Si vous appréciez la précision de nos prévisions et la qualité de nos contenus, soutenez-nous : sans votre aide, ce service ne pourra pas continuer durablement.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Juillet 2026
+• Infoclimat Direct : Prévisions Sud Ouest - Juillet 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
-• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Juillet 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/07/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -33,22 +34,12 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 31 Juillet 2026.
-Résumé général HDF précédent : Tendance très chaude et sèche sur l'ensemble des Hauts-de-France. Les températures resteront au-dessus des normales, avec un risque orageux localisé en fin de semaine 1. La semaine 2 pourrait voir un regain de chaleur, mais les incertitudes sont fortes faute de sujet dédié..
+Résumé général HDF précédent : Tendance globale à un temps très chaud et sec pour les 15 prochains jours sur les Hauts-de-France. Une possible, mais incertaine, dégradation orageuse est à surveiller en toute fin de première semaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Températures maximales de 30 à 35°C, minimales de 18 à 22°C. Risque d'orages localisés..
+Températures attendues précédemment : Temps très chaud et sec. Risque d'orages localisés en toute fin de semaine (vers le 7-9 août)..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: waingro
-Message:
-il y a 11 minutes, Sebaas a dit :
-			Euh je trouve la question et vos réponses assez déplacées en fait. Il est bien normal que les topics hebdo s'animent quand la synoptique tend à sérieusement dérailler de la climatologie, pas par excitation, pas par rêve de battre des records, mais simplement pour essayer de comprendre et d'expliquer les mécanismes qui nous conduisent à ces excès! Ils ont également été très lus par des milliers de personnes "grand public" qui ont cherché (et trouvé!) des informations fiables pour tenter d'anticiper ce qui allait se passer loin des conneries des médias et des RS. Ces dernières semaines ont été éprouvantes pour tout le monde, mais on a ENORMEMENT appris, et surtout on a pour beaucoup compris par les faits ce que les climatologues nous annoncent depuis des années!
-			J'en profite d'ailleurs pour remercier tous les intervenants qui, chacun à leur façon, ont contribué à ces topics estivaux qui génèrent désormais plus de réponses et de vues que les hivernaux (si ça c'est pas un marqueur du RC...)
-	Ma réponse est peut être exagérée mais il y a quand même une part importante de message qui sont des cartes déterministes volontiers bouillantes à des échéances très lointaines à l'image de ce qu'on voit en période hivernale..mais il y a d'autres messages très détaillés effectivement qui permettent de comprendre beaucoup de choses pour des profanes comme moi 😉
-								1
-
-=======================
-
 Auteur: trugll
 Message:
 il y a une heure, Jack75 a dit :
@@ -248,18 +239,16 @@ Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bie
 								1
 								1
 								1
+
+=======================
+
+Auteur: mike
+Message:
+il y a 21 minutes, faycal a dit :
+			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
+	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: waingro
-Message:
-il y a 11 minutes, Sebaas a dit :
-			Euh je trouve la question et vos réponses assez déplacées en fait. Il est bien normal que les topics hebdo s'animent quand la synoptique tend à sérieusement dérailler de la climatologie, pas par excitation, pas par rêve de battre des records, mais simplement pour essayer de comprendre et d'expliquer les mécanismes qui nous conduisent à ces excès! Ils ont également été très lus par des milliers de personnes "grand public" qui ont cherché (et trouvé!) des informations fiables pour tenter d'anticiper ce qui allait se passer loin des conneries des médias et des RS. Ces dernières semaines ont été éprouvantes pour tout le monde, mais on a ENORMEMENT appris, et surtout on a pour beaucoup compris par les faits ce que les climatologues nous annoncent depuis des années!
-			J'en profite d'ailleurs pour remercier tous les intervenants qui, chacun à leur façon, ont contribué à ces topics estivaux qui génèrent désormais plus de réponses et de vues que les hivernaux (si ça c'est pas un marqueur du RC...)
-	Ma réponse est peut être exagérée mais il y a quand même une part importante de message qui sont des cartes déterministes volontiers bouillantes à des échéances très lointaines à l'image de ce qu'on voit en période hivernale..mais il y a d'autres messages très détaillés effectivement qui permettent de comprendre beaucoup de choses pour des profanes comme moi 😉
-								1
-
-=======================
-
 Auteur: trugll
 Message:
 il y a une heure, Jack75 a dit :
@@ -459,3 +448,11 @@ Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bie
 								1
 								1
 								1
+
+=======================
+
+Auteur: mike
+Message:
+il y a 21 minutes, faycal a dit :
+			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
+	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois

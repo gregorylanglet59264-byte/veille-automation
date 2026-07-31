@@ -37,7 +37,7 @@ def get_live_meteotel_xml(region_name="France"):
                 text = re.sub(r'<[^>]+>', ' ', raw_xml)
                 text = re.sub(r'\s+', ' ', text).strip()
                 if len(text) > 40:
-                    xml_summaries.append(f"• Bulletin Officiel Météo-France [{dept}] : {text[:350]}")
+                    xml_summaries.append(f"• Bulletin Officiel Météo-France [{dept}] :\n{text}")
         except Exception as e:
             print(f"Notice: Meteotel XML {dept} fetch error: {e}")
             
@@ -50,7 +50,7 @@ def get_live_meteotel_xml(region_name="France"):
             text = re.sub(r'<[^>]+>', ' ', raw_xml)
             text = re.sub(r'\s+', ' ', text).strip()
             if len(text) > 40:
-                xml_summaries.append(f"• Bulletin Marine Officiel Météo-France [{marine_dept}] : {text[:350]}")
+                xml_summaries.append(f"• Bulletin Marine Officiel Météo-France [{marine_dept}] :\n{text}")
     except Exception:
         pass
         
@@ -58,27 +58,27 @@ def get_live_meteotel_xml(region_name="France"):
 
 # 2. Guillaume Séchet / Météo-Villes Live Scraper
 def get_sechet_live_data(region_name="France"):
-    url_mv = "https://www.meteo-villes.com/"
+    url_mv = "https://www.meteo-villes.com/actualites"
     html = fetch_html_safe(url_mv)
     
     sechet_snippets = []
     if html:
-        # Extract article links & headlines
-        headlines = re.findall(r'<a[^>]+href=["\'](https?://www.meteo-villes.com/[^"\']+)["\'][^>]*>(.*?)</a>', html, re.IGNORECASE)
-        for link, title in headlines[:6]:
+        # Extract article titles
+        articles = re.findall(r'<h[23][^>]*>\s*<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>\s*</h[23]>', html, re.IGNORECASE)
+        for link, title in articles[:6]:
             clean_t = re.sub(r'<[^>]+>', '', title).strip()
-            if len(clean_t) > 25 and not any(k in clean_t.lower() for k in ["connexion", "inscription", "contact", "mentions", "pub"]):
-                sechet_snippets.append(f"• Guillaume Séchet (Météo-Villes) : {clean_t}")
+            if len(clean_t) > 15:
+                sechet_snippets.append(f"• Guillaume Séchet (Actualité Météo-Villes) : {clean_t}")
                 
     # Also fetch regional site if HDF
     if any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD"]):
         html_lille = fetch_html_safe("https://www.meteo-lille.net/")
         if html_lille:
-            p_texts = re.findall(r'<p[^>]*>(.*?)</p>', html_lille, re.DOTALL)
-            for p in p_texts:
+            paras = re.findall(r'<p[^>]*>(.*?)</p>', html_lille, re.DOTALL)
+            for p in paras:
                 clean_p = re.sub(r'<[^>]+>', '', p).strip()
-                if len(clean_p) > 50 and "météo" in clean_p.lower():
-                    sechet_snippets.append(f"• Météo-Lille Séchet : {clean_p[:250]}")
+                if len(clean_p) > 60 and not any(k in clean_p.lower() for k in ["rechercher", "menu", "contact", "position"]):
+                    sechet_snippets.append(f"• Guillaume Séchet (Météo-Lille) : {clean_p}")
                     break
                     
     return "\n".join(sechet_snippets) if sechet_snippets else "Expertise Guillaume Séchet (Météo-Villes) intégrée."
