@@ -9,8 +9,271 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
-• Bulletin Marine Officiel Météo-France [DEPT59-62-80] :
-FQCT40 LFQQ 311615 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de la frontire belge la baie de Somme. Emis le vendredi 31 juillet 2026 18H00 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prvu. 2 - Situation gnrale vendredi 31 juillet 2026 12H00 UTC, et volution Anticyclone 1023 hPa au large de la Bretagne, s'tendant lentement vers l'est, puis prvu en mer du Nord dimanche midi. Faible gradient de pression autour de 1015 hPa sur l'Allemagne. Zone de basse pression se creusant 1012 hPa sur la moiti sud de la France dimanche. 3 - Prvisions pour la nuit du vendredi 31 juillet au samedi 1 aot VENT : devenant Variable 2 3, parfois 4 en soire. MER : belle peu agite. HOULE : non significative. TEMPS : ciel peu nuageux, parfois voile. VISIBILITE : bonne. 4 - Prvisions pour la journe du samedi 1 aot VENT : s'orientant secteur Nord-Ouest dominant 2 4 en matine, puis Nord-Est dominant en mer du Nord l'aprs-midi. MER : belle. HOULE : non significative. TEMPS : passagrement nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 1 au 2, et la journe du dimanche 2 aot VENT : secteur Est 3 4, frachissant Nord-Est 4 5 la mi-journe, avec rafales l'aprs-midi. MER : belle, devenant progressivement peu agite en journe. HOULE : non significative. TEMPS : voil. VISIBILITE : bonne. 6 - Prvisions pour la nuit du 2 au 3 et la journe du lundi 3 aot VENT : Est Nord-Est 4 5, localement 6 en Manche. MER : peu agite. HOULE : En mer du nord houle dominante de Nord-Est 0,5 1 m. En Manche houle d'Ouest infrieure 1 m, s'orientant en milieu d'aprs-midi au Sud-Est. 7 - Tendance pour les jours suivants Mardi 4 aot secteur Sud-Ouest faible modr. Indice de confiance : 3 sur 5 Mercredi 5 aot secteur Sud-Ouest faible modr. Indice de confiance : 3 sur 5 Jeudi 6 aot variable faible. Indice de confiance : 3 sur 5 Vendredi 7 aot variable faible modr. Indice de confiance : 2 sur 5 8 - Observations le vendredi 31 juillet 2026 15H00 UTC Dunkerque : vent Nord 10 noeuds, mer peu agite, 1018 hPa en hausse, trs nuageux couvert, visibilit 7 milles. Cap Gris Nez : vent Nord-Est 12 noeuds. Boulogne : vent Nord 10 noeuds, 1018 hPa en hausse. Boue Sandettie : vent Nord-Nord-Est 12 noeuds, creux 0,3 mtre, 1018 hPa en baisse, visibilit 10 milles. Prochain bulletin le samedi 1 aot 2026, vers 06H30 lgales
+=== BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
+Emis le : 31/07/2026 16:45
+
+Vigilance :
+Aujourd'hui et demain, le département du Nord est en vigilance verte.
+
+Observations :
+Aujourd'hui on observait à 16h :
+A Lille-Lesquin : température de 27 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1016 hPa.
+A Dunkerque : température de 22 degrés, vent de secteur Nord soufflant jusqu'à 30 km/h.
+
+Prévisions pour les tout prochains jours :
+
+• Pour cette nuit :
+La nuit est généralement bien étoilée. Vers minuit et un peu après, des nuages, qui restent discrets, se développent, sur l'Avesnois, le Valenciennois et le Cambrésis.
+En début de nuit, vent de Nord soufflant modérément, de la métropole lilloise à l'Avesnois ; puis atténuation.
+Températures minimales : dans l'intérieur entre 12 et 14 degrés. 17 degrés en Flandre maritime.
+
+• Pour demain samedi 01 août en journée et la nuit suivante :
+La matinée est ensoleillée. Le ciel se voile l'après-midi. Pour la nuit : Au fil des heures, les nuages se font de plus en plus discrets. Le ciel est étoilé, plus particulièrement après minuit.
+Vent de Nord à Nord-Est modéré, en journée et début de nuit ; puis s'atténuant.
+Températures maximales pour le jour : dans l'intérieur de 25 à 27 degrés. 23 degrés en Flandre maritime.
+Températures minimales pour la nuit suivante : dans l'intérieur entre 13 et 15 degrés. 17 degrés en Flandre maritime.
+
+• Pour la journée de dimanche 02 et la nuit suivante :
+Le soleil est généreux de son lever à son coucher. Quelques nuages circulent ça et là en fin de journée. Pour la nuit : Le ciel est voilé, mais laisse apparaître les étoiles.
+L'après-midi et la nuit suivante, établissement d'un vent d'Est à Nord-Est, souvent modéré.
+Températures maximales pour le jour : dans l'intérieur de 28 à 30 degrés. 25 degrés en Flandre maritime.
+Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 14 et 17 degrés. 19 degrés en Flandre maritime.
+
+• Pour la journée de lundi 03 :
+Le temps est souvent ensoleillé. En fin d'après-midi, des orages accompagnés de pluies se forment par places sur l'Avesnois.
+L'après-midi jusqu'en début de soirée, établissement d'un vent d'Est-Nord-Est tournant secteur Est, modéré.
+Températures maximales : de la métropole lilloise à l'Avesnois entre 32 et 33 degrés. De 26 à 29 degrés en Flandres. Ces températures sont au-dessus des valeurs de saison, localement bien au-dessus.
+
+• Pour mardi 04 et mercredi 05 :
+Temps plutôt ensoleillé, en dépit de quelques passages nuageux ; risque de pluie ou d'averses de mardi matin jusqu'en fin de journée et de mercredi matin jusqu'en fin de journée.
+Vent modéré, d'Est-Nord-Est virant Sud-Ouest.
+Températures minimales : voisines de 18 degrés.
+Températures maximales : dans l'intérieur comprises entre 30 et 32 degrés. 27 degrés en Flandre maritime. Ces températures se situent au-dessus des valeurs de saison.
+
+• Pour jeudi 06 et vendredi 07 :
+Soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Vent modéré, de secteur Ouest jusqu'en fin de journée de jeudi ; et de Nord à Nord-Est, de la matinée de vendredi jusqu'en début de nuit suivante.
+Températures minimales : de 15 à 17 degrés.
+Températures maximales : dans l'intérieur comprises entre 26 et 28 degrés. 24 degrés en Flandre maritime.
+
+• Pour samedi 08 et dimanche 09 :
+En Flandre maritime, sur la région lilloise et le Douaisis ainsi que sur l'Avesnois, risque de pluie ou d'averses de samedi matin jusqu'en fin de journée. Sur les autres régions, le soleil brille généreusement.
+Jusqu'à dimanche en fin de journée, vent de Nord-Est, modéré.
+Températures minimales : stables.
+Températures maximales : en baisse en Flandre intérieure ainsi que sur la région lilloise et le Douaisis.
+
+=== BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
+Emis le : 31/07/2026 16:45
+
+Vigilance :
+Aujourd'hui et demain, le département du Pas-de-Calais est en vigilance verte.
+
+Observations :
+Aujourd'hui on observait à 16h :
+A Arras : température de 26 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 30 km/h.
+A Boulogne-Sémaphore : température de 22 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 30 km/h.
+
+Prévisions pour les tout prochains jours :
+
+• Pour cette nuit :
+La nuit est belle, le plus souvent étoilée.
+En début de nuit, vent de Nord-Nord-Est soufflant modérément, sur la plaine d'Arras ; puis atténuation.
+Températures minimales : comprises entre 12 et 14 degrés, et 10 degrés de l'Audomarois au Béthunois.
+
+• Pour demain samedi 01 août en journée et la nuit suivante :
+La matinée est ensoleillée. Le ciel se voile l'après-midi. Pour la nuit : Les nuages présents en soirée se dissipent en première partie de nuit, puis laissent toute la place aux étoiles.
+En journée et début de nuit, vent de Nord à Nord-Est virant Nord-Nord-Est, modéré ; puis faiblissant.
+Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres comprises entre 24 et 27 degrés. 23 degrés près de la Mer du Nord.
+Températures minimales pour la nuit suivante : de 11 à 14 degrés.
+
+• Pour la journée de dimanche 02 et la nuit suivante :
+Le soleil, très présent le matin, est moins éclatant l'après-midi, souvent voilé par des passages de nuages élevés. Pour la nuit : Le ciel est généralement voilé.
+Vent modéré, d'Est à Nord-Est.
+Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres de 28 à 30 degrés. 25 degrés près de la Mer du Nord.
+Températures minimales pour la nuit suivante : sur les côtes de la Manche, ainsi que dans les terres entre 14 et 17 degrés. 18 degrés près de la Mer du Nord.
+
+• Pour la journée de lundi 03 :
+C'est un temps très largement ensoleillé qui domine avec des passages nuageux plus nombreux en début et en fin de journée.
+Vent d'Est à Nord-Est, modéré.
+Températures maximales : sur les côtes de la Manche, ainsi que dans les terres de 30 à 33 degrés. 26 degrés près de la Mer du Nord. Ces températures sont localement bien au-dessus des valeurs de saison.
+
+• Pour mardi 04 et mercredi 05 :
+Éclaircies prédominantes, risque de pluie ou d'averses temporaire.
+Vent d'Est puis Sud-Ouest, modéré.
+Températures minimales : comprises entre 16 et 19 degrés.
+Températures maximales : comprises entre 27 et 30 degrés, et 31 degrés sur le bassin minier.
+
+• Pour jeudi 06 et vendredi 07 :
+Temps plutôt ensoleillé, en dépit de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Vent modéré, de Sud-Ouest tournant Nord-Est.
+Températures minimales : de 14 à 16 degrés.
+Températures maximales : de 24 à 27 degrés, et 28 degrés sur le bassin minier.
+
+• Pour samedi 08 et dimanche 09 :
+Près de la Mer du Nord ainsi que sur les reliefs de l'Artois, soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire. Sur les autres régions, temps largement ensoleillé.
+Vent modéré, de Nord-Est virant Est-Nord-Est.
+Températures minimales : en baisse sur les reliefs de l'Artois.
+Températures maximales : en baisse sur la moitié Est du département.
+
+=== BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
+Emis le : 31/07/2026 16:45
+
+Vigilance :
+Aujourd'hui et demain, le département de la Somme est en vigilance verte.
+
+Observations :
+Aujourd'hui on observait à 16h :
+A Amiens-Glisy : température de 27 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1016 hPa.
+
+Prévisions pour les tout prochains jours :
+
+• Pour cette nuit :
+La nuit est assez bien dégagée, par moments le ciel est voilé.
+En début de nuit, vent de Nord à Nord-Ouest, localement modéré ; ensuite atténuation.
+Températures minimales : entre 12 et 13 degrés.
+
+• Pour demain samedi 01 août en journée et la nuit suivante :
+La matinée est ensoleillée. Le ciel se voile l'après-midi. Pour la nuit : Le ciel est bien étoilé, après la disparition des quelques nuages présents en soirée.
+Vent de Nord à Nord-Ouest modéré, en journée et jusqu'en milieu de nuit ; puis s'atténuant.
+Températures maximales pour le jour : dans les terres entre 26 et 27 degrés. 23 degrés sur le littoral picard.
+Températures minimales pour la nuit suivante : de 12 à 13 degrés.
+
+• Pour la journée de dimanche 02 et la nuit suivante :
+La matinée est ensoleillée. Le ciel se voile l'après-midi. Pour la nuit : Le ciel est voilé, mais laisse apparaître les étoiles.
+Vent modéré, d'Est à Nord-Est.
+Températures maximales pour le jour : de 28 à 30 degrés.
+Températures minimales pour la nuit suivante : comprises entre 15 et 17 degrés.
+
+• Pour la journée de lundi 03 :
+Le soleil, très présent le matin, est moins éclatant l'après-midi, souvent voilé par des passages de nuages élevés.
+Vent d'Est à Nord-Est, généralement modéré.
+Températures maximales : comprises entre 30 et 32 degrés. Ces températures se situent au-dessus des valeurs normalement observées, par endroits bien au-dessus.
+
+• Pour mardi 04 et mercredi 05 :
+Temps plutôt ensoleillé, en dépit de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Vent modéré, d'Ouest à Sud-Ouest.
+Températures minimales : voisines de 17 degrés.
+Températures maximales : dans les terres comprises entre 28 et 31 degrés. 26 degrés sur le littoral picard.
+
+• Pour jeudi 06 et vendredi 07 :
+Risque de pluie ou d'averses dès le début de matinée de vendredi.
+Vent modéré, d'Ouest à Nord-Ouest jusqu'au milieu de nuit de jeudi à vendredi ; et de Nord à Nord-Est, de la matinée de vendredi jusqu'en début de nuit suivante.
+Températures minimales : comprises entre 14 et 16 degrés.
+Températures maximales : de 24 à 27 degrés.
+
+• Pour samedi 08 et dimanche 09 :
+Sur le Vermandois ainsi que sur la moyenne et basse vallée de la Somme, temps pluvieux de samedi matin jusqu'en fin de journée. Sur les autres régions, beau temps ensoleillé.
+Vent modéré, s'atténuant en milieu de période.
+Températures minimales : en baisse sur le Ponthieu et le Vimeu ainsi que sur le Vermandois.
+Températures maximales : en baisse sur le Vermandois.
+
+=== BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
+Emis le : 31/07/2026 16:45
+
+Vigilance :
+Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
+
+Observations :
+Aujourd'hui on observait à 16h :
+A Beauvais-Tillé : température de 27 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1016 hPa.
+
+Prévisions pour les tout prochains jours :
+
+• Pour cette nuit :
+La nuit est assez bien dégagée, par moments le ciel est voilé.
+Vent de Nord, modéré, en première partie de nuit ; puis atténuation.
+Températures minimales : entre 13 et 16 degrés, et 12 degrés sur le Plateau Picard.
+
+• Pour demain samedi 01 août en journée et la nuit suivante :
+La matinée est ensoleillée. Le ciel se voile l'après-midi. Pour la nuit : Le ciel est bien étoilé, après la disparition des quelques nuages présents en soirée.
+En fin de matinée, vent de Nord, soufflant modérément par endroits ; nouveau renforcement en début de nuit.
+Températures maximales pour le jour : entre 26 et 28 degrés.
+Températures minimales pour la nuit suivante : de 11 à 14 degrés.
+
+• Pour la journée de dimanche 02 et la nuit suivante :
+C'est une journée assez bien ensoleillée qui nous attend. Un voile nuageux envahit petit à petit notre ciel, mais l'impression de beau temps persiste. Pour la nuit : Le ciel est généralement voilé.
+Vent d'Est temporairement modéré, sur le pays de Bray et la Picardie verte.
+Températures maximales pour le jour : de 29 à 31 degrés.
+Températures minimales pour la nuit suivante : comprises entre 15 et 17 degrés.
+
+• Pour la journée de lundi 03 :
+La matinée et le début d'après-midi sont assez bien ensoleillés. En fin de journée, le ciel se partage entre nuages et éclaircies. Des orages sont possibles, sur le Beauvaisis et le Clermontois ainsi que du Valois Multien au Noyonnais.
+L'après-midi, établissement d'un vent d'Est-Sud-Est puis Sud-Ouest, modéré par endroits ; puis atténuation.
+Températures maximales : entre 32 et 34 degrés. Ces températures se situent au-dessus des valeurs de saison, localement très au-dessus.
+
+• Pour mardi 04 et mercredi 05 :
+Temps plutôt ensoleillé, en dépit de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Vent d'Ouest à Sud-Ouest temporairement modéré.
+Températures minimales : entre 17 et 19 degrés.
+Températures maximales : entre 30 et 33 degrés. Ces températures sont au-dessus des valeurs normalement observées.
+
+• Pour jeudi 06 et vendredi 07 :
+Soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Jeudi en matinée et jusqu'en fin de journée, le vent souffle modéré. De vendredi tôt le matin jusqu'en début de nuit, le vent reprend par endroits.
+Températures minimales : de 14 à 16 degrés.
+Températures maximales : de 26 à 28 degrés.
+
+• Pour samedi 08 et dimanche 09 :
+Sur la moitié Est du département, temps pluvieux de samedi matin jusqu'en fin de journée. Ailleurs, soleil généreux.
+Samedi en matinée et jusqu'en fin de journée, vent de secteur Nord-Ouest, modéré. De la matinée de dimanche jusqu'en fin de journée, le vent reprend par endroits, en s'orientant au Nord-Est.
+Températures minimales : en baisse sur le Valois Multien.
+Températures maximales : stationnaires.
+
+=== BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
+Emis le : 31/07/2026 16:45
+
+Vigilance :
+Aujourd'hui et demain, le département de l'Aisne est en vigilance verte.
+
+Observations :
+Aujourd'hui on observait à 16h :
+A Aulnoy-sous-Laon : température de 28 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 25 km/h.
+A Saint-Quentin : température de 27 degrés.
+
+Prévisions pour les tout prochains jours :
+
+• Pour cette nuit :
+La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
+Vent modéré, de Nord.
+Températures minimales : de 14 à 16 degrés.
+
+• Pour demain samedi 01 août en journée et la nuit suivante :
+La matinée est ensoleillée. Le ciel se voile l'après-midi. Pour la nuit : Les nuages présents en soirée se dissipent en première partie de nuit, puis laissent toute la place aux étoiles.
+Vent de Nord à Nord-Est, localement modéré ; faiblissant temporairement en milieu de période.
+Températures maximales pour le jour : de 26 à 29 degrés.
+Températures minimales pour la nuit suivante : entre 12 et 14 degrés.
+
+• Pour la journée de dimanche 02 et la nuit suivante :
+Le soleil règne presque en maître du matin au soir, seuls quelques passages nuageux le contrarient un peu en fin de journée. Pour la nuit : Le ciel est dans l'ensemble étoilé, et quelques nuages inoffensifs peuvent être présents.
+Etablissement, l'après-midi et jusqu'en milieu de nuit, d'un vent de secteur Nord-Est, modéré ; atténuation ensuite.
+Températures maximales pour le jour : sur les trois quarts Sud du département entre 31 et 33 degrés. 29 degrés sur le Vermandois et la Thiérache.
+Températures minimales pour la nuit suivante : comprises entre 14 et 17 degrés.
+
+• Pour la journée de lundi 03 :
+La matinée est bien ensoleillée. Puis progressivement, des nuages voilent le soleil. En fin de journée, des orages peuvent éclater, sur le Vermandois.
+En début d'après-midi, vent modéré sur le Vermandois ; à la tombée du jour, reprise du vent par endroits.
+Températures maximales : entre 32 et 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées, localement très au-dessus.
+
+• Pour mardi 04 et mercredi 05 :
+Soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Vent d'Ouest à Sud-Ouest temporairement modéré.
+Températures minimales : de 17 à 19 degrés.
+Températures maximales : entre 30 et 33 degrés. Ces températures se situent au-dessus des valeurs de saison.
+
+• Pour jeudi 06 et vendredi 07 :
+Risque de pluie ou d'averses de vendredi matin jusqu'en fin de journée.
+De la matinée de jeudi jusqu'au milieu de nuit suivante, vent modéré sur le Vermandois et la Thiérache. De la matinée de vendredi jusqu'en début de nuit suivante, le vent reprend par endroits.
+Températures minimales : entre 15 et 17 degrés.
+Températures maximales : de 26 à 29 degrés.
+
+• Pour samedi 08 et dimanche 09 :
+Sur le Laonnois, sur le Soissonnais ainsi que sur le Valois, risque de pluie de samedi matin jusqu'à la mi-journée. Sur les autres régions, soleil généreux.
+Jusqu'en fin de journée de samedi, le vent souffle modéré. Dimanche après-midi et jusqu'en début de nuit, le vent reprend par endroits.
+Températures minimales : en baisse.
+Températures maximales : sans changement significatif.
+
+=== BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
+FQCT40 LFQQ 311615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 31 juillet 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 31 juillet 2026 à 12H00 UTC, et évolution Anticyclone 1023 hPa au large de la Bretagne, s'étendant lentement vers l'est, puis prévu en mer du Nord dimanche midi. Faible gradient de pression autour de 1015 hPa sur l'Allemagne. Zone de basse pression se creusant 1012 hPa sur la moitié sud de la France dimanche. 3 - Prévisions pour la nuit du vendredi 31 juillet au samedi 1 août VENT : devenant Variable 2 à 3, parfois 4 en soirée. MER : belle à peu agitée. HOULE : non significative. TEMPS : ciel peu nuageux, parfois voilée. VISIBILITE : bonne. 4 - Prévisions pour la journée du samedi 1 août VENT : s'orientant secteur Nord-Ouest dominant 2 à 4 en matinée, puis Nord-Est dominant en mer du Nord l'après-midi. MER : belle. HOULE : non significative. TEMPS : passagèrement nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 1 au 2, et la journée du dimanche 2 août VENT : secteur Est 3 à 4, fraîchissant Nord-Est 4 à 5 à la mi-journée, avec rafales l'après-midi. MER : belle, devenant progressivement peu agitée en journée. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 2 au 3 et la journée du lundi 3 août VENT : Est à Nord-Est 4 à 5, localement 6 en Manche. MER : peu agitée. HOULE : En mer du nord houle dominante de Nord-Est 0,5 à 1 m. En Manche houle d'Ouest inférieure à 1 m, s'orientant en milieu d'après-midi au Sud-Est. 7 - Tendance pour les jours suivants Mardi 4 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 5 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Jeudi 6 août variable faible. Indice de confiance : 3 sur 5 Vendredi 7 août variable faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le vendredi 31 juillet 2026 à 15H00 UTC Dunkerque : vent Nord 10 noeuds, mer peu agitée, 1018 hPa en hausse, très nuageux à couvert, visibilité 7 milles. Cap Gris Nez : vent Nord-Est 12 noeuds. Boulogne : vent Nord 10 noeuds, 1018 hPa en hausse. Bouée Sandettie : vent Nord-Nord-Est 12 noeuds, creux 0,3 mètre, 1018 hPa en baisse, visibilité 10 milles. Prochain bulletin le samedi 1 août 2026, vers 06H30 légales
 
 === COMPÉTENCE VIGILANCE MÉTÉO-FRANCE & RUBRIQUE PROCHAINS JOURS (J+2 À J+7) ===
 • Compte-rendu Vigilance Météo-France :
@@ -22,7 +285,6 @@ Maintien de conditions très chaudes et majoritairement ensoleillées sur le nor
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Keraunos (Observatoire Français des Orages Violents) :
 KERAUNOS - Observatoire Français des Tornades et des Orages Violents - Prévision, suivi et étude des orages en France Prévisions Bulletin France jour J Bulletin France J+1 à J+7 Risque orageux sur ma commune Bulletin Méditerranée Temps réel Actualités Brèves Infos Photos Galerie photos Chasseurs d'orages Photos du passé Déposer une photo Climat Faits marquants Les tornades en France Les orages en France Statistiques foudre Bilans mensuels Climat de la France Bases de données Signaler un événement Modèles WRF France & Europe 5 km France 10 km Europe WRF Monde 8 km Moyen-Orient 8 km USA/Tornado Alley GFS France Europe Monde Recherche Comprendre les orages Publications Colloques et manifestations Séminaires Keraunos Services Tous nos services Certificats Extranet clients Observatoire français
-
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
 
 === SÉCHERESSE DES SOLS & BILAN HYDRIQUE (BPSPC METEOTEL XML, VIGISEUILS, OPEN-METEO) ===
@@ -452,5 +714,6 @@ Message:
 il y a 25 minutes, mike a dit :
 			tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 	Purée, on dirait du Laurent Cabrol dans le texte; qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
+
 
 

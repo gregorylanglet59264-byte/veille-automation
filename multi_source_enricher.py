@@ -4,6 +4,7 @@ import re
 import json
 import os
 import datetime
+import xml.etree.ElementTree as ET
 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
 
@@ -16,10 +17,10 @@ def fetch_url_with_auth(url, timeout=10):
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
     try:
         with opener.open(req, timeout=timeout) as resp:
-            return resp.read().decode('utf-8', errors='ignore')
+            return resp.read()
     except Exception as e:
         print(f"Notice: Failed to fetch {url}: {e}")
-        return ""
+        return b""
 
 def fetch_html_safe(url, timeout=10):
     try:
@@ -30,32 +31,72 @@ def fetch_html_safe(url, timeout=10):
         print(f"Notice: Failed to fetch {url}: {e}")
         return ""
 
+def format_dept_xml_node(dept_id):
+    url = f"http://www.meteo.fr/test/meteotel/pics/bul_xml@/bulletins/PREV_XML/{dept_id}"
+    raw_bytes = fetch_url_with_auth(url)
+    if not raw_bytes:
+        return ""
+    try:
+        xml_str = raw_bytes.decode('iso-8859-1', errors='ignore')
+        root = ET.fromstring(xml_str)
+        nom = root.attrib.get("nom", f"Bulletin {dept_id}")
+        prod = root.attrib.get("date_heure_production", "")
+        
+        lines = [f"=== {nom.upper()} ({dept_id}) ===", f"Emis le : {prod}"]
+        
+        vig = root.find("vigilance")
+        if vig is not None and vig.text:
+            lines.append(f"\nVigilance :\n{vig.text.strip()}")
+            
+        obs = root.find("observation")
+        if obs is not None and obs.text:
+            lines.append(f"\nObservations :\n{obs.text.strip()}")
+            
+        lines.append("\nPrévisions pour les tout prochains jours :")
+        for grp in root.findall("groupe"):
+            dt = grp.find("date")
+            tmps = grp.find("temps")
+            dt_text = dt.text.strip() if dt is not None and dt.text else ""
+            tmps_text = tmps.text.strip() if tmps is not None and tmps.text else ""
+            if dt_text or tmps_text:
+                lines.append(f"\n• {dt_text}\n{tmps_text}")
+                
+        for grp_tend in root.findall("tendance"):
+            lines.append(f"\nTendance pour les jours suivants :")
+            for sub in grp_tend:
+                if sub.text:
+                    lines.append(f"\n• {sub.text.strip()}")
+                    
+        conf = root.find("confiance")
+        if conf is not None and conf.text:
+            lines.append(f"\nIndice de confiance de la prévision :\n{conf.text.strip()}")
+            
+        return "\n".join(lines)
+    except Exception as e:
+        print(f"XML parse error for {dept_id}: {e}")
+        return ""
+
 # 1. Direct Live Meteotel XML Downloader (PREV_XML 5 Départements HDF & Coastal Marine)
 def get_live_meteotel_xml(region_name="France"):
     is_hdf = any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD", "PAS-DE-CALAIS"])
     depts = ["DEPT59", "DEPT62", "DEPT80", "DEPT60", "DEPT02"] if is_hdf else ["DEPT75", "DEPT13", "DEPT33", "DEPT69", "DEPT31"]
     
     xml_summaries = []
-    base_url = "http://www.meteo.fr/test/meteotel/pics/bul_xml@/bulletins/PREV_XML/"
-    
     for dept in depts:
-        dept_url = f"{base_url}{dept}"
-        raw_xml = fetch_url_with_auth(dept_url)
-        if raw_xml:
-            text = re.sub(r'<[^>]+>', ' ', raw_xml)
-            text = re.sub(r'\s+', ' ', text).strip()
-            if len(text) > 40:
-                xml_summaries.append(f"• Bulletin Prévision Officiel Météo-France [{dept}] :\n{text}")
+        dept_text = format_dept_xml_node(dept)
+        if dept_text:
+            xml_summaries.append(dept_text)
             
     # Coastal marine bulletin
     marine_dept = "DEPT59-62-80" if is_hdf else "DEPT13-83"
     marine_url = f"http://www.meteo.fr/test/meteotel/pics/bul_xml@/bulletins/COTE2/{marine_dept}"
     raw_marine = fetch_url_with_auth(marine_url)
     if raw_marine:
-        text = re.sub(r'<[^>]+>', ' ', raw_marine)
+        marine_str = raw_marine.decode('iso-8859-1', errors='ignore')
+        text = re.sub(r'<[^>]+>', ' ', marine_str)
         text = re.sub(r'\s+', ' ', text).strip()
         if len(text) > 40:
-            xml_summaries.append(f"• Bulletin Marine Officiel Météo-France [{marine_dept}] :\n{text}")
+            xml_summaries.append(f"=== BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [{marine_dept}] ===\n{text}")
         
     return "\n\n".join(xml_summaries) if xml_summaries else "Bulletins Météo-France Meteotel XML récupérés."
 
@@ -64,7 +105,6 @@ def get_vigilance_and_prochains_jours_data(region_name="France"):
     is_hdf = any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD", "PAS-DE-CALAIS"])
     hdf_depts = "Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)" if is_hdf else "France entière"
     
-    # Try fetching public vigilance data
     html = fetch_html_safe("https://vigilance.meteofrance.fr/fr")
     vig_text = ""
     if html:
@@ -123,7 +163,7 @@ def get_keraunos_orage_data():
             snippets.append(f"• Keraunos (Observatoire Français des Orages Violents) :\n{m.group(0)[:800]}")
             
     snippets.append("• Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.")
-    return "\n\n".join(snippets)
+    return "\n".join(snippets)
 
 # 5. Sécheresse & Bilan Hydrique (BPSPC Meteotel XML + Vigiseuils)
 def get_secheresse_bilan_hydrique_data(region_name="France"):
