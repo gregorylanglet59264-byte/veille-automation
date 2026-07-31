@@ -1,119 +1,118 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Vendredi 31 Juillet 2026
-**Période :** Semaine 1 (Du lundi 3 au dimanche 9 août 2026) & Semaine 2 (Du lundi 10 au dimanche 16 août 2026)
+**Période :** Semaine 1 (Du Lundi 3 au Dimanche 9 Août 2026) & Semaine 2 (Du Lundi 10 au Dimanche 16 Août 2026)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Le consensus est modéré car si la chaleur est quasi certaine, les détails orageux et les intensités divergent.*
-- **Fiabilité du scénario majoritaire :** Scénario chaud — *Le scénario le plus probable est un temps chaud et sec, avec une possible canicule en semaine 2.*
+- **Consensus des modèles :** Modéré — *Bon accord pour la semaine 1, forte dispersion pour la semaine 2.*
+- **Fiabilité du scénario majoritaire :** Chaud et sec — *Le scénario dominant est le maintien de la chaleur avec peu de pluie.*
 - **Stabilité des cartes/scénarios :** 6 / 110 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Incertitude forte sur les orages et la semaine 2 — *Les modèles montrent une dispersion importante pour la fin de semaine 1 et toute la semaine 2.*
+- **Niveau d'incertitude global :** Modérée à forte — *L'incertitude est élevée pour la semaine 2, modérée pour la semaine 1.*
 
-## 🗓️ SEMAINE 1 : Du lundi 3 au dimanche 9 août 2026
+## 🗓️ SEMAINE 1 : Du Lundi 3 au Dimanche 9 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Chaleur persistante : Les Hauts-de-France restent en anomalie chaude avec des températures de 28 à 32°C.
-2. Orages en fin de semaine : Un risque orageux se profile à partir du 7 août, localement fort.
-3. Vent modéré : Vent d'est puis sud-ouest faible à modéré, rafales sous orages.
-4. Sécheresse qui s'accentue : Aucune pluie significative avant jeudi, la sécheresse s'aggrave.
-5. Incertitude sur les orages : Les modèles divergent sur l'intensité et la localisation précise des orages.
+1. Canicule intense en début : Très fortes chaleurs lundi 3, point culminant avec 32-35°C dans les terres.
+2. Risque orageux localisé : Orages possibles en fin de journée lundi 3 sur l'Avesnois, Vermandois, Beauvaisis.
+3. Chaleur persistante mais modérée : Mardi 4 à vendredi 7, encore chaud (26-33°C) mais moins excessif.
+4. Pluies faibles et localisées : Averses ou pluies possibles en milieu de semaine, surtout sur les côtes et reliefs.
+5. Week-end plus ensoleillé : Samedi 8 et dimanche 9, retour d'un soleil généreux sur l'ouest, résidus pluvieux sur l'est.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Anomalie chaude persistante sur les HDF pour toute la semaine.
-- Risque orageux en fin de semaine, à partir du 7 août.
-- Sécheresse qui perdure avec des précipitations très limitées.
+1. Très forte chaleur généralisée lundi 3 août avec températures >30°C partout.
+2. Risque orageux en fin de journée lundi sur les reliefs intérieurs (Avesnois, Beauvaisis, Vermandois).
+3. Maintien de conditions chaudes mais moins extrêmes mardi 4 à vendredi 7, avec quelques averses.
 **Points de divergence :**
-- Intensité des orages : GFS plus modéré, ECMWF potentiel plus fort.
-- Localisation précise : les HDF pourraient être en marge du système orageux.
-- Timing exact : certains modèles voient les orages dès le 6, d'autres plus tard.
+1. Localisation précise des orages lundi : certains modèles placent l'instabilité plus au sud, d'autres sur l'Aisne.
+2. Intensité des averses en milieu de semaine : de faibles pluies à orages localement forts.
+3. Degré de rafraîchissement en fin de semaine : certains runs voient une baisse plus marquée des températures, d'autres un maintien chaud.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF** (Documenté) | Anomalie chaude persistante sur la France, signal pluvieux convectif en fin de semaine pour les HDF. | Temps très chaud puis risque d'orages localement forts en soirée. | Hauts-de-France, surtout intérieur et sud de la région. | Élevée | Cartes d'anomalies de température montrant +3 à +6°C sur la France, probabilités de précipitations augmentant à partir du 7 août. |
-| **GFS (Global Forecast System)** (Documenté) | Dispersion importante, isolement d'une goutte froide minoritaire, pas de canicule généralisée. | Chaleur modérée, risques orageux limités. | Hauts-de-France | Modérée | Les ensembles GFS montrent que l'isolement du creux atlantique n'est pas majoritaire, la chaleur reste modérée sur les HDF. |
-| **Keraunos (Météorage)** (Documenté) | Potentiel orageux accru en début de semaine (J+4) sur la moitié nord. | Orages localement forts en fin d'après-midi et soirée. | Nord de la France, incluant HDF. | Faible | Carte Keraunos J+4 indiquant un risque orageux sur la moitié nord, confirmé par les discussions. |
+| **ECMWF** (Documenté) | Maintien d'une anomalie chaude avec ondulation dépressionnaire faible. Risque orageux localisé en fin de journée lundi. (max 160 caractères) | Très chaud lundi (32-35°C), puis chaud mais moins excessif avec averses orageuses possibles. (120 caractères) | Nord, Pas-de-Calais, Somme, Oise, Aisne | Élevée (80% à 90%) : Le modèle est commenté en détail par les membres pour le Nord/HDF. | Anomalie de température de +3 à +6°C sur HDF. Signaux de précipitations convectives faibles à modérées. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps chaud et sec, puis risque orageux en fin de semaine | Min 16-18°C, Max 28-32°C | élevée | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation et intensité des orages incertaines |
-| **Pas-de-Calais (62)** | Temps chaud et sec, voilé, risque orageux en fin de semaine | Min 15-17°C (côte) 17-19°C (intérieur), Max 26-30°C (côte) 28-32°C | élevée | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Orages incertains |
-| **Somme (80)** | Ciel voilé puis nuageux, chaleur, possibilité d'orages | Min 14-16°C (côte), Max 25-30°C | élevée | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Quantité de pluie incertaine |
-| **Oise (60)** | Temps chaud et sec, puis risque d'orages convectifs | Min 16-18°C, Max 30-34°C | modérée | ECMWF, GFS | Intensité des orages |
-| **Aisne (02)** | Chaud, sec, puis orages possibles | Min 15-17°C, Max 30-33°C | modérée | ECMWF, GFS | Position du thalweg |
+| **Nord (59)** | Très chaud lundi 3 avec orages possibles en soirée sur l'Avesnois ; puis chaud et ensoleillé avec passages nuageux, averses possibles en milieu de semaine | 23°C (Flandre maritime) à 33°C (intérieur) lundi ; 26-32°C mardi-ven ; 24-28°C week-end | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation des orages lundi soir incertaine ; intensité des averses en milieu de semaine à affiner |
+| **Pas-de-Calais (62)** | Très chaud lundi 3 ; puis chaud avec passages nuageux, averses possibles sur le bassin minier et les côtes | 26°C (côtes) à 33°C (intérieur) lundi ; 27-31°C mardi-ven ; 24-27°C week-end | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Variabilité côtière/intérieur ; précipitations plus probables sur le littoral |
+| **Somme (80)** | Ensoleillé et très chaud lundi 3 ; puis alternance d'éclaircies et de nuages, averses possibles en fin de semaine | 23°C (littoral) à 32°C (intérieur) lundi ; 28-31°C mardi-ven ; 24-27°C week-end | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation des averses vendredi ; intensité des orages lundi |
+| **Oise (60)** | Très chaud et orageux lundi 3 ; puis chaud avec passages nuageux, averses possibles en milieu de semaine | 32-34°C lundi ; 30-33°C mardi-ven ; 26-28°C week-end | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Trajectoire exacte des orages lundi ; intensité des pluies en milieu de semaine |
+| **Aisne (02)** | Très chaud lundi 3 avec orages possibles sur le Vermandois ; puis chaud et ensoleillé, averses possibles vendredi | 32-35°C lundi ; 30-33°C mardi-ven ; 26-29°C week-end | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Extension des orages lundi vers l'est ; timing des précipitations vendredi |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 3 août** : Temps chaud et sec, vent d'est modéré, maximales 28-30°C.
-- **Mardi 4 à mercredi 5 août** : Chaleur toujours présente, quelques nuages d'instabilité, risque faible d'orage.
-- **Jeudi 6 à vendredi 7 août** : Hausse de l'instabilité, possibilité d'orages en soirée, rafales possibles.
-- **Samedi 8 à dimanche 9 août** : Temps encore chaud, risque orageux résiduel, amélioration possible.
+- **Lundi 3 août** : Pic de chaleur avec températures maximales élevées (32-35°C) et orages localisés en soirée.
+- **Mardi 4 à mercredi 5 août** : Chaud mais moins extrême (27-33°C), passages nuageux et risque d'averses orageuses.
+- **Jeudi 6 à vendredi 7 août** : Temps plus variable, averses possibles, températures en léger repli (24-28°C en intérieur, 22-26°C littoral).
+- **Samedi 8 à dimanche 9 août** : Retour d'un temps plus ensoleillé sur l'ouest, résidus pluvieux sur l'est, températures stationnaires.
 
 **Points solides :**
-- Températures maximales régulièrement supérieures à 30°C dans l'intérieur.
-- Vent faible à modéré, gradient de pression limité.
-- Absence de pluie généralisée avant le week-end.
+1. Lundi 3 août sera le jour le plus chaud avec des températures approchant 35°C dans l'Aisne et l'Oise.
+2. Un risque orageux est bien identifié pour la fin de journée de lundi sur les reliefs intérieurs.
+3. La tendance générale reste à une chaleur persistante, sans véritable dégradation pluvieuse significative.
 
 **Points fragiles :**
-- Déclenchement et intensité des orages très incertains.
-- Rafales potentiellement fortes sous orages, mais localisation aléatoire.
-- Impact de la sécheresse : pluies orageuses trop localisées pour être significatives.
+1. L'intensité et la localisation exacte des orages lundi restent incertaines.
+2. Les précipitations en milieu de semaine (mardi 4 à mercredi 5) pourraient être plus faibles que prévu.
+3. La fin de semaine (samedi 8-dimanche 9) pourrait voir un retour de la chaleur plus marqué que les indications actuelles.
 
 **À surveiller (prochains runs) :**
-Prochains runs d'ECMWF (12z) et GFS (00z) pour affiner le risque orageux.
+ECMWF 0z et GFS 12z pour affiner le risque orageux lundi, et les runs de mardi pour la tendance de la fin de semaine.
 
 
-## 🗓️ SEMAINE 2 : Du lundi 10 au dimanche 16 août 2026
+## 🗓️ SEMAINE 2 : Du Lundi 10 au Dimanche 16 Août 2026
 ### 💡 Points clés de la semaine 2
-1. Nouvelle poussée chaude : Un signal chaud est perçu pour le 10-15 août, potentiellement caniculaire.
-2. Incertitude forte : Les projections à long terme divergent sur l'intensité du pic de chaleur.
-3. Sécheresse record : L'absence de précipitations aggrave la situation hydrique dans les HDF.
-4. GF en question : Une possible goutte froide atlantique pourrait modifier le temps, mais scénario minoritaire.
-5. Orages très incertains : Si instabilité, orages possibles mais localisation et intensité inconnues.
+1. Signal chaud persistant : Plusieurs modèles (IA, ensemblistes, déterministes) indiquent une nouvelle poussée de chaleur entre le 10 et le 15 août.
+2. Incertitude forte sur les détails : Pas de sujet dédié ouvert ; les projections à long terme (ECMWF J+15) montrent un maintien de l'anomalie chaude mais avec des écarts types importants.
+3. Risque de goutte froide écarté : Les discussions Infoclimat (Krholam, Virgile) estiment qu'une GF n'est pas à l'ordre du jour, le scénario le plus probable est un dôme de chaleur modéré.
+4. Poursuite de la sécheresse : Les précipitations restent peu probables, accentuant le déficit hydrique en surface.
+5. Températures probablement au-dessus des normales : Les maximales pourraient atteindre 30-35°C selon les scénarios les plus chauds.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Persistance de l'anomalie chaude sur les HDF.
-- Absence de précipitations significatives en début de semaine.
-- Tendance à un temps globalement sec.
+1. Accord général sur des températures supérieures aux normales pour la semaine 2.
+2. Faible signal pluvieux, la sécheresse devrait s'accentuer.
+3. Pas de scénario de dégradation océanique majeure en vue.
 **Points de divergence :**
-- Intensité de la chaleur : possible canicule ou simple chaleur modérée.
-- Position de la goutte froide atlantique et son influence.
-- Possibilité d'orages en fin de semaine.
+1. Amplitude de la chaleur : certains scénarios voient un pic caniculaire (35°C), d'autres des températures plus modérées (28-30°C).
+2. Présence ou non d'orages : l'instabilité pourrait être plus marquée en fin de semaine selon certains runs GFS.
+3. Évolution du blocage : maintien ou rupture de l'anticyclone.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (Extended Range)** (Documenté (extrapolé)) | Anomalie chaude persistante, avec possibles +3 à +6°C sur les HDF pour la semaine du 10 août. | Temps très chaud, canicule possible, orages rares. | Hauts-de-France | Faible | Carte d'anomalie de température pour le 10 août montrant +3 à +6°C sur la France, mais incertitude sur l'évolution. |
-| **IA et Ensemblistes** (Mentionné sans détail) | Signal chaud persistant pour la mi-août, mais aucun détail. | Canicule possible. | Non spécifié. | Non estimable | Virgile mentionne un signal chaud entre le 10 et le 15 août selon IA et ensemblistes. |
+| **ECMWF (Projections à long terme)** (Documenté (via projections)) | Anomalie chaude maintenue sur l'Europe de l'Ouest, avec un possible dôme de chaleur sur la France. (150 caractères) | Temps très chaud et sec, avec des maximales pouvant dépasser 30°C. (110 caractères) | Hauts-de-France (Nord, Pas-de-Calais, Somme, Oise, Aisne) | Modérée (60% à 70%) : Le modèle est clairement cité avec sa tendance pour la région. | Anomalie de température de +3 à +6°C, probabilité de précipitations faible (20-30%). |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps très chaud, canicule possible, ciel voilé | Min 18-20°C, Max 30-35°C | modérée | ECMWF, IA | Intensité de la chaleur et orages incertains |
-| **Pas-de-Calais (62)** | Très chaud, canicule possible, vent modéré | Min 17-19°C, Max 28-33°C | modérée | ECMWF, IA | Orages incertains |
-| **Somme (80)** | Très chaud, temps sec, orages possibles en fin de période | Min 16-18°C, Max 28-32°C | modérée | ECMWF, IA | Timing et intensité des orages |
-| **Oise (60)** | Canicule possible, temps sec, puis orages possibles | Min 17-19°C, Max 32-36°C | modérée | ECMWF, IA | Intensité de la canicule |
-| **Aisne (02)** | Chaud, sec, orages possibles en fin de période | Min 16-18°C, Max 31-35°C | modérée | ECMWF, IA | Localisation des orages |
+| **Nord (59)** | Temps très chaud et sec, avec un risque d'orages faible en fin de semaine | Minimales 17-20°C, maximales 28-35°C selon les scénarios | moderee | ECMWF, GFS, Guillaume Séchet | Forte incertitude sur l'intensité de la chaleur et les précipitations |
+| **Pas-de-Calais (62)** | Chaud et sec, avec un peu de vent sur le littoral | Minimales 16-19°C, maximales 26-33°C | moderee | ECMWF, GFS, Guillaume Séchet | Écart possible entre les températures côtières et intérieures |
+| **Somme (80)** | Très chaud et sec, avec un risque d'orages très faible | Minimales 15-18°C, maximales 28-34°C | moderee | ECMWF, GFS, Guillaume Séchet | Incertitude sur le pic de chaleur et la durée |
+| **Oise (60)** | Pic de chaleur possible, temps sec et ensoleillé | Minimales 17-20°C, maximales 30-35°C | moderee | ECMWF, GFS, Guillaume Séchet | Forte dispersion des modèles sur l'intensité |
+| **Aisne (02)** | Très chaud, possiblement caniculaire, avec un risque d'orages très faible | Minimales 18-21°C, maximales 32-36°C | moderee | ECMWF, GFS, Guillaume Séchet | Incertitude sur le niveau exact des températures et le risque orageux |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 10 à mercredi 12 août** : Vague de chaleur probable, temps sec et ensoleillé.
-- **Jeudi 13 à dimanche 16 août** : Possible évolution orageuse ou maintien de la chaleur, incertitude forte.
+- **Lundi 10 à mercredi 12 août** : Montée progressive de la chaleur, temps sec et ensoleillé.
+- **Jeudi 13 à vendredi 14 août** : Possible pic caniculaire, températures très élevées.
+- **Samedi 15 à dimanche 16 août** : Maintien de la chaleur, léger risque orageux en fin de période.
+- **(Non applicable)** : (Non applicable)
 
 **Points solides :**
-- Températures au-dessus des normales saisonnières.
-- Vent faible à modéré.
-- Risque de sécheresse accru.
+1. La tendance est à la persistance de la chaleur au-dessus des normales.
+2. La sécheresse de surface devrait se poursuivre ou s'aggraver.
+3. Aucune dégradation pluvieuse significative n'est prévue pour l'instant.
 
 **Points fragiles :**
-- Fiabilité des projections à long terme.
-- Déclenchement d'orages ou de dégradation.
-- Impact de la GF sur la région.
+1. L'intensité du pic de chaleur est très incertaine (fourchette large de 28 à 36°C).
+2. L'évolution du blocage anticyclonique pourrait modifier la donne.
+3. Un risque orageux en fin de semaine n'est pas totalement exclu.
 
 **À surveiller (prochains runs) :**
-Prochains runs d'ECMWF et GFS pour la semaine 2, dès l'ouverture du sujet.
+L'ouverture du sujet Semaine 33 sur Infoclimat, les runs ECMWF et GFS des 1er et 2 août pour affiner la tendance.
 
 
 ========================================
@@ -121,24 +120,27 @@ Prochains runs d'ECMWF et GFS pour la semaine 2, dès l'ouverture du sujet.
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Les 15 jours à venir restent dominés par une anomalie chaude persistante sur les Hauts-de-France, avec un temps globalement sec. La première semaine est mieux documentée avec un risque orageux en fin de parcours ; la seconde semaine, plus incertaine, pourrait voir un nouveau pic de chaleur.
+Les 15 prochains jours restent dominés par une anomalie chaude persistante sur les Hauts-de-France. La première semaine (3-9 août) est marquée par un pic de chaleur lundi 3 (32-35°C) suivi de conditions encore chaudes mais moins extrêmes, avec un risque orageux localisé. La seconde semaine (10-16 août) est plus incertaine mais les projections indiquent une nouvelle poussée de chaleur, potentiellement caniculaire. La sécheresse de surface devrait s'accentuer.
+
+### Période la plus fiable
+Semaine 1 (3-9 août) : meilleure documentation et convergence des modèles.
 
 ### Phénomènes récurrents
-Chaleur diurne marquée (28-35°C), orages ponctuels en soirée les 7-8 août, possibilité de rafales sous orage.
+Canicule localisée, orages isolés en fin de journée, sécheresse des sols.
 
 ### Principales incertitudes
-Intensité et localisation des orages en première semaine ; intensité du pic de chaleur en deuxième semaine ; position de la goutte froide atlantique.
+Intensité exacte de la chaleur en semaine 2, localisation et intensité des orages en semaine 1, évolution du blocage anticyclonique.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la chronologie exacte des orages en semaine 1 et du pic de chaleur en semaine 2.
-- **Localisation :** Doutes sur la localisation précise des orages dans les HDF (intérieur vs littoral).
-- **Intensité :** Doutes sur l'intensité des orages et la possibilité de phénomènes violents.
-- **Informations manquantes :** Informations manquantes : prévisions détaillées pour l'Oise et l'Aisne pour la semaine 1 ; aucune donnée pour la semaine 2.
-- **Modèles sous-documentés :** Modèles peu ou pas commentés : le modèle GFS pour la semaine 2 n'est pas évoqué ; les IA sont mentionnées sans détails.
-- **Incertitudes images :** Incertitudes sur les graphiques : les cartes d'anomalie ECMWF sont basées sur runs anciens (24 juillet) ; les cartes Keraunos sont à J+4.
+- **Timing/Chronologie :** Doutes sur la chronologie exacte du pic de chaleur en semaine 2 (entre le 10 et le 15 août) et sur la durée de la phase orageuse en semaine 1.
+- **Localisation :** Doutes sur les zones les plus exposées aux orages lundi 3 (Avesnois, Beauvaisis, Vermandois) et sur la répartition des précipitations en milieu de semaine.
+- **Intensité :** Doutes sur l'intensité maximale des températures en semaine 2 (28°C ou 36°C ?) et sur la force des orages en semaine 1 (faibles à localement violents).
+- **Informations manquantes :** Le sujet Semaine 33 n'est pas encore ouvert ; les discussions sur la semaine 2 sont donc limitées. Les prévisions marines détaillées pour la semaine 2 manquent. Les indices de confiance des modèles pour la semaine 2 sont faibles (2-3/5).
+- **Modèles sous-documentés :** Les modèmes à haute résolution (AROME, WRF) n'ont pas été commentés pour la semaine 2. Les sorties ensemblistes détaillées pour les précipitations sont peu documentées.
+- **Incertitudes images :** Les cartes de précipitations ECMWF montrent des cumuls faibles mais avec une grande dispersion ; les cartes d'anomalie de température présentent des écarts types importants pour la semaine 2.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-Bulletin météo #HautsDeFrance : Les 2 prochaines semaines sous le signe de la chaleur et de la sécheresse. 🌡️ Semaine 1 : chaud (28-32°C) puis risque d'orages à partir de jeudi. ⛈️ Semaine 2 : nouveau pic de chaleur possible (30-35°C) mais fortes incertitudes. Restez prudents et suivez l'évolution ! #Météo #Nord #PasdeCalais #Somme #Oise #Aisne
+🌡️ Analyse météo Hauts-de-France (31/07/2026) : Les 15 jours à venir s'annoncent très chauds et secs. Lundi 3 août : pic de chaleur (32-35°C) puis orages localisés. La semaine suivante (10-16 août) pourrait être encore plus chaude, mais les incertitudes sont fortes. Restez prudents et hydratez-vous ! #Météo #HautsDeFrance #Canicule
