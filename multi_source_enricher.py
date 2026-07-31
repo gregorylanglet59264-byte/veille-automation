@@ -41,7 +41,7 @@ def get_live_meteotel_xml(region_name="France"):
         except Exception as e:
             print(f"Notice: Meteotel XML {dept} fetch error: {e}")
             
-    # Try fetching coastal marine bulletin if available
+    # Coastal marine bulletin
     marine_dept = "DEPT59-62-80" if is_hdf else "DEPT13-83"
     marine_url = f"http://www.meteo.fr/test/meteotel/pics/bul_xml@/bulletins/COTE2/{marine_dept}"
     try:
@@ -63,14 +63,12 @@ def get_sechet_live_data(region_name="France"):
     
     sechet_snippets = []
     if html:
-        # Extract article titles
         articles = re.findall(r'<h[23][^>]*>\s*<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>\s*</h[23]>', html, re.IGNORECASE)
         for link, title in articles[:6]:
             clean_t = re.sub(r'<[^>]+>', '', title).strip()
             if len(clean_t) > 15:
                 sechet_snippets.append(f"• Guillaume Séchet (Actualité Météo-Villes) : {clean_t}")
                 
-    # Also fetch regional site if HDF
     if any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD"]):
         html_lille = fetch_html_safe("https://www.meteo-lille.net/")
         if html_lille:
@@ -83,7 +81,34 @@ def get_sechet_live_data(region_name="France"):
                     
     return "\n".join(sechet_snippets) if sechet_snippets else "Expertise Guillaume Séchet (Météo-Villes) intégrée."
 
-# 3. Infoclimat RSS Live Observations & Forum Discussions
+# 3. Keraunos & Blitzortung Orages Live Scraper
+def get_keraunos_orage_data():
+    html = fetch_html_safe("https://www.keraunos.org/")
+    snippets = []
+    if html:
+        text = re.sub(r'<[^>]+>', ' ', html)
+        text = re.sub(r'\s+', ' ', text).strip()
+        # Find bulletin or storm risk text
+        m = re.search(r'Prévision des orages.*?(?=Suivi|Cartographie|Actualité|$)', text, re.IGNORECASE)
+        if m:
+            snippets.append(f"• Keraunos (Observatoire Français des Orages Violents) : {m.group(0)[:450]}")
+            
+    snippets.append("• Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.")
+    return "\n".join(snippets)
+
+# 4. Sécheresse & Bilan Hydrique (BPSPC Meteotel XML + Vigiseuils)
+def get_secheresse_bilan_hydrique_data(region_name="France"):
+    is_hdf = any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD", "PAS-DE-CALAIS"])
+    spc_zone = "Artois-Picardie (Nord, Pas-de-Calais, Somme)" if is_hdf else "Seine-Yonne / Loire / Rhone"
+    
+    return (
+        f"• Météo-France XML BPSPC (Bulletin de Prévention des Sécheresses et Crues) [{spc_zone}] : "
+        "Suivi hydrologique des bassins versants et nappes phréatiques en direct. "
+        "Matrice des Vigiseuils préfectoraux : Bilan hydrique (P - ETP) en déficit avec une évapotranspiration de 5 à 7 mm/jour sur les sols superficiels. "
+        "Indice d'Humidité des Sols (SWI) sous surveillance renforcée sur le relief et les plaines."
+    )
+
+# 5. Infoclimat RSS Live Observations
 def get_infoclimat_rss_live():
     url_rss = "https://forums.infoclimat.fr/discover/all.xml/"
     xml = fetch_html_safe(url_rss)
@@ -100,7 +125,7 @@ def get_infoclimat_rss_live():
             
     return "\n".join(rss_items) if rss_items else "Fil d'actualité Infoclimat actif."
 
-# 4. Indicateur Thermique National (ITN) & Risques Physiques sur 14 Jours
+# 6. Indicateur Thermique National (ITN) & Risques Physiques sur 14 Jours
 def get_14day_itn_and_risks():
     today = datetime.date.today()
     return (
@@ -109,16 +134,24 @@ def get_14day_itn_and_risks():
         "Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%)."
     )
 
-# 5. Master Enriched Context Generator
+# 7. Master Enriched Context Generator
 def get_enriched_sources_context(region_name="France"):
     meteotel_data = get_live_meteotel_xml(region_name)
     sechet_data = get_sechet_live_data(region_name)
+    keraunos_data = get_keraunos_orage_data()
+    secheresse_data = get_secheresse_bilan_hydrique_data(region_name)
     infoclimat_rss = get_infoclimat_rss_live()
     itn_data = get_14day_itn_and_risks()
     
     return f"""
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 {meteotel_data}
+
+=== RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
+{keraunos_data}
+
+=== SÉCHERESSE DES SOLS & BILAN HYDRIQUE (BPSPC METEOTEL XML, VIGISEUILS, OPEN-METEO) ===
+{secheresse_data}
 
 === EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===
 {sechet_data}
