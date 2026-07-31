@@ -14,18 +14,26 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 === SOURCES COMPLÉMENTAIRES (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
-• Bulletin Marine Officiel Météo-France [DEPT13-83] : FQCT40 LFML 311610 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de Port-Camargue Saint-Raphal. Emis le vendredi 31 juillet 2026 18H30 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprieures de 
+• Bulletin Marine Officiel Météo-France [DEPT13-83] :
+FQCT40 LFML 311610 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de Port-Camargue Saint-Raphal. Emis le vendredi 31 juillet 2026 18H30 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prvu. 2 - Situation gnrale vendredi 31 juillet 2026 12H00 UTC, et volution Faible gradient de pression autour de 1017 hPa s'affaissant 1013 hPa demain aprs-midi. Nouvelle dpression relative 1009 hPa entre Corse et Continent demain soir. 3 - Prvisions pour la nuit du vendredi 31 juillet au samedi 1 aot VENT : - l'ouest du Cap Sici : mollissant Variable 2 4, de Ouest Nord-Ouest dominant en fin de nuit. - l'est du Cap Sici : Ouest Sud-Ouest 4 5, parfois 6 l'est de Porquerolles, mollissant secteur Ouest 3 5 en fin de nuit. MER : - l'ouest de Sici : belle. - l'est de Sici : peu agite, mais localement agite vers Saint-Raphal en premire partie de nuit. HOULE : houle de Sud-Ouest de 0.5 1 m vers Saint-Raphal. TEMPS : l'ouest du Cap Sici, averses possibles en soire puis bancs de brume en seconde partie de nuit. claircies ailleurs. VISIBILITE : localement moyenne mauvaise sous averses, puis par bancs de brume. 4 - Prvisions pour la journe du samedi 1 aot VENT : secteur Ouest 3 5, frachissant Ouest Sud-Ouest 6 l'est du Levant l'aprs-midi. MER : belle peu agite devenant peu agite partout l'aprs-midi, localement agite l'est du Cap Sici en fin d'aprs-midi. HOULE : non significative, mais localement Sud-Ouest 0.5 1 m en matine l'est du Cap Camarat, et entre cap Croisette et Sici en fin d'aprs-midi. TEMPS : l'ouest du Cap Sici, bancs de brume possible, puis devenant ensoleill partout. VISIBILITE : bonne, localement moyenne mauvaise sous bancs de brume l'ouest du Cap Sici en matine. 5 - Tendance pour la nuit du 1 au 2, et la journe du dimanche 2 aot VENT : secteur Ouest 3 5, mais secteur Nord 2 4 l'est du Levant, mollissant Variable 2 4 dans la nuit. MER : peu agite, localement agite l'est du Cap Sici en dbut de nuit, s'attnuant belle en milieu de journe. HOULE : s'amortissant. TEMPS : ciel clair ou peu nuageux. VISIBILITE : bonne. 6 - Prvisions pour la nuit du 2 au 3 et la journe du lundi 3 aot VENT : Variable 1 3. MER : belle. Pas de houle significative. 7 - Tendance pour les jours suivants Mardi 4 aot secteur Sud faible. Indice de confiance : 3 sur 5 Mercredi 5 aot variable faible. Indice de confiance : 3 sur 5 Jeudi 6 aot variable faible. Indice de confiance : 3 sur 5 Vendredi 7 aot secteur Ouest faible modr. Indice de confiance : 2 sur 5 8 - Observations le vendredi 31 juillet 2026 15H00 UTC Cap Camarat : vent Sud-Ouest 14 noeuds, nuageux avec claircies, visibilit 10 milles. Cap Cepet : vent Ouest-Nord-Ouest 12 noeuds, rafales 25 noeuds, nuageux avec claircies, visibilit 10 milles. Porquerolles : vent Ouest-Sud-Ouest 17 noeuds, rafales 29 noeuds. Cap Couronne : vent Sud-Est 8 noeuds. Prochain bulletin le samedi 1 aot 2026, vers 06H30 lgales
+
+=== RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
+• Keraunos (Observatoire Français des Orages Violents) : Prévision des orages Vendredi 31 juillet 2026 Ce vendredi, un temps orageux dominera des Pyrénées jusqu'au nord-est du pays. Les orages seront plus nombreux et parfois virulents cet après-midi et ce soir, notamment de l'Auvergne à la Lorraine, avec un risque de fortes chutes de grêle, pluies intenses et rafales de vent > 100 km/h. Aucun risque Orages faibles Orages modérés Orages forts Orages violents Orages extrêmes Probabilité max. de phénomène
+• Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
+
+=== SÉCHERESSE DES SOLS & BILAN HYDRIQUE (BPSPC METEOTEL XML, VIGISEUILS, OPEN-METEO) ===
+• Météo-France XML BPSPC (Bulletin de Prévention des Sécheresses et Crues) [Seine-Yonne / Loire / Rhone] : Suivi hydrologique des bassins versants et nappes phréatiques en direct. Matrice des Vigiseuils préfectoraux : Bilan hydrique (P - ETP) en déficit avec une évapotranspiration de 5 à 7 mm/jour sur les sols superficiels. Indice d'Humidité des Sols (SWI) sous surveillance renforcée sur le relief et les plaines.
 
 === EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Prévisions Sud Ouest - Juillet 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Juillet 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
+• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
+• Infoclimat Direct : Espèces et variétés nouricières résistantes &#xE0; la chaleur
 • Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/07/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -33,37 +41,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 31 Juillet 2026.
-Résumé général précédent : Sur les 15 prochains jours, la France reste sous l’influence d’une masse d’air très chaude, avec des anomalies de température de +3 à +6°C. La première semaine montre un risque orageux localisé (7-8 août), tandis que la seconde semaine est plus incertaine mais pourrait connaître un nouveau pic de chaleur autour du 12-14 août. La sécheresse s’accentue globalement..
+Résumé général précédent : Les 15 prochains jours placent la France sous l’influence d’une masse d’air très chaude. La première semaine est marquée par un risque orageux localisé. La seconde semaine, bien que plus incertaine, maintient le signal chaud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps chaud et sec, avec un risque orageux localisé en milieu de semaine, notamment sur le nord et le centre-est..
+Températures attendues précédemment : Chaleur marquée, risque orageux localisé en milieu de semaine (7-8 août)..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: trugll
-Message:
-il y a une heure, Jack75 a dit :
-			En cherchant bien, les intervenants qui cherchent à faire le buzz vont bien trouver une modélisation extrême en raclant les fonds de tiroir ou les réseaux sociaux.😉
-	Où comment tenter de mettre de l'huile sur le feu.....parce que j' ai beau reprendre les derniers topics, je n' ai rien lu sur infoclimat qui s'apparente à du buzz....rien qui ne s'approche du niveau abyssal de conneries que l'on trouve à foison sur les réseaux sociaux.
-	Franchement, IC reste encore un des seul espace sur le net(avec quelques autres sites régionaux) où les prévisions sont mesurées, pertinentes, factuelles, bien évidemment avec les sensibilités de chacun.....
-	Et contrairement aux réseaux sociaux, où l'on trouve beaucoup plus de conneries minimisant, déformant, et balayant à coups d'arguments fallacieux ce qui se passe, que l'inverse....
-	Parce qu'on est bien d'accord Jack, que les 3 derniers mois sont hors normes ?
-	Où alors.....
-	Modifié mercredi à 10:22 par trugll
-								27
-								4
-
-=======================
-
-Auteur: Bibi44
-Message:
-Une explication simple à cet allongement des topics, ainsi qu'à l'augmentation de leur fréquentation est la surveillance du risque. Quand un risque est identifiée à long terme (canicule, vague de froid, tempête, neige...), il mérite que l'on suive son évolution en probabilité comme en intensité. 
-	L'exemple parfait me semble la surveillance des tempêtes : parfois un intervenant poste une carte d'un déterministe isolé à long terme modélisant une tempête sur la France. Les jours suivants, les intervenants évaluent s'il y a de plus ou moins de modélisations en ce sens, si elles sont plus ou moins violentes... Donc le topic s'anime, il y a beaucoup d'interventions, les pages s'accumulent... Pas parce que les intervenants espèrent 180km/h ravageant la moitié de la France, simplement pour évaluer le risque et son évolution.
-	La semaine suivante, pas d'évènement extrême méritant une surveillance particulière, une meilleure prévisibilité sans grand changement de temps... Le topic tiens en 2 pages.
-								1
-								5
-
-=======================
-
 Auteur: Mercur01
 Message:
 Elle rôde la  GF …  
@@ -161,7 +144,7 @@ Message:
 	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
 	Pour le sud/lyon
 	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié il y a 12 heures par Krholam
+	Modifié il y a 13 heures par Krholam
 								2
 
 =======================
@@ -170,7 +153,7 @@ Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 8 heures par symaski62
+	Modifié il y a 9 heures par symaski62
 								3
 								4
 
@@ -235,7 +218,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 Auteur: faycal
 Message:
 Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
-								1
+								2
 								1
 								1
 
@@ -245,34 +228,28 @@ Auteur: mike
 Message:
 il y a 21 minutes, faycal a dit :
 			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
-	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois
+	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
+								1
+								1
+
+=======================
+
+Auteur: RidersOnTheStorm
+Message:
+il y a 17 minutes, mike a dit :
+			out a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
+	Salut, je crois au contraire, que si les conditions au sol peuvent jouer un rôle certes non nul, mais mineur, c'est le positionnement des grands centres d'action qui gouvernent notre climat, ceci été comme hiver.
+	J'dis ça, j'dis rien.
+
+=======================
+
+Auteur: Sebaas
+Message:
+il y a 25 minutes, mike a dit :
+			tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
+	Purée, on dirait du Laurent Cabrol dans le texte; qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: trugll
-Message:
-il y a une heure, Jack75 a dit :
-			En cherchant bien, les intervenants qui cherchent à faire le buzz vont bien trouver une modélisation extrême en raclant les fonds de tiroir ou les réseaux sociaux.😉
-	Où comment tenter de mettre de l'huile sur le feu.....parce que j' ai beau reprendre les derniers topics, je n' ai rien lu sur infoclimat qui s'apparente à du buzz....rien qui ne s'approche du niveau abyssal de conneries que l'on trouve à foison sur les réseaux sociaux.
-	Franchement, IC reste encore un des seul espace sur le net(avec quelques autres sites régionaux) où les prévisions sont mesurées, pertinentes, factuelles, bien évidemment avec les sensibilités de chacun.....
-	Et contrairement aux réseaux sociaux, où l'on trouve beaucoup plus de conneries minimisant, déformant, et balayant à coups d'arguments fallacieux ce qui se passe, que l'inverse....
-	Parce qu'on est bien d'accord Jack, que les 3 derniers mois sont hors normes ?
-	Où alors.....
-	Modifié mercredi à 10:22 par trugll
-								27
-								4
-
-=======================
-
-Auteur: Bibi44
-Message:
-Une explication simple à cet allongement des topics, ainsi qu'à l'augmentation de leur fréquentation est la surveillance du risque. Quand un risque est identifiée à long terme (canicule, vague de froid, tempête, neige...), il mérite que l'on suive son évolution en probabilité comme en intensité. 
-	L'exemple parfait me semble la surveillance des tempêtes : parfois un intervenant poste une carte d'un déterministe isolé à long terme modélisant une tempête sur la France. Les jours suivants, les intervenants évaluent s'il y a de plus ou moins de modélisations en ce sens, si elles sont plus ou moins violentes... Donc le topic s'anime, il y a beaucoup d'interventions, les pages s'accumulent... Pas parce que les intervenants espèrent 180km/h ravageant la moitié de la France, simplement pour évaluer le risque et son évolution.
-	La semaine suivante, pas d'évènement extrême méritant une surveillance particulière, une meilleure prévisibilité sans grand changement de temps... Le topic tiens en 2 pages.
-								1
-								5
-
-=======================
-
 Auteur: Mercur01
 Message:
 Elle rôde la  GF …  
@@ -370,7 +347,7 @@ Message:
 	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
 	Pour le sud/lyon
 	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié il y a 12 heures par Krholam
+	Modifié il y a 13 heures par Krholam
 								2
 
 =======================
@@ -379,7 +356,7 @@ Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 8 heures par symaski62
+	Modifié il y a 9 heures par symaski62
 								3
 								4
 
@@ -444,7 +421,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 Auteur: faycal
 Message:
 Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
-								1
+								2
 								1
 								1
 
@@ -454,4 +431,23 @@ Auteur: mike
 Message:
 il y a 21 minutes, faycal a dit :
 			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
-	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois
+	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
+								1
+								1
+
+=======================
+
+Auteur: RidersOnTheStorm
+Message:
+il y a 17 minutes, mike a dit :
+			out a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
+	Salut, je crois au contraire, que si les conditions au sol peuvent jouer un rôle certes non nul, mais mineur, c'est le positionnement des grands centres d'action qui gouvernent notre climat, ceci été comme hiver.
+	J'dis ça, j'dis rien.
+
+=======================
+
+Auteur: Sebaas
+Message:
+il y a 25 minutes, mike a dit :
+			tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
+	Purée, on dirait du Laurent Cabrol dans le texte; qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
