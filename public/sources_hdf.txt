@@ -275,16 +275,27 @@ Températures maximales : sans changement significatif.
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
 FQCT40 LFQQ 311615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 31 juillet 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 31 juillet 2026 à 12H00 UTC, et évolution Anticyclone 1023 hPa au large de la Bretagne, s'étendant lentement vers l'est, puis prévu en mer du Nord dimanche midi. Faible gradient de pression autour de 1015 hPa sur l'Allemagne. Zone de basse pression se creusant 1012 hPa sur la moitié sud de la France dimanche. 3 - Prévisions pour la nuit du vendredi 31 juillet au samedi 1 août VENT : devenant Variable 2 à 3, parfois 4 en soirée. MER : belle à peu agitée. HOULE : non significative. TEMPS : ciel peu nuageux, parfois voilée. VISIBILITE : bonne. 4 - Prévisions pour la journée du samedi 1 août VENT : s'orientant secteur Nord-Ouest dominant 2 à 4 en matinée, puis Nord-Est dominant en mer du Nord l'après-midi. MER : belle. HOULE : non significative. TEMPS : passagèrement nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 1 au 2, et la journée du dimanche 2 août VENT : secteur Est 3 à 4, fraîchissant Nord-Est 4 à 5 à la mi-journée, avec rafales l'après-midi. MER : belle, devenant progressivement peu agitée en journée. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 2 au 3 et la journée du lundi 3 août VENT : Est à Nord-Est 4 à 5, localement 6 en Manche. MER : peu agitée. HOULE : En mer du nord houle dominante de Nord-Est 0,5 à 1 m. En Manche houle d'Ouest inférieure à 1 m, s'orientant en milieu d'après-midi au Sud-Est. 7 - Tendance pour les jours suivants Mardi 4 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 5 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Jeudi 6 août variable faible. Indice de confiance : 3 sur 5 Vendredi 7 août variable faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le vendredi 31 juillet 2026 à 15H00 UTC Dunkerque : vent Nord 10 noeuds, mer peu agitée, 1018 hPa en hausse, très nuageux à couvert, visibilité 7 milles. Cap Gris Nez : vent Nord-Est 12 noeuds. Boulogne : vent Nord 10 noeuds, 1018 hPa en hausse. Bouée Sandettie : vent Nord-Nord-Est 12 noeuds, creux 0,3 mètre, 1018 hPa en baisse, visibilité 10 milles. Prochain bulletin le samedi 1 août 2026, vers 06H30 légales
 
-=== COMPÉTENCE VIGILANCE MÉTÉO-FRANCE & RUBRIQUE PROCHAINS JOURS (J+2 À J+7) ===
-• Compte-rendu Vigilance Météo-France :
-vigilance météorologique sur la France VIGILANCE METEO FRANCE Facebook Twitter linkedin bluesky Vigilance France Métropolitaine Métropole Océan Indien La Réunion Mayotte Océan Pacifique Nouvelle-Calédonie Polynésie Française Océan Atlantique Martinique Guadeloupe Saint-Martin, Saint-Barthélemy Guyane Française Saint-Pierre-et-Miquelon Vigilance accessible En savoir plus Qu’est-ce que la Vigilance ? La Vigilance Conséquences et conseils Vigilance orange Vigilance rouge Dangers météorologiques Ava
+=== COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
+Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
-• Rubrique Météo-France « Prochains Jours » (J+2 à J+7) :
-Maintien de conditions très chaudes et majoritairement ensoleillées sur le nord du pays. Mise sous surveillance d'une ondulation dépressionnaire et d'un risque d'orages localisés en fin de semaine. Températures prévues oscillant au-dessus des normales de saison avec des maximales comprises entre 28°C et 35°C.
+• Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
+J+2 et J+3 ﻿La canicule se poursuit ce dimanche et lundi sur la moitié est 
+et le sud du pays. Lundi, des orages concerneront une large 
+partie centrale du pays ; il pourront être forts localement mais 
+pour l'instant la vigilance orange reste peu probable.
+
+• Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
+De J+4 à J+7 ﻿Dès mardi 4 août, les températures sont en baisse, sauf dans 
+le quart sud-est où l'épisode caniculaire en cours pourrait se 
+poursuivre jusqu'en fin de semaine prochaine.
+Mardi, des orages pourraient concerner le centre et l'est du 
+pays. La probabilité de passage en vigilance orange est faible 
+à ce stade.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Keraunos (Observatoire Français des Orages Violents) :
-KERAUNOS - Observatoire Français des Tornades et des Orages Violents - Prévision, suivi et étude des orages en France Prévisions Bulletin France jour J Bulletin France J+1 à J+7 Risque orageux sur ma commune Bulletin Méditerranée Temps réel Actualités Brèves Infos Photos Galerie photos Chasseurs d'orages Photos du passé Déposer une photo Climat Faits marquants Les tornades en France Les orages en France Statistiques foudre Bilans mensuels Climat de la France Bases de données Signaler un événement Modèles WRF France & Europe 5 km France 10 km Europe WRF Monde 8 km Moyen-Orient 8 km USA/Tornado Alley GFS France Europe Monde Recherche Comprendre les orages Publications Colloques et manifestations Séminaires Keraunos Services Tous nos services Certificats Extranet clients Observatoire français
+Ce vendredi, un temps orageux dominera des Pyrénées jusqu'au nord-est du pays. Les orages seront plus nombreux et parfois virulents cet après-midi et ce soir, notamment de l'Auvergne à la Lorraine, avec un risque de fortes chutes de grêle, pluies intenses et rafales de vent > 100 km/h.
+
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
 
 === SÉCHERESSE DES SOLS & BILAN HYDRIQUE (BPSPC METEOTEL XML, VIGISEUILS, OPEN-METEO) ===
@@ -292,21 +303,18 @@ KERAUNOS - Observatoire Français des Tornades et des Orages Violents - Prévisi
 
 === EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===
 • Bulletin d'Analyse Expertisé Guillaume Séchet (Météo-Villes) :
-Bulletin France - Situation météo et évolution Archives Dernière mise à jour : vendredi 31 juillet 2026 à 19:14 Saison France Saison FR Vendredi 31 juillet 2026 Précédent Suivant Paris Lille Biarritz Bordeaux Bruxelles Geneve Grenoble Lyon Marseille Montpellier Metz Nantes Nice Rouen Toulouse Agen Ajaccio Amiens Aurillac Bourges Brest Caen Charleville-Mezieres Cherbourg-Octeville Clermont-Ferrand Colmar Dijon La Rochelle Le Mans Limoges Lorient Montélimar Orléans Pau Périgueux Perpignan Poitiers Reims Rennes Strasbourg Tours Troyes 31 Juillet 1 Août 2 Août 3 Août 4 Août 5 Août 6 Août 7 Août Chaleur et violents orages : la France reste sous tension La France se situe désormais entre une influence océanique, apportant des températures de saison dans le nord et l’ouest, et une influence saharienne maintenant une chaleur très marquée dans l’est. À la limite de ces deux masses d’air, de forts orages peuvent se former, souvent accompagnés de grêle et de violentes rafales. Cette situation explique les vigilances déclenchées dans plusieurs départements pour vendredi. Samedi, l’air moins chaud aura gagné une grande partie du pays, à l’exception des régions méditerranéennes. Le risque orageux sera toutefois moins important que la veille. Dès dimanche, la chaleur progressera de nouveau par le sud et le risque d’incendie redeviendra élevé sur les trois quarts du pays. Elle s’intensifiera encore lundi, avec des températures dépassant 33 °C sur une grande partie de la France. Des orages pa
-
-• Guillaume Séchet (Expertise Météo-Lille) :
-IMPORTANT : Ces prévisions météo à 7, 12 et 15 jours pour LILLE et son agglomération (sur un rayon de 50 km) peuvent être réactualisées plusieurs fois par jour. Elles sont expertisées par des météorologistes professionnels et passionnés qui suivent l&#x27;évolution de la situation en permanence et analysent les cartes sorties des calculateurs (modèles météo). Ce site est assez unique sur internet où les prévisions automatiques (brutes et sans analyse préalable) sont la règle. Votre contribution régulière est donc nécessaire car le coût d&#x27;un tel système est extrêmement onéreux alors que le site est gratuit. L&#x27;écart saisonnier des températures est calculé selon la base d&#x27;une moyenne des 30 dernières années, par rapport aux valeurs maximales prévues (les plus représentatives du ressenti général de la journée). Sachant que les températures minimales ont généralement lieu en début de matinée et les maximales, en milieu ou fin d&#x27;après-midi. Pour nous envoyer un message &g
+Chaleur et violents orages : la France reste sous tension La France se situe désormais entre une influence océanique, apportant des températures de saison dans le nord et l’ouest, et une influence saharienne maintenant une chaleur très marquée dans l’est. À la limite de ces deux masses d’air, de forts orages peuvent se former, souvent accompagnés de grêle et de violentes rafales. Cette situation explique les vigilances déclenchées dans plusieurs départements pour vendredi. Samedi, l’air moins chaud aura gagné une grande partie du pays, à l’exception des régions méditerranéennes. Le risque orageux sera toutefois moins important que la veille. Dès dimanche, la chaleur progressera de nouveau par le sud et le risque d’incendie redeviendra élevé sur les trois quarts du pays. Elle s’intensifiera encore lundi, avec des températures dépassant 33 °C sur une grande partie de la France. Des orages parfois très violents pourront éclater lundi soir. Mardi, le risque se décalera davantage vers le sud et l’est, dans une configuration proche de celle observée actuellement : de l’air moins chaud au nord et à l’ouest, tandis que la chaleur persistera ailleurs. À partir du milieu de la semaine procha
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Juillet 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest Juillet 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
 • Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
 • Infoclimat Direct : Espèces et variétés nouricières résistantes &#xE0; la chaleur
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
-• Indicateur Thermique National (ITN 14 jours au 31/07/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
+• Indicateur Thermique National (ITN 14 jours au 01/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -714,6 +722,9 @@ Message:
 il y a 25 minutes, mike a dit :
 			tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 	Purée, on dirait du Laurent Cabrol dans le texte; qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
+
+
+
 
 
 

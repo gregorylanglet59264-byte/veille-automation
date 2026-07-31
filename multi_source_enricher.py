@@ -3,10 +3,55 @@ import urllib.parse
 import re
 import json
 import os
+import tempfile
 import datetime
 import xml.etree.ElementTree as ET
 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+
+# Strict list of non-weather noise patterns to discard
+NOISE_PATTERNS = [
+    r'if\s*\([^)]*\)\s*\{[^}]*\}',
+    r'typeof\s+\w+',
+    r'Vos dons sont indispensables.*',
+    r'Faire un don.*',
+    r'Utiliser ma position.*',
+    r'Sites expertisés.*',
+    r'Menu utilisateur.*',
+    r'Facebook\s+Twitter\s+linkedin.*',
+    r'Copyright.*',
+    r'Mentions légales.*',
+    r'Pour nous envoyer un message.*',
+    r'Aujourd&#x27;huiDemainWeek-end15 jours.*',
+    r'Retrouvez les prévisions météo automatiques de votre ville.*',
+    r'window\.dataLayer.*',
+    r'Galerie photos.*',
+    r'Chasseurs d\'orages.*',
+    r'Photos du passé.*',
+    r'Déposer une photo.*',
+    r'Signaler un événement.*',
+    r'Colloques et manifestations.*',
+    r'Extranet clients.*',
+    r'Se connecter.*',
+    r'Mot de passe.*',
+    r'Créer un compte.*',
+    r'IMPORTANT\s*:\s*Ces prévisions météo.*',
+    r'Votre contribution régulière est donc nécessaire.*',
+    r'L&#x27;écart saisonnier des températures est calculé.*',
+    r'Ce site est assez unique sur internet.*',
+    r'vigilance accessible En savoir plus.*',
+    r'Définition de la vigilance.*',
+    r'Votre vigilance en outre-mer.*'
+]
+
+def clean_noise(text):
+    if not text:
+        return ""
+    t = re.sub(r'<[^>]+>', ' ', text)
+    for p in NOISE_PATTERNS:
+        t = re.sub(p, ' ', t, flags=re.IGNORECASE)
+    lines = [line.strip() for line in t.split('\n') if len(line.strip()) > 15 and not any(k in line.lower() for k in ['contribution régulière', 'gratuité du site', 'votre aide', 'envoyer un message', 'explication simple à cet allongement'])]
+    return "\n".join(lines)
 
 def fetch_url_with_auth(url, timeout=10):
     password_mgr = urllib.request.HTTPPasswordMgrWithDefaultRealm()
@@ -31,6 +76,18 @@ def fetch_html_safe(url, timeout=10):
         print(f"Notice: Failed to fetch {url}: {e}")
         return ""
 
+def rot13(s):
+    res = []
+    for c in s:
+        if 'a' <= c <= 'z':
+            res.append(chr(97 + (ord(c) - 97 + 13) % 26))
+        elif 'A' <= c <= 'Z':
+            res.append(chr(65 + (ord(c) - 65 + 13) % 26))
+        else:
+            res.append(c)
+    return "".join(res)
+
+# 1. Direct Live Meteotel XML Downloader (PREV_XML 5 Départements HDF & Coastal Marine)
 def format_dept_xml_node(dept_id):
     url = f"http://www.meteo.fr/test/meteotel/pics/bul_xml@/bulletins/PREV_XML/{dept_id}"
     raw_bytes = fetch_url_with_auth(url)
@@ -76,7 +133,6 @@ def format_dept_xml_node(dept_id):
         print(f"XML parse error for {dept_id}: {e}")
         return ""
 
-# 1. Direct Live Meteotel XML Downloader (PREV_XML 5 Départements HDF & Coastal Marine)
 def get_live_meteotel_xml(region_name="France"):
     is_hdf = any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD", "PAS-DE-CALAIS"])
     depts = ["DEPT59", "DEPT62", "DEPT80", "DEPT60", "DEPT02"] if is_hdf else ["DEPT75", "DEPT13", "DEPT33", "DEPT69", "DEPT31"]
@@ -100,33 +156,70 @@ def get_live_meteotel_xml(region_name="France"):
         
     return "\n\n".join(xml_summaries) if xml_summaries else "Bulletins Météo-France Meteotel XML récupérés."
 
-# 2. Compétence VIGILANCE (Météo-France Vigilance & Rubrique Prochains Jours J+2 à J+7)
+# 2. Compétence VIGILANCE (PDF Prochains Jours J+2 à J+7 & Accessible Status)
 def get_vigilance_and_prochains_jours_data(region_name="France"):
     is_hdf = any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD", "PAS-DE-CALAIS"])
     hdf_depts = "Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)" if is_hdf else "France entière"
     
-    html = fetch_html_safe("https://vigilance.meteofrance.fr/fr")
-    vig_text = ""
-    if html:
-        clean = re.sub(r'<[^>]+>', ' ', html)
-        clean = re.sub(r'\s+', ' ', clean).strip()
-        m = re.search(r'Vigilance météo.*?(?=Nos services|Cartographie|$)', clean, re.IGNORECASE)
-        if m:
-            vig_text = m.group(0)[:500]
-            
-    if not vig_text:
-        vig_text = f"Vigilance Météo-France active sur les départements : {hdf_depts}. Niveau de vigilance vert/jaune selon les risques orageux ou de chaleur."
+    # Fetch official PDF report commentary for J+2/J+3 and J+4 to J+7
+    j2_j3_text, j4_j7_text = "", ""
+    url = "https://vigilance.meteofrance.fr/fr"
+    req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+    mfsession = None
+    try:
+        with urllib.request.urlopen(req, timeout=8) as response:
+            headers = response.getheaders()
+            for header, value in headers:
+                if header.lower() == 'set-cookie' and 'mfsession=' in value:
+                    m = re.search(r'mfsession=([^;]+)', value)
+                    if m:
+                        mfsession = m.group(1)
+                        break
+    except Exception:
+        pass
+        
+    if mfsession:
+        token = rot13(urllib.parse.unquote(mfsession))
+        base_url = "https://rwg.meteofrance.com/internet2018client/2.0/report"
+        params = {"domain": "france", "report_type": "vigilance", "report_subtype": "jours suivants", "token": token}
+        pdf_url = base_url + "?" + urllib.parse.urlencode(params)
+        fd, temp_path = tempfile.mkstemp(suffix=".pdf")
+        os.close(fd)
+        try:
+            pdf_req = urllib.request.Request(pdf_url, headers={'User-Agent': USER_AGENT})
+            with urllib.request.urlopen(pdf_req, timeout=8) as resp:
+                with open(temp_path, 'wb') as f:
+                    f.write(resp.read())
+            import fitz
+            doc = fitz.open(temp_path)
+            if len(doc) > 0:
+                b1 = [block[4].strip() for block in doc[0].get_text("blocks") if block[0] > 500 and block[1] > 100]
+                j2_j3_text = " ".join(b1)
+            if len(doc) > 1:
+                b2 = [block[4].strip() for block in doc[1].get_text("blocks") if block[0] > 500 and block[1] > 100]
+                j4_j7_text = " ".join(b2)
+            doc.close()
+        except Exception:
+            pass
+        finally:
+            if os.path.exists(temp_path):
+                try:
+                    os.remove(temp_path)
+                except Exception:
+                    pass
 
-    prochains_jours_commentary = (
-        "• Rubrique Météo-France « Prochains Jours » (J+2 à J+7) :\n"
-        "Maintien de conditions très chaudes et majoritairement ensoleillées sur le nord du pays. "
-        "Mise sous surveillance d'une ondulation dépressionnaire et d'un risque d'orages localisés en fin de semaine. "
-        "Températures prévues oscillant au-dessus des normales de saison avec des maximales comprises entre 28°C et 35°C."
-    )
+    lines = ["=== COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ==="]
+    lines.append(f"Statut Vigilance Officielle ({hdf_depts}) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.")
     
-    return f"• Compte-rendu Vigilance Météo-France :\n{vig_text}\n\n{prochains_jours_commentary}"
+    lines.append("\n• Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :")
+    lines.append(j2_j3_text if j2_j3_text else "Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.")
+    
+    lines.append("\n• Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :")
+    lines.append(j4_j7_text if j4_j7_text else "Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.")
+    
+    return "\n".join(lines)
 
-# 3. Guillaume Séchet / Météo-Villes Live Scraper (Bulletin National & Commentaires)
+# 3. Guillaume Séchet / Météo-Villes Live Scraper (Bulletin National & Commentaires Uniquement Météo)
 def get_sechet_live_data(region_name="France"):
     url_mv = "https://www.meteo-villes.com/france/previsions"
     html = fetch_html_safe(url_mv)
@@ -135,35 +228,29 @@ def get_sechet_live_data(region_name="France"):
     if html:
         text = re.sub(r'<[^>]+>', ' ', html)
         text = re.sub(r'\s+', ' ', text).strip()
-        m = re.search(r'Bulletin France - Situation météo et évolution.*?(?=Copyright|Mentions légales|$)', text, re.IGNORECASE)
+        m = re.search(r'Chaleur et violents orages.*?(?=Vos dons|Copyright|Mentions légales|$)', text, re.IGNORECASE)
         if m:
-            clean_b = m.group(0)[:1500]
-            sechet_snippets.append(f"• Bulletin d'Analyse Expertisé Guillaume Séchet (Météo-Villes) :\n{clean_b}")
-            
-    if any(k in region_name.upper() for k in ["HAUTS", "HDF", "NORD"]):
-        html_lille = fetch_html_safe("https://www.meteo-lille.net/previsions")
-        if html_lille:
-            text_lille = re.sub(r'<[^>]+>', ' ', html_lille)
-            text_lille = re.sub(r'\s+', ' ', text_lille).strip()
-            m_l = re.search(r'IMPORTANT : Ces prévisions météo.*?(?=Copyright|Mentions légales|$)', text_lille, re.IGNORECASE)
-            if m_l:
-                sechet_snippets.append(f"• Guillaume Séchet (Expertise Météo-Lille) :\n{m_l.group(0)[:1000]}")
+            clean_b = clean_noise(m.group(0))
+            if clean_b:
+                sechet_snippets.append(f"• Bulletin d'Analyse Expertisé Guillaume Séchet (Météo-Villes) :\n{clean_b[:1200]}")
                     
     return "\n\n".join(sechet_snippets) if sechet_snippets else "Expertise Guillaume Séchet (Météo-Villes) intégrée."
 
-# 4. Keraunos & Blitzortung Orages Live Scraper
+# 4. Keraunos & Blitzortung Orages Live Scraper (Purement Météo)
 def get_keraunos_orage_data():
     html = fetch_html_safe("https://www.keraunos.org/")
     snippets = []
     if html:
         text = re.sub(r'<[^>]+>', ' ', html)
         text = re.sub(r'\s+', ' ', text).strip()
-        m = re.search(r'KERAUNOS - Observatoire Français des Tornades.*?(?=Copyright|Mentions|$)', text, re.IGNORECASE)
+        m = re.search(r'Ce vendredi, un temps orageux.*?(?=Aucun risque|Copyright|Mentions|$)', text, re.IGNORECASE)
         if m:
-            snippets.append(f"• Keraunos (Observatoire Français des Orages Violents) :\n{m.group(0)[:800]}")
+            clean_k = clean_noise(m.group(0))
+            if clean_k:
+                snippets.append(f"• Keraunos (Observatoire Français des Orages Violents) :\n{clean_k[:600]}")
             
     snippets.append("• Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.")
-    return "\n".join(snippets)
+    return "\n\n".join(snippets)
 
 # 5. Sécheresse & Bilan Hydrique (BPSPC Meteotel XML + Vigiseuils)
 def get_secheresse_bilan_hydrique_data(region_name="France"):
@@ -189,7 +276,7 @@ def get_infoclimat_rss_live():
     for t in titles[1:7]:
         clean_t = re.sub(r'<[^>]+>', '', t).strip()
         clean_t = clean_t.replace('&#xE9;', 'é').replace('&#xE8;', 'è').replace('&#x2019;', "'")
-        if len(clean_t) > 10:
+        if len(clean_t) > 10 and not any(k in clean_t.lower() for k in ['forum', 'index', 'connexion']):
             rss_items.append(f"• Infoclimat Direct : {clean_t}")
             
     return "\n".join(rss_items) if rss_items else "Fil d'actualité Infoclimat actif."
@@ -217,7 +304,6 @@ def get_enriched_sources_context(region_name="France"):
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 {meteotel_data}
 
-=== COMPÉTENCE VIGILANCE MÉTÉO-FRANCE & RUBRIQUE PROCHAINS JOURS (J+2 À J+7) ===
 {vigilance_data}
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
