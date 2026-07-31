@@ -1,0 +1,457 @@
+=== REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE (Vendredi 31 Juillet 2026) ===
+
+Date actuelle de génération : Vendredi 31 Juillet 2026
+Saison en France : ÉTÉ
+
+PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
+- SEMAINE 1 PREVISION : Du Lundi 3 au Dimanche 9 Août 2026
+- SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026
+
+TRANSPARENCE SUJETS FORUM INFOCLIMAT :
+- Sujet 1 exploité : Du 3 Août Au 9 Août 2026 Prévisions Météo Semaine 32
+- Sujet 2 exploité : Du 3 Août Au 9 Août 2026 Prévisions Météo Semaine 32  (⚠️ Le sujet spécifique de la Semaine 33 (du Du Lundi 10 au Dimanche 16 Août 2026) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 32).
+
+=== SOURCES COMPLÉMENTAIRES HDF (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
+
+=== BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
+• Bulletin Marine Officiel Météo-France [DEPT59-62-80] : FQCT40 LFQQ 311615 Origine Mto-France . Bulletin ctier pour la bande des 20 milles, de la frontire belge la baie de Somme. Emis le vendredi 31 juillet 2026 18H00 lgales. Vent moyen selon chelle Beaufort. Mer selon chelle Douglas. Heure lgale = heure UTC+1 en hiver et heure UTC+2 en t. Attention : en situation normale, les rafales peuvent tre suprie
+
+=== EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===
+• Météo-Lille Séchet : Utiliser ma positionRechercherRechercherSites expertisésContactfrMenu des languesMenu utilisateurBulletin FranceWeek-end15 joursAlerte 8 joursPrévi. saisonPluiesNuagesOragesStation LilleVotre quartierWebcamsNos articlesX (Twitter)ChroniqueAlmanachCli
+
+=== OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Juillet 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - juillet 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Juillet 2026
+
+=== INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
+• Indicateur Thermique National (ITN 14 jours au 31/07/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
+
+
+=== PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
+Dernier bulletin HDF généré le Vendredi 31 Juillet 2026.
+Résumé général HDF précédent : Deux semaines marquées par une chaleur persistante sur les Hauts-de-France, avec un risque orageux en fin de première semaine et une incertitude notable pour la seconde, où un nouveau pic de chaleur n'est pas exclu..
+Confiance précédente HDF de la semaine 1 : Modérée.
+Températures attendues précédemment : Orages potentiels du 7 au 9 août, surtout en fin de journée..
+============================================
+
+=== DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
+Auteur: trugll
+Message:
+il y a une heure, Jack75 a dit :
+			En cherchant bien, les intervenants qui cherchent à faire le buzz vont bien trouver une modélisation extrême en raclant les fonds de tiroir ou les réseaux sociaux.😉
+	Où comment tenter de mettre de l'huile sur le feu.....parce que j' ai beau reprendre les derniers topics, je n' ai rien lu sur infoclimat qui s'apparente à du buzz....rien qui ne s'approche du niveau abyssal de conneries que l'on trouve à foison sur les réseaux sociaux.
+	Franchement, IC reste encore un des seul espace sur le net(avec quelques autres sites régionaux) où les prévisions sont mesurées, pertinentes, factuelles, bien évidemment avec les sensibilités de chacun.....
+	Et contrairement aux réseaux sociaux, où l'on trouve beaucoup plus de conneries minimisant, déformant, et balayant à coups d'arguments fallacieux ce qui se passe, que l'inverse....
+	Parce qu'on est bien d'accord Jack, que les 3 derniers mois sont hors normes ?
+	Où alors.....
+	Modifié mercredi à 10:22 par trugll
+								27
+								4
+
+=======================
+
+Auteur: Bibi44
+Message:
+Une explication simple à cet allongement des topics, ainsi qu'à l'augmentation de leur fréquentation est la surveillance du risque. Quand un risque est identifiée à long terme (canicule, vague de froid, tempête, neige...), il mérite que l'on suive son évolution en probabilité comme en intensité. 
+	L'exemple parfait me semble la surveillance des tempêtes : parfois un intervenant poste une carte d'un déterministe isolé à long terme modélisant une tempête sur la France. Les jours suivants, les intervenants évaluent s'il y a de plus ou moins de modélisations en ce sens, si elles sont plus ou moins violentes... Donc le topic s'anime, il y a beaucoup d'interventions, les pages s'accumulent... Pas parce que les intervenants espèrent 180km/h ravageant la moitié de la France, simplement pour évaluer le risque et son évolution.
+	La semaine suivante, pas d'évènement extrême méritant une surveillance particulière, une meilleure prévisibilité sans grand changement de temps... Le topic tiens en 2 pages.
+								1
+								5
+
+=======================
+
+Auteur: Mercur01
+Message:
+Elle rôde la  GF …  
+								2
+								2
+								3
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a 15 minutes, Mercur01 a dit :
+			Elle rôde la  GF …  
+	Il ne suffit pas d'une dépression au large de la péninsule ibérique pour à chaque fois à coup sur, on se paie une canicule généralisée sur tout le pays. Heureusement, il y a d'autres paramètres comme l'élévation des hauts géopotentiels à l'avant de cette goutte froide (dome de chaleur). Ici dans cet exemple, l'élévation ne se ferait pas avec un flux de nord entre la scandinavie/gb/ nord de la France.  Le coup de chalumeau serait temporaire et surtout dans le sud de la France.
+	On pourrait se dire chouette en voyant cette carte avec des tonnes et des tonnes de flotte
+	et pourtant :
+								4
+								3
+
+=======================
+
+Auteur: Virgile
+Message:
+C'est hors topic mais y a un signal chaud entre le 10 et le 15 aout en voyant les IA, les ensemblistes et les déterministes.
+								2
+								1
+								1
+								7
+
+=======================
+
+Auteur: Krholam
+Message:
+Il y a 2 heures, Mercur01 a dit :
+			Elle rôde la  GF …  
+	Pour compléter mon cher @Virgile
+	Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
+	En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
+	A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
+	Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
+	Pour le reste Virgile a tout dit. 
+	Modifié mercredi à 18:39 par Krholam
+								2
+
+=======================
+
+Auteur: giec 2100
+Message:
+il y a 19 minutes, Krholam a dit :
+			Pour compléter mon cher @Virgile
+			Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
+			En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
+			A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
+			Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
+			Pour le reste Virgile a tout dit. 
+	et si l'on tâche de se remonter le moral, en allant visionner en fin d'échéance du topic, sur l'ensemble GEFS (run de contrôle) à l'échelle de l'hémisphère N, on a toujours ce minimum, ici un peu mieux centré sur l'Atlantique N, à distance respectueuse pour ne pas trop risquer les advections d'air saharien...
+	mais comme Khrolam je cause sous le contrôle de celles et ceux qui ont ici davantage de bouteille...
+	Modifié mercredi à 18:56 par giec 2100
+
+=======================
+
+Auteur: tao
+Message:
+Bonsoir,
+	je pense que l'incertitude reste importante sur la semaine car les circulations venant de l'océan restent soumises à des ondulations qui perturbent l'installation d'une météo ou de régimes facilement repérables. Pas de vraies dégradations humides et des températures qui bien que restant chaudes seraient moins excessives que celles subies depuis des semaines.
+	Se fixer sur tel ou tel détail dans ce contexte n'est pas très valide. Ce qui devient remarquable c'est cette impossibilité de passer ne serait-ce que quelques jours franchement en dessous des moyennes, ce sera probablement un marqueur essentiel de cet été.
+	La suite pourrait s'inscrire dans la lignée de cette semaine ce qui ferait que, pour un bon moment, la sécheresse ne ferait que s'accentuer de façon globale.
+	Modifié mercredi à 20:08 par tao
+								15
+								3
+								9
+
+=======================
+
+Auteur: symaski62
+Message:
++ 4 jours     pluie          peut-être   🤔
+
+=======================
+
+Auteur: Grahok73
+Message:
+Il y a 3 heures, symaski62 a dit :
+			+ 4 jours     pluie          peut-être   🤔
+	Vu les températures annoncées dans la journée, juste la signature d'un risque orageux en fin d'après-midi/soirée... Donc RAS...
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+Ça commence à sentir pas trop mal ce début de semaine en terme de potentiel orageux vu la carte j+4 Keraunos
+	Passé cette date encore pas mal de dispersion
+	Sur le Nord/Paris
+	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
+	Pour le sud/lyon
+	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
+	Modifié il y a 12 heures par Krholam
+								2
+
+=======================
+
+Auteur: symaski62
+Message:
+https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
+	ECMWF     24 juillet  2026
+	Modifié il y a 8 heures par symaski62
+								3
+								4
+
+=======================
+
+Auteur: Krholam
+Message:
+Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas au 24 donc mais au 30 !
+	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
+	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
+	Pour rappel, mardi les proba ressemblaient plus à ça
+	Modifié il y a 8 heures par Krholam
+Modification du début pour des questions de lisibilité
+								11
+								1
+
+=======================
+
+Auteur: Sebaas
+Message:
+Alors on va tous se calmer, et par ailleurs merci de "faire confiance" à la modération pour appliquer les règles avec le discernement nécessaire. Y'a pas de passe-droit ou d’excès de zèle, juste qu'on sait ce que l'on fait et pourquoi on le fait.
+								6
+								1
+
+=======================
+
+Auteur: Cedski
+Message:
+Hop hop excusez-moi, je n'avais pas vu la signature, et merci à Girondin33 pour le MP me le signalant.
+								5
+
+=======================
+
+Auteur: edel
+Message:
+il y a une heure, Krholam a dit :
+			Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
+			Pour rappel, mardi les proba ressemblaient plus à ça
+	Si je ne m'abuse, il me semble que ce seront essentiellement des précipitations convectives.
+	L'instabilité pourrait donc être significative, visiblement.
+								2
+
+=======================
+
+Auteur: Dumbo
+Message:
+bonjour le cumul se voit très bien sur cette animation publier par ecwmf charts , qui fait le lien entre la pression atmpsphérique en hpa  ramené au niv de la mer et les cumuls de précipitations. Cette amination correspond au 0z d'ecwmf et vas continuer à avoluer en fonction des différents centres d'actions et point d'entrè des diffréentes dépressions.https://charts.ecmwf.int/products/medium-mslp-rain
+
+=======================
+
+Auteur: giec 2100
+Message:
+situation du cumul de précipitations pour l'hémisphère N à l'échéance du topic, avec le modèle européen 6h : 
+	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
+	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
+	l'injustice météorologique... ou du trop peu au trop plein...
+	Modifié il y a 4 heures par giec 2100
+								1
+
+=======================
+
+Auteur: faycal
+Message:
+Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
+								1
+								1
+								1
+
+=======================
+
+Auteur: mike
+Message:
+il y a 21 minutes, faycal a dit :
+			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
+	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois
+
+=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
+Auteur: trugll
+Message:
+il y a une heure, Jack75 a dit :
+			En cherchant bien, les intervenants qui cherchent à faire le buzz vont bien trouver une modélisation extrême en raclant les fonds de tiroir ou les réseaux sociaux.😉
+	Où comment tenter de mettre de l'huile sur le feu.....parce que j' ai beau reprendre les derniers topics, je n' ai rien lu sur infoclimat qui s'apparente à du buzz....rien qui ne s'approche du niveau abyssal de conneries que l'on trouve à foison sur les réseaux sociaux.
+	Franchement, IC reste encore un des seul espace sur le net(avec quelques autres sites régionaux) où les prévisions sont mesurées, pertinentes, factuelles, bien évidemment avec les sensibilités de chacun.....
+	Et contrairement aux réseaux sociaux, où l'on trouve beaucoup plus de conneries minimisant, déformant, et balayant à coups d'arguments fallacieux ce qui se passe, que l'inverse....
+	Parce qu'on est bien d'accord Jack, que les 3 derniers mois sont hors normes ?
+	Où alors.....
+	Modifié mercredi à 10:22 par trugll
+								27
+								4
+
+=======================
+
+Auteur: Bibi44
+Message:
+Une explication simple à cet allongement des topics, ainsi qu'à l'augmentation de leur fréquentation est la surveillance du risque. Quand un risque est identifiée à long terme (canicule, vague de froid, tempête, neige...), il mérite que l'on suive son évolution en probabilité comme en intensité. 
+	L'exemple parfait me semble la surveillance des tempêtes : parfois un intervenant poste une carte d'un déterministe isolé à long terme modélisant une tempête sur la France. Les jours suivants, les intervenants évaluent s'il y a de plus ou moins de modélisations en ce sens, si elles sont plus ou moins violentes... Donc le topic s'anime, il y a beaucoup d'interventions, les pages s'accumulent... Pas parce que les intervenants espèrent 180km/h ravageant la moitié de la France, simplement pour évaluer le risque et son évolution.
+	La semaine suivante, pas d'évènement extrême méritant une surveillance particulière, une meilleure prévisibilité sans grand changement de temps... Le topic tiens en 2 pages.
+								1
+								5
+
+=======================
+
+Auteur: Mercur01
+Message:
+Elle rôde la  GF …  
+								2
+								2
+								3
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a 15 minutes, Mercur01 a dit :
+			Elle rôde la  GF …  
+	Il ne suffit pas d'une dépression au large de la péninsule ibérique pour à chaque fois à coup sur, on se paie une canicule généralisée sur tout le pays. Heureusement, il y a d'autres paramètres comme l'élévation des hauts géopotentiels à l'avant de cette goutte froide (dome de chaleur). Ici dans cet exemple, l'élévation ne se ferait pas avec un flux de nord entre la scandinavie/gb/ nord de la France.  Le coup de chalumeau serait temporaire et surtout dans le sud de la France.
+	On pourrait se dire chouette en voyant cette carte avec des tonnes et des tonnes de flotte
+	et pourtant :
+								4
+								3
+
+=======================
+
+Auteur: Virgile
+Message:
+C'est hors topic mais y a un signal chaud entre le 10 et le 15 aout en voyant les IA, les ensemblistes et les déterministes.
+								2
+								1
+								1
+								7
+
+=======================
+
+Auteur: Krholam
+Message:
+Il y a 2 heures, Mercur01 a dit :
+			Elle rôde la  GF …  
+	Pour compléter mon cher @Virgile
+	Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
+	En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
+	A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
+	Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
+	Pour le reste Virgile a tout dit. 
+	Modifié mercredi à 18:39 par Krholam
+								2
+
+=======================
+
+Auteur: giec 2100
+Message:
+il y a 19 minutes, Krholam a dit :
+			Pour compléter mon cher @Virgile
+			Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
+			En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
+			A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
+			Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
+			Pour le reste Virgile a tout dit. 
+	et si l'on tâche de se remonter le moral, en allant visionner en fin d'échéance du topic, sur l'ensemble GEFS (run de contrôle) à l'échelle de l'hémisphère N, on a toujours ce minimum, ici un peu mieux centré sur l'Atlantique N, à distance respectueuse pour ne pas trop risquer les advections d'air saharien...
+	mais comme Khrolam je cause sous le contrôle de celles et ceux qui ont ici davantage de bouteille...
+	Modifié mercredi à 18:56 par giec 2100
+
+=======================
+
+Auteur: tao
+Message:
+Bonsoir,
+	je pense que l'incertitude reste importante sur la semaine car les circulations venant de l'océan restent soumises à des ondulations qui perturbent l'installation d'une météo ou de régimes facilement repérables. Pas de vraies dégradations humides et des températures qui bien que restant chaudes seraient moins excessives que celles subies depuis des semaines.
+	Se fixer sur tel ou tel détail dans ce contexte n'est pas très valide. Ce qui devient remarquable c'est cette impossibilité de passer ne serait-ce que quelques jours franchement en dessous des moyennes, ce sera probablement un marqueur essentiel de cet été.
+	La suite pourrait s'inscrire dans la lignée de cette semaine ce qui ferait que, pour un bon moment, la sécheresse ne ferait que s'accentuer de façon globale.
+	Modifié mercredi à 20:08 par tao
+								15
+								3
+								9
+
+=======================
+
+Auteur: symaski62
+Message:
++ 4 jours     pluie          peut-être   🤔
+
+=======================
+
+Auteur: Grahok73
+Message:
+Il y a 3 heures, symaski62 a dit :
+			+ 4 jours     pluie          peut-être   🤔
+	Vu les températures annoncées dans la journée, juste la signature d'un risque orageux en fin d'après-midi/soirée... Donc RAS...
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+Ça commence à sentir pas trop mal ce début de semaine en terme de potentiel orageux vu la carte j+4 Keraunos
+	Passé cette date encore pas mal de dispersion
+	Sur le Nord/Paris
+	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
+	Pour le sud/lyon
+	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
+	Modifié il y a 12 heures par Krholam
+								2
+
+=======================
+
+Auteur: symaski62
+Message:
+https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
+	ECMWF     24 juillet  2026
+	Modifié il y a 8 heures par symaski62
+								3
+								4
+
+=======================
+
+Auteur: Krholam
+Message:
+Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas au 24 donc mais au 30 !
+	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
+	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
+	Pour rappel, mardi les proba ressemblaient plus à ça
+	Modifié il y a 8 heures par Krholam
+Modification du début pour des questions de lisibilité
+								11
+								1
+
+=======================
+
+Auteur: Sebaas
+Message:
+Alors on va tous se calmer, et par ailleurs merci de "faire confiance" à la modération pour appliquer les règles avec le discernement nécessaire. Y'a pas de passe-droit ou d’excès de zèle, juste qu'on sait ce que l'on fait et pourquoi on le fait.
+								6
+								1
+
+=======================
+
+Auteur: Cedski
+Message:
+Hop hop excusez-moi, je n'avais pas vu la signature, et merci à Girondin33 pour le MP me le signalant.
+								5
+
+=======================
+
+Auteur: edel
+Message:
+il y a une heure, Krholam a dit :
+			Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
+			Pour rappel, mardi les proba ressemblaient plus à ça
+	Si je ne m'abuse, il me semble que ce seront essentiellement des précipitations convectives.
+	L'instabilité pourrait donc être significative, visiblement.
+								2
+
+=======================
+
+Auteur: Dumbo
+Message:
+bonjour le cumul se voit très bien sur cette animation publier par ecwmf charts , qui fait le lien entre la pression atmpsphérique en hpa  ramené au niv de la mer et les cumuls de précipitations. Cette amination correspond au 0z d'ecwmf et vas continuer à avoluer en fonction des différents centres d'actions et point d'entrè des diffréentes dépressions.https://charts.ecmwf.int/products/medium-mslp-rain
+
+=======================
+
+Auteur: giec 2100
+Message:
+situation du cumul de précipitations pour l'hémisphère N à l'échéance du topic, avec le modèle européen 6h : 
+	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
+	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
+	l'injustice météorologique... ou du trop peu au trop plein...
+	Modifié il y a 4 heures par giec 2100
+								1
+
+=======================
+
+Auteur: faycal
+Message:
+Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
+								1
+								1
+								1
+
+=======================
+
+Auteur: mike
+Message:
+il y a 21 minutes, faycal a dit :
+			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
+	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois
