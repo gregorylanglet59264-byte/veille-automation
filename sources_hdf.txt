@@ -335,12 +335,12 @@ pourrait se produire samedi, mais reste à confirmer.
 Chaleur et violents orages : la France reste sous tension La France se situe désormais entre une influence océanique, apportant des températures de saison dans le nord et l’ouest, et une influence saharienne maintenant une chaleur très marquée dans l’est. À la limite de ces deux masses d’air, de forts orages peuvent se former, souvent accompagnés de grêle et de violentes rafales. Cette situation explique les vigilances déclenchées dans plusieurs départements pour vendredi. Samedi, l’air moins chaud aura gagné une grande partie du pays, à l’exception des régions méditerranéennes. Le risque orageux sera toutefois moins important que la veille. Dès dimanche, la chaleur progressera de nouveau par le sud et le risque d’incendie redeviendra élevé sur les trois quarts du pays. Elle s’intensifiera encore lundi, avec des températures dépassant 33 °C sur une grande partie de la France. Des orages parfois très violents pourront éclater lundi soir. Mardi, le risque se décalera davantage vers le sud et l’est, dans une configuration proche de celle observée actuellement : de l’air moins chaud au nord et à l’ouest, tandis que la chaleur persistera ailleurs. À partir du milieu de la semaine procha
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Le topic du Jardinage
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Automne/Hiver Grande-Bretagne
-• Infoclimat Direct : Suivi du temps en Suisse
 • Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps au Saguenay, Québec (Canada)
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -348,39 +348,17 @@ Chaleur et violents orages : la France reste sous tension La France se situe dé
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 1 Août 2026.
-Résumé général HDF précédent : Sur l'ensemble des 15 jours, les Hauts-de-France connaissent une période chaude et sèche, avec un pic caniculaire en début de première semaine, une baisse temporaire en milieu de première semaine, puis un retour de la chaleur en seconde semaine. Les précipitations sont globalement faibles, avec un risque orageux concentré sur le lundi 3 août..
+Résumé général HDF précédent : Sur l’ensemble des 15 jours, les Hauts-de-France connaissent une période chaude et sèche, avec un pic caniculaire en début de première semaine, une baisse temporaire en milieu de première semaine, puis un retour de la chaleur en seconde semaine. Les précipitations sont globalement faibles, avec un risque orageux concentré sur le lundi 3 août et, de manière plus incertaine, vers le 10-12 août..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pic de chaleur lundi, orages, puis temps plus frais avec averses, retour au beau samedi..
+Températures attendues précédemment : Pic de chaleur lundi (33-36°C intérieur), puis risque orageux lundi soir, puis temps plus frais mais encore estival, et sec en fin de période..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: Grahok73
-Message:
-Il y a 3 heures, symaski62 a dit :
-			+ 4 jours     pluie          peut-être   🤔
-	Vu les températures annoncées dans la journée, juste la signature d'un risque orageux en fin d'après-midi/soirée... Donc RAS...
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Ça commence à sentir pas trop mal ce début de semaine en terme de potentiel orageux vu la carte j+4 Keraunos
-	Passé cette date encore pas mal de dispersion
-	Sur le Nord/Paris
-	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
-	Pour le sud/lyon
-	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié hier à 08:45 par Krholam
-								2
-
-=======================
-
 Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 23 heures par symaski62
+	Modifié hier à 12:39 par symaski62
 								3
 								4
 
@@ -392,7 +370,7 @@ Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas
 	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
 	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
 	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié il y a 22 heures par Krholam
+	Modifié hier à 13:08 par Krholam
 Modification du début pour des questions de lisibilité
 								12
 								1
@@ -437,7 +415,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
 	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
 	l'injustice météorologique... ou du trop peu au trop plein...
-	Modifié il y a 19 heures par giec 2100
+	Modifié il y a 21 heures par giec 2100
 								2
 
 =======================
@@ -480,7 +458,8 @@ il y a 29 minutes, mike a dit :
 	Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
 								2
 								3
-								14
+								15
+								1
 
 =======================
 
@@ -517,6 +496,7 @@ Auteur: sanclaudien
 Message:
 En regardant un peu les prévisions, j'ai l'impression que dans l'est la canicule va durer au moins jusqu'à vendredi...
 	Qu'en disent les experts?
+								1
 
 =======================
 
@@ -537,6 +517,7 @@ il y a 10 minutes, seb93100 a dit :
 			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
 			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
 	Plus classique certe mais quand même un cran de chaleur au dessus par rapport à ce qu’étaient nos été classiques
+								2
 
 =======================
 
@@ -547,35 +528,37 @@ il y a 2 minutes, Krholam a dit :
 	Je parlais surtout des dégradations orageuses qui seront fréquentes la semaine prochaine mais aussi à des valeurs de température plus conformes aux périodes très chaudes du passé. L'exceptionnel c'était surtout juin/juillet à l'échelle du pays. Evidemment qu'on sera au-dessus des moyennes estivales  sur la semaine, sauf sur un 1/4 NO du pays qui sera bien plus ventilé et doux. 
 	Mais en terme de ressenti, bien possible que ce soit aussi désagréable.
 								1
+
+=======================
+
+Auteur: th38
+Message:
+Il y a 2 heures, seb93100 a dit :
+			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
+			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
+	Lyon devrait taper du 36°C possiblement 37°C en Tx sur cette semaine.
+	Entre 65 et 73 inclus, soit sur 9 étés consécutifs, ces valeurs là n'y avaient jamais été atteintes. 
+	Non, il n'y a plus rien de classique, c'est maintenant tout autre chose.
+								2
+								1
+								2
+
+=======================
+
+Auteur: Jetrejo
+Message:
+Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrême et moins dur que 41°c ne veut pas dire qu'on normalise l'un ou l'autre. C'est juste une réalité physique que nos sens nous permettent de sentir, et sur les 5 dernières années ou l'emballement semble s'accélérer, il est probablement vrai que des Tx de 36°C sont bien moins exceptionnelles que des 40+. 
+	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
+	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
+								2
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Grahok73
-Message:
-Il y a 3 heures, symaski62 a dit :
-			+ 4 jours     pluie          peut-être   🤔
-	Vu les températures annoncées dans la journée, juste la signature d'un risque orageux en fin d'après-midi/soirée... Donc RAS...
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Ça commence à sentir pas trop mal ce début de semaine en terme de potentiel orageux vu la carte j+4 Keraunos
-	Passé cette date encore pas mal de dispersion
-	Sur le Nord/Paris
-	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
-	Pour le sud/lyon
-	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié hier à 08:45 par Krholam
-								2
-
-=======================
-
 Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 23 heures par symaski62
+	Modifié hier à 12:39 par symaski62
 								3
 								4
 
@@ -587,7 +570,7 @@ Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas
 	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
 	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
 	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié il y a 22 heures par Krholam
+	Modifié hier à 13:08 par Krholam
 Modification du début pour des questions de lisibilité
 								12
 								1
@@ -632,7 +615,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
 	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
 	l'injustice météorologique... ou du trop peu au trop plein...
-	Modifié il y a 19 heures par giec 2100
+	Modifié il y a 21 heures par giec 2100
 								2
 
 =======================
@@ -675,7 +658,8 @@ il y a 29 minutes, mike a dit :
 	Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
 								2
 								3
-								14
+								15
+								1
 
 =======================
 
@@ -712,6 +696,7 @@ Auteur: sanclaudien
 Message:
 En regardant un peu les prévisions, j'ai l'impression que dans l'est la canicule va durer au moins jusqu'à vendredi...
 	Qu'en disent les experts?
+								1
 
 =======================
 
@@ -732,6 +717,7 @@ il y a 10 minutes, seb93100 a dit :
 			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
 			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
 	Plus classique certe mais quand même un cran de chaleur au dessus par rapport à ce qu’étaient nos été classiques
+								2
 
 =======================
 
@@ -742,3 +728,27 @@ il y a 2 minutes, Krholam a dit :
 	Je parlais surtout des dégradations orageuses qui seront fréquentes la semaine prochaine mais aussi à des valeurs de température plus conformes aux périodes très chaudes du passé. L'exceptionnel c'était surtout juin/juillet à l'échelle du pays. Evidemment qu'on sera au-dessus des moyennes estivales  sur la semaine, sauf sur un 1/4 NO du pays qui sera bien plus ventilé et doux. 
 	Mais en terme de ressenti, bien possible que ce soit aussi désagréable.
 								1
+
+=======================
+
+Auteur: th38
+Message:
+Il y a 2 heures, seb93100 a dit :
+			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
+			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
+	Lyon devrait taper du 36°C possiblement 37°C en Tx sur cette semaine.
+	Entre 65 et 73 inclus, soit sur 9 étés consécutifs, ces valeurs là n'y avaient jamais été atteintes. 
+	Non, il n'y a plus rien de classique, c'est maintenant tout autre chose.
+								2
+								1
+								2
+
+=======================
+
+Auteur: Jetrejo
+Message:
+Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrême et moins dur que 41°c ne veut pas dire qu'on normalise l'un ou l'autre. C'est juste une réalité physique que nos sens nous permettent de sentir, et sur les 5 dernières années ou l'emballement semble s'accélérer, il est probablement vrai que des Tx de 36°C sont bien moins exceptionnelles que des 40+. 
+	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
+	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
+								2
+								2
