@@ -278,7 +278,7 @@ Températures minimales : en baisse.
 Températures maximales : sans changement significatif.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 311615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 31 juillet 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 31 juillet 2026 à 12H00 UTC, et évolution Anticyclone 1023 hPa au large de la Bretagne, s'étendant lentement vers l'est, puis prévu en mer du Nord dimanche midi. Faible gradient de pression autour de 1015 hPa sur l'Allemagne. Zone de basse pression se creusant 1012 hPa sur la moitié sud de la France dimanche. 3 - Prévisions pour la nuit du vendredi 31 juillet au samedi 1 août VENT : devenant Variable 2 à 3, parfois 4 en soirée. MER : belle à peu agitée. HOULE : non significative. TEMPS : ciel peu nuageux, parfois voilée. VISIBILITE : bonne. 4 - Prévisions pour la journée du samedi 1 août VENT : s'orientant secteur Nord-Ouest dominant 2 à 4 en matinée, puis Nord-Est dominant en mer du Nord l'après-midi. MER : belle. HOULE : non significative. TEMPS : passagèrement nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 1 au 2, et la journée du dimanche 2 août VENT : secteur Est 3 à 4, fraîchissant Nord-Est 4 à 5 à la mi-journée, avec rafales l'après-midi. MER : belle, devenant progressivement peu agitée en journée. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 2 au 3 et la journée du lundi 3 août VENT : Est à Nord-Est 4 à 5, localement 6 en Manche. MER : peu agitée. HOULE : En mer du nord houle dominante de Nord-Est 0,5 à 1 m. En Manche houle d'Ouest inférieure à 1 m, s'orientant en milieu d'après-midi au Sud-Est. 7 - Tendance pour les jours suivants Mardi 4 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 5 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Jeudi 6 août variable faible. Indice de confiance : 3 sur 5 Vendredi 7 août variable faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le vendredi 31 juillet 2026 à 15H00 UTC Dunkerque : vent Nord 10 noeuds, mer peu agitée, 1018 hPa en hausse, très nuageux à couvert, visibilité 7 milles. Cap Gris Nez : vent Nord-Est 12 noeuds. Boulogne : vent Nord 10 noeuds, 1018 hPa en hausse. Bouée Sandettie : vent Nord-Nord-Est 12 noeuds, creux 0,3 mètre, 1018 hPa en baisse, visibilité 10 milles. Prochain bulletin le samedi 1 août 2026, vers 06H30 légales
+FQCT40 LFQQ 010405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 1 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 1 août 2026 à 00H00 UTC, et évolution Anticyclone 1023 hPa au large de la Bretagne, s'étendant lentement vers l'est, puis prévu en mer du Nord dimanche midi. Faible gradient de pression autour de 1015 hPa sur l'Allemagne. Zone de basse pression se creusant 1012 hPa sur la moitié sud de la France dimanche. 3 - Prévisions pour la journée du samedi 1 août VENT : Variable 2 à 3, secteur Sud dominant, s'orientant secteur Nord-Ouest 2 à 4 en Manche en fin de matinée, puis progressivement secteur Nord-Est par l'est l'après-midi. MER : belle, temporairement peu agitée en Manche le matin. HOULE : non significative. TEMPS : peu nuageux à nuageux, puis voilé l'après-midi. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 1 août au dimanche 2 août VENT : virant Est à Sud-Est 2 à 4, mais secteur Nord dominant 2 à 3 en Manche, puis s'orientant progressivement Est à Nord-Est en fin de nuit. MER : belle. HOULE : non significative. TEMPS : ciel voilé. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 2 août VENT : Est à Nord-Est fraichissant 3 à 4, puis Nord à Nord-Est 4 à 5 l'après-midi, parfois 6 en Manche à la fin. MER : belle, devenant progressivement peu agitée l'après-midi. HOULE : non significative. TEMPS : ciel voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 2 au 3 et la journée du lundi 3 août VENT : En mer du nord Est à Nord-Est 6 mollissant 4 à 5 en milieu de nuit. En Manche Est à Nord-Est 4 à 6, revenant Ouest à Nord-Ouest en milieu d'après-midi. MER : peu agitée, devenant temporairement agitée en milieu de nuit en mer du nord. HOULE de Nord à Nord-Est inférieure à 1 m, s'orientant en milieu d'après-midi à l'Ouest. 7 - Tendance pour les jours suivants Mardi 4 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 5 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Jeudi 6 août variable faible. Indice de confiance : 3 sur 5 Vendredi 7 août variable faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le samedi 1 août 2026 à 03H00 UTC Dunkerque : vent Sud 2 noeuds, mer peu agitée, 1019 hPa en baisse, clair ou peu nuageux, visibilité 5 milles. Cap Gris Nez : vent Sud-Sud-Est 8 noeuds. Boulogne : vent Sud-Est 4 noeuds, 1019 hPa en baisse, nuageux avec éclaircies, visibilité 16 milles. Prochain bulletin le samedi 1 août 2026, vers 12H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -311,12 +311,12 @@ Ce vendredi, un temps orageux dominera des Pyrénées jusqu'au nord-est du pays.
 Chaleur et violents orages : la France reste sous tension La France se situe désormais entre une influence océanique, apportant des températures de saison dans le nord et l’ouest, et une influence saharienne maintenant une chaleur très marquée dans l’est. À la limite de ces deux masses d’air, de forts orages peuvent se former, souvent accompagnés de grêle et de violentes rafales. Cette situation explique les vigilances déclenchées dans plusieurs départements pour vendredi. Samedi, l’air moins chaud aura gagné une grande partie du pays, à l’exception des régions méditerranéennes. Le risque orageux sera toutefois moins important que la veille. Dès dimanche, la chaleur progressera de nouveau par le sud et le risque d’incendie redeviendra élevé sur les trois quarts du pays. Elle s’intensifiera encore lundi, avec des températures dépassant 33 °C sur une grande partie de la France. Des orages parfois très violents pourront éclater lundi soir. Mardi, le risque se décalera davantage vers le sud et l’est, dans une configuration proche de celle observée actuellement : de l’air moins chaud au nord et à l’ouest, tandis que la chaleur persistera ailleurs. À partir du milieu de la semaine procha
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Prévisions Nord -  AOUT 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Sport en vrac...
+• Infoclimat Direct : Neiges éternelles en Corse... 2026, le retour ?
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Météo Kids transmettre notre passion de la météo aux plus jeunes
-• Infoclimat Direct : Névé 9 massif du Jura: La Neigère 2022-23
-• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Incendies 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -324,9 +324,9 @@ Chaleur et violents orages : la France reste sous tension La France se situe dé
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 1 Août 2026.
-Résumé général HDF précédent : Période majoritairement chaude et sèche sur les Hauts-de-France. Un pic de chaleur intense est attendu en début de première semaine, suivi d'un léger répit. La seconde semaine est sous très haute incertitude mais le signal général reste à la chaleur..
+Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaîtront un temps majoritairement chaud, avec un pic caniculaire en début de première semaine, suivi d'une légère baisse en milieu de première semaine, puis d'une remontée incertaine en deuxième semaine. Les précipitations seront limitées, essentiellement orageuses et localisées..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur progressive jusqu'à lundi, suivie d'une légère baisse des températures en milieu de semaine..
+Températures attendues précédemment : Très chaud lundi (30-35°C inland), puis orages locaux mardi-mercredi, suivi d'un temps plus mitigé avec averses jeudi-vendredi et amélioration samedi-dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -418,7 +418,7 @@ Message:
 	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
 	Pour le sud/lyon
 	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié il y a 17 heures par Krholam
+	Modifié il y a 19 heures par Krholam
 								2
 
 =======================
@@ -427,7 +427,7 @@ Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 13 heures par symaski62
+	Modifié il y a 15 heures par symaski62
 								3
 								4
 
@@ -439,7 +439,7 @@ Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas
 	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
 	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
 	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié il y a 12 heures par Krholam
+	Modifié il y a 14 heures par Krholam
 Modification du début pour des questions de lisibilité
 								12
 								1
@@ -484,7 +484,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
 	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
 	l'injustice météorologique... ou du trop peu au trop plein...
-	Modifié il y a 9 heures par giec 2100
+	Modifié il y a 11 heures par giec 2100
 								2
 
 =======================
@@ -627,7 +627,7 @@ Message:
 	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
 	Pour le sud/lyon
 	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié il y a 17 heures par Krholam
+	Modifié il y a 19 heures par Krholam
 								2
 
 =======================
@@ -636,7 +636,7 @@ Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 13 heures par symaski62
+	Modifié il y a 15 heures par symaski62
 								3
 								4
 
@@ -648,7 +648,7 @@ Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas
 	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
 	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
 	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié il y a 12 heures par Krholam
+	Modifié il y a 14 heures par Krholam
 Modification du début pour des questions de lisibilité
 								12
 								1
@@ -693,7 +693,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
 	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
 	l'injustice météorologique... ou du trop peu au trop plein...
-	Modifié il y a 9 heures par giec 2100
+	Modifié il y a 11 heures par giec 2100
 								2
 
 =======================
