@@ -309,12 +309,12 @@ pourrait se produire samedi, mais reste à confirmer.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
+• Infoclimat Direct : Etude empirique du réchauffement climatique &#xE0; travers différents paramètres : l'exemple de Nice
+• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,27 +322,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 1 Août 2026.
-Résumé général HDF précédent : Été 2026 caniculaire et sec pour les Hauts-de-France. La première semaine est la plus crédible avec un pic caniculaire lundi suivi d'une accalmie estivale. La tendance pour la deuxième semaine est beaucoup plus incertaine mais penche vers un prolongement du temps sec et chaud, accentuant le déficit pluviométrique..
+Résumé général HDF précédent : Période du 3 au 16 août : deux semaines estivales mais contrastées. Semaine 1 bien cernée avec un pic caniculaire lundi suivi d’un temps plus calme. Semaine 2 très incertaine mais tendance à un prolongement de la chaleur, avec un risque de dégradation en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur caniculaire lundi après-midi (33-36°C) et risque d'orages forts en soirée avec des précipitations localement significatives..
+Températures attendues précédemment : Pic de chaleur lundi après-midi (33-36°C), orages en soirée, puis amélioration mardi, temps sec et ensoleillé à partir de jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: Sebaas
-Message:
-Alors on va tous se calmer, et par ailleurs merci de "faire confiance" à la modération pour appliquer les règles avec le discernement nécessaire. Y'a pas de passe-droit ou d’excès de zèle, juste qu'on sait ce que l'on fait et pourquoi on le fait.
-								6
-								1
-
-=======================
-
-Auteur: Cedski
-Message:
-Hop hop excusez-moi, je n'avais pas vu la signature, et merci à Girondin33 pour le MP me le signalant.
-								6
-
-=======================
-
 Auteur: edel
 Message:
 il y a une heure, Krholam a dit :
@@ -409,7 +394,7 @@ il y a 29 minutes, mike a dit :
 	Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
 								2
 								4
-								15
+								16
 								1
 
 =======================
@@ -440,6 +425,7 @@ Il y a 7 heures, faycal a dit :
 			Pour l'hiver, c'est effectivement vrai que le froid de basses couches peut avoir un effet en renforçant les anticyclones de surface et rendre plus difficile la pénétration des perturbations sur le continent. Par contre en été je ne vois pas pourquoi il y aurait un tel effet à cause de la sécheresse des sols.
 	je crois aussi que plus les étés passent moins il y a de dynamisme atmosphérique et le peut qui reste est rejeté tres au nord. L'air chaud a ainsi tout loisir à s'installer et à rester en place, bien aider aussi par les anomalies croissantes des SST en atlantique orientale
 								2
+								1
 
 =======================
 
@@ -501,7 +487,7 @@ Message:
 Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrême et moins dur que 41°c ne veut pas dire qu'on normalise l'un ou l'autre. C'est juste une réalité physique que nos sens nous permettent de sentir, et sur les 5 dernières années ou l'emballement semble s'accélérer, il est probablement vrai que des Tx de 36°C sont bien moins exceptionnelles que des 40+. 
 	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
 	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
-								5
+								7
 								4
 
 =======================
@@ -521,25 +507,25 @@ Il y a 21 heures, Sebaas a dit :
 	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
 	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
 	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
-	Modifié il y a 47 minutes par Virgile
-								6
+	Modifié il y a 2 heures par Virgile
+								8
+
+=======================
+
+Auteur: Krholam
+Message:
+Oui, niveau PP le nord / Nord ouest c'est pas fameux et les modèles sont plutôt raccord entre eux.
+	Cumul entre le 02/08 et le 09/08
+								1
+
+=======================
+
+Auteur: Hassan
+Message:
+Arôme commence a modéliser un front de rafale du Centre au Nord-est lundi après les très forte chaleur sur ces régions avec des rafales de plus de 100kmh localement.
+	A suivre
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Sebaas
-Message:
-Alors on va tous se calmer, et par ailleurs merci de "faire confiance" à la modération pour appliquer les règles avec le discernement nécessaire. Y'a pas de passe-droit ou d’excès de zèle, juste qu'on sait ce que l'on fait et pourquoi on le fait.
-								6
-								1
-
-=======================
-
-Auteur: Cedski
-Message:
-Hop hop excusez-moi, je n'avais pas vu la signature, et merci à Girondin33 pour le MP me le signalant.
-								6
-
-=======================
-
 Auteur: edel
 Message:
 il y a une heure, Krholam a dit :
@@ -606,7 +592,7 @@ il y a 29 minutes, mike a dit :
 	Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
 								2
 								4
-								15
+								16
 								1
 
 =======================
@@ -637,6 +623,7 @@ Il y a 7 heures, faycal a dit :
 			Pour l'hiver, c'est effectivement vrai que le froid de basses couches peut avoir un effet en renforçant les anticyclones de surface et rendre plus difficile la pénétration des perturbations sur le continent. Par contre en été je ne vois pas pourquoi il y aurait un tel effet à cause de la sécheresse des sols.
 	je crois aussi que plus les étés passent moins il y a de dynamisme atmosphérique et le peut qui reste est rejeté tres au nord. L'air chaud a ainsi tout loisir à s'installer et à rester en place, bien aider aussi par les anomalies croissantes des SST en atlantique orientale
 								2
+								1
 
 =======================
 
@@ -698,7 +685,7 @@ Message:
 Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrême et moins dur que 41°c ne veut pas dire qu'on normalise l'un ou l'autre. C'est juste une réalité physique que nos sens nous permettent de sentir, et sur les 5 dernières années ou l'emballement semble s'accélérer, il est probablement vrai que des Tx de 36°C sont bien moins exceptionnelles que des 40+. 
 	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
 	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
-								5
+								7
 								4
 
 =======================
@@ -718,5 +705,20 @@ Il y a 21 heures, Sebaas a dit :
 	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
 	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
 	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
-	Modifié il y a 47 minutes par Virgile
-								6
+	Modifié il y a 2 heures par Virgile
+								8
+
+=======================
+
+Auteur: Krholam
+Message:
+Oui, niveau PP le nord / Nord ouest c'est pas fameux et les modèles sont plutôt raccord entre eux.
+	Cumul entre le 02/08 et le 09/08
+								1
+
+=======================
+
+Auteur: Hassan
+Message:
+Arôme commence a modéliser un front de rafale du Centre au Nord-est lundi après les très forte chaleur sur ces régions avec des rafales de plus de 100kmh localement.
+	A suivre
