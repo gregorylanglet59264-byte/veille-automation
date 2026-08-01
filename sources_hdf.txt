@@ -303,7 +303,7 @@ Températures minimales : identiques à la veille.
 Températures maximales : en hausse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 010405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 1 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 1 août 2026 à 00H00 UTC, et évolution Anticyclone 1023 hPa au large de la Bretagne, s'étendant lentement vers l'est, puis prévu en mer du Nord dimanche midi. Faible gradient de pression autour de 1015 hPa sur l'Allemagne. Zone de basse pression se creusant 1012 hPa sur la moitié sud de la France dimanche. 3 - Prévisions pour la journée du samedi 1 août VENT : Variable 2 à 3, secteur Sud dominant, s'orientant secteur Nord-Ouest 2 à 4 en Manche en fin de matinée, puis progressivement secteur Nord-Est par l'est l'après-midi. MER : belle, temporairement peu agitée en Manche le matin. HOULE : non significative. TEMPS : peu nuageux à nuageux, puis voilé l'après-midi. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 1 août au dimanche 2 août VENT : virant Est à Sud-Est 2 à 4, mais secteur Nord dominant 2 à 3 en Manche, puis s'orientant progressivement Est à Nord-Est en fin de nuit. MER : belle. HOULE : non significative. TEMPS : ciel voilé. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 2 août VENT : Est à Nord-Est fraichissant 3 à 4, puis Nord à Nord-Est 4 à 5 l'après-midi, parfois 6 en Manche à la fin. MER : belle, devenant progressivement peu agitée l'après-midi. HOULE : non significative. TEMPS : ciel voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 2 au 3 et la journée du lundi 3 août VENT : En mer du nord Est à Nord-Est 6 mollissant 4 à 5 en milieu de nuit. En Manche Est à Nord-Est 4 à 6, revenant Ouest à Nord-Ouest en milieu d'après-midi. MER : peu agitée, devenant temporairement agitée en milieu de nuit en mer du nord. HOULE de Nord à Nord-Est inférieure à 1 m, s'orientant en milieu d'après-midi à l'Ouest. 7 - Tendance pour les jours suivants Mardi 4 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 5 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Jeudi 6 août variable faible. Indice de confiance : 3 sur 5 Vendredi 7 août variable faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le samedi 1 août 2026 à 03H00 UTC Dunkerque : vent Sud 2 noeuds, mer peu agitée, 1019 hPa en baisse, clair ou peu nuageux, visibilité 5 milles. Cap Gris Nez : vent Sud-Sud-Est 8 noeuds. Boulogne : vent Sud-Est 4 noeuds, 1019 hPa en baisse, nuageux avec éclaircies, visibilité 16 milles. Prochain bulletin le samedi 1 août 2026, vers 12H30 légales
+FQCT40 LFQQ 011000 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 1 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 1 août 2026 à 06H00 UTC, et évolution Anticyclone 1023 hPa au sud de l'Irlande, se décalant vers le nord-est, prévu 1022 hPa en Mer du Nord dimanche matin. Dépression se creusant 1012 hPa sur le sud-ouest de la France la nuit. 3 - Prévisions pour l'après-midi du samedi 1 août VENT : Variable 1 à 3, fraîchissant secteur Nord-Est 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : devenant voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 1 août au dimanche 2 août VENT : secteur Nord-Est 2 à 4, mollissant Variable 1 à 3 le soir, puis s'orientant Est à Nord-Est en seconde partie de nuit. MER : belle. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 2 août VENT : Est à Nord-Est fraichissant 3 à 4, puis Nord à Nord-Est 4 à 5 l'après-midi, parfois 6 en Manche à la fin. MER : belle, devenant peu agitée l'après-midi. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 2 au 3 et la journée du lundi 3 août VENT : secteur Nord-Est 2 à 4, parfois 5 la nuit. MER : peu agitée, s'atténuant belle à peu agitée la nuit. HOULE : non significative, s'établissant Nord-Est 0.5 à 1 m en Mer du Nord la nuit. TEMPS : voilé. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 3 au 4 et la journée du mardi 4 août VENT : Nord-Est 4 à 5, virant Sud à Sud-Ouest en début de nuit. MER : peu agitée. HOULE dominante de Nord-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Mercredi 5 août Secteur Ouest modéré. Indice de confiance : 4 sur 5 Jeudi 6 août Secteur Nord-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 7 août Secteur Nord faible à modéré. Indice de confiance : 3 sur 5 Samedi 8 août Variable faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le samedi 1 août 2026 à 09H00 UTC Dunkerque : vent Nord-Est 4 noeuds, mer calme, 1020 hPa en hausse, nuageux avec éclaircies, visibilité 6 milles. Cap Gris Nez : vent Nord-Nord-Ouest 6 noeuds. Boulogne : vent Nord-Ouest 6 noeuds, 1020 hPa en hausse, clair ou peu nuageux, visibilité 16 milles. Bouée Sandettie : vent Calme 0 noeud, creux 0,3 mètre, 1020 hPa en baisse, visibilité 10 milles. Prochain bulletin le samedi 1 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -333,12 +333,12 @@ pays. La probabilité de passage en vigilance orange est faible
 Chaleur et violents orages : la France reste sous tension La France se situe désormais entre une influence océanique, apportant des températures de saison dans le nord et l’ouest, et une influence saharienne maintenant une chaleur très marquée dans l’est. À la limite de ces deux masses d’air, de forts orages peuvent se former, souvent accompagnés de grêle et de violentes rafales. Cette situation explique les vigilances déclenchées dans plusieurs départements pour vendredi. Samedi, l’air moins chaud aura gagné une grande partie du pays, à l’exception des régions méditerranéennes. Le risque orageux sera toutefois moins important que la veille. Dès dimanche, la chaleur progressera de nouveau par le sud et le risque d’incendie redeviendra élevé sur les trois quarts du pays. Elle s’intensifiera encore lundi, avec des températures dépassant 33 °C sur une grande partie de la France. Des orages parfois très violents pourront éclater lundi soir. Mardi, le risque se décalera davantage vers le sud et l’est, dans une configuration proche de celle observée actuellement : de l’air moins chaud au nord et à l’ouest, tandis que la chaleur persistera ailleurs. À partir du milieu de la semaine procha
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Statistiques et anomalies climatiques nationales
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
 • Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Incendies 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -346,55 +346,12 @@ Chaleur et violents orages : la France reste sous tension La France se situe dé
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 1 Août 2026.
-Résumé général HDF précédent : Sur l'ensemble des 15 jours, les Hauts-de-France connaissent une période de temps très chaud et sec, avec un pic caniculaire en début de première semaine (lundi 3 août), une légère baisse thermique en milieu de première semaine, puis un maintien de la chaleur en seconde semaine. Les précipitations sont quasi inexistantes, avec seulement un risque d'orages isolés en première semaine et un faible signal pluvieux en seconde semaine. La sécheresse des sols s'aggrave..
+Résumé général HDF précédent : Période de 15 jours très chaude et sèche sur les Hauts-de-France, avec un pic caniculaire en début de première semaine (lundi 3 août), une baisse thermique en milieu de première semaine, puis un maintien de la chaleur en seconde semaine. Les précipitations sont quasi inexistantes, avec seulement un risque d'orages isolés en première semaine et un faible signal pluvieux en seconde semaine. La sécheresse des sols s'aggrave..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Très chaud lundi (32-35°C), orages isolés en soirée, puis soleil et chaleur modérée (25-31°C) le reste de la semaine. (120 caractères).
+Températures attendues précédemment : Pic de chaleur lundi, orages localement forts, puis temps plus frais et instable en milieu de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: Krholam
-Message:
-Il y a 2 heures, Mercur01 a dit :
-			Elle rôde la  GF …  
-	Pour compléter mon cher @Virgile
-	Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
-	En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
-	A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
-	Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
-	Pour le reste Virgile a tout dit. 
-	Modifié mercredi à 18:39 par Krholam
-								2
-
-=======================
-
-Auteur: giec 2100
-Message:
-il y a 19 minutes, Krholam a dit :
-			Pour compléter mon cher @Virgile
-			Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
-			En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
-			A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
-			Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
-			Pour le reste Virgile a tout dit. 
-	et si l'on tâche de se remonter le moral, en allant visionner en fin d'échéance du topic, sur l'ensemble GEFS (run de contrôle) à l'échelle de l'hémisphère N, on a toujours ce minimum, ici un peu mieux centré sur l'Atlantique N, à distance respectueuse pour ne pas trop risquer les advections d'air saharien...
-	mais comme Khrolam je cause sous le contrôle de celles et ceux qui ont ici davantage de bouteille...
-	Modifié mercredi à 18:56 par giec 2100
-
-=======================
-
-Auteur: tao
-Message:
-Bonsoir,
-	je pense que l'incertitude reste importante sur la semaine car les circulations venant de l'océan restent soumises à des ondulations qui perturbent l'installation d'une météo ou de régimes facilement repérables. Pas de vraies dégradations humides et des températures qui bien que restant chaudes seraient moins excessives que celles subies depuis des semaines.
-	Se fixer sur tel ou tel détail dans ce contexte n'est pas très valide. Ce qui devient remarquable c'est cette impossibilité de passer ne serait-ce que quelques jours franchement en dessous des moyennes, ce sera probablement un marqueur essentiel de cet été.
-	La suite pourrait s'inscrire dans la lignée de cette semaine ce qui ferait que, pour un bon moment, la sécheresse ne ferait que s'accentuer de façon globale.
-	Modifié mercredi à 20:08 par tao
-								15
-								3
-								9
-
-=======================
-
 Auteur: symaski62
 Message:
 + 4 jours     pluie          peut-être   🤔
@@ -418,7 +375,7 @@ Message:
 	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
 	Pour le sud/lyon
 	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié il y a 23 heures par Krholam
+	Modifié hier à 08:45 par Krholam
 								2
 
 =======================
@@ -427,7 +384,7 @@ Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 19 heures par symaski62
+	Modifié il y a 21 heures par symaski62
 								3
 								4
 
@@ -439,7 +396,7 @@ Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas
 	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
 	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
 	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié il y a 18 heures par Krholam
+	Modifié il y a 20 heures par Krholam
 Modification du début pour des questions de lisibilité
 								12
 								1
@@ -484,7 +441,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
 	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
 	l'injustice météorologique... ou du trop peu au trop plein...
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								2
 
 =======================
@@ -503,7 +460,7 @@ Message:
 il y a 21 minutes, faycal a dit :
 			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
 	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
-								1
+								2
 								2
 								2
 
@@ -515,7 +472,8 @@ il y a 17 minutes, mike a dit :
 			out a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 	Salut, je crois au contraire, que si les conditions au sol peuvent jouer un rôle certes non nul, mais mineur, c'est le positionnement des grands centres d'action qui gouvernent notre climat, ceci été comme hiver.
 	J'dis ça, j'dis rien. 
-								4
+								1
+								6
 
 =======================
 
@@ -556,51 +514,35 @@ Il y a 7 heures, faycal a dit :
 			Pour l'hiver, c'est effectivement vrai que le froid de basses couches peut avoir un effet en renforçant les anticyclones de surface et rendre plus difficile la pénétration des perturbations sur le continent. Par contre en été je ne vois pas pourquoi il y aurait un tel effet à cause de la sécheresse des sols.
 	je crois aussi que plus les étés passent moins il y a de dynamisme atmosphérique et le peut qui reste est rejeté tres au nord. L'air chaud a ainsi tout loisir à s'installer et à rester en place, bien aider aussi par les anomalies croissantes des SST en atlantique orientale
 								1
+
+=======================
+
+Auteur: sanclaudien
+Message:
+En regardant un peu les prévisions, j'ai l'impression que dans l'est la canicule va durer au moins jusqu'à vendredi...
+	Qu'en disent les experts?
+
+=======================
+
+Auteur: seb93100
+Message:
+il y a 24 minutes, sanclaudien a dit :
+			En regardant un peu les prévisions, j'ai l'impression que dans l'est la canicule va durer au moins jusqu'à vendredi...
+			Qu'en disent les experts?
+	Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
+	Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 10 minutes, seb93100 a dit :
+			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
+			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
+	Plus classique certe mais quand même un cran de chaleur au dessus par rapport à ce qu’étaient nos été classiques
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Krholam
-Message:
-Il y a 2 heures, Mercur01 a dit :
-			Elle rôde la  GF …  
-	Pour compléter mon cher @Virgile
-	Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
-	En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
-	A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
-	Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
-	Pour le reste Virgile a tout dit. 
-	Modifié mercredi à 18:39 par Krholam
-								2
-
-=======================
-
-Auteur: giec 2100
-Message:
-il y a 19 minutes, Krholam a dit :
-			Pour compléter mon cher @Virgile
-			Sur ton image on ne peux pas vraiment parler de GF puisqu'elle n'est pas détachée. C'est surtout une dépression reliée à un Thalweg (me corriger svp si je me trompe)
-			En regardant les ensembles GFS, l'isolement de ce creux en tant que GF se fait seulement sur 1 scenario (pas le det). Scénario qui d'ailleurs même si la goutte froide est isolée ne génererait pas de coup de chaud généralisé. Il serait même plus tempéré que le coup de chaud actuel qui n'est pas du à une GF
-			A l'heure actuelle il n'y a pas de signale d'une GF, et encore moins d'une GF qui s'isole.
-			Je pense que la plupart des personnes intervenant ici régulièrement sont tout autant aux aguets d'une situation qui pourrait nous replonger dans une config Pompe à chaleur, tout comme ils sont aux aguets des signaux modérateurs de cet été hors norme.
-			Pour le reste Virgile a tout dit. 
-	et si l'on tâche de se remonter le moral, en allant visionner en fin d'échéance du topic, sur l'ensemble GEFS (run de contrôle) à l'échelle de l'hémisphère N, on a toujours ce minimum, ici un peu mieux centré sur l'Atlantique N, à distance respectueuse pour ne pas trop risquer les advections d'air saharien...
-	mais comme Khrolam je cause sous le contrôle de celles et ceux qui ont ici davantage de bouteille...
-	Modifié mercredi à 18:56 par giec 2100
-
-=======================
-
-Auteur: tao
-Message:
-Bonsoir,
-	je pense que l'incertitude reste importante sur la semaine car les circulations venant de l'océan restent soumises à des ondulations qui perturbent l'installation d'une météo ou de régimes facilement repérables. Pas de vraies dégradations humides et des températures qui bien que restant chaudes seraient moins excessives que celles subies depuis des semaines.
-	Se fixer sur tel ou tel détail dans ce contexte n'est pas très valide. Ce qui devient remarquable c'est cette impossibilité de passer ne serait-ce que quelques jours franchement en dessous des moyennes, ce sera probablement un marqueur essentiel de cet été.
-	La suite pourrait s'inscrire dans la lignée de cette semaine ce qui ferait que, pour un bon moment, la sécheresse ne ferait que s'accentuer de façon globale.
-	Modifié mercredi à 20:08 par tao
-								15
-								3
-								9
-
-=======================
-
 Auteur: symaski62
 Message:
 + 4 jours     pluie          peut-être   🤔
@@ -624,7 +566,7 @@ Message:
 	On serait normelement quand même chaud mais sans exces (peu de scenarios &gt;20) avec un signal pluvieux perceptible (mais pas fou) vers le 7
 	Pour le sud/lyon
 	Ça reste chaud. Mieux ? Je ne saurais pas le dire encore beaucoup de courbes entre 20/25 en t850. Peut etre pas mal de potentiel orageux (?) Autours du 07-08/08 également.
-	Modifié il y a 23 heures par Krholam
+	Modifié hier à 08:45 par Krholam
 								2
 
 =======================
@@ -633,7 +575,7 @@ Auteur: symaski62
 Message:
 https://charts.ecmwf.int/products/extended-anomaly-t?base_time=202607240000&amp;player_dimension=projection&amp;projection=opencharts_europe&amp;valid_time=202608100000
 	ECMWF     24 juillet  2026
-	Modifié il y a 19 heures par symaski62
+	Modifié il y a 21 heures par symaski62
 								3
 								4
 
@@ -645,7 +587,7 @@ Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas
 	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
 	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
 	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié il y a 18 heures par Krholam
+	Modifié il y a 20 heures par Krholam
 Modification du début pour des questions de lisibilité
 								12
 								1
@@ -690,7 +632,7 @@ situation du cumul de précipitations pour l'hémisphère N à l'échéance du t
 	supplice de Tantale pour notre pointe occidentale d'Europe, où l'on risque de continuer à tirer la langue sévèrement, particulièrement en France et Espagne...
 	... a contrario l'E asiatique, le N de l'Inde et l'E de l'Amérique du Nord sous la douche, avec par endroit des cumuls à trois chiffres en mm : 
 	l'injustice météorologique... ou du trop peu au trop plein...
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								2
 
 =======================
@@ -709,7 +651,7 @@ Message:
 il y a 21 minutes, faycal a dit :
 			Ce qui est remarquable dans cette semaine, c'est que malgré un régime NAO- bien établi, on arrive quand même à conserver un temps très chaud y compris au nord du pays.
 	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
-								1
+								2
 								2
 								2
 
@@ -721,7 +663,8 @@ il y a 17 minutes, mike a dit :
 			out a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 	Salut, je crois au contraire, que si les conditions au sol peuvent jouer un rôle certes non nul, mais mineur, c'est le positionnement des grands centres d'action qui gouvernent notre climat, ceci été comme hiver.
 	J'dis ça, j'dis rien. 
-								4
+								1
+								6
 
 =======================
 
@@ -762,3 +705,30 @@ Il y a 7 heures, faycal a dit :
 			Pour l'hiver, c'est effectivement vrai que le froid de basses couches peut avoir un effet en renforçant les anticyclones de surface et rendre plus difficile la pénétration des perturbations sur le continent. Par contre en été je ne vois pas pourquoi il y aurait un tel effet à cause de la sécheresse des sols.
 	je crois aussi que plus les étés passent moins il y a de dynamisme atmosphérique et le peut qui reste est rejeté tres au nord. L'air chaud a ainsi tout loisir à s'installer et à rester en place, bien aider aussi par les anomalies croissantes des SST en atlantique orientale
 								1
+
+=======================
+
+Auteur: sanclaudien
+Message:
+En regardant un peu les prévisions, j'ai l'impression que dans l'est la canicule va durer au moins jusqu'à vendredi...
+	Qu'en disent les experts?
+
+=======================
+
+Auteur: seb93100
+Message:
+il y a 24 minutes, sanclaudien a dit :
+			En regardant un peu les prévisions, j'ai l'impression que dans l'est la canicule va durer au moins jusqu'à vendredi...
+			Qu'en disent les experts?
+	Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
+	Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 10 minutes, seb93100 a dit :
+			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
+			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
+	Plus classique certe mais quand même un cran de chaleur au dessus par rapport à ce qu’étaient nos été classiques
