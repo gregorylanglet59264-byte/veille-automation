@@ -319,12 +319,12 @@ pourrait se produire samedi, mais reste à confirmer.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : A Ciel Ouvert
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,25 +332,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 1 Août 2026.
-Résumé général précédent : Maintien d’une anomalie chaude significative (>+2°C) sur l’ensemble de la quinzaine, avec des épisodes orageux d’air chaud humide, surtout en première semaine..
+Résumé général précédent : Quinzaine marquée par une anomalie chaude persistante (> +2 °C), avec une première semaine active et orageuse sur une large diagonale, et une deuxième semaine très incertaine mais probablement encore chaude au sud et à l’est..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaque après-midi, développement d’orages du sud-ouest au nord-est, parfois violents avec grêle et rafales. Précipitations convectives localement abondantes..
+Températures attendues précédemment : Chaleur humide, orages parfois forts lundi et mardi, puis tendance à l’amélioration au NO..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: Krholam
-Message:
-Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas au 24 donc mais au 30 !
-	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
-	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
-	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié hier à 13:08 par Krholam
-Modification du début pour des questions de lisibilité
-								12
-								1
-
-=======================
-
 Auteur: Sebaas
 Message:
 Alors on va tous se calmer, et par ailleurs merci de "faire confiance" à la modération pour appliquer les règles avec le discernement nécessaire. Y'a pas de passe-droit ou d’excès de zèle, juste qu'on sait ce que l'on fait et pourquoi on le fait.
@@ -410,7 +397,7 @@ il y a 21 minutes, faycal a dit :
 	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 								2
 								2
-								2
+								3
 
 =======================
 
@@ -431,7 +418,7 @@ il y a 29 minutes, mike a dit :
 			tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 	Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
 								2
-								3
+								4
 								15
 								1
 
@@ -525,7 +512,7 @@ Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrêm
 	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
 	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
 								5
-								3
+								4
 
 =======================
 
@@ -534,21 +521,20 @@ Message:
 1 août à  3 août   2026 (après-midi)  500 hPa  
 	3 août soir   pluie    🤔
 	avant
+
+=======================
+
+Auteur: Virgile
+Message:
+Il y a 21 heures, Sebaas a dit :
+			Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
+	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
+	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
+	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
+	Modifié il y a 47 minutes par Virgile
+								6
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Krholam
-Message:
-Il me semble plus avisé d'utiliser la dernière carte du même modèle. Non pas au 24 donc mais au 30 !
-	On voit bien que l'anomalie est bien moins marquée qu'auparavant. Il n'empêche que ça reste chaud avec une grande partie de la france entre 3 et 6°C d'anomalie.
-	Sinon, on en parle ou c'est moi qui devient fou mais. DU VERT POUR LES PP ?
-	Pour rappel, mardi les proba ressemblaient plus à ça
-	Modifié hier à 13:08 par Krholam
-Modification du début pour des questions de lisibilité
-								12
-								1
-
-=======================
-
 Auteur: Sebaas
 Message:
 Alors on va tous se calmer, et par ailleurs merci de "faire confiance" à la modération pour appliquer les règles avec le discernement nécessaire. Y'a pas de passe-droit ou d’excès de zèle, juste qu'on sait ce que l'on fait et pourquoi on le fait.
@@ -608,7 +594,7 @@ il y a 21 minutes, faycal a dit :
 	tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 								2
 								2
-								2
+								3
 
 =======================
 
@@ -629,7 +615,7 @@ il y a 29 minutes, mike a dit :
 			tout a fait normal car l'europe de l'ouest est actuellement soumis à une sécheresse record. Lorsque le continent est très sec et chaud, les perturbations océaniques ne peuvent plus passer même si le jet est plus au sud. Il est obligé de birfurquer vers le nord. En hiver c'est exactement la meme chose, lorsqu'une vague de froid déferlent sur la France avec de la neige au sol, les perturbations ne passent plus ou difficilement et sont rejetées ailleurs, c'était nos hivers d'autrefois 
 	Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
 								2
-								3
+								4
 								15
 								1
 
@@ -723,7 +709,7 @@ Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrêm
 	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
 	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
 								5
-								3
+								4
 
 =======================
 
@@ -732,3 +718,15 @@ Message:
 1 août à  3 août   2026 (après-midi)  500 hPa  
 	3 août soir   pluie    🤔
 	avant
+
+=======================
+
+Auteur: Virgile
+Message:
+Il y a 21 heures, Sebaas a dit :
+			Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
+	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
+	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
+	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
+	Modifié il y a 47 minutes par Virgile
+								6
