@@ -287,7 +287,7 @@ Températures minimales : en baisse dans l'Agglomération toulousaine, sur le Ca
 Températures maximales : en baisse sur les plaines et coteaux de Gascogne.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 011615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 1 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 1 août 2026 à 12H00 UTC, et évolution Faible gradient de pression proche de 1015 hPa, s'affaissant progressivement, prévu 1013 hPa cette nuit, puis 1010 hPa demain. Dépression relative temporaire 1009 hPa entre Corse et Continent en soirée. 3 - Prévisions pour la nuit du samedi 1 août au dimanche 2 août VENT : - A l'est du levant, Variable dépressionnaire 4 à 6, devenant Nord à Nord-Est 2 à 4 en fin de nuit. - Ailleurs, Ouest à Sud-Ouest 4 à 5, mollissant Nord à Nord-Ouest 2 à 4 par l'ouest en milieu de nuit, puis devenant Variable en fin de nuit. MER : belle à peu agitée, mais localement agitée de Sicié à cap Camarat en première partie de nuit. HOULE : Ouest à Sud-Ouest 0.5 à 1 m à l'est du Cap Croisette, s'amortissant en fin de nuit. TEMPS : ciel clair. VISIBILITE : bonne. 4 - Prévisions pour la journée du dimanche 2 août VENT : Variable 1 à 3, fraîchissant temporairement Sud à Sud-Est 3 à 4 à l'ouest de Cap Croisette l'après-midi. MER : belle à peu agitée, devenant belle en milieu de journée. HOULE : non significative. TEMPS : ciel clair ou peu nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 2 au 3, et la journée du lundi 3 août VENT : Variable 1 à 3, fraîchissant Est à Sud-Est 3 à 4 par l'est en journée. MER : belle. HOULE : non significative. TEMPS : devenant nuageux à l'ouest de Sicié par nuages bas en début de nuit, avec bancs de brume, s'éclaircissant par moment en journée. VISIBILITE : mauvaise par brume. 6 - Prévisions pour la nuit du 3 au 4 et la journée du mardi 4 août VENT : Est à Sud-Est 2 à 4, mollissant et devenant variable 1 à 3 en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Mercredi 5 août Variable faible à modéré. Indice de confiance : 4 sur 5 Jeudi 6 août Variable faible à modéré. Indice de confiance : 3 sur 5 Vendredi 7 août Secteur Ouest faible à modéré de la frontière espagnol eà Saint-Raphaël et autour de la Corse. Variable faible à modéré de Saint-Raphaël à Menton. Indice de confiance : 3 sur 5 Samedi 8 août Variable faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le samedi 1 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Sud-Ouest 19 noeuds, clair ou peu nuageux, visibilité 5 milles. Cap Cepet : vent Ouest 23 noeuds, rafales 33 noeuds. Porquerolles : vent Ouest-Sud-Ouest 19 noeuds, rafales 31 noeuds. Cap Couronne : vent Ouest 12 noeuds. Prochain bulletin le dimanche 2 août 2026, vers 06H30 légales
+FQCT40 LFML 020340 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 2 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 2 août 2026 à 00H00 UTC, et évolution Faible gradient de pression proche de 1012 hPa. Dépression 1009 hPa sur le Roussillon, cet après-midi et demain après-midi. 3 - Prévisions pour la journée du dimanche 2 août VENT : Variable 1 à 3, passagèrement Est à Nord-Est 3 à 4 à l'est de Sicié en début de journée, puis fraîchissant temporairement Sud-Est 3 à 4 à l'ouest de Cap Croisette en fin de matinée. MER : belle, locoalement peu agitée à l'est de Sicié ce matin. HOULE : non significative. TEMPS : ensoleillé, devenant nuageux en fin de journée vers la Camargue. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 2 août au lundi 3 août VENT : Est dominant 1 à 3, fraîchissant 3 à 4 en fin de nuit à l'est de Sicié. MER : belle. HOULE : non significative. TEMPS : très nuageux à l'ouest de Sicié par nuages bas, avec bancs de brume, peu nuageux à l'est de Sicié. VISIBILITE : mauvaise localement par brume. 5 - Prévisions pour la journée du lundi 3 août VENT : Est à Sud-Est 3 à 4, parfois 5 entre Cap Croisette et le Levant, mais Variable 1 à 3 de Port Camargue à Fos le matin. MER : belle, localement peu agitée de Cap Croisette à Porquerolle en fin d'après-midi. HOULE : non significative. TEMPS : très nuageux à l'ouest de Sicié avec bancs de brumes au début, belles éclaircies à l'est de Sicié. VISIBILITE : bonne, localement mauvaise au début. 6 - Prévisions pour la nuit du 3 au 4 et la journée du mardi 4 août VENT : Est à Sud-Est 2 à 4, revenant Est à Nord-Est en milieu de nuit. MER : belle à peu agitée. HOULE dominante de Nord-Est 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 5 août Variable faible à modéré. Indice de confiance : 4 sur 5 Jeudi 6 août Variable faible à modéré. Indice de confiance : 3 sur 5 Vendredi 7 août Secteur Ouest faible à modéré de la frontière espagnol eà Saint-Raphaël et autour de la Corse. Variable faible à modéré de Saint-Raphaël à Menton. Indice de confiance : 3 sur 5 Samedi 8 août Variable faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le dimanche 2 août 2026 à 03H00 UTC Cap Camarat : vent Nord 4 noeuds, clair ou peu nuageux, visibilité 8 milles. Cap Cepet : vent Nord-Est 6 noeuds. Porquerolles : vent Est 6 noeuds. Cap Couronne : vent Est-Nord-Est 2 noeuds. Prochain bulletin le dimanche 2 août 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 2 Août 2026.
-Résumé général précédent : Les deux semaines sont dominées par une anomalie chaude persistante, avec un pic marqué en première semaine (orages, chaleur lourde) et une deuxième semaine plus incertaine mais probablement encore très chaude au sud et à l’est. Les précipitations restent limitées, surtout sur la moitié ouest..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies abondantes sous les orages (cumuls >30 mm possibles), forts rafales, chaleur étouffante au sud-est, temps plus lourd au nord..
+Températures attendues précédemment : Orages potentiellement forts lundi, puis chaleur humide. Rafales de vent sous orages à ne pas négliger..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -490,7 +490,7 @@ Message:
 	3 août soir   pluie    🤔
 	avant  
 	après 
-	Modifié il y a 2 heures par symaski62
+	Modifié il y a 4 heures par symaski62
 								1
 
 =======================
@@ -502,7 +502,7 @@ Il y a 21 heures, Sebaas a dit :
 	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
 	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
 	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
-	Modifié il y a 6 heures par Virgile
+	Modifié il y a 8 heures par Virgile
 								8
 
 =======================
@@ -533,7 +533,7 @@ Il y a 7 heures, symaski62 a dit :
 	Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
 	Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
 	Sur le sud-est, la chaleur étouffante continue.
-	Modifié il y a 3 heures par _sb
+	Modifié il y a 5 heures par _sb
 								2
 								1
 
@@ -698,7 +698,7 @@ Message:
 	3 août soir   pluie    🤔
 	avant  
 	après 
-	Modifié il y a 2 heures par symaski62
+	Modifié il y a 4 heures par symaski62
 								1
 
 =======================
@@ -710,7 +710,7 @@ Il y a 21 heures, Sebaas a dit :
 	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
 	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
 	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
-	Modifié il y a 6 heures par Virgile
+	Modifié il y a 8 heures par Virgile
 								8
 
 =======================
@@ -741,7 +741,7 @@ Il y a 7 heures, symaski62 a dit :
 	Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
 	Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
 	Sur le sud-est, la chaleur étouffante continue.
-	Modifié il y a 3 heures par _sb
+	Modifié il y a 5 heures par _sb
 								2
 								1
 
