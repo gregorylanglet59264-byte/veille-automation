@@ -338,12 +338,12 @@ ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : A Ciel Ouvert
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : A Ciel Ouvert
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 02/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -351,9 +351,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 2 Août 2026.
-Résumé général HDF précédent : **Contraste fort entre les deux semaines.** La première semaine est fiable avec un épisode caniculaire suivi d'un rafraîchissement sec. La seconde semaine est marquée par une très forte incertitude, mais une tendance à un retour de conditions estivales plus chaudes..
+Résumé général HDF précédent : Première semaine marquée par un pic de chaleur et un rafraîchissement sec. Seconde semaine plus incertaine avec une tendance estivale..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages forts localisés lundi soir. Vent d'Ouest sensible et rafraîchissement mardi-mercredi. Soleil et sec à partir de jeudi..
+Températures attendues précédemment : Pic de chaleur lundi (Tx 35-37°C dans l'Aisne), orages violents localisés, puis vent d'Ouest sensible mercredi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -455,7 +455,7 @@ il y a 10 minutes, seb93100 a dit :
 			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
 			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
 	Plus classique certe mais quand même un cran de chaleur au dessus par rapport à ce qu’étaient nos été classiques
-								3
+								4
 
 =======================
 
@@ -477,7 +477,7 @@ Il y a 2 heures, seb93100 a dit :
 	Lyon devrait taper du 36°C possiblement 37°C en Tx sur cette semaine.
 	Entre 65 et 73 inclus, soit sur 9 étés consécutifs, ces valeurs là n'y avaient jamais été atteintes. 
 	Non, il n'y a plus rien de classique, c'est maintenant tout autre chose.
-								7
+								8
 								1
 								2
 
@@ -488,7 +488,7 @@ Message:
 Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrême et moins dur que 41°c ne veut pas dire qu'on normalise l'un ou l'autre. C'est juste une réalité physique que nos sens nous permettent de sentir, et sur les 5 dernières années ou l'emballement semble s'accélérer, il est probablement vrai que des Tx de 36°C sont bien moins exceptionnelles que des 40+. 
 	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
 	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
-								7
+								9
 								4
 
 =======================
@@ -499,7 +499,7 @@ Message:
 	3 août soir   pluie    🤔
 	avant  
 	après 
-	Modifié il y a 12 heures par symaski62
+	Modifié il y a 14 heures par symaski62
 								1
 
 =======================
@@ -511,8 +511,8 @@ Il y a 21 heures, Sebaas a dit :
 	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
 	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
 	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
-	Modifié il y a 16 heures par Virgile
-								12
+	Modifié il y a 18 heures par Virgile
+								14
 
 =======================
 
@@ -520,7 +520,7 @@ Auteur: Krholam
 Message:
 Oui, niveau PP le nord / Nord ouest c'est pas fameux et les modèles sont plutôt raccord entre eux.
 	Cumul entre le 02/08 et le 09/08
-								1
+								2
 
 =======================
 
@@ -542,8 +542,8 @@ Il y a 7 heures, symaski62 a dit :
 	Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
 	Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
 	Sur le sud-est, la chaleur étouffante continue.
-	Modifié il y a 13 heures par _sb
-								9
+	Modifié il y a 15 heures par _sb
+								10
 								2
 
 =======================
@@ -560,7 +560,7 @@ lundi   3 août  18z à 21 z 
 Auteur: symaski62
 Message:
 WOW     pluie   fort     +30mm/h  
-								1
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: faycal
@@ -661,7 +661,7 @@ il y a 10 minutes, seb93100 a dit :
 			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
 			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
 	Plus classique certe mais quand même un cran de chaleur au dessus par rapport à ce qu’étaient nos été classiques
-								3
+								4
 
 =======================
 
@@ -683,7 +683,7 @@ Il y a 2 heures, seb93100 a dit :
 	Lyon devrait taper du 36°C possiblement 37°C en Tx sur cette semaine.
 	Entre 65 et 73 inclus, soit sur 9 étés consécutifs, ces valeurs là n'y avaient jamais été atteintes. 
 	Non, il n'y a plus rien de classique, c'est maintenant tout autre chose.
-								7
+								8
 								1
 								2
 
@@ -694,7 +694,7 @@ Message:
 Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrême et moins dur que 41°c ne veut pas dire qu'on normalise l'un ou l'autre. C'est juste une réalité physique que nos sens nous permettent de sentir, et sur les 5 dernières années ou l'emballement semble s'accélérer, il est probablement vrai que des Tx de 36°C sont bien moins exceptionnelles que des 40+. 
 	La climatologie s'apprécie à très long terme, le ressenti humain lui, se construit sur des échelles de temps beaucoup plus courtes. 
 	Je trouve dommage de toujours s'écharper pour le même sujet, alors que souvent les gens tombent d'accord quand on creuse un peu le propos initial. 
-								7
+								9
 								4
 
 =======================
@@ -705,7 +705,7 @@ Message:
 	3 août soir   pluie    🤔
 	avant  
 	après 
-	Modifié il y a 12 heures par symaski62
+	Modifié il y a 14 heures par symaski62
 								1
 
 =======================
@@ -717,8 +717,8 @@ Il y a 21 heures, Sebaas a dit :
 	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
 	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
 	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
-	Modifié il y a 16 heures par Virgile
-								12
+	Modifié il y a 18 heures par Virgile
+								14
 
 =======================
 
@@ -726,7 +726,7 @@ Auteur: Krholam
 Message:
 Oui, niveau PP le nord / Nord ouest c'est pas fameux et les modèles sont plutôt raccord entre eux.
 	Cumul entre le 02/08 et le 09/08
-								1
+								2
 
 =======================
 
@@ -748,8 +748,8 @@ Il y a 7 heures, symaski62 a dit :
 	Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
 	Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
 	Sur le sud-est, la chaleur étouffante continue.
-	Modifié il y a 13 heures par _sb
-								9
+	Modifié il y a 15 heures par _sb
+								10
 								2
 
 =======================
@@ -766,4 +766,4 @@ lundi   3 août  18z à 21 z 
 Auteur: symaski62
 Message:
 WOW     pluie   fort     +30mm/h  
-								1
+								2
