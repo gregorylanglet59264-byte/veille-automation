@@ -323,12 +323,12 @@ ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps au Saguenay, Québec (Canada)
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 02/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -336,9 +336,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 2 Août 2026.
-Résumé général précédent : Sur les deux semaines, la France devrait rester sous l'influence d'une masse d'air très chaude et souvent humide, avec des températures au-dessus des normales saisonnières. La première semaine sera marquée par des épisodes orageux potentiellement violents, tandis que la seconde semaine, encore très incertaine, pourrait voir le maintien de la chaleur avec un risque orageux persistant..
+Résumé général précédent : Tendance à un temps chaud et souvent humide sur l'hexagone. Après un passage orageux marqué en début de première semaine, le temps pourrait s'assécher en fin de période, mais la chaleur devrait rester présente..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur humide avec pics à 37-38°C dans l'est, orages parfois violents lundi, mercredi et jeudi..
+Températures attendues précédemment : Chaleur humide, orages parfois forts, amélioration en fin de période..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -484,7 +484,7 @@ Message:
 	3 août soir   pluie    🤔
 	avant  
 	après 
-	Modifié il y a 20 heures par symaski62
+	Modifié il y a 22 heures par symaski62
 								2
 
 =======================
@@ -527,7 +527,7 @@ Il y a 7 heures, symaski62 a dit :
 	Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
 	Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
 	Sur le sud-est, la chaleur étouffante continue.
-	Modifié il y a 21 heures par _sb
+	Modifié il y a 23 heures par _sb
 								12
 								2
 
@@ -539,6 +539,7 @@ lundi   3 août  18z à 21 z 
 								2
 								1
 								1
+								1
 
 =======================
 
@@ -546,6 +547,7 @@ Auteur: symaski62
 Message:
 WOW     pluie   fort     +30mm/h  
 								2
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: faycal
@@ -690,7 +692,7 @@ Message:
 	3 août soir   pluie    🤔
 	avant  
 	après 
-	Modifié il y a 20 heures par symaski62
+	Modifié il y a 22 heures par symaski62
 								2
 
 =======================
@@ -733,7 +735,7 @@ Il y a 7 heures, symaski62 a dit :
 	Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
 	Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
 	Sur le sud-est, la chaleur étouffante continue.
-	Modifié il y a 21 heures par _sb
+	Modifié il y a 23 heures par _sb
 								12
 								2
 
@@ -745,6 +747,7 @@ lundi   3 août  18z à 21 z 
 								2
 								1
 								1
+								1
 
 =======================
 
@@ -752,3 +755,4 @@ Auteur: symaski62
 Message:
 WOW     pluie   fort     +30mm/h  
 								2
+								1

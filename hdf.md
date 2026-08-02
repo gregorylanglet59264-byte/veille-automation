@@ -1,139 +1,123 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Dimanche 2 Août 2026
-**Période :** Semaine 1 (Du Lundi 3 Août au Dimanche 9 Août 2026) & Semaine 2 (Du Lundi 10 au Dimanche 16 Août 2026)
+**Période :** Semaine 1 (Du Lundi 3 au Dimanche 9 Août 2026) & Semaine 2 (Du Lundi 10 au Dimanche 16 Août 2026)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Consensus fort sur la semaine 1, quasi nul sur la semaine 2.*
-- **Fiabilité du scénario majoritaire :** Avec un scénario en montagnes russes — *Semaine 1 très dynamique et bien cernée. Semaine 2 à construire.*
+- **Consensus des modèles :** Modéré — *Accord régional*
+- **Fiabilité du scénario majoritaire :** Stable — *Incertitude en semaine 2*
 - **Stabilité des cartes/scénarios :** 6 / 132 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Incertitude très élevée à partir du 12/08 — *Le manque de données sur la semaine 2 plombe la confiance globale.*
+- **Niveau d'incertitude global :** Timing — *Transition thermique*
 
-## 🗓️ SEMAINE 1 : Du Lundi 3 Août au Dimanche 9 Août 2026
+## 🗓️ SEMAINE 1 : Du Lundi 3 au Dimanche 9 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Canicule puis orages : Un lundi de tous les records, avec des pointes à 37°C avant une dégradation orageuse violente en fin de journée sur l'Est HDF.
-2. Rafraîchissement brutal : L'effondrement thermique est radical. On passe de 36°C lundi à 24°C mercredi, un changement de plus de 10°C en 48h.
-3. Vent d'Ouest tempétueux : Mercredi sera très venté. Des rafales jusqu'à 65 km/h sont attendues sur le littoral et les Flandres.
-4. Incertitude pluviométrique : Si l'Avesnois et l'Est sont arrosés lundi, le reste de la semaine est marqué par une faible pluviométrie, sauf pour la frange côtière.
-5. Confort en hausse : Le week-end s'annonce plus agréable, avec un retour d'un temps sec et ensoleillé et des températures maximales proches de 25°C.
+1. Canicule éclair puis orages violents : Pic de chaleur très marqué lundi avec 34-36°C, suivi d'orages potentiellement destructeurs en fin de journée.
+2. Vent d'Ouest musclé mercredi : Rafales jusqu'à 65 km/h sur les Flandres et la Somme, nette baisse des températures.
+3. Frais et instable jeudi-vendredi : Passage pluvio-orageux généralisé, retour à des maximales de 21-24°C.
+4. Week-end contrasté : Samedi pluvieux sur le littoral / Flandres, puis beau et plus chaud dimanche (24-27°C).
+5. Nuits tropicales persistantes : Minimales souvent supérieures à 18°C lundi et mardi, inconfort nocturne.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Pic de chaleur intense lundi après-midi (32/37°C) avant une dégradation orageuse.
-2. Fort rafraîchissement à partir de mercredi avec un fort vent d'Ouest (rafales 60-65 km/h sur les côtes).
-3. Week-end de retour au calme, ensoleillé et sec pour l'intérieur des terres.
+1. Pic caniculaire lundi avec maximales 33-36°C dans les terres, sauf littoral.
+2. Dégradation orageuse en fin de journée lundi, avec un front de rafale potentiellement très violent (AROME/GFS).
+3. Baisse nette des températures dès mercredi, retour à des valeurs de saison (22-25°C) jeudi et vendredi.
 **Points de divergence :**
-1. Localisation exacte et intensité des orages lundi soir (Nord-Est vs Sud-Est de la région).
-2. Persistance des averses jeudi et vendredi : plus longues sur l'Ouest (littoral) que sur l'Est.
-3. Reprise de la chaleur pour le week-end : plus marquée sur l'Aisne et l'Oise que sur la côte.
+1. Localisation exacte des orages les plus forts : Oise/Aisne (AROME) ou plus large (GFS).
+2. Pluies du week-end : littoral et nord plus concernés que la moitié sud (Oise/Aisne sec).
+3. Force des rafales mercredi : 65 km/h sur les côtes, mais incertitude sur l'intensité dans les terres.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **AROME (Météo-France)** (Documenté) | Scénario critique pour le lundi soir : front de rafales convectif violent modélisé du Centre au Nord-Est, avec des rafales locales >100 km/h pour l’Aisne et l’Oise. | Orages violents, risque de grêle et de vents destructeurs en fin de journée de lundi, puis fort vent d'Ouest mercredi. | Aisne (02), Oise (60), Nord (59) et Pas-de-Calais (62) en seconde partie de soirée. | Élevée (90%) : Les membres du forum (Hassan, symaski62) commentent en détail les runs AROME pour le Nord, notamment les lames d'eau et les rafales. | Prévoit des cumuls de pluie localement très forts (jusqu'à 30mm/h sur les zones orageuses). Rafales potentielles > 100 km/h. |
-| **ECMWF & GFS (Ensemble)** (Documenté) | Consensus sur un temps chaud et instable en début de semaine, suivi d'une séquence plus fraîche et ventée d'Ouest. La chaleur revient par l'Est en fin de semaine. | Chaleur humide, orages, puis vent d'Ouest fort et fraîcheur marquée au nord-ouest. | Hauts-de-France entière. | Élevée (85%) : Les intervenants (faycal, _sb, Krholam) analysent le flux NAO- et les projections des modèles globaux pour la région. | Les modèles long-terme sont raccords sur le cumul de pluie modeste sur le Nord/Ouest (- de 10mm), mais laissent une incertitude pour les averses orageuses de jeudi/vendredi. |
+| **AROME (Météo-France)** (documenté) | Front de rafale violent du Centre au Nord-Est lundi après-midi/soirée, avec rafales >100 km/h possibles localement. | Orages forts, pluies intenses (>30 mm/h), risque de grêle et de vents destructeurs. | Oise, Aisne (fort), Nord, Pas-de-Calais, Somme (plus modéré) | Élevée (détail par Hassan et symaski62) | Fortes précipitations horaires >30mm/h modélisées par symaski62 sur les cartes AROME. |
+| **GFS & ECMWF** (documenté) | Régime NAO- avec blocage, mais vague de chaleur persiste au nord grâce à sécheresse des sols (débat faycal/mike/Riders). | Temps très chaud lundi-mardi, puis dégradation mercredi- jeudi par courant de SW océanique. | Tout HDF (littoral plus frais) | Modérée (discussions générales sur le forçage) | _sb mentionne un courant de SW des Açores aux Pays baltes mercredi/jeudi, puis normalisation anticyclonique vendredi/samedi. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Caniculaire lundi puis dégradation orageuse localisée, rafraîchissement net et venté en milieu de semaine, retour du soleil en fin de période. | Min 15°C à 20°C / Max 25°C (Flandre) à 35°C (intérieur) lundi, puis 23°C en fin de semaine. | elevee | Météo-France XML, ECMWF, GFS, AROME, Guillaume Séchet | Intensité des précipitations et étendue exacte des orages lundi soir |
-| **Pas-de-Calais (62)** | Ensoleillé et très chaud lundi, rapidement plus frais et venté d'Ouest dès mercredi. Week-end mitigé. | Min 14°C à 18°C / Max 27°C (côte) à 36°C (intérieur) lundi, puis 23-26°C mercredi, 25-26°C dimanche. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Gouttes possibles mardi matin sur la côte, faible incertitude. |
-| **Somme (80)** | Très chaud et ensoleillé lundi, puis net rafraîchissement avec du vent. Week-end plus calme. | Min 14°C à 16°C / Max 30°C (littoral) à 35°C (intérieur) lundi, puis 22°C (côte) à 27°C (intérieur) mercredi. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Durée des précipitations vendredi et samedi sur le littoral. |
-| **Oise (60)** | Caniculaire lundi après-midi avec risque d'orages violents en soirée. Rafraîchissement modéré ensuite, retour du beau temps. | Min 14°C à 17°C / Max 34-36°C lundi, puis 25-28°C mercredi, 25-27°C dimanche. | elevee | Météo-France XML, ECMWF, GFS, AROME, Guillaume Séchet | Localisation exacte des orages et des fortes rafales de vent lundi. |
-| **Aisne (02)** | Journée de lundi la plus chaude de la région (37°C), dégradation orageuse violente en soirée/nuit. Retour du beau temps en fin de semaine. | Min 15°C à 18°C / Max 34-37°C lundi, puis 27-29°C mercredi, 25-28°C dimanche. | elevee | Météo-France XML, ECMWF, GFS, AROME, Guillaume Séchet | Localisation exacte et intensité des rafales convectives lundi soir. |
+| **Nord (59)** | Très chaud lundi avec orages violents en fin d'après-midi sur l'Avesnois, puis net rafraîchissement mercredi, pluies régulières jeudi-vendredi, samedi pluvieux en Flandres puis retour du soleil dimanche. | Min 15-20°C / Max 23-35°C (lundi 32-35°C intérieur, 25°C Flandre maritime) | elevee | Météo-France XML, AROME, GFS, ECMWF, Guillaume Séchet, Bulletin marine | Cumuls exacts des orages lundi ; pluie du week-end limitée à la Flandre maritime. |
+| **Pas-de-Calais (62)** | Chaud lundi (34-36°C intérieur) avec orages locaux en fin de journée, puis mercredi vent fort, jeudi-vendredi pluvieux, week-end alternant nuages et soleil. | Min 14-19°C / Max 23-36°C (lundi 33-36°C terres, 27°C Mer du Nord) | elevee | Météo-France XML, AROME, GFS, ECMWF, Guillaume Séchet | Exposition aux orages lundi plus faible que dans l'Aisne/Oise. |
+| **Somme (80)** | Canicule lundi (34-35°C terres, 30°C littoral), ciel clair mardi, mercredi vent fort, jeudi-vendredi pluies sur ouest et Vermandois, samedi pluvieux littoral puis soleil. | Min 12-19°C / Max 21-35°C (lundi 34-35°C, mardi 25-32°C, mercredi 22-27°C, jeudi 21-24°C) | elevee | Météo-France XML, GFS, ECMWF, AROME, Bulletin marine | Pluies jeudi-vendredi mal localisées (ouest vs est). |
+| **Oise (60)** | Très chaud lundi (34-36°C) avec orages forts en soirée, mardi beau, mercredi vent modéré, jeudi-vendredi beau sur la moitié sud, samedi-dimanche ensoleillé. | Min 11-19°C / Max 22-36°C (lundi 34-36°C, mardi 31-33°C, mercredi 25-28°C, jeudi 22-25°C) | elevee | Météo-France XML, AROME, GFS, ECMWF, Guillaume Séchet | Localisation exacte des orages (Valois Multien/Noyonnais). |
+| **Aisne (02)** | Canicule lundi (34-36°C) avec orages violents en soirée et nuit, mardi beau, mercredi soleil, jeudi pluies sur nord et Thiérache, week-end soleil. | Min 11-20°C / Max 24-36°C (lundi 34-36°C, mardi 31-33°C, mercredi 25-28°C, jeudi 24-26°C) | elevee | Météo-France XML, AROME, GFS, ECMWF, Guillaume Séchet | Intensité des orages et cumuls (AROME très agressif). |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 3 et Mardi 4 Août** : Canicule brutale lundi après-midi (35-37°C), orages violents localisés en fin de journée, nette atténuation mardi.
-- **Mercredi 5 Août** : Jour charnière avec un temps beaucoup plus frais et un vent d'Ouest fort (rafales 65 km/h sur les côtes). Soleil généreux malgré quelques nuages.
-- **Jeudi 6 et Vendredi 7 Août** : Temps mitigé et frais avec un risque d'averses persistant, surtout sur les départements de l'Ouest, sous un ciel variable.
-- **Samedi 8 et Dimanche 9 Août** : Retour d'un temps calme et ensoleillé pour l'intérieur des terres, températures agréables et proches des normales de saison.
+- **Lundi 3 et mardi 4 août** : Canicule intense et orages violents en fin de journée lundi ; mardi encore chaud mais plus sec.
+- **Mercredi 5 au vendredi 7 août** : Temps plus frais et instable avec vent fort mercredi (Ouest 55-65 km/h), pluies régulières jeudi-vendredi, maximales 21-25°C.
+- **Samedi 8 août** : Pluies résiduelles le matin sur le littoral (Flandres, Picardie maritime) puis éclaircies.
+- **Dimanche 9 août** : Retour d'un temps plus sec et ensoleillé sur l'ensemble de la région, températures remontant vers 25-27°C.
 
 **Points solides :**
-1. Canicule suivie d'orages lundi : Scénario verrouillé pour l'Aisne, l'Oise et le Nord-Est.
-2. Fort coup de vent mercredi : Rafales de 60 à 65 km/h assurées sur le littoral et les Flandres.
-3. Beau temps pour le week-end : Sauf pluie résiduelle samedi sur le littoral picard.
+1. Confiance élevée sur le pic caniculaire lundi dans les terres (34-36°C) avec vigilance jaune orages et canicule pour Nord, Oise, Aisne.
+2. Orages forts lundi soir sur l'est de la région (Oise, Aisne, Nord) avec risque de phénomènes violents (rafales >100 km/h, grêle).
+3. Net rafraîchissement à partir de mercredi avec des maximales inférieures à 25°C et retour de pluies modérées jeudi-vendredi.
 
 **Points fragiles :**
-1. Chronologie exacte des orages lundi : L'arrivée du front pourrait être décalée de quelques heures.
-2. Cumuls de pluie de jeudi et vendredi : La localisation exacte des averses reste floue, pourrait épargner plus de zones.
-3. Températures de dimanche : La hausse est prévue, mais pourrait être plus ou moins forte.
+1. Positionnement exact du front de rafale lundi : les modèles AROME et GFS divergent légèrement (AROME plus précis sur Est, GFS plus large).
+2. Quantité de précipitations jeudi-vendredi : certains modèles voient des pluies plus faibles, d'autres plus actives.
+3. Pluies du week-end principalement littorales ; l'intérieur pourrait rester sec (ex : Oise, Aisne prévu ensoleillé).
 
 **À surveiller (prochains runs) :**
-- AROME et WRF pour le déclenchement et l'intensité des orages de lundi soir dans l'Est.
-- ECMWF haute résolution pour la trajectoire exacte des dépressions et le timing du rafraîchissement mercredi.
+Les runs AROME des prochaines heures affineront la localisation des orages lundi. GFS/ECMWF de lundi pour la semaine 2.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 10 au Dimanche 16 Août 2026
 ### 💡 Points clés de la semaine 2
-1. Incertitude totale : ⚠️ Le sujet spécifique de la Semaine 33 n'est pas encore ouvert. L'analyse repose sur les projections long-terme.
-2. Regain de chaleur : La tendance long-terme évoque un retour d'un temps plus chaud par le Sud-Est en milieu de semaine, mais cela reste fragile.
-3. Retour du flux Sud : Le scénario principal issu du régime NAO- suggère un flux de Sud-Ouest pouvant amener de l'instabilité.
-4. Début de semaine calme : Lundi et mardi 10-11 devraient être secs et ensoleillés sur toute la région, une accalmie bienvenue.
-5. Prudence maximale : Il est impératif de consulter les prévisions actualisées dès l'ouverture du sujet de la Semaine 33.
+1. Sujet non encore ouvert : ⚠️ Le forum Infoclimat n'a pas encore créé le sujet de la Semaine 33. L'analyse repose sur les projections à long terme de la Semaine 32.
+2. Beau temps en début de semaine : Lundi et mardi sec et ensoleillé pour l'ensemble des HDF, températures en hausse (27-30°C dans les terres).
+3. Incertitude forte à partir de mercredi : Les modèles (ECMWF/GFS) hésitent entre une traîne océanique (frais) et un retour anticyclonique (chaud).
+4. Littoral possiblement gris : Lundi matin, pluies résiduelles en Flandre maritime, puis éclaircies. Vent modéré.
+5. Tendance générale : Semaine 2 semble plus calme que la précédente, mais aucune fiabilité pour une prévision détaillée au-delà de mardi.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-Aucune convergence solide n'est établie en l'absence de discussions. La projection long-terme pointe vers une reprise de la chaleur et de l'instabilité.
+1. Lundi et mardi beaux et chauds (25-30°C) sur toute la région.
+2. Incertitude majeure à partir de mercredi sur l'origine de la masse d'air.
 **Points de divergence :**
-Toutes les divergences sont possibles, du maintien d'un temps calme et chaud à une nouvelle dégradation orageuse d'ampleur.
+1. GFS voit un retour de la chaleur (30°C) en fin de semaine ; ECMWF laisse envisager un temps plus frais et perturbé.
+2. Possibilité d'orages localisés mercredi/jeudi (non confirmé par tous les modèles).
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF & GFS (Projections Long-terme)** (Non documenté) | Maintien d'un flux de Sud-Ouest ondulant, avec un probable retour d'une chaleur plus humide et orageuse en fin de semaine. | Temps sec et chaud en début de semaine, puis dégradation orageuse et plus fraîche en fin de semaine. Scénario à très faible confiance. | Hauts-de-France entière. | Faible (50%) : Aucune discussion dédiée. Les projections sont tirées des analyses de la Semaine 32. | Les incertitudes sont maximales. Aucune discussion des membres du forum n'est disponible pour affiner ce scénario. |
+| **ECMWF (projection long terme)** (extrapolé (car pas de sujet dédié)) | Régime NAO- se maintient, poussée anticyclonique vraisemblable en début de semaine, puis hésitation mercredi/jeudi. | Temps sec et chaud lundi-mardi, dégradation incertaine en milieu-fin de semaine. | Tout HDF | Modérée (basée sur les discussions de la sem.32, pas de détail) | D'après les messages de Virgile et _sb sur le topic sem.32, « pas de blocage durable, des pics de chaleur de 2-3 jours entrecoupés de descentes fraîches par le nord-ouest ». |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Beau temps sec et ensoleillé lundi et mardi. Incertitude forte pour la suite de la semaine. | Minimales en hausse, maximales en hausse sur le Valenciennois et le Cambrésis. | moderee | Météo-France XML, Projections ECMWF/GFS | Très élevée à partir de mercredi 12. |
-| **Pas-de-Calais (62)** | Soleil généreux lundi sur l'Artois, temps pluvieux sur le Haut-Artois lundi et mardi. Incertitude totale ensuite. | Minimales en hausse sur la côte. Maximales en hausse sur l'Arrageois. | faible | Météo-France XML, Projections ECMWF/GFS | Très élevée pour l'ensemble du département après mardi. |
-| **Somme (80)** | Soleil généreux lundi et mardi. Incertitude très forte sur le reste de la semaine. | Minimales et maximales en hausse. | faible | Météo-France XML, Projections ECMWF/GFS | Maximale, surtout pour la deuxième moitié de semaine. |
-| **Oise (60)** | Temps largement ensoleillé pour lundi et mardi. Incertitude totale pour la suite. | Minimales en hausse sur la Picardie verte. Maximales en hausse. | faible | Météo-France XML, Projections ECMWF/GFS | La plus élevée de la période. |
-| **Aisne (02)** | Beau temps sec et bien ensoleillé pour lundi et mardi. Incertitude très forte pour la suite. | Minimales en hausse. Maximales en hausse. | faible | Météo-France XML, Projections ECMWF/GFS | Maximale. |
+| **Nord (59)** | Beau temps ensoleillé lundi et mardi (après pluie matinale en Flandre maritime lundi). À partir de mercredi, incertitude : risque d'averses ou retour du soleil. | Min 14-18°C / Max 26-30°C (hausse prévue) | moderee | Météo-France XML (J+7), ECMWF, GFS | Toute la période après mardi est très incertaine (modèles divergents). |
+| **Pas-de-Calais (62)** | Soleil généreux lundi et mardi, puis hésitation : pluie possible lundi après-midi sur Haut-Artois ? À partir de mercredi incertain. | Min 13-18°C / Max 25-29°C (hausse) | moderee | Météo-France XML, ECMWF, GFS | Semaine très ouverte après mardi. |
+| **Somme (80)** | Beau et sec lundi-dimanche d'après Météo-France, avec vent modéré. Soleil généreux. | Min 12-15°C / Max 25-27°C (hausse sur Doullennais et Vermandois) | moderee | Météo-France XML (J+7), ECMWF, GFS | Le scénario de Météo-France (ensoleillé) est un des possibles ; d'autres modèles voient des perturbations. |
+| **Oise (60)** | Temps largement ensoleillé toute la semaine selon Météo-France (lundi-mardi). Vent modéré. | Min 14-17°C / Max 26-28°C (hausse sur Beauvaisis et Clermontois) | moderee | Météo-France XML, ECMWF, GFS | Même remarque : consensus Météo-France mais divergences modèles longue échéance. |
+| **Aisne (02)** | Beau temps sec et bien ensoleillé lundi et mardi. À partir de mercredi, incertitude (descente fraîche ou maintien du beau). | Min 11-15°C / Max 26-28°C (hausse sur Thiérache) | moderee | Météo-France XML, ECMWF, GFS | Grande incertitude après mardi ; les scénarios varient fortement. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 10 et Mardi 11** : Phase de beau temps stable, sec et ensoleillé, et en hausse thermique par rapport au week-end précédent.
-- **Mercredi 12 au Dimanche 16** : Phase d'incertitude maximale. Le courant de Sud-Ouest pourrait ramener chaleur et orages, ou un temps plus stable. À suivre de très près.
+- **Lundi 10 et mardi 11 août** : Beau temps sec et en hausse des températures (27-30°C intérieur).
+- **Mercredi 12 à dimanche 16 août** : Incertitude forte : soit maintien anticyclonique (chaud, >28°C), soit dégradation océanique (fraîcheur, pluies éparses). Aucun scénario ne domine.
 
 **Points solides :**
-1. Début de semaine calme et ensoleillé : Les relevés Météo-France pour lundi et mardi sont fiables.
+1. Début de semaine (lundi et mardi) globalement beau et chaud sur l'ensemble de la région.
+2. Pas de phénomène violent attendu à ce stade (aucun signal pour les orages généralisés).
 
 **Points fragiles :**
-1. Tout le scénario à partir de mercredi : Aucune confiance. L'ouverture du forum est nécessaire.
+1. Le scénario à partir de mercredi est totalement ouvert ; aucune fiabilité avant le run de lundi.
+2. Météo-France XML J+7 prévoit des pluies localisées vendredi dans l'Aisne, mais les modèles globaux ne confirment pas.
+3. Le littoral pourrait être différent de l'intérieur en semaine 2 (brises, nuages bas matinaux).
 
 **À surveiller (prochains runs) :**
-- Ouverture du sujet "Semaine 33" sur Infoclimat.
-- Runs ECMWF et GFS de mi-semaine (jeudi 6, vendredi 7) pour la fiabilité de la projection long-terme.
+Ouverture du sujet Semaine 33 sur Infoclimat. Runs ECMWF/GFS 00Z du 3 août pour la fiabilité à 7-10 jours.
 
 
 ========================================
 
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
-### Tendance 15 jours
-Un premier week-end contrasté. Une semaine 1 à trois phases distinctes (canicule/orageux/frais puis beau). Une semaine 2 démarre sous le signe du beau temps mais avec une très forte incertitude, rendant le scénario global très fragile à partir du mercredi 12.
-
-### Période la plus fiable
-Semaine 1 (Du 3 au 9 Août). Les différents modèles et les discussions des membres s'accordent sur le scénario général.
-
-### Phénomènes récurrents
-La chaleur, les orages. Ce sont les deux grands thèmes de la séquence.
-
-### Principales incertitudes
-L'emplacement exact des orages lundi, et le scénario quasi-entier de la Semaine 2.
-
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le timing de l'arrivée des orages lundi soir reste flou : décalage possible de 2-3 heures entre les runs. L'arrivée exacte du coup de vent mercredi est aussi à affiner.
-- **Localisation :** La localisation précise des orages les plus virulents lundi est l'incertitude majeure de la semaine 1 (Avesnois, Thiérache, Valois ?).
-- **Intensité :** L'intensité des rafales orageuses lundi est difficile à évaluer. L'hypothèse AROME ( >100km/h) est la plus élevée, mais les autres modèles sont moins extrêmes.
-- **Informations manquantes :** **Information critique : le sujet du forum pour la Semaine 2 (à partir du 10/08) n'est pas encore créé.** Toute analyse pour cette période est spéculative.
-- **Modèles sous-documentés :** Le modèle ICON n'est pas mentionné. Les modèles pour la Semaine 2 ne sont pas du tout documentés.
-- **Incertitudes images :** Les cartes de cumuls de pluie sur 15 jours sont très incertaines. Seule la ventilation par phase était fiable.
-
-
-========================================
-
-## 📝 PROPOSITION DE POST LINKEDIN
-☀️🌪️⛈️ Les Hauts-de-France s'apprêtent à vivre une semaine de contrastes ! Un lundi caniculaire (35-37°C) cédera brutalement la place à une violente dégradation orageuse en soirée dans l’Est de la région (risque de rafales >100 km/h). Le rafraîchissement sera radical mercredi avec un fort vent d'Ouest. En revanche, la semaine du 10 août s'annonce très incertaine : un beau début de semaine laisse présager un retour de l'instabilité, mais il est trop tôt pour l'affirmer. Restez prudents et suivez les mises à jour ! #Météo #HautsDeFrance #Canicule #Orages #Prévisions
+- **Localisation :** Localisation des orages les plus violents lundi : Aisne/Oise ou plus large ? Pluies du week-end 1 littoral vs intérieur.
+- **Intensité :** Rafales >100 km/h sous orages lundi : possible mais non certain.
+- **Informations manquantes :** Aucune information sur le risque de grêle ou de tornade (non mentionné par les membres, sauf allusion dans AROME).
+- **Modèles sous-documentés :** ICON, UKMO, JMA totalement absents des discussions.
+- **Incertitudes images :** Les cartes AROME de symaski62 montrent des intensités >30mm/h, mais l'échéance n'est pas totalement figée.
