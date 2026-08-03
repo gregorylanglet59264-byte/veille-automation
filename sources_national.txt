@@ -312,12 +312,12 @@ cours du week-end.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -327,7 +327,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin généré le Lundi 3 Août 2026.
 Résumé général précédent : Les 15 prochains jours sont dominés par une chaleur persistante, avec une première semaine marquée par une dégradation orageuse violente lundi 3, puis un retour à un temps sec et chaud. La seconde semaine montre un signal pour un nouvel épisode de chaleur intense en milieu de semaine, mais les incertitudes sur son intensité restent fortes..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Lundi : orages forts avec rafales >100 km/h. Mardi- vendredi : chaleur moite, orages épars. Vendredi-samedi : accalmie anticyclonique..
+Températures attendues précédemment : Orages violents, rafales destructrices, grêle possible, chaleur humide avant dégradation. (120 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -464,7 +464,7 @@ Message:
 Heu.....
 	On avait prévu ca sur ce topic ?
 	Ca tabasse presque des 150...
-	Modifié il y a 16 heures par meteo noobs
+	Modifié il y a 18 heures par meteo noobs
 								3
 
 =======================
@@ -516,8 +516,8 @@ il y a 26 minutes, guiguite91 a dit :
 			Pourrais-tu rédiger correctement, s'il-te-plaît ? C'est extrêmement pénible à lire...
 	"A un handicap général de 80% et il fait beaucoup d'efforts pour la communauté et pour s'exprimer, merci d'être compréhensif."
 	ça fait 2 fois en quelques jours que symaski62 se fait reprendre pas très élégamment sur son expression...
-								7
-								11
+								8
+								13
 								5
 
 =======================
@@ -563,7 +563,7 @@ Bonjour à tous,
 	C'est moins rose qu'il a quelques jours mais bon, ça sent encore l'absence de PP significative sur le nord cette histoire
 	Je pense que le décor est posé. L'échéance est encore lointaine mais au moins le topic est créé
 								17
-								10
+								11
 								1
 
 =======================
@@ -572,7 +572,7 @@ Auteur: Virgile
 Message:
 Sur l'autre topic, j'avais mis  le signal pour un nouvel épisode chaud et sec il y a 4-5 jours entre le 12 et le 15 aout et cela se confirme.
 	Le flux d'ouest qui ne nous concernait pas mais qui passait sur la GB nous évitait de la chaleur persistante avec un basculement en flux de nord ouest à intervalle régulier (après le passage de la dépression) . Là ca pourrait etre repoussé très nord avec un épisode + durable. On ne s'en sort pas question chaleur et sécheresse.
-	Modifié il y a 7 heures par Virgile
+	Modifié il y a 9 heures par Virgile
 								4
 								1
 								17
@@ -590,7 +590,7 @@ il y a une heure, Virgile a dit :
 	Les autres sont quand même beaucoup plus modéré
 	Attention je dis "modéré" par rapport à GEFS. C’est quand même 16 à 20⁰C t850 donc 35/36⁰c (cet été est tellement hors norme qu’on en est venu à se dire ça...)
 	La dispersion des diagrammes est encore grande mais y’a un signal chaud non négligeable à surveiller
-	Modifié il y a 6 heures par Krholam
+	Modifié il y a 8 heures par Krholam
 								4
 								1
 								1
@@ -601,4 +601,12 @@ Auteur: Dumbo
 Message:
 Bonjour , à la différence des vagues de chaleur de mois de juin l'activité orageuse est plus présente depuis deux semaines  , les dépressions notamment sur le golfe de gascogne influnecent notre temps sensible en france . Il y as un signal de salve orageuse pour le lundi 10 aout avec de bon cumul de pluie sur bonne moitié sud .Au vu de l' èchèance cela vas encore beaucoup èvoluer sur la synoptique de la semaine.
 								1
+								1
+
+=======================
+
+Auteur: ngc1365
+Message:
+Un poil HS mais pas complètement : cette semaine va être aussi très suivie non pas pour la France mais pour l'Espagne car on attend pas loin de dix millions d'astro-touristes pour l'éclipse du 12 août.
+	GFS est déjà sur le sommet mais même si la "plume" bouillante n'atteint pas complètement le territoire français, il semblerait que le signal soit assez chaud pour la péninsule ibérique avec les autres modèles ?!🥵
 								1
