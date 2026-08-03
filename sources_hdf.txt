@@ -278,7 +278,7 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse sur le Laonnois, sur le Soissonnais ainsi que sur le Valois.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 030945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le lundi 3 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 3 août 2026 à 06H00 UTC, et évolution Dépression 1003 hPa au sud-ouest de l'Irlande, se décalant lentement vers le nord-est, prévue 1002 hPa au nord de l'Irlande demain.Thalweg associé avec activité orageuse sur le nord de la nouvelle Aquitaine se décalant vers le nord-est. 3 - Prévisions pour l'après-midi du lundi 3 août VENT : Nord à Nord-Est 3 à 4, parfois 5 en Manche. MER : peu agitée. HOULE : non significative. TEMPS : ciel voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du lundi 3 août au mardi 4 août VENT : secteur Nord-Est 3 à 4, parfois 5 dans le détroit au début, virant secteur Est en milieu de nuit, puis Sud en fin de nuit. MER : peu agitée, devenant belle à peu agitée en milieu de nuit. HOULE : non significative. TEMPS : peu nuageux, rares averses possibles en soirée. VISIBILITE : bonne, parfois moyenne sous averses. 5 - Prévisions pour la journée du mardi 4 août VENT : Sud à Sud-Ouest 3 à 4, fraîchissant Sud-Ouest 4 à 5 le matin, puis virant Ouest à Sud-Ouest l'après-midi, parfois 6 en Mer du Nord. MER : belle devenant peu agitée en fin de matinée. HOULE : non significative. TEMPS : ciel nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 4 au 5 et la journée du mercredi 5 août VENT : Sud-Ouest 4 à 5, fraîchissant 5 à 6 en journée, localement 7 en mer du Nord l'après-midi. Rafales. MER : peu agitée, devenant agitée le matin. HOULE : non significative. TEMPS : ciel très nuageux, parfois pluvieux. VISIBILITE : bonne, parfois moyenne sous pluie. 7 - Prévisions pour la nuit du 5 au 6 et la journée du jeudi 6 août VENT : Ouest à Sud-Ouest 6 à 7, mollissant 4 en seconde partie de nuit, puis fraîchissant 5. MER : peu agitée, temporairement agitée. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en début de nuit. 8 - Tendance pour les jours suivants Vendredi 7 août Variable faible à modéré. Indice de confiance : 3 sur 5 Samedi 8 août Variable faible à modéré. Indice de confiance : 3 sur 5 Dimanche 9 août Variable faible à modéré. Indice de confiance : 2 sur 5 Lundi 10 août Variable faible à modéré. Indice de confiance : 2 sur 5 9 - Observations le lundi 3 août 2026 à 09H00 UTC Dunkerque : vent Nord-Nord-Est 6 noeuds, 1012 hPa en hausse. Cap Gris Nez : vent Nord-Est 14 noeuds. Boulogne : vent Nord-Est 6 noeuds, 1011 hPa en hausse, nuageux avec éclaircies, visibilité 10 milles. Prochain bulletin le lundi 3 août 2026, vers 18H00 légales
+FQCT40 LFQQ 031615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le lundi 3 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 3 août 2026 à 12H00 UTC, et évolution Dépression 1003 hPa à l'ouest de l'Irlande, se décalant lentement vers le nord-est, prévue 999 hPa au nord de l'Irlande demain soir. Thalweg associé jusqu'à l'ouest du Portugal se décalant sur le golfe de Gascogne demain. Dépression relative 1008 hPa vers la Normandie se décalant lentement vers la mer du Nord demain. 3 - Prévisions pour la nuit du lundi 3 août au mardi 4 août VENT : Nord à Nord-Est 3 à 4, parfois 5 en soirée, virant secteur Est en milieu de nuit, puis Sud en fin de nuit. Rafales en soirée. MER : peu agitée, devenant belle à peu agitée en milieu de nuit. HOULE : non significative. TEMPS : ciel peu nuageux, rares averses possibles en soirée. VISIBILITE : bonne, parfois moyenne sous averses. 4 - Prévisions pour la journée du mardi 4 août VENT : Sud à Sud-Ouest 3 à 4, fraîchissant Ouest à Sud-Ouest 4 à 5 le matin, puis fraîchissant localement 6 en mer du Nord l'après-midi. MER : belle, devenant peu agitée en fin de matinée. HOULE : non significative. TEMPS : ciel nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 4 au 5, et la journée du mercredi 5 août VENT : Sud-Ouest 4 à 5, fraîchissant 5 à 6 en journée, localement 7 en mer du Nord l'après-midi. Rafales. MER : peu agitée, devenant agitée le matin. HOULE : non significative. TEMPS : ciel très nuageux, parfois faiblement pluvieux. VISIBILITE : bonne, parfois moyenne sous pluie. 6 - Prévisions pour la nuit du 5 au 6 et la journée du jeudi 6 août VENT : Ouest à Sud-Ouest 6 à 7, mollissant 4 en cours de matinée, puis fraîchissant 6. MER : peu agitée, temporairement agitée. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en début de nuit. 7 - Tendance pour les jours suivants Vendredi 7 août Variable faible à modéré. Indice de confiance : 3 sur 5 Samedi 8 août Variable faible à modéré. Indice de confiance : 3 sur 5 Dimanche 9 août Variable faible à modéré. Indice de confiance : 2 sur 5 Lundi 10 août Variable faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le lundi 3 août 2026 à 15H00 UTC Dunkerque : vent Nord-Nord-Est 10 noeuds, 1011 hPa en baisse. Cap Gris Nez : vent Nord-Est 17 noeuds. Boulogne : vent Nord-Est 8 noeuds, 1010 hPa en baisse. Prochain bulletin le mardi 4 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -304,12 +304,12 @@ cours du week-end.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -317,20 +317,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 3 Août 2026.
-Résumé général HDF précédent : La première semaine est marquée par un épisode caniculaire de courte durée lundi suivi d’une dégradation orageuse potentiellement violente et d’un rafraîchissement net. La seconde semaine voit un retour probable de la chaleur avec une sécheresse qui s’accentue..
+Résumé général HDF précédent : Les deux semaines à venir sont marquées par une chaleur persistante, avec un pic caniculaire possible en fin de seconde semaine. Les précipitations restent très déficitaires, accentuant la sécheresse. Le début de la période est marqué par un épisode orageux violent (lundi 3) suivi d’un rafraîchissement temporaire, puis la chaleur reprend progressivement..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Oragés violents, rafales 100–150 km/h, fortes précipitations localisées..
+Températures attendues précédemment : Orages violents, rafales destructrices, grêle possible. Rafraîchissement net dès mardi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: sanclaudien
-Message:
-En regardant un peu les prévisions, j'ai l'impression que dans l'est la canicule va durer au moins jusqu'à vendredi...
-	Qu'en disent les experts?
-								1
-
-=======================
-
 Auteur: seb93100
 Message:
 il y a 24 minutes, sanclaudien a dit :
@@ -464,7 +456,7 @@ Message:
 Heu.....
 	On avait prévu ca sur ce topic ?
 	Ca tabasse presque des 150...
-	Modifié il y a 14 heures par meteo noobs
+	Modifié il y a 16 heures par meteo noobs
 								3
 
 =======================
@@ -505,7 +497,7 @@ Le 02/08/2026 à 00:23, _sb a dit :
 Auteur: symaski62
 Message:
 orage  alerte  orange   après-midi à minuit  
-								4
+								6
 
 =======================
 
@@ -516,9 +508,16 @@ il y a 26 minutes, guiguite91 a dit :
 			Pourrais-tu rédiger correctement, s'il-te-plaît ? C'est extrêmement pénible à lire...
 	"A un handicap général de 80% et il fait beaucoup d'efforts pour la communauté et pour s'exprimer, merci d'être compréhensif."
 	ça fait 2 fois en quelques jours que symaski62 se fait reprendre pas très élégamment sur son expression...
-								4
-								10
-								4
+								7
+								11
+								5
+
+=======================
+
+Auteur: Jetrejo
+Message:
+Pour la défense des râleurs, les signatures n'étant pas affichées sur version mobile du site, il est possible de louper l'info.
+								3
 
 =======================
 
@@ -530,7 +529,8 @@ Il y a 3 heures, Merluz a dit :
 	Salut,
 	Je n'étais pas au courant. J'en suis désolé.
 	Mais je ne vois pas en quoi mon intervention est inélégante : j'ai salué et utilisé une expression de politesse. 
-	Fin du HS.
+	Fin du HS. 
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: Krholam
@@ -554,7 +554,7 @@ Bonjour à tous,
 	C'est pas fameux du tout .....
 	C'est moins rose qu'il a quelques jours mais bon, ça sent encore l'absence de PP significative sur le nord cette histoire
 	Je pense que le décor est posé. L'échéance est encore lointaine mais au moins le topic est créé
-								16
+								17
 								10
 								1
 
@@ -564,10 +564,10 @@ Auteur: Virgile
 Message:
 Sur l'autre topic, j'avais mis  le signal pour un nouvel épisode chaud et sec il y a 4-5 jours entre le 12 et le 15 aout et cela se confirme.
 	Le flux d'ouest qui ne nous concernait pas mais qui passait sur la GB nous évitait de la chaleur persistante avec un basculement en flux de nord ouest à intervalle régulier (après le passage de la dépression) . Là ca pourrait etre repoussé très nord avec un épisode + durable. On ne s'en sort pas question chaleur et sécheresse.
-	Modifié il y a 5 heures par Virgile
+	Modifié il y a 7 heures par Virgile
 								4
 								1
-								16
+								17
 								1
 
 =======================
@@ -582,7 +582,7 @@ il y a une heure, Virgile a dit :
 	Les autres sont quand même beaucoup plus modéré
 	Attention je dis "modéré" par rapport à GEFS. C’est quand même 16 à 20⁰C t850 donc 35/36⁰c (cet été est tellement hors norme qu’on en est venu à se dire ça...)
 	La dispersion des diagrammes est encore grande mais y’a un signal chaud non négligeable à surveiller
-	Modifié il y a 4 heures par Krholam
+	Modifié il y a 6 heures par Krholam
 								4
 								1
 								1
