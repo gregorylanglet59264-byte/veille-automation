@@ -316,12 +316,12 @@ ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Statistiques et anomalies climatiques nationales
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Saison 2026 - Typhon Pacifique Nord-ouest
 • Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
-• Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -329,9 +329,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 3 Août 2026.
-Résumé général HDF précédent : **Semaine 1 : canicule orageuse puis rafraîchissement net. Semaine 2 : tendance plus chaude et sèche mais très incertaine.**.
+Résumé général HDF précédent : Alternance entre une première semaine marquée par un épisode caniculaire et orageux, puis un rafraîchissement, et une deuxième semaine potentiellement plus chaude et sèche, mais avec une fiabilité très réduite..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafales destructrices localisées, risque de grêle et pluies intenses (>30 mm/h) sur les zones orageuses..
+Températures attendues précédemment : Orages violents lundi (grêle, rafales, pluies intenses) ; vent fort mercredi sur le littoral ; fraîcheur relative en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -540,7 +540,7 @@ Message:
 Heu.....
 	On avait prévu ca sur ce topic ?
 	Ca tabasse presque des 150...
-	Modifié il y a 46 minutes par meteo noobs
+	Modifié il y a 2 heures par meteo noobs
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: mike
@@ -748,4 +748,4 @@ Message:
 Heu.....
 	On avait prévu ca sur ce topic ?
 	Ca tabasse presque des 150...
-	Modifié il y a 46 minutes par meteo noobs
+	Modifié il y a 2 heures par meteo noobs

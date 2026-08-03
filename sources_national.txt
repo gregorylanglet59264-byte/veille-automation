@@ -289,9 +289,6 @@ Vent variable, faible.
 Températures minimales : en hausse du Lauragais aux coteaux de Cadours.
 Températures maximales : en hausse dans le Volvestre ainsi que dans le Saint-Gaudinois.
 
-=== BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 021610 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 2 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 2 août 2026 à 12H00 UTC, et évolution Faible gradient de pression autour de 1013 hPa. 3 - Prévisions pour la nuit du dimanche 2 août au lundi 3 août VENT : Est dominant 1 à 3, fraîchissant 3 à 4 en fin de nuit à l'est de Sicié. MER : belle. HOULE : non significative. TEMPS : très nuageux à l'ouest de Sicié par nuages bas, avec bancs de brume, peu nuageux à l'est de Sicié. VISIBILITE : mauvaise localement par brume. 4 - Prévisions pour la journée du lundi 3 août VENT : Est à Sud-Est 3 à 4, parfois 5 entre Cap Croisette et le Levant, mais Variable 1 à 3 de Port Camargue à Fos. MER : belle devenant belle à peu agitée l'après-midi. HOULE : non significative. TEMPS : très nuageux à l'ouest de Sicié avec bancs de brumes au début, belles éclaircies à l'est de Sicié. VISIBILITE : bonne, localement mauvaise au début. 5 - Tendance pour la nuit du 3 au 4, et la journée du mardi 4 août VENT : secteur Est 2 à 4, parfois 5 vers Cap Sicié, mollissant Variable 1 à 3 dans l'après-midi. Rafale sous orages. MER : belle à peu agitée. HOULE : s'établissant le matin Est à Sud-Est 0.5 à 1 m à l'ouest du Cap Sicié, mais Est à Nord-Est à l'est du Cap. TEMPS : averses orageuses possibles vers la Camargue dans la nuit, puis devenant progressivement peu nuageux. VISIBILITE : bonne, mais localement moyenne à mauvaise sous orages. 6 - Prévisions pour la nuit du 4 au 5 et la journée du mercredi 5 août VENT : Variable 1 à 3, s'orientant Ouest à Sud-Ouest 3 à 4 en cours de matinée. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Jeudi 6 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 7 août Secteur Nord-Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Samedi 8 août Secteur Nord-Ouest faible à modéré Indice de confiance : 2 sur 5 Dimanche 9 août Variable faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le dimanche 2 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Est 4 noeuds, clair ou peu nuageux, visibilité 5 milles. Cap Cepet : vent Sud-Est 6 noeuds, clair ou peu nuageux, visibilité 5 milles. Porquerolles : vent Sud 2 noeuds, rafales 12 noeuds. Cap Couronne : vent Est-Sud-Est 10 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le lundi 3 août 2026, vers 06H30 légales
-
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
@@ -324,12 +321,12 @@ ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Statistiques et anomalies climatiques nationales
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Saison 2026 - Typhon Pacifique Nord-ouest
 • Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
-• Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -339,7 +336,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin généré le Lundi 3 Août 2026.
 Résumé général précédent : Les deux semaines à venir s'annoncent chaudes, avec une première semaine marquée par une chaleur humide et des orages parfois violents, suivie d'une seconde semaine plus incertaine mais encore au-dessus des normales. La tendance globale est à un temps sec et chaud, avec un risque orageux localisé..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents lundi du Centre au Nord-Est, puis récurrence orageuse mercredi/jeudi sur le Sud-Ouest et le Centre-Est..
+Températures attendues précédemment : Orages violents lundi du Centre au Nord-Est (rafales >100 km/h possibles), puis récurrence orageuse mercredi/jeudi. Chaleur humide généralisée. (160 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -548,7 +545,7 @@ Message:
 Heu.....
 	On avait prévu ca sur ce topic ?
 	Ca tabasse presque des 150...
-	Modifié il y a 46 minutes par meteo noobs
+	Modifié il y a 2 heures par meteo noobs
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: mike
@@ -756,4 +753,4 @@ Message:
 Heu.....
 	On avait prévu ca sur ce topic ?
 	Ca tabasse presque des 150...
-	Modifié il y a 46 minutes par meteo noobs
+	Modifié il y a 2 heures par meteo noobs
