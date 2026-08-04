@@ -304,10 +304,10 @@ cours du week-end.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps en Belgique.
+• Infoclimat Direct : Prévisions Nord -  AOUT 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
@@ -317,9 +317,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 4 Août 2026.
-Résumé général HDF précédent : Net contraste entre une première moitié de semaine 1 orageuse et fraîche, et une seconde moitié et une semaine 2 qui s’annoncent très chaudes et sèches. La tendance générale est à un retour marqué de la chaleur..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents lundi soir, fortes chaleurs mardi, puis nette baisse des températures mercredi..
+Températures attendues précédemment : Orages forts, fortes pluies localisées, rafales, puis nette baisse des températures..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -564,7 +564,7 @@ Auteur: Virgile
 Message:
 Sur l'autre topic, j'avais mis  le signal pour un nouvel épisode chaud et sec il y a 4-5 jours entre le 12 et le 15 aout et cela se confirme.
 	Le flux d'ouest qui ne nous concernait pas mais qui passait sur la GB nous évitait de la chaleur persistante avec un basculement en flux de nord ouest à intervalle régulier (après le passage de la dépression) . Là ca pourrait etre repoussé très nord avec un épisode + durable. On ne s'en sort pas question chaleur et sécheresse.
-	Modifié il y a 15 heures par Virgile
+	Modifié il y a 17 heures par Virgile
 								4
 								1
 								19
@@ -582,7 +582,7 @@ il y a une heure, Virgile a dit :
 	Les autres sont quand même beaucoup plus modéré
 	Attention je dis "modéré" par rapport à GEFS. C’est quand même 16 à 20⁰C t850 donc 35/36⁰c (cet été est tellement hors norme qu’on en est venu à se dire ça...)
 	La dispersion des diagrammes est encore grande mais y’a un signal chaud non négligeable à surveiller
-	Modifié il y a 14 heures par Krholam
+	Modifié il y a 16 heures par Krholam
 								4
 								1
 								1

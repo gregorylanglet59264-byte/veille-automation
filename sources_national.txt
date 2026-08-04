@@ -313,9 +313,9 @@ cours du week-end.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en Belgique.
+• Infoclimat Direct : Prévisions Nord -  AOUT 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
@@ -326,9 +326,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 4 Août 2026.
-Résumé général précédent : Tendance dominée par une chaleur persistante, avec des pics de chaleur entrecoupés de brèves accalmies. Le nord-ouest pourrait connaître des températures plus proches des normales, tandis que le sud-est reste en canicule. Les précipitations sont faibles, surtout au nord, avec un risque orageux localisé..
+Résumé général précédent : Tendance générale dominée par une chaleur persistante et anormalement élevée pour la période, avec des pics de 2-3 jours entrecoupés de brèves accalmies. Les précipitations restent faibles et localisées, principalement sous forme orageuse. Le nord-ouest pourrait connaître des températures plus proches des normales..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages lundi, chaleur lourde persistante, vent faible..
+Températures attendues précédemment : Orages forts lundi, puis temps plus sec et chaud en milieu de semaine, orages résiduels jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -573,7 +573,7 @@ Auteur: Virgile
 Message:
 Sur l'autre topic, j'avais mis  le signal pour un nouvel épisode chaud et sec il y a 4-5 jours entre le 12 et le 15 aout et cela se confirme.
 	Le flux d'ouest qui ne nous concernait pas mais qui passait sur la GB nous évitait de la chaleur persistante avec un basculement en flux de nord ouest à intervalle régulier (après le passage de la dépression) . Là ca pourrait etre repoussé très nord avec un épisode + durable. On ne s'en sort pas question chaleur et sécheresse.
-	Modifié il y a 15 heures par Virgile
+	Modifié il y a 17 heures par Virgile
 								4
 								1
 								19
@@ -591,7 +591,7 @@ il y a une heure, Virgile a dit :
 	Les autres sont quand même beaucoup plus modéré
 	Attention je dis "modéré" par rapport à GEFS. C’est quand même 16 à 20⁰C t850 donc 35/36⁰c (cet été est tellement hors norme qu’on en est venu à se dire ça...)
 	La dispersion des diagrammes est encore grande mais y’a un signal chaud non négligeable à surveiller
-	Modifié il y a 14 heures par Krholam
+	Modifié il y a 16 heures par Krholam
 								4
 								1
 								1
