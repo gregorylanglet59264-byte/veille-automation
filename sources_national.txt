@@ -317,18 +317,10 @@ FQCT40 LFML 040930 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿La vigilance canicule se poursuit jeudi et vendredi de la 
-basse vallée du Rhône à la Provence. Sur la région Auvergne 
-Rhône-Alpes, la vigilance canicule se poursuit sur la Drôme 
-et l'Ardèche jeudi, puis on s'attend à un recul  des fortes 
-chaleurs vendredi.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Durant la période, un faible risque de vigilance canicule 
-persiste sur le sud-est et le centre-est du pays. Le risque 
-reste faible mais on ne peut pas exclure des orages 
-ponctuellement violents sur le sud-ouest samedi en seconde 
-partie de journée, et dimanche sur la moitié sud du pays.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -340,12 +332,12 @@ partie de journée, et dimanche sur la moitié sud du pays.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
-• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : la température de votre habitat aux 4 saisons
+• Infoclimat Direct : Suivi du temps en Suisse
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 04/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -353,9 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 4 Août 2026.
-Résumé général précédent : Les quinze prochains jours (3-16 août) seront marqués par une chaleur persistante et anormale, avec une canicule sur le quart sud-est et des épisodes orageux localisés. Après un début de semaine 1 orageux, une baisse temporaire des températures est attendue en milieu de semaine 1, suivie d'un retour de la chaleur en fin de semaine 1 et surtout en semaine 2. Les précipitations restent très faibles, accentuant la sécheresse..
+Résumé général précédent : Les quinze prochains jours (3-16 août) sont dominés par une chaleur persistante et anormale, entrecoupée d’un bref répit en milieu de semaine 1 (mercredi/jeudi). Après un passage orageux violent lundi 3, la tendance est à la sécheresse et à une nouvelle canicule en semaine 2. Les précipitations restent très faibles, accentuant la sécheresse des sols..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages, rafales, chaleur lourde. (35 caractères).
+Températures attendues précédemment : Salve orageuse lundi (rafales, grêle) ; chaleur lourde mardi ; temps plus frais au NO mi‑semaine ; retour de la chaleur samedi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -562,7 +554,7 @@ Il y a 3 heures, Merluz a dit :
 Auteur: Virgile
 Message:
 Ca va faire tellement longtemps que l'on va connaitre jeudi une moyenne nationale thermique "aussi basse" pour le pays. Rien d'exceptionnel. Juste les normales de saison sur notre pays, un peu fraiche même dans le nord ouest, ca resterait trop chaud dans la basse vallée du rhone et l'intérieur de la Provence. Cette parenthése devrait etre de courte durée et avec une nouvelle hausse sensible samedi.
-								1
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: Krholam
@@ -586,7 +578,7 @@ Bonjour à tous,
 	C'est pas fameux du tout .....
 	C'est moins rose qu'il a quelques jours mais bon, ça sent encore l'absence de PP significative sur le nord cette histoire
 	Je pense que le décor est posé. L'échéance est encore lointaine mais au moins le topic est créé
-								19
+								20
 								11
 								1
 
@@ -651,6 +643,7 @@ Auteur: Krholam
 Message:
 No comment
 								1
+								1
 								6
 								1
 
@@ -680,18 +673,18 @@ Message:
 il y a 12 minutes, jt75 a dit :
 			on est bien partis pour une cinquième canicule, pas forcément sur 100% du pays mais au moins les 2/3.
 	En effet pour la semaine de l'éclipse des champs de pression (Z500 hPa) très élevés sont de nouveau prévus, avec des moyennes de T850 hPa (non montré) dépassant allègrement 16 à 21 °C sur AIFS ensemble  du nord au sud, ce qui pour l'échéance (J8) est un sérieux signal de fortes chaleurs. Au moins les chances de voir l'éclipse à ce stade sont très élevées... Et toujours la sécheresse ! On le répète depuis des semaines et des semaines mais ça craint.
-	Modifié il y a 2 heures par fran39
+	Modifié il y a 4 heures par fran39
+								2
 								1
-								1
-								4
+								5
 
 =======================
 
 Auteur: mathias
 Message:
 Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.
-	Modifié il y a 1 heure par mathias
-								2
+	Modifié il y a 3 heures par mathias
+								3
 								2
 								2
 
@@ -707,6 +700,73 @@ Oui et même dans le nord de la France ça commence à bouger dans le mauvais se
 	Enfin dans le sud-ouest a Toulouse on a finalement que peu de différence avec Dijon pour le niveau des températures prévues à 850 Hpa avec des masses d'air encore anormalement chaudes qui pourraient remonter vars le nord du pays plutôt par l'est comme on le voit sur la carte des masses d'air qui suit celle de l'ensemble pour Toulouse :
 	Pendant plusieurs jours une nouvelle vague de chaleur  pourrait donc englober une grande partie de la France avec les régions au dessous d'une ligne bordeaux-Dijon qui seraient les plus concernés par de fortes chaleurs durables.
 	Il est trop tôt pour savoir si cela sera une nouvelle vague de chaleur mais il semble bien probable qu'un énième épisode de forte chaleur se profile,  espérons qu'il ne durera pas trop longtemps ce coup ci. 
-	Modifié il y a 2 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
 Modifié
+								3
 								1
+
+=======================
+
+Auteur: fran39
+Message:
+il y a 13 minutes, petit âge glaciaire 11 a dit :
+			Il est trop tôt pour savoir si cela sera une nouvelle vague de chaleur
+	Bonjour et merci pour l'analyse. En fait à ce stade il semble assez probable qu'on franchisse de nouveau le seuil de vague de chaleur (ITN 25.3 °C) sur le pays. La seule incertitude qui persiste à la rigueur, et c'était surtout le cas hier, c'était si on allait sortir vendredi 7 août de la 3ème vague de chaleur nationale. Aujourd'hui le scénario le plus probable est que les journées des 6 et 7 août ne soient en réalité pas assez fraîches pour qu'on en sorte. Cela signifie donc que cela risque d'être non pas "une nouvelle vague de chaleur", mais la continuation de la 3ème...
+	j'ai conscience que ces subtilités ne concernent qu'un public très averti.
+	On pourrait dire aussi que ce qui se joue est la possibilité d'un 5ème épisode de canicule, mais là encore il n'est pas tout à fait certain que l'extrême Sud-Est sorte de la vigilance canicule cette semaine.
+								4
+								1
+
+=======================
+
+Auteur: gotman42
+Message:
+Il y a 3 heures, jt75 a dit :
+			Faut pas trop se leurrer, en effet on est bien partis pour une cinquième canicule, pas forcément sur 100% du pays mais au moins les 2/3.
+			deterministe, contrôle ou ensembliste Gfs ou Aifs ou même cep on y va quasiment tout droit.
+			Un espoir: une erreur de prévisions puisqu’il s’agit du long terme…
+	Ca c'est vu depuis Paris.
+	Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
+	En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
+								2
+								3
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 39 minutes, petit âge glaciaire 11 a dit :
+			Oui et même dans le nord de la France ça commence à bouger dans le mauvais sens ( en direction d'un nouvel épisode de forte chaleur).
+			Je base ces prévisions uniquement sur le modèle CEP pour ne pas alourdir le post de cartes mais l'américain et le canadien suivent aussi dans la même tendance. 
+			Les pressions devraient monter sur notre pays et le jet stream s'éloigner ce qui aurait encore ( on y est maintenant habitués) pour conséquence de bloquer l'air océanique moins chaud loin de la France :
+			A Paris,  après une baisse temporaire des températures à la fin du topic précédent, on pourrait connaître une augmentation nette des températures à 850hpa dès le deuxième jour du topic pour atteindre un nouveau pic autour de 20 degrés en milieu de semaine. Pour la suite, il semblerait que le niveau des températures fléchisse  mais à cette échéance rien n'est certain.  La canicule ne semble pas être l'option la plus probable pour le tier nord de la France mais de la chaleur forte à très forte pour quelques jours :
+			Un peu plus au sud et à l'est l'élévation de la température à 850hpa au niveau des 20 degrés devrait être plus durable et concernerait une grande partie du topic sans garantie que cela baisse à la fin de celui-ci :
+			Enfin dans le sud-ouest a Toulouse on a finalement que peu de différence avec Dijon pour le niveau des températures prévues à 850 Hpa avec des masses d'air encore anormalement chaudes qui pourraient remonter vars le nord du pays plutôt par l'est comme on le voit sur la carte des masses d'air qui suit celle de l'ensemble pour Toulouse :
+			Pendant plusieurs jours une nouvelle vague de chaleur  pourrait donc englober une grande partie de la France avec les régions au dessous d'une ligne bordeaux-Dijon qui seraient les plus concernés par de fortes chaleurs durables.
+			Il est trop tôt pour savoir si cela sera une nouvelle vague de chaleur mais il semble bien probable qu'un énième épisode de forte chaleur se profile,  espérons qu'il ne durera pas trop longtemps ce coup ci. 
+	Mouais malheureusement effectivement le scénario de @Virgile se confirme de plus en plus.
+	Sans être dans l’intensité de celle de fin juin on partirait (pour le nord) sur quasiment plus d’une semaine avec des t850 entre 15 et 20.
+	C’est à dire entre 30 et 35⁰C avec peut etre un petit creux à 28⁰C en tout début d’échéance.
+	Pour l’IdF ça sent donc la succesion de Tn légerement tropicale.
+	Je ne parle meme pas effectivement de certaines region dans le sud qui ne sont pas vraiment sorti de la première vague de chaleur.
+	Cumulé à cet atroce manque de PP.
+	Je pars m’acheter un igloo
+								2
+
+=======================
+
+Auteur: babe
+Message:
+Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
+	Modifié il y a 39 minutes par babe
+								1
+								1
+
+=======================
+
+Auteur: Golemancer
+Message:
+il y a 1 minute, babe a dit :
+			Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
+	Il y a le GFS 6z qui est assez enervé mais bon c'est GFS
