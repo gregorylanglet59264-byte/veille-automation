@@ -1,124 +1,110 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Mardi 4 Août 2026
-**Période :** Semaine 1 (Du Lundi 3 au Dimanche 9 Août 2026) & Semaine 2 (Du Lundi 10 au Dimanche 16 Août 2026)
+**Période :** Semaine 1 (**Période du Lundi 3 au Dimanche 9 Août 2026**) & Semaine 2 (**Période du Lundi 10 au Dimanche 16 Août 2026**)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Élevé pour la semaine 1, modéré pour la semaine 2 — *Bon accord sur la séquence rafraîchissement puis retour chaud, mais divergence sur le niveau de chaleur.*
-- **Fiabilité du scénario majoritaire :** Scénario médian : chaleur modérée en semaine 2 — *ECMWF privilégie une chaleur supportable, GFS un pic plus marqué. Le scénario médian se situe entre les deux.*
-- **Stabilité des cartes/scénarios :** 6 / 92 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Incertitude modérée à forte — *La dispersion des ensembles est encore large pour la semaine 2, surtout sur les températures.*
+- **Consensus des modèles :** Modéré — *La fiabilité est bonne pour la semaine 1, mais la dispersion des modèles pour la semaine 2 abaisse la confiance globale.*
+- **Fiabilité du scénario majoritaire :** Rafraîchissement puis retour de la chaleur — *Le scénario d'une amélioration suivie d'un renouveau de la chaleur est le plus probable.*
+- **Stabilité des cartes/scénarios :** 6 / 96 — *6 cartes analysées*
+- **Niveau d'incertitude global :** Forte (Semaine 2) — *L'incertitude majeure réside dans l'intensité du dôme de chaleur de la semaine 2.*
 
-## 🗓️ SEMAINE 1 : Du Lundi 3 au Dimanche 9 Août 2026
+## 🗓️ SEMAINE 1 : **Période du Lundi 3 au Dimanche 9 Août 2026**
 ### 💡 Points clés de la semaine 1
-1. Chaleur lourde et orages : Mardi 4 août, pic de chaleur avec 32-34°C dans l’intérieur, suivi d’orages parfois forts (rafales 65 km/h) du Nord à l’Aisne.
-2. Rafraîchissement franc : Mercredi 5 et jeudi 6, net retour d’un flux d’ouest, températures maximales rabaissées entre 22 et 27°C, ciel généreusement ensoleillé.
-3. Beau temps stable : Vendredi 7 à dimanche 9, anticyclone dominant, soleil large, températures remontant progressivement vers 26-29°C l’après-midi.
-4. Vent sensible : Mercredi et jeudi, rafales d’ouest atteignant 65 km/h sur le littoral et le nord, notamment en Flandre maritime et en mer du Nord.
-5. Cumuls pluvieux faibles : Seuls les orages de mardi et quelques faibles averses nocturnes mercredi apporteront des précipitations localisées, globalement déficitaires.
+1. **Chaleur orageuse en sursis :** Mardi s’annonce très chaud avec des orages localement forts sur le Nord et l’Aisne, avant un rafraîchissement.
+2. **Rafraîchissement brutal mercredi :** Une forte baisse des températures (perte de 5 à 7°C) est attendue mercredi, accompagnée d’un vent d’Ouest sensible.
+3. **Retour du grand soleil :** De jeudi à dimanche, le soleil sera généreux et les températures repartiront doucement à la hausse pour un week-end estival mais sans excès.
+4. **Vent sensible mercredi :** Rafales de vent d'Ouest pouvant atteindre 55-65 km/h sur les secteurs côtiers et l'intérieur des terres.
+5. **Nuits plus fraîches :** En fin de semaine, les nuits seront très agréables, avec des minimales pouvant descendre sous la barre des 10°C dans les terres.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Tous les modèles s’accordent sur un pic de chaleur mardi (32-34°C dans l’intérieur) suivi d’un rafraîchissement mercredi.
-- Consensus sur un temps sec et ensoleillé de jeudi à dimanche, avec des températures proches des normales saisonnières.
-- Vent d’ouest renforcé mercredi sur le littoral (rafales 55-65 km/h) est validé par ECMWF, GFS et ICON.
+*   **Rafraîchissement net mercredi :** Tous les modèles (MF XML, GFS, CEP) et les bulletins officiels s'accordent sur une baisse significative des températures mercredi après un passage orageux.
+*   **Amélioration pour le week-end :** Le consensus est large pour un retour d'un temps très ensoleillé, calme et estival sur l’ensemble des Hauts-de-France de jeudi à dimanche.
+*   **Risque orageux mardi :** Une convergence existe sur le risque d'orages localisés mardi après-midi, notamment sur l'est des Hauts-de-France (Nord, Aisne), en lien avec la chaleur du jour.
 **Points de divergence :**
-- Localisation exacte des orages mardi : certains modèles (Arome) placent un front de rafale plus au nord, d’autres (ICON) plus à l’est.
-- Intensité des rafales sous orages : ICON suggère des valeurs plus élevées que les prévisions Météo-France.
-- Températures maximales mercredi : écart de 2-3°C entre les modèles (22-27°C) selon la couverture nuageuse résiduelle.
+*   **Localisation des orages mardi :** L'étendue exacte des orages de mardi reste une source de divergence, notamment entre les départements concernés (Nord, Aisne, Somme) et l'intensité des précipitations.
+*   **Intensité du vent mercredi :** La force exacte des rafales de vent mercredi après-midi est encore débattue, avec des pointes possibles de 55 à 65 km/h sur les zones exposées.
+*   **Hausse thermique du week-end :** La vitesse de remontée des températures de vendredi à dimanche est une inconnue, certains scénarios voyant une hausse plus rapide que d'autres.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Modèle ECMWF (déterministe + ensemble)** (Documenté) | Poussée chaude transitoire mardi, puis rapide basculement en flux d’ouest frais et stable pour le reste de la semaine. | Orages isolés mardi après-midi sur l’intérieur, puis retour d’un temps sec et ensoleillé. | Nord, Pas-de-Calais, Somme, Oise, Aisne (toute la région HDF). | Élevée (80-90%) : commenté en détail par les membres pour le Nord/HDF. | T850 hPa jusqu’à 20°C mardi, puis chute à 10-12°C mercredi. Faible signal pluviométrique après mardi. |
-| **Modèle GFS (déterministe + ensemble)** (Documenté) | Similaire à ECMWF avec une chaleur un peu plus marquée mardi et un maintien de conditions stables à partir de jeudi. | Orages potentiellement forts mardi après-midi, puis ciel clair et vent modéré. | HDF, avec un accent sur le nord et l’est de la région. | Élevée (80-90%) : commenté en détail. | Rafales de vent à 55-65 km/h mercredi sur le littoral. Températures maximales samedi/dimanche 26-29°C. |
-| **Modèle ICON (D2)** (Documenté) | Confirme le risque orageux mardi avec un potentiel de rafales convectives localement fortes, puis amélioration rapide. | Averses orageuses mardi après-midi, vent d’ouest modéré à assez fort mercredi. | Principalement Nord, Pas-de-Calais, Aisne. | Modérée (60-70%) : cité avec tendance pour la région. | ICON-D2 exprime un risque de rafales convectives, signal rare pour ce modèle. |
+| **<strong>AROME (Météo-France)</strong>** (Opérationnel et fiable pour le court terme.) | Modélise finement le risque orageux localisé du mardi dans le Nord, suivi d'un refroidissement par flux d'Ouest mercredi. | Rafales de vent pour mercredi après-midi et orages localement forts pour mardi. | Nord et Pas-de-Calais principalement pour les rafales ; Nord et Aisne pour les orages. | Élevée (80%) | Arome et les bulletins MF XML convergent vers un rafraîchissement net mercredi avec un vent d'Ouest sensible, puis une amélioration rapide vers un temps calme et chaud. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Après une matinée ensoleillée, développement orageux l’après-midi (de la métropole lilloise à l’Avesnois) avec rafales 65 km/h. Puis nette amélioration dès mercredi, beau temps sec jusqu’à dimanche. | Min 17-20°C, Max 32-34°C mardi (27°C Flandre maritime) ; mercredi 25-27°C ; jeudi 23-24°C ; vendredi 24-26°C ; samedi-dim 26-29°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque de grêle ou rafales plus fortes sous orages mardi, mais faible probabilité. |
-| **Pas-de-Calais (62)** | Soleil généreux mardi matin, puis nuages et petites averses possibles sur le bassin minier. À partir de mercredi, temps ensoleillé et sec jusqu’à dimanche. | Min 17-19°C, Max 30-33°C mardi (26°C côtes) ; mercredi 23-26°C (22°C côtes) ; jeudi 21-24°C ; vendredi 23-26°C ; samedi-dim 26-29°C (25°C Mer du Nord). | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation des averses mardi reste incertaine. |
-| **Somme (80)** | Matinée nuageuse puis éclaircies, averses possibles sur l’Amiénois et l’est mardi après-midi. Dès mercredi, soleil dominant et sec jusqu’à dimanche. | Min 17-18°C, Max 30-33°C mardi (27°C littoral) ; mercredi 25-27°C (22-24°C nord-ouest) ; jeudi 21-24°C (20°C littoral) ; vendredi 23-25°C ; samedi-dim 25-28°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Rien de notable. |
-| **Oise (60)** | Alternance nuages/soleil mardi, avec averses possibles du Valois au Noyonnais. Puis ciel dégagé mercredi après-midi et soleil dominant jusqu’à dimanche. | Min 17-19°C, Max 30-32°C mardi ; mercredi 26-28°C (24°C pays de Bray) ; jeudi 22-25°C ; vendredi 24-26°C ; samedi-dim ~28°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Rien de notable. |
-| **Aisne (02)** | Matinée ensoleillée, puis ciel menaçant mardi après-midi avec averses orageuses (tonnerre possible). Amélioration rapide mercredi, beau temps ensoleillé jusqu’à dimanche. | Min 17-20°C (15°C Champagne crayeuse), Max 29-32°C mardi ; mercredi 26-29°C ; jeudi 23-26°C ; vendredi 25-28°C ; samedi-dim 27-30°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Intensité des orages mardi : possibilité de grêle ou de rafales plus fortes. |
+| **Nord (59)** | Alternance d'éclaircies et de passages nuageux avec orages localisés mardi. Soleil radieux du mercredi au week-end. | Min 12°C (mercredi) à Max 34°C (mardi). Rafraîchissement net mercredi (max 25-27°C), puis remontée vers 26-29°C dimanche. | elevee | Météo-France XML DEPT59, Météo-France XML DEPT62, Guillaume Séchet, Bulletin côtier, Discussion Infoclimat | Localisation précise des orages de mardi. Force exacte des rafales de mercredi sur la côte. |
+| **Pas-de-Calais (62)** | Très ensoleillé mardi matin puis petites averses possibles. Beau temps sec et ensoleillé du mercredi au dimanche. | Min 13°C (jeudi) à Max 33°C (mardi). Fort rafraîchissement mercredi (max 26°C), puis remontée à 29°C dimanche. | elevee | Météo-France XML DEPT62, Météo-France XML DEPT59, Guillaume Séchet, Bulletin côtier, Discussion Infoclimat | Force des rafales de mercredi sur les côtes de la Manche. Risque d'averses mardi sur l'intérieur. |
+| **Somme (80)** | Belles éclaircies mardi matin, nuages l'après-midi avec risque d'averses. Temps sec et très ensoleillé du mercredi au week-end. | Min 12°C (jeudi, samedi) à Max 33°C (mardi). Rafraîchissement mercredi (max 27°C), puis remontée à 28°C dimanche. | elevee | Météo-France XML DEPT80, Météo-France XML DEPT62, Guillaume Séchet, Bulletin côtier, Discussion Infoclimat | Force exacte des rafales mercredi. Localisation des averses mardi soir. |
+| **Oise (60)** | Nuages et soleil se disputent mardi. Beau temps sec, ensoleillé et calme du mercredi au dimanche. | Min 12°C (mercredi) à Max 32°C (mardi). Rafraîchissement mercredi (max 28°C), puis remontée à 28°C dimanche. | elevee | Météo-France XML DEPT60, Météo-France XML DEPT02, Guillaume Séchet | Risque d'averses mardi très localisé. Vitesse de la hausse des températures en fin de semaine. |
+| **Aisne (02)** | Soleil généreux le matin, ciel menaçant et orages l'après-midi de mardi. Beau temps sec, ensoleillé du mercredi au dimanche. | Min 9°C (jeudi) à Max 32°C (mardi). Rafraîchissement mercredi (max 29°C), puis remontée à 30°C dimanche. | elevee | Météo-France XML DEPT02, Météo-France XML DEPT59, Guillaume Séchet | Localisation précise des orages de mardi. Force des rafales associées. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Mardi 4 août** : Pic de chaleur (32-34°C) puis développement orageux l’après-midi, surtout sur les départements du Nord et de l’Aisne (vigilance jaune orages).
-- **Mercredi 5 et jeudi 6 août** : Rafraîchissement marqué par le flux d’ouest : températures en baisse de 8 à 10°C, ciel ensoleillé après dissipation des nuages matinaux, vent modéré à assez fort.
-- **Vendredi 7 et samedi 8 août** : Retour d’un temps calme et ensoleillé avec des températures proches des normales (23-28°C), vent faible à modéré.
-- **Dimanche 9 août** : Dernière journée de la semaine sous un beau soleil, températures maximales 26-29°C, annonçant une remontée thermique pour la semaine suivante.
+- ****Lundi 3 Août**** : Passage orageux généralisé du sud-ouest au nord-est en fin de journée, début du rafraîchissement.
+- ****Mardi 4 Août**** : Pics de chaleur l'après-midi (30-34°C) avant des orages localement forts sur l'est des Hauts-de-France.
+- ****Mercredi 5 Août**** : Rafraîchissement net et vent d'Ouest sensible (rafales 55-65 km/h), ciel variable puis soleil l'après-midi.
+- ****Jeudi 6 au Dimanche 9 Août**** : Retour du grand soleil et d’une chaleur estivale mais sans excès, avec des nuits très douces.
 
 **Points solides :**
-- Mardi 4 août : pic de chaleur avec 32-34°C dans l’intérieur, suivi d’un risque orageux modéré à fort.
-- Rafraîchissement marqué mercredi 5 : maximas entre 22 et 27°C, vent d’ouest sensible.
-- Anticyclone dominant de jeudi à dimanche : temps sec, ensoleillé et stable, avec des températures remontant progressivement.
+*   **Passage orageux et bascule :** Le scénario d'un mardi après-midi très chaud et orageux, suivi d'une bascule nette vers un temps plus frais mercredi, est très solide.
+*   **Amélioration durable :** Le retour d'un temps sec et de plus en plus ensoleillé à partir de jeudi est un point très fiable pour tout le week-end.
+*   **Fraîcheur nocturne en fin de semaine :** Les nuits très douces de jeudi à dimanche, avec des minimales entre 9 et 15°C selon les départements, sont un point solide.
 
 **Points fragiles :**
-- Évolution exacte des orages mardi (localisation, intensité, durée).
-- Vitesse des rafales mercredi : les modèles divergent sur les valeurs maximales (55-65 km/h).
-- Températures minimales jeudi matin : les écarts entre terre et littoral sont importants (9-17°C).
+*   **Localisation des orages du mardi :** La zone géographique exacte touchée par les orages et leur intensité restent le principal point fragile de la semaine.
+*   **Intensité du vent mercredi :** La pointe des rafales de vent mercredi (55 ou 65 km/h ?) sur les côtes et l'intérieur est un point qui reste à affiner.
+*   **Hausse thermique du week-end :** La vitesse de remontée des températures entre vendredi et dimanche reste incertaine ; elle pourrait être un peu plus ou moins rapide.
 
 **À surveiller (prochains runs) :**
-- Les sorties Arome et ICON-D2 pour affiner le risque orageux de mardi.
-- Les modèles CEP pour la tendance de la semaine suivante.
+Les prochains run d'AROME, GFS et ICON pour affiner la localisation des orages de mardi et l'intensité du vent de mercredi.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 10 au Dimanche 16 Août 2026
+## 🗓️ SEMAINE 2 : **Période du Lundi 10 au Dimanche 16 Août 2026**
 ### 💡 Points clés de la semaine 2
-1. Nouvelle vague de chaleur : À partir de lundi 10, les températures repartent à la hausse avec des maximales de 28-32°C, voire davantage en fin de semaine.
-2. Sécheresse persistante : Les modèles prévoient des précipitations très faibles, voire nulles, sur l’ensemble des Hauts-de-France.
-3. Flux de nord-est dominant : Un anticyclone centré sur l’Europe centrale dirige un flux continental sec et chaud vers la région.
-4. Nuits chaudes : Les minimales peinent à descendre sous 15-17°C, avec un ressenti lourd et inconfortable.
-5. Incertitude sur le paroxysme : Les modèles divergent sur l’intensité du pic de chaleur (GFS très chaud, ECMWF modéré). À suivre.
+1. **Retour de la chaleur forte :** Un nouvel épisode chaud est en approche à partir du 10 août, avec un signal de plus en plus solide pour une forte chaleur en fin de semaine.
+2. **Incertitude sur l’intensité :** Les modèles divergent fortement sur l'intensité de la chaleur. GFS voit un pic caniculaire, tandis que CEP et AIFS sont plus modérés.
+3. **Sécheresse persistante :** L’absence de précipitations significatives est le point le plus solide de la semaine 2, ce qui confirme l’aggravation de la sécheresse.
+4. **Fiabilité modérée à l'échelle régionale :** Pour les Hauts-de-France, la confiance est modérée. Les écarts entre modèles sur la position du dôme de chaleur sont encore importants.
+5. **Éclipse espagnole :** L'Espagne se prépare à un afflux de touristes pour l'éclipse du 12 août, sous une chaleur très intense, ce qui nous donne un indice de la situation à surveiller.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Consensus sur un temps sec et chaud pour toute la semaine 2, avec un déficit pluviométrique marqué.
-- Les températures seront au-dessus des normales saisonnières (anomalie +3°C à +5°C).
-- Le flux dominant sera de nord-est à est, apportant de l’air continental chaud.
+*   **Nouvel épisode chaud :** Tous les modèles (GFS, CEP, AIFS) s'accordent sur un retour de la chaleur à partir du 10-12 août.
+*   **Absence de pluie :** Le déficit de précipitations pour la deuxième semaine est quasi unanime, ce qui est très préoccupant pour la sécheresse.
 **Points de divergence :**
-- Intensité du pic de chaleur : GFS prévoit des Tx de 35-36°C, ECMWF des Tx de 30-33°C.
-- Timing précis : certains modèles accentuent la chaleur en fin de semaine (13-15 août), d’autres la maintiennent constante.
-- Présence de nuages élevés ou d’un voile (AIFS) vs ciel clair (GFS).
+*   **Intensité de la chaleur :** C’est le point majeur. GFS est caniculaire, CEP est modéré, AIFS est entre les deux. L’écart type est très important.
+*   **Position du dôme de chaleur :** La localisation exacte du noyau de chaleur est floue ; il pourrait concerner plus ou moins les Hauts-de-France.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Modèle ECMWF (ensemble)** (Documenté) | Poussée chaude modérée (T850 16-18°C) avec un flux de nord-est, mais pas de canicule extrême (Tx 30-33°C max). | Temps sec, ensoleillé, chaleur supportable. | HDF globalement. | Élevée (80-90%) : commenté par Krholam et Virgile. | Anomalie de T850 +3°C en médiane. Cumuls pluie quasi nuls. |
-| **Modèle GFS (déterministe)** (Documenté) | Scénario chaud renforcé avec T850 jusqu’à 20°C, Tx possibles 35-36°C en fin de semaine sur le sud de la région. | Chaleur lourde, ciel voilé, pas de précipitations. | HDF, surtout Oise, Aisne, Somme. | Élevée (80-90%) : commenté avec graphiques. | Paroxysme possible le 13-14 août. |
-| **Modèle AIFS (expérimental)** (Documenté) | Entre les deux : T850 17-19°C, signal chaud mais pas extrême. | Temps sec, chaud, quelques nuages élevés. | HDF. | Modérée (60-70%) : cité brièvement. | Pas de précision supplémentaire. |
+| **<strong>CEP (ECMWF)</strong>** (Référence, mais dispersion encore grande.) | Maintient une chaleur plus modérée sur la France, avec une fournaise plus en retrait vers l'Espagne et l'Europe centrale. | Chaleur marquée mais non caniculaire, avec un risque de pointes à 35°C sur l'est de la région. | Ensemble des Hauts-de-France, potentiellement plus l'est (Aisne, Oise). | Modérée (60%) | Les sorties de l'ensemble CEP montrent un scénario de réchauffement plus progressif et moins intense que GFS pour les Hauts-de-France. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps largement ensoleillé et sec, chaleur en hausse. Vent de nord-est modéré. | Min 15-17°C, Max 28-31°C (lundi-mardi), puis 28-31°C (mercredi-jeudi), avec possibilité de 32°C en fin de semaine. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Écart entre GFS et ECMWF sur l’intensité de la chaleur. |
-| **Pas-de-Calais (62)** | Ensoleillé, sec, chaleur de saison. Vent modéré tournant à l’ouest-sud-ouest en fin de période. | Min 14-16°C, Max 27-30°C (lundi-mardi), 27-30°C (mercredi-jeudi), jusqu’à 31°C possible. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Faible. |
-| **Somme (80)** | Beau temps sec et ensoleillé, chaleur modérée à forte selon les modèles. Vent modéré sur le littoral. | Min 14°C, Max 27-30°C (lundi-mardi), 27-30°C (mercredi-jeudi), possibilité de 32°C en fin de semaine. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Écart sur les maximales entre GFS et ECMWF. |
-| **Oise (60)** | Soleil généreux, très chaud en fin de semaine. Vent d’Est modéré. | Min 14-16°C, Max 29-32°C (lundi-mardi), 29-32°C (mercredi-jeudi), jusqu’à 34°C possible selon GFS. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Fortes incertitudes sur le paroxysme chaud. |
-| **Aisne (02)** | Temps ensoleillé et sec, chaleur croissante. Vent faible à modéré de nord-est. | Min 13-16°C, Max 28-31°C (lundi-mardi), 28-31°C (mercredi-jeudi), jusqu’à 33°C possible. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitudes modérées sur l’intensité. |
+| **Nord (59)** | Risque de forte chaleur en provenance du sud-est à partir du 12 août. Temps sec et lumineux. Incertitude sur l'intensité. | Min 15-17°C à Max 26-31°C (lundi-mardi). Possibilité de pics à 35°C si le scénario GFS se confirme. | moderee | ECMWF, GFS, AIFS, Discussion Infoclimat, Météo-France XML DEPT59 | Intensité et durée précise du pic de chaleur en fin de semaine. Forte dispersion des modèles. |
+| **Pas-de-Calais (62)** | Temps ensoleillé et sec, avec une température en hausse régulière. Risque de forte chaleur en fin de semaine. | Min 14-16°C à Max 27-30°C (début de semaine). Possiblement >32°C en fin de semaine. | moderee | ECMWF, GFS, Discussion Infoclimat, Météo-France XML DEPT62 | Intensité de la chaleur et éventuel effet de vent d'Est modifiant le ressenti. |
+| **Somme (80)** | Temps sec et de plus en plus chaud. Le soleil domine largement. Incertitude sur un possible pic caniculaire. | Min ~14°C à Max 27-30°C (début de semaine). Forte possibilité de dépasser les 30°C en fin de semaine. | moderee | ECMWF, GFS, Discussion Infoclimat, Météo-France XML DEPT80 | L'ampleur du pic de chaleur en toute fin de semaine (samedi/dimanche). |
+| **Oise (60)** | Soleil généreux et chaleur de plus en plus marquée. Risque de fortes chaleurs confirmé par certains modèles. | Min 14-16°C à Max 29-32°C (début de semaine). Possiblement 35-37°C en toute fin de semaine selon GFS. | moderee | ECMWF, GFS, Discussion Infoclimat, Météo-France XML DEPT60 | Forte incertitude sur l'atteinte ou non d'un pic caniculaire. |
+| **Aisne (02)** | Temps très ensoleillé et chaud. Le département est en première ligne pour un éventuel épisode de forte chaleur en provenance du sud-est. | Min 13-16°C à Max 28-31°C (début de semaine). Probablement >35°C en fin de semaine (scénario GFS). | moderee | ECMWF, GFS, Discussion Infoclimat, Météo-France XML DEPT02 | Intensité et durée exacte de la chaleur. Sujet à forte dispersion des modèles. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 10 et mardi 11 août** : Chaleur déjà présente avec des maximales de 28-31°C, ciel bleu, vent de nord-est modéré.
-- **Mercredi 12 et jeudi 13 août** : Période la plus chaude potentielle selon GFS (Tx 34-36°C), mais ECMWF table sur 30-32°C. Incertitude encore forte.
-- **Vendredi 14 et samedi 15 août** : Maintien de la chaleur avec un possible léger tassement. Soleil toujours présent.
-- **Dimanche 16 août** : Dernier jour de la semaine, probablement encore chaud et sec, avant une possible évolution à surveiller.
 
 **Points solides :**
-- Temps sec et ensoleillé toute la semaine 2 sur l’ensemble des Hauts-de-France.
-- Températures supérieures aux normales (+3 à +5°C).
-- Absence de précipitations significatives, accentuant la sécheresse des sols.
+*   **Retour de la chaleur :** Le signal pour une nouvelle hausse des températures est très solide.
+*   **Sécheresse persistante :** L’absence de pluie est quasiment certaine, ce qui aggrave durablement la situation.
 
 **Points fragiles :**
-- L’intensité du pic de chaleur : GFS est plus agressif qu’ECMWF, avec une différence de 3-4°C sur les maximales.
-- Le timing exact de la remontée chaude (début ou fin de semaine).
-- Possibilité de nuages élevés pouvant modérer la chaleur diurne.
+*   **Pic caniculaire ou simple chaleur :** Le point le plus fragile est l’intensité de la chaleur, avec un écart très important entre GFS (canicule) et CEP (chaleur modérée).
+*   **Durée de l’épisode :** La durée exacte du pic de chaleur est incertaine. Va-t-il durer 2 jours ou 5 jours ?
 
 **À surveiller (prochains runs) :**
-- Les sorties d’ECMWF et GFS de demain pour affiner le scénario chaud.
-- Le suivi de la dispersion des ensembles (CEP, GEFS).
+Les prochains runs de tous les modèles, en particulier les sorties de CEP et GFS, sont à surveiller pour préciser la trajectoire du dôme de chaleur.
 
 
 ========================================
@@ -126,33 +112,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Sur les 15 prochains jours, les Hauts-de-France connaîtront une alternance entre un début de semaine chaude et orageuse (Semaine 1), un rafraîchissement temporaire (mercredi-jeudi), puis un retour à un temps sec et très chaud en semaine 2. La tendance générale est à un excédent thermique marqué et un déficit de précipitations.
+Sur les 15 prochains jours, les Hauts-de-France connaîtront une alternance marquée : un début de semaine 1 chaud et orageux, suivi d'un net rafraîchissement, puis un retour à un temps sec et très chaud en semaine 2. La tendance générale est à un excédent thermique marqué et un déficit de précipitations persistant.
 
 ### Période la plus fiable
-Semaine 1 (3-9 août) : confiance élevée car les modèles sont convergents et les prévisions Météo-France détaillées sont disponibles.
+**Semaine 1 (Lundi 3 au Dimanche 9 Août)** est la plus fiable, avec une confiance élevée pour les échéances courtes.
 
 ### Phénomènes récurrents
-- Orages de masse d’air chaud (semaine 1).
-- Nuits chaudes et inconfortables (semaine 2).
+Orages localisés en début de période ; Vent d'Ouest sensible ; Forte chaleur en embuscade pour la semaine 2.
 
 ### Principales incertitudes
-- Intensité et durée de la vague de chaleur en semaine 2 (GFS vs ECMWF).
-- Localisation exacte des orages mardi 4 août.
+Intensité et durée de l'épisode de chaleur de la semaine 2 ; Localisation précise des orages de ce mardi.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes HDF : la durée exacte du rafraîchissement mercredi (quelques heures ou journée entière) et le début exact de la remontée chaude en semaine 2 (lundi ou mercredi).
-- **Localisation :** Doutes sur la localisation précise HDF : les orages mardi pourraient affecter davantage le Nord et l’Aisne, ou s’étendre à la Somme selon les modèles.
-- **Intensité :** Doutes sur l’intensité HDF : les rafales de vent sous orages (65 km/h ou plus) et la chaleur maximale en semaine 2 (32°C ou 36°C).
-- **Informations manquantes :** Informations importantes non abordées ou manquantes : l’évolution de la sécheresse des sols (indice SWI) et les restrictions d’eau potentielles ne sont pas détaillées dans les discussions.
-- **Modèles sous-documentés :** Modèles peu ou pas commentés par les membres : ICON-EU, ARPEGE, JMA, UKMO.
-- **Incertitudes images :** Incertitudes sur les graphiques : les cartes de cumuls de précipitations pour la semaine 2 montrent une grande variabilité entre les runs.
+- **Timing/Chronologie :** **Chronologie S2 :** Le timing exact du retour de la chaleur intense en semaine 2 est très incertain. Pourrait-il arriver dès le lundi 10 ou plus tard dans la semaine ?
+- **Localisation :** **Pic de chaleur S2 :** La localisation précise du dôme de chaleur est floue. Les Hauts-de-France seront-ils en première ligne ou sur la marge plus fraîche de ce dôme ?
+- **Intensité :** **Intensité S2 :** C'est le doute principal. La chaleur sera-t-elle modérée (30-33°C) ou caniculaire (35-38°C) ? L'écart entre les modèles opérationnels est immense.
+- **Informations manquantes :** **Précipitations S2 :** Aucune information précise sur les précipitations pour la semaine 2, ce qui, en creux, confirme un scénario très sec. **Phases lunaires :** L'influence éventuelle des phases lunaires (nouvelle lune ou pleine lune) sur les marées ou la météo n'a pas été abordée.
+- **Modèles sous-documentés :** **ICON, JMA, UKMO :** Ces modèles n’ont pas été commentés pour la semaine 2, ce qui limite la diversification des avis.
+- **Incertitudes images :** **Incerts S2 :** Les images de l'ensemble CEP et GEFS montrent une forte dispersion, ce qui est parfaitement cohérent avec l'incertitude exprimée.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🇫🇷 Bulletin météo Hauts-de-France – 15 jours du 3 au 16 août 2026
-🔥 Semaine 1 : chaleur lourde mardi (32-34°C) avec orages localement forts, puis rafraîchissement mercredi (22-27°C) et beau temps stable jusqu’à dimanche.
-☀️ Semaine 2 : retour d’un temps sec et chaud, avec un flux de nord-est. Les températures repartent à la hausse (28-32°C, possible 35°C selon GFS). Pas de pluie en vue.
-⚠️ Les incertitudes portent sur l’intensité de la chaleur en semaine 2. À suivre de près.
-#Météo #HautsDeFrance #Prévisions #Canicule #Sécheresse
+🔥🌞 Mise à jour spéciale #HautsDeFrance ! Votre été continue, avec un peu de suspense. Cette semaine, on respire un grand coup : après un mardi chaud et orageux, un net rafraîchissement nous attend avec un vent d'Ouest mercredi. Mais le grand calme et le soleil reviennent dès jeudi pour un week-end très agréable. Attention, cependant, car un nouvel épisode de forte chaleur se profile pour la semaine prochaine du 10 au 16 août. L'intensité (canicule ou simple chaleur ?) est encore à affiner. Restez connectés ☀️ #Météo #Nord #PasDeCalais #Somme #Oise #Aisne #PatrickMarlière #MrMétéo
