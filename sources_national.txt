@@ -289,19 +289,10 @@ FQCT40 LFML 051605 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿La vigilance canicule se poursuit vendredi et samedi sur le 
-sud-est du pays. La dégradation orageuse reste incertaine 
-samedi sur l'ouest du pays et ne justifie pas à ce stade de 
-mise en garde particulière.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Dimanche, une dégradation pluvio-orageuse vient traverser le 
-pays. Le risque de vigilance orange reste faible mais on ne 
-peut pas exclure des orages ponctuellement violents.
-Tout au long de la période, les températures élevées se 
-maintiennent dans le quart Sud-Est. A partir de mardi, les 
-températures repartent à la hausse, la vigilance canicule 
-pourrait s'étendre à d'autres régions.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
