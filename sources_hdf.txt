@@ -320,10 +320,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Mardi 4 Août 2026.
-Résumé général HDF précédent : Les deux semaines à venir s'annoncent chaudes et majoritairement sèches sur les Hauts-de-France. La tendance est à une accentuation de la chaleur en deuxième semaine..
+Dernier bulletin HDF généré le Mercredi 5 Août 2026.
+Résumé général HDF précédent : Les deux semaines à venir s'annoncent chaudes et majoritairement sèches sur les Hauts-de-France. La première semaine est marquée par un passage orageux en début de période, puis un retour du beau temps et de la chaleur en fin de semaine. La deuxième semaine voit une nouvelle vague de chaleur s'installer, avec des températures pouvant dépasser les 30°C, voire 35°C. L'éclipse du 12 août devrait être bien visible. Les précipitations restent très faibles, aggravant la sécheresse..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Vent fort mercredi (rafales 55-65 km/h) puis temps sec et chaud en fin de semaine..
+Températures attendues précédemment : Orages, vent fort, puis retour au calme et ensoleillement dès mercredi après-midi. (81 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -619,7 +619,7 @@ Message:
 il y a 12 minutes, jt75 a dit :
 			on est bien partis pour une cinquième canicule, pas forcément sur 100% du pays mais au moins les 2/3.
 	En effet pour la semaine de l'éclipse des champs de pression (Z500 hPa) très élevés sont de nouveau prévus, avec des moyennes de T850 hPa (non montré) dépassant allègrement 16 à 21 °C sur AIFS ensemble  du nord au sud, ce qui pour l'échéance (J8) est un sérieux signal de fortes chaleurs. Au moins les chances de voir l'éclipse à ce stade sont très élevées... Et toujours la sécheresse ! On le répète depuis des semaines et des semaines mais ça craint.
-	Modifié il y a 14 heures par fran39
+	Modifié il y a 16 heures par fran39
 								2
 								1
 								5
@@ -629,7 +629,7 @@ il y a 12 minutes, jt75 a dit :
 Auteur: mathias
 Message:
 Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.
-	Modifié il y a 13 heures par mathias
+	Modifié il y a 15 heures par mathias
 								3
 								2
 								2
@@ -646,7 +646,7 @@ Oui et même dans le nord de la France ça commence à bouger dans le mauvais se
 	Enfin dans le sud-ouest a Toulouse on a finalement que peu de différence avec Dijon pour le niveau des températures prévues à 850 Hpa avec des masses d'air encore anormalement chaudes qui pourraient remonter vars le nord du pays plutôt par l'est comme on le voit sur la carte des masses d'air qui suit celle de l'ensemble pour Toulouse :
 	Pendant plusieurs jours une nouvelle vague de chaleur  pourrait donc englober une grande partie de la France avec les régions au dessous d'une ligne bordeaux-Dijon qui seraient les plus concernés par de fortes chaleurs durables.
 	Il est trop tôt pour savoir si cela sera une nouvelle vague de chaleur mais il semble bien probable qu'un énième épisode de forte chaleur se profile,  espérons qu'il ne durera pas trop longtemps ce coup ci. 
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 Modifié
 								5
 								1
@@ -706,7 +706,7 @@ il y a 39 minutes, petit âge glaciaire 11 a dit :
 Auteur: babe
 Message:
 Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
-	Modifié il y a 10 heures par babe
+	Modifié il y a 12 heures par babe
 								1
 								1
 								1
