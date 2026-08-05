@@ -279,7 +279,7 @@ Températures minimales : en hausse.
 Températures maximales : en baisse sur le Vermandois, sur la Thiérache et la Champagne crayeuse ainsi que sur la moitié Sud du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 051000 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 5 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand Frais Nr 113. 2 - Situation générale mercredi 5 août 2026 à 06H00 UTC, et évolution Dépression 1001 hPa au nord Écosse, se décalant vers le nord-est, prévue 998 hPa sur Scandinavie jeudi midi. Thalweg associé en Manche et Mer du Nord aujourd'hui. Dorsale Atlantique se renforçant progressivement 1020 à 1025 hPa dans le Golfe de Gascogne dans l'après-midi, puis anticyclone se renforçant 1026 hPa large Bretagne demain, se décalant en Manche vendredi. 3 - Prévisions pour l'après-midi du mercredi 5 août VENT : Sud-Ouest 5 à 6, fraîchissant localement 6 à 7 en mer du Nord l'après-midi. Rafales. MER : agitée. HOULE : non significative. TEMPS : nuageux, devenant ensoleillé l'après-midi, mais encore quelques averses. VISIBILITE : bonne, moyenne sous averses. 4 - Prévisions pour la nuit du mercredi 5 août au jeudi 6 août VENT : Sud-Ouest 5 à 6, temporairement 6 à 7 en mer du nord en soirée, mollissant Ouest à Nord-Ouest 4 à 5 en milieu de nuit. Rafales. MER : agitée, s'atténuant peu agitée à agitée en seconde partie de nuit. HOULE : s'amplifiant temporairement Sud-Ouest 1 à 1.5 m en Manche, puis s'atténuant 0.5 à 1 m en fin de nuit. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du jeudi 6 août VENT : Ouest à Nord-Ouest 3 à 4, revenant Ouest à Sud-Ouest à la mi-journée, et fraîchissant 4 à 5 l'après-midi. MER : s'atténuant peu agitée le matin. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 6 au 7 et la journée du vendredi 7 août VENT : Ouest à Sud-Ouest 4 à 5, mollissant 3 à 4 en milieu de nuit, et Variable 2 à 3 l'après-midi. MER : peu agitée, s'atténuant belle à peu agitée le matin. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant le matin, mais Nord 0.5 m de la Panne à Gravelines en journée. TEMPS : ciel clair, parfois voilé en journée. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 7 au 8 et la journée du samedi 8 août VENT : Nord à Nord-Est 2 à 4, virant temporairement Est en début de nuit. MER : belle à peu agitée. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Dimanche 9 août secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Lundi 10 août secteur Nord faible dans la moitié Ouest du domaine. Secteur Ouest faible à modéré dans la moitié Est du domaine. Indice de confiance : 3 sur 5 Mardi 11 août secteur Est faible à modéré. Indice de confiance : 3 sur 5 Mercredi 12 août secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le mercredi 5 août 2026 à 09H00 UTC Dunkerque : vent Ouest-Sud-Ouest 14 noeuds, mer peu agitée, 1014 hPa en hausse, nuageux avec éclaircies, visibilité 5 milles. Cap Gris Nez : vent Sud-Ouest 17 noeuds, rafales 31 noeuds. Boulogne : vent Sud-Ouest 19 noeuds, 1015 hPa en hausse. Bouée Sandettie : vent Sud-Ouest 23 noeuds, creux 0,6 mètre, 1014 hPa en baisse, visibilité 5 milles. Prochain bulletin le mercredi 5 août 2026, vers 18H00 légales
+FQCT40 LFQQ 051605 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 5 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand Frais Nr 114. 2 - Situation générale mercredi 5 août 2026 à 12H00 UTC, et évolution Dépression 1001 hPa au nord Écosse, se décalant vers le nord-est, prévue 998 hPa sur Scandinavie jeudi midi. Thalweg associé en Manche est et la Mer du Nord ce soir. Dorsale Atlantique se renforçant progressivement 1020 à 1025 hPa dans le Golfe de Gascogne dans l'après-midi, puis anticyclone se renforçant 1028 hPa large Bretagne demain, se décalant 1022 hPa en Manche vendredi. 3 - Prévisions pour la nuit du mercredi 5 août au jeudi 6 août VENT : Sud-Ouest 5 à 6, temporairement 6 à 7 en mer du nord en soirée, mollissant Ouest à Nord-Ouest 4 à 5 en milieu de nuit. Rafales. MER : agitée, s'atténuant peu agitée à agitée en seconde partie de nuit. HOULE : s'amplifiant temporairement Sud-Ouest 1 à 1.5 m en Manche, puis s'atténuant 0.5 à 1 m en fin de nuit. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du jeudi 6 août VENT : Ouest à Nord-Ouest 3 à 4, revenant Ouest à Sud-Ouest à la mi-journée, et fraîchissant 4 à 5 l'après-midi. MER : s'atténuant peu agitée le matin. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 5 - Tendance pour la nuit du 6 au 7, et la journée du vendredi 7 août VENT : Ouest à Sud-Ouest 4 à 5, mollissant progressivement Varialbe 2 à 3, parfois 4 par l'est en milieu de nuit, et fraîchissant 3 à 4 l'après-midi, Nord-Est dominant à la fin. MER : peu agitée à agitée, s'atténuant belle à peu agitée le matin. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant le matin, mais Nord 0.5 m de la Panne à Gravelines en journée. TEMPS : ciel clair, parfois voilé en journée. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 7 au 8 et la journée du samedi 8 août VENT : Nord à Nord-Est 2 à 4, virant temporairement Est en début de nuit. MER : belle à peu agitée. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Dimanche 9 août secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Lundi 10 août secteur Nord faible dans la moitié Ouest du domaine. Secteur Ouest faible à modéré dans la moitié Est du domaine. Indice de confiance : 3 sur 5 Mardi 11 août secteur Est faible à modéré. Indice de confiance : 3 sur 5 Mercredi 12 août secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le mercredi 5 août 2026 à 15H00 UTC Dunkerque : vent Ouest-Sud-Ouest 16 noeuds, rafales 29 noeuds, 1016 hPa en hausse. Cap Gris Nez : vent Sud-Ouest 25 noeuds, rafales 37 noeuds. Boulogne : vent Sud-Ouest 25 noeuds, 1017 hPa en hausse. Bouée Sandettie : vent Sud-Ouest 29 noeuds, creux 1,5 mètre, 1015 hPa en baisse, visibilité 5 milles. Prochain bulletin le jeudi 6 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -309,12 +309,12 @@ pourrait s'étendre à d'autres régions.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Bugs sur Infoclimat #2
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
+• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,26 +322,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 5 Août 2026.
-Résumé général HDF précédent : Alternance d'un temps estival modéré en début de période (S1), suivi d'une vague de chaleur intense et durable (S2). Le principal phénomène à risque est la canicule de la semaine 2..
+Résumé général HDF précédent : Période marquée par une séquence de temps chaud à très chaud sur les Hauts-de-France. Après un début de semaine 1 orageux, l’anticyclone prend le relais pour offrir un temps estival sec et ensoleillé, qui se mue en une canicule sévère en semaine 2. Les températures resteront durablement au-dessus des normales, avec un pic caniculaire entre le 11 et le 14 août. Une possible dégradation orageuse en fin de mois n’est pas exclue, mais très lointaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Attention au vent d'Ouest fort mercredi, au pic de chaleur samedi et au risque d'averses orageuses dimanche après-midi sur les terres..
+Températures attendues précédemment : Soleil généreux, températures maximales entre 28 et 31°C samedi/dimanche, vent modéré. Pas de précipitations notables après mercredi. (115 car.).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: th38
-Message:
-Il y a 2 heures, seb93100 a dit :
-			Probablement, mais cette vague de chaleur sera moins intense que les précédentes et elle se caractérise par un risque orageux bien plus marqué aussi du SO au NE, c'est net sur tous les modèles. Chaleur oui mais plus humide avec des Tx globalement autour de 37-38°C grand maximum dans les coins les plus chauds. Beaucoup moins par chez toi.
-			Humidex élevés évidemment les après-midis avant les orages. Situation qui reste bien plus classique pour notre pays que les vagues de chaleur précédentes qui étaient vraiment hyper sèches même en montagne. 
-	Lyon devrait taper du 36°C possiblement 37°C en Tx sur cette semaine.
-	Entre 65 et 73 inclus, soit sur 9 étés consécutifs, ces valeurs là n'y avaient jamais été atteintes. 
-	Non, il n'y a plus rien de classique, c'est maintenant tout autre chose.
-								8
-								1
-								2
-
-=======================
-
 Auteur: Jetrejo
 Message:
 Toujours ce même débat et ces mêmes réactions. Dire que 36 est moins extrême et moins dur que 41°c ne veut pas dire qu'on normalise l'un ou l'autre. C'est juste une réalité physique que nos sens nous permettent de sentir, et sur les 5 dernières années ou l'emballement semble s'accélérer, il est probablement vrai que des Tx de 36°C sont bien moins exceptionnelles que des 40+. 
@@ -483,7 +469,7 @@ il y a 26 minutes, guiguite91 a dit :
 	"A un handicap général de 80% et il fait beaucoup d'efforts pour la communauté et pour s'exprimer, merci d'être compréhensif."
 	ça fait 2 fois en quelques jours que symaski62 se fait reprendre pas très élégamment sur son expression...
 								9
-								13
+								14
 								6
 
 =======================
@@ -541,6 +527,14 @@ Le 01/08/2026 à 21:11, Virgile a dit :
 	Salut,
 	j'ai entendu dire qu'il aurait eu de rares moments de lucidité à cette période !
 								3
+
+=======================
+
+Auteur: faycal
+Message:
+GFS s'entête à voir un enfoncement plus prononcée dans le golfe de Gascogne pour dimanche avec à la clé un pic de tres fortes chaleurs jusqu'au frontières belges.
+	Les autres modèles ont ce matin mais un petit pas vers lui avec un pic de chaleur plus affirmé mais GFS reste excessif.
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: Krholam
@@ -734,7 +728,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié il y a 5 heures par Arkus
+	Modifié il y a 7 heures par Arkus
 								1
 								2
 
@@ -755,7 +749,7 @@ La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé p
 								6
 								1
 								3
-								4
+								5
 
 =======================
 
@@ -782,8 +776,8 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié il y a 2 heures par Arkus
-								13
+	Modifié il y a 4 heures par Arkus
+								15
 								14
 								2
 
