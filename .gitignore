@@ -1,8 +1,10 @@
 __pycache__/
 *.html
 *.json
-*.md
 !README.md
+!public/*.md
+!sources_raw_*.md
+!bulletin_infoclimat*.md
 !subscriptions.json
 !bilan_journalier/data/*.json
 !bilan_journalier/data/*.db
