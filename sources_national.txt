@@ -338,12 +338,12 @@ pourrait s'étendre à d'autres régions.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Gestion administrative des canicules
-• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
-• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : Station autonome METIOR
+• Infoclimat Direct : Suivi du temps au Saguenay, Québec (Canada)
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -353,7 +353,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin généré le Mercredi 5 Août 2026.
 Résumé général précédent : Période de 15 jours marquée par une chaleur exceptionnelle et persistante, entrecoupée d'une brève et relative accalmie en début de première semaine, suivie d'une nouvelle remontée chaude puissante. La sécheresse reste le maître-mot..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Sensible : Vigilance orange canicule sur le Rhône et le Sud-Est. Fort risque orageux (précipitations intenses >30mm/h et rafales >100km/h possibles) lundi, puis orages épars mercredi/jeudi..
+Températures attendues précédemment : Orages violents lundi, chaleur durable sur le sud-est, accalmie temporaire mercredi-jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -572,21 +572,6 @@ Le 01/08/2026 à 21:11, Virgile a dit :
 								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: gotman42
-Message:
-Il y a 3 heures, jt75 a dit :
-			Faut pas trop se leurrer, en effet on est bien partis pour une cinquième canicule, pas forcément sur 100% du pays mais au moins les 2/3.
-			deterministe, contrôle ou ensembliste Gfs ou Aifs ou même cep on y va quasiment tout droit.
-			Un espoir: une erreur de prévisions puisqu’il s’agit du long terme…
-	Ca c'est vu depuis Paris.
-	Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
-	En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
-								11
-								6
-								1
-
-=======================
-
 Auteur: Krholam
 Message:
 il y a 39 minutes, petit âge glaciaire 11 a dit :
@@ -613,7 +598,7 @@ il y a 39 minutes, petit âge glaciaire 11 a dit :
 Auteur: babe
 Message:
 Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
-	Modifié il y a 22 heures par babe
+	Modifié hier à 13:21 par babe
 								1
 								1
 								1
@@ -636,7 +621,7 @@ Il y a 1 heure, gotman42 a dit :
 			En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
 	Effectivement.. Nous sommes dans un été où globalement les vagues de chaleur sont si longues et/ou les phases de répit si courtes, que finalement, est-ce que ça encore un sens de parler de nème vague de chaleur, en sachant que c'est en plus un critère à l'échelle nationale. 
 	Dans certaines régions sud les périodes hors vagues de chaleur sont l'exception donc la notion même de "vague" pose question quand elles sont interminables.  Par exemple en Corse, depuis le 19 juin, il y a seulement 2 jours hors vague de chaleur (2 et 3 juillet...), bref...
-								20
+								21
 								4
 								1
 
@@ -685,7 +670,7 @@ En fait, au niveau national, depuis mai, on voit bien 4 crêtes. La dernière es
 Auteur: Run999H
 Message:
 À la lecture des modèles, je nous vois dans le bourbier pour encore 10 jours minimum. Et depuis 48h, les modèles accentuent peu à peu la remontée des HG/HP et j’ai bien peur qu’on soit de nouveau très largement au-dessus des normales pour la moitié sud, assez largement sur la moitié nord (et + si affinité). Avec plus de 20° à 850hpa voire 25°, les 40° semblent de nouveau une option… on ne s’en sort pas ! 
-								15
+								16
 								1
 
 =======================
@@ -695,7 +680,7 @@ Message:
 On va se consoler en se disant que l'automne météorologique n'est plus très loin et que le rallongement des nuits pourra un peu limiter la casse.
 	Du 8 au 15 août inclus, généralisation des +30 degrés à quasiment tout le territoire sur GFS et CEP. Toujours un peu moins excessif près de la Manche. La moitié sud encore une fois en première ligne. 
 	Petit espoir après le 15 août pour un retour progressif à la normale, même si ces sorties de crise sont sans arrêt repoussées. On va croiser les doigts. 
-								7
+								8
 								1
 
 =======================
@@ -718,7 +703,7 @@ il y a une heure, Nicolas L a dit :
 			Petit espoir après le 15 août pour un retour progressif à la normale, même si ces sorties de crise sont sans arrêt repoussées. On va croiser les doigts. 
 	La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
 								1
-								2
+								3
 
 =======================
 
@@ -731,7 +716,8 @@ il y a 10 minutes, Gaël13 a dit :
 	L'ensemble CEP modélise 13 jours  à venir avec une  moyennes des températures supérieurs ou égale à 20 degrés à 850 Hpa et aucune précipitations j'usqu'au 15 aout au minimum.
 	C'est catastrophique 
 	Bon courage aux Aixois et à tous les habitants d'une grosse partie du sud-est  !
-								4
+								1
+								5
 								1
 
 =======================
@@ -759,7 +745,7 @@ Bonjour,
 	Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?
 								1
 								3
-								6
+								7
 
 =======================
 
@@ -775,7 +761,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié il y a 1 heure par Arkus
+	Modifié il y a 3 heures par Arkus
 								1
 								2
 
@@ -786,16 +772,17 @@ Message:
 Le 04/08/2026 à 11:24, mathias a dit :
 			Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.
 	Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
-								1
+								3
 
 =======================
 
 Auteur: Virgile
 Message:
 La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
+								3
 								1
-								1
-								1
+								2
+								4
 
 =======================
 
@@ -806,19 +793,34 @@ il y a 18 minutes, Virgile a dit :
 	En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄 
 	Les vdf a 72h la fiabilité est de 20% .....
 								1
+								1
+								1
 
 =======================
 
 Auteur: Arkus
 Message:
-Il y a 23 heures, gotman42 a dit :
+Le 04/08/2026 à 14:22, gotman42 a dit :
 			Ca c'est vu depuis Paris.
 			Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
 			En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
-		Il y a 2 heures, Gaël13 a dit :
+		Il y a 4 heures, Gaël13 a dit :
 			La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
-	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter la valeur isolée d'une seule station).
+	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
+	Modifié il y a 38 minutes par Arkus
+								10
+								10
 								1
-								3
+
+=======================
+
+Auteur: jt75
+Message:
+Il y a 4 heures, Grahok73 a dit :
+			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
+	Bonjour @Grahok73
+	on n'est jamais mieux servi que sur infoclimat 
+	https://www.infoclimat.fr/climato/indicateur_national.php#2026;,1981-2010,1,-3.65,368.65,,y,desc,-1292739192000,1816056792000
+								1
