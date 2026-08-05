@@ -1,7 +1,7 @@
 __pycache__/
 *.html
-*.json
 !README.md
+!public/*.html
 !public/*.md
 !sources_raw_*.md
 !bulletin_infoclimat*.md
