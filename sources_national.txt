@@ -310,7 +310,7 @@ Températures minimales : en hausse sur le Lauragais ainsi que dans le Volvestre
 Températures maximales : en baisse sur la grande plaine toulousaine ainsi qu'au sud-ouest du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 050420 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 5 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 5 août 2026 à 00H00 UTC, et évolution Faible gradient de pression 1014-1016 hPa. Dépression relative se creusant 1013 hPa entre Corse et Continent la nuit. 3 - Prévisions pour la journée du mercredi 5 août VENT : - à l'ouest de Sicié : Ouest à Nord-Ouest 3 à 4, fraîchissant Ouest à Sud-Ouest 4 à 5 l'après-midi. - à l'est de Sicié : secteur Nord 1 à 3, fraîchissant secteur Sud-Ouest 2 à 4 l'après-midi. MER : devenant belle à peu agitée par l'ouest. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 5 août au jeudi 6 août VENT : - à l'ouest de Sicié : virant Nord-Ouest 4 à 5. - à l'est de Sicié : secteur Sud-Ouest 2 à 4, mollissant Nord-Est 1 à 3 en milieu de nuit. MER : devenant peu agitée, localement agitée vers le large. HOULE : s'établissant Ouest 0.5 à 1 m, parfois 1.5 m en seconde partie de nuit. TEMPS : clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du jeudi 6 août VENT : Nord-Ouest 4 à 5, mais Variable 2 à 4 à l'est de Sicié, fraîchissant secteur Ouest 5 à 6 partout l'après-midi, avec menace de 7 à l'est de Porquerolles. Rafales. MER : peu agitée à agitée. HOULE : Ouest 0.5 à 1 m, s'amortissant l'après-midi. TEMPS : clair, parfois voilé l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 6 au 7 et la journée du vendredi 7 août VENT : De Port Camargue à Porquerolles Ouest à Nord-Ouest 5 à 6. De Porquerolles à Camarat Ouest 6 à 7, mollissant 1 à 3 en milieu de nuit, puis fraîchissant 6. Rafales. De Camarat à St Raphaël Ouest 6, virant Nord à Nord-Ouest 3 à 5 en milieu de nuit. MER : peu agitée à agitée. HOULE : De Port Camargue à Marseille houle de Sud-Ouest inférieure à 1,5 m, s'orientant en début de matinée au Nord. De Marseille à St Raphaël houle d'Ouest à Sud-Ouest inférieure à 2 m, s'orientant en milieu d'après-midi au secteur Ouest. 7 - Tendance pour les jours suivants Samedi 8 août Variable faible à modéré. Indice de confiance : 3 sur 5 Dimanche 9 août Variable faible à modéré. Indice de confiance : 3 sur 5 Lundi 10 août Variable faible à modéré. Indice de confiance : 3 sur 5 Mardi 11 août Variable faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le mercredi 5 août 2026 à 03H00 UTC Cap Camarat : vent Nord 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest-Nord-Ouest 4 noeuds, clair ou peu nuageux, visibilité 8 milles. Le Levant : vent Nord-Nord-Est 4 noeuds, 1014 hPa stationnaire. Porquerolles : vent Nord-Nord-Ouest 6 noeuds. Cap Couronne : vent Nord-Ouest 8 noeuds. Prochain bulletin le mercredi 5 août 2026, vers 13H00 légales
+FQCT40 LFML 050930 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 5 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 5 août 2026 à 06H00 UTC, et évolution Hautes pressions près de 1020 hPa sur l'Espagne et au sud-ouest de la France, se renforçant 1022 hPa demain. Zone de basses pressions relatives 1013/1014 hPa prévue de la Côte d'Azur à la Mer Tyrrhénienne, se creusant 1011 hPa près de la Côte d'Azur demain soir. 3 - Prévisions pour l'après-midi du mercredi 5 août VENT : - à l'ouest de Sicié : fraîchissant Ouest à Sud-Ouest 4 à 5. - à l'est de Sicié : secteur Sud-Ouest 2 à 4. MER : belle à peu agitée. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 5 août au jeudi 6 août VENT : - à l'ouest de Sicié : Ouest 4 à 5, virant Nord-Ouest en fin de soirée. - à l'est de Sicié : secteur Sud-Ouest 2 à 4, mollissant Nord-Est 1 à 3 en milieu de nuit. MER : peu agitée, localement agitée vers le large à l'ouest de Sicié. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m, parfois 1.5 m en seconde partie de nuit au large de Sicié. TEMPS : ensoleillé. VISIBILITE : bonne. 5 - Prévisions pour la journée du jeudi 6 août VENT : Nord-Ouest 4 à 5, mais Variable 2 à 4 à l'est de Sicié, fraîchissant secteur Ouest 5 à 6 partout l'après-midi, avec menace de 7 à l'est de Porquerolles. Rafales. MER : peu agitée à agitée. HOULE : Ouest 0.5 à 1 m, s'amortissant l'après-midi. TEMPS : clair, parfois voilé l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 6 au 7 et la journée du vendredi 7 août VENT : - à l'ouest du Levant : Ouest 5 à 6, virant Nord-Ouest 4 à 5 en fin de soirée, localement 6 à l'est de Fos, puis revenant Ouest l'après-midi. Rafales. - à l'est du Levant : secteur Nord 2 à 4, localement Ouest 5 à 6 du Levant à Camarat au début, virant Nord-Ouest le matin, puis devenant Variable l'après-midi, localement Ouest 5 à 6 avec rafales du Levant à Camarat en fin de journée. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1.5 m vers Le Levant. TEMPS : ciel clair. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 7 au 8 et la journée du samedi 8 août VENT : De Port Camargue à Fos Sud à Sud-Ouest 3 à 5, virant temporairement Nord en début de nuit. De Fos à Camarat Ouest 5 à 7, mollissant et devenant variable 1 à 3 en seconde partie de nuit. Rafales. De Camarat à St Raphaël Ouest 6, mollissant et devenant variable 1 à 3 en début de nuit. MER : De Port Camargue à Fos mer belle à peu agitée. De Fos à St Raphaël mer agitée, localement forte du Levant à Camarat, devenant belle. HOULE de secteur Ouest inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Dimanche 9 août secteur Sud faible dans le golfe du Lion. Variable faible ailleurs. Indice de confiance : 3 sur 5 Lundi 10 août variable faible. Indice de confiance : 3 sur 5 Mardi 11 août secteur Sud faible dans le golfe du Lion. Variable faible ailleurs. Indice de confiance : 3 sur 5 Mercredi 12 août secteur Sud faible dans le golfe du Lion. Variable faible ailleurs. Indice de confiance : 3 sur 5 9 - Observations le mercredi 5 août 2026 à 09H00 UTC Cap Camarat : vent Est-Nord-Est 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 6 noeuds, clair ou peu nuageux, visibilité 8 milles. Le Levant : vent Sud-Est 4 noeuds, 1015 hPa en hausse. Cap Couronne : vent Nord-Nord-Ouest 8 noeuds. Prochain bulletin le mercredi 5 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -339,12 +339,12 @@ partie de journée, et dimanche sur la moitié sud du pays.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -352,9 +352,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 5 Août 2026.
-Résumé général précédent : Période de 15 jours marquée par une chaleur exceptionnelle et persistante, entrecoupée d'un bref épisode orageux. La sécheresse est le maître-mot..
+Résumé général précédent : Période de 15 jours marquée par une chaleur exceptionnelle et persistante, entrecoupée d'un bref épisode orageux lundi 3 puis d'une nouvelle remontée chaude à partir du 11. La sécheresse reste le maître-mot..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafales de vent > 100 km/h localement, puis orages plus épars en milieu de semaine..
+Températures attendues précédemment : Rafales >100 km/h possibles, pluies intenses localisées, puis chaleur samedi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -573,51 +573,6 @@ Le 01/08/2026 à 21:11, Virgile a dit :
 								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Dumbo
-Message:
-Bonjour , à la différence des vagues de chaleur de mois de juin l'activité orageuse est plus présente depuis deux semaines  , les dépressions notamment sur le golfe de gascogne influnecent notre temps sensible en france . Il y as un signal de salve orageuse pour le lundi 10 aout avec de bon cumul de pluie sur bonne moitié sud .Au vu de l' èchèance cela vas encore beaucoup èvoluer sur la synoptique de la semaine.
-								1
-								1
-								1
-
-=======================
-
-Auteur: ngc1365
-Message:
-Un poil HS mais pas complètement : cette semaine va être aussi très suivie non pas pour la France mais pour l'Espagne car on attend pas loin de dix millions d'astro-touristes pour l'éclipse du 12 août.
-	GFS est déjà sur le sommet mais même si la "plume" bouillante n'atteint pas complètement le territoire français, il semblerait que le signal soit assez chaud pour la péninsule ibérique avec les autres modèles ?!🥵
-								4
-
-=======================
-
-Auteur: Arkus
-Message:
-L'ensemble européen à pris indéniablement un coup de chaud sur la France sur sa sortie du soir pour la semaine prochaine. Anomalie médiane à +3°C, ça va encore, mais cela s’accompagne aussi d'une ouverture de la dispersion sur le nord du pays en particulier, laissant la place à peut-être plus chaud.
-	Signal à suivre.
-								8
-								5
-
-=======================
-
-Auteur: Krholam
-Message:
-No comment
-								1
-								1
-								6
-								2
-
-=======================
-
-Auteur: symaski62
-Message:
-4  à  10  août     500 hPa  
-	10 août  2h00     pluie  
-	peut-être  oui ou non    
-								8
-
-=======================
-
 Auteur: jt75
 Message:
 Faut pas trop se leurrer, en effet on est bien partis pour une cinquième canicule, pas forcément sur 100% du pays mais au moins les 2/3.
@@ -633,7 +588,7 @@ Message:
 il y a 12 minutes, jt75 a dit :
 			on est bien partis pour une cinquième canicule, pas forcément sur 100% du pays mais au moins les 2/3.
 	En effet pour la semaine de l'éclipse des champs de pression (Z500 hPa) très élevés sont de nouveau prévus, avec des moyennes de T850 hPa (non montré) dépassant allègrement 16 à 21 °C sur AIFS ensemble  du nord au sud, ce qui pour l'échéance (J8) est un sérieux signal de fortes chaleurs. Au moins les chances de voir l'éclipse à ce stade sont très élevées... Et toujours la sécheresse ! On le répète depuis des semaines et des semaines mais ça craint.
-	Modifié il y a 22 heures par fran39
+	Modifié hier à 09:20 par fran39
 								2
 								1
 								5
@@ -643,7 +598,7 @@ il y a 12 minutes, jt75 a dit :
 Auteur: mathias
 Message:
 Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.
-	Modifié il y a 21 heures par mathias
+	Modifié il y a 23 heures par mathias
 								3
 								2
 								2
@@ -660,7 +615,7 @@ Oui et même dans le nord de la France ça commence à bouger dans le mauvais se
 	Enfin dans le sud-ouest a Toulouse on a finalement que peu de différence avec Dijon pour le niveau des températures prévues à 850 Hpa avec des masses d'air encore anormalement chaudes qui pourraient remonter vars le nord du pays plutôt par l'est comme on le voit sur la carte des masses d'air qui suit celle de l'ensemble pour Toulouse :
 	Pendant plusieurs jours une nouvelle vague de chaleur  pourrait donc englober une grande partie de la France avec les régions au dessous d'une ligne bordeaux-Dijon qui seraient les plus concernés par de fortes chaleurs durables.
 	Il est trop tôt pour savoir si cela sera une nouvelle vague de chaleur mais il semble bien probable qu'un énième épisode de forte chaleur se profile,  espérons qu'il ne durera pas trop longtemps ce coup ci. 
-	Modifié il y a 20 heures par petit âge glaciaire 11
+	Modifié il y a 22 heures par petit âge glaciaire 11
 Modifié
 								5
 								1
@@ -675,7 +630,7 @@ il y a 13 minutes, petit âge glaciaire 11 a dit :
 	j'ai conscience que ces subtilités ne concernent qu'un public très averti.
 	On pourrait dire aussi que ce qui se joue est la possibilité d'un 5ème épisode de canicule, mais là encore il n'est pas tout à fait certain que l'extrême Sud-Est sorte de la vigilance canicule cette semaine.
 								7
-								2
+								3
 
 =======================
 
@@ -688,7 +643,7 @@ Il y a 3 heures, jt75 a dit :
 	Ca c'est vu depuis Paris.
 	Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
 	En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
-								10
+								11
 								6
 								1
 
@@ -712,7 +667,7 @@ il y a 39 minutes, petit âge glaciaire 11 a dit :
 	Je ne parle meme pas effectivement de certaines region dans le sud qui ne sont pas vraiment sorti de la première vague de chaleur.
 	Cumulé à cet atroce manque de PP.
 	Je pars m’acheter un igloo
-								1
+								2
 								5
 
 =======================
@@ -720,7 +675,7 @@ il y a 39 minutes, petit âge glaciaire 11 a dit :
 Auteur: babe
 Message:
 Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
-	Modifié il y a 18 heures par babe
+	Modifié il y a 20 heures par babe
 								1
 								1
 								1
@@ -743,7 +698,7 @@ Il y a 1 heure, gotman42 a dit :
 			En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
 	Effectivement.. Nous sommes dans un été où globalement les vagues de chaleur sont si longues et/ou les phases de répit si courtes, que finalement, est-ce que ça encore un sens de parler de nème vague de chaleur, en sachant que c'est en plus un critère à l'échelle nationale. 
 	Dans certaines régions sud les périodes hors vagues de chaleur sont l'exception donc la notion même de "vague" pose question quand elles sont interminables.  Par exemple en Corse, depuis le 19 juin, il y a seulement 2 jours hors vague de chaleur (2 et 3 juillet...), bref...
-								19
+								20
 								4
 								1
 
@@ -755,7 +710,7 @@ Il y a 1 heure, fran39 a dit :
 			Effectivement.. Nous sommes dans un été où globalement les vagues de chaleur sont si longues et/ou les phases de répit si courtes, que finalement, est-ce que ça encore un sens de parler de nème vague de chaleur, en sachant que c'est en plus un critère à l'échelle nationale. 
 			Dans certaines régions sud les périodes hors vagues de chaleur sont l'exception donc la notion même de "vague" pose question quand elles sont interminables.  Par exemple en Corse, depuis le 19 juin, il y a seulement 2 jours hors vague de chaleur (2 et 3 juillet...), bref...
 	Je confirme... Dans le Vaucluse, aucune température en-dessous de 30°c depuis le 11 juin. Et ça n'est pas terminé quand on voit les modèles...
-								4
+								5
 								2
 								2
 
@@ -783,15 +738,15 @@ Message:
 En fait, au niveau national, depuis mai, on voit bien 4 crêtes. La dernière est surtout dûe qu'à une partie du pays, elle n'a pas été vraiment généralisée à tout le territoire, ce qui fait dire à juste titre que certaines régions ne sont pas sorties de la chaleur très forte.
 	Reste à voir ce que promet le reste de la courbe, une nouvelle bosse ?
 	Si c'est le cas, alors  à l'échelle du pays on pourra parler d'une 5ème
-								9
-								2
+								10
+								3
 
 =======================
 
 Auteur: Run999H
 Message:
 À la lecture des modèles, je nous vois dans le bourbier pour encore 10 jours minimum. Et depuis 48h, les modèles accentuent peu à peu la remontée des HG/HP et j’ai bien peur qu’on soit de nouveau très largement au-dessus des normales pour la moitié sud, assez largement sur la moitié nord (et + si affinité). Avec plus de 20° à 850hpa voire 25°, les 40° semblent de nouveau une option… on ne s’en sort pas ! 
-								12
+								14
 								1
 
 =======================
@@ -801,4 +756,64 @@ Message:
 On va se consoler en se disant que l'automne météorologique n'est plus très loin et que le rallongement des nuits pourra un peu limiter la casse.
 	Du 8 au 15 août inclus, généralisation des +30 degrés à quasiment tout le territoire sur GFS et CEP. Toujours un peu moins excessif près de la Manche. La moitié sud encore une fois en première ligne. 
 	Petit espoir après le 15 août pour un retour progressif à la normale, même si ces sorties de crise sont sans arrêt repoussées. On va croiser les doigts. 
+								7
+
+=======================
+
+Auteur: Grahok73
+Message:
+Il y a 11 heures, jt75 a dit :
+			En fait, au niveau national, depuis mai, on voit bien 4 crêtes. La dernière est surtout dûe qu'à une partie du pays, elle n'a pas été vraiment généralisée à tout le territoire, ce qui fait dire à juste titre que certaines régions ne sont pas sorties de la chaleur très forte.
+			Reste à voir ce que promet le reste de la courbe, une nouvelle bosse ?
+			Si c'est le cas, alors  à l'échelle du pays on pourra parler d'une 5ème
+	Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ?
+
+=======================
+
+Auteur: Gaël13
+Message:
+il y a une heure, Nicolas L a dit :
+			On va se consoler en se disant que l'automne météorologique n'est plus très loin et que le rallongement des nuits pourra un peu limiter la casse.
+			Du 8 au 15 août inclus, généralisation des +30 degrés à quasiment tout le territoire sur GFS et CEP. Toujours un peu moins excessif près de la Manche. La moitié sud encore une fois en première ligne. 
+			Petit espoir après le 15 août pour un retour progressif à la normale, même si ces sorties de crise sont sans arrêt repoussées. On va croiser les doigts. 
+	La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
+								1
+								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+il y a 10 minutes, Gaël13 a dit :
+			La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
+	Bon le film se passe avec une tempête de neige on est loin de ce qui se passe cet été mais l'histoire est la même,  chaque jour les Aixois se réveillent avec
+	la même météo, je pense que le sud-est n'en peut plus de cette chaleur interminable.
+	L'ensemble CEP modélise 13 jours  à venir avec une  moyennes des températures supérieurs ou égale à 20 degrés à 850 Hpa et aucune précipitations j'usqu'au 15 aout au minimum.
+	C'est catastrophique 
+	Bon courage aux Aixois et à tous les habitants d'une grosse partie du sud-est  !
+								4
+
+=======================
+
+Auteur: fifouninho75
+Message:
+il y a 3 minutes, petit âge glaciaire 11 a dit :
+			Bon le film se passe avec une tempête de neige on est loin de ce qui se passe cet été mais l'histoire est la même,  chaque jour les Aixois se réveillent avec
+			la même météo, je pense que le sud-est n'en peut plus de cette chaleur interminable.
+			L'ensemble CEP modélise 13 jours  à venir avec une  moyennes des températures supérieurs ou égale à 20 degrés à 850 Hpa et aucune précipitations j'usqu'au 15 aout au minimum.
+			C'est catastrophique 
+			Bon courage aux Aixois et à tous les habitants d'une grosse partie du sud-est  !
+	Le diagramme fait froid dans le dos, ou plutôt chaud 🤪
+								1
+
+=======================
+
+Auteur: Maupi85
+Message:
+Bonjour,
+	Les 3 dernières actualisations de l'ensemble européen :
+	actualisation de Dimanche :
+	de Lundi :
+	de Mardi :
+	Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?
 								1
