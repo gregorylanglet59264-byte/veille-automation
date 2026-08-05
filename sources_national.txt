@@ -313,12 +313,12 @@ pourrait s'étendre à d'autres régions.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : &#xC9;volution de la nature - 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -328,7 +328,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin généré le Mercredi 5 Août 2026.
 Résumé général précédent : La tendance des 15 prochains jours est dominée par une chaleur exceptionnelle pour la saison, avec deux vagues de chaleur successives : la première atténuée en milieu de semaine 1, la seconde très intense en semaine 2. Les précipitations seront quasi absentes, accentuant la sécheresse..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents, rafales, puis temps plus calme et chaud en seconde partie de semaine. (max 120 caractères).
+Températures attendues précédemment : Forte chaleur sur une large moitié nord dimanche, températures maximales potentiellement très élevées..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -538,32 +538,9 @@ Auteur: faycal
 Message:
 GFS s'entête à voir un enfoncement plus prononcée dans le golfe de Gascogne pour dimanche avec à la clé un pic de tres fortes chaleurs jusqu'au frontières belges.
 	Les autres modèles ont ce matin mais un petit pas vers lui avec un pic de chaleur plus affirmé mais GFS reste excessif.
-								1
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Krholam
-Message:
-il y a 39 minutes, petit âge glaciaire 11 a dit :
-			Oui et même dans le nord de la France ça commence à bouger dans le mauvais sens ( en direction d'un nouvel épisode de forte chaleur).
-			Je base ces prévisions uniquement sur le modèle CEP pour ne pas alourdir le post de cartes mais l'américain et le canadien suivent aussi dans la même tendance. 
-			Les pressions devraient monter sur notre pays et le jet stream s'éloigner ce qui aurait encore ( on y est maintenant habitués) pour conséquence de bloquer l'air océanique moins chaud loin de la France :
-			A Paris,  après une baisse temporaire des températures à la fin du topic précédent, on pourrait connaître une augmentation nette des températures à 850hpa dès le deuxième jour du topic pour atteindre un nouveau pic autour de 20 degrés en milieu de semaine. Pour la suite, il semblerait que le niveau des températures fléchisse  mais à cette échéance rien n'est certain.  La canicule ne semble pas être l'option la plus probable pour le tier nord de la France mais de la chaleur forte à très forte pour quelques jours :
-			Un peu plus au sud et à l'est l'élévation de la température à 850hpa au niveau des 20 degrés devrait être plus durable et concernerait une grande partie du topic sans garantie que cela baisse à la fin de celui-ci :
-			Enfin dans le sud-ouest a Toulouse on a finalement que peu de différence avec Dijon pour le niveau des températures prévues à 850 Hpa avec des masses d'air encore anormalement chaudes qui pourraient remonter vars le nord du pays plutôt par l'est comme on le voit sur la carte des masses d'air qui suit celle de l'ensemble pour Toulouse :
-			Pendant plusieurs jours une nouvelle vague de chaleur  pourrait donc englober une grande partie de la France avec les régions au dessous d'une ligne bordeaux-Dijon qui seraient les plus concernés par de fortes chaleurs durables.
-			Il est trop tôt pour savoir si cela sera une nouvelle vague de chaleur mais il semble bien probable qu'un énième épisode de forte chaleur se profile,  espérons qu'il ne durera pas trop longtemps ce coup ci. 
-	Mouais malheureusement effectivement le scénario de @Virgile se confirme de plus en plus.
-	Sans être dans l’intensité de celle de fin juin on partirait (pour le nord) sur quasiment plus d’une semaine avec des t850 entre 15 et 20.
-	C’est à dire entre 30 et 35⁰C avec peut etre un petit creux à 28⁰C en tout début d’échéance.
-	Pour l’IdF ça sent donc la succesion de Tn légerement tropicale.
-	Je ne parle meme pas effectivement de certaines region dans le sud qui ne sont pas vraiment sorti de la première vague de chaleur.
-	Cumulé à cet atroce manque de PP.
-	Je pars m’acheter un igloo
-								2
-								5
-
-=======================
-
 Auteur: babe
 Message:
 Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
@@ -716,7 +693,7 @@ Bonjour,
 	Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?
 								2
 								3
-								7
+								8
 
 =======================
 
@@ -732,7 +709,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié il y a 7 heures par Arkus
+	Modifié il y a 9 heures par Arkus
 								1
 								2
 
@@ -743,7 +720,7 @@ Message:
 Le 04/08/2026 à 11:24, mathias a dit :
 			Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.
 	Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
-								3
+								4
 
 =======================
 
@@ -780,9 +757,9 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié il y a 4 heures par Arkus
+	Modifié il y a 6 heures par Arkus
+								16
 								15
-								14
 								2
 
 =======================
@@ -796,3 +773,13 @@ Il y a 4 heures, Grahok73 a dit :
 	https://www.infoclimat.fr/climato/indicateur_national.php#2026;,1981-2010,1,-3.65,368.65,,y,desc,-1292739192000,1816056792000
 								1
 								1
+
+=======================
+
+Auteur: mathias
+Message:
+Il y a 8 heures, Virgile a dit :
+			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
+	Je parlais de la période estivale...
+	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
+	Modifié il y a 35 minutes par mathias
