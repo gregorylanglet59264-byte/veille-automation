@@ -1351,16 +1351,22 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 {week2_data["comments_text"]}
 """
 
-    # Sauvegarde intégrale des sources brutes en fichier TXT (National)
+    # Sauvegarde intégrale des sources brutes en fichier TXT et MD (National)
     try:
+        nat_src_content = f"# REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL ({today_str})\n\n{user_prompt}"
         with open("sources_raw_national.txt", "w", encoding="utf-8") as f_src_nat:
-            f_src_nat.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL ({today_str}) ===\n\n{user_prompt}")
+            f_src_nat.write(nat_src_content)
+        with open("sources_raw_national.md", "w", encoding="utf-8") as f_src_nat_md:
+            f_src_nat_md.write(nat_src_content)
+
         os.makedirs("public", exist_ok=True)
         with open(os.path.join("public", "sources_national.txt"), "w", encoding="utf-8") as f_pub_nat:
-            f_pub_nat.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL ({today_str}) ===\n\n{user_prompt}")
-        print("Fichiers TXT de sources brutes nationales générés avec succès : sources_raw_national.txt & ./public/sources_national.txt")
+            f_pub_nat.write(nat_src_content)
+        with open(os.path.join("public", "sources_national.md"), "w", encoding="utf-8") as f_pub_nat_md:
+            f_pub_nat_md.write(nat_src_content)
+        print("Fichiers TXT/MD de sources brutes nationales générés avec succès : sources_raw_national.txt, sources_raw_national.md & ./public/sources_national.md")
     except Exception as e_txt_nat:
-        print("Notice: Erreur écriture TXT sources nationales :", e_txt_nat)
+        print("Notice: Erreur écriture TXT/MD sources nationales :", e_txt_nat)
 
     response = call_llm(system_prompt, user_prompt)
     if not response:
@@ -1534,16 +1540,22 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 {week2_data["comments_text"]}
 """
 
-    # Sauvegarde intégrale des sources brutes en fichier TXT (Hauts-de-France)
+    # Sauvegarde intégrale des sources brutes en fichier TXT et MD (Hauts-de-France)
     try:
+        hdf_src_content = f"# REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE ({today_str})\n\n{user_prompt_hdf}"
         with open("sources_raw_hdf.txt", "w", encoding="utf-8") as f_src_hdf:
-            f_src_hdf.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE ({today_str}) ===\n\n{user_prompt_hdf}")
+            f_src_hdf.write(hdf_src_content)
+        with open("sources_raw_hdf.md", "w", encoding="utf-8") as f_src_hdf_md:
+            f_src_hdf_md.write(hdf_src_content)
+
         os.makedirs("public", exist_ok=True)
         with open(os.path.join("public", "sources_hdf.txt"), "w", encoding="utf-8") as f_pub_hdf:
-            f_pub_hdf.write(f"=== REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE ({today_str}) ===\n\n{user_prompt_hdf}")
-        print("Fichiers TXT de sources brutes HDF générés avec succès : sources_raw_hdf.txt & ./public/sources_hdf.txt")
+            f_pub_hdf.write(hdf_src_content)
+        with open(os.path.join("public", "sources_hdf.md"), "w", encoding="utf-8") as f_pub_hdf_md:
+            f_pub_hdf_md.write(hdf_src_content)
+        print("Fichiers TXT/MD de sources brutes HDF générés avec succès : sources_raw_hdf.txt, sources_raw_hdf.md & ./public/sources_hdf.md")
     except Exception as e_txt_hdf:
-        print("Notice: Erreur écriture TXT sources HDF :", e_txt_hdf)
+        print("Notice: Erreur écriture TXT/MD sources HDF :", e_txt_hdf)
 
     response_hdf = call_llm(system_prompt_hdf, user_prompt_hdf)
     if not response_hdf:
@@ -2551,12 +2563,9 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     public_dir = "public"
     os.makedirs(public_dir, exist_ok=True)
 
-    nav_nat = '<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, ui-sans-serif, sans-serif; font-size:14px; font-weight:700; border-bottom:3px solid #1ea7c9; display:flex; justify-content:center; align-items:center; gap:15px; flex-wrap:wrap;"><span style="opacity:0.85; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">🌐 Navigation bulletins en ligne :</span><a href="index.html" style="color:white; text-decoration:none; padding:7px 16px; background:#1565d8; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🇫🇷 Bulletin National</a><a href="hdf.html" style="color:white; text-decoration:none; padding:7px 16px; background:rgba(255,255,255,0.12); border-radius:8px; border:1px solid rgba(255,255,255,0.2);">📍 Hauts-de-France</a></div>'
+    nav_nat = '<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, ui-sans-serif, sans-serif; font-size:14px; font-weight:700; border-bottom:3px solid #1ea7c9; display:flex; justify-content:center; align-items:center; gap:12px; flex-wrap:wrap;"><span style="opacity:0.85; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">🌐 Navigation bulletins & sources :</span><a href="index.html" style="color:white; text-decoration:none; padding:7px 16px; background:#1565d8; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🇫🇷 Bulletin National</a><a href="hdf.html" style="color:white; text-decoration:none; padding:7px 16px; background:rgba(255,255,255,0.12); border-radius:8px; border:1px solid rgba(255,255,255,0.2);">📍 Hauts-de-France</a><a href="national.md" download style="color:white; text-decoration:none; padding:7px 14px; background:#23936b; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📥 Bulletin Nat (.md)</a><a href="sources_national.md" target="_blank" style="color:white; text-decoration:none; padding:7px 14px; background:#d97706; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📄 Sources Nat (.md)</a><a href="sources_hdf.md" target="_blank" style="color:white; text-decoration:none; padding:7px 14px; background:#d97706; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📄 Sources HDF (.md)</a></div>'
 
-    nav_hdf = '<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, ui-sans-serif, sans-serif; font-size:14px; font-weight:700; border-bottom:3px solid #1ea7c9; display:flex; justify-content:center; align-items:center; gap:15px; flex-wrap:wrap;"><span style="opacity:0.85; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">🌐 Navigation bulletins en ligne :</span><a href="index.html" style="color:white; text-decoration:none; padding:7px 16px; background:rgba(255,255,255,0.12); border-radius:8px; border:1px solid rgba(255,255,255,0.2);">🇫🇷 Bulletin National</a><a href="hdf.html" style="color:white; text-decoration:none; padding:7px 16px; background:#1565d8; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);">📍 Hauts-de-France</a></div>'
-
-    nav_nat = nav_nat.replace('</a></div>', '</a><a href="national.md" download style="color:white; text-decoration:none; padding:7px 16px; background:#23936b; border-radius:8px; border:1px solid rgba(255,255,255,0.2); margin-left:15px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📥 Télécharger en .md (pour ChatGPT)</a></div>')
-    nav_hdf = nav_hdf.replace('</a></div>', '</a><a href="hdf.md" download style="color:white; text-decoration:none; padding:7px 16px; background:#23936b; border-radius:8px; border:1px solid rgba(255,255,255,0.2); margin-left:15px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📥 Télécharger en .md (pour ChatGPT)</a></div>')
+    nav_hdf = '<div style="background:#0d2f4f; padding:12px 20px; text-align:center; color:white; font-family:Inter, ui-sans-serif, sans-serif; font-size:14px; font-weight:700; border-bottom:3px solid #1ea7c9; display:flex; justify-content:center; align-items:center; gap:12px; flex-wrap:wrap;"><span style="opacity:0.85; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">🌐 Navigation bulletins & sources :</span><a href="index.html" style="color:white; text-decoration:none; padding:7px 16px; background:rgba(255,255,255,0.12); border-radius:8px; border:1px solid rgba(255,255,255,0.2);">🇫🇷 Bulletin National</a><a href="hdf.html" style="color:white; text-decoration:none; padding:7px 16px; background:#1565d8; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);">📍 Hauts-de-France</a><a href="hdf.md" download style="color:white; text-decoration:none; padding:7px 14px; background:#23936b; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📥 Bulletin HDF (.md)</a><a href="sources_hdf.md" target="_blank" style="color:white; text-decoration:none; padding:7px 14px; background:#d97706; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📄 Sources HDF (.md)</a><a href="sources_national.md" target="_blank" style="color:white; text-decoration:none; padding:7px 14px; background:#d97706; border-radius:8px; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.15);">📄 Sources Nat (.md)</a></div>'
 
     web_html_nat = html.replace('<body>', '<body>\n' + nav_nat)
     web_html_hdf = html_hdf.replace('<body>', '<body>\n' + nav_hdf)
