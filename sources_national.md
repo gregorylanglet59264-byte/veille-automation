@@ -313,12 +313,12 @@ pourrait s'étendre à d'autres régions.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
+• Infoclimat Direct : la température de votre habitat aux 4 saisons
+• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
+• Infoclimat Direct : A Ciel Ouvert
+• Infoclimat Direct : Etude empirique du réchauffement climatique &#xE0; travers différents paramètres : l'exemple de Nice
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -326,9 +326,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 5 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Alternance d'un temps chaud avec une brève accalmie en milieu de semaine 1, suivie d'une vague de chaleur intense et durable en semaine 2, potentiellement la 5ème de l'été..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages forts lundi 3, chaleur marquée vendredi-dimanche notamment au sud..
+Températures attendues précédemment : Forte chaleur dimanche sur la moitié nord, orages possibles sur l'ouest en fin de journée..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -541,16 +541,6 @@ GFS s'entête à voir un enfoncement plus prononcée dans le golfe de Gascogne p
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: babe
-Message:
-Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
-	Modifié hier à 13:21 par babe
-								1
-								1
-								1
-
-=======================
-
 Auteur: Golemancer
 Message:
 il y a 1 minute, babe a dit :
@@ -709,7 +699,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié il y a 9 heures par Arkus
+	Modifié il y a 11 heures par Arkus
 								1
 								2
 
@@ -757,9 +747,9 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié il y a 6 heures par Arkus
-								16
-								15
+	Modifié il y a 8 heures par Arkus
+								20
+								17
 								2
 
 =======================
@@ -782,4 +772,16 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 53 minutes par mathias
+	Modifié il y a 2 heures par mathias
+
+=======================
+
+Auteur: Arkus
+Message:
+Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :
+								2
+								1
+								1
+								1
+								6
+								2
