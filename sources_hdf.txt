@@ -778,4 +778,4 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 52 minutes par mathias
+	Modifié il y a 55 minutes par mathias

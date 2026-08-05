@@ -313,12 +313,12 @@ pourrait s'étendre à d'autres régions.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps aux Etats-Unis.
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Incendies 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -782,4 +782,4 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 52 minutes par mathias
+	Modifié il y a 55 minutes par mathias
