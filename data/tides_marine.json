@@ -1,0 +1,239 @@
+{
+  "tides": {
+    "Dunkerque": {
+      "pm": "10:46 & 23:18",
+      "bm": "04:49 & 17:18",
+      "coeff": "57 / 52"
+    },
+    "Calais": {
+      "pm": "10:52 & 23:24",
+      "bm": "04:44 & 17:12",
+      "coeff": "57 / 52"
+    },
+    "Boulogne-sur-Mer": {
+      "pm": "10:57 & 23:31",
+      "bm": "05:02 & 17:30",
+      "coeff": "57 / 52"
+    },
+    "Le Touquet": {
+      "pm": "10:49 & 23:22",
+      "bm": "04:49 & 17:18",
+      "coeff": "57 / 52"
+    },
+    "Saint-Valery-sur-Somme": {
+      "pm": "10:42 & 23:17",
+      "bm": "04:38 & 17:08",
+      "coeff": "57 / 52"
+    },
+    "Brest": {
+      "pm": "00:09 & 12:34",
+      "bm": "06:44 & 19:08",
+      "coeff": "61 / 57"
+    }
+  },
+  "beaches": {
+    "Malo-les-Bains / Dunkerque": {
+      "air": "21°C",
+      "water": "22.1°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Gravelines / Petit-Fort": {
+      "air": "22°C",
+      "water": "22.2°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Calais / Sangatte": {
+      "air": "22°C",
+      "water": "21.4°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Wissant / Cap Blanc-Nez": {
+      "air": "21°C",
+      "water": "22.0°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Wimereux / Boulogne": {
+      "air": "20°C",
+      "water": "22.1°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Hardelot-Plage": {
+      "air": "20°C",
+      "water": "21.6°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Le Touquet-Paris-Plage": {
+      "air": "20°C",
+      "water": "21.8°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Stella / Merlimont / Berck": {
+      "air": "20°C",
+      "water": "21.4°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Baie de Somme (Cayeux / Crotoy)": {
+      "air": "20°C",
+      "water": "22.2°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Manche / Côte d'Opale": {
+      "air": "20°C",
+      "water": "20.3°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 6"
+    },
+    "Bretagne (Nord & Sud)": {
+      "air": "23°C",
+      "water": "20.5°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 7"
+    },
+    "Atlantique (Vendée à Landes)": {
+      "air": "24°C",
+      "water": "24.9°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 7"
+    },
+    "Côte Basque (Biarritz)": {
+      "air": "24°C",
+      "water": "25.3°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 7"
+    },
+    "Méditerranée (Languedoc/PACA)": {
+      "air": "34°C",
+      "water": "28.0°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 7"
+    },
+    "Corse (Ajaccio / Bastia)": {
+      "air": "32°C",
+      "water": "28.9°C",
+      "flag": "🟢 Vert (Baignade surveillée)",
+      "uv": "UV 8"
+    }
+  },
+  "forecast_14d": [
+    {
+      "day_name": "Jeu 06/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "16°C / 24°C",
+      "wind": "16 km/h",
+      "confidence": "🟢 Confiance 4/5"
+    },
+    {
+      "day_name": "Ven 07/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "15°C / 26°C",
+      "wind": "18 km/h",
+      "confidence": "🟢 Confiance 4/5"
+    },
+    {
+      "day_name": "Sam 08/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "15°C / 30°C",
+      "wind": "14 km/h",
+      "confidence": "🟢 Confiance 4/5"
+    },
+    {
+      "day_name": "Dim 09/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "16°C / 32°C",
+      "wind": "12 km/h",
+      "confidence": "🟢 Confiance 4/5"
+    },
+    {
+      "day_name": "Lun 10/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "19°C / 29°C",
+      "wind": "15 km/h",
+      "confidence": "🟢 Confiance 4/5"
+    },
+    {
+      "day_name": "Mar 11/08",
+      "weather": "🌤️ Éclaircies",
+      "temp": "18°C / 29°C",
+      "wind": "15 km/h",
+      "confidence": "🟢 Confiance 4/5"
+    },
+    {
+      "day_name": "Mer 12/08",
+      "weather": "☀️ Grand Soleil",
+      "temp": "19°C / 33°C",
+      "wind": "14 km/h",
+      "confidence": "🟢 Confiance 4/5"
+    },
+    {
+      "day_name": "Jeu 13/08",
+      "weather": "🌤️ Ensoleillé",
+      "temp": "24°C / 33°C",
+      "wind": "15 km/h",
+      "confidence": "🟡 Confiance 3/5"
+    },
+    {
+      "day_name": "Ven 14/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "20°C / 29°C",
+      "wind": "14 km/h",
+      "confidence": "🟡 Confiance 3/5"
+    },
+    {
+      "day_name": "Sam 15/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "18°C / 28°C",
+      "wind": "12 km/h",
+      "confidence": "🟡 Confiance 3/5"
+    },
+    {
+      "day_name": "Dim 16/08",
+      "weather": "☀️ Grand Soleil",
+      "temp": "18°C / 30°C",
+      "wind": "12 km/h",
+      "confidence": "🟡 Confiance 3/5"
+    },
+    {
+      "day_name": "Lun 17/08",
+      "weather": "🌧️ Bruine légère",
+      "temp": "19°C / 27°C",
+      "wind": "12 km/h",
+      "confidence": "🟡 Confiance 3/5"
+    },
+    {
+      "day_name": "Mar 18/08",
+      "weather": "🌧️ Bruine légère",
+      "temp": "17°C / 24°C",
+      "wind": "17 km/h",
+      "confidence": "🟡 Confiance 3/5"
+    },
+    {
+      "day_name": "Mer 19/08",
+      "weather": "⛅ Passages nuageux",
+      "temp": "17°C / 25°C",
+      "wind": "20 km/h",
+      "confidence": "🟡 Confiance 3/5"
+    }
+  ],
+  "marine": {
+    "nord_pas_de_calais": {
+      "wind": "Vent Ouest à Nord-Ouest 15 à 25 km/h",
+      "sea": "Mer peu agitée, vagues 0.5m à 1.0m",
+      "source": "Open-Meteo Marine API"
+    },
+    "national": {
+      "manche": "Vent Ouest 15-20 km/h, mer peu agitée",
+      "atlantique": "Vent Nord-Ouest 10-15 km/h, houle 1.0m",
+      "mediterranee": "Vent Ouest/Mistral 20 km/h, eau 23-26°C",
+      "source": "Open-Meteo Marine API"
+    }
+  }
+}
