@@ -106,7 +106,7 @@ def call_llm(system_prompt, user_prompt, max_retries=3):
         "Authorization": f"Bearer {openrouter_key}"
     }
     payload = {
-        "model": "deepseek/deepseek-v4-flash",
+        "model": "deepseek/deepseek-v4-flash-0731",
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -114,7 +114,7 @@ def call_llm(system_prompt, user_prompt, max_retries=3):
     }
     
     for attempt in range(1, max_retries + 1):
-        print(f"[LLM] Tentative {attempt}/{max_retries} — DeepSeek V4 Flash via OpenRouter...")
+        print(f"[LLM] Tentative {attempt}/{max_retries} — DeepSeek V4 Flash 0731 via OpenRouter...")
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=120) as response:
