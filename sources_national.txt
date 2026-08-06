@@ -15,61 +15,56 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 06/08/2026 12:30
+Emis le : 06/08/2026 16:45
 
 Vigilance :
 Aujourd'hui et demain, Paris et sa petite couronne sont en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 12h :
-A Paris-Montsouris : température de 21 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1024 hPa.
-Au Jardin du Luxembourg : température de 21 degrés.
+Aujourd'hui on observait à 16h :
+A Paris-Montsouris : température de 24 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1023 hPa.
+Au Jardin du Luxembourg : température de 25 degrés.
 
 Prévisions pour les tout prochains jours :
 
-• Pour cet après-midi :
-Le temps est ensoleillé tout l'après-midi.
-Vent de Nord-Ouest, modéré.
-Températures maximales : entre 26 et 29 degrés.
-
-• Pour la nuit prochaine :
-Le ciel est clair toute la nuit.
-En début de nuit, vent de Nord, modéré ; puis faiblissant.
-Températures minimales : entre 13 et 15 degrés.
+• Pour cette nuit :
+Le temps est calme et propice à l'observation des étoiles.
+Vent de Nord modéré, en début de nuit ; puis s'atténuant.
+Températures minimales : comprises entre 13 et 15 degrés.
 
 • Pour demain vendredi 07 en journée et la nuit suivante :
-Le soleil domine largement du matin au soir. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.
-Vent de Nord-Est, modéré, soufflant à l'est, à la tombée du jour ; et sur la Seine-Saint-Denis, en milieu de nuit.
-Températures maximales pour le jour : de 27 à 28 degrés.
-Températures minimales pour la nuit suivante : de 15 à 17 degrés.
+L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.
+Vent de Nord-Est, modéré, soufflant sur le Val de Marne, à la tombée du jour ; et sur la Seine-Saint-Denis, en milieu de nuit.
+Températures maximales pour le jour : comprises entre 27 et 28 degrés.
+Températures minimales pour la nuit suivante : entre 15 et 17 degrés.
 
 • Pour la journée de samedi 08 et la nuit suivante :
-Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est clair toute la nuit.
 Vent faible, variable.
-Températures maximales pour le jour : comprises entre 30 et 32 degrés.
+Températures maximales pour le jour : entre 30 et 32 degrés.
 Températures minimales pour la nuit suivante : de 17 à 19 degrés.
 
 • Pour la journée de dimanche 09 :
 Le soleil règne en maître du matin au soir.
-En fin d'après-midi, établissement d'un vent d'Ouest, souvent modéré.
-Températures maximales : 33 degrés. Ces températures se situent au-dessus des valeurs de saison.
+En fin d'après-midi, établissement d'un vent d'Ouest, généralement modéré.
+Températures maximales : 33 degrés. Ces températures sont au-dessus des valeurs de saison.
 
 • Pour lundi 10 et mardi 11 :
-Beau temps sec et bien ensoleillé.
-Mardi après-midi et en fin de journée, vent d'Est-Nord-Est, modéré par endroits.
-Températures minimales : de 17 à 19 degrés.
-Températures maximales : comprises entre 30 et 32 degrés.
+Le soleil brille généreusement.
+Vent modéré sur une grande moité ouest, de Nord-Nord-Ouest lundi après-midi et en fin de journée ; et de Nord-Est, mardi après-midi et en fin de journée.
+Températures minimales : voisines de 18 degrés.
+Températures maximales : proches de 31 degrés.
 
 • Pour mercredi 12 et jeudi 13 :
-Le soleil brille sans partage.
-Jeudi après-midi et en fin de journée, vent de Nord-Ouest modéré, sur une grande moité ouest.
+Beau temps sec et bien ensoleillé.
+Jeudi après-midi et en fin de journée, vent de Nord-Ouest, souvent modéré.
 Températures minimales : entre 18 et 20 degrés.
 Températures maximales : proches de 36 degrés. Ces températures sont bien au-dessus des valeurs normalement observées.
 
 • Pour vendredi 14 et samedi 15 :
-Soleil et ciel bleu prédominent.
-Vent de Nord-Ouest temporairement modéré, sur une grande moité ouest.
-Températures minimales : stables.
+Le soleil brille sans partage.
+Vent de Nord-Ouest, localement modéré, faiblissant temporairement.
+Températures minimales : en baisse sur le nord.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===
@@ -180,63 +175,58 @@ Températures minimales : en baisse autour de l'estuaire de la Gironde, sur l'ag
 Températures maximales : en baisse autour de l'estuaire de la Gironde ainsi que sur la majeure partie sud du département.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 06/08/2026 12:30
+Emis le : 06/08/2026 16:45
 
 Vigilance :
 Attention, aujourd'hui et demain, le département du Rhône est en vigilance jaune pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 12h :
-A Lyon : température de 29 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1020 hPa.
-Aux Sauvages : température de 25 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 35 km/h.
-A Brindas : température de 29 degrés.
+Aujourd'hui on observait à 16h :
+A Lyon : température de 32 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 30 km/h, pression niveau mer 1018 hPa.
+Aux Sauvages : température de 28 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 40 km/h.
+A Brindas : température de 31 degrés.
 
 Prévisions pour les tout prochains jours :
 
-• Pour cet après-midi :
-Le soleil règne en maître tout l'après-midi.
-Vent de Nord à Nord-Ouest, généralement modéré.
-Températures maximales : de 29 à 32 degrés, et 33 degrés en agglomération lyonnaise.
-
-• Pour la nuit prochaine :
-Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+• Pour cette nuit :
+Le ciel est bien étoilé.
 Vent généralement modéré, de Nord à Nord-Ouest.
-Températures minimales : comprises entre 17 et 19 degrés, et 15 degrés dans les monts du Lyonnais.
+Températures minimales : entre 17 et 19 degrés, et 15 degrés dans les monts du Lyonnais.
 
 • Pour demain vendredi 07 en journée et la nuit suivante :
-La journée est ensoleillée, avec tout au plus quelques nuages très discrets. Pour la nuit : Le ciel est clair toute la nuit.
+L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
 En journée et jusqu'en milieu de nuit, vent de Nord généralement, modéré ; puis faiblissant.
-Températures maximales pour le jour : de 29 à 32 degrés.
+Températures maximales pour le jour : entre 29 et 32 degrés.
 Températures minimales pour la nuit suivante : autour de 16 à 19 degrés, et 14 degrés dans les monts du Lyonnais.
 
 • Pour la journée de samedi 08 et la nuit suivante :
 La journée est ensoleillée. Il faut attendre la fin d'après-midi, pour voir le soleil voilé par des nuages, au confluent Brévenne Turdine Azergues ainsi que des monts du Lyonnais à Givors. Pour la nuit : Le ciel est souvent étoilé. En fin de nuit, des orages accompagnés de pluies se forment par places sur les coteaux du Lyonnais ainsi qu'au confluent Brévenne Turdine Azergues.
 Vent variable, faible.
-Températures maximales pour le jour : entre 32 et 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées.
-Températures minimales pour la nuit suivante : comprises entre 19 et 22 degrés.
+Températures maximales pour le jour : de 32 à 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées.
+Températures minimales pour la nuit suivante : de 19 à 22 degrés.
 
 • Pour la journée de dimanche 09 :
 Quelques périodes ensoleillées se produisent. Cependant, le ciel est menaçant et des orages sont probables.
-En début d'après-midi, vent s'établissant au Sud-Ouest modéré, en région lyonnaise ; puis atténuation.
-Températures maximales : entre 33 et 36 degrés, et entre 30 et 31 degrés sur le relief.
+En début d'après-midi, vent s'orientant au Sud-Ouest modéré, en région lyonnaise ; atténuation ensuite.
+Températures maximales : comprises entre 33 et 36 degrés, et comprises entre 30 et 31 degrés sur le relief.
 
 • Pour lundi 10 et mardi 11 :
 Risque de pluie ou d'averses de lundi matin jusqu'en fin de journée.
-Vent variable, faible.
-Températures minimales : entre 18 et 21 degrés, et 17 degrés dans les monts du Lyonnais.
-Températures maximales : de 31 à 34 degrés, et 30 degrés dans le Beaujolais.
+Vent faible, variable.
+Températures minimales : de 18 à 21 degrés, et 17 degrés dans les monts du Lyonnais.
+Températures maximales : comprises entre 32 et 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées.
 
 • Pour mercredi 12 et jeudi 13 :
-Beau temps sec et bien ensoleillé.
-Vent faible, variable.
-Températures minimales : comprises entre 18 et 21 degrés.
-Températures maximales : entre 34 et 37 degrés. Ces températures sont bien au-dessus des valeurs de saison.
+Dans les monts du Lyonnais ainsi qu'au confluent Brévenne Turdine Azergues, temps pluvieux de jeudi à la mi-journée jusqu'en fin de journée. Sur les autres régions, beau temps sec et bien ensoleillé.
+Vent variable, faible.
+Températures minimales : de 19 à 22 degrés, et 18 degrés dans les monts du Lyonnais.
+Températures maximales : entre 35 et 38 degrés. Ces températures se situent bien au-dessus des valeurs normalement observées.
 
 • Pour vendredi 14 et samedi 15 :
-Temps plutôt ensoleillé, en dépit de quelques passages nuageux, risque de pluie ou d'averses temporaire.
-Vent variable, faible.
-Températures minimales : en hausse dans les monts du Lyonnais, en Val de Saône ainsi qu'en agglomération lyonnaise.
-Températures maximales : en baisse dans les monts du Lyonnais.
+Soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Vent faible, variable.
+Températures minimales : en hausse en Val de Saône.
+Températures maximales : en baisse sauf en région lyonnaise.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
 Emis le : 06/08/2026 16:45
@@ -321,12 +311,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Vigilance Météo France
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
-• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Vigilance Météo France
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
