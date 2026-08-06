@@ -1,125 +1,115 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Jeudi 6 Août 2026
-**Période :** Semaine 1 (Du Jeudi 6 au Dimanche 9 Août 2026) & Semaine 2 (Du lundi 10 au dimanche 16 août 2026)
+**Période :** Semaine 1 (Du Jeudi 6 au Dimanche 9 Août 2026) & Semaine 2 (Du Lundi 10 au Dimanche 16 Août 2026)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Élevé — *Fort consensus sur la tendance sèche et chaude pour les 15 jours.*
-- **Fiabilité du scénario majoritaire :** Canicule en deux temps — *Première semaine modérément chaude, deuxième semaine franchement caniculaire.*
+- **Consensus des modèles :** Élevé — *Accord fort sur la canicule, mais divergence sur l’intensité maximale.*
+- **Fiabilité du scénario majoritaire :** Canicule confirmée — *Scénario principal : vague de chaleur intense du 12 au 14 août, suivie d’une lente atténuation.*
 - **Stabilité des cartes/scénarios :** 6 / 106 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Modéré — *Incertitudes sur l'intensité du pic et la date de la baisse.*
+- **Niveau d'incertitude global :** Modérée — *Incertitudes sur les valeurs maximales (37°C ou 35°C ?) et la durée précise de la canicule.*
 
 ## 🗓️ SEMAINE 1 : Du Jeudi 6 au Dimanche 9 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Soleil généreux : Le temps sec et ensoleillé domine après une brève parenthèse orageuse.
-2. Température en hausse : Les maximales grimpent de 25°C vendredi à 30-33°C dimanche.
-3. Aucune précipitation : La région reste à l'écart des orages, temps sec.
-4. Vent modéré : Vent de nord-ouest à nord-est, rafales jusqu'à 40 km/h sur le littoral.
-5. Nuits fraîches : Minimales entre 7 et 15°C selon les secteurs, fraîcheur relative.
+1. Retour du beau temps : Temps sec et ensoleillé s’installe sur l’ensemble des Hauts‑de‑France après le passage orageux de lundi.
+2. Nuits fraîches en intérieur : Minimales parfois basses (7‑8°C dans l’Aisne, 8‑11°C dans la Somme), avant une remontée progressive.
+3. Chaleur dimanche : Pic de chaleur attendu avec 30‑33°C dans les terres, 27°C sur le littoral, au‑dessus des normales.
+4. Vent modéré samedi : Vent de Nord‑Est se lève sur le littoral (Flandre, Côte d’Opale), rafales jusqu’à 35 km/h, puis s’atténue.
+5. Aucune précipitation : Ciel dégagé ou peu nuageux, absence de pluie, hygrométrie basse.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Temps sec et ensoleillé sur l'ensemble de la région HDF.
-- Hausse des températures vers un pic dimanche.
-- Vent modéré de secteur nord à nord-est.
-- Nuits assez fraîches en début de période, se réchauffant ensuite.
+• Temps sec et ensoleillé sur toute la période.
+• Hausse des températures jusqu’à dimanche avec pic de chaleur.
+• Vent modéré de secteur Nord‑Est samedi sur le littoral.
 **Points de divergence :**
-- Intensité du pic de chaleur dimanche : GFS plus chaud (33°C) que CEP et ICON (30-32°C).
-- Timing exact de la hausse vendredi/samedi.
+• Intensité du pic de chaleur dimanche : GFS plus chaud que les autres modèles.
+• Possibilité de voile nuageux samedi selon Météo‑France (Nord, Pas‑de‑Calais) vs ciel clair ailleurs.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (actif) | Anticyclone des Açores s'étendant vers l'Europe de l'Ouest, temps sec et chaud pour les HDF avec un pic marqué dimanche. | Hausse progressive des températures, pic dimanche avec maximales jusqu'à 33°C. | Toute la région HDF, accent sur l'intérieur des terres. | Élevée (80-90%) | GFS voit un pic de chaleur plus marqué que les autres modèles, avec des températures localement plus élevées, mais la tendance générale est partagée. |
-| **CEP (ECMWF)** (actif) | Même synoptique anticyclonique, temps sec et ensoleillé, avec un pic de chaleur moins intense que GFS. | Hausse modérée des températures, maximales de 28-32°C dimanche. | Toute la région HDF. | Modérée (60-70%) | Le CEP reste plus prudent sur l'intensité de la chaleur, mais valide le scénario sec. |
-| **ICON** (actif) | Similaire à CEP, anticyclone dominant, temps calme et sec. | Temps stable, peu de vent, températures en légère hausse. | HDF. | Modérée (60-70%) | ICON ne montre pas d'écart significatif par rapport à la tendance générale. |
-| **Arome** (actif) | Prévisions à courte échéance, temps ensoleillé et sec, avec un vent modéré. | Conditions agréables, ensoleillement maximal. | HDF. | Modérée (60-70%) | Arome confirme les conditions calmes et ensoleillées pour le week-end. |
+| **GFS et ECMWF (CEP)** (Documenté) | Les modèles s’accordent sur un temps sec, anticyclonique, avec une hausse thermique progressive. GFS montre un pic de chaleur plus marqué dimanche, tandis que l’ECMWF est plus modéré mais reste chaud. | Temps chaud, ensoleillé, vent modéré de Nord‑Est. Pas de précipitations. | Toute la région Hauts‑de‑France, avec un gradient littoral‑intérieur notable. | Modérée (60‑70%) : les discussions forum sont peu détaillées pour le HDF, mais les bulletins officiels confirment. | GFS anticipe un possible enfoncement dépressionnaire dans le golfe de Gascogne dimanche, source de chaleur plus forte, mais non repris par les autres modèles. L’ECMWF reste plus anticyclonique. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ensoleillé, ciel clair | Min 8-15°C, Max 23-32°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Pic de chaleur dimanche encore à affiner selon modèle |
-| **Pas-de-Calais (62)** | Très ensoleillé, quelques voiles d'altitude samedi | Min 10-15°C, Max 23-33°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures littorales plus fraîches (27°C près de la Mer du Nord) |
-| **Somme (80)** | Soleil dominant, quelques nuages fins samedi | Min 8-13°C, Max 23-32°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Nuages d'altitude samedi pouvant temporairement atténuer le soleil |
-| **Oise (60)** | Ensoleillé, voile nuageux samedi matin puis franc | Min 7-13°C, Max 26-33°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Intensité du pic dimanche légèrement plus marquée que dans le Nord |
-| **Aisne (02)** | Soleil généreux, quelques nuages discrets samedi après-midi | Min 7-13°C, Max 24-33°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures plus fraîches en Thiérache |
+| **Nord (59)** | Ensoleillé, ciel dégagé, nuages voilés samedi | Min 8‑15°C (Avesnois 8‑9°C, Flandre maritime 15°C), Max 23‑32°C (pic dimanche 32°C dans l’intérieur, 27°C Flandre maritime) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Flandre maritime plus fraîche, vent plus fort samedi |
+| **Pas-de-Calais (62)** | Très ensoleillé, voile nuageux samedi | Min 10‑13°C, Max 23‑33°C (pic dimanche 33°C dans l’intérieur, 27°C Mer du Nord) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Littoral Manche plus frais et venté |
+| **Somme (80)** | Soleil dominant, voile samedi | Min 8‑13°C, Max 23‑32°C (pic dimanche 32°C dans l’intérieur, 29°C littoral picard) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Secteur littoral plus frais, vent plus fort |
+| **Oise (60)** | Ensoleillé, voile temporaire samedi | Min 7‑13°C, Max 26‑33°C (pic dimanche 33°C) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Nuages bas possibles en début de nuit vendredi (Vexin) |
+| **Aisne (02)** | Ensoleillé, quelques nuages samedi après‑midi | Min 7‑13°C (Champagne crayeuse 7°C, Thiérache 13°C), Max 24‑33°C (pic dimanche 33°C) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Rafales plus marquées en fin de journée vendredi |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Du jeudi 6 au vendredi 7 août** : Temps calme et ensoleillé, températures agréables de 23-27°C.
-- **Samedi 8 août** : Ensoleillement un peu voilé, températures en hausse (26-30°C).
-- **Dimanche 9 août** : Plein soleil, pic de chaleur avec 30-33°C dans l'intérieur.
-- **Nuit de dimanche à lundi** : Nuit douce, minimales entre 13 et 18°C, chaleur persistante.
+- **Jeudi 6 soir – nuit** : Ciel clair, vent faible, températures en baisse (min 7‑15°C selon secteurs).
+- **Vendredi 7** : Ensoleillé toute la journée, max 23‑26°C, vent modéré de Nord‑Est.
+- **Samedi 8** : Voile nuageux le matin, puis soleil plus franc l’après‑midi, max 26‑29°C, vent de Nord modéré sur le littoral.
+- **Dimanche 9** : Plein soleil, très chaud, max 30‑33°C dans les terres, 27°C littoral, vent d’Ouest modéré.
 
 **Points solides :**
-- Temps sec et ensoleillé garanti pour toute la période.
-- Hausse progressive des températures vers un pic dimanche.
-- Vent modéré, sans risque de tempête.
+• Temps sec et ensoleillé pour toute la semaine 1.
+• Hausse des températures jusqu’à dimanche.
+• Absence de précipitations.
 
 **Points fragiles :**
-- Intensité exacte du pic de chaleur dimanche (écarts possibles de 2-3°C selon modèles).
-- Évolution du voile nuageux samedi sur la Somme et l'Oise.
+• Intensité exacte du pic de chaleur dimanche (GFS vs ECMWF).
+• Voile nuageux samedi : localisation précise (Nord, Pas‑de‑Calais, Somme).
 
 **À surveiller (prochains runs) :**
-- Prochains runs GFS et CEP pour affiner les maximales de dimanche.
-- Évolution du flux de nord-est en fin de week-end.
+• Prochains runs GFS et ECMWF pour confirmer le pic de dimanche et l’évolution de la canicule semaine 2.
 
 
-## 🗓️ SEMAINE 2 : Du lundi 10 au dimanche 16 août 2026
+## 🗓️ SEMAINE 2 : Du Lundi 10 au Dimanche 16 Août 2026
 ### 💡 Points clés de la semaine 2
-1. Nouvelle canicule en vue : Les modèles s'accordent sur une vague de chaleur intense à partir de mardi.
-2. Températures extrêmes : Des maximales de 33-37°C attendues dans l'intérieur entre mercredi et jeudi.
-3. Pas de pluie : Temps sec et ensoleillé, aucune précipitation significative.
-4. Nuits tropicales : Minimales élevées, entre 15 et 18°C, voire 18-20°C sur le littoral.
-5. rafraîchissement en fin de période : Possible baisse des températures à partir de vendredi/samedi.
+1. Canicule confirmée : Vague de chaleur intense en milieu de semaine, modélisée avec une forte confiance dès J‑7.
+2. Pic mercredi‑jeudi : Températures maximales de 33‑37°C dans l’intérieur, jusqu’à 37°C dans l’Aisne et l’Oise.
+3. Nuits tropicales : Minimales élevées (15‑18°C), inconfort nocturne, surtout en ville.
+4. Vent faible : Atmosphère lourde, peu de vent, sauf brise littorale.
+5. Rafraîchissement en fin de période : Baisse des températures vendredi‑samedi, mais encore chaud (26‑30°C).
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Vague de chaleur intense avec un pic mercredi 12 et jeudi 13 août.
-- Temps sec et ensoleillé sur toute la période.
-- Températures maximales élevées, avec des records possibles.
-- Nuits chaudes, surtout sur le littoral.
+• Canicule généralisée sur la région du 12 au 14 août.
+• Absence de précipitations.
+• Rafraîchissement progressif après le 14 août.
 **Points de divergence :**
-- Intensité exacte du pic : GFS plus chaud que CEP et ICON.
-- Date de début de la baisse en fin de semaine (vendredi ou samedi).
-- Possibilité d'orages sur le sud de la région en fin de période (faible signal).
+• Intensité exacte du pic : GFS légèrement plus chaud que l’ECMWF.
+• Timing de la baisse : certains modèles suggèrent un retour à la normale plus rapide, d’autres une chaleur persistante.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **CEP (ECMWF)** (actif) | Anticyclone puissant centré sur l'Europe centrale, advection d'air très chaud sur les HDF. | Canicule marquée de mercredi à jeudi, avec des températures de 35-37°C dans l'intérieur. | Toute la région, mais littoral un peu moins chaud. | Élevée (80-90%) | Les sorties récentes du CEP confirment un épisode caniculaire intense avec des anomalies de +6 à +8°C. |
-| **GFS** (actif) | Même synoptique, mais avec une intensité encore plus marquée, notamment jeudi. | Températures maximales atteignant 36-38°C dans le sud de la région. | HDF, surtout l'Oise et l'Aisne. | Élevée (80-90%) | GFS maintient un scénario très chaud, avec des pointes à 38°C possibles. |
-| **ICON** (actif) | Similaire à CEP, canicule de courte durée mais intense. | Chaleur forte, mais moins extrême que GFS. | HDF. | Modérée (60-70%) | ICON prévoit des maximales de 33-35°C, un peu plus modérées. |
+| **ECMWF (CEP) et GFS** (Documenté) | Scénario caniculaire très probable avec un pic de chaleur mercredi 12 et jeudi 13. Les deux modèles sont en accord sur une remontée d’air très chaud par le sud. La médiane de l’ensemble CEP pour Paris donne 36‑38°C. | Chaleur extrême, ciel dégagé, aucun signal de précipitations pour les Hauts‑de‑France. | Toute la région, particulièrement les départements intérieurs (Aisne, Oise, Somme, Nord, Pas‑de‑Calais). | Élevée (80‑90%) : les discussions forum sont nombreuses et détaillées, avec un consensus fort. | La canicule est ciblée depuis plus d’une semaine. Les modèles s’accordent sur une durée de 4‑5 jours de fortes chaleurs, avec une atténuation possible en fin de période. GFS est parfois plus chaud, mais l’écart est faible. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ensoleillé, ciel clair toute la semaine | Min 15-18°C, Max 26-33°C (pic 30-33°C mercredi/jeudi) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures littorales plus fraîches (26°C max en Flandre maritime) |
-| **Pas-de-Calais (62)** | Beau temps ensoleillé, voile nuageux possible en début de semaine | Min 14-18°C, Max 26-35°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Écart littoral-intérieur important (27°C sur les côtes de la Manche) |
-| **Somme (80)** | Soleil généreux, ciel clair | Min 14-15°C, Max 27-34°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Légère baisse attendue vendredi mais incertitude sur le timing |
-| **Oise (60)** | Ensoleillé, temps stable | Min 15-18°C, Max 29-35°C (pic à 35°C mercredi/jeudi) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Possibilité de 35°C localement, à confirmer |
-| **Aisne (02)** | Soleil dominant, quelques nuages d'altitude | Min 14-17°C, Max 28-37°C (pic à 37°C jeudi) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures très au-dessus des normales, records possibles |
+| **Nord (59)** | Ensoleillé, très chaud en milieu de semaine | Min 15‑18°C (Flandre maritime 18°C), Max 28‑36°C (pic mercredi‑jeudi 34‑36°C dans l’intérieur, 30°C Flandre maritime) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Gradient littoral‑intérieur marqué, incertitude sur la durée exacte de la canicule |
+| **Pas-de-Calais (62)** | Beau temps ensoleillé, caniculaire dans les terres | Min 14‑18°C (côtes Manche 18°C), Max 26‑35°C (pic mercredi‑jeudi 35°C bassin minier, 30°C Mer du Nord) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Littoral plus frais, vent de mer atténuant la chaleur |
+| **Somme (80)** | Soleil généreux, chaleur forte | Min 14‑15°C, Max 27‑34°C (pic mercredi‑jeudi 34°C dans l’intérieur) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Proximité littoral picard modère les maximales |
+| **Oise (60)** | Ensoleillé, caniculaire | Min 15‑18°C, Max 29‑35°C (pic mercredi‑jeudi 35°C, 32°C en Picardie verte) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Vallées plus fraîches localement |
+| **Aisne (02)** | Soleil éclatant, très chaud | Min 14‑17°C, Max 28‑37°C (pic mercredi‑jeudi 37°C dans le Sud du département) | elevee | Météo‑France XML, ECMWF, GFS, Guillaume Séchet | Zones de Thiérache et Vermandois légèrement moins chaudes |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 10 et mardi 11 août** : Temps ensoleillé, températures en hausse progressive, déjà chaud (28-31°C mardi).
-- **Mercredi 12 et jeudi 13 août** : Pic caniculaire, maximales de 33-37°C dans l'intérieur, très chaud.
-- **Vendredi 14 et samedi 15 août** : Encore très chaud mais début de baisse, retour progressif à des valeurs plus supportables.
-- **Dimanche 16 août** : Possible poursuite de la baisse, mais incertitude sur l'intensité.
+- **Lundi 10 – Mardi 11** : Temps ensoleillé, chaud (max 28‑31°C), vent modéré d’Ouest puis Est.
+- **Mercredi 12 – Jeudi 13** : Pic caniculaire : ciel dégagé, chaleur étouffante (max 33‑37°C selon secteurs), nuits chaudes.
+- **Vendredi 14 – Samedi 15** : Encore ensoleillé, mais baisse des températures (max 26‑30°C), vent d’Ouest modéré.
+- **Dimanche 16** : Incertitude : poursuite de la baisse ou maintien d’une chaleur modérée (max 24‑28°C).
 
 **Points solides :**
-- Canicule confirmée avec un pic mercredi/jeudi.
-- Temps sec et ensoleillé, aucune pluie.
-- Nuits chaudes, surtout en fin de semaine.
+• Canicule certaine du 12 au 14 août.
+• Absence de précipitations.
+• Rafraîchissement en fin de semaine.
 
 **Points fragiles :**
-- Intensité exacte des maximales (écart possible de 2-3°C selon modèles).
-- Date de la baisse des températures en fin de semaine (vendredi ou samedi).
-- Risque d'orages très faible mais non nul sur le sud de la région.
+• Valeurs maximales exactes du pic (37°C possible dans l’Aisne, mais peut‑être 35°C).
+• Date précise du début de la baisse (vendredi ou samedi ?).
 
 **À surveiller (prochains runs) :**
-- Prochains runs pour affiner le pic et la durée de la canicule.
-- Évolution de la dorsale anticyclonique après le 14 août.
+• Prochains runs ECMWF et GFS pour affiner le pic et la durée.
+• Modèles à haute résolution (AROME) pour détecter d’éventuels orages de chaleur (probabilité faible).
 
 
 ========================================
@@ -127,29 +117,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Les 15 prochains jours sur les Hauts-de-France sont dominés par une chaleur intense et durable. Après un week-end agréable et ensoleillé, une nouvelle canicule s'installe en milieu de deuxième semaine, avec un pic attendu mercredi 12 et jeudi 13 août. Les températures pourraient atteindre 37°C dans l'Aisne et l'Oise. Un possible rafraîchissement est envisagé en toute fin de période, mais les incertitudes persistent.
+Chaleur persistante avec un pic caniculaire en milieu de deuxième semaine, puis tendance à l’atténuation en fin de période.
 
 ### Période la plus fiable
-La première semaine (6-9 août) est la plus fiable, avec des conditions stables et prévisibles. La deuxième semaine présente une confiance modérée sur l'intensité exacte du pic caniculaire.
+Semaine 1 (plus stable, incertitude moindre sur le temps sec et la hausse thermique).
 
 ### Phénomènes récurrents
-Chaleur persistante avec une nouvelle vague caniculaire en milieu de deuxième semaine. Nuits chaudes récurrentes.
+Vagues de chaleur à répétition depuis juin, sécheresse des sols renforcée, absence de précipitations significatives.
 
 ### Principales incertitudes
-- Intensité exacte du pic de chaleur en semaine 2.
-- Timing du rafraîchissement en fin de période (peut-être repoussé).
-- Très faible risque orageux en fin de deuxième semaine.
+Intensité exacte du pic de chaleur en semaine 2, timing de la baisse, possibilité d’orages très localisés en fin de période.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur le début exact de la baisse des températures en fin de deuxième semaine (vendredi ou samedi).
-- **Localisation :** Doutes sur les zones les plus chaudes : bien que l'Oise et l'Aisne soient favorisées, l'étendue de la chaleur dans le Nord et le Pas-de-Calais reste à préciser.
-- **Intensité :** Doutes sur les maximales absolues : GFS plus élevé que CEP, avec une marge de 2-3°C.
-- **Informations manquantes :** Le risque d'orages en toute fin de deuxième semaine est peu documenté ; le signal est très faible mais existe.
-- **Modèles sous-documentés :** Les modèles à haute résolution (Arome, ICON-D2) sont peu commentés pour la semaine 2 ; seuls GFS et CEP sont largement discutés.
-- **Incertitudes images :** Les cartes d'anomalies thermiques pour la semaine 2 montrent des écarts très importants, mais leur fiabilité reste à confirmer avec les prochains runs.
+- **Timing/Chronologie :** Doutes sur la chronologie exacte du pic de chaleur : mercredi 12 ou jeudi 13 ? La baisse intervient‑elle vendredi ou samedi ?
+- **Localisation :** Localisation précise des maximales les plus fortes : l’Aisne et l’Oise sont favorisées, mais le Pas‑de‑Calais intérieur (bassin minier) pourrait aussi atteindre 35°C.
+- **Intensité :** Intensité réelle du pic : les modèles GFS et ECMWF divergent de 1‑2°C. La proximité de la Manche peut modérer les températures sur le littoral.
+- **Informations manquantes :** Peu d’informations sur l’état des sols et le risque de sécheresse (données BPSPC non détaillées dans les discussions). Les précipitations sont absentes, ce qui aggrave la sécheresse.
+- **Modèles sous-documentés :** Modèles ICON, Arome, ARPEGE peu commentés par les membres pour la région HDF. Les prévisions s’appuient principalement sur GFS et ECMWF.
+- **Incertitudes images :** Les cartes d’anomalies (CEP, GEFS) montrent des signaux forts, mais la résolution pour les Hauts‑de‑France est parfois grossière.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌤️ Bulletin météo Hauts-de-France : les 15 prochains jours s'annoncent chauds et secs ! Après des conditions estivales agréables ce week-end, une nouvelle canicule est attendue en milieu de semaine prochaine, avec des pointes à 37°C possibles dans l'Oise et l'Aisne. Restez prudents et hydratez-vous. #Météo #HautsdeFrance #Canicule
+🌡️ Bulletin météo Hauts‑de‑France : 2 semaines de chaleur et une canicule en vue ! Après un week‑end agréable, une nouvelle vague de chaleur s’annonce en milieu de semaine prochaine avec des pointes à 37°C dans l’Aisne et l’Oise. Restez prudents et hydratez‑vous ! #Météo #HautsdeFrance #Canicule #Semaine33

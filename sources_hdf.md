@@ -307,12 +307,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Les vagues de chaleur et canicules en France
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Vigilance Météo France
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -320,9 +320,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Période de 15 jours marquée par une chaleur intense et durable, avec un pic caniculaire en milieu de deuxième semaine, puis une possible atténuation en fin de période..
+Résumé général HDF précédent : Les 15 prochains jours sur les Hauts-de-France sont dominés par une chaleur intense et durable. Après un week-end agréable et ensoleillé, une nouvelle canicule s'installe en milieu de deuxième semaine, avec un pic attendu mercredi 12 et jeudi 13 août. Les températures pourraient atteindre 37°C dans l'Aisne et l'Oise. Un possible rafraîchissement est envisagé en toute fin de période, mais les incertitudes persistent..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé, vent modéré..
+Températures attendues précédemment : Hausse progressive des températures, pic dimanche avec maximales jusqu'à 33°C..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===

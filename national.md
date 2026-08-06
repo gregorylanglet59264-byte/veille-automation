@@ -1,127 +1,130 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Jeudi 6 Août 2026
-**Période :** Semaine 1 (Du Jeudi 6 au Dimanche 9 Août 2026) & Semaine 2 (Du Lundi 10 au Dimanche 16 Août 2026)
+**Période :** Semaine 1 (Du jeudi 6 au dimanche 9 août 2026) & Semaine 2 (Du lundi 10 au dimanche 16 août 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Élevé — *Accord quasi-unanime des modèles sur une canicule persistante et une nouvelle vague de chaleur.*
-- **Fiabilité du scénario majoritaire :** Canicule généralisée en deux actes — *Acte 1 : Orages le 9 août. Acte 2 : Retour de la canicule du 11 au 14 août.*
+- **Consensus des modèles :** Modéré — *Accord sur le chaud mais divergences sur les orages et le timing des pics.*
+- **Fiabilité du scénario majoritaire :** Canicule et chaleur intense — *Le scénario majoritaire est celui d'une nouvelle canicule généralisée.*
 - **Stabilité des cartes/scénarios :** 6 / 106 — *6 cartes sur 106 analysées*
-- **Niveau d'incertitude global :** Modérée (sur le timing fin de semaine 2) — *Le consensus est fort sur le fond (chaud), plus faible sur la forme (durée, intensité des orages).*
+- **Niveau d'incertitude global :** Forte pour les orages de dimanche, modérée pour les températures de la semaine 2. — *Les orages de dimanche restent le point d'incertitude principal.*
 
-## 🗓️ SEMAINE 1 : Du Jeudi 6 au Dimanche 9 Août 2026
+## 🗓️ SEMAINE 1 : Du jeudi 6 au dimanche 9 août 2026
 ### 💡 Points clés de la semaine 1
-1. Canicule persistante au Sud-Est : L'épisode de fortes chaleurs se maintient avec des températures dépassant les 35°C en journée et des nuits tropicales.
-2. Dégradation orageuse attendue : Un risque d'orages parfois forts se profile samedi soir et surtout dimanche, du sud-ouest au nord-est.
-3. Pic de chaleur samedi : Les températures pourraient atteindre un pic samedi sur une large moitié nord avant le passage orageux.
-4. Fraîcheur relative au Nord-Ouest : Les températures resteront plus supportables près de la Manche.
-5. Incertitude sur l'activité orageuse : La localisation et l'intensité des orages de dimanche restent à préciser, le risque de phénomènes violents (grêle, rafales) étant présent.
+1. Brève accalmie relative : Une pause temporaire avec des températures plus proches des normales jeudi et vendredi avant la remontée du mercure.
+2. Pic de chaleur samedi : Forte hausse des températures samedi avec des pointes à 35-38°C du sud-ouest au centre-est.
+3. Dégradation orageuse incertaine : Dimanche, un risque d'orages parfois violents se dessine du sud-ouest au nord-est, mais le scénario reste à affiner.
+4. Canicule persistante au sud-est : La Méditerranée reste en vigilance jaune canicule avec des températures stables très élevées (37°C à Marseille).
+5. Divergences modélisées : GFS insiste sur un enfoncement dépressionnaire plus marqué, tandis que les autres modèles modèrent l'ampleur de la dégradation.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-Convergence 1 : Accord sur un temps globalement estival avec un pic de chaleur samedi pour une large partie du pays.
-Convergence 2 : Consensus sur une dégradation orageuse active dimanche, du sud-ouest au nord-est.
-Convergence 3 : Maintien de conditions caniculaires et très chaudes sur le sud-est et la vallée du Rhône sans répit.
+- Retour d'un temps chaud à très chaud samedi et dimanche sur la majorité du pays.
+- Risque d'orages dimanche, avec un axe sud-ouest/nord-est.
+- Persistance de la canicule sur le sud-est avec des températures élevées de façon continue.
 **Points de divergence :**
-Divergence 1 : Le niveau du pic de chaleur samedi : GFS est plus agressif que le CEP sur la remontée des températures vers le nord.
-Divergence 2 : L'intensité des orages de dimanche : risque de phénomènes violents (grêle, rafales) plus ou moins marqué selon les modèles.
-Divergence 3 : Le timing précis de la dégradation, avec des modèles voyant un début samedi soir et d'autres dimanche en journée.
+- Timing et intensité de la dégradation orageuse : GFS plus dynamique, ECMWF plus modéré.
+- Localisation précise des orages : plutôt sud-ouest et centre ou débordement nord-est.
+- Niveau des températures : GFS plus chaud que les autres modèles.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (documenté) | GFS insiste sur un enfoncement dépressionnaire plus marqué dans le golfe de Gascogne pour dimanche, avec un pic de chaleur très fort remontant jusqu'aux frontières belges. Il est considéré comme excessif par les autres modèles. | Pic de chaleur intense samedi puis dégradation orageuse potentiellement marquée dimanche du sud-ouest au nord-est. | Grand Ouest, Centre, Nord, Nord-Est | Modérée (65%) | GFS est en décalage avec les autres modèles (CEP, ICON, GEM) sur la profondeur de la dépression, mais tous s'accordent sur une dégradation orageuse dimanche. |
-| **ECMWF / CEP** (documenté) | L'ensemble européen (CEP) et son déterministe prévoient une poussée de chaleur moins extrême que GFS, mais avec un pic de chaleur marqué samedi. Le timing de la dégradation orageuse est similaire. | Très fortes chaleurs samedi, puis orages parfois forts dimanche. | Sud-Ouest, Centre, Nord-Est | Élevée (85%) | Le CEP fait autorité. Les membres de l'ensemble sont bien groupés pour un scénario de chaleur puis d'orages. GFS est pour l'instant isolé avec son scénario plus chaud mais gagne en crédibilité. |
-| **AROME** (documenté) | AROME modélise un front de rafales potentiellement violent (rafales > 100 km/h) remontant du Centre au Nord-Est lundi (hors période). Il est très expressif sur le risque venteux. | Orages violents avec risque de rafales destructrices. | Centre, Nord-Est | Modérée (65%) | AROME est connu pour parfois surestimer les rafales, mais ICON-D2 envoie également un signal de vent. Le risque de phénomènes venteux est donc à surveiller. |
-| **ICON (D2)** (partiel) | ICON-D2, peu expressif habituellement sur le vent, envoie un signal de rafales pour la dégradation, corroborant AROME. | Orages avec rafales de vent. | Centre, Nord-Est | Faible (45%) | Modèle peu utilisé et peu fiable pour le vent, mais son signal est intéressant car il vient en appui d'AROME. |
+| **GFS** (déterministe et ensembles) | Pic de chaleur très marqué dimanche après un enfoncement dépressionnaire dans le golfe de Gascogne, avec orage possible. Jugé excessif par certains. | Très fortes chaleurs samedi-dimanche, orages potentiellement violents dimanche. | sud_ouest, centre, nord_est, ouest_atlantique | Élevée (85%) | GFS est jugé excessif par faycal sur l'enfoncement, mais sa vision d'un pic de chaleur est partagée par d'autres modèles. |
+| **ECMWF (CEP)** (déterministe et ensemble) | Remontée chaude samedi, possible dégradation orageuse dimanche, mais avec un timing et une intensité moins marqués que GFS. | Chaleur forte samedi, orages dimanche. | sud_ouest, centre, nord_est, sud_est_rhone | Élevée (85%) | L'ensemble CEP montre une dispersion modérée, avec une tendance haussière des températures. |
+| **Arôme** (déterministe) | Modélise un front de rafale du Centre au Nord-est lundi (déjà passé), et pour le week-end des orages localement forts. | Orages potentiellement violents avec rafales de vent. | centre, nord_est, sud_ouest | Modérée (65%) | Utilisé pour affiner le risque venteux, mais sa fiabilité sur le vent est discutée. |
+| **ICON (D2)** (déterministe) | Signal de vent et instabilité pour dimanche, mais resté silencieux auparavant. | Orages. | sud_ouest, centre | Faible (45%) | ICON a montré un signal de vent rare, mais sa confiance est faible. |
+| **GEM (Globe)** (déterministe) | Instabilité marquée du sud-ouest au centre-est dimanche. | Orages potentiellement forts. | sud_ouest, centre, nord_est | Modérée (65%) | GEM rejoint le scénario de dégradation, mais peu de détails. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Alternance d'éclaircies et de passages nuageux. Pic de chaleur samedi puis risque d'orages dimanche. | Maximales samedi proches de 30-32°C, retour à des valeurs plus modérées dimanche (22-25°C). | moderee | GFS, ECMWF, AROME | Sur la localisation et l'intensité des orages. |
-| **Nord** | Beau temps ensoleillé samedi. Dégradation orageuse possible dimanche avec un risque de rafales de vent. | Pic de chaleur samedi avec 33-35°C à Paris. Très forte baisse dimanche avec 25-27°C. | elevee | AROME, ICON-D2, ECMWF, GFS | Sur l'intensité des rafales associées aux orages. |
-| **Nord-Est** | Chaud et ensoleillé samedi. Orages possibles dimanche. | Maximales samedi entre 31 et 34°C, en baisse dimanche. | moderee | GFS, ECMWF | L'arrivée de la dégradation orageuse est incertaine dans l'est. |
-| **Ouest et Façade Atlantique** | Très ensoleillé et très chaud samedi. Temps lourd dimanche avec risques d'orages, notamment en Gironde. | Jusqu'à 37°C samedi dans l'intérieur, 23-29°C sur le littoral. Dimanche entre 32 et 35°C. | elevee | GFS, ECMWF, AROME | Sur le degré d'activité orageuse et la fraîcheur relative du littoral. |
-| **Centre** | Chaud et lourd samedi. Orages potentiellement forts dimanche. | Maximales samedi autour de 34-36°C. | moderee | AROME, GFS | Sur le potentiel venteux des orages. |
-| **Sud-Ouest** | Caniculaire ce week-end. Très fortes chaleurs samedi puis orages parfois forts dimanche. | Maximales samedi jusqu'à 37-38°C sur Toulouse. Dimanche encore 34-36°C avant les orages. | elevee | ECMWF, GFS, AROME, ICON | Sur la chronologie exacte de l'arrivée des orages dimanche. |
-| **Sud-Est et Vallée du Rhône** | Canicule persistante. Temps sec, ensoleillé et très chaud tout le week-end. | Maximales entre 35 et 38°C. Nuits tropicales (minima > 20°C). Vigilance jaune canicule. | elevee | ECMWF, GFS | La chaleur ne faiblit pas, seul le vent peut apporter un peu de répit. |
-| **Méditerranée et Corse** | Canicule installée. Soleil écrasant, chaleur étouffante, et sécheresse. | Maximales de 34 à 37°C, jusqu'à 37°C à Marignane. Nuits très chaudes (22-25°C en bord de mer). | elevee | ECMWF, GFS, CEP | Aucune incertitude sur le caractère caniculaire. |
+| **Nord-Ouest** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Nord** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Nord-Est** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Ouest et Façade Atlantique** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Centre** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Sud-Ouest** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Sud-Est et Vallée du Rhône** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Méditerranée et Corse** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Jeudi 6 Août** : Temps calme et ensoleillé sur la plupart des régions, chaleur marquée sur le sud-est.
-- **Vendredi 7 Août** : Soleil généreux partout, les températures grimpent encore un peu.
-- **Samedi 8 Août** : Pic de chaleur pour beaucoup, avec des maximales très élevées (35-37°C dans le sud-ouest et jusqu'à 32°C à Paris). Risque d'orages en soirée sur le sud-ouest.
-- **Dimanche 9 Août** : Journée de transition : nette baisse des températures par l'ouest, mais temps très lourd et orages parfois forts du sud-ouest au nord-est.
+- **Jeudi 6 et vendredi 7 août** : Temps calme, ensoleillé, fraîcheur relative au nord, déjà chaud au sud.
+- **Samedi 8 août** : Forte hausse des températures, canicule au sud-est, pointes à 38°C dans le sud-ouest.
+- **Dimanche 9 août** : Chaleur persistante, dégradation orageuse possible du sud-ouest au nord-est.
+- **Non applicable** : Non applicable
 
 **Points solides :**
-Point solide 1 : Condition caniculaire durable et sans faille pour le sud-est de la France.
-Point solide 2 : Pic de chaleur généralisé samedi sur la moitié nord avant la dégradation.
-Point solide 3 : Dégradation orageuse active dimanche, touchant une large moitié sud-ouest/nord-est.
+- Le retour de la chaleur samedi est bien établi avec des températures élevées.
+- La persistance de la canicule sur le sud-est ne fait aucun doute.
+- L'arrivée d'une dégradation orageuse dimanche est plausible.
 
 **Points fragiles :**
-Point fragile 1 : L'intensité du pic de chaleur samedi, avec le scénario GFS qui reste minoritaire.
-Point fragile 2 : Le caractère violent des orages (grêle, rafales) et la localisation des cellules les plus actives.
+- L'intensité et le positionnement exact des orages dimanche restent à préciser.
+- Les températures maximales exactes, surtout dans le nord-ouest, sont incertaines.
+- Le timing de la dégradation (samedi soir vs dimanche) fluctue selon les runs.
 
 **À surveiller (prochains runs) :**
-Les runs de ce soir et de demain matin d'AROME et d'ICON-D2 pour affiner le risque orageux et venteux de dimanche.
+Les runs de ce soir et de demain pour GFS et ECMWF afin d'affiner le scénario orageux de dimanche.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 10 au Dimanche 16 Août 2026
+## 🗓️ SEMAINE 2 : Du lundi 10 au dimanche 16 août 2026
 ### 💡 Points clés de la semaine 2
-1. Nouvelle vague de chaleur : Une nouvelle poussée chaude, très intense, est attendue à partir de mardi 11, avec un pic autour du 12-14 août.
-2. Canicule généralisée : Les 30°C pourraient être dépassés sur une très large partie du territoire, avec des pointes à 36-38°C.
-3. Répit pour le sud-est ? : Le sud-est, déjà en canicule depuis des semaines, connaîtra une nouvelle escalade des températures.
-4. Incertitude sur la durée : La durée précise de cet épisode reste en cours d'affinage, avec un possible rafraîchissement en toute fin de semaine.
-5. Temps très sec : Pas de précipitations significatives en vue, accentuant la sécheresse des sols.
+1. Nouvelle canicule généralisée : Une 5e vague de chaleur s'annonce avec des températures très élevées sur la majeure partie du pays.
+2. Pic attendu mercredi-jeudi : Les températures pourraient atteindre 36-39°C dans la moitié sud, 34-36°C à Paris.
+3. Sud-est en surchauffe permanente : Aucun répit attendu, les Tx restent au-dessus de 35°C jour après jour.
+4. Précipitations quasi absentes : Seules quelques ondées orageuses très localisées sont possibles dans le relief ou le val de Durance.
+5. Espoir de dégradation en fin de période : Un signal de baisse plus durable apparaît pour le week-end suivant, mais incertain.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-Convergence 1 : Très forte convergence des modèles (GFS, CEP) sur l'installation d'une nouvelle vague de chaleur intense à partir du mardi 11.
-Convergence 2 : Consensus sur l'absence quasi-totale de précipitations pour le sud-est et la vallée du Rhône.
-Convergence 3 : Signal unanime pour des températures largement au-dessus des normales de saison sur l'ensemble du pays.
+- Consensus fort sur une nouvelle canicule à partir de mardi 11.
+- Températures très élevées sur la moitié sud et la vallée du Rhône.
+- Absence de précipitations significatives jusqu'à vendredi.
 **Points de divergence :**
-Divergence 1 : La durée exacte de l'épisode chaud : certains voient un pic puis une baisse dès le 15 août, d'autres prolongent la chaleur.
-Divergence 2 : L'intensité du pic : la barre des 38°C pourrait être atteinte ou non dans le nord.
-Divergence 3 : Possibilité ou non d'une dégradation orageuse en fin de semaine 2 (signal très faible et lointain).
+- L'exactitude du pic : certains modèles voient un maximum mercredi, d'autres jeudi.
+- La possibilité d'une dégradation en fin de semaine (signal d'une baisse plus durable dimanche).
+- Les températures exactes dans le nord-ouest, zone moins touchée.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP (Ensemble)** (documenté) | L'ensemble CEP est très catégorique sur l'installation d'une nouvelle canicule. La médiane pour Paris est autour de 36-38°C. Le scénario est très solide. | Canicule généralisée, temps sec et très chaud. | Toutes les régions, surtout la moitié sud. | Élevée (85%) | La fiabilité des modèles pour prévoir les canicules à longue échéance est jugée très haute par les membres. L'anomalie de température à 850 hPa est massive. |
-| **GFS (GEFS)** (documenté) | GFS et son ensemble confirment la vague de chaleur. Pour Marseille, les ensembles montrent une baisse possible en toute fin de période, mais la confiance est faible. | Canicule prolongée sur le sud-est, avec un possible rafraîchissement en fin de topic. | Principalement le sud-est. | Modérée (65%) | Le signal d'un possible changement à très long terme (fin de topic) est à prendre avec des pincettes, mais il se consolide sur plusieurs runs. |
-| **Modèles de précipitations** (insufficient) | Les modèles ne voient aucune précipitation significative jusqu'au 15 août au moins pour le sud-est. | Sécheresse et chaleur. | Sud-est, Vallée du Rhône, PACA. | Faible (45%) | L'absence de pluie pour le sud-est est un signal fort, mais il n'est pas détaillé pour les autres régions. |
+| **ECMWF (CEP)** (déterministe et ensemble) | Canicule généralisée avec des températures médianes à Paris de 36-38°C, et plus de 70% de probabilité de dépasser les seuils de canicule dans la moitié sud. | Chaleur extrême, nuits tropicales, aucun orage significatif sauf très localement. | toutes les zones | Élevée (90%) | La dispersion de l'ensemble diminue, confortant la confiance dans le scénario chaud. |
+| **GFS** (déterministe et ensemble) | Nouvelle vague de chaleur durable, avec des températures potentiellement plus élevées que les précédentes sur le nord. | Chaleur intense, vent faible. | toutes | Élevée (85%) | GFS confirme la tendance depuis plusieurs runs, avec une bonne fiabilité pour les canicules. |
+| **GEFS (ensemble GFS)** (ensemble) | Ensemble montrant une forte probabilité de températures supérieures à 30°C durant toute la semaine, avec un pic marqué. | Chaleur. | sud_est, sud_ouest, centre | Modérée (65%) | Utilisé pour évaluer la persistance de la chaleur. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps chaud et ensoleillé avec un pic de chaleur attendu en milieu de semaine. | Maximales autour de 30-32°C. Possibilité de pointes à 34°C. | moderee | ECMWF, GFS | Sur la proximité de la fraîcheur océanique qui pourrait limiter la chaleur sur le littoral. |
-| **Nord** | Soleil dominant, chaleur forte avec un pic entre mercredi et jeudi. | Maximales prévues entre 35 et 38°C par la médiane de l'ensemble CEP. | elevee | ECMWF, GFS | L'intensité exacte du pic est sujette à une fourchette encore large. |
-| **Nord-Est** | Chaud, ensoleillé, potentiellement caniculaire. | Très chaud, mais non documenté en détail. | faible | ECMWF | Le manque d'information est total pour cette zone. |
-| **Ouest et Façade Atlantique** | Temps chaud et sec. Le littoral pourrait être plus épargné par la chaleur extrême. | Maximales entre 32 et 35°C dans l'intérieur, 24-28°C sur le littoral (Gironde). | moderee | ECMWF, GFS | Sur l'écart thermique exact entre le littoral et l'intérieur. |
-| **Centre** | Très chaud et ensoleillé. Risque d'orages en fin de semaine ? | Maximales probablement élevées, autour de 35°C. | moderee | ECMWF | Le comportement de la chaleur et le risque orageux en toute fin de semaine. |
-| **Sud-Ouest** | Canicule. Temps très chaud et sec, avec des températures proches de 38°C. | Maximales entre 36 et 38°C sur la plaine toulousaine. | elevee | ECMWF, GFS | Sur la possibilité de quelques orages sur le piémont pyrénéen. |
-| **Sud-Est et Vallée du Rhône** | Canicule persistante, sans aucune perturbation. Chaleur extrême. | Maximales entre 36 et 39°C. Nuits tropicales (minima > 20°C). | elevee | ECMWF, GFS, GEFS | L'absence de pluie est une quasi-certitude. L'espoir d'un rafraîchissement est très faible. |
-| **Méditerranée et Corse** | Canicule implacable. Ciel dégagé, sécheresse totale, températures très élevées. | Maximales de 34 à 39°C sur le littoral. Nuits étouffantes (22-25°C). | elevee | ECMWF, GFS, CEP | Aucune. L'épisode est verrouillé. |
+| **Nord-Ouest** | Temps chaud mais tempéré près des côtes, quelques nuages. | Max 25-28°C lundi-mardi, 28-32°C mercredi-jeudi, baisse vendredi-samedi. | moderee | GFS, ECMWF | Manque de détails spécifiques |
+| **Nord** | Beau temps ensoleillé, chaleur croissante puis pic caniculaire mercredi-jeudi. | Max 31°C lundi-mardi, 36°C mercredi-jeudi, baisse vendredi-samedi. | elevee | Météo-France, GFS, ECMWF | Ampleur exacte du pic |
+| **Nord-Est** | Très chaud, risque d'orages très localisés en fin de semaine. | Max 30-34°C début de semaine, 34-37°C mercredi-jeudi. | moderee | GFS, ECMWF | Localisation des orages |
+| **Ouest et Façade Atlantique** | Soleil généreux, très chaud en journée, rafraîchi par la brise littorale. | Max 34-37°C lundi-mardi, 32-35°C mercredi-jeudi, baisse vendredi (24°C sur le littoral). | elevee | Météo-France, GFS, ECMWF | Températures littorales exactes |
+| **Centre** | Chaleur intense, orages possibles localement en fin de semaine. | Max 32-35°C lundi-mardi, 35-38°C mercredi-jeudi. | moderee | ECMWF, GFS | Extension des orages |
+| **Sud-Ouest** | Très chaud, ciel dégagé, risque d'averses orageuses sur le relief. | Max 36-38°C lundi-mardi, 36-38°C mercredi-jeudi (stationnaire), baisse vendredi. | elevee | Météo-France, GFS, ECMWF | Précipitations orageuses sur le relief |
+| **Sud-Est et Vallée du Rhône** | Canicule, chaleur étouffante, orages possibles en fin de semaine sur le relief. | Max 35-38°C tous les jours, nuits tropicales (min 18-22°C). | elevee | Météo-France, ECMWF, GFS | Orages très localisés |
+| **Méditerranée et Corse** | Canicule persistante, ciel dégagé, vent parfois assez fort. | Max 35-39°C, min 21-25°C. | elevee | Météo-France, ECMWF, GFS | Durée exacte de la canicule |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 10 Août** : Journée de transition : le temps reste calme et chaud, derniers orages possibles sur le nord-est en début de journée.
-- **Mardi 11 et Mercredi 12 Août** : La chaleur s'intensifie fortement et se généralise. Les 35°C sont atteints sur une large moitié sud.
-- **Jeudi 13 et Vendredi 14 Août** : Pic de cette nouvelle canicule. Les 38°C sont possibles dans le sud-ouest et la vallée du Rhône. Nuits très chaudes.
-- **Samedi 15 et Dimanche 16 Août** : Incertitude. Possible maintien de la chaleur ou début de baisse, notamment dans le nord et l'ouest. Aucune amélioration pour le sud-est.
+- **Lundi 10 août** : Chaleur, risque d'averses localisées sur le val de Durance et le relief pyrénéen.
+- **Mardi 11 à jeudi 13 août** : Canicule généralisée avec un pic mercredi-jeudi, températures jusqu'à 38-39°C dans le sud.
+- **Vendredi 14 et samedi 15 août** : Baisse des températures amorcée, toujours chaud mais moins extrême, possible orage isolé.
+- **Dimanche 16 août** : Incertitude : possible poursuite de la baisse ou retour de la chaleur.
 
 **Points solides :**
-Point solide 1 : Nouvelle vague de chaleur très intense à partir du 11 août, avec un consensus des modèles remarquable.
-Point solide 2 : Persistance de la canicule sur le sud-est, qui n'a pas connu de répit depuis mi-juin.
-Point solide 3 : Absence quasi totale de précipitations pour la moitié sud du pays.
+- L'arrivée d'une canicule généralisée est quasi certaine à partir de mardi.
+- Le sud-est restera en surchauffe sans interruption.
+- Les températures maximales seront très élevées partout.
 
 **Points fragiles :**
-Point fragile 1 : La durée exacte de cet épisode de chaleur et la date d'un éventuel rafraîchissement (après le 15 août).
-Point fragile 2 : L'impact précis du Mistral/Tramontane sur les températures ressenties sur le littoral méditerranéen.
+- L'ampleur exacte du pic (36°C ou 39°C) varie selon les modèles.
+- La durée de la canicule (jusqu'à vendredi ou plus) reste incertaine.
+- Les rares précipitations orageuses sont très localisées et difficiles à prévoir.
 
 **À surveiller (prochains runs) :**
-Les runs de ce soir pour confirmer si le signal de baisse de température en fin de semaine 2 se précise ou s'évapore.
+Les prochaines actualisations d'ECMWF et GFS pour confirmer le pic et la possible dégradation en fin de période.
 
 
 ========================================
@@ -129,27 +132,27 @@ Les runs de ce soir pour confirmer si le signal de baisse de température en fin
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-La France reste sous l'influence d'un puissant blocage anticyclonique, avec une chaleur exceptionnelle durable. Les températures se maintiendront nettement au-dessus des normales, avec un pic attendu autour du 12-14 août, avant une possible baisse en toute fin de période.
+La France reste sous l'influence d'un blocage anticyclonique puissant, avec une chaleur exceptionnelle et durable. Un pic caniculaire est attendu entre le 11 et le 14 août, suivi d'une possible baisse progressive en toute fin de période.
 
 ### Période la plus fiable
-La semaine 1 (courte) est plus fiable dans le détail (timing des orages) mais la semaine 2 l'est tout autant pour la tendance lourde (canicule).
+La semaine 2 (10-16 août) présente la fiabilité la plus élevée en raison de la persistance du signal chaud dans tous les modèles.
 
 ### Phénomènes récurrents
-Orages parfois forts le dimanche 9 août, puis chaleur écrasante et sécheresse pour le reste de la période.
+Canicules à répétition, nuits tropicales dans le sud, sécheresse superficielle, orages de chaleur localisés.
 
 ### Principales incertitudes
-1. La durée exacte de la vague de chaleur de la semaine 2. 2. L'intensité des orages de dimanche 9 août. 3. La possibilité d'un rafraîchissement plus sensible après le 15 août.
+Timing exact et intensité de la dégradation orageuse de dimanche (semaine 1). Durée exacte du pic caniculaire en semaine 2 (jusqu'à vendredi ou plus). Possibilité d'une dégradation durable en fin de semaine 2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le timing de la dégradation orageuse de dimanche est sujet à caution, avec un début d'épisode possible samedi soir pour certains modèles.
-- **Localisation :** La localisation précise des orages les plus violents dimanche (grêle, rafales) est très incertaine. La zone la plus à risque oscille entre le sud-ouest et le nord-est.
-- **Intensité :** L'intensité du pic de chaleur samedi est débattue (scénario GFS plus chaud vs CEP plus modéré). L'intensité des rafales sous les orages de dimanche/lundi est aussi une grande inconnue.
-- **Informations manquantes :** Le comportement exact du vent (Mistral, Tramontane) et son rôle rafraîchissant sur la côte méditerranéenne n'est pas assez détaillé dans les discussions. La situation hydrologique précise (sécheresse des sols) n'est pas abordée en détail par les membres.
-- **Modèles sous-documentés :** Les modèles UKMO, JMA et GEM ne sont pas ou très peu commentés. ICON-D2 est cité mais de manière anecdotique.
-- **Incertitudes images :** Les cartes postées sont des captures d'écran de modèles, mais leur interprétation est parfois sujette à débat (ex: carte des anomalies de précipitations).
+- **Timing/Chronologie :** Le déclenchement des orages dimanche (semaine 1) est sujet à débat : GFS les voit plus précoces, ECMWF plus tardifs. Le pic de canicule en semaine 2 pourrait se décaler d'un jour.
+- **Localisation :** La localisation exacte des orages dimanche (sud-ouest, centre, nord-est) varie selon les modèles. Les précipitations en semaine 2 sont très localisées (val de Durance, relief pyrénéen, Lyonnais).
+- **Intensité :** L'intensité des orages (rafales de vent, grêle) est incertaine. Les températures maximales pour le pic de semaine 2 pourraient varier de 2 à 3°C selon les scénarios.
+- **Informations manquantes :** Peu d'informations sur le vent pour les zones nord-ouest et nord-est. Les cumuls de précipitations précis ne sont pas discutés. L'impact de la canicule sur les sols et la végétation n'est pas abordé.
+- **Modèles sous-documentés :** ICON, Arôme, GEM sont peu ou pas commentés pour la semaine 2. Les modèles de prévision à long terme (JMA, UKMO) ne sont pas évoqués.
+- **Incertitudes images :** Les cartes postées dans le forum montrent des divergences nettes entre GFS et ECMWF pour la dégradation orageuse. Les diagrammes d'ensemble montrent une dispersion qui se réduit mais reste visible.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-L'été 2026 n'en finit pas d'écrire son histoire. 🔥 Après un week-end de transition avec un risque d'orages parfois forts dimanche du Sud-Ouest au Nord-Est, une nouvelle et très intense vague de chaleur est attendue à partir de mardi. Les modèles sont verrouillés: on se dirige vers un pic caniculaire autour de mercredi-jeudi, avec des températures susceptibles d'atteindre 38°C localement. Le Sud-Est, qui ne connaît pas de répit, est particulièrement sous tension. Restez prudents et hydratez-vous ! #Météo #Canicule #France #Été2026 #Prévisions
+"🌡️ La France face à une nouvelle canicule historique ? Après un début août marqué par une brève pause relative, les températures repartent à la hausse dès ce week-end. Un pic de chaleur intense est attendu samedi, suivi d'une dégradation orageuse incertaine dimanche. La semaine prochaine s'annonce caniculaire sur l'ensemble du territoire, avec des températures pouvant atteindre 38°C à Paris et 40°C dans le Sud. Le sud-est reste en surchauffe permanente depuis juin. Restez prudents et hydratez-vous ! 💧 #Météo #Canicule #Prévisions"
