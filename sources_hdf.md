@@ -15,44 +15,44 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 06/08/2026 06:30
+Emis le : 06/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Nord est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Lille-Lesquin : température de 14 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1020 hPa.
-A Dunkerque : température de 16 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 09h :
+A Lille-Lesquin : température de 18 degrés, vent de secteur Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1021 hPa.
+A Dunkerque : température de 18 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 06 :
 Si le soleil doit composer avec quelques petits nuages le matin, en Flandre intérieure ainsi que sur l'Avesnois, le Valenciennois et le Cambrésis, il s'impose finalement l'après-midi et règne en maître le reste de la journée.
 Vent modéré, d'Ouest à Nord-Ouest.
-Températures maximales : de 22 à 24 degrés.
+Températures maximales : entre 22 et 24 degrés.
 
 • Pour la nuit prochaine :
-Le temps est calme et propice à l'observation des étoiles.
+Les rares nuages présents n'empêchent nullement l'observation des étoiles.
 Vent variable, faible.
-Températures minimales : de la côte à la région lilloise entre 12 et 15 degrés. Entre 8 et 9 degrés sur l'Avesnois, le Valenciennois et le Cambrésis.
+Températures minimales : de la côte à la région lilloise comprises entre 12 et 15 degrés. Entre 8 et 9 degrés sur l'Avesnois, le Valenciennois et le Cambrésis.
 
 • Pour demain vendredi 07 en journée et la nuit suivante :
-Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-L'après-midi et jusqu'en milieu de nuit, vent s'établissant au Nord virant Est-Sud-Est, modéré ; puis atténuation.
+Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Le ciel est clair toute la nuit.
+L'après-midi et jusqu'en milieu de nuit, vent s'orientant au Nord puis Est-Sud-Est, souvent modéré ; atténuation ensuite.
 Températures maximales pour le jour : dans l'intérieur de 24 à 26 degrés. 22 degrés en Flandre maritime.
-Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 10 et 13 degrés. 15 degrés en Flandre maritime.
+Températures minimales pour la nuit suivante : dans l'intérieur de 10 à 13 degrés. 15 degrés en Flandre maritime.
 
 • Pour la journée de samedi 08 et la nuit suivante :
-Le temps est sec et ensoleillé. Les quelques nuages présents par places l'après-midi ne gâchent pas l'impression de beau temps. Pour la nuit : Le ciel est clair toute la nuit.
-Etablissement, à la tombée du jour, d'un vent de Nord-Est modéré, en Flandre maritime ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 26 et 29 degrés.
-Températures minimales pour la nuit suivante : de la côte à la région lilloise comprises entre 15 et 18 degrés. Entre 12 et 13 degrés sur l'Avesnois, le Valenciennois et le Cambrésis.
+Le temps est sec et ensoleillé. Les quelques nuages présents par places l'après-midi ne gâchent pas l'impression de beau temps. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+À la tombée du jour, vent s'établissant au Nord-Est modéré, en Flandre maritime ; puis atténuation.
+Températures maximales pour le jour : de 26 à 29 degrés.
+Températures minimales pour la nuit suivante : de la côte à la région lilloise comprises entre 15 et 18 degrés. De 12 à 13 degrés sur l'Avesnois, le Valenciennois et le Cambrésis.
 
 • Pour la journée de dimanche 09 :
-Le temps est ensoleillé du matin au soir.
-L'après-midi jusqu'en début de soirée, vent s'établissant au secteur Ouest modéré, de la côte à la région lilloise.
-Températures maximales : comprises entre 29 et 32 degrés. Ces températures se situent au-dessus des valeurs de saison.
+Le soleil règne en maître du matin au soir.
+L'après-midi jusqu'en début de soirée, vent de secteur Ouest modéré, de la côte à la région lilloise.
+Températures maximales : entre 29 et 32 degrés. Ces températures sont au-dessus des valeurs normalement observées.
 
 • Pour lundi 10 et mardi 11 :
 Temps largement ensoleillé.
@@ -73,44 +73,44 @@ Températures minimales : identiques à la veille.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 06/08/2026 06:30
+Emis le : 06/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Pas-de-Calais est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Arras : température de 12 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 10 km/h.
-A Boulogne-Sémaphore : température de 16 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 30 km/h.
+Aujourd'hui on observait à 09h :
+A Arras : température de 18 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 20 km/h.
+A Boulogne-Sémaphore : température de 17 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 06 :
 Le soleil brille du matin jusqu'au soir. Tout au plus on peut noter quelques passages nuageux un peu plus conséquents, en début de matinée sur la plaine d'Arras ainsi que sur les reliefs de l'Artois.
-Vent modéré, d'Ouest à Nord-Ouest.
+Vent d'Ouest à Nord-Ouest, modéré.
 Températures maximales : de 21 à 24 degrés.
 
 • Pour la nuit prochaine :
-Le temps est calme et propice à l'observation des étoiles.
-Vent variable, faible.
-Températures minimales : dans les terres entre 9 et 12 degrés. 13 degrés sur le littoral.
+Le ciel est bien étoilé.
+Vent faible, variable.
+Températures minimales : dans les terres comprises entre 9 et 12 degrés. 13 degrés sur le littoral.
 
 • Pour demain vendredi 07 en journée et la nuit suivante :
-Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Le ciel est bien étoilé.
-L'après-midi et jusqu'en milieu de nuit, vent s'orientant au Nord-Ouest virant Est, souvent modéré ; atténuation ensuite.
-Températures maximales pour le jour : entre 23 et 26 degrés.
-Températures minimales pour la nuit suivante : de 10 à 13 degrés.
+Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+Etablissement, l'après-midi et jusqu'en milieu de nuit, d'un vent de Nord-Ouest tournant Est, modéré ; atténuation ensuite.
+Températures maximales pour le jour : comprises entre 23 et 26 degrés.
+Températures minimales pour la nuit suivante : entre 10 et 13 degrés.
 
 • Pour la journée de samedi 08 et la nuit suivante :
-La journée est lumineuse, avec un beau soleil parfois contrarié par des passages nuageux qui restent inoffensifs. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-En fin d'après-midi, vent s'établissant au Nord à Nord-Ouest modéré, sur les côtes de la Manche ; puis atténuation.
+La journée est lumineuse, avec un beau soleil parfois contrarié par des passages nuageux qui restent inoffensifs. Pour la nuit : Le ciel est clair toute la nuit.
+Etablissement, en fin d'après-midi, d'un vent de Nord à Nord-Ouest modéré, sur les côtes de la Manche ; atténuation ensuite.
 Températures maximales pour le jour : comprises entre 26 et 29 degrés.
 Températures minimales pour la nuit suivante : entre 13 et 16 degrés.
 
 • Pour la journée de dimanche 09 :
-La journée est ensoleillée, avec tout au plus quelques nuages très discrets.
+Le soleil brille sans interruption.
 Vent modéré, d'Ouest à Sud-Ouest.
-Températures maximales : dans l'intérieur, mais aussi dans le Calaisis de 29 à 32 degrés. 28 degrés sur les côtes de la Manche. Ces températures sont au-dessus des valeurs de saison.
+Températures maximales : dans l'intérieur, mais aussi dans le Calaisis entre 29 et 32 degrés. 28 degrés sur les côtes de la Manche. Ces températures se situent au-dessus des valeurs de saison.
 
 • Pour lundi 10 et mardi 11 :
 Beau temps ensoleillé.
@@ -131,44 +131,44 @@ Températures minimales : en hausse près de la Mer du Nord.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 06/08/2026 06:30
+Emis le : 06/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de la Somme est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Amiens-Glisy : température de 13 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 10 km/h, pression niveau mer 1021 hPa.
-A Cayeux-sur-Mer : température de 18 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 30 km/h.
+Aujourd'hui on observait à 09h :
+A Amiens-Glisy : température de 17 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1022 hPa.
+A Cayeux-sur-Mer : température de 19 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 06 :
 C'est une belle journée qui s'annonce. Les quelques nuages du petit matin cèdent rapidement la place à de larges éclaircies. L'après-midi promet d'être bien ensoleillée.
-Vent d'Ouest à Nord-Ouest, modéré.
-Températures maximales : entre 21 et 24 degrés.
+Vent modéré, d'Ouest à Nord-Ouest.
+Températures maximales : de 21 à 24 degrés.
 
 • Pour la nuit prochaine :
 Le ciel est bien étoilé.
-Vent d'Ouest à Nord-Ouest, localement modéré, en début de nuit ; puis atténuation.
-Températures minimales : dans les terres comprises entre 8 et 11 degrés. 13 degrés sur le littoral picard.
+En début de nuit, vent d'Ouest à Nord-Ouest, modéré par endroits ; puis faiblissant.
+Températures minimales : dans les terres de 8 à 11 degrés. 13 degrés sur le littoral picard.
 
 • Pour demain vendredi 07 en journée et la nuit suivante :
-L'ensoleillement est globalement excellent. Seuls quelques rares nuages apparaissent temporairement, sur le Vermandois ainsi qu'au nord et à l'ouest d'Amiens. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Etablissement, l'après-midi et jusqu'en milieu de nuit, d'un vent de Nord-Ouest puis Est à Nord-Est, modéré ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 23 et 26 degrés.
-Températures minimales pour la nuit suivante : entre 9 et 12 degrés, et 13 degrés sur le Ponthieu et le Vimeu.
+La journée est très ensoleillée, mis à part en fin de matinée, quand quelques nuages se forment, sur le Vermandois ainsi qu'au nord et à l'ouest d'Amiens. Ils se dissipent heureusement rapidement. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+L'après-midi et jusqu'en milieu de nuit, vent s'établissant au Nord-Ouest virant Est à Nord-Est, modéré ; puis atténuation.
+Températures maximales pour le jour : entre 23 et 26 degrés.
+Températures minimales pour la nuit suivante : comprises entre 9 et 12 degrés, et 13 degrés sur le Ponthieu et le Vimeu.
 
 • Pour la journée de samedi 08 et la nuit suivante :
 Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Le ciel est clair toute la nuit.
-En fin d'après-midi, vent s'établissant au Nord modéré, sur le littoral picard ; puis atténuation.
-Températures maximales pour le jour : de 27 à 29 degrés.
-Températures minimales pour la nuit suivante : comprises entre 12 et 15 degrés, et 16 degrés sur le Ponthieu et le Vimeu.
+Etablissement, en fin d'après-midi, d'un vent de Nord modéré, sur le littoral picard ; atténuation ensuite.
+Températures maximales pour le jour : entre 27 et 29 degrés.
+Températures minimales pour la nuit suivante : de 12 à 15 degrés, et 16 degrés sur le Ponthieu et le Vimeu.
 
 • Pour la journée de dimanche 09 :
-Le soleil domine largement du matin au soir.
-Vent généralement modéré, de secteur Ouest.
-Températures maximales : dans les terres entre 29 et 32 degrés. 27 degrés sur le littoral picard. Ces températures se situent au-dessus des valeurs normalement observées.
+La journée est belle, le soleil est largement présent.
+Vent de secteur Ouest, généralement modéré.
+Températures maximales : dans les terres comprises entre 29 et 32 degrés. 27 degrés sur le littoral picard. Ces températures sont au-dessus des valeurs de saison.
 
 • Pour lundi 10 et mardi 11 :
 Le soleil brille sans partage.
@@ -189,43 +189,43 @@ Températures minimales : identiques à la veille.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 06/08/2026 06:30
+Emis le : 06/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Beauvais-Tillé : température de 12 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 10 km/h, pression niveau mer 1022 hPa.
+Aujourd'hui on observait à 09h :
+A Beauvais-Tillé : température de 17 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1023 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 06 :
 Des nuages inoffensifs sont présents, sur le pays de Bray et la Picardie verte ainsi que sur le Valois Multien. Ils se dissipent en cours de matinée. L'après-midi, le temps est partout bien ensoleillé.
 Vent modéré, d'Ouest à Nord-Ouest.
-Températures maximales : de 23 à 25 degrés.
+Températures maximales : entre 23 et 25 degrés.
 
 • Pour la nuit prochaine :
 Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-En début de nuit, vent de Nord-Nord-Ouest soufflant modérément, du Valois Multien au Noyonnais ; puis atténuation.
-Températures minimales : entre 7 et 10 degrés.
+En début de nuit, vent de Nord-Nord-Ouest modéré, du Valois Multien au Noyonnais ; atténuation ensuite.
+Températures minimales : de 7 à 10 degrés.
 
 • Pour demain vendredi 07 en journée et la nuit suivante :
-Le soleil brille sans interruption. Pour la nuit : Le ciel est clair toute la nuit.
+Le temps est ensoleillé du matin au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
 En première partie de nuit, vent s'orientant au Nord-Est, souvent modéré ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 25 et 27 degrés.
-Températures minimales pour la nuit suivante : entre 9 et 12 degrés, et 8 degrés sur le Plateau Picard.
+Températures maximales pour le jour : entre 25 et 27 degrés.
+Températures minimales pour la nuit suivante : de 9 à 12 degrés, et 8 degrés sur le Plateau Picard.
 
 • Pour la journée de samedi 08 et la nuit suivante :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est bien étoilé.
 Vent variable, faible.
-Températures maximales pour le jour : entre 29 et 31 degrés.
+Températures maximales pour le jour : comprises entre 29 et 31 degrés.
 Températures minimales pour la nuit suivante : de 15 à 16 degrés, et 11 degrés sur le Plateau Picard.
 
 • Pour la journée de dimanche 09 :
 Le soleil brille sans discontinuer du matin jusqu'au soir.
-L'après-midi jusqu'en début de soirée, établissement d'un vent d'Ouest à Sud-Ouest, modéré.
-Températures maximales : de 30 à 33 degrés. Ces températures sont au-dessus des valeurs normalement observées.
+L'après-midi jusqu'en début de soirée, établissement d'un vent d'Ouest à Sud-Ouest, souvent modéré.
+Températures maximales : comprises entre 30 et 33 degrés. Ces températures se situent au-dessus des valeurs de saison.
 
 • Pour lundi 10 et mardi 11 :
 Soleil et ciel bleu prédominent.
@@ -246,44 +246,44 @@ Températures minimales : en hausse sur le Valois Multien.En baisse sur le Vexin
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 06/08/2026 06:30
+Emis le : 06/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Aisne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Aulnoy-sous-Laon : température de 12 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 10 km/h.
-A Saint-Quentin : température de 11 degrés.
+Aujourd'hui on observait à 09h :
+A Aulnoy-sous-Laon : température de 17 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 15 km/h.
+A Saint-Quentin : température de 16 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 06 :
 Au lever du jour, le ciel est très nuageux sur le Tardenois ainsi que sur le Nord-Est du département. Les nuages se désagrègent en cours de matinée pour laisser place à un temps très largement ensoleillé l'après-midi.
 Vent modéré, d'Ouest à Nord-Ouest.
-Températures maximales : entre 23 et 26 degrés.
+Températures maximales : comprises entre 23 et 26 degrés.
 
 • Pour la nuit prochaine :
 Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent généralement de Nord à Nord-Ouest modéré, en début de nuit ; puis s'atténuant.
+En début de nuit, vent de Nord à Nord-Ouest généralement, modéré ; puis faiblissant.
 Températures minimales : de 8 à 11 degrés, et 7 degrés sur la Champagne crayeuse.
 
 • Pour demain vendredi 07 en journée et la nuit suivante :
-Le soleil règne en maître. Quelques rares nuages peuvent apparaître en fin de matinée, sur le Vermandois et la Thiérache. Pour la nuit : Le ciel est bien étoilé.
-En fin d'après-midi et jusqu'en milieu de nuit, vent s'orientant au Nord à Nord-Est, souvent modéré ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 24 et 26 degrés.
-Températures minimales pour la nuit suivante : sur les trois quarts Sud du département, ainsi que sur le Vermandois comprises entre 9 et 12 degrés. 13 degrés sur la Thiérache.
+Le soleil règne en maître. Quelques rares nuages peuvent apparaître en fin de matinée, sur le Vermandois et la Thiérache. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Etablissement, en fin d'après-midi et jusqu'en milieu de nuit, d'un vent de Nord à Nord-Est, généralement modéré ; atténuation ensuite.
+Températures maximales pour le jour : entre 24 et 26 degrés.
+Températures minimales pour la nuit suivante : sur les trois quarts Sud du département, ainsi que sur le Vermandois de 9 à 12 degrés. 13 degrés sur la Thiérache.
 
 • Pour la journée de samedi 08 et la nuit suivante :
-Le temps reste sec et très ensoleillé. Un léger voile nuageux sur le Laonnois, sur le Vermandois et la Thiérache ainsi que sur la moitié Sud du département ne gâche pas cette impression de beau temps. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Le temps reste sec et très ensoleillé. Un léger voile nuageux sur le Laonnois, sur le Vermandois et la Thiérache ainsi que sur la moitié Sud du département ne gâche pas cette impression de beau temps. Pour la nuit : Le ciel est bien étoilé.
 Vent variable, faible.
-Températures maximales pour le jour : comprises entre 28 et 31 degrés.
-Températures minimales pour la nuit suivante : voisines de 13 à 16 degrés, et 10 degrés sur le Valois.
+Températures maximales pour le jour : entre 28 et 31 degrés.
+Températures minimales pour la nuit suivante : autour de 13 à 16 degrés, et 10 degrés sur le Valois.
 
 • Pour la journée de dimanche 09 :
-La journée est ensoleillée, avec tout au plus quelques nuages très discrets.
-L'après-midi jusqu'en début de soirée, établissement d'un vent d'Ouest à Sud-Ouest, souvent modéré.
-Températures maximales : sur les trois quarts Sud du département, ainsi que sur le Vermandois entre 31 et 34 degrés. 29 degrés sur la Thiérache. Ces températures se situent au-dessus des valeurs de saison.
+Le soleil brille sans discontinuer du matin jusqu'au soir.
+L'après-midi jusqu'en début de soirée, établissement d'un vent d'Ouest à Sud-Ouest, généralement modéré.
+Températures maximales : sur les trois quarts Sud du département, ainsi que sur le Vermandois comprises entre 31 et 34 degrés. 29 degrés sur la Thiérache. Ces températures sont au-dessus des valeurs de saison.
 
 • Pour lundi 10 et mardi 11 :
 Le soleil brille généreusement.
@@ -334,12 +334,12 @@ pourrait s'étendre à d'autres régions.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
+• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
+• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en Suisse
+• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -347,9 +347,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Les 15 prochains jours sont dominés par une météo estivale très chaude à caniculaire. La semaine 1 est marquée par un passage orageux violent (lundi 3) puis une amélioration rapide avec un temps sec et ensoleillé. La semaine 2 est dominée par une nouvelle et puissante vague de chaleur, avec des températures maximales pouvant atteindre 35°C à 37°C dans l’intérieur des Hauts-de-France (mardi 11 au jeudi 13 août). Une possible atténuation est envisagée après le 15 août, mais les incertitudes restent très fortes..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents lundi puis forte chaleur en fin de semaine..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -568,43 +568,10 @@ Dégradation potentiellement marquée ce week end
 	Dimanche
 	MF
 	Carte d'hier donc certainement actualisation pour samedi  aujourd'hui à 13h
-	Modifié il y a 40 minutes par meteo noobs
+	Modifié il y a 2 heures par meteo noobs
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Golemancer
-Message:
-il y a 1 minute, babe a dit :
-			Je ne vois pas de vague de chaleur ni de canicule sur le CEP a ce stade sur la moitié nord, simplement une alternance de temps chaud (majoritaire) suivi par quelques jours avec des températures de saison. 
-	Il y a le GFS 6z qui est assez enervé mais bon c'est GFS
-
-=======================
-
-Auteur: fran39
-Message:
-Il y a 1 heure, gotman42 a dit :
-			Ca c'est vu depuis Paris.
-			Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
-			En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
-	Effectivement.. Nous sommes dans un été où globalement les vagues de chaleur sont si longues et/ou les phases de répit si courtes, que finalement, est-ce que ça encore un sens de parler de nème vague de chaleur, en sachant que c'est en plus un critère à l'échelle nationale. 
-	Dans certaines régions sud les périodes hors vagues de chaleur sont l'exception donc la notion même de "vague" pose question quand elles sont interminables.  Par exemple en Corse, depuis le 19 juin, il y a seulement 2 jours hors vague de chaleur (2 et 3 juillet...), bref...
-								21
-								4
-								1
-
-=======================
-
-Auteur: EnO
-Message:
-Il y a 1 heure, fran39 a dit :
-			Effectivement.. Nous sommes dans un été où globalement les vagues de chaleur sont si longues et/ou les phases de répit si courtes, que finalement, est-ce que ça encore un sens de parler de nème vague de chaleur, en sachant que c'est en plus un critère à l'échelle nationale. 
-			Dans certaines régions sud les périodes hors vagues de chaleur sont l'exception donc la notion même de "vague" pose question quand elles sont interminables.  Par exemple en Corse, depuis le 19 juin, il y a seulement 2 jours hors vague de chaleur (2 et 3 juillet...), bref...
-	Je confirme... Dans le Vaucluse, aucune température en-dessous de 30°c depuis le 11 juin. Et ça n'est pas terminé quand on voit les modèles...
-								5
-								2
-								2
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Confirmation ce soir de l'arrivée des fortes chaleurs sur une bonne partie du pays dès mardi, avec le sud et l'est du pays très concernés par cette nouvelle vague de chaleur.
@@ -670,7 +637,7 @@ il y a une heure, Nicolas L a dit :
 	La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
 								1
 								3
-								1
+								2
 
 =======================
 
@@ -686,7 +653,7 @@ il y a 10 minutes, Gaël13 a dit :
 								1
 								1
 								5
-								1
+								2
 
 =======================
 
@@ -729,7 +696,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié il y a 19 heures par Arkus
+	Modifié il y a 21 heures par Arkus
 								1
 								2
 
@@ -747,7 +714,7 @@ Le 04/08/2026 à 11:24, mathias a dit :
 Auteur: Virgile
 Message:
 La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
-								6
+								7
 								1
 								3
 								5
@@ -777,7 +744,7 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié il y a 16 heures par Arkus
+	Modifié il y a 18 heures par Arkus
 								20
 								17
 								2
@@ -793,6 +760,7 @@ Il y a 4 heures, Grahok73 a dit :
 	https://www.infoclimat.fr/climato/indicateur_national.php#2026;,1981-2010,1,-3.65,368.65,,y,desc,-1292739192000,1816056792000
 								1
 								1
+								1
 
 =======================
 
@@ -802,16 +770,49 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 10 heures par mathias
+	Modifié il y a 12 heures par mathias
 
 =======================
 
 Auteur: Arkus
 Message:
 Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :
-								3
+								4
 								1
 								2
 								2
-								10
+								12
 								3
+
+=======================
+
+Auteur: cirrus007
+Message:
+Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
+	En tout cas, vu du SE, cet été n'est qu'une canicule géante, jamais de répit... c'est faramineux.
+	Et pour courage à ceux qui iront en Espagne pour l'éclipse  en plus des lunettes n'oubliez pas les parasols, brumisateurs et 5L d'eau.
+								1
+								1
+								1
+								5
+								2
+
+=======================
+
+Auteur: Jetrejo
+Message:
+Moi qui vais en Suisse et qui pensait profiter de la fraicheur, il va falloir monter en altitude 😆
+	Vivement Octobre en tout cas, vraiment marre de cette chaleur. 
+	Il semble toutefois y avoir un signal un peu plus humide à la fin du topic précèdent celui ci, et sur la fin de celui ci ? 
+	Synoptiques différentes avec plus de déstabilisation sur la fin Aout ? 
+	C'est loin, en tout cas, la végétation et la faune devront essayer de tenir bon.
+								1
+								1
+
+=======================
+
+Auteur: Sebaas
+Message:
+Il y a 23 heures, Grahok73 a dit :
+			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
+	Tout est configurable à souhait pourtant!
