@@ -4,7 +4,7 @@ Génère 3 fichiers HTML Premium :
 - public/bulletin_national.html
 - public/bulletin_hdf.html
 - public/bulletin_npdc.html
-En intégrant les textes Infoclimat (.md), les données marées/plages (tides_marine.json)
+En intégrant les bulletins rédigés (.md), les données marées/plages (tides_marine.json)
 et les prévisions sur 14 jours.
 """
 
@@ -50,6 +50,83 @@ def get_french_date():
     today = datetime.date.today()
     return f"{days[today.weekday()]} {today.day} {months[today.month - 1]} {today.year}"
 
+def md_to_html(md):
+    if not md:
+        return ""
+    lines = md.split('\n')
+    out = []
+    in_table = False
+    table_lines = []
+    in_list = False
+    
+    def flush_table(t_lines):
+        if not t_lines:
+            return ''
+        h = '<table><thead>'
+        t_lines = [l for l in t_lines if not re.match(r'^\s*\|?\s*:?-+:?\s*\|', l)]
+        for idx, line in enumerate(t_lines):
+            cells = [c.strip() for c in line.strip('|').split('|')]
+            tag = 'th' if idx == 0 else 'td'
+            row_html = ''.join(f'<{tag}>{c}</{tag}>' for c in cells)
+            if idx == 0:
+                h += f'<tr>{row_html}</tr></thead><tbody>'
+            else:
+                h += f'<tr>{row_html}</tr>'
+        h += '</tbody></table>'
+        return h
+
+    for line in lines:
+        l = line.strip()
+        if l.startswith('|'):
+            if in_list:
+                out.append('</ul>')
+                in_list = False
+            table_lines.append(l)
+            in_table = True
+            continue
+        elif in_table:
+            out.append(flush_table(table_lines))
+            table_lines = []
+            in_table = False
+            
+        if not l:
+            if in_list:
+                out.append('</ul>')
+                in_list = False
+            continue
+        elif l.startswith('### '):
+            if in_list: out.append('</ul>'); in_list = False
+            out.append(f'<h3 style="color:var(--primary); margin-top:16px; font-size:1.15em;">{l[4:]}</h3>')
+        elif l.startswith('## '):
+            if in_list: out.append('</ul>'); in_list = False
+            out.append(f'<h2 style="color:var(--text); border-bottom:1px solid var(--border); padding-bottom:6px; margin-top:24px; font-size:1.3em;">{l[3:]}</h2>')
+        elif l.startswith('# '):
+            if in_list: out.append('</ul>'); in_list = False
+            out.append(f'<h1 style="color:var(--primary); margin-bottom:12px; font-size:1.5em;">{l[2:]}</h1>')
+        elif l.startswith('> '):
+            if in_list: out.append('</ul>'); in_list = False
+            txt = l[2:].replace('[!IMPORTANT]', '⚠️').replace('[!NOTE]', 'ℹ️').replace('[!WARNING]', '⚠️')
+            out.append(f'<div class="alert-box" style="margin:10px 0;"><p>{txt}</p></div>')
+        elif l.startswith('- ') or l.startswith('* '):
+            if not in_list:
+                out.append('<ul style="padding-left:20px; margin-bottom:12px;">')
+                in_list = True
+            out.append(f'<li>{l[2:]}</li>')
+        else:
+            if in_list:
+                out.append('</ul>')
+                in_list = False
+            out.append(f'<p style="margin-bottom:8px; line-height:1.6;">{l}</p>')
+
+    if in_list:
+        out.append('</ul>')
+    if in_table:
+        out.append(flush_table(table_lines))
+        
+    res = '\n'.join(out)
+    res = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', res)
+    return res
+
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -83,101 +160,102 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       margin: 0 auto;
     }}
     .header {{
-      background: linear-gradient(135deg, #1e293b, #0f172a);
+      background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 24px;
+      text-align: center;
       margin-bottom: 24px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 15px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
     }}
-    .header h1 {{ font-size: 1.8rem; color: var(--primary); display: flex; align-items: center; gap: 10px; }}
-    .header .date {{ background: rgba(56, 189, 248, 0.15); border: 1px solid var(--primary); color: var(--primary); padding: 6px 14px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; }}
-    
-    .nav-tabs {{
-      display: flex;
-      gap: 10px;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
+    .header h1 {{
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 8px;
     }}
-    .nav-tab {{
-      padding: 10px 18px;
-      background: rgba(30, 41, 59, 0.7);
-      border: 1px solid var(--border);
+    .header .date {{
       color: var(--text-muted);
-      border-radius: 10px;
+      font-size: 0.95rem;
+    }}
+    .nav-bar {{
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }}
+    .nav-btn {{
+      padding: 10px 20px;
+      border-radius: 12px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
       text-decoration: none;
       font-weight: 600;
-      transition: all 0.2s;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
     }}
-    .nav-tab.active, .nav-tab:hover {{
+    .nav-btn:hover, .nav-btn.active {{
       background: var(--accent);
       color: #fff;
       border-color: var(--primary);
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
     }}
-
     .section {{
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 22px;
-      margin-bottom: 20px;
-      backdrop-filter: blur(10px);
+      padding: 24px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(12px);
     }}
     .section-title {{
-      font-size: 1.3rem;
+      font-size: 1.25rem;
       color: var(--primary);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 12px;
       margin-bottom: 16px;
       display: flex;
       align-items: center;
       gap: 10px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 10px;
     }}
-    .alert-box {{
-      background: rgba(34, 197, 94, 0.1);
-      border-left: 4px solid var(--success);
-      padding: 14px 18px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }}
-    .alert-box.warning {{
-      background: rgba(234, 179, 8, 0.1);
-      border-left-color: var(--warning);
-    }}
-
     table {{
       width: 100%;
       border-collapse: collapse;
       margin-top: 12px;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
     }}
     th, td {{
-      padding: 12px 14px;
+      padding: 10px 12px;
       text-align: left;
       border-bottom: 1px solid var(--border);
     }}
     th {{
-      background: rgba(15, 23, 42, 0.8);
+      background: rgba(255, 255, 255, 0.05);
       color: var(--primary);
       font-weight: 600;
     }}
-    tr:hover {{ background: rgba(255, 255, 255, 0.03); }}
-    
+    tr:hover {{
+      background: rgba(255, 255, 255, 0.02);
+    }}
     .badge {{
       display: inline-block;
       padding: 4px 8px;
       border-radius: 6px;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 600;
     }}
-    .badge-green {{ background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid #22c55e; }}
-    .badge-yellow {{ background: rgba(234, 179, 8, 0.2); color: #fde047; border: 1px solid #eab308; }}
-
+    .badge-green {{ background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.4); }}
+    .badge-yellow {{ background: rgba(234, 179, 8, 0.2); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.4); }}
+    .badge-red {{ background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); }}
+    .alert-box {{
+      background: rgba(56, 189, 248, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 16px;
+    }}
     .footer {{
       text-align: center;
       padding: 20px;
@@ -190,13 +268,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <div class="container">
     <div class="header">
       <h1>{icon} {title}</h1>
-      <span class="date"><i class="fa-regular fa-calendar"></i> {date_str}</span>
+      <div class="date"><i class="fa-regular fa-clock"></i> Édition du {date_str}</div>
     </div>
 
-    <div class="nav-tabs">
-      <a href="bulletin_national.html" class="nav-tab {active_nat}">🇫🇷 National</a>
-      <a href="bulletin_hdf.html" class="nav-tab {active_hdf}">🌾 Hauts-de-France (5 dép.)</a>
-      <a href="bulletin_npdc.html" class="nav-tab {active_npdc}">⚓ Nord-Pas-de-Calais (59 & 62)</a>
+    <div class="nav-bar">
+      <a href="bulletin_national.html" class="nav-btn {active_nat}"><i class="fa-solid fa-earth-france"></i> 🌊 Bulletin National</a>
+      <a href="bulletin_hdf.html" class="nav-btn {active_hdf}"><i class="fa-solid fa-map-location-dot"></i> 🌾 Hauts-de-France</a>
+      <a href="bulletin_npdc.html" class="nav-btn {active_npdc}"><i class="fa-solid fa-water"></i> ⚓ Nord-Pas-de-Calais</a>
+      <a href="index.html" class="nav-btn"><i class="fa-solid fa-house"></i> Accueil Synthèse</a>
     </div>
 
     {content}
@@ -211,8 +290,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
 def build_national_html(data, md_content):
     date_str = get_french_date()
-    
-    # Tables for Tides & Beaches
     tides = data.get("tides", {})
     beaches = data.get("beaches", {})
     forecast14 = data.get("forecast_14d", [])
@@ -251,14 +328,12 @@ def build_national_html(data, md_content):
 
     beaches_rows = ""
     for name, binfo in nat_beaches:
-        air = binfo.get("air", "23°C")
-        water = binfo.get("water", "20°C")
+        water = binfo.get("water", "–")
         flag = binfo.get("flag", "🟢 Vert (Baignade autorisée)")
-        uv = binfo.get("uv", "UV 6")
+        uv = binfo.get("uv", "–")
         beaches_rows += f"""
         <tr>
           <td>{name}</td>
-          <td>{air}</td>
           <td><strong>{water}</strong></td>
           <td><span class="badge badge-green">{flag}</span></td>
           <td><strong>{uv}</strong></td>
@@ -270,7 +345,6 @@ def build_national_html(data, md_content):
       <thead>
         <tr>
           <th>Façade Littorale</th>
-          <th>Air 🌡️</th>
           <th>Eau 🌊</th>
           <th>Baignade & Drapeau 🚩</th>
           <th>Indice UV ☀️</th>
@@ -289,7 +363,6 @@ def build_national_html(data, md_content):
           <td><strong>{item['day_name']}</strong></td>
           <td>{item['weather']}</td>
           <td>{item['temp']}</td>
-          <td>{item['wind']}</td>
           <td>{item['confidence']}</td>
         </tr>
         """
@@ -300,9 +373,8 @@ def build_national_html(data, md_content):
         <tr>
           <th>Jour</th>
           <th>Temps Sensible 🌤️</th>
-          <th>Temp. Min / Max 🌡️</th>
-          <th>Vent 💨</th>
-          <th>Confiance</th>
+          <th>Températures / Tendance 🌡️</th>
+          <th>Indice Confiance</th>
         </tr>
       </thead>
       <tbody>
@@ -311,34 +383,16 @@ def build_national_html(data, md_content):
     </table>
     """
 
+    rendered_md = md_to_html(md_content)
+
     content = f"""
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-triangle-exclamation"></i> 1. Vigilance Météo-France Nationale</div>
-      <div class="alert-box">
-        <p>🟢 <strong>Vigilance Verte</strong> prédominante sur le pays. Aucun risque météorologique majeur signalé.</p>
-      </div>
+      <div class="section-title"><i class="fa-solid fa-file-lines"></i> 1. Bulletin Météo National & Expertise</div>
+      {rendered_md if rendered_md else '<p>Bulletin en cours de génération...</p>'}
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-tv"></i> 2. Météo Terrestre (Terre Ferme)</div>
-      <p style="margin-bottom: 12px;"><strong>Résumé du jour :</strong> Ensoleillement généreux sur une grande partie du territoire. Les températures restent très agréables et estivales.</p>
-      <ul>
-        <li><strong>Nord-Ouest & Atlantique :</strong> Temps sec, belles éclaircies, températures douces 21° à 24°C.</li>
-        <li><strong>Nord-Est & Île-de-France :</strong> Soleil prédominant, quelques voiles d'altitude, 23° à 26°C.</li>
-        <li><strong>Sud-Ouest & Pyrénées :</strong> Beau soleil, douceur marquée, 25° à 28°C.</li>
-        <li><strong>Sud-Est & Méditerranée :</strong> Soleil éclatant, chaleur modérée 27° à 31°C.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-anchor"></i> 3. Météo Marine (3 Façades Maritimes)</div>
-      <p><strong>Manche :</strong> Vent Ouest 10-15 nœuds, mer peu agitée. Visibilité bonne.</p>
-      <p><strong>Atlantique :</strong> Vent Sud-Ouest 10-14 nœuds, houle 1.0m, mer belle à peu agitée.</p>
-      <p><strong>Méditerranée :</strong> Vent Ouest 12-18 nœuds, mer belle, eau chaude à 24-26°C.</p>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-water"></i> 4. Marées & Météo des Plages Nationales</div>
+      <div class="section-title"><i class="fa-solid fa-water"></i> 2. Marées & Météo des Plages Nationales</div>
       <h4 style="margin-top: 10px; color: var(--primary);">Horaires et Coefficients de Marée (Brest)</h4>
       {tides_table}
 
@@ -347,7 +401,7 @@ def build_national_html(data, md_content):
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 5. Tendance à 14 Jours (France)</div>
+      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 3. Tendance à 14 Jours (France)</div>
       {forecast_table}
     </div>
     """
@@ -371,7 +425,7 @@ def build_hdf_html(data, md_content):
     ports_hdf = ["Dunkerque", "Boulogne-sur-Mer", "Saint-Valery-sur-Somme"]
     tides_rows = ""
     for p in ports_hdf:
-        tinfo = tides.get(p, {"pm": "06:26 & 18:45", "bm": "00:55 & 13:13", "coeff": "61 / 57"})
+        tinfo = tides.get(p, {"pm": "–", "bm": "–", "coeff": "–"})
         tides_rows += f"""
         <tr>
           <td>🚢 <strong>{p}</strong></td>
@@ -409,14 +463,12 @@ def build_hdf_html(data, md_content):
     beaches_rows = ""
     for name in beaches_hdf_keys:
         binfo = beaches.get(name, {})
-        air = binfo.get("air", "22°C")
-        water = binfo.get("water", "20.5°C")
+        water = binfo.get("water", "–")
         flag = binfo.get("flag", "🟢 Vert (Baignade autorisée)")
-        uv = binfo.get("uv", "UV 5")
+        uv = binfo.get("uv", "–")
         beaches_rows += f"""
         <tr>
           <td>🏖️ {name}</td>
-          <td>{air}</td>
           <td><strong>{water}</strong></td>
           <td><span class="badge badge-green">{flag}</span></td>
           <td><strong>{uv}</strong></td>
@@ -428,7 +480,6 @@ def build_hdf_html(data, md_content):
       <thead>
         <tr>
           <th>Station Littorale</th>
-          <th>Air 🌡️</th>
           <th>Eau 🌊</th>
           <th>Baignade & Drapeau 🚩</th>
           <th>Indice UV ☀️</th>
@@ -447,7 +498,6 @@ def build_hdf_html(data, md_content):
           <td><strong>{item['day_name']}</strong></td>
           <td>{item['weather']}</td>
           <td>{item['temp']}</td>
-          <td>{item['wind']}</td>
           <td>{item['confidence']}</td>
         </tr>
         """
@@ -458,9 +508,8 @@ def build_hdf_html(data, md_content):
         <tr>
           <th>Jour</th>
           <th>Temps Sensible 🌤️</th>
-          <th>Temp. Min / Max 🌡️</th>
-          <th>Vent 💨</th>
-          <th>Confiance</th>
+          <th>Températures / Tendance 🌡️</th>
+          <th>Indice Confiance</th>
         </tr>
       </thead>
       <tbody>
@@ -469,30 +518,16 @@ def build_hdf_html(data, md_content):
     </table>
     """
 
+    rendered_md = md_to_html(md_content)
+
     content = f"""
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-triangle-exclamation"></i> 1. Vigilance Hauts-de-France (5 départements)</div>
-      <div class="alert-box">
-        <p>🟢 <strong>Vigilance Verte</strong> sur l'ensemble de la région (Nord, Pas-de-Calais, Somme, Oise, Aisne).</p>
-      </div>
+      <div class="section-title"><i class="fa-solid fa-file-lines"></i> 1. Bulletin Météo Hauts-de-France & Expertise</div>
+      {rendered_md if rendered_md else '<p>Bulletin régional en cours de génération...</p>'}
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-tv"></i> 2. Météo du Jour à Terre (Hauts-de-France)</div>
-      <p style="margin-bottom: 8px;"><strong>Matin :</strong> Beau soleil sur la Côte d'Opale et le littoral picard. Dans l'intérieur (Lille, Arras, Amiens, Beauvais, Laon), c'est un ciel lumineux avec quelques nuages d'altitude. Températures minimales : 12° à 15°C.</p>
-      <p style="margin-bottom: 8px;"><strong>Après-midi :</strong> Temps très agréable avec de belles éclaircies. Vent d'ouest modéré. Températures maximales : 21°C sur le littoral, 23° à 24°C dans les terres.</p>
-      <p><strong>Nuit suivante :</strong> Nuit paisible et fraîche dans les terres (9° à 13°C).</p>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-anchor"></i> 3. Météo Marine (Mer du Nord & Pas-de-Calais)</div>
-      <p><strong>Vent :</strong> Ouest à Sud-Ouest 10 à 18 nœuds (Beaufort 3 à 5).</p>
-      <p><strong>État de la mer :</strong> Mer peu agitée, vagues de 0.6m à 1.2m.</p>
-      <p><strong>Visibilité :</strong> Excellent en mer, visibilité supérieure à 10 km.</p>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-water"></i> 4. Marées & Météo des Plages Hauts-de-France</div>
+      <div class="section-title"><i class="fa-solid fa-water"></i> 2. Marées & Météo des Plages Hauts-de-France</div>
       <h4 style="margin-top: 10px; color: var(--primary);">Horaires et Coefficients de Marée</h4>
       {tides_table}
 
@@ -501,7 +536,7 @@ def build_hdf_html(data, md_content):
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 5. Tendance Régionale à 14 Jours</div>
+      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 3. Tendance Régionale à 14 Jours</div>
       {forecast_table}
     </div>
     """
@@ -525,7 +560,7 @@ def build_npdc_html(data, md_content):
     ports_npdc = ["Dunkerque", "Calais", "Boulogne-sur-Mer", "Le Touquet"]
     tides_rows = ""
     for p in ports_npdc:
-        tinfo = tides.get(p, {"pm": "06:26 & 18:45", "bm": "00:55 & 13:13", "coeff": "61 / 57"})
+        tinfo = tides.get(p, {"pm": "–", "bm": "–", "coeff": "–"})
         tides_rows += f"""
         <tr>
           <td>🚢 <strong>{p} (62/59)</strong></td>
@@ -565,14 +600,12 @@ def build_npdc_html(data, md_content):
     beaches_rows = ""
     for name in beaches_npdc_keys:
         binfo = beaches.get(name, {})
-        air = binfo.get("air", "22°C")
-        water = binfo.get("water", "20.5°C")
+        water = binfo.get("water", "–")
         flag = binfo.get("flag", "🟢 Vert (Baignade autorisée)")
-        uv = binfo.get("uv", "UV 5")
+        uv = binfo.get("uv", "–")
         beaches_rows += f"""
         <tr>
           <td>🏖️ {name}</td>
-          <td>{air}</td>
           <td><strong>{water}</strong></td>
           <td><span class="badge badge-green">{flag}</span></td>
           <td><strong>{uv}</strong></td>
@@ -584,7 +617,6 @@ def build_npdc_html(data, md_content):
       <thead>
         <tr>
           <th>Station Littorale (59 & 62)</th>
-          <th>Air 🌡️</th>
           <th>Eau 🌊</th>
           <th>Baignade & Drapeau 🚩</th>
           <th>Indice UV ☀️</th>
@@ -603,7 +635,6 @@ def build_npdc_html(data, md_content):
           <td><strong>{item['day_name']}</strong></td>
           <td>{item['weather']}</td>
           <td>{item['temp']}</td>
-          <td>{item['wind']}</td>
           <td>{item['confidence']}</td>
         </tr>
         """
@@ -614,9 +645,8 @@ def build_npdc_html(data, md_content):
         <tr>
           <th>Jour</th>
           <th>Temps Sensible 🌤️</th>
-          <th>Temp. Min / Max 🌡️</th>
-          <th>Vent 💨</th>
-          <th>Confiance</th>
+          <th>Températures / Tendance 🌡️</th>
+          <th>Indice Confiance</th>
         </tr>
       </thead>
       <tbody>
@@ -625,30 +655,16 @@ def build_npdc_html(data, md_content):
     </table>
     """
 
+    rendered_md = md_to_html(md_content)
+
     content = f"""
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-triangle-exclamation"></i> 1. Vigilance Nord (59) & Pas-de-Calais (62)</div>
-      <div class="alert-box">
-        <p>🟢 <strong>Vigilance Verte</strong> active sur le Nord et le Pas-de-Calais. Aucune alerte en cours.</p>
-      </div>
+      <div class="section-title"><i class="fa-solid fa-file-lines"></i> 1. Bulletin Météo Nord-Pas-de-Calais & Expertise</div>
+      {rendered_md if rendered_md else '<p>Bulletin Nord-Pas-de-Calais en cours de génération...</p>'}
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-tv"></i> 2. Météo du Jour à Terre (Nord & Pas-de-Calais)</div>
-      <p style="margin-bottom: 8px;"><strong>Ce matin :</strong> Ciel dégagé et ensoleillé sur toute la Côte d'Opale (Dunkerque à Berck). Dans les terres (Lille, Lens, Arras, Valenciennes, Maubeuge), temps très doux et agréable.</p>
-      <p style="margin-bottom: 8px;"><strong>Cet après-midi :</strong> Poursuite d'un temps largement ensoleillé. Le vent d'ouest à nord-ouest souffle modérément sur les caps et plages. Températures maximales : 21° à 22°C sur la côte, 23° à 24°C dans les terres.</p>
-      <p><strong>Cette nuit :</strong> Nuit claire et paisible. Températures minimales : 13° à 15°C sur le littoral, 9° à 12°C dans l'intérieur rural.</p>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-anchor"></i> 3. Météo Marine & Navigation (Côte d'Opale & Détroit)</div>
-      <p><strong>Vent en mer :</strong> Ouest à Sud-Ouest 10-18 nœuds (Beaufort 3 à 5).</p>
-      <p><strong>État de la mer :</strong> Peu agitée à temporairement agitée au large du Boulonnais.</p>
-      <p><strong>Visibilité :</strong> Bonne visibilité générale en mer.</p>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-water"></i> 4. Marées & Météo des Plages Nord-Pas-de-Calais</div>
+      <div class="section-title"><i class="fa-solid fa-water"></i> 2. Marées & Météo des Plages Nord-Pas-de-Calais</div>
       <h4 style="margin-top: 10px; color: var(--primary);">Horaires et Coefficients de Marée Côte d'Opale</h4>
       {tides_table}
 
@@ -657,7 +673,7 @@ def build_npdc_html(data, md_content):
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 5. Tendance Nord-Pas-de-Calais à 14 Jours</div>
+      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 3. Tendance Nord-Pas-de-Calais à 14 Jours</div>
       {forecast_table}
     </div>
     """
