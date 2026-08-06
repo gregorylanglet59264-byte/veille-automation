@@ -336,12 +336,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Saison 2026 - Typhon Pacifique Nord-ouest
-• Infoclimat Direct : Aidez nous &#xE0; recenser les erreurs de notre base climatologique
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
 • Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -349,9 +349,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 6 Août 2026.
-Résumé général précédent : Sur les 15 jours à venir, la France reste sous l'influence d'un puissant blocage anticyclonique, avec une chaleur exceptionnelle durable. Les températures se maintiendront nettement au-dessus des normales, avec un pic attendu autour du 12-14 août avant une possible baisse en toute fin de période..
+Résumé général précédent : Sur les 15 jours à venir, la France reste sous l’influence d’un puissant blocage anticyclonique, avec une chaleur exceptionnelle durable. Les températures se maintiendront nettement au-dessus des normales, avec un pic attendu autour du 12-14 août, avant une possible baisse en toute fin de période..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Très fortes chaleurs samedi et dimanche, puis risque orageux..
+Températures attendues précédemment : Très fortes chaleurs samedi (35‑38°C), puis orages dimanche du sud‑ouest au centre‑est, avec risque de grêle et de rafales..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
@@ -559,7 +559,7 @@ Dégradation potentiellement marquée ce week end
 	Dimanche
 	MF
 	Carte d'hier donc certainement actualisation pour samedi  aujourd'hui à 13h
-	Modifié il y a 6 heures par meteo noobs
+	Modifié il y a 8 heures par meteo noobs
 								3
 
 =======================
@@ -571,6 +571,7 @@ Le 26/07/2026 à 19:13, jt75 a dit :
 			anomalie T850 pour 9 aout:💀
 	Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
 								1
+								3
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
@@ -664,6 +665,7 @@ Le 04/08/2026 à 11:24, mathias a dit :
 			Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.
 	Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 								5
+								1
 
 =======================
 
@@ -673,7 +675,7 @@ La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé p
 								7
 								1
 								3
-								6
+								7
 
 =======================
 
@@ -683,7 +685,7 @@ il y a 18 minutes, Virgile a dit :
 			La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
 	En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄 
 	Les vdf a 72h la fiabilité est de 20% .....
-								1
+								2
 								1
 								1
 
@@ -700,9 +702,9 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié il y a 22 heures par Arkus
+	Modifié hier à 13:23 par Arkus
 								21
-								18
+								19
 								3
 
 =======================
@@ -726,7 +728,7 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 16 heures par mathias
+	Modifié il y a 18 heures par mathias
 
 =======================
 
@@ -763,6 +765,7 @@ Moi qui vais en Suisse et qui pensait profiter de la fraicheur, il va falloir mo
 	Synoptiques différentes avec plus de déstabilisation sur la fin Aout ? 
 	C'est loin, en tout cas, la végétation et la faune devront essayer de tenir bon.
 								1
+								1
 								3
 
 =======================
@@ -772,6 +775,7 @@ Message:
 Il y a 23 heures, Grahok73 a dit :
 			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
 	Tout est configurable à souhait pourtant!
+								1
 								1
 
 =======================
@@ -788,7 +792,7 @@ Auteur: Plancher
 Message:
 La répétition des vagues de chaleur conduit à une sorte de résignation.
 	Ça semble bien parti pour durer 4 ou 5 jours minimum.
-								1
+								3
 
 =======================
 
@@ -807,7 +811,8 @@ Afin de remonter le moral des troupes je vais parler d'un signal d'une baisse pe
 	Le nord sera aussi concerné mais cela ne sera pas trop durable.
 	Une porte de sortie envisagé donc mais en attendant les humains, la faune, la flore et la nature vont encore prendre cher.
 	Pour les précipitations il faudra encore patienter et espérer qu'il y en aura au topic suivant.
-								6
+								7
+								2
 
 =======================
 
