@@ -325,10 +325,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Mercredi 5 Août 2026.
-Résumé général précédent : Alternance très contrastée : une première semaine marquée par des orages violents suivis d’un répit thermique, puis une deuxième semaine dominée par une vague de chaleur intense et durable, avec une extension probable à tout le pays..
+Dernier bulletin généré le Jeudi 6 Août 2026.
+Résumé général précédent : Une période marquée par une chaleur accablante. La semaine 1 verra le passage d'une perturbation orageuse avant le retour d'un temps calme et chaud. La semaine 2 s'annonce comme une nouvelle phase de très forte chaleur, avec un scénario caniculaire très probable pour la moitié sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Forte chaleur sur la moitié sud et le Centre, dimanche ; orages isolés..
+Températures attendues précédemment : Orages violents lundi, amélioration, puis forte chaleur samedi et dégradation orageuse dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -699,7 +699,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié il y a 13 heures par Arkus
+	Modifié il y a 15 heures par Arkus
 								1
 								2
 
@@ -747,7 +747,7 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié il y a 10 heures par Arkus
+	Modifié il y a 12 heures par Arkus
 								20
 								17
 								2
@@ -772,7 +772,7 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 4 heures par mathias
+	Modifié il y a 6 heures par mathias
 
 =======================
 

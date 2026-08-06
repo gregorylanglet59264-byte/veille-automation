@@ -321,10 +321,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Mercredi 5 Août 2026.
-Résumé général HDF précédent : Les deux semaines sont dominées par un temps estival chaud à caniculaire. La première semaine débute par des orages violents lundi 3 août, puis s'améliore rapidement pour devenir ensoleillée et chaude. La seconde semaine est marquée par une vague de chaleur intense du mardi 11 au jeudi 13, avec des températures bien au-dessus des normales. Une possible atténuation est envisagée après le 15 août, mais reste incertaine..
+Dernier bulletin HDF généré le Jeudi 6 Août 2026.
+Résumé général HDF précédent : Les 15 prochains jours sont dominés par une météo estivale très chaude à caniculaire. La semaine 1 est marquée par un passage orageux violent (lundi 3) puis une amélioration rapide avec un temps sec et ensoleillé. La semaine 2 est dominée par une nouvelle et puissante vague de chaleur, avec des températures maximales pouvant atteindre 35°C à 37°C dans l’intérieur des Hauts-de-France (mardi 11 au jeudi 13 août). Une possible atténuation est envisagée après le 15 août, mais les incertitudes restent très fortes..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents, fortes pluies, vents forts lundi ; puis temps calme et ensoleillé..
+Températures attendues précédemment : Rafales de vent >100 km/h localement, fortes pluies orageuses, suivi d'une amélioration rapide..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
@@ -695,7 +695,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié il y a 13 heures par Arkus
+	Modifié il y a 15 heures par Arkus
 								1
 								2
 
@@ -743,7 +743,7 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié il y a 10 heures par Arkus
+	Modifié il y a 12 heures par Arkus
 								20
 								17
 								2
@@ -768,7 +768,7 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 4 heures par mathias
+	Modifié il y a 6 heures par mathias
 
 =======================
 
