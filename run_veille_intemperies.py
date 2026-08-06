@@ -509,42 +509,23 @@ def send_email(report_json, date_str):
     </html>
     """
     
-    # Encodages
-    boundary = uuid.uuid4().hex
-    html_att_b64 = base64.b64encode(html_attachment.encode('utf-8')).decode('ascii')
-    html_email_b64 = base64.b64encode(html_email_body.encode('utf-8')).decode('ascii')
+    from email.message import EmailMessage
     
-    # Nettoyage ASCII strict du sujet pour éviter les spams
-    import uuid as _uuid
-    from email.utils import make_msgid as _make_msgid
-    subject_raw = f"Veille Meteo Cyclones - {date_str}"
-    clean_subject = unicodedata.normalize('NFKD', subject_raw).encode('ASCII', 'ignore').decode('ASCII')
-
-    raw_message = (
-        f'From: Meteo Climat Pro <{gmail_email}>\r\n'
-        f'To: {", ".join(recipients)}\r\n'
-        f'Reply-To: gregory.langlet@sfr.fr\r\n'
-        f'Subject: {clean_subject}\r\n'
-        f'Date: {formatdate(localtime=True)}\r\n'
-        f'Message-ID: {_make_msgid(domain="gmail.com")}\r\n'
-        f'X-Mailer: Python/smtplib\r\n'
-        f'MIME-Version: 1.0\r\n'
-        f'Content-Type: multipart/mixed; boundary="{boundary}"\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{html_email_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}\r\n'
-        f'Content-Type: text/html; charset=utf-8; name="{filename}"\r\n'
-        f'Content-Disposition: attachment; filename="{filename}"\r\n'
-        f'Content-Transfer-Encoding: base64\r\n'
-        f'\r\n'
-        f'{html_att_b64}\r\n'
-        f'\r\n'
-        f'--{boundary}--\r\n'
+    msg = EmailMessage()
+    msg["Subject"]  = f"Veille Meteo Cyclones - {date_str}"
+    msg["From"]     = f"Meteo Climat Pro <{gmail_email}>"
+    msg["To"]       = ", ".join(recipients)
+    msg["Reply-To"] = "gregory.langlet@sfr.fr"
+    
+    plain_text = f"Veille Spécifique Intempéries & Cyclones - {date_str}\n\nVeuillez consulter la version HTML de cet e-mail dans votre client de messagerie."
+    msg.set_content(plain_text)
+    msg.add_alternative(html_email_body, subtype="html")
+    
+    msg.add_attachment(
+        html_attachment.encode("utf-8"),
+        maintype="text",
+        subtype="html",
+        filename=filename
     )
     
     with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
@@ -552,7 +533,7 @@ def send_email(report_json, date_str):
         server.starttls()
         server.ehlo()
         server.login(gmail_email, gmail_password)
-        server.sendmail(gmail_email, recipients, raw_message.encode('ascii', 'ignore'))
+        server.send_message(msg)
     print("[SMTP] Email envoyé avec succès !")
 
 def main():
