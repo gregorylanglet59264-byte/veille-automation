@@ -336,12 +336,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
-• Infoclimat Direct : Aidez nous &#xE0; recenser les erreurs de notre base climatologique
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
-• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -349,9 +349,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 6 Août 2026.
-Résumé général précédent : Un blocage anticyclonique exceptionnel est en place, garantissant une chaleur caniculaire durable. Après une première salve orageuse en début de première semaine, le temps s'assèche et se réchauffe de manière spectaculaire. Un pic estival intense est attendu entre le 11 et le 14 août, suivi d'une incertitude sur une possible baisse en fin de deuxième semaine..
+Résumé général précédent : Les 15 prochains jours sont dominés par une chaleur exceptionnelle, avec un premier épisode caniculaire ce week-end (surtout Sud-Ouest et Centre) suivi d'une vague de chaleur encore plus intense en semaine 2 (du 11 au 14 août). Le sud-est reste sous une chaleur caniculaire continue depuis la mi-juin. Une possible sortie de crise après le 15 août reste très incertaine..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Important contraste thermique avant une dégradation orageuse dimanche..
+Températures attendues précédemment : Maximums possibles de 35-38°C sur le Nord et l’Est dimanche si le scénario se confirme..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
