@@ -31,101 +31,102 @@
       margin: 0 auto;
     }
     .header {
-      background: linear-gradient(135deg, #1e293b, #0f172a);
+      background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 24px;
+      text-align: center;
       margin-bottom: 24px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 15px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
     }
-    .header h1 { font-size: 1.8rem; color: var(--primary); display: flex; align-items: center; gap: 10px; }
-    .header .date { background: rgba(56, 189, 248, 0.15); border: 1px solid var(--primary); color: var(--primary); padding: 6px 14px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; }
-    
-    .nav-tabs {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
+    .header h1 {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 8px;
     }
-    .nav-tab {
-      padding: 10px 18px;
-      background: rgba(30, 41, 59, 0.7);
-      border: 1px solid var(--border);
+    .header .date {
       color: var(--text-muted);
-      border-radius: 10px;
+      font-size: 0.95rem;
+    }
+    .nav-bar {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .nav-btn {
+      padding: 10px 20px;
+      border-radius: 12px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
       text-decoration: none;
       font-weight: 600;
-      transition: all 0.2s;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
     }
-    .nav-tab.active, .nav-tab:hover {
+    .nav-btn:hover, .nav-btn.active {
       background: var(--accent);
       color: #fff;
       border-color: var(--primary);
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
     }
-
     .section {
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 22px;
-      margin-bottom: 20px;
-      backdrop-filter: blur(10px);
+      padding: 24px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(12px);
     }
     .section-title {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
       color: var(--primary);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 12px;
       margin-bottom: 16px;
       display: flex;
       align-items: center;
       gap: 10px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 10px;
     }
-    .alert-box {
-      background: rgba(34, 197, 94, 0.1);
-      border-left: 4px solid var(--success);
-      padding: 14px 18px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }
-    .alert-box.warning {
-      background: rgba(234, 179, 8, 0.1);
-      border-left-color: var(--warning);
-    }
-
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 12px;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
     }
     th, td {
-      padding: 12px 14px;
+      padding: 10px 12px;
       text-align: left;
       border-bottom: 1px solid var(--border);
     }
     th {
-      background: rgba(15, 23, 42, 0.8);
+      background: rgba(255, 255, 255, 0.05);
       color: var(--primary);
       font-weight: 600;
     }
-    tr:hover { background: rgba(255, 255, 255, 0.03); }
-    
+    tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
     .badge {
       display: inline-block;
       padding: 4px 8px;
       border-radius: 6px;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 600;
     }
-    .badge-green { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid #22c55e; }
-    .badge-yellow { background: rgba(234, 179, 8, 0.2); color: #fde047; border: 1px solid #eab308; }
-
+    .badge-green { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.4); }
+    .badge-yellow { background: rgba(234, 179, 8, 0.2); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.4); }
+    .badge-red { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); }
+    .alert-box {
+      background: rgba(56, 189, 248, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 16px;
+    }
     .footer {
       text-align: center;
       padding: 20px;
@@ -138,43 +139,676 @@
   <div class="container">
     <div class="header">
       <h1>🇫🇷 Bulletin Météo National Premium</h1>
-      <span class="date"><i class="fa-regular fa-calendar"></i> Jeudi 6 Août 2026</span>
+      <div class="date"><i class="fa-regular fa-clock"></i> Édition du Jeudi 6 Août 2026</div>
     </div>
 
-    <div class="nav-tabs">
-      <a href="bulletin_national.html" class="nav-tab active">🇫🇷 National</a>
-      <a href="bulletin_hdf.html" class="nav-tab ">🌾 Hauts-de-France (5 dép.)</a>
-      <a href="bulletin_npdc.html" class="nav-tab ">⚓ Nord-Pas-de-Calais (59 & 62)</a>
+    <div class="nav-bar">
+      <a href="bulletin_national.html" class="nav-btn active"><i class="fa-solid fa-earth-france"></i> 🌊 Bulletin National</a>
+      <a href="bulletin_hdf.html" class="nav-btn "><i class="fa-solid fa-map-location-dot"></i> 🌾 Hauts-de-France</a>
+      <a href="bulletin_npdc.html" class="nav-btn "><i class="fa-solid fa-water"></i> ⚓ Nord-Pas-de-Calais</a>
+      <a href="index.html" class="nav-btn"><i class="fa-solid fa-house"></i> Accueil Synthèse</a>
     </div>
 
     
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-triangle-exclamation"></i> 1. Vigilance Météo-France Nationale</div>
-      <div class="alert-box">
-        <p>🟢 <strong>Vigilance Verte</strong> prédominante sur le pays. Aucun risque météorologique majeur signalé.</p>
-      </div>
+      <div class="section-title"><i class="fa-solid fa-file-lines"></i> 1. Bulletin Météo National & Expertise</div>
+      <h1 style="color:var(--primary); margin-bottom:12px; font-size:1.5em;">REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL (Jeudi 6 Août 2026)</h1>
+<p style="margin-bottom:8px; line-height:1.6;">Date actuelle de génération : Jeudi 6 Août 2026</p>
+<p style="margin-bottom:8px; line-height:1.6;">Saison en France : ÉTÉ</p>
+<p style="margin-bottom:8px; line-height:1.6;">PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :</p>
+<ul style="padding-left:20px; margin-bottom:12px;">
+<li>SEMAINE 1 PREVISION : Du Jeudi 6 au Dimanche 9 Août 2026</li>
+<li>SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026</li>
+</ul>
+<p style="margin-bottom:8px; line-height:1.6;">TRANSPARENCE SUJETS FORUM INFOCLIMAT :</p>
+<ul style="padding-left:20px; margin-bottom:12px;">
+<li>Sujet 1 exploité : Du 3 Août Au 9 Août 2026 Prévisions Météo Semaine 32</li>
+<li>Sujet 2 exploité : Du 10 Août Au 16 Août 2026 Prévisions Météo Semaine 33</li>
+</ul>
+<p style="margin-bottom:8px; line-height:1.6;">=== SOURCES COMPLÉMENTAIRES (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Emis le : 06/08/2026 16:45</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vigilance :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aujourd'hui et demain, Paris et sa petite couronne sont en vigilance verte.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Observations :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aujourd'hui on observait à 16h :</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Paris-Montsouris : température de 24 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1023 hPa.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Au Jardin du Luxembourg : température de 25 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Prévisions pour les tout prochains jours :</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour cette nuit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le temps est calme et propice à l'observation des étoiles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent de Nord modéré, en début de nuit ; puis s'atténuant.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : comprises entre 13 et 15 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour demain vendredi 07 en journée et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent de Nord-Est, modéré, soufflant sur le Val de Marne, à la tombée du jour ; et sur la Seine-Saint-Denis, en milieu de nuit.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : comprises entre 27 et 28 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : entre 15 et 17 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de samedi 08 et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est clair toute la nuit.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent faible, variable.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : entre 30 et 32 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : de 17 à 19 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de dimanche 09 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le soleil règne en maître du matin au soir.</p>
+<p style="margin-bottom:8px; line-height:1.6;">En fin d'après-midi, établissement d'un vent d'Ouest, généralement modéré.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : 33 degrés. Ces températures sont au-dessus des valeurs de saison.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour lundi 10 et mardi 11 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le soleil brille généreusement.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent modéré sur une grande moité ouest, de Nord-Nord-Ouest lundi après-midi et en fin de journée ; et de Nord-Est, mardi après-midi et en fin de journée.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : voisines de 18 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : proches de 31 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour mercredi 12 et jeudi 13 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Beau temps sec et bien ensoleillé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Jeudi après-midi et en fin de journée, vent de Nord-Ouest, souvent modéré.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : entre 18 et 20 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : proches de 36 degrés. Ces températures sont bien au-dessus des valeurs normalement observées.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour vendredi 14 et samedi 15 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le soleil brille sans partage.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent de Nord-Ouest, localement modéré, faiblissant temporairement.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : en baisse sur le nord.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : en baisse.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Emis le : 06/08/2026 16:45</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vigilance :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Attention, aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance jaune pour le phénomène canicule.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Observations :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aujourd'hui on observait à 16h :</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Marignane : température de 37 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 45 km/h, pression niveau mer 1014 hPa.</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Aix-en-Provence : température de 36 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 30 km/h.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Prévisions pour les tout prochains jours :</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour cette nuit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le ciel est bien étoilé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent faible dans l'ensemble.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : du Rhône à Aix et à Marseille voisines de 22 à 25 degrés. Comprises entre 16 et 17 degrés sur le val de Durance et la Sainte Baume.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour demain vendredi 07 en journée et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le temps est ensoleillé du matin au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">En seconde partie de journée, vent s'orientant Ouest à Nord-Ouest, souvent assez fort ; atténuation ensuite.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : entre 34 et 37 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : du Rhône à l'étang de Berre et jusqu'aux Calanques entre 21 et 24 degrés. De 16 à 19 degrés entre Aix Aubagne et Jouques.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de samedi 08 et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le soleil domine largement du matin au soir. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent de Sud à Sud-Ouest assez faible.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : comprises entre 35 et 37 degrés, et 33 degrés à Marseille et dans les Calanques.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille comprises entre 21 et 24 degrés. De 17 à 18 degrés sur le val de Durance et la Sainte Baume.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de dimanche 09 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">La journée est belle, le soleil est largement présent.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Petit vent de Sud à Sud-Ouest généralement faible.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : de 34 à 37 degrés, et comprises entre 32 et 33 degrés sur la Camargue et les Calanques.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour lundi 10 et mardi 11 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Dans le val de Durance, risque de pluie de lundi à la mi-journée jusqu'en fin de journée. Ailleurs, beau temps sec et bien ensoleillé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent faible à modéré dans l'ensemble.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : du Rhône à Aix et à Marseille comprises entre 21 et 24 degrés. 18 degrés sur le val de Durance et la Sainte Baume.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : voisines de 36 degrés, et 32 degrés sur la Camargue et les Calanques.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour mercredi 12 et jeudi 13 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Entre Trets et Aubagne, temps pluvieux de jeudi à la mi-journée jusqu'en fin de journée. Sur les autres régions, le soleil brille sans partage.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent faible à modéré d'Ouest à Sud-Ouest.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : du Rhône à Aix et à Marseille comprises entre 21 et 24 degrés. 19 degrés sur le val de Durance et la Sainte Baume.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : entre 36 et 39 degrés, et 32 degrés sur la Camargue et les Calanques.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour vendredi 14 et samedi 15 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Dans les terres, éclaircies prédominantes, risque de pluie temporaire. Sur les autres régions, soleil et ciel bleu prédominent.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent d'Ouest à Nord-Ouest faible à modéré.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : identiques à la veille.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : stationnaires.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Emis le : 06/08/2026 16:45</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vigilance :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aujourd'hui et demain, le département de la Gironde est en vigilance verte.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Observations :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aujourd'hui on observait à 16h :</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Bordeaux : température de 30 degrés, vent de secteur Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1022 hPa.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Au Cap-Ferret : température de 26 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 25 km/h.</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Libourne : température de 29 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 30 km/h.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Prévisions pour les tout prochains jours :</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour cette nuit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les rares nuages présents n'empêchent nullement l'observation des étoiles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">En début de nuit, vent de Nord à Nord-Ouest, localement modéré. Nouveau renforcement en fin de nuit, sur le littoral, avec orientation au Nord-Est.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : de 13 à 16 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour demain vendredi 07 en journée et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le soleil règne en maître du matin au soir. Pour la nuit : Le ciel est clair toute la nuit.</p>
+<p style="margin-bottom:8px; line-height:1.6;">En fin d'après-midi, vent s'établissant au Nord à Nord-Ouest assez fort, sur le littoral ; puis atténuation.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : entre 31 et 34 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : comprises entre 17 et 19 degrés, et 15 degrés sur les Landes girondines.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de samedi 08 et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le soleil est généreux tout au long de la journée. Pour la nuit : Les éclaircies, déjà belles en soirée, s'élargissent temporairement. En seconde partie de nuit, des cumulus bourgeonnent et deviennent menaçants. Les premiers orages peuvent se déclencher, sur les Landes girondines. Ce risque se généralise en fin de nuit.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Etablissement, l'après-midi et une grande partie de la nuit suivante, d'un vent d'Ouest tournant Nord, généralement modéré ; atténuation ensuite.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : entre 35 et 37 degrés, et voisines de 27 à 30 degrés sur le bord de mer. Ces températures se situent localement bien au-dessus des valeurs de saison.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : comprises entre 18 et 21 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de dimanche 09 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Malgré la présence d'assez belles éclaircies, l'atmosphère est lourde. Des orages sont possibles en début de matinée. Après une accalmie, à la mi-journée, le risque orageux est de nouveau présent en cours d'après-midi.</p>
+<p style="margin-bottom:8px; line-height:1.6;">L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord-Ouest, souvent modéré.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : entre 32 et 35 degrés, et 29 degrés sur le Bassin d'Arcachon, 23 degrés sur le littoral.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour lundi 10 et mardi 11 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Soleil et ciel bleu prédominent.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent de Nord à Nord-Est modéré, sur le Nord-Ouest du département.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : de 17 à 19 degrés, et 21 degrés sur le littoral.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : entre 34 et 37 degrés, et 28 degrés sur le littoral. Ces températures se situent au-dessus des valeurs normalement observées, par endroits très au-dessus.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour mercredi 12 et jeudi 13 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Beau temps sec et ensoleillé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent modéré, d'Est-Nord-Est tournant Nord-Ouest.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : entre 18 et 21 degrés, et 22 degrés sur le littoral.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : autour de 32 à 35 degrés, et 24 degrés sur le littoral.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour vendredi 14 et samedi 15 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Soleil généreux.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent de Nord-Ouest, modéré.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : en baisse autour de l'estuaire de la Gironde, sur l'agglomération bordelaise ainsi que sur l'Entre-Deux-Mers.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : en baisse autour de l'estuaire de la Gironde ainsi que sur la majeure partie sud du département.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Emis le : 06/08/2026 16:45</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vigilance :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Attention, aujourd'hui et demain, le département du Rhône est en vigilance jaune pour le phénomène canicule.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Observations :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aujourd'hui on observait à 16h :</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Lyon : température de 32 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 30 km/h, pression niveau mer 1018 hPa.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aux Sauvages : température de 28 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 40 km/h.</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Brindas : température de 31 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Prévisions pour les tout prochains jours :</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour cette nuit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le ciel est bien étoilé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent généralement modéré, de Nord à Nord-Ouest.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : entre 17 et 19 degrés, et 15 degrés dans les monts du Lyonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour demain vendredi 07 en journée et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">En journée et jusqu'en milieu de nuit, vent de Nord généralement, modéré ; puis faiblissant.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : entre 29 et 32 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : autour de 16 à 19 degrés, et 14 degrés dans les monts du Lyonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de samedi 08 et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">La journée est ensoleillée. Il faut attendre la fin d'après-midi, pour voir le soleil voilé par des nuages, au confluent Brévenne Turdine Azergues ainsi que des monts du Lyonnais à Givors. Pour la nuit : Le ciel est souvent étoilé. En fin de nuit, des orages accompagnés de pluies se forment par places sur les coteaux du Lyonnais ainsi qu'au confluent Brévenne Turdine Azergues.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent variable, faible.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : de 32 à 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : de 19 à 22 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de dimanche 09 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Quelques périodes ensoleillées se produisent. Cependant, le ciel est menaçant et des orages sont probables.</p>
+<p style="margin-bottom:8px; line-height:1.6;">En début d'après-midi, vent s'orientant au Sud-Ouest modéré, en région lyonnaise ; atténuation ensuite.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : comprises entre 33 et 36 degrés, et comprises entre 30 et 31 degrés sur le relief.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour lundi 10 et mardi 11 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Risque de pluie ou d'averses de lundi matin jusqu'en fin de journée.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent faible, variable.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : de 18 à 21 degrés, et 17 degrés dans les monts du Lyonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : comprises entre 32 et 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour mercredi 12 et jeudi 13 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Dans les monts du Lyonnais ainsi qu'au confluent Brévenne Turdine Azergues, temps pluvieux de jeudi à la mi-journée jusqu'en fin de journée. Sur les autres régions, beau temps sec et bien ensoleillé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent variable, faible.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : de 19 à 22 degrés, et 18 degrés dans les monts du Lyonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : entre 35 et 38 degrés. Ces températures se situent bien au-dessus des valeurs normalement observées.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour vendredi 14 et samedi 15 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent faible, variable.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : en hausse en Val de Saône.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : en baisse sauf en région lyonnaise.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Emis le : 06/08/2026 16:45</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vigilance :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Attention, aujourd'hui, le département de la Haute-Garonne est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Observations :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Aujourd'hui on observait à 16h :</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Toulouse-Blagnac : température de 30 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 40 km/h, pression niveau mer 1020 hPa.</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Luchon : température de 23 degrés, vent de secteur Nord soufflant jusqu'à 25 km/h.</p>
+<p style="margin-bottom:8px; line-height:1.6;">A Saint-Félix-Lauragais : température de 30 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 35 km/h.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Prévisions pour les tout prochains jours :</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour cette nuit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le ciel est dégagé. Quelques nuages sont présents en première partie de nuit, dans le Volvestre ainsi que sur le piémont et la montagne. Ils se dissipent après minuit.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent généralement modéré, d'Ouest à Nord-Ouest.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : comprises entre 16 et 19 degrés.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour demain vendredi 07 en journée et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le soleil brille sans interruption. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent variable, faible.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : sur la plaine et le piémont comprises entre 33 et 35 degrés. 30 degrés sur le Cagire et le Luchonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : de 14 à 17 degrés, et de 18 à 20 degrés du Lauragais aux coteaux de Cadours.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de samedi 08 et la nuit suivante :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le voile nuageux, présent le matin, laisse ensuite place à des nuages de plus en plus menaçants. Les orages débutent dans le Volvestre ainsi que sur le Cagire et le Luchonnais, en début d'après-midi, et se généralisent en fin de journée. Pour la nuit : Des orages sont possibles en soirée, sur la grande plaine toulousaine ainsi qu'au sud-ouest du département. L'activité orageuse s'estompe rapidement. Le ciel se dégage peu à peu en cours de nuit.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent localement faible à modéré, en fin d'après-midi et jusqu'en milieu de nuit. Après une atténuation, reprise tôt le matin, sur le Lauragais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales pour le jour : sur la plaine et le piémont entre 36 et 38 degrés. 30 degrés sur le Cagire et le Luchonnais. Ces températures se situent par endroits bien au-dessus des valeurs de saison.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales pour la nuit suivante : sur la plaine et le piémont de 19 à 22 degrés. 15 degrés sur le Cagire et le Luchonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour la journée de dimanche 09 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">De belles éclaircies illuminent la matinée. L'après-midi, les nuages deviennent plus nombreux. Des orages sont alors possibles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent de Sud-Est modéré, sur le Lauragais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : sur la plaine et le piémont entre 34 et 36 degrés. 29 degrés sur le Cagire et le Luchonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour lundi 10 et mardi 11 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur le Cagire et le Luchonnais, ciel nuageux se dégageant temporairement ; temps changeant accompagné de possibles ondées éparses de lundi matin jusqu'en fin de journée et de mardi matin jusqu'en fin de journée. Ailleurs, soleil et ciel bleu prédominent.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent localement modéré, d'Ouest, en milieu de nuit de dimanche à lundi ; et d'Est à Sud-Est, de la matinée de mardi jusqu'en début de nuit suivante.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : voisines de 16 à 19 degrés, et 22 degrés dans l'Agglomération toulousaine.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : sur la plaine et le piémont comprises entre 36 et 38 degrés. 33 degrés sur le Cagire et le Luchonnais. Ces températures sont localement très au-dessus des valeurs de saison.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour mercredi 12 et jeudi 13 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur le Cagire et le Luchonnais, ciel nuageux s'éclaircissant par moments ; temps changeant donnant de possibles averses de mercredi matin jusqu'en fin de journée et de jeudi matin jusqu'en fin de journée. Sur les autres régions, soleil généreux.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent soufflant modérément par endroits, de Sud-Est, jusqu'au petit matin de mercredi ; et d'Ouest-Sud-Ouest, en première partie de nuit de mercredi à jeudi.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : sur la plaine et le piémont voisines de 18 à 21 degrés. 14 degrés sur le Cagire et le Luchonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : sur la plaine et le piémont comprises entre 36 et 38 degrés. 34 degrés sur le Cagire et le Luchonnais.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Pour vendredi 14 et samedi 15 :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur le Cagire et le Luchonnais, ciel nuageux s'éclaircissant par moments ; risque de pluie ou d'averses de vendredi matin jusqu'au milieu de nuit suivante et de samedi matin jusqu'en début de nuit. Ailleurs, beau temps ensoleillé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vent d'Ouest temporairement modéré, sur la plaine et le piémont.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures minimales : en hausse sur le Cagire et le Luchonnais.En baisse sur les coteaux de Gascogne.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures maximales : en baisse.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">FQCT40 LFML 061020 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 6 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand Frais Nr 269 pour PROVENCE 2 - Situation générale jeudi 6 août 2026 à 06H00 UTC, et évolution Hautes pressions 1016-1018 hPa à l'ouest du bassin. Dépression relative 1014 hPa sur les côtes de Provence, se creusant 1011 hPa entre Corse et Continent, en soirée. Les basses pression s'étendent jusqu'au Roussillon demain après-midi, 1011-1014 hPa d'est en ouest. 3 - Prévisions pour l'après-midi du jeudi 6 août VENT : Ouest à Sud-Ouest 3 à 5, localement 6 de Cap Croisette au large de Cap Camarat, fraîchissant parfois 7 entre Hyères et Cap Camarat en fin d'après-midi, mais devenant localement Variable 3 à 5 vers Saint-Raphaël. Rafales. MER : peu agitée, devenant progressivement agitée l'après-midi à l'est du Cap Croisette. HOULE : Ouest 0.5 à 1 m, s'amortissant l'après-midi, mais s'amplifiant localement Sud-Ouest 1 à 1.5 m en fin de journée à l'est du Levant. TEMPS : ensoleillé, devenant voilé vers la Camargue en fin d'après-midi. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 6 août au vendredi 7 août VENT : - de Port-Camargue au Levant : Ouest à Nord-Ouest 4 à 6, localement 6 à 7 d'Hyères au Levant au début, mollissant 4 à 5 en milieu de nuit à l'ouest de Fos. Rafales. - du Levant à Saint-Raphaël : Nord à Nord-Est 2 à 4, mais localement Ouest 5 à 6, voir 7 au large du Levant au début, mollissant 1 à 3 en seconde partie de nuit. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 1.5 m d'Hyères au large du Cap Camarat. TEMPS : voilé, puis ciel devenant clair en seconde partie de nuit. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 7 août VENT : - à l'ouest du Levant : Nord-Ouest 5 à 6, mais localement 4 à 5 à l'ouest de Fos, puis revenant Ouest à Sud-Ouest l'après-midi. Rafales. - à l'est du Levant : Nord à Nord-Ouest 2 à 4, devenant Variable à la mi-journée, puis fraîchissant secteur Sud-Ouest 3 à 5 en milieu d'après-midi, localement 6 vers le Levant. MER : peu agitée à agitée, s'atténuant peu agitée l'après-midi à l'ouest de Cap Croisette. HOULE : - à l'ouest de Porquerolles : Sud-Ouest 0.5 à 1 m, s'amortissant l'après-midi. - à l'est de Porquerolles : Ouest à Sud-Ouest 1 à 1.5 m, mais non significative au nord du Cap Camarat. TEMPS : ensoleillé, quelques nuages le matin à l'est du Cap Camarat. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 7 au 8 et la journée du samedi 8 août VENT : - de Port Camargue au Cap Croisette : Ouest à Sud-Ouest 3 à 5, mollissant Nord-Ouest 2 à 4 en milieu de nuit, puis virant Sud-Ouest l'après-midi. - de Cap Croisette au Levant : Ouest 5 à 6, mollissant Ouest à Nord-Ouest 3 à 4 en milieu de nuit, puis mollissant Sud-Est 2 à 3 en fin de nuit. - du Levant à Saint-Raphaël : Variable 1 à 3, mais localement secteur Ouest 4 à 6 au sud du Levant en première partie de nuit, fraîchissant secteur Sud-Ouest 2 à 4 l'après-midi. MER : peu agitée à agitée, s'atténuant belle à peu agitée en matinée. HOULE : - à l'ouest de Porquerolles : Sud-Ouest 0.5 à 1 m, s'amortissant l'après-midi. - à l'est de Porquerolles : Ouest à Sud-Ouest 1 à 1.5 m, mais non significative au nord du Cap Camarat s'amortissant l'après-midi TEMPS : ensoleillé. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : De Port Camargue à Fos Sud à Sud-Est 2 à 3, fraîchissant temporairement 4 en seconde partie de nuit. De Fos à St Raphaël variable 1 à 3. MER : belle à peu agitée. Pas de houle significative. 8 - Tendance pour les jours suivants Lundi 10 août Variable faible. Indice de confiance : 4 sur 5 Mardi 11 août Secteur Sud dans le golfe du Lion, Variable faible ailleurs. Indice de confiance : 4 sur 5 Mercredi 12 août Secteur Sud dans le golfe du Lion, Secteur Nord-Ouest ailleurs. Indice de confiance : 3 sur 5 Jeudi 13 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le jeudi 6 août 2026 à 09H00 UTC Cap Camarat : vent Est 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 6 noeuds. Le Levant : vent Sud-Sud-Est 6 noeuds, 1016 hPa en hausse. Porquerolles : vent Sud-Sud-Ouest 4 noeuds. Cap Couronne : vent Nord-Ouest 12 noeuds. Prochain bulletin le jeudi 6 août 2026, vers 18H30 légales</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :</p>
+<p style="margin-bottom:8px; line-height:1.6;">J+2 et J+3 ﻿L'épisode caniculaire se poursuit ce week-end près de la</p>
+<p style="margin-bottom:8px; line-height:1.6;">Méditerranée et en vallée du Rhône.</p>
+<p style="margin-bottom:8px; line-height:1.6;">La dégradation orageuse reste incertaine, elle débutera</p>
+<p style="margin-bottom:8px; line-height:1.6;">samedi soir sur l'Aquitaine et pourrait s'étendre aux autres</p>
+<p style="margin-bottom:8px; line-height:1.6;">régions de la moitié sud dimanche, mais le passage en</p>
+<p style="margin-bottom:8px; line-height:1.6;">vigilance orange n'est à ce stade pas privilégié.</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :</p>
+<p style="margin-bottom:8px; line-height:1.6;">De J+4 à J+7 ﻿Les conditions caniculaires se poursuivent au sud-est et</p>
+<p style="margin-bottom:8px; line-height:1.6;">devraient se généraliser sur une large partie de la France les</p>
+<p style="margin-bottom:8px; line-height:1.6;">prochains jours.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== SÉCHERESSE DES SOLS & BILAN HYDRIQUE (BPSPC METEOTEL XML, VIGISEUILS, OPEN-METEO) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Météo-France XML BPSPC (Bulletin de Prévention des Sécheresses et Crues) [Seine-Yonne / Loire / Rhone] : Suivi hydrologique des bassins versants et nappes phréatiques en direct. Matrice des Vigiseuils préfectoraux : Bilan hydrique (P - ETP) en déficit avec une évapotranspiration de 5 à 7 mm/jour sur les sols superficiels. Indice d'Humidité des Sols (SWI) sous surveillance renforcée sur le relief et les plaines.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== EXPERTISE GUILLAUME SÉCHET & MÉTÉO-VILLES EN DIRECT ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Expertise Guillaume Séchet (Météo-Villes) intégrée.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Infoclimat Direct : Suivi du temps au Japon</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Infoclimat Direct : Console Weather Link live et station Vantage Vue 2020</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Infoclimat Direct : Vigilance Météo France</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">• Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Dernier bulletin généré le Jeudi 6 Août 2026.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Résumé général précédent : Après un refroidissement ponctuel en début de semaine 1, une nouvelle vague de chaleur majeure s'installera durablement à partir de lundi 10, avec un pic attendu entre le 11 et le 14 août. Une baisse progressive est possible après le 15, mais reste incertaine..</p>
+<p style="margin-bottom:8px; line-height:1.6;">Confiance précédente de la semaine 1 : Modérée.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Températures attendues précédemment : T° très élevées samedi-dimanche, risque orageux sur l’ouest..</p>
+<p style="margin-bottom:8px; line-height:1.6;">============================================</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Krholam</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Oui, niveau PP le nord / Nord ouest c'est pas fameux et les modèles sont plutôt raccord entre eux.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Cumul entre le 02/08 et le 09/08</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Hassan</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Arôme commence a modéliser un front de rafale du Centre au Nord-est lundi après les très forte chaleur sur ces régions avec des rafales de plus de 100kmh localement.</p>
+<p style="margin-bottom:8px; line-height:1.6;">A suivre</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: _sb</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 7 heures, symaski62 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">1 août à  3 août   2026 (après-midi)  500 hPa</p>
+<p style="margin-bottom:8px; line-height:1.6;">3 août soir   pluie    🤔</p>
+<p style="margin-bottom:8px; line-height:1.6;">avant</p>
+<p style="margin-bottom:8px; line-height:1.6;">En effet, c'est l'explication de cette salve orageuse lundi.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur le sud-est, la chaleur étouffante continue.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Modifié samedi à 22:24 par _sb</p>
+<p style="margin-bottom:8px; line-height:1.6;">13</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: symaski62</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">lundi   3 août  18z à 21 z</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: symaski62</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">WOW     pluie   fort     +30mm/h</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: meteo noobs</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Heu.....</p>
+<p style="margin-bottom:8px; line-height:1.6;">On avait prévu ca sur ce topic ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Ca tabasse presque des 150...</p>
+<p style="margin-bottom:8px; line-height:1.6;">Modifié lundi à 01:14 par meteo noobs</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: iu11</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Concernant ce lundi, zone orageuse du sud-ouest au nord-est. Vigilance orange émise à 6h pour certains départements du sud-ouest. Néanmoins je pense que le risque notamment venteux est plus généralisé. Harmonie est assez sévère vers la région centre. Arome exprime bien le risque que ce soit sur le version IFS ou classique même si on connait parfois sa facilité pour grimper dans les valeurs.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Moyenne Arome 21z :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Mais ce qui "m'intrigue" on va dire c'est ICON-D2. Je n'utilise pas très souvent ce modèle car il est assez "silencieux" en général concernant le vent je trouve. C'est pas quelque chose qu'il exprime facilement. Et ce matin il envoie lui aussi un signal. Après je ne connais pas vraiment sa fiabilité.</p>
+<p style="margin-bottom:8px; line-height:1.6;">À voir...</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: symaski62</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">https://www.keraunos.org/previsions/prevision-orage-tornade-france-convective-outlook.html</p>
+<p style="margin-bottom:8px; line-height:1.6;">tornade + grêle  = faible</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: edd</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 02/08/2026 à 00:23, _sb a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">En effet, c'est l'explication de cette salve orageuse lundi.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur le sud-est, la chaleur étouffante continue.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Hello</p>
+<p style="margin-bottom:8px; line-height:1.6;">Ne risque-t-on pas surtout d'avoir à nouveau une semaine globalement chaude et sèche (très sèche sur le nord) ? Dans la continuité de cet été ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les diagrammes réagissent peu, mis à part ce soir sur le MC</p>
+<p style="margin-bottom:8px; line-height:1.6;">On attend toujours notre sortie de récurrence... Même si les basses pressions sont un peu descendues...</p>
+<p style="margin-bottom:8px; line-height:1.6;">A+</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: symaski62</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">orage  alerte  orange   après-midi à minuit</p>
+<p style="margin-bottom:8px; line-height:1.6;">6</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Merluz</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">il y a 26 minutes, guiguite91 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bonjour,</p>
+<p style="margin-bottom:8px; line-height:1.6;">Pourrais-tu rédiger correctement, s'il-te-plaît ? C'est extrêmement pénible à lire...</p>
+<p style="margin-bottom:8px; line-height:1.6;">"A un handicap général de 80% et il fait beaucoup d'efforts pour la communauté et pour s'exprimer, merci d'être compréhensif."</p>
+<p style="margin-bottom:8px; line-height:1.6;">ça fait 2 fois en quelques jours que symaski62 se fait reprendre pas très élégamment sur son expression...</p>
+<p style="margin-bottom:8px; line-height:1.6;">9</p>
+<p style="margin-bottom:8px; line-height:1.6;">14</p>
+<p style="margin-bottom:8px; line-height:1.6;">6</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Jetrejo</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Pour la défense des râleurs, les signatures n'étant pas affichées sur version mobile du site, il est possible de louper l'info.</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: guiguite91</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 3 heures, Merluz a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">"A un handicap général de 80% et il fait beaucoup d'efforts pour la communauté et pour s'exprimer, merci d'être compréhensif."</p>
+<p style="margin-bottom:8px; line-height:1.6;">ça fait 2 fois en quelques jours que symaski62 se fait reprendre pas très élégamment sur son expression...</p>
+<p style="margin-bottom:8px; line-height:1.6;">Salut,</p>
+<p style="margin-bottom:8px; line-height:1.6;">Je n'étais pas au courant. J'en suis désolé.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Mais je ne vois pas en quoi mon intervention est inélégante : j'ai salué et utilisé une expression de politesse.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Fin du HS.</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Virgile</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Ca va faire tellement longtemps que l'on va connaitre jeudi une moyenne nationale thermique "aussi basse" pour le pays. Rien d'exceptionnel. Juste les normales de saison sur notre pays, un peu fraiche même dans le nord ouest, ca resterait trop chaud dans la basse vallée du rhone et l'intérieur de la Provence. Cette parenthése devrait etre de courte durée et avec une nouvelle hausse sensible samedi.</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: _sb</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 03/08/2026 à 11:27, edd a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Hello</p>
+<p style="margin-bottom:8px; line-height:1.6;">Ne risque-t-on pas surtout d'avoir à nouveau une semaine globalement chaude et sèche (très sèche sur le nord) ? Dans la continuité de cet été ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les diagrammes réagissent peu, mis à part ce soir sur le MC</p>
+<p style="margin-bottom:8px; line-height:1.6;">On attend toujours notre sortie de récurrence... Même si les basses pressions sont un peu descendues...</p>
+<p style="margin-bottom:8px; line-height:1.6;">A+</p>
+<p style="margin-bottom:8px; line-height:1.6;">Hello,</p>
+<p style="margin-bottom:8px; line-height:1.6;">C'était effectivement le sens de mon message.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les cartes d'anomalies sont à considérer selon la climatologie du lieu. J'avais envie de dire que c'est une lapalissade ! 😉</p>
+<p style="margin-bottom:8px; line-height:1.6;">J'y rajoute le contexte.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Une climato relativement basse en valeurs absolues, il ne faudra pas grand arrosage pour connaître un excédent.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Quant au contexte, il est très chaud dans une longue séquence très sèche. De plus, ce sont des orages qui sont prévus d'une hétérogénéité ± importante. Donc ce qui tombera séchera rapidement et ne tombera pas partout. Au vu de l'environnement anticyclonique, le forçage orographique sera un plus. La semaine sera globalement sèche.</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: tao</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 01/08/2026 à 21:11, Virgile a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Salut,</p>
+<p style="margin-bottom:8px; line-height:1.6;">j'ai entendu dire qu'il aurait eu de rares moments de lucidité à cette période !</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: faycal</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">GFS s'entête à voir un enfoncement plus prononcée dans le golfe de Gascogne pour dimanche avec à la clé un pic de tres fortes chaleurs jusqu'au frontières belges.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les autres modèles ont ce matin mais un petit pas vers lui avec un pic de chaleur plus affirmé mais GFS reste excessif.</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: meteo noobs</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Dégradation potentiellement marquée ce week end</p>
+<p style="margin-bottom:8px; line-height:1.6;">Air provenant du sud ouest fortement instable</p>
+<p style="margin-bottom:8px; line-height:1.6;">Rien à attendre côté température.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bouillant potentiellement très lourd avec les orages.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Mise en avant par Keraunos pluie et grêle</p>
+<p style="margin-bottom:8px; line-height:1.6;">Axe habituel</p>
+<p style="margin-bottom:8px; line-height:1.6;">sud ouest/centre est débordement nord est.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Instabilité visible sur GFS/GEM/CEP/ICON seul le timing diverge.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Thunder réagit aussi sur les outlook grêle ainsi que vent avec les mêmes secteur en 2% et 5%.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Samedi</p>
+<p style="margin-bottom:8px; line-height:1.6;">Dimanche</p>
+<p style="margin-bottom:8px; line-height:1.6;">MF</p>
+<p style="margin-bottom:8px; line-height:1.6;">Carte d'hier donc certainement actualisation pour samedi  aujourd'hui à 13h</p>
+<p style="margin-bottom:8px; line-height:1.6;">Modifié il y a 10 heures par meteo noobs</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: jt75</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 26/07/2026 à 19:13, jt75 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">On dit que GFS est visionnaire pour prévoir à l'avance les vagues de chaleur, alors ce qui est devenu un grand classique:</p>
+<p style="margin-bottom:8px; line-height:1.6;">anomalie T850 pour 9 aout:💀</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: James</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">3 hours ago, jt75 said:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Question bête peut-être mais est-ce parce que l'été, les centres d'actions/masses d'air sont plus "simples" à calculer car atmosphère moins chaotique par chez nous ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Alors que comme dit à la page précédente, l'hiver c'est le contraire, les prévisions sont bien plus difficiles.</p>
+<p style="margin-bottom:8px; line-height:1.6;">=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Grahok73</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 11 heures, jt75 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">En fait, au niveau national, depuis mai, on voit bien 4 crêtes. La dernière est surtout dûe qu'à une partie du pays, elle n'a pas été vraiment généralisée à tout le territoire, ce qui fait dire à juste titre que certaines régions ne sont pas sorties de la chaleur très forte.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Reste à voir ce que promet le reste de la courbe, une nouvelle bosse ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Si c'est le cas, alors  à l'échelle du pays on pourra parler d'une 5ème</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Gaël13</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">il y a une heure, Nicolas L a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">On va se consoler en se disant que l'automne météorologique n'est plus très loin et que le rallongement des nuits pourra un peu limiter la casse.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Du 8 au 15 août inclus, généralisation des +30 degrés à quasiment tout le territoire sur GFS et CEP. Toujours un peu moins excessif près de la Manche. La moitié sud encore une fois en première ligne.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Petit espoir après le 15 août pour un retour progressif à la normale, même si ces sorties de crise sont sans arrêt repoussées. On va croiser les doigts.</p>
+<p style="margin-bottom:8px; line-height:1.6;">La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions.</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: petit âge glaciaire 11</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">il y a 10 minutes, Gaël13 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bon le film se passe avec une tempête de neige on est loin de ce qui se passe cet été mais l'histoire est la même,  chaque jour les Aixois se réveillent avec</p>
+<p style="margin-bottom:8px; line-height:1.6;">la même météo, je pense que le sud-est n'en peut plus de cette chaleur interminable.</p>
+<p style="margin-bottom:8px; line-height:1.6;">L'ensemble CEP modélise 13 jours  à venir avec une  moyennes des températures supérieurs ou égale à 20 degrés à 850 Hpa et aucune précipitations j'usqu'au 15 aout au minimum.</p>
+<p style="margin-bottom:8px; line-height:1.6;">C'est catastrophique</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bon courage aux Aixois et à tous les habitants d'une grosse partie du sud-est  !</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">6</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: fifouninho75</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">il y a 3 minutes, petit âge glaciaire 11 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bon le film se passe avec une tempête de neige on est loin de ce qui se passe cet été mais l'histoire est la même,  chaque jour les Aixois se réveillent avec</p>
+<p style="margin-bottom:8px; line-height:1.6;">la même météo, je pense que le sud-est n'en peut plus de cette chaleur interminable.</p>
+<p style="margin-bottom:8px; line-height:1.6;">L'ensemble CEP modélise 13 jours  à venir avec une  moyennes des températures supérieurs ou égale à 20 degrés à 850 Hpa et aucune précipitations j'usqu'au 15 aout au minimum.</p>
+<p style="margin-bottom:8px; line-height:1.6;">C'est catastrophique</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bon courage aux Aixois et à tous les habitants d'une grosse partie du sud-est  !</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le diagramme fait froid dans le dos, ou plutôt chaud 🤪</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Maupi85</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bonjour,</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les 3 dernières actualisations de l'ensemble européen :</p>
+<p style="margin-bottom:8px; line-height:1.6;">actualisation de Dimanche :</p>
+<p style="margin-bottom:8px; line-height:1.6;">de Lundi :</p>
+<p style="margin-bottom:8px; line-height:1.6;">de Mardi :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">4</p>
+<p style="margin-bottom:8px; line-height:1.6;">8</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Arkus</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">il y a 59 minutes, Maupi85 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bonjour,</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les 3 dernières actualisations de l'ensemble européen :</p>
+<p style="margin-bottom:8px; line-height:1.6;">actualisation de Dimanche :</p>
+<p style="margin-bottom:8px; line-height:1.6;">de Lundi :</p>
+<p style="margin-bottom:8px; line-height:1.6;">de Mardi :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).</p>
+<p style="margin-bottom:8px; line-height:1.6;">En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :</p>
+<p style="margin-bottom:8px; line-height:1.6;">La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Modifié hier à 10:57 par Arkus</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Virgile</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 04/08/2026 à 11:24, mathias a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.</p>
+<p style="margin-bottom:8px; line-height:1.6;">5</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Virgile</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.</p>
+<p style="margin-bottom:8px; line-height:1.6;">7</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">7</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: 970hPa</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">il y a 18 minutes, Virgile a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.</p>
+<p style="margin-bottom:8px; line-height:1.6;">En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les vdf a 72h la fiabilité est de 20% .....</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Arkus</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le 04/08/2026 à 14:22, gotman42 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Ca c'est vu depuis Paris.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄</p>
+<p style="margin-bottom:8px; line-height:1.6;">En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 4 heures, Gaël13 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.</p>
+<p style="margin-bottom:8px; line-height:1.6;">J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).</p>
+<p style="margin-bottom:8px; line-height:1.6;">Pour le reste, à voir et discuter en topics climato.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Modifié hier à 13:23 par Arkus</p>
+<p style="margin-bottom:8px; line-height:1.6;">21</p>
+<p style="margin-bottom:8px; line-height:1.6;">19</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: jt75</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 4 heures, Grahok73 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bonjour @Grahok73</p>
+<p style="margin-bottom:8px; line-height:1.6;">on n'est jamais mieux servi que sur infoclimat</p>
+<p style="margin-bottom:8px; line-height:1.6;">https://www.infoclimat.fr/climato/indicateur_national.php#2026;,1981-2010,1,-3.65,368.65,,y,desc,-1292739192000,1816056792000</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: mathias</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 8 heures, Virgile a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Je parlais de la période estivale...</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁</p>
+<p style="margin-bottom:8px; line-height:1.6;">Modifié il y a 20 heures par mathias</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Arkus</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :</p>
+<p style="margin-bottom:8px; line-height:1.6;">5</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">13</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: cirrus007</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...</p>
+<p style="margin-bottom:8px; line-height:1.6;">En tout cas, vu du SE, cet été n'est qu'une canicule géante, jamais de répit... c'est faramineux.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Et pour courage à ceux qui iront en Espagne pour l'éclipse  en plus des lunettes n'oubliez pas les parasols, brumisateurs et 5L d'eau.</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">8</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Jetrejo</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Moi qui vais en Suisse et qui pensait profiter de la fraicheur, il va falloir monter en altitude 😆</p>
+<p style="margin-bottom:8px; line-height:1.6;">Vivement Octobre en tout cas, vraiment marre de cette chaleur.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il semble toutefois y avoir un signal un peu plus humide à la fin du topic précèdent celui ci, et sur la fin de celui ci ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Synoptiques différentes avec plus de déstabilisation sur la fin Aout ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">C'est loin, en tout cas, la végétation et la faune devront essayer de tenir bon.</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Sebaas</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 23 heures, Grahok73 a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Tout est configurable à souhait pourtant!</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: TornadeScintillante</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">il y a 28 minutes, Jetrejo a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Moi qui vais en Suisse et qui pensait profiter de la fraicheur</p>
+<p style="margin-bottom:8px; line-height:1.6;">Cet été on n’a pas beaucoup profité de la fraîcheur en Suisse 😅</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Plancher</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">La répétition des vagues de chaleur conduit à une sorte de résignation.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Ça semble bien parti pour durer 4 ou 5 jours minimum.</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: petit âge glaciaire 11</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Afin de remonter le moral des troupes je vais parler d'un signal d'une baisse peutetre un peu plus durable qui pourrait débuter en toute fin de topic et enfin concerner le sud-est. Ce signal apparait depuis quelques jours et semble se consolider peu à peu.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Biensur rien n'est acquit mais le fait que ce signal se retrouve dans tous les modèles lui donne du poids.</p>
+<p style="margin-bottom:8px; line-height:1.6;">La carte des anomalies à long terme ilustre ce possible changement :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Au cour du topic les hauts géopotentiels sont sur la France  :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Au topic suivant ces hauts géopotentiels pourraient se décaler à l'ouest :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Marseille par exemple pourrait enfin sortir de la fournaise au cours du topic suivant et la baisse pourrait s'amorcer le dernier jour de ce topic, c'est loin mais c'est une perpective à laquelle il va falloir se raccrocher.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Si le sud-est, qui est la région qui a le plus de mal à sortir de ces températures hors normes depuis la mi juin, sort de cette m<strong></strong> le reste du pays en sortira encore plus.</p>
+<p style="margin-bottom:8px; line-height:1.6;">GEFS  Marseille :</p>
+<p style="margin-bottom:8px; line-height:1.6;">CEP Marseille :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Bon c'était la pour mettre un peu de baume au coeur à tous ceux qui sont prets à craquer mais en attendant il va falloir serrer les f<strong></strong>  pour presque tout ce topic car ce qui nous attend est tout simplement une nouvelle vague de chaleur voire une canicule de plus dans le sud. Mais peut-on parler d'une multiplication des vagues de chaleur cet été ou plutot d'une vague de chaleur qui dure depuis la mi juin (avec aussi une vague de chaleur en mai) , le tout ponctué de période de pauses,  excepté dans le sud-est ?</p>
+<p style="margin-bottom:8px; line-height:1.6;">Le nord sera aussi concerné mais cela ne sera pas trop durable.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Une porte de sortie envisagé donc mais en attendant les humains, la faune, la flore et la nature vont encore prendre cher.</p>
+<p style="margin-bottom:8px; line-height:1.6;">Pour les précipitations il faudra encore patienter et espérer qu'il y en aura au topic suivant.</p>
+<p style="margin-bottom:8px; line-height:1.6;">7</p>
+<p style="margin-bottom:8px; line-height:1.6;">2</p>
+<p style="margin-bottom:8px; line-height:1.6;">=======================</p>
+<p style="margin-bottom:8px; line-height:1.6;">Auteur: Cyclone30</p>
+<p style="margin-bottom:8px; line-height:1.6;">Message:</p>
+<p style="margin-bottom:8px; line-height:1.6;">Il y a 3 heures, Sebaas a dit :</p>
+<p style="margin-bottom:8px; line-height:1.6;">Tout est configurable à souhait pourtant!</p>
+<p style="margin-bottom:8px; line-height:1.6;">Je confirme le bug ponctuel d'hier (affichait jusqu'au 5 août au chargement de la page, mais revenait et limitait automatiquement au 25 juin dès lors que l'on faisait la moindre manipulation sur les dates limites de début ou de fin). Cela semble désormais corrigé (comment, je ne sais pas, mais il y a intérêt que cela ne soit pas Jean sur sa période de congés  ).</p>
+<p style="margin-bottom:8px; line-height:1.6;">3</p>
+<p style="margin-bottom:8px; line-height:1.6;">1</p>
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-tv"></i> 2. Météo Terrestre (Terre Ferme)</div>
-      <p style="margin-bottom: 12px;"><strong>Résumé du jour :</strong> Ensoleillement généreux sur une grande partie du territoire. Les températures restent très agréables et estivales.</p>
-      <ul>
-        <li><strong>Nord-Ouest & Atlantique :</strong> Temps sec, belles éclaircies, températures douces 21° à 24°C.</li>
-        <li><strong>Nord-Est & Île-de-France :</strong> Soleil prédominant, quelques voiles d'altitude, 23° à 26°C.</li>
-        <li><strong>Sud-Ouest & Pyrénées :</strong> Beau soleil, douceur marquée, 25° à 28°C.</li>
-        <li><strong>Sud-Est & Méditerranée :</strong> Soleil éclatant, chaleur modérée 27° à 31°C.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-anchor"></i> 3. Météo Marine (3 Façades Maritimes)</div>
-      <p><strong>Manche :</strong> Vent Ouest 10-15 nœuds, mer peu agitée. Visibilité bonne.</p>
-      <p><strong>Atlantique :</strong> Vent Sud-Ouest 10-14 nœuds, houle 1.0m, mer belle à peu agitée.</p>
-      <p><strong>Méditerranée :</strong> Vent Ouest 12-18 nœuds, mer belle, eau chaude à 24-26°C.</p>
-    </div>
-
-    <div class="section">
-      <div class="section-title"><i class="fa-solid fa-water"></i> 4. Marées & Météo des Plages Nationales</div>
+      <div class="section-title"><i class="fa-solid fa-water"></i> 2. Marées & Météo des Plages Nationales</div>
       <h4 style="margin-top: 10px; color: var(--primary);">Horaires et Coefficients de Marée (Brest)</h4>
       
     <table>
@@ -203,7 +837,6 @@
       <thead>
         <tr>
           <th>Façade Littorale</th>
-          <th>Air 🌡️</th>
           <th>Eau 🌊</th>
           <th>Baignade & Drapeau 🚩</th>
           <th>Indice UV ☀️</th>
@@ -213,7 +846,6 @@
         
         <tr>
           <td>🏖️ Manche / Côte d'Opale</td>
-          <td>23°C</td>
           <td><strong>–</strong></td>
           <td><span class="badge badge-green">🔵 Voir meteofrance.com/meteo-des-plages</span></td>
           <td><strong>–</strong></td>
@@ -221,7 +853,6 @@
         
         <tr>
           <td>🏖️ Bretagne (Nord & Sud)</td>
-          <td>23°C</td>
           <td><strong>–</strong></td>
           <td><span class="badge badge-green">🔵 Voir meteofrance.com/meteo-des-plages</span></td>
           <td><strong>–</strong></td>
@@ -229,7 +860,6 @@
         
         <tr>
           <td>🏖️ Atlantique (Vendée à Landes)</td>
-          <td>23°C</td>
           <td><strong>–</strong></td>
           <td><span class="badge badge-green">🔵 Voir meteofrance.com/meteo-des-plages</span></td>
           <td><strong>–</strong></td>
@@ -237,7 +867,6 @@
         
         <tr>
           <td>🏖️ Côte Basque (Biarritz)</td>
-          <td>23°C</td>
           <td><strong>–</strong></td>
           <td><span class="badge badge-green">🔵 Voir meteofrance.com/meteo-des-plages</span></td>
           <td><strong>–</strong></td>
@@ -245,7 +874,6 @@
         
         <tr>
           <td>🏖️ Méditerranée (Languedoc/PACA)</td>
-          <td>23°C</td>
           <td><strong>–</strong></td>
           <td><span class="badge badge-green">🔵 Voir meteofrance.com/meteo-des-plages</span></td>
           <td><strong>–</strong></td>
@@ -253,7 +881,6 @@
         
         <tr>
           <td>🏖️ Corse (Ajaccio / Bastia)</td>
-          <td>23°C</td>
           <td><strong>–</strong></td>
           <td><span class="badge badge-green">🔵 Voir meteofrance.com/meteo-des-plages</span></td>
           <td><strong>–</strong></td>
@@ -265,16 +892,15 @@
     </div>
 
     <div class="section">
-      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 5. Tendance à 14 Jours (France)</div>
+      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 3. Tendance à 14 Jours (France)</div>
       
     <table>
       <thead>
         <tr>
           <th>Jour</th>
           <th>Temps Sensible 🌤️</th>
-          <th>Temp. Min / Max 🌡️</th>
-          <th>Vent 💨</th>
-          <th>Confiance</th>
+          <th>Températures / Tendance 🌡️</th>
+          <th>Indice Confiance</th>
         </tr>
       </thead>
       <tbody>
@@ -283,7 +909,6 @@
           <td><strong>Jeu 6/08</strong></td>
           <td>2026)</td>
           <td>ITN 22.8–25.8°C</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
@@ -291,7 +916,6 @@
           <td><strong>Ven 7/08</strong></td>
           <td>journée et la nuit suivante :</td>
           <td>ITN 22.8–25.8°C</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
@@ -299,7 +923,6 @@
           <td><strong>Sam 8/08</strong></td>
           <td>la nuit suivante :</td>
           <td>ITN 22.8–25.8°C</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
@@ -307,7 +930,6 @@
           <td><strong>Dim 9/08</strong></td>
           <td>VENT : De Port Camargue à Fos Sud à Sud-Est 2 à 3, fraîchissant temporairement 4 en seconde partie de nuit. De Fos à St Raphaël variable 1 à 3. MER : belle à peu agitée. Pas de houle significative. 8</td>
           <td>ITN 22.8–25.8°C</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
@@ -315,7 +937,6 @@
           <td><strong>Lun 10/08</strong></td>
           <td>Dimanche 16 Août 2026</td>
           <td>ITN 22.8–25.8°C</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
@@ -323,7 +944,6 @@
           <td><strong>Mar 11/08</strong></td>
           <td>et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle</td>
           <td>ITN 22.8–25.8°C</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
@@ -331,14 +951,12 @@
           <td><strong>Mer 12/08</strong></td>
           <td>jeudi 13 :</td>
           <td>ITN 22.8–25.8°C</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
         <tr>
           <td><strong>Jeu 13/08</strong></td>
           <td>Secteur Ouest faible à modéré.</td>
-          <td>–</td>
           <td>–</td>
           <td>🟢 MF 3/5</td>
         </tr>
@@ -347,14 +965,12 @@
           <td><strong>Ven 14/08</strong></td>
           <td>samedi 15 :</td>
           <td>–</td>
-          <td>–</td>
           <td>🟡 MF 3/5</td>
         </tr>
         
         <tr>
           <td><strong>Sam 15/08</strong></td>
           <td>SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026</td>
-          <td>–</td>
           <td>–</td>
           <td>🔴 Infoclimat 2/5</td>
         </tr>
@@ -363,14 +979,12 @@
           <td><strong>Dim 16/08</strong></td>
           <td>SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026</td>
           <td>–</td>
-          <td>–</td>
           <td>🔴 Infoclimat 2/5</td>
         </tr>
         
         <tr>
           <td><strong>Lun 17/08</strong></td>
           <td>SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026</td>
-          <td>–</td>
           <td>–</td>
           <td>🔴 Infoclimat 2/5</td>
         </tr>
@@ -379,14 +993,12 @@
           <td><strong>Mar 18/08</strong></td>
           <td>SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026</td>
           <td>–</td>
-          <td>–</td>
           <td>🔴 Infoclimat 2/5</td>
         </tr>
         
         <tr>
           <td><strong>Mer 19/08</strong></td>
           <td>SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026</td>
-          <td>–</td>
           <td>–</td>
           <td>🔴 Infoclimat 2/5</td>
         </tr>

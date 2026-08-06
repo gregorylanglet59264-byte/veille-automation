@@ -279,16 +279,23 @@ Températures minimales : sans changement significatif.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 060955 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 6 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 6 août 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa au sud de l'Irlande, se décalant vers l'est, prévu 1024 hPa sur la Manche demain midi. Nouvelle dépression orageuse prévue 1013 hPa au large de la Galice demain soir. 3 - Prévisions pour l'après-midi du jeudi 6 août VENT : Ouest à Sud-Ouest 3 à 4 fraîchissant 4 à 5 en fin d'après-midi. MER : peu agitée, parfois agitée en Manche en fin de journée. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant temporairement en fin de journée. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 6 août au vendredi 7 août VENT : Ouest à Sud-Ouest 4 à 5, mollissant progressivement Variable 2 à 4 en soirée. MER : peu agitée, localement agitée en Manche au début. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 7 août VENT : Variable 2 à 3, parfois 4, fraîchissant secteur Nord-Est 3 à 4 l'après-midi. MER : s'atténuant belle à peu agitée. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant le matin. TEMPS : ciel parfois voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 7 au 8 et la journée du samedi 8 août VENT : secteur Nord-Est 3 à 4, virant Sud-Est dans la nuit, puis revenant secteur Nord-Est dans l'après-midi. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord jusqu'en milieu d'après-midi. Non significative sinon. TEMPS : ciel clair devenant parfois voilé dans l'après-midi. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : Nord-Est 2 à 4, s'orientant Sud-Ouest en milieu d'après-midi. MER : belle. Pas de houle significative. 8 - Tendance pour les jours suivants Lundi 10 août Secteur Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 11 août Secteur Est modéré. Indice de confiance : 4 sur 5 Mercredi 12 août Secteur Est faible à modéré. Indice de confiance : 3 sur 5 Jeudi 13 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le jeudi 6 août 2026 à 09H00 UTC Dunkerque : vent Ouest-Nord-Ouest 10 noeuds, 1022 hPa en hausse. Cap Gris Nez : vent Ouest 10 noeuds. Boulogne : vent Ouest-Nord-Ouest 8 noeuds, 1023 hPa en hausse, clair ou peu nuageux, visibilité 13 milles. Prochain bulletin le jeudi 6 août 2026, vers 18H00 légales
+FQCT40 LFQQ 061530 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 6 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 6 août 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa au sud de l'Irlande, se décalant vers l'est, prévu 1024 hPa sur la Manche demain midi. Nouvelle dépression orageuse prévue 1013 hPa au large de la Galice demain soir. 3 - Prévisions pour l'après-midi du jeudi 6 août VENT : Ouest à Sud-Ouest 3 à 4 fraîchissant 4 à 5 en fin d'après-midi. MER : peu agitée, parfois agitée en Manche en fin de journée. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant temporairement en fin de journée. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 6 août au vendredi 7 août VENT : Ouest à Sud-Ouest 4 à 5, mollissant progressivement Variable 2 à 4 en soirée. MER : peu agitée, localement agitée en Manche au début. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 7 août VENT : Variable 2 à 3, parfois 4, fraîchissant secteur Nord-Est 3 à 4 l'après-midi. MER : s'atténuant belle à peu agitée. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant le matin. TEMPS : ciel parfois voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 7 au 8 et la journée du samedi 8 août VENT : secteur Nord-Est 3 à 4, virant Sud-Est dans la nuit, puis revenant secteur Nord-Est dans l'après-midi. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord jusqu'en milieu d'après-midi. Non significative sinon. TEMPS : ciel clair devenant parfois voilé dans l'après-midi. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : Nord-Est 4 mollissant 2 à 3 en début de nuit. MER : belle. Pas de houle significative. 8 - Tendance pour les jours suivants Lundi 10 août Secteur Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 11 août Secteur Est modéré. Indice de confiance : 4 sur 5 Mercredi 12 août Secteur Est faible à modéré. Indice de confiance : 3 sur 5 Jeudi 13 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le jeudi 6 août 2026 à 09H00 UTC Dunkerque : vent Ouest-Nord-Ouest 10 noeuds, 1022 hPa en hausse. Cap Gris Nez : vent Ouest 10 noeuds. Boulogne : vent Ouest-Nord-Ouest 8 noeuds, 1023 hPa en hausse, clair ou peu nuageux, visibilité 13 milles. Prochain bulletin le jeudi 6 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
+J+2 et J+3 ﻿L'épisode caniculaire se poursuit ce week-end près de la 
+Méditerranée et en vallée du Rhône. 
+La dégradation orageuse reste incertaine, elle débutera 
+samedi soir sur l'Aquitaine et pourrait s'étendre aux autres 
+régions de la moitié sud dimanche, mais le passage en 
+vigilance orange n'est à ce stade pas privilégié.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
+De J+4 à J+7 ﻿Les conditions caniculaires se poursuivent au sud-est et 
+devraient se généraliser sur une large partie de la France les 
+prochains jours.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -300,11 +307,11 @@ Baisse progressive des températures par l'ouest et le nord. Maintien d'un risqu
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi ensoleillement 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps au Japon
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -313,24 +320,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Les 15 prochains jours sur les Hauts-de-France sont dominés par une chaleur intense et durable. Après un week-end agréable et ensoleillé, une nouvelle canicule s'installe en milieu de deuxième semaine, avec un pic attendu mercredi 12 et jeudi 13 août. Les températures pourraient atteindre 37°C dans l'Aisne et l'Oise. Un possible rafraîchissement est envisagé en toute fin de période, mais les incertitudes persistent..
+Résumé général HDF précédent : Deux périodes se dessin dansers les HDF : d’abord un beau week-end assez chaud, sec et marialment, puis une très chaude avec un pic plus net mercredi/jeudi 12-13 août, suivi d’un possible refroidissement encore incertain en toute fin..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Hausse progressive des températures, pic dimanche avec maximales jusqu'à 33°C..
+Températures attendues précédemment : Soleil parfois voilé samedi, aucun cumul pluie, vent faible à modéré, variations littorales significatives..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
-Auteur: Virgile
-Message:
-Il y a 21 heures, Sebaas a dit :
-			Purée, on dirait du Laurent Cabrol dans le texte, qui nous sortait ce genre de connerie à la grande époque de C dans l'air, avant, qu'enfin, de vrais météos soient invités...
-	Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
-	Pour en revenir à ce topic, et surement le topic suivant, pas de blocage favorisant une canicule généralisée et durable. Des pics de chaleur de 2-3 jours entrecoupées de descentes + fraiches par le nord ouest. Et toujours avec si peu de pp sauf localement sous précipitations orageuses entre le sud ouest et le centre est + relief.
-	Espérons que l’excédent thermique en aout (car il existera) soit moins fort que juin et juillet. +3.8 degrés en juin par rapport à la norme 91/2020. +3.7 en juillet. Souvent les excédents c'est du +1 à +2. Mais là, c'est exceptionnel avec 2 mois consécutifs.
-	Modifié samedi à 19:14 par Virgile
-								18
-
-=======================
-
 Auteur: Krholam
 Message:
 Oui, niveau PP le nord / Nord ouest c'est pas fameux et les modèles sont plutôt raccord entre eux.
@@ -523,7 +518,7 @@ Dégradation potentiellement marquée ce week end
 	Dimanche
 	MF
 	Carte d'hier donc certainement actualisation pour samedi  aujourd'hui à 13h
-	Modifié il y a 9 heures par meteo noobs
+	Modifié il y a 10 heures par meteo noobs
 								3
 
 =======================
@@ -537,6 +532,15 @@ Le 26/07/2026 à 19:13, jt75 a dit :
 								1
 								3
 								1
+
+=======================
+
+Auteur: James
+Message:
+3 hours ago, jt75 said:
+			Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
+	Question bête peut-être mais est-ce parce que l'été, les centres d'actions/masses d'air sont plus "simples" à calculer car atmosphère moins chaotique par chez nous ?
+	Alors que comme dit à la page précédente, l'hiver c'est le contraire, les prévisions sont bien plus difficiles.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: Grahok73
@@ -692,7 +696,7 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 19 heures par mathias
+	Modifié il y a 20 heures par mathias
 
 =======================
 
