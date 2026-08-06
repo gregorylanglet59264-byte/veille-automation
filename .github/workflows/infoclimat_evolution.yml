@@ -49,6 +49,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Récupérer les bulletins sources National & HDF (cnews)
+        run: |
+          mkdir -p Hauts-de-France
+          BASE="https://raw.githubusercontent.com/monsieurmeteo/dev-divers/main/cnews/Hauts-de-France"
+          curl -fsSL "$BASE/bulletin_france_premium.md" -o Hauts-de-France/bulletin_france_premium.md || echo "Notice: bulletin_france_premium.md indisponible"
+          curl -fsSL "$BASE/bulletin_hauts_de_france_premium.md" -o Hauts-de-France/bulletin_hauts_de_france_premium.md || echo "Notice: bulletin_hauts_de_france_premium.md indisponible"
+          echo "=== Fichiers sources récupérés ==="
+          ls -lh Hauts-de-France/
+
       - name: Lancer l'analyse Infoclimat
         env:
           PYTHONUNBUFFERED: "1"
