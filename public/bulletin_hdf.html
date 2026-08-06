@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulletin Météo Hauts-de-France</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --bg: #0b1329;
+      --card-bg: rgba(22, 33, 62, 0.85);
+      --text: #f0f4f8;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --accent: #0284c7;
+      --border: rgba(255, 255, 255, 0.12);
+      --success: #22c55e;
+      --warning: #eab308;
+      --danger: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at 10% 20%, #0f172a 0%, #020617 90%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .header h1 { font-size: 1.8rem; color: var(--primary); display: flex; align-items: center; gap: 10px; }
+    .header .date { background: rgba(56, 189, 248, 0.15); border: 1px solid var(--primary); color: var(--primary); padding: 6px 14px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; }
+    
+    .nav-tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .nav-tab {
+      padding: 10px 18px;
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .nav-tab.active, .nav-tab:hover {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    .section {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(10px);
+    }
+    .section-title {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+    .alert-box {
+      background: rgba(34, 197, 94, 0.1);
+      border-left: 4px solid var(--success);
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .alert-box.warning {
+      background: rgba(234, 179, 8, 0.1);
+      border-left-color: var(--warning);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background: rgba(15, 23, 42, 0.8);
+      color: var(--primary);
+      font-weight: 600;
+    }
+    tr:hover { background: rgba(255, 255, 255, 0.03); }
+    
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .badge-green { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid #22c55e; }
+    .badge-yellow { background: rgba(234, 179, 8, 0.2); color: #fde047; border: 1px solid #eab308; }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🌾 Bulletin Météo Hauts-de-France</h1>
+      <span class="date"><i class="fa-regular fa-calendar"></i> Jeudi 6 Août 2026</span>
+    </div>
+
+    <div class="nav-tabs">
+      <a href="bulletin_national.html" class="nav-tab ">🇫🇷 National</a>
+      <a href="bulletin_hdf.html" class="nav-tab active">🌾 Hauts-de-France (5 dép.)</a>
+      <a href="bulletin_npdc.html" class="nav-tab ">⚓ Nord-Pas-de-Calais (59 & 62)</a>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-triangle-exclamation"></i> 1. Vigilance Hauts-de-France (5 départements)</div>
+      <div class="alert-box">
+        <p>🟢 <strong>Vigilance Verte</strong> sur l'ensemble de la région (Nord, Pas-de-Calais, Somme, Oise, Aisne).</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-tv"></i> 2. Météo du Jour à Terre (Hauts-de-France)</div>
+      <p style="margin-bottom: 8px;"><strong>Matin :</strong> Beau soleil sur la Côte d'Opale et le littoral picard. Dans l'intérieur (Lille, Arras, Amiens, Beauvais, Laon), c'est un ciel lumineux avec quelques nuages d'altitude. Températures minimales : 12° à 15°C.</p>
+      <p style="margin-bottom: 8px;"><strong>Après-midi :</strong> Temps très agréable avec de belles éclaircies. Vent d'ouest modéré. Températures maximales : 21°C sur le littoral, 23° à 24°C dans les terres.</p>
+      <p><strong>Nuit suivante :</strong> Nuit paisible et fraîche dans les terres (9° à 13°C).</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-anchor"></i> 3. Météo Marine (Mer du Nord & Pas-de-Calais)</div>
+      <p><strong>Vent :</strong> Ouest à Sud-Ouest 10 à 18 nœuds (Beaufort 3 à 5).</p>
+      <p><strong>État de la mer :</strong> Mer peu agitée, vagues de 0.6m à 1.2m.</p>
+      <p><strong>Visibilité :</strong> Excellent en mer, visibilité supérieure à 10 km.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-water"></i> 4. Marées & Météo des Plages Hauts-de-France</div>
+      <h4 style="margin-top: 10px; color: var(--primary);">Horaires et Coefficients de Marée</h4>
+      
+    <table>
+      <thead>
+        <tr>
+          <th>Port Référent</th>
+          <th>Pleines Mers (PM) ⬆️</th>
+          <th>Basses Mers (BM) ⬇️</th>
+          <th>Coefficients 📈</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>🚢 <strong>Dunkerque</strong></td>
+          <td>04:49 & 10:46</td>
+          <td>04:49</td>
+          <td><strong>57 / 52</strong></td>
+        </tr>
+        
+        <tr>
+          <td>🚢 <strong>Boulogne-sur-Mer</strong></td>
+          <td>05:02 & 10:57</td>
+          <td>05:02</td>
+          <td><strong>57 / 52</strong></td>
+        </tr>
+        
+        <tr>
+          <td>🚢 <strong>Saint-Valery-sur-Somme</strong></td>
+          <td>04:38 & 10:42</td>
+          <td>04:38</td>
+          <td><strong>57 / 52</strong></td>
+        </tr>
+        
+      </tbody>
+    </table>
+    
+
+      <h4 style="margin-top: 20px; color: var(--primary);">Tableau Météo des Plages & Eau de Mer</h4>
+      
+    <table>
+      <thead>
+        <tr>
+          <th>Station Littorale</th>
+          <th>Air 🌡️</th>
+          <th>Eau 🌊</th>
+          <th>Baignade & Drapeau 🚩</th>
+          <th>Indice UV ☀️</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>🏖️ Malo-les-Bains / Dunkerque</td>
+          <td>22°C</td>
+          <td><strong>20.5°C</strong></td>
+          <td><span class="badge badge-green">🟢 Vert (Baignade autorisée)</span></td>
+          <td><strong>UV 5</strong></td>
+        </tr>
+        
+        <tr>
+          <td>🏖️ Calais / Sangatte</td>
+          <td>21°C</td>
+          <td><strong>20.5°C</strong></td>
+          <td><span class="badge badge-green">🟢 Vert (Baignade autorisée)</span></td>
+          <td><strong>UV 5</strong></td>
+        </tr>
+        
+        <tr>
+          <td>🏖️ Wissant / Cap Blanc-Nez</td>
+          <td>20°C</td>
+          <td><strong>20.5°C</strong></td>
+          <td><span class="badge badge-green">🟡 Jaune (Vigilance vent/courants)</span></td>
+          <td><strong>UV 5</strong></td>
+        </tr>
+        
+        <tr>
+          <td>🏖️ Wimereux / Boulogne</td>
+          <td>21°C</td>
+          <td><strong>20.5°C</strong></td>
+          <td><span class="badge badge-green">🟢 Vert (Baignade surveillée)</span></td>
+          <td><strong>UV 5</strong></td>
+        </tr>
+        
+        <tr>
+          <td>🏖️ Le Touquet-Paris-Plage</td>
+          <td>22°C</td>
+          <td><strong>20.5°C</strong></td>
+          <td><span class="badge badge-green">🟢 Vert (Baignade surveillée)</span></td>
+          <td><strong>UV 6</strong></td>
+        </tr>
+        
+        <tr>
+          <td>🏖️ Baie de Somme (Cayeux / Crotoy)</td>
+          <td>23°C</td>
+          <td><strong>20.5°C</strong></td>
+          <td><span class="badge badge-green">🟢 Vert (Attention marée montante)</span></td>
+          <td><strong>UV 6</strong></td>
+        </tr>
+        
+      </tbody>
+    </table>
+    
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 5. Tendance Régionale à 14 Jours</div>
+      
+    <table>
+      <thead>
+        <tr>
+          <th>Jour</th>
+          <th>Temps Sensible 🌤️</th>
+          <th>Temp. Min / Max 🌡️</th>
+          <th>Vent 💨</th>
+          <th>Confiance</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td><strong>Jeu 6/08</strong></td>
+          <td>☀️ Ensoleillé</td>
+          <td>22° / 13°</td>
+          <td>15 km/h</td>
+          <td>🟢 Confiance 5/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Ven 7/08</strong></td>
+          <td>🌤️ Éclaircies</td>
+          <td>23° / 14°</td>
+          <td>20 km/h</td>
+          <td>🟢 Confiance 4/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Sam 8/08</strong></td>
+          <td>⛅ Nuageux</td>
+          <td>21° / 12°</td>
+          <td>18 km/h</td>
+          <td>🟢 Confiance 4/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Dim 9/08</strong></td>
+          <td>🌦️ Averses locales</td>
+          <td>20° / 11°</td>
+          <td>25 km/h</td>
+          <td>🟡 Confiance 3/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Lun 10/08</strong></td>
+          <td>☀️ Grand Soleil</td>
+          <td>24° / 15°</td>
+          <td>12 km/h</td>
+          <td>🟢 Confiance 4/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Mar 11/08</strong></td>
+          <td>🌤️ Beau temps</td>
+          <td>25° / 16°</td>
+          <td>14 km/h</td>
+          <td>🟡 Confiance 3/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Mer 12/08</strong></td>
+          <td>⛈️ Risque d'Orages</td>
+          <td>23° / 15°</td>
+          <td>30 km/h</td>
+          <td>🟡 Confiance 3/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Jeu 13/08</strong></td>
+          <td>🌤️ Retour des éclaircies</td>
+          <td>22° / 13°</td>
+          <td>18 km/h</td>
+          <td>🟡 Confiance 3/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Ven 14/08</strong></td>
+          <td>⛅ Passages nuageux</td>
+          <td>21° / 12°</td>
+          <td>15 km/h</td>
+          <td>🟡 Confiance 3/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Sam 15/08</strong></td>
+          <td>☀️ Ensoleillé</td>
+          <td>23° / 14°</td>
+          <td>16 km/h</td>
+          <td>🟡 Confiance 3/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Dim 16/08</strong></td>
+          <td>🌤️ Éclaircies</td>
+          <td>24° / 15°</td>
+          <td>15 km/h</td>
+          <td>🔴 Confiance 2/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Lun 17/08</strong></td>
+          <td>⛅ Varié</td>
+          <td>22° / 13°</td>
+          <td>20 km/h</td>
+          <td>🔴 Confiance 2/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Mar 18/08</strong></td>
+          <td>🌦️ Quelques gouttes</td>
+          <td>20° / 12°</td>
+          <td>22 km/h</td>
+          <td>🔴 Confiance 2/5</td>
+        </tr>
+        
+        <tr>
+          <td><strong>Mer 19/08</strong></td>
+          <td>🌤️ Amélioration</td>
+          <td>22° / 13°</td>
+          <td>15 km/h</td>
+          <td>🔴 Confiance 2/5</td>
+        </tr>
+        
+      </tbody>
+    </table>
+    
+    </div>
+    
+
+    <div class="footer">
+      <p>Centrale Météo - Données Météo-France, Infoclimat, maree.info & seatemperature.org</p>
+    </div>
+  </div>
+</body>
+</html>

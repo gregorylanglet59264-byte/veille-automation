@@ -60,6 +60,9 @@ jobs:
           RECIPIENT_EMAILS: ${{ (github.event.inputs.triggered_by == 'patrick') && (secrets.RECIPIENT_EMAILS_PROD || 'patrick.marliere@wanadoo.fr, gregory.langlet@sfr.fr, langlet.gregory@gmail.com') || (secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com') }}
         run: |
           python run_infoclimat.py
+          python scripts/meteo_marine_tides.py || true
+          python scripts/generate_bulletins_html.py || true
+          python update_public_html.py || true
 
       - name: Déployer le site Web sur GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
