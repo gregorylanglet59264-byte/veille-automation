@@ -345,9 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaîtront un temps sec et très chaud, avec une première semaine agréable (22-33°C) suivie d’une vague de chaleur intense (33-37°C) en milieu de deuxième semaine, avant une possible baisse en fin de période..
+Résumé général HDF précédent : Deux semaines marquées par un temps anticyclonique et chaud. La première est une belle parenthèse estivale agréable, la deuxième s'annonce comme une vague de chaleur intense et potentiellement caniculaire pour le nord de la France..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps calme, ensoleillé, avec une hausse progressive des températures. (100 caractères).
+Températures attendues précédemment : Soleil dominant, chaleur croissante jusqu'à dimanche (30-33°C intérieur), puis léger tassement lundi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
@@ -566,6 +566,8 @@ Le 26/07/2026 à 19:13, jt75 a dit :
 			On dit que GFS est visionnaire pour prévoir à l'avance les vagues de chaleur, alors ce qui est devenu un grand classique:
 			anomalie T850 pour 9 aout:💀
 	Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
+								1
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: Grahok73
