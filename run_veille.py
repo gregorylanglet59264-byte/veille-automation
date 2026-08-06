@@ -767,18 +767,16 @@ def send_email(html_body, date_str):
     
     sender = gmail_email if gmail_password else smtp_email
     
-    # Construction du message MIME propre avec corps HTML en ligne (sans pièce jointe)
-    msg = MIMEMultipart('alternative')
+    from email.message import EmailMessage
+    msg = EmailMessage()
     msg['Subject']    = f'Synthese Veille - {date_str}'
     msg['From']       = f'Meteo Climat Pro <{sender}>'
     msg['To']         = ", ".join(recipients)
     msg['Reply-To']   = "gregory.langlet@sfr.fr"
-    msg['Date']       = formatdate(localtime=True)
-    msg['Message-ID'] = make_msgid(domain="gmail.com")
-    msg['X-Mailer']   = "Python/smtplib"
     
-    # Attacher la version HTML directement
-    msg.attach(MIMEText(html_body, 'html', 'utf-8'))
+    plain_text = f"Synthese Veille - {date_str}\n\nVeuillez consulter la version HTML de cet e-mail dans votre client de messagerie."
+    msg.set_content(plain_text)
+    msg.add_alternative(html_body, subtype='html')
     
     # Gmail (seul relais fiable depuis GitHub Actions — SFR bloque les IP cloud avec erreur 550)
     if not gmail_password:
@@ -792,7 +790,7 @@ def send_email(html_body, date_str):
             server.starttls()
             server.ehlo()
             server.login(gmail_email, gmail_password)
-            server.sendmail(gmail_email, recipients, msg.as_string())
+            server.send_message(msg)
         print("[SMTP] E-mail envoye avec succes via Gmail !")
     except Exception as e:
         import traceback

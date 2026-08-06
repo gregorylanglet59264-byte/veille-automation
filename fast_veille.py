@@ -558,6 +558,8 @@ def build_html(all_data, date_str):
 
 # ─── Email ────────────────────────────────────────────────────────────────────
 
+from email.message import EmailMessage
+
 def send_email(html_body, date_str):
     gmail_email    = (os.environ.get("GMAIL_EMAIL", "langlet.gregory@gmail.com") or "").strip()
     gmail_password = (os.environ.get("GMAIL_APP_PASSWORD") or "").strip()
@@ -568,23 +570,21 @@ def send_email(html_body, date_str):
         print("[SMTP] ERREUR : GMAIL_APP_PASSWORD manquant.")
         sys.exit(1)
 
-    import unicodedata
-    msg = MIMEMultipart("alternative")
-    subject_raw = f"Veille Rapide RSS - {date_str}"
-    msg["Subject"]    = unicodedata.normalize('NFKD', subject_raw).encode('ASCII', 'ignore').decode('ASCII')
-    msg["From"]       = f"Meteo Climat Pro <{gmail_email}>"
-    msg["To"]         = ", ".join(recipients)
-    msg["Reply-To"]   = "gregory.langlet@sfr.fr"
-    msg["Date"]       = formatdate(localtime=True)
-    msg["Message-ID"] = make_msgid(domain="gmail.com")
-    msg["X-Mailer"]   = "Python/smtplib"
-    msg.attach(MIMEText(html_body, "html", "utf-8"))
+    msg = EmailMessage()
+    msg["Subject"]  = f"Veille Rapide RSS - {date_str}"
+    msg["From"]     = f"Meteo Climat Pro <{gmail_email}>"
+    msg["To"]       = ", ".join(recipients)
+    msg["Reply-To"] = "gregory.langlet@sfr.fr"
+
+    plain_text = f"Veille Rapide RSS - {date_str}\n\nVeuillez consulter la version HTML de cet e-mail dans votre client de messagerie."
+    msg.set_content(plain_text)
+    msg.add_alternative(html_body, subtype="html")
 
     print(f"[SMTP] Envoi à {', '.join(recipients)} via Gmail...")
     with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as s:
         s.ehlo(); s.starttls(); s.ehlo()
         s.login(gmail_email, gmail_password)
-        s.sendmail(gmail_email, recipients, msg.as_string())
+        s.send_message(msg)
     print("[SMTP] ✅ Email envoyé avec succès !")
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
