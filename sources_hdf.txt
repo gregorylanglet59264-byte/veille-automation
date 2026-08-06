@@ -285,17 +285,10 @@ FQCT40 LFQQ 061550 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿L'épisode caniculaire se poursuit ce week-end près de la 
-Méditerranée et en vallée du Rhône. 
-La dégradation orageuse reste incertaine, elle débutera 
-samedi soir sur l'Aquitaine et pourrait s'étendre aux autres 
-régions de la moitié sud dimanche, mais le passage en 
-vigilance orange n'est à ce stade pas privilégié.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Les conditions caniculaires se poursuivent au sud-est et 
-devraient se généraliser sur une large partie de la France les 
-prochains jours.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -307,12 +300,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Cigales 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi ensoleillement 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi de la composition gazeuse de l'atmosphère
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -320,9 +313,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Semaine 1 : temps sec, ensoleillé et de plus en plus chaud, pic dimanche 9 (27-33°C). Semaine 2 : nouvelle vague de chaleur marquée du 10 au 14, pic mercredi/jeudi (33-37°C intérieur), puis baisse encore incertaine en fin de période..
+Résumé général HDF précédent : Séquence sèche, ensoleillée et très chaude sur l'ensemble des Hauts-de-France. Après des températures de saison en début de première semaine, une nette hausse se produit dès dimanche, suivie d'un épisode caniculaire marqué en semaine 2. Le pic est attendu mercredi/jeudi avec des maximales de 34-37°C dans les terres. En fin de période, une baisse progressive est envisagée, mais sans retour à la normale. Aucune précipitation significative à l'horizon, avec un risque de sécheresse accentuée..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Soleil dominant, pas de précipitations, vent faible à modéré..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
@@ -518,7 +511,7 @@ Dégradation potentiellement marquée ce week end
 	Dimanche
 	MF
 	Carte d'hier donc certainement actualisation pour samedi  aujourd'hui à 13h
-	Modifié il y a 10 heures par meteo noobs
+	Modifié il y a 16 heures par meteo noobs
 								3
 
 =======================
@@ -541,18 +534,10 @@ Message:
 			Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
 	Question bête peut-être mais est-ce parce que l'été, les centres d'actions/masses d'air sont plus "simples" à calculer car atmosphère moins chaotique par chez nous ?
 	Alors que comme dit à la page précédente, l'hiver c'est le contraire, les prévisions sont bien plus difficiles.
+								1
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Grahok73
-Message:
-Il y a 11 heures, jt75 a dit :
-			En fait, au niveau national, depuis mai, on voit bien 4 crêtes. La dernière est surtout dûe qu'à une partie du pays, elle n'a pas été vraiment généralisée à tout le territoire, ce qui fait dire à juste titre que certaines régions ne sont pas sorties de la chaleur très forte.
-			Reste à voir ce que promet le reste de la courbe, une nouvelle bosse ?
-			Si c'est le cas, alors  à l'échelle du pays on pourra parler d'une 5ème
-	Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ?
-
-=======================
-
 Auteur: Gaël13
 Message:
 il y a une heure, Nicolas L a dit :
@@ -640,10 +625,11 @@ Le 04/08/2026 à 11:24, mathias a dit :
 Auteur: Virgile
 Message:
 La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
-								7
+								8
 								1
 								3
 								7
+								1
 
 =======================
 
@@ -653,7 +639,7 @@ il y a 18 minutes, Virgile a dit :
 			La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
 	En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄 
 	Les vdf a 72h la fiabilité est de 20% .....
-								2
+								3
 								1
 								1
 
@@ -672,7 +658,7 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Pour le reste, à voir et discuter en topics climato.
 	Modifié hier à 13:23 par Arkus
 								21
-								19
+								20
 								3
 
 =======================
@@ -696,14 +682,14 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 20 heures par mathias
+	Modifié hier à 19:26 par mathias
 
 =======================
 
 Auteur: Arkus
 Message:
 Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :
-								5
+								6
 								1
 								2
 								3
@@ -717,7 +703,7 @@ Message:
 Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
 	En tout cas, vu du SE, cet été n'est qu'une canicule géante, jamais de répit... c'est faramineux.
 	Et pour courage à ceux qui iront en Espagne pour l'éclipse  en plus des lunettes n'oubliez pas les parasols, brumisateurs et 5L d'eau.
-								2
+								3
 								1
 								1
 								8
@@ -753,6 +739,7 @@ Message:
 il y a 28 minutes, Jetrejo a dit :
 			Moi qui vais en Suisse et qui pensait profiter de la fraicheur
 	Cet été on n’a pas beaucoup profité de la fraîcheur en Suisse 😅
+								1
 
 =======================
 
@@ -779,7 +766,7 @@ Afin de remonter le moral des troupes je vais parler d'un signal d'une baisse pe
 	Le nord sera aussi concerné mais cela ne sera pas trop durable.
 	Une porte de sortie envisagé donc mais en attendant les humains, la faune, la flore et la nature vont encore prendre cher.
 	Pour les précipitations il faudra encore patienter et espérer qu'il y en aura au topic suivant.
-								7
+								8
 								2
 
 =======================
@@ -789,5 +776,12 @@ Message:
 Il y a 3 heures, Sebaas a dit :
 			Tout est configurable à souhait pourtant!
 	Je confirme le bug ponctuel d'hier (affichait jusqu'au 5 août au chargement de la page, mais revenait et limitait automatiquement au 25 juin dès lors que l'on faisait la moindre manipulation sur les dates limites de début ou de fin). Cela semble désormais corrigé (comment, je ne sais pas, mais il y a intérêt que cela ne soit pas Jean sur sa période de congés  ). 
-								3
+								4
 								1
+
+=======================
+
+Auteur: waingro
+Message:
+Elle est timide et lointaine cette porte de sortie autour du 20 ... ça me fait penser à l'hiver lorsque la VDF du siècle est constamment repoussée au delà de +300h
+	J'ai l'impression qu'il n'y a que la diminution progressive de la longueur des journées qui peut nous sortir de la marmite si tant est que cela ait un effet significatif au mois d'août 🥲

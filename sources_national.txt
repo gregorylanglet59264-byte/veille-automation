@@ -282,21 +282,17 @@ Vent d'Ouest temporairement modéré, sur la plaine et le piémont.
 Températures minimales : en hausse sur le Cagire et le Luchonnais.En baisse sur les coteaux de Gascogne.
 Températures maximales : en baisse.
 
+=== BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
+FQCT40 LFML 061625 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 6 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand Frais Nr 269 pour PROVENCE 2 - Situation générale jeudi 6 août 2026 à 12H00 UTC, et évolution Hautes pressions 1016-1018 hPa à l'ouest du bassin. Dépression relative 1014 hPa sur les côtes de Provence, se creusant 1011 hPa entre Corse et Continent, en soirée. Basses pressions s'étendant jusqu'au Roussillon demain après-midi, 1011-1014 hPa d'est en ouest. 3 - Prévisions pour la nuit du jeudi 6 août au vendredi 7 août VENT : - de Port-Camargue au Levant : Ouest à Nord-Ouest 4 à 6, localement 6 à 7 d'Hyères au Levant au début, mollissant 4 à 5 en milieu de nuit à l'ouest de Fos. Rafales. - du Levant à Saint-Raphaël : Nord à Nord-Est 2 à 4, mais localement Ouest 5 à 6, voir 7 au large du Levant au début, mollissant secteur Nord 1 à 3 en seconde partie de nuit. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 1.5 m d'Hyères au large du Cap Camarat. TEMPS : voilé, puis ciel devenant clair en seconde partie de nuit. VISIBILITE : bonne. 4 - Prévisions pour la journée du vendredi 7 août VENT : - à l'ouest du Levant : Nord-Ouest 5 à 6, mais localement 4 à 5 à l'ouest de Fos, puis revenant Ouest à Sud-Ouest 4 à 6 l'après-midi, avec menace de 7 vers Porquerolles en fin d'après-midi. Rafales. - à l'est du Levant : Nord à Nord-Ouest 2 à 4, devenant Variable à la mi-journée, puis fraîchissant secteur Sud-Ouest 3 à 5 en milieu d'après-midi, localement 6 vers le Levant, avec menace de 7 au large du Levant en fin d'après-midi. Rafales. MER : peu agitée à agitée, s'atténuant peu agitée l'après-midi à l'ouest de Cap Croisette. HOULE : - à l'ouest de Porquerolles : Sud-Ouest 0.5 à 1 m, s'amortissant l'après-midi. - à l'est de Porquerolles : Ouest à Sud-Ouest 1 à 1.5 m, mais non significative au nord du Cap Camarat. TEMPS : ensoleillé, quelques nuages le matin à l'est du Cap Camarat. VISIBILITE : bonne. 5 - Tendance pour la nuit du 7 au 8, et la journée du samedi 8 août VENT : - de Port Camargue au Cap Croisette : Ouest à Sud-Ouest 3 à 5, mollissant Nord-Ouest 2 à 4 en milieu de nuit, puis virant Sud-Ouest l'après-midi. - de Cap Croisette au Levant : Ouest 5 à 6, mollissant Ouest à Nord-Ouest 3 à 4 en milieu de nuit, puis mollissant Sud-Est 2 à 3 en fin de nuit. - du Levant à Saint-Raphaël : Variable 1 à 3, parfois 4 au début, mais localement secteur Ouest 4 à 6 au sud du Levant en première partie de nuit, avec menace de 7, devenant Sud-Ouest 1 à 3 l'après-midi. MER : peu agitée à agitée, s'atténuant belle à peu agitée en matinée. HOULE : - à l'ouest de Porquerolles : Sud-Ouest 0.5 à 1 m, s'amortissant l'après-midi. - à l'est de Porquerolles : Ouest à Sud-Ouest 1 à 1.5 m, mais non significative au nord du Cap Camarat s'amortissant l'après-midi TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : Variable 1 à 3 s'orientant Est à Sud-Est 2 à 4 en seconde partie de nuit. MER : belle à peu agitée. HOULE dominante de Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Lundi 10 août Variable faible. Indice de confiance : 4 sur 5 Mardi 11 août Secteur Sud dans le golfe du Lion, Variable faible ailleurs. Indice de confiance : 4 sur 5 Mercredi 12 août Secteur Sud dans le golfe du Lion, Secteur Nord-Ouest ailleurs. Indice de confiance : 3 sur 5 Jeudi 13 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le jeudi 6 août 2026 à 15H00 UTC Cap Camarat : vent Ouest-Sud-Ouest 14 noeuds, rafales 25 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 25 noeuds, rafales 37 noeuds, clair ou peu nuageux, visibilité 9 milles. Porquerolles : vent Ouest 25 noeuds, rafales 39 noeuds. Cap Couronne : vent Ouest-Sud-Ouest 16 noeuds, mer belle, visibilité 13 milles. Prochain bulletin le vendredi 7 août 2026, vers 06H30 légales
+
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿L'épisode caniculaire se poursuit ce week-end près de la 
-Méditerranée et en vallée du Rhône. 
-La dégradation orageuse reste incertaine, elle débutera 
-samedi soir sur l'Aquitaine et pourrait s'étendre aux autres 
-régions de la moitié sud dimanche, mais le passage en 
-vigilance orange n'est à ce stade pas privilégié.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Les conditions caniculaires se poursuivent au sud-est et 
-devraient se généraliser sur une large partie de la France les 
-prochains jours.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -308,12 +304,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Cigales 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi ensoleillement 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi de la composition gazeuse de l'atmosphère
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,9 +317,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 6 Août 2026.
-Résumé général précédent : Poursuite d'une chaleur exceptionnelle, avec un pic caniculaire du 11 au 14 août, puis baisse possible et incertaine après le 16..
+Résumé général précédent : Poursuite d'une chaleur exceptionnelle avec un pic caniculaire du 11 au 14 août, puis baisse possible et incertaine après le 16..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Très fortes chaleurs samedi-dimanche, orages potentiellement marqués..
+Températures attendues précédemment : Très fortes chaleurs samedi-dimanche, orages possibles en fin de week-end..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
@@ -519,7 +515,7 @@ Dégradation potentiellement marquée ce week end
 	Dimanche
 	MF
 	Carte d'hier donc certainement actualisation pour samedi  aujourd'hui à 13h
-	Modifié il y a 10 heures par meteo noobs
+	Modifié il y a 16 heures par meteo noobs
 								3
 
 =======================
@@ -542,18 +538,10 @@ Message:
 			Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
 	Question bête peut-être mais est-ce parce que l'été, les centres d'actions/masses d'air sont plus "simples" à calculer car atmosphère moins chaotique par chez nous ?
 	Alors que comme dit à la page précédente, l'hiver c'est le contraire, les prévisions sont bien plus difficiles.
+								1
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Grahok73
-Message:
-Il y a 11 heures, jt75 a dit :
-			En fait, au niveau national, depuis mai, on voit bien 4 crêtes. La dernière est surtout dûe qu'à une partie du pays, elle n'a pas été vraiment généralisée à tout le territoire, ce qui fait dire à juste titre que certaines régions ne sont pas sorties de la chaleur très forte.
-			Reste à voir ce que promet le reste de la courbe, une nouvelle bosse ?
-			Si c'est le cas, alors  à l'échelle du pays on pourra parler d'une 5ème
-	Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ?
-
-=======================
-
 Auteur: Gaël13
 Message:
 il y a une heure, Nicolas L a dit :
@@ -641,10 +629,11 @@ Le 04/08/2026 à 11:24, mathias a dit :
 Auteur: Virgile
 Message:
 La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
-								7
+								8
 								1
 								3
 								7
+								1
 
 =======================
 
@@ -654,7 +643,7 @@ il y a 18 minutes, Virgile a dit :
 			La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
 	En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄 
 	Les vdf a 72h la fiabilité est de 20% .....
-								2
+								3
 								1
 								1
 
@@ -673,7 +662,7 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Pour le reste, à voir et discuter en topics climato.
 	Modifié hier à 13:23 par Arkus
 								21
-								19
+								20
 								3
 
 =======================
@@ -697,14 +686,14 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 20 heures par mathias
+	Modifié hier à 19:26 par mathias
 
 =======================
 
 Auteur: Arkus
 Message:
 Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :
-								5
+								6
 								1
 								2
 								3
@@ -718,7 +707,7 @@ Message:
 Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
 	En tout cas, vu du SE, cet été n'est qu'une canicule géante, jamais de répit... c'est faramineux.
 	Et pour courage à ceux qui iront en Espagne pour l'éclipse  en plus des lunettes n'oubliez pas les parasols, brumisateurs et 5L d'eau.
-								2
+								3
 								1
 								1
 								8
@@ -754,6 +743,7 @@ Message:
 il y a 28 minutes, Jetrejo a dit :
 			Moi qui vais en Suisse et qui pensait profiter de la fraicheur
 	Cet été on n’a pas beaucoup profité de la fraîcheur en Suisse 😅
+								1
 
 =======================
 
@@ -780,7 +770,7 @@ Afin de remonter le moral des troupes je vais parler d'un signal d'une baisse pe
 	Le nord sera aussi concerné mais cela ne sera pas trop durable.
 	Une porte de sortie envisagé donc mais en attendant les humains, la faune, la flore et la nature vont encore prendre cher.
 	Pour les précipitations il faudra encore patienter et espérer qu'il y en aura au topic suivant.
-								7
+								8
 								2
 
 =======================
@@ -790,5 +780,12 @@ Message:
 Il y a 3 heures, Sebaas a dit :
 			Tout est configurable à souhait pourtant!
 	Je confirme le bug ponctuel d'hier (affichait jusqu'au 5 août au chargement de la page, mais revenait et limitait automatiquement au 25 juin dès lors que l'on faisait la moindre manipulation sur les dates limites de début ou de fin). Cela semble désormais corrigé (comment, je ne sais pas, mais il y a intérêt que cela ne soit pas Jean sur sa période de congés  ). 
-								3
+								4
 								1
+
+=======================
+
+Auteur: waingro
+Message:
+Elle est timide et lointaine cette porte de sortie autour du 20 ... ça me fait penser à l'hiver lorsque la VDF du siècle est constamment repoussée au delà de +300h
+	J'ai l'impression qu'il n'y a que la diminution progressive de la longueur des journées qui peut nous sortir de la marmite si tant est que cela ait un effet significatif au mois d'août 🥲
