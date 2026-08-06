@@ -4,7 +4,7 @@ Date actuelle de génération : Jeudi 6 Août 2026
 Saison en France : ÉTÉ
 
 PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
-- SEMAINE 1 PREVISION : Du Lundi 3 au Dimanche 9 Août 2026
+- SEMAINE 1 PREVISION : Du Jeudi 6 au Dimanche 9 Août 2026
 - SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026
 
 TRANSPARENCE SUJETS FORUM INFOCLIMAT :
@@ -336,12 +336,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
+• Infoclimat Direct : Aidez nous &#xE0; recenser les erreurs de notre base climatologique
+• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
 • Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
-• Infoclimat Direct : Topic de l'humour
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -349,23 +349,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 6 Août 2026.
-Résumé général précédent : Blocage anticyclonique persistant, chaleur généralisée et durable, avec un pic caniculaire probable du 11 au 14 août, après des orages ponctuels en fin de première semaine..
+Résumé général précédent : Un blocage anticyclonique exceptionnel est en place, garantissant une chaleur caniculaire durable. Après une première salve orageuse en début de première semaine, le temps s'assèche et se réchauffe de manière spectaculaire. Un pic estival intense est attendu entre le 11 et le 14 août, suivi d'une incertitude sur une possible baisse en fin de deuxième semaine..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents, pluies fortes (+30 mm/h possibles), rafales >100 km/h..
+Températures attendues précédemment : Important contraste thermique avant une dégradation orageuse dimanche..
 ============================================
 
-=== DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 3 au Dimanche 9 Août 2026) ===
-Auteur: symaski62
-Message:
-1 août à  3 août   2026 (après-midi)  500 hPa  
-	3 août soir   pluie    🤔
-	avant  
-	après 
-	Modifié samedi à 23:12 par symaski62
-								2
-
-=======================
-
+=== DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
 Auteur: Virgile
 Message:
 Il y a 21 heures, Sebaas a dit :
@@ -573,6 +562,15 @@ Dégradation potentiellement marquée ce week end
 	Modifié il y a 6 heures par meteo noobs
 								3
 
+=======================
+
+Auteur: jt75
+Message:
+Le 26/07/2026 à 19:13, jt75 a dit :
+			On dit que GFS est visionnaire pour prévoir à l'avance les vagues de chaleur, alors ce qui est devenu un grand classique:
+			anomalie T850 pour 9 aout:💀
+	Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: Grahok73
 Message:
@@ -726,7 +724,7 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié il y a 15 heures par mathias
+	Modifié il y a 16 heures par mathias
 
 =======================
 
@@ -750,7 +748,7 @@ Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaîn
 								2
 								1
 								1
-								6
+								8
 								2
 
 =======================
@@ -763,7 +761,7 @@ Moi qui vais en Suisse et qui pensait profiter de la fraicheur, il va falloir mo
 	Synoptiques différentes avec plus de déstabilisation sur la fin Aout ? 
 	C'est loin, en tout cas, la végétation et la faune devront essayer de tenir bon.
 								1
-								2
+								3
 
 =======================
 
@@ -788,6 +786,7 @@ Auteur: Plancher
 Message:
 La répétition des vagues de chaleur conduit à une sorte de résignation.
 	Ça semble bien parti pour durer 4 ou 5 jours minimum.
+								1
 
 =======================
 
@@ -806,7 +805,7 @@ Afin de remonter le moral des troupes je vais parler d'un signal d'une baisse pe
 	Le nord sera aussi concerné mais cela ne sera pas trop durable.
 	Une porte de sortie envisagé donc mais en attendant les humains, la faune, la flore et la nature vont encore prendre cher.
 	Pour les précipitations il faudra encore patienter et espérer qu'il y en aura au topic suivant.
-								4
+								6
 
 =======================
 
@@ -815,5 +814,5 @@ Message:
 Il y a 3 heures, Sebaas a dit :
 			Tout est configurable à souhait pourtant!
 	Je confirme le bug ponctuel d'hier (affichait jusqu'au 5 août au chargement de la page, mais revenait et limitait automatiquement au 25 juin dès lors que l'on faisait la moindre manipulation sur les dates limites de début ou de fin). Cela semble désormais corrigé (comment, je ne sais pas, mais il y a intérêt que cela ne soit pas Jean sur sa période de congés  ). 
-								1
+								2
 								1
