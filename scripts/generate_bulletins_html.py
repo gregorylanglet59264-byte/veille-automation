@@ -21,8 +21,11 @@ HDF_DIR = os.path.join(BASE_DIR, "Hauts-de-France")
 os.makedirs(PUBLIC_DIR, exist_ok=True)
 
 TIDES_JSON = os.path.join(DATA_DIR, "tides_marine.json")
-MD_FRANCE = os.path.join(HDF_DIR, "bulletin_france_premium.md")
-MD_HDF = os.path.join(HDF_DIR, "bulletin_hauts_de_france_premium.md")
+
+# Sources primaires : générées en temps réel par run_infoclimat.py
+# Fallback : fichiers statiques committés dans Hauts-de-France/
+MD_FRANCE = os.path.join(BASE_DIR, "sources_raw_national.md") if os.path.exists(os.path.join(BASE_DIR, "sources_raw_national.md")) else os.path.join(HDF_DIR, "bulletin_france_premium.md")
+MD_HDF = os.path.join(BASE_DIR, "sources_raw_hdf.md") if os.path.exists(os.path.join(BASE_DIR, "sources_raw_hdf.md")) else os.path.join(HDF_DIR, "bulletin_hauts_de_france_premium.md")
 
 def read_file(path):
     if os.path.exists(path):
