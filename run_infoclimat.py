@@ -926,12 +926,14 @@ def main():
         return f"{DAYS_FR[dt.weekday()]} {dt.day} {MONTHS_FR[dt.month - 1]} {dt.year}"
         
     def fmt_date_range(d1, d2):
+        day1_name = DAYS_FR[d1.weekday()]
+        day2_name = DAYS_FR[d2.weekday()]
         m1 = MONTHS_FR[d1.month - 1]
         m2 = MONTHS_FR[d2.month - 1]
         if m1 == m2:
-            return f"Du Lundi {d1.day} au Dimanche {d2.day} {m1} {d1.year}"
+            return f"Du {day1_name} {d1.day} au {day2_name} {d2.day} {m1} {d1.year}"
         else:
-            return f"Du Lundi {d1.day} {m1} au Dimanche {d2.day} {m2} {d1.year}"
+            return f"Du {day1_name} {d1.day} {m1} au {day2_name} {d2.day} {m2} {d1.year}"
             
     lundi_actuel = now - datetime.timedelta(days=now.weekday())
     current_iso_week = now.isocalendar()[1]
@@ -940,18 +942,20 @@ def main():
         target_w1_iso = current_iso_week + 1
         target_w2_iso = current_iso_week + 2
         lundi_w1 = lundi_actuel + datetime.timedelta(days=7)
+        start_w1 = lundi_w1
         lundi_w2 = lundi_actuel + datetime.timedelta(days=14)
     else:
         target_w1_iso = current_iso_week
         target_w2_iso = current_iso_week + 1
         lundi_w1 = lundi_actuel
+        start_w1 = now
         lundi_w2 = lundi_actuel + datetime.timedelta(days=7)
 
     dimanche_w1 = lundi_w1 + datetime.timedelta(days=6)
     dimanche_w2 = lundi_w2 + datetime.timedelta(days=6)
 
     today_str = get_french_date(now)
-    w1_dates_calculated = fmt_date_range(lundi_w1, dimanche_w1)
+    w1_dates_calculated = fmt_date_range(start_w1, dimanche_w1)
     w2_dates_calculated = fmt_date_range(lundi_w2, dimanche_w2)
 
     def get_topic_week_num(url):
