@@ -332,12 +332,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Saison 2026 - Typhon Pacifique Nord-ouest
 • Infoclimat Direct : Aidez nous &#xE0; recenser les erreurs de notre base climatologique
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -345,9 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Deux semaines marquées par un temps anticyclonique et chaud. La première est une belle parenthèse estivale agréable, la deuxième s'annonce comme une vague de chaleur intense et potentiellement caniculaire pour le nord de la France..
+Résumé général HDF précédent : Deux semaines anticycloniques et chaudes sur les Hauts-de-France. La première semaine est une belle parenthèse estivale agréable avec une chaleur croissante mais encore supportable. La deuxième semaine marque une vague de chaleur intense, potentiellement caniculaire, avec des températures maximales atteignant 33-37°C dans l'intérieur. Un léger tassement est attendu à partir du vendredi 14 août..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Soleil dominant, chaleur croissante jusqu'à dimanche (30-33°C intérieur), puis léger tassement lundi..
+Températures attendues précédemment : Soleil dominant, chaleur croissante, vent modéré d'Ouest puis Nord-Est..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
