@@ -279,7 +279,7 @@ Températures minimales : sans changement significatif.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 061530 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 6 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 6 août 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa au sud de l'Irlande, se décalant vers l'est, prévu 1024 hPa sur la Manche demain midi. Nouvelle dépression orageuse prévue 1013 hPa au large de la Galice demain soir. 3 - Prévisions pour l'après-midi du jeudi 6 août VENT : Ouest à Sud-Ouest 3 à 4 fraîchissant 4 à 5 en fin d'après-midi. MER : peu agitée, parfois agitée en Manche en fin de journée. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant temporairement en fin de journée. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 6 août au vendredi 7 août VENT : Ouest à Sud-Ouest 4 à 5, mollissant progressivement Variable 2 à 4 en soirée. MER : peu agitée, localement agitée en Manche au début. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 7 août VENT : Variable 2 à 3, parfois 4, fraîchissant secteur Nord-Est 3 à 4 l'après-midi. MER : s'atténuant belle à peu agitée. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant le matin. TEMPS : ciel parfois voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 7 au 8 et la journée du samedi 8 août VENT : secteur Nord-Est 3 à 4, virant Sud-Est dans la nuit, puis revenant secteur Nord-Est dans l'après-midi. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord jusqu'en milieu d'après-midi. Non significative sinon. TEMPS : ciel clair devenant parfois voilé dans l'après-midi. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : Nord-Est 4 mollissant 2 à 3 en début de nuit. MER : belle. Pas de houle significative. 8 - Tendance pour les jours suivants Lundi 10 août Secteur Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 11 août Secteur Est modéré. Indice de confiance : 4 sur 5 Mercredi 12 août Secteur Est faible à modéré. Indice de confiance : 3 sur 5 Jeudi 13 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le jeudi 6 août 2026 à 09H00 UTC Dunkerque : vent Ouest-Nord-Ouest 10 noeuds, 1022 hPa en hausse. Cap Gris Nez : vent Ouest 10 noeuds. Boulogne : vent Ouest-Nord-Ouest 8 noeuds, 1023 hPa en hausse, clair ou peu nuageux, visibilité 13 milles. Prochain bulletin le jeudi 6 août 2026, vers 18H00 légales
+FQCT40 LFQQ 061550 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 6 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 6 août 2026 à 12H00 UTC, et évolution Anticyclone 1027 hPa au sud de l'Irlande, se décalant vers l'est, prévu 1025 hPa en entrée de Manche demain midi. Nouvelle dépression orageuse prévue 1015 hPa au large de la Galice demain soir. 3 - Prévisions pour la nuit du jeudi 6 août au vendredi 7 août VENT : Ouest à Sud-Ouest 4 à 5, mollissant progressivement Variable 2 à 4 en soirée. MER : peu agitée, s'atténuant belle à peu agitée en fin de nuit. HOULE : Sud-Ouest 0.5 à 1 m, jusqu'à 1.5 m en milieu de nuit, puis Nord en mer du Nord en fin de nuit. TEMPS : ciel peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du vendredi 7 août VENT : Variable 2 à 4. MER : belle à peu agitée. HOULE : s'amortissant en Manche, mais Nord 0.5 à 1 m en mer du Nord. TEMPS : ensoleillé. VISIBILITE : bonne. 5 - Tendance pour la nuit du 7 au 8, et la journée du samedi 8 août VENT : Variable 2 à 4, virant Sud-Est dans la nuit, puis fraîchissant secteur Nord-Est 4 à 5 dans l'après-midi. MER : belle à peu agitée. HOULE : s'amortissant en milieu de journée. TEMPS : ciel clair devenant parfois voilé dans l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : Nord-Est 4 mollissant 2 à 3 en début de nuit. MER : belle. Pas de houle significative. 7 - Tendance pour les jours suivants Lundi 10 août Secteur Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 11 août Secteur Est modéré. Indice de confiance : 4 sur 5 Mercredi 12 août Secteur Est faible à modéré. Indice de confiance : 3 sur 5 Jeudi 13 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le jeudi 6 août 2026 à 15H00 UTC Dunkerque : vent Nord-Ouest 8 noeuds, mer belle, 1024 hPa en hausse, clair ou peu nuageux, visibilité 8 milles. Cap Gris Nez : vent Ouest-Sud-Ouest 17 noeuds. Boulogne : vent Ouest-Sud-Ouest 12 noeuds, 1024 hPa en hausse. Prochain bulletin le vendredi 7 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -307,11 +307,11 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi ensoleillement 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps au Japon
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -320,9 +320,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Deux périodes se dessin dansers les HDF : d’abord un beau week-end assez chaud, sec et marialment, puis une très chaude avec un pic plus net mercredi/jeudi 12-13 août, suivi d’un possible refroidissement encore incertain en toute fin..
+Résumé général HDF précédent : Semaine 1 : temps sec, ensoleillé et de plus en plus chaud, pic dimanche 9 (27-33°C). Semaine 2 : nouvelle vague de chaleur marquée du 10 au 14, pic mercredi/jeudi (33-37°C intérieur), puis baisse encore incertaine en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Soleil parfois voilé samedi, aucun cumul pluie, vent faible à modéré, variations littorales significatives..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
@@ -530,7 +530,7 @@ Le 26/07/2026 à 19:13, jt75 a dit :
 			anomalie T850 pour 9 aout:💀
 	Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
 								1
-								3
+								4
 								1
 
 =======================
