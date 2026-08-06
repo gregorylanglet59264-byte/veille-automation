@@ -285,17 +285,10 @@ FQCT40 LFQQ 060955 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿L'épisode caniculaire se poursuit ce week-end près de la 
-Méditerranée et en vallée du Rhône. 
-La dégradation orageuse reste incertaine, elle débutera 
-samedi soir sur l'Aquitaine et pourrait s'étendre aux autres 
-régions de la moitié sud dimanche, mais le passage en 
-vigilance orange n'est à ce stade pas privilégié.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Les conditions caniculaires se poursuivent au sud-est et 
-devraient se généraliser sur une large partie de la France les 
-prochains jours.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
