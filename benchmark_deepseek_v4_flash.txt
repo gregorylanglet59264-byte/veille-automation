@@ -1,0 +1,76 @@
+[WEEK_1_START]
+[W1_DATES] Lundi 27 juillet au Dimanche 2 août 2026
+[W1_KEY_POINT_1] Une situation de blocage avec un flux de sud-ouest chaud et des températures en yoyo sur le nord-ouest du pays.
+[W1_KEY_POINT_2] Forte chaleur persistante pour une large moitié sud-est, avec un risque de canicule.
+[W1_KEY_POINT_3] Possible dégradation orageuse localisée à partir de jeudi/vendredi dans un contexte de masse d’air instable.
+[W1_MODEL_START]
+[W1_MODEL_NAME] IFS (CEP)
+[W1_MODEL_SCENARIO] Blocage atlantique, chaleur persistante au sud-est, flux océanique tempéré sur l’extrême nord-ouest.
+[W1_MODEL_SENSIBLE_WEATHER] Forte chaleur avec pointes caniculaires au sud-est ; alternance chaud/frais au nord-ouest.
+[W1_MODEL_AFFECTED_ZONES] Sud-est / Nord-ouest
+[W1_MODEL_EXTRACTION_CONF] Élevée
+[W1_MODEL_STATUS] Majoritaire
+[W1_MODEL_MENTIONS_COUNT] 3 mentions
+[W1_MODEL_RUN] 12Z
+[W1_MODEL_TIMING] S1 J+3 à J+7
+[W1_MODEL_DETAILS] Maintien d’un marais barométrique sur la France avec hauts géopotentiels sur l’Europe centrale et un flux de sud-ouest chaud.
+[W1_MODEL_END]
+[W1_MODEL_START]
+[W1_MODEL_NAME] GFS (GEFS)
+[W1_MODEL_SCENARIO] Reprise plus nette des hautes pressions atlantiques limitant la chaleur au pourtour méditerranéen.
+[W1_MODEL_SENSIBLE_WEATHER] Chaleur plus modérée sur le nord et l’ouest, forte chaleur limitée au sud-est.
+[W1_MODEL_AFFECTED_ZONES] Pourtour méditerranéen
+[W1_MODEL_EXTRACTION_CONF] Modérée
+[W1_MODEL_STATUS] Minoritaire
+[W1_MODEL_MENTIONS_COUNT] 2 mentions
+[W1_MODEL_RUN] 12Z
+[W1_MODEL_TIMING] S1 J+5 à J+7
+[W1_MODEL_DETAILS] Anticyclone atlantique plus fort et plus proche, repoussant la chaleur intense vers le bassin méditerranéen.
+[W1_MODEL_END]
+[W1_CONVERGENCES]
+- Maintien d’un blocage anticyclonique sur l’Europe centrale/méditerranéenne.
+- Flux de sud-ouest globalement chaud pour la France.
+- Fort contraste thermique nord-ouest/sud-est.
+[W1_DIVERGENCES]
+- Positionnement exact et intensité des hautes pressions atlantiques.
+- Capacité du flux océanique à tempérer le nord-ouest (plus marquée chez IFS, moins chez GFS).
+- Risque et localisation des orages (GFS et GEM plus instables, UKMO plus pluvieux sur l’est).
+[W1_ZONES_JSON_START]
+{"zones": {"nord-ouest": {"sensible_weather": "Alternance de bouffées chaudes et d'air océanique plus frais avec un yoyo thermique.", "temperature": "Températures oscillant entre 20°C (air océanique) et 30/35°C (bouffée chaude).", "reliability": "Modérée", "models_agreement": "Désaccord sur la fréquence et l'intensité des coups de fraîcheur.", "analysis_note": "La pénétration de l'air océanique dépend de la force du blocage, encore incertaine."}, "sud-est": {"sensible_weather": "Forte chaleur persistante et caniculaire, ciel dégagé.", "temperature": "Températures maximales de 35°C à 42/44°C sur le couloir rhodanien.", "reliability": "Élevée", "models_agreement": "Bon accord sur le maintien de la chaleur intense.", "analysis_note": "La position exacte du 'coup de chalumeau' et les pointes à 44°C sont à confirmer."}, "nord-est": {"sensible_weather": "Possible dégradation orageuse en fin de semaine (jeudi/vendredi), chaleur moins intense.", "temperature": "Températures maximales entre 28°C et 32°C.", "reliability": "Faible", "models_agreement": "Grande disparité, certains modèles (UKMO, GEM, GFS) voient des orages, d'autres non.", "analysis_note": "La confrontation de masses d'air pourrait générer des orages localement violents, mais la localisation et le timing restent très incertains."}}}
+[W1_ZONES_JSON_END]
+[W1_SOLID_POINTS]
+- Flux de sud-ouest chaud et bloqué sur la France pour la majeure partie de la semaine.
+- Maintien de fortes chaleurs sur le sud-est.
+- Contraste nord-ouest/sud-est.
+[W1_FRAGILE_POINTS]
+- Intensité exacte et durée des pointes de chaleur.
+- Localisation et occurrence des précipitations orageuses.
+- Pénétration de l'air océanique sur le nord-ouest.
+[W1_NEXT_RUNS_TO_WATCH]
+- Positionnement exact de la dorsale atlantique dans les modèles GFS et CEP.
+- Évolution du signal orageux pour le nord-est et le centre-est.
+- Mise à jour des prévisions saisonnières pour la semaine 2.
+[W1_PHASE_1_DATES] Lundi 27 juillet – mercredi 29 juillet
+[W1_PHASE_1] Première bouffée chaude généralisée, pointes caniculaires au sud-est.
+[W1_PHASE_2_DATES] Jeudi 30 juillet – dimanche 2 août
+[W1_PHASE_2] Reflux d’air océanique sur le nord-ouest, forte chaleur persistante au sud-est, possible dégradation orageuse sur le nord-est.
+[WEEK_1_END]
+
+[GLOBAL_START]
+[GLOBAL_15_DAY_TREND] Poursuite d’un temps chaud et souvent caniculaire pour la moitié sud, avec une alternance de bouffées chaudes et de courtes accalmies océaniques au nord. Le scénario d’une canicule durable de fin juillet à début août se renforce.
+[MOST_RELIABLE_WEEK] S1
+[GLOBAL_CONSENSUS_KPI] Modéré
+[GLOBAL_CONSENSUS_NOTE] Le consensus est bon sur le blocage et la chaleur au sud-est, mais l’intensité et l’extension des orages pour la S1, ainsi que le schéma précis de la S2, restent débattus.
+[GLOBAL_SCENARIO_KPI] Canicule et blocage
+[GLOBAL_SCENARIO_NOTE] Le scénario majoritaire est celui d’un été caniculaire classique : blocage, flux de sud-ouest et fortes chaleurs durables.
+[GLOBAL_UNCERTAINTY_KPI] Élevée
+[GLOBAL_UNCERTAINTY_NOTE] L’incertitude porte sur la dynamique précise du blocage pour la S2 (durée exacte, intrusion d’air océanique plus marquée) et sur le risque orageux pour la S1.
+[LINKEDIN_POST] À l’approche de la première semaine d’août, tous les modèles s’accordent sur un scénario de blocage estival bien connu : flux de sud-ouest chaud, fort contraste nord-ouest/sud-est. Le sud-est devrait subir une canicule marquée, tandis que le nord-ouest connaîtra un yoyo thermique. Un paramètre à suivre de près : le potentiel orageux en milieu de semaine, qui pourrait être localement fort. #Météo #Canicule #Prévisions #Infoclimat #Climat
+[GLOBAL_END]
+
+[DOUBTS_START]
+[DOUBTS_TIMING] Le timing exact du flux océanique et des bouffées chaudes successives sur le nord-ouest en S1. Le moment du déclenchement des orages (jeudi vs vendredi).
+[DOUBTS_LOCATION] Localisation exacte des orages (nord-est vs centre-est). Zone exacte d’impact de la canicule la plus intense.
+[DOUBTS_INTENSITY] Intensité des pointes caniculaires (42°C à 44°C dans le couloir rhodanien). Force du refroidissement océanique sur le nord-ouest.
+[MISSING_INFORMATION] Manque d’informations sur l’évolution de l’humidité et des précipitations pour les régions agricoles du nord. Pas de données sur les températures minimales, essentielles lors des canicules.
+[DOUBTS_END]

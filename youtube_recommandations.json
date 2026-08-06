@@ -1,0 +1,200 @@
+[
+  {
+    "channel_name": "Nerdy Kings",
+    "handle": "@NerdyKings",
+    "category": "IA",
+    "title": "La méthode la PLUS RAPIDE pour automatiser le Web avec Claude Code",
+    "url": "https://www.youtube.com/watch?v=lIT1wDCzYDo",
+    "id": "lIT1wDCzYDo",
+    "score": 9.5,
+    "summary": "Guide d'utilisation complet de l'agent de programmation Claude Code.",
+    "description": "🔗 Téléchargez ego (lite) : https://link.ego.app/nerdyking\n\nego (lite) donne à Claude Code son propre navigateur pour interagir directement avec le Web et automatiser des tâches sans prendre le contrôle de votre navigateur personnel.\n\nDans cette vidéo, je le teste sur deux workflows concrets : le QA complet de mon site Nerdy Kings et l’analyse de plusieurs issues GitHub depuis une session déjà authentifiée. ego (lite) permet aux agents IA d’utiliser vos sessions connectées, d’exécuter plusieurs actions avec JavaScript et de travailler dans des environnements séparés appelés Spaces.\n\nCes Spaces peuvent fonctionner en parallèle, ce qui permet de lancer plusieurs tâches simultanément dans différentes sessions de navigateur. ego (lite) est compatible avec Claude Code, Codex et Cursor.\n\nL’objectif est de voir si ce navigateur dédié permet réellement de réduire les copier-coller et de rendre les workflows de développement plus rapides et plus fluides.\n\nego (lite) est gratuit et actuellement d"
+  },
+  {
+    "channel_name": "IA Talkshow",
+    "handle": "@Parlons.IA.2",
+    "category": "IA",
+    "title": "Claude Fable moins cher?  Kimi K3 : Mon avis et test !",
+    "url": "https://www.youtube.com/watch?v=gbabd-LH8L8",
+    "id": "gbabd-LH8L8",
+    "score": 9.5,
+    "summary": "Analyse des capacités du modèle Claude d'Anthropic.",
+    "description": "Découvrez dans cette vidéo mon test et avis sur Kimi K3, la nouvelle plateforme d'automatisation basée sur l'intelligence artificielle qui fait parler d'elle. La question que tout le monde se pose est : Kimi K3 a-t-il tué Fable 5 ? Claude Fable 5 est une référence dans le domaine du design de sites web, mais avec l'arrivée de Kimi K3 et son code innovant, il semblerait que les règles du jeu ont changé. Grâce à son système d'automatisation basé sur l'IA, Kimi K3 permet aux utilisateurs de créer des sites web de haute qualité sans avoir besoin de compétences en codage. Mais qu'en est-il de Claude Fable 5 ? Est-ce que Kimi K3 est réellement en train de supplanter ce dernier ? Dans cette vidéo, je vous présente mon expérience avec Kimi K3 et je vous explique comment cette plateforme peut être utilisée pour gagner de l'argent grâce à l'IA. De la conception de sites web à l'automatisation de tâches répétitives, Kimi K3 semble offrir une multitude d'outils et de fonctionnalités qui pourraient"
+  },
+  {
+    "channel_name": "Dr. Firas",
+    "handle": "@DRFIRASS",
+    "category": "IA",
+    "title": "Crée des workflows n8n SANS CODER, juste en parlant à Claude 🤯",
+    "url": "https://www.youtube.com/watch?v=5NzOn5VcvqM",
+    "id": "5NzOn5VcvqM",
+    "score": 9.5,
+    "summary": "Guide d'utilisation complet de l'agent de programmation Claude Code.",
+    "description": "🔗 Serveur n8n illimité (code: GON8N) :  https://www.hostinger.fr/gon8n\n🔗 Documentation : https://n8n.dr-firas.vip\n🔗 Accès à mes 36 formations (coupon : YT20) : https://dr-firas.vip\n\nCrée des workflows n8n SANS CODER, juste en décrivant ton idée à Claude. Dans cette vidéo, je te montre comment automatiser avec n8n et l'IA, sans écrire une seule ligne de code.\n\nTu décris ce que tu veux automatiser → Claude organise les étapes, crée le workflow et le publie directement dans ton n8n, prêt à tourner. Idéal pour les débutants et les no-coders.\n\nAu programme de la formation :\n- Installer n8n sur un VPS (de zéro)\n- Connecter Claude à n8n avec le MCP\n- Installer le plugin n8n dans Claude\n- Créer tes instructions et tes règles\n- Comprendre l'importance du contexte\n- Envoyer ton idée → Claude structure les étapes\n- Claude crée et publie ton workflow sur n8n\n- Programmer l'exécution (planning ou à la demande)\n\n⏱ SOMMAIRE :\n00:00 - Introduction : automatiser n8n avec Claude AI\n02:37 - Installer n8n"
+  },
+  {
+    "channel_name": "Melvynx",
+    "handle": "@melvynxdev",
+    "category": "IA",
+    "title": "Nouveau sur Codex : ChatGPT Voice te permet de discuter avec ton code",
+    "url": "https://www.youtube.com/watch?v=Du_weEGuzF0",
+    "id": "Du_weEGuzF0",
+    "score": 9.5,
+    "summary": "Démonstration des nouvelles capacités et mises à jour de ChatGPT.",
+    "description": "Ma formation Config : https://mlv.sh/Mz5SZt5\n\n▶ TIMECODES\n0:00 - Introduction\n1:30 - Interface et configuration\n3:00 - Test de ChatGPT Voice\n4:30 - Gestion des agents et mute\n6:00 - Redesign du portfolio avec IA\n7:45 - Navigation et fichiers projet\n9:15 - Limites du multitasking\n11:00 - Développement de Flappy Bird\n12:45 - Amélioration du jeu\n14:15 - Intégration de fonctionnalités\n15:45 - Conclusion sur Claude et IA\n\n▶ ME SUIVRE\nTwitter : https://mlv.sh/twitter\nGitHub : https://mlv.sh/github\nBlog : https://mlv.sh/blog\nDiscord : https://mlv.sh/discord\nCours gratuit JavaScript : https://mlv.sh/js\nCours gratuit React : https://mlv.sh/react\nCours gratuit NextJS : https://mlv.sh/nextjs\nAI Builder Mobile : https://mlv.sh/fm\nNowStack SaaS : https://mlv.sh/fn\n\n#claudecode #claude #ai #ia #coding #vscode #anthropic #aitutorial #programming #developper"
+  },
+  {
+    "channel_name": "AI Professor",
+    "handle": "@IAProfesseur",
+    "category": "IA",
+    "title": "IA Laguna S 2.1 et Laguna XS 2.1 ! Nouveaux modèles d'IA open source gratuit exceptionnels 🧐🤔?",
+    "url": "https://www.youtube.com/watch?v=iRI9z-0YIXU",
+    "id": "iRI9z-0YIXU",
+    "score": 9.5,
+    "summary": "Actualités et analyses sur le thème IA.",
+    "description": "Découvrez le test complet des nouvelles IA Open Source Laguna S 2.1 et Laguna XS 2.1 ! Promesses de benchmarks, installation en local sur LM Studio, test de génération de code 3D sur OpenRouter et appel d'outils (MCP)... Je vous montre tout sans filtre.\n\nDans ce tutoriel en français, nous analysons si ces nouveaux modèles d'IA (MoE de 118 milliards de paramètres et sa version XS) sont réellement capables de rivaliser avec les meilleurs modèles du marché ou s'il s'agit d'une déception.\n\n📍 CHAPITRES\n\n00:00 Comment installer et utiliser les IA Laguna S 2.1 & Laguna XS 2.1\n00:28 Analyse de l'article et des benchmarks de Laguna S 2.1 & XS 2.1\n02:08 Analyse du modèle léger Laguna XS 2.1\n03:05 Comment utiliser Laguna S 2.1 sur OpenRouter (Gratuit)\n03:40 Vibe Coding avec IA Laguna S 2.1\n05:40 Télécharger et installer Laguna XS 2.1 via LM Studio en local gratuit\n07:31 Comment utiliser Laguna XS 2.1 en local\n08:20 Comparaison avec un autre modèle IA local Qwythos 9B\n09:47 Bilan final et avis sur"
+  },
+  {
+    "channel_name": "Henri · ExplorIA",
+    "handle": "@HenriExplorIA",
+    "category": "IA",
+    "title": "Tu peux faire travailler 3 IA en même temps sur un même projet !",
+    "url": "https://www.youtube.com/watch?v=ewxuLZH9-D0",
+    "id": "ewxuLZH9-D0",
+    "score": 9.5,
+    "summary": "Actualités et analyses sur le thème IA.",
+    "description": "Commente \"Combinaison\" sous ma vidéo Instagram et je t’envoie le guide complet en message privé"
+  },
+  {
+    "channel_name": "Shubham SHARMA",
+    "handle": "@Shubham_Sharma",
+    "category": "IA",
+    "title": "Pourquoi j'ai arrêté de vouloir tout remplacer par des Agents IA (n8n vs Claude Code)",
+    "url": "https://www.youtube.com/watch?v=0xENZEwV4lM",
+    "id": "0xENZEwV4lM",
+    "score": 9.2,
+    "summary": "Guide d'utilisation complet de l'agent de programmation Claude Code.",
+    "description": "→ 📺 Ma vidéo sur les agents IA n8n\nhttps://youtu.be/XPVY1yXwxwY\n\nRemplacer n8n, Make et Zapier par un agent IA, tout le monde le fait — et la plupart du temps, c'est l'erreur qui vous fait cramer des milliers de tokens pour rien. Je vous montre quand rester en automatisation, quand vraiment sortir Claude Code, et comment choisir sans vous faire avoir par la hype.\n\n→ 📅 S'inscrire en liste d'attente de mes workshops privés\nhttps://sharma.fr/masterclass-privees\n\n→ ✉️ Rejoindre ma newsletter\nhttps://shubham-sharma.fr/newsletter/\n\n00:00 L'erreur : vouloir tout remplacer par des agents IA\n00:47 Déterministe vs agentique \n01:46 Mon analogie : Leroy Merlin vs la piscine au 5e étage\n03:21 Quel niveau technique pour chaque outil\n03:58 Mes automatisations (Stripe, quittances de loyer)\n05:15 Débuggable même sans être développeur\n06:17 La stack d'avant vs Claude Code\n08:17 Build vs run, tokens vs abonnement\n09:25 Débutant en vibe coding : le chemin à suivre\n10:06 Quand rester sur n8n / Make, quand "
+  },
+  {
+    "channel_name": "Orage19",
+    "handle": "@Monster-ll4ey",
+    "category": "Météo",
+    "title": "⚠️ ORAGES, CANICULE, INCENDIES : la situation devient très préoccupante ! 🌩️🔥🥵",
+    "url": "https://www.youtube.com/watch?v=jD6A7MiPc-o",
+    "id": "jD6A7MiPc-o",
+    "score": 8.5,
+    "summary": "Analyse des records de températures et évolution de la vague de chaleur.",
+    "description": "🌩️ Point météo complet !\n\nAu programme de cette vidéo :\n\n* ⚡ Les risques d’orages de ce soir et surtout de demain, avec une surveillance renforcée sur le Sud-Est, notamment l’Hérault, le Gard, les Bouches-du-Rhône et le Var, où des orages localement très violents sont possibles.\n* 🥵 Les dernières prévisions sur la nouvelle canicule, désormais confirmée pour la semaine prochaine.\n* 🔥 Un point sur les incendies en cours et un message de soutien à tous les sapeurs-pompiers mobilisés.\n\nRestez prudents et pensez à vous abonner à Orage19 pour suivre l’évolution de la situation en temps réel.\n\n\n\n\n#Orage19 #Météo #Orages #Canicule #Incendies #Pompiers #Foudre #Grêle #Sécheresse #Prévisions #France #Vigilance #Weather"
+  },
+  {
+    "channel_name": "iAlan",
+    "handle": "@iAlan_automatise",
+    "category": "IA",
+    "title": "Fable 5 vs Kimi K3 : la Chine vient de gagner (COMPARATIF)",
+    "url": "https://www.youtube.com/watch?v=AaOvuXmq18g",
+    "id": "AaOvuXmq18g",
+    "score": 8.0,
+    "summary": "Actualités et analyses sur le thème IA.",
+    "description": "Kimi K3 vs Claude Fable 5 vs Sonnet 5 le plus gros modèle open source jamais sorti, testé en live sur les mêmes prompts\n\nsi tu veux les prompts demande les en commentaire\n\nKimi K3 est sorti le 16 juillet et c'est le plus gros modèle open source jamais publié (2 800 milliards de paramètres). Dans cette vidéo, je le compare honnêtement à Fable 5 et Sonnet 5 sur exactement les mêmes prompts, dans les mêmes conditions sur OpenRouter. 🔥\n\nAu programme : les benchmarks et les prix (3$/15$ le million de tokens, soit le tarif de Sonnet 5 pour un modèle bien plus puissant), 3 use cases testés en live (site e-commerce, funnel d'inscription à un événement, jeu 3D), comment tester Kimi K3 gratuitement, et le bilan des coûts à la fin. Petit bonus : l'accusation de distillation lancée par le ministre des Technologies américain, dont tout Twitter parle en ce moment. 👀\n\n⏱️ CHAPITRES\n00:00 Intro : Kimi K3 sort et l'accusation de distillation\n01:03 C'est quoi Kimi K3 ? (specs, open source, prix, benchmar"
+  },
+  {
+    "channel_name": "Elliott Pierret",
+    "handle": "@elliottpierret",
+    "category": "IA",
+    "title": "Arrêtez de créer des Agents IA, créez des Loops !",
+    "url": "https://www.youtube.com/watch?v=JIFgklJGj2w",
+    "id": "JIFgklJGj2w",
+    "score": 7.5,
+    "summary": "Présentation et tutoriel de déploiement d'agents IA autonomes.",
+    "description": "Ma nouvelle vidéo Youtube sur les Loops est disponible sur ma chaîne !\n\nJe t’y présente l’une des notions phares de l’IA : les loops, une technique indispensable pour créer des agents IA surpuissants.\n\nAu programme :\n➜ Comment créer des Loops\n➜ À quoi servent les Loops\n➜ Que mettre dans une Loop\n➜ Créer des Loops simples avec Claude Cowork\n➜ Créer des Loops complexes avec Claude Code\n➜ Découvrir des scénarios concrets à reproduire\n\nTu découvriras une technique à intégrer dans ton quotidien professionnel pour automatiser certaines tâches et gagner en efficacité.\n\n#codex #claude #IA #claudecode"
+  },
+  {
+    "channel_name": "LEGEND",
+    "handle": "@legendmedia",
+    "category": "Actualités Générales",
+    "title": "CRÉER VOTRE APPLICATION EST POSSIBLE EN 15 MINUTES GRÂCE À L'IA",
+    "url": "https://www.youtube.com/watch?v=yjOF6WmpO0k",
+    "id": "yjOF6WmpO0k",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": "Créer votre application est possible en 15 minutes grâce à l’IA\n\nDisponible sur YouTube et en podcast sur toutes les plateformes 🎬\n\nCollaboration commerciale avec MWM\n\n#legend #legendmedia"
+  },
+  {
+    "channel_name": "Bricolo2.0",
+    "handle": "@bricolo2.0",
+    "category": "Actualités Générales",
+    "title": "Indépendance Totale : Sécurise tes mots de passe sur ton NAS !",
+    "url": "https://www.youtube.com/watch?v=ZMUM3kyWBCI",
+    "id": "ZMUM3kyWBCI",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": "Tu en as marre de confier tes mots de passe à des serveurs inconnus ? Découvre comment reprendre le contrôle total de tes données en hébergeant ton coffre-fort KeePass directement sur ton infrastructure locale ! 🔒🛡️\n\nCréation et sécurisation de la base de données directement sur le NAS.\nMise en place d'un fichier clé pour une double authentification robuste.\nAstuces pour récupérer et importer facilement tes anciens accès web.\nSynchronisation sur smartphone Android via le réseau local.\nLe test de vérité : pourquoi l'autofill fonctionne sous Firefox mais galère sur Chrome.\n\nRetrouvez tous les fichiers et tutos sur mon site : http://bricolo2point0.fr\n\nN'oublie pas de t'abonner et de lâcher un pouce bleu pour soutenir la chaîne, et active la cloche pour ne pas rater la prochaine vidéo dédiée à Vaultwarden en conteneur Docker !\n\n#Homelab #KeePass #Cybersecurité #OpenMediaVault #SelfHosting #NAS #Domotique #Security\n\n5. CHAPITRAGE\n0:00 Introduction\n0:40 KeePass vs Vaultwarden\n3:03 Création d"
+  },
+  {
+    "channel_name": "RTL",
+    "handle": "@rtl_france",
+    "category": "Actualités Générales",
+    "title": "Qu’est ce qui diminue de 10 centimètres quand il fait froid ?",
+    "url": "https://www.youtube.com/watch?v=UvfIG3Nqx5M",
+    "id": "UvfIG3Nqx5M",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": "😂 « C’est beaucoup 10 centimètres dis donc ! » \n\nLes Grosses Têtes, de 15H30 à 18H sur #RTL 📻"
+  },
+  {
+    "channel_name": "ChocolatAndVanillah",
+    "handle": "@ChocolatAndVanillah2",
+    "category": "Actualités Générales",
+    "title": "Je TROLL ma copine en faisant N'IMPORTE QUOI sur DRESS TO IMPRESS !",
+    "url": "https://www.youtube.com/watch?v=qnkA4h8T51w",
+    "id": "qnkA4h8T51w",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": "Je TROLL ma copine en faisant N'IMPORTE QUOI sur DRESS TO IMPRESS !\n🌴 Abonnez vous à mes chaînes : @chocohasmr7749 ,@Chocohoff ,@CHOCOHSHORTS ,@CHOCOHPlus \n🎥 Vidéo secrète juste pour vous : https://youtu.be/U6DcM8qDwtY\n-------------------------\n💕Mes réseaux sociaux 💕\n\n🟣Twitch https://www.twitch.tv/chocolatandvanillahh\n 📸Instagram https://www.instagram.com/chocolatandvanillah/?hl=fr\n🌺 TikTok : https://www.tiktok.com/@chocolatandvanillah?lang=fr\n👻 Snapchat @Chocohoff\n🌈Chaîne secondaire @ChocolatAndVanillah 2  \n🎮Discord  https://discord.gg/XvbF5z53Fe\n✅Twitter : https://twitter.com/ChocoVanillah\n🌟 Code créateur : CHOCOH\n------------------------\n\nQ U E S T I O N S :\n📍 comment t'envoyer du courrier : CHOCOH 2 Rue Paul Vaillant Couturier, 92300 Levallois-Perret Webedia\n📫 comment te contacter ?  chocolatandvanillapro@gmail.com ou par DM Instagram \n💰 comment te soutenir ? code CHOCOH dans la boutique de Fortnite !"
+  },
+  {
+    "channel_name": "W9",
+    "handle": "@W9officiel",
+    "category": "Actualités Générales",
+    "title": "Toboggans géants : les secrets de la vitesse extrême | E=m6",
+    "url": "https://www.youtube.com/watch?v=YfimwqCG2ZU",
+    "id": "YfimwqCG2ZU",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": "🔔Abonnez-vous à notre chaîne YouTube officielle pour ne rien manquer : https://www.youtube.com/@UCitno9icNS-pRRdYIBPFaSg \n\nPrêt pour le grand saut ? 🌊📐 \nDans cet épisode de E=m6, nous plongeons dans l'univers vertigineux des toboggans géants ! Entre adrénaline et ingénierie, comment ces structures repoussent-elles les limites de la vitesse tout en garantissant notre sécurité ?🎢\n\nAu programme : \n✅ Vitesse et Gravité : Pourquoi certains toboggans nous donnent-ils l'impression de tomber dans le vide ? \n✅ L'hydrodynamisme : Quel est le rôle crucial de l'eau dans votre accélération ? \n✅ Sécurité et Conception : Comment les ingénieurs testent-ils ces géants d'acier et de résine avant notre premier plongeon ?\n\nAttachez votre ceinture (ou plutôt votre maillot) et découvrez les secrets technologiques qui se cachent derrière vos attractions préférées ! 🏊‍♂️✨\n\n🍿E=m6², notre nouveau format imaginé et spécialement conçu pour YouTube \n\n❗❗Épisode inédit tous les dimanches à 18h❗❗\n\n📺 E=m6, tous les di"
+  },
+  {
+    "channel_name": "Hero Quiz",
+    "handle": "@heroquiz_",
+    "category": "Actualités Générales",
+    "title": "Choisis ta BOÎTE...! 🎁 ROSE 🎀 OR 💛 BLEU 💙 As-tu de la chance ?",
+    "url": "https://www.youtube.com/watch?v=MuNPwhZmljY",
+    "id": "MuNPwhZmljY",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": "Découvre le quiz cadeaux ultime : choisis ta boîte de Squishy Dumpling et teste si tu es une personne chanceuse ! Entre la boîte rose ou or ou bleu, choisis ton cadeau préféré et tente ta chance dans cette édition Squishy Dumpling. Ce jeu de chance unique te permet de choisir ta boîte de Squishy Dumpling pour savoir si tu es une personne chanceuse. Prêt à relever le défi rose ou or ou bleu dans ce quiz cadeaux spécial édition Squishy Dumpling ?\r\n\r\nÉcris tes réponses en commentaire et abonne toi à Hero Quiz pour encore plus de quiz ! 👇\r\n\r\n🍔QUIZ NOURRITURE: https://www.youtube.com/watch?v=KaDru9Ski20&list=PLdmXjEZsAP5fUE5y7oTqwhr6li_qa-PaA\r\n\r\n🙋TU PRÉFÈRES: https://www.youtube.com/watch?v=7Jc6tFIjT3Q&list=PLdmXjEZsAP5crZ5-OLBGNGm31s8tzR_AD\r\n\r\n🎮QUIZ JEUX VIDÉOS: https://www.youtube.com/watch?v=36rllu1sdQA&list=PLdmXjEZsAP5ea102pI9buSSIPlNjSgeGv\r\n\r\n🧍‍♂️DANS LA VRAIE VIE: https://www.youtube.com/watch?v=iqV_GMcExIg&list=PLdmXjEZsAP5cRKkZCOzTijMsYNkezNra6\r\n\r\n🦸‍♂️QUIZ SUPER HÉROS: https://www."
+  },
+  {
+    "channel_name": "Kevko",
+    "handle": "@KevkoYt",
+    "category": "Actualités Générales",
+    "title": "J’AI PRANK JEANFILS SUR ANIMAL HOSPITAL !! (Trop Drôle)",
+    "url": "https://www.youtube.com/watch?v=evFKpuTQwS4",
+    "id": "evFKpuTQwS4",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": "⬇️ Mes réseaux ⬇️\n\n📽 Youtube : Kevko\n🎥 Chaîne IRL : Kevko Life\n🎥 Chaîne réaction : Kevko React\n📸 Instagram : Kevko YT\n🟡 Snapchat : Kevko_youtube\n⚫ Tiktok : kevko_yt\n\nMa Boutique Kevko : https://brainrot-buddies.com/\n\n👑 Code Créateur Stumble Guys : Kevko\n👑 Code Créateur Fortnite : Kevko\nPublicité #EpicPartner\n\n🕹️ Rejoins mon Discord Communautaire : https://discord.com/invite/PzYZG8ffh9\n\n🎬 Retrouvez toutes mes meilleures vidéos Roblox dans cette playlist : \nhttps://www.youtube.com/playlist?list=PL5ntT_et3JXz7ERx_NbgqwNM1XE1C3j6L\n\n👑 Mes abonnés favoris :\nSont abonnés à la chaîne\nOnt liké la vidéo\nOnt commenté la vidéo\n\n📸 Suivez-moi sur Instagram : https://www.instagram.com/kevkoyt/\n\n📝 Règles de la section commentaire :\n\nRespectez les membres de notre communauté.\nTout comportement insultant, raciste ou inapproprié sera sanctionné.\nAucune publicité ou spam n'est autorisé.\n\n📧 Contact Professionnel : partenariats@kevko.fr"
+  },
+  {
+    "channel_name": "La.sweety",
+    "handle": "@La.Sweety",
+    "category": "Actualités Générales",
+    "title": "Mon téléphone a l’eau #reels #reelsinstagram",
+    "url": "https://www.youtube.com/watch?v=eY_VnfvgD40",
+    "id": "eY_VnfvgD40",
+    "score": 6.5,
+    "summary": "Actualités et analyses sur le thème Actualités Générales.",
+    "description": ""
+  }
+]

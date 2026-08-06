@@ -19,6 +19,10 @@ on:
         required: true
         type: boolean
         default: true
+      triggered_by:
+        description: "Qui déclenche ? (gregory, patrick, cron)"
+        required: false
+        default: "gregory"
 
 jobs:
   run-bilan:
@@ -44,8 +48,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           GMAIL_EMAIL: "langlet.gregory@gmail.com"
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          # Envoi à Patrick uniquement en production (cron schedule ou test_mode désactivé)
-          RECIPIENT_EMAILS: ${{ (github.event_name == 'schedule' || github.event.inputs.test_mode == 'false') && 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com, patrick.marliere@wanadoo.fr' || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com' }}
+          # Envoi à Patrick en prod, cron à gregory.langlet59264@gmail.com, test à Gregory
+          RECIPIENT_EMAILS: ${{ (github.event.inputs.triggered_by == 'cron') && 'gregory.langlet59264@gmail.com' || ((github.event.inputs.triggered_by == 'patrick' || github.event.inputs.test_mode == 'false') && 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com, patrick.marliere@wanadoo.fr' || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com') }}
         run: |
           # Construire les arguments dynamiquement
           ARGS="--region \"${{ github.event.inputs.region || 'Hauts-de-France' }}\" --to \"$RECIPIENT_EMAILS\" --no-nlm"

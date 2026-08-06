@@ -1,0 +1,63 @@
+[WEEK_1_START]
+[W1_DATES]Lundi 27 au Dimanche 2 août 2026
+[W1_KEY_POINT_1]Régime bloqué avec flux SW chaud et marais barométrique favorisant des alternances thermiques (yoyo).
+[W1_KEY_POINT_2]Forte persistance de chaleurs intenses dans le sud, sud-est et centre-est au nord.
+[W1_KEY_POINT_3]Faibles précipitations et risque incendie accru dans le sud-ouest avec vents directionnels variables.
+[W1_MODEL_START]
+[W1_MODEL_NAME]CEP (IFS)
+[W1_MODEL_SCENARIO]Flux bloqué SW, hautes pressions centrées Atlantique/IBéro-Péninsule, chaleur piégée sud.
+[W1_MODEL_SENSIBLE_WEATHER]Alternances chaudes/marines, temps sec, chaleurs persistantes sud/est.
+[W1_MODEL_AFFECTED_ZONES]France entière, focus Sud, Sud-Est, Centre-Est et Sud-Ouest (risque incendie).
+[W1_MODEL_EXTRACTION_CONF]Modérée
+[W1_MODEL_STATUS]Majoritaire (soutenu par CEP et GEM, bien que GEFS diverge)
+[W1_MODEL_MENTIONS_COUNT]5 mentions
+[W1_MODEL_RUN]12Z
+[W1_MODEL_TIMING]S1 J+2 à J+6
+[W1_MODEL_DETAILS]Gradient thermique NW-SE à 850hPa confirmé, marais barométrique local, peu de pluie, vents tournoyants.
+[W1_MODEL_END]
+[W1_CONVERGENCES]
+- Confirmation d'un régime blocagé/sudo-ouest chaud sur la France.
+- Persistance de fortes chaleurs dans le quart sud-est et centre-est.
+- Alternance thermique marquée yoyo avec apport maritime limitant le nord-ouest.
+[W1_DIVERGENCES]
+- Géographicité exacte de la fraîcheur marine : extrême nord-ouest uniquement (CEP) vs remontée possible vers l'ouest.
+- Intensité et durée du blocage anticyclonique : piégeage maximal sud (CEP) ou léger reflux vers méditerranéen (GEFS).
+- Fiabilité des déterministes à 7-10 jours : prudence conseillée vs confiance en CEP/GEM.
+[W1_ZONES_JSON_START]
+{"zones": {"nord": {"sensible_weather": "Alternance flux maritime/chaud, températures modérées par l'océan", "temperature": "Supérieures à la normale mais tamisées par l'ouest", "reliability": "Élevée", "models_agreement": "Fort accord sur l'influence océanique", "analysis_note": "Marais barométrique et flux SW maintiennent un yoyo thermique"}}}
+[W1_ZONES_JSON_END]
+[W1_SOLID_POINTS]
+- Régime bloqué SW chaud confirmé par plusieurs membres.
+- Persistance de chaleurs sud/est.
+- Faible probabilité de précipitations significatives.
+[W1_FRAGILE_POINTS]
+- Précision spatiale de l'apport maritime (GEFS vs CEP).
+- Intensité réelle des pics thermiques répétés (risque de déterminisme précoce).
+- Évolution exacte du marais barométrique.
+[W1_NEXT_RUNS_TO_WATCH]
+IFS 06Z/18Z, GFS 12Z, GEFS réinitialisations. Suivi du décalage atlantique vs position centrale.
+[W1_PHASE_1_DATES]Lundi 27 au Mercredi 29 juillet
+[W1_PHASE_1]Première bouffée chaude marquant le début du yoyo thermique.
+[W1_PHASE_2_DATES]Jeudi 30 au Dimanche 2 août
+[W1_PHASE_2]Alternances flux maritime/chaud avec répit limité et persistance au sud.
+[WEEK_1_END]
+
+[GLOBAL_START]
+[GLOBAL_15_DAY_TREND]Persistance de régimes chauds et bloqués, avec yoyo thermique (S1) suivi d'une possible amortissement caniculaire mais maintien de chaleurs soutenues (S2) et risques convectifs.
+[MOST_RELIABLE_WEEK]S1
+[GLOBAL_CONSENSUS_KPI]Modéré
+[GLOBAL_CONSENSUS_NOTE]Accord sur blocage SW, chaleur persistante sud et alternances, divergence sur intensité/spatialisations précises.
+[GLOBAL_SCENARIO_KPI]Blocage chaud avec yoyo puis possible reflux modéré mais chaleur résiduelle.
+[GLOBAL_SCENARIO_NOTE]Scénario CEP/GEM dominant, Icon suggère un court répit, risque orageux en hausse.
+[GLOBAL_UNCERTAINTY_KPI]Élevée (sur S2)
+[GLOBAL_UNCERTAINTY_NOTE]Décalage atlantique, localisation pluie, intensité pics thermiques et fiabilité déterministe au-delà de 7j.
+[LINKEDIN_POST]🌡️ Bulletin météo 28/07/2026 | Analyse Infoclimat
+Début août 2026 sous le signe d'un régime bloqué et chaud. Les discussions communautaires font consensus sur un flux Sud-Ouest chaud et persistant, créant un yoyo thermique marqué entre bouffées de chaleurs et passages maritimes limités. Attention aux extrêmes dans le Sud/Sud-Est et à la sécheresse au Sud-Ouest propice aux incendies. Au-delà du 1er août, les modèles divergent sur l'amplitude et la localisation des répit potentiels. La prudence reste de mise : au-delà de 7 jours, les déterministes gagnent en dispersion, et un léger décalage atlantique pourrait modifier la donne rapidement. Suivez les réanalyses IFS 12Z et GFS 12Z pour affiner les axes. #Météo #Climatologie #Prévision #MétéoFrance #EnsembleForecast
+[GLOBAL_END]
+
+[DOUBTS_START]
+[DOUBTS_TIMING]Précision des alternances thermiques (J+3 à J+5) et moment exact du répit potentiel fin juillet.
+[DOUBTS_LOCATION]Zonage précis du répit maritime vs poursuite de la chaleur dans les axes rhodanien/sud-est.
+[DOUBTS_INTENSITY]Amplitude réelle des pics de chaleur (35-38°C vs >40°C) et risque d'orages intenses/grêle.
+[MISSING_INFORMATION]Évolution du positionnement de la dorsale atlantique et des interactions CTS/anticyclonales pour la seconde quinzaine.
+[DOUBTS_END]
