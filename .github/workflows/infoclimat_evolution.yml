@@ -72,6 +72,7 @@ jobs:
           python scripts/meteo_marine_tides.py || true
           python scripts/generate_bulletins_html.py || true
           python update_public_html.py || true
+          touch public/.nojekyll
 
       - name: Déployer le site Web sur GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
