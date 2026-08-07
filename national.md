@@ -1,135 +1,125 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Vendredi 7 Août 2026
-**Période :** Semaine 1 (Du lundi 10 au dimanche 16 août 2026) & Semaine 2 (Du lundi 17 au dimanche 23 août 2026
-
-⚠️ Note de transparence : Le sujet spécifique de la semaine 34 n'étant pas encore ouvert sur le forum Infoclimat, cette analyse s'appuie sur les projections à long terme évoquées dans les discussions de la semaine 33 et sur les tendances des modèles.)
+**Période :** Semaine 1 (Du Lundi 10 au Dimanche 16 Août 2026) & Semaine 2 (⚠️ Sujet spécifique non ouvert : analyse basée sur les projections long terme (≥J+8) du sujet Semaine 33.)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Élevé — *Accord unanime des modèles sur une intense vague de chaleur en semaine 1.*
-- **Fiabilité du scénario majoritaire :** Vague de chaleur durable puis baisse progressive — *Le scénario le plus probable est celui d'un pic très marqué, suivi d'une lente amélioration, surtout à partir de la mi-août.*
+- **Consensus des modèles :** Élevé — *Accord quasi unanime des modèles sur la canicule de la semaine 1.*
+- **Fiabilité du scénario majoritaire :** Canicule suivie d'une baisse progressive — *Scénario dominant : pic de chaleur puis refroidissement inégal.*
 - **Stabilité des cartes/scénarios :** 6 / 126 — *6 cartes sur 126 analysées*
-- **Niveau d'incertitude global :** Modérée — *Les incertitudes se concentrent sur la phase de décrue, en particulier pour le sud-est.*
+- **Niveau d'incertitude global :** Incertitude modérée sur la semaine 2 — *La fin de semaine 2 et le sud-est restent incertains.*
 
-## 🗓️ SEMAINE 1 : Du lundi 10 au dimanche 16 août 2026
+## 🗓️ SEMAINE 1 : Du Lundi 10 au Dimanche 16 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Vague de chaleur généralisée : Pic probable entre le 11 et le 14 août, avec des températures très élevées sur une large moitié sud.
-2. Sud-Est en surchauffe : Persistance de températures extrêmes, Txn supérieures à 30°C depuis mi-juin, aucune accalmie en vue jusqu'au 15 août.
-3. Orages ciblés en Aquitaine : Dégradation orageuse incertaine samedi soir, puis un temps plus sec lundi et mardi.
-4. Baisse amorcée le 15 août : Signal général de refroidissement pour le nord, plus timide pour le sud-ouest, avec une porte de sortie pour le sud-est en fin de semaine.
-5. Sécheresse des sols aggravée : Évapotranspiration élevée de 5 à 7 mm/jour, bilan hydrique très déficitaire.
+1. Vague de chaleur majeure : Pic attendu entre mardi 11 et vendredi 14, avec des anomalies de +6°C sur la diagonale centrale.
+2. Sud-est en surchauffe : Températures caniculaires continues depuis mi-juin, aucune trêve en vue jusqu'à la mi-août.
+3. Sécheresse généralisée : Absence quasi totale de précipitations sur la quasi-totalité du pays, sols superficiels en déficit hydrique marqué.
+4. Rafraîchissement en vue : Signal d'une baisse des températures à partir du 15-16 août, d'abord au nord, mais plus tardive au sud-est.
+5. Risque orageux faible : Instabilité limitée, quelques averses possibles en montagne et sur le Cagire, mais pas de dégradation généralisée.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Vague de chaleur généralisée confirmée pour la période du 11 au 14 août, avec un accord quasi unanime des modèles (ECMWF, GFS) sur une anomalie > +4°C à +6°C.
-- Absence totale de précipitations jusqu'au 15 août pour la majorité du territoire, sauf orages ponctuels en Aquitaine en début de semaine.
-- Signal de baisse des températures à partir du 15 août pour le nord, considéré comme un scénario probable mais pas certain.
+- Accord unanime des modèles sur une canicule intense entre le 11 et le 14 août.
+- Températures maximales dépassant largement les normales de 5 à 8°C sur les 3/4 du pays.
+- Absence de précipitations significatives pendant la majeure partie de la semaine.
 **Points de divergence :**
-- Intensité exacte du pic : l'ECMWF prévoit une médiane à 36-38°C pour Paris, mais certains membres supérieurs dépassent 40°C. Le GFS est un peu moins chaud.
-- Date précise de la baisse : pour le sud-est, la baisse est envisagée plus tardivement (19-20 août) et reste fragile, tandis que le nord devrait voir une amélioration dès le 15/16 août.
-- Comportement des orages sur l'ouest : l'Aquitaine pourrait connaître une courte dégradation samedi soir, mais son extension vers le centre-est reste très incertaine.
+- Intensité exacte du pic : certains runs envisagent 40°C localement, d'autres plafonnent à 37-38°C.
+- Début du rafraîchissement : nord dès le 15, sud-est peut-être seulement après le 20.
+- Possibilité d'orages en fin de semaine sur le sud-ouest et les reliefs, non confirmée par tous les modèles.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (IFS, CEP, ensembles)** (documenté avec analyses, diagrammes, ensembles) | Nouvelle vague de chaleur intense du 11 au 14 août, puis baisse progressive à partir du 15 août, surtout au nord. Anomalie médiane > +6°C sur la diagonale centrale. | Soleil quasi permanent, températures 36-38°C à Paris en médiane, 38-40°C possibles au sud-est. | Toutes zones, particulièrement sud-est, centre, nord-est, ouest-atlantique | Élevée (85%) | L'ensemble européen montre une dispersion faible pour la France ces jours-ci, mais l'écart-type reste réduit. Le déterministe IFS atteint des valeurs extrêmes. Les moyennes de température à 850 hPa restent ≥20°C pendant 13 jours pour le sud-est. |
-| **GFS (GEFS)** (partiellement documenté (les membres ont mentionné les sorties GEFS)) | Très chaud, avec un signal moins net pour la baisse en fin de semaine. Les ensembles suggèrent un maintien des hauts géopotentiels sur l'ouest de l'Europe. | Soleil et chaleur accablante, surtout au sud-est. Pas de précipitations jusqu'au 15 août. | Toutes zones, mais plus marqué au sud-est et centre | Modérée (65%) | Les sorties GEFS pour Marseille suggèrent une baisse possible à partir du 20 août, mais avec une grande incertitude. Le modèle est moins commenté que l'ECMWF. |
-| **Autres modèles (ARPEGE, UKMO, ICON)** (non documenté) | Non significativement mentionnés dans les discussions infoclimat pour cette semaine. | Non défini | Non déterminé | Non estimable | Aucune référence à ces modèles dans les discussions de la semaine 33. |
+| **ECMWF (IFS/CEP)** (Documented) | Nouvelle canicule du 11 au 14 août, températures médianes à 36-38°C à Paris, 850 hPa >20°C jusqu'au 15 août sur le sud-est. | Soleil écrasant, absence de précipitations significatives, chaleur intense journée et nuit. | Toutes les zones, avec intensité maximale sur le sud-est, vallée du Rhône et Centre. | Élevée (85%) | L'ensemble européen montre une anomalie de +6°C sur la diagonale centrale, avec une dispersion réduite. Le déterministe IFS illustre un potentiel maximal de 38-40°C sur certaines zones. Signal de baisse pour le nord après le 15, plus laborieux pour le sud-est. |
+| **GFS (GEFS)** (Partial) | Scénario similaire à ECMWF : canicule prolongée, mais incertitude sur la fin de semaine avec possible baisse plus marquée au nord. | Chaleur accablante, aucun orage significatif. | Nord, nord-ouest, ouest atlantique, sud-ouest. | Modérée (65%) | Les diagrammes GEFS pour Marseille montrent une persistance des températures élevées jusqu'au 20 août, avant une baisse progressive. Signal consolidé depuis quelques jours. |
+| **Modèles régionaux (AROME, ARPECE)** (Insufficient) | Non documenté explicitement dans les discussions, mais prévisions officielles indiquent des maximales de 36-39°C dans le sud-est. | Non documenté | Sud-est, vallée du Rhône, Méditerranée. | Faible (45%) | S'appuie sur les bulletins officiels Météo-France. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Soleil dominant, très chaud jusqu'au 14, puis baisse possible dès le 15. | Maximales 32-38°C, minimales 17-25°C. Pic lundi-mercredi. | elevee | ECMWF | Rythme exact de la baisse en fin de semaine. |
-| **Nord** | Ensoleillé, chaleur intense avec pic entre mardi et vendredi. | Médiane 36-38°C à Paris, minimales 18-25°C. | elevee | ECMWF, GFS | Possibilité de dépasser 40°C localement selon les scénarios extrêmes. |
-| **Nord-Est** | Très chaud, ciel dégagé, pas de pluie. | Maximales 34-39°C, voire plus en plaine. | moderee | ECMWF | Impact d'une éventuelle intrusion d'air plus frais en fin de semaine. |
-| **Ouest et Façade Atlantique** | Très chaud, risque d'orages samedi soir puis retour du soleil. | Maximales 33-37°C, plus fraîches sur le littoral (24-28°C). | moderee | ECMWF, GFS | Extension des orages vers le nord-est ? |
-| **Centre** | Soleil, chaleur extrême avec anomalies > +6°C en médiane. | Maximales 37-40°C, minimales 19-25°C. | elevee | ECMWF | Fluctuations de l'indice thermique national. |
-| **Sud-Ouest** | Poursuite d'une chaleur écrasante, mais possible inflexion à partir du 16. | Toulouse 36-38°C, nuits à 20-22°C. Baisse attendue en fin de semaine. | moderee | ECMWF, GFS | Chronologie exacte du rafraîchissement. |
-| **Sud-Est et Vallée du Rhône** | Canicule persistante, aucune trêve jusqu'au 15 août minimum. | Txn moyennes 33-39°C depuis mi-juin, nuits très chaudes (24°C à Marseille). | elevee | ECMWF, GFS | Date de sortie de l'épisode : envisagée vers le 19-20 août mais fragile. |
-| **Méditerranée et Corse** | Très chaud et sec, avec un coup de vent d'ouest parfois fort. | Maximales 33-38°C, minimales 23-26°C sur le littoral. | moderee | ECMWF, GFS | Impact du vent sur les températures ressenties. |
+| **Nord-Ouest** | Soleil dominant, très chaud, quelques passages nuageux en fin de semaine | Maximales 34-37°C mardi à jeudi, baissant à 28-31°C samedi-dimanche | elevee | ECMWF, GFS | Ampleur de la baisse en fin de semaine |
+| **Nord** | Ensoleillé, chaleur intense, point culminant jeudi | Médianes 36-38°C à Paris jeudi, retombées à 30-33°C dimanche | elevee | ECMWF, GFS | Précision du pic |
+| **Nord-Est** | Très ensoleillé et très chaud, anomalie +6°C sur la diagonale | Maximales 35-38°C, mêmes valeurs que le nord | elevee | ECMWF | Durée exacte de la chaleur |
+| **Ouest et Façade Atlantique** | Soleil généreux, quelques nuages le week-end, chaleur soutenue | Maximales 33-37°C lundi à mercredi, 30-34°C ensuite | moderee | ECMWF, GFS | Évolution orageuse en fin de semaine |
+| **Centre** | Ensoleillé, chaleur extrême, pic jeudi | Maximales 36-39°C, les plus élevées de la semaine | elevee | ECMWF | Aucune majeure |
+| **Sud-Ouest** | Beau temps, très chaud, quelques ondées possibles en montagne | Maximales 36-38°C en plaine, 33°C sur le Cagire et Luchon | elevee | ECMWF, GFS | Localisation des averses |
+| **Sud-Est et Vallée du Rhône** | Canicule persistante, soleil permanent, nuits très chaudes | Maximales 36-39°C, minimales 22-26°C près du littoral et vallée du Rhône | elevee | ECMWF, GFS | Sortie de canicule repoussée après le 20 août |
+| **Méditerranée et Corse** | Chaleur extrême sur le littoral et la Corse, aucun répit | Maximales 33-37°C, minimales tropicales (23-26°C) | elevee | ECMWF, GFS | Durée de l'épisode au-delà du 16 août |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 10 et mardi 11 août** : Échauffement progressif avec un soleil éclatant, les températures grimpent rapidement, notamment dans le sud-ouest et le centre.
-- **Mercredi 12 et jeudi 13 août** : Pic de chaleur majeur : maximales souvent ≥38°C dans la moitié sud, 36-38°C à Paris, nuits tropicales en ville.
-- **Vendredi 14 et samedi 15 août** : Chaleur encore forte mais un léger fléchissement se dessine à l'ouest et au nord, avec un risque orageux qui reste marginal.
-- **Dimanche 16 août** : Baisse plus nette des températures sur la moitié nord, tandis que le sud-est reste encore très chaud, avec une possible amélioration seulement en fin de journée.
+- **Lundi 10 et Mardi 11 Août** : Chaleur écrasante s'installant, maximales déjà 35-38°C sur la moitié sud, 33-36°C au nord.
+- **Mercredi 12 et Jeudi 13 Août** : Pic caniculaire attendu, maximales 36-39°C généralisées, nuits tropicales au sud-est.
+- **Vendredi 14 et Samedi 15 Août** : Chaleur encore forte, mais premiers signes de baisse au nord-ouest, orages possibles sur l'Aquitaine.
+- **Dimanche 16 Août** : Baisse sensible au nord, mais le sud-est reste en surchauffe.
 
 **Points solides :**
-- Pic de chaleur confirmé entre mardi 11 et vendredi 14 août sur les 3/4 du pays.
-- Aucune précipitation significative attendue avant le 15 août.
-- Sud-Est extrêmement chaud en continu depuis mi-juin, sans signe de relâche.
+- Canicule du 11 au 14 août sur l'ensemble du territoire, avec une fiabilité élevée des modèles (confirmée dès 384h).
+- Températures maximales dépassant localement 38°C dans le sud-est et la vallée du Rhône.
+- Absence de précipitations significatives sur 90% du pays.
 
 **Points fragiles :**
-- Évolution orageuse de la marge atlantique : incertaine et peu durable.
-- Baisse des températures en fin de semaine : robuste pour le nord, mais plus aléatoire pour le sud-est.
-- Nuits très chaudes qui pourraient aggraver la situation pour les personnes sensibles.
+- Intensité du pic : certains runs envisagent 40°C, d'autres plafonnent à 38°C.
+- Début du rafraîchissement : le nord pourrait voir une baisse dès le 15-16, mais le sud-est reste bloqué.
+- Risque orageux en fin de semaine sur l'Aquitaine et les Pyrénées, incertain.
 
 **À surveiller (prochains runs) :**
-- Les prochaines sorties ECMWF et GFS à partir de ce week-end pour affiner la chronologie de la baisse.
-- Suivi particulier des sorties GEFS pour la fin de semaine 2.
-- Surveillance des indices de convection (Keraunos) pour tout orage possible en marge.
+- Prochains runs GFS et ECMWF pour affiner le début de la baisse.
+- Surveiller la possibilité d'orages sur le sud-ouest dimanche 16.
 
 
-## 🗓️ SEMAINE 2 : Du lundi 17 au dimanche 23 août 2026
-
-⚠️ Note de transparence : Le sujet spécifique de la semaine 34 n'étant pas encore ouvert sur le forum Infoclimat, cette analyse s'appuie sur les projections à long terme évoquées dans les discussions de la semaine 33 et sur les tendances des modèles.
+## 🗓️ SEMAINE 2 : ⚠️ Sujet spécifique non ouvert : analyse basée sur les projections long terme (≥J+8) du sujet Semaine 33.
 ### 💡 Points clés de la semaine 2
-1. Porte de sortie envisagée : Signal d'une baisse plus durable à partir du 20 août, surtout au nord et à l'ouest.
-2. Sud-Est en sursis : La fin de la canicule est évoquée pour le 19-20 août, mais avec une incertitude forte. Températures encore très chaudes en début de semaine.
-3. Changement de circulation : Les hauts géopotentiels pourraient se décaler vers l'ouest de l'Europe, permettant un flux plus océanique.
-4. Précipitations possibles ? Pas de pluie significative en vue pour le sud, mais une évolution plus humide n'est pas exclue en fin de période.
+2. Sud-est sous tension : La canicule pourrait se poursuivre jusqu'au 20-22 août, avec une sortie progressive.
+3. Incertitude forte : Les projections à long terme montrent un signal de baisse consolidé, mais restent fragiles.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Tous les modèles voient une baisse des températures pour la seconde partie de la semaine, avec un accord qualitatif.
-- Le sud-est restera probablement le dernier à sortir de la chaleur, mais une amélioration est tout de même évoquée.
-- Un retour de précipitations est possible en fin de semaine, mais très incertain.
+- Consensus sur une baisse des températures pour le nord et le nord-ouest à partir du 17-18 août.
+- Le sud-est devrait voir une baisse plus tardive, entre le 20 et le 23 août.
+- Signal d'un possible retour des précipitations sur la moitié nord.
 **Points de divergence :**
-- Amplitude de la baisse : certains modèles voient un retour à des normales de saison, d'autres une simple modération sans grand rafraîchissement.
-- Timing précis de l'arrivée du flux océanique : variable entre le 17 et le 20 août.
-- Extension géographique des pluies : pourrait toucher le nord-ouest et le centre, ou rester limitée à l'Atlantique.
+- Amplitude de la baisse : certains scénarios prévoient un retour proche des normales, d'autres seulement une atténuation.
+- Localisation exacte des pluies éventuelles.
+- Durée du maintien caniculaire au sud-est.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP, IFS, ensembles)** (partiellement documenté – signal identifié mais pas détaillé) | Maintien d'une chaleur intense jusqu'au 18-19 août, puis baisse généralisée. Le sud-est pourrait enfin voir un rafraîchissement après le 20 août. | Soleil encore généreux en début de semaine, puis développement de nuages avec possible dégradation orageuse en fin de semaine. | Toutes zones, avec une amélioration plus marquée pour le nord et l'ouest | Modérée (65%) | Les anomalies à long terme montrent un décalage des hauts géopotentiels vers l'ouest, ce qui pourrait permettre l'arrivée d'air plus frais. Le signal est présent pour la fin de cette période, mais avec une confiance encore limitée. |
-| **GFS (GEFS)** (partiellement documenté) | Chaleur encore présente en début de semaine, mais une tendance à la baisse plus nette apparaît pour la seconde moitié de la semaine, surtout au nord-ouest. | Soleil encore présent lundi-mardi, puis retour possible de nuages avec quelques averses sur le nord-ouest à partir de jeudi. | Nord-ouest, nord, centre, puis généralisation possible | Modérée (60%) | Les ensembles GFS montrent une diminution des températures de 4 à 6°C par rapport aux niveaux actuels pour la fin de la semaine, surtout dans la moitié nord. Le sud-est reste plus lent à se rafraîchir. |
-| **Autres modèles (ARPEGE, ICON)** (non documenté) | Non suffisamment détaillés par les membres, aucune information exploitable. | Non documenté | Non déterminé | Non estimable | Aucune mention. |
+| **ECMWF (CEP)** (Partial) | Décalage des hauts géopotentiels vers l'ouest, permettant une baisse des températures au nord dès le 15-16, mais plus lente au sud-est. | Retour de conditions plus fraîches au nord, possible retour des pluies en fin de période. | Nord, Nord-Ouest, Centre (baisse) ; Sud-Est (maintien jusqu'au 20). | Modérée (65%) | Signal d'une baisse plus durable vu dans les cartes d'anomalies à long terme, avec un décalage des hauts géopotentiels vers l'ouest. Marseille pourrait sortir de la fournaise en fin de semaine 2. |
+| **GFS (GEFS)** (Partial) | Baisse plus marquée au nord, mais le sud-est reste chaud jusqu'au 22 août. | Quelques pluies possibles sur le nord, mais pas de dégradation majeure. | Nord, Nord-Ouest (baisse), Méditerranée (maintien) | Modérée (60%) | Les diagrammes GEFS pour Marseille indiquent une persistance de la chaleur jusqu'au 20, puis une baisse progressive. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Chaleur encore marquée lundi-mardi, puis baisse sensible dès mercredi avec possible retour de nuages. | Maximales 30-35°C en début, puis 24-28°C en fin de semaine. | moderee | ECMWF, GFS | Arrivée exacte du flux océanique. |
-| **Nord** | Encore très chaud en début de semaine, puis nette amélioration à partir de jeudi. | Maximales 34-38°C jusqu'à mercredi, puis 26-30°C. | moderee | ECMWF | Intensité de la baisse. |
-| **Nord-Est** | Chaleur encore présente, baisse probable mais très mal cernée. | Pas de projection fiable à ce stade. | faible | ECMWF, GFS, Guillaume Séchet | Aucune information spécifique dans les discussions. |
-| **Ouest et Façade Atlantique** | Chaleur en régression, mais le rafraîchissement semble moins marqué qu'au nord. | Maximales 30-33°C en moyenne, avec une baisse de 3-5°C par rapport à la semaine 1. | moderee | GFS | Précipitations ou simple augmentation de la nébulosité ? |
-| **Centre** | Toujours très chaud en début de semaine, puis baisse progressive mais moins spectaculaire que dans le nord. | Maximales 36-38°C lundi, puis 30-32°C en fin de semaine. | moderee | ECMWF | Vitesse de la décrue thermique. |
-| **Sud-Ouest** | Chaleur encore forte lundi-mardi, puis amélioration plus lente que prévu pour le nord. | Maximales 35-38°C en début, puis 30-33°C en fin de semaine. | moderee | ECMWF | Extension des orages vers la plaine. |
-| **Sud-Est et Vallée du Rhône** | Canicule qui se prolonge jusqu'au 19-20 août, puis baisse attendue mais fragile. | Toujours des maximales de 35-40°C jusqu'à mercredi, puis 30-33°C pour le week-end. | faible | ECMWF, GFS | Le signal de baisse est bien présent mais l'amplitude reste très incertaine. |
-| **Méditerranée et Corse** | Chaleur extrême encore en début de semaine, amélioration très incertaine pour le week-end. | Non évaluable correctement à ce stade. | faible | ECMWF, GFS, Guillaume Séchet | Manque de données spécifiques pour cette zone. |
+| **Nord-Ouest** | Retour progressif de conditions plus fraîches, passages nuageux possibles | Maximales en baisse, 24-28°C attendus en fin de semaine | moderee | ECMWF, GFS | Ampleur réelle de la baisse |
+| **Nord** | Baisse nette des températures, ciel variable | Maximales 25-29°C, fraîcheur par rapport à la semaine précédente | moderee | ECMWF, GFS | Intensité des précipitations |
+| **Nord-Est** | Baisse modérée des températures, encore chaud en début de semaine | Maximales 28-32°C en début, 24-28°C en fin de semaine | moderee | ECMWF | Vitesse de refroidissement |
+| **Ouest et Façade Atlantique** | Chaleur encore présente, mais atténuation en fin de semaine | Maximales 30-34°C en début, 26-29°C ensuite | moderee | ECMWF, GFS | Influence océanique sur la baisse |
+| **Centre** | Chaleur encore marquée en début de semaine, baisse ensuite | Maximales 32-35°C au début, 28-32°C en fin | moderee | ECMWF | Position des hauts géopotentiels |
+| **Sud-Ouest** | Chaleur persistante, mais moins extrême qu'en semaine 1 | Maximales 33-36°C, baisse en fin de semaine à 29-32°C | moderee | ECMWF | Timing de la baisse |
+| **Sud-Est et Vallée du Rhône** | Canicule se poursuit, mais possible sortie en toute fin de semaine | Maximales 35-38°C jusqu'au 20, puis 32-34°C le 21-23 | moderee | ECMWF, GFS | Réalité de la baisse après le 20 |
+| **Méditerranée et Corse** | Chaleur intense persistante, peu d'informations sur une possible baisse | Maximales 33-37°C, minimales 23-26°C | faible | ECMWF | Signal peu documenté pour cette zone |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 17 et mardi 18 août** : Chaleur encore très forte, avec des températures proches de celles de la semaine 1 sur la moitié sud, mais une légère baisse au nord.
-- **Mercredi 19 et jeudi 20 août** : Amélioration plus nette sur la moitié nord, avec un possible passage nuageux et une baisse de 4 à 6°C.
-- **Vendredi 21 et samedi 22 août** : Baisse généralisée, mais le sud-est reste encore chaud pour le début de cette phase.
-- **Dimanche 23 août** : Temps plus normal pour la saison, avec des températures proches des normales sur l'ensemble du pays, mais possible renouée des orages sur l'est.
+- **Lundi 17 et Mardi 18 Août** : Chaleur encore très forte, mais premiers signes de baisse au nord-ouest.
+- **Mercredi 19 et Jeudi 20 Août** : Baisse nette au nord, sud-est encore caniculaire.
+- **Vendredi 21 et Samedi 22 Août** : Refroidissement plus généralisé, possible retour des pluies sur la moitié nord.
+- **Dimanche 23 Août** : Temps plus proche des normales sur une grande partie du pays, sud-est en amélioration.
 
 **Points solides :**
-- La chaleur va persister encore 3 à 4 jours avant une relative décrue.
-- Le signal de baisse est cohérent entre les deux grands modèles (ECMWF et GFS).
-- Le sud-est est bien identifié comme la zone qui aura le plus de mal à se rafraîchir.
+- Signal consolidé d'une baisse des températures pour le nord à partir du 17-18 août.
+- Sud-est devrait voir un maintien de la chaleur jusqu'au 20, puis une baisse progressive.
 
 **Points fragiles :**
-- L'intensité de la baisse reste très incertaine, avec des écarts possibles de 5 à 8°C selon les scénarios.
-- Le retour de précipitations, bien que probable, est beaucoup trop lointain pour être précis.
-- La possibilité d'un maintien d'une anomalie chaude ne peut être écartée.
+- Amplitude de la baisse au nord (proche des normales ou encore au-dessus ?).
+- Possibilité de précipitations significatives.
+- Incertitude majeure sur la sortie de canicule du sud-est.
 
 **À surveiller (prochains runs) :**
-- Suivi de l'évolution des hauts géopotentiels à partir du 15 août.
-- Confirmation des températures pour le week-end des 22-23 août.
-- Analyse des ensembles pour le sud-est, notamment les sorties GEFS et CEP pour Aix-en-Provence.
+- Ouverture du sujet Semaine 34 pour affiner ces projections.
+- Surveiller les runs de mi-août pour confirmer le décalage des hauts géopotentiels.
 
 
 ========================================
@@ -137,31 +127,34 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Une nouvelle vague de chaleur intense du 11 au 14 août sur toute la France, suivie d'une baisse progressive mais inégale à partir du 15-16 août, plus marquée au nord et à l'ouest. Le sud-est restera sous tension jusqu'au 19-20 août. En fin de période (22-23 août), un retour à des températures plus proches des normales est plausible, avec un possible retour des pluies.
+Canicule intense du 11 au 14 août, suivie d'une baisse progressive mais inégale : nette au nord dès le 17, plus lente au sud-est où elle pourrait se prolonger jusqu'au 22-23 août.
 
 ### Période la plus fiable
-Semaine 1 (10-16 août) : confiance élevée pour le pic de chaleur.
+Semaine 1 (10-16 août) avec une confiance élevée sur l'épisode caniculaire.
 
 ### Phénomènes récurrents
-- Canicule pluriannuelle au sud-est, avec un enchaînement ininterrompu de journées à plus de 30°C depuis mi-juin.
-- Nuits tropicales très fréquentes.
-- Absence totale de précipitations depuis de nombreuses semaines sur la majeure partie du territoire.
+- Chaleur extrême récurrente sur le sud-est (vague continue depuis mi-juin).
+- Absence de précipitations sur la quasi-totalité du pays.
+- Nuits tropicales récurrentes dans le sud-est.
 
 ### Principales incertitudes
-- Chronologie exacte de la baisse des températures en semaine 2.
-- Amplitude du rafraîchissement, qui pourrait être modeste dans le sud-est.
-- Possibilité de retour des orages en fin de période, mais aucune modélisation fiable à ce stade.
+- Intensité exacte du pic (38 vs 40°C).
+- Début précis de la baisse au sud-est (20 ou 23 août ?).
+- Possibilité de retour des pluies en fin de période.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le pic exact de la vague de chaleur est bien cerné (11-14 août), mais le moment précis de la baisse pour le sud-est est encore très incertain (17, 19 ou 21 août selon les runs).
-- **Localisation :** Les zones de transition (centre-ouest, région lyonnaise) pourraient connaître des variations locales importantes, surtout lors de la baisse.
-- **Intensité :** L'écart entre les scénarios pour le week-end des 22-23 août est important : 28°C à 35°C possibles à Paris selon les modèles.
-- **Informations manquantes :** Les prévisions de vent ne sont pas clairement documentées par les membres pour la plupart des régions, sauf pour le littoral atlantique et méditerranéen.
-- **Modèles sous-documentés :** ARPEGE, ICON, UKMO ne sont pas du tout évoqués dans les discussions. Aucune donnée exploitable.
-- **Incertitudes images :** Les cartes d'anomalies montrent des variations non négligeables entre runs, notamment pour la semaine 2.
+- **Timing/Chronologie :** Incertitude sur le début exact de la baisse au nord (15 ou 17 août ?) et sur la sortie de canicule du sud-est (20, 22 ou plus tard ?).
+- **Localisation :** Divergences sur la localisation exacte des orages possibles en fin de semaine 1 (Aquitaine vs Pyrénées vs autres zones).
+- **Intensité :** Les modèles divergent sur l'amplitude maximale du pic : 38°C ou 40°C pour certaines villes. De même, l'ampleur de la baisse en semaine 2 reste floue.
+- **Informations manquantes :** Le sujet semaine 34 n'est pas encore ouvert, donc aucune discussion détaillée pour cette période. Les informations proviennent uniquement des projections long terme.
+- **Modèles sous-documentés :** AROME, ARPEGE et les modèles régionaux ne sont pas commentés par les membres. GFS est moins détaillé que ECMWF.
+- **Incertitudes images :** Les cartes d'anomalies à long terme montrent des signaux contradictoires selon les modèles, et leur fiabilité diminue au-delà de J+10.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🔥 Nouvelle vague de chaleur majeure en France du 11 au 14 août ! Températures potentiellement caniculaires, avec des pointes à 38-40°C. Le sud-est continue de subir une chaleur historique depuis mi-juin. Bonne nouvelle : une baisse sensible est envisagée à partir du 15 août, surtout au nord. Le rafraîchissement gagnera lentement le sud, avec un possible retour des pluies en fin de semaine prochaine. Restez prudents, hydratez-vous ! 🌡️💧 #météo #canicule #France
+🔥🔴 Nouvelle canicule majeure en France du 11 au 14 août ! Les modèles sont d'accord : des températures de 36 à 39°C généralisées, avec un pic jeudi. Le sud-est continue sa canicule interminable depuis mi-juin. 🌡️🌞
+Bonne nouvelle : une baisse s'amorce dès le 15-16 août au nord, mais le sud-est devra patienter jusqu'au 20-22 août. 🌦️
+Restez prudents et hydratés ! 💧
+#Météo #Canicule #Prévisions
