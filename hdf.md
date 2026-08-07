@@ -1,122 +1,129 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Vendredi 7 Août 2026
-**Période :** Semaine 1 (**Du Lundi 10 au Dimanche 16 Août 2026**) & Semaine 2 (**Du Lundi 17 au Dimanche 23 Août 2026**  
-⚠️ **Sujet spécifique Semaine 34 non ouvert sur le forum Infoclimat** – Analyse basée sur les projections long terme du sujet Semaine 33 et les bulletins Météo-France.)
+**Période :** Semaine 1 (**Semaine 1 : du lundi 10 au dimanche 16 août 2026**) & Semaine 2 (**Semaine 2 : du lundi 17 au dimanche 23 août 2026**
+
+⚠️ **Avertissement** : Le sujet spécifique de la Semaine 34 n'est pas encore ouvert sur le forum Infoclimat. Cette analyse s'appuie uniquement sur les projections à long terme extraites du sujet Semaine 33. Les informations sont donc moins détaillées et les incertitudes demeurent fortes.)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord fort sur la semaine 1, mais fortes divergences sur l’évolution en semaine 2.*
-- **Fiabilité du scénario majoritaire :** Canicule → Rafraîchissement progressif — *Scénario le plus probable : pic de chaleur lundi-vendredi, puis baisse nette à partir du week-end.*
-- **Stabilité des cartes/scénarios :** 6 / 168 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Élevée — *Incertitudes majeures sur le timing et l’intensité de la transition, surtout pour la fin de semaine 2.*
+- **Consensus des modèles :** Modéré — *Accord sur la fin de la canicule, mais divergence sur son intensité et sa durée.*
+- **Fiabilité du scénario majoritaire :** Rafraîchissement progressif — *Le scénario le plus probable : un flux océanique s'installe, les températures redeviennent normales.*
+- **Stabilité des cartes/scénarios :** 6 / 170 — *6 cartes analysées*
+- **Niveau d'incertitude global :** Forte sur la semaine 2 — *Les modèles doivent être suivis de près, surtout pour les pluies.*
 
-## 🗓️ SEMAINE 1 : **Du Lundi 10 au Dimanche 16 Août 2026**
+## 🗓️ SEMAINE 1 : **Semaine 1 : du lundi 10 au dimanche 16 août 2026**
 ### 💡 Points clés de la semaine 1
-1. Canicule persistante : Nouvel épisode de très forte chaleur sur l’ensemble des Hauts-de-France avec des pics à 33-36°C en fin de semaine.
-2. Ensoleillement maximal : Ciel bleu et soleil dominant matin et soir, aucune précipitation significative sur la région.
-3. Littoral tempéré : Les côtes de la Manche et de la Mer du Nord restent plus fraîches (23-28°C), mais la chaleur gagne l’intérieur.
-4. Vent modéré : Flux de secteur Est à Nord-Est, renforcé en fin de journée, apportant un léger rafraîchissement sur les côtes.
-5. Baisse progressive : Dès samedi 15, les températures fléchissent légèrement mais restent au-dessus des normales.
+1. **Canicule durable** : Pic de chaleur attendu en milieu de semaine, avec des maximales localement très élevées.
+2. **Baisse en fin de semaine** : Un net rafraîchissement se dessine à partir de samedi sur l'ensemble de la région.
+3. **Littoral préservé** : Les côtes de la Manche et de la Mer du Nord resteront plus fraîches, limitant la canicule.
+4. **Risque d'orages isolés** : Dimanche, une dégradation orageuse pourrait concerner le Pas-de-Calais, surtout le Haut-Artois.
+5. **Sols très secs** : Les conditions sèches et l'évapotranspiration élevée accentuent la sécheresse superficielle.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Épisode de forte chaleur confirmé par tous les modèles globaux (CEP, GFS, UKMO, ARPEGE) pour la période lundi-vendredi.  
-2. Temps sec et ensoleillé sur l’ensemble de la région, sans pluie significative.  
-3. Baisse des températures en fin de semaine (samedi 15-dimanche 16), nette sur le littoral, plus timide dans les terres.
+• **Chaleur intense confirmée** : Tous les modèles s'accordent sur un pic de chaleur mardi à vendredi, avec des maximales dépassant 30°C dans l'intérieur.
+• **Rafraîchissement en fin de semaine** : La majorité des modèles (GFS, CEP, GEM) prévoient une baisse des températures samedi/dimanche, avec un flux de nord-ouest.
+• **Littoral plus frais** : Les températures maximales resteront inférieures de 5 à 7°C près des côtes par rapport à l'intérieur.
 **Points de divergence :**
-1. Passage d’un front orageux dimanche : modélisé localement sur le Pas-de-Calais, mais certaines sorties le placent plus au Nord (Mer du Nord).  
-2. Intensité de la baisse samedi/dimanche : GFS est plus prononcé, CEP plus conservateur.  
-3. Durée exacte du pic : jeudi 13 et vendredi 14 semblent les plus chauds, mais une remontée possible samedi matin demeure incertaine pour le Nord.
+• **Date exacte de la baisse** : GFS table sur samedi 15, CEP dimanche 16, AIFS repousse au 18-19.
+• **Intensité de la chaleur** : Certains runs (GFS 12Z) montrent des maximales plus élevées que les autres modèles jeudi/vendredi.
+• **Risque orageux** : Le Pas-de-Calais pourrait voir des orages dimanche, mais pas tous les modèles l'envisagent avec la même vigueur.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Météo-France ARPEGE** (confirmé) | Anticyclone solide sur l’Europe centrale, les Hauts-de-France sous un flux de Sud-Ouest très chaud, se décalant à l’Est en fin de période. | Soleil et chaleur intense, orages possibles en fin de semaine sur le Pas-de-Calais après la mi-journée de dimanche. | Tous les départements HDF, avec un risque de pluie locale dans le Nord (Haut-Artois) et le Pas-de-Calais le dimanche. | Élevée (80%‑90%) : Bulletins départementaux Météo-France détaillés, largement commentés. | Hochdruckbrücke scandinave → blocage des dépressions. Les températures à 850 hPa atteignent 22-24°C sur le Nord, générant 34-36°C en plaine. Vent de Nord-Est en bord de mer limitant la canicule sur le littoral. Aucune précipitation sauf possible dégradation orageuse dimanche sur le Pas-de-Calais (très localisée). |
+| **<strong>GFS (américain)</strong>** (En cours d'observation – scénario majoritaire mais fragile.) | Vague de chaleur marquée jusqu'à vendredi, puis baisse progressive et nette des températures pour le nord de la France à partir de samedi. Scénario globalement cohérent avec une fin d'épisode caniculaire dans les HDF, mais des runs plus chauds persistent. | Températures maximales > 33°C jeudi/vendredi, rafraîchissement de 5 à 7°C en week-end, vent basculant au nord-ouest. | Toute la région, mais l'intérieur (Oise, Aisne, Somme) plus exposé que la frange littorale. | Modérée (60-70%) – cité régulièrement par les membres. | GFS est l'un des premiers à avoir vu la fin de la canicule pour le nord, mais avec une fiabilité limitée à 5 jours échéance (15-16). |
+| **<strong>CEP (européen – ECMWF)</strong>** (En accord avec GFS – fiable pour la tendance générale.) | Même tendance que GFS : chaleur intense jusqu'à vendredi, puis baisse plus progressive que l'américain mais bien visible pour le nord. Les hauts géopotentiels se décalent vers l'Atlantique en fin de semaine, permettant un flux de nord-ouest. | Maximales de 32-35°C jeudi/vendredi, puis retour vers 25-28°C dimanche. Vent devient nord-ouest modéré. | Principalement l'intérieur des terres ; le littoral reste plus frais tout au long. | Modérée (60-70%) – cité dans plusieurs messages. | Le CEP est moins tranché sur la baisse, mais cohérent avec un retour à des températures proches des normales en début de semaine 2. |
+| **<strong>AIFS (IA – ECMWF)</strong>** (En évaluation – divergence avec GFS/CEP.) | Montre une fin de canicule plus tardive et moins marquée pour le nord, avec un maintien de températures élevées jusqu'en début de semaine 2. Tendance plus incertaine que GFS/CEP. | Chaleur encore forte samedi (30-33°C), baisse progressive mais moins nette. | L'intérieur des terres reste concerné, surtout Oise et Aisne. | Faible (40-50%) – évoqué brièvement. | AIFS semble moins optimiste sur le rafraîchissement, mais sa résolution pour la région reste faible. |
+| **<strong>GEM (canadien)</strong>** (Divergent – peu fiable pour le détail.) | Signale une baisse des températures pour le nord à partir du 15-16, mais avec moins d'ampleur que GFS. Le flux de nord-ouest s'établit plus tardivement. | Peu de détails disponibles – chaleur encore forte samedi. | Non précisé, mais probablement intérieur. | Faible (40-50%) – cité dans un seul message. | GEM a fait machine arrière sur sa porte de sortie, mais reste dans la moyenne basse des températures. |
+| **<strong>UKMO (britannique)</strong>** (Non documenté.) | Non commenté pour la région HDF dans les discussions. Aucune information exploitable. | Non estimé. | Non estimé. | Non estimable. | Absence totale de mention dans le topic. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ensoleillé et très chaud, ciel clair du matin au soir. Léger voile nuageux possible en fin de période. | Min 15-17°C, Max 26-33°C (intérieur), 23°C en Flandre maritime | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Rafraîchissement côtier plus marqué à Dunkerque, mer du Nord limitant la chaleur. |
-| **Pas-de-Calais (62)** | Soleil radieux, ciel dégagé. En fin de semaine, passage nuageux possible dimanche avec risque de pluie localisée. | Min 13-19°C, Max 29-35°C (bassin minier), 23°C près de la Mer du Nord | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Timing de la dégradation de dimanche incertain, plus précoce sur le littoral, plus tardive dans l'intérieur. |
-| **Somme (80)** | Temps ensoleillé et très chaud, ciel bleu dominant. Légère brise côtière en fin d'après-midi. | Min 14-17°C, Max 28-35°C (intérieur), 24°C sur le littoral picard | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Littoral plus frais, avec des brises de mer limitant la chaleur à Abbeville. |
-| **Oise (60)** | Ensoleillé, très chaud. Ciel clair, aucune perturbation. | Min 15-17°C, Max 31-36°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Chaleur plus forte à l'Est du département, légère atténuation près du Pays de Bray. |
-| **Aisne (02)** | Soleil généreux, ciel bleu. Pas de précipitation. | Min 14-17°C, Max 31-36°C (sud), 30°C sur la Thiérache | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Thiérache légèrement plus fraîche, mais chaleur écrasante dans les vallées. |
+| **Nord (59)** | Ensoleillé toute la semaine, quelques nuages discrets en fin de période. | Min 10-13°C (nuit) / Max 23-33°C (intérieur) ; littoral 23-28°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Écart thermique important entre littoral et intérieur ; baisse plus ou moins rapide en week-end. |
+| **Pas-de-Calais (62)** | Soleil dominant, puis risque de pluie dimanche après-midi sur le Haut-Artois. | Min 10-15°C / Max 26-35°C selon secteurs ; bassin minier plus chaud | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation exacte des orages incertaine ; littoral Manche plus frais. |
+| **Somme (80)** | Temps sec et ensoleillé, très belle fin de semaine après une chaleur marquée. | Min 9-15°C / Max 26-35°C ; littoral picard 24-28°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Gradient thermique littoral-terres important ; baisse des maxima plus nette samedi. |
+| **Oise (60)** | Ensoleillé, très chaud en milieu de semaine, puis rafraîchissement en week-end. | Min 8-15°C / Max 28-36°C (pic jeudi/vendredi) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Rayonnement intense et minimales élevées (17°C) ; baisse plus lente que prévu possible. |
+| **Aisne (02)** | Soleil généreux, chaleur très marquée jusqu'à vendredi, puis nette baisse. | Min 8-17°C / Max 28-36°C (jeudi/vendredi) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Hétérogénéité selon le relief (Thiérache plus fraîche) ; baisse des températures à confirmer pour dimanche. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- ****Lundi 10 – Mercredi 12**** : Poursuite de la chaleur, ensoleillement maximal, températures stables entre 26 et 33°C selon les départements.
-- ****Jeudi 13 – Vendredi 14**** : Pic caniculaire régional : 34-36°C dans les terres, 33°C en bord de mer, soleil de plomb.
-- ****Samedi 15 – Dimanche 16**** : Baisse sensible des températures (-4 à -6°C), mais toujours chaud. Risque de pluie isolée sur le Pas-de-Calais dimanche.
+- ****Lundi 10 et mardi 11 août**** : Temps chaud et ensoleillé, maximales 25-31°C, vent modéré d'est-nord-est. Nuits encore fraîches dans l'intérieur.
+- ****Mercredi 12 au vendredi 14 août**** : Pic caniculaire : maximales 30-36°C, minimales 15-20°C, ciel dégagé. Évapotranspiration maximale, sols très secs.
+- ****Samedi 15 août**** : Baisse amorcée : maximales 25-31°C, passage progressive à un vent de nord-ouest, ciel encore ensoleillé.
+- ****Dimanche 16 août**** : Rafraîchissement net : maximales 22-28°C, quelques nuages, risque d'averses orageuses sur le Pas-de-Calais en après-midi.
 
 **Points solides :**
-1. Chaleur intense de lundi à vendredi avec des Tx dépassant 30°C partout, et localement 36°C dans l’Oise et l’Aisne.  
-2. Ensoleillement quasi total, aucune pluie significative à l’échelle régionale.  
-3. Pic caniculaire jeudi/vendredi, bien identifié par les modèles déterministes et ensembles.
+• **Canicule généralisée en HDF** : Tous les départements connaîtront au moins un jour > 32°C, avec un pic jeudi/vendredi.
+• **Renforcement du vent de nord-ouest** : Samedi/dimanche, un flux océanique plus frais s'établira, provoquant une baisse de 5 à 8°C.
+• **Sécheresse des sols** : L'évapotranspiration élevée persiste, avec un indice d'humidité des sols en déficit accentué.
 
 **Points fragiles :**
-1. Dégradation orageuse dimanche dans le Pas-de-Calais : localisation et intensité très incertaines, risque faible mais à surveiller.  
-2. Baisse des températures samedi/dimanche : amplitude très variable selon les modèles, allant de 3 à 6°C.  
-3. Comportement du vent côtier (flux de Nord-Est) pouvant accentuer le rafraîchissement sur le littoral, mais avec une forte variabilité locale.
+• **Chronologie exacte de la baisse** : Les modèles divergent encore entre samedi et dimanche.
+• **Risque d'orages dimanche** : Uniquement modélisé sur le Pas-de-Calais, avec une intensité incertaine.
+• **Minimales très élevées** : Certaines nuits pourraient ne pas descendre sous 18°C, surtout en ville.
 
 **À surveiller (prochains runs) :**
-- Suivre l’évolution du front orageux du dimanche 16, via les runs de ce soir et de demain.  
-- Vérifier la position et l’intensité de la baisse thermique de samedi, avec les sorties CEP et GFS à +144h.  
-- Surveiller les indices de convection (CAPE/LI) pour l’Aisne et l’Oise, car une remontée d’air plus instable est possible en fin de période.
+• Les runs de 12Z de GFS et CEP ce soir pour affiner la date de la baisse.
+• L'évolution des indices convectifs pour dimanche (CAPE/LI) sur le Pas-de-Calais.
+• Les sorties d'AIFS pour voir si le rafraîchissement tardif se confirme ou se rapproche.
 
 
-## 🗓️ SEMAINE 2 : **Du Lundi 17 au Dimanche 23 Août 2026**  
-⚠️ **Sujet spécifique Semaine 34 non ouvert sur le forum Infoclimat** – Analyse basée sur les projections long terme du sujet Semaine 33 et les bulletins Météo-France.
+## 🗓️ SEMAINE 2 : **Semaine 2 : du lundi 17 au dimanche 23 août 2026**
+
+⚠️ **Avertissement** : Le sujet spécifique de la Semaine 34 n'est pas encore ouvert sur le forum Infoclimat. Cette analyse s'appuie uniquement sur les projections à long terme extraites du sujet Semaine 33. Les informations sont donc moins détaillées et les incertitudes demeurent fortes.
 ### 💡 Points clés de la semaine 2
-1. Porte de sortie amorcée : Baisse progressive des températures dès le début de semaine, plus nette en fin de période.
-2. Retour des nuages : Possible dégradation orageuse en fin de semaine, encore incertaine.
-3. Littoral préservé : Côtes de la Manche restent fraîches, mer du Nord fera chuter les maximales.
-4. Chaleur résiduelle : Malgré la baisse, les températures resteront au-dessus des normales saisonnières.
-5. Incertitude majeure : Évolution des hautes pressions scandinaves et trajectoire du talweg atlantique.
+1. **Tendance à la baisse** : Une baisse progressive des températures est attendue pour le nord de la France, mais avec une amplitude encore incertaine.
+2. **Retour d'un flux océanique** : Les hauts géopotentiels se décalent vers l'ouest, permettant un flux de nord-ouest plus frais.
+3. **Précipitations possibles** : Quelques averses pourraient faire leur retour, mais sans garantie d'abondance.
+4. **Contrastes régionaux** : Le sud de la France restera plus chaud, mais les HDF devraient bénéficier d'un répit.
+5. **Incertitude forte** : Les modèles peinent à s'accorder sur l'intensité et la durée de ce rafraîchissement.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Tendance générale à la baisse des températures après le pic de la semaine 1.  
-2. Signal pluvieux plus net en fin de semaine (samedi-dimanche), avec un possible passage orageux.  
-3. Flux de Nord-Ouest dominera, apportant un air plus frais.
+• **Baisse des températures** : Tous les scénarios long terme convergent vers une fin de la canicule en HDF.
+• **Flux de nord-ouest** : Un temps plus océanique est attendu, avec un vent de secteur ouest-nord-ouest.
+• **Risque de pluie** : Faible mais réel, surtout en seconde partie de semaine.
 **Points de divergence :**
-1. **Timing du rafraîchissement** : GFS voit une baisse dès lundi, CEP la décale à mercredi.  
-2. **Intensité des précipitations** : certains modèles voient des averses modérées sur le littoral, d’autres des orages généralisés à l’intérieur.  
-3. **Amplitude thermique** : la chute des maximales varie entre 5 et 10°C selon les scénarios.
+• **Amplitude de la baisse** : Certains runs prévoient un retour à 22°C, d'autres seulement à 28°C.
+• **Timing** : Le refroidissement pourrait débuter dès le 16 ou seulement le 18.
+• **Précipitations** : Aucun modèle ne s'accorde sur une pluie substantielle ; il pourrait s'agir de simples nuages.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / GFS / CEP** (incertain – à confirmer avec l’ouverture du sujet Semaine 34.) | <strong>Hypothèse dominante :</strong> Repli des hauts géopotentiels vers l’Ouest, flux de Nord-Ouest s’installant sur le Nord de la France, apportant un air plus frais et des conditions plus instables en fin de semaine. | Temps plus nuageux, averses possibles le week-end, températures en baisse notable (max 22-28°C). | Toute la région HDF, avec un gradient littoral/intérieur. | Modérée (60-70%) : Projections long terme issues du topic Semaine 33, pas de discussion dédiée. | Les températures à 850 hPa chutent de 20°C à 10-12°C en trois jours. Passage d’un front froid en fin de semaine, générant des averses. Mais la position exacte du talweg reste incertaine : certains runs le bloquent au nord (GFS), d’autres le font descendre plus au sud (CEP). Les indices d’instabilité (CAPE > 500 J/kg) apparaissent sur l’Aisne et l’Oise samedi, mais à confirmer. |
+| **<strong>GFS / CEP – projections long terme</strong>** (À confirmer – hypothèse de travail.) | Une baisse graduelle des températures est modélisée pour la région HDF à partir du 16-17 août, avec des maximales revenant vers 25-28°C en fin de période. Le flux de nord-ouest s'établit durablement. | Ciel variable, quelques pluies possibles, températures proches des normales saisonnières (20-25°C). | Toute la région, avec un rafraîchissement plus marqué près du littoral. | Faible (40-50%) – signal long terme, sans confirmation fine. | Aucun détail départemental disponible ; tendance générale uniquement. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps variable en début de semaine, puis nuageux avec averses possibles en fin de période. Soleil encore présent lundi/mardi. | Min 14-16°C, Max 22-27°C (intérieur), 20-22°C sur la côte | moderee | ECMWF, GFS, CEP | Incertitude sur le passage des averses : certaines sorties les limitent au littoral, d'autres les étendent à tout le département. |
-| **Pas-de-Calais (62)** | Alternance d'éclaircies et de passages nuageux. Risque d'averses accru en fin de semaine. | Min 13-16°C, Max 20-24°C (côtes de la Manche), 23°C dans l'intérieur | moderee | ECMWF, GFS, CEP | Incertitude sur l'orientation exacte du flux et la trajectoire des perturbations. |
-| **Somme (80)** | Temps plus frais et plus nuageux, avec des averses en fin de semaine. Éclaircies encore possibles lundi/mardi. | Min 12-15°C, Max 21-25°C | moderee | ECMWF, GFS, CEP | L'incertitude porte sur l'intensité des précipitations : certains modèles prévoient des averses faibles, d'autres des pluies continues. |
-| **Oise (60)** | Temps très nuageux en seconde partie de semaine, averses orageuses possibles. Légère éclaircie en début de semaine. | Min 13-17°C, Max 22-27°C | moderee | ECMWF, GFS, CEP | L'évolution des hautes pressions scandinaves conditionnera la descente du talweg. |
-| **Aisne (02)** | Temps nuageux à couvert en fin de semaine, avec des pluies possibles. Début de semaine encore très ensoleillé. | Min 13-16°C, Max 23-28°C (lundi-mardi), puis 19-23°C en fin de semaine | moderee | ECMWF, GFS, CEP | Incertitude sur la trajectoire de la goutte froide et l'extension des orages. |
+| **Nord (59)** | Temps variable, éclaircies et passages nuageux, températures en baisse. | Min 12-15°C / Max 22-28°C selon les jours | moderee | ECMWF, GFS | Tendance à la baisse, mais l'intensité et la date exacte restent incertaines. |
+| **Pas-de-Calais (62)** | Ciel variable, quelques pluies faibles, températures proches des normales. | Min 12-16°C / Max 20-25°C | moderee | ECMWF, GFS | L'humidité relative et le vent pourraient renforcer la sensation de fraîcheur. |
+| **Somme (80)** | Éclaircies et passages nuageux, sec mais plus frais. | Min 10-14°C / Max 22-27°C | moderee | ECMWF, GFS | L'écart avec le littoral peut être de 3-4°C. |
+| **Oise (60)** | Temps assez nuageux, quelques pluies par intermittence, fraîcheur relative. | Min 10-14°C / Max 22-26°C | moderee | ECMWF, GFS | La nébulosité pourrait limiter l'ensoleillement. |
+| **Aisne (02)** | Ciel variable, températures en baisse notable, quelques ondées. | Min 9-13°C / Max 21-25°C | moderee | ECMWF, GFS | Rafraîchissement plus net qu'en bord de mer. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- ****Lundi 17 – Mercredi 19**** : Temps encore sec et assez chaud, mais l’ensoleillement se voile progressivement. Baisse des températures amorcée.
-- ****Jeudi 20 – Vendredi 21**** : Passage nuageux, première averses possibles sur l’ouest, températures en baisse régulière.
-- ****Samedi 22 – Dimanche 23**** : Dégradation plus marquée, avec des averses orageuses et un net rafraîchissement (max 20-23°C).
+- ****Lundi 17 et mardi 18 août**** : Baisse confirmée : maximales 24-27°C, ciel variable, petit risque d'averses.
+- ****Mercredi 19 au vendredi 21 août**** : Temps plus frais et changeant, averses possibles, maximales 22-25°C.
+- ****Samedi 22 et dimanche 23 août**** : Amélioration possible avec retour d'éclaircies, mais températures encore modérées.
+- ***(non défini – pas de quatrième phase)*** : -
 
 **Points solides :**
-1. Baisse des températures confirmée par tous les modèles, avec une amplitude de 5 à 10°C.  
-2. Retour d’un flux de nord-ouest, apportant un air plus frais et humide.  
-3. Précipitations probables en fin de semaine, même si leur intensité reste à affiner.
+• **Fin de l'épisode caniculaire** : Tous les signaux long terme indiquent une baisse franche des températures en HDF.
+• **Retour d'un flux océanique** : Le vent de nord-ouest devrait s'installer durablement.
+• **Nuits plus fraîches** : Les minimales devraient redevenir supportables (10-14°C).
 
 **Points fragiles :**
-1. **Chronologie exacte du refroidissement** : certaines sorties le déclenchent lundi, d’autres mercredi.  
-2. **Zone d’impact des orages** : les modèles divergent sur la position du talweg, ce qui change la localisation des averses.  
-3. **Risque de maintien de la chaleur** : quelques runs envisagent une persistance de l’anticyclone, limitant la baisse.
+• **Ampleur de la baisse** : On ne sait pas si l'on revient à 20°C ou 25°C en journée.
+• **Précipitations** : Aucun modèle ne garantit des pluies significatives ; la sécheresse pourrait persister.
+• **Durée** : Le rafraîchissement pourrait n'être que temporaire avant un retour de la chaleur.
 
 **À surveiller (prochains runs) :**
-- Suivre l’ouverture du sujet Semaine 34 sur Infoclimat pour des analyses détaillées.  
-- Surveiller les runs de ce soir et de demain pour affiner le timing du front froid.  
-- Analyser les cartes d’anomalies 500 hPa et les diagrammes d’ensemble pour la fiabilité du scénario de baisse.
+• Les prochaines sorties de GFS et CEP pour affiner la trajectoire du talweg.
+• Le démarrage du sujet Semaine 34 sur Infoclimat, qui apportera des analyses détaillées.
 
 
 ========================================
@@ -124,45 +131,32 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Après un épisode caniculaire majeur en semaine 1, les Hauts-de-France amorcent une baisse thermique nette en semaine 2, avec le retour d’un temps plus humide et instable. Les températures ont 5 à 10 jours pour revenir proches des normales saisonnières, mais sans garantie de les atteindre avant la fin août.
+Après une semaine 1 caniculaire, la région HDF connaîtra un rafraîchissement significatif en semaine 2, avec un retour à des températures proches des normales. Le flux de nord-ouest devrait s'imposer, apportant un peu d'humidité et des températures plus supportables.
 
 ### Période la plus fiable
-Semaine 1 (10-16 août) : confiance élevée, tous modèles d’accord sur les températures et le temps sec.
+La semaine 1 est la plus fiable (prévisions détaillées). La semaine 2 reste incertaine, à suivre avec attention.
 
 ### Phénomènes récurrents
-- Hausse des températures au-dessus des normales (8-10°C d’anomalies à 850 hPa).  
-- Sécheresse de surface, indice d’humidité des sols en chute.  
-- Flux de nord-est maritime limitant la chaleur sur le littoral.
+Sécheresse des sols, évapotranspiration élevée, orages localisés en fin de semaine 1 (Pas-de-Calais), écart littoral-intérieur persistant.
 
 ### Principales incertitudes
-1. Position exacte du talweg atlantique en semaine 2 et son impact sur les précipitations.  
-2. Degré de rafraîchissement réel : certains modèles prévoient un simple retour à la normale, d’autres un excédent persistant.  
-3. Risque orageux en fin de période, dépendant du contraste thermique entre l’air marin et l’air chaud résiduel.
+• Date exacte et ampleur de la baisse en semaine 2.
+• Précipitations : quasi aucun scénario n'envisage des pluies notables pour le moment.
+• Possibilité d'un retour de la chaleur en fin de mois.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** - **Début exact de la baisse en semaine 2** : entre le lundi 17 et le mercredi 19 selon les modèles.  
-- **Apparition des premières averses** : incertitude entre jeudi 20 et samedi 22 août.  
-- **Diminution de l’ensoleillement** : signal flou, certains modèles maintiennent un temps plus sec en début de semaine 2.
-- **Localisation :** - **Zone d’impact des orages en fin de semaine 2** : le Pas-de-Calais et la Somme semblent plus exposés, mais l’Aisne et l’Oise peuvent aussi être touchés selon la trajectoire du talweg.  
-- **Étendue des précipitations sur le littoral** : la Manche pourrait rester à l’écart des averses, alors que la Mer du Nord serait plus concernée.  
-- **Gradient thermique** : le littoral pourrait se rafraîchir plus vite que l’intérieur, mais l’amplitude exacte reste incertaine.
-- **Intensité :** - **Puissance du refroidissement** : variation de 5 à 10°C selon les scénarios ; une simple correction vers des normales est possible, mais pas garantie.  
-- **Cumuls de pluie** : faibles à modérés, mais certains modèles voient des épisodes orageux intenses et localisés.  
-- **Rafales de vent** : jusqu’à 60 km/h possibles sous orages, mais certaines prévisions limitent les rafales à 40 km/h.
-- **Informations manquantes :** - Aucune discussion spécifique sur la semaine 34 dans le forum, donc manque d’analyses détaillées des membres.  
-- Pas de bulletin Météo-France au-delà de J+10 pour affiner la semaine 2.  
-- Données d’humidité des sols (SWI) non intégrées pour évaluer l’assèchement.
-- **Modèles sous-documentés :** - **AIFS** : mentionné mais pas analysé en détail pour HDF.  
-- **UKMO** : non évoqué par les membres.  
-- **ICON** : absent des discussions.
-- **Incertitudes images :** - Cartes présentées dans le forum mal référencées, certaines images non visibles.  
-- Graphiques de température (GEFS, CEP) pour Paris et non pour Lille, rendant difficile l’extrapolation locale.
+- **Timing/Chronologie :** La date exacte de la baisse en fin de semaine 1 varie selon les modèles : GFS samedi, CEP dimanche. Pour la semaine 2, le refroidissement débuterait lundi ou mardi, mais cela peut évoluer.
+- **Localisation :** Les orages de dimanche pourraient se localiser sur le Haut-Artois ou plus à l'est ; la Somme et l'Aisne pourraient rester à l'écart. L'intensité du rafraîchissement pourrait être plus marquée dans l'est de la région.
+- **Intensité :** La chaleur de jeudi/vendredi pourrait atteindre 36°C en Oise/Aisne, mais peut-être seulement 32°C si les nuages sont plus nombreux. La baisse pourrait être de 5 à 8°C, mais pas garantie à ce stade.
+- **Informations manquantes :** Aucune information sur l'enneigement (hors sujet), ni sur les conditions marines après le 14 août. Pas de données sur les cumuls de pluie potentiels pour recharger les nappes.
+- **Modèles sous-documentés :** UKMO n'est pas cité dans les discussions. AIFS et GEM ne sont que très brièvement mentionnés. Les ensembles (GEFS, EPS) ne sont analysés que pour certaines villes, pas spécifiquement pour les HDF.
+- **Incertitudes images :** Les cartes d'anomalies long terme montrent une tendance, mais ne sont pas assez précises pour confirmer le détail du rafraîchissement pour chaque département.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🔴 **Vague de chaleur historique puis rafraîchissement brutal : que réserve l’été 2026 aux Hauts-de-France ?**  
-Après un épisode caniculaire intense (34-36°C entre le 13 et le 14 août), les modèles entrevoient une **baisse marquée dès le 17 août**, avec le retour des pluies et des températures proches des normales. Un répit bienvenu pour la population, mais les agriculteurs restent sous pression face à la sécheresse persistante.  
-📅 Détails par département dans mon bulletin complet.  
-#Météo #Canicule #HautsDeFrance #Prévisions
+🌤️ **Hauts-de-France : fin de la canicule en vue ?**  
+La semaine du 10 au 16 août s'annonce encore très chaude avec un pic jeudi/vendredi (33-36°C). Mais une nette dégradation se profile pour le week-end, avec un vent de nord-ouest qui fera chuter les températures. Pour la semaine suivante, la tendance est à un retour à des valeurs plus normales, mais les prévisions restent incertaines.  
+Prudence et vigilance : les sols sont très secs, et les orages pourraient être localement forts dimanche sur le Pas-de-Calais.  
+#Météo #HautsDeFrance #Canicule #Prévisions #PatrickMarlière

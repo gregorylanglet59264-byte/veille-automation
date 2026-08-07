@@ -305,12 +305,12 @@ durant cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -318,57 +318,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 7 Août 2026.
-Résumé général HDF précédent : Les deux semaines seront dominées par un temps sec et très chaud, avec un pic caniculaire en semaine 1 (33-36°C) et une baisse progressive en semaine 2, mais restant au-dessus des normales. Les précipitations seront rares, avec un possible retour des averses en fin de période..
+Résumé général HDF précédent : Après un épisode caniculaire majeur en semaine 1, les Hauts-de-France amorcent une baisse thermique nette en semaine 2, avec le retour d’un temps plus humide et instable. Les températures ont 5 à 10 jours pour revenir proches des normales saisonnières, mais sans garantie de les atteindre avant la fin août..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec, très chaud et ensoleillé. Aucune précipitation significative. Rafraîchissement possible en fin de période..
+Températures attendues précédemment : Soleil et chaleur intense, orages possibles en fin de semaine sur le Pas-de-Calais après la mi-journée de dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: cirrus007
-Message:
-Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
-	En tout cas, vu du SE, cet été n'est qu'une canicule géante, jamais de répit... c'est faramineux.
-	Et pour courage à ceux qui iront en Espagne pour l'éclipse  en plus des lunettes n'oubliez pas les parasols, brumisateurs et 5L d'eau.
-								3
-								1
-								1
-								8
-								2
-
-=======================
-
-Auteur: Jetrejo
-Message:
-Moi qui vais en Suisse et qui pensait profiter de la fraicheur, il va falloir monter en altitude 😆
-	Vivement Octobre en tout cas, vraiment marre de cette chaleur. 
-	Il semble toutefois y avoir un signal un peu plus humide à la fin du topic précèdent celui ci, et sur la fin de celui ci ? 
-	Synoptiques différentes avec plus de déstabilisation sur la fin Aout ? 
-	C'est loin, en tout cas, la végétation et la faune devront essayer de tenir bon.
-								1
-								1
-								3
-
-=======================
-
-Auteur: Sebaas
-Message:
-Il y a 23 heures, Grahok73 a dit :
-			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
-	Tout est configurable à souhait pourtant!
-								1
-								1
-
-=======================
-
-Auteur: TornadeScintillante
-Message:
-il y a 28 minutes, Jetrejo a dit :
-			Moi qui vais en Suisse et qui pensait profiter de la fraicheur
-	Cet été on n’a pas beaucoup profité de la fraîcheur en Suisse 😅
-								1
-
-=======================
-
 Auteur: Plancher
 Message:
 La répétition des vagues de chaleur conduit à une sorte de résignation.
@@ -435,7 +390,7 @@ Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafra
 	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	Modifié il y a 17 heures par Run999H
+	Modifié il y a 19 heures par Run999H
 								8
 								16
 								3
@@ -479,7 +434,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 9 heures par Krholam
+	Modifié il y a 11 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -495,7 +450,7 @@ Il y a 9 heures, Run999H a dit :
 	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
 	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
 	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
-								4
+								5
 								1
 								1
 
@@ -507,7 +462,7 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
 	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
 	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
-								11
+								12
 								2
 								1
 
@@ -516,8 +471,8 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 Auteur: sebb
 Message:
 D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié il y a 7 heures par sebb
-								5
+	Modifié il y a 9 heures par sebb
+								6
 								1
 
 =======================
@@ -535,9 +490,9 @@ Effectivement je suis d'accord avec les derniers posts, les modèles sembent avo
 	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
 	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
 	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié il y a 7 heures par petit âge glaciaire 11
+	Modifié il y a 9 heures par petit âge glaciaire 11
 Modifié
-								7
+								8
 								4
 
 =======================
@@ -550,63 +505,59 @@ En cet été vingt six, notre  sort est scellé
 	Un seul espoir peut-être, l'affaissement de l'AMOC !
 	Sinon on pourra dire comme DANTE dans sa "divine comédie":
 	« Vous qui pénétrez ici, abandonnez toute espérance ».
+								2
 								1
 								3
-								2
-								4
+								3
+								6
 
 =======================
 
 Auteur: Krholam
 Message:
 Finalement 33⁰C c’est frais
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Le run de 12 Z de GFS accentue un peu ses prévisions, il me semble. Un peu plus chaud un peu plus longtemps, ce jusqu'à la fin du topic.
+	Ça n'en finira donc jamais...
+
+=======================
+
+Auteur: Krholam
+Message:
+Ah bah GFS se dit que finalement y’en aura pour tout le monde.
+	La limite "sud" remonte sacrément
+	Modifié il y a 53 minutes par Krholam
+								1
+								1
+
+=======================
+
+Auteur: sartel
+Message:
+il y a 18 minutes, Krholam a dit :
+			Ah bah GFS se dit que finalement y’en aura pour tout le monde.
+			La limite "sud" remonte sacrément
+	Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 27 minutes, sartel a dit :
+			Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
+	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
+	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
+	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
+	Je sais que la vue d’une vague de chaleur de longue durée nous mets tous un peu les nerfs à vif. Mais je trouve quand même cette remarque très véhémente....
+	Modifié il y a 7 minutes par Krholam
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: cirrus007
-Message:
-Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
-	En tout cas, vu du SE, cet été n'est qu'une canicule géante, jamais de répit... c'est faramineux.
-	Et pour courage à ceux qui iront en Espagne pour l'éclipse  en plus des lunettes n'oubliez pas les parasols, brumisateurs et 5L d'eau.
-								3
-								1
-								1
-								8
-								2
-
-=======================
-
-Auteur: Jetrejo
-Message:
-Moi qui vais en Suisse et qui pensait profiter de la fraicheur, il va falloir monter en altitude 😆
-	Vivement Octobre en tout cas, vraiment marre de cette chaleur. 
-	Il semble toutefois y avoir un signal un peu plus humide à la fin du topic précèdent celui ci, et sur la fin de celui ci ? 
-	Synoptiques différentes avec plus de déstabilisation sur la fin Aout ? 
-	C'est loin, en tout cas, la végétation et la faune devront essayer de tenir bon.
-								1
-								1
-								3
-
-=======================
-
-Auteur: Sebaas
-Message:
-Il y a 23 heures, Grahok73 a dit :
-			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
-	Tout est configurable à souhait pourtant!
-								1
-								1
-
-=======================
-
-Auteur: TornadeScintillante
-Message:
-il y a 28 minutes, Jetrejo a dit :
-			Moi qui vais en Suisse et qui pensait profiter de la fraicheur
-	Cet été on n’a pas beaucoup profité de la fraîcheur en Suisse 😅
-								1
-
-=======================
-
 Auteur: Plancher
 Message:
 La répétition des vagues de chaleur conduit à une sorte de résignation.
@@ -673,7 +624,7 @@ Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafra
 	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	Modifié il y a 17 heures par Run999H
+	Modifié il y a 19 heures par Run999H
 								8
 								16
 								3
@@ -717,7 +668,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 9 heures par Krholam
+	Modifié il y a 11 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -733,7 +684,7 @@ Il y a 9 heures, Run999H a dit :
 	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
 	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
 	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
-								4
+								5
 								1
 								1
 
@@ -745,7 +696,7 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
 	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
 	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
-								11
+								12
 								2
 								1
 
@@ -754,8 +705,8 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 Auteur: sebb
 Message:
 D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié il y a 7 heures par sebb
-								5
+	Modifié il y a 9 heures par sebb
+								6
 								1
 
 =======================
@@ -773,9 +724,9 @@ Effectivement je suis d'accord avec les derniers posts, les modèles sembent avo
 	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
 	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
 	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié il y a 7 heures par petit âge glaciaire 11
+	Modifié il y a 9 heures par petit âge glaciaire 11
 Modifié
-								7
+								8
 								4
 
 =======================
@@ -788,13 +739,54 @@ En cet été vingt six, notre  sort est scellé
 	Un seul espoir peut-être, l'affaissement de l'AMOC !
 	Sinon on pourra dire comme DANTE dans sa "divine comédie":
 	« Vous qui pénétrez ici, abandonnez toute espérance ».
+								2
 								1
 								3
-								2
-								4
+								3
+								6
 
 =======================
 
 Auteur: Krholam
 Message:
 Finalement 33⁰C c’est frais
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Le run de 12 Z de GFS accentue un peu ses prévisions, il me semble. Un peu plus chaud un peu plus longtemps, ce jusqu'à la fin du topic.
+	Ça n'en finira donc jamais...
+
+=======================
+
+Auteur: Krholam
+Message:
+Ah bah GFS se dit que finalement y’en aura pour tout le monde.
+	La limite "sud" remonte sacrément
+	Modifié il y a 54 minutes par Krholam
+								1
+								1
+
+=======================
+
+Auteur: sartel
+Message:
+il y a 18 minutes, Krholam a dit :
+			Ah bah GFS se dit que finalement y’en aura pour tout le monde.
+			La limite "sud" remonte sacrément
+	Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 27 minutes, sartel a dit :
+			Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
+	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
+	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
+	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
+	Je sais que la vue d’une vague de chaleur de longue durée nous mets tous un peu les nerfs à vif. Mais je trouve quand même cette remarque très véhémente....
+	Modifié il y a 7 minutes par Krholam
+								1
