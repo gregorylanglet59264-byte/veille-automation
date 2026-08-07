@@ -1,15 +1,15 @@
-# REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE (Jeudi 6 Août 2026)
+# REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE (Vendredi 7 Août 2026)
 
-Date actuelle de génération : Jeudi 6 Août 2026
+Date actuelle de génération : Vendredi 7 Août 2026
 Saison en France : ÉTÉ
 
 PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
-- SEMAINE 1 PREVISION : Du Jeudi 6 au Dimanche 9 Août 2026
-- SEMAINE 2 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026
+- SEMAINE 1 PREVISION : Du Lundi 10 au Dimanche 16 Août 2026
+- SEMAINE 2 PREVISION : Du Lundi 17 au Dimanche 23 Août 2026
 
 TRANSPARENCE SUJETS FORUM INFOCLIMAT :
-- Sujet 1 exploité : Du 3 Août Au 9 Août 2026 Prévisions Météo Semaine 32
-- Sujet 2 exploité : Du 10 Août Au 16 Août 2026 Prévisions Météo Semaine 33 
+- Sujet 1 exploité : Du 10 Août Au 16 Août 2026 Prévisions Météo Semaine 33
+- Sujet 2 exploité : Du 10 Août Au 16 Août 2026 Prévisions Météo Semaine 33  (⚠️ Le sujet spécifique de la Semaine 34 (du Du Lundi 17 au Dimanche 23 Août 2026) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 33).
 
 === SOURCES COMPLÉMENTAIRES HDF (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
 
@@ -307,244 +307,25 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
 • Infoclimat Direct : Aidez nous &#xE0; recenser les erreurs de notre base climatologique
 • Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
 • Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
 • Infoclimat Direct : Cigales 2026
 • Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
-• Indicateur Thermique National (ITN 14 jours au 06/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
+• Indicateur Thermique National (ITN 14 jours au 07/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 6 Août 2026.
-Résumé général HDF précédent : Les 15 prochains jours sont dominés par une chaleur exceptionnelle pour la saison, avec deux vagues successives : un premier pic dimanche 9 août, puis une canicule plus intense du 11 au 14 août. Aucune pluie significative n’est attendue sur les Hauts-de-France, accentuant la sécheresse des sols..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Fort ensoleillement, temps sec, très chaud en fin de période..
+Températures attendues précédemment : De saison.
 ============================================
 
-=== DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 6 au Dimanche 9 Août 2026) ===
-Auteur: Krholam
-Message:
-Oui, niveau PP le nord / Nord ouest c'est pas fameux et les modèles sont plutôt raccord entre eux.
-	Cumul entre le 02/08 et le 09/08
-								2
-
-=======================
-
-Auteur: Hassan
-Message:
-Arôme commence a modéliser un front de rafale du Centre au Nord-est lundi après les très forte chaleur sur ces régions avec des rafales de plus de 100kmh localement.
-	A suivre 
-								1
-
-=======================
-
-Auteur: _sb
-Message:
-Il y a 7 heures, symaski62 a dit :
-			  1 août à  3 août   2026 (après-midi)  500 hPa  
-			3 août soir   pluie    🤔
-			avant  
-	En effet, c'est l'explication de cette salve orageuse lundi.
-	Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
-	Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
-	Sur le sud-est, la chaleur étouffante continue.
-	Modifié samedi à 22:24 par _sb
-								13
-								2
-
-=======================
-
-Auteur: symaski62
-Message:
-lundi   3 août  18z à 21 z 
-								3
-								1
-								1
-								1
-
-=======================
-
-Auteur: symaski62
-Message:
-WOW     pluie   fort     +30mm/h  
-								2
-								1
-
-=======================
-
-Auteur: meteo noobs
-Message:
-Heu.....
-	On avait prévu ca sur ce topic ?
-	Ca tabasse presque des 150...
-	Modifié lundi à 01:14 par meteo noobs
-								3
-
-=======================
-
-Auteur: iu11
-Message:
-Concernant ce lundi, zone orageuse du sud-ouest au nord-est. Vigilance orange émise à 6h pour certains départements du sud-ouest. Néanmoins je pense que le risque notamment venteux est plus généralisé. Harmonie est assez sévère vers la région centre. Arome exprime bien le risque que ce soit sur le version IFS ou classique même si on connait parfois sa facilité pour grimper dans les valeurs.
-	Moyenne Arome 21z :
-	Mais ce qui "m'intrigue" on va dire c'est ICON-D2. Je n'utilise pas très souvent ce modèle car il est assez "silencieux" en général concernant le vent je trouve. C'est pas quelque chose qu'il exprime facilement. Et ce matin il envoie lui aussi un signal. Après je ne connais pas vraiment sa fiabilité.
-	À voir...
-								2
-
-=======================
-
-Auteur: symaski62
-Message:
-https://www.keraunos.org/previsions/prevision-orage-tornade-france-convective-outlook.html
-	tornade + grêle  = faible    
-								2
-
-=======================
-
-Auteur: edd
-Message:
-Le 02/08/2026 à 00:23, _sb a dit :
-			En effet, c'est l'explication de cette salve orageuse lundi.
-			Sur la semaine, on peut aussi noter des points de rosée nocturnes souvent prévus hauts, et même si les températures redescendent un peu (pas partout...), les sensations de lourdeur et d'inconfort risquent de persister suivant les régions / les nuits.
-			Avec une climatologie estivale relativement basse, une forte activité orageuse a de bonnes chances de permettre de virer « au vert » sur une carte d'anomalies de précipitations. D'autant qu'il est envisagé, par la suite, un courant de SW des Açores aux Pays baltes, légèrement ondulant, laissant augurer des passages orageux ± organisés mercredi et jeudi avant une probable normalisation anticyclonique vendredi et samedi. Sur la semaine, les cumuls pourront dépasser les normales mais tout le monde ne sera pas servi !
-			Sur le sud-est, la chaleur étouffante continue.
-	Hello
-	Ne risque-t-on pas surtout d'avoir à nouveau une semaine globalement chaude et sèche (très sèche sur le nord) ? Dans la continuité de cet été ?
-	Les diagrammes réagissent peu, mis à part ce soir sur le MC
-	On attend toujours notre sortie de récurrence... Même si les basses pressions sont un peu descendues...
-	A+
-
-=======================
-
-Auteur: symaski62
-Message:
-orage  alerte  orange   après-midi à minuit  
-								6
-
-=======================
-
-Auteur: Merluz
-Message:
-il y a 26 minutes, guiguite91 a dit :
-			Bonjour,
-			Pourrais-tu rédiger correctement, s'il-te-plaît ? C'est extrêmement pénible à lire...
-	"A un handicap général de 80% et il fait beaucoup d'efforts pour la communauté et pour s'exprimer, merci d'être compréhensif."
-	ça fait 2 fois en quelques jours que symaski62 se fait reprendre pas très élégamment sur son expression...
-								9
-								14
-								6
-
-=======================
-
-Auteur: Jetrejo
-Message:
-Pour la défense des râleurs, les signatures n'étant pas affichées sur version mobile du site, il est possible de louper l'info.
-								3
-								1
-
-=======================
-
-Auteur: guiguite91
-Message:
-Il y a 3 heures, Merluz a dit :
-			"A un handicap général de 80% et il fait beaucoup d'efforts pour la communauté et pour s'exprimer, merci d'être compréhensif."
-			ça fait 2 fois en quelques jours que symaski62 se fait reprendre pas très élégamment sur son expression...
-	Salut,
-	Je n'étais pas au courant. J'en suis désolé.
-	Mais je ne vois pas en quoi mon intervention est inélégante : j'ai salué et utilisé une expression de politesse. 
-	Fin du HS. 
-								1
-
-=======================
-
-Auteur: Virgile
-Message:
-Ca va faire tellement longtemps que l'on va connaitre jeudi une moyenne nationale thermique "aussi basse" pour le pays. Rien d'exceptionnel. Juste les normales de saison sur notre pays, un peu fraiche même dans le nord ouest, ca resterait trop chaud dans la basse vallée du rhone et l'intérieur de la Provence. Cette parenthése devrait etre de courte durée et avec une nouvelle hausse sensible samedi.
-								3
-
-=======================
-
-Auteur: _sb
-Message:
-Le 03/08/2026 à 11:27, edd a dit :
-			Hello
-			Ne risque-t-on pas surtout d'avoir à nouveau une semaine globalement chaude et sèche (très sèche sur le nord) ? Dans la continuité de cet été ?
-			Les diagrammes réagissent peu, mis à part ce soir sur le MC
-			On attend toujours notre sortie de récurrence... Même si les basses pressions sont un peu descendues...
-			A+
-	Hello,
-	C'était effectivement le sens de mon message.
-	Les cartes d'anomalies sont à considérer selon la climatologie du lieu. J'avais envie de dire que c'est une lapalissade ! 😉 
-	J'y rajoute le contexte.
-	Une climato relativement basse en valeurs absolues, il ne faudra pas grand arrosage pour connaître un excédent.
-	Quant au contexte, il est très chaud dans une longue séquence très sèche. De plus, ce sont des orages qui sont prévus d'une hétérogénéité ± importante. Donc ce qui tombera séchera rapidement et ne tombera pas partout. Au vu de l'environnement anticyclonique, le forçage orographique sera un plus. La semaine sera globalement sèche.
-								1
-
-=======================
-
-Auteur: tao
-Message:
-Le 01/08/2026 à 21:11, Virgile a dit :
-			Ah ce fameux L Cabrol qui m'avait insulté personnellement sur le net à l'époque. Quelle honneur!  En résumé, je lui avait dit qu'il n'y connaissait rien. 
-	Salut,
-	j'ai entendu dire qu'il aurait eu de rares moments de lucidité à cette période !
-								3
-
-=======================
-
-Auteur: faycal
-Message:
-GFS s'entête à voir un enfoncement plus prononcée dans le golfe de Gascogne pour dimanche avec à la clé un pic de tres fortes chaleurs jusqu'au frontières belges.
-	Les autres modèles ont ce matin mais un petit pas vers lui avec un pic de chaleur plus affirmé mais GFS reste excessif.
-								2
-
-=======================
-
-Auteur: meteo noobs
-Message:
-Dégradation potentiellement marquée ce week end
-	Air provenant du sud ouest fortement instable
-	Rien à attendre côté température.
-	Bouillant potentiellement très lourd avec les orages.
-	Mise en avant par Keraunos pluie et grêle 
-	Axe habituel
-	sud ouest/centre est débordement nord est.
-	Instabilité visible sur GFS/GEM/CEP/ICON seul le timing diverge.
-	Thunder réagit aussi sur les outlook grêle ainsi que vent avec les mêmes secteur en 2% et 5%.
-	Samedi
-	Dimanche
-	MF
-	Carte d'hier donc certainement actualisation pour samedi  aujourd'hui à 13h
-	Modifié il y a 18 heures par meteo noobs
-								3
-
-=======================
-
-Auteur: jt75
-Message:
-Le 26/07/2026 à 19:13, jt75 a dit :
-			On dit que GFS est visionnaire pour prévoir à l'avance les vagues de chaleur, alors ce qui est devenu un grand classique:
-			anomalie T850 pour 9 aout:💀
-	Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
-								1
-								4
-								1
-
-=======================
-
-Auteur: James
-Message:
-3 hours ago, jt75 said:
-			Le 26 juillet GFS prévoyait ce qui est au-dessus, et finalement voilà ce qui est prévu pour dans 3 jours, mis à part qu'il a un peu forcé il y a 10 jours sur la chaleur, on peut dire que  dans les grandes lignes il avait bien vu. ça a même un côté effrayant:
-	Question bête peut-être mais est-ce parce que l'été, les centres d'actions/masses d'air sont plus "simples" à calculer car atmosphère moins chaotique par chez nous ?
-	Alors que comme dit à la page précédente, l'hiver c'est le contraire, les prévisions sont bien plus difficiles.
-								1
-								1
-
-=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 10 au Dimanche 16 Août 2026) ===
+=== DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: fifouninho75
 Message:
 il y a 3 minutes, petit âge glaciaire 11 a dit :
@@ -584,7 +365,7 @@ il y a 59 minutes, Maupi85 a dit :
 	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
 	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
 	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
-	Modifié hier à 10:57 par Arkus
+	Modifié mercredi à 10:57 par Arkus
 								1
 								2
 
@@ -634,7 +415,7 @@ Le 04/08/2026 à 14:22, gotman42 a dit :
 	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
 	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
 	Pour le reste, à voir et discuter en topics climato.
-	Modifié hier à 13:23 par Arkus
+	Modifié mercredi à 13:23 par Arkus
 								21
 								20
 								3
@@ -660,7 +441,7 @@ Il y a 8 heures, Virgile a dit :
 			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
 	Je parlais de la période estivale...
 	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié hier à 19:26 par mathias
+	Modifié mercredi à 19:26 par mathias
 
 =======================
 
@@ -763,6 +544,7 @@ Auteur: waingro
 Message:
 Elle est timide et lointaine cette porte de sortie autour du 20 ... ça me fait penser à l'hiver lorsque la VDF du siècle est constamment repoussée au delà de +300h
 	J'ai l'impression qu'il n'y a que la diminution progressive de la longueur des journées qui peut nous sortir de la marmite si tant est que cela ait un effet significatif au mois d'août 🥲
+								1
 
 =======================
 
@@ -784,5 +566,249 @@ Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafra
 	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	Modifié il y a 34 minutes par Run999H
+	Modifié il y a 1 heure par Run999H
+								5
+
+=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
+Auteur: fifouninho75
+Message:
+il y a 3 minutes, petit âge glaciaire 11 a dit :
+			Bon le film se passe avec une tempête de neige on est loin de ce qui se passe cet été mais l'histoire est la même,  chaque jour les Aixois se réveillent avec
+			la même météo, je pense que le sud-est n'en peut plus de cette chaleur interminable.
+			L'ensemble CEP modélise 13 jours  à venir avec une  moyennes des températures supérieurs ou égale à 20 degrés à 850 Hpa et aucune précipitations j'usqu'au 15 aout au minimum.
+			C'est catastrophique 
+			Bon courage aux Aixois et à tous les habitants d'une grosse partie du sud-est  !
+	Le diagramme fait froid dans le dos, ou plutôt chaud 🤪
+								1
+
+=======================
+
+Auteur: Maupi85
+Message:
+Bonjour,
+	Les 3 dernières actualisations de l'ensemble européen :
+	actualisation de Dimanche :
+	de Lundi :
+	de Mardi :
+	Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?
 								2
+								4
+								8
+
+=======================
+
+Auteur: Arkus
+Message:
+il y a 59 minutes, Maupi85 a dit :
+			Bonjour,
+			Les 3 dernières actualisations de l'ensemble européen :
+			actualisation de Dimanche :
+			de Lundi :
+			de Mardi :
+			Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?
+	Sur la dernière carte, la dispersion diminue pas mal chez nous, on peut donc espérer qu'on n'aille pas beaucoup plus haut. En revanche ça a plus de chances d'augmenter encore sur l'Europe Centrale (qui se prend déjà une sévère vague de chaleur actuellement).
+	En attendant ce n'est déjà pas un épisode négligeable. Pour se donner une idée du potentiel (plus ou moins max) pour le jour le plus chaud, le déterministe IFS dans la partie haute de l'ensemble en est une illustration :
+	La prévision médiane pour Paris est quand même à 36-38°C, donc du même ordre que le pic de lundi dernier.
+	Modifié mercredi à 10:57 par Arkus
+								1
+								2
+
+=======================
+
+Auteur: Virgile
+Message:
+Le 04/08/2026 à 11:24, mathias a dit :
+			Outre le fait qu'on serait susceptible de connaitre un nouvel épisode de très fortes chaleurs, ce qui est particulièrement remarquable cet été, c'est l'absence total de températures sous les normes sur l'ensemble de l'hexagone. (d'après l'ITN depuis le 11 juin!). Je ne sais pas si cela s'est déjà produit en période estivale? En 2022, cette série n'avait commencé que le 3 juillet avant de s'interrompre le 18 août.
+	Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
+								5
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
+								8
+								1
+								3
+								7
+								1
+
+=======================
+
+Auteur: 970hPa
+Message:
+il y a 18 minutes, Virgile a dit :
+			La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
+	En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄 
+	Les vdf a 72h la fiabilité est de 20% .....
+								3
+								1
+								1
+
+=======================
+
+Auteur: Arkus
+Message:
+Le 04/08/2026 à 14:22, gotman42 a dit :
+			Ca c'est vu depuis Paris.
+			Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
+			En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
+		Il y a 4 heures, Gaël13 a dit :
+			La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
+	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
+	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
+	Pour le reste, à voir et discuter en topics climato.
+	Modifié mercredi à 13:23 par Arkus
+								21
+								20
+								3
+
+=======================
+
+Auteur: jt75
+Message:
+Il y a 4 heures, Grahok73 a dit :
+			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
+	Bonjour @Grahok73
+	on n'est jamais mieux servi que sur infoclimat 
+	https://www.infoclimat.fr/climato/indicateur_national.php#2026;,1981-2010,1,-3.65,368.65,,y,desc,-1292739192000,1816056792000
+								1
+								1
+								1
+
+=======================
+
+Auteur: mathias
+Message:
+Il y a 8 heures, Virgile a dit :
+			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
+	Je parlais de la période estivale...
+	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
+	Modifié mercredi à 19:26 par mathias
+
+=======================
+
+Auteur: Arkus
+Message:
+Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :
+								6
+								1
+								2
+								3
+								13
+								3
+
+=======================
+
+Auteur: cirrus007
+Message:
+Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
+	En tout cas, vu du SE, cet été n'est qu'une canicule géante, jamais de répit... c'est faramineux.
+	Et pour courage à ceux qui iront en Espagne pour l'éclipse  en plus des lunettes n'oubliez pas les parasols, brumisateurs et 5L d'eau.
+								3
+								1
+								1
+								8
+								2
+
+=======================
+
+Auteur: Jetrejo
+Message:
+Moi qui vais en Suisse et qui pensait profiter de la fraicheur, il va falloir monter en altitude 😆
+	Vivement Octobre en tout cas, vraiment marre de cette chaleur. 
+	Il semble toutefois y avoir un signal un peu plus humide à la fin du topic précèdent celui ci, et sur la fin de celui ci ? 
+	Synoptiques différentes avec plus de déstabilisation sur la fin Aout ? 
+	C'est loin, en tout cas, la végétation et la faune devront essayer de tenir bon.
+								1
+								1
+								3
+
+=======================
+
+Auteur: Sebaas
+Message:
+Il y a 23 heures, Grahok73 a dit :
+			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
+	Tout est configurable à souhait pourtant!
+								1
+								1
+
+=======================
+
+Auteur: TornadeScintillante
+Message:
+il y a 28 minutes, Jetrejo a dit :
+			Moi qui vais en Suisse et qui pensait profiter de la fraicheur
+	Cet été on n’a pas beaucoup profité de la fraîcheur en Suisse 😅
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+La répétition des vagues de chaleur conduit à une sorte de résignation.
+	Ça semble bien parti pour durer 4 ou 5 jours minimum.
+								4
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Afin de remonter le moral des troupes je vais parler d'un signal d'une baisse peutetre un peu plus durable qui pourrait débuter en toute fin de topic et enfin concerner le sud-est. Ce signal apparait depuis quelques jours et semble se consolider peu à peu.
+	Biensur rien n'est acquit mais le fait que ce signal se retrouve dans tous les modèles lui donne du poids.
+	La carte des anomalies à long terme ilustre ce possible changement :
+	Au cour du topic les hauts géopotentiels sont sur la France  :
+	Au topic suivant ces hauts géopotentiels pourraient se décaler à l'ouest :
+	Marseille par exemple pourrait enfin sortir de la fournaise au cours du topic suivant et la baisse pourrait s'amorcer le dernier jour de ce topic, c'est loin mais c'est une perpective à laquelle il va falloir se raccrocher.
+	Si le sud-est, qui est la région qui a le plus de mal à sortir de ces températures hors normes depuis la mi juin, sort de cette m**** le reste du pays en sortira encore plus.
+	GEFS  Marseille :
+	CEP Marseille :
+	Bon c'était la pour mettre un peu de baume au coeur à tous ceux qui sont prets à craquer mais en attendant il va falloir serrer les f****  pour presque tout ce topic car ce qui nous attend est tout simplement une nouvelle vague de chaleur voire une canicule de plus dans le sud. Mais peut-on parler d'une multiplication des vagues de chaleur cet été ou plutot d'une vague de chaleur qui dure depuis la mi juin (avec aussi une vague de chaleur en mai) , le tout ponctué de période de pauses,  excepté dans le sud-est ?
+	Le nord sera aussi concerné mais cela ne sera pas trop durable.
+	Une porte de sortie envisagé donc mais en attendant les humains, la faune, la flore et la nature vont encore prendre cher.
+	Pour les précipitations il faudra encore patienter et espérer qu'il y en aura au topic suivant.
+								8
+								2
+
+=======================
+
+Auteur: Cyclone30
+Message:
+Il y a 3 heures, Sebaas a dit :
+			Tout est configurable à souhait pourtant!
+	Je confirme le bug ponctuel d'hier (affichait jusqu'au 5 août au chargement de la page, mais revenait et limitait automatiquement au 25 juin dès lors que l'on faisait la moindre manipulation sur les dates limites de début ou de fin). Cela semble désormais corrigé (comment, je ne sais pas, mais il y a intérêt que cela ne soit pas Jean sur sa période de congés  ). 
+								4
+								1
+
+=======================
+
+Auteur: waingro
+Message:
+Elle est timide et lointaine cette porte de sortie autour du 20 ... ça me fait penser à l'hiver lorsque la VDF du siècle est constamment repoussée au delà de +300h
+	J'ai l'impression qu'il n'y a que la diminution progressive de la longueur des journées qui peut nous sortir de la marmite si tant est que cela ait un effet significatif au mois d'août 🥲
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Il y a 7 heures, waingro a dit :
+			Elle est timide et lointaine cette porte de sortie autour du 20 ... ça me fait penser à l'hiver lorsque la VDF du siècle est constamment repoussée au delà de +300h
+			J'ai l'impression qu'il n'y a que la diminution progressive de la longueur des journées qui peut nous sortir de la marmite si tant est que cela ait un effet significatif au mois d'août 🥲
+	Lointaine  ? oui , timide  ? on dirait que non pour le nord de la France avec une baisse progressive et sensible à partir du 15 août :
+	Pour le sud c'est moins flagrant et plus laborieux, surtout pour le sud-est,  mais le signal est la quand-même :
+	Toulouse :
+	Aix-en-Provence :
+
+=======================
+
+Auteur: Run999H
+Message:
+Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafraîchissements !
+	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
+	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
+	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
+	Modifié il y a 1 heure par Run999H
+								5
