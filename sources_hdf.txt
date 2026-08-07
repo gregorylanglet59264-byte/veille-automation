@@ -330,12 +330,12 @@ durant cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Suivi du temps aux Etats-Unis.
-• Infoclimat Direct : Gare aux tiques et &#xE0; la maladie de Lyme
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Gare aux tiques et &#xE0; la maladie de Lyme
+• Infoclimat Direct : A Ciel Ouvert
+• Infoclimat Direct : Prévisions Centre-Est Aout 2026
+• Infoclimat Direct : Records de températures en France
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : A Ciel Ouvert
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -343,34 +343,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 7 Août 2026.
-Résumé général HDF précédent : Les deux semaines s’annoncent dominées par un temps sec, très ensoleillé et anormalement chaud sur les Hauts-de-France. Pic probable du mercredi 12 au vendredi 14 août avec 33-36°C dans l’intérieur. Une baisse progressive est attendue à partir du week-end des 15-16, plus nette en semaine 2 mais encore incertaine..
+Résumé général HDF précédent : Les deux semaines seront dominées par un temps sec et très chaud, avec un pic caniculaire en semaine 1 (33-36°C) et une baisse progressive en semaine 2, mais restant au-dessus des normales. Les précipitations seront rares, avec un possible retour des averses en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Aucune précipitation notable ; orages absents ; brises littorales rafraîchissantes ; nuits douces à chaudes..
+Températures attendues précédemment : Temps sec, ensoleillé, très chaud. Pic jeudi-vendredi avec 33-36°C dans l'intérieur..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: mathias
-Message:
-Il y a 8 heures, Virgile a dit :
-			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
-	Je parlais de la période estivale...
-	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié mercredi à 19:26 par mathias
-
-=======================
-
-Auteur: Arkus
-Message:
-Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :
-								6
-								1
-								2
-								3
-								13
-								3
-
-=======================
-
 Auteur: cirrus007
 Message:
 Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
@@ -482,7 +460,7 @@ Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafra
 	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	Modifié il y a 13 heures par Run999H
+	Modifié il y a 15 heures par Run999H
 								7
 								16
 								3
@@ -526,7 +504,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 5 heures par Krholam
+	Modifié il y a 7 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -542,7 +520,7 @@ Il y a 9 heures, Run999H a dit :
 	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
 	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
 	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
-								1
+								2
 								1
 								1
 
@@ -554,7 +532,8 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
 	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
 	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
-								10
+								11
+								1
 								1
 
 =======================
@@ -562,8 +541,9 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 Auteur: sebb
 Message:
 D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié il y a 3 heures par sebb
+	Modifié il y a 5 heures par sebb
 								5
+								1
 
 =======================
 
@@ -580,34 +560,33 @@ Effectivement je suis d'accord avec les derniers posts, les modèles sembent avo
 	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
 	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
 	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
-								6
-								3
+								7
+								4
+
+=======================
+
+Auteur: jt75
+Message:
+En cet été vingt six, notre  sort est scellé
+	La goutte d'eau de trop nous a fait accablés
+	Trop tard, les faits sont là, solides comme le roc.
+	Un seul espoir peut-être, l'affaissement de l'AMOC !
+	Sinon on pourra dire comme DANTE dans sa "divine comédie":
+	« Vous qui pénétrez ici, abandonnez toute espérance ».
+								1
+								1
+								1
+								2
+
+=======================
+
+Auteur: Krholam
+Message:
+Finalement 33⁰C c’est frais
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: mathias
-Message:
-Il y a 8 heures, Virgile a dit :
-			Pas besoin d’être en été pour connaitre cela. C'était déjà le cas entre le 12 janvier et le 12 mars, soit 2 mois.
-	Je parlais de la période estivale...
-	Il me semble que la période que tu donnes ne soit pas située en été? Mais bon avec tous ces dérèglements, il n'y a plus de saisons ma bonne dame!😁
-	Modifié mercredi à 19:26 par mathias
-
-=======================
-
-Auteur: Arkus
-Message:
-Juste histoire de contredire mon message de ce midi, l'anomalie hebdo médiane pour la semaine prochaine a encore grimpé ce soir (désormais on a une bande &gt; +6°C sur la diagonale centrale) :
-								6
-								1
-								2
-								3
-								13
-								3
-
-=======================
-
 Auteur: cirrus007
 Message:
 Les troupes se démobilisent, la lassitude gagne du terrain face à cet enchaînement de canicules, peut-être l'apothéose pour la semaine de ce topic...
@@ -719,7 +698,7 @@ Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafra
 	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	Modifié il y a 13 heures par Run999H
+	Modifié il y a 15 heures par Run999H
 								7
 								16
 								3
@@ -763,7 +742,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 5 heures par Krholam
+	Modifié il y a 7 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -779,7 +758,7 @@ Il y a 9 heures, Run999H a dit :
 	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
 	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
 	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
-								1
+								2
 								1
 								1
 
@@ -791,7 +770,8 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
 	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
 	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
-								10
+								11
+								1
 								1
 
 =======================
@@ -799,8 +779,9 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 Auteur: sebb
 Message:
 D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié il y a 3 heures par sebb
+	Modifié il y a 5 heures par sebb
 								5
+								1
 
 =======================
 
@@ -817,7 +798,28 @@ Effectivement je suis d'accord avec les derniers posts, les modèles sembent avo
 	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
 	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
 	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
-								6
-								3
+								7
+								4
+
+=======================
+
+Auteur: jt75
+Message:
+En cet été vingt six, notre  sort est scellé
+	La goutte d'eau de trop nous a fait accablés
+	Trop tard, les faits sont là, solides comme le roc.
+	Un seul espoir peut-être, l'affaissement de l'AMOC !
+	Sinon on pourra dire comme DANTE dans sa "divine comédie":
+	« Vous qui pénétrez ici, abandonnez toute espérance ».
+								1
+								1
+								1
+								2
+
+=======================
+
+Auteur: Krholam
+Message:
+Finalement 33⁰C c’est frais
