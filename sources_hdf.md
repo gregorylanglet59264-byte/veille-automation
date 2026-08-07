@@ -304,7 +304,7 @@ Températures minimales : en baisse sur le Vermandois et la Thiérache.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 070420 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 7 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 7 août 2026 à 00H00 UTC, et évolution Anticyclone 1027 hPa au sud de l'Irlande, se décalant vers l'est, prévu 1024 hPa sur le nord de l'Allemagne le soir. 3 - Prévisions pour la journée du vendredi 7 août VENT : Variable 1 à 3, parfois 4. MER : belle à peu agitée, s'atténuant belle en Manche à la mi-journée. HOULE : non significative, parfois Ouest 0.5 à 1 m en Manche le matin. TEMPS : ensoleillé, parfois voilé le matin. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 7 août au samedi 8 août VENT : Variable 1 à 3, fraîchissant Sud-Est 3 à 4 en seconde partie de nuit. MER : belle, localement peu agitée en Mer du Nord. HOULE : non significative. TEMPS : clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du samedi 8 août VENT : Sud-Est 3 à 4, fraîchissant secteur Nord-Est 4 à 5 l'après-midi. MER : belle, localement belle à peu agitée en Mer du Nord. HOULE : non significative. TEMPS : devenant voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : Nord-Est 3 à 5 s'orientant Sud-Ouest 4 en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Lundi 10 août Secteur Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 11 août Secteur Est modéré. Indice de confiance : 4 sur 5 Mercredi 12 août Secteur Est faible à modéré. Indice de confiance : 3 sur 5 Jeudi 13 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le vendredi 7 août 2026 à 03H00 UTC Dunkerque : vent Est-Sud-Est 2 noeuds, 1024 hPa en baisse. Cap Gris Nez : vent Sud 6 noeuds. Boulogne : vent Sud-Est 4 noeuds, 1024 hPa en baisse. Bouée Sandettie : vent Sud-Est 4 noeuds, creux 0,5 mètre, 1024 hPa en baisse, visibilité 10 milles. Prochain bulletin le vendredi 7 août 2026, vers 12H30 légales
+FQCT40 LFQQ 070940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 7 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 7 août 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa en Manche, se décalant vers l'est et prévu 1024 hPa sur le nord de l'Allemagne cette nuit. Goutte froide 1013 hPa au nord-est des Açores, se décalant vers l'est et prévue au nord-ouest de la Galice demain en fin de journée avec dégradation orageuse associée sur le golfe de Gascogne. 3 - Prévisions pour l'après-midi du vendredi 7 août VENT : secteur Ouest 3 à 4, mais localement secteur Nord 2 à 3 de Gravelines à la frontière Belge. MER : belle, localement peu agitée vers la frontière Belge. HOULE : non significative. TEMPS : ensoleillé, léger voile à la mi-journée. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 7 août au samedi 8 août VENT : - en mer du Nord : s'orientant Sud à Sud-Est 2 à 3, puis fraîchissant 3 à 4 en seconde partie de nuit. - en Manche : devenant Variable 1 à 3, puis fraîchissant Est à Sud-Est 3 à 4 en seconde partie de nuit. MER : belle, localement peu agitée vers la frontière Belge. HOULE : non significative. TEMPS : ciel clair, voilé en fin de nuit. VISIBILITE : bonne. 5 - Prévisions pour la journée du samedi 8 août VENT : Sud-Est 2 à 4, fraîchissant Est à Nord-Est 3 à 4 en milieu d'après-midi en mer du Nord, mais Nord à Nord-Est en Manche, parfois 5 en fin de journée. MER : belle, devenant peu agitée en mer du Nord en fin de journée. HOULE : non significative. TEMPS : ciel voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 8 au 9 et la journée du dimanche 9 août VENT : secteur Nord-Est 4 à 5, mollissant Sud à Sud-Sud-Est 2 à 4 en seconde partie de nuit, puis virant Ouest à Sud-Ouest l'après-midi. MER : belle à peu agitée, s'atténuant belle en fin de nuit. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 9 au 10 et la journée du lundi 10 août VENT : Sud-Ouest 3 à 5, virant Nord à Nord-Est en seconde partie de nuit. MER : belle à peu agitée. HOULE dominante d'Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Mardi 11 août Est à Nord-Est modéré. Indice de confiance : 4 sur 5 Mercredi 12 août Est à Nord-Est faible à modéré. Indice de confiance : 4 sur 5 Jeudi 13 août variable faible, s'orientant Nord-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 14 août Ouest à Nord-Ouest faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le vendredi 7 août 2026 à 09H00 UTC Dunkerque : vent Sud 6 noeuds, 1024 hPa stationnaire. Cap Gris Nez : vent Sud-Ouest 8 noeuds. Boulogne : vent Sud-Ouest 10 noeuds, 1025 hPa en hausse. Prochain bulletin le vendredi 7 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -332,12 +332,12 @@ prochains jours.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Capteur Sonoff
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -345,55 +345,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 7 Août 2026.
-Résumé général HDF précédent : Période à deux temps marqués : canicule intense du 12 au 14 août, suivie d'une baisse progressive à partir du 16-17 mais restant au-dessus des normales, avec un possible retour à un temps plus océanique en fin de période. Le déficit pluviométrique reste préoccupant..
+Résumé général HDF précédent : Deux semaines très chaudes et sèches sur les Hauts-de-France, avec un pic caniculaire du 12 au 14 août, puis une baisse progressive à partir du 16-17. Les précipitations restent très faibles, la sécheresse de surface devient préoccupante..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur extrême jeudi 13, vigilance orange probable localement. Aucune précipitation significative..
+Températures attendues précédemment : Plein soleil, air très chaud en altitude, aucune précipitation, maximales 33-36°C jeudi 13 dans l’intérieur..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: 970hPa
-Message:
-il y a 18 minutes, Virgile a dit :
-			La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
-	En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄 
-	Les vdf a 72h la fiabilité est de 20% .....
-								3
-								1
-								1
-
-=======================
-
-Auteur: Arkus
-Message:
-Le 04/08/2026 à 14:22, gotman42 a dit :
-			Ca c'est vu depuis Paris.
-			Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
-			En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
-		Il y a 4 heures, Gaël13 a dit :
-			La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
-	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
-	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
-	Pour le reste, à voir et discuter en topics climato.
-	Modifié mercredi à 13:23 par Arkus
-								21
-								20
-								3
-
-=======================
-
-Auteur: jt75
-Message:
-Il y a 4 heures, Grahok73 a dit :
-			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
-	Bonjour @Grahok73
-	on n'est jamais mieux servi que sur infoclimat 
-	https://www.infoclimat.fr/climato/indicateur_national.php#2026;,1981-2010,1,-3.65,368.65,,y,desc,-1292739192000,1816056792000
-								1
-								1
-								1
-
-=======================
-
 Auteur: mathias
 Message:
 Il y a 8 heures, Virgile a dit :
@@ -517,7 +474,7 @@ Il y a 7 heures, waingro a dit :
 	Pour le sud c'est moins flagrant et plus laborieux, surtout pour le sud-est,  mais le signal est la quand-même :
 	Toulouse :
 	Aix-en-Provence :
-								1
+								2
 
 =======================
 
@@ -527,10 +484,10 @@ Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafra
 	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	Modifié il y a 9 heures par Run999H
-								2
-								15
-								2
+	Modifié il y a 11 heures par Run999H
+								5
+								16
+								3
 								1
 
 =======================
@@ -540,7 +497,7 @@ Message:
 Il y a 6 heures, Run999H a dit :
 			Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
 	Atlantique et Méditerranée sont vus une fois de plus complètement hors norme la semaine prochaine on le voit bien sur cette carte d'EFI. Le cauchemar continue. Au rythme des mirages pluvieux sans cesse repoussés il faut peut-être se faire une raison et attendre l'automne (une saison qui promet)
-								4
+								6
 								2
 
 =======================
@@ -550,6 +507,7 @@ Message:
 Le 05/08/2026 à 11:57, Maupi85 a dit :
 			Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?
 	Oui c'est bien sûr possible. Météo-France "les conditions caniculaires devraient se généraliser à une large partie de la France".
+								1
 								1
 								2
 
@@ -570,7 +528,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 1 heure par Krholam
+	Modifié il y a 3 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -578,59 +536,56 @@ Avancée du 0z CEP et AIFS
 
 Auteur: bernardt60
 Message:
-Il y a 8 heures, Run999H a dit :
+Il y a 9 heures, Run999H a dit :
 			Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafraîchissements !
 			Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 			Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 			Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
 	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
 	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
+	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
 								1
+
+=======================
+
+Auteur: Run999H
+Message:
+Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de canicule à compter de mercredi sauf pour le sud-est qui subit une canicule unique depuis presque 1,5 mois. 
+	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
+	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
+	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
+								6
+								1
+
+=======================
+
+Auteur: sebb
+Message:
+D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
+	Modifié il y a 1 heure par sebb
+								3
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Effectivement je suis d'accord avec les derniers posts, les modèles sembent avoir du mal a mettre fin cette VDC quasi permanente dans certaines régions et notamment dans le sud-est, les facteurs tels que la sécheresse des sols, la températures anormament chaude de la méditerranéee et de l'atlantique semblent compliquer les modélisations .
+	Mercredi,  les hautes pressions s'étendent de l'atlantique au sud de la Scandinavie et les valeurs les plus élevées en Europe du nord-est constituent un blocage à toute progression du flux atlantique vers a France :
+	Vendredi,  les hautes pressions présentes au sud de la Scandinavie pourraient s'évacuer vers l'est ce qui permettrait de débloquer un peu la synoptique mais sans qu'on sache encore si le fux va pouvoir s'orienter d'une manière plus méridienne sur la France ou si les hautes pressions resteront trop présentes et ne permettrons pas la moindre incursion d'un talweg par exemple.
+	Sans compter qu'on est pas non plus à l'abris dune nouvelle goutte froide à l'ouest du Portugal comme envisagé par GEF :
+	Certains ensembles comme GEM et AIFS qui donnaient encore hier l'espoir d'une porte de sortie pour le sud-est semblent avoir fait machine arrière avec une moyenne à 850 Hpa qui ne veut pas décoller (ou très peu) des 20 degrés à perte de vue, :
+	GEM Marseille :
+	AIFS Marseille :
+	GEFS est légèrement plus optimiste mais rien de fou non plus, attendons l'ensemble CEP :
+	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
+	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
+	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
+	Modifié il y a 1 heure par petit âge glaciaire 11
+Modifié
+								2
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: 970hPa
-Message:
-il y a 18 minutes, Virgile a dit :
-			La nouvelle canicule entre mardi 11 aout et le vendredi 14 aout a été ciblé par les modèles il y a déjà une semaine (j'avais fait un post sur cela), d'où dés 360-384 heures!!! Quand en hiver, t'as une vague de froid à 384 heures, 99%,, elle disparait au fil des runs. Quand c'est une canicule, tu sais que t'as des très grandes chances que ça arrive.
-	En tout cas on connais la fiabilité des modèles face à les canicules ... Même à 240h la fiabilité est de 99% 🙄 
-	Les vdf a 72h la fiabilité est de 20% .....
-								3
-								1
-								1
-
-=======================
-
-Auteur: Arkus
-Message:
-Le 04/08/2026 à 14:22, gotman42 a dit :
-			Ca c'est vu depuis Paris.
-			Parce qu'ici ce ne sera pas la 5ème canicule. J'exagère à peine mais on est toujours sur la 1ère... qui ne s'est jamais arrêtée 😄
-			En étant sérieux, quand la 3ème a été annoncée on était toujours dans la 2ème. Quand la 4ème a été annoncée on était toujours dans la 3ème. Et là on parle d'une 5ème mais on est toujours dans la 4ème. Bref, il faut très chaud et tout le temps, sans la moindre pause, ce qui est remarquable. 
-		Il y a 4 heures, Gaël13 a dit :
-			La moitiée sud n'en est jamais sortie, Txn de 30,4°C sur Aix en Provence depuis le 17 juin, sinon toutes les Tx sont comprises entre 33 et 39°C non stop tout les jours sans exceptions. 
-	Désolé, petit HS climato sur lequel je rebondis mais qui peut aussi éclairer comment on qualifie la période chaude de la semaine prochaine à travers la France, relativement aux semaines qui la précèdent.
-	J'ai tracé le pourcentage de temps pendant lequel les différentes stations ont rempli les critères locaux de vague de chaleur depuis mi-juin. Dans le Midi Toulousain, la vallée du Rhône et la Provence, on est autour de 80% du temps. On monte à 90% dans certains coins de la Côte d'Azur et Corse (pour certaines stations, pas d'interruption depuis le 21 juin). Dans la moitié nord, c'est plus discontinu, mais à plus de 50% sauf quand on s'approche de la Manche (comme d'hab, données brutes, ne pas s'arrêter à la valeur isolée d'une seule station).
-	Pour le reste, à voir et discuter en topics climato.
-	Modifié mercredi à 13:23 par Arkus
-								21
-								20
-								3
-
-=======================
-
-Auteur: jt75
-Message:
-Il y a 4 heures, Grahok73 a dit :
-			Bonjour @jt75... Petit hors-sujet... Lorsque je vais consulter l'ITN sur http://dataclimat.fr, celui-ci s'arrête en date du 25 juin ce jour, soit la date limite du paramétrage d'affichage... Que dois-je faire pour l'afficher au jour d'aujourd'hui ? 
-	Bonjour @Grahok73
-	on n'est jamais mieux servi que sur infoclimat 
-	https://www.infoclimat.fr/climato/indicateur_national.php#2026;,1981-2010,1,-3.65,368.65,,y,desc,-1292739192000,1816056792000
-								1
-								1
-								1
-
-=======================
-
 Auteur: mathias
 Message:
 Il y a 8 heures, Virgile a dit :
@@ -754,7 +709,7 @@ Il y a 7 heures, waingro a dit :
 	Pour le sud c'est moins flagrant et plus laborieux, surtout pour le sud-est,  mais le signal est la quand-même :
 	Toulouse :
 	Aix-en-Provence :
-								1
+								2
 
 =======================
 
@@ -764,10 +719,10 @@ Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafra
 	Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 	Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 	Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	Modifié il y a 9 heures par Run999H
-								2
-								15
-								2
+	Modifié il y a 11 heures par Run999H
+								5
+								16
+								3
 								1
 
 =======================
@@ -777,7 +732,7 @@ Message:
 Il y a 6 heures, Run999H a dit :
 			Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
 	Atlantique et Méditerranée sont vus une fois de plus complètement hors norme la semaine prochaine on le voit bien sur cette carte d'EFI. Le cauchemar continue. Au rythme des mirages pluvieux sans cesse repoussés il faut peut-être se faire une raison et attendre l'automne (une saison qui promet)
-								4
+								6
 								2
 
 =======================
@@ -787,6 +742,7 @@ Message:
 Le 05/08/2026 à 11:57, Maupi85 a dit :
 			Qu'en sera-t-il à la prochaine actualisation ?   plus rouge c'est encore possible ?
 	Oui c'est bien sûr possible. Météo-France "les conditions caniculaires devraient se généraliser à une large partie de la France".
+								1
 								1
 								2
 
@@ -807,7 +763,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 1 heure par Krholam
+	Modifié il y a 3 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -815,11 +771,51 @@ Avancée du 0z CEP et AIFS
 
 Auteur: bernardt60
 Message:
-Il y a 8 heures, Run999H a dit :
+Il y a 9 heures, Run999H a dit :
 			Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafraîchissements !
 			Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
 			Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
 			Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
 	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
 	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
+	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
 								1
+
+=======================
+
+Auteur: Run999H
+Message:
+Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de canicule à compter de mercredi sauf pour le sud-est qui subit une canicule unique depuis presque 1,5 mois. 
+	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
+	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
+	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
+								6
+								1
+
+=======================
+
+Auteur: sebb
+Message:
+D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
+	Modifié il y a 1 heure par sebb
+								3
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Effectivement je suis d'accord avec les derniers posts, les modèles sembent avoir du mal a mettre fin cette VDC quasi permanente dans certaines régions et notamment dans le sud-est, les facteurs tels que la sécheresse des sols, la températures anormament chaude de la méditerranéee et de l'atlantique semblent compliquer les modélisations .
+	Mercredi,  les hautes pressions s'étendent de l'atlantique au sud de la Scandinavie et les valeurs les plus élevées en Europe du nord-est constituent un blocage à toute progression du flux atlantique vers a France :
+	Vendredi,  les hautes pressions présentes au sud de la Scandinavie pourraient s'évacuer vers l'est ce qui permettrait de débloquer un peu la synoptique mais sans qu'on sache encore si le fux va pouvoir s'orienter d'une manière plus méridienne sur la France ou si les hautes pressions resteront trop présentes et ne permettrons pas la moindre incursion d'un talweg par exemple.
+	Sans compter qu'on est pas non plus à l'abris dune nouvelle goutte froide à l'ouest du Portugal comme envisagé par GEF :
+	Certains ensembles comme GEM et AIFS qui donnaient encore hier l'espoir d'une porte de sortie pour le sud-est semblent avoir fait machine arrière avec une moyenne à 850 Hpa qui ne veut pas décoller (ou très peu) des 20 degrés à perte de vue, :
+	GEM Marseille :
+	AIFS Marseille :
+	GEFS est légèrement plus optimiste mais rien de fou non plus, attendons l'ensemble CEP :
+	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
+	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
+	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
+	Modifié il y a 1 heure par petit âge glaciaire 11
+Modifié
+								2
+								2
