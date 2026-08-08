@@ -1,131 +1,130 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Samedi 8 Août 2026
-**Période :** Semaine 1 (Du Lundi 10 au Dimanche 16 Août 2026) & Semaine 2 (Du Lundi 17 au Dimanche 23 Août 2026)
+**Période :** Semaine 1 (Du lundi 10 au dimanche 16 août 2026) & Semaine 2 (Du lundi 17 au dimanche 23 août 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Consensus sur la chaleur, mais fortes divergences sur la fin de période.*
-- **Fiabilité du scénario majoritaire :** Canicule prolongée avec répit limité au nord-ouest — *Scénario le plus probable selon les modèles, mais avec de fortes incertitudes.*
-- **Stabilité des cartes/scénarios :** 6 / 190 — *6 cartes sur 190 analysées*
-- **Niveau d'incertitude global :** Élevée — *Incertitude majeure sur la durée de la canicule et le scénario de la semaine 2.*
+- **Consensus des modèles :** Modéré — *Accord sur la chaleur, mais désaccord sur la sortie de canicule.*
+- **Fiabilité du scénario majoritaire :** Chaleur durable, canicule au sud-est — *Dôme de chaleur persistant, répit limité au nord-ouest.*
+- **Stabilité des cartes/scénarios :** 6 / 208 — *6 cartes sur 208 analysées*
+- **Niveau d'incertitude global :** Fin de canicule incertaine — *Divergence majeure entre ICON et GFS à partir de vendredi 14.*
 
-## 🗓️ SEMAINE 1 : Du Lundi 10 au Dimanche 16 Août 2026
+## 🗓️ SEMAINE 1 : Du lundi 10 au dimanche 16 août 2026
 ### 💡 Points clés de la semaine 1
-1. Vague de chaleur majeure : Pic caniculaire attendu jeudi 13 sur une large partie du territoire.
-2. Rafraîchissement incertain : Une porte de sortie au nord-ouest est envisagée en fin de semaine, mais les modèles divergent fortement.
-3. Sud-est verrouillé : La chaleur pourrait persister durablement avec 5 à 7 jours caniculaires possibles.
-4. Orages d'évolution diurne : Risque d'orages localisés, notamment sur le relief et le sud-ouest en début de semaine.
-5. Chaleur extrême au sud : Températures très élevées attendues de Toulouse à Lyon, avec des pointes locales.
+1. Pic de chaleur jeudi : Forte probabilité d'un épisode chaud majeur sur la France mercredi-vendredi.
+2. Canicule étendue : Le sud-est d'une ligne Toulouse-Lyon pourrait cumuler 5 à 7 jours de chaleur caniculaire.
+3. Rafraîchissement discuté : La baisse des températures par le nord-ouest en fin de semaine est incertaine.
+4. Orages localisés : Risque d'orages d'évolution diurne en début de semaine, surtout au sud-ouest et sur le relief.
+5. Nuits chaudes : Températures minimales élevées, notamment dans les grandes villes et le quart sud-est.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Pic de chaleur attendu jeudi 13 août avec une extension géographique maximale sur tout le territoire.
-2. Chaleur durable et intense sur le sud-est avec des températures très supérieures aux normales.
-3. Rafraîchissement limité et incertain en fin de semaine, principalement au nord-ouest.
+- Chaleur durable sur la majeure partie du pays, avec pic probable jeudi 13.
+- Nuits chaudes et sécheresse de surface en toile de fond.
+- Rafraîchissement moins net à mesure que l'on va vers le sud-est.
 **Points de divergence :**
-1. Date de la porte de sortie : ICON propose le 14-15, CEP le 16, GFS repousse au 18-20.
-2. Intensité du rafraîchissement : de franc (ICON) à très limité (GFS), en passant par modéré (AIFS).
-3. Persistance de la chaleur au sud-est : quasi-unanimité pour une chaleur durable, mais l'intensité exacte reste incertaine.
+- Date de la porte de sortie : 14-15 août pour ICON, 16-18 août pour GFS/CEP.
+- Intensité du pic : plus fort sur GFS/AIFS que sur ICON.
+- Comportement du thalweg atlantique : dégradation réelle ou simple griffure/cut-off.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (déterministe et ensemble GEFS)** (documenté) | Vague de chaleur prolongée avec pic jeudi, porte de sortie repoussée au 18/08 au nord et 20/08 au sud. Réchauffement très rapide à l'arrière possible. | Chaleur intense et durable, orages localisés d'évolution diurne, sécheresse de surface. | Toutes zones, avec extension maximale jeudi. | Élevée (85%) | Le run 12Z accentue la chaleur en intensité et durée. GEFS a été précurseur sur la fébrilité de la fin de canicule. Moyenne d'ensemble légèrement plus optimiste que le déterministe. |
-| **CEP / ECMWF (ensemble)** (documenté) | Rafraîchissement limité en fin de semaine pour la moitié nord, chaleur persistante au sud-est. Porte de sortie repoussée au 16/08. | Canicule marquée au sud-est, chaleur forte ailleurs, orages localisés. | Moitié nord (rafraîchissement relatif), sud-est (persistance chaude) | Modérée (70%) | Le CEP 12Z garde le scénario d'une sortie de canicule au 16/08 pour le nord, mais le scénario semble se rapprocher de GFS avec une chaleur qui pourrait persister plus longtemps. |
-| **ICON** (documenté) | Rafraîchissement plus net et plus précoce par l'Atlantique, avec une porte de sortie autour du 14-15 août du nord au sud. | Chaleur encore forte en début de semaine, puis nette dégradation avec thalweg atlantique. | Toutes zones, avec un rafraîchissement plus marqué à l'ouest et au nord | Faible (45%) | Modèle qui propose la sortie de canicule la plus franche et la plus précoce, avec un thalweg qui reste bien creusé et qui rafraîchit par l'Atlantique. |
-| **AIFS** (documenté) | Scénario de compromis : un thalweg affaibli qui se transforme en cut-off, avec un rafraîchissement modéré à faible du nord-ouest vers le sud-est en fin de semaine. | Chaleur encore présente mais moins intense en fin de semaine, orages possibles. | Nord-ouest (rafraîchissement), sud-est (chaleur persistante) | Modérée (65%) | AIFS propose un scénario intermédiaire, avec un thalweg qui s'affaiblit en approchant et qui finit en cut-off. Rafraîchissement moins net que ICON mais plus franc que GFS. |
-| **GEM** (partiel) | Ensemble qui a fait machine arrière sur la porte de sortie pour le sud-est, avec une moyenne à 850 hPa qui ne décolle pas des 20°C. | Chaleur persistante et durable au sud-est. | Sud-est essentiellement | Faible (45%) | GEM ne montre aucun espoir de sortie de canicule pour le sud-est, confirmant la persistance de températures à 850 hPa très élevées. |
+| **GFS / GEFS** (Documenté en détail) | Dôme de chaleur persistant, pic jeudi, sortie de canicule repoussée vers le 18 août sur le nord et possiblement plus tard au sud. | Chaleur intense et durable, nuits chaudes, sécheresse de surface, orages localisés possibles. | Toutes les zones, avec intensité maximale sur un axe Bordeaux-Strasbourg et le quart sud-est. | Élevée (85%) | GFS accentue la chaleur en durée et en intensité; GEFS a souvent anticipé les évolutions de chaleur. La porte de sortie se décale et le scénario d'un cut-off à l'avant est évoqué. |
+| **ECMWF / CEP** (Mentionné avec analyse) | Porte de sortie initialement vers le 16 août pour la moitié nord, mais scénario jugé limité et se rapprochant de GFS. | Chaleur très chaude, léger fléchissement plus probable au nord-ouest en fin de semaine. | France entière, surtout moitié nord. | Modérée (65%) | CEP garde une sortie le 16, mais les membres jugent ce scénario trop limité face à la tendance chaude. À surveiller dans les prochains runs. |
+| **ICON** (Mentionné ponctuellement) | Thalweg atlantique plus franc, rafraîchissement net par le nord-ouest vers les 14-15 août. | Repli plus marqué des températures, possible retour des averses sur l'ouest. | Nord-ouest, puis centre et est. | Faible (45%) | ICON est le plus offensif pour une dégradation par l'Atlantique; il est isolé face à GFS et CEP. |
+| **AIFS** (Mentionné avec analyse) | Scénario intermédiaire : thalweg affaibli, partiellement isolé en cut-off, rafraîchissement modéré puis chaleur qui revient vite. | Chaleur encore présente, baisse moins franche qu'ICON, orages limités. | Nord-ouest et centre principalement. | Modérée (65%) | AIFS est moins bouillant que GEFS sur certains runs et pourrait permettre une redescente plus franche derrière le pic, mais sans certitude. |
+| **CMC/GEM (Canadien)** (Mentionné brièvement) | Circulation chaude et sèche persistante, talwegs peu efficaces, pas de vraie pause. | Temps chaud et sec, sans dégradation majeure. | France entière, gradient nord-ouest/sud-est. | Faible (45%) | tao illustre avec une animation du canadien l'absence de pauses durables, malgré une fiabilité supposée meilleure que son voisin. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Chaleur forte en début de semaine, possible rafraîchissement en fin de période avec flux de nord-est | Maximales 30-35°C en début de semaine, baisse possible à partir de vendredi (25-28°C) | moderee | GFS, CEP, ICON | Date et intensité du rafraîchissement incertaines |
-| **Nord** | Canicule en début de semaine, pic jeudi, rafraîchissement possible vendredi-samedi | Maximales 33-36°C du lundi au jeudi, baisse possible en fin de semaine (28-31°C) | elevee | GFS, CEP, AIFS, ICON | Porte de sortie de la canicule incertaine |
-| **Nord-Est** | Chaleur intense et durable, canicule de 3 à 5 jours possibles | Maximales 33-37°C, pic jeudi, baisse possible en fin de semaine | elevee | GFS, CEP, AIFS | Intensité exacte du pic et durée de la chaleur |
-| **Ouest et Façade Atlantique** | Chaleur très forte, pic jeudi, possible baisse vendredi-samedi par flux de nord-ouest | Maximales 35-37°C en début de semaine, 30-33°C en fin de semaine, littoral plus frais | elevee | GFS, CEP, ICON, AIFS | Rafraîchissement plus ou moins marqué selon les modèles |
-| **Centre** | Canicule marquée, 3 à 5 jours de fortes chaleurs possibles | Maximales 34-38°C, pic jeudi, baisse possible en fin de semaine | elevee | GFS, CEP, AIFS | Durée de la canicule et date de la baisse |
-| **Sud-Ouest** | Chaleur extrême, orages possibles en début de semaine, canicule de 5 à 7 jours | Maximales 36-38°C, voire 39°C localement, très chaud la nuit | elevee | GFS, CEP, AIFS, ICON | Intensité des orages et persistance de la chaleur en fin de semaine |
-| **Sud-Est et Vallée du Rhône** | Canicule durable et intense, 5 à 7 jours de fortes chaleurs, orages possibles en début de semaine | Maximales 35-38°C, minimales très élevées (22-25°C) | elevee | GFS, CEP, GEM, AIFS | Aucune porte de sortie claire en vue |
-| **Méditerranée et Corse** | Chaleur intense, canicule durable, orages possibles en début de semaine | Maximales 35-38°C dans les terres, 31-34°C sur le littoral, minimales élevées | elevee | GFS, CEP, GEM, AIFS | Persistance de la canicule et intensité des orages |
+| **Nord-Ouest** | Chaleur forte en début de semaine, possible baisse relative à partir de vendredi. | Maximales encore élevées, nuits chaudes; baisse relative possible dimanche. | moderee | GFS, ECMWF, AIFS | Rafraîchissement de vendredi-dimanche incertain selon les modèles. |
+| **Nord** | Soleil généreux et chaleur durable, maximales voisines de 34-36°C en fin de semaine. | Minimales 17-21°C, maximales 30-36°C selon les jours. | elevee | GFS, ECMWF, AIFS | Risque orageux samedi et évolution dimanche. |
+| **Nord-Est** | Chaleur caniculaire en milieu de semaine, atténuation tardive incertaine. | Maximales 35-38°C autour du pic, nuits chaudes 18-22°C. | moderee | GFS, ECMWF | Porte de sortie dépendante du comportement du thalweg atlantique. |
+| **Ouest et Façade Atlantique** | Temps chaud et sec, avec quelques orages possibles en début de semaine, puis soleil généreux. | Maximales 29-37°C selon littoral/intérieur; minimales 18-22°C. | elevee | GFS, ECMWF, AIFS, ICON | Risque orageux lundi et rafraîchissement littoral. |
+| **Centre** | Chaleur intense et durable, ciel généralement dégagé. | Maximales souvent voisines de 35-38°C, minimales élevées. | moderee | GFS, ECMWF | Localisation exacte du dôme de chaleur. |
+| **Sud-Ouest** | Orages parfois marqués en début de semaine, puis soleil et chaleur forte. | Maximales 33-38°C, minimales 18-22°C, 15-16°C en montagne. | elevee | GFS, ECMWF, AIFS | Localisation des orages de début de semaine. |
+| **Sud-Est et Vallée du Rhône** | Temps instable lundi, puis soleil et chaleur intense. | Maximales 32-38°C, minimales 18-22°C, nuits chaudes. | elevee | GFS, ECMWF, AIFS | Risque orageux de début de semaine et baisse dimanche. |
+| **Méditerranée et Corse** | Soleil dominant, chaleur très forte dans les terres, proche des 38°C. | Maximales 31-38°C selon littoral/intérieur; minimales 21-25°C. | elevee | GFS, ECMWF, AIFS | Rafraîchissement quasi absent à ce stade. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 10 et mardi 11 août** : Chaleur intense avec orages possibles sur le relief et le sud-ouest, maximales 33-37°C.
-- **Mercredi 12 et jeudi 13 août** : Pic caniculaire avec maximales 35-39°C, canicule généralisée sur la plupart des régions.
-- **Vendredi 14 et samedi 15 août** : Rafraîchissement possible au nord-ouest, chaleur persistante au sud-est, maximales en baisse au nord.
-- **Dimanche 16 août** : Chaleur encore présente au sud, rafraîchissement plus net au nord-ouest, incertitude sur la suite.
+- **Lundi 10 et mardi 11 août** : Chaleur encore présente avec un risque orageux localisé, notamment du sud-ouest au Rhône.
+- **Mercredi 12 et jeudi 13 août** : Pic de chaleur attendu, avec des maximales souvent proches de 35-38°C sur une large moitié sud et dans l'est.
+- **Vendredi 14 et samedi 15 août** : Possible amorce de baisse des températures par le nord-ouest, mais chaleur encore forte ailleurs.
+- **Dimanche 16 août** : Situation de transition incertaine : soleil encore généreux, mais rafraîchissement relatif possible au nord-ouest.
 
 **Points solides :**
-1. Pic de chaleur jeudi 13 août sur l'ensemble du territoire, avec un risque caniculaire généralisé.
-2. Chaleur durable et intense au sud-est, avec des températures très supérieures aux normales.
-3. Sécheresse de surface et stress hydrique en augmentation, avec un risque d'orages d'évolution diurne.
+- Pic de chaleur jeudi 13 très probable.
+- Nuits chaudes sur le quart sud-est durant toute la semaine.
+- Temps sec généralisé, avec orages localisés en début de semaine au sud-ouest.
 
 **Points fragiles :**
-1. Date et intensité du rafraîchissement en fin de semaine, très incertaines selon les modèles.
-2. Risque d'orages localisés, notamment sur le relief, difficile à prévoir précisément.
-3. Possibilité d'une remontée rapide de la chaleur après un éventuel rafraîchissement, voire une intensification.
+- Date du rafraîchissement en fin de semaine.
+- Remontée de la chaleur par le sud dès le week-end.
+- Comportement exact du thalweg atlantique.
 
 **À surveiller (prochains runs) :**
-Prochains runs GFS 00Z et CEP 00Z/12Z lundi 10 août pour préciser la date de la porte de sortie. Évolution des ensembles GEFS et CEP pour confirmer ou infirmer le scénario de chaleur prolongée.
+Runs de lundi 10 août (00Z/12Z) de GFS, CEP et AIFS, et ouverture du sujet de la semaine du 17 août.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 17 au Dimanche 23 Août 2026
+## 🗓️ SEMAINE 2 : Du lundi 17 au dimanche 23 août 2026
 ### 💡 Points clés de la semaine 2
-1. Incertitude majeure : Le sujet dédié n'est pas ouvert, projections basées sur le long terme des modèles.
-2. Chaleur persistante : La plupart des modèles envisagent une poursuite des fortes chaleurs, surtout au sud-est.
-3. Porte de sortie incertaine : Des scénarios de rafraîchissement existent mais leur réalisation est très hypothétique.
-4. Risque de réchauffement rapide : Un dôme de chaleur pourrait se reformer rapidement après un éventuel rafraîchissement.
-5. Fortes incertitudes : Les écarts entre modèles sont importants, aucune tendance fiable ne se dégage.
+1. Sujet pas encore ouvert : Les projections s'appuient sur les runs long terme du topic Semaine 33.
+2. Chaleur persistante probable : Un retour de la chaleur est envisagé par le sud-ouest rapidement après un éventuel répit.
+3. Porte de sortie décalée : GFS repousse l'atténuation vers le 18-20 août, avec un dôme de chaleur tenace.
+4. Incertitude forte : Les divergences entre ICON, CEP et GFS sont majeures à cette échéance.
+5. Sud-est le plus exposé : La prolongation de la chaleur semble plus probable sur le quart sud-est.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Chaleur persistante au sud-est, avec des températures toujours très supérieures aux normales.
-2. Possibilité d'un rafraîchissement temporaire au nord, mais de courte durée.
-3. Risque de retour de la chaleur en fin de semaine, avec une possible intensification.
+- La chaleur devrait se prolonger au moins en début de semaine 2.
+- Le sud-est semble le moins concerné par un éventuel rafraîchissement.
+- Une remontée chaude par le sud/sud-ouest est le scénario de compromis.
 **Points de divergence :**
-1. Intensité et durée du rafraîchissement : très variable selon les modèles (de franc à très limité).
-2. Date de la remontée de la chaleur : fin de semaine pour certains, plus tard pour d'autres.
-3. Scénario de dôme de chaleur : évoqué par GFS mais pas confirmé par les autres modèles.
+- Date et réalité de la dégradation.
+- Rôle du futur thalweg : vrai rafraîchissement ou cut-off.
+- Localisation précise de la remontée chaude.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (projection long terme)** (documenté) | Chaleur qui se maintient ou se renforce, avec un scénario de dôme de chaleur envahissant l'Espagne et la France, et un cut-off à l'avant. Porte de sortie repoussée au 18/08 au nord et 20/08 au sud. | Canicule persistante, orages possibles en marge, très fortes chaleurs. | Toutes zones, avec une intensification possible au sud-ouest et au sud-est | Modérée (65%) | GFS à long terme suggère une persistance de la chaleur, avec une possible intensification. Le scénario de dôme de chaleur est évoqué mais reste très incertain. |
-| **CEP / ECMWF (projection long terme)** (documenté) | Rafraîchissement possible en début de semaine pour la moitié nord, mais chaleur qui pourrait remonter rapidement. Scénario très incertain. | Chaleur atténuée au nord, persistante au sud-est, orages possibles. | Moitié nord (rafraîchissement temporaire), sud-est (chaleur) | Modérée (60%) | CEP envisage un rafraîchissement limité mais le scénario se rapproche de GFS avec une remontée rapide des températures. |
-| **ICON (projection long terme)** (partiel) | Rafraîchissement plus net et plus durable par l'Atlantique, avec un thalweg bien marqué. | Temps plus frais et plus instable, orages possibles. | Toutes zones, avec un rafraîchissement plus marqué à l'ouest et au nord | Faible (45%) | ICON propose le scénario le plus frais, avec une dégradation nette par l'Atlantique. Scénario minoritaire. |
-| **AIFS (projection long terme)** (documenté) | Scénario de compromis : rafraîchissement modéré puis réchauffement rapide, avec un cut-off qui se forme. | Chaleur atténuée temporairement, puis retour de la chaleur. | Toutes zones, avec un rafraîchissement plus marqué au nord-ouest | Modérée (60%) | AIFS propose un scénario de compromis, avec un rafraîchissement modéré mais un retour rapide de la chaleur. |
+| **GFS / GEFS** (Projection long terme, sujet non ouvert) | Dôme de chaleur tenace, sortie repoussée au 18-20 août; chaleur qui pourrait remonter rapidement. | Chaleur encore forte, surtout au sud; absence de vraie dégradation. | Toutes zones, avec intensité maximale au sud-est. | Faible (45%) — projections long terme | GFS voit une canicule qui s'étire et une porte de sortie qui recule. À confirmer dès l'ouverture du sujet Semaine 34. |
+| **ECMWF / CEP** (Projection long terme, sujet non ouvert) | Sortie vers le 16 août seulement pour la moitié nord, scénario jugé limité. | Chaleur encore présente, rafraîchissement incertain. | Moitié nord, puis possible extension au sud. | Faible (45%) — projections long terme | CEP se rapproche de GFS pour la semaine 2, avec un possible cut-off au lieu d'un vrai thalweg. |
+| **ICON** (Projection long terme, sujet non ouvert) | Rafraîchissement plus franc vers le 14-15 août, mais retour de la chaleur possible ensuite. | Baisse plus marquée, puis regain de chaleur incertain. | Nord-ouest, centre-est, puis sud. | Faible (45%) — projections long terme | ICON est plus offensif pour un thalweg rafraîchissant, mais il est isolé face aux autres modèles. |
+| **AIFS** (Projection long terme, sujet non ouvert) | Compromis : thalweg affaibli, cut-off, rafraîchissement modéré puis réchauffement rapide. | Chaleur qui revient vite par le sud-ouest après un répit limité. | Nord-ouest, centre, puis sud. | Faible (45%) — projections long terme | AIFS propose un scénario intermédiaire réaliste : une dégradation limitée, puis une remontée rapide de la chaleur par le sud. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Rafraîchissement possible en début de semaine, puis retour de la chaleur | Maximales 25-30°C en début de semaine, puis 30-33°C | faible | GFS, CEP | Intensité du rafraîchissement très incertaine |
-| **Nord** | Chaleur atténuée possible en début de semaine, retour de la chaleur ensuite | Maximales 28-32°C en début de semaine, puis 33-35°C | faible | GFS, CEP | Durée du rafraîchissement incertaine |
-| **Nord-Est** | Chaleur persistante, avec un possible léger rafraîchissement en début de semaine | Maximales 32-35°C, en baisse possible en début de semaine | faible | GFS, AIFS | Intensité de la chaleur et date du retour |
-| **Ouest et Façade Atlantique** | Rafraîchissement possible en début de semaine, chaleur qui revient rapidement | Maximales 27-30°C en début de semaine, puis 32-35°C | faible | ICON, CEP | Ampleur du rafraîchissement |
-| **Centre** | Chaleur persistante, avec un possible répit temporaire | Maximales 33-36°C, baisse possible en début de semaine | faible | GFS, AIFS | Durée de la chaleur et intensité |
-| **Sud-Ouest** | Chaleur intense et persistante, avec un risque de dôme de chaleur | Maximales 36-39°C, très chaud la nuit | moderee | GFS, CEP, AIFS | Risque de canicule prolongée |
-| **Sud-Est et Vallée du Rhône** | Canicule persistante, aucune porte de sortie claire en vue | Maximales 35-38°C, minimales très élevées | faible | GFS, GEM | Durée de la canicule |
-| **Méditerranée et Corse** | Canicule persistante, chaleur extrême dans les terres | Maximales 35-38°C, littoral plus frais | faible | GFS, CEP | Intensité de la canicule |
+| **Nord-Ouest** | Rafraîchissement possible mais limité, retour de la chaleur rapide ensuite. | Températures encore au-dessus des normales, incertitude marquée. | faible | GFS, ECMWF, AIFS | Sujet Semaine 34 non ouvert; les modèles divergent. |
+| **Nord** | Chaleur encore probable, porte de sortie incertaine vers le 18 août. | Encore chaud, avec une possible atténuation tardive. | faible | GFS, ECMWF, AIFS | Sujet Semaine 34 non ouvert; les modèles divergent. |
+| **Nord-Est** | Chaleur persistante probable, atténuation possible seulement en fin de semaine. | Encore chaud, intensité à confirmer. | faible | GFS, ECMWF, AIFS | Sujet Semaine 34 non ouvert; les modèles divergent. |
+| **Ouest et Façade Atlantique** | Possible remontée chaude par le sud-ouest après un éventuel répit. | Températures encore élevées, mais variabilité possible. | faible | GFS, ECMWF, AIFS, ICON | Sujet Semaine 34 non ouvert; les modèles divergent. |
+| **Centre** | Chaleur persistante probable, intensité variable selon les modèles. | Encore très chaud, nuits potentiellement chaudes. | faible | GFS, ECMWF, AIFS | Sujet Semaine 34 non ouvert; les modèles divergent. |
+| **Sud-Ouest** | Prolongation de la chaleur forte, scénario de chaleur extrême incertain. | Encore très chaud, maximales potentiellement élevées. | faible | GFS, ECMWF, AIFS, ICON | Sujet Semaine 34 non ouvert; les modèles divergent. |
+| **Sud-Est et Vallée du Rhône** | Chaleur durable probable, rafraîchissement peu probable en début de semaine. | Températures encore très élevées, nuits chaudes. | faible | GFS, ECMWF, AIFS | Sujet Semaine 34 non ouvert; les modèles divergent. |
+| **Méditerranée et Corse** | Chaleur très forte persistante, surtout en journée. | Encore très chaud, nuits chaudes. | faible | GFS, ECMWF, AIFS, ICON | Sujet Semaine 34 non ouvert; les modèles divergent. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 17 et mardi 18 août** : Possible rafraîchissement au nord, chaleur persistante au sud, scénario très incertain.
-- **Mercredi 19 et jeudi 20 août** : Retour probable de la chaleur, avec une possible intensification au sud-ouest.
-- **Vendredi 21 et samedi 22 août** : Chaleur toujours présente, risque de dôme de chaleur selon GFS, à confirmer.
-- **Dimanche 23 août** : Tendance incertaine, chaleur probable au sud, possible baisse au nord.
+- **Lundi 17 et mardi 18 août** : Chaleur encore probable, surtout au sud-est; incertitude sur le nord-ouest.
+- **Mercredi 19 et jeudi 20 août** : Possible poursuite de la chaleur, voire renforcement si la remontée chaude se confirme.
+- **Vendredi 21 au dimanche 23 août** : Scénario très incertain : prolongation chaude ou amorce de dégradation.
 
 **Points solides :**
-1. Chaleur persistante au sud-est avec un risque de canicule prolongée.
-2. Incertitude majeure sur le scénario de la semaine, avec des modèles très divergents.
-3. Risque de sécheresse de surface et de stress hydrique en augmentation.
+- Sujet Semaine 34 non ouvert => incertitude forte.
+- Tendance longue durée : chaleur encore présente.
+- Sud-est plus exposé.
 
 **Points fragiles :**
-1. Toutes les projections long terme sont très incertaines, aucune fiabilité.
-2. Scénario de dôme de chaleur évoqué mais non confirmé.
-3. Date et intensité du rafraîchissement totalement incertaines.
+- Tous les détails après le 17 août.
+- Scénario ICON vs GFS.
+- Pas de discussion forum dédiée.
 
 **À surveiller (prochains runs) :**
-Ouverture du sujet Semaine 34 prévue lundi 10 août. Surveiller les runs GFS et CEP 00Z/12Z pour préciser la tendance. Analyse des ensembles GEFS et CEP indispensable.
+Runs 00Z/12Z de GFS, CEP, AIFS et ICON lundi 10; ouverture du sujet Semaine 34; ensembles GEFS/ENS.
 
 
 ========================================
@@ -133,34 +132,27 @@ Ouverture du sujet Semaine 34 prévue lundi 10 août. Surveiller les runs GFS et
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Vague de chaleur majeure et durable sur l'ensemble de la France, avec un pic jeudi 13 août, un possible rafraîchissement limité au nord-ouest en fin de semaine 1, puis un retour probable de la chaleur avec une canicule persistante au sud-est en semaine 2. Les températures resteront très supérieures aux normales, avec un risque d'orages localisés.
+Chaleur exceptionnelle et durable sur la France, avec un pic probable jeudi 13 août, un possible répit relatif au nord-ouest vers le 15-16, puis un retour de la chaleur incertain mais probable en semaine 2.
 
 ### Période la plus fiable
-Semaine 1 (10-16 août) : confiance modérée, les tendances sont plus claires malgré des incertitudes sur la fin de période. Semaine 2 : confiance faible, projections long terme très incertaines.
+Semaine 1 (10-16 août) : sujet forum ouvert et bulletins officiels détaillés.
 
 ### Phénomènes récurrents
-Canicule durable et intense, orages d'évolution diurne, sécheresse de surface, chaleur nocturne élevée.
+Hauts géopotentiels subtropicaux, advections chaudes répétées, absence de vraies pauses, dôme de chaleur.
 
 ### Principales incertitudes
-1. Date et intensité du rafraîchissement en fin de semaine 1.
-2. Persistance de la canicule en semaine 2 et risque de dôme de chaleur.
-3. Risque d'orages localisés et leur intensité.
+Date et ampleur du rafraîchissement, comportement du thalweg atlantique, scénario de la semaine du 17 août.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Forte incertitude sur la date exacte du rafraîchissement en fin de semaine 1, et sur le retour de la chaleur en semaine 2. Les modèles proposent des échéances allant du 14 au 20 août.
-- **Localisation :** Incertitude sur l'extension géographique de la canicule et sur les zones qui bénéficieront d'un rafraîchissement. Le nord-ouest est le plus susceptible d'être épargné, mais rien n'est certain.
-- **Intensité :** L'intensité du pic de chaleur jeudi est assez bien modélisée (35-39°C), mais l'intensité de la chaleur en semaine 2 est très incertaine, avec un risque de dôme de chaleur évoqué par GFS.
-- **Informations manquantes :** Le sujet de la semaine 2 n'est pas encore ouvert, ce qui limite les informations disponibles. Les discussions se concentrent sur les projections long terme, avec une fiabilité réduite.
-- **Modèles sous-documentés :** ICON et GEM sont peu commentés. Les prévisions de vent et de précipitations pour la semaine 2 sont très peu documentées.
-- **Incertitudes images :** Les cartes de prévision à long terme (J+10 à J+15) sont particulièrement incertaines et sujettes à de fortes variations entre les runs. Les cartes d'ensembles montrent une dispersion importante.
+- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes. La date de bascule vers un temps plus frais est très incertaine : 14-15 août pour ICON, 16-18 pour GFS, peut-être pas avant le 20 sur le sud.
+- **Localisation :** Localisation des orages et de la limite de la chaleur en fin de semaine; le sud-est pourrait rester en marge du rafraîchissement.
+- **Intensité :** Ampleur du pic jeudi et durée des nuits chaudes; risque de records localisés non documenté.
+- **Informations manquantes :** Le vent n'est pas détaillé sur toutes les zones; précipitations rares et mal chiffrées; sujet Semaine 34 non ouvert.
+- **Modèles sous-documentés :** ICON et CMC/GEM ne sont cités qu'une fois; les ensembles GEFS/CÉP sont moins détaillés que les déterministes.
+- **Incertitudes images :** Les cartes citées ne sont pas toutes reproductibles; attention aux runs isolés, surtout après 240h.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌡️ Canicule persistante : la France sous une chaleur exceptionnelle !
-🔴 Pic attendu jeudi avec 35-39°C sur une large moitié sud.
-🔄 Rafraîchissement possible au nord-ouest en fin de semaine, mais très incertain.
-⚠️ La canicule pourrait se prolonger au sud-est en semaine 2.
-📊 Les modèles divergent fortement sur la suite.
-#Météo #Canicule #Chaleur #Prévisions
+🌡️ #Météo : la France reste sous une chaleur exceptionnelle pour la semaine du 10 au 16 août. Pic attendu jeudi, avec 35 à 38 °C sur une large moitié sud et dans l'est. Le rafraîchissement par le nord-ouest en fin de semaine est encore incertain. La semaine du 17 août pourrait rester chaude, surtout au sud-est. Prudence : les modèles divergent. #Prévisions #Canicule

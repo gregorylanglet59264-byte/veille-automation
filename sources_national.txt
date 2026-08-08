@@ -292,10 +292,18 @@ FQCT40 LFML 081605 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
+J+2 et J+3 ﻿Lundi, une très légère baisse des températures s'effectue par 
+l'Ouest pendant que les températures restent excessivement 
+chaudes sur un large quart sud-est du pays. Des orages 
+pourront apporter des cumuls de pluie localement importants 
+dans le Sud-Ouest. Le risque de passage en vigilance orange 
+pour ce phénomène est faible.
+Mardi, l'épisode caniculaire se poursuit et se renforce sur une 
+grande partie du territoire.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
+De J+4 à J+7 ﻿Les conditions caniculaires se généralisent sur la France 
+durant cette période.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -307,12 +315,12 @@ Baisse progressive des températures par l'ouest et le nord. Maintien d'un risqu
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -320,49 +328,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 8 Août 2026.
-Résumé général précédent : Vague de chaleur majeure et durable sur l'ensemble de la France, avec un pic jeudi 13, un possible rafraîchissement limité au nord-ouest en fin de semaine 1, puis un retour de la chaleur et une canicule persistante au sud-est en semaine 2. Les températures resteront très supérieures aux normales, avec un risque d'orages localisés..
+Résumé général précédent : Vague de chaleur majeure et durable sur l'ensemble de la France, avec un pic jeudi 13 août, un possible rafraîchissement limité au nord-ouest en fin de semaine 1, puis un retour probable de la chaleur avec une canicule persistante au sud-est en semaine 2. Les températures resteront très supérieures aux normales, avec un risque d'orages localisés..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule étendue, limite "sud" remontant vers le nord, orages possibles dans le sud..
+Températures attendues précédemment : Chaleur intense et durable, orages localisés d'évolution diurne, sécheresse de surface..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Effectivement je suis d'accord avec les derniers posts, les modèles sembent avoir du mal a mettre fin cette VDC quasi permanente dans certaines régions et notamment dans le sud-est, les facteurs tels que la sécheresse des sols, la températures anormament chaude de la méditerranéee et de l'atlantique semblent compliquer les modélisations .
-	Mercredi,  les hautes pressions s'étendent de l'atlantique au sud de la Scandinavie et les valeurs les plus élevées en Europe du nord-est constituent un blocage à toute progression du flux atlantique vers a France :
-	Vendredi,  les hautes pressions présentes au sud de la Scandinavie pourraient s'évacuer vers l'est ce qui permettrait de débloquer un peu la synoptique mais sans qu'on sache encore si le fux va pouvoir s'orienter d'une manière plus méridienne sur la France ou si les hautes pressions resteront trop présentes et ne permettrons pas la moindre incursion d'un talweg par exemple.
-	Sans compter qu'on est pas non plus à l'abris dune nouvelle goutte froide à l'ouest du Portugal comme envisagé par GEF :
-	Certains ensembles comme GEM et AIFS qui donnaient encore hier l'espoir d'une porte de sortie pour le sud-est semblent avoir fait machine arrière avec une moyenne à 850 Hpa qui ne veut pas décoller (ou très peu) des 20 degrés à perte de vue, :
-	GEM Marseille :
-	AIFS Marseille :
-	GEFS est légèrement plus optimiste mais rien de fou non plus, attendons l'ensemble CEP :
-	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
-	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
-	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié hier à 08:56 par petit âge glaciaire 11
-Modifié
-								8
-								4
-
-=======================
-
-Auteur: jt75
-Message:
-En cet été vingt six, notre  sort est scellé
-	La goutte d'eau de trop nous a fait accablés
-	Trop tard, les faits sont là, solides comme le roc.
-	Un seul espoir peut-être, l'affaissement de l'AMOC !
-	Sinon on pourra dire comme DANTE dans sa "divine comédie":
-	« Vous qui pénétrez ici, abandonnez toute espérance ».
-								3
-								1
-								6
-								4
-								1
-								7
-
-=======================
-
 Auteur: Krholam
 Message:
 Finalement 33⁰C c’est frais
@@ -406,7 +377,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 21 heures par Krholam
+	Modifié il y a 23 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -465,7 +436,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 11 heures par tao
+	Modifié il y a 13 heures par tao
 								6
 								1
 
@@ -511,7 +482,7 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 11 heures par Run999H
+	Modifié il y a 13 heures par Run999H
 								18
 								2
 								4
@@ -545,6 +516,7 @@ Toujours cette accentuation de la chaleur tant en intensité qu'en durée visibl
 	Certaines zones comme le littoral atlantique ouest serait touchées aussi.
 	Le phénomène semble se renforcer.
 								1
+								1
 
 =======================
 
@@ -562,7 +534,8 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 								12
 								2
 								1
-								2
+								3
+								1
 
 =======================
 
@@ -583,11 +556,11 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 6 heures par yannick68
+	Modifié il y a 8 heures par yannick68
 								4
 								2
 								1
-								4
+								5
 
 =======================
 
@@ -608,50 +581,49 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 6 heures par Krholam
+	Modifié il y a 8 heures par Krholam
 								2
 								1
 								1
 								2
+
+=======================
+
+Auteur: tao
+Message:
+Bonsoir,
+	une des confirmations de ce soir, si je m'en tiens aux déterministes qui entrent dans leur zone de pertinence, c'est que cet été sera marqué par l'absence de vraies pauses entre les advections de hauts géopotentiels subtropicaux.
+	Les rares talwegs qui ont transité de l'océan vers l'Europe occidentale ont été soit de simples griffures temporaires n'amenant que des inflexions météorologiques mineures tant au niveau température que précipitation, soit des acteurs participant au renforcement de la chaleur en cas d'isolation aux abords de la péninsule ibérique.
+	Quelle que soit la synoptique, au final les conditions météorologiques se ressemblent, pour une grande partie de notre pays, sans qu'aucune modification de circulation n'ait pu les bouleverser.
+	Pour illustrer, un GIF du modèle canadien, ça changera un peu, surtout qu'il plus fiable que son voisin ( et pas qu'en météo...)
+	On perçoit bien à travers cette animation que même en l'absence de vrai blocage comme on a pu le subir en début d'été, nous restons soumis à une circulation chaude et sèche, l'animation étant rejetée bien plus au nord.
+	Modifié il y a 24 minutes par tao
+								9
+								2
+								1
+
+=======================
+
+Auteur: _sb
+Message:
+La probabilité d'être au-dessus du Q90 M-Climate, autrement dit dans les 90% supérieurs pour la semaine du topic :
+	- températures à 2 m
+	C'est une sortie, en regardant l'évolution des simulations :
+	Le signal a été constamment très élevé : dès le 16 juillet, la probabilité d'être dans le décile supérieur dépassait déjà les 50 % !
+	- Précipitations (l'échelle des couleurs est identique) pour le décile inférieur (Q10) puisque le signal est très sec :
+	L'Europe du sud était déjà en mauvaise posture. Ce qui a évolué dans les simulations, est le nord-ouest qui passe progressivement au « rouge » alors que le signal était modérément sec. C'est probablement lié à cette histoire de thalweg moins influent qui a été remarqué plus haut.
+	Sur la planche en-dessous, on voit que l'isoligne du GH500 passe par le centre de la France du 16 juillet au 2 août puis s'élève ensuite ce qui, logiquement, est lié avec une masse d'air globale plus chaude. C'est pour la même raison que cette canicule N tend à se rallonger avec des anomalies marquées méridiennes du Jet.
+	GFS / GEFS ne dément pas :
+	Avec une circulation anormale sur la semaine, couplée avec une convergence anormale en haute altitude (non montrée), favorisant les subsidences :
+	Probabilités d'avoir plus de trois jours consécutifs avec des Tn puis des Tx &gt; au Q95 :
+	(Les trois dernières cartes sont du CPC)
+	Cette énième canicule, suivant où on habite, me paraît plus forte en intensité que ce que je supposais ces derniers jours (canicule d'intensité modérée durable). À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?
+	Modifié il y a 5 minutes par _sb
+coquilles
+								1
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Effectivement je suis d'accord avec les derniers posts, les modèles sembent avoir du mal a mettre fin cette VDC quasi permanente dans certaines régions et notamment dans le sud-est, les facteurs tels que la sécheresse des sols, la températures anormament chaude de la méditerranéee et de l'atlantique semblent compliquer les modélisations .
-	Mercredi,  les hautes pressions s'étendent de l'atlantique au sud de la Scandinavie et les valeurs les plus élevées en Europe du nord-est constituent un blocage à toute progression du flux atlantique vers a France :
-	Vendredi,  les hautes pressions présentes au sud de la Scandinavie pourraient s'évacuer vers l'est ce qui permettrait de débloquer un peu la synoptique mais sans qu'on sache encore si le fux va pouvoir s'orienter d'une manière plus méridienne sur la France ou si les hautes pressions resteront trop présentes et ne permettrons pas la moindre incursion d'un talweg par exemple.
-	Sans compter qu'on est pas non plus à l'abris dune nouvelle goutte froide à l'ouest du Portugal comme envisagé par GEF :
-	Certains ensembles comme GEM et AIFS qui donnaient encore hier l'espoir d'une porte de sortie pour le sud-est semblent avoir fait machine arrière avec une moyenne à 850 Hpa qui ne veut pas décoller (ou très peu) des 20 degrés à perte de vue, :
-	GEM Marseille :
-	AIFS Marseille :
-	GEFS est légèrement plus optimiste mais rien de fou non plus, attendons l'ensemble CEP :
-	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
-	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
-	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié hier à 08:56 par petit âge glaciaire 11
-Modifié
-								8
-								4
-
-=======================
-
-Auteur: jt75
-Message:
-En cet été vingt six, notre  sort est scellé
-	La goutte d'eau de trop nous a fait accablés
-	Trop tard, les faits sont là, solides comme le roc.
-	Un seul espoir peut-être, l'affaissement de l'AMOC !
-	Sinon on pourra dire comme DANTE dans sa "divine comédie":
-	« Vous qui pénétrez ici, abandonnez toute espérance ».
-								3
-								1
-								6
-								4
-								1
-								7
-
-=======================
-
 Auteur: Krholam
 Message:
 Finalement 33⁰C c’est frais
@@ -695,7 +667,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 21 heures par Krholam
+	Modifié il y a 23 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -754,7 +726,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 11 heures par tao
+	Modifié il y a 13 heures par tao
 								6
 								1
 
@@ -800,7 +772,7 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 11 heures par Run999H
+	Modifié il y a 13 heures par Run999H
 								18
 								2
 								4
@@ -834,6 +806,7 @@ Toujours cette accentuation de la chaleur tant en intensité qu'en durée visibl
 	Certaines zones comme le littoral atlantique ouest serait touchées aussi.
 	Le phénomène semble se renforcer.
 								1
+								1
 
 =======================
 
@@ -851,7 +824,8 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 								12
 								2
 								1
-								2
+								3
+								1
 
 =======================
 
@@ -872,11 +846,11 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 6 heures par yannick68
+	Modifié il y a 8 heures par yannick68
 								4
 								2
 								1
-								4
+								5
 
 =======================
 
@@ -897,8 +871,44 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 6 heures par Krholam
+	Modifié il y a 8 heures par Krholam
 								2
 								1
 								1
 								2
+
+=======================
+
+Auteur: tao
+Message:
+Bonsoir,
+	une des confirmations de ce soir, si je m'en tiens aux déterministes qui entrent dans leur zone de pertinence, c'est que cet été sera marqué par l'absence de vraies pauses entre les advections de hauts géopotentiels subtropicaux.
+	Les rares talwegs qui ont transité de l'océan vers l'Europe occidentale ont été soit de simples griffures temporaires n'amenant que des inflexions météorologiques mineures tant au niveau température que précipitation, soit des acteurs participant au renforcement de la chaleur en cas d'isolation aux abords de la péninsule ibérique.
+	Quelle que soit la synoptique, au final les conditions météorologiques se ressemblent, pour une grande partie de notre pays, sans qu'aucune modification de circulation n'ait pu les bouleverser.
+	Pour illustrer, un GIF du modèle canadien, ça changera un peu, surtout qu'il plus fiable que son voisin ( et pas qu'en météo...)
+	On perçoit bien à travers cette animation que même en l'absence de vrai blocage comme on a pu le subir en début d'été, nous restons soumis à une circulation chaude et sèche, l'animation étant rejetée bien plus au nord.
+	Modifié il y a 24 minutes par tao
+								9
+								2
+								1
+
+=======================
+
+Auteur: _sb
+Message:
+La probabilité d'être au-dessus du Q90 M-Climate, autrement dit dans les 90% supérieurs pour la semaine du topic :
+	- températures à 2 m
+	C'est une sortie, en regardant l'évolution des simulations :
+	Le signal a été constamment très élevé : dès le 16 juillet, la probabilité d'être dans le décile supérieur dépassait déjà les 50 % !
+	- Précipitations (l'échelle des couleurs est identique) pour le décile inférieur (Q10) puisque le signal est très sec :
+	L'Europe du sud était déjà en mauvaise posture. Ce qui a évolué dans les simulations, est le nord-ouest qui passe progressivement au « rouge » alors que le signal était modérément sec. C'est probablement lié à cette histoire de thalweg moins influent qui a été remarqué plus haut.
+	Sur la planche en-dessous, on voit que l'isoligne du GH500 passe par le centre de la France du 16 juillet au 2 août puis s'élève ensuite ce qui, logiquement, est lié avec une masse d'air globale plus chaude. C'est pour la même raison que cette canicule N tend à se rallonger avec des anomalies marquées méridiennes du Jet.
+	GFS / GEFS ne dément pas :
+	Avec une circulation anormale sur la semaine, couplée avec une convergence anormale en haute altitude (non montrée), favorisant les subsidences :
+	Probabilités d'avoir plus de trois jours consécutifs avec des Tn puis des Tx &gt; au Q95 :
+	(Les trois dernières cartes sont du CPC)
+	Cette énième canicule, suivant où on habite, me paraît plus forte en intensité que ce que je supposais ces derniers jours (canicule d'intensité modérée durable). À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?
+	Modifié il y a 5 minutes par _sb
+coquilles
+								1
+								1
