@@ -286,24 +286,16 @@ Températures minimales : similaires à la veille.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 080940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 8 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 8 août 2026 à 06H00 UTC, et évolution Faible gradient de pression proche de 1015 hPa sur le bassin. Nouvelle dépression relative proche de 1012 hPa à l'est des Pyrénées demain après-midi. 3 - Prévisions pour l'après-midi du samedi 8 août VENT : - de Port Camargue au Cap Croisette : secteur Sud-Ouest 3 à 4. - du Cap Croisette à Saint-Raphaël : secteur Sud-Est 1 à 3, devenant Variable en milieu d'après-midi, de Sud à Sud-Ouest dominant. MER : belle à peu agitée, s'atténuant progressivement belle par l'ouest. HOULE : Sud-Ouest 0.5 à 1 m à l'est de Sicié, s'amortissant progressivement par l'ouest. TEMPS : ensoleillé, parfois voilé en fin de journée à l'ouest de Fos. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 8 août au dimanche 9 août VENT : - à l'ouest de Fos : Sud-Ouest 3 à 4, revenant Sud-Est en fin de soirée. - ailleurs : Variable 1 à 3. MER : belle. HOULE : non significative. TEMPS : clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 9 août VENT : Variable 1 à 3, localement Sud-Est 2 à 4 à l'ouest de Sicié, puis s'orientant Sud-Ouest 2 à 4 à l'est de Sicié l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 9 au 10 et la journée du lundi 10 août VENT : Variable 1 à 3, s'orientant Ouest à Sud-Ouest 2 à 3 à l'est de Sicié en seconde partie de nuit, puis Sud à Sud-Ouest 2 à 4 partout en journée, localement 5 à l'est du Levant. MER : belle, devenant peu agitée à l'est du Levant l'après-midi. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 10 au 11 et la journée du mardi 11 août VENT : De Port Camargue à la Ciotat variable 2 à 3. De la Ciotat à St Raphaël Ouest à Sud-Ouest 3 à 4, parfois 5 du Levant à St Raphaël. MER : belle à peu agitée. HOULE dominante d'Ouest à Nord-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Mercredi 12 août Secteur Ouest faible à modéré. Indice de confiance : 4 sur 5 Jeudi 13 août Sud-Est faible à modéré dans le Golfe de Lion, puis Nord-Ouest faible à modéré sur le reste du domaine. Indice de confiance : 4 sur 5 Vendredi 14 août Sud-Est faible à modéré dans le Golfe de Lion, puis Secteur Nord faible à modéré sur le reste du domaine. Indice de confiance : 3 sur 5 Samedi 15 août Sud-Est faible à modéré dans le Golfe de Lion, puis Secteur Nord faible à modéré sur le reste du domaine. Indice de confiance : 2 sur 5 9 - Observations le samedi 8 août 2026 à 09H00 UTC Cap Camarat : vent Est-Sud-Est 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud 2 noeuds. Le Levant : vent Est-Sud-Est 6 noeuds, 1015 hPa en hausse. Porquerolles : vent Sud-Sud-Est 6 noeuds. Cap Couronne : vent Ouest 8 noeuds. Prochain bulletin le samedi 8 août 2026, vers 18H30 légales
+FQCT40 LFML 081605 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 8 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 8 août 2026 à 12H00 UTC, et évolution Faible gradient de pression proche de 1015 hPa sur le bassin. Nouvelle dépression relative proche de 1012 hPa à l'est des Pyrénées demain après-midi. 3 - Prévisions pour la nuit du samedi 8 août au dimanche 9 août VENT : - à l'ouest de Fos : Sud-Ouest 3 à 4, revenant Sud-Est en fin de soirée. - ailleurs : Variable 1 à 3. MER : belle. HOULE : non significative. TEMPS : clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du dimanche 9 août VENT : Variable 1 à 3, localement Sud-Est 2 à 4 à l'ouest de Sicié, puis s'orientant Sud-Ouest 2 à 3 à l'est de Sicié l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 5 - Tendance pour la nuit du 9 au 10, et la journée du lundi 10 août VENT : Variable 1 à 3, s'orientant Ouest à Sud-Ouest 2 à 4 à l'est de Sicié en seconde partie de nuit, puis Sud à Sud-Ouest 2 à 4 partout en journée, localement 5 à l'est du Levant. MER : belle, devenant peu agitée à l'est du Levant l'après-midi. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 10 au 11 et la journée du mardi 11 août VENT : De Port Camargue à la Ciotat variable 2 à 3. De la Ciotat à St Raphaël Ouest à Sud-Ouest 3 à 4, parfois 5 du Levant à St Raphaël. MER : belle à peu agitée. HOULE dominante d'Ouest à Nord-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 12 août Secteur Ouest faible à modéré. Indice de confiance : 4 sur 5 Jeudi 13 août Sud-Est faible à modéré dans le Golfe de Lion, puis Nord-Ouest faible à modéré sur le reste du domaine. Indice de confiance : 4 sur 5 Vendredi 14 août Sud-Est faible à modéré dans le Golfe de Lion, puis Secteur Nord faible à modéré sur le reste du domaine. Indice de confiance : 3 sur 5 Samedi 15 août Sud-Est faible à modéré dans le Golfe de Lion, puis Secteur Nord faible à modéré sur le reste du domaine. Indice de confiance : 2 sur 5 8 - Observations le samedi 8 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Sud-Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud 4 noeuds. Le Levant : vent Sud-Est 6 noeuds, 1015 hPa en baisse. Porquerolles : vent Sud 6 noeuds. Cap Couronne : vent Sud-Ouest 10 noeuds, mer belle, visibilité 13 milles. Prochain bulletin le dimanche 9 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Lundi, une très légère baisse des températures s'effectue par 
-l'Ouest pendant que les températures restent excessivement 
-chaudes sur un large quart sud-est du pays. Des orages 
-pourront apporter des cumuls de pluie localement importants 
-dans le Sud-Ouest. Le risque de passage en vigilance orange 
-pour ce phénomène est faible.
-Mardi, l'épisode caniculaire se poursuit et se renforce sur une 
-grande partie du territoire.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Les conditions caniculaires se généralisent sur la France 
-durant cette période.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -315,12 +307,12 @@ durant cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Neiges éternelles en Corse... 2026, le retour ?
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -330,7 +322,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin généré le Samedi 8 Août 2026.
 Résumé général précédent : Vague de chaleur majeure et durable sur l'ensemble de la France, avec un pic jeudi 13, un possible rafraîchissement limité au nord-ouest en fin de semaine 1, puis un retour de la chaleur et une canicule persistante au sud-est en semaine 2. Les températures resteront très supérieures aux normales, avec un risque d'orages localisés..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule durable, pic jeudi, orages possibles dans le sud, vent faible à modéré. (78 caractères).
+Températures attendues précédemment : Canicule étendue, limite "sud" remontant vers le nord, orages possibles dans le sud..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
@@ -390,7 +382,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 22 heures par Krholam
+	Modifié hier à 17:07 par Krholam
 								1
 								1
 								1
@@ -414,7 +406,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 19 heures par Krholam
+	Modifié il y a 21 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -433,6 +425,7 @@ il y a 16 minutes, Krholam a dit :
 	Attention à ne pas tomber dans un goût pour l’excès.
 	Lundi 10 sera sans doute le bon moment pour ouvrir les échanges concernant la semaine du 16 août en ayant divers paramètres sous le coude.
 	Je lis régulièrement avec intérêt les analyses sérieuses des intervenants sur infoclimat.
+								1
 								1
 								1
 
@@ -472,7 +465,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 9 heures par tao
+	Modifié il y a 11 heures par tao
 								6
 								1
 
@@ -518,8 +511,8 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 9 heures par Run999H
-								17
+	Modifié il y a 11 heures par Run999H
+								18
 								2
 								4
 
@@ -566,10 +559,10 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
 	et au final:
 	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
-								11
+								12
 								2
 								1
-								1
+								2
 
 =======================
 
@@ -590,8 +583,8 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 4 heures par yannick68
-								3
+	Modifié il y a 6 heures par yannick68
+								4
 								2
 								1
 								4
@@ -615,11 +608,11 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 4 heures par Krholam
+	Modifié il y a 6 heures par Krholam
 								2
 								1
 								1
-								1
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: petit âge glaciaire 11
@@ -678,7 +671,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 22 heures par Krholam
+	Modifié hier à 17:07 par Krholam
 								1
 								1
 								1
@@ -702,7 +695,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 19 heures par Krholam
+	Modifié il y a 21 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -721,6 +714,7 @@ il y a 16 minutes, Krholam a dit :
 	Attention à ne pas tomber dans un goût pour l’excès.
 	Lundi 10 sera sans doute le bon moment pour ouvrir les échanges concernant la semaine du 16 août en ayant divers paramètres sous le coude.
 	Je lis régulièrement avec intérêt les analyses sérieuses des intervenants sur infoclimat.
+								1
 								1
 								1
 
@@ -760,7 +754,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 9 heures par tao
+	Modifié il y a 11 heures par tao
 								6
 								1
 
@@ -806,8 +800,8 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 9 heures par Run999H
-								17
+	Modifié il y a 11 heures par Run999H
+								18
 								2
 								4
 
@@ -854,10 +848,10 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
 	et au final:
 	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
-								11
+								12
 								2
 								1
-								1
+								2
 
 =======================
 
@@ -878,8 +872,8 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 4 heures par yannick68
-								3
+	Modifié il y a 6 heures par yannick68
+								4
 								2
 								1
 								4
@@ -903,8 +897,8 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 4 heures par Krholam
+	Modifié il y a 6 heures par Krholam
 								2
 								1
 								1
-								1
+								2
