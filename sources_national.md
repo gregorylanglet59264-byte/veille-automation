@@ -319,18 +319,10 @@ FQCT40 LFML 080940 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Lundi, une très légère baisse des températures s'effectue par 
-l'Ouest pendant que les températures restent excessivement 
-chaudes sur un large quart sud-est du pays. Des orages 
-pourront apporter des cumuls de pluie localement importants 
-dans le Sud-Ouest. Le risque de passage en vigilance orange 
-pour ce phénomène est faible.
-Mardi, l'épisode caniculaire se poursuit et se renforce sur une 
-grande partie du territoire.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Les conditions caniculaires se généralisent sur la France 
-durant cette période.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -342,12 +334,12 @@ durant cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
+• Infoclimat Direct : Influence du cold blob sur les canicules ouest-européennes
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Espèces et variétés nouricières résistantes &#xE0; la chaleur
+• Infoclimat Direct : Du 3 ao&#xFB;t au 9 ao&#xFB;t 2026 prévisions météo semaine 32
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -355,9 +347,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 8 Août 2026.
-Résumé général précédent : Semaine : un été sec et très chaud, avec un scénario typique de dôme de chaleur ; la semaine 2 reste sous forte incertitude, mais le familier XV. d’un répit partiel puis d’un retour de la chaleur..
+Résumé général précédent : Tendance très chaude et sèche sur l'ensemble de la France, avec un pic en milieu de semaine 1, un possible répit très incertain en fin de semaine 1 et un retour de la chaleur probable en semaine 2..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Forces chaleurs durables 35-40°C, ciel très sec, averses orageuses seulement ponctuelles; la fin de semaine reste incertaine..
+Températures attendues précédemment : Canicule durable et intense sur la majorité du pays, se prolongeant au-delà de la période. Rafraîchissement très tardif ou inexistant..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
@@ -417,7 +409,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 18 heures par Krholam
+	Modifié il y a 20 heures par Krholam
 								1
 								1
 								1
@@ -441,7 +433,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 15 heures par Krholam
+	Modifié il y a 17 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -499,7 +491,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 5 heures par tao
+	Modifié il y a 7 heures par tao
 								6
 								1
 
@@ -545,7 +537,7 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 5 heures par Run999H
+	Modifié il y a 7 heures par Run999H
 								16
 								2
 								4
@@ -578,6 +570,7 @@ Message:
 Toujours cette accentuation de la chaleur tant en intensité qu'en durée visible sur le GFS et sur d'autres modèles.
 	Certaines zones comme le littoral atlantique ouest serait touchées aussi.
 	Le phénomène semble se renforcer.
+								1
 
 =======================
 
@@ -592,7 +585,9 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
 	et au final:
 	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
-								6
+								10
+								2
+								1
 								1
 
 =======================
@@ -614,10 +609,11 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 25 minutes par yannick68
+	Modifié il y a 2 heures par yannick68
+								2
+								2
 								1
-								1
-								1
+								4
 
 =======================
 
@@ -638,7 +634,9 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 9 minutes par Krholam
+	Modifié il y a 2 heures par Krholam
+								2
+								1
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
@@ -698,7 +696,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 18 heures par Krholam
+	Modifié il y a 20 heures par Krholam
 								1
 								1
 								1
@@ -722,7 +720,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 15 heures par Krholam
+	Modifié il y a 17 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -780,7 +778,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 5 heures par tao
+	Modifié il y a 7 heures par tao
 								6
 								1
 
@@ -826,7 +824,7 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 5 heures par Run999H
+	Modifié il y a 7 heures par Run999H
 								16
 								2
 								4
@@ -859,6 +857,7 @@ Message:
 Toujours cette accentuation de la chaleur tant en intensité qu'en durée visible sur le GFS et sur d'autres modèles.
 	Certaines zones comme le littoral atlantique ouest serait touchées aussi.
 	Le phénomène semble se renforcer.
+								1
 
 =======================
 
@@ -873,7 +872,9 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
 	et au final:
 	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
-								6
+								10
+								2
+								1
 								1
 
 =======================
@@ -895,10 +896,11 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 25 minutes par yannick68
+	Modifié il y a 2 heures par yannick68
+								2
+								2
 								1
-								1
-								1
+								4
 
 =======================
 
@@ -919,5 +921,7 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 9 minutes par Krholam
+	Modifié il y a 2 heures par Krholam
+								2
+								1
 								1
