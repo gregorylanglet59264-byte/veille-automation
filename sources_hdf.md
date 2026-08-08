@@ -15,44 +15,44 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 08/08/2026 09:30
+Emis le : 08/08/2026 12:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Nord est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Lille-Lesquin : température de 18 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 10 km/h, pression niveau mer 1022 hPa.
-A Dunkerque : température de 19 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 12h :
+A Lille-Lesquin : température de 24 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 30 km/h, pression niveau mer 1021 hPa.
+A Dunkerque : température de 25 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 08 :
-Le temps est ensoleillé du matin au soir.
-Vent d'Est à Nord-Est modéré, depuis la côte jusqu'au Valenciennois et au Cambrésis.
-Températures maximales : entre 26 et 28 degrés.
+• Pour cet après-midi :
+L'après-midi est ensoleillée, avec tout au plus quelques nuages très discrets.
+Vent de Nord-Est modéré, en Flandres.
+Températures maximales : dans l'intérieur comprises entre 28 et 30 degrés. 25 degrés en Flandre maritime.
 
 • Pour la nuit prochaine :
-Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
-En début de nuit, vent d'Est soufflant modérément, en Flandre maritime ; puis atténuation.
-Températures minimales : de la côte à la région lilloise de 14 à 17 degrés. 11 degrés sur l'Avesnois, le Valenciennois et le Cambrésis.
+Les étoiles sont largement visibles. Juste avant l'aurore, elles sont toutefois masquées par des nuages, sur l'Avesnois, le Valenciennois et le Cambrésis.
+En début de nuit, vent d'Est-Nord-Est modéré, en Flandre maritime ; atténuation ensuite.
+Températures minimales : dans l'intérieur entre 11 et 14 degrés. 17 degrés en Flandre maritime.
 
 • Pour demain dimanche 09 en journée et la nuit suivante :
-C'est un temps ensoleillé qui prédomine. Les quelques nuages présents en matinée, de la métropole lilloise à l'Avesnois, se dissipent en fin de journée. Pour la nuit : Le ciel est bien étoilé.
-L'après-midi et la nuit suivante, établissement d'un vent de Sud-Sud-Ouest puis Nord à Nord-Ouest, souvent modéré.
-Températures maximales pour le jour : dans l'intérieur de 31 à 33 degrés. 28 degrés en Flandre maritime. Ces températures sont au-dessus des valeurs de saison, localement très au-dessus.
-Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 15 et 17 degrés. 19 degrés en Flandre maritime.
+C'est un temps ensoleillé qui prédomine. Les quelques nuages présents en matinée, de la métropole lilloise à l'Avesnois, se dissipent en fin de journée. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Vent temporairement modéré, soufflant dans l'intérieur, en seconde partie de journée ; et en Flandres, en seconde partie de nuit.
+Températures maximales pour le jour : dans l'intérieur entre 30 et 33 degrés. 27 degrés en Flandre maritime. Ces températures sont au-dessus des valeurs de saison, localement très au-dessus.
+Températures minimales pour la nuit suivante : dans l'intérieur de 16 à 17 degrés. 20 degrés en Flandre maritime.
 
 • Pour la journée de lundi 10 et la nuit suivante :
-La journée est ensoleillée, avec tout au plus quelques nuages très discrets. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Vent de Nord virant Nord-Est, modéré, en journée et une grande partie de la nuit suivante ; puis atténuation.
-Températures maximales pour le jour : dans l'intérieur entre 26 et 29 degrés. 23 degrés en Flandre maritime.
-Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 13 et 15 degrés. 17 degrés en Flandre maritime.
+Le temps est ensoleillé du matin au soir. Pour la nuit : Le ciel est bien étoilé.
+Vent de Nord virant Nord-Est, modéré.
+Températures maximales pour le jour : de la métropole lilloise à l'Avesnois entre 27 et 29 degrés. De 24 à 25 degrés en Flandres.
+Températures minimales pour la nuit suivante : dans l'intérieur de 12 à 14 degrés. 16 degrés en Flandre maritime.
 
 • Pour la journée de mardi 11 :
-Le soleil règne en maître du matin au soir.
-Vent d'Est à Nord-Est, modéré.
-Températures maximales : dans l'intérieur de 25 à 27 degrés. 23 degrés en Flandre maritime.
+Le soleil domine largement du matin au soir.
+Vent modéré, d'Est à Nord-Est.
+Températures maximales : dans l'intérieur comprises entre 25 et 28 degrés. 23 degrés en Flandre maritime.
 
 • Pour mercredi 12 et jeudi 13 :
 Le soleil brille généreusement.
@@ -73,44 +73,44 @@ Températures minimales : en baisse dans l'intérieur.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 08/08/2026 09:30
+Emis le : 08/08/2026 12:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Pas-de-Calais est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Arras : température de 18 degrés, vent de secteur Est soufflant jusqu'à 10 km/h.
-A Boulogne-Sémaphore : température de 20 degrés, vent de secteur Sud-Est soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 12h :
+A Arras : température de 24 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 25 km/h.
+A Boulogne-Sémaphore : température de 25 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 08 :
-L'ensoleillement est excellent et le soleil règne sans partage.
-Vent d'Est virant Nord à Nord-Est, localement modéré.
-Températures maximales : comprises entre 27 et 29 degrés.
+• Pour cet après-midi :
+Le temps est ensoleillé tout l'après-midi.
+Vent de Nord à Nord-Est modéré, sur le littoral.
+Températures maximales : comprises entre 26 et 29 degrés, et 30 degrés sur le bassin minier.
 
 • Pour la nuit prochaine :
-Les étoiles sont largement visibles. Juste avant l'aurore, elles sont toutefois masquées par des nuages, sur le Ternois ainsi que de l'Arrageois au bassin minier.
-En première partie de nuit, vent d'Est, modéré par endroits ; puis faiblissant.
-Températures minimales : dans l'intérieur, mais aussi dans le Calaisis entre 12 et 15 degrés. 16 degrés sur les côtes de la Manche.
+La nuit est bien étoilée. Tout au plus quelques nuages apparaissent en fin de nuit sur la plaine d'Arras.
+En début de nuit, vent d'Est à Nord-Est, localement modéré ; ensuite atténuation.
+Températures minimales : dans l'intérieur, mais aussi dans le Calaisis de 12 à 15 degrés. 16 degrés sur les côtes de la Manche.
 
 • Pour demain dimanche 09 en journée et la nuit suivante :
-Pendant l'essentiel de la journée, le soleil est généreux. À noter cependant, sur la moitié Est du département, des nuages plus présents en matinée. Pour la nuit : Le ciel est bien étoilé.
-Vent de Sud puis secteur Nord-Ouest, modéré.
-Températures maximales pour le jour : de 30 à 33 degrés, et 34 degrés sur le bassin minier. Ces températures se situent au-dessus des valeurs normalement observées, localement très au-dessus.
-Températures minimales pour la nuit suivante : comprises entre 15 et 18 degrés.
+La journée est globalement ensoleillée. Les quelques nuages inoffensifs, le matin, sur la moitié Est du département, se dissipent à la mi-journée. Pour la nuit : Le ciel est clair toute la nuit.
+L'après-midi jusqu'en début de soirée, vent soufflant modérément dans l'intérieur, mais aussi dans le Calaisis ; en seconde partie de nuit, reprise du vent par endroits.
+Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres comprises entre 30 et 33 degrés. 28 degrés près de la Mer du Nord. Ces températures sont au-dessus des valeurs normalement observées, par endroits très au-dessus.
+Températures minimales pour la nuit suivante : de 15 à 17 degrés.
 
 • Pour la journée de lundi 10 et la nuit suivante :
-Le soleil brille sans interruption. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent modéré, de Nord tournant Est.
-Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres de 26 à 28 degrés. 23 degrés près de la Mer du Nord.
-Températures minimales pour la nuit suivante : comprises entre 13 et 16 degrés.
+Le soleil règne en maître du matin au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Vent modéré, de Nord puis Est.
+Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres entre 26 et 29 degrés. 23 degrés près de la Mer du Nord.
+Températures minimales pour la nuit suivante : dans l'intérieur, mais aussi dans le Calaisis comprises entre 11 et 14 degrés. 15 degrés sur les côtes de la Manche.
 
 • Pour la journée de mardi 11 :
-Le soleil domine largement du matin au soir.
-Vent modéré, d'Est à Nord-Est.
-Températures maximales : sur les côtes de la Manche, ainsi que dans les terres de 25 à 27 degrés. 23 degrés près de la Mer du Nord.
+Le soleil brille sans interruption.
+Etablissement, en cours d'après-midi, d'un vent de Nord-Est assez fort, près de la Mer du Nord ; atténuation ensuite.
+Températures maximales : sur les côtes de la Manche, ainsi que dans les terres entre 25 et 27 degrés. 23 degrés près de la Mer du Nord.
 
 • Pour mercredi 12 et jeudi 13 :
 Le soleil brille sans partage.
@@ -131,39 +131,39 @@ Températures minimales : en baisse sur le Ternois, de l'Arrageois au bassin min
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 08/08/2026 09:30
+Emis le : 08/08/2026 12:30
 
 Vigilance :
 Aujourd'hui et demain, le département de la Somme est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Amiens-Glisy : température de 16 degrés, vent de secteur Nord-Est soufflant jusqu'à 10 km/h, pression niveau mer 1021 hPa.
-A Cayeux-sur-Mer : température de 17 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 15 km/h.
+Aujourd'hui on observait à 12h :
+A Amiens-Glisy : température de 24 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 25 km/h, pression niveau mer 1020 hPa.
+A Cayeux-sur-Mer : température de 26 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 30 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 08 :
-Le soleil domine largement du matin au soir.
-Vent de secteur Nord-Est, localement modéré.
-Températures maximales : comprises entre 27 et 29 degrés.
+• Pour cet après-midi :
+L'après-midi est belle, le soleil est largement présent.
+Vent de Nord modéré, sur le littoral picard.
+Températures maximales : de 27 à 29 degrés.
 
 • Pour la nuit prochaine :
 La nuit est belle, le plus souvent très étoilée. Quelques nuages circulent ça et là en fin de nuit.
-Etablissement, en milieu de nuit, d'un vent d'Est modéré, sur le Doullennais ; atténuation ensuite.
-Températures minimales : de 11 à 14 degrés.
+Vent faible, variable.
+Températures minimales : entre 11 et 14 degrés, et 15 degrés sur le Doullennais.
 
 • Pour demain dimanche 09 en journée et la nuit suivante :
-Les nuages présents en matinée se font de plus en plus discrets au fil du temps. Pour la nuit : Le ciel est bien étoilé.
-Vent modéré sur la Picardie maritime, s'atténuant en milieu de période.
-Températures maximales pour le jour : de 30 à 33 degrés. Ces températures se situent au-dessus des valeurs normalement observées, localement très au-dessus.
-Températures minimales pour la nuit suivante : comprises entre 13 et 16 degrés, et 17 degrés sur le Ponthieu et le Vimeu.
+La matinée est partagée entre passages nuageux et éclaircies, mais peu à peu ces dernières s'élargissent, et l'après-midi bénéficie d'un soleil généreux. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Vent temporairement faible à modéré, soufflant dans les terres, en journée ; et sur le littoral picard, en deuxième partie de nuit.
+Températures maximales pour le jour : dans les terres comprises entre 32 et 33 degrés. 28 degrés sur le littoral picard. Ces températures sont au-dessus des valeurs normalement observées, localement bien au-dessus.
+Températures minimales pour la nuit suivante : de 15 à 17 degrés.
 
 • Pour la journée de lundi 10 et la nuit suivante :
-Le soleil brille sans interruption. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent modéré, de Nord-Nord-Ouest puis Est à Nord-Est.
-Températures maximales pour le jour : dans les terres entre 27 et 30 degrés. 25 degrés sur le littoral picard.
-Températures minimales pour la nuit suivante : entre 13 et 15 degrés.
+La journée est ensoleillée, avec tout au plus quelques nuages très discrets. Pour la nuit : Le ciel est bien étoilé.
+Vent de Nord tournant Est à Nord-Est, modéré.
+Températures maximales pour le jour : dans les terres comprises entre 28 et 30 degrés. 26 degrés sur le littoral picard.
+Températures minimales pour la nuit suivante : de 11 à 14 degrés.
 
 • Pour la journée de mardi 11 :
 Le temps est ensoleillé du matin au soir.
@@ -189,42 +189,42 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 08/08/2026 09:30
+Emis le : 08/08/2026 12:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Beauvais-Tillé : température de 18 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 10 km/h, pression niveau mer 1021 hPa.
+Aujourd'hui on observait à 12h :
+A Beauvais-Tillé : température de 25 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 30 km/h, pression niveau mer 1020 hPa.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 08 :
-Le soleil règne en maître du matin au soir.
-En fin de matinée, vent d'Est soufflant modérément, sur le pays de Bray et la Picardie verte ; puis atténuation.
-Températures maximales : de 29 à 30 degrés.
+• Pour cet après-midi :
+Le temps est ensoleillé tout l'après-midi.
+Vent faible, variable.
+Températures maximales : entre 29 et 30 degrés.
 
 • Pour la nuit prochaine :
-La soirée est bien étoilée, mais un voile nuageux se forme en seconde partie de nuit et masque les étoiles.
+La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
 Vent variable, faible.
-Températures minimales : comprises entre 11 et 14 degrés.
+Températures minimales : comprises entre 12 et 15 degrés, et 11 degrés sur le Plateau Picard.
 
 • Pour demain dimanche 09 en journée et la nuit suivante :
-La matinée est largement ensoleillée malgré quelques passages nuageux. Au fil des heures, si le ciel demeure le plus souvent lumineux, quelques nuages menaçants apparaissent. Des orages peuvent éclater avant la soirée, du Valois Multien au Noyonnais. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-L'après-midi jusqu'en début de soirée, vent s'orientant au Sud puis Ouest à Nord-Ouest, souvent modéré ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 33 et 34 degrés. Ces températures sont au-dessus des valeurs normalement observées, localement très au-dessus.
-Températures minimales pour la nuit suivante : de 14 à 16 degrés, et 12 degrés sur le Plateau Picard.
+La matinée est largement ensoleillée malgré quelques passages nuageux. Au fil des heures, si le ciel demeure le plus souvent lumineux, quelques nuages menaçants apparaissent. Des orages peuvent éclater avant la soirée, du Valois Multien au Noyonnais. Pour la nuit : Le ciel est bien étoilé.
+Vent faible à modéré sur le pays de Bray et la Picardie verte, s'atténuant en milieu de période.
+Températures maximales pour le jour : 33 degrés. Ces températures se situent au-dessus des valeurs normalement observées, localement très au-dessus.
+Températures minimales pour la nuit suivante : de 14 à 17 degrés.
 
 • Pour la journée de lundi 10 et la nuit suivante :
-L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : Le ciel est clair toute la nuit.
-L'après-midi et la nuit suivante, établissement d'un vent de Nord-Ouest tournant Nord-Est, souvent modéré.
-Températures maximales pour le jour : entre 29 et 32 degrés.
-Températures minimales pour la nuit suivante : entre 14 et 16 degrés.
+Le soleil brille sans discontinuer du matin jusqu'au soir. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+Vent modéré, d'Ouest-Nord-Ouest puis Nord-Est.
+Températures maximales pour le jour : comprises entre 31 et 32 degrés, et 28 degrés sur le pays de Bray et la Picardie verte.
+Températures minimales pour la nuit suivante : entre 12 et 14 degrés.
 
 • Pour la journée de mardi 11 :
-Le soleil brille sans interruption.
-Vent modéré, de Nord-Est.
+L'ensoleillement est excellent et le soleil règne sans partage.
+Vent de Nord-Est, modéré.
 Températures maximales : comprises entre 28 et 30 degrés.
 
 • Pour mercredi 12 et jeudi 13 :
@@ -246,44 +246,44 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 08/08/2026 09:30
+Emis le : 08/08/2026 12:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Aisne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Aulnoy-sous-Laon : température de 17 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 10 km/h.
-A Saint-Quentin : température de 18 degrés.
+Aujourd'hui on observait à 12h :
+A Aulnoy-sous-Laon : température de 25 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 15 km/h.
+A Saint-Quentin : température de 25 degrés.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 08 :
-Le temps est ensoleillé du matin au soir.
-Vent variable, faible.
+• Pour cet après-midi :
+Le soleil brille sans discontinuer toute l'après-midi.
+Vent faible, variable.
 Températures maximales : entre 28 et 31 degrés.
 
 • Pour la nuit prochaine :
 La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
-En début de nuit, vent de Nord-Nord-Est modéré, sur la Thiérache ; atténuation ensuite.
-Températures minimales : comprises entre 12 et 15 degrés, et 11 degrés sur la Champagne crayeuse.
+En début de nuit, vent de Nord-Nord-Est soufflant modérément, sur la Thiérache ; puis atténuation.
+Températures minimales : sur les trois quarts Sud du département, ainsi que sur le Vermandois entre 11 et 14 degrés. 15 degrés sur la Thiérache.
 
 • Pour demain dimanche 09 en journée et la nuit suivante :
-Le temps est parfaitement ensoleillé le matin, puis des nuages bourgeonnent. Ils deviennent menaçants, s'accompagnent parfois d'averses et des orages éclatent en cours d'après-midi sur les trois quarts Sud du département. Pour la nuit : Le ciel est en général bien dégagé durant la nuit. Il faut toutefois attendre, sur le Laonnois, que les quelques rares averses, possibles en soirée, cessent.
-Vent de Sud puis Ouest, généralement modéré, en journée ; puis atténuation.
-Températures maximales pour le jour : entre 31 et 34 degrés. Ces températures sont au-dessus des valeurs normalement observées, localement bien au-dessus.
+Le ciel est souvent voilé. En fin de journée, les nuages sont plus menaçants, des orages et des pluies sont possibles. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Vent généralement de Sud-Sud-Ouest tournant Ouest modéré, en journée ; puis s'atténuant.
+Températures maximales pour le jour : de 31 à 34 degrés. Ces températures sont au-dessus des valeurs normalement observées.
 Températures minimales pour la nuit suivante : de 14 à 17 degrés.
 
 • Pour la journée de lundi 10 et la nuit suivante :
-La journée est belle, le soleil est largement présent. Pour la nuit : Le ciel est clair toute la nuit.
-L'après-midi et la nuit suivante, établissement d'un vent de secteur Nord, modéré.
-Températures maximales pour le jour : de 29 à 32 degrés.
-Températures minimales pour la nuit suivante : comprises entre 13 et 16 degrés, et 12 degrés sur la Champagne crayeuse.
+Le soleil domine largement du matin au soir. Pour la nuit : Le ciel est clair toute la nuit.
+L'après-midi et la nuit suivante, établissement d'un vent de secteur Nord, souvent modéré.
+Températures maximales pour le jour : sur les trois quarts Sud du département, ainsi que sur le Vermandois comprises entre 30 et 33 degrés. 29 degrés sur la Thiérache.
+Températures minimales pour la nuit suivante : de 12 à 15 degrés.
 
 • Pour la journée de mardi 11 :
-Le soleil règne en maître du matin au soir.
-Vent modéré, de Nord-Est.
-Températures maximales : sur les trois quarts Sud du département de 28 à 31 degrés. Entre 26 et 27 degrés sur le Vermandois et la Thiérache.
+Le soleil est généreux tout au long de la journée.
+Vent de Nord-Est, modéré.
+Températures maximales : entre 27 et 30 degrés, et 31 degrés sur le Valois.
 
 • Pour mercredi 12 et jeudi 13 :
 Soleil et ciel bleu prédominent.
@@ -310,14 +310,17 @@ FQCT40 LFQQ 081000 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿L'épisode caniculaire se poursuit et se renforce ce week-end 
-et en début de semaine prochaine.
-Une dégradation orageuse est prévue dimanche, avec une 
-possibilité de passer en vigilance orange sur la moitié sud du 
-pays.
+J+2 et J+3 ﻿Lundi, une très légère baisse des températures s'effectue par 
+l'Ouest pendant que les températures restent excessivement 
+chaudes sur un large quart sud-est du pays. Des orages 
+pourront apporter des cumuls de pluie localement importants 
+dans le Sud-Ouest. Le risque de passage en vigilance orange 
+pour ce phénomène est faible.
+Mardi, l'épisode caniculaire se poursuit et se renforce sur une 
+grande partie du territoire.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Les conditions caniculaires se généralisent sur  la France 
+De J+4 à J+7 ﻿Les conditions caniculaires se généralisent sur la France 
 durant cette période.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
@@ -330,11 +333,11 @@ durant cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
-• Infoclimat Direct : Influence du cold blob sur les canicules ouest-européennes
 • Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Influence du cold blob sur les canicules ouest-européennes
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -343,63 +346,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 8 Août 2026.
-Résumé général HDF précédent : Canicule persistante sur les Hauts-de-France, avec un pic de chaleur du 12 au 15 août, un léger répit les 17-18, puis un retour de la chaleur. Aucune pluie significative à l'horizon..
+Résumé général HDF précédent : Canicule persistante sur les Hauts-de-France avec un pic de chaleur du 12 au 15 août, un bref rafraîchissement le 16-17 août, puis un retour probable de la chaleur dès le 18-19 août. Aucune pluie significative à l'horizon, avec une sécheresse des sols qui s'aggrave..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Retour d'un flux de nord-ouest, baisse de 3 à 4°C, ciel voilé, possibilité d'averses côtières..
+Températures attendues précédemment : Chaleur intense prolongée, avec des maximales de 31 à 34°C sur l'intérieur des Hauts-de-France jusqu'à la mi-août..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Krholam
-Message:
-La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un balayage général par un Thalweg venu de l’ouest à juste un flechissent du flux en NO
-	"rafraichissant le nord" mais laissant le sud dans des conditions brulante
-	Malheureusement j’arrive pas à avoir les diagrammes ensembliste au dela de 190h pour le 0z.
-	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
-	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
-	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié hier à 06:29 par Krholam
-Avancée du 0z CEP et AIFS
-								1
-
-=======================
-
-Auteur: bernardt60
-Message:
-Il y a 9 heures, Run999H a dit :
-			Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafraîchissements !
-			Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
-			Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
-			Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
-	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
-	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
-								6
-								1
-								2
-
-=======================
-
-Auteur: Run999H
-Message:
-Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de canicule à compter de mercredi sauf pour le sud-est qui subit une canicule unique depuis presque 1,5 mois. 
-	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
-	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
-	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
-								12
-								2
-								2
-
-=======================
-
-Auteur: sebb
-Message:
-D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié hier à 08:18 par sebb
-								6
-								1
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Effectivement je suis d'accord avec les derniers posts, les modèles sembent avoir du mal a mettre fin cette VDC quasi permanente dans certaines régions et notamment dans le sud-est, les facteurs tels que la sécheresse des sols, la températures anormament chaude de la méditerranéee et de l'atlantique semblent compliquer les modélisations .
@@ -448,7 +400,7 @@ Auteur: Plancher
 Message:
 Le run de 12 Z de GFS accentue un peu ses prévisions, il me semble. Un peu plus chaud un peu plus longtemps, ce jusqu'à la fin du topic.
 	Ça n'en finira donc jamais...
-								2
+								3
 
 =======================
 
@@ -456,7 +408,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 16 heures par Krholam
+	Modifié il y a 18 heures par Krholam
 								1
 								1
 								1
@@ -480,7 +432,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 13 heures par Krholam
+	Modifié il y a 15 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -538,7 +490,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 3 heures par tao
+	Modifié il y a 5 heures par tao
 								6
 								1
 
@@ -584,8 +536,8 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 3 heures par Run999H
-								14
+	Modifié il y a 5 heures par Run999H
+								16
 								2
 								4
 
@@ -604,62 +556,83 @@ Il y a 18 heures, jt75 a dit :
 	Avis certes éclairé, n'ignorant pas les choses
 	Vers la fin de l'AMOC, vous orientez la prose
 	Possible consequence...A moins qu'elle soit la cause ?
-								1
+								3
 								2
+								1
 								7
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Toujours cette accentuation de la chaleur tant en intensité qu'en durée visible sur le GFS et sur d'autres modèles.
+	Certaines zones comme le littoral atlantique ouest serait touchées aussi.
+	Le phénomène semble se renforcer.
+
+=======================
+
+Auteur: Virgile
+Message:
+Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (après celle de début juillet) si on combine intensité + durée + extension géographique.
+	Le pic aurait lieu jeudi avec tout le territoire sous la canicule. Canicule qui continuerait week end compris, un peu moins chaud dans le nord ouest à partir de vendredi avec un petit flux de nord est.
+	On arrive à compter le nombre de jours jusqu'au 15 septembre  ou regarder l'éphéméride pour voir combien on perd pas jour de minutes de soleil.
+	Pas de jaloux, ca serait quasi tout le continent européen sou la chaleur :
+	Dans les années 2000/2010, les modèles numériques nous voyaient en hiver de grosses vagues de froid entre 240 et 384 heures. Celles ci disparaissaient quand l'échéance se rapprochait ou celles qui passaient était amoindries.
+	Les derniers hivers, les modèles numériques ne voyaient même plus de vague de froid comme ils avaient assimilé le RC.
+	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
+	et au final:
+	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
+								6
+								1
+
+=======================
+
+Auteur: yannick68
+Message:
+il y a 14 minutes, Virgile a dit :
+			Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (après celle de début juillet) si on combine intensité + durée + extension géographique.
+			Le pic aurait lieu jeudi avec tout le territoire sous la canicule. Canicule qui continuerait week end compris, un peu moins chaud dans le nord ouest à partir de vendredi avec un petit flux de nord est.
+			On arrive à compter le nombre de jours jusqu'au 15 septembre  ou regarder l'éphéméride pour voir combien on perd pas jour de minutes de soleil.
+			Pas de jaloux, ca serait quasi tout le continent européen sou la chaleur :
+			Dans les années 2000/2010, les modèles numériques nous voyaient en hiver de grosses vagues de froid entre 240 et 384 heures. Celles ci disparaissaient quand l'échéance se rapprochait ou celles qui passaient était amoindries.
+			Les derniers hivers, les modèles numériques ne voyaient même plus de vague de froid comme ils avaient assimilé le RC.
+			C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
+			et au final:
+			pour au final, de la chaleur, de la chaleur et encore de la chaleur.
+	Exactement pour les minutes de soleil qu’on perd chaque jour… j’en suis rendu à comparer pour chez moi : aujourd’hui, dans 15 jours et dans 1 mois 😅
+	Aujourd’hui : 6h17 – 20h53
+	Dans 15 jours : 6h35 – 20h29
+	Dans 1 mois : 6h58 – 19h56
+	J’ai hâte… mais vraiment hâte !
+	Modifié il y a 25 minutes par yannick68
+								1
+								1
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 31 minutes, Virgile a dit :
+			Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (après celle de début juillet) si on combine intensité + durée + extension géographique.
+			Le pic aurait lieu jeudi avec tout le territoire sous la canicule. Canicule qui continuerait week end compris, un peu moins chaud dans le nord ouest à partir de vendredi avec un petit flux de nord est.
+			On arrive à compter le nombre de jours jusqu'au 15 septembre  ou regarder l'éphéméride pour voir combien on perd pas jour de minutes de soleil.
+			Pas de jaloux, ca serait quasi tout le continent européen sou la chaleur :
+			Dans les années 2000/2010, les modèles numériques nous voyaient en hiver de grosses vagues de froid entre 240 et 384 heures. Celles ci disparaissaient quand l'échéance se rapprochait ou celles qui passaient était amoindries.
+			Les derniers hivers, les modèles numériques ne voyaient même plus de vague de froid comme ils avaient assimilé le RC.
+			C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
+			et au final:
+			pour au final, de la chaleur, de la chaleur et encore de la chaleur.
+	AIFS qui est en train de sortir est un peu moins bouillant que GEFS.
+	Après, si on compare le 0z au 6z c'est un peu plus "encourageant" sur un point (je déborde vite faut au 17)
+	Le pic de jeudi serait beaucoup plus fort 
+	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
+	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
+	Modifié il y a 9 minutes par Krholam
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Krholam
-Message:
-La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un balayage général par un Thalweg venu de l’ouest à juste un flechissent du flux en NO
-	"rafraichissant le nord" mais laissant le sud dans des conditions brulante
-	Malheureusement j’arrive pas à avoir les diagrammes ensembliste au dela de 190h pour le 0z.
-	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
-	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
-	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié hier à 06:29 par Krholam
-Avancée du 0z CEP et AIFS
-								1
-
-=======================
-
-Auteur: bernardt60
-Message:
-Il y a 9 heures, Run999H a dit :
-			Ce qui me désole peut-être le plus, c’est de voir le caractère de nos rafraîchissements !
-			Quand je vois que Dax ou Bordeaux sur les 2-3 derniers jours se tapent des Tn autour de 20° et des Tx proches voire supérieures à 30°, qu’on a pourtant le passage d’un faible front qui apporte de la bruine par 27° et que le vent de nord-ouest humide est bien établit… 
-			Voilà à quoi ressemblent nos rafraîchissements océaniques aujourd’hui. Ça ne nous ramène même pas à des valeurs de saison, on reste 2-3° au-dessus des normales. Compte tenu des anomalies dans l’océan, pas de miracle mais on a presque l’impression d’un climat méditerranéen en Aquitaine cette année. 
-			Du coup, ces possibles rafraîchissements du long terme me paraissent comme des mirages. On va se taper une nouvelle semaine caniculaire sur les 3/4 du pays. Ça va chauffer notre territoire mais aussi nos mers et océans et ça rajoutera de la difficulté à retrouver des valeurs de saison même en flux océanique… un vrai cercle vicieux qui va mettre bien du temps à se tarir vu l’ampleur des dégâts actuellement. 
-	C'est exactement la remarque que je me suis faite ici aussi lorsque le flux a basculé à l'ouest après le passage du pseudo front froid mardi.
-	Et effectivement le soit disant retrait des hauts géopotentiels vers l’Atlantique parait bien timide ce matin pour envisager une véritable porte de sortie, même si on considère que les déterministes GFS et AIFS sont plutôt dans le haut du panel des ensembles  !
-	EDIT: D'ailleurs si on prend le diagramme de Bourges, on ne peut pas dire que les déterministes sont vraiment dans le haut du panel pour la semaine qui nous concerne:
-								6
-								1
-								2
-
-=======================
-
-Auteur: Run999H
-Message:
-Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de canicule à compter de mercredi sauf pour le sud-est qui subit une canicule unique depuis presque 1,5 mois. 
-	A très peu de choses près, c’est même à compter de demain que ce nouvel épisode se met en place pour un tiers sud et quart sud-ouest. Le retour des 35 à 38° dans le sud-ouest samedi, autour des 35° dimanche. Lundi, on respirera par des Tx autour des 30° avant le retour des valeurs entre 35° et 40° pour le restant de la semaine (vendredi a minima). Un jour de répit qui nous fait sortir d’une canicule stricte mais dans les faits… 
-	Toujours une lueur d’espoir pour la moitié nord à compter de la fin de semaine, faible lueur d’espoir pour la moitié sud mais quand je vois UKMO… bon… 
-	08° à 10° d’anomalie + à 850hpa en moyenne sur la semaine pour le pays. Des HG très élevés pour l’ensemble de la semaine… ça sent la semaine pleinement caniculaire sur la moitié sud, probablement en partie pour la moitié nord avec les côtes de la Manche plus épargnées globalement. Sec sec et sec à partir de mardi, espérons une dégradation orageuse généreuse ce dimanche et lundi. 
-								12
-								2
-								2
-
-=======================
-
-Auteur: sebb
-Message:
-D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié hier à 08:18 par sebb
-								6
-								1
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Effectivement je suis d'accord avec les derniers posts, les modèles sembent avoir du mal a mettre fin cette VDC quasi permanente dans certaines régions et notamment dans le sud-est, les facteurs tels que la sécheresse des sols, la températures anormament chaude de la méditerranéee et de l'atlantique semblent compliquer les modélisations .
@@ -708,7 +681,7 @@ Auteur: Plancher
 Message:
 Le run de 12 Z de GFS accentue un peu ses prévisions, il me semble. Un peu plus chaud un peu plus longtemps, ce jusqu'à la fin du topic.
 	Ça n'en finira donc jamais...
-								2
+								3
 
 =======================
 
@@ -716,7 +689,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 16 heures par Krholam
+	Modifié il y a 18 heures par Krholam
 								1
 								1
 								1
@@ -740,7 +713,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 13 heures par Krholam
+	Modifié il y a 15 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -798,7 +771,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des hauts géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 3 heures par tao
+	Modifié il y a 5 heures par tao
 								6
 								1
 
@@ -844,8 +817,8 @@ Message:
 	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
 	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
 	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié il y a 3 heures par Run999H
-								14
+	Modifié il y a 5 heures par Run999H
+								16
 								2
 								4
 
@@ -864,6 +837,78 @@ Il y a 18 heures, jt75 a dit :
 	Avis certes éclairé, n'ignorant pas les choses
 	Vers la fin de l'AMOC, vous orientez la prose
 	Possible consequence...A moins qu'elle soit la cause ?
-								1
+								3
 								2
+								1
 								7
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Toujours cette accentuation de la chaleur tant en intensité qu'en durée visible sur le GFS et sur d'autres modèles.
+	Certaines zones comme le littoral atlantique ouest serait touchées aussi.
+	Le phénomène semble se renforcer.
+
+=======================
+
+Auteur: Virgile
+Message:
+Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (après celle de début juillet) si on combine intensité + durée + extension géographique.
+	Le pic aurait lieu jeudi avec tout le territoire sous la canicule. Canicule qui continuerait week end compris, un peu moins chaud dans le nord ouest à partir de vendredi avec un petit flux de nord est.
+	On arrive à compter le nombre de jours jusqu'au 15 septembre  ou regarder l'éphéméride pour voir combien on perd pas jour de minutes de soleil.
+	Pas de jaloux, ca serait quasi tout le continent européen sou la chaleur :
+	Dans les années 2000/2010, les modèles numériques nous voyaient en hiver de grosses vagues de froid entre 240 et 384 heures. Celles ci disparaissaient quand l'échéance se rapprochait ou celles qui passaient était amoindries.
+	Les derniers hivers, les modèles numériques ne voyaient même plus de vague de froid comme ils avaient assimilé le RC.
+	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
+	et au final:
+	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
+								6
+								1
+
+=======================
+
+Auteur: yannick68
+Message:
+il y a 14 minutes, Virgile a dit :
+			Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (après celle de début juillet) si on combine intensité + durée + extension géographique.
+			Le pic aurait lieu jeudi avec tout le territoire sous la canicule. Canicule qui continuerait week end compris, un peu moins chaud dans le nord ouest à partir de vendredi avec un petit flux de nord est.
+			On arrive à compter le nombre de jours jusqu'au 15 septembre  ou regarder l'éphéméride pour voir combien on perd pas jour de minutes de soleil.
+			Pas de jaloux, ca serait quasi tout le continent européen sou la chaleur :
+			Dans les années 2000/2010, les modèles numériques nous voyaient en hiver de grosses vagues de froid entre 240 et 384 heures. Celles ci disparaissaient quand l'échéance se rapprochait ou celles qui passaient était amoindries.
+			Les derniers hivers, les modèles numériques ne voyaient même plus de vague de froid comme ils avaient assimilé le RC.
+			C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
+			et au final:
+			pour au final, de la chaleur, de la chaleur et encore de la chaleur.
+	Exactement pour les minutes de soleil qu’on perd chaque jour… j’en suis rendu à comparer pour chez moi : aujourd’hui, dans 15 jours et dans 1 mois 😅
+	Aujourd’hui : 6h17 – 20h53
+	Dans 15 jours : 6h35 – 20h29
+	Dans 1 mois : 6h58 – 19h56
+	J’ai hâte… mais vraiment hâte !
+	Modifié il y a 25 minutes par yannick68
+								1
+								1
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 31 minutes, Virgile a dit :
+			Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (après celle de début juillet) si on combine intensité + durée + extension géographique.
+			Le pic aurait lieu jeudi avec tout le territoire sous la canicule. Canicule qui continuerait week end compris, un peu moins chaud dans le nord ouest à partir de vendredi avec un petit flux de nord est.
+			On arrive à compter le nombre de jours jusqu'au 15 septembre  ou regarder l'éphéméride pour voir combien on perd pas jour de minutes de soleil.
+			Pas de jaloux, ca serait quasi tout le continent européen sou la chaleur :
+			Dans les années 2000/2010, les modèles numériques nous voyaient en hiver de grosses vagues de froid entre 240 et 384 heures. Celles ci disparaissaient quand l'échéance se rapprochait ou celles qui passaient était amoindries.
+			Les derniers hivers, les modèles numériques ne voyaient même plus de vague de froid comme ils avaient assimilé le RC.
+			C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
+			et au final:
+			pour au final, de la chaleur, de la chaleur et encore de la chaleur.
+	AIFS qui est en train de sortir est un peu moins bouillant que GEFS.
+	Après, si on compare le 0z au 6z c'est un peu plus "encourageant" sur un point (je déborde vite faut au 17)
+	Le pic de jeudi serait beaucoup plus fort 
+	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
+	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
+	Modifié il y a 9 minutes par Krholam
+								1
