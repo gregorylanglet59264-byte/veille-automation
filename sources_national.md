@@ -324,9 +324,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 8 Août 2026.
-Résumé général précédent : Poursuite d'un épisode de canicule exceptionnel sur la France, avec un blocage anticyclonique persistant, des températures très au-dessus des normales et un temps très sec. Un rafraîchissement incertain est possible pour la moitié nord en fin de première semaine, mais sans retour à des valeurs de saison..
+Résumé général précédent : Poursuite d'une anomalie chaude très marquée sur la France, avec un possible léger fléchissement au nord entre le 15 et le 18 août. La moitié sud devrait rester très chaude. La semaine 2 s'annonce encore au-dessus des normales, sans signal fiable de retour à la normale..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule généralisée, orages isolés en début de semaine, vent faible à modéré..
+Températures attendues précédemment : Très chaud, sec, orages isolés possibles en début et fin de période..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
@@ -356,7 +356,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 19 heures par Krholam
+	Modifié il y a 21 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -393,7 +393,7 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 Auteur: sebb
 Message:
 D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié il y a 17 heures par sebb
+	Modifié il y a 19 heures par sebb
 								6
 								1
 
@@ -412,7 +412,7 @@ Effectivement je suis d'accord avec les derniers posts, les modèles sembent avo
 	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
 	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
 	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié il y a 17 heures par petit âge glaciaire 11
+	Modifié il y a 19 heures par petit âge glaciaire 11
 Modifié
 								8
 								4
@@ -455,7 +455,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 8 heures par Krholam
+	Modifié il y a 10 heures par Krholam
 								1
 								1
 								1
@@ -478,7 +478,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 5 heures par Krholam
+	Modifié il y a 7 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -535,7 +535,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des haut géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 5 heures par tao
+	Modifié il y a 7 heures par tao
 								4
 								1
 
@@ -589,7 +589,7 @@ La sortie est très laborieuse sur le det 0z de GEFS ce matin. On passe d’un b
 	Ça peut encore beaucoup bouger, cette "sortie" vu par les modele est quand meme sur +192h. Gefs nous montrant ce matin qu’elle n’est pas totalement acquise.
 	À voir ce que donne CEP et AIFS actuellement en cours de sortie ainsi que les ensemblistes.
 	Edit : Terrible les 0z de CEP et AIFS qui arrivent ....
-	Modifié il y a 19 heures par Krholam
+	Modifié il y a 21 heures par Krholam
 Avancée du 0z CEP et AIFS
 								1
 
@@ -626,7 +626,7 @@ Autre constat, on parle d’un nouvel épisode de forte chaleur voire plutôt de
 Auteur: sebb
 Message:
 D'ailleurs l'image satellite entre déjà clairement en complément des modélisations, et c'est cette situation qui va bloquer à l'arrière de cette dépression en comblement pour notre échéance, d'où la chaleur arrivant en 2 temps.
-	Modifié il y a 17 heures par sebb
+	Modifié il y a 19 heures par sebb
 								6
 								1
 
@@ -645,7 +645,7 @@ Effectivement je suis d'accord avec les derniers posts, les modèles sembent avo
 	Dans le nord et notamment à Paris par contre la baisse assez nette des températures qui pourrait s'amorcer vendredi semble toujours d'actulaité pour l'américain
 	Pour le topic rien à espérer et pour le prochain rien n'est encore acquit.
 	A noter quand même des possibilités de quelques pluies dans le sud modélisées par GFS,  sous forme d'orage ?
-	Modifié il y a 17 heures par petit âge glaciaire 11
+	Modifié il y a 19 heures par petit âge glaciaire 11
 Modifié
 								8
 								4
@@ -688,7 +688,7 @@ Auteur: Krholam
 Message:
 Ah bah GFS se dit que finalement y’en aura pour tout le monde.
 	La limite "sud" remonte sacrément
-	Modifié il y a 8 heures par Krholam
+	Modifié il y a 10 heures par Krholam
 								1
 								1
 								1
@@ -711,7 +711,7 @@ Il y a 2 heures, sartel a dit :
 	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
 	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié il y a 5 heures par Krholam
+	Modifié il y a 7 heures par Krholam
 La canicule m’emballe. Modération de mes propos
 								2
 
@@ -768,7 +768,7 @@ Bonsoir,
 	quelles que soient les conditions cet été, il ne faut pas oublier de remettre les déterministes dans leurs ensembles. 
 	C'est trop facile de tirer au sort un run et dire, proclamer que tel ou tel modèle a raison ou tort. 
 	Il est bien plus intéressant de mesurer l'empreinte des haut géopotentiels qui s'entend vers le nord en lien avec l'avancement du réchauffement climatique. 
-	Modifié il y a 5 heures par tao
+	Modifié il y a 7 heures par tao
 								4
 								1
 
