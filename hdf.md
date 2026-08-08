@@ -1,127 +1,124 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Samedi 8 Août 2026
-**Période :** Semaine 1 (Du lundi 10 août au dimanche 16 août 2026 (Semaine 33)) & Semaine 2 (⚠️ Du lundi 17 août au dimanche 23 août 2026. Le sujet spécifique de la Semaine 34 n'est pas encore ouvert sur le forum Infoclimat. Cette analyse s'appuie sur les projections à long terme extraites du sujet Semaine 33.)
+**Période :** Semaine 1 (Du Lundi 10 au Dimanche 16 Août 2026) & Semaine 2 (Du Lundi 17 au Dimanche 23 Août 2026)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Semaine 1 bien cernée, semaine 2 très incertaine faute de sujet dédié.*
-- **Fiabilité du scénario majoritaire :** Canicule durable puis répit imparfait — *Scénario médian GFS/CEP : rafraîchissement modéré à faible, puis retour rapide de la chaleur.*
+- **Consensus des modèles :** Élevé — *Tous les modèles s'accordent sur une canicule marquée en semaine 1, avec un temps sec et ensoleillé.*
+- **Fiabilité du scénario majoritaire :** Canicule prolongée — *Le scénario le plus probable est une canicule qui se prolonge au-delà du 16 août, avec un répit très court ou inexistant.*
 - **Stabilité des cartes/scénarios :** 6 / 208 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Forte en semaine 2 — *Pas de discussions dédiées, runs volatils, aucune dégradation fiable à J+10.*
+- **Niveau d'incertitude global :** Modérée — *L'incertitude principale concerne la fin de période, avec des divergences entre modèles sur la date de rupture.*
 
-## 🗓️ SEMAINE 1 : Du lundi 10 août au dimanche 16 août 2026 (Semaine 33)
+## 🗓️ SEMAINE 1 : Du Lundi 10 au Dimanche 16 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Chaleur qui s'installe : Après un lundi plus respirable, la chaleur revient dès mercredi avec un pic jeudi/vendredi sur les Hauts-de-France.
-2. Pic caniculaire : Jeudi 13 et vendredi 14, 33 à 37°C possibles dans l'intérieur, 30°C sur le littoral.
-3. Soleil et sécheresse : Aucune pluie significative attendue, le déficit hydrique et la sécheresse de surface se renforcent.
-4. Fin de semaine incertaine : La sortie de la canicule est débattue entre GFS, CEP et AIFS pour dimanche 16.
-5. Nuits douces : Les minimales dépasseront souvent 16-18°C, limitant le rafraîchissement nocturne.
+1. Canicule durable : Poursuite de la vague de chaleur avec un pic attendu entre mercredi 12 et vendredi 14 août sur l'ensemble des Hauts-de-France.
+2. Soleil généreux : Conditions largement ensoleillées et sèches sur toute la région, avec un ciel dégagé chaque jour.
+3. Températures excessives : Maximales pouvant atteindre 33-37°C dans l'intérieur, minimales tropicales en fin de semaine.
+4. Rafraîchissement incertain : Possibilité d'un léger répit en fin de période (16 août) mais très incertain, particulièrement sur le littoral.
+5. Sécheresse de surface : Accentuation du déficit hydrique avec des sols très secs, favorisant la poussière et la végétation en stress.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-• Pic caniculaire jeudi 13 et vendredi 14, avec 33-36°C dans l'intérieur HDF et 30°C environ sur le littoral.
-• Temps sec et ensoleillé; pluies rares, sécheresse de surface qui s'accentue.
-• Rafraîchissement possible en fin de période (16-17 août), mais modéré et non durable.
+- Tous les modèles s'accordent sur une semaine très chaude et ensoleillée jusqu'au 14-15 août inclus.
+- Pic de chaleur maximal attendu entre mercredi 12 et vendredi 14, avec des températures dépassant 33°C dans l'intérieur.
+- Absence de précipitations significatives sur la semaine, avec un temps sec et stable.
 **Points de divergence :**
-• Date de sortie de la canicule : 15/16 août pour CEP/AIFS/ICON, 18 août pour GFS.
-• Intensité de la chaleur : GFS/GEFS plus brûlants, CEP/AIFS un peu moins marqués.
-• Position du thalweg : dégradation atlantique plus ou moins active, avec risque de cut-off au lieu d'un vrai rafraîchissement.
+- La date de la "porte de sortie" varie : ICON propose le 14-15, CEP le 16, GFS le 18 août.
+- L'intensité du rafraîchissement en fin de semaine est incertaine : modéré pour ICON/AIFS, nul pour GFS.
+- Le comportement du littoral le 16 août reste flou : averses possibles selon certains modèles, soleil pour d'autres.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS / GEFS** (Confirmé par les membres pour la semaine 1.) | Dôme de chaleur persistant, pic jeudi 13-vendredi 14, porte de sortie repoussée au 18/08 pour le nord, chaleur encore plus marquée et durable. | Soleil, canicule, Tx 33-37°C intérieur, 30°C littoral, nuits douces, aucune pluie. | Toute la France; HDF intérieur plus exposé, littoral moins chaud. | Élevée (80-90%) - modèle largement commenté pour le Nord/HDF. | Le run 12Z accentue la chaleur en intensité et durée ; la limite sud de la chaleur remonte vers le nord. La moyenne d'ensemble reste plus prudente que les runs déterministes. |
-| **CEP / ECMWF** (En cours d'interprétation.) | Porte de sortie au 16/08 pour la moitié nord, soit un peu plus tard que le 14; scénario moins brûlant que GFS, rafraîchissement limité puis remontée possible. | Soleil et chaleur jusqu'à vendredi 15; léger répit dimanche 16; pluies rares. | Nord de la France, HDF inclus; littoral plus frais. | Modérée (60-70%) - cité avec tendance pour le Nord. | Rafraîchissement plus précoce que GFS mais moins franc qu'ICON. L'ensembliste EPS n'est pas détaillé dans le topic. |
-| **AIFS (ECMWF)** (Interprété comme "entre-deux".) | Scénario "match nul" : thalweg affaibli, une partie des anomalies reste en Atlantique, cut-off possible; rafraîchissement modéré à faible en fin de semaine puis réchauffement rapide. | Encore chaud, pic jeudi, pas de vraie dégradation; soleil dominant. | HDF et moitié nord; littoral moins exposé. | Modérée (60-70%) - cité clairement pour la tendance nord. | Comparaison 0Z/6Z : pic de jeudi plus fort, mais redescente éventuellement plus franche derrière. |
-| **ICON** (Exploratoire et minoritaire.) | Thalweg plus actif : porte de sortie autour du 14/15 août du Nord au Sud, rafraîchissement plus net par l'Atlantique. | Chaleur jusqu'à jeudi, puis retour d'un temps plus frais et peut-être plus humide. | Nord de la France, HDF inclus. | Modérée (60-70%) - une mention détaillée mais unique. | "Il fait rêver" mais reste isolé; la porte de sortie proposée est plus précoce que GFS et CEP. |
-| **GEM / Canadien** (Illustratif.) | Circulation chaude et sèche rejetée bien plus au nord, sans vrai blocage; pas de pause durable malgré quelques talwegs. | Chaleur durable, pas de vrai rafraîchissement malgré talwegs. | France et Europe de l'Ouest; HDF concerné à long terme. | Faible (40-50%) - évoqué dans une analyse générale, pas spécifique HDF. | Même sans blocage, la circulation reste chaude et sèche; les talwegs ne font que des "griffures" temporaires. |
-| **M-Climate / CPC** (Appuie le scénario GFS/GEFS.) | Probabilité très élevée d'être dans le décile supérieur des températures pour la semaine; signal sec marqué, surtout au nord-ouest. | Canicule, absence de pluie, sols secs; chaleur sur la quasi-totalité de l'Europe. | Toute l'Europe; nord-ouest de la France passé au "rouge" pour la sécheresse. | Modérée (60-70%) - données probabilistes commentées par un membre. | Signal constamment très élevé depuis le 16 juillet; probabilité de décile supérieur déjà supérieure à 50 % mi-juillet. |
+| **GFS (Global Forecast System) et GEFS** (Confirmé pour la semaine 1, incertitude sur la fin de période.) | Maintien de la chaleur jusqu'à la fin de la semaine, avec un répit uniquement après le 18 août pour le nord. Dôme de chaleur persistant. | Soleil dominant, aucune pluie significative, températures très élevées. | Toute la région HDF, avec les maximales les plus fortes dans l'intérieur (Oise, Aisne, Somme). | Élevée (80-90%) - Modèle largement commenté par les membres. | GFS voit une accentuation de la chaleur, avec des anomalies de géopotentiels très marquées. La porte de sortie du 16 est décalée au 18 pour le nord, ce qui prolonge la canicule. |
+| **CEP (Modèle Européen ECMWF)** (Confirmé pour la semaine 1, incertitude sur la fin.) | Maintien de la chaleur jusqu'au 16 août pour la moitié nord, avec un léger répit ensuite. Scénario plus modéré que GFS. | Soleil dominant, aucune pluie significative, températures élevées. | Toute la région HDF, avec un rafraîchissement plus franche possible le 16. | Élevée (80-90%) - Modèle très commenté. | CEP propose un pic maximum jeudi 13, avec une redescente plus franche ensuite. Mais le modèle se rapproche de GFS sur les dernières sorties, indiquant une incertitude sur la rupture. |
+| **AIFS (Modèle IA ECMWF)** (Incertain, en phase de test.) | Scénario intermédiaire : thalweg affaibli qui lâche des anomalies en Atlantique, puis cut-off. Rafraîchissement modéré en fin de semaine. | Soleil, quelques nuages possibles le 16, pas de pluie significative. | Toute la région HDF. | Modérée (60-70%) - Mentionné mais moins détaillé. | AIFS montre un scénario où le thalweg ne parvient pas à s'imposer durablement, laissant un rafraîchissement modéré et temporaire. |
+| **ICON** (Incertain, car isolé.) | Porte de sortie plus précoce, autour du 14-15 août, avec un thalweg qui rafraîchit bien par l'Atlantique. | Soleil puis passage nuageux, possible averses sur le littoral le 16. | Toute la région HDF, avec un rafraîchissement plus marqué. | Modérée (60-70%) - Mentionné de manière plus brève. | ICON propose un scénario plus rafraîchissant, mais il est minoritaire parmi les modèles principaux. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ensoleillé et très chaud dans l'intérieur, moins sur le littoral; pic caniculaire jeudi-vendredi avec 33-35°C, 30°C en Flandre maritime; lundi 10 plus respirable (27-29°C). | Tn 11-18°C, Tx 24-35°C; pic 14-15: 33-35°C intérieur, 30°C littoral. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Nuances littoral/intérieur; évolution de la fin de semaine (16-17) dépendante d'un éventuel thalweg. |
-| **Pas-de-Calais (62)** | Beau temps sec et ensoleillé, très chaud dans les terres; 32-35°C au pic, 30°C près de la Mer du Nord; dimanche 16 passages nuageux possibles près de la Mer du Nord et Haut-Artois. | Tn 12-19°C, Tx 23-35°C; pic 14-15: 32-35°C terres, 30°C Mer du Nord. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Écarts littoral Manche/Mer du Nord vs terres; position exacte des passages nuageux de dimanche 16. |
-| **Somme (80)** | Soleil généreux et chaleur en hausse; pic 14-15 avec 33-35°C dans les terres, 29°C littoral; possible pluie sur l'Amiénois samedi 15. | Tn 11-17°C, Tx 26-35°C; pic 14-15: 33-35°C terres, 29°C littoral picard. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation précise des pluies d'Amiénois; influence de la brise littorale sur les maximales. |
-| **Oise (60)** | Temps très chaud et ensoleillé; 34-36°C possibles vendredi-samedi; orages isolés possibles dimanche 9 avant la semaine, puis temps sec. | Tn 12-17°C, Tx 28-36°C; pic 14-15: 34-36°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Échéance orageuse de dimanche 9 (en marge); retour ou non d'une dégradation samedi sur le Plateau Picard. |
-| **Aisne (02)** | Soleil très généreux, chaleur croissante; pic vendredi-samedi avec 34-37°C; lundi 10 déjà 30-33°C. | Tn 11-19°C, Tx 27-37°C; pic 14-15: 34-37°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Position exacte des orages de dimanche 9; intensité du pic (34 vs 37°C). |
+| **Nord (59)** | Temps ensoleillé et très chaud, quelques nuages possibles en fin de semaine sur la Flandre maritime | Min 14-17°C, Max 30-35°C (intérieur), 27-30°C (littoral) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur les averses du 16 sur le littoral |
+| **Pas-de-Calais (62)** | Ensoleillé, très chaud, quelques passages nuageux près de la Manche | Min 15-19°C, Max 30-35°C (intérieur), 28-30°C (côtes) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Temps pluvieux temporaire possible le 16 sur le nord du département |
+| **Somme (80)** | Beau temps ensoleillé, très chaud, risque de pluie samedi sur l'Amiénois | Min 15-17°C, Max 33-35°C (intérieur), 28-29°C (littoral) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque de pluie localisé samedi sur l'Amiénois |
+| **Oise (60)** | Ensoleillé, très chaud, orages possibles le dimanche 9 mais pas en semaine | Min 14-17°C, Max 34-36°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque de pluie localisé samedi sur le Plateau Picard |
+| **Aisne (02)** | Soleil généreux, très chaud, quelques orages possibles le dimanche 9 mais pas en semaine | Min 16-19°C, Max 34-37°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures potentiellement les plus élevées de la région |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 10 - Mardi 11 août** : Soleil généreux avec une légère baisse des températures : 27-30°C dans l'intérieur, nuit plus fraîche (11-14°C).
-- **Mercredi 12 - Jeudi 13 août** : La chaleur revient franchement : 32-35°C dans l'intérieur, 30°C sur le littoral, ciel dégagé.
-- **Vendredi 14 - Samedi 15 août** : Pic caniculaire : 33-37°C possibles dans l'intérieur, pluie possible samedi sur Amiénois et Plateau Picard.
-- **Dimanche 16 août** : Léger répit attendu, surtout sur le littoral : averses possibles en Flandre maritime, températures en baisse mais encore chaudes.
+- **Lundi 10 et mardi 11 août** : Temps chaud et ensoleillé, températures en hausse progressive, maximales 28-33°C.
+- **Mercredi 12, jeudi 13, vendredi 14 août** : Pic de canicule, maximales 33-37°C dans l'intérieur, minimales très douces.
+- **Samedi 15 août** : Chaleur toujours intense, mais risque de pluie localisé sur l'Amiénois et le Plateau Picard.
+- **Dimanche 16 août** : Possible baisse des températures, averses possibles sur le littoral, sinon encore chaud.
 
 **Points solides :**
-1. Haute pression et géopotentiels très élevés sur la moitié nord; pas de vraie dégradation avant samedi 15 au plus tôt.
-2. Nuits douces avec minimales souvent supérieures à 16°C; lundi 10 marque un léger répit nocturne.
-3. Sécheresse de surface en accentuation avec une évapotranspiration de 5 à 7 mm/jour.
+- Canicule confirmée du 10 au 15 août avec un pic très marqué jeudi 13.
+- Temps sec et ensoleillé sur toute la région, aucune précipitation significative.
+- Températures minimales très douces, voire tropicales, en seconde partie de semaine.
 
 **Points fragiles :**
-1. Arrivée du thalweg rafraîchissant les 15-16 août très fragile; GFS repousse la sortie au 18.
-2. Orages de dimanche 9 (Oise/Aisne) et pluie localisée de samedi 15 (Amiénois/Plateau Picard) restent difficiles à caler.
-3. Tendance long terme de la semaine suivante (17-23 août) encore très incertaine.
+- La date exacte du rafraîchissement : incertitude entre le 14 et le 18 août.
+- Possibilité d'averses ou d'orages isolés le dimanche 16 sur le littoral et l'Amiénois.
+- Intensité maximale de la chaleur : certains modèles voient 37°C, d'autres 35°C.
 
 **À surveiller (prochains runs) :**
-À surveiller : GFS 12Z, CEP 12Z, AIFS 12Z, GEFS/EPS, ICON 12Z. Ouverture du sujet Semaine 34 prévue lundi 10 août. Suivi des indices de chaleur et de la position du thalweg atlantique.
+- Prochaines sorties de GFS et CEP pour confirmer la date de la porte de sortie.
+- Suivi des indices de convection pour d'éventuels orages en fin de semaine.
+- Évolution de l'ITN (Indicateur Thermique National) pour surveiller une éventuelle vigilance canicule.
 
 
-## 🗓️ SEMAINE 2 : ⚠️ Du lundi 17 août au dimanche 23 août 2026. Le sujet spécifique de la Semaine 34 n'est pas encore ouvert sur le forum Infoclimat. Cette analyse s'appuie sur les projections à long terme extraites du sujet Semaine 33.
+## 🗓️ SEMAINE 2 : Du Lundi 17 au Dimanche 23 Août 2026
 ### 💡 Points clés de la semaine 2
-1. Répit fragile : Un léger répit possible les 17-18 août, mais non garanti, GFS repousse la sortie au 18.
-2. Chaleur persistante : Les projections long terme privilégient un retour rapide de la chaleur après un bref répit.
-3. Sujet non ouvert : Le topic S34 n'existe pas encore; l'analyse s'appuie sur les projections LT du topic S33.
-4. Pluies toujours rares : Aucune dégradation généralisée fiable; les orages restent une inconnue en fin de période.
-5. Sécheresse en vue : Avec 5-7 mm/j d'évapotranspiration, les sols superficiels continuent de s'assécher.
+1. Retour de la chaleur ? : Après un possible répit le 16, la chaleur pourrait revenir rapidement dès le début de semaine.
+2. Scénarios divergents : GFS voit une canicule prolongée, ICON un rafraîchissement net, les autres modèles un entre-deux.
+3. Pas de pluie en vue : Les précipitations restent très rares, accentuant la sécheresse.
+4. Vigilance sécheresse : Les sols sont très secs, une attention particulière est portée sur les nappes phréatiques.
+5. Incertitude majeure : La tendance pour cette semaine est à considérer avec prudence en raison de l'absence de données forum dédiées.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-• Un rafraîchissement au plus tôt les 16-17 août, jamais durable, est plausible.
-• La chaleur revient rapidement par le sud/sud-ouest en semaine 2.
-• Les pluies restent rares; la sécheresse de surface se poursuit.
+- Tous les modèles s'accordent sur une absence de précipitations significatives.
+- La chaleur devrait revenir rapidement après un éventuel répit.
+- Les températures resteront au-dessus des normales de saison.
 **Points de divergence :**
-• Date exacte du répit : 16 août (CEP/AIFS) vs 18 août (GFS).
-• Intensité du retour de la chaleur : modérée vs de nouveau caniculaire.
-• Possibilité d'orages en fin de semaine 2, totalement non tranchée.
+- Date du répit : 16, 17, 18 ou pas de répit du tout.
+- Intensité du retour de la chaleur : canicule ou simple temps chaud.
+- Comportement du littoral : plus frais mais toujours sec.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS / GEFS** (Exploratoire, échéance lointaine.) | La porte de sortie de la canicule est décalée au 18/08 pour le nord, avec un possible dôme de chaleur qui se reconstitue ensuite; pas de vrai rafraîchissement. | Chaleur qui perdure, soleil, sécheresse; orages possibles seulement en cas de dégradation. | HDF et moitié nord. | Modérée (60-70%) - tendance claire pour le nord, mais pas de sujet S34 dédié. | "Un peu plus chaud, un peu plus longtemps"; la limite sud de la chaleur remonte et la fin de canicule est repoussée. |
-| **CEP / ECMWF** (Exploratoire.) | Porte de sortie au 16/08 pour la moitié nord; ensuite scénario incertain, réchauffement rapide possible par le sud. | Dimanche 16-lundi 17 en baisse, puis retour probable de la chaleur. | Moitié nord, HDF inclus. | Modérée (60-70%) - mention LT dans le topic S33, pas de sujet S34. | Le rafraîchissement de la moitié nord est décalé, puis le dôme de chaleur peut s'étendre à nouveau. |
-| **AIFS (ECMWF)** (Exploratoire.) | Thalweg affaibli et cut-off possible; rafraîchissement modéré à faible, réchauffement très rapide à l'arrière. | Pas de vraie dégradation; retour de la chaleur rapide. | HDF et moitié nord. | Modérée (60-70%) - échéance LT et pas de sujet S34. | "Un peu moins bouillant que GEFS"; une redescente plus franche est possible derrière, mais pas assurée. |
-| **ICON** (Minoritaire.) | Rafraîchissement plus net par l'Atlantique dès le 14/15 août, mais scénario isolé et non représentatif du consensus. | Chaleur coupée plus tôt, possible retour d'un air plus océanique. | Nord de la France. | Modérée (60-70%) - une mention détaillée mais unique. | Scénario "rêve" pour celles et ceux qui espèrent une vraie pause, mais très incertain. |
-| **M-Climate / CPC** (Exploratoire.) | Le signal de chaleur et de sécheresse reste très élevé au-delà de la semaine 1; pas d'inversion fiable à l'échéance de la semaine 2. | Probabilité forte de températures au-dessus des normales, pluies déficitaires. | Europe de l'Ouest, nord-ouest de la France inclus. | Faible (40-50%) - évoqué pour la semaine 1, prolongement semaine 2 seulement suggéré. | "À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?" : question laissée ouverte. |
+| **Projections à long terme (GFS, CEP, AIFS, ICON)** (Très incertain, à confirmer avec les prochains sujets.) | Rafraîchissement modéré à faible en début de semaine, puis retour rapide de la chaleur. Mais grande incertitude. | Soleil dominant, quelques nuages possibles, pluie très peu probable. | Toute la région HDF. | Faible (40-50%) - Pas de sujet dédié, seulement des projections long terme. | GFS voit la chaleur se prolonger jusqu'au 18, CEP propose un répit le 16, mais tous s'accordent sur un retour rapide de la chaleur. Les températures pourraient à nouveau dépasser 30°C en fin de semaine. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Lundi 17 : variable en Flandre maritime avec averses possibles, beau sec ailleurs; ensuite incertitude entre retour rapide de la chaleur et répit prolongé. | Tn en baisse (12-16°C), Tx en baisse (25-30°C) lundi 17; retour possible 32-35°C en cours de semaine 2. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Sujet S34 non ouvert; GFS repousse la sortie au 18, CEP/AIFS voient un répit plus précoce. |
-| **Pas-de-Calais (62)** | Lundi 17 : passages nuageux avec pluie temporaire possible près de la Mer du Nord et sur le Haut-Artois, soleil ailleurs; tendance ensuite indécise. | Tn 12-17°C, Tx 23-33°C selon retour de chaleur; semaine 2 incertaine. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Forte sur 18-23 août; pas de topic S34 et échéance lointaine. |
-| **Somme (80)** | Lundi 17 : soleil sans partage, fraîchissement temporaire; possible retour de la chaleur ensuite. | Tn 11-15°C, Tx 27-33°C; incertitude au-delà. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Échéance lointaine, pas de sujet dédié Semaine 34. |
-| **Oise (60)** | Lundi 17 : beau temps sec et bien ensoleillé; retour probable de températures élevées ensuite. | Tn 12-17°C, Tx 28-35°C; incertitude. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Les modèles divergent sur la durée du répit. |
-| **Aisne (02)** | Lundi 17 : beau temps sec et bien ensoleillé; regain de chaleur probable en semaine 2. | Tn 12-18°C, Tx 29-37°C selon scénario. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Fiabilité d'un run pour le 18/08 explicitement questionnée dans le topic S33. |
+| **Nord (59)** | Temps chaud et sec, mais incertitude sur l'intensité | Min 15-18°C, Max 28-33°C (selon scénario) | moderee | ECMWF, GFS, Guillaume Séchet | Forte incertitude sur le scénario dominant |
+| **Pas-de-Calais (62)** | Chaud et sec, possible influence maritime | Min 14-17°C, Max 26-31°C (selon scénario) | moderee | ECMWF, GFS, Guillaume Séchet | Forte incertitude sur le scénario dominant |
+| **Somme (80)** | Chaud et sec, soleil dominant | Min 15-18°C, Max 29-34°C (selon scénario) | moderee | ECMWF, GFS, Guillaume Séchet | Forte incertitude sur le scénario dominant |
+| **Oise (60)** | Chaud et sec, risque de chaleur plus intense | Min 16-19°C, Max 30-35°C (selon scénario) | moderee | ECMWF, GFS, Guillaume Séchet | Forte incertitude sur le scénario dominant |
+| **Aisne (02)** | Chaud et sec, possible canicule | Min 16-19°C, Max 30-36°C (selon scénario) | moderee | ECMWF, GFS, Guillaume Séchet | Forte incertitude sur le scénario dominant |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 17 - Mardi 18 août** : Léger répit attendu, températures en baisse, averses possibles sur le littoral Nord/Pas-de-Calais, puis hésitation des modèles.
-- **Mercredi 19 - Vendredi 21 août** : Le dôme de chaleur pourrait se reconstituer : 32-35°C possibles, soleil, sécheresse persistante.
-- **Samedi 22 - Dimanche 23 août** : Scénarios très divergents : GFS prolonge la chaleur, CEP/AIFS plus nuancés, orages possibles seulement en cas de dégradation.
-- **Dimanche 23 août 2026** : Échéance trop lointaine, aucune tendance fiable ne se dégage sans sujet dédié et sans runs stabilisés.
+- **Lundi 17 et mardi 18 août** : Possible baisse des températures, mais toujours sec et ensoleillé.
+- **Mercredi 19 et jeudi 20 août** : Remontée progressive des températures, retour de la chaleur.
+- **Vendredi 21, samedi 22, dimanche 23 août** : Chaleur importante, possiblement caniculaire, temps sec.
 
 **Points solides :**
-1. Sujet S34 non ouvert : aucune discussion dédiée disponible, aucune prévision forum exploitable pour la semaine 2.
-2. Les projections LT s'accordent sur un rafraîchissement modéré à faible, puis un retour rapide de la chaleur.
-3. Le dôme de chaleur reste la trame de fond de l'été 2026.
+- Absence de pluie significative sur l'ensemble de la semaine.
+- Températures restant au-dessus des normales de saison.
+- Maintien d'un temps sec et ensoleillé.
 
 **Points fragiles :**
-1. Fiabilité d'un run unique pour le 18/08 : très faible, comme le souligne la question posée dans le topic S33.
-2. Scénarios de dégradation généralisée : pas fiables à cette échéance.
-3. Aucune certitude sur les températures maximales entre le 19 et le 23 août.
+- Scénario exact : canicule prolongée ou simple temps chaud.
+- Date du possible répit.
+- Impact du littoral sur les températures maximales.
 
 **À surveiller (prochains runs) :**
-Ouverture du sujet Semaine 34 lundi 10 août. Surveiller GFS/CEP 12Z, AIFS, GEFS/EPS, ICON, notamment l'évolution du thalweg et la position du dôme de chaleur.
+- Ouverture du sujet Semaine 34 sur le forum Infoclimat.
+- Prochaines sorties de GFS et CEP pour affiner la tendance.
+- Évolution de l'ITN pour surveiller une éventuelle vigilance canicule.
 
 
 ========================================
@@ -129,27 +126,31 @@ Ouverture du sujet Semaine 34 lundi 10 août. Surveiller GFS/CEP 12Z, AIFS, GEFS
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Dôme de chaleur persistant sur l'Europe de l'Ouest : canicule marquée en semaine 1 (pic 13-15 août), répit incertain et modéré les 16-17, puis probable retour de la chaleur en semaine 2. Pluies très rares, sécheresse de surface en accentuation.
+Canicule marquée du 10 au 15 août, avec un pic jeudi 13. Répit très incertain le 16-17, puis retour probable de la chaleur en semaine 2. Pluies très rares, sécheresse de surface en accentuation.
 
 ### Période la plus fiable
-Semaine 1 (10-16 août) : prévisions courtes et moyen terme plus fiables, bulletins Météo-France détaillés. Semaine 2 à considérer comme exploratoire.
+Semaine 1 (10-16 août) : les prévisions sont plus fiables car basées sur des discussions détaillées et des bulletins départementaux.
 
 ### Phénomènes récurrents
-Hauts géopotentiels subtropicaux, subsidence, dôme de chaleur, nuits douces, brise de mer sur le littoral, sécheresse des sols, orages isolés en marge des talwegs.
+- Dôme de chaleur persistant sur l'Europe de l'Ouest.
+- Flux de Nord-Est apportant un air sec et chaud.
+- Forte évapotranspiration accentuant la sécheresse des sols.
 
 ### Principales incertitudes
-Date de sortie de la canicule (16 vs 18 août), évolution du dôme en semaine 2, orages en marge, fiabilité des runs à longue échéance.
+- Date exacte du rafraîchissement en fin de semaine 1.
+- Intensité du retour de la chaleur en semaine 2.
+- Possibilité d'orages ou de pluies isolées en fin de période.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Chronologie du répit 16-17 très incertaine : GFS la repousse au 18, CEP/AIFS la maintiennent au 16, ICON la veut plus précoce.
-- **Localisation :** Les écarts littoral/intérieur sont nets, mais la limite exacte entre chaleur extrême et influence maritime reste difficile à cerner; les averses littorales de dimanche 16 dépendront de la position du thalweg.
-- **Intensité :** Incertitude sur les maximales : 33 ou 37°C selon l'ensoleillement, la brise et la date de dégradation; semaine 2 encore plus incertaine.
-- **Informations manquantes :** Pas de sujet S34, pas d'analyse EPS détaillée, pas de prévisions de précipitations précises pour la semaine 2, pas de suivi orageux spécifique HDF dans les données fournies.
-- **Modèles sous-documentés :** GEM/Canadien et M-Climate sont peu commentés pour la HDF; ARPEGE, UKMO, JMA et AROME quasi absents des discussions exploitées.
-- **Incertitudes images :** Graphiques GFS/CEP/AIFS postés à titre d'illustration; moyenne d'ensemble plus fiable que les runs déterministes; aucune carte S34 disponible.
+- **Timing/Chronologie :** Doutes sur la date exacte du rafraîchissement en fin de semaine 1 : ICON propose le 14-15, CEP le 16, GFS le 18. Également incertitude sur le retour de la chaleur en semaine 2.
+- **Localisation :** Doutes sur la localisation des éventuelles averses du dimanche 16 : littoral du Nord et du Pas-de-Calais, ou plus à l'intérieur (Amiénois, Plateau Picard).
+- **Intensité :** Doutes sur l'intensité maximale de la chaleur : les modèles oscillent entre 33°C et 37°C pour les maximales intérieures. Incertitude également sur la durée de la canicule en semaine 2.
+- **Informations manquantes :** Le sujet dédié à la semaine 2 n'étant pas ouvert, les informations sur cette période sont très limitées. Les bulletins Météo-France départementaux ne couvrent que jusqu'au 17 août, et les discussions forum ne donnent que des projections long terme.
+- **Modèles sous-documentés :** ICON et AIFS sont moins détaillés que GFS et CEP dans les discussions. Le modèle canadien (GEM) est uniquement mentionné par Tao, sans analyse précise pour la région.
+- **Incertitudes images :** Les cartes partagées par les membres (GEFS, CEP) montrent des divergences importantes pour la semaine 2, avec des scénarios allant du simple répit à une canicule prolongée.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌡️ Les Hauts-de-France face à une nouvelle séquence caniculaire : après un lundi plus respirable, la chaleur reprend dès mercredi avec un pic jeudi-vendredi. Comptez 33 à 37°C dans l'intérieur, 30°C sur le littoral. Les nuits resteront douces, les pluies quasi absentes. Pour la semaine suivante, prudence : les modèles hésitent entre un répit court et un retour rapide de la chaleur. Le sujet dédié n'est pas encore ouvert sur le forum Infoclimat; l'analyse est donc exploratoire. Restons vigilants sur la sécheresse des sols. #Météo #HautsDeFrance #Canicule #Prévisions #MonsieurMétéo
+🔥🌡️ Canicule persistante sur les Hauts-de-France ! Le bulletin météo complet de Patrick Marlière pour les 2 prochaines semaines : pic de chaleur attendu jeudi 13 août avec possiblement 37°C dans l'Aisne ! Soleil garanti, pluie quasi absente. Répit incertain le 16, puis retour probable de la chaleur. Prudence face à la sécheresse ! #Météo #HautsDeFrance #Canicule #Prévisions
