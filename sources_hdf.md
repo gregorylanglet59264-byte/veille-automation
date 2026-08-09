@@ -305,12 +305,12 @@ vigilance orange est faible à ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Vente de matériel météo
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -318,23 +318,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 9 Août 2026.
-Résumé général HDF précédent : Canicule marquée en semaine 1 (pic jeudi 13), suivie d'un rafraîchissement timide et incertain en début de semaine 2, puis retour d'une chaleur forte, voire caniculaire, sur l'intérieur des Hauts-de-France..
+Résumé général HDF précédent : Sur les deux semaines, canicule marquée en fin de semaine 1 (pic jeudi 13), suivie d'un rafraîchissement relatif mais persistant, avec un risque orageux samedi 15. En semaine 2, chaleur modérée, pas de canicule, mais une tendance au retour des températures au-dessus des normales en fin de période. Sécheresse qui s'accentue, absence de pluie significative..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Très chaud et sec jusqu'à vendredi, nette dégradation possible samedi-dimanche..
+Températures attendues précédemment : Très chaud, pics à 36°C jeudi, orages possibles en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-il y a une heure, Krholam a dit :
-			Ah bah GFS se dit que finalement y’en aura pour tout le monde.
-			La limite "sud" remonte sacrément
-	A cette échéance il vaut mieux poster la moyenne de l'ensemble en sachant que vu l'échéance elle peut encore beaucoup évoluer :
-								4
-								4
-
-=======================
-
 Auteur: Krholam
 Message:
 Pour le moment, CEP / AIFS 12z gardent le 15/16 comme sortie
@@ -509,7 +498,7 @@ Bonsoir,
 	Quelle que soit la synoptique, au final les conditions météorologiques se ressemblent, pour une grande partie de notre pays, sans qu'aucune modification de circulation n'ait pu les bouleverser.
 	Pour illustrer, un GIF du modèle canadien, ça changera un peu, surtout qu'il plus fiable que son voisin ( et pas qu'en météo...)
 	On perçoit bien à travers cette animation que même en l'absence de vrai blocage comme on a pu le subir en début d'été, nous restons soumis à une circulation chaude et sèche, l'animation étant rejetée bien plus au nord.
-	Modifié il y a 22 heures par tao
+	Modifié hier à 19:36 par tao
 								15
 								2
 								2
@@ -530,7 +519,7 @@ La probabilité d'être au-dessus du Q90 M-Climate, autrement dit dans les 90% s
 	Probabilités d'avoir plus de trois jours consécutifs avec des Tn puis des Tx &gt; au Q95 :
 	(Les trois dernières cartes sont du CPC)
 	Cette énième canicule, suivant où on habite, me paraît plus forte en intensité que ce que je supposais ces derniers jours (canicule d'intensité modérée durable). À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?
-	Modifié il y a 22 heures par _sb
+	Modifié hier à 19:55 par _sb
 coquilles
 								8
 								5
@@ -564,7 +553,7 @@ Auteur: PenArBed
 Message:
 c'est au passage de l'éclipse 😎
 								1
-								1
+								2
 
 =======================
 
@@ -601,6 +590,13 @@ Message:
 il modélise de la pluie ...
 								1
 
+=======================
+
+Auteur: meteo noobs
+Message:
+Le déterministe cep fait une sacrée boucle sur la france avec rafraichissement sur week end et lundi.
+	Après c'est que son dét j'ai pas encore les ensembles. A voir.
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: _sb
 Message:
@@ -614,9 +610,21 @@ Après un hypothétique répit orageux lors du week-end précédent, laissant à
 	Si cette tendance se confirme, ce serait encore et globalement sur la semaine du topic, un courant de SW en altitude, un vent faible à tendance continentale en basses couches. Ce serait donc un temps généralement beau et chaud, avec des nuits un peu plus rafraîchies, surtout en se dirigeant vers la Manche et la mer du Nord. Une séquence orageuse serait tout à fait possible.
 	Exception du sud-est, ça c'est la géographie, où le marin pourrait dominer, suggérant une poursuite des Td élevées et de l'alimentation en humidité pour les orages alpins.
 	À voir suivant les jours de la semaine s'il y a des modulations dans ce scénario ou si, finalement, une nouvelle évolution de derrière les fagots se dessine (perso, je n'y crois guère). En souhaitant être contredit, j'en ai un peu marre de cette touffeur par ici...  
-	Modifié il y a 4 heures par _sb
+	Modifié il y a 6 heures par _sb
 								18
 								1
 								4
 								3
 								1
+
+=======================
+
+Auteur: Victor hurricane tempête
+Message:
+Fusion 
+	Vous lisez ce post, peut être au boulot ou assis dans votre canapé chez vous, à espérer un changement général de la synoptique.... mais ça c'est maintenant un rêve lointain beaucoup l'ont expliqués ces précédents jours cet été est complètement bloqué et il faudra attendre simplement la fin de cette saison pour souffler un peu (visiblement, vu les signaux actuels )... 
+	comme une mauvaise nouvelle n'arive jamais seule sur le précédent topic que j'ai survolé, je vois un nouveau potentiel problème pour ce topic : une goutte froide. 
+	Alors ce n'est qu'un exemple déterministe pour illustrer mais ceci (ou une ressemblance au niveau du placement de la goutte froide) 
+	Représente :
+	1/2 des scénarios de l'ensemble américain
+	1/3 des scénarios de l'ensemble européen
