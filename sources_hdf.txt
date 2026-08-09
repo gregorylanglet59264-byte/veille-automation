@@ -304,7 +304,7 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 090410 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 9 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 9 août 2026 à 00H00 UTC, et évolution Dépression orageuse 1011 hPa au nord-ouest de la Galice, se décalant vers le golfe de Gascogne en se comblant. Perturbation orageuse associée remontant sur le golfe de Gascogne en journée. Dorsale atlantique se renforçant demain après-midi. 3 - Prévisions pour la journée du dimanche 9 août VENT : Sud dominant 1 à 3, devenant Variable à la mi-journée puis s'orientant secteur Sud-Ouest 3 à 4 en fin de journée, parfois 5. MER : belle. HOULE : non significative. TEMPS : ensoleillé, passages nuageux le matin. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 9 août au lundi 10 août VENT : secteur Sud-Ouest 3 à 4, parfois 5 en soirée, virant Nord à Nord-Est en fin de nuit. MER : belle à peu agitée. HOULE : non significative. TEMPS : ciel peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 10 août VENT : Nord 3 à 4, parfois 5 en Manche, virant Est à Nord-Est l'après-midi. MER : peu agitée HOULE : non significative. TEMPS : ciel peu nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 10 au 11 et la journée du mardi 11 août VENT : Nord-Est 4 à 5, fraîchissant 6 en milieu d'après-midi en Manche. MER : peu agitée, devenant agitée en milieu d'après-midi en Manche. HOULE dominante de Nord 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 12 août Est faible à modéré. Indice de confiance : 4 sur 5 Jeudi 13 août Est faible à modéré. Indice de confiance : 4 sur 5 Vendredi 14 août Nord-Ouest faible à modéré. Indice de confiance : 3 sur 5 Samedi 15 août Nord-Ouest faible à modéré sur la pointe bretonne, puis Ouest faible à modéré sur le reste du domaine. Indice de confiance : 2 sur 5 8 - Observations le dimanche 9 août 2026 à 03H00 UTC Dunkerque : vent Sud-Sud-Est 8 noeuds, mer belle, 1015 hPa en baisse, nuageux avec éclaircies, visibilité 5 milles. Cap Gris Nez : vent Sud-Est 14 noeuds. Boulogne : vent Sud-Est 10 noeuds, 1014 hPa en baisse. Prochain bulletin le dimanche 9 août 2026, vers 12H30 légales
+FQCT40 LFQQ 090940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 9 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 9 août 2026 à 06H00 UTC, et évolution Dépression orageuse 1011 hPa au nord-ouest de la Galice, se décalant vers le golfe de Gascogne en se comblant. Perturbation orageuse associée remontant sur le golfe de Gascogne en journée. Dorsale atlantique se renforçant demain. 3 - Prévisions pour l'après-midi du dimanche 9 août VENT : Variable 1 à 3, s'orientant secteur Sud-Ouest 3 à 4 en fin d"après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 9 août au lundi 10 août VENT : secteur Sud-Ouest 4 à 5, virant Nord à Nord-Est en milieu de nuit. MER : peu agitée. HOULE : non significative, puis Ouest à Sud-Ouest 0.5 à 1 m en deuxième partie de nuit. TEMPS : ciel peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 10 août VENT : Nord 3 à 4, parfois 5 en Manche, virant Est à Nord-Est l'après-midi. MER : belle à peu agitée HOULE : non significative. TEMPS : ciel peu nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 10 au 11 et la journée du mardi 11 août VENT : Est à Nord-Est 3 à 5, parfois 5, fraîchissant 5 à 6 l'après-midi. MER : peu agitée, localement agitée en Manche en fin de journée. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 11 au 12 et la journée du mercredi 12 août VENT : Est 6 mollissant 4 à 5 en début de nuit. MER : agitée, devenant peu agitée en seconde partie de nuit. HOULE dominante de Nord à Nord-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Jeudi 13 août Secteur Est faible à modéré revenant Nord-Ouest faible à modéré dans l'Ouest. Indice de confiance : 4 sur 5 Vendredi 14 août Secteur Nord faible à modéré. Indice de confiance : 4 sur 5 Samedi 15 août Secteur Nord faible à modéré. Indice de confiance : 2 sur 5 Dimanche 16 août Secteur Nord-Est faible à modéré. Indice de confiance : 2 sur 5 9 - Observations le dimanche 9 août 2026 à 09H00 UTC Dunkerque : vent Sud-Sud-Ouest 4 noeuds, 1014 hPa stationnaire. Cap Gris Nez : vent Sud-Ouest 4 noeuds. Boulogne : vent Ouest 4 noeuds, 1014 hPa en baisse, nuageux avec éclaircies, visibilité 13 milles. Prochain bulletin le dimanche 9 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -333,12 +333,12 @@ durant cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -346,37 +346,14 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 9 Août 2026.
-Résumé général HDF précédent : Canicule durable et intense sur les Hauts-de-France, avec un pic en fin de semaine 1. Rafraîchissement incertain en début de semaine 2, suivi d'un probable retour de la chaleur..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule prolongée, températures très élevées, absence de précipitations significatives..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
 Auteur: sartel
 Message:
-il y a 18 minutes, Krholam a dit :
-			Ah bah GFS se dit que finalement y’en aura pour tout le monde.
-			La limite "sud" remonte sacrément
-	Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Il y a 2 heures, sartel a dit :
-			Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
-	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
-	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
-	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié vendredi à 20:24 par Krholam
-La canicule m’emballe. Modération de mes propos
-								2
-
-=======================
-
-Auteur: sartel
-Message:
 il y a 16 minutes, Krholam a dit :
 			J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 			Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
@@ -523,10 +500,10 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
 	et au final:
 	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
-								14
+								15
 								2
 								1
-								3
+								4
 								1
 
 =======================
@@ -548,11 +525,11 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 20 heures par yannick68
+	Modifié il y a 22 heures par yannick68
 								4
 								2
 								1
-								6
+								7
 
 =======================
 
@@ -573,8 +550,8 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 20 heures par Krholam
-								2
+	Modifié il y a 22 heures par Krholam
+								3
 								1
 								1
 								2
@@ -589,8 +566,8 @@ Bonsoir,
 	Quelle que soit la synoptique, au final les conditions météorologiques se ressemblent, pour une grande partie de notre pays, sans qu'aucune modification de circulation n'ait pu les bouleverser.
 	Pour illustrer, un GIF du modèle canadien, ça changera un peu, surtout qu'il plus fiable que son voisin ( et pas qu'en météo...)
 	On perçoit bien à travers cette animation que même en l'absence de vrai blocage comme on a pu le subir en début d'été, nous restons soumis à une circulation chaude et sèche, l'animation étant rejetée bien plus au nord.
-	Modifié il y a 12 heures par tao
-								14
+	Modifié il y a 14 heures par tao
+								15
 								2
 								2
 
@@ -610,9 +587,9 @@ La probabilité d'être au-dessus du Q90 M-Climate, autrement dit dans les 90% s
 	Probabilités d'avoir plus de trois jours consécutifs avec des Tn puis des Tx &gt; au Q95 :
 	(Les trois dernières cartes sont du CPC)
 	Cette énième canicule, suivant où on habite, me paraît plus forte en intensité que ce que je supposais ces derniers jours (canicule d'intensité modérée durable). À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?
-	Modifié il y a 12 heures par _sb
+	Modifié il y a 14 heures par _sb
 coquilles
-								6
+								7
 								5
 								3
 								2
@@ -627,7 +604,7 @@ Le couplage MJO - ENSO dépend de plusieurs facteurs. Initialement, la MJO peut 
 	Les prévisions de la MJO demeurent défavorables à l'Atlantique tropical, au moins jusqu'à fin août/début septembre. L'ENSO perturbe la MJO. Avec ces deux là, on perd un ingrédient potentiel pour casser cette récurrence (chaleur + sécheresse) sur l'Europe.
 	À l'inverse, la hausse simulée en phase 6 en interaction avec l'ENSO, favorise l'émergence de cyclones dans le Pacifique nord mais ça ne nous apporte rien pour le prévisionnel.
 	https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/mjo.shtml
-								3
+								4
 								4
 
 =======================
@@ -636,40 +613,38 @@ Auteur: Gregg75019
 Message:
 l'hiver s'installe doucement mais surement en Norvege avec -40 à 7h ce matin 🙂‍↕️🤪
 	meme voir -40 avec un Bug ca fait du bien🤤🙂‍↕️
-								4
+								9
 
 =======================
 
 Auteur: PenArBed
 Message:
 c'est au passage de l'éclipse 😎
+								1
+								1
+
+=======================
+
+Auteur: Twister83
+Message:
+Ça va un peu dans tout les sens sur les modèles après l'Assomption... 
+	CEP déterministe ce matin semble l'option la plus favorable, régions méditerranéennes comprises, avec un temps bien plus frais et humide, énième mirage ?
+								3
+
+=======================
+
+Auteur: Krholam
+Message:
+Deux grosses directions possible sur les modèles je trouve.
+	1- Rafraichissement par courbure du flux avec une crète sur l’atlantique (UKMO,AIFS,JMA)
+	2- plongée d’un Thalweg avec de l’instabilité et de la pluie à la clef (CEP/GEM/Truc chelou de GEFS)
+	La perspective d’une prolongation après le 15/16 Aout semble s’éloigner
+								1
+								8
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: sartel
 Message:
-il y a 18 minutes, Krholam a dit :
-			Ah bah GFS se dit que finalement y’en aura pour tout le monde.
-			La limite "sud" remonte sacrément
-	Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Il y a 2 heures, sartel a dit :
-			Fiabilité d'un RUN pour le 18 AOUT dans le topic du 10 au 16 AOUT ?
-	J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
-	Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
-	Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-	Modifié vendredi à 20:24 par Krholam
-La canicule m’emballe. Modération de mes propos
-								2
-
-=======================
-
-Auteur: sartel
-Message:
 il y a 16 minutes, Krholam a dit :
 			J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
 			Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
@@ -816,10 +791,10 @@ Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (apr�
 	C'est la même chose en été et on a changé de braquet.  Entre 240 heures et 384 heures, le nombre de fois depuis fin juin, où l'on voit entre 240 et 384 heures des belles descentes arctiques sur tout le pays et des belles dépressions. 
 	et au final:
 	pour au final, de la chaleur, de la chaleur et encore de la chaleur.
-								14
+								15
 								2
 								1
-								3
+								4
 								1
 
 =======================
@@ -841,11 +816,11 @@ il y a 14 minutes, Virgile a dit :
 	Dans 15 jours : 6h35 – 20h29
 	Dans 1 mois : 6h58 – 19h56
 	J’ai hâte… mais vraiment hâte !
-	Modifié il y a 20 heures par yannick68
+	Modifié il y a 22 heures par yannick68
 								4
 								2
 								1
-								6
+								7
 
 =======================
 
@@ -866,8 +841,8 @@ il y a 31 minutes, Virgile a dit :
 	Le pic de jeudi serait beaucoup plus fort 
 	Mais la redescente serait plus franche avec on l'espère derrière peut être une dégradation plus généralisée
 	Perso j'en suis au même point concernat les minutes de nuit que l'on gagne, mais aussi en voyant ces deux cartes je préfère me taper un pic de vague de chaleur plus fortesi derrière ça peut nous amener de la pluie plus qu'un pic plus faible mais avec derrière une transition sèche
-	Modifié il y a 20 heures par Krholam
-								2
+	Modifié il y a 22 heures par Krholam
+								3
 								1
 								1
 								2
@@ -882,8 +857,8 @@ Bonsoir,
 	Quelle que soit la synoptique, au final les conditions météorologiques se ressemblent, pour une grande partie de notre pays, sans qu'aucune modification de circulation n'ait pu les bouleverser.
 	Pour illustrer, un GIF du modèle canadien, ça changera un peu, surtout qu'il plus fiable que son voisin ( et pas qu'en météo...)
 	On perçoit bien à travers cette animation que même en l'absence de vrai blocage comme on a pu le subir en début d'été, nous restons soumis à une circulation chaude et sèche, l'animation étant rejetée bien plus au nord.
-	Modifié il y a 12 heures par tao
-								14
+	Modifié il y a 14 heures par tao
+								15
 								2
 								2
 
@@ -903,9 +878,9 @@ La probabilité d'être au-dessus du Q90 M-Climate, autrement dit dans les 90% s
 	Probabilités d'avoir plus de trois jours consécutifs avec des Tn puis des Tx &gt; au Q95 :
 	(Les trois dernières cartes sont du CPC)
 	Cette énième canicule, suivant où on habite, me paraît plus forte en intensité que ce que je supposais ces derniers jours (canicule d'intensité modérée durable). À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?
-	Modifié il y a 12 heures par _sb
+	Modifié il y a 14 heures par _sb
 coquilles
-								6
+								7
 								5
 								3
 								2
@@ -920,7 +895,7 @@ Le couplage MJO - ENSO dépend de plusieurs facteurs. Initialement, la MJO peut 
 	Les prévisions de la MJO demeurent défavorables à l'Atlantique tropical, au moins jusqu'à fin août/début septembre. L'ENSO perturbe la MJO. Avec ces deux là, on perd un ingrédient potentiel pour casser cette récurrence (chaleur + sécheresse) sur l'Europe.
 	À l'inverse, la hausse simulée en phase 6 en interaction avec l'ENSO, favorise l'émergence de cyclones dans le Pacifique nord mais ça ne nous apporte rien pour le prévisionnel.
 	https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/mjo.shtml
-								3
+								4
 								4
 
 =======================
@@ -929,10 +904,31 @@ Auteur: Gregg75019
 Message:
 l'hiver s'installe doucement mais surement en Norvege avec -40 à 7h ce matin 🙂‍↕️🤪
 	meme voir -40 avec un Bug ca fait du bien🤤🙂‍↕️
-								4
+								9
 
 =======================
 
 Auteur: PenArBed
 Message:
 c'est au passage de l'éclipse 😎
+								1
+								1
+
+=======================
+
+Auteur: Twister83
+Message:
+Ça va un peu dans tout les sens sur les modèles après l'Assomption... 
+	CEP déterministe ce matin semble l'option la plus favorable, régions méditerranéennes comprises, avec un temps bien plus frais et humide, énième mirage ?
+								3
+
+=======================
+
+Auteur: Krholam
+Message:
+Deux grosses directions possible sur les modèles je trouve.
+	1- Rafraichissement par courbure du flux avec une crète sur l’atlantique (UKMO,AIFS,JMA)
+	2- plongée d’un Thalweg avec de l’instabilité et de la pluie à la clef (CEP/GEM/Truc chelou de GEFS)
+	La perspective d’une prolongation après le 15/16 Aout semble s’éloigner
+								1
+								8
