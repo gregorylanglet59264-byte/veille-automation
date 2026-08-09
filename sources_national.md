@@ -286,7 +286,7 @@ Températures minimales : en baisse du Lauragais au muretain ainsi qu'au sud-oue
 Températures maximales : en baisse sur le Lauragais, sur le piémont et la montagne ainsi que sur les plaines et coteaux de Gascogne.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 090955 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 9 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 9 août 2026 à 06H00 UTC, et évolution Faible gradient de pression proche de 1015 hPa sur le nord du bassin. 3 - Prévisions pour l'après-midi du dimanche 9 août VENT : - à l'ouest de Sicié, Sud-Est 2 à 4. - à l'est de Sicié, Sud-Ouest dominant 1 à 3. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 9 août au lundi 10 août VENT : - à l'ouest de Sicié, secteur Sud-Est dominant 1 à 3, devenant Variable en milieu de nuit. - à l'est de Sicié, secteur Ouest dominant 1 à 3, devenant Variable en fin de nuit. MER : belle. HOULE : non significative, s'établissant temporairement Sud-Ouest vers la Camargue en soirée. TEMPS : peu nuageux, mais nuageux à très nuageux à l'ouest de Fos en milieu de nuit. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 10 août VENT : - à l'ouest de Sicié, Variable 1 à 3, s'orientant secteur Sud-Ouest 2 à 4 l'après-midi. - à l'est de Sicié, s'orientant secteur Sud-Ouest dominant 1 à 3, puis fraîchissant Ouest à Sud-Ouest 4 à 5 l'après-midi. MER : belle, devenant peu agitée à l'est de Porquerolles l'après-midi. HOULE : non significative. TEMPS : peu nuageux, localement nuageux à l'ouest de Fos. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 10 au 11 et la journée du mardi 11 août VENT : - ouest de Sicié, Variable 2 à 4, s'orientant Sud-Ouest dominant 1 à 3 en fin de matinée. - est de Sicié, Ouest à Sud-Ouest 3 à 4, parfois 5 au début, devenant Variable 2 à 4 la nuit, puis fraîchissant Ouest à sud-Ouest 3 à 4 l'après-midi. MER : belle, mais peu agitée à l'est de Porquerolles jusqu'en milieu de nuit. HOULE : non significative. TEMPS : peu nuageux à nuageux. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 11 au 12 et la journée du mercredi 12 août VENT : Secteur Sud-Ouest 2 à 4, virant temporairement Ouest à Nord-Ouest en début de nuit. MER : belle à peu agitée. Pas de houle significative. 8 - Tendance pour les jours suivants Jeudi 13 août Secteur Sud-Est faible dans le Golfe du Lion, Secteur Nord ailleurs. Indice de confiance : 4 sur 5 Vendredi 14 août Secteur Sud faible à modéré dans le Golfe du Lion, Secteur Nord-Ouest ailleurs. Indice de confiance : 4 sur 5 Samedi 15 août Secteur Sud faible à modéré dans le Golfe du Lion, Secteur Ouest ailleurs. Indice de confiance : 2 sur 5 Dimanche 16 août Secteur Ouest faible à modéré. Indice de confiance : 2 sur 5 9 - Observations le dimanche 9 août 2026 à 09H00 UTC Cap Camarat : vent Nord-Est 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Est 8 noeuds. Porquerolles : vent Sud-Est 6 noeuds. Cap Couronne : vent Est 10 noeuds. Prochain bulletin le dimanche 9 août 2026, vers 18H30 légales
+FQCT40 LFML 091625 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 9 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 9 août 2026 à 12H00 UTC, et évolution Faible gradient de pression proche de 1015 hPa sur le nord du bassin. 3 - Prévisions pour la nuit du dimanche 9 août au lundi 10 août VENT : - à l'ouest de Sicié, secteur Sud-Est dominant 2 à 4, devenant Variable en milieu de nuit. - à l'est de Sicié, secteur Sud-Ouest dominant 1 à 3, s'orientant Ouest 2 à 4 en deuxième partie de nuit. MER : belle. HOULE : non significative, s'établissant temporairement Sud-Ouest vers la Camargue en soirée. TEMPS : peu nuageux, mais nuageux à très nuageux à l'ouest de Fos en milieu de nuit. VISIBILITE : bonne. 4 - Prévisions pour la journée du lundi 10 août VENT : - à l'ouest de Sicié, devenant Variable 2 à 4. - à l'est de Sicié, Variable 1 à 3, puis fraîchissant Ouest à Sud-Ouest 4 à 5 l'après-midi. MER : belle, devenant peu agitée à l'est de Porquerolles l'après-midi. HOULE : non significative. TEMPS : peu nuageux, localement nuageux à l'ouest de Fos. VISIBILITE : bonne. 5 - Tendance pour la nuit du 10 au 11, et la journée du mardi 11 août VENT : - ouest de Sicié, Variable 2 à 4, s'orientant Sud-Ouest dominant 1 à 3 en fin de matinée. - est de Sicié, Ouest à Sud-Ouest 3 à 4, parfois 5 au début, devenant Variable 2 à 4 la nuit, puis fraîchissant Ouest à sud-Ouest 3 à 4 l'après-midi. MER : belle, mais peu agitée à l'est de Porquerolles jusqu'en milieu de nuit. HOULE : non significative. TEMPS : peu nuageux à nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 11 au 12 et la journée du mercredi 12 août VENT : Secteur Sud-Ouest 2 à 4, virant temporairement Ouest à Nord-Ouest en début de nuit. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Jeudi 13 août Secteur Sud-Est faible dans le Golfe du Lion, Secteur Nord ailleurs. Indice de confiance : 4 sur 5 Vendredi 14 août Secteur Sud faible à modéré dans le Golfe du Lion, Secteur Nord-Ouest ailleurs. Indice de confiance : 4 sur 5 Samedi 15 août Secteur Sud faible à modéré dans le Golfe du Lion, Secteur Ouest ailleurs. Indice de confiance : 2 sur 5 Dimanche 16 août Secteur Ouest faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le dimanche 9 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Sud-Ouest 10 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 6 noeuds. Porquerolles : vent Ouest 8 noeuds. Cap Couronne : vent Sud-Est 6 noeuds. Prochain bulletin le lundi 10 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -312,12 +312,12 @@ vigilance orange est faible à ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -325,41 +325,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 9 Août 2026.
-Résumé général précédent : Sur l'ensemble des deux semaines, la chaleur reste le phénomène dominant. Un léger fléchissement est possible en semaine 2 au nord-ouest, mais il ne devrait pas remettre en cause la persistance de conditions chaudes, surtout au sud et à l'est..
+Résumé général précédent : Poursuite d'un été très chaud : canicule marquée en semaine 1, atténuation relative en semaine 2 mais pas de rupture durable. Le sud-est restera en surchauffe..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule intense jusqu’en fin de semaine, rafraîchissement modéré seulement en toute fin de période..
+Températures attendues précédemment : Chaleur extrême durable, pas de rafraîchissement avant la semaine suivante..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: sartel
-Message:
-il y a 16 minutes, Krholam a dit :
-			J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
-			Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
-			Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-			Je sais que la vue d’une vague de chaleur de longue durée nous mets tous un peu les nerfs à vif. Mais je trouve quand même cette remarque très véhémente....
-	Je ne suis pas spécialiste.
-	Je ne qualifie pas mon propos de véhément. Je posais une question, c’est tout.
-	Je lis juste régulièrement sur le forum qu’il faut éviter de fonctionner de run en run dès qu’il en sort un mais plutôt de faire des synthèses.
-	Attention à ne pas tomber dans un goût pour l’excès.
-	Lundi 10 sera sans doute le bon moment pour ouvrir les échanges concernant la semaine du 16 août en ayant divers paramètres sous le coude.
-	Je lis régulièrement avec intérêt les analyses sérieuses des intervenants sur infoclimat.
-								1
-								1
-								1
-
-=======================
-
-Auteur: serge26
-Message:
-si çà vous met deja les nerfs à vif, qu'est ce que ca va etre dans les prochaines années!!!!!
-								4
-								3
-								1
-								2
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 il y a une heure, Krholam a dit :
@@ -545,7 +516,7 @@ Bonsoir,
 	Quelle que soit la synoptique, au final les conditions météorologiques se ressemblent, pour une grande partie de notre pays, sans qu'aucune modification de circulation n'ait pu les bouleverser.
 	Pour illustrer, un GIF du modèle canadien, ça changera un peu, surtout qu'il plus fiable que son voisin ( et pas qu'en météo...)
 	On perçoit bien à travers cette animation que même en l'absence de vrai blocage comme on a pu le subir en début d'été, nous restons soumis à une circulation chaude et sèche, l'animation étant rejetée bien plus au nord.
-	Modifié il y a 20 heures par tao
+	Modifié il y a 22 heures par tao
 								15
 								2
 								2
@@ -566,7 +537,7 @@ La probabilité d'être au-dessus du Q90 M-Climate, autrement dit dans les 90% s
 	Probabilités d'avoir plus de trois jours consécutifs avec des Tn puis des Tx &gt; au Q95 :
 	(Les trois dernières cartes sont du CPC)
 	Cette énième canicule, suivant où on habite, me paraît plus forte en intensité que ce que je supposais ces derniers jours (canicule d'intensité modérée durable). À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?
-	Modifié il y a 20 heures par _sb
+	Modifié il y a 22 heures par _sb
 coquilles
 								8
 								5
@@ -623,6 +594,20 @@ Deux grosses directions possible sur les modèles je trouve.
 								2
 								1
 
+=======================
+
+Auteur: Plancher
+Message:
+Je le trouve bien rouge le GFS ce soir. Ça flirte avec les 40 à Nantes pendant plusieurs jours de suite par exemple.
+	C'est quand même un été de fou.
+
+=======================
+
+Auteur: ripocheguillaume_88
+Message:
+il modélise de la pluie ...
+								1
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: _sb
 Message:
@@ -636,8 +621,9 @@ Après un hypothétique répit orageux lors du week-end précédent, laissant à
 	Si cette tendance se confirme, ce serait encore et globalement sur la semaine du topic, un courant de SW en altitude, un vent faible à tendance continentale en basses couches. Ce serait donc un temps généralement beau et chaud, avec des nuits un peu plus rafraîchies, surtout en se dirigeant vers la Manche et la mer du Nord. Une séquence orageuse serait tout à fait possible.
 	Exception du sud-est, ça c'est la géographie, où le marin pourrait dominer, suggérant une poursuite des Td élevées et de l'alimentation en humidité pour les orages alpins.
 	À voir suivant les jours de la semaine s'il y a des modulations dans ce scénario ou si, finalement, une nouvelle évolution de derrière les fagots se dessine (perso, je n'y crois guère). En souhaitant être contredit, j'en ai un peu marre de cette touffeur par ici...  
-	Modifié il y a 2 heures par _sb
-								10
-								2
+	Modifié il y a 4 heures par _sb
+								18
+								1
+								4
 								3
 								1

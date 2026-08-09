@@ -305,12 +305,12 @@ vigilance orange est faible à ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -318,41 +318,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 9 Août 2026.
-Résumé général HDF précédent : Canicule marquée en première semaine (pic 34-36°C le jeudi 13), suivie d’un répit de courte durée (48h) en début de semaine 2, puis retour d’une chaleur forte, voire caniculaire, sur l’intérieur des Hauts-de-France..
+Résumé général HDF précédent : Canicule marquée en semaine 1 (pic jeudi 13), suivie d'un rafraîchissement timide et incertain en début de semaine 2, puis retour d'une chaleur forte, voire caniculaire, sur l'intérieur des Hauts-de-France..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Soleil intense, chaleur caniculaire, pas de précipitations avant samedi, possible retour de la chaleur ensuite..
+Températures attendues précédemment : Très chaud et sec jusqu'à vendredi, nette dégradation possible samedi-dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: sartel
-Message:
-il y a 16 minutes, Krholam a dit :
-			J’ai volontairement poussé pour montrer que la sortie du 15/16 (partie intégrante de notre sujet) pour le nord n’était plus acquise elle non plus.
-			Aussi, gefs a été souvent précurseur en ce qui concerne les chaleurs (pas leur intensité mais plus leur venue).
-			Il a aujourd’hui été l’un des premiers à voir la fébrilité de la fin de canicule. Il a donc toute sa place.
-			Je sais que la vue d’une vague de chaleur de longue durée nous mets tous un peu les nerfs à vif. Mais je trouve quand même cette remarque très véhémente....
-	Je ne suis pas spécialiste.
-	Je ne qualifie pas mon propos de véhément. Je posais une question, c’est tout.
-	Je lis juste régulièrement sur le forum qu’il faut éviter de fonctionner de run en run dès qu’il en sort un mais plutôt de faire des synthèses.
-	Attention à ne pas tomber dans un goût pour l’excès.
-	Lundi 10 sera sans doute le bon moment pour ouvrir les échanges concernant la semaine du 16 août en ayant divers paramètres sous le coude.
-	Je lis régulièrement avec intérêt les analyses sérieuses des intervenants sur infoclimat.
-								1
-								1
-								1
-
-=======================
-
-Auteur: serge26
-Message:
-si çà vous met deja les nerfs à vif, qu'est ce que ca va etre dans les prochaines années!!!!!
-								4
-								3
-								1
-								2
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 il y a une heure, Krholam a dit :
@@ -538,7 +509,7 @@ Bonsoir,
 	Quelle que soit la synoptique, au final les conditions météorologiques se ressemblent, pour une grande partie de notre pays, sans qu'aucune modification de circulation n'ait pu les bouleverser.
 	Pour illustrer, un GIF du modèle canadien, ça changera un peu, surtout qu'il plus fiable que son voisin ( et pas qu'en météo...)
 	On perçoit bien à travers cette animation que même en l'absence de vrai blocage comme on a pu le subir en début d'été, nous restons soumis à une circulation chaude et sèche, l'animation étant rejetée bien plus au nord.
-	Modifié il y a 20 heures par tao
+	Modifié il y a 22 heures par tao
 								15
 								2
 								2
@@ -559,7 +530,7 @@ La probabilité d'être au-dessus du Q90 M-Climate, autrement dit dans les 90% s
 	Probabilités d'avoir plus de trois jours consécutifs avec des Tn puis des Tx &gt; au Q95 :
 	(Les trois dernières cartes sont du CPC)
 	Cette énième canicule, suivant où on habite, me paraît plus forte en intensité que ce que je supposais ces derniers jours (canicule d'intensité modérée durable). À voir si la semaine suivante tient ses promesses actuelles, avec une inversion méridienne ?
-	Modifié il y a 20 heures par _sb
+	Modifié il y a 22 heures par _sb
 coquilles
 								8
 								5
@@ -616,6 +587,20 @@ Deux grosses directions possible sur les modèles je trouve.
 								2
 								1
 
+=======================
+
+Auteur: Plancher
+Message:
+Je le trouve bien rouge le GFS ce soir. Ça flirte avec les 40 à Nantes pendant plusieurs jours de suite par exemple.
+	C'est quand même un été de fou.
+
+=======================
+
+Auteur: ripocheguillaume_88
+Message:
+il modélise de la pluie ...
+								1
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: _sb
 Message:
@@ -629,8 +614,9 @@ Après un hypothétique répit orageux lors du week-end précédent, laissant à
 	Si cette tendance se confirme, ce serait encore et globalement sur la semaine du topic, un courant de SW en altitude, un vent faible à tendance continentale en basses couches. Ce serait donc un temps généralement beau et chaud, avec des nuits un peu plus rafraîchies, surtout en se dirigeant vers la Manche et la mer du Nord. Une séquence orageuse serait tout à fait possible.
 	Exception du sud-est, ça c'est la géographie, où le marin pourrait dominer, suggérant une poursuite des Td élevées et de l'alimentation en humidité pour les orages alpins.
 	À voir suivant les jours de la semaine s'il y a des modulations dans ce scénario ou si, finalement, une nouvelle évolution de derrière les fagots se dessine (perso, je n'y crois guère). En souhaitant être contredit, j'en ai un peu marre de cette touffeur par ici...  
-	Modifié il y a 2 heures par _sb
-								10
-								2
+	Modifié il y a 4 heures par _sb
+								18
+								1
+								4
 								3
 								1
