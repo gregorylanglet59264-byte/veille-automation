@@ -284,15 +284,10 @@ FQCT40 LFQQ 091600 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿L'épisode caniculaire se poursuit et se renforce sur une 
-grande partie du territoire.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Les conditions caniculaires se poursuivent sur le pays durant 
-cette période. 
-Ce week-end des orages pourraient se produire localement 
-sur une large partie de la France. Le risque de passage en 
-vigilance orange est faible à ce stade.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -304,22 +299,22 @@ vigilance orange est faible à ce stade.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Dimanche 9 Août 2026.
-Résumé général HDF précédent : Les deux prochaines semaines s'annoncent chaudes et sèches sur les Hauts-de-France, avec un pic de canicule jeudi 13 août (jusqu'à 36°C dans l'intérieur). Un rafraîchissement est possible le week-end des 15-16 août, mais il reste incertain, et la chaleur pourrait revenir rapidement dès le début de la semaine suivante. Les températures resteront au-dessus des normales, avec un déficit de pluie marqué..
+Dernier bulletin HDF généré le Lundi 10 Août 2026.
+Résumé général HDF précédent : Deux semaines majoritairement chaudes et sèches sur les Hauts-de-France, avec un pic caniculaire marqué autour du 13 août, puis une très légère baisse des températures en fin de période, mais restant au-dessus des normales. Les précipitations seront rares, principalement orageuses..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Très chaud et sec, avec des pointes à 36-38°C possibles dans l'intérieur jusqu'à vendredi..
+Températures attendues précédemment : Canicule marquée jeudi, rafraîchissement modeste et bref le week-end, retour de la chaleur ensuite..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
@@ -609,7 +604,7 @@ Après un hypothétique répit orageux lors du week-end précédent, laissant à
 	Si cette tendance se confirme, ce serait encore et globalement sur la semaine du topic, un courant de SW en altitude, un vent faible à tendance continentale en basses couches. Ce serait donc un temps généralement beau et chaud, avec des nuits un peu plus rafraîchies, surtout en se dirigeant vers la Manche et la mer du Nord. Une séquence orageuse serait tout à fait possible.
 	Exception du sud-est, ça c'est la géographie, où le marin pourrait dominer, suggérant une poursuite des Td élevées et de l'alimentation en humidité pour les orages alpins.
 	À voir suivant les jours de la semaine s'il y a des modulations dans ce scénario ou si, finalement, une nouvelle évolution de derrière les fagots se dessine (perso, je n'y crois guère). En souhaitant être contredit, j'en ai un peu marre de cette touffeur par ici...  
-	Modifié il y a 10 heures par _sb
+	Modifié il y a 12 heures par _sb
 								19
 								1
 								4
