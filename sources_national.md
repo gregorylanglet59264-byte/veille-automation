@@ -314,12 +314,11 @@ est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Records de températures en France
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -327,19 +326,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 10 Août 2026.
-Résumé général précédent : Chaleur durable jusqu’au 16 août, pic jeudi 13, répit relatif par le nord-ouest les 15-16, puis probable retour de conditions chaudes et sèches; une dégradation orageuse est possible en début de semaine du 17 au 23 mais reste incertaine..
+Résumé général précédent : Canicule généralisée jusqu'au 14-16 août, puis répit temporaire par le nord-ouest, mais retour de la chaleur en fin de semaine 2. Incertitude sur une dégradation orageuse plus marquée en début de semaine 2, surtout au sud-est..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule généralisée jeudi, chaleur encore forte vendredi-samedi, orages très limités..
+Températures attendues précédemment : Canicule généralisée jusqu'à samedi au moins, pic jeudi, orages isolés sur les reliefs..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
-Auteur: Krholam
-Message:
-Pour le moment, CEP / AIFS 12z gardent le 15/16 comme sortie
-	(Oui tu as raisons, c'était plus opportun de poster la moyenne)
-
-=======================
-
 Auteur: tao
 Message:
 Bonsoir,
@@ -606,42 +598,13 @@ Message:
 Le déterministe cep fait une sacrée boucle sur la france avec rafraichissement sur week end et lundi.
 	Après c'est que son dét j'ai pas encore les ensembles. A voir.
 
+=======================
+
+Auteur: symaski62
+Message:
+minuit   mardi   1h00
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: _sb
-Message:
-Après un hypothétique répit orageux lors du week-end précédent, laissant à penser à une baisse relative des températures sur l'ouest (sur l'est, c'est nettement plus incertain et sur le sud-est, ce n'est pour le moment qu'un vœu), la semaine pourrait être encore chaude.
-	En lecture brute, les simulations paraissent s'assagir, avec une baisse du champ de pression par le nord-ouest et donc une offensive, même timide, de l'océan.
-	Nous aurions ainsi un dégradé des températures entre le nord-ouest, proche des normes, et le sud-est, toujours en surchauffe. En revanche, les précipitations resteraient absentes, si ce n'est sur les reliefs, surtout alpins par évolutions orageuses diurnes, et, peut-être, une salve orageuse sud-ouest - nord-est/centre-est.
-	Pourtant, l'évolution des simulations prend un autre chemin, celui de cette récurrence qui nous tient et qui se remarque comme la semaine précédente.
-	Les HG subsistent sur la Méditerranée et une faiblesse du champ de pression resterait au large du Maroc et du Portugal. L'isoligne 582, en gras, coupait la France à Bordeaux. Sur les dernières sorties, une nouvelle fois, cette ligne remonte désormais sur Brest (= hausse du champ thermique moyen + possibilité accrue de subsidences) avec un champ se creusant davantage au large de ces deux pays. On resterait finalement sur un schéma identique.
-	Pour faire bonne mesure, GEFS hebdomadaire, sur ces 4 dernières sorties : ça creuse autant sur l'océan mais ça remonte moins sur le continent.
-	Demain, ACCESS-S sortira sa mouture hebdomadaire, à suivre.
-	Si cette tendance se confirme, ce serait encore et globalement sur la semaine du topic, un courant de SW en altitude, un vent faible à tendance continentale en basses couches. Ce serait donc un temps généralement beau et chaud, avec des nuits un peu plus rafraîchies, surtout en se dirigeant vers la Manche et la mer du Nord. Une séquence orageuse serait tout à fait possible.
-	Exception du sud-est, ça c'est la géographie, où le marin pourrait dominer, suggérant une poursuite des Td élevées et de l'alimentation en humidité pour les orages alpins.
-	À voir suivant les jours de la semaine s'il y a des modulations dans ce scénario ou si, finalement, une nouvelle évolution de derrière les fagots se dessine (perso, je n'y crois guère). En souhaitant être contredit, j'en ai un peu marre de cette touffeur par ici...  
-	Modifié hier à 13:13 par _sb
-								21
-								1
-								4
-								3
-								2
-
-=======================
-
-Auteur: Victor hurricane tempête
-Message:
-Fusion 
-	Vous lisez ce post, peut être au boulot ou assis dans votre canapé chez vous, à espérer un changement général de la synoptique.... mais ça c'est maintenant un rêve lointain beaucoup l'ont expliqués ces précédents jours cet été est complètement bloqué et il faudra attendre simplement la fin de cette saison pour souffler un peu (visiblement, vu les signaux actuels )... 
-	comme une mauvaise nouvelle n'arive jamais seule sur le précédent topic que j'ai survolé, je vois un nouveau potentiel problème pour ce topic : une goutte froide. 
-	Alors ce n'est qu'un exemple déterministe pour illustrer mais ceci (ou une ressemblance au niveau du placement de la goutte froide) 
-	Représente :
-	1/2 des scénarios de l'ensemble américain
-	1/3 des scénarios de l'ensemble européen
-								1
-								7
-
-=======================
-
 Auteur: zagueb83
 Message:
 Moi j'espère juste que les fêtes de fin d'années ne se feront pas sous 34°C le 25...
@@ -659,7 +622,7 @@ Toujours le jour et la nuit entre les modèles ce matin pour le début de semain
 	Presque un épisode méditerranéen sur le DET CEP
 	Léger flux de NO sur GEM/UKMO, GFS dans un autre délire comme d'habitude.
 	Seul ICON s'approche un peu du scénario à la déterministe CEP ce matin.
-	Modifié il y a 7 heures par Twister83
+	Modifié il y a 9 heures par Twister83
 								2
 								2
 								1
@@ -695,7 +658,7 @@ il y a 15 minutes, Krholam a dit :
 			GFS tient vraiment à sa GF avec sur certains ensembles un scenario à faire froid (ou chaud) dans le dos....
 			À surveiller
 	Il est tout seul dans son délire comparé aux autres modèles, même sa version IA
-	Modifié il y a 6 heures par Golemancer
+	Modifié il y a 8 heures par Golemancer
 								2
 								1
 
@@ -741,7 +704,7 @@ Il y a 2 heures, Krholam a dit :
 			GFS tient vraiment à sa GF avec sur certains ensembles un scenario à faire froid (ou chaud) dans le dos....
 			À surveiller
 	GFS 6z contre JMA00z, Icon00z, GEM00z, Nasa00z, AIFS0z, CEP00z, AIGFS06z (et surement son run de contrôle).  Seul CMA s'en rapproche. On va attendre un peu hein?
-	Modifié il y a 5 heures par Virgile
+	Modifié il y a 7 heures par Virgile
 								5
 								2
 
@@ -767,7 +730,7 @@ il y a 11 minutes, Virgile a dit :
 	Mais oui tu as tout à fait raison, on va attendre
 	Après cette GF apparait sur un certain nombre de runs des ensemblistes (même si GEFS force le trait on en a l’habitude)
 	Il est trop tot pour ce prononcer mais, avis personnel, ce possible n’est pas plaisant
-	Modifié il y a 4 heures par Krholam
+	Modifié il y a 6 heures par Krholam
 								2
 
 =======================
@@ -786,8 +749,8 @@ Auteur: Virgile
 Message:
 Les AI voient une dépression/goutte froide assez prononcée s'enfonçant dans le sud mettant fin à la vague de chaleur même dans le sud est ( ou certaines zones n'ont pas descendu sous les 30 degrés depuis juin)
 	Mais qu'est ce qu'il en restera au final?  une petite goutte froide? 
-	Modifié il y a 3 heures par Virgile
-								7
+	Modifié il y a 5 heures par Virgile
+								8
 								5
 								1
 
@@ -798,7 +761,7 @@ Message:
 Oui, les versions IA rejoignent le déterministe CEP de ce matin, c'est une bonne nouvelle mais il reste du chemin...
 	Cette option est pour le moment minoritaire dans l'ensemble CEP.
 	En tout cas c'est le scénario rêvé par ici.
-	Modifié il y a 3 heures par Twister83
+	Modifié il y a 5 heures par Twister83
 								1
 
 =======================
@@ -811,3 +774,59 @@ il y a 16 minutes, Virgile a dit :
 	Le cocktail explosif par excellence sur le pays en encore plus en zone Med.
 	On ne va pas y cracher dessus mais bon, si cela arrive il va falloir être vigilant ! 
 								2
+
+=======================
+
+Auteur: philoubidou38bis
+Message:
+Un décalage à l’ouest et on est cuit...un décalage à l’est dôme repetitae...
+	A suivre c’est loin...
+								1
+
+=======================
+
+Auteur: mathias
+Message:
+Bonne dégradation pluvieuse sur une partie sud du pays avec la dernière sortie GFS.
+	Modifié il y a 1 heure par mathias
+								2
+								1
+								1
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a 32 minutes, mathias a dit :
+			Bonne dégradation pluvieuse sur une partie sud du pays avec la dernière sortie GFS.
+	Pourquoi GFS reste le modèle sur ce forum le + commenté? j'ai jamais compris. Je le regarde mais au même titre que UKMO/Icon/GEM et le cep.
+	GFS reste isolé par rapport aux autres. Donc uniquement le commenter, c'est aller droit dans le mur.
+	GFS reste dans sa voie du 6 z avec un décalage géographique + à l'est., c'est à dire trajectoire goutte froide vers la péninsule ibérique.
+	6z :
+	12z:
+	Pendant que tous les autres ont un semblant d'accord, à savoir une trajectoire irlande/nord de la france/europe central:
+	Icon:
+	ukmo:
+	GEM:
+	AIGFS:
+	Modifié il y a 1 heure par Virgile
+								5
+								1
+								2
+
+=======================
+
+Auteur: babe
+Message:
+En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
+								4
+
+=======================
+
+Auteur: mathias
+Message:
+il y a 55 minutes, Virgile a dit :
+			Pourquoi GFS reste le modèle sur ce forum le + commenté? j'ai jamais compris.
+	Parce que le soir, il est le premier à sortir et que je suis un couche tôt ! 
+								1
