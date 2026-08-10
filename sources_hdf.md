@@ -308,11 +308,12 @@ est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -320,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 10 Août 2026.
-Résumé général HDF précédent : Après une canicule marquée (pic jeudi 13), rafraîchissement notable dimanche ce pour au 17 ; puis la semaine suivante reste plus douce mais incertaine..
+Résumé général HDF précédent : Une canicule marquée pour la première semaine, suivie d'un rafraîchissement net mais dont la durée et l'intensité restent incertaines. Le scénario d'un retour de la chaleur en deuxième partie de semaine 2 est possible mais pas majoritaire..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur maintenue plus longtemps que prévu les 16-18, ensuite rafraîchissement modéré..
+Températures attendues précédemment : Pic caniculaire jeudi 13, suivi d'une baisse des températures samedi 15 et dimanche 16..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
@@ -596,68 +597,10 @@ Le déterministe cep fait une sacrée boucle sur la france avec rafraichissement
 
 Auteur: symaski62
 Message:
-minuit   mardi   1h00
+minuit   mardi   1h00        
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: zagueb83
-Message:
-Moi j'espère juste que les fêtes de fin d'années ne se feront pas sous 34°C le 25...
-	Ici c'est interminable et risque de le rester encore un bon moment vu les modélisations ! 
-	Après physiologiquement pour notre corps, l'été est terminé car cela dure déjà depuis trop longtemps, mais non on rempile... 
-								2
-								5
-								3
-
-=======================
-
-Auteur: Twister83
-Message:
-Toujours le jour et la nuit entre les modèles ce matin pour le début de semaine prochaine...
-	Presque un épisode méditerranéen sur le DET CEP
-	Léger flux de NO sur GEM/UKMO, GFS dans un autre délire comme d'habitude.
-	Seul ICON s'approche un peu du scénario à la déterministe CEP ce matin.
-	Modifié il y a 9 heures par Twister83
-								2
-								2
-								1
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-GFS tient vraiment à sa GF avec sur certains ensembles un scenario à faire froid (ou chaud) dans le dos....
-	À surveiller
-
-=======================
-
-Auteur: WhenDayBreaks
-Message:
-Il y a 12 heures, zagueb83 a dit :
-			Moi j'espère juste que les fêtes de fin d'années ne se feront pas sous 34°C le 25...
-			Ici c'est interminable et risque de le rester encore un bon moment vu les modélisations ! 
-			Après physiologiquement pour notre corps, l'été est terminé car cela dure déjà depuis trop longtemps, mais non on rempile... 
-	C'est 2022 mais en pire tout simplement , le blocage finira par disparaitre. Mais comme en 2022 je ne serais pas étonné que le dernier coup de chaud ait lieu fin octobre/début novembre même en tant qu'épisode isolé.
-	Ici et observant les moyennes des ensemblistes pour la semaine , c'est pas terrible. Espérons que le raccourcissement désormais sensible des jours et la reconstitution du vortex polaire puisse diminuer progressivement l'intensité de cet enfer météo. Mais dans l'absolu l'état de siège est toujours là. 
-	Courage à tous.   
-								1
-								1
-								2
-
-=======================
-
-Auteur: Golemancer
-Message:
-il y a 15 minutes, Krholam a dit :
-			GFS tient vraiment à sa GF avec sur certains ensembles un scenario à faire froid (ou chaud) dans le dos....
-			À surveiller
-	Il est tout seul dans son délire comparé aux autres modèles, même sa version IA
-	Modifié il y a 8 heures par Golemancer
-								2
-								1
-
-=======================
-
 Auteur: Grahok73
 Message:
 il y a 44 minutes, Twister83 a dit :
@@ -698,7 +641,7 @@ Il y a 2 heures, Krholam a dit :
 			GFS tient vraiment à sa GF avec sur certains ensembles un scenario à faire froid (ou chaud) dans le dos....
 			À surveiller
 	GFS 6z contre JMA00z, Icon00z, GEM00z, Nasa00z, AIFS0z, CEP00z, AIGFS06z (et surement son run de contrôle).  Seul CMA s'en rapproche. On va attendre un peu hein?
-	Modifié il y a 7 heures par Virgile
+	Modifié il y a 9 heures par Virgile
 								5
 								2
 
@@ -724,7 +667,7 @@ il y a 11 minutes, Virgile a dit :
 	Mais oui tu as tout à fait raison, on va attendre
 	Après cette GF apparait sur un certain nombre de runs des ensemblistes (même si GEFS force le trait on en a l’habitude)
 	Il est trop tot pour ce prononcer mais, avis personnel, ce possible n’est pas plaisant
-	Modifié il y a 6 heures par Krholam
+	Modifié il y a 8 heures par Krholam
 								2
 
 =======================
@@ -743,7 +686,7 @@ Auteur: Virgile
 Message:
 Les AI voient une dépression/goutte froide assez prononcée s'enfonçant dans le sud mettant fin à la vague de chaleur même dans le sud est ( ou certaines zones n'ont pas descendu sous les 30 degrés depuis juin)
 	Mais qu'est ce qu'il en restera au final?  une petite goutte froide? 
-	Modifié il y a 5 heures par Virgile
+	Modifié il y a 7 heures par Virgile
 								8
 								5
 								1
@@ -755,7 +698,7 @@ Message:
 Oui, les versions IA rejoignent le déterministe CEP de ce matin, c'est une bonne nouvelle mais il reste du chemin...
 	Cette option est pour le moment minoritaire dans l'ensemble CEP.
 	En tout cas c'est le scénario rêvé par ici.
-	Modifié il y a 5 heures par Twister83
+	Modifié il y a 7 heures par Twister83
 								1
 
 =======================
@@ -782,9 +725,9 @@ Un décalage à l’ouest et on est cuit...un décalage à l’est dôme repetit
 Auteur: mathias
 Message:
 Bonne dégradation pluvieuse sur une partie sud du pays avec la dernière sortie GFS.
-	Modifié il y a 1 heure par mathias
+	Modifié il y a 3 heures par mathias
 								2
-								1
+								2
 								1
 								1
 
@@ -804,17 +747,19 @@ il y a 32 minutes, mathias a dit :
 	ukmo:
 	GEM:
 	AIGFS:
-	Modifié il y a 1 heure par Virgile
-								5
+	Modifié il y a 3 heures par Virgile
+								6
 								1
-								2
+								3
+								1
 
 =======================
 
 Auteur: babe
 Message:
 En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
-								4
+								9
+								1
 
 =======================
 
@@ -823,4 +768,73 @@ Message:
 il y a 55 minutes, Virgile a dit :
 			Pourquoi GFS reste le modèle sur ce forum le + commenté? j'ai jamais compris.
 	Parce que le soir, il est le premier à sortir et que je suis un couche tôt ! 
+								1
+								1
+								1
+								8
+
+=======================
+
+Auteur: A.M.
+Message:
+il y a une heure, Virgile a dit :
+			Pourquoi GFS reste le modèle sur ce forum le + commenté? j'ai jamais compris
+	Dans les années 2000, un modèle qui propose 4 runs par jour jusqu'à H+240, un panel, avec une fiabilité pas vilaine et affiché par défaut pour les prévisions court-terme de Météociel, et seul sur ses prévisions long-terme... Je pense qu'il reste une référence dans la mémoire collective, et qui plus est transmise par les anciens aux novices dans ce topic LT. En outre il reste encore capable de coups d'éclat.
+								2
+								1
+								3
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a une heure, babe a dit :
+			En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
+	Oui c'est possible :
+	Mais je me méfie quand même. 
+	Modifié il y a 1 heure par Virgile
+								3
+								1
+								1
+
+=======================
+
+Auteur: meteo noobs
+Message:
+GFS est pour moi le truffier à canicule.
+	Il peut voir un cyclone sur la france a 24h je n'en tiendrais pas compte. Par compte il voit une canicule à +240h j'ai des sueurs froides.
+								5
+
+=======================
+
+Auteur: tao
+Message:
+il y a 19 minutes, meteo noobs a dit :
+			GFS est pour moi le truffier à canicule.
+	Bonsoir,
+	ça ne mange pas de pain et cela entretient la légende .
+	Pour ce qui est de l'évolution, on aurait bien une baisse  des températures mais cela resterait, si l'on en croit les ensembles relatif compte tenu des excès que l'on connait.
+	Le signal plus humide existe bien, par contre il devra être confirmé et il est possible qu'il ne soit pas étendu à l'ensemble du territoire. Sérieusement, la bascule vers une météo de fin d'été est encore loin et à consolider. Si on regarde les moyennes à longue échéance, la ceinture garde une certaine résistance:
+	Dans le détail, on devrait avoir des adaptations, mais globalement le changement synoptique, au sens d'un enfoncement marqué de la ceinture subtropicale, n'est pas gagné.
+								1
+
+=======================
+
+Auteur: _sb
+Message:
+Il y a 2 heures, Virgile a dit :
+			Pourquoi GFS reste le modèle sur ce forum le + commenté? j'ai jamais compris.
+	Parce que c'est un modèle honorable comme les autres.
+	Ce que je ne comprends pas, c'est l'acharnement à ne jurer que sur des impressions sans se remettre le moins du monde en cause.
+	Les impressions sont importantes et les centres mondiaux questionnent régulièrement des prévisionnistes opérationnels professionnels sur leurs impressions sur la qualité et l'efficacité de tel ou tel modèle pour tel ou tel paramètre à telle ou telle échéance et telle et telle région géographique. C'est la précieuse expérience acquise. Mais 1- c'est circonstancié, et 2- ce n'est pas du bashing.
+	Tant pis pour ceux qui ne jurent que leur opinion, voici quelques éléments pour juillet 2026 :
+	- La hauteur du géopotentiel à 500 hPa.
+	Je rappelle que ce niveau se situe aux alentours de 5500 m. Les erreurs moyennes sur l'Europe sont celles-ci : 7 m d'erreur moyenne au pire pour GFS à J+6 et J+7. Et oui, son 12z a une meilleure moyenne à J+9 et J+10 qu'IFS.
+	N'oublions pas non plus que ces moyennes sont basés sur l'analyse d'IFS le jour J. L'analyse de GFS et des autres modèles sont toujours différentes (les données assimilées et les process ne sont pas les mêmes).
+	Donc si on prend désormais les observations (mais il n'y a pas GFS disponible), ça donne ceci. L'erreur moyenne d'IFS passe de 2 à 5 m à J+4 et à J+10 de -5 à +5 m.
+	Ainsi, si on comparait les simulations LT aux observations plutôt qu'aux dernières simulations à CT, les fameuses impressions seraient encore autres.
+	- Même chose avec les T850 : erreur moyenne de GFS de 0,8°C à J+7, 0,6°C à J+9, -0,2°C pour IFS. L'un surestime, l'autre sous-estime mais ce n'est pas l'abîme. Et par rapport aux observations, les erreurs d'IFS augmentent à toutes échéances. Bref, plutôt qu'un avis tranché et absolu, un peu de nuances seraient sûrement bienvenue. GFS a droit d'être cité par qui veut, en sachant qu'il surestime un peu, tout comme IFS qui sous-estime. 😉 
+	Fin du HS.
+	Modifié il y a 10 minutes par _sb
+coquilles
 								1
