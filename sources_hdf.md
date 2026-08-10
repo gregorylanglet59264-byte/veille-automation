@@ -308,12 +308,12 @@ est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
+• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
+• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 10 Août 2026.
-Résumé général HDF précédent : Une canicule marquée pour la première semaine, suivie d'un rafraîchissement net mais dont la durée et l'intensité restent incertaines. Le scénario d'un retour de la chaleur en deuxième partie de semaine 2 est possible mais pas majoritaire..
+Résumé général HDF précédent : Canicule marquée en semaine 1 avec un pic jeudi 13, suivie d'un rafraîchissement net mais temporaire en début de semaine 2, puis d'un retour probable de conditions plus chaudes en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pic caniculaire jeudi 13, suivi d'une baisse des températures samedi 15 et dimanche 16..
+Températures attendues précédemment : Canicule prolongée avec intensification de la chaleur, rafraîchissement modéré seulement après le 16-18 août. (114 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 10 au Dimanche 16 Août 2026) ===
@@ -601,64 +601,6 @@ minuit   mardi   1h00        
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Grahok73
-Message:
-il y a 44 minutes, Twister83 a dit :
-			Toujours le jour et la nuit entre les modèles ce matin pour le début de semaine prochaine...
-			Presque un épisode méditerranéen sur le DET CEP
-			Léger flux de NO sur GEM/UKMO, GFS dans un autre délire comme d'habitude.
-			Seul ICON s'approche un peu du scénario à la déterministe CEP ce matin.
-	Je ne serais malheureusement pas surpris avec cette météo hors norme que l'on enchaîne dans le Sud sur une "mousson" méditerranéenne précoce...
-
-=======================
-
-Auteur: faycal
-Message:
-Le déroulé de notre semaine dépendra fortement de la dynamique de cette anomalie qui se présentera lundi sur l'Irlande.
-	Certains comme GFS ou GEM voient un transit rapide vers l'Europe Centrale avec un retour rapide des conditions anticycloniques.
-	D'autres, un isolement en GF avec une dégradation durable sur le pays ( une première en deux mois). C'est par exemple ce qui est défendu par AIGFS
-	Et puis un scénario intermédiaire avec un détachement  marqué du talweg sur le pays mais sans pour autant d'isolement en goutte froide. On aurait alors une dégradation marquée d'environ 48h avec des PP plus ou moins copieuses en fonction de la profondeur d'attaque du talweg. La façade est serait la mieux lotie.
-	Pour la seconde partie de semaine, les modèles s'accordent pour l'instant sur le retour de conditions anticycloniques et une nette remontée des températures au moins sur la moitié sud.
-								6
-								1
-
-=======================
-
-Auteur: Victor hurricane tempête
-Message:
-il y a 34 minutes, WhenDayBreaks a dit :
-			C'est 2022 mais en pire tout simplement , le blocage finira par disparaitre. Mais comme en 2022 je ne serais pas étonné que le dernier coup de chaud ait lieu fin octobre/début novembre même en tant qu'épisode isolé.
-			Ici et observant les moyennes des ensemblistes pour la semaine , c'est pas terrible. Espérons que le raccourcissement désormais sensible des jours et la reconstitution du vortex polaire puisse diminuer progressivement l'intensité de cet enfer météo. Mais dans l'absolu l'état de siège est toujours là. 
-	En faut c'est presque logique tout simplement car la récurrence synoptique est là, boosté comme certains l'ont dit par un l'Atlantique surchauffé, et qui ne peut plus nous sauver. Il faudra attendre longtemps avant de redescendre réellement, et encore, tout ça pour se taper un énième hiver extrêmement doux...
-								2
-								2
-
-=======================
-
-Auteur: Virgile
-Message:
-Il y a 2 heures, Krholam a dit :
-			GFS tient vraiment à sa GF avec sur certains ensembles un scenario à faire froid (ou chaud) dans le dos....
-			À surveiller
-	GFS 6z contre JMA00z, Icon00z, GEM00z, Nasa00z, AIFS0z, CEP00z, AIGFS06z (et surement son run de contrôle).  Seul CMA s'en rapproche. On va attendre un peu hein?
-	Modifié il y a 9 heures par Virgile
-								5
-								2
-
-=======================
-
-Auteur: Virgile
-Message:
-Il y a 1 heure, WhenDayBreaks a dit :
-			C'est 2022 mais en pire tout simplement , le blocage finira par disparaitre. Mais comme en 2022 je ne serais pas étonné que le dernier coup de chaud ait lieu fin octobre/début novembre même en tant qu'épisode isolé.
-			Ici et observant les moyennes des ensemblistes pour la semaine , c'est pas terrible. Espérons que le raccourcissement désormais sensible des jours et la reconstitution du vortex polaire puisse diminuer progressivement l'intensité de cet enfer météo. Mais dans l'absolu l'état de siège est toujours là. 
-			Courage à tous.   
-	Sauf qu'à un moment, si les anticyclones subtropicaux restent de mise, le froid en basse couche prendra le relais et il fera froid en plaine. Même en 2070, le froid de basses couches en novembre/janvier existera toujours malgré le RC avec la position du soleil.
-								5
-								2
-
-=======================
-
 Auteur: Krholam
 Message:
 il y a 11 minutes, Virgile a dit :
@@ -667,7 +609,7 @@ il y a 11 minutes, Virgile a dit :
 	Mais oui tu as tout à fait raison, on va attendre
 	Après cette GF apparait sur un certain nombre de runs des ensemblistes (même si GEFS force le trait on en a l’habitude)
 	Il est trop tot pour ce prononcer mais, avis personnel, ce possible n’est pas plaisant
-	Modifié il y a 8 heures par Krholam
+	Modifié il y a 10 heures par Krholam
 								2
 
 =======================
@@ -686,7 +628,7 @@ Auteur: Virgile
 Message:
 Les AI voient une dépression/goutte froide assez prononcée s'enfonçant dans le sud mettant fin à la vague de chaleur même dans le sud est ( ou certaines zones n'ont pas descendu sous les 30 degrés depuis juin)
 	Mais qu'est ce qu'il en restera au final?  une petite goutte froide? 
-	Modifié il y a 7 heures par Virgile
+	Modifié il y a 9 heures par Virgile
 								8
 								5
 								1
@@ -698,7 +640,7 @@ Message:
 Oui, les versions IA rejoignent le déterministe CEP de ce matin, c'est une bonne nouvelle mais il reste du chemin...
 	Cette option est pour le moment minoritaire dans l'ensemble CEP.
 	En tout cas c'est le scénario rêvé par ici.
-	Modifié il y a 7 heures par Twister83
+	Modifié il y a 9 heures par Twister83
 								1
 
 =======================
@@ -718,15 +660,15 @@ Auteur: philoubidou38bis
 Message:
 Un décalage à l’ouest et on est cuit...un décalage à l’est dôme repetitae...
 	A suivre c’est loin...
-								1
+								2
 
 =======================
 
 Auteur: mathias
 Message:
 Bonne dégradation pluvieuse sur une partie sud du pays avec la dernière sortie GFS.
-	Modifié il y a 3 heures par mathias
-								2
+	Modifié il y a 5 heures par mathias
+								3
 								2
 								1
 								1
@@ -747,7 +689,7 @@ il y a 32 minutes, mathias a dit :
 	ukmo:
 	GEM:
 	AIGFS:
-	Modifié il y a 3 heures par Virgile
+	Modifié il y a 5 heures par Virgile
 								6
 								1
 								3
@@ -758,8 +700,14 @@ il y a 32 minutes, mathias a dit :
 Auteur: babe
 Message:
 En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
-								9
+								10
 								1
+
+=======================
+
+Auteur: ripocheguillaume_88
+Message:
+GFS maintien un peu de pluie sur le NO/OUEST pour lundi
 
 =======================
 
@@ -771,7 +719,7 @@ il y a 55 minutes, Virgile a dit :
 								1
 								1
 								1
-								8
+								14
 
 =======================
 
@@ -792,7 +740,7 @@ il y a une heure, babe a dit :
 			En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
 	Oui c'est possible :
 	Mais je me méfie quand même. 
-	Modifié il y a 1 heure par Virgile
+	Modifié il y a 3 heures par Virgile
 								3
 								1
 								1
@@ -803,7 +751,7 @@ Auteur: meteo noobs
 Message:
 GFS est pour moi le truffier à canicule.
 	Il peut voir un cyclone sur la france a 24h je n'en tiendrais pas compte. Par compte il voit une canicule à +240h j'ai des sueurs froides.
-								5
+								7
 
 =======================
 
@@ -816,7 +764,7 @@ il y a 19 minutes, meteo noobs a dit :
 	Pour ce qui est de l'évolution, on aurait bien une baisse  des températures mais cela resterait, si l'on en croit les ensembles relatif compte tenu des excès que l'on connait.
 	Le signal plus humide existe bien, par contre il devra être confirmé et il est possible qu'il ne soit pas étendu à l'ensemble du territoire. Sérieusement, la bascule vers une météo de fin d'été est encore loin et à consolider. Si on regarde les moyennes à longue échéance, la ceinture garde une certaine résistance:
 	Dans le détail, on devrait avoir des adaptations, mais globalement le changement synoptique, au sens d'un enfoncement marqué de la ceinture subtropicale, n'est pas gagné.
-								1
+								5
 
 =======================
 
@@ -835,6 +783,48 @@ Il y a 2 heures, Virgile a dit :
 	Ainsi, si on comparait les simulations LT aux observations plutôt qu'aux dernières simulations à CT, les fameuses impressions seraient encore autres.
 	- Même chose avec les T850 : erreur moyenne de GFS de 0,8°C à J+7, 0,6°C à J+9, -0,2°C pour IFS. L'un surestime, l'autre sous-estime mais ce n'est pas l'abîme. Et par rapport aux observations, les erreurs d'IFS augmentent à toutes échéances. Bref, plutôt qu'un avis tranché et absolu, un peu de nuances seraient sûrement bienvenue. GFS a droit d'être cité par qui veut, en sachant qu'il surestime un peu, tout comme IFS qui sous-estime. 😉 
 	Fin du HS.
-	Modifié il y a 10 minutes par _sb
+	Modifié il y a 2 heures par _sb
 coquilles
+								3
+								7
 								1
+
+=======================
+
+Auteur: Virgile
+Message:
+_sb, quand on a cite un propos d'un internaute dont c'est mon cas, faut avoir l’honnêteté de citer tout le propos.
+	"Pourquoi GFS reste le modèle sur ce forum le + commenté? j'ai jamais compris. Je le regarde mais au même titre que UKMO/Icon/GEM et le cep."
+	J'ai jamais écris qu'il ne fallait pas utiliser GFS car moi même je l'utilise.  Commenter uniquement un run de gfs à J+6 à j+10 (c'est pratique, il sort 4 fois par jour à 384 heures) au pied de la lettre, c'est souvent des messages qui n'ont pas plus d’intérêt 6 heures après. On faisait cela pour les vagues de froid, maintenant on le fait pour les vagues de chaud.
+	Et Non, GFS n'a pas toujours raison avec des canicules de terreur.
+		Posté(e) 27 juillet  
+		Posté le 27 juillet
+
+=======================
+
+Auteur: meteo noobs
+Message:
+Aucun modèle ne surpasse un autre. A mon sens l'interprétation des sorties de chaque modèle faite en connaissance de cause des biais est la règle. Comme le replacer dans son ensemble. Et comme chercher une convergence entre eux.
+	Je pense que de nos jours nous avons tout de même des modèles de pointe et qu'aucun vrai passionné ne fait pas le tour de l'ensemble.
+	Moi je vois le tout comme une boite à outil ou chacun à son fonction. Même si on les vannes sur leurs biais c est bien parce que l'on a connaissance de ceux ci.
+								2
+
+=======================
+
+Auteur: _sb
+Message:
+@Virgile, tu as raison, mon propos prête à confusion.
+	Pris dans l'élan de la réponse, j'ai relu l'orthographe mais pas la tournure.
+	Seule ma première phrase te concernait comme réponse à ta question (le reste de ta phrase était donc inutile dans la citation). La suite est pour toutes les personnes qui bashent GFS à chaque occasion, soit par un post soit par une réaction à un post. Ce qui ne m'est pas compréhensible. C'est pour cela que j'employais le pluriel et non le singulier (à moins que tu ne sois plusieurs sous ton crâne !  ). Donc mea culpa.
+								1
+								1
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierement.
+	J’inverse le code couleur et ça va mieux.
+								2
+								9
