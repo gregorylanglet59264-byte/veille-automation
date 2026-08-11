@@ -340,12 +340,12 @@ vigilance orange orage persiste sur le sud-est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -353,9 +353,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 11 Août 2026.
-Résumé général précédent : Après un pic caniculaire jeudi 13, rafraîchissement progressif par le nord-ouest samedi, puis temps plus frais et instable lundi-mardi ; incertitude forte ensuite sur le retour de la chaleur en fin de période..
+Résumé général précédent : Après un pic caniculaire remarquable jeudi 13 août, rafraîchissement progressif par le nord-ouest en fin de semaine, puis dégradation orageuse possible en début de semaine 2, avant une possible remontée de la chaleur..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur intense prolongée, 40°C possibles, rafraîchissement tardif et limité au nord-ouest..
+Températures attendues précédemment : Chaleur intense et durable, 40°C possibles ; orages très limités en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 11 au Dimanche 16 Août 2026) ===
@@ -631,17 +631,6 @@ Message:
 jeudi    très chaud   14h00
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: zagueb83
-Message:
-il y a 16 minutes, Virgile a dit :
-			Les AI voient une dépression/goutte froide assez prononcée s'enfonçant dans le sud mettant fin à la vague de chaleur même dans le sud est ( ou certaines zones n'ont pas descendu sous les 30 degrés depuis juin)
-			Mais qu'est ce qu'il en restera au final?  une petite goutte froide? 
-	Le cocktail explosif par excellence sur le pays en encore plus en zone Med.
-	On ne va pas y cracher dessus mais bon, si cela arrive il va falloir être vigilant ! 
-								2
-
-=======================
-
 Auteur: philoubidou38bis
 Message:
 Un décalage à l’ouest et on est cuit...un décalage à l’est dôme repetitae...
@@ -653,7 +642,7 @@ Un décalage à l’ouest et on est cuit...un décalage à l’est dôme repetit
 Auteur: mathias
 Message:
 Bonne dégradation pluvieuse sur une partie sud du pays avec la dernière sortie GFS.
-	Modifié il y a 19 heures par mathias
+	Modifié il y a 21 heures par mathias
 								3
 								2
 								1
@@ -675,7 +664,7 @@ il y a 32 minutes, mathias a dit :
 	ukmo:
 	GEM:
 	AIGFS:
-	Modifié il y a 19 heures par Virgile
+	Modifié il y a 21 heures par Virgile
 								6
 								1
 								3
@@ -727,7 +716,7 @@ il y a une heure, babe a dit :
 			En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
 	Oui c'est possible :
 	Mais je me méfie quand même. 
-	Modifié il y a 17 heures par Virgile
+	Modifié il y a 19 heures par Virgile
 								3
 								1
 								1
@@ -772,7 +761,7 @@ Il y a 2 heures, Virgile a dit :
 	Ainsi, si on comparait les simulations LT aux observations plutôt qu'aux dernières simulations à CT, les fameuses impressions seraient encore autres.
 	- Même chose avec les T850 : erreur moyenne de GFS de 0,8°C à J+7, 0,6°C à J+9, -0,2°C pour IFS. L'un surestime, l'autre sous-estime mais ce n'est pas l'abîme. Et par rapport aux observations, les erreurs d'IFS augmentent à toutes échéances. Bref, plutôt qu'un avis tranché et absolu, un peu de nuances seraient sûrement bienvenue. GFS a droit d'être cité par qui veut, en sachant qu'il surestime un peu, tout comme IFS qui sous-estime. 😉 
 	Fin du HS.
-	Modifié il y a 16 heures par _sb
+	Modifié il y a 18 heures par _sb
 coquilles
 								5
 								13
@@ -818,7 +807,7 @@ J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierem
 								3
 								1
 								1
-								53
+								57
 
 =======================
 
@@ -828,7 +817,7 @@ La sortie de CEP 0z laisse rêveur 
 	Plongé franche des BP sur la france dans le topic. On se retrouverait en dessous des normales sur une partie nord du pays et un arrosage conséquent.
 	Ca reste le dét a prendre comme un scénario parmis d'autres mais ca fait longtemps qu'on n'a pas eu ce genre de modélisation.
 	J attends les ensembles
-	Modifié il y a 2 heures par meteo noobs
+	Modifié il y a 4 heures par meteo noobs
 Carte
 								1
 								5
@@ -853,6 +842,13 @@ Bon après revu de son ensemble le déterministe est isolé dans les scénarios 
 
 =======================
 
+Auteur: Plancher
+Message:
+GFS et ECMWF ne montrent-ils pas quelques signaux encourageants ?
+	Je vois quelques valeurs qui tranchent un peu... Ce n'est peut-être qu'un mirage...
+
+=======================
+
 Auteur: petit âge glaciaire 11
 Message:
 Il y a 4 heures, meteo noobs a dit :
@@ -865,4 +861,6 @@ Il y a 4 heures, meteo noobs a dit :
 	Le modèle CEP modélise finalement  dans sa moyenne une situation assez classique pour un cœur d'été avec un dégradé nord sud pour le niveau des températures à 850hpa et des hautes pressions sur l'atlantique un peu mieux placées ce qui nous permettrait d'éviter la fournaise sur la majorité du pays. 
 	Des possibilités de pluies semblent aussi émerger mais la il faut rester très prudent.
 	Les régions méditerranéennes resteraient concernées par un temps très chaud mais un ton en dessous de ce qu'on constate actuellement :
-	Modifié il y a 5 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
+								2
+								1
