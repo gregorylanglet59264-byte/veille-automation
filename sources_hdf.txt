@@ -302,7 +302,7 @@ Températures minimales : en baisse sur la Champagne crayeuse.
 Températures maximales : en hausse sur la Champagne crayeuse ainsi que sur le Tardenois.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 110405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mardi 11 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 11 août 2026 à 00H00 UTC, et évolution Anticyclone 1025 hPa sur la mer du Nord se renforçant progressivement 1029 hPa et se décalant sur le nord de l'Allemagne demain. Dépression relative vers 1016 hPa sur le sud-ouest de la France, évoluant peu. 3 - Prévisions pour la journée du mardi 11 août VENT : Est 3 à 4, fraîchissant Nord-Est 4 à 5 à la mi-journée puis 5 à 6 en fin de journée. MER : peu agitée. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mardi 11 août au mercredi 12 août VENT : mollissant Est à Nord-Est 4 à 5 en soirée puis virant Est à Sud-Est en deuxième partie de nuit. MER : peu agitée. HOULE : Nord-Est 0.5 à 1 m en mer du Nord. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du mercredi 12 août VENT : Est à Sud-Est 3 à 4, revenant Nord à Nord-Est l'après-midi. MER : belle à peu agitée. HOULE : Nord-Est 0.5 à 1 m, devenant non significative l'après-midi. TEMPS : bien ensoleillé, parfois nuageux le matin. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 12 au 13 et la journée du jeudi 13 août VENT : Est à Nord-Est 4 mollissant 2 à 3 en milieu de nuit. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Vendredi 14 août Secteur Ouest modéré. Indice de confiance : 4 sur 5 Samedi 15 août Secteur Nord-Ouest modéré. Indice de confiance : 3 sur 5 Dimanche 16 août Secteur Nord faible à modéré. Indice de confiance : 2 sur 5 Lundi 17 août Secteur Ouest modéré. Indice de confiance : 2 sur 5 8 - Observations le mardi 11 août 2026 à 03H00 UTC Dunkerque : vent Est 14 noeuds, 1024 hPa en hausse. Cap Gris Nez : vent Est 12 noeuds. Boulogne : vent Est 8 noeuds, 1024 hPa en hausse, clair ou peu nuageux, visibilité 13 milles. Bouée Sandettie : vent Est 16 noeuds, creux 0,6 mètre, 1024 hPa en baisse, visibilité 5 milles. Prochain bulletin le mardi 11 août 2026, vers 12H30 légales
+FQCT40 LFQQ 110945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mardi 11 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 11 août 2026 à 06H00 UTC, et évolution Anticyclone 1025 hPa sur la mer du Nord se renforçant progressivement 1029 hPa et se décalant sur le nord de l'Allemagne demain. Dépression relative vers 1016 hPa sur le sud-ouest de la France, évoluant peu. 3 - Prévisions pour l'après-midi du mardi 11 août VENT : Nord-Est fraîchissant 4 à 5, puis 5 à 6 en fin de journée. MER : peu agitée, localement belle à peu agitée en Manche. HOULE : non significative, mais localement Nord0.5 m vers la frontière Belge. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mardi 11 août au mercredi 12 août VENT : mollissant Est à Nord-Est 4 à 5 en soirée, parfois 6 au début, puis virant Est à Sud-Est en deuxième partie de nuit. MER : peu agitée, localement belle à peu agitée en Manche. HOULE : s'établissant Nord-Est 0.5 à 1 m en mer du Nord, puis en Manche à la fin. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du mercredi 12 août VENT : Est à Sud-Est mollissant 3 à 4, puis revenant Nord à Nord-Est l'après-midi, parfois 5 à la fin. MER : belle à peu agitée. HOULE : Nord-Est 0.5 à 1 m, devenant non significative l'après-midi. TEMPS : ensoleillé, passage nuageux le matin. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 12 au 13 et la journée du jeudi 13 août VENT : Nord à Nord-Est 3 à 4, parfois 5 au début, mollissant secteur Est 2 à 3 en seconde partie de nuit, puis revenant secteur Nord-Est en journée. MER : belle à peu agitée, puis belle le matin. HOULE : non significative. TEMPS : clair à peu nuageux. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 13 au 14 et la journée du vendredi 14 août VENT : Variable 1 à 3, s'orientant Ouest à Sud-Ouest 5. MER : belle à peu agitée. Pas de houle significative. 8 - Tendance pour les jours suivants Samedi 15 août Secteur Nord modéré. Indice de confiance : 4 sur 5 Dimanche 16 août Secteur Nord-Ouest faible à modéré. Indice de confiance : 3 sur 5 Lundi 17 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Mardi 18 août Secteur Nord-Ouest modéré. Indice de confiance : 2 sur 5 9 - Observations le mardi 11 août 2026 à 09H00 UTC Dunkerque : vent Est-Nord-Est 12 noeuds, mer belle, 1025 hPa en hausse, clair ou peu nuageux, visibilité 6 milles. Cap Gris Nez : vent Est-Nord-Est 12 noeuds. Boulogne : vent Est 10 noeuds, 1025 hPa en hausse. Prochain bulletin le mardi 11 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -331,12 +331,12 @@ est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
 • Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -344,9 +344,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 11 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Alternance canicule intense (mi-août) puis rafraîchissement net, retour à des conditions plus proches des normales en seconde partie de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Orages et pluies samedi sur l'intérieur, vent modéré..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 11 au Dimanche 16 Août 2026) ===
@@ -601,6 +601,7 @@ Auteur: symaski62
 Message:
 minuit   mardi   1h00        
 								1
+								1
 
 =======================
 
@@ -621,23 +622,12 @@ Message:
 jeudi    très chaud   14h00
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Virgile
-Message:
-Les AI voient une dépression/goutte froide assez prononcée s'enfonçant dans le sud mettant fin à la vague de chaleur même dans le sud est ( ou certaines zones n'ont pas descendu sous les 30 degrés depuis juin)
-	Mais qu'est ce qu'il en restera au final?  une petite goutte froide? 
-	Modifié il y a 19 heures par Virgile
-								8
-								5
-								1
-
-=======================
-
 Auteur: Twister83
 Message:
 Oui, les versions IA rejoignent le déterministe CEP de ce matin, c'est une bonne nouvelle mais il reste du chemin...
 	Cette option est pour le moment minoritaire dans l'ensemble CEP.
 	En tout cas c'est le scénario rêvé par ici.
-	Modifié il y a 19 heures par Twister83
+	Modifié il y a 21 heures par Twister83
 								1
 
 =======================
@@ -664,7 +654,7 @@ Un décalage à l’ouest et on est cuit...un décalage à l’est dôme repetit
 Auteur: mathias
 Message:
 Bonne dégradation pluvieuse sur une partie sud du pays avec la dernière sortie GFS.
-	Modifié il y a 15 heures par mathias
+	Modifié il y a 17 heures par mathias
 								3
 								2
 								1
@@ -686,7 +676,7 @@ il y a 32 minutes, mathias a dit :
 	ukmo:
 	GEM:
 	AIGFS:
-	Modifié il y a 15 heures par Virgile
+	Modifié il y a 17 heures par Virgile
 								6
 								1
 								3
@@ -717,7 +707,7 @@ il y a 55 minutes, Virgile a dit :
 								1
 								1
 								1
-								15
+								16
 
 =======================
 
@@ -738,7 +728,7 @@ il y a une heure, babe a dit :
 			En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
 	Oui c'est possible :
 	Mais je me méfie quand même. 
-	Modifié il y a 13 heures par Virgile
+	Modifié il y a 15 heures par Virgile
 								3
 								1
 								1
@@ -749,7 +739,7 @@ Auteur: meteo noobs
 Message:
 GFS est pour moi le truffier à canicule.
 	Il peut voir un cyclone sur la france a 24h je n'en tiendrais pas compte. Par compte il voit une canicule à +240h j'ai des sueurs froides.
-								7
+								8
 								1
 
 =======================
@@ -783,7 +773,7 @@ Il y a 2 heures, Virgile a dit :
 	Ainsi, si on comparait les simulations LT aux observations plutôt qu'aux dernières simulations à CT, les fameuses impressions seraient encore autres.
 	- Même chose avec les T850 : erreur moyenne de GFS de 0,8°C à J+7, 0,6°C à J+9, -0,2°C pour IFS. L'un surestime, l'autre sous-estime mais ce n'est pas l'abîme. Et par rapport aux observations, les erreurs d'IFS augmentent à toutes échéances. Bref, plutôt qu'un avis tranché et absolu, un peu de nuances seraient sûrement bienvenue. GFS a droit d'être cité par qui veut, en sachant qu'il surestime un peu, tout comme IFS qui sous-estime. 😉 
 	Fin du HS.
-	Modifié il y a 12 heures par _sb
+	Modifié il y a 14 heures par _sb
 coquilles
 								5
 								13
@@ -828,7 +818,8 @@ J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierem
 	J’inverse le code couleur et ça va mieux.
 								2
 								2
-								37
+								1
+								46
 
 =======================
 
@@ -838,7 +829,10 @@ La sortie de CEP 0z laisse rêveur 
 	Plongé franche des BP sur la france dans le topic. On se retrouverait en dessous des normales sur une partie nord du pays et un arrosage conséquent.
 	Ca reste le dét a prendre comme un scénario parmis d'autres mais ca fait longtemps qu'on n'a pas eu ce genre de modélisation.
 	J attends les ensembles
-								2
+	Modifié il y a 46 minutes par meteo noobs
+Carte
+								1
+								3
 								1
 
 =======================
@@ -846,3 +840,13 @@ La sortie de CEP 0z laisse rêveur 
 Auteur: Twister83
 Message:
 Pour les régions méditerranéennes, toujours beaucoup d'incertitudes pour le début de semaine prochaine, isolement du talweg en Méditerranée ou pas, ça va de l'épisode Méditerranéen (GEM/GFS) ou poursuite d'un temps très sec avec mistral et tramontane (ICON/UKMO/CEP IA)...
+								3
+
+=======================
+
+Auteur: meteo noobs
+Message:
+Bon après revu de son ensemble le déterministe est isolé dans les scénarios bas....
+	Éclatement conséquent 🫤 les portes sont ouvertes.... Bon on est déjà sur du LT++
+	Par contre pour le weekend qui précedera le topic il y a un certain consensus des modèles et une baisse des températures avec dégradation orageuse non organisée en plusieurs salves selon régions.
+	Reste uniquement comme l'a souligné @Twister83le cas complexe du sud qui est suspendu au comportement du thalweg pour lundi.
