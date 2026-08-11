@@ -308,22 +308,22 @@ est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
 • Infoclimat Direct : Les outils de Quentin - Visualisation imagerie satellite
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Lundi 10 Août 2026.
-Résumé général HDF précédent : Canicule marquée en semaine 1 avec un pic jeudi, suivie d'un rafraîchissement net en début de semaine 2. Le retour de la chaleur est incertain pour la fin de semaine 2, les modèles étant partagés..
+Dernier bulletin HDF généré le Mardi 11 Août 2026.
+Résumé général HDF précédent : Canicule intense en début de période, suivie d'un rafraîchissement net en semaine 2. Retour de la chaleur possible en toute fin de période, mais incertain. Tendance générale : chaleur persistante, avec des épisodes de fraîcheur temporaires..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule intense jeudi 13 (35-38°C), puis dégradation orageuse samedi 15. Rafraîchissement net dimanche 16..
+Températures attendues précédemment : Canicule intense jusqu'à vendredi, puis léger fléchissement avec risque d'orages isolés..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 11 au Dimanche 16 Août 2026) ===
@@ -608,7 +608,7 @@ il y a 11 minutes, Virgile a dit :
 	Mais oui tu as tout à fait raison, on va attendre
 	Après cette GF apparait sur un certain nombre de runs des ensemblistes (même si GEFS force le trait on en a l’habitude)
 	Il est trop tot pour ce prononcer mais, avis personnel, ce possible n’est pas plaisant
-	Modifié il y a 12 heures par Krholam
+	Modifié il y a 14 heures par Krholam
 								2
 
 =======================
@@ -627,7 +627,7 @@ Auteur: Virgile
 Message:
 Les AI voient une dépression/goutte froide assez prononcée s'enfonçant dans le sud mettant fin à la vague de chaleur même dans le sud est ( ou certaines zones n'ont pas descendu sous les 30 degrés depuis juin)
 	Mais qu'est ce qu'il en restera au final?  une petite goutte froide? 
-	Modifié il y a 11 heures par Virgile
+	Modifié il y a 13 heures par Virgile
 								8
 								5
 								1
@@ -639,7 +639,7 @@ Message:
 Oui, les versions IA rejoignent le déterministe CEP de ce matin, c'est une bonne nouvelle mais il reste du chemin...
 	Cette option est pour le moment minoritaire dans l'ensemble CEP.
 	En tout cas c'est le scénario rêvé par ici.
-	Modifié il y a 11 heures par Twister83
+	Modifié il y a 13 heures par Twister83
 								1
 
 =======================
@@ -666,7 +666,7 @@ Un décalage à l’ouest et on est cuit...un décalage à l’est dôme repetit
 Auteur: mathias
 Message:
 Bonne dégradation pluvieuse sur une partie sud du pays avec la dernière sortie GFS.
-	Modifié il y a 7 heures par mathias
+	Modifié il y a 9 heures par mathias
 								3
 								2
 								1
@@ -688,7 +688,7 @@ il y a 32 minutes, mathias a dit :
 	ukmo:
 	GEM:
 	AIGFS:
-	Modifié il y a 7 heures par Virgile
+	Modifié il y a 9 heures par Virgile
 								6
 								1
 								3
@@ -739,7 +739,7 @@ il y a une heure, babe a dit :
 			En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
 	Oui c'est possible :
 	Mais je me méfie quand même. 
-	Modifié il y a 5 heures par Virgile
+	Modifié il y a 7 heures par Virgile
 								3
 								1
 								1
@@ -784,7 +784,7 @@ Il y a 2 heures, Virgile a dit :
 	Ainsi, si on comparait les simulations LT aux observations plutôt qu'aux dernières simulations à CT, les fameuses impressions seraient encore autres.
 	- Même chose avec les T850 : erreur moyenne de GFS de 0,8°C à J+7, 0,6°C à J+9, -0,2°C pour IFS. L'un surestime, l'autre sous-estime mais ce n'est pas l'abîme. Et par rapport aux observations, les erreurs d'IFS augmentent à toutes échéances. Bref, plutôt qu'un avis tranché et absolu, un peu de nuances seraient sûrement bienvenue. GFS a droit d'être cité par qui veut, en sachant qu'il surestime un peu, tout comme IFS qui sous-estime. 😉 
 	Fin du HS.
-	Modifié il y a 4 heures par _sb
+	Modifié il y a 6 heures par _sb
 coquilles
 								3
 								11
@@ -828,4 +828,4 @@ Message:
 J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierement.
 	J’inverse le code couleur et ça va mieux.
 								2
-								20
+								21
