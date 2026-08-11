@@ -316,12 +316,12 @@ vigilance orange orage persiste sur le sud-est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : "[StatIC] Restriction de votre station"... Que faire?
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -329,9 +329,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 11 Août 2026.
-Résumé général précédent : Après un pic caniculaire majeur du 11 au 13 août, une dégradation se profile à partir du 14-15, avec une baisse des températures durable sur le nord. Le sud-est pourrait conserver de la chaleur, mais un risque d'épisode pluvieux reste possible en semaine 2. L'incertitude est forte sur la fin de période..
+Résumé général précédent : Une fin d'épisode caniculaire majeur est en vue, laissant place à un temps plus frais et instable, en particulier sur le nord. Le sud-est restera en marge avec une incertitude forte..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule intense et durable, températures flirtant avec les 40°C à Nantes pendant plusieurs jours, orages possibles sur le nord-ouest en fin de semaine..
+Températures attendues précédemment : Canicule intense et durable. Rafraîchissement tardif et limité. Risque orageux faible..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 11 au Dimanche 16 Août 2026) ===
@@ -600,15 +600,9 @@ Il y a 6 heures, symaski62 a dit :
 			jeudi    très chaud   14h00
 	Attention à ne pas trop se fier aux prévisions météociel qui sont automatique et calquées sur Gfs.
 	Mais oui ça va cagner
-	Modifié il y a 3 heures par Krholam
+	Modifié il y a 5 heures par Krholam
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: ripocheguillaume_88
-Message:
-GFS maintien un peu de pluie sur le NO/OUEST pour lundi
-
-=======================
-
 Auteur: mathias
 Message:
 il y a 55 minutes, Virgile a dit :
@@ -638,7 +632,7 @@ il y a une heure, babe a dit :
 			En tout cas on commence a voir des signaux plus humides a moyen/long terme. Je n’avais pas vu ces signaux depuis juin … peut etre un début de changement de récurrence? 
 	Oui c'est possible :
 	Mais je me méfie quand même. 
-	Modifié il y a 23 heures par Virgile
+	Modifié hier à 18:44 par Virgile
 								3
 								1
 								1
@@ -683,7 +677,7 @@ Il y a 2 heures, Virgile a dit :
 	Ainsi, si on comparait les simulations LT aux observations plutôt qu'aux dernières simulations à CT, les fameuses impressions seraient encore autres.
 	- Même chose avec les T850 : erreur moyenne de GFS de 0,8°C à J+7, 0,6°C à J+9, -0,2°C pour IFS. L'un surestime, l'autre sous-estime mais ce n'est pas l'abîme. Et par rapport aux observations, les erreurs d'IFS augmentent à toutes échéances. Bref, plutôt qu'un avis tranché et absolu, un peu de nuances seraient sûrement bienvenue. GFS a droit d'être cité par qui veut, en sachant qu'il surestime un peu, tout comme IFS qui sous-estime. 😉 
 	Fin du HS.
-	Modifié il y a 22 heures par _sb
+	Modifié hier à 19:51 par _sb
 coquilles
 								5
 								14
@@ -731,7 +725,7 @@ J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierem
 								1
 								1
 								1
-								59
+								60
 
 =======================
 
@@ -741,7 +735,7 @@ La sortie de CEP 0z laisse rêveur 
 	Plongé franche des BP sur la france dans le topic. On se retrouverait en dessous des normales sur une partie nord du pays et un arrosage conséquent.
 	Ca reste le dét a prendre comme un scénario parmis d'autres mais ca fait longtemps qu'on n'a pas eu ce genre de modélisation.
 	J attends les ensembles
-	Modifié il y a 8 heures par meteo noobs
+	Modifié il y a 10 heures par meteo noobs
 Carte
 								1
 								6
@@ -785,8 +779,8 @@ Il y a 4 heures, meteo noobs a dit :
 	Le modèle CEP modélise finalement  dans sa moyenne une situation assez classique pour un cœur d'été avec un dégradé nord sud pour le niveau des températures à 850hpa et des hautes pressions sur l'atlantique un peu mieux placées ce qui nous permettrait d'éviter la fournaise sur la majorité du pays. 
 	Des possibilités de pluies semblent aussi émerger mais la il faut rester très prudent.
 	Les régions méditerranéennes resteraient concernées par un temps très chaud mais un ton en dessous de ce qu'on constate actuellement :
-	Modifié il y a 6 heures par petit âge glaciaire 11
-								2
+	Modifié il y a 8 heures par petit âge glaciaire 11
+								3
 								2
 
 =======================
@@ -812,7 +806,7 @@ Il faut attendre confirmation mais pour une fois la baisse des températures amo
 	Un vrai changement ? 
 	Largement à confirmer étant donné que j'ai regardé la que l'américain mais la tendance existe aussi pour les autres modèles. 
 	Exemple avec les températures modélisées par AIFS poir Paris et Toulouse :
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 								7
 								2
 								1
@@ -829,8 +823,8 @@ il y a une heure, petit âge glaciaire 11 a dit :
 	Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
 	Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
 	Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Modifié il y a 1 heure par tao
-								9
+	Modifié il y a 3 heures par tao
+								10
 
 =======================
 
@@ -842,5 +836,27 @@ Merci pour l’état des lieux et synthèse de nos différents modèles ensembli
 	Rappelons-nous de quelques scénarios GFS jusqu’à hier qui voyaient un thalweg atlantique plonger rapidement vers le pays voire même faire un passage express sur le pays avant de finir en direction de la péninsule Ibérique. GEM ce matin n’en est pas loin. Ce scénario a pris du plomb dans l’aile sur les modèles ce matin mais il n’est encore pas à écarter or, cela pourrait être synonyme d’une franche dégradation du temps sur le début de période mais possiblement le retour imminent des HG par l’Atlantique et le bassin méditerranéen de l’autre côté. 
 	Au contraire, si ce thalweg ne s’isole pas, ou très partiellement, ça pourrait en effet être gage d’un rafraîchissement plus généralisé voire l’installation d’un flux océanique. 
 	Je n’écarte pas ce scénario car hier on l’observait encore mais aussi pcq cet espoir nous a déjà valu des déceptions les semaines passées avec de profonds thalwegs qui sont devenus mirages voire démoniaques en mode cut-off / pompe à chaleur. Et quand je vois les diagrammes éclatés et la Z500 sur les différents modèles, je me méfierais encore de ce scénario confiant et rafraîchissant à 850hpa… 
-	Modifié il y a 2 heures par Run999H
-								15
+	Modifié il y a 4 heures par Run999H
+								17
+
+=======================
+
+Auteur: _sb
+Message:
+Il y a 3 heures, tao a dit :
+			Bonjour,
+			pour abonder dans le sens de ta remarque, j'ai pris l'évolution des régimes sur deux jours, le 08 août et le 10 août en attendant confirmation.
+			Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
+			Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
+			Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
+	Méfiance, non pas sur l'issue qui est à définir et qui peut opérer un net changement de paradigme, mais sur l'interprétation des graphes.
+	Si on regarde les couleurs, oui, il y a bouleversement mais tu sais que c'est insuffisant. Deux autres graphes éclairent sur la réalité de ce « bouleversement » à cet instant :
+	Il n'y a pas l'ombre d'une tendance sur un régime NAO ± ni BL ±. Les deux ensembles demeurent inexorablement en zone neutre (intérieur du cercle, non significatif). Ça doit nous alerter sur le sens donner au graphe des régimes.
+	Le régime AR (ATR, en violet qui deviendrait dominant d'un coup) se traduit dans les EOF ci-dessus par une position à la fois vers NAO+ et BL-, donc dans le carré du bas à droite. Schématiquement, AR est le développement d'une dorsale sur l'Atlantique nord, donc une position NAO+ qui s'élève en latitude ; en contrepoint, les BG migrent vers la Scandinavie, d'où une tendance BL-. On n'a rien de tout ça. Pour l'heure, on ignore si c'est l'amorce d'une tendance de fond à un soulèvement des HG sur l'océan associé à une descente des BG sur le continent ? Ou simplement une ondulation relative un peu persistante.
+	Les clusters peuvent aider à démêler.
+	- C'est très éclaté, il n'y a pas un groupe qui surclasse les autres.
+	- Le type AR apparaît bien mais faiblard si bien qu'on sortirait de la canicule (pas forcément sur le sud-est d'ailleurs) mais qu'on resterait dans le chaud.
+	- L'advection subtropicale ne se trouve jamais très loin.
+	Le virage est plus visuel que synoptique  pour le moment en tout cas. On perçoit dans le brouillard quelques frémissements sur l'eau mais on ignore encore si c'est un caillou qui est tombé ou toute une falaise ! Croisons les doigts en attendant !  
+								6
+								1
