@@ -229,8 +229,64 @@ Vent de Nord, localement modéré, faiblissant temporairement.
 Températures minimales : en baisse en Val de Saône.
 Températures maximales : en hausse en Val de Saône, au confluent Brévenne Turdine Azergues ainsi que des monts du Lyonnais à Givors.
 
+=== BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
+Emis le : 12/08/2026 00:30
+
+Vigilance :
+Attention, aujourd'hui, le département de la Haute-Garonne est en vigilance orange pour le phénomène canicule.
+
+Observations :
+Aujourd'hui on observait à 00h :
+A Toulouse-Blagnac : température de 29 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 25 km/h, pression niveau mer 1017 hPa.
+A Luchon : température de 22 degrés, vent de secteur Sud soufflant jusqu'à 25 km/h, cumul de précipitations en 12h : 1 mm.
+A Saint-Félix-Lauragais : température de 26 degrés, vent de secteur Sud soufflant jusqu'à 30 km/h.
+
+Prévisions pour les tout prochains jours :
+
+• Pour cette nuit :
+Le ciel est en général bien dégagé durant la nuit. Il faut toutefois attendre, sur le Cagire et le Luchonnais, que les quelques rares averses, possibles en soirée, cessent.
+Vent de Sud à Sud-Est, localement modéré, la nuit ; puis atténuation.
+Températures minimales : sur la plaine et le piémont de 20 à 23 degrés. 16 degrés sur le Cagire et le Luchonnais.
+
+• Pour demain mercredi 12 en journée et la nuit suivante :
+La journée débute avec un temps bien ensoleillé. Cependant, l'après-midi, des nuages bourgeonnent et de petites averses sont possibles, sur le Cagire et le Luchonnais. Pour la nuit : Le ciel est bien étoilé.
+En première partie de nuit, vent s'établissant au Sud-Est modéré, du Lauragais aux coteaux de Cadours ; puis atténuation.
+Températures maximales pour le jour : sur la plaine et le piémont de 37 à 38 degrés. 34 degrés sur le Cagire et le Luchonnais. Ces températures se situent localement très au-dessus des valeurs normalement observées.
+Températures minimales pour la nuit suivante : sur la plaine et le piémont voisines de 19 à 22 degrés. 16 degrés sur le Cagire et le Luchonnais.
+
+• Pour la journée de jeudi 13 et la nuit suivante :
+Après une belle matinée partout ensoleillée, le soleil reste généralement généreux, jusqu'en fin de journée. Mais sur le Cagire et le Luchonnais, des nuages menaçants se forment l'après-midi. Ils risquent d'apporter des averses et des orages. Pour la nuit : Le ciel est clair toute la nuit.
+Vent soufflant modérément par endroits, de Nord, à la tombée du jour ; et d'Ouest à Sud-Ouest, en seconde partie de nuit.
+Températures maximales pour le jour : sur la plaine et le piémont entre 37 et 40 degrés. 34 degrés sur le Cagire et le Luchonnais.
+Températures minimales pour la nuit suivante : sur la plaine et le piémont entre 19 et 22 degrés. 15 degrés sur le Cagire et le Luchonnais.
+
+• Pour la journée de vendredi 14 :
+Les éclaircies déjà belles au petit matin s'élargissent avant midi. Ce n'est que temporaire, car quelques cumulus bourgeonnent à nouveau l'après-midi. Ils peuvent même causer des orages, dans le Volvestre ainsi que sur le Cagire et le Luchonnais.
+À la tombée du jour, établissement d'un vent de Nord-Ouest, généralement modéré.
+Températures maximales : sur la plaine et le piémont comprises entre 35 et 38 degrés. 33 degrés sur le Cagire et le Luchonnais.
+
+• Pour samedi 15 et dimanche 16 :
+Risque de pluie ou d'averses dès le début de matinée de samedi.
+En milieu de nuit de vendredi à samedi, vent d'Ouest soufflant modérément, sur la plaine et le piémont.
+Températures minimales : sur la plaine et le piémont comprises entre 19 et 21 degrés. 16 degrés sur le Cagire et le Luchonnais.
+Températures maximales : sur le Midi Toulousain entre 29 et 32 degrés. De 26 à 28 degrés sur le piémont et la montagne.
+
+• Pour lundi 17 et mardi 18 :
+Risque de pluie ou d'averses de lundi matin jusqu'au lendemain en fin de journée.
+Sur le Cagire et le Luchonnais la limite pluie-neige s'établit autour de 3200 mètres, de lundi matin jusqu'au lendemain à la mi-journée.
+Vent d'Ouest-Nord-Ouest temporairement modéré, sur la plaine et le piémont.
+Températures minimales : comprises entre 14 et 17 degrés, et 19 degrés dans l'Agglomération toulousaine.
+Températures maximales : de 24 à 27 degrés, et 28 degrés sur le Lauragais.
+
+• Pour mercredi 19 et jeudi 20 :
+Sur le Cagire et le Luchonnais, éclaircies prédominantes ; risque de pluie ou d'averses de mercredi à la mi-journée jusqu'en fin de journée et de jeudi matin jusqu'en début de nuit. Sur les autres régions, beau temps ensoleillé.
+De jeudi à la mi-journée jusqu'en début de nuit, sur le Cagire et le Luchonnais, la limite pluie neige se situe autour de 3300 mètres.
+Mercredi en matinée et jusqu'en fin de journée, vent de Nord-Ouest localement modéré ; puis s'établissant au secteur Ouest, de la matinée de jeudi jusqu'en début de nuit suivante, sur la plaine et le piémont.
+Températures minimales : en baisse dans le Volvestre.
+Températures maximales : en hausse.
+
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 111615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mardi 11 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 11 août 2026 à 12H00 UTC, et évolution Faible gradient de pression près de 1016 sur le nord du bassin. 3 - Prévisions pour la nuit du mardi 11 août au mercredi 12 août VENT : secteur Ouest 2 à 4. MER : belle à peu agitée. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du mercredi 12 août VENT : Variable 1 à 3, s'orientant Sud-Ouest 3 à 4 de Port Camargue à Cap Croisette l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 5 - Tendance pour la nuit du 12 au 13, et la journée du jeudi 13 août VENT : Variable 1 à 3, devenant secteur Ouest 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 13 au 14 et la journée du vendredi 14 août VENT : Ouest à Sud-Ouest 2 à 4. MER : belle. Pas de houle significative. 7 - Tendance pour les jours suivants Samedi 15 août Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Dimanche 16 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Lundi 17 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mardi 18 août Secteur Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le mardi 11 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Sud-Ouest 8 noeuds. Cap Cepet : vent Sud 6 noeuds, nuageux avec éclaircies, visibilité 8 milles. Porquerolles : vent Sud-Sud-Ouest 10 noeuds. Cap Couronne : vent Sud-Ouest 10 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le mercredi 12 août 2026, vers 06H30 légales
+FQCT40 LFML 120400 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 12 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 12 août 2026 à 00H00 UTC, et évolution Faible gradient de pression 1016/1018 hPa. 3 - Prévisions pour la journée du mercredi 12 août VENT : - de Port-Camargue au Cap Croisette : secteur Nord-Ouest 2 à 4, revenant Sud-Ouest l'après-midi. - du Cap Croisette à Saint-Raphaël : Variable 1 à 3, s'orientant Ouest à Sud-Ouest 2 à 4 dominant l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 12 août au jeudi 13 août VENT : devenant Variable 1 à 3, puis localement Nord-Est 2 à 4 à l'est de Porquerolles en fin de nuit. MER : belle. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du jeudi 13 août VENT : Variable 1 à 3, localement Nord-Est 2 à 4 vers le Levant au début, s'orientant Ouest à Sud-Ouest 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 13 au 14 et la journée du vendredi 14 août VENT : De Port Camargue à Fos Sud-Ouest 2 à 4, revenant Sud à Sud-Est en milieu de nuit. De Fos à St Raphaël variable 1 à 3, s'orientant Ouest et fraîchissant 3 à 4 en milieu de nuit, puis mollissant 1 à 3 en début de matinée. MER : belle. Pas de houle significative. 7 - Tendance pour les jours suivants Samedi 15 août Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Dimanche 16 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Lundi 17 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mardi 18 août Secteur Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le mercredi 12 août 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Est 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 4 noeuds. Porquerolles : vent Nord-Nord-Ouest 6 noeuds. Cap Couronne : vent Nord 8 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le mercredi 12 août 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -262,11 +318,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Vigilance Météo France
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -274,9 +330,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 12 Août 2026.
-Résumé général précédent : Canicule majeure jusqu'au 14-15 août, puis rafraîchissement progressif du nord-ouest vers le sud-est. En semaine 2, baisse plus nette des températures, mais risque de retour de la chaleur en fin de période, surtout au sud..
+Résumé général précédent : Après un pic caniculaire jeudi 13 août (40°C possibles), bascule vers un temps plus frais et plus humide à partir de lundi 17 août. Rafraîchissement net sur le nord, plus progressif sur le sud-est. Risque d'épisode méditerranéen en début de semaine 2, puis temps plus sec et variable..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pic jeudi avec 40°C possibles, orages à partir de vendredi sur le nord-ouest..
+Températures attendues précédemment : Températures élevées durables (40°C localement), orages possibles sur le nord-ouest le week-end, sécheresse de surface..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 12 au Dimanche 16 Août 2026) ===
@@ -545,7 +601,7 @@ Il y a 6 heures, symaski62 a dit :
 			jeudi    très chaud   14h00
 	Attention à ne pas trop se fier aux prévisions météociel qui sont automatique et calquées sur Gfs.
 	Mais oui ça va cagner
-	Modifié il y a 11 heures par Krholam
+	Modifié il y a 13 heures par Krholam
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: A.M.
@@ -659,7 +715,7 @@ J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierem
 								2
 								1
 								1
-								63
+								64
 
 =======================
 
@@ -669,7 +725,7 @@ La sortie de CEP 0z laisse rêveur 
 	Plongé franche des BP sur la france dans le topic. On se retrouverait en dessous des normales sur une partie nord du pays et un arrosage conséquent.
 	Ca reste le dét a prendre comme un scénario parmis d'autres mais ca fait longtemps qu'on n'a pas eu ce genre de modélisation.
 	J attends les ensembles
-	Modifié il y a 16 heures par meteo noobs
+	Modifié il y a 18 heures par meteo noobs
 Carte
 								1
 								7
@@ -713,7 +769,7 @@ Il y a 4 heures, meteo noobs a dit :
 	Le modèle CEP modélise finalement  dans sa moyenne une situation assez classique pour un cœur d'été avec un dégradé nord sud pour le niveau des températures à 850hpa et des hautes pressions sur l'atlantique un peu mieux placées ce qui nous permettrait d'éviter la fournaise sur la majorité du pays. 
 	Des possibilités de pluies semblent aussi émerger mais la il faut rester très prudent.
 	Les régions méditerranéennes resteraient concernées par un temps très chaud mais un ton en dessous de ce qu'on constate actuellement :
-	Modifié il y a 14 heures par petit âge glaciaire 11
+	Modifié il y a 16 heures par petit âge glaciaire 11
 								3
 								2
 
@@ -740,7 +796,7 @@ Il faut attendre confirmation mais pour une fois la baisse des températures amo
 	Un vrai changement ? 
 	Largement à confirmer étant donné que j'ai regardé la que l'américain mais la tendance existe aussi pour les autres modèles. 
 	Exemple avec les températures modélisées par AIFS poir Paris et Toulouse :
-	Modifié il y a 10 heures par petit âge glaciaire 11
+	Modifié il y a 12 heures par petit âge glaciaire 11
 								8
 								2
 								1
@@ -757,7 +813,7 @@ il y a une heure, petit âge glaciaire 11 a dit :
 	Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
 	Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
 	Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Modifié il y a 9 heures par tao
+	Modifié il y a 11 heures par tao
 								11
 								1
 
@@ -771,7 +827,7 @@ Merci pour l’état des lieux et synthèse de nos différents modèles ensembli
 	Rappelons-nous de quelques scénarios GFS jusqu’à hier qui voyaient un thalweg atlantique plonger rapidement vers le pays voire même faire un passage express sur le pays avant de finir en direction de la péninsule Ibérique. GEM ce matin n’en est pas loin. Ce scénario a pris du plomb dans l’aile sur les modèles ce matin mais il n’est encore pas à écarter or, cela pourrait être synonyme d’une franche dégradation du temps sur le début de période mais possiblement le retour imminent des HG par l’Atlantique et le bassin méditerranéen de l’autre côté. 
 	Au contraire, si ce thalweg ne s’isole pas, ou très partiellement, ça pourrait en effet être gage d’un rafraîchissement plus généralisé voire l’installation d’un flux océanique. 
 	Je n’écarte pas ce scénario car hier on l’observait encore mais aussi pcq cet espoir nous a déjà valu des déceptions les semaines passées avec de profonds thalwegs qui sont devenus mirages voire démoniaques en mode cut-off / pompe à chaleur. Et quand je vois les diagrammes éclatés et la Z500 sur les différents modèles, je me méfierais encore de ce scénario confiant et rafraîchissant à 850hpa… 
-	Modifié il y a 10 heures par Run999H
+	Modifié il y a 12 heures par Run999H
 								18
 								1
 
