@@ -319,11 +319,11 @@ Pour la suite pas de phénomènes dangereux prévus.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi de la secheresse
-• Infoclimat Direct : Suivi de la secheresse
-• Infoclimat Direct : Records de températures en France
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -332,22 +332,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 12 Août 2026.
-Résumé général précédent : Chaleur extrême jusqu'au 15 août, puis probable rafraîchissement avec un retour d'un flux d'ouest, mais avec une incertitude majeure sur la durée et l'intensité..
+Résumé général précédent : Canicule record la première moitié du mois, suivie d'un brutal et durable retour à des températures de saison, avec le retour de la pluie. Le changement de temps s'effectuera par l'Ouest..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule marquée jeudi et vendredi, orages possibles samedi, rafraîchissement très incertain en début de semaine 2..
+Températures attendues précédemment : Canicule forte et étendue en première partie, puis risque d'orages forts et localement brusques (grêle, rafales) lors de la dégradation de samedi. (120 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 12 au Dimanche 16 Août 2026) ===
-Auteur: Plancher
-Message:
-Toujours cette accentuation de la chaleur tant en intensité qu'en durée visible sur le GFS et sur d'autres modèles.
-	Certaines zones comme le littoral atlantique ouest serait touchées aussi.
-	Le phénomène semble se renforcer.
-								1
-								1
-
-=======================
-
 Auteur: Virgile
 Message:
 Je pense que cela va etre la 2 ème vague de chaleur la + forte de l'été (après celle de début juillet) si on combine intensité + durée + extension géographique.
@@ -581,19 +571,21 @@ Arpege me semble timoré sur la dégradation orageuse de ce week-end. Les cumuls
 	De ce que j'ai vu la diagonale habituelle serait privilégiée. Sud ouest/centre/centre est/nord est.
 	Arrosage conséquent mais on est d'accord en urbain c'est ruissellement. En rural ca va quand même aider.
 
-=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Krholam
-Message:
-J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierement.
-	J’inverse le code couleur et ça va mieux.
-								3
-								4
-								1
-								1
-								67
-
 =======================
 
+Auteur: thib91
+Message:
+Il y a 2 heures, meteo noobs a dit :
+			Arpege me semble timoré sur la dégradation orageuse de ce week-end. Les cumuls peuvent être beaucoup plus forts sous le risque convectif. 
+			Là je m'en remet à l'escouade risque convectif. 
+			De ce que j'ai vu la diagonale habituelle serait privilégiée. Sud ouest/centre/centre est/nord est.
+			Arrosage conséquent mais on est d'accord en urbain c'est ruissellement. En rural ca va quand même aider.
+	Toujours des mirages, l'arrosage de dimanche sur le nord du pays disparaît peu à peu des modélisations, je pense qu'il n'en restera plus grand chose d'ici demain soir. La tendance à LT reste très sèche jusque fin août sur le nord du pays.
+								1
+								2
+								2
+
+=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: meteo noobs
 Message:
 La sortie de CEP 0z laisse rêveur 
@@ -786,10 +778,10 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 11 heures par petit âge glaciaire 11
+	Modifié il y a 13 heures par petit âge glaciaire 11
 Modifié
 								2
-								3
+								4
 								1
 								1
 
@@ -825,7 +817,8 @@ Citation
 			On sert les fesse.
 	perso je préfère les serrer ( les fesses )
 	si on les sert, c'est la porte ouverte à tous les outrages
-								16
+								1
+								17
 
 =======================
 
@@ -853,8 +846,8 @@ Le fameux mirage des 192/240 heures. On l'utilisait beaucoup dans les hiver 2000
 	températures bien en dessus des normes entre lundi et mardi même si on ne parle plus de canicule :
 	Donc cela:
 	J'ai du mal à y croire avec la résistance des HP subtropicales.
-								5
-								3
+								7
+								4
 
 =======================
 
@@ -870,4 +863,18 @@ il y a 36 minutes, Virgile a dit :
 			J'ai du mal à y croire avec la résistance des HP subtropicales.
 	Ne me dis pas que ca va s'éclipser?
 	Ok je sors
-								3
+								8
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de la France et Aix-en-Provence dans le sud-est, il résume un peu tout avec pour le nord de la France un resserrement des courbes qui atteste que le modèle consolide encore ce soir un changement profond et durable de la synoptique avec, entre le 15 et le 18 août, une baisse de quasiment 13 degrés (quand-même !) de la température moyenne à 850 hpa et un plateau autour de 10 degrés ensuite à perte de vue :
+	Paris :
+	Et une incertitude encore notable dans le sud avec  certes une baisse progressive des températures en altitude mais aussi une dispersion importante des courbes dans le sud-est dès le début du topic (plus de 10 degrés) et une moyenne qui peine à s'éloigner des 20 degrés à 850 hpa.
+	Aix-en-Provence :
+	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
+	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
+	Modifié il y a 36 minutes par petit âge glaciaire 11
+								2
+								1
