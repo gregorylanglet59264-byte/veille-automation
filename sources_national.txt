@@ -319,12 +319,12 @@ Pour la suite pas de phénomènes dangereux prévus.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : A Ciel Ouvert
-• Infoclimat Direct : Cigales 2026
-• Infoclimat Direct : Cigales 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,57 +332,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 12 Août 2026.
-Résumé général précédent : Canicule marquée en semaine 1 avec un pic jeudi/vendredi, puis dégradation orageuse samedi. En semaine 2, bascule vers un flux plus océanique et un net rafraîchissement, plus marqué au nord qu’en Méditerranée..
+Résumé général précédent : Le changement de circulation semble se dessiner pour la semaine 2, avec un retour à un temps instable et plus frais, surtout dans le nord. La chaleur persistera autour de la Méditerranée, mais l'incertitude reste très forte..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur extrême, 40°C possibles par endroits, orages retardés à l’ouest les 16-17..
+Températures attendues précédemment : Chaleur extrême prolongée, orages très limités, sécheresse de surface qui s'accentue..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 12 au Dimanche 16 Août 2026) ===
-Auteur: Run999H
-Message:
-- Pour GFS la porte de sortie du 16/08 s’est décalée au 18/08 au nord, 20/08 sur l’extrême sud avec un scénario un peu à la juin 2026 sur ce LT, à savoir : un dôme de chaleur qui envahit l’Espagne et la France puis une intensification de la chaleur avec le placement d’un cut-off à l’avant au large du pays. Cut-off vu initialement thalweg rafraîchissant.
-	- Pour CEP, porte de sortie au 16/08 au lieu du 14/08 pour la moitié nord mais je le trouve également très limité ce scénario CEP en se rapprochant de GFS.
-	- Pour ICON, il fait rêver ! Porte de sortie autour du 14/08 ou 15/08 du Nord au Sud. Le thalweg reste thalweg et ça rafraîchit bien par l’Atlantique 
-	- AIFS souvent assez prometteur dit quoi ? Il dit un peu match nul. Un thalweg oui mais affaiblit et qui lâche une partie de ses anomalies en Atlantique pour finir un cut-off.
-	Réservé à la semaine qui suivra mais un rafraîchissement modéré à faible du nord-ouest vers le sud-est en fin de semaine avant un réchauffement très rapide à l’arrière semble être l’option du compromis. Ça n’est pas automatiquement ce scénario qui l’emporte mais je trouve qu’il traduit bien :
-	- un mécanisme récurrent de l’été 2026
-	- un entre deux réalisable facilement et ne demandant pas un scénario foufou 
-	- la version la plus intermédiaire de ce qu’on peut trouver sur nos modèles et leurs ensemblistes. 
-	Pour moi, les diagrammes traduisent bien cette incertitude depuis 2-3 jours… 
-	Pour résumer tout cela : 
-	- semaine pleinement caniculaire au sud-est d’une ligne Toulouse / Lyon 5 à 7 jours caniculaires)
-	- semaine en grande partie caniculaire sur un axe Bordeaux / Strasbourg + région Parisienne (jusqu’à samedi —&gt; 3 à 5 jours caniculaires) 
-	- semaine partiellement caniculaire sur un axe Nantes / Lille (jusqu’à vendredi —&gt; 2 à 3 jours de canicule) 
-	- semaine faiblement caniculaire de la Bretagne aux côtes du Nord (1 jour ou 2 très chaud). 
-	Un rafraîchissement qui pourrait être relatif à mesure qu’on ira vers le sud de la France en toute fin de période voire sans rafraîchissement pour le sud-est avant une possible remontée dès le début de semaine prochaine par le sud et sud-ouest. 
-	Modifié samedi à 06:52 par Run999H
-								18
-								2
-								4
-
-=======================
-
-Auteur: Blacksun
-Message:
-Il y a 18 heures, jt75 a dit :
-			En cet été vingt six, notre  sort est scellé
-			La goutte d'eau de trop nous a fait accablés
-			Trop tard, les faits sont là, solides comme le roc.
-			Un seul espoir peut-être, l'affaissement de l'AMOC !
-			Sinon on pourra dire comme DANTE dans sa "divine comédie":
-			« Vous qui pénétrez ici, abandonnez toute espérance ».
-	Evoquant notre sort, vous ne le voyez pas rose 
-	Avis certes éclairé, n'ignorant pas les choses
-	Vers la fin de l'AMOC, vous orientez la prose
-	Possible consequence...A moins qu'elle soit la cause ?
-								3
-								3
-								2
-								7
-								1
-
-=======================
-
 Auteur: Plancher
 Message:
 Toujours cette accentuation de la chaleur tant en intensité qu'en durée visible sur le GFS et sur d'autres modèles.
@@ -605,16 +560,28 @@ Il y a 6 heures, symaski62 a dit :
 	Mais oui ça va cagner
 	Modifié hier à 14:48 par Krholam
 
-=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: meteo noobs
+=======================
+
+Auteur: vda77
 Message:
-Aucun modèle ne surpasse un autre. A mon sens l'interprétation des sorties de chaque modèle faite en connaissance de cause des biais est la règle. Comme le replacer dans son ensemble. Et comme chercher une convergence entre eux.
-	Je pense que de nos jours nous avons tout de même des modèles de pointe et qu'aucun vrai passionné ne fait pas le tour de l'ensemble.
-	Moi je vois le tout comme une boite à outil ou chacun à son fonction. Même si on les vannes sur leurs biais c est bien parce que l'on a connaissance de ceux ci.
-								3
+Bonsoir.
+	Bon, les précipitations ne s'annoncent pas, folichon, pour la suite de la semaine.
+	J'avoue que je m'attendais à mieux.
+	La terre souffre, les animaux  et nous aussi. 
+	A suivre la fin de cet été.
+	Au plaisir de vous lire.
+								2
 
 =======================
 
+Auteur: meteo noobs
+Message:
+Arpege me semble timoré sur la dégradation orageuse de ce week-end. Les cumuls peuvent être beaucoup plus forts sous le risque convectif. 
+	Là je m'en remet à l'escouade risque convectif. 
+	De ce que j'ai vu la diagonale habituelle serait privilégiée. Sud ouest/centre/centre est/nord est.
+	Arrosage conséquent mais on est d'accord en urbain c'est ruissellement. En rural ca va quand même aider.
+
+=== DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: _sb
 Message:
 @Virgile, tu as raison, mon propos prête à confusion.
@@ -734,7 +701,7 @@ il y a une heure, petit âge glaciaire 11 a dit :
 	Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
 	Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
 	Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Modifié il y a 23 heures par tao
+	Modifié hier à 16:05 par tao
 								14
 								1
 
@@ -831,7 +798,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 7 heures par petit âge glaciaire 11
+	Modifié il y a 9 heures par petit âge glaciaire 11
 Modifié
 								2
 								3
@@ -870,7 +837,7 @@ Citation
 			On sert les fesse.
 	perso je préfère les serrer ( les fesses )
 	si on les sert, c'est la porte ouverte à tous les outrages
-								7
+								12
 
 =======================
 
@@ -885,3 +852,16 @@ Il y a 8 heures, Krholam a dit :
 	Je crois que la pluie tombe n'est pas la priorité des gens du Sud-Est en bord de mer, bien sur on aimerait que la pluie tombe mais on veut surtout que les Tn descendent sous les 20°, c'est ça la priorité.
 	A Toulon, nous en sommes à 54 Tn d'affilée au dessus de 20° et si on excepte la Corse, je crois le record en métropole est de 74 par Perpignan en 2003 et on pourrait l'approcher.
 	Bon il semble se confirmer qu'on se dirige vers une chaleur plus normale, cela ne veut pas dire fraicheur, loin de là mais des Tn vers les 20 et des Tx vers les 30 avec surement beaucoup moins d'humidité et donc un ressenti qui perdra bien plus que les 4 à 5° degrés de moins dans l'air.
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+Le fameux mirage des 192/240 heures. On l'utilisait beaucoup dans les hiver 2000/10 avec des vagues de froid qui ne franchissaient pas ces échéances ou étaient terriblement amoindries.
+	Depuis juin, ce sont les changements synoptiques entre 192 et 360 heures avec des profondes descentes fraiches et dépressionnaires sur notre pays.
+	Dernier exemple en date, la goutte froide imposante pour lundi/mardi:
+	et au final résistance des hp subtropicales :
+	températures bien en dessus des normes entre lundi et mardi même si on ne parle plus de canicule :
+	Donc cela:
+	J'ai du mal à y croire avec la résistance des HP subtropicales.
