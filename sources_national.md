@@ -312,7 +312,7 @@ Températures minimales : en baisse dans le Volvestre.
 Températures maximales : stables.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 120400 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 12 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 12 août 2026 à 00H00 UTC, et évolution Faible gradient de pression 1016/1018 hPa. 3 - Prévisions pour la journée du mercredi 12 août VENT : - de Port-Camargue au Cap Croisette : secteur Nord-Ouest 2 à 4, revenant Sud-Ouest l'après-midi. - du Cap Croisette à Saint-Raphaël : Variable 1 à 3, s'orientant Ouest à Sud-Ouest 2 à 4 dominant l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 12 août au jeudi 13 août VENT : devenant Variable 1 à 3, puis localement Nord-Est 2 à 4 à l'est de Porquerolles en fin de nuit. MER : belle. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du jeudi 13 août VENT : Variable 1 à 3, localement Nord-Est 2 à 4 vers le Levant au début, s'orientant Ouest à Sud-Ouest 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 13 au 14 et la journée du vendredi 14 août VENT : De Port Camargue à Fos Sud-Ouest 2 à 4, revenant Sud à Sud-Est en milieu de nuit. De Fos à St Raphaël variable 1 à 3, s'orientant Ouest et fraîchissant 3 à 4 en milieu de nuit, puis mollissant 1 à 3 en début de matinée. MER : belle. Pas de houle significative. 7 - Tendance pour les jours suivants Samedi 15 août Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Dimanche 16 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Lundi 17 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mardi 18 août Secteur Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le mercredi 12 août 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Est 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 4 noeuds. Porquerolles : vent Nord-Nord-Ouest 6 noeuds. Cap Couronne : vent Nord 8 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le mercredi 12 août 2026, vers 13H00 légales
+FQCT40 LFML 120940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 12 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 12 août 2026 à 06H00 UTC, et évolution Faible gradient de pression 1016/1018 hPa. 3 - Prévisions pour l'après-midi du mercredi 12 août VENT : - de Port-Camargue au Cap Croisette : Ouest à Sud-Ouest 2 à 4. - du Cap Croisette à Saint-Raphaël : Ouest à Sud-Ouest 2 à 4, mollissant Variable 1 à 2 de Cap Croisette à Sicié en fin d'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé, légèrement voilé à l'est de Sicié en fin de journée. Eclipse partielle du soleil en fin de journée. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 12 août au jeudi 13 août VENT : devenant Variable 1 à 3, puis localement Nord-Est 2 à 4 à l'est de Porquerolles en fin de nuit. MER : belle. HOULE : non significative. TEMPS : éclipse partielle du soleil en fin de journée, ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du jeudi 13 août VENT : Variable 1 à 3, localement Nord-Est 2 à 4 vers le Levant au début, s'orientant Ouest à Sud-Ouest 1 à 3 l'après-midi, parfois Sud-Ouest 4 vers la Camargue à la fin. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 13 au 14 et la journée du vendredi 14 août VENT : Ouest à Sud-Ouest 2 à 4, faiblissant localement Variable 1 à 3 à l'ouest de Cap Croisette en milieu de nuit mais Sud-Est dominant en seconde partie de nuit et après-midi. MER : belle. HOULE : non significative. TEMPS : beau temps, nuageux en Camargue l'après-midi. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 14 au 15 et la journée du samedi 15 août VENT : Sud-Est 2 à 4, mollissant et devenant variable 1 à 3 en milieu d'après-midi. MER : belle. Pas de houle significative. 8 - Tendance pour les jours suivants Dimanche 16 août Secteur Nord-ouest faible à modéré. Indice de confiance : 4 sur 5 Lundi 17 août Secteur Nord-ouest modéré. Indice de confiance : 2 sur 5 Mardi 18 août Secteur Nord-ouest modéré. Indice de confiance : 2 sur 5 Mercredi 19 août Secteur Nord-ouest modéré. Indice de confiance : 2 sur 5 9 - Observations le mercredi 12 août 2026 à 09H00 UTC Cap Camarat : vent Nord-Est 8 noeuds, clair ou peu nuageux. Cap Cepet : vent Est 2 noeuds. Porquerolles : vent Est-Sud-Est 4 noeuds. Cap Couronne : vent Sud 4 noeuds, mer belle. Prochain bulletin le mercredi 12 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -343,12 +343,12 @@ vigilance orange orage persiste sur le sud-est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps &#xE0; Saint-Pierre et Miquelon
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps &#xE0; Saint-Pierre et Miquelon
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -356,9 +356,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 12 Août 2026.
-Résumé général précédent : Après un pic caniculaire marqué entre le 12 et le 14 août, une bascule vers un rafraîchissement progressif par le nord-ouest est attendue entre le 15 et le 17 août. Le flux d'ouest pourrait s'installer en semaine 2, avec un retour de pluies sur la moitié nord, tandis que le sud-est resterait plus chaud et soumis à une forte incertitude liée au thalweg méditerranéen. La fin de période pourrait voir une amélioration et un léger regain de chaleur par le sud-ouest, mais ce scénario reste fragile..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Températures très élevées et caniculaires jusqu'à samedi sur une large partie du pays, 40°C possibles localement..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 12 au Dimanche 16 Août 2026) ===
@@ -627,32 +627,9 @@ Il y a 6 heures, symaski62 a dit :
 			jeudi    très chaud   14h00
 	Attention à ne pas trop se fier aux prévisions météociel qui sont automatique et calquées sur Gfs.
 	Mais oui ça va cagner
-	Modifié il y a 17 heures par Krholam
+	Modifié il y a 19 heures par Krholam
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: meteo noobs
-Message:
-GFS est pour moi le truffier à canicule.
-	Il peut voir un cyclone sur la france a 24h je n'en tiendrais pas compte. Par compte il voit une canicule à +240h j'ai des sueurs froides.
-								11
-								1
-
-=======================
-
-Auteur: tao
-Message:
-il y a 19 minutes, meteo noobs a dit :
-			GFS est pour moi le truffier à canicule.
-	Bonsoir,
-	ça ne mange pas de pain et cela entretient la légende .
-	Pour ce qui est de l'évolution, on aurait bien une baisse  des températures mais cela resterait, si l'on en croit les ensembles relatif compte tenu des excès que l'on connait.
-	Le signal plus humide existe bien, par contre il devra être confirmé et il est possible qu'il ne soit pas étendu à l'ensemble du territoire. Sérieusement, la bascule vers une météo de fin d'été est encore loin et à consolider. Si on regarde les moyennes à longue échéance, la ceinture garde une certaine résistance:
-	Dans le détail, on devrait avoir des adaptations, mais globalement le changement synoptique, au sens d'un enfoncement marqué de la ceinture subtropicale, n'est pas gagné.
-								6
-								1
-
-=======================
-
 Auteur: _sb
 Message:
 Il y a 2 heures, Virgile a dit :
@@ -672,6 +649,7 @@ Il y a 2 heures, Virgile a dit :
 coquilles
 								6
 								14
+								1
 								1
 
 =======================
@@ -713,7 +691,7 @@ Message:
 J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierement.
 	J’inverse le code couleur et ça va mieux.
 								3
-								2
+								3
 								1
 								1
 								65
@@ -726,7 +704,7 @@ La sortie de CEP 0z laisse rêveur 
 	Plongé franche des BP sur la france dans le topic. On se retrouverait en dessous des normales sur une partie nord du pays et un arrosage conséquent.
 	Ca reste le dét a prendre comme un scénario parmis d'autres mais ca fait longtemps qu'on n'a pas eu ce genre de modélisation.
 	J attends les ensembles
-	Modifié il y a 22 heures par meteo noobs
+	Modifié hier à 09:14 par meteo noobs
 Carte
 								1
 								7
@@ -770,7 +748,7 @@ Il y a 4 heures, meteo noobs a dit :
 	Le modèle CEP modélise finalement  dans sa moyenne une situation assez classique pour un cœur d'été avec un dégradé nord sud pour le niveau des températures à 850hpa et des hautes pressions sur l'atlantique un peu mieux placées ce qui nous permettrait d'éviter la fournaise sur la majorité du pays. 
 	Des possibilités de pluies semblent aussi émerger mais la il faut rester très prudent.
 	Les régions méditerranéennes resteraient concernées par un temps très chaud mais un ton en dessous de ce qu'on constate actuellement :
-	Modifié il y a 20 heures par petit âge glaciaire 11
+	Modifié il y a 22 heures par petit âge glaciaire 11
 								3
 								2
 
@@ -797,9 +775,10 @@ Il faut attendre confirmation mais pour une fois la baisse des températures amo
 	Un vrai changement ? 
 	Largement à confirmer étant donné que j'ai regardé la que l'américain mais la tendance existe aussi pour les autres modèles. 
 	Exemple avec les températures modélisées par AIFS poir Paris et Toulouse :
-	Modifié il y a 16 heures par petit âge glaciaire 11
+	Modifié il y a 18 heures par petit âge glaciaire 11
 								8
 								2
+								1
 								1
 								1
 
@@ -814,8 +793,8 @@ il y a une heure, petit âge glaciaire 11 a dit :
 	Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
 	Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
 	Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Modifié il y a 15 heures par tao
-								12
+	Modifié il y a 17 heures par tao
+								14
 								1
 
 =======================
@@ -828,8 +807,9 @@ Merci pour l’état des lieux et synthèse de nos différents modèles ensembli
 	Rappelons-nous de quelques scénarios GFS jusqu’à hier qui voyaient un thalweg atlantique plonger rapidement vers le pays voire même faire un passage express sur le pays avant de finir en direction de la péninsule Ibérique. GEM ce matin n’en est pas loin. Ce scénario a pris du plomb dans l’aile sur les modèles ce matin mais il n’est encore pas à écarter or, cela pourrait être synonyme d’une franche dégradation du temps sur le début de période mais possiblement le retour imminent des HG par l’Atlantique et le bassin méditerranéen de l’autre côté. 
 	Au contraire, si ce thalweg ne s’isole pas, ou très partiellement, ça pourrait en effet être gage d’un rafraîchissement plus généralisé voire l’installation d’un flux océanique. 
 	Je n’écarte pas ce scénario car hier on l’observait encore mais aussi pcq cet espoir nous a déjà valu des déceptions les semaines passées avec de profonds thalwegs qui sont devenus mirages voire démoniaques en mode cut-off / pompe à chaleur. Et quand je vois les diagrammes éclatés et la Z500 sur les différents modèles, je me méfierais encore de ce scénario confiant et rafraîchissant à 850hpa… 
-	Modifié il y a 16 heures par Run999H
-								19
+	Modifié il y a 18 heures par Run999H
+								20
+								1
 								1
 
 =======================
@@ -851,7 +831,7 @@ Il y a 3 heures, tao a dit :
 	- Le type AR apparaît bien mais faiblard si bien qu'on sortirait de la canicule (pas forcément sur le sud-est d'ailleurs) mais qu'on resterait dans le chaud.
 	- L'advection subtropicale ne se trouve jamais très loin.
 	Le virage est plus visuel que synoptique  pour le moment en tout cas. On perçoit dans le brouillard quelques frémissements sur l'eau mais on ignore encore si c'est un caillou qui est tombé ou toute une falaise ! Croisons les doigts en attendant !  
-								18
+								19
 								1
 								1
 
@@ -893,10 +873,10 @@ Ce matin
 	La sortie de cette canicule de mes deux.
 	Signé le poète,
 	CHARLES BEAUD'AROME
+								14
 								10
-								7
 								1
-								7
+								9
 
 =======================
 
@@ -905,5 +885,33 @@ Message:
 Cela fait du bien de voir de des cartes comme ca :
 	Enfin des température normales voire un peu en dessous des normes pour quelques jours  ?
 	Des hautes pressions pourraient prendre possession de l'atlantique et avec les basses pressions qui s'installeraient au sud de la Scandinavie , un flux
-	de nord-ouest pourraient s'installer.
-	Cette nouvelle synoptique pourrait perdurer plusieurs jours, c'est une hypothèse qui se consolide de jour en jour /
+	de nord-ouest pourraient s'installer dans le nord dans un premier temps pour le sud on verra.
+	Cette nouvelle synoptique pourrait perdurer plusieurs jours, c'est une hypothèse qui se consolide de jour en jour :
+	CEP:
+	GEM :
+	GFS voit un peu pareil mais un peu plus tard.....
+	Modifié il y a 1 heure par petit âge glaciaire 11
+Modifié
+								2
+								2
+								1
+
+=======================
+
+Auteur: lapin61
+Message:
+Bonjour, la sortie ICON de la nuit, m'incite à la prudence, en attendant la 6z...
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+il y a 10 minutes, lapin61 a dit :
+			Bonjour, la sortie ICON de la nuit, m'incite à la prudence, en attendant la 6z...
+	Biensur il faut être prudent,  si un changement net semble se profiler dans le nord on ne sait pas encore dans quelle mesure le sud va être impacté .
+	ICIN modélise une petite goutte froide ce matin d'où un risque de flux de sud-ouest à nouveau,  GFS le voyait aussi donc oui prudence.
+	Mais le dernier ensemble  CEP va toujours dans le sens d'un changement important avec  enfin  un flux d'ouest à nord-ouest durable :
+	Paris :
+	Toulouse :
+	Mais tu a raison dès lundi les courbes divergent pas mal donc rien n'est acquis même une moyenne peut changer radicalement en quelques runs.
