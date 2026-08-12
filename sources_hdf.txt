@@ -310,12 +310,12 @@ Pour la suite pas de phénomènes dangereux prévus.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
+• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Records de températures en France
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -323,9 +323,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 12 Août 2026.
-Résumé général HDF précédent : Canicule marquée du 12 au 14 août avec un pic à 38-39°C dans l'Oise et l'Aisne, dégradation orageuse samedi 15, net rafraîchissement dès dimanche 16 avec un retour à des valeurs proches des normales (23-26°C) pour la semaine 34. Retour d'un flux océanique d'ouest avec un risque de pluies intermittentes mais des incertitudes fortes sur la persistance de ce refroidissement..
+Résumé général HDF précédent : Après un pic de canicule exceptionnel les 13-14 août, une bascule se produit vers un temps plus frais et océanique à partir du 17 août. Les températures reviennent à des valeurs proches des normales, avec des pluies parfois modérées. Une possible remontée de la chaleur est envisageable en fin de période, mais les signaux restent divergents..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur extrême jusqu'à vendredi inclus puis refroidissement progressif par le nord-ouest samedi/dimanche..
+Températures attendues précédemment : Températures maximales très élevées, 38-39°C possibles localement dans les terres, nuits chaudes..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 12 au Dimanche 16 Août 2026) ===
@@ -573,18 +573,6 @@ Arpege me semble timoré sur la dégradation orageuse de ce week-end. Les cumuls
 	Arrosage conséquent mais on est d'accord en urbain c'est ruissellement. En rural ca va quand même aider.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: _sb
-Message:
-@Virgile, tu as raison, mon propos prête à confusion.
-	Pris dans l'élan de la réponse, j'ai relu l'orthographe mais pas la tournure.
-	Seule ma première phrase te concernait comme réponse à ta question (le reste de ta phrase était donc inutile dans la citation). La suite est pour toutes les personnes qui bashent GFS à chaque occasion, soit par un post soit par une réaction à un post. Ce qui ne m'est pas compréhensible. C'est pour cela que j'employais le pluriel et non le singulier (à moins que tu ne sois plusieurs sous ton crâne !  ). Donc mea culpa.
-								1
-								2
-								2
-								1
-
-=======================
-
 Auteur: Krholam
 Message:
 J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierement.
@@ -656,7 +644,7 @@ Il y a 4 heures, meteo noobs a dit :
 Auteur: hygrophore
 Message:
 Je savais bien que le bonnet dans mon sac de vacances me servirait 😁
-								4
+								6
 
 =======================
 
@@ -789,7 +777,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 9 heures par petit âge glaciaire 11
+	Modifié il y a 11 heures par petit âge glaciaire 11
 Modifié
 								2
 								3
@@ -828,7 +816,7 @@ Citation
 			On sert les fesse.
 	perso je préfère les serrer ( les fesses )
 	si on les sert, c'est la porte ouverte à tous les outrages
-								12
+								16
 
 =======================
 
@@ -856,3 +844,21 @@ Le fameux mirage des 192/240 heures. On l'utilisait beaucoup dans les hiver 2000
 	températures bien en dessus des normes entre lundi et mardi même si on ne parle plus de canicule :
 	Donc cela:
 	J'ai du mal à y croire avec la résistance des HP subtropicales.
+								5
+								3
+
+=======================
+
+Auteur: meteo noobs
+Message:
+il y a 36 minutes, Virgile a dit :
+			Le fameux mirage des 192/240 heures. On l'utilisait beaucoup dans les hiver 2000/10 avec des vagues de froid qui ne franchissaient pas ces échéances ou étaient terriblement amoindries.
+			Depuis juin, ce sont les changements synoptiques entre 192 et 360 heures avec des profondes descentes fraiches et dépressionnaires sur notre pays.
+			Dernier exemple en date, la goutte froide imposante pour lundi/mardi:
+			et au final résistance des hp subtropicales :
+			températures bien en dessus des normes entre lundi et mardi même si on ne parle plus de canicule :
+			Donc cela:
+			J'ai du mal à y croire avec la résistance des HP subtropicales.
+	Ne me dis pas que ca va s'éclipser?
+	Ok je sors
+								3
