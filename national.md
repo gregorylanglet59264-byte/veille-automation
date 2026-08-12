@@ -1,135 +1,134 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
-**Généré le :** Mardi 11 Août 2026
-**Période :** Semaine 1 (Période exacte semaine 1 : du mardi 11 août 2026 au dimanche 16 août 2026) & Semaine 2 (Période exacte semaine 2 : du lundi 17 août 2026 au dimanche 23 août 2026)
+**Généré le :** Mercredi 12 Août 2026
+**Période :** Semaine 1 (Du mercredi 12 au dimanche 16 août 2026) & Semaine 2 (Du lundi 17 au dimanche 23 août 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur le pic de chaleur, mais divergences sur la suite.*
-- **Fiabilité du scénario majoritaire :** Rafraîchissement net après canicule intense — *Scénario le plus probable : baisse durable des températures.*
+- **Consensus des modèles :** Modéré — *Consensus sur la canicule jusqu'à vendredi, mais divergences sur la suite.*
+- **Fiabilité du scénario majoritaire :** Rafraîchissement, puis risque de retour de la chaleur — *Le scénario le plus probable est une baisse nette des températures en semaine 2, mais une remontée est possible.*
 - **Stabilité des cartes/scénarios :** 6 / 119 — *6 cartes sur 119 analysées*
-- **Niveau d'incertitude global :** Élevée pour le sud-est — *Comportement du talweg méditerranéen très incertain.*
+- **Niveau d'incertitude global :** Élevée — *Forte incertitude sur la durée du rafraîchissement et le comportement du sud-est.*
 
-## 🗓️ SEMAINE 1 : Période exacte semaine 1 : du mardi 11 août 2026 au dimanche 16 août 2026
+## 🗓️ SEMAINE 1 : Du mercredi 12 au dimanche 16 août 2026
 ### 💡 Points clés de la semaine 1
-1. Canicule majeure : Cœur de l'été, vague de chaleur intense sur la plupart des régions
-2. Pic jeudi 13 : Températures maximales jusqu'à 38-40°C localement
-3. Rafraîchissement par le nord-ouest : Dès vendredi, baisse des températures sur les côtes et le nord
-4. Orages en fin de semaine : Risque d'orages dans le sud-ouest, le centre et le nord-ouest
-5. Incertitude sur le sud-est : Chaleur persistante, canicule plus longue possible
+1. Pic caniculaire jeudi : Maximales atteignant 38-40°C sur une grande moitié sud et le centre-est, localement plus.
+2. Vigilance orange canicule : Plusieurs départements (Paris, Gironde, Rhône, Haute-Garonne, Bouches-du-Rhône) en vigilance orange pour la journée de mercredi.
+3. Dégradation vendredi au nord-ouest : Légère baisse des températures avec développement d'orages isolés en fin de journée.
+4. Rafraîchissement weekend : Baisse plus nette samedi-dimanche par le nord-ouest, tandis que le sud-est reste très chaud.
+5. Orages en fin de semaine : Risque d'averses orageuses sur le quart nord-ouest et le centre, à confirmer.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Rafraîchissement par le nord-ouest en fin de semaine 1 (vendredi 15 au plus tôt) - convergence modérée
-2. Pic de canicule jeudi 13 sur la majeure partie du territoire - convergence forte
-3. Possible dégradation orageuse dans le sud-ouest et le centre en fin de semaine - convergence modérée
+- Pic caniculaire intense jeudi 13, avec maximales dépassant 38°C sur une large moitié sud.
+- Rafraîchissement progressif par le nord-ouest à partir de samedi, avec baisse des températures.
+- Risque d'orages en fin de semaine sur le quart nord-ouest et le centre.
 **Points de divergence :**
-1. Chronologie du rafraîchissement : vendredi 14 (ICON) vs dimanche 16 (CEP) vs plus tard (GFS)
-2. Extension géographique : GFS garde la chaleur plus longtemps dans le sud-est, ICON rafraîchit plus largement
-3. Intensité des orages : incertitude sur leur caractère organisé ou non
+- Timing de la dégradation : GFS la voit plus tardive (18-20) que CEP/ICON (14-15).
+- Intensité du rafraîchissement : certains modèles voient une baisse nette, d'autres une simple atténuation.
+- Comportement du sud-est : maintien de la chaleur ou léger rafraîchissement ? Incertitude marquée.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (modèle global américain)** (Documenté) | Porte de sortie du dôme de chaleur décalée au 18-20/08, rafraîchissement tardif et possible retour de fortes chaleurs ensuite. | Canicule intense jusqu'en milieu de semaine, orages possibles en fin de période sur le nord-ouest et le centre. | Toutes zones sauf littoral nord-ouest dès vendredi | Élevée (85%) | GFS surestime légèrement les températures mais montre une accentuation de la chaleur, avec des scénarios de cut-off possible en Méditerranée. |
-| **CEP / ECMWF (modèle européen)** (Documenté) | Rafraîchissement plus précoce par le nord (16/08) mais peu solide ; un déterministe isolé voit une plongée des basses pressions. | Canicule atténuée en fin de semaine, possible baisse plus nette ensuite. | Nord, nord-ouest, centre, sud-ouest | Modérée (65%) | Le CEP est souvent cité comme plus fiable, mais son scénario de rafraîchissement n'est pas encore majoritaire en ensemble. |
-| **ICON (modèle allemand)** (Documenté) | Porte de sortie rapide (14-15/08) avec véritable thalweg atlantique et rafraîchissement marqué. | Orages et pluies possibles sur la moitié nord, forte baisse des températures. | Nord-ouest, nord, centre | Modérée (70%) | ICON est apprécié pour sa fiabilité à court terme et propose un rafraîchissement plus marqué par l'Atlantique. |
-| **AIFS (modèle IA européen)** (Partiel) | Scénario de "match nul" : thalweg affaibli qui devient un cut-off, rafraîchissement modéré à faible. | Chaleur moins intense, baisse temporaire puis possible réchauffement. | Nord-ouest, nord, sud-est | Faible (45%) | AIFS est régulièrement comparé aux autres modèles, mais son scénario est peu détaillé par les membres. |
-| **GEM (modèle canadien)** (Partiel) | Plongée d'un thalweg avec instabilité, pluies possibles, notamment sur le sud-est (isolement en Méditerranée). | Orages et baisse marquée des températures. | Sud-est, centre, nord-est | Faible (50%) | GEM est mentionné pour son scénario de dégradation, mais son poids dans le consensus reste faible. |
+| **GFS** (documenté) | Maintien de la canicule jusqu'à dimanche sur le sud-est, rafraîchissement modéré au nord-ouest en fin de semaine, avec possible cut-off sur l'Atlantique. (160 car.) | Pic jeudi avec 40°C possibles, orages à partir de vendredi sur le nord-ouest. | Toute la France, mais nord-ouest et ouest bénéficient d'un rafraîchissement plus précoce. | Élevée (85%) | GFS voit une porte de sortie décalée au 18-20 août pour le sud, mais une baisse des températures est modélisée à partir du 15-16, avec orages possibles. Le scénario est souvent extrême dans les sorties longues. |
+| **ECMWF (CEP)** (documenté) | Rafraîchissement plus marqué que GFS, avec un talweg plongeant sur la France en début de semaine prochaine ; pour cette semaine, baisse dès vendredi par le nord-ouest. (160 car.) | Tendance à une baisse plus franche des températures en fin de semaine, orages possibles. | Principalement nord et ouest, sud-est moins concerné. | Modérée (60%) | CEP propose un rafraîchissement plus rapide que GFS, avec un thalweg qui pourrait s'isoler en Méditerranée, source d'incertitude pour le sud-est. |
+| **ICON** (documenté) | Rafraîchissement par l'Atlantique dès le 14-15 août, plus marqué qu'ECMWF, avec un thalweg qui reste actif. (160 car.) | Baisse nette des températures samedi, orages sur le nord-ouest. | Nord-ouest, ouest, puis centre. | Faible (45%) | ICON voit une porte de sortie précoce pour la canicule, mais son scénario est peu repris par les autres modèles. |
+| **AIFS** (documenté) | Compromis entre GFS et CEP : thalweg affaibli, rafraîchissement modéré, possible retour de la chaleur ensuite. (160 car.) | Baisse relative des températures en fin de semaine, surtout au nord. | Nord-ouest, nord, puis sud-est en fin de période. | Modérée (60%) | AIFS propose un rafraîchissement modéré avec un cut-off en Atlantique, ce qui limite la baisse des températures. |
+| **GEM (Canadien)** (documenté) | Scénario variable, allant d'un thalweg plongeant à un maintien de la chaleur ; grande incertitude en fin de semaine. (160 car.) | Possibilité d'orages et de baisse des températures, mais non confirmé. | Nord et ouest, puis sud-est. | Faible (50%) | GEM est mentionné pour ses prévisions d'épisode méditerranéen en début de semaine 2, mais pour cette semaine, il est peu fiable. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Canicule faible (1-2 jours très chauds), rafraîchissement vendredi avec nuages et orages possibles | Maximales 30-33°C jusqu'à jeudi, puis 26-29°C vendredi/dimanche | moderee | GFS, ICON, CEP | Rythme exact du rafraîchissement selon les modèles |
-| **Nord** | Canicule nette (3-5 jours), soleil intense, rafraîchissement samedi avec pluie possible | Maximales 36-38°C jeudi, 29-31°C samedi, puis 26-28°C dimanche | elevee | GFS, CEP, ICON | Position de la goutte froide pour les orages de samedi |
-| **Nord-Est** | Canicule avec des températures très élevées, rafraîchissement plus tardif en fin de semaine | Maximales 35-38°C jusqu'à samedi, puis 29-32°C dimanche | moderee | GFS, CEP | Incertitude sur la baisse des températures |
-| **Ouest et Façade Atlantique** | Canicule très forte (38-40°C jeudi), orages vendredi soir, net rafraîchissement samedi | Maximales 38-40°C jeudi, 30-33°C vendredi, 24-28°C samedi/dimanche | elevee | GFS, ICON, AIFS | Localisation exacte des orages |
-| **Centre** | Canicule intense, ciel clair, puis dégradation orageuse possible en fin de semaine | Maximales 36-38°C, baisse à 28-30°C dimanche | moderee | GFS, GEM | Heure et intensité des orages |
-| **Sud-Ouest** | Canicule majeure, orages possible en montagne (Cagire/Luchon), rafraîchissement samedi | Maximales 36-39°C, puis 29-32°C samedi, 24-27°C dimanche | elevee | GFS, CEP, ICON | Trajectoire exacte des orages |
-| **Sud-Est et Vallée du Rhône** | Canicule orange, soleil dominant, orages vendredi après-midi sur l'intérieur | Maximales 35-38°C, puis 32-36°C samedi, 26-28°C lundi | elevee | GFS, GEM, CEP | Possibilité d'épisode méditerranéen la semaine suivante |
-| **Méditerranée et Corse** | Canicule durable, soleil, orages possibles vendredi, chaleur persistante le week-end | Maximales 36-38°C jeudi, 34-36°C samedi/dimanche, 28-31°C lundi | elevee | GFS, CEP, ICON | Isolement du talweg en Méditerranée la semaine prochaine |
+| **Nord-Ouest** | Soleil, très chaud mercredi et jeudi, puis baisse samedi avec orages possibles. | Maximales 33-38°C, plus fraîches sur le littoral (24-28°C). Minimales 18-22°C. | moderee | GFS, GEM, ICON | Intensité et localisation des orages samedi. |
+| **Nord** | Ensoleillé, très chaud jusqu'à vendredi, baisse samedi avec passages nuageux. | Maximales 36-40°C (jeudi), puis 29-30°C dimanche. Minimales 20-25°C. | elevee | GFS, ECMWF, AIFS | Précision du timing de la baisse samedi. |
+| **Nord-Est** | Très chaud mercredi et jeudi, baisse possible samedi, mais non confirmée. | Maximales 35-38°C, minimales 20-23°C. | faible | GFS, CEP | Rafraîchissement et orages en fin de semaine. |
+| **Ouest et Façade Atlantique** | Très chaud, maximales 38-40°C (jeudi), baisse samedi avec orages possibles. | Max 33-40°C, min 19-23°C. Littoral plus frais (24-33°C). | elevee | GFS, ECMWF, ICON | Intensité des orages samedi. |
+| **Centre** | Chaud à très chaud, maximales 36-40°C jeudi, baisse samedi avec orages possibles. | Max 35-40°C, min 20-24°C. | moderee | GFS, CEP | Localisation des orages et intensité de la baisse. |
+| **Sud-Ouest** | Ensoleillé, très chaud, maximales 37-40°C (jeudi), baisse samedi avec averses orageuses. | Max 34-40°C, min 19-23°C. Montagne Pyrénées : 26-34°C. | elevee | GFS, ECMWF, GEM | Trajectoire des orages samedi. |
+| **Sud-Est et Vallée du Rhône** | Soleil écrasant, très chaud, maximales 35-38°C (jeudi), pas de baisse nette avant lundi. | Max 33-38°C, min 20-23°C. | elevee | GFS, CEP, ICON | Intensité des averses et timing de la baisse des températures. |
+| **Méditerranée et Corse** | Chaud et sec, maximales 36-38°C (jeudi), baisse légère samedi, mais maintien de la chaleur en fin de semaine. | Max 34-38°C, min 22-25°C. Côte : 32-36°C. | elevee | GFS, ECMWF, GEM | Évolution du talweg en Méditerranée en début de semaine 2. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **11-12 août** : Canicule généralisée, nuits chaudes, quelques orages sur le relief sud-ouest.
-- **13-14 août** : Pic de chaleur maximal (38-40°C), orages localisés en fin de période.
-- **15-16 août** : Rafraîchissement par le nord-ouest, orages possibles, chaleur résiduelle au sud-est.
-- **17 août (début semaine 2)** : Baisse nette des températures, retour de conditions plus humides par le nord.
+- **Mercredi 12 août** : Ensoleillé, très chaud, avec des maximales de 36-38°C sur une grande partie du pays.
+- **Jeudi 13 août** : Pic caniculaire : maximales 38-40°C, localement 41°C, sur la moitié sud et le centre-est.
+- **Vendredi 14 août** : Légère baisse au nord-ouest, avec orages isolés en fin de journée ; chaleur toujours intense au sud.
+- **Samedi 15 et dimanche 16 août** : Rafraîchissement plus net par le nord-ouest, avec orages ; le sud-est reste chaud (35-38°C).
 
 **Points solides :**
-1. Pic de chaleur jeudi 13 sur l'ensemble du territoire
-2. Rafraîchissement en cours de week-end par le nord-ouest
-3. Canicule de longue durée sur les régions méditerranéennes
+- Canicule intense sur une large moitié sud et le centre-est, avec pic jeudi.
+- Vigilance orange pour plusieurs départements, avérée par les bulletins Météo-France.
+- Rafraîchissement généralisé à partir du weekend, plus net au nord-ouest.
 
 **Points fragiles :**
-1. Date exacte de la baisse des températures (14-16/08)
-2. Localisation des orages en fin de semaine
-3. Récurrence possible de la chaleur après le 20/08
+- Rythme exact de la baisse des températures (certains modèles retardent la dégradation).
+- Développement d'orages en fin de semaine : localisation et intensité incertaines.
+- Comportement du sud-est : maintien de la chaleur ou léger rafraîchissement ?
 
 **À surveiller (prochains runs) :**
-1. Prochain run GFS 06Z (suivi du dôme de chaleur et de la porte de sortie)
-2. Ensemble CEP 12Z (validation du scénario de thalweg)
-3. Sorties long-terme d'AIFS (position du cut-off)
+- Confirmer le timing de la dégradation vendredi/samedi.
+- Suivre l'évolution du talweg atlantique et son impact sur le sud-est en début de semaine prochaine.
+- Observer les sorties d'ECMWF et de GFS pour affiner les températures du weekend.
 
 
-## 🗓️ SEMAINE 2 : Période exacte semaine 2 : du lundi 17 août 2026 au dimanche 23 août 2026
+## 🗓️ SEMAINE 2 : Du lundi 17 au dimanche 23 août 2026
 ### 💡 Points clés de la semaine 2
-1. Fin de la canicule : Baisse significative des températures par le nord
-2. Retour de l'humidité : Pluies possibles sur le nord et le nord-ouest
-3. Sud-est incertain : Isolement du talweg ou temps sec ?
-4. Changement synoptique : Virage des régimes de circulation à confirmer
-5. Sous les normales : Possiblement plus frais que la normale sur certaines régions
+1. Fin de canicule au nord : Baisse franche des températures sur la moitié nord, retours des pluies possibles.
+2. Sud-est en retrait : Raffraîchissement plus modéré, possiblement encore des maximales 30-34°C.
+3. Incertitude synoptique : Les modèles divergent entre talweg plongeant et simple ondulation.
+4. Possibilité d'épisode méditerranéen : Certains scénarios voient un talweg isolé en Méditerranée.
+5. Retour de la chaleur en fin de semaine ? : Une remontée des hautes pressions est possible dès jeudi.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Fin de la canicule pour la plupart des régions dès lundi 17
-2. Baisse nette des températures de 8 à 15°C
-3. Possible retour de conditions plus humides sur le nord ou le nord-ouest
+- Baisse des températures en début de semaine (lundi-mardi) sur la moitié nord.
+- Incertitude sur la durabilité et l'extension de ce rafraîchissement.
+- Possibilité d'orages, plus probables sur le quart nord-est et le centre.
 **Points de divergence :**
-1. Isolement du talweg sur le sud-est (GEM/GFS) vs temps sec (ICON/UKMO)
-2. Profondeur du rafraîchissement : proche des normales ou sous les normales
-3. Récurrence de la chaleur après le 22-23 août
+- Décrochage d'un talweg isolé en Méditerranée (GEM, GFS) vs simple ondulation (ICON, CEP).
+- Retour de la chaleur en fin de semaine : certains modèles voient une remontée rapide, d'autres un maintien frais.
+- Intensité des précipitations : des pluies abondantes possibles sur le sud-est ou rien du tout.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (modèle global américain)** (Documenté) | Rafraîchissement marqué avec retour possible du courant d'ouest, mais risque de réchauffement vers le 22-23 août. | Pluies régulières sur le nord, alternance nuages/éclaircies sur le sud, chaleur atténuée. | Nord, nord-ouest, centre, sud-ouest (partiellement) | Modérée (65%) | GFS montre une baisse durable des températures à Paris, Toulouse et Aix, mais avec une possible remontée ensuite. |
-| **CEP / ECMWF (modèle européen)** (Documenté) | Un déterministe voit une plongée des basses pressions et un arrosage conséquent, mais l'ensemble est éclaté. | Temps plus frais et humide possible, mais scénario isolé dans les moyennes. | Nord, nord-ouest, centre, sud-ouest | Faible (45%) | Le CEP montre une moyenne plutôt classique pour un cœur d'été, avec un dégradé nord-sud. |
-| **GEM (modèle canadien)** (Partiel) | Isole un talweg en Méditerranée, avec possible épisode pluvieux sur le sud-est. | Pluies et baisse des températures en Méditerranée, risque d'épisode méditerranéen. | Sud-est, Méditerranée, Corse | Faible (50%) | GEM propose un scénario humide et frais pour le sud-est, mais ce n'est pas le plus probable. |
-| **ICON / UKMO / CEP IA (modèles secondaires)** (Partiel) | Poursuite d'un temps sec avec mistral et tramontane sur le sud-est, pas d'épisode pluvieux. | Temps sec et ensoleillé, chaleur modérée. | Sud-est, Méditerranée | Faible (45%) | Ces modèles montrent une sortie de canicule sans dégradation notable. |
+| **GFS** (documenté) | Baisse des températures en début de semaine, puis remontée progressive à partir de jeudi. Possibilité d'épisode pluvieux sur le sud-est. (160 car.) | Rafraîchissement lundi-mardi, orages possibles, puis temps plus sec. | Toute la France, avec plus d'incertitude sur le sud-est. | Modérée (60%) | GFS a montré des scénarios allant d'un talweg plongeant à une simple ondulation. La moyenne suggère une baisse temporaire, mais avec un risque de retour de la chaleur. |
+| **ECMWF (CEP)** (documenté) | Un talweg plus franc qui pourrait s'isoler sur la France, apportant des pluies et un rafraîchissement durable. (160 car.) | Temps plus frais et humide sur une grande partie, orages fréquents. | Nord, ouest, centre ; sud-est variable. | Modérée (60%) | Le CEP 0z a montré une plongée des basses pressions, mais les ensembles sont éclatés. Reste à confirmer. |
+| **ICON** (documenté) | Reprise de la chaleur plus rapide, avec un simple rafraîchissement temporaire. (160 car.) | Temps sec et ensoleillé après un passage pluvieux lundi. | Globalement, mais sud-est reste chaud. | Faible (45%) | ICON privilégie un maintien des hautes pressions sur l'Atlantique, limitant la dégradation. |
+| **AIFS** (documenté) | Compromis : baisse des températures mais pas de pluies généralisées, retour du chaud en fin de semaine. (160 car.) | Temps plus frais mais sec, orages isolés. | Nord et ouest, sud-est reste chaud. | Modérée (60%) | AIFS propose un scénario similaire à GFS, avec une baisse modérée et un retour du chaud. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps plus frais, passages nuageux et pluies possibles, retour du vent d'ouest | Maximales 22-25°C, minimales 14-16°C | moderee | GFS, CEP | Quantité de pluie et durée du temps frais |
-| **Nord** | Baisse nette des températures, alternance de soleil et de pluie, possible retour du courant d'ouest | Maximales 24-27°C, minimales 15-17°C | elevee | GFS, CEP, AIFS | Caractère durable du rafraîchissement |
-| **Nord-Est** | Temps plus frais et plus humide, éclaircies, possible retour des pluies | Maximales 23-26°C, minimales 14-16°C | moderee | GFS | Incertitude sur la durée de la baisse |
-| **Ouest et Façade Atlantique** | Rafraîchissement marqué, soleil parfois voilé, pluies possibles lundi | Maximales 25-28°C, minimales 15-18°C | elevee | GFS, CEP | Hausse des températures en fin de période |
-| **Centre** | Baisse des températures, alternance de nuages et d'éclaircies, averses possibles | Maximales 24-27°C | moderee | GFS, GEM | Intensité des averses |
-| **Sud-Ouest** | Rafraîchissement net avec pluies possibles, nette baisse des températures | Maximales 24-27°C, minimales 14-17°C | elevee | GFS, CEP, AIFS | Retour possible de la chaleur en fin de semaine |
-| **Sud-Est et Vallée du Rhône** | Baisse modérée des températures, éclaircies, risque d'averses, vent de nord | Maximales 24-28°C, minimales 15-18°C | moderee | GFS, GEM | Possibilité d'épisode méditerranéen |
-| **Méditerranée et Corse** | Incertitude : soit épisode pluvieux (GEM/GFS), soit temps sec avec mistral (ICON/UKMO) | Maximales 28-31°C si sec, plus frais si pluie | moderee | GFS, GEM, ICON, UKMO | Isolement du talweg en Méditerranée |
+| **Nord-Ouest** | Temps plus frais et humide, averses possibles lundi, puis éclaircies. | Maximales 20-26°C, minimales 12-16°C. | moderee | GFS, ECMWF, AIFS | Intensité des pluies et durée du rafraîchissement. |
+| **Nord** | Baisse des températures, passages nuageux, averses possibles en début de semaine. | Maximales 22-28°C, minimales 14-18°C. | elevee | GFS, ECMWF, ICON | Trajectoire des perturbations. |
+| **Nord-Est** | Rafraîchissement net, avec un risque d'orages en début de semaine. | Maximales 24-30°C, minimales 15-18°C. | moderee | GFS, CEP | Risque de retour de la chaleur dès jeudi. |
+| **Ouest et Façade Atlantique** | Temps variable avec des averses possibles, surtout lundi et mardi, puis amélioration. | Maximales 22-28°C, minimales 14-18°C. | elevee | GFS, ECMWF, ICON | Durée des pluies. |
+| **Centre** | Baisse des températures, orages possibles en début de semaine, puis amélioration. | Maximales 25-30°C, minimales 16-20°C. | faible | GFS, CEP | Retour de la chaleur en fin de semaine. |
+| **Sud-Ouest** | Rafraîchissement atténué, averses possibles lundi, puis nette amélioration. | Maximales 26-32°C, minimales 15-20°C. | moderee | GFS, ECMWF | Risque de retour de la chaleur. |
+| **Sud-Est et Vallée du Rhône** | Baisse légère des températures, quelques averses possibles, mais chaleur persistante. | Maximales 28-34°C, minimales 18-22°C. | elevee | GFS, ECMWF, GEM | Possibilité d'un épisode méditerranéen en fin de semaine. |
+| **Méditerranée et Corse** | Chaleur persistante, avec un risque d'épisode pluvieux orageux en fin de semaine. | Maximales 30-35°C, minimales 20-25°C. | moderee | GFS, GEM, ECMWF | Comportement du talweg : s'isole-t-il ou non ? |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **17-19 août** : Baisse nette des températures, pluies possibles sur le nord-ouest et le sud-ouest.
-- **20-21 août** : Temps plus sec, éclaircies, températures proches des normales.
-- **22-23 août** : Possible remontée de la chaleur par le sud, surtout en Méditerranée.
-- **Semaine suivante (24-30 août)** : Incertitude sur le retour des hautes pressions ou d'une nouvelle dégradation.
+- **Lundi 17 et mardi 18 août** : Rafraîchissement net sur la moitié nord, avec averses ; le sud reste plus chaud, localement orageux.
+- **Mercredi 19 et jeudi 20 août** : Amélioration, temps sec, températures en hausse par le sud, mais restant modérées au nord.
+- **Vendredi 21 au dimanche 23 août** : Risque de retour de la chaleur, plus marqué au sud ; incertitude sur un épisode méditerranéen.
 
 **Points solides :**
-1. Fin de la canicule sur la plupart des régions
-2. Baisse de 8 à 15°C des températures maximales
-3. Retour possible de conditions plus humides sur le nord-ouest
+- Baisse des températures en début de semaine sur la moitié nord.
+- Amélioration progressive à partir de mercredi sur la plupart des régions.
+- Maintien de la chaleur sur le sud-est, au moins en première partie de semaine.
 
 **Points fragiles :**
-1. Scénario d'épisode méditerranéen sur le sud-est
-2. Durée du rafraîchissement (au-delà du 23 août)
-3. Quantité de pluie sur le nord
+- Durée du rafraîchissement : retour de la chaleur en fin de semaine plausible.
+- Épisode méditerranéen : encore très incertain.
+- Localisation des orages en début de semaine.
 
 **À surveiller (prochains runs) :**
-1. Ensembles GFS et CEP pour la position du talweg
-2. Modèles ICON et UKMO pour le sud-est
-3. AIFS pour la récurrence éventuelle de la chaleur
+- Surveiller l'évolution des ensembles pour le talweg méditerranéen.
+- Confirmer la remontée des températures à partir de jeudi.
+- Suivre les prévisions de pluie pour le nord et le centre.
 
 
 ========================================
@@ -137,35 +136,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Canicule majeure jusqu'au 14-15 août, puis rafraîchissement progressif du nord-ouest vers le sud-est, avec une possible fin de canicule généralisée en semaine 2.
+Canicule majeure jusqu'au 14-15 août, puis rafraîchissement progressif du nord-ouest vers le sud-est. En semaine 2, baisse plus nette des températures, mais risque de retour de la chaleur en fin de période, surtout au sud.
 
 ### Période la plus fiable
-Semaine 1 (11-16 août) : confiance modérée à élevée pour le pic de chaleur et le rafraîchissement.
+Semaine 1 (du 12 au 16 août) : prévisions plus fiables, avec des bulletins officiels et un consensus élevé sur le pic caniculaire.
 
 ### Phénomènes récurrents
-1. Canicules à répétition depuis début juillet
-2. Cut-offs en Méditerranée ou en Atlantique
-3. Réchauffement rapide après les passages de thalwegs
+Canicules répétées, sécheresse des sols, absence de vraies perturbations, risque orageux en fin de chaque semaine.
 
 ### Principales incertitudes
-1. Isolement du talweg en Méditerranée en semaine 2
-2. Durée du rafraîchissement après le 23 août
-3. Récacité de la chaleur à longue échéance
+Évolution du talweg atlantique en début de semaine 2 et son impact sur le sud-est ; possible retour de la chaleur en fin de semaine 2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la date exacte de la baisse des températures (14, 15 ou 16 août) et sur le rythme du rafraîchissement en semaine 2.
-- **Localisation :** Doutes sur la zone de transition entre le front de fraîcheur et la chaleur résiduelle, notamment sur le Centre et le Grand Est.
-- **Intensité :** Doutes sur l'intensité des orages en fin de semaine 1 et sur la possibilité d'un épisode méditerranéen en semaine 2.
-- **Informations manquantes :** Les discussions ne mentionnent pas explicitement le vent sur plusieurs zones (notamment le nord-est et le centre), malgré les bulletins officiels qui donnent quelques indications.
-- **Modèles sous-documentés :** ICON, UKMO et JMA sont peu commentés en semaine 1 ; AIFS est cité mais son scénario n'est pas détaillé en semaine 2.
-- **Incertitudes images :** Les cartes de probabilités de M-Climate et les diagrammes d'ensembles montrent une forte dispersion après le 16 août, avec des scénarios opposés entre éclatement et stagnation.
+- **Timing/Chronologie :** Le passage à une baisse des températures est incertain : certains modèles le voient dès samedi, d'autres plus tard. La durée du rafraîchissement en semaine 2 est également mal cernée.
+- **Localisation :** Les orages de fin de semaine 1 sont localisés de manière incertaine sur le nord-ouest et le centre. Pour l'épisode méditerranéen potentiel en semaine 2, sa localisation exacte (littoral, intérieur) est très floue.
+- **Intensité :** L'intensité de la baisse des températures varie selon les modèles : de 8 à 15°C de baisse selon les scénarios. Le retour de la chaleur en fin de semaine 2 est également flou.
+- **Informations manquantes :** Peu d'informations sur le vent pour les zones non couvertes par les bulletins, notamment le nord-est et le centre. Pas de détail sur l'humidité des sols.
+- **Modèles sous-documentés :** UKMO et JMA sont peu commentés dans les discussions, bien qu'ils soient cités.
+- **Incertitudes images :** Les cartes d'anomalies et les diagrammes sont interprétés de manière variable ; les sorties longues montrent des divergences importantes.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🚨 Canicule majeure en France cette semaine, puis rafraîchissement en vue !
-Après une semaine sous une chaleur intense jusqu'à 38-40°C localement (pic jeudi 13), une nette baisse des températures s'annonce par le nord-ouest dès vendredi. La semaine prochaine pourrait marquer la fin de cette vague de chaleur, avec le retour possible de pluies sur le nord et des températures proches des normales.
-Pour le sud-est, l'incertitude reste forte : épisode pluvieux ou temps sec ? À suivre dans les prochains jours.
-Météo-France est en vigilance orange canicule pour plusieurs départements. Restez prudents ! 🌡️☀️
-#Météo #Canicule #Prévisions #Climat
+🌡️ Canicule intense cette semaine avec un pic jeudi à 40°C localement ! ☀️ Ensuite, rafraîchissement progressif par le nord-ouest dès samedi. Pour la semaine prochaine, les modèles hésitent entre un vrai changement et un simple répit. Restez prudents ! #Météo #Canicule #Prévisions
