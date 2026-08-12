@@ -310,21 +310,21 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Prévisions pour l'éclipse du 12 Ao&#xFB;t 2026 en soirée
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Le jeu de l'été saison 2026 !
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Mardi 11 Août 2026.
-Résumé général HDF précédent : Canicule intense en première partie de période (jusqu'au 14-15 août), suivie d'un rafraîchissement net et probablement durable. Retour de conditions plus instables et humides, températures proches des normales de saison..
+Dernier bulletin HDF généré le Mercredi 12 Août 2026.
+Résumé général HDF précédent : Canicule intense jusqu'au 14-15 août, puis rafraîchissement net et probablement durable, avec retour d'un temps plus humide et de températures proches des normales..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pic de chaleur intense mercredi à vendredi, 35-38°C dans l'intérieur des terres, puis stabilisation en fin de week-end..
+Températures attendues précédemment : Canicule très chaude, 35-39°C dans l'intérieur HDF, puis orages ou averses possibles en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 12 au Dimanche 16 Août 2026) ===
@@ -593,7 +593,7 @@ Il y a 6 heures, symaski62 a dit :
 			jeudi    très chaud   14h00
 	Attention à ne pas trop se fier aux prévisions météociel qui sont automatique et calquées sur Gfs.
 	Mais oui ça va cagner
-	Modifié il y a 9 heures par Krholam
+	Modifié il y a 11 heures par Krholam
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
 Auteur: A.M.
@@ -717,7 +717,7 @@ La sortie de CEP 0z laisse rêveur 
 	Plongé franche des BP sur la france dans le topic. On se retrouverait en dessous des normales sur une partie nord du pays et un arrosage conséquent.
 	Ca reste le dét a prendre comme un scénario parmis d'autres mais ca fait longtemps qu'on n'a pas eu ce genre de modélisation.
 	J attends les ensembles
-	Modifié il y a 14 heures par meteo noobs
+	Modifié il y a 16 heures par meteo noobs
 Carte
 								1
 								7
@@ -761,7 +761,7 @@ Il y a 4 heures, meteo noobs a dit :
 	Le modèle CEP modélise finalement  dans sa moyenne une situation assez classique pour un cœur d'été avec un dégradé nord sud pour le niveau des températures à 850hpa et des hautes pressions sur l'atlantique un peu mieux placées ce qui nous permettrait d'éviter la fournaise sur la majorité du pays. 
 	Des possibilités de pluies semblent aussi émerger mais la il faut rester très prudent.
 	Les régions méditerranéennes resteraient concernées par un temps très chaud mais un ton en dessous de ce qu'on constate actuellement :
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 								3
 								2
 
@@ -788,7 +788,7 @@ Il faut attendre confirmation mais pour une fois la baisse des températures amo
 	Un vrai changement ? 
 	Largement à confirmer étant donné que j'ai regardé la que l'américain mais la tendance existe aussi pour les autres modèles. 
 	Exemple avec les températures modélisées par AIFS poir Paris et Toulouse :
-	Modifié il y a 8 heures par petit âge glaciaire 11
+	Modifié il y a 10 heures par petit âge glaciaire 11
 								8
 								2
 								1
@@ -805,7 +805,7 @@ il y a une heure, petit âge glaciaire 11 a dit :
 	Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
 	Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
 	Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Modifié il y a 7 heures par tao
+	Modifié il y a 9 heures par tao
 								11
 								1
 
@@ -819,7 +819,7 @@ Merci pour l’état des lieux et synthèse de nos différents modèles ensembli
 	Rappelons-nous de quelques scénarios GFS jusqu’à hier qui voyaient un thalweg atlantique plonger rapidement vers le pays voire même faire un passage express sur le pays avant de finir en direction de la péninsule Ibérique. GEM ce matin n’en est pas loin. Ce scénario a pris du plomb dans l’aile sur les modèles ce matin mais il n’est encore pas à écarter or, cela pourrait être synonyme d’une franche dégradation du temps sur le début de période mais possiblement le retour imminent des HG par l’Atlantique et le bassin méditerranéen de l’autre côté. 
 	Au contraire, si ce thalweg ne s’isole pas, ou très partiellement, ça pourrait en effet être gage d’un rafraîchissement plus généralisé voire l’installation d’un flux océanique. 
 	Je n’écarte pas ce scénario car hier on l’observait encore mais aussi pcq cet espoir nous a déjà valu des déceptions les semaines passées avec de profonds thalwegs qui sont devenus mirages voire démoniaques en mode cut-off / pompe à chaleur. Et quand je vois les diagrammes éclatés et la Z500 sur les différents modèles, je me méfierais encore de ce scénario confiant et rafraîchissant à 850hpa… 
-	Modifié il y a 8 heures par Run999H
+	Modifié il y a 10 heures par Run999H
 								18
 								1
 
