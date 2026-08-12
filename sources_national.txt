@@ -345,12 +345,12 @@ Pour la suite pas de phénomènes dangereux prévus.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Ensoleillement : stolzenbach ou BRAS ?
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -358,9 +358,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 12 Août 2026.
-Résumé général précédent : Canicule très forte la première semaine avec pic jeudi, puis rafraîchissement par le nord-ouest et possible installation d'un temps plus océanique la deuxième semaine. Le sud-est reste plus chaud et incertain..
+Résumé général précédent : Une canicule exceptionnelle en première semaine, suivie d'un changement de temps avec un net rafraîchissement, surtout au nord. Le sud-est pourrait rester plus chaud et subir un épisode méditerranéen..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule intense jusqu'à vendredi, orages possibles samedi sur l'ouest et le sud-ouest, atmosphère lourde..
+Températures attendues précédemment : Températures très élevées jusqu'à samedi, orages possibles samedi sur l'ouest, puis baisse progressive par le nord-ouest..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 12 au Dimanche 16 Août 2026) ===
@@ -629,33 +629,9 @@ Il y a 6 heures, symaski62 a dit :
 			jeudi    très chaud   14h00
 	Attention à ne pas trop se fier aux prévisions météociel qui sont automatique et calquées sur Gfs.
 	Mais oui ça va cagner
-	Modifié il y a 21 heures par Krholam
+	Modifié il y a 23 heures par Krholam
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: _sb
-Message:
-Il y a 2 heures, Virgile a dit :
-			Pourquoi GFS reste le modèle sur ce forum le + commenté? j'ai jamais compris.
-	Parce que c'est un modèle honorable comme les autres.
-	Ce que je ne comprends pas, c'est l'acharnement à ne jurer que sur des impressions sans se remettre le moins du monde en cause.
-	Les impressions sont importantes et les centres mondiaux questionnent régulièrement des prévisionnistes opérationnels professionnels sur leurs impressions sur la qualité et l'efficacité de tel ou tel modèle pour tel ou tel paramètre à telle ou telle échéance et telle et telle région géographique. C'est la précieuse expérience acquise. Mais 1- c'est circonstancié, et 2- ce n'est pas du bashing.
-	Tant pis pour ceux qui ne jurent que leur opinion, voici quelques éléments pour juillet 2026 :
-	- La hauteur du géopotentiel à 500 hPa.
-	Je rappelle que ce niveau se situe aux alentours de 5500 m. Les erreurs moyennes sur l'Europe sont celles-ci : 7 m d'erreur moyenne au pire pour GFS à J+6 et J+7. Et oui, son 12z a une meilleure moyenne à J+9 et J+10 qu'IFS.
-	N'oublions pas non plus que ces moyennes sont basés sur l'analyse d'IFS le jour J. L'analyse de GFS et des autres modèles sont toujours différentes (les données assimilées et les process ne sont pas les mêmes).
-	Donc si on prend désormais les observations (mais il n'y a pas GFS disponible), ça donne ceci. L'erreur moyenne d'IFS passe de 2 à 5 m à J+4 et à J+10 de -5 à +5 m.
-	Ainsi, si on comparait les simulations LT aux observations plutôt qu'aux dernières simulations à CT, les fameuses impressions seraient encore autres.
-	- Même chose avec les T850 : erreur moyenne de GFS de 0,8°C à J+7, 0,6°C à J+9, -0,2°C pour IFS. L'un surestime, l'autre sous-estime mais ce n'est pas l'abîme. Et par rapport aux observations, les erreurs d'IFS augmentent à toutes échéances. Bref, plutôt qu'un avis tranché et absolu, un peu de nuances seraient sûrement bienvenue. GFS a droit d'être cité par qui veut, en sachant qu'il surestime un peu, tout comme IFS qui sous-estime. 😉 
-	Fin du HS.
-	Modifié lundi à 19:51 par _sb
-coquilles
-								6
-								14
-								1
-								1
-
-=======================
-
 Auteur: Virgile
 Message:
 _sb, quand on a cite un propos d'un internaute dont c'est mon cas, faut avoir l’honnêteté de citer tout le propos.
@@ -693,7 +669,7 @@ Message:
 J’ai trouvé la solution pour me sortir des angoisses que sort Gefs regulierement.
 	J’inverse le code couleur et ça va mieux.
 								3
-								3
+								4
 								1
 								1
 								67
@@ -777,7 +753,7 @@ Il faut attendre confirmation mais pour une fois la baisse des températures amo
 	Un vrai changement ? 
 	Largement à confirmer étant donné que j'ai regardé la que l'américain mais la tendance existe aussi pour les autres modèles. 
 	Exemple avec les températures modélisées par AIFS poir Paris et Toulouse :
-	Modifié il y a 20 heures par petit âge glaciaire 11
+	Modifié il y a 22 heures par petit âge glaciaire 11
 								9
 								2
 								1
@@ -795,7 +771,7 @@ il y a une heure, petit âge glaciaire 11 a dit :
 	Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
 	Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
 	Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Modifié il y a 19 heures par tao
+	Modifié il y a 21 heures par tao
 								14
 								1
 
@@ -809,7 +785,7 @@ Merci pour l’état des lieux et synthèse de nos différents modèles ensembli
 	Rappelons-nous de quelques scénarios GFS jusqu’à hier qui voyaient un thalweg atlantique plonger rapidement vers le pays voire même faire un passage express sur le pays avant de finir en direction de la péninsule Ibérique. GEM ce matin n’en est pas loin. Ce scénario a pris du plomb dans l’aile sur les modèles ce matin mais il n’est encore pas à écarter or, cela pourrait être synonyme d’une franche dégradation du temps sur le début de période mais possiblement le retour imminent des HG par l’Atlantique et le bassin méditerranéen de l’autre côté. 
 	Au contraire, si ce thalweg ne s’isole pas, ou très partiellement, ça pourrait en effet être gage d’un rafraîchissement plus généralisé voire l’installation d’un flux océanique. 
 	Je n’écarte pas ce scénario car hier on l’observait encore mais aussi pcq cet espoir nous a déjà valu des déceptions les semaines passées avec de profonds thalwegs qui sont devenus mirages voire démoniaques en mode cut-off / pompe à chaleur. Et quand je vois les diagrammes éclatés et la Z500 sur les différents modèles, je me méfierais encore de ce scénario confiant et rafraîchissant à 850hpa… 
-	Modifié il y a 20 heures par Run999H
+	Modifié il y a 22 heures par Run999H
 								20
 								1
 								1
@@ -877,7 +853,7 @@ Ce matin
 	CHARLES BEAUD'AROME
 								17
 								10
-								1
+								2
 								10
 
 =======================
@@ -892,7 +868,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
 								2
 								3
@@ -920,3 +896,14 @@ il y a 10 minutes, lapin61 a dit :
 	Toulouse :
 	Mais tu a raison dès lundi les courbes divergent pas mal donc rien n'est acquis même une moyenne peut changer radicalement en quelques runs.
 								1
+
+=======================
+
+Auteur: bernard83
+Message:
+Citation
+			Comme d’habitude avec GEFS
+			On sert les fesse.
+	perso je préfère les serrer ( les fesses )
+	si on les sert, c'est la porte ouverte à tous les outrages
+								3
