@@ -333,12 +333,12 @@ sud-est, avec localement des cumuls de pluie importants.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en Allemagne
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
+• Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : &#xC9;té 2026 et éco-anxiété
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 13/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -346,9 +346,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 13 Août 2026.
-Résumé général HDF précédent : Sur 15 jours : une canicule intense et brève (13-14 août) suivie d'un rafraîchissement marqué et durable. Les températures chutent de 10°C en 72 heures, pour revenir sous les normales entre le 17 et le 23 août. Le flux océanique s'installe avec un risque de pluie modérée. La seconde moitié de la période (22-27 août) pourrait voir une remontée progressive des températures, mais sans retour à la canicule..
+Résumé général HDF précédent : Canicule intense et brève (13-14 août), dégradation orageuse samedi 15, puis rafraîchissement marqué à partir de dimanche-lundi. La seconde semaine s’annonce plus fraîche et plus instable, avec un flux d’ouest, mais les incertitudes restent fortes sur la durée et le retour éventuel de la chaleur..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule courte mais intense, dégradation orageuse localisée samedi, nette baisse des températures dimanche..
+Températures attendues précédemment : Chaleur caniculaire jeudi-vendredi, orages samedi, nette baisse dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -852,7 +852,7 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 5 heures par petit âge glaciaire 11
+	Modifié il y a 7 heures par petit âge glaciaire 11
 								12
 								1
 
@@ -878,7 +878,7 @@ On aurait pu espérer un changement de condition synoptique pour cette semaine m
 	Le pire, c'est qu'à part quelques pluies orageuses aucune pluie organisée cette semaine, enfin une très grosse partie du début de semaine. Un désastre.
 	Et comme le fait remarquer Kyrion, toujours cette manie à nous voir un changement entre j+7 et j+10. Pourquoi depuis début juin, les modèles numériques n'arrivent pas à incorporer cette récurrence.
 								10
-								2
+								3
 								9
 								7
 
@@ -887,9 +887,9 @@ On aurait pu espérer un changement de condition synoptique pour cette semaine m
 Auteur: fran39
 Message:
 Hé oui Virgile a tout dit... ce serait drôle si ce n'était pas aussi grave.
-	Modifié il y a 2 heures par fran39
+	Modifié il y a 4 heures par fran39
 								7
-								12
+								15
 								1
 								3
 
@@ -901,8 +901,8 @@ Un joli mirage tout de même.
 	Bien que ça soit encore loin, j'avoue que j'y crois un peu plus que la tentative avortée d'isolement de talweg en Méditerranée d'il y'a quelques jours.
 	Ça semble tout de même bien plus favorable à un profond changement de synoptique sur l'Europe de l'ouest pour la fin août et même pour le début de l'automne météorologique.
 	Il y'a quand même de quoi être un peu plus optimiste pour la dernière décade d'août, même si rien n'est gagné encore, d'ailleurs l'option sèche mais beaucoup plus fraîche est possible également.
-	Modifié il y a 2 heures par Twister83
+	Modifié il y a 4 heures par Twister83
 								1
-								1
-								1
+								3
+								2
 								2
