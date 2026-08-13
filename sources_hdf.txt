@@ -284,10 +284,21 @@ FQCT40 LFQQ 121610 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
+J+2 et J+3 ﻿Le pic de canicule se poursuit vendredi sur une grande partie 
+du territoire. Les températures partent ensuite à la baisse par 
+l'ouest vendredi, ne laissant des températures élevées que 
+sur le moitié est. Samedi, une dégradation orageuse se met 
+en place sur une large moitié ouest. A l'heure actuelle, le 
+risque de passage en vigilance orange pour cet épisode est 
+faible.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
+De J+4 à J+7 ﻿Dimanche, la canicule persiste avec des températures 
+minimales encore très élevées autour de la Méditerranée. En 
+journée les températures sont en baisse. Des orages éclatent 
+à proximité du relief et peuvent se propager en plaine avec 
+un faible risque de passage en vigilance orange "orages".
+Pour la suite pas de phénomènes dangereux prévus.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -299,11 +310,11 @@ Baisse progressive des températures par l'ouest et le nord. Maintien d'un risqu
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps-Centre du Quebec
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -311,117 +322,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Mercredi 12 Août 2026.
-Résumé général HDF précédent : **Séquence caniculaire exceptionnelle (35-38°C) jusqu'au 14 août, suivie d'un refroidissement marqué et durable (retour aux normales 22-26°C) à partir du 15 août.** Les Hauts-de-France passeront d'une vigilance canicule à un régime océanique classique avec un retour des précipitations après une longue période sèche. Une incertitude demeure sur la durée de ce rafraîchissement au-delà du 23 août, avec des scénarios partagés entre le maintien d'un flux océanique et une possible remontée de l'anticyclone subtropical.
-
----
-
-## [MOST_RELIABLE_WEEK]
-**Semaine 1 (12-17 août) :** Fiabilité exceptionnelle de 92% sur la première partie (canicule) et 80% sur la transition (rafraîchissement). La séquence caniculaire est parfaitement documentée par les bulletins officiels concordants sur les 5 départements.
-
----
-
-## [GLOBAL_SOLID_POINTS]
-
-1. **Canicule exceptionnelle (12-14 août) :** Modification des valeurs de saison probablement dépassées de 10-12°C, avec un pic à 38°C possible sur l'Oise.
-
-2. **Rupture thermique samedi 15 :** Baisse brutale de 8 à 10°C en 24-48 heures, provoquée par le passage d'un front océanique.
-
-3. **Retour des pluies (17-20 août) :** Interruption de la séquence sèche, avec des précipitations principalement sous forme d'averses.
-
-4. **Vigilance officielle :** Déclenchement de la vigilance jaune canicule sur l'ensemble de la région (orange sur l'Oise), puis cessation rapide après le 15 août.
-
----
-
-## [GLOBAL_RECURRING_PHENOMENA]
-
-- **Gradient littoral-intérieur systématique :** Écart de 4-10°C entre les côtes et les terres, particulièrement marqué pendant la canicule
-- **Brises marines :** Vent de Nord-Est/Nord-Ouest en journée sur les zones côtières, contribuant au rafraîchissement local
-- **Nuits chaudes :** Températures minimales élevées (16-20°C) ne descendant pas sous le seuil de confort
-- **Instabilité de fin de journée :** Averses orageuses possibles en fin d'après-midi lors de la transition thermique
-
----
-
-## [GLOBAL_AFFECTED_ZONES]
-
-**L'ensemble de la région Hauts-de-France est concerné par :**
-1. **La canicule** (12-14 août) - plus marquée sur l'Oise et l'Aisne (vigilance orange pour l'Oise)
-2. **Le rafraîchissement** (15-16 août) - plus rapide sur le littoral (Flandre maritime, Côte d'Opale, Picardie maritime)
-3. **Le retour des pluies** (17-20 août) - avec un risque plus fort sur le littoral et le Haut-Artois
-4. **Le vent** - renforcé sur les zones côtières (Nord, Pas-de-Calais, Somme)
-
----
-
-## [GLOBAL_MAJOR_UNCERTAINTIES]
-
-**1. Durée du rafraîchissement (échéance 8-11 jours) :**
-Divergence entre le CEP (maintien durable du flux océanique) et GFS (possibilité de retour de l'anticyclone subtropical en fin d'échéance).
-
-**2. Intensité des précipitations (échéance 4-7 jours) :**
-Variabilité sur les cumuls - scénarios allant de pluies faibles à des averses soutenues, notamment sur l'Amiénois et le Haut-Artois.
-
-**3. Localisation des averses samedi 15 :**
-Les secteurs concernés (Avesnois, Valenciennois, Cambrésis, Amiénois) restent incertains avec une marge d'erreur de 50-100 km.
-
-**4. Températures minimales en fin de période (échéance 9-12 jours) :**
-Variations possibles entre 13°C et 17°C selon la couverture nuageuse et l'humidité résiduelle.
-
----
-
-## [GLOBAL_CONSENSUS_KPI]
-**75%** - Consensus modéré à bon sur l'ensemble de la période.
-
-## [GLOBAL_CONSENSUS_NOTE]
-Concordance exceptionnelle sur la première semaine (92%), dégradation progressive du consensus à partir du 17-18 août, avec des divergences de plus en plus marquées entre les modèles sur la fin de l'échéance.
-
----
-
-## [GLOBAL_SCENARIO_KPI]
-**Scénario retenu :** "Rafraîchissement durable" - indice de confiance **Modéré-Haut (70%)**
-
-## [GLOBAL_SCENARIO_NOTE]
-Le scénario le plus probable combine une sortie de canicule franche et un retour à un régime océanique classique pour au moins 5 à 7 jours. L'hypothèse d'un "retour en force" de la chaleur reste plausible mais minoritaire, défendue notamment par certaines sorties GFS.
-
----
-
-## [GLOBAL_UNCERTAINTY_KPI]
-**Indice d'incertitude global :** **Modéré (6.5/10)** - plus élevé en deuxième semaine
-
-## [GLOBAL_UNCERTAINTY_NOTE]
-L'incertitude est faible (3/10) sur les 3 premiers jours, moyenne (5-6/10) sur la transition du week-end, et élevée (8/10) sur la période du 20-23 août. Les discussions de forum (sources Infoclimat) mettent en évidence la prudence nécessaire face aux "mirages" des échéances lointaines.
-
----
-
-## [LINKEDIN_POST]
-🌡️ **SORTIE DE CANICULE CONFIRMÉE SUR LES HAUTS-DE-FRANCE**
-
-Quelle séquence météorologique exceptionnelle ! Après un pic caniculaire majeur avec 38°C possibles dans l'Oise jeudi et vendredi, un changement radical se profile dès ce week-end.
-
-📊 **LES POINTS CLÉS :**
-
-✓ **CANICULE** : Jusqu'à 35-38°C dans l'intérieur (12-14 août) - vigilance jaune généralisée, orange sur l'Oise
-
-✓ **RUPTURE** : Samedi, chute de 8-10°C en 24h avec l'arrivée d'un flux océanique
-
-✓ **RAFRAÎCHISSEMENT** : Dimanche, retour à ~24°C, fin de l'épisode caniculaire
-
-✓ **PLUIES** : Retour des précipitations dès lundi-mardi sous forme d'averses
-
-🌍 **NOTE SPÉCIALE** : Le contraste littoral-intérieur est saisissant - jusqu'à 10°C d'écart entre les côtes (24-27°C) et les terres (35-37°C) !
-
-⏱️ **FIABILITÉ :**
-- S1 : 92% (très fiable)
-- S2 : 65% (à confirmer)
-
-Une vigilance particulière sur la durée du rafraîchissement : les modèles hésitent encore entre un changement durable et un simple répit. Verdict dans les prochains runs !
-
-#Météo #Canicule #HautsDeFrance #Prévisions #Climat #Lille #Amiens #Beauvais #Arras #Laon
-
----
-
-##.
+Dernier bulletin HDF généré le Jeudi 13 Août 2026.
+Résumé général HDF précédent : Après un pic caniculaire exceptionnel (35-39°C) jusqu'au 14 août, basculement vers un temps plus frais et humide à partir du 15-17 août. Le retour d'un flux océanique d'ouest apporte des températures de saison (22-26°C) et des précipitations, avec une incertitude sur la durée de ce rafraîchissement au-delà du 20 août (scénarios partagés entre maintien océanique et retour de la chaleur)..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Soleil intense et chaleur écrasante, puis orages isolés samedi après-midi (Avesnois, Beauvaisis, Laonnois).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -865,7 +769,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 Modifié
 								2
 								4
@@ -962,6 +866,6 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 2 heures par petit âge glaciaire 11
-								5
+	Modifié il y a 4 heures par petit âge glaciaire 11
+								6
 								1

@@ -292,10 +292,21 @@ FQCT40 LFML 121555 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
+J+2 et J+3 ﻿Le pic de canicule se poursuit vendredi sur une grande partie 
+du territoire. Les températures partent ensuite à la baisse par 
+l'ouest vendredi, ne laissant des températures élevées que 
+sur le moitié est. Samedi, une dégradation orageuse se met 
+en place sur une large moitié ouest. A l'heure actuelle, le 
+risque de passage en vigilance orange pour cet épisode est 
+faible.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
+De J+4 à J+7 ﻿Dimanche, la canicule persiste avec des températures 
+minimales encore très élevées autour de la Méditerranée. En 
+journée les températures sont en baisse. Des orages éclatent 
+à proximité du relief et peuvent se propager en plaine avec 
+un faible risque de passage en vigilance orange "orages".
+Pour la suite pas de phénomènes dangereux prévus.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -307,22 +318,22 @@ Baisse progressive des températures par l'ouest et le nord. Maintien d'un risqu
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : "[StatIC] Restriction de votre station"... Que faire?
+• Infoclimat Direct : Suivi du temps-Centre du Quebec
+• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
+• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 13/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Mercredi 12 Août 2026.
-Résumé général précédent : Changement de paradigme : après une canicule record jeudi, une dégradation orageuse samedi amorce un rafraîchissement durable. Les températures devraient repasser sous les normales sur la moitié nord, mais la Méditerranée reste incertaine avec un possible épisode pluvieux..
+Dernier bulletin généré le Jeudi 13 Août 2026.
+Résumé général précédent : Sortie brutale de la canicule cette fin de semaine, avec une dégradation orageuse samedi puis un rafraîchissement net et durable sur la moitié nord. Le sud-est conservera des températures plus élevées avec une incertitude sur un possible épisode pluvieux lundi..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule intense (38-40°C) jeudi, orages samedi, baisse des températures ce week-end..
+Températures attendues précédemment : Canicule jeudi (39-41°C), orages samedi sur la diagonale, baisse des températures dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -766,7 +777,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 Modifié
 								2
 								4
@@ -863,6 +874,6 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 2 heures par petit âge glaciaire 11
-								5
+	Modifié il y a 4 heures par petit âge glaciaire 11
+								6
 								1
