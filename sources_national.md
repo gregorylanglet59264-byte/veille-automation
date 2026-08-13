@@ -318,12 +318,12 @@ sud-est, avec localement des cumuls de pluie importants.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Records de températures en France
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 13/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 13 Août 2026.
-Résumé général précédent : Après un pic caniculaire intense du 13 au 15 août, une baisse nette des températures s'amorce dès le week-end du 16-17, avec un flux d'ouest qui pourrait s'installer durablement. Les températures reviendront progressivement proches des normales, surtout au nord, tandis que le sud-est restera plus chaud avec des incertitudes. Les pluies resteront limitées, principalement orageuses..
+Résumé général précédent : Pic caniculaire intense en début de période, puis reflux progressif mais incertain, avec persistance de fortes chaleurs dans le sud et pluies toujours rares..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule généralisée jusqu'à vendredi, orages isolés samedi, net rafraîchissement dimanche..
+Températures attendues précédemment : Chaleur extrême, orages samedi possibles, rafraîchissement dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -585,87 +585,6 @@ Il y a 2 heures, meteo noobs a dit :
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: lapin61
-Message:
-Bonjour, la sortie ICON de la nuit, m'incite à la prudence, en attendant la 6z...
-								1
-								2
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-il y a 10 minutes, lapin61 a dit :
-			Bonjour, la sortie ICON de la nuit, m'incite à la prudence, en attendant la 6z...
-	Biensur il faut être prudent,  si un changement net semble se profiler dans le nord on ne sait pas encore dans quelle mesure le sud va être impacté .
-	ICIN modélise une petite goutte froide ce matin d'où un risque de flux de sud-ouest à nouveau,  GFS le voyait aussi donc oui prudence.
-	Mais le dernier ensemble  CEP va toujours dans le sens d'un changement important avec  enfin  un flux d'ouest à nord-ouest durable :
-	Paris :
-	Toulouse :
-	Mais tu a raison dès lundi les courbes divergent pas mal donc rien n'est acquis même une moyenne peut changer radicalement en quelques runs.
-								1
-								1
-
-=======================
-
-Auteur: bernard83
-Message:
-Citation
-			Comme d’habitude avec GEFS
-			On sert les fesse.
-	perso je préfère les serrer ( les fesses )
-	si on les sert, c'est la porte ouverte à tous les outrages
-								2
-								18
-
-=======================
-
-Auteur: moumou31
-Message:
-Il y a 8 heures, Krholam a dit :
-			En dehors du début d’échéance
-			La pluie ne veut pas tomber en France
-			Et sur la fin de topic
-			Ce qui est visible n’est que trop hypothetique.
-	.
-	Je crois que la pluie tombe n'est pas la priorité des gens du Sud-Est en bord de mer, bien sur on aimerait que la pluie tombe mais on veut surtout que les Tn descendent sous les 20°, c'est ça la priorité.
-	A Toulon, nous en sommes à 54 Tn d'affilée au dessus de 20° et si on excepte la Corse, je crois le record en métropole est de 74 par Perpignan en 2003 et on pourrait l'approcher.
-	Bon il semble se confirmer qu'on se dirige vers une chaleur plus normale, cela ne veut pas dire fraicheur, loin de là mais des Tn vers les 20 et des Tx vers les 30 avec surement beaucoup moins d'humidité et donc un ressenti qui perdra bien plus que les 4 à 5° degrés de moins dans l'air.
-								1
-
-=======================
-
-Auteur: Virgile
-Message:
-Le fameux mirage des 192/240 heures. On l'utilisait beaucoup dans les hiver 2000/10 avec des vagues de froid qui ne franchissaient pas ces échéances ou étaient terriblement amoindries.
-	Depuis juin, ce sont les changements synoptiques entre 192 et 360 heures avec des profondes descentes fraiches et dépressionnaires sur notre pays.
-	Dernier exemple en date, la goutte froide imposante pour lundi/mardi:
-	et au final résistance des hp subtropicales :
-	températures bien en dessus des normes entre lundi et mardi même si on ne parle plus de canicule :
-	Donc cela:
-	J'ai du mal à y croire avec la résistance des HP subtropicales.
-								1
-								7
-								4
-
-=======================
-
-Auteur: meteo noobs
-Message:
-il y a 36 minutes, Virgile a dit :
-			Le fameux mirage des 192/240 heures. On l'utilisait beaucoup dans les hiver 2000/10 avec des vagues de froid qui ne franchissaient pas ces échéances ou étaient terriblement amoindries.
-			Depuis juin, ce sont les changements synoptiques entre 192 et 360 heures avec des profondes descentes fraiches et dépressionnaires sur notre pays.
-			Dernier exemple en date, la goutte froide imposante pour lundi/mardi:
-			et au final résistance des hp subtropicales :
-			températures bien en dessus des normes entre lundi et mardi même si on ne parle plus de canicule :
-			Donc cela:
-			J'ai du mal à y croire avec la résistance des HP subtropicales.
-	Ne me dis pas que ca va s'éclipser?
-	Ok je sors
-								11
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de la France et Aix-en-Provence dans le sud-est, il résume un peu tout avec pour le nord de la France un resserrement des courbes qui atteste que le modèle consolide encore ce soir un changement profond et durable de la synoptique avec, entre le 15 et le 18 août, une baisse de quasiment 10 degrés (quand-même !) de la température moyenne à 850 hpa et un plateau autour de 10 degrés ensuite à perte de vue :
@@ -674,7 +593,7 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 13 heures par petit âge glaciaire 11
+	Modifié il y a 15 heures par petit âge glaciaire 11
 								12
 								1
 
@@ -709,9 +628,9 @@ On aurait pu espérer un changement de condition synoptique pour cette semaine m
 Auteur: fran39
 Message:
 Hé oui Virgile a tout dit... ce serait drôle si ce n'était pas aussi grave.
-	Modifié il y a 10 heures par fran39
+	Modifié il y a 12 heures par fran39
 								8
-								19
+								20
 								1
 								4
 
@@ -723,7 +642,7 @@ Un joli mirage tout de même.
 	Bien que ça soit encore loin, j'avoue que j'y crois un peu plus que la tentative avortée d'isolement de talweg en Méditerranée d'il y'a quelques jours.
 	Ça semble tout de même bien plus favorable à un profond changement de synoptique sur l'Europe de l'ouest pour la fin août et même pour le début de l'automne météorologique.
 	Il y'a quand même de quoi être un peu plus optimiste pour la dernière décade d'août, même si rien n'est gagné encore, d'ailleurs l'option sèche mais beaucoup plus fraîche est possible également.
-	Modifié il y a 10 heures par Twister83
+	Modifié il y a 12 heures par Twister83
 								2
 								4
 								2
@@ -755,7 +674,7 @@ Il y a 8 heures, Virgile a dit :
 	Ce soir c'est mieux, UKMO fait machine arrière :
 	Quant à GEM, si cela se produit, c'est le pied pour toute la France, y compris l'extrême sud :
 								2
-								8
+								9
 								2
 
 =======================
@@ -778,14 +697,16 @@ Bonsoir,
 	Fallait il s'attendre à une fin d'été brutale après le 15 août comme cela a pu être le cas dans le passé? 
 	Il y a quand même un point d'inflexion, la durée de la pause ne sera pas forcément longue, l'humidité pas à la hauteur des attentes mais si l'on doit évoquer la fin de la sécheresse, il est évident que compte tenu de la profondeur du déficit, de la température du sol, une semaine ne suffira pas. Il faut bien quand même prendre un virage, celui-ci ne serait pas serré mais nous ne sommes que fin août et jusqu'à mi octobre l'été n'a désormais pas dit son dernier mot. Pour le moment au niveau humidité, il n'y a pas de bouleversement profond.
 	La pause, si elle n'est pas totale surtout au sud, sera quand même là. Au niveau synoptique, je trouve qu'il y a tout de même une évolution mais que nous devons regarder avec les lunettes du changement climatique plutôt qu'avec l'éclairage de ce que certains ont connu...
-								8
+								11
 								3
+								1
 
 =======================
 
 Auteur: Sawano
 Message:
 Ce soir les déterministes GFS et CEP sont d'accord pour un pic de chaleur en milieu de semaine. Une hausse déjà entrevue précédemment mais beaucoup moins importante. Heureusement GFS n'est pas suivi par son ensembliste. A suivre quand même..;
+								1
 								1
 
 =======================
@@ -807,7 +728,7 @@ il y a 26 minutes, meteo noobs a dit :
 	Comme quoi rien n'est joué sur l'amplitude du changement à 7 jours d'échéance.
 	Alors changement laborieux voire inexistant dans le sud ou baisse conséquente des températures sur la France avec possibilité de pluie ?
 	Je mettrais plutôt une pièce sur la deuxième hypothèse mais en restant prudent pour le sud.
-								1
+								2
 								1
 
 =======================
@@ -822,6 +743,8 @@ il y a 1 minute, Sawano a dit :
 	Week end du 15 dégradation et topic sous les normales à 
 	Week end avec dégradation mais persistance d'un temps chaud puis pic et re dégradation jeudi pour CEP vendredi piur GFS 
 	Faut plus être previsioniste mais chamane...
+								1
+								1
 
 =======================
 
@@ -829,6 +752,8 @@ Auteur: Krholam
 Message:
 Après y’a quand même des signes positifs. Ça fait du bien de voir le recul de la grosse tache rouge.
 	Et on voit bien cette incertitude modèles quands aux Précipitation avec une bonne partie de la France pas encore bien cernée. De grosses hésitations sur la méditerrannée mais a minima. ON A PAS LE ROSE DES PP
+								1
+								1
 
 =======================
 
@@ -837,4 +762,77 @@ Message:
 il y a 5 minutes, Krholam a dit :
 			Après y’a quand même des signes positifs. Ça fait du bien de voir le recul de la grosse tache rouge.
 	Ce qui est spectaculaire sur cette carte, ce sont toutes ces anomalies thermiques positives qui concernent tout l'océan et la mer autour de la France...
-	Comme si on était piégé, englué à cette chaleur sans fin...
+	Comme si on était piégé, englué à cette chaleur sans fin... 
+								2
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Ce qu'on peut déjà observer ce soir à la lecture des ensembles GEFS et GEM c'est que le changement de synoptique à long terme n'est pas remis en cause. 
+	Les 2 ensembles de ces modèles sont très proches dans leur modélisation. 
+	La nouveauté c'est qu'en milieu de semaine les températures devraient bien remonter dans le sud essentiellement mais que cette hausse pourrait être fort heureusement temporaire et ne durer que 2 jours voire 3 maximum.
+	Pour le nord cette hausse est nettement plus faible et surtout moins certaine. 
+	Paris  GEFS et GEM :
+	Toulouse  GEFS et GEM:
+	Donc oui nouvelle hausse assez sensible des températures dans le sud mais pour mardi et mercredi essentiellement puis ça baisse à nouveau après donc cela ne semble pas pour le moment alarmant. 
+	Ce qu'il faut aussi c'est des précipitations et UKMO en voit mais malheureusement très peu dans le nord et le nord-ouest :
+	Modifié il y a 1 heure par petit âge glaciaire 11
+								2
+								2
+
+=======================
+
+Auteur: meteo noobs
+Message:
+@petit âge glaciaire 11
+	Sur ce point CEP est bien  généreux aussi en terme de PP. 
+	Même un peu trop je trouve sur certaines régions tout en sachant que la majorité serait sur jeudi ca fait de beaux cumuls sur centre est/ sud
+	Comme sur UKMO une bande sur le Nord serait oubliée 
+	Modifié il y a 1 heure par meteo noobs
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+Il y a 3 heures, moumou31 a dit :
+			.
+			Ce soir c'est mieux, UKMO fait machine arrière :
+			Quant à GEM, si cela se produit, c'est le pied pour toute la France, y compris l'extrême sud :
+	Ca reste du 168 heures. La chaleur serait présente au moins en France jusqu'à mercredi avec peut etre encore un pic de chaleur :
+	pas du tout prévu il y a encore 2-3 jours. En fait on peut dire que notre vague de chaleur qui a débuté je ne sais même plus tellement c'est loin va continuer au moins jusqu'à mercredi.
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a une heure, petit âge glaciaire 11 a dit :
+			La nouveauté c'est qu'en milieu de semaine les températures devraient bien remonter dans le sud essentiellement mais que cette hausse pourrait être fort heureusement temporaire et ne durer que 2 jours voire 3 maximum.
+			Donc oui nouvelle hausse assez sensible des températures dans le sud mais pour mardi et mercredi essentiellement puis ça baisse à nouveau après donc cela ne semble pas pour le moment alarmant. 
+	Pour que les températures augmentent dans le sud de la France en milieu de semaine, faudrait déjà qu'elles baissent avant, non? oui, on atteindra plus les 38-40 dans le sud de la France mais on dépassera le seuil de fortes chaleurs (30 degrés) globalement au sud d'une ligne Nantes/Metz en passant par Paris jusqu'à mercredi prochain. Mais j'ai l'impression que d'avoir 32-34 à Toulouse, ca devient banal et normal voir presque frais pour certains. 
+								4
+
+=======================
+
+Auteur: meteo noobs
+Message:
+il y a 7 minutes, Virgile a dit :
+			Ca reste du 168 heures. La chaleur serait présente au moins en France jusqu'à mercredi avec peut etre encore un pic de chaleur :
+			pas du tout prévu il y a encore 2-3 jours. En fait on peut dire que notre vague de chaleur qui a débuté je ne sais même plus tellement c'est loin va continuer au moins jusqu'à mercredi.
+	On est bien d'accord
+	En espérant que cette fois ci les PP de fin de semaine ne soient pas un mirage
+
+=======================
+
+Auteur: meteo noobs
+Message:
+il y a 2 minutes, Virgile a dit :
+			Pour que les températures augmentent dans le sud de la France en milieu de semaine, faudrait déjà qu'elles baissent avant, non? oui, on atteindra plus les 38-40 dans le sud de la France mais on dépassera le seuil de fortes chaleurs (30 degrés) globalement au sud d'une ligne Nantes/Metz en passant par Paris jusqu'à mercredi prochain. Mais j'ai l'impression que d'avoir 32-34 à Toulouse, ca devient banal et normal voir presque frais pour certains. 
+	La résilience est desfois dangereuse 
+	On s'est habitué à l'anormal 
+	Après cet été je parie ma solde que les canicules du futur ne feront plus réfléchir et que le slogan c'est normal c est l'été sera inscrit dans la mémoire collective
+	Nous sommes juste devenu une extension du climat ibérique
+								1
