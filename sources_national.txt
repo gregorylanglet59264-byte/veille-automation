@@ -288,7 +288,7 @@ Températures minimales : similaires à la veille.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 131005 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 13 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 13 août 2026 à 06H00 UTC, et évolution Faible gradient de pression 1018/1020 hPa, en baisse lente 1016/1018 hPa demain matin. 3 - Prévisions pour l'après-midi du jeudi 13 août VENT : Ouest à Sud-Ouest 2 à 4, mais Variable 1 à 3 à l'est de Porquerolles au-début. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 13 août au vendredi 14 août VENT : secteur Ouest mollissant 1 à 3, puis fraîchissant 2 à 4 à l'est du Cap Croisette en seconde partie de nuit, mais virant secteur Sud-Est 1 à 3 dominant à l'ouest du Cap Croisette. MER : belle. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 14 août VENT : Variable 2 à 4, d'Ouest à Sud-Ouest dominant, fraîchissant parfois secteur Nord 5 à l'est du Cap Camarat en fin de journée. MER : belle. HOULE : non significative. TEMPS : beau temps, voilé à l'est de Sicié en fin d'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 14 au 15 et la journée du samedi 15 août VENT : Variable 2 à 4, secteur Ouest dominant à l'est du Cap Croisette dès le milieu de nuit, mollissant Variable 1 à 3, secteur Ouest dominant en matinée. MER : belle. HOULE : non significative. TEMPS : peu nuageux, brumeux sur la Camargue en fin de nuit et matinée. VISIBILITE : bonne, localement moyenne par bancs de brume. 7 - Prévisions pour la nuit du 15 au 16 et la journée du dimanche 16 août VENT : De Port Camargue à Fos variable 1 à 3, s'orientant Ouest à Sud-Ouest en fraîchissant rapidement 4 en milieu d'après-midi. De Fos à St Raphaël variable 1 à 3, s'orientant secteur Ouest 3 à 4 en début de nuit. MER : belle à peu agitée. Pas de houle significative. 8 - Tendance pour les jours suivants Lundi 17 août Secteur Ouest modéré généralement, variable faible sur mer Ligure. Indice de confiance : 3 sur 5 Mardi 18 août Secteur Ouest modéré généralement, secteur Sud-Ouest faible sur mer Ligure. Indice de confiance : 3 sur 5 Mercredi 19 août Secteur Ouest faible à modéré généralement, secteur Sud-Ouest faible sur mer Ligure. Indice de confiance : 2 sur 5 Jeudi 20 août Secteur Ouest modéré évoluant vers faible généralement, variable faible sur mer Ligure. Indice de confiance : 2 sur 5 9 - Observations le jeudi 13 août 2026 à 09H00 UTC Cap Camarat : vent Nord-Nord-Est 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Est 2 noeuds. Porquerolles : vent Sud-Est 2 noeuds. Cap Couronne : vent Ouest-Sud-Ouest 6 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le jeudi 13 août 2026, vers 18H30 légales
+FQCT40 LFML 131615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 13 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 13 août 2026 à 12H00 UTC, et évolution Faible gradient de pression 1018/1020 hPa, en baisse lente 1016/1018 hPa demain matin. 3 - Prévisions pour la nuit du jeudi 13 août au vendredi 14 août VENT : secteur Ouest 1 à 3, mais Sud-Ouest 3 à 4 en Camargue au début, fraîchissant 2 à 4 à l'est du Cap Croisette en seconde partie de nuit, mais virant secteur Sud-Est 1 à 3 dominant à l'ouest du Cap Croisette. MER : belle. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 4 - Prévisions pour la journée du vendredi 14 août VENT : Variable 2 à 4, d'Ouest à Sud-Ouest dominant, devenant secteur Sud Est 2 à 4 à l'ouest de Sicié en fin de journée. MER : belle. HOULE : non significative. TEMPS : beau temps, voilé à l'est de Sicié en fin d'après-midi. VISIBILITE : bonne. 5 - Tendance pour la nuit du 14 au 15, et la journée du samedi 15 août VENT : Variable 2 à 4, secteur Ouest dominant à l'est du Cap Croisette dès le milieu de nuit, mollissant Variable 1 à 3, secteur Ouest dominant en milieu de journée. MER : belle. HOULE : non significative. TEMPS : peu nuageux, brumeux sur la Camargue en fin de nuit et matinée. VISIBILITE : bonne, localement moyenne par bancs de brume. 6 - Prévisions pour la nuit du 15 au 16 et la journée du dimanche 16 août VENT : Variable 1 à 3 s'orientant Ouest à Sud-Ouest 3 à 4 en début de nuit. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Lundi 17 août Secteur Ouest modéré généralement, variable faible sur mer Ligure. Indice de confiance : 3 sur 5 Mardi 18 août Secteur Ouest modéré généralement, secteur Sud-Ouest faible sur mer Ligure. Indice de confiance : 3 sur 5 Mercredi 19 août Secteur Ouest faible à modéré généralement, secteur Sud-Ouest faible sur mer Ligure. Indice de confiance : 2 sur 5 Jeudi 20 août Secteur Ouest modéré évoluant vers faible généralement, variable faible sur mer Ligure. Indice de confiance : 2 sur 5 8 - Observations le jeudi 13 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Sud-Ouest 10 noeuds. Cap Cepet : vent Ouest 6 noeuds. Porquerolles : vent Sud-Ouest 10 noeuds. Cap Couronne : vent Ouest 12 noeuds. Prochain bulletin le vendredi 14 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -318,12 +318,12 @@ sud-est, avec localement des cumuls de pluie importants.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Prévisions Nord -  AOUT 2026
+• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 13/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 13 Août 2026.
-Résumé général précédent : Canicule intense la première partie de la période, puis baisse nette à partir du week-end, mais avec une incertitude marquée sur le sud-est et la durabilité du rafraîchissement. Les pluies restent rares et mal réparties, la sécheresse se poursuit..
+Résumé général précédent : Un épisode caniculaire intense s'achève ce week-end, suivi d'un rafraîchissement plus net la semaine du 17 au 23 août. Les pluies resteront rares et mal réparties, avec une incertitude majeure sur le sud-est et la durée du changement..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur extrême jeudi/vendredi, orages samedi, nette baisse dimanche..
+Températures attendues précédemment : Chaleur extrême, anomalies de +10°C à 850 hPa, orages possibles au passage de la baisse..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -585,13 +585,6 @@ Il y a 2 heures, meteo noobs a dit :
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: hygrophore
-Message:
-Je savais bien que le bonnet dans mon sac de vacances me servirait 😁
-								6
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Il faut attendre confirmation mais pour une fois la baisse des températures amorcée au topic précédent dans le nord pourrait être franche et durable.
@@ -819,7 +812,7 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 9 heures par petit âge glaciaire 11
+	Modifié il y a 11 heures par petit âge glaciaire 11
 								12
 								1
 
@@ -854,11 +847,11 @@ On aurait pu espérer un changement de condition synoptique pour cette semaine m
 Auteur: fran39
 Message:
 Hé oui Virgile a tout dit... ce serait drôle si ce n'était pas aussi grave.
-	Modifié il y a 6 heures par fran39
+	Modifié il y a 8 heures par fran39
 								8
 								17
 								1
-								3
+								4
 
 =======================
 
@@ -868,7 +861,7 @@ Un joli mirage tout de même.
 	Bien que ça soit encore loin, j'avoue que j'y crois un peu plus que la tentative avortée d'isolement de talweg en Méditerranée d'il y'a quelques jours.
 	Ça semble tout de même bien plus favorable à un profond changement de synoptique sur l'Europe de l'ouest pour la fin août et même pour le début de l'automne météorologique.
 	Il y'a quand même de quoi être un peu plus optimiste pour la dernière décade d'août, même si rien n'est gagné encore, d'ailleurs l'option sèche mais beaucoup plus fraîche est possible également.
-	Modifié il y a 6 heures par Twister83
+	Modifié il y a 8 heures par Twister83
 								1
 								4
 								2
@@ -883,6 +876,21 @@ Il y a 4 heures, Twister83 a dit :
 	Plus encore quand on voit ce qu'il était modélisé pour le début de cette échéance il y'a 4 jours
 	Et ce qu'il en reste...
 	On peut légitimement s'interroger sur le fait de s'en sortir avant la fin du mois, même si le feu de l'enfer est un peu réduit...
+								5
+								1
+								1
+								1
+
+=======================
+
+Auteur: moumou31
+Message:
+Il y a 8 heures, Virgile a dit :
+			On aurait pu espérer un changement de condition synoptique pour cette semaine mais on a eu des doutes vu comment les modèles se comportent depuis le début de l'été.
+			Et bien non, on resterait dans la même configuration : terminé les profondes descentes fraiches très sud et les dépressions associées.  Toujours cette ceinture subtropicale très nord (+1000 km environ par apport à la normale) apportant climat méditerranéen sur le nord de la France et climat "andalousien" sur le sud de la France.  En résumé chaleur et absence de bonnes pluies organisées depuis juin. Alors il arrive que ce "dome" ait des faiblesses sur sa partie nord en marge de la circulation océanique sur le nord de la GB, apportant temporairement de l'air moins chaud principalement sur le nord ouest du pays. 
+			Donc, on le voit sur les modèles ce matin:
+	.
+	Ce soir c'est mieux, UKMO fait machine arrière :
+	Quant à GEM, si cela se produit, c'est le pied pour toute la France, y compris l'extrême sud :
+								1
 								3
-								1
-								1
