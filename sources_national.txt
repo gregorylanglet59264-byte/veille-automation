@@ -15,30 +15,30 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 13/08/2026 06:30
+Emis le : 13/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui et demain, Paris et sa petite couronne sont en vigilance orange pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Paris-Montsouris : température de 22 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h, pression niveau mer 1020 hPa.
-Au Jardin du Luxembourg : température de 21 degrés.
+Aujourd'hui on observait à 09h :
+A Paris-Montsouris : température de 25 degrés, vent de secteur Nord-Est soufflant jusqu'à 5 km/h, pression niveau mer 1021 hPa.
+Au Jardin du Luxembourg : température de 22 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 13 :
-L'ensoleillement est excellent et le soleil règne sans partage.
-Vent faible, variable.
-Températures maximales : 38 degrés. Ces températures se situent bien au-dessus des valeurs normalement observées.
+Le soleil domine largement du matin au soir.
+Vent variable, faible.
+Températures maximales : 38 degrés. Ces températures sont bien au-dessus des valeurs normalement observées.
 
 • Pour la nuit prochaine :
-Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent variable, faible.
-Températures minimales : comprises entre 23 et 24 degrés. Ces températures se situent au-dessus des valeurs de saison, localement bien au-dessus.
+Le ciel est clair toute la nuit.
+Vent faible, variable.
+Températures minimales : entre 23 et 24 degrés. Ces températures se situent au-dessus des valeurs normalement observées, par endroits très au-dessus.
 
 • Pour demain vendredi 14 en journée et la nuit suivante :
-Le soleil domine largement du matin au soir. Pour la nuit : Le ciel est clair toute la nuit.
+Le temps est ensoleillé du matin au soir. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
 Etablissement, en début de nuit, d'un vent de Nord à Nord-Ouest, modéré ; atténuation ensuite.
 Températures maximales pour le jour : entre 38 et 40 degrés.
 Températures minimales pour la nuit suivante : 22 degrés.
@@ -46,13 +46,13 @@ Températures minimales pour la nuit suivante : 22 degrés.
 • Pour la journée de samedi 15 et la nuit suivante :
 Le ciel est un peu nuageux le matin. L'après-midi, les nuages deviennent menaçants. Des orages accompagnés de pluies sont possibles en fin de journée. Pour la nuit : Des orages sont possibles en soirée, sur Paris ainsi que sur le Val de Marne. L'activité orageuse s'estompe rapidement. Le ciel se dégage peu à peu en cours de nuit.
 En début de nuit, vent s'orientant au Nord-Nord-Ouest modéré, sur une grande moitié est ; atténuation ensuite.
-Températures maximales pour le jour : entre 32 et 35 degrés. Ces températures sont au-dessus des valeurs normalement observées.
+Températures maximales pour le jour : de 32 à 35 degrés. Ces températures se situent au-dessus des valeurs de saison.
 Températures minimales pour la nuit suivante : de 19 à 20 degrés.
 
 • Pour la journée de dimanche 16 :
-La journée est ensoleillée, avec tout au plus quelques nuages très discrets.
-En fin d'après-midi, établissement d'un vent de Nord, souvent modéré.
-Températures maximales : entre 29 et 32 degrés.
+Le soleil est généreux tout au long de la journée.
+En fin d'après-midi, établissement d'un vent de Nord, modéré.
+Températures maximales : comprises entre 29 et 32 degrés.
 
 • Pour lundi 17 et mardi 18 :
 Beau temps sec et ensoleillé.
@@ -73,45 +73,45 @@ Températures minimales : en baisse sur une grande moité ouest.
 Températures maximales : stables.
 
 === BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===
-Emis le : 13/08/2026 06:30
+Emis le : 13/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance orange pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Marignane : température de 23 degrés, vent de secteur Nord soufflant jusqu'à 10 km/h, pression niveau mer 1019 hPa.
-A Aix-en-Provence : température de 22 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 5 km/h.
+Aujourd'hui on observait à 09h :
+A Marignane : température de 28 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 5 km/h, pression niveau mer 1020 hPa.
+A Aix-en-Provence : température de 29 degrés, vent de secteur Sud-Est soufflant jusqu'à 10 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 13 :
-Le soleil domine largement du matin au soir.
-Vent faible de Sud-Ouest.
-Températures maximales : de 36 à 38 degrés, et 32 degrés à Marseille et dans les Calanques.
+Le soleil est généreux tout au long de la journée.
+Petit vent de Sud-Ouest généralement faible.
+Températures maximales : comprises entre 36 et 38 degrés, et 32 degrés à Marseille et dans les Calanques.
 
 • Pour la nuit prochaine :
-Le ciel est bien étoilé.
+Les rares nuages présents n'empêchent nullement l'observation des étoiles.
 Vent faible de direction variable.
-Températures minimales : dans les terres voisines de 18 à 21 degrés. Entre 24 et 26 degrés sur le cordon littoral.
+Températures minimales : dans les terres autour de 18 à 21 degrés. De 24 à 26 degrés près du littoral.
 
 • Pour demain vendredi 14 en journée et la nuit suivante :
 Après un début de journée assez bien ensoleillé, les nuages deviennent un peu plus nombreux l'après-midi. Quelques orages accompagnés de pluies sont possibles, sur le val de Durance et la Sainte Baume. Pour la nuit : Le ciel est clair toute la nuit.
-On prévoit au maximum jusqu'à 5 millimètres de pluie autour de la Sainte Baume.
+On attend au maximum jusqu'à 5 millimètres de pluie entre Trets et Aubagne.
 Vents irréguliers, avec des rafales proches de 55 km/h, localement, à la tombée du jour.
-Températures maximales pour le jour : comprises entre 36 et 39 degrés, et de 32 à 35 degrés sur la Camargue et les Calanques. Ces températures se situent localement très au-dessus des valeurs normalement observées.
-Températures minimales pour la nuit suivante : dans l'intérieur du département de 19 à 22 degrés. Entre 24 et 26 degrés près du littoral.
+Températures maximales pour le jour : comprises entre 36 et 39 degrés, et de 32 à 35 degrés sur la Camargue et les Calanques. Ces températures se situent par endroits bien au-dessus des valeurs normalement observées.
+Températures minimales pour la nuit suivante : dans l'intérieur du département entre 19 et 22 degrés. Comprises entre 24 et 26 degrés sur le bord de mer.
 
 • Pour la journée de samedi 15 et la nuit suivante :
-Le ciel est partagé entre nuages et éclaircies. Dès la fin de matinée les nuages deviennent menaçants. Ils commencent à donner quelques averses, qui peuvent tourner à l'orage. Ce temps instable se maintient jusqu'en fin de journée. Les éclaircies alternent avec de gros nuages porteurs d'averses souvent orageuses. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+Le ciel est partagé entre nuages et éclaircies. Dès la fin de matinée les nuages deviennent menaçants. Ils commencent à donner quelques averses, qui peuvent tourner à l'orage. Ce temps instable se maintient jusqu'en fin de journée. Les éclaircies alternent avec de gros nuages porteurs d'averses souvent orageuses. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
 Vent de Sud à Sud-Ouest assez faible.
-Températures maximales pour le jour : entre 33 et 36 degrés.
-Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille comprises entre 22 et 25 degrés. 19 degrés sur le val de Durance et la Sainte Baume.
+Températures maximales pour le jour : de 33 à 36 degrés.
+Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille entre 22 et 25 degrés. 19 degrés sur le val de Durance et la Sainte Baume.
 
 • Pour la journée de dimanche 16 :
 Les nuages laissent souvent une belle place au soleil. Mais en cours de journée, ils se font plus nombreux, et s'accompagnent parfois de quelques averses. Ces dernières peuvent même prendre localement un caractère orageux, en début d'après-midi.
-Petit vent de Sud à Sud-Ouest généralement faible.
-Températures maximales : de 32 à 35 degrés, et 36 degrés dans le val de Durance.
+Vent faible de Sud à Sud-Ouest.
+Températures maximales : entre 32 et 35 degrés, et 36 degrés dans le val de Durance.
 
 • Pour lundi 17 et mardi 18 :
 Sur le pays d'Aix ainsi que sur les Alpilles la Camargue et la Crau, temps pluvieux de lundi à la mi-journée jusqu'en fin de journée. Sur les autres régions, beau temps ensoleillé.
@@ -132,28 +132,28 @@ Températures minimales : en baisse du Rhône à l'étang de Berre et autour de 
 Températures maximales : en baisse sur le val de Durance et la Sainte Baume.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 13/08/2026 06:30
+Emis le : 13/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département de la Gironde est en vigilance orange pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Bordeaux : température de 22 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 5 km/h, pression niveau mer 1019 hPa.
-Au Cap-Ferret : température de 22 degrés, vent de secteur Ouest soufflant jusqu'à 10 km/h.
-A Libourne : température de 19 degrés, vent de secteur Est soufflant jusqu'à 5 km/h.
+Aujourd'hui on observait à 09h :
+A Bordeaux : température de 27 degrés, vent de secteur Nord soufflant jusqu'à 10 km/h, pression niveau mer 1020 hPa.
+Au Cap-Ferret : température de 26 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 15 km/h.
+A Libourne : température de 26 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 5 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 13 :
-Le soleil brille sans interruption.
-L'après-midi jusqu'en début de soirée, vent de secteur Nord-Ouest modéré, sur l'Ouest du département.
-Températures maximales : de 40 à 41 degrés, et 35 degrés sur le bord de mer. Ces températures se situent bien au-dessus des valeurs normalement observées.
+La journée est belle, le soleil est largement présent.
+L'après-midi jusqu'en début de soirée, vent s'établissant au secteur Nord-Ouest modéré, sur l'Ouest du département.
+Températures maximales : entre 40 et 41 degrés, et 35 degrés sur le bord de mer. Ces températures se situent très au-dessus des valeurs de saison.
 
 • Pour la nuit prochaine :
-Le temps est calme et propice à l'observation des étoiles.
+Le ciel est bien étoilé.
 En début de nuit, vent de Nord, localement modéré. Après une atténuation, vent s'établissant en fin de nuit, à l'Ouest-Sud-Ouest, sur l'Entre-Deux-Mers.
-Températures minimales : entre 20 et 23 degrés, et 19 degrés sur le littoral.
+Températures minimales : de 20 à 23 degrés, et 19 degrés sur le littoral.
 
 • Pour demain vendredi 14 en journée et la nuit suivante :
 Le temps est sec et très ensoleillé toute la journée. Seul bémol, le ciel se voile dans l'après-midi, sur la majeure partie sud du département. Pour la nuit : Les nuages et les étoiles se partagent équitablement le ciel. Cependant, à partir de minuit, ces nuages deviennent plus menaçants. Entre deux éclaircies, ils peuvent provoquer des orages.
@@ -163,14 +163,14 @@ Températures minimales pour la nuit suivante : de 20 à 22 degrés.
 
 • Pour la journée de samedi 15 et la nuit suivante :
 Un risque orageux est présent dès la matinée. Il s'estompe l'après-midi, perdurant toutefois jusqu'en fin de journée sur la moitié Sud-Est du département. Cette amélioration s'accompagne d'éclaircies plus larges, mais de rares averses restent partout possibles. Pour la nuit : En soirée, on aperçoit des étoiles entre les passages nuageux. De rares averses sont possibles, sur l'Est du département, jusqu'en milieu de nuit. En seconde partie de nuit, le ciel est étoilé.
-En journée et jusqu'en milieu de nuit, vent de secteur Ouest généralement, modéré ; puis faiblissant.
+Vent généralement de secteur Ouest modéré, en journée et jusqu'en milieu de nuit ; puis s'atténuant.
 Températures maximales pour le jour : comprises entre 29 et 31 degrés, et 24 degrés sur le littoral.
-Températures minimales pour la nuit suivante : comprises entre 18 et 19 degrés, et 22 degrés sur le littoral.
+Températures minimales pour la nuit suivante : entre 18 et 19 degrés, et 22 degrés sur le littoral.
 
 • Pour la journée de dimanche 16 :
-L'évolution diurne est marquée. En effet, le soleil le matin fait gonfler les cumulus, autour de l'estuaire de la Gironde ainsi que sur l'Est du département. Ils limitent l'ensoleillement et aboutissent à quelques orages ponctuels l'après-midi. Cependant, sur les autres zones, la journée reste ensoleillée.
-L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord-Ouest, généralement modéré.
-Températures maximales : entre 28 et 31 degrés, et 24 degrés sur le littoral.
+Des petits nuages se forment le matin. Ils vont grossir à la mi-journée, autour de l'estuaire de la Gironde ainsi que sur l'Est du département. Ils provoquent des averses, voire des orages, l'après-midi. Cependant, sur les autres zones, le temps reste assez bien ensoleillé.
+L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord-Ouest, souvent modéré.
+Températures maximales : de 28 à 31 degrés, et 24 degrés sur le littoral.
 
 • Pour lundi 17 et mardi 18 :
 Temps le plus souvent ensoleillé.
@@ -191,44 +191,44 @@ Températures minimales : similaires à la veille.
 Températures maximales : en baisse sur l'agglomération bordelaise ainsi que sur l'Entre-Deux-Mers.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 13/08/2026 06:30
+Emis le : 13/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département du Rhône est en vigilance orange pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Lyon : température de 21 degrés, vent variable faible, pression niveau mer 1020 hPa.
-Aux Sauvages : température de 24 degrés, vent de secteur Est soufflant jusqu'à 15 km/h.
-A Brindas : température de 21 degrés.
+Aujourd'hui on observait à 09h :
+A Lyon : température de 28 degrés, vent de secteur Sud soufflant jusqu'à 5 km/h, pression niveau mer 1020 hPa.
+Aux Sauvages : température de 28 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 15 km/h.
+A Brindas : température de 26 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 13 :
-L'ensoleillement est excellent et le soleil règne sans partage.
+Le soleil règne en maître du matin au soir.
 Vent variable, faible.
-Températures maximales : de 36 à 39 degrés, et 35 degrés dans les monts du Lyonnais. Ces températures sont bien au-dessus des valeurs de saison.
+Températures maximales : comprises entre 36 et 39 degrés, et 35 degrés dans les monts du Lyonnais. Ces températures sont bien au-dessus des valeurs normalement observées.
 
 • Pour la nuit prochaine :
 Le ciel est clair toute la nuit.
 Vent faible, variable.
-Températures minimales : entre 21 et 24 degrés. Ces températures se situent au-dessus des valeurs normalement observées, par endroits très au-dessus.
+Températures minimales : comprises entre 21 et 24 degrés. Ces températures sont au-dessus des valeurs de saison, localement bien au-dessus.
 
 • Pour demain vendredi 14 en journée et la nuit suivante :
-La journée débute avec un temps bien ensoleillé. Cependant, l'après-midi, des nuages bourgeonnent et de petites averses sont possibles, sur l'Est-Lyonnais. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-En fin d'après-midi, vent s'orientant au Nord-Nord-Ouest puis Est modéré, en région lyonnaise ; atténuation ensuite.
+La journée débute avec un temps bien ensoleillé. Cependant, l'après-midi, des nuages bourgeonnent et de petites averses sont possibles, sur l'Est-Lyonnais. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+En fin d'après-midi, vent s'établissant au Nord-Nord-Ouest virant Est modéré, en région lyonnaise ; puis atténuation.
 Températures maximales pour le jour : entre 35 et 38 degrés.
 Températures minimales pour la nuit suivante : de 21 à 23 degrés.
 
 • Pour la journée de samedi 15 et la nuit suivante :
 La matinée est largement ensoleillée malgré quelques passages nuageux. Au fil des heures, si le ciel demeure le plus souvent lumineux, quelques nuages menaçants apparaissent. Des orages peuvent éclater avant la soirée, au confluent Brévenne Turdine Azergues ainsi que des monts du Lyonnais à Givors. Pour la nuit : En début de soirée, des averses sont possibles ici ou là. Des coups de tonnerre se font même entendre au confluent Brévenne Turdine Azergues, des monts du Lyonnais à Givors ainsi qu'en région lyonnaise. Le risque orageux disparaît rapidement, mais des averses perdurent très localement. En seconde partie de nuit, le temps est sec.
 Vent variable, faible.
-Températures maximales pour le jour : comprises entre 33 et 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées.
+Températures maximales pour le jour : entre 33 et 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées.
 Températures minimales pour la nuit suivante : entre 18 et 21 degrés.
 
 • Pour la journée de dimanche 16 :
 Les nuages sont très nombreux et le temps instable. À partir de la mi-journée, des averses parfois orageuses se déclenchent.
-Les plus forts cumuls de pluie peuvent avoisiner 5 millimètres dans les monts du Lyonnais.
+On prévoit au maximum jusqu'à 5 millimètres de pluie dans les monts du Lyonnais.
 Vent faible, variable.
 Températures maximales : autour de 28 à 31 degrés, et 25 degrés sur les coteaux du Lyonnais.
 
@@ -251,47 +251,47 @@ Températures minimales : en baisse dans le Beaujolais ainsi qu'en zone de plain
 Températures maximales : sans changement significatif.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
-Emis le : 13/08/2026 06:30
+Emis le : 13/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui, le département de la Haute-Garonne est en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance orange pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Toulouse-Blagnac : température de 24 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 10 km/h, pression niveau mer 1019 hPa.
-A Luchon : température de 16 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h.
-A Saint-Félix-Lauragais : température de 25 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 09h :
+A Toulouse-Blagnac : température de 25 degrés, vent de secteur Sud soufflant jusqu'à 10 km/h, pression niveau mer 1020 hPa.
+A Luchon : température de 20 degrés, vent de secteur Est soufflant jusqu'à 5 km/h.
+A Saint-Félix-Lauragais : température de 25 degrés, vent de secteur Sud soufflant jusqu'à 20 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 13 :
 La journée débute avec un temps bien ensoleillé. Cependant, l'après-midi, des nuages bourgeonnent et de petites averses sont possibles, sur le Cagire et le Luchonnais.
-En fin de matinée, vent de Sud-Est, modéré sur le Lauragais, puis s'atténuant ; en cours d'après-midi, vent se renforçant dans l'Agglomération toulousaine, avec orientation au Nord.
-Températures maximales : sur la plaine et le piémont entre 39 et 40 degrés. 35 degrés sur le Cagire et le Luchonnais. Ces températures sont par endroits très au-dessus des valeurs normalement observées.
+En fin de matinée, vent de Sud-Est, modéré sur le Lauragais ; en milieu d'après-midi, vent s'orientant au Nord, même force dans l'Agglomération toulousaine.
+Températures maximales : sur la plaine et le piémont de 39 à 40 degrés. 35 degrés sur le Cagire et le Luchonnais. Ces températures se situent localement très au-dessus des valeurs de saison.
 
 • Pour la nuit prochaine :
-Le ciel est bien étoilé.
-En début de nuit, vent de Sud-Est, modéré sur le Lauragais ; en fin de nuit, vent s'orientant Ouest, même force sur les coteaux de Gascogne.
-Températures minimales : sur la plaine et le piémont entre 20 et 22 degrés. 16 degrés sur le Cagire et le Luchonnais.
+Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+En début de nuit, vent de Sud-Est, modéré sur le Lauragais, puis s'atténuant ; en fin de nuit, vent se renforçant sur les coteaux de Gascogne, avec orientation à l'Ouest.
+Températures minimales : sur la plaine et le piémont comprises entre 20 et 22 degrés. 16 degrés sur le Cagire et le Luchonnais.
 
 • Pour demain vendredi 14 en journée et la nuit suivante :
 La journée débute avec un temps bien ensoleillé. Cependant, l'après-midi, des nuages bourgeonnent et de petites averses sont possibles, sur le Cagire et le Luchonnais. Pour la nuit : Le ciel est parfois voilé.
 Vent temporairement modéré sur la plaine et le piémont.
-Températures maximales pour le jour : sur la plaine et le piémont de 38 à 39 degrés. 35 degrés sur le Cagire et le Luchonnais.
-Températures minimales pour la nuit suivante : sur la plaine et le piémont de 19 à 22 degrés. 16 degrés sur le Cagire et le Luchonnais.
+Températures maximales pour le jour : sur la plaine et le piémont entre 38 et 39 degrés. 35 degrés sur le Cagire et le Luchonnais.
+Températures minimales pour la nuit suivante : sur la plaine et le piémont entre 19 et 22 degrés. 16 degrés sur le Cagire et le Luchonnais.
 
 • Pour la journée de samedi 15 et la nuit suivante :
 La journée débute sous un ciel largement ensoleillé. Mais rapidement, les nuages se font plus nombreux sur le Cagire et le Luchonnais, et apportent quelques averses. En début d'après-midi, la dégradation se généralise, et le temps devient orageux. En fin de journée, les averses peuvent prendre un caractère orageux. Pour la nuit : Le ciel en soirée est très nuageux. Des averses sont possibles jusqu'à minuit. Elles peuvent provoquer des orages, mais ce risque diminue progressivement. Après minuit, le temps redevient sec. Le ciel profite de larges éclaircies.
-10 millimètres est le cumul maximum de pluie attendu sur le Cagire et le Luchonnais.
-En milieu de nuit, vent s'orientant Ouest modéré, sur les coteaux de Gascogne ; atténuation ensuite.
+On prévoit au maximum jusqu'à 10 millimètres de pluie sur le Cagire et le Luchonnais.
+En milieu de nuit, vent s'établissant à l'Ouest modéré, sur les coteaux de Gascogne ; puis atténuation.
 Températures maximales pour le jour : sur la plaine et le piémont autour de 31 à 34 degrés. 28 degrés sur le Cagire et le Luchonnais.
-Températures minimales pour la nuit suivante : comprises entre 17 et 20 degrés, et comprises entre 21 et 22 degrés du Lauragais aux coteaux de Cadours.
+Températures minimales pour la nuit suivante : entre 17 et 20 degrés, et de 21 à 22 degrés du Lauragais aux coteaux de Cadours.
 
 • Pour la journée de dimanche 16 :
 De belles éclaircies illuminent la matinée. L'après-midi, les nuages deviennent plus nombreux. Des orages sont alors possibles.
-On prévoit au maximum jusqu'à 10 millimètres de pluie sur le Cagire et le Luchonnais.
+Les plus forts cumuls de pluie peuvent avoisiner 10 millimètres sur le Cagire et le Luchonnais.
 Vent variable, faible.
-Températures maximales : sur le Midi Toulousain autour de 29 à 32 degrés. De 26 à 27 degrés sur le piémont et la montagne.
+Températures maximales : sur le Midi Toulousain voisines de 29 à 32 degrés. De 26 à 27 degrés sur le piémont et la montagne.
 
 • Pour lundi 17 et mardi 18 :
 Sur les coteaux de Gascogne ainsi que du Lauragais au Comminges, soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire. Sur les autres régions, beau temps ensoleillé.
@@ -346,12 +346,12 @@ Pour la suite pas de phénomènes dangereux prévus.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : &#xC9;té 2026 et éco-anxiété
+• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en Allemagne
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 13/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -359,9 +359,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 13 Août 2026.
-Résumé général précédent : Après un pic caniculaire intense jeudi et vendredi, une dégradation orageuse samedi devrait amorcer un rafraîchissement progressif, plus net à partir de dimanche. La semaine suivante s'annonce plus fraîche, mais avec une incertitude marquée sur l'ampleur et la durée de ce changement, le sud-est restant sous surveillance..
+Résumé général précédent : La France vit actuellement un pic de canicule intense, avec des températures dépassant localement les 40°C. Un changement de synoptique majeur est attendu dès le week-end du 15-16 août, avec une dégradation orageuse et une nette baisse des températures. Cette tendance devrait se confirmer et s'installer durablement la semaine suivante, avec un flux océanique plus humide et frais, particulièrement au nord. Le sud-est reste en marge avec une forte incertitude, notamment sur un possible épisode méditerranéen..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule marquée jeudi, orages samedi, baisse des températures dimanche..
+Températures attendues précédemment : Orages possibles samedi sur une large diagonale, avec un risque de phénomènes localement forts. Refroidissement net et généralisé dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -613,20 +613,6 @@ Il y a 2 heures, meteo noobs a dit :
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: meteo noobs
-Message:
-La sortie de CEP 0z laisse rêveur 
-	Plongé franche des BP sur la france dans le topic. On se retrouverait en dessous des normales sur une partie nord du pays et un arrosage conséquent.
-	Ca reste le dét a prendre comme un scénario parmis d'autres mais ca fait longtemps qu'on n'a pas eu ce genre de modélisation.
-	J attends les ensembles
-	Modifié mardi à 09:14 par meteo noobs
-Carte
-								1
-								7
-								2
-
-=======================
-
 Auteur: Twister83
 Message:
 Pour les régions méditerranéennes, toujours beaucoup d'incertitudes pour le début de semaine prochaine, isolement du talweg en Méditerranée ou pas, ça va de l'épisode Méditerranéen (GEM/GFS) ou poursuite d'un temps très sec avec mistral et tramontane (ICON/UKMO/CEP IA)...
@@ -805,7 +791,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 21 heures par petit âge glaciaire 11
+	Modifié il y a 23 heures par petit âge glaciaire 11
 Modifié
 								2
 								4
@@ -890,18 +876,27 @@ il y a 36 minutes, Virgile a dit :
 			J'ai du mal à y croire avec la résistance des HP subtropicales.
 	Ne me dis pas que ca va s'éclipser?
 	Ok je sors
-								8
+								10
 
 =======================
 
 Auteur: petit âge glaciaire 11
 Message:
-Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de la France et Aix-en-Provence dans le sud-est, il résume un peu tout avec pour le nord de la France un resserrement des courbes qui atteste que le modèle consolide encore ce soir un changement profond et durable de la synoptique avec, entre le 15 et le 18 août, une baisse de quasiment 13 degrés (quand-même !) de la température moyenne à 850 hpa et un plateau autour de 10 degrés ensuite à perte de vue :
+Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de la France et Aix-en-Provence dans le sud-est, il résume un peu tout avec pour le nord de la France un resserrement des courbes qui atteste que le modèle consolide encore ce soir un changement profond et durable de la synoptique avec, entre le 15 et le 18 août, une baisse de quasiment 10 degrés (quand-même !) de la température moyenne à 850 hpa et un plateau autour de 10 degrés ensuite à perte de vue :
 	Paris :
 	Et une incertitude encore notable dans le sud avec  certes une baisse progressive des températures en altitude mais aussi une dispersion importante des courbes dans le sud-est dès le début du topic (plus de 10 degrés) et une moyenne qui peine à s'éloigner des 20 degrés à 850 hpa.
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 8 heures par petit âge glaciaire 11
-								8
+	Modifié il y a 1 heure par petit âge glaciaire 11
+								9
 								1
+
+=======================
+
+Auteur: Kyrion
+Message:
+A la vue des modèles ce matin, on peut dire que la thalweg prévu en début d'échéance a perdu pas mal de profondeur depuis 48h. 
+	Baisse de température toujours acquise -mais moins franche- et nette diminution du potentiel de précipitations stratiformes. On conserve toujours un potentiel convectif dimanche/lundi mais qui sera loin de mettre un terme à la sécheresse (y compris de surface).
+	Le véritable rafraichissement est donc une nouvelle fois décalée à J+7 avec toutes les incertitudes associées (goutte froide ? Simili flux d'ouest ?).
+								2
