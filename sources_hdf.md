@@ -308,12 +308,12 @@ sud-est, avec localement des cumuls de pluie importants.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Nord -  AOUT 2026
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 13/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 13 Août 2026.
-Résumé général HDF précédent : Canicule intense et brève (13-15 août), puis rafraîchissement net à partir du 16-17 août avec un flux océanique plus ou moins durable ; les pluies resteront faibles et localisées..
+Résumé général HDF précédent : Canicule intense et brève (13-15 août), puis net rafraîchissement à partir du 16-17 août avec flux océanique, pluies faibles et localisées..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule jusqu'à vendredi, orages samedi 15, puis soleil et températures de saison dimanche..
+Températures attendues précédemment : Orages samedi sur l'Oise et l'Aisne, rafraîchissement en soirée, net regain de soleil dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -575,144 +575,6 @@ Il y a 2 heures, meteo noobs a dit :
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Il faut attendre confirmation mais pour une fois la baisse des températures amorcée au topic précédent dans le nord pourrait être franche et durable.
-	Dans le sud-ouest la baisse sera aussi assez nette et enfin dans le sud-est elle sera plus timorée mais sera ressentie comme une délivrance par les habitants épuisés. 
-	Ce qui est important c'est le caractère pour une fois durable de cette évolution,  cela pourrait être pour une fois un changement de synoptique et non une pause entre 2 canicules.
-	GFS Paris :
-	Toulouse :
-	Aix-en-Provence :
-	Et enfin le retour possible du courant d'ouest et des pluies dans le nord notamment.
-	Vents :
-	Pluies :
-	Un vrai changement ? 
-	Largement à confirmer étant donné que j'ai regardé la que l'américain mais la tendance existe aussi pour les autres modèles. 
-	Exemple avec les températures modélisées par AIFS poir Paris et Toulouse :
-	Modifié mardi à 15:02 par petit âge glaciaire 11
-								9
-								2
-								1
-								1
-								1
-
-=======================
-
-Auteur: tao
-Message:
-il y a une heure, petit âge glaciaire 11 a dit :
-			Ce qui est important c'est le caractère pour une fois durable de cette évolution,  cela pourrait être pour une fois un changement de synoptique et non une pause entre 2 canicules.
-	Bonjour,
-	pour abonder dans le sens de ta remarque, j'ai pris l'évolution des régimes sur deux jours, le 08 août et le 10 août en attendant confirmation.
-	Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
-	Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
-	Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Modifié mardi à 16:05 par tao
-								14
-								1
-
-=======================
-
-Auteur: Run999H
-Message:
-Merci pour l’état des lieux et synthèse de nos différents modèles ensemblistes @petit âge glaciaire 11  
-	Dans les faits, je suis d’accord avec toi, il y a des choses encourageantes. Mon bémol est que cette analyse reste essentiellement axée T850hpa et assez logiquement 2m.
-	Ce que j’observe dans ces différents diagrammes, c’est une rupture de fiabilité sur la hauteur 500hpa avant même que la semaine ne démarre. Et si changement il doit y avoir, c’est plutôt sur les HG qu’il faut regarder. 
-	Rappelons-nous de quelques scénarios GFS jusqu’à hier qui voyaient un thalweg atlantique plonger rapidement vers le pays voire même faire un passage express sur le pays avant de finir en direction de la péninsule Ibérique. GEM ce matin n’en est pas loin. Ce scénario a pris du plomb dans l’aile sur les modèles ce matin mais il n’est encore pas à écarter or, cela pourrait être synonyme d’une franche dégradation du temps sur le début de période mais possiblement le retour imminent des HG par l’Atlantique et le bassin méditerranéen de l’autre côté. 
-	Au contraire, si ce thalweg ne s’isole pas, ou très partiellement, ça pourrait en effet être gage d’un rafraîchissement plus généralisé voire l’installation d’un flux océanique. 
-	Je n’écarte pas ce scénario car hier on l’observait encore mais aussi pcq cet espoir nous a déjà valu des déceptions les semaines passées avec de profonds thalwegs qui sont devenus mirages voire démoniaques en mode cut-off / pompe à chaleur. Et quand je vois les diagrammes éclatés et la Z500 sur les différents modèles, je me méfierais encore de ce scénario confiant et rafraîchissant à 850hpa… 
-	Modifié mardi à 15:49 par Run999H
-								20
-								1
-								1
-
-=======================
-
-Auteur: _sb
-Message:
-Il y a 3 heures, tao a dit :
-			Bonjour,
-			pour abonder dans le sens de ta remarque, j'ai pris l'évolution des régimes sur deux jours, le 08 août et le 10 août en attendant confirmation.
-			Je pense que l'on peut dire qu'il y a eu un virage dans la prévision:
-			Pour les conséquences sur le terrain, la première serait la sortie de canicule pour une grande partie du territoire dès le week-end.
-			Ensuite, pour ce qui est de la durabilité et du niveau d'humidité, je pense qu'il est encore un peut tôt pour se prononcer. Par exemple les modélisations avec stagnation d'une anomalie sur le pays se font plus rares dans les ensemble avec comme corolaire une diminution des scénarios très pluvieux. Si le régime pont atlantique reste en place, la diminution des température serait plus certaine sans toutefois pouvoir en préciser la profondeur et la durée.
-	Méfiance, non pas sur l'issue qui est à définir et qui peut opérer un net changement de paradigme, mais sur l'interprétation des graphes.
-	Si on regarde les couleurs, oui, il y a bouleversement mais tu sais que c'est insuffisant. Deux autres graphes éclairent sur la réalité de ce « bouleversement » à cet instant :
-	Il n'y a pas l'ombre d'une tendance sur un régime NAO ± ni BL ±. Les deux ensembles demeurent inexorablement en zone neutre (intérieur du cercle, non significatif). Ça doit nous alerter sur le sens donner au graphe des régimes.
-	Le régime AR (ATR, en violet qui deviendrait dominant d'un coup) se traduit dans les EOF ci-dessus par une position à la fois vers NAO+ et BL-, donc dans le carré du bas à droite. Schématiquement, AR est le développement d'une dorsale sur l'Atlantique nord, donc une position NAO+ qui s'élève en latitude ; en contrepoint, les BG migrent vers la Scandinavie, d'où une tendance BL-. On n'a rien de tout ça. Pour l'heure, on ignore si c'est l'amorce d'une tendance de fond à un soulèvement des HG sur l'océan associé à une descente des BG sur le continent ? Ou simplement une ondulation relative un peu persistante.
-	Les clusters peuvent aider à démêler.
-	- C'est très éclaté, il n'y a pas un groupe qui surclasse les autres.
-	- Le type AR apparaît bien mais faiblard si bien qu'on sortirait de la canicule (pas forcément sur le sud-est d'ailleurs) mais qu'on resterait dans le chaud.
-	- L'advection subtropicale ne se trouve jamais très loin.
-	Le virage est plus visuel que synoptique  pour le moment en tout cas. On perçoit dans le brouillard quelques frémissements sur l'eau mais on ignore encore si c'est un caillou qui est tombé ou toute une falaise ! Croisons les doigts en attendant !  
-								20
-								1
-								1
-
-=======================
-
-Auteur: Mercur01
-Message:
-Fraîcheur programmée le week end du 22-23 août. À confirmer cependant !
-								3
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Ce matin
-	Plein d’entrain
-	J’ai regardé
-	Mon modèle redouté
-	Ce début de semaine
-	Ressemble à une aubaine
-	Avec de la fraicheur
-	Quel bonheur
-	La Goutte froide disparu
-	La fin du calvaire serait donc apparu ?
-	Mais dans ma précipitation
-	J’avais oublié les précipitations
-	En dehors du début d’échéance
-	La pluie ne veut pas tomber en France
-	Et sur la fin de topic
-	Ce qui est visible n’est que trop hypothetique.
-	Ce n’est que la sortie du matin.
-	D’un deterministe plaisantin
-	Comme d’habitude avec GEFS
-	On sert les fesse.
-	Et l’on attend son ensembliste
-	Ainsi que les autres modèles avec leurs déterministes
-	Pour pouvoir appréhender au mieux
-	La sortie de cette canicule de mes deux.
-	Signé le poète,
-	CHARLES BEAUD'AROME
-								18
-								11
-								2
-								10
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-Cela fait du bien de voir de des cartes comme ca :
-	Enfin des température normales voire un peu en dessous des normes pour quelques jours  ?
-	Des hautes pressions pourraient prendre possession de l'atlantique et avec les basses pressions qui s'installeraient au sud de la Scandinavie , un flux
-	de nord-ouest pourraient s'installer dans le nord dans un premier temps pour le sud on verra.
-	Cette nouvelle synoptique pourrait perdurer plusieurs jours, c'est une hypothèse qui se consolide de jour en jour :
-	CEP:
-	GEM :
-	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié hier à 08:14 par petit âge glaciaire 11
-Modifié
-								2
-								4
-								1
-								1
-
-=======================
-
 Auteur: lapin61
 Message:
 Bonjour, la sortie ICON de la nuit, m'incite à la prudence, en attendant la 6z...
@@ -802,7 +664,7 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 11 heures par petit âge glaciaire 11
+	Modifié il y a 13 heures par petit âge glaciaire 11
 								12
 								1
 
@@ -813,7 +675,7 @@ Message:
 A la vue des modèles ce matin, on peut dire que la thalweg prévu en début d'échéance a perdu pas mal de profondeur depuis 48h. 
 	Baisse de température toujours acquise -mais moins franche- et nette diminution du potentiel de précipitations stratiformes. On conserve toujours un potentiel convectif dimanche/lundi mais qui sera loin de mettre un terme à la sécheresse (y compris de surface).
 	Le véritable rafraichissement est donc une nouvelle fois décalée à J+7 avec toutes les incertitudes associées (goutte froide ? Simili flux d'ouest ?).
-								5
+								6
 								4
 
 =======================
@@ -837,9 +699,9 @@ On aurait pu espérer un changement de condition synoptique pour cette semaine m
 Auteur: fran39
 Message:
 Hé oui Virgile a tout dit... ce serait drôle si ce n'était pas aussi grave.
-	Modifié il y a 8 heures par fran39
+	Modifié il y a 10 heures par fran39
 								8
-								17
+								19
 								1
 								4
 
@@ -851,8 +713,8 @@ Un joli mirage tout de même.
 	Bien que ça soit encore loin, j'avoue que j'y crois un peu plus que la tentative avortée d'isolement de talweg en Méditerranée d'il y'a quelques jours.
 	Ça semble tout de même bien plus favorable à un profond changement de synoptique sur l'Europe de l'ouest pour la fin août et même pour le début de l'automne météorologique.
 	Il y'a quand même de quoi être un peu plus optimiste pour la dernière décade d'août, même si rien n'est gagné encore, d'ailleurs l'option sèche mais beaucoup plus fraîche est possible également.
-	Modifié il y a 8 heures par Twister83
-								1
+	Modifié il y a 10 heures par Twister83
+								2
 								4
 								2
 								2
@@ -866,7 +728,7 @@ Il y a 4 heures, Twister83 a dit :
 	Plus encore quand on voit ce qu'il était modélisé pour le début de cette échéance il y'a 4 jours
 	Et ce qu'il en reste...
 	On peut légitimement s'interroger sur le fait de s'en sortir avant la fin du mois, même si le feu de l'enfer est un peu réduit...
-								5
+								6
 								1
 								1
 								1
@@ -882,5 +744,87 @@ Il y a 8 heures, Virgile a dit :
 	.
 	Ce soir c'est mieux, UKMO fait machine arrière :
 	Quant à GEM, si cela se produit, c'est le pied pour toute la France, y compris l'extrême sud :
+								2
+								8
+								2
+
+=======================
+
+Auteur: meteo noobs
+Message:
+C'est moi ou c'est très laborieux sur les modèles? 
+	Aucun n'est d accord
+	On passe d'un week end orageux avec baisse générale des Tx à dégradation mais Tx élevés encore la semaine.
+	GFS fait des grands écarts entre ses runs. Par exemple moselle sur ma commune jeudi il passe à 18 degré contre 37 la veille. GEM voit une atténuation plus lente et classique. Icon n'arrête pas de monter le thermostat. CEP idem change tous les jours. 
+	Quelqu'un voit une explication à cela ? Je sais qu'on est sur LT mais je les trouve très volatile beaucoup plus que la normale. Ont ils du mal à recaler la synoptique ?
 								1
+
+=======================
+
+Auteur: tao
+Message:
+Bonsoir,
+	même si effectivement ce ne sera pas la révolution, la semaine à venir sera plus modérée en terme d'excès estivaux. Il y a bien une tentative de changement de synoptique bien que la ceinture de hauts géopotentiels reste en une position bien septentrionales pour l'Europe.
+	Fallait il s'attendre à une fin d'été brutale après le 15 août comme cela a pu être le cas dans le passé? 
+	Il y a quand même un point d'inflexion, la durée de la pause ne sera pas forcément longue, l'humidité pas à la hauteur des attentes mais si l'on doit évoquer la fin de la sécheresse, il est évident que compte tenu de la profondeur du déficit, de la température du sol, une semaine ne suffira pas. Il faut bien quand même prendre un virage, celui-ci ne serait pas serré mais nous ne sommes que fin août et jusqu'à mi octobre l'été n'a désormais pas dit son dernier mot. Pour le moment au niveau humidité, il n'y a pas de bouleversement profond.
+	La pause, si elle n'est pas totale surtout au sud, sera quand même là. Au niveau synoptique, je trouve qu'il y a tout de même une évolution mais que nous devons regarder avec les lunettes du changement climatique plutôt qu'avec l'éclairage de ce que certains ont connu...
+								8
 								3
+
+=======================
+
+Auteur: Sawano
+Message:
+Ce soir les déterministes GFS et CEP sont d'accord pour un pic de chaleur en milieu de semaine. Une hausse déjà entrevue précédemment mais beaucoup moins importante. Heureusement GFS n'est pas suivi par son ensembliste. A suivre quand même..;
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+il y a 26 minutes, meteo noobs a dit :
+			C'est moi ou c'est très laborieux sur les modèles? 
+	Oui effectivement les modèles pataugent un peu et pas forcément à très long terme.
+	Je vais prendre comme exemple UKMO pour  jeudi à 0 heures avec ce matin la canicule qui résiste très bien dans la moitié sud de la France et des fortes chaleurs même dans une partie du nord.
+	La moyenne à 850hpa reste à 20 degrés en dessous d'une ligne Bordeaux Dijon. 
+	UKMO 0Z :
+	Puis ce soir la canicule quitte le pays avec même une certaine fraîcheur sur le nord-ouest :
+	UKMO 12 Z:
+	Illustration par la synoptique avec ce matin des centres d'action qui bougent très peu avec des géopotentiels qui restent élevés sur notre pays :
+	UMMO OZ :
+	Et ce soir changement de programme avec des hautes pressions qui se décalent vers l'ouest tout en prenant une composante plus méridienne en générant un flux de nord-ouest sur une partie du pays avec des géopotentiels en baisse sur la France par le nord.
+	UKMO 12Z :
+	Comme quoi rien n'est joué sur l'amplitude du changement à 7 jours d'échéance.
+	Alors changement laborieux voire inexistant dans le sud ou baisse conséquente des températures sur la France avec possibilité de pluie ?
+	Je mettrais plutôt une pièce sur la deuxième hypothèse mais en restant prudent pour le sud.
+								1
+								1
+
+=======================
+
+Auteur: meteo noobs
+Message:
+il y a 1 minute, Sawano a dit :
+			Ce soir les déterministes GFS et CEP sont d'accord pour un pic de chaleur en milieu de semaine. Une hausse déjà entrevue précédemment mais beaucoup moins importante. Heureusement GFS n'est pas suivi par son ensembliste. A suivre quand même..;
+	Exactement
+	Et le père CEP suit ! 
+	On passe de la situation 
+	Week end du 15 dégradation et topic sous les normales à 
+	Week end avec dégradation mais persistance d'un temps chaud puis pic et re dégradation jeudi pour CEP vendredi piur GFS 
+	Faut plus être previsioniste mais chamane...
+
+=======================
+
+Auteur: Krholam
+Message:
+Après y’a quand même des signes positifs. Ça fait du bien de voir le recul de la grosse tache rouge.
+	Et on voit bien cette incertitude modèles quands aux Précipitation avec une bonne partie de la France pas encore bien cernée. De grosses hésitations sur la méditerrannée mais a minima. ON A PAS LE ROSE DES PP
+
+=======================
+
+Auteur: mathias
+Message:
+il y a 5 minutes, Krholam a dit :
+			Après y’a quand même des signes positifs. Ça fait du bien de voir le recul de la grosse tache rouge.
+	Ce qui est spectaculaire sur cette carte, ce sont toutes ces anomalies thermiques positives qui concernent tout l'océan et la mer autour de la France...
+	Comme si on était piégé, englué à cette chaleur sans fin...

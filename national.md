@@ -1,136 +1,137 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Jeudi 13 Août 2026
-**Période :** Semaine 1 (Du jeudi 13 août au dimanche 16 août 2026) & Semaine 2 (Du lundi 17 au dimanche 23 août 2026)
+**Période :** Semaine 1 (Période exacte semaine 1 : du jeudi 13 au dimanche 16 août 2026) & Semaine 2 (Période exacte semaine 2 : du lundi 17 au dimanche 23 août 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Scénario de baisse des températures partagé par la majorité des modèles, mais avec des variantes sur l'intensité.*
-- **Fiabilité du scénario majoritaire :** Rafraîchissement durable au nord, chaleur atténuée au sud — *L'option la plus probable est un flux d'ouest, mais le sud-est pourrait rester en marge.*
-- **Stabilité des cartes/scénarios :** 6 / 151 — *6 cartes sur 151 analysées*
-- **Niveau d'incertitude global :** Modérée — *Incertitude principale sur la durée de la baisse et l'évolution du sud-est.*
+- **Consensus des modèles :** Modéré — *Les modèles s'accordent sur la canicule du début de période, mais divergent nettement sur la semaine suivante.*
+- **Fiabilité du scénario majoritaire :** Canicule puis reflux — *Scénario le plus probable : pic jeudi/vendredi, dégradation orageuse samedi, baisse dimanche, puis hésitation.*
+- **Stabilité des cartes/scénarios :** 6 / 158 — *6 cartes sur 158 analysées*
+- **Niveau d'incertitude global :** Forte sur semaine 2 — *Écarts entre runs et ensembles importants, notamment sur le sud-est et l'éventuel pic de chaleur mi-semaine.*
 
-## 🗓️ SEMAINE 1 : Du jeudi 13 août au dimanche 16 août 2026
+## 🗓️ SEMAINE 1 : Période exacte semaine 1 : du jeudi 13 au dimanche 16 août 2026
 ### 💡 Points clés de la semaine 1
-1. Pic caniculaire jeudi : Températures extrêmes sur tout le pays, jusqu'à 40°C localement.
-2. Rafraîchissement ouest vendredi : Baisse des températures par le nord-ouest, mais chaleur persistante.
-3. Orages possibles samedi : Dégradation orageuse sur le sud-ouest, le centre et l'est, localement forte.
-4. Fin d'épisode dimanche : Nette baisse des températures, orages résiduels, retour d'un temps plus frais.
-5. Sécheresse des sols : Pluies limitées, mal réparties, pas d'amélioration durable visible.
+1. Pic caniculaire jeudi/vendredi : Une chaleur intense, localement 40°C, touche les trois quarts du pays.
+2. Baisse par le nord-ouest : Le reflux s'amorce vendredi, et devient plus net dimanche.
+3. Orages samedi : Une dégradation orageuse est possible sur une diagonale sud-ouest/centre-est.
+4. Vigilance orange : Plusieurs départements sont placés en vigilance orange canicule, dont Paris, la Gironde, le Rhône, la Haute-Garonne et les Bouches-du-Rhône.
+5. Sécheresse persistante : Les pluies attendues resteront insuffisantes malgré les orages.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Pic de chaleur maximal jeudi, températures dépassant largement les normales sur tout le pays.
-- Baisse des températures amorcée par l'ouest à partir de vendredi, plus nette dimanche.
-- Régime sec persistant, pluies restant rares et mal réparties.
+1. Canicule généralisée jusqu'à vendredi, avec des maximales souvent supérieures à 35°C.
+2. Baisse des températures à partir du week-end, surtout au nord-ouest.
+3. Risque orageux samedi, plus marqué sur le sud-ouest et le centre-est.
 **Points de divergence :**
-- Intensité et localisation des orages samedi : certains modèles (ARPEGE) voient des cumuls plus importants, d'autres une dégradation plus faible.
-- Profondeur du rafraîchissement : CEP/GEM plus marqué, GFS/AIFS moins franc.
-- Persistance de la chaleur au sud-est : certains ensembles gardent un cluster caniculaire.
+1. Ampleur des cumuls orageux samedi (faible selon ARPEGE, plus fort sous convection).
+2. Vigueur du rafraîchissement dimanche (franc sur GFS, plus limité sur CEP).
+3. Maintien ou non de la chaleur dans le sud-est après dimanche.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS / GEFS** (Documenté) | Pic de chaleur intense jeudi, puis baisse progressive par l'ouest, orages possibles samedi, temps plus frais dimanche. | Canicule généralisée jusqu'à vendredi, orages isolés samedi, net rafraîchissement dimanche. | Toutes les zones, mais impact plus marqué au nord-ouest et au sud-ouest. | Élevée (85%) | Anomalies de +10°C à 850 hPa pendant 3 jours, probabilité de dépasser le 95ème percentile élevée, signaux secs sur le nord-ouest. |
-| **ECMWF (CEP)** (Documenté) | Chaleur extrême jeudi et vendredi, baisse plus franche samedi, orages possibles, temps plus frais dimanche. | Canicule puis dégradation orageuse samedi, net rafraîchissement dimanche. | Sud-ouest, centre, est, nord-est. | Modérée (65%) | Le déterministe CEP montre une boucle sur la France avec un rafraîchissement week-end/lundi, mais les ensembles restent dispersés. |
-| **UKMO** (Partiellement documenté) | Option de rafraîchissement par courbure du flux, moins marquée que CEP, orages possibles. | Chaleur encore forte, début de baisse samedi, orages isolés. | Nord-ouest, ouest | Faible (45%) | Mentionné comme une direction possible, mais sans détails précis sur les runs. |
-| **GEM (Canadien)** (Partiellement documenté) | Plongée d'un thalweg avec instabilité et pluie, scénario moins soutenu que CEP. | Rafraîchissement plus franc, orages potentiels samedi et dimanche. | Centre, est, sud-est | Faible (45%) | Mentionné comme plus fiable que son voisin, avec un GIF montrant une circulation chaude et sèche malgré tout. |
-| **ARPEGE (Météo-France)** (Partiellement documenté) | Dégradation orageuse timorée, cumuls potentiellement plus forts sous convectif. | Orages samedi, surtout sur une diagonale sud-ouest/nord-est, arrosage conséquent localement. | Sud-ouest, centre, centre-est, nord-est | Faible (45%) | ARPEGE semble timoré sur la dégradation, mais les cumuls pourraient être plus forts sous les orages. |
+| **GFS** (documented) | Pic caniculaire très marqué jeudi/vendredi avec 40°C possibles, puis baisse relative le week-end et incertitude sur la suite. | Chaleur extrême, orages samedi possibles, rafraîchissement dimanche. | National, avec 40°C localisés (Nantes, quart sud-ouest). | Élevée (85%) | GFS voit des anomalies de +10°C à 850 hPa pendant trois jours sur les trois quarts du pays, avec quelques 40°C. Les sorties récentes évoluent vers une baisse plus franche après le 15, mais les écarts entre runs restent importants. |
+| **GEFS** (documented) | Ensemble chaud mais avec dispersion accrue après le 15 ; deux familles de solutions, l'une plus fraîche, l'autre persistante. | Probabilité élevée de dépasser les seuils caniculaires ; précipitations déficitaires. | National, surtout nord-ouest et centre. | Modérée (65%) | GEFS est cité pour les probabilités de jours consécutifs chauds et pour une option de thalweg atypique. Les membres montrent un signal très chaud, mais avec une incertitude croissante en fin d'échéance. |
+| **CEP / ECMWF** (documented) | Déterministe favorable à un rafraîchissement plus net et plus humide pour le week-end, mais l'ensemble laisse plusieurs options. | Baisse des températures, orages possibles, surtout au nord et au centre-est. | France entière, avec un signal plus franc au nord. | Élevée (80%) | Le CEP déterministe a été vu comme l'option la plus fraîche et humide. L'ensemble CEP montre un resserrement des courbes pour Paris et une dispersion plus forte pour le sud-est. Il est encore trop tôt pour trancher. |
+| **UKMO** (partial) | Rafraîchissement par courbure du flux, avec une crête anticyclonique sur l'Atlantique. | Reflux plutôt sec, températures en baisse modérée. | Moitié nord, puis possiblement le sud. | Faible (45%) | UKMO est cité dans l'option de rafraîchissement par courbure du flux, en compagnie d'AIFS et JMA. Peu de détails disponibles dans les discussions. |
+| **AIFS** (partial) | Solution moins bouillante que GEFS, avec un rafraîchissement possible plus rapide. | Chaleur encore forte, mais pic moins extrême. | National. | Faible (45%) | AIFS est mentionné comme moins chaud que GEFS, dans le groupe UKMO/AIFS/JMA pour un rafraîchissement par courbure. |
+| **JMA** (partial) | Inclus dans le scénario de rafraîchissement par courbure du flux, sans précision supplémentaire. | Baisse modérée des températures. | Non déterminable. | Faible (45%) | JMA est seulement cité aux côtés d'UKMO et AIFS dans l'option de rafraîchissement. Aucun détail supplémentaire dans les discussions. |
+| **GEM (Canadien)** (documented) | Hésite entre le maintien de la circulation chaude et une plongée de thalweg instable. | Possible dégradation orageuse sur le centre et l'est. | Centre, est, sud-est. | Modérée (65%) | D'un côté, une animation GEM montre une circulation chaude et sèche persistante ; de l'autre, GEM est classé dans l'option "thalweg avec instabilité et pluie". |
+| **ARPEGE** (partial) | Dégradation orageuse du week-end modérée dans les sorties, mais cumuls potentiellement plus forts sous convection. | Orages samedi et dimanche, surtout sur une diagonale sud-ouest/centre-est. | Sud-ouest, centre, centre-est, nord-est. | Faible (45%) | ARPEGE est jugé timoré sur les cumuls orageux du week-end ; le risque convectif pourrait générer des averses plus fortes, notamment sur la diagonale habituelle. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Chaleur extrême jeudi, puis baisse vendredi, orages possibles samedi, temps plus frais dimanche. | Jeudi 38-40°C, vendredi 35°C, samedi 30-33°C, dimanche 28-30°C. | elevee | GFS, ECMWF, UKMO | Localisation des orages samedi, intensité de la baisse. |
-| **Nord** | Canicule jeudi, chaleur encore forte vendredi, orages possibles samedi, net rafraîchissement dimanche. | Jeudi 39°C, vendredi 37°C, samedi 32°C, dimanche 28°C. | elevee | GFS, ECMWF, ARPEGE | Timing du rafraîchissement, intensité des orages. |
-| **Nord-Est** | Chaleur intense jeudi, orages possibles samedi, baisse dimanche. | Jeudi 38°C, vendredi 36°C, samedi 33°C, dimanche 29°C. | moderee | GFS, ECMWF | Incertitude sur la localisation exacte des orages. |
-| **Ouest et Façade Atlantique** | Canicule jeudi, baisse vendredi, orages samedi, temps frais dimanche. | Jeudi 40°C (Bordeaux), vendredi 38°C, samedi 30°C, dimanche 28°C. | elevee | GFS, ECMWF, ARPEGE | Évolution des orages, intensité de la baisse. |
-| **Centre** | Chaleur extrême jeudi, orages samedi, baisse dimanche. | Jeudi 39°C, vendredi 37°C, samedi 32°C, dimanche 29°C. | moderee | GFS, ECMWF, ARPEGE | Localisation des orages, intensité de la dégradation. |
-| **Sud-Ouest** | Canicule, orages possible samedi, rafraîchissement dimanche. | Jeudi 39-40°C, vendredi 38°C, samedi 33°C, dimanche 28°C. | elevee | GFS, ECMWF, ARPEGE | Cumuls sous orages, étendue de la dégradation. |
-| **Sud-Est et Vallée du Rhône** | Chaleur extrême, orages possibles samedi, baisse dimanche. | Jeudi 38°C, vendredi 37°C, samedi 35°C, dimanche 31°C. | moderee | GFS, ECMWF, GEM | Incertitude sur l'évolution des orages, maintien de la chaleur. |
-| **Méditerranée et Corse** | Chaleur intense, orages possibles samedi, baisse modérée dimanche. | Jeudi 37°C, vendredi 37°C, samedi 34°C, dimanche 32°C. | moderee | GFS, ECMWF, GEM | Retombée des orages, persistance de la chaleur. |
+| **Nord-Ouest** | Très chaud jeudi/vendredi, possible nette baisse dimanche. | Jusqu'à 40°C localement jeudi/vendredi, retour vers 25-30°C dimanche. | moderee | GFS, GEFS, CEP | Ampleur exacte de la baisse et localisation des orages. |
+| **Nord** | Canicule jusqu'à vendredi, orages samedi, temps agréable dimanche. | Maximales 38-40°C vendredi, 33-36 samedi, 29-30 dimanche ; minimales 21-24°C. | elevee | ARPEGE, GFS, CEP | Localisation des orages samedi. |
+| **Nord-Est** | Forte chaleur jeudi/vendredi, orages possibles samedi, baisse dimanche. | Maximales 35-38°C jeudi/vendredi, 28-32°C dimanche. | moderee | GFS, ARPEGE, CEP | Intensité orageuse et baisse thermique. |
+| **Ouest et Façade Atlantique** | Canicule jeudi/vendredi, orages samedi, nette baisse dimanche. | Jusqu'à 40°C jeudi, 38-40 vendredi ; 30-33 samedi ; 28-29 dimanche ; littoral plus frais. | elevee | ARPEGE, GFS, UKMO | Cumuls orageux samedi. |
+| **Centre** | Chaleur forte, dégradation orageuse possible samedi, baisse dimanche. | Maximales 35-38°C jeudi/vendredi, 28-32°C dimanche. | moderee | ARPEGE, GFS, GEM | Trajectoire exacte des orages. |
+| **Sud-Ouest** | Canicule jeudi/vendredi, orages samedi et dimanche, baisse marquée. | 39-40°C jeudi/vendredi, 31-34 samedi, 27-30 dimanche ; relief plus frais. | elevee | ARPEGE, GFS, CEP | Intensité orageuse et cumuls. |
+| **Sud-Est et Vallée du Rhône** | Canicule jeudi/vendredi, orages samedi, baisse dimanche mais encore chaud. | 37-40°C jeudi/vendredi, 35-37 samedi, 30-33 dimanche. | elevee | ARPEGE, GFS, CEP | Localisation des orages. |
+| **Méditerranée et Corse** | Canicule jeudi/vendredi, orages samedi, encore chaud dimanche. | 37-39°C jeudi/vendredi, 34-37 samedi, 33-36 dimanche ; littoral 31-32°C. | elevee | ARPEGE, GFS, CEP | Comportement des orages en fin de journée. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Jeudi 13 et vendredi 14 août** : Pic caniculaire, températures extrêmes, vigilance orange sur plusieurs départements.
-- **Samedi 15 août** : Dégradation orageuse possible sur une diagonale sud-ouest/nord-est, baisse des températures.
-- **Dimanche 16 août** : Net rafraîchissement, ciel variable, orages résiduels, fin de l'épisode caniculaire.
-- **Lundi 17 août** : Temps plus frais mais encore incertain, possible retour de la chaleur au sud-est.
+- **Jeudi 13 et vendredi 14 août** : Pic caniculaire généralisé, avec des maximales souvent proches de 40°C.
+- **Samedi 15 août** : Dégradation orageuse possible, chaleur encore forte mais en baisse par l'ouest.
+- **Dimanche 16 août** : Rafraîchissement net, surtout au nord, orages résiduels possibles au sud-est.
+- **Lundi 17 août** : Transition vers la semaine suivante, incertitude sur l'ampleur du changement.
 
 **Points solides :**
-- Pic caniculaire maximal jeudi, avec températures dépassant 38°C sur une large moitié sud et 35°C sur le nord.
-- Baisse des températures amorcée dès vendredi sur l'ouest, généralisée dimanche.
-- Régime sec dominant, pluies limitées et essentiellement orageuses.
+1. Vigilance orange canicule active sur plusieurs départements, avec 38 à 40°C attendus.
+2. Baisse nette des températures pour dimanche, surtout au nord-ouest.
+3. Risque orageux samedi, notamment sur une diagonale sud-ouest/centre-est.
 
 **Points fragiles :**
-- Localisation et intensité des orages samedi, forte variabilité entre modèles.
-- Profondeur du rafraîchissement dimanche, notamment au sud-est.
-- Persistance de la chaleur au-delà de dimanche, scénarios divergents.
+1. Cumuls exacts des orages de samedi.
+2. Heure de début de la dégradation orageuse.
+3. Températures minimales de dimanche soir.
 
 **À surveiller (prochains runs) :**
-- Runs 00Z et 06Z de GFS/ECMWF pour affiner la position de la dégradation orageuse.
-- Évolution des ensembles CEP et GEFS pour la journée de lundi.
+À surveiller : CEP 12Z de vendredi pour la dégradation orageuse ; GFS 18Z et GEFS pour la position du thalweg ; ICON 6Z pour la fin de semaine.
 
 
-## 🗓️ SEMAINE 2 : Du lundi 17 au dimanche 23 août 2026
+## 🗓️ SEMAINE 2 : Période exacte semaine 2 : du lundi 17 au dimanche 23 août 2026
 ### 💡 Points clés de la semaine 2
-1. Changement de synoptique : Possibilité d'une baisse durable des températures, flux d'ouest.
-2. Incertitudes au sud-est : Cluster caniculaire persistant, baisse plus timide.
-3. Pluies limitées : Pas de pluies organisées, seulement des orages isolés.
-4. Évolution des modèles : Virage visible sur les régimes, mais pas encore de convergence nette.
-5. Fraîcheur possible en fin de semaine : Flux de nord-ouest, températures proches des normales.
+1. Changement synoptique incertain : Les modèles peinent à trancher entre flux d'ouest et maintien des hautes pressions.
+2. Nord plus concerné : Un rafraîchissement plus net est possible au nord, avec un plateau de températures.
+3. Sud-est en vigilance : Un cluster caniculaire est toujours présent dans les ensembles.
+4. Pluies toujours rares : Aucune précipitation organisée d'ampleur ne se dessine.
+5. Fin août en suspens : La dernière décade pourrait voir une tentative de changement plus franc.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Baisse générale des températures par rapport à la semaine précédente, surtout au nord.
-- Flux d'ouest/nord-ouest plus probable qu'un retour caniculaire immédiat.
-- Pluies resteront limitées, principalement orageuses ou fugaces.
+1. Baisse des températures par rapport au pic, au moins en première partie de semaine.
+2. Incertitude forte sur l'ampleur et la durée du changement après le 17.
+3. Absence de précipitations organisées significatives, surtout sur le sud.
 **Points de divergence :**
-- Intensité de la baisse au sud-est : certains ensembles gardent un cluster chaud.
-- Présence ou non de précipitations organisées : GFS/CEP voient peu de pluie, GEM un peu plus.
-- Durée du rafraîchissement : certains scénarios prévoient un retour de la chaleur en fin de semaine.
+1. Possibilité d'un pic de chaleur en milieu de semaine (GFS/CEP déterministes) vs maintien du flux d'ouest (ensembles).
+2. Comportement du sud-est, avec un cluster caniculaire dans les courbes de CEP.
+3. UKMO et GEM divergent sur l'évolution de la fin de semaine.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS / GEFS** (Documenté) | Baisse nette des températures en début de semaine, puis plateau autour de 10°C à 850 hPa, flux de nord-ouest. | Rafraîchissement durable, quelques pluies possibles sur le nord. | Nord, nord-ouest, centre | Élevée (85%) | Baisse de 10°C des températures à 850 hPa entre le 15 et le 18, plateau à 10°C par la suite, resserrement des courbes sur Paris, incertitude sur le sud-est. |
-| **ECMWF (CEP)** (Documenté) | Changement important avec flux d'ouest durable, confirmation dans les ensembles. | Rafraîchissement net, retour de températures proches des normales. | Toutes, surtout nord et ouest | Élevée (80%) | Le CEP montre un changement net et durable, avec un resserrement des courbes sur Paris, mais une dispersion encore forte sur Aix-en-Provence. |
-| **UKMO** (Partiellement documenté) | Machine arrière, retour de la chaleur modérée, moins de rafraîchissement. | Chaleur encore présente, baisse limitée. | Sud, est | Faible (45%) | Mentionné comme faisant machine arrière, avec un retour de conditions plus chaudes, mais sans détails précis. |
-| **GEM (Canadien)** (Documenté) | Option plus fraîche et humide, proche de ECMWF, mais avec des différences. | Rafraîchissement, précipitations possibles. | Centre, est, sud-est | Modérée (60%) | GEM est souvent cité pour son scénario de thalweg, mais avec des variations de profondeur. |
-| **ICON** (Partiellement documenté) | Sortie prudente, incite à la prudence, possible goutte froide. | Temps plus frais, mais incertitude sur la localisation. | Nord, est | Faible (45%) | Mentionné comme incitant à la prudence, avec une possible goutte froide, mais sans plus de détails. |
-| **AIFS** (Documenté) | Tendance au rafraîchissement, mais moins fiable que GFS/CEP. | Baisse des températures, quelques pluies possibles. | Nord, ouest | Modérée (65%) | AIFS montre un changement de synoptique, mais avec moins de fiabilité, des écarts possibles. |
-| **JMA** (Partiellement documenté) | Rafraîchissement par courbure de flux, moins net que CEP. | Baisse des températures, temps sec. | Nord, ouest | Faible (45%) | Mentionné comme une direction possible, mais sans détails précis. |
+| **ICON** (partial) | Sorties incitent à la prudence ; ICON voit une petite goutte froide, risque de flux de sud-ouest à nouveau. | Changement moins franc, pluies limitées. | Nord de la France et incertitude au sud. | Faible (45%) | Lapin61 évoque la sortie ICON de la nuit, incitant à la prudence. Petit âge glaciaire 11 précise qu'ICIN modélise une petite goutte froide avec possible flux de sud-ouest. |
+| **CEP / ECMWF** (documented) | Ensemble CEP va vers un changement important avec flux d'ouest à nord-ouest durable, surtout au nord ; sud-est plus dispersé. | Baisse marquée des températures, quelques pluies possibles. | Nord de la France, puis incertitude au sud. | Élevée (85%) | L'ensemble CEP montre un resserrement des courbes à Paris avec une baisse de presque 10°C à 850 hPa ; à Aix, la dispersion reste forte avec un cluster caniculaire. Le déterministe CEP suit parfois un pic de chaleur en milieu de semaine. |
+| **GFS** (documented) | Déterministe GFS propose un pic de chaleur en milieu de semaine, avec des écarts importants entre runs. | Chaleur encore élevée, puis possible baisse en fin d'échéance. | Toute la France, plus marqué au sud. | Modérée (65%) | GFS voit un pic de chaleur moins intense que la semaine 1, mais avec de grands écarts entre runs. Son ensemble (GEFS) ne suit pas forcément cette option chaude, d'où une fiabilité limitée. |
+| **GEFS** (partial) | Ensemble GEFS moins chaud que le déterministe GFS, avec une incertitude marquée. | Pas de canicule durable, mais pas de fraîcheur non plus. | France entière, surtout sud-est. | Modérée (65%) | GEFS est mentionné avec une pointe d'ironie et surtout pour ne pas suivre la solution chaude du déterministe GFS. |
+| **UKMO** (documented) | UKMO a fait machine arrière en fin de journée, avec une canicule qui quitte le pays dans la sortie 12Z. | Changement de synoptique plus franc, possible fraîcheur au nord-ouest. | Nord-ouest, puis tout le pays ; sud moins certain. | Modérée (65%) | La sortie 00Z montrait une canicule qui résiste dans le sud ; la 12Z fait baisser les géopotentiels et génère un flux de nord-ouest. Cédric du Lot note que cela diffère de ce qui était modélisé quatre jours avant. |
+| **GEM (Canadien)** (partial) | GEM propose une évolution favorable pour toute la France, avec un changement plus marqué si le scénario se réalise. | Baisse des températures, pluies possibles, y compris dans l'extrême sud. | Toute la France. | Modérée (65%) | Moumou31 indique que si le scénario GEM se produit, c'est une bonne nouvelle pour toute la France. Meteo noobs note une atténuation plus lente et classique sur GEM. |
+| **ICIN** (partial) | Petite goutte froide modélisée, risques de flux de sud-ouest à nouveau. | Changement moins net, pluie faible. | Nord de la France. | Faible (45%) | ICIN (probablement une déclinaison ICON) est mentionné pour une petite goutte froide, mais le message reste prudent. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps plus frais, flux d'ouest, passage nuageux, quelques gouttes possibles. | Maximales de 25 à 28°C, minimales de 14 à 17°C. | elevee | GFS, ECMWF, AIFS | Intensité de la baisse, arrivée de la pluie. |
-| **Nord** | Rafraîchissement net, ciel variable, averses isolées. | Maximales de 24 à 27°C, minimales de 15 à 17°C. | elevee | GFS, ECMWF, ICON | Quantités de pluie, timing exact. |
-| **Nord-Est** | Baisse des températures, temps sec, quelques passages nuageux. | Maximales de 25 à 28°C, minimales de 15 à 18°C. | moderee | GFS, ECMWF | Ampleur de la baisse, possibilité de retour de la chaleur en fin de semaine. |
-| **Ouest et Façade Atlantique** | Temps plus frais et humide, passages nuageux, averses possibles. | Maximales de 24 à 28°C, minimales de 15 à 18°C. | elevee | GFS, ECMWF, GEM | Intensité des précipitations. |
-| **Centre** | Rafraîchissement, ciel variable, orages possibles isolés. | Maximales de 26 à 30°C, minimales de 16 à 19°C. | moderee | GFS, ECMWF, GEM | Localisation des orages, durée de la baisse. |
-| **Sud-Ouest** | Baisse des températures, mais chaleur encore présente, orages possibles. | Maximales de 28 à 32°C, minimales de 18 à 21°C. | moderee | GFS, ECMWF, UKMO | Intensité de la baisse, retour possible de la chaleur. |
-| **Sud-Est et Vallée du Rhône** | Chaleur encore marquée, baisse plus timide, orages possibles. | Maximales de 31 à 34°C, minimales de 20 à 23°C. | moderee | GFS, ECMWF, GEM | Cluster caniculaire, baisse limitée. |
-| **Méditerranée et Corse** | Chaleur persistante, mistral possible, orages isolés en début de semaine. | Maximales de 30 à 33°C, minimales de 22 à 25°C. | moderee | GFS, ECMWF, GEM | Force du mistral, persistance de la chaleur. |
+| **Nord-Ouest** | Possible baisse durable avec flux d'ouest à nord-ouest, mais à confirmer. | Maximales 23-28°C selon scénario, après un possible pic. | faible | CEP, GFS, UKMO | Profondeur du changement synoptique. |
+| **Nord** | Changement plus net possible, baisse d'environ 10°C en altitude. | Retour vers 25-28°C en journée, 15-17°C la nuit. | moderee | CEP, GFS, ICON | Intensité exacte de la baisse. |
+| **Nord-Est** | Baisse envisagée, mais modèles très hésitants. | 25-30°C possibles, avec un pic mi-semaine. | faible | GFS, CEP, GEM | Évolution des géopotentiels. |
+| **Ouest et Façade Atlantique** | Reflux thermique probable, mais amplitude incertaine, possible pic. | 30-34°C en début de semaine, puis 25-30°C. | faible | UKMO, GEM, GFS | Divergences UKMO/GEM. |
+| **Centre** | Chaleur modérée, puis incertitude sur une nouvelle hausse. | 28-33°C, possibles 35°C en milieu de semaine. | faible | GFS, CEP, GEFS | Pic de chaleur mi-semaine ou non. |
+| **Sud-Ouest** | Chaleur persistante, possible canicule localisée en milieu de semaine. | Tx 30-36°C, minimales 17-20°C. | faible | GFS, CEP, UKMO | Maintien de la ceinture subtropicale. |
+| **Sud-Est et Vallée du Rhône** | Chaleur encore présente, baisse incertaine, cluster caniculaire possible. | Tx 30-36°C, Tn souvent supérieures à 20°C. | faible | CEP, GFS, GEFS | Comportement du sud-est, forte dispersion des ensembles. |
+| **Méditerranée et Corse** | Nuits tropicales persistantes, chaleur moins extrême mais incertaine. | Tn 20-24°C, Tx 29-34°C. | faible | CEP, GFS, GEM | Reprise ou non de la canicule. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 17 et mardi 18 août** : Baisse nette des températures, quelques orages possibles, passage à un flux d'ouest.
-- **Mercredi 19 et jeudi 20 août** : Temps plus frais et sec, alternance d'éclaircies et de nuages.
-- **Vendredi 21 et samedi 22 août** : Possibilité de retour de la chaleur sur le sud, mais fraîcheur maintenue au nord.
-- **Dimanche 23 août** : Temps variable, incertitude sur la tendance pour la fin de semaine.
+- **Lundi 17 et mardi 18 août** : Rafraîchissement incertain, orages possibles, surtout au nord et au sud-est.
+- **Mercredi 19 et jeudi 20 août** : Possible pic de chaleur moins intense, notamment dans le sud.
+- **Vendredi 21 et samedi 22 août** : Incertitude, avec une possible baisse plus franche selon UKMO et GEM.
+- **Dimanche 23 août** : Tendance à confirmer, les scénarios restent très divergeants.
 
 **Points solides :**
-- Baisse des températures généralisée par rapport à la semaine précédente, surtout au nord.
-- Flux d'ouest dominant, permettant un rafraîchissement durable.
-- Pluies resteront faibles, pas de retour d'un régime humide.
+1. Un reflux de la masse d'air chaud est engagé, au moins au nord.
+2. Les températures maximales ne devraient plus atteindre 40°C.
+3. Les pluies resteront limitées, principalement orageuses.
 
 **Points fragiles :**
-- Intensité de la baisse au sud-est, avec un cluster caniculaire persistant.
-- Localisation des précipitations, souvent orageuses et localisées.
-- Durée du rafraîchissement, certains modèles prévoient un retour de la chaleur en fin de semaine.
+1. Amplitude du rafraîchissement.
+2. Possibilité d'un pic de chaleur en milieu de semaine.
+3. Comportement du sud-est.
 
 **À surveiller (prochains runs) :**
-- Runs de GFS et ECMWF pour confirmer la persistance du flux d'ouest.
-- Évolution des ensembles GEFS/CEP pour le sud-est.
+À surveiller : ensemble CEP 12Z pour la dispersion du sud-est ; UKMO 12Z pour l'évolution du flux d'ouest ; GEM 00Z pour la goutte froide potentielle.
 
 
 ========================================
@@ -138,29 +139,29 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Après un pic caniculaire intense du 13 au 15 août, une baisse nette des températures s'amorce dès le week-end du 16-17, avec un flux d'ouest qui pourrait s'installer durablement. Les températures reviendront progressivement proches des normales, surtout au nord, tandis que le sud-est restera plus chaud avec des incertitudes. Les pluies resteront limitées, principalement orageuses.
+Pic caniculaire intense en début de période, puis reflux progressif mais incertain, avec persistance de fortes chaleurs dans le sud et pluies toujours rares.
 
 ### Période la plus fiable
-Semaine 1 (13-16 août) : scénario bien documenté, haute confiance sur le pic caniculaire et la dégradation orageuse du samedi.
+Semaine 1 (13-16 août), car plus proche, avec bulletins officiels et vigilances actives.
 
 ### Phénomènes récurrents
-Canicules à répétition, sécheresse des sols, orages de chaleur isolés.
+Canicules successives, absence de perturbations pluvieuses organisées, ceinture subtropicale anormalement septentrionale.
 
 ### Principales incertitudes
-- Amplitude et durée du rafraîchissement, surtout au sud-est.
-- Possibilité de retour de la chaleur en fin de semaine.
-- Localisation et intensité des précipitations.
+1. Ampleur et durée du rafraîchissement en semaine 2.
+2. Comportement du sud-est, avec un risque de cluster caniculaire.
+3. Cumuls orageux réels du week-end du 15-16 août.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** La chronologie exacte du rafraîchissement reste incertaine : certains modèles voient une baisse dès samedi, d'autres plus tardive. Les orages de samedi pourraient être plus ou moins précoces.
-- **Localisation :** La localisation des orages du week-end est floue, avec une diagonale sud-ouest/nord-est possible mais pas certaine. Le sud-est pourrait rester en marge du rafraîchissement.
-- **Intensité :** L'intensité de la baisse des températures varie fortement selon les modèles, notamment au sud-est où un cluster caniculaire persiste. La force des orages et les cumuls de pluie sont également incertains.
-- **Informations manquantes :** Peu de discussions sur le vent, sauf pour le mistral en Méditerranée. Pas de détails sur l'évolution des sols ou les risques d'incendie. Les impacts sur l'agriculture ne sont pas abordés.
-- **Modèles sous-documentés :** ICON et JMA ne sont que brièvement mentionnés, sans détails précis. UKMO est cité mais sans analyse approfondie. AIFS est encore peu fiable.
-- **Incertitudes images :** Les cartes montrées ne sont pas toutes datées clairement, certaines proviennent de runs différents. Les projections longues (J+7 à J+10) sont sujettes à caution.
+- **Timing/Chronologie :** Doutes sur la chronologie exacte de la baisse des températures et sur le pic de chaleur possible en milieu de semaine 2.
+- **Localisation :** Doutes sur la localisation précise des orages samedi, notamment la diagonale sud-ouest/centre-est, et sur les zones réellement concernées par le rafraîchissement.
+- **Intensité :** Doutes sur l'intensité des orages et les cumuls, ainsi que sur la persistance de la chaleur dans le sud-est.
+- **Informations manquantes :** Informations manquantes : prévisions détaillées pour la Corse et le Languedoc en semaine 2, évolution des températures minimales sur le littoral méditerranéen, impacts réels sur la sécheresse de surface.
+- **Modèles sous-documentés :** Modèles peu ou pas commentés : JMA, AIFS et ICIN ne sont cités qu'une fois ; ICON est très peu détaillé en semaine 2.
+- **Incertitudes images :** Incertitudes sur les graphiques du forum : cartes d'anomalies et diagrammes d'ensemble, notamment ceux de GEFS et CEP, avec des divergences entre runs.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🇫🇷 Bulletin météo du 13 au 23 août : après un pic caniculaire record jeudi, un rafraîchissement s'annonce mais avec de fortes disparités. Le nord retrouvera des températures proches des normales, tandis que le sud-est reste sous surveillance. Les pluies demeurent rares. Restons prudents, la tendance reste à confirmer ! #Météo #Canicule #Prévisions
+🌡️ #Météo : Nouveau pic caniculaire ce jeudi et vendredi avec 38 à 40°C possibles par endroits. Dégradation orageuse samedi, nette baisse dimanche. La semaine prochaine reste très incertaine : le flux d'ouest pourrait enfin s'imposer, mais les modèles hésitent. Restons prudents ! #Canicule #Prévisions #Sécheresse
