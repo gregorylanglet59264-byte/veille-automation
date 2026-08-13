@@ -318,11 +318,11 @@ Pour la suite pas de phénomènes dangereux prévus.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps-Centre du Quebec
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 13 Août 2026.
-Résumé général précédent : Sortie brutale de la canicule cette fin de semaine, avec une dégradation orageuse samedi puis un rafraîchissement net et durable sur la moitié nord. Le sud-est conservera des températures plus élevées avec une incertitude sur un possible épisode pluvieux lundi..
+Résumé général précédent : Sortie brutale de la canicule sur la moitié nord à partir de samedi, avec un rafraîchissement durable la semaine suivante. Le sud-est conservera des températures plus élevées, avec une incertitude sur un possible épisode pluvieux en début de semaine 2..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Canicule jeudi (39-41°C), orages samedi sur la diagonale, baisse des températures dimanche..
+Températures attendues précédemment : Vague de chaleur intense (jeudi), orages ponctuels et localisés samedi, amélioration dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -761,7 +761,7 @@ Ce matin
 	Signé le poète,
 	CHARLES BEAUD'AROME
 								17
-								10
+								11
 								2
 								10
 
@@ -777,7 +777,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 17 heures par petit âge glaciaire 11
+	Modifié il y a 19 heures par petit âge glaciaire 11
 Modifié
 								2
 								4
@@ -817,7 +817,7 @@ Citation
 	perso je préfère les serrer ( les fesses )
 	si on les sert, c'est la porte ouverte à tous les outrages
 								1
-								17
+								18
 
 =======================
 
@@ -874,6 +874,6 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 								6
 								1

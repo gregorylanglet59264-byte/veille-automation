@@ -310,11 +310,11 @@ Pour la suite pas de phénomènes dangereux prévus.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps-Centre du Quebec
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -323,9 +323,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 13 Août 2026.
-Résumé général HDF précédent : Après un pic caniculaire exceptionnel (35-39°C) jusqu'au 14 août, basculement vers un temps plus frais et humide à partir du 15-17 août. Le retour d'un flux océanique d'ouest apporte des températures de saison (22-26°C) et des précipitations, avec une incertitude sur la durée de ce rafraîchissement au-delà du 20 août (scénarios partagés entre maintien océanique et retour de la chaleur)..
+Résumé général HDF précédent : Après un pic caniculaire exceptionnel (35-39°C) et une canicule remarquable du 13 au 15 août, un changement de synoptique s'opère ce week-end avec l'arrivée d'un talweg atlantique. Les températures chutent nettement à partir de dimanche, revenant à des valeurs proches des normales (22-26°C). Le flux s'oriente à l'ouest, apportant de l'humidité et des précipitations, surtout en début de semaine prochaine. L'incertitude porte sur la durée de ce rafraîchissement : certains modèles voient un retour de la chaleur après le 20 août..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Soleil intense et chaleur écrasante, puis orages isolés samedi après-midi (Avesnois, Beauvaisis, Laonnois).
+Températures attendues précédemment : Orages isolés samedi, puis nette baisse des températures, vent de nord-ouest renforcé..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 13 au Dimanche 16 Août 2026) ===
@@ -753,7 +753,7 @@ Ce matin
 	Signé le poète,
 	CHARLES BEAUD'AROME
 								17
-								10
+								11
 								2
 								10
 
@@ -769,7 +769,7 @@ Cela fait du bien de voir de des cartes comme ca :
 	CEP:
 	GEM :
 	GFS voit un peu pareil mais un peu plus tard.....
-	Modifié il y a 17 heures par petit âge glaciaire 11
+	Modifié il y a 19 heures par petit âge glaciaire 11
 Modifié
 								2
 								4
@@ -809,7 +809,7 @@ Citation
 	perso je préfère les serrer ( les fesses )
 	si on les sert, c'est la porte ouverte à tous les outrages
 								1
-								17
+								18
 
 =======================
 
@@ -866,6 +866,6 @@ Quand on regarde l'ensemble CEP de ce soir pour Paris  dans la partie nord de l
 	Aix-en-Provence :
 	Donc si dans le nord le changement se confirme encore ce soir, dans le sud-est il demeure un cluster caniculaire qu'il ne faut pas négliger. 
 	Dans ces régions rien n'est encore acquit pour ce topic même si je reste confiant pour un retour pour quelques jours au moins à des conditions plus normales dans ces régions parmis les plus touchées par cet été hors-normes. 
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 								6
 								1
