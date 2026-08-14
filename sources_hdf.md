@@ -278,7 +278,7 @@ Températures minimales : sans changement significatif.
 Températures maximales : en baisse sur la moitié Sud du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 141030 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 14 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 14 août 2026 à 06H00 UTC, et évolution Dorsale atlantique 1018 à 1020 hPa sur la France, prévue pivoter vers les îles britanniques la nuit prochaine. Zone dépressionnaire prévue 1013 hPa sur l'ouest de la France avec thalweg associé prévu jusqu'au large des côtes de Charente ce soir, se décale vers le nord-est samedi. 3 - Prévisions pour l'après-midi du vendredi 14 août VENT : Variable 1 à 3. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 14 août au samedi 15 août VENT : Variable 2 à 4, s'établissant secteur Nord-Est en fin de nuit, passagèrement 5 en Mer du Nord. MER : belle. HOULE : non significative. TEMPS : devenant nuageux la nuit, avec quelques averses en seconde partie de nuit, parfois orageuses. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 5 - Prévisions pour la journée du samedi 15 août VENT : secteur Nord-Est 2 à 4, fraîchissant Nord à Nord-Est 4 à 5 à la mi-journée. MER : devenant peu agitée en matinée. HOULE : non significative. TEMPS : nuageux avec quelques averses en début de matinée. Belles éclaircies en fin de matinée. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 15 au 16 et la journée du dimanche 16 août VENT : Nord-Est 4 à 5, mollissant 3 à 4 en seconde partie de nuit. MER : belle à peu agitée. HOULE : s'établissant Nord-Est 0.5 à 1 m. TEMPS : peu nuageux à nuageux, ensoleillé l'après-midi. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 16 au 17 et la journée du lundi 17 août VENT : Nord à Nord-Est 5 mollissant 3 à 4 en début de nuit. MER : belle à peu agitée, localement agitée en Manche. HOULE dominante de Nord-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Mardi 18 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mercredi 19 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Jeudi 20 août Secteur Ouest dominant, faible à modéré. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le vendredi 14 août 2026 à 09H00 UTC Dunkerque : vent Nord-Est 4 noeuds, mer calme, 1018 hPa en baisse, brouillard, visibilité 2 milles. Cap Gris Nez : vent Sud-Ouest 8 noeuds. Boulogne : vent Ouest 4 noeuds, 1018 hPa stationnaire, clair ou peu nuageux, visibilité 8 milles. Bouée Sandettie : vent Nord-Nord-Ouest 2 noeuds, creux 0,2 mètre, 1018 hPa en baisse, visibilité 5 milles. Prochain bulletin le vendredi 14 août 2026, vers 18H00 légales
+FQCT40 LFQQ 141630 Origine Météo-France. Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme, du vendredi 14 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale le vendredi 14 août 2026 à 12H00 UTC, et évolution Dorsale des Açores 1020 hPa s'étendant jusqu'aux îles britanniques, stationnaire. Zone dépressionnaire prévue 1013 hPa sur le centre de la France avec thalweg associé prévu jusqu'au large des côtes de Charente ce soir, se décale vers le nord-est samedi en journée. 3 - Prévisions pour la nuit du vendredi 14 août au samedi 15 août VENT : Variable 2 à 4, s'établissant secteur Nord-Est en fin de nuit, localement Variable 1 à 3 au sud de Boulogne. MER : belle. HOULE : non significative. TEMPS : nuageux la nuit, avec quelques averses en seconde partie de nuit, parfois orageuses. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 4 - Prévisions pour la journée du samedi 15 août VENT : fraîchissant Nord à Nord-Est 4 à 5, parfois 6 l'après-midi. MER : devenant peu agitée en matinée. HOULE : non significative. TEMPS : nuageux avec quelques averses en début de matinée. Belles éclaircies en fin de matinée. VISIBILITE : bonne, localement moyenne sous averses. 5 - Prévisions pour la nuit du 15 au 16 et la journée du dimanche 16 août VENT : Nord-Est 4 à 5, mollissant 3 à 4 en seconde partie de nuit. MER : belle à peu agitée. HOULE : s'établissant Nord-Est 0.5 à 1 m. TEMPS : peu nuageux à nuageux, ensoleillé l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 16 au 17 et la journée du lundi 17 août VENT : Nord à Nord-Est 5 mollissant 3 à 4 en début de nuit. MER : belle à peu agitée, localement agitée en Manche. HOULE dominante de Nord-Est 0,5 à 1 m. 7 - Tendance pour les jours suivants Mardi 18 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mercredi 19 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Jeudi 20 août Secteur Ouest dominant, faible à modéré. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le vendredi 14 août 2026 à 15H00 UTC Dunkerque : vent Nord-Nord-Ouest 4 noeuds, mer calme, 1016 hPa en baisse, clair ou peu nuageux, visibilité 6 milles. Cap Gris Nez : vent Ouest 4 noeuds. Boulogne : vent Ouest-Nord-Ouest 4 noeuds, 1016 hPa en baisse, clair ou peu nuageux, visibilité 13 milles. Prochain bulletin le samedi 15 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -309,12 +309,12 @@ sud-ouest au nord-est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 14/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,69 +322,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 14 Août 2026.
-Résumé général HDF précédent : Après un pic caniculaire remarquable, les Hauts-de-France basculent progressivement dans un flux océanique plus frais et plus instable. La semaine 1 est bien cernée par les bulletins Météo-France : rafraîchissement net, averses et températures sous les normales en fin de semaine. La semaine 2 reste très incertaine, mais le scénario dominant est celui d’un temps océanique, sans retour durable de la canicule..
+Résumé général HDF précédent : Après un pic caniculaire exceptionnel, bascule progressive vers un temps océanique et plus frais. Les températures repassent sous les normales en fin de première semaine, puis restent stables autour des moyennes de saison. Pas de signal de retour de la canicule..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses parfois orageuses, rafales possibles mardi, nette baisse des maximales jeudi et vendredi. (110 caractères).
+Températures attendues précédemment : Orages localisés samedi soir, pluies mardi et jeudi, vent d'ouest modéré..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: waingro
-Message:
-Bon bon bon il reste pas mal de scénarios de thalweg assez incisif sur le pays pour le milieu de semaine prochaine.. on verra ce qu'il en reste à mesure qu'on s'approche mais tout n'est pas perdu, il y a quelques possibilités pluvieuses notamment pour le quart sud-est avec des épisodes méditerranéens.
-	panel GEFS pour jeudi 20
-	Modifié il y a 6 heures par waingro
-								1
-
-=======================
-
-Auteur: Charly-C
-Message:
-Au regard du dernier ICON CH2, il n'y a désormais plus trop de doute  que la vague de chaleur va se poursuivre au moins jusqu'à mercredi/jeudi prochain. 
-	Je pense même qu'un certain nombre de département risque de rester en vigi orange canicule dans le sud-est, peut être même sur une partie du centre-est comme au début du mois. 
-								4
-								2
-
-=======================
-
-Auteur: moumou31
-Message:
-Il y a 1 heure, petit âge glaciaire 11 a dit :
-			L'emprise de ces vagues de chaleur successives sur le sud du pays est très forte et la dernièe actualisation de CEP qui n'est pas très bonne pour une synoptique enfin favorable et nous montre que les masses d'air chaud ont beaucoup de mal à s'évacuer dans ces régions.
-			Si on compare la moyenne des températures à 850 Hpa d'hier et de ce matin on voit la ligne des 20 degrés toute proche des cotes sud Francaises alors qu'hier elles se situaient bien plus au sud,  entre l'Afrique et la France.
-			A suivre ....
-	.
-	Mais même hier on le savait que la chaleur n'allait s'évacuer par le sud que minimum jeudi-vendredi.
-	GEM n'en démord pas, cette chaleur risque d'être expulsé le week-end suivant : 
-	Quant à CEP, ok il maintient la zone des 20° à 850HPA pas loin des côtes mais on perdra quand même 4 à 5° en minimales et cela suffira à notre bonheur de passer de Tn à 25 à des Tn à 19-20.
-	On va passer de ça à ça en 48 h :
-								1
-
-=======================
-
-Auteur: Virgile
-Message:
-On gagne encore 24 heures pour la vague de chaleur avec une journée supplémentaire '(jeudi). Le fameux mirage des 168 heures.
-	hier:
-	aujourd'hui:
-	Lundi, puis mardi, puis mercredi, puis jeudi et maintenant vendredi. Je ris jaune.
-								2
-								6
-								3
-
-=======================
-
-Auteur: Virgile
-Message:
-Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
-	Mais quel été de fraicheur!!!
-								4
-								1
-								2
-								2
-								1
-
-=======================
-
 Auteur: _sb
 Message:
 Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux conditions initiales, soit aux conditions simulées. Hier, j'avais identifié une date autour du 18/19 (à priori 17/18 aujourd'hui) comme conséquence sur la France, sana avoir le temps dispo pour remonter à la source. 
@@ -393,9 +336,9 @@ Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux co
 	L'évolution de fond à échelle de notre quadrant euro-atlantique / hémisphérique est à la poursuite de la récurrence estivale : HG et BG hauts en latitudes. Ceux-ci descendraient lentement vers le sud, avec l'avancée dans la saison (Soleil plus bas, bilan radiatif en baisse progressive). Les éléments de petites échelles font office de forçages et perturbent ce schéma.
 	Comme en hiver, où une toute petite dépression mal définie amène un peu d'air chaud qui déloge et annule toute une grosse coulée froide (je n'entrerai pas dans le débat où c'est toujours l'air chaud qui gagne, ça n'apporte rien pour moi à l'analyse).
 	La prévisibilité est donc structurellement mauvaise, pas étonnant que la prévision run/run change fréquemment.
-	Modifié il y a 4 heures par _sb
-								9
-								6
+	Modifié il y a 6 heures par _sb
+								11
+								8
 
 =======================
 
@@ -430,7 +373,7 @@ Message:
 il y a 47 minutes, Virgile a dit :
 			Pour ma part, non.
 	justement la vous vous plantez. Un continent très sec et surchauffé aura clairement une incidence sur les perturbations atlantiques qui ne peuvent plus passer dans ces conditions ou s'assèchent complètement en rentrant dans les terres. En hiver c'est exactement la même chose quand une vague de froid et de neige sévissent sur un continent, le flux d'ouest va alors se bloquer et être souvent dévié. Bien entendu ça fini toujours par passer et c'est exactement ce qui se passera dans l'avancée de la saison avec un soleil de plus en plus bas
-								4
+								5
 
 =======================
 
@@ -442,7 +385,8 @@ il y a 53 minutes, Virgile a dit :
 	De même la station que j'ai à la maison qui est à 5km à vol d'oiseau de Mérignac n'enregistrait pas de grands écarts avec Mérignac, depuis l'été dernier rien à changé dans la configuration du jardin, hormis une chose la pelouse est complétement cramée partout au soleil comme à l'ombre. Résultat j'ai +0,9° en moyenne de plus sur juillet et aout sur les Tx alors que l'an dernier à la même période les écarts étaient plutôt de +0.25°. 
 	De ce que j'observe l'état de sécheresse avancé sur jardin augmente la petite surchauffe que j'ai pas défaut sur la station, donc il me semble probable que l'impact soit le même à plus grande échelle !
 	Sorry pour le Hs
-	Modifié il y a 1 heure par Girondin33
+	Modifié il y a 3 heures par Girondin33
+								1
 
 =======================
 
@@ -454,7 +398,7 @@ Il y a 2 heures, Virgile a dit :
 	Merci pour toutes ces cartes Virgile. Il y a des phases où parfois certaines récurrences synoptiques font faire complètement n'importe quoi aux modèles. J'ai en tête comme ça février-mars 2009, où après le flop du 10 février qui a vu à J-4 une belle VDF vue à l'unanimité se transformer en un temps mou ignoble, durant 1 mois tous les modèles n'ont pas arrêté de voir toutes les semaines une nouvelle VDF être sans cesse rabotée puis disparue au fameux cap de 96-120h. Je me souviens très bien d'ailleurs que tu as été l'un de ceux qui défendait vivement que dans ce genre de récurrences il valait mieux suivre son instinct que suivre à la lettre les modèles.
 	17 ans plus tard, on a complètement renoncé aux VDF l'hiver, même les modèles n'y croient plus tellement c'est une cause désespérée. On en est à prier pour la survie de notre faune et notre flore l'été, pour une simple dégradation ("amélioration" devrait-on dire dans notre contexte) sans cesse repoussée.
 	Cet été va nous laisser de nombreuses interrogations par la suite : non seulement pourquoi un tel acharnement synoptique sur l'Europe de l'Ouest et la France en particulier, mais aussi pourquoi nos modèles météo patinent tant à voir la fin de la canicule au point où l'on croirait à un canular organisé de mauvais goût.
-								5
+								8
 								3
 
 =======================
@@ -466,6 +410,7 @@ il y a une heure, Virgile a dit :
 	Il est pourtant bien connu et démontré que la sécheresse des sols accroît la hausse des températures, non? 
 	Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
 	Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
+								1
 								1
 
 =======================
@@ -484,9 +429,10 @@ il y a 36 minutes, mike a dit :
 Auteur: Virgile
 Message:
 Non mais vous etes sérieux ou quoi?  Quel est la démarche scientifique qui fait que des sols surchauffés et secs changeraient des conditions synoptiques à grande échelle dans la haute atmosphère?? On nous fait déjà le coup en hiver dans le passé avec un sol froid gelé, enneigé empêchant toute perturbation océanique d'arriver alors que c'est parfois balayé en 24 heures. Cette histoire de blocage ne se joue pas au sol mais dans l'atmosphère. Maintenant, est ce que des sols chauffés et très secs amplifient de quelques je dis bien de quelques degrés localement la température au sol, surement mais c'est comme en hiver dans l'autre sens.
-								3
+								5
 								1
 								3
+								1
 
 =======================
 
@@ -525,8 +471,8 @@ il y a une heure, Girondin33 a dit :
 			Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
 			Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
 	Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-								4
-								7
+								12
+								9
 
 =======================
 
@@ -535,6 +481,7 @@ Message:
 il y a 4 minutes, mike a dit :
 			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
 	Mais arrête Mike de dire n'importe quoi.  On est pas sur twitter ici mais sur un forum sérieux.  C'est pas la méteo des pelouses  et des terres ici. Ce que tu évoques ce sont les masses d'air dans l'atmosphère!!!!
+								2
 								1
 
 =======================
@@ -547,66 +494,61 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 26 minutes par Virgile
+	Modifié il y a 2 heures par Virgile
+
+=======================
+
+Auteur: trugll
+Message:
+il y a 43 minutes, mike a dit :
+			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
+	Ben oui, c'est bien ce que j' évoque.
+	Tu me parles du dernier exemple en date qui a plus de 30 ans....
+	Vu qu'il fait globalement plus chaud à tous les étages, été comme hiver, le chaud a forcément beaucoup plus de facilités à s'imposer.
+	En hiver, on cherche les réserves froides, et il n' y en a quasiment plus.
+	En été, on commence à chercher les réserves fraîches, et bien on peut les chercher......
+								2
+
+=======================
+
+Auteur: Victor hurricane tempête
+Message:
+il y a 35 minutes, mike a dit :
+			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
+	Avec un balayage ouest et de la neige au sol je suppose qu'il'y'a de l'inertie air froid balayé rapidement en altitude par contre au sol peut être un peut plus longtemps (mais de toutes façons ça finit par arriver rapidement). Je ne y connais pas assez mais c'est une supposition.
+	Par contre je n'ai pas trop compris pourquoi tu as parlé de ces deux références... Si le courant doit ce n'est pas venu c'est que la synoptique si est prêtée, le courant doit être s'il veut revenir il reviendra. Si l'on prend des exemples comme ça, alors je peux très bien dire aussi qu'en décembre 1970 il y a eu encore plus de neige en France avec une bague de froid historique et ça n'a pas empêché le retour du flux d'ouest malgré tout.
+	En tout cas, quoi qu'il en soit, pour la situation actuelle, ça va être vraiment difficile de changer de synoptique. Il faudra vraiment compter sur le changement de saison...
+								1
+
+=======================
+
+Auteur: bernardt60
+Message:
+Bon maintenant on passe aux prévisions !
+								3
+								5
+
+=======================
+
+Auteur: moumou31
+Message:
+GFS maintient que l'épisode de très forte chaleur s'évacuera entre jeudi et vendredi.
+	Attention, il ne s'agira pas de fraicheur, surtout dans l'extrême sud mais entre mercredi et vendredi, on devrait perdre 6 à 8° à 850HPA dans le Sud.
+	Les nuits devraient devenir plus supportables.
+								2
+								1
+
+=======================
+
+Auteur: tao
+Message:
+Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de passer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
+	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
+	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
+								6
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: waingro
-Message:
-Bon bon bon il reste pas mal de scénarios de thalweg assez incisif sur le pays pour le milieu de semaine prochaine.. on verra ce qu'il en reste à mesure qu'on s'approche mais tout n'est pas perdu, il y a quelques possibilités pluvieuses notamment pour le quart sud-est avec des épisodes méditerranéens.
-	panel GEFS pour jeudi 20
-	Modifié il y a 6 heures par waingro
-								1
-
-=======================
-
-Auteur: Charly-C
-Message:
-Au regard du dernier ICON CH2, il n'y a désormais plus trop de doute  que la vague de chaleur va se poursuivre au moins jusqu'à mercredi/jeudi prochain. 
-	Je pense même qu'un certain nombre de département risque de rester en vigi orange canicule dans le sud-est, peut être même sur une partie du centre-est comme au début du mois. 
-								4
-								2
-
-=======================
-
-Auteur: moumou31
-Message:
-Il y a 1 heure, petit âge glaciaire 11 a dit :
-			L'emprise de ces vagues de chaleur successives sur le sud du pays est très forte et la dernièe actualisation de CEP qui n'est pas très bonne pour une synoptique enfin favorable et nous montre que les masses d'air chaud ont beaucoup de mal à s'évacuer dans ces régions.
-			Si on compare la moyenne des températures à 850 Hpa d'hier et de ce matin on voit la ligne des 20 degrés toute proche des cotes sud Francaises alors qu'hier elles se situaient bien plus au sud,  entre l'Afrique et la France.
-			A suivre ....
-	.
-	Mais même hier on le savait que la chaleur n'allait s'évacuer par le sud que minimum jeudi-vendredi.
-	GEM n'en démord pas, cette chaleur risque d'être expulsé le week-end suivant : 
-	Quant à CEP, ok il maintient la zone des 20° à 850HPA pas loin des côtes mais on perdra quand même 4 à 5° en minimales et cela suffira à notre bonheur de passer de Tn à 25 à des Tn à 19-20.
-	On va passer de ça à ça en 48 h :
-								1
-
-=======================
-
-Auteur: Virgile
-Message:
-On gagne encore 24 heures pour la vague de chaleur avec une journée supplémentaire '(jeudi). Le fameux mirage des 168 heures.
-	hier:
-	aujourd'hui:
-	Lundi, puis mardi, puis mercredi, puis jeudi et maintenant vendredi. Je ris jaune.
-								2
-								6
-								3
-
-=======================
-
-Auteur: Virgile
-Message:
-Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
-	Mais quel été de fraicheur!!!
-								4
-								1
-								2
-								2
-								1
-
-=======================
-
 Auteur: _sb
 Message:
 Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux conditions initiales, soit aux conditions simulées. Hier, j'avais identifié une date autour du 18/19 (à priori 17/18 aujourd'hui) comme conséquence sur la France, sana avoir le temps dispo pour remonter à la source. 
@@ -615,9 +557,9 @@ Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux co
 	L'évolution de fond à échelle de notre quadrant euro-atlantique / hémisphérique est à la poursuite de la récurrence estivale : HG et BG hauts en latitudes. Ceux-ci descendraient lentement vers le sud, avec l'avancée dans la saison (Soleil plus bas, bilan radiatif en baisse progressive). Les éléments de petites échelles font office de forçages et perturbent ce schéma.
 	Comme en hiver, où une toute petite dépression mal définie amène un peu d'air chaud qui déloge et annule toute une grosse coulée froide (je n'entrerai pas dans le débat où c'est toujours l'air chaud qui gagne, ça n'apporte rien pour moi à l'analyse).
 	La prévisibilité est donc structurellement mauvaise, pas étonnant que la prévision run/run change fréquemment.
-	Modifié il y a 4 heures par _sb
-								9
-								6
+	Modifié il y a 6 heures par _sb
+								11
+								8
 
 =======================
 
@@ -652,7 +594,7 @@ Message:
 il y a 47 minutes, Virgile a dit :
 			Pour ma part, non.
 	justement la vous vous plantez. Un continent très sec et surchauffé aura clairement une incidence sur les perturbations atlantiques qui ne peuvent plus passer dans ces conditions ou s'assèchent complètement en rentrant dans les terres. En hiver c'est exactement la même chose quand une vague de froid et de neige sévissent sur un continent, le flux d'ouest va alors se bloquer et être souvent dévié. Bien entendu ça fini toujours par passer et c'est exactement ce qui se passera dans l'avancée de la saison avec un soleil de plus en plus bas
-								4
+								5
 
 =======================
 
@@ -664,7 +606,8 @@ il y a 53 minutes, Virgile a dit :
 	De même la station que j'ai à la maison qui est à 5km à vol d'oiseau de Mérignac n'enregistrait pas de grands écarts avec Mérignac, depuis l'été dernier rien à changé dans la configuration du jardin, hormis une chose la pelouse est complétement cramée partout au soleil comme à l'ombre. Résultat j'ai +0,9° en moyenne de plus sur juillet et aout sur les Tx alors que l'an dernier à la même période les écarts étaient plutôt de +0.25°. 
 	De ce que j'observe l'état de sécheresse avancé sur jardin augmente la petite surchauffe que j'ai pas défaut sur la station, donc il me semble probable que l'impact soit le même à plus grande échelle !
 	Sorry pour le Hs
-	Modifié il y a 1 heure par Girondin33
+	Modifié il y a 3 heures par Girondin33
+								1
 
 =======================
 
@@ -676,7 +619,7 @@ Il y a 2 heures, Virgile a dit :
 	Merci pour toutes ces cartes Virgile. Il y a des phases où parfois certaines récurrences synoptiques font faire complètement n'importe quoi aux modèles. J'ai en tête comme ça février-mars 2009, où après le flop du 10 février qui a vu à J-4 une belle VDF vue à l'unanimité se transformer en un temps mou ignoble, durant 1 mois tous les modèles n'ont pas arrêté de voir toutes les semaines une nouvelle VDF être sans cesse rabotée puis disparue au fameux cap de 96-120h. Je me souviens très bien d'ailleurs que tu as été l'un de ceux qui défendait vivement que dans ce genre de récurrences il valait mieux suivre son instinct que suivre à la lettre les modèles.
 	17 ans plus tard, on a complètement renoncé aux VDF l'hiver, même les modèles n'y croient plus tellement c'est une cause désespérée. On en est à prier pour la survie de notre faune et notre flore l'été, pour une simple dégradation ("amélioration" devrait-on dire dans notre contexte) sans cesse repoussée.
 	Cet été va nous laisser de nombreuses interrogations par la suite : non seulement pourquoi un tel acharnement synoptique sur l'Europe de l'Ouest et la France en particulier, mais aussi pourquoi nos modèles météo patinent tant à voir la fin de la canicule au point où l'on croirait à un canular organisé de mauvais goût.
-								5
+								8
 								3
 
 =======================
@@ -688,6 +631,7 @@ il y a une heure, Virgile a dit :
 	Il est pourtant bien connu et démontré que la sécheresse des sols accroît la hausse des températures, non? 
 	Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
 	Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
+								1
 								1
 
 =======================
@@ -706,9 +650,10 @@ il y a 36 minutes, mike a dit :
 Auteur: Virgile
 Message:
 Non mais vous etes sérieux ou quoi?  Quel est la démarche scientifique qui fait que des sols surchauffés et secs changeraient des conditions synoptiques à grande échelle dans la haute atmosphère?? On nous fait déjà le coup en hiver dans le passé avec un sol froid gelé, enneigé empêchant toute perturbation océanique d'arriver alors que c'est parfois balayé en 24 heures. Cette histoire de blocage ne se joue pas au sol mais dans l'atmosphère. Maintenant, est ce que des sols chauffés et très secs amplifient de quelques je dis bien de quelques degrés localement la température au sol, surement mais c'est comme en hiver dans l'autre sens.
-								3
+								5
 								1
 								3
+								1
 
 =======================
 
@@ -747,8 +692,8 @@ il y a une heure, Girondin33 a dit :
 			Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
 			Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
 	Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-								4
-								7
+								12
+								9
 
 =======================
 
@@ -757,6 +702,7 @@ Message:
 il y a 4 minutes, mike a dit :
 			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
 	Mais arrête Mike de dire n'importe quoi.  On est pas sur twitter ici mais sur un forum sérieux.  C'est pas la méteo des pelouses  et des terres ici. Ce que tu évoques ce sont les masses d'air dans l'atmosphère!!!!
+								2
 								1
 
 =======================
@@ -769,4 +715,56 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 26 minutes par Virgile
+	Modifié il y a 2 heures par Virgile
+
+=======================
+
+Auteur: trugll
+Message:
+il y a 43 minutes, mike a dit :
+			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
+	Ben oui, c'est bien ce que j' évoque.
+	Tu me parles du dernier exemple en date qui a plus de 30 ans....
+	Vu qu'il fait globalement plus chaud à tous les étages, été comme hiver, le chaud a forcément beaucoup plus de facilités à s'imposer.
+	En hiver, on cherche les réserves froides, et il n' y en a quasiment plus.
+	En été, on commence à chercher les réserves fraîches, et bien on peut les chercher......
+								2
+
+=======================
+
+Auteur: Victor hurricane tempête
+Message:
+il y a 35 minutes, mike a dit :
+			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
+	Avec un balayage ouest et de la neige au sol je suppose qu'il'y'a de l'inertie air froid balayé rapidement en altitude par contre au sol peut être un peut plus longtemps (mais de toutes façons ça finit par arriver rapidement). Je ne y connais pas assez mais c'est une supposition.
+	Par contre je n'ai pas trop compris pourquoi tu as parlé de ces deux références... Si le courant doit ce n'est pas venu c'est que la synoptique si est prêtée, le courant doit être s'il veut revenir il reviendra. Si l'on prend des exemples comme ça, alors je peux très bien dire aussi qu'en décembre 1970 il y a eu encore plus de neige en France avec une bague de froid historique et ça n'a pas empêché le retour du flux d'ouest malgré tout.
+	En tout cas, quoi qu'il en soit, pour la situation actuelle, ça va être vraiment difficile de changer de synoptique. Il faudra vraiment compter sur le changement de saison...
+								1
+
+=======================
+
+Auteur: bernardt60
+Message:
+Bon maintenant on passe aux prévisions !
+								3
+								5
+
+=======================
+
+Auteur: moumou31
+Message:
+GFS maintient que l'épisode de très forte chaleur s'évacuera entre jeudi et vendredi.
+	Attention, il ne s'agira pas de fraicheur, surtout dans l'extrême sud mais entre mercredi et vendredi, on devrait perdre 6 à 8° à 850HPA dans le Sud.
+	Les nuits devraient devenir plus supportables.
+								2
+								1
+
+=======================
+
+Auteur: tao
+Message:
+Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de passer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
+	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
+	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
+								6
+								1
