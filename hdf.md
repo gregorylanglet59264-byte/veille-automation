@@ -1,154 +1,3158 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Vendredi 14 Août 2026
-**Période :** Semaine 1 (Du Lundi 17 au Dimanche 23 Août 2026 (Semaine 34)) & Semaine 2 (Du Lundi 24 au Dimanche 30 Août 2026 (Semaine 35) - ⚠️ Sujet forum non ouvert à ce jour)
+**Période :** Semaine 1 (Du Lundi 17 au Dimanche 23 Août 2026) & Semaine 2 (Période exacte semaine 2 : Du Lundi 24 Août au Dimanche 30 Août 2026.
+
+### [W2_KEY_POINT_1]
+**Chaleur résiduelle en début de semaine** : Un pic de chaleur est encore possible lundi 24 et mardi 25, avec des températures potentiellement élevées pour la saison, avant une possible dégradation.
+
+### [W2_KEY_POINT_2]
+**Changement de synoptique très incertain** : Les modèles (GFS, CEP, GEM) peinent à s'accorder sur la date et l'ampleur d'une éventuelle dégradation, repoussant constamment l'échéance.
+
+### [W2_KEY_POINT_3]
+**Pression océanique en embuscade** : Une faiblesse de la ceinture anticyclonique pourrait permettre à un flux océanique plus frais et humide de s'infiltrer par le nord-ouest en fin de semaine, mais cette option reste fragile.
+
+### [W2_KEY_POINT_4]
+**Risque orageux localisé** : À la faveur de la chaleur résiduelle et de l'arrivée d'air plus instable, des orages pourraient éclater, principalement en fin de semaine, avec un risque de grêle et de fortes pluies localisées.
+
+### [W2_KEY_POINT_5]
+**Sécheresse persistante** : Malgré une possible dégradation, les quantités de pluie restent très incertaines. Le déficit hydrique restera très important et la sécheresse de surface ne sera pas résorbée.
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle CEP (Centre Européen)**
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une **persistance de la chaleur** au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une **dégradation orageuse** par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GFS (Américain)**
+
+### [W2_MODEL_SCENARIO]
+GFS est plus **volatile** dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une **poche de chaleur résiduelle** se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un **rafraîchissement plus net** et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GEM (Canadien)**
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario **plus tranché** vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une **descente d'air froid** plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un **rafraîchissement net et généralisé** sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle UKMO (Anglais)**
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande **hésitation** dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une **baisse des températures** mais une **faible organisation des pluies**, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_CONVERGENCES]
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+---
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Les modèles convergent sur une baisse des températures, mais divergent sur son amplitude et ses échéances.*
-- **Fiabilité du scénario majoritaire :** Scénario de rafraîchissement progressif, sans canicule, avec des pluies faibles. — *La sécheresse reste le principal sujet d'inquiétude : les précipitations annoncées ne suffiront pas.*
+- **Consensus des modèles :** Modéré — *Accord régional*
+- **Fiabilité du scénario majoritaire :** Stable — *Incertitude en semaine 2*
 - **Stabilité des cartes/scénarios :** 6 / 178 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Incertitude forte sur les précipitations et sur la fin de semaine 2. — *Les modèles sont très volatils depuis le début de l'été ; il faut rester prudent.*
+- **Niveau d'incertitude global :** Timing — *Transition thermique*
 
-## 🗓️ SEMAINE 1 : Du Lundi 17 au Dimanche 23 Août 2026 (Semaine 34)
+## 🗓️ SEMAINE 1 : Du Lundi 17 au Dimanche 23 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Canicule résiduelle en début de semaine : Les températures restent élevées lundi (25-28°C), avec un temps globalement sec et ensoleillé, surtout dans l'intérieur.
-2. Rafraîchissement modéré et orages épars : À partir de mardi, l'ouest et le nord de la région voient des passages nuageux avec risque d'averses, mais sans perturbation organisée majeure.
-3. Fin de semaine plus instable : Vendredi et samedi, un risque de pluie ou d'averses concerne l'ensemble de la région, sans excès thermique, avec des maximales en baisse sur l'intérieur.
-4. Épisode de chaleur passé : L'épisode caniculaire de la mi-août (35-40°C en intérieur) s'achève, mais la sécheresse de surface reste préoccupante, les pluies attendues étant faibles et orageuses.
-5. Divergences modèles sur l'amplitude du changement : GFS voit un pic de chaleur temporaire en milieu de semaine, non suivi par son ensemble ; le CEP hésite, d'où une confiance modérée sur la durée réelle de la pause fraîche.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
-**Points de convergence :**
-1. Baisse des températures au moins temporaire en début de semaine (lundi/mardi) sur l'ensemble de la région, avec un retour à des maximales proches de 25°C en intérieur.
-2. Absence de précipitations organisées et significatives : seuls des orages ou averses isolés sont possibles. La sécheresse de surface ne sera pas résorbée.
-3. Un possible pic de chaleur en milieu de semaine (mardi/mercredi) est envisagé par GFS et CEP, mais avec une amplitude faible sur le nord (incertaine).
-**Points de divergence :**
-1. Amplitude du rafraîchissement : UKMO voit une baisse plus nette sur le nord-ouest que GFS/CEP, qui maintiennent une chaleur modérée.
-2. Timing du pic de chaleur : GFS le place en milieu de semaine, CEP est hésitant, GEM et UKMO ne le voient pas.
-3. Précipitations : certains modèles (UKMO, GEM) voient des pluies faibles possibles, d'autres (GFS, ICON) un temps plus sec.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
-| Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
-| --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP déterministe + ensemble)** (En évolution rapide, faible fiabilité à J+5 et au-delà.) | Tendance à une baisse des températures en début de semaine, mais avec une probable remontée temporaire en milieu de semaine (mardi/mercredi), plus marquée au sud. Sur le nord, hausse faible et incertaine. | Orages isolés possibles dimanche/lundi, puis nette amélioration avec températures proches des normales en fin de semaine. | Nord, Pas-de-Calais, Somme, Oise, Aisne (littoral et intérieur) | Modérée (60-70%) - Le CEP est cité en détail par les membres, mais ses scénarios changent fréquemment d'un run à l'autre. | Le CEP propose une hausse des températures en milieu de semaine, mais son ensemble (EIPC) reste plus frais. En fin de semaine, il voit une nouvelle dégradation avec des pluies orageuses possibles, mais les cumuls restent incertains sur le nord. |
-| **GFS (déterministe)** (Très volatil, peu fiable à moyen terme.) | Baisse des températures en début de semaine, puis un pic de chaleur très marqué en milieu de semaine (jusqu'à 18°C à 850 hPa sur le nord ?), avant une nouvelle baisse en fin de semaine. Scénario très instable d'un run à l'autre. | Temps sec en début de semaine, puis orages possibles en fin de semaine, surtout sur l'intérieur. | Nord-Ouest de l'Europe, dont les Hauts-de-France en totalité. | Élevée (80-90%) - Le déterministe GFS est cité en détail, notamment ses écarts importants entre runs (ex: Moselle passant de 37°C à 18°C en 24h). | GFS voit une hausse sensible des températures en milieu de semaine, mais sans lendemain (2-3 jours max). Ensuite, il redevient plus frais. Les précipitations sont très incertaines, avec une bande pluvieuse mal dessinée sur le nord. |
-| **UKMO (déterministe)** (Hésitant, fiabilité moyenne sur l'amplitude du changement.) | Baisse nette des températures en fin de semaine, notamment sur le nord-ouest, avec un flux de nord-ouest s'installant. Il voit des précipitations, mais très faibles sur le nord et le nord-ouest. | Ciel variable, passage nuageux, quelques pluies faibles possibles. | Nord, Pas-de-Calais, Somme (littoral et intérieur) | Modérée (60-70%) - UKMO est cité, mais ses scénarios varient beaucoup d'un run à l'autre (il a fait machine arrière en 12Z). | UKMO est passé d'une canicule résistante à une fraîcheur plus marquée sur le nord-ouest en 12h. Cela illustre une grande incertitude sur l'ampleur du rafraîchissement à 7 jours d'échéance. |
-| **GEM (déterministe + ensemble)** (Plus stable que GFS/CEP, bon compromis.) | Baisse progressive et durable des températures, sans excès thermique en milieu de semaine. Il voit un changement de synoptique plus franc, avec un flux d'ouest-nord-ouest sur le pays. | Temps plus frais, passages nuageux, quelques précipitations possibles, mais faibles. | Toute la région HDF. | Élevée (80%) - GEM est cité en détail, notamment son ensemble, qui est très proche de GEFS. | GEM voit un changement de synoptique plus net que les autres modèles, avec un rafraîchissement durable et des précipitations faibles mais plus organisées sur le nord-ouest. |
-| **ICON (déterministe)** (Non retenu comme scénario crédible pour HDF à moyen terme.) | ICON n'arrête pas de monter le thermostat - il voit une chaleur persistante, plus marquée que les autres modèles, en milieu de semaine. | Temps sec et chaud, orages très isolés. | France entière, dont le nord (intérieur). | Faible (40-50%) - ICON est brièvement évoqué, pas de détail significatif. | ICON voit un maintien de la chaleur, ce qui semble minoritaire parmi les modèles. |
+Aucun modèle spécifique détaillé.
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps largement ensoleillé en début de semaine, puis passages nuageux avec risque de pluie temporaire en Flandre maritime et sur l'Avesnois en fin de semaine. | Min 14-18°C, Max 23-28°C (25°C en moyenne en intérieur, 23°C en Flandre maritime dimanche) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur l'intensité des averses en Flandre maritime et sur Avesnois ; possibilité d'un pic de chaleur temporaire en milieu de semaine selon GFS/CEP |
-| **Pas-de-Calais (62)** | Temps généralement ensoleillé en début de semaine, puis passages nuageux avec risque d'averses sur le Ternois, le Haut-Artois et le littoral. | Min 14-17°C, Max 24-26°C (23°C près de la Mer du Nord) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur la localisation exacte des averses (littoral vs intérieur) ; risque d'orages isolés en fin de nuit de jeudi à vendredi |
-| **Somme (80)** | Temps ensoleillé au nord et à l'ouest d'Amiens, passages nuageux avec risque de pluie temporaire ; éclaircies prédominantes en fin de semaine avec risque de pluie. | Min 12-16°C, Max 24-26°C (27°C dimanche sur littoral) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur les cumuls de pluie ; possibilité d'orages localisés sur l'Est du département en fin de semaine |
-| **Oise (60)** | Temps largement ensoleillé en début de semaine, puis temps pluvieux sur la Picardie verte et le Plateau Picard mercredi matin, avant retour d'éclaircies. | Min 12-15°C, Max 24-27°C (25-27°C en moyenne) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur l'extension des pluies ; risque d'orages isolés en fin de journée samedi sur l'ouest du département |
-| **Aisne (02)** | Soleil et ciel bleu prédominants en début de semaine, puis risque de pluie sur le Vermandois et le Laonnois mercredi matin, et passages nuageux avec pluie temporaire en fin de semaine. | Min 13-15°C, Max 24-28°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur l'extension des pluies de mercredi ; faibles risques d'orages en fin de semaine |
+| **Nord (59)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Pas-de-Calais (62)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Somme (80)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Oise (60)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Aisne (02)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 17 et mardi 18 Août** : Temps largement ensoleillé, chaleur résiduelle (25-28°C), risque de pluie temporaire sur le littoral nord et l'Avesnois.
-- **Mercredi 19 et jeudi 20 Août** : Belle éclaircie généralisée, températures en baisse (23-25°C), petites pluies possibles sur l'est de la région (Avesnois, Vermandois, Laonnois).
-- **Vendredi 21 et samedi 22 Août** : Temps plus instable, risque de pluie ou d'averses sur l'ensemble de la région, températures en baisse sur l'intérieur, vent modéré d'ouest.
-- **Dimanche 23 Août** : Amélioration possible avec retour d'éclaircies, températures fraîches pour la saison (22-25°C).
-
-**Points solides :**
-1. Baisse des températures au moins temporaire à partir de lundi/mardi, avec un retour à des valeurs proches des normales saisonnières (24-27°C).
-2. Absence de précipitations organisées significatives : la sécheresse de surface persistera.
-3. Vent modéré de secteur ouest à nord-ouest en deuxième partie de semaine, notamment sur le littoral.
-
-**Points fragiles :**
-1. Possibilité d'un pic de chaleur temporaire en milieu de semaine (mardi/mercredi) selon GFS déterministe et CEP, non confirmé par les autres modèles.
-2. Intensité et localisation des averses ou orages de fin de semaine très incertaines.
-3. Durée de la pause fraîche : un retour de la chaleur est possible en fin de semaine, selon les runs les plus chauds.
-
-**À surveiller (prochains runs) :**
-- Prochain run ECMWF (CEP) ce soir : crucial pour confirmer ou infirmer le pic de chaleur en milieu de semaine.
-- Évolution de GFS déterministe : volatilité importante, à surveiller.
-- UKMO : voir si la tendance fraîche se confirme ou s'il fait marche arrière.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 24 au Dimanche 30 Août 2026 (Semaine 35) - ⚠️ Sujet forum non ouvert à ce jour
+## 🗓️ SEMAINE 2 : Période exacte semaine 2 : Du Lundi 24 Août au Dimanche 30 Août 2026.
+
+### [W2_KEY_POINT_1]
+**Chaleur résiduelle en début de semaine** : Un pic de chaleur est encore possible lundi 24 et mardi 25, avec des températures potentiellement élevées pour la saison, avant une possible dégradation.
+
+### [W2_KEY_POINT_2]
+**Changement de synoptique très incertain** : Les modèles (GFS, CEP, GEM) peinent à s'accorder sur la date et l'ampleur d'une éventuelle dégradation, repoussant constamment l'échéance.
+
+### [W2_KEY_POINT_3]
+**Pression océanique en embuscade** : Une faiblesse de la ceinture anticyclonique pourrait permettre à un flux océanique plus frais et humide de s'infiltrer par le nord-ouest en fin de semaine, mais cette option reste fragile.
+
+### [W2_KEY_POINT_4]
+**Risque orageux localisé** : À la faveur de la chaleur résiduelle et de l'arrivée d'air plus instable, des orages pourraient éclater, principalement en fin de semaine, avec un risque de grêle et de fortes pluies localisées.
+
+### [W2_KEY_POINT_5]
+**Sécheresse persistante** : Malgré une possible dégradation, les quantités de pluie restent très incertaines. Le déficit hydrique restera très important et la sécheresse de surface ne sera pas résorbée.
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle CEP (Centre Européen)**
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une **persistance de la chaleur** au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une **dégradation orageuse** par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GFS (Américain)**
+
+### [W2_MODEL_SCENARIO]
+GFS est plus **volatile** dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une **poche de chaleur résiduelle** se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un **rafraîchissement plus net** et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GEM (Canadien)**
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario **plus tranché** vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une **descente d'air froid** plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un **rafraîchissement net et généralisé** sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle UKMO (Anglais)**
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande **hésitation** dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une **baisse des températures** mais une **faible organisation des pluies**, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### [W2_MODEL_END]
+
+---
+
+### [W2_CONVERGENCES]
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+---
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 ### 💡 Points clés de la semaine 2
-1. Analyse basée sur les projections long terme : Le sujet spécifique de la semaine 35 n'étant pas encore ouvert sur Infoclimat, cette analyse s'appuie sur les discussions de la semaine 34 (projections à J+7 et au-delà).
-2. Tendance principale : Un probable retour à un temps plus frais et plus instable, avec un flux d'ouest océanique qui pourrait enfin s'imposer. Les températures devraient revenir autour des normales saisonnières (22-25°C).
-3. Incertitudes majeures : Les modèles hésitent entre une goutte froide isolée et un simple flux d'ouest. La possibilité d'un regain de chaleur en fin de mois n'est pas exclue, mais la tendance est à une baisse durable.
-4. Précipitations : Quelques pluies orageuses sont possibles, mais les cumuls resteraient faibles. La sécheresse ne sera pas résorbée.
-5. Prudence : Ces éléments sont à considérer avec une confiance limitée, car les modèles ont montré une grande volatilité depuis le début de l'été. Une mise à jour sera nécessaire dès l'ouverture du sujet.
+1. **Chaleur résiduelle en début de semaine** : Un pic de chaleur est encore possible lundi 24 et mardi 25, avec des températures potentiellement élevées pour la saison, avant une possible dégradation.
+
+### [W2_KEY_POINT_2]
+**Changement de synoptique très incertain** : Les modèles (GFS, CEP, GEM) peinent à s'accorder sur la date et l'ampleur d'une éventuelle dégradation, repoussant constamment l'échéance.
+
+### [W2_KEY_POINT_3]
+**Pression océanique en embuscade** : Une faiblesse de la ceinture anticyclonique pourrait permettre à un flux océanique plus frais et humide de s'infiltrer par le nord-ouest en fin de semaine, mais cette option reste fragile.
+
+### [W2_KEY_POINT_4]
+**Risque orageux localisé** : À la faveur de la chaleur résiduelle et de l'arrivée d'air plus instable, des orages pourraient éclater, principalement en fin de semaine, avec un risque de grêle et de fortes pluies localisées.
+
+### [W2_KEY_POINT_5]
+**Sécheresse persistante** : Malgré une possible dégradation, les quantités de pluie restent très incertaines. Le déficit hydrique restera très important et la sécheresse de surface ne sera pas résorbée.
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle CEP (Centre Européen)**
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une **persistance de la chaleur** au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une **dégradation orageuse** par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GFS (Américain)**
+
+### [W2_MODEL_SCENARIO]
+GFS est plus **volatile** dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une **poche de chaleur résiduelle** se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un **rafraîchissement plus net** et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GEM (Canadien)**
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario **plus tranché** vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une **descente d'air froid** plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un **rafraîchissement net et généralisé** sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle UKMO (Anglais)**
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande **hésitation** dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une **baisse des températures** mais une **faible organisation des pluies**, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_CONVERGENCES]
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
+2. **Changement de synoptique très incertain** : Les modèles (GFS, CEP, GEM) peinent à s'accorder sur la date et l'ampleur d'une éventuelle dégradation, repoussant constamment l'échéance.
+
+### [W2_KEY_POINT_3]
+**Pression océanique en embuscade** : Une faiblesse de la ceinture anticyclonique pourrait permettre à un flux océanique plus frais et humide de s'infiltrer par le nord-ouest en fin de semaine, mais cette option reste fragile.
+
+### [W2_KEY_POINT_4]
+**Risque orageux localisé** : À la faveur de la chaleur résiduelle et de l'arrivée d'air plus instable, des orages pourraient éclater, principalement en fin de semaine, avec un risque de grêle et de fortes pluies localisées.
+
+### [W2_KEY_POINT_5]
+**Sécheresse persistante** : Malgré une possible dégradation, les quantités de pluie restent très incertaines. Le déficit hydrique restera très important et la sécheresse de surface ne sera pas résorbée.
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle CEP (Centre Européen)**
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une **persistance de la chaleur** au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une **dégradation orageuse** par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GFS (Américain)**
+
+### [W2_MODEL_SCENARIO]
+GFS est plus **volatile** dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une **poche de chaleur résiduelle** se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un **rafraîchissement plus net** et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GEM (Canadien)**
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario **plus tranché** vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une **descente d'air froid** plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un **rafraîchissement net et généralisé** sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle UKMO (Anglais)**
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande **hésitation** dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une **baisse des températures** mais une **faible organisation des pluies**, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_CONVERGENCES]
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
+3. **Pression océanique en embuscade** : Une faiblesse de la ceinture anticyclonique pourrait permettre à un flux océanique plus frais et humide de s'infiltrer par le nord-ouest en fin de semaine, mais cette option reste fragile.
+
+### [W2_KEY_POINT_4]
+**Risque orageux localisé** : À la faveur de la chaleur résiduelle et de l'arrivée d'air plus instable, des orages pourraient éclater, principalement en fin de semaine, avec un risque de grêle et de fortes pluies localisées.
+
+### [W2_KEY_POINT_5]
+**Sécheresse persistante** : Malgré une possible dégradation, les quantités de pluie restent très incertaines. Le déficit hydrique restera très important et la sécheresse de surface ne sera pas résorbée.
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle CEP (Centre Européen)**
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une **persistance de la chaleur** au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une **dégradation orageuse** par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GFS (Américain)**
+
+### [W2_MODEL_SCENARIO]
+GFS est plus **volatile** dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une **poche de chaleur résiduelle** se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un **rafraîchissement plus net** et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GEM (Canadien)**
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario **plus tranché** vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une **descente d'air froid** plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un **rafraîchissement net et généralisé** sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle UKMO (Anglais)**
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande **hésitation** dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une **baisse des températures** mais une **faible organisation des pluies**, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_CONVERGENCES]
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
+4. **Risque orageux localisé** : À la faveur de la chaleur résiduelle et de l'arrivée d'air plus instable, des orages pourraient éclater, principalement en fin de semaine, avec un risque de grêle et de fortes pluies localisées.
+
+### [W2_KEY_POINT_5]
+**Sécheresse persistante** : Malgré une possible dégradation, les quantités de pluie restent très incertaines. Le déficit hydrique restera très important et la sécheresse de surface ne sera pas résorbée.
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle CEP (Centre Européen)**
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une **persistance de la chaleur** au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une **dégradation orageuse** par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GFS (Américain)**
+
+### [W2_MODEL_SCENARIO]
+GFS est plus **volatile** dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une **poche de chaleur résiduelle** se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un **rafraîchissement plus net** et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GEM (Canadien)**
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario **plus tranché** vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une **descente d'air froid** plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un **rafraîchissement net et généralisé** sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle UKMO (Anglais)**
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande **hésitation** dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une **baisse des températures** mais une **faible organisation des pluies**, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_CONVERGENCES]
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
+5. **Sécheresse persistante** : Malgré une possible dégradation, les quantités de pluie restent très incertaines. Le déficit hydrique restera très important et la sécheresse de surface ne sera pas résorbée.
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle CEP (Centre Européen)**
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une **persistance de la chaleur** au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une **dégradation orageuse** par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GFS (Américain)**
+
+### [W2_MODEL_SCENARIO]
+GFS est plus **volatile** dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une **poche de chaleur résiduelle** se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un **rafraîchissement plus net** et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle GEM (Canadien)**
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario **plus tranché** vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une **descente d'air froid** plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un **rafraîchissement net et généralisé** sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_MODEL_START]
+
+### [W2_MODEL_NAME]
+**Modèle UKMO (Anglais)**
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande **hésitation** dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une **baisse des températures** mais une **faible organisation des pluies**, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+**Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### [W2_MODEL_END]
+
+
+
+### [W2_CONVERGENCES]
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Une baisse des températures est attendue en fin de mois, avec un retour progressif à des valeurs proches des normales.
-2. Les précipitations resteront probablement faibles, sous forme d'averses ou d'orages isolés.
-3. Le flux océanique d'ouest devrait s'imposer, au moins temporairement.
+Points de convergence pour la région HDF :
+
+1.  **Fin de la canicule :** Tous les modèles s'accordent sur une **baisse significative des températures** entre le début et la fin de la semaine 2. Les fortes chaleurs (Tx > 35°C) ne devraient plus se produire.
+2.  **Chaleur résiduelle en début de semaine :** Consensus sur un **temps encore chaud lundi 24 et mardi 25**, avec des températures potentiellement 3 à 5°C au-dessus des normales.
+3.  **Dégradation en fin de semaine :** Tous les modèles voient une **dégradation** arriver par l'ouest ou le nord-ouest en milieu de semaine, avec un risque d'orages et une baisse des températures.
+
+### [W2_DIVERGENCES]
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 **Points de divergence :**
-1. Scénario sec vs scénario pluvieux : certains modèles voient un simple rafraîchissement sec, d'autres des précipitations plus notables (mais sans cumuls importants).
-2. Régression de la chaleur : une remontée temporaire des températures est possible en toute fin de mois.
-3. Position exacte de la goutte froide : incertaine, ce qui conditionne la localisation des pluies.
+Points de divergence pour la région HDF :
+
+1.  **Ampleur de la dégradation :** GEM voit un **rafraîchissement net et durable** (descente d'air froid), tandis que le CEP et UKMO prévoient une **dégradation plus modérée** et temporaire.
+2.  **Précipitations :** Forte divergence sur les **quantités de pluie**. GEM est plus généreux, le CEP voit des pluies faibles et mal réparties, UKMO est un intermédiaire. La Seine-Maritime et le littoral pourraient être plus arrosés.
+3.  **Temporalité :** La date d'arrivée de la dégradation varie de **mercredi 26 (GEM, UKMO)** à **jeudi 27 (CEP)**.
+
+### [W2_ZONES_JSON_START]
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle en début de semaine, puis temps plus nuageux avec risque d'averses ou d'orages à partir de mercredi. Rafraîchissement net en fin de semaine.",
+      "temperatures": "Tn: 15-18°C en début de semaine, puis 13-16°C. Tx: 28-31°C lundi/mardi, puis 20-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages faibles mercredi, puis averses possibles jeudi et vendredi. Cumuls incertains, plus probables sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes",
+      "wind": "Vent de sud-ouest modéré en début de semaine, devenant nord-ouest à ouest après la dégradation. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 août en journée pour la chaleur. Jeudi 27 et vendredi 28 pour l'instabilité.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur de la baisse des températures et les quantités de pluie restent incertaines.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Temps encore chaud et ensoleillé lundi et mardi, puis dégradation avec nuages et averses dès mercredi. Rafraîchissement plus marqué près du littoral.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-15°C. Tx: 27-30°C lundi/mardi, puis 19-23°C à partir de jeudi.",
+      "rain_storms": "Risque d'averses modéré à partir de mercredi, plus fréquent sur le littoral. Possibilité d'orages faibles.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens",
+      "wind": "Vent de sud-ouest à ouest modéré, devenant nord-ouest et parfois assez fort sur le littoral après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 27 et vendredi 28 pour le vent et les averses sur le littoral.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'humidité et la force du vent sur le littoral sont les principaux points d'incertitude.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Chaleur résiduelle lundi et mardi. Dégradation orageuse possible mercredi, puis temps plus frais et instable avec averses jeudi et vendredi.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 28-31°C lundi/mardi, puis 21-24°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages mercredi, puis averses plus fréquentes jeudi. Les cumuls restent incertains, mais pourraient être plus significatifs que plus à l'est.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Péronne",
+      "wind": "Vent de sud-ouest modéré, tournant à l'ouest puis au nord-ouest. Rafales possibles sous orages.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux. Jeudi 27 pour le refroidissement.",
+      "confidence_level": "elevee",
+      "uncertainty": "La trajectoire exacte des perturbations et les cumuls de pluie associés sont incertains.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Encore chaud et ensoleillé en début de semaine. Dégradation plus modérée qu'au nord, avec un risque d'orages mercredi et un simple repli des températures ensuite.",
+      "temperatures": "Tn: 14-17°C en début de semaine, puis 12-14°C. Tx: 29-32°C lundi/mardi, puis 23-26°C à partir de jeudi.",
+      "rain_storms": "Risque d'orages localisés mercredi. Averses possibles mais plus rares et moins intenses que sur le littoral.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Senlis",
+      "wind": "Vent de sud-ouest à ouest modéré, s'orientant au nord-ouest après la dégradation.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Mercredi 26 pour le risque orageux.",
+      "confidence_level": "elevee",
+      "uncertainty": "L'ampleur du rafraîchissement est moins certaine qu'au nord. Le risque de pluie est plus faible.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Chaleur encore présente lundi et mardi. Tendance à la dégradation plus tardive et plus modérée. Temps plus sec et plus frais en fin de semaine.",
+      "temperatures": "Tn: 13-16°C en début de semaine, puis 11-14°C. Tx: 29-33°C lundi/mardi, puis 24-27°C à partir de vendredi.",
+      "rain_storms": "Risque d'orages très localisé mercredi. Faible risque de pluie ensuite. Le département pourrait être le moins arrosé de la région.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons",
+      "wind": "Vent de sud-ouest faible à modéré, devenant variable puis nord-ouest en fin de semaine.",
+      "sensitive_period": "Mardi 25 pour la chaleur. Jeudi 28 et vendredi 29 pour la baisse des températures.",
+      "confidence_level": "elevee",
+      "uncertainty": "Le maintien d'un temps plus sec et plus chaud qu'au nord est le scénario le plus probable, mais reste incertain.",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "GEM", "UKMO"]
+    }
+  }
+}
+### [W2_ZONES_JSON_END]
+
+
+
+### [W2_SOLID_POINTS]
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (projections long terme)** (Incertain - à confirmer dans les prochains runs.) | Une baisse plus nette des températures en fin d'échéance, avec un possible isolement d'une goutte froide sur l'Europe de l'Ouest. Cela apporterait un temps plus frais et instable sur la France. | Averses ou orages possibles, températures proches des normales de fin août. | Toute la région HDF. | Faible (40-50%) - Pas de discussion détaillée sur cette échéance (sujet non ouvert). | Les discussions sur le long terme (J+10) suggèrent une tentative de changement de synoptique plus profonde, mais rien n'est garanti. Les scénarios secs mais plus frais sont également possibles. |
-| **GFS (projections long terme)** (Incertain.) | Un flux d'ouest océanique pourrait s'établir en fin de mois, avec une baisse des températures et quelques précipitations. Mais les scénarios sont très variables d'un run à l'autre. | Temps plus frais, passages nuageux, petites pluies. | Nord de la France. | Faible (40-50%) - Pas de discussion détaillée. | Les runs récents montrent une persistance de la ceinture subtropicale, mais avec des faiblesses en marge. Le scénario le plus probable est un retour à des conditions plus fraîches, mais sans pluies abondantes. |
+| **<strong>Modèle CEP (Centre Européen)</strong>
+
+### [W2_MODEL_SCENARIO]
+Le CEP voit une <strong>persistance de la chaleur</strong> au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une <strong>dégradation orageuse</strong> par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Élevée</strong> sur la tendance chaude en début de semaine. <strong>Modérée</strong> sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un <strong>pic de chaleur en S34</strong> mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une <strong>volatilité inhabituelle</strong> des modèles.
+
+###** (**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+###) | Le CEP voit une <strong>persistance de la chaleur</strong> au moins en début de semaine, avec un pic possible mardi 25. Il envisage ensuite une <strong>dégradation orageuse</strong> par le sud-ouest en milieu de semaine, mais qui pourrait ne pas concerner les Hauts-de-France. Le flux pourrait ensuite s'orienter au nord-ouest, amenant un air plus océanique et une baisse des températures en fin de semaine, mais avec une incertitude forte sur les précipitations.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Élevée</strong> sur la tendance chaude en début de semaine. <strong>Modérée</strong> sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un <strong>pic de chaleur en S34</strong> mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une <strong>volatilité inhabituelle</strong> des modèles.
+
+### | Temps encore chaud et ensoleillé lundi et mardi (Tx 28-32°C), puis développement de nuages et risque d'orages mercredi. Jeudi et vendredi, retour d'un temps plus instable avec des averses possibles et une baisse des températures (Tx 22-25°C). Week-end plus sec mais frais.
+
+### [W2_MODEL_AFFECTED_ZONES]
+Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Élevée</strong> sur la tendance chaude en début de semaine. <strong>Modérée</strong> sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un <strong>pic de chaleur en S34</strong> mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une <strong>volatilité inhabituelle</strong> des modèles.
+
+### | Toute la région, avec un risque orageux potentiellement plus marqué sur les terres (Oise, Aisne, Somme) en milieu de semaine.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Élevée</strong> sur la tendance chaude en début de semaine. <strong>Modérée</strong> sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un <strong>pic de chaleur en S34</strong> mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une <strong>volatilité inhabituelle</strong> des modèles.
+
+### | **Élevée** sur la tendance chaude en début de semaine. **Modérée** sur la temporalité et l'ampleur de la dégradation de fin de semaine.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Malgré quelques hésitations, le CEP est relativement stable sur l'idée d'une dégradation en toute fin d'échéance, soutenue par les ensembles GEFS et GEM.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Le CEP est cité pour ses prévisions de pic de chaleur en milieu de semaine de la S34, et son scénario est scruté pour la suite.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le scénario de dégradation est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+Le CEP est en accord avec GFS sur un **pic de chaleur en S34** mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une **volatilité inhabituelle** des modèles.
+
+### | Le CEP est en accord avec GFS sur un <strong>pic de chaleur en S34</strong> mais diverge sur la fin de S34 et le début de S2. Il est jugé plus fiable pour le moyen terme, mais les membres notent une <strong>volatilité inhabituelle</strong> des modèles.  ### |
+| **<strong>Modèle GFS (Américain)</strong>
+
+### [W2_MODEL_SCENARIO]
+GFS est plus <strong>volatile</strong> dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une <strong>poche de chaleur résiduelle</strong> se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un <strong>rafraîchissement plus net</strong> et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée.</strong> GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong> (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de <strong>très grandes précautions</strong>, même s'il est soutenu par son ensemble.
+
+###** (**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+###) | GFS est plus <strong>volatile</strong> dans ses scénarios. Il a successivement proposé une dégradation marquée, puis un simple repli de la chaleur. Son scénario le plus récent pour la S2 voit une <strong>poche de chaleur résiduelle</strong> se maintenir sur le sud de la France, tandis que les Hauts-de-France seraient en marge d'un flux océanique plus actif, avec un <strong>rafraîchissement plus net</strong> et des précipitations plus probables que le CEP.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée.</strong> GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong> (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de <strong>très grandes précautions</strong>, même s'il est soutenu par son ensemble.
+
+### | Lundi et mardi encore assez chauds (Tx 27-30°C). Dès mercredi, arrivée d'un flux de nord-ouest plus dynamique, apportant des nuages, des averses et une baisse significative des températures (Tx 20-23°C). Jeudi et vendredi pourraient être frais et humides. Amélioration relative le week-end.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région, avec un rafraîchissement plus franc et des précipitations plus probables sur le littoral (Nord, Pas-de-Calais, Somme) en premier lieu.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée.</strong> GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong> (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de <strong>très grandes précautions</strong>, même s'il est soutenu par son ensemble.
+
+### |  | **Modérée.** GFS a montré des écarts importants entre ses runs, rendant la confiance faible sur le scénario de dégradation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Son ensemble (GEFS) est globalement en accord avec l'idée d'un temps plus frais et plus humide pour la fin de S2, mais avec des écarts-types importants.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected** (Sujet à caution en raison de la volatilité).
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Très fréquent, notamment pour ses écarts entre runs et sa difficulté à modéliser la fin de l'épisode de chaleur.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le refroidissement et l'humidité sont projetés à partir de mercredi 26 août.
+
+### [W2_MODEL_DETAILS]
+Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de **très grandes précautions**, même s'il est soutenu par son ensemble.
+
+### | Les membres notent que GFS "fait des grands écarts entre ses runs" et qu'il est "très volatile". Son scénario est donc à prendre avec de <strong>très grandes précautions</strong>, même s'il est soutenu par son ensemble.  ### |
+| **<strong>Modèle GEM (Canadien)</strong>
+
+### [W2_MODEL_SCENARIO]
+GEM propose un scénario <strong>plus tranché</strong> vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une <strong>descente d'air froid</strong> plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un <strong>rafraîchissement net et généralisé</strong> sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée à élevée</strong> pour la tendance au refroidissement. <strong>Faible</strong> sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une <strong>descente froide plus profonde</strong> est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+###** (Majoritaire) | GEM propose un scénario <strong>plus tranché</strong> vers une dégradation plus profonde et durable pour la fin de l'échéance. Il voit une <strong>descente d'air froid</strong> plus marquée sur l'Europe de l'Ouest, ce qui pourrait apporter un <strong>rafraîchissement net et généralisé</strong> sur la France, y compris les Hauts-de-France, avec un risque de pluie plus important.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée à élevée</strong> pour la tendance au refroidissement. <strong>Faible</strong> sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une <strong>descente froide plus profonde</strong> est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### | Début de semaine encore chaud (Tx 27-31°C). Dégradation plus marquée dès mercredi avec un risque d'orages. Jeudi et vendredi, nette baisse des températures (Tx 19-23°C) avec des pluies potentiellement plus régulières. Week-end frais et instable.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Toute la région est concernée par le rafraîchissement. Les précipitations pourraient être plus généralisées qu'avec le CEP ou GFS.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée à élevée</strong> pour la tendance au refroidissement. <strong>Faible</strong> sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une <strong>descente froide plus profonde</strong> est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### |  | **Modérée à élevée** pour la tendance au refroidissement. **Faible** sur les détails et les cumuls de précipitation.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Les ensembles GEM soutiennent ce scénario de fin d'été plus dynamique, en phase avec l'idée d'un changement de synoptique évoqué par les membres (Twister83).
+
+### [W2_MODEL_STATUS**
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Citée comme le modèle voyant "le pied pour toute la France" (S34), mais son scénario pour S2 est jugé peut-être trop optimiste.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+Le changement est projeté pour la période allant de mercredi 26 à dimanche 30 août.
+
+### [W2_MODEL_DETAILS]
+GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une **descente froide plus profonde** est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.
+
+### | GEM est souvent cité pour ses scénarios plus "musclés". Son hypothèse d'une <strong>descente froide plus profonde</strong> est une possibilité à ne pas écarter, mais elle est minoritaire par rapport au CEP.  ### |
+| **<strong>Modèle UKMO (Anglais)</strong>
+
+### [W2_MODEL_SCENARIO]
+UKMO a montré une grande <strong>hésitation</strong> dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une <strong>baisse des températures</strong> mais une <strong>faible organisation des pluies</strong>, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée.</strong> UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+###** (**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+###) | UKMO a montré une grande <strong>hésitation</strong> dans ses runs. Après avoir proposé une dégradation marquée, il a fait "machine arrière" dans son run du 14/08 pour la S34. Pour la S2, son scénario est similaire à celui du CEP : une <strong>baisse des températures</strong> mais une <strong>faible organisation des pluies</strong>, surtout sur le nord de la France. Il ne voit pas de retour franc à un temps très frais et très humide.
+
+### [W2_MODEL_SENSIBLE_WEATHER]
+Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée.</strong> UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### | Chaleur résiduelle lundi et mardi (Tx 27-30°C). Mercredi, temps plus nuageux avec un risque d'averses. Jeudi et vendredi, temps instable mais sans excès, avec des températures proches des normales de saison (Tx 22-25°C). Week-end plus sec.
+
+### [W2_MODEL_AFFECTED_ZONES**
+Principalement le nord et l'ouest de la région pour le risque de pluie. Les terres (Oise, Aisne) pourraient rester plus sèches.
+
+### [W2_MODEL_EXTRACTION_CONF]
+<strong>Modérée.</strong> UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+<strong>Documented & Projected</strong>
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### |  | **Modérée.** UKMO est instable, mais son scénario est en phase avec le CEP sur l'idée d'une dégradation limitée.
+
+### [W2_MODEL_SCENARIO_SUPPORT]
+Scénario soutenu par le CEP, mais les membres soulignent sa tendance à "faire machine arrière" récemment.
+
+### [W2_MODEL_STATUS]
+**Documented & Projected**
+
+### [W2_MODEL_MENTIONS_COUNT]
+Mentions dans la discussion S34 : Cité pour sa "marche arrière" sur la dégradation en début de S34.
+
+### [W2_MODEL_RUN]
+Run du 14/08/2026 (issu de la discussion S34).
+
+### [W2_MODEL_TIMING]
+La dégradation limitée est projetée pour mercredi et jeudi (26-27 août).
+
+### [W2_MODEL_DETAILS]
+UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.
+
+### | UKMO est un modèle de référence, mais sa récente instabilité le rend moins fiable. Son scénario est intermédiaire entre le CEP et GEM.  ### |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps variable, passages nuageux, averses possibles, températures en baisse. Scénario basé sur les projections long terme (ECMWF/GFS). | Min 12-15°C, Max 20-24°C (prévision indicative) | moderee | ECMWF, GFS | Incertitude sur l'intensité des précipitations ; possibilité d'un bref retour de la chaleur en fin de semaine |
-| **Pas-de-Calais (62)** | Temps plus frais et instable, averses possibles. Scénario basé sur les projections long terme. | Min 12-15°C, Max 20-23°C (prévision indicative) | moderee | ECMWF, GFS | Incertitude sur la localisation des pluies ; scénario sec possible |
-| **Somme (80)** | Temps frais, passages nuageux, risque d'averses faibles. Scénario basé sur les projections long terme. | Min 11-14°C, Max 20-24°C (prévision indicative) | moderee | ECMWF, GFS | Incertitude sur le timing et l'extension des pluies |
-| **Oise (60)** | Temps parfois nuageux, petites pluies possibles. Scénario basé sur les projections long terme. | Min 11-14°C, Max 20-24°C (prévision indicative) | moderee | ECMWF, GFS | Incertitude sur la durée du temps frais |
-| **Aisne (02)** | Temps variable, averses possibles. Scénario basé sur les projections long terme. | Min 10-13°C, Max 20-23°C (prévision indicative) | moderee | ECMWF, GFS | Incertitude sur le retour éventuel de la chaleur en fin de semaine |
+| **Nord (59)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Pas-de-Calais (62)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Somme (80)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Oise (60)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Aisne (02)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 24 et mardi 25 Août** : Temps frais et instable, averses possibles sur l'ensemble de la région.
-- **Mercredi 26 et jeudi 27 Août** : Amélioration temporaire possible, mais températures toujours fraîches.
-- **Vendredi 28 et samedi 29 Août** : Possibilité d'un bref retour de la chaleur, ou maintien du temps frais (scénarios divergents).
-- **Dimanche 30 Août** : Incertain : soit temps frais, soit retour de la chaleur.
+- **Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###** : **Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
+- **Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###** : **Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
+- **Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###** : **Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 
 **Points solides :**
-1. Baisse durable des températures attendue, sans canicule.
-2. Flux océanique d'ouest plus présent.
-3. Précipitations faibles, insuffisantes pour la sécheresse.
+Points solides pour la région HDF :
+
+1.  **Fin de l'épisode caniculaire :** Le pic de chaleur intense est terminé. Les températures vont baisser, même si elles resteront au-dessus des normales en début de semaine.
+2.  **Dégradation en vue :** Un changement de temps est attendu en milieu de semaine, avec le retour d'un flux océanique plus humide et plus frais.
+3.  **Baisse des températures :** Le rafraîchissement est le scénario le plus probable pour la fin de la semaine 2, avec des températures qui pourraient revenir proches des normales de saison.
+
+### [W2_FRAGILE_POINTS]
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 
 **Points fragiles :**
-1. Scénario de fin de semaine très incertain (retour de chaleur possible).
-2. Localisation et intensité des pluies très variables selon les modèles.
-3. Fiabilité limitée à cette échéance (J+10 à J+15).
+Points fragiles pour la région HDF :
+
+1.  **Quantités de pluie :** Les précipitations restent le point le plus incertain. Les modèles peinent à modéliser des cumuls significatifs. La sécheresse pourrait donc se poursuivre.
+2.  **Ampleur du refroidissement :** L'intensité de la baisse des températures est très variable selon les modèles. Un simple repli modéré est possible.
+3.  **Comportement des modèles :** La volatilité récente des modèles (GFS, UKMO) rend ces projections fragiles. Une nouvelle révision à la hausse des températures n'est pas exclue.
+
+### [W2_NEXT_RUNS_TO_WATCH]
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 
 **À surveiller (prochains runs) :**
-- Ouverture du sujet forum Semaine 35 dans les prochains jours pour affiner.
-- Evolution des ensembles GEFS, EIPC et GEM à J+10.
+À surveiller pour la région HDF :
+
+- **Le run de 12h du CEP** : Il est crucial pour confirmer ou infirmer le scénario de dégradation pour la fin de semaine.
+- **L'évolution des ensembles GEFS et GEM** : Pour évaluer la confiance dans le scénario de refroidissement.
+- **La position de la limite de pluie** : Les cartes de précipitations seront scrutées pour voir si les Hauts-de-France sont concernés par des pluies significatives.
+
+### [W2_PHASE_1_DATES]
+Du lundi 24 au mardi 25 août 2026.
+
+### [W2_PHASE_1]
+**Chaleur résiduelle** : Temps encore ensoleillé et chaud. Les températures maximales pourraient atteindre 28 à 32°C, avec un ressenti lourd.
+
+### [W2_PHASE_2_DATES]
+Du mercredi 26 au jeudi 27 août 2026.
+
+### [W2_PHASE_2]
+**Dégradation** : Arrivée d'un front par l'ouest ou le nord-ouest. Le ciel se couvre, des averses et des orages sont possibles. La baisse des températures est nette.
+
+### [W2_PHASE_3_DATES]
+Du vendredi 28 au dimanche 30 août 2026.
+
+### [W2_PHASE_3]
+**Temps instable et plus frais** : Temps de traîne avec des averses, surtout samedi. Les températures passent sous les normales de saison, avec un ressenti automnal. Amélioration possible dimanche.
+
+### [W2_IMAGE_START]
+*[Carte schématique des températures prévues pour jeudi 27 août 2026, montrant une nette baisse sur les Hauts-de-France.]*
+### [W2_IMAGE_END]
+
+###
 
 
 ========================================
 
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
-### Tendance 15 jours
-Sur les 15 prochains jours, les Hauts-de-France connaissent une baisse nette des températures après l'épisode caniculaire de la mi-août. Les températures devraient revenir à des valeurs proches des normales saisonnières, avec un temps plus instable et de faibles précipitations. La sécheresse de surface persistera.
-
-### Période la plus fiable
-Semaine 1 (du 17 au 23 août) : les prévisions sont plus fiables, avec des données détaillées des bulletins Météo-France et des discussions des membres.
-
-### Phénomènes récurrents
-Persistance d'une ceinture subtropicale haute, apportant des conditions plus sèches et chaudes que la normale. Les flux océaniques faibles n'apportent que des pluies éparses.
-
-### Principales incertitudes
-1. Amplitude et durée du rafraîchissement. 2. Possibilité d'un pic de chaleur temporaire en milieu de semaine 1 et en fin de semaine 2. 3. Cumuls de précipitations très incertains.
-
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la durée exacte de la pause fraîche : pourrait être interrompue par un pic de chaleur en milieu de semaine 1, et un possible regain de chaleur en toute fin de semaine 2.
-- **Localisation :** Doutes sur la localisation des averses : littoral vs intérieur, et sur l'extension des pluies sur l'est de la région (Aisne, Oise).
-- **Intensité :** Doutes sur l'intensité des précipitations : certaines modélisations voient des cumuls notables, d'autres des pluies faibles et éparses, voire rien.
-- **Informations manquantes :** Les prévisions détaillées de la semaine 2 ne sont pas disponibles (sujet forum non ouvert). Les données satellitaires et radar ne sont pas intégrées.
-- **Modèles sous-documentés :** ICON est très peu commenté ; UKMO a montré une forte hésitation entre ses runs ; le modèle AROME (Météo-France) n'est pas détaillé dans les discussions.
-- **Incertitudes images :** Les cartes de températures à 850hPa et de précipitations pour la fin de semaine 2 sont très divergentes entre les modèles.
-
-
-========================================
-
-## 📝 PROPOSITION DE POST LINKEDIN
-🌤️ Bulletin météo Hauts-de-France (17-30 août) : la canicule de la mi-août (jusqu'à 40°C dans l'Oise) s'achève. Retour à des températures proches des normales (23-26°C), mais pas de pluies significatives en vue : la sécheresse de surface se poursuit. Tendances : temps plus instable en fin de semaine, avec quelques averses possibles. Incertitudes pour la semaine du 24 : les modèles hésitent entre un simple rafraîchissement et un retour temporaire de la chaleur. Prudence et vigilance restent de mise. 🗓️ Prochain bulletin mis à jour dès l'ouverture du sujet forum. Infoclimat #météo #HautsDeFrance #canicule #sécheresse
