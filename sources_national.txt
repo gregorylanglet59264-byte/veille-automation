@@ -319,12 +319,12 @@ sud-ouest au nord-est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 1 : AVIGNON
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 14/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -338,93 +338,6 @@ Températures attendues précédemment : Le GFS voit une possible baisse des tem
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: _sb
-Message:
-Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux conditions initiales, soit aux conditions simulées. Hier, j'avais identifié une date autour du 18/19 (à priori 17/18 aujourd'hui) comme conséquence sur la France, sana avoir le temps dispo pour remonter à la source. 
-	Le pays serait au carrefour de quatre influences : des HG vers le Groenland, des HG en Méditerranée, des BG sur la Scandinavie, des BG près du Portugal/Maroc. Suivant laquelle prédomine sur la France, les températures changent fortement.
-	S'ajoutent des petites anomalies froides de quelques 100aines de km (avec ou sans "visibilité" sur les hauteurs de géopotentiels à 500 hPa) circulant sur ou à proximité du pays, initiant ou pas un processus barocline/barotrope. La modélisation est extrêmement complexe. 
-	L'évolution de fond à échelle de notre quadrant euro-atlantique / hémisphérique est à la poursuite de la récurrence estivale : HG et BG hauts en latitudes. Ceux-ci descendraient lentement vers le sud, avec l'avancée dans la saison (Soleil plus bas, bilan radiatif en baisse progressive). Les éléments de petites échelles font office de forçages et perturbent ce schéma.
-	Comme en hiver, où une toute petite dépression mal définie amène un peu d'air chaud qui déloge et annule toute une grosse coulée froide (je n'entrerai pas dans le débat où c'est toujours l'air chaud qui gagne, ça n'apporte rien pour moi à l'analyse).
-	La prévisibilité est donc structurellement mauvaise, pas étonnant que la prévision run/run change fréquemment.
-	Modifié il y a 6 heures par _sb
-								11
-								8
-
-=======================
-
-Auteur: mathias
-Message:
-Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-	Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ?
-
-=======================
-
-Auteur: Virgile
-Message:
-il y a 1 minute, mathias a dit :
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-	Pour ma part, non.
-								1
-
-=======================
-
-Auteur: Jujudu38
-Message:
-il y a 58 minutes, Virgile a dit :
-			Pour ma part, non.
-	Bien sûr que si !
-	Nier qu'on est dans une impasse parce que les sols Trop secs ne permettent aucun changement
-
-=======================
-
-Auteur: mike
-Message:
-il y a 47 minutes, Virgile a dit :
-			Pour ma part, non.
-	justement la vous vous plantez. Un continent très sec et surchauffé aura clairement une incidence sur les perturbations atlantiques qui ne peuvent plus passer dans ces conditions ou s'assèchent complètement en rentrant dans les terres. En hiver c'est exactement la même chose quand une vague de froid et de neige sévissent sur un continent, le flux d'ouest va alors se bloquer et être souvent dévié. Bien entendu ça fini toujours par passer et c'est exactement ce qui se passera dans l'avancée de la saison avec un soleil de plus en plus bas
-								5
-
-=======================
-
-Auteur: Girondin33
-Message:
-il y a 53 minutes, Virgile a dit :
-			Pour ma part, non.
-	Bonjour je ne serai si catégorique, j'ai l'impression que depuis juillet (pour Bordeaux Mérignac) on se situe de façon récurrente dans la fourchette haute des prévisions (ce qui est loin d'être tout le temps le cas).
-	De même la station que j'ai à la maison qui est à 5km à vol d'oiseau de Mérignac n'enregistrait pas de grands écarts avec Mérignac, depuis l'été dernier rien à changé dans la configuration du jardin, hormis une chose la pelouse est complétement cramée partout au soleil comme à l'ombre. Résultat j'ai +0,9° en moyenne de plus sur juillet et aout sur les Tx alors que l'an dernier à la même période les écarts étaient plutôt de +0.25°. 
-	De ce que j'observe l'état de sécheresse avancé sur jardin augmente la petite surchauffe que j'ai pas défaut sur la station, donc il me semble probable que l'impact soit le même à plus grande échelle !
-	Sorry pour le Hs
-	Modifié il y a 3 heures par Girondin33
-								1
-
-=======================
-
-Auteur: PaRaDoX
-Message:
-Il y a 2 heures, Virgile a dit :
-			Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
-			Mais quel été de fraicheur!!!
-	Merci pour toutes ces cartes Virgile. Il y a des phases où parfois certaines récurrences synoptiques font faire complètement n'importe quoi aux modèles. J'ai en tête comme ça février-mars 2009, où après le flop du 10 février qui a vu à J-4 une belle VDF vue à l'unanimité se transformer en un temps mou ignoble, durant 1 mois tous les modèles n'ont pas arrêté de voir toutes les semaines une nouvelle VDF être sans cesse rabotée puis disparue au fameux cap de 96-120h. Je me souviens très bien d'ailleurs que tu as été l'un de ceux qui défendait vivement que dans ce genre de récurrences il valait mieux suivre son instinct que suivre à la lettre les modèles.
-	17 ans plus tard, on a complètement renoncé aux VDF l'hiver, même les modèles n'y croient plus tellement c'est une cause désespérée. On en est à prier pour la survie de notre faune et notre flore l'été, pour une simple dégradation ("amélioration" devrait-on dire dans notre contexte) sans cesse repoussée.
-	Cet été va nous laisser de nombreuses interrogations par la suite : non seulement pourquoi un tel acharnement synoptique sur l'Europe de l'Ouest et la France en particulier, mais aussi pourquoi nos modèles météo patinent tant à voir la fin de la canicule au point où l'on croirait à un canular organisé de mauvais goût.
-								8
-								3
-
-=======================
-
-Auteur: Banleve7519
-Message:
-il y a une heure, Virgile a dit :
-			Pour ma part, non.
-	Il est pourtant bien connu et démontré que la sécheresse des sols accroît la hausse des températures, non? 
-	Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
-	Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
-								1
-								1
-
-=======================
-
 Auteur: trugll
 Message:
 il y a 36 minutes, mike a dit :
@@ -439,7 +352,7 @@ il y a 36 minutes, mike a dit :
 Auteur: Virgile
 Message:
 Non mais vous etes sérieux ou quoi?  Quel est la démarche scientifique qui fait que des sols surchauffés et secs changeraient des conditions synoptiques à grande échelle dans la haute atmosphère?? On nous fait déjà le coup en hiver dans le passé avec un sol froid gelé, enneigé empêchant toute perturbation océanique d'arriver alors que c'est parfois balayé en 24 heures. Cette histoire de blocage ne se joue pas au sol mais dans l'atmosphère. Maintenant, est ce que des sols chauffés et très secs amplifient de quelques je dis bien de quelques degrés localement la température au sol, surement mais c'est comme en hiver dans l'autre sens.
-								5
+								7
 								1
 								3
 								1
@@ -481,8 +394,8 @@ il y a une heure, Girondin33 a dit :
 			Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
 			Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
 	Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-								12
-								9
+								14
+								10
 
 =======================
 
@@ -504,7 +417,7 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 2 heures par Virgile
+	Modifié il y a 4 heures par Virgile
 
 =======================
 
@@ -536,7 +449,7 @@ Auteur: bernardt60
 Message:
 Bon maintenant on passe aux prévisions !
 								3
-								5
+								6
 
 =======================
 
@@ -545,107 +458,137 @@ Message:
 GFS maintient que l'épisode de très forte chaleur s'évacuera entre jeudi et vendredi.
 	Attention, il ne s'agira pas de fraicheur, surtout dans l'extrême sud mais entre mercredi et vendredi, on devrait perdre 6 à 8° à 850HPA dans le Sud.
 	Les nuits devraient devenir plus supportables.
-								2
+								3
 								1
 
 =======================
 
 Auteur: tao
 Message:
-Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de passer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
+Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-								6
+	Modifié il y a 1 heure par tao
+								7
 								1
+
+=======================
+
+Auteur: _sb
+Message:
+Il y a 5 heures, mathias a dit :
+			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+		Il y a 2 heures, Sebaas a dit :
+			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
+	Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
+	Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
+	Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
+	Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
+	- oui
+	La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
+	L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
+	- oui
+	Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
+	- oui
+	j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
+	Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
+	Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
+	La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
+	https://www.nature.com/articles/s41612-025-01294-4
+	https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
+	https://academic.oup.com/oocc/article/5/1/kgae023/8005865
+	https://doi.org/10.1175/JCLI4288.1
+	https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
+	https://www.nature.com/articles/s41612-024-00831-x
+	https://www.science.org/doi/10.1126/sciadv.adr7320
+	etc
+	EDIT :
+	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
+	Modifié il y a 1 heure par _sb
+								3
+								5
+
+=======================
+
+Auteur: Sebaas
+Message:
+il y a 11 minutes, _sb a dit :
+			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
+	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
+								2
+
+=======================
+
+Auteur: _sb
+Message:
+il y a 52 minutes, _sb a dit :
+			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
+	Faudrait peut-être lire ...
+	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
+	Modifié il y a 48 minutes par _sb
+
+=======================
+
+Auteur: faycal
+Message:
+Il y a 3 heures, Sebaas a dit :
+			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
+	Mettre le mot "non" en gras n'est pas un argument scientifique...
+	Blague à part, je pense que la réponse est beaucoup plus complexe qu'elle n'y parait, c'est un sujet actif de recherche académique. Donc je doute pouvoir trouver la réponse sur le forum LT info climat entre deux cartes GFS à +300h.
+
+=======================
+
+Auteur: greg13
+Message:
+La semaine à venir sera un cran moins chaude avec malgré tout une certaine récurrence de la chaleur encore dans le Sud-Est.
+	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
+	2 minutes par semaine... pour faire sensation sur le forum !  
+	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
+	Modifié il y a 52 minutes par greg13
+
+=======================
+
+Auteur: lapin61
+Message:
+7 hours ago, Virgile said:
+			Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
+	Bonjour Virgile, une question d’un Béotien, car ce que vous observez m’interroge. 
+	J’imagine, que les algorithmes, ou les équations / calculs, liés à un modèle spécifique sont mises à jour régulièrementou recalibrés -  par les différents organismes gérant le modele concerné ? fréquence régulière ? Quelqu’un aurait ce type d'info, pour par exemple le modèle européen ?
+	Théoriquement l’observation de ce biais que vous observez, récurrence qui tend à sous estimer la résistance des ceintures subtropicales sur l’ouest de l’Europe -bien qu’exacerbé cette année , est bien quelque  chose que nous avons pu observer les années précèdentes ?  
+	Pour autant , la gestion de cette résistance des ceintures subtropicale, semble encore trés perfectible,  par les modèles - sur ce que l’on a pu observer depuis  le mois de mai…
+	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
+	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
+	Merci par avance
+	Modifié il y a 44 minutes par lapin61
+Correction orthographe
+
+=======================
+
+Auteur: meteo noobs
+Message:
+Pour les modèles AI je ne pense pas pour l'heure qu'ils soient aussi performants qu'on le souhaiterait.
+	Pour vous avouer je ne les regarde jamais. Non pas que je sois hermétique à cette mode bien au contraire j'utilise largement l'IA.
+	Cependant il faut quand même prendre en compte que ce sont des modèles qui ont été entraîné ils vont donc reproduire les biais de leurs sources et mettront du temps à se calibrer eux même quand ils dépasseront leur sourcing.
+	Après on gagne en puissance de calcul mais j'ai pas l'impression tout du moins cet été qu'ils ont mis dans le mille souvent. A voir. Je peux me tromper. 
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2 ensembles disponibles à cette heure (GFS et GEM) pour Montpellier dans le sud-est et les déterministes ICON et UKMO qui ne vont pas trop loin car il y a beaucoup d'incertitudes après. 
+	Les moyennes  vont toujours dans le sens d'un rafraîchissement atteignant le sud-est mais seulement à partir de vendredi. 
+	Le fait que ces 2 ensembles modélisent une baisse quand-même notable dans le sud-est donne un certain poids au scénario. 
+	GEFS Montpellier :
+	GEM Montpellier :
+	Ensuite si on regarde les déterministes ICON et UKMO pour vendredi 14h on constate que la synoptique changerait de manière sensible pour les 2 modèles mais avec des scénarios différents : pour  ICON un anticyclone décalé a l'ouest et donc bien placé sur l'atlantique pour permettre enfin à de l'air plus frais en provenance du nord-ouest d'atteindre le nord du pays et l'évacuation de l'air très chaud dans le sud.
+	UKMO nous propose lui un anticyclone plus décalé a l'ouest ce qui ne permettrait pas un apport d'air aussi "frais" que le modèle allemand. 
+	Dans le sud-est, le décalage à l'ouest des centres d'action, pourrait favoriser la résistance de l'air torride. 
+	ICON :
+	UKMO :
+	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: _sb
-Message:
-Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux conditions initiales, soit aux conditions simulées. Hier, j'avais identifié une date autour du 18/19 (à priori 17/18 aujourd'hui) comme conséquence sur la France, sana avoir le temps dispo pour remonter à la source. 
-	Le pays serait au carrefour de quatre influences : des HG vers le Groenland, des HG en Méditerranée, des BG sur la Scandinavie, des BG près du Portugal/Maroc. Suivant laquelle prédomine sur la France, les températures changent fortement.
-	S'ajoutent des petites anomalies froides de quelques 100aines de km (avec ou sans "visibilité" sur les hauteurs de géopotentiels à 500 hPa) circulant sur ou à proximité du pays, initiant ou pas un processus barocline/barotrope. La modélisation est extrêmement complexe. 
-	L'évolution de fond à échelle de notre quadrant euro-atlantique / hémisphérique est à la poursuite de la récurrence estivale : HG et BG hauts en latitudes. Ceux-ci descendraient lentement vers le sud, avec l'avancée dans la saison (Soleil plus bas, bilan radiatif en baisse progressive). Les éléments de petites échelles font office de forçages et perturbent ce schéma.
-	Comme en hiver, où une toute petite dépression mal définie amène un peu d'air chaud qui déloge et annule toute une grosse coulée froide (je n'entrerai pas dans le débat où c'est toujours l'air chaud qui gagne, ça n'apporte rien pour moi à l'analyse).
-	La prévisibilité est donc structurellement mauvaise, pas étonnant que la prévision run/run change fréquemment.
-	Modifié il y a 6 heures par _sb
-								11
-								8
-
-=======================
-
-Auteur: mathias
-Message:
-Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-	Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ?
-
-=======================
-
-Auteur: Virgile
-Message:
-il y a 1 minute, mathias a dit :
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-	Pour ma part, non.
-								1
-
-=======================
-
-Auteur: Jujudu38
-Message:
-il y a 58 minutes, Virgile a dit :
-			Pour ma part, non.
-	Bien sûr que si !
-	Nier qu'on est dans une impasse parce que les sols Trop secs ne permettent aucun changement
-
-=======================
-
-Auteur: mike
-Message:
-il y a 47 minutes, Virgile a dit :
-			Pour ma part, non.
-	justement la vous vous plantez. Un continent très sec et surchauffé aura clairement une incidence sur les perturbations atlantiques qui ne peuvent plus passer dans ces conditions ou s'assèchent complètement en rentrant dans les terres. En hiver c'est exactement la même chose quand une vague de froid et de neige sévissent sur un continent, le flux d'ouest va alors se bloquer et être souvent dévié. Bien entendu ça fini toujours par passer et c'est exactement ce qui se passera dans l'avancée de la saison avec un soleil de plus en plus bas
-								5
-
-=======================
-
-Auteur: Girondin33
-Message:
-il y a 53 minutes, Virgile a dit :
-			Pour ma part, non.
-	Bonjour je ne serai si catégorique, j'ai l'impression que depuis juillet (pour Bordeaux Mérignac) on se situe de façon récurrente dans la fourchette haute des prévisions (ce qui est loin d'être tout le temps le cas).
-	De même la station que j'ai à la maison qui est à 5km à vol d'oiseau de Mérignac n'enregistrait pas de grands écarts avec Mérignac, depuis l'été dernier rien à changé dans la configuration du jardin, hormis une chose la pelouse est complétement cramée partout au soleil comme à l'ombre. Résultat j'ai +0,9° en moyenne de plus sur juillet et aout sur les Tx alors que l'an dernier à la même période les écarts étaient plutôt de +0.25°. 
-	De ce que j'observe l'état de sécheresse avancé sur jardin augmente la petite surchauffe que j'ai pas défaut sur la station, donc il me semble probable que l'impact soit le même à plus grande échelle !
-	Sorry pour le Hs
-	Modifié il y a 3 heures par Girondin33
-								1
-
-=======================
-
-Auteur: PaRaDoX
-Message:
-Il y a 2 heures, Virgile a dit :
-			Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
-			Mais quel été de fraicheur!!!
-	Merci pour toutes ces cartes Virgile. Il y a des phases où parfois certaines récurrences synoptiques font faire complètement n'importe quoi aux modèles. J'ai en tête comme ça février-mars 2009, où après le flop du 10 février qui a vu à J-4 une belle VDF vue à l'unanimité se transformer en un temps mou ignoble, durant 1 mois tous les modèles n'ont pas arrêté de voir toutes les semaines une nouvelle VDF être sans cesse rabotée puis disparue au fameux cap de 96-120h. Je me souviens très bien d'ailleurs que tu as été l'un de ceux qui défendait vivement que dans ce genre de récurrences il valait mieux suivre son instinct que suivre à la lettre les modèles.
-	17 ans plus tard, on a complètement renoncé aux VDF l'hiver, même les modèles n'y croient plus tellement c'est une cause désespérée. On en est à prier pour la survie de notre faune et notre flore l'été, pour une simple dégradation ("amélioration" devrait-on dire dans notre contexte) sans cesse repoussée.
-	Cet été va nous laisser de nombreuses interrogations par la suite : non seulement pourquoi un tel acharnement synoptique sur l'Europe de l'Ouest et la France en particulier, mais aussi pourquoi nos modèles météo patinent tant à voir la fin de la canicule au point où l'on croirait à un canular organisé de mauvais goût.
-								8
-								3
-
-=======================
-
-Auteur: Banleve7519
-Message:
-il y a une heure, Virgile a dit :
-			Pour ma part, non.
-	Il est pourtant bien connu et démontré que la sécheresse des sols accroît la hausse des températures, non? 
-	Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
-	Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
-								1
-								1
-
-=======================
-
 Auteur: trugll
 Message:
 il y a 36 minutes, mike a dit :
@@ -660,7 +603,7 @@ il y a 36 minutes, mike a dit :
 Auteur: Virgile
 Message:
 Non mais vous etes sérieux ou quoi?  Quel est la démarche scientifique qui fait que des sols surchauffés et secs changeraient des conditions synoptiques à grande échelle dans la haute atmosphère?? On nous fait déjà le coup en hiver dans le passé avec un sol froid gelé, enneigé empêchant toute perturbation océanique d'arriver alors que c'est parfois balayé en 24 heures. Cette histoire de blocage ne se joue pas au sol mais dans l'atmosphère. Maintenant, est ce que des sols chauffés et très secs amplifient de quelques je dis bien de quelques degrés localement la température au sol, surement mais c'est comme en hiver dans l'autre sens.
-								5
+								7
 								1
 								3
 								1
@@ -702,8 +645,8 @@ il y a une heure, Girondin33 a dit :
 			Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
 			Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
 	Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-								12
-								9
+								14
+								10
 
 =======================
 
@@ -725,7 +668,7 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 2 heures par Virgile
+	Modifié il y a 4 heures par Virgile
 
 =======================
 
@@ -757,7 +700,7 @@ Auteur: bernardt60
 Message:
 Bon maintenant on passe aux prévisions !
 								3
-								5
+								6
 
 =======================
 
@@ -766,15 +709,132 @@ Message:
 GFS maintient que l'épisode de très forte chaleur s'évacuera entre jeudi et vendredi.
 	Attention, il ne s'agira pas de fraicheur, surtout dans l'extrême sud mais entre mercredi et vendredi, on devrait perdre 6 à 8° à 850HPA dans le Sud.
 	Les nuits devraient devenir plus supportables.
-								2
+								3
 								1
 
 =======================
 
 Auteur: tao
 Message:
-Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de passer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
+Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-								6
+	Modifié il y a 1 heure par tao
+								7
 								1
+
+=======================
+
+Auteur: _sb
+Message:
+Il y a 5 heures, mathias a dit :
+			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+		Il y a 2 heures, Sebaas a dit :
+			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
+	Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
+	Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
+	Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
+	Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
+	- oui
+	La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
+	L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
+	- oui
+	Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
+	- oui
+	j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
+	Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
+	Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
+	La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
+	https://www.nature.com/articles/s41612-025-01294-4
+	https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
+	https://academic.oup.com/oocc/article/5/1/kgae023/8005865
+	https://doi.org/10.1175/JCLI4288.1
+	https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
+	https://www.nature.com/articles/s41612-024-00831-x
+	https://www.science.org/doi/10.1126/sciadv.adr7320
+	etc
+	EDIT :
+	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
+	Modifié il y a 1 heure par _sb
+								3
+								5
+
+=======================
+
+Auteur: Sebaas
+Message:
+il y a 11 minutes, _sb a dit :
+			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
+	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
+								2
+
+=======================
+
+Auteur: _sb
+Message:
+il y a 52 minutes, _sb a dit :
+			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
+	Faudrait peut-être lire ...
+	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
+	Modifié il y a 48 minutes par _sb
+
+=======================
+
+Auteur: faycal
+Message:
+Il y a 3 heures, Sebaas a dit :
+			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
+	Mettre le mot "non" en gras n'est pas un argument scientifique...
+	Blague à part, je pense que la réponse est beaucoup plus complexe qu'elle n'y parait, c'est un sujet actif de recherche académique. Donc je doute pouvoir trouver la réponse sur le forum LT info climat entre deux cartes GFS à +300h.
+
+=======================
+
+Auteur: greg13
+Message:
+La semaine à venir sera un cran moins chaude avec malgré tout une certaine récurrence de la chaleur encore dans le Sud-Est.
+	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
+	2 minutes par semaine... pour faire sensation sur le forum !  
+	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
+	Modifié il y a 52 minutes par greg13
+
+=======================
+
+Auteur: lapin61
+Message:
+7 hours ago, Virgile said:
+			Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
+	Bonjour Virgile, une question d’un Béotien, car ce que vous observez m’interroge. 
+	J’imagine, que les algorithmes, ou les équations / calculs, liés à un modèle spécifique sont mises à jour régulièrementou recalibrés -  par les différents organismes gérant le modele concerné ? fréquence régulière ? Quelqu’un aurait ce type d'info, pour par exemple le modèle européen ?
+	Théoriquement l’observation de ce biais que vous observez, récurrence qui tend à sous estimer la résistance des ceintures subtropicales sur l’ouest de l’Europe -bien qu’exacerbé cette année , est bien quelque  chose que nous avons pu observer les années précèdentes ?  
+	Pour autant , la gestion de cette résistance des ceintures subtropicale, semble encore trés perfectible,  par les modèles - sur ce que l’on a pu observer depuis  le mois de mai…
+	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
+	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
+	Merci par avance
+	Modifié il y a 44 minutes par lapin61
+Correction orthographe
+
+=======================
+
+Auteur: meteo noobs
+Message:
+Pour les modèles AI je ne pense pas pour l'heure qu'ils soient aussi performants qu'on le souhaiterait.
+	Pour vous avouer je ne les regarde jamais. Non pas que je sois hermétique à cette mode bien au contraire j'utilise largement l'IA.
+	Cependant il faut quand même prendre en compte que ce sont des modèles qui ont été entraîné ils vont donc reproduire les biais de leurs sources et mettront du temps à se calibrer eux même quand ils dépasseront leur sourcing.
+	Après on gagne en puissance de calcul mais j'ai pas l'impression tout du moins cet été qu'ils ont mis dans le mille souvent. A voir. Je peux me tromper. 
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2 ensembles disponibles à cette heure (GFS et GEM) pour Montpellier dans le sud-est et les déterministes ICON et UKMO qui ne vont pas trop loin car il y a beaucoup d'incertitudes après. 
+	Les moyennes  vont toujours dans le sens d'un rafraîchissement atteignant le sud-est mais seulement à partir de vendredi. 
+	Le fait que ces 2 ensembles modélisent une baisse quand-même notable dans le sud-est donne un certain poids au scénario. 
+	GEFS Montpellier :
+	GEM Montpellier :
+	Ensuite si on regarde les déterministes ICON et UKMO pour vendredi 14h on constate que la synoptique changerait de manière sensible pour les 2 modèles mais avec des scénarios différents : pour  ICON un anticyclone décalé a l'ouest et donc bien placé sur l'atlantique pour permettre enfin à de l'air plus frais en provenance du nord-ouest d'atteindre le nord du pays et l'évacuation de l'air très chaud dans le sud.
+	UKMO nous propose lui un anticyclone plus décalé a l'ouest ce qui ne permettrait pas un apport d'air aussi "frais" que le modèle allemand. 
+	Dans le sud-est, le décalage à l'ouest des centres d'action, pourrait favoriser la résistance de l'air torride. 
+	ICON :
+	UKMO :
+	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
