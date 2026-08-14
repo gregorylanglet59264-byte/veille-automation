@@ -346,11 +346,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
-• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
-• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
+• Infoclimat Direct : Installation ecowitt
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
+• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 14/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -358,49 +358,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 14 Août 2026.
-Résumé général précédent : Sur l'ensemble des deux semaines, la chaleur reste présente au moins jusqu'au 19 août, avec un pic de chaleur possible au sud mardi/mercredi. Ensuite, une baisse des températures est attendue, plus ou moins marquée, avec une possible dégradation pluvio-orageuse en fin de semaine 1 et dans la semaine 2. La dernière décade d'août pourrait voir un changement de synoptique, mais avec une grande incertitude..
+Résumé général précédent : Sur l'ensemble des deux semaines, la chaleur exceptionnelle devrait progressivement perdre du terrain, mais avec un calendrier très incertain. La semaine 1 verrait encore de fortes chaleurs jusqu'à mercredi, suivies d'une dégradation orageuse. La semaine 2 reste très indéterminée, avec une possible poursuite de la baisse et des températures plus proches des normales, surtout au nord..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Fortes chaleurs jusqu'à mercredi, orages possibles à partir de jeudi, surtout au sud et au centre-est..
+Températures attendues précédemment : Chaleur persistante puis orages ; fortes chaleurs en début de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-il y a 26 minutes, meteo noobs a dit :
-			C'est moi ou c'est très laborieux sur les modèles? 
-	Oui effectivement les modèles pataugent un peu et pas forcément à très long terme.
-	Je vais prendre comme exemple UKMO pour  jeudi à 0 heures avec ce matin la canicule qui résiste très bien dans la moitié sud de la France et des fortes chaleurs même dans une partie du nord.
-	La moyenne à 850hpa reste à 20 degrés en dessous d'une ligne Bordeaux Dijon. 
-	UKMO 0Z :
-	Puis ce soir la canicule quitte le pays avec même une certaine fraîcheur sur le nord-ouest :
-	UKMO 12 Z:
-	Illustration par la synoptique avec ce matin des centres d'action qui bougent très peu avec des géopotentiels qui restent élevés sur notre pays :
-	UMMO OZ :
-	Et ce soir changement de programme avec des hautes pressions qui se décalent vers l'ouest tout en prenant une composante plus méridienne en générant un flux de nord-ouest sur une partie du pays avec des géopotentiels en baisse sur la France par le nord.
-	UKMO 12Z :
-	Comme quoi rien n'est joué sur l'amplitude du changement à 7 jours d'échéance.
-	Alors changement laborieux voire inexistant dans le sud ou baisse conséquente des températures sur la France avec possibilité de pluie ?
-	Je mettrais plutôt une pièce sur la deuxième hypothèse mais en restant prudent pour le sud.
-								3
-								1
-
-=======================
-
-Auteur: meteo noobs
-Message:
-il y a 1 minute, Sawano a dit :
-			Ce soir les déterministes GFS et CEP sont d'accord pour un pic de chaleur en milieu de semaine. Une hausse déjà entrevue précédemment mais beaucoup moins importante. Heureusement GFS n'est pas suivi par son ensembliste. A suivre quand même..;
-	Exactement
-	Et le père CEP suit ! 
-	On passe de la situation 
-	Week end du 15 dégradation et topic sous les normales à 
-	Week end avec dégradation mais persistance d'un temps chaud puis pic et re dégradation jeudi pour CEP vendredi piur GFS 
-	Faut plus être previsioniste mais chamane...
-								1
-								1
-
-=======================
-
 Auteur: Krholam
 Message:
 Après y’a quand même des signes positifs. Ça fait du bien de voir le recul de la grosse tache rouge.
@@ -431,7 +394,7 @@ Ce qu'on peut déjà observer ce soir à la lecture des ensembles GEFS et GEM c'
 	Toulouse  GEFS et GEM:
 	Donc oui nouvelle hausse assez sensible des températures dans le sud mais pour mardi et mercredi essentiellement puis ça baisse à nouveau après donc cela ne semble pas pour le moment alarmant. 
 	Ce qu'il faut aussi c'est des précipitations et UKMO en voit mais malheureusement très peu dans le nord et le nord-ouest :
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 								3
 								2
 
@@ -443,7 +406,8 @@ Message:
 	Sur ce point CEP est bien  généreux aussi en terme de PP. 
 	Même un peu trop je trouve sur certaines régions tout en sachant que la majorité serait sur jeudi ca fait de beaux cumuls sur centre est/ sud
 	Comme sur UKMO une bande sur le Nord serait oubliée 
-	Modifié il y a 15 heures par meteo noobs
+	Modifié il y a 17 heures par meteo noobs
+								1
 								1
 
 =======================
@@ -505,8 +469,8 @@ Il y a 2 heures, mathias a dit :
 	Compte tenu des anomalies positives des SST en Atlantique et en Méditerranée, n’importe que flux donnera globalement ces mêmes anomalies sur nos mers et océans.
 	Ça correspond à ce que je disais il y a quelques jours, assez dingue de voir qu’un flux d’ouest maritime nous donne des Tn proches voire supérieures à 20° sur les départements côtiers à minima. Le climat de nos côtes atlantiques françaises est presque devenu le climat méditerranéen en terme de températures minimales tellement l’océan est surchauffé. 
 	Mes craintes exposées il y a 2-3 jours semblent moins justifiées aujourd’hui pour les 3/4 du pays. On a quand même des choses encourageantes même si un nouveau pic de chaleur semble probable en milieu de semaine. Globalement, la pression du courant océanique semble opérée sur l’AA et pourrait nous atteindre partiellement voire + si affinité. 
-	Modifié il y a 13 heures par Run999H
-								5
+	Modifié il y a 15 heures par Run999H
+								6
 
 =======================
 
@@ -516,7 +480,7 @@ Je me permets même si c'est un déterministe jusqu'à 240h mais ca redonne du b
 	GFS dans son 18z nous sort une masterclass pour tout le territoire et écrase les HP libérant enfin la france et enfin la place forte au Sud qui a tant pris ces dernières semaines.
 	A noter que ce run propose des PP tous les jours plus ou moins abondantes à compter de mercredi ce qui permettrait un peu aux sols d'absorber l'eau. Des ruissellements seraient malheureusement inévitables certains jours selon régions et PP journalières.
 	Nos amis bretons resteraient un peu plus au sec.
-	Modifié il y a 9 heures par meteo noobs
+	Modifié il y a 11 heures par meteo noobs
 								3
 								1
 
@@ -549,7 +513,7 @@ L'emprise de ces vagues de chaleur successives sur le sud du pays est très fort
 	La baisse est toujours visible pour les derniers jours du topic mais c'est encore loin et non consolidé. 
 	L'ensemble CEP pour Marseille ilustre tout à fait cette incertitude dans le sud-est qui est particulièrement concerné cet été par les canicules interminables avec une moyenne proche de 20 degrés à 850 Hpa et beaucoup de courbes même supérieures à 2O degrés:
 	A suivre ....
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
 								1
 								1
@@ -561,7 +525,7 @@ Auteur: waingro
 Message:
 Bon bon bon il reste pas mal de scénarios de thalweg assez incisif sur le pays pour le milieu de semaine prochaine.. on verra ce qu'il en reste à mesure qu'on s'approche mais tout n'est pas perdu, il y a quelques possibilités pluvieuses notamment pour le quart sud-est avec des épisodes méditerranéens.
 	panel GEFS pour jeudi 20
-	Modifié il y a 2 heures par waingro
+	Modifié il y a 4 heures par waingro
 								1
 
 =======================
@@ -597,7 +561,7 @@ On gagne encore 24 heures pour la vague de chaleur avec une journée supplément
 	aujourd'hui:
 	Lundi, puis mardi, puis mercredi, puis jeudi et maintenant vendredi. Je ris jaune.
 								2
-								5
+								6
 								3
 
 =======================
@@ -606,9 +570,9 @@ Auteur: Virgile
 Message:
 Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
 	Mais quel été de fraicheur!!!
+								4
 								2
-								1
-								1
+								2
 
 =======================
 
@@ -620,47 +584,27 @@ Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux co
 	L'évolution de fond à échelle de notre quadrant euro-atlantique / hémisphérique est à la poursuite de la récurrence estivale : HG et BG hauts en latitudes. Ceux-ci descendraient lentement vers le sud, avec l'avancée dans la saison (Soleil plus bas, bilan radiatif en baisse progressive). Les éléments de petites échelles font office de forçages et perturbent ce schéma.
 	Comme en hiver, où une toute petite dépression mal définie amène un peu d'air chaud qui déloge et annule toute une grosse coulée froide (je n'entrerai pas dans le débat où c'est toujours l'air chaud qui gagne, ça n'apporte rien pour moi à l'analyse).
 	La prévisibilité est donc structurellement mauvaise, pas étonnant que la prévision run/run change fréquemment.
-	Modifié il y a 16 minutes par _sb
+	Modifié il y a 2 heures par _sb
+								9
 								3
+
+=======================
+
+Auteur: mathias
+Message:
+Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+	Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ?
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a 1 minute, mathias a dit :
+			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+	Pour ma part, non.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-il y a 26 minutes, meteo noobs a dit :
-			C'est moi ou c'est très laborieux sur les modèles? 
-	Oui effectivement les modèles pataugent un peu et pas forcément à très long terme.
-	Je vais prendre comme exemple UKMO pour  jeudi à 0 heures avec ce matin la canicule qui résiste très bien dans la moitié sud de la France et des fortes chaleurs même dans une partie du nord.
-	La moyenne à 850hpa reste à 20 degrés en dessous d'une ligne Bordeaux Dijon. 
-	UKMO 0Z :
-	Puis ce soir la canicule quitte le pays avec même une certaine fraîcheur sur le nord-ouest :
-	UKMO 12 Z:
-	Illustration par la synoptique avec ce matin des centres d'action qui bougent très peu avec des géopotentiels qui restent élevés sur notre pays :
-	UMMO OZ :
-	Et ce soir changement de programme avec des hautes pressions qui se décalent vers l'ouest tout en prenant une composante plus méridienne en générant un flux de nord-ouest sur une partie du pays avec des géopotentiels en baisse sur la France par le nord.
-	UKMO 12Z :
-	Comme quoi rien n'est joué sur l'amplitude du changement à 7 jours d'échéance.
-	Alors changement laborieux voire inexistant dans le sud ou baisse conséquente des températures sur la France avec possibilité de pluie ?
-	Je mettrais plutôt une pièce sur la deuxième hypothèse mais en restant prudent pour le sud.
-								3
-								1
-
-=======================
-
-Auteur: meteo noobs
-Message:
-il y a 1 minute, Sawano a dit :
-			Ce soir les déterministes GFS et CEP sont d'accord pour un pic de chaleur en milieu de semaine. Une hausse déjà entrevue précédemment mais beaucoup moins importante. Heureusement GFS n'est pas suivi par son ensembliste. A suivre quand même..;
-	Exactement
-	Et le père CEP suit ! 
-	On passe de la situation 
-	Week end du 15 dégradation et topic sous les normales à 
-	Week end avec dégradation mais persistance d'un temps chaud puis pic et re dégradation jeudi pour CEP vendredi piur GFS 
-	Faut plus être previsioniste mais chamane...
-								1
-								1
-
-=======================
-
 Auteur: Krholam
 Message:
 Après y’a quand même des signes positifs. Ça fait du bien de voir le recul de la grosse tache rouge.
@@ -691,7 +635,7 @@ Ce qu'on peut déjà observer ce soir à la lecture des ensembles GEFS et GEM c'
 	Toulouse  GEFS et GEM:
 	Donc oui nouvelle hausse assez sensible des températures dans le sud mais pour mardi et mercredi essentiellement puis ça baisse à nouveau après donc cela ne semble pas pour le moment alarmant. 
 	Ce qu'il faut aussi c'est des précipitations et UKMO en voit mais malheureusement très peu dans le nord et le nord-ouest :
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 								3
 								2
 
@@ -703,7 +647,8 @@ Message:
 	Sur ce point CEP est bien  généreux aussi en terme de PP. 
 	Même un peu trop je trouve sur certaines régions tout en sachant que la majorité serait sur jeudi ca fait de beaux cumuls sur centre est/ sud
 	Comme sur UKMO une bande sur le Nord serait oubliée 
-	Modifié il y a 15 heures par meteo noobs
+	Modifié il y a 17 heures par meteo noobs
+								1
 								1
 
 =======================
@@ -765,8 +710,8 @@ Il y a 2 heures, mathias a dit :
 	Compte tenu des anomalies positives des SST en Atlantique et en Méditerranée, n’importe que flux donnera globalement ces mêmes anomalies sur nos mers et océans.
 	Ça correspond à ce que je disais il y a quelques jours, assez dingue de voir qu’un flux d’ouest maritime nous donne des Tn proches voire supérieures à 20° sur les départements côtiers à minima. Le climat de nos côtes atlantiques françaises est presque devenu le climat méditerranéen en terme de températures minimales tellement l’océan est surchauffé. 
 	Mes craintes exposées il y a 2-3 jours semblent moins justifiées aujourd’hui pour les 3/4 du pays. On a quand même des choses encourageantes même si un nouveau pic de chaleur semble probable en milieu de semaine. Globalement, la pression du courant océanique semble opérée sur l’AA et pourrait nous atteindre partiellement voire + si affinité. 
-	Modifié il y a 13 heures par Run999H
-								5
+	Modifié il y a 15 heures par Run999H
+								6
 
 =======================
 
@@ -776,7 +721,7 @@ Je me permets même si c'est un déterministe jusqu'à 240h mais ca redonne du b
 	GFS dans son 18z nous sort une masterclass pour tout le territoire et écrase les HP libérant enfin la france et enfin la place forte au Sud qui a tant pris ces dernières semaines.
 	A noter que ce run propose des PP tous les jours plus ou moins abondantes à compter de mercredi ce qui permettrait un peu aux sols d'absorber l'eau. Des ruissellements seraient malheureusement inévitables certains jours selon régions et PP journalières.
 	Nos amis bretons resteraient un peu plus au sec.
-	Modifié il y a 9 heures par meteo noobs
+	Modifié il y a 11 heures par meteo noobs
 								3
 								1
 
@@ -809,7 +754,7 @@ L'emprise de ces vagues de chaleur successives sur le sud du pays est très fort
 	La baisse est toujours visible pour les derniers jours du topic mais c'est encore loin et non consolidé. 
 	L'ensemble CEP pour Marseille ilustre tout à fait cette incertitude dans le sud-est qui est particulièrement concerné cet été par les canicules interminables avec une moyenne proche de 20 degrés à 850 Hpa et beaucoup de courbes même supérieures à 2O degrés:
 	A suivre ....
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
 								1
 								1
@@ -821,7 +766,7 @@ Auteur: waingro
 Message:
 Bon bon bon il reste pas mal de scénarios de thalweg assez incisif sur le pays pour le milieu de semaine prochaine.. on verra ce qu'il en reste à mesure qu'on s'approche mais tout n'est pas perdu, il y a quelques possibilités pluvieuses notamment pour le quart sud-est avec des épisodes méditerranéens.
 	panel GEFS pour jeudi 20
-	Modifié il y a 2 heures par waingro
+	Modifié il y a 4 heures par waingro
 								1
 
 =======================
@@ -857,7 +802,7 @@ On gagne encore 24 heures pour la vague de chaleur avec une journée supplément
 	aujourd'hui:
 	Lundi, puis mardi, puis mercredi, puis jeudi et maintenant vendredi. Je ris jaune.
 								2
-								5
+								6
 								3
 
 =======================
@@ -866,9 +811,9 @@ Auteur: Virgile
 Message:
 Les hauts géopotentiels et la chaleur associée est bien installée sur l'europe du sud.  Et je ne comprends pas comment les modèles numériques "s'imaginent" que la fraicheur associée et les basses pressions puissent déloger aussi facilement tout ceci. Évidemment, plus l'échéance approche, plus la réalité les rattrapent en ajustant constamment. Et c'est depuis le début de l'été et pas que sur GFS:
 	Mais quel été de fraicheur!!!
+								4
 								2
-								1
-								1
+								2
 
 =======================
 
@@ -880,5 +825,22 @@ Une sensibilité est apparue ces derniers jours sur les simulations. Soit aux co
 	L'évolution de fond à échelle de notre quadrant euro-atlantique / hémisphérique est à la poursuite de la récurrence estivale : HG et BG hauts en latitudes. Ceux-ci descendraient lentement vers le sud, avec l'avancée dans la saison (Soleil plus bas, bilan radiatif en baisse progressive). Les éléments de petites échelles font office de forçages et perturbent ce schéma.
 	Comme en hiver, où une toute petite dépression mal définie amène un peu d'air chaud qui déloge et annule toute une grosse coulée froide (je n'entrerai pas dans le débat où c'est toujours l'air chaud qui gagne, ça n'apporte rien pour moi à l'analyse).
 	La prévisibilité est donc structurellement mauvaise, pas étonnant que la prévision run/run change fréquemment.
-	Modifié il y a 17 minutes par _sb
+	Modifié il y a 2 heures par _sb
+								9
 								3
+
+=======================
+
+Auteur: mathias
+Message:
+Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+	Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ?
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a 1 minute, mathias a dit :
+			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
+	Pour ma part, non.
