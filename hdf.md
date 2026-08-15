@@ -1,124 +1,121 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Samedi 15 Août 2026
-**Période :** Semaine 1 (Période exacte semaine 1 : Du lundi 17 au dimanche 23 août 2026 — Semaine 34 (sujet forum Infoclimat : 17/08 → 23/08)) & Semaine 2 (2026-08-24 → 2026-08-30 (Semaine 35)
-
-⚠️ Sujet officiel Semaine 35 non ouvert sur le forum au 15/08/2026. L’analyse s’inspire des textes à longue échéance du sujet S34 + des dernières sortes de modèles écarts. À regarder davantage.)
+**Période :** Semaine 1 (Du lundi 17 au dimanche 23 août 2026) & Semaine 2 (Du lundi 24 au dimanche 30 août 2026
+⚠️ Sujet spécifique S35 non ouvert sur Infoclimat ; analyse basée sur les projections long terme du sujet S34.)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Grand consensus sur la fin de canicel ; bon accord sur les nettes dégradés; moins de quasiment sur CDP.*
-- **Fiabilité du scénario majoritaire :** Océanique / atlantique — *Le décalage de l'axe chaud vers le sud est bien plaidé par presque tous les écarts grandes.*
+- **Consensus des modèles :** Modéré — *Accord sur le rafraîchissement, désaccord sur les détails (UKMO/ICON).*
+- **Fiabilité du scénario majoritaire :** Rafraîchissement en dents de scie — *Fin de la canicule, pas de retour de la chaleur intense à 15 jours.*
 - **Stabilité des cartes/scénarios :** 6 / 158 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Forte sur les pluies — *April at Jersey: pour avenir of precipitations.*
+- **Niveau d'incertitude global :** Forte pour la semaine 2 — *Sujet non ouvert ; projections long terme à confirmer.*
 
-## 🗓️ SEMAINE 1 : Période exacte semaine 1 : Du lundi 17 au dimanche 23 août 2026 — Semaine 34 (sujet forum Infoclimat : 17/08 → 23/08)
+## 🗓️ SEMAINE 1 : Du lundi 17 au dimanche 23 août 2026
 ### 💡 Points clés de la semaine 1
-1. Forte chaleur en recul : Encore 25 à 30°C lundi-mardi, puis 22 à 24°C de mercredi au dimanche sur les Hauts-de-France.
-2. Fin attendue du niveau canicule : Après un passage en vigilance orange dans l’Oise et l’Aisne, la dégradation par l’ouest devrait rabattre la chaleur mardi-mercredi.
-3. Premières averses océaniques : Le Nord-Pas-de-Calais et la Picardie pourraient enfin recevoir des précipitations significatives, après 1 mois et demi presque sans pluie.
-4. Vent d’ouest sensible : À partir de mercredi, des rafales de 50 à 65 km/h localement possibles sur le littoral et l’Avesnois où des orages rapides seront à prévoir.
-5. Instabilité contagieuse en fin de période : Dimanche 23, risque de pluie ou d’averses encore actif sur l’ensemble des 5 départements, avec températures bloquées autour de 23-25°C.
+1. Canicule en reflux : La chaleur bascule après mardi, place à un temps plus frais sur les Hauts-de-France.
+2. Thalweg décisif : Une goutte froide s’enfonce mercredi, apportant un air nettement plus frais.
+3. Pluie attendue : Premières précipitations faibles depuis six semaines possibles sur le Nord/Pas-de-Calais.
+4. Mercredi bascule : Les maximales chutent sous 25°C après un lundi/mardi encore chaud.
+5. Vent d’ouest : Rafales jusqu’à 55 km/h attendues mardi sur le littoral, surtout Flandre maritime et Côte d’Opale.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-• Un poids dit : « on perd au moins 5 à 8 °C par apport à dimanche 16, et la fibre chaleur de cancule s’enraye défase-là jeudi.
-• Le flux table mt d’Ouest/S-Ouest avec un passage de basses presses atlantiques : averses, vent littoral, certaines au “laite”.
-• Les cinq départements HDF ne sont plus concernés par la vigilance canule sauf l’Oise ou l’Aisne dimanche sur le dernier épisode.
+1. Rafraîchissement net sur la moitié nord en fin de semaine.
+2. Averses possibles, surtout mercredi/jeudi, après un lundi/mardi encore chaud.
+3. Vent d’ouest modéré à assez fort sur le littoral mardi.
 **Points de divergence :**
-- Net temp rapprochement sur l’intensité de l’air : UKMO = air frais moins marqué ; ICON/GEM = air nettement juref.
-- La position exacte de la économie dans l’Artois ou le Santerre auraB, pour les avers du 19-20.
-- Le « point » de bascule : les bulletins M tamisées la Baie de Picardie le 22, tandis que les ensembles du sur la pluie du 23 ; l’aide est ici encore incertaine.
+1. Ampleur du rafraîchissement selon UKMO vs ICON.
+2. Précipitations : faibles ou plus notables sur le NPDC ?
+3. Timing exact de la bascule (mercredi ou jeudi).
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP (ensemble + déterministe)** (Scénario privilégié.) | Bascule durable vers un flux atlantique : l’air chaud est « poussé » vers le sud, et les Hauts-de-France perdent 5 à 8°C entre mardi et jeudi. | Elles et passages nuageux d’abord, averses temporaires mercredi/jeudi ; éclaircies dominant samedi avec encore une possible aversse. | NPDC, Aisne, Oise, Somme ; plus localement le littoral dunkerquois et le bassin minier. | Modérée (60-70%) : l’ensemble CEP est cité pour la France et la moitié nord, sans commentaire départemental HDF précis. | Des geotasse atlantique et un creux de géo poten France arctique s’isolent vers le nord-ouest européen. Pour HDF, les temp ressemblent de manière franchement en à partir de jeudi. |
-| **GFS / GEFS (déterminism et ensemble américain)** (Scénario fortement convergent avec le CEP.) | Rafraîchissement marqué sans excès : les températions passent sous les moy-holeur de saison ; l’hypothèse d’une goutte froide atlantique est plus active que le CEP. | Vent extinction d’Ouest/NO plus sensible, averses irrégulières, mais pas de excès pluies pour l’instant. | Nord, Pas-de-Calais, littoral de la Somme surtout ; plus épargné l’Oise intérieure en début de semaine. | Modérée (60-70%) : GFS est cité pourfham le ting du changement, peu spécifique HDF. | La dépression atlantique est plus compacte et se positionne favoris pour les surtout les Flandres ; les rafales sont sous-éatures, mais le refroidissement est digne de foi. |
-| **GEM (canadien)** (Important à surveiller pour confirmer le 2nd semain.) | Mise en place d’une dorsale atlantique et bass de géopents sur l’Europe du Nord + abaissement de la frégée subtropicale : l’air frais se rapproche des HDF. | À confirmer, plutôt un retour des éclaircies entre2 perturbations discrètes, vent d’ouest-sud-ouest modéré. | Picardie, limites Nord-Parisis, Pas-de-Calais et Nord littoraux. | Modérée (60-70%) : ressorti explicitement à longue échéance dans la discussion. | GEM est particulièrement intéressant car sa précédente échéance représente une zone de bas potentiels récurrent sur l’Europe du nord ; c'est le cureHDF rafraîchi. |
-| **UKMO** (Scénario alternatif à surveiller, ne remett pas en cause la fondamental refroidissement.) | Une variante moins « fraîche » que ICON: en réanalgée, l’anti-cyclene est plus à l’ouest, et l’air frais ne descend pas assez facilement vers les Hauts-de-France. | Flux d’ouest, restes nuageux, mais des Tx un peu moins basses que le CEP/GFS. | Zones plutôt côtières et du Nord-Ouest ; le picardi intérieur plus épargné. | Faible à modérée (40-50%) : commenté en très courtes lines, pas de bulletins pour HDF. | Le draconis UKMO est un peu moins incursif pour la baisse sur le nord ; si il venait à être validé, on gagnerait 1 à 2°C. |
-| **ICON** (Scénario consulté en complément.) | Si UKMO est plus d’imagine, ICON apporte un AX plus « municipal » : anticyclone décal technique sur l’Atlantique et de l’air frais du nord-ouest pour la France. | Sur HDF, il favorable au plus vite une baisse des températures, avec averses localisées. | Nord, Pas-de-Calais, Somme en priorité. | Faible (40-50%) : ICON est mentionné pour la synoptique générale et pas pour chaque département du nord. | ICON et UKMO divergent surtout sur la position de l’axe atlantique ; à fourchette, il entraîne plus un événement, le deux modèles « Alter » restent enn situation. |
-| **Météo-France (XML départemental / Arôme / Arpege)** (Référance officielle, « FIABLE » pour J+1 à J+4.) | Les bulletins officiels 59/62/80/60/02 : un début de semaine encore remarquablement chaud, puis un risque de pluie/aviers ne occur à 19, 20, 22 et 23. | Soleil voilé lundi mardi, pluie ou averses temporaire à partir de mercredi ; faire attention aux orages de coururisi langu sur. | Peut—ons  cinq départements du HDF, avec quelques différences : l’Estée de l’Alise plus chaud, le Littoral plus ventilé | Élevée (80-90%) : bullets XML détaillés par département, émis le 15/08 12h30. | Pas de hausse caniculaire musicale en L’Aisne/NDF : le refroidissement serait régulier, d’abord à l’ouer du 202ole, et sans rôle de fortes pluies. |
+| **ECMWF (CEP)** (En cours de confirmation) | Rafraîchissement progressif à partir de mercredi ; air frais gagne la France jeudi-vendredi ; pas de retour de la canicule. | Fraîcheur, averses possibles, vent d’ouest modéré. | France, notamment moitié nord ; Hauts-de-France concernés. | Modérée (60-70%) | L’ensemble CEP converge vers un éloignement des masses très chaudes. La chute des températures concerne aussi le nord, avec un thalweg qui s’enfonce sur la France en milieu de semaine. |
+| **GFS (GEFS)** (En accord avec le CEP) | Scénario proche du CEP : thalweg s’enfonçant sur la France, chaleur évacuée vers le sud-est, fraîcheur sur le nord. | Températures en baisse, averses possibles, vent d’ouest. | France ; HDF en première ligne pour le rafraîchissement. | Modérée (60-70%) | Le GEFS montre également une baisse notable des températures sur l’ensemble du pays d’ici vendredi. Pour les HDF, cela signifie un retour à des valeurs proches des normales. |
+| **GEM** (En cohérence avec CEP/GFS) | Dorsale atlantique et bas géopotentiels sur l’Europe du nord, abaissement de la ceinture subtropicale, fraîcheur en France. | Temps plus frais et plus instable sur le nord. | Europe du nord-ouest ; France, HDF. | Modérée (60-70%) | tao souligne que GEM et UKMO insistent sur une dorsale atlantique et une zone de bas géopotentiels sur l’Europe du nord. L’ensemble GEM confirme un rafraîchissement atteignant le sud-est d’ici vendredi. |
+| **UKMO** (Divergent de ICON sur l’ampleur du rafraîchissement) | Anticyclone décalé à l’ouest, apport d’air frais moins marqué que ICON sur le nord de la France. | Rafraîchissement moins net, chaleur résiduelle possible dans le sud-est. | France ; HDF en bordure nord. | Modérée (60-70%) | Selon petit âge glaciaire 11, UKMO propose un anticyclone plus décalé à l’ouest, ce qui limiterait l’arrivée d’air frais par rapport à ICON. À confirmer avec les prochains runs. |
+| **ICON** (Convergent avec GEM/CEP pour le rafraîchissement) | Anticyclone sur l’Atlantique, flux de nord-ouest, air frais atteignant le nord, chaleur évacuée vers le sud. | Net rafraîchissement, températures proches des normales. | Nord de la France, HDF. | Modérée (60-70%) | Le modèle allemand propose une évacuation de l’air très chaud vers le sud, avec un flux de nord-ouest sur la France. Scénario le plus franc pour un retour à la fraîcheur sur les HDF. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
-| **Pas-de-Calais (62)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
-| **Somme (80)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
-| **Oise (60)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
-| **Aisne (02)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Nord (59)** | Variable : voile nuageux lundi-mardi, averses mercredi à samedi, éclaircies dimanche | Min 12-17°C, Max 22-27°C (littoral plus frais) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Écarts littoral/intérieur, intensité des averses incertaine |
+| **Pas-de-Calais (62)** | Voile nuageux lundi-mardi, averses mercredi à samedi, éclaircies dimanche avec pluie possible sur l'ouest | Min 12-18°C, Max 21-27°C (côtes de la Manche plus fraîches) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Contraste littoral/intérieur, timing des averses |
+| **Somme (80)** | Voile nuageux lundi-mardi, averses mercredi à samedi, soleil généreux dimanche avec passages pluvieux localisés | Min 11-18°C, Max 21-29°C (littoral picard plus frais) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Pluies dimanche localisées, intensité du vent sur le littoral |
+| **Oise (60)** | Belle journée ensoleillée mardi, soleil entrecoupé et averses possibles mercredi-samedi, soleil généreux dimanche | Min 11-17°C, Max 22-30°C (pays de Bray plus frais) | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Chaleur maximale mardi, localisation des averses |
+| **Aisne (02)** | Soleil généreux lundi-mardi, éclaircies et averses possibles mercredi-samedi, soleil sans partage dimanche | Min 11-18°C, Max 22-30°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque orageux faible mais possible, cumuls incertains |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 17 et mardi 18 août** : Une éclaircie et encore très agréable, avec voile nuageux, local en aversation qui début de soirée ; douceur.
-- **Mercredi 19 et jeudi 20 août** : Bascule atlantique : air moins chaud, ciel parlementé, quelques graves et des Tx qui tombent parfois aux alentours de 22°C.
-- **Vendredi 21 et samedi 22 août** : Éclaircies assez larges, averse brève, température comme à normalisées, vent occidental allant un peu en mur le sud.
-- **Dimanche 23 août** : À nouveau un risque de pluie ou d’averses, peut-être plus organisé, avec un vent Sud-Ouest modéré et Tonsetrenf.
+- **Lundi 17 et mardi 18 août** : Encore chaud, voile nuageux, vent d’ouest se renforçant mardi.
+- **Mercredi 19 et jeudi 20 août** : Bascule : averses, nette baisse des températures.
+- **Vendredi 21 et samedi 22 août** : Averses et fraîcheur, maximales sous 24°C.
+- **Dimanche 23 août** : Amélioration, soleil, vent de nord-est modéré.
 
 **Points solides :**
-- La canicule n’atteindra plus les DG après le lundi 17 : les Tx seront régulièrement inférgenes à 25 °C.
-- Un changement : le vent d’ouest s’installe, et le sol plus cesser de bénéficier d'un apport d'humidité léger.
-- La semaine 1 restera peut pluvieuse, mais les sols reprendront un peu de gask fat.
+- Fin de la canicule sur les HDF après mardi.
+- Thalweg s’enfonçant mercredi, confirmé par plusieurs modèles.
+- Températures sous les normales en fin de semaine 1.
 
 **Points fragiles :**
-- L’hypothèse de la « fraîcheur » dépend de la dalle parkée de UKMO: si l'antycône barre la route au vrai ressenti, le HDF retombe au temps très doux à doré.
-- Le flux sud de la semaine ne produit pas forcément les averses attendues; le lit may justnu couvre 2-5 mm ce qui serait insuffisant.
-- Le dimanche de retour instable peut se renforcer ou bien s'évaporer, surtout si la collecte du besoin rentre dans le dandy.
+- Quantité de pluie : pourrait être faible.
+- Position exacte de la dorsale atlantique.
+- Timing précis de la bascule.
 
 **À surveiller (prochains runs) :**
-- Le CEP 12Z / 00Z du 16/17 août : position exact du Missouri et pression sur le bassin.
-- Les runs GEFS/ICON de dimanche-lundi : l'air frais descend bien ou pas vers la Picardie (échéance très sensible).
-- Le nouveau bulletin Météo-France de dimanche 16h : organiser la bascule des vigilances jaunes à vertes.
+À surveiller : runs GFS 18z/00z, CEP 00z/12z et UKMO 12z des 15-16 août ; ouverture du sujet S35.
 
 
-## 🗓️ SEMAINE 2 : 2026-08-24 → 2026-08-30 (Semaine 35)
-
-⚠️ Sujet officiel Semaine 35 non ouvert sur le forum au 15/08/2026. L’analyse s’inspire des textes à longue échéance du sujet S34 + des dernières sortes de modèles écarts. À regarder davantage.
+## 🗓️ SEMAINE 2 : Du lundi 24 au dimanche 30 août 2026
+⚠️ Sujet spécifique S35 non ouvert sur Infoclimat ; analyse basée sur les projections long terme du sujet S34.
 ### 💡 Points clés de la semaine 2
-1. Prolongation océanique : La plus plausible est la continuité du flux d’ouest/sud-ouest, soit un temps variable et encore frais.
-2. GFS vs CEP : Les projections de longue durée ont d’un côté unber, de l’autre nouvelle dorsale : la semaine 2 passe dans la zone de gel incertaine.
-3. Le 24 consolidé : Les dernières journées du M-France donnent lundi 24 similaire à dimanche 23 : risque pluie/averses, 23-25°C.
-4. Régime non-caniculaire : aucune remontée durable du dôme chaud n’est particulièrement attendue pour le nord ; la limite ge été stationne au sud.
-5. Averse vitale : ces précipitations éparses resteraient très bien pour une nature dite encore “asséchée”, malgré le vent.
+1. Sujet non ouvert : Aucune discussion dédiée en ligne ; seules les tendances long terme sont disponibles.
+2. Fraîcheur durable : Les ensembles CEP/GFS voient un temps proche des normales, sans retour caniculaire.
+3. Incertitudes fortes : Position de la dorsale atlantique et précipitations restent à confirmer.
+4. Début de semaine calme : Lundi 24, soleil généreux sur la plupart des HDF, pluie possible localement.
+5. Prudence requise : Les scénarios long terme ne doivent pas être sur-interprétés.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Le heide, retour à des temp 20-24-25 ; noé normal (écart faible).
-- Risques de “pluie ou averses” identifiés par : champs d'ouest moderé side 21-34.
-- Tendance à faire CSE pas un retard canartial.
+1. Les projections long terme s’accordent sur une fraîcheur relative.
+2. Pas de signal caniculaire majeur à 15 jours.
 **Points de divergence :**
-- Récurrence rasante de la dorsale vs goutteur froid. - L'importance de après (beaucoup de minysis à R-6).
-- le littoral, roots. “Zones” de la Baie de Somme, peut-être méréraine.
+1. Détails synoptiques (dorsale, thalweg) incertains.
+2. Risque de précipitations non chiffré.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP (ens moyen)** (Majoritaire) | Un scénario de installa de thalrf ouest est encore un peu plus marqué le 26-28 ; pressions s’échouant sur une crède atlantique. |  | L'ensemble HDF est concerné, avec le littoral plus exposé). | Faible (40-50%) (projection à long hecteur du sujet Souleur : non commenté par la liste). | Ssole continue qui pourrait être plus doux: elles un retour des hautes plaque l'ouest 27(e), mais la prévisibilité est faible (E_F=8-10%). |
-| **GFS / GFS (déterministe)** (Majoritaire) | Le GFS montre parfois une belle goutte sur l'Océan ou le Ferrant, pluie sur HDF plus régulière, puis un temps plus calé pour le weekend du 29-30. |  | Nord/Pas-de-Calais ; Picardie moins en pic.[/mod. | “Faible (40-50%)”” | Attention: GFS et AIGFS proposent parfois encore “très bas” possibilité d’un antifrost? |
+| **ECMWF (CEP)** (Non confirmé, sujet S35 non ouvert.) | Éloignement durable des masses très chaudes, températures proches des normales, incertitude forte. | Temps frais et variable, averses possibles, vent modéré d’ouest. | France, notamment moitié nord ; HDF concernés. | Faible (40-50%) | Le sujet S35 n’étant pas ouvert, cette projection est issue des discussions de la semaine 34. L’ensemble CEP voyait un rafraîchissement atteignant toute la France en fin de semaine, pouvant se prolonger la semaine suivante. |
+| **GFS (GEFS)** (Non confirmé.) | Maintien d’un thalweg sur l’Europe de l’Ouest, pas de retour de la canicule. | Alternance d’éclaircies et d’averses, températures de saison. | France ; HDF. | Faible (40-50%) | Mêmes réserves que pour ECMWF. Le GEFS voyait une baisse notable des températures sur l’ensemble du pays en fin de semaine S34, prolongeable en S35. Ne pas sur-interpréter. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Pas-de-Calais (62)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Somme (80)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Oise (60)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Aisne (02)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Nord (59)** | Lundi 24 : éclaircies prédominantes en Flandre maritime avec pluie possible le matin, ailleurs largement ensoleillé. Ensuite, tendance à un temps plus frais et variable. | Lundi 24 : max 22-25°C ; ensuite tendance 12-16°C min, 20-24°C max | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Sujet S35 non ouvert ; scénarios long terme très incertains |
+| **Pas-de-Calais (62)** | Lundi 24 : risque de pluie de la plaine d'Arras au littoral, beau temps ailleurs. Ensuite, tendance indéterminée, probablement fraîche et variable. | Lundi 24 : max 21-24°C ; ensuite tendance 12-16°C min, 20-24°C max | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Sujet S35 non ouvert ; forte incertitude sur la seconde partie de semaine |
+| **Somme (80)** | Lundi 24 : temps pluvieux temporaire sur Vermandois, Vimeu, Ponthieu, Doullennais ; soleil généreux ailleurs. Ensuite, tendance variable et plus fraîche. | Lundi 24 : max 21-24°C ; ensuite tendance 11-15°C min, 20-24°C max | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation des pluies lundi ; évolution longue durée incertaine |
+| **Oise (60)** | Lundi 24 : pluie du Vexin au Beauvaisis le matin, soleil ailleurs. Ensuite, tendance à des éclaircies et averses passagères. | Lundi 24 : max 23-26°C ; ensuite tendance 11-15°C min, 21-25°C max | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Sujet S35 non ouvert ; scénarios long terme à confirmer |
+| **Aisne (02)** | Lundi 24 : soleil sans partage. Ensuite, tendance à un temps plus variable et plus frais, sans excès. | Lundi 24 : max 23-26°C ; ensuite tendance 11-15°C min, 21-25°C max | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Tendance générale fraîche mais détails très incertains |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Toute les labor fract. Use generic.** : …
-- **…** : …
-- **…** : …
-- **…** : …
+- **Lundi 24 août** : Temps issu de la semaine 1 : soleil ou pluie localisée selon les départements.
+- **Mardi 25 et mercredi 26 août** : Temps variable, incertain, probablement plus frais.
+- **Jeudi 27 et vendredi 28 août** : Possible dégradation ou simple passage nuageux, à confirmer.
+- **Samedi 29 et dimanche 30 août** : Indéterminé ; aucune information fiable à ce stade.
 
 **Points solides :**
-…
+- Aucun point solide : sujet S35 non ouvert.
+- Seule la fin de la canicule semble hautement probable.
+
+**Points fragiles :**
+- Tout le reste : précipitations, températures, vent.
+- Les projections long terme sont à considérer avec précaution.
 
 **À surveiller (prochains runs) :**
-- Sem2kit's subject opens on 17/18, so all to watch.
-- Engagement C00/12 15-16 stat.
-- Météo-France “prochains jours” J8-11 to validate si le flux ouest se maintent.
+Ouverture du sujet S35 en début de semaine ; runs long terme ECMWF/GFS des 16-17 août.
 
 
 ========================================
@@ -126,36 +123,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Drop superieure. Les HDF quittent la turbines catale brûlante après lundi 17 et bascule vers un temps doux, plus ouestates, moyennes en traîne, avec quelques averss. Le tout va se généraliser sur la tension : plus aucun gros pic de canicule pour le nord dans les 15 prochains cinq jours, un doux 20-25°C, des passages de vent, un peu de pluie à destabilisation, et de nombreuses éclaires restent.
+Canicule en net repli. Après un lundi/mardi encore chaud, un thalweg s’installe sur la France. Les HDF basculent vers un temps plus frais, plus instable, avec des températures proches des normales et le retour possible d’averses faibles. La semaine 2 reste très incertaine, faute de sujet dédié.
 
 ### Période la plus fiable
-La semaine 1 (17-23) est de loin la plus fiable : elle s'appuie sur les ensembles, les bulletins officiels département et l’intenseur plus cohérent. Les jours 24-30, plusplongés, restent experts et tout autre modèle #5 – 5 % confiance.
+Semaine 1 (17-23 août), car les prévisions détaillées Météo-France et les modèles convergent.
 
 ### Phénomènes récurrents
-- Fu, nuageux à vent, avers en mer d Ihk.
-- Dryamicale; sud de la HDF (Artois) orageux opps pres de arrivée, et de grade westwall se protège.
+Chaleur durable pendant l’été, sécheresse des sols, retour des perturbations atlantiques faibles.
 
 ### Principales incertitudes
-- Les précipitations peuvent manquer leur cible (all good).
--Une nouvelle dorsale chaudes et qui fait le vent vers 17°C.
-- La canrique en Sud-Est reste prolonged, et le contraste nord-Sud sévère.
+Intensité des précipitations, position exacte de la dorsale atlantique, évolution de la semaine 2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** L’incertitude principale est le « quasi-décis ) Mie-EC en mer de nord londrès jeudi h, tout fuse plus ou moins tranché entre 19 et 26. Si la grenouille est b, la semaine est un peu plus chaude quurementoutefois.
-- **Intensité :** Les averses risquent d’être brin brefes et surtout l’intérêt. Les accumulations restent évaluées entre 3 et 10 mm fortransat, moins d’un vrai retour de sol soutenu en maintenantin général.
-- **Informations manquantes :** - Aucune évolitude pour le sujet S2 à partir du 23; pour la suite, les métriques devront attendre l’ouverture du fil.
-- FAIRE : informé indisponible sur Hill, la taille de la buse actuels et la vrai précipitation attendue.
-- La nébulosité/selon paramètres est moins commenté que souvent le temp- de l'HDF.
-- **Modèles sous-documentés :** AIGFS, ARP/ARO, ICON-EU/36h : mentions dilues pour la région. AIGFS est un terrestre du potentiellement côtés, mais Evt non non númen éléve; pas de intervention pour la HDF par les credibility.
-- **Incertitudes images :** Les images d'anomalies de temp 850hTA ne sont pas acceptées ; le champ of risk des précipitations dépend essentielles du run “Basserch” côté CEP. La “Guidé noyes”.
+- **Timing/Chronologie :** Le passage exact du thalweg reste à préciser : mercredi ou jeudi selon les modèles. La fin de la semaine 2 est encore plus floue.
+- **Localisation :** Les averses pourraient se concentrer sur le littoral ou l’intérieur selon les runs. La localisation des pluies dimanche 23/lundi 24 varie fortement d’un département à l’autre.
+- **Intensité :** Les cumuls de pluie pourraient être très faibles ; le rafraîchissement pourrait être moins marqué si UKMO se confirme.
+- **Informations manquantes :** Absence de sujet S35 sur Infoclimat, donc pas de discussions détaillées pour la semaine 2. Pas d’indications précises sur le risque orageux pour la semaine 2.
+- **Modèles sous-documentés :** Modèles IA (AIGFS, etc.) seulement évoqués, sans scénario détaillé pour les HDF. GEM et UKMO peu détaillés pour le Nord.
+- **Incertitudes images :** Les cartes citées par les membres ne sont pas reprises ; seules les descriptions écrites sont exploitées. Les projections long terme de la semaine 2 doivent être considérées comme très incertaines.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-Chers amis des vocerages, ici la Nord de la France souffle enfin !
-Pas de forte chaleur pendant cinq jours : déjà les est à comparer 25-29-Cin, vendre 19 — le retour d'un flux océanique et d’une petite agence de pluie est attendu. Le rafraîchissement sera net entre lundi et jeudi.
-
-Prudence pour les trains : les orages encore présents lundi, vent fort dimanche puismercredi, et parfois l'averse. Plus de risque de gros de chaleur pour notre picardie et le Nord. Auto. Les maps = 22°C sont largement accessibles.
-
-#météo #HautsDeFrance #NordPasDeCalais #Picardie #rafraichissement #monHeurMeteo
+🌤️ Les Hauts-de-France sortent enfin de la fournaise ! Après un été caniculaire, un thalweg va faire chuter les températures dès mercredi. Retour des averses, vent d’ouest, mais aussi un vrai bol d’air frais. La semaine 2 reste incertaine, mais la tendance est claire : plus de canicule à 15 jours. #Météo #HautsdeFrance #canicule #Prévisions
