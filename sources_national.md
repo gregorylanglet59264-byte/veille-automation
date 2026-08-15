@@ -318,12 +318,12 @@ pluies importants en peu de temps.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Topic de l'humour
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Névé 9 massif du Jura: La Neigère 2022-23
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 15/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 15 Août 2026.
-Résumé général précédent : Fin de la canicule généralisée, avec un rafraîchissement net et durable à partir de mercredi 19 août. Les températures devraient revenir proches des normales, avec un risque d'averses et d'orages, notamment sur le sud-est..
+Résumé général précédent : Après un début de semaine jusqu’ estimé encore très chaud, une bascule plus classique se produit à partir du 19 août : l’air fraîchit, les orages deviennent un facteur d’ordre en première ligne, puis un régime plus sec tendu posséder l’ensemble du pays..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps plus frais et instable à partir de mercredi, averses possibles, températures en baisse nette..
+Températures attendues précédemment : Après-mercredi, baisse parfois nette des températures, averses possibles sur le nord et le sud-est..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
@@ -342,7 +342,7 @@ Message:
 il y a 11 minutes, _sb a dit :
 			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
 	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								3
+								4
 								4
 
 =======================
@@ -419,7 +419,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 20:01 par petit âge glaciaire 11
 								5
 								1
 								3
@@ -525,7 +525,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
 								14
 								3
 								1
@@ -593,6 +593,7 @@ il y a 44 minutes, pierrot_75 a dit :
 			ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
 	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
 Auteur: Sebaas
@@ -600,7 +601,7 @@ Message:
 il y a 11 minutes, _sb a dit :
 			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
 	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								3
+								4
 								4
 
 =======================
@@ -677,7 +678,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 20:01 par petit âge glaciaire 11
 								5
 								1
 								3
@@ -783,7 +784,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
 								14
 								3
 								1
@@ -851,3 +852,4 @@ il y a 44 minutes, pierrot_75 a dit :
 			ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
 	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
+								2
