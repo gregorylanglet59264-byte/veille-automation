@@ -1,6 +1,6 @@
-# REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE (Vendredi 14 Août 2026)
+# REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE (Samedi 15 Août 2026)
 
-Date actuelle de génération : Vendredi 14 Août 2026
+Date actuelle de génération : Samedi 15 Août 2026
 Saison en France : ÉTÉ
 
 PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
@@ -15,39 +15,39 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 14/08/2026 16:45
+Emis le : 15/08/2026 00:30
 
 Vigilance :
-Attention, aujourd'hui, le département du Nord est en vigilance jaune pour le phénomène canicule. Demain, il sera en vigilance jaune pour les phénomènes canicule et orages.
+Attention, aujourd'hui, le département du Nord est en vigilance jaune pour les phénomènes canicule et orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Lille-Lesquin : température de 38 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1015 hPa.
-A Dunkerque : température de 26 degrés, vent de secteur Nord soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 00h :
+A Lille-Lesquin : température de 27 degrés, vent de secteur Nord soufflant jusqu'à 20 km/h, pression niveau mer 1014 hPa.
+A Dunkerque : température de 22 degrés, vent de secteur Nord-Est soufflant jusqu'à 15 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-La nuit est largement dégagée, malgré quelques passages nuageux. En seconde partie de nuit, quelques nuages menaçants apparaissent. Des orages peuvent éclater avant le lever du jour, de l'agglomération lilloise au Valenciennois et au Cambrésis.
-En début de nuit, vent d'Est-Nord-Est, modéré en Flandre maritime ; tôt le matin, reprise du vent par endroits, avec orientation au Nord-Est.
-Températures minimales : entre 19 et 21 degrés. Ces températures se situent au-dessus des valeurs de saison, localement bien au-dessus.
+En soirée, de petites averses sont possibles en Flandre maritime ainsi que sur la région lilloise et le Douaisis. Elles cessent rapidement, mais en seconde partie de nuit, les nuages redeviennent menaçants, et de nouveau, des averses se produisent.
+Tôt le matin, vent s'établissant au Nord-Est modéré, en Flandre maritime.
+Températures minimales : comprises entre 19 et 21 degrés. Ces températures se situent au-dessus des valeurs de saison.
 
 • Pour demain samedi 15 en journée et la nuit suivante :
-La matinée est largement ensoleillée malgré quelques passages nuageux. Au fil des heures, si le ciel demeure le plus souvent lumineux, quelques nuages menaçants apparaissent. Des orages peuvent éclater avant la soirée, sur l'Avesnois, le Valenciennois et le Cambrésis. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
-Vent modéré, d'Est à Nord-Est puis Nord-Est.
-Températures maximales pour le jour : de la métropole lilloise à l'Avesnois de 32 à 33 degrés. De 25 à 28 degrés en Flandres. Ces températures se situent localement bien au-dessus des valeurs de saison.
+Les nuages alternent avec les éclaircies. Quelques gouttes peuvent se produire le matin, de la métropole lilloise à l'Avesnois. Pour la nuit : Les étoiles sont largement visibles. Juste avant l'aurore, elles sont toutefois masquées par des nuages, en Flandres.
+Vent de Nord puis Nord-Est, modéré. Avec des rafales à 65 km/h, de la métropole lilloise à l'Avesnois, en cours d'après-midi.
+Températures maximales pour le jour : dans l'intérieur autour de 30 à 33 degrés. 25 degrés en Flandre maritime. Ces températures sont au-dessus des valeurs de saison, localement très au-dessus.
 Températures minimales pour la nuit suivante : entre 16 et 19 degrés.
 
 • Pour la journée de dimanche 16 et la nuit suivante :
-De fins nuages d'altitude troublent un peu l'ensoleillement, mais le temps reste agréable. Pour la nuit : Les étoiles sont largement visibles. Juste avant l'aurore, elles sont toutefois masquées par des nuages, en Flandre maritime.
-En journée et début de nuit, vent de Nord à Nord-Est, modéré ; puis faiblissant.
-Températures maximales pour le jour : dans l'intérieur comprises entre 25 et 28 degrés. 23 degrés en Flandre maritime.
-Températures minimales pour la nuit suivante : dans l'intérieur de 14 à 16 degrés. 18 degrés en Flandre maritime.
+La journée est lumineuse, malgré la présence de nuages élevés. Pour la nuit : La soirée débute sous un ciel largement dégagé. Les nuages se font progressivement plus nombreux, même s'il ne s'agit souvent que d'un voile élevé.
+En journée, vent de Nord à Nord-Est, modéré ; puis faiblissant.
+Températures maximales pour le jour : dans l'intérieur comprises entre 26 et 28 degrés. 23 degrés en Flandre maritime.
+Températures minimales pour la nuit suivante : entre 15 et 18 degrés.
 
 • Pour la journée de lundi 17 :
-La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi.
-Vent de Nord, modéré.
-Températures maximales : dans l'intérieur comprises entre 27 et 28 degrés. 24 degrés en Flandre maritime.
+Le ciel est passagèrement assez nuageux. Les nuages ont tendance à se dissiper l'après-midi, et en fin de journée, le soleil prend le dessus.
+L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord-Ouest, souvent modéré.
+Températures maximales : dans l'intérieur de 27 à 28 degrés. 24 degrés en Flandre maritime.
 
 • Pour mardi 18 et mercredi 19 :
 En Flandre maritime ainsi que de la métropole lilloise à l'Avesnois, risque de pluie ou d'averses de mercredi matin jusqu'en fin de journée. Sur les autres régions, soleil prédominant.
@@ -68,39 +68,39 @@ Températures minimales : identiques à la veille.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 14/08/2026 16:45
+Emis le : 15/08/2026 00:30
 
 Vigilance :
-Attention, aujourd'hui, le département du Pas-de-Calais est en vigilance jaune pour le phénomène canicule. Demain, il sera en vigilance jaune pour les phénomènes canicule et orages.
+Attention, aujourd'hui, le département du Pas-de-Calais est en vigilance jaune pour les phénomènes canicule et orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Arras : température de 38 degrés, vent de secteur Ouest soufflant jusqu'à 30 km/h.
-A Boulogne-Sémaphore : température de 26 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h.
+Aujourd'hui on observait à 00h :
+A Arras : température de 25 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h.
+A Boulogne-Sémaphore : température de 23 degrés, vent de secteur Sud-Est soufflant jusqu'à 10 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Le ciel est souvent étoilé. En fin de nuit, des orages accompagnés de pluies se forment par places de l'Arrageois au bassin minier.
-Au lever du jour, établissement d'un vent de Nord à Nord-Est, modéré par endroits.
-Températures minimales : comprises entre 18 et 20 degrés.
+Les nuages sont bien présents. En fin de nuit, ils apportent de faibles pluies de l'Arrageois au bassin minier.
+En fin de nuit, vent s'établissant au Nord à Nord-Ouest, localement modéré.
+Températures minimales : comprises entre 17 et 19 degrés.
 
 • Pour demain samedi 15 en journée et la nuit suivante :
-Le soleil est généreux tout au long de la journée. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
-Vent modéré, de Nord à Nord-Est puis Nord-Est.
-Températures maximales pour le jour : dans les terres autour de 29 à 32 degrés. De 26 à 27 degrés sur le littoral. Ces températures se situent par endroits très au-dessus des valeurs normalement observées.
-Températures minimales pour la nuit suivante : comprises entre 16 et 18 degrés.
+Le matin les nuages sont très nombreux. Il pleut par places, de l'Audomarois au Béthunois ainsi que de l'Arrageois au bassin minier. En cours de matinée, le temps devient sec partout, et le ciel variable, alternant belles éclaircies et passages nuageux. Pour la nuit : Les étoiles sont largement visibles. Juste avant l'aurore, elles sont toutefois masquées par des nuages, du Haut Artois au littoral.
+Vent modéré, de Nord à Nord-Est virant Nord-Est. Avec des rafales à 65 km/h, de l'Arrageois au bassin minier, en cours d'après-midi.
+Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres voisines de 29 à 32 degrés. 24 degrés près de la Mer du Nord.
+Températures minimales pour la nuit suivante : entre 15 et 18 degrés.
 
 • Pour la journée de dimanche 16 et la nuit suivante :
-Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Les étoiles sont largement visibles. Juste avant l'aurore, elles sont toutefois masquées par des nuages, du Haut Artois au littoral.
-Vent de Nord à Nord-Est, modéré, en journée et début de nuit ; puis atténuation.
-Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres de 26 à 28 degrés. 24 degrés près de la Mer du Nord.
-Températures minimales pour la nuit suivante : entre 14 et 16 degrés.
+Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : La présence d'un voile de nuages élevés ternit l'éclat des étoiles.
+Vent de Nord à Nord-Est, modéré, en journée ; puis atténuation.
+Températures maximales pour le jour : de 25 à 28 degrés.
+Températures minimales pour la nuit suivante : comprises entre 15 et 17 degrés.
 
 • Pour la journée de lundi 17 :
-La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi.
-Vent de Nord tournant secteur Nord-Ouest, modéré.
-Températures maximales : sur les côtes de la Manche, ainsi que dans les terres de 26 à 29 degrés. 25 degrés près de la Mer du Nord.
+Le soleil s'impose largement, malgré quelques passages nuageux en matinée.
+Vent d'Ouest à Nord-Ouest, modéré.
+Températures maximales : de 25 à 28 degrés.
 
 • Pour mardi 18 et mercredi 19 :
 Sur les côtes de la Manche, ainsi que dans les terres, risque de pluie ou d'averses de mardi matin jusqu'au lendemain en fin de journée. Sur les autres régions, beau temps sec et ensoleillé.
@@ -121,38 +121,38 @@ Températures minimales : similaires à la veille.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 14/08/2026 16:45
+Emis le : 15/08/2026 00:30
 
 Vigilance :
-Attention, aujourd'hui, le département de la Somme est en vigilance jaune pour le phénomène canicule. Demain, il sera en vigilance jaune pour les phénomènes canicule et orages.
+Attention, aujourd'hui, le département de la Somme est en vigilance jaune pour les phénomènes canicule et orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Amiens-Glisy : température de 38 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1015 hPa.
+Aujourd'hui on observait à 00h :
+A Amiens-Glisy : température de 23 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1015 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-La nuit est en général étoilée. Toutefois, sur l'Amiénois et l'Est du département, le ciel se charge, et des orages accompagnés de pluies éclatent par places en seconde partie de nuit.
-En début de nuit, vent de Nord à Nord-Ouest modéré, sur une grande moitié Est du département ; atténuation ensuite.
-Températures minimales : de 18 à 20 degrés.
+Le ciel est assez bien dégagé en soirée puis il se voile peu à peu. En fin de nuit, les nuages deviennent plus denses et quelques pluies sont possibles sur le Vermandois.
+Vent de secteur Nord-Ouest modéré, dans les terres.
+Températures minimales : de 17 à 20 degrés, et 16 degrés sur le Doullennais.
 
 • Pour demain samedi 15 en journée et la nuit suivante :
-Le temps est souvent ensoleillé. En fin d'après-midi, des orages accompagnés de pluies se forment par places sur le Vermandois. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
-Vent modéré, variable.
-Températures maximales pour le jour : sur une grande moitié Est du département de 31 à 34 degrés. Entre 26 et 29 degrés sur la Picardie maritime. Ces températures sont au-dessus des valeurs normalement observées, localement bien au-dessus.
-Températures minimales pour la nuit suivante : comprises entre 15 et 17 degrés.
+Les nuages sont nombreux le matin avec quelques petites pluies en début de journée. L'après-midi, le temps s'améliore avec des éclaircies de plus en plus larges au fil des heures. Pour la nuit : Les étoiles sont largement visibles. Juste avant l'aurore, elles sont toutefois masquées par des nuages, sur le littoral picard.
+Vent modéré, d'Ouest-Nord-Ouest virant Nord-Est. Avec des rafales à 65 km/h, sur l'Amiénois et l'Est du département, en milieu d'après-midi.
+Températures maximales pour le jour : dans les terres de 30 à 33 degrés. 27 degrés sur le littoral picard. Ces températures sont au-dessus des valeurs de saison, par endroits très au-dessus.
+Températures minimales pour la nuit suivante : comprises entre 15 et 16 degrés.
 
 • Pour la journée de dimanche 16 et la nuit suivante :
-La journée est lumineuse, malgré la présence de nuages élevés. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
-Vent de Nord à Nord-Est modéré, en journée et début de nuit ; puis s'atténuant.
-Températures maximales pour le jour : entre 25 et 27 degrés.
-Températures minimales pour la nuit suivante : entre 13 et 16 degrés.
+Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est généralement voilé.
+Vent modéré sur le littoral picard, de Nord à Nord-Est, en journée et début de nuit ; et d'Ouest-Sud-Ouest, tôt le matin.
+Températures maximales pour le jour : entre 25 et 28 degrés.
+Températures minimales pour la nuit suivante : comprises entre 14 et 16 degrés.
 
 • Pour la journée de lundi 17 :
-La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi.
-Vent de Nord-Nord-Est virant secteur Nord-Ouest, modéré.
-Températures maximales : dans les terres de 26 à 29 degrés. 25 degrés sur le littoral picard.
+Nuages et belles éclaircies se partagent le ciel le matin. Au fil des heures, les nuages disparaissent et c'est sous un ciel bien dégagé que se termine la journée.
+Vent d'Ouest à Nord-Ouest, modéré.
+Températures maximales : dans les terres de 26 à 28 degrés. 24 degrés sur le littoral picard.
 
 • Pour mardi 18 et mercredi 19 :
 Sur le Vermandois ainsi que sur les deux tiers ouest du département, risque de pluie ou d'averses de mardi matin jusqu'au lendemain en fin de journée. Sur les autres régions, soleil généreux.
@@ -173,38 +173,40 @@ Températures minimales : similaires à la veille.
 Températures maximales : sans changement significatif.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 14/08/2026 16:45
+Emis le : 15/08/2026 00:30
 
 Vigilance :
-Attention, aujourd'hui, le département de l'Oise est en vigilance orange pour le phénomène canicule. Demain, il sera en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui, le département de l'Oise est en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Beauvais-Tillé : température de 38 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1015 hPa.
+Aujourd'hui on observait à 00h :
+A Beauvais-Tillé : température de 23 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1015 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Les nuages et les étoiles se partagent équitablement le ciel. Cependant, à partir de minuit, ces nuages deviennent plus menaçants. Entre deux éclaircies, ils peuvent provoquer des orages.
-Vent de Nord à Nord-Ouest, modéré, en début de nuit ; puis atténuation.
-Températures minimales : sur la moitié Nord du département, ainsi que le Valois Multien de 18 à 21 degrés. 17 degrés sur le Vexin français et le pays de Thelle.
+La soirée est bien étoilée, puis quelques nuages apparaissent. En seconde partie de nuit, des orages sont possibles, du Vexin français à la Picardie verte.
+5 millimètres est le cumul maximum de pluie attendu sur le Compiégnois et le Noyonnais.
+Vent généralement variable modéré, en début de nuit ; puis s'atténuant.
+Températures minimales : entre 17 et 20 degrés, et 21 degrés sur le Compiégnois et le Noyonnais.
 
 • Pour demain samedi 15 en journée et la nuit suivante :
-La matinée et le début d'après-midi sont assez bien ensoleillés. En fin de journée, le ciel se partage entre nuages et éclaircies. Des orages sont possibles, sur le Beauvaisis et le Clermontois ainsi que du Valois Multien au Noyonnais. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent de Nord à Nord-Ouest, modéré.
-Températures maximales pour le jour : comprises entre 31 et 34 degrés. Ces températures sont bien au-dessus des valeurs normalement observées.
-Températures minimales pour la nuit suivante : entre 15 et 17 degrés.
+Le jour débute sous un ciel bien couvert, avec des pluies éparses, qui prennent un caractère orageux du Vexin français à la Picardie verte. Ces précipitations cessent rapidement, et pour le reste de la journée, le temps est généralement sec, même si on ne peut exclure la survenue de petites averses. Pour la nuit : Le ciel est bien étoilé, après la disparition des quelques nuages présents en soirée.
+Les plus forts cumuls de pluie attendus sont de 5 millimètres sur le Valois Multien.
+Vent modéré, de secteur Ouest virant Nord-Nord-Est. Avec des rafales atteignant, 65 km/h, en cours d'après-midi.
+Températures maximales pour le jour : comprises entre 32 et 34 degrés. Ces températures se situent bien au-dessus des valeurs normalement observées.
+Températures minimales pour la nuit suivante : entre 14 et 17 degrés.
 
 • Pour la journée de dimanche 16 et la nuit suivante :
-Un temps ensoleillé domine. Toutefois, des nuages se développent dans l'après-midi, et donnent quelques petites averses, sur le Valois Multien. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
+Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est généralement voilé.
 En fin de journée et début de nuit, vent s'établissant au Nord, modéré ; puis atténuation.
 Températures maximales pour le jour : de 28 à 30 degrés.
-Températures minimales pour la nuit suivante : entre 13 et 16 degrés.
+Températures minimales pour la nuit suivante : entre 14 et 16 degrés, et 12 degrés sur le Plateau Picard.
 
 • Pour la journée de lundi 17 :
-L'ensoleillement est globalement excellent. Seuls quelques rares nuages apparaissent temporairement, sur le Vexin français et le pays de Thelle ainsi que sur la moitié Est du département.
-L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord, généralement modéré.
-Températures maximales : comprises entre 27 et 30 degrés.
+Le ciel est passagèrement assez nuageux. Les nuages ont tendance à se dissiper l'après-midi, et en fin de journée, le soleil prend le dessus.
+L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord-Ouest, modéré.
+Températures maximales : de 27 à 30 degrés.
 
 • Pour mardi 18 et mercredi 19 :
 Sur le Compiégnois et le Noyonnais ainsi que du Beauvaisis à la Picardie verte, risque de pluie ou d'averses de la seconde partie de nuit de mardi à mercredi jusqu'en fin de journée. Sur les autres régions, beau temps sec et bien ensoleillé.
@@ -225,39 +227,40 @@ Températures minimales : similaires à la veille.
 Températures maximales : en baisse sur le pays de Bray et la Picardie verte ainsi que du Valois Multien au Noyonnais.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 14/08/2026 16:45
+Emis le : 15/08/2026 00:30
 
 Vigilance :
-Attention, aujourd'hui, le département de l'Aisne est en vigilance orange pour le phénomène canicule. Demain, il sera en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui, le département de l'Aisne est en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Aulnoy-sous-Laon : température de 38 degrés, vent de secteur Nord soufflant jusqu'à 25 km/h.
-A Saint-Quentin : température de 37 degrés.
+Aujourd'hui on observait à 00h :
+A Aulnoy-sous-Laon : température de 22 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 5 km/h.
+A Saint-Quentin : température de 26 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Le ciel en soirée est bien clair. Puis progressivement, des nuages voilent les étoiles. En fin de nuit, des orages peuvent éclater, sur le Vermandois.
-Vent généralement de Nord-Ouest virant Nord à Nord-Est modéré, la nuit ; puis s'atténuant.
-Températures minimales : comprises entre 20 et 23 degrés, et 18 degrés sur la Champagne crayeuse. Ces températures se situent au-dessus des valeurs de saison, par endroits très au-dessus.
+En soirée, la nuit est claire. Progressivement, les nuages arrivent. Des pluies sont possibles sur le Vermandois en fin de nuit.
+Vent de Nord, modéré, soufflant sur le Vermandois, en début de nuit ; et sur la Thiérache, au lever du jour.
+Températures minimales : entre 18 et 21 degrés. Ces températures sont au-dessus des valeurs de saison.
 
 • Pour demain samedi 15 en journée et la nuit suivante :
-Le ciel est souvent voilé. En fin de journée, les nuages sont plus menaçants, des orages et des pluies sont possibles. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent de Nord, modéré.
-Températures maximales pour le jour : comprises entre 32 et 35 degrés. Ces températures sont très au-dessus des valeurs de saison.
-Températures minimales pour la nuit suivante : entre 17 et 18 degrés.
+Après quelques belles périodes ensoleillées, les nuages envahissent le ciel. Finalement, des pluies éparses se produisent en début d'après-midi. Pour la nuit : En soirée, on voit défiler nuages et éclaircies. Rapidement, en début de nuit, le ciel devient clair pour le reste de la nuit.
+5 millimètres est le cumul maximum de pluie attendu sur le Valois.
+Vent de Nord à Nord-Ouest, modéré. Avec des rafales jusqu'à 65 km/h, en milieu d'après-midi.
+Températures maximales pour le jour : comprises entre 32 et 35 degrés. Ces températures se situent très au-dessus des valeurs de saison.
+Températures minimales pour la nuit suivante : de 15 à 18 degrés.
 
 • Pour la journée de dimanche 16 et la nuit suivante :
-Le ciel est souvent ensoleillé. Cependant, en mi-journée, des cumulus se développent, sur la Champagne crayeuse, sur le Soissonnais ainsi que sur le Tardenois. Ils laissent tomber quelques averses. Ces précipitations s'arrêtent en fin d'après-midi, et la journée finit avec d'assez belles éclaircies. Pour la nuit : Le temps reste sec et le ciel dégagé. Un léger voile nuageux sur la moitié Nord du département peut masquer temporairement les étoiles.
-En fin de matinée, vent de Nord à Nord-Ouest, modéré sur la Thiérache ; se renforçant de nouveau en fin de journée et début de nuit, par endroits.
-Températures maximales pour le jour : sur les trois quarts Sud du département, ainsi que sur le Vermandois entre 28 et 31 degrés. 27 degrés sur la Thiérache.
+Le soleil est largement présent le matin, puis peu à peu, le ciel se voile. En fin de journée, les nuages deviennent plus nombreux, sur le Tardenois, avec un risque d'orage. Pour la nuit : Le ciel est plutôt bien dégagé en soirée. Mais un voile nuageux envahit peu à peu le ciel en cours de nuit. Il gagne tout le territoire avant l'aube.
+L'après-midi et en début de nuit, vent s'établissant au Nord, modéré ; puis atténuation.
+Températures maximales pour le jour : de 27 à 30 degrés.
 Températures minimales pour la nuit suivante : de 14 à 16 degrés.
 
 • Pour la journée de lundi 17 :
-La journée est largement ensoleillée, même si le ciel est un peu plus variable en début d'après-midi, sur la moitié Est du département.
-Vent généralement modéré, de Nord.
-Températures maximales : entre 27 et 29 degrés.
+Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée.
+L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord-Ouest, modéré.
+Températures maximales : comprises entre 27 et 30 degrés.
 
 • Pour mardi 18 et mercredi 19 :
 Sur le Laonnois ainsi que sur le Vermandois et la Thiérache, risque de pluie de mercredi matin jusqu'à la mi-journée. Sur les autres régions, soleil généreux.
@@ -309,55 +312,25 @@ sud-ouest au nord-est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Statistiques et anomalies climatiques nationales
-• Infoclimat Direct : Statistiques et anomalies climatiques nationales
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
+• Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
-• Indicateur Thermique National (ITN 14 jours au 14/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
+• Indicateur Thermique National (ITN 14 jours au 15/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 14 Août 2026.
-Résumé général HDF précédent : Après le pic caniculaire du 14-15 août, bascule progressive vers un flux d’ouest océanique. Les températures chutent nettement en semaine 1, puis restent proches ou légèrement sous les normales en semaine 2. Le littoral conserve un risque d’averses, l’intérieur davantage d’éclaircies..
+Résumé général HDF précédent : Après une canicule exceptionnelle les 14-15 août (38°C à Lille, Arras, Beauvais, Laon), une bascule vers un flux d'ouest océanique se confirme pour les deux semaines à venir. Les températures chutent nettement dès le 17 août, reviennent proches des normales, puis restent sans excès majeur. Le littoral conserve un risque d'averses, l'intérieur davantage d'éclaircies. La semaine 2 est plus incertaine, avec une possible dégradation ou une amélioration en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafraîchissement net jeudi-vendredi ; vent d’ouest modéré à assez fort sur le littoral..
+Températures attendues précédemment : Rafraîchissement net en début de semaine, vent d'ouest modéré, averses littorales puis dégradation pluvieuse jeudi-vendredi. (115 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: tao
-Message:
-Bonjour,
-	merci @Virgile pour ce rappel pédagogique sur l'inutilité de tenir compte des déterministes à 300h. 
-	Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
-	Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
-								2
-								1
-
-=======================
-
-Auteur: Sebaas
-Message:
-il y a une heure, Girondin33 a dit :
-			Bonjour je ne serai si catégorique, j'ai l'impression que depuis juillet (pour Bordeaux Mérignac) on se situe de façon récurrente dans la fourchette haute des prévisions (ce qui est loin d'être tout le temps le cas).
-			De même la station que j'ai à la maison qui est à 5km à vol d'oiseau de Mérignac n'enregistrait pas de grands écarts avec Mérignac, depuis l'été dernier rien à changé dans la configuration du jardin, hormis une chose la pelouse est complétement cramée partout au soleil comme à l'ombre. Résultat j'ai +0,9° en moyenne de plus sur juillet et aout sur les Tx alors que l'an dernier à la même période les écarts étaient plutôt de +0.25°. 
-			De ce que j'observe l'état de sécheresse avancé sur jardin augmente la petite surchauffe que j'ai pas défaut sur la station, donc il me semble probable que l'impact soit le même à plus grande échelle !
-			Sorry pour le Hs
-		il y a une heure, mike a dit :
-			justement la vous vous plantez. Un continent très sec et surchauffé aura clairement une incidence sur les perturbations atlantiques qui ne peuvent plus passer dans ces conditions ou s'assèchent complètement en rentrant dans les terres. En hiver c'est exactement la même chose quand une vague de froid et de neige sévissent sur un continent, le flux d'ouest va alors se bloquer et être souvent dévié. Bien entendu ça fini toujours par passer et c'est exactement ce qui se passera dans l'avancée de la saison avec un soleil de plus en plus bas
-		il y a 41 minutes, Banleve7519 a dit :
-			Il est pourtant bien connu et démontré que la sécheresse des sols accroît la hausse des températures, non? 
-			Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
-			Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
-	Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-								14
-								12
-
-=======================
-
 Auteur: Virgile
 Message:
 il y a 4 minutes, mike a dit :
@@ -376,7 +349,7 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 6 heures par Virgile
+	Modifié il y a 8 heures par Virgile
 
 =======================
 
@@ -427,7 +400,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 3 heures par tao
+	Modifié il y a 5 heures par tao
 								8
 								1
 
@@ -463,10 +436,10 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 3 heures par _sb
-								4
+	Modifié il y a 5 heures par _sb
+								5
 								2
-								8
+								9
 								1
 
 =======================
@@ -476,7 +449,7 @@ Message:
 il y a 11 minutes, _sb a dit :
 			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
 	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								2
+								3
 								2
 
 =======================
@@ -487,7 +460,8 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 2 heures par _sb
+	Modifié il y a 4 heures par _sb
+								1
 								1
 
 =======================
@@ -508,7 +482,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 2 heures par greg13
+	Modifié il y a 4 heures par greg13
 
 =======================
 
@@ -523,7 +497,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 2 heures par lapin61
+	Modifié il y a 4 heures par lapin61
 Correction orthographe
 
 =======================
@@ -552,8 +526,8 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 1 heure par petit âge glaciaire 11
-								3
+	Modifié il y a 3 heures par petit âge glaciaire 11
+								4
 								1
 								2
 
@@ -607,39 +581,34 @@ Il y a 1 heure, petit âge glaciaire 11 a dit :
 			ICON :
 			UKMO :
 	On voit aussi une profonde dépression repris par d'autres modèles (AIGFS, cep...) sur l'atlantique. Cela pourrait etre bénéfique en terme de pp si elle venait se centrer sur la france, mais coté chaleur, elle pourrait faire remonter une nouvelle fois les températures si elle a la mauvaise idée de rester trop à l'ouest.
-								2
+								4
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+1 hour ago, Virgile said:
+			Derrière cette grandiloquence qui te caractérise, tu nous développe l'effet papillon.
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a 5 minutes, Jojobarbar a dit :
+			Non mais justement, comparer ça à l'effet papillon montre que le point n'a pas été compris. L'effet papillon (sensibilité aux conditions initiales dans un système chaotique) et les téléconnexions sol-atmosphère sont deux choses différentes :
+			L'effet papillon décrit une imprévisibilité : une perturbation infime dont l'effet est imprévisible par rapport à la situation de référence (on peut avoir la même situation ou une situation très différente).
+			Ce dont on parle ici, ce sont des mécanismes physiques identifiés et documentés : bilan énergétique de surface (partition chaleur latente/chaleur sensible), rétroaction sol-température, guidage des ondes de Rossby. Ce sont des processus qu'on peut mesurer, modéliser, et retrouver de façon récurrente dans les réanalyses et les simulations. Ce n'est pas un battement d'aile isolé, c'est un forçage physique répété qui a une signature statistique.
+			La différence est simple : l'effet papillon dit "on ne peut pas prévoir précisément, déterministiquement". La littérature citée dit "voici le mécanisme, voici comment il se propage, et voici les cas où on l'observe". Ce n'est pas la même démarche scientifique.
+			Sur "ces articles pompeux en anglais ne démontrent pas grand-chose" : l'anglais est la langue de publication de la quasi-totalité de la climatologie internationale... Ce sont des revues à comité de lecture (Nature, AGU, Oxford, AMS), pas des blogs. Rejeter une source parce qu'elle est en anglais, ou parce que le sujet paraît "grandiloquent", n'est pas un argument scientifique. Dans ce cas tant que tu y es tu peux rejeter les rapports du GIEC.
+			Deux faits qui vont dans le même sens, à l'échelle du pays cette fois :
+			Un tiers du territoire est boisé, et l'évapotranspiration est un élément important du taux d'humidité, lui-même déterminant dans le renforcement ou l'affaiblissement de certaines situations synoptiques.
+			Le type de sol et de végétation influence aussi le temps sensible, comme le montrent les îlots de chaleur urbains — mais là où l'îlot de chaleur reste un effet local, on parle ici de sols à l'échelle d'un pays, voire de plusieurs.
+			Donc oui, des effets au sol, locaux ou régionaux, influencent bien la situation météo finale à plus grande échelle. C'est documenté, mesurable, et ce n'est pas un raccourci. Mais on ne dit pas que c'est le seul et unique moteur. Juste tes arguments sont "pour ma part non".
+	On va pas palabrer pendant des heures. Chacun son avis.
+	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
+	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: tao
-Message:
-Bonjour,
-	merci @Virgile pour ce rappel pédagogique sur l'inutilité de tenir compte des déterministes à 300h. 
-	Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
-	Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
-								2
-								1
-
-=======================
-
-Auteur: Sebaas
-Message:
-il y a une heure, Girondin33 a dit :
-			Bonjour je ne serai si catégorique, j'ai l'impression que depuis juillet (pour Bordeaux Mérignac) on se situe de façon récurrente dans la fourchette haute des prévisions (ce qui est loin d'être tout le temps le cas).
-			De même la station que j'ai à la maison qui est à 5km à vol d'oiseau de Mérignac n'enregistrait pas de grands écarts avec Mérignac, depuis l'été dernier rien à changé dans la configuration du jardin, hormis une chose la pelouse est complétement cramée partout au soleil comme à l'ombre. Résultat j'ai +0,9° en moyenne de plus sur juillet et aout sur les Tx alors que l'an dernier à la même période les écarts étaient plutôt de +0.25°. 
-			De ce que j'observe l'état de sécheresse avancé sur jardin augmente la petite surchauffe que j'ai pas défaut sur la station, donc il me semble probable que l'impact soit le même à plus grande échelle !
-			Sorry pour le Hs
-		il y a une heure, mike a dit :
-			justement la vous vous plantez. Un continent très sec et surchauffé aura clairement une incidence sur les perturbations atlantiques qui ne peuvent plus passer dans ces conditions ou s'assèchent complètement en rentrant dans les terres. En hiver c'est exactement la même chose quand une vague de froid et de neige sévissent sur un continent, le flux d'ouest va alors se bloquer et être souvent dévié. Bien entendu ça fini toujours par passer et c'est exactement ce qui se passera dans l'avancée de la saison avec un soleil de plus en plus bas
-		il y a 41 minutes, Banleve7519 a dit :
-			Il est pourtant bien connu et démontré que la sécheresse des sols accroît la hausse des températures, non? 
-			Ça pourrait aussi expliquer peut-être (avec beaucoup moins de certitude) le caractère souvent peu pluvieux des orages cet été, avec une humidité moindre? 
-			Ça ressemble à un cercle vicieux infernal que seule l’avancée dans la saison pourra stopper.
-	Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-								14
-								12
-
-=======================
-
 Auteur: Virgile
 Message:
 il y a 4 minutes, mike a dit :
@@ -658,7 +627,7 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 6 heures par Virgile
+	Modifié il y a 8 heures par Virgile
 
 =======================
 
@@ -709,7 +678,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 3 heures par tao
+	Modifié il y a 5 heures par tao
 								8
 								1
 
@@ -745,10 +714,10 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 3 heures par _sb
-								4
+	Modifié il y a 5 heures par _sb
+								5
 								2
-								8
+								9
 								1
 
 =======================
@@ -758,7 +727,7 @@ Message:
 il y a 11 minutes, _sb a dit :
 			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
 	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								2
+								3
 								2
 
 =======================
@@ -769,7 +738,8 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 2 heures par _sb
+	Modifié il y a 4 heures par _sb
+								1
 								1
 
 =======================
@@ -790,7 +760,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 2 heures par greg13
+	Modifié il y a 4 heures par greg13
 
 =======================
 
@@ -805,7 +775,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 2 heures par lapin61
+	Modifié il y a 4 heures par lapin61
 Correction orthographe
 
 =======================
@@ -834,8 +804,8 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 1 heure par petit âge glaciaire 11
-								3
+	Modifié il y a 3 heures par petit âge glaciaire 11
+								4
 								1
 								2
 
@@ -889,4 +859,29 @@ Il y a 1 heure, petit âge glaciaire 11 a dit :
 			ICON :
 			UKMO :
 	On voit aussi une profonde dépression repris par d'autres modèles (AIGFS, cep...) sur l'atlantique. Cela pourrait etre bénéfique en terme de pp si elle venait se centrer sur la france, mais coté chaleur, elle pourrait faire remonter une nouvelle fois les températures si elle a la mauvaise idée de rester trop à l'ouest.
-								2
+								4
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+1 hour ago, Virgile said:
+			Derrière cette grandiloquence qui te caractérise, tu nous développe l'effet papillon.
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a 5 minutes, Jojobarbar a dit :
+			Non mais justement, comparer ça à l'effet papillon montre que le point n'a pas été compris. L'effet papillon (sensibilité aux conditions initiales dans un système chaotique) et les téléconnexions sol-atmosphère sont deux choses différentes :
+			L'effet papillon décrit une imprévisibilité : une perturbation infime dont l'effet est imprévisible par rapport à la situation de référence (on peut avoir la même situation ou une situation très différente).
+			Ce dont on parle ici, ce sont des mécanismes physiques identifiés et documentés : bilan énergétique de surface (partition chaleur latente/chaleur sensible), rétroaction sol-température, guidage des ondes de Rossby. Ce sont des processus qu'on peut mesurer, modéliser, et retrouver de façon récurrente dans les réanalyses et les simulations. Ce n'est pas un battement d'aile isolé, c'est un forçage physique répété qui a une signature statistique.
+			La différence est simple : l'effet papillon dit "on ne peut pas prévoir précisément, déterministiquement". La littérature citée dit "voici le mécanisme, voici comment il se propage, et voici les cas où on l'observe". Ce n'est pas la même démarche scientifique.
+			Sur "ces articles pompeux en anglais ne démontrent pas grand-chose" : l'anglais est la langue de publication de la quasi-totalité de la climatologie internationale... Ce sont des revues à comité de lecture (Nature, AGU, Oxford, AMS), pas des blogs. Rejeter une source parce qu'elle est en anglais, ou parce que le sujet paraît "grandiloquent", n'est pas un argument scientifique. Dans ce cas tant que tu y es tu peux rejeter les rapports du GIEC.
+			Deux faits qui vont dans le même sens, à l'échelle du pays cette fois :
+			Un tiers du territoire est boisé, et l'évapotranspiration est un élément important du taux d'humidité, lui-même déterminant dans le renforcement ou l'affaiblissement de certaines situations synoptiques.
+			Le type de sol et de végétation influence aussi le temps sensible, comme le montrent les îlots de chaleur urbains — mais là où l'îlot de chaleur reste un effet local, on parle ici de sols à l'échelle d'un pays, voire de plusieurs.
+			Donc oui, des effets au sol, locaux ou régionaux, influencent bien la situation météo finale à plus grande échelle. C'est documenté, mesurable, et ce n'est pas un raccourci. Mais on ne dit pas que c'est le seul et unique moteur. Juste tes arguments sont "pour ma part non".
+	On va pas palabrer pendant des heures. Chacun son avis.
+	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
+	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
