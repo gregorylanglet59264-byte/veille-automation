@@ -176,40 +176,40 @@ Températures minimales : identiques à la veille.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 15/08/2026 16:45
+Emis le : 15/08/2026 22:00
 
 Vigilance :
-Attention, aujourd'hui et demain, le département du Rhône est en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui, le département du Rhône est en vigilance orange pour le phénomène canicule. Demain, il sera en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Lyon : température de 37 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1011 hPa.
-Aux Sauvages : température de 34 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 40 km/h.
-A Brindas : température de 38 degrés.
+Aujourd'hui on observait à 21h :
+A Lyon : température de 31 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1011 hPa.
+Aux Sauvages : température de 26 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 20 km/h.
+A Brindas : température de 30 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-En soirée, l'état du ciel change vite, mais le temps reste sec. En seconde partie de nuit, les éclaircies prennent le dessus.
-Vent généralement d'Ouest à Nord-Ouest modéré, la nuit ; puis s'atténuant.
-Températures minimales : entre 23 et 26 degrés, et comprises entre 20 et 21 degrés sur le relief. Ces températures se situent au-dessus des valeurs normalement observées, localement très au-dessus.
+Le temps est calme, mais les nuages sont assez nombreux et ils réduisent l'observation du ciel étoilé.
+Vent d'Ouest à Nord-Ouest, localement modéré, la nuit ; puis atténuation.
+Températures minimales : comprises entre 22 et 25 degrés, et 20 degrés dans les monts du Lyonnais. Ces températures sont au-dessus des valeurs de saison, par endroits très au-dessus.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-Après un début de journée assez bien ensoleillé, les nuages deviennent un peu plus nombreux l'après-midi. Quelques orages accompagnés de pluies sont possibles, des monts du Lyonnais à Givors. Pour la nuit : Les quelques nuages en soirée se dissipent rapidement. L'accalmie est courte, car en milieu de nuit, quelques averses tombent, sur les coteaux du Lyonnais, en Val de Saône ainsi qu'au confluent Brévenne Turdine Azergues, et peuvent évoluer en orages. Il faut attendre la fin de nuit pour retrouver un temps sec.
-Etablissement, l'après-midi et en début de nuit, d'un vent de Nord virant Nord-Nord-Ouest, généralement modéré ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 31 et 34 degrés, et 35 degrés en agglomération lyonnaise. Ces températures se situent au-dessus des valeurs de saison.
-Températures minimales pour la nuit suivante : entre 20 et 22 degrés, et 18 degrés dans les monts du Lyonnais.
+Les quelques nuages du début de matinée se dissipent rapidement. L'accalmie est courte, car en milieu de journée, quelques averses tombent, au confluent Brévenne Turdine Azergues ainsi que des monts du Lyonnais à Givors, et peuvent évoluer en orages. Il faut attendre la fin de journée pour retrouver un temps sec. Pour la nuit : Les belles éclaircies du début de nuit sont suivies d'un temps plus chargé en seconde partie de nuit avec des averses et des orages sur les coteaux du Lyonnais, en Val de Saône ainsi qu'au confluent Brévenne Turdine Azergues.
+L'après-midi et en début de nuit, vent s'orientant au Nord puis Ouest-Nord-Ouest, souvent modéré ; atténuation ensuite.
+Températures maximales pour le jour : entre 33 et 35 degrés, et entre 30 et 31 degrés sur le relief. Ces températures se situent au-dessus des valeurs normalement observées.
+Températures minimales pour la nuit suivante : de 20 à 22 degrés, et 18 degrés dans les monts du Lyonnais.
 
 • Pour la journée de lundi 17 et la nuit suivante :
-Le matin le ciel est souvent bien nuageux. De petites averses sont possibles, sauf sur l'Est-Lyonnais. Une amélioration se dessine en cours d'après-midi. Non seulement les précipitations se raréfient puis disparaissent en fin de journée, mais de belles éclaircies se développent. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent de Nord à Nord-Ouest, modéré, en journée ; puis atténuation.
+Le matin le ciel est souvent bien nuageux. De petites averses sont possibles, sauf sur l'Est-Lyonnais. Une amélioration se dessine en cours d'après-midi. Non seulement les précipitations se raréfient puis disparaissent en fin de journée, mais de belles éclaircies se développent. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+En journée, vent de Nord à Nord-Ouest, modéré ; puis faiblissant.
 Températures maximales pour le jour : de 29 à 32 degrés, et 27 degrés dans les monts du Lyonnais.
-Températures minimales pour la nuit suivante : entre 18 et 20 degrés, et 15 degrés dans les monts du Lyonnais.
+Températures minimales pour la nuit suivante : de 18 à 20 degrés, et 15 degrés dans les monts du Lyonnais.
 
 • Pour la journée de mardi 18 :
-Le soleil domine largement du matin au soir.
-En seconde partie de journée, vent s'orientant au Nord, souvent modéré ; atténuation ensuite.
-Températures maximales : de 30 à 33 degrés, et 29 degrés dans les monts du Lyonnais.
+Le soleil règne en maître du matin au soir.
+Etablissement, l'après-midi, d'un vent de Nord, généralement modéré ; atténuation ensuite.
+Températures maximales : comprises entre 30 et 33 degrés, et 29 degrés dans les monts du Lyonnais.
 
 • Pour mercredi 19 et jeudi 20 :
 Risque de pluie et d'orage de la seconde partie de nuit de mercredi à jeudi jusqu'en début de nuit suivante.
@@ -318,12 +318,12 @@ pluies importants en peu de temps.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Névé 9 massif du Jura: La Neigère 2022-23
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 15/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,50 +331,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 15 Août 2026.
-Résumé général précédent : Après un dernier sursaut de chaleur lundi-mardi, un rafraîchissement net et durable est attendu dès mercredi, avec des températures proches des normales sur les 15 prochains jours. Les précipitations faibles mais mieux réparties pourraient mettre fin à la sécheresse de surface..
+Résumé général précédent : Fin de la canicule généralisée, avec un rafraîchissement net et durable à partir de mercredi 19 août. Les températures devraient revenir proches des normales, avec un risque d'averses et d'orages, notamment sur le sud-est..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Refroidissement notable sur le sud-est à partir de vendredi, avec possibilité de précipitations sur les régions méditerranéennes..
+Températures attendues précédemment : Temps plus frais et instable à partir de mercredi, averses possibles, températures en baisse nette..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: _sb
-Message:
-Il y a 5 heures, mathias a dit :
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-		Il y a 2 heures, Sebaas a dit :
-			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-	Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
-	Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
-	Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
-	Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
-	- oui
-	La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
-	L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
-	- oui
-	Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
-	- oui
-	j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
-	Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
-	Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
-	https://www.nature.com/articles/s41612-025-01294-4
-	https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
-	https://academic.oup.com/oocc/article/5/1/kgae023/8005865
-	https://doi.org/10.1175/JCLI4288.1
-	https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
-	https://www.nature.com/articles/s41612-024-00831-x
-	https://www.science.org/doi/10.1126/sciadv.adr7320
-	etc
-	EDIT :
-	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 23 heures par _sb
-								9
-								2
-								15
-								1
-
-=======================
-
 Auteur: Sebaas
 Message:
 il y a 11 minutes, _sb a dit :
@@ -391,7 +353,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 22 heures par _sb
+	Modifié hier à 19:12 par _sb
 								2
 								1
 
@@ -413,7 +375,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 22 heures par greg13
+	Modifié hier à 19:08 par greg13
 
 =======================
 
@@ -428,7 +390,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 22 heures par lapin61
+	Modifié hier à 19:17 par lapin61
 Correction orthographe
 
 =======================
@@ -457,7 +419,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 21 heures par petit âge glaciaire 11
+	Modifié il y a 23 heures par petit âge glaciaire 11
 								5
 								1
 								3
@@ -563,7 +525,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 8 heures par Virgile
+	Modifié il y a 10 heures par Virgile
 								14
 								3
 								1
@@ -613,6 +575,7 @@ Que penser du dernier run du GFS ?
 	J'ai l'impression que la chaleur s'accroche même si elle est moins accentuée que pour cette semaine.
 	J'ai hâte d'avoir l'analyse des spécialistes.
 								1
+								1
 
 =======================
 
@@ -620,47 +583,18 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								2
+								3
+
+=======================
+
+Auteur: Jujudu38
+Message:
+il y a 44 minutes, pierrot_75 a dit :
+			ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
+	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
+	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: _sb
-Message:
-Il y a 5 heures, mathias a dit :
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-		Il y a 2 heures, Sebaas a dit :
-			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-	Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
-	Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
-	Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
-	Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
-	- oui
-	La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
-	L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
-	- oui
-	Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
-	- oui
-	j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
-	Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
-	Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
-	https://www.nature.com/articles/s41612-025-01294-4
-	https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
-	https://academic.oup.com/oocc/article/5/1/kgae023/8005865
-	https://doi.org/10.1175/JCLI4288.1
-	https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
-	https://www.nature.com/articles/s41612-024-00831-x
-	https://www.science.org/doi/10.1126/sciadv.adr7320
-	etc
-	EDIT :
-	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 23 heures par _sb
-								9
-								2
-								15
-								1
-
-=======================
-
 Auteur: Sebaas
 Message:
 il y a 11 minutes, _sb a dit :
@@ -677,7 +611,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 22 heures par _sb
+	Modifié hier à 19:12 par _sb
 								2
 								1
 
@@ -699,7 +633,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 22 heures par greg13
+	Modifié hier à 19:08 par greg13
 
 =======================
 
@@ -714,7 +648,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 22 heures par lapin61
+	Modifié hier à 19:17 par lapin61
 Correction orthographe
 
 =======================
@@ -743,7 +677,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 21 heures par petit âge glaciaire 11
+	Modifié il y a 23 heures par petit âge glaciaire 11
 								5
 								1
 								3
@@ -849,7 +783,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 8 heures par Virgile
+	Modifié il y a 10 heures par Virgile
 								14
 								3
 								1
@@ -899,6 +833,7 @@ Que penser du dernier run du GFS ?
 	J'ai l'impression que la chaleur s'accroche même si elle est moins accentuée que pour cette semaine.
 	J'ai hâte d'avoir l'analyse des spécialistes.
 								1
+								1
 
 =======================
 
@@ -906,4 +841,13 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								2
+								3
+
+=======================
+
+Auteur: Jujudu38
+Message:
+il y a 44 minutes, pierrot_75 a dit :
+			ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
+	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
+	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique

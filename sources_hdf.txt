@@ -15,38 +15,38 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 15/08/2026 16:45
+Emis le : 15/08/2026 22:00
 
 Vigilance :
-Attention, aujourd'hui, le département du Nord est en vigilance jaune pour les phénomènes orages et canicule. Demain, il sera en vigilance verte.
+Attention, aujourd'hui, le département du Nord est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Lille-Lesquin : température de 31 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 20 km/h, pression niveau mer 1014 hPa.
-A Dunkerque : température de 23 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 35 km/h.
+Aujourd'hui on observait à 21h :
+A Lille-Lesquin : température de 25 degrés, vent de secteur Nord soufflant jusqu'à 30 km/h, pression niveau mer 1015 hPa.
+A Dunkerque : température de 21 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 35 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 Des orages sont possibles en soirée, de la métropole lilloise à l'Avesnois. L'activité orageuse s'estompe rapidement. Le ciel se dégage peu à peu en cours de nuit.
-Vent de Nord à Nord-Est, modéré.
-Températures minimales : comprises entre 16 et 19 degrés.
+Vent de Nord à Nord-Est modéré, depuis la côte jusqu'au Valenciennois et au Cambrésis.
+Températures minimales : comprises entre 17 et 19 degrés.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi. Pour la nuit : Le ciel de la nuit, d'abord clair, va peu à peu se voiler, mais les éclaircies restent belles.
-Vent de Nord à Nord-Est modéré, en journée ; puis s'atténuant.
-Températures maximales pour le jour : dans l'intérieur entre 27 et 29 degrés. 24 degrés en Flandre maritime.
-Températures minimales pour la nuit suivante : dans l'intérieur entre 15 et 17 degrés. 19 degrés en Flandre maritime.
+La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi. Pour la nuit : Le ciel, en soirée, est dégagé. À partir de minuit, des nuages se forment, mais les éclaircies restent belles.
+Vent de Nord à Nord-Est, modéré, en journée et début de nuit ; puis atténuation.
+Températures maximales pour le jour : dans l'intérieur entre 27 et 28 degrés. 23 degrés en Flandre maritime.
+Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 15 et 17 degrés. 19 degrés en Flandre maritime.
 
 • Pour la journée de lundi 17 et la nuit suivante :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.
-Vent de Nord à Nord-Ouest, modéré, l'après-midi jusqu'en début de soirée, après une atténuation, reprise du vent, en deuxième partie de nuit, avec orientation au Sud-Ouest.
-Températures maximales pour le jour : dans l'intérieur de 25 à 27 degrés. 23 degrés en Flandre maritime.
-Températures minimales pour la nuit suivante : dans l'intérieur entre 14 et 17 degrés. 19 degrés en Flandre maritime.
+Vent modéré, de Nord à Nord-Ouest, l'après-midi jusqu'en début de soirée ; et de Sud-Ouest, en seconde partie de nuit.
+Températures maximales pour le jour : dans l'intérieur entre 25 et 27 degrés. 23 degrés en Flandre maritime.
+Températures minimales pour la nuit suivante : dans l'intérieur de 14 à 17 degrés. 19 degrés en Flandre maritime.
 
 • Pour la journée de mardi 18 :
-Un voile nuageux filtre le soleil.
-Vent modéré, d'Ouest. Avec des rafales jusqu'à 55 km/h, en Flandre maritime, l'après-midi jusqu'en début de soirée.
+Le soleil est généralement voilé par des nuages.
+Vent d'Ouest, modéré. Avec des rafales atteignant, en Flandre maritime, 55 km/h, l'après-midi jusqu'en début de soirée.
 Températures maximales : de 25 à 27 degrés.
 
 • Pour mercredi 19 et jeudi 20 :
@@ -68,39 +68,39 @@ Températures minimales : stables.
 Températures maximales : identiques à la veille.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 15/08/2026 16:45
+Emis le : 15/08/2026 22:00
 
 Vigilance :
-Attention, aujourd'hui, le département du Pas-de-Calais est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
+Aujourd'hui et demain, le département du Pas-de-Calais est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Arras : température de 32 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 20 km/h.
-A Boulogne-Sémaphore : température de 24 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 40 km/h.
+Aujourd'hui on observait à 21h :
+A Arras : température de 26 degrés, vent de secteur Nord soufflant jusqu'à 30 km/h.
+A Boulogne-Sémaphore : température de 21 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 40 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 Le risque orageux présent en soirée de l'Arrageois au bassin minier, disparaît rapidement. Puis, c'est une nuit largement étoilée qui est annoncée.
 Vent modéré, de Nord à Nord-Est.
-Températures minimales : entre 15 et 18 degrés.
+Températures minimales : entre 16 et 18 degrés.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-Le ciel est clair en début de journée. Quelques nuages par places en cours de journée laissent de larges trouées ensoleillées. Pour la nuit : Le ciel, en soirée, est dégagé. À partir de minuit, des nuages se forment, mais les éclaircies restent belles.
-Vent de Nord-Est tournant Nord, modéré, en journée ; puis atténuation.
-Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres comprises entre 26 et 29 degrés. 25 degrés près de la Mer du Nord.
-Températures minimales pour la nuit suivante : comprises entre 15 et 18 degrés, et 14 degrés sur la plaine d'Arras.
+C'est une journée largement ensoleillée qui s'annonce. Tout au plus, on peut noter quelques nuages, plus présents sur le littoral. Pour la nuit : La soirée est bien étoilée, mais un voile nuageux se forme en seconde partie de nuit et masque les étoiles.
+Vent de secteur Nord temporairement modéré, près de la Mer du Nord.
+Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres entre 27 et 29 degrés. 25 degrés près de la Mer du Nord.
+Températures minimales pour la nuit suivante : de 15 à 18 degrés, et 14 degrés sur la plaine d'Arras.
 
 • Pour la journée de lundi 17 et la nuit suivante :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est clair, toute la nuit. Seuls quelques nuages se développent, avant l'aurore, sur les reliefs de l'Artois. Mais, ils restent minoritaires.
-L'après-midi et la nuit suivante, établissement d'un vent de secteur Nord-Ouest virant Sud-Ouest, modéré.
+L'après-midi et la nuit suivante, établissement d'un vent de secteur Nord-Ouest puis Sud-Ouest, souvent modéré.
 Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres de 26 à 27 degrés. 23 degrés près de la Mer du Nord.
-Températures minimales pour la nuit suivante : sur les côtes de la Manche, ainsi que dans les terres de 15 à 18 degrés. 19 degrés près de la Mer du Nord.
+Températures minimales pour la nuit suivante : sur les côtes de la Manche, ainsi que dans les terres comprises entre 15 et 18 degrés. 19 degrés près de la Mer du Nord.
 
 • Pour la journée de mardi 18 :
-Les nuages élevés sont omniprésents, mais l'ambiance reste lumineuse.
-L'après-midi jusqu'en début de soirée, vent s'établissant à l'Ouest assez fort, sur le littoral. Avec des rafales atteignant 55 km/h.
-Températures maximales : dans l'intérieur, mais aussi dans le Calaisis entre 24 et 27 degrés. 23 degrés sur les côtes de la Manche.
+Un voile nuageux filtre le soleil.
+L'après-midi jusqu'en début de soirée, vent d'Ouest assez fort, sur le littoral. Avec des rafales atteignant 55 km/h.
+Températures maximales : dans l'intérieur, mais aussi dans le Calaisis comprises entre 24 et 27 degrés. 23 degrés sur les côtes de la Manche.
 
 • Pour mercredi 19 et jeudi 20 :
 Risque de pluie ou d'averses.
@@ -121,38 +121,38 @@ Températures minimales : stables.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 15/08/2026 16:45
+Emis le : 15/08/2026 22:00
 
 Vigilance :
-Attention, aujourd'hui, le département de la Somme est en vigilance jaune pour les phénomènes orages et canicule. Demain, il sera en vigilance verte.
+Aujourd'hui et demain, le département de la Somme est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Amiens-Glisy : température de 30 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1014 hPa.
+Aujourd'hui on observait à 21h :
+A Amiens-Glisy : température de 26 degrés, vent de secteur Nord soufflant jusqu'à 20 km/h, pression niveau mer 1014 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 Des orages sont possibles en soirée, sur l'Amiénois et l'Est du département. L'activité orageuse s'estompe rapidement. Le ciel se dégage peu à peu en cours de nuit.
-Vent de Nord, modéré.
-Températures minimales : entre 15 et 17 degrés.
+Vent de Nord, généralement modéré.
+Températures minimales : 16 degrés.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-Le soleil devrait largement s'imposer, malgré quelques développements nuageux inoffensifs, en fin de matinée, sur le Doullennais. Pour la nuit : La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
-Vent modéré sur le littoral picard, de secteur Nord, en journée et début de nuit ; et d'Ouest-Sud-Ouest, au lever du jour.
-Températures maximales pour le jour : dans les terres de 28 à 30 degrés. 25 degrés sur le littoral picard. Ces températures se situent au-dessus des valeurs de saison.
-Températures minimales pour la nuit suivante : comprises entre 16 et 18 degrés, et 13 degrés sur le Vermandois.
+Le soleil brille largement. Toutefois, sur le littoral picard, des nuages sont présents l'après-midi. Pour la nuit : La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
+Vent modéré sur le littoral picard, de Nord à Nord-Ouest, en journée et début de nuit ; et d'Ouest-Sud-Ouest, aux premières heures du jour.
+Températures maximales pour le jour : dans les terres de 28 à 31 degrés. 25 degrés sur le littoral picard. Ces températures se situent au-dessus des valeurs normalement observées.
+Températures minimales pour la nuit suivante : dans les terres de 14 à 17 degrés. 18 degrés sur le littoral picard.
 
 • Pour la journée de lundi 17 et la nuit suivante :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Aux premières heures du jour, vent s'établissant au Sud-Ouest assez fort, sur le littoral picard.
-Températures maximales pour le jour : dans les terres entre 26 et 29 degrés. 24 degrés sur le littoral picard.
+Tôt le matin, vent de Sud-Ouest assez fort, sur le littoral picard.
+Températures maximales pour le jour : dans les terres comprises entre 26 et 29 degrés. 24 degrés sur le littoral picard.
 Températures minimales pour la nuit suivante : dans les terres comprises entre 14 et 17 degrés. 18 degrés sur le littoral picard.
 
 • Pour la journée de mardi 18 :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée.
 Vent d'Ouest assez fort, sur le littoral picard.
-Températures maximales : sur une grande moitié Est du département comprises entre 25 et 28 degrés. Entre 23 et 24 degrés sur la Picardie maritime.
+Températures maximales : sur une grande moitié Est du département entre 25 et 28 degrés. De 23 à 24 degrés sur la Picardie maritime.
 
 • Pour mercredi 19 et jeudi 20 :
 Risque de pluie ou d'averses.
@@ -311,11 +311,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Névé 9 massif du Jura: La Neigère 2022-23
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 15/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -323,50 +323,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 15 Août 2026.
-Résumé général HDF précédent : Canicule en net repli. Après un lundi/mardi encore chaud, un thalweg s’installe sur la France. Les HDF basculent vers un temps plus frais, plus instable, avec des températures proches des normales et le retour possible d’averses faibles. La semaine 2 reste très incertaine, faute de sujet dédié..
+Résumé général HDF précédent : Après un début de semaine encore chaud, un net rafraîchissement s'opère dès mercredi. Les températures passent sous les normales, avec le retour d'un temps plus instable et d'averses. Cette tendance fraîche devrait se poursuivre en semaine 2, mais avec une grande incertitude..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Fraîcheur, averses possibles, vent d’ouest modéré..
+Températures attendues précédemment : Temps plus frais, averses possibles, vent d'ouest modéré à assez fort. (77 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: _sb
-Message:
-Il y a 5 heures, mathias a dit :
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-		Il y a 2 heures, Sebaas a dit :
-			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-	Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
-	Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
-	Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
-	Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
-	- oui
-	La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
-	L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
-	- oui
-	Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
-	- oui
-	j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
-	Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
-	Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
-	https://www.nature.com/articles/s41612-025-01294-4
-	https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
-	https://academic.oup.com/oocc/article/5/1/kgae023/8005865
-	https://doi.org/10.1175/JCLI4288.1
-	https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
-	https://www.nature.com/articles/s41612-024-00831-x
-	https://www.science.org/doi/10.1126/sciadv.adr7320
-	etc
-	EDIT :
-	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 23 heures par _sb
-								9
-								2
-								15
-								1
-
-=======================
-
 Auteur: Sebaas
 Message:
 il y a 11 minutes, _sb a dit :
@@ -383,7 +345,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 22 heures par _sb
+	Modifié hier à 19:12 par _sb
 								2
 								1
 
@@ -405,7 +367,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 22 heures par greg13
+	Modifié hier à 19:08 par greg13
 
 =======================
 
@@ -420,7 +382,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 22 heures par lapin61
+	Modifié hier à 19:17 par lapin61
 Correction orthographe
 
 =======================
@@ -449,7 +411,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 21 heures par petit âge glaciaire 11
+	Modifié il y a 23 heures par petit âge glaciaire 11
 								5
 								1
 								3
@@ -555,7 +517,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 8 heures par Virgile
+	Modifié il y a 10 heures par Virgile
 								14
 								3
 								1
@@ -605,6 +567,7 @@ Que penser du dernier run du GFS ?
 	J'ai l'impression que la chaleur s'accroche même si elle est moins accentuée que pour cette semaine.
 	J'ai hâte d'avoir l'analyse des spécialistes.
 								1
+								1
 
 =======================
 
@@ -612,47 +575,18 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								2
+								3
+
+=======================
+
+Auteur: Jujudu38
+Message:
+il y a 44 minutes, pierrot_75 a dit :
+			ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
+	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
+	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: _sb
-Message:
-Il y a 5 heures, mathias a dit :
-			Est ce que les sols surchauffés et secs depuis des semaines n'auraient pas une incidence sur la météo sur notre territoire ? 
-		Il y a 2 heures, Sebaas a dit :
-			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
-	Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
-	Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
-	Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
-	Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
-	- oui
-	La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
-	L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
-	- oui
-	Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
-	- oui
-	j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
-	Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
-	Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
-	https://www.nature.com/articles/s41612-025-01294-4
-	https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
-	https://academic.oup.com/oocc/article/5/1/kgae023/8005865
-	https://doi.org/10.1175/JCLI4288.1
-	https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
-	https://www.nature.com/articles/s41612-024-00831-x
-	https://www.science.org/doi/10.1126/sciadv.adr7320
-	etc
-	EDIT :
-	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 23 heures par _sb
-								9
-								2
-								15
-								1
-
-=======================
-
 Auteur: Sebaas
 Message:
 il y a 11 minutes, _sb a dit :
@@ -669,7 +603,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 22 heures par _sb
+	Modifié hier à 19:12 par _sb
 								2
 								1
 
@@ -691,7 +625,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 22 heures par greg13
+	Modifié hier à 19:08 par greg13
 
 =======================
 
@@ -706,7 +640,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 22 heures par lapin61
+	Modifié hier à 19:17 par lapin61
 Correction orthographe
 
 =======================
@@ -735,7 +669,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 21 heures par petit âge glaciaire 11
+	Modifié il y a 23 heures par petit âge glaciaire 11
 								5
 								1
 								3
@@ -841,7 +775,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 8 heures par Virgile
+	Modifié il y a 10 heures par Virgile
 								14
 								3
 								1
@@ -891,6 +825,7 @@ Que penser du dernier run du GFS ?
 	J'ai l'impression que la chaleur s'accroche même si elle est moins accentuée que pour cette semaine.
 	J'ai hâte d'avoir l'analyse des spécialistes.
 								1
+								1
 
 =======================
 
@@ -898,4 +833,13 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								2
+								3
+
+=======================
+
+Auteur: Jujudu38
+Message:
+il y a 44 minutes, pierrot_75 a dit :
+			ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
+	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
+	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
