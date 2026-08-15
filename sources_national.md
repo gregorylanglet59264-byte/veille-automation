@@ -15,44 +15,45 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 15/08/2026 09:30
+Emis le : 15/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui, Paris et sa petite couronne sont en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages. Demain, elles seront en vigilance orange pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Paris-Montsouris : température de 24 degrés, vent de secteur Sud soufflant jusqu'à 15 km/h, pression niveau mer 1015 hPa.
-Au Jardin du Luxembourg : température de 26 degrés.
+Aujourd'hui on observait à 12h :
+A Paris-Montsouris : température de 30 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1014 hPa.
+Au Jardin du Luxembourg : température de 29 degrés.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 15 :
-De belles éclaircies illuminent la matinée. L'après-midi, les nuages deviennent plus nombreux. Des orages sont alors possibles.
-En fin d'après-midi, établissement d'un vent de Nord-Ouest, souvent modéré. Rafales atteignant 65 km/h, en fin d'après-midi.
-Températures maximales : comprises entre 33 et 35 degrés. Ces températures sont très au-dessus des valeurs de saison.
+• Pour cet après-midi :
+Le temps est sec, mais les nombreux nuages ne laissent passer que quelques rayons de soleil.
+Le maximum de pluie attendu est de l'ordre de 20 millimètres sur le Val de Marne.
+Vent modéré, variable.
+Températures maximales : comprises entre 33 et 35 degrés. Ces températures se situent au-dessus des valeurs normalement observées, par endroits très au-dessus.
 
 • Pour la nuit prochaine :
-En début de soirée, le ciel est variable, et des orages éclatent. Mais rapidement, le temps s'améliore, même si quelques averses perdurent jusqu'à minuit, très localement. En seconde partie de nuit, les étoiles sont souvent visibles.
-En début de nuit, vent de Nord-Nord-Ouest modéré, sur les Hauts-de-Seine ; atténuation ensuite.
-Températures minimales : de 19 à 21 degrés.
+Le ciel est bien étoilé, après la disparition des quelques nuages présents en soirée.
+En début de nuit, vent de Nord soufflant modérément, sur Paris ; puis atténuation.
+Températures minimales : comprises entre 19 et 20 degrés.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-Le soleil, très présent le matin, est moins éclatant l'après-midi, souvent voilé par des passages de nuages élevés. Pour la nuit : Le ciel est voilé, mais laisse apparaître les étoiles.
-En fin d'après-midi et jusqu'en milieu de nuit, vent s'établissant au Nord à Nord-Ouest, modéré ; puis atténuation.
-Températures maximales pour le jour : comprises entre 30 et 31 degrés.
-Températures minimales pour la nuit suivante : entre 18 et 20 degrés.
+La journée, qui débute sous un franc soleil, voit peu à peu quelques nuages élevés circuler. L'après-midi voit passer un peu plus de nuages, mais les éclaircies restent belles. Pour la nuit : Les éclaircies sont belles toute la nuit. Les passages nuageux, peu nombreux, restent inoffensifs.
+En fin de journée et début de nuit, vent s'établissant au Nord à Nord-Ouest, modéré ; puis atténuation.
+Températures maximales pour le jour : de 30 à 32 degrés.
+Températures minimales pour la nuit suivante : entre 19 et 20 degrés.
 
 • Pour la journée de lundi 17 et la nuit suivante :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Etablissement, en fin d'après-midi, d'un vent de Nord-Ouest, modéré ; atténuation ensuite.
-Températures maximales pour le jour : entre 29 et 32 degrés.
-Températures minimales pour la nuit suivante : de 17 à 18 degrés.
+Etablissement, en fin de journée et début de nuit, d'un vent de Nord-Ouest, modéré ; atténuation ensuite.
+Températures maximales pour le jour : comprises entre 29 et 30 degrés.
+Températures minimales pour la nuit suivante : entre 17 et 18 degrés.
 
 • Pour la journée de mardi 18 :
-Le soleil domine largement du matin au soir.
+Le temps est ensoleillé du matin au soir.
 L'après-midi jusqu'en début de soirée, établissement d'un vent d'Ouest, modéré.
-Températures maximales : entre 30 et 33 degrés.
+Températures maximales : de 30 à 32 degrés.
 
 • Pour mercredi 19 et jeudi 20 :
 Sur une grande moité ouest, éclaircies prédominantes, risque de pluie temporaire. Sur les autres régions, beau temps sec et bien ensoleillé.
@@ -73,44 +74,44 @@ Températures minimales : stables.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===
-Emis le : 15/08/2026 09:30
+Emis le : 15/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance orange pour le phénomène canicule.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Marignane : température de 28 degrés, vent de secteur Sud-Est soufflant jusqu'à 15 km/h, pression niveau mer 1015 hPa.
-A Aix-en-Provence : température de 27 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 15 km/h.
+Aujourd'hui on observait à 12h :
+A Marignane : température de 32 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1014 hPa.
+A Aix-en-Provence : température de 34 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 10 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 15 :
-Après un début de journée assez bien ensoleillé, les nuages deviennent un peu plus nombreux l'après-midi. Quelques orages accompagnés de pluies sont possibles, sur le val de Durance et la Sainte Baume.
-Vent de Sud-Ouest assez faible.
-Températures maximales : comprises entre 36 et 38 degrés, et de 31 à 33 degrés sur la Camargue et les Calanques.
+• Pour cet après-midi :
+Le temps est très largement ensoleillé. Cependant entre Trets et Aubagne les nuages sont nombreux et donnent quelques averses en début d'après-midi.
+Vent faible de Sud-Ouest.
+Températures maximales : entre 34 et 37 degrés, et 32 degrés de Marseille à La Ciotat.
 
 • Pour la nuit prochaine :
-Le temps se déroule sous un ciel clair. Ce n'est qu'en fin de nuit, que des nuages viennent voiler les étoiles.
-Vent faible.
-Températures minimales : du Rhône à l'étang de Berre et autour de Marseille entre 22 et 25 degrés. Entre 18 et 21 degrés entre Peyrolles Aix et Aubagne.
+Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
+Vent faible de direction variable.
+Températures minimales : du Rhône à Aix et à Marseille entre 22 et 24 degrés. De 18 à 19 degrés sur le val de Durance et la Sainte Baume.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-La journée débute avec un temps bien ensoleillé. Cependant, l'après-midi, des nuages bourgeonnent et de petites averses sont possibles, dans le val de Durance. Pour la nuit : Les nuages présents en soirée se dissipent en première partie de nuit, puis laissent toute la place aux étoiles.
-Vent généralement faible.
-Températures maximales pour le jour : entre 33 et 36 degrés, et 31 degrés à Marseille et dans les Calanques.
-Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille de 22 à 25 degrés. 19 degrés sur le val de Durance et la Sainte Baume.
+La journée est ensoleillée. Il faut attendre la fin d'après-midi, pour voir le soleil voilé par des nuages, des Alpilles au golfe de Fos. Pour la nuit : Les nuages présents en soirée se dissipent en première partie de nuit, puis laissent toute la place aux étoiles.
+Vent faible dans l'ensemble.
+Températures maximales pour le jour : de 34 à 36 degrés, et comprises entre 31 et 32 degrés sur la Camargue et les Calanques.
+Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille de 22 à 25 degrés. 18 degrés sur le val de Durance et la Sainte Baume.
 
 • Pour la journée de lundi 17 et la nuit suivante :
-Le temps est ensoleillé du matin au soir. Pour la nuit : Le ciel est clair toute la nuit.
-L'après-midi et la nuit suivante, établissement d'un vent de Nord à Nord-Ouest, souvent assez fort. Rafales atteignant 65 km/h localement, l'après-midi et en début de nuit.
-Températures maximales pour le jour : de 33 à 36 degrés.
-Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille comprises entre 22 et 25 degrés. De 18 à 19 degrés sur le val de Durance et la Sainte Baume.
+Le soleil règne en maître du matin au soir. Pour la nuit : Le ciel est bien étoilé.
+L'après-midi et la nuit suivante, établissement d'un vent de Nord à Nord-Ouest, généralement assez fort. Rafales atteignant 55 km/h sur une large moitié Est du département, l'après-midi et en début de nuit.
+Températures maximales pour le jour : comprises entre 34 et 35 degrés.
+Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille comprises entre 23 et 25 degrés. Comprises entre 20 et 21 degrés sur le val de Durance et la Sainte Baume.
 
 • Pour la journée de mardi 18 :
-Le soleil domine largement du matin au soir.
-Vent de Nord-Ouest, assez fort, en fin de matinée, sur la Camargue et les Calanques ; après une atténuation, reprise du vent, en cours d'après-midi, avec orientation à l'Ouest. Avec des rafales atteignant 55 km/h.
-Températures maximales : entre 34 et 37 degrés.
+L'ensoleillement est excellent et le soleil règne sans partage.
+Jusqu'en milieu d'après-midi, vent d'Ouest à Nord-Ouest, localement assez fort ; ensuite atténuation. Rafales atteignant 65 km/h sur une large moitié ouest du département.
+Températures maximales : entre 33 et 36 degrés.
 
 • Pour mercredi 19 et jeudi 20 :
 Beau temps sec et bien ensoleillé.
@@ -131,46 +132,46 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse autour de la Sainte Baume.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 15/08/2026 09:30
+Emis le : 15/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département de la Gironde est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Bordeaux : température de 23 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1016 hPa, cumul de précipitations en 12h : 2 mm.
-Au Cap-Ferret : température de 25 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 30 km/h.
-A Libourne : température de 23 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 10 km/h, cumul de précipitations en 12h : 4 mm.
+Aujourd'hui on observait à 12h :
+A Bordeaux : température de 26 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1017 hPa, cumul de précipitations en 12h : 2 mm.
+Au Cap-Ferret : température de 28 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 15 km/h.
+A Libourne : température de 26 degrés, vent de secteur Sud soufflant jusqu'à 15 km/h, cumul de précipitations en 12h : 4 mm.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 15 :
-Le ciel est partagé entre nuages et éclaircies. Les éclaircies, belles le matin, se réduisent l'après-midi et de rares averses se produisent sur l'Est du département en fin d'après-midi.
-Vent de secteur Ouest, généralement modéré.
-Températures maximales : comprises entre 29 et 32 degrés.
+• Pour cet après-midi :
+Le ciel est voilé. En fin d'après-midi, sur l'Est du département, des nuages plus épais peuvent donner quelques averses.
+Vent généralement modéré, d'Ouest à Nord-Ouest.
+Températures maximales : de 32 à 33 degrés, et 29 degrés sur le bord de mer.
 
 • Pour la nuit prochaine :
-En première partie de nuit, quelques averses sont prévues. On peut même entendre quelques coups de tonnerre, sur l'Est du département. En seconde partie de nuit, le temps devient sec.
-On prévoit au maximum jusqu'à 30 millimètres de pluie sur les Landes girondines.
-Vent variable, généralement modéré, la nuit ; puis atténuation. Rafales atteignant 65 km/h localement.
-Températures minimales : de 18 à 20 degrés.
+En début de nuit, des averses sont partout possibles, sous les nombreux passages nuageux. Elles prennent un caractère orageux sur l'Est du département, et s'accompagnent parfois même de grêle. En seconde partie de nuit, les précipitations cessent, puis avant l'aube le ciel se couvre.
+15 millimètres est le cumul maximum de pluie attendu sur les Landes girondines.
+Vent variable, généralement modéré, la nuit ; puis atténuation. Rafales atteignant 55 km/h localement.
+Températures minimales : comprises entre 19 et 20 degrés.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-En matinée le ciel est largement ensoleillé. Mais ce ciel bleu ne résiste pas partout. Dès la mi-journée, sur la moitié Sud-Est du département, les nuages deviennent plus nombreux et délivrent quelques averses. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Vent généralement modéré, d'Ouest à Sud-Ouest.
-Températures maximales pour le jour : entre 28 et 31 degrés.
-Températures minimales pour la nuit suivante : entre 18 et 20 degrés.
+La journée débute avec un temps bien ensoleillé. Cependant, l'après-midi, des nuages bourgeonnent et de petites averses sont possibles, sur les Landes girondines. Pour la nuit : Le ciel est clair, toute la nuit. Seuls quelques nuages se développent, avant l'aurore, sur le Sud-Est du département. Mais, ils restent minoritaires.
+Vent généralement d'Ouest à Sud-Ouest modéré, en journée et une grande partie de la nuit suivante ; puis s'atténuant.
+Températures maximales pour le jour : de 28 à 31 degrés, et 27 degrés sur le Bassin d'Arcachon.
+Températures minimales pour la nuit suivante : comprises entre 18 et 20 degrés.
 
 • Pour la journée de lundi 17 et la nuit suivante :
-Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-L'après-midi et une grande partie de la nuit suivante, vent s'établissant à l'Ouest à Nord-Ouest, modéré ; puis atténuation.
-Températures maximales pour le jour : entre 30 et 32 degrés, et 24 degrés sur le littoral.
-Températures minimales pour la nuit suivante : de 17 à 19 degrés, et 22 degrés sur le littoral.
+Le soleil est bien présent malgré des passages nuageux en milieu de journée. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Etablissement, l'après-midi et une grande partie de la nuit suivante, d'un vent d'Ouest à Nord-Ouest, modéré ; atténuation ensuite.
+Températures maximales pour le jour : autour de 29 à 32 degrés, et 23 degrés sur le littoral.
+Températures minimales pour la nuit suivante : entre 17 et 19 degrés, et 22 degrés sur le littoral.
 
 • Pour la journée de mardi 18 :
-Le soleil est généreux tout au long de la journée.
+La journée est ensoleillée, avec tout au plus quelques nuages très discrets.
 L'après-midi jusqu'en début de soirée, établissement d'un vent de Nord-Ouest, souvent modéré.
-Températures maximales : autour de 32 à 35 degrés, et 23 degrés sur le littoral.
+Températures maximales : de 29 à 32 degrés, et 24 degrés sur le littoral.
 
 • Pour mercredi 19 et jeudi 20 :
 Sur le littoral, sur le Libournais, sur l'agglomération bordelaise ainsi que sur l'Entre-Deux-Mers, temps plutôt ensoleillé, en dépit de quelques passages nuageux, risque de pluie ou d'averses temporaire. Ailleurs, temps le plus souvent ensoleillé.
@@ -191,45 +192,45 @@ Températures minimales : stables.
 Températures maximales : en baisse sur l'Entre-Deux-Mers.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 15/08/2026 09:30
+Emis le : 15/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département du Rhône est en vigilance orange pour le phénomène canicule et en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Lyon : température de 26 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 15 km/h, pression niveau mer 1014 hPa.
-Aux Sauvages : température de 26 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 20 km/h.
-A Brindas : température de 25 degrés.
+Aujourd'hui on observait à 12h :
+A Lyon : température de 33 degrés, vent de secteur Sud soufflant jusqu'à 15 km/h, pression niveau mer 1013 hPa.
+Aux Sauvages : température de 32 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 30 km/h.
+A Brindas : température de 33 degrés.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 15 :
-La journée commence sous un grand soleil. Progressivement des nuages apparaissent et le ciel se voile en cours d'après-midi.
-À la tombée du jour, vent d'Ouest modéré, des monts du Lyonnais à Givors.
-Températures maximales : comprises entre 34 et 37 degrés. Ces températures sont bien au-dessus des valeurs normalement observées.
+• Pour cet après-midi :
+Le temps est majoritairement sec dans l'après-midi, même si quelques averses sont possibles à la mi-journée, dans les monts du Lyonnais. Les quelques nuages, déjà discrets à la mi-journée, se dissipent rapidement et le soleil brille largement.
+À la tombée du jour, vent s'orientant Ouest à Nord-Ouest, modéré par endroits.
+Températures maximales : entre 36 et 39 degrés, et 34 degrés dans les monts du Lyonnais. Ces températures sont très au-dessus des valeurs de saison.
 
 • Pour la nuit prochaine :
-Éclaircies et passages nuageux alternent dans le ciel tout au long de la nuit. De rares averses sont possibles dans le Beaujolais.
-En première partie de nuit, vent d'Ouest à Sud-Ouest, localement modéré. Nouveau renforcement au lever du jour, dans le Beaujolais, avec orientation au Nord-Ouest.
-Températures minimales : entre 22 et 25 degrés, et comprises entre 20 et 21 degrés des monts du Lyonnais à Givors. Ces températures sont au-dessus des valeurs normalement observées, par endroits très au-dessus.
+En soirée, l'état du ciel change vite, mais le temps reste sec. En seconde partie de nuit, les éclaircies prennent le dessus.
+La nuit, vent d'Ouest à Nord-Ouest généralement, modéré ; puis faiblissant.
+Températures minimales : comprises entre 23 et 26 degrés, et comprises entre 20 et 21 degrés sur le relief. Ces températures se situent au-dessus des valeurs normalement observées, par endroits bien au-dessus.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-Le voile nuageux se déchire en cours de matinée, mais les éclaircies ne durent pas. L'après-midi, le ciel se charge peu à peu, et les nuages apportent quelques averses dans le Beaujolais, au confluent Brévenne Turdine Azergues ainsi que des monts du Lyonnais à Givors. Pour la nuit : Le temps est majoritairement sec, même si quelques averses sont possibles en première partie de nuit, dans le Beaujolais. Les quelques nuages, déjà discrets en soirée, se dissipent rapidement.
-L'après-midi jusqu'en début de soirée, vent s'établissant au Nord à Nord-Ouest, généralement modéré ; puis atténuation.
-Températures maximales pour le jour : entre 31 et 34 degrés. Ces températures se situent au-dessus des valeurs de saison.
-Températures minimales pour la nuit suivante : de 19 à 22 degrés, et 18 degrés dans les monts du Lyonnais.
+Après un début de journée assez bien ensoleillé, les nuages deviennent un peu plus nombreux l'après-midi. Quelques orages accompagnés de pluies sont possibles, des monts du Lyonnais à Givors. Pour la nuit : Les quelques nuages en soirée se dissipent rapidement. L'accalmie est courte, car en milieu de nuit, quelques averses tombent, sur les coteaux du Lyonnais, en Val de Saône ainsi qu'au confluent Brévenne Turdine Azergues, et peuvent évoluer en orages. Il faut attendre la fin de nuit pour retrouver un temps sec.
+L'après-midi et en début de nuit, vent s'orientant au Nord virant Nord-Nord-Ouest, souvent modéré ; atténuation ensuite.
+Températures maximales pour le jour : de 31 à 34 degrés, et 35 degrés en agglomération lyonnaise. Ces températures sont au-dessus des valeurs de saison.
+Températures minimales pour la nuit suivante : de 20 à 22 degrés, et 18 degrés dans les monts du Lyonnais.
 
 • Pour la journée de lundi 17 et la nuit suivante :
-Le ciel est nuageux au lever du jour avec quelques averses en fin de matinée, en agglomération lyonnaise, au confluent Brévenne Turdine Azergues ainsi que sur le relief. L'amélioration se généralise l'après-midi avec de larges éclaircies. Pour la nuit : Le ciel est clair toute la nuit.
-Etablissement, l'après-midi jusqu'en début de soirée, d'un vent de Nord, modéré ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 29 et 32 degrés, et 27 degrés dans les monts du Lyonnais.
-Températures minimales pour la nuit suivante : voisines de 16 à 19 degrés, et 15 degrés dans les monts du Lyonnais.
+Le matin le ciel est souvent bien nuageux. De petites averses sont possibles, sauf sur l'Est-Lyonnais. Une amélioration se dessine en cours d'après-midi. Non seulement les précipitations se raréfient puis disparaissent en fin de journée, mais de belles éclaircies se développent. Pour la nuit : Le ciel est clair toute la nuit.
+Vent de Nord à Nord-Ouest, modéré, en journée ; puis atténuation.
+Températures maximales pour le jour : de 29 à 32 degrés, et 27 degrés dans les monts du Lyonnais.
+Températures minimales pour la nuit suivante : entre 18 et 20 degrés, et 15 degrés dans les monts du Lyonnais.
 
 • Pour la journée de mardi 18 :
-Le soleil brille sans interruption.
-En milieu d'après-midi, vent s'orientant au Nord-Ouest, modéré par endroits ; puis atténuation.
-Températures maximales : de 32 à 35 degrés, et 30 degrés dans les monts du Lyonnais.
+La journée est ensoleillée, avec tout au plus quelques nuages très discrets.
+En seconde partie de journée, vent s'établissant au Nord, généralement modéré ; puis atténuation.
+Températures maximales : entre 30 et 33 degrés, et 29 degrés dans les monts du Lyonnais.
 
 • Pour mercredi 19 et jeudi 20 :
 Temps largement ensoleillé.
@@ -250,48 +251,46 @@ Températures minimales : stables.
 Températures maximales : en baisse dans le Beaujolais.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
-Emis le : 15/08/2026 09:30
+Emis le : 15/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département de la Haute-Garonne est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Toulouse-Blagnac : température de 24 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1017 hPa.
-A Luchon : température de 19 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 5 km/h.
-A Saint-Félix-Lauragais : température de 23 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 10 km/h.
+Aujourd'hui on observait à 12h :
+A Toulouse-Blagnac : température de 28 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1016 hPa.
+A Luchon : température de 28 degrés, vent de secteur Nord-Est soufflant jusqu'à 10 km/h.
+A Saint-Félix-Lauragais : température de 26 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui samedi 15 :
-La matinée présente un ciel clément, et assez bien ensoleillé. L'après-midi, les nuages deviennent plus nombreux au fil des heures, avec un risque d'orage accompagné de pluies.
-Les plus forts cumuls de pluie peuvent avoisiner 15 millimètres sur le Cagire et le Luchonnais.
-En milieu d'après-midi, vent variable modéré, sur la plaine et le piémont. Avec des rafales atteignant 65 km/h.
-Températures maximales : sur la plaine et le piémont de 31 à 34 degrés. 29 degrés sur le Cagire et le Luchonnais.
+• Pour cet après-midi :
+Le soleil est bien présent à la mi-journée. En milieu d'après-midi, les nuages se développent et donnent quelques rares averses. Très vite le risque d'orages s'accentue. Ils peuvent être forts, avec parfois de la grêle sur les coteaux de Gascogne ainsi que du Lauragais aux coteaux de Cadours.
+20 millimètres est le cumul maximum de pluie attendu sur le Cagire et le Luchonnais.
+Vent de Sud-Ouest puis Sud à Sud-Est, généralement modéré. Avec, du Lauragais au muretain, des rafales atteignant 85 km/h, à la tombée du jour.
+Températures maximales : sur la plaine et le piémont comprises entre 30 et 33 degrés. 28 degrés sur le Cagire et le Luchonnais.
 
 • Pour la nuit prochaine :
-Le temps est généralement sec, mais en soirée quelques gouttes sont possibles dans l'Agglomération toulousaine, dans le Volvestre ainsi que dans le Saint-Gaudinois.
-Les plus forts cumuls de pluie attendus sont de 10 millimètres dans l'Agglomération toulousaine.
+En début de nuit, les nuages sont très nombreux, et de faibles pluies se produisent par places. Les éclaircies reviennent dès le milieu de nuit dans l'Agglomération toulousaine, du Lauragais au muretain ainsi que sur le piémont et la montagne, puis se généralisent.
 En deuxième partie de nuit, vent s'orientant Ouest modéré, sur les coteaux de Gascogne ; atténuation ensuite.
-Températures minimales : sur la plaine et le piémont comprises entre 18 et 20 degrés. 16 degrés sur le Cagire et le Luchonnais.
+Températures minimales : de 17 à 20 degrés.
 
 • Pour demain dimanche 16 en journée et la nuit suivante :
-Le temps est nuageux. Parfois en matinée, un soleil voilé réussit à percer. À la mi-journée, les nuages deviennent plus menaçants, des averses se produisent sur le piémont et la montagne. Elles se généralisent en cours d'après-midi, mais restent faibles et éparses. Pour la nuit : C'est un ciel très largement étoilé qui domine avec des passages nuageux plus nombreux en début et en fin de nuit.
-5 millimètres est le cumul maximum de pluie attendu sur le Cagire et le Luchonnais.
-L'après-midi jusqu'en début de soirée, vent de Nord-Ouest, localement modéré. Après une atténuation, vent s'établissant en seconde partie de nuit, à l'Ouest, sur les coteaux de Gascogne.
-Températures maximales pour le jour : sur la plaine et le piémont de 28 à 31 degrés. 25 degrés sur le Cagire et le Luchonnais.
-Températures minimales pour la nuit suivante : sur la plaine et le piémont comprises entre 18 et 21 degrés. 15 degrés sur le Cagire et le Luchonnais.
+Nuages et éclaircies passagères se partagent le ciel. L'après-midi, les averses se manifestent. Elles sont ponctuellement soutenues sur le Cagire et le Luchonnais, et un orage n'est pas exclu. Pour la nuit : La soirée est calme et le ciel dégagé. Avant minuit, quelques nuages se développent, sur le Lauragais, dans le Volvestre ainsi que dans le Saint-Gaudinois, puis ils deviennent de plus en plus présents, et se généralisent partout avant l'aurore.
+L'après-midi jusqu'en début de soirée, vent de Nord-Ouest, localement modéré. Après une atténuation, vent s'établissant en milieu de nuit, à l'Ouest, sur les coteaux de Gascogne.
+Températures maximales pour le jour : sur la plaine et le piémont comprises entre 27 et 30 degrés. 26 degrés sur le Cagire et le Luchonnais.
+Températures minimales pour la nuit suivante : sur la plaine et le piémont entre 19 et 20 degrés. 16 degrés sur le Cagire et le Luchonnais.
 
 • Pour la journée de lundi 17 et la nuit suivante :
-C'est une belle journée qui s'annonce. Les quelques nuages du petit matin cèdent rapidement la place à de larges éclaircies. L'après-midi promet d'être bien ensoleillée. Pour la nuit : Le ciel est largement dégagé. Il faut juste attendre la dissipation des brouillards peu denses, présents en soirée sur le Cagire et le Luchonnais, pour observer les étoiles.
-Vent de Nord-Ouest, modéré, en journée, sur la plaine et le piémont ; après une atténuation, reprise du vent, en seconde partie de nuit, avec orientation à l'Ouest.
-Températures maximales pour le jour : entre 28 et 31 degrés, et 32 degrés dans l'Agglomération toulousaine.
-Températures minimales pour la nuit suivante : sur la plaine et le piémont entre 18 et 20 degrés. 14 degrés sur le Cagire et le Luchonnais.
+Déjà bien présent en matinée, le soleil est de plus en plus généreux l'après-midi. Pour la nuit : Le ciel est largement dégagé. Il faut juste attendre la dissipation des brouillards peu denses, présents en soirée sur le Cagire et le Luchonnais, pour observer les étoiles.
+En journée, vent d'Ouest à Nord-Ouest, modéré sur le Midi Toulousain ; puis s'atténuant ; reprise du vent par endroits, en seconde partie de nuit.
+Températures maximales pour le jour : entre 28 et 30 degrés.
+Températures minimales pour la nuit suivante : sur la plaine et le piémont comprises entre 18 et 20 degrés. 13 degrés sur le Cagire et le Luchonnais.
 
 • Pour la journée de mardi 18 :
-Le soleil domine largement du matin au soir.
-En cours d'après-midi, vent s'établissant au Nord-Ouest modéré, sur le Lauragais ; puis atténuation.
-Températures maximales : comprises entre 31 et 34 degrés, et 35 degrés sur le Lauragais.
+Le temps est ensoleillé du matin au soir.
+L'après-midi, vent s'établissant au Nord-Ouest modéré, sur le Lauragais ; puis atténuation.
+Températures maximales : entre 28 et 31 degrés, et 32 degrés sur le Lauragais.
 
 • Pour mercredi 19 et jeudi 20 :
 Dans le Volvestre ainsi que sur le piémont et la montagne, éclaircies prédominantes, risque de pluie et d'temps passagèrement orageux. Ailleurs, soleil et ciel bleu prédominent.
@@ -321,20 +320,20 @@ FQCT40 LFML 150930 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Dimanche, des orages éclateront sur les deux tiers sud de la 
-France et pourraient s'intensifier en soirée. À l'heure actuelle, 
-le risque de passage en Vigilance Orange pour cet épisode 
-est faible.
-A partir de dimanche, les températures baissent sur une 
-bonne partie du pays, mais resteront encore chaudes sur un 
-large quart sud-est du pays.
+J+2 et J+3 ﻿Lundi, les températures sont en baisse sur une bonne partie 
+du pays, mais restent encore chaudes sur un large quart sud-
+est du pays. Ainsi, forte probabilité que la vigilance orange 
+canicule soit maintenue dans cette zone.
+Mardi, le risque canicule se maintient seulement sur l'est 
+pourtour méditerranéen.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
 De J+4 à J+7 ﻿La canicule devrait se poursuivre sur plusieurs départements 
-du quart sud-est, au moins jusqu''à mardi. 
-Jeudi et vendredi, une franche dégradation orageuse devrait 
-se produire sur de nombreuses régions, particulièrement du 
-sud-ouest au nord-est.
+autour de la Méditerranée jusqu'à mercredi. Des orages concerneront la moitié sud durant toute la 
+période. En particulier jeudi sur le quart sud-est, notamment 
+sur les départements méditerranéens où une dégradation 
+pluvio-orageuse marquée est attendue avec des cumuls de 
+pluies importants en peu de temps.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -347,11 +346,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : &#xC9;té 2026 et éco-anxiété
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : A Ciel Ouvert
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 10 ao&#xFB;t au 16 ao&#xFB;t 2026 prévisions météo semaine 33
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 15/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -359,44 +358,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 15 Août 2026.
-Résumé général précédent : Après une première semaine de transition vers un temps plus frais, la deuxième semaine pourrait voir un retour de la chaleur, surtout dans le sud, mais avec une incertitude significative..
+Résumé général précédent : Après une première semaine de transition avec un net rafraîchissement à partir de mercredi, la deuxième semaine pourrait voir un temps plus frais et plus calme, mais avec une grande incertitude..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages possibles les 20-21 août au passage du front, plus marqués sur le relief..
+Températures attendues précédemment : Rafraîchissement généralisé, nuits plus supportables, précipitations faibles..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: trugll
-Message:
-il y a 43 minutes, mike a dit :
-			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
-	Ben oui, c'est bien ce que j' évoque.
-	Tu me parles du dernier exemple en date qui a plus de 30 ans....
-	Vu qu'il fait globalement plus chaud à tous les étages, été comme hiver, le chaud a forcément beaucoup plus de facilités à s'imposer.
-	En hiver, on cherche les réserves froides, et il n' y en a quasiment plus.
-	En été, on commence à chercher les réserves fraîches, et bien on peut les chercher......
-								3
-
-=======================
-
-Auteur: Victor hurricane tempête
-Message:
-il y a 35 minutes, mike a dit :
-			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
-	Avec un balayage ouest et de la neige au sol je suppose qu'il'y'a de l'inertie air froid balayé rapidement en altitude par contre au sol peut être un peut plus longtemps (mais de toutes façons ça finit par arriver rapidement). Je ne y connais pas assez mais c'est une supposition.
-	Par contre je n'ai pas trop compris pourquoi tu as parlé de ces deux références... Si le courant doit ce n'est pas venu c'est que la synoptique si est prêtée, le courant doit être s'il veut revenir il reviendra. Si l'on prend des exemples comme ça, alors je peux très bien dire aussi qu'en décembre 1970 il y a eu encore plus de neige en France avec une bague de froid historique et ça n'a pas empêché le retour du flux d'ouest malgré tout.
-	En tout cas, quoi qu'il en soit, pour la situation actuelle, ça va être vraiment difficile de changer de synoptique. Il faudra vraiment compter sur le changement de saison...
-								1
-
-=======================
-
-Auteur: bernardt60
-Message:
-Bon maintenant on passe aux prévisions !
-								5
-								7
-
-=======================
-
 Auteur: moumou31
 Message:
 GFS maintient que l'épisode de très forte chaleur s'évacuera entre jeudi et vendredi.
@@ -412,7 +379,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 15 heures par tao
+	Modifié il y a 17 heures par tao
 								9
 								1
 
@@ -448,10 +415,10 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 15 heures par _sb
-								8
+	Modifié il y a 17 heures par _sb
+								9
 								2
-								13
+								14
 								1
 
 =======================
@@ -462,7 +429,7 @@ il y a 11 minutes, _sb a dit :
 			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
 	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
 								3
-								3
+								4
 
 =======================
 
@@ -472,7 +439,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 14 heures par _sb
+	Modifié il y a 16 heures par _sb
 								2
 								1
 
@@ -494,7 +461,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 14 heures par greg13
+	Modifié il y a 16 heures par greg13
 
 =======================
 
@@ -509,7 +476,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 14 heures par lapin61
+	Modifié il y a 16 heures par lapin61
 Correction orthographe
 
 =======================
@@ -538,7 +505,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 13 heures par petit âge glaciaire 11
+	Modifié il y a 15 heures par petit âge glaciaire 11
 								5
 								1
 								3
@@ -620,7 +587,8 @@ il y a 5 minutes, Jojobarbar a dit :
 	On va pas palabrer pendant des heures. Chacun son avis.
 	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
 	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
-								7
+								1
+								8
 
 =======================
 
@@ -630,6 +598,7 @@ Bonjour.
 	Fidèle à la tradition, il semblerait qu'un changement de temps se profile pour ce topic. La chaleur serait en nette replie, au moins sur la moitié nord.
 	Il reste un point d'interrogation, par contre, concernant les précipitations qui ne devraient pas être conséquent, en tout cas pour l'instant.
 	Enfin des bonnes nouvelles.
+								3
 
 =======================
 
@@ -642,42 +611,48 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 3 minutes par Virgile
+	Modifié il y a 2 heures par Virgile
+								12
+								2
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 58 minutes, Virgile a dit :
+			Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
+	Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
+	Plus sérieusement. J’espère qu’on tient enfin le bon bout
+
+=======================
+
+Auteur: zagueb83
+Message:
+il y a 1 minute, Krholam a dit :
+			Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
+			Plus sérieusement. J’espère qu’on tient enfin le bon bout
+	On ne va pas rester dans cette configuration jusqu'au mois de Juin 2027 ! il va forcement avoir un changement ! 
+	Comme toi je l'espère aussi !  
+								1
+								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Les modèles semblent s'accorder pour éloigner durable les masses d'air très chauds qui nous ont envahis une bonne partie de l'été.
+	Cela devrait se faire progressivement au cours du topic et vendredi l'ensemble du pays devrait enfin pouvoir souffler.
+	Ensemble GEM :
+	Ensemble CEP :
+	Ensemble GEFS :
+	Je pense qu'on peut maintenant raisonnablement être optimiste et penser que ces millions de français vivant ou travaillant dans des passoires thermiques pourront vivre leur vie d'une manière plus normale sans devoir sans cesse s'adapter pour survivre à des conditions éprouvantes. 
+	Au niveau du sol on pzur enfin espérer enfin des températures normales :
+	A confirmer pour les déterministes c'est encore loin 
+								2
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: trugll
-Message:
-il y a 43 minutes, mike a dit :
-			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
-	Ben oui, c'est bien ce que j' évoque.
-	Tu me parles du dernier exemple en date qui a plus de 30 ans....
-	Vu qu'il fait globalement plus chaud à tous les étages, été comme hiver, le chaud a forcément beaucoup plus de facilités à s'imposer.
-	En hiver, on cherche les réserves froides, et il n' y en a quasiment plus.
-	En été, on commence à chercher les réserves fraîches, et bien on peut les chercher......
-								3
-
-=======================
-
-Auteur: Victor hurricane tempête
-Message:
-il y a 35 minutes, mike a dit :
-			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
-	Avec un balayage ouest et de la neige au sol je suppose qu'il'y'a de l'inertie air froid balayé rapidement en altitude par contre au sol peut être un peut plus longtemps (mais de toutes façons ça finit par arriver rapidement). Je ne y connais pas assez mais c'est une supposition.
-	Par contre je n'ai pas trop compris pourquoi tu as parlé de ces deux références... Si le courant doit ce n'est pas venu c'est que la synoptique si est prêtée, le courant doit être s'il veut revenir il reviendra. Si l'on prend des exemples comme ça, alors je peux très bien dire aussi qu'en décembre 1970 il y a eu encore plus de neige en France avec une bague de froid historique et ça n'a pas empêché le retour du flux d'ouest malgré tout.
-	En tout cas, quoi qu'il en soit, pour la situation actuelle, ça va être vraiment difficile de changer de synoptique. Il faudra vraiment compter sur le changement de saison...
-								1
-
-=======================
-
-Auteur: bernardt60
-Message:
-Bon maintenant on passe aux prévisions !
-								5
-								7
-
-=======================
-
 Auteur: moumou31
 Message:
 GFS maintient que l'épisode de très forte chaleur s'évacuera entre jeudi et vendredi.
@@ -693,7 +668,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 15 heures par tao
+	Modifié il y a 17 heures par tao
 								9
 								1
 
@@ -729,10 +704,10 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 15 heures par _sb
-								8
+	Modifié il y a 17 heures par _sb
+								9
 								2
-								13
+								14
 								1
 
 =======================
@@ -743,7 +718,7 @@ il y a 11 minutes, _sb a dit :
 			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
 	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
 								3
-								3
+								4
 
 =======================
 
@@ -753,7 +728,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 14 heures par _sb
+	Modifié il y a 16 heures par _sb
 								2
 								1
 
@@ -775,7 +750,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 14 heures par greg13
+	Modifié il y a 16 heures par greg13
 
 =======================
 
@@ -790,7 +765,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 14 heures par lapin61
+	Modifié il y a 16 heures par lapin61
 Correction orthographe
 
 =======================
@@ -819,7 +794,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 13 heures par petit âge glaciaire 11
+	Modifié il y a 15 heures par petit âge glaciaire 11
 								5
 								1
 								3
@@ -901,7 +876,8 @@ il y a 5 minutes, Jojobarbar a dit :
 	On va pas palabrer pendant des heures. Chacun son avis.
 	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
 	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
-								7
+								1
+								8
 
 =======================
 
@@ -911,6 +887,7 @@ Bonjour.
 	Fidèle à la tradition, il semblerait qu'un changement de temps se profile pour ce topic. La chaleur serait en nette replie, au moins sur la moitié nord.
 	Il reste un point d'interrogation, par contre, concernant les précipitations qui ne devraient pas être conséquent, en tout cas pour l'instant.
 	Enfin des bonnes nouvelles.
+								3
 
 =======================
 
@@ -923,5 +900,43 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 3 minutes par Virgile
+	Modifié il y a 2 heures par Virgile
+								12
+								2
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 58 minutes, Virgile a dit :
+			Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
+	Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
+	Plus sérieusement. J’espère qu’on tient enfin le bon bout
+
+=======================
+
+Auteur: zagueb83
+Message:
+il y a 1 minute, Krholam a dit :
+			Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
+			Plus sérieusement. J’espère qu’on tient enfin le bon bout
+	On ne va pas rester dans cette configuration jusqu'au mois de Juin 2027 ! il va forcement avoir un changement ! 
+	Comme toi je l'espère aussi !  
+								1
+								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Les modèles semblent s'accorder pour éloigner durable les masses d'air très chauds qui nous ont envahis une bonne partie de l'été.
+	Cela devrait se faire progressivement au cours du topic et vendredi l'ensemble du pays devrait enfin pouvoir souffler.
+	Ensemble GEM :
+	Ensemble CEP :
+	Ensemble GEFS :
+	Je pense qu'on peut maintenant raisonnablement être optimiste et penser que ces millions de français vivant ou travaillant dans des passoires thermiques pourront vivre leur vie d'une manière plus normale sans devoir sans cesse s'adapter pour survivre à des conditions éprouvantes. 
+	Au niveau du sol on pzur enfin espérer enfin des températures normales :
+	A confirmer pour les déterministes c'est encore loin 
+								2
 								1
