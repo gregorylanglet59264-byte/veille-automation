@@ -288,7 +288,7 @@ Températures minimales : en baisse sur le Lauragais ainsi que dans le Saint-Gau
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 141620 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 14 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 14 août 2026 à 12H00 UTC, et évolution Faible gradient de pression près de 1016 hPa, en baisse lentement près de 1013 hPa en soirée. Peu de changement demain. 3 - Prévisions pour la nuit du vendredi 14 août au samedi 15 août VENT : Variable 2 à 4, d'Ouest dominant de Marseille à Camarat. MER : belle. HOULE : non significative. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du samedi 15 août VENT : Ouest dominant 2 à 4, revenant Sud-Ouest à l'ouest de Cap Croisette l'après-midi. MER : belle. HOULE : non significative. TEMPS : passagèrement voilé, quelques nuages bas le matin vers la Camargue. VISIBILITE : bonne. 5 - Tendance pour la nuit du 15 au 16, et la journée du dimanche 16 août VENT : Variable 2 à 4, d'Ouest dominant de Marseille à Camarat, devenant Ouest à Sud-Ouest 2 à 4 partout l'après-midi, parfois 5 à l'est du Levant. MER : belle, localement peu agitée à l'est du Levant l'après-midi. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 16 au 17 et la journée du lundi 17 août VENT : Ouest à Sud-Ouest 3 à 5, fraîchissant 5 à 7 en milieu d'après-midi en virant Ouest à Nord-Ouest. Rafales. MER : belle à peu agitée devenant agitée, localement forte de Camarat à St Raphaël. HOULE non significative s'établissant localement à l'Ouest à Sud-Ouest 1 à 1,5 m. 7 - Tendance pour les jours suivants Mardi 18 août Secteur Ouest modéré de la frontière espagnole à Saint-Raphaël et sur le sud de la Corse. Secteur Est faible à modéré de Saint-Raphaël à Menton et sur le nord de la Corse. Indice de confiance : 3 sur 5 Mercredi 19 août Secteur Ouest faible à modéré de la frontière espagnole à Saint-Raphaël. Variable faible à modéré de Saint-Raphaël à Menton et autour de la Corse. Indice de confiance : 3 sur 5 Jeudi 20 août Secteur Sud dominant, faible à modéré. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le vendredi 14 août 2026 à 15H00 UTC Cap Camarat : vent Nord 6 noeuds, nuageux avec éclaircies, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Porquerolles : vent Ouest 4 noeuds. Cap Couronne : vent Sud-Est 8 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le samedi 15 août 2026, vers 06H30 légales
+FQCT40 LFML 150350 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 15 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 15 août 2026 à 00H00 UTC, et évolution Faible gradient de pression proche de 1014 hPa, en baisse 1012 hPa en fin d'après-midi. 3 - Prévisions pour la journée du samedi 15 août VENT : Ouest dominant 2 à 4, mais Variable 1 à 3 à l'est du Levant le matin, et Nord dominant à l'ouest de Cap Couronne, revenant secteur Sud-Ouest 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : passagèrement voilé, quelques nuages bas le matin vers la Camargue. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 15 août au dimanche 16 août VENT : Variable 2 à 4, d'Ouest dominant de Marseille à Camarat. MER : belle, localement peu agitée à l'est du Levant. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 16 août VENT : Variable 2 à 4, d'Ouest dominant de Marseille à Camarat, s'orientant Ouest à Sud-Ouest 3 à 4 partout l'après-midi, localement 5 à l'est de Porquerolles et vers Port-Camargue. MER : belle, localement peu agitée à l'est de Porquerolles. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 16 au 17 et la journée du lundi 17 août VENT : De Port Camargue à Camarat Ouest à Sud-Ouest 3 à 5, fraîchissant 5 à 7 en milieu d'après-midi. Rafales. De Camarat à St Raphaël Ouest à Sud-Ouest 4 à 5, virant Nord-Est en milieu d'après-midi. MER : De Port Camargue à Fos mer peu agitée. De Fos à St Raphaël mer belle à peu agitée devenant agitée, à forte en milieu d'après-midi du Levant à Camarat. HOULE non significative s'établissant localement au Sud à Sud-Ouest 1 à 1,5 m. 7 - Tendance pour les jours suivants Mardi 18 août Secteur Ouest modéré de la frontière espagnole à Saint-Raphaël et sur le sud de la Corse. Secteur Est faible à modéré de Saint-Raphaël à Menton et sur le nord de la Corse. Indice de confiance : 3 sur 5 Mercredi 19 août Secteur Ouest faible à modéré de la frontière espagnole à Saint-Raphaël. Variable faible à modéré de Saint-Raphaël à Menton et autour de la Corse. Indice de confiance : 3 sur 5 Jeudi 20 août Secteur Sud dominant, faible à modéré. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le samedi 15 août 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Ouest 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Nord 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Porquerolles : vent Ouest-Nord-Ouest 8 noeuds. Cap Couronne : vent Nord-Nord-Est 6 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le samedi 15 août 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -320,8 +320,8 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
@@ -332,9 +332,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 15 Août 2026.
-Résumé général précédent : Après un épisode caniculaire intense en début de période, un net rafraîchissement se dessine en fin de semaine 1, surtout au nord. La semaine 2 s'annonce plus fraîche et plus instable, mais la chaleur pourrait se maintenir dans le quart sud-est, avec des températures encore au-dessus des normales..
+Résumé général précédent : Tendance à un rafraîchissement progressif, mais avec une chaleur persistante dans le sud-est et une possible dégradation orageuse en fin de période..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé en début de semaine, puis risque d'orages en fin de semaine sur le sud-est..
+Températures attendues précédemment : Nuits plus supportables après le rafraîchissement, malgré une chaleur persistante dans l'extrême sud. (107 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
@@ -356,7 +356,7 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
 
 =======================
 
@@ -407,7 +407,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 7 heures par tao
+	Modifié il y a 9 heures par tao
 								8
 								1
 
@@ -443,7 +443,7 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 7 heures par _sb
+	Modifié il y a 9 heures par _sb
 								5
 								2
 								9
@@ -467,7 +467,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 6 heures par _sb
+	Modifié il y a 8 heures par _sb
 								1
 								1
 
@@ -489,7 +489,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 6 heures par greg13
+	Modifié il y a 8 heures par greg13
 
 =======================
 
@@ -504,7 +504,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 6 heures par lapin61
+	Modifié il y a 8 heures par lapin61
 Correction orthographe
 
 =======================
@@ -533,7 +533,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 5 heures par petit âge glaciaire 11
+	Modifié il y a 7 heures par petit âge glaciaire 11
 								4
 								1
 								2
@@ -634,7 +634,7 @@ il y a 8 minutes, tao a dit :
 			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
 			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
 	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
 
 =======================
 
@@ -685,7 +685,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 7 heures par tao
+	Modifié il y a 9 heures par tao
 								8
 								1
 
@@ -721,7 +721,7 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 7 heures par _sb
+	Modifié il y a 9 heures par _sb
 								5
 								2
 								9
@@ -745,7 +745,7 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 6 heures par _sb
+	Modifié il y a 8 heures par _sb
 								1
 								1
 
@@ -767,7 +767,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 6 heures par greg13
+	Modifié il y a 8 heures par greg13
 
 =======================
 
@@ -782,7 +782,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 6 heures par lapin61
+	Modifié il y a 8 heures par lapin61
 Correction orthographe
 
 =======================
@@ -811,7 +811,7 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 5 heures par petit âge glaciaire 11
+	Modifié il y a 7 heures par petit âge glaciaire 11
 								4
 								1
 								2
