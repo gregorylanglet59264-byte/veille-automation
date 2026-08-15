@@ -1,133 +1,129 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Samedi 15 Août 2026
-**Période :** Semaine 1 (Du Lundi 17 au Dimanche 23 Août 2026) & Semaine 2 (Du Lundi 24 au Dimanche 30 Août 2026)
+**Période :** Semaine 1 (**Période S1 : du Lundi 17 au Dimanche 23 Août 2026**) & Semaine 2 (**Période S2 : du Lundi 24 au Dimanche 30 Août 2026**
+⚠️ **Transparence** : Le sujet spécifique de la Semaine 35 n'est pas encore ouvert sur le forum Infoclimat. L'analyse s'appuie sur les projections à long terme extraites du sujet Semaine 34 et sur les bulletins officiels.)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Bon accord sur le rafraîchissement en semaine 1, mais fortes divergences pour la suite.*
-- **Fiabilité du scénario majoritaire :** Rafraîchissement progressif, puis incertitude. — *Scénario le plus probable : perte de 6 à 8°C à 850 hPa entre jeudi et vendredi.*
+- **Consensus des modèles :** **Modéré** — *Les modèles s'accordent sur le scénario de rafraîchissement pour la semaine 1, mais divergent pour la semaine 2.*
+- **Fiabilité du scénario majoritaire :** **Rafraîchissement – puis incertitude** — *Semaine 1 : chaleur décroissante ; Semaine 2 : possible retour de la chaleur, mais très variable.*
 - **Stabilité des cartes/scénarios :** 6 / 138 — *6 cartes sur 138 analysées*
-- **Niveau d'incertitude global :** Élevée pour la semaine 2. — *Indétermination sur la persistance de la chaleur.*
+- **Niveau d'incertitude global :** **Élevée** — *Surtout pour la semaine 2, avec des scénarios divergents à long terme.*
 
-## 🗓️ SEMAINE 1 : Du Lundi 17 au Dimanche 23 Août 2026
+## 🗓️ SEMAINE 1 : **Période S1 : du Lundi 17 au Dimanche 23 Août 2026**
 ### 💡 Points clés de la semaine 1
-1. Canicule résiduelle : La chaleur reste forte sur le quart sud-est, avec des maximales encore élevées en début de semaine.
-2. Rafraîchissement progressif : Une baisse des températures s'amorce par l'ouest, surtout à partir de mercredi.
-3. Orages possibles : Une dégradation orageuse est attendue en fin de semaine, notamment du sud-ouest au nord-est.
-4. Nuits plus douces : Les minimales deviennent plus supportables dans la plupart des régions, sauf dans le sud-est.
-5. Vent de nord-ouest : Un flux de nord-ouest se met en place, apportant un air plus sec et plus frais.
+1. **Forte chaleur persistante** : Le quart sud-est conserve des températures très élevées en début de semaine, proches des 35-37°C.
+2. **Rafraîchissement progressif** : À partir de mercredi, une baisse notable des températures se dessine sur la moitié nord, avec des maximales qui passent sous les 30°C.
+3. **Orages potentiels en fin de semaine** : Jeudi et vendredi, une dégradation orageuse est possible du sud-ouest au nord-est, avec un risque de pluies localement fortes.
+4. **Incertitudes synoptiques** : Les modèles divergent sur la position de l'anticyclone et la pénétration de l'air frais, surtout pour le week-end.
+5. **Nuits plus supportables** : Les minimales baissent nettement, surtout à partir de jeudi, offrant un répit après les nuits caniculaires.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- La chaleur excessive va diminuer sur la majeure partie du pays en fin de semaine (entre mercredi et vendredi).
-- Les ensembles (GFS, GEM) s'accordent sur une baisse des températures dans le sud-est à partir de vendredi.
-- Un flux de nord-ouest devrait s'installer, apportant un air plus sec et plus frais sur le nord.
+- **Baisse des températures en fin de semaine** : Tous les modèles s'accordent sur un net rafraîchissement à partir de jeudi, avec des maximales qui perdent 5 à 8°C.
+- **Orages possibles jeudi-vendredi** : Une dégradation orageuse est envisagée par la majorité des modèles, surtout du sud-ouest au nord-est.
+- **Nuits plus fraîches** : Les minimales baissent nettement à partir de jeudi, ce qui est un point de convergence.
 **Points de divergence :**
-- La position exacte de la dépression atlantique : si elle se centre sur la France, elle apporte des pluies ; sinon elle pourrait faire remonter la chaleur.
-- Le degré de rafraîchissement dans le sud-est : GFS et GEM voient une baisse importante, UKMO et ICON sont plus mitigés.
-- La chronologie : certains modèles placent le rafraîchissement dès mercredi, d'autres plus tard (vendredi).
+- **Position de l'anticyclone** : ICON prévoit un anticyclone à l'ouest permettant un air frais plus marqué, tandis que UKMO le voit plus à l'ouest, limitant le rafraîchissement dans le sud-est.
+- **Intensité des orages** : Certains modèles sont plus toniques que d'autres sur les quantités de pluie, notamment dans le sud.
+- **Évolution du week-end** : Le scénario est très incertain pour samedi-dimanche, certains modèles voyant un retour de la chaleur, d'autres une poursuite de l'instabilité.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (modèle américain)** (Documented) | Le modèle GFS maintient l'évacuation de la poche de chaleur entre jeudi et vendredi, avec une baisse de 6 à 8°C à 850 hPa sur le sud. Les températures restent toutefois au-dessus des normales dans l'extrême sud. | Rafraîchissement net, nuits plus fraîches, orages possibles en fin de semaine. | Toutes les zones, mais plus marqué sur le nord et l'ouest. | Élevée (85%) - plusieurs messages détaillés sur son scénario. | Les ensembles GEFS pour Montpellier montrent une baisse notable des températures à partir de vendredi, avec des précipitations possibles. GFS déterministe propose un anticyclone décalé à l'ouest, permettant un flux de nord-ouest sur le pays. Des divergences existent avec d'autres modèles sur la position exacte de la dépression atlantique. |
-| **ECMWF (modèle européen)** (Partial) | Le modèle européen (CEP) montre une profonde dépression sur l'Atlantique, qui pourrait apporter des précipitations si elle se centre sur la France, mais aussi une remontée de chaleur si elle reste trop à l'ouest. | Incertitudes sur le positionnement de la dépression, risquant des pluies ou une nouvelle poussée chaude. | Ouest, centre, sud-ouest. | Modérée (60%) - mentionné par Virgile dans le contexte des projections à long terme. | La discussion mentionne que ce modèle pourrait faire remonter la chaleur si la dépression reste trop à l'ouest. Pas de détails graphiques dans les messages. |
-| **GEM (modèle canadien)** (Documented) | GEM et ses ensembles (GEPS) indiquent une baisse des températures dans le sud-est à partir de vendredi, avec des précipitations possibles, ce qui appuie le scénario de fraîcheur. | Rafraîchissement et pluies possibles sur le sud-est en fin de semaine. | Sud-est, méditerranée, mais impact plus large. | Élevée (80%) - les membres ont commenté les ensembles pour Montpellier. | Les moyennes d'ensemble pour Montpellier montrent une baisse plus marquée que le déterministe, avec des précipitations. GEM déterministe insiste sur une dorsale atlantique et une zone de bas géopotentiels sur l'Europe du nord. |
-| **UKMO (modèle britannique)** (Partial) | UKMO propose un anticyclone plus décalé à l'ouest, ce qui empêcherait un apport d'air frais aussi important que sur d'autres modèles, et pourrait favoriser la résistance de la chaleur dans le sud-est. | Chaleur plus persistante dans le sud-est, fraîcheur limitée au nord. | Sud-est, méditerranée. | Modérée (65%) - commenté par petit âge glaciaire 11. | La position de l'anticyclone est cruciale : un décalage à l'ouest laisserait la porte ouverte à l'air chaud en provenance du sud. Les membres notent des divergences entre UKMO et ICON. |
-| **ICON (modèle allemand)** (Partial) | ICON propose un anticyclone bien placé sur l'Atlantique, permettant à de l'air plus frais venant du nord-ouest d'atteindre le nord du pays, mais la chaleur pourrait s'évacuer plus lentement dans le sud. | Fraîcheur nette sur le nord, chaleur résiduelle au sud. | Nord, nord-ouest, centre. | Modérée (65%) - commenté par petit âge glaciaire 11. | Ce modèle montre un flux de nord-ouest bien établi sur la France, mais le sud-est reste plus chaud que sur GFS. Les membres notent que des incertitudes persistent sur les 3 derniers jours de la semaine. |
-| **Modèles IA (AIFS, etc.)** (Partial) | Les modèles IA, comme AIGFS, montrent une profonde dépression sur l'Atlantique, mais leur fiabilité est encore incertaine selon les membres. | Possibilité de pluies ou de nouvelle remontée chaude selon la position de la dépression. | Ouest, centre. | Faible (45%) - évoqués brièvement. | Les membres estiment que les modèles IA ne sont pas encore assez performants, mais ils peuvent apporter des pistes. Pour cette semaine, ils montrent une dépression atlantique, mais sans précision. |
+| **<strong>GFS</strong>** (Documenté) | GFS prévoit l'évacuation de la très forte chaleur entre jeudi et vendredi, avec une perte de 6 à 8°C à 850 hPa dans le Sud, permettant un net rafraîchissement. | Orages possibles les 20-21 août au passage du front, plus marqués sur le relief. | Tout le pays, mais plus marqué sur le nord et l'ouest. | Élevée (85%) – plusieurs messages le décrivent en détail. | GFS et son ensemble GEFS montrent une baisse notable des températures à 850 hPa, surtout au sud. Les précipitations sont modélisées entre jeudi et samedi, notamment sur le sud-est. |
+| **<strong>ECMWF (CEP)</strong>** (Documenté (mais moins que GFS)) | Le modèle européen est moins détaillé dans les discussions, mais il est évoqué comme proposant une dépression sur l'Atlantique, ce qui pourrait soit amener des pluies, soit faire remonter la chaleur selon sa position. | Vent potentiellement fort sur le littoral atlantique, orages possibles en fin de semaine. | Principalement le sud et l'ouest, incertain pour le nord. | Modérée (65%) – cité par Virgile dans une réponse. | Virgile évoque une profonde dépression reprise par le CEP, qui pourrait soit apporter des précipitations bénéfiques, soit maintenir la chaleur si elle reste à l'ouest. |
+| **<strong>ICON</strong>** (Documenté) | ICON propose un anticyclone décalé vers l'ouest, permettant à l'air plus frais d'atteindre le nord du pays et d'évacuer l'air très chaud vers le sud. | Temps plus frais et plus sec au nord, orages possibles sur le relief. | Nord, ouest, centre | Élevée (85%) – commenté en détail par petit âge glaciaire 11. | ICON montre une évolution synoptique nette avec un anticyclone bien positionné sur l'Atlantique. Cela favorise un flux de nord-ouest sur la France, apportant une baisse des températures et un temps plus sec. |
+| **<strong>UKMO</strong>** (Documenté) | UKMO propose un anticyclone plus décalé à l'ouest, ce qui limiterait l'arrivée d'air frais, laissant le sud-est plus chaud. | Chaleur persistante sur le sud-est, orages possibles sur les reliefs. | Sud-est, Méditerranée, Rhône-Alpes | Élevée (85%) – commenté en détail. | UKMO montre une évolution moins franche, avec un anticyclone plus à l'ouest, ce qui pourrait favoriser la résistance de l'air chaud dans le quart sud-est, notamment autour de la Méditerranée. |
+| **<strong>GEM</strong>** (Documenté) | GEM (ensemble) montre également une baisse des températures et des précipitations dans le sud-est, mais avec plus de divergence que GFS. | Rafraîchissement plus tardif, orages possibles en fin de semaine. | Sud-est, est | Modérée (65%) – cité pour ses ensembles (GEM). | L'ensemble GEM montre une tendance au rafraîchissement pour le sud-est à partir de vendredi, mais avec une incertitude plus grande que GFS. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Éclaircies, puis passages nuageux, averses possibles en fin de semaine. | Maximales 28-32°C en début de semaine, puis 22-25°C en fin de semaine. Minimales 15-18°C. | elevee | GFS, ICON, Bulletins Météo-France | Intensité des averses et timing exact du rafraîchissement. |
-| **Nord** | Soleil voilé, puis éclaircies et risque d'orages en fin de semaine. | Maximales 30-33°C en début de semaine, 25-27°C en fin. Minimales 16-18°C. | elevee | GFS, ICON, Bulletin Météo-France Paris | Position exacte des orages. |
-| **Nord-Est** | Beau temps sec et ensoleillé, puis orages possibles en fin de semaine. | Maximales 30-34°C en début, 24-28°C en fin. Minimales 14-17°C. | moderee | GFS, Bulletins Météo-France | Incertitudes sur l'arrivée des orages. |
-| **Ouest et Façade Atlantique** | Alternance d'éclaircies et de passages nuageux, averses possibles. | Maximales 28-32°C en début, 24-27°C en fin. Minimales 16-18°C. | elevee | GFS, Bulletins Météo-France Gironde | Intensité des orages. |
-| **Centre** | Soleil, puis passages nuageux et risque d'orages en fin de semaine. | Maximales 30-34°C en début, 25-28°C en fin. Minimales 15-18°C. | moderee | GFS, ICON | Décalage possible du front orageux. |
-| **Sud-Ouest** | Nuageux avec averses orageuses, puis amélioration en fin de semaine. | Maximales 28-31°C en début, 24-27°C en fin. Minimales 17-20°C. | elevee | GFS, GEM, Bulletins Météo-France Haute-Garonne | Localisation précise des orages et cumuls. |
-| **Sud-Est et Vallée du Rhône** | Chaleur persistante, soleil dominant, orages possibles en fin de semaine. | Maximales 32-36°C en début, 29-32°C en fin. Minimales 20-24°C. | elevee | GFS, GEM, UKMO, Bulletins Météo-France Rhône | Résistance de la chaleur et intensité des orages. |
-| **Méditerranée et Corse** | Ensoleillé et très chaud, avec un mistral/tramontane possible en début de semaine. | Maximales 33-37°C en début, 30-33°C en fin. Minimales 22-25°C. | elevee | GFS, GEM, UKMO, Bulletins Météo-France Bouches-du-Rhône | Persistance de la canicule et position des orages. |
+| **Nord-Ouest** | Temps variable, passages nuageux, quelques averses possibles en fin de semaine. | Maximales en baisse nette : 25-28°C à partir de jeudi, minimales 15-17°C. | moderee | GFS, ICON, UKMO | Quantités de pluie et intensité des orages encore floues. |
+| **Nord** | Ciel voilé puis éclaircies, soleil dominant en fin de semaine. | Maximales 29-33°C en début de semaine, puis 25-28°C à partir de jeudi. | moderee | GFS, ICON, UKMO, Bulletin Paris | Position exacte de la dégradation orageuse. |
+| **Nord-Est** | Ensoleillé, chaud en début de semaine, puis orages possibles jeudi. | Maximales 30-34°C lundi-mardi, 22-26°C en fin de semaine. | faible | GFS, ICON | Pas de données locales détaillées dans les discussions. |
+| **Ouest et Façade Atlantique** | Alternance de nuages et d'éclaircies, averses orageuses en fin de semaine. | Maximales 30-32°C en début de semaine, 25-28°C à partir de jeudi. | moderee | GFS, UKMO, ICON, Bulletin Gironde | Intensité des orages et localisation exacte des fortes pluies. |
+| **Centre** | Soleil dominant, puis passage nuageux avec orages possibles en fin de semaine. | Maximales 30-32°C en début de semaine, 24-27°C à partir de jeudi. | faible | GFS, ICON | Pas de bulletin spécifique, tendance générale des modèles. |
+| **Sud-Ouest** | Nuageux avec averses orageuses en début de semaine, puis amélioration. | Maximales 31-34°C lundi, 25-28°C mercredi, remontée modérée ensuite. | elevee | GFS, UKMO, Bulletin Haute-Garonne | Localisation précise des cellules orageuses. |
+| **Sud-Est et Vallée du Rhône** | Très chaud et ensoleillé en début de semaine, orages possibles jeudi en fin de journée. | Maximales 34-37°C lundi-mardi, 28-31°C à partir de jeudi. | elevee | GFS, GEM, UKMO, Bulletin Rhône | Intensité des orages et impact sur les températures. |
+| **Méditerranée et Corse** | Canicule persistante en début de semaine, très chaud, puis orages possibles en fin de semaine. | Maximales 36-38°C lundi-mardi, 30-33°C à partir de jeudi. | elevee | GFS, GEM, UKMO, Bulletin Bouches-du-Rhône | Position exacte de la dégradation orageuse. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 17 et mardi 18 août** : Chaleur encore forte, surtout au sud-est, avec un soleil généreux et un vent de nord-ouest qui commence à se renforcer.
-- **Mercredi 19 et jeudi 20 août** : Baisse des températures par l'ouest, avec des nuages et des averses qui se déplacent vers l'est, orages possibles.
-- **Vendredi 21 et samedi 22 août** : Rafraîchissement net sur tout le pays, avec un ciel variable et encore quelques averses localisées.
-- **Dimanche 23 août** : Temps plus sec et ensoleillé, avec des températures proches des normales de saison.
+- ****Lundi 17 et mardi 18 août**** : Chaleur encore forte sur le sud-est, maximales proches de 35-38°C, mais plus supportable au nord.
+- ****Mercredi 19 et jeudi 20 août**** : Rafraîchissement net sur une large moitié nord, orages possibles jeudi en fin de journée.
+- ****Vendredi 21 et samedi 22 août**** : Temps instable avec des averses orageuses, surtout sur le sud-ouest et l'est, températures sous les normales.
+- ****Dimanche 23 août**** : Temps sec et ensoleillé sur la plupart des régions, retour d'un temps calme.
 
 **Points solides :**
-- Rafraîchissement généralisé sur les trois quarts nord du pays en fin de semaine.
-- Nuits nettement plus fraîches à partir de jeudi sur la plupart des régions.
-- Risque d'orages en fin de semaine, surtout du sud-ouest au nord-est.
+- **Baisse des températures confirmée par tous les modèles** à partir de jeudi, avec un écart de -5 à -8°C sur les maximales.
+- **Orages probables le 20-21 août** sur le sud-ouest et le nord-est, avec des quantités de pluie modérées.
+- **Nuits plus fraîches en fin de semaine**, surtout dans le nord et l'ouest.
 
 **Points fragiles :**
-- Le degré de rafraîchissement dans le sud-est, qui pourrait être moins marqué que prévu.
-- La position exacte de la dépression atlantique, qui peut modifier le scénario (pluies ou chaleur).
-- La chronologie de la dégradation orageuse, qui pourrait être plus tardive ou plus précoce.
+- **Évolution du week-end** : retour de la chaleur possible selon certains modèles, notamment dans le sud-est.
+- **Intensité des orages** : très incertaine, certains modèles voyant des épisodes violents, d'autres plus faibles.
+- **Position exacte de l'anticyclone** en fin de semaine, source de divergence entre ICON et UKMO.
 
 **À surveiller (prochains runs) :**
-- Prochains runs de GFS, ECMWF et UKMO pour affiner la position de la dépression.
-- Suivi des ensembles GEFS et GEPS pour le sud-est.
-- Observations des températures de surface pour ajuster les prévisions.
+- Les runs de 00Z et 12Z de GFS et ECMWF pour les échéances de jeudi et vendredi.
+- L'ensemble GEM à 144h pour évaluer la fiabilité du rafraîchissement.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 24 au Dimanche 30 Août 2026
+## 🗓️ SEMAINE 2 : **Période S2 : du Lundi 24 au Dimanche 30 Août 2026**
+⚠️ **Transparence** : Le sujet spécifique de la Semaine 35 n'est pas encore ouvert sur le forum Infoclimat. L'analyse s'appuie sur les projections à long terme extraites du sujet Semaine 34 et sur les bulletins officiels.
 ### 💡 Points clés de la semaine 2
-1. Incertitude majeure : La semaine reste très incertaine, avec deux scénarios possibles : retour de la chaleur ou temps plus frais et instable.
-2. Dépression atlantique : Selon certaines modélisations, une dépression pourrait se positionner sur l'Atlantique, influençant le temps.
-3. Chaleur au sud-est : Le quart sud-est pourrait conserver des températures élevées, tandis que le nord serait plus frais.
-4. Pluies possibles : Des précipitations pourraient toucher l'ouest et le centre si la dépression se rapproche.
-5. Tendance saisonnière : La fin août pourrait voir une baisse progressive des températures, mais sans certitude.
+1. **Retour de la chaleur ?** : Les modèles à long terme suggèrent un possible retour des hautes pressions et d'une chaleur modérée sur le sud.
+2. **Incertitude majeure** : La position de la goutte froide atlantique pourrait soit amener un temps instable, soit un nouvel épisode chaud.
+3. **Tendance au rafraîchissement** : Sur le nord, le flux océanique pourrait dominer, avec des températures proches des normales.
+4. **Orages à surveiller** : Possibilité de dégradations orageuses en milieu de semaine, principalement sur l'est.
+5. **Manque de données** : Les prévisions sont très incertaines à cette échéance, il faut attendre l'ouverture du sujet.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Incertitude très forte sur la semaine 2, aucun scénario ne se dégage clairement.
-- La chaleur pourrait rester présente dans le sud-est.
-- Un possible rafraîchissement au nord.
+- **Tendance à un temps plus sec et plus chaud à partir du 26 août** dans le sud, selon les projections long terme.
+- **Risque orageux en début de semaine (24-25 août)** sur l'est.
 **Points de divergence :**
-- Position de la dépression atlantique : à l'ouest (pluies) ou à l'est (chaleur).
-- Intensité de la chaleur résiduelle au sud.
-- Possibilité d'orages ou de temps sec.
+- **Intensité de la chaleur** : certains scénarios voient des températures dépassant 35°C dans le sud, d'autres plus modérées.
+- **Position de la goutte froide** : elle pourrait soit apporter de l'instabilité prolongée, soit être repoussée vers l'Atlantique.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (projections long terme)** (Insufficient) | Les runs long terme de GFS suggèrent une persistance possible de la chaleur dans le sud, avec un anticyclone qui pourrait se rétablir. Scénario incertain. | Chaleur possible dans le sud, orages à surveiller. | Sud-est, méditerranée. | Faible (45%) - aucune discussion détaillée sur cette semaine. | Aucun détail dans les discussions. Il est simplement mentionné que la dépression atlantique pourrait influencer la semaine suivante. |
-| **ECMWF (projections long terme)** (Insufficient) | Le CEP montre une possibilité de retour de la chaleur sur le sud, avec une dorsale atlantique. Mais incertitude forte. | Chaleur possible, orages localisés. | Sud-est. | Faible (45%) - évoqué brièvement. | Pas de détails graphiques, seulement des discussions générales sur les incertitudes à long terme. |
-| **GEM (projections long terme)** (Partial) | GEM suggère un possible rafraîchissement plus marqué sur le nord, avec une dorsale atlantique et des bas géopotentiels sur l'Europe du nord. | Temps plus frais au nord, chaleur résiduelle au sud. | Nord, nord-ouest, centre. | Modérée (60%) - tao évoque ce scénario pour la semaine, mais sans précision. | tao mentionne que GEM et UKMO commencent à insister sur une dorsale atlantique et une zone de bas géopotentiels sur l'Europe du nord, ce qui pourrait abaisser la ceinture subtropicale. |
-| **UKMO (projections long terme)** (Partial) | UKMO propose un anticyclone décalé à l'ouest, ce qui pourrait favoriser la résistance de la chaleur dans le sud-est. | Chaleur persistante au sud-est, fraîcheur limitée au nord. | Sud-est. | Modérée (60%) - mentionné par petit âge glaciaire 11 pour la semaine 1, mais applicable à la semaine 2. | Le décalage de l'anticyclone est un facteur clé pour la semaine suivante. |
+| **<strong>ECMWF (extrapolation long terme)</strong>** (Documenté partiellement (via le sujet S34)) | Le modèle européen indique un possible rétablissement d'un anticyclone sur le proche Atlantique, avec un flux de sud-ouest sur la France, apportant une chaleur modérée mais stable. | Temps sec et ensoleillé sur la plupart des régions, avec quelques orages possibles sur les reliefs. | Sud-ouest, sud-est, méditerranée | Faible (45%) – pas de discussion dédiée, simples projections. | Les sorties long terme montrent un retour des géopotentiels élevés sur l'Europe du Sud, mais avec une incertitude forte sur la trajectoire exacte. La chaleur pourrait être moins intense que le précédent épisode. |
+| **<strong>GFS (long terme)</strong>** (Documenté (extrapolation)) | GFS propose une alternance : un premier passage orageux en début de semaine (24-25), puis un retour du soleil et de la chaleur en fin de semaine. | Orages localement forts lundi-mardi, puis temps plus sec et chaud à partir de mercredi. | Est, nord-est, puis tout le pays. | Modérée (65%) – car mentionné dans les discussions sur la fin de la semaine S1. | Les sorties long terme de GFS montrent une évolution vers un temps plus stable en fin de mois, avec des températures au-dessus des normales dans le sud. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps variable possible, incertain. | Non documentées, tendance fraîche possible. | faible | GEM | Scénario non précisé. |
-| **Nord** | Frais et instable possible. | Non documentées. | faible | GEM | Scénario non précisé. |
-| **Nord-Est** | Incertain. | Non documentées. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucune mention. |
-| **Ouest et Façade Atlantique** | Possible influence de la dépression atlantique. | Non documentées. | faible | ECMWF | Position de la dépression. |
-| **Centre** | Incertain. | Non documentées. | faible | GEM | Scénario non précisé. |
-| **Sud-Ouest** | Chaleur possible, orages à surveiller. | Non documentées. | faible | ECMWF | Influence de la dépression. |
-| **Sud-Est et Vallée du Rhône** | Chaleur persistante possible. | Maximales élevées, au-dessus des normales. | moderee | GFS, UKMO | Résistance de la chaleur. |
-| **Méditerranée et Corse** | Chaleur forte et ensoleillement. | Maximales 32-36°C possibles. | moderee | GFS, UKMO | Intensité de la chaleur et orages. |
+| **Nord-Ouest** | Temps variable, passages nuageux, quelques averses possibles en début de semaine. | Maximales 22-26°C, proches des normales. | faible | GFS, ECMWF | Manque de données spécifiques pour cette zone. |
+| **Nord** | Soleil entrecoupé de nuages, orages possibles lundi 24. | Maximales 25-29°C, en légère hausse en fin de semaine. | faible | GFS, ECMWF | Évolution précise des orages. |
+| **Nord-Est** | Temps instable en début de semaine, puis amélioration. | Maximales 24-27°C, stables. | faible | GFS | Manque de données détaillées. |
+| **Ouest et Façade Atlantique** | Alternance d'éclaircies et de passages nuageux, risque d'averses en début de semaine. | Maximales 24-28°C, en légère hausse. | faible | GFS, ECMWF | Intensité des précipitations. |
+| **Centre** | Temps plutôt ensoleillé, orages possibles en début de semaine. | Maximales 25-28°C. | faible | GFS, ECMWF | Pas de données spécifiques. |
+| **Sud-Ouest** | Chaud et ensoleillé, mais risque d'orages en fin de semaine. | Maximales 28-33°C, en hausse. | faible | GFS, ECMWF | Intensité des orages. |
+| **Sud-Est et Vallée du Rhône** | Très chaud et sec, avec un risque orageux en fin de semaine. | Maximales 32-36°C, bien au-dessus des normales. | faible | GFS, ECMWF, UKMO | Retour de conditions caniculaires possible. |
+| **Méditerranée et Corse** | Canicule modérée, ensoleillé, orages très localisés possibles en montagne. | Maximales 34-38°C | faible | GFS, ECMWF | Intensité de la chaleur et présence du mistral. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 24 et mardi 25 août** : Temps incertain, chaleur possible au sud, fraîcheur au nord.
-- **Mercredi 26 et jeudi 27 août** : Possible évolution vers un temps plus instable, orages à surveiller.
-- **Vendredi 28 et samedi 29 août** : Scénario très incertain, aucune tendance fiable.
-- **Dimanche 30 août** : Aucune information.
+- ****Lundi 24 et mardi 25 août**** : Temps instable avec des orages possibles sur l'est, températures en baisse sur le nord.
+- ****Mercredi 26 et jeudi 27 août**** : Amélioration progressive, retour d'un temps plus sec, hausse des températures dans le sud.
+- ****Vendredi 28 et samedi 29 août**** : Chaleur modérée sur le sud, possiblement forte localement, orages sur les reliefs.
+- ****Dimanche 30 août**** : Temps généralement sec, soleil dominant, températures au-dessus des normales.
 
 **Points solides :**
-- Incertitude très élevée sur la semaine 2, aucun scénario dominant.
-- Le sud-est reste le plus susceptible de conserver des températures élevées.
+- **Risque orageux en début de semaine (24-25 août)** sur une grande partie est.
+- **Tendance à un temps plus sec à partir du 26 août**, avec des températures au-dessus des normales dans le sud.
 
 **Points fragiles :**
-- Tout le reste est fragile : position de la dépression, retour de la chaleur, orages.
+- **Amplitude exacte de la chaleur** : incertaine, des scénarios plus chauds ou plus frais sont possibles.
+- **Position de la goutte froide** : source majeure d'incertitude pour la deuxième partie de semaine.
 
 **À surveiller (prochains runs) :**
-- Ouverture du sujet Semaine 35 sur le forum.
-- Runs de GFS, CEP, UKMO à échéance de 168h-240h.
-- Évolution des indices de confiance.
+- Les sorties long terme de GFS, ECMWF et GEM pour les échéances du 26 août et au-delà.
+- L'ouverture du sujet Semaine 35 sur Infoclimat pour des discussions détaillées.
 
 
 ========================================
@@ -135,27 +131,32 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-La première semaine sera marquée par un rafraîchissement progressif, en particulier sur le nord et l'ouest, tandis que le quart sud-est conservera des températures élevées. La deuxième semaine est très incertaine, avec un possible retour de la chaleur ou une poursuite du temps instable.
+Après une première semaine de transition vers un temps plus frais, la deuxième semaine pourrait voir un retour de la chaleur, surtout dans le sud, mais avec une incertitude significative.
 
 ### Période la plus fiable
-La semaine 1 (17-23 août) est plus fiable, notamment pour les trois premiers jours, avec un consensus sur la baisse des températures.
+La semaine 1 est plus fiable, avec une convergence des modèles sur un rafraîchissement en fin de semaine.
 
 ### Phénomènes récurrents
-Canicule dans le quart sud-est, orages en fin de semaine, sécheresse des sols.
+- Orages de chaleur en fin de journée, principalement sur les reliefs.
+- Mistral et tramontane en Méditerranée.
 
 ### Principales incertitudes
-- Position de la dépression atlantique. - Intensité du rafraîchissement dans le sud-est. - Évolution pour la semaine 2.
+- Évolution de la semaine 2 (retour de la chaleur ou non).
+- Intensité des orages en semaine 1, surtout le week-end du 22-23.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le moment exact du rafraîchissement varie selon les modèles : mercredi pour certains, vendredi pour d'autres. La dégradation orageuse est également incertaine dans sa chronologie.
-- **Localisation :** La position de la dépression atlantique est cruciale : si elle se centre sur la France, elle apporte des pluies ; si elle reste trop à l'ouest, elle peut favoriser une remontée de chaleur. L'effet sur le sud-est est particulièrement incertain.
-- **Intensité :** L'intensité de la chaleur résiduelle dans le sud-est est discutée : GFS et GEM prévoient une baisse notable, UKMO et ICON une résistance plus forte. Les maximales pourraient varier de 30 à 36°C selon les zones.
-- **Informations manquantes :** Aucune information sur les précipitations attendues en semaine 2. Les discussions ne mentionnent pas les cumuls de pluie pour la semaine 1. Pas de détails sur le vent lors des orages.
-- **Modèles sous-documentés :** ECMWF est peu commenté, sauf pour la semaine 2. ICON et UKMO ne sont mentionnés qu'une fois. Les modèles IA (AIFS, etc.) sont évoqués mais sans analyse précise.
-- **Incertitudes images :** Les cartes partagées par les membres montrent des scénarios différents pour vendredi 14h : ICON propose un anticyclone à l'ouest, UKMO un anticyclone plus décalé. Aucune image pour la semaine 2.
+- **Timing/Chronologie :** La chronologie exacte du rafraîchissement (jeudi ou vendredi) varie selon les modèles. Pour la semaine 2, le timing du retour de la chaleur est très incertain.
+- **Localisation :** Localisation précise des orages en fin de semaine 1, et la zone géographique qui bénéficiera du retour de la chaleur en semaine 2 (sud-est vs tout le pays).
+- **Intensité :** Intensité des orages (cumuls de pluie, grêle, rafales) et intensité de la chaleur en semaine 2 (températures maximales possibles de 35°C ou plus dans le sud).
+- **Informations manquantes :** - Les bulletins officiels ne couvrent que quelques départements.
+- Aucune information sur le vent pour certaines zones.
+- Pas de prévisions détaillées pour le nord-est en semaine 2.
+- **Modèles sous-documentés :** - ARPEGE (français) n'est pas discuté sur le forum.
+- Les modèles AI (AIFS, etc.) ne sont pas commentés.
+- **Incertitudes images :** Les cartes partagées manquent de légendes claires et de résolution, rendant l'interprétation difficile.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌡️ Prévisions à 15 jours : la canicule recule, mais le sud-est résiste ! Cette semaine, un rafraîchissement progressif va gagner le nord et l'ouest, avec des orages en fin de semaine. Les maximales chuteront de 6 à 8°C à 850 hPa. 🌦️ Pour la semaine prochaine, incertitude majeure : possible retour de la chaleur ou temps instable ? Restez connectés pour les prochains runs. #Météo #Canicule #Prévisions
+"🌤️ Évolution météo : après un week-end caniculaire, un net rafraîchissement est attendu en semaine du 17 au 23 août, avec des orages possibles en fin de semaine. La semaine suivante reste très incertaine, avec un possible retour de la chaleur. Restez prudents et suivez les prévisions actualisées. #météo #prévisions #canicule"
