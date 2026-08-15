@@ -315,7 +315,7 @@ Températures minimales : stationnaires.
 Températures maximales : en baisse sur la plaine et le piémont.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 150350 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 15 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 15 août 2026 à 00H00 UTC, et évolution Faible gradient de pression proche de 1014 hPa, en baisse 1012 hPa en fin d'après-midi. 3 - Prévisions pour la journée du samedi 15 août VENT : Ouest dominant 2 à 4, mais Variable 1 à 3 à l'est du Levant le matin, et Nord dominant à l'ouest de Cap Couronne, revenant secteur Sud-Ouest 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : passagèrement voilé, quelques nuages bas le matin vers la Camargue. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 15 août au dimanche 16 août VENT : Variable 2 à 4, d'Ouest dominant de Marseille à Camarat. MER : belle, localement peu agitée à l'est du Levant. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 16 août VENT : Variable 2 à 4, d'Ouest dominant de Marseille à Camarat, s'orientant Ouest à Sud-Ouest 3 à 4 partout l'après-midi, localement 5 à l'est de Porquerolles et vers Port-Camargue. MER : belle, localement peu agitée à l'est de Porquerolles. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 16 au 17 et la journée du lundi 17 août VENT : De Port Camargue à Camarat Ouest à Sud-Ouest 3 à 5, fraîchissant 5 à 7 en milieu d'après-midi. Rafales. De Camarat à St Raphaël Ouest à Sud-Ouest 4 à 5, virant Nord-Est en milieu d'après-midi. MER : De Port Camargue à Fos mer peu agitée. De Fos à St Raphaël mer belle à peu agitée devenant agitée, à forte en milieu d'après-midi du Levant à Camarat. HOULE non significative s'établissant localement au Sud à Sud-Ouest 1 à 1,5 m. 7 - Tendance pour les jours suivants Mardi 18 août Secteur Ouest modéré de la frontière espagnole à Saint-Raphaël et sur le sud de la Corse. Secteur Est faible à modéré de Saint-Raphaël à Menton et sur le nord de la Corse. Indice de confiance : 3 sur 5 Mercredi 19 août Secteur Ouest faible à modéré de la frontière espagnole à Saint-Raphaël. Variable faible à modéré de Saint-Raphaël à Menton et autour de la Corse. Indice de confiance : 3 sur 5 Jeudi 20 août Secteur Sud dominant, faible à modéré. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le samedi 15 août 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Ouest 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Nord 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Porquerolles : vent Ouest-Nord-Ouest 8 noeuds. Cap Couronne : vent Nord-Nord-Est 6 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le samedi 15 août 2026, vers 13H00 légales
+FQCT40 LFML 150930 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 15 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 15 août 2026 à 06H00 UTC, et évolution Faible gradient de pression proche de 1015 hPa, en baisse 1013 hPa en fin d'après-midi. 3 - Prévisions pour l'après-midi du samedi 15 août VENT : Ouest à Sud-Ouest 2 à 4, mais localement Variable 1 à 3 au nord du Cap Camarat. MER : belle. HOULE : non significative. TEMPS : ensoleillé, passagèrement voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 15 août au dimanche 16 août VENT : secteur Ouest 2 à 4 à l'est de Cap Croisette, mais devenant Variable à l'ouest. MER : belle, temporairement peu agitée à l'est de Cap Camarat en seconde partie de nuit. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 16 août VENT : secteur Ouest 2 à 4 à l'est de Cap Croisette, mais Variable 1 à 3 à l'ouest, fraîchissant partout Ouest à Sud-Ouest 3 à 5 l'après-midi. MER : belle, devenant peu agitée l'après-midi à l'est de Sicié. HOULE : non significative. TEMPS : peu nuageux à nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 16 au 17 et la journée du lundi 17 août VENT : secteur Ouest 4 à 5, fraîchissant 5 à 6 à la mi-journée, avec menace de 7 en fin d'après-midi à l'est de Sicié. Rafales. MER : devenant peu agitée, puis agitée à la mi-journée à l'est de Cap Couronne, localement forte à la fin à l'est de Porquerolles. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m en seconde partie de nuit, s'amortissant à la mi-journée, mais s'amplifiant localement 1 à 1.5 m à l'est du Levant en fin d'après-midi. TEMPS : voilé. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 17 au 18 et la journée du mardi 18 août VENT : De Port Camargue à la Ciotat Ouest à Nord-Ouest 4 à 5, localement 6 de Fos à la Ciotat. Rafales. De la Ciotat à Camarat Ouest à Nord-Ouest 6 à 7, mollissant 2 à 4 en cours de matinée. Rafales. De Camarat à St Raphaël Ouest 7, mollissant en début de nuit en virant Nord à Nord-Est puis devenant variable faible. Rafales. MER : agitée localement forte, devenant peu agitée en début de nuit. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Mercredi 19 août Variable modéré à assez fort autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 20 août Variable modéré à assez fort autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Nord-Ouest modéré à assez fort autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Samedi 22 août Variable faible à modéré autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 2 sur 5 9 - Observations le samedi 15 août 2026 à 09H00 UTC Cap Camarat : vent Sud-Est 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest-Sud-Ouest 6 noeuds. Porquerolles : vent Ouest 6 noeuds. Cap Couronne : vent Ouest-Nord-Ouest 4 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le samedi 15 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -346,12 +346,12 @@ sud-ouest au nord-est.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 1 : AVIGNON
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : &#xC9;té 2026 et éco-anxiété
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 15/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -359,35 +359,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 15 Août 2026.
-Résumé général précédent : La première semaine sera marquée par un rafraîchissement progressif, en particulier sur le nord et l'ouest, tandis que le quart sud-est conservera des températures élevées. La deuxième semaine est très incertaine, avec un possible retour de la chaleur ou une poursuite du temps instable..
+Résumé général précédent : Après une première semaine de transition vers un temps plus frais, la deuxième semaine pourrait voir un retour de la chaleur, surtout dans le sud, mais avec une incertitude significative..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafraîchissement net, nuits plus fraîches, orages possibles en fin de semaine..
+Températures attendues précédemment : Orages possibles les 20-21 août au passage du front, plus marqués sur le relief..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Virgile
-Message:
-il y a 4 minutes, mike a dit :
-			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
-	Mais arrête Mike de dire n'importe quoi.  On est pas sur twitter ici mais sur un forum sérieux.  C'est pas la méteo des pelouses  et des terres ici. Ce que tu évoques ce sont les masses d'air dans l'atmosphère!!!!
-								2
-								1
-								1
-
-=======================
-
-Auteur: Virgile
-Message:
-il y a 8 minutes, tao a dit :
-			Bonjour,
-			merci @Virgile pour ce rappel pédagogique sur l'inutilité de tenir compte des déterministes à 300h. 
-			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
-			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
-	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 16 heures par Virgile
-
-=======================
-
 Auteur: trugll
 Message:
 il y a 43 minutes, mike a dit :
@@ -415,7 +392,7 @@ il y a 35 minutes, mike a dit :
 Auteur: bernardt60
 Message:
 Bon maintenant on passe aux prévisions !
-								4
+								5
 								7
 
 =======================
@@ -435,7 +412,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 13 heures par tao
+	Modifié il y a 15 heures par tao
 								9
 								1
 
@@ -471,10 +448,10 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 13 heures par _sb
+	Modifié il y a 15 heures par _sb
 								8
 								2
-								10
+								13
 								1
 
 =======================
@@ -495,8 +472,8 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 12 heures par _sb
-								1
+	Modifié il y a 14 heures par _sb
+								2
 								1
 
 =======================
@@ -507,7 +484,7 @@ Il y a 3 heures, Sebaas a dit :
 			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
 	Mettre le mot "non" en gras n'est pas un argument scientifique...
 	Blague à part, je pense que la réponse est beaucoup plus complexe qu'elle n'y parait, c'est un sujet actif de recherche académique. Donc je doute pouvoir trouver la réponse sur le forum LT info climat entre deux cartes GFS à +300h.
-								4
+								6
 
 =======================
 
@@ -517,7 +494,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 12 heures par greg13
+	Modifié il y a 14 heures par greg13
 
 =======================
 
@@ -532,7 +509,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 12 heures par lapin61
+	Modifié il y a 14 heures par lapin61
 Correction orthographe
 
 =======================
@@ -561,8 +538,8 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 11 heures par petit âge glaciaire 11
-								4
+	Modifié il y a 13 heures par petit âge glaciaire 11
+								5
 								1
 								3
 
@@ -617,6 +594,7 @@ Il y a 1 heure, petit âge glaciaire 11 a dit :
 			UKMO :
 	On voit aussi une profonde dépression repris par d'autres modèles (AIGFS, cep...) sur l'atlantique. Cela pourrait etre bénéfique en terme de pp si elle venait se centrer sur la france, mais coté chaleur, elle pourrait faire remonter une nouvelle fois les températures si elle a la mauvaise idée de rester trop à l'ouest.
 								4
+								1
 
 =======================
 
@@ -642,32 +620,32 @@ il y a 5 minutes, Jojobarbar a dit :
 	On va pas palabrer pendant des heures. Chacun son avis.
 	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
 	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
-								3
+								7
+
+=======================
+
+Auteur: vda77
+Message:
+Bonjour.
+	Fidèle à la tradition, il semblerait qu'un changement de temps se profile pour ce topic. La chaleur serait en nette replie, au moins sur la moitié nord.
+	Il reste un point d'interrogation, par contre, concernant les précipitations qui ne devraient pas être conséquent, en tout cas pour l'instant.
+	Enfin des bonnes nouvelles.
+
+=======================
+
+Auteur: Virgile
+Message:
+Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
+	Lundi et mardi, 2 journées encore bien trop chaudes avec des tx supérieurs à 30 degrés sauf sur le nord ouest. Mais on ne parlera plus de canicule sauf sur la basse vallée du Rhone et l'intérieur de la Provence.
+	Mercredi, acte véritablement le changement avec enfin notre thalweg qui devrait bien s'enfoncer dans le sud.
+	Des températures sous les normes sur la moitié nord. Si, si c'est possible.
+	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
+	du pas vu depuis très longtemps.
+	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
+	Modifié il y a 3 minutes par Virgile
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Virgile
-Message:
-il y a 4 minutes, mike a dit :
-			oui enfin ces dernières années on a jamais eu de grand froid durable pour permettre de dire ca car la situation ne s'y prêtait jamais. Mais la vague de froid par exemple de la fin décembre 1996/début janvier 1997 est un vrai pure exemple. Le froid et la neige au sol bien entretenu n'ont pas permis au flux d'ouest de se réinstaller sur la France et encore moins dans le NE au cours du mois de janvier. Décembre 2001/janvier 2002 est également un bon exemple mais la davantage pour le Nord-Est
-	Mais arrête Mike de dire n'importe quoi.  On est pas sur twitter ici mais sur un forum sérieux.  C'est pas la méteo des pelouses  et des terres ici. Ce que tu évoques ce sont les masses d'air dans l'atmosphère!!!!
-								2
-								1
-								1
-
-=======================
-
-Auteur: Virgile
-Message:
-il y a 8 minutes, tao a dit :
-			Bonjour,
-			merci @Virgile pour ce rappel pédagogique sur l'inutilité de tenir compte des déterministes à 300h. 
-			Ce n'est pas nouveau et ça ne concerne pas uniquement cet été, pour preuve l'évolution des performances en fonction de l'éloignement dans le temps:
-			Vous pouvez cliquer pour agrandir et mieux prendre connaissance des performances.
-	C'était pas pour prouver que les modèles déterministes étaient pas fiables à 300 heures, on le sait tous. Mais le fait qu'à longue échéance, cette facilité à retrouver des conditions synoptiques fraiches et pluvieuses.
-	Modifié il y a 16 heures par Virgile
-
-=======================
-
 Auteur: trugll
 Message:
 il y a 43 minutes, mike a dit :
@@ -695,7 +673,7 @@ il y a 35 minutes, mike a dit :
 Auteur: bernardt60
 Message:
 Bon maintenant on passe aux prévisions !
-								4
+								5
 								7
 
 =======================
@@ -715,7 +693,7 @@ Message:
 Je peux paraître un peu têtu mais dans ce carrefour d'influences décrit par @_sb, les chances de d'évoluer, au moins temporairement, du point de vue synoptique sont bien réelles. Des modèles comme GEM et UKMO à des échéances auxquelles les déterministes deviennent pertinents (144h) commencent à insister sur la mise place d'une dorsale atlantique et d'une zone de bas géopotentiels sur l'Europe du nord.
 	Les conséquences chez nous se feraient sentir avec au minimum un abaissement relatif de la ceinture subtropicale.
 	Je trouve cela suffisamment sérieux pour y porter un minimum de crédit.
-	Modifié il y a 13 heures par tao
+	Modifié il y a 15 heures par tao
 								9
 								1
 
@@ -751,10 +729,10 @@ Il y a 5 heures, mathias a dit :
 	etc
 	EDIT :
 	@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Modifié il y a 13 heures par _sb
+	Modifié il y a 15 heures par _sb
 								8
 								2
-								10
+								13
 								1
 
 =======================
@@ -775,8 +753,8 @@ il y a 52 minutes, _sb a dit :
 			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
 	Faudrait peut-être lire ...
 	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié il y a 12 heures par _sb
-								1
+	Modifié il y a 14 heures par _sb
+								2
 								1
 
 =======================
@@ -787,7 +765,7 @@ Il y a 3 heures, Sebaas a dit :
 			Vous confondez les échelles : évidemment que des sols desséchés favorisent les Tx qui s'envolent de quelques degrés supplémentaires (niveau d'humidité, albedo, etc.) et à l'évidence, les modèles tendant à sous-estimer cet état des sols et donc les Tx y compris à courtes échéances, mais non, ça n'influence pas la circulation atmosphérique à l'échelle synoptique. La goutte froide qui se positionne systématiquement en mode "pompe à chaleur" au large du Portugal n'a que faire de l'état de nos sols!
 	Mettre le mot "non" en gras n'est pas un argument scientifique...
 	Blague à part, je pense que la réponse est beaucoup plus complexe qu'elle n'y parait, c'est un sujet actif de recherche académique. Donc je doute pouvoir trouver la réponse sur le forum LT info climat entre deux cartes GFS à +300h.
-								4
+								6
 
 =======================
 
@@ -797,7 +775,7 @@ La semaine à venir sera un cran moins chaude avec malgré tout une certaine ré
 	Petit aparté, entre deux canicules, je vous invite à découvrir le nouveau jeu de prévisions de la rentrée sur Infoclimat... 
 	2 minutes par semaine... pour faire sensation sur le forum !  
 	Au menu, de la prévision de température maximale, et le titre suprême de président des prévis à la clé !  
-	Modifié il y a 12 heures par greg13
+	Modifié il y a 14 heures par greg13
 
 =======================
 
@@ -812,7 +790,7 @@ Message:
 	Les modèles AI, devraient, eux , théoriquement et logiquement, être capable, d’intégrer plus rapidement (et automatiquement ? ) ce type de facteur.
 	Si le sujet doit être transféré sur un autre topic, aucun souci. Je suis juste curieux par rapport à cet aspect, quand j’observe, la récurrence de l’ensemble des modèles sur ce point.
 	Merci par avance
-	Modifié il y a 12 heures par lapin61
+	Modifié il y a 14 heures par lapin61
 Correction orthographe
 
 =======================
@@ -841,8 +819,8 @@ Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2
 	ICON :
 	UKMO :
 	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié il y a 11 heures par petit âge glaciaire 11
-								4
+	Modifié il y a 13 heures par petit âge glaciaire 11
+								5
 								1
 								3
 
@@ -897,6 +875,7 @@ Il y a 1 heure, petit âge glaciaire 11 a dit :
 			UKMO :
 	On voit aussi une profonde dépression repris par d'autres modèles (AIGFS, cep...) sur l'atlantique. Cela pourrait etre bénéfique en terme de pp si elle venait se centrer sur la france, mais coté chaleur, elle pourrait faire remonter une nouvelle fois les températures si elle a la mauvaise idée de rester trop à l'ouest.
 								4
+								1
 
 =======================
 
@@ -922,4 +901,27 @@ il y a 5 minutes, Jojobarbar a dit :
 	On va pas palabrer pendant des heures. Chacun son avis.
 	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
 	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
-								3
+								7
+
+=======================
+
+Auteur: vda77
+Message:
+Bonjour.
+	Fidèle à la tradition, il semblerait qu'un changement de temps se profile pour ce topic. La chaleur serait en nette replie, au moins sur la moitié nord.
+	Il reste un point d'interrogation, par contre, concernant les précipitations qui ne devraient pas être conséquent, en tout cas pour l'instant.
+	Enfin des bonnes nouvelles.
+
+=======================
+
+Auteur: Virgile
+Message:
+Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
+	Lundi et mardi, 2 journées encore bien trop chaudes avec des tx supérieurs à 30 degrés sauf sur le nord ouest. Mais on ne parlera plus de canicule sauf sur la basse vallée du Rhone et l'intérieur de la Provence.
+	Mercredi, acte véritablement le changement avec enfin notre thalweg qui devrait bien s'enfoncer dans le sud.
+	Des températures sous les normes sur la moitié nord. Si, si c'est possible.
+	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
+	du pas vu depuis très longtemps.
+	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
+	Modifié il y a 3 minutes par Virgile
+								1
