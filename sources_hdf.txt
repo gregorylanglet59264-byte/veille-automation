@@ -322,9 +322,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 16 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Tendance à un net rafraîchissement après un début de semaine 1 encore chaud. Retour d'un temps plus sec et stable en semaine 2, avec des températures proches des normales..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Rafraîchissement avec averses et températures sous les normales en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
@@ -516,7 +516,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 16 heures par Virgile
+	Modifié il y a 18 heures par Virgile
 								14
 								3
 								1
@@ -775,7 +775,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 16 heures par Virgile
+	Modifié il y a 18 heures par Virgile
 								14
 								3
 								1

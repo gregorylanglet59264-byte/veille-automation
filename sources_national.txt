@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 16 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Retour progressif à des températures plus normales, avec une fin de canicule et un temps plus instable en seconde partie de quinzaine..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Baisse des températures, averses orageuses, retour à des conditions plus fraîches et plus stables..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
@@ -525,7 +525,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 16 heures par Virgile
+	Modifié il y a 18 heures par Virgile
 								14
 								3
 								1
@@ -784,7 +784,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 16 heures par Virgile
+	Modifié il y a 18 heures par Virgile
 								14
 								3
 								1
