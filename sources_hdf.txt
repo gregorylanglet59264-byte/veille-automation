@@ -304,7 +304,7 @@ Températures minimales : stables.
 Températures maximales : stationnaires.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 160420 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 16 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 16 août 2026 à 00H00 UTC, et évolution Dorsale atlantique se maintenant des Açores à l'Irlande. Perturbation balayant les îles britanniques, atteignant l'est de la manche et la mer du Nord ce soir. Zone à tendance dépressionnaire se maintenant sur la France et le golfe de Gascogne, se comblant lentement demain. 3 - Prévisions pour la journée du dimanche 16 août VENT : secteur Nord-Est 2 à 4, revenant Nord-Ouest en Manche l'après-midi, puis secteur Sud au nord de Boulogne-sur-Mer à la fin. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : non significative, localement confondue avec la mer du vent en Mer du Nord en début de journée. TEMPS : peu nuageux à nuageux, devenant ensoleillé l'après-midi. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 16 août au lundi 17 août VENT : fraîchissant Ouest à Sud-Ouest 3 à 4 au début, puis virant secteur Nord-Ouest 2 à 4 en seconde partie de nuit. MER : belle. HOULE : non significative. TEMPS : peu nuageux, devenant très nuageux en seconde partie de nuit avec quelques averses en Mer du Nord. VISIBILITE : bonne, localement moyenne sous averses. 5 - Prévisions pour la journée du lundi 17 août VENT : - au nord de Boulogne sur Mer : virant secteur Nord-Est 2 à 4 le matin, puis virant secteur Sud-Est l'après-midi. - au sud de Boulogne sur Mer : secteur Nord-Ouest 2 à 4, fraîchissant secteur Ouest 3 à 4 l'après-midi. MER : belle, devenant localement peu agitée en Manche en fin de journée. HOULE : non significative. TEMPS : très nuageux le matin avec quelques averses. Temps plus sec avec quelques éclaircies l'après-midi. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 17 au 18 et la journée du mardi 18 août VENT : Sud-Ouest 3 à 4, fraîchissant 5 en milieu de nuit. MER : belle, devenant agitée en début de matinée. HOULE dominante d'Ouest à Nord-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 19 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Jeudi 20 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Samedi 22 août Secteur Nord faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le dimanche 16 août 2026 à 03H00 UTC Dunkerque : vent Nord-Ouest 8 noeuds, 1015 hPa en hausse. Cap Gris Nez : vent Sud-Sud-Ouest 12 noeuds. Boulogne : vent Sud-Ouest 8 noeuds, 1016 hPa en hausse. Bouée Sandettie : vent Nord 6 noeuds, creux 0,3 mètre, 1015 hPa en baisse, visibilité 2 milles. Prochain bulletin le dimanche 16 août 2026, vers 12H30 légales
+FQCT40 LFQQ 160935 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 16 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 16 août 2026 à 06H00 UTC, et évolution Dorsale atlantique se maintenant des Açores au sud des Iles Britanniques. Perturbation balayant les îles britanniques, atteignant l'est de la manche et la mer du Nord ce soir. Zone à tendance dépressionnaire se maintenant sur la France et le golfe de Gascogne, se comblant lentement demain. Dépression prévue 1014 hPa sur le sud de la Grande Bretagne demain soir. 3 - Prévisions pour l'après-midi du dimanche 16 août VENT : secteur Nord-Est 1 à 3 en Mer du Nord, Nord à Nord-Ouest 2 à 4 en Manche. MER : belle à peu agitée, s'atténuant belle. HOULE : non significative, localement confondue avec la mer du vent en Mer du Nord en début de journée. TEMPS : ensoleillé, parfois voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 16 août au lundi 17 août VENT : Variable 1 à 3, fraîchissant Ouest à Sud-Ouest 3 à 4 le soir, puis virant secteur Nord-Ouest 2 à 4 en seconde partie de nuit. MER : belle. HOULE : non significative. TEMPS : peu nuageux, devenant très nuageux en seconde partie de nuit avec quelques averses en Mer du Nord. VISIBILITE : bonne, localement moyenne sous averses. 5 - Prévisions pour la journée du lundi 17 août VENT : - au nord de Boulogne : virant secteur Nord-Est 2 à 4 le matin, devenant Variable l'après-midi. - au sud de Boulogne : secteur Nord-Ouest 2 à 4, fraîchissant Ouest à Sud-Ouest 3 à 4 l'après-midi. MER : belle, devenant localement peu agitée en Manche en fin de journée. HOULE : non significative. TEMPS : très nuageux le matin, éclaircies l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 17 au 18 et la journée du mardi 18 août VENT : Ouest à Sud-Ouest 3 à 4, parfois 5, localement Sud-Est 2 à 4 vers la frontière belge au début, fraîchissant 4 à 5 le matin, puis 5 à 6 en fin de journée. MER : devenant progressivement peu agitée partout la nuit, puis agitée en Manche le matin. HOULE : confondue avec la mer du vent. TEMPS : nuageux, temporairement couvert en journée avec quelques pluies. VISIBILITE : bonne, mais moyenne sous pluie. 7 - Prévisions pour la nuit du 18 au 19 et la journée du mercredi 19 août VENT : Sud-Ouest 4 à 6, virant temporairement Ouest à Nord-Ouest en seconde partie de nuit. MER : peu agitée, temporairement agitée. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Jeudi 20 août Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Samedi 22 août Secteur Nord-Ouest faible à modéré. Indice de confiance : 2 sur 5 Dimanche 23 août Secteur Nord faible à modéré. Indice de confiance : 2 sur 5 9 - Observations le dimanche 16 août 2026 à 09H00 UTC Dunkerque : vent Nord-Nord-Est 6 noeuds, mer belle, 1018 hPa en hausse, nuageux avec éclaircies, visibilité 7 milles. Cap Gris Nez : vent Nord-Est 12 noeuds. Boulogne : vent Nord-Est 4 noeuds, 1018 hPa en hausse. Prochain bulletin le dimanche 16 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -335,12 +335,12 @@ pluies importants en peu de temps.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Comparaisons de capteurs SHT75 Sensirion et autres
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Nouvelle station météo
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 16/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -348,34 +348,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 16 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Rafraîchissement net après une période très chaude, avec un temps variable et des températures sous les normales en fin de semaine 1. La semaine 2 s'annonce dans le même registre, mais avec une fiabilité moindre..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps variable, alternance d'éclaircies et d'averses. Températures en baisse, surtout à partir de jeudi..
+Températures attendues précédemment : Rafraîchissement net, averses possibles, vent d'ouest modéré à assez fort, mer agitée en Manche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Sebaas
-Message:
-il y a 11 minutes, _sb a dit :
-			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
-	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								4
-								4
-
-=======================
-
-Auteur: _sb
-Message:
-il y a 52 minutes, _sb a dit :
-			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	Faudrait peut-être lire ...
-	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié vendredi à 19:12 par _sb
-								2
-								1
-
-=======================
-
 Auteur: faycal
 Message:
 Il y a 3 heures, Sebaas a dit :
@@ -542,7 +520,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 22 heures par Virgile
+	Modifié hier à 09:57 par Virgile
 								14
 								3
 								1
@@ -600,7 +578,7 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								3
+								4
 
 =======================
 
@@ -611,30 +589,41 @@ il y a 44 minutes, pierrot_75 a dit :
 	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
 	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
 								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+	Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+	Ensemble CEP :
+	GEFS :
+	La synoptique évolue favorablement :
+	Du coup le flux d'ouest est de retour en France
+	Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+	Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+								3
+								1
+								1
+
+=======================
+
+Auteur: nickdu77
+Message:
+il y a 17 minutes, petit âge glaciaire 11 a dit :
+			Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+			Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+			Ensemble CEP :
+			GEFS :
+			La synoptique évolue favorablement :
+			Du coup le flux d'ouest est de retour en France
+			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
+	Modifié il y a 18 minutes par nickdu77
+Précisions sur les PP
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Sebaas
-Message:
-il y a 11 minutes, _sb a dit :
-			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
-	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								4
-								4
-
-=======================
-
-Auteur: _sb
-Message:
-il y a 52 minutes, _sb a dit :
-			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	Faudrait peut-être lire ...
-	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié vendredi à 19:12 par _sb
-								2
-								1
-
-=======================
-
 Auteur: faycal
 Message:
 Il y a 3 heures, Sebaas a dit :
@@ -801,7 +790,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 22 heures par Virgile
+	Modifié hier à 09:57 par Virgile
 								14
 								3
 								1
@@ -859,7 +848,7 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								3
+								4
 
 =======================
 
@@ -870,3 +859,36 @@ il y a 44 minutes, pierrot_75 a dit :
 	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
 	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
 								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+	Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+	Ensemble CEP :
+	GEFS :
+	La synoptique évolue favorablement :
+	Du coup le flux d'ouest est de retour en France
+	Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+	Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+								3
+								1
+								1
+
+=======================
+
+Auteur: nickdu77
+Message:
+il y a 17 minutes, petit âge glaciaire 11 a dit :
+			Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+			Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+			Ensemble CEP :
+			GEFS :
+			La synoptique évolue favorablement :
+			Du coup le flux d'ouest est de retour en France
+			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
+	Modifié il y a 18 minutes par nickdu77
+Précisions sur les PP

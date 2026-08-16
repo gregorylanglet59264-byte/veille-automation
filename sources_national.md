@@ -311,7 +311,7 @@ Températures minimales : en hausse sur le Lauragais ainsi que sur les plaines e
 Températures maximales : en hausse dans le Muretain.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 160425 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 16 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 16 août 2026 à 00H00 UTC, et évolution Faible gradient de pression proche de 1013-1015 hPa. Dépression vers 1011 hPa près de la Côte d'Azur demain matin, se creusant 1007 hPa en soirée. 3 - Prévisions pour la journée du dimanche 16 août VENT : secteur Ouest 2 à 4 à l'est de Cap Croisette, mais Variable 1 à 3 à l'ouest, fraîchissant partout Ouest à Sud-Ouest 3 à 4 l'après-midi, localement 5 vers Saint-Raphaël, puis 4 à 5 mais localement 3 le long de la côte de la côte bleue à Sicié. MER : belle, localement peu agitée à l'est du Levant, et devenant peu agitée vers la Camargue à la fin. HOULE : non significative. TEMPS : peu nuageux, avec quelques bancs de brumes sur la Camargue le matin. VISIBILITE : bonne, localement moyenne à mauvaise par bancs de brume. 4 - Prévisions pour la nuit du dimanche 16 août au lundi 17 août VENT : Ouest à Sud-Ouest 3 à 5, localement 6 vers la Camargue au début, virant Ouest à Nord-Ouest 3 à 4 en première partie de nuit, mais temporairement Variable 1 à 3 de Fos à Sicié en milieu de nuit. Rafales. MER : devenant peu agitée, mais localement belle vers Saint-Raphaël. HOULE : houle d'Ouest à Sud-Ouest de 0.5 à 1m s'établissant en milieu de nuit de Port Camargue au Levant. TEMPS : peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 17 août VENT : Nord-Ouest 4 à 5, mais localement 2 à 3 à l'est du Levant, fraîchissant secteur Ouest 5 à 6 partout l'après-midi, avec menace de 7 à l'est de Sicié, puis devenant localement Nord à Nord-Est 3 à 4 vers Saint-Raphaël à la fin. Rafales. MER : peu agitée, puis agitée à la mi-journée à l'est de Cap Couronne, localement forte à la fin à l'est de Porquerolles. HOULE : houle d'Ouest à Sud-Ouest 0.5 à 1 m s'amortissant en début d'après-midi. Nouvelle houle de Sud-Ouest s'établissant en fin d'après-midi, de 0.5 à 1m de Port Camargue à Hyères, et de 1.5 à 2 m à l'est du Levant vers le large. TEMPS : ciel voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 17 au 18 et la journée du mardi 18 août VENT : De Port Camargue à Porquerolles Ouest à Nord-Ouest 5 à 6, fraîchissant temporairement 7 en milieu de nuit de Fos à Porquerolles. De Porquerolles au Levant secteur Nord-Ouest 6. Rafales. Du Levant à St Raphaël Ouest 5 à 7 virant Nord-Est 4 à 5 en milieu de nuit. Fortes rafales. MER : peu agitée à agitée, localement forte du Levant à St Raphaël. HOULE : De Port Camargue à Fos établissement temporaire d'une houle de Sud-Ouest 1 à 1,5 m en début de nuit. De Fos à Marseille houle de Sud-Ouest 0,5 à 1,5 m, s'orientant temporairement au Nord en début de matinée. De Marseille à St Raphaël houle d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 7 - Tendance pour les jours suivants Mercredi 19 août Variable modéré à assez fort autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 20 août Variable modéré à assez fort autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Nord-Ouest modéré à assez fort autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Samedi 22 août Variable faible à modéré autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le dimanche 16 août 2026 à 03H00 UTC Cap Camarat : vent Sud-Sud-Ouest 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest-Nord-Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Porquerolles : vent Ouest 14 noeuds. Cap Couronne : vent Calme, mer belle, visibilité 10 milles. Prochain bulletin le dimanche 16 août 2026, vers 13H00 légales
+FQCT40 LFML 160930 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 16 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 16 août 2026 à 06H00 UTC, et évolution Faible gradient de pression proche de 1013-1015 hPa sur le bassin aujourd'hui. Dépression relative 1013 hPa sur le Golfe de Gênes, quasi-stationnaire aujourd'hui, puis se creusant sur place 1007 hPa demain après-midi. 3 - Prévisions pour l'après-midi du dimanche 16 août VENT : Ouest à Sud-Ouest 3 à 4, localement 5 à l'est du Cap Camarat, fraîchissant 4 à 5 en fin d'après-midi, mais localement 3 à 4 vers le rivage du Cap Couronne au Cap Sicié. MER : belle, localement peu agitée à l'est du Levant, devenant belle à peu agitée en fin de journée. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 16 août au lundi 17 août VENT : Ouest à Sud-Ouest 4 à 5, virant Ouest à Nord-Ouest 3 à 5 en milieu de nuit, mais temporairement Variable 1 à 3 de Fos à Sicié en milieu de nuit. MER : belle à peu agitée. HOULE : s'établissant Ouest à Sud-Ouest de 0.5 à 1 m en milieu de nuit. TEMPS : peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 17 août VENT : Ouest à Nord-Ouest 4 à 5, mais localement 2 à 4 à l'est du Levant, fraîchissant secteur Ouest 5 à 6 partout à la mi-journée, avec menace de 7 à l'est de Sicié, puis mollissant localement Nord-Est 3 à 4 vers Saint-Raphaël en fin de journée. Rafales. MER : devenant peu agitée à agitée, puis localement forte au large des îles d'Hyères en fin de journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant à la mi-journée, puis s'établissant Sud-Ouest 0.5 à 1 m en fin de journée, localement 1 à 2 m de Sicié à Saint-Raphaël. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 17 au 18 et la journée du mardi 18 août VENT : - de Port-Camargue au Levant : Nord-Ouest 5 à 6, avec menace de 7 vers Sicié, revenant Ouest à Nord-Ouest 4 à 5 l'après-midi, localement 6 du Cap Croisette au levant. Rafales. - du Levant à Saint-Raphaël : Nord-Ouest 4 à 5, parfois 6, mollissant Nord 2 à 4 en seconde partie de nuit, puis devenant Variable à la mi-journée. MER : peu agitée à agitée, localement belle à peu agitée du Cap Camarat à Saint-Raphaël. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 1.5 m de Sicié à Saint-Raphaël. TEMPS : beau temps. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 18 au 19 et la journée du mercredi 19 août VENT : De Port Camargue à Camarat Ouest 5 à 6 revenant secteur Sud 2 à 4 en milieu d'après-midi. De Camarat à St Raphaël Sud à Sud-Ouest 3 à 4. MER : agitée devenant belle à peu agitée en seconde partie de nuit. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Jeudi 20 août Secteur Sud faible à modéré entre Corse et continent, Secteur Nord-Ouest faible à modéré ailleurs. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Samedi 22 août Secteur Nord-Ouest modéré dans le Golfe du Lion, Secteur Sud-Ouest faible à modéré ailleurs. Indice de confiance : 2 sur 5 Dimanche 23 août Secteur Nord-Ouest faible à modéré dans le Golfe du Lion, Secteur Sud-Ouest faible à modéré ailleurs. Indice de confiance : 2 sur 5 9 - Observations le dimanche 16 août 2026 à 09H00 UTC Cap Camarat : vent Sud-Sud-Ouest 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Ouest 8 noeuds. Porquerolles : vent Sud-Ouest 10 noeuds. Cap Couronne : vent Sud-Sud-Ouest 6 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le dimanche 16 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -342,12 +342,12 @@ pluies importants en peu de temps.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Comparaisons de capteurs SHT75 Sensirion et autres
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Nouvelle station météo
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 1 : AVIGNON
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 16/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -355,34 +355,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 16 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Après une semaine 1 encore chaude, un rafraîchissement net se dessine à partir de jeudi, avec une semaine 2 qui devrait rester sous l'influence d'un temps plus frais et instable. Les températures reviendront proches des normales, voire en dessous sur la moitié nord..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Températures en baisse, précipitations possibles dans le sud-est, fin de la période de chaleur intense..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Sebaas
-Message:
-il y a 11 minutes, _sb a dit :
-			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
-	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								4
-								4
-
-=======================
-
-Auteur: _sb
-Message:
-il y a 52 minutes, _sb a dit :
-			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	Faudrait peut-être lire ...
-	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié vendredi à 19:12 par _sb
-								2
-								1
-
-=======================
-
 Auteur: faycal
 Message:
 Il y a 3 heures, Sebaas a dit :
@@ -549,7 +527,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 22 heures par Virgile
+	Modifié hier à 09:57 par Virgile
 								14
 								3
 								1
@@ -607,7 +585,7 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								3
+								4
 
 =======================
 
@@ -618,30 +596,41 @@ il y a 44 minutes, pierrot_75 a dit :
 	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
 	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
 								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+	Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+	Ensemble CEP :
+	GEFS :
+	La synoptique évolue favorablement :
+	Du coup le flux d'ouest est de retour en France
+	Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+	Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+								3
+								1
+								1
+
+=======================
+
+Auteur: nickdu77
+Message:
+il y a 17 minutes, petit âge glaciaire 11 a dit :
+			Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+			Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+			Ensemble CEP :
+			GEFS :
+			La synoptique évolue favorablement :
+			Du coup le flux d'ouest est de retour en France
+			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
+	Modifié il y a 18 minutes par nickdu77
+Précisions sur les PP
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Sebaas
-Message:
-il y a 11 minutes, _sb a dit :
-			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. 
-	C'est exactement ce que tu viens de faire: réduire la récurrence des vagues de chaleur à une seule cause --&gt; l'état des sols. Félicitation pour la démonstration.
-								4
-								4
-
-=======================
-
-Auteur: _sb
-Message:
-il y a 52 minutes, _sb a dit :
-			Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-	Faudrait peut-être lire ...
-	EDIT : au cas où, lorsque j'écris « La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit », je sais très bien que tu ne crois pas que c'est le cas stricto sensu, c'est une image, je ne te prends pas pour un idiot. De même je t'ai cité puisque tu as donné une réponse catégorique, mais mon post n'est pas personnalisé (d'où l'emploi du vous).
-	Modifié vendredi à 19:12 par _sb
-								2
-								1
-
-=======================
-
 Auteur: faycal
 Message:
 Il y a 3 heures, Sebaas a dit :
@@ -808,7 +797,7 @@ Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une 
 	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
 	du pas vu depuis très longtemps.
 	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié il y a 22 heures par Virgile
+	Modifié hier à 09:57 par Virgile
 								14
 								3
 								1
@@ -866,7 +855,7 @@ Auteur: pierrot_75
 Message:
 ce dernier run de GFS n'est pas, sans etre expert du tout en météo, la version goutte froide qui s'isole sur la France ça ? ce serait le pompon tiens, flotte du lundi au vendredi .. ma seule semaine de congés en aout après avoir littéralement crevé de chaud au bureau (chaleur qui continue encore au moins jusqu'au 18 inclus en plus !)
 								1
-								3
+								4
 
 =======================
 
@@ -877,3 +866,36 @@ il y a 44 minutes, pierrot_75 a dit :
 	Il y a eu tellement de revirements de situation que moi je ne pavoise pas .
 	Jeudi prochain c'est encore loin il y en aura d'autres des sorties avant de valider ce changement de synaptique
 								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+	Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+	Ensemble CEP :
+	GEFS :
+	La synoptique évolue favorablement :
+	Du coup le flux d'ouest est de retour en France
+	Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+	Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+								3
+								1
+								1
+
+=======================
+
+Auteur: nickdu77
+Message:
+il y a 17 minutes, petit âge glaciaire 11 a dit :
+			Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horrible ?
+			Pourtant les nouvelles sont plutot bonnes avec l'éloignement vers le sud de la ligne maudite à 850 Hpa qui représente en plaine des températures très élevées, d'autant plus qu'on la dépasse.
+			Ensemble CEP :
+			GEFS :
+			La synoptique évolue favorablement :
+			Du coup le flux d'ouest est de retour en France
+			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
+			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
+	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
+	Modifié il y a 18 minutes par nickdu77
+Précisions sur les PP
