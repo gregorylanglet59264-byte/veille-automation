@@ -323,12 +323,12 @@ incertains.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : &#xC9;té 2026 et éco-anxiété
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 16/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -336,49 +336,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 16 Août 2026.
-Résumé général précédent : Fin de la récurrence caniculaire de l'été 2026 : retour d'un flux océanique, températures proches des normales et précipitations encore insuffisantes face à la sécheresse..
+Résumé général précédent : Après les fortes chaleurs de la mi-août, un changement de synoptique s'opère avec le retour du flux d'ouest. Les températures reviennent près des normales, tandis que les pluies restent insuffisantes face à la sécheresse..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Rupture thermique nette entre mercredi et jeudi. Pluies faibles à modérées, orages possibles sur le relief. Pas de retour de la canicule à l'horizon..
+Températures attendues précédemment : Rafraîchissement net jeudi/vendredi, pluies modérées, potentiel orageux sur le quart sud-est en milieu de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Krholam
-Message:
-il y a 58 minutes, Virgile a dit :
-			Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
-	Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
-	Plus sérieusement. J’espère qu’on tient enfin le bon bout
-
-=======================
-
-Auteur: zagueb83
-Message:
-il y a 1 minute, Krholam a dit :
-			Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
-			Plus sérieusement. J’espère qu’on tient enfin le bon bout
-	On ne va pas rester dans cette configuration jusqu'au mois de Juin 2027 ! il va forcement avoir un changement ! 
-	Comme toi je l'espère aussi !  
-								1
-								2
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-Les modèles semblent s'accorder pour éloigner durable les masses d'air très chauds qui nous ont envahis une bonne partie de l'été.
-	Cela devrait se faire progressivement au cours du topic et vendredi l'ensemble du pays devrait enfin pouvoir souffler.
-	Ensemble GEM :
-	Ensemble CEP :
-	Ensemble GEFS :
-	Je pense qu'on peut maintenant raisonnablement être optimiste et penser que ces millions de français vivant ou travaillant dans des passoires thermiques pourront vivre leur vie d'une manière plus normale sans devoir sans cesse s'adapter pour survivre à des conditions éprouvantes. 
-	Au niveau du sol on pzur enfin espérer enfin des températures normales :
-	A confirmer pour les déterministes c'est encore loin 
-								8
-								1
-								1
-
-=======================
-
 Auteur: Plancher
 Message:
 Que penser du dernier run du GFS ?
@@ -436,7 +399,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 10 heures par nickdu77
+	Modifié il y a 12 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -457,7 +420,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 9 heures par Bruno76
+	Modifié il y a 11 heures par Bruno76
 
 =======================
 
@@ -468,7 +431,7 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 9 heures par Rémy_orage09
+	Modifié il y a 11 heures par Rémy_orage09
 								1
 								2
 
@@ -494,7 +457,7 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 8 heures par Virgile
+	Modifié il y a 10 heures par Virgile
 								14
 								1
 
@@ -510,7 +473,7 @@ Il y a 2 heures, Rémy_orage09 a dit :
 			Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
 	 L'automne météorologique débutant dans 16 petits jours, il n'est pas rare d'observer des dents de scie sur le plan thermique; tantôt frais et tantôt chaud. C'est souvent ce qui se passe aussi en début de printemps et c'est ce qui ressort à ce jour.
 	Comme dit plus haut, il ne semble pas y avoir de durabilité sur ce type de scénario. Enfin, nous espérons tous la fin de ce cauchemar après 3 mois particulièrement éprouvants.
-								1
+								2
 								4
 
 =======================
@@ -559,7 +522,7 @@ il y a une heure, Mica a dit :
 	Comme lorsqu’on utilise le decou0age temporel en histoire.
 	En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
 	Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
-	Modifié il y a 3 heures par Krholam
+	Modifié il y a 5 heures par Krholam
 
 =======================
 
@@ -582,17 +545,17 @@ Il y a 1 heure, Mica a dit :
 	Par contre, si cette hypothétique goutte froide migrait vers le sud-ouest on pourrait craindre à nouveau un flux de sud-ouest mais qui serait sans doute passager.
 	Illustration avec GFS :
 	A voir ce que ca donne au prochain topic car les modèles divergent rapidement après le 23 août. 
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
 								4
-								2
+								3
 
 =======================
 
 Auteur: waingro
 Message:
 Il y a toujours un beau potentiel humide pour les régions méditerranéennes et plus globalement le quart sud-est en milieu de semaine (CEP 6z est un exemple)... avec les SST actuelles j'imagine que même un thalweg peu dynamique pourrait donner des précipitations très importantes en flux de sud instable 🙂
-	Modifié il y a 2 heures par waingro
+	Modifié il y a 4 heures par waingro
 
 =======================
 
@@ -607,47 +570,48 @@ G
 	De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il n'y a pas de 39 à la c. 
 	Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
 	Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
-	Modifié il y a 1 heure par AmourDaria
+	Modifié il y a 3 heures par AmourDaria
 								4
+								1
+
+=======================
+
+Auteur: barbe31
+Message:
+Il y a 2 heures, AmourDaria a dit :
+			G
+			De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il n'y a pas de 39 à la c. 
+			Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
+			Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
+	La très grande majorité des stations que j'ai consultées sous une ligne La rochelle - Lyon a connu des températures comprises entre 38°C et 40°C au moins une fois lors de la dernière semaine d'Aout.
+	Quant à dire que l'on n'aura pas 39°C début septembre, il faudrait envisager le risque sous un prisme nouveau. Avant ce mois de mai il aurait été impensable de déclencher un vigilance canicule si tôt dans l'année et pourtant ça a été le cas contre toute attente.
+	On entre dans un nouveau paradigme et il va falloir si préparer.
+								1
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+L'ensemble européen ne me paraît pas tant avare que cela côté précipitation, au moins sur la moitié sud et notamment le sud est. On se dirige vers un épisode pluvieux climatiquement exceptionnel à l'échelle de la semaine.
+	La tendance s'affirme au fil des sorties (mais demande confirmation, car GEFS est un peu plus timoré) :
+	Pour la semaine en question, l'intensité de l'épisode, la temporalité, son extension et avant tout son existence sont à définir, on se dirige probablement vers un épisode méditerranéen mais certains scénario sont peu intenses en lames d'eau, mais continus. 
+	Pour la partie nord, on est en bout d'une rivière atmosphérique conséquente qui pourrait se traduire par quelques précipitations intéressantes autour de mercredi. Rien de révolutionnaire a priori, mais à ne pas négliger non plus !
+	Modifié il y a 1 heure par Jojobarbar
+								5
+
+=======================
+
+Auteur: filgoud
+Message:
+il y a une heure, Jojobarbar a dit :
+			On se dirige vers un épisode pluvieux climatiquement exceptionnel à l'échelle de la semaine.
+	Bonsoir,
+	Exceptionnel par rapport à quoi?
+	Par rapport à la moyenne depuis le mois de mai où en partant de 0 tout peut être considéré comme exceptionnel vu ce qu'il sait produit ou sur une autre échelle de valeur ou de temps?
+	Merci
+	Modifié il y a 19 minutes par filgoud
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Krholam
-Message:
-il y a 58 minutes, Virgile a dit :
-			Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
-	Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
-	Plus sérieusement. J’espère qu’on tient enfin le bon bout
-
-=======================
-
-Auteur: zagueb83
-Message:
-il y a 1 minute, Krholam a dit :
-			Perso j’attends de briser le mirage des 6h tellement cet été et ses récurrences chaude a été infernal.🫠
-			Plus sérieusement. J’espère qu’on tient enfin le bon bout
-	On ne va pas rester dans cette configuration jusqu'au mois de Juin 2027 ! il va forcement avoir un changement ! 
-	Comme toi je l'espère aussi !  
-								1
-								2
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-Les modèles semblent s'accorder pour éloigner durable les masses d'air très chauds qui nous ont envahis une bonne partie de l'été.
-	Cela devrait se faire progressivement au cours du topic et vendredi l'ensemble du pays devrait enfin pouvoir souffler.
-	Ensemble GEM :
-	Ensemble CEP :
-	Ensemble GEFS :
-	Je pense qu'on peut maintenant raisonnablement être optimiste et penser que ces millions de français vivant ou travaillant dans des passoires thermiques pourront vivre leur vie d'une manière plus normale sans devoir sans cesse s'adapter pour survivre à des conditions éprouvantes. 
-	Au niveau du sol on pzur enfin espérer enfin des températures normales :
-	A confirmer pour les déterministes c'est encore loin 
-								8
-								1
-								1
-
-=======================
-
 Auteur: Plancher
 Message:
 Que penser du dernier run du GFS ?
@@ -705,7 +669,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 10 heures par nickdu77
+	Modifié il y a 12 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -726,7 +690,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 9 heures par Bruno76
+	Modifié il y a 11 heures par Bruno76
 
 =======================
 
@@ -737,7 +701,7 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 9 heures par Rémy_orage09
+	Modifié il y a 11 heures par Rémy_orage09
 								1
 								2
 
@@ -763,7 +727,7 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 8 heures par Virgile
+	Modifié il y a 10 heures par Virgile
 								14
 								1
 
@@ -779,7 +743,7 @@ Il y a 2 heures, Rémy_orage09 a dit :
 			Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
 	 L'automne météorologique débutant dans 16 petits jours, il n'est pas rare d'observer des dents de scie sur le plan thermique; tantôt frais et tantôt chaud. C'est souvent ce qui se passe aussi en début de printemps et c'est ce qui ressort à ce jour.
 	Comme dit plus haut, il ne semble pas y avoir de durabilité sur ce type de scénario. Enfin, nous espérons tous la fin de ce cauchemar après 3 mois particulièrement éprouvants.
-								1
+								2
 								4
 
 =======================
@@ -828,7 +792,7 @@ il y a une heure, Mica a dit :
 	Comme lorsqu’on utilise le decou0age temporel en histoire.
 	En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
 	Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
-	Modifié il y a 3 heures par Krholam
+	Modifié il y a 5 heures par Krholam
 
 =======================
 
@@ -851,17 +815,17 @@ Il y a 1 heure, Mica a dit :
 	Par contre, si cette hypothétique goutte froide migrait vers le sud-ouest on pourrait craindre à nouveau un flux de sud-ouest mais qui serait sans doute passager.
 	Illustration avec GFS :
 	A voir ce que ca donne au prochain topic car les modèles divergent rapidement après le 23 août. 
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
 								4
-								2
+								3
 
 =======================
 
 Auteur: waingro
 Message:
 Il y a toujours un beau potentiel humide pour les régions méditerranéennes et plus globalement le quart sud-est en milieu de semaine (CEP 6z est un exemple)... avec les SST actuelles j'imagine que même un thalweg peu dynamique pourrait donner des précipitations très importantes en flux de sud instable 🙂
-	Modifié il y a 2 heures par waingro
+	Modifié il y a 4 heures par waingro
 
 =======================
 
@@ -876,5 +840,43 @@ G
 	De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il n'y a pas de 39 à la c. 
 	Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
 	Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
-	Modifié il y a 1 heure par AmourDaria
+	Modifié il y a 3 heures par AmourDaria
 								4
+								1
+
+=======================
+
+Auteur: barbe31
+Message:
+Il y a 2 heures, AmourDaria a dit :
+			G
+			De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il n'y a pas de 39 à la c. 
+			Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
+			Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
+	La très grande majorité des stations que j'ai consultées sous une ligne La rochelle - Lyon a connu des températures comprises entre 38°C et 40°C au moins une fois lors de la dernière semaine d'Aout.
+	Quant à dire que l'on n'aura pas 39°C début septembre, il faudrait envisager le risque sous un prisme nouveau. Avant ce mois de mai il aurait été impensable de déclencher un vigilance canicule si tôt dans l'année et pourtant ça a été le cas contre toute attente.
+	On entre dans un nouveau paradigme et il va falloir si préparer.
+								1
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+L'ensemble européen ne me paraît pas tant avare que cela côté précipitation, au moins sur la moitié sud et notamment le sud est. On se dirige vers un épisode pluvieux climatiquement exceptionnel à l'échelle de la semaine.
+	La tendance s'affirme au fil des sorties (mais demande confirmation, car GEFS est un peu plus timoré) :
+	Pour la semaine en question, l'intensité de l'épisode, la temporalité, son extension et avant tout son existence sont à définir, on se dirige probablement vers un épisode méditerranéen mais certains scénario sont peu intenses en lames d'eau, mais continus. 
+	Pour la partie nord, on est en bout d'une rivière atmosphérique conséquente qui pourrait se traduire par quelques précipitations intéressantes autour de mercredi. Rien de révolutionnaire a priori, mais à ne pas négliger non plus !
+	Modifié il y a 1 heure par Jojobarbar
+								5
+
+=======================
+
+Auteur: filgoud
+Message:
+il y a une heure, Jojobarbar a dit :
+			On se dirige vers un épisode pluvieux climatiquement exceptionnel à l'échelle de la semaine.
+	Bonsoir,
+	Exceptionnel par rapport à quoi?
+	Par rapport à la moyenne depuis le mois de mai où en partant de 0 tout peut être considéré comme exceptionnel vu ce qu'il sait produit ou sur une autre échelle de valeur ou de temps?
+	Merci
+	Modifié il y a 19 minutes par filgoud
