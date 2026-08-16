@@ -340,12 +340,12 @@ incertains.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Pluviometre mono-auget Davis
+• Infoclimat Direct : Capteur Co2(scd41) +esp32
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 16/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -353,64 +353,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 16 Août 2026.
-Résumé général HDF précédent : Rafraîchissement net et durable, températures proches des normales, précipitations faibles à modérées et insuffisantes pour la sécheresse..
+Résumé général HDF précédent : Tendance à 15 jours (16-30 août) : fin de la canicule, retour à un temps océanique proche des normales, précipitations faibles et insuffisantes pour la sécheresse..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Températures en baisse, vent d'ouest modéré, rafales 55 km/h possibles sur le littoral..
+Températures attendues précédemment : Averses éparses, températures en baisse, vent d'ouest modéré. (64 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2 ensembles disponibles à cette heure (GFS et GEM) pour Montpellier dans le sud-est et les déterministes ICON et UKMO qui ne vont pas trop loin car il y a beaucoup d'incertitudes après. 
-	Les moyennes  vont toujours dans le sens d'un rafraîchissement atteignant le sud-est mais seulement à partir de vendredi. 
-	Le fait que ces 2 ensembles modélisent une baisse quand-même notable dans le sud-est donne un certain poids au scénario. 
-	Des précipitations sont aussi envisagées dans ces régions ce qui serait une très bonne chose pour la nature. 
-	GEFS Montpellier :
-	GEM Montpellier :
-	Ensuite si on regarde les déterministes ICON et UKMO pour vendredi 14h on constate que la synoptique changerait de manière sensible pour les 2 modèles mais avec des scénarios différents : pour  ICON un anticyclone décalé a l'ouest et donc bien placé sur l'atlantique pour permettre enfin à de l'air plus frais en provenance du nord-ouest d'atteindre le nord du pays et l'évacuation de l'air très chaud dans le sud.
-	UKMO nous propose lui un anticyclone plus décalé a l'ouest ce qui ne permettrait pas un apport d'air aussi "frais" que le modèle allemand. 
-	Dans le sud-est, le décalage à l'ouest des centres d'action, pourrait favoriser la résistance de l'air torride. 
-	ICON :
-	UKMO :
-	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié vendredi à 20:01 par petit âge glaciaire 11
-								5
-								1
-								3
-
-=======================
-
-Auteur: Virgile
-Message:
-Il y a 1 heure, _sb a dit :
-			Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
-			Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
-			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
-			Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
-			- oui
-			La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
-			L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
-			- oui
-			Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
-			- oui
-			j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
-			Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
-			Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-			La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
-			https://www.nature.com/articles/s41612-025-01294-4
-			https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
-			https://academic.oup.com/oocc/article/5/1/kgae023/8005865
-			https://doi.org/10.1175/JCLI4288.1
-			https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
-			https://www.nature.com/articles/s41612-024-00831-x
-			https://www.science.org/doi/10.1126/sciadv.adr7320
-			etc
-			EDIT :
-			@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Derrière cette grandiloquence qui te caractérise, tu nous développe l'effet papillon.
-
-=======================
-
 Auteur: meteo noobs
 Message:
 Même si les travaux académiques de Lorenz sont indiscutables je pense qu'il y a quand même des limites en prévision météo 
@@ -564,6 +512,7 @@ Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horribl
 								4
 								2
 								1
+								1
 
 =======================
 
@@ -579,7 +528,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 2 heures par nickdu77
+	Modifié il y a 4 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -600,7 +549,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 1 heure par Bruno76
+	Modifié il y a 3 heures par Bruno76
 
 =======================
 
@@ -611,7 +560,8 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 1 heure par Rémy_orage09
+	Modifié il y a 3 heures par Rémy_orage09
+								1
 								2
 
 =======================
@@ -636,62 +586,33 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 22 minutes par Virgile
+	Modifié il y a 2 heures par Virgile
+								13
+								1
+
+=======================
+
+Auteur: Nicolas L
+Message:
+Il y a 2 heures, Rémy_orage09 a dit :
+			On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour jeudi et vendredi.
+			Par contre, je serai prudent avant de parler d'un changement de synoptique, ce n'est pas la révolution sur certains modèles.
+			On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
+			Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
+			Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
+	 L'automne météorologique débutant dans 16 petits jours, il n'est pas rare d'observer des dents de scie sur le plan thermique; tantôt frais et tantôt chaud. C'est souvent ce qui se passe aussi en début de printemps et c'est ce qui ressort à ce jour.
+	Comme dit plus haut, il ne semble pas y avoir de durabilité sur ce type de scénario. Enfin, nous espérons tous la fin de ce cauchemar après 3 mois particulièrement éprouvants.
+								1
 								4
+
+=======================
+
+Auteur: Mercur01
+Message:
+Du côté de Poitiers, attention pas mal de dispersion pour la fin du topic. Rien n’est joué. 
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Pour en revenir aux prévisions et faire un point ce soir, je vais prendre les 2 ensembles disponibles à cette heure (GFS et GEM) pour Montpellier dans le sud-est et les déterministes ICON et UKMO qui ne vont pas trop loin car il y a beaucoup d'incertitudes après. 
-	Les moyennes  vont toujours dans le sens d'un rafraîchissement atteignant le sud-est mais seulement à partir de vendredi. 
-	Le fait que ces 2 ensembles modélisent une baisse quand-même notable dans le sud-est donne un certain poids au scénario. 
-	Des précipitations sont aussi envisagées dans ces régions ce qui serait une très bonne chose pour la nature. 
-	GEFS Montpellier :
-	GEM Montpellier :
-	Ensuite si on regarde les déterministes ICON et UKMO pour vendredi 14h on constate que la synoptique changerait de manière sensible pour les 2 modèles mais avec des scénarios différents : pour  ICON un anticyclone décalé a l'ouest et donc bien placé sur l'atlantique pour permettre enfin à de l'air plus frais en provenance du nord-ouest d'atteindre le nord du pays et l'évacuation de l'air très chaud dans le sud.
-	UKMO nous propose lui un anticyclone plus décalé a l'ouest ce qui ne permettrait pas un apport d'air aussi "frais" que le modèle allemand. 
-	Dans le sud-est, le décalage à l'ouest des centres d'action, pourrait favoriser la résistance de l'air torride. 
-	ICON :
-	UKMO :
-	Donc a mon avis, oui des incertitudes pour les 3 derniers jours du topic avec des modélisations divergentes, mais des ensembles encore plutôt rassurants.
-	Modifié vendredi à 20:01 par petit âge glaciaire 11
-								5
-								1
-								3
-
-=======================
-
-Auteur: Virgile
-Message:
-Il y a 1 heure, _sb a dit :
-			Deux échelles sont clairement à distinguer (et même trois...) mais dans les deux cas, le taux d'humidité des sols au niveau régional influence la circulation hémisphérique !
-			Le rôle du taux d'humidité des sols dans l'amplification (intensité, extension, récurrence) des vagues de chaleurs est largement documenté ces dernières années. Et continue d'être un sujet analysé, tant sur les vagues de chaleur européenne de ce XXIe siècle que dans les projections du climat futur. L'humidité des sols sur une région tend à devenir l'un des éléments déterminants impactant la circulation atmosphérique sur tout l'hémisphère. Et cela a des milliers de km de distance !...
-			Vous semblez oublier que l'atmosphère fait partie du « système Terre » : air, océan, glace, sol, végétation, etc. C'est un ensemble en interaction permanente.
-			Rappelons-nous le rôle de la MJO : une convection intense sur le Pacifique équatorial central favorise une dorsale sur l'Atlantique nord quelques jours plus tard. Les deux sont pourtant distants de plus de dix mille km et ne paraissent pas avoir de similitudes.
-			- oui
-			La sécheresse locale du sol limite le refroidissement latent instantané et donc augmente la température de l'air. Une augmentation locale de la température de l'air augmente l'évaporation du sol qui s'assèche donc encore plus vite, augmentant la température de l'air, etc...
-			L'humidité des sols est déterminée au premier ordre par les précipitations puis par le couvert végétal.
-			- oui
-			Une faible humidité des sols perturbe l'équilibre entre chaleur latente et chaleur sensible et, in fine, le bilan thermique. Cela crée également des éléments sous-synoptiques formant des guides d'onde déviant les ondes de Rossby (ondes planétaires à l'origine des thalwegs et dorsales), favorisant la survenue ou l'intensification d'une crête d'altitude à de longues distances. De façon imagée, on pourrait comparer aux anticyclones thermiques mais ici reliés plus directement à l'humidité des sols. Les Jets (polaires et subtropicaux) sont alors décalés vers le nord dans la zone eurasiatique.
-			- oui
-			j'en ajoute un 3e. Un faible taux d'humidité des sols au printemps est un autre facteur caniculaire. Due à une faiblesse des précipitations en amont, les sols s'assèchent plus rapidement. Dès de mois de mai, les températures ont été anormalement élevées sur des vastes régions, accélérant le « 1er oui ». Certaines études tendent à montrer qu'une région continentale longuement sèche favorise la survenue de récurrence très chaudes à des milliers de km, à cause du « 2e oui ».
-			Une sécheresse des sols au Tibet favorisant une vague de chaleur en Europe, c'est possible.
-			Ces « oui » s'interconnectent et s'influencent dans le temps. La récurrence infernale de cet été, comme toutes les autres récurrences que nous pouvons rencontrer, ne sont pas fortuites. Évidemment, une canicule n'est pas due qu'à la sécheresse des sols d'un autre coin de la planète mais cela y participe fondamentalement.
-			La dépression au large du Portugal ne s'y place pas par l'opération du Saint-Esprit mais parce qu'un faisceau d'éléments la force (provoque un forçage) la dirigeant vers cette position. Certains de ces éléments viennent de très loin.
-			https://www.nature.com/articles/s41612-025-01294-4
-			https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EF001386
-			https://academic.oup.com/oocc/article/5/1/kgae023/8005865
-			https://doi.org/10.1175/JCLI4288.1
-			https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2023-11/010090269.pdf
-			https://www.nature.com/articles/s41612-024-00831-x
-			https://www.science.org/doi/10.1126/sciadv.adr7320
-			etc
-			EDIT :
-			@tao nous sommes d'accord. Être à un carrefour offre plusieurs chemins potentiels. Nous semblons diverger sur le fait que les configurations proposées ne permettaient pas encore de choisir un chemin plutôt qu'un autre. Mais ça va venir bien sûr.
-	Derrière cette grandiloquence qui te caractérise, tu nous développe l'effet papillon.
-
-=======================
-
 Auteur: meteo noobs
 Message:
 Même si les travaux académiques de Lorenz sont indiscutables je pense qu'il y a quand même des limites en prévision météo 
@@ -845,6 +766,7 @@ Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horribl
 								4
 								2
 								1
+								1
 
 =======================
 
@@ -860,7 +782,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 2 heures par nickdu77
+	Modifié il y a 4 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -881,7 +803,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 1 heure par Bruno76
+	Modifié il y a 3 heures par Bruno76
 
 =======================
 
@@ -892,7 +814,8 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 1 heure par Rémy_orage09
+	Modifié il y a 3 heures par Rémy_orage09
+								1
 								2
 
 =======================
@@ -917,5 +840,28 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 22 minutes par Virgile
+	Modifié il y a 2 heures par Virgile
+								13
+								1
+
+=======================
+
+Auteur: Nicolas L
+Message:
+Il y a 2 heures, Rémy_orage09 a dit :
+			On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour jeudi et vendredi.
+			Par contre, je serai prudent avant de parler d'un changement de synoptique, ce n'est pas la révolution sur certains modèles.
+			On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
+			Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
+			Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
+	 L'automne météorologique débutant dans 16 petits jours, il n'est pas rare d'observer des dents de scie sur le plan thermique; tantôt frais et tantôt chaud. C'est souvent ce qui se passe aussi en début de printemps et c'est ce qui ressort à ce jour.
+	Comme dit plus haut, il ne semble pas y avoir de durabilité sur ce type de scénario. Enfin, nous espérons tous la fin de ce cauchemar après 3 mois particulièrement éprouvants.
+								1
 								4
+
+=======================
+
+Auteur: Mercur01
+Message:
+Du côté de Poitiers, attention pas mal de dispersion pour la fin du topic. Rien n’est joué. 
+								1
