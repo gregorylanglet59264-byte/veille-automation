@@ -286,7 +286,7 @@ Températures minimales : en baisse dans le Volvestre.
 Températures maximales : en hausse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 160930 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 16 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 16 août 2026 à 06H00 UTC, et évolution Faible gradient de pression proche de 1013-1015 hPa sur le bassin aujourd'hui. Dépression relative 1013 hPa sur le Golfe de Gênes, quasi-stationnaire aujourd'hui, puis se creusant sur place 1007 hPa demain après-midi. 3 - Prévisions pour l'après-midi du dimanche 16 août VENT : Ouest à Sud-Ouest 3 à 4, localement 5 à l'est du Cap Camarat, fraîchissant 4 à 5 en fin d'après-midi, mais localement 3 à 4 vers le rivage du Cap Couronne au Cap Sicié. MER : belle, localement peu agitée à l'est du Levant, devenant belle à peu agitée en fin de journée. HOULE : non significative. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 16 août au lundi 17 août VENT : Ouest à Sud-Ouest 4 à 5, virant Ouest à Nord-Ouest 3 à 5 en milieu de nuit, mais temporairement Variable 1 à 3 de Fos à Sicié en milieu de nuit. MER : belle à peu agitée. HOULE : s'établissant Ouest à Sud-Ouest de 0.5 à 1 m en milieu de nuit. TEMPS : peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 17 août VENT : Ouest à Nord-Ouest 4 à 5, mais localement 2 à 4 à l'est du Levant, fraîchissant secteur Ouest 5 à 6 partout à la mi-journée, avec menace de 7 à l'est de Sicié, puis mollissant localement Nord-Est 3 à 4 vers Saint-Raphaël en fin de journée. Rafales. MER : devenant peu agitée à agitée, puis localement forte au large des îles d'Hyères en fin de journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant à la mi-journée, puis s'établissant Sud-Ouest 0.5 à 1 m en fin de journée, localement 1 à 2 m de Sicié à Saint-Raphaël. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 17 au 18 et la journée du mardi 18 août VENT : - de Port-Camargue au Levant : Nord-Ouest 5 à 6, avec menace de 7 vers Sicié, revenant Ouest à Nord-Ouest 4 à 5 l'après-midi, localement 6 du Cap Croisette au levant. Rafales. - du Levant à Saint-Raphaël : Nord-Ouest 4 à 5, parfois 6, mollissant Nord 2 à 4 en seconde partie de nuit, puis devenant Variable à la mi-journée. MER : peu agitée à agitée, localement belle à peu agitée du Cap Camarat à Saint-Raphaël. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 1.5 m de Sicié à Saint-Raphaël. TEMPS : beau temps. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 18 au 19 et la journée du mercredi 19 août VENT : De Port Camargue à Camarat Ouest 5 à 6 revenant secteur Sud 2 à 4 en milieu d'après-midi. De Camarat à St Raphaël Sud à Sud-Ouest 3 à 4. MER : agitée devenant belle à peu agitée en seconde partie de nuit. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Jeudi 20 août Secteur Sud faible à modéré entre Corse et continent, Secteur Nord-Ouest faible à modéré ailleurs. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Samedi 22 août Secteur Nord-Ouest modéré dans le Golfe du Lion, Secteur Sud-Ouest faible à modéré ailleurs. Indice de confiance : 2 sur 5 Dimanche 23 août Secteur Nord-Ouest faible à modéré dans le Golfe du Lion, Secteur Sud-Ouest faible à modéré ailleurs. Indice de confiance : 2 sur 5 9 - Observations le dimanche 16 août 2026 à 09H00 UTC Cap Camarat : vent Sud-Sud-Ouest 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Ouest 8 noeuds. Porquerolles : vent Sud-Ouest 10 noeuds. Cap Couronne : vent Sud-Sud-Ouest 6 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le dimanche 16 août 2026, vers 18H30 légales
+FQCT40 LFML 161620 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 16 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand Frais Nr 270 pour PROVENCE 2 - Situation générale dimanche 16 août 2026 à 12H00 UTC, et évolution Faible gradient de pression proche de 1013-1015 hPa sur le bassin aujourd'hui. Dépression relative 1013 hPa près de la côte de la Côte d'Azur, quasi-stationnaire aujourd'hui, puis se creusant 1007 hPa entre Corse et Continent demain après-midi. 3 - Prévisions pour la nuit du dimanche 16 août au lundi 17 août VENT : Ouest à Sud-Ouest 4 à 5, virant Ouest à Nord-Ouest 2 à 4 en milieu de nuit, parfois 5. MER : belle à peu agitée. HOULE : s'établissant Ouest à Sud-Ouest de 0.5 à 1 m en milieu de nuit. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du lundi 17 août VENT : Ouest à Nord-Ouest 4 à 5, mais localement Ouest à Sud-Ouest 2 à 4 à l'est du Levant, fraîchissant secteur Ouest 5 à 6 partout à la mi-journée, localement 6 à 7 de Sicié à Camarat l'après-midi, mais mollissant localement Nord-Est 3 à 4 de Camarat à Saint-Raphaël en fin de journée. Rafales. MER : devenant peu agitée à agitée, parfois forte au large des îles d'Hyères en fin de journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant à la mi-journée, puis s'établissant Sud-Ouest 0.5 à 1 m en fin de journée, localement 1 à 2 m de Sicié à Saint-Raphaël. TEMPS : ensoleillé, parfois voilé l'après-midi. VISIBILITE : bonne. 5 - Tendance pour la nuit du 17 au 18, et la journée du mardi 18 août VENT : - de Port-Camargue au Levant : Nord-Ouest 5 à 6, avec menace de 7, revenant Ouest 4 à 5 à la mi-journée, mais mollissant Variable 1 à 3 de Sicié au Levant. Rafales. - du Levant à Saint-Raphaël : Ouest 6 à 7, mollissant rapidement Nord à Nord-Ouest 3 à 5 en milieu de nuit, puis devenant Variable 1 à 3 le matin. MER : peu agitée à agitée, localement belle à peu agitée du Levant à Saint-Raphaël. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 1.5 m de Sicié à Saint-Raphaël. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 18 au 19 et la journée du mercredi 19 août VENT : De Port Camargue à Camarat Ouest 5 à 6 revenant secteur Sud 2 à 4 en milieu d'après-midi. De Camarat à St Raphaël Sud à Sud-Ouest 3 à 4. MER : agitée devenant belle à peu agitée en seconde partie de nuit. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 7 - Tendance pour les jours suivants Jeudi 20 août Secteur Sud faible à modéré entre Corse et continent, Secteur Nord-Ouest faible à modéré ailleurs. Indice de confiance : 3 sur 5 Vendredi 21 août Secteur Ouest modéré. Indice de confiance : 3 sur 5 Samedi 22 août Secteur Nord-Ouest modéré dans le Golfe du Lion, Secteur Sud-Ouest faible à modéré ailleurs. Indice de confiance : 2 sur 5 Dimanche 23 août Secteur Nord-Ouest faible à modéré dans le Golfe du Lion, Secteur Sud-Ouest faible à modéré ailleurs. Indice de confiance : 2 sur 5 8 - Observations le dimanche 16 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Ouest 19 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 10 noeuds. Porquerolles : vent Ouest-Sud-Ouest 14 noeuds. Cap Couronne : vent Sud-Ouest 12 noeuds. Prochain bulletin le lundi 17 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -323,12 +323,12 @@ incertains.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
+• Infoclimat Direct : Suivi de l'éclipse solaire du 12 ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Nord -  AOUT 2026
+• Infoclimat Direct : &#xC9;té 2026 et éco-anxiété
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 16/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -336,58 +336,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 16 Août 2026.
-Résumé général précédent : Sur les deux semaines à venir, la France devrait passer d'une canicule résiduelle à un temps plus frais et océanique, avec des températures proches des normales. Les précipitations resteront insuffisantes pour la sécheresse..
+Résumé général précédent : Passage d'un régime de chaleur caniculaire résiduelle à un temps plus océanique et frais, avec des températures proches des normales. Les précipitations resteront insuffisantes pour la sécheresse..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps instable avec averses, températures en baisse, puis retour progressif à des conditions plus calmes. (max 120 caractères).
+Températures attendues précédemment : Temps instable, averses, fraîcheur relative mais pas de retour durable de la chaleur..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: Virgile
-Message:
-il y a 5 minutes, Jojobarbar a dit :
-			Non mais justement, comparer ça à l'effet papillon montre que le point n'a pas été compris. L'effet papillon (sensibilité aux conditions initiales dans un système chaotique) et les téléconnexions sol-atmosphère sont deux choses différentes :
-			L'effet papillon décrit une imprévisibilité : une perturbation infime dont l'effet est imprévisible par rapport à la situation de référence (on peut avoir la même situation ou une situation très différente).
-			Ce dont on parle ici, ce sont des mécanismes physiques identifiés et documentés : bilan énergétique de surface (partition chaleur latente/chaleur sensible), rétroaction sol-température, guidage des ondes de Rossby. Ce sont des processus qu'on peut mesurer, modéliser, et retrouver de façon récurrente dans les réanalyses et les simulations. Ce n'est pas un battement d'aile isolé, c'est un forçage physique répété qui a une signature statistique.
-			La différence est simple : l'effet papillon dit "on ne peut pas prévoir précisément, déterministiquement". La littérature citée dit "voici le mécanisme, voici comment il se propage, et voici les cas où on l'observe". Ce n'est pas la même démarche scientifique.
-			Sur "ces articles pompeux en anglais ne démontrent pas grand-chose" : l'anglais est la langue de publication de la quasi-totalité de la climatologie internationale... Ce sont des revues à comité de lecture (Nature, AGU, Oxford, AMS), pas des blogs. Rejeter une source parce qu'elle est en anglais, ou parce que le sujet paraît "grandiloquent", n'est pas un argument scientifique. Dans ce cas tant que tu y es tu peux rejeter les rapports du GIEC.
-			Deux faits qui vont dans le même sens, à l'échelle du pays cette fois :
-			Un tiers du territoire est boisé, et l'évapotranspiration est un élément important du taux d'humidité, lui-même déterminant dans le renforcement ou l'affaiblissement de certaines situations synoptiques.
-			Le type de sol et de végétation influence aussi le temps sensible, comme le montrent les îlots de chaleur urbains — mais là où l'îlot de chaleur reste un effet local, on parle ici de sols à l'échelle d'un pays, voire de plusieurs.
-			Donc oui, des effets au sol, locaux ou régionaux, influencent bien la situation météo finale à plus grande échelle. C'est documenté, mesurable, et ce n'est pas un raccourci. Mais on ne dit pas que c'est le seul et unique moteur. Juste tes arguments sont "pour ma part non".
-	On va pas palabrer pendant des heures. Chacun son avis.
-	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
-	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
-								2
-								8
-
-=======================
-
-Auteur: vda77
-Message:
-Bonjour.
-	Fidèle à la tradition, il semblerait qu'un changement de temps se profile pour ce topic. La chaleur serait en nette replie, au moins sur la moitié nord.
-	Il reste un point d'interrogation, par contre, concernant les précipitations qui ne devraient pas être conséquent, en tout cas pour l'instant.
-	Enfin des bonnes nouvelles.
-								3
-
-=======================
-
-Auteur: Virgile
-Message:
-Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
-	Lundi et mardi, 2 journées encore bien trop chaudes avec des tx supérieurs à 30 degrés sauf sur le nord ouest. Mais on ne parlera plus de canicule sauf sur la basse vallée du Rhone et l'intérieur de la Provence.
-	Mercredi, acte véritablement le changement avec enfin notre thalweg qui devrait bien s'enfoncer dans le sud.
-	Des températures sous les normes sur la moitié nord. Si, si c'est possible.
-	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
-	du pas vu depuis très longtemps.
-	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié hier à 09:57 par Virgile
-								14
-								3
-								1
-
-=======================
-
 Auteur: Krholam
 Message:
 il y a 58 minutes, Virgile a dit :
@@ -463,7 +417,7 @@ Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horribl
 	Du coup le flux d'ouest est de retour en France
 	Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 	Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
-								4
+								5
 								2
 								1
 								1
@@ -482,7 +436,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 6 heures par nickdu77
+	Modifié il y a 8 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -503,7 +457,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 5 heures par Bruno76
+	Modifié il y a 7 heures par Bruno76
 
 =======================
 
@@ -514,7 +468,7 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 5 heures par Rémy_orage09
+	Modifié il y a 7 heures par Rémy_orage09
 								1
 								2
 
@@ -540,7 +494,7 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 4 heures par Virgile
+	Modifié il y a 6 heures par Virgile
 								13
 								1
 
@@ -565,6 +519,7 @@ Auteur: Mercur01
 Message:
 Du côté de Poitiers, attention pas mal de dispersion pour la fin du topic. Rien n’est joué. 
 								1
+								2
 
 =======================
 
@@ -579,7 +534,7 @@ Après ca serait pas mal d’avoir le reste du diagramme et de regarder les autr
 	Pas ou peu de dispersion.
 	Moyenne sous les 10
 	Juste quelques runs de peturbation qui décrochent de manière isolé
-								2
+								3
 
 =======================
 
@@ -591,68 +546,70 @@ il y a 50 minutes, Krholam a dit :
 	Le diagramme a été tronqué au 23 août, dernier jour concerné par le topic, ça me paraît logique pour le coup. Pour dire que la fraîcheur n'est pas acquise à 100 % le week-end prochain. On n'oubliera pas la remontée des graphiques pour mardi/jeudi, en quelques runs, alors que les modèles étaient initialement bien calés pour voir une baisse plus franche.
 	Tu parles du 27 dans ton message et je vois des captures du 28/29 août plus haut, mais c'est bien trop loin, et ça dépasse de ce topic 
 								1
-								1
+								2
 
 =======================
 
 Auteur: Krholam
 Message:
-il y a 18 minutes, Mica a dit :
+il y a une heure, Mica a dit :
 			Le diagramme a été tronqué au 23 août, dernier jour concerné par le topic, ça me paraît logique pour le coup. Pour dire que la fraîcheur n'est pas acquise à 100 % le week-end prochain. On n'oubliera pas la remontée des graphiques pour mardi/jeudi, en quelques runs, alors que les modèles étaient initialement bien calés pour voir une baisse plus franche.
 			Tu parles du 27 dans ton message et je vois des captures du 28/29 août plus haut, mais c'est bien trop loin, et ça dépasse de ce topic 
 	Certe mais sur des échéances avec scénario divergeant il me semble plus approprié de le placer dans ce qui suit. Ce n’est pas parce que nos conventions sont un découpage par semaine qu’il ne faut pas prendre en compte ce qu’il y a avant et après.
 	Comme lorsqu’on utilise le decou0age temporel en histoire.
 	En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
-	Ps : merci cependant pour la remarque. La coupure fait plus sens
-	Modifié il y a 42 minutes par Krholam
+	Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
+	Modifié il y a 1 heure par Krholam
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Il y a 1 heure, Mica a dit :
+			Le diagramme a été tronqué au 23 août, dernier jour concerné par le topic, ça me paraît logique pour le coup. 
+	Pour moi, c'est juste mon avis je le précise, il y a une vraie rupture qui devrait débuter entre mercredi et jeudi entre la période que nous venons de vivre, avec des épisodes caniculaires répétitifs, et ce que nous allons vivre à  la fin de ce topic et surtout au suivant. 
+	Quand on regarde le 6Z de CEP, toujours pour Poitiers,  on ne se rend pas compte de cela car on a que les tous premiers jours de la nouvelle synoptique qui apparaissent :
+	Je pense que, s'il ne faut pas poster des déterministes à trop long terme, un ensemble doit rester dans son contexte (en entier) quand un changement de synoptique qui semble profond intervient à la fin du topic en cours, ce qui est le cas.
+	Le diagramme complet du run précédent (on attend le prochain) me semble bien plus pertinent :
+	En effet, malgré la prudence qu'on doit avoir en analysant des courbes à long terme, il est facile de constater sur ce diagramme qu'aucun retour de la canicule n'est pour le moment dans les tuyaux pour ce modèle et pour ce topic comme pour le suivant. 
+	Les moyennes à 850hpa et à 500 Hpa sont toutes les 2 en baisse jusqu'à la fin du topic ce qui accrédite le changement de synoptique et la hausse modérée qui pourrait concerner le début du topic suivant aparrait pour le moment transitoire.
+	La synoptique actuelle, qui était en fait un blocage, occultait toute intrusion du flux atlantique :
+	La nouvelle synoptique qui devrait se mettre en place dès le 20 août , avec un anticyclone atlantique qui se mettrait en place du sud de l'Islande jusqu'aux Açores et des géopotentiels en baisse sur la France permettrait enfin un déblocage d'une synoptique trop longtemps figée.
+	Icon :
+	AIFS :
+	Avec cette nouvelle configuration il n'est pas exclu qu'une goutte froide s'installe à même la France, associée à l'anticyclone atlantique elle pourrait accentuer le retour d'une certaine " fraîcheur " par rapport à ce que nous avons connu ( je met le mot fraîcheur entre quillemets car meme si cela ne serait pas vraiment frais  on partirait de très haut) :
+	illustration avec CEP :
+	Par contre, si cette hypothétique goutte froide migrait vers le sud-ouest on pourrait craindre à nouveau un flux de sud-ouest mais qui serait sans doute passager.
+	Illustration avec GFS :
+	A voir ce que ca donne au prochain topic car les modèles divergent rapidement après le 23 août. 
+	Modifié il y a 59 minutes par petit âge glaciaire 11
+Modifié
+								4
+								1
+
+=======================
+
+Auteur: waingro
+Message:
+Il y a toujours un beau potentiel humide pour les régions méditerranéennes et plus globalement le quart sud-est en milieu de semaine (CEP 6z est un exemple)... avec les SST actuelles j'imagine que même un thalweg peu dynamique pourrait donner des précipitations très importantes en flux de sud instable 🙂
+	Modifié il y a 19 minutes par waingro
+
+=======================
+
+Auteur: AmourDaria
+Message:
+G
+		Il y a 2 heures, Krholam a dit :
+			Certe mais sur des échéances avec scénario divergeant il me semble plus approprié de le placer dans ce qui suit. Ce n’est pas parce que nos conventions sont un découpage par semaine qu’il ne faut pas prendre en compte ce qu’il y a avant et après.
+			Comme lorsqu’on utilise le decou0age temporel en histoire.
+			En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
+			Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
+	De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il y a pas de 39 à la c. 
+	Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
+	Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Virgile
-Message:
-il y a 5 minutes, Jojobarbar a dit :
-			Non mais justement, comparer ça à l'effet papillon montre que le point n'a pas été compris. L'effet papillon (sensibilité aux conditions initiales dans un système chaotique) et les téléconnexions sol-atmosphère sont deux choses différentes :
-			L'effet papillon décrit une imprévisibilité : une perturbation infime dont l'effet est imprévisible par rapport à la situation de référence (on peut avoir la même situation ou une situation très différente).
-			Ce dont on parle ici, ce sont des mécanismes physiques identifiés et documentés : bilan énergétique de surface (partition chaleur latente/chaleur sensible), rétroaction sol-température, guidage des ondes de Rossby. Ce sont des processus qu'on peut mesurer, modéliser, et retrouver de façon récurrente dans les réanalyses et les simulations. Ce n'est pas un battement d'aile isolé, c'est un forçage physique répété qui a une signature statistique.
-			La différence est simple : l'effet papillon dit "on ne peut pas prévoir précisément, déterministiquement". La littérature citée dit "voici le mécanisme, voici comment il se propage, et voici les cas où on l'observe". Ce n'est pas la même démarche scientifique.
-			Sur "ces articles pompeux en anglais ne démontrent pas grand-chose" : l'anglais est la langue de publication de la quasi-totalité de la climatologie internationale... Ce sont des revues à comité de lecture (Nature, AGU, Oxford, AMS), pas des blogs. Rejeter une source parce qu'elle est en anglais, ou parce que le sujet paraît "grandiloquent", n'est pas un argument scientifique. Dans ce cas tant que tu y es tu peux rejeter les rapports du GIEC.
-			Deux faits qui vont dans le même sens, à l'échelle du pays cette fois :
-			Un tiers du territoire est boisé, et l'évapotranspiration est un élément important du taux d'humidité, lui-même déterminant dans le renforcement ou l'affaiblissement de certaines situations synoptiques.
-			Le type de sol et de végétation influence aussi le temps sensible, comme le montrent les îlots de chaleur urbains — mais là où l'îlot de chaleur reste un effet local, on parle ici de sols à l'échelle d'un pays, voire de plusieurs.
-			Donc oui, des effets au sol, locaux ou régionaux, influencent bien la situation météo finale à plus grande échelle. C'est documenté, mesurable, et ce n'est pas un raccourci. Mais on ne dit pas que c'est le seul et unique moteur. Juste tes arguments sont "pour ma part non".
-	On va pas palabrer pendant des heures. Chacun son avis.
-	Là ou je suis d'accord, c'est que la sécheresse des sols provoque localement  quelques degrés en plus. Mais c'est le même procédé que l'ilot urbain ou l'effet albédo en hiver. On est sur du micro. Mais de là à dire que la sécheresse des terres françaises qui représentent pas grand chose sur la surface total du globe arrive à modifier la circulation atmosphérique à grande échelle, ou annoncer qu'une sécheresse au Tibet apporte une canicule en Europe ca sera sans moi.
-	Sur les réseaux sociaux, le nombres de messages quand la foret landaise brulait qui affirmaient que c'était à cause des incendies que la pluie n'arrivait pas, ça m'a bien saoulait. Fin de HS pour moi.
-								2
-								8
-
-=======================
-
-Auteur: vda77
-Message:
-Bonjour.
-	Fidèle à la tradition, il semblerait qu'un changement de temps se profile pour ce topic. La chaleur serait en nette replie, au moins sur la moitié nord.
-	Il reste un point d'interrogation, par contre, concernant les précipitations qui ne devraient pas être conséquent, en tout cas pour l'instant.
-	Enfin des bonnes nouvelles.
-								3
-
-=======================
-
-Auteur: Virgile
-Message:
-Tout à fait vda77, on a brisé le mirage des 168 heures. On a pas regagné une journée de plus de chaleur. 
-	Lundi et mardi, 2 journées encore bien trop chaudes avec des tx supérieurs à 30 degrés sauf sur le nord ouest. Mais on ne parlera plus de canicule sauf sur la basse vallée du Rhone et l'intérieur de la Provence.
-	Mercredi, acte véritablement le changement avec enfin notre thalweg qui devrait bien s'enfoncer dans le sud.
-	Des températures sous les normes sur la moitié nord. Si, si c'est possible.
-	L'air frais devrait gagner toute la France entre jeudi et vendredi et on pourrait avoir cela:
-	du pas vu depuis très longtemps.
-	Coté PP, on pourrait avoir notre première perturbation de faible intensité arrivant de GB par les cotes de la manche mettant fin sur le NPDC à 1 mois et demi quasiment sans pp.
-	Modifié hier à 09:57 par Virgile
-								14
-								3
-								1
-
-=======================
-
 Auteur: Krholam
 Message:
 il y a 58 minutes, Virgile a dit :
@@ -728,7 +685,7 @@ Pas beaucoup de post de prévision, la fatigue ? la lassitude d'un été horribl
 	Du coup le flux d'ouest est de retour en France
 	Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 	Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
-								4
+								5
 								2
 								1
 								1
@@ -747,7 +704,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 6 heures par nickdu77
+	Modifié il y a 8 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -768,7 +725,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 5 heures par Bruno76
+	Modifié il y a 7 heures par Bruno76
 
 =======================
 
@@ -779,7 +736,7 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 5 heures par Rémy_orage09
+	Modifié il y a 7 heures par Rémy_orage09
 								1
 								2
 
@@ -805,7 +762,7 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 4 heures par Virgile
+	Modifié il y a 6 heures par Virgile
 								13
 								1
 
@@ -830,6 +787,7 @@ Auteur: Mercur01
 Message:
 Du côté de Poitiers, attention pas mal de dispersion pour la fin du topic. Rien n’est joué. 
 								1
+								2
 
 =======================
 
@@ -844,7 +802,7 @@ Après ca serait pas mal d’avoir le reste du diagramme et de regarder les autr
 	Pas ou peu de dispersion.
 	Moyenne sous les 10
 	Juste quelques runs de peturbation qui décrochent de manière isolé
-								2
+								3
 
 =======================
 
@@ -856,17 +814,65 @@ il y a 50 minutes, Krholam a dit :
 	Le diagramme a été tronqué au 23 août, dernier jour concerné par le topic, ça me paraît logique pour le coup. Pour dire que la fraîcheur n'est pas acquise à 100 % le week-end prochain. On n'oubliera pas la remontée des graphiques pour mardi/jeudi, en quelques runs, alors que les modèles étaient initialement bien calés pour voir une baisse plus franche.
 	Tu parles du 27 dans ton message et je vois des captures du 28/29 août plus haut, mais c'est bien trop loin, et ça dépasse de ce topic 
 								1
-								1
+								2
 
 =======================
 
 Auteur: Krholam
 Message:
-il y a 18 minutes, Mica a dit :
+il y a une heure, Mica a dit :
 			Le diagramme a été tronqué au 23 août, dernier jour concerné par le topic, ça me paraît logique pour le coup. Pour dire que la fraîcheur n'est pas acquise à 100 % le week-end prochain. On n'oubliera pas la remontée des graphiques pour mardi/jeudi, en quelques runs, alors que les modèles étaient initialement bien calés pour voir une baisse plus franche.
 			Tu parles du 27 dans ton message et je vois des captures du 28/29 août plus haut, mais c'est bien trop loin, et ça dépasse de ce topic 
 	Certe mais sur des échéances avec scénario divergeant il me semble plus approprié de le placer dans ce qui suit. Ce n’est pas parce que nos conventions sont un découpage par semaine qu’il ne faut pas prendre en compte ce qu’il y a avant et après.
 	Comme lorsqu’on utilise le decou0age temporel en histoire.
 	En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
-	Ps : merci cependant pour la remarque. La coupure fait plus sens
-	Modifié il y a 43 minutes par Krholam
+	Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
+	Modifié il y a 1 heure par Krholam
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Il y a 1 heure, Mica a dit :
+			Le diagramme a été tronqué au 23 août, dernier jour concerné par le topic, ça me paraît logique pour le coup. 
+	Pour moi, c'est juste mon avis je le précise, il y a une vraie rupture qui devrait débuter entre mercredi et jeudi entre la période que nous venons de vivre, avec des épisodes caniculaires répétitifs, et ce que nous allons vivre à  la fin de ce topic et surtout au suivant. 
+	Quand on regarde le 6Z de CEP, toujours pour Poitiers,  on ne se rend pas compte de cela car on a que les tous premiers jours de la nouvelle synoptique qui apparaissent :
+	Je pense que, s'il ne faut pas poster des déterministes à trop long terme, un ensemble doit rester dans son contexte (en entier) quand un changement de synoptique qui semble profond intervient à la fin du topic en cours, ce qui est le cas.
+	Le diagramme complet du run précédent (on attend le prochain) me semble bien plus pertinent :
+	En effet, malgré la prudence qu'on doit avoir en analysant des courbes à long terme, il est facile de constater sur ce diagramme qu'aucun retour de la canicule n'est pour le moment dans les tuyaux pour ce modèle et pour ce topic comme pour le suivant. 
+	Les moyennes à 850hpa et à 500 Hpa sont toutes les 2 en baisse jusqu'à la fin du topic ce qui accrédite le changement de synoptique et la hausse modérée qui pourrait concerner le début du topic suivant aparrait pour le moment transitoire.
+	La synoptique actuelle, qui était en fait un blocage, occultait toute intrusion du flux atlantique :
+	La nouvelle synoptique qui devrait se mettre en place dès le 20 août , avec un anticyclone atlantique qui se mettrait en place du sud de l'Islande jusqu'aux Açores et des géopotentiels en baisse sur la France permettrait enfin un déblocage d'une synoptique trop longtemps figée.
+	Icon :
+	AIFS :
+	Avec cette nouvelle configuration il n'est pas exclu qu'une goutte froide s'installe à même la France, associée à l'anticyclone atlantique elle pourrait accentuer le retour d'une certaine " fraîcheur " par rapport à ce que nous avons connu ( je met le mot fraîcheur entre quillemets car meme si cela ne serait pas vraiment frais  on partirait de très haut) :
+	illustration avec CEP :
+	Par contre, si cette hypothétique goutte froide migrait vers le sud-ouest on pourrait craindre à nouveau un flux de sud-ouest mais qui serait sans doute passager.
+	Illustration avec GFS :
+	A voir ce que ca donne au prochain topic car les modèles divergent rapidement après le 23 août. 
+	Modifié il y a 59 minutes par petit âge glaciaire 11
+Modifié
+								4
+								1
+
+=======================
+
+Auteur: waingro
+Message:
+Il y a toujours un beau potentiel humide pour les régions méditerranéennes et plus globalement le quart sud-est en milieu de semaine (CEP 6z est un exemple)... avec les SST actuelles j'imagine que même un thalweg peu dynamique pourrait donner des précipitations très importantes en flux de sud instable 🙂
+	Modifié il y a 19 minutes par waingro
+
+=======================
+
+Auteur: AmourDaria
+Message:
+G
+		Il y a 2 heures, Krholam a dit :
+			Certe mais sur des échéances avec scénario divergeant il me semble plus approprié de le placer dans ce qui suit. Ce n’est pas parce que nos conventions sont un découpage par semaine qu’il ne faut pas prendre en compte ce qu’il y a avant et après.
+			Comme lorsqu’on utilise le decou0age temporel en histoire.
+			En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
+			Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
+	De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il y a pas de 39 à la c. 
+	Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
+	Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
+								1
