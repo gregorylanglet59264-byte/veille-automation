@@ -1,6 +1,6 @@
-# REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE (Dimanche 16 Août 2026)
+# REGISTRE COMPLET DES SOURCES DU BULLETIN HAUTS-DE-FRANCE (Lundi 17 Août 2026)
 
-Date actuelle de génération : Dimanche 16 Août 2026
+Date actuelle de génération : Lundi 17 Août 2026
 Saison en France : ÉTÉ
 
 PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
@@ -15,39 +15,39 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 16/08/2026 16:45
+Emis le : 17/08/2026 00:30
 
 Vigilance :
-Aujourd'hui, le département du Nord est en vigilance verte. Demain, il sera en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui, le département du Nord est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Lille-Lesquin : température de 27 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1017 hPa.
-A Dunkerque : température de 22 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 25 km/h.
+Aujourd'hui on observait à 00h :
+A Lille-Lesquin : température de 20 degrés, vent de secteur Nord-Est soufflant jusqu'à 15 km/h, pression niveau mer 1016 hPa.
+A Dunkerque : température de 21 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 15 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Les étoiles dominent dans un ciel parsemé de petits nuages. En seconde partie de nuit, ces nuages prennent de l'ampleur dans l'intérieur et peuvent lâcher quelques averses.
-Vent faible, variable.
-Températures minimales : dans l'intérieur entre 15 et 17 degrés. 19 degrés en Flandre maritime.
+Le ciel est assez bien dégagé en début de nuit, puis les nuages deviennent nombreux et menaçants. En seconde partie de nuit, des averses se produisent, des orages sont possibles.
+Au lever du jour, vent de Nord modéré, en Flandre maritime.
+Températures minimales : comprises entre 16 et 19 degrés.
 
 • Pour demain lundi 17 en journée et la nuit suivante :
-Quelques averses sont attendues en début de matinée, en Flandres, mais elles cessent rapidement. Ensuite, le reste de la journée est partout agréable, sous un ciel peu nuageux, parfois voilé. Pour la nuit : La nuit est bien dégagée. Les nuages, présents par endroits, ne sont pas bien nombreux.
-Vent faible à modéré dans l'intérieur, de Nord à Nord-Ouest, en journée ; et de Sud-Ouest, en fin de nuit.
+Des orages sont possibles, en début de journée, sur l'Avesnois, le Valenciennois et le Cambrésis. L'activité orageuse s'estompe rapidement. Le ciel se dégage peu à peu en cours de journée. Pour la nuit : Les nuages présents en début de nuit s'espacent peu à peu. Les éclaircies sont belles en seconde partie de nuit.
+Vent temporairement modéré.
 Températures maximales pour le jour : comprises entre 22 et 25 degrés.
-Températures minimales pour la nuit suivante : comprises entre 15 et 18 degrés.
+Températures minimales pour la nuit suivante : de 15 à 18 degrés.
 
 • Pour la journée de mardi 18 et la nuit suivante :
-Toute la journée, éclaircies et passages nuageux alternent. Ces derniers délivrent quelques averses en en matinée, de la côte à la région lilloise. Pour la nuit : La soirée est bien dégagée. Peu à peu, le ciel se voile. Puis, il se couvre en fin de nuit, et donne de petites averses, de la côte à la région lilloise.
-Vent d'Ouest à Sud-Ouest, modéré. Avec des rafales atteignant, en Flandre maritime, 55 km/h, en fin d'après-midi.
-Températures maximales pour le jour : entre 23 et 26 degrés.
+Le ciel est bien nuageux toute la journée, et le soleil ne se montre que timidement. Des averses sont possibles, le matin, de la côte à la région lilloise. Pour la nuit : Le voile nuageux se déchire en début de nuit, mais les éclaircies ne durent pas. Le ciel se charge peu à peu, et les nuages apportent quelques averses depuis la côte jusqu'au Valenciennois et au Cambrésis en seconde partie de nuit.
+Vent modéré, d'Ouest à Nord-Ouest. Avec des rafales jusqu'à 55 km/h, en Flandre maritime, en cours d'après-midi.
+Températures maximales pour le jour : entre 23 et 26 degrés, et 22 degrés en Flandre intérieure.
 Températures minimales pour la nuit suivante : de 16 à 17 degrés.
 
 • Pour la journée de mercredi 19 :
-En cours d'après-midi, des nuages menaçants peuvent occasionner quelques averses sur l'Avesnois. À part cela, c'est une journée avec un soleil largement présent qui s'annonce.
+Tôt le matin, quelques gouttes sont possibles en Flandre maritime ainsi que sur la région lilloise et le Douaisis. Puis le reste de la journée se passe sous un ciel un peu nuageux, plus ou moins lumineux selon le moment.
 Vent d'Ouest, modéré.
-Températures maximales : de 22 à 23 degrés.
+Températures maximales : entre 22 et 23 degrés.
 
 • Pour jeudi 20 et vendredi 21 :
 Risque de pluie et d'orage.
@@ -68,39 +68,39 @@ Températures minimales : sans changement significatif.
 Températures maximales : en hausse sur le Valenciennois et le Cambrésis ainsi qu'en Flandres.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 16/08/2026 16:45
+Emis le : 17/08/2026 00:30
 
 Vigilance :
-Aujourd'hui, le département du Pas-de-Calais est en vigilance verte. Demain, il sera en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui, le département du Pas-de-Calais est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Arras : température de 29 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 25 km/h.
-A Boulogne-Sémaphore : température de 23 degrés, vent de secteur Nord-Est soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 00h :
+A Arras : température de 19 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h.
+A Boulogne-Sémaphore : température de 19 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-En début de nuit, de belles éclaircies sont présentes. Puis peu à peu, les nuages gagnent, et en fin de nuit, quelques averses sont possibles sur les côtes de la Manche ainsi que sur la moitié Est du département.
-Vent variable, faible.
-Températures minimales : entre 16 et 18 degrés.
+De larges éclaircies sont présentes en première partie de nuit. Ensuite, les nuages deviennent plus nombreux. Des orages sont alors possibles.
+Vent faible, variable.
+Températures minimales : entre 16 et 19 degrés.
 
 • Pour demain lundi 17 en journée et la nuit suivante :
-À l'aube, de belles éclaircies sont présentes, mais en cours de journée, un voile d'altitude vient estomper le soleil. La fin de journée très localement est même assez nuageuse. Pour la nuit : Quelques gouttes sont possibles sur les côtes de la Manche en soirée. Puis la nuit est belle, malgré la présence de nuages élevés.
-Vent faible à modéré, s'atténuant en milieu de période.
-Températures maximales pour le jour : sur les côtes de la Manche, ainsi que dans les terres comprises entre 24 et 27 degrés. 23 degrés près de la Mer du Nord.
-Températures minimales pour la nuit suivante : comprises entre 16 et 18 degrés.
+Les éclaircies, larges en début de journée, se font plus timides. Au fil des heures, les nuages l'emportent. Pour la nuit : Après quelques passages nuageux, le ciel redevient étoilé en milieu de nuit. Ensuite, des nuages élevés envahissent le ciel.
+Vent variable, modéré.
+Températures maximales pour le jour : de 22 à 25 degrés.
+Températures minimales pour la nuit suivante : de 16 à 18 degrés.
 
 • Pour la journée de mardi 18 et la nuit suivante :
-Le temps est plutôt ensoleillé avec de belles éclaircies. Toutefois, sous un ciel un peu plus encombré, de petites averses se produisent en cours de journée, du Haut Artois au littoral. Pour la nuit : Le voile nuageux se déchire en début de nuit, mais les éclaircies ne durent pas. Le ciel se charge peu à peu, et les nuages apportent quelques averses sur les trois quarts Ouest du département en seconde partie de nuit.
-Etablissement, l'après-midi jusqu'en début de soirée, d'un vent d'Ouest assez fort, sur le littoral ; atténuation ensuite.
-Températures maximales pour le jour : entre 22 et 24 degrés.
-Températures minimales pour la nuit suivante : de 15 à 17 degrés.
+Le ciel très nuageux se couvre peu à peu. Quelques pluies se produisent sur le Ternois ainsi que du Haut Artois au littoral. Pour la nuit : En début de soirée, les nuages, peu nombreux, permettent d'observer les étoiles. Puis, progressivement, le ciel devient plus chargé, et des averses se produisent ici ou là.
+L'après-midi et en début de nuit, vent s'établissant à l'Ouest assez fort, sur le littoral ; puis atténuation. Rafales atteignant 55 km/h.
+Températures maximales pour le jour : comprises entre 22 et 25 degrés.
+Températures minimales pour la nuit suivante : entre 15 et 18 degrés.
 
 • Pour la journée de mercredi 19 :
-Le matin, les nuages donnent de faibles averses sur les côtes de la Manche ainsi que de l'Audomarois au Béthunois. Ils s'effacent assez vite en cours de matinée au profit de belles apparitions du soleil. Rapidement le soleil domine, le ciel est souvent bleu, même si par places, quelques nuages sont encore présents.
-Vent modéré, d'Ouest.
-Températures maximales : entre 22 et 24 degrés.
+Le soleil s'installe en général pour la journée. Il faut toutefois attendre, sur les côtes de la Manche, que les quelques rares averses, possibles en début de journée, cessent.
+En fin d'après-midi, vent s'établissant à l'Ouest assez fort, près de la Mer du Nord.
+Températures maximales : entre 21 et 24 degrés.
 
 • Pour jeudi 20 et vendredi 21 :
 Risque de pluie et d'orage.
@@ -121,38 +121,38 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse de l'Audomarois au Béthunois ainsi que du Haut Artois au littoral.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 16/08/2026 16:45
+Emis le : 17/08/2026 00:30
 
 Vigilance :
-Aujourd'hui et demain, le département de la Somme est en vigilance verte.
+Aujourd'hui, le département de la Somme est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Amiens-Glisy : température de 28 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1016 hPa.
+Aujourd'hui on observait à 00h :
+A Amiens-Glisy : température de 20 degrés, vent de secteur Sud soufflant jusqu'à 10 km/h, pression niveau mer 1016 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Les éclaircies, belles en début de nuit, se réduisent ensuite et de rares averses se produisent sur le Doullennais ainsi que sur le Vermandois en fin de nuit.
-Tôt le matin, vent s'établissant à l'Ouest modéré, sur le littoral picard.
-Températures minimales : comprises entre 15 et 18 degrés.
+En début de soirée, des nuages voilent le ciel. Ils se dissipent avant minuit, pour laisser place à un ciel étoilé. Cette amélioration est de courte durée, puisque les nuages deviennent de plus en plus nombreux. Le ciel est couvert en fin de nuit avec des risques d'orage, sur le Vermandois.
+En fin de nuit, vent s'établissant à l'Ouest modéré, sur le littoral picard.
+Températures minimales : comprises entre 16 et 18 degrés.
 
 • Pour demain lundi 17 en journée et la nuit suivante :
-Les quelques nuages présents ici et là disparaissent au fil du temps et le soleil devient prédominant. Pour la nuit : En soirée, les nuages donnent de faibles averses sur le littoral picard. Ils s'effacent assez vite, et le ciel s'éclaircit dès le milieu de nuit.
-Aux premières heures du jour, vent de Sud-Ouest assez fort, sur le littoral picard.
-Températures maximales pour le jour : dans les terres de 25 à 28 degrés. 24 degrés sur le littoral picard.
-Températures minimales pour la nuit suivante : dans les terres entre 14 et 16 degrés. 18 degrés sur le littoral picard.
+Le risque orageux présent au lever du jour sur le Vermandois, disparaît rapidement. Puis, c'est un temps largement ensoleillé qui prédomine pour la journée. Pour la nuit : La majeure partie de la nuit est claire, avec très peu de nuages. En fin de nuit, le ciel se voile et, sur le Doullennais, la couverture nuageuse devient importante.
+En fin de nuit, vent d'Ouest assez fort, sur le littoral picard.
+Températures maximales pour le jour : dans les terres de 25 à 27 degrés. 23 degrés sur le littoral picard.
+Températures minimales pour la nuit suivante : sur une grande moitié Est du département de 13 à 16 degrés. Comprises entre 17 et 18 degrés sur la Picardie maritime.
 
 • Pour la journée de mardi 18 et la nuit suivante :
-Le temps est très nuageux toute la journée. Le soleil peine généralement à percer. Les éclaircies peuvent cependant être plus belles. Des averses se produisent, l'après-midi, sur le littoral picard. Pour la nuit : La soirée est bien dégagée. Peu à peu, le ciel se voile. Puis, il se couvre en fin de nuit, et donne de petites averses, au nord et à l'ouest d'Amiens.
-En journée et jusqu'en milieu de nuit, vent d'Ouest assez fort, sur le littoral picard ; atténuation ensuite.
-Températures maximales pour le jour : sur l'Amiénois et l'Est du département entre 26 et 28 degrés. Entre 22 et 24 degrés au nord et à l'ouest d'Amiens.
-Températures minimales pour la nuit suivante : de 16 à 18 degrés.
+En matinée, les nuages laissent place à de belles éclaircies. En cours d'après-midi, au nord et à l'ouest d'Amiens, les nuages sont plus nombreux, et peuvent donner quelques averses. Pour la nuit : Le voile nuageux se déchire en début de nuit, mais les éclaircies ne durent pas. Le ciel se charge peu à peu, et les nuages apportent quelques averses sur les deux tiers ouest du département en seconde partie de nuit.
+En journée et une grande partie de la nuit suivante, vent d'Ouest soufflant assez fort, sur le littoral picard ; puis atténuation. Rafales atteignant 55 km/h.
+Températures maximales pour le jour : sur l'Amiénois et l'Est du département entre 26 et 27 degrés. Comprises entre 22 et 23 degrés au nord et à l'ouest d'Amiens.
+Températures minimales pour la nuit suivante : entre 16 et 18 degrés.
 
 • Pour la journée de mercredi 19 :
-À l'aube, sous un ciel gris, quelques averses, se déclenchent sur la Picardie maritime ainsi que sur l'Amiénois et l'Est du département. Ce risque d'averses s'estompe progressivement en milieu de journée. En fin d'après-midi, le temps redevient sec partout.
-Vent d'Ouest à Sud-Ouest, modéré.
-Températures maximales : de 21 à 23 degrés.
+La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi.
+En fin d'après-midi, vent d'Ouest assez fort, sur le littoral picard.
+Températures maximales : de 22 à 24 degrés.
 
 • Pour jeudi 20 et vendredi 21 :
 Risque de pluie et d'orage.
@@ -173,38 +173,38 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse sur le Vermandois ainsi que sur la Picardie maritime.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 16/08/2026 16:45
+Emis le : 17/08/2026 00:30
 
 Vigilance :
-Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
+Aujourd'hui, le département de l'Oise est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Beauvais-Tillé : température de 30 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1016 hPa.
+Aujourd'hui on observait à 00h :
+A Beauvais-Tillé : température de 20 degrés, vent de secteur Nord soufflant jusqu'à 20 km/h, pression niveau mer 1017 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Le ciel est souvent voilé en soirée, mais en seconde partie de nuit étoiles et nuages se partagent le ciel.
-En début de nuit, vent de Nord-Nord-Ouest soufflant modérément, sur le Compiégnois et le Noyonnais ; puis atténuation.
-Températures minimales : de 15 à 17 degrés.
+Le ciel est voilé en soirée. Progressivement la couverture nuageuse s'épaissit, mais les étoiles se montrent encore à la faveur de quelques trouées dans les nuages.
+Vent de Nord, localement modéré, en début de nuit ; puis atténuation.
+Températures minimales : comprises entre 16 et 18 degrés.
 
 • Pour demain lundi 17 en journée et la nuit suivante :
-Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.
-Vent modéré du Vexin français au Plateau Picard, de Nord-Ouest, en journée ; et d'Ouest-Sud-Ouest, tôt le matin.
-Températures maximales pour le jour : comprises entre 26 et 28 degrés.
-Températures minimales pour la nuit suivante : de 14 à 16 degrés.
+C'est un temps plutôt agréable qui se déroule. Le soleil domine largement, mais il est parfois contrarié par quelques nuages. Pour la nuit : Même si les nuages sont un peu plus nombreux en seconde partie de nuit, les étoiles restent souvent visibles.
+Vent de Nord-Ouest, modéré, en journée, après une atténuation, reprise du vent, en fin de nuit, avec orientation à l'Ouest.
+Températures maximales pour le jour : de 25 à 28 degrés.
+Températures minimales pour la nuit suivante : entre 15 et 16 degrés.
 
 • Pour la journée de mardi 18 et la nuit suivante :
-Un voile nuageux filtre le soleil. Pour la nuit : Le ciel est dégagé dès le début de soirée. Toutefois, sur le pays de Bray et la Picardie verte, des nuages apparaissent en fin de nuit.
-Vent modéré, d'Ouest.
-Températures maximales pour le jour : entre 26 et 28 degrés.
-Températures minimales pour la nuit suivante : de 16 à 18 degrés.
+En début de journée, le ciel est bien nuageux. Mais rapidement, les nuages se morcellent, et en fin de journée, le soleil prend le dessus. Pour la nuit : Dans la nuit, le ciel est bien dégagé. Des averses peuvent cependant se produire avant l'aurore, sur le pays de Bray et la Picardie verte.
+Vent d'Ouest, modéré.
+Températures maximales pour le jour : comprises entre 26 et 28 degrés.
+Températures minimales pour la nuit suivante : entre 16 et 17 degrés.
 
 • Pour la journée de mercredi 19 :
-Le temps est mitigé une grande partie de la journée, avec des nuages plus ou moins nombreux, qui donnent par moments, en milieu de journée, quelques averses. En fin d'après-midi, des éclaircies plus belles se forment.
-Vent d'Ouest, généralement modéré.
-Températures maximales : comprises entre 22 et 23 degrés.
+Tôt le matin, quelques gouttes sont possibles sur le Vexin français et le pays de Thelle ainsi que sur le Compiégnois et le Noyonnais. Puis le reste de la journée se passe sous un ciel un peu nuageux, plus ou moins lumineux selon le moment.
+Vent modéré, d'Ouest.
+Températures maximales : comprises entre 22 et 24 degrés.
 
 • Pour jeudi 20 et vendredi 21 :
 Ciel nuageux se dégageant temporairement ; risque de pluie et d'orage de jeudi matin jusqu'au milieu de nuit suivante et de vendredi matin jusqu'en fin de journée.
@@ -225,39 +225,39 @@ Températures minimales : stables.
 Températures maximales : en hausse.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 16/08/2026 22:01
+Emis le : 17/08/2026 00:30
 
 Vigilance :
-Aujourd'hui, le département de l'Aisne est en vigilance verte. Demain, il sera en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui, le département de l'Aisne est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 21h :
-A Aulnoy-sous-Laon : température de 25 degrés, vent de secteur Nord soufflant jusqu'à 20 km/h.
-A Saint-Quentin : température de 24 degrés.
+Aujourd'hui on observait à 00h :
+A Aulnoy-sous-Laon : température de 21 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 20 km/h.
+A Saint-Quentin : température de 20 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-On observe de belles éclaircies en soirée. Puis, le ciel se couvre très rapidement en milieu de nuit.
-En début de nuit, vent de Nord-Nord-Est soufflant modérément, sur le Vermandois et la Thiérache ; puis atténuation.
-Températures minimales : comprises entre 15 et 18 degrés.
+En début de soirée, des nuages voilent le ciel. Ils se dissipent avant minuit, pour laisser place à un ciel étoilé. Cette amélioration est de courte durée, puisque les nuages deviennent de plus en plus nombreux. Le ciel est couvert en fin de nuit avec des risques d'orage, sur la Thiérache.
+En début de nuit, vent de Nord, localement modéré ; ensuite atténuation.
+Températures minimales : de 17 à 18 degrés.
 
 • Pour demain lundi 17 en journée et la nuit suivante :
-Le soleil se lève sous de nombreux nuages. En fin de matinée, de belles éclaircies se forment très localement. Elles sont éphémères, car l'après-midi, le ciel devient partout très nuageux à couvert. Pour la nuit : Les nuages, nombreux, et les éclaircies alternent dans le ciel en soirée, mais le temps s'annonce sec. Les éclaircies prédominent ensuite, et les étoiles sont bien visibles, en dépit de quelques passages nuageux.
-Vent de Nord-Ouest, modéré, en journée et début de nuit ; puis atténuation.
-Températures maximales pour le jour : entre 26 et 29 degrés.
-Températures minimales pour la nuit suivante : comprises entre 14 et 16 degrés.
+Les éclaircies sont nombreuses et souvent larges. Des averses clairsemées tombent en début de matinée, sur la Thiérache. Après, le temps reste sec partout. Pour la nuit : Le ciel est souvent étoilé la nuit.
+En journée et début de nuit, vent d'Ouest à Nord-Ouest, modéré ; au lever du jour, reprise du vent par endroits, avec orientation au Sud-Ouest.
+Températures maximales pour le jour : comprises entre 25 et 28 degrés.
+Températures minimales pour la nuit suivante : de 14 à 15 degrés.
 
 • Pour la journée de mardi 18 et la nuit suivante :
-Un voile nuageux filtre le soleil. Pour la nuit : Le ciel est clair toute la nuit.
-Vent d'Ouest à Nord-Ouest temporairement modéré, sur le Vermandois et la Thiérache.
-Températures maximales pour le jour : entre 25 et 28 degrés.
+Toute la journée, on alterne belles éclaircies et passages nuageux. Pour la nuit : Le ciel est bien étoilé.
+Vent d'Ouest à Nord-Ouest, modéré.
+Températures maximales pour le jour : entre 26 et 29 degrés.
 Températures minimales pour la nuit suivante : de 16 à 18 degrés.
 
 • Pour la journée de mercredi 19 :
-La journée commence avec de belles éclaircies. Ensuite, des averses peuvent se produire. En fin de journée, le temps redevient sec et le soleil reste bien présent.
-Jusqu'en milieu d'après-midi, vent d'Ouest à Nord-Ouest généralement, modéré ; puis faiblissant.
-Températures maximales : sur les trois quarts Sud du département, ainsi que sur le Vermandois de 22 à 25 degrés. 21 degrés sur la Thiérache.
+Le temps est en général au beau fixe, même si les nuages, d'abord discrets, sont un peu plus nombreux l'après-midi. Toutefois, sur la Thiérache, de rares averses sont possibles en début de matinée, sous un ciel encombré.
+Vent modéré, d'Ouest à Sud-Ouest.
+Températures maximales : entre 20 et 23 degrés.
 
 • Pour jeudi 20 et vendredi 21 :
 Ciel nuageux se dégageant temporairement ; risque de pluie ou d'averses jusqu'au milieu de nuit de jeudi à vendredi et de vendredi matin jusqu'en début de nuit.
@@ -315,22 +315,22 @@ incertains.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Mon projet de station automatique autonome pour relevés météo sur Arduino
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
-• Indicateur Thermique National (ITN 14 jours au 16/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
+• Indicateur Thermique National (ITN 14 jours au 17/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 16 Août 2026.
-Résumé général HDF précédent : Fin de la canicule, retour à un flux d’ouest océanique, températures proches des normales, précipitations faibles mais mieux réparties, sécheresse persistante..
+Résumé général HDF précédent : La première phase est à dominante océanique et plus fraîche, au point même de perdre la chaleur après le 20. La seconde est très incertaine, avec un courant d’ouest fragile et une possibilité très commode de reprise chaude sans configuration durable. Le mensage principal : l’été chaud de juillet/août s’éteint enfin doucement, mais sans pluvi signifiantf le stock d’eau..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses orageuses jeudi/vendredi, éclaircies ensuite, fraîcheur océanique..
+Températures attendues précédemment : Instabilité propice aux averses, températures en baisse mercredi-jeudi, fraîcheur relative en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
@@ -391,7 +391,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 12 heures par nickdu77
+	Modifié il y a 14 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -412,7 +412,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 11 heures par Bruno76
+	Modifié il y a 13 heures par Bruno76
 
 =======================
 
@@ -423,7 +423,7 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 11 heures par Rémy_orage09
+	Modifié il y a 13 heures par Rémy_orage09
 								1
 								2
 
@@ -449,7 +449,7 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
 								14
 								1
 
@@ -514,7 +514,7 @@ il y a une heure, Mica a dit :
 	Comme lorsqu’on utilise le decou0age temporel en histoire.
 	En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
 	Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
-	Modifié il y a 5 heures par Krholam
+	Modifié il y a 7 heures par Krholam
 
 =======================
 
@@ -537,7 +537,7 @@ Il y a 1 heure, Mica a dit :
 	Par contre, si cette hypothétique goutte froide migrait vers le sud-ouest on pourrait craindre à nouveau un flux de sud-ouest mais qui serait sans doute passager.
 	Illustration avec GFS :
 	A voir ce que ca donne au prochain topic car les modèles divergent rapidement après le 23 août. 
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 Modifié
 								4
 								3
@@ -547,7 +547,7 @@ Modifié
 Auteur: waingro
 Message:
 Il y a toujours un beau potentiel humide pour les régions méditerranéennes et plus globalement le quart sud-est en milieu de semaine (CEP 6z est un exemple)... avec les SST actuelles j'imagine que même un thalweg peu dynamique pourrait donner des précipitations très importantes en flux de sud instable 🙂
-	Modifié il y a 4 heures par waingro
+	Modifié il y a 6 heures par waingro
 
 =======================
 
@@ -562,7 +562,7 @@ G
 	De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il n'y a pas de 39 à la c. 
 	Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
 	Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
-	Modifié il y a 3 heures par AmourDaria
+	Modifié il y a 5 heures par AmourDaria
 								4
 								1
 
@@ -578,6 +578,7 @@ Il y a 2 heures, AmourDaria a dit :
 	La très grande majorité des stations que j'ai consultées sous une ligne La rochelle - Lyon a connu des températures comprises entre 38°C et 40°C au moins une fois lors de la dernière semaine d'Aout.
 	Quant à dire que l'on n'aura pas 39°C début septembre, il faudrait envisager le risque sous un prisme nouveau. Avant ce mois de mai il aurait été impensable de déclencher un vigilance canicule si tôt dans l'année et pourtant ça a été le cas contre toute attente.
 	On entre dans un nouveau paradigme et il va falloir si préparer.
+								2
 								1
 
 =======================
@@ -588,7 +589,7 @@ L'ensemble européen ne me paraît pas tant avare que cela côté précipitation
 	La tendance s'affirme au fil des sorties (mais demande confirmation, car GEFS est un peu plus timoré) :
 	Pour la semaine en question, l'intensité de l'épisode, la temporalité, son extension et avant tout son existence sont à définir, on se dirige probablement vers un épisode méditerranéen mais certains scénario sont peu intenses en lames d'eau, mais continus. 
 	Pour la partie nord, on est en bout d'une rivière atmosphérique conséquente qui pourrait se traduire par quelques précipitations intéressantes autour de mercredi. Rien de révolutionnaire a priori, mais à ne pas négliger non plus !
-	Modifié il y a 1 heure par Jojobarbar
+	Modifié il y a 3 heures par Jojobarbar
 								5
 
 =======================
@@ -601,7 +602,7 @@ il y a une heure, Jojobarbar a dit :
 	Exceptionnel par rapport à quoi?
 	Par rapport à la moyenne depuis le mois de mai où en partant de 0 tout peut être considéré comme exceptionnel vu ce qu'il sait produit ou sur une autre échelle de valeur ou de temps?
 	Merci
-	Modifié il y a 19 minutes par filgoud
+	Modifié il y a 2 heures par filgoud
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
 Auteur: Plancher
@@ -661,7 +662,7 @@ il y a 17 minutes, petit âge glaciaire 11 a dit :
 			Mais les pluies qui sont pour le moment modélisées seront loin d'être sufisantes pour enrayer la secheresse :
 			Donc on peut être optimistes pour des températures enfin proches des normales mais toujours dans un contexte de forte sècheresse, de puies très insufisantes et de risque d'incendies parfois agravés par le vent qui pourra être fort par moment dans le domaine méditerranéen.
 	Merci pour cette analyse. L'élément encourageant est le changement de synoptique en espérant que ce soit durable mais les premières neiges dans le grand Nord me rendent raisonnablement optimiste : l'écart thermique avec cet horrible anticyclone subtropical va se renforcer. Va-t-on enfin souffler? Pour les PP, c'est le point noir, très noir et je trouve la modélisation très optimiste. J'espère me tromper mais je crains que les circonstances (faible hygrométrie, point de rosée, etc.) ne démentent cette prevision.
-	Modifié il y a 12 heures par nickdu77
+	Modifié il y a 14 heures par nickdu77
 Précisions sur les PP
 								2
 
@@ -682,7 +683,7 @@ il y a 40 minutes, petit âge glaciaire 11 a dit :
 	Or bien sûr le plus apocalyptique cette année pour moi c’est incontestablement la sécheresse en France. Je ne me rappelle pas bien de juin et juillet 2003, j’avais 16 ans et en juillet j’avais fait mon premier voyage (un camp scout) en Pologne dans les Beskides mais là où j’étais en tout cas il y avait un orage presque tous les soirs et je pense qu’il en a eu en France (quand on revoit les images du Tour de France 2003, à part dans le Sud tout n'était pas grillé mi-juillet). 
 	Là la France a subit un premier gros coup de chaud fin mai, puis une des fournaises les plus mémorables pile au moment du solstice où le soleil tape le plus fort et uniformément des expositions Nord-Est à Nord-Ouest, avant les épisodes suivant sans jamais avoir vu la pression descendre sous 1005 voire 1007hpa en Bretagne. 
 	La sécheresse est incontestablement le point le plus préoccupant actuellement et sur l’intégralité du territoire, de visu je dirais même que ce seraient les Alpes-Maritimes l’endroit le moins exposé actuellement, c’est dire !
-	Modifié il y a 11 heures par Bruno76
+	Modifié il y a 13 heures par Bruno76
 
 =======================
 
@@ -693,7 +694,7 @@ On voit bien qu'un passage plus frais semble se confirmer sur les modèles pour 
 	On a toujours la menace de ces gouttes froides super mal placées, comme ici sur GFS, mais UKMO est aussi dans la même dynamique. Si ce scénario venait à se généraliser prochainement, on fera la grimace...
 	Faudra surveiller l'évolution de ces scénarios, je dis pas que ça va nécessairement se passer comme présenté ici sur gfs. Mais bon, cette depression foireuse qui circule à l'ouest est un scénario bien connu de ces dernières années et pas dans le bon sens. Cet élément est à surveiller pour les prochaines actualisations, en espérant que ça tourne dans le bon sens. 
 	Gem, Cep et sa moyenne, Aifs sont beaucoup plus optimistes, ils voient cette GF arriver sur nous donc aucun problème. Mais qu'en sera-t-il des prochaines actualisations ?
-	Modifié il y a 11 heures par Rémy_orage09
+	Modifié il y a 13 heures par Rémy_orage09
 								1
 								2
 
@@ -719,7 +720,7 @@ il y a une heure, Rémy_orage09 a dit :
 	2 jours plus tard, ça donnerait cela, donc calmos
 	Faut arrêter de paniquer car avant le 30 septembre, on aura le droit à encore des journées chaudes. Aucun indice pour l'instant de chaleur durable même sur GFS car les hauts géopotentiels ont l'air de se replier sur les açores et le flux d'ouest entre terre neuve et l'europe de l'ouest.
 	Quand à Ukmo, on peut très bien extrapoler avec déplacement de la dépression vers l'est  avec l'air océanique qui gagne déjà à 144 heures l'ouest de la péninsule ibérique coupant rapidement l’alimentation chaude. (voir le run de controle gfs 6 z qui lui ressemble)
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
 								14
 								1
 
@@ -784,7 +785,7 @@ il y a une heure, Mica a dit :
 	Comme lorsqu’on utilise le decou0age temporel en histoire.
 	En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
 	Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
-	Modifié il y a 5 heures par Krholam
+	Modifié il y a 7 heures par Krholam
 
 =======================
 
@@ -807,7 +808,7 @@ Il y a 1 heure, Mica a dit :
 	Par contre, si cette hypothétique goutte froide migrait vers le sud-ouest on pourrait craindre à nouveau un flux de sud-ouest mais qui serait sans doute passager.
 	Illustration avec GFS :
 	A voir ce que ca donne au prochain topic car les modèles divergent rapidement après le 23 août. 
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 Modifié
 								4
 								3
@@ -817,7 +818,7 @@ Modifié
 Auteur: waingro
 Message:
 Il y a toujours un beau potentiel humide pour les régions méditerranéennes et plus globalement le quart sud-est en milieu de semaine (CEP 6z est un exemple)... avec les SST actuelles j'imagine que même un thalweg peu dynamique pourrait donner des précipitations très importantes en flux de sud instable 🙂
-	Modifié il y a 4 heures par waingro
+	Modifié il y a 6 heures par waingro
 
 =======================
 
@@ -832,7 +833,7 @@ G
 	De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il n'y a pas de 39 à la c. 
 	Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
 	Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
-	Modifié il y a 3 heures par AmourDaria
+	Modifié il y a 5 heures par AmourDaria
 								4
 								1
 
@@ -848,6 +849,7 @@ Il y a 2 heures, AmourDaria a dit :
 	La très grande majorité des stations que j'ai consultées sous une ligne La rochelle - Lyon a connu des températures comprises entre 38°C et 40°C au moins une fois lors de la dernière semaine d'Aout.
 	Quant à dire que l'on n'aura pas 39°C début septembre, il faudrait envisager le risque sous un prisme nouveau. Avant ce mois de mai il aurait été impensable de déclencher un vigilance canicule si tôt dans l'année et pourtant ça a été le cas contre toute attente.
 	On entre dans un nouveau paradigme et il va falloir si préparer.
+								2
 								1
 
 =======================
@@ -858,7 +860,7 @@ L'ensemble européen ne me paraît pas tant avare que cela côté précipitation
 	La tendance s'affirme au fil des sorties (mais demande confirmation, car GEFS est un peu plus timoré) :
 	Pour la semaine en question, l'intensité de l'épisode, la temporalité, son extension et avant tout son existence sont à définir, on se dirige probablement vers un épisode méditerranéen mais certains scénario sont peu intenses en lames d'eau, mais continus. 
 	Pour la partie nord, on est en bout d'une rivière atmosphérique conséquente qui pourrait se traduire par quelques précipitations intéressantes autour de mercredi. Rien de révolutionnaire a priori, mais à ne pas négliger non plus !
-	Modifié il y a 1 heure par Jojobarbar
+	Modifié il y a 3 heures par Jojobarbar
 								5
 
 =======================
@@ -871,4 +873,4 @@ il y a une heure, Jojobarbar a dit :
 	Exceptionnel par rapport à quoi?
 	Par rapport à la moyenne depuis le mois de mai où en partant de 0 tout peut être considéré comme exceptionnel vu ce qu'il sait produit ou sur une autre échelle de valeur ou de temps?
 	Merci
-	Modifié il y a 19 minutes par filgoud
+	Modifié il y a 2 heures par filgoud
