@@ -6,128 +6,125 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la baisse des températures, mais divergence sur l'intensité des pluies.*
-- **Fiabilité du scénario majoritaire :** Changement de synoptique — *Retour d'un flux d'ouest, fin de la canicule.*
-- **Stabilité des cartes/scénarios :** 6 / 70 — *6 cartes sur 70 analysées*
-- **Niveau d'incertitude global :** Forte — *Incertitudes sur la localisation et l'intensité des orages, et sur la durée de la fraîcheur.*
+- **Consensus des modèles :** Modéré — *Bon accord sur le rafraîchissement, mais divergences sur son intensité.*
+- **Fiabilité du scénario majoritaire :** Dégradation orageuse puis flux d'ouest — *Scénario majoritaire CEP/GEM/AIFS vs scénario GFS plus frais et plus humide.*
+- **Stabilité des cartes/scénarios :** 6 / 74 — *6 cartes sur 74 analysées*
+- **Niveau d'incertitude global :** Incertitude forte sur les cumuls et la semaine 2 — *La position de la goutte froide reste le point clé.*
 
 ## 🗓️ SEMAINE 1 : Du lundi 17 au dimanche 23 août 2026
 ### 💡 Points clés de la semaine 1
-1. Fin de canicule : Baisse thermique attendue en milieu de semaine, avec un retour à des valeurs proches des normales.
-2. Retour du flux d'ouest : Changement de synoptique à partir du 20 août, avec un anticyclone atlantique et des géopotentiels en baisse sur la France.
-3. Risque orageux : Dégradation pluvio-orageuse marquée sur le quart sud-est jeudi, avec des cumuls potentiellement importants.
-4. Sécheresse persistante : Les pluies prévues resteront insuffisantes pour enrayer la sécheresse des sols, malgré un mieux.
-5. Vigilance canicule : Orange sur les Bouches-du-Rhône et jaune sur le Rhône en début de semaine, avant une atténuation mardi.
+1. Bascule en milieu de semaine : Le temps pourrait redev... plus frais et instable à partir de jeudi sur la plupart des régions.
+2. Épisode pluvieux au sud-est : Un signal fort se dessine, mais l'existence et l'intensité restent à confirmer.
+3. Canicule encore présente : Vigilance orange sur les Bouches-du-Rhône lundi et mardi avec 35 à 37°C.
+4. Goutte froide à surveiller : GFS et UKMO montrent un scénario plus frais, minoritaire face au CEP-GEM-AIFS.
+5. Week-end instable : Averses possibles samedi, amélioration possible dimanche, températures nettement en baisse.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Baisse des températures à partir de jeudi 20, avec un retour à des valeurs proches des normales.
-- Retour d'un flux d'ouest atlantique, mettant fin à la période de blocage.
-- Risque orageux marqué sur le quart sud-est, avec un épisode pluvieux potentiellement important.
+1. Bascule vers un temps plus frais et instable à partir de jeudi 20, avec un net rafraîchissement vendredi-samedi.
+2. Signal orageux marqué sur le quart sud-est et les vallées alpines, avec possible épisode pluvieux notable.
+3. Pas de retour d'un épisode caniculaire durable en vue pour la fin de la semaine.
 **Points de divergence :**
-- Position de la goutte froide : GFS la voit à l'ouest, CEP/AIFS/GEM la voient arriver sur la France.
-- Intensité des précipitations : CEP montre un épisode exceptionnel, GEFS est plus timoré.
-- Durée de la fraîcheur : certains scénarios suggèrent un retour de la chaleur en fin de semaine, d'autres non.
+1. Scénario GFS/UKMO d'une goutte froide mal placée à l'ouest, plus frais, face à CEP/GEM/AIFS qui la voient arriver sur la France.
+2. Intensité et localisation de l'épisode pluvieux méditerranéen : scénarios intenses et brefs vs pluies continues modérées.
+3. Degré de rafraîchissement en fin de semaine : dispersion encore nette, notamment sur l'ouest (Poitiers).
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP)** (Documenté) | Changement de synoptique net en milieu de semaine, avec installation d'un flux d'ouest et baisse des températures. Goutte froide possible sur la France en fin de semaine. | Retour de l'instabilité, orages sur le sud-est, températures en baisse. | Toutes, mais plus marqué sur le quart sud-est et l'ouest. | Élevée (85%) | L'ensemble européen montre une baisse des températures à 850 hPa et à 500 hPa jusqu'à la fin de la semaine, avec une hausse modérée possible en début de semaine suivante. Les précipitations sont bien marquées sur le sud-est, avec un EFI/SOT élevé indiquant un épisode pluvieux exceptionnel pour la saison. |
-| **GFS (GEFS)** (Documenté) | Scénario plus pessimiste avec une goutte froide mal placée à l'ouest, pouvant ramener un flux de sud-ouest chaud. Tendance moins marquée pour le changement de synoptique. | Incertitude sur la fraîcheur, risque de chaleur résiduelle, orages possibles. | Ouest, sud-ouest, centre. | Modérée (65%) | GFS montre une goutte froide qui circule à l'ouest, mais les ensembles indiquent un scénario isolé. La moyenne reste sous les 10°C à 850 hPa, avec un tube qui se resserre autour du 27 août, suggérant un caractère transitoire. |
-| **UKMO** (Partiellement documenté) | Proche de CEP, avec un déplacement de la dépression vers l'est et un air océanique qui gagne l'ouest de la péninsule ibérique, coupant l'alimentation chaude. | Fraîcheur et instabilité en fin de semaine. | Ouest, nord-ouest. | Faible (45%) | UKMO est cité comme étant dans la même dynamique que GFS, mais avec une extrapolation possible vers un air océanique gagnant rapidement, ce qui limiterait la chaleur. |
-| **ICON** (Partiellement documenté) | Alignement avec CEP pour un changement de synoptique, avec un anticyclone atlantique et une baisse des géopotentiels. | Temps plus frais et instable. | Toutes. | Faible (45%) | ICON est mentionné comme supportant le scénario de changement de synoptique, mais sans détail supplémentaire. |
-| **AIFS** (Partiellement documenté) | Optimiste, avec une goutte froide arrivant sur la France, mais sans transformation en pompe à chaleur. | Fraîcheur relative, orages possibles. | Toutes. | Faible (45%) | AIFS est cité comme plus optimiste, voyant la goutte froide arriver sur nous sans problème. |
-| **GEM** (Partiellement documenté) | Similaire à CEP, avec une goutte froide arrivant sur la France. | Fraîcheur et instabilité. | Toutes. | Faible (45%) | GEM est mentionné comme étant plus optimiste, avec une goutte froide arrivant sur nous. |
+| **GFS** (Documenté avec réserves) | Goutte froide circulant à l'ouest, susceptible d'apporter un temps plus frais et instable en fin de semaine ; scénario non partagé par tous les modèles. | Temps plus frais, averses et risque orageux à partir de jeudi-vendredi sur une grande partie du pays. | Ouest, nord, centre, quart sud-est | Élevée (85%) | Plusieurs intervenants évoquent une goutte froide mal placée sur les sorties GFS, associée à UKMO, avec un risque de temps frais et instable. Les membres GEFS montrent un déterminisme isolé, avec une moyenne qui reste entre 10 et 15°C à 850 hPa ; le scénario est jugé transitoire et minoritaire par rapport à CEP, GEM et AIFS. Le run de contrôle GFS 06Z se rapproche de UKMO avec un déplacement de la dépression vers l'est. |
+| **ECMWF/CEP** (Documenté avec fort consensus) | Changement de synoptique en milieu de semaine, anticyclone atlantique et baisse des géopotentiels, fraîcheur relative et fortes pluies possibles sur le sud-est. | Dégradation pluvio-orageuse marquée sur le quart sud-est, rafraîchissement général à partir de jeudi. | Moitié sud, quart sud-est, vallées alpines ; influence sur l'ouest et le nord. | Élevée (85%) | L'ensemble européen présente peu de dispersion et une moyenne sous 10°C à 850 hPa pour Poitiers en fin de semaine. L'EFI et le SOT signalent un épisode pluvieux atypique, notamment dans les vallées alpines, avec des cumuls de 10 à 30 mm (quantile 90). Le CEP 6z montre un fort potentiel humide pour les régions méditerranéennes. GEM, AIFS et ICON sont alignés sur ce scénario. |
+| **UKMO** (Mentionné, peu détaillé) | Même dynamique de goutte froide que GFS, mais le déplacement de la dépression vers l'est pourrait laisser place à l'air océanique. | Passage frais et instable possible sur l'ouest, puis extension. | Ouest, nord-ouest, moitié nord | Modérée (65%) | UKMO est cité par Rémy_orage09 comme étant dans la même dynamique que GFS avec une goutte froide mal placée. Virgile propose une extrapolation : déplacement de la dépression vers l'est, air océanique gagnant l'ouest de la péninsule ibérique à 144 h. Peu de détails supplémentaires. |
+| **GEM** (Bref commentaire) | Modèle optimiste : la goutte froide arrive sur la France, permettant une dégradation classique sans blocage durable. | Fraîchissement et instabilité en seconde partie de semaine. | France entière, surtout moitié nord et centre-est. | Faible (45%) | Citée une seule fois par Rémy_orage09 : GEM, comme CEP et AIFS, voit la goutte froide arriver sur nous, « donc aucun problème ». Aucun détail cartographique ou numérique. |
+| **AIFS** (Bref commentaire) | Optimiste également, aligné sur CEP/GEM pour une bascule sans blocage durable. | Temps plus frais et instable en fin de semaine. | Non précisé | Faible (45%) | AIFS est mentionné par Rémy_orage09 comme plus optimiste que GFS/UKMO, et illustré par petit âge glaciaire 11 dans le cadre de la nouvelle synoptique. Aucune précision supplémentaire dans le fil. |
+| **ICON** (Mentionné avec carte) | Aligné sur CEP pour la mise en place d'une nouvelle synoptique avec baisse des géopotentiels. | Dégradation orageuse et rafraîchissement à partir du 20 août. | France, notamment centre-est et sud-est. | Modérée (65%) | Petit âge glaciaire 11 illustre la nouvelle synoptique avec une carte ICON, et pierrot_75 évoque un alignement CEP/ICON vs GFS pour une dégradation plus marquée dans l'ouest et le nord le week-end des 22-23 août. |
+| **GEFS (ensemble GFS)** (Documenté partiellement) | Déterministe part en solo ; la moyenne reste plus modérée, avec un tube qui se resserre autour du 27 août. | Passage transitoire plus frais, sans excès durable. | Ouest, centre (Poitiers) | Modérée (65%) | Krholam note que le déterministe GFS s'envole seul, suivi dans une moindre mesure par le run de contrôle, tandis que la moyenne reste entre 10 et 15°C ; Mica souligne que la fraîcheur n'est pas acquise à 100 %. Jojobarbar indique que GEFS est plus timoré que l'ensemble européen sur les pluies. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps variable, passages nuageux, averses possibles en fin de semaine | Max 23-28°C, en baisse à partir de jeudi | moderee | ECMWF, GFS | Intensité des précipitations |
-| **Nord** | Soleil puis nuages, risque d'averses en fin de semaine | Max 23-30°C, en baisse jeudi | moderee | ECMWF, GFS | Localisation des pluies |
-| **Nord-Est** | Temps ensoleillé puis orages possibles en fin de semaine | Max 25-33°C, en baisse jeudi | moderee | ECMWF, GFS | Intensité des orages |
-| **Ouest et Façade Atlantique** | Soleil puis dégradation orageuse en fin de semaine | Max 24-32°C, en baisse jeudi | moderee | ECMWF, GFS, UKMO | Timing de la dégradation |
-| **Centre** | Temps variable, orages possibles en fin de semaine | Max 22-30°C, en baisse jeudi | moderee | ECMWF, GFS | Intensité des orages |
-| **Sud-Ouest** | Soleil puis orages en fin de semaine | Max 22-33°C, en baisse jeudi | moderee | ECMWF, GFS | Localisation des orages |
-| **Sud-Est et Vallée du Rhône** | Chaud puis orages violents jeudi | Max 25-35°C, en baisse nette jeudi | elevee | ECMWF, GFS, AIFS | Cumuls de pluie |
-| **Méditerranée et Corse** | Canicule en début de semaine puis orages violents jeudi | Max 34-37°C lundi-mardi, puis 25-28°C jeudi | elevee | ECMWF, GFS, CEP | Intensité des orages et cumuls |
+| **Nord-Ouest** | Variable, début lumineux puis dégradation pluvio-orageuse possible en fin de semaine. | Maximales en baisse, proches de 23-25°C en fin de semaine ; nuits plus fraîches. | moderee | GFS, ECMWF | Localisation et intensité de la dégradation |
+| **Nord** | Beau puis nuageux ; risque de pluie ou averses vendredi et samedi, amélioration possible dimanche. | Maximales 27-29°C lundi, puis 23-25°C en fin de semaine ; minimales 13-17°C. | elevee | ECMWF, GFS | Extension exacte des pluies de dimanche |
+| **Nord-Est** | Encore chaud et sec en début, puis dégradation orageuse et fraîchissement possibles en fin. | Maximales 30-33°C en début, puis 22-26°C ; à confirmer. | moderee | ECMWF, GFS | Position de la goutte froide, cumuls |
+| **Ouest et Façade Atlantique** | Soleil et chaleur en début, puis dégradation pluvieuse possible, retour d'éclaircies dimanche. | Maximales 28-32°C lundi-mardi, 24°C vendredi-samedi, 27°C dimanche ; minimales 13-18°C. | elevee | ECMWF, GFS, ICON | Localisation précise des averses orageuses |
+| **Centre** | Chaud et assez ensoleillé en début, bascule orageuse et plus fraîche possible en fin. | Maximales 30-34°C puis 23-26°C ; fortes dispersions sur Poitiers. | moderee | ECMWF, GFS, GEM, ICON | Scénarios très dispersés en fin d'échéance |
+| **Sud-Ouest** | Belle journée mardi, orages possibles mercredi et jeudi, puis instable et plus frais. | Maximales 28-35°C jusqu'à mercredi, puis 23-26°C ; minimales 11-16°C. | elevee | ECMWF, GFS, ICON | Intensité et extension des orages de jeudi |
+| **Sud-Est et Vallée du Rhône** | Chaud et ensoleillé, puis orages parfois soutenus possibles jeudi, net rafraîchissement ensuite. | Maximales 28-35°C jusqu'à mercredi, puis 22-27°C ; minimales 13-20°C. | elevee | ECMWF, GFS, GEM, ICON | Cumuls orageux, position de la goutte froide |
+| **Méditerranée et Corse** | Canicule en début, puis orages marqués possibles jeudi, amélioration avec risque orageux ensuite. | Maximales 35-37°C jusqu'à mercredi, puis 26-30°C ; minimales 22-26°C en début. | elevee | ECMWF, GFS | Violence des orages et cumuls |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 17 - Mardi 18 août** : Canicule résiduelle sur le sud-est, temps chaud et sec ailleurs, avec un voile nuageux.
-- **Mercredi 19 août** : Journée chaude, mais début de l'instabilité avec des orages possibles sur les reliefs.
-- **Jeudi 20 - Vendredi 21 août** : Dégradation orageuse marquée sur le quart sud-est, baisse des températures sur tout le pays.
-- **Samedi 22 - Dimanche 23 août** : Temps plus frais et instable, averses possibles, retour d'un temps plus sec par endroits.
+- **Lundi 17 au mercredi 19 août** : Temps encore chaud et ensoleillé, canicule sur le sud-est, orages possibles sur les reliefs.
+- **Jeudi 20 au vendredi 21 août** : Dégradation pluvio-orageuse possible sur le quart sud-est et le centre-est, puis extension vers l'ouest et le nord.
+- **Samedi 22 au dimanche 23 août** : Temps instable et plus frais, averses possibles, amélioration possible dimanche.
+- **Transition vers lundi 24 août** : Incertitude persistante, possible instabilité résiduelle sur une partie du pays.
 
 **Points solides :**
-- Baisse des températures à partir de jeudi 20, avec un retour à des valeurs proches des normales.
-- Risque orageux marqué sur le quart sud-est jeudi, avec un potentiel de cumuls importants.
-- Retour d'un flux d'ouest atlantique, mettant fin à la période de blocage.
+1. Vigilance orange canicule sur les Bouches-du-Rhône lundi 17 et mardi 18 (Météo-France).
+2. Baisse généralisée des températures à partir de jeudi-vendredi, cohérente entre les modèles.
+3. Signal pluvieux fort sur le quart sud-est via l'EFI/SOT du CEP, à confirmer.
 
 **Points fragiles :**
-- Position exacte de la goutte froide et son impact sur la durée de la fraîcheur.
-- Intensité des précipitations sur le sud-est, avec des scénarios allant de modérés à exceptionnels.
-- Possibilité de remontée chaude en fin de semaine selon GFS.
+1. Scénario GFS de goutte froide mal placée, minoritaire et non confirmé.
+2. Localisation et cumuls exacts des orages de jeudi 20 sur le sud-est.
+3. Évolution du week-end des 22-23 août : nette dégradation ou simple passage instable ?
 
 **À surveiller (prochains runs) :**
-- Évolution de la goutte froide sur les prochains runs de GFS et CEP.
-- Confirmation de l'épisode pluvieux sur le sud-est avec les sorties de jeudi.
-- Suivi des températures à 850 hPa pour valider la baisse.
+Surveiller les runs 12Z et 00Z de CEP, GFS et UKMO, ainsi que les diagrammes GEFS/EPS, pour préciser la trajectoire de la goutte froide et l'intensité des orages du sud-est.
 
 
 ## 🗓️ SEMAINE 2 : Du lundi 24 au dimanche 30 août 2026
 ### 💡 Points clés de la semaine 2
-1. Temps plus frais : Tendance à une dernière semaine d'août plus fraîche que la normale, selon les ensembles.
-2. Flux zonale : Mise en place d'un courant d'ouest perturbé, avec des pressions plus basses sur l'Europe occidentale.
-3. Incertitudes fortes : Les modalités exactes de cette configuration restent à préciser, avec une dispersion notable des scénarios.
-4. Pluies possibles : Des précipitations plus fréquentes sont envisagées, mais leur intensité et leur localisation restent incertaines.
-5. Pas de canicule : Aucun signal de retour d'un épisode caniculaire généralisé, mais des épisodes chauds localisés possibles.
+1. Changement de synoptique : Le flux d'ouest pourrait remplacer le blocage, avec un temps plus frais et humide.
+2. Fin de la canicule : Aucun signal de nouvel épisode caniculaire durable sur l'ensemble CEP.
+3. Semaine proche des normales : Températures attendues autour des valeurs de saison, peut-être en dessous.
+4. Incertitudes encore fortes : Les modèles divergent après le 23 août, surtout sur la position des dépressions.
+5. Corse en marge : Des fortes chaleurs pourraient persister sur l'Italie et la Corse.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Tendance à un temps plus frais et humide que la normale pour la dernière semaine d'août.
-- Mise en place d'un flux d'ouest perturbé, avec des pressions plus basses sur l'Europe occidentale.
-- Absence de signal pour un retour de canicule généralisée.
+1. Changement de synoptique acté avec un flux d'ouest plus présent après la semaine 34.
+2. Pas de retour de canicule généralisée sur la France.
+3. Tendance à une semaine 2 plus fraîche et humide que la moyenne climatique (signal CEP).
 **Points de divergence :**
-- Intensité et localisation des précipitations.
-- Durée de la période fraîche, avec une possible remontée des températures en fin de semaine.
-- Position exacte des dépressions et des anticyclones.
+1. Position exacte de l'axe dépressionnaire et influence réelle sur la France.
+2. Maintien de fortes chaleurs sur l'Italie/Corse ou extension de l'instabilité vers la Méditerranée.
+3. Chronologie de la dégradation : dès lundi 24 ou plus tardivement ?
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP)** (Documenté) | Ensemble sud-saisonnier envisage une dernière semaine d'août plus fraîche et humide que la moyenne, avec un flux zonale perturbé. | Temps plus frais, passages pluvieux, orages possibles. | Toutes, mais plus marqué sur l'ouest et le nord. | Modérée (65%) | Le CEP montre des géopotentiels plus bas que la moyenne sur l'Europe occidentale, avec un diagramme de Hovmoller indiquant une dernière décade d'août plus fraîche. L'incertitude reste forte dès le week-end prochain. |
-| **GFS (GEFS)** (Partiellement documenté) | Scénario similaire avec un anticyclone sur les Açores et un axe dépressionnaire entre le Labrador et l'Europe de l'ouest. | Temps plus frais et humide, mais avec des incertitudes. | Toutes. | Faible (45%) | GFS est mentionné comme supportant l'idée d'un changement de conditions synoptiques, mais sans détail supplémentaire. |
+| **ECMWF/CEP** (Documenté, sujet ouvert encore peu fourni) | Pour la première fois de l'été, l'ensemble saisonnier envisage une dernière semaine d'août plus fraîche et humide que la moyenne. | Flux d'ouest faiblement perturbé, températures proches des normales, passages pluvieux possibles. | Europe occidentale, France ; Italie et Corse possiblement en marge plus chaude. | Élevée (85%) | thib91 détaille l'ensemble sud-saisonnier du CEP : pressions plus basses que la moyenne sur l'Europe occidentale, flux zonal perturbé, Hovmoller montrant des géopotentiels plus bas en dernière décade d'août. Virgile décrit un anticyclone sur les Açores, un autre sur la Scandinavie et un axe dépressionnaire entre le Labrador et l'Europe de l'ouest. symaski62 partage des cartes CEP pour dimanche 23 soir à mardi 25 matin, sans conclusion ferme. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps variable, passages pluvieux possibles | Max 20-25°C, proches des normales | moderee | ECMWF, GFS | Intensité des pluies |
-| **Nord** | Temps plus frais, passages nuageux | Max 20-26°C | moderee | ECMWF, GFS | Localisation des pluies |
-| **Nord-Est** | Temps plus frais, orages possibles | Max 20-27°C | moderee | ECMWF, GFS | Intensité des orages |
-| **Ouest et Façade Atlantique** | Temps instable, averses fréquentes | Max 20-25°C | moderee | ECMWF, GFS | Cumuls de pluie |
-| **Centre** | Temps variable, averses possibles | Max 20-26°C | moderee | ECMWF, GFS | Intensité des précipitations |
-| **Sud-Ouest** | Temps plus frais, orages possibles | Max 20-27°C | moderee | ECMWF, GFS | Localisation des orages |
-| **Sud-Est et Vallée du Rhône** | Temps plus frais, orages possibles | Max 20-28°C | moderee | ECMWF, GFS | Intensité des orages |
-| **Méditerranée et Corse** | Temps plus frais, orages possibles, mais chaleur résiduelle possible | Max 25-30°C | moderee | ECMWF, GFS | Possibilité de fortes chaleurs localisées |
+| **Nord-Ouest** | Flux d'ouest faiblement perturbé, alternance d'éclaircies et de passages pluvieux. | Proches des normales, maximales autour de 21-24°C. | moderee | ECMWF | Chronologie exacte des passages pluvieux |
+| **Nord** | Temps plus frais, passages nuageux avec risque d'averses, éclaircies temporaires. | Maximales 22-25°C, minimales 12-15°C (à confirmer). | moderee | ECMWF | Précision sur les averses |
+| **Nord-Est** | Non déterminable ; probable temps plus frais, sans précision régionale. | Non documenté | faible | ECMWF | Aucune information spécifique sur cette zone |
+| **Ouest et Façade Atlantique** | Temps instable, passages pluvieux fréquents, éclaircies ; plus frais. | Maximales 21-25°C, nuits fraîches. | moderee | ECMWF | Intensité et durée des pluies |
+| **Centre** | Variable, plus frais, avec averses orageuses possibles. | Maximales 22-26°C selon l'ensoleillement. | moderee | ECMWF | Localisation des averses |
+| **Sud-Ouest** | Temps changeant, plus frais, averses possibles, éclaircies. | Maximales 22-27°C, selon l'ensoleillement. | moderee | ECMWF | Évolution des orages |
+| **Sud-Est et Vallée du Rhône** | Plus frais et instable, orages possibles, surtout en début de semaine. | Maximales 22-27°C. | moderee | ECMWF | Cumuls et déclenchement des orages |
+| **Méditerranée et Corse** | En marge du flux d'ouest, encore chaud, orages possibles ; fortes chaleurs possibles sur la Corse. | Maximales 28-33°C, plus élevées sur la Corse et l'Italie. | moderee | ECMWF | Maintien de fortes chaleurs ou extension de l'instabilité |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 24 - Mardi 25 août** : Temps plus frais, avec des averses possibles sur l'ouest et le nord.
-- **Mercredi 26 - Jeudi 27 août** : Flux d'ouest dynamique, passages pluvieux, températures proches des normales.
-- **Vendredi 28 - Dimanche 30 août** : Incertitudes fortes, mais tendance à un temps variable, avec des orages possibles.
+- **Lundi 24 au mardi 25 août** : -
+- **Mercredi 26 au vendredi 28 août** : Transition encore incertaine, possible instabilité résiduelle, en particulier sur l'est et le sud-est.
+- **Samedi 29 au dimanche 30 août** : Flux d'ouest plus net, passages pluvieux possibles, températures proches des normales.
+- **Au-delà du 30 août** : Tendance à confirmer : amélioration possible ou nouvelle perturbation océanique.
 
 **Points solides :**
-- Tendance à un temps plus frais et humide que la normale pour la dernière semaine d'août.
-- Mise en place d'un flux d'ouest perturbé.
-- Absence de signal pour un retour de canicule généralisée.
+1. Consensus sur un changement de synoptique après la semaine 34.
+2. Absence de signal caniculaire durable sur l'ensemble CEP.
+3. Tendance générale à un flux d'ouest plus humide et des températures proches des normales.
 
 **Points fragiles :**
-- Intensité et localisation des précipitations.
-- Durée de la période fraîche.
-- Possibilité de remontée chaude en fin de semaine.
+1. Localisation des dépressions et trajectoire exacte du flux d'ouest.
+2. Comportement de la Corse et de l'Italie, potentiellement en marge chaude.
+3. Échéance lointaine : fiabilité encore limitée.
 
 **À surveiller (prochains runs) :**
-- Évolution des ensembles CEP et GFS pour confirmer la tendance.
-- Suivi des dépressions et anticyclones sur les cartes de géopotentiels.
-- Analyse des diagrammes de Hovmoller pour la dernière décade d'août.
+Surveiller les runs 12Z/00Z de CEP et GFS, notamment pour le positionnement de l'axe dépressionnaire et l'évolution des températures sur la Corse.
 
 
 ========================================
@@ -135,27 +132,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Après une première partie de semaine encore chaude, un changement de synoptique s'opère en milieu de semaine 1, avec un retour d'un flux d'ouest atlantique. Les températures baissent nettement à partir de jeudi 20, pour revenir à des valeurs proches des normales. La semaine 2 s'annonce plus fraîche et humide que la normale, avec des passages pluvieux fréquents, mais sans excès majeur.
+Après un début de semaine encore chaud et caniculaire sur le sud-est, bascule attendue en milieu de semaine 1 vers un temps plus frais, instable et humide. La semaine 2 s'annonce proche des normales, avec un flux d'ouest faiblement perturbé.
 
 ### Période la plus fiable
-Semaine 1 (17-23 août) : les prévisions sont plus fiables, avec un consensus sur la baisse des températures et le risque orageux sur le sud-est.
+Semaine 1 (17-23 août) : mieux documentée, avec bulletins Météo-France et discussions détaillées ; la semaine 2 reste plus incertaine.
 
 ### Phénomènes récurrents
-- Orages sur le sud-est en fin de semaine 1. - Averses fréquentes sur l'ouest en semaine 2. - Sécheresse des sols persistante malgré les pluies.
+Orages sur le relief, possible épisode méditerranéen, flux d'ouest en fin de période.
 
 ### Principales incertitudes
-- Position de la goutte froide en fin de semaine 1. - Intensité des précipitations sur le sud-est. - Durée de la période fraîche en semaine 2.
+Devenir de la goutte froide (GFS/UKMO vs CEP/GEM/AIFS), intensité des orages, position exacte des dépressions en semaine 2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le timing exact de la baisse des températures et de l'arrivée des orages reste incertain, avec des différences entre les modèles.
-- **Localisation :** La localisation précise des orages sur le sud-est et des pluies sur l'ouest est encore floue.
-- **Intensité :** L'intensité des précipitations, notamment sur le sud-est, est très incertaine, avec des scénarios allant de modérés à exceptionnels.
-- **Informations manquantes :** Peu d'informations sur le vent, notamment sur les rafales possibles lors des orages. La situation en Corse est peu documentée.
-- **Modèles sous-documentés :** UKMO, ICON, AIFS, GEM sont peu commentés, avec seulement une mention chacun.
-- **Incertitudes images :** Les cartes d'EFI/SOT montrent un signal fort, mais leur interprétation reste délicate.
+- **Timing/Chronologie :** Doutes sur la chronologie exacte de la dégradation : mercredi soir, jeudi ou vendredi, et retour d'accalmie dimanche encore incertain.
+- **Localisation :** Doutes sur la localisation des plus forts cumuls orageux : quart sud-est vs centre-est, et extension vers l'ouest et le nord.
+- **Intensité :** Doutes sur l'intensité des orages et des cumuls, ainsi que sur le degré de fraîcheur en fin de semaine.
+- **Informations manquantes :** Peu de détails pour le nord-est, la Bretagne, la Corse ; le vent est souvent non documenté pour de nombreuses zones.
+- **Modèles sous-documentés :** GEM et AIFS seulement mentionnés ; UKMO peu détaillé.
+- **Incertitudes images :** Diagrammes GEFS tronqués au 23 août ; cartes CEP/ECMWF pour le 24-25 encore ambiguës.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌦️ Après un été marqué par la canicule, un changement de synoptique s'annonce en France à partir de jeudi 20 août. Les températures vont baisser, avec un retour d'un flux d'ouest atlantique. Le quart sud-est pourrait connaître un épisode orageux marqué. La semaine prochaine s'annonce plus fraîche et humide que la normale. Restez prudents, les prévisions restent incertaines sur l'intensité des pluies. #Météo #Prévisions #Canicule #Orages
+🌦️ Changement de temps en vue ! Après une semaine encore chaude, une dégradation orageuse est attendue à partir de jeudi, surtout sur le quart sud-est. Les températures repassent sous les normales en fin de semaine. Pour la semaine prochaine, le flux d'ouest devrait prendre le relais, mettant fin aux fortes chaleurs. Restez prudents : les scénarios restent incertains sur l'intensité des orages. #Météo #Prévisions #Orages
