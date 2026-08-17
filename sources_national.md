@@ -328,12 +328,12 @@ incertains.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
-• Infoclimat Direct : Suivi de la secheresse
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 17/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -341,29 +341,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 17 Août 2026.
-Résumé général précédent : Après un début de semaine encore chaud et caniculaire sur le sud-est, bascule vers un temps plus frais et instable en fin de semaine 1. La semaine 2 devrait confirmer ce régime avec des températures proches des normales et un flux d'ouest faiblement perturbé..
+Résumé général précédent : Bascule durable vers un temps plus frais et humide sur la majeure partie de la France, avec un risque d'épisode méditerranéen dans le sud-est. Les températures devraient revenir sous les normales ou s'en approcher, marquant la fin de la période chaude..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Nette baisse des températures, pluies et orages à partir de jeudi sur une grande partie du pays..
+Températures attendues précédemment : Dégradation pluvio-orageuse marquée sur le sud-est, baisse des températures, humidité généralisée en fin de semaine. (117 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 17 au Dimanche 23 Août 2026) ===
-Auteur: AmourDaria
-Message:
-G
-		Il y a 2 heures, Krholam a dit :
-			Certe mais sur des échéances avec scénario divergeant il me semble plus approprié de le placer dans ce qui suit. Ce n’est pas parce que nos conventions sont un découpage par semaine qu’il ne faut pas prendre en compte ce qu’il y a avant et après.
-			Comme lorsqu’on utilise le decou0age temporel en histoire.
-			En l’occurence la mention du 27 et de son "tube" était pour remettre notre fin d’échéance dans son contexte plus large.
-			Ps : merci cependant pour la remarque. La coupure fait plus sens et après relecture ça parait un poil virulent alord que ce n’est pas mon intention
-	De toute façon, quand bien même les modèles s'enflammeraient (surtout gfs) d'ici 15 jours on s'en fou, la saison aura fait son travail,fin Août ou en septembre il n'y a pas de 39 à la c. 
-	Ce que je surveille c'est plus tant les températures mais les potentiels pluvieux et de ce côté la c'est encore avare mais il y a du mieux et de l'espoir. 
-	Le rétablissement d'un courant d'ouest dynamique et pluvieux est prématuré d'un point de vue saisonnier, mais je cherche les signaux d'une instabilité enfin organisée. 
-	Modifié hier à 18:11 par AmourDaria
-								4
-								1
-
-=======================
-
 Auteur: barbe31
 Message:
 Il y a 2 heures, AmourDaria a dit :
@@ -386,7 +369,7 @@ L'ensemble européen ne me paraît pas tant avare que cela côté précipitation
 	La tendance s'affirme au fil des sorties (mais demande confirmation, car GEFS est un peu plus timoré) :
 	Pour la semaine en question, l'intensité de l'épisode, la temporalité, son extension et avant tout son existence sont à définir, on se dirige probablement vers un épisode méditerranéen mais certains scénario sont peu intenses en lames d'eau, mais continus. 
 	Pour la partie nord, on est en bout d'une rivière atmosphérique conséquente qui pourrait se traduire par quelques précipitations intéressantes autour de mercredi. Rien de révolutionnaire a priori, mais à ne pas négliger non plus !
-	Modifié il y a 23 heures par Jojobarbar
+	Modifié hier à 20:37 par Jojobarbar
 								11
 
 =======================
@@ -399,7 +382,7 @@ il y a une heure, Jojobarbar a dit :
 	Exceptionnel par rapport à quoi?
 	Par rapport à la moyenne depuis le mois de mai où en partant de 0 tout peut être considéré comme exceptionnel vu ce qu'il sait produit ou sur une autre échelle de valeur ou de temps?
 	Merci
-	Modifié il y a 22 heures par filgoud
+	Modifié hier à 21:41 par filgoud
 								1
 
 =======================
@@ -427,7 +410,7 @@ Message:
 	On voit à gauche l'EFI modéré voir fort dans les vallées alpines. On voit également les isolignes SOT ce qui confirme qu'on va vers un évènement exceptionnel, possiblement extrême dans ces vallées. A droite, c'est la carte du quantile 90 : le top 10% des précipitations du climat modèle dont j'ai parlé au dessus : sur les 1980 valeurs des rejeux, ~20 (10%) présentent pour ces zones des cumuls de 10 à 30 mm. L'EFI et les SOT indique qu'on a de nombreux membres au delà de cette valeur pour ces zones. On n'est donc pas sur un cumul digne de la Réunion de plusieurs centaines de mm. Mais on a un signal humide, qui s'affirme, surtout pour ces zones et qui est exceptionnel par rapport au climat de ces zones à ce moment de l'année.
 	Bonus pour rallonger le post encore + :
 	Les semaines passées (très très sèches) on avait des EFI négatifs, faible à modéré, qui indiquaient bien qu'on était sur des signaux secs et ce, alors même que la climatologie d'août est déjà sèche. L'EFI fonctionne donc très bien. Pour les précipitations, la distribution est spéciale et fait que les SOT ne peuvent être utilisé que pour les PP extrêmes et pas pour la sécheresse, à part dans les endroits très humide, c'est pourquoi on ne voit pas d'isolignes noires pour les EFI très négatifs.
-	Modifié il y a 12 heures par Jojobarbar
+	Modifié il y a 14 heures par Jojobarbar
 								10
 								3
 								20
@@ -465,7 +448,7 @@ il y a 14 minutes, Jojobarbar a dit :
 Auteur: pierrot_75
 Message:
 il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
-	Modifié il y a 10 heures par pierrot_75
+	Modifié il y a 12 heures par pierrot_75
 								1
 								2
 
@@ -478,7 +461,7 @@ Effectivement il ya  des signaux pour du gros au niveau précipitations  dabs 
 	Juste 2 exemples
 	Grenoble :
 	Lyon :
-	Modifié il y a 9 heures par petit âge glaciaire 11
+	Modifié il y a 11 heures par petit âge glaciaire 11
 								3
 								3
 								2
@@ -490,7 +473,7 @@ Message:
 il y a 41 minutes, pierrot_75 a dit :
 			il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
 	Si tu savais Pierrot comme on n'en peut plus de la chaleur et de la sécheresse à La Rochelle! Alors désolé pour tes/vacances mais moi je m'en réjouis du temps gris et humide.
-	Modifié il y a 9 heures par Lodu17
+	Modifié il y a 11 heures par Lodu17
 								6
 								2
 								2
@@ -537,8 +520,8 @@ Il y a 7 heures, meteo noobs a dit :
 	Bonsoir, 
 	en premier lieu la circulation atmosphérique, les paramètres secondaires apportant une plus value éventuellement parce que si les eaux chaudes étaient suffisantes cela fait des semaines que nous serions inondés.
 	Pour avoir un important potentiel pluvieux, il faut d'abord que la synoptique s'y prête, un exemple de mise en place, ici, d'une situation propice:
-	Modifié il y a 1 heure par tao
-								1
+	Modifié il y a 3 heures par tao
+								2
 								3
 
 =======================
@@ -547,7 +530,7 @@ Auteur: Sky blue
 Message:
 Eté déjà terminé un 21 Aout sur Lyon, remboursez !!!. 
 								2
-								5
+								6
 
 =======================
 
@@ -571,9 +554,9 @@ Ca fait longtemps qu'on avait pas vu dans les modélisations une anomalie négat
 	Arpège :
 	Ukmo :
 	A voir comment ça évolue, il n'est pas exclu que cela évolue en épisode cévenol ou méditerranéen précoce. 
-	Modifié il y a 6 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
 Modifié
-								2
+								3
 
 =======================
 
@@ -581,14 +564,18 @@ Auteur: trugll
 Message:
 Moi ce qui m'inquiète le plus avec ces projections, si elles se réalisent, c'est toute les conneries à venir que l'on va pouvoir lire sur les réseaux sociaux.....
 	Va falloir s'accrocher....
+								2
 
 =======================
 
 Auteur: Sebaas
 Message:
-il y a 35 minutes, petit âge glaciaire 11 a dit :
+Il y a 1 heure, petit âge glaciaire 11 a dit :
 			une moyenne des températures à 850hpa négative sur plusieurs jours
 	Une anomalie de température négative...
+	Au sol, on a du blanc sur les cartes d'ano! 🤩
+	https://modeles.infoclimat.fr/?terrain=true&amp;domain=anomaly_europe&amp;opacity2=71&amp;time=2026-08-20T0000&amp;arrows=false&amp;variable=temperature_2m_anomaly#5.52/45.463/1.053
+								1
 								1
 
 =======================
@@ -597,6 +584,8 @@ Auteur: Run999H
 Message:
 Je suis ravi d’être en vacances. 
 	Je crois que je n’ai rien compris à cet été 2026. J’ai pris une semaine, du 22 au 29/08… au Porge (payé avant les incendies bien sûr). Non vraiment, j’ai fait des bons choix 🤣
+								2
+								1
 
 =======================
 
@@ -607,6 +596,17 @@ il y a 3 minutes, Run999H a dit :
 			Je crois que je n’ai rien compris à cet été 2026. J’ai pris une semaine, du 22 au 29/08… au Porge (payé avant les incendies bien sûr). Non vraiment, j’ai fait des bons choix 🤣
 	La bonne odeur du "pain" grillé le matin en vacance avec de la confiture ! le bonheur !
 	Désolé pour les sinistrés 🫣 humour noir...
+								1
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+Il y a 1 heure, trugll a dit :
+			Moi ce qui m'inquiète le plus avec ces projections, si elles se réalisent, c'est toute les conneries à venir que l'on va pouvoir lire sur les réseaux sociaux.....
+			Va falloir s'accrocher....
+	Pourquoi parce qu'il va faire un peu frais pour la saison? les climatosceptiques ont bien dégusté (c'était la seule bonne nouvelle de cet été brulant) et il en faudra bien plus pour revenir à la charge.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
 Auteur: Virgile
@@ -614,8 +614,8 @@ Message:
 On devrait échapper à un nouvel épisode caniculaire généralisé car avec la semaine 34, on aurait changé de condition synoptique.
 	La grande option est un anticyclone replié sur les açores, un autre sur la Scandinavie et un axe dépressionnaire  entre le labrador et l'europe de l'ouest.
 	une deuxième quinzaine d'aout fraiche et humide?  L'Italie et la Corse pourrait connaitre des fortes chaleurs à contrario.
-	Modifié il y a 11 heures par Virgile
-								16
+	Modifié il y a 13 heures par Virgile
+								17
 								5
 								1
 
@@ -627,8 +627,8 @@ Pour la première fois de l'été, l'ensemble sud-saisonnier du CEP envisage une
 	Avec des pressions plus basses que la moyenne sur l'Europe occidentale, qui laisse augurer un flux plutôt zonale assez perturbé pour la saison.
 	C'est également bien visible sur le diagramme de Hovmoller, avec des géopotentiel plus bas que la moyenne sur l'Europe occidentale en dernière décade d'août, même si l'incertitude reste assez forte dès le week-end prochain.
 	Il faudra bien évidement préciser et analyser les modalités exactes de la mise en place de cette configuration météo, mais c'est plutôt une bonne nouvelle. Cela ouvre des perspectives pour plus d'humidité et surtout de températures enfin plus proches des normales.
-	Modifié il y a 10 heures par thib91
-								21
+	Modifié il y a 12 heures par thib91
+								22
 								3
 								1
 
@@ -639,4 +639,4 @@ Message:
 Cartes du modèle CEP/ECMWF Europe de l'Ouest
 	dimanche soir à mardi matin
 	🤔  humm  oui ou non   
-								5
+								6
