@@ -8,7 +8,7 @@
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
 - **Consensus des modèles :** Modéré — *Accord sur la chaleur, intensité débattue*
 - **Fiabilité du scénario majoritaire :** Forte chaleur possible — *Intensité débattue en semaine 2*
-- **Stabilité des cartes/scénarios :** 6 / 120 — *6 cartes sur 120 analysées*
+- **Stabilité des cartes/scénarios :** 6 / 124 — *6 cartes sur 124 analysées*
 - **Niveau d'incertitude global :** Intensité — *Écart GFS et ECMWF*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 17 au Dimanche 23 Août 2026
