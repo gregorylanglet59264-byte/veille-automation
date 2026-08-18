@@ -327,12 +327,12 @@ La localisation exacte est encore à affiner.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : =30°C consécutives]]>
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : A Ciel Ouvert
+• Infoclimat Direct : Caméra &#xE0; installer pour station météo
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 18/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -340,9 +340,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 18 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Sur 15 jours, les Hauts-de-France basculent d’un temps estival de saison vers un régime plus frais et instable, avec des pluies parfois soutenues et un risque orageux faible mais présent..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Averses régulières, températures de saison, fraîcheur nocturne en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 18 au Dimanche 23 Août 2026) ===
@@ -503,7 +503,7 @@ Il y a 7 heures, meteo noobs a dit :
 	Bonsoir, 
 	en premier lieu la circulation atmosphérique, les paramètres secondaires apportant une plus value éventuellement parce que si les eaux chaudes étaient suffisantes cela fait des semaines que nous serions inondés.
 	Pour avoir un important potentiel pluvieux, il faut d'abord que la synoptique s'y prête, un exemple de mise en place, ici, d'une situation propice:
-	Modifié il y a 23 heures par tao
+	Modifié hier à 18:40 par tao
 								3
 								3
 
@@ -537,7 +537,7 @@ Ca fait longtemps qu'on avait pas vu dans les modélisations une anomalie négat
 	Arpège :
 	Ukmo :
 	A voir comment ça évolue, il n'est pas exclu que cela évolue en épisode cévenol ou méditerranéen précoce. 
-	Modifié il y a 22 heures par petit âge glaciaire 11
+	Modifié hier à 19:55 par petit âge glaciaire 11
 Modifié
 								4
 
@@ -619,7 +619,7 @@ On devrait échapper à un nouvel épisode caniculaire généralisé car avec la
 	La grande option est un anticyclone replié sur les açores, un autre sur la Scandinavie et un axe dépressionnaire  entre le labrador et l'europe de l'ouest.
 	une deuxième quinzaine d'aout fraiche et humide?  L'Italie et la Corse pourrait connaitre des fortes chaleurs à contrario.
 	Modifié hier à 08:07 par Virgile
-								18
+								19
 								6
 								2
 
@@ -632,7 +632,7 @@ Pour la première fois de l'été, l'ensemble sud-saisonnier du CEP envisage une
 	C'est également bien visible sur le diagramme de Hovmoller, avec des géopotentiel plus bas que la moyenne sur l'Europe occidentale en dernière décade d'août, même si l'incertitude reste assez forte dès le week-end prochain.
 	Il faudra bien évidement préciser et analyser les modalités exactes de la mise en place de cette configuration météo, mais c'est plutôt une bonne nouvelle. Cela ouvre des perspectives pour plus d'humidité et surtout de températures enfin plus proches des normales.
 	Modifié hier à 09:37 par thib91
-								25
+								26
 								8
 								2
 
@@ -652,7 +652,7 @@ Message:
 Gefs se matin qui régale avec une belle depression faisant un Groenland-&gt; France
 	Les diagrammes ensemblistes ne sont pas encore sortis mais le deterministe montre un potentiel pluvieux important
 	Comme on le sait sur ces échéances ça reste un scénario parmis tant d’autre mais qui conforte l’idée d’une période plus perturbé ainsi que de cette possibilité d’épisode de pluie intense.
-	Modifié il y a 12 heures par Krholam
+	Modifié il y a 14 heures par Krholam
 								2
 								6
 
@@ -663,6 +663,7 @@ Message:
 Le 10/08/2026 à 11:06, Grahok73 a dit :
 			Je ne serais malheureusement pas surpris avec cette météo hors norme que l'on enchaîne dans le Sud sur une "mousson" méditerranéenne précoce...
 	Je ne change pas mon fusil d'épaule, les signaux sont désormais modélisés...
+								1
 								5
 
 =======================
@@ -672,6 +673,6 @@ Message:
 Potentiel humide important pas que dans le sud est, c'est toute la façade Est du pays qui pourrait être à un moment donné concerné. L'EFI hebdomadaire d'hier concernant les précipitations réagissait bien du Dauphiné au Jura et + globalement de la vallée du Rhône aux confins de la Lorraine.
 	Potentiel humide aussi important sur le golfe de Gascogne et ses littoraux franco-espagnols, ici l'humidité pourrait être boostée par des eaux de surfaces anormalement chaudes dans un contexte dépressionnaire avec de l'air froid en altitude.
 	A suivre, mais cette semaine pourrait être intéressante au niveau météo.
-	Modifié il y a 9 heures par thib91
-								15
+	Modifié il y a 11 heures par thib91
+								17
 								2
