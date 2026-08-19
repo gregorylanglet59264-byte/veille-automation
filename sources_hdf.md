@@ -294,10 +294,23 @@ FQCT40 LFQQ 191545 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
+J+2 et J+3 ﻿Dans la nuit de jeudi à vendredi, de forts orages en 
+provenance des Baléares pourront gagner la Corse, 
+représentant un fort risque de vigilance orange. Vendredi, le 
+risque orageux persiste également sur l'extrême sud du pays 
+et une partie de Rhône-Alpes mais dans une moindre 
+mesure.
+Samedi en fin de journée, un risque orageux existe sur 
+l'Aquitaine, sans représenter de risque de passage en 
+vigilance orange pour le moment.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
+De J+4 à J+7 ﻿Dimanche et lundi, des orages concerneront la moitié sud et 
+s'étendront au nord-est lundi. 
+Les orages pourraient être forts lundi sur le sud-est, associés 
+à des cumuls de pluies importants. Après l'évacuation de ces 
+orages par l'est mardi matin, le temps redeviendrait plus 
+calme en milieu de semaine.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -309,12 +322,12 @@ Baisse progressive des températures par l'ouest et le nord. Maintien d'un risqu
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,9 +335,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 19 Août 2026.
-Résumé général HDF précédent : Après une période instable et fraîche du 19 au 22 août, les Hauts-de-France connaissent une amélioration samedi-dimanche avec un temps sec et ensoleillé. En semaine 35, le temps redevient plus chaud en début de semaine (24-27°C), avant une dégradation pluvieuse et orageuse jeudi-vendredi, puis un retour à un temps plus frais et sec le week-end des 29-30, mais avec de fortes incertitudes..
+Résumé général HDF précédent : Après une semaine 1 fraîche et instable, la semaine 2 démarre plus chaude avant une dégradation orageuse en fin de semaine. La tendance à moyen terme indique un retour à des conditions plus calmes et de saison..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses parfois orageuses vendredi, nette amélioration samedi, soleil dominant dimanche. Risque de pluie résiduel lundi sur les Flandres..
+Températures attendues précédemment : Averses parfois orageuses, vent modéré à assez fort, amélioration progressive..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -439,7 +452,7 @@ Le 17/08/2026 à 11:33, pierrot_75 a dit :
 			il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
 	Si tu savais Pierrot comme on n'en peut plus de la chaleur et de la sécheresse à La Rochelle! Alors désolé pour tes vacances mais moi je m'en réjouis du temps gris et humide.
 	Edit: finalement toutes les perspectives de pluie se sont évaporées pour le week-end du 22/23 août voire même au-delà! Sauvé Pierrot!
-	Modifié il y a 11 heures par Lodu17
+	Modifié il y a 13 heures par Lodu17
 								7
 								2
 								2
@@ -649,8 +662,8 @@ En effet, il n’y aura pas que le sud-est en ligne de mire avec un axe sud-oues
 	C’est un peu le revers de la médaille même si dans le mécanisme il n’y a rien d’anormal. C’est plus dans les paramètres « énergie » que cet été 2026 force le trait en toute logique lorsque la situation s’y prête. 
 	Donc globalement, de lundi à jeudi, on sait qu’il y aura des salves orageuses régulières et imposantes sur les 3/4 de la France. Possiblement pour le restant de la semaine même si l’air frais atlantique pourrait prendre le pas mais à largement confirmer. 
 	Est un peu remis en question le caractère frais océanique ventilé. Les échanges méridiens s’affirment sur les modèles et la semaine vue initialement « fraiche » et légèrement sous les normes pourrait finalement s’avérer assez lourde voire chaude vers le milieu de semaine. Au global, pourquoi pas une anomalie chaude sur le sud-est, de saison à chaud des Pyrénées au centre-est, de saison du sud-ouest au nord et légèrement plus frais au nord-ouest par rapport aux normales… à affiner.
-	Modifié il y a 11 heures par Run999H
-								24
+	Modifié il y a 13 heures par Run999H
+								25
 								5
 								1
 
@@ -666,7 +679,7 @@ On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouve
 	Toulouse :
 	Ca pousse moins dans le sud-est :
 	Montpellier :
-	Modifié il y a 8 heures par petit âge glaciaire 11
+	Modifié il y a 10 heures par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -719,6 +732,7 @@ Pour le premier pic tout va se jouer dans l'intensité de la cyclogenèse sur le
 	Le membre 8 illustre à l'extrême également ce groupement de scénario :
 	Paradoxalement (à première vue), le second pic de chaud est moins incertain : il est lié à un phénomène de plus grande longueur d'onde : une large dépression autour de l'Islande. Bon on a quand même pas mal d'incertitudes pour le temps sensible en deuxième partie de semaine qui sont à lever.
 								2
+								1
 
 =======================
 
@@ -727,7 +741,7 @@ Message:
 Le 18/08/2026 à 09:28, Grahok73 a dit :
 			Je ne change pas mon fusil d'épaule, les signaux sont désormais modélisés...
 	Mouais, pour l'instant les HG font une bonne résistance sur la méditerranée, les dépressions ne progresseront pas suffisamment pour orienter le flux au S/SE ce qui pourrait laisser une bonne partie des départements du secteur méditerranéen "quasi" au sec. La mousson attendra.
-	Modifié il y a 5 heures par max_régusse
+	Modifié il y a 7 heures par max_régusse
 
 =======================
 
@@ -755,7 +769,7 @@ Message:
 Ce soir GFS et ICON évoluent vers une GF s'isolant au large du Portugal dès samedi avec à la clé une belle hausse des températures dès dimanche, 
 	A suivre, mais ça ressemble à notre récurrence de l'été
 								2
-								1
+								2
 								3
 								1
 								2
@@ -778,7 +792,8 @@ Auteur: Sky blue
 Message:
 Oui le train d'ondes de Rossby au niveau HN à repris de la mobilité (exit le blocage récurrent), mais ces bouffées lourdes et orageuses vont mettre à mal notre dernière semaine d'aout prévue chez les bleus. Le rafraîchissement général et durable va en prendre un coup. Le bleu de l'hebdomadaire va virer au rose à minimum. Mais c'est avec un dynamisme de SO.⛈️ 
 	A comparer sur la durée. ???
-	Modifié il y a 35 minutes par Sky blue
+	Modifié il y a 2 heures par Sky blue
+								1
 								2
 
 =======================
@@ -789,9 +804,9 @@ Bonsoir,
 	pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
 	Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
 	Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
-	Modifié il y a 59 minutes par tao
-								5
-								1
+	Modifié il y a 2 heures par tao
+								7
+								3
 
 =======================
 
@@ -811,21 +826,21 @@ il y a 31 minutes, tao a dit :
 	Exactement. Même si ce soir les modèles balancent plus facilement du 20° et + à 850hpa sur un très grand quart sud-est pour ne pas dire les 3/4 de la France donc, la dynamique reste la même. Un premier thalweg freiné dans sa course mais vite repris par un second thalweg en milieu de semaine. 
 	Ce soir ce qu’on peut dire, c’est que le potentiel explosif que je décrivais ce matin est même devenu très explosif sur les dernières sorties. De telles températures à l’avant d’un thalweg très méridien mais mobile fait monter l’énergie d’un cran. 
 	Pour moi, sauf grands changements (que j’estime peu probable), c’est une semaine sous grande surveillance côté orages et à l’instant T de ce que donnent les modèles, je me dis que MF va avoir une sacrée semaine de travail ! Le tout dans un contexte plutôt chaud globalement mais comme précisé, lourd, humide mais avec quelques rafraîchissements entre deux ou trois dégradations orageuses. 
-								5
+								9
 
 =======================
 
 Auteur: Sky blue
 Message:
-il y a 41 minutes, tao a dit :
+il y a une heure, tao a dit :
 			Bonsoir,
 			pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
 			Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
 			Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
 	Tout à fait d'accord.
-	D'ailleurs, ce n'est plus le désert de Gobi pour finir Aout. Disparités locales comme tout le temps avec les orages. ⛈️mais personne complètement au sec sous 10 jours.🙏 Ca pourrait bien swinguer par endroits.⛈️
-	Modifié il y a 19 minutes par Sky blue
-								1
+	D'ailleurs, ce n'est plus le désert de Gobi pour finir Aout. Disparités locales comme tout le temps avec les orages. ⛈️mais personne complètement au sec sous 10 jours.🙏 Ca pourrait bien swinguer par endroits.⛈️ Et Run à raison grosse semaine de vigilances phénomènes violents pour MF.🌀
+	Modifié il y a 1 heure par Sky blue
+								2
 
 =======================
 
@@ -834,4 +849,5 @@ Message:
 il y a 26 minutes, Plancher a dit :
 			Oui. A priori peu de similitudes avec les dernières vagues de chaleur. Cette goutte froide semble remonter vers la France depuis le Portugal.
 	Bonsoir,
-	tant qu'une anomalie ne se détache pas du talweg, ce n'est pas une goutte froide.
+	tant qu'une anomalie ne se détache pas du talweg, ce n'est pas une goutte froide. 
+								2
