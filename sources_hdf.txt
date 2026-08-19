@@ -326,12 +326,12 @@ La localisation exacte est encore à affiner.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps-Centre du Quebec
 • Infoclimat Direct : Saison 2026 - Typhon Pacifique Nord-ouest
 • Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
 • Infoclimat Direct : Suivi de la secheresse
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -339,9 +339,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 19 Août 2026.
-Résumé général HDF précédent : Un temps de fin d'été océanique s'installe pour ces 15 jours : les fortes chaleurs restent exposées vers le sud, et le HDF est replacé en flux d'ouest humide, plus passager. Les précipitations sont progressives, sans excès. Les températures baissent nettement pour repasser sous les normales de saison..
+Résumé général HDF précédent : Après une première quinzaine très chaude, les Hauts-de-France basculent dans un flux d'ouest à nord-ouest océanique : températures 19-24°C, ciel souvent variable, averses passagères, pas de canicule. La semaine du 24 au 30 août semble plus fraîche et humide que la moyenne, sans excès..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses passagères et fréquentes, ciel très nuageux. Températures en baisse : 20-23°C en journée..
+Températures attendues précédemment : Pluies éparses mercredi, averses jeudi-vendredi, rafales littorales possibles jusqu’à 65 km/h..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -651,7 +651,7 @@ Message:
 Gefs se matin qui régale avec une belle depression faisant un Groenland-&gt; France
 	Les diagrammes ensemblistes ne sont pas encore sortis mais le deterministe montre un potentiel pluvieux important
 	Comme on le sait sur ces échéances ça reste un scénario parmis tant d’autre mais qui conforte l’idée d’une période plus perturbé ainsi que de cette possibilité d’épisode de pluie intense.
-	Modifié il y a 20 heures par Krholam
+	Modifié il y a 22 heures par Krholam
 								3
 								6
 
@@ -672,6 +672,6 @@ Message:
 Potentiel humide important pas que dans le sud est, c'est toute la façade Est du pays qui pourrait être à un moment donné concerné. L'EFI hebdomadaire d'hier concernant les précipitations réagissait bien du Dauphiné au Jura et + globalement de la vallée du Rhône aux confins de la Lorraine.
 	Potentiel humide aussi important sur le golfe de Gascogne et ses littoraux franco-espagnols, ici l'humidité pourrait être boostée par des eaux de surfaces anormalement chaudes dans un contexte dépressionnaire avec de l'air froid en altitude.
 	A suivre, mais cette semaine pourrait être intéressante au niveau météo.
-	Modifié il y a 17 heures par thib91
+	Modifié il y a 19 heures par thib91
 								17
 								2
