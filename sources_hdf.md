@@ -351,12 +351,12 @@ calme en milieu de semaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Pluviometre mono-auget Davis
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : A Ciel Ouvert
 • Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Gestion administrative des canicules
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Un lac éphémère réapparait dans l'Hérault
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -364,9 +364,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 19 Août 2026.
-Résumé général HDF précédent : Les deux semaines montrent une évolution nette vers un temps plus instable et plus frais, marquant la fin de l'été chaud et sec. La semaine 1 voit un passage pluvieux puis une amélioration, tandis que la semaine 2 s'annonce plus agitée avec plusieurs passages pluvieux et orageux. Les températures reviennent près des normales de saison..
+Résumé général HDF précédent : Sur les deux semaines, les Hauts-de-France basculent d'un temps estival instable à un régime plus frais et humide. Les maximales restent modestes (20 à 25°C) et les précipitations, bien que modérées, deviennent plus fréquentes en seconde semaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies éparses mercredi, averses vendredi, éclaircies samedi/dimanche. (70 caractères).
+Températures attendues précédemment : Averses modérées mercredi, risque orageux vendredi, rafales 55-65 km/h jeudi sur les littoraux..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -481,7 +481,7 @@ Le 17/08/2026 à 11:33, pierrot_75 a dit :
 			il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
 	Si tu savais Pierrot comme on n'en peut plus de la chaleur et de la sécheresse à La Rochelle! Alors désolé pour tes vacances mais moi je m'en réjouis du temps gris et humide.
 	Edit: finalement toutes les perspectives de pluie se sont évaporées pour le week-end du 22/23 août voire même au-delà! Sauvé Pierrot!
-	Modifié il y a 5 heures par Lodu17
+	Modifié il y a 7 heures par Lodu17
 								7
 								2
 								2
@@ -595,7 +595,7 @@ Je suis ravi d’être en vacances. 
 	Je crois que je n’ai rien compris à cet été 2026. J’ai pris une semaine, du 22 au 29/08… au Porge (payé avant les incendies bien sûr). Non vraiment, j’ai fait des bons choix 🤣
 								9
 								2
-								2
+								3
 
 =======================
 
@@ -657,7 +657,7 @@ Pour la première fois de l'été, l'ensemble sud-saisonnier du CEP envisage une
 	C'est également bien visible sur le diagramme de Hovmoller, avec des géopotentiel plus bas que la moyenne sur l'Europe occidentale en dernière décade d'août, même si l'incertitude reste assez forte dès le week-end prochain.
 	Il faudra bien évidement préciser et analyser les modalités exactes de la mise en place de cette configuration météo, mais c'est plutôt une bonne nouvelle. Cela ouvre des perspectives pour plus d'humidité et surtout de températures enfin plus proches des normales.
 	Modifié lundi à 09:37 par thib91
-								26
+								27
 								8
 								2
 
@@ -716,9 +716,9 @@ En effet, il n’y aura pas que le sud-est en ligne de mire avec un axe sud-oues
 	C’est un peu le revers de la médaille même si dans le mécanisme il n’y a rien d’anormal. C’est plus dans les paramètres « énergie » que cet été 2026 force le trait en toute logique lorsque la situation s’y prête. 
 	Donc globalement, de lundi à jeudi, on sait qu’il y aura des salves orageuses régulières et imposantes sur les 3/4 de la France. Possiblement pour le restant de la semaine même si l’air frais atlantique pourrait prendre le pas mais à largement confirmer. 
 	Est un peu remis en question le caractère frais océanique ventilé. Les échanges méridiens s’affirment sur les modèles et la semaine vue initialement « fraiche » et légèrement sous les normes pourrait finalement s’avérer assez lourde voire chaude vers le milieu de semaine. Au global, pourquoi pas une anomalie chaude sur le sud-est, de saison à chaud des Pyrénées au centre-est, de saison du sud-ouest au nord et légèrement plus frais au nord-ouest par rapport aux normales… à affiner.
-	Modifié il y a 5 heures par Run999H
+	Modifié il y a 7 heures par Run999H
 								24
-								4
+								5
 								1
 
 =======================
@@ -733,8 +733,9 @@ On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouve
 	Toulouse :
 	Ca pousse moins dans le sud-est :
 	Montpellier :
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
+								1
 								1
 
 =======================
@@ -742,4 +743,71 @@ Modifié
 Auteur: Plancher
 Message:
 Ce n'est pas facile de s'y retrouver. Les modèles divergent beaucoup me semble-t-il.
+								1
+
+=======================
+
+Auteur: Kam93
+Message:
+Il y a 2 heures, petit âge glaciaire 11 a dit :
+			Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
+			Toulouse :
+	C'est bien de regarder les T850 mais ça ne suffit pas pour faire la pluie et le beau temps
+	Pour exemple le même diagramme à Toulouse avec les T2m
+	Aucune chaleur excessive n'est prévue
+
+=======================
+
+Auteur: ggdu19
+Message:
+Il y a 5 heures, Run999H a dit :
+			En effet, il n’y aura pas que le sud-est en ligne de mire avec un axe sud-ouest —&gt; frontières de l’Est à surveiller de près, très près même ! 
+			J’ai presque envie de dire que c’est même la première dégradation orageuse d’ampleur de la saison. Les anomalies chaudes ne vont pas être balayées d’un coup, océan (23° à 25° en fond de Gascogne) et mer Méditerranée 27° à 30° en partie occidentale) en mode surchauffe +++ Ça va obligatoirement booster nos ingrédients de surface. 
+			2 thalwegs identifiés :
+			- le premier lundi
+			- le second mercredi ~
+			Ces deux thalwegs vont être en capacité de faire remonter des masses d’air encore bien chaudes à l’avant (20° à 850hpa) des Pyrénées aux régions de l’Est et deux thalwegs très dynamiques et pour le coup bien froid en altitude. Pas besoin d’aller les chercher bien loin ces anomalies ++ de températures mais l’AA en retrait permettra quand même aux thalwegs d’être ondulants et de plonger suffisamment au sud au large de l’Europe. 
+			Bien tôt pour aller dans les détails mais globalement, on peut presque affirmer qu’il y aura deux dégradations orageuses sérieuses à analyser sur cet axe sud-ouest / frontières de l’Est et bassin méditerranéen. Probablement des débordements plus à l’ouest et au nord et surtout pour le milieu de semaine. 
+			C’est un peu le revers de la médaille même si dans le mécanisme il n’y a rien d’anormal. C’est plus dans les paramètres « énergie » que cet été 2026 force le trait en toute logique lorsque la situation s’y prête. 
+			Donc globalement, de lundi à jeudi, on sait qu’il y aura des salves orageuses régulières et imposantes sur les 3/4 de la France. Possiblement pour le restant de la semaine même si l’air frais atlantique pourrait prendre le pas mais à largement confirmer. 
+			Est un peu remis en question le caractère frais océanique ventilé. Les échanges méridiens s’affirment sur les modèles et la semaine vue initialement « fraiche » et légèrement sous les normes pourrait finalement s’avérer assez lourde voire chaude vers le milieu de semaine. Au global, pourquoi pas une anomalie chaude sur le sud-est, de saison à chaud des Pyrénées au centre-est, de saison du sud-ouest au nord et légèrement plus frais au nord-ouest par rapport aux normales… à affiner.
+	C'est clair que l'on a déjà une première journée de Lunndi avec un paramètre sérieux identifié au niveau des précipitations, témoignant d'un gros potentiel. Cela fait plusieurs runs que le Sud-Ouest et le Centre-Ouest sont visés, en espérant que ça reste en l'état d'un point de vue précipitations...
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+Pour le premier pic tout va se jouer dans l'intensité de la cyclogenèse sur le proche Atlantique :
+	Une cyclogenèse forte, et la goutte froide prend son autonomie en plus de proposer un vigoureux flux de sud ouest. Quelque jours plus tard, sous l'influence d'un nouveau talweg, elle est reprise elle même par un flux de SO qui la fait transiter sur la France avec une dégradation remarquable. C'est le scénario minoritaire, mais qui prend du galon ce matin sur l'IFS ENS + UKMO ENS. C'est aussi le scénario qui me convainc vu le contexte de prévision.
+	Le membre 6 illustre bien (un peu extrême mais ça appuie le propos) :
+	Une cyclogenèse plus faible, et le talweg reste talweg, avec un flux moins vigoureux et des températures de saison voir basses mais très peu de pluie généralisées. Le creux transite sur le pays, rapidement, ce qui fait qu'il n'est pas repris dans le flux du talweg suivant. Il continue alors sa route vers l'Est sur l'Europe centrale, apportant de l'humidité cantonnée au sud est. C'est le scénario majoritaire dans l'IFS ENS, et à travers les modèles.
+	Le membre 8 illustre à l'extrême également ce groupement de scénario :
+	Paradoxalement (à première vue), le second pic de chaud est moins incertain : il est lié à un phénomène de plus grande longueur d'onde : une large dépression autour de l'Islande. Bon on a quand même pas mal d'incertitudes pour le temps sensible en deuxième partie de semaine qui sont à lever.
+								1
+
+=======================
+
+Auteur: max_régusse
+Message:
+Le 18/08/2026 à 09:28, Grahok73 a dit :
+			Je ne change pas mon fusil d'épaule, les signaux sont désormais modélisés...
+	Mouais, pour l'instant les HG font une bonne résistance sur la méditerranée, les dépressions ne progresseront pas suffisamment pour orienter le flux au S/SE ce qui pourrait laisser une bonne partie des départements du secteur méditerranéen "quasi" au sec. La mousson attendra.
+	Modifié il y a 1 heure par max_régusse
+
+=======================
+
+Auteur: Nicolas L
+Message:
+Il y a 2 heures, petit âge glaciaire 11 a dit :
+			On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouvelle) place naturelle ( place de cet été très très particulier je précise) .
+			2 tentatives quand même entre le 22 et le 24 puis entre le 26 et le 28.
+			Non mais pour qui elle se prend cette masse d'air très chaud ? C'est pas encore le Sahara le sud-ouest...
+			Heureusement la moyenne tient  pour la première tentative mais pour la deuxième c'est moins évident même si la bouffée chaude semble rester provisoire.
+			Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
+			Toulouse :
+			Ca pousse moins dans le sud-est :
+			Montpellier :
+	Scénario proposé dans le déterministe GFS pour la rentrée de Septembre, même si nous sommes hors topic. On sent que la ceinture subtropicale n'a pas encore dit son dernier mot avec notamment des hauts géopotentiels de nouveau récurrents sur une bonne partie sud de l'Europe. A espérer que la synoptique n'aille pas dans ce sens d'ici les prochains jours, ce qui exposerait une nouvelle fois le sud du pays.
+	Pour la première tentative évoquée par CEP, la moyenne de l'ensemble GEFS reste encourageante pour le Sud-ouest, mais on voit que le Sud-est peut-être à tout moment exposé sur les T850, y compris la Corse.
+	La situation serait encore meilleure pour la seconde tentative de l'européen avec un recul sur les T850 concernant le Sud-est. 
 								1
