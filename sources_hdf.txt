@@ -322,12 +322,12 @@ calme en milieu de semaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Bienvenue aux nouveaux inscrits sur Infoclimat !
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -335,9 +335,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 19 Août 2026.
-Résumé général HDF précédent : Après une semaine 1 fraîche et instable, la semaine 2 démarre plus chaude avant une dégradation orageuse en fin de semaine. La tendance à moyen terme indique un retour à des conditions plus calmes et de saison..
+Résumé général HDF précédent : Après une semaine fraîche et instable, la semaine 2 démarre plus chaude avant une dégradation orageuse en fin de semaine. La tendance à moyen terme indique un retour à des conditions plus calmes et de saison..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses parfois orageuses, vent modéré à assez fort, amélioration progressive..
+Températures attendues précédemment : Averses parfois orageuses, vent modéré à assez fort de secteur ouest, températures maximales entre 19 et 24°C..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -452,7 +452,7 @@ Le 17/08/2026 à 11:33, pierrot_75 a dit :
 			il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
 	Si tu savais Pierrot comme on n'en peut plus de la chaleur et de la sécheresse à La Rochelle! Alors désolé pour tes vacances mais moi je m'en réjouis du temps gris et humide.
 	Edit: finalement toutes les perspectives de pluie se sont évaporées pour le week-end du 22/23 août voire même au-delà! Sauvé Pierrot!
-	Modifié il y a 13 heures par Lodu17
+	Modifié il y a 15 heures par Lodu17
 								7
 								2
 								2
@@ -609,66 +609,6 @@ Il y a 2 heures, Run999H a dit :
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: symaski62
-Message:
-Cartes du modèle CEP/ECMWF Europe de l'Ouest
-	dimanche soir à mardi matin
-	🤔  humm  oui ou non   
-								8
-
-=======================
-
-Auteur: Krholam
-Message:
-Gefs se matin qui régale avec une belle depression faisant un Groenland-&gt; France
-	Les diagrammes ensemblistes ne sont pas encore sortis mais le deterministe montre un potentiel pluvieux important
-	Comme on le sait sur ces échéances ça reste un scénario parmis tant d’autre mais qui conforte l’idée d’une période plus perturbé ainsi que de cette possibilité d’épisode de pluie intense.
-	Modifié hier à 05:35 par Krholam
-								3
-								6
-
-=======================
-
-Auteur: Grahok73
-Message:
-Le 10/08/2026 à 11:06, Grahok73 a dit :
-			Je ne serais malheureusement pas surpris avec cette météo hors norme que l'on enchaîne dans le Sud sur une "mousson" méditerranéenne précoce...
-	Je ne change pas mon fusil d'épaule, les signaux sont désormais modélisés...
-								1
-								7
-
-=======================
-
-Auteur: thib91
-Message:
-Potentiel humide important pas que dans le sud est, c'est toute la façade Est du pays qui pourrait être à un moment donné concerné. L'EFI hebdomadaire d'hier concernant les précipitations réagissait bien du Dauphiné au Jura et + globalement de la vallée du Rhône aux confins de la Lorraine.
-	Potentiel humide aussi important sur le golfe de Gascogne et ses littoraux franco-espagnols, ici l'humidité pourrait être boostée par des eaux de surfaces anormalement chaudes dans un contexte dépressionnaire avec de l'air froid en altitude.
-	A suivre, mais cette semaine pourrait être intéressante au niveau météo.
-	Modifié hier à 08:08 par thib91
-								18
-								2
-
-=======================
-
-Auteur: Run999H
-Message:
-En effet, il n’y aura pas que le sud-est en ligne de mire avec un axe sud-ouest —&gt; frontières de l’Est à surveiller de près, très près même ! 
-	J’ai presque envie de dire que c’est même la première dégradation orageuse d’ampleur de la saison. Les anomalies chaudes ne vont pas être balayées d’un coup, océan (23° à 25° en fond de Gascogne) et mer Méditerranée 27° à 30° en partie occidentale) en mode surchauffe +++ Ça va obligatoirement booster nos ingrédients de surface. 
-	2 thalwegs identifiés :
-	- le premier lundi
-	- le second mercredi ~
-	Ces deux thalwegs vont être en capacité de faire remonter des masses d’air encore bien chaudes à l’avant (20° à 850hpa) des Pyrénées aux régions de l’Est et deux thalwegs très dynamiques et pour le coup bien froid en altitude. Pas besoin d’aller les chercher bien loin ces anomalies ++ de températures mais l’AA en retrait permettra quand même aux thalwegs d’être ondulants et de plonger suffisamment au sud au large de l’Europe. 
-	Bien tôt pour aller dans les détails mais globalement, on peut presque affirmer qu’il y aura deux dégradations orageuses sérieuses à analyser sur cet axe sud-ouest / frontières de l’Est et bassin méditerranéen. Probablement des débordements plus à l’ouest et au nord et surtout pour le milieu de semaine. 
-	C’est un peu le revers de la médaille même si dans le mécanisme il n’y a rien d’anormal. C’est plus dans les paramètres « énergie » que cet été 2026 force le trait en toute logique lorsque la situation s’y prête. 
-	Donc globalement, de lundi à jeudi, on sait qu’il y aura des salves orageuses régulières et imposantes sur les 3/4 de la France. Possiblement pour le restant de la semaine même si l’air frais atlantique pourrait prendre le pas mais à largement confirmer. 
-	Est un peu remis en question le caractère frais océanique ventilé. Les échanges méridiens s’affirment sur les modèles et la semaine vue initialement « fraiche » et légèrement sous les normes pourrait finalement s’avérer assez lourde voire chaude vers le milieu de semaine. Au global, pourquoi pas une anomalie chaude sur le sud-est, de saison à chaud des Pyrénées au centre-est, de saison du sud-ouest au nord et légèrement plus frais au nord-ouest par rapport aux normales… à affiner.
-	Modifié il y a 13 heures par Run999H
-								25
-								5
-								1
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouvelle) place naturelle ( place de cet été très très particulier je précise) .
@@ -679,7 +619,7 @@ On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouve
 	Toulouse :
 	Ca pousse moins dans le sud-est :
 	Montpellier :
-	Modifié il y a 10 heures par petit âge glaciaire 11
+	Modifié il y a 12 heures par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -731,7 +671,7 @@ Pour le premier pic tout va se jouer dans l'intensité de la cyclogenèse sur le
 	Une cyclogenèse plus faible, et le talweg reste talweg, avec un flux moins vigoureux et des températures de saison voir basses mais très peu de pluie généralisées. Le creux transite sur le pays, rapidement, ce qui fait qu'il n'est pas repris dans le flux du talweg suivant. Il continue alors sa route vers l'Est sur l'Europe centrale, apportant de l'humidité cantonnée au sud est. C'est le scénario majoritaire dans l'IFS ENS, et à travers les modèles.
 	Le membre 8 illustre à l'extrême également ce groupement de scénario :
 	Paradoxalement (à première vue), le second pic de chaud est moins incertain : il est lié à un phénomène de plus grande longueur d'onde : une large dépression autour de l'Islande. Bon on a quand même pas mal d'incertitudes pour le temps sensible en deuxième partie de semaine qui sont à lever.
-								2
+								3
 								1
 
 =======================
@@ -741,7 +681,7 @@ Message:
 Le 18/08/2026 à 09:28, Grahok73 a dit :
 			Je ne change pas mon fusil d'épaule, les signaux sont désormais modélisés...
 	Mouais, pour l'instant les HG font une bonne résistance sur la méditerranée, les dépressions ne progresseront pas suffisamment pour orienter le flux au S/SE ce qui pourrait laisser une bonne partie des départements du secteur méditerranéen "quasi" au sec. La mousson attendra.
-	Modifié il y a 7 heures par max_régusse
+	Modifié il y a 9 heures par max_régusse
 
 =======================
 
@@ -772,7 +712,7 @@ Ce soir GFS et ICON évoluent vers une GF s'isolant au large du Portugal dès sa
 								2
 								3
 								1
-								2
+								3
 
 =======================
 
@@ -792,8 +732,8 @@ Auteur: Sky blue
 Message:
 Oui le train d'ondes de Rossby au niveau HN à repris de la mobilité (exit le blocage récurrent), mais ces bouffées lourdes et orageuses vont mettre à mal notre dernière semaine d'aout prévue chez les bleus. Le rafraîchissement général et durable va en prendre un coup. Le bleu de l'hebdomadaire va virer au rose à minimum. Mais c'est avec un dynamisme de SO.⛈️ 
 	A comparer sur la durée. ???
-	Modifié il y a 2 heures par Sky blue
-								1
+	Modifié il y a 4 heures par Sky blue
+								2
 								2
 
 =======================
@@ -804,7 +744,7 @@ Bonsoir,
 	pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
 	Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
 	Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
-	Modifié il y a 2 heures par tao
+	Modifié il y a 4 heures par tao
 								7
 								3
 
@@ -826,7 +766,7 @@ il y a 31 minutes, tao a dit :
 	Exactement. Même si ce soir les modèles balancent plus facilement du 20° et + à 850hpa sur un très grand quart sud-est pour ne pas dire les 3/4 de la France donc, la dynamique reste la même. Un premier thalweg freiné dans sa course mais vite repris par un second thalweg en milieu de semaine. 
 	Ce soir ce qu’on peut dire, c’est que le potentiel explosif que je décrivais ce matin est même devenu très explosif sur les dernières sorties. De telles températures à l’avant d’un thalweg très méridien mais mobile fait monter l’énergie d’un cran. 
 	Pour moi, sauf grands changements (que j’estime peu probable), c’est une semaine sous grande surveillance côté orages et à l’instant T de ce que donnent les modèles, je me dis que MF va avoir une sacrée semaine de travail ! Le tout dans un contexte plutôt chaud globalement mais comme précisé, lourd, humide mais avec quelques rafraîchissements entre deux ou trois dégradations orageuses. 
-								9
+								10
 
 =======================
 
@@ -839,7 +779,7 @@ il y a une heure, tao a dit :
 			Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
 	Tout à fait d'accord.
 	D'ailleurs, ce n'est plus le désert de Gobi pour finir Aout. Disparités locales comme tout le temps avec les orages. ⛈️mais personne complètement au sec sous 10 jours.🙏 Ca pourrait bien swinguer par endroits.⛈️ Et Run à raison grosse semaine de vigilances phénomènes violents pour MF.🌀
-	Modifié il y a 1 heure par Sky blue
+	Modifié il y a 3 heures par Sky blue
 								2
 
 =======================
@@ -851,3 +791,43 @@ il y a 26 minutes, Plancher a dit :
 	Bonsoir,
 	tant qu'une anomalie ne se détache pas du talweg, ce n'est pas une goutte froide. 
 								2
+
+=======================
+
+Auteur: Plancher
+Message:
+D'accord. Je vous remercie. Tant mieux si ce n'est pas une goutte froide. 🙂
+
+=======================
+
+Auteur: Hendrix back
+Message:
+Aucun grand rafraîchissement long et durable n'est modélisé pour le sud-ouest ce soir pour 3 modèles.  D'autant que la température était encore haute sur Toulouse aujourd’hui. Rebelote à partir de dimanche... franchement, c’est pas croyable !
+								2
+								1
+
+=======================
+
+Auteur: ggdu19
+Message:
+Il y a 2 heures, Hendrix back a dit :
+			Aucun grand rafraîchissement long et durable n'est modélisé pour le sud-ouest ce soir pour 3 modèles.  D'autant que la température était encore haute sur Toulouse aujourd’hui. Rebelote à partir de dimanche... franchement, c’est pas croyable !
+	 Mouais, à part 2/3 jours, on ne peut pas dire que ce sera au-dessus des normes à Toulouse. Ça reste ouvert, certes, mais ça pourrait être bien pire !
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+Le 17/08/2026 à 10:05, Virgile a dit :
+			 L'Italie pourrait connaitre des fortes chaleurs à contrario.
+	Ca se confirme avec la grèce et les Balkans.
+
+=======================
+
+Auteur: Run999H
+Message:
+Le 17/08/2026 à 10:05, Virgile a dit :
+			une deuxième quinzaine d'aout fraiche
+	Mais ça, ça ne se confirme pas. 
+								1
