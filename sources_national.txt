@@ -292,29 +292,16 @@ Températures minimales : identiques à la veille.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 190955 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 19 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 19 août 2026 à 06H00 UTC, et évolution Dépression se creusant 1010 hPa entre la Corse et la Côte d'Azur, se décalant vers le nord-est et se comblant progressivement demain matin. Nouvelle zone dépressionnaire, se creusant 1009 hPa, de l'ouest des îles Baléares au Golfe du Lion cet après-midi, puis s'étendant jusqu'à la Mer Ligure fin de journée. 3 - Prévisions pour l'après-midi du mercredi 19 août VENT : - à l'ouest de Marseille : Sud à Sud-Ouest 3 à 4, parfois 5 en fin de journée vers la Camargue. - à l'est de Marseille: Ouest à Sud-Ouest 4 à 5, parfois 6 en fin de journée à l'est de Camarat en fin de journée. MER : belle à peu agitée, localement agitée à l'est du Levant en fin de journée. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 19 août au jeudi 20 août VENT : - à l'ouest du Cap Sicié : Sud à Sud-Ouest 3 à 4, parfois 5, revenant Est à Sud-Est en fin de soirée. Rafales sous orages. - à l'est du Cap Sicié : Sud à Sud-Ouest 3 à 4, localement 5 à l'est du Levant en soirée. MER : peu agitée. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : devenant nuageux, quelques averses parfois orageuses à l'ouest. VISIBILITE : bonne, parfois moyenne à mauvaise sous precipitations. 5 - Prévisions pour la journée du jeudi 20 août VENT : Sud-Est dominant 2 à 4, devenant Variable en fin de matinée par l'ouest. Rafales sous orages. MER : peu agitée. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : ciel nuageux, averses orageuses vers le rivage le matin. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 6 - Prévisions pour la nuit du 20 au 21 et la journée du vendredi 21 août VENT : Variable 2 à 4, s'orientant secteur Ouest 3 à 4 la nuit puis fraîchissant progressivement 5 à 6 en journée. Fortes rafales sous orages. MER : peu agitée, devenant peu agitée à agitée en journée. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : averses orageuses, éclaircies par l'ouest en journée. VISIBILITE : mauvaise sous averses, puis bonne. 7 - Prévisions pour la nuit du 21 au 22 et la journée du samedi 22 août VENT : De Port Camargue à Fos Ouest à Nord-Ouest 3 à 4, fraîchissant temporairement 5 en début de nuit. De Fos à St Raphaël Ouest à Nord-Ouest 5 à 6, mollissant 3 à 5 en milieu d'après-midi. MER : De Port Camargue à Fos mer belle à peu agitée. De Fos à St Raphaël mer peu agitée à agitée. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Dimanche 23 août Variable faible à modéré autour du Golfe du Lion et secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Lundi 24 août Variable faible à modéré autour du Golfe du Lion et secteur Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Mardi 25 août Secteur Nord-Ouest faible à modéré autour du Golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Mercredi 26 août Secteur Sud faible à modéré autour du Golfe du Lion et variable faible entre Corse et continent. Indice de confiance : 3 sur 5 9 - Observations le mercredi 19 août 2026 à 09H00 UTC Cap Camarat : vent Est 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 2 noeuds. Porquerolles : vent Est-Sud-Est 4 noeuds. Cap Couronne : vent Ouest 8 noeuds. Prochain bulletin le mercredi 19 août 2026, vers 18H30 légales
+FQCT40 LFML 191615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 19 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 19 août 2026 à 12H00 UTC, et évolution Talweg se creusant des iles Britanniques au sud de l'Espagne et dirigeant un flux perturbé de secteur Sud-Ouest modéré à assez fort. Perturbation orageuse circulant sur le nord du bassin demain en journée puis nouvelle aggravation orageuse des iles Baléares au nord de la mer Tyrrhénienne dans la nuit de Jeudi à Vendredi. 3 - Prévisions pour la nuit du mercredi 19 août au jeudi 20 août VENT : - à l'ouest du Cap Sicié : Sud à Sud-Ouest 3 à 4, revenant Est à Sud-Est en fin de soirée, parfois 5 en fin de nuit. Rafales sous orages. - à l'est du Cap Sicié : Sud à Sud-Ouest 3 à 4, localement 5 à l'est du Levant en soirée. MER : peu agitée. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : devenant nuageux, quelques averses parfois orageuses à l'ouest. VISIBILITE : bonne, parfois moyenne à mauvaise sous averses. 4 - Prévisions pour la journée du jeudi 20 août VENT : Sud-Est dominant 2 à 4, devenant Variable en fin de matinée par l'ouest puis Sud-Ouest dominant en fin de journée. Rafales sous orages. MER : peu agitée. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : ciel nuageux, averses orageuses s'atténuant par l'ouest l'après-midi. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 5 - Tendance pour la nuit du 20 au 21, et la journée du vendredi 21 août VENT : Variable 2 à 4, s'orientant secteur Ouest 3 à 4 la nuit puis fraîchissant progressivement 5 à 6 en journée. Fortes rafales sous orages. MER : peu agitée, devenant peu agitée à agitée en journée. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : averses orageuses, éclaircies par l'ouest en journée. VISIBILITE : mauvaise sous averses, puis bonne. 6 - Prévisions pour la nuit du 21 au 22 et la journée du samedi 22 août VENT : De Port Camargue à Fos Ouest à Nord-Ouest 3 à 4, fraîchissant temporairement 5 en début de nuit. De Fos à St Raphaël Ouest à Nord-Ouest 5 à 6, mollissant 3 à 5 en milieu d'après-midi. MER : De Port Camargue à Fos mer belle à peu agitée. De Fos à St Raphaël mer peu agitée à agitée. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 7 - Tendance pour les jours suivants Dimanche 23 août Variable faible à modéré autour du Golfe du Lion et secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Lundi 24 août Variable faible à modéré autour du Golfe du Lion et secteur Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Mardi 25 août Secteur Nord-Ouest faible à modéré autour du Golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Mercredi 26 août Secteur Sud faible à modéré autour du Golfe du Lion et variable faible entre Corse et continent. Indice de confiance : 3 sur 5 8 - Observations le mercredi 19 août 2026 à 15H00 UTC Cap Camarat : vent Sud-Ouest 23 noeuds, rafales 33 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Ouest 16 noeuds. Cap Couronne : vent Sud-Sud-Est 6 noeuds. Prochain bulletin le jeudi 20 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Dans la nuit de jeudi à vendredi, de forts orages en 
-provenance des Baléares pourront gagner la Corse, 
-représentant un fort risque de vigilance orange. Vendredi, le 
-risque orageux persiste également sur l'extrême sud du pays 
-et une partie de Rhône-Alpes mais dans une moindre 
-mesure.
-Samedi en fin de journée, un risque orageux existe sur 
-l'Aquitaine, sans représenter de risque de passage en 
-vigilance orange pour le moment.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Dimanche et lundi, des orages concerneront la moitié sud et 
-s'étendront au nord-est lundi. 
-Les orages pourraient être forts lundi sur le sud-est, associés 
-à des cumuls de pluies importants. Après l'évacuation de ces 
-orages par l'est mardi matin, le temps redeviendrait plus 
-calme en milieu de semaine.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -326,12 +313,12 @@ calme en milieu de semaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 2 : A venir...
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -339,9 +326,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 19 Août 2026.
-Résumé général précédent : Après la canicule, bascule vers un temps plus humide et orageux sur la quasi-totalité du pays, avec une fraîcheur marquée en première semaine, puis une instabilité persistante la seconde semaine, entrecoupée de périodes plus chaudes au sud..
+Résumé général précédent : Temps de plus en plus humide et orageux sur la France, avec une fraîcheur inhabituelle pour la saison..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies abondantes, orages localement forts, fraîcheur marquée..
+Températures attendues précédemment : Pluies abondantes et orages récurrents sur la moitié sud-est, fraîcheur en baisse. (118 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -456,7 +443,7 @@ Le 17/08/2026 à 11:33, pierrot_75 a dit :
 			il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
 	Si tu savais Pierrot comme on n'en peut plus de la chaleur et de la sécheresse à La Rochelle! Alors désolé pour tes vacances mais moi je m'en réjouis du temps gris et humide.
 	Edit: finalement toutes les perspectives de pluie se sont évaporées pour le week-end du 22/23 août voire même au-delà! Sauvé Pierrot!
-	Modifié il y a 9 heures par Lodu17
+	Modifié il y a 11 heures par Lodu17
 								7
 								2
 								2
@@ -613,31 +600,6 @@ Il y a 2 heures, Run999H a dit :
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Virgile
-Message:
-On devrait échapper à un nouvel épisode caniculaire généralisé car avec la semaine 34, on aurait changé de condition synoptique.
-	La grande option est un anticyclone replié sur les açores, un autre sur la Scandinavie et un axe dépressionnaire  entre le labrador et l'europe de l'ouest.
-	une deuxième quinzaine d'aout fraiche et humide?  L'Italie et la Corse pourrait connaitre des fortes chaleurs à contrario.
-	Modifié lundi à 08:07 par Virgile
-								19
-								6
-								2
-
-=======================
-
-Auteur: thib91
-Message:
-Pour la première fois de l'été, l'ensemble sud-saisonnier du CEP envisage une dernière semaine d'août pouvant être un peu plus fraîche et humide que la moyenne climatique.
-	Avec des pressions plus basses que la moyenne sur l'Europe occidentale, qui laisse augurer un flux plutôt zonale assez perturbé pour la saison.
-	C'est également bien visible sur le diagramme de Hovmoller, avec des géopotentiel plus bas que la moyenne sur l'Europe occidentale en dernière décade d'août, même si l'incertitude reste assez forte dès le week-end prochain.
-	Il faudra bien évidement préciser et analyser les modalités exactes de la mise en place de cette configuration météo, mais c'est plutôt une bonne nouvelle. Cela ouvre des perspectives pour plus d'humidité et surtout de températures enfin plus proches des normales.
-	Modifié lundi à 09:37 par thib91
-								27
-								8
-								2
-
-=======================
-
 Auteur: symaski62
 Message:
 Cartes du modèle CEP/ECMWF Europe de l'Ouest
@@ -691,7 +653,7 @@ En effet, il n’y aura pas que le sud-est en ligne de mire avec un axe sud-oues
 	C’est un peu le revers de la médaille même si dans le mécanisme il n’y a rien d’anormal. C’est plus dans les paramètres « énergie » que cet été 2026 force le trait en toute logique lorsque la situation s’y prête. 
 	Donc globalement, de lundi à jeudi, on sait qu’il y aura des salves orageuses régulières et imposantes sur les 3/4 de la France. Possiblement pour le restant de la semaine même si l’air frais atlantique pourrait prendre le pas mais à largement confirmer. 
 	Est un peu remis en question le caractère frais océanique ventilé. Les échanges méridiens s’affirment sur les modèles et la semaine vue initialement « fraiche » et légèrement sous les normes pourrait finalement s’avérer assez lourde voire chaude vers le milieu de semaine. Au global, pourquoi pas une anomalie chaude sur le sud-est, de saison à chaud des Pyrénées au centre-est, de saison du sud-ouest au nord et légèrement plus frais au nord-ouest par rapport aux normales… à affiner.
-	Modifié il y a 9 heures par Run999H
+	Modifié il y a 11 heures par Run999H
 								24
 								5
 								1
@@ -708,7 +670,7 @@ On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouve
 	Toulouse :
 	Ca pousse moins dans le sud-est :
 	Montpellier :
-	Modifié il y a 6 heures par petit âge glaciaire 11
+	Modifié il y a 8 heures par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -730,7 +692,7 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 	C'est bien de regarder les T850 mais ça ne suffit pas pour faire la pluie et le beau temps
 	Pour exemple le même diagramme à Toulouse avec les T2m
 	Aucune chaleur excessive n'est prévue
-								1
+								2
 								1
 
 =======================
@@ -760,7 +722,7 @@ Pour le premier pic tout va se jouer dans l'intensité de la cyclogenèse sur le
 	Une cyclogenèse plus faible, et le talweg reste talweg, avec un flux moins vigoureux et des températures de saison voir basses mais très peu de pluie généralisées. Le creux transite sur le pays, rapidement, ce qui fait qu'il n'est pas repris dans le flux du talweg suivant. Il continue alors sa route vers l'Est sur l'Europe centrale, apportant de l'humidité cantonnée au sud est. C'est le scénario majoritaire dans l'IFS ENS, et à travers les modèles.
 	Le membre 8 illustre à l'extrême également ce groupement de scénario :
 	Paradoxalement (à première vue), le second pic de chaud est moins incertain : il est lié à un phénomène de plus grande longueur d'onde : une large dépression autour de l'Islande. Bon on a quand même pas mal d'incertitudes pour le temps sensible en deuxième partie de semaine qui sont à lever.
-								1
+								2
 
 =======================
 
@@ -769,7 +731,7 @@ Message:
 Le 18/08/2026 à 09:28, Grahok73 a dit :
 			Je ne change pas mon fusil d'épaule, les signaux sont désormais modélisés...
 	Mouais, pour l'instant les HG font une bonne résistance sur la méditerranée, les dépressions ne progresseront pas suffisamment pour orienter le flux au S/SE ce qui pourrait laisser une bonne partie des départements du secteur méditerranéen "quasi" au sec. La mousson attendra.
-	Modifié il y a 3 heures par max_régusse
+	Modifié il y a 5 heures par max_régusse
 
 =======================
 
@@ -788,3 +750,92 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 	Pour la première tentative évoquée par CEP, la moyenne de l'ensemble GEFS reste encourageante pour le Sud-ouest, mais on voit que le Sud-est peut-être à tout moment exposé sur les T850, y compris la Corse.
 	La situation serait encore meilleure pour la seconde tentative de l'européen avec un recul sur les T850 concernant le Sud-est. 
 								1
+								1
+
+=======================
+
+Auteur: F85
+Message:
+Ce soir GFS et ICON évoluent vers une GF s'isolant au large du Portugal dès samedi avec à la clé une belle hausse des températures dès dimanche, 
+	A suivre, mais ça ressemble à notre récurrence de l'été
+								2
+								1
+								3
+								1
+								2
+
+=======================
+
+Auteur: bruno50
+Message:
+il y a 21 minutes, F85 a dit :
+			Ce soir GFS et ICON évoluent vers une GF s'isolant au large du Portugal dès samedi avec à la clé une belle hausse des températures dès dimanche, 
+			A suivre, mais ça ressemble à notre récurrence de l'été
+	Cela peut encore mal tourner, c'est vrai, et on a appris à être prudents depuis la mi-juin, mais ukmo, gfs et icon persistent dans la direction des modèles depuis hier : cette fois, cette goutte froide du large du Portugal, elle rentre et envoie du lourd orageux en France (cf post de  Run 999H pour les détails), voire elle traverse le pays. Un coup de chaleur de plus à l'avant certes. 
+								3
+								1
+								1
+
+=======================
+
+Auteur: Sky blue
+Message:
+Oui le train d'ondes de Rossby au niveau HN à repris de la mobilité (exit le blocage récurrent), mais ces bouffées lourdes et orageuses vont mettre à mal notre dernière semaine d'aout prévue chez les bleus. Le rafraîchissement général et durable va en prendre un coup. Le bleu de l'hebdomadaire va virer au rose à minimum. Mais c'est avec un dynamisme de SO.⛈️ 
+	A comparer sur la durée. ???
+	Modifié il y a 35 minutes par Sky blue
+								2
+
+=======================
+
+Auteur: tao
+Message:
+Bonsoir,
+	pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
+	Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
+	Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
+	Modifié il y a 59 minutes par tao
+								5
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Oui. A priori peu de similitudes avec les dernières vagues de chaleur. Cette goutte froide semble remonter vers la France depuis le Portugal.
+
+=======================
+
+Auteur: Run999H
+Message:
+il y a 31 minutes, tao a dit :
+			Bonsoir,
+			pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
+			Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
+			Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
+	Exactement. Même si ce soir les modèles balancent plus facilement du 20° et + à 850hpa sur un très grand quart sud-est pour ne pas dire les 3/4 de la France donc, la dynamique reste la même. Un premier thalweg freiné dans sa course mais vite repris par un second thalweg en milieu de semaine. 
+	Ce soir ce qu’on peut dire, c’est que le potentiel explosif que je décrivais ce matin est même devenu très explosif sur les dernières sorties. De telles températures à l’avant d’un thalweg très méridien mais mobile fait monter l’énergie d’un cran. 
+	Pour moi, sauf grands changements (que j’estime peu probable), c’est une semaine sous grande surveillance côté orages et à l’instant T de ce que donnent les modèles, je me dis que MF va avoir une sacrée semaine de travail ! Le tout dans un contexte plutôt chaud globalement mais comme précisé, lourd, humide mais avec quelques rafraîchissements entre deux ou trois dégradations orageuses. 
+								5
+
+=======================
+
+Auteur: Sky blue
+Message:
+il y a 41 minutes, tao a dit :
+			Bonsoir,
+			pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
+			Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
+			Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
+	Tout à fait d'accord.
+	D'ailleurs, ce n'est plus le désert de Gobi pour finir Aout. Disparités locales comme tout le temps avec les orages. ⛈️mais personne complètement au sec sous 10 jours.🙏 Ca pourrait bien swinguer par endroits.⛈️
+	Modifié il y a 19 minutes par Sky blue
+								1
+
+=======================
+
+Auteur: tao
+Message:
+il y a 26 minutes, Plancher a dit :
+			Oui. A priori peu de similitudes avec les dernières vagues de chaleur. Cette goutte froide semble remonter vers la France depuis le Portugal.
+	Bonsoir,
+	tant qu'une anomalie ne se détache pas du talweg, ce n'est pas une goutte froide.
