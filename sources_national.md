@@ -317,7 +317,7 @@ Températures minimales : en baisse sur le Cagire et le Luchonnais ainsi que sur
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 190425 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 19 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 19 août 2026 à 00H00 UTC, et évolution Dépression se creusant 1010 hPa entre la Corse et la Côte d'Azur, se décalant vers le nord-est et se comblant progressivement demain matin. Nouvelle zone dépressionnaire, se creusant 1009 hPa, de l'ouest des îles Baléares au Golfe du Lion cet après-midi, puis s'étendant jusqu'à la Mer Ligure fin de journée. 3 - Prévisions pour la journée du mercredi 19 août VENT : - de Port-Camargue au Cap Sicié : Ouest à Nord-Ouest mollissant 2 à 4, puis revenant Sud à Sud-Ouest 3 à 4 à la mi-journée, et fraîchissant 4 à 5 vers Port Camargue en fin d'après-midi. - de Sicié à Saint-Raphaël : secteur Ouest 2 à 4, localement Variable à l'est du Levant, fraîchissant progressivement Sud-Ouest 4 à 5 l'après-midi, localement 6 à l'est de Camarat en fin d'après-midi. Rafales. MER : s'atténuant belle à peu agitée, puis s'amplifiant peu agitée à agitée à l'est du Levant l'après-midi. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 19 août au jeudi 20 août VENT : - à l'ouest du Cap Sicié : secteur Sud 3 à 4, localement 54 au large de Port Camargue, revenant secteur Sud-Est 2 à 4 en fin de soirée, puis Nord-Ouest à l'ouest de Beauduc à la fin. Rafales sous orages. - à l'est du Cap Sicié : Sud-Ouest 4 à 5, localement 6 à l'est de Camarat, mollissant 3 à 4 en milieu de nuit, puis revenant secteur Sud dominant 2 à 4 à la fin. MER : belle à peu agitée, localement peu agitée à l'est du Levant au début. HOULE : Sud-Ouest 0.5 à 1 m TEMPS : devenant nuageux par le sud-ouest, avec des averses parfois orageuses. VISIBILITE : bonne, localement moyenne à mauvaise sous precipitations. 5 - Prévisions pour la journée du jeudi 20 août VENT : Sud à Sud-Est 2 à 4, temporairement Variable dépressionnaire 2 à 4 à l'ouest du Cap Croisette le matin. Rafales sous orages. MER : devenant peu agitée le matin. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : nuageux, avec des averses orageuses, prés des côtes. VISIBILITE : bonne, localement moyenne à mauvaise sous precipitations. 6 - Prévisions pour la nuit du 20 au 21 et la journée du vendredi 21 août VENT : De Port Camargue à Fos Sud-Ouest 4 à 5, virant Nord à Nord-Ouest en milieu de nuit. De Fos à Porquerolles Ouest à Sud-Ouest 2 à 4, fraîchissant 4 à 5 en milieu d'après-midi en virant Nord-Ouest. De Porquerolles au Levant Ouest 3, fraîchissant rapidement pour atteindre 5 en milieu d'après-midi. Du Levant à St Raphaël Ouest à Sud-Ouest 3 à 4, fraîchissant 5 en milieu d'après-midi. MER : peu agitée, devenant agitée en milieu d'après-midi de Marseille à St Raphaël. HOULE de secteur Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Samedi 22 août Variable faible à modéré autour du golfe du Lion et secteur Sud-Ouest faible à modéré entre Corse et continent. Indice de confiance : 4 sur 5 Dimanche 23 août Variable faible à modéré autour du golfe du Lion et secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 4 sur 5 Lundi 24 août Variable modéré à assez fort. Indice de confiance : 3 sur 5 Mardi 25 août Secteur Nord-Ouest modéré à assez fort autour du golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 8 - Observations le mercredi 19 août 2026 à 03H00 UTC Cap Cepet : vent Ouest-Nord-Ouest 10 noeuds, clair ou peu nuageux, visibilité 10 milles. Le Levant : vent Est-Nord-Est 6 noeuds, 1010 hPa en baisse. Porquerolles : vent Nord-Ouest 8 noeuds. Cap Couronne : vent Nord-Ouest 10 noeuds. Prochain bulletin le mercredi 19 août 2026, vers 13H00 légales
+FQCT40 LFML 190955 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 19 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 19 août 2026 à 06H00 UTC, et évolution Dépression se creusant 1010 hPa entre la Corse et la Côte d'Azur, se décalant vers le nord-est et se comblant progressivement demain matin. Nouvelle zone dépressionnaire, se creusant 1009 hPa, de l'ouest des îles Baléares au Golfe du Lion cet après-midi, puis s'étendant jusqu'à la Mer Ligure fin de journée. 3 - Prévisions pour l'après-midi du mercredi 19 août VENT : - à l'ouest de Marseille : Sud à Sud-Ouest 3 à 4, parfois 5 en fin de journée vers la Camargue. - à l'est de Marseille: Ouest à Sud-Ouest 4 à 5, parfois 6 en fin de journée à l'est de Camarat en fin de journée. MER : belle à peu agitée, localement agitée à l'est du Levant en fin de journée. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 19 août au jeudi 20 août VENT : - à l'ouest du Cap Sicié : Sud à Sud-Ouest 3 à 4, parfois 5, revenant Est à Sud-Est en fin de soirée. Rafales sous orages. - à l'est du Cap Sicié : Sud à Sud-Ouest 3 à 4, localement 5 à l'est du Levant en soirée. MER : peu agitée. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : devenant nuageux, quelques averses parfois orageuses à l'ouest. VISIBILITE : bonne, parfois moyenne à mauvaise sous precipitations. 5 - Prévisions pour la journée du jeudi 20 août VENT : Sud-Est dominant 2 à 4, devenant Variable en fin de matinée par l'ouest. Rafales sous orages. MER : peu agitée. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : ciel nuageux, averses orageuses vers le rivage le matin. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 6 - Prévisions pour la nuit du 20 au 21 et la journée du vendredi 21 août VENT : Variable 2 à 4, s'orientant secteur Ouest 3 à 4 la nuit puis fraîchissant progressivement 5 à 6 en journée. Fortes rafales sous orages. MER : peu agitée, devenant peu agitée à agitée en journée. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : averses orageuses, éclaircies par l'ouest en journée. VISIBILITE : mauvaise sous averses, puis bonne. 7 - Prévisions pour la nuit du 21 au 22 et la journée du samedi 22 août VENT : De Port Camargue à Fos Ouest à Nord-Ouest 3 à 4, fraîchissant temporairement 5 en début de nuit. De Fos à St Raphaël Ouest à Nord-Ouest 5 à 6, mollissant 3 à 5 en milieu d'après-midi. MER : De Port Camargue à Fos mer belle à peu agitée. De Fos à St Raphaël mer peu agitée à agitée. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Dimanche 23 août Variable faible à modéré autour du Golfe du Lion et secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Lundi 24 août Variable faible à modéré autour du Golfe du Lion et secteur Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Mardi 25 août Secteur Nord-Ouest faible à modéré autour du Golfe du Lion et secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Mercredi 26 août Secteur Sud faible à modéré autour du Golfe du Lion et variable faible entre Corse et continent. Indice de confiance : 3 sur 5 9 - Observations le mercredi 19 août 2026 à 09H00 UTC Cap Camarat : vent Est 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 2 noeuds. Porquerolles : vent Est-Sud-Est 4 noeuds. Cap Couronne : vent Ouest 8 noeuds. Prochain bulletin le mercredi 19 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -357,11 +357,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : A Ciel Ouvert
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : A Ciel Ouvert
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Prévisions Nord-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -369,9 +369,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 19 Août 2026.
-Résumé général précédent : Période de 15 jours (19 août - 2 septembre) dominée par une dégradation marquée : fin de la canicule, épisodes orageux répétés, températures en nette baisse sous les normales de saison. Aucun signal de retour de fortes chaleurs. Confiance modérée sur le scénario d'ensemble, forte sur le caractère humide et frais de la période..
+Résumé général précédent : Fin des fortes chaleurs, bascule vers un temps plus humide et orageux, avec une semaine 2 possiblement sous les normales. Pas de signal de retour d'une longue période chaude et sèche..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages parfois forts et pluies abondantes du sud-est au Rhône-Alpes, fraîcheur marquée en fin de semaine..
+Températures attendues précédemment : Pluies répétées, orages parfois forts sur sud-est/Rhône-Alpes, fraîcheur inhabituelle en altitude..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -486,7 +486,7 @@ Le 17/08/2026 à 11:33, pierrot_75 a dit :
 			il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
 	Si tu savais Pierrot comme on n'en peut plus de la chaleur et de la sécheresse à La Rochelle! Alors désolé pour tes vacances mais moi je m'en réjouis du temps gris et humide.
 	Edit: finalement toutes les perspectives de pluie se sont évaporées pour le week-end du 22/23 août voire même au-delà! Sauvé Pierrot!
-	Modifié il y a 1 heure par Lodu17
+	Modifié il y a 3 heures par Lodu17
 								7
 								2
 								2
@@ -703,7 +703,7 @@ Message:
 Potentiel humide important pas que dans le sud est, c'est toute la façade Est du pays qui pourrait être à un moment donné concerné. L'EFI hebdomadaire d'hier concernant les précipitations réagissait bien du Dauphiné au Jura et + globalement de la vallée du Rhône aux confins de la Lorraine.
 	Potentiel humide aussi important sur le golfe de Gascogne et ses littoraux franco-espagnols, ici l'humidité pourrait être boostée par des eaux de surfaces anormalement chaudes dans un contexte dépressionnaire avec de l'air froid en altitude.
 	A suivre, mais cette semaine pourrait être intéressante au niveau météo.
-	Modifié il y a 23 heures par thib91
+	Modifié hier à 08:08 par thib91
 								18
 								2
 
@@ -721,6 +721,23 @@ En effet, il n’y aura pas que le sud-est en ligne de mire avec un axe sud-oues
 	C’est un peu le revers de la médaille même si dans le mécanisme il n’y a rien d’anormal. C’est plus dans les paramètres « énergie » que cet été 2026 force le trait en toute logique lorsque la situation s’y prête. 
 	Donc globalement, de lundi à jeudi, on sait qu’il y aura des salves orageuses régulières et imposantes sur les 3/4 de la France. Possiblement pour le restant de la semaine même si l’air frais atlantique pourrait prendre le pas mais à largement confirmer. 
 	Est un peu remis en question le caractère frais océanique ventilé. Les échanges méridiens s’affirment sur les modèles et la semaine vue initialement « fraiche » et légèrement sous les normes pourrait finalement s’avérer assez lourde voire chaude vers le milieu de semaine. Au global, pourquoi pas une anomalie chaude sur le sud-est, de saison à chaud des Pyrénées au centre-est, de saison du sud-ouest au nord et légèrement plus frais au nord-ouest par rapport aux normales… à affiner.
-	Modifié il y a 1 heure par Run999H
-								18
+	Modifié il y a 3 heures par Run999H
+								22
+								4
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouvelle) place naturelle ( place de cet été très très particulier je précise) .
+	2 tentatives quand même entre le 22 et le 24 puis entre le 26 et le 28.
+	Non mais pour qui elle se prend cette masse d'air très chaud ? C'est pas encore le Sahara le sud-ouest...
+	Heureusement la moyenne tient  pour la première tentative mais pour la deuxième c'est moins évident même si la bouffée chaude semble rester provisoire.
+	Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
+	Toulouse :
+	Ca pousse moins dans le sud-est :
+	Montpellier :
+	Modifié il y a 11 minutes par petit âge glaciaire 11
+Modifié
 								1

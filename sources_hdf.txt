@@ -317,7 +317,7 @@ Températures minimales : stationnaires.
 Températures maximales : en baisse sur la Thiérache, sur le Laonnois ainsi que sur la moitié Sud du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 190425 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 19 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 19 août 2026 à 00H00 UTC, et évolution Dépression 996 hPa au nord de l'Irlande, se décalant progressivement vers le sud-est, prévue 1000 hPa sur l'Angleterre jeudi matin. Thalweg associé sur la Manche le matin, puis sur le golfe de Gascogne l'après-midi. 3 - Prévisions pour la journée du mercredi 19 août VENT : secteur Ouest 4 à 5, parfois 6 le matin, revenant Sud-Ouest l'après-midi, parfois 6 dans le détroit. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, non significative ailleurs. TEMPS : couvert et pluvieux, s'éclaircissant à la fin. VISIBILITE : moyenne à mauvaise sous pluie. 4 - Prévisions pour la nuit du mercredi 19 août au jeudi 20 août VENT : virant Ouest à Sud-Ouest 4 à 5, parfois 6. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, s'amortissant en fin de nuit. TEMPS : couvert avec pluie ou averses. VISIBILITE : moyenne à mauvaise sous pluie ou averses. 5 - Prévisions pour la journée du jeudi 20 août VENT : Ouest à Sud-Ouest fraîchissant 5 à 6, avec menace de 7 en Mer du Nord l'après-midi. Rafales. MER : devenant agitée. HOULE : non significative. TEMPS : couvert avec pluie ou averses. VISIBILITE : moyenne à mauvaise sous pluie ou averses. 6 - Prévisions pour la nuit du 20 au 21 et la journée du vendredi 21 août VENT : Ouest à Sud-Ouest 6 virant Nord 4 en milieu de nuit. MER : agitée, devenant peu agitée en milieu de nuit. HOULE d'Ouest à Sud-Ouest inférieure à 2 m, s'orientant en milieu d'après-midi au Nord à Nord-Est. 7 - Tendance pour les jours suivants Samedi 22 août Secteur Nord-Est modéré à assez fort. Indice de confiance : 4 sur 5 Dimanche 23 août Secteur Nord-Est modéré à assez fort. Indice de confiance : 4 sur 5 Lundi 24 août Secteur Nord-Est modéré à assez fort. Indice de confiance : 3 sur 5 Mardi 25 août Secteur Sud modéré à assez fort. Indice de confiance : 3 sur 5 8 - Observations le mercredi 19 août 2026 à 03H00 UTC Dunkerque : vent Sud-Sud-Ouest 12 noeuds, 1007 hPa en baisse. Cap Gris Nez : vent Ouest-Sud-Ouest 17 noeuds. Boulogne : vent Sud-Ouest 14 noeuds, 1007 hPa en baisse. Bouée Sandettie : vent Ouest-Sud-Ouest 14 noeuds, creux 1,2 mètre, 1006 hPa en baisse, visibilité 5 milles. Prochain bulletin le mercredi 19 août 2026, vers 12H30 légales
+FQCT40 LFQQ 190945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 19 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 19 août 2026 à 06H00 UTC, et évolution Dépression 996 hPa au nord de l'Irlande, se décalant progressivement vers le sud-est, prévue 1000 hPa sur l'Angleterre jeudi matin. Thalweg associé sur la Manche le matin, puis sur le golfe de Gascogne l'après-midi. 3 - Prévisions pour l'après-midi du mercredi 19 août VENT : Sud-Ouest 4 à 5, parfois 6 dans le détroit. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, non significative ailleurs. TEMPS : couvert et pluvieux, s'éclaircissant à la fin. VISIBILITE : moyenne à mauvaise sous pluie. 4 - Prévisions pour la nuit du mercredi 19 août au jeudi 20 août VENT : virant Ouest à Sud-Ouest 4 à 5, parfois 6. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, s'amortissant en fin de nuit. TEMPS : couvert avec pluie ou averses. VISIBILITE : moyenne à mauvaise sous pluie ou averses. 5 - Prévisions pour la journée du jeudi 20 août VENT : Ouest à Sud-Ouest fraîchissant 5 à 6, avec menace de 7 en Mer du Nord l'après-midi. Rafales. MER : devenant agitée. HOULE : non significative. TEMPS : couvert avec pluie ou averses. VISIBILITE : moyenne à mauvaise sous pluie ou averses. 6 - Prévisions pour la nuit du 20 au 21 et la journée du vendredi 21 août VENT : Ouest 4 à 5, virant Nord-Est 3 à 4 en seconde partie de nuit. MER : agitée, devenant peu agitée en fin de nuit. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, jusqu'à 1.5 m en Manche la nuit. TEMPS : très nuageux avec pluie ou averses. VISIBILITE : moyenne à mauvaise sous pluie ou averses. 7 - Prévisions pour la nuit du 21 au 22 et la journée du samedi 22 août VENT : Nord à Nord-Est 2 à 3, fraîchissant 5 en seconde partie de nuit, puis mollissant 4 en milieu d'après-midi. MER : peu agitée, devenant temporairement agitée en seconde partie de nuit en mer du nord. HOULE de Nord à Nord-Est inférieure à 1,5 m, s'orientant temporairement à l'Ouest à Sud-Ouest en début de nuit. 8 - Tendance pour les jours suivants Dimanche 23 août Secteur Nord-Est faible à modéré. Indice de confiance : 3 sur 5 Lundi 24 août Secteur Nord-Est faible à modéré. Indice de confiance : 3 sur 5 Mardi 25 août Secteur Sud modéré en entrée de Manche, faible en sortie de Manche. Indice de confiance : 3 sur 5 Mercredi 26 août Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le mercredi 19 août 2026 à 09H00 UTC Dunkerque : vent Sud-Ouest 10 noeuds, mer belle, 1006 hPa en baisse, très nuageux à couvert, visibilité 5 milles. Cap Gris Nez : vent Ouest-Sud-Ouest 16 noeuds. Boulogne : vent Ouest-Sud-Ouest 8 noeuds, 1007 hPa en baisse, couvert, pluies ou bruines, visibilité 3 milles. Prochain bulletin le mercredi 19 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -356,12 +356,12 @@ La localisation exacte est encore à affiner.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : A Ciel Ouvert
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Températures des océans et courants océaniques
-• Infoclimat Direct : A Ciel Ouvert
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : A Ciel Ouvert
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -369,9 +369,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 19 Août 2026.
-Résumé général HDF précédent : Retour progressif à un temps plus instable et plus frais après un été très chaud et sec. Les deux semaines seront marquées par des alternances de soleil et d'averses, avec un risque de pluie plus prononcé en toute fin de semaine 1 et en fin de semaine 2..
+Résumé général HDF précédent : Tendance globale pour les deux semaines : retour d'un temps plus instable et plus frais, avec un passage pluvieux et orageux marqué en début de semaine 2. Les températures reviennent proches des normales après un été très chaud. La fin de semaine 2 pourrait voir une amélioration avec un temps plus sec et ensoleillé..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies éparses mercredi (10-20 mm), averses jeudi avec rafales, éclaircies vendredi-samedi, soleil prédominant dimanche. Températures 9-25°C selon secteurs..
+Températures attendues précédemment : Pluies éparses mercredi (10-20 mm), averses jeudi, éclaircies vendredi-samedi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -486,7 +486,7 @@ Le 17/08/2026 à 11:33, pierrot_75 a dit :
 			il me semble que les 2 grands modèles (cep/icon vs GFS) qui étaient un peu en désaccord pour la période de transition entre ce topic et le suivant s'alignent un peu plus notamment pour une dégradation plus marquée dans l'ouest et le nord le we des 22 23 aout, non ? et surtout un lundi 24 électrique, ou c'est pas encore le cas à date ? j'ai l'impression, mais ne me tombez pas dessus si je me trompe ou si j'extrapole, que l'on ne verra pas bcp le soleil dans ces régions la pdt 3 jours, meme 4 si l'on considère que le temps instable s'installe possiblement des le vendredi 21 par l'ouest apres un jeudi encore bien calme... C balo je pars en charente maritime le 21 justement, youpiii 🙄
 	Si tu savais Pierrot comme on n'en peut plus de la chaleur et de la sécheresse à La Rochelle! Alors désolé pour tes vacances mais moi je m'en réjouis du temps gris et humide.
 	Edit: finalement toutes les perspectives de pluie se sont évaporées pour le week-end du 22/23 août voire même au-delà! Sauvé Pierrot!
-	Modifié il y a 1 heure par Lodu17
+	Modifié il y a 3 heures par Lodu17
 								7
 								2
 								2
@@ -703,7 +703,7 @@ Message:
 Potentiel humide important pas que dans le sud est, c'est toute la façade Est du pays qui pourrait être à un moment donné concerné. L'EFI hebdomadaire d'hier concernant les précipitations réagissait bien du Dauphiné au Jura et + globalement de la vallée du Rhône aux confins de la Lorraine.
 	Potentiel humide aussi important sur le golfe de Gascogne et ses littoraux franco-espagnols, ici l'humidité pourrait être boostée par des eaux de surfaces anormalement chaudes dans un contexte dépressionnaire avec de l'air froid en altitude.
 	A suivre, mais cette semaine pourrait être intéressante au niveau météo.
-	Modifié il y a 23 heures par thib91
+	Modifié hier à 08:08 par thib91
 								18
 								2
 
@@ -721,6 +721,23 @@ En effet, il n’y aura pas que le sud-est en ligne de mire avec un axe sud-oues
 	C’est un peu le revers de la médaille même si dans le mécanisme il n’y a rien d’anormal. C’est plus dans les paramètres « énergie » que cet été 2026 force le trait en toute logique lorsque la situation s’y prête. 
 	Donc globalement, de lundi à jeudi, on sait qu’il y aura des salves orageuses régulières et imposantes sur les 3/4 de la France. Possiblement pour le restant de la semaine même si l’air frais atlantique pourrait prendre le pas mais à largement confirmer. 
 	Est un peu remis en question le caractère frais océanique ventilé. Les échanges méridiens s’affirment sur les modèles et la semaine vue initialement « fraiche » et légèrement sous les normes pourrait finalement s’avérer assez lourde voire chaude vers le milieu de semaine. Au global, pourquoi pas une anomalie chaude sur le sud-est, de saison à chaud des Pyrénées au centre-est, de saison du sud-ouest au nord et légèrement plus frais au nord-ouest par rapport aux normales… à affiner.
-	Modifié il y a 1 heure par Run999H
-								18
+	Modifié il y a 3 heures par Run999H
+								22
+								4
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouvelle) place naturelle ( place de cet été très très particulier je précise) .
+	2 tentatives quand même entre le 22 et le 24 puis entre le 26 et le 28.
+	Non mais pour qui elle se prend cette masse d'air très chaud ? C'est pas encore le Sahara le sud-ouest...
+	Heureusement la moyenne tient  pour la première tentative mais pour la deuxième c'est moins évident même si la bouffée chaude semble rester provisoire.
+	Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
+	Toulouse :
+	Ca pousse moins dans le sud-est :
+	Montpellier :
+	Modifié il y a 11 minutes par petit âge glaciaire 11
+Modifié
 								1
