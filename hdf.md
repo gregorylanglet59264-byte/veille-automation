@@ -1,130 +1,128 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Mercredi 19 Août 2026
-**Période :** Semaine 1 (Du Mercredi 19 au Dimanche 23 Août 2026) & Semaine 2 (Du Lundi 24 au Dimanche 30 Août 2026)
+**Période :** Semaine 1 (Du mercredi 19 au dimanche 23 août 2026 (semaine 34)) & Semaine 2 (Du lundi 24 au dimanche 30 août 2026 (semaine 35))
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la tendance générale, mais divergence sur les détails.*
-- **Fiabilité du scénario majoritaire :** Fin d'été océanique — *Flux d'ouest humide, températures en baisse, précipitations faibles à modérées.*
+- **Consensus des modèles :** Modéré — *Accord CEP/GFS/Météo-France sur le flux océanique, mais divergences sur l’intensité et le timing.*
+- **Fiabilité du scénario majoritaire :** Fin d’été océanique — *HDF en marge des fortes chaleurs; alternance de nuages et d’averses, températures proches des normales.*
 - **Stabilité des cartes/scénarios :** 6 / 69 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Modérée à forte — *Incertitudes sur les cumuls de pluie et la trajectoire des dépressions en semaine 2.*
+- **Niveau d'incertitude global :** Modérée à forte — *La position de la dépression en fin de mois peut tout changer : temps sec ou pluvieux.*
 
-## 🗓️ SEMAINE 1 : Du Mercredi 19 au Dimanche 23 Août 2026
+## 🗓️ SEMAINE 1 : Du mercredi 19 au dimanche 23 août 2026 (semaine 34)
 ### 💡 Points clés de la semaine 1
-1. Temps océanique humide : Un flux d'ouest maritime apporte nuages et humidité sur les Hauts-de-France, températures en baisse.
-2. Pluies éparses mercredi : Les averses les plus soutenues se concentrent mercredi, surtout sur l'Avesnois et l'Artois.
-3. Vent sensible jeudi : Rafales possibles jusqu'à 65 km/h sur le littoral (Flandre maritime, Picardie) en journée de jeudi.
-4. Éclaircies et averses vendredi : Le ciel alterne entre belles éclaircies et averses localisées, surtout l'après-midi.
-5. Week-end plus sec et frais : Samedi et dimanche, le temps devient plus sec mais les températures restent sous les normales, de 21 à 23°C.
+1. Dégradation océanique : Ciel bien chargé, pluies éparses mercredi, puis averses jeudi et vendredi sur les Hauts-de-France.
+2. Vent sensible sur le littoral : Rafales de 55 à 65 km/h attendues jeudi sur les côtes et la Flandre maritime.
+3. Températures en baisse : Maximales 19 à 23°C jusqu'à dimanche, sous les normales de saison.
+4. Averses localisées : Les cumuls restent faibles, sauf Avesnois et côtes avec jusqu'à 15 mm.
+5. Accalmie relative en week-end : Samedi et dimanche, alternance d'éclaircies et d'averses, vent de nord-est modéré.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Flux d'ouest océanique dominant sur toute la semaine, avec températures en baisse.
-- Passage pluvieux actif mais non exceptionnel entre mercredi et jeudi, avec des cumuls de 10 à 15 mm localement.
-- Amélioration relative et temporaire samedi, avec un temps plus sec mais des températures fraîches.
+- Flux d'ouest à nord-ouest dominant sur les HDF, ciel souvent nuageux, averses faibles à modérées.
+- Baisse des températures : maximales 19-23°C, fraîcheur matinale 10-15°C.
+- Vent sensible jeudi sur le littoral, puis bascule au nord-est samedi-dimanche.
 **Points de divergence :**
-- L'ECMWF est plus intense sur les précipitations que le GFS pour la journée de vendredi.
-- La position exacte des averses les plus fortes varie selon les modèles (littoral vs intérieur).
-- Le timing exact de l'amélioration du week-end diffère : samedi après-midi ou dimanche.
+- Intensité des pluies de jeudi-vendredi : GEFS timoré, CEP/GFS un peu plus actifs, Météo-France table sur des cumuls faibles.
+- Timing de l'accalmie du week-end : sec samedi pour certains scénarios, risque d'averses jusqu'à dimanche pour Météo-France.
+- Lundi 24 : CEP voit une possible instabilité, GFS un passage dépressionnaire, Météo-France n'évoque qu'un risque de pluie temporaire.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP (Déterministe et Ensemble)** (Confirmé pour la synoptique générale ; l'intensité des précipitations reste à affiner.) | Dépression atlantique s'avançant sur la France, plaçant les HDF en flux d'ouest-sud-ouest humide. Épisode pluvieux marqué sur le sud, plus modéré au nord. | Averses passagères et fréquentes, ciel très nuageux. Températures en baisse : 20-23°C en journée. | Toute la région, avec des passages plus actifs sur l'intérieur des terres (Avesnois, Artois, Santerre). | Élevée : Le modèle est longuement détaillé par les membres pour la semaine. | L'EFI et le SOT montrent un épisode de pluie "climatiquement exceptionnel" pour le sud-est, mais pour le nord, les cumuls restent faibles à modérés (10-15 mm max), sans excès. |
-| **GFS / GEFS (Américain)** (En phase avec l'ECMWF pour la tendance, mais en retrait sur l'intensité.) | Scénario proche de l'ECMWF mais avec une dégradation légèrement plus timide et plus décalée vers l'ouest. | Passage pluvieux mercredi, puis alternance d'éclaircies et d'averses, surtout jeudi et vendredi. | Littoral et moitié ouest de la région plus exposés aux averses. | Modérée : Le modèle est clairement cité, mais souvent pour le comparer à l'ECMWF. | Les membres du GEFS voient également l'anomalie dépressionnaire, mais les cumuls de pluie prévus sont plus faibles, surtout sur l'est de la région. |
-| **ICON (Allemand)** (Aligné sur le scénario dominant.) | En phase avec les deux grands modèles, avec une dégradation un peu plus précoce. | Pluies éparses dès mercredi matin sur l'ouest. | Principalement le Pas-de-Calais et la Somme. | Faible : Le modèle est brièvement évoqué dans une discussion. | Modèle cité pour confirmer l'alignement des modèles pour la période de transition. |
-| **Arpège (Météo-France)** (Non documenté dans les échanges.) | Non commenté en détail pour les HDF. | Non évaluable. | Non évaluable. | Non estimable. | Modèle uniquement cité pour le sud-est de la France. |
-| **UKMO (Anglais)** (Non documenté dans les échanges.) | Non commenté en détail pour les HDF. | Non évaluable. | Non évaluable. | Non estimable. | Modèle uniquement cité pour le sud-est de la France. |
+| **ECMWF (CEP/IFS)** (Documenté pour la tendance HDF.) | Thalweg atlantique sur l’Europe de l’Ouest; temps humide et frais sur les HDF, pluies faibles à modérées, vent d’ouest sensible en mer du Nord. | Pluies éparses mercredi, averses jeudi-vendredi, rafales littorales possibles jusqu’à 65 km/h. | Ensemble des Hauts-de-France; littoral et reliefs (Avesnois, Artois) plus exposés. | Modérée (60-70%) : CEP cité pour la transition et l’instabilité de lundi 24, sans détail départemental. | Le talweg aborde le pays par l’ouest; les HDF restent en bordure des pluies les plus fortes. Ce scénario est cohérent avec Météo-France : 5 à 15 mm selon les zones, surtout Avesnois, littoral picard, pays de Bray et Thiérache. Vent assez fort jeudi au littoral. |
+| **GFS / GEFS (NCEP)** (Documenté pour la tendance large.) | Dégradation plus marquée sur l’ouest et le nord pendant le week-end des 22-23, puis possible passage instable lundi 24. | Ciel très nuageux, averses répétées, fraîcheur; risque d’averses orageuses lundi. | Ouest et nord des HDF, littoral; extension possible à l’intérieur. | Modérée (60-70%) : GFS et GEFS cités en comparaison avec CEP/ICON; pas de détail local. | Le run GFS creuse une dépression près des îles Britanniques; pour les HDF, le flux bascule au nord-est samedi-dimanche avec un temps variable, puis une possible reprise humide lundi. Les cumuls restent incertains. |
+| **ICON (DWD)** (Peu documenté pour HDF.) | Alignement partiel avec CEP/GFS pour une dégradation ouest/nord en fin de semaine; scénario encore flou. | Passage nuageux et averses faibles à modérées entre vendredi et dimanche. | Ouest des HDF et littoral. | Faible (40-50%) : ICON brièvement cité comme l’un des modèles de référence, sans analyse propre HDF. | Les échanges n’apportent pas de détail ICON pour les HDF. Seule la convergence avec CEP/GFS est notée; prudence sur une utilisation directe pour le Nord/Pas-de-Calais. |
+| **GEM (CMC)** (Peu documenté pour HDF.) | Anomalie négative de température à 850 hPa sur plusieurs jours, air plus frais sur l’Europe de l’Ouest. | Baisse nette des températures, averses possibles en fin de semaine. | Grand quart nord-ouest européen; HDF en bordure. | Faible (40-50%) : une carte d’ensemble GEM citée pour l’anomalie de T850, pas de commentaire spécifique HDF. | GEM illustre le changement de masse d’air, mais ne permet pas de préciser la localisation des pluies en HDF. |
+| **UKMO (Unified Model)** (Non estimable.) | Non estimable pour HDF; signal de fortes pluies sur le centre-est/sud-est. | Non documenté. | Sud-est; pas d’information Nord. | Non estimable. | Mention unique dans le sujet, pour des cumuls importants dans le centre-est; sans valeur directe pour les HDF. |
+| **ARPEGE (Météo-France)** (Non estimable.) | Non estimable pour HDF; signal de forts cumuls dans le sud-est. | Non documenté. | Sud-est. | Non estimable. | Mention unique pour l’épisode méditerranéen; les bulletins Météo-France XML restent la source fiable pour les HDF. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ciel très nuageux avec pluies éparses mercredi, puis alternance d'éclaircies et d'averses localisées. Amélioration samedi. | Min 12-14°C, Max 21-23°C | elevee | Météo-France XML (DEPT59), ECMWF, GFS, Guillaume Séchet | Intensité des averses vendredi incertaine, mais tendance générale fiable. |
-| **Pas-de-Calais (62)** | Temps gris et pluvieux mercredi matin, puis ciel variable avec averses. Week-end plus sec et ensoleillé. | Min 12-16°C, Max 20-23°C | elevee | Météo-France XML (DEPT62), ECMWF, GFS, Guillaume Séchet | Localisation des averses sur le littoral ou l'intérieur reste à affiner. |
-| **Somme (80)** | Ciel chargé avec pluies éparses mercredi, puis alternance d'éclaircies et d'averses. Temps plus sec samedi. | Min 12-15°C, Max 21-23°C | elevee | Météo-France XML (DEPT80), ECMWF, GFS, Guillaume Séchet | Cumuls de pluie plus importants sur le littoral picard que dans les terres. |
-| **Oise (60)** | Belles éclaircies matinales mercredi, puis nuages et pluies éparses. Jeudi ensoleillé, vendredi plus variable. | Min 12-14°C, Max 21-25°C | elevee | Météo-France XML (DEPT60), ECMWF, GFS, Guillaume Séchet | Les averses de vendredi sont encore incertaines dans leur localisation. |
-| **Aisne (02)** | Belles éclaircies mercredi matin, puis dégradation pluvieuse l'après-midi. Jeudi ensoleillé, vendredi sec et lumineux. | Min 12-14°C, Max 22-25°C | elevee | Météo-France XML (DEPT02), ECMWF, GFS, Guillaume Séchet | La durée des pluies de mercredi soir est encore incertaine. |
+| **Nord (59)** | Ciel très nuageux à couvert avec pluies éparses mercredi, averses localisées jeudi et vendredi; éclaircies et risque d'averses samedi-dimanche. | Min 11-14°C en fin de semaine, max 19-23°C sous abri. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses parfois localisées; Flandre maritime plus ventée, Avesnois plus arrosé. |
+| **Pas-de-Calais (62)** | Temps gris et pluvieux mercredi, alternance éclaircies/averses jeudi-vendredi, éclaircies avec risque d'averses le week-end. | Min 10-16°C, max 20-23°C selon les jours. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls plus marqués sur les côtes de la Manche et les reliefs de l'Artois; intérieur moins arrosé. |
+| **Somme (80)** | Ciel bien chargé mercredi avec pluies éparses, variable et averses jeudi-vendredi; samedi-dimanche plus ensoleillé avec risque d'averses. | Min 11-18°C selon littoral/intérieur, max 20-23°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Littoral plus exposé au vent et aux averses; terres plus sèches. |
+| **Oise (60)** | Nuages et pluies éparses mercredi, soleil parfois généreux jeudi avec averses locales, variable vendredi; week-end risque d'averses. | Min 10-17°C, max 21-25°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses plus probables sur les reliefs de l'ouest; sud du département parfois sec. |
+| **Aisne (02)** | Soleil puis dégradation pluvieuse mercredi, journée ensoleillée jeudi, sec et ensoleillé vendredi avec rares averses; week-end éclaircies et risque d'averses. | Min 11-18°C, max 20-25°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Thiérache plus arrosée; sud et est plus ensoleillés en fin de semaine. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Mercredi 19 Août** : Journée la plus pluvieuse avec un ciel gris et des pluies éparses, surtout l'après-midi.
-- **Jeudi 20 Août** : Alternance d'éclaircies et d'averses, avec un vent assez fort sur le littoral.
-- **Vendredi 21 Août** : Temps plus sec le matin, averses localisées l'après-midi, températures en baisse.
-- **Samedi 22 & Dimanche 23 Août** : Amélioration relative, éclaircies prédominantes, mais risque d'averses temporaire et températures fraîches.
+- **Mercredi 19 août** : Ciel se couvrant, pluies éparses l'après-midi, maximales 20-25°C.
+- **Jeudi 20 août** : Alternance d'éclaircies et d'averses localisées, vent assez fort au littoral.
+- **Vendredi 21 août** : Averses faibles se généralisant à mi-journée, températures en baisse.
+- **Samedi 22 et dimanche 23 août** : Risque d'averses jusqu'à dimanche soir, vent de nord-est modéré, fraîcheur.
 
 **Points solides :**
-- Baisse des températures, avec des maximales qui passent sous les 23°C, voire 21°C sur le littoral.
-- Le flux d'ouest océanique est confirmé par l'ECMWF et le GFS.
-- Des précipitations, bien que non exceptionnelles, sont attendues sur toute la région entre mercredi et vendredi.
+- Mercredi 19, une dégradation pluvieuse traverse les HDF.
+- Jeudi 20, vent assez fort au littoral avec rafales 55-65 km/h.
+- Maximales sous 24°C jusqu'à dimanche, sans canicule.
 
 **Points fragiles :**
-- L'intensité des pluies de vendredi, qui pourraient être plus faibles que prévu.
-- La durée de l'amélioration samedi, qui pourrait être plus courte.
-- Le risque d'orages, faible mais non nul, surtout sur l'est de la région.
+- Cumuls exacts des averses, notamment sur Avesnois, Thiérache et pays de Bray.
+- Heure de bascule du vent au nord-est samedi.
+- Éventuelle instabilité lundi 24, encore mal cernée.
 
 **À surveiller (prochains runs) :**
-- Les runs de mercredi soir pour préciser l'évolution de la dégradation de jeudi.
-- La position exacte de la dépression pour vendredi.
-- L'évolution de l'anomalie froide pour le week-end.
+- CEP/GFS 00Z/12Z des 20-21 août pour l'évolution du talweg.
+- GEFS pour la position de la dépression lundi 24.
+- AROME/ARPEGE pour affiner averses et rafales littorales.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 24 au Dimanche 30 Août 2026
+## 🗓️ SEMAINE 2 : Du lundi 24 au dimanche 30 août 2026 (semaine 35)
 ### 💡 Points clés de la semaine 2
-1. Fin de mois plus fraîche : Possibilité d'une dernière décade d'août avec des températures sous les normales et un temps plus humide.
-2. Flux perturbé océanique : Une configuration dépressionnaire pourrait s'installer sur l'Europe de l'Ouest, apportant des perturbations.
-3. Incertitude majeure : Les modèles (CEP, GFS) sont en accord sur la tendance, mais les détails (pluies, intensité) restent flous à cette échéance.
-4. Risque de pluie en début de semaine : Des averses sont possibles lundi et mardi, surtout sur l'ouest de la région.
-5. Week-end à surveiller : Un possible coup de vent ou une dégradation plus active est envisageable, mais très incertain.
+1. Flux plus frais et humide : La dernière semaine d'août pourrait s'écarter des fortes chaleurs.
+2. Lundi 24 sous surveillance : Une instabilité électrique est possible, notamment sur l'ouest et le nord.
+3. Éclaircies et averses : Météo-France prévoit un temps ensoleillé avec risque d'averses lundi-mardi.
+4. Dégradation mercredi-jeudi : Risque de pluies ou d'averses dès mercredi matin, vent de sud à sud-ouest.
+5. Incertitudes fortes en fin de mois : Les modèles hésitent entre retour anticyclonique ou flux dépressionnaire.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Les modèles s'accordent sur une fin de mois plus fraîche que la normale.
-- Une configuration dépressionnaire sur l'Europe de l'Ouest est privilégiée.
-- Le risque de précipitations est présent sur toute la semaine, avec un maximum d'incertitude sur leur intensité.
+- Fin août plus fraîche et humide que la moyenne sur l'Europe de l'Ouest.
+- Pas de retour caniculaire généralisé pour les HDF.
+- Lundi 24 à surveiller pour une possible dégradation instable.
 **Points de divergence :**
-- La trajectoire exacte des dépressions (plus au nord ou plus au sud) est incertaine.
-- Le GFS propose un scénario plus pluvieux et dynamique que l'ECMWF.
-- La durée de la période fraîche est inconnue : quelques jours ou plus.
+- Trajectoire de la dépression Groenland-France (GFS) vs thalweg plus faible (CEP).
+- Pluies plutôt sur les HDF ou plutôt sur la façade est.
+- Après le 27 : retour d'un anticyclone ou maintien d'un flux d'ouest.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP (Ensemble Saisonnier)** (Tendance fiable, mais scénario à confirmer.) | Anticyclone sur les Açores et la Scandinavie, avec un axe dépressionnaire sur l'Europe de l'Ouest. Flux d'ouest à sud-ouest, plus humide et frais. | Temps instable, averses fréquentes, températures proches ou sous les normales. Possibilité de pluies plus soutenues en fin de semaine. | Toute la région, avec un risque de précipitations plus marqué sur la moitié ouest. | Modérée : Le modèle est clairement cité pour sa tendance générale, mais les discussions manquent de détails précis pour la HDF. | L'EFI montre un potentiel humide sur l'ouest de l'Europe, mais les cumuls pour les HDF ne sont pas détaillés. Les membres de l'ensemble voient une baisse des températures. |
-| **GFS / GEFS (Américain)** (Scénario alternatif à surveiller.) | Un scénario plus dynamique est proposé, avec une dépression qui pourrait traverser la France. | Pluies potentiellement importantes, mais avec une grande incertitude sur la trajectoire. | Potentiellement toute la France, mais la cible exacte est inconnue. | Faible : Le modèle est brièvement évoqué pour un run isolé. | Le run déterministe du GFS montre une dépression "Groenland -> France" avec un potentiel pluvieux important. A confirmer. |
-| **ICON (Allemand)** (Non documenté.) | Non commenté pour cette période. | Non évaluable. | Non évaluable. | Non estimable. | Non commenté. |
-| **Arpège (Météo-France)** (Non documenté.) | Non commenté pour cette période. | Non évaluable. | Non évaluable. | Non estimable. | Non commenté. |
-| **UKMO (Anglais)** (Non documenté.) | Non commenté pour cette période. | Non évaluable. | Non évaluable. | Non estimable. | Non commenté. |
+| **ECMWF (CEP/IFS)** (Documenté pour la tendance HDF.) | Dernière semaine d’août plus fraîche et humide que la moyenne; flux zonal perturbé, pressions plus basses sur l’Europe occidentale. | Instabilité lundi 24, averses, températures proches des normales. | Europe de l’Ouest; HDF en limite ouest/nord, possible façade est plus humide. | Modérée (60-70%) : thib91 et Virgile décrivent une tendance pour la France, avec mention de l’ouest/nord et du lundi 24. | Le CEP prévoit un temps variable, parfois pluvieux, sans canicule généralisée. Pour HDF, le scénario le plus probable est un régime d’ouest avec des températures proches ou légèrement sous les normales. |
+| **GFS / GEFS (NCEP)** (Documenté pour l’échéance lointaine.) | Dépression Groenland-France en fin de semaine, potentiel pluvieux important mais scénario encore isolé; refroidissement net. | Ciel très instable, averses, possible coup de vent, fraîcheur marquée. | France; HDF selon la trajectoire exacte de la dépression. | Modérée (60-70%) : GEFS cité pour la dépression Groenland-France et le potentiel pluvieux; pas de détail HDF. | Ce scénario renforce l’hypothèse d’une fin août agitée. Pour HDF, il pourrait se traduire par des pluies plus soutenues et un vent sensible, mais la trajectoire devra être confirmée. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Risque de pluie ou d'averses en début de semaine, puis temps variable avec des éclaircies. Possibilité d'une dégradation plus marquée en fin de semaine. | Min 11-14°C, Max 21-24°C | moderee | Météo-France XML (DEPT59), ECMWF, GFS | Fortes incertitudes sur l'intensité et la localisation des précipitations. |
-| **Pas-de-Calais (62)** | Temps plutôt ensoleillé lundi et mardi, avec un risque d'averses. Dégradation possible à partir de mercredi. | Min 11-13°C, Max 21-23°C | moderee | Météo-France XML (DEPT62), ECMWF, GFS | La trajectoire des perturbations est incertaine. |
-| **Somme (80)** | Éclaircies prédominantes lundi et mardi, puis risque de pluie à partir de mercredi. Vent possible sur le littoral. | Min 11-13°C, Max 21-23°C | moderee | Météo-France XML (DEPT80), ECMWF, GFS | L'évolution du week-end est très incertaine. |
-| **Oise (60)** | Temps plutôt ensoleillé en début de semaine, puis risque de pluie ou d'averses à partir de mercredi. | Min 11-13°C, Max 21-23°C | moderee | Météo-France XML (DEPT60), ECMWF, GFS | L'intensité des pluies est incertaine. |
-| **Aisne (02)** | Temps plutôt ensoleillé en début de semaine, puis passages nuageux avec risque d'averses temporaire. | Min 11-13°C, Max 22-24°C | moderee | Météo-France XML (DEPT02), ECMWF, GFS | La localisation des averses est incertaine. |
+| **Nord (59)** | Lundi-mardi: soleil prédominant avec passages nuageux et risque de pluie temporaire; mercredi-jeudi: risque de pluies ou averses; fin de semaine incertaine. | Min 11-14°C, max 21-24°C; stables ensuite. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Scénarios divergents après vendredi 28 selon la position de la dépression. |
+| **Pas-de-Calais (62)** | Plutôt ensoleillé lundi-mardi avec passages nuageux; risque de pluie ou d'averses temporaire; mercredi-jeudi: dégradation pluvio-averseuse; fin de semaine variable. | Min 11-13°C, max 21-23°C; stables. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation et intensité des averses incertaines en deuxième partie de semaine. |
+| **Somme (80)** | Sur les deux tiers ouest: éclaircies prédominantes avec temps pluvieux temporaire lundi-mardi; ailleurs soleil prédominant; mercredi-jeudi: risque de pluie ou d'averses. | Min ~11°C, max 21-23°C. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Le littoral picard reste plus exposé au vent et aux averses. |
+| **Oise (60)** | Lundi-mardi: éclaircies prédominantes avec risque d'averses; mercredi-jeudi: risque de pluies ou d'averses; fin de semaine variable. | Min 11-13°C, max 21-23°C. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | La limite ouest du département peut être plus arrosée que l'est. |
+| **Aisne (02)** | Plutôt ensoleillé lundi-mardi avec passages nuageux; mercredi-jeudi: soleil entrecoupé, risque de pluies ou averses; fin de semaine incertaine. | Min 11-13°C, max 22-24°C. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Thiérache plus exposée; scénario de fin de semaine très ouvert. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 24 & Mardi 25 Août** : Temps plus sec, avec un risque de pluie temporaire, surtout sur l'ouest.
-- **Mercredi 26 & Jeudi 27 Août** : Risque de pluie ou d'averses plus marqué, avec un vent de Sud-Ouest.
-- **Vendredi 28 Août** : Journée de transition, avec un temps variable et des averses possibles.
-- **Samedi 29 & Dimanche 30 Août** : Incertitude forte. Un temps plus sec mais frais est possible, ou une dégradation plus active.
+- **Lundi 24 et mardi 25 août** : Temps plutôt ensoleillé, passages nuageux, risque de pluie temporaire; lundi 24 à surveiller.
+- **Mercredi 26 et jeudi 27 août** : Risque de pluies ou d'averses récurrent, vent modéré de sud à sud-ouest.
+- **Vendredi 28 août** : Jour de transition, les modèles divergent sur la position de la dépression.
+- **Samedi 29 et dimanche 30 août** : Scénarios très divergents : temps variable ou retour d'un flux plus actif.
 
 **Points solides :**
-- Tendance à une baisse des températures, avec des maximales qui pourraient passer sous les 22°C.
-- Un flux d'ouest plus humide est privilégié.
-- Le risque de précipitations est présent sur toute la semaine, avec une probabilité plus forte en seconde partie de semaine.
+- Lundi-mardi : temps plutôt sec et ensoleillé, simple risque d'averses selon Météo-France.
+- Mercredi-jeudi : risque de pluies/averses généralisé sur les cinq départements.
+- Températures 21-24°C, proches des normales.
 
 **Points fragiles :**
-- L'intensité des précipitations, qui pourrait être très variable.
-- La trajectoire exacte des dépressions, qui pourrait épargner ou concerner la région.
-- La possibilité d'un épisode de pluie plus marqué, encore très incertain.
+- Intensité de la dégradation de mercredi-jeudi.
+- Scénario GFS de dépression Groenland-France non confirmé par tous les ensembles.
+- Week-end des 29-30 août très incertain.
 
 **À surveiller (prochains runs) :**
-- Les runs de la fin de semaine pour préciser la trajectoire des dépressions.
-- L'évolution de l'anomalie de géopotentiels sur l'Europe de l'Ouest.
-- Les sorties de l'EFI pour les précipitations en fin de semaine.
+- CEP/GFS 00Z/12Z des 20-21 août pour la dépression du 24.
+- GEFS pour la trajectoire de la dépression Groenland-France.
+- AROME/ARPEGE pour la journée de mercredi 26.
 
 
 ========================================
@@ -132,29 +130,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Un temps de fin d'été océanique s'installe pour ces 15 jours : les fortes chaleurs restent exposées vers le sud, et le HDF est replacé en flux d'ouest humide, plus passager. Les précipitations sont progressives, sans excès. Les températures baissent nettement pour repasser sous les normales de saison.
+Après une première quinzaine très chaude, les Hauts-de-France basculent dans un flux d'ouest à nord-ouest océanique : températures 19-24°C, ciel souvent variable, averses passagères, pas de canicule. La semaine du 24 au 30 août semble plus fraîche et humide que la moyenne, sans excès.
 
 ### Période la plus fiable
-La semaine 1 (19-23 août) est la plus fiable, avec une synoptique bien calée par les modèles.
+Semaine 1 (19-23 août), grâce aux bulletins Météo-France détaillés et aux échéances rapprochées.
 
 ### Phénomènes récurrents
-Averses fréquentes, ciel très nuageux, rafales de vent sur le littoral (55-65 km/h), températures fraîches le matin (11-14°C).
+Averses faibles à modérées, vent parfois assez fort au littoral, fraîcheur relative, éclaircies entre les passages nuageux.
 
 ### Principales incertitudes
-- Intensité et localisation des précipitations en semaine 2.
-- Possibilité d'une dégradation plus marquée en fin de mois.
-- Durée exacte de la période de temps frais.
+Trajectoire du talweg lundi 24, localisation des averses les plus actives, évolution après le 27 août.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** La chronologie exacte de l'amélioration samedi est incertaine. De même, le timing de la dégradation de la semaine 2 est flou.
-- **Localisation :** La localisation des averses les plus fortes varie selon les modèles, avec un contraste littoral/intérieur difficile à cerner.
-- **Intensité :** L'intensité des précipitations en semaine 2 est très incertaine, avec un risque de cumuls plus importants sur l'ouest, mais non confirmé.
-- **Informations manquantes :** Peu d'informations sur le risque d'orages, qui semble faible mais non nul. Les indices de convection (CAPE, LI) ne sont pas détaillés pour la région.
-- **Modèles sous-documentés :** Les modèles Arpège, UKMO et ICON ne sont pas détaillés par les membres pour la semaine 2.
-- **Incertitudes images :** Les cartes de cumuls de pluie pour la semaine 2 sont sujettes à caution, les modèles pouvant encore évoluer.
+- **Timing/Chronologie :** Le mercredi 19 est bien calé, mais le basculement du vent au nord-est samedi 22 et la dégradation de lundi 24 restent sensibles à quelques heures.
+- **Localisation :** Les averses les plus actives peuvent se décaler du littoral vers l'intérieur selon la position exacte du talweg; Avesnois, Thiérache et pays de Bray sont les zones les plus incertaines.
+- **Intensité :** Les cumuls prévus restent ordinairement faibles (5-15 mm), mais une intensification localisée n'est pas exclue si le thalweg ralentit; les rafales littorales pourraient aussi dépasser localement 65 km/h.
+- **Informations manquantes :** Aucun message de Guillaume Séchet dans les échanges fournis; seuls les bulletins départementaux Météo-France et les discussions Infoclimat sont exploités. Pas de suivi régional détaillé des indices de convection ni de projection fiable au-delà du 27 août.
+- **Modèles sous-documentés :** ICON, GEM, UKMO et ARPEGE : citations brèves, sans analyse départementale HDF.
+- **Incertitudes images :** Les cartes EFI/SOT du CEP publiées par Jojobarbar concernent surtout le quart sud-est; les cartes de symaski62 (CEP) ne montrent pas explicitement les HDF; les anomalies GEFS/GEM sont globales.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌦️ Les Hauts-de-France basculent dans un temps océanique de fin d'été ! Après un été marqué par la chaleur et la sécheresse, un flux d'ouest humide va s'installer durablement. Les températures vont baisser pour repasser sous les normales, avec des maximales attendues entre 21 et 23°C. Des averses fréquentes, mais non excessives, sont prévues sur l'ensemble de la région. Le littoral sera exposé à des rafales de vent, jusqu'à 65 km/h. Cette tendance devrait se confirmer la semaine prochaine, avec une fin de mois plus fraîche et humide. Restez informés ! #Météo #HautsDeFrance #Prévisions
+🌦️ Bulletin HDF – Mercredi 19 août 2026. Fini l'été caniculaire ? Pour les Hauts-de-France, place à un flux océanique : averses passagères, vent parfois fort au littoral et températures de saison (19-24°C). Pas de canicule en vue sur le Nord, le Pas-de-Calais, la Somme, l'Oise et l'Aisne. Week-end sec ? Plutôt variable. Lundi 24 à surveiller. Restons vigilants et à l'écoute des bulletins officiels. Patrick Marlière, Monsieur Météo. #Météo #HautsDeFrance #Prévisions

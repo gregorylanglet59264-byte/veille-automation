@@ -332,22 +332,22 @@ La localisation exacte est encore à affiner.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps-Centre du Quebec
 • Infoclimat Direct : Saison 2026 - Typhon Pacifique Nord-ouest
 • Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
 • Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 19/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Mardi 18 Août 2026.
-Résumé général précédent : La France devrait basculer vers un temps plus frais et instable après une première partie d'août très chaude. Un risque d'épisode méditerranéen précoce se dessine pour la fin de semaine 34, puis un flux zonal dépressionnaire pourrait s'installer pour la semaine 35, avec des températures proches ou sous les normales..
+Dernier bulletin généré le Mercredi 19 Août 2026.
+Résumé général précédent : Après un épisode de chaleur marqué en début de semaine 34, la France bascule dans un temps plus frais et instable pour les deux prochaines semaines. L'anticyclone des Açores reste décalé, laissant la porte ouverte à des dépressions sur l'Europe de l'Ouest. Les températures devraient passer sous les normales, avec un risque persistant d'orages..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies soutenues possibles du sud-est aux vallées alpines, orages, nette baisse des températures..
+Températures attendues précédemment : Risque significatif d'orages forts, de cumuls de pluie importants (EFI élevé sur l'arc méditerranéen et les vallées alpines), baisse thermique marquée après jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 19 au Dimanche 23 Août 2026) ===
@@ -467,7 +467,7 @@ il y a 41 minutes, pierrot_75 a dit :
 								2
 								2
 								1
-								14
+								15
 
 =======================
 
@@ -587,7 +587,7 @@ il y a 3 minutes, Run999H a dit :
 	La bonne odeur du "pain" grillé le matin en vacance avec de la confiture ! le bonheur !
 	Désolé pour les sinistrés 🫣 humour noir...
 								1
-								1
+								2
 								1
 
 =======================
@@ -599,7 +599,7 @@ Il y a 1 heure, trugll a dit :
 			Va falloir s'accrocher....
 	Pourquoi parce qu'il va faire un peu frais pour la saison? les climatosceptiques ont bien dégusté (c'était la seule bonne nouvelle de cet été brulant) et il en faudra bien plus pour revenir à la charge.
 								1
-								2
+								3
 
 =======================
 
@@ -657,7 +657,7 @@ Message:
 Gefs se matin qui régale avec une belle depression faisant un Groenland-&gt; France
 	Les diagrammes ensemblistes ne sont pas encore sortis mais le deterministe montre un potentiel pluvieux important
 	Comme on le sait sur ces échéances ça reste un scénario parmis tant d’autre mais qui conforte l’idée d’une période plus perturbé ainsi que de cette possibilité d’épisode de pluie intense.
-	Modifié il y a 18 heures par Krholam
+	Modifié il y a 20 heures par Krholam
 								3
 								6
 
@@ -678,6 +678,6 @@ Message:
 Potentiel humide important pas que dans le sud est, c'est toute la façade Est du pays qui pourrait être à un moment donné concerné. L'EFI hebdomadaire d'hier concernant les précipitations réagissait bien du Dauphiné au Jura et + globalement de la vallée du Rhône aux confins de la Lorraine.
 	Potentiel humide aussi important sur le golfe de Gascogne et ses littoraux franco-espagnols, ici l'humidité pourrait être boostée par des eaux de surfaces anormalement chaudes dans un contexte dépressionnaire avec de l'air froid en altitude.
 	A suivre, mais cette semaine pourrait être intéressante au niveau météo.
-	Modifié il y a 15 heures par thib91
+	Modifié il y a 17 heures par thib91
 								17
 								2
