@@ -322,12 +322,12 @@ pays avec de possibles orages intenses.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 20/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -337,7 +337,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin généré le Jeudi 20 Août 2026.
 Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Averses, vendredi, orages méditerranéens sur les Hautes-Alpes et PACA, températures en baie..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 20 au Dimanche 23 Août 2026) ===
@@ -609,32 +609,12 @@ Il y a 2 heures, Run999H a dit :
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Virgile
-Message:
-Le 17/08/2026 à 10:05, Virgile a dit :
-			 L'Italie pourrait connaitre des fortes chaleurs à contrario.
-	Ca se confirme avec la grèce et les Balkans.
-
-=======================
-
-Auteur: Run999H
-Message:
-Le 17/08/2026 à 10:05, Virgile a dit :
-			une deuxième quinzaine d'aout fraiche
-	Mais ça, ça ne se confirme pas. 
-								6
-								1
-								2
-								1
-
-=======================
-
 Auteur: Sky blue
 Message:
 Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute la semaine prochaine probable. Très pénible et lourd à l'avant des salves orageuses🥵. Et très violent dessous.⛈️
-	Modifié il y a 12 heures par Sky blue
-								8
-								1
+	Modifié il y a 14 heures par Sky blue
+								9
+								2
 								1
 								3
 
@@ -643,7 +623,7 @@ Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute l
 Auteur: Guillaume39
 Message:
 À supprimer 
-	Modifié il y a 6 heures par Guillaume39
+	Modifié il y a 8 heures par Guillaume39
 								1
 								2
 								1
@@ -656,7 +636,7 @@ Il y a 11 heures, Run999H a dit :
 			Mais ça, ça ne se confirme pas. 
 	Plus fraiche que la 1er quinzaine, oui, c'est évident. Le flux de sud temporaire se décalerait en effet à peu plus vers l'ouest que prévu en tout début de semaine prochaine sur le sud ouest mais surtout sur la façade est du pays avant que l'air frais + océanique présent sur l'ouest gagne le pays en seconde partie de semaine.  Quelques journées chaudes sont donc prévues en début de semaine sur le sud ouest et l'est du pays mais jusqu'au 15 octobre, comme je l'ai dit sur un autre topic, c'est encore loin et on va encore connaitre des journées chaudes. Le risque caniculaire généralisé et prolongé est pour l'instant écarté.
 	Le vrai risque est la possibilité de fortes pluies dans le sud est avec ce flux de sud.
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
 
 =======================
 
@@ -670,7 +650,7 @@ Disons qu'on part de tellement haut.🌡️
 Auteur: bernardt60
 Message:
 Oui d'ailleurs je tique toujours quand on parle de températures plus fraîches, on devrait plutôt dire moins chaudes ! 
-								1
+								2
 								8
 								1
 
@@ -693,7 +673,7 @@ La configuration ne semble pas etre propice a une nouvelle VDC ou canicule mais 
 	Au sol cela donnerait des températures bien inférieures a celles qu'on vient de connaître. 
 	Lundi :
 	Jeudi :
-	Modifié il y a 6 heures par petit âge glaciaire 11
+	Modifié il y a 8 heures par petit âge glaciaire 11
 								1
 
 =======================
@@ -724,7 +704,7 @@ il y a une heure, Luidjy a dit :
 	Édit : j'ai regardé et finalement on a les températures à 17h il ne faut pas mettre valeur maximales mais valeurs à 2m. 
 	Mais la surprise dans le sud-ouest les températures sont moins élevées à 17h qu'à 20h mais identiques plus au nord.
 	Comme quoi c'est très variable :
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 								1
 								1
 
@@ -750,7 +730,7 @@ Pour résumer le yo-yo émotionnel qu'est la prévision pour cette semaine, deux
 	Ce matin à 8h --&gt; au moins 7 jours sous les normes ITN à partir de Vendredi, sous-titré "Vers la fin assez durable des fortes chaleurs" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-19/canicule-est-ce-la-fin-des-fortes-chaleurs-91469
 	Cet AM à 16h --&gt; à peine 2 jours sous les normes ITN à partir de Vendredi puis "Nouveau bref pic de chaleur avant les orages la semaine prochaine" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-20/orages-ce-n-est-pas-fini-nouvelle-degradation-des-lundi-91495
 								3
-								7
+								8
 								2
 
 =======================
@@ -759,7 +739,7 @@ Auteur: Sky blue
 Message:
 LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
 	Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	Modifié il y a 3 heures par Sky blue
+	Modifié il y a 5 heures par Sky blue
 								1
 								1
 
@@ -772,7 +752,7 @@ Il y a 1 heure, petit âge glaciaire 11 a dit :
 			La température maximale  peut être à mon avis autant à 14h qu'à 20h. 
 			Je pensais que 14h était plus chaud que 20 h mais je vois que 20h est légèrement plus chaud mais pas beaucoup de différences :
 	Les cartes que tu nous montres indiquent les Tx sur les 6 dernières heures. Celle de 20h remplirait parfaitement son rôle donc puisqu'elle indiquerait la Tx atteinte depuis 14h.
-								1
+								2
 								1
 								1
 
@@ -793,6 +773,7 @@ il y a 39 minutes, Sky blue a dit :
 			Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
 	C'est pas les seuls
 	Regardez le titre 🤔
+								1
 
 =======================
 
@@ -813,15 +794,39 @@ Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
 			Toulouse :
 	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
 	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
-	Modifié il y a 55 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
 Modifié
+								1
 
 =======================
 
 Auteur: Jojobarbar
 Message:
-51 minutes ago, petit âge glaciaire 11 said:
+59 minutes ago, petit âge glaciaire 11 said:
 			CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder [image]
 			Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi [image]
 	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
+	A noter que cette fois GFS n'a pas été précurseur (ce qui n'en fait pas un mauvais modèle à mes yeux !). Que l'on se souvienne aussi des cas négatifs.
+	Quand on regardait les ensembles, GEFS étaient beaucoup moins lisible, très éclatés, tandis que IFS ENS était quasi bimodal : 3/4 des scénarios (dont le déterministe) allant vers un talweg sans cyclogenèse marquée, 1/4 allant vers le scénario qui se sera finalement révélé majoritaire.
+	Modifié il y a 1 heure par Jojobarbar
+								1
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+Canicule, chaleur intense, forte chaleur, chaleur, douceur, fraicheur, froid, froid sévère..... Y en a des termes pour qualifier une sensation. On souvent ce débat même en hiver. C'est déjà une sensation personnelle surtout quand c'est intermédiaire  avec de la fraicheur et de la douceur. Y a aussi l'aspect temporel, saisonnier et géographique. Si je faisais la météo de mon clocher aujourd'hui, il a fait 21 degrés (soit 3 degrés sous les normes) avec des averses et pas mal de vent et même pour un normand, pas possible de parler de chaleur plus ou moins forte.
+	Ce qui nous intéresse c'est à l'échelle nationale et on a pour cela l'indicateur national de températures. Pour la deuxième quinzaine d'aout, on devrait avoir quelques jours dans le bleu ( ce qui traduit à un temps + frais ou moins chaud 😘), ce qui devient assez remarquable de nos jours. Évidemment, on va connaitre un excédent thermique même pour cette deuxième quinzaine car il a fait chaud entre le 15 et le 19 et on va assister à une nouvelle hausse en début de semaine dans le sud et l'est.
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+il y a une heure, Jojobarbar a dit :
+			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
+	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
+	Modifié il y a 45 minutes par Virgile
+								2
 								1
