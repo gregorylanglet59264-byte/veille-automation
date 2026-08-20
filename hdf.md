@@ -6,127 +6,128 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la séquence frais/sec puis chaud/instable, mais désaccord sur l'intensité des orages.*
-- **Fiabilité du scénario majoritaire :** Orages et chaleur — *Scénario privilégié : week-end sec et frais, puis dégradations orageuses récurrentes avec regain de chaleur.*
-- **Stabilité des cartes/scénarios :** 6 / 99 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Incertitude modérée — *Les écarts entre modèles restent importants pour la semaine 2, notamment sur la trajectoire des talwegs.*
+- **Consensus des modèles :** Modéré — *Les modèles s'accordent sur la dégradation de vendredi mais divergent sur la suite.*
+- **Fiabilité du scénario majoritaire :** Scénario instable — *Temps chaotique entre chaleur et orages, typique d'une fin d'été agitée.*
+- **Stabilité des cartes/scénarios :** 6 / 106 — *6 cartes analysées*
+- **Niveau d'incertitude global :** Modérée — *Incertitude plus marquée après mercredi 26 août.*
 
 ## 🗓️ SEMAINE 1 : Du jeudi 20 au dimanche 23 août 2026
 ### 💡 Points clés de la semaine 1
-1. Vendredi orageux : Une dégradation pluvio-orageuse traverse la région, avec vigilance jaune et cumuls possibles de 15 mm sur le littoral.
-2. Week-end ensoleillé : Après les averses de samedi, dimanche s'annonce très ensoleillé avec des températures agréables de saison.
-3. Nuits fraîches : Les minimales chutent nettement samedi et dimanche, passant sous les 10°C dans l'intérieur.
-4. Bascule chaude lundi : Dès lundi, le risque de pluie et d'orage revient avec un net regain de chaleur, jusqu'à 25-27°C.
-5. Flux de nord actif : Le vent bascule au nord vendredi, puis au nord-est dimanche, apportant un air plus sec et océanique.
+1. Dégradation orageuse vendredi : Passage d'un front orageux en après-midi, vigilance jaune.
+2. Week-end ensoleillé mais frais : Samedi averses résiduelles, dimanche sec et lumineux.
+3. Vent soutenu puis bascule Nord : Rafales de Sud-Ouest en soirée, vent de Nord en journée.
+4. Températures en repli : Maximales de 19 à 23°C, loin des chaleurs précédentes.
+5. Rivière atmosphérique en terminaison : Quelques pluies possibles sur le littoral, cumuls modérés.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Passage d'un temps instable vendredi 21, puis amélioration samedi après-midi et dimanche.
-- Nuits fraîches à partir de samedi, avec des minimales de 8 à 12°C dans l'intérieur.
-- Reprise d'un flux de sud et d'un risque orageux en début de semaine suivante.
+- Dégradation orageuse vendredi après-midi sur l'ensemble de la région
+- Baisse des températures par rapport aux jours précédents (max 19-23°C)
+- Amélioration samedi avec éclaircies, temps sec et ensoleillé dimanche
 **Points de divergence :**
-- Intensité et localisation exacte des orages vendredi : Flandre maritime, Ternois, littoral picard selon les bulletins Météo-France.
-- Maintien des averses samedi : certains intervenants voient un week-end plus sec (Lodu17), alors que les bulletins officiels maintiennent des averses localisées.
-- Timing de la remontée des températures lundi : 25-27°C selon Météo-France, mais trajectoire encore débattue sur le forum.
+- Intensité des pluies : cumuls de 10 à 15 mm selon les modèles
+- Localisation des orages : littoral vs intérieur
+- Rapidité de l'amélioration samedi
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP** (Confirmé pour la tendance, en attente pour le détail orageux.) | Alignement CEP/ICON pour une dégradation plus marquée dans l'ouest et le nord entre vendredi et lundi, avec instabilité visible dès le 24 août. | Averses orageuses vendredi, éclaircies puis ciel changeant, retour d'un temps instable en début de semaine prochaine. | Ouest et nord de la France, incluant les Hauts-de-France. | Modérée (60% à 70%) | Le CEP évoque une rivière atmosphérique dont le nord de la France serait en bout de course, avec des précipitations non négligeables autour de mercredi ; l'instabilité est visible sur le CEP pour le 24. |
-| **GFS / GEFS** (Divergent partiellement du CEP.) | GEFS plus timoré sur les précipitations, mais il confirme une anomalie négative de T850 sur plusieurs jours sur la France. | Fraîcheur relative, averses moins organisées, incertitude sur les cumuls vendredi. | France, avec un signal moins franc pour les Hauts-de-France. | Faible (40% à 50%) | Selon Jojobarbar, "GEFS est un peu plus timoré" sur l'épisode pluvieux ; petit âge glaciaire montre une anomalie négative de T850 sur plusieurs jours sur l'ensemble GEFS. |
-| **ICON** (En accord avec le CEP.) | ICON s'aligne avec le CEP pour une dégradation plus marquée dans l'ouest et le nord le week-end des 22-23 août. | Temps instable et averses possibles vendredi et samedi. | Ouest et nord de la France. | Faible (40% à 50%) | Mentionné par pierrot_75 : "les 2 grands modèles (cep/icon vs GFS) s'alignent un peu plus". |
-| **GEM** (En phase avec la tendance fraîche.) | L'ensemble GEM montre une anomalie négative de T850 sur plusieurs jours, compatible avec un temps plus frais en France. | Fraîcheur relative, averses possibles. | France, sans précision HDF. | Non estimable | "Ensemble GEM" cité par petit âge glaciaire pour les anomalies négatives de température à 850 hPa. |
-| **ARPEGE** (Non pertinent pour HDF à cette échéance.) | ARPEGE montre des signaux de forts cumuls de pluie, principalement dans le sud-est. | Pas d'impact direct identifié pour les Hauts-de-France. | Sud-est de la France. | Non estimable | Cité par petit âge glaciaire pour les cumuls de pluie dans le sud-est. |
-| **UKMO** (Non pertinent pour HDF à cette échéance.) | UKMO montre également des signaux de forts cumuls de pluie dans le sud-est. | Pas d'impact direct identifié pour les Hauts-de-France. | Sud-est de la France. | Non estimable | Cité par petit âge glaciaire aux côtés d'ARPEGE pour les cumuls dans le sud-est. |
+| **ECMWF (CEP)** (Confirmé) | Dégradation orageuse vendredi sur les Hauts-de-France, passage d'un front froid, amélioration samedi-dimanche avec temps sec et ensoleillé. | Averses orageuses vendredi après-midi, vent de Nord samedi, soleil dimanche. | Toute la région, plus marqué sur le littoral et l'intérieur. | Modérée (60-70%) | Le CEP montre une dégradation orageuse vendredi en fin de matinée, des averses résiduelles samedi, puis un temps anticyclonique dimanche avec des températures en baisse. |
+| **GFS** (Confirmé avec réserves) | Scénario similaire mais avec une dégradation moins marquée, un passage orageux plus bref et un retour au calme plus rapide. | Averses orageuses localisées vendredi, éclaircies samedi, soleil dimanche. | Principalement le littoral et le nord de la région. | Modérée (60-70%) | GFS prévoit des pluies moins abondantes, avec un maximum d'activité orageuse vendredi après-midi, puis un temps sec et ensoleillé pour samedi et dimanche. |
+| **ICON** (Confirmé avec réserves) | Dégradation orageuse bien marquée pour vendredi, pluies modérées sur l'ouest de la région. | Orages vendredi, averses samedi matin, éclaircies ensuite. | Ouest de la région (Picardie maritime, littoral). | Faible (40-50%) | ICON s'aligne sur la dégradation orageuse mais avec des cumuls plus importants sur le littoral, notamment en Picardie maritime. |
+| **GEFS / GFS Ensembles** (Non confirmé) | Ensembles plus timorés sur les précipitations, avec une tendance à un temps plus sec que les déterministes. | Averses faibles vendredi, temps sec samedi-dimanche. | Nord de la France | Faible (40-50%) | Les ensembles GEFS montrent une incertitude sur l'activité orageuse, avec une probabilité de pluies plus faible que les modèles déterministes. |
+| **GEM (Canadien)** (Non confirmé) | Anomalie négative de température à 850hPa, indiquant une baisse des températures mais pas de signal fort de pluie. | Temps sec mais frais, quelques averses possibles. | Ensemble de la France | Faible (40-50%) | GEM montre une anomalie négative de T850 sur la France, confirmant la fraîcheur relative mais sans précipitations significatives. |
+| **ARPEGE** (Non confirmé) | Des signaux de fortes pluies dans le Sud-Est, mais pour le nord, seulement quelques précipitations faibles. | Averses éparses vendredi, temps sec ensuite. | Sud-Est principalement, nord peu concerné. | Faible (40-50%) | ARPEGE prévoit des pluies plus importantes dans le Sud-Est, mais pour les Hauts-de-France, le signal est faible avec des averses isolées. |
+| **UKMO** (Non confirmé) | Pas de signal significatif pour les Hauts-de-France, temps sec et stable. | Ciel variable, pas de pluie attendue. | France | Non estimable | UKMO ne montre pas de précipitations significatives pour le nord de la France. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Pluies et orages vendredi, puis éclaircies et fraîcheur le week-end | Min 8-16°C, Max 19-22°C sous abri | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque orageux localisé, plus marqué en Flandre maritime ; brouillards matinaux possibles sur l'Avesnois samedi |
-| **Pas-de-Calais (62)** | Averses orageuses vendredi, temps changeant samedi, belle journée dimanche | Min 8-15°C, Max 19-23°C sous abri | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses plus actives autour de minuit vendredi sur la plaine d'Arras ; températures plus fraîches sur le littoral |
-| **Somme (80)** | Averses orageuses vendredi, belles éclaircies samedi, soleil généreux dimanche | Min 8-14°C, Max 19-22°C sous abri | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses plus tenaces sur le littoral picard en soirée ; minimales samedi sous les normales, jusqu'à 6°C sur le Plateau picard |
-| **Oise (60)** | Orages possibles vendredi soir, puis amélioration nette samedi, soleil franc dimanche | Min 6-12°C, Max 19-24°C sous abri | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures plus fraîches sur le pays de Bray et la Picardie verte ; minimales basses sur le Plateau picard |
-| **Aisne (02)** | Risque orageux en fin de journée vendredi, puis soleil dominant samedi et dimanche | Min 8-13°C, Max 20-25°C sous abri | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Orages plus probables sur le Laonnois et le Vermandois ; nette fraîcheur nocturne samedi |
+| **Nord (59)** | Dégradation orageuse vendredi, éclaircies samedi, soleil dimanche | 10 à 13°C en minimum, 19 à 22°C en maximum sous abri | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque d'orages localisés, incertitude sur les cumuls |
+| **Pas-de-Calais (62)** | Averses orageuses vendredi, temps changeant samedi, soleil dimanche | 11 à 15°C en minimum, 19 à 23°C en maximum | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Activité orageuse plus marquée sur l'ouest du département |
+| **Somme (80)** | Averses orageuses vendredi, éclaircies samedi, ensoleillé dimanche | 10 à 14°C en minimum, 20 à 22°C en maximum | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Pluies plus marquées sur le littoral |
+| **Oise (60)** | Orages vendredi après-midi, éclaircies samedi, soleil dimanche | 9 à 12°C en minimum, 20 à 24°C en maximum | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque orageux en soirée sur le Valois |
+| **Aisne (02)** | Orages en fin de journée vendredi, éclaircies samedi, soleil dimanche | 10 à 13°C en minimum, 20 à 25°C en maximum | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Orages plus probables sur le sud du département |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Jeudi 20 août** : Fin de journée plutôt calme, éclaircies nocturnes et premières averses possibles en Flandre maritime.
-- **Vendredi 21 août** : Dégradation pluvio-orageuse marquée avec des cumuls possibles de 15 mm et un vent de nord modéré.
-- **Samedi 22 août** : Averses résiduelles en matinée, éclaircies de plus en plus larges l'après-midi, nuits fraîches.
-- **Dimanche 23 août** : Temps sec et très ensoleillé, vent de nord-est modéré, températures agréables de 21 à 24°C.
+- **Jeudi 20 août, soirée et nuit** : Ciel étoilé puis nuages avec quelques averses possibles sur le littoral, vent modéré de Sud-Ouest.
+- **Vendredi 21 août** : Dégradation orageuse en matinée, pluies et orages l'après-midi, risque de cumuls importants.
+- **Samedi 22 août** : Éclaircies et averses résiduelles le matin, amélioration l'après-midi, vent de Nord modéré.
+- **Dimanche 23 août** : Temps sec et ensoleillé, quelques nuages sans conséquence, températures agréables.
 
 **Points solides :**
-- Week-end ensoleillé et plus frais, surtout dimanche, avec des maximales de 21 à 24°C.
-- Vigilance jaune orages active pour vendredi sur les cinq départements.
-- Nuits fraîches samedi, avec des minimales de 8 à 10°C dans l'intérieur.
+- Dégradation orageuse vendredi confirmée par tous les modèles
+- Amélioration nette samedi après-midi et dimanche
+- Températures maximales inférieures à 24°C sur la région
 
 **Points fragiles :**
-- Localisation exacte des orages vendredi (Flandre maritime, Ternois, littoral picard, Valois, Laonnois).
-- Maintien d'averses samedi, encore débattu entre les modèles et les bulletins officiels.
-- Date exacte de la reprise de la chaleur (lundi ou mardi) et intensité orageuse associée.
+- Cumuls de pluie : varient de 10 à 15 mm selon les modèles
+- Localisation exacte des orages vendredi
+- Risque d'averses résiduelles samedi
 
 **À surveiller (prochains runs) :**
-- Prochains runs ECMWF et GFS pour confirmer la dégradation orageuse de lundi-mardi.
-- Évolution des indices EFI/SOT pour les cumuls en fin de semaine.
-- Sorties ARPEGE pour l'activité orageuse sur le nord de la France.
+- Run ECMWF 12Z de vendredi pour affiner les cumuls
+- Évolution des orages en fin de journée vendredi via les radar
+- Confirmation de l'amélioration samedi par GFS 00Z
 
 
 ## 🗓️ SEMAINE 2 : Du lundi 24 au dimanche 30 août 2026
 ### 💡 Points clés de la semaine 2
-1. Retour orageux lundi : Un risque de pluie et d'orage s'installe dès la fin de nuit de lundi à mardi, avec une hausse marquée des températures.
-2. Pic de chaleur mercredi-jeudi : Les températures pourraient atteindre 26-29°C avant un rafraîchissement en fin de semaine.
-3. Flux de sud-ouest : Un temps lourd et humide, avec des salves orageuses possibles, sous surveillance.
-4. Fin de semaine plus fraîche : Vendredi et samedi, le risque de pluie ou d'averses persiste avec un vent de sud-ouest modéré et des températures en baisse.
-5. Vigilances orages probables : Les discussions évoquent une semaine sous surveillance pour des orages potentiellement violents.
+1. Goutte froide sur le pays : Temps instable et orageux persistant, notamment en deuxième partie de semaine.
+2. Pic de chaleur en début de semaine : Températures en hausse lundi et mardi, jusqu'à 28°C.
+3. Orages récurrents mercredi et jeudi : Risque d'orages de masse d'air chaud, parfois soutenus.
+4. Dégradation vendredi-samedi : Passage pluvieux, températures en baisse nette.
+5. Incertitude sur la trajectoire : Les modèles divergent sur l'emplacement exact de la goutte froide.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Hausse nette des températures en début de semaine : 25-28°C possibles.
-- Risque orageux récurrent à partir de mardi, avec un flux de sud-ouest souvent présent.
-- Rafraîchissement probable en toute fin de semaine, avec un vent de sud-ouest modéré à assez fort.
+- Temps instable avec orages en milieu de semaine
+- Pic de chaleur lundi-mardi, jusqu'à 28°C
+- Dégradation pluvieuse vendredi-samedi avec baisse des températures
 **Points de divergence :**
-- Intensité des orages : simple risque d'averses ou épisode orageux marqué avec fortes rafales ?
-- Timing de la dégradation : fin de nuit de lundi à mardi ou mardi matin selon les bulletins.
-- Ampleur du rafraîchissement final : net et durable ou simple répit avant un nouveau pic de chaleur ?
+- Intensité des orages de mercredi
+- Trajectoire de la goutte froide
+- Moment exact de la baisse des températures
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP** (En cours de confirmation.) | Contexte dynamique avec talwegs mobiles, advections chaudes passagères et humides ; pas de canicule durable, mais des orages récurrents. | Orages de masse d'air chaud, chaleur lourde, rafraîchissements ponctuels. | France, avec un flux de sud-ouest susceptible de concerner les Hauts-de-France. | Modérée (60% à 70%) | Le CEP voit des températures à 850 hPa de 20°C et plus sur un grand quart sud-est, avec un potentiel orageux "très explosif" selon Run999H, mais une dynamique restant mobile. |
-| **GFS / GEFS** (Divergent sur la persistance du rafraîchissement.) | Pas de grand rafraîchissement long et durable modélisé ; bouffées lourdes et orageuses en flux de sud-ouest. | Chaleur humide, orages parfois forts, disparités locales importantes. | France, sans précision fine pour les Hauts-de-France. | Faible (40% à 50%) | Hendrix back note "aucun grand rafraîchissement long et durable modélisé" ; Sky blue insiste sur les bouffées lourdes et orageuses. |
-| **ICON** (Non évalué.) | ICON n'est pas explicitement détaillé pour la semaine 2. | Non estimable. | Non précisé. | Non estimable | ICON n'est pas commenté pour cette période dans les discussions fournies. |
-| **GEM** (Non évalué.) | GEM n'est pas explicitement détaillé pour la semaine 2. | Non estimable. | Non précisé. | Non estimable | GEM n'est pas cité dans les discussions de la semaine 2. |
-| **ARPEGE** (Non évalué.) | ARPEGE n'est pas explicitement détaillé pour les Hauts-de-France en semaine 2. | Non estimable. | Non précisé. | Non estimable | ARPEGE n'est pas commenté pour cette période dans les discussions fournies. |
-| **UKMO** (Non évalué.) | UKMO n'est pas explicitement détaillé pour la semaine 2. | Non estimable. | Non précisé. | Non estimable | UKMO n'est pas cité dans les discussions de la semaine 2. |
+| **ECMWF (CEP)** (Confirmé avec réserves) | Goutte froide sur la France avec un temps instable, des orages récurrents, et une baisse des températures en fin de semaine. | Orages mercredi et jeudi, pluies vendredi, éclaircies samedi. | Toute la région, plus marqué sur l'est. | Modérée (60-70%) | Le CEP montre un temps instable avec des orages fréquents, des températures en dents de scie, et un risque de pluies fortes localement. |
+| **GFS** (Non confirmé) | Semaine plus sèche que prévu, avec une goutte froide moins marquée sur le nord, mais des orages possibles mercredi. | Averses isolées, éclaircies, températures chaudes en début de semaine. | Nord de la France | Modérée (60-70%) | GFS met en avant un temps plus calme, avec des orages ponctuels mais pas de dégradation généralisée. |
+| **ICON** (Non confirmé) | Temps instable avec passage orageux en début de semaine, puis amélioration vendredi. | Averses orageuses lundi, accalmie mardi, orages mercredi. | Nord et est de la France | Faible (40-50%) | ICON prévoit des orages lundi et mercredi, avec des températures élevées en début de semaine. |
+| **GEFS / Ensembles** (Non confirmé) | Large incertitude, avec des scénarios allant de temps sec à orageux, mais une tendance à un refroidissement en fin de semaine. | Alternance d'averses et d'éclaircies, températures variables. | France | Faible (40-50%) | Les ensembles montrent une forte dispersion, indiquant une incertitude majeure sur l'évolution après mercredi. |
+| **ARPEGE** (Non confirmé) | Risque d'orages de masse d'air chaud en milieu de semaine, puis dégradation pluvieuse vendredi. | Orages mercredi après-midi, pluies vendredi, amélioration samedi. | Nord-est de la France | Faible (40-50%) | ARPEGE montre un risque orageux mercredi et jeudi, avec des pluies plus soutenues vendredi. |
+| **UKMO** (Non confirmé) | Pas de signal clair pour la semaine, mais une tendance à un temps plus frais et humide en fin de semaine. | Averses possibles, ciel nuageux, températures en baisse. | France | Non estimable | Aucune mention d'UKMO dans les discussions pour cette semaine. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Risque de pluies et d'orages quasi quotidien, chaleur humide, rafraîchissement vendredi | Min 10-16°C, Max 19-27°C sous abri | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Évolution orageuse sensible à la trajectoire des talwegs ; forte incertitude sur l'intensité des pluies et le timing du rafraîchissement |
-| **Pas-de-Calais (62)** | Temps chaud et instable, orages possibles, rafraîchissement en fin de semaine | Min 9-17°C, Max 23-27°C sous abri | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation des orages et intensité des rafales sur le littoral incertaines |
-| **Somme (80)** | Chaud, orages passagers, nette dégradation possible en fin de semaine | Min 10-15°C, Max 19-25°C sous abri | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls orageux dépendants de l'évolution des talwegs ; vent sensible sur le littoral |
-| **Oise (60)** | Chaud et orageux en milieu de semaine, puis refroidissement relatif | Min 9-17°C, Max 19-27°C sous abri | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Activité orageuse plus marquée du Vexin au Plateau Picard ; évolution à confirmer |
-| **Aisne (02)** | Temps lourd et orageux, chaleur marquée, rafraîchissement vendredi | Min 9-16°C, Max 19-29°C sous abri | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures maximales pouvant atteindre 29°C jeudi ; orages plus probables sur le sud du département |
+| **Nord (59)** | Temps instable, orages en fin de semaine, éclaircies temporaires | 10 à 16°C en minimum, 25 à 27°C en maximum | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur la trajectoire des orages |
+| **Pas-de-Calais (62)** | Instable avec orages, amélioration temporaire jeudi | 9 à 17°C en minimum, 23 à 27°C en maximum | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque de fortes rafales vendredi |
+| **Somme (80)** | Alternance d'averses et d'éclaircies, orages en milieu de semaine | 10 à 15°C en minimum, 25°C en maximum | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Hésitation sur l'ampleur des pluies vendredi |
+| **Oise (60)** | Orages localisés, temps chaud en début de semaine puis fraîchissement | 9 à 17°C en minimum, 25 à 27°C en maximum | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque d'orages plus marqués sur le nord du département |
+| **Aisne (02)** | Temps chaud puis orageux, nette dégradation en fin de semaine | 9 à 16°C en minimum, 25 à 29°C en maximum | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures maximales élevées jusqu'à 29°C |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 24 et mardi 25 août** : Hausse des températures jusqu'à 25-28°C, dégradation orageuse probable en seconde partie de nuit de lundi à mardi.
-- **Mercredi 26 et jeudi 27 août** : Pic de chaleur humide avec des maximales de 25 à 29°C et un risque orageux persistant, notamment en matinée.
-- **Vendredi 28 et samedi 29 août** : Rafraîchissement avec pluie ou averses, vent de sud-ouest modéré à assez fort sur le littoral.
-- **Dimanche 30 août** : Tendance encore incertaine ; possible amélioration temporaire ou persistance d'un ciel instable, à confirmer.
+- **Lundi 24 et mardi 25 août** : Temps chaud et lourd, risque d'orages en fin de nuit de lundi à mardi.
+- **Mercredi 26 et jeudi 27 août** : Orages de masse d'air chaud, parfois soutenus, températures encore élevées.
+- **Vendredi 28 août** : Dégradation pluvieuse, vent de Sud-Ouest, baisse des températures.
+- **Samedi 29 et dimanche 30 août** : Amélioration samedi, temps plus frais et sec, incertitude pour dimanche.
 
 **Points solides :**
-- Le temps redevient chaud et humide en début de semaine 2.
-- Un risque de pluie et d'orage est présent sur tous les départements à partir de mardi.
-- Un rafraîchissement est attendu en toute fin de semaine, mais son ampleur reste incertaine.
+- Pic de chaleur lundi-mardi avec des maximales entre 25 et 28°C
+- Risque orageux récurrent en milieu de semaine
+- Baisse des températures en fin de semaine
 
 **Points fragiles :**
-- Chronologie précise de la dégradation orageuse entre lundi et mardi.
-- Cumuls de pluie sous orages, potentiellement hétérogènes.
-- Niveau des maximales jeudi, entre 25 et 29°C selon les départements.
+- Intensité des orages de mercredi
+- Trajectoire de la goutte froide
+- Cumuls de pluie vendredi
 
 **À surveiller (prochains runs) :**
-- Évolution des talwegs et de la goutte froide sur les runs ECMWF.
-- Position exacte du flux de sud-ouest et remontées humides.
-- Vigilances Météo-France à partir de lundi.
+- Run ECMWF 12Z pour affiner la position de la goutte froide
+- Évolution des indices de convection pour les orages de mercredi
+- Mise à jour ITN pour le risque de vague de chaleur
 
 
 ========================================
@@ -134,27 +135,34 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Après un week-end de transition frais et ensoleillé, la région bascule dans un régime instable et plus chaud, avec des orages récurrents et un net rafraîchissement en fin de période.
+Temps instable et orageux pour les deux semaines, avec un pic de chaleur en début de semaine 2, suivi d'un rafraîchissement en fin de période. Les températures oscillent entre 20 et 29°C, avec des périodes de pluie modérée à forte.
 
 ### Période la plus fiable
-Semaine 1 (du 20 au 23 août) : prévisions plus fiables, basées sur les bulletins officiels et un consensus modèle assez net.
+Semaine 1 (20-23 août) : prévisions à courte échéance plus fiables, avec une dégradation orageuse vendredi et un week-end ensoleillé.
 
 ### Phénomènes récurrents
-Averses orageuses, flux de sud-ouest humide, nuits fraîches après passage de talweg.
+- Orages de masse d'air chaud récurrents en fin de semaine 1 et en semaine 2
+- Averses localisées sur le littoral
+- Rafales de vent sous orages et en fin de semaine 2
 
 ### Principales incertitudes
-Intensité et localisation des orages ; timing exact de la dégradation de lundi ; ampleur du rafraîchissement final.
+- Trajectoire exacte de la goutte froide en semaine 2
+- Intensité et cumuls des orages de mercredi 26
+- Moment et ampleur de la baisse des températures en fin de semaine 2
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le passage de la dégradation orageuse de vendredi soir et la reprise de l'instabilité lundi restent délicats à caler précisément.
-- **Localisation :** Les orages pourraient privilégier la Flandre maritime, le Ternois, le littoral picard, le Valois ou le Laonnois selon les échéances.
-- **Intensité :** Les cumuls sous orages pourraient varier de simples averses à des épisodes localement intenses.
-- **Informations manquantes :** Pas d'information explicite sur le risque de grêle, les rafales convectives et l'évolution au-delà du 30 août.
-- **Modèles sous-documentés :** ICON, GEM, ARPEGE et UKMO sont peu ou pas commentés spécifiquement pour les Hauts-de-France.
-- **Incertitudes images :** Les cartes de cumuls et de T850 évoquées sur le forum sont nationales et ne permettent pas une analyse fine à l'échelle HDF.
+- **Timing/Chronologie :** Incertitude sur le moment exact de la fin des orages vendredi soir, et sur le début de la dégradation de la semaine prochaine (mardi ou mercredi selon les modèles).
+- **Localisation :** Les orages de vendredi pourraient être plus nombreux sur le littoral ou l'intérieur selon les runs. Pour la semaine 2, la position de la goutte froide déterminera les zones les plus arrosées.
+- **Intensité :** Cumuls de pluie entre 10 et 15 mm vendredi, mais possiblement plus localement sous les orages. Pour mercredi 26, le risque d'orages forts est présent mais non confirmé.
+- **Informations manquantes :** Les discussions forum Infoclimat sont peu spécifiques aux Hauts-de-France, avec un focus sur le sud de la France. Les observations de terrain manquent pour affiner les prévisions locales.
+- **Modèles sous-documentés :** ICON, UKMO, GEM et ARPEGE sont peu commentés pour la région HDF, leur fiabilité est donc incertaine.
+- **Incertitudes images :** Les cartes de précipitations et de température montrent des divergences entre les modèles, notamment pour la fin de semaine 2.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌤️ Week-end ensoleillé et frais dans les Hauts-de-France, avant un début de semaine chaud et orageux ! ⛈️ Prudence vendredi : vigilance jaune aux orages sur les 5 départements. Cumuls possibles de 15 mm sur le littoral. Ensuite, place à un temps lourd et instable avec un pic de chaleur attendu mercredi-jeudi. Détails dans mon bulletin Monsieur Météo. #Météo #HautsDeFrance #Prévisions #Orages
+🔵 Bulletin météo Hauts-de-France – 20 août 2026
+Après un été caniculaire, le temps change radicalement. Dégradation orageuse prévue vendredi 21 sur toute la région, puis week-end frais et ensoleillé. En semaine prochaine, retour de la chaleur avec des orages récurrents, avant un rafraîchissement vendredi 28.
+Restez vigilants : vigilance jaune orages en cours pour demain. Les cumuls de pluie pourront atteindre 15 mm localement.
+Prévisions détaillées sur mon site. #météo #HautsDeFrance #orages

@@ -283,7 +283,7 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 200940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 20 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 20 août 2026 à 06H00 UTC, et évolution Système dépressionnaire 998 hPa sur la Scandinavie, se comblant lentement. Thalweg associé s'étendant sur la mer du Nord et les îles britanniques, balayant l'est de la Manche cette nuit. Mise en place d'un flux de Nord à Nord-ouest perturbé sur le domaine. 3 - Prévisions pour l'après-midi du jeudi 20 août VENT : Ouest à Sud-Ouest 5 à 6. Rafales. MER : agitée. HOULE : non significative. TEMPS : nuageux avec averses, puis peu nuageux en fin de journée. VISIBILITE : moyenne à mauvaise sous précipitations. 4 - Prévisions pour la nuit du jeudi 20 août au vendredi 21 août VENT : Ouest à Sud-Ouest 5 à 6, mollissant 4 à 5 en fin de soirée, puis virant secteur Nord 2 à 4 en milieu de nuit. MER : agitée, s'atténuant peu agitée en fin de nuit. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m, jusqu'à 1.5 m en Manche. TEMPS : nuageux avec quelques averses. VISIBILITE : moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du vendredi 21 août VENT : Nord à Nord-Est 3 à 4. MER : peu agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, puis Nord 0.5 à 1 m en mer du Nord l'après-midi, et devenant non significative en Manche à la fin. TEMPS : nuageux avec quelques averses. VISIBILITE : moyenne à mauvaise sous précipitations. 6 - Prévisions pour la nuit du 21 au 22 et la journée du samedi 22 août VENT : Nord à Nord-Est 3 à 4, revenant Nord à Nord-Ouest en fin de soirée, puis fraichissant Nord 4 à 5 en fin de nuit, et virant secteur Nord-Ouest 3 à 4, l'après-midi. MER : belle à peu agitée, devenant agitée le matin, localement peu agitée à agitée en Mer du Nord. HOULE : Nord 0.5 à 1 m, non significative en Manche et dans le détroit, la nuit et le matin. TEMPS : très nuageux, avec des averses, parfois orageuses, s'améliorant l'après-midi. VISIBILITE : bonne, localement moyenne à mauvaises sous précipitations. 7 - Prévisions pour la nuit du 22 au 23 et la journée du dimanche 23 août VENT : Est à Nord-Est 3 à 4. MER : belle à peu agitée, localement agitée en mer du nord. HOULE de Nord inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Lundi 24 août Secteur Est modéré à assez fort. Indice de confiance : 4 sur 5 Mardi 25 août Secteur Est virant secteur Ouest en milieu de journée, faible à modéré. Indice de confiance : 3 sur 5 Mercredi 26 août Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 Jeudi 27 août Secteur Sud-Ouest faible à modéré. Indice de confiance : 2 sur 5 9 - Observations le jeudi 20 août 2026 à 09H00 UTC Dunkerque : vent Sud-Sud-Ouest 12 noeuds, mer belle, 1006 hPa stationnaire, très nuageux à couvert, visibilité 5 milles. Cap Gris Nez : vent Ouest 16 noeuds, rafales 35 noeuds. Boulogne : vent Ouest-Sud-Ouest 17 noeuds, 1006 hPa en hausse, couvert, pluies ou bruines, visibilité 6 milles. Prochain bulletin le jeudi 20 août 2026, vers 18H00 légales
+FQCT40 LFQQ 201620 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 20 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 20 août 2026 à 12H00 UTC, et évolution Système dépressionnaire 998 hPa sur la Scandinavie, se comblant lentement. Thalweg associé s'étendant sur la mer du Nord et les îles britanniques, balayant l'est de la Manche cette nuit. Mise en place d'un flux de Nord à Nord-ouest perturbé sur le domaine. 3 - Prévisions pour la nuit du jeudi 20 août au vendredi 21 août VENT : Ouest à Sud-Ouest 5 à 6, mollissant 4 à 5 en fin de soirée, puis virant secteur Nord 2 à 4 en seconde partie de nuit. MER : agitée, s'atténuant peu agitée en fin de nuit. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m, jusqu'à 1.5 m en Manche. TEMPS : nuageux avec quelques averses. VISIBILITE : moyenne à mauvaise sous précipitations. 4 - Prévisions pour la journée du vendredi 21 août VENT : Nord 3 à 4, fraichissant 4 parfois 5 à la mi-journée, et virant Nord à Nord-Est 3 à 4 en fin d'après-midi. MER : peu agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, puis Nord 0.5 à 1 m en mer du Nord l'après-midi, et devenant non significative en Manche à la fin. TEMPS : nuageux avec quelques averses. VISIBILITE : moyenne à mauvaise sous précipitations. 5 - Tendance pour la nuit du 21 au 22, et la journée du samedi 22 août VENT : Nord à Nord-Est 3 à 4, revenant Nord-Ouest en fin de soirée, puis fraichissant Nord 4 à 5 en fin de nuit, et virant secteur Nord-Est 3 à 4, l'après-midi. MER : belle à peu agitée, devenant agitée le matin, localement peu agitée à agitée en Mer du Nord à la mi-journée. HOULE : Nord 0.5 à 1 m, non significative en Manche et dans le détroit, la nuit et le matin. TEMPS : très nuageux, avec des averses, parfois orageuses, s'améliorant l'après-midi. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 6 - Prévisions pour la nuit du 22 au 23 et la journée du dimanche 23 août VENT : Est à Nord-Est 3 à 4. MER : belle à peu agitée, localement agitée en mer du nord. HOULE de Nord inférieure à 1,5 m, s'atténuant ensuite. 7 - Tendance pour les jours suivants Lundi 24 août Secteur Est modéré à assez fort. Indice de confiance : 4 sur 5 Mardi 25 août Secteur Est virant secteur Ouest en milieu de journée, faible à modéré. Indice de confiance : 3 sur 5 Mercredi 26 août Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 Jeudi 27 août Secteur Sud-Ouest faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le jeudi 20 août 2026 à 15H00 UTC Dunkerque : vent Sud-Ouest 16 noeuds, rafales 27 noeuds, mer belle, 1007 hPa en hausse, nuageux avec éclaircies, visibilité 6 milles. Cap Gris Nez : vent Ouest-Sud-Ouest 31 noeuds. Boulogne : vent Ouest-Sud-Ouest 21 noeuds, rafales 31 noeuds, 1007 hPa en hausse. Prochain bulletin le vendredi 21 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -317,12 +317,12 @@ pays avec de possibles orages intenses.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 20/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -330,9 +330,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 20 Août 2026.
-Résumé général HDF précédent : Après un week-end de transition nettement plus frais et ensoleillé, la région bascule dans un régime instable et chaud la semaine prochaine, avec des orages récurrents et un pic de chaleur mercredi-jeudi avant un rafraîchissement en fin de période..
+Résumé général HDF précédent : Après un week-end de transition frais et ensoleillé, la région bascule dans un régime instable et plus chaud, avec des orages récurrents et un net rafraîchissement en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses orageuses, rafales 60-65 km/h, cumuls 10-15 mm sur littoral..
+Températures attendues précédemment : Averses orageuses vendredi, éclaircies puis ciel changeant, retour d'un temps instable en début de semaine prochaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 20 au Dimanche 23 Août 2026) ===
@@ -604,79 +604,6 @@ Il y a 2 heures, Run999H a dit :
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Sky blue
-Message:
-Oui le train d'ondes de Rossby au niveau HN à repris de la mobilité (exit le blocage récurrent), mais ces bouffées lourdes et orageuses vont mettre à mal notre dernière semaine d'aout prévue chez les bleus. Le rafraîchissement général et durable va en prendre un coup. Le bleu de l'hebdomadaire va virer au rose à minimum. Mais c'est avec un dynamisme de SO.⛈️ 
-	A comparer sur la durée. ???
-	Modifié il y a 22 heures par Sky blue
-								2
-								2
-
-=======================
-
-Auteur: tao
-Message:
-Bonsoir,
-	pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
-	Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
-	Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
-	Modifié il y a 22 heures par tao
-								8
-								3
-
-=======================
-
-Auteur: Plancher
-Message:
-Oui. A priori peu de similitudes avec les dernières vagues de chaleur. Cette goutte froide semble remonter vers la France depuis le Portugal.
-
-=======================
-
-Auteur: Run999H
-Message:
-il y a 31 minutes, tao a dit :
-			Bonsoir,
-			pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
-			Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
-			Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
-	Exactement. Même si ce soir les modèles balancent plus facilement du 20° et + à 850hpa sur un très grand quart sud-est pour ne pas dire les 3/4 de la France donc, la dynamique reste la même. Un premier thalweg freiné dans sa course mais vite repris par un second thalweg en milieu de semaine. 
-	Ce soir ce qu’on peut dire, c’est que le potentiel explosif que je décrivais ce matin est même devenu très explosif sur les dernières sorties. De telles températures à l’avant d’un thalweg très méridien mais mobile fait monter l’énergie d’un cran. 
-	Pour moi, sauf grands changements (que j’estime peu probable), c’est une semaine sous grande surveillance côté orages et à l’instant T de ce que donnent les modèles, je me dis que MF va avoir une sacrée semaine de travail ! Le tout dans un contexte plutôt chaud globalement mais comme précisé, lourd, humide mais avec quelques rafraîchissements entre deux ou trois dégradations orageuses. 
-								11
-
-=======================
-
-Auteur: Sky blue
-Message:
-il y a une heure, tao a dit :
-			Bonsoir,
-			pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
-			Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
-			Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
-	Tout à fait d'accord.
-	D'ailleurs, ce n'est plus le désert de Gobi pour finir Aout. Disparités locales comme tout le temps avec les orages. ⛈️mais personne complètement au sec sous 10 jours.🙏 Ca pourrait bien swinguer par endroits.⛈️ Et Run à raison grosse semaine de vigilances phénomènes violents pour MF.🌀
-	Modifié il y a 21 heures par Sky blue
-								3
-
-=======================
-
-Auteur: tao
-Message:
-il y a 26 minutes, Plancher a dit :
-			Oui. A priori peu de similitudes avec les dernières vagues de chaleur. Cette goutte froide semble remonter vers la France depuis le Portugal.
-	Bonsoir,
-	tant qu'une anomalie ne se détache pas du talweg, ce n'est pas une goutte froide. 
-								4
-
-=======================
-
-Auteur: Plancher
-Message:
-D'accord. Je vous remercie. Tant mieux si ce n'est pas une goutte froide. 🙂
-								1
-
-=======================
-
 Auteur: Hendrix back
 Message:
 Aucun grand rafraîchissement long et durable n'est modélisé pour le sud-ouest ce soir pour 3 modèles.  D'autant que la température était encore haute sur Toulouse aujourd’hui. Rebelote à partir de dimanche... franchement, c’est pas croyable !
@@ -718,7 +645,7 @@ Le 17/08/2026 à 10:05, Virgile a dit :
 Auteur: Sky blue
 Message:
 Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute la semaine prochaine probable. Très pénible et lourd à l'avant des salves orageuses🥵. Et très violent dessous.⛈️
-	Modifié il y a 8 heures par Sky blue
+	Modifié il y a 10 heures par Sky blue
 								7
 								1
 								1
@@ -729,7 +656,7 @@ Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute l
 Auteur: Guillaume39
 Message:
 À supprimer 
-	Modifié il y a 2 heures par Guillaume39
+	Modifié il y a 4 heures par Guillaume39
 								1
 								2
 								1
@@ -742,7 +669,7 @@ Il y a 11 heures, Run999H a dit :
 			Mais ça, ça ne se confirme pas. 
 	Plus fraiche que la 1er quinzaine, oui, c'est évident. Le flux de sud temporaire se décalerait en effet à peu plus vers l'ouest que prévu en tout début de semaine prochaine sur le sud ouest mais surtout sur la façade est du pays avant que l'air frais + océanique présent sur l'ouest gagne le pays en seconde partie de semaine.  Quelques journées chaudes sont donc prévues en début de semaine sur le sud ouest et l'est du pays mais jusqu'au 15 octobre, comme je l'ai dit sur un autre topic, c'est encore loin et on va encore connaitre des journées chaudes. Le risque caniculaire généralisé et prolongé est pour l'instant écarté.
 	Le vrai risque est la possibilité de fortes pluies dans le sud est avec ce flux de sud.
-	Modifié il y a 6 heures par Virgile
+	Modifié il y a 8 heures par Virgile
 
 =======================
 
@@ -779,7 +706,7 @@ La configuration ne semble pas etre propice a une nouvelle VDC ou canicule mais 
 	Au sol cela donnerait des températures bien inférieures a celles qu'on vient de connaître. 
 	Lundi :
 	Jeudi :
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 								1
 
 =======================
@@ -810,6 +737,79 @@ il y a une heure, Luidjy a dit :
 	Édit : j'ai regardé et finalement on a les températures à 17h il ne faut pas mettre valeur maximales mais valeurs à 2m. 
 	Mais la surprise dans le sud-ouest les températures sont moins élevées à 17h qu'à 20h mais identiques plus au nord.
 	Comme quoi c'est très variable :
-	Modifié il y a 47 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
 								1
 								1
+
+=======================
+
+Auteur: Luidjy
+Message:
+il y a 32 minutes, petit âge glaciaire 11 a dit :
+			Tout simplement parce que sur meteociel on a pour CEP les températures à 102h (lundi 14h)  et 108h (lundi 20h) et pas celles à 105 h lundi 17h).
+			La température maximale  peut être à mon avis autant à 14h qu'à 20h. 
+			Je pensais que 14h était plus chaud que 20 h mais je vois que 20h est légèrement plus chaud mais pas beaucoup de différences :
+			Édit : j'ai regardé et finalement on a les températures à 17h il ne faut pas mettre valeur maximales mais valeurs à 2m. 
+			Mais la surprise dans le sud-ouest les températures sont moins élevées à 17h qu'à 20h mais identiques plus au nord.
+			Comme quoi c'est très variable :
+	Merci beaucoup pour ta réponse.
+
+=======================
+
+Auteur: Téton dans les nuages
+Message:
+Pour résumer le yo-yo émotionnel qu'est la prévision pour cette semaine, deux cartes de "La Chaîne Météo" postées à seulement 8h d'écarts aujourd'hui : 
+	Ce matin à 8h --&gt; au moins 7 jours sous les normes ITN à partir de Vendredi, sous-titré "Vers la fin assez durable des fortes chaleurs" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-19/canicule-est-ce-la-fin-des-fortes-chaleurs-91469
+	Cet AM à 16h --&gt; à peine 2 jours sous les normes ITN à partir de Vendredi puis "Nouveau bref pic de chaleur avant les orages la semaine prochaine" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-20/orages-ce-n-est-pas-fini-nouvelle-degradation-des-lundi-91495
+								2
+								7
+								2
+
+=======================
+
+Auteur: Sky blue
+Message:
+LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
+	Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
+	Modifié il y a 1 heure par Sky blue
+								1
+								1
+
+=======================
+
+Auteur: MidiPy
+Message:
+Il y a 1 heure, petit âge glaciaire 11 a dit :
+			Tout simplement parce que sur meteociel on a pour CEP les températures à 102h (lundi 14h)  et 108h (lundi 20h) et pas celles à 105 h lundi 17h).
+			La température maximale  peut être à mon avis autant à 14h qu'à 20h. 
+			Je pensais que 14h était plus chaud que 20 h mais je vois que 20h est légèrement plus chaud mais pas beaucoup de différences :
+	Les cartes que tu nous montres indiquent les Tx sur les 6 dernières heures. Celle de 20h remplirait parfaitement son rôle donc puisqu'elle indiquerait la Tx atteinte depuis 14h.
+								1
+								1
+
+=======================
+
+Auteur: franck derrien
+Message:
+Bonjour 
+	J ai l impression que la perturbation de lundi sera nettement plus faible que ce qui était prevu a la base? 
+								1
+
+=======================
+
+Auteur: meteo noobs
+Message:
+il y a 39 minutes, Sky blue a dit :
+			LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
+			Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
+	C'est pas les seuls
+	Regardez le titre 🤔
+
+=======================
+
+Auteur: ggdu19
+Message:
+il y a une heure, franck derrien a dit :
+			Bonjour 
+			J ai l impression que la perturbation de lundi sera nettement plus faible que ce qui était prevu a la base? 
+	Pas vraiment non, avec les restes de ce qui pourrait être un système tropical à suivre de très près dans les prochaines 48 heures au large du Portugal. La situation est toujours très propice à une dégradation très musclée entre le Sud-Ouest et la région PACA, avec de nombreux paramètres conjointement liés pour des orages parfois violents.
