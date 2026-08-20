@@ -322,12 +322,12 @@ pays avec de possibles orages intenses.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
-• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 20/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -335,9 +335,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 20 Août 2026.
-Résumé général précédent : Alternance de dégradations orageuses et de périodes plus calmes, avec une chaleur qui persiste mais sans canicule durable. Fraîcheur relative en première partie, puis regain de chaleur en seconde..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Fortes pluies, orages, fraîcheur..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 20 au Dimanche 23 Août 2026) ===
@@ -609,24 +609,6 @@ Il y a 2 heures, Run999H a dit :
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Hendrix back
-Message:
-Aucun grand rafraîchissement long et durable n'est modélisé pour le sud-ouest ce soir pour 3 modèles.  D'autant que la température était encore haute sur Toulouse aujourd’hui. Rebelote à partir de dimanche... franchement, c’est pas croyable !
-								2
-								1
-
-=======================
-
-Auteur: ggdu19
-Message:
-Il y a 2 heures, Hendrix back a dit :
-			Aucun grand rafraîchissement long et durable n'est modélisé pour le sud-ouest ce soir pour 3 modèles.  D'autant que la température était encore haute sur Toulouse aujourd’hui. Rebelote à partir de dimanche... franchement, c’est pas croyable !
-	 Mouais, à part 2/3 jours, on ne peut pas dire que ce sera au-dessus des normes à Toulouse. Ça reste ouvert, certes, mais ça pourrait être bien pire !
-								2
-								1
-
-=======================
-
 Auteur: Virgile
 Message:
 Le 17/08/2026 à 10:05, Virgile a dit :
@@ -650,8 +632,8 @@ Le 17/08/2026 à 10:05, Virgile a dit :
 Auteur: Sky blue
 Message:
 Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute la semaine prochaine probable. Très pénible et lourd à l'avant des salves orageuses🥵. Et très violent dessous.⛈️
-	Modifié il y a 10 heures par Sky blue
-								7
+	Modifié il y a 12 heures par Sky blue
+								8
 								1
 								1
 								3
@@ -661,7 +643,7 @@ Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute l
 Auteur: Guillaume39
 Message:
 À supprimer 
-	Modifié il y a 4 heures par Guillaume39
+	Modifié il y a 6 heures par Guillaume39
 								1
 								2
 								1
@@ -674,7 +656,7 @@ Il y a 11 heures, Run999H a dit :
 			Mais ça, ça ne se confirme pas. 
 	Plus fraiche que la 1er quinzaine, oui, c'est évident. Le flux de sud temporaire se décalerait en effet à peu plus vers l'ouest que prévu en tout début de semaine prochaine sur le sud ouest mais surtout sur la façade est du pays avant que l'air frais + océanique présent sur l'ouest gagne le pays en seconde partie de semaine.  Quelques journées chaudes sont donc prévues en début de semaine sur le sud ouest et l'est du pays mais jusqu'au 15 octobre, comme je l'ai dit sur un autre topic, c'est encore loin et on va encore connaitre des journées chaudes. Le risque caniculaire généralisé et prolongé est pour l'instant écarté.
 	Le vrai risque est la possibilité de fortes pluies dans le sud est avec ce flux de sud.
-	Modifié il y a 8 heures par Virgile
+	Modifié il y a 10 heures par Virgile
 
 =======================
 
@@ -689,7 +671,7 @@ Auteur: bernardt60
 Message:
 Oui d'ailleurs je tique toujours quand on parle de températures plus fraîches, on devrait plutôt dire moins chaudes ! 
 								1
-								7
+								8
 								1
 
 =======================
@@ -711,7 +693,7 @@ La configuration ne semble pas etre propice a une nouvelle VDC ou canicule mais 
 	Au sol cela donnerait des températures bien inférieures a celles qu'on vient de connaître. 
 	Lundi :
 	Jeudi :
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 								1
 
 =======================
@@ -742,7 +724,7 @@ il y a une heure, Luidjy a dit :
 	Édit : j'ai regardé et finalement on a les températures à 17h il ne faut pas mettre valeur maximales mais valeurs à 2m. 
 	Mais la surprise dans le sud-ouest les températures sont moins élevées à 17h qu'à 20h mais identiques plus au nord.
 	Comme quoi c'est très variable :
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 								1
 								1
 
@@ -758,6 +740,7 @@ il y a 32 minutes, petit âge glaciaire 11 a dit :
 			Mais la surprise dans le sud-ouest les températures sont moins élevées à 17h qu'à 20h mais identiques plus au nord.
 			Comme quoi c'est très variable :
 	Merci beaucoup pour ta réponse.
+								1
 
 =======================
 
@@ -766,7 +749,7 @@ Message:
 Pour résumer le yo-yo émotionnel qu'est la prévision pour cette semaine, deux cartes de "La Chaîne Météo" postées à seulement 8h d'écarts aujourd'hui : 
 	Ce matin à 8h --&gt; au moins 7 jours sous les normes ITN à partir de Vendredi, sous-titré "Vers la fin assez durable des fortes chaleurs" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-19/canicule-est-ce-la-fin-des-fortes-chaleurs-91469
 	Cet AM à 16h --&gt; à peine 2 jours sous les normes ITN à partir de Vendredi puis "Nouveau bref pic de chaleur avant les orages la semaine prochaine" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-20/orages-ce-n-est-pas-fini-nouvelle-degradation-des-lundi-91495
-								2
+								3
 								7
 								2
 
@@ -776,7 +759,7 @@ Auteur: Sky blue
 Message:
 LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
 	Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	Modifié il y a 1 heure par Sky blue
+	Modifié il y a 3 heures par Sky blue
 								1
 								1
 
@@ -789,6 +772,7 @@ Il y a 1 heure, petit âge glaciaire 11 a dit :
 			La température maximale  peut être à mon avis autant à 14h qu'à 20h. 
 			Je pensais que 14h était plus chaud que 20 h mais je vois que 20h est légèrement plus chaud mais pas beaucoup de différences :
 	Les cartes que tu nous montres indiquent les Tx sur les 6 dernières heures. Celle de 20h remplirait parfaitement son rôle donc puisqu'elle indiquerait la Tx atteinte depuis 14h.
+								1
 								1
 								1
 
@@ -818,3 +802,26 @@ il y a une heure, franck derrien a dit :
 			Bonjour 
 			J ai l impression que la perturbation de lundi sera nettement plus faible que ce qui était prevu a la base? 
 	Pas vraiment non, avec les restes de ce qui pourrait être un système tropical à suivre de très près dans les prochaines 48 heures au large du Portugal. La situation est toujours très propice à une dégradation très musclée entre le Sud-Ouest et la région PACA, avec de nombreux paramètres conjointement liés pour des orages parfois violents.
+								2
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
+			Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
+			Toulouse :
+	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
+	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
+	Modifié il y a 55 minutes par petit âge glaciaire 11
+Modifié
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+51 minutes ago, petit âge glaciaire 11 said:
+			CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder [image]
+			Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi [image]
+	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
+								1
