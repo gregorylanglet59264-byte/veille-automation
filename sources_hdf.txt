@@ -342,12 +342,12 @@ pays avec de possibles orages intenses.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 20/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -357,7 +357,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin HDF généré le Jeudi 20 Août 2026.
 Résumé général HDF précédent : Après un week-end de transition assez calme et ensoleillé, la région Hauts-de-France entre dans une phase plus instable et chaude pour la semaine du 24 au 30 août. Deux passages orageux sont attendus : lundi 24 et jeudi 27, avec une remontée d'air chaud entre les deux. Les températures seront de saison à légèrement au-dessus des normales, avec un pic possible entre mercredi et jeudi (26 à 28°C). La fin de période pourrait voir un rafraîchissement, mais les incertitudes restent fortes..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Jeudi : averses orageuses (particulièrement sur les Flandres, le Ternois et la Picardie maritime). Vendredi : averses souvent orageuses, plus généralisées. Samedi : amélioration avec quelques averses résiduelles possibles. Dimanche : temps sec et ensoleillé..
+Températures attendues précédemment : Averses parfois orageuses jeudi et vendredi, amélioration samedi, temps sec et ensoleillé dimanche. Vent modéré à assez fort, rafales possibles..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 20 au Dimanche 23 Août 2026) ===
@@ -629,47 +629,6 @@ Il y a 2 heures, Run999H a dit :
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Jojobarbar
-Message:
-Pour le premier pic tout va se jouer dans l'intensité de la cyclogenèse sur le proche Atlantique :
-	Une cyclogenèse forte, et la goutte froide prend son autonomie en plus de proposer un vigoureux flux de sud ouest. Quelque jours plus tard, sous l'influence d'un nouveau talweg, elle est reprise elle même par un flux de SO qui la fait transiter sur la France avec une dégradation remarquable. C'est le scénario minoritaire, mais qui prend du galon ce matin sur l'IFS ENS + UKMO ENS. C'est aussi le scénario qui me convainc vu le contexte de prévision.
-	Le membre 6 illustre bien (un peu extrême mais ça appuie le propos) :
-	Une cyclogenèse plus faible, et le talweg reste talweg, avec un flux moins vigoureux et des températures de saison voir basses mais très peu de pluie généralisées. Le creux transite sur le pays, rapidement, ce qui fait qu'il n'est pas repris dans le flux du talweg suivant. Il continue alors sa route vers l'Est sur l'Europe centrale, apportant de l'humidité cantonnée au sud est. C'est le scénario majoritaire dans l'IFS ENS, et à travers les modèles.
-	Le membre 8 illustre à l'extrême également ce groupement de scénario :
-	Paradoxalement (à première vue), le second pic de chaud est moins incertain : il est lié à un phénomène de plus grande longueur d'onde : une large dépression autour de l'Islande. Bon on a quand même pas mal d'incertitudes pour le temps sensible en deuxième partie de semaine qui sont à lever.
-								4
-								1
-
-=======================
-
-Auteur: max_régusse
-Message:
-Le 18/08/2026 à 09:28, Grahok73 a dit :
-			Je ne change pas mon fusil d'épaule, les signaux sont désormais modélisés...
-	Mouais, pour l'instant les HG font une bonne résistance sur la méditerranée, les dépressions ne progresseront pas suffisamment pour orienter le flux au S/SE ce qui pourrait laisser une bonne partie des départements du secteur méditerranéen "quasi" au sec. La mousson attendra.
-	Modifié il y a 23 heures par max_régusse
-
-=======================
-
-Auteur: Nicolas L
-Message:
-Il y a 2 heures, petit âge glaciaire 11 a dit :
-			On sent que ca pousse par le sud-ouest, la canicule essai de reprendre sa (nouvelle) place naturelle ( place de cet été très très particulier je précise) .
-			2 tentatives quand même entre le 22 et le 24 puis entre le 26 et le 28.
-			Non mais pour qui elle se prend cette masse d'air très chaud ? C'est pas encore le Sahara le sud-ouest...
-			Heureusement la moyenne tient  pour la première tentative mais pour la deuxième c'est moins évident même si la bouffée chaude semble rester provisoire.
-			Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
-			Toulouse :
-			Ca pousse moins dans le sud-est :
-			Montpellier :
-	Scénario proposé dans le déterministe GFS pour la rentrée de Septembre, même si nous sommes hors topic. On sent que la ceinture subtropicale n'a pas encore dit son dernier mot avec notamment des hauts géopotentiels de nouveau récurrents sur une bonne partie sud de l'Europe. A espérer que la synoptique n'aille pas dans ce sens d'ici les prochains jours, ce qui exposerait une nouvelle fois le sud du pays.
-	Pour la première tentative évoquée par CEP, la moyenne de l'ensemble GEFS reste encourageante pour le Sud-ouest, mais on voit que le Sud-est peut-être à tout moment exposé sur les T850, y compris la Corse.
-	La situation serait encore meilleure pour la seconde tentative de l'européen avec un recul sur les T850 concernant le Sud-est. 
-								1
-								1
-
-=======================
-
 Auteur: F85
 Message:
 Ce soir GFS et ICON évoluent vers une GF s'isolant au large du Portugal dès samedi avec à la clé une belle hausse des températures dès dimanche, 
@@ -698,7 +657,7 @@ Auteur: Sky blue
 Message:
 Oui le train d'ondes de Rossby au niveau HN à repris de la mobilité (exit le blocage récurrent), mais ces bouffées lourdes et orageuses vont mettre à mal notre dernière semaine d'aout prévue chez les bleus. Le rafraîchissement général et durable va en prendre un coup. Le bleu de l'hebdomadaire va virer au rose à minimum. Mais c'est avec un dynamisme de SO.⛈️ 
 	A comparer sur la durée. ???
-	Modifié il y a 18 heures par Sky blue
+	Modifié il y a 20 heures par Sky blue
 								2
 								2
 
@@ -710,7 +669,7 @@ Bonsoir,
 	pour les anomalies négatives, talwegs,, il faut les regarder dans leur dynamique, les images fixes peuvent induire en erreur.
 	Le contexte paraît quand même dynamique pour la semaine, ça n'empêche pas les advections chaudes mais elles seraient passagères et accompagnées d'humidité.
 	Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
-	Modifié il y a 18 heures par tao
+	Modifié il y a 20 heures par tao
 								8
 								3
 
@@ -745,7 +704,7 @@ il y a une heure, tao a dit :
 			Les scénarios avec isolation d'une goutte froide qui ne serait pas reprise dans la circulation de talwegs sont très minoritaires.
 	Tout à fait d'accord.
 	D'ailleurs, ce n'est plus le désert de Gobi pour finir Aout. Disparités locales comme tout le temps avec les orages. ⛈️mais personne complètement au sec sous 10 jours.🙏 Ca pourrait bien swinguer par endroits.⛈️ Et Run à raison grosse semaine de vigilances phénomènes violents pour MF.🌀
-	Modifié il y a 17 heures par Sky blue
+	Modifié il y a 19 heures par Sky blue
 								3
 
 =======================
@@ -799,6 +758,7 @@ Le 17/08/2026 à 10:05, Virgile a dit :
 			une deuxième quinzaine d'aout fraiche
 	Mais ça, ça ne se confirme pas. 
 								6
+								1
 								2
 								1
 
@@ -807,17 +767,21 @@ Le 17/08/2026 à 10:05, Virgile a dit :
 Auteur: Sky blue
 Message:
 Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute la semaine prochaine probable. Très pénible et lourd à l'avant des salves orageuses🥵. Et très violent dessous.⛈️
-	Modifié il y a 4 heures par Sky blue
+	Modifié il y a 6 heures par Sky blue
 								7
 								1
-								2
+								1
+								3
 
 =======================
 
 Auteur: Guillaume39
 Message:
-2ème orage et un peu plus de 7 mm sous celui ci.
+À supprimer 
+	Modifié il y a 13 minutes par Guillaume39
+								1
 								2
+								1
 
 =======================
 
@@ -827,11 +791,40 @@ Il y a 11 heures, Run999H a dit :
 			Mais ça, ça ne se confirme pas. 
 	Plus fraiche que la 1er quinzaine, oui, c'est évident. Le flux de sud temporaire se décalerait en effet à peu plus vers l'ouest que prévu en tout début de semaine prochaine sur le sud ouest mais surtout sur la façade est du pays avant que l'air frais + océanique présent sur l'ouest gagne le pays en seconde partie de semaine.  Quelques journées chaudes sont donc prévues en début de semaine sur le sud ouest et l'est du pays mais jusqu'au 15 octobre, comme je l'ai dit sur un autre topic, c'est encore loin et on va encore connaitre des journées chaudes. Le risque caniculaire généralisé et prolongé est pour l'instant écarté.
 	Le vrai risque est la possibilité de fortes pluies dans le sud est avec ce flux de sud.
-	Modifié il y a 2 heures par Virgile
+	Modifié il y a 4 heures par Virgile
 
 =======================
 
 Auteur: Sky blue
 Message:
 Disons qu'on part de tellement haut.🌡️
+								2
+
+=======================
+
+Auteur: bernardt60
+Message:
+Oui d'ailleurs je tique toujours quand on parle de températures plus fraîches, on devrait plutôt dire moins chaudes ! 
+								6
+								1
+
+=======================
+
+Auteur: Charly-C
+Message:
+Cette tendance haussière aura juste intérêt de conforter l'été 2026 n°1 devant 2003.
+	Avec un écart finalement assez significatif, pour l'heure d'environ 1°. Assez fou !
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+La configuration ne semble pas etre propice a une nouvelle VDC ou canicule mais plutôt  on peut dire que cela ressemble à un baroud d'honneur de cet été hors norme avec dans le sud-ouest , qui est souvent une porte d'entrée pour l'air très chaud en provenance d'Afrique,  des coups de chaud. 
+	Il s'agirait donc de 2 pics de chaleur d'une durée très courte (1 a 1.5 journées) avec entre les 2 pics un niveau de températures à 850hpa très estival :
+	Le premier pics de chaleur  de phase courte découle la première par exemple d'une petite dépression qui ne fait que transiter près  de la France à l'ouest du Portugal :
+	Et le deuxième d'un flux passager de sud:
+	Au sol cela donnerait des températures bien inférieures a celles qu'on vient de connaître. 
+	Lundi :
+	Jeudi :
+	Modifié il y a 10 minutes par petit âge glaciaire 11
 								1
