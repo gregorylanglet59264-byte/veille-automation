@@ -1,118 +1,133 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Jeudi 20 Août 2026
-**Période :** Semaine 1 (Du Jeudi 20 Août au Dimanche 23 Août 2026) & Semaine 2 (Du Lundi 24 au Dimanche 30 Août 2026)
+**Période :** Semaine 1 (Du jeudi 20 au dimanche 23 août 2026) & Semaine 2 (Du lundi 24 au dimanche 30 août 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la chaleur, intensité débattue*
-- **Fiabilité du scénario majoritaire :** Forte chaleur possible — *Intensité débattue en semaine 2*
+- **Consensus des modèles :** Modéré — *Bon accord sur la dégradation de la semaine 1, mais divergences sur la semaine 2.*
+- **Fiabilité du scénario majoritaire :** Instabilité orageuse généralisée — *Scénario le plus probable : plusieurs salves orageuses, sans canicule.*
 - **Stabilité des cartes/scénarios :** 6 / 84 — *6 cartes sur 84 analysées*
-- **Niveau d'incertitude global :** Intensité — *Écart GFS et ECMWF*
+- **Niveau d'incertitude global :** Incertitude modérée à forte — *Surtout pour la semaine 2, avec une variabilité inter-modèles importante.*
 
-## 🗓️ SEMAINE 1 : Du Jeudi 20 Août au Dimanche 23 Août 2026
+## 🗓️ SEMAINE 1 : Du jeudi 20 au dimanche 23 août 2026
 ### 💡 Points clés de la semaine 1
-1. Épisode orageux majeur sur le Sud-Est : Pluies possibles localement fortes en lien avec un épisode méditerranéen précoce.
-2. Chaleur encore présente au Sud mais en baisse : Mercure en retrait, fraîcheur relative par rapport aux semaines précédentes.
-3. Air froid en altitude dès jeudi : Anomalies négatives marquées à 850hPa sur une grande partie du pays.
-4. Dégradation plus marquée à l'Ouest pour le week-end : Ciel gris et pluies possibles samedi-dimanche.
-5. Vigilances multiples attendues : Orages et fortes pluies sur le sud, principalement entre jeudi et vendredi.
+1. Dégradation méditerranéenne : Risque d'épisode pluvieux notable, surtout sur le sud-est, avec des cumuls potentiellement marqués.
+2. Fraîcheur relative : Nette baisse des températures sur la plupart des régions, notamment au nord, après un été très chaud.
+3. Orages fréquents : Large moitié sud concernée par des orages parfois forts, en lien avec une masse d'air instable.
+4. Amélioration samedi : Retour d'un temps plus sec et ensoleillé sur l'ensemble du pays à partir de samedi après-midi.
+5. Vigilances jaunes : Plusieurs départements en vigilance jaune orages, avec un risque de fortes pluies localisées.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-– Convergence sur le fait qu'une dégradation orageuse sérieuse soit probable sur le Sud-Est et une moitié sud à compter du jeudi 20. – Convergence sur le retour à des températures moins extrêmes par rapport aux semaines passées. – Convergence sur le fait qu’environnement de variabilité est entre les grands modèles, avec un alignement seulement partiel.
+- Dégradation orageuse généralisée sur une grande moitié sud, avec des cumuls potentiellement importants sur le sud-est.
+- Baisse notable des températures, surtout au nord, avec des valeurs proches ou en dessous des normales.
+- Amélioration samedi après-midi avec un retour du soleil sur la plupart des régions.
 **Points de divergence :**
-– Divergence : certains scénarios (notamment GFS) font une dégradation atlantique plus marquée, d'autres restent secs à l’Ouest – Divergence sur le caractère intense : certains voient des cumuls très forts, d'autres plus modestes.
+- Intensité des pluies sur le sud-est : certains modèles (ECMWF, UKMO) voient des cumuls très importants, d'autres (GFS) plus modérés.
+- Extension des orages vers le nord : ICON et GFS prévoient des averses jusqu'en Île-de-France, ECMWF limite aux régions centrales et du sud.
+- Positionnement exact de la zone de fortes pluies : incertitude entre les Cévennes, l'arrière-pays niçois et la Provence intérieure.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / IFS ENS &amp; EXTREME FORECAST INDEX** (Documenté) | Semaine atypiquement humide sur moitié sud et Est, avec EFI et SOT signalant un épisode exceptionnel par rapport au climat local, en particulier dans les vallées alpines. | Orages forts, fortes pluies notamment dans le Sud-Est, fraîcheur marquée en fin de journée. | Sud-Est, Rhône-Alpes, Provence, Corse, plus partiellement Centre-Est. | Élevée (85 %) | Les cumuls attendus sur les vallées alpines pourraient atteindre 10 à 30 mm, un signal humide très marqué par rapport à la climatologie d’août. Attention : scénario encadré par de forte incertitudes sur l’intensité, l’extension et la durée. |
-| **GFS (Système Global de Prévision) et ICON** (Documenté) | Dégradation plus marquée à l’Ouest et au Nord le week-end des 22-23 août, avec vendredi 21 déjà instable par l’ouest. | Gris et humide possible sur les régions de la façade atlantique, orages lundi 24. | Ouest, Centre-Ouest, Nord-Ouest, régions. | Modérée (65 %) | Attention : un changement de tendance est toutefois noté avec déclarations du 17/08 indiquant que certaines CCM pensaient voir les pluies s'effacer pour le week-end. GFS et ICON évoluent vers une goutte froide qui s'isole au large du Portugal dès samediavec hausse des températures à suivre. |
-| **ICON / UKMO / GEM** (Documenté) | Anomalie négative de température à 850hPa sur plusieurs jours et signaux de forts cumuls dans le Sud-Est, avec possibilité d’un épisode cévenol ou méditerranéen précoce. | Orages pluvieux possibles, fraîcheur notable. | Sud-est, Cévennes, vallées du Rhône, région Provence-Côte d’Azur. | Modérée (65 %) | Arpege et UKMO surveillés également pour les cumuls. Attention : les scénarios d’épisode cévenol restent ouverts et pas avoirs l'horloge, rien n’est encore définitif. |
+| **Modèle Européen (ECMWF / CEP)** (Documenté par plusieurs membres (Jojobarbar, petit âge glaciaire, etc.)) | Semaine atypiquement humide sur la moitié sud, avec un épisode pluvieux pouvant être exceptionnel pour la saison, notamment sur le sud-est et les vallées alpines. | Fortes pluies orageuses, cumuls importants possibles sur le sud-est, fraîcheur marquée. | Sud-est, Rhône-Alpes, Auvergne, Midi méditerranéen. | Élevée (90%) | L'EFI et le SOT signalent un écart significatif par rapport au climat local, avec des cumuls possibles de 20 à 40 mm sur certaines zones sensibles (ex : Cévennes, Alpes du Sud). Le scénario majoritaire de l'ensemble européen est une dégradation active, mais avec une intensité qui reste à confirmer. |
+| **Modèle Américain (GFS / GEFS)** (Documenté par pierrot_75, petit âge glaciaire 11) | Dégradation orageuse présente, mais un peu moins intense que l'européen sur le sud-est ; passage d'un front froid avec averses, puis amélioration samedi. | Averses orageuses sur une large moitié sud, fraîcheur notamment au nord, éclaircies samedi. | Sud-ouest, Centre-Est, Île-de-France, Nord. | Modérée (65%) | GEFS un peu plus timoré que CEP sur les cumuls du sud-est, mais convergence sur le caractère instable et la baisse des températures. Les cartes d'anomalies de température à 850 hPa montrent un repli notable. |
+| **Modèle Allemand (ICON)** (Mentionné par pierrot_75 et F85) | Dégradation orageuse active, surtout sur l'ouest et le nord, avec un passage plus rapide. | Orages localement forts, rafales, puis amélioration samedi. | Ouest, Nord, Centre. | Faible (40%) | ICON a tendance à accélérer la dégradation, avec un risque orageux plus précoce sur l'ouest. |
+| **Modèle Anglais (UKMO)** (Documenté par petit âge glaciaire 11) | Cumuls importants sur le sud-est, notamment autour du Languedoc et des Cévennes, avec un risque d'épisode méditerranéen. | Fortes pluies orageuses, risque d'orages stationnaires. | Sud-est, Massif Central. | Modérée (60%) | UKMO s'aligne sur les cumuls importants du modèle européen, avec des valeurs dépassant les 50 mm sur certains reliefs. |
+| **Modèle Français (ARPEGE)** (Mentionné par petit âge glaciaire 11) | Fortes précipitations sur le sud-est, avec un risque d'épisode cévenol précoce, mais une fiabilité modérée à cette échéance. | Pluies intenses, orages, fraîcheur en montagne. | Sud-est, Massif Central. | Faible (40%) | ARPEGE suggère des cumuls notables sur les Cévennes, mais avec une incertitude sur le positionnement exact. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Nuages et éclaircies, possibles pluies irréguliers | 15 à 20°C en minimales, 20 à 24°C en maximales | faible | GFS, ICON | Précisions incertaines sur l'étendue des pluies |
-| **Nord** | Soleil et nuages, rares averses temporaires | 13 à 16°C en nuit, 22 à 25°C en journée | elevee | MF (Paris), GFS | Le retour de pluies possible à partir de dimanche |
-| **Nord-Est** | Soleil prédominant, risque d'orages en week-end | 13-16°C en nuit, 22-27°C en jour | moderee | ECMWF, GFS | Inconnue sur la durée exacte des pluies |
-| **Ouest et Façade Atlantique** | Averses et orages possibles, surtout Sud du secteur | 15-19°C en nuit, 24-27°C en jour | elevee | Météo-France XML, ECMWF, GFS | Incercadés sur la zone exacte de pluies |
-| **Centre** | Nuageux alternatif, petites précipitations | 13-16°C nuit, 23-26°C jour | moderee | ECMWF, GFS | Concernant l'exactitude de l'extension |
-| **Sud-Ouest** | Orages pluvieux possibles, ensuite simplements éclaircies le samedi | 14-17°C, 23-28°C | elevee | MF (Toulouse), Arpegé, UKMO | Variabilité intense de précipitations, espéciale montagnes |
-| **Sud-Est et Vallée du Rhône** | Bien ensoleillé d'abord, dégradation jeudi | 15-22°C min, 20-29°C max | elevee | MF (Rhône), ECMWF, UKMO | Encerte sur quel endroit précis seront les plus forts orages |
-| **Méditerranée et Corse** | Orageux et orageux | 18-27°C pour nuit ; 27-33°C journée | elevee | MF (Marseille), Marine FQCT40 | Manque de P avec un risque orage violent/pluie.  |
+| **Nord-Ouest** | Ciel très nuageux, averses passagères jeudi et vendredi, éclaircies samedi. | Maximales en baisse, entre 18 et 22°C. | moderee | ECMWF, GFS | Position exacte des averses |
+| **Nord** | Averses possibles jeudi et vendredi matin, puis nette amélioration samedi avec du soleil. | Maximales autour de 22-24°C, minimales 13-16°C. | elevee | ECMWF, GFS, ARPEGE | Intensité des averses |
+| **Nord-Est** | Temps mitigé avec passages nuageux, quelques averses orageuses jeudi, puis éclaircies samedi. | Maximales en baisse, autour de 20-23°C. | moderee | GFS, ICON | Localisation des orages |
+| **Ouest et Façade Atlantique** | Pluies et orages passagers jeudi et vendredi, puis nette amélioration samedi avec du soleil. | Maximales de 23 à 26°C, plus fraîches près de l'océan. | elevee | ECMWF, GFS, UKMO | Extension des orages vers le nord |
+| **Centre** | Instabilité avec averses orageuses jeudi, puis temps plus calme avec des éclaircies samedi. | Maximales en baisse, autour de 22-25°C. | moderee | GFS, ICON | Trajectoire exacte du front |
+| **Sud-Ouest** | Orages fréquents, parfois forts, jeudi et vendredi, avec un risque de cumuls importants sur les Pyrénées et le piémont. | Maximales en baisse, de 24 à 28°C, plus fraîches en montagne. | elevee | ECMWF, ARPEGE, UKMO | Intensité des orages en soirée |
+| **Sud-Est et Vallée du Rhône** | Risque d'épisode pluvieux notable, avec des orages parfois forts et de fortes pluies, surtout jeudi et vendredi. | Maximales en baisse, de 25 à 28°C sur la région lyonnaise, plus fraîches en altitude. | elevee | ECMWF, UKMO, ARPEGE, GFS | Position exacte des fortes pluies |
+| **Méditerranée et Corse** | Orages parfois violents, fortes pluies, particulièrement jeudi et vendredi, avec un risque de cumuls importants. | Maximales autour de 28-30°C, mais en baisse après le passage des orages. | elevee | ECMWF, UKMO, ARPEGE, ICON, GFS | Risque de phénomènes violents sur le littoral |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Du 20/08 au 21/08** : Dégradation par le sud-ouest et orages généralisés en sud est.
-- **Du 21/08 au 22/08** : Amélioration samedi après le passage perturbé.
-- **Du 22/08 au 23/08** : Temps calme et ensoleillé sur une grande partie, mais encore orageux dans sud-est.
-- **Du 23/08 au 24/08** : Possibilité de nouveau épisode orageux (suspect du risque lundi).
+- **Jeudi 20 août** : Instabilité généralisée sur la moitié sud, orages en cours de journée, fraîcheur relative sur le nord.
+- **Vendredi 21 août** : Nouvelle salve orageuse sur le sud-est, avec des pluies parfois soutenues, puis éclaircies timides en fin de journée.
+- **Samedi 22 août** : Amélioration nette, ciel bleu et soleil généreux sur l'ensemble du pays, températures de saison.
+- **Dimanche 23 août** : Temps calme et ensoleillé, avec une légère hausse des températures, mais pas de chaleur excessive.
 
 **Points solides :**
-– Dégradation sur le quart sud-est avec des orages parfois forts attend. – Baisse des températures générales (maximums à 20-26°C sur ouest / nord).
+- Baisse généralisée des températures, surtout au nord, avec un ressenti plus automnal.
+- Dégradation orageuse active sur un large quart sud-est, avec un risque d'épisode méditerranéen.
+- Amélioration samedi après-midi, avec un temps sec et ensoleillé sur l'ensemble du pays.
 
 **Points fragiles :**
-– Pincertaine extension exacte sur l'Atlantique
-– Les cumuls peuvent varier de beaucoup localement (orages de convection).
+- Intensité exacte des pluies sur le sud-est : les modèles divergent encore entre un épisode modéré et un épisode intense.
+- Extension des averses vers le nord : certains modèles prévoient des pluies jusqu'en Île-de-France, d'autres les limitent au sud.
+- Moment précis de la fin des pluies : selon les scénarios, l'amélioration peut être plus précoce ou plus tardive.
 
 **À surveiller (prochains runs) :**
-– Prochaines sorties de l'IFS (00Z, 12Z), GFS (00z), et ICON pour identifier plus les zones lors de la goutte froide.
+- Les prochaines sorties d'ECMWF et UKMO pour affiner la localisation et l'intensité des fortes pluies.
+- La dynamique de la dépression sur les Baléares, qui pourrait renforcer le risque orageux en Méditerranée.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 24 au Dimanche 30 Août 2026
+## 🗓️ SEMAINE 2 : Du lundi 24 au dimanche 30 août 2026
 ### 💡 Points clés de la semaine 2
-1. Semaine très humide et orageuse : plaintes persistantes des modèles pour de fortes précipitations sur 3/4 du pays, notamment lundi puis mercredi.
-2. Büffes chaudes en essai mais non durables : Deux remontées de masse d'air chaud entre le 22-24 et le 26-28, sans dépasser des seuils canicule.
-3. Grande instabilité et potentiels explosifs : Énergie en hausse, mass d'air très chaud humide en surface dra incite Gumme.
-4. Le sud-est reste exposé aux averses intenses : Les roles peuvent être orageux en continue tout au long de la semaine.
-5. Timing important pour la vigilance : Semaine perdue pour Météo-France avec de nombreuses vigilances d'orages fortes probables.
+1. Orages récurrents : Plusieurs salves orageuses attendues sur une grande partie de la France, avec un risque de phénomènes violents.
+2. Chaleur lourde : Températures souvent proches des normales, avec des pointes chaudes passagères, surtout au sud.
+3. Incertitude majeure : Les modèles divergent fortement sur la trajectoire des dépressions, rendant la prévision peu fiable.
+4. Pas de canicule : Aucune vague de chaleur durable en vue, mais des bouffées d'air chaud avant les orages.
+5. Semaine à surveiller : Risque de vigilances orages, notamment lundi 24 et en milieu de semaine, selon l'évolution.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-– Les modèles sont assez d'accord pour un axe sud-ouest - front  sud-Est, avec des orages vt pluvieux.
-– sessions sur d'importantes accumulations de précipitations.
-– peu de consensus sur l'intensification réelle venue des températures : des montées sont partiellement.
+- Deux salves orageuses principales : l'une lundi 24, l'autre mercredi 26 ou jeudi 27.
+- Températures souvent proches des normales, avec un ressenti lourd et humide.
+- Pas de canicule durable, malgré des pointes chaudes temporaires avant les orages.
 **Points de divergence :**
-– Écart sur la force de la dégradation sur l'ouest : UKMO et ECMO bien plus soutenu que GFS / ICON côté G01.
-– Certaines rallyes de synthèse ont points moving (ECMWF – GFS dans l’alignement pour le cycle de la GF).
+- Trajectoire exacte des dépressions : certains modèles voient une goutte froide se bloquer, d'autres un passage plus rapide.
+- Localisation des fortes pluies : incertitude entre le sud-est, le centre-est et le sud-ouest.
+- Intensité des orages : le potentiel est élevé, mais certains runs montrent des orages plus faibles.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (EUROPEAN CENTRE / IFS)** (Documenté) | Deux grande dégradations : la première lundi, la seconde mercredi, avec un flux de sud-ouest dynamique, des contours en évolution de ses incertitudes. | Pluies durables, orages intenses sur les 3/4 du pays. | Sud-Ouest, Centre-Est, Sud-Est, entreront dans le Nord-Est. | Élevée (90 %). | Les scénarios avec une goutte froide isolée qui ne serait pas reprise par le courant sont minoritaires mais existe. La possibilité d'une cyclogenèse à l'impact d'ouest est en hausse sur les déterminés. |
-| **GFS (Run 00Z & 12Z) avec inclusions ICON** (Documenté) | Perspective de deuxième semaine d'août plus lourde que prévu, avec retour de gels de chaleur avant un week-end tons en appoint. Une GF s'isole au large du Portugal dimanche, fait remonter les bullet vent. | Gros cumulonimbus sur le Sud-Ouest-Oest, ensuite | Sud-30 premiers du pays, puis tout | Bonus modéré (65%). | En parallèle ICON – determinisme – évolue vers la GF du Portugal de manière autonome, nécessitant retenue. |
-| **UKMO / Arpegé / GDM (Meteo France)** (Documenté.) | surroundings très toxiques : Grande humidité et stabilité. Les modèles de MF en particulier indiquent deux de détériorations : lundi puis mercredi, avec risque d'orage dès lundi renforcé et massifs. | Orages violents et lames d'eau massives possibles. | Sud est, Massif central, Alpes du Nord | Élevée (80 %) | Risque épisode Cévens, mais dans le contexte, quelques projections avec Moins faible, pourtant la moyenne est à la surcversion. |
+| **Modèle Européen (ECMWF / IFS ENS)** (Documenté par Jojobarbar, Run999H, Sky blue) | Deux dégradations orageuses majeures, l'une en début de semaine (lundi-mardi), l'autre en milieu de semaine (mercredi-jeudi), avec un risque d'orages très pluvieux sur le sud-est et l'est. | Fortes pluies orageuses, grêle possible, rafales, puis rafraîchissement temporaire. | Moitié sud, Centre-Est, Est, avec débordements possibles vers le nord. | Élevée (85%) | L'IFS ENS met en évidence deux scénarios : le premier avec une goutte froide qui se déplace lentement, le second avec un talweg plus mobile. Dans les deux cas, des orages sont probables sur une large moitié sud. Les cumuls pourraient dépasser 50 mm sur le sud-est. |
+| **Modèle Américain (GFS / GEFS)** (Documenté par Nicolas L, F85, bruno50) | Dégradations orageuses moins marquées, avec un risque d'isolement d'une goutte froide au large du Portugal, entraînant une remontée chaude temporaire. | Orages épars, chaleur lourde, puis possible rafraîchissement en fin de semaine. | Sud-ouest, Méditerranée, moins actif sur le nord. | Modérée (65%) | GFS hésite entre une faiblesse du talweg et une cyclogenèse plus active. La tendance récente montre une possible hausse des températures (T850 de 20°C) sur le sud-ouest avant un front orageux. |
+| **Modèle Allemand (ICON)** (Mentionné par F85) | Tendance à isoler une goutte froide au large du Portugal, ce qui apporterait de l'air chaud et humide sur le sud-ouest avant un passage orageux. | Chaleur lourde, orages parfois forts en fin de semaine. | Sud-ouest, Centre. | Faible (45%) | ICON suggère une remontée chaude plus marquée, mais les autres modèles ne partagent pas cette hypothèse à ce stade. |
+| **Modèle Anglais (UKMO)** (Mentionné par Run999H) | S'aligne sur l'ECMWF pour une dégradation active lundi, avec un risque d'orages forts sur le centre-est et le sud-est. | Orages, pluies intenses, puis amélioration en fin de semaine. | Sud-est, Rhône-Alpes. | Modérée (60%) | UKMO renforce l'hypothèse d'un épisode orageux d'ampleur sur le sud-est, avec des cumuls potentiellement très élevés. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Nord** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Nord-Est** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Ouest et Façade Atlantique** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Centre** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Sud-Ouest** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Sud-Est et Vallée du Rhône** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Méditerranée et Corse** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Nord-Ouest** | Ciel variable, passages nuageux avec quelques averses possibles en début de semaine, puis amélioration. | Maximales de 20 à 25°C, en légère hausse en fin de semaine. | moderee | ECMWF, GFS | Impact des dégradations orageuses |
+| **Nord** | Ciel partagé, risque d'averses orageuses lundi et jeudi, puis éclaircies. | Maximales de 22 à 26°C, chaleur plus marquée en fin de semaine. | moderee | ECMWF, GFS | Extension des orages vers le nord |
+| **Nord-Est** | Temps instable avec passages orageux, notamment en début et milieu de semaine. | Maximales de 21 à 25°C, en hausse en fin de semaine. | moderee | ECMWF, UKMO | Intensité des orages |
+| **Ouest et Façade Atlantique** | Temps lourd et orageux en début de semaine, puis amélioration en milieu de semaine. | Maximales de 24 à 28°C, plus fraîches près de l'océan. | moderee | ECMWF, ICON | Position exacte des orages |
+| **Centre** | Ciel très nuageux, averses orageuses fréquentes, notamment lundi et mercredi. | Maximales de 23 à 27°C, en baisse après les orages. | moderee | ECMWF, GFS | Intensité des pluies |
+| **Sud-Ouest** | Chaleur lourde avec des orages fréquents, parfois violents, surtout lundi et jeudi. | Maximales de 27 à 32°C, avec un ressenti très lourd. | elevee | ECMWF, GFS, ICON | Déclenchement des orages |
+| **Sud-Est et Vallée du Rhône** | Risque d'épisode pluvio-orageux marqué, avec des périodes de très fortes pluies. | Maximales de 24 à 28°C, en baisse après les orages. | elevee | ECMWF, UKMO, ARPEGE, GFS | Intensité et durée des pluies |
+| **Méditerranée et Corse** | Orages parfois violents, avec un risque de fortes pluies et d'inondations soudaines. | Maximales de 27 à 30°C, plus fraîches après les orages. | elevee | ECMWF, UKMO, ARPEGE, GFS, ICON | Risque de phénomènes violents |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **24/08 W2 phase beginning: heavy downpours "day".** : un périodes de mackage to sudden risk.
-- **Phase 2** : heat tet relievo sur place after1st wave.
-- **Phase 3** : 21-29/08 : tentation FL chaud renaissance.
+- **Lundi 24 et mardi 25 août** : Première dégradation orageuse majeure, avec un risque fort sur le sud-est et le centre-est.
+- **Mercredi 26 et jeudi 27 août** : Possible répit temporaire, puis nouvelle salve orageuse, avec une chaleur lourde avant les orages.
+- **Vendredi 28 et samedi 29 août** : Temps plus calme, éclaircies, température en légère baisse sur l'ouest.
+- **Dimanche 30 août** : Possibilité d'un nouveau passage orageux sur l'est, mais incertitude importante.
 
 **Points solides :**
-–-phaseEn Les modèles mainfram line une convergence un ensure des deux barreaux orages violents lundi & mercredi
-– temp temp des Simulations ont "les hautes deux fois au-dessus des normals" mais pas flow canicule.
-– alack guarantee
+- Présence d'un contexte dépressionnaire récurrent, avec une instabilité marquée sur la moitié sud.
+- Risque d'orages forts et de pluies intenses, notamment sur le sud-est.
+- Températures ne montrant pas de vague de chaleur durable, malgré des bouffées chaudes passagères.
 
 **Points fragiles :**
-– Sur l'ensemble ouest, get assert a majority for thunders
-–Beaucoup plus urclock orientation for south-east flexin !.
+- Trajectoire exacte des dépressions, qui conditionnera la localisation des orages.
+- Intensité des précipitations, avec une incertitude sur le passage en vigilance orange.
+- Durée des périodes de répit entre les salves orageuses.
 
 **À surveiller (prochains runs) :**
-Watch the "DOS" GFS (00z &12) et ICON EMS also European ENS : real determining Cd Low hard to rush ridges.
+- Les sorties d'ECMWF pour déterminer si la goutte froide se déplace ou se bloque.
+- La position de l'anticyclone des Açores, qui pourrait limiter les dégradations.
 
 
 ========================================
@@ -120,17 +135,29 @@ Watch the "DOS" GFS (00z &12) et ICON EMS also European ENS : real determining C
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Tronçon du 20 au 30 : Humidité élevée et instabilité, orages fréquents sur la moitié sud puis nord – quelques éclaircies, avec des remontées "Nord" de chaleur momentanées mais bizarre – pas de durable ponse.
+Sur les 15 prochains jours, le temps reste instable et parfois orageux sur une grande partie de la France, avec des températures proches des normales, sans canicule durable. Des épisodes de fortes pluies sont possibles, notamment sur le sud-est.
 
 ### Période la plus fiable
-WEEK 1 : plus certain indices avec distinctions géographiques.
+La semaine 1 (20-23 août) semble plus fiable, avec un scénario de dégradation orageuse bien marqué sur le sud-est et une amélioration samedi. La semaine 2 est beaucoup plus incertaine.
+
+### Phénomènes récurrents
+- Orages de chaleur, parfois forts, avec de fortes pluies localisées.
+- Bouffées d'air chaud et humide avant chaque front orageux.
 
 ### Principales incertitudes
-position exactes goutte froide ; épais cum quotidien ouest; Under maximal over hardness for the second part
+- Trajectoire exacte des dépressions sur la semaine 2.
+- Intensité des précipitations sur le sud-est, avec un risque d'épisode cévenol.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** sur l’horloge exacte orages ; surtout sur la journée du dimanche (arrive en soi).
-- **Localisation :** Les dates épivent d'hypothèse sont brides; notamment ni sud corre enzone dra such cometacent "très estimates."
-- **Intensité :** Tt extent subject heavy storms.
-- **Informations manquantes :** large partie de nord absence versionsdes vents.
-- **Incertitudes images :** peu ensuring of eumet; "stress"
+- **Timing/Chronologie :** La chronologie exacte des dégradations orageuses de la semaine 2 est incertaine : les modèles varient sur le moment précis du passage des fronts (lundi vs mercredi).
+- **Localisation :** La localisation des fortes pluies reste floue, surtout sur le sud-est : certains modèles privilégient les Cévennes, d'autres la Provence ou le Var.
+- **Intensité :** L'intensité des orages est difficile à évaluer : le potentiel est élevé, mais la convection dépend de nombreux facteurs locaux, notamment le relief et les températures de surface.
+- **Informations manquantes :** Peu d'informations sur les conditions de vent en Méditerranée (mistral, tramontane) pour la semaine 2, et sur l'évolution des températures en Corse.
+- **Modèles sous-documentés :** Les modèles ICON et ARPEGE sont moins commentés que GFS et ECMWF, ce qui limite la confiance dans leurs scénarios.
+- **Incertitudes images :** Les cartes d'anomalies de précipitations montrent des divergences notables entre les modèles, notamment sur le sud-est, ce qui rend l'interprétation difficile.
+
+
+========================================
+
+## 📝 PROPOSITION DE POST LINKEDIN
+#Météo #Prévisions - Après un été marqué par la chaleur, la France bascule dans une phase plus instable. Pour les prochains jours, attendez-vous à des orages fréquents, notamment sur le sud-est, et à une baisse des températures. Pas de canicule en vue, mais une vigilance s'impose pour les fortes pluies. Restez informés ! 🌦️
