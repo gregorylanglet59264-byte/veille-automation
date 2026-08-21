@@ -1,121 +1,127 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Vendredi 21 Août 2026
-**Période :** Semaine 1 (Période exacte : Du lundi 24 au dimanche 30 août 2026) & Semaine 2 (Période exacte : Du lundi 31 août au dimanche 6 septembre 2026)
+**Période :** Semaine 1 (Du Lundi 24 au Dimanche 30 Août 2026) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accords sur le début orageux, désaccords sur la persistance de la chaleur.*
-- **Fiabilité du scénario majoritaire :** Retour progressif à un temps plus océanique — *Scénario le plus probable pour la semaine 2, mais non confirmé.*
+- **Consensus des modèles :** Modéré — *Accord sur l’absence de canicule durable, mais divergences sur le comportement des orages.*
+- **Fiabilité du scénario majoritaire :** Dégradation orageuse puis temps océanique — *Scénario majoritaire en semaine 1, très incertain en semaine 2.*
 - **Stabilité des cartes/scénarios :** 6 / 108 — *6 cartes sur 108 analysées*
-- **Niveau d'incertitude global :** Forte pour semaine 2 — *Aucun sujet forum spécifique, projections lointaines peu fiables.*
+- **Niveau d'incertitude global :** Forte — *Sujet semaine 36 non ouvert et ensembles de modèles éclatés.*
 
-## 🗓️ SEMAINE 1 : Période exacte : Du lundi 24 au dimanche 30 août 2026
+## 🗓️ SEMAINE 1 : Du Lundi 24 au Dimanche 30 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Chaleur lourde : Une poussée d’air chaud par le sud-ouest apportera 30°C à 33°C en début de semaine.
-2. Orages violents possibles : Une dégradation orageuse traversera le pays entre lundi et mercredi, avec un risque de fortes rafales.
-3. Nuits tropicales : Les températures minimales resteront élevées, notamment au sud et à l’est, avec une humidité marquée.
-4. Fraîcheur par l’ouest : Dès jeudi, un air plus océanique gagnera par l’Atlantique, faisant baisser les maximales.
-5. Baroud d’honneur estival : Cet épisode de chaleur marque la fin d’un été 2026 exceptionnel, selon les discussions.
+1. Baroud d'honneur estival : Deux pics de chaleur brefs et limités, surtout le sud-ouest et l'est.
+2. Dégradation orageuse lundi : Orages localement forts possibles entre le Sud-Ouest et PACA.
+3. Fortes pluies au sud-est : Cumuls importants envisagés, à surveiller de près.
+4. Nuits tropicales humides : Températures minimales élevées avec une atmosphère lourde.
+5. Recul des chaleurs : Temps océanique plus frais envisagé par l’ouest en fin de semaine.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Accord sur un début de semaine chaud et orageux, avec des températures maximales de 30 à 33°C au sud-ouest et à l’est.
-- Consensus sur une amélioration par l’ouest en seconde partie de semaine, avec une baisse des températures.
-- Tous les modèles voient un risque d’orages localement forts, notamment sur le sud-est et le pourtour méditerranéen.
+- Absence de canicule généralisée et prolongée ; seuls des pics de chaleur brefs sont envisagés.
+- Dégradation orageuse lundi 24, potentiellement forte, surtout entre le sud-ouest et PACA.
+- Températures minimales élevées et atmosphère humide, avec un recul des chaleurs par l’ouest en fin de semaine.
 **Points de divergence :**
-- Désaccord sur la position exacte du flux de sud : certains le voient plus à l’ouest, d’autres plus à l’est.
-- Intensité de la dégradation orageuse : devrait-elle être généralisée ou limitée au sud-est ?
-- Timing de la baisse des températures : est-elle arrivée dès jeudi ou vendredi ?
+- Intensité et localisation exactes des orages (talweg ou cyclogenèse plus marquée).
+- Fusion ou séparation des deux poussées chaudes selon CEP et GFS.
+- Timing précis du retour de l’air océanique plus frais par l’ouest.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP)** (Cohérent avec les discussions détaillées du forum.) | Flux de sud temporaire apportant de la chaleur, suivi d’une dégradation orageuse avec talweg. | Orages parfois violents, fortes pluies possibles sur le sud-est, températures élevées mais brèves. | Sud-ouest, est, puis généralisation ; amélioration par l’ouest en fin de semaine. | Élevée (85%) | Les échanges montrent un scénario bimodal dans les ensembles IFS, avec une majorité allant vers un talweg sans cyclogenèse marquée, mais le run déterministe privilégie un flux de sud temporaire. Les cartes CEP montrent des poussées chaudes à 850 hPa dépassant 20°C sur le sud-ouest. |
-| **GFS (américain)** (Pertinent, mais moins fiable dans ce cas (non précurseur selon les membres).) | Réunification des deux poussées chaudes en une seule, avec T850 > 20°C de dimanche à jeudi. | Chaleur lourde, orages potentiellement violents, risque de fortes précipitations. | Sud-ouest, façade est, région PACA. | Modérée (65%) | Les membres évoquent une continuité de la barre des 20°C à 850 hPa de dimanche à jeudi, avec un air chaud et humide à l’avant des orages. GFS est critiqué pour son manque d’anticipation sur ce scénario. |
+| **ECMWF (CEP)** (documenté) | Deux brèves poussées chaudes par le sud-ouest, puis dégradation orageuse et air océanique plus frais en seconde partie de semaine. (max 160 caractères) | Orages parfois forts lundi, fortes pluies possibles sur le sud-est, températures en baisse ensuite. (max 120 caractères) | Sud-Ouest, PACA, façade est, puis l’ensemble du pays. | Élevée (85%) | Poches de T850 à 20°C et plus, flux de sud temporaire, risque de fortes pluies dans le sud-est. Les deux poussées chaudes ont tendance à se scinder. Absence de signal caniculaire durable. |
+| **GFS** (documenté) | Poussée chaude unique plus franche, barre des 20°C à 850 hPa de dimanche à jeudi, dégradation orageuse ensuite. | Chaleur humide, orages violents possibles, fortes pluies sur le sud-est. | Grand Sud-Ouest, Est, PACA. | Élevée (85%) | GFS réunit les deux poussées chaudes en une seule, avec T850 >20°C en continu. Configuration dynamique et humide. Maximales modérées, minimales élevées. |
+| **IFS ENS (Ensembles ECMWF)** (partiel) | Quasi bimodal : 3/4 des scénarios vers un talweg sans cyclogenèse marquée, 1/4 vers un scénario plus musclé. | Incertitude forte sur l’intensité et la localisation des orages. | France entière, surtout sud-est. | Modérée (65%) | Scénarios partagés entre talweg et cyclogenèse. Incertitude marquée sur l’intensité de la dégradation orageuse lundi. |
+| **GEFS (Ensembles GFS)** (insuffisant) | Ensembles très éclatés, peu lisibles, pas de scénario net pour cette échéance. | Aucun temps sensible fiable ne se dégage. | Non déterminable. | Faible (45%) | GEFS peu lisibles et très éclatés, à utiliser avec précaution. Aucune tendance majoritaire exploitable. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Chaud et orageux en début de semaine, puis amélioration avec quelques averses. | Max 26-29°C lundi, puis baisse à 22-25°C en fin de semaine. | moderee | ECMWF, GFS | Position exacte du talweg et intensité des orages. |
-| **Nord** | Chaud avec passages orageux en début de semaine, puis nette amélioration. | Max 28-30°C lundi, 29°C mardi/mercredi, baisse à 26-28°C jeudi/vendredi. | elevee | Bulletins officiels, ECMWF | Risque d'orages forts localement. |
-| **Nord-Est** | Chaud et orageux en début de semaine, puis dégradation pluvieuse jeudi/vendredi. | Max 29-32°C lundi, 30°C mardi, baisse à 25-27°C en fin de semaine. | moderee | ECMWF, GFS | Extension exacte des orages et timing de la fraîcheur. |
-| **Ouest et Façade Atlantique** | Chaud et orageux lundi, puis temps plus calme et plus frais par l'ouest. | Max 30-33°C lundi, 30-32°C mardi, baisse à 24-26°C jeudi/vendredi. | elevee | Bulletins officiels, ECMWF | Intensité des orages et cumuls de pluie locaux. |
-| **Centre** | Chaud avec orages en début de semaine, puis amélioration progressive. | Max 29-32°C lundi, 30°C mardi, baisse à 26-28°C jeudi/vendredi. | moderee | ECMWF, GFS | Terminus précis des fortes chaleurs et orages. |
-| **Sud-Ouest** | Très chaud et orageux en début de semaine, puis dégradation orageuse et baisse des températures. | Max 29-32°C lundi, 31°C mardi, 25-28°C jeudi/vendredi. | elevee | Bulletins officiels, ECMWF, GFS | Position du talweg et risque d'orages supercellulaires. |
-| **Sud-Est et Vallée du Rhône** | Chaud et orageux en début de semaine, puis dégradation pluvieuse jeudi/vendredi. | Max 29-32°C lundi, 30-32°C mardi, 27-30°C jeudi/vendredi. | elevee | Bulletins officiels, ECMWF | Intensité des orages et risques de grêle. |
-| **Méditerranée et Corse** | Ensoleillé et très chaud lundi, puis orages forts mardi/mercredi, amélioration ensuite. | Max 30-33°C lundi, 30-33°C mardi, 28-31°C jeudi/vendredi, hausse samedi/dimanche. | elevee | Bulletins officiels, Bulletin côtier, ECMWF | Risque de pluies intenses sur le relief et le littoral. |
+| **Nord-Ouest** | Temps océanique, passages nuageux et averses possibles, températures en baisse en fin de semaine. | Maximales en baisse progressive, minimales douces. | moderee | ECMWF, GFS | Chronologie exacte du retour océanique |
+| **Nord** | Soleil voilé lundi, puis risque d'orages et pluies, températures en baisse le week-end. | Maximales 28-30°C lundi, puis 26-29°C, en baisse ensuite. | elevee | ECMWF, GFS | Intensité des orages |
+| **Nord-Est** | Flux de sud chaud en début de semaine, dégradation orageuse possible, puis baisse. | Chaudes lundi-mardi, puis en baisse. | moderee | ECMWF, GFS | Timing de la dégradation |
+| **Ouest et Façade Atlantique** | Orages lundi puis soleil, retour des pluies et de la fraîcheur jeudi-vendredi. | Maximales 30-33°C en début de semaine, puis 24-26°C. | elevee | ECMWF, GFS | Localisation des orages |
+| **Centre** | Chaud et lourd, orages possibles, puis temps plus frais en fin de semaine. | Maximales autour de 28-32°C, en baisse ensuite. | moderee | ECMWF, GFS | Position exacte de la perturbation |
+| **Sud-Ouest** | Orages lundi avec autan, éclaircies puis nouvelle dégradation jeudi-vendredi. | Maximales 29-32°C lundi, puis 25-28°C en fin de semaine. | elevee | ECMWF, GFS | Intensité des orages lundi |
+| **Sud-Est et Vallée du Rhône** | Soleil et chaleur en début de semaine, orages jeudi-vendredi, baisse le week-end. | Maximales 29-32°C mardi-mercredi, puis 27-30°C. | elevee | ECMWF, GFS | Cumuls de pluie orageuse |
+| **Méditerranée et Corse** | Beau temps chaud, orages possibles en milieu de semaine, amélioration le week-end. | Maximales 30-33°C, minimales élevées 19-22°C sur le littoral. | elevee | ECMWF, GFS | Cumuls de pluie et possible épisode méditerranéen |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 24 – mardi 25 août** : Chaleur lourde et orages parfois violents, surtout au sud et à l’est.
-- **Mercredi 26 août** : Accalmie relative, mais encore des averses orageuses sur une partie du pays.
-- **Jeudi 27 – vendredi 28 août** : Dégradation orageuse plus marquée, baisse des températures par l’ouest.
-- **Samedi 29 – dimanche 30 août** : Amélioration nette par l’ouest, temps plus frais et instable, quelques averses.
+- **Lundi 24 août** : Pic de chaleur bref puis dégradation orageuse potentiellement forte, surtout du sud-ouest à PACA.
+- **Mardi 25 et mercredi 26 août** : Éclaircies, chaleur humide, risque orageux résiduel, nuits tropicales.
+- **Jeudi 27 et vendredi 28 août** : Dégradation plus franche, pluies et orages, baisse des températures, vent modéré possible.
+- **Samedi 29 et dimanche 30 août** : Temps plus frais et océanique, averses possibles, amélioration progressive.
 
 **Points solides :**
-- Début de semaine chaud et orageux, avec maximales 30-33°C dans le sud-ouest et l’est.
-- Amélioration par l’ouest à partir de jeudi, avec baisse des températures.
-- Risque d’orages forts, notamment sur le sud-est et le pourtour méditerranéen.
+- Pas de canicule généralisée et prolongée à ce stade.
+- Dégradation orageuse lundi 24 avec risque de fortes pluies sur le sud-est.
+- Recul des fortes chaleurs par l’ouest en fin de semaine.
 
 **Points fragiles :**
-- Position exacte du flux de sud et étendue des fortes chaleurs.
-- Intensité et timing de la dégradation orageuse (généralisée ou régionale ?).
-- Rapidité de la baisse des températures en fin de semaine.
+- Localisation exacte des orages et cumuls associés.
+- Comportement des deux poussées chaudes (fusion ou séparation).
+- Intensité du vent sous orages, encore mal cernée.
 
 **À surveiller (prochains runs) :**
-- Prochains runs ECMWF 12Z et GFS 06Z pour préciser la trajectoire du talweg et l’intensité des orages.
-- Évolution du système tropical résiduel au large du Portugal, susceptible d’alimenter les orages.
+Runs de ce week-end (samedi 22 et dimanche 23) : évolution de la dégradation de lundi, position du talweg, comportement des T850 sur le sud-est.
 
 
-## 🗓️ SEMAINE 2 : Période exacte : Du lundi 31 août au dimanche 6 septembre 2026
+## 🗓️ SEMAINE 2 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Incertitude marquée : Le sujet spécifique Semaine 36 n’est pas encore ouvert, les prévisions restent très aléatoires.
-2. Tendance à la fraîcheur : Les projections long terme évoquent un flux océanique plus frais par l’ouest.
-3. Orages possibles : Des épisodes orageux résiduels pourraient se produire, notamment sur le sud-est.
-4. À surveiller : L’évolution des dépressions et la trajectoire des systèmes perturbés.
+1. Sujet non ouvert : Les prévisions de la semaine 36 reposent sur les projections long terme, très incertaines.
+2. Incertitude majeure : Aucune discussion dédiée, prudence absolue sur les détails.
+3. Instabilité possible : Orages encore plausibles, surtout sur le sud-est.
+4. Chaleur à confirmer : Températures potentiellement encore élevées, mais sans signal durable.
+5. À réévaluer : Nouveaux runs et ouverture du sujet Semaine 36 nécessaires.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Faible convergence : tendance à une baisse des températures par rapport à la semaine 1.
-- Possibilité d’épisodes orageux sur le sud-est, sans certitude.
+- Poursuite possible d’un temps instable et orageux, notamment sur le sud-est.
+- Températures encore élevées mais sans scénario caniculaire durable identifiable.
+- Incertitude générale forte, aucun consensus net.
 **Points de divergence :**
-- Forte divergence sur la rapidité de l’arrivée de l’air océanique.
-- Disparités sur la persistance de la chaleur à l’est.
+- Aucune divergence exploitable faute de sujet dédié ouvert.
+- Écarts entre modèles long terme non analysés par les membres à ce stade.
+- Timing de l’éventuelle baisse des températures non déterminable.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (projections 15j)** (Basé sur les sorties long terme du sujet Semaine 35, non confirmé.) | Possible retour d’un temps océanique avec températures proches des normales, mais forte divergence entre runs. | Averses éparses, plus frais à l’ouest, chaleur résiduelle à l’est. | Toutes zones, avec variation est-ouest. | Faible (45%) | Les projections à 15 jours montrent un conflit de masses d’air : air chaud stagnant sur l’est, air océanique poussant par l’ouest. Incertitude majeure sur l’ampleur de la baisse thermique. |
-| **GFS (384h)** (Trop lointain pour être fiable.) | Scénario d’un talweg persistant apportant un temps instable et plus frais. | Pluies orageuses sur le sud-est, températures en baisse. | Sud-est, Méditerranée, puis généralisation possible. | Faible (45%) | Quelques sorties suggèrent un maintien de l’air chaud sur l’est avec des orages, mais les ensembles sont très dispersés. |
+| **Projections long terme (ECMWF 15j, GFS 384h, ensembles)** (insuffisant) | Tendance encore instable et orageuse possible, températures élevées mais non durables, incertitudes fortes. | Averses orageuses possibles, chaleur humide, pas de signal fiable. | Sud-est, sud-ouest, façade est. | Faible (45%) | Sujet Semaine 36 non ouvert. Les projections long terme issues du sujet Semaine 35 évoquent la poursuite d’un temps instable, notamment dans le sud-est, sans certitude sur l’intensité. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Tendance incertaine, possible retour de nuages et averses. | Non estimable | non_estimable | ECMWF, GFS | Positionnement des systèmes perturbés. |
-| **Nord** | Chaude possiblement encore, mais dégradation possible. | Incertitude, autour de 25-30°C. | non_estimable | ECMWF | Flux de sud ou d’ouest ? |
-| **Nord-Est** | Chaud et orageux possible, puis baisse. | Max 26-32°C selon scénario. | non_estimable | GFS | Tenue de la chaleur à l’est. |
-| **Ouest et Façade Atlantique** | Probable retour d’un temps océanique, plus frais et instable. | Max 22-26°C, en baisse. | non_estimable | ECMWF | Puissance du talweg. |
-| **Centre** | Incertain, mélange de chaleur et d’orages. | Max 25-30°C. | non_estimable | ECMWF, GFS | Frontière entre air chaud et océanique. |
-| **Sud-Ouest** | Chaud au début, puis risque d’orages et baisse. | Max 28-32°C, puis 24-28°C. | non_estimable | GFS | Maintien du flux de sud. |
-| **Sud-Est et Vallée du Rhône** | Chaude et orageuse, puis baisse possible. | Max 29-33°C, puis 26-30°C. | non_estimable | ECMWF | Intensité de la dégradation. |
-| **Méditerranée et Corse** | Fortes chaleurs possibles en début, puis orages. | Max 30-34°C, puis 28-32°C. | non_estimable | GFS | Trajectoire des dépressions méditerranéennes. |
+| **Nord-Ouest** | Tendance incertaine, possible temps océanique avec averses. | Incertaines, probablement proches des normales. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
+| **Nord** | Tendance incertaine, orages ou averses possibles. | Incertaines, probablement autour des normales. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
+| **Nord-Est** | Tendance incertaine, possible maintien d'une chaleur humide. | Incertaines, peut-être encore au-dessus des normales. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
+| **Ouest et Façade Atlantique** | Tendance incertaine, alternance d'éclaircies et d'averses. | Incertaines, probablement en légère baisse. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
+| **Centre** | Tendance incertaine, temps lourd avec orages possibles. | Incertaines, probablement encore élevées. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
+| **Sud-Ouest** | Tendance incertaine, coups de chaud et orages possibles. | Incertaines, potentiellement encore chaudes. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
+| **Sud-Est et Vallée du Rhône** | Tendance incertaine, orages ou fortes pluies possibles. | Incertaines, encore chaudes en début de semaine. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
+| **Méditerranée et Corse** | Tendance incertaine, épisode pluvio-orageux possible. | Incertaines, minimales encore élevées. | faible | ECMWF, GFS | Sujet Semaine 36 non ouvert ; projections long terme à confirmer. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 31 – mardi 1er septembre** : Possible prolongation de la chaleur orageuse sur l’est.
-- **Mercredi 2 – jeudi 3 septembre** : Incertitude, possible évolution orageuse.
-- **Vendredi 4 – samedi 5 septembre** : Possible baisse des températures par l’ouest, averses.
-- **Dimanche 6 septembre** : Tendance inconnue, à surveiller.
+- **Lundi 31 août - mardi 1er septembre** : Incertitude forte, orages possibles sur le sud-est, chaleur humide à confirmer.
+- **Mercredi 2 - jeudi 3 septembre** : Tendance incertaine, possible baisse des températures par l’ouest.
+- **Vendredi 4 - samedi 5 septembre** : Aucun scénario fiable, à réévaluer avec les prochains runs.
+- **Dimanche 6 septembre** : Incertitude totale, situation à préciser.
 
 **Points solides :**
-- Aucun point solide : la semaine 36 est encore loin et sujette à de fortes variations.
+- Aucun point solide ne se dégage pour la semaine 36.
+- Le seul élément récurrent des projections long terme est la persistance d’un risque orageux sur le sud-est.
+- Températures potentiellement encore élevées mais sans canicule durable identifiable.
 
 **Points fragiles :**
-- Tout est fragile, notamment la chronologie de la baisse de températures.
+- Tout le détail de la semaine 36 est fragile.
+- Localisation des orages, cumuls de pluie, timing de la baisse des températures : non déterminables.
+- Absence de sujet dédié sur le forum : aucune validation croisée possible.
 
 **À surveiller (prochains runs) :**
-- Ouverture imminente du sujet Semaine 36 sur le forum.
-- Analyses des modèles à 10-15 jours pour confirmer ou infirmer le retour d'un temps plus frais.
+Ouverture du sujet Semaine 36 sur Infoclimat, runs ECMWF 00Z/12Z, GFS 384h, et mise à jour des ensembles.
 
 
 ========================================
@@ -123,27 +129,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Après une semaine 35 marquée par un baroud d’honneur estival, la semaine 36 devrait voir une baisse progressive des températures, avec un retour probable d’un temps océanique, mais les incertitudes demeurent fortes.
+Baroud d’honneur estival en début de semaine prochaine, puis dégradation orageuse et baisse des températures. La semaine du 31 août reste très incertaine, avec un possible maintien d’un temps instable et chaud, notamment dans le sud-est.
 
 ### Période la plus fiable
-Semaine 1 (24-30 août) : confiance modérée à élevée, grâce aux discussions détaillées et aux bulletins officiels.
+Semaine 1 (24-30 août), avec une confiance modérée à élevée grâce aux bulletins officiels et aux discussions détaillées des membres.
 
 ### Phénomènes récurrents
-Orages violents, fortes pluies localisées, nuits chaudes et humides.
+Orages, chaleur humide, nuits tropicales, fortes pluies possibles sur le sud-est.
 
 ### Principales incertitudes
-Position exacte du flux de sud, intensité des orages, timing de la fraîcheur en semaine 2.
+Semaine 2 non documentée, intensité et localisation des orages, timing du retour océanique.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le moment exact de la baisse des températures (jeudi ou vendredi ?) est incertain, surtout pour la semaine 2.
-- **Localisation :** L’étendue géographique des orages violents et la zone de contact entre air chaud et océanique restent floues.
-- **Intensité :** Risque de fortes pluies sur le sud-est (épisode méditerranéen ?) à surveiller.
-- **Informations manquantes :** Pas de prévisions pour le vent sur plusieurs zones, ni de détails sur le relief.
-- **Modèles sous-documentés :** Les modèles UKMO, ARPEGE, ICON ne sont pas mentionnés dans les discussions.
-- **Incertitudes images :** Les cartes de La Chaîne Météo montrent des contradictions entre elles ; il faut attendre des sources fiables.
+- **Timing/Chronologie :** Doutes sur la chronologie exacte de la dégradation de lundi et sur le moment du retour de l’air océanique en fin de semaine 1. Semaine 2 totalement incertaine.
+- **Localisation :** Localisation précise des orages et des fortes pluies, notamment entre le sud-ouest et PACA. Zones concernées par les plus forts cumuls encore incertaines.
+- **Intensité :** Intensité des orages (grêle, rafales, cumuls), hauteur des températures lors des pics de chaleur, et degré de baisse en fin de semaine.
+- **Informations manquantes :** Aucune donnée exploitable pour la semaine 36 sur le forum. Manque de discussions dédiées, de cartes de runs et d’analyses de membres pour cette échéance.
+- **Modèles sous-documentés :** GEFS très peu lisible, arpège non commenté, AROME non cité. Les projections long terme de la semaine 2 ne sont pas validées par des messages dédiés.
+- **Incertitudes images :** Cartes de La Chaîne Météo contradictoires à 8h d’écart ; graphiques GFS et CEP non consolidés. Incertitude sur les cartes de T850 et de précipitations proposées par les membres.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-☀️🔍 Bulletin de prévision saisonnière : après un été 2026 exceptionnel, la France entre dans une phase de transition. La semaine 35 (24-30 août) s’annonce encore chaude et orageuse, avec des maximales de 30 à 33°C dans le sud et l’est. Ensuite, le scénario d’un retour à un temps plus frais et océanique se précise pour la semaine 36, mais avec de fortes incertitudes. Restez prudents et suivez les prochains modèles ! #Météo #Prévisions #Été2026
+🌦️ Tendance météo des deux prochaines semaines : le baroud d’honneur estival se poursuit avec deux pics de chaleur brefs, avant une dégradation orageuse lundi, potentiellement forte entre le Sud-Ouest et PACA. Les fortes chaleurs devraient ensuite reculer par l’ouest. La semaine du 31 août reste très incertaine, le sujet dédié n’étant pas encore ouvert. Suivi à venir !
