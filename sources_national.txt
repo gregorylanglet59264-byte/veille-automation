@@ -318,12 +318,12 @@ précipitations possibles, surtout sur le sud-est jeudi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 21/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,34 +331,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 21 Août 2026.
-Résumé général précédent : Transition d'un été très chaud vers un temps plus dynamique et humide, sans canicule durable. Températures encore 2 à 4°C au-dessus des normales et orages récurrents sur la moitié sud..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pics de chaleur courts dans le sud-ouest, orages surtout moitié sud, nuits tropicales..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Téton dans les nuages
-Message:
-Pour résumer le yo-yo émotionnel qu'est la prévision pour cette semaine, deux cartes de "La Chaîne Météo" postées à seulement 8h d'écarts aujourd'hui : 
-	Ce matin à 8h --&gt; au moins 7 jours sous les normes ITN à partir de Vendredi, sous-titré "Vers la fin assez durable des fortes chaleurs" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-19/canicule-est-ce-la-fin-des-fortes-chaleurs-91469
-	Cet AM à 16h --&gt; à peine 2 jours sous les normes ITN à partir de Vendredi puis "Nouveau bref pic de chaleur avant les orages la semaine prochaine" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-20/orages-ce-n-est-pas-fini-nouvelle-degradation-des-lundi-91495
-								3
-								8
-								3
-
-=======================
-
-Auteur: Sky blue
-Message:
-LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
-	Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	Modifié hier à 16:40 par Sky blue
-								1
-								1
-								1
-
-=======================
-
 Auteur: MidiPy
 Message:
 Il y a 1 heure, petit âge glaciaire 11 a dit :
@@ -409,7 +387,7 @@ Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
 			Toulouse :
 	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
 	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
-	Modifié il y a 22 heures par petit âge glaciaire 11
+	Modifié hier à 19:05 par petit âge glaciaire 11
 Modifié
 								2
 
@@ -423,7 +401,7 @@ Message:
 	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	A noter que cette fois GFS n'a pas été précurseur (ce qui n'en fait pas un mauvais modèle à mes yeux !). Que l'on se souvienne aussi des cas négatifs.
 	Quand on regardait les ensembles, GEFS étaient beaucoup moins lisible, très éclatés, tandis que IFS ENS était quasi bimodal : 3/4 des scénarios (dont le déterministe) allant vers un talweg sans cyclogenèse marquée, 1/4 allant vers le scénario qui se sera finalement révélé majoritaire.
-	Modifié il y a 21 heures par Jojobarbar
+	Modifié il y a 23 heures par Jojobarbar
 								1
 								1
 								1
@@ -443,7 +421,7 @@ Message:
 il y a une heure, Jojobarbar a dit :
 			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié il y a 20 heures par Virgile
+	Modifié il y a 22 heures par Virgile
 								3
 								1
 
@@ -486,7 +464,7 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 7 heures par mike
+	Modifié il y a 9 heures par mike
 								2
 
 =======================
@@ -538,6 +516,7 @@ Message:
 Elle est belle celle-là, je vais la garder dans mes archives je pense!
 	😍
 								1
+								1
 
 =======================
 
@@ -546,32 +525,38 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 1 heure par nickdu77
+	Modifié il y a 3 heures par nickdu77
 Faute de frappe
+								1
+
+=======================
+
+Auteur: meteo noobs
+Message:
+Il y a 1 heure, Leonai a dit :
+			Elle est belle celle-là, je vais la garder dans mes archives je pense!
+			😍
+	@Leonai j'ai regardé l'ensemble c'est un des scénarios les plus bas pour cette date. Très en dessous de la moyenne malheureusement 
+	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
+	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
+	Est ce la GF mutante qui les perturbe ?
+	Modifié il y a 1 heure par meteo noobs
+								1
+
+=======================
+
+Auteur: tao
+Message:
+il y a une heure, meteo noobs a dit :
+			Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
+			Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
+			Est ce la GF mutante qui les perturbe ?
+	Bonsoir,
+	pas d'illustration, pas de balise dans le temps, pas de repère géographique...
+	C'est vraiment difficile de savoir de quoi tu parles ou à qui tu t'adresses. Ce serait quand même pas mal de faire un effort pour les nombreux lecteurs qui doivent commencer à se demander si tu ne parles pas à ceux qui habites dans ta tête ou si tu n'essaies pas d'envoyer des messages subliminaux aux extra terrestres. Il ne faudrait pas que ce forum devienne le pendant du vide de certains réseaux sociaux.
+	Modifié il y a 10 minutes par tao
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Téton dans les nuages
-Message:
-Pour résumer le yo-yo émotionnel qu'est la prévision pour cette semaine, deux cartes de "La Chaîne Météo" postées à seulement 8h d'écarts aujourd'hui : 
-	Ce matin à 8h --&gt; au moins 7 jours sous les normes ITN à partir de Vendredi, sous-titré "Vers la fin assez durable des fortes chaleurs" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-19/canicule-est-ce-la-fin-des-fortes-chaleurs-91469
-	Cet AM à 16h --&gt; à peine 2 jours sous les normes ITN à partir de Vendredi puis "Nouveau bref pic de chaleur avant les orages la semaine prochaine" https://actualite.lachainemeteo.com/actualite-meteo/2026-08-20/orages-ce-n-est-pas-fini-nouvelle-degradation-des-lundi-91495
-								3
-								8
-								3
-
-=======================
-
-Auteur: Sky blue
-Message:
-LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
-	Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	Modifié hier à 16:40 par Sky blue
-								1
-								1
-								1
-
-=======================
-
 Auteur: MidiPy
 Message:
 Il y a 1 heure, petit âge glaciaire 11 a dit :
@@ -622,7 +607,7 @@ Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
 			Toulouse :
 	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
 	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
-	Modifié il y a 22 heures par petit âge glaciaire 11
+	Modifié hier à 19:05 par petit âge glaciaire 11
 Modifié
 								2
 
@@ -636,7 +621,7 @@ Message:
 	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	A noter que cette fois GFS n'a pas été précurseur (ce qui n'en fait pas un mauvais modèle à mes yeux !). Que l'on se souvienne aussi des cas négatifs.
 	Quand on regardait les ensembles, GEFS étaient beaucoup moins lisible, très éclatés, tandis que IFS ENS était quasi bimodal : 3/4 des scénarios (dont le déterministe) allant vers un talweg sans cyclogenèse marquée, 1/4 allant vers le scénario qui se sera finalement révélé majoritaire.
-	Modifié il y a 21 heures par Jojobarbar
+	Modifié il y a 23 heures par Jojobarbar
 								1
 								1
 								1
@@ -656,7 +641,7 @@ Message:
 il y a une heure, Jojobarbar a dit :
 			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié il y a 20 heures par Virgile
+	Modifié il y a 22 heures par Virgile
 								3
 								1
 
@@ -699,7 +684,7 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 7 heures par mike
+	Modifié il y a 9 heures par mike
 								2
 
 =======================
@@ -751,6 +736,7 @@ Message:
 Elle est belle celle-là, je vais la garder dans mes archives je pense!
 	😍
 								1
+								1
 
 =======================
 
@@ -759,5 +745,33 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 1 heure par nickdu77
+	Modifié il y a 3 heures par nickdu77
 Faute de frappe
+								1
+
+=======================
+
+Auteur: meteo noobs
+Message:
+Il y a 1 heure, Leonai a dit :
+			Elle est belle celle-là, je vais la garder dans mes archives je pense!
+			😍
+	@Leonai j'ai regardé l'ensemble c'est un des scénarios les plus bas pour cette date. Très en dessous de la moyenne malheureusement 
+	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
+	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
+	Est ce la GF mutante qui les perturbe ?
+	Modifié il y a 1 heure par meteo noobs
+								1
+
+=======================
+
+Auteur: tao
+Message:
+il y a une heure, meteo noobs a dit :
+			Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
+			Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
+			Est ce la GF mutante qui les perturbe ?
+	Bonsoir,
+	pas d'illustration, pas de balise dans le temps, pas de repère géographique...
+	C'est vraiment difficile de savoir de quoi tu parles ou à qui tu t'adresses. Ce serait quand même pas mal de faire un effort pour les nombreux lecteurs qui doivent commencer à se demander si tu ne parles pas à ceux qui habites dans ta tête ou si tu n'essaies pas d'envoyer des messages subliminaux aux extra terrestres. Il ne faudrait pas que ce forum devienne le pendant du vide de certains réseaux sociaux.
+	Modifié il y a 10 minutes par tao
