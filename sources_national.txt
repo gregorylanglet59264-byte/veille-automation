@@ -132,10 +132,10 @@ Températures minimales : en baisse.
 Températures maximales : en hausse autour de la Sainte Baume.En baisse de Marignane à Carry le Rouet.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 21/08/2026 09:30
+Emis le : 21/08/2026 10:01
 
 Vigilance :
-Attention, aujourd'hui, le département de la Gironde est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
+Aujourd'hui et demain, le département de la Gironde est en vigilance verte.
 
 Observations :
 Aujourd'hui on observait à 09h :
@@ -348,11 +348,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 21/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -360,40 +360,19 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 21 Août 2026.
-Résumé général précédent : Après une semaine 35 marquée par un baroud d’honneur estival, la semaine 36 devrait voir une baisse progressive des températures, avec un retour probable d’un temps océanique, mais les incertitudes demeurent fortes..
+Résumé général précédent : Baroud d’honneur estival en début de semaine prochaine, puis dégradation orageuse et baisse des températures. La semaine du 31 août reste très incertaine, avec un possible maintien d’un temps instable et chaud, notamment dans le sud-est..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages parfois violents, fortes pluies possibles sur le sud-est, températures élevées mais brèves..
+Températures attendues précédemment : Orages parfois forts lundi, fortes pluies possibles sur le sud-est, températures en baisse ensuite. (max 120 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Sky blue
-Message:
-Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute la semaine prochaine probable. Très pénible et lourd à l'avant des salves orageuses🥵. Et très violent dessous.⛈️
-	Modifié hier à 07:25 par Sky blue
-								9
-								2
-								1
-								3
-
-=======================
-
-Auteur: Guillaume39
-Message:
-À supprimer 
-	Modifié il y a 18 heures par Guillaume39
-								1
-								2
-								1
-
-=======================
-
 Auteur: Virgile
 Message:
 Il y a 11 heures, Run999H a dit :
 			Mais ça, ça ne se confirme pas. 
 	Plus fraiche que la 1er quinzaine, oui, c'est évident. Le flux de sud temporaire se décalerait en effet à peu plus vers l'ouest que prévu en tout début de semaine prochaine sur le sud ouest mais surtout sur la façade est du pays avant que l'air frais + océanique présent sur l'ouest gagne le pays en seconde partie de semaine.  Quelques journées chaudes sont donc prévues en début de semaine sur le sud ouest et l'est du pays mais jusqu'au 15 octobre, comme je l'ai dit sur un autre topic, c'est encore loin et on va encore connaitre des journées chaudes. Le risque caniculaire généralisé et prolongé est pour l'instant écarté.
 	Le vrai risque est la possibilité de fortes pluies dans le sud est avec ce flux de sud.
-	Modifié il y a 22 heures par Virgile
+	Modifié hier à 09:15 par Virgile
 
 =======================
 
@@ -432,7 +411,7 @@ La configuration ne semble pas etre propice a une nouvelle VDC ou canicule mais 
 	Au sol cela donnerait des températures bien inférieures a celles qu'on vient de connaître. 
 	Lundi :
 	Jeudi :
-	Modifié il y a 18 heures par petit âge glaciaire 11
+	Modifié il y a 20 heures par petit âge glaciaire 11
 								1
 
 =======================
@@ -463,7 +442,7 @@ il y a une heure, Luidjy a dit :
 	Édit : j'ai regardé et finalement on a les températures à 17h il ne faut pas mettre valeur maximales mais valeurs à 2m. 
 	Mais la surprise dans le sud-ouest les températures sont moins élevées à 17h qu'à 20h mais identiques plus au nord.
 	Comme quoi c'est très variable :
-	Modifié il y a 16 heures par petit âge glaciaire 11
+	Modifié il y a 18 heures par petit âge glaciaire 11
 								2
 								1
 
@@ -498,7 +477,7 @@ Auteur: Sky blue
 Message:
 LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
 	Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	Modifié il y a 15 heures par Sky blue
+	Modifié il y a 17 heures par Sky blue
 								1
 								1
 								1
@@ -555,7 +534,7 @@ Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
 			Toulouse :
 	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
 	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -569,7 +548,7 @@ Message:
 	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	A noter que cette fois GFS n'a pas été précurseur (ce qui n'en fait pas un mauvais modèle à mes yeux !). Que l'on se souvienne aussi des cas négatifs.
 	Quand on regardait les ensembles, GEFS étaient beaucoup moins lisible, très éclatés, tandis que IFS ENS était quasi bimodal : 3/4 des scénarios (dont le déterministe) allant vers un talweg sans cyclogenèse marquée, 1/4 allant vers le scénario qui se sera finalement révélé majoritaire.
-	Modifié il y a 11 heures par Jojobarbar
+	Modifié il y a 13 heures par Jojobarbar
 								1
 								1
 								1
@@ -589,39 +568,39 @@ Message:
 il y a une heure, Jojobarbar a dit :
 			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
+								3
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Bonjour,
+	Une question. Est-ce que le changement de synoptique évoqué par certains est toujours d'actualité ? Si oui, est-ce durable ou juste pour le topic ?
+	Certains sites comme la Chaîne Météo évoque un phénomène de courte durée.
+	Merci.
+
+=======================
+
+Auteur: tao
+Message:
+Bonjour,
+	Pour la chaine météo, ce n'est pas la peine Plancher... 
+	Pour le changement de synoptique, il est à l'œuvre en ce moment (on est sorti de la domination du blocage). Ensuite, d'après les modèles sub saisonniers, il n'y aurait pas de synoptique bien typique qui prendrait nettement le pas sur une autre.
+	Une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.     
+	Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 								3
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Sky blue
-Message:
-Instable et orageux oui, mais frais non. Des poches de T850 à 20° et + toute la semaine prochaine probable. Très pénible et lourd à l'avant des salves orageuses🥵. Et très violent dessous.⛈️
-	Modifié hier à 07:25 par Sky blue
-								9
-								2
-								1
-								3
-
-=======================
-
-Auteur: Guillaume39
-Message:
-À supprimer 
-	Modifié il y a 18 heures par Guillaume39
-								1
-								2
-								1
-
-=======================
-
 Auteur: Virgile
 Message:
 Il y a 11 heures, Run999H a dit :
 			Mais ça, ça ne se confirme pas. 
 	Plus fraiche que la 1er quinzaine, oui, c'est évident. Le flux de sud temporaire se décalerait en effet à peu plus vers l'ouest que prévu en tout début de semaine prochaine sur le sud ouest mais surtout sur la façade est du pays avant que l'air frais + océanique présent sur l'ouest gagne le pays en seconde partie de semaine.  Quelques journées chaudes sont donc prévues en début de semaine sur le sud ouest et l'est du pays mais jusqu'au 15 octobre, comme je l'ai dit sur un autre topic, c'est encore loin et on va encore connaitre des journées chaudes. Le risque caniculaire généralisé et prolongé est pour l'instant écarté.
 	Le vrai risque est la possibilité de fortes pluies dans le sud est avec ce flux de sud.
-	Modifié il y a 22 heures par Virgile
+	Modifié hier à 09:15 par Virgile
 
 =======================
 
@@ -660,7 +639,7 @@ La configuration ne semble pas etre propice a une nouvelle VDC ou canicule mais 
 	Au sol cela donnerait des températures bien inférieures a celles qu'on vient de connaître. 
 	Lundi :
 	Jeudi :
-	Modifié il y a 18 heures par petit âge glaciaire 11
+	Modifié il y a 20 heures par petit âge glaciaire 11
 								1
 
 =======================
@@ -691,7 +670,7 @@ il y a une heure, Luidjy a dit :
 	Édit : j'ai regardé et finalement on a les températures à 17h il ne faut pas mettre valeur maximales mais valeurs à 2m. 
 	Mais la surprise dans le sud-ouest les températures sont moins élevées à 17h qu'à 20h mais identiques plus au nord.
 	Comme quoi c'est très variable :
-	Modifié il y a 16 heures par petit âge glaciaire 11
+	Modifié il y a 18 heures par petit âge glaciaire 11
 								2
 								1
 
@@ -726,7 +705,7 @@ Auteur: Sky blue
 Message:
 LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
 	Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	Modifié il y a 15 heures par Sky blue
+	Modifié il y a 17 heures par Sky blue
 								1
 								1
 								1
@@ -783,7 +762,7 @@ Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
 			Toulouse :
 	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
 	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -797,7 +776,7 @@ Message:
 	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	A noter que cette fois GFS n'a pas été précurseur (ce qui n'en fait pas un mauvais modèle à mes yeux !). Que l'on se souvienne aussi des cas négatifs.
 	Quand on regardait les ensembles, GEFS étaient beaucoup moins lisible, très éclatés, tandis que IFS ENS était quasi bimodal : 3/4 des scénarios (dont le déterministe) allant vers un talweg sans cyclogenèse marquée, 1/4 allant vers le scénario qui se sera finalement révélé majoritaire.
-	Modifié il y a 11 heures par Jojobarbar
+	Modifié il y a 13 heures par Jojobarbar
 								1
 								1
 								1
@@ -817,6 +796,27 @@ Message:
 il y a une heure, Jojobarbar a dit :
 			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
 	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié il y a 10 heures par Virgile
+	Modifié il y a 12 heures par Virgile
+								3
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Bonjour,
+	Une question. Est-ce que le changement de synoptique évoqué par certains est toujours d'actualité ? Si oui, est-ce durable ou juste pour le topic ?
+	Certains sites comme la Chaîne Météo évoque un phénomène de courte durée.
+	Merci.
+
+=======================
+
+Auteur: tao
+Message:
+Bonjour,
+	Pour la chaine météo, ce n'est pas la peine Plancher... 
+	Pour le changement de synoptique, il est à l'œuvre en ce moment (on est sorti de la domination du blocage). Ensuite, d'après les modèles sub saisonniers, il n'y aurait pas de synoptique bien typique qui prendrait nettement le pas sur une autre.
+	Une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.     
+	Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 								3
 								1
