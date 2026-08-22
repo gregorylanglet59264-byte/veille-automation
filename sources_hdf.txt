@@ -279,7 +279,7 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse sur la Thiérache, sur le Laonnois ainsi que sur le Valois et le Tardenois.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 220935 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 22 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 22 août 2026 à 06H00 UTC, et évolution Anticyclone 1029 hPa situé à 600 Nm à l'ouest de l'Irlande se décalant vers l'est, prévu 1027 hPa sur les îles britanniques demain matin. Dépression 992 hPa, quasi-stationnaire à l'ouest du Portugal. Thalweg associé se creusant 1010 hPa au sud du golfe de Gascogne demain. 3 - Prévisions pour l'après-midi du samedi 22 août VENT : Nord à Nord-Est 3 à 4, localement 5 en Mer du Nord en début d'après-midi. MER : peu agitée, localement agitée vers la frontière Belge. HOULE : Nord à Nord-Est 0.5 à 1 m. TEMPS : ensoleillé, rares averses en Mer du Nord en début d'après-midi. VISIBILITE : bonne, localement moyenne sous averses en début d'après-midi. 4 - Prévisions pour la nuit du samedi 22 août au dimanche 23 août VENT : Est à Nord-Est 2 à 4, mollissant 1 à 3 en fin de nuit et virant localement Sud-Est en Manche. MER : peu agitée, devenant belle en Manche en deuxième partie de nuit. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : peu nuageux, devenant très nuageux avec quelques averses en Mer du Nord en fin de nuit. VISIBILITE : bonne, localement moyenne sous averses. 5 - Prévisions pour la journée du dimanche 23 août VENT : Variable 1 à 3, s'orientant secteur Nord-Est 2 à 4 à la mi-journée. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : nuageux avec quelques averses, ensoleillé l'après-midi. VISIBILITE : bonne, parfois moyenne sous averses. 6 - Prévisions pour la nuit du 23 au 24 et la journée du lundi 24 août VENT : Est à Nord-Est 3 à 4, fraîchissant Est 4 à 5 en milieu de nuit, puis 5 à 6 en Mer du Nord l'après-midi. Rafales. MER : belle à peu agitée, s'amplifiant peu agitée à agitée l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : beau temps. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : Est 6 mollissant 4 à 5 en seconde partie de nuit. MER : agitée, devenant peu agitée en milieu d'après-midi. HOULE de Nord-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Mercredi 26 août secteur Sud faible à modéré à l'Ouest du domaine, secteur Sud-Ouest faible à l'Est du domaine. Indice de confiance : 4 sur 5 Jeudi 27 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 28 août secteur Ouest modéré à assez fort à l'Ouest du domaine, secteur Sud-Ouest modéré à fort à l'Est du domaine. Indice de confiance : 2 sur 5 Samedi 29 août secteur Ouest modéré. Indice de confiance : 2 sur 5 9 - Observations le samedi 22 août 2026 à 09H00 UTC Dunkerque : vent Nord 10 noeuds, 1021 hPa en hausse. Cap Gris Nez : vent Nord 16 noeuds. Boulogne : vent Nord 8 noeuds, rafales 19 noeuds, 1021 hPa en hausse, nuageux avec éclaircies, visibilité 13 milles. Prochain bulletin le samedi 22 août 2026, vers 18H00 légales
+FQCT40 LFQQ 221610 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 22 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 22 août 2026 à 12H00 UTC, et évolution Anticyclone 1029 hPa situé à l'ouest de l'Irlande se décalant vers l'est, prévu 1027 hPa sur les îles britanniques demain matin. Dépression 997 hPa, quasi-stationnaire à l'ouest du Portugal. Thalweg associé se creusant 1010 hPa au sud du golfe de Gascogne demain. 3 - Prévisions pour la nuit du samedi 22 août au dimanche 23 août VENT : Est à Nord-Est 2 à 4, mollissant 1 à 3 en deuxième partie de nuit. MER : peu agitée, devenant belle en Manche en deuxième partie de nuit. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : peu nuageux, devenant très nuageux avec quelques averses en Mer du Nord en fin de nuit. VISIBILITE : bonne, localement moyenne sous averses. 4 - Prévisions pour la journée du dimanche 23 août VENT : Est à Nord-Est 1 à 3, fraîchissant 2 à 4 à la mi-journée. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : nuageux avec quelques averses, ensoleillé l'après-midi. VISIBILITE : bonne, parfois moyenne sous averses. 5 - Tendance pour la nuit du 23 au 24, et la journée du lundi 24 août VENT : Est à Nord-Est 3 à 4, fraîchissant Est 4 à 5 en fin de nuit, puis 5 à 6 en Mer du Nord l'après-midi. Rafales. MER : belle à peu agitée, s'amplifiant peu agitée à agitée l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : Est 6 mollissant 4 à 5 en seconde partie de nuit. MER : agitée, devenant peu agitée en milieu d'après-midi. HOULE de Nord-Est 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 26 août secteur Sud faible à modéré à l'Ouest du domaine, secteur Sud-Ouest faible à l'Est du domaine. Indice de confiance : 4 sur 5 Jeudi 27 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 28 août secteur Ouest modéré à assez fort à l'Ouest du domaine, secteur Sud-Ouest modéré à fort à l'Est du domaine. Indice de confiance : 2 sur 5 Samedi 29 août secteur Ouest modéré. Indice de confiance : 2 sur 5 8 - Observations le samedi 22 août 2026 à 15H00 UTC Dunkerque : vent Nord 12 noeuds, 1023 hPa en hausse. Cap Gris Nez : vent Nord-Est 10 noeuds. Boulogne : vent Nord-Nord-Ouest 10 noeuds, 1023 hPa en hausse. Bouée Sandettie : vent Nord 12 noeuds, creux 0,9 mètre, 1023 hPa en baisse, visibilité 5 milles. Prochain bulletin le dimanche 23 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -309,12 +309,12 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Le topic du Jardinage
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
 • Infoclimat Direct : 20°C consécutives]]>
-• Infoclimat Direct : Le topic du Jardinage
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 22/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,9 +322,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 22 Août 2026.
-Résumé général HDF précédent : Temps de traîne estival typique: aucune canicule en vue, un changement de circulation s'opère avec un axe dépressionnaire qui se met en place sur l'Europe de l'Ouest. Le temps se compose d'une alternance de belles éclaircies et de passages pluvio-orageux, avec une tendance à un flux d'ouest assez dynamique. Les températures seront de saison, voire légèrement fraîches en seconde semaine par rapport aux maximales, mais les minimales resteront douces pour la saison..
+Résumé général HDF précédent : Changement de synoptique, retour à un temps plus humide et plus frais..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages localement forts dès mercredi, puis dégradation plus marquée en fin de semaine..
+Températures attendues précédemment : Averses orageuses et rafales de vent sous les cellules, principalement en soirée..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -447,7 +447,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 4 heures par tao
+	Modifié il y a 6 heures par tao
 								5
 								1
 
@@ -498,7 +498,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 23 heures par nickdu77
+	Modifié hier à 16:56 par nickdu77
 Faute de frappe
 								2
 
@@ -513,7 +513,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 21 heures par meteo noobs
+	Modifié il y a 23 heures par meteo noobs
 								3
 
 =======================
@@ -667,7 +667,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 4 heures par tao
+	Modifié il y a 6 heures par tao
 								5
 								1
 
@@ -718,7 +718,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 23 heures par nickdu77
+	Modifié hier à 16:56 par nickdu77
 Faute de frappe
 								2
 
@@ -733,7 +733,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 21 heures par meteo noobs
+	Modifié il y a 23 heures par meteo noobs
 								3
 
 =======================
