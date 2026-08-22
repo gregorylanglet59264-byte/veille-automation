@@ -314,22 +314,22 @@ précipitations possibles, surtout sur le sud-est jeudi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Bugs sur Infoclimat #2
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 22/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Vendredi 21 Août 2026.
-Résumé général HDF précédent : Fin de l'été chaud et sec pour les Hauts-de-France. Bascule vers un temps plus humide et océanique dès la fin de la première semaine, températures de saison. Pas de canicule en vue, mais un risque orageux persistant..
+Dernier bulletin HDF généré le Samedi 22 Août 2026.
+Résumé général HDF précédent : Fin de l’été chaud et sec pour les Hauts-de-France. Bascule vers un temps plus humide et océanique, températures de saison, pas de canicule, mais risque orageux persistant..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies orageuses modérées, rafales de sud-ouest possibles sous orages, températures en baisse samedi 29 et dimanche 30..
+Températures attendues précédemment : Risque d’orages isolés jeudi/vendredi, averses samedi/dimanche, rafales de sud-ouest possibles..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -447,7 +447,7 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 13 heures par mike
+	Modifié il y a 15 heures par mike
 								2
 
 =======================
@@ -509,7 +509,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 7 heures par nickdu77
+	Modifié il y a 9 heures par nickdu77
 Faute de frappe
 								1
 
@@ -524,7 +524,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 5 heures par meteo noobs
+	Modifié il y a 7 heures par meteo noobs
 								2
 
 =======================
@@ -538,8 +538,9 @@ il y a une heure, meteo noobs a dit :
 	Bonsoir,
 	pas d'illustration, pas de balise dans le temps, pas de repère géographique...
 	C'est vraiment difficile de savoir de quoi tu parles ou à qui tu t'adresses. Ce serait quand même pas mal de faire un effort pour les nombreux lecteurs qui doivent commencer à se demander si tu ne parles pas à ceux qui habites dans ta tête ou si tu n'essaies pas d'envoyer des messages subliminaux aux extra terrestres. Il ne faudrait pas que ce forum devienne le pendant du vide de certains réseaux sociaux.
-	Modifié il y a 4 heures par tao
+	Modifié il y a 6 heures par tao
 								4
+								1
 								1
 
 =======================
@@ -556,8 +557,8 @@ il y a 33 minutes, meteo noobs a dit :
 	On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-	Modifié il y a 2 heures par Virgile
-								3
+	Modifié il y a 4 heures par Virgile
+								5
 								1
 								2
 
@@ -676,7 +677,7 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 13 heures par mike
+	Modifié il y a 15 heures par mike
 								2
 
 =======================
@@ -738,7 +739,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 7 heures par nickdu77
+	Modifié il y a 9 heures par nickdu77
 Faute de frappe
 								1
 
@@ -753,7 +754,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 5 heures par meteo noobs
+	Modifié il y a 7 heures par meteo noobs
 								2
 
 =======================
@@ -767,8 +768,9 @@ il y a une heure, meteo noobs a dit :
 	Bonsoir,
 	pas d'illustration, pas de balise dans le temps, pas de repère géographique...
 	C'est vraiment difficile de savoir de quoi tu parles ou à qui tu t'adresses. Ce serait quand même pas mal de faire un effort pour les nombreux lecteurs qui doivent commencer à se demander si tu ne parles pas à ceux qui habites dans ta tête ou si tu n'essaies pas d'envoyer des messages subliminaux aux extra terrestres. Il ne faudrait pas que ce forum devienne le pendant du vide de certains réseaux sociaux.
-	Modifié il y a 4 heures par tao
+	Modifié il y a 6 heures par tao
 								4
+								1
 								1
 
 =======================
@@ -785,7 +787,7 @@ il y a 33 minutes, meteo noobs a dit :
 	On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-	Modifié il y a 2 heures par Virgile
-								3
+	Modifié il y a 4 heures par Virgile
+								5
 								1
 								2
