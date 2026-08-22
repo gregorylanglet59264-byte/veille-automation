@@ -315,7 +315,7 @@ Températures minimales : en hausse dans le Volvestre ainsi que sur le Cagire et
 Températures maximales : en hausse dans l'Agglomération toulousaine, sur le Cagire et le Luchonnais ainsi que du Lauragais au muretain.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 220405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 22 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 22 août 2026 à 00H00 UTC, et évolution Dépression 1009 hPa sur le Golfe de Gênes, quasi-stationnaire et se comblant lentement, prévue 1012 hPa l'après-midi, 1014 hPa la nuit prochaine, puis 1017 hPa demain. Dépression 1014 hPa sur les côtes algériennes ce matin, se creusant 1012 la nuit. 3 - Prévisions pour la journée du samedi 22 août VENT : - de Port-Camargue à Sicié : Nord à Nord-Ouest 3 à 5, revenant secteur Ouest l'après-midi. - du Cap Croisette à Sicié : Ouest à Nord-Ouest 5 à 6, mollissant 4 à 5 en fin d'après-midi. Rafales. MER : belle à peu agitée à l'ouest de Cap Croisette, mais peu agitée à agitée à l'est. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant à l'ouest de Sicié l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 22 août au dimanche 23 août VENT : secteur Nord-Ouest 3 à 5, mollissant Nord à Nord-Ouest 2 à 4 en milieu de nuit, puis virant secteur Nord-Est en fin de nuit. MER : belle à peu agitée, localement agitée à l'est de Sicié jusqu'en milieu de nuit. HOULE : Ouest à Sud-Ouest 0.5 à 1 m à l'est de Sicié, non significative ailleurs. TEMPS : ciel clair à peu nuageux VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 23 août VENT : - de Port Camargue au Cap Croisette : Nord à Nord-Ouest 2 à 4, virant Sud à Sud-Est 2 à 3 l'après-midi. - du Cap Croisette à Saint Raphaël : secteur Est 2 à 4, virant secteur sud-Est l'après-midi. MER : belle à peu agitée, devenant belle à la mi-journée, localement peu agitée au large du Levant à Saint Raphaël. HOULE : non significative, passagèrement Ouest à Sud-Ouest 0.5 à 1 m au large de Sicié à Saint Raphaël au début. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 23 au 24 et la journée du lundi 24 août VENT : De Port Camargue à Porquerolles variable 1 à 3, s'orientant Est à Sud-Est 5 à 6 en milieu d'après-midi. De Porquerolles à St Raphaël Est à Nord-Est 2 à 3, fraîchissant 4 en milieu de nuit. MER : belle, devenant peu agitée à agitée en milieu d'après-midi. Pas de houle significative. 7 - Tendance pour les jours suivants Mardi 25 août Secteur Est faible à modéré, secteur Sud faible autour de la Corse. Indice de confiance : 4 sur 5 Mercredi 26 août Secteur Sud-Est faible à modéré dans le Golfe du Lion, Variable faible autour de la Corse. Indice de confiance : 3 sur 5 Jeudi 27 août Secteur Est modéré à assez fort, secteur Est faible à modéré autour de la Corse. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le samedi 22 août 2026 à 03H00 UTC Cap Camarat : vent Ouest-Nord-Ouest 10 noeuds, rafales 21 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest-Nord-Ouest 14 noeuds. Porquerolles : vent Ouest-Nord-Ouest 12 noeuds. Cap Couronne : vent Nord-Ouest 10 noeuds. Prochain bulletin le samedi 22 août 2026, vers 13H00 légales
+FQCT40 LFML 220945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 22 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 22 août 2026 à 06H00 UTC, et évolution Dépression 1009 hPa sur le Golfe de Gênes, se comblant lentement, prévue 1012 hPa l'après-midi, puis 1017 hPa dimanche matin. Dorsale 1018 hPa sur l'est des Pyrénées. 3 - Prévisions pour l'après-midi du samedi 22 août VENT : - de Port-Camargue à Sicié : Ouest à Nord-Ouest 3 à 5. - de Sicié à Saint-Raphaël : Ouest 5 à 6, mollissant 4 à 5 à la fin. Rafales. MER : belle à peu agitée, localement agitée à l'est de Sicié. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant à l'ouest de Sicié l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 22 août au dimanche 23 août VENT : secteur Nord-Ouest 3 à 5, mollissant 2 à 4 en milieu de nuit, puis virant secteur Nord en fin de nuit. MER : belle à peu agitée, parfois agitée à l'est de Sicié le soir. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m à l'est de Sicié, puis s'amortissant en fin de nuit. TEMPS : clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 23 août VENT : - de Port Camargue au Cap Croisette : Nord à Nord-Ouest 2 à 4, mollissant Sud à Sud-Est 1 à 3 l'après-midi. - du Cap Croisette à Saint Raphaël : secteur Nord-Est 2 à 4, mollissant secteur Est 1 à 3 l'après-midi. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 23 au 24 et la journée du lundi 24 août VENT : secteur Est 1 à 3, fraîchissant progressivement 3 à 5. MER : belle, devenant belle à peu agitée en journée. HOULE : non significative. TEMPS : peu nuageux, parfois averses à la fin. VISIBILITE : bonne, parfois moyenne à mauvaise sous averses à la fin. 7 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : De Port Camargue à Marseille Est à Sud-Est 5 à 7, devenant variable 1 à 3 en milieu d'après-midi. De Marseille à St Raphaël Est à Sud-Est 2 à 4, devenant en début de nuit d'Est à Nord-Est 4 à 5 puis revenant Ouest à Sud-Ouest 3 à 4 en milieu d'après-midi. MER : De Port Camargue à Fos mer agitée, devenant peu agitée en cours de matinée. De Fos à St Raphaël mer belle à peu agitée. HOULE de secteur Sud-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Mercredi 26 août secteur Sud-Est faible à modéré dans le golfe du Lion, secteur Nord-Est faible entre Corse et continent. Indice de confiance : 4 sur 5 Jeudi 27 août secteur Sud modéré dans le golfe du Lion, secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 28 août secteur Nord-Ouest faible à modéré dans le golfe du Lion, secteur Sud-Ouest modéré à fort entre Corse et continent. Indice de confiance : 2 sur 5 Samedi 29 août secteur Nord-Ouest faible à modéré dans le Golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 2 sur 5 9 - Observations le samedi 22 août 2026 à 09H00 UTC Cap Camarat : vent Ouest-Sud-Ouest 10 noeuds. Cap Cepet : vent Ouest 16 noeuds. Porquerolles : vent Ouest-Sud-Ouest 16 noeuds. Cap Couronne : vent Ouest-Nord-Ouest 14 noeuds. Prochain bulletin le samedi 22 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -346,11 +346,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Espèces et variétés nouricières résistantes &#xE0; la chaleur
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 22/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -358,9 +358,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 22 Août 2026.
-Résumé général précédent : Promesses de changement durable : suppression du régime anticyclonique, plus d’instabilité, flux d’ouest, légère hausse thermique sur la Méditerranée en J+10 mais non affirmée..
+Résumé général précédent : Transition vers une circulation d’ouest plus dynamique : chaleur lourde et orageuse en première partie, puis temps plus frais et instable, sans retour d’un épisode de chaleur intense durable..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps maussade et humide à partir de lundi ; orages épars, fortes rafales possibles..
+Températures attendues précédemment : Chaleur lourde, orages, températures minimales élevées..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -448,7 +448,7 @@ Bonjour,
 	Pour le changement de synoptique, il est à l'œuvre en ce moment (on est sorti de la domination du blocage). Ensuite, d'après les modèles sub saisonniers, il n'y aurait pas de synoptique bien typique qui prendrait nettement le pas sur une autre.
 	Une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.     
 	Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
-								8
+								9
 								1
 
 =======================
@@ -469,8 +469,8 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 21 heures par mike
-								2
+	Modifié il y a 23 heures par mike
+								3
 
 =======================
 
@@ -483,7 +483,7 @@ il y a 14 minutes, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-								4
+								5
 								1
 
 =======================
@@ -503,6 +503,7 @@ Message:
 Les gouttes froides ca devrait être interdit par les conventions de Genève....
 								1
 								3
+								1
 								2
 
 =======================
@@ -512,6 +513,7 @@ Message:
 Dire que cette semaine était sensée être fraîche de base ou au moins de saison....
 	Mais bon au moins ça confirmera l'été exceptionnel qu'on a eu.
 	A suivre la dégradation orageuse de lundi soir et de jeudi notamment 
+								1
 								1
 
 =======================
@@ -531,9 +533,9 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 15 heures par nickdu77
+	Modifié il y a 17 heures par nickdu77
 Faute de frappe
-								1
+								2
 
 =======================
 
@@ -546,7 +548,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 13 heures par meteo noobs
+	Modifié il y a 15 heures par meteo noobs
 								3
 
 =======================
@@ -556,7 +558,7 @@ Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-								9
+								10
 								2
 								3
 
@@ -569,14 +571,14 @@ La semaine pourrait ressembler à celle en cours.
 	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
-								4
+								9
 
 =======================
 
 Auteur: symaski62
 Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
-								2
+								4
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: meteo noobs
@@ -663,7 +665,7 @@ Bonjour,
 	Pour le changement de synoptique, il est à l'œuvre en ce moment (on est sorti de la domination du blocage). Ensuite, d'après les modèles sub saisonniers, il n'y aurait pas de synoptique bien typique qui prendrait nettement le pas sur une autre.
 	Une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.     
 	Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
-								8
+								9
 								1
 
 =======================
@@ -684,8 +686,8 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 21 heures par mike
-								2
+	Modifié il y a 23 heures par mike
+								3
 
 =======================
 
@@ -698,7 +700,7 @@ il y a 14 minutes, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-								4
+								5
 								1
 
 =======================
@@ -718,6 +720,7 @@ Message:
 Les gouttes froides ca devrait être interdit par les conventions de Genève....
 								1
 								3
+								1
 								2
 
 =======================
@@ -727,6 +730,7 @@ Message:
 Dire que cette semaine était sensée être fraîche de base ou au moins de saison....
 	Mais bon au moins ça confirmera l'été exceptionnel qu'on a eu.
 	A suivre la dégradation orageuse de lundi soir et de jeudi notamment 
+								1
 								1
 
 =======================
@@ -746,9 +750,9 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 15 heures par nickdu77
+	Modifié il y a 17 heures par nickdu77
 Faute de frappe
-								1
+								2
 
 =======================
 
@@ -761,7 +765,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 13 heures par meteo noobs
+	Modifié il y a 15 heures par meteo noobs
 								3
 
 =======================
@@ -771,7 +775,7 @@ Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-								9
+								10
 								2
 								3
 
@@ -784,11 +788,11 @@ La semaine pourrait ressembler à celle en cours.
 	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
-								4
+								9
 
 =======================
 
 Auteur: symaski62
 Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
-								2
+								4
