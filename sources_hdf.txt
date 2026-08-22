@@ -15,45 +15,45 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 22/08/2026 06:30
+Emis le : 22/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui, le département du Nord est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Lille-Lesquin : température de 11 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1017 hPa.
-A Dunkerque : température de 16 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 45 km/h.
+Aujourd'hui on observait à 09h :
+A Lille-Lesquin : température de 15 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1019 hPa.
+A Dunkerque : température de 18 degrés, vent de secteur Nord soufflant jusqu'à 40 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui samedi 22 :
 Les nuages sont nombreux et souvent accompagnés d'averses, parfois orageuses le matin en Flandres. L'après-midi, le ciel reste changeant, mais les éclaircies sont plus belles et les averses plus rares.
-On attend au maximum jusqu'à 5 millimètres de pluie en Flandre intérieure.
-Vent modéré, de Nord.
-Températures maximales : comprises entre 19 et 22 degrés.
+On prévoit au maximum jusqu'à 5 millimètres de pluie en Flandre intérieure.
+Vent de Nord, modéré.
+Températures maximales : de 19 à 22 degrés.
 
 • Pour la nuit prochaine :
-Le temps est calme et propice à l'observation des étoiles.
-Vent modéré en Flandre maritime, de Nord-Nord-Est, en début de nuit ; et d'Ouest-Nord-Ouest, aux premières heures du jour.
-Températures minimales : dans l'intérieur autour de 6 à 9 degrés. 14 degrés en Flandre maritime. Ces températures sont localement bien en-dessous des valeurs de saison.
+Le ciel est bien étoilé.
+Vent de Nord-Nord-Est, modéré, en première partie de nuit, en Flandre maritime ; après une atténuation, reprise du vent, tôt le matin, avec orientation à l'Ouest-Nord-Ouest.
+Températures minimales : dans l'intérieur autour de 6 à 9 degrés. 14 degrés en Flandre maritime. Ces températures sont par endroits très au-dessous des valeurs normalement observées.
 
 • Pour demain dimanche 23 en journée et la nuit suivante :
-L'ensoleillement est globalement excellent. Seuls quelques rares nuages apparaissent temporairement, en Flandre intérieure ainsi que sur la région lilloise et le Douaisis. Pour la nuit : Le ciel est clair toute la nuit.
-En journée et jusqu'en milieu de nuit, vent d'Est à Nord-Est, modéré ; se renforçant de nouveau tôt le matin, par endroits.
-Températures maximales pour le jour : de 20 à 22 degrés.
-Températures minimales pour la nuit suivante : dans l'intérieur entre 9 et 11 degrés. 13 degrés en Flandre maritime.
+La journée est très ensoleillée, mis à part en fin de matinée, quand quelques nuages se forment, en Flandre intérieure ainsi que sur la région lilloise et le Douaisis. Ils se dissipent heureusement rapidement. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+En journée et jusqu'en milieu de nuit, vent d'Est à Nord-Est, modéré ; se renforçant de nouveau au lever du jour, par endroits.
+Températures maximales pour le jour : entre 20 et 22 degrés.
+Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 9 et 11 degrés. 13 degrés en Flandre maritime.
 
 • Pour la journée de lundi 24 et la nuit suivante :
 L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : La présence d'un voile de nuages élevés ternit l'éclat des étoiles.
-Vent d'Est, modéré.
-Températures maximales pour le jour : depuis la côte jusqu'au Valenciennois et au Cambrésis entre 22 et 23 degrés. 26 degrés sur l'Avesnois.
-Températures minimales pour la nuit suivante : dans l'intérieur entre 11 et 13 degrés. 15 degrés en Flandre maritime.
+Vent modéré, d'Est.
+Températures maximales pour le jour : depuis la côte jusqu'au Valenciennois et au Cambrésis de 22 à 23 degrés. 26 degrés sur l'Avesnois.
+Températures minimales pour la nuit suivante : dans l'intérieur de 11 à 13 degrés. 15 degrés en Flandre maritime.
 
 • Pour la journée de mardi 25 :
-Un temps ensoleillé domine. Toutefois, des nuages se développent dans l'après-midi, et donnent quelques petites averses, sur l'Avesnois.
+En cours d'après-midi, des nuages menaçants peuvent occasionner quelques averses sur l'Avesnois. À part cela, c'est une journée avec un soleil largement présent qui s'annonce.
 Vent d'Est puis Est à Sud-Est, modéré.
-Températures maximales : de 23 à 26 degrés.
+Températures maximales : entre 23 et 26 degrés.
 
 • Pour mercredi 26 et jeudi 27 :
 Risque de pluie et d'orage dès le début de matinée de mercredi.
@@ -74,44 +74,44 @@ Températures minimales : identiques à la veille.
 Températures maximales : en hausse sur la région lilloise et le Douaisis ainsi que sur l'Avesnois.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 22/08/2026 06:30
+Emis le : 22/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui, le département du Pas-de-Calais est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Arras : température de 11 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h.
-A Boulogne-Sémaphore : température de 14 degrés, vent de secteur Nord-Est soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 09h :
+A Arras : température de 14 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h.
+A Boulogne-Sémaphore : température de 15 degrés, vent de secteur Nord soufflant jusqu'à 35 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui samedi 22 :
 En matinée, quelques averses sont prévues. On peut même entendre quelques coups de tonnerre, sur les trois quarts Ouest du département. Dans l'après-midi le temps devient sec, sous un ciel partagé entre éclaircies et passages nuageux, parfois conséquents.
-Le maximum de pluie attendu est de l'ordre de 10 millimètres sur les côtes de la Manche.
+On prévoit au maximum jusqu'à 10 millimètres de pluie sur les côtes de la Manche.
 Vent modéré, de Nord à Nord-Ouest.
-Températures maximales : comprises entre 19 et 20 degrés.
+Températures maximales : entre 19 et 20 degrés.
 
 • Pour la nuit prochaine :
-Le temps est calme et propice à l'observation des étoiles.
+Le ciel est clair toute la nuit.
 Vent variable, faible.
 Températures minimales : entre 7 et 10 degrés.
 
 • Pour demain dimanche 23 en journée et la nuit suivante :
-En matinée, quelques nuages sont présents, près de la Mer du Nord, sur les reliefs de l'Artois ainsi que du bassin minier à la plaine de la Lys, mais restent confidentiels. La journée est majoritairement très ensoleillée, en particulier l'après-midi. Pour la nuit : Le ciel est clair toute la nuit.
-Vent modéré, d'Est à Nord-Est.
+En matinée, quelques nuages sont présents, près de la Mer du Nord, sur les reliefs de l'Artois ainsi que du bassin minier à la plaine de la Lys, mais restent confidentiels. La journée est majoritairement très ensoleillée, en particulier l'après-midi. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Vent d'Est à Nord-Est, modéré.
 Températures maximales pour le jour : de 21 à 22 degrés.
-Températures minimales pour la nuit suivante : dans l'intérieur, mais aussi dans le Calaisis comprises entre 7 et 10 degrés. 11 degrés sur les côtes de la Manche.
+Températures minimales pour la nuit suivante : dans l'intérieur, mais aussi dans le Calaisis de 7 à 10 degrés. 11 degrés sur les côtes de la Manche.
 
 • Pour la journée de lundi 24 et la nuit suivante :
-Le temps est bien ensoleillé, avec juste quelques cumulus fleurissant en début d'après-midi, sur les côtes de la Manche ainsi que sur le Ternois. Pour la nuit : La présence d'un voile de nuages élevés ternit l'éclat des étoiles.
-Vent d'Est, modéré.
-Températures maximales pour le jour : entre 22 et 24 degrés.
+La journée est ensoleillée. Les quelques nuages qui se forment en début d'après-midi, sur les côtes de la Manche ainsi que sur le Ternois, restent inoffensifs et se dissipent rapidement. Pour la nuit : La présence d'un voile de nuages élevés ternit l'éclat des étoiles.
+Vent modéré, d'Est.
+Températures maximales pour le jour : comprises entre 22 et 24 degrés.
 Températures minimales pour la nuit suivante : de 11 à 14 degrés.
 
 • Pour la journée de mardi 25 :
 Le temps est très largement ensoleillé. Cependant de l'Arrageois au bassin minier les nuages sont nombreux et donnent quelques averses le matin.
-Vent d'Est, généralement modéré.
+Vent généralement modéré, d'Est.
 Températures maximales : entre 23 et 25 degrés.
 
 • Pour mercredi 26 et jeudi 27 :
@@ -133,45 +133,45 @@ Températures minimales : similaires à la veille.
 Températures maximales : en hausse sur les reliefs de l'Artois ainsi que de l'Arrageois au bassin minier.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 22/08/2026 06:30
+Emis le : 22/08/2026 09:31
 
 Vigilance :
 Aujourd'hui et demain, le département de la Somme est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Amiens-Glisy : température de 12 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1018 hPa.
-A Cayeux-sur-Mer : température de 10 degrés, vent variable faible.
+Aujourd'hui on observait à 09h :
+A Amiens-Glisy : température de 14 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1020 hPa.
+A Cayeux-sur-Mer : température de 16 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 20 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui samedi 22 :
 En début de matinée, de rares averses tombent. Elles sont par endroits plus soutenues et peuvent évoluer jusqu'à l'orage, sur la Picardie maritime. En général, elles cessent rapidement en cours de matinée. Toutefois, cette amélioration se fait attendre, sur le Vermandois ainsi que sur le Vimeu, le Ponthieu et le Doullennais. En fin de journée, de larges éclaircies se développent partout.
-10 millimètres est le cumul maximum de pluie attendu sur le littoral picard.
+Les plus forts cumuls de pluie peuvent avoisiner 10 millimètres sur le littoral picard.
 Vent de secteur Nord, modéré.
 Températures maximales : entre 19 et 21 degrés.
 
 • Pour la nuit prochaine :
-Le ciel est bien étoilé.
+Les rares nuages présents n'empêchent nullement l'observation des étoiles.
 Vent faible, variable.
-Températures minimales : de 7 à 10 degrés.
+Températures minimales : entre 7 et 10 degrés.
 
 • Pour demain dimanche 23 en journée et la nuit suivante :
-La journée est ensoleillée, avec tout au plus quelques nuages très discrets. Pour la nuit : Le ciel est clair toute la nuit.
+Le soleil brille sans interruption. Pour la nuit : Le ciel est clair toute la nuit.
 Vent d'Est à Nord-Est, modéré.
-Températures maximales pour le jour : entre 21 et 22 degrés.
+Températures maximales pour le jour : de 21 à 22 degrés.
 Températures minimales pour la nuit suivante : de 8 à 11 degrés.
 
 • Pour la journée de lundi 24 et la nuit suivante :
-Le soleil est bien présent malgré des passages nuageux en milieu de journée. Pour la nuit : Le ciel est voilé, mais laisse apparaître les étoiles.
+Le soleil est bien présent malgré des passages nuageux en milieu de journée. Pour la nuit : Le ciel est généralement voilé.
 Vent modéré, d'Est.
 Températures maximales pour le jour : comprises entre 22 et 25 degrés.
-Températures minimales pour la nuit suivante : de 11 à 14 degrés.
+Températures minimales pour la nuit suivante : comprises entre 11 et 14 degrés.
 
 • Pour la journée de mardi 25 :
-L'ensoleillement est excellent et le soleil règne sans partage.
-Vent d'Est à Nord-Est, modéré.
-Températures maximales : comprises entre 24 et 26 degrés.
+Le soleil domine largement du matin au soir.
+Vent modéré, d'Est à Nord-Est.
+Températures maximales : de 24 à 26 degrés.
 
 • Pour mercredi 26 et jeudi 27 :
 Risque de pluie et d'orage.
@@ -192,42 +192,42 @@ Températures minimales : identiques à la veille.
 Températures maximales : en hausse sur le Ponthieu et le Vimeu ainsi que sur le Santerre.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 22/08/2026 06:30
+Emis le : 22/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Beauvais-Tillé : température de 10 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 10 km/h, pression niveau mer 1019 hPa.
+Aujourd'hui on observait à 09h :
+A Beauvais-Tillé : température de 13 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1021 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui samedi 22 :
 En matinée, le ciel est variable, mais le temps reste sec. En cours d'après-midi, un passage d'averses est possible. Puis le temps s'améliore en fin de journée.
 Vent modéré, de Nord à Nord-Ouest.
-Températures maximales : entre 20 et 22 degrés.
+Températures maximales : de 20 à 22 degrés.
 
 • Pour la nuit prochaine :
 Le ciel est bien étoilé.
 Vent de Nord-Est, généralement modéré.
-Températures minimales : de 7 à 10 degrés.
+Températures minimales : entre 7 et 10 degrés.
 
 • Pour demain dimanche 23 en journée et la nuit suivante :
-La journée est belle, le soleil est largement présent. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
+Le soleil est généreux tout au long de la journée. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
 Vent de Nord-Est, modéré.
-Températures maximales pour le jour : de 21 à 23 degrés.
+Températures maximales pour le jour : comprises entre 21 et 23 degrés.
 Températures minimales pour la nuit suivante : entre 9 et 11 degrés.
 
 • Pour la journée de lundi 24 et la nuit suivante :
-De fins nuages d'altitude troublent un peu l'ensoleillement, mais le temps reste agréable. Pour la nuit : Un voile nuageux masque temporairement le ciel, qui devient plus clair en fin de nuit.
+Un voile nuageux filtre le soleil. Pour la nuit : Un voile nuageux masque temporairement le ciel, qui devient plus clair en fin de nuit.
 Vent modéré, d'Est.
-Températures maximales pour le jour : comprises entre 23 et 26 degrés.
-Températures minimales pour la nuit suivante : entre 12 et 15 degrés.
+Températures maximales pour le jour : entre 23 et 26 degrés.
+Températures minimales pour la nuit suivante : de 12 à 15 degrés.
 
 • Pour la journée de mardi 25 :
 La journée est ensoleillée. Il faut attendre la fin d'après-midi, pour voir le soleil voilé par des nuages, sur le pays de Bray et la Picardie verte.
-Vent d'Est, généralement modéré, jusqu'en milieu d'après-midi ; puis atténuation.
+Vent généralement d'Est modéré, jusqu'en milieu d'après-midi ; puis s'atténuant.
 Températures maximales : de 25 à 28 degrés.
 
 • Pour mercredi 26 et jeudi 27 :
@@ -249,44 +249,44 @@ Températures minimales : sans changement significatif.
 Températures maximales : en hausse sur le Plateau Picard ainsi que sur la frange Sud du département.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 22/08/2026 06:30
+Emis le : 22/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Aisne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Aulnoy-sous-Laon : température de 12 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 15 km/h.
-A Saint-Quentin : température de 9 degrés.
+Aujourd'hui on observait à 09h :
+A Aulnoy-sous-Laon : température de 14 degrés, vent de secteur Ouest soufflant jusqu'à 10 km/h.
+A Saint-Quentin : température de 14 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui samedi 22 :
 La journée commence avec de belles éclaircies. Ensuite, des averses peuvent se produire. En fin de journée, le temps redevient sec et le soleil reste bien présent.
-Vent de Nord à Nord-Ouest, modéré.
-Températures maximales : comprises entre 21 et 23 degrés.
+Vent modéré, de Nord à Nord-Ouest.
+Températures maximales : entre 21 et 23 degrés.
 
 • Pour la nuit prochaine :
-Le ciel est clair toute la nuit.
+Le temps est calme et propice à l'observation des étoiles.
 Vent de Nord à Nord-Est, modéré par endroits.
 Températures minimales : entre 7 et 9 degrés.
 
 • Pour demain dimanche 23 en journée et la nuit suivante :
-Le soleil brille sans interruption. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
-Vent modéré, de Nord-Est.
-Températures maximales pour le jour : comprises entre 21 et 24 degrés.
+Le soleil est généreux tout au long de la journée. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
+Vent de Nord-Est, modéré.
+Températures maximales pour le jour : de 21 à 24 degrés.
 Températures minimales pour la nuit suivante : de 8 à 11 degrés.
 
 • Pour la journée de lundi 24 et la nuit suivante :
 Le soleil règne en maître toute la journée, à peine gêné par moments par quelques passages nuageux. Pour la nuit : Le ciel est voilé, mais laisse apparaître les étoiles.
-Vent d'Est, modéré.
-Températures maximales pour le jour : de 24 à 27 degrés.
-Températures minimales pour la nuit suivante : de 13 à 15 degrés.
+Vent modéré, d'Est.
+Températures maximales pour le jour : comprises entre 24 et 27 degrés.
+Températures minimales pour la nuit suivante : entre 13 et 15 degrés.
 
 • Pour la journée de mardi 25 :
 Le temps est très largement ensoleillé. Cependant sur le Vermandois les nuages sont nombreux et donnent quelques averses le matin.
-Vent généralement modéré, d'Est à Sud-Est.
-Températures maximales : comprises entre 25 et 27 degrés.
+Vent d'Est à Sud-Est, généralement modéré.
+Températures maximales : de 25 à 27 degrés.
 
 • Pour mercredi 26 et jeudi 27 :
 Risque de pluie et d'orage.
@@ -337,12 +337,12 @@ précipitations possibles, surtout sur le sud-est jeudi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Espèces et variétés nouricières résistantes &#xE0; la chaleur
+• Infoclimat Direct : Prévisions Centre-Est Aout 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 22/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -350,21 +350,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 22 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Sur 15 jours (24 août-6 sept), les Hauts-de-France se dirigent vers une structure météorologique basculée : après une belle séquence estivale, instabilité et flux océanique deviennent majoritaires, les températures retombent vers les normales. Aucun retour durable de la canicule IV..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Flux de sud-ouest, passages nuageux, averses et bref épisode orageux en journée de mercredi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: franck derrien
-Message:
-Bonjour 
-	J ai l impression que la perturbation de lundi sera nettement plus faible que ce qui était prevu a la base? 
-								1
-								1
-
-=======================
-
 Auteur: meteo noobs
 Message:
 il y a 39 minutes, Sky blue a dit :
@@ -470,7 +461,7 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 19 heures par mike
+	Modifié il y a 21 heures par mike
 								2
 
 =======================
@@ -532,7 +523,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 13 heures par nickdu77
+	Modifié il y a 15 heures par nickdu77
 Faute de frappe
 								1
 
@@ -547,54 +538,39 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 11 heures par meteo noobs
-								2
-
-=======================
-
-Auteur: tao
-Message:
-il y a une heure, meteo noobs a dit :
-			Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
-			Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
-			Est ce la GF mutante qui les perturbe ?
-	Bonsoir,
-	pas d'illustration, pas de balise dans le temps, pas de repère géographique...
-	C'est vraiment difficile de savoir de quoi tu parles ou à qui tu t'adresses. Ce serait quand même pas mal de faire un effort pour les nombreux lecteurs qui doivent commencer à se demander si tu ne parles pas à ceux qui habites dans ta tête ou si tu n'essaies pas d'envoyer des messages subliminaux aux extra terrestres. Il ne faudrait pas que ce forum devienne le pendant du vide de certains réseaux sociaux.
-	Modifié il y a 10 heures par tao
-								5
-								2
-								1
+	Modifié il y a 13 heures par meteo noobs
+								3
 
 =======================
 
 Auteur: Virgile
 Message:
-il y a 33 minutes, meteo noobs a dit :
-			Bonsoir @tao
-			Certe je n'ai ni ton savoir ni tes qualités d'analyse. Je ne développe pas autant que toi mes propos et ne les étayes pas suffisamment. Je n'ai ni ton experience ni ton ancienneté dans le domaine.
-			Cependant je ne pense pas avoir été méprisant ou condescendant une seule fois dans mes propos avec un quelconque membre de ce forum.
-			Ta remarque pertinente sur le fond est formulée de façon insultante et ne te fait pas honneur.
-			Bonne soirée
-	Tu as tout à fait raison et il n'y avait rien de mal dans ton message, rassure toi.   Et tu sais les messages ou analyses grandiloquents de certains sont pas plus fiable que les diagrammes de petit age glaciaire.
-	On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
+On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-	Modifié il y a 8 heures par Virgile
-								6
-								1
+								9
+								2
+								3
+
+=======================
+
+Auteur: Mica
+Message:
+La semaine pourrait ressembler à celle en cours.
+	Chaud voire très chaud (chaleur lourde avec passages orageux) la première moitié de la semaine, notamment sur la moitié sud, avec un pic mercredi, jeudi pour les regions de l'est.
+	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
+	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
+	Plus au nord, les signaux restent tempérés, de saison:
+								4
+
+=======================
+
+Auteur: symaski62
+Message:
+lundi  24  +66 heures  +2 jours    53  mm pluie   
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: franck derrien
-Message:
-Bonjour 
-	J ai l impression que la perturbation de lundi sera nettement plus faible que ce qui était prevu a la base? 
-								1
-								1
-
-=======================
-
 Auteur: meteo noobs
 Message:
 il y a 39 minutes, Sky blue a dit :
@@ -700,7 +676,7 @@ il y a une heure, tao a dit :
 			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
 	difficile de voir une NAO+ à l'horizon
 	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié il y a 19 heures par mike
+	Modifié il y a 21 heures par mike
 								2
 
 =======================
@@ -762,7 +738,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 13 heures par nickdu77
+	Modifié il y a 15 heures par nickdu77
 Faute de frappe
 								1
 
@@ -777,40 +753,34 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 11 heures par meteo noobs
-								2
-
-=======================
-
-Auteur: tao
-Message:
-il y a une heure, meteo noobs a dit :
-			Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
-			Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
-			Est ce la GF mutante qui les perturbe ?
-	Bonsoir,
-	pas d'illustration, pas de balise dans le temps, pas de repère géographique...
-	C'est vraiment difficile de savoir de quoi tu parles ou à qui tu t'adresses. Ce serait quand même pas mal de faire un effort pour les nombreux lecteurs qui doivent commencer à se demander si tu ne parles pas à ceux qui habites dans ta tête ou si tu n'essaies pas d'envoyer des messages subliminaux aux extra terrestres. Il ne faudrait pas que ce forum devienne le pendant du vide de certains réseaux sociaux.
-	Modifié il y a 10 heures par tao
-								5
-								2
-								1
+	Modifié il y a 13 heures par meteo noobs
+								3
 
 =======================
 
 Auteur: Virgile
 Message:
-il y a 33 minutes, meteo noobs a dit :
-			Bonsoir @tao
-			Certe je n'ai ni ton savoir ni tes qualités d'analyse. Je ne développe pas autant que toi mes propos et ne les étayes pas suffisamment. Je n'ai ni ton experience ni ton ancienneté dans le domaine.
-			Cependant je ne pense pas avoir été méprisant ou condescendant une seule fois dans mes propos avec un quelconque membre de ce forum.
-			Ta remarque pertinente sur le fond est formulée de façon insultante et ne te fait pas honneur.
-			Bonne soirée
-	Tu as tout à fait raison et il n'y avait rien de mal dans ton message, rassure toi.   Et tu sais les messages ou analyses grandiloquents de certains sont pas plus fiable que les diagrammes de petit age glaciaire.
-	On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
+On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-	Modifié il y a 8 heures par Virgile
-								6
-								1
+								9
+								2
+								3
+
+=======================
+
+Auteur: Mica
+Message:
+La semaine pourrait ressembler à celle en cours.
+	Chaud voire très chaud (chaleur lourde avec passages orageux) la première moitié de la semaine, notamment sur la moitié sud, avec un pic mercredi, jeudi pour les regions de l'est.
+	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
+	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
+	Plus au nord, les signaux restent tempérés, de saison:
+								4
+
+=======================
+
+Auteur: symaski62
+Message:
+lundi  24  +66 heures  +2 jours    53  mm pluie   
 								2
