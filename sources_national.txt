@@ -319,12 +319,12 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : 20°C consécutives]]>
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : 20°C consécutives]]>
+• Infoclimat Direct : Statistiques et anomalies climatiques globales
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 2 : Colmar
+• Infoclimat Direct : &#x200B;&#x2728;&#x200B; &#x1D40B;&#x1D41A; &#x1D402;&#x1D428;&#x1D42E;&#x1D429;&#x1D41E; &#x1D41D;&#x1D41E; &#x1D405;&#x1D42B;&#x1D41A;&#x1D427;&#x1D41C;&#x1D41E; &#x1D41D;&#x1D41E;&#x1D42C; &#x1D402;&#x1D425;&#x1D422;&#x1D426;&#x1D41A;&#x1D42D;&#x1D42C; &#x1D7D0;&#x1D7CE;&#x1D7D0;&#x1D7D4; &#x200B;&#x2728;&#x200B;&#x200B; Poule 5 : Port-Vendres, Nantes, Limoges et Paris en lice !
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 22/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,23 +332,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 22 Août 2026.
-Résumé général précédent : Fin de la période de blocage et de canicule, retour d'une circulation plus dynamique et humide avec deux dégradations orageuses sur la première semaine. La seconde semaine reste très incertaine, sans signal caniculaire, avec une possible remontée des températures au sud..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur lourde orageuse du Sud-Ouest à PACA, puis rafraîchissement en fin de semaine..
+Températures attendues précédemment : Orages parfois violents, surtout lundi et jeudi, possibles fortes rafales et grêle..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: meteo noobs
-Message:
-il y a 39 minutes, Sky blue a dit :
-			LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
-			Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	C'est pas les seuls
-	Regardez le titre 🤔
-								1
-
-=======================
-
 Auteur: ggdu19
 Message:
 il y a une heure, franck derrien a dit :
@@ -457,7 +446,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 6 heures par tao
+	Modifié il y a 8 heures par tao
 								5
 								1
 
@@ -523,7 +512,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 23 heures par meteo noobs
+	Modifié hier à 18:52 par meteo noobs
 								3
 
 =======================
@@ -556,19 +545,15 @@ Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
 								5
 								1
+
+=======================
+
+Auteur: greg13
+Message:
+Sans atteindre les seuils caniculaires, la prochaine semaine verra donc une nouvelle floppée de 30 à 33°c dans le Sud du Pays, avant un nouveau rafraîchissement prévu autour du 28 août. 
+	PS : Il reste 4 dernières places pour rejoindre le jeu de la rentrée de pronostics météo sur Infoclimat... Si ça vous botte, les inscriptions se font jusqu'à lundi
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: meteo noobs
-Message:
-il y a 39 minutes, Sky blue a dit :
-			LCM coutumier du fait.  Ils s'avancent toujours tellement que niveau crédibilité c'est proche de 0.
-			Pic de chaleur lundi avec ITN à 23° et le graphe affiche 23.5° le mercredi.🤡
-	C'est pas les seuls
-	Regardez le titre 🤔
-								1
-
-=======================
-
 Auteur: ggdu19
 Message:
 il y a une heure, franck derrien a dit :
@@ -677,7 +662,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 6 heures par tao
+	Modifié il y a 8 heures par tao
 								5
 								1
 
@@ -743,7 +728,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 23 heures par meteo noobs
+	Modifié hier à 18:52 par meteo noobs
 								3
 
 =======================
@@ -776,3 +761,10 @@ Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
 								5
 								1
+
+=======================
+
+Auteur: greg13
+Message:
+Sans atteindre les seuils caniculaires, la prochaine semaine verra donc une nouvelle floppée de 30 à 33°c dans le Sud du Pays, avant un nouveau rafraîchissement prévu autour du 28 août. 
+	PS : Il reste 4 dernières places pour rejoindre le jeu de la rentrée de pronostics météo sur Infoclimat... Si ça vous botte, les inscriptions se font jusqu'à lundi
