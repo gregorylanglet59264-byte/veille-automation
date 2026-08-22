@@ -319,12 +319,12 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Statistiques et anomalies climatiques globales
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 2 : Colmar
-• Infoclimat Direct : &#x200B;&#x2728;&#x200B; &#x1D40B;&#x1D41A; &#x1D402;&#x1D428;&#x1D42E;&#x1D429;&#x1D41E; &#x1D41D;&#x1D41E; &#x1D405;&#x1D42B;&#x1D41A;&#x1D427;&#x1D41C;&#x1D41E; &#x1D41D;&#x1D41E;&#x1D42C; &#x1D402;&#x1D425;&#x1D422;&#x1D426;&#x1D41A;&#x1D42D;&#x1D42C; &#x1D7D0;&#x1D7CE;&#x1D7D0;&#x1D7D4; &#x200B;&#x2728;&#x200B;&#x200B; Poule 5 : Port-Vendres, Nantes, Limoges et Paris en lice !
 • Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Recensement des tornades en France
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 22/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,50 +332,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 22 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Changement de circulation avec un temps plus humide. Une séquence orageuse est possible, suivie d'une dégradation plus fraîche en deuxième semaine..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages parfois violents, surtout lundi et jeudi, possibles fortes rafales et grêle..
+Températures attendues précédemment : Orages parfois violents lundi et jeudi, surtout entre le Sud-Ouest et la région PACA..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: ggdu19
-Message:
-il y a une heure, franck derrien a dit :
-			Bonjour 
-			J ai l impression que la perturbation de lundi sera nettement plus faible que ce qui était prevu a la base? 
-	Pas vraiment non, avec les restes de ce qui pourrait être un système tropical à suivre de très près dans les prochaines 48 heures au large du Portugal. La situation est toujours très propice à une dégradation très musclée entre le Sud-Ouest et la région PACA, avec de nombreux paramètres conjointement liés pour des orages parfois violents.
-								3
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
-			Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
-			Toulouse :
-	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
-	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
-	Modifié jeudi à 19:05 par petit âge glaciaire 11
-Modifié
-								2
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-59 minutes ago, petit âge glaciaire 11 said:
-			CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder [image]
-			Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi [image]
-	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
-	A noter que cette fois GFS n'a pas été précurseur (ce qui n'en fait pas un mauvais modèle à mes yeux !). Que l'on se souvienne aussi des cas négatifs.
-	Quand on regardait les ensembles, GEFS étaient beaucoup moins lisible, très éclatés, tandis que IFS ENS était quasi bimodal : 3/4 des scénarios (dont le déterministe) allant vers un talweg sans cyclogenèse marquée, 1/4 allant vers le scénario qui se sera finalement révélé majoritaire.
-	Modifié jeudi à 20:02 par Jojobarbar
-								1
-								1
-								1
-
-=======================
-
 Auteur: Virgile
 Message:
 Canicule, chaleur intense, forte chaleur, chaleur, douceur, fraicheur, froid, froid sévère..... Y en a des termes pour qualifier une sensation. On souvent ce débat même en hiver. C'est déjà une sensation personnelle surtout quand c'est intermédiaire  avec de la fraicheur et de la douceur. Y a aussi l'aspect temporel, saisonnier et géographique. Si je faisais la météo de mon clocher aujourd'hui, il a fait 21 degrés (soit 3 degrés sous les normes) avec des averses et pas mal de vent et même pour un normand, pas possible de parler de chaleur plus ou moins forte.
@@ -446,7 +408,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 8 heures par tao
+	Modifié il y a 10 heures par tao
 								5
 								1
 
@@ -522,7 +484,7 @@ Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-								10
+								11
 								2
 								3
 
@@ -543,7 +505,8 @@ La semaine pourrait ressembler à celle en cours.
 Auteur: symaski62
 Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
-								5
+								6
+								1
 								1
 
 =======================
@@ -552,46 +515,36 @@ Auteur: greg13
 Message:
 Sans atteindre les seuils caniculaires, la prochaine semaine verra donc une nouvelle floppée de 30 à 33°c dans le Sud du Pays, avant un nouveau rafraîchissement prévu autour du 28 août. 
 	PS : Il reste 4 dernières places pour rejoindre le jeu de la rentrée de pronostics météo sur Infoclimat... Si ça vous botte, les inscriptions se font jusqu'à lundi
+
+=======================
+
+Auteur: greghouse33
+Message:
+Il y a 13 heures, symaski62 a dit :
+			lundi  24  +66 heures  +2 jours    53  mm pluie   
+	La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
+
+=======================
+
+Auteur: ggdu19
+Message:
+il y a 45 minutes, greghouse33 a dit :
+			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
+	Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+	Désolé pour le HS
+								1
+
+=======================
+
+Auteur: greghouse33
+Message:
+il y a 12 minutes, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	C'était de l'humour 😄, mais oui effectivement ça risque de faire plus de dégâts qu'autre chose.
+	Allez fin du HS.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: ggdu19
-Message:
-il y a une heure, franck derrien a dit :
-			Bonjour 
-			J ai l impression que la perturbation de lundi sera nettement plus faible que ce qui était prevu a la base? 
-	Pas vraiment non, avec les restes de ce qui pourrait être un système tropical à suivre de très près dans les prochaines 48 heures au large du Portugal. La situation est toujours très propice à une dégradation très musclée entre le Sud-Ouest et la région PACA, avec de nombreux paramètres conjointement liés pour des orages parfois violents.
-								3
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-Le 19/08/2026 à 11:43, petit âge glaciaire 11 a dit :
-			Espérons que les 2 tentatives ne vont pas s'unir pour n'en faire qu'une et initier une nouvelle VDC dans le sud.
-			Toulouse :
-	CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder :
-	Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi :
-	Modifié jeudi à 19:05 par petit âge glaciaire 11
-Modifié
-								2
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-59 minutes ago, petit âge glaciaire 11 said:
-			CEP ce matin avec les 2 poussées chaudes qui commencent a se scinder [image]
-			Pour l'américain les 2 tentatives de nouvelles poussées chaudes par le sud-ouest modélisées hier et ce matin se sont réunies ce soir  pour n'en faire plus qu'une avec la barre des 20 degrés à 850hpa visible ce soir en continu de dimanche à jeudi [image]
-	En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
-	A noter que cette fois GFS n'a pas été précurseur (ce qui n'en fait pas un mauvais modèle à mes yeux !). Que l'on se souvienne aussi des cas négatifs.
-	Quand on regardait les ensembles, GEFS étaient beaucoup moins lisible, très éclatés, tandis que IFS ENS était quasi bimodal : 3/4 des scénarios (dont le déterministe) allant vers un talweg sans cyclogenèse marquée, 1/4 allant vers le scénario qui se sera finalement révélé majoritaire.
-	Modifié jeudi à 20:02 par Jojobarbar
-								1
-								1
-								1
-
-=======================
-
 Auteur: Virgile
 Message:
 Canicule, chaleur intense, forte chaleur, chaleur, douceur, fraicheur, froid, froid sévère..... Y en a des termes pour qualifier une sensation. On souvent ce débat même en hiver. C'est déjà une sensation personnelle surtout quand c'est intermédiaire  avec de la fraicheur et de la douceur. Y a aussi l'aspect temporel, saisonnier et géographique. Si je faisais la météo de mon clocher aujourd'hui, il a fait 21 degrés (soit 3 degrés sous les normes) avec des averses et pas mal de vent et même pour un normand, pas possible de parler de chaleur plus ou moins forte.
@@ -662,7 +615,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 8 heures par tao
+	Modifié il y a 10 heures par tao
 								5
 								1
 
@@ -738,7 +691,7 @@ Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-								10
+								12
 								2
 								3
 
@@ -759,7 +712,8 @@ La semaine pourrait ressembler à celle en cours.
 Auteur: symaski62
 Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
-								5
+								6
+								1
 								1
 
 =======================
@@ -768,3 +722,31 @@ Auteur: greg13
 Message:
 Sans atteindre les seuils caniculaires, la prochaine semaine verra donc une nouvelle floppée de 30 à 33°c dans le Sud du Pays, avant un nouveau rafraîchissement prévu autour du 28 août. 
 	PS : Il reste 4 dernières places pour rejoindre le jeu de la rentrée de pronostics météo sur Infoclimat... Si ça vous botte, les inscriptions se font jusqu'à lundi
+
+=======================
+
+Auteur: greghouse33
+Message:
+Il y a 13 heures, symaski62 a dit :
+			lundi  24  +66 heures  +2 jours    53  mm pluie   
+	La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
+
+=======================
+
+Auteur: ggdu19
+Message:
+il y a 45 minutes, greghouse33 a dit :
+			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
+	Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+	Désolé pour le HS
+								1
+
+=======================
+
+Auteur: greghouse33
+Message:
+il y a 12 minutes, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	C'était de l'humour 😄, mais oui effectivement ça risque de faire plus de dégâts qu'autre chose.
+	Allez fin du HS.
