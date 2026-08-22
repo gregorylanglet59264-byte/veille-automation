@@ -1,117 +1,123 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
-**Généré le :** Vendredi 21 Août 2026
+**Généré le :** Samedi 22 Août 2026
 **Période :** Semaine 1 (Du Lundi 24 au Dimanche 30 Août 2026) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Un consensus se dégage pour une météo plus humide et plus fraîche*
-- **Fiabilité du scénario majoritaire :** Scénario humide — *Retour d'un temps dépressionnaire.*
+- **Consensus des modèles :** Modéré — *Accord sur le changement de circulation, mais divergence sur les détails des dégradations.*
+- **Fiabilité du scénario majoritaire :** Temps chaud, humide et orageux — *Scénario majoritaire : pas d'excès de chaleur, mais une humidité marquée.*
 - **Stabilité des cartes/scénarios :** 6 / 128 — *6 cartes sur 128 analysées*
-- **Niveau d'incertitude global :** Incertitude moyenne — *Des signaux forts qui se contredisent encore.*
+- **Niveau d'incertitude global :** Semaine 2 en suspens — *Semaine 1 assez cernée, semaine 36 très incertaine.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 24 au Dimanche 30 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Changement de circulation : La fin du blocage semble confirmée, place à un axe dépressionnaire sur l'Europe de l'Ouest (source : membre Virgile, entre autres).
-2. Chaleur humide : Températures maximales modérées mais minimales élevées, avec une humidité marquée sur l'ensemble du territoire français.
-3. Dégradation orageuse : Un temps très orageux est possible entre le Sud-Ouest et la région PACA, à la toute fin de cette période de prévision.
-4. Scénarios modèles : Retour à un temps plus humide et moins chaud selon les runs les plus récents (ICON, GFS), sans consensus net sur l'intensité de la dégradation.
-5. Obsession de l'ITN : L'indicateur thermique national devient un indicateur clé pour suivre l'évolution et la fin des épisodes de fortes chaleurs.
+1. Changement de circulation : Fin du blocage, temps plus dynamique et humide sur la France.
+2. Chaleur humide : Températures maximales modérées, minimales élevées et tropicales.
+3. Orages lundi : Dégradation pluvio-orageuse possible, localement forte entre Sud-Ouest et PACA.
+4. Nouvelle dégradation jeudi : Passage pluvio-orageux probable sur le sud-est, à surveiller.
+5. Pas de canicule : Vue majoritaire, mais chaleur et humidité persistent en début de semaine.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-Passage à un temps plus dynamique et humide, fin du blocage confirmée par la grande majorité des membres.
-Fort réseau de sucroûte, attention aux régimes de croutage.
-Le risque orageux reste un facteur clé de l'évolution de la semaine, avec des précipitations encore incertaines.
+1. Le changement de circulation atmosphérique est acté : sortie du blocage, temps plus dynamique et humide.
+2. Pas de canicule en vue : les maximales seraient modérées mais les minimales élevées (nuits tropicales possibles).
+3. Dégradations orageuses à plusieurs reprises, notamment lundi et jeudi, avec un axe Sud-Ouest / PACA.
 **Points de divergence :**
-L'intensité de la chaleur : le membre Jojobarbar privilégie des températures maximales restant raisonnables (28-32°C) quand d'autres évoquent une poursuite de la chaleur.
-La localisation et l'heure de la dégradation orageuse reste encore très incertaine.
-Le retour à un temps plus frais est-il durable ou juste une parenthèse ?
+1. Intensité de la perturbation de lundi : plus faible selon certains, très musclée selon d'autres (entre Sud-Ouest et PACA).
+2. Scénario synoptique : GFS voit les poussées chaudes se réunir, l'ECMWF les voit se scinder.
+3. Tendance pour septembre : NAO+ très légère selon les projections européennes, mais NAO- encore bien ancrée selon d'autres membres.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Modèles globaux de prévision : GFS, CEP (ECMWF), ICON, CEP (IFS)** (documented) | Fin du blocage au profit d'un axe dépressionnaire sur l'Europe de l'Ouest, la chaleur revient à l'arrière des orages mais ne s'installe pas durablement (source : membre Virgile). | Temps chaud et orageux au début, puis plus frais et humide pour la fin de semaine. | National, avec une vigilance particulière sur le quart sud-est pour les orages. | Modérée (65%) - Évoqués par des membres sur le sujet, mais sans analyse détaillée (hors carte). | Pas de mention de run précis, les membres évoquent une tendance humide (GFS) et le risque de voir le CEP « bouffer » ce scénario pour un autre moins dynamique. Une modification des modèles est notée, avec un temps plus humide et moins chaud (source : membre meteo noobs). |
+| **GFS (déterministe américain)** (commenté en détail, cartes et run évoqués.) | Scénario de poussées chaudes réunies en début de semaine, puis basculement vers un temps plus humide et moins chaud en seconde partie de semaine. (max 160) | Temps chaud et orageux lundi, puis dégradation plus nette jeudi, avec fraîchissement. (max 120) | Sud-Ouest, région PACA, puis large quart sud-est et centre-est. | Élevée (85%) | GFS a modélisé une réunification des poussées chaudes avec isotherme 20°C à 850 hPa de dimanche à jeudi. Il n'a pas été précurseur cette fois, et son ensemble GEFS est très éclaté, peu lisible. Les runs du soir sont moins chauds et plus humides, ICON étant le plus flagrant. |
+| **ECMWF / CEP (européen)** (commenté en détail, ensembles et projections sub-saisonnières évoqués.) | Scénario de talweg sans cyclogenèse marquée, avec malgré tout une tendance humide et orageuse, puis possible NAO+ en septembre. (max 160) | Chaleur humide en début de semaine, dégradations orageuses, puis temps plus changeant. (max 120) | Ensemble du pays, avec accent sur le sud-est et l'est. | Élevée (85%) | Le CEP voit les deux poussées chaudes se scinder, contrairement à GFS. Pour l'IFS ENS, 75% des scénarios vont vers un talweg sans cyclogenèse marquée, le reste vers un scénario plus creusé. Les projections sub-saisonnières européennes sont jugées plus riches et indiquent une très légère tendance NAO+ fin août/début septembre, à confirmer. |
+| **ICON (allemand)** (Brièvement cité comme exemple de changement dans les modèles.) | Run du soir nettement moins chaud et beaucoup plus humide, signe d'un changement rapide de tendance. (max 160) | Temps plus humide et moins chaud, dégradation orageuse plus prononcée. (max 120) | Non déterminable précisément, probablement large façade ouest puis intérieur. | Modérée (65%) | Le changement est net sur ICON avec une bascule vers moins de chaleur et davantage d'humidité. Une influence d'un résidu de système tropical (GF mutante) est évoquée comme possible perturbateur des modèles. Détails limités. |
+| **Modèles sub-saisonniers (non listés précisément)** (Propos général de tao, sans graphiques détaillés.) | Aucune synoptique dominante nette ; très légère tendance NAO+ possible pour la fin août/début septembre. (max 160) | Retour d'une certaine humidité, sans répartition claire des cumuls. (max 120) | Non déterminable. | Faible (45%) | Le changement de synoptique est en cours, avec une sortie de la domination du blocage. Les projections sont hésitantes : pas de synoptique bien typique qui prend le pas sur une autre. Une très légère tendance NAO+ est évoquée mais reste incertaine. Les aspects orageux et hétérogènes dominent pour la répartition des cumuls. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps incertain, probable retour des averses ou d'un temps humide. | En baisse, fraîches pour la saison. | non_estimable | Non déterminable | Aucune précision pour cette zone. |
-| **Nord** | Temps indéterminé, probablement en marge des perturbations. | Non documentées | non_estimable | Non déterminable | Aucune information spécifique à cette zone. |
-| **Nord-Est** | Temps indéterminé, probablement chaud et orageux au début. | 32°C possibles, ressentie lourde. | non_estimable | CEF | Aucune information spécifique à cette zone. |
-| **Ouest et Façade Atlantique** | Temps indéterminé, probablement moins chaud que la semaine précédente. | Non documentées | non_estimable | Non déterminable | Aucune information spécifique à cette zone. |
-| **Centre** | Temps chaud et orageux possible en début de semaine, puis plus frais. | Non documentées | non_estimable | Non déterminable | Aucune information spécifique à cette zone. |
-| **Sud-Ouest** | Temps chaud et orageux possible en début de semaine, puis plus frais. | 30-33°C attendus lundi, en baisse ensuite. | non_estimable | CEF | Aucune information spécifique à cette zone. |
-| **Sud-Est et Vallée du Rhône** | Forte dégradation orageuse possible en toute fin de période. | 28-32°C, toujours chaudes et humides. | non_estimable | CEF | Aucune information spécifique à cette zone. |
-| **Méditerranée et Corse** | Non documenté | Non documentées | non_estimable | Non déterminable | Aucune information spécifique à cette zone. |
+| **Nord-Ouest** | Temps changeant, fraîchissement possible en fin de semaine, averses orageuses temporaires. | Maximales autour de 22-25°C en fin de semaine, plus douces en début. | moderee | GFS, ECMWF | Intensité et localisation exacte des dégradations orageuses. |
+| **Nord** | Passages nuageux, risque d'orages isolés, températures en légère baisse. | Maximales proches de 25-28°C en début, puis 23-25°C. | moderee | GFS, ECMWF | Timing de la dégradation et cumuls associés. |
+| **Nord-Est** | Chaleur humide en début de semaine, puis dégradation orageuse possible. | Maximales 28-31°C lundi-mardi, puis en baisse. | moderee | GFS, ECMWF | Position du talweg et intensité des orages. |
+| **Ouest et Façade Atlantique** | Dégradation pluvio-orageuse lundi, puis temps plus frais et humide en fin de semaine. | Maximales 30-33°C lundi, puis chute à 22-25°C jeudi-vendredi. | elevee | GFS, ECMWF, ICON | Intensité des orages lundi, cumuls attendus. |
+| **Centre** | Temps chaud et orageux possible en début de semaine, puis plus instable. | Maximales 28-32°C lundi-mardi, puis 24-27°C en fin de semaine. | moderee | GFS, ECMWF | Hétérogénéité des orages et trajectoire exacte des gouttes froides. |
+| **Sud-Ouest** | Forte dégradation orageuse lundi, chaleur humide, puis net fraîchissement.  | Maximales 30-33°C lundi, puis 24-27°C jeudi-vendredi. | elevee | GFS, ECMWF, ICON | Renforcement des orages, cumuls et rafales sous orages. |
+| **Sud-Est et Vallée du Rhône** | Chaleur humide, orages possibles lundi et mercredi, dégradation plus marquée jeudi. | Maximales 28-33°C en début de semaine, puis 26-28°C. | elevee | GFS, ECMWF, ICON | Déclenchement des orages et cumuls, notamment sur le relief. |
+| **Méditerranée et Corse** | Temps chaud et ensoleillé, puis risque orageux marqué en fin de semaine. | Maximales 30-33°C en début de semaine, puis 27-29°C jeudi-vendredi. | elevee | GFS, ECMWF, ICON | Cumuls de pluie potentiellement importants sur le sud-est. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 24 Août** : Un épisode de fortes chaleurs orageux est attendu.
-- **Mardi 25 Août** : Temps chaud et humide, de nombreuses éclaircies.
-- **Jeudi 27 et vendredi 28 Août** : Passage orageux possible, surtout dans le sud-est.
-- **Samedi 29 et dimanche 30 Août** : Forte incertitude, temps encore indéterminé.
+- **Lundi 24 et mardi 25 août** : Chaleur humide et orages possibles, surtout entre le Sud-Ouest et la région PACA.
+- **Mercredi 26 août** : Passage possible d'une dégradation pluvio-orageuse sur l'ouest, brume locale.
+- **Jeudi 27 et vendredi 28 août** : Dégradation plus marquée, fortes pluies possibles sur le sud-est et fraîchissement général.
+- **Samedi 29 et dimanche 30 août** : Temps plus instable mais souvent ensoleillé, températures en baisse ou stationnaires.
 
 **Points solides :**
-Un net changement de circulation atmosphérique est en cours, avec une fin de blocage anticyclonique.
-La chaleur retrouve de l’intensité en début de semaine avant un rafraîchissement.
-Le temps est de plus en plus humide et orageux, mais sans excès pour l'instant.
+1. Sortie du blocage : le changement de synoptique est en cours, avec un temps plus dynamique.
+2. Pas de canicule en vue : les maximales resteraient modérées pour la saison, mais les minimales élevées.
+3. Récurrence orageuse : plusieurs vagues pluvio-orageuses sont probables, avec un axe Sud-Ouest / PACA.
 
 **Points fragiles :**
-Tout le sujet, car les membres n'ont pas encore trouvé le consensus pour une analyse définitive.
-L'intensité de la chaleur et l'étendue des pluies orageuses en fonction des modèles.
-L'importance du poids des hautes pressions scandinaves sur l'évolution générale.
+1. Intensité de la dégradation de lundi : fort contraste entre les modèles et les membres.
+2. Cumuls exacts des orages : répartition géographique très incertaine, hétérogène.
+3. Tendance NAO+ pour septembre : simple hypothèse, très incertaine, à confirmer.
 
 **À surveiller (prochains runs) :**
-Suivre l'évolution des modèles européen (CEF) et américain (GFS) pour confirmer le scénario humide.
-Étudier la trajectoire précise des dépressions orageuses.
-Surveiller l'apparition ou non d'un scénario plus terne et plus frais.
+- Évolution de la perturbation de lundi (GFS 00Z et ECMWF 00Z).
+- Comportement du résidu de système tropical au large du Portugal.
+- Projections sub-saisonnières pour la première décade de septembre.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Tendance NAO+ : L'hypothèse d'un retour à un temps plus humide et plus frais se renforce, mais avec de fortes incertitudes.
-2. L’incertitude demeure : Les conséquences des dégradations orageuses de la semaine précédente affectent la fiabilité des projections.
+1. Tendance septembre : Très légère tendance NAO+ modélisée, mais dominée par l'incertitude.
+2. Changement de synoptique : Possible poursuite du temps plus dynamique, sans schéma dominant.
+3. Incertitude majeure : Répartition géographique des précipitations, impossible à préciser.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-Une tendance à une circulation atmosphérique plus humide se confirme.
+1. Incertitude forte pour la semaine 36 : aucun scénario ne se dégage nettement.
+2. La chaleur intense (canicule) n'est pas envisagée par les projections long terme.
+3. Un temps plus dynamique et humide pourrait se poursuivre, mais sans certitude.
 **Points de divergence :**
-Incertitudes sur le caractère durable ou éphémère de cette dégradation.
+1. Indices NAO+/NAO- : désaccord entre les membres sur la tendance septembre.
+2. Répartition des cumuls de pluie : aucune fiabilité pour les localiser à cette échéance.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Modèles globaux de prévision : GFS, CEF, ICON, CEP** (documented) | Tendance à une poursuite de la dégradation avec un temps maussade et des températures en baisse, avant un retour peut-être à des conditions plus anticycloniques. | Temps humide et orageux, sans excès de chaleur. | National | Faible (45%) | Les projections sub-saisonnieres et les discussions du forum (membres tao, Jojobarbar) suggèrent une poursuite de la tendance dépressionnaire, sans toutefois qu'aucun scénario ne se dégage clairement. |
+| **ECMWF (projections sub-saisonnières)** (Évoqué via une discussion générale, sans projection détaillée.) | Aucune synoptique dominante nette ; très légère tendance NAO+ pour fin août/début septembre. (max 160) | Retour d'une certaine humidité possible, sans répartition claire des cumuls. (max 120) | Non déterminable. | Faible (45%) | Les projections sub-saisonnières européennes indiquent une hésitation entre plusieurs types de circulation. Une très légère tendance NAO+ est modélisée, mais elle ne fait pas consensus et reste à confirmer. Aucune répartition géographique des précipitations n'est fiable. |
+| **GFS (tendance long terme)** (Évoqué brièvement via la tendance des runs.) | Tendance plus fraîche et humide perçue dans les runs de soirée, mais sans scénario net. (max 160) | Temps potentiellement plus humide et moins chaud, à confirmer. (max 120) | Non déterminable. | Faible (45%) | Le tour des runs de soirée montrait un changement vers un temps moins chaud et plus humide, mais cela concernait l'échéance courte. Pour le long terme, l'ensemble GEFS était très éclaté et peu lisible, rendant toute projection hebdomadaire hasardeuse. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps indéterminé, possible poursuite du temps humide. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
-| **Nord** | Temps indéterminé. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
-| **Nord-Est** | Temps indéterminé. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
-| **Ouest et Façade Atlantique** | Temps indéterminé. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
-| **Centre** | Temps indéterminé. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
-| **Sud-Ouest** | Temps indéterminé. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
-| **Sud-Est et Vallée du Rhône** | Temps indéterminé. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
-| **Méditerranée et Corse** | Temps indéterminé. | Non documentées | non_estimable | Non déterminable | Aucune projection pour cette zone. |
+| **Nord-Ouest** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
+| **Nord** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
+| **Nord-Est** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
+| **Ouest et Façade Atlantique** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
+| **Centre** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
+| **Sud-Ouest** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
+| **Sud-Est et Vallée du Rhône** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
+| **Méditerranée et Corse** | Non déterminable avec précision à cette échéance. | Non documenté | non_estimable | ECMWF | Projections long terme trop floues. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 1er Septembre** : Voir le résumé de la semaine 1.
-- **Jeudi 4 et vendredi 5 Septembre** : Voir le résumé de la semaine 1.
-- **Aucune** : N/A
-- **Aucune** : N/A
 
 **Points solides :**
-La tendance à une circulation dépressionnaire sur l'Europe de l'Ouest est un scénario qui se renforce.
-Les températures devraient rester en dessous des moyennes de saison.
+1. Pas de signal caniculaire net pour la semaine 36.
+2. Le changement de synoptique semble durable, sans schéma de blocage marqué.
 
 **Points fragiles :**
-L'emprise de la chaleur par le sud-est est une menace sérieuse.
-La répartition des pluies est encore très aléatoire.
+1. Tendance NAO+ : simple hypothèse, désaccord entre modèles et membres.
+2. Répartition géographique des pluies : totalement incertaine à cette échéance.
 
 **À surveiller (prochains runs) :**
-La tendance à la fin d'échéance (J+12/J+15) pour confirmer l’éventuel établissement d'un temps plus humide et frais.
+- Ouverture du sujet Semaine 36 sur le forum Infoclimat.
+- Évolution des projections sub-saisonnières ECMWF et GFS.
+- Positionnement des dépressions et talwegs pour la fin de semaine 36.
 
 
 ========================================
@@ -119,27 +125,33 @@ La tendance à la fin d'échéance (J+12/J+15) pour confirmer l’éventuel éta
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Une fin d'août plus humide et plus fraîche, avec des orages fréquents et des températures en baisse, notamment sur la moitié sud. La tendance NAO+ pour septembre est une hypothèse crédible.
+Tendance à un temps plus dynamique et humide, avec une chaleur modérée mais durable. Pas de canicule en vue, mais des orages fréquents, surtout sur la moitié sud. La semaine 36 est très incertaine.
 
 ### Période la plus fiable
-Semaine 35 (24-30 août), la plus proche et donc la plus fiable.
+Semaine 1 (du 24 au 30 août) : la plus documentée et cohérente.
 
 ### Phénomènes récurrents
-Des épisodes orageux, plus ou moins localisés, pourraient se succéder tout au long de la période.
+Orages de chaleur humide, dégradations pluvio-orageuses récurrentes, nuits tropicales possibles.
 
 ### Principales incertitudes
-La localisation et l'intensité des différentes vagues d'orages.
+Répartition géographique des cumuls orageux, intensité des dégradations, et tendance synoptique pour la semaine 36.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Des doutes sur la chronologie et le timing des phénomènes orageux, qui pourraient changer la tendance.
-- **Localisation :** La position et la trajectoire exactes des gouttes froides est encore incertaine (GF dans les océans).
-- **Intensité :** L'intensité des précipitations est encore très incertaine.
-- **Informations manquantes :** Peu d'informations sur les conditions météo dans le détail (vent, ensoleillement) pour certaines zones.
-- **Modèles sous-documentés :** Tous les modèles ont besoin d'être suivis, car leur fiabilité est mise en cause par les membres.
-- **Incertitudes images :** Les cartes et les schémas présentés le sont par des membres, sans analyse détaillée.
+- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes.
+Le timing de la dégradation de lundi est incertain, tout comme le passage de la perturbation de jeudi. La bascule vers un temps plus frais est également floue.
+- **Localisation :** Doutes sur la localisation précise et les zones géographiques concernées.
+La répartition des orages est très hétérogène, notamment entre le Sud-Ouest et la région PACA. Aucune localisation fiable pour la semaine 36.
+- **Intensité :** Doutes sur l'intensité (températures, force des orages, etc.).
+L'intensité des orages de lundi (forts ou modérés) et les cumuls de pluie restent très incertains. Les maximales pourraient être plus élevées que prévu si les éclaircies dominent.
+- **Informations manquantes :** Informations importantes non abordées ou manquantes dans les discussions.
+Vent non documenté pour de nombreuses régions, notamment en littoral. Absence d'analyses détaillées sur la Corse et le quart nord-est. Pas de données précises sur les cumuls orageux.
+- **Modèles sous-documentés :** Modèles peu ou pas commentés par les membres.
+ICON (mentionné brièvement), AROME/ARPEGE (non cités dans les messages analysés), modèles sub-saisonniers (très peu détaillés).
+- **Incertitudes images :** Incertitudes sur les graphiques et cartes du forum.
+Plusieurs cartes évoquées (GFS, CEP) sans description précise ni lien direct exploitable pour le bulletin.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🔥 L'été touche à sa fin, mais les infos sont en train de se bousculer. ❄️🥵 📉 Le gros de la chaleur semble en train de se retirer de l'Europe de l'Ouest, laissant place à un temps plus frais et surtout plus humide, avec des orages réguliers. ⛈️🍂 👉 L'anticyclone des Açores laisse place à un axe dépressionnaire. La semaine prochaine (semaine du 24 août) sera encore chaude et orageuse, mais la fin d'été et la rentrée s'annoncent plus agitées. 💧 Quels sont vos pronostics pour cette fin de mois ? Dites-moi ce que vous en pensez en commentaire ! 👇 #météo #météofrance #prévision #airfrance
+🌦️ Fin d'été dynamique en vue pour la France ! Cette semaine, le blocage anticyclonique laisse place à un temps plus humide et orageux. Chaleur modérée, nuits tropicales et dégradations pluvio-orageuses à répétition, surtout sur la moitié sud. Pas de canicule en vue. 📉 Pour la semaine du 31 août, l'incertitude est encore très forte : aucune tendance fiable ne se dégage. Affaire à suivre ! #Météo #Prévisions #FinAoût #Orages #ChangementDeTemps
