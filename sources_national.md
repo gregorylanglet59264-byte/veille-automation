@@ -345,12 +345,12 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Climatologie 2026
-• Infoclimat Direct : Du 17 ao&#xFB;t au 23 ao&#xFB;t 2026 prévisions météo semaine 34
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
+• Infoclimat Direct : 20°C consécutives]]>
+• Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : 20°C consécutives]]>
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 22/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -358,9 +358,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 22 Août 2026.
-Résumé général précédent : Transition vers un temps plus dynamique et humide : chaleur lourde et orageuse en semaine 1, baisse des températures en fin de semaine, puis incertitude pour la semaine 2 avec possible remontée des températures dans le sud..
+Résumé général précédent : Changement de circulation vers un temps plus dynamique et humide, avec une chaleur lourde en début de semaine 1, une dégradation orageuse en fin de semaine 1, puis une incertitude marquée pour la semaine 2 avec une possible remontée des températures dans le sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur lourde au sud puis dégradations orageuses, températures en baisse en fin de semaine..
+Températures attendues précédemment : Chaleur lourde, orages parfois violents en début et fin de semaine, rafraîchissement en fin de période..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -483,7 +483,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 30 minutes par tao
+	Modifié il y a 2 heures par tao
 								5
 								1
 
@@ -534,7 +534,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 19 heures par nickdu77
+	Modifié il y a 21 heures par nickdu77
 Faute de frappe
 								2
 
@@ -549,7 +549,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 17 heures par meteo noobs
+	Modifié il y a 19 heures par meteo noobs
 								3
 
 =======================
@@ -573,6 +573,7 @@ La semaine pourrait ressembler à celle en cours.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
 								11
+								1
 
 =======================
 
@@ -702,7 +703,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 30 minutes par tao
+	Modifié il y a 2 heures par tao
 								5
 								1
 
@@ -753,7 +754,7 @@ Message:
 Il y a 3 heures, meteo noobs a dit :
 			Les gouttes froides ca devrait être interdit par les conventions de Genève....
 	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié il y a 19 heures par nickdu77
+	Modifié il y a 21 heures par nickdu77
 Faute de frappe
 								2
 
@@ -768,7 +769,7 @@ Il y a 1 heure, Leonai a dit :
 	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
-	Modifié il y a 17 heures par meteo noobs
+	Modifié il y a 19 heures par meteo noobs
 								3
 
 =======================
@@ -792,6 +793,7 @@ La semaine pourrait ressembler à celle en cours.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
 								11
+								1
 
 =======================
 
