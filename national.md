@@ -1,6 +1,6 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Dimanche 23 Août 2026
-**Période :** Semaine 1 (Du Lundi 24 au Dimanche 30 Août 2026) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
+**Période :** Semaine 1 (Période : du lundi 24 août au dimanche 30 août 2025) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
@@ -11,8 +11,13 @@
 - **Stabilité des cartes/scénarios :** 6 / 142 — *6 cartes sur 142 analysées*
 - **Niveau d'incertitude global :** Intensité — *Écart GFS et ECMWF*
 
-## 🗓️ SEMAINE 1 : Du Lundi 24 au Dimanche 30 Août 2026
+## 🗓️ SEMAINE 1 : Période : du lundi 24 août au dimanche 30 août 2025
 ### 💡 Points clés de la semaine 1
+1. **Dégradation orageuse lundi-mardi** : Le temps devient nettement plus instable avec des averses orageuses, particulièrement marquées dans le Sud-Ouest.
+2. **Net rafraîchissement en fin de semaine** : Chute des températures autour du 28-29 août avec un ressenti automnal.
+3. **Fortes pluies possibles sur le Sud-Est et le Languedoc-Roussillon**: Un épisode méditerranéen peut se produire entre lundi et mardi, les cumuls les plus importants étant attendus sur l'Hérault et le Gard.
+4. **Retour d'un temps plus sec et ensoleillé sur le littoral méditerranéen :** Après le passage orageux, le vent de Nord-Ouest assèche l'atmosphère.
+5. **Chaleur et orages au centre-est** : Les températures restent élevées (28-30°C) avec un ciel alternant éclaircies et averses orageuses, particulièrement sur un axe allant du Massif Central aux Alpes.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 
@@ -32,6 +37,9 @@ Aucun modèle spécifique détaillé.
 | **Méditerranée et Corse** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
+- **Lundi 24 et mardi 25 août** : -
+- **Mercredi 26 et jeudi 27 août** : -
+- **Vendredi 28 au dimanche 30 août 2026** : -
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 31 Août au Dimanche 6 Septembre 2026

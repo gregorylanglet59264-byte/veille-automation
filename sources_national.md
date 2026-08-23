@@ -290,7 +290,7 @@ Températures minimales : en hausse sur le Cagire et le Luchonnais.
 Températures maximales : en hausse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 221615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 22 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 22 août 2026 à 12H00 UTC, et évolution Dépression 1013 hPa sur le Golfe de Gênes, se comblant progressivement. Dorsale 1018 hPa sur l'est des Pyrénées, s'affaissant le matin. 3 - Prévisions pour la nuit du samedi 22 août au dimanche 23 août VENT : secteur Nord-Ouest 3 à 4, parfois 5 à l'est du Cap Croisette le soir, virant secteur Nord en seconde partie de nuit. MER : belle à peu agitée, parfois agitée à l'est de Sicié le soir. HOULE : Ouest à Sud-Ouest 0.5 à 1 m à l'est de Sicié, s'amortissant à la fin. TEMPS : clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du dimanche 23 août VENT : - de Port Camargue au Cap Croisette : secteur Nord 2 à 4, mollissant Sud à Sud-Est 1 à 3 l'après-midi. - du Cap Croisette à Saint Raphaël : secteur Nord-Est 2 à 4, virant secteur Est l'après-midi. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 5 - Tendance pour la nuit du 23 au 24, et la journée du lundi 24 août VENT : secteur Est 2 à 4, fraîchissant 3 à 5 en journée. Fortes rafales sous orages. MER : belle, devenant belle à peu agitée en journée. HOULE : non significative. TEMPS : peu nuageux, parfois orages l'après-midi. VISIBILITE : bonne, parfois moyenne à mauvaise sous orages l'après-midi. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : De Port Camargue à Marseille Est à Sud-Est 5 à 7, devenant variable 1 à 3 en milieu d'après-midi. De Marseille à St Raphaël Est à Sud-Est 2 à 4, devenant en début de nuit d'Est à Nord-Est 4 à 5 puis revenant Ouest à Sud-Ouest 3 à 4 en milieu d'après-midi. MER : De Port Camargue à Fos mer agitée, devenant peu agitée en cours de matinée. De Fos à St Raphaël mer belle à peu agitée. HOULE de secteur Sud-Est 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 26 août secteur Sud-Est faible à modéré dans le golfe du Lion, secteur Nord-Est faible entre Corse et continent. Indice de confiance : 4 sur 5 Jeudi 27 août secteur Sud modéré dans le golfe du Lion, secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 28 août secteur Nord-Ouest faible à modéré dans le golfe du Lion, secteur Sud-Ouest modéré à fort entre Corse et continent. Indice de confiance : 2 sur 5 Samedi 29 août secteur Nord-Ouest faible à modéré dans le Golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le samedi 22 août 2026 à 15H00 UTC Cap Camarat : vent Ouest-Sud-Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 23 noeuds. Porquerolles : vent Ouest 19 noeuds, rafales 31 noeuds. Cap Couronne : vent Ouest-Sud-Ouest 14 noeuds. Prochain bulletin le dimanche 23 août 2026, vers 06H30 légales
+FQCT40 LFML 230325 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 23 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 23 août 2026 à 00H00 UTC, et évolution Pressions proches de 1015-1017 hPa sur le bassin. Dépression relative se creusant 1007 hPa sur le Golfe du Lion demain après-midi. 3 - Prévisions pour la journée du dimanche 23 août VENT : - de Port Camargue au Cap Croisette : secteur Nord 2 à 4, mollissant Sud à Sud-Est 1 à 3 l'après-midi. - du Cap Croisette à Saint Raphaël : secteur Nord-Est 2 à 4, mollissant secteur Est 1 à 3 l'après-midi. MER : belle à peu agitée, devenant belle l'après-midi. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Secteur Est 1 à 3. MER : belle. HOULE : non significative. TEMPS : ciel peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 24 août VENT : Est à Sud-Est 2 à 4, fraîchissant 3 à 5 le matin, puis 5 à 6 à l'ouest de Sicié le soir. Fortes rafales sous orages. MER : belle, devenant belle à peu agitée le matin, puis peu agitée à agitée à l'ouest de Sicié l'après-midi. HOULE : non significative. TEMPS : ciel voilé, orages le soir. VISIBILITE : bonne, localement moyenne à mauvaise sous orages. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : De Port Camargue à Fos Sud 5 à 7, revenant Est à Sud-Est 2 à 3 en début de matinée. De Fos à la Ciotat secteur Sud-Est 6, mollissant et devenant variable 1 à 3 en milieu d'après-midi. Fortes rafales. De la Ciotat au Levant Est 3 à 5, virant Ouest à Sud-Ouest 1 à 3 en début de matinée. Fortes rafales. Du Levant à St Raphaël Est à Nord-Est 3 à 4, virant Sud-Est en milieu de nuit, puis au Sud-Ouest en début de matinée. Fortes rafales. MER : De Port Camargue à Marseille mer agitée, devenant peu agitée en début de matinée. De Marseille à St Raphaël mer belle à peu agitée. HOULE : De Port Camargue à la Ciotat houle d'Est inférieure à 2 m, s'orientant en milieu de nuit au Sud à Sud-Est. De la Ciotat à St Raphaël houle dominante d'Est à Nord-Est 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 26 août secteur Sud-Est faible à modéré dans le golfe du Lion, secteur Nord-Est faible entre Corse et continent. Indice de confiance : 4 sur 5 Jeudi 27 août secteur Sud modéré dans le golfe du Lion, secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 28 août secteur Nord-Ouest faible à modéré dans le golfe du Lion, secteur Sud-Ouest modéré à fort entre Corse et continent. Indice de confiance : 2 sur 5 Samedi 29 août secteur Nord-Ouest faible à modéré dans le Golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le dimanche 23 août 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Ouest 10 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Nord-Est 2 noeuds, rafales 12 noeuds. Porquerolles : vent Nord-Est 8 noeuds. Cap Couronne : vent Nord 8 noeuds. Prochain bulletin le dimanche 23 août 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -320,12 +320,12 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 2 : Colmar
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 23/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -333,9 +333,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 23 Août 2026.
-Résumé général précédent : Changement de circulation acté : sortie du blocage estival, retour d'un temps plus humide et dynamique, avec une séquence orageuse en fin de semaine 1, suivie d'un rafraîchissement. La semaine 2 reste très incertaine, avec une possible remontée des températures dans le sud, mais sans signal caniculaire..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Alternance de chaleur lourde et d'orages, rafraîchissement net en fin de semaine..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -409,7 +409,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 14 heures par tao
+	Modifié il y a 16 heures par tao
 								5
 								1
 
@@ -617,7 +617,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 14 heures par tao
+	Modifié il y a 16 heures par tao
 								5
 								1
 
