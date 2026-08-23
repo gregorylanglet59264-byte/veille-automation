@@ -9,7 +9,7 @@ PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
 
 TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 - Sujet 1 exploité : Du 24 Août Au 30 Août 2026 Prévisions Météo Semaine 35
-- Sujet 2 exploité : Du 24 Août Au 30 Août 2026 Prévisions Météo Semaine 35  (⚠️ Le sujet spécifique de la Semaine 36 (du Du Lundi 31 Août au Dimanche 6 Septembre 2026) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 35).
+- Sujet 2 exploité : Du 31 Août Au 06 Septembre 2026 Prévisions Météo Semaine 36 
 
 === SOURCES COMPLÉMENTAIRES (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
 
@@ -319,12 +319,12 @@ agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Temps en Italie (depuis 2017)
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 23/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,47 +332,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 23 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Changement de circulation vers un temps plus variable et orageux, sans canicule, avec un possible retour anticyclonique en semaine 2..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Chaleur lourde au sud puis orages mercredi/jeudi et rafraîchissement en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: tao
-Message:
-Le 21/08/2026 à 12:33, mike a dit :
-			difficile de voir une NAO+ à l'horizon
-	Bonjour,
-	sur les graphiques que j'ai postés, on voit bien qu'il y a hésitation.
-	Je trouve la représentation du modèle américain parfois bien trop binaire.
-	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
-	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié hier à 11:30 par tao
-								5
-								1
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-24 minutes ago, mike said:
-			difficile de voir une NAO+ à l'horizon
-			On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	La tendance NAO+ modélisée se situerait plutôt en septembre d'après les graphes de tao.
-								1
-
-=======================
-
-Auteur: meteo noobs
-Message:
-Les gouttes froides ca devrait être interdit par les conventions de Genève....
-								1
-								3
-								1
-								2
-
-=======================
-
 Auteur: Tornado75
 Message:
 Dire que cette semaine était sensée être fraîche de base ou au moins de saison....
@@ -546,7 +511,7 @@ Il y a 17 heures, ggdu19 a dit :
 	https://data.icos-cp.eu/portal/#{"route"%3A"preview"%2C"preview"%3A["SSlDWJt6ae1CGukpA-wM1S3a"]%2C"previewSettings"%3A{"x"%3A"TIMESTAMP"%2C"y"%3A"co2"%2C"type"%3A"line"%2C"legendLabels"%3A"SAC 100 m Level 2"%2C"linking"%3A"overlap"}}
 	difficile de promener le pointeur sur le graphique mais les dernières données donnent un pas de temps de trois heures : assez fin pour suivre par exemple les effets d'une humidification locale du sol ou du moins de corréler...
 	le différentiel de concentration en CO₂ serait de 2 à 5 ppm positif dans les minutes suivant l'humidification (gaz accumulé dans le sol), mais de 10 à 40 ppm dans un délais de 12 à 48 heures (croissance opportuniste explosive bactérienne) : https://pmc.ncbi.nlm.nih.gov/articles/PMC10673078/
-	Modifié il y a 2 heures par giec 2100
+	Modifié il y a 4 heures par giec 2100
 								5
 								2
 
@@ -555,226 +520,41 @@ Il y a 17 heures, ggdu19 a dit :
 Auteur: Nico 14
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								6
+								7
+								1
+
+=======================
+
+Auteur: Météodu37
+Message:
+Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
+	ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
+								9
+
+=======================
+
+Auteur: Laurent15
+Message:
+il y a une heure, Météodu37 a dit :
+			Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
+			ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
+	Merci Kévin pour ce bulletin très développé, mais aussi très pédagogue, comme je les adore
+
+=======================
+
+Auteur: symaski62
+Message:
+https://www.meteociel.fr/modeles/arome.php?ech=37&amp;mode=152&amp;map=0
+	140 à 150 km/h  vent    
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: tao
 Message:
-Le 21/08/2026 à 12:33, mike a dit :
-			difficile de voir une NAO+ à l'horizon
-	Bonjour,
-	sur les graphiques que j'ai postés, on voit bien qu'il y a hésitation.
-	Je trouve la représentation du modèle américain parfois bien trop binaire.
-	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
-	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié hier à 11:30 par tao
-								5
-								1
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-24 minutes ago, mike said:
-			difficile de voir une NAO+ à l'horizon
-			On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	La tendance NAO+ modélisée se situerait plutôt en septembre d'après les graphes de tao.
-								1
-
-=======================
-
-Auteur: meteo noobs
-Message:
-Les gouttes froides ca devrait être interdit par les conventions de Genève....
-								1
-								3
-								1
-								2
-
-=======================
-
-Auteur: Tornado75
-Message:
-Dire que cette semaine était sensée être fraîche de base ou au moins de saison....
-	Mais bon au moins ça confirmera l'été exceptionnel qu'on a eu.
-	A suivre la dégradation orageuse de lundi soir et de jeudi notamment 
-								1
-								1
-
-=======================
-
-Auteur: Leonai
-Message:
-Elle est belle celle-là, je vais la garder dans mes archives je pense!
-	😍
-								1
-								1
-								1
-
-=======================
-
-Auteur: nickdu77
-Message:
-Il y a 3 heures, meteo noobs a dit :
-			Les gouttes froides ca devrait être interdit par les conventions de Genève....
-	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié vendredi à 16:56 par nickdu77
-Faute de frappe
-								3
-
-=======================
-
-Auteur: meteo noobs
-Message:
-Il y a 1 heure, Leonai a dit :
-			Elle est belle celle-là, je vais la garder dans mes archives je pense!
-			😍
-	@Leonai j'ai regardé l'ensemble c'est un des scénarios les plus bas pour cette date. Très en dessous de la moyenne malheureusement 
-	Après très rapide tour des runs de ce soir je trouve un changement dans les modèles.
-	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
-	Est ce la GF mutante qui les perturbe ?
-	Modifié vendredi à 18:52 par meteo noobs
-								4
-
-=======================
-
-Auteur: Virgile
-Message:
-On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
-	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
-	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-								13
-								2
-								3
-
-=======================
-
-Auteur: Mica
-Message:
-La semaine pourrait ressembler à celle en cours.
-	Chaud voire très chaud (chaleur lourde avec passages orageux) la première moitié de la semaine, notamment sur la moitié sud, avec un pic mercredi, jeudi pour les regions de l'est.
-	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
-	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
-	Plus au nord, les signaux restent tempérés, de saison:
-								14
-								1
-
-=======================
-
-Auteur: symaski62
-Message:
-lundi  24  +66 heures  +2 jours    53  mm pluie   
-								7
-								1
-								1
-
-=======================
-
-Auteur: greg13
-Message:
-Sans atteindre les seuils caniculaires, la prochaine semaine verra donc une nouvelle floppée de 30 à 33°c dans le Sud du Pays, avant un nouveau rafraîchissement prévu autour du 28 août. 
-	PS : Il reste 4 dernières places pour rejoindre le jeu de la rentrée de pronostics météo sur Infoclimat... Si ça vous botte, les inscriptions se font jusqu'à lundi
-
-=======================
-
-Auteur: greghouse33
-Message:
-Il y a 13 heures, symaski62 a dit :
-			lundi  24  +66 heures  +2 jours    53  mm pluie   
-	La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
-
-=======================
-
-Auteur: ggdu19
-Message:
-il y a 45 minutes, greghouse33 a dit :
-			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
-	Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
-	Désolé pour le HS
-								5
-								1
-
-=======================
-
-Auteur: greghouse33
-Message:
-il y a 12 minutes, ggdu19 a dit :
-			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
-			Désolé pour le HS
-	C'était de l'humour 😄, mais oui effectivement ça risque de faire plus de dégâts qu'autre chose.
-	Allez fin du HS.
-								1
-
-=======================
-
-Auteur: symaski62
-Message:
-wow    
-								5
-								1
-								1
-
-=======================
-
-Auteur: Nono34
-Message:
-Il y a 11 heures, ggdu19 a dit :
-			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
-			Désolé pour le HS
-	Ce serait pas un mythe ça ?
-	Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
-	A part sur des pentes à 30% à la limite...
-								1
-								2
-
-=======================
-
-Auteur: serge26
-Message:
-il y a 10 minutes, Nono34 a dit :
-			Ce serait pas un mythe ça ?
-			Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
-			A part sur des pentes à 30% à la limite...
-	A mon avis çà dépend des secteurs et du type de sol
-								2
-
-=======================
-
-Auteur: Leonai
-Message:
-😍🤩🥰
-								1
-								1
-								1
-
-=======================
-
-Auteur: giec 2100
-Message:
-Il y a 17 heures, ggdu19 a dit :
-			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
-			Désolé pour le HS
-	si on arrive à récupérer un peu d'eau pour "réanimer" ce qui peut encore l'être du côté faune et flore ce sera bien, mais outre la violence attendue des phénomènes orageux il y a aussi ce qu'on ne mentione guère à cette occasion : 
-	un relargage massif de CO₂ par les sols du fait d'un boom bactérien du microbiome mis en dormance par le stress hydrique, la part fongique étant moins concernée ; on aura donc une double peine après ces mois torrides et arides : un arrêt fréquent ou une forte perturbation de la photosynthèse, limitant fortement le rôle traditionnel de puits de carbone des zones agricoles comme forestières (sans compter les effets des incendies...), combiné à ce largage de CO₂...
-	ce que je raconte là est "l'effet Birch" - https://pubmed.ncbi.nlm.nih.gov/17403645/ -, qui ne concerne pas uniquement la zone méditerranéenne les années comme 2026, où la forte augmentation de la respiration microbienne et le dégagement de CO₂ se produisent lorsqu'un sol sec est soudainement réhumidifié par les pluies d'automne...
-	alors, paradoxe, faudrait-il que les prévisions s'orientent finalement vers des pluies plus tardives et moins abondantes pour limiter le phénomène... ?
-	en complément de mon interrogation, sans que je sache vraiment au moment où je l'ai formulée, plus de précisions avec l'article suivant, en fonction des prévisions météo des jours suivants pour ce relargage redouté de CO₂: 
-	"Nous développons ensuite un modèle stochastique pour les taux de respiration hétérotrophe du sol qui relie analytiquement les propriétés statistiques de la respiration à celles des précipitations. Les résultats du modèle montrent que la respiration moyenne lors des pics de réhumidification et la respiration moyenne pendant le dessèchement augmentent avec l'augmentation des précipitations moyennes. Cependant, la contribution des pics de respiration à la respiration hétérotrophe totale augmente avec la diminution de la fréquence des précipitations et, dans une moindre mesure, avec la diminution de leur intensité. Il en résulte une contribution globale plus importante des pics de respiration en cas de précipitations futures plus intermittentes et intenses."
-	source : https://bg.copernicus.org/articles/17/4007/2020/
-	les prévisions de ce topic nous mettraient le cul entre deux chaises, avec localement des précipitations orageuses à fort cumul, peut-être une carte globale en taches de léopard avec beaucoup de zones non arrosées, mais d'un autre côté une intermittence de précipitations avérée, avec le retour de conditions anticycloniques pour le prochain topic...
-	dernière modification de mon post, avec les enregistrements au fil de l'eau des concentrations de CO₂ sur le territoire national, susceptibles de retrouver ces pics d'émission consécutifs aux précipitations concluant de longues périodes sèches, avec le réseau international ICOS, Integrated Carbon Observation System, avec ici la station de Saclay, période 31/05/2017–31/03/2026 :
-	https://data.icos-cp.eu/portal/#{"route"%3A"preview"%2C"preview"%3A["SSlDWJt6ae1CGukpA-wM1S3a"]%2C"previewSettings"%3A{"x"%3A"TIMESTAMP"%2C"y"%3A"co2"%2C"type"%3A"line"%2C"legendLabels"%3A"SAC 100 m Level 2"%2C"linking"%3A"overlap"}}
-	difficile de promener le pointeur sur le graphique mais les dernières données donnent un pas de temps de trois heures : assez fin pour suivre par exemple les effets d'une humidification locale du sol ou du moins de corréler...
-	le différentiel de concentration en CO₂ serait de 2 à 5 ppm positif dans les minutes suivant l'humidification (gaz accumulé dans le sol), mais de 10 à 40 ppm dans un délais de 12 à 48 heures (croissance opportuniste explosive bactérienne) : https://pmc.ncbi.nlm.nih.gov/articles/PMC10673078/
-	Modifié il y a 2 heures par giec 2100
-								5
-								2
-
-=======================
-
-Auteur: Nico 14
-Message:
-Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								6
+Bonsoir,
+	le question de la semaine pourrait être, est-ce que l'humidité revenue récemment sur notre pays va-t-elle se maintenir?
+	En terme de moyenne, il semble bien que la porte de l'ouest a bien été ouverte dans la semaine précédente. Cependant sur la circulation paraît débloquée, la météo chez nous devrait être sensible à la latitude de circulation du jet et donc des potentielles dépressions.
+	Si cette question peut sembler assez clairs à l'aide d'une moyenne, au niveau déterministe, cela devrait s'avérer plus complexe tant les scénarios apparaissent variés, voire très différents en terme de circulation atmosphérique ce qui devrait promettre quelques débats en fonction des actualisations:
+	Si l'humidité était vraiment de retour, ce serait déjà une information importante, c'est possible car le potentiel de blocage semble bien marquer le pas en cette fin d'été début d'automne.
+	Modifié il y a 3 minutes par tao
 								1
