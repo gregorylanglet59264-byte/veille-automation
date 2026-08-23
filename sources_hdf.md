@@ -307,7 +307,7 @@ Températures minimales : similaires à la veille.
 Températures maximales : stationnaires.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 230435 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 23 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 23 août 2026 à 00H00 UTC, et évolution Anticyclone 1028 hPa situé à l'ouest de l'Irlande se décalant vers l'est, prévu 1024 hPa sur Mer du Nord demain midi. Dépression 1001 hPa, quasi-stationnaire à l'ouest du Portugal, se comblant lentement, prévue 1005 hPa demain midi. Thalweg associé se creusant sur la facade atlantique en journée avec grains parfois forts la nuit et demain. 3 - Prévisions pour la journée du dimanche 23 août VENT : Est à Nord-Est dominant 1 à 3, fraîchissant 3 à 4 à la mi-journée. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : nuageux avec quelques averses le matin, ensoleillé l'après-midi. VISIBILITE : bonne, parfois moyenne sous averses. 4 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Nord-Est 3 à 4, fraîchissant Est 4 à 5 en fin de nuit en Manche. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : voilé, mais rares averses possibles en mer du Nord. VISIBILITE : bonne, moyenne en mer du Nord. 5 - Prévisions pour la journée du lundi 24 août VENT : Est 4 à 5, fraîchissant Est à Nord-Est 5 à 6 l'après-midi, mais 4 à 5 du Touquet à la baie de Somme. MER : belle à peu agitée, devenant peu agitée à agitée l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : voilé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : Est 6 mollissant 4 à 5 en milieu de nuit. MER : agitée, devenant peu agitée en début de matinée. HOULE : Établissement temporaire d'une houle de Nord-Est 1 à 1,5 m en début de matinée. 7 - Tendance pour les jours suivants Mercredi 26 août secteur Sud faible à modéré à l'Ouest du domaine, secteur Sud-Ouest faible à l'Est du domaine. Indice de confiance : 4 sur 5 Jeudi 27 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 28 août secteur Ouest modéré à assez fort à l'Ouest du domaine, secteur Sud-Ouest modéré à fort à l'Est du domaine. Indice de confiance : 2 sur 5 Samedi 29 août secteur Ouest modéré. Indice de confiance : 2 sur 5 8 - Observations le dimanche 23 août 2026 à 03H00 UTC Dunkerque : vent Sud-Sud-Ouest 4 noeuds, mer peu agitée, 1025 hPa en hausse, nuageux avec éclaircies, visibilité 6 milles. Cap Gris Nez : vent Est-Sud-Est 6 noeuds. Boulogne : vent Est-Sud-Est 4 noeuds, 1025 hPa en hausse. Bouée Sandettie : vent Nord-Nord-Est 4 noeuds, creux 0,8 mètre, 1025 hPa en baisse, visibilité 5 milles. Prochain bulletin le dimanche 23 août 2026, vers 12H30 légales
+FQCT40 LFQQ 230934 Origine Météo-France. Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme, du dimanche 23 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale le dimanche 23 août 2026 à 06H00 UTC, et évolution Anticyclone 1027 hPa situé sur l'Irlande se décalant vers l'est, prévu 1024 hPa sur Mer du Nord demain midi. Dépression 1000 hPa, quasi-stationnaire à l'ouest du Portugal, se comblant lentement, prévue 1005 hPa demain midi. Thalweg associé se creusant sur la façade Atlantique en journée avec grains parfois forts la nuit et demain. 3 - Prévisions pour l'après-midi du dimanche 23 août VENT : Nord-Est 1 à 3, fraîchissant 3 à 4 l'après-midi. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Nord-Est 3 à 4, fraîchissant Est 4 à 5 en milieu de nuit. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 24 août VENT : Est 4 à 5, fraîchissant Est à Nord-Est 5 à 6 l'après-midi de Boulogne à la frontière Belge. Rafales. MER : belle à peu agitée, devenant peu agitée à agitée l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : Est à Nord-Est 4 à 5, localement 5 à 6 de Boulogne à la frontière Belge, mollissant Est 3 à 4 en fin de nuit. MER : peu agitée à agitée, devenant belle à peu agitée le matin. HOULE : Nord à Nord-Est 0.5 à 1 m. TEMPS : voilé, se couvrant avec pluie ou averses le matin. VISIBILITE : bonne, localement moyenne sous précipitations. 7 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : Est à Sud-Est 3 à 4, virant Sud-Ouest en seconde partie de nuit, puis au Nord-Est en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante de Nord-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Jeudi 27 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5. Samedi 29 août Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 3 sur 5. Dimanche 30 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5. 9 - Observations le dimanche 23 août 2026 à 09H00 UTC Dunkerque : vent Nord-Nord-Ouest 4 noeuds, 1026 hPa en hausse. Cap Gris Nez : vent Ouest 2 noeuds. Boulogne : vent Ouest-Sud-Ouest 2 noeuds, 1026 hPa en hausse. Prochain bulletin le dimanche 23 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -337,12 +337,12 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Traque &#xE0; l'orage depuis le Sommet de l'Artzamendi
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 23/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -350,32 +350,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 23 Août 2026.
-Résumé général HDF précédent : Les deux semaines seront marquées par un retour à un temps océanique : averses, vent de sud-ouest, températures de saison (20-25°C). Pas de canicule en vue, mais une incertitude reste sur la fin de la semaine 2..
+Résumé général HDF précédent : Retour d'un temps océanique avec des averses et un vent de sud-ouest, températures en baisse vers les normales après l'été exceptionnel. Aucune canicule en vue..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Risque d'orages jeudi-vendredi, puis averses et vent assez fort. (80 caractères).
+Températures attendues précédemment : Orages localement forts jeudi-vendredi, puis averses et vent de sud-ouest le week-end. (94 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Virgile
-Message:
-il y a une heure, Jojobarbar a dit :
-			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
-	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié jeudi à 21:16 par Virgile
-								3
-								1
-
-=======================
-
-Auteur: Plancher
-Message:
-Bonjour,
-	Une question. Est-ce que le changement de synoptique évoqué par certains est toujours d'actualité ? Si oui, est-ce durable ou juste pour le topic ?
-	Certains sites comme la Chaîne Météo évoque un phénomène de courte durée.
-	Merci.
-
-=======================
-
 Auteur: tao
 Message:
 Bonjour,
@@ -418,7 +398,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 20 heures par tao
+	Modifié il y a 22 heures par tao
 								5
 								1
 
@@ -542,7 +522,7 @@ il y a 45 minutes, greghouse33 a dit :
 			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
 	Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
 	Désolé pour le HS
-								3
+								4
 								1
 
 =======================
@@ -561,30 +541,34 @@ il y a 12 minutes, ggdu19 a dit :
 Auteur: symaski62
 Message:
 wow    
-								3
+								4
+								1
+								1
+
+=======================
+
+Auteur: Nono34
+Message:
+Il y a 11 heures, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	Ce serait pas un mythe ça ?
+	Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+	A part sur des pentes à 30% à la limite...
+								1
+
+=======================
+
+Auteur: serge26
+Message:
+il y a 10 minutes, Nono34 a dit :
+			Ce serait pas un mythe ça ?
+			Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+			A part sur des pentes à 30% à la limite...
+	A mon avis çà dépend des secteurs et du type de sol
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Virgile
-Message:
-il y a une heure, Jojobarbar a dit :
-			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
-	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié jeudi à 21:16 par Virgile
-								3
-								1
-
-=======================
-
-Auteur: Plancher
-Message:
-Bonjour,
-	Une question. Est-ce que le changement de synoptique évoqué par certains est toujours d'actualité ? Si oui, est-ce durable ou juste pour le topic ?
-	Certains sites comme la Chaîne Météo évoque un phénomène de courte durée.
-	Merci.
-
-=======================
-
 Auteur: tao
 Message:
 Bonjour,
@@ -627,7 +611,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 20 heures par tao
+	Modifié il y a 22 heures par tao
 								5
 								1
 
@@ -751,7 +735,7 @@ il y a 45 minutes, greghouse33 a dit :
 			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
 	Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
 	Désolé pour le HS
-								3
+								4
 								1
 
 =======================
@@ -770,5 +754,29 @@ il y a 12 minutes, ggdu19 a dit :
 Auteur: symaski62
 Message:
 wow    
-								3
+								4
+								1
+								1
+
+=======================
+
+Auteur: Nono34
+Message:
+Il y a 11 heures, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	Ce serait pas un mythe ça ?
+	Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+	A part sur des pentes à 30% à la limite...
+								1
+
+=======================
+
+Auteur: serge26
+Message:
+il y a 10 minutes, Nono34 a dit :
+			Ce serait pas un mythe ça ?
+			Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+			A part sur des pentes à 30% à la limite...
+	A mon avis çà dépend des secteurs et du type de sol
 								1

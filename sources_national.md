@@ -312,7 +312,7 @@ Températures minimales : en hausse.
 Températures maximales : en baisse sur le Lauragais, dans le Volvestre ainsi que dans le Saint-Gaudinois.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 230425 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 23 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 23 août 2026 à 00H00 UTC, et évolution Pressions proches de 1015-1017 hPa sur le bassin. Dépression relative se creusant 1007 hPa sur le Golfe du Lion demain après-midi. 3 - Prévisions pour la journée du dimanche 23 août VENT : - de Port Camargue au Cap Croisette : secteur Nord 2 à 4, mollissant Sud à Sud-Est 1 à 3 l'après-midi. - du Cap Croisette à Saint Raphaël : secteur Nord-Est 2 à 4, mollissant secteur Est 1 à 3 l'après-midi. MER : belle à peu agitée, devenant belle l'après-midi. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Secteur Est 1 à 3. MER : belle. HOULE : non significative. TEMPS : ciel peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 24 août VENT : Est à Sud-Est 2 à 4, fraîchissant 3 à 5 le matin, puis 5 à 6 à l'ouest de Sicié le soir. Fortes rafales sous orages. MER : belle, devenant belle à peu agitée le matin, puis peu agitée à agitée à l'ouest de Sicié l'après-midi. HOULE : non significative. TEMPS : ciel voilé, orages le soir. VISIBILITE : bonne, localement moyenne à mauvaise sous orages. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : De Port Camargue à Fos Sud 5 à 7, revenant Est à Sud-Est 2 à 3 en début de matinée. De Fos à la Ciotat secteur Sud-Est 6, mollissant et devenant variable 1 à 3 en milieu d'après-midi. Fortes rafales. De la Ciotat au Levant Est 3 à 5, virant Ouest à Sud-Ouest 1 à 3 en début de matinée. Fortes rafales. Du Levant à St Raphaël Est à Nord-Est 3 à 4, virant Sud-Est en milieu de nuit, puis au Sud-Ouest en début de matinée. Fortes rafales. MER : De Port Camargue à Marseille mer agitée, devenant peu agitée en début de matinée. De Marseille à St Raphaël mer belle à peu agitée. HOULE : De Port Camargue à la Ciotat houle d'Est inférieure à 2 m, s'orientant en milieu de nuit au Sud à Sud-Est. De la Ciotat à St Raphaël houle dominante d'Est à Nord-Est 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 26 août secteur Sud-Est faible à modéré dans le golfe du Lion, secteur Nord-Est faible entre Corse et continent. Indice de confiance : 4 sur 5 Jeudi 27 août secteur Sud modéré dans le golfe du Lion, secteur Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 28 août secteur Nord-Ouest faible à modéré dans le golfe du Lion, secteur Sud-Ouest modéré à fort entre Corse et continent. Indice de confiance : 2 sur 5 Samedi 29 août secteur Nord-Ouest faible à modéré dans le Golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le dimanche 23 août 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Ouest 10 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Nord-Est 2 noeuds, rafales 12 noeuds. Porquerolles : vent Nord-Est 8 noeuds. Cap Couronne : vent Nord 8 noeuds. Prochain bulletin le dimanche 23 août 2026, vers 13H00 légales
+FQCT40 LFML 230940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 23 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 23 août 2026 à 06H00 UTC, et évolution Faible gradient 1015-1017 hPa. Dépression relative 1013 hPa la nuit prochaine sur le Roussillon, se creusant 1008 hPa demain après-midi. 3 - Prévisions pour l'après-midi du dimanche 23 août VENT : - de Port-Camargue à Sicié : Sud à Sud-Est 2 à 4. - de Sicié à Saint-Raphaël : Est à Nord-Est 3 à 4. MER : belle, mais localement peu agitée à l'est de Porquerolles. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Sud-Est 2 à 4 à l'ouest de Sicié, mais Est à Nord-Est à l'est. MER : belle. HOULE : non significative. TEMPS : ciel voilé, puis bancs de brume en fin de nuit vers la Camargue. VISIBILITE : bonne, localement moyenne par bancs de brume vers la Camargue. 5 - Prévisions pour la journée du lundi 24 août VENT : secteur Est 2 à 4, fraîchissant 3 à 5 à la mi-journée, localement 5 à 6 à l'ouest de Sicié en milieu d'après-midi. Rafales. MER : belle, devenant peu agitée l'après-midi à l'ouest de Sicié, localement agitée en fin de journée vers la Camargue. HOULE : non significative, puis s'établissant Sud-Est 0.5 à 1 m en fin de journée vers la Camargue. TEMPS : ciel voilé, localement bancs de brume le matin vers la Camargue. VISIBILITE : bonne, localement moyenne par bancs de brume. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : secteur Est dominant 4 à 6, parfois 7 en première partie de nuit avec fortes rafales sous orages, mollissant 3 à 4 le matin, mais localement Variable 1 à 3 à l'est de Sicié, puis s'orientant secteur Sud 2 à 4 sur toute la zone l'après-midi. MER : peu agitée à agitée, s'atténuant peu agitée le matin. HOULE : - à l'ouest de Sicié : Sud à Sud-Est 0.5 à 1 m, mais temporairement 1 à 1.5 m la nuit de Port-Camargue au Cap Couronne. - à l'est de Sicié : non significative, puis s'établissant Sud 0.5 à 1 m le matin. TEMPS : devenant orageux, puis s'améliorant en fin de nuit. VISIBILITE : mauvaise à très mauvaise sous orage la nuit, puis bonne. 7 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : Sud à Sud-Ouest 2 à 4, mollissant 1 à 3 en seconde partie de nuit, revenant ensuite Est à Sud-Est 4 à 5. MER : peu agitée. HOULE dominante de Sud à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Jeudi 27 août Secteur Est modéré à assez fort. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Samedi 29 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 30 août Secteur Ouest dominant, faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le dimanche 23 août 2026 à 09H00 UTC Cap Camarat : vent Nord-Nord-Est 12 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est 6 noeuds. Porquerolles : vent Est-Nord-Est 6 noeuds, rafales 17 noeuds. Cap Couronne : vent Est 6 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le dimanche 23 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -342,12 +342,12 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Traque &#xE0; l'orage depuis le Sommet de l'Artzamendi
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 23/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -355,32 +355,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 23 Août 2026.
-Résumé général précédent : Les 15 prochains jours devraient voir un temps plus variable qu'en début d'été, avec des passages pluvieux et orageux, et des températures proches des normales, sans canicule. La tendance est à un retour de l'humidité..
+Résumé général précédent : Sur les 15 prochains jours, la France connaîtra une transition vers un temps plus instable et océanique, avec la fin de la période de chaleur intense. Les températures resteront proches des normales, avec un risque orageux marqué autour du 27 août et du 3 septembre. Aucune canicule n'est en vue..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents possibles lundi et jeudi, en particulier dans le sud-ouest et le sud-est, avec de fortes pluies et de la grêle..
+Températures attendues précédemment : Temps chaud et instable en début de semaine, orages parfois forts, puis rafraîchissement net avec retour d'un temps plus sec et océanique..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Virgile
-Message:
-il y a une heure, Jojobarbar a dit :
-			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
-	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié jeudi à 21:16 par Virgile
-								3
-								1
-
-=======================
-
-Auteur: Plancher
-Message:
-Bonjour,
-	Une question. Est-ce que le changement de synoptique évoqué par certains est toujours d'actualité ? Si oui, est-ce durable ou juste pour le topic ?
-	Certains sites comme la Chaîne Météo évoque un phénomène de courte durée.
-	Merci.
-
-=======================
-
 Auteur: tao
 Message:
 Bonjour,
@@ -423,7 +403,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 20 heures par tao
+	Modifié il y a 22 heures par tao
 								5
 								1
 
@@ -547,7 +527,7 @@ il y a 45 minutes, greghouse33 a dit :
 			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
 	Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
 	Désolé pour le HS
-								3
+								4
 								1
 
 =======================
@@ -566,30 +546,34 @@ il y a 12 minutes, ggdu19 a dit :
 Auteur: symaski62
 Message:
 wow    
-								3
+								4
+								1
+								1
+
+=======================
+
+Auteur: Nono34
+Message:
+Il y a 11 heures, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	Ce serait pas un mythe ça ?
+	Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+	A part sur des pentes à 30% à la limite...
+								1
+
+=======================
+
+Auteur: serge26
+Message:
+il y a 10 minutes, Nono34 a dit :
+			Ce serait pas un mythe ça ?
+			Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+			A part sur des pentes à 30% à la limite...
+	A mon avis çà dépend des secteurs et du type de sol
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Virgile
-Message:
-il y a une heure, Jojobarbar a dit :
-			En effet, cependant, on reste quand même dans une configuration dynamique, humide, je pense qu'on sera loin des épisodes précédents, partout sur le pays. En Tmax, on serait plutôt tranquille, par contre ce sont les Tmin qui seront bien élevée : probablement des journées tropicales, au sens littéral avec une température quasi-constante (surtout si des nuages à l'avant des orages viennent couvrir le ciel). 
-	C'est exactement cela pour le début de ce topic. Pas des TX de malade mais plutôt entre 28 et 32 en moyenne, un peu moins dans le NO. C'est surtout des TN bien pénibles avec une humidité élevée.
-	Modifié jeudi à 21:16 par Virgile
-								3
-								1
-
-=======================
-
-Auteur: Plancher
-Message:
-Bonjour,
-	Une question. Est-ce que le changement de synoptique évoqué par certains est toujours d'actualité ? Si oui, est-ce durable ou juste pour le topic ?
-	Certains sites comme la Chaîne Météo évoque un phénomène de courte durée.
-	Merci.
-
-=======================
-
 Auteur: tao
 Message:
 Bonjour,
@@ -632,7 +616,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 20 heures par tao
+	Modifié il y a 22 heures par tao
 								5
 								1
 
@@ -756,7 +740,7 @@ il y a 45 minutes, greghouse33 a dit :
 			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
 	Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
 	Désolé pour le HS
-								3
+								4
 								1
 
 =======================
@@ -775,5 +759,29 @@ il y a 12 minutes, ggdu19 a dit :
 Auteur: symaski62
 Message:
 wow    
-								3
+								4
+								1
+								1
+
+=======================
+
+Auteur: Nono34
+Message:
+Il y a 11 heures, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	Ce serait pas un mythe ça ?
+	Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+	A part sur des pentes à 30% à la limite...
+								1
+
+=======================
+
+Auteur: serge26
+Message:
+il y a 10 minutes, Nono34 a dit :
+			Ce serait pas un mythe ça ?
+			Chaque année c'est la même chose, les premiers épisodes méditerranéens après une sécheresse font à peine réagir les cours d'eau car les sols sont secs justement 🤔
+			A part sur des pentes à 30% à la limite...
+	A mon avis çà dépend des secteurs et du type de sol
 								1
