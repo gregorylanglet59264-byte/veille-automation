@@ -344,11 +344,11 @@ agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
+• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
+• Infoclimat Direct : Traque &#xE0; l'orage depuis le Sommet de l'Artzamendi
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -357,33 +357,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 23 Août 2026.
-Résumé général précédent : Transition vers un temps plus océanique, avec des températures proches des normales et un risque orageux récurrent, notamment autour du 27-28 août et début septembre..
+Résumé général précédent : La transition vers un temps plus océanique et dynamique se confirme pour les 15 prochains jours. La semaine 1 sera marquée par une chaleur lourde, des orages parfois forts (surtout jeudi 27) et un net rafraîchissement pour le week-end du 29-30 août. La semaine 2 s'annonce plus indécise, avec des températures proches des normales de saison, un risque orageux résiduel et une répartition des précipitations très incertaine. Aucun signe de canicule n'est décelé..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Retour d'une humidité plus marquée, avec des orages possibles, surtout en début de semaine et jeudi..
+Températures attendues précédemment : Chaleur lourde en début de semaine, suivie d'orages parfois forts, avec un risque de grêle. Rafraîchissement net et généralisé pour samedi et dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: Plancher
-Message:
-Merci beaucoup pour ta réponse. J'y vois plus clair.
-
-=======================
-
-Auteur: mike
-Message:
-il y a une heure, tao a dit :
-			Bonjour,
-			Pour la chaine météo, ce n'est pas la peine Plancher... 
-			Pour le changement de synoptique, il est à l'œuvre en ce moment (on est sorti de la domination du blocage). Ensuite, d'après les modèles sub saisonniers, il n'y aurait pas de synoptique bien typique qui prendrait nettement le pas sur une autre.
-			Une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.     
-			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
-	difficile de voir une NAO+ à l'horizon
-	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié vendredi à 10:35 par mike
-								3
-
-=======================
-
 Auteur: tao
 Message:
 Le 21/08/2026 à 12:33, mike a dit :
@@ -482,7 +461,7 @@ La semaine pourrait ressembler à celle en cours.
 	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
-								13
+								14
 								1
 
 =======================
@@ -571,30 +550,35 @@ Message:
 😍🤩🥰
 								1
 								1
+								1
+
+=======================
+
+Auteur: giec 2100
+Message:
+Il y a 15 heures, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	si on arrive à récupérer un peu d'eau pour "réanimer" ce qui peut encore l'être du côté faune et flore ce sera bien, mais outre la violence attendue des phénomènes orageux il y a aussi ce qu'on ne mentione guère à cette occasion : 
+	un relargage massif de CO₂ par les sols du fait d'un boom bactérien du microbiome mis en dormance par le stress hydrique, la part fongique étant moins concernée ; on aura donc une double peine après ces mois torrides et arides : un arrêt fréquent ou une forte perturbation de la photosynthèse, limitant fortement le rôle traditionnel de puits de carbone des zones agricoles comme forestières (sans compter les effets des incendies...), combiné à ce largage de CO₂...
+	ce que je raconte là est "l'effet Birch" - https://pubmed.ncbi.nlm.nih.gov/17403645/ -, qui ne concerne pas uniquement la zone méditerranéenne les années comme 2026, où la forte augmentation de la respiration microbienne et le dégagement de CO₂ se produisent lorsqu'un sol sec est soudainement réhumidifié par les pluies d'automne...
+	alors, paradoxe, faudrait-il que les prévisions s'orientent finalement vers des pluies plus tardives et moins abondantes pour limiter le phénomène... ?
+	en complément de mon interrogation, sans que je sache vraiment au moment où je l'ai formulée, plus de précisions avec l'article suivant, en fonction des prévisions météo des jours suivants pour ce relargage redouté de CO₂: 
+	"Nous développons ensuite un modèle stochastique pour les taux de respiration hétérotrophe du sol qui relie analytiquement les propriétés statistiques de la respiration à celles des précipitations. Les résultats du modèle montrent que la respiration moyenne lors des pics de réhumidification et la respiration moyenne pendant le dessèchement augmentent avec l'augmentation des précipitations moyennes. Cependant, la contribution des pics de respiration à la respiration hétérotrophe totale augmente avec la diminution de la fréquence des précipitations et, dans une moindre mesure, avec la diminution de leur intensité. Il en résulte une contribution globale plus importante des pics de respiration en cas de précipitations futures plus intermittentes et intenses."
+	source : https://bg.copernicus.org/articles/17/4007/2020/
+	les prévisions de ce topic nous mettraient le cul entre deux chaises, avec localement des précipitations orageuses à fort cumul, peut-être une carte globale en taches de léopard avec beaucoup de zones non arrosées, mais d'un autre côté une intermittence de précipitations avérée, avec le retour de conditions anticycloniques pour le prochain topic...
+	Modifié il y a 31 minutes par giec 2100
+								4
+
+=======================
+
+Auteur: Nico 14
+Message:
+Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
+								3
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Plancher
-Message:
-Merci beaucoup pour ta réponse. J'y vois plus clair.
-
-=======================
-
-Auteur: mike
-Message:
-il y a une heure, tao a dit :
-			Bonjour,
-			Pour la chaine météo, ce n'est pas la peine Plancher... 
-			Pour le changement de synoptique, il est à l'œuvre en ce moment (on est sorti de la domination du blocage). Ensuite, d'après les modèles sub saisonniers, il n'y aurait pas de synoptique bien typique qui prendrait nettement le pas sur une autre.
-			Une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.     
-			Si l'on regarde les diagrammes, le retour d'une certaine humidité est bien au programme sans que l'on puisse, pour le moment, tabler sur une répartition géographique des cumuls tant les aspects orageux et hétérogènes restent majoritaires dans les jours à venir, début de semaine prochaine notamment.
-	difficile de voir une NAO+ à l'horizon
-	On a plutot clairement une situation de NAO- avec des HP bien ancrés aux latitudes nordiques et c'est grace à celle ci que le jet stream est bien descendu aux latitudes
-	Modifié vendredi à 10:35 par mike
-								3
-
-=======================
-
 Auteur: tao
 Message:
 Le 21/08/2026 à 12:33, mike a dit :
@@ -693,7 +677,7 @@ La semaine pourrait ressembler à celle en cours.
 	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
-								13
+								14
 								1
 
 =======================
@@ -782,4 +766,30 @@ Message:
 😍🤩🥰
 								1
 								1
+								1
+
+=======================
+
+Auteur: giec 2100
+Message:
+Il y a 15 heures, ggdu19 a dit :
+			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
+			Désolé pour le HS
+	si on arrive à récupérer un peu d'eau pour "réanimer" ce qui peut encore l'être du côté faune et flore ce sera bien, mais outre la violence attendue des phénomènes orageux il y a aussi ce qu'on ne mentione guère à cette occasion : 
+	un relargage massif de CO₂ par les sols du fait d'un boom bactérien du microbiome mis en dormance par le stress hydrique, la part fongique étant moins concernée ; on aura donc une double peine après ces mois torrides et arides : un arrêt fréquent ou une forte perturbation de la photosynthèse, limitant fortement le rôle traditionnel de puits de carbone des zones agricoles comme forestières (sans compter les effets des incendies...), combiné à ce largage de CO₂...
+	ce que je raconte là est "l'effet Birch" - https://pubmed.ncbi.nlm.nih.gov/17403645/ -, qui ne concerne pas uniquement la zone méditerranéenne les années comme 2026, où la forte augmentation de la respiration microbienne et le dégagement de CO₂ se produisent lorsqu'un sol sec est soudainement réhumidifié par les pluies d'automne...
+	alors, paradoxe, faudrait-il que les prévisions s'orientent finalement vers des pluies plus tardives et moins abondantes pour limiter le phénomène... ?
+	en complément de mon interrogation, sans que je sache vraiment au moment où je l'ai formulée, plus de précisions avec l'article suivant, en fonction des prévisions météo des jours suivants pour ce relargage redouté de CO₂: 
+	"Nous développons ensuite un modèle stochastique pour les taux de respiration hétérotrophe du sol qui relie analytiquement les propriétés statistiques de la respiration à celles des précipitations. Les résultats du modèle montrent que la respiration moyenne lors des pics de réhumidification et la respiration moyenne pendant le dessèchement augmentent avec l'augmentation des précipitations moyennes. Cependant, la contribution des pics de respiration à la respiration hétérotrophe totale augmente avec la diminution de la fréquence des précipitations et, dans une moindre mesure, avec la diminution de leur intensité. Il en résulte une contribution globale plus importante des pics de respiration en cas de précipitations futures plus intermittentes et intenses."
+	source : https://bg.copernicus.org/articles/17/4007/2020/
+	les prévisions de ce topic nous mettraient le cul entre deux chaises, avec localement des précipitations orageuses à fort cumul, peut-être une carte globale en taches de léopard avec beaucoup de zones non arrosées, mais d'un autre côté une intermittence de précipitations avérée, avec le retour de conditions anticycloniques pour le prochain topic...
+	Modifié il y a 31 minutes par giec 2100
+								4
+
+=======================
+
+Auteur: Nico 14
+Message:
+Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
+								3
 								1
