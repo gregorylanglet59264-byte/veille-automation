@@ -6,117 +6,120 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur le changement de circulation, mais désaccords sur l'intensité et la chronologie des orages.*
-- **Fiabilité du scénario majoritaire :** Océanique instable — *Retour d'un flux de sud-ouest humide, températures de saison, sans excédent notable.*
+- **Consensus des modèles :** Modéré — *Les modèles s'accordent sur les grandes lignes mais divergent sur les détails.*
+- **Fiabilité du scénario majoritaire :** Temps océanique variable — *Retour de l'humidité, pas de canicule.*
 - **Stabilité des cartes/scénarios :** 6 / 142 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Modérée à forte — *Semaine 2 reposant sur des projections long terme et non sur les discussions du forum.*
+- **Niveau d'incertitude global :** Forte pour la semaine 2 — *Absence de prévisions consolidées au-delà de mardi 1er.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 24 Août au Dimanche 30 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Changement de circulation : Le blocage est terminé, retour d'un flux océanique plus humide et dynamique sur les Hauts-de-France.
-2. Début de semaine sec : Lundi et mardi restent lumineux, avec fraîcheur matinale et quelques averses nocturnes localisées.
-3. Mercredi lumineux : Soleil parfois voilé par des nuages élevés, températures en hausse, entre 23 et 28°C selon les secteurs.
-4. Dégradation jeudi-vendredi : Risque de pluie et d'orages, vent de sud-ouest assez fort vendredi avec fortes rafales possibles.
-5. Week-end instable : Averses, ciel changeant et vent de sud-ouest encore assez fort samedi, températures en baisse.
+1. Fin de la chaleur : Les températures reviennent à des valeurs de saison sur les Hauts-de-France après un été chaud. (16 mots)
+2. Temps variable : Alternance de soleil et de passages nuageux, avec un risque orageux jeudi-vendredi. (15 mots)
+3. Vent de sud-ouest : Rafales possibles à partir de vendredi, notamment sur le littoral. (13 mots)
+4. Pas de canicule : Aucun signe de forte chaleur durable pour la région. (12 mots)
+5. Changement de synoptique : Retour à une circulation océanique plus humide et dynamique. (12 mots)
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Fin de la période de blocage et retour d'une circulation océanique plus dynamique.
-- Pas de canicule ; températures globalement de saison, voire fraîches au nord.
-- Dégradation pluvio-orageuse en fin de semaine, suivie d'un week-end instable et venteux.
+- Dégradation orageuse jeudi-vendredi (Météo-France XML et discussions).
+- Retour à un flux de sud-ouest avec pluies et averses en fin de semaine.
+- Températures maximales autour de 20-25°C, pas de canicule.
 **Points de divergence :**
-- Intensité et localisation exactes des orages de jeudi-vendredi.
-- Cumuls de pluie associés aux averses nocturnes de lundi : hétérogènes.
-- Évolution NAO+ ou NAO- pour la fin août et le début septembre.
+- Intensité des orages : incertitude sur les cumuls (5 à 10 mm annoncés par Météo-France, possibles valeurs plus importantes selon ICON).
+- Timing de la dégradation : certains modèles la voient arriver lundi soir, d'autres jeudi.
+- Localisation des fortes pluies : Santerre, Thiérache, pays de Bray selon les bulletins.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (Modèle européen)** (Scénario majoritaire, à confirmer à l'échelle régionale) | Retour d'une circulation océanique, pas de canicule, très légère tendance NAO+ fin août-début septembre, signaux tempérés pour le nord. | Passage pluvio-orageux jeudi-vendredi, puis averses et vent de sud-ouest ; températures de saison. | Hauts-de-France, surtout à partir du 27 août ; signaux globalement plus tempérés qu'au sud. | Modérée (60-70%) | Le modèle européen est jugé plus riche sur les circulations hybrides par tao ; Mica insiste sur des signaux tempérés au nord. |
-| **GFS (Modèle américain)** (Hypothèse à surveiller) | Évolution moins chaude et plus humide ; représentation parfois « binaire » selon tao, avec hésitation entre NAO+ et NAO-. | Averses orageuses, rafraîchissement en fin de semaine, retour d'un temps plus instable. | Hauts-de-France concernés indirectement ; pas de détail régional explicite. | Faible (40-50%) | mike conteste la vision NAO+ et met en avant des hauts géopotentiels ancrés aux latitudes nordiques ; meteo noobs voit un run moins chaud et plus humide. |
-| **ICON** (Signal ponctuel d'un run, à confirmer) | Run du soir nettement moins chaud et beaucoup plus humide, signal jugé « flagrant » par meteo noobs. | Averses et humidité accrues en début de semaine ; températures en baisse. | Pas de détail précis pour les Hauts-de-France. | Faible (40-50%) | Le changement de synoptique est en cours ; ce run isolé ne fait pas consensus. |
-| **Météo-France XML (bulletins départementaux)** (Confirmé pour l'échelle départementale) | Temps sec et lumineux lundi-mardi, voile nuageux mercredi, dégradation pluvio-orageuse jeudi-vendredi, averses samedi-dimanche. | Vent de sud-ouest assez fort vendredi et samedi, fortes rafales ; températures de saison. | Nord, Pas-de-Calais, Somme, Oise, Aisne | Élevée (80-90%) | Détails précis des températures, vents, précipitations et vigilances pour chaque département HDF. |
+| **ECMWF** (Mentionné indirectement dans les discussions (pas de citation explicite).) | Le modèle européen privilégie une dégradation pluvio-orageuse en fin de semaine, avec un flux de sud-ouest. (140 caractères) | Risque d'orages jeudi-vendredi, puis averses et vent assez fort. (80 caractères) | Toute la région Hauts-de-France, avec un risque plus marqué sur l'Aisne et l'Oise. (90 caractères) | Modérée (membres évoquent la tendance générale sans détail régional) – 60% | Les discussions mettent en avant une fin de synoptique de blocage, avec un axe dépressionnaire sur l'Europe de l'Ouest. Les températures devraient rester modérées dans le nord. |
+| **GFS** (Évoqué via le débat NAO+ / NAO-.) | Le modèle américain est également en faveur d'un temps plus humide, mais avec une incertitude sur la répartition des cumuls. (130 caractères) | Averses orageuses possibles dès lundi soir, puis dégradation plus marquée jeudi. (90 caractères) | Principalement les départements du sud de la région (Oise, Aisne). | Faible (pas de commentaire dédié HDF, seulement des généralités) – 40% | Le modèle montre une hésitation entre NAO+ et NAO-, mais s'accorde avec l'ECMWF sur le retour de l'humidité. |
+| **ICON** (Mentionné explicitement dans une discussion.) | Le modèle allemand est le plus humide, avec des cumuls potentiellement marqués sur la région. (110 caractères) | Averses dès lundi, orages plus probables jeudi-vendredi. (70 caractères) | Toute la région, mais avec des incertitudes sur les cumuls localisés. | Modérée (mention claire du modèle dans une discussion) – 60% | Le modèle suggère un temps plus humide et moins chaud que les précédents runs. |
+| **Météo-France XML (Meteotel)** (Source primaire pour les prévisions départementales.) | Bulletins départementaux détaillés pour chaque département HDF : temps variable, orages jeudi-vendredi, averses samedi. (140 caractères) | Risque d'orages jeudi-vendredi, averses samedi-dimanche, vent de sud-ouest assez fort. (100 caractères) | Les 5 départements, avec des nuances locales (Santerre, Thiérache, littoral). | Élevée (source officielle détaillée par département) – 90% | Après un début de semaine ensoleillé, le temps se dégrade à partir de jeudi avec un risque orageux, puis des averses et du vent samedi-dimanche. Températures de saison, maximales entre 20 et 27°C selon les jours. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Alternance d'éclaircies et de passages nuageux lundi, soleil plus franc mardi, nuages élevés mercredi, puis risque de pluie et d'orages jeudi-vendredi et averses le week-end. | Min 8 à 15°C, max 20 à 26°C selon les jours, sous abri. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses orageuses localisées ; Flandre maritime plus exposée au vent et aux averses. |
-| **Pas-de-Calais (62)** | Soleil dominant lundi-mardi, nuages élevés mercredi, dégradation pluvio-orageuse jeudi-vendredi, averses samedi-dimanche. | Min 7 à 16°C, max 20 à 26°C selon secteurs et jours. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Brouillards possibles lundi matin entre Audomarois et Béthunois ; intensité des averses littorales à préciser. |
-| **Somme (80)** | Belles périodes ensoleillées lundi-mardi, voile nuageux mercredi, risque de pluie et d'orages jeudi-vendredi, averses et vent samedi-dimanche. | Min 9 à 15°C, max 21 à 27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls de 5 mm possibles sur le Santerre dans la nuit de lundi à mardi ; localisation des averses difficile à préciser. |
-| **Oise (60)** | Voile nuageux lundi, ciel clair mardi, nuages élevés mercredi, risque de pluie et d'orages jeudi-vendredi, averses samedi-dimanche. | Min 9 à 16°C, max 21 à 27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses nocturnes lundi très localisées ; évolution orageuse de jeudi à affiner. |
-| **Aisne (02)** | Éclaircies et passages nuageux lundi, averses orageuses possibles la nuit, soleil mardi, risque de pluie et d'orages jeudi-vendredi, averses le week-end. | Min 7 à 16°C, max 22 à 28°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls jusqu'à 10 mm possibles sur la Champagne crayeuse ; évolution des orages de jeudi encore incertaine. |
+| **Nord (59)** | Temps ensoleillé lundi-mardi, puis risque d'orages jeudi-vendredi et averses le week-end. | Min 8-16°C, Max 20-26°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls orageux localisés, notamment sur l'Avesnois. |
+| **Pas-de-Calais (62)** | Soleil et passages nuageux en début de semaine, dégradation orageuse en fin de semaine. | Min 7-16°C, Max 20-26°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque de fortes rafales sur les côtes. |
+| **Somme (80)** | Alternance de soleil et de nuages, averses possibles en soirée de mardi. | Min 9-15°C, Max 21-27°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls plus importants sur le Santerre (5 mm annoncés). |
+| **Oise (60)** | Temps souvent ensoleillé, avec voile nuageux et quelques averses en soirée de lundi. | Min 9-16°C, Max 21-27°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls possibles jusqu'à 10 mm sur le pays de Bray. |
+| **Aisne (02)** | Belles journées ensoleillées en début de semaine, puis dégradation orageuse. | Min 7-16°C, Max 22-28°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Jusqu'à 10 mm de pluie possibles sur la Champagne crayeuse mardi matin. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 24 - Mardi 25 Août** : Temps généralement sec et lumineux, fraîcheur matinale, averses nocturnes localisées possibles.
-- **Mercredi 26 Août** : Journée lumineuse sous des nuages élevés, températures en hausse, 23 à 28°C.
-- **Jeudi 27 - Vendredi 28 Août** : Risque de pluie et d'orages, vent de sud-ouest assez fort vendredi et fortes rafales.
-- **Samedi 29 - Dimanche 30 Août** : Averses, ciel changeant, vent de sud-ouest assez fort samedi, températures en baisse.
+- **Lundi 24 et mardi 25 août** : Temps généralement ensoleillé, avec quelques nuages et averses isolées lundi soir sur l'est.
+- **Mercredi 26 août** : Journée lumineuse avec voile nuageux, températures en hausse.
+- **Jeudi 27 et vendredi 28 août** : Risque d'orages, vent de sud-ouest assez fort, dégradation pluvio-orageuse.
+- **Samedi 29 et dimanche 30 août** : Averses et vent de sud-ouest, températures plus fraîches (20-23°C).
 
 **Points solides :**
-- Pas de canicule en vue sur les Hauts-de-France.
-- Début de semaine globalement sec et lumineux, surtout mardi.
-- Vent de sud-ouest assez fort attendu vendredi et samedi, avec rafales.
+- Pas de canicule en vue, températures de saison (max 20-28°C).
+- Dégradation orageuse jeudi-vendredi confirmée par les bulletins Météo-France.
+- Vent de sud-ouest assez fort attendu en fin de semaine, surtout sur le littoral.
 
 **Points fragiles :**
-- Cumuls orageux très hétérogènes, impossibles à spatialiser précisément.
-- Localisation exacte des averses nocturnes de lundi (Aisne, Oise, Somme).
-- Évolution du week-end et du début septembre encore dépendante des runs.
+- Localisation exacte des orages et cumuls de pluie (incertitude sur le Santerre, la Thiérache, etc.).
+- Timing exact de la dégradation : certains modèles la voient plus précoce (lundi) que d'autres (jeudi).
+- Intensité des rafales de vent, notamment sur les côtes du Nord et du Pas-de-Calais.
 
 **À surveiller (prochains runs) :**
-CEP 12Z, GFS 12Z, ICON 12Z, AROME pour la chronologie orageuse ; cartes d'anomalies de géopotentiels 500 hPa.
+- Évolution des modèles ICON et GFS pour jeudi-vendredi.
+- Surveillance des indices de convection (CAPE, LI) pour évaluer le risque orageux.
+- Prochains bulletins Météo-France pour affiner les cumuls de précipitations.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Sujet S36 non ouvert : Les prévisions pour la semaine 2 restent basées sur les tendances longues des modèles, avec une forte incertitude.
-2. Flux océanique probable : Maintien d'une circulation d'ouest/sud-ouest, temps humide et averses, pas de retour de canicule.
-3. Début de semaine perturbé : Lundi 31 et mardi 1er, risque de pluie ou d'averses, vent de sud-ouest modéré à assez fort.
-4. Températures de saison : Minimales 12-15°C, maximales 20-24°C ; évolution ensuite à trancher.
+1. Sujet non ouvert : Le forum Infoclimat n'a pas encore ouvert le sujet pour la semaine 36. (16 mots)
+2. Prévisions à long terme : Les modèles suggèrent une poursuite du temps humide et de saison. (14 mots)
+3. Incertitudes fortes : Les scénarios pour la semaine restent incertains. (10 mots)
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Pas de signal de canicule pour la semaine 2.
-- Flux d'ouest/sud-ouest dominant, avec humidité et averses.
-- Températures proches des normales de début septembre.
+- Temps humide et averses probables en début de semaine (Météo-France XML).
+- Pas de signal de chaleur intense pour la région.
+- Flux de sud-ouest dominant.
 **Points de divergence :**
-- Position exacte des dépressions et des talwegs sur le proche Atlantique.
-- Répartition géographique des cumuls de pluie, encore impossible à affiner.
-- Évolution NAO+ / NAO- et son impact sur la fin de semaine.
+- Évolution après mardi : inconnue (sujet forum non ouvert).
+- Intensité des précipitations incertaine.
+- Températures pour la fin de semaine non documentées.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (projection long terme)** (Indirect – sujet Semaine 36 non ouvert) | Maintien d'un flux de sud-ouest océanique, temps humide et de saison, températures sans excédent, pas de canicule. | Averses, passages pluvieux, vent de sud-ouest parfois assez fort, températures 20-25°C. | Hauts-de-France, plus exposées au flux océanique que les régions du sud. | Modérée (60-70%) | Une très légère tendance NAO+ est évoquée par tao, mais sans nette prise de pouvoir d'un type de circulation. |
-| **GFS (projection long terme)** (Hypothèse à confirmer – fortement incertaine) | Tendance à un flux plus humide et moins chaud, mais représentation jugée binaire et incertaine. | Averses et passages pluvieux, températures proches des normales de début septembre. | Hauts-de-France indirectement ; pas de détail fiable pour la semaine 2. | Faible (40-50%) | mike conteste la NAO+ et décrit plutôt une NAO- avec hauts géopotentiels nordiques ; Jojobarbar voit une éventuelle NAO+ plutôt en septembre. |
-| **Météo-France XML (échéance rapprochée)** (Utilisable pour les 48 premières heures de la semaine 2) | Pour lundi 31 et mardi 1er septembre : risque de pluie ou d'averses, vent de sud-ouest modéré, températures stationnaires. | Averses, rafales possibles, températures maximales sans changement significatif. | Nord, Pas-de-Calais, Somme, Oise, Aisne | Élevée (80-90%) pour lundi-mardi, faible au-delà | Les bulletins ne donnent pas de tendance fiable au-delà de mardi ; l'incertitude devient forte dès mercredi 2 septembre. |
+| **ECMWF** (Projections à long terme extrapolées.) | Les projections à long terme indiquent un flux de sud-ouest avec des averses, températures stables. (130 caractères) | Averses possibles, vent modéré de sud-ouest. (70 caractères) | Région HDF (non détaillé). | Faible (pas de commentaire dédié) – 40% | D'après les discussions, il y aurait un retour de l'humidité mais avec une incertitude sur la répartition. Les températures devraient rester de saison dans le nord. |
+| **GFS** (Projections à long terme.) | Hésitation entre scénarios, mais pas de signal caniculaire pour la région. (110 caractères) | Possibilité d'averses, températures modérées. (60 caractères) | Non détaillé. | Faible – 40% | Les discussions indiquent que le modèle américain est parfois binaire, mais qu'il s'accorde sur un temps plus humide. |
+| **Météo-France XML (Meteotel)** (Informations partielles pour le début de semaine.) | Pour lundi 31 et mardi 1er septembre, risque de pluie ou d'averses, vent modéré de sud-ouest. (130 caractères) | Averses, températures stables autour de 20-23°C. (70 caractères) | Tous les départements HDF. | Modérée (prévisions limitées à 2 jours) – 60% | Les prévisions indiquent un temps humide avec des averses, un vent de sud-ouest modéré à assez fort sur le littoral, et des températures maximales similaires à la veille (20-23°C). |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Risque de pluie ou d'averses lundi 31 et mardi 1er ; tendance ensuite incertaine mais probablement instable et océanique. | Min 13 à 15°C, max 21 à 23°C en début de semaine ; évolution à confirmer. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Projections long terme uniquement ; sujet Semaine 36 non ouvert sur le forum. |
-| **Pas-de-Calais (62)** | Pluie ou averses lundi 31 et mardi 1er, avec un littoral venté ; tendance océanique incertaine ensuite. | Min 13 à 16°C, max 20 à 22°C en début de semaine. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Manque de recul pour la suite de la semaine ; incertitude sur l'activité des averses. |
-| **Somme (80)** | Risque de pluie ou d'averses lundi 31 et mardi 1er, vent d'Ouest-Sud-Ouest assez fort sur le littoral picard. | Min 12 à 15°C, max 21 à 23°C en début de semaine. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Tendance générale seulement au-delà de mardi ; répartition des pluies incertaine. |
-| **Oise (60)** | Pluie ou averses jusqu'à mardi 1er en fin de journée ; temps ensuite indéterminé, probablement variable. | Min 12 à 15°C, max 21 à 24°C en début de semaine. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude forte dès mercredi 2 ; aucune projection fiable pour le reste de la semaine. |
-| **Aisne (02)** | Pluie ou averses jusqu'à mardi 1er en fin de journée ; tendance ensuite indéterminée, probablement variable et océanique. | Min 12 à 15°C, max 21 à 24°C en début de semaine. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Projections long terme seulement ; répartition géographique des pluies très incertaine. |
+| **Nord (59)** | Risque de pluie ou d'averses lundi 31 et mardi 1er, puis incertitudes. | Min similaires à la veille (13-15°C), Max 20-23°C | moderee | Météo-France XML, ECMWF, GFS | Évolution à partir de mercredi non documentée. |
+| **Pas-de-Calais (62)** | Pluies ou averses lundi, puis incertitudes en fin de semaine. | Min similaires (13-16°C), Max 20-23°C | moderee | Météo-France XML, ECMWF, GFS | Conditions pour le reste de la semaine à confirmer. |
+| **Somme (80)** | Risque de pluie ou d'averses lundi, puis incertitudes. | Min similaires (13-15°C), Max 21-23°C | moderee | Météo-France XML, ECMWF, GFS | Fin de semaine non documentée. |
+| **Oise (60)** | Pluies ou averses jusqu'à mardi en fin de journée, puis incertitudes. | Min stables (13-15°C), Max 21-23°C | moderee | Météo-France XML, ECMWF, GFS | Conditions pour le reste de la semaine non documentées. |
+| **Aisne (02)** | Pluies ou averses jusqu'à mardi, puis incertitudes. | Min similaires (13-15°C), Max 21-23°C | moderee | Météo-France XML, ECMWF, GFS | Évolution après mardi inconnue. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 31 Août - Mardi 1er Septembre** : Pluie ou averses, vent de sud-ouest modéré à assez fort, températures stationnaires.
-- **Mercredi 2 - Vendredi 4 Septembre** : Tendance indéterminée ; probable alternance d'éclaircies et d'averses, flux d'ouest, forte incertitude.
-- **Samedi 5 - Dimanche 6 Septembre** : Évolution à trancher ; aucun signal caniculaire, possible amélioration ou nouvelle dégradation.
-- **Dimanche 6 Septembre** : Journée de transition ; incertitude élevée, éclaircies et averses restent possibles.
+- **Lundi 31 et mardi 1er septembre** : Averses et vent de sud-ouest, températures stables.
+- **Mercredi 2 et jeudi 3 septembre** : Incertitude, pas de données fiables.
+- **Vendredi 4 à dimanche 6 septembre** : Aucune information disponible à ce stade.
+- **Non définies** : Sans objet.
 
 **Points solides :**
-- Pas de canicule en vue.
-- Flux de sud-ouest avec pluie ou averses lundi-mardi.
-- Températures maximales stables, proches de 20-24°C.
+- Temps humide et averses début de semaine (Météo-France XML).
+- Températures de saison, pas de chaleur excessive.
+- Vent de sud-ouest modéré à assez fort.
 
 **Points fragiles :**
-- Comportement météo après mercredi 2 septembre.
-- Trajectoire des dépressions et talwegs.
-- Répartition géographique des cumuls de pluie.
+- Absence de prévisions au-delà de mardi (sujet forum non ouvert).
+- Incertitudes sur l'évolution de la fin de semaine.
+- Tendance NAO+ évoquée mais non confirmée.
 
 **À surveiller (prochains runs) :**
-Ouverture du sujet Semaine 36 ; sorties CEP, GFS et ICON des 24-25 août ; cartes d'anomalies de géopotentiels 500 hPa.
+- Ouverture du sujet semaine 36 sur Infoclimat.
+- Prochains run ECMWF et GFS pour la fin de semaine.
+- Bulletins Météo-France mis à jour.
 
 
 ========================================
@@ -124,27 +127,27 @@ Ouverture du sujet Semaine 36 ; sorties CEP, GFS et ICON des 24-25 août ; carte
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Fin de l'été chaud et sec, bascule vers un temps océanique plus humide, variable et de saison ; pas de canicule en vue, risque orageux jeudi-vendredi puis averses et vent de sud-ouest.
+Les deux semaines seront marquées par un retour à un temps océanique : averses, vent de sud-ouest, températures de saison (20-25°C). Pas de canicule en vue, mais une incertitude reste sur la fin de la semaine 2.
 
 ### Période la plus fiable
-Semaine 1 (24-30 août) : bulletins XML détaillés et discussions forum fournies. Semaine 2 (31 août-6 septembre) : plus incertaine, faute de sujet dédié.
+Semaine 1 (du 24 au 30 août) car les bulletins Météo-France sont détaillés et les discussions forum régulières.
 
 ### Phénomènes récurrents
-Averses orageuses, nuages élevés, rafales de sud-ouest, fraîcheur matinale, humidité en hausse.
+Averses, orages localisés, rafales de vent sur le littoral, températures en légère baisse par rapport au début du mois.
 
 ### Principales incertitudes
-Cumuls orageux hétérogènes, timing précis de la dégradation, évolution NAO+ / NAO- pour début septembre.
+- Intensité et localisation des orages en semaine 1. - Évolution de la semaine 2 (manque de données). - Tendance NAO+ pour septembre à confirmer.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** La chronologie de la dégradation orageuse de jeudi-vendredi et le renforcement du vent samedi restent à préciser ; le passage des averses nocturnes de lundi est également délicat à caler.
-- **Localisation :** Cumuls orageux très hétérogènes ; localisation exacte des averses de lundi soir sur l'Aisne, l'Oise et la Somme incertaine ; secteurs littoraux plus exposés au vent.
-- **Intensité :** Intensité des orages jeudi-vendredi, force des rafales sous les averses samedi et durée du vent de sud-ouest dépendent de la trajectoire du talweg.
-- **Informations manquantes :** Le sujet spécifique de la Semaine 36 (31 août - 6 septembre) n'est pas ouvert ; aucune discussion détaillée des membres pour cette période. Les bulletins XML ne couvrent la semaine 2 que jusqu'à mardi 1er septembre.
-- **Modèles sous-documentés :** ARPEGE/AROME pour la convection orageuse, JMA, GEM, CFS v2 non commentés ; ICON cité ponctuellement ; GFS peu détaillé pour les HDF.
-- **Incertitudes images :** La carte de cumuls évoquant 53 mm en Corrèze ne concerne pas les Hauts-de-France ; les cartes sub-saisonnières ne permettent pas de spatialiser les précipitations.
+- **Timing/Chronologie :** Timing exact de la dégradation orageuse en semaine 1 : certains modèles la voient arriver plus tôt (lundi) que d'autres (jeudi). Pour la semaine 2, aucune information après mardi.
+- **Localisation :** Localisation des plus fortes pluies : Santerre, Thiérache, pays de Bray, Champagne crayeuse – les cumuls pourraient varier localement.
+- **Intensité :** Intensité des orages et des rafales de vent, notamment sur le littoral. Les bulletins Météo-France indiquent un risque de fortes rafales mais sans précision sur les valeurs.
+- **Informations manquantes :** Absence de prévisions Météo-France au-delà de mardi 1er. Pas de commentaires forum dédiés à la semaine 2. Pas de données sur l'humidité des sols ou les impacts agricoles.
+- **Modèles sous-documentés :** ICON, ARPEGE, UKMO – peu ou pas mentionnés dans les discussions.
+- **Incertitudes images :** Les graphiques des températures pour la semaine 2 ne sont pas disponibles (sujet non ouvert).
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌦️ Hauts-de-France : l'été chaud et sec bascule vers un temps océanique et plus humide. Après un début de semaine encore lumineux, une dégradation pluvio-orageuse est attendue jeudi et vendredi, avec un vent de sud-ouest assez fort. Pas de canicule à l'horizon : températures de saison, averses, et vigilance sur les rafales. Incertitude marquée pour la semaine du 31 août. Prudence et adaptation !
+#Météo #Prévisions #HautsDeFrance : fin de l'été chaud et sec, place à un temps océanique plus humide et de saison. Risque d'orages jeudi-vendredi, vent de sud-ouest. Pas de canicule en vue. Les prévisions pour la semaine suivante sont encore incertaines. Restons prudents !
