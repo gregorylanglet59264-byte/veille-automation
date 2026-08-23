@@ -287,7 +287,7 @@ Températures minimales : en baisse sur le Soissonnais.
 Températures maximales : stables.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 230934 Origine Météo-France. Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme, du dimanche 23 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale le dimanche 23 août 2026 à 06H00 UTC, et évolution Anticyclone 1027 hPa situé sur l'Irlande se décalant vers l'est, prévu 1024 hPa sur Mer du Nord demain midi. Dépression 1000 hPa, quasi-stationnaire à l'ouest du Portugal, se comblant lentement, prévue 1005 hPa demain midi. Thalweg associé se creusant sur la façade Atlantique en journée avec grains parfois forts la nuit et demain. 3 - Prévisions pour l'après-midi du dimanche 23 août VENT : Nord-Est 1 à 3, fraîchissant 3 à 4 l'après-midi. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Nord-Est 3 à 4, fraîchissant Est 4 à 5 en milieu de nuit. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 24 août VENT : Est 4 à 5, fraîchissant Est à Nord-Est 5 à 6 l'après-midi de Boulogne à la frontière Belge. Rafales. MER : belle à peu agitée, devenant peu agitée à agitée l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : Est à Nord-Est 4 à 5, localement 5 à 6 de Boulogne à la frontière Belge, mollissant Est 3 à 4 en fin de nuit. MER : peu agitée à agitée, devenant belle à peu agitée le matin. HOULE : Nord à Nord-Est 0.5 à 1 m. TEMPS : voilé, se couvrant avec pluie ou averses le matin. VISIBILITE : bonne, localement moyenne sous précipitations. 7 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : Est à Sud-Est 3 à 4, virant Sud-Ouest en seconde partie de nuit, puis au Nord-Est en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante de Nord-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Jeudi 27 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5. Samedi 29 août Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 3 sur 5. Dimanche 30 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5. 9 - Observations le dimanche 23 août 2026 à 09H00 UTC Dunkerque : vent Nord-Nord-Ouest 4 noeuds, 1026 hPa en hausse. Cap Gris Nez : vent Ouest 2 noeuds. Boulogne : vent Ouest-Sud-Ouest 2 noeuds, 1026 hPa en hausse. Prochain bulletin le dimanche 23 août 2026, vers 18H00 légales
+FQCT40 LFQQ 231615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 23 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 23 août 2026 à 12H00 UTC, et évolution Anticyclone 1027 hPa situé sur l'Irlande se décalant vers l'est, prévu 1024 hPa sur Mer du Nord demain midi. Dépression 1000 hPa, quasi-stationnaire à l'ouest du Portugal, se comblant lentement, prévue 1005 hPa demain midi. Thalweg associé se creusant sur la façade Atlantique en journée avec grains parfois forts la nuit et demain. 3 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Nord-Est 4 à 5. MER : belle à peu agitée. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du lundi 24 août VENT : Est 4 à 5, fraîchissant Est à Nord-Est 5 à 6 l'après-midi de la frontière belge à Boulogne. Rafales. MER : belle à peu agitée, devenant peu agitée à agitée l'après-midi. HOULE : Nord 0.5 à 1 m en mer du Nord. TEMPS : voilé, se couvrant avec quelques pluies l'après-midi. VISIBILITE : bonne. 5 - Tendance pour la nuit du 24 au 25, et la journée du mardi 25 août VENT : Est à Nord-Est 4 à 5, localement 5 à 6 de la frontière belge à Boulogne, mollissant Est 3 à 4 en fin de nuit. MER : peu agitée à agitée, devenant belle à peu agitée le matin. HOULE : Nord à Nord-Est 0.5 à 1 m. TEMPS : nuageux, se couvrant avec pluie ou averses le matin. VISIBILITE : bonne, localement moyenne sous précipitations. 6 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : Est à Sud-Est 3 à 4, virant Sud-Ouest en seconde partie de nuit, puis au Nord-Est en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante de Nord-Est 0,5 à 1 m. 7 - Tendance pour les jours suivants Jeudi 27 août secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5 Samedi 29 août Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 30 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 8 - Observations le dimanche 23 août 2026 à 15H00 UTC Dunkerque : vent Nord-Nord-Est 8 noeuds, mer peu agitée, 1025 hPa en baisse, nuageux avec éclaircies, visibilité 6 milles. Cap Gris Nez : vent Nord-Est 12 noeuds. Boulogne : vent Nord-Est 8 noeuds, 1025 hPa en baisse, clair ou peu nuageux, visibilité 9 milles. Bouée Sandettie : vent Est 8 noeuds, creux 0,7 mètre, 1025 hPa en baisse, visibilité 5 milles. Prochain bulletin le lundi 24 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -317,12 +317,12 @@ agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : BIM, BS, BQS, AM : des rendez-vous météo sur Infoclimat
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 23/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -330,9 +330,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 23 Août 2026.
-Résumé général HDF précédent : Sur les deux semaines, les HDF s'éloignent de la période caniculaire pour revenir à un temps plus océanique, avec un cumul pluvieux supérieur à la normale et des températures côtoyant les 20-25 °C, avec un risque maximal en fin de Semaine 1 puis atténuation..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Passage d'unthalweg dépressionnaire apportant pluie et orages jeudi-vendredi..
+Températures attendues précédemment : Orages potentiellement forts jeudi, puis rafraîchissement et averses samedi-dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -544,7 +544,7 @@ Il y a 17 heures, ggdu19 a dit :
 	https://data.icos-cp.eu/portal/#{"route"%3A"preview"%2C"preview"%3A["SSlDWJt6ae1CGukpA-wM1S3a"]%2C"previewSettings"%3A{"x"%3A"TIMESTAMP"%2C"y"%3A"co2"%2C"type"%3A"line"%2C"legendLabels"%3A"SAC 100 m Level 2"%2C"linking"%3A"overlap"}}
 	difficile de promener le pointeur sur le graphique mais les dernières données donnent un pas de temps de trois heures : assez fin pour suivre par exemple les effets d'une humidification locale du sol ou du moins de corréler...
 	le différentiel de concentration en CO₂ serait de 2 à 5 ppm positif dans les minutes suivant l'humidification (gaz accumulé dans le sol), mais de 10 à 40 ppm dans un délais de 12 à 48 heures (croissance opportuniste explosive bactérienne) : https://pmc.ncbi.nlm.nih.gov/articles/PMC10673078/
-	Modifié il y a 40 minutes par giec 2100
+	Modifié il y a 2 heures par giec 2100
 								5
 								2
 
@@ -553,7 +553,7 @@ Il y a 17 heures, ggdu19 a dit :
 Auteur: Nico 14
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								5
+								6
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -765,7 +765,7 @@ Il y a 17 heures, ggdu19 a dit :
 	https://data.icos-cp.eu/portal/#{"route"%3A"preview"%2C"preview"%3A["SSlDWJt6ae1CGukpA-wM1S3a"]%2C"previewSettings"%3A{"x"%3A"TIMESTAMP"%2C"y"%3A"co2"%2C"type"%3A"line"%2C"legendLabels"%3A"SAC 100 m Level 2"%2C"linking"%3A"overlap"}}
 	difficile de promener le pointeur sur le graphique mais les dernières données donnent un pas de temps de trois heures : assez fin pour suivre par exemple les effets d'une humidification locale du sol ou du moins de corréler...
 	le différentiel de concentration en CO₂ serait de 2 à 5 ppm positif dans les minutes suivant l'humidification (gaz accumulé dans le sol), mais de 10 à 40 ppm dans un délais de 12 à 48 heures (croissance opportuniste explosive bactérienne) : https://pmc.ncbi.nlm.nih.gov/articles/PMC10673078/
-	Modifié il y a 40 minutes par giec 2100
+	Modifié il y a 2 heures par giec 2100
 								5
 								2
 
@@ -774,5 +774,5 @@ Il y a 17 heures, ggdu19 a dit :
 Auteur: Nico 14
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								5
+								6
 								1

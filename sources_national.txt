@@ -289,7 +289,7 @@ Températures minimales : en hausse du Lauragais au Comminges.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 230940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 23 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 23 août 2026 à 06H00 UTC, et évolution Faible gradient 1015-1017 hPa. Dépression relative 1013 hPa la nuit prochaine sur le Roussillon, se creusant 1008 hPa demain après-midi. 3 - Prévisions pour l'après-midi du dimanche 23 août VENT : - de Port-Camargue à Sicié : Sud à Sud-Est 2 à 4. - de Sicié à Saint-Raphaël : Est à Nord-Est 3 à 4. MER : belle, mais localement peu agitée à l'est de Porquerolles. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Sud-Est 2 à 4 à l'ouest de Sicié, mais Est à Nord-Est à l'est. MER : belle. HOULE : non significative. TEMPS : ciel voilé, puis bancs de brume en fin de nuit vers la Camargue. VISIBILITE : bonne, localement moyenne par bancs de brume vers la Camargue. 5 - Prévisions pour la journée du lundi 24 août VENT : secteur Est 2 à 4, fraîchissant 3 à 5 à la mi-journée, localement 5 à 6 à l'ouest de Sicié en milieu d'après-midi. Rafales. MER : belle, devenant peu agitée l'après-midi à l'ouest de Sicié, localement agitée en fin de journée vers la Camargue. HOULE : non significative, puis s'établissant Sud-Est 0.5 à 1 m en fin de journée vers la Camargue. TEMPS : ciel voilé, localement bancs de brume le matin vers la Camargue. VISIBILITE : bonne, localement moyenne par bancs de brume. 6 - Prévisions pour la nuit du 24 au 25 et la journée du mardi 25 août VENT : secteur Est dominant 4 à 6, parfois 7 en première partie de nuit avec fortes rafales sous orages, mollissant 3 à 4 le matin, mais localement Variable 1 à 3 à l'est de Sicié, puis s'orientant secteur Sud 2 à 4 sur toute la zone l'après-midi. MER : peu agitée à agitée, s'atténuant peu agitée le matin. HOULE : - à l'ouest de Sicié : Sud à Sud-Est 0.5 à 1 m, mais temporairement 1 à 1.5 m la nuit de Port-Camargue au Cap Couronne. - à l'est de Sicié : non significative, puis s'établissant Sud 0.5 à 1 m le matin. TEMPS : devenant orageux, puis s'améliorant en fin de nuit. VISIBILITE : mauvaise à très mauvaise sous orage la nuit, puis bonne. 7 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : Sud à Sud-Ouest 2 à 4, mollissant 1 à 3 en seconde partie de nuit, revenant ensuite Est à Sud-Est 4 à 5. MER : peu agitée. HOULE dominante de Sud à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Jeudi 27 août Secteur Est modéré à assez fort. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Samedi 29 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 30 août Secteur Ouest dominant, faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le dimanche 23 août 2026 à 09H00 UTC Cap Camarat : vent Nord-Nord-Est 12 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est 6 noeuds. Porquerolles : vent Est-Nord-Est 6 noeuds, rafales 17 noeuds. Cap Couronne : vent Est 6 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le dimanche 23 août 2026, vers 18H30 légales
+FQCT40 LFML 231615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 23 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand frais Nr 281 pour LANGUEDOC-ROUSSILLON 2 - Situation générale dimanche 23 août 2026 à 12H00 UTC, et évolution Faible gradient 1015-1017 hPa. Dépression relative 1013 hPa cette nuit sur le Roussillon, se creusant 1007 hPa demain après-midi, puis se décalant vers l'est à la fin, avec perturbation orageuse associée balayant les côtes d'ouest en est en soirée et nuit. 3 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Sud-Est 2 à 4 à l'ouest de Sicié, mais Est à Nord-Est à l'est. MER : belle. HOULE : non significative. TEMPS : ciel clair parfois voilé, bancs de brume en fin de nuit vers la Camargue. VISIBILITE : bonne, localement moyenne par bancs de brume vers la Camargue. 4 - Prévisions pour la journée du lundi 24 août VENT : secteur Est 2 à 4, fraîchissant Est à Sud-Est 4 à 5 l'après-midi, puis localement 5 à 6 à l'ouest de Sicié en milieu d'après-midi. Rafales. MER : belle, devenant progressivement peu agitée l'après-midi, localement agitée en fin de journée vers la Camargue. HOULE : non significative, puis s'établissant Sud-Est 0.5 à 1 m en fin de journée vers la Camargue. TEMPS : ciel voilé, localement bancs de brume le matin vers la Camargue, puis devenant nuageux par l'ouest en fin d'après-midi. VISIBILITE : bonne, localement moyenne par bancs de brume. 5 - Tendance pour la nuit du 24 au 25, et la journée du mardi 25 août VENT : passagèrement Variable dépressionnaire 4 à 6 avec fortes rafales sous orages, mollissant secteur Est 2 à 4 en fin de nuit, puis virant secteur Sud-Est l'après-midi, mais mollissant localement Variable 1 à 3 à l'ouest de Cap Couronne. MER : peu agitée à agitée, s'atténuant peu agitée le matin. HOULE : - à l'ouest de Sicié : Sud à Sud-Est 0.5 à 1 m, temporairement 1 à 1.5 m à l'ouest de Beauduc en début de nuit. - à l'est de Sicié : non significative, puis s'établissant Sud 0.5 à 1 m le matin. TEMPS : orages en première partie de nuit, puis nuageux avec quelques averses en journée. VISIBILITE : mauvaise à très mauvaise sous orage en début de nuit, puis parfois moyenne sous averses en journée. 6 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : Sud à Sud-Ouest 2 à 4, mollissant 1 à 3 en seconde partie de nuit, revenant ensuite Est à Sud-Est 4 à 5. MER : peu agitée. HOULE dominante de Sud à Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Jeudi 27 août Secteur Est modéré à assez fort. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Samedi 29 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 30 août Secteur Ouest dominant, faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le dimanche 23 août 2026 à 15H00 UTC Cap Camarat : vent Nord-Est 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est-Sud-Est 6 noeuds. Porquerolles : vent Est 8 noeuds. Cap Couronne : vent Sud-Est 4 noeuds. Prochain bulletin le lundi 24 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -319,12 +319,12 @@ agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 23/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,9 +332,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 23 Août 2026.
-Résumé général précédent : Sur les 15 prochains jours, la France bascule vers un temps plus dynamique et océanique. La semaine 1 est marquée par une chaleur lourde, des orages parfois forts et un net rafraîchissement le week-end. La semaine 2 reste très incertaine, avec des températures probablement proches des normales et un risque orageux résiduel..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages possibles, chaleur moins marquée, incertitude sur la fin de semaine..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -546,7 +546,7 @@ Il y a 17 heures, ggdu19 a dit :
 	https://data.icos-cp.eu/portal/#{"route"%3A"preview"%2C"preview"%3A["SSlDWJt6ae1CGukpA-wM1S3a"]%2C"previewSettings"%3A{"x"%3A"TIMESTAMP"%2C"y"%3A"co2"%2C"type"%3A"line"%2C"legendLabels"%3A"SAC 100 m Level 2"%2C"linking"%3A"overlap"}}
 	difficile de promener le pointeur sur le graphique mais les dernières données donnent un pas de temps de trois heures : assez fin pour suivre par exemple les effets d'une humidification locale du sol ou du moins de corréler...
 	le différentiel de concentration en CO₂ serait de 2 à 5 ppm positif dans les minutes suivant l'humidification (gaz accumulé dans le sol), mais de 10 à 40 ppm dans un délais de 12 à 48 heures (croissance opportuniste explosive bactérienne) : https://pmc.ncbi.nlm.nih.gov/articles/PMC10673078/
-	Modifié il y a 40 minutes par giec 2100
+	Modifié il y a 2 heures par giec 2100
 								5
 								2
 
@@ -555,7 +555,7 @@ Il y a 17 heures, ggdu19 a dit :
 Auteur: Nico 14
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								5
+								6
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -767,7 +767,7 @@ Il y a 17 heures, ggdu19 a dit :
 	https://data.icos-cp.eu/portal/#{"route"%3A"preview"%2C"preview"%3A["SSlDWJt6ae1CGukpA-wM1S3a"]%2C"previewSettings"%3A{"x"%3A"TIMESTAMP"%2C"y"%3A"co2"%2C"type"%3A"line"%2C"legendLabels"%3A"SAC 100 m Level 2"%2C"linking"%3A"overlap"}}
 	difficile de promener le pointeur sur le graphique mais les dernières données donnent un pas de temps de trois heures : assez fin pour suivre par exemple les effets d'une humidification locale du sol ou du moins de corréler...
 	le différentiel de concentration en CO₂ serait de 2 à 5 ppm positif dans les minutes suivant l'humidification (gaz accumulé dans le sol), mais de 10 à 40 ppm dans un délais de 12 à 48 heures (croissance opportuniste explosive bactérienne) : https://pmc.ncbi.nlm.nih.gov/articles/PMC10673078/
-	Modifié il y a 40 minutes par giec 2100
+	Modifié il y a 2 heures par giec 2100
 								5
 								2
 
@@ -776,5 +776,5 @@ Il y a 17 heures, ggdu19 a dit :
 Auteur: Nico 14
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								5
+								6
 								1
