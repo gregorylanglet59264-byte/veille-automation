@@ -312,22 +312,22 @@ activité orageuse forte.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 2 : Colmar
-• Infoclimat Direct : Du 24 ao&#xFB;t au 30 ao&#xFB;t 2026 prévisions météo semaine 35
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 23/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Samedi 22 Août 2026.
-Résumé général HDF précédent : Après un début de semaine 1 ensoleillé et chaud, une dégradation orageuse est prévue mercredi/jeudi, suivie d'un rafraîchissement. La semaine 2 s'annonce plus fraîche et océanique, avec des températures proches des normales. La canicule semble écartée pour le nord..
+Dernier bulletin HDF généré le Dimanche 23 Août 2026.
+Résumé général HDF précédent : La chaleur estival se retire, laissant place à un contexte plus humide et agité. Le flux océanique devrait dominer, à l'origine de températures proches des normales ou légèrement en dessous, sans excès..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Retour d'une humidité généralisée, orages hétérogènes, pas de canicule pour le nord. (98 caractères).
+Températures attendues précédemment : Retour des oriels de chaleur et d'humidité, avec un risque orageux de plus en plus franc..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -401,7 +401,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 12 heures par tao
+	Modifié il y a 14 heures par tao
 								5
 								1
 
@@ -609,7 +609,7 @@ Le 21/08/2026 à 12:33, mike a dit :
 	Je trouve la représentation du modèle américain parfois bien trop binaire.
 	Les projections du modèle européen me semblent plus riches au niveau des circulation "hybrides".
 	Cependant selon lui, il y aurait bien un petit avantage à la NAO +, fin août début septembre mais comme ce n'est pas net, j'ai bien précisé: une très légère tendance à une NAO + pourrait se dessiner mais cela reste incertain et à confirmer largement.
-	Modifié il y a 12 heures par tao
+	Modifié il y a 14 heures par tao
 								5
 								1
 
