@@ -6,125 +6,129 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Consensus solide sur la dégradation de la semaine 1, mais divergence totale pour la semaine suivante.*
-- **Fiabilité du scénario majoritaire :** Dégradation orageuse puis rafraîchissement — *Scénario le plus probable pour la semaine 1, incertitude totale pour la semaine 2.*
+- **Consensus des modèles :** Modéré — *Bon accord sur la semaine 1, mais désaccord important sur la semaine 2.*
+- **Fiabilité du scénario majoritaire :** Faible — *Les scénarios pour la semaine 2 sont très divergents, sans solution dominante.*
 - **Stabilité des cartes/scénarios :** 6 / 63 — *6 cartes sur 63 analysées*
-- **Niveau d'incertitude global :** Élevée en semaine 2 — *Les modèles s'opposent sur la circulation, aucune tendance fiable.*
+- **Niveau d'incertitude global :** Élevée — *Incertitude forte sur la localisation et l'intensité des orages de jeudi, et sur l'ensemble de la semaine 2.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 24 au Dimanche 30 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Orages violents en vue : Mercredi et jeudi, risque de salves orageuses potentiellement intenses avec grêle et fortes rafales.
-2. Chaleur lourde au sud : Pic de chaleur mercredi/jeudi sur la moitié sud avec 30-35°C avant la dégradation.
-3. Rafraîchissement marqué : Dès vendredi, températures en nette baisse sur l'ensemble du pays, retour à des valeurs de saison.
-4. Pluies bienvenues : Cumuls conséquents attendus sur certaines régions, notamment le Sud-Ouest et le Centre-Est, malgré des sols secs.
-5. Vigilances probables : Passage en orange orages pour le Nord-Ouest et le Massif Central, risque pluie-inondation sur le Languedoc.
+1. Fin de semaine agitée : Le temps redevient plus instable en seconde partie de semaine, avec un risque orageux marqué, particulièrement sur la moitié nord et le centre-est.
+2. Chaleur lourde en début de semaine : Les températures restent élevées, souvent comprises entre 28 et 34°C, avec un pic attendu mercredi, surtout au sud.
+3. Dégradation orageuse jeudi : Un épisode orageux potentiellement fort et généralisé est attendu jeudi, avec un risque de grêle, de fortes rafales et de pluies intenses.
+4. Rafraîchissement net ensuite : Un net rafraîchissement est prévu à partir de vendredi, avec des maximales qui repassent sous les 25°C dans la plupart des régions.
+5. Pluies bienvenues : Ces précipitations, parfois orageuses et localement soutenues, concerneront une large partie du pays, mais resteront très inégalement réparties.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Dégradation orageuse majeure entre mercredi et jeudi, avec un risque de phénomènes violents (grêle, rafales).
-- Rafraîchissement généralisé à partir de vendredi, avec des températures sous les normales.
-- Retour de conditions plus humides sur une large moitié nord, mettant fin à la sécheresse de surface dans certains secteurs.
+Points de convergence (max 3 points)
+- Tous les modèles s'accordent sur une dégradation orageuse marquée entre mercredi et jeudi, avec un risque de phénomènes violents.
+- Un net rafraîchissement est attendu à partir de vendredi, avec des températures qui reviennent sous les normales de saison dans la plupart des régions.
+- La semaine prochaine pourrait voir un retour de conditions plus stables, mais avec une incertitude notable sur la localisation des éventuelles remontées chaudes.
 **Points de divergence :**
-- L'intensité exacte des orages de jeudi reste incertaine, avec une possible progression vers l'est plus marquée.
-- Le positionnement du thalweg et la traîne associée pour le week-end varient selon les modèles.
-- La remontée des températures prévue pour le week-end au sud est plus ou moins marquée selon les runs.
+Points de divergence (max 3 points)
+- L'intensité et la localisation précise des orages de jeudi restent incertaines, avec des écarts pouvant atteindre 200 km entre les scénarios.
+- La durée de l'épisode de fortes chaleurs en début de semaine est encore débattue, notamment sur le sud-ouest et la vallée du Rhône.
+- La fin de semaine et le week-end prochain pourraient voir un sursaut de chaleur au sud, mais les prévisions sur ce point sont très divergentes.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (Documenté) | Retour d'un thalweg d'altitude par l'ouest, engendrant une dégradation orageuse généralisée entre mercredi et jeudi, puis rafraîchissement. | Orages potentiellement violents, grêle, rafales, pluies importantes. | Tout le territoire, plus actif sur le Nord-Ouest et le Centre-Est. | Modérée (65%) | Les runs récents montrent une humidité accrue et une baisse des températures, avec un changement de circulation atmosphérique. |
-| **ECMWF** (Documenté) | Mise en place d'un axe dépressionnaire sur l'Europe de l'Ouest, avec des hauts géopotentiels sur les Açores et la Scandinavie. | Temps plus humide et moins chaud, orages possibles en début de semaine. | Toutes les régions, principalement la moitié nord et le centre-est. | Modérée (65%) | Pas de signe de canicule, mais une persistance d'un temps instable et orageux. |
-| **ICON** (Partiel) | Passage à un temps plus humide avec des orages, en accord avec GFS mais plus marqué. | Pluies orageuses possibles, températures en baisse. | France entière, plus marqué sur l'Ouest. | Faible (45%) | Signal d'humidité accru, mais sans précisions détaillées. |
-| **AROME** (Documenté) | Simulation de fortes rafales de vent (140-150 km/h) lors des orages de lundi soir. | Orages violents, rafales destructrices possibles. | Sud de la France, notamment Languedoc-Roussillon. | Modérée (65%) | Risque de grêle de grande taille et de rafales destructrices, confirmé par ESTOFEX (niveau 3). |
-| **ESTOFEX** (Documenté) | Alerte de niveau 3 pour le nord-est de l'Espagne et le sud de la France, avec risque de grêle très grosse et rafales destructrices. | Orages violents, grêle > 5 cm, vent destructeur. | Sud de la France (Languedoc-Roussillon, PACA) et nord-est de l'Espagne. | Élevée (85%) | Confirmation d'un risque convectif très élevé, avec des phénomènes violents possibles. |
-| **ENSEMBLES** (Documenté) | Scénarios variés, certains montrant une humidité de retour, d'autres plus secs. | Incertitude sur l'ampleur de la dégradation. | Toutes | Modérée (65%) | Les membres sont divisés sur l'évolution après jeudi, avec un possible retour de la chaleur au sud. |
+| **GFS (Global Forecast System)** (Modèle cohérent avec les bulletins officiels.) | Scénario moyen : Talweg atlantique s'approchant par l'ouest mercredi, déclenchant une dégradation orageuse généralisée jeudi, suivie d'un temps plus frais et instable vendredi et samedi. (max 160 caractères) | Temps chaud et lourd jusqu'à mercredi, puis orages parfois forts jeudi, suivis d'un rafraîchissement avec des averses résiduelles. (max 120 caractères) | Large quart nord-ouest, centre-est et Massif Central pour les orages ; rafraîchissement généralisé ensuite. | Élevée (85%) pour la tendance d'ensemble, modérée (65%) pour le détail et la localisation des orages. | Les cartes de risque convectif montrent un couloir instable allant du golfe de Gascogne au nord-est, avec un jet de basse couche soutenant l'organisation des cellules. |
+| **ECMWF (European Centre for Medium-Range Weather Forecasts)** (Modèle fiable pour la tendance.) | Scénario moyen : Même évolution générale mais avec une incertitude plus marquée sur la vitesse de progression du talweg et l'intensité des orages sur l'est. (max 160 caractères) | Pic de chaleur mercredi, orages jeudi et vendredi, puis net rafraîchissement samedi et dimanche. (max 120 caractères) | Toutes les régions, avec un risque plus élevé d'orages forts du Massif Central aux frontières de l'est. | Élevée (85%) pour la semaine, modérée (65%) pour les détails de la dégradation de jeudi. | L'analyse des géopotentiels montre un creusement du talweg qui s'isole sur le proche Atlantique, favorisant un flux de sud-ouest humide et instable sur la France. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Orages potentiellement violents mercredi et jeudi, puis retour d'averses, fraîchissement. | Maximales en baisse : 23-25°C d'ici vendredi, minimales 13-15°C. | moderee | GFS, ECMWF, AROME | Intensité des orages et trajectoire exacte |
-| **Nord** | Chaleur lourde en début de semaine, orages mercredi/jeudi, puis nette baisse des températures. | Mardi jusqu'à 30°C, mercredi 31-33°C, puis 23-25°C vendredi. | moderee | GFS, ECMWF | Timing de la dégradation |
-| **Nord-Est** | Chaleur lourde avec orages en fin de semaine, puis rafraîchissement. | Mercredi 34°C possibles, puis 24°C vendredi. | moderee | GFS, ECMWF, ICON | Progression des orages vers l'est |
-| **Ouest et Façade Atlantique** | Chaleur croissante jusqu'à mercredi (35°C possibles en Gironde), puis orages et forte baisse. | Mardi 26-29°C, mercredi 32-35°C, jeudi 27-30°C, vendredi 24-26°C. | elevee | GFS, ECMWF, AROME | Localisation des plus forts cumuls |
-| **Centre** | Orages potentiellement violents jeudi, avec risque de grêle et rafales, puis nette amélioration. | Mercredi 31-33°C, jeudi 30-33°C, vendredi 23-26°C. | elevee | GFS, ECMWF, Nico14 | Probabilité de vigilance orange élevée |
-| **Sud-Ouest** | Chaleur et orages en début de semaine, avec un risque de phénomènes violents lundi, puis rafraîchissement. | Lundi 23°C sous orages, mardi 30-32°C, mercredi 32-35°C, jeudi 32-35°C, vendredi 26-29°C. | elevee | GFS, ECMWF, AROME, ESTOFEX | Intensité des orages lundi, cumuls de pluie |
-| **Sud-Est et Vallée du Rhône** | Chaleur lourde avec orages lundi (vigilance orange), puis amélioration, orages jeudi, fraîchissement. | Lundi 32-33°C, mardi 28-31°C, mercredi 31-33°C, jeudi 31-33°C, vendredi 27-29°C. | elevee | GFS, ECMWF, AROME | Risque de grêle et intensité des orages |
-| **Méditerranée et Corse** | Orages violents lundi (trombes marines possibles), puis soleil et chaleur, pic mercredi, orages jeudi, fraîchissement. | Lundi 25°C, mardi 28-31°C, mercredi 28-31°C, jeudi 31-33°C, vendredi 27-29°C. | elevee | GFS, AROME, ESTOFEX | Risque de trombes marines, cumuls de pluie |
+| **Nord-Ouest** | Chaleur lourde, puis orages forts mercredi et jeudi, rafraîchissement vendredi. | Maximales 27-32°C, puis 22-25°C en fin de semaine. | moderee | GFS, ECMWF, ARPEGE | Localisation exacte des cellules orageuses la plus intense. |
+| **Nord** | Soleil et chaleur, puis dégradation orageuse jeudi, net rafraîchissement. | Maximales 29-33°C jusqu'à mercredi, puis 20-24°C. | elevee | GFS, ECMWF, ICON | Intensité des précipitations et du risque de grêle. |
+| **Nord-Est** | Chaleur, orages possibles jeudi, puis temps plus frais et instable. | Maximales 30-34°C mercredi, puis 22-25°C. | moderee | ECMWF, GFS, ARPEGE | Chronologie exacte de la dégradation. |
+| **Ouest et Façade Atlantique** | Alternance d'éclaircies et d'averses, plus fréquentes et orageuses mercredi et jeudi. | Maximales 27-31°C, puis 22-25°C. | elevee | GFS, ARPEGE, UKMO | Quantité de pluie, notamment sur les secteurs déjà secs. |
+| **Centre** | Chaleur orageuse, puis net rafraîchissement à partir de vendredi. | Maximales 30-33°C, puis 21-24°C. | elevee | ECMWF, GFS, ARPEGE | Intensité des cellules orageuses. |
+| **Sud-Ouest** | Temps chaud et sec, puis orages en fin de semaine et rafraîchissement. | Maximales 32-35°C, puis 26-29°C. | moderee | ECMWF, ARPEGE, GFS | Chronologie de la dégradation, possible jeudi soir. |
+| **Sud-Est et Vallée du Rhône** | Pic de chaleur, puis orages violents possibles jeudi, net rafraîchissement. | Maximales 34-36°C mercredi, puis 24-27°C. | moderee | GFS, ECMWF, ARPEGE | Intensité et localisation de l'épisode violent. |
+| **Méditerranée et Corse** | Chaleur forte et temps sec, puis orages possibles en fin de semaine. | Maximales 31-35°C, puis 27-30°C. | moderee | ECMWF, GFS | Activité orageuse très incertaine sur le littoral. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 24 - Mardi 25** : Chaleur lourde avec orages isolés, risque de phénomènes violents sur le sud-est lundi soir.
-- **Mercredi 26 - Jeudi 27** : Dégradation orageuse généralisée, potentiellement violente, avec grêle et fortes rafales.
-- **Vendredi 28 - Samedi 29** : Rafraîchissement net, averses résiduelles, températures sous les normales.
-- **Dimanche 30 - Lundi 31** : Temps plus calme, éclaircies, mais possible retour de pluies faibles par l'ouest.
+- **Lundi 24 et mardi 25 août** : Temps chaud et souvent ensoleillé, avec des nuages d'évolution diurne. Risque d'averses orageuses faibles sur les reliefs.
+- **Mercredi 26 août** : Pic de chaleur avec des maximales proches de 35°C au sud. Orages isolés possibles en soirée sur l'ouest.
+- **Jeudi 27 août** : Dégradation orageuse marquée et généralisée, avec un risque de phénomènes violents (grêle, rafales, pluies intenses).
+- **Vendredi 28 à dimanche 30 août** : Net rafraîchissement, averses résiduelles, puis amélioration progressive. Températures de saison.
 
 **Points solides :**
-- Dégradation orageuse majeure mercredi/jeudi avec risque de phénomènes violents bien établi.
-- Rafraîchissement généralisé à partir de vendredi, consensus des modèles.
-- Retour de précipitations significatives sur les sols secs, en particulier au sud-ouest et centre-est.
+Points solides (max 3)
+- La dégradation orageuse de jeudi est confirmée par l'ensemble des modèles et les bulletins officiels, avec un risque de phénomènes violents.
+- Le rafraîchissement en fin de semaine est un scénario très probable, avec un retour à des températures proches des normales.
+- Les pluies, bien que très inégalement réparties, concerneront une large partie du territoire, apportant un peu d'humidité aux sols secs.
 
 **Points fragiles :**
-- Localisation et intensité exactes des orages de lundi soir (sud-est).
-- Timing précis de la fin de la dégradation pour le week-end.
-- Possibilité d'une remontée rapide des températures au sud après le passage orageux.
+Points fragiles (max 3)
+- La localisation et l'intensité précises des orages de jeudi restent incertaines, avec des écarts entre les modèles.
+- Le pic de chaleur mercredi pourrait être plus intense ou plus bref que prévu, notamment sur le sud-ouest.
+- La fin de semaine et le week-end prochain pourraient voir un sursaut de chaleur au sud, mais les prévisions sur ce point sont très divergentes.
 
 **À surveiller (prochains runs) :**
-- Évolution du thalweg d'altitude pour jeudi (GFS 00Z, ECMWF 12Z).
-- Sorties AROME et WRF pour les orages de lundi soir.
-- Ensembles pour la fin de semaine et le week-end.
+À surveiller : Les runs de ce soir et de demain matin pour affiner la chronologie et l'intensité des orages de jeudi, ainsi que les scénarios pour la semaine prochaine.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Humidité en question : Les modèles s'interrogent sur le maintien de l'humidité revenue en semaine 1.
-2. Circulation variée : Scénarios très divergents entre un temps sec et un retour de perturbations.
-3. Chaleur possible au sud : Certains scénarios envisagent une remontée des températures, surtout dans la moitié sud.
-4. Incertitude majeure : Absence de consensus sur l'évolution de la circulation atmosphérique, prévisions à confirmer.
-5. Fin de l'été ? : Le blocage semble céder, mais la réouverture de la porte humide reste débattue.
+1. Incertitude de blocage : La circulation atmosphérique pourrait rester mobile, avec une possibilité de retour de l'humidité, mais les scénarios sont très divergents.
+2. Températures en dents de scie : Les températures pourraient alterner entre des périodes de chaleur modérée et des passages plus frais, sans signal net.
+3. Risque orageux limité : Des averses orageuses restent possibles, mais surtout sur les reliefs et dans le sud, avec une activité moins marquée qu'en semaine 1.
+4. Sécheresse persistante : Malgré les pluies de la semaine 1, le déficit hydrique reste important sur de nombreuses régions, notamment le sud-ouest.
+5. Tendance incertaine : Les modèles exploratoires suggèrent plusieurs scénarios, allant d'un retour anticyclonique à un maintien de conditions perturbées.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Une certaine humidité devrait persister sur le nord-ouest, mais sans certitude.
-- Températures globalement proches des normales de saison.
+Points de convergence (max 3 points)
+- Les températures devraient rester proches des normales de saison, sans nouvel épisode de canicule majeur.
+- Le risque de sécheresse reste préoccupant sur le sud-ouest et le pourtour méditerranéen, malgré les pluies de la semaine 1.
+- Aucun scénario ne propose un retour à un temps très chaud et sec durable.
 **Points de divergence :**
-- Divergence majeure sur le positionnement du jet et la récurrence des dépressions.
-- Certains scénarios envisagent une chaleur plus marquée au sud, d'autres un temps frais et instable.
+Points de divergence (max 3 points)
+- La position de l'anticyclone et la trajectoire des perturbations sont très incertaines, avec des écarts de plus de 500 km entre les scénarios.
+- Le risque orageux est très variable selon les modèles, allant de quasi nul à modéré sur l'est.
+- La fin de semaine 2 pourrait voir une remontée des températures au sud, mais ce signal est faible et incertain.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (Partiel) | Possibilité d'un retour d'un temps plus sec avec des températures en hausse, notamment au sud, mais forte variabilité. | Temps calme, ensoleillé, chaleur modérée possible. | Sud et est, plus incertain au nord. | Faible (45%) | Pas de détails supplémentaires, incertitude forte. |
-| **ECMWF** (Partiel) | Maintien de l'humidité et des passages pluvieux sur l'ouest, avec une possible dégradation en fin de semaine. | Averses, températures de saison. | Moitié nord et ouest. | Faible (45%) | Les projections à long terme restent trop floues pour être affirmatives. |
-| **ENSEMBLES (GEFS, EPS)** (Documenté) | Forte dispersion des membres : certains maintiennent un temps sec, d'autres un retour des perturbations. | Variabilité importante, aucun scénario dominant. | Toutes | Modérée (65%) | Les discussions évoquent des scénarios très variés, rendant toute prévision fiable impossible. |
+| **GFS (Global Forecast System)** (Modèle exploratoire de tendance.) | Scénario moyen : Régime de nouveau anticyclonique en début de semaine, puis possible dégradation orageuse en fin de semaine. (max 160 caractères) | Temps assez sec et chaud, puis risque d'orages isolés jeudi et vendredi. (max 120 caractères) | Sud-est et reliefs pour les orages, restant plus sec au nord-ouest. | Faible (45%) car les scénarios sont très divergents. | Les sorties à long terme montrent une grande dispersion dès jeudi, avec des options allant d'un blocage anticyclonique à un retour d'un flux océanique perturbé. |
+| **ECMWF (European Centre for Medium-Range Weather Forecasts)** (Modèle exploratoire de tendance.) | Scénario moyen : Maintien d'un flux océanique faible, avec des températures proches des normales et quelques passages pluvieux. (max 160 caractères) | Temps variable, plutôt frais, avec de rares averses. (max 120 caractères) | Façade atlantique et nord, plus sec au sud. | Faible (45%) car pas de signal dominant. | Les anomalies de géopotentiel sont faibles, indiquant une situation de verrouillage peu probable, mais sans schéma clair. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Incertain : passages pluvieux possibles, températures de saison. | Entre 18 et 23°C selon les scénarios. | faible | GFS, ECMWF | Maintien de l'humidité non garanti |
-| **Nord** | Variable, éclaircies et passages nuageux, aucune tendance claire. | 20-25°C possibles. | faible | GFS | Scénarios très divergents |
-| **Nord-Est** | Pas d'informations exploitables. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucune donnée fiable |
-| **Ouest et Façade Atlantique** | Possibilité d'averses, mais pas de certitude. | 18-22°C. | faible | ECMWF | Incertitude sur la réouverture de la porte atlantique |
-| **Centre** | Pas de données fiables. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucune discussion spécifique |
-| **Sud-Ouest** | Possibilité d'une chaleur plus marquée, mais incertaine. | 25-30°C si le scénario chaud se confirme. | faible | GFS, ENSEMBLES | Scénario chaud ou frais selon les modèles |
-| **Sud-Est et Vallée du Rhône** | Tendance à un temps plus sec et chaud, mais à confirmer. | Possibilité de 28-32°C. | faible | GFS | Évolution du mistral et de la chaleur |
-| **Méditerranée et Corse** | Chaleur possible, mais pas de certitude. | 25-30°C possibles. | faible | GFS, ENSEMBLES | Projections à long terme très incertaines |
+| **Nord-Ouest** | Temps variable, éclaircies et passages nuageux, quelques averses possibles. | Maximales 20-24°C, minimales 12-15°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
+| **Nord** | Alternance d'éclaircies et de nuages, risque d'averses isolées. | Maximales 21-25°C, minimales 13-16°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
+| **Nord-Est** | Temps assez sec, passages nuageux, orages possibles en fin de semaine. | Maximales 22-26°C, minimales 12-15°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
+| **Ouest et Façade Atlantique** | Temps humide et frais, averses possibles, éclaircies. | Maximales 21-24°C, minimales 13-16°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
+| **Centre** | Temps variable, plus sec, quelques averses possibles. | Maximales 22-26°C, minimales 12-15°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
+| **Sud-Ouest** | Temps sec et assez chaud, puis possible dégradation orageuse en fin de semaine. | Maximales 26-30°C, minimales 15-18°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
+| **Sud-Est et Vallée du Rhône** | Temps sec et chaud, puis orages isolés possibles en fin de semaine. | Maximales 28-31°C, minimales 16-19°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
+| **Méditerranée et Corse** | Temps chaud et sec, orages possibles sur les reliefs en fin de semaine. | Maximales 29-33°C, minimales 20-23°C. | faible | ECMWF, GFS | Tendance générale incertaine, scénarios divergents. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 31 - Mardi 1er septembre** : Possible amélioration temporaire, mais incertitude sur la durée.
-- **Mercredi 2 - Jeudi 3 septembre** : Risque de dégradation par l'ouest, mais non confirmé.
-- **Vendredi 4 - Samedi 5 septembre** : Tendance plus nette possible, mais à confirmer.
-- **Dimanche 6 septembre** : Selon les scénarios, temps calme ou retour des pluies.
+- **Lundi 31 août et mardi 1er septembre** : Temps variable avec des températures de saison, éclaircies et passages nuageux.
+- **Mercredi 2 et jeudi 3 septembre** : Possible retour de conditions plus stables, mais incertitude sur la localisation de l'anticyclone.
+- **Vendredi 4 et samedi 5 septembre** : Risque d'orages isolés sur les reliefs et le sud, avec une tendance à la hausse des températures.
+- **Dimanche 6 septembre** : Temps encore incertain, avec une possible amélioration ou une nouvelle dégradation, selon l'évolution des modèles.
 
 **Points solides :**
-- Aucun point solide pour cette semaine, les prévisions sont très incertaines.
-- La tendance générale est à un temps de saison, sans excès de chaleur ni froid marqué.
+Points solides (max 3)
+- Les températures devraient rester proches des normales, sans signe de canicule.
+- Le risque de sécheresse reste préoccupant malgré les pluies de la semaine 1.
+- Aucun scénario ne propose un retour à un temps très chaud et sec durable.
 
 **Points fragiles :**
-- Absence totale de consensus sur la circulation atmosphérique.
-- Scénarios extrêmes (chaud/sec vs frais/humide) encore possibles.
+Points fragiles (max 3)
+- La position de l'anticyclone et la trajectoire des perturbations sont très incertaines.
+- Le risque orageux est très variable selon les modèles.
+- La fin de semaine 2 pourrait voir une remontée des températures au sud, mais ce signal est faible.
 
 **À surveiller (prochains runs) :**
-- Ensembles GFS et ECMWF à partir de mercredi.
-- Projections à 10-14 jours pour évaluer le retour éventuel d'un blocage.
+À surveiller : Les runs de la fin de semaine pour affiner la tendance, notamment la possibilité d'un retour anticyclonique ou d'un maintien d'un flux océanique.
 
 
 ========================================
@@ -132,27 +136,30 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Succession d'un épisode orageux marqué en début de période, suivi d'un net rafraîchissement, puis d'une incertitude forte pour la deuxième semaine, avec une possible remontée des températures au sud.
+Après une semaine 1 marquée par une séquence chaude et orageuse, un net rafraîchissement est attendu en fin de semaine. La semaine 2 s'annonce plus incertaine, sans signal dominant, avec des températures proches des normales et un risque de sécheresse persistant.
 
 ### Période la plus fiable
-Semaine 1 (du 24 au 30 août) avec une confiance modérée à élevée.
+Semaine 1, en particulier la séquence orageuse de jeudi et le rafraîchissement de vendredi.
 
 ### Phénomènes récurrents
-Orages potentiellement violents (grêle, rafales) en début de semaine, puis alternance de temps calme et de passages pluvieux.
+- Risque orageux récurrent sur les reliefs en fin de journée.
+- Sécheresse des sols persistante sur le sud-ouest et le pourtour méditerranéen.
 
 ### Principales incertitudes
-Pour la semaine 2 : maintien de l'humidité, position du jet, possibilité d'une remontée chaude au sud.
+- Localisation et intensité des orages de jeudi.
+- Tendance générale de la semaine 2, très incertaine.
+- Évolution des températures en fin de semaine 2, notamment au sud.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** La chronologie exacte des orages de jeudi reste incertaine, avec une possible avance ou retard de quelques heures.
-- **Localisation :** Les zones les plus exposées aux orages violents sont encore floues, notamment entre le Massif Central et le nord-est.
-- **Intensité :** L'intensité des orages (grêle, rafales) pourrait être surestimée par certains modèles, comme le souligne un membre.
-- **Informations manquantes :** Peu d'informations sur le vent pour les régions non littorales, et sur les cumuls de pluie précis pour la semaine 2.
-- **Modèles sous-documentés :** ICON et le modèle européen sont peu détaillés dans les discussions pour cette période.
-- **Incertitudes images :** Les cartes de cumuls et de rafales montrent des divergences importantes entre les runs.
+- **Timing/Chronologie :** Doutes sur la chronologie exacte de la dégradation orageuse de jeudi, pouvant se produire en fin de journée ou dans la nuit.
+- **Localisation :** Doutes sur la localisation précise des cellules orageuses les plus intenses, avec des écarts de 200 km entre les scénarios.
+- **Intensité :** Doutes sur l'intensité des orages, notamment le risque de grêle destructrice et de fortes rafales.
+- **Informations manquantes :** Informations manquantes sur l'évolution à très long terme, avec des modèles exploratoires très divergents.
+- **Modèles sous-documentés :** Modèles peu commentés sur la semaine 2, avec des avis très partagés sur le forum.
+- **Incertitudes images :** Incertitudes sur les cartes de risques, notamment pour la localisation des orages et l'évolution des températures.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌩️ #Météo : Après une semaine de chaleur lourde, un épisode orageux majeur est attendu mercredi et jeudi, avec un risque de grêle et de fortes rafales. Rafraîchissement net ensuite. Pour la semaine suivante, les modèles sont en total désaccord : humidité ou chaleur ? À suivre de près ! #Prévisions
+🌦️ Analyse météo des deux prochaines semaines pour la France. Une semaine 1 contrastée : chaleur lourde, orages potentiellement forts jeudi, puis net rafraîchissement. La semaine 2 s'annonce plus indécise, sans signal dominant. Mise à jour complète et détaillée dans le bulletin Infoclimat.
