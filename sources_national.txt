@@ -290,7 +290,7 @@ Températures minimales : en hausse du Lauragais au Comminges.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 231615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 23 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand frais Nr 281 pour LANGUEDOC-ROUSSILLON 2 - Situation générale dimanche 23 août 2026 à 12H00 UTC, et évolution Faible gradient 1015-1017 hPa. Dépression relative 1013 hPa cette nuit sur le Roussillon, se creusant 1007 hPa demain après-midi, puis se décalant vers l'est à la fin, avec perturbation orageuse associée balayant les côtes d'ouest en est en soirée et nuit. 3 - Prévisions pour la nuit du dimanche 23 août au lundi 24 août VENT : Est à Sud-Est 2 à 4 à l'ouest de Sicié, mais Est à Nord-Est à l'est. MER : belle. HOULE : non significative. TEMPS : ciel clair parfois voilé, bancs de brume en fin de nuit vers la Camargue. VISIBILITE : bonne, localement moyenne par bancs de brume vers la Camargue. 4 - Prévisions pour la journée du lundi 24 août VENT : secteur Est 2 à 4, fraîchissant Est à Sud-Est 4 à 5 l'après-midi, puis localement 5 à 6 à l'ouest de Sicié en milieu d'après-midi. Rafales. MER : belle, devenant progressivement peu agitée l'après-midi, localement agitée en fin de journée vers la Camargue. HOULE : non significative, puis s'établissant Sud-Est 0.5 à 1 m en fin de journée vers la Camargue. TEMPS : ciel voilé, localement bancs de brume le matin vers la Camargue, puis devenant nuageux par l'ouest en fin d'après-midi. VISIBILITE : bonne, localement moyenne par bancs de brume. 5 - Tendance pour la nuit du 24 au 25, et la journée du mardi 25 août VENT : passagèrement Variable dépressionnaire 4 à 6 avec fortes rafales sous orages, mollissant secteur Est 2 à 4 en fin de nuit, puis virant secteur Sud-Est l'après-midi, mais mollissant localement Variable 1 à 3 à l'ouest de Cap Couronne. MER : peu agitée à agitée, s'atténuant peu agitée le matin. HOULE : - à l'ouest de Sicié : Sud à Sud-Est 0.5 à 1 m, temporairement 1 à 1.5 m à l'ouest de Beauduc en début de nuit. - à l'est de Sicié : non significative, puis s'établissant Sud 0.5 à 1 m le matin. TEMPS : orages en première partie de nuit, puis nuageux avec quelques averses en journée. VISIBILITE : mauvaise à très mauvaise sous orage en début de nuit, puis parfois moyenne sous averses en journée. 6 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : Sud à Sud-Ouest 2 à 4, mollissant 1 à 3 en seconde partie de nuit, revenant ensuite Est à Sud-Est 4 à 5. MER : peu agitée. HOULE dominante de Sud à Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Jeudi 27 août Secteur Est modéré à assez fort. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Samedi 29 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 30 août Secteur Ouest dominant, faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le dimanche 23 août 2026 à 15H00 UTC Cap Camarat : vent Nord-Est 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est-Sud-Est 6 noeuds. Porquerolles : vent Est 8 noeuds. Cap Couronne : vent Sud-Est 4 noeuds. Prochain bulletin le lundi 24 août 2026, vers 06H30 légales
+FQCT40 LFML 240400 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le lundi 24 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand frais Nr 282 pour LANGUEDOC-ROUSSILLON, PROVENCE 2 - Situation générale lundi 24 août 2026 à 00H00 UTC, et évolution Marais barométrique autour de 1015 hPa. Dépression 1014 hPa sur le Roussillon, se creusant et prévue 1006 hPa cet après-midi, puis se décalant vers l'est, avec orages balayant le nord du bassin d'ouest en est, en soirée et nuit, puis se comblant demain. 3 - Prévisions pour la journée du lundi 24 août VENT : secteur Est 2 à 4, fraîchissant Est à Sud-Est 4 à 5 à la mi-journée, puis 5 à 6 à l'ouest du Cap Sicié en milieu d'après-midi, parfois 7 en fin d'après-midi. Rafales, localement fortes sous orages. MER : belle à peu agitée, localement agitée en fin de journée vers la Camargue. HOULE : non significative, puis s'établissant Sud-Est 0.5 à 1 m en fin de journée vers la Camargue. TEMPS : ciel voilé, localement bancs de brume le matin vers la Camargue, puis devenant orageux par l'ouest en fin d'après-midi. VISIBILITE : bonne, mais localement mauvaise à très mauvaise sous brume le matin et sous les orages l'après-midi. 4 - Prévisions pour la nuit du lundi 24 août au mardi 25 août VENT : secteur Sud-Est 4 à 6, passagèrement 7, mollissant secteur Est 2 à 4 en fin de nuit. Rafales, localement fortes sous orages. MER : peu agitée à agitée. HOULE : - à l'ouest de Sicié : Sud à Sud-Est 0.5 à 1 m, temporairement 1 à 1.5 m à l'ouest de Beauduc en début de nuit. - à l'est de Sicié : s'établissant Sud 0.5 à 1 m. TEMPS : orages, puis devenant peu nuageux par l'ouest en milieu de nuit. VISIBILITE : mauvaise à très mauvaise sous orage, puis bonne. 5 - Prévisions pour la journée du mardi 25 août VENT : secteur Est 2 à 4 virant secteur Sud-Est l'après-midi, mais mollissant localement Variable 1 à 3 à l'ouest de Cap Couronne. MER : peu agitée. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : peu nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 25 au 26 et la journée du mercredi 26 août VENT : De Port Camargue à la Ciotat variable 1 à 3, s'orientant Sud-Est en fraîchissant rapidement 4 à 5 en début de matinée, localement 6 de Port Camargue à Marseille. De la Ciotat à St Raphaël variable 1 à 3, s'orientant Est 3 à 4 en début de matinée. MER : peu agitée. HOULE dominante de Sud à Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Jeudi 27 août Secteur Est modéré à assez fort. Indice de confiance : 3 sur 5 Vendredi 28 août Secteur Ouest faible à modéré. Indice de confiance : 3 sur 5 Samedi 29 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 30 août Secteur Ouest dominant, faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le lundi 24 août 2026 à 03H00 UTC Cap Camarat : vent Nord 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est-Nord-Est 6 noeuds. Porquerolles : vent Est 8 noeuds. Cap Couronne : vent Est 4 noeuds. Prochain bulletin le lundi 24 août 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -320,11 +320,11 @@ agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 24/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,9 +332,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 24 Août 2026.
-Résumé général précédent : Le flux d’ouest revient avec des gouttes froides ; les épisodes orageux alternent avec des éclaircies, les températures restent sous le niveau des dernières semaines..
+Résumé général précédent : Après la semaine très instable sous orages, la seconde parShield plus calme maintien des normals saisonnières..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps humide, averses orageuses, températures plus basses que la moyenne..
+Températures attendues précédemment : Orages possibles d’abord sur l’ouest puis sur l’ensemble, avec des rafales possibles de 100-150 km/h localement..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
@@ -501,7 +501,7 @@ Il y a 17 heures, ggdu19 a dit :
 	https://data.icos-cp.eu/portal/#{"route"%3A"preview"%2C"preview"%3A["SSlDWJt6ae1CGukpA-wM1S3a"]%2C"previewSettings"%3A{"x"%3A"TIMESTAMP"%2C"y"%3A"co2"%2C"type"%3A"line"%2C"legendLabels"%3A"SAC 100 m Level 2"%2C"linking"%3A"overlap"}}
 	difficile de promener le pointeur sur le graphique mais les dernières données donnent un pas de temps de trois heures : assez fin pour suivre par exemple les effets d'une humidification locale du sol ou du moins de corréler...
 	le différentiel de concentration en CO₂ serait de 2 à 5 ppm positif dans les minutes suivant l'humidification (gaz accumulé dans le sol), mais de 10 à 40 ppm dans un délais de 12 à 48 heures (croissance opportuniste explosive bactérienne) : https://pmc.ncbi.nlm.nih.gov/articles/PMC10673078/
-	Modifié il y a 10 heures par giec 2100
+	Modifié il y a 12 heures par giec 2100
 								6
 								2
 
@@ -520,7 +520,7 @@ Message:
 Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 	ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
 								1
-								10
+								12
 
 =======================
 
@@ -530,7 +530,7 @@ il y a une heure, Météodu37 a dit :
 			Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 			ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
 	Merci Kévin pour ce bulletin très développé, mais aussi très pédagogue, comme je les adore 
-								1
+								2
 
 =======================
 
@@ -558,7 +558,7 @@ Bonsoir,
 	En terme de moyenne, il semble bien que la porte de l'ouest a bien été ouverte dans la semaine précédente. Cependant sur la circulation paraît débloquée, la météo chez nous devrait être sensible à la latitude de circulation du jet et donc des potentielles dépressions.
 	Si cette question peut sembler assez clairs à l'aide d'une moyenne, au niveau déterministe, cela devrait s'avérer plus complexe tant les scénarios apparaissent variés, voire très différents en terme de circulation atmosphérique ce qui devrait promettre quelques débats en fonction des actualisations:
 	Si l'humidité était vraiment de retour, ce serait déjà une information importante, c'est possible car le potentiel de blocage semble bien marquer le pas en cette fin d'été début d'automne.
-	Modifié il y a 6 heures par tao
+	Modifié il y a 8 heures par tao
 								10
 								1
 
