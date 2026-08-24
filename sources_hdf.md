@@ -328,11 +328,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Médias, exagération, désinformations sur la météo
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Recensement des tornades en France
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 24/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -340,23 +340,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 24 Août 2026.
-Résumé général HDF précédent : Passage à un temps d’ouest océanique, avec orages en début de période puis net rafraîchissement ; la semaine 2 reste sous forte incertitude mais sans signal caniculaire..
+Résumé général HDF précédent : L'ensemble de la fin aout au début de septembre apparaissait nettement océanique et "E mau nerf" : zone de dépression sur l'Atlantique, descentes de témbl excentriques ; des passages orcy scrollent sur le grand costumes de la semaine. pas de vigés devel..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages, fortes rafales, grêle possible ; risque maximal en soirée et nuit..
+Températures attendues précédemment : Orages localement forts (mercredi après-midi et jeudi) – rafales 80 à 100 km/h possibles, grêle ; pluies durables à la fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: nickdu77
-Message:
-Il y a 3 heures, meteo noobs a dit :
-			Les gouttes froides ca devrait être interdit par les conventions de Genève....
-	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié vendredi à 16:56 par nickdu77
-Faute de frappe
-								3
-
-=======================
-
 Auteur: meteo noobs
 Message:
 Il y a 1 heure, Leonai a dit :
@@ -376,7 +365,7 @@ Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-								13
+								14
 								2
 								3
 
@@ -389,7 +378,7 @@ La semaine pourrait ressembler à celle en cours.
 	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
-								14
+								15
 								1
 
 =======================
@@ -508,7 +497,7 @@ Il y a 17 heures, ggdu19 a dit :
 Auteur: Nico 14
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								8
+								9
 								1
 
 =======================
@@ -517,7 +506,7 @@ Auteur: Météodu37
 Message:
 Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 	ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
-								1
+								2
 								15
 
 =======================
@@ -559,6 +548,13 @@ https://www.estofex.org/
 								1
 								1
 
+=======================
+
+Auteur: Nico 14
+Message:
+Autant le dire tout de suite, on n'en a pas fini avec les risques convectifs avec l'arrivée d'un nouveau talweg d'altitude déjà mercredi par l'ouest, et jeudi s'annonce aussi déjà sous le signe d'une dégradation marquée et plutôt généralisée, avec encore tous les risques convectifs présents. Celui de grêle &gt; à 5 cm est même déjà étendu.
+								5
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: tao
 Message:
@@ -567,8 +563,8 @@ Bonsoir,
 	En terme de moyenne, il semble bien que la porte de l'ouest a bien été ouverte dans la semaine précédente. Cependant sur la circulation paraît débloquée, la météo chez nous devrait être sensible à la latitude de circulation du jet et donc des potentielles dépressions.
 	Si cette question peut sembler assez clairs à l'aide d'une moyenne, au niveau déterministe, cela devrait s'avérer plus complexe tant les scénarios apparaissent variés, voire très différents en terme de circulation atmosphérique ce qui devrait promettre quelques débats en fonction des actualisations:
 	Si l'humidité était vraiment de retour, ce serait déjà une information importante, c'est possible car le potentiel de blocage semble bien marquer le pas en cette fin d'été début d'automne.
-	Modifié il y a 22 heures par tao
-								13
+	Modifié hier à 19:57 par tao
+								14
 								1
 
 =======================

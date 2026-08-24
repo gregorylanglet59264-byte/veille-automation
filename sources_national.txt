@@ -124,40 +124,40 @@ Températures minimales : identiques à la veille.
 Températures maximales : en baisse de Châteaurenard à Salon ainsi que de la côte bleue au val de Durance.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 24/08/2026 16:45
+Emis le : 24/08/2026 20:15
 
 Vigilance :
-Attention, aujourd'hui, le département de la Gironde est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
+Aujourd'hui et demain, le département de la Gironde est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Bordeaux : température de 33 degrés, vent de secteur Ouest soufflant jusqu'à 55 km/h, pression niveau mer 1007 hPa, cumul de précipitations en 12h : 4 mm.
-Au Cap-Ferret : température de 29 degrés, vent de secteur Ouest soufflant jusqu'à 20 km/h.
-A Libourne : température de 23 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 30 km/h, cumul de précipitations en 12h : 5 mm.
+Aujourd'hui on observait à 20h :
+A Bordeaux : température de 28 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 25 km/h, pression niveau mer 1007 hPa.
+Au Cap-Ferret : température de 25 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 20 km/h.
+A Libourne : température de 24 degrés, vent de secteur Est soufflant jusqu'à 15 km/h, cumul de précipitations en 12h : 5 mm.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 Avec un ciel quasiment clair, c'est en soirée que l'observation des étoiles est la plus aisée. Après minuit, quelques nuages se développent sur le littoral ainsi que sur la moitié Sud-Est du département.
 En début de nuit, vent de Sud, localement modéré. Après une atténuation, vent s'établissant au lever du jour, au Sud-Ouest, sur le Bassin d'Arcachon.
-Températures minimales : de 17 à 20 degrés, et 15 degrés sur le Libournais.
+Températures minimales : entre 17 et 20 degrés, et 15 degrés sur le Libournais.
 
 • Pour demain mardi 25 en journée et la nuit suivante :
 La journée est souvent belle avec de larges éclaircies. Toutefois, sous des passages nuageux temporairement un peu plus conséquents, quelques averses sont possibles par moments, autour de l'estuaire de la Gironde ainsi que sur la majeure partie sud du département. Pour la nuit : La soirée est bien étoilée, mais un voile nuageux se forme en seconde partie de nuit et masque les étoiles.
 Vent soufflant modérément par endroits, d'Ouest, en journée ; et d'Est, aux premières heures du jour.
-Températures maximales pour le jour : entre 26 et 29 degrés.
+Températures maximales pour le jour : de 26 à 29 degrés.
 Températures minimales pour la nuit suivante : de 16 à 18 degrés.
 
 • Pour la journée de mercredi 26 et la nuit suivante :
 Les nuages et le bleu azur se partagent équitablement le ciel. Cependant, à partir de la mi-journée, ces nuages deviennent plus menaçants. Entre deux éclaircies, ils peuvent provoquer des orages. Pour la nuit : Le ciel est couvert avec des averses orageuses en soirée. Le temps s'améliore peu à peu en seconde partie de nuit, les pluies deviennent éparses, puis elles cessent et de belles éclaircies se forment en fin de nuit.
-Vent modéré sur le Bassin d'Arcachon, s'atténuant en milieu de période.
-Températures maximales pour le jour : comprises entre 32 et 35 degrés, et 28 degrés sur le littoral. Ces températures se situent par endroits bien au-dessus des valeurs de saison.
+Vent temporairement modéré sur le Bassin d'Arcachon.
+Températures maximales pour le jour : entre 32 et 35 degrés, et 28 degrés sur le littoral. Ces températures se situent par endroits bien au-dessus des valeurs normalement observées.
 Températures minimales pour la nuit suivante : comprises entre 16 et 19 degrés.
 
 • Pour la journée de jeudi 27 :
 De nombreux nuages encombrent le ciel en matinée et peuvent même donner quelques gouttes sur le Nord-Ouest du département. L'après-midi, le temps devient plus changeant, éclaircies et passages nuageux se disputent le ciel. Les nuages sont inoffensifs.
-Vent modéré, de Nord-Est puis Ouest.
-Températures maximales : voisines de 27 à 30 degrés, et 35 degrés sur l'agglomération bordelaise, 22 degrés sur le littoral.
+Vent de Nord-Est puis Ouest, modéré.
+Températures maximales : autour de 27 à 30 degrés, et 35 degrés sur l'agglomération bordelaise, 22 degrés sur le littoral.
 
 • Pour vendredi 28 et samedi 29 :
 Risque de pluie ou d'averses jusqu'à samedi en fin de journée.
@@ -233,40 +233,40 @@ Températures minimales : similaires à la veille.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
-Emis le : 24/08/2026 16:45
+Emis le : 24/08/2026 21:01
 
 Vigilance :
-Attention, aujourd'hui, le département de la Haute-Garonne est en vigilance orange pour le phénomène orages. Demain, il sera en vigilance verte.
+Aujourd'hui et demain, le département de la Haute-Garonne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Toulouse-Blagnac : température de 29 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 30 km/h, pression niveau mer 1008 hPa.
-A Luchon : température de 18 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 30 km/h, cumul de précipitations en 12h : 8 mm.
-A Saint-Félix-Lauragais : température de 27 degrés, vent de secteur Est soufflant jusqu'à 50 km/h.
+Aujourd'hui on observait à 20h :
+A Toulouse-Blagnac : température de 23 degrés, vent de secteur Nord-Est soufflant jusqu'à 45 km/h, pression niveau mer 1009 hPa.
+A Luchon : température de 18 degrés, vent de secteur Sud-Est soufflant jusqu'à 10 km/h, cumul de précipitations en 12h : 7 mm.
+A Saint-Félix-Lauragais : température de 19 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 50 km/h, cumul de précipitations en 12h : 6 mm.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 Quelques averses sont attendues en soirée, dans l'Agglomération toulousaine, dans le Volvestre ainsi que du Lauragais au muretain, mais elles cessent rapidement. Puis, le ciel nocturne est partout peu nuageux, parfois voilé.
 Vent modéré sur le Lauragais, de Sud-Sud-Est, en début de nuit ; et de Sud-Est, en fin de nuit.
-Températures minimales : entre 13 et 16 degrés, et 17 degrés dans l'Agglomération toulousaine.
+Températures minimales : de 13 à 16 degrés, et 17 degrés dans l'Agglomération toulousaine.
 
 • Pour demain mardi 25 en journée et la nuit suivante :
-C'est une journée bien ensoleillée qui s'annonce, même si on peut noter quelques nuages plus présents sur le Cagire et le Luchonnais, en début de matinée. Pour la nuit : La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
-Vent localement modéré, de Nord-Ouest, en milieu de journée ; et d'Est tôt le matin. Rafales atteignant 55 km/h, au lever du jour.
+La journée est largement ensoleillée. Les nuages présents au petit matin, sur le Cagire et le Luchonnais, se dissipent rapidement. Pour la nuit : La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
+Vent localement modéré, de Nord-Ouest, à la mi-journée ; et d'Est aux premières heures du jour. Rafales atteignant 55 km/h, tôt le matin.
 Températures maximales pour le jour : sur la plaine et le piémont entre 30 et 32 degrés. 28 degrés sur le Cagire et le Luchonnais.
-Températures minimales pour la nuit suivante : de 15 à 18 degrés, et 19 degrés dans l'Agglomération toulousaine.
+Températures minimales pour la nuit suivante : comprises entre 15 et 18 degrés, et 19 degrés dans l'Agglomération toulousaine.
 
 • Pour la journée de mercredi 26 et la nuit suivante :
 C'est un temps très largement ensoleillé qui domine avec des passages nuageux plus nombreux en début et en fin de journée. Pour la nuit : Les astres brillent l'essentiel de la nuit. À noter cependant, sur la plaine et le piémont, des nuages plus présents en soirée.
 En journée et jusqu'en milieu de nuit, Autan assez fort, sur le Lauragais ; atténuation ensuite. Rafales atteignant 85 km/h.
-Températures maximales pour le jour : sur la plaine et le piémont autour de 32 à 35 degrés. 29 degrés sur le Cagire et le Luchonnais. Ces températures sont par endroits bien au-dessus des valeurs normalement observées.
-Températures minimales pour la nuit suivante : de 16 à 18 degrés, et comprises entre 20 et 21 degrés du Lauragais aux coteaux de Cadours.
+Températures maximales pour le jour : sur la plaine et le piémont voisines de 32 à 35 degrés. 29 degrés sur le Cagire et le Luchonnais. Ces températures sont localement très au-dessus des valeurs de saison.
+Températures minimales pour la nuit suivante : entre 16 et 18 degrés, et entre 20 et 21 degrés du Lauragais aux coteaux de Cadours.
 
 • Pour la journée de jeudi 27 :
 La matinée est bien ensoleillée. Des orages peuvent éclater l'après-midi, sur le Midi Toulousain. En fin de journée, le risque d'averses se généralise.
 L'après-midi jusqu'en début de soirée, Autan assez fort, sur le Lauragais. Avec des rafales atteignant 85 km/h.
-Températures maximales : sur la plaine et le piémont entre 32 et 35 degrés. 30 degrés sur le Cagire et le Luchonnais.
+Températures maximales : sur la plaine et le piémont de 32 à 35 degrés. 30 degrés sur le Cagire et le Luchonnais.
 
 • Pour vendredi 28 et samedi 29 :
 Sur le piémont et la montagne, risque de pluie ou d'averses de vendredi matin jusqu'au milieu de nuit suivante. Sur les autres régions, soleil prédominant.
@@ -333,12 +333,12 @@ A partir de samedi, le temps sera beaucoup moins agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Recensement des tornades en France
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 24/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -346,23 +346,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 24 Août 2026.
-Résumé général précédent : Sur les 15 prochains jours, la France connaîtra une fin d'été contrastée : une première semaine marquée par une dégradation orageuse et un net rafraîchissement, suivie d'une seconde semaine très incertaine avec un possible retour de la chaleur dans le sud et un temps plus sec. Le changement de circulation atmosphérique actuel met fin à la canicule, mais la stabilité pourrait revenir progressivement..
+Résumé général précédent : Vrai rythme de d’automne : semaine 1 météo dégradée orageuse suivie de détente, puis deuxième semaine marquée par une possible chaleur timide au sud – mais exacude persistance des doutes..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages parfois violents avec grêle et rafales ; chaleur lourde avant la dégradation..
+Températures attendues précédemment : Pluies soutenues possibles sur la moitié nord, valeurs thermiques sous les moyennes de saison..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 24 au Dimanche 30 Août 2026) ===
-Auteur: nickdu77
-Message:
-Il y a 3 heures, meteo noobs a dit :
-			Les gouttes froides ca devrait être interdit par les conventions de Genève....
-	Je te comprends très bien mais il me semble quand même que l'élément le plus important (et positif) est le changement de synoptique malgré tout. Les températures varient plus, les nuits tropicales sont - j'espère au moins jusqu'à l'été prochain - pour le moment un souvenir et même si les précipitations ne sont pas folles, elles sont de retour. On "sent" que le contexte est plus dynamique. C'est aussi en rapport avec la fin de la saison et un écart thermique qui s'accentue. Mais qu'est-ce que ça fait du bien ....
-	Modifié vendredi à 16:56 par nickdu77
-Faute de frappe
-								3
-
-=======================
-
 Auteur: meteo noobs
 Message:
 Il y a 1 heure, Leonai a dit :
@@ -382,7 +371,7 @@ Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
-								13
+								14
 								2
 								3
 
@@ -395,7 +384,7 @@ La semaine pourrait ressembler à celle en cours.
 	Jeudi/vendredi, une dégradation potentiellement musclée, faisant chuter les températures partout.
 	Incertitudes pour la fin du week-end suivant, avec des scénarios différents, mais les températures pourraient déjà remonter notamment dans la moitié sud, comme ce qui se passe ce week-end.
 	Plus au nord, les signaux restent tempérés, de saison:
-								14
+								15
 								1
 
 =======================
@@ -514,7 +503,7 @@ Il y a 17 heures, ggdu19 a dit :
 Auteur: Nico 14
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
-								8
+								9
 								1
 
 =======================
@@ -523,7 +512,7 @@ Auteur: Météodu37
 Message:
 Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 	ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
-								1
+								2
 								15
 
 =======================
@@ -565,6 +554,13 @@ https://www.estofex.org/
 								1
 								1
 
+=======================
+
+Auteur: Nico 14
+Message:
+Autant le dire tout de suite, on n'en a pas fini avec les risques convectifs avec l'arrivée d'un nouveau talweg d'altitude déjà mercredi par l'ouest, et jeudi s'annonce aussi déjà sous le signe d'une dégradation marquée et plutôt généralisée, avec encore tous les risques convectifs présents. Celui de grêle &gt; à 5 cm est même déjà étendu.
+								5
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: tao
 Message:
@@ -573,8 +569,8 @@ Bonsoir,
 	En terme de moyenne, il semble bien que la porte de l'ouest a bien été ouverte dans la semaine précédente. Cependant sur la circulation paraît débloquée, la météo chez nous devrait être sensible à la latitude de circulation du jet et donc des potentielles dépressions.
 	Si cette question peut sembler assez clairs à l'aide d'une moyenne, au niveau déterministe, cela devrait s'avérer plus complexe tant les scénarios apparaissent variés, voire très différents en terme de circulation atmosphérique ce qui devrait promettre quelques débats en fonction des actualisations:
 	Si l'humidité était vraiment de retour, ce serait déjà une information importante, c'est possible car le potentiel de blocage semble bien marquer le pas en cette fin d'été début d'automne.
-	Modifié il y a 22 heures par tao
-								13
+	Modifié hier à 19:57 par tao
+								14
 								1
 
 =======================
