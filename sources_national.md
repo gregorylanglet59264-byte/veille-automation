@@ -74,10 +74,10 @@ Températures minimales : sans changement significatif.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===
-Emis le : 25/08/2026 09:30
+Emis le : 25/08/2026 10:04
 
 Vigilance :
-Attention, aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance jaune pour le phénomène crues.
+Aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance verte.
 Attention aux fortes vagues sur les plages des Saintes-Maries de la mer a Port-Saint-Louis du Rhone pouvant rendre la baignade dangereuse lundi à partir du milieu d'après-midi et jusqu'en milieu de nuit de lundi à mardi.
 
 Observations :
@@ -316,7 +316,7 @@ Températures minimales : en baisse sur la plaine et le piémont.
 Températures maximales : en baisse sur le Cagire et le Luchonnais.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 250420 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mardi 25 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 25 août 2026 à 00H00 UTC, et évolution Marais barométrique proche de 1010 hPa. Dépression se creusant 1003 hPa sur le sud-ouest de la France demain après-midi et générant un flux secteur Sud-Est assez fort sur le golfe du Lion. 3 - Prévisions pour la journée du mardi 25 août VENT : - à l'ouest de Sicié : Nord à Nord-Est 1 à 3, parfois 4 en début de journée vers la Camargue, revenant secteur Sud-Ouest l'après-midi. - à l'est de Sicié : Variable 1 à 3, fraîchissant Sud-Ouest 3 à 4 en fin de matinée, parfois 5 à l'est de Camarat en fin de journée. MER : peu agitée. HOULE : Sud 0.5 à 1 m. TEMPS : ciel peu nuageux, parfois voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mardi 25 août au mercredi 26 août VENT : - à l'ouest de Sicié : Ouest dominant 1 à 3, s'orientant Est dominant en fin de nuit. - à l'est de Sicié : Ouest à Sud-Ouest 2 à 4, parfois 5 à l'est de Camarat en soirée, devenant Variable 1 à 3 en fin de nuit. MER : peu agitée. HOULE : Sud 0.5 à 1 m. TEMPS : ciel clair à peu nuageux, se voilant en fin de nuit. VISIBILITE : bonne. 5 - Prévisions pour la journée du mercredi 26 août VENT : s'orientant partout secteur Est 3 à 4 en matinée puis Sud-Est 4 à 5 à l'ouest du cap Sicié l'après-midi, parfois 6. MER : peu agitée. HOULE : Sud à Sud-Ouest 0.5 à 1 m, s'amortissant par l'ouest. TEMPS : ciel passagèrement nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 26 au 27 et la journée du jeudi 27 août VENT : Secteur Est 5 à 6. MER : peu agitée devenant agitée en milieu de nuit. HOULE : De Port Camargue au Levant houle de Sud à Sud-Ouest inférieure à 1,5 m, s'orientant en milieu de nuit au secteur Sud-Est, puis à l'Est à Sud-Est. Du Levant à Camarat établissement d'une houle de Nord-Est 1 à 1,5 m en début de matinée. De Camarat à St Raphaël houle dominante de Sud 0,5 à 1 m. 7 - Tendance pour les jours suivants Vendredi 28 août Nord Ouest faible à modéré sur Lion, Sud Ouest faible à modéré entre Corse et continent Indice de confiance : 3 sur 5 Samedi 29 août Nord Ouest faible à modéré sur Lion, Sud Ouest faible à modéré entre Corse et continent Indice de confiance : 3 sur 5 Dimanche 30 août Variable faible à modéré sur Lion, Ouest à Sud Ouest faible à modéré Indice de confiance : 3 sur 5 Lundi 31 août Nord Ouest faible à modéré sur Lion, Sud Ouest faible à modéré entre Corse et continent Indice de confiance : 2 sur 5 8 - Observations le mardi 25 août 2026 à 03H00 UTC Cap Camarat : vent Ouest 6 noeuds, clair ou peu nuageux. Cap Cepet : vent Est-Nord-Est 8 noeuds. Porquerolles : vent Nord-Nord-Est 6 noeuds. Cap Couronne : vent Nord 8 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le mardi 25 août 2026, vers 13H00 légales
+FQCT40 LFML 250930 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mardi 25 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 25 août 2026 à 06H00 UTC, et évolution Dépression complexe 1010 hPa du Golfe du Lion à la Mer Ligure, se comblant lentement, prévue 1013 hPa sur la Mer Ligure ce soir. Nouvelle dépression 1010 hPa sur le sud-ouest de la France demain. 3 - Prévisions pour l'après-midi du mardi 25 août VENT : - à l'ouest de Sicié : Variable 1 à 3, revenant secteur Sud-Ouest 2 à 3 l'après-midi. - à l'est de Sicié : Ouest à Sud-Ouest 3 à 4 d'ouest en est, parfois 5 à l'est de Camarat en fin de journée. MER : peu agitée. HOULE : Sud 0.5 à 1 m. TEMPS : ciel le plus souvent voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mardi 25 août au mercredi 26 août VENT : - à l'ouest de Sicié : Ouest dominant 1 à 3, s'orientant Sud dominant en fin de nuit. - à l'est de Sicié : Ouest à Sud-Ouest 3 à 4, parfois 5 à l'est de Camarat en soirée, devenant Variable 1 à 3 en fin de nuit. MER : peu agitée. HOULE : Sud 0.5 à 1 m, s'amortissant à l'est de Croisette en fin de nuit. TEMPS : ciel clair à peu nuageux, se voilant en fin de nuit. VISIBILITE : bonne. 5 - Prévisions pour la journée du mercredi 26 août VENT : s'orientant partout secteur Est 3 à 4 en matinée puis Sud-Est 4 à 5 à l'ouest du cap Sicié l'après-midi, parfois 6. Fortes rafales à l'ouest de Sicié l'après-midi. MER : peu agitée. HOULE : Sud à Sud-Ouest 0.5 à 1 m, non significative à l'ouest de Sicié. TEMPS : ciel passagèrement nuageux, averses possibles en Carmague. VISIBILITE : bonne, moyenne sous averses. 6 - Prévisions pour la nuit du 26 au 27 et la journée du jeudi 27 août VENT : Est à Sud-Est 5 à 6, revenant secteur Est en soirée, avec menace de 7 de Beauduc à Sicié en journée. Rafales. MER : peu agitée à agitée, devenant agitée le matin, parfois forte en Camargue l'après-midi. HOULE : non significative, s'amplifiant Sud 0.5 à 1 m à l'est de Croisette en journée. TEMPS : ciel peu nuageux, devenant nuageux à très nuageux l'après-midi. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 27 au 28 et la journée du vendredi 28 août VENT : De Port Camargue à Fos Sud-Est 6, virant Sud 2 à 3 en cours de matinée. De Fos à Porquerolles Est à Sud-Est 4 à 6, virant Sud à Sud-Ouest 3 en milieu d'après-midi. Fortes rafales. De Porquerolles à St Raphaël Est 3 à 5 virant Ouest à Sud-Ouest 3 à 4 en milieu d'après-midi. Violentes rafales. MER : agitée, devenant peu agitée en cours de matinée. HOULE : De Port Camargue au Levant houle d'Est à Sud-Est inférieure à 1,5 m, s'orientant en seconde partie de nuit au Sud à Sud-Ouest. Du Levant à Camarat houle de Nord-Est 0,5 à 1,5 m, s'orientant en seconde partie de nuit au Sud à Sud-Ouest. De Camarat à St Raphaël houle de Sud à Sud-Est 0,5 à 1 m, s'orientant en début de nuit au Nord-Est, puis au Sud. 8 - Tendance pour les jours suivants Samedi 29 août Secteur Nord-Ouest modéré à assez fort sur le Golfe du Lion, devenant rapidement variable faible à modéré. Ailleurs secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Dimanche 30 août Variable faible à modéré. Indice de confiance : 3 sur 5 Lundi 31 août Variable faible à modéré, plutôt secteur Sud-Ouest faible à modéré entre Corse et continent. Indice de confiance : 2 sur 5 Mardi 1 septembre Variable faible à modéré. Indice de confiance : 2 sur 5 9 - Observations le mardi 25 août 2026 à 09H00 UTC Cap Camarat : vent Sud-Ouest 14 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Nord-Nord-Est 2 noeuds, clair ou peu nuageux, visibilité 8 milles. Porquerolles : vent Nord 2 noeuds. Cap Couronne : vent Sud-Est 6 noeuds. Prochain bulletin le mardi 25 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -359,12 +359,12 @@ A partir de samedi, le temps sera beaucoup moins agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Qui a testé la passerelle Ecowitt GW3000 ?
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Relevé pluie instantané Maxi pluie/1h
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -372,13 +372,13 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 25 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Tendance générale : fin de la chaleur excessive, retour à un temps plus humide et plus frais, mais avec une forte incertitude au-delà de 5 jours..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Orages et pluies, avec un rafraîchissement sensible à partir de jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===
-Auteur: meteo noobs
+Auteur: symaski62
 Message:
 Il y a 1 heure, Leonai a dit :
 			Elle est belle celle-là, je vais la garder dans mes archives je pense!
@@ -388,22 +388,21 @@ Il y a 1 heure, Leonai a dit :
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
 	Modifié vendredi à 18:52 par meteo noobs
-								4
 
 =======================
 
-Auteur: Virgile
+Auteur: greg13
 Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
 								14
 								2
-								3
+								2
 
 =======================
 
-Auteur: Mica
+Auteur: greghouse33
 Message:
 La semaine pourrait ressembler à celle en cours.
 	Chaud voire très chaud (chaleur lourde avec passages orageux) la première moitié de la semaine, notamment sur la moitié sud, avec un pic mercredi, jeudi pour les regions de l'est.
@@ -415,7 +414,7 @@ La semaine pourrait ressembler à celle en cours.
 
 =======================
 
-Auteur: symaski62
+Auteur: ggdu19
 Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
 								7
@@ -424,14 +423,14 @@ lundi  24  +66 heures  +2 jours    53  mm pluie   
 
 =======================
 
-Auteur: greg13
+Auteur: greghouse33
 Message:
 Sans atteindre les seuils caniculaires, la prochaine semaine verra donc une nouvelle floppée de 30 à 33°c dans le Sud du Pays, avant un nouveau rafraîchissement prévu autour du 28 août. 
 	PS : Il reste 4 dernières places pour rejoindre le jeu de la rentrée de pronostics météo sur Infoclimat... Si ça vous botte, les inscriptions se font jusqu'à lundi
 
 =======================
 
-Auteur: greghouse33
+Auteur: symaski62
 Message:
 Il y a 13 heures, symaski62 a dit :
 			lundi  24  +66 heures  +2 jours    53  mm pluie   
@@ -439,7 +438,7 @@ Il y a 13 heures, symaski62 a dit :
 
 =======================
 
-Auteur: ggdu19
+Auteur: Nono34
 Message:
 il y a 45 minutes, greghouse33 a dit :
 			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
@@ -450,7 +449,7 @@ il y a 45 minutes, greghouse33 a dit :
 
 =======================
 
-Auteur: greghouse33
+Auteur: serge26
 Message:
 il y a 12 minutes, ggdu19 a dit :
 			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
@@ -461,7 +460,7 @@ il y a 12 minutes, ggdu19 a dit :
 
 =======================
 
-Auteur: symaski62
+Auteur: Leonai
 Message:
 wow    
 								5
@@ -470,7 +469,7 @@ wow    
 
 =======================
 
-Auteur: Nono34
+Auteur: giec 2100
 Message:
 Il y a 11 heures, ggdu19 a dit :
 			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
@@ -483,7 +482,7 @@ Il y a 11 heures, ggdu19 a dit :
 
 =======================
 
-Auteur: serge26
+Auteur: Nico 14
 Message:
 il y a 10 minutes, Nono34 a dit :
 			Ce serait pas un mythe ça ?
@@ -494,7 +493,7 @@ il y a 10 minutes, Nono34 a dit :
 
 =======================
 
-Auteur: Leonai
+Auteur: Météodu37
 Message:
 😍🤩🥰
 								1
@@ -503,7 +502,7 @@ Message:
 
 =======================
 
-Auteur: giec 2100
+Auteur: Laurent15
 Message:
 Il y a 17 heures, ggdu19 a dit :
 			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
@@ -526,7 +525,7 @@ Il y a 17 heures, ggdu19 a dit :
 
 =======================
 
-Auteur: Nico 14
+Auteur: symaski62
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
 								9
@@ -534,7 +533,7 @@ Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui
 
 =======================
 
-Auteur: Météodu37
+Auteur: Jetrejo
 Message:
 Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 	ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
@@ -543,17 +542,18 @@ Nouveau bulletin national publié accessible par ici  -&gt; https://www.infocl
 
 =======================
 
-Auteur: Laurent15
+Auteur: symaski62
 Message:
 il y a une heure, Météodu37 a dit :
 			Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 			ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
 	Merci Kévin pour ce bulletin très développé, mais aussi très pédagogue, comme je les adore 
+								1
 								3
 
 =======================
 
-Auteur: symaski62
+Auteur: Nico 14
 Message:
 https://www.meteociel.fr/modeles/arome.php?ech=37&amp;mode=152&amp;map=0
 	140 à 150 km/h  vent    
@@ -561,7 +561,7 @@ https://www.meteociel.fr/modeles/arome.php?ech=37&amp;mode=152&amp;map=0
 
 =======================
 
-Auteur: Jetrejo
+Auteur: Membre
 Message:
 il y a une heure, symaski62 a dit :
 			https://www.meteociel.fr/modeles/arome.php?ech=37&amp;mode=152&amp;map=0
@@ -572,21 +572,21 @@ il y a une heure, symaski62 a dit :
 
 =======================
 
-Auteur: symaski62
+Auteur: Membre
 Message:
 https://www.estofex.org/
 	Une alerte de niveau 3 a été émise pour le nord-est de l'Espagne et le sud de la France, principalement en raison de grêle de grande à très grande taille et de rafales de vent destructrices.
 								2
-								1
+								2
 								1
 
 =======================
 
-Auteur: Nico 14
+Auteur: Membre
 Message:
 Autant le dire tout de suite, on n'en a pas fini avec les risques convectifs avec l'arrivée d'un nouveau talweg d'altitude déjà mercredi par l'ouest, et jeudi s'annonce aussi déjà sous le signe d'une dégradation marquée et plutôt généralisée, avec encore tous les risques convectifs présents. Celui de grêle &gt; à 5 cm est même déjà étendu.
-								12
-								2
+								13
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: tao

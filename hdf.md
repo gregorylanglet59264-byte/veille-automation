@@ -1,6 +1,216 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Mardi 25 Août 2026
-**Période :** Semaine 1 (**Du mardi 25 au dimanche 30 août 2026**) & Semaine 2 (**Du lundi 31 août au dimanche 6 septembre 2026**)
+**Période :** Semaine 1 (**Du Mardi 25 au Dimanche 30 Août 2026**
+
+---
+
+#### [W1_KEY_POINT_1]
+**Retour des orages :** Dégradation orageuse marquée mercredi et jeudi, avec un risque de phénomènes localement violents.
+
+#### [W1_KEY_POINT_2]
+**Chaleur lourde :** Températures encore élevées en début de semaine, avec des maximales atteignant 27 à 30°C avant le rafraîchissement.
+
+#### [W1_KEY_POINT_3]
+**Forte baisse thermique :** Net rafraîchissement dès vendredi, avec des maximales ne dépassant plus 22-23°C.
+
+#### [W1_KEY_POINT_4]
+**Vigilance jaune :** Les départements de la Somme, de l'Oise et de l'Aisne sont en vigilance jaune pour orages ce mardi.
+
+#### [W1_KEY_POINT_5]
+**Fin de semaine contrastée :** Temps encore instable samedi, mais nette amélioration attendue pour dimanche avec un ciel plus ensoleillé.
+
+---
+
+#### [W1_MODEL_START]
+
+##### [W1_MODEL_NAME]
+**Analyse des modèles (Synthèse) :**
+
+##### [W1_MODEL_SCENARIO]
+**(1) CEP (ECMWF)** : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+**Risque principal** : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. **Risque secondaire** : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+**Mercredi** : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). **Jeudi** : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+**Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### [W1_MODEL_END]
+
+---
+
+#### [W1_CONVERGENCES]
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+---
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+---
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+---
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+---
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+---
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+---
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+---
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+---
+
+###) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
@@ -11,112 +221,2007 @@
 - **Stabilité des cartes/scénarios :** 6 / 63 — *6 cartes analysées*
 - **Niveau d'incertitude global :** Timing — *Transition thermique*
 
-## 🗓️ SEMAINE 1 : **Du mardi 25 au dimanche 30 août 2026**
+## 🗓️ SEMAINE 1 : **Du Mardi 25 au Dimanche 30 Août 2026**
+
+---
+
+#### [W1_KEY_POINT_1]
+**Retour des orages :** Dégradation orageuse marquée mercredi et jeudi, avec un risque de phénomènes localement violents.
+
+#### [W1_KEY_POINT_2]
+**Chaleur lourde :** Températures encore élevées en début de semaine, avec des maximales atteignant 27 à 30°C avant le rafraîchissement.
+
+#### [W1_KEY_POINT_3]
+**Forte baisse thermique :** Net rafraîchissement dès vendredi, avec des maximales ne dépassant plus 22-23°C.
+
+#### [W1_KEY_POINT_4]
+**Vigilance jaune :** Les départements de la Somme, de l'Oise et de l'Aisne sont en vigilance jaune pour orages ce mardi.
+
+#### [W1_KEY_POINT_5]
+**Fin de semaine contrastée :** Temps encore instable samedi, mais nette amélioration attendue pour dimanche avec un ciel plus ensoleillé.
+
+---
+
+#### [W1_MODEL_START]
+
+##### [W1_MODEL_NAME]
+**Analyse des modèles (Synthèse) :**
+
+##### [W1_MODEL_SCENARIO]
+**(1) CEP (ECMWF)** : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+**Risque principal** : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. **Risque secondaire** : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+**Mercredi** : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). **Jeudi** : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+**Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### [W1_MODEL_END]
+
+---
+
+#### [W1_CONVERGENCES]
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+---
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+---
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+---
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+---
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+---
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+---
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+---
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+---
+
+###
 ### 💡 Points clés de la semaine 1
-1. **Fin de la canicule** : Le changement de régime est acté, avec un retour à des températures de saison (max 20-24°C) après une période de chaleur intense.
-2. **Dégradation orageuse mercredi-jeudi** : Un épisode orageux potentiellement fort avec risque de grêle et de rafales concerne l'ensemble de la région, en particulier l'ouest et le sud.
-3. **Rafraîchissement net vendredi** : Chute des températures (21-23°C) avec des averses résiduelles et un vent de Sud-Ouest modéré à assez fort sur le littoral.
-4. **Week-end instable mais moins chaud** : Risque de pluie ou d'averses samedi et dimanche, températures maximales entre 22 et 24°C, conformes aux normales de fin août.
-5. **Vigilances orages en cours** : La Somme, l'Oise et l'Aisne sont en vigilance jaune pour orages ce mardi ; le risque se généralise mercredi et jeudi avant une accalmie vendredi.
+1. **Retour des orages :** Dégradation orageuse marquée mercredi et jeudi, avec un risque de phénomènes localement violents.
+
+#### [W1_KEY_POINT_2]
+**Chaleur lourde :** Températures encore élevées en début de semaine, avec des maximales atteignant 27 à 30°C avant le rafraîchissement.
+
+#### [W1_KEY_POINT_3]
+**Forte baisse thermique :** Net rafraîchissement dès vendredi, avec des maximales ne dépassant plus 22-23°C.
+
+#### [W1_KEY_POINT_4]
+**Vigilance jaune :** Les départements de la Somme, de l'Oise et de l'Aisne sont en vigilance jaune pour orages ce mardi.
+
+#### [W1_KEY_POINT_5]
+**Fin de semaine contrastée :** Temps encore instable samedi, mais nette amélioration attendue pour dimanche avec un ciel plus ensoleillé.
+
+
+
+#### [W1_MODEL_START]
+
+##### [W1_MODEL_NAME]
+**Analyse des modèles (Synthèse) :**
+
+##### [W1_MODEL_SCENARIO]
+**(1) CEP (ECMWF)** : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+**Risque principal** : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. **Risque secondaire** : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+**Mercredi** : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). **Jeudi** : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+**Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### [W1_MODEL_END]
+
+
+
+#### [W1_CONVERGENCES]
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+2. **Chaleur lourde :** Températures encore élevées en début de semaine, avec des maximales atteignant 27 à 30°C avant le rafraîchissement.
+
+#### [W1_KEY_POINT_3]
+**Forte baisse thermique :** Net rafraîchissement dès vendredi, avec des maximales ne dépassant plus 22-23°C.
+
+#### [W1_KEY_POINT_4]
+**Vigilance jaune :** Les départements de la Somme, de l'Oise et de l'Aisne sont en vigilance jaune pour orages ce mardi.
+
+#### [W1_KEY_POINT_5]
+**Fin de semaine contrastée :** Temps encore instable samedi, mais nette amélioration attendue pour dimanche avec un ciel plus ensoleillé.
+
+
+
+#### [W1_MODEL_START]
+
+##### [W1_MODEL_NAME]
+**Analyse des modèles (Synthèse) :**
+
+##### [W1_MODEL_SCENARIO]
+**(1) CEP (ECMWF)** : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+**Risque principal** : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. **Risque secondaire** : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+**Mercredi** : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). **Jeudi** : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+**Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### [W1_MODEL_END]
+
+
+
+#### [W1_CONVERGENCES]
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+3. **Forte baisse thermique :** Net rafraîchissement dès vendredi, avec des maximales ne dépassant plus 22-23°C.
+
+#### [W1_KEY_POINT_4]
+**Vigilance jaune :** Les départements de la Somme, de l'Oise et de l'Aisne sont en vigilance jaune pour orages ce mardi.
+
+#### [W1_KEY_POINT_5]
+**Fin de semaine contrastée :** Temps encore instable samedi, mais nette amélioration attendue pour dimanche avec un ciel plus ensoleillé.
+
+
+
+#### [W1_MODEL_START]
+
+##### [W1_MODEL_NAME]
+**Analyse des modèles (Synthèse) :**
+
+##### [W1_MODEL_SCENARIO]
+**(1) CEP (ECMWF)** : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+**Risque principal** : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. **Risque secondaire** : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+**Mercredi** : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). **Jeudi** : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+**Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### [W1_MODEL_END]
+
+
+
+#### [W1_CONVERGENCES]
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+4. **Vigilance jaune :** Les départements de la Somme, de l'Oise et de l'Aisne sont en vigilance jaune pour orages ce mardi.
+
+#### [W1_KEY_POINT_5]
+**Fin de semaine contrastée :** Temps encore instable samedi, mais nette amélioration attendue pour dimanche avec un ciel plus ensoleillé.
+
+
+
+#### [W1_MODEL_START]
+
+##### [W1_MODEL_NAME]
+**Analyse des modèles (Synthèse) :**
+
+##### [W1_MODEL_SCENARIO]
+**(1) CEP (ECMWF)** : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+**Risque principal** : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. **Risque secondaire** : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+**Mercredi** : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). **Jeudi** : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+**Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### [W1_MODEL_END]
+
+
+
+#### [W1_CONVERGENCES]
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+5. **Fin de semaine contrastée :** Temps encore instable samedi, mais nette amélioration attendue pour dimanche avec un ciel plus ensoleillé.
+
+
+
+#### [W1_MODEL_START]
+
+##### [W1_MODEL_NAME]
+**Analyse des modèles (Synthèse) :**
+
+##### [W1_MODEL_SCENARIO]
+**(1) CEP (ECMWF)** : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+**Risque principal** : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. **Risque secondaire** : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+**Mercredi** : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). **Jeudi** : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+**Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### [W1_MODEL_END]
+
+
+
+#### [W1_CONVERGENCES]
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. **Fin de la canicule** : Tous les modèles convergent vers un retour à des températures de saison (max 20-24°C) dès vendredi.
-2. **Dégradation orageuse** : Consensus sur un épisode orageux mercredi-jeudi avec risque de grêle et de rafales, mais avec des différences sur l'intensité et la localisation.
-3. **Flux d'ouest dominant** : Le changement de circulation atmosphérique est confirmé par l'ensemble des modèles, avec un axe dépressionnaire sur l'Europe de l'Ouest.
+**Points de convergence entre modèles :**
+1.  **Dégradation orageuse** : Tous les modèles s'accordent sur une dégradation orageuse entre mercredi et jeudi.
+2.  **Rafraîchissement** : Consensus sur une nette baisse des températures à partir de vendredi.
+3.  **Accalmie** : Tendance commune vers une amélioration du temps pour la journée de dimanche.
+
+
+
+#### [W1_DIVERGENCES]
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
 **Points de divergence :**
-1. **Intensité orageuse** : Les modèles divergent sur le potentiel de phénomènes violents (grêle > 5 cm, rafales > 100 km/h) - GFS est plus agressif qu'ECMWF.
-2. **Cumuls de pluie** : Variations de 10 à 30 mm selon la trajectoire des cellules orageuses, notamment sur l'Aisne et la Somme.
-3. **Amélioration vendredi** : Certains modèles prévoient une accalmie plus franche que d'autres, avec des averses résiduelles plus ou moins nombreuses.
+**Points de divergence entre modèles :**
+1.  **Intensité des orages** : Incertitude sur la violence des orages de jeudi. Le scénario le plus défavorable (grêle et rafales destructrices) reste conditionnel à l'évolution du talweg.
+2.  **Cumuls de pluie** : Les cumuls les plus importants sont attendus entre le Nord et l'Aisne, mais la localisation exacte des fortes pluies reste incertaine.
+
+
+
+#### [W1_ZONES_JSON_START]
+```json
+{
+  "zones": {
+    "nord": {
+      "status": "documented",
+      "weather": "Alternance de nuages et d'éclaircies, dégradation orageuse mercredi et jeudi. Amélioration samedi soir.",
+      "temperatures": "Maximales : 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C samedi. Minimales : 15-18°C.",
+      "rain_storms": "Averses mardi soir (Avesnois). Orages possibles mercredi en fin de nuit et jeudi matin. Pluie max : 15 mm jeudi.",
+      "spatial_scope": "regional",
+      "location": "Lille, Dunkerque, Valenciennes, Douai, Avesnes-sur-Helpe",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi. Vent assez fort lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Localisation des fortes pluies jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "pas_de_calais": {
+      "status": "documented",
+      "weather": "Nuages et éclaircies, dégradation orageuse mercredi soir et jeudi. Amélioration samedi.",
+      "temperatures": "Maximales : 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C samedi. Minimales : 15-16°C.",
+      "rain_storms": "Gouttes possibles près des côtes mercredi matin. Averses orageuses mercredi nuit. Pluie max : 15 mm sur le Ternois.",
+      "spatial_scope": "regional",
+      "location": "Arras, Calais, Boulogne-sur-Mer, Lens, Montreuil",
+      "wind": "Est puis Sud-Ouest modéré. Rafales jusqu'à 55 km/h vendredi. Vent assez fort sur le littoral lundi.",
+      "sensitive_period": "Jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Comportement des orages près des côtes de la Manche",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "somme": {
+      "status": "documented",
+      "weather": "Ensoleillé mardi matin puis orages isolés. Très nuageux mercredi et jeudi avec averses. Amélioration samedi.",
+      "temperatures": "Maximales : 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi après-midi. Pluie max : 15 mm sur le Vermandois jeudi.",
+      "spatial_scope": "regional",
+      "location": "Amiens, Abbeville, Cayeux-sur-Mer, Péronne",
+      "wind": "Est puis Ouest-Sud-Ouest modéré. Vent assez fort sur le littoral vendredi et lundi.",
+      "sensitive_period": "Mardi 25 après-midi, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Déclenchement des orages mardi après-midi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "oise": {
+      "status": "documented",
+      "weather": "Nuageux avec orages possibles mardi soir. Temps ensoleillé mercredi matin puis voile nuageux. Orages jeudi.",
+      "temperatures": "Maximales : 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C samedi. Minimales : 13-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi fin de journée et mercredi en 2e partie de nuit. Pluie max : 10 mm.",
+      "spatial_scope": "regional",
+      "location": "Beauvais, Compiègne, Clermont, Creil",
+      "wind": "Faible puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en fin de journée, mercredi 26 nuit et jeudi 27",
+      "confidence_level": "elevee",
+      "uncertainty": "Intensité des orages mercredi soir",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    },
+    "aisne": {
+      "status": "documented",
+      "weather": "Soleil mardi matin puis orages isolés. Temps lumineux mercredi. Orages jeudi en fin de journée. Amélioration samedi.",
+      "temperatures": "Maximales : 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C samedi. Minimales : 14-16°C.",
+      "rain_storms": "Vigilance jaune orages mardi. Orages possibles mardi soir. Pluie max : 20 mm sur la Thiérache jeudi.",
+      "spatial_scope": "regional",
+      "location": "Laon, Saint-Quentin, Soissons, Château-Thierry",
+      "wind": "Est puis Sud-Ouest modéré. Rafales possibles jusqu'à 55 km/h vendredi.",
+      "sensitive_period": "Mardi 25 en soirée, jeudi 27 et vendredi 28 août",
+      "confidence_level": "elevee",
+      "uncertainty": "Cumuls de pluie sur la Thiérache jeudi",
+      "evidence_count": 5,
+      "source_models": ["Météo-France XML", "ECMWF", "GFS", "Guillaume Séchet"]
+    }
+  }
+}
+```
+#### [W1_ZONES_JSON_END]
+
+
+
+#### [W1_SOLID_POINTS]
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **<strong>Scénario principal : Dégradation orageuse puis temps de saison</strong>** (🟡 Modéré - Tendances fiables à 72h, incertitudes sur les intensités orageuses et les cumuls localisés.) | Flux d'ouest dépressionnaire s'installant après un épisode orageux marqué. Mercredi et jeudi : orages parfois violents avec grêle et rafales > 80 km/h possibles. Vendredi : rafraîchissement net avec averses. Week-end : temps instable, températures normales (max 120 caractères). | Nuages et éclaircies alternent avec averses orageuses mercredi/jeudi ; éclaircies plus franches vendredi malgré des averses résiduelles (max 120 caractères). | Nord, Pas-de-Calais, Somme, Oise, Aisne - tous départements concernés par la dégradation orageuse, avec un risque accru sur la Somme, l'Oise et l'Aisne. | Élevée (85%) : convergence des modèles GFS, ECMWF, ICON et ARPEGE sur la chronologie de la dégradation et le refroidissement. | Le flux s'oriente au Sud-Ouest dès mercredi soir, avec un cisaillement modéré. Les indices CAPE deviennent significatifs (500-1000 J/kg) sur l'ensemble de la région. Le risque de phénomènes violents (grêle > 3 cm, rafales > 80 km/h) est modéré mais réel, principalement sur un axe Somme-Oise-Aisne. Le coefficient de confiance est de 4/5 pour la chronologie, 3/5 pour la localisation précise des cellules. |
+| **<strong>Analyse des modèles (Synthèse) :</strong>
+
+##### [W1_MODEL_SCENARIO]
+<strong>(1) CEP (ECMWF)</strong> : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+<strong>Risque principal</strong> : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. <strong>Risque secondaire</strong> : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+<strong>Mercredi</strong> : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). <strong>Jeudi</strong> : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+<strong>Élevée (80%)</strong> : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+<strong>Détail des runs</strong> : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+<strong>Confirmé</strong>
+
+##### [W1_MODEL_MENTIONS_COUNT]
+<strong>5</strong> (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+<strong>25/08/2026 06Z</strong>
+
+##### [W1_MODEL_TIMING]
+<strong>Échéance : J+0 à J+5</strong>
+
+##### [W1_MODEL_DETAILS]**
+<strong>Évolution heure par heure</strong> : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+#####** (**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+#####) | <strong>(1) CEP (ECMWF)</strong> : Scénario privilégié. Talweg d'altitude s'approchant par l'ouest, déclenchant une activité orageuse mercredi et jeudi. Dépression secondaire sur le proche Atlantique vendredi, apportant un flux de Sud-Ouest maritime plus frais et humide. Amélioration progressive samedi par l'ouest.
+
+##### [W1_MODEL_SENSIBLE_WEATHER]
+<strong>Risque principal</strong> : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. <strong>Risque secondaire</strong> : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+<strong>Mercredi</strong> : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). <strong>Jeudi</strong> : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+<strong>Élevée (80%)</strong> : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+<strong>Détail des runs</strong> : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+<strong>Confirmé</strong>
+
+##### [W1_MODEL_MENTIONS_COUNT]
+<strong>5</strong> (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+<strong>25/08/2026 06Z</strong>
+
+##### [W1_MODEL_TIMING]
+<strong>Échéance : J+0 à J+5</strong>
+
+##### [W1_MODEL_DETAILS]**
+<strong>Évolution heure par heure</strong> : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### | <strong>Risque principal</strong> : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. <strong>Risque secondaire</strong> : Cumuls de pluie localement importants (15 à 20 mm).
+
+##### [W1_MODEL_AFFECTED_ZONES]
+<strong>Mercredi</strong> : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). <strong>Jeudi</strong> : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+<strong>Élevée (80%)</strong> : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+<strong>Détail des runs</strong> : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+<strong>Confirmé</strong>
+
+##### [W1_MODEL_MENTIONS_COUNT]
+<strong>5</strong> (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+<strong>25/08/2026 06Z</strong>
+
+##### [W1_MODEL_TIMING]
+<strong>Échéance : J+0 à J+5</strong>
+
+##### [W1_MODEL_DETAILS]**
+<strong>Évolution heure par heure</strong> : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### | <strong>Mercredi</strong> : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). <strong>Jeudi</strong> : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
+
+##### [W1_MODEL_EXTRACTION_CONF]
+<strong>Élevée (80%)</strong> : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+<strong>Détail des runs</strong> : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+<strong>Confirmé</strong>
+
+##### [W1_MODEL_MENTIONS_COUNT]
+<strong>5</strong> (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+<strong>25/08/2026 06Z</strong>
+
+##### [W1_MODEL_TIMING]
+<strong>Échéance : J+0 à J+5</strong>
+
+##### [W1_MODEL_DETAILS]**
+<strong>Évolution heure par heure</strong> : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### | **Élevée (80%)** : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
+
+##### [W1_MODEL_SCENARIO_SUPPORT]
+**Détail des runs** : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
+
+##### [W1_MODEL_STATUS]
+**Confirmé**
+
+##### [W1_MODEL_MENTIONS_COUNT]
+**5** (Sources : Bulletins Météo-France, discussions Infoclimat)
+
+##### [W1_MODEL_RUN]
+**25/08/2026 06Z**
+
+##### [W1_MODEL_TIMING]
+**Échéance : J+0 à J+5**
+
+##### [W1_MODEL_DETAILS]**
+**Évolution heure par heure** : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
+
+##### | ** <strong>Évolution heure par heure</strong> : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.  ##### |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ciel variable avec éclaircies, averses orageuses mercredi et jeudi, puis nette amélioration vendredi | Max 25-26°C mardi, 27-28°C mercredi, 26-28°C jeudi, 21-22°C vendredi, 22-24°C week-end ; Min 15-18°C | elevee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Localisation précise des orages et cumuls associés |
-| **Pas-de-Calais (62)** | Alternance de nuages et d'éclaircies, dégradation orageuse mercredi soir et jeudi, éclaircies vendredi | Max 24-26°C mardi, 26-28°C mercredi, 24-27°C jeudi, 20-23°C vendredi, 21-24°C week-end ; Min 15-16°C | elevee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Intensité des orages et cumuls sur le littoral |
-| **Somme (80)** | Ensoleillé mardi matin puis orages en journée, ciel variable mercredi, nuageux avec averses jeudi et vendredi | Max 24-27°C mardi, 27-29°C mercredi, 23-26°C jeudi, 20-22°C vendredi, 22°C week-end ; Min 14-16°C | elevee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Déclenchement des orages mardi et localisation des plus forts cumuls |
-| **Oise (60)** | Nuageux avec orages possibles mardi soir, ensoleillé mercredi matin puis voile nuageux, averses jeudi et vendredi | Max 27-28°C mardi, 27-29°C mercredi, 25-27°C jeudi, 21-23°C vendredi, 22°C week-end ; Min 13-16°C | elevee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Risque orageux mardi soir et intensité des averses jeudi |
-| **Aisne (02)** | Ensoleillé mardi avec orages en fin de journée, belle journée mercredi, orages jeudi en fin de journée, averses vendredi | Max 26-28°C mardi, 27-30°C mercredi, 26-27°C jeudi, 21-23°C vendredi, 22-24°C week-end ; Min 14-16°C | elevee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Cumuls importants jeudi sur la Thiérache et intensité des orages |
+| **Nord (59)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Pas-de-Calais (62)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Somme (80)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Oise (60)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Aisne (02)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- ****Mardi 25 et mercredi 26 août**** : Période de transition avec un ciel variable, des orages localisés (vigilance jaune sur la Somme, l'Oise et l'Aisne) et des températures encore chaudes (27-30°C).
-- ****Jeudi 27 août**** : Journée la plus perturbée avec un risque orageux généralisé, des cumuls potentiellement importants (10-20 mm) et un vent de Sud-Ouest modéré.
-- ****Vendredi 28 et samedi 29 août**** : Rafraîchissement net avec des températures maximales en baisse (20-23°C), des averses résiduelles et un vent de Sud-Ouest assez fort sur le littoral.
-- ****Dimanche 30 août**** : Temps encore instable avec un risque de pluie ou d'averses, températures de saison (22-24°C) et vent modéré de Sud-Ouest.
+- ****Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+---
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+---
+
+###** : **Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+- ****Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+---
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+---
+
+###** : **Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+- ****Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+---
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+---
+
+###** : **Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+- ****Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+---
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+---
+
+###** : **Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
 
 **Points solides :**
-1. **Chute des températures** : Baisse nette de 5 à 7°C entre mercredi et vendredi sur toute la région.
-2. **Risque orageux confirmé** : Tous les modèles et bulletins officiels prévoient une dégradation orageuse mercredi-jeudi avec un risque de grêle et de rafales.
-3. **Vent de Sud-Ouest** : Établissement d'un flux de Sud-Ouest modéré à assez fort dès vendredi, avec des rafales possibles sur le littoral.
+**Points solides pour la semaine 1 :**
+1.  **Chaleur lourde** :Mardi et mercredi seront encore chauds et humides, avec des maximales dépassant localement les 28°C.
+2.  **Dégradation orageuse** : Un épisode orageux est quasi-certain entre mercredi et jeudi, avec un risque de grêle et de fortes rafales.
+3.  **Rafraîchissement net** : Dès vendredi, les températures chutent pour revenir sous les normales de saison.
+
+
+
+#### [W1_FRAGILE_POINTS]
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
 
 **Points fragiles :**
-1. **Localisation des orages** : La trajectoire précise des cellules orageuses reste incertaine, particulièrement pour la Somme et l'Oise mardi.
-2. **Cumuls de pluie** : Les quantités attendues varient de 5 à 20 mm selon les départements, avec une incertitude sur les zones les plus arrosées.
-3. **Amélioration vendredi** : Le degré d'éclaircies prévu varie selon les modèles, certains prévoyant des averses plus persistantes.
+**Points fragiles pour la semaine 1 :**
+1.  **Localisation des orages** : L'endroit exact où les orages seront les plus violents reste incertain.
+2.  **Cumuls de précipitations** : Les quantités de pluie pourraient varier significativement d'un endroit à l'autre, avec un risque de "taches de léopard".
+
+
+
+#### [W1_NEXT_RUNS_TO_WATCH]
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
+
+
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
 
 **À surveiller (prochains runs) :**
-- Run CEP (ECMWF) de ce soir 12Z pour affiner la chronologie orageuse
-- Run ARPEGE 12Z pour les cumuls de précipitations jeudi
-- Observations radar en temps réel pour le suivi des cellules orageuses mardi après-midi
+**Prochains runs à surveiller :**
+*   **Run Arpège de ce soir (18Z)** : Pour affiner la menace orageuse de mercredi.
+*   **Run CEP de cette nuit** : Pour fiabiliser le scénario de dégradation de jeudi.
 
 
-## 🗓️ SEMAINE 2 : **Du lundi 31 août au dimanche 6 septembre 2026**
+
+#### [W1_PHASE_1_DATES]
+**Phase 1 : Mardi 25 & Mercredi 26 Août**
+
+#### [W1_PHASE_1]
+**Chaleur lourde et humide avec développement d'orages isolés.**
+
+#### [W1_PHASE_2_DATES]
+**Phase 2 : Jeudi 27 Août**
+
+#### [W1_PHASE_2]
+**Dégradation orageuse marquée, risque de phénomènes violents.**
+
+#### [W1_PHASE_3_DATES]
+**Phase 3 : Vendredi 28 & Samedi 29 Août**
+
+#### [W1_PHASE_3]
+**Temps plus frais et humide avec des averses résiduelles.**
+
+#### [W1_PHASE_4_DATES]
+**Phase 4 : Dimanche 30 Août**
+
+#### [W1_PHASE_4]
+**Amélioration progressive avec retour d'éclaircies.**
+
+
+
+#### [W1_IMAGE_START]
+*[Carte isobarique montrant un thalweg s'approchant de la France par l'ouest, avec une masse d'air chaude et humide remontant par le sud.]*
+#### [W1_IMAGE_END]
+
+
+
+###
+
+
+## 🗓️ SEMAINE 2 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
 ### 💡 Points clés de la semaine 2
-1. **Régime océanique perturbé** : Le flux d'ouest domine avec des passages pluvieux fréquents et un vent assez fort en début de semaine.
-2. **Températures de saison** : Maximales comprises entre 20 et 23°C, minimales entre 12 et 15°C, conformes aux normales de début septembre.
-3. **Averses quotidiennes** : Risque de précipitations chaque jour, avec des améliorations temporaires en cours de journée.
-4. **Vent de Sud-Ouest** : Flux dominant modéré à assez fort, avec des rafales possibles sur le littoral et les zones exposées.
-5. **Incertitudes pour le week-end** : Les modèles divergent sur une possible amélioration anticyclonique ou le maintien des perturbations.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
-**Points de convergence :**
-1. **Flux d'ouest** : Tous les modèles s'accordent sur une circulation océanique dominante pour la majeure partie de la semaine.
-2. **Températures normales** : Consensus sur des valeurs proches des normales de début septembre (20-23°C en journée).
-3. **Risque de pluie** : Probabilité significative de précipitations chaque jour, avec un maximum en début de semaine.
-**Points de divergence :**
-1. **Fin de semaine** : GFS suggère une remontée anticyclonique, ECMWF maintient un flux dépressionnaire plus actif.
-2. **Vent fort** : L'intensité des rafales prévues varie selon les modèles, particulièrement lundi et mardi.
-3. **Cumuls pluviométriques** : Les quantités de pluie attendues varient de 5 à 20 mm selon les scénarios.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
-| Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
-| --- | --- | --- | --- | --- | --- |
-| **<strong>Scénario dominant : Flux perturbé océanique</strong>** (🟠 Incertain - Tendance fiable à 5-7 jours, mais les détails (cumuls, éclaircies) restent à affiner.) | Poursuite du régime dépressionnaire avec des passages pluvieux réguliers, un vent de Sud-Ouest modéré à assez fort, et des températures proches des normales saisonnières. Possibilité d'une accalmie anticyclonique en fin de période (max 120 caractères). | Ciel nuageux avec averses fréquentes, éclaircies temporaires entre les perturbations, vent soutenu de Sud-Ouest (max 120 caractères). | Tous les départements des Hauts-de-France, avec un risque accru de vent fort sur le littoral (Nord, Pas-de-Calais, Somme). | Modérée à élevée (65-70%) : bonne convergence sur le flux d'ouest, mais incertitudes sur la fin de période. | Les membres du CEP montrent une dispersion importante à partir de jeudi 3 septembre. Certains scénarios prévoient le creusement d'une dépression sur les îles Britanniques, d'autres une remontée anticyclonique sur l'Europe centrale. La probabilité d'un retour des températures > 25°C est faible (20%), celle d'un maintien du flux perturbé est plus élevée (55%). |
+Aucun modèle spécifique détaillé.
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ciel nuageux avec averses fréquentes, éclaircies temporaires en fin de semaine | Max 21-23°C, Min 13-15°C ; stables sur la période | moderee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Intensité du vent et des précipitations en fin de semaine |
-| **Pas-de-Calais (62)** | Temps perturbé avec des averses, vent assez fort sur le littoral en début de semaine | Max 20-23°C, Min 13-15°C | moderee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Cumuls de pluie et intensité du vent en fin de période |
-| **Somme (80)** | Alternance de nuages et d'éclaircies, averses fréquentes | Max 21-23°C, Min 13-15°C | moderee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Évolution du flux en fin de semaine |
-| **Oise (60)** | Ciel très nuageux avec passages pluvieux, améliorations temporaires | Max 21-23°C, Min 12°C | moderee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Fin de semaine : possible amélioration ou maintien des pluies |
-| **Aisne (02)** | Ciel variable avec passages nuageux et averses, éclaircies plus franches jeudi | Max 21-24°C, Min 12-14°C | moderee | Météo-France XML, ECMWF, GFS, ICON, Guillaume Séchet | Tendance anticyclonique en fin de semaine |
+| **Nord (59)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Pas-de-Calais (62)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Somme (80)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Oise (60)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Aisne (02)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- ****Lundi 31 août et mardi 1er septembre**** : Flux d'ouest assez fort avec des averses fréquentes, vent soutenu sur le littoral, températures maximales de 21-23°C.
-- ****Mercredi 2 et jeudi 3 septembre**** : Régime perturbé persistant avec un risque de pluie ou d'averses, vent modéré d'Ouest à Sud-Ouest, températures stables.
-- ****Vendredi 4 et samedi 5 septembre**** : Possible amélioration avec des éclaircies plus franches, mais maintien d'un risque d'averses. Incertitude sur l'évolution.
-- ****Dimanche 6 septembre**** : Tendance encore incertaine : soit poursuite du temps perturbé, soit installation d'un anticyclone. À confirmer dans les prochains runs.
-
-**Points solides :**
-1. **Régime océanique maintenu** : Le flux d'ouest perturbé est confirmé par l'ensemble des modèles pour la majeure partie de la semaine.
-2. **Températures de saison** : Aucun scénario ne prévoit un retour de la chaleur excessive (max < 25°C).
-3. **Vent soutenu** : Rafales possibles lundi et mardi, particulièrement sur le littoral.
-
-**Points fragiles :**
-1. **Amélioration en fin de semaine** : Le scénario anticyclonique de GFS est minoritaire mais possible à partir de vendredi.
-2. **Cumuls de pluie** : Les quantités prévues restent incertaines, avec des variations de 5 à 15 mm selon les jours.
-3. **Intensité du vent** : Les rafales maximales pourraient atteindre 60-70 km/h sur le littoral, mais avec une marge d'incertitude.
-
-**À surveiller (prochains runs) :**
-- Run CEP de ce soir pour évaluer la tendance de fin de semaine
-- Sorties GFS à 10 jours pour détecter une éventuelle remontée anticyclonique
-- Observations océaniques (pression, températures de surface) pour affiner les prévisions de vent
 
 
 ========================================
@@ -124,12 +2229,3 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** La chronologie exacte de la dégradation orageuse (mercredi après-midi vs soirée) varie légèrement selon les modèles, mais la fenêtre principale est bien identifiée.
-- **Localisation :** Les zones les plus exposées aux fortes pluies et à la grêle restent incertaines : un axe Somme-Oise-Aisne semble privilégié, mais une extension vers le Nord est possible.
-- **Intensité :** Le potentiel de phénomènes violents (grêle > 5 cm, rafales > 100 km/h) est réel mais difficile à évaluer précisément à J+3. Les indices convectifs (CAPE, cisaillement) seront à surveiller.
-- **Informations manquantes :** - Observations de la station d'Aulnoy-sous-Laon (Aisne) pour vérifier la température de surface
-- Données sur l'humidité des sols pour évaluer le risque de ruissellement
-- Dernières sorties des modèles à haute résolution (AROME, WRF) pour affiner la localisation des orages
-- **Modèles sous-documentés :** - Modèle GEM : divergence sur la fin de semaine 2, mentionné mais peu détaillé
-- Modèles ensemblistes (EPS, GEFS) : peu commentés dans les discussions, mais utiles pour évaluer la probabilité des scénarios
-- **Incertitudes images :** Les cartes de précipitations prévues pour jeudi montrent des différences significatives entre AROME et WRF, notamment sur l'intensité des cumuls en Thiérache.

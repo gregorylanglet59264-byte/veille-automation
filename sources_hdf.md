@@ -317,7 +317,7 @@ Températures minimales : en baisse sur le Laonnois.
 Températures maximales : stationnaires.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 250405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mardi 25 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 25 août 2026 à 00H00 UTC, et évolution Anticyclone 1025 hPa sur la Scandinavie. Dépression orageuse 1007 hPa sur l'ouest de la France, prévue 1009 hPa en Manche en soirée. Nouvelle dépression orageuse se creusant 1000 hPa au nord-ouest du Portugal demain matin, se décalant vers le nord. 3 - Prévisions pour la journée du mardi 25 août VENT : Est 4 à 5, revenant Est à Nord-Est à la mi-journée, en mollissant localement 2 à 3 au sud de Boulogne-sur-Mer. MER : belle à peu agitée en Manche, et peu agitée à agitée en Mer du Nord. HOULE : Nord à Nord-Est 0.5 à 1 m. TEMPS : nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 4 - Prévisions pour la nuit du mardi 25 août au mercredi 26 août VENT : Est 3 à 4, virant progressivement Sud-Est en milieu de nuit. Rafales sous averses. MER : belle à peu agitée. HOULE : Nord à Nord-Est 0.5 à 1 m, s'amortissant en Manche en fin de nuit. TEMPS : nuageux avec quelques averses parfois orageuses. VISIBILITE : bonne, mais moyenne à mauvaise sous averses. 5 - Prévisions pour la journée du mercredi 26 août VENT : Sud à Sud-Est 2 à 4, devenant Variable 2 à 4 à la mi-journée, puis fraîchissant Nord à Nord-Est 3 à 4 à la fin. MER : belle à peu agitée. HOULE : non significative, mais Nord à Nord-Est 0.5 à 1 m en mer du Nord le matin. TEMPS : quelques averses parfois orageuses en début de journée, puis devenant ensoleillé. VISIBILITE : bonne, mais moyenne à mauvaise sous averses. 6 - Prévisions pour la nuit du 26 au 27 et la journée du jeudi 27 août VENT : Secteur Est 3 à 5, virant Sud-Ouest en début de matinée. MER : peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Vendredi 28 août Sud Ouest modéré à assez fort Indice de confiance : 3 sur 5 Samedi 29 août Sud Ouest modéré à assez fort Indice de confiance : 3 sur 5 Dimanche 30 août Sud Ouest modéré à assez fort Indice de confiance : 3 sur 5 Lundi 31 août Ouest modéré à assez fort Indice de confiance : 2 sur 5 8 - Observations le mardi 25 août 2026 à 03H00 UTC Dunkerque : vent Est-Nord-Est 12 noeuds, 1013 hPa en baisse. Cap Gris Nez : vent Est 16 noeuds. Boulogne : vent Est 16 noeuds, 1011 hPa en baisse, clair ou peu nuageux, visibilité 10 milles. Bouée Sandettie : vent Est 19 noeuds, creux 1,0 mètre, 1013 hPa en baisse, visibilité 5 milles. Prochain bulletin le mardi 25 août 2026, vers 12H30 légales
+FQCT40 LFQQ 250940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mardi 25 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 25 août 2026 à 06H00 UTC, et évolution Dépression 1008 hPa sur la Bretagne se décalant vers le sud de l'Irlande en cours de journée. Dépression Atlantique prévue 1005 hPa à l'ouest de la Corogne ce soir, se décalant vers le nord-est, prévue 999 hPa au nord-ouest de la Corogne demain midi, puis se décalant vers le nord-ouest. 3 - Prévisions pour l'après-midi du mardi 25 août VENT : Est à Nord-Est 3 à 5, mollissant Variable 2 à 3 au sud de Boulogne-sur-Mer l'après-midi. MER : belle à peu agitée en Manche, et peu agitée à agitée en Mer du Nord. HOULE : Nord à Nord-Est 0.5 à 1 m. TEMPS : nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mardi 25 août au mercredi 26 août VENT : Est 3 à 4, virant Sud-Est en milieu de nuit. Rafales sous averses. MER : belle à peu agitée. HOULE : Nord à Nord-Est 0.5 à 1 m, s'amortissant en Manche en fin de nuit. TEMPS : nuageux avec averses orageuses. VISIBILITE : bonne, mais moyenne à mauvaise sous averses. 5 - Prévisions pour la journée du mercredi 26 août VENT : Variable 2 à 4, devenant Nord à Nord-Est 3 à 4 le soir. MER : belle à peu agitée. HOULE : non significative, mais Nord à Nord-Est 0.5 à 1 m en mer du Nord. TEMPS : quelques averses parfois orageuses en début de journée, puis ensoleillé. VISIBILITE : bonne, mais moyenne à mauvaise sous averses. 6 - Prévisions pour la nuit du 26 au 27 et la journée du jeudi 27 août VENT : Secteur Est 3 à 4, devenant Variable 2 à 4 le matin, puis s'orientant secteur Ouest l'après-midi. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, parfois Nord-Est 0.5 à 1 m en Mer du Nord. TEMPS : nuageux, orages en fin de nuit et matinée. VISIBILITE : bonne, localement mauvaise sous orages. 7 - Prévisions pour la nuit du 27 au 28 et la journée du vendredi 28 août VENT : Ouest à Sud-Ouest 3 à 4, fraîchissant 5 à 6 en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 8 - Tendance pour les jours suivants Samedi 29 août Secteur Sud-Ouest modéré à assez fort Indice de confiance : 4 sur 5 Dimanche 30 août Secteur Sud-Ouest assez fort à fort Indice de confiance : 3 sur 5 Lundi 31 août Secteur Ouest modéré à assez fort Indice de confiance : 2 sur 5 Mardi 1 septembre Ouest à Sud-Ouest faible à modéré Indice de confiance : 2 sur 5 9 - Observations le mardi 25 août 2026 à 09H00 UTC Dunkerque : vent Est-Nord-Est 10 noeuds, 1013 hPa en hausse. Cap Gris Nez : vent Est-Nord-Est 14 noeuds. Boulogne : vent Est-Nord-Est 8 noeuds, 1012 hPa en hausse, clair ou peu nuageux, visibilité 13 milles. Prochain bulletin le mardi 25 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -360,12 +360,12 @@ A partir de samedi, le temps sera beaucoup moins agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Qui a testé la passerelle Ecowitt GW3000 ?
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -373,111 +373,13 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 25 Août 2026.
-Résumé général HDF précédent : — Tendance globale sur 15 jours (25 Août - 8 Septembre 2026)
-
-Les Hauts-de-France connaissent une **transition nette vers un temps de saison** après un été marqué par la canicule. La première semaine est dominée par une **dégradation orageuse** (mercredi 26 et jeudi 27) avec un risque de phénomènes localement violents, suivie d'un **rafraîchissement marqué** dès vendredi 28. La seconde semaine s'annonce **perturbée et océanique**, avec des températures conformes aux normales de début septembre. L'incertitude principale concerne la fin de période (à partir du 5-6 septembre) : retour anticyclonique ou persistance du flux dépressionnaire.
-
----
-
-## 🎯 [MOST_RELIABLE_WEEK] — Semaine la plus fiable
-
-**Semaine 1 (25-30 Août)** : Confiance élevée (80-85%) sur la chronologie et les températures. Les prévisions à 3-5 jours bénéficient d'une bonne convergence des modèles. La semaine 2 est nettement moins fiable (60-65%).
-
----
-
-## ✅ [GLOBAL_SOLID_POINTS] — Points solides (max 3)
-
-1. **Fin de la canicule** : Le changement de régime est acté, plus aucun scénario ne propose un retour des fortes chaleurs (> 30°C).
-2. **Dégradation orageuse** : Épisode orageux mercredi-jeudi avec risque de grêle et rafales (probabilité 60-70%).
-3. **Températures de saison** : Retour à des valeurs normales (20-24°C) pour les deux prochaines semaines.
-
----
-
-## 🔄 [GLOBAL_RECURRING_PHENOMENA] — Phénomènes récurrents
-
-- **Averses quotidiennes** : Le régime océanique maintient un risque de précipitations chaque jour
-- **Vent de Sud-Ouest** : Flux dominant pendant toute la période, avec des renforcements réguliers
-- **Améliorations temporaires** : Éclaircies entre les passages perturbés, principalement en deuxième partie de journée
-
----
-
-## 📍 [GLOBAL_AFFECTED_ZONES] — Zones affectées
-
-- **Littoral (Nord, Pas-de-Calais, Somme)** : Vent plus fort, averses marines fréquentes
-- **Est (Aisne, est de l'Oise)** : Risque orageux plus marqué, cumuls potentiellement plus importants
-- **Intérieur** : Variations thermiques plus amples, éclaircies plus nettes entre les perturbations
-
----
-
-## ⚠️ [GLOBAL_MAJOR_UNCERTAINTIES] — Incertitudes majeures
-
-1. **Fin de semaine 2** : Oppositions entre scénario anticyclonique (GFS) et maintien du flux d'ouest (CEP)
-2. **Intensité orageuse** : Risque de phénomènes violents (grêle > 5 cm) impossible à localiser précisément à J+3
-3. **Cumuls pluviométriques** : Variations de 10 à 30 mm selon la trajectoire des perturbations
-
----
----
-
-## 📊 [GLOBAL_CONSENSUS_KPI] — Consensus des modèles : **Modéré**
-
-**[GLOBAL_CONSENSUS_NOTE]** — Bonne convergence sur la semaine 1 (85%), nette divergence sur la fin de semaine 2 (55%). Le signal principal (fin de canicule, retour à la normale) est robuste.
-
-## 🎭 [GLOBAL_SCENARIO_KPI] — Scénario dominant : **Flux océanique dépressionnaire**
-
-**[GLOBAL_SCENARIO_NOTE]** — 60% de probabilité pour le maintien d'un régime d'ouest perturbé, 25% pour une amélioration anticyclonique en fin de période, 15% pour un scénario intermédiaire.
-
-## ❓ [GLOBAL_UNCERTAINTY_KPI] — Incertitude globale : **Modérée**
-
-**[GLOBAL_UNCERTAINTY_NOTE]** — Incertitude principalement liée à l'échéance J+8 et au-delà. Les prévisions à 3-5 jours restent fiables.
-
----
-
-## 📱 [LINKEDIN_POST] — Publication LinkedIn
-
-> 🌦️ **HAUTS-DE-FRANCE : FIN DE LA CANICULE, RETOUR D'UN TEMPS DE SAISON** 🌦️
-> 
-> La région bascule dans un régime océanique cette semaine !
-> 
-> 🔹 **Mardi** : Dernière journée chaude (26-28°C) avant la bascule
-> 🔹 **Mercredi-Jeudi** : Dégradation orageuse, risque de grêle et rafales
-> 🔹 **Vendredi** : Net rafraîchissement (20-22°C)
-> 🔹 **Semaine prochaine** : Averses fréquentes, vent de Sud-Ouest, températures de saison
-> 
-> 📊 Les modèles s'accordent sur la fin de la canicule mais divergent pour le week-end du 6 septembre.
-> 
-> 💡 À suivre : le run CEP de ce soir pour affiner les prévisions !
-> 
-> #Météo #HautsDeFrance #Prévisions #Climat #Orages #MétéoFrance
-
----
-
-**.
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : ** (max 120 car.)
-Nuages et éclaircies alternent avec averses orageuses mercredi/jeudi ; éclaircies plus franches vendredi malgré des averses résiduelles.
-
-<strong>[W1_MODEL_AFFECTED_ZONES]</strong> — Nord, Pas-de-Calais, Somme, Oise, Aisne (tous départements concernés par la dégradation orageuse)
-
-<strong>[W1_MODEL_EXTRACTION_CONF]</strong> — Élevée (85%) : convergence des modèles sur le scénario de dégradation
-
-<strong>[W1_MODEL_SCENARIO_SUPPORT]</strong> — 4 modèles sur 5 (GFS, ECMWF, ICON, ARPEGE) ; GEM en divergence partielle
-
-<strong>[W1_MODEL_STATUS]</strong> — 🟡 Modéré — Tendances fiables à 72h, incertitudes sur les intensités orageuses
-
-<strong>[W1_MODEL_MENTIONS_COUNT]</strong> — 12 mentions de dégradation orageuse sur les discussions
-
-<strong>[W1_MODEL_RUN]</strong> — Run du 24/08/2026 12Z (fiable) + Run du 25/08/2026 00Z (en cours)
-
-<strong>[W1_MODEL_TIMING]</strong> — Mercredi 26 après-midi : entrée des orages par l'ouest ; Jeudi 27 : généralisation ; Vendredi 28 : amélioration progressive
-
-<strong>[W1_MODEL_DETAILS]</strong>
-Le flux s'oriente au Sud-Ouest dès mercredi soir, avec un cisaillement modéré. Les indices CAPE deviennent significatifs (500-1000 J/kg) sur l'ensemble de la région. Le risque de phénomènes violents (grêle > 3 cm, rafales > 80 km/h) est modéré mais réel, principalement sur un axe Somme-Oise-Aisne. Le coefficient de confiance est de 4/5 pour la chronologie, 3/5 pour la localisation précise des cellules.
-
-**.
+Températures attendues précédemment : Nuages et éclaircies alternent avec averses orageuses mercredi/jeudi ; éclaircies plus franches vendredi malgré des averses résiduelles (max 120 caractères)..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===
-Auteur: meteo noobs
+Auteur: symaski62
 Message:
 Il y a 1 heure, Leonai a dit :
 			Elle est belle celle-là, je vais la garder dans mes archives je pense!
@@ -487,22 +389,21 @@ Il y a 1 heure, Leonai a dit :
 	Moins chaud et beaucoup plus humide. Icon est le plus flagrant.
 	Est ce la GF mutante qui les perturbe ?
 	Modifié vendredi à 18:52 par meteo noobs
-								4
 
 =======================
 
-Auteur: Virgile
+Auteur: greg13
 Message:
 On a bien changé de circulation atmosphérique avec des hauts géopotentiels qui se sont bien repliés d'une part sur les açores et une autre allant sur la Scandinavie. Un axe dépressionnaire labrador/europe de l'ouest se met en place. Ca fait 4/5 jours que l'on voit cela.
 	C'est pas cette dépression puis ce thalweg en début de semaine qui va remettre en cause ce changement. 
 	Pas de signe qu'une quelconque canicule en vue. J'espère que cela n'en frustre pas certains.
 								14
 								2
-								3
+								2
 
 =======================
 
-Auteur: Mica
+Auteur: greghouse33
 Message:
 La semaine pourrait ressembler à celle en cours.
 	Chaud voire très chaud (chaleur lourde avec passages orageux) la première moitié de la semaine, notamment sur la moitié sud, avec un pic mercredi, jeudi pour les regions de l'est.
@@ -514,7 +415,7 @@ La semaine pourrait ressembler à celle en cours.
 
 =======================
 
-Auteur: symaski62
+Auteur: ggdu19
 Message:
 lundi  24  +66 heures  +2 jours    53  mm pluie   
 								7
@@ -523,14 +424,14 @@ lundi  24  +66 heures  +2 jours    53  mm pluie   
 
 =======================
 
-Auteur: greg13
+Auteur: greghouse33
 Message:
 Sans atteindre les seuils caniculaires, la prochaine semaine verra donc une nouvelle floppée de 30 à 33°c dans le Sud du Pays, avant un nouveau rafraîchissement prévu autour du 28 août. 
 	PS : Il reste 4 dernières places pour rejoindre le jeu de la rentrée de pronostics météo sur Infoclimat... Si ça vous botte, les inscriptions se font jusqu'à lundi
 
 =======================
 
-Auteur: greghouse33
+Auteur: symaski62
 Message:
 Il y a 13 heures, symaski62 a dit :
 			lundi  24  +66 heures  +2 jours    53  mm pluie   
@@ -538,7 +439,7 @@ Il y a 13 heures, symaski62 a dit :
 
 =======================
 
-Auteur: ggdu19
+Auteur: Nono34
 Message:
 il y a 45 minutes, greghouse33 a dit :
 			La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
@@ -549,7 +450,7 @@ il y a 45 minutes, greghouse33 a dit :
 
 =======================
 
-Auteur: greghouse33
+Auteur: serge26
 Message:
 il y a 12 minutes, ggdu19 a dit :
 			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
@@ -560,7 +461,7 @@ il y a 12 minutes, ggdu19 a dit :
 
 =======================
 
-Auteur: symaski62
+Auteur: Leonai
 Message:
 wow    
 								5
@@ -569,7 +470,7 @@ wow    
 
 =======================
 
-Auteur: Nono34
+Auteur: giec 2100
 Message:
 Il y a 11 heures, ggdu19 a dit :
 			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
@@ -582,7 +483,7 @@ Il y a 11 heures, ggdu19 a dit :
 
 =======================
 
-Auteur: serge26
+Auteur: Nico 14
 Message:
 il y a 10 minutes, Nono34 a dit :
 			Ce serait pas un mythe ça ?
@@ -593,7 +494,7 @@ il y a 10 minutes, Nono34 a dit :
 
 =======================
 
-Auteur: Leonai
+Auteur: Météodu37
 Message:
 😍🤩🥰
 								1
@@ -602,7 +503,7 @@ Message:
 
 =======================
 
-Auteur: giec 2100
+Auteur: Laurent15
 Message:
 Il y a 17 heures, ggdu19 a dit :
 			Avec une eau qui risque de ruisseler sans pénétrer le sol, ça m'étonnerait beaucoup, et ce ne sont pas un ou deux épisodes orageux qui suffiront à endiguer une sécheresse de plusieurs mois.... 
@@ -625,7 +526,7 @@ Il y a 17 heures, ggdu19 a dit :
 
 =======================
 
-Auteur: Nico 14
+Auteur: symaski62
 Message:
 Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui est déjà détaillé sur les topics régionaux, deux journées, mercredi et jeudi, avec un risque convectif qui est déjà bien affirmé. En effet, avec l'abord d'un nouveau talweg d'altitude par l'ouest, une anomalie de tropopause devrait balayer le pays en s'appliquant sur une masse d'air instable et cisaillée, une nouvelle fois. Dès lors, de puissantes salves orageuses sont à envisager d'ouest en est sur ces deux jours, avec un risque venteux et de grêle, probablement grosse, qui ressort déjà. Ça sera à détailler dans les topics appropriés en début de semaine.
 								9
@@ -633,7 +534,7 @@ Pour cette semaine, on peut effectivement déjà anticiper, en plus de lundi qui
 
 =======================
 
-Auteur: Météodu37
+Auteur: Jetrejo
 Message:
 Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 	ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
@@ -642,17 +543,18 @@ Nouveau bulletin national publié accessible par ici  -&gt; https://www.infocl
 
 =======================
 
-Auteur: Laurent15
+Auteur: symaski62
 Message:
 il y a une heure, Météodu37 a dit :
 			Nouveau bulletin national publié accessible par ici  -&gt; https://www.infoclimat.fr/actualites/bim/14081/semaine-du-24-au-30-ao-atilde-raquot-attention-aux-orages.html ou dans la rubrique climatologie -&gt; BIM ou à droite de la carte interactive. 
 			ENFIN le retour de bonnes pluies et d'un air plus "frais", attention aux orages entre lundi et jeudi car ces derniers peuvent s'annoncer assez violents. Analyse plus approfondie sur la journée de demain lundi plus bas dans le bulletin. 
 	Merci Kévin pour ce bulletin très développé, mais aussi très pédagogue, comme je les adore 
+								1
 								3
 
 =======================
 
-Auteur: symaski62
+Auteur: Nico 14
 Message:
 https://www.meteociel.fr/modeles/arome.php?ech=37&amp;mode=152&amp;map=0
 	140 à 150 km/h  vent    
@@ -660,7 +562,7 @@ https://www.meteociel.fr/modeles/arome.php?ech=37&amp;mode=152&amp;map=0
 
 =======================
 
-Auteur: Jetrejo
+Auteur: Membre
 Message:
 il y a une heure, symaski62 a dit :
 			https://www.meteociel.fr/modeles/arome.php?ech=37&amp;mode=152&amp;map=0
@@ -671,21 +573,21 @@ il y a une heure, symaski62 a dit :
 
 =======================
 
-Auteur: symaski62
+Auteur: Membre
 Message:
 https://www.estofex.org/
 	Une alerte de niveau 3 a été émise pour le nord-est de l'Espagne et le sud de la France, principalement en raison de grêle de grande à très grande taille et de rafales de vent destructrices.
 								2
-								1
+								2
 								1
 
 =======================
 
-Auteur: Nico 14
+Auteur: Membre
 Message:
 Autant le dire tout de suite, on n'en a pas fini avec les risques convectifs avec l'arrivée d'un nouveau talweg d'altitude déjà mercredi par l'ouest, et jeudi s'annonce aussi déjà sous le signe d'une dégradation marquée et plutôt généralisée, avec encore tous les risques convectifs présents. Celui de grêle &gt; à 5 cm est même déjà étendu.
-								12
-								2
+								13
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: tao
