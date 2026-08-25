@@ -343,12 +343,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Médias, exagération, désinformations sur la météo
+• Infoclimat Direct : Vigilance Météo France
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Médias, exagération, désinformations sur la météo
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -356,35 +356,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 25 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Les Hauts-de-France basculent d’une chaleur orageuse à un flux d’ouest océanique. Après les orages de jeudi, le rafraîchissement est net et semble durable jusqu’au 4-5 septembre. Aucun signal caniculaire fort dans les 15 jours..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : <strong>Risque principal</strong> : Orages potentiellement forts mercredi après-midi et jeudi, avec un risque de grêle et de rafales de vent. <strong>Risque secondaire</strong> : Cumuls de pluie localement importants (15 à 20 mm).
-
-##### [W1_MODEL_AFFECTED_ZONES]
-<strong>Mercredi</strong> : Toute la région, risque plus marqué sur l'intérieur des terres (Oise, Aisne, Somme). <strong>Jeudi</strong> : Toute la région, avec un risque de pluies plus soutenues sur le Nord et le Pas-de-Calais.
-
-##### [W1_MODEL_EXTRACTION_CONF]
-<strong>Élevée (80%)</strong> : Fort consensus sur la séquence "chaleur lourde puis dégradation orageuse puis rafraîchissement".
-
-##### [W1_MODEL_SCENARIO_SUPPORT]
-<strong>Détail des runs</strong> : GFS, UKMO et Arpège sont alignés sur cette évolution. Les différences portent sur le timing et l'intensité des orages, notamment jeudi.
-
-##### [W1_MODEL_STATUS]
-<strong>Confirmé</strong>
-
-##### [W1_MODEL_MENTIONS_COUNT]
-<strong>5</strong> (Sources : Bulletins Météo-France, discussions Infoclimat)
-
-##### [W1_MODEL_RUN]
-<strong>25/08/2026 06Z</strong>
-
-##### [W1_MODEL_TIMING]
-<strong>Échéance : J+0 à J+5</strong>
-
-##### [W1_MODEL_DETAILS]**
-<strong>Évolution heure par heure</strong> : Amélioration nette samedi soir, avec des éclaircies de plus en plus franches et un vent de Sud-Ouest encore modéré.
-
-#####.
+Températures attendues précédemment : Orages potentiellement forts mercredi soir/jeudi, grêle possible, rafales, pluies 15-20 mm, puis rafraîchissement net..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===
@@ -615,4 +589,19 @@ Bonsoir,
 Auteur: symaski62
 Message:
 cyclone à France    +10  jours à +14 jours  
-	🤔  hummm   non ou oui
+	🤔  hummm   non ou oui   
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+On surveillera une remontée des hauts géopotentiels et donc de la chaleur par le sud du pays début septembre.  Les modèles dont les AI insistent.
+								2
+
+=======================
+
+Auteur: Twister83
+Message:
+Les diagrammes pour les régions méditerranéennes pour le début de "l'automne" météorologique sont plus que estival.
+	Aucune porte de sortie visible sur le long terme, c'est verrouillé de chez verrouillé.

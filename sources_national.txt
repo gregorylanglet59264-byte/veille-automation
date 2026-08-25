@@ -345,12 +345,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Médias, exagération, désinformations sur la météo
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -358,9 +358,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 25 Août 2026.
-Résumé général précédent : Après un début de semaine encore chaud et orageux, un net refroidissement est attendu dès vendredi, avec un retour à des températures proches des normales. La semaine 2 s'annonce plus fraîche et plus humide, avec des conditions variables. Les échéances lointaines (au-delà de 10 jours) montrent une incertitude marquée sur la circulation atmosphérique..
+Résumé général précédent : Tendance à un déblocage de la circulation atmosphérique : après une semaine orageuse et un rafraîchissement, la deuxième semaine devrait rester variable, avec des températures proches des normales et un risque d'averses surtout au nord..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : <strong>Temps sensible</strong> : Orages potentiellement forts mercredi et jeudi sur un axe nord-ouest/sud-est, avec un risque de phénomènes localement violents (grêle, fortes rafales). Vendredi, nette amélioration avec un retour à un temps plus frais et variable. Samedi et dimanche, temps sec et légèrement plus chaud..
+Températures attendues précédemment : Orages potentiellement forts mercredi/jeudi, puis fraîchissement. (max 120).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===
@@ -591,4 +591,19 @@ Bonsoir,
 Auteur: symaski62
 Message:
 cyclone à France    +10  jours à +14 jours  
-	🤔  hummm   non ou oui
+	🤔  hummm   non ou oui   
+								1
+
+=======================
+
+Auteur: Virgile
+Message:
+On surveillera une remontée des hauts géopotentiels et donc de la chaleur par le sud du pays début septembre.  Les modèles dont les AI insistent.
+								2
+
+=======================
+
+Auteur: Twister83
+Message:
+Les diagrammes pour les régions méditerranéennes pour le début de "l'automne" météorologique sont plus que estival.
+	Aucune porte de sortie visible sur le long terme, c'est verrouillé de chez verrouillé.
