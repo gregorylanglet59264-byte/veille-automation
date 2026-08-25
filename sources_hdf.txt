@@ -318,12 +318,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 25 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Tendance à jouer les montagnes russes: après un été caniculaire sur le Sud, sa place dans les hôtes dans les Hauts-de-France. Une semaine d'août agité orageux, puis une mi-septembre qui débutera en restant sous surveillance de pluie - avec un risque très incertain de remontée de chaleur vers le 6 sept.
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Pluies et orages potentiellement forts mercredi/jeudi, ensuite venteux de sud-ouest et plus frais. HDF directement concernés par la baisse thermique..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===
@@ -538,7 +538,7 @@ Message:
 Il y a 21 heures, Nico 14 a dit :
 			Autant le dire tout de suite, on n'en a pas fini avec les risques convectifs avec l'arrivée d'un nouveau talweg d'altitude déjà mercredi par l'ouest, et jeudi s'annonce aussi déjà sous le signe d'une dégradation marquée et plutôt généralisée, avec encore tous les risques convectifs présents. Celui de grêle &gt; à 5 cm est même déjà étendu.
 	Si l'on s'en tiens strictement aux modèles (sans pousser dans la fine analyse plus que ça) les secteurs les plus durement concernés lundi pourraient, toute proportion gardé, être les plus épargnés par la dégradation suivante
-								3
+								4
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: tao
@@ -566,8 +566,9 @@ cyclone à France    +10  jours à +14 jours  
 Auteur: Virgile
 Message:
 On surveillera une remontée des hauts géopotentiels et donc de la chaleur par le sud du pays début septembre.  Les modèles dont les AI insistent.
-								3
-								3
+								4
+								1
+								5
 
 =======================
 
@@ -575,4 +576,38 @@ Auteur: Twister83
 Message:
 Les diagrammes pour les régions méditerranéennes pour le début de "l'automne" météorologique sont plus que estival.
 	Aucune porte de sortie visible sur le long terme, c'est verrouillé de chez verrouillé.
+								1
+								3
+
+=======================
+
+Auteur: bruno50
+Message:
+Il y a 7 heures, Virgile a dit :
+			On surveillera une remontée des hauts géopotentiels et donc de la chaleur par le sud du pays début septembre.  Les modèles dont les AI insistent.
+	Tout à fait, et ce qui confirme et ne me plait pas du tout, c'est que MF vient de remettre sa tendance long terme (du 7 au 20 sept) en températures au dessus de la moyenne après qu'on a eu enfin une semaine dans les tendances avec les températures dans les normales (un vrai record!). Ce soir c'est le modèle "classique" du CEP qui relaie l'AIFS du matin (lequel AIFS est quand même plus soft ce soir avec des ondulations moins amples et donc des coups de chaleur moins violents).
+	Je crains enfin que l'entrée en septembre des anciens cyclones dans la moulinette labradorienne ne tende à booster la chaleur subtropicale à l'avant de leur recyclage sur l'atlantique Nord.
+	On a encore du temps pour se faire du souci en espérant que ce ne soit pour rien, mais la sécheresse ne va pas abandonner le terrain aussi facilement apparemment, en dehors d'orages pas toujours bienvenus.
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 32 minutes, bruno50 a dit :
+			Tout à fait, et ce qui confirme et ne me plait pas du tout, c'est que MF vient de remettre sa tendance long terme (du 7 au 20 sept) en températures au dessus de la moyenne après qu'on a eu enfin une semaine dans les tendances avec les températures dans les normales (un vrai record!). Ce soir c'est le modèle "classique" du CEP qui relaie l'AIFS du matin (lequel AIFS est quand même plus soft ce soir avec des ondulations moins amples et donc des coups de chaleur moins violents).
+			Je crains enfin que l'entrée en septembre des anciens cyclones dans la moulinette labradorienne ne tende à booster la chaleur subtropicale à l'avant de leur recyclage sur l'atlantique Nord.
+			On a encore du temps pour se faire du souci en espérant que ce ne soit pour rien, mais la sécheresse ne va pas abandonner le terrain aussi facilement apparemment, en dehors d'orages pas toujours bienvenus.
+	Si je dis pas de bêtises, les anciens cyclones ont certe tendance à faire remonter la chaleur à l’avant mais sont aussi souvent porteur d’instabilité.
+	Bon pour le coup ça sent tout de même pas super bon cette histoire avec un gros contraste entre le nord de l’europe et nous.
+	Et bien sur, anomalie postive de température (wtf l’Espagne et le nord dd l’Afrique)
+	Coté Deterministe
+	Si l’on suit CEP
+	Pour le moment on aurait vrai semblablement un petit passage Zonal entre l’échéance précédente et la notre avant d’avoir un Patator sur la tronche ramenant la chaleur au sud mais épargnant le nord par ce qui ressemble un petit flux de NO.
+	Pas de gros coup de chaud non plus de visible pour le moment mais on reste desesperement sec
+	Gefs dans la même veine avec des t850&gt;20⁰C montant plus haut (mais avec une patate moins grosse ?)
+	Seul GEM me semble un peu plus modéré
+	Cela se ressent sur les ensembliste avec une moyenne en hausse et très de PP en vue
+	Paris/Nord
+	Toulouse/sud
+	Pas mieux
 								1
