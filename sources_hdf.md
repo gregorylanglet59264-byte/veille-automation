@@ -329,96 +329,22 @@ A partir de samedi, le temps sera beaucoup moins agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Temps en Italie (depuis 2017)
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Lundi 24 Août 2026.
-Résumé général HDF précédent : La séquence météo sur 15 jours est marquée par une rupture de régime. Après un week-end chaud, la semaine du 24 au 30 août voit l'installation d'un temps plus frais, humide et orageux, avec un risque de phénomènes violents jeudi 27. La semaine du 31 août au 6 septembre s'annonce plus indécise, avec un début de semaine encore instable et venteux, mais une évolution potentielle vers un temps plus sec et calme en seconde partie de semaine. Les températures resteront globalement proches des normales de saison après le rafraîchissement de la fin de semaine 1.
-
-### [MOST_RELIABLE_WEEK]
-La semaine 1 (du 24 au 30 août) est la plus fiable. Les grands traits (chaleur, puis orages, puis refroidissement) sont bien établis par les modèles et les discussions de prévisionnistes.
-
-### [GLOBAL_SOLID_POINTS]
-1. Fin de la canicule sur la région avec un net rafraîchissement.
-2. Forte dégradation orageuse prévue pour jeudi 27 août.
-3. Retour d'un flux océanique perturbé, de secteur Ouest/Sud-Ouest.
-
-### [GLOBAL_RECURRING_PHENOMENA]
-Averses orageuses localement fortes, risque de grêle et de rafales de vent sous les cellules les plus actives. Vent de Sud-Ouest modéré à assez fort sur le littoral en fin de semaine 1 et début de semaine 2. Températures dans les normales de saison.
-
-### [GLOBAL_AFFECTED_ZONES]
-Toute la région Hauts-de-France, avec des risques plus marqués pour les orages dans les terres (Oise, Aisne) et pour le vent sur le littoral (Pas-de-Calais, Somme, Nord).
-
-### [GLOBAL_MAJOR_UNCERTAINTIES]
-1. Intensité et localisation précise des orages de jeudi.
-2. Chronologie exacte de la dégradation.
-3. Scénario météo pour la fin de la semaine 2 (retour du sec ou temps humide).
-
-### [GLOBAL_CONSENSUS_KPI] Modéré
-
-### [GLOBAL_CONSENSUS_NOTE]
-Consensus fort sur la semaine 1, mais désaccord marqué sur le scénario de la semaine 2.
-
-### [GLOBAL_SCENARIO_KPI] Élevé
-
-### [GLOBAL_SCENARIO_NOTE]
-Scénario de dégradation orageuse suivi d'un rafraîchissement, puis d'une possible amélioration est le plus probable, mais avec une incertitude croissante dans le temps.
-
-### [GLOBAL_UNCERTAINTY_KPI] Élevée
-
-### [GLOBAL_UNCERTAINTY_NOTE]
-Incertitude très forte sur la durée du retour de l'anticyclone en semaine 2.
-
-### [LINKEDIN_POST]
-🌦️ **Temps de rupture en vue pour les Hauts-de-France !**
-
-Après un été marqué par la chaleur, un changement de régime majeur s'annonce pour la région. Cette semaine sera marquée par un **net refroidissement**, un **retour de l'humidité** et un **risque orageux** à ne pas négliger, particulièrement pour **jeudi 27 août**.
-
-**Points clés :**
-- **Lundi/Mardi** : Frais et humide, pluies éparses.
-- **Mercredi** : Pic de chaleur avant l'arrivée des orages.
-- **Jeudi** : ⛈️ Forte dégradation orageuse, risque de grêle et de rafales.
-- **Vendredi & Week-end** : Temps plus frais, averses, vent de Sud-Ouest.
-
-Pour la semaine suivante, les tendances divergent. Le début de semaine reste instable, mais un possible **retour d'un temps plus sec** est attendu à partir de jeudi, avec des températures de saison.
-
-**A surveiller de près :** L'évolution des modèles pour affiner l'intensité des orages et la trajectoire des dépressions en début de semaine prochaine. Restez prudents et informés ! 🛰️
-
-#Météo #HautsDeFrance #Prévisions #Orages #ChangementDeTemps #Climat #Lille #Amiens #Beauvais #Laon #Arras
-
-###.
+Dernier bulletin HDF généré le Mardi 25 Août 2026.
+Résumé général HDF précédent : Après un pic de chaleur, la région bascule dans un temps plus frais et perturbé. Un net refroidissement est attendu en fin de semaine 1. La semaine 2 reste très indécise, partagée entre un maintien du temps humide et un possible retour de l'anticyclone. Les températures redeviendront de saison..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Températures de saison, ressenti plus frais et humide en début de semaine. Pic de chaleur relatif mercredi et jeudi avant un retour à la normale.
-
-### [W1_MODEL_AFFECTED_ZONES]
-Toute la région est concernée, avec un risque de phénomènes plus marqués sur les terres (Oise, Aisne, Somme) que sur le littoral.
-
-### [W1_MODEL_EXTRACTION_CONF] Élevée
-
-### [W1_MODEL_SCENARIO_SUPPORT]
-Le scénario est soutenu par une majorité de membres (75%) pour la dégradation de fin de semaine, mais avec une forte incertitude sur les détails.
-
-### [W1_MODEL_STATUS] Actif et sous surveillance
-
-### [W1_MODEL_MENTIONS_COUNT] 15 mentions dans les discussions
-
-### [W1_MODEL_RUN] Run de 12h UTC du 24/08/2026
-
-### [W1_MODEL_TIMING]
-Dégradation orageuse significative à partir de la nuit de mercredi à jeudi, se poursuivant jusqu'à vendredi.
-
-### [W1_MODEL_DETAILS]
-Prévision d'un risque de fortes rafales de vent et de grêle lors des orages de jeudi, conformément aux alertes nationales.
-
-###.
+Températures attendues précédemment : Temps devenant plus frais et humide, avec un pic de chaleur relatif mercredi avant l'arrivée des orages. Vent de Sud-Ouest modéré à assez fort sur les côtes en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===

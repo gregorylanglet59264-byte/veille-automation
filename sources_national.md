@@ -332,21 +332,22 @@ A partir de samedi, le temps sera beaucoup moins agité.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Temps en Italie (depuis 2017)
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Lundi 24 Août 2026.
-Résumé général précédent : Après une semaine 1 marquée par une séquence chaude et orageuse, un net rafraîchissement est attendu en fin de semaine. La semaine 2 s'annonce plus incertaine, sans signal dominant, avec des températures proches des normales et un risque de sécheresse persistant..
+Dernier bulletin généré le Mardi 25 Août 2026.
+Résumé général précédent : La fin d’août et la première semaine de septembre se caractérisent par une sortie progressive d’une atmosphère très continentale vers un régime modéré d’altitude.,.
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps chaud et lourd jusqu'à mercredi, puis orages parfois forts jeudi, suivis d'un rafraîchissement avec des averses résiduelles. (max 120 caractères).
+Températures attendues précédemment : Orages supercellulaires localement sévères, grêle possible, rafales destructrices en plaine et orage du Sud-Ouest vers Rhône-Alpes..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===
