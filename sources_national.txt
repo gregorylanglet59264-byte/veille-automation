@@ -320,12 +320,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 25/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -333,9 +333,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 25 Août 2026.
-Résumé général précédent : Sur les 15 prochains jours, la France va passer d'un régime orageux à un temps plus contrasté, avec un retour probable de la chaleur dans le sud et une incertitude sur le nord..
+Résumé général précédent : Après une semaine chaude et orageuse autour du 26-27, la France passe à un régime où les températures reviennent vers les normales de fin aoçt au nord et demeurent nu reproductive sur le sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages parfois violents, grêle, vents forts, puis rafraîchissement net à partir de vendredi. (110 caractères).
+Températures attendues précédemment : Traitement de l’excès orageux, fortes rafales Est–Sud, possibilités de grêle > 3 cm..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 25 au Dimanche 30 Août 2026) ===
@@ -530,7 +530,7 @@ Autant le dire tout de suite, on n'en a pas fini avec les risques convectifs ave
 Auteur: Membre
 Message:
 BIM spécial concernant les plusieurs salves orageuses attendues entre demain mercredi et jeudi -&gt; https://www.infoclimat.fr/actualites/bim/14083/orages-parfois-violents-attendus-les-26-et-27-ao-atilde-raquot-en-france.html
-								4
+								5
 								7
 
 =======================
@@ -540,7 +540,7 @@ Message:
 Il y a 21 heures, Nico 14 a dit :
 			Autant le dire tout de suite, on n'en a pas fini avec les risques convectifs avec l'arrivée d'un nouveau talweg d'altitude déjà mercredi par l'ouest, et jeudi s'annonce aussi déjà sous le signe d'une dégradation marquée et plutôt généralisée, avec encore tous les risques convectifs présents. Celui de grêle &gt; à 5 cm est même déjà étendu.
 	Si l'on s'en tiens strictement aux modèles (sans pousser dans la fine analyse plus que ça) les secteurs les plus durement concernés lundi pourraient, toute proportion gardé, être les plus épargnés par la dégradation suivante
-								2
+								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: tao
@@ -551,7 +551,7 @@ Bonsoir,
 	Si cette question peut sembler assez clairs à l'aide d'une moyenne, au niveau déterministe, cela devrait s'avérer plus complexe tant les scénarios apparaissent variés, voire très différents en terme de circulation atmosphérique ce qui devrait promettre quelques débats en fonction des actualisations:
 	Si l'humidité était vraiment de retour, ce serait déjà une information importante, c'est possible car le potentiel de blocage semble bien marquer le pas en cette fin d'été début d'automne.
 	Modifié dimanche à 19:57 par tao
-								16
+								17
 								1
 
 =======================
@@ -577,3 +577,4 @@ Auteur: Twister83
 Message:
 Les diagrammes pour les régions méditerranéennes pour le début de "l'automne" météorologique sont plus que estival.
 	Aucune porte de sortie visible sur le long terme, c'est verrouillé de chez verrouillé.
+								1
