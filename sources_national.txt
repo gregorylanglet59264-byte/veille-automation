@@ -125,40 +125,41 @@ Températures minimales : identiques à la veille.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 26/08/2026 16:45
+Emis le : 26/08/2026 22:23
 
 Vigilance :
-Attention, aujourd'hui et demain, le département de la Gironde est en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui, le département de la Gironde est en vigilance orange pour le phénomène orages. Demain, il sera en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Bordeaux : température de 34 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 40 km/h, pression niveau mer 1006 hPa.
-Au Cap-Ferret : température de 32 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h.
-A Libourne : température de 34 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 35 km/h.
+Aujourd'hui on observait à 22h :
+A Bordeaux : température de 26 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 40 km/h, pression niveau mer 1005 hPa.
+Au Cap-Ferret : température de 18 degrés, vent de secteur Ouest soufflant jusqu'à 85 km/h.
+A Libourne : température de 28 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 30 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-En début de nuit, des averses peuvent se déclencher. Des orages éclatent sur le Médoc et le Blayais ainsi que sur la moitié Sud-Est du département. Ils sont localement accompagnés de chutes de grêlons. En seconde partie de nuit, des averses sont encore possibles, mais moins fréquentes.
-Vent variable, généralement modéré, la nuit ; puis atténuation. Rafales atteignant 65 km/h localement.
+En début de nuit, des averses peuvent se déclencher. Des orages éclatent. Ils sont localement accompagnés de chutes de grêlons. En seconde partie de nuit, des averses sont encore possibles, mais moins fréquentes.
+On prévoit au maximum jusqu'à 5 millimètres de pluie sur le Libournais.
+Vent localement modéré, en première partie de nuit. Après une atténuation, reprise au lever du jour, sur le littoral. Rafales atteignant 65 km/h, localement, en début de nuit.
 Températures minimales : de 16 à 19 degrés.
 
 • Pour demain jeudi 27 en journée et la nuit suivante :
-En début de journée, les nuages sont nombreux, et des éclaircies se forment progressivement en cours de matinée. Ensuite, le ciel se voile l'après-midi, mais les nuages élevés n'altèrent pas l'impression de beau temps. Pour la nuit : Nuages et éclaircies se partagent le ciel. En début de nuit, sur le bord de mer, des averses sont possibles. Elles peuvent même être orageuses sur le bord de mer. Puis le temps sec se généralise, avec de belles éclaircies.
-En fin de nuit, vent d'Ouest à Sud-Ouest assez fort, sur le littoral.
-Températures maximales pour le jour : comprises entre 27 et 30 degrés, et 26 degrés sur le littoral.
+Le soleil prédomine toute la journée, avec seulement quelques nuages dans le ciel. Quelques averses sont toutefois possibles en matinée, sur le Médoc et le Blayais. Pour la nuit : La nuit se passe sous un ciel chargé. Des orages peuvent éclater, sur l'Entre-Deux-Mers ainsi que sur le Nord-Ouest du département. Après minuit, le risque orageux s'estompe, mais ce n'est que temporaire.
+En fin de nuit, vent d'Ouest à Sud-Ouest assez fort, sur le littoral. Avec des rafales atteignant 65 km/h.
+Températures maximales pour le jour : entre 26 et 29 degrés.
 Températures minimales pour la nuit suivante : entre 15 et 18 degrés.
 
 • Pour la journée de vendredi 28 et la nuit suivante :
 Le soleil s'installe en général pour la journée. Il faut toutefois attendre, sur le littoral, que les quelques rares averses, possibles en début de journée, cessent. Pour la nuit : C'est un ciel étoilé qui s'impose largement. Seules de petites averses tombent, sur le bord de mer, en seconde partie de nuit.
 Vent d'Ouest-Sud-Ouest assez fort, sur le littoral, s'atténuant temporairement en milieu de période.
-Températures maximales pour le jour : comprises entre 24 et 27 degrés, et 22 degrés sur le littoral.
-Températures minimales pour la nuit suivante : entre 15 et 18 degrés, et 21 degrés sur le littoral.
+Températures maximales pour le jour : de 24 à 27 degrés, et 22 degrés sur le littoral.
+Températures minimales pour la nuit suivante : comprises entre 15 et 18 degrés, et 21 degrés sur le littoral.
 
 • Pour la journée de samedi 29 :
 La journée s'annonce très ensoleillée, malgré quelques nuages passagers, totalement inoffensifs, présents le matin, sur l'agglomération bordelaise.
 Vent d'Ouest à Sud-Ouest, généralement modéré.
-Températures maximales : comprises entre 26 et 29 degrés, et 22 degrés sur le littoral.
+Températures maximales : de 26 à 29 degrés, et 22 degrés sur le littoral.
 
 • Pour dimanche 30 et lundi 31 :
 Soleil entrecoupé de quelques passages nuageux. Risque de brume localement jusqu'au petit matin de dimanche, risque de pluie ou d'averses de dimanche à la mi-journée jusqu'au lendemain en fin de journée.
@@ -297,10 +298,16 @@ FQCT40 LFML 261630 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
+J+2 et J+3 ﻿Vendredi, des fortes pluies pouvant être accompagnées 
+d'orages violents concernent le centre-est et le sud-est du 
+pays. Le risque de fortes précipitations est plus marqué du 
+sud de la Franche-Comté à la région Rhône-Alpes.
+En Corse, le risque de canicule persiste vendredi, voire 
+samedi.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
+De J+4 à J+7 ﻿À ce stade, le risque de passage en vigilance orange est 
+quasi nul pour la période.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -312,12 +319,12 @@ Baisse progressive des températures par l'ouest et le nord. Maintien d'un risqu
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Prévisions Massif Central - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 26/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -325,20 +332,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 26 Août 2026.
-Résumé général précédent : Après une première partie de semaine fortement orageuse et un net refroidissement, la tendance s'inverse radicalement avec le retour d'une masse d'air très chaude et sèche. La France se retrouve sous l'influence d'un puissant anticyclone, avec une vague de chaleur probable sur le sud et un déficit pluviométrique qui s'aggrave..
+Résumé général précédent : Après une séquence orageuse très active en fin août, un retour à un régime de chaleur sèche et anticyclonique s'installe pour la première semaine de septembre, avec des températures nettement au-dessus des normales..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps chaud et lourd avant les orages, puis net refroidissement. Les orages peuvent être localement violents avec grêle et rafales..
+Températures attendues précédemment : Risque de supercellules, grêle >5cm, rafales >110 km/h, tornades non exclues..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 26 au Dimanche 30 Août 2026) ===
-Auteur: symaski62
-Message:
-Il y a 13 heures, symaski62 a dit :
-			lundi  24  +66 heures  +2 jours    53  mm pluie   
-	La sécheresse sera vite un mauvais souvenir pour la Corrèze, c'est bon !
-
-=======================
-
 Auteur: Nono34
 Message:
 il y a 45 minutes, greghouse33 a dit :
@@ -508,7 +507,7 @@ Il y a 21 heures, Nico 14 a dit :
 
 =======================
 
-Auteur: Membre
+Auteur: Nico 14
 Message:
 https://www.keraunos.org/previsions/prevision-orage-tornade-france-convective-outlook.html
 	&lt;2%   tornade    très faible   voilà
@@ -520,7 +519,7 @@ Auteur: Membre
 Message:
 Pour demain, une nouvelle fois sur un axe qui partira globalement du SO du MC au NE du pays,on a une combinaison encore une fois d'instabilité/cisaillement profond et même en surface d'un très haut niveau,associé à des niveaux de SRH élevés.Par conséquent les modèles réagissent sur tous les risques convectifs dans cet environnement très favorable aux orages supercellulaires. Le risque de grêle &gt; à 5 cm est très étendu sur le pays mais aussi de rafales &gt; à 110km/h et celui de tornades et non négligeable également.
 	ASTORP résume tout cela,c'est aussi visible sur les SCP et RS.
-	Modifié il y a 10 heures par Nico 14
+	Modifié il y a 12 heures par Nico 14
 								3
 
 =======================
@@ -528,6 +527,21 @@ Pour demain, une nouvelle fois sur un axe qui partira globalement du SO du MC au
 Auteur: Membre
 Message:
 Bulletin Estofex ce soir,encore une fois vu l'environnement il y aura au moins un niveau 2 de sortie et je pense que le 3 pourrait l’être également sur une partie de la zone décrite ci dessus.
+								2
+
+=======================
+
+Auteur: Membre
+Message:
+Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez étendu sur le territoire pour demain jeudi:
+		Citation
+			A level 3 was issued across SE/E France for large to very large hail, severe wind gusts, heavy rainfall and [strong] tornadoes.
+			A level 2 was issued from S France towards Switzerland mainly for large to very large hail, severe wind gusts and tornadoes.
+	https://www.estofex.org/
+	Edit,je cite Tomas Pucik sur X:
+		Citation
+			Prévisions pour demain [jeudi]. En savoir plus sur https://estofex.org. Remarque à part : Ceci n'est pas un avertissement météorologique officiel ! Il s'agit d'un produit d'orientation destiné en particulier aux météorologues opérationnels. La situation demain pourrait être différente de celle de ce soir. Soyez-en conscient.
+	Modifié il y a 27 minutes par Nico 14
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -549,7 +563,7 @@ effectivement une nouvelle VDC dans le sud  à l'horizon ?
 Auteur: cédric du Lot
 Message:
 En tout cas pour le sud du pays on a déjà plus la question a se poser, les tous premiers jours de septembre feront illusions puis la chaleur et le sec feront leur retour, quasiment aucune dispersion des diagrammes  si ce n'est éventuellement une direction vers la forte chaleur dés la fin de cette échéance ou la suivante...
-	Modifié il y a 9 heures par cédric du Lot
+	Modifié il y a 11 heures par cédric du Lot
 								3
 								1
 								1
@@ -573,6 +587,7 @@ Il y a 1 heure, greghouse33 a dit :
 	En 2022 le baroud d'honneur avait même traîné pendant tout le mois d'octobre 😅
 								1
 								1
+								1
 
 =======================
 
@@ -581,7 +596,7 @@ Message:
 il y a 24 minutes, MidiPy a dit :
 			En 2022 le baroud d'honneur avait même traîné pendant tout le mois d'octobre 😅
 	Oui. Et après dans l'Ouest, nous avons eu un automne bien pluvieux avec plusieurs tempêtes.
-								1
+								2
 
 =======================
 
@@ -602,9 +617,9 @@ il y a 14 minutes, Tornado75 a dit :
 	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
 	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
 	Une année à mettre aux oubliettes. 
-	Modifié il y a 7 heures par Nicolas L
+	Modifié il y a 9 heures par Nicolas L
 								2
-								1
+								2
 
 =======================
 
@@ -619,7 +634,7 @@ il y a 48 minutes, Tornado75 a dit :
 	Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
 	Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
 								5
-								1
+								2
 
 =======================
 
@@ -630,7 +645,7 @@ il y a 14 minutes, edel a dit :
 			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
 			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
 	Septembre 2023 Montsouris. 
-								5
+								6
 								2
 								1
 
@@ -646,9 +661,9 @@ Il y a 2 heures, edel a dit :
 	En revanche, oui, les températures moyennes globales et de l'après-midi sont inférieures à celles de juin. Mais vu où juin 2026 a mis la barre...
 	Enfin, s'agissant de températures à l'ombre, le fait qu'il y ait plus d'ombre rend en principe un 35 de septembre moins chaud qu'en juin.
 	Le gros suspense c'est : est-ce que entre deux anticyclones en relais, il va parvenir à pleuvoir, et autre chose que des rivières de grêle et autres catastrophes? A priori la réponse est non. 
-	Modifié il y a 4 heures par bruno50
+	Modifié il y a 6 heures par bruno50
 								1
-								1
+								2
 
 =======================
 
@@ -658,7 +673,7 @@ Je comprends les émois à la vue des déterministes, et de la dynamique des pr�
 	- Les nuits plus longues limiteront les fortes chaleurs : un 20°C à 850hPa en septembre sous régime anticyclonique avec peu de nuage, vent et un rayonnement thermique non contraint donc permettra des baisses de températures significatives au sol.
 	- Les ensembles sont encore assez dispersés on passe d'anomalie de T850 hPa de +2°C à des anomalies de proche de +12°C selon les scénarios. Il y a toutefois un glissement depuis qq runs vers les scénarios les plus chaud, on est d'accord.
 	Ce qui semble plutôt se dessiner c'est un coup de chaud, assez intense à partir de vendredi, et s'étendant sur le weekend. La suite est hors topic et vraiment incertaine. Je ne crois pas que la semaine en question soit placée sous le signe de la chaleur, à l'échelle de la France. Le weekend oui, surtout en journée. En revanche, je pense qu'on est tous d'accord sur l'aspect sec, surtout en deuxième partie de semaine.
-								4
+								5
 
 =======================
 
@@ -672,14 +687,14 @@ il y a 54 minutes, edel a dit :
 	Oui à mon avis, c'est une question de temps pour avoir 37 à paris en septembre, ça pourrait même être cette année.
 	Alors évidemment ça monterait moins dans les appart qu'en août...
 	Bon à suivre notre situ, c'est surtout le contraste avec la situ actuelle qui est net, car finalement on retrouve les config type oméga du 10 août, et qui nous bercent depuis mai avec des effets variables au sol selon l'origine du flux 
-	Modifié il y a 5 heures par edd
+	Modifié il y a 7 heures par edd
 
 =======================
 
 Auteur: jt75
 Message:
 Pour l’extrême sud est en PACA, la messe est dite, exemple pour Cogolin ( Var) à 5 km de la mer, les diagrammes, Gfs Aifs, Cep montrent entre 4 et 8 degrés au dessus des normes de maintenant jusqu’au x septembre …
-								1
+								2
 
 =======================
 
@@ -696,7 +711,7 @@ Bonjour,
 	Après effectivement, les nuits sont plus longues : le soleil frappe donc moins longtemps les habitations et il est plus bas sur l'horizon, traverse une couche atmosphérique plus importante et donc apporte moins d'énergie mais, malgré tout, c'est amplement suffisant pour être très déplaisant. Si le ciel est dégagé, ça jouera sur les matinales, s'il est couvert, ça fera étuve.
 	C'est d'autant plus inquiétant que côté PP, dans mon coin, par exemple, je n'ai pour l'instant eu que 4,4mm pour tout le mois d'août.
 	Je suis vraiment impatient que cet été se termine ... comme tout le monde mais ce qui m'ennuie c'est que les prévisions évoluent toujours vers le pire scénario. La semaine du topic devait être humide et finalement ...
-								1
+								2
 
 =======================
 
@@ -711,7 +726,7 @@ Il y a 2 heures, Jojobarbar a dit :
 	le refroidissement nocturne marchera bien dans les zones de campagnes mais je suis plus perplexe dans les zones urbanisées comme Lyon, Grenoble, Paris Centre, Toulouse Centre.
 	Avec une T850 &gt; 18°C sur Toulouse en septembre n'est franchement pas une nouvelle rassurante... les citadins risquent d'avoir encore bien chaud la nuit... et je ne parle même pas des salles de classes qui ont surchauffé durant les mois de juillet et Août. Les fenêtres de salles de classe sont restées fermer depuis la fin du mois de juin.
 	J'imagine l'ambiance "sauna" que des professeurs vont découvrir la semaine prochaine dans le Sud de la France
-								5
+								8
 
 =======================
 
@@ -722,15 +737,16 @@ Il y a 3 heures, edel a dit :
 			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
 			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
 	On arrive rarement à descendre sous les 20 degrés depuis juin la nuit même avec des nuits plus longues. L'inertie est dingue et ça devient vraiment vraiment vraiment loooooong. D'ailleurs le nombre de Tn tropicales est ahurissant cette année (déjà 44 à Blagnac, en ville probablement plus de 50).
-								1
-								1
 								2
+								1
+								5
 
 =======================
 
 Auteur: vda77
 Message:
 Si un " un coup de chaud" arrive mi mai alors pourquoi pas un début septembre ( ce qui est déjà arrivé dans les années passées) avec les masses d'aires qu'il y a au sud de notre pays. C'est la même chose pour début mars, si on inverse les saisons ( même si à notre époque, cela devient plus rare ), les " coup de froid " sont possibles.
+								1
 
 =======================
 
@@ -742,7 +758,8 @@ il y a 45 minutes, vda77 a dit :
 	Ca veut dire qu'il fait plus chaud en France le 5 septembre que le 15 juin, et il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin. En septembre 2023 on est passé à un cheveu de la vague de chaleur, ça arrivera bien un jour.
 	Pour cette année, il faudrait vraiment que ça se consolide, ce qui n'est pas forcément acquis (GFS 12).
 	Mi mai dans le climat "d'avant' il pouvait geler sur presque tout le territoire hors côte.
-	Modifié il y a 2 heures par th38
+	Modifié il y a 4 heures par th38
+								2
 
 =======================
 
