@@ -297,16 +297,10 @@ FQCT40 LFML 261630 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Vendredi, des fortes pluies pouvant être accompagnées 
-d'orages violents concernent le centre-est et le sud-est du 
-pays. Le risque de fortes précipitations est plus marqué du 
-sud de la Franche-Comté à la région Rhône-Alpes.
-En Corse, le risque de canicule persiste vendredi, voire 
-samedi.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿À ce stade, le risque de passage en vigilance orange est 
-quasi nul pour la période.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -318,12 +312,12 @@ quasi nul pour la période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 26/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +325,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 26 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Après une première partie de semaine fortement orageuse et un net refroidissement, la tendance s'inverse radicalement avec le retour d'une masse d'air très chaude et sèche. La France se retrouve sous l'influence d'un puissant anticyclone, avec une vague de chaleur probable sur le sud et un déficit pluviométrique qui s'aggrave..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Temps chaud et lourd avant les orages, puis net refroidissement. Les orages peuvent être localement violents avec grêle et rafales..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 26 au Dimanche 30 Août 2026) ===
@@ -526,7 +520,7 @@ Auteur: Membre
 Message:
 Pour demain, une nouvelle fois sur un axe qui partira globalement du SO du MC au NE du pays,on a une combinaison encore une fois d'instabilité/cisaillement profond et même en surface d'un très haut niveau,associé à des niveaux de SRH élevés.Par conséquent les modèles réagissent sur tous les risques convectifs dans cet environnement très favorable aux orages supercellulaires. Le risque de grêle &gt; à 5 cm est très étendu sur le pays mais aussi de rafales &gt; à 110km/h et celui de tornades et non négligeable également.
 	ASTORP résume tout cela,c'est aussi visible sur les SCP et RS.
-	Modifié il y a 8 heures par Nico 14
+	Modifié il y a 10 heures par Nico 14
 								3
 
 =======================
@@ -555,7 +549,7 @@ effectivement une nouvelle VDC dans le sud  à l'horizon ?
 Auteur: cédric du Lot
 Message:
 En tout cas pour le sud du pays on a déjà plus la question a se poser, les tous premiers jours de septembre feront illusions puis la chaleur et le sec feront leur retour, quasiment aucune dispersion des diagrammes  si ce n'est éventuellement une direction vers la forte chaleur dés la fin de cette échéance ou la suivante...
-	Modifié il y a 7 heures par cédric du Lot
+	Modifié il y a 9 heures par cédric du Lot
 								3
 								1
 								1
@@ -565,7 +559,7 @@ En tout cas pour le sud du pays on a déjà plus la question a se poser, les tou
 Auteur: clem11
 Message:
 Y’en a marre. (Désolé mais ça vient du cœur)
-								4
+								5
 								1
 								1
 								11
@@ -608,7 +602,7 @@ il y a 14 minutes, Tornado75 a dit :
 	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
 	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
 	Une année à mettre aux oubliettes. 
-	Modifié il y a 5 heures par Nicolas L
+	Modifié il y a 7 heures par Nicolas L
 								2
 								1
 
@@ -652,7 +646,7 @@ Il y a 2 heures, edel a dit :
 	En revanche, oui, les températures moyennes globales et de l'après-midi sont inférieures à celles de juin. Mais vu où juin 2026 a mis la barre...
 	Enfin, s'agissant de températures à l'ombre, le fait qu'il y ait plus d'ombre rend en principe un 35 de septembre moins chaud qu'en juin.
 	Le gros suspense c'est : est-ce que entre deux anticyclones en relais, il va parvenir à pleuvoir, et autre chose que des rivières de grêle et autres catastrophes? A priori la réponse est non. 
-	Modifié il y a 2 heures par bruno50
+	Modifié il y a 4 heures par bruno50
 								1
 								1
 
@@ -678,7 +672,7 @@ il y a 54 minutes, edel a dit :
 	Oui à mon avis, c'est une question de temps pour avoir 37 à paris en septembre, ça pourrait même être cette année.
 	Alors évidemment ça monterait moins dans les appart qu'en août...
 	Bon à suivre notre situ, c'est surtout le contraste avec la situ actuelle qui est net, car finalement on retrouve les config type oméga du 10 août, et qui nous bercent depuis mai avec des effets variables au sol selon l'origine du flux 
-	Modifié il y a 3 heures par edd
+	Modifié il y a 5 heures par edd
 
 =======================
 
@@ -748,7 +742,7 @@ il y a 45 minutes, vda77 a dit :
 	Ca veut dire qu'il fait plus chaud en France le 5 septembre que le 15 juin, et il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin. En septembre 2023 on est passé à un cheveu de la vague de chaleur, ça arrivera bien un jour.
 	Pour cette année, il faudrait vraiment que ça se consolide, ce qui n'est pas forcément acquis (GFS 12).
 	Mi mai dans le climat "d'avant' il pouvait geler sur presque tout le territoire hors côte.
-	Modifié il y a 6 minutes par th38
+	Modifié il y a 2 heures par th38
 
 =======================
 
@@ -756,4 +750,5 @@ Auteur: TornadeScintillante
 Message:
 il y a 10 minutes, th38 a dit :
 			il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin
-	Je ne suis pas sûr de cette affirmation. La variabilité est probablement plus forte en juin qu'en septembre.
+	Je ne suis pas sûr de cette affirmation. La variabilité est probablement plus forte en juin qu'en septembre. 
+								4
