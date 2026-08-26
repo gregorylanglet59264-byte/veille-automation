@@ -336,9 +336,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 26 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : **Forte dégradation orageuse en fin de semaine 1** avec un net rafraîchissement vendredi 28 août. La semaine 2 s'annonce plus fraîche et instable en début de période, avec une amélioration possible à partir de mercredi 3 septembre. Une remontée de chaleur par le sud est toutefois envisagée par certains modèles pour le week-end du 5-6 septembre, mais la fiabilité est faible à cette échéance..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Temps chaud et orageux en début de période (27-30°C), puis rafraîchissement net avec 20-22°C vendredi, et stabilisation autour de 22-24°C le week-end..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 26 au Dimanche 30 Août 2026) ===
@@ -625,5 +625,5 @@ Pour le moment niveau température c'est assez éclaté et conforme à une NAO+ 
 	Niveau précipitations, retour à du famélique, bien que je ne fermerai pas la porte à des ondulations favorables pour la moitié nord ça et là (mais qui ne sont pour le moment pas d'actualité).
 	Certains scénarios sont très chauds. Cela semble notamment se jouer autour de lundi 31, au sortir de Terre Neuve : si le creux est éjecté de la circulation général, il courbe le jet qui casse et produit une ondulation défavorable pour la France (chaud). Si le creux poursuit sa route et interagit avec les dépressions Groenlandaises, les températures resteront telle que décrites dans la première partie de mon message.
 	A ce jour, côté déterministes, et pour une échéance à lundi 31, seul UKMO penche pour un scénario de creux qui éjecté (donc chaud par la suite sur une large partie du pays). Les autres déterministes sont pour le moment, en accord sur une situation intermédiaire avec un creux qui rejoint in-extremis la circulation générale. A confirmer avec les prochaines sorties, on pourrait être assez vite fixé.
-	Modifié il y a 3 heures par Jojobarbar
-								1
+	Modifié il y a 5 heures par Jojobarbar
+								3

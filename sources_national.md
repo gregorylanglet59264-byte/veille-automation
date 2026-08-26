@@ -332,9 +332,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 26 Août 2026.
-Résumé général précédent : Après une première semaine chaude et orageuse, un net rafraîchissement temporaire est attendu, avant un probable regain de chaleur par le sud début septembre..
+Résumé général précédent : Après une semaine marquée par une dégradation orageuse et un rafraîchissement temporaire, une remontée progressive des températures est attendue, avec un temps sec et chaud prédominant sur la moitié sud en début septembre. Le nord pourrait rester sous influence océanique plus fraîche..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafales potentiellement destructrices, grêle probable, averses orageuses localisées..
+Températures attendues précédemment : Orages localement forts, grêle, rafales ; rafraîchissement après jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 26 au Dimanche 30 Août 2026) ===
@@ -621,5 +621,5 @@ Pour le moment niveau température c'est assez éclaté et conforme à une NAO+ 
 	Niveau précipitations, retour à du famélique, bien que je ne fermerai pas la porte à des ondulations favorables pour la moitié nord ça et là (mais qui ne sont pour le moment pas d'actualité).
 	Certains scénarios sont très chauds. Cela semble notamment se jouer autour de lundi 31, au sortir de Terre Neuve : si le creux est éjecté de la circulation général, il courbe le jet qui casse et produit une ondulation défavorable pour la France (chaud). Si le creux poursuit sa route et interagit avec les dépressions Groenlandaises, les températures resteront telle que décrites dans la première partie de mon message.
 	A ce jour, côté déterministes, et pour une échéance à lundi 31, seul UKMO penche pour un scénario de creux qui éjecté (donc chaud par la suite sur une large partie du pays). Les autres déterministes sont pour le moment, en accord sur une situation intermédiaire avec un creux qui rejoint in-extremis la circulation générale. A confirmer avec les prochaines sorties, on pourrait être assez vite fixé.
-	Modifié il y a 3 heures par Jojobarbar
-								1
+	Modifié il y a 5 heures par Jojobarbar
+								3
