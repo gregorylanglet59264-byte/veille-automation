@@ -1,6 +1,6 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
-**Généré le :** Mardi 25 Août 2026
-**Période :** Semaine 1 (Du Mardi 25 au Dimanche 30 Août 2026) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
+**Généré le :** Mercredi 26 Août 2026
+**Période :** Semaine 1 (Du Mercredi 26 au Dimanche 30 Août 2026) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
@@ -11,7 +11,7 @@
 - **Stabilité des cartes/scénarios :** 6 / 73 — *6 cartes analysées*
 - **Niveau d'incertitude global :** Timing — *Transition thermique*
 
-## 🗓️ SEMAINE 1 : Du Mardi 25 au Dimanche 30 Août 2026
+## 🗓️ SEMAINE 1 : Du Mercredi 26 au Dimanche 30 Août 2026
 ### 💡 Points clés de la semaine 1
 
 ### 🤝 Modèles et scénarios (Semaine 1)
