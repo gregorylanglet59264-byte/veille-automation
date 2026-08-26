@@ -291,7 +291,7 @@ Températures minimales : sans changement significatif.
 Températures maximales : en hausse sur les trois quarts Sud du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 260940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 26 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 26 août 2026 à 06H00 UTC, et évolution Dépression 1003 hPa sur le Proche Atlantique, prévue 1000 hPa à 200 milles au nord de La Corogne la nuit, puis 1003 hPa au sud immédiat de l'Irlande demain en milieu de journée. Thalweg associé balayant le golfe de Gascogne et la Manche par le sud en fin d'après-midi et nuit prochaine. Orages et fortes rafales associés. 3 - Prévisions pour l'après-midi du mercredi 26 août VENT : Variable 2 à 4, s'orientant Nord à Nord-Est 3 à 4. MER : belle à peu agitée. HOULE : non significative. TEMPS : ciel nuageux devenant très nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 26 août au jeudi 27 août VENT : virant Est 3 à 4 en soirée, virant Sud 5 à 6 en deuxième partie de nuit. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord en fin de nuit. TEMPS : voilé, averses orageuses en fin de nuit. VISIBILITE : bonne, puis mauvaise sous orages. 5 - Prévisions pour la journée du jeudi 27 août VENT : Sud à Sud-Est 3 à 4, virant Sud-Ouest en milieu de journée, parfois 5 en mer du Nord. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord. TEMPS : nuageux, averses et orages le matin et en fin de journée. VISIBILITE : bonne, localement mauvaise sous orages. 6 - Prévisions pour la nuit du 27 au 28 et la journée du vendredi 28 août VENT : Sud à Sud-Ouest 3 à 4, fraîchissant 4 à 5 en toute fin de nuit puis 5 à 6 le matin avec menace de grand frais l'après-midi. Rafales. MER : peu agitée, devenant agitée à la mi-journée. HOULE : non significative. TEMPS : averses parfois orageuses la nuit, pluie en journée. VISIBILITE : mauvaise sous précipitations. 7 - Prévisions pour la nuit du 28 au 29 et la journée du samedi 29 août VENT : Sud-Ouest 7 mollissant 5 à 6 en début de nuit. Rafales. MER : agitée, devenant temporairement forte en début de nuit en Manche. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en seconde partie de nuit. 8 - Tendance pour les jours suivants Dimanche 30 août Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Lundi 31 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Mardi 1 septembre Secteur Ouest modéré. Indice de confiance : 2 sur 5 Mercredi 2 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 2 sur 5 9 - Observations le mercredi 26 août 2026 à 09H00 UTC Dunkerque : vent Sud-Est 4 noeuds, 1014 hPa en hausse. Cap Gris Nez : vent Sud-Ouest 4 noeuds. Boulogne : vent Sud-Sud-Est 4 noeuds, 1014 hPa en hausse, clair ou peu nuageux, visibilité 11 milles. Prochain bulletin le mercredi 26 août 2026, vers 18H00 légales
+FQCT40 LFQQ 261620 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 26 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 26 août 2026 à 12H00 UTC, et évolution Dépression 1003 hPa 250 Nm au sud-ouest de l'Irlande quasi stationnaire. Talweg associé jusqu'au sud-ouest de la France remontant vers le nord de la France. Dépression orageuse 1004 hPa en fond de golfe de Gascogne se décalant vers le nord-est la nuit, prévue 1008 hPa sur le sud de la mer du Nord demain à la mi-journée. 3 - Prévisions pour la nuit du mercredi 26 août au jeudi 27 août VENT : virant Est 3 à 4 en soirée, virant Sud 5 à 6 en fin de nuit. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord en fin de nuit. TEMPS : voilé, averses orageuses par le sud en toute fin de nuit. VISIBILITE : bonne, puis mauvaise sous orages. 4 - Prévisions pour la journée du jeudi 27 août VENT : Sud à Sud-Est 3 à 4, virant Sud-Ouest en milieu de journée. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord. TEMPS : nuageux, averses et orages le matin et en fin de journée. VISIBILITE : bonne, localement mauvaise sous orages. 5 - Tendance pour la nuit du 27 au 28, et la journée du vendredi 28 août VENT : Sud-Ouest 3 à 4, fraîchissant 4 à 5 le matin puis 5 à 6 l'après-midi. Rafales. MER : peu agitée, devenant agitée en fin de journée. HOULE : non significative. TEMPS : averses parfois orageuses la nuit, pluie en journée. VISIBILITE : mauvaise sous précipitations. 6 - Prévisions pour la nuit du 28 au 29 et la journée du samedi 29 août VENT : Sud-Ouest 7 mollissant 5 à 6 en début de nuit. Rafales. MER : agitée, devenant temporairement forte en début de nuit en Manche. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en seconde partie de nuit. 7 - Tendance pour les jours suivants Dimanche 30 août Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Lundi 31 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Mardi 1 septembre Secteur Ouest modéré. Indice de confiance : 2 sur 5 Mercredi 2 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le mercredi 26 août 2026 à 15H00 UTC Dunkerque : vent Nord-Est 10 noeuds, 1013 hPa en baisse. Cap Gris Nez : vent Nord-Nord-Est 6 noeuds. Boulogne : vent Nord 6 noeuds, 1013 hPa en baisse, nuageux avec éclaircies, visibilité 6 milles. Prochain bulletin le jeudi 27 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -318,12 +318,12 @@ quasi nul pour la période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Prévisions en &#xCE;le-de-France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Incendies 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Déséquilibre ionique lié au vent d'autan
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 26/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 26 Août 2026.
-Résumé général HDF précédent : Après une dégradation orageuse le jeudi 27 août et un rafraîchissement temporaire jusqu'au 1er septembre, les modèles s'acheminent vers un retour d'un temps plus sec avec une hausse des températures en fin de première décade de septembre. L'intensité de ce réchauffement reste très incertaine pour les Hauts-de-France, le sud du pays étant nettement plus exposé..
+Résumé général HDF précédent : Après une dégradation orageuse marquée jeudi 27 août et un rafraîchissement temporaire, les Hauts-de-France devraient retrouver un temps plus sec et plus chaud en fin de semaine 2. L'intensité de ce réchauffement reste incertaine, mais la tendance à un temps anticyclonique se dessine nettement pour la première décade de septembre..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages parfois forts, rafales 65 km/h, cumuls 5 à 20 mm, températures maximales en baisse de 5 à 7°C vendredi..
+Températures attendues précédemment : Orages parfois forts jeudi après-midi et soirée, rafales 60-70 km/h, cumuls 10-20 mm localement..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 26 au Dimanche 30 Août 2026) ===
@@ -526,7 +526,7 @@ Auteur: Membre
 Message:
 Pour demain, une nouvelle fois sur un axe qui partira globalement du SO du MC au NE du pays,on a une combinaison encore une fois d'instabilité/cisaillement profond et même en surface d'un très haut niveau,associé à des niveaux de SRH élevés.Par conséquent les modèles réagissent sur tous les risques convectifs dans cet environnement très favorable aux orages supercellulaires. Le risque de grêle &gt; à 5 cm est très étendu sur le pays mais aussi de rafales &gt; à 110km/h et celui de tornades et non négligeable également.
 	ASTORP résume tout cela,c'est aussi visible sur les SCP et RS.
-	Modifié il y a 6 heures par Nico 14
+	Modifié il y a 8 heures par Nico 14
 								3
 
 =======================
@@ -537,61 +537,6 @@ Bulletin Estofex ce soir,encore une fois vu l'environnement il y aura au moins u
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Jojobarbar
-Message:
-Pour le moment niveau température c'est assez éclaté et conforme à une NAO+ haut perchée : dégradé nord sud, nord proche des normes s'en écartant +/- des normales au gré des ondulations, et sud + chaud que la normale, sous l'influence ibérique plutôt qu'océanique.
-	Niveau précipitations, retour à du famélique, bien que je ne fermerai pas la porte à des ondulations favorables pour la moitié nord ça et là (mais qui ne sont pour le moment pas d'actualité).
-	Certains scénarios sont très chauds. Cela semble notamment se jouer autour de lundi 31, au sortir de Terre Neuve : si le creux est éjecté de la circulation général, il courbe le jet qui casse et produit une ondulation défavorable pour la France (chaud). Si le creux poursuit sa route et interagit avec les dépressions Groenlandaises, les températures resteront telle que décrites dans la première partie de mon message.
-	A ce jour, côté déterministes, et pour une échéance à lundi 31, seul UKMO penche pour un scénario de creux qui éjecté (donc chaud par la suite sur une large partie du pays). Les autres déterministes sont pour le moment, en accord sur une situation intermédiaire avec un creux qui rejoint in-extremis la circulation générale. A confirmer avec les prochaines sorties, on pourrait être assez vite fixé.
-	Modifié il y a 17 heures par Jojobarbar
-								8
-
-=======================
-
-Auteur: vda77
-Message:
-Bonsoir.
-	On semble, peut-être, se diriger vers une nouvelle hausse des températures en 2éme partie du topic avec un temps stable.
-	Ceci demande confirmation, mais avec l'été que l'on vient de connaître, je ne serais pas surpris d'avoir, une dernière fois, des températures largement hors normes.
-	Au plaisir de vous lire.
-								3
-								1
-
-=======================
-
-Auteur: bernardt60
-Message:
-il y a 15 minutes, vda77 a dit :
-			Bonsoir.
-			On semble, peut-être, se diriger vers une nouvelle hausse des températures en 2éme partie du topic avec un temps stable.
-			Ceci demande confirmation, mais avec l'été que l'on vient de connaître, je ne serais pas surpris d'avoir, une dernière fois, des températures largement hors normes.
-			Au plaisir de vous lire.
-	C'est effectivement la tendance qui semble se dessiner:
-	Mais je me garderais bien d'affirmer que ce serait la dernière fois que l'on aurait des températures largement hors nomes ! 
-								4
-
-=======================
-
-Auteur: greghouse33
-Message:
-Après un été apocalyptique, ce serait logique que les masses d'air sahariennes tentent un dernier baroud d'honneur et nous rappellent à leur bon souvenir durant la 1ère quinzaine de septembre. On serait dans l'esprit de 2022 et 2023 : des températures jadis considérées comme estivales en juillet/août qui s'installent désormais en septembre/octobre... 
-								3
-								1
-
-=======================
-
-Auteur: vda77
-Message:
-J'entendais par " largement hors normes", des températures qui font souffrir les plantes, les animaux et les humains ( par exemple : des personnes hospitalisés, ou des personnes travaillant à l'extérieur). Mais je te l'accorde, ma phrase a été mal tournée. Biensur que nous aurons d'autres températures hors normes d'ici l'été prochain, malheureusement.
-
-=======================
-
-Auteur: Plancher
-Message:
-Reste à savoir si cette potentielle remontée des températures sera durable ou temporaire.
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 effectivement une nouvelle VDC dans le sud  à l'horizon ?
@@ -610,8 +555,8 @@ effectivement une nouvelle VDC dans le sud  à l'horizon ?
 Auteur: cédric du Lot
 Message:
 En tout cas pour le sud du pays on a déjà plus la question a se poser, les tous premiers jours de septembre feront illusions puis la chaleur et le sec feront leur retour, quasiment aucune dispersion des diagrammes  si ce n'est éventuellement une direction vers la forte chaleur dés la fin de cette échéance ou la suivante...
-	Modifié il y a 5 heures par cédric du Lot
-								2
+	Modifié il y a 7 heures par cédric du Lot
+								3
 								1
 								1
 
@@ -621,6 +566,7 @@ Auteur: clem11
 Message:
 Y’en a marre. (Désolé mais ça vient du cœur)
 								4
+								1
 								1
 								11
 
@@ -649,6 +595,7 @@ Auteur: Tornado75
 Message:
 Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
 	Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
+								1
 
 =======================
 
@@ -661,7 +608,7 @@ il y a 14 minutes, Tornado75 a dit :
 	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
 	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
 	Une année à mettre aux oubliettes. 
-	Modifié il y a 3 heures par Nicolas L
+	Modifié il y a 5 heures par Nicolas L
 								2
 								1
 
@@ -677,7 +624,8 @@ il y a 48 minutes, Tornado75 a dit :
 			Y’en a marre. (Désolé mais ça vient du cœur)
 	Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
 	Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
-								4
+								5
+								1
 
 =======================
 
@@ -688,7 +636,8 @@ il y a 14 minutes, edel a dit :
 			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
 			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
 	Septembre 2023 Montsouris. 
-								4
+								5
+								2
 								1
 
 =======================
@@ -703,7 +652,8 @@ Il y a 2 heures, edel a dit :
 	En revanche, oui, les températures moyennes globales et de l'après-midi sont inférieures à celles de juin. Mais vu où juin 2026 a mis la barre...
 	Enfin, s'agissant de températures à l'ombre, le fait qu'il y ait plus d'ombre rend en principe un 35 de septembre moins chaud qu'en juin.
 	Le gros suspense c'est : est-ce que entre deux anticyclones en relais, il va parvenir à pleuvoir, et autre chose que des rivières de grêle et autres catastrophes? A priori la réponse est non. 
-	Modifié il y a 2 minutes par bruno50
+	Modifié il y a 2 heures par bruno50
+								1
 								1
 
 =======================
@@ -714,7 +664,7 @@ Je comprends les émois à la vue des déterministes, et de la dynamique des pr�
 	- Les nuits plus longues limiteront les fortes chaleurs : un 20°C à 850hPa en septembre sous régime anticyclonique avec peu de nuage, vent et un rayonnement thermique non contraint donc permettra des baisses de températures significatives au sol.
 	- Les ensembles sont encore assez dispersés on passe d'anomalie de T850 hPa de +2°C à des anomalies de proche de +12°C selon les scénarios. Il y a toutefois un glissement depuis qq runs vers les scénarios les plus chaud, on est d'accord.
 	Ce qui semble plutôt se dessiner c'est un coup de chaud, assez intense à partir de vendredi, et s'étendant sur le weekend. La suite est hors topic et vraiment incertaine. Je ne crois pas que la semaine en question soit placée sous le signe de la chaleur, à l'échelle de la France. Le weekend oui, surtout en journée. En revanche, je pense qu'on est tous d'accord sur l'aspect sec, surtout en deuxième partie de semaine.
-								3
+								4
 
 =======================
 
@@ -728,13 +678,31 @@ il y a 54 minutes, edel a dit :
 	Oui à mon avis, c'est une question de temps pour avoir 37 à paris en septembre, ça pourrait même être cette année.
 	Alors évidemment ça monterait moins dans les appart qu'en août...
 	Bon à suivre notre situ, c'est surtout le contraste avec la situ actuelle qui est net, car finalement on retrouve les config type oméga du 10 août, et qui nous bercent depuis mai avec des effets variables au sol selon l'origine du flux 
-	Modifié il y a 1 heure par edd
+	Modifié il y a 3 heures par edd
 
 =======================
 
 Auteur: jt75
 Message:
 Pour l’extrême sud est en PACA, la messe est dite, exemple pour Cogolin ( Var) à 5 km de la mer, les diagrammes, Gfs Aifs, Cep montrent entre 4 et 8 degrés au dessus des normes de maintenant jusqu’au x septembre …
+								1
+
+=======================
+
+Auteur: lilique
+Message:
+S'il fait à nouveau chaud, autant continuer sur la lancée de l'été... visons 37 dans le nord pour barrer chaque mois sur la liste... en attendant octobre...
+
+=======================
+
+Auteur: nickdu77
+Message:
+Bonjour,
+	 Sans vouloir casser le moral de qui que ce soit (moi aussi, j'en ai plus que marre et ça me déprime cette chaleur et cette sécheresse), on peut tout à fait avoir, surtout début septembre, plus de 35° en septembre. Ce fut le cas par exemple le 8 septembre 2023 : 35,1° et même des nuits tropicales : 21,9° le 13 septembre 2016. Et vu ce que nous a réservé cet été, ça ne m'étonnerait même pas et je croise les doigts.
+	Après effectivement, les nuits sont plus longues : le soleil frappe donc moins longtemps les habitations et il est plus bas sur l'horizon, traverse une couche atmosphérique plus importante et donc apporte moins d'énergie mais, malgré tout, c'est amplement suffisant pour être très déplaisant. Si le ciel est dégagé, ça jouera sur les matinales, s'il est couvert, ça fera étuve.
+	C'est d'autant plus inquiétant que côté PP, dans mon coin, par exemple, je n'ai pour l'instant eu que 4,4mm pour tout le mois d'août.
+	Je suis vraiment impatient que cet été se termine ... comme tout le monde mais ce qui m'ennuie c'est que les prévisions évoluent toujours vers le pire scénario. La semaine du topic devait être humide et finalement ...
+								1
 
 =======================
 
@@ -749,3 +717,43 @@ Il y a 2 heures, Jojobarbar a dit :
 	le refroidissement nocturne marchera bien dans les zones de campagnes mais je suis plus perplexe dans les zones urbanisées comme Lyon, Grenoble, Paris Centre, Toulouse Centre.
 	Avec une T850 &gt; 18°C sur Toulouse en septembre n'est franchement pas une nouvelle rassurante... les citadins risquent d'avoir encore bien chaud la nuit... et je ne parle même pas des salles de classes qui ont surchauffé durant les mois de juillet et Août. Les fenêtres de salles de classe sont restées fermer depuis la fin du mois de juin.
 	J'imagine l'ambiance "sauna" que des professeurs vont découvrir la semaine prochaine dans le Sud de la France
+								5
+
+=======================
+
+Auteur: clem11
+Message:
+Il y a 3 heures, edel a dit :
+			Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
+			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
+			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
+	On arrive rarement à descendre sous les 20 degrés depuis juin la nuit même avec des nuits plus longues. L'inertie est dingue et ça devient vraiment vraiment vraiment loooooong. D'ailleurs le nombre de Tn tropicales est ahurissant cette année (déjà 44 à Blagnac, en ville probablement plus de 50).
+								1
+								1
+								2
+
+=======================
+
+Auteur: vda77
+Message:
+Si un " un coup de chaud" arrive mi mai alors pourquoi pas un début septembre ( ce qui est déjà arrivé dans les années passées) avec les masses d'aires qu'il y a au sud de notre pays. C'est la même chose pour début mars, si on inverse les saisons ( même si à notre époque, cela devient plus rare ), les " coup de froid " sont possibles.
+
+=======================
+
+Auteur: th38
+Message:
+il y a 45 minutes, vda77 a dit :
+			Si un " un coup de chaud" arrive mi mai alors pourquoi pas un début septembre ( ce qui est déjà arrivé dans les années passées) avec les masses d'aires qu'il y a au sud de notre pays. C'est la même chose pour début mars, si on inverse les saisons ( même si à notre époque, cela devient plus rare ), les " coup de froid " sont possibles.
+	Non, pas tout à fait quand même. l'ITN au 15 juin est à 18.8 ; au 5 septembre il est à 18.9.
+	Ca veut dire qu'il fait plus chaud en France le 5 septembre que le 15 juin, et il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin. En septembre 2023 on est passé à un cheveu de la vague de chaleur, ça arrivera bien un jour.
+	Pour cette année, il faudrait vraiment que ça se consolide, ce qui n'est pas forcément acquis (GFS 12).
+	Mi mai dans le climat "d'avant' il pouvait geler sur presque tout le territoire hors côte.
+	Modifié il y a 6 minutes par th38
+
+=======================
+
+Auteur: TornadeScintillante
+Message:
+il y a 10 minutes, th38 a dit :
+			il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin
+	Je ne suis pas sûr de cette affirmation. La variabilité est probablement plus forte en juin qu'en septembre.
