@@ -342,12 +342,12 @@ quasi nul pour la période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
 • Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Prévisions Sud-ouest - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 26/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -355,9 +355,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 26 Août 2026.
-Résumé général précédent : Tendance marquée par une dégradation orageuse potentiellement violente en semaine 1 (mercredi-vendredi), suivie d'un retour à un temps sec et anticyclonique. La chaleur refait surface dès le début septembre, avec un net contraste nord-sud. Les températures repassent au-dessus des normales, particulièrement sur la moitié sud où l'anomalie chaude pourrait être significative. Aucun signal de précipitations durables pour la semaine 2..
+Résumé général précédent : Semaine 1 marquée par une dégradation orageuse potentiellement forte (mercredi-jeudi), suivie d'un net rafraîchissement vendredi puis d'une amélioration. Semaine 2 plus sèche, avec retour probable de la chaleur par le sud et net contraste nord-sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Mercredi chaud, orages violents jeudi du Massif Central au NE, nette fraîcheur vendredi, retour sec le week-end..
+Températures attendues précédemment : Orages forts, rafales destructrices possibles, grêle, à confirmer..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 26 au Dimanche 30 Août 2026) ===
@@ -550,7 +550,7 @@ Auteur: Membre
 Message:
 Pour demain, une nouvelle fois sur un axe qui partira globalement du SO du MC au NE du pays,on a une combinaison encore une fois d'instabilité/cisaillement profond et même en surface d'un très haut niveau,associé à des niveaux de SRH élevés.Par conséquent les modèles réagissent sur tous les risques convectifs dans cet environnement très favorable aux orages supercellulaires. Le risque de grêle &gt; à 5 cm est très étendu sur le pays mais aussi de rafales &gt; à 110km/h et celui de tornades et non négligeable également.
 	ASTORP résume tout cela,c'est aussi visible sur les SCP et RS.
-	Modifié il y a 2 heures par Nico 14
+	Modifié il y a 4 heures par Nico 14
 								2
 
 =======================
@@ -558,49 +558,9 @@ Pour demain, une nouvelle fois sur un axe qui partira globalement du SO du MC au
 Auteur: Membre
 Message:
 Bulletin Estofex ce soir,encore une fois vu l'environnement il y aura au moins un niveau 2 de sortie et je pense que le 3 pourrait l’être également sur une partie de la zone décrite ci dessus.
-								1
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: tao
-Message:
-Bonsoir,
-	le question de la semaine pourrait être, l'humidité revenue récemment sur notre pays va-t-elle se maintenir?
-	En terme de moyenne, il semble bien que la porte de l'ouest a bien été ouverte dans la semaine précédente. Cependant sur la circulation paraît débloquée, la météo chez nous devrait être sensible à la latitude de circulation du jet et donc des potentielles dépressions.
-	Si cette question peut sembler assez clairs à l'aide d'une moyenne, au niveau déterministe, cela devrait s'avérer plus complexe tant les scénarios apparaissent variés, voire très différents en terme de circulation atmosphérique ce qui devrait promettre quelques débats en fonction des actualisations:
-	Si l'humidité était vraiment de retour, ce serait déjà une information importante, c'est possible car le potentiel de blocage semble bien marquer le pas en cette fin d'été début d'automne.
-	Modifié il y a 7 heures par tao
-								17
-								1
-
-=======================
-
-Auteur: symaski62
-Message:
-cyclone à France    +10  jours à +14 jours  
-	🤔  hummm   non ou oui   
-								1
-								1
-
-=======================
-
-Auteur: Virgile
-Message:
-On surveillera une remontée des hauts géopotentiels et donc de la chaleur par le sud du pays début septembre.  Les modèles dont les AI insistent.
-								5
-								1
-								5
-
-=======================
-
-Auteur: Twister83
-Message:
-Les diagrammes pour les régions méditerranéennes pour le début de "l'automne" météorologique sont plus que estival.
-	Aucune porte de sortie visible sur le long terme, c'est verrouillé de chez verrouillé.
-								1
-								3
-
-=======================
-
 Auteur: bruno50
 Message:
 Il y a 7 heures, Virgile a dit :
@@ -641,7 +601,7 @@ Pour le moment niveau température c'est assez éclaté et conforme à une NAO+ 
 	Niveau précipitations, retour à du famélique, bien que je ne fermerai pas la porte à des ondulations favorables pour la moitié nord ça et là (mais qui ne sont pour le moment pas d'actualité).
 	Certains scénarios sont très chauds. Cela semble notamment se jouer autour de lundi 31, au sortir de Terre Neuve : si le creux est éjecté de la circulation général, il courbe le jet qui casse et produit une ondulation défavorable pour la France (chaud). Si le creux poursuit sa route et interagit avec les dépressions Groenlandaises, les températures resteront telle que décrites dans la première partie de mon message.
 	A ce jour, côté déterministes, et pour une échéance à lundi 31, seul UKMO penche pour un scénario de creux qui éjecté (donc chaud par la suite sur une large partie du pays). Les autres déterministes sont pour le moment, en accord sur une situation intermédiaire avec un creux qui rejoint in-extremis la circulation générale. A confirmer avec les prochaines sorties, on pourrait être assez vite fixé.
-	Modifié il y a 13 heures par Jojobarbar
+	Modifié il y a 15 heures par Jojobarbar
 								8
 
 =======================
@@ -674,6 +634,7 @@ Auteur: greghouse33
 Message:
 Après un été apocalyptique, ce serait logique que les masses d'air sahariennes tentent un dernier baroud d'honneur et nous rappellent à leur bon souvenir durant la 1ère quinzaine de septembre. On serait dans l'esprit de 2022 et 2023 : des températures jadis considérées comme estivales en juillet/août qui s'installent désormais en septembre/octobre... 
 								3
+								1
 
 =======================
 
@@ -707,8 +668,9 @@ effectivement une nouvelle VDC dans le sud  à l'horizon ?
 Auteur: cédric du Lot
 Message:
 En tout cas pour le sud du pays on a déjà plus la question a se poser, les tous premiers jours de septembre feront illusions puis la chaleur et le sec feront leur retour, quasiment aucune dispersion des diagrammes  si ce n'est éventuellement une direction vers la forte chaleur dés la fin de cette échéance ou la suivante...
-	Modifié il y a 1 heure par cédric du Lot
+	Modifié il y a 3 heures par cédric du Lot
 								2
+								1
 								1
 
 =======================
@@ -717,7 +679,8 @@ Auteur: clem11
 Message:
 Y’en a marre. (Désolé mais ça vient du cœur)
 								3
-								8
+								1
+								11
 
 =======================
 
@@ -726,3 +689,95 @@ Message:
 Il y a 1 heure, greghouse33 a dit :
 			On serait dans l'esprit de 2022
 	En 2022 le baroud d'honneur avait même traîné pendant tout le mois d'octobre 😅
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+il y a 24 minutes, MidiPy a dit :
+			En 2022 le baroud d'honneur avait même traîné pendant tout le mois d'octobre 😅
+	Oui. Et après dans l'Ouest, nous avons eu un automne bien pluvieux avec plusieurs tempêtes.
+								1
+
+=======================
+
+Auteur: Tornado75
+Message:
+Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
+	Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
+
+=======================
+
+Auteur: Nicolas L
+Message:
+il y a 14 minutes, Tornado75 a dit :
+			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
+			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
+	Je crois qu'on en a tous ras le bol de cet été dabord précoce et interminable au vue des modélisations actuelles. Mais tant que l’anticyclone Français (si je peux me permettre cette qualification) viendra stationner sur le pays, on ne sera pas près d'avoir le retour de PP durables. 
+	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
+	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
+	Une année à mettre aux oubliettes. 
+	Modifié il y a 1 heure par Nicolas L
+								2
+
+=======================
+
+Auteur: edel
+Message:
+il y a 48 minutes, Tornado75 a dit :
+			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
+			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
+	Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
+		Il y a 2 heures, clem11 a dit :
+			Y’en a marre. (Désolé mais ça vient du cœur)
+	Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
+	Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
+								2
+
+=======================
+
+Auteur: mathias
+Message:
+il y a 14 minutes, edel a dit :
+			Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
+			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
+			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
+	Septembre 2023 Montsouris. 
+								1
+
+=======================
+
+Auteur: bruno50
+Message:
+il y a 13 minutes, edel a dit :
+			Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
+			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
+			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
+	Pour Paris-Montsouris, il y a eu 6 fois 35 degrés en septembre, mais seulement dans trois années (deux jours à chaque fois) et, plus inquiétant, ça ne date pas forcément d'hier (2023 certes, mais aussi 1911 et 1895) donc avec le RC on peut avoir pire ou mieux au choix.
+	En revanche, oui, les températures moyennes globales et de l'après-midi sont inférieures à celles de juin. Mais vu où juin 2026 a mis la barre...
+	Enfin, s'agissant de températures à l'ombre, le fait qu'il y ait de plus d'ombre rend en principe un 35 de septembre moins chaud qu'en juin.
+	Le gros suspense c'est : est-ce que entre deux anticyclones en relais, il va parvenir à pleuvoir, et autre chose que des rivières de grêle et autres catastrophes? A priori la réponse est non.
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+Je comprends les émois à la vue des déterministes, et de la dynamique des prévisions de l'été, mais je ne trouve pas que les anomalies de températures au sol soient si forte et si fatales, à ce jour :
+	- Les nuits plus longues limiteront les fortes chaleurs : un 20°C à 850hPa en septembre sous régime anticyclonique avec peu de nuage, vent et un rayonnement thermique non contraint donc permettra des baisses de températures significatives au sol.
+	- Les ensembles sont encore assez dispersés on passe d'anomalie de T850 hPa de +2°C à des anomalies de proche de +12°C selon les scénarios. Il y a toutefois un glissement depuis qq runs vers les scénarios les plus chaud, on est d'accord.
+	Ce qui semble plutôt se dessiner c'est un coup de chaud, assez intense à partir de vendredi, et s'étendant sur le weekend. La suite est hors topic et vraiment incertaine. Je ne crois pas que la semaine en question soit placée sous le signe de la chaleur, à l'échelle de la France. Le weekend oui, surtout en journée. En revanche, je pense qu'on est tous d'accord sur l'aspect sec, surtout en deuxième partie de semaine.
+								1
+
+=======================
+
+Auteur: edd
+Message:
+il y a 52 minutes, edel a dit :
+			Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
+			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
+			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
+	Hello
+	Oui à mon avis, c'est une question de temps pour avoir 37 à paris en septembre, ça pourrait même être cette année.
+	Alors évidemment ça monterait moins dans les appart qu'en août...
+	Bon à suivre notre situ, c'est surtout le contraste avec la situ actuelle qui est net, car finalement on retrouve les config type oméga du 10 août, et qui nous bercent depuis mai.

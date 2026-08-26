@@ -1,130 +1,123 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Mercredi 26 Août 2026
-**Période :** Semaine 1 (Période exacte : Du mercredi 26 au dimanche 30 août 2026) & Semaine 2 (Période exacte : Du lundi 31 août au dimanche 6 septembre 2026)
+**Période :** Semaine 1 (Du Mercredi 26 Août au Dimanche 30 Août 2026) & Semaine 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la dégradation orageuse puis le retour de la chaleur, mais désaccord sur l'intensité et le timing.*
-- **Fiabilité du scénario majoritaire :** Orages puis chaleur au sud — *Semaine 1 instable et fraîchissante, semaine 2 sèche et de nouveau chaude au sud.*
-- **Stabilité des cartes/scénarios :** 6 / 93 — *6 cartes sur 93 analysées*
-- **Niveau d'incertitude global :** Moyenne à forte — *La prévision à 10-15 jours reste fragile, notamment sur l'ampleur de la chaleur.*
+- **Consensus des modèles :** Élevé — *Fort consensus sur la dégradation orageuse en semaine 1 et le retour du sec en semaine 2. Consensus plus faible sur l'intensité de la chaleur en semaine 2.*
+- **Fiabilité du scénario majoritaire :** Scénario majoritaire — *Passage d'un talweg en semaine 1, puis installation d'un anticyclone en semaine 2 avec remontée chaude par le sud.*
+- **Stabilité des cartes/scénarios :** 6 / 94 — *6 cartes sur 94 analysées*
+- **Niveau d'incertitude global :** Modérée — *Incertitudes sur les détails convectifs en semaine 1 et l'intensité thermique en semaine 2.*
 
-## 🗓️ SEMAINE 1 : Période exacte : Du mercredi 26 au dimanche 30 août 2026
+## 🗓️ SEMAINE 1 : Du Mercredi 26 Août au Dimanche 30 Août 2026
 ### 💡 Points clés de la semaine 1
-1. Orages parfois violents : Une dégradation orageuse généralisée est attendue jeudi, avec grêle et rafales possibles.
-2. Chaleur avant l'orage : Mercredi reste chaud, avec 32 à 37°C localement dans le sud-ouest.
-3. Forte fraîcheur vendredi : Les maximales chutent nettement, souvent sous 26°C.
-4. Amélioration le week-end : Samedi et dimanche, le soleil revient avec des températures en hausse.
-5. Sécheresse toujours là : Les pluies orageuses attendues seront bénéfiques mais localisées.
+1. Risque orageux marqué : Une dégradation orageuse parfois violente traverse le pays mercredi et jeudi, avec un risque de grêle et de rafales.
+2. Forte chaleur pré-orageuse : Des températures très élevées, localement caniculaires, sont attendues avant l'arrivée des orages, notamment mercredi.
+3. Refroidissement net en fin de semaine : Une masse d'air plus fraîche et instable succède aux orages, faisant chuter les températures dès vendredi.
+4. Amélioration progressive samedi : Le temps devient plus sec et plus ensoleillé par l'ouest, mais reste mitigé avec un risque d'averses résiduelles.
+5. Fin de semaine sous conditions stables : Dimanche, le temps est généralement sec et plus agréable, avec un risque d'averses localisé sur le quart nord-est.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Risque orageux marqué et plutôt généralisé entre mercredi et jeudi.
-2. Net rafraîchissement vendredi après le passage des orages.
-3. Amélioration et retour du soleil pour le week-end.
+- Tous les modèles s'accordent sur une dégradation orageuse généralisée entre mercredi et jeudi.
+- Un net refroidissement est attendu pour vendredi suite au passage du front froid.
+- L'amélioration est prévue pour le week-end, avec un temps plus sec et stable.
 **Points de divergence :**
-1. Intensité des rafales sous orages (sortie AROME extrême non confirmée).
-2. Localisation exacte des orages les plus violents.
-3. Cumuls de pluie, très hétérogènes selon les régions.
+- L'emplacement exact et l'intensité des orages les plus violents restent incertains, avec une marge d'erreur sur la zone allant du Sud-Ouest au Nord-Est.
+- La durée des pluies orageuses peut varier, avec un risque de cumuls plus importants localement.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **AROME (Météo-France)** (À confirmer) | Salves orageuses potentiellement violentes les 26 et 27 août, avec rafales locales de 140 à 150 km/h sur une sortie isolée. | Orages forts, rafales destructrices possibles, grêle, à confirmer. | Sud-ouest, centre, nord-est, Rhône-Alpes | Faible (45%) | Une carte AROME partagée sur le forum évoque des rafales de 140 à 150 km/h sous orages. Sortie isolée, sans confirmation pour l'instant. |
-| **ESTOFEX (analyse convective)** (Alerte active) | Alerte de niveau 3 pour le nord-est de l'Espagne et le sud de la France, grêle de grande à très grande taille et rafales destructrices. | Grêle massive, rafales destructrices, orages supercellulaires. | Sud de la France, nord-est de l'Espagne | Modérée (65%) | Bulletin Estofex mentionné sur le forum, confirmant un environnement très favorable aux orages supercellulaires, notamment sur le sud du pays. |
+| **Analyse des modèles (CEP, GFS, ARPEGE, WRF)** (Confiant sur la chronologie, incertain sur les détails.) | Scénario majoritaire : Passage d'un talweg d'altitude. Mercredi et jeudi, une anomalie de tropopause balaye le pays, interagissant avec une masse d'air très chaude et humide. Ceci génère des orages parfois violents, organisés en lignes ou supercellules, principalement mercredi soir et jeudi. Les modèles convergent sur une dégradation générale, mais des divergences persistent sur la localisation précise et l'intensité maximale des cellules les plus fortes. | Temps très chaud et lourd mercredi. Orages parfois violents mercredi soir et jeudi sur une grande partie du pays. Refroidissement net et nette amélioration vendredi et samedi, avec un soleil qui revient. | Toutes les zones sont concernées par un risque orageux. Le risque de phénomènes violents (grosse grêle, rafales > 100 km/h) est plus marqué sur un axe allant du Sud-Ouest au Nord-Est. | Élevée (85%) | Les bullets officiels de Météo-France placent les départements de la Gironde, de Haute-Garonne et du Rhône en vigilance jaune orages ou vent pour mercredi et jeudi. Les discussions indiquent des rafales potentielles de 140 à 150 km/h sur AROME et une alerte ESTOFEX de niveau 3 pour le sud de la France. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Passage orageux mercredi et jeudi, puis nette amélioration vendredi. | Maximales autour de 24-27°C, en baisse vendredi. | moderee | GFS, ECMWF | Localisation précise des orages |
-| **Nord** | Chaud mercredi, orages jeudi, nette fraîcheur vendredi puis amélioration. | 29-30°C mercredi, 22-23°C vendredi, 24-25°C samedi. | elevee | GFS, ECMWF, AROME | Cumuls de pluie et intensité des orages |
-| **Nord-Est** | Dégradation orageuse jeudi, nette fraîcheur vendredi, retour sec samedi. | Maximales 22-26°C vendredi, puis 25-28°C samedi. | moderee | GFS, ECMWF | Intensité des orages et cumuls |
-| **Ouest et Façade Atlantique** | Orages mercredi soir avec grêle possible, éclaircies jeudi, soleil vendredi et samedi. | 32-34°C mercredi, 24-27°C vendredi, 26-29°C samedi. | elevee | GFS, ECMWF, AROME | Localisation des orages et chute de grêle |
-| **Centre** | Risque orageux marqué mercredi et jeudi, fraîcheur vendredi. | Maximales 25-28°C après la dégradation. | moderee | GFS, ECMWF, AROME | Trajectoire exacte des orages |
-| **Sud-Ouest** | Chaud mercredi avec vent d'Autan, orages jeudi, soleil ensuite. | 35-37°C localement mercredi, 25-28°C vendredi, 29-31°C samedi. | elevee | GFS, ECMWF, AROME | Intensité des rafales d'Autan et activité orageuse |
-| **Sud-Est et Vallée du Rhône** | Chaud mercredi, orages parfois forts jeudi, fraîcheur vendredi, soleil samedi. | 32-34°C jeudi, 24-26°C vendredi, 25-28°C samedi. | elevee | GFS, ECMWF, AROME | Cumuls orageux localisés |
-| **Méditerranée et Corse** | Chaud et sec, orages en fin de nuit jeudi, très beau ensuite. | 31-35°C jeudi, 26-29°C vendredi, 29-33°C samedi et dimanche. | elevee | GFS, ECMWF, AROME | Intensité du mistral/tramontane et chaleur corse |
+| **Nord-Ouest** | Très chaud puis orages parfois violents mercredi soir et jeudi, amélioration nette vendredi. | Tx 29-34°C mercredi, puis 22-25°C vendredi et samedi. | elevee | CEP, AROME, WRF, Bulletins départementaux | Localisation exacte des cellules les plus fortes. |
+| **Nord** | Chaud et orageux en fin de journée mercredi et jeudi, puis retour d'un temps plus frais et sec. | Tx près de 30°C mercredi, puis 21-24°C vendredi et samedi. | moderee | CEP, GFS, Discussions forum | Intensité et durée des orages. |
+| **Nord-Est** | Orages parfois forts en fin de journée mercredi et jeudi, puis amélioration avec un ciel plus variable. | Tx 29-33°C mercredi, puis 22-26°C vendredi et samedi. | moderee | CEP, AROME, Keraunos | L'évolution des orages jeudi et le risque d'averses dimanche. |
+| **Ouest et Façade Atlantique** | Très chaud avec orages ponctuels mercredi après-midi et soir, puis nette amélioration jeudi. | Tx 32-34°C mercredi, puis 24-27°C jeudi et vendredi. | elevee | CEP, AROME, EST OFEX, Bulletins départementaux | Le déclenchement des orages mercredi après-midi. |
+| **Centre** | Très chaud et orageux mercredi soir et jeudi, puis temps plus frais et sec samedi. | Tx 32-35°C mercredi, puis 24-27°C vendredi et samedi. | moderee | CEP, ARPEGE, Discussions forum | Le moment précis du passage des orages. |
+| **Sud-Ouest** | Caniculaire mercredi avec un fort vent d'autan, puis orages et refroidissement jeudi. | Tx 35-37°C mercredi, puis 25-28°C vendredi. | elevee | CEP, AROME, Bulletins départementaux, EST OFEX | L'intensité du vent et des orages jeudi. |
+| **Sud-Est et Vallée du Rhône** | Très chaud et orageux jeudi, avec un risque de pluies intenses, puis temps sec et ensoleillé. | Tx 32-35°C mercredi, puis 26-29°C vendredi | elevee | CEP, AROME, Keraunos, Bulletins départementaux | Les cumuls de pluie et l'intensité orageuse. |
+| **Méditerranée et Corse** | Très chaud et sec avec un risque de canicule, puis orages possibles en fin de semaine. | Tx 31-33°C mercredi, puis 28-31°C vendredi | moderee | CEP, GFS, Bulletins marins | L'évolution des orages et la persistance de la chaleur. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Mercredi 26 août** : Journée chaude avec premières salves orageuses en soirée sur le sud-ouest et l'ouest.
-- **Jeudi 27 août** : Dégradation orageuse marquée et plutôt généralisée, avec un risque de phénomènes violents.
-- **Vendredi 28 août** : Forte baisse des températures, averses résiduelles puis éclaircies.
-- **Samedi 29 et dimanche 30 août** : Retour du soleil et des températures en hausse, temps plus calme.
+- **Mercredi 26 Août 2026** : Journée la plus chaude avec des maximales caniculaires, particulièrement au sud-ouest. Orages débutants en fin de journée par l'ouest.
+- **Jeudi 27 Août 2026** : Journée à risque orageux marqué sur une grande partie du pays. Risque de phénomènes violents (grêle, rafales). Refroidissement par l'ouest en fin de journée.
+- **Vendredi 28 Août 2026** : Temps plus frais et instable. Averses résiduelles possibles, surtout sur la moitié est. Amélioration progressive par l'ouest.
+- **Samedi 29 et Dimanche 30 Août 2026** : Temps sec et plus ensoleillé. Les températures sont en hausse lente, redevenant agréables, proches des normales de saison.
 
 **Points solides :**
-1. Dégradation orageuse généralisée jeudi 27 août, avec un risque de grêle et de rafales.
-2. Net rafraîchissement vendredi 28 août sur une grande partie du pays.
-3. Amélioration samedi 29 et dimanche 30 août, avec un retour du soleil.
+- Forte chaleur mercredi sur la moitié sud avec un pic à 37°C possible.
+- Dégradation orageuse généralisée entre mercredi soir et jeudi.
+- Net refroidissement et amélioration vendredi.
 
 **Points fragiles :**
-1. Rafales extrêmes vues sur AROME (140-150 km/h), sortie isolée.
-2. Cumuls orageux très localisés, difficiles à prévoir.
-3. Comportement des orages en fin de nuit et leur extension vers le nord.
+- Localisation exacte et intensité maximale des orages.
+- Cumuls de pluie potentiellement importants et localisés.
+- La fin de la dégradation et le retour du sec samedi.
 
 **À surveiller (prochains runs) :**
-À surveiller : les sorties de ce soir et de demain matin pour affiner la localisation des orages de jeudi et leur intensité.
+- Les sorties de ce soir pour affiner la chronologie et l'intensité des orages de jeudi.
+- Surveiller les indices de soulèvement (SRH, CAPE) pour évaluer le risque de supercellules.
 
 
-## 🗓️ SEMAINE 2 : Période exacte : Du lundi 31 août au dimanche 6 septembre 2026
+## 🗓️ SEMAINE 2 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Chaleur au sud : Les modèles prévoient une remontée chaude par le sud début septembre.
-2. Temps sec : Aucun signal de précipitations durables pour la semaine.
-3. Contraste nord-sud : Le nord resterait plus proche des normales, le sud plus chaud.
-4. À confirmer : L'ampleur exacte de la chaleur dépend de l'évolution du creux lundi.
-5. Sécheresse persistante : Le retour de la chaleur aggraverait la sécheresse des sols.
+1. Retour d'un temps sec et stable : Les hautes pressions prennent le contrôle, favorisant un temps généralement ensoleillé et sec sur la majorité du pays.
+2. Remontée de la chaleur par le sud : Une masse d'air plus chaude remonte d'Espagne en fin de semaine, faisant grimper les températures, surtout dans le sud.
+3. Contraste nord-sud marqué : Le nord pourrait rester sous l'influence d'un flux océanique plus frais et perturbé, tandis que le sud bénéficierait d'un temps plus chaud et sec.
+4. Risque d'averses localisé sur le nord-est : Quelques ondées pourraient concerner le nord-est du pays, en limite de l'anticyclone et des perturbations atlantiques.
+5. Incertitude sur l'intensité du coup de chaleur : L'ampleur de la remontée chaude est incertaine, certains scénarios envisageant un épisode de chaleur plus marqué.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Retour d'un temps sec et stable pour la majeure partie de la semaine.
-2. Hausse des températures par le sud en fin de semaine.
-3. Faible signal pluvieux, avec un risque d'aggravation de la sécheresse.
+- Retour d'un temps sec et anticyclonique est très probable.
+- Une hausse des températures est attendue en fin de semaine, surtout dans le sud.
+- Le nord devrait connaître des températures plus proches des normales, avec un risque d'averses.
 **Points de divergence :**
-1. Amplitude de la chaleur : scénario très chaud (UKMO) contre scénario modéré (GEM).
-2. Timing exact de la remontée chaude, qui pourrait débuter dès lundi ou plus tard.
-3. Extension vers le nord de la chaleur et maintien d'un possible flux de nord-ouest.
+- L'intensité de la remontée chaude est incertaine, avec des scénarios allant d'une simple hausse modérée à un épisode de chaleur plus marqué.
+- La position exacte de la limite entre l'air chaud au sud et l'air plus frais au nord reste à préciser.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP** (Tendance forte) | Remontée de hauts géopotentiels et chaleur par le sud début septembre, temps sec, net contraste nord-sud. | Chaleur au sud, températures au-dessus des normales, sécheresse. | Moitié sud, Méditerranée, sud-ouest | Élevée (85%) | Le CEP, appuyé par les ensembles, montre des signaux clairs de remontée chaude au sud. Les températures à 850 hPa dépassent 20°C dans certains scénarios. |
-| **AIFS (IA ECMWF)** (Tendance) | Modèles IA insistent sur une remontée des hauts géopotentiels et de la chaleur par le sud du pays début septembre. | Chaleur, temps sec, ondulations moins amples selon certaines sorties. | Sud, Méditerranée | Modérée (65%) | AIFS relaie la même tendance que le CEP, même si certaines sorties sont moins amples et moins chaudes. |
-| **GEFS (ensemble GFS)** (En accord) | Même veine que le CEP, températures à 850 hPa supérieures à 20°C remontant plus haut, temps sec. | Chaleur, absence de précipitations significatives. | Sud, sud-est, Méditerranée | Modérée (65%) | Les membres GEFS montrent une poussée chaude par le sud, avec des géopotentiels élevés et un déficit de précipitations. |
-| **GEM (Canada)** (Dissident) | Scénario plus modéré, moins chaud, avec une moindre amplitude des ondulations. | Chaleur moins marquée, températures plus proches des normales. | France entière, surtout moitié sud | Faible (45%) | GEM est le seul déterministe cité comme plus modéré, mais il reste isolé. |
-| **UKMO (Royaume-Uni)** (Minoritaire à confirmer) | Creux éjecté de la circulation, courbure du jet et chaleur sur une large partie du pays dès le début septembre. | Hausse marquée des températures, temps sec. | Large partie du pays | Modérée (65%) | UKMO est seul à montrer une éjection totale du creux, ce qui favoriserait une remontée chaude plus étendue. |
-| **Météo-France (tendance long terme)** (Tendance officielle) | Tendance long terme (7-20 septembre) repassant au-dessus des moyennes de température, après une parenthèse de fraîcheur. | Températures au-dessus de la normale, poursuite de la sécheresse. | France, surtout sud | Modérée (65%) | La tendance de Météo-France confirme le retour de températures au-dessus des normales pour la première quinzaine de septembre. |
+| **Analyse des modèles et tendances long terme (CEP, GFS, AIFS)** (Tendance fiable, mais incertitude sur l'intensité de la chaleur.) | Le scénario majoritaire est celui d'une remontée des hauts géopotentiels sur l'Europe du Sud. Un anticyclone pourrait s'installer en fin de semaine, favorisant un temps sec et une hausse des températures, particulièrement marquée dans le sud. Le nord du pays pourrait rester à la marge, avec un flux océanique plus frais et un risque d'averses. L'intensité de cette remontée chaude est encore débattue, certains modèles voyant un coup de chaud significatif, d'autres une hausse plus modérée. | Temps sec et ensoleillé sur la majorité du pays. Températures en hausse, surtout à partir de jeudi/vendredi, avec un ressenti estival dans le sud. Le nord pourrait connaître quelques passages nuageux. | L'ensemble du pays est concerné par le retour du sec. La remontée chaude affecterait plus particulièrement le sud (Occitanie, PACA, Rhône-Alpes, Corse). | Modérée (65%) | Les discussions du forum mentionnent une potentielle nouvelle "Vague De Chaleur" (VDC) dans le sud, avec des signaux "très clairs et inquiétants" sur les modèles CEP et GFS. L'AIFS est considéré comme plus modéré, prévoyant des ondulations moins amples et des coups de chaleur moins violents. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Averses possibles lundi, puis temps sec et ensoleillé mardi à vendredi. | Maximales 24-28°C, en hausse en fin de semaine. | moderee | GFS, ECMWF | Remontée chaude vers le nord |
-| **Nord** | Lundi encore des averses possibles, puis soleil et chaleur modérée en fin de semaine. | 24°C mardi/mercredi, en hausse jeudi/vendredi. | elevee | GFS, ECMWF | Intensité de la hausse thermique |
-| **Nord-Est** | Temps sec, ensoleillé, températures en hausse en deuxième partie de semaine. | Maximales 24-28°C. | faible | GFS, ECMWF | Manque de précisions régionales |
-| **Ouest et Façade Atlantique** | Amélioration lundi, soleil généreux mardi à vendredi. | 26-29°C, 22°C sur le littoral. | elevee | GFS, ECMWF | Hausse des températures sur l'estuaire |
-| **Centre** | Temps sec et ensoleillé, probable hausse des températures en fin de semaine. | Maximales 25-29°C. | faible | GFS, ECMWF | Manque de données locales |
-| **Sud-Ouest** | Lundi encore changeant, puis soleil, chaleur en fin de semaine. | 26-29°C mardi/mercredi, hausse ensuite, 34°C possibles sur le Lauragais. | elevee | GFS, ECMWF | Ampleur de la remontée chaude |
-| **Sud-Est et Vallée du Rhône** | Lundi risque d'averses, puis soleil et hausse des températures. | 24-27°C mardi/mercredi, hausse jeudi/vendredi. | elevee | GFS, ECMWF | Risque orageux résiduel lundi |
-| **Méditerranée et Corse** | Temps sec et très ensoleillé, chaleur marquée, possible vague de chaleur au sud. | 30-33°C, stables ou en hausse. | elevee | GFS, ECMWF, GEFS | Durée de l'épisode chaud |
+| **Nord-Ouest** | Temps sec et plutôt ensoleillé, avec un risque d'averses en fin de semaine. | Températures en hausse lente, maximales entre 24 et 28°C. | moderee | CEP, GFS, AIFS | L'ampleur de la hausse des températures. |
+| **Nord** | Alternance de nuages et d'éclaircies, avec un risque d'averses jeudi et vendredi. | Maximales entre 22 et 26°C, proches des normales. | moderee | CEP, GFS | La trajectoire des perturbations faibles. |
+| **Nord-Est** | Temps plus nuageux et frais, avec un risque d'averses orageuses localisées. | Maximales entre 22 et 26°C. | moderee | CEP, GFS | L'évolution des restes d'instabilité. |
+| **Ouest et Façade Atlantique** | Temps sec et ensoleillé. Léger voile nuageux possible en début de semaine. | Maximales en hausse, entre 26 et 30°C. | elevee | CEP, CEP ensembles | La hausse des températures en fin de semaine. |
+| **Centre** | Temps sec et bien ensoleillé. Températures en hausse. | Maximales entre 27 et 31°C, plus chaud en fin de semaine. | elevee | CEP, GFS | La possibilité d'un pic de chaleur plus marqué. |
+| **Sud-Ouest** | Temps sec et très ensoleillé. Chaleur en augmentation, surtout en fin de semaine. | Maximales en hausse, comprises entre 31 et 35°C. | moderee | CEP, AIFS, GFS | L'intensité du coup de chaleur, avec un risque de canicule localisée. |
+| **Sud-Est et Vallée du Rhône** | Temps sec et ensoleillé. Forte chaleur en fin de semaine. | Maximales en nette hausse, de 30 à 34°C. | elevee | CEP, GFS, Discussions forum | La persistance de la chaleur et les nuits chaudes. |
+| **Méditerranée et Corse** | Temps chaud et sec, avec un ensoleillement maximal. | Maximales entre 31 et 35°C, avec un risque de canicule. | elevee | CEP, GFS, Bulletins marins | L'intensité et la durée de l'épisode de chaleur. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 31 août** : Dernières averses possibles au nord et à l'ouest, amélioration progressive.
-- **Mardi 1 et mercredi 2 septembre** : Temps sec et ensoleillé, températures proches des normales.
-- **Jeudi 3 et vendredi 4 septembre** : Hausse des températures, chaleur plus marquée sur la moitié sud.
-- **Samedi 5 et dimanche 6 septembre** : Incertitude forte, mais probable maintien d'un temps sec et chaud au sud.
+- **Lundi 31 Août et Mardi 1er Septembre** : Temps calme et sec. Les températures sont en légère hausse sur la moitié sud. Le nord reste sous les normales.
+- **Mercredi 2 et Jeudi 3 Septembre** : La hausse des températures se confirme, surtout au sud. Le soleil est généreux sur la plupart des régions. Quelques nuages sur le nord-est.
+- **Vendredi 4 au Dimanche 6 Septembre** : Période la plus chaude. Le sud pourrait connaître un épisode de chaleur marqué, avec des maximales dépassant les 33°C. Le nord reste plus tempéré.
 
 **Points solides :**
-1. Temps sec et ensoleillé mardi et mercredi sur la plupart des régions.
-2. Hausse des températures en fin de semaine, surtout au sud.
-3. Maintien de conditions chaudes et sèches sur le pourtour méditerranéen.
+- Retour d'un temps sec et stable sur la quasi-totalité du pays.
+- Hausse des températures, plus marquée dans le sud.
+- Absence de précipitations significatives, ce qui aggrave la sécheresse.
 
 **Points fragiles :**
-1. Timing exact de la remontée chaude, encore soumis à l'évolution du creux lundi.
-2. Amplitude de la chaleur, très différente selon les modèles.
-3. Extension de la chaleur vers le nord, loin d'être acquise.
+- L'intensité du coup de chaleur, avec un risque de canicule dans le sud.
+- La limite nord de l'air chaud, qui pourrait fluctuer.
+- Le risque d'averses localisées sur le nord-est, difficile à modéliser à cette échéance.
 
 **À surveiller (prochains runs) :**
-À surveiller : les échéances de lundi 31 août pour trancher entre le scénario chaud d'UKMO et le scénario intermédiaire des autres modèles.
+- Surveiller l'évolution des hauts géopotentiels et la possibilité d'un blocage anticyclonique.
+- Suivre les sorties des modèles AIFS et GFS pour évaluer l'ampleur de la remontée chaude.
 
 
 ========================================
@@ -132,27 +125,33 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Semaine 1 marquée par une dégradation orageuse potentiellement forte (mercredi-jeudi), suivie d'un net rafraîchissement vendredi puis d'une amélioration. Semaine 2 plus sèche, avec retour probable de la chaleur par le sud et net contraste nord-sud.
+La période est marquée par une transition. La semaine 1 est chaude et orageuse, avec une dégradation parfois violente. La semaine 2 voit le retour d'un temps sec et anticyclonique, avec une remontée de la chaleur par le sud. Le contraste nord-sud devient plus marqué.
 
 ### Période la plus fiable
-Semaine 1 (26-30 août), validée par les bulletins officiels et les discussions ; la semaine 2 reste soumise à de fortes incertitudes.
+La semaine 1 est plus fiable à moyen terme. La chronologie de la dégradation orageuse est bien appréhendée par les modèles, malgré des incertitudes sur les détails. La semaine 2 est plus incertaine, notamment sur l'intensité de la remontée chaude.
 
 ### Phénomènes récurrents
-Orages souvent violents en cette fin d'été, sécheresse persistante, remontées de chaleur par le sud.
+- Récurrence d'un blocage anticyclonique sur l'Europe du Sud.
+- Remontées d'air chaud d'origine saharienne.
+- Sécheresse de surface qui s'accentue, avec un risque de stress hydrique.
 
 ### Principales incertitudes
-Intensité et localisation des orages de jeudi ; timing et amplitude de la remontée chaude en semaine 2 ; comportement du creux lundi.
+- L'intensité et la localisation des orages violents en semaine 1.
+- L'ampleur et la durée de la remontée chaude en semaine 2 (risque de canicule).
+- La position exacte de la limite entre l'air chaud et l'air plus frais.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** La chronologie exacte des salves orageuses (mercredi soir vs jeudi) et l'arrivée de la chaleur en semaine 2 restent incertaines.
-- **Localisation :** La localisation fine des orages violents et l'extension vers le nord de la chaleur début septembre sont encore floues.
-- **Intensité :** Les rafales sous orages (140-150 km/h sur AROME) et le niveau de chaleur (scénario UKMO très chaud vs GEM modéré) doivent être confirmés.
-- **Informations manquantes :** Peu de détails pour le nord-est, le centre et le nord-ouest de la France ; vent non documenté sur plusieurs zones.
-- **Modèles sous-documentés :** GEM et UKMO ne sont cités qu'une fois ; GFS déterministe n'est pas commenté directement.
-- **Incertitudes images :** Les cartes de rafales AROME et les diagrammes de température sont issus de sorties isolées, à recouper avec les prochains runs.
+- **Timing/Chronologie :** Le timing exact du passage des orages reste incertain. La dégradation est attendue entre mercredi soir et jeudi, mais des variations de plusieurs heures sont possibles.
+- **Localisation :** La localisation précise des orages les plus violents est incertaine. Un axe allant du Sud-Ouest au Nord-Est est privilégié, mais des décalages sont possibles.
+- **Intensité :** L'intensité maximale des orages (grêle, rafales) est difficile à évaluer. Une partie des modèles voit un risque de phénomènes violents, mais l'étendue exacte de la zone à risque reste à préciser. De plus, l'intensité de la remontée chaude en semaine 2 est très incertaine.
+- **Informations manquantes :** Informations manquantes sur le risque de canicule en semaine 2, notamment sa durée et son intensité. Aucune information précise sur l'évolution des sols (sécheresse) malgré un indice de stress hydrique en hausse.
+- **Modèles sous-documentés :** Les modèles AIFS et GFS sont les plus discutés pour la semaine 2. L'AIFS est considéré comme plus modéré, prévoyant des coups de chaleur moins violents que le CEP.
+- **Incertitudes images :** Les cartes de risques pour les orages en semaine 1 montrent des divergences entre les modèles, notamment sur l'étendue du risque de grosse grêle. Les cartes thermiques pour la semaine 2 sont également incertaines sur l'ampleur de la chaleur.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌩️ Orages parfois violents attendus jeudi 27 août, suivis d'une nette fraîcheur vendredi. ☀️ Le week-end s'annonce plus calme, avant un probable retour de la chaleur par le sud début septembre. À suivre de près ! #Météo #Orages #Prévisions
+🌦️ La France entre orages et retour de la chaleur cette semaine !
+Après un week-end très chaud, une dégradation orageuse parfois violente est attendue entre mercredi et jeudi. Les températures chuteront nettement vendredi avant un retour du soleil et de la chaleur, particulièrement marqué dans le sud la semaine prochaine.
+#Météo #Prévisions #Orages #Chaleur #Sécheresse
