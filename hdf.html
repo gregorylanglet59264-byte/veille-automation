@@ -406,10 +406,10 @@
     <div class="generation-date">Génération : Jeudi 27 Août 2026</div>
 
     <div class="kpis">
-      <div class="kpi"><div class="kpi-label">Consensus</div><div class="kpi-value">Modérée</div><div class="kpi-note">Le consensus est bon pour la semaine 1 mais se dégrade nettement pour la semaine 2, où les modèles divergent fortement.</div></div>
-      <div class="kpi"><div class="kpi-label">Scénario</div><div class="kpi-value">Scénario médian</div><div class="kpi-note">Le scénario médian privilégie un retour de la chaleur en semaine 2, avec un possible pic jeudi/vendredi.</div></div>
+      <div class="kpi"><div class="kpi-label">Consensus</div><div class="kpi-value">Modéré</div><div class="kpi-note">Les modèles s'accordent sur le scénario orageux puis sec, mais diffèrent sur les intensités.</div></div>
+      <div class="kpi"><div class="kpi-label">Scénario</div><div class="kpi-value">Orages puis chaleur.</div><div class="kpi-note">Semaine 1 : instabilité ; Semaine 2 : retour anticyclonique.</div></div>
       <div class="kpi"><div class="kpi-label">Cartes</div><div class="kpi-value">6 / 95</div><div class="kpi-note">6 cartes analysées</div></div>
-      <div class="kpi"><div class="kpi-label">Incertitude</div><div class="kpi-value">Élevée</div><div class="kpi-note">L'incertitude est élevée pour la fin de la semaine 2 (à partir de jeudi 3 septembre). La fiabilité est faible à 5 jours.</div></div>
+      <div class="kpi"><div class="kpi-label">Incertitude</div><div class="kpi-value">Forte pour la chaleur.</div><div class="kpi-note">Grande dispersion des scénarios pour vendredi 4 et samedi 5.</div></div>
     </div>
   </div>
 </header>
@@ -420,7 +420,7 @@
       <div><span class="badge">À retenir</span><h2>Semaine 1 — Du Jeudi 27 au Dimanche 30 Août 2026</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
     </div>
     <div class="grid grid-2">
-      <div class="key"><i>🌡️</i><div><strong><strong>Dégradation orageuse jeudi</strong></strong>Passage d'orages parfois forts, avec un risque de grêle et de fortes rafales. Les températures restent élevées en journée (27 à 29°C).</div></div><div class="key"><i>🌦️</i><div><strong><strong>Net rafraîchissement vendredi</strong></strong>L'air plus frais et océanique prend le relais. Les maximales chutent aux alentours de 20 à 23°C, avec des averses résiduelles.</div></div><div class="key"><i>🌡️</i><div><strong><strong>Week-end instable et frais</strong></strong>Le temps reste variable, partagé entre éclaircies et averses. Les températures plafonnent entre 21 et 24°C, proches des normales de saison.</div></div>
+      <div class="key"><i>⛈️</i><div><strong>Orages violents jeudi</strong>Dégradation orageuse généralisée avec risque de grêle et rafales jusqu'à 85 km/h.</div></div><div class="key"><i>🌡️</i><div><strong>Rafraîchissement net</strong>Après jeudi, températures en baisse de 6 à 8°C avec un ressenti automnal.</div></div><div class="key"><i>🌡️</i><div><strong>Averses persistantes</strong>Vendredi et samedi, temps instable avec averses parfois orageuses sur l'ensemble des HDF.</div></div><div class="key"><i>⛈️</i><div><strong>Vigilance jaune orages</strong>Tous les départements en vigilance pour les orages attendus jeudi.</div></div><div class="key"><i>🌦️</i><div><strong>Amélioration dimanche</strong>Accalmie relative dimanche mais risque de pluie, vent assez fort lundi.</div></div>
     </div>
   </div>
 
@@ -435,28 +435,28 @@
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">Modèle CEP (ECMWF) - Déterministe</div>
-              <span class="status-badge status-main">documented</span>
+              <div class="model-name">Météo-France XML (22SPC/SCHAPI05)</div>
+              <span class="status-badge status-main">Documenté en détail par les membres et les bulletins officiels.</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">3</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Dégradation orageuse en fin de nuit de mercredi à jeudi, et en journée de jeudi. Amélioration progressive par l'ouest vendredi.</span>
+              <span class="chip">5 (bulletins XML individuels)</span>
+              <span class="chip">Run : 27/08/2026 00:30 UTC</span>
+              <span class="chip">Jeudi après-midi/soirée pour les orages, vendredi-samedi pour les averses, dimanche amélioration temporaire.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Scénario d'une dégradation orageuse active jeudi, puis installation d'un flux de Sud-Ouest océanique plus frais et instable pour la fin de semaine. (89 caractères)</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages jeudi, puis rafraîchissement net avec averses vendredi et samedi. (68 caractères)</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>L'ensemble de la région HDF est concerné, avec un risque orageux plus marqué jeudi sur l'intérieur des terres.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>Dégradation orageuse marquée jeudi 27 sur toute la région, puis net rafraîchissement avec averses vendredi et samedi. (156 caractères)</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages localement forts, grêle possible dans l'Oise et l'Aisne, fortes rafales (85-90 km/h) en soirée jeudi.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Tous les départements HDF, avec cumuls max sur Flandre intérieure (20mm), Ternois (25mm), Ponthieu/Vimeu (25mm).</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Élevée (85 %)</strong></div>
+              <div class="score-label">Extraction : <strong>Élevée (85%)</strong></div>
               <div class="bar"><div class="fill" style="width:85%; background:var(--green);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Convergence nette entre les bulletins départementaux Météo-France et les discussions Infoclimat (BIM national).</strong></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Bulletins départementaux détaillés et bulletin côtier FQCT40.</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                Le CEP est en phase avec les bulletins officiels. Il capte bien l'arrivée du talweg et le passage du front froid. Les indices de soulèvement (LI) et d'énergie potentielle (CAPE) sont favorables à des orages organisés.
+                Prévisions par département : Nord, Pas-de-Calais, Somme, Oise, Aisne, avec cumuls max, rafales, températures (voir JSON).
               </div>
             </details>
           </td>
@@ -466,28 +466,28 @@
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">Modèle GFS (Américain)</div>
-              <span class="status-badge status-main">documented</span>
+              <div class="model-name">ECMWF (déterministe et ensembles)</div>
+              <span class="status-badge status-main">Cité clairement pour la région, avec des détails sur les risques.</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">2</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Orages jeudi après-midi et soirée. Amélioration vendredi matin.</span>
+              <span class="chip">4 (messages de symaski62, Nico14)</span>
+              <span class="chip">Run : Dernier run disponible (27/08/2026)</span>
+              <span class="chip">Mercredi 26 (début) et surtout jeudi 27, avec atténuation vendredi 28.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Scénario similaire au CEP, avec une dégradation orageuse jeudi, mais une intensité potentiellement moins marquée sur le nord du pays. (91 caractères)</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Risque d'orages jeudi, puis retour d'un temps plus sec et frais vendredi et samedi. (66 caractères)</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Toute la région, avec un risque orageux légèrement moins fort sur le littoral.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>Talweg d'altitude balayant le pays, déclenchement de puissantes salves orageuses mercredi/jeudi, puis flux océanique plus frais et instable en fin de semaine. (150 caractères)</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages supercellulaires possibles, grêle >5cm, rafales >110 km/h, tornades non exclues.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Toute la région HDF, avec un risque renforcé sur les terres et le littoral exposé.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Élevée (85 %)</strong></div>
-              <div class="bar"><div class="fill" style="width:85%; background:var(--green);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Correspondance avec les cartes de risques et les sorties des modèles à haute résolution (AROME, WRF).</strong></div>
+              <div class="score-label">Extraction : <strong>Modérée (65%)</strong></div>
+              <div class="bar"><div class="fill" style="width:65%; background:var(--amber);"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Discussions des membres (symaski62, Nico14) et BIM officiels.</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                Le GFS reste cohérent avec le scénario global. Il suggère un passage orageux un peu moins organisé, mais les cumuls de pluie restent significatifs (10 à 20 mm localement).
+                Convergence avec GFS sur le risque convectif, mais divergence sur l'intensité et la localisation exacte des orages.
               </div>
             </details>
           </td>
@@ -497,28 +497,28 @@
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">Modèle AROME (Météo-France)</div>
-              <span class="status-badge status-main">documented</span>
+              <div class="model-name">GFS (déterministe et ensembles)</div>
+              <span class="status-badge status-main">Cité pour la tendance orageuse, avec des divergences sur le timing.</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">4</span>
-              <span class="chip">Run : 00Z</span>
-              <span class="chip">Orages dès la fin de nuit et en matinée sur l'ouest, puis généralisation en journée.</span>
+              <span class="chip">3 (messages)</span>
+              <span class="chip">Run : Dernier run disponible (27/08/2026)</span>
+              <span class="chip">Jeudi 27 en journée et soirée, puis amélioration progressive dimanche.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Modèle à haute résolution qui détaille les cellules orageuses. Il prévoit des rafales potentiellement fortes (80-85 km/h) et de la grêle sous les plus fortes cellules. (110 caractères)</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages parfois forts jeudi avec risque de grêle et fortes rafales. (55 caractères)</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Zones orageuses plus localisées, notamment sur l'intérieur du Nord, du Pas-de-Calais et de la Somme.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>Passage d'une anomalie de tropopause avec fort cisaillement, orages violents jeudi après-midi, puis temps plus frais et instable pour le week-end. (152 caractères)</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Orages avec grêle et rafales, fortes pluies localisées, puis averses modérées.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Nord et Pas-de-Calais plus exposés aux orages, mais toutes les zones concernées.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Élevée (85 %)</strong></div>
-              <div class="bar"><div class="fill" style="width:85%; background:var(--green);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Cohérent avec les alertes Keraunos/Estofex et les sorties radar.</strong></div>
+              <div class="score-label">Extraction : <strong>Modérée (60%)</strong></div>
+              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Simulations mentionnées par les membres (Nico14, cédric du Lot).</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                AROME affiné les risques. Les vitesses de déplacement des cellules sont rapides, limitant les cumuls mais augmentant le risque de rafales descendantes.
+                Alignement avec ECMWF sur le scénario orageux mais intensité des précipitations parfois surestimée.
               </div>
             </details>
           </td>
@@ -534,10 +534,12 @@
   <div class="section">
     <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 1)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Ce qui converge</h3><p>- <strong>Chute des températures</strong> : Tous les modèles et les bulletins officiels s'accordent sur un net refroidissement entre jeudi et vendredi.
-- <strong>Risque orageux</strong> : Fort consensus sur une dégradation orageuse jeudi, avec un risque de grêle et de rafales. Les discussions Infoclimat (Nico 14, symaski62) confirment ce risque.</p></div>
-      <div class="card"><h3>Ce qui diverge</h3><p>- <strong>Intensité des orages</strong> : L'étendue et l'intensité exacte des orages restent incertaines. Les modèles à haute résolution (AROME) suggèrent plus de violence que les modèles globaux (GFS).
-- <strong>Cumuls de pluie</strong> : Les prévisions varient de 5 à 25 mm selon les zones et les modèles, avec une incertitude sur les endroits les plus arrosés.</p></div>
+      <div class="card"><h3>Ce qui converge</h3><p>- Orages violents jeudi 27 sur toute la région, avec un risque de grêle et de fortes rafales (Météo-France, ECMWF, GFS en accord).
+- Rafraîchissement net dès vendredi avec des températures maxi passant de 27-30°C à 20-23°C.
+- Averses et temps instable samedi 29, avec un vent de Sud-Ouest modéré à assez fort sur le littoral.</p></div>
+      <div class="card"><h3>Ce qui diverge</h3><p>- L'intensité des cumuls de pluie : 20-25 mm localement selon Météo-France, mais les modèles haute résolution AROME suggèrent des pointes à 40 mm possibles.
+- La localisation précise des orages forts : Météo-France privilégie l'intérieur des terres, ECMWF/GFS indiquent un risque aussi sur le littoral.
+- Le timing de l'amélioration : GFS plus optimiste pour dimanche après-midi, alors que Météo-France maintient un risque de pluie jusqu'à lundi.</p></div>
     </div>
   </div>
 
@@ -555,7 +557,7 @@
             <span class="zone-icon">🦁</span>
             <h3>Nord (59)</h3>
           </div>
-          <div class="zone-short-desc">Orages parfois forts jeudi, puis net rafraîchissement avec averses vendredi et samedi.</div>
+          <div class="zone-short-desc">Orages violents jeudi après-midi, puis averses vendredi, temps nuageux samedi avec averses éparses.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -564,11 +566,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Orages parfois forts jeudi, puis net rafraîchissement avec averses vendredi et samedi.</li><li><b>Températures :</b> Jeudi : 24°C sur le littoral, 27 à 29°C dans l'intérieur. Vendredi et samedi : 21 à 22°C. Nuits : 14 à 17°C.</li><li><b>Pluie / Orages :</b> Orages jeudi avec cumuls possibles jusqu'à 20 mm sur la Flandre intérieure. Averses résiduelles vendredi et samedi.</li><li><b>Vent :</b> Vent de Sud-Est tournant Sud-Ouest. Rafales jusqu'à 85 km/h sous orages jeudi, puis 55 km/h vendredi et samedi.</li><li><b>Période sensible :</b> Jeudi de 12h à 22h pour les orages et les rafales.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, AROME, Keraunos • Secteurs : Lille, Dunkerque, Valenciennes, Douai • 5 mentions</li>
+          <li><b>Temps dominant :</b> Orages violents jeudi après-midi, puis averses vendredi, temps nuageux samedi avec averses éparses.</li><li><b>Températures :</b> Min 14-19°C, Max 27-29°C jeudi, puis Max 21-22°C vendredi et samedi.</li><li><b>Pluie / Orages :</b> Orages avec cumuls jusqu'à 20 mm en Flandre intérieure, rafales 85 km/h jeudi soir.</li><li><b>Vent :</b> Vent Est-Sud-Est modéré, rafales 65-85 km/h sous orages, puis Sud-Ouest modéré.</li><li><b>Période sensible :</b> Jeudi après-midi et soirée</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Lille, Dunkerque, Valenciennes • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Localisation précise des plus fortes cellules orageuses. Cumuls de pluie variables selon les secteurs.</span>
+          <span class="chip-uncert">Incertitude : La Flandre maritime pourrait avoir moins d'orages, mais rester exposée aux rafales.</span>
         </div>
       </div>
     </details>
@@ -582,7 +584,7 @@
             <span class="zone-icon">🌊</span>
             <h3>Pas-de-Calais (62)</h3>
           </div>
-          <div class="zone-short-desc">Dégradation orageuse jeudi, puis retour d'un temps plus frais avec des averses, surtout près des côtes.</div>
+          <div class="zone-short-desc">Orages parfois forts jeudi, averses vendredi, ciel variable samedi avec averses près des côtes.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -591,11 +593,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Dégradation orageuse jeudi, puis retour d'un temps plus frais avec des averses, surtout près des côtes.</li><li><b>Températures :</b> Jeudi : 26 à 29°C dans les terres, 24 à 25°C sur le littoral. Vendredi et samedi : 20 à 21°C. Nuits : 14 à 16°C.</li><li><b>Pluie / Orages :</b> Orages jeudi avec cumuls jusqu'à 25 mm sur le Ternois. Averses plus faibles vendredi (10 mm sur les côtes de la Manche).</li><li><b>Vent :</b> Vent de Sud-Est virant Sud-Ouest. Rafales jusqu'à 85 km/h sous orages jeudi, puis 55 km/h sur le littoral.</li><li><b>Période sensible :</b> Jeudi après-midi et soirée pour les orages. Vendredi et samedi après-midi pour le vent sur le littoral.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, AROME, Keraunos • Secteurs : Arras, Calais, Boulogne-sur-Mer, Lens • 5 mentions</li>
+          <li><b>Temps dominant :</b> Orages parfois forts jeudi, averses vendredi, ciel variable samedi avec averses près des côtes.</li><li><b>Températures :</b> Min 14-19°C, Max 26-29°C jeudi (24-25°C littoral), puis Max 20-21°C vendredi.</li><li><b>Pluie / Orages :</b> Cumuls max de 25 mm sur le Ternois, rafales 85 km/h, grêle possible.</li><li><b>Vent :</b> Vent Sud-Sud-Est tournant Sud-Ouest, rafales 85 km/h, puis modéré à assez fort sur littoral.</li><li><b>Période sensible :</b> Jeudi après-midi et début de soirée</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Arras, Calais, Boulogne, Lens • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Risque d'orages plus localisés. Comportement des averses sur le littoral.</span>
+          <span class="chip-uncert">Incertitude : Les côtes de la Manche pourraient être plus épargnées par les orages, mais subir des rafales.</span>
         </div>
       </div>
     </details>
@@ -609,7 +611,7 @@
             <span class="zone-icon">🦆</span>
             <h3>Somme (80)</h3>
           </div>
-          <div class="zone-short-desc">Orages jeudi, puis rafraîchissement avec un ciel très nuageux et des averses vendredi et samedi.</div>
+          <div class="zone-short-desc">Orages jeudi, averses vendredi, pluies faibles samedi après-midi, amélioration en soirée.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -618,11 +620,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Orages jeudi, puis rafraîchissement avec un ciel très nuageux et des averses vendredi et samedi.</li><li><b>Températures :</b> Jeudi : 26 à 28°C dans les terres, 24°C sur le littoral. Vendredi et samedi : 20 et 23°C. Nuits : 13 à 16°C.</li><li><b>Pluie / Orages :</b> Orages jeudi avec cumuls jusqu'à 25 mm sur le Ponthieu et le Vimeu. Averses plus faibles ensuite (10 mm sur le littoral picard).</li><li><b>Vent :</b> Vent de Sud tournant Sud-Ouest. Rafales jusqu'à 85 km/h sous orages jeudi. Vent assez fort vendredi et samedi sur le littoral.</li><li><b>Période sensible :</b> Jeudi après-midi et soirée pour les orages. Vendredi après-midi pour le vent sur le littoral.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, AROME, Keraunos • Secteurs : Amiens, Abbeville, Péronne • 5 mentions</li>
+          <li><b>Temps dominant :</b> Orages jeudi, averses vendredi, pluies faibles samedi après-midi, amélioration en soirée.</li><li><b>Températures :</b> Min 13-18°C, Max 26-28°C jeudi (24°C littoral), puis Max 20-22°C vendredi.</li><li><b>Pluie / Orages :</b> Cumuls max de 25 mm sur Ponthieu et Vimeu, rafales 85 km/h, risque de grêle local.</li><li><b>Vent :</b> Vent Sud tournant Sud-Ouest, modéré à assez fort sur littoral, rafales 85 km/h.</li><li><b>Période sensible :</b> Jeudi après-midi et soirée</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Amiens, Abbeville, Péronne • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Risque d'orages forts et localisés. Incertitude sur les cumuls.</span>
+          <span class="chip-uncert">Incertitude : La Picardie maritime pourrait voir des averses plus durables vendredi nuit.</span>
         </div>
       </div>
     </details>
@@ -636,7 +638,7 @@
             <span class="zone-icon">🏰</span>
             <h3>Oise (60)</h3>
           </div>
-          <div class="zone-short-desc">Risque d'orages parfois forts jeudi (avec grêle possible), puis net rafraîchissement et averses vendredi.</div>
+          <div class="zone-short-desc">Orages parfois forts avec grêle jeudi, averses vendredi, pluies éparses samedi.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -645,11 +647,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Risque d'orages parfois forts jeudi (avec grêle possible), puis net rafraîchissement et averses vendredi.</li><li><b>Températures :</b> Jeudi : 27 à 28°C. Vendredi et samedi : 20 à 23°C. Nuits : 14 à 16°C.</li><li><b>Pluie / Orages :</b> Orages jeudi avec cumuls jusqu'à 15 mm sur le pays de Bray et la Picardie verte. Averses faibles vendredi.</li><li><b>Vent :</b> Vent de Sud à Sud-Ouest. Rafales jusqu'à 85 km/h sous orages jeudi, puis modéré (55 km/h max) vendredi.</li><li><b>Période sensible :</b> Jeudi de 14h à 22h pour le risque orageux.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, AROME, Keraunos • Secteurs : Beauvais, Compiègne, Senlis, Creil • 5 mentions</li>
+          <li><b>Temps dominant :</b> Orages parfois forts avec grêle jeudi, averses vendredi, pluies éparses samedi.</li><li><b>Températures :</b> Min 14-18°C, Max 27-28°C jeudi, puis Max 20-23°C vendredi.</li><li><b>Pluie / Orages :</b> Cumuls max 15 mm sur Pays de Bray et Picardie verte, rafales 85 km/h, grêle possible.</li><li><b>Vent :</b> Vent Est-Sud-Est modéré, rafales 85 km/h, puis Sud-Ouest modéré.</li><li><b>Période sensible :</b> Jeudi dès le début d'après-midi</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Beauvais, Compiègne, Senlis • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Risque de grêle et de fortes rafales plus incertain. Localisation des orages.</span>
+          <span class="chip-uncert">Incertitude : Les orages pourraient être plus violents sur les secteurs sud-est (Vexin, Thelle).</span>
         </div>
       </div>
     </details>
@@ -663,7 +665,7 @@
             <span class="zone-icon">🍇</span>
             <h3>Aisne (02)</h3>
           </div>
-          <div class="zone-short-desc">Dégradation orageuse jeudi, puis temps changeant avec averses et éclaircies vendredi.</div>
+          <div class="zone-short-desc">Orages jeudi, averses vendredi, ciel variable samedi avec averses possibles.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -672,11 +674,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Dégradation orageuse jeudi, puis temps changeant avec averses et éclaircies vendredi.</li><li><b>Températures :</b> Jeudi : 27 à 30°C. Vendredi et samedi : 21 à 23°C. Nuits : 14 à 16°C.</li><li><b>Pluie / Orages :</b> Orages jeudi avec cumuls jusqu'à 20 mm sur le Laonnois. Averses plus faibles vendredi (5 mm sur le Vermandois).</li><li><b>Vent :</b> Vent de Sud à Sud-Ouest. Rafales jusqu'à 85 km/h sous orages jeudi, puis modéré (55 km/h) vendredi.</li><li><b>Période sensible :</b> Jeudi après-midi et soirée pour le risque orageux.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, AROME, Keraunos • Secteurs : Laon, Saint-Quentin, Soissons, Château-Thierry • 5 mentions</li>
+          <li><b>Temps dominant :</b> Orages jeudi, averses vendredi, ciel variable samedi avec averses possibles.</li><li><b>Températures :</b> Min 15-18°C, Max 27-30°C jeudi, puis Max 21-23°C vendredi.</li><li><b>Pluie / Orages :</b> Cumuls max 20 mm sur Laonnois, rafales 85 km/h, grêle possible.</li><li><b>Vent :</b> Vent Est-Sud-Est modéré, rafales 85 km/h, puis Sud-Ouest modéré.</li><li><b>Période sensible :</b> Jeudi après-midi</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Laon, Saint-Quentin, Soissons • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Intensité des orages et cumuls de pluie associés.</span>
+          <span class="chip-uncert">Incertitude : Les orages pourraient être plus tardifs sur le sud du département.</span>
         </div>
       </div>
     </details>
@@ -687,25 +689,26 @@
   <div id="sec-w1-timeline" class="section">
     <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 1</h2></div></div>
     <div class="timeline">
-      <div class="phase"><b>Mercredi 26 août - Jeudi 27 août (pré-perturbation)</b><p>Nuits douces et orageuses, avec des températures minimales entre 16 et 19°C.</p></div>
-      <div class="phase"><b>Jeudi 27 août (passage de la perturbation)</b><p>Journée la plus chaude et orageuse avec des maximales de 27 à 30°C.</p></div>
-      <div class="phase"><b>Vendredi 28 août - Samedi 29 août (traîne active)</b><p>Temps plus frais avec des maximales de 20 à 23°C et des averses.</p></div>
-      <div class="phase"><b>Dimanche 30 août (amélioration)</b><p>Temps encore nuageux mais avec des éclaircies, les maximales restent stables.</p></div>
+      <div class="phase"><b>Jeudi 27 août</b><p>Phase orageuse majeure avec risque de phénomènes violents en fin de journée.</p></div>
+      <div class="phase"><b>Vendredi 28 août</b><p>Averses et net rafraîchissement, température en baisse de 6 à 8°C.</p></div>
+      <div class="phase"><b>Samedi 29 août</b><p>Temps nuageux avec averses faibles, vent modéré à assez fort sur littoral.</p></div>
+      <div class="phase"><b>Dimanche 30 août</b><p>Amélioration temporaire, risque de pluie, vent d'Ouest-Sud-Ouest assez fort lundi.</p></div>
     </div>
   </div>
 
   <div class="section">
     <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 1)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Éléments solides</h3><p>- Dégradation orageuse généralisée jeudi 27 août sur toute la région.
-- Rafraîchissement net et franc à partir de vendredi 28 août.
-- Températures maximales en baisse d'environ 5 à 7°C entre jeudi et vendredi.</p></div>
-      <div class="card"><h3>Éléments fragiles</h3><p>- L'intensité des orages reste incertaine, avec un risque de grêle et de fortes rafales localisées.
-- La durée et l'étendue des averses vendredi et samedi sont encore floues, surtout sur le littoral.
-- Les cumuls de pluie sont difficiles à affiner, variant de 10 à 25 mm selon les secteurs.</p></div>
+      <div class="card"><h3>Éléments solides</h3><p>- Passage orageux généralisé jeudi 27, avec un risque de grêle et de rafales destructrices.
+- Rafraîchissement net et durable après jeudi, avec des maximales sous les 23°C pour le week-end.
+- Vent de Sud-Ouest modéré à assez fort sur le littoral samedi, avec rafales à 55 km/h.</p></div>
+      <div class="card"><h3>Éléments fragiles</h3><p>- La localisation précise des plus forts cumuls de pluie (20-25 mm) reste incertaine.
+- La durée des averses vendredi est encore débattue, certaines zones pourraient rester au sec.
+- L'amélioration annoncée pour dimanche pourrait être retardée par une nouvelle ondulation orageuse.</p></div>
     </div>
-    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : - Prochaines sorties des modèles AROME et WRF pour affiner la localisation des orages de jeudi.
-- Évaluation des runs de jeudi matin pour suivre l'évolution du front froid.</div>
+    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : - Les runs d'AROME pour la journée de jeudi (échéance 37h) pour affiner les zones à risque.
+- Les sorties d'ECMWF et GFS de ce soir pour la fiabilisation de la journée de dimanche.
+- Les bulletins Météo-France actualisés à 06h30 et 16h00 pour le suivi de la vigilance.</div>
   </div>
 
   <div id="sec-w1-images" class="section">
@@ -741,7 +744,7 @@
       <div><span class="badge">À retenir</span><h2>Semaine 2 — Du Lundi 31 Août au Dimanche 6 Septembre 2026</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
     </div>
     <div class="grid grid-2">
-      <div class="key"><i>🌡️</i><div><strong><strong>Risque de fortes rafales lundi</strong></strong>Un passage pluvieux et venteux est attendu lundi, avec un vent de Sud-Ouest assez fort. Les températures restent fraîches.</div></div><div class="key"><i>🌡️</i><div><strong><strong>Amélioration et retour de la chaleur</strong></strong>À partir de mardi, le temps redevient plus sec et plus ensoleillé. Les températures remontent et un pic de chaleur est possible en fin de semaine.</div></div><div class="key"><i>🌡️</i><div><strong><strong>Fortes incertitudes pour jeudi et vendredi</strong></strong>Les modèles divergent fortement (CEP vs GFS) sur l'intensité du retour de la chaleur. Un scénario de "coup de chaud" est possible, mais la fiabilité est limitée.</div></div>
+      <div class="key"><i>🌡️</i><div><strong>Retour de la chaleur</strong>Remontée progressive des températures dès mercredi, avec pic possible en fin de semaine.</div></div><div class="key"><i>🌡️</i><div><strong>Temps sec dominant</strong>Conditions anticycloniques, très peu de précipitations, surtout en seconde partie de semaine.</div></div><div class="key"><i>⛈️</i><div><strong>Risque d'orages isolés</strong>Quelques averses possibles lundi et mardi, mais tout à fait limitées.</div></div><div class="key"><i>💡</i><div><strong>Incertitude sur l'intensité</strong>Les modèles divergent sur l'ampleur de la hausse thermique, pouvant atteindre 30°C localement.</div></div><div class="key"><i>💨</i><div><strong>Vent parfois assez fort</strong>Sur le littoral, des rafales de Sud-Ouest jeudi, puis secteur Ouest modéré.</div></div>
     </div>
   </div>
 
@@ -756,28 +759,28 @@
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">Modèle CEP (ECMWF) - Déterministe et Ensembliste</div>
-              <span class="status-badge status-main">documented</span>
+              <div class="model-name">ECMWF (ensembles)</div>
+              <span class="status-badge status-main">Cité avec sa tendance pour la région.</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">4</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Amélioration mardi. Hausse des températures mercredi et jeudi. Maintien d'un temps chaud et sec pour vendredi et samedi, avec une possible dégradation dimanche.</span>
+              <span class="chip">3</span>
+              <span class="chip">Run : Dernier run disponible (27/08/2026)</span>
+              <span class="chip">Dès mercredi, accentuation vendredi et samedi.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Scénario majoritaire d'un retour d'un puissant anticyclone à partir de mercredi. Les températures remontent nettement, avec un possible pic de chaleur jeudi ou vendredi. (93 caractères)</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Temps sec et ensoleillé, chaleur en hausse à partir de mercredi. (52 caractères)</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Toute la région, avec des températures potentiellement plus élevées dans l'intérieur des terres.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>Mise en place d'un anticyclone sur l'Europe de l'Ouest avec flux de sud-ouest, advection chaude en fin de semaine, températures nettement au-dessus des normales. (150 caractères)</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Temps sec et ensoleillé, mais risque de chaleur modérée à forte (30-33°C possibles dans les terres).</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Tous les HDF, plus marqué sur l'intérieur (Oise, Aisne) que sur le littoral.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (65 %)</strong></div>
-              <div class="bar"><div class="fill" style="width:65%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Le scénario est soutenu par les discussions Infoclimat, qui voient une "vaste dorsale" s'installer. Cependant, la fin de semaine est encore floue.</strong></div>
+              <div class="score-label">Extraction : <strong>Modérée (60%)</strong></div>
+              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Discussions du topic (petit âge glaciaire 11, cédric du Lot, Jojobarbar).</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                Le CEP voit une cellule anticyclonique s'installer. Les températures à 850 hPa sont prévues en hausse, atteignant 18 à 20°C. Toutefois, la durée et l'intensité exacte de ce pic de chaleur restent incertaines.
+                Les ensembles montrent des anomalies de T850 de +2 à +12°C, indiquant une forte incertitude sur l'intensité.
               </div>
             </details>
           </td>
@@ -787,59 +790,28 @@
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">Modèle GFS (Américain)</div>
-              <span class="status-badge status-main">documented</span>
+              <div class="model-name">GFS (déterministe et ensembles)</div>
+              <span class="status-badge status-main">Brièvement évoqué.</span>
             </div>
             <div class="chips" style="margin-top:6px;">
               <span class="chip">2</span>
-              <span class="chip">Run : 12Z</span>
-              <span class="chip">Mardi et mercredi secs et assez chauds. Jeudi et vendredi plus chauds, avec un risque d'orages en fin de journée.</span>
+              <span class="chip">Run : Dernier run disponible (27/08/2026)</span>
+              <span class="chip">Fin de semaine, surtout vendredi 4 et samedi 5.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Scénario similaire au CEP pour le début de semaine, puis un flux de Sud-Ouest plus dynamique. La chaleur pourrait être moins intense et plus brève. (93 caractères)</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Temps sec, chaleur modérée en milieu de semaine, puis possible dégradation orageuse. (65 caractères)</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Toute la région, avec un risque d'orages en fin de semaine.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>Remontée d'un dôme de chaleur depuis l'Espagne, avec températures en hausse marquée à partir de jeudi, puis pic vendredi/samedi. (145 caractères)</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Ciel dégagé, chaleur modérée à forte, mais risque d'orages isolés en fin de période.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Sud et est de la région plus exposés à la chaleur, littoral tempéré par la brise.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (65 %)</strong></div>
-              <div class="bar"><div class="fill" style="width:65%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Le scénario GFS est plus nerveux. Il voit un possible creusement dépressionnaire sur le proche Atlantique, ce qui limiterait la durée de la chaleur.</strong></div>
+              <div class="score-label">Extraction : <strong>Faible (45%)</strong></div>
+              <div class="bar"><div class="fill" style="width:45%; background:var(--red);"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Mentionné par les membres pour la France, pas de détail HDF.</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                Le GFS suggère une remontée chaude moins franche que le CEP. L'anticyclone serait moins solide, laissant passer une petite perturbation en fin de semaine.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">Modèle AROME (Météo-France)</div>
-              <span class="status-badge status-main">documented</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">1</span>
-              <span class="chip">Run : 00Z</span>
-              <span class="chip">Instabilité lundi matin. Amélioration rapide dès l'après-midi. Beau temps mardi et mercredi.</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Modèle à haute résolution, utile pour les premiers jours. Il prévoit un lundi encore instable avec des averses, puis un retour du soleil et une hausse des températures dès mardi. (100 caractères)</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Averses lundi, puis temps sec et ensoleillé avec une chaleur modérée à partir de mardi. (67 caractères)</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Littoral et intérieur des terres.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (65 %)</strong></div>
-              <div class="bar"><div class="fill" style="width:65%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Cohérent avec les tendances à court terme des bulletins Météo-France.</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                AROME est surtout fiable pour les 48 à 72 premières heures. Il montre une dégradation rapide lundi, puis un temps sec et calme.
+                Possibilité de 30°C+ dans l'Oise, mais la dispersion des scénarios est forte.
               </div>
             </details>
           </td>
@@ -855,10 +827,12 @@
   <div class="section">
     <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 2)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Ce qui converge</h3><p>- <strong>Amélioration mardi</strong> : Tous les modèles s'accordent sur une amélioration nette à partir de mardi 1er septembre.
-- <strong>Remontée des températures</strong> : Un consensus se dégage pour une hausse des températures en milieu de semaine, avec un flux de Sud-Ouest.</p></div>
-      <div class="card"><h3>Ce qui diverge</h3><p>- <strong>Intensité de la chaleur</strong> : Forte divergence sur l'intensité du pic de chaleur en fin de semaine. Le CEP voit un pic plus marqué et durable, alors que le GFS le voit moins intense et plus court.
-- <strong>Fin de semaine</strong> : Le GFS envisage une dégradation orageuse pour jeudi/vendredi, tandis que le CEP maintient un temps sec et chaud. Les discussions Infoclimat (Nicolas L, Jojobarbar) pointent cette incertitude.</p></div>
+      <div class="card"><h3>Ce qui converge</h3><p>- Temps sec à partir de mercredi avec un temps ensoleillé.
+- Hausse des températures, surtout en fin de semaine.
+- Conditions anticycloniques dominantes.</p></div>
+      <div class="card"><h3>Ce qui diverge</h3><p>- Intensité de la chaleur : de 24°C à 30°C selon les scénarios.
+- Présence possible d'orages isolés en fin de période (non modélisés avec fiabilité).
+- Position exacte de l'anticyclone, pouvant orienter le flux de sud-ouest ou d'ouest.</p></div>
     </div>
   </div>
 
@@ -876,7 +850,7 @@
             <span class="zone-icon">🦁</span>
             <h3>Nord (59)</h3>
           </div>
-          <div class="zone-short-desc">Lundi encore instable avec des averses. Amélioration et retour d'un temps sec et ensoleillé à partir de mardi.</div>
+          <div class="zone-short-desc">Temps sec et ensoleillé avec des nuages élevés, chaleur modérée en fin de semaine.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -885,11 +859,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Lundi encore instable avec des averses. Amélioration et retour d'un temps sec et ensoleillé à partir de mardi.</li><li><b>Températures :</b> Lundi : 22°C. Mardi à dimanche : hausse progressive (23 à 28°C). Nuits : 12 à 16°C.</li><li><b>Pluie / Orages :</b> Averses lundi matin. Temps sec du mardi au samedi. Risque d'orages possible dimanche.</li><li><b>Vent :</b> Vent de Sud-Ouest assez fort lundi (rafales possibles). Vent plus modéré ensuite.</li><li><b>Période sensible :</b> Lundi matin pour le vent et la pluie. Dimanche après-midi pour un possible risque orageux.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Lille, Dunkerque, Valenciennes • 4 mentions</li>
+          <li><b>Temps dominant :</b> Temps sec et ensoleillé avec des nuages élevés, chaleur modérée en fin de semaine.</li><li><b>Températures :</b> Min 11-15°C, Max 21-25°C en début, 25-28°C en fin de semaine.</li><li><b>Pluie / Orages :</b> Risque d'averses lundi et mardi, puis temps sec.</li><li><b>Vent :</b> Vent de Sud-Ouest modéré, rafales possibles près du littoral.</li><li><b>Période sensible :</b> Vendredi et samedi après-midi</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS • Secteurs : Lille, Dunkerque, Valenciennes • 3 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Incertitude sur l'intensité et la durée du pic de chaleur en fin de semaine (jeudi/vendredi). Incertitude sur le retour d'une dégradation dimanche.</span>
+          <span class="chip-uncert">Incertitude : La hausse thermique est incertaine ; le littoral pourrait rester plus frais avec la brise.</span>
         </div>
       </div>
     </details>
@@ -903,7 +877,7 @@
             <span class="zone-icon">🌊</span>
             <h3>Pas-de-Calais (62)</h3>
           </div>
-          <div class="zone-short-desc">Lundi pluvieux et venteux. Amélioration rapide à partir de mardi, avec un temps sec et assez chaud.</div>
+          <div class="zone-short-desc">Temps variable lundi, puis sec et ensoleillé, paquets nuageux possibles sur le littoral.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -912,11 +886,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Lundi pluvieux et venteux. Amélioration rapide à partir de mardi, avec un temps sec et assez chaud.</li><li><b>Températures :</b> Lundi : 21 à 24°C. Mardi à dimanche : remontée (22 à 27°C). Nuits : 12 à 15°C.</li><li><b>Pluie / Orages :</b> Pluie ou averses lundi matin. Temps sec de mardi à samedi. Risque d'averses possible en fin de semaine.</li><li><b>Vent :</b> Vent de Sud-Ouest assez fort lundi, avec rafales. Vent modéré ensuite.</li><li><b>Période sensible :</b> Lundi matin pour le vent fort. Jeudi et vendredi pour le pic de chaleur potentiel sur le littoral.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Arras, Calais, Boulogne-sur-Mer • 4 mentions</li>
+          <li><b>Temps dominant :</b> Temps variable lundi, puis sec et ensoleillé, paquets nuageux possibles sur le littoral.</li><li><b>Températures :</b> Min 12-14°C, Max 21-24°C, puis 24-27°C en fin de semaine.</li><li><b>Pluie / Orages :</b> Averses possibles lundi, puis aucun risque significatif.</li><li><b>Vent :</b> Vent d'Ouest-Sud-Ouest modéré, assez fort près des caps jeudi.</li><li><b>Période sensible :</b> Vendredi après-midi</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS • Secteurs : Arras, Calais, Boulogne, Lens • 3 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Intensité du coup de chaud en fin de semaine (potentiel 30°C sur le littoral selon CEP). Incertitude sur une dégradation en fin de semaine.</span>
+          <span class="chip-uncert">Incertitude : Les températures pourraient être plus fraîches sur le littoral et en hausse dans les terres.</span>
         </div>
       </div>
     </details>
@@ -930,7 +904,7 @@
             <span class="zone-icon">🦆</span>
             <h3>Somme (80)</h3>
           </div>
-          <div class="zone-short-desc">Lundi encore perturbé avec des averses. Puis retour d'un temps sec et plus chaud, avec un possible pic de chaleur jeudi/vendredi.</div>
+          <div class="zone-short-desc">Temps assez ensoleillé, passages nuageux en début, puis chaleur sèche.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -939,11 +913,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Lundi encore perturbé avec des averses. Puis retour d'un temps sec et plus chaud, avec un possible pic de chaleur jeudi/vendredi.</li><li><b>Températures :</b> Lundi : 22°C. Mardi à dimanche : 23 à 28°C. Nuits : 12 à 15°C.</li><li><b>Pluie / Orages :</b> Averses lundi. Temps sec de mardi à dimanche, avec un risque d'orage très incertain en fin de semaine.</li><li><b>Vent :</b> Vent de Sud-Ouest assez fort lundi. Vent plus modéré ensuite.</li><li><b>Période sensible :</b> Lundi pour les averses. Jeudi et vendredi pour le possible pic de chaleur.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Amiens, Abbeville, Péronne • 4 mentions</li>
+          <li><b>Temps dominant :</b> Temps assez ensoleillé, passages nuageux en début, puis chaleur sèche.</li><li><b>Températures :</b> Min 12-14°C, Max 21-24°C, puis 24-27°C en fin.</li><li><b>Pluie / Orages :</b> Risque d'averses lundi mardi matin, puis sec.</li><li><b>Vent :</b> Vent de Sud-Ouest modéré, renforcé sur le littoral.</li><li><b>Période sensible :</b> Vendredi</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS • Secteurs : Amiens, Abbeville, Péronne • 3 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Le scénario le plus chaud (CEP) est très net mais le GFS est moins chaud. Incertitude sur l'ampleur de la hausse.</span>
+          <span class="chip-uncert">Incertitude : La Picardie maritime pourrait rester sous les nuages plus longtemps.</span>
         </div>
       </div>
     </details>
@@ -957,7 +931,7 @@
             <span class="zone-icon">🏰</span>
             <h3>Oise (60)</h3>
           </div>
-          <div class="zone-short-desc">Amélioration rapide dès mardi. Retour d'un temps sec et ensoleillé, avec une hausse nette des températures en fin de semaine.</div>
+          <div class="zone-short-desc">Temps sec et ensoleillé, chaleur modérée à forte en fin de semaine.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -966,11 +940,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Amélioration rapide dès mardi. Retour d'un temps sec et ensoleillé, avec une hausse nette des températures en fin de semaine.</li><li><b>Températures :</b> Lundi : 21 à 23°C. Mardi à dimanche : 23 à 28°C possibles. Nuits : 11 à 15°C.</li><li><b>Pluie / Orages :</b> Pluie ou averses lundi. Temps sec de mardi à dimanche.</li><li><b>Vent :</b> Vent de Sud-Ouest modéré lundi. Vent faible ensuite.</li><li><b>Période sensible :</b> Jeudi et vendredi pour le pic de chaleur potentiel.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Beauvais, Compiègne, Senlis • 4 mentions</li>
+          <li><b>Temps dominant :</b> Temps sec et ensoleillé, chaleur modérée à forte en fin de semaine.</li><li><b>Températures :</b> Min 11-14°C, Max 21-25°C, puis 27-30°C possibles.</li><li><b>Pluie / Orages :</b> Averses possibles lundi, puis aucun risque.</li><li><b>Vent :</b> Vent de Sud-Ouest faible à modéré.</li><li><b>Période sensible :</b> Samedi après-midi</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS • Secteurs : Beauvais, Compiègne, Senlis • 3 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Le scénario CEP est très chaud (possible 30°C), le GFS est plus modéré. La tendance est sèche mais la durée de la chaleur est incertaine.</span>
+          <span class="chip-uncert">Incertitude : Le pic de chaleur est le plus probable dans ce département, mais à confirmer.</span>
         </div>
       </div>
     </details>
@@ -984,7 +958,7 @@
             <span class="zone-icon">🍇</span>
             <h3>Aisne (02)</h3>
           </div>
-          <div class="zone-short-desc">Lundi encore des averses. Amélioration mardi, puis temps sec et chaud à partir de mercredi.</div>
+          <div class="zone-short-desc">Temps sec et ensoleillé, chaleur modérée à forte en fin de semaine.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Modérée</span>
@@ -993,11 +967,11 @@
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Lundi encore des averses. Amélioration mardi, puis temps sec et chaud à partir de mercredi.</li><li><b>Températures :</b> Lundi : 22 à 24°C. Mardi à dimanche : 23 à 29°C. Nuits : 11 à 15°C.</li><li><b>Pluie / Orages :</b> Averses lundi. Temps sec de mardi à dimanche.</li><li><b>Vent :</b> Vent de Sud-Ouest modéré lundi. Vent faible ensuite.</li><li><b>Période sensible :</b> Jeudi et vendredi pour le pic de chaleur potentiel.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Laon, Saint-Quentin, Soissons • 4 mentions</li>
+          <li><b>Temps dominant :</b> Temps sec et ensoleillé, chaleur modérée à forte en fin de semaine.</li><li><b>Températures :</b> Min 11-15°C, Max 22-24°C, puis 26-29°C possibles.</li><li><b>Pluie / Orages :</b> Averses lundi, puis sec.</li><li><b>Vent :</b> Vent de Sud-Ouest modéré.</li><li><b>Période sensible :</b> Vendredi et samedi</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS • Secteurs : Laon, Saint-Quentin, Soissons • 3 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Modérée</span>
-          <span class="chip-uncert">Incertitude : Incertitude sur l'intensité de la chaleur en fin de semaine. Les diagrammes montrent une dispersion très forte.</span>
+          <span class="chip-uncert">Incertitude : L'ampleur de la hausse dépend de l'orientation du flux.</span>
         </div>
       </div>
     </details>
@@ -1008,23 +982,26 @@
   <div class="section">
     <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 2</h2></div></div>
     <div class="timeline">
-      <div class="phase"><b>Lundi 31 août - Mardi 1er septembre (transition)</b><p>Temps encore instable lundi, avec des averses, avant une amélioration mardi.</p></div>
-      <div class="phase"><b>Mercredi 2 septembre - Samedi 6 septembre (retour de la chaleur)</b><p>Temps sec, ensoleillé et assez chaud. Pic de chaleur possible jeudi ou vendredi.</p></div>
-      <div class="phase"><b>Phase 3</b><p>-</p></div>
-      <div class="phase"><b>Phase 4</b><p>-</p></div>
+      <div class="phase"><b>Lundi 31 août - Mardi 1 septembre</b><p>Temps encore instable avec quelques averses, températures de saison.</p></div>
+      <div class="phase"><b>Mercredi 2 - Jeudi 3 septembre</b><p>Soleil de plus en plus généreux, températures en hausse modérée.</p></div>
+      <div class="phase"><b>Vendredi 4 - Samedi 5 septembre</b><p>Pic de chaleur probable, avec des maximales pouvant atteindre 28-30°C dans les terres.</p></div>
+      <div class="phase"><b>Dimanche 6 septembre</b><p>Fin de la semaine 2, maintien du temps sec et chaud, incertitudes pour la suite.</p></div>
     </div>
   </div>
 
   <div class="section">
     <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 2)</h2></div></div>
     <div class="compare">
-      <div class="card"><h3>Éléments solides</h3><p>- Amélioration nette à partir de mardi 1er septembre.
-- Températures en hausse, avec un ressenti estival en seconde partie de semaine.</p></div>
-      <div class="card"><h3>Éléments fragiles</h3><p>- L'intensité du retour de la chaleur est très incertaine (écart de 3 à 5°C selon les modèles pour jeudi/vendredi).
-- La position de la limite pluie/beau temps est encore floue pour la fin de semaine.</p></div>
+      <div class="card"><h3>Éléments solides</h3><p>- Pas de pluie significative attendue après mercredi, sur l'ensemble des HDF.
+- Températures en hausse progressive, avec un ressenti de plus en plus chaud.
+- Conditions anticycloniques stables.</p></div>
+      <div class="card"><h3>Éléments fragiles</h3><p>- Le pic de chaleur pourrait être atteint dès jeudi ou seulement samedi.
+- Possibilité d'orages isolés en fin de semaine, mais non modélisés de manière fiable.
+- La limite entre la chaleur forte et modérée est très incertaine.</p></div>
     </div>
-    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : - Évolution des runs du CEP et du GFS pour jeudi et vendredi.
-- Surveiller la possibilité d'une dégradation orageuse en fin d'échéance.</div>
+    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : - Les runs d'ECMWF et GFS de jeudi pour affiner la trajectoire du dôme de chaleur.
+- Les sorties d'AROME pour la fin de semaine, afin de détecter d'éventuels orages.
+- Les bulletins Météo-France pour la mise à jour de la tendance à J+7.</div>
   </div>
 
   <div class="section">
@@ -1065,7 +1042,7 @@
                 <div class="sparkline-row"><span>26/08 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>26/08 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>26/08 :</span> <span>███████░░░ Modérée</span></div>
-<div class="sparkline-row"><span>26/08 :</span> <span>███████░░░ Modérée</span></div>
+<div class="sparkline-row"><span>27/08 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>27/08 :</span> <span>███████░░░ Modérée</span></div>
             </div>
         </div>
@@ -1073,8 +1050,8 @@
             <h3>🌡️ Évolution des températures</h3>
             <div class="sparkline">
                 
-            <div class="sparkline-row"><span>Précédent run :</span> <span>Orages avec grêle possible, fortes rafales, puis net rafraîchissement vendredi. (78 caractères)</span></div>
-            <div class="sparkline-row"><span>Run actuel :</span> <span>Orages jeudi, puis rafraîchissement net avec averses vendredi et samedi. (68 caractères)</span></div>
+            <div class="sparkline-row"><span>Précédent run :</span> <span>Orages jeudi, puis rafraîchissement net avec averses vendredi et samedi. (68 caractères)</span></div>
+            <div class="sparkline-row"><span>Run actuel :</span> <span>Orages localement forts, grêle possible dans l'Oise et l'Aisne, fortes rafales (85-90 km/h) en soirée jeudi.</span></div>
             <div class="sparkline-row"><span>Évolution :</span> <span><span class="trend-pill trend-up">➡️ Évolution</span></span></div>
             
             </div>
@@ -1082,26 +1059,17 @@
     </div>
 
     <div class="grid grid-2">
-      <div class="card"><h3>Évolution générale</h3><p>Après une semaine 1 marquée par une dégradation orageuse et un net rafraîchissement, la semaine 2 voit un retour progressif de conditions anticycloniques, sèches et plus chaudes, avec un possible pic de chaleur en fin d'échéance.</p></div>
-      <div class="card"><h3>Semaine la plus fiable</h3><p>La semaine 1 (du 27 au 30 août) est la plus fiable, avec un scénario bien calibré par les modèles et les bulletins officiels.</p></div>
-      <div class="card"><h3>Phénomènes récurrents</h3><p>- Orages en début de période (jeudi).
-- Averses résiduelles vendredi et samedi.
-- Retour d'un temps sec et chaud en semaine 2.</p></div>
-      <div class="card"><h3>Incertitude majeure</h3><p>- L'intensité et la durée du pic de chaleur en semaine 2 (écart de 3 à 5°C selon les modèles).
-- La possibilité d'une dégradation orageuse en toute fin d'échéance (dimanche 6 septembre).</p></div>
+      <div class="card"><h3>Évolution générale</h3><p>Après un épisode orageux violent jeudi 27, le temps se rafraîchit nettement pour le week-end, puis se stabilise sous anticyclone avec une remontée des températures en début septembre, possiblement au-dessus des normales.</p></div>
+      <div class="card"><h3>Semaine la plus fiable</h3><p>Semaine 1 (27-30 août) avec une confiance élevée sur les orages et le rafraîchissement.</p></div>
+      <div class="card"><h3>Phénomènes récurrents</h3><p>Orages violents en masse d'air chaud, puis retour de la chaleur sèche, sécheresse des sols persistante.</p></div>
+      <div class="card"><h3>Incertitude majeure</h3><p>L'intensité du pic de chaleur en semaine 2 (28°C-30°C ?), la localisation exacte des fortes pluies jeudi, et le possible retour d'orages en fin de période.</p></div>
     </div>
   </div>
 
   <div class="section">
     <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn</h2></div></div>
     <div class="linkedin-box">
-      <div id="linkedin" class="linkedin">🌦️ <strong>Bulletin météo des Hauts-de-France</strong> 🌦️
-Préparez-vous à un changement de temps radical !
-✅ <strong>Jeudi 27</strong> : Orages potentiellement forts, avec un risque de grêle et de fortes rafales. Températures encore élevées (27 à 30°C).
-❄️ <strong>Vendredi 28</strong> : Net rafraîchissement ! Maximales en baisse à 20-22°C et averses.
-☀️ <strong>Semaine prochaine</strong> : Retour d'un temps sec et plus chaud dès mardi. Un pic de chaleur est possible en fin de semaine, mais l'incertitude est forte.
-👉 Restez prudents et suivez l'évolution des prévisions !
-#Météo #HautsDeFrance #Prévisions #Orages #Chaleur #Lille #Amiens</div>
+      <div id="linkedin" class="linkedin">🌩️ Orages violents attendus jeudi sur les Hauts-de-France, puis un net rafraîchissement pour le week-end ! La semaine suivante s'annonce sèche et plus chaude, avec un possible pic de chaleur en fin de semaine. Prudence et vigilance jaune orages en vigueur. #Météo #HautsDeFrance #Orages</div>
     </div>
   </div>
 </section>
@@ -1113,14 +1081,12 @@ Préparez-vous à un changement de temps radical !
       💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté des informations. Le <i>soutien du scénario</i> qualifie le niveau d'accord entre les modélisations sans chiffre artificiel.
     </div>
     <div class="grid grid-2">
-      <div class="card"><h3>Calendrier</h3><p>Le timing du pic de chaleur en semaine 2 est incertain. Il pourrait survenir jeudi 3, vendredi 4 ou être décalé au week-end.</p></div>
-      <div class="card"><h3>Localisation</h3><p>La localisation exacte des orages jeudi 27 est encore floue. Les zones les plus à risque pourraient se décaler légèrement vers l'est ou l'ouest.</p></div>
-      <div class="card"><h3>Intensité</h3><p>La puissance des orages de jeudi est incertaine. Les modèles haute résolution (AROME) prévoient localement de la grêle, mais cela reste à confirmer.</p></div>
-      <div class="card"><h3>Données manquantes</h3><p>- Manque de données de suivi en temps réel pour affiner les prévisions orageuses de jeudi.
-- Les sorties des modèles à haute résolution (WRF, AROME) ne sont pas toutes disponibles pour la semaine 2.</p></div>
-      <div class="card"><h3>Modèles peu documentés</h3><p>- Modèle GEM (Canadien) : Non disponible dans les sources.
-- Modèle ICON (Allemand) : Non disponible dans les sources.</p></div>
-      <div class="card"><h3>Images incertaines</h3><p>Images satellites et radar non disponibles pour vérifier la couverture nuageuse actuelle et initialiser les modèles.</p></div>
+      <div class="card"><h3>Calendrier</h3><p>Le pic de chaleur de la semaine 2 pourrait survenir vendredi ou samedi, selon la vitesse de propagation du dôme de chaleur ; incertitude de 24h.</p></div>
+      <div class="card"><h3>Localisation</h3><p>Les orages violents de jeudi pourraient se concentrer sur l'intérieur des terres plutôt que le littoral, mais des rafales sont possibles partout.</p></div>
+      <div class="card"><h3>Intensité</h3><p>Les cumuls de pluie orageuse pourraient atteindre 30-40 mm localement, mais les modèles restent incertains ; la chaleur maximale en fin de semaine varie de 24°C à 30°C.</p></div>
+      <div class="card"><h3>Données manquantes</h3><p>Pas d'analyse détaillée des risques de sécheresse pour les HDF, ni de l'évolution des nappes phréatiques.</p></div>
+      <div class="card"><h3>Modèles peu documentés</h3><p>AROME, ICON, UKMO et les modèles d'ensembles d'autres agences (CEP) ne sont pas commentés spécifiquement pour les HDF.</p></div>
+      <div class="card"><h3>Images incertaines</h3><p>Les prévisions d'images satellites pour les orages de jeudi ont montré des divergences entre les runs ; la localisation exacte des cellules reste floue.</p></div>
     </div>
   </div>
 </section>
