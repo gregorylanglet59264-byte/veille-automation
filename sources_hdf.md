@@ -292,7 +292,7 @@ Températures minimales : sans changement significatif.
 Températures maximales : en hausse sur les trois quarts Sud du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 261620 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 26 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 26 août 2026 à 12H00 UTC, et évolution Dépression 1003 hPa 250 Nm au sud-ouest de l'Irlande quasi stationnaire. Talweg associé jusqu'au sud-ouest de la France remontant vers le nord de la France. Dépression orageuse 1004 hPa en fond de golfe de Gascogne se décalant vers le nord-est la nuit, prévue 1008 hPa sur le sud de la mer du Nord demain à la mi-journée. 3 - Prévisions pour la nuit du mercredi 26 août au jeudi 27 août VENT : virant Est 3 à 4 en soirée, virant Sud 5 à 6 en fin de nuit. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord en fin de nuit. TEMPS : voilé, averses orageuses par le sud en toute fin de nuit. VISIBILITE : bonne, puis mauvaise sous orages. 4 - Prévisions pour la journée du jeudi 27 août VENT : Sud à Sud-Est 3 à 4, virant Sud-Ouest en milieu de journée. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord. TEMPS : nuageux, averses et orages le matin et en fin de journée. VISIBILITE : bonne, localement mauvaise sous orages. 5 - Tendance pour la nuit du 27 au 28, et la journée du vendredi 28 août VENT : Sud-Ouest 3 à 4, fraîchissant 4 à 5 le matin puis 5 à 6 l'après-midi. Rafales. MER : peu agitée, devenant agitée en fin de journée. HOULE : non significative. TEMPS : averses parfois orageuses la nuit, pluie en journée. VISIBILITE : mauvaise sous précipitations. 6 - Prévisions pour la nuit du 28 au 29 et la journée du samedi 29 août VENT : Sud-Ouest 7 mollissant 5 à 6 en début de nuit. Rafales. MER : agitée, devenant temporairement forte en début de nuit en Manche. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en seconde partie de nuit. 7 - Tendance pour les jours suivants Dimanche 30 août Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Lundi 31 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Mardi 1 septembre Secteur Ouest modéré. Indice de confiance : 2 sur 5 Mercredi 2 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le mercredi 26 août 2026 à 15H00 UTC Dunkerque : vent Nord-Est 10 noeuds, 1013 hPa en baisse. Cap Gris Nez : vent Nord-Nord-Est 6 noeuds. Boulogne : vent Nord 6 noeuds, 1013 hPa en baisse, nuageux avec éclaircies, visibilité 6 milles. Prochain bulletin le jeudi 27 août 2026, vers 06H30 légales
+FQCT40 LFQQ 270335 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 27 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 27 août 2026 à 00H00 UTC, et évolution Dépression 1002 hPa au sud de l'Irlande quasi stationnaire, se comblant demain. Perturbations pluvio-orageuses associées traversant le domaine aujourd'hui et la nuit prochaine. Nouvelle dépression se creusant 1005 hPa sur la mer d'Irlande ce soir, se décalant au nord-ouest demain. 3 - Prévisions pour la journée du jeudi 27 août VENT : Secteur Sud-Est 2 à 4, virant Sud-Ouest en milieu de journée. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord. TEMPS : nuageux, averses et orages. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 4 - Prévisions pour la nuit du jeudi 27 août au vendredi 28 août VENT : Sud-Ouest 3 à 4. Fortes rafales sous orages. MER : belle à peu agitée. HOULE : non significative, localement Nord-Est 0.5 à 1 m en Mer du Nord en première partie de nuit. TEMPS : nuageux, averses et orages. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du vendredi 28 août VENT : Sud-Ouest 3 à 4, fraîchissant 4 à 5 le matin puis 5 à 6 l'après-midi. Fortes rafales sous orages. MER : peu agitée, devenant peu agitée à agitée l'après-midi. HOULE : non significative. TEMPS : nuageux, averses et orages. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 6 - Prévisions pour la nuit du 28 au 29 et la journée du samedi 29 août VENT : Sud-Ouest 5 à 6, fraîchissant 7 en milieu d'après-midi. MER : peu agitée à agitée. HOULE d'Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Dimanche 30 août Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Lundi 31 août Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Mardi 1 septembre Secteur Ouest modéré. Indice de confiance : 2 sur 5 Mercredi 2 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 2 sur 5 8 - Observations le jeudi 27 août 2026 à 03H00 UTC Dunkerque : vent Est 12 noeuds, 1009 hPa en baisse. Cap Gris Nez : vent Est-Sud-Est 12 noeuds. Boulogne : vent Est-Sud-Est 8 noeuds, 1009 hPa en baisse, très nuageux à couvert, visibilité 13 milles. Prochain bulletin le jeudi 27 août 2026, vers 12H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -320,11 +320,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Recensement des tornades en France
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 27/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -332,9 +332,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 27 Août 2026.
-Résumé général HDF précédent : Après une semaine 1 marquée par une dégradation orageuse et un net rafraîchissement, la semaine 2 voit un retour progressif de conditions anticycloniques, sèches et plus chaudes, avec un possible pic de chaleur en fin d'échéance..
+Résumé général HDF précédent : Après un épisode orageux violent jeudi 27, le temps se rafraîchit nettement pour le week-end, puis se stabilise sous anticyclone avec une remontée des températures en début septembre, possiblement au-dessus des normales..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages jeudi, puis rafraîchissement net avec averses vendredi et samedi. (68 caractères).
+Températures attendues précédemment : Orages localement forts, grêle possible dans l'Oise et l'Aisne, fortes rafales (85-90 km/h) en soirée jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 27 au Dimanche 30 Août 2026) ===
@@ -519,7 +519,7 @@ Auteur: Membre
 Message:
 Pour demain, une nouvelle fois sur un axe qui partira globalement du SO du MC au NE du pays,on a une combinaison encore une fois d'instabilité/cisaillement profond et même en surface d'un très haut niveau,associé à des niveaux de SRH élevés.Par conséquent les modèles réagissent sur tous les risques convectifs dans cet environnement très favorable aux orages supercellulaires. Le risque de grêle &gt; à 5 cm est très étendu sur le pays mais aussi de rafales &gt; à 110km/h et celui de tornades et non négligeable également.
 	ASTORP résume tout cela,c'est aussi visible sur les SCP et RS.
-	Modifié il y a 16 heures par Nico 14
+	Modifié il y a 18 heures par Nico 14
 								3
 
 =======================
@@ -541,7 +541,7 @@ Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez é
 	Edit,je cite Tomas Pucik sur X:
 		Citation
 			Prévisions pour demain [jeudi]. En savoir plus sur https://estofex.org. Remarque à part : Ceci n'est pas un avertissement météorologique officiel ! Il s'agit d'un produit d'orientation destiné en particulier aux météorologues opérationnels. La situation demain pourrait être différente de celle de ce soir. Soyez-en conscient.
-	Modifié il y a 4 heures par Nico 14
+	Modifié il y a 6 heures par Nico 14
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -563,7 +563,7 @@ effectivement une nouvelle VDC dans le sud  à l'horizon ?
 Auteur: cédric du Lot
 Message:
 En tout cas pour le sud du pays on a déjà plus la question a se poser, les tous premiers jours de septembre feront illusions puis la chaleur et le sec feront leur retour, quasiment aucune dispersion des diagrammes  si ce n'est éventuellement une direction vers la forte chaleur dés la fin de cette échéance ou la suivante...
-	Modifié il y a 15 heures par cédric du Lot
+	Modifié il y a 17 heures par cédric du Lot
 								3
 								1
 								1
@@ -576,7 +576,7 @@ Y’en a marre. (Désolé mais ça vient du cœur)
 								5
 								1
 								1
-								11
+								12
 
 =======================
 
@@ -617,7 +617,7 @@ il y a 14 minutes, Tornado75 a dit :
 	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
 	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
 	Une année à mettre aux oubliettes. 
-	Modifié il y a 13 heures par Nicolas L
+	Modifié il y a 15 heures par Nicolas L
 								2
 								2
 
@@ -661,7 +661,7 @@ Il y a 2 heures, edel a dit :
 	En revanche, oui, les températures moyennes globales et de l'après-midi sont inférieures à celles de juin. Mais vu où juin 2026 a mis la barre...
 	Enfin, s'agissant de températures à l'ombre, le fait qu'il y ait plus d'ombre rend en principe un 35 de septembre moins chaud qu'en juin.
 	Le gros suspense c'est : est-ce que entre deux anticyclones en relais, il va parvenir à pleuvoir, et autre chose que des rivières de grêle et autres catastrophes? A priori la réponse est non. 
-	Modifié il y a 10 heures par bruno50
+	Modifié il y a 12 heures par bruno50
 								1
 								2
 
@@ -687,7 +687,7 @@ il y a 54 minutes, edel a dit :
 	Oui à mon avis, c'est une question de temps pour avoir 37 à paris en septembre, ça pourrait même être cette année.
 	Alors évidemment ça monterait moins dans les appart qu'en août...
 	Bon à suivre notre situ, c'est surtout le contraste avec la situ actuelle qui est net, car finalement on retrouve les config type oméga du 10 août, et qui nous bercent depuis mai avec des effets variables au sol selon l'origine du flux 
-	Modifié il y a 11 heures par edd
+	Modifié il y a 13 heures par edd
 
 =======================
 
@@ -759,7 +759,7 @@ il y a 45 minutes, vda77 a dit :
 	Ca veut dire qu'il fait plus chaud en France le 5 septembre que le 15 juin, et il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin. En septembre 2023 on est passé à un cheveu de la vague de chaleur, ça arrivera bien un jour.
 	Pour cette année, il faudrait vraiment que ça se consolide, ce qui n'est pas forcément acquis (GFS 12).
 	Mi mai dans le climat "d'avant' il pouvait geler sur presque tout le territoire hors côte.
-	Modifié il y a 8 heures par th38
+	Modifié il y a 10 heures par th38
 								2
 
 =======================
