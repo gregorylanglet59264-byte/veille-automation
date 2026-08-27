@@ -15,45 +15,45 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 27/08/2026 10:06
+Emis le : 27/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui, Paris et sa petite couronne sont en vigilance orange pour le phénomène orages. Demain, elles seront en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 10h :
-A Paris-Montsouris : température de 22 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1009 hPa, cumul de précipitations en 12h : 3 mm.
-Au Jardin du Luxembourg : température de 22 degrés.
+Aujourd'hui on observait à 12h :
+A Paris-Montsouris : température de 25 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1010 hPa, cumul de précipitations en 12h : 3 mm.
+Au Jardin du Luxembourg : température de 24 degrés.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui jeudi 27 :
-Après un début de journée bien ensoleillé, des nuages se forment, et l'après-midi, des orages éclatent. Ils donnent des averses, parfois sous forme de grêle en fin d'après-midi.
-Les plus forts cumuls de pluie attendus sont de 10 millimètres sur le Val de Marne.
-À la tombée du jour, établissement d'un vent d'Ouest, localement modéré. Rafales atteignant 65 km/h, en fin d'après-midi.
-Températures maximales : comprises entre 28 et 30 degrés.
+• Pour cet après-midi :
+Des orages éclatent tout l'après-midi. Ils peuvent être accompagnés de grêle. Cette situation exceptionnelle appelle chacun à la plus grande vigilance.
+Les plus forts cumuls de pluie attendus sont de 20 millimètres sur le Val de Marne.
+À la tombée du jour, vent s'établissant à l'Ouest modéré, sur une grande moité ouest. Avec des rafales atteignant 65 km/h.
+Températures maximales : entre 28 et 29 degrés.
 
 • Pour la nuit prochaine :
 En début de soirée, le ciel est variable, et des orages éclatent. Mais rapidement, le temps s'améliore, même si quelques averses perdurent jusqu'à minuit, très localement. En seconde partie de nuit, les étoiles sont souvent visibles.
-En seconde partie de nuit, établissement d'un vent de Sud-Ouest, modéré. Rafales atteignant 65 km/h, en début de nuit.
-Températures minimales : de 17 à 18 degrés.
+Vent de Sud-Ouest, localement modéré ; faiblissant temporairement en milieu de période.
+Températures minimales : comprises entre 16 et 17 degrés.
 
 • Pour demain vendredi 28 en journée et la nuit suivante :
-Le temps menaçant du matin, parfois même orageux, cède la place à un ciel bien plus calme l'après-midi. Quelques averses persistent encore en début d'après-midi, mais en fin de journée les précipitations ont cessé. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.
+Tant bien que mal, des éclaircies se faufilent au travers des nombreux nuages qui laissent échapper de bonnes averses par endroits, avec même quelques coups de tonnerre le matin. L'après-midi, l'instabilité s'estompe et les averses se raréfient. Pour la nuit : Le ciel est souvent étoilé la nuit.
 Vent modéré, de Sud-Ouest.
-Températures maximales pour le jour : entre 23 et 24 degrés.
-Températures minimales pour la nuit suivante : de 16 à 17 degrés.
+Températures maximales pour le jour : 23 degrés.
+Températures minimales pour la nuit suivante : comprises entre 15 et 16 degrés.
 
 • Pour la journée de samedi 29 et la nuit suivante :
-En matinée, les nuages laissent place à de belles éclaircies. En cours d'après-midi, sur la Seine-Saint-Denis ainsi que sur le sud-est, les nuages sont plus nombreux, et peuvent donner quelques averses. Pour la nuit : Le ciel est variable. Des averses sont possibles ici ou là en soirée à l'est. Elles cessent rapidement.
+Le ciel est très nuageux. Des averses, faibles et éparses, peuvent se produire de la mi-journée jusqu'au soir. Pour la nuit : La soirée est sans nuages. Les premiers se développent à partir de minuit. Le temps devient variable en seconde partie de nuit.
 Vent de Sud-Ouest, modéré.
-Températures maximales pour le jour : 25 degrés.
-Températures minimales pour la nuit suivante : comprises entre 16 et 17 degrés.
+Températures maximales pour le jour : entre 22 et 24 degrés.
+Températures minimales pour la nuit suivante : de 16 à 17 degrés.
 
 • Pour la journée de dimanche 30 :
-Les éclaircies sont belles en début de journée, puis le ciel se voile.
-Vent de Sud-Ouest, modéré.
-Températures maximales : comprises entre 23 et 25 degrés.
+Éclaircies et passages nuageux se succèdent toute la journée, mais le temps reste le plus souvent sec. Seules quelques averses sont à attendre sur Paris ainsi que sur le sud-est, en fin d'après-midi.
+Vent modéré, de Sud-Ouest.
+Températures maximales : comprises entre 24 et 25 degrés.
 
 • Pour lundi 31 et mardi 01 septembre :
 Temps plutôt ensoleillé, en dépit de quelques passages nuageux ; risque de pluie ou d'averses de lundi matin jusqu'à la mi-journée et de mardi matin jusqu'en fin de journée.
@@ -74,45 +74,46 @@ Températures minimales : en hausse sur une grande moité ouest.
 Températures maximales : en hausse.
 
 === BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===
-Emis le : 27/08/2026 09:30
+Emis le : 27/08/2026 12:30
 
 Vigilance :
 Aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance verte.
 Attention aux fortes vagues sur les plages des Saintes-Maries de la mer a Port-Saint-Louis du Rhone pouvant rendre la baignade dangereuse. L'épisode débute jeudi matin à 6h pour se finir vendredi en milieu de matinée.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Marignane : température de 28 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 30 km/h, pression niveau mer 1011 hPa.
-A Aix-en-Provence : température de 27 degrés, vent de secteur Est soufflant jusqu'à 40 km/h.
+Aujourd'hui on observait à 12h :
+A Marignane : température de 34 degrés, vent de secteur Sud-Est soufflant jusqu'à 40 km/h, pression niveau mer 1012 hPa.
+A Aix-en-Provence : température de 32 degrés, vent de secteur Sud-Est soufflant jusqu'à 30 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui jeudi 27 :
-De larges éclaircies sont prévues, ponctuées de nuages, un peu plus présents en milieu de journée, à Marseille et dans les Calanques ainsi que de l'étang de Berre au pays d'Aix.
-Vent de Sud-Est assez fort, du Rhône à l'étang de Berre. Rafales atteignant 65 km/h, en journée.
-Températures maximales : de 33 à 36 degrés, et 31 degrés de la Camargue au Golfe de Fos.
+• Pour cet après-midi :
+Le ciel est nuageux en début d'après-midi, puis le soleil fait de plus en plus de percées. En fin d'après-midi, les nuages se raréfient. Le temps est même ensoleillé dans le val de Durance ainsi que des Alpilles au golfe de Fos.
+Vent de Sud-Est assez fort, sur une large moitié ouest du département. Rafales atteignant 65 km/h, en fin d'après-midi.
+Températures maximales : comprises entre 32 et 34 degrés.
 
 • Pour la nuit prochaine :
 Les éclaircies, encore belles par endroits en soirée, ne durent pas. Le ciel se charge et en seconde partie de nuit de petites pluies ou des averses se produisent.
-En début de nuit, vent d'Est à Sud-Est soufflant assez fort, sur la Camargue et la Crau ; puis atténuation. Rafales atteignant 65 km/h.
-Températures minimales : entre 22 et 25 degrés.
+En début de nuit, vent d'Est à Sud-Est assez fort, de la Camargue au Golfe de Fos ; atténuation ensuite. Rafales atteignant 65 km/h.
+Températures minimales : comprises entre 22 et 25 degrés. Ces températures se situent localement très au-dessus des valeurs de saison.
 
 • Pour demain vendredi 28 en journée et la nuit suivante :
-Les averses locales se raréfient au fil des heures. Les nuages s'en vont parfois dès la fin de matinée de l'étang de Berre à la Côte Bleue ainsi qu'entre Peyrolles Aix et Aubagne. L'après-midi de très belles éclaircies se dessinent. Pour la nuit : Le ciel est bien étoilé, après la disparition des quelques nuages présents en soirée.
+Les averses locales se raréfient au fil des heures. Les nuages s'en vont parfois dès la fin de matinée de Marignane à Carry le Rouet ainsi qu'entre Peyrolles Aix et Aubagne. L'après-midi de très belles éclaircies se dessinent. Pour la nuit : Le ciel est bien étoilé, après la disparition des quelques nuages présents en soirée.
+Le maximum de pluie attendu est de l'ordre de 5 millimètres sur le pays aixois.
 Vent faible dans l'ensemble.
-Températures maximales pour le jour : entre 28 et 30 degrés, et 32 degrés entre Trets et Aubagne.
-Températures minimales pour la nuit suivante : dans l'intérieur du département de 15 à 18 degrés. Comprises entre 18 et 21 degrés sur le bord de mer.
+Températures maximales pour le jour : entre 28 et 29 degrés.
+Températures minimales pour la nuit suivante : dans l'intérieur du département entre 15 et 17 degrés. De 19 à 20 degrés sur le bord de mer.
 
 • Pour la journée de samedi 29 et la nuit suivante :
-Le temps est ensoleillé du matin au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Vent d'Ouest à Nord-Ouest assez faible.
-Températures maximales pour le jour : de 28 à 31 degrés.
-Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille comprises entre 17 et 20 degrés. 14 degrés sur le val de Durance et la Sainte Baume.
+Le soleil brille sans discontinuer du matin jusqu'au soir. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+Petit vent d'Ouest à Nord-Ouest généralement faible.
+Températures maximales pour le jour : entre 29 et 31 degrés.
+Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille de 17 à 20 degrés. De 14 à 15 degrés sur le val de Durance et la Sainte Baume.
 
 • Pour la journée de dimanche 30 :
-Le soleil règne en maître du matin au soir.
-Vent faible d'Ouest à Nord-Ouest.
-Températures maximales : entre 31 et 34 degrés, et 28 degrés de Marseille à La Ciotat.
+Le soleil brille sans interruption.
+Vent généralement faible.
+Températures maximales : entre 31 et 34 degrés, et 29 degrés de Marseille à La Ciotat.
 
 • Pour lundi 31 et mardi 01 septembre :
 Soleil généreux.
@@ -133,45 +134,46 @@ Températures minimales : sans changement significatif.
 Températures maximales : stables.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 27/08/2026 09:30
+Emis le : 27/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département de la Gironde est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Bordeaux : température de 19 degrés, vent de secteur Sud-Est soufflant jusqu'à 10 km/h, pression niveau mer 1010 hPa, cumul de précipitations en 12h : 2 mm.
-Au Cap-Ferret : température de 20 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 20 km/h.
-A Libourne : température de 19 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h, cumul de précipitations en 12h : 4 mm.
+Aujourd'hui on observait à 12h :
+A Bordeaux : température de 22 degrés, vent de secteur Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1011 hPa.
+Au Cap-Ferret : température de 20 degrés, vent de secteur Ouest soufflant jusqu'à 40 km/h.
+A Libourne : température de 22 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 15 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui jeudi 27 :
-De nombreux nuages encombrent le ciel en matinée et peuvent même donner quelques gouttes sur le Nord-Ouest du département. L'après-midi, le temps devient plus changeant, éclaircies et passages nuageux se disputent le ciel. Les nuages sont inoffensifs.
-L'après-midi jusqu'en début de soirée, établissement d'un vent de Sud-Ouest virant Ouest à Nord-Ouest, modéré.
-Températures maximales : entre 27 et 30 degrés.
+• Pour cet après-midi :
+Les passages nuageux alternent avec quelques éclaircies en début d'après-midi. Des averses sont possibles sur l'Ouest du département. Ensuite, le ciel s'améliore et les périodes ensoleillées sont un peu plus fréquentes.
+Vent de secteur Ouest, généralement modéré.
+Températures maximales : comprises entre 25 et 28 degrés.
 
 • Pour la nuit prochaine :
-Les nuages laissent une belle place aux étoiles, surtout en seconde partie de nuit. Toutefois sur les Landes girondines ainsi que sur l'Ouest du département, les nuages sont un peu plus présents et de petites averses sont possibles en cours de nuit.
-En fin de nuit, vent s'établissant à l'Ouest assez fort, sur le littoral. Avec des rafales atteignant 55 km/h.
-Températures minimales : comprises entre 15 et 17 degrés.
+Les nuages donnent de petites averses en cours de nuit. Toutefois, sur l'Est du département, la nuit reste sèche, et parfois étoilée.
+On attend au maximum jusqu'à 5 millimètres de pluie sur le Bassin d'Arcachon.
+En fin de nuit, vent de Sud-Ouest assez fort, sur le littoral. Avec des rafales atteignant 65 km/h.
+Températures minimales : entre 14 et 17 degrés.
 
 • Pour demain vendredi 28 en journée et la nuit suivante :
-Périodes ensoleillées et passages nuageux se partagent le ciel le matin. Jusqu'à la mi-journée, quelques averses sont possibles sur le Libournais ainsi que sur l'Ouest du département, sous un ciel un peu plus encombré. L'après-midi, le soleil brille sans partage. Pour la nuit : Le ciel est bien étoilé. Cependant sur le littoral les nuages sont nombreux et donnent quelques averses en début de nuit.
-En journée et jusqu'en milieu de nuit, vent d'Ouest à Sud-Ouest soufflant assez fort, sur le littoral ; puis atténuation. Rafales atteignant 65 km/h.
-Températures maximales pour le jour : comprises entre 25 et 28 degrés, et 24 degrés sur le littoral.
-Températures minimales pour la nuit suivante : de 15 à 17 degrés, et 19 degrés sur le bord de mer.
+Périodes ensoleillées et passages nuageux se partagent le ciel le matin. Jusqu'à la mi-journée, quelques averses sont possibles sur le Bassin d'Arcachon ainsi que sur le nord de la Gironde, sous un ciel un peu plus encombré. L'après-midi, le soleil brille sans partage. Pour la nuit : Le ciel est bien étoilé. Cependant sur le littoral les nuages sont nombreux et donnent quelques averses en début de nuit.
+Vent d'Ouest à Sud-Ouest assez fort, sur le littoral. Rafales atteignant 55 km/h, en fin de matinée.
+Températures maximales pour le jour : comprises entre 24 et 26 degrés.
+Températures minimales pour la nuit suivante : entre 15 et 18 degrés, et 19 degrés sur le bord de mer.
 
 • Pour la journée de samedi 29 et la nuit suivante :
-Le soleil règne en maître. Quelques rares nuages peuvent apparaître en fin de matinée, sur le Libournais. Pour la nuit : Le ciel devrait être clair, malgré quelques développements nuageux inoffensifs, vers minuit, sur le littoral.
-Vent généralement modéré, d'Ouest à Sud-Ouest.
-Températures maximales pour le jour : autour de 26 à 29 degrés, et 22 degrés sur le littoral.
-Températures minimales pour la nuit suivante : entre 14 et 17 degrés, et 21 degrés sur le littoral.
+Le soleil devrait largement s'imposer, malgré quelques développements nuageux inoffensifs, en fin de matinée, sur l'Entre-Deux-Mers. Pour la nuit : Les étoiles sont partout présentes. Seul bémol, des nuages en fin de nuit sur le littoral qui peuvent donner quelques gouttes.
+À la mi-journée, vent de Sud-Ouest soufflant assez fort, sur le littoral ; puis atténuation.
+Températures maximales pour le jour : de 26 à 29 degrés, et 22 degrés sur le littoral.
+Températures minimales pour la nuit suivante : comprises entre 15 et 18 degrés, et 20 degrés sur le littoral.
 
 • Pour la journée de dimanche 30 :
 Le soleil est généreux tout au long de la journée.
-Vent de secteur Ouest, modéré.
-Températures maximales : autour de 30 à 33 degrés, et voisines de 22 à 25 degrés sur le bord de mer.
+Vent modéré, de Sud-Sud-Ouest tournant Nord-Ouest.
+Températures maximales : de 28 à 31 degrés, et 22 degrés sur le littoral.
 
 • Pour lundi 31 et mardi 01 septembre :
 Soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire.
@@ -192,47 +194,46 @@ Températures minimales : en hausse sur l'Entre-Deux-Mers.
 Températures maximales : en hausse.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 27/08/2026 09:30
+Emis le : 27/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui, le département du Rhône est en vigilance jaune pour les phénomènes vent et orages. Demain, il sera en vigilance jaune pour les phénomènes vent, orages et pluie-inondation.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Lyon : température de 26 degrés, vent de secteur Est soufflant jusqu'à 20 km/h, pression niveau mer 1011 hPa.
-Aux Sauvages : température de 22 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 30 km/h.
-A Brindas : température de 24 degrés.
+Aujourd'hui on observait à 12h :
+A Lyon : température de 29 degrés, vent de secteur Sud-Est soufflant jusqu'à 20 km/h, pression niveau mer 1011 hPa.
+Aux Sauvages : température de 26 degrés, vent de secteur Sud-Est soufflant jusqu'à 35 km/h.
+A Brindas : température de 28 degrés.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui jeudi 27 :
-Le soleil est généralement voilé par des nuages.
-L'après-midi jusqu'en début de soirée, établissement d'un vent de Sud, généralement assez fort. Rafales atteignant 65 km/h, l'après-midi jusqu'en début de soirée.
-Températures maximales : entre 31 et 34 degrés. Ces températures se situent au-dessus des valeurs normalement observées, par endroits bien au-dessus.
+• Pour cet après-midi :
+Un voile nuageux filtre le soleil.
+Vent de Sud, généralement assez fort. Avec, des rafales atteignant 75 km/h, en fin d'après-midi.
+Températures maximales : de 33 à 35 degrés, et de 30 à 31 degrés sur le relief. Ces températures se situent au-dessus des valeurs normalement observées, par endroits très au-dessus.
 
 • Pour la nuit prochaine :
-Les nuages sont très nombreux et le temps instable. À partir du milieu de la nuit, des averses parfois orageuses se déclenchent.
-Les plus forts cumuls de pluie attendus sont de 30 millimètres sur l'Est-Lyonnais.
-Vent modéré, d'Ouest à Sud-Ouest puis Ouest-Nord-Ouest. Avec des rafales à 55 km/h, localement, en début de nuit.
-Températures minimales : de 15 à 18 degrés.
+En début de nuit, des pluies parfois orageuses tombent, dans le Beaujolais, en Val de Saône ainsi qu'au confluent Brévenne Turdine Azergues. En seconde partie de nuit, l'instabilité gagne du terrain. Les précipitations se généralisent. Des orages peuvent se déclencher. En dehors de ces périodes de précipitations, quelques éclaircies permettent aux étoiles de se montrer.
+On prévoit au maximum jusqu'à 40 millimètres de pluie dans le Beaujolais.
+Vent modéré, d'Ouest à Sud-Ouest virant Ouest-Nord-Ouest. Avec des rafales atteignant, localement, 65 km/h, la nuit.
+Températures minimales : entre 16 et 19 degrés.
 
 • Pour demain vendredi 28 en journée et la nuit suivante :
-En matinée, quelques averses sont prévues. On peut même entendre quelques coups de tonnerre, en région lyonnaise. Dans l'après-midi le temps devient sec, sous un ciel partagé entre éclaircies et passages nuageux, parfois conséquents. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-On prévoit au maximum jusqu'à 5 millimètres de pluie sur l'Est-Lyonnais.
-En milieu d'après-midi, vent de secteur Sud, soufflant modérément par endroits ; nouveau renforcement en fin de nuit, dans les monts du Lyonnais.
-Températures maximales pour le jour : de 23 à 25 degrés, et 27 degrés en Val de Saône.
-Températures minimales pour la nuit suivante : comprises entre 13 et 15 degrés.
+Sous un ciel à dominante nuageuse, quelques averses tombent, dans la matinée. Le temps s'améliore l'après-midi, avec un temps sec et des éclaircies un peu plus belles. Pour la nuit : Les nuages laissent une large place aux étoiles en cours de nuit. Attention toutefois, car avant l'aube, des bancs de brouillards se développent sur l'Est-Lyonnais.
+Etablissement, l'après-midi, d'un vent d'Ouest modéré, dans les monts du Lyonnais ; atténuation ensuite.
+Températures maximales pour le jour : comprises entre 25 et 27 degrés.
+Températures minimales pour la nuit suivante : de 13 à 15 degrés, et 11 degrés dans les monts du Lyonnais.
 
 • Pour la journée de samedi 29 et la nuit suivante :
-Le soleil devrait largement s'imposer, malgré quelques développements nuageux inoffensifs, en fin de matinée, dans le Beaujolais. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Vent variable, faible.
+Le soleil brille sans discontinuer du matin jusqu'au soir. Pour la nuit : Le ciel est bien étoilé.
+Vent faible, variable.
 Températures maximales pour le jour : entre 25 et 28 degrés.
-Températures minimales pour la nuit suivante : comprises entre 13 et 16 degrés.
+Températures minimales pour la nuit suivante : comprises entre 15 et 16 degrés, et 12 degrés dans les monts du Lyonnais.
 
 • Pour la journée de dimanche 30 :
-Le soleil règne en maître du matin au soir.
-Vent faible, variable.
-Températures maximales : comprises entre 27 et 30 degrés.
+Le temps est ensoleillé du matin au soir.
+À la tombée du jour, vent d'Est-Sud-Est modéré, en Val de Saône.
+Températures maximales : entre 28 et 30 degrés.
 
 • Pour lundi 31 et mardi 01 septembre :
 Soleil entrecoupé de quelques passages nuageux ; risque de pluie ou d'averses de lundi matin jusqu'en fin de journée et de mardi matin jusqu'en fin de journée.
@@ -253,46 +254,46 @@ Températures minimales : identiques à la veille.
 Températures maximales : en hausse.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
-Emis le : 27/08/2026 09:30
+Emis le : 27/08/2026 12:30
 
 Vigilance :
 Attention, aujourd'hui, le département de la Haute-Garonne est en vigilance jaune pour les phénomènes vent et orages. Demain, il sera en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 09h :
-A Toulouse-Blagnac : température de 22 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1009 hPa.
-A Luchon : température de 17 degrés, vent de secteur Nord Nord-Est soufflant jusqu'à 10 km/h.
-A Saint-Félix-Lauragais : température de 23 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 15 km/h.
+Aujourd'hui on observait à 12h :
+A Toulouse-Blagnac : température de 28 degrés, vent de secteur Sud soufflant jusqu'à 15 km/h, pression niveau mer 1009 hPa.
+A Luchon : température de 29 degrés, vent de secteur Sud soufflant jusqu'à 75 km/h.
+A Saint-Félix-Lauragais : température de 29 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 35 km/h.
 
 Prévisions pour les tout prochains jours :
 
-• Pour aujourd'hui jeudi 27 :
-Un voile nuageux filtre le soleil.
-En milieu d'après-midi, Autan assez fort, sur le Lauragais ; atténuation ensuite. Rafales atteignant 65 km/h.
-Températures maximales : de 31 à 34 degrés, et 35 degrés dans l'Agglomération toulousaine.
+• Pour cet après-midi :
+L'après-midi débute avec un ciel ensoleillé à peine ponctué de nuage par endroits. Au cours de l'après-midi, un voile apparaît, mais sans altérer l'impression de beau temps.
+Vent généralement modéré, variable. Avec des rafales à 55 km/h, sur le Cagire et le Luchonnais, en milieu d'après-midi.
+Températures maximales : de 31 à 34 degrés, et 35 degrés dans le Muretain.
 
 • Pour la nuit prochaine :
-Éclaircies et passages nuageux alternent toute la nuit. Ces derniers délivrent quelques averses en première partie de nuit. La limite pluie-neige s'abaisse, et de la neige apparaît au-dessus de 3050 mètres en début de nuit.
-Le maximum de pluie attendu est de l'ordre de 5 millimètres sur le Cagire et le Luchonnais.
-En début de nuit, vent de Nord-Ouest modéré, sur le Midi Toulousain ; atténuation ensuite.
-Températures minimales : sur la plaine et le piémont de 16 à 19 degrés. 14 degrés sur le Cagire et le Luchonnais.
+En première partie de nuit, le temps est instable, avec une succession d'averses et d'éclaircies. Il s'agit d'abord de pluie à toute altitude, puis la neige apparaît progressivement jusqu'à 3150 mètres en début de nuit. La fin de nuit est agréable.
+On prévoit au maximum jusqu'à 5 millimètres de pluie sur le Cagire et le Luchonnais.
+En cours de nuit, vent de Nord-Ouest modéré, sur le Midi Toulousain ; atténuation ensuite.
+Températures minimales : sur la plaine et le piémont entre 16 et 18 degrés. 13 degrés sur le Cagire et le Luchonnais.
 
 • Pour demain vendredi 28 en journée et la nuit suivante :
-Le temps est largement ensoleillé. En milieu de journée un voile d'altitude passe, sur le Lauragais, sans ternir cette impression de beau temps. Pour la nuit : Le ciel est clair toute la nuit.
-Vent généralement de Nord à Nord-Ouest modéré, en journée ; puis s'atténuant.
-Températures maximales pour le jour : comprises entre 26 et 29 degrés.
-Températures minimales pour la nuit suivante : sur le Midi Toulousain comprises entre 14 et 17 degrés. Entre 11 et 13 degrés sur le piémont et la montagne.
+Hormis quelques nuages en fin de matinée, sur le Lauragais, le temps reste agréable et ensoleillé. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+Vent de Nord à Nord-Ouest, modéré, en journée ; puis atténuation.
+Températures maximales pour le jour : sur la plaine et le piémont entre 26 et 28 degrés. 24 degrés sur le Cagire et le Luchonnais.
+Températures minimales pour la nuit suivante : de 12 à 15 degrés.
 
 • Pour la journée de samedi 29 et la nuit suivante :
-Le soleil règne en maître du matin au soir. Pour la nuit : Le ciel est bien étoilé.
-Vent faible, variable.
-Températures maximales pour le jour : comprises entre 28 et 31 degrés.
-Températures minimales pour la nuit suivante : sur la plaine et le piémont entre 14 et 17 degrés. 12 degrés sur le Cagire et le Luchonnais.
+Le soleil est généreux tout au long de la journée. Pour la nuit : Le ciel est bien étoilé.
+Vent variable, faible.
+Températures maximales pour le jour : comprises entre 29 et 31 degrés.
+Températures minimales pour la nuit suivante : entre 12 et 15 degrés, et de 16 à 17 degrés du Lauragais aux coteaux de Cadours.
 
 • Pour la journée de dimanche 30 :
-Le temps est ensoleillé du matin au soir.
-En cours d'après-midi, établissement d'un vent variable, modéré par endroits.
-Températures maximales : entre 32 et 35 degrés, et comprises entre 36 et 37 degrés sur la grande plaine toulousaine. Ces températures se situent localement bien au-dessus des valeurs de saison.
+Le soleil brille sans discontinuer du matin jusqu'au soir.
+À la tombée du jour, vent s'établissant à l'Est-Sud-Est modéré, sur le Lauragais.
+Températures maximales : comprises entre 31 et 34 degrés, et 36 degrés sur le Lauragais. Ces températures se situent par endroits très au-dessus des valeurs de saison.
 
 • Pour lundi 31 et mardi 01 septembre :
 Dans le Volvestre ainsi que sur le piémont et la montagne, soleil entrecoupé de quelques passages nuageux. Temps changeant donnant de possibles averses de lundi matin jusqu'en fin de journée, risque de pluie de mardi matin jusqu'en début de nuit. Ailleurs, soleil prédominant.
@@ -321,16 +322,17 @@ FQCT40 LFML 270940 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Vendredi, des fortes pluies pouvant être accompagnées 
-d'orages violents concernent le centre-est et le sud-est du 
-pays. Le risque de fortes précipitations est plus marqué du 
-sud de la Franche-Comté à la région Rhône-Alpes.
-En Corse, le risque de canicule persiste vendredi, voire 
-samedi.
+J+2 et J+3 ﻿Samedi dans la nuit, la Corse restera en vigilance orange 
+Canicule. Par la suite, aucun risque particulier n'est identifié à 
+ce jour.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿À ce stade, le risque de passage en vigilance orange est 
-quasi nul pour la période.
+De J+4 à J+7 ﻿Mardi, des orages se forment dans le sud du pays. Les 
+conditions peuvent localement favoriser le développement de 
+cellules dynamiques. Pour le moment, le risque de passer en 
+vigilance orange pour cet épisode est faible.
+Le reste de la période est calme, aucun passage en vigilance 
+orange n'est actuellement prévu.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -342,12 +344,12 @@ quasi nul pour la période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Recensement des tornades en France
-• Infoclimat Direct : Prévisions régions méditerranéennes - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Centre-Est Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 27/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -355,9 +357,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 27 Août 2026.
-Résumé général précédent : Après une fin de semaine 1 orageuse et plus fraîche, la semaine 2 s'annonce sous le signe d'un retour de la chaleur et du temps sec. Un blocage anticyclonique devrait s'installer sur l'Europe du Sud, protégeant la France des perturbations et favorisant une hausse des températures. Cet épisode pourrait être intense sur le quart sud-est, avec un risque de canicule localisée. La tendance pour la mi-septembre est à la persistance de conditions plus chaudes que la normale..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Le risque est maximal mercredi après-midi et soir, et surtout jeudi. Les orages peuvent produire de fortes pluies (30 mm localement), de la grêle de gros diamètre, des rafales de vent (65 km/h en rafales, localement plus) et une activité électrique soutenue. L'amélioration est nette à partir de vendredi par le nord-ouest..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 27 au Dimanche 30 Août 2026) ===
@@ -520,7 +522,7 @@ Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez é
 	Edit,je cite Tomas Pucik sur X:
 		Citation
 			Prévisions pour demain [jeudi]. En savoir plus sur https://estofex.org. Remarque à part : Ceci n'est pas un avertissement météorologique officiel ! Il s'agit d'un produit d'orientation destiné en particulier aux météorologues opérationnels. La situation demain pourrait être différente de celle de ce soir. Soyez-en conscient.
-	Modifié il y a 12 heures par Nico 14
+	Modifié il y a 14 heures par Nico 14
 								4
 
 =======================
@@ -528,6 +530,7 @@ Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez é
 Auteur: Nico 14
 Message:
 Keraunos envoie du lourd pour le risque tornadique sur une grande partie centre est
+								1
 
 =======================
 
@@ -541,8 +544,8 @@ Une analyse pour cette journée de jeudi qui s'annonce dangereuse sur le plan de
 	Axe n°2 — Vendée/Centre-Ouest → Normandie → Hauts-de-France : Plus à l'ouest, une deuxième anomalie traverse une masse d'air plus fraîche mais encore instable. La CAPE y sera probablement moins impressionnante, mais l'air froid en altitude et le forçage dynamique peuvent provoquer des développements très rapides. Un axe de forts orages est attendu du Poitou-Charentes/Vendée vers le nord du pays, se décalant au nord de la Seine en soirée.
 	À partir de 12–14 h, l'activité devrait augmenter rapidement. L'axe du Massif central va profiter simultanément de la recharge thermique et de l'arrivée du forçage. Entre environ 14 et 19 h, on pourrait donc avoir la meilleure fenêtre pour des cellules discrètes fortement organisées. Les risques principaux seront grosse grêle, notamment sous les supercellules ; rafales violentes ; fortes intensités pluviométriques ; et risque tourbillonnaire très localisé. Les prévisions opérationnelles évoquent d'ailleurs localement 30 à 50 mm en une heure, des rafales de 80 à 100 km/h, ponctuellement davantage, et de la grêle de plusieurs centimètres sous les cellules les plus fortes.
 	En soirée et nuit, la zone active progressera vers Rhône-Alpes → Bourgogne-Franche-Comté → Lorraine/Alsace → Alpes/Jura. Dans le même temps, la diminution de la CAPE de surface devrait réduire progressivement le risque de grosse grêle et de phénomènes tourbillonnaires. En revanche, la MUCAPE résiduelle + le puissant forçage dynamique permettront de maintenir une convection nocturne efficace. Le risque deviendra alors davantage hydrologique, avec des cellules successives pouvant produire d'importants cumuls.
-								5
-								5
+								9
+								6
 
 =======================
 
@@ -551,22 +554,22 @@ Message:
 il y a 42 minutes, Hassan a dit :
 			Keraunos envoie du lourd pour le risque tornadique sur une grande partie centre est
 	Comme il est dit dans le bulletin d'Estofex le potentiel tornadique est le plus fort dans le sud de la zone en niveau 3 même s'il n'est pas nul plus au nord. Pour ce risque, je placerai 2 zones qui ressortent avec les paramètres convectifs les plus favorables à ce phénomène que l'on retrouve sur les RS ou STP.La première en soirée, plutôt à l'ouest du MC et la seconde dans la nuit, vers le CE.
-								4
+								7
 
 =======================
 
 Auteur: Membre
 Message:
 Juste une remarque : que ce soit dans les bulletins MF ou chez les différents intervenants, on parle beaucoup de « phénomènes tourbillonnaires ». Si, avec des paramètres comme ceux d'aujourd'hui, on ne parle pas de risque, certes localisé, de tornades, on n'en parlera jamais. L'expérience récente nous le prouve. Il n'y a pas si longtemps, pourtant, MF l'avait déjà évoqué dans un bulletin. On n'est pas sur un sujet tabou, même si ce n'est pas le phénomène convectif le plus représenté sur nos orages en France. On a déjà presque réussi à bannir la "mini-tornade".
-	Modifié il y a 15 minutes par Nico 14
+	Modifié il y a 2 heures par Nico 14
 Ortho
-								6
+								18
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: cédric du Lot
 Message:
 En tout cas pour le sud du pays on a déjà plus la question a se poser, les tous premiers jours de septembre feront illusions puis la chaleur et le sec feront leur retour, quasiment aucune dispersion des diagrammes  si ce n'est éventuellement une direction vers la forte chaleur dés la fin de cette échéance ou la suivante...
-	Modifié il y a 23 heures par cédric du Lot
+	Modifié hier à 10:17 par cédric du Lot
 								3
 								1
 								1
@@ -620,7 +623,7 @@ il y a 14 minutes, Tornado75 a dit :
 	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
 	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
 	Une année à mettre aux oubliettes. 
-	Modifié il y a 21 heures par Nicolas L
+	Modifié il y a 23 heures par Nicolas L
 								2
 								2
 
@@ -664,7 +667,7 @@ Il y a 2 heures, edel a dit :
 	En revanche, oui, les températures moyennes globales et de l'après-midi sont inférieures à celles de juin. Mais vu où juin 2026 a mis la barre...
 	Enfin, s'agissant de températures à l'ombre, le fait qu'il y ait plus d'ombre rend en principe un 35 de septembre moins chaud qu'en juin.
 	Le gros suspense c'est : est-ce que entre deux anticyclones en relais, il va parvenir à pleuvoir, et autre chose que des rivières de grêle et autres catastrophes? A priori la réponse est non. 
-	Modifié il y a 18 heures par bruno50
+	Modifié il y a 20 heures par bruno50
 								1
 								2
 
@@ -690,7 +693,7 @@ il y a 54 minutes, edel a dit :
 	Oui à mon avis, c'est une question de temps pour avoir 37 à paris en septembre, ça pourrait même être cette année.
 	Alors évidemment ça monterait moins dans les appart qu'en août...
 	Bon à suivre notre situ, c'est surtout le contraste avec la situ actuelle qui est net, car finalement on retrouve les config type oméga du 10 août, et qui nous bercent depuis mai avec des effets variables au sol selon l'origine du flux 
-	Modifié il y a 19 heures par edd
+	Modifié il y a 21 heures par edd
 
 =======================
 
@@ -762,7 +765,7 @@ il y a 45 minutes, vda77 a dit :
 	Ca veut dire qu'il fait plus chaud en France le 5 septembre que le 15 juin, et il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin. En septembre 2023 on est passé à un cheveu de la vague de chaleur, ça arrivera bien un jour.
 	Pour cette année, il faudrait vraiment que ça se consolide, ce qui n'est pas forcément acquis (GFS 12).
 	Mi mai dans le climat "d'avant' il pouvait geler sur presque tout le territoire hors côte.
-	Modifié il y a 16 heures par th38
+	Modifié il y a 18 heures par th38
 								2
 
 =======================
