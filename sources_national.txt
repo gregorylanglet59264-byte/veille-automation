@@ -233,41 +233,41 @@ Températures minimales : en hausse au confluent Brévenne Turdine Azergues.
 Températures maximales : en hausse.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
-Emis le : 27/08/2026 16:45
+Emis le : 27/08/2026 20:01
 
 Vigilance :
-Attention, aujourd'hui, le département de la Haute-Garonne est en vigilance jaune pour les phénomènes vent et orages. Demain, il sera en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui et demain, le département de la Haute-Garonne est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Toulouse-Blagnac : température de 34 degrés, vent de secteur Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1006 hPa.
-A Luchon : température de 31 degrés, vent de secteur Sud soufflant jusqu'à 70 km/h.
-A Saint-Félix-Lauragais : température de 32 degrés, vent de secteur Est Sud-Est soufflant jusqu'à 35 km/h.
+Aujourd'hui on observait à 19h :
+A Toulouse-Blagnac : température de 32 degrés, vent de secteur Nord soufflant jusqu'à 25 km/h, pression niveau mer 1006 hPa.
+A Luchon : température de 30 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 50 km/h.
+A Saint-Félix-Lauragais : température de 31 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 En première partie de nuit, le temps est instable, avec une succession d'averses et d'éclaircies. La limite pluie-neige s'abaisse, et de la neige apparaît au-dessus de 3150 mètres en début de nuit. La fin de nuit est agréable.
-Les plus forts cumuls de pluie attendus sont de 5 millimètres sur le Cagire et le Luchonnais.
-La nuit, vent de Nord-Ouest soufflant modérément, sur le Midi Toulousain ; puis atténuation.
-Températures minimales : sur la plaine et le piémont comprises entre 16 et 18 degrés. 13 degrés sur le Cagire et le Luchonnais.
+Le maximum de pluie attendu est de l'ordre de 5 millimètres sur le Cagire et le Luchonnais.
+En cours de nuit, vent de Nord-Ouest soufflant modérément, sur le Midi Toulousain ; puis atténuation.
+Températures minimales : sur la plaine et le piémont de 16 à 18 degrés. 13 degrés sur le Cagire et le Luchonnais.
 
 • Pour demain vendredi 28 en journée et la nuit suivante :
-Le temps est largement ensoleillé. En milieu de journée un voile d'altitude passe, sur le Lauragais, sans ternir cette impression de beau temps. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Vent de Nord à Nord-Ouest, modéré, en journée ; puis atténuation.
-Températures maximales pour le jour : sur la plaine et le piémont entre 26 et 28 degrés. 24 degrés sur le Cagire et le Luchonnais.
-Températures minimales pour la nuit suivante : comprises entre 12 et 15 degrés.
+Hormis quelques nuages en fin de matinée, sur le Lauragais, le temps reste agréable et ensoleillé. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+En journée, vent de Nord à Nord-Ouest, modéré ; puis faiblissant.
+Températures maximales pour le jour : sur la plaine et le piémont comprises entre 26 et 28 degrés. 24 degrés sur le Cagire et le Luchonnais.
+Températures minimales pour la nuit suivante : entre 12 et 15 degrés.
 
 • Pour la journée de samedi 29 et la nuit suivante :
-Le temps est ensoleillé du matin au soir. Pour la nuit : Le ciel est bien étoilé.
-Vent faible, variable.
-Températures maximales pour le jour : entre 29 et 31 degrés.
-Températures minimales pour la nuit suivante : de 12 à 15 degrés, et entre 16 et 17 degrés du Lauragais aux coteaux de Cadours.
+La journée est ensoleillée, avec tout au plus quelques nuages très discrets. Pour la nuit : Le ciel est bien étoilé.
+Vent variable, faible.
+Températures maximales pour le jour : comprises entre 29 et 31 degrés.
+Températures minimales pour la nuit suivante : comprises entre 12 et 15 degrés, et entre 16 et 17 degrés du Lauragais aux coteaux de Cadours.
 
 • Pour la journée de dimanche 30 :
-Le soleil est généreux tout au long de la journée.
+Le soleil règne en maître du matin au soir.
 À la tombée du jour, vent s'établissant à l'Est-Sud-Est modéré, sur le Lauragais.
-Températures maximales : de 31 à 34 degrés, et 36 degrés sur le Lauragais. Ces températures sont localement bien au-dessus des valeurs normalement observées.
+Températures maximales : entre 31 et 34 degrés, et 36 degrés sur le Lauragais. Ces températures sont localement bien au-dessus des valeurs normalement observées.
 
 • Pour lundi 31 et mardi 01 septembre :
 Dans le Volvestre ainsi que sur le piémont et la montagne, temps plutôt ensoleillé, en dépit de quelques passages nuageux, risque de pluie et d' passagèrement orageux. Ailleurs, temps le plus souvent ensoleillé.
@@ -319,11 +319,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Recensement des tornades en France
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 27/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 27 Août 2026.
-Résumé général précédent : Après une dégradation orageuse très active jeudi 27, un puissant anticyclone s'installe pour les deux prochaines semaines, entraînant un temps sec et de plus en plus chaud, avec des températures pouvant dépasser les normales de 3 à 6°C, surtout dans le sud. Un pic est possible en début de septembre..
+Résumé général précédent : Après la dégradation orageuse du 27, l'anticyclone domine à nouveau : temps sec, ensoleillé, de plus en plus chaud au sud. Un coup de chaud est possible autour du 4-6 septembre, mais sa durée reste incertaine..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents avec grosse grêle et rafales, risque hydrologique en soirée/nuit..
+Températures attendues précédemment : Orages violents, grêle, rafales destructrices possibles..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 27 au Dimanche 30 Août 2026) ===
@@ -496,7 +496,7 @@ Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez é
 	Edit,je cite Tomas Pucik sur X:
 		Citation
 			Prévisions pour demain [jeudi]. En savoir plus sur https://estofex.org. Remarque à part : Ceci n'est pas un avertissement météorologique officiel ! Il s'agit d'un produit d'orientation destiné en particulier aux météorologues opérationnels. La situation demain pourrait être différente de celle de ce soir. Soyez-en conscient.
-	Modifié il y a 20 heures par Nico 14
+	Modifié il y a 22 heures par Nico 14
 								4
 
 =======================
@@ -535,9 +535,9 @@ il y a 42 minutes, Hassan a dit :
 Auteur: Membre
 Message:
 Juste une remarque : que ce soit dans les bulletins MF ou chez les différents intervenants, on parle beaucoup de « phénomènes tourbillonnaires ». Si, avec des paramètres comme ceux d'aujourd'hui, on ne parle pas de risque, certes localisé, de tornades, on n'en parlera jamais. L'expérience récente nous le prouve. Il n'y a pas si longtemps, pourtant, MF l'avait déjà évoqué dans un bulletin. On n'est pas sur un sujet tabou, même si ce n'est pas le phénomène convectif le plus représenté sur nos orages en France. On a déjà presque réussi à bannir la "mini-tornade".
-	Modifié il y a 8 heures par Nico 14
+	Modifié il y a 10 heures par Nico 14
 Ortho
-								19
+								21
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
 Auteur: clem11
@@ -739,7 +739,7 @@ Message:
 il y a 10 minutes, th38 a dit :
 			il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin
 	Je ne suis pas sûr de cette affirmation. La variabilité est probablement plus forte en juin qu'en septembre. 
-								6
+								7
 
 =======================
 
@@ -771,6 +771,6 @@ Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si
 	Bon par contre AIFS hum hum
 	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
 	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
-								1
+								2
 								1
 								2
