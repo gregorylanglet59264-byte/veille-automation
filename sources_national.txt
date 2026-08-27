@@ -290,7 +290,7 @@ Températures minimales : sans changement significatif.
 Températures maximales : en hausse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 270940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 27 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand Frais Nr 288 pour LANGUEDOC-ROUSSILLON, PROVENCE. 2 - Situation générale jeudi 27 août 2026 à 06H00 UTC, et évolution Zone dépressionnaire 1009 hPa le long de la côte espagnole jusqu'au Golfe du Lion se décalant vers l'est la nuit en se comblant. Dépression se creusant temporairement 1006 hPa près de la côte du Roussillon cet après-midi. 3 - Prévisions pour l'après-midi du jeudi 27 août VENT : - à l'ouest de Porquerolles : Est à Sud-Est 5 à 6, mollissant 4 à 5 à l'est de Sicié en milieu d'après-midi. Rafales. - à l'est de Porquerolles : Est à Nord-Est 4 à 5. Rafales. MER : agitée. HOULE : Sud 0.5 à 1 m. TEMPS : peu nuageux, quelques averses orageuses dans l'après-midi à l'est de Sicié. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 4 - Prévisions pour la nuit du jeudi 27 août au vendredi 28 août VENT : - à l'ouest du Cap Sicié : Est à Sud-Est 5 à 6, virant Sud à Sud-Est 4 à 5 en fin de nuit. - à l'est du Cap Sicié : Est à Nord-Est 4 à 5. MER : agitée, devenant progressivement peu agitée par l'est jusqu'au Cap Croisette. HOULE : Sud 0.5 à 1 m. TEMPS : averses orageuses. VISIBILITE : localement moyenne à mauvaise sous orages. 5 - Prévisions pour la journée du vendredi 28 août VENT : Est à Sud-Est 3 à 4, parfois 5 en début de matinée, virant Ouest à Nord-Ouest 2 à 4 le matin, puis revenant Ouest à Sud-Ouest l'après-midi. MER : peu agitée, mais agitée à l'ouest du Cap Croisette le matin. HOULE : Sud 0.5 à 1 m. TEMPS : averses orageuses. VISIBILITE : bonne, localement moyenne à mauvaise sous orages. 6 - Prévisions pour la nuit du 28 au 29 et la journée du samedi 29 août VENT : Ouest 3 à 4, fraîchissant Ouest à Nord-Ouest 4 à 5 en milieu de nuit, et revenant Ouest à Sud-Ouest 5 à 6 l'après-midi, mais mollissant 3 à 4 à l'ouest du Cap Croisette. Rafales. MER : peu agitée, s'amplifiant agitée à l'est de Sicié l'après-midi. HOULE : Sud-Ouest 0.5 à 1 m, puis confondue avec la mer du vent l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 29 au 30 et la journée du dimanche 30 août VENT : De Port Camargue à Porquerolles Ouest à Sud-Ouest 3 à 5, virant Nord-Ouest en seconde partie de nuit, puis à l'Ouest à Sud-Ouest en cours de matinée. De Porquerolles à St Raphaël Ouest à Sud-Ouest 5 à 7, mollissant 1 à 3 en cours de matinée, puis fraîchissant 3 à 4. MER : belle à peu agitée, localement agitée de Porquerolles à St Raphaël. HOULE : Établissement temporaire d'une houle de Sud à Sud-Ouest 1 à 1,5 m en début de nuit. 8 - Tendance pour les jours suivants Lundi 31 août Secteur Ouest faible à modéré. Secteur Sud faible à modéré en mer de Ligure et à l'est de la Corse. Indice de confiance : 4 sur 5 Mardi 1 septembre Secteur Ouest faible à modéré, temporairement secteur Variable faible. Indice de confiance : 4 sur 5 Mercredi 2 septembre Secteur Nord-Ouest modéré. Secteur Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 Jeudi 3 septembre Secteur Nord-Ouest modéré. Secteur Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 9 - Observations le jeudi 27 août 2026 à 09H00 UTC Cap Camarat : vent Est-Nord-Est 16 noeuds. Cap Cepet : vent Est-Nord-Est 19 noeuds, rafales 29 noeuds. Porquerolles : vent Est-Nord-Est 16 noeuds, rafales 35 noeuds. Cap Couronne : vent Est-Sud-Est 19 noeuds, rafales 29 noeuds, mer belle, visibilité 8 milles. Prochain bulletin le jeudi 27 août 2026, vers 18H30 légales
+FQCT40 LFML 271610 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 27 août 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais à coup de vent Nr 289 pour LANGUEDOC-ROUSSILLON. 2 - Situation générale jeudi 27 août 2026 à 12H00 UTC, et évolution Dépression 1007 hPa près de la côte Roussillon, se creusant 1005 hPa en soirée, puis se décalant vers le nord-est vers minuit en se comblant. Dépression se creusant 1011 hPa sur la Mer Ligure vendredi soir. 3 - Prévisions pour la nuit du jeudi 27 août au vendredi 28 août VENT : - à l'ouest du Cap Sicié : Est à Sud-Est 5 à 6, virant Sud à Sud-Est 4 à 5 en fin de nuit. - à l'est du Cap Sicié : Est à Nord-Est 4 à 5, mollissant 3 à 4 en deuxième partie de nuit. MER : agitée, devenant progressivement peu agitée par l'est jusqu'au Cap Croisette. HOULE : Sud 0.5 à 1 m. TEMPS : averses parfois orageuses. VISIBILITE : bonne, localement moyenne à mauvaise sous orages. 4 - Prévisions pour la journée du vendredi 28 août VENT : Est à Sud-Est 3 à 4, parfois 5 en début de matinée, virant Ouest à Nord-Ouest 2 à 4 le matin, puis revenant Ouest à Sud-Ouest l'après-midi. MER : peu agitée, mais agitée à l'ouest du Cap Croisette le matin. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : nuageux avec quelques averses parfois orageuses. VISIBILITE : bonne, localement moyenne sous averses. 5 - Tendance pour la nuit du 28 au 29, et la journée du samedi 29 août VENT : Ouest 3 à 4, fraîchissant Ouest à Nord-Ouest 4 à 5 en première partie de nuit, et revenant Ouest à Sud-Ouest 5 à 6 l'après-midi avec menace de 7, mais mollissant 3 à 4 à l'ouest du Cap Croisette. Rafales. MER : peu agitée, s'amplifiant agitée à l'est de Sicié l'après-midi. HOULE : Sud-Ouest 0.5 à 1 m, puis confondue avec la mer du vent l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 29 au 30 et la journée du dimanche 30 août VENT : De Port Camargue à Porquerolles Ouest à Sud-Ouest 3 à 5, virant Nord-Ouest en seconde partie de nuit, puis à l'Ouest à Sud-Ouest en cours de matinée. De Porquerolles à St Raphaël Ouest à Sud-Ouest 5 à 7, mollissant 1 à 3 en cours de matinée, puis fraîchissant 3 à 4. MER : belle à peu agitée, localement agitée de Porquerolles à St Raphaël. HOULE : Établissement temporaire d'une houle de Sud à Sud-Ouest 1 à 1,5 m en début de nuit. 7 - Tendance pour les jours suivants Lundi 31 août Secteur Ouest faible à modéré. Secteur Sud faible à modéré en mer de Ligure et à l'est de la Corse. Indice de confiance : 4 sur 5 Mardi 1 septembre Secteur Ouest faible à modéré, temporairement secteur Variable faible. Indice de confiance : 4 sur 5 Mercredi 2 septembre Secteur Nord-Ouest modéré. Secteur Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 Jeudi 3 septembre Secteur Nord-Ouest modéré. Secteur Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 8 - Observations le jeudi 27 août 2026 à 15H00 UTC Cap Camarat : vent Nord-Est 16 noeuds, très nuageux à couvert, visibilité 5 milles. Cap Cepet : vent Est-Nord-Est 19 noeuds, rafales 29 noeuds, très nuageux à couvert, visibilité 7 milles. Porquerolles : vent Est-Nord-Est 10 noeuds, rafales 31 noeuds. Cap Couronne : vent Est-Sud-Est 17 noeuds. Prochain bulletin le vendredi 28 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -318,12 +318,12 @@ orange n'est actuellement prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Pyrénées
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Prévisions Nord-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Recensement des tornades en France
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 27/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 27 Août 2026.
-Résumé général précédent : Les 15 prochains jours seront marqués par une transition : après une dégradation orageuse très active les 26-27 août, un puissant anticyclone prendra le relais, entraînant un temps sec et de plus en plus chaud, particulièrement au sud. Les températures pourraient dépasser les normales de 3 à 6°C, avec un pic possible entre le 2 et le 5 septembre..
+Résumé général précédent : Après une dégradation orageuse très active jeudi 27, un puissant anticyclone s'installe pour les deux prochaines semaines, entraînant un temps sec et de plus en plus chaud, avec des températures pouvant dépasser les normales de 3 à 6°C, surtout dans le sud. Un pic est possible en début de septembre..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents avec grêle de grande taille, rafales destructrices et pluies intenses localisées. (105 caractères).
+Températures attendues précédemment : Orages violents avec grosse grêle et rafales, risque hydrologique en soirée/nuit..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 27 au Dimanche 30 Août 2026) ===
@@ -496,7 +496,7 @@ Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez é
 	Edit,je cite Tomas Pucik sur X:
 		Citation
 			Prévisions pour demain [jeudi]. En savoir plus sur https://estofex.org. Remarque à part : Ceci n'est pas un avertissement météorologique officiel ! Il s'agit d'un produit d'orientation destiné en particulier aux météorologues opérationnels. La situation demain pourrait être différente de celle de ce soir. Soyez-en conscient.
-	Modifié il y a 18 heures par Nico 14
+	Modifié il y a 20 heures par Nico 14
 								4
 
 =======================
@@ -535,7 +535,7 @@ il y a 42 minutes, Hassan a dit :
 Auteur: Membre
 Message:
 Juste une remarque : que ce soit dans les bulletins MF ou chez les différents intervenants, on parle beaucoup de « phénomènes tourbillonnaires ». Si, avec des paramètres comme ceux d'aujourd'hui, on ne parle pas de risque, certes localisé, de tornades, on n'en parlera jamais. L'expérience récente nous le prouve. Il n'y a pas si longtemps, pourtant, MF l'avait déjà évoqué dans un bulletin. On n'est pas sur un sujet tabou, même si ce n'est pas le phénomène convectif le plus représenté sur nos orages en France. On a déjà presque réussi à bannir la "mini-tornade".
-	Modifié il y a 6 heures par Nico 14
+	Modifié il y a 8 heures par Nico 14
 Ortho
 								19
 
@@ -729,7 +729,7 @@ il y a 45 minutes, vda77 a dit :
 	Ca veut dire qu'il fait plus chaud en France le 5 septembre que le 15 juin, et il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin. En septembre 2023 on est passé à un cheveu de la vague de chaleur, ça arrivera bien un jour.
 	Pour cette année, il faudrait vraiment que ça se consolide, ce qui n'est pas forcément acquis (GFS 12).
 	Mi mai dans le climat "d'avant' il pouvait geler sur presque tout le territoire hors côte.
-	Modifié il y a 22 heures par th38
+	Modifié hier à 17:54 par th38
 								2
 
 =======================
