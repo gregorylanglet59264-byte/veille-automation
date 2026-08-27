@@ -344,12 +344,12 @@ orange n'est actuellement prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Inondations Népal
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 27/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -357,9 +357,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 27 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Les 15 prochains jours seront marqués par un contraste : une dégradation orageuse active en fin de semaine 1, suivie d'un retour à un temps plus chaud et sec en semaine 2..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Orages violents jeudi, fortes pluies localisées, puis nette baisse des températures..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 27 au Dimanche 30 Août 2026) ===
@@ -522,7 +522,7 @@ Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez é
 	Edit,je cite Tomas Pucik sur X:
 		Citation
 			Prévisions pour demain [jeudi]. En savoir plus sur https://estofex.org. Remarque à part : Ceci n'est pas un avertissement météorologique officiel ! Il s'agit d'un produit d'orientation destiné en particulier aux météorologues opérationnels. La situation demain pourrait être différente de celle de ce soir. Soyez-en conscient.
-	Modifié il y a 14 heures par Nico 14
+	Modifié il y a 16 heures par Nico 14
 								4
 
 =======================
@@ -561,21 +561,11 @@ il y a 42 minutes, Hassan a dit :
 Auteur: Membre
 Message:
 Juste une remarque : que ce soit dans les bulletins MF ou chez les différents intervenants, on parle beaucoup de « phénomènes tourbillonnaires ». Si, avec des paramètres comme ceux d'aujourd'hui, on ne parle pas de risque, certes localisé, de tornades, on n'en parlera jamais. L'expérience récente nous le prouve. Il n'y a pas si longtemps, pourtant, MF l'avait déjà évoqué dans un bulletin. On n'est pas sur un sujet tabou, même si ce n'est pas le phénomène convectif le plus représenté sur nos orages en France. On a déjà presque réussi à bannir la "mini-tornade".
-	Modifié il y a 2 heures par Nico 14
+	Modifié il y a 4 heures par Nico 14
 Ortho
-								18
+								19
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: cédric du Lot
-Message:
-En tout cas pour le sud du pays on a déjà plus la question a se poser, les tous premiers jours de septembre feront illusions puis la chaleur et le sec feront leur retour, quasiment aucune dispersion des diagrammes  si ce n'est éventuellement une direction vers la forte chaleur dés la fin de cette échéance ou la suivante...
-	Modifié hier à 10:17 par cédric du Lot
-								3
-								1
-								1
-
-=======================
-
 Auteur: clem11
 Message:
 Y’en a marre. (Désolé mais ça vient du cœur)
@@ -623,7 +613,7 @@ il y a 14 minutes, Tornado75 a dit :
 	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
 	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
 	Une année à mettre aux oubliettes. 
-	Modifié il y a 23 heures par Nicolas L
+	Modifié hier à 12:29 par Nicolas L
 								2
 								2
 
@@ -667,7 +657,7 @@ Il y a 2 heures, edel a dit :
 	En revanche, oui, les températures moyennes globales et de l'après-midi sont inférieures à celles de juin. Mais vu où juin 2026 a mis la barre...
 	Enfin, s'agissant de températures à l'ombre, le fait qu'il y ait plus d'ombre rend en principe un 35 de septembre moins chaud qu'en juin.
 	Le gros suspense c'est : est-ce que entre deux anticyclones en relais, il va parvenir à pleuvoir, et autre chose que des rivières de grêle et autres catastrophes? A priori la réponse est non. 
-	Modifié il y a 20 heures par bruno50
+	Modifié il y a 22 heures par bruno50
 								1
 								2
 
@@ -693,7 +683,7 @@ il y a 54 minutes, edel a dit :
 	Oui à mon avis, c'est une question de temps pour avoir 37 à paris en septembre, ça pourrait même être cette année.
 	Alors évidemment ça monterait moins dans les appart qu'en août...
 	Bon à suivre notre situ, c'est surtout le contraste avec la situ actuelle qui est net, car finalement on retrouve les config type oméga du 10 août, et qui nous bercent depuis mai avec des effets variables au sol selon l'origine du flux 
-	Modifié il y a 21 heures par edd
+	Modifié il y a 23 heures par edd
 
 =======================
 
@@ -744,7 +734,7 @@ Il y a 3 heures, edel a dit :
 			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
 			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
 	On arrive rarement à descendre sous les 20 degrés depuis juin la nuit même avec des nuits plus longues. L'inertie est dingue et ça devient vraiment vraiment vraiment loooooong. D'ailleurs le nombre de Tn tropicales est ahurissant cette année (déjà 44 à Blagnac, en ville probablement plus de 50).
-								2
+								3
 								1
 								5
 
@@ -765,7 +755,7 @@ il y a 45 minutes, vda77 a dit :
 	Ca veut dire qu'il fait plus chaud en France le 5 septembre que le 15 juin, et il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin. En septembre 2023 on est passé à un cheveu de la vague de chaleur, ça arrivera bien un jour.
 	Pour cette année, il faudrait vraiment que ça se consolide, ce qui n'est pas forcément acquis (GFS 12).
 	Mi mai dans le climat "d'avant' il pouvait geler sur presque tout le territoire hors côte.
-	Modifié il y a 18 heures par th38
+	Modifié il y a 20 heures par th38
 								2
 
 =======================
@@ -787,6 +777,25 @@ Les quelques deterministes de ce matin sont un peu plus rassurant je trouve.
 	GEM -&gt; Dans la même veine avec une poussée plus tôt
 	Bon y’a pas grand choses de sorti, ça peut toujours bouger MAIS
 	Peut être que ce passage Chaud/très Chaud généralisé ne serait pas aussi long que le pensons.
+								2
 								1
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si le pic est én
+	On retrouve bien cette idée de coup de chaud "passager" pour le nord avec une moyenne certes en augmentation mais où le moment du pic n'est pas encore bien cerné.
+	Bien visible sur GEFS avec une moyenne qui ne dépasse pas les 15°C
+	Visible aussi sur CEP avec un pic beaucoup mieux cerné (et donc avec une moyenne qui grimpe plus haut)
+	AIFS (et GEM dans une moindre mesure) restent sur un épisode plus long
+	Hop le Parisianisme c'est fait, mais du coup au sud ?
+	On est pour le moment un peu dans le même veine. Les T850 n'ont pas l'air de vouloir resté trop collé à 20°C même si l'on sent l'air brulant en embuscade
+	GEFS
+	CEP un peu plus chaud
+	Bon par contre AIFS hum hum
+	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
+	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
 								1
 								1
