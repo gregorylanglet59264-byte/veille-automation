@@ -15,39 +15,39 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 27/08/2026 16:45
+Emis le : 27/08/2026 22:03
 
 Vigilance :
-Attention, aujourd'hui, Paris et sa petite couronne sont en vigilance orange pour le phénomène orages. Demain, elles seront en vigilance jaune pour le phénomène orages.
+Attention, aujourd'hui et demain, Paris et sa petite couronne sont en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Paris-Montsouris : température de 27 degrés, vent de secteur Sud soufflant jusqu'à 15 km/h, pression niveau mer 1009 hPa, cumul de précipitations en 12h : 2 mm.
-Au Jardin du Luxembourg : température de 27 degrés.
+Aujourd'hui on observait à 21h :
+A Paris-Montsouris : température de 18 degrés, vent de secteur Nord soufflant jusqu'à 20 km/h, pression niveau mer 1009 hPa, cumul de précipitations en 12h : 15 mm.
+Au Jardin du Luxembourg : température de 20 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 En début de soirée, le ciel est variable, et des orages éclatent. Mais rapidement, le temps s'améliore, même si quelques averses perdurent jusqu'à minuit, très localement. En seconde partie de nuit, les étoiles sont souvent visibles.
-Vent de Sud-Ouest, soufflant modérément par endroits ; et s'atténuant temporairement en milieu de période.
-Températures minimales : entre 16 et 17 degrés.
+Vent de Sud-Ouest, localement modéré ; faiblissant temporairement en milieu de période.
+Températures minimales : comprises entre 16 et 17 degrés.
 
 • Pour demain vendredi 28 en journée et la nuit suivante :
 Tant bien que mal, des éclaircies se faufilent au travers des nombreux nuages qui laissent échapper de bonnes averses par endroits, avec même quelques coups de tonnerre le matin. L'après-midi, l'instabilité s'estompe et les averses se raréfient. Pour la nuit : Le ciel est souvent étoilé la nuit.
-Vent de Sud-Ouest, modéré.
+Vent modéré, de Sud-Ouest.
 Températures maximales pour le jour : 23 degrés.
-Températures minimales pour la nuit suivante : entre 15 et 16 degrés.
+Températures minimales pour la nuit suivante : de 15 à 16 degrés.
 
 • Pour la journée de samedi 29 et la nuit suivante :
 Le ciel est très nuageux. Des averses, faibles et éparses, peuvent se produire de la mi-journée jusqu'au soir. Pour la nuit : La soirée est sans nuages. Les premiers se développent à partir de minuit. Le temps devient variable en seconde partie de nuit.
-Vent modéré, de Sud-Ouest.
-Températures maximales pour le jour : de 22 à 24 degrés.
+Vent de Sud-Ouest, modéré.
+Températures maximales pour le jour : comprises entre 22 et 24 degrés.
 Températures minimales pour la nuit suivante : de 16 à 17 degrés.
 
 • Pour la journée de dimanche 30 :
 Éclaircies et passages nuageux se succèdent toute la journée, mais le temps reste le plus souvent sec. Seules quelques averses sont à attendre sur Paris ainsi que sur le sud-est, en fin d'après-midi.
 Vent de Sud-Ouest, modéré.
-Températures maximales : comprises entre 24 et 25 degrés.
+Températures maximales : entre 24 et 25 degrés.
 
 • Pour lundi 31 et mardi 01 septembre :
 Éclaircies prédominantes, risque de pluie ou d'averses temporaire.
@@ -318,12 +318,12 @@ orange n'est actuellement prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 27/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -331,9 +331,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 27 Août 2026.
-Résumé général précédent : Après la dégradation orageuse du 27, l'anticyclone domine à nouveau : temps sec, ensoleillé, de plus en plus chaud au sud. Un coup de chaud est possible autour du 4-6 septembre, mais sa durée reste incertaine..
+Résumé général précédent : Tendance 15 jours : après un épisode orageux marqué, un temps sec et anticyclonique s’installe; un coup de chaud est possible début septembre, surtout au sud, mais sa durée reste incertaine..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages violents, grêle, rafales destructrices possibles..
+Températures attendues précédemment : Rafales très violentes, grêle, orages..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 27 au Dimanche 30 Août 2026) ===
@@ -496,7 +496,7 @@ Je le mets sur le topic national Estofex sans surprise sort un niveau 3 assez é
 	Edit,je cite Tomas Pucik sur X:
 		Citation
 			Prévisions pour demain [jeudi]. En savoir plus sur https://estofex.org. Remarque à part : Ceci n'est pas un avertissement météorologique officiel ! Il s'agit d'un produit d'orientation destiné en particulier aux météorologues opérationnels. La situation demain pourrait être différente de celle de ce soir. Soyez-en conscient.
-	Modifié il y a 22 heures par Nico 14
+	Modifié hier à 21:33 par Nico 14
 								4
 
 =======================
@@ -535,7 +535,7 @@ il y a 42 minutes, Hassan a dit :
 Auteur: Membre
 Message:
 Juste une remarque : que ce soit dans les bulletins MF ou chez les différents intervenants, on parle beaucoup de « phénomènes tourbillonnaires ». Si, avec des paramètres comme ceux d'aujourd'hui, on ne parle pas de risque, certes localisé, de tornades, on n'en parlera jamais. L'expérience récente nous le prouve. Il n'y a pas si longtemps, pourtant, MF l'avait déjà évoqué dans un bulletin. On n'est pas sur un sujet tabou, même si ce n'est pas le phénomène convectif le plus représenté sur nos orages en France. On a déjà presque réussi à bannir la "mini-tornade".
-	Modifié il y a 10 heures par Nico 14
+	Modifié il y a 12 heures par Nico 14
 Ortho
 								21
 
