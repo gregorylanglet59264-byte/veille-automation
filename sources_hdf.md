@@ -287,7 +287,7 @@ Températures minimales : identiques à la veille.
 Températures maximales : stables.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 280955 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 28 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de Grand Frais Nr 116 2 - Situation générale vendredi 28 août 2026 à 06H00 UTC, et évolution Dépression 1000 hPa sur la Mer du Nord, se creusant 994 hPa en journée. Dépression orageuse 1007 hPa à l'ouest du golfe de Gascogne, se décalant vers l'est, prévue 1012 hPa sur la Bretagne le soir, puis se comblant la nuit. Nouvelle dépression 1000 hPa au sud-ouest de l'Irlande le soir, se décalant vers l'est en se creusant, prévue 997 hPa en Cornouailles samedi matin. 3 - Prévisions pour l'après-midi du vendredi 28 août VENT : Sud-Ouest fraîchissant 5 à 6, localement 7 à l'est du détroit. Rafales. MER : devenant agitée. HOULE : non significative. TEMPS : nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 28 août au samedi 29 août VENT : Sud-Ouest 5 à 6, localement 7 à l'est du détroit jusqu'en seconde partie de nuit. Rafales. MER : agitée, s'atténuant peu agitée à agitée à la fin. HOULE : non significative, s'établissant progressivement Ouest 0.5 à 1 m. TEMPS : nuageux, averses éparses. VISIBILITE : bonne, parfois moyenne sous averses. 5 - Prévisions pour la journée du samedi 29 août VENT : revenant Sud à Sud-Ouest 5 à 6, puis fraîchissant 6 à 7 à la fin. Rafales. MER : peu agitée à agitée, devenant agitée à la fin. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant à la fin. TEMPS : nuageux, parfois pluie ou averses orageuses l'après-midi. VISIBILITE : bonne, parfois mauvaise sous pluie ou averses orageuses l'après-midi. 6 - Prévisions pour la nuit du 29 au 30 et la journée du dimanche 30 août VENT : secteur Sud-Ouest 6 à 7, avec menace de 8 le soir, mollissant 4 à 5 en seconde partie de nuit. Fortes rafales. MER : agitée à forte, s'atténuant progressivement peu agitée. HOULE : s'établissant Sud-Ouest 0.5 à 1 m, parfois 1.5 à 2 m la nuit. TEMPS : pluie ou averses. VISIBILITE : bonne, parfois moyenne à mauvaise sous pluie ou averses. 7 - Prévisions pour la nuit du 30 au 31 et la journée du lundi 31 août VENT : Sud-Ouest 4, fraîchissant 7 en seconde partie de nuit, puis mollissant 6 en milieu d'après-midi. Rafales. MER : peu agitée devenant agitée, à forte en seconde partie de nuit en Manche. HOULE : Établissement temporaire d'une houle d'Ouest 1 à 1,5 m en Manche. 8 - Tendance pour les jours suivants Mardi 1 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mercredi 2 septembre Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5 Jeudi 3 septembre Secteur Sud-Ouest modéré. Indice de confiance : 4 sur 5 Vendredi 4 septembre Secteur Sud-Ouest faible à modéré Indice de confiance : 4 sur 5 9 - Observations le vendredi 28 août 2026 à 09H00 UTC Dunkerque : vent Sud-Sud-Ouest 8 noeuds, 1008 hPa en hausse. Cap Gris Nez : vent Ouest-Sud-Ouest 10 noeuds. Boulogne : vent Sud-Sud-Ouest 10 noeuds, 1008 hPa en hausse. Prochain bulletin le vendredi 28 août 2026, vers 18H00 légales
+FQCT40 LFQQ 281630 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 28 août 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais à coup de vent Nr 117 2 - Situation générale vendredi 28 août 2026 à 12H00 UTC, et évolution Dépression 997 hPa sur la Mer du Nord, se creusant 994 hPa la nuit, puis se comblant 1000 hPa samedi soir. Dépression 1012 hPa au sud-ouest de la Bretagne, se comblant la nuit. Nouvelle dépression 1000 hPa au sud-ouest de l'Irlande le soir, prévue 997 hPa à l'ouest des Cornouailles le matin, puis 999 hPa au sud-est de l'Angleterre samedi soir. 3 - Prévisions pour la nuit du vendredi 28 août au samedi 29 août VENT : Sud-Ouest 5 à 6, localement 7 à l'est du détroit jusqu'en seconde partie de nuit. Rafales. MER : agitée, s'atténuant peu agitée à agitée à la fin. HOULE : non significative, s'établissant progressivement Ouest 0.5 à 1 m. TEMPS : nuageux, averses éparses. VISIBILITE : bonne, parfois moyenne sous averses. 4 - Prévisions pour la journée du samedi 29 août VENT : revenant Sud à Sud-Ouest 5 à 6, puis fraîchissant Sud-Ouest 7 à 8 à la fin. Fortes rafales sous orages. MER : peu agitée à agitée, devenant agitée à la fin. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant à la fin. TEMPS : nuageux, parfois pluie ou orages l'après-midi. VISIBILITE : bonne, parfois mauvaise sous pluie ou orages l'après-midi. 5 - Tendance pour la nuit du 29 au 30, et la journée du dimanche 30 août VENT : Sud-Ouest 6 à 7, parfois 8 le soir, mollissant 4 à 5 en seconde partie de nuit. Fortes rafales. MER : agitée à forte, s'atténuant progressivement peu agitée. HOULE : s'établissant Sud-Ouest 0.5 à 1 m, parfois 1.5 à 2 m la nuit. TEMPS : pluie ou averses. VISIBILITE : bonne, parfois moyenne à mauvaise sous pluie ou averses. 6 - Prévisions pour la nuit du 30 au 31 et la journée du lundi 31 août VENT : Sud-Ouest 4 à 5, fraîchissant 7 en seconde partie de nuit, puis mollissant 6 en milieu d'après-midi. Rafales. MER : agitée, devenant forte en seconde partie de nuit en Manche. HOULE : Établissement temporaire d'une houle d'Ouest 1 à 1,5 m en Manche. 7 - Tendance pour les jours suivants Mardi 1 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mercredi 2 septembre Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5 Jeudi 3 septembre Secteur Sud-Ouest modéré. Indice de confiance : 4 sur 5 Vendredi 4 septembre Secteur Sud-Ouest faible à modéré Indice de confiance : 4 sur 5 8 - Observations le vendredi 28 août 2026 à 15H00 UTC Dunkerque : vent Ouest-Sud-Ouest 14 noeuds, rafales 25 noeuds, mer belle, 1008 hPa en hausse, très nuageux à couvert, visibilité 5 milles. Cap Gris Nez : vent Sud-Ouest 27 noeuds. Boulogne : vent Ouest-Sud-Ouest 19 noeuds, rafales 31 noeuds, 1009 hPa en hausse, très nuageux à couvert, visibilité 13 milles. Bouée Sandettie : vent Sud-Ouest 29 noeuds, creux 0,5 mètre, 1008 hPa en baisse, visibilité 5 milles. Prochain bulletin le samedi 29 août 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -316,12 +316,12 @@ et restera sans doute d'actualité par la suite.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : =30°C consécutives]]>
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 28/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -329,50 +329,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 28 Août 2026.
-Résumé général HDF précédent : Tendance générale sur 15 jours : flux océanique de sud-ouest sur les HDF, températures proches des normales en semaine 1, légère hausse possible en semaine 2 mais très incertaine. Déficit pluviométrique persistant..
+Résumé général HDF précédent : Flux océanique de sud-ouest sur les HDF, températures proches des normales en semaine 1, légère hausse possible en semaine 2 mais très incertaine. Déficit pluviométrique persistant..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses et rafales de sud-ouest, surtout lundi et mercredi, puis éclaircies plus franches..
+Températures attendues précédemment : Averses localement orageuses samedi 29, vent assez fort lundi 31, éclaircies ensuite..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Tornado75
-Message:
-Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-	Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-								1
-
-=======================
-
-Auteur: Nicolas L
-Message:
-il y a 14 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Je crois qu'on en a tous ras le bol de cet été dabord précoce et interminable au vue des modélisations actuelles. Mais tant que l’anticyclone Français (si je peux me permettre cette qualification) viendra stationner sur le pays, on ne sera pas près d'avoir le retour de PP durables. 
-	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
-	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
-	Une année à mettre aux oubliettes. 
-	Modifié mercredi à 12:29 par Nicolas L
-								2
-								2
-
-=======================
-
-Auteur: edel
-Message:
-il y a 48 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
-		Il y a 2 heures, clem11 a dit :
-			Y’en a marre. (Désolé mais ça vient du cœur)
-	Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
-	Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
-								5
-								2
-
-=======================
-
 Auteur: mathias
 Message:
 il y a 14 minutes, edel a dit :
@@ -537,7 +499,7 @@ Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si
 	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
 	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
 								2
-								1
+								2
 								2
 
 =======================
@@ -570,10 +532,10 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
-								1
-								1
+								4
+								2
 
 =======================
 
@@ -582,47 +544,53 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 1 heure par mathias
+	Modifié il y a 3 heures par mathias
+								1
+								2
+								3
+
+=======================
+
+Auteur: nickdu77
+Message:
+Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le nord fin de topic, beaucoup moins marquée qu'au sud, mais il y a quand même beaucoup d'incertitude à partir du 5-6 septembre
+	On a ça pour le 06z de GFS : 
+	Et ça pour GEM (00z): 
+	Pour les températures au sol, on voit qu'il y a une forte incertitude à la fin du topic (AIFS 06z) : 
+	J
+	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
+	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
+	Modifié il y a 1 heure par nickdu77
+Oubli d&#039;un mot
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Comparatif des températures   à 850hpa des déterministes des principaux modèles.
+	Icon :
+	 Ukmo ( ne va que jusqu'à vendredi midi) :
+	CEP :
+	GEM :
+	GFS :
+	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
+	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
+	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
+	Modifié il y a 11 minutes par petit âge glaciaire 11
+Modifié
+								2
+
+=======================
+
+Auteur: edel
+Message:
+Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
+	Pour le sud, il faudra encore patienter...
+	Modifié il y a 10 minutes par edel
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: Tornado75
-Message:
-Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-	Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-								1
-
-=======================
-
-Auteur: Nicolas L
-Message:
-il y a 14 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Je crois qu'on en a tous ras le bol de cet été dabord précoce et interminable au vue des modélisations actuelles. Mais tant que l’anticyclone Français (si je peux me permettre cette qualification) viendra stationner sur le pays, on ne sera pas près d'avoir le retour de PP durables. 
-	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
-	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
-	Une année à mettre aux oubliettes. 
-	Modifié mercredi à 12:29 par Nicolas L
-								2
-								2
-
-=======================
-
-Auteur: edel
-Message:
-il y a 48 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
-		Il y a 2 heures, clem11 a dit :
-			Y’en a marre. (Désolé mais ça vient du cœur)
-	Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
-	Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
-								5
-								2
-
-=======================
-
 Auteur: mathias
 Message:
 il y a 14 minutes, edel a dit :
@@ -787,7 +755,7 @@ Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si
 	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
 	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
 								2
-								1
+								2
 								2
 
 =======================
@@ -820,10 +788,10 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
-								1
-								1
+								4
+								2
 
 =======================
 
@@ -832,4 +800,48 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 1 heure par mathias
+	Modifié il y a 3 heures par mathias
+								1
+								2
+								3
+
+=======================
+
+Auteur: nickdu77
+Message:
+Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le nord fin de topic, beaucoup moins marquée qu'au sud, mais il y a quand même beaucoup d'incertitude à partir du 5-6 septembre
+	On a ça pour le 06z de GFS : 
+	Et ça pour GEM (00z): 
+	Pour les températures au sol, on voit qu'il y a une forte incertitude à la fin du topic (AIFS 06z) : 
+	J
+	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
+	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
+	Modifié il y a 1 heure par nickdu77
+Oubli d&#039;un mot
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Comparatif des températures   à 850hpa des déterministes des principaux modèles.
+	Icon :
+	 Ukmo ( ne va que jusqu'à vendredi midi) :
+	CEP :
+	GEM :
+	GFS :
+	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
+	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
+	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
+	Modifié il y a 11 minutes par petit âge glaciaire 11
+Modifié
+								2
+
+=======================
+
+Auteur: edel
+Message:
+Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
+	Pour le sud, il faudra encore patienter...
+	Modifié il y a 10 minutes par edel
+								1

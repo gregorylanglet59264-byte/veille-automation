@@ -313,12 +313,12 @@ et restera sans doute d'actualité par la suite.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : =30°C consécutives]]>
+• Infoclimat Direct : Suivi du temps au Saguenay, Québec (Canada)
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 28/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -326,50 +326,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 28 Août 2026.
-Résumé général précédent : Sur les 15 prochains jours, la France devrait rester sous l'influence d'un temps sec et ensoleillé, avec des températures au-dessus des normales, surtout au sud. Un pic de chaleur est possible en fin de semaine 1, avec une atténuation incertaine en semaine 2..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec, ensoleillé, chaleur modérée au nord, forte au sud en fin de semaine..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Tornado75
-Message:
-Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-	Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-								1
-
-=======================
-
-Auteur: Nicolas L
-Message:
-il y a 14 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Je crois qu'on en a tous ras le bol de cet été dabord précoce et interminable au vue des modélisations actuelles. Mais tant que l’anticyclone Français (si je peux me permettre cette qualification) viendra stationner sur le pays, on ne sera pas près d'avoir le retour de PP durables. 
-	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
-	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
-	Une année à mettre aux oubliettes. 
-	Modifié mercredi à 12:29 par Nicolas L
-								2
-								2
-
-=======================
-
-Auteur: edel
-Message:
-il y a 48 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
-		Il y a 2 heures, clem11 a dit :
-			Y’en a marre. (Désolé mais ça vient du cœur)
-	Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
-	Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
-								5
-								2
-
-=======================
-
 Auteur: mathias
 Message:
 il y a 14 minutes, edel a dit :
@@ -534,7 +496,7 @@ Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si
 	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
 	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
 								2
-								1
+								2
 								2
 
 =======================
@@ -567,10 +529,10 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
-								1
-								1
+								4
+								2
 
 =======================
 
@@ -579,47 +541,53 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 1 heure par mathias
+	Modifié il y a 3 heures par mathias
+								1
+								2
+								3
+
+=======================
+
+Auteur: nickdu77
+Message:
+Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le nord fin de topic, beaucoup moins marquée qu'au sud, mais il y a quand même beaucoup d'incertitude à partir du 5-6 septembre
+	On a ça pour le 06z de GFS : 
+	Et ça pour GEM (00z): 
+	Pour les températures au sol, on voit qu'il y a une forte incertitude à la fin du topic (AIFS 06z) : 
+	J
+	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
+	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
+	Modifié il y a 1 heure par nickdu77
+Oubli d&#039;un mot
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Comparatif des températures   à 850hpa des déterministes des principaux modèles.
+	Icon :
+	 Ukmo ( ne va que jusqu'à vendredi midi) :
+	CEP :
+	GEM :
+	GFS :
+	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
+	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
+	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
+	Modifié il y a 11 minutes par petit âge glaciaire 11
+Modifié
+								2
+
+=======================
+
+Auteur: edel
+Message:
+Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
+	Pour le sud, il faudra encore patienter...
+	Modifié il y a 10 minutes par edel
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: Tornado75
-Message:
-Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-	Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-								1
-
-=======================
-
-Auteur: Nicolas L
-Message:
-il y a 14 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Je crois qu'on en a tous ras le bol de cet été dabord précoce et interminable au vue des modélisations actuelles. Mais tant que l’anticyclone Français (si je peux me permettre cette qualification) viendra stationner sur le pays, on ne sera pas près d'avoir le retour de PP durables. 
-	Ce qui est effrayant aussi, c’est la récurrence extraordinaire des hauts geopotentiels jusque sur l'Espagne et le sud de l'Europe en général. Ça expose systématiquement la France et le sud en particulier a des coups de chalumeau tardifs. 
-	Risque amoindri sur la moitié nord, mais les températures resteront nettement au-dessus des normales. 
-	Une année à mettre aux oubliettes. 
-	Modifié mercredi à 12:29 par Nicolas L
-								2
-								2
-
-=======================
-
-Auteur: edel
-Message:
-il y a 48 minutes, Tornado75 a dit :
-			Cette chaleur ne va jamais s'arrêter ? Il faut faire quoi pour avoir une semaine dans les normes maintenant ?? Désolé de cette plainte mais comme clem j'en ai marre de ce temps sec et chaud à n'en plus finir.
-			Cela commencerait plutôt vers le 3 septembre. Des changements peuvent encore intervenir comme la limite de la zone barocline plus au nord ou au sud. A suivre
-	Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
-		Il y a 2 heures, clem11 a dit :
-			Y’en a marre. (Désolé mais ça vient du cœur)
-	Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
-	Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
-								5
-								2
-
-=======================
-
 Auteur: mathias
 Message:
 il y a 14 minutes, edel a dit :
@@ -784,7 +752,7 @@ Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si
 	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
 	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
 								2
-								1
+								2
 								2
 
 =======================
@@ -817,10 +785,10 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
-								1
-								1
+								4
+								2
 
 =======================
 
@@ -829,4 +797,48 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 1 heure par mathias
+	Modifié il y a 3 heures par mathias
+								1
+								2
+								3
+
+=======================
+
+Auteur: nickdu77
+Message:
+Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le nord fin de topic, beaucoup moins marquée qu'au sud, mais il y a quand même beaucoup d'incertitude à partir du 5-6 septembre
+	On a ça pour le 06z de GFS : 
+	Et ça pour GEM (00z): 
+	Pour les températures au sol, on voit qu'il y a une forte incertitude à la fin du topic (AIFS 06z) : 
+	J
+	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
+	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
+	Modifié il y a 1 heure par nickdu77
+Oubli d&#039;un mot
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Comparatif des températures   à 850hpa des déterministes des principaux modèles.
+	Icon :
+	 Ukmo ( ne va que jusqu'à vendredi midi) :
+	CEP :
+	GEM :
+	GFS :
+	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
+	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
+	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
+	Modifié il y a 11 minutes par petit âge glaciaire 11
+Modifié
+								2
+
+=======================
+
+Auteur: edel
+Message:
+Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
+	Pour le sud, il faudra encore patienter...
+	Modifié il y a 10 minutes par edel
+								1
