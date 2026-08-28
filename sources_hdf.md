@@ -316,22 +316,22 @@ orange n'est actuellement prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 28/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Jeudi 27 Août 2026.
-Résumé général HDF précédent : Après une dégradation orageuse en toute fin d’août, le temps se stabilise et s’assèche sur les 15 prochains jours. Une chaleur tardive, plus ou moins intense, est probable en semaine 2, avec un possible fléchissement autour du 3 septembre mais sans retour de pluies notables..
+Dernier bulletin HDF généré le Vendredi 28 Août 2026.
+Résumé général HDF précédent : Après un début de semaine encore légèrement instable, la tendance est à une hausse progressive des températures avec un temps sec et ensoleillé. Un coup de chaud est probable en fin de semaine 1 ou en début de semaine 2, mais son intensité et sa durée restent incertaines..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Orages, fortes pluies locales, grêle possible ; rafales sous orages 80-100 km/h localement plus..
+Températures attendues précédemment : Averses parfois soutenues lundi, rafales jusqu'à 55 km/h. T°C : min 12-15°C, max 21-23°C lundi ; puis max 24-26°C à partir de jeudi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
