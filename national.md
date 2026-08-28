@@ -1,133 +1,138 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Vendredi 28 Août 2026
-**Période :** Semaine 1 (Du lundi 31 août au dimanche 6 septembre 2026) & Semaine 2 (Du lundi 7 au dimanche 13 septembre 2026)
+**Période :** Semaine 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) & Semaine 2 (Du Lundi 7 au Dimanche 13 Septembre 2026
+
+⚠️ Le sujet spécifique de la Semaine 37 n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 36.)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Moderate — *Les modèles s'accordent sur la chaleur et le sec, mais divergent sur l'intensité et la fin.*
-- **Fiabilité du scénario majoritaire :** Moderate — *Scénario le plus probable : chaleur jusqu'au 6 septembre, puis baisse progressive, sans dégradation majeure.*
+- **Consensus des modèles :** Modéré — *Accord sur le temps sec, mais divergence sur l'intensité de la chaleur.*
+- **Fiabilité du scénario majoritaire :** Coup de chaud au sud — *Scénario le plus probable : pic de chaleur en fin de semaine 1, surtout au sud.*
 - **Stabilité des cartes/scénarios :** 6 / 86 — *6 cartes sur 86 analysées*
-- **Niveau d'incertitude global :** Élevée — *La semaine 2 est très incertaine, avec des écarts de température notables entre runs.*
+- **Niveau d'incertitude global :** Incertitude modérée — *La principale incertitude concerne la durée et l'extension de la chaleur.*
 
-## 🗓️ SEMAINE 1 : Du lundi 31 août au dimanche 6 septembre 2026
+## 🗓️ SEMAINE 1 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Coup de chaud tardif en vue : après un début de semaine agréable, une hausse nette des températures est attendue à partir de mercredi, surtout au sud.
-2. Temps sec et très ensoleillé : les hautes pressions dominent, limitant fortement les précipitations, avec un risque d'orages isolés seulement en fin de semaine.
-3. Nuits plus fraîches au nord, mais tropicales au sud : les minimales resteront élevées dans les régions méridionales, accentuant la sensation de chaleur.
-4. Sécheresse préoccupante : l'absence de pluie significative aggrave la situation hydrique, notamment sur le pourtour méditerranéen et le sud-ouest.
-5. Fin de semaine plus changeante à l'ouest : quelques averses possibles samedi sur les côtes atlantiques avant un retour au calme.
+1. Coup de chaud au sud : Un pic de chaleur est attendu en fin de semaine, surtout au sud et au sud-ouest.
+2. Nord plus épargné : Les températures resteront plus agréables sur la moitié nord, avec un flux de nord-ouest.
+3. Sécheresse qui s'aggrave : Les précipitations seront très rares, notamment sur l'extrême sud, aggravant la sécheresse.
+4. Incertitude sur le pic : Les modèles divergent sur l'intensité et la durée exacte du coup de chaleur.
+5. Nuits plus longues : Les nuits plus longues limiteront les fortes chaleurs, surtout en campagne.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Temps sec et ensoleillé dominant sur la majorité du pays, avec des précipitations très limitées.
-- Hausse des températures en milieu de semaine, surtout sur la moitié sud.
-- Nuits plus fraîches au nord, plus chaudes au sud.
-- Sécheresse qui s'accentue sur le pourtour méditerranéen et le sud-ouest.
+- Convergence sur un temps sec et ensoleillé sur la majeure partie du pays, avec très peu de précipitations.
+- Convergence sur un coup de chaud en fin de semaine, surtout au sud et au sud-ouest, avec des maximales possibles proches de 35°C.
+- Convergence sur des températures au-dessus des normales, mais avec un nord moins exposé que le sud.
 **Points de divergence :**
-- Intensité et durée du pic de chaleur : CEP et AIFS voient un pic plus fort et plus long, tandis que GFS et GEM le voient plus modéré et plus court.
-- Extension de la chaleur vers le nord : certains modèles la limitent aux régions méridionales, d'autres l'envisagent jusqu'en Île-de-France.
-- Risque d'orages en fin de semaine : présent sur les reliefs et l'ouest, mais avec une localisation incertaine.
+- Divergence sur l'intensité du pic : CEP/AIFS plus chauds, GEFS/GEM moins marqués.
+- Divergence sur la durée : AIFS voit un épisode plus long, GEFS une ondulation moins marquée.
+- Divergence sur la localisation exacte de la zone barocline, qui peut faire varier la limite nord de la chaleur.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (déterministe et ensembles)** (Actif – plusieurs runs analysés) | Onde anticyclonique moins marquée, flux de nord-ouest sur le nord, chaleur limitée à l'extrême sud-ouest. Pic thermique moins intense et plus court que prévu initialement. | Temps sec et ensoleillé sur la majorité du pays, températures de saison au nord, chaudes au sud. Averses possibles sur les côtes atlantiques samedi. | Nord-ouest, nord, centre, sud-ouest, méditerranée-corse. | Modérée (65%) | GFS voit une remontée chaude moins franche que CEP, avec des températures à 850 hPa plus basses. Les cumuls de pluie restent très faibles, voire nuls. |
-| **CEP (ensemble européen)** (Très actif – cohérent entre runs) | Scénario le plus chaud : pic de chaleur bien marqué vers le 3-4 septembre, avec des températures à 850 hPa dépassant 20°C sur le sud. Extension possible vers le nord en fin de semaine. | Soleil dominant, très chaud sur les trois quarts sud, orages isolés possibles sur les reliefs en fin de journée. | Sud-ouest, sud-est, centre, nord-est (marginal). | Élevée (85%) | CEP affiche les anomalies de température les plus élevées, avec un risque de dépasser 35°C localement dans le sud-ouest. Il reste toutefois des incertitudes sur l'extension vers le nord. |
-| **AIFS (IA européenne)** (Actif – tendance à la hausse des températures) | Épisode chaud plus long : la chaleur persiste au-delà de la semaine 1, avec un maintien des hauts géopotentiels sur la France. Scénario sec et très chaud. | Temps sec, ensoleillé, chaleur durable sur la moitié sud, températures au-dessus des normales. | Sud, centre-est, méditerranée. | Modérée (65%) | AIFS insiste sur la récurrence des hautes pressions et un flux de sud-ouest persistant, maintenant la chaleur plus longtemps que GFS. |
-| **GEM (canadien)** (Actif – cohérent avec GFS sur la fin) | Poussée chaude plus précoce (dès le 1er septembre), puis repli possible. Scénario proche de CEP mais avec un pic moins intense et plus bref. | Beau temps chaud en début de semaine, puis retour à des conditions plus modérées avec quelques averses sur le nord-ouest. | Sud-ouest, centre, nord-ouest. | Modérée (50%) | GEM montre une ondulation moins marquée, avec une chaleur limitée à l'ouest et au sud. Les précipitations restent faibles. |
+| **GFS (déterministe et ensemble GEFS)** (Documenté) | Ondulation moins marquée, flux de nord-ouest, chaleur surtout sur l'extrême sud-ouest, pic moins intense que CEP. | Temps sec, ensoleillé, chaleur modérée au nord, forte au sud en fin de semaine. | Sud-ouest, sud-est, méditerranée ; nord moins concerné | Élevée (85%) | GFS modélise des températures à 850 hPa un peu plus basses que CEP, mais des températures à 2 m similaires. L'ensemble GEFS montre une moyenne ne dépassant pas 15°C à 850 hPa au nord, avec un pic moins marqué. |
+| **CEP (ECMWF)** (Documenté) | Ensemble le plus chaud, signaux d'une vague de chaleur tardive dans le sud ou d'un coup de chaud marqué. | Fortes chaleurs sur le sud et le sud-ouest, maximales possibles proches de 35°C, temps sec. | Sud, sud-ouest, sud-est, méditerranée ; nord moins exposé | Élevée (85%) | L'ensemble CEP présente des températures à 850 hPa supérieures ou égales à 20°C sur le sud, et des moyennes à 2 m pouvant dépasser 30°C, voire 35°C localement. |
+| **AIFS (ECMWF)** (Partiel) | Épisode de chaleur plus long, avec des températures à 850 hPa élevées sur le sud. | Chaleur durable, temps sec, absence de précipitations. | Sud, sud-est, méditerranée | Modérée (65%) | AIFS reste sur un épisode plus long, avec une moyenne à 850 hPa qui grimpe plus haut que GEFS. |
+| **GEM** (Partiel) | Dans la même veine que GEFS, avec une poussée de chaleur plus précoce. | Temps sec, chaleur sur le sud-ouest, flux de nord-ouest au nord. | Sud-ouest, sud | Faible (45%) | GEM propose une poussée chaude plus précoce, mais reste dans la même veine que GEFS. |
+| **GEFS (ensemble GFS)** (Documenté) | Ondulation moins marquée, flux de nord-ouest, chaleur limitée à l'extrême sud-ouest, pic pas encore bien cerné. | Temps sec, températures moins extrêmes qu'AIFS/CEP, surtout au nord. | Extrême sud-ouest, sud ; nord moins concerné | Élevée (85%) | GEFS montre une moyenne à 850 hPa qui ne dépasse pas 15°C au nord, avec une chaleur/fortes chaleurs concentrée sur l'extrême sud-ouest. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Éclaircies puis soleil, quelques averses samedi sur les côtes | Max 23-27°C, min 15-18°C, fraîches en fin de nuit | elevee | GFS, CEP, GEM | Localisation et intensité des averses samedi |
-| **Nord** | Soleil généreux, quelques nuages en début de semaine, chaleur modérée | Max 24-28°C, min 14-18°C, fraîches le matin | elevee | GFS, CEP, AIFS | Atteinte ou non des 30°C en Île-de-France |
-| **Nord-Est** | Ensoleillé, chaleur modérée, quelques nuages en fin de semaine | Max 25-29°C, min 13-16°C | moderee | GFS, GEM | Présence ou non des orages en soirée |
-| **Ouest et Façade Atlantique** | Soleil dominant, quelques averses possibles samedi, surtout sur le littoral | Max 25-29°C, min 16-19°C, plus fraîches sur la côte | elevee | GFS, CEP, GEM | Étendue des averses samedi |
-| **Centre** | Temps très ensoleillé, chaleur en hausse en milieu de semaine | Max 26-31°C, min 14-18°C, fraîches au lever du jour | elevee | CEP, AIFS, GEM | Intensité du pic de chaleur |
-| **Sud-Ouest** | Soleil intense, chaleur marquée, surtout en fin de semaine | Max 30-34°C, possiblement 35°C localement, min 17-20°C | elevee | GFS, CEP, AIFS, GEM | Risque d'orages sur les reliefs en fin de journée |
-| **Sud-Est et Vallée du Rhône** | Ensoleillé, très chaud, mais quelques nuages en début de semaine | Max 30-33°C, min 18-21°C (nuits tropicales) | elevee | CEP, AIFS, GFS | Impact du mistral sur les températures |
-| **Méditerranée et Corse** | Soleil éclatant, très chaud, températures élevées | Max 30-34°C, min 20-23°C (nuits tropicales) | elevee | GFS, CEP | Risque d'incendies en raison de la sécheresse |
+| **Nord-Ouest** | Temps sec et ensoleillé, quelques averses possibles sur le littoral. | Maximales entre 20 et 25°C, minimales autour de 12-16°C. | elevee | GFS, CEP, AIFS | Localisation des averses sur le littoral |
+| **Nord** | Beau temps ensoleillé en début de semaine, puis plus nuageux. | Maximales 21-25°C, minimales 13-16°C. | elevee | GFS, CEP, GEFS | Passage pluvieux mardi plus ou moins actif |
+| **Nord-Est** | Ensoleillé, chaleur modérée, orages possibles en fin de période. | Maximales 24-28°C, minimales 12-16°C. | moderee | CEP, GFS | Extension des orages vers le nord-est |
+| **Ouest et Façade Atlantique** | Soleil généreux, chaleur en hausse, quelques averses possibles. | Maximales 25-31°C, littoral plus frais (22-23°C). | elevee | GFS, CEP, AIFS | Températures littorales rafraîchies par le vent |
+| **Centre** | Ensoleillé, chaleur modérée, orages possibles en fin de nuit. | Maximales 24-29°C, minimales 13-18°C. | elevee | GFS, CEP | Orages localisés en fin de nuit |
+| **Sud-Ouest** | Soleil dominant, chaleur marquée, risque d'orages en début de semaine. | Maximales 25-34°C, minimales 14-19°C. | elevee | CEP, AIFS, GFS | Intensité de la chaleur en fin de semaine |
+| **Sud-Est et Vallée du Rhône** | Ensoleillé et très chaud, sécheresse marquée. | Maximales 31-35°C, minimales 18-21°C sur le littoral. | elevee | CEP, AIFS, GFS | Durée du pic de chaleur |
+| **Méditerranée et Corse** | Soleil, chaleur, vent d'ouest modéré, mer peu agitée. | Maximales 28-32°C, minimales 19-21°C. | moderee | CEP, GFS | Influence marine sur les températures |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **31 août - 1er septembre** : Temps calme et ensoleillé, températures de saison, fraîcheur matinale au nord.
-- **2 - 4 septembre** : Pic de chaleur, forte hausse des températures sur le sud et le centre, nuits chaudes.
-- **5 - 6 septembre** : Légère baisse des températures, quelques averses possibles à l'ouest, toujours sec ailleurs.
-- **Non déterminé (hors période)** : Conditions incertaines au-delà du 6 septembre.
+- **Lundi 31 août - Mardi 1er septembre** : Temps sec et ensoleillé, chaleur modérée, orages possibles sur le relief.
+- **Mercredi 2 - Jeudi 3 septembre** : Soleil dominant, températures en hausse, sécheresse qui s'installe.
+- **Vendredi 4 - Samedi 5 septembre** : Pic de chaleur sur le sud et le sud-ouest, maximales proches de 35°C.
+- **Dimanche 6 septembre** : Chaleur encore présente au sud, ciel plus nuageux au nord.
 
 **Points solides :**
-- Temps sec et ensoleillé sur la quasi-totalité du pays, avec des précipitations très faibles.
-- Hausse des températures en milieu de semaine, plus marquée au sud (35°C possibles).
-- Nuits fraîches au nord, tropicales au sud.
+- Temps sec et ensoleillé sur la majeure partie du pays.
+- Chaleur marquée sur le sud et le sud-ouest en fin de semaine.
+- Absence de précipitations significatives, surtout sur l'extrême sud.
 
 **Points fragiles :**
-- Intensité exacte du pic de chaleur (33°C ou 35°C ?).
-- Extension de la chaleur vers le nord (Île-de-France ou pas ?).
-- Localisation des éventuelles averses samedi sur la façade atlantique.
+- Intensité exacte du pic de chaleur (35°C ou non).
+- Durée de l'épisode chaud, notamment en semaine 2.
+- Passage pluvieux possible mardi sur le nord-ouest.
 
 **À surveiller (prochains runs) :**
-- Run 00Z de GFS et CEP du 29 août (confirmation du pic).
-- Évolution des ensembles AIFS pour la tendance au-delà du 6 septembre.
+- Prochains runs GFS et CEP pour cerner le pic de chaleur.
+- Évolution de la zone barocline.
+- Signaux d'orages sur le Massif central.
 
 
-## 🗓️ SEMAINE 2 : Du lundi 7 au dimanche 13 septembre 2026
+## 🗓️ SEMAINE 2 : Du Lundi 7 au Dimanche 13 Septembre 2026
+
+⚠️ Le sujet spécifique de la Semaine 37 n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 36.
 ### 💡 Points clés de la semaine 2
-1. Prolongation probable de la chaleur sur le sud : les modèles s'accordent sur des températures encore élevées, mais avec une intensité en baisse.
-2. Temps toujours sec : les hautes pressions résistent, maintenant une sécheresse marquée, surtout sur le pourtour méditerranéen.
-3. Incertitude sur le nord : des signaux contradictoires entre un maintien de l'anticyclone et une possible dégradation.
-4. Nuits plus fraîches en général : le refroidissement nocturne s'accentue, sauf en zone urbaine du sud.
-5. Risque d'orages localisés en fin de période : à surveiller sur les reliefs du sud-est et de l'est.
+1. Sujet non ouvert : Le sujet dédié n'est pas encore ouvert, l'analyse repose sur les projections long terme.
+2. Chaleur possible au sud : Les modèles suggèrent une persistance de températures élevées sur le sud et le sud-est.
+3. Atténuation incertaine : Une baisse des températures est possible en début de semaine, mais très incertaine.
+4. Sécheresse préoccupante : Le déficit de pluie pourrait se poursuivre, aggravant la sécheresse.
+5. Nord plus frais : La moitié nord pourrait être épargnée par les fortes chaleurs.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Maintien de températures au-dessus des normales, surtout dans le sud.
-- Temps sec et ensoleillé sur la majorité du pays.
-- Sécheresse qui perdure, notamment en méditerranée.
+- Convergence sur un temps sec et ensoleillé, avec très peu de précipitations.
+- Convergence sur des températures au-dessus des normales, surtout au sud.
+- Convergence sur une possible atténuation en début de semaine, mais non confirmée.
 **Points de divergence :**
-- Date d'une éventuelle dégradation : GEM la voit plus tôt que les autres.
-- Intensité de la chaleur dans le nord : certains modèles laissent entrevoir un maintien, d'autres une baisse.
-- Risque orageux : CEP évoque des orages en fin de période, mais leur localisation est incertaine.
+- Divergence sur la durée de la chaleur : AIFS prolonge, GEFS atténue.
+- Divergence sur l'intensité : CEP plus chaud, GFS plus modéré.
+- Divergence sur la localisation exacte de la zone barocline.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (ensembles)** (Actif – cohérent avec les runs précédents) | Maintien de l'anticyclone sur la France, chaleur modérée sur le sud, températures en légère baisse au nord. Pas de dégradation majeure. | Temps sec et ensoleillé, quelques passages nuageux, orages très localisés en fin de semaine. | Sud, centre-est, méditerranée. | Modérée (65%) | GFS maintient des températures au-dessus des normales, avec des anomalies de +2 à +4°C sur le sud. Les précipitations restent très faibles. |
-| **CEP (ensemble européen)** (Très actif – bonne cohérence) | Persistance d'un dôme de chaleur sur l'Europe du Sud, la France reste en marge. Chaleur plus marquée sur le sud-est, avec un risque orageux en fin de période. | Temps sec et chaud, soleil généreux, orages possibles sur les Alpes et le Massif Central en fin de semaine. | Sud-est, centre-est, méditerranée. | Élevée (85%) | CEP voit des températures encore élevées (30-34°C dans le sud), avec des nuits moins chaudes qu'en semaine 1. Un changement est possible en toute fin de période. |
-| **AIFS (IA européenne)** (Actif – prolonge la tendance chaude) | Maintien de la chaleur jusqu'à la fin de la période, avec un flux de sud-ouest persistant. Scénario sec et chaud. | Temps ensoleillé, chaleur soutenue, aucun signe de dégradation. | Sud, ouest, centre. | Modérée (65%) | AIFS insiste sur la récurrence des hauts géopotentiels, ce qui maintient la sécheresse et la chaleur, surtout dans la moitié sud. |
-| **GEM (canadien)** (Actif – divergence avec les autres modèles) | Tendance à un fléchissement en fin de période : les températures baissent, surtout au nord, avec un risque d'averses plus marqué. | Temps plus changeant en fin de semaine, avec des averses possibles sur la moitié nord. | Nord, nord-ouest, centre. | Faible (45%) | GEM propose une dégradation plus précoce que GFS ou CEP, mais ce scénario est minoritaire. |
+| **CEP (ECMWF) - Projection long terme** (Partiel) | Ensemble le plus chaud, signaux d'une vague de chaleur tardive dans le sud, possible atténuation en début de semaine 2. | Fortes chaleurs sur le sud, temps sec, très peu de précipitations. | Sud, sud-ouest, sud-est, méditerranée | Modérée (65%) | Le CEP maintient des températures à 850 hPa élevées sur le sud-est jusqu'au début du topic suivant, avec une dispersion des scénarios. |
+| **GFS / GEFS - Projection long terme** (Partiel) | Ondulation moins marquée, flux de nord-ouest, chaleur limitée à l'extrême sud-ouest. | Temps sec, températures plus modérées au nord. | Extrême sud-ouest, sud | Modérée (65%) | GEFS montre une moyenne à 850 hPa qui ne dépasse pas 15°C au nord, avec une chaleur concentrée sur l'extrême sud-ouest. |
+| **AIFS - Projection long terme** (Partiel) | Épisode de chaleur plus long, se prolongeant en semaine 2. | Chaleur durable, temps sec. | Sud, sud-est | Faible (45%) | AIFS reste sur un épisode plus long, avec des températures à 850 hPa élevées. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Alternance de nuages et d'éclaircies, risque d'averses en fin de semaine | Max 22-26°C, min 12-16°C, plus frais en fin de période | moderee | GEM, GFS | Intensité et étendue des averses |
-| **Nord** | Soleil et nuages, températures en légère baisse | Max 24-28°C, min 13-17°C | moderee | GFS, CEP, GEM | Maintien de l'anticyclone ou non |
-| **Nord-Est** | Ensoleillé, chaleur modérée, quelques nuages | Max 25-29°C, min 12-15°C | moderee | CEP, GFS | Évolution du dôme de chaleur |
-| **Ouest et Façade Atlantique** | Soleil dominant, quelques passages nuageux | Max 25-30°C, min 14-18°C | moderee | GFS, AIFS | Risque de brume marine sur le littoral |
-| **Centre** | Temps sec, ensoleillé, chaleur maintenue | Max 27-31°C, min 15-18°C | elevee | CEP, AIFS | Pic de chaleur en début ou fin de semaine |
-| **Sud-Ouest** | Très ensoleillé, chaleur toujours présente | Max 30-34°C, min 17-20°C | elevee | CEP, GFS, AIFS | Baisse des températures en fin de semaine |
-| **Sud-Est et Vallée du Rhône** | Ensoleillé, chaleur persistante, quelques nuages sur le relief | Max 29-33°C, min 18-21°C | moderee | CEP, GFS | Déclenchement des orages |
-| **Méditerranée et Corse** | Soleil éclatant, chaleur forte, sécheresse | Max 30-34°C, min 20-23°C | elevee | GFS, CEP | Risque d'incendies |
+| **Nord-Ouest** | Temps sec, températures proches des normales. | Maximales 20-25°C, minimales 10-15°C. | faible | GFS, CEP | Sujet non ouvert, projections long terme incertaines |
+| **Nord** | Temps sec, températures de saison, chaleur limitée. | Maximales 21-26°C. | faible | GFS, GEFS | Sujet non ouvert, projections long terme incertaines |
+| **Nord-Est** | Temps sec, chaleur modérée, orages possibles. | Maximales 23-28°C. | faible | CEP | Sujet non ouvert, projections long terme incertaines |
+| **Ouest et Façade Atlantique** | Soleil, chaleur possible, sécheresse. | Maximales 25-31°C. | moderee | CEP, AIFS | Sujet non ouvert, projections long terme incertaines |
+| **Centre** | Ensoleillé, chaleur modérée. | Maximales 24-29°C. | faible | GFS, CEP | Sujet non ouvert, projections long terme incertaines |
+| **Sud-Ouest** | Chaleur marquée, temps sec. | Maximales 28-35°C. | moderee | CEP, AIFS, GFS | Sujet non ouvert, projections long terme incertaines |
+| **Sud-Est et Vallée du Rhône** | Très chaud, ensoleillé, sécheresse. | Maximales 30-36°C. | moderee | CEP, AIFS | Sujet non ouvert, projections long terme incertaines |
+| **Méditerranée et Corse** | Chaud, ensoleillé, vent modéré possible. | Maximales 28-33°C. | faible | CEP, GFS | Sujet non ouvert, projections long terme incertaines |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **7 - 9 septembre** : Chaleur maintenue, soleil généreux, températures élevées sur le sud.
-- **10 - 13 septembre** : Possible baisse des températures, surtout au nord, avec un risque d'averses.
-- **Non déterminé** : Situation trop incertaine pour établir une troisième phase.
-- **Non déterminé** : Situation non modélisée.
+- **Lundi 7 - Mardi 8 septembre** : Atténuation possible des fortes chaleurs.
+- **Mercredi 9 - Jeudi 10 septembre** : Temps sec, températures en hausse possible.
+- **Vendredi 11 - Samedi 12 septembre** : Chaleur au sud, nord plus frais.
+- **Dimanche 13 septembre** : Incertitude, sujet non ouvert.
 
 **Points solides :**
-- Chaleur encore présente sur le sud, avec des maximales dépassant 30°C.
-- Temps sec et ensoleillé sur la majorité du pays.
-- Sécheresse qui continue de s'aggraver.
+- Temps sec et ensoleillé probable.
+- Chaleur persistante sur le sud.
+- Sécheresse qui s'aggrave.
 
 **Points fragiles :**
-- Incertitude sur la dégradation en fin de semaine (GEM vs autres).
-- Évolution des températures dans le nord (baisse ou maintien).
-- Déclenchement des orages sur le relief.
+- Durée exacte de la chaleur.
+- Passage d'une dégradation possible.
+- Localisation des orages.
 
 **À surveiller (prochains runs) :**
-- Runs GFS et CEP du 30 août pour cerner la tendance de fin de semaine.
-- Évolution des ensembles AIFS pour la persistance de la chaleur.
+- Ouverture du sujet Semaine 37.
+- Runs CEP et GFS à échéance longue.
+- Évolution de la zone barocline.
 
 
 ========================================
@@ -135,38 +140,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Les deux semaines à venir seront marquées par un temps sec et ensoleillé, avec une chaleur qui persiste surtout sur la moitié sud. Un pic de chaleur est attendu entre le 3 et le 5 septembre, avec des maximales pouvant atteindre 35°C dans le sud-ouest. En semaine 2, les températures devraient baisser légèrement, mais rester au-dessus des normales. Les précipitations seront très rares, aggravant la sécheresse, surtout en méditerranée.
+Sur les 15 prochains jours, la France devrait rester sous l'influence d'un temps sec et ensoleillé, avec des températures au-dessus des normales, surtout au sud. Un pic de chaleur est possible en fin de semaine 1, avec une atténuation incertaine en semaine 2.
 
 ### Période la plus fiable
-La semaine 1 est mieux documentée (sujet de forum dédié, bulletins Météo-France). La semaine 2 reste incertaine, surtout en fin de période, avec des divergences entre modèles.
+Semaine 1, car elle est documentée par les bulletins Météo-France et les discussions détaillées des membres.
 
 ### Phénomènes récurrents
-- Persistance des hautes pressions.
-- Flux de sud-ouest apportant de la chaleur.
-- Absence de perturbations durables.
+Hauts géopotentiels sur l'Europe du Sud, flux de nord-ouest sur le nord de la France, absence de précipitations durables.
 
 ### Principales incertitudes
-- Intensité et durée du pic de chaleur.
-- Dégradation en semaine 2 (GEM est isolé).
-- Risque d'orages en fin de périodes.
+Durée et intensité du pic de chaleur, position de la zone barocline, évolution en semaine 2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** - Pic de chaleur: entre le 3 et le 5 septembre, mais la date précise varie selon les runs.
-- Dégradation en semaine 2: GEM l'envisage dès le 10, les autres modèles plus tard ou pas du tout.
-- **Localisation :** - Extension de la chaleur vers le nord: certains modèles la limitent au sud, d'autres l'étendent jusqu'à Paris.
-- Averses du samedi 5: localisation sur le littoral atlantique incertaine.
-- **Intensité :** - Températures maximales: 33°C ou 35°C? L'écart est de 2°C selon les modèles.
-- Nuits tropicales: combien de jours consécutifs dans le sud?
-- **Informations manquantes :** - Le sujet spécifique de la semaine 2 n'est pas encore ouvert sur le forum, les informations sont extrapolées.
-- Pas de données hydrologiques précises pour la sécheresse.
-- Orages non modélisés de manière fiable au-delà de 5 jours.
-- **Modèles sous-documentés :** - GEM est peu mentionné dans les discussions, avec seulement 1 occurrence en semaine 2.
-- AIFS a été cité, mais avec moins de détails que GFS ou CEP.
-- **Incertitudes images :** - Les cartes de températures à 2 mètres sont divergentes entre GFS et CEP.
-- Les cumuls de précipitations sont quasi nuls dans toutes les projections.
+- **Timing/Chronologie :** Le timing exact du pic de chaleur et de son atténuation reste incertain, notamment en semaine 2.
+- **Localisation :** La limite nord de la chaleur est incertaine, avec une zone barocline qui peut fluctuer.
+- **Intensité :** Les modèles divergent sur l'intensité : CEP/AIFS plus chauds, GEFS/GEM plus modérés.
+- **Informations manquantes :** Le sujet Semaine 37 n'est pas encore ouvert, limitant les informations pour la semaine 2. Peu de détails sur le vent et les orages.
+- **Modèles sous-documentés :** GEM et AIFS sont peu commentés ; GFS est le plus documenté.
+- **Incertitudes images :** Les cartes postées par les membres montrent des divergences entre les runs, notamment sur la position de la zone barocline.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌡️ La France va connaître un nouveau coup de chaud tardif cette semaine, avec des pointes à 35°C possibles dans le sud. Le temps restera très sec, aggravant la sécheresse. Les modèles prévoient une amélioration (relative) la semaine suivante, mais la tendance chaude persiste. Restez prudents face aux risques d'incendies et à la chaleur.
+🌡️ Coup de chaud tardif en vue ? Les modèles s'accordent sur un temps sec et ensoleillé, avec des températures en hausse sur le sud. Le pic pourrait approcher 35°C localement. Incertitudes sur la durée. Restons prudents ! #météo #prévisions

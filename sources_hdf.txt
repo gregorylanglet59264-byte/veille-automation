@@ -341,10 +341,10 @@ et restera sans doute d'actualité par la suite.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Inondations Népal
-• Infoclimat Direct : Suivi des volcans islandais
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Inondations Népal
 
@@ -354,9 +354,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 28 Août 2026.
-Résumé général HDF précédent : Tendance générale : temps sec et chaud se prolongeant sur la première semaine de septembre, avec un possible refroidissement en seconde semaine, mais très incertain..
+Résumé général HDF précédent : Temps sec dominant avec températures au-dessus des normales. Un coup de chaud est possible en fin de semaine 1 et début de semaine 2, mais l'ampleur reste incertaine. Les précipitations seront rares, aggravant la sécheresse..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Coup de chaud franc mais court, suivi d'orages localement forts..
+Températures attendues précédemment : Averses et rafales de vent sur le littoral, températures agréables (20-23°C)..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -586,8 +586,9 @@ Bonjour,
 
 Auteur: petit âge glaciaire 11
 Message:
-Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleur tardive dans le sud de la France ou à minima d'un nouveau coup de chaud comme on peut le voir par exemple en regardant l'ensemble CEP pour Toulouse :
-	Frejus :
+Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleur tardive dans le sud de la France ou à minima d'un nouveau coup de chaud comme on peut le voir par exemple en regardant l'ensemble CEP pour Toulouse.
+	Ce coup de chaleur pourrait commencer à s'atténuer à partir du début du topic suivant mais vu l'échéance et la dispersion des courbes ul est aussi tout a fait envisageable que le topic soit aussi concerné par des températures encore très  chaudes. 
+	Dans le sud-est comme à Frejus on resterait avec une moyenne égale ou supérieure à 20 degrés à 850hpa jusqu'au début du topic suivant ( je n'arrive plus à poster la copie de l'ensemble de cette ville).
 	Heureusement les nuits commencent à être plus longues et ces fortes chaleurs pour un début d'automne météorologique pourraient quand-même être plus supportables grâce à des soirées et des  matinées moins chaudes.
 	Mais ça tapera dur dans l'après-midi dans le sud et le sud-ouest,  la partie nord de la France devrait etre épargnée et avoir des températures  finalement assez agréables. 
 	On retrouverait dans une partie sud de la France une configuration semblable à ce que nous avons souvent connu cet été avec des hauts géopotentiels à nouveau bien présents sur la France :
@@ -603,8 +604,10 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 2 minutes par petit âge glaciaire 11
+	Modifié il y a 1 heure par petit âge glaciaire 11
 Modifié
+								1
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: Plancher
@@ -833,8 +836,9 @@ Bonjour,
 
 Auteur: petit âge glaciaire 11
 Message:
-Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleur tardive dans le sud de la France ou à minima d'un nouveau coup de chaud comme on peut le voir par exemple en regardant l'ensemble CEP pour Toulouse :
-	Frejus :
+Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleur tardive dans le sud de la France ou à minima d'un nouveau coup de chaud comme on peut le voir par exemple en regardant l'ensemble CEP pour Toulouse.
+	Ce coup de chaleur pourrait commencer à s'atténuer à partir du début du topic suivant mais vu l'échéance et la dispersion des courbes ul est aussi tout a fait envisageable que le topic soit aussi concerné par des températures encore très  chaudes. 
+	Dans le sud-est comme à Frejus on resterait avec une moyenne égale ou supérieure à 20 degrés à 850hpa jusqu'au début du topic suivant ( je n'arrive plus à poster la copie de l'ensemble de cette ville).
 	Heureusement les nuits commencent à être plus longues et ces fortes chaleurs pour un début d'automne météorologique pourraient quand-même être plus supportables grâce à des soirées et des  matinées moins chaudes.
 	Mais ça tapera dur dans l'après-midi dans le sud et le sud-ouest,  la partie nord de la France devrait etre épargnée et avoir des températures  finalement assez agréables. 
 	On retrouverait dans une partie sud de la France une configuration semblable à ce que nous avons souvent connu cet été avec des hauts géopotentiels à nouveau bien présents sur la France :
@@ -850,5 +854,7 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 2 minutes par petit âge glaciaire 11
+	Modifié il y a 1 heure par petit âge glaciaire 11
 Modifié
+								1
+								1
