@@ -133,10 +133,10 @@ Températures minimales : sans changement significatif.
 Températures maximales : similaires à la veille.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 28/08/2026 09:30
+Emis le : 28/08/2026 10:01
 
 Vigilance :
-Attention, aujourd'hui, le département de la Gironde est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
+Aujourd'hui et demain, le département de la Gironde est en vigilance verte.
 
 Observations :
 Aujourd'hui on observait à 09h :
@@ -147,32 +147,31 @@ A Libourne : température de 19 degrés, vent de secteur Sud-Ouest soufflant jus
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui vendredi 28 :
-Le ciel est nuageux, avec quelques éclaircies. Quelques averses sont possibles, le matin, mais elles sont faibles et localisées.
-On attend au maximum jusqu'à 5 millimètres de pluie sur le littoral.
+Le ciel est variable le matin, et de petites averses se produisent. L'après-midi, le ciel se dégage et le soleil brille généreusement en fin de journée.
 Vent d'Ouest à Sud-Ouest assez fort, sur le littoral. Rafales atteignant 55 km/h, en fin de matinée.
-Températures maximales : de 24 à 27 degrés.
+Températures maximales : entre 24 et 27 degrés.
 
 • Pour la nuit prochaine :
 En soirée, on aperçoit des étoiles entre les passages nuageux. De rares averses sont possibles, sur l'Ouest du département, jusqu'en milieu de nuit. En seconde partie de nuit, le ciel est étoilé.
 Vent d'Ouest à Sud-Ouest assez fort, sur le littoral.
-Températures minimales : entre 16 et 18 degrés, et 20 degrés sur le Bassin d'Arcachon.
+Températures minimales : comprises entre 16 et 18 degrés, et 20 degrés sur le Bassin d'Arcachon.
 
 • Pour demain samedi 29 en journée et la nuit suivante :
 La matinée bénéficie déjà de jolies éclaircies, qui s'élargissent encore, au cours de l'après-midi. Pour la nuit : Les étoiles sont partout présentes. Seul bémol, des nuages en fin de nuit sur le littoral qui peuvent donner quelques gouttes.
 Jusqu'en milieu d'après-midi, vent d'Ouest à Sud-Ouest assez fort, sur le littoral ; atténuation ensuite.
-Températures maximales pour le jour : sur la majeure partie sud du département de 27 à 30 degrés. Comprises entre 25 et 26 degrés sur le Médoc et le Blayais.
-Températures minimales pour la nuit suivante : de 16 à 19 degrés, et 20 degrés sur le littoral.
+Températures maximales pour le jour : sur la majeure partie sud du département entre 27 et 30 degrés. De 25 à 26 degrés sur le Médoc et le Blayais.
+Températures minimales pour la nuit suivante : comprises entre 16 et 19 degrés, et 20 degrés sur le littoral.
 
 • Pour la journée de dimanche 30 et la nuit suivante :
 Le soleil s'installe en général pour la journée. Il faut toutefois attendre, sur le littoral, que les quelques rares averses, possibles en début de journée, cessent. Pour la nuit : Les étoiles sont partout présentes. Seul bémol, des nuages en fin de nuit sur le littoral qui peuvent donner quelques gouttes.
-Vent d'Ouest à Nord-Ouest, modéré.
+Vent modéré, d'Ouest à Nord-Ouest.
 Températures maximales pour le jour : autour de 26 à 29 degrés, et 22 degrés sur le littoral.
-Températures minimales pour la nuit suivante : entre 15 et 18 degrés, et 20 degrés sur le littoral.
+Températures minimales pour la nuit suivante : de 15 à 18 degrés, et 20 degrés sur le littoral.
 
 • Pour la journée de lundi 31 :
 La journée est généralement très ensoleillée. En fin de matinée et début d'après-midi, des nuages, qui restent discrets, se développent, sur le Sud-Est du département.
-Vent généralement modéré, d'Ouest à Nord-Ouest.
-Températures maximales : comprises entre 26 et 28 degrés, et 22 degrés sur le littoral.
+Vent d'Ouest à Nord-Ouest, généralement modéré.
+Températures maximales : de 26 à 28 degrés, et 22 degrés sur le littoral.
 
 • Pour mardi 01 septembre et mercredi 02 :
 Sur l'agglomération bordelaise, temps pluvieux de mardi à la mi-journée jusqu'en fin de journée. Ailleurs, temps le plus souvent ensoleillé.
@@ -193,10 +192,10 @@ Températures minimales : en hausse sur le Médoc et le Blayais ainsi que sur l'
 Températures maximales : en hausse autour de l'estuaire de la Gironde ainsi que sur la moitié Sud-Est du département.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 28/08/2026 09:30
+Emis le : 28/08/2026 10:01
 
 Vigilance :
-Attention, aujourd'hui, le département du Rhône est en vigilance orange pour le phénomène orages et en vigilance jaune pour le phénomène pluie-inondation. Demain, il sera en vigilance verte.
+Attention, aujourd'hui, le département du Rhône est en vigilance jaune pour le phénomène orages. Demain, il sera en vigilance verte.
 
 Observations :
 Aujourd'hui on observait à 09h :
@@ -312,7 +311,7 @@ Températures minimales : en hausse sur le Midi Toulousain.
 Températures maximales : en hausse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 280420 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 28 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 28 août 2026 à 00H00 UTC, et évolution Dépression 1010 hPa sur le Golfe du Lion, se décalant vers le nord-est en se comblant le matin. Une autre dépression se creusant 1012 hPa sur la Mer Ligure en soirée, prévue 1010 hPa au large de la Côte d'Azur demain après-midi. Hautes pressions se renforçant 1016-1018 à l'ouest du bassin en soirée, évoluant peu demain. 3 - Prévisions pour la journée du vendredi 28 août VENT : virant progressivement Ouest à Nord-Ouest 3 à 5 par l'ouest, mais temporairement Est à Sud-Est le matin à l'est de Sicié, puis revenant Ouest à Sud-Ouest l'après-midi. Rafales sous averses orageuses. MER : peu agitée à agitée, s'atténuant peu agitée en milieu d'après-midi. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : nuageux avec quelques averses parfois orageuses. VISIBILITE : moyenne à mauvaise sous averses orageuses. 4 - Prévisions pour la nuit du vendredi 28 août au samedi 29 août VENT : Ouest à Sud-Ouest 3 à 5, fraîchissant Ouest à Nord-Ouest 4 à 5 en milieu de nuit, parfois 6 à l'est de Cap Croisette. MER : peu agitée, devenant peu agitée à agitée en milieu de nuit. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant en seconde partie de nuit à l'ouest de Cap Croisette. TEMPS : devenant progressivement clair par l'ouest. VISIBILITE : bonne. 5 - Prévisions pour la journée du samedi 29 août VENT : - à l'ouest de Cap Croisette : Nord-Ouest 3 à 4, revenant Ouest à Sud-Ouest l'après-midi. - à l'est de Cap Croisette : Ouest à Nord-Ouest 4 à 5, parfois 6 à l'est de Sicié, fraîchissant Ouest 5 à 6 l'après-midi, avec menace de 7 à l'est du Levant. Rafales. MER : peu agitée à agitée, s'atténuant localement belle à peu agitée vers la Camargue l'après-midi. HOULE : confondue avec la mer du vent, mais temporairement Sud-Ouest 0.5 à 1 m le matin à l'est de Sicié, et en fin de journée du Cap Camarat à Saint-Raphaël. TEMPS : ensoleillé, parfois voilé l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 29 au 30 et la journée du dimanche 30 août VENT : De Port Camargue à la Ciotat secteur Ouest 5 mollissant 3 à 4 en milieu d'après-midi. De la Ciotat à St Raphaël Ouest 6 à 7, mollissant 3 à 5 en début de matinée. MER : belle à peu agitée, localement agitée de la Ciotat à St Raphaël. HOULE : Établissement temporaire d'une houle de secteur Sud-Ouest 1 à 1,5 m de Camarat à St Raphaël. 7 - Tendance pour les jours suivants Lundi 31 août Secteur Ouest faible à modéré. Secteur Sud faible à modéré en mer de Ligure et à l'est de la Corse. Indice de confiance : 4 sur 5 Mardi 1 septembre Secteur Ouest faible à modéré, temporairement secteur Variable faible. Indice de confiance : 4 sur 5 Mercredi 2 septembre Secteur Nord-Ouest modéré. Secteur Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 Jeudi 3 septembre Secteur Nord-Ouest modéré. Secteur Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 8 - Observations le vendredi 28 août 2026 à 03H00 UTC Cap Camarat : vent Nord-Est 12 noeuds, très nuageux à couvert, visibilité 8 milles. Cap Cepet : vent Est-Nord-Est 12 noeuds, très nuageux à couvert, visibilité 6 milles. Porquerolles : vent Est-Nord-Est 10 noeuds, rafales 29 noeuds. Cap Couronne : vent Sud-Est 16 noeuds, mer agitée, visibilité 6 milles. Prochain bulletin le vendredi 28 août 2026, vers 13H00 légales
+FQCT40 LFML 280940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 28 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 28 août 2026 à 06H00 UTC, et évolution Dépression se creusant 1012 sur la Mer Ligure en soirée, quasi-stationnaire, prévu 1010 demain. Hautes pressions se renforçant 1016-1018 à l'ouest du bassin en soirée, évoluant peu demain. 3 - Prévisions pour l'après-midi du vendredi 28 août VENT : Ouest à Sud-Ouest 3 à 5. MER : peu agitée à agitée, s'atténuant peu agitée en milieu d'après-midi. HOULE : Sud à Sud-Ouest 0.5 à 1 m. TEMPS : nuageux avec quelques averses parfois orageuses. VISIBILITE : moyenne à mauvaise sous averses orageuses. 4 - Prévisions pour la nuit du vendredi 28 août au samedi 29 août VENT : Ouest à Nord-Ouest 4 à 5, parfois 6 à l'est du Cap Croisette. MER : peu agitée, devenant peu agitée à agitée en milieu de nuit. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant en seconde partie de nuit à l'ouest de Cap Croisette. TEMPS : devenant progressivement clair par l'ouest. VISIBILITE : bonne. 5 - Prévisions pour la journée du samedi 29 août VENT : - à l'ouest du Cap Croisette : Nord-Ouest 3 à 4, revenant Ouest à Sud-Ouest l'après-midi. - à l'est du Cap Croisette : Ouest à Nord-Ouest 4 à 5, parfois 6 à l'est de Sicié, fraîchissant Ouest 5 à 6 l'après-midi, avec menace de 7 à l'est du Levant. Rafales. MER : peu agitée à agitée, s'atténuant localement belle à peu agitée vers la Camargue l'après-midi. HOULE : confondue avec la mer du vent, mais temporairement Sud-Ouest 0.5 à 1 m le matin à l'est de Sicié, et en fin de journée du Cap Camarat à Saint-Raphaël. TEMPS : ensoleillé, parfois voilé l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 29 au 30 et la journée du dimanche 30 août VENT : Ouest à Sud-Ouest 4 à 6 d'ouest en est, mollissant Ouest à Nord-Ouest 3 à 5 en fin de nuit, puis revenant Ouest à Sud-Ouest l'après-midi. MER : peu agitée à agitée, devenant belle à peu agitée en journée. HOULE : non significative, temporairement Sud-Ouest 0.5 à 1 m la nuit. TEMPS : ciel clair. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 30 au 31 et la journée du lundi 31 août VENT : De Port Camargue à Marseille variable 1 à 3, s'orientant Ouest à Sud-Ouest 3 à 4 en cours de matinée. De Marseille à St Raphaël Ouest à Sud-Ouest 3 à 4, parfois 5 de Porquerolles à St Raphaël. MER : belle à peu agitée. HOULE dominante de Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Mardi 1 septembre Variable faible à modéré. Indice de confiance : 3 sur 5 Mercredi 2 septembre Secteur Ouest modéré de la frontière espagnole à Saint-Raphaël et sur les caps corses. Variable faible à modéré de Saint-Raphaël à Menton et sur l'est de la Corse. Indice de confiance : 3 sur 5 Jeudi 3 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 Vendredi 4 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 9 - Observations le vendredi 28 août 2026 à 09H00 UTC Cap Camarat : vent Est 12 noeuds, très nuageux à couvert, visibilité 5 milles. Cap Cepet : vent Est 8 noeuds, rafales 21 noeuds. Porquerolles : vent Est-Sud-Est 12 noeuds, rafales 25 noeuds. Cap Couronne : vent Ouest 4 noeuds, rafales 14 noeuds, mer peu agitée, visibilité 4 milles. Prochain bulletin le vendredi 28 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -340,12 +339,12 @@ orange n'est actuellement prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Médias, exagération, désinformations sur la météo
+• Infoclimat Direct : Coups de vent et temp&#xEA;tes - saison 2026/2027
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 28/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -353,9 +352,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 28 Août 2026.
-Résumé général précédent : Poursuite d'une anomalie chaude et sèche sur l'ensemble du pays, avec un anticyclone dominant. Un coup de chaud est attendu en début de semaine 1, suivi d'une possible atténuation au Nord mais d'une persistance au Sud. Les précipitations resteraient rares, aggravant la sécheresse..
+Résumé général précédent : Poursuite d'un temps anormalement chaud et sec sur la France, avec un anticyclone dominant. Un coup de chaud est attendu en fin de semaine 1 et pourrait se prolonger en semaine 2, surtout au sud. Aucune précipitation significative en vue..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et chaud, absence de précipitations notables sur la quasi-totalité du pays..
+Températures attendues précédemment : Chaleur forte surtout sur l'extrême sud-ouest, pas de précipitations notables..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
