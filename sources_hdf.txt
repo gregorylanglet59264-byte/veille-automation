@@ -339,12 +339,12 @@ doute d'actualité par la suite
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Meteo-Kit, template gratuit en alternative &#xE0; meteotemplate payant
+• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le Sud
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Inondations Népal
-• Infoclimat Direct : Tendances automne 2026
-• Infoclimat Direct : Tendances automne 2026
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 29/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -352,40 +352,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 29 Août 2026.
-Résumé général HDF précédent : Sur les deux semaines, les Hauts-de-France connaîtront un temps sec et ensoleillé la plupart du temps, avec une hausse des températures en fin de première semaine et en début de seconde. Les conditions deviendront plus fraîches et potentiellement plus nuageuses en toute fin de période..
+Résumé général HDF précédent : Les Hauts-de-France connaîtront un temps globalement sec et ensoleillé sur les deux semaines, avec une hausse des températures en fin de première semaine et en début de seconde. Les conditions deviendront plus fraîches et potentiellement plus nuageuses en toute fin de période, mais l'incertitude est très forte à cette échéance..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Vent assez fort lundi (rafales 75 km/h), averses orageuses isolées, amélioration nette mardi..
+Températures attendues précédemment : Temps sec et ensoleillé, chaleur supportable, vent faible..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: isere38
-Message:
-Il y a 2 heures, Jojobarbar a dit :
-			Je comprends les émois à la vue des déterministes, et de la dynamique des prévisions de l'été, mais je ne trouve pas que les anomalies de températures au sol soient si forte et si fatales, à ce jour :
-			- Les nuits plus longues limiteront les fortes chaleurs : un 20°C à 850hPa en septembre sous régime anticyclonique avec peu de nuage, vent et un rayonnement thermique non contraint donc permettra des baisses de températures significatives au sol.
-			- Les ensembles sont encore assez dispersés on passe d'anomalie de T850 hPa de +2°C à des anomalies de proche de +12°C selon les scénarios. Il y a toutefois un glissement depuis qq runs vers les scénarios les plus chaud, on est d'accord.
-			Ce qui semble plutôt se dessiner c'est un coup de chaud, assez intense à partir de vendredi, et s'étendant sur le weekend. La suite est hors topic et vraiment incertaine. Je ne crois pas que la semaine en question soit placée sous le signe de la chaleur, à l'échelle de la France. Le weekend oui, surtout en journée. En revanche, je pense qu'on est tous d'accord sur l'aspect sec, surtout en deuxième partie de semaine.
-	Je suis en partie d'accord avec ton analyse  :  " Les nuits plus longues limiteront les fortes chaleurs : un 20°C à 850hPa en septembre sous régime anticyclonique avec peu de nuage, vent et un rayonnement thermique non contraint donc permettra des baisses de températures significatives au sol. "
-	le refroidissement nocturne marchera bien dans les zones de campagnes mais je suis plus perplexe dans les zones urbanisées comme Lyon, Grenoble, Paris Centre, Toulouse Centre.
-	Avec une T850 &gt; 18°C sur Toulouse en septembre n'est franchement pas une nouvelle rassurante... les citadins risquent d'avoir encore bien chaud la nuit... et je ne parle même pas des salles de classes qui ont surchauffé durant les mois de juillet et Août. Les fenêtres de salles de classe sont restées fermer depuis la fin du mois de juin.
-	J'imagine l'ambiance "sauna" que des professeurs vont découvrir la semaine prochaine dans le Sud de la France
-								8
-
-=======================
-
-Auteur: clem11
-Message:
-Il y a 3 heures, edel a dit :
-			Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
-			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
-			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
-	On arrive rarement à descendre sous les 20 degrés depuis juin la nuit même avec des nuits plus longues. L'inertie est dingue et ça devient vraiment vraiment vraiment loooooong. D'ailleurs le nombre de Tn tropicales est ahurissant cette année (déjà 44 à Blagnac, en ville probablement plus de 50).
-								4
-								1
-								5
-
-=======================
-
 Auteur: vda77
 Message:
 Si un " un coup de chaud" arrive mi mai alors pourquoi pas un début septembre ( ce qui est déjà arrivé dans les années passées) avec les masses d'aires qu'il y a au sud de notre pays. C'est la même chose pour début mars, si on inverse les saisons ( même si à notre époque, cela devient plus rare ), les " coup de froid " sont possibles.
@@ -477,7 +449,7 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 12:14 par petit âge glaciaire 11
 Modifié
 								4
 								2
@@ -489,7 +461,7 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 21 heures par mathias
+	Modifié il y a 23 heures par mathias
 								1
 								2
 								1
@@ -506,7 +478,7 @@ Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le
 	J
 	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
 	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
-	Modifié il y a 19 heures par nickdu77
+	Modifié il y a 21 heures par nickdu77
 Oubli d&#039;un mot
 								1
 								1
@@ -524,7 +496,7 @@ Comparatif des températures   à 850hpa des déterministes des principaux mod
 	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
 	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
 	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
-	Modifié il y a 18 heures par petit âge glaciaire 11
+	Modifié il y a 20 heures par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -535,7 +507,7 @@ Auteur: edel
 Message:
 Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
 	Pour le sud, il faudra encore patienter...
-	Modifié il y a 18 heures par edel
+	Modifié il y a 20 heures par edel
 								8
 
 =======================
@@ -548,7 +520,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								1
 
 =======================
@@ -558,7 +530,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié il y a 15 heures par Clem68
+	Modifié il y a 17 heures par Clem68
 								3
 
 =======================
@@ -582,7 +554,7 @@ Il y a une difference entre le potentiel et la réalité du terrain.
 	Une méditerranée chaude c’est plus d’humidité et de carburant pour les épisode mediterranée/cenevol MAIS
 	s’il n’y a pas de synoptique ni de déclencheur. C’est juste de l’air humide et chaud. 
 	Pas de declencheur, pas d’orage, pas de pluie
-								1
+								3
 								1
 
 =======================
@@ -596,7 +568,7 @@ il y a 4 minutes, Tornado75 a dit :
 	Si le temps reste anticyclonique ou qu'un flux de Nord-ouest s'installe avec mistral et tramontane, il ne se passe rien, eau chaude ou pas.
 	La tendance actuelle en Méditerranée actuellement (ici à 200km des côtes françaises) : 
 	À part aggraver la chaleur, un temps sec, et rendre la baignade automnale agréable, l'eau chaude ne sert à rien si la synoptique ne bouge pas.
-								3
+								4
 
 =======================
 
@@ -605,37 +577,31 @@ Message:
 il y a 30 minutes, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Une façon très simple de te rendre compte de la situation Méditerranéenne : va sur le forum court terme des régions Méditerranéennes et au nombre de messages postés tu percevras assez rapidement l’inéquation entre ce paramètre de température maritime et la réalité météorologique. On a eu une belle opportunité qui a d’ailleurs engendré cette tornade dans l’Aude mais ça n’a pas encore creusé en Méditerranée. Désormais calme plat. Je te ferai observer également un autre phénomène qui joue parfois contre nous le Medicane ou bien encore certains orages tropicaux qui restent en mer et dissipe une énergie considérable sans conséquences dans nos régions. Bref les exemples contradictoires sont légion. Et comme dit précédemment un creusement dans le golfe de gêne est c’est mistral des jours durants.
-	Pour synthétiser on observe les creusements dans les Baléares et si El Nino devait favoriser par exemple une accumulation de haut geopotentiels par là-bas alors ce sera un non Automne bien plus significatif que la seule canicule marine
+	Pour synthétiser on observe les creusements dans les Baléares et si El Nino devait favoriser par exemple une accumulation de haut geopotentiels par là-bas alors ce sera un non Automne bien plus significatif que la seule canicule marine 
+								1
+
+=======================
+
+Auteur: AmourDaria
+Message:
+Il y a 15 heures, Krholam a dit :
+			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
+			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
+	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
+	Modifié il y a 1 heure par AmourDaria
+								1
+								3
+
+=======================
+
+Auteur: serge26
+Message:
+Il y a 2 heures, Tornado75 a dit :
+			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
+	rien à voir effectivement. Pour avoir des épisodes de fortes pluies en méditerranée, il faut en 1er lieu que la synoptique s'y prete.
+	Et seulement dans ce cas, alors oui, une mer chaude sera un catalyseur pour avoir des precipitations plus intenses
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: isere38
-Message:
-Il y a 2 heures, Jojobarbar a dit :
-			Je comprends les émois à la vue des déterministes, et de la dynamique des prévisions de l'été, mais je ne trouve pas que les anomalies de températures au sol soient si forte et si fatales, à ce jour :
-			- Les nuits plus longues limiteront les fortes chaleurs : un 20°C à 850hPa en septembre sous régime anticyclonique avec peu de nuage, vent et un rayonnement thermique non contraint donc permettra des baisses de températures significatives au sol.
-			- Les ensembles sont encore assez dispersés on passe d'anomalie de T850 hPa de +2°C à des anomalies de proche de +12°C selon les scénarios. Il y a toutefois un glissement depuis qq runs vers les scénarios les plus chaud, on est d'accord.
-			Ce qui semble plutôt se dessiner c'est un coup de chaud, assez intense à partir de vendredi, et s'étendant sur le weekend. La suite est hors topic et vraiment incertaine. Je ne crois pas que la semaine en question soit placée sous le signe de la chaleur, à l'échelle de la France. Le weekend oui, surtout en journée. En revanche, je pense qu'on est tous d'accord sur l'aspect sec, surtout en deuxième partie de semaine.
-	Je suis en partie d'accord avec ton analyse  :  " Les nuits plus longues limiteront les fortes chaleurs : un 20°C à 850hPa en septembre sous régime anticyclonique avec peu de nuage, vent et un rayonnement thermique non contraint donc permettra des baisses de températures significatives au sol. "
-	le refroidissement nocturne marchera bien dans les zones de campagnes mais je suis plus perplexe dans les zones urbanisées comme Lyon, Grenoble, Paris Centre, Toulouse Centre.
-	Avec une T850 &gt; 18°C sur Toulouse en septembre n'est franchement pas une nouvelle rassurante... les citadins risquent d'avoir encore bien chaud la nuit... et je ne parle même pas des salles de classes qui ont surchauffé durant les mois de juillet et Août. Les fenêtres de salles de classe sont restées fermer depuis la fin du mois de juin.
-	J'imagine l'ambiance "sauna" que des professeurs vont découvrir la semaine prochaine dans le Sud de la France
-								8
-
-=======================
-
-Auteur: clem11
-Message:
-Il y a 3 heures, edel a dit :
-			Mais tout de même, avec les nuits qui rallongent, en septembre en Ile de France j'ai du mal à imaginer qu'il puisse encore faire + de 35° le jour et + de 22/23° la nuit. C'est chaud, trop chaud, mais moins qu'en juin.
-			Bon par contre à Toulouse je pense qu'il peut encore faire bien trop chaud...
-			Mais regardez l'état des masses d'air du Maghreb au sud de la méditerranée : ca reste très très chaud, donc au moindre flux de sud à sud-ouest, c'est reparti pour un tour...
-	On arrive rarement à descendre sous les 20 degrés depuis juin la nuit même avec des nuits plus longues. L'inertie est dingue et ça devient vraiment vraiment vraiment loooooong. D'ailleurs le nombre de Tn tropicales est ahurissant cette année (déjà 44 à Blagnac, en ville probablement plus de 50).
-								4
-								1
-								5
-
-=======================
-
 Auteur: vda77
 Message:
 Si un " un coup de chaud" arrive mi mai alors pourquoi pas un début septembre ( ce qui est déjà arrivé dans les années passées) avec les masses d'aires qu'il y a au sud de notre pays. C'est la même chose pour début mars, si on inverse les saisons ( même si à notre époque, cela devient plus rare ), les " coup de froid " sont possibles.
@@ -727,7 +693,7 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 12:14 par petit âge glaciaire 11
 Modifié
 								4
 								2
@@ -739,7 +705,7 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 21 heures par mathias
+	Modifié il y a 23 heures par mathias
 								1
 								2
 								1
@@ -756,7 +722,7 @@ Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le
 	J
 	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
 	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
-	Modifié il y a 19 heures par nickdu77
+	Modifié il y a 21 heures par nickdu77
 Oubli d&#039;un mot
 								1
 								1
@@ -774,7 +740,7 @@ Comparatif des températures   à 850hpa des déterministes des principaux mod
 	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
 	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
 	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
-	Modifié il y a 18 heures par petit âge glaciaire 11
+	Modifié il y a 20 heures par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -785,7 +751,7 @@ Auteur: edel
 Message:
 Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
 	Pour le sud, il faudra encore patienter...
-	Modifié il y a 18 heures par edel
+	Modifié il y a 20 heures par edel
 								8
 
 =======================
@@ -798,7 +764,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								1
 
 =======================
@@ -808,7 +774,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié il y a 15 heures par Clem68
+	Modifié il y a 17 heures par Clem68
 								3
 
 =======================
@@ -832,7 +798,7 @@ Il y a une difference entre le potentiel et la réalité du terrain.
 	Une méditerranée chaude c’est plus d’humidité et de carburant pour les épisode mediterranée/cenevol MAIS
 	s’il n’y a pas de synoptique ni de déclencheur. C’est juste de l’air humide et chaud. 
 	Pas de declencheur, pas d’orage, pas de pluie
-								1
+								3
 								1
 
 =======================
@@ -846,7 +812,7 @@ il y a 4 minutes, Tornado75 a dit :
 	Si le temps reste anticyclonique ou qu'un flux de Nord-ouest s'installe avec mistral et tramontane, il ne se passe rien, eau chaude ou pas.
 	La tendance actuelle en Méditerranée actuellement (ici à 200km des côtes françaises) : 
 	À part aggraver la chaleur, un temps sec, et rendre la baignade automnale agréable, l'eau chaude ne sert à rien si la synoptique ne bouge pas.
-								3
+								4
 
 =======================
 
@@ -855,4 +821,26 @@ Message:
 il y a 30 minutes, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Une façon très simple de te rendre compte de la situation Méditerranéenne : va sur le forum court terme des régions Méditerranéennes et au nombre de messages postés tu percevras assez rapidement l’inéquation entre ce paramètre de température maritime et la réalité météorologique. On a eu une belle opportunité qui a d’ailleurs engendré cette tornade dans l’Aude mais ça n’a pas encore creusé en Méditerranée. Désormais calme plat. Je te ferai observer également un autre phénomène qui joue parfois contre nous le Medicane ou bien encore certains orages tropicaux qui restent en mer et dissipe une énergie considérable sans conséquences dans nos régions. Bref les exemples contradictoires sont légion. Et comme dit précédemment un creusement dans le golfe de gêne est c’est mistral des jours durants.
-	Pour synthétiser on observe les creusements dans les Baléares et si El Nino devait favoriser par exemple une accumulation de haut geopotentiels par là-bas alors ce sera un non Automne bien plus significatif que la seule canicule marine
+	Pour synthétiser on observe les creusements dans les Baléares et si El Nino devait favoriser par exemple une accumulation de haut geopotentiels par là-bas alors ce sera un non Automne bien plus significatif que la seule canicule marine 
+								1
+
+=======================
+
+Auteur: AmourDaria
+Message:
+Il y a 15 heures, Krholam a dit :
+			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
+			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
+	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
+	Modifié il y a 1 heure par AmourDaria
+								1
+								3
+
+=======================
+
+Auteur: serge26
+Message:
+Il y a 2 heures, Tornado75 a dit :
+			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
+	rien à voir effectivement. Pour avoir des épisodes de fortes pluies en méditerranée, il faut en 1er lieu que la synoptique s'y prete.
+	Et seulement dans ce cas, alors oui, une mer chaude sera un catalyseur pour avoir des precipitations plus intenses
