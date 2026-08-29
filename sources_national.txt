@@ -313,11 +313,11 @@ doute d'actualité par la suite
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
-• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
+• Infoclimat Direct : Incendies 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Météo &#xE0; Rabat et territoire Marocain (climat, prévisions, tendances, et variations)
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -326,9 +326,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 29 Août 2026.
-Résumé général précédent : Sur 15 jours, tendance à un temps sec et anticyclonique, avec un coup de chaud probable sur le sud en fin de semaine 1, puis une incertitude croissante en semaine 2..
+Résumé général précédent : Tendance sur 15 jours : temps sec et anticyclonique dominant, avec un épisode de chaleur marquée sur le sud en fin de semaine 1 et début de semaine 2, puis incertitude avec possible atténuation..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé sur la plupart des régions, chaleur modérée au sud, fraîcheur relative au nord..
+Températures attendues précédemment : Temps sec et ensoleillé, chaleur modérée au sud, pic moins intense..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -474,7 +474,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié il y a 23 heures par giec 2100
+	Modifié hier à 20:50 par giec 2100
 								1
 
 =======================
@@ -484,7 +484,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié il y a 23 heures par Clem68
+	Modifié hier à 20:11 par Clem68
 								3
 
 =======================
@@ -544,7 +544,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 7 heures par AmourDaria
+	Modifié il y a 9 heures par AmourDaria
 								1
 								3
 
@@ -566,7 +566,7 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 4 heures par edel
+	Modifié il y a 6 heures par edel
 								2
 								3
 
@@ -584,10 +584,10 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 49 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
 Modifié
 								2
-								1
+								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: TornadeScintillante
@@ -732,7 +732,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié il y a 23 heures par giec 2100
+	Modifié hier à 20:50 par giec 2100
 								1
 
 =======================
@@ -742,7 +742,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié il y a 23 heures par Clem68
+	Modifié hier à 20:11 par Clem68
 								3
 
 =======================
@@ -802,7 +802,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 7 heures par AmourDaria
+	Modifié il y a 9 heures par AmourDaria
 								1
 								3
 
@@ -824,7 +824,7 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 4 heures par edel
+	Modifié il y a 6 heures par edel
 								2
 								3
 
@@ -842,7 +842,7 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 49 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
 Modifié
 								2
-								1
+								3
