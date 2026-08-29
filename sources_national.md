@@ -309,7 +309,7 @@ Températures minimales : en hausse.
 Températures maximales : en baisse sur la plaine et le piémont.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 290415 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 29 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 29 août 2026 à 00H00 UTC, et évolution Hautes pressions 1018 hPa à l'ouest du bassin, s'affaissant 1015 hPa demain après-midi. Dépression 1012 hPa sur la Mer Ligure, quasi-stationnaire, se comblant demain après-midi. 3 - Prévisions pour la journée du samedi 29 août VENT : - à l'ouest du Cap Croisette : Nord-Ouest 3 à 4, fraîchissant Ouest à Sud-Ouest 4 à 5 l'après-midi. - à l'est du Cap Croisette : Ouest à Sud-Ouest 4 à 5, fraîchissant 6 l'est du Cap Sicié à la mi-journée. Rafales. MER : peu agitée à agitée, s'atténuant localement belle à peu agitée vers la Camargue l'après-midi. HOULE : confondue avec la mer du vent, mais temporairement Sud-Ouest 0.5 à 1 m le matin à l'est de Sicié, et en fin de journée du Cap Camarat à Saint-Raphaël. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 29 août au dimanche 30 août VENT : Ouest à Sud-Ouest 4 à 6 d'ouest en est, mollissant Ouest à Nord-Ouest 3 à 4 en fin de nuit, localement Variable à l'est de Sicié. MER : peu agitée à agitée. HOULE : s'établissant Sud-Ouest 0.5 à 1 m. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 30 août VENT : Ouest à Nord-Ouest 2 à 4, localement Variable à l'est du Cap Sicié, revenant secteur Sud-Ouest l'après-midi. MER : peu agitée à agitée, s'atténuant belle à peu agitée en journée. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 30 au 31 et la journée du lundi 31 août VENT : De Port Camargue à Marseille Ouest à Sud-Ouest 2 à 4, virant Ouest à Nord-Ouest en milieu de nuit. De Marseille à St Raphaël secteur Ouest 3 à 4, parfois 5 du Levant à St Raphaël. MER : belle à peu agitée. HOULE dominante de Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Mardi 1 septembre Variable faible à modéré. Indice de confiance : 3 sur 5 Mercredi 2 septembre Secteur Ouest modéré de la frontière espagnole à Saint-Raphaël et sur les caps corses. Variable faible à modéré de Saint-Raphaël à Menton et sur l'est de la Corse. Indice de confiance : 3 sur 5 Jeudi 3 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 Vendredi 4 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 8 - Observations le samedi 29 août 2026 à 03H00 UTC Cap Camarat : vent Ouest 10 noeuds, clair ou peu nuageux, visibilité 9 milles. Cap Cepet : vent Ouest 16 noeuds. Porquerolles : vent Ouest 16 noeuds. Cap Couronne : vent Nord-Ouest 14 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le samedi 29 août 2026, vers 13H00 légales
+FQCT40 LFML 290945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 29 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 29 août 2026 à 06H00 UTC, et évolution Hautes pressions 1018 hPa à l'ouest du bassin, s'affaissant 1016 hPa demain après-midi. Dépression stationnaire 1012 hPa sur la Mer Ligure, se comblant lentement demain après-midi. 3 - Prévisions pour l'après-midi du samedi 29 août VENT : - à l'ouest du Cap Croisette : Nord-Ouest 3 à 4, fraîchissant Ouest à Sud-Ouest 4 à 5 l'après-midi. - à l'est du Cap Croisette : Ouest à Sud-Ouest 4 à 5, fraîchissant 6 l'est du Cap Sicié à la mi-journée, mais Variable 1 à 3 de Camarat à Saint-Raphaël. Rafales au sud du Cap Camarat. MER : peu agitée à agitée, s'atténuant localement belle à peu agitée vers la Camargue l'après-midi. HOULE : s'amortissant. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 29 août au dimanche 30 août VENT : Ouest à Sud-Ouest 4 à 6 d'ouest en est, mollissant Ouest à Nord-Ouest 3 à 4 en fin de nuit, localement Variable à l'est de Sicié. MER : peu agitée à agitée. HOULE : s'établissant Sud-Ouest 0.5 à 1 m en milieu de nuit. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 30 août VENT : Ouest à Nord-Ouest 2 à 4, localement Variable 1 à 3 à l'est du Cap Sicié, revenant secteur Sud-Ouest l'après-midi. MER : peu agitée, s'atténuant belle à peu agitée en journée. HOULE : Sud-Ouest 0.5 à 1 m, s'amortissant à la fin. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 30 au 31 et la journée du lundi 31 août VENT : Ouest à Sud-Ouest 3 à 4, localement 5 à l'est du Levant, mollissant Variable 1 à 3 à l'est de Sicié le soir, devenant Ouest à Nord-Ouest 3 à 5 d'ouest en est le matin. Rafales vers Sicié l'après-midi. MER : belle à peu agitée, devenant agitée l'après-midi. HOULE : non significative. TEMPS : ciel clair, parfois voilé. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 31 au 1 et la journée du mardi 1 septembre VENT : Ouest à Sud-Ouest 4 à 6 fraîchissant 4 à 5 en milieu d'après-midi. MER : peu agitée, localement agitée de Porquerolles à St Raphaël. HOULE dominante de secteur Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Mercredi 2 septembre Secteur Ouest à Nord-Ouest faible à modéré sur Lion et Provence, secteur Sud-Ouest faible à modéré entre Corse et continent. Indice de confiance : 4 sur 5 Jeudi 3 septembre Secteur Nord-Ouest faible à modéré sur le Golfe du Lion, variable faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 4 septembre Variable faible à modéré. Indice de confiance : 3 sur 5 Samedi 5 septembre Variable faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le samedi 29 août 2026 à 09H00 UTC Cap Camarat : vent Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 12 noeuds. Porquerolles : vent Ouest 10 noeuds. Cap Couronne : vent Ouest 12 noeuds, mer belle, visibilité 13 milles. Prochain bulletin le samedi 29 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -338,12 +338,12 @@ et restera sans doute d'actualité par la suite.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
+• Infoclimat Direct : Suivi du temps en Suisse
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 29/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -351,9 +351,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 29 Août 2026.
-Résumé général précédent : Sur les deux semaines, la France conserverait un temps majoritairement sec et anticyclonique, avec un coup de chaud marqué sur la moitié sud entre le 4 et le 7 septembre, puis une incertitude forte sur la durée de cet épisode..
+Résumé général précédent : Sur la quinzaine, temps sec et souvent ensoleillé, avec un coup de chaud marqué sur la moitié sud à partir du 4 septembre. La durée de cet épisode chaud reste incertaine au-delà du 7-8 septembre; le nord pourrait rester sous influence océanique plus fraîche..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec, chaleur modérée sur le sud, températures plus sages au nord. (75 caractères).
+Températures attendues précédemment : Temps sec, soleil généreux; chaleur 30-35°C possible au sud, températures plus sages au nord..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -515,7 +515,7 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								4
 								2
@@ -527,7 +527,7 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 17 heures par mathias
+	Modifié il y a 19 heures par mathias
 								1
 								2
 								1
@@ -544,7 +544,7 @@ Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le
 	J
 	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
 	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
-	Modifié il y a 15 heures par nickdu77
+	Modifié il y a 17 heures par nickdu77
 Oubli d&#039;un mot
 								1
 								1
@@ -562,7 +562,7 @@ Comparatif des températures   à 850hpa des déterministes des principaux mod
 	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
 	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
 	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
-	Modifié il y a 14 heures par petit âge glaciaire 11
+	Modifié il y a 16 heures par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -573,7 +573,7 @@ Auteur: edel
 Message:
 Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
 	Pour le sud, il faudra encore patienter...
-	Modifié il y a 14 heures par edel
+	Modifié il y a 16 heures par edel
 								8
 
 =======================
@@ -586,7 +586,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié il y a 11 heures par giec 2100
+	Modifié il y a 13 heures par giec 2100
 								1
 
 =======================
@@ -596,7 +596,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié il y a 11 heures par Clem68
+	Modifié il y a 13 heures par Clem68
 								3
 
 =======================
@@ -765,7 +765,7 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								4
 								2
@@ -777,7 +777,7 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié il y a 17 heures par mathias
+	Modifié il y a 19 heures par mathias
 								1
 								2
 								1
@@ -794,7 +794,7 @@ Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le
 	J
 	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
 	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
-	Modifié il y a 15 heures par nickdu77
+	Modifié il y a 17 heures par nickdu77
 Oubli d&#039;un mot
 								1
 								1
@@ -812,7 +812,7 @@ Comparatif des températures   à 850hpa des déterministes des principaux mod
 	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
 	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
 	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
-	Modifié il y a 14 heures par petit âge glaciaire 11
+	Modifié il y a 16 heures par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -823,7 +823,7 @@ Auteur: edel
 Message:
 Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
 	Pour le sud, il faudra encore patienter...
-	Modifié il y a 14 heures par edel
+	Modifié il y a 16 heures par edel
 								8
 
 =======================
@@ -836,7 +836,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié il y a 11 heures par giec 2100
+	Modifié il y a 13 heures par giec 2100
 								1
 
 =======================
@@ -846,7 +846,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié il y a 11 heures par Clem68
+	Modifié il y a 13 heures par Clem68
 								3
 
 =======================
