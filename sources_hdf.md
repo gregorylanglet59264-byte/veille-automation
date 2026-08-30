@@ -310,7 +310,7 @@ Températures minimales : sans changement significatif.
 Températures maximales : identiques à la veille.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 300405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 30 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais Nr 120. 2 - Situation générale dimanche 30 août 2026 à 00H00 UTC, et évolution Dépression 1000 hPa en mer du Nord, se décalant vers l'est, prévue 1000 hPa sur le Danemark à la mi-journée. Dépression 999 hPa à l'ouest de l'Irlande, se décalant vers l'est-nord-est, prévue sur 1001 hPa en Mer du Nord en fin de nuit. Dorsale atlantique se renforçant lundi sur le golfe de Gascogne. 3 - Prévisions pour la journée du dimanche 30 août VENT : Ouest à Sud-Ouest 5 à 6, mollissant 4 à 5 en milieu de matinée, puis revenant Sud-Ouest à la mi-journée, et fraîchissant parfois 6 en mer du Nord l'après-midi. Rafales. MER : agitée à forte, s'atténuant peu agitée à agitée le matin. HOULE : non significative. TEMPS : nuageux à très nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 4 - Prévisions pour la nuit du dimanche 30 août au lundi 31 août VENT : Sud-Ouest 4 à 5 parfois 6, fraîchissant Ouest à Sud-Ouest 6 à 7 en milieu de nuit. Rafales. MER : peu agitée à agitée, devenant agitée à forte en seconde partie de nuit. HOULE : non significative. TEMPS : pluies ou averses, parfois orageuses. VISIBILITE : moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du lundi 31 août VENT : Ouest à Sud-Ouest 6 à 7, mollissant 5 à 6 en fin de matinée. Rafales. MER : agitée à forte, s'atténuant agitée en fin d'après-midi. HOULE : non significative. TEMPS : averses, parfois orageuses le matin, se raréfiant l'après-midi. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 6 - Prévisions pour la nuit du 31 au 1 et la journée du mardi 1 septembre VENT : Secteur Ouest 6, mollissant 3 à 4 en milieu de nuit, puis fraîchissant 4 à 5. MER : agitée localement forte, devenant peu agitée en début de nuit. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1,5 à 2 m en milieu de nuit. 7 - Tendance pour les jours suivants Mercredi 2 septembre Secteur Sud-Ouest modéré. Indice de confiance : 4 sur 5 Jeudi 3 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Vendredi 4 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Samedi 5 septembre Variable faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le dimanche 30 août 2026 à 03H00 UTC Dunkerque : vent Ouest 19 noeuds, rafales 33 noeuds, mer agitée, 1008 hPa en hausse, très nuageux à couvert, visibilité 6 milles. Cap Gris Nez : vent Ouest-Sud-Ouest 31 noeuds, rafales 41 noeuds. Boulogne : vent Ouest-Sud-Ouest 23 noeuds, rafales 35 noeuds, 1009 hPa en hausse, très nuageux à couvert, visibilité 6 milles. Bouée Sandettie : vent Ouest-Sud-Ouest 29 noeuds, creux 1,4 mètre, 1007 hPa en baisse, visibilité 5 milles. Prochain bulletin le dimanche 30 août 2026, vers 12H30 légales
+FQCT40 LFQQ 300930 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 30 août 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais Nr 120 2 - Situation générale dimanche 30 août 2026 à 06H00 UTC, et évolution Dépression 1000 hPa sur la Norvège, se décalant progressivement vers l'est. Nouvelle dépression 999 hPa à l'ouest de l'Irlande, se décalant vers l'est-nord-est, prévue 1001 hPa en Mer du Nord en fin de nuit prochaine. Dorsale atlantique, associée à l'anticyclone 1026 hPa au sud des Açores, se renforçant lundi sur le golfe de Gascogne. 3 - Prévisions pour l'après-midi du dimanche 30 août VENT : Sud-Ouest 4 à 5, fraîchissant parfois 6 en mer du Nord l'après-midi. Rafales. MER : peu agitée à agitée. HOULE : Ouest 0.5 à 1 m en Manche. TEMPS : nuageux à très nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 4 - Prévisions pour la nuit du dimanche 30 août au lundi 31 août VENT : Sud-Ouest fraîchissant 5 à 6, puis Ouest à Sud-Ouest 6 à 7 en milieu de nuit. Rafales. MER : peu agitée à agitée, devenant agitée à forte en seconde partie de nuit. HOULE : devenant non significative. TEMPS : pluies ou averses, localement orageuses. VISIBILITE : moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du lundi 31 août VENT : Ouest à Sud-Ouest 6 à 7, mollissant 5 à 6 en fin de matinée. Rafales. MER : agitée à forte, s'atténuant agitée en milieu d'après-midi. HOULE : Sud à Sud-Ouest 1 à 1.5 m vers le large. TEMPS : averses, localement orageuses le matin, éclaircies l'après-midi. VISIBILITE : bonne, localement moyenne à mauvaise sous averses. 6 - Prévisions pour la nuit du 31 au 1 et la journée du mardi 1 septembre VENT : Ouest mollissant 4 à 5, virant Nord-Ouest 3 à 4 en fin de nuit, puis revenant Ouest à Sud-Ouest à la mi-journée et fraîchissant 4 à 5 l'après-midi. MER : s'atténuant peu agitée à agitée, puis peu agitée en fin de nuit. HOULE : Sud-Ouest 1 à 1.5 m, s'amortissant progressivement l'après-midi. TEMPS : nuageux à très nuageux avec quelques averses la nuit, beau temps en journée. VISIBILITE : moyenne sous averses la nuit, puis bonne. 7 - Prévisions pour la nuit du 1 au 2 et la journée du mercredi 2 septembre VENT : Sud-Ouest 4 à 5, fraîchissant 6 à 7 en cours de matinée. MER : peu agitée devenant agitée en cours de matinée. HOULE dominante d'Ouest à Nord-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Jeudi 3 septembre Ouest à Sud-Ouest modéré à assez fort Indice de confiance : 4 sur 5 Vendredi 4 septembre Ouest à Sud-Ouest modéré à assez fort Indice de confiance : 4 sur 5 Samedi 5 septembre secteur Ouest faible à modéré Indice de confiance : 3 sur 5 Dimanche 6 septembre faible à modéré sans direction bien établie Indice de confiance : 3 sur 5 9 - Observations le dimanche 30 août 2026 à 09H00 UTC Dunkerque : vent Ouest 10 noeuds, rafales 23 noeuds, 1012 hPa en hausse. Cap Gris Nez : vent Ouest-Sud-Ouest 23 noeuds. Boulogne : vent Ouest-Sud-Ouest 16 noeuds, 1012 hPa en hausse, très nuageux à couvert, visibilité 9 milles. Prochain bulletin le dimanche 30 août 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -340,11 +340,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
-• Infoclimat Direct : Médias, exagération, désinformations sur la météo
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
-• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Bugs sur Infoclimat #2
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 30/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -352,86 +352,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 30 Août 2026.
-Résumé général HDF précédent : **  
-Temps de transition vers l'automne. Après un week-end instable et une semaine 1 en amélioration, une nouvelle dégradation est possible en tout début de semaine 2. Les températures, en hausse en fin de semaine 1, devraient ensuite revenir à des normales de saison. L'automne météorologique s'installe.
-
-**[MOST_RELIABLE_WEEK]**  
-La **Semaine 1 (31 Août - 6 Sept)** est de loin la plus fiable. Les bulletins Météo-France détaillés par département et les discussions forum fournissent une base solide. La semaine 2 n'est qu'une esquisse.
-
-**[GLOBAL_SOLID_POINTS]**  
-1. Amélioration du temps en semaine 1 après lundi.  
-2. Un week-end des 5-6 septembre sec et doux.  
-3. Un changement de temps probable en semaine 2, avec un retour à un flux plus océanique et plus frais.
-
-**[GLOBAL_RECURRING_PHENOMENA]**  
-Le **risque d'orages** est un phénomène récurrent en début de période (dimanche soir et lundi), principalement sur les départements du Nord, du Pas-de-Calais et de la Somme (vigilance jaune). La **sécheresse des sols** reste une préoccupation, car les cumuls de pluie seront faibles au global.
-
-**[GLOBAL_AFFECTED_ZONES]**  
-Toute la région Hauts-de-France est concernée. En semaine 1, le **Nord et le Pas-de-Calais** seront les plus exposés aux averses. En semaine 2, la dégradation pourrait toucher toute la région, mais plus particulièrement le littoral.
-
-**[GLOBAL_MAJOR_UNCERTAINTIES]**  
-1. L'intensité du pic de chaleur en fin de semaine 1 (écart possible de 3 à 5°C sur les maximales).  
-2. L'ampleur et le timing de la dégradation en semaine 2.  
-3. La persistance ou non de la sécheresse de surface.
-
-**[GLOBAL_CONSENSUS_KPI]**  
-Modéré
-**[GLOBAL_CONSENSUS_NOTE]**  
-Accord sur le schéma général (amélioration, puis dégradation), mais forte dispersion sur les détails.
-
-**[GLOBAL_SCENARIO_KPI]**  
-Frais et humide (Sem.2)
-**[GLOBAL_SCENARIO_NOTE]**  
-Retour à un temps océanique classique pour un début septembre.
-
-**[GLOBAL_UNCERTAINTY_KPI]**  
-Élevée
-**[GLOBAL_UNCERTAINTY_NOTE]**  
-L'échéance de la semaine 2 est trop lointaine pour être fiable (pas de sujet forum).
-
-**[LINKEDIN_POST]**  
-📅 **Prévisions HDF – 2 semaines** : Après un lundi orageux, retour du calme et du soleil pour mardi. La fin de semaine s'annonce plus douce et sèche. ⚠️ L'automne météorologique débute le 1er septembre et se fera sentir dès la semaine prochaine : retour probable d'un temps plus frais et humide. Incertitudes fortes à cette échéance. Restez connectés ! #Météo #HautsDeFrance #Prévisions #Automne
-
-**.
+Résumé général HDF précédent : Du 31 août au 13 septembre, les Hauts-de-France connaissent un temps de transition : dégradation orageuse lundi, amélioration nette en milieu de semaine, week-end sec et doux, puis semaine 2 indécise entre flux océanique et poussée chaude limitée au sud. La confiance est élevée jusqu’au 6 septembre, puis faible..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : T850 en hausse mais sans excès, pic mieux cerné. Temps sec et ensoleillé pour le week-end sur les HDF..
+Températures attendues précédemment : Averses orageuses, rafales 65-75 km/h, puis éclaircies et soleil ; pas d’excès de chaleur..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Krholam
-Message:
-Les quelques deterministes de ce matin sont un peu plus rassurant je trouve.
-	Gefs -&gt; Ondulation moins marquée (avec plutot un flux de NO). Chaleur/fortes chaleur que sur l’extreme SO. (Avant une pulsion en tout debut de prochaine échéance)
-	Au moment de ce message, les ensemblistes ne sont pas sorti donc difficile de voir où ce det se place.
-	GEM -&gt; Dans la même veine avec une poussée plus tôt
-	Bon y’a pas grand choses de sorti, ça peut toujours bouger MAIS
-	Peut être que ce passage Chaud/très Chaud généralisé ne serait pas aussi long que le pensons.
-								2
-								1
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si le pic est én
-	On retrouve bien cette idée de coup de chaud "passager" pour le nord avec une moyenne certes en augmentation mais où le moment du pic n'est pas encore bien cerné.
-	Bien visible sur GEFS avec une moyenne qui ne dépasse pas les 15°C
-	Visible aussi sur CEP avec un pic beaucoup mieux cerné (et donc avec une moyenne qui grimpe plus haut)
-	AIFS (et GEM dans une moindre mesure) restent sur un épisode plus long
-	Hop le Parisianisme c'est fait, mais du coup au sud ?
-	On est pour le moment un peu dans le même veine. Les T850 n'ont pas l'air de vouloir resté trop collé à 20°C même si l'on sent l'air brulant en embuscade
-	GEFS
-	CEP un peu plus chaud
-	Bon par contre AIFS hum hum
-	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
-	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
-								2
-								2
-								2
-
-=======================
-
 Auteur: Plancher
 Message:
 Bonjour,
@@ -565,7 +491,7 @@ Il y a une difference entre le potentiel et la réalité du terrain.
 	Une méditerranée chaude c’est plus d’humidité et de carburant pour les épisode mediterranée/cenevol MAIS
 	s’il n’y a pas de synoptique ni de déclencheur. C’est juste de l’air humide et chaud. 
 	Pas de declencheur, pas d’orage, pas de pluie
-								3
+								4
 								1
 
 =======================
@@ -601,7 +527,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 19 heures par AmourDaria
+	Modifié il y a 21 heures par AmourDaria
 								1
 								3
 
@@ -613,7 +539,7 @@ Il y a 2 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	rien à voir effectivement. Pour avoir des épisodes de fortes pluies en méditerranée, il faut en 1er lieu que la synoptique s'y prete.
 	Et seulement dans ce cas, alors oui, une mer chaude sera un catalyseur pour avoir des precipitations plus intenses
-								1
+								2
 								1
 
 =======================
@@ -623,8 +549,8 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 16 heures par edel
-								2
+	Modifié il y a 18 heures par edel
+								3
 								3
 
 =======================
@@ -641,10 +567,10 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 Modifié
-								6
-								5
+								7
+								7
 
 =======================
 
@@ -653,42 +579,28 @@ Message:
 Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
 	Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
 	Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
+								2
+								1
+
+=======================
+
+Auteur: Coriolis75
+Message:
+il y a 25 minutes, Matpo a dit :
+			Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
+			Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
+			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
+	Oui 2023, il avait fait localement 35°C en région toulousaine le 1er octobre (35.3°C à Lavaur). Sachant ça 39-40 voire plus sont tout à fait possible début septembre.
+								1
+
+=======================
+
+Auteur: MidiPy
+Message:
+Si les prévisions restent en l'état, il faut s'attendre à de nombreux records mensuels battus dans la moitié sud. La Txm est de 35,3° à Blagnac, et le coup de chaud du 4/5/6 risque de n'en faire qu'une bouchée... 
+								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: Krholam
-Message:
-Les quelques deterministes de ce matin sont un peu plus rassurant je trouve.
-	Gefs -&gt; Ondulation moins marquée (avec plutot un flux de NO). Chaleur/fortes chaleur que sur l’extreme SO. (Avant une pulsion en tout debut de prochaine échéance)
-	Au moment de ce message, les ensemblistes ne sont pas sorti donc difficile de voir où ce det se place.
-	GEM -&gt; Dans la même veine avec une poussée plus tôt
-	Bon y’a pas grand choses de sorti, ça peut toujours bouger MAIS
-	Peut être que ce passage Chaud/très Chaud généralisé ne serait pas aussi long que le pensons.
-								2
-								1
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Les ensemblistes sont là et STUPEUR, Gefs n'est pas le plus "extrême" (efin si le pic est én
-	On retrouve bien cette idée de coup de chaud "passager" pour le nord avec une moyenne certes en augmentation mais où le moment du pic n'est pas encore bien cerné.
-	Bien visible sur GEFS avec une moyenne qui ne dépasse pas les 15°C
-	Visible aussi sur CEP avec un pic beaucoup mieux cerné (et donc avec une moyenne qui grimpe plus haut)
-	AIFS (et GEM dans une moindre mesure) restent sur un épisode plus long
-	Hop le Parisianisme c'est fait, mais du coup au sud ?
-	On est pour le moment un peu dans le même veine. Les T850 n'ont pas l'air de vouloir resté trop collé à 20°C même si l'on sent l'air brulant en embuscade
-	GEFS
-	CEP un peu plus chaud
-	Bon par contre AIFS hum hum
-	Dans tout les cas, ce qui est desespérant c'est cette absence de précipitations aussi bien au Nord qu'au Sud
-	(Aucuns commentaires sur l'extrême sud qui a l'air de prendre perpète  )
-								2
-								2
-								2
-
-=======================
-
 Auteur: Plancher
 Message:
 Bonjour,
@@ -822,7 +734,7 @@ Il y a une difference entre le potentiel et la réalité du terrain.
 	Une méditerranée chaude c’est plus d’humidité et de carburant pour les épisode mediterranée/cenevol MAIS
 	s’il n’y a pas de synoptique ni de déclencheur. C’est juste de l’air humide et chaud. 
 	Pas de declencheur, pas d’orage, pas de pluie
-								3
+								4
 								1
 
 =======================
@@ -858,7 +770,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 19 heures par AmourDaria
+	Modifié il y a 21 heures par AmourDaria
 								1
 								3
 
@@ -870,7 +782,7 @@ Il y a 2 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	rien à voir effectivement. Pour avoir des épisodes de fortes pluies en méditerranée, il faut en 1er lieu que la synoptique s'y prete.
 	Et seulement dans ce cas, alors oui, une mer chaude sera un catalyseur pour avoir des precipitations plus intenses
-								1
+								2
 								1
 
 =======================
@@ -880,8 +792,8 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 16 heures par edel
-								2
+	Modifié il y a 18 heures par edel
+								3
 								3
 
 =======================
@@ -898,10 +810,10 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 Modifié
-								6
-								5
+								7
+								7
 
 =======================
 
@@ -910,3 +822,23 @@ Message:
 Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
 	Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
 	Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
+								2
+								1
+
+=======================
+
+Auteur: Coriolis75
+Message:
+il y a 25 minutes, Matpo a dit :
+			Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
+			Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
+			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
+	Oui 2023, il avait fait localement 35°C en région toulousaine le 1er octobre (35.3°C à Lavaur). Sachant ça 39-40 voire plus sont tout à fait possible début septembre.
+								1
+
+=======================
+
+Auteur: MidiPy
+Message:
+Si les prévisions restent en l'état, il faut s'attendre à de nombreux records mensuels battus dans la moitié sud. La Txm est de 35,3° à Blagnac, et le coup de chaud du 4/5/6 risque de n'en faire qu'une bouchée... 
+								3
