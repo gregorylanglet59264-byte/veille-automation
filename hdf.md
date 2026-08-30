@@ -8,7 +8,7 @@
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
 - **Consensus des modèles :** Modéré — *Accord régional*
 - **Fiabilité du scénario majoritaire :** Stable — *Incertitude en semaine 2*
-- **Stabilité des cartes/scénarios :** 6 / 132 — *6 cartes analysées*
+- **Stabilité des cartes/scénarios :** 6 / 148 — *6 cartes analysées*
 - **Niveau d'incertitude global :** Timing — *Transition thermique*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 31 Août au Dimanche 6 Septembre 2026
