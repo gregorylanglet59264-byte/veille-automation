@@ -1,6 +1,6 @@
-# REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL (Samedi 29 Août 2026)
+# REGISTRE COMPLET DES SOURCES DU BULLETIN NATIONAL (Dimanche 30 Août 2026)
 
-Date actuelle de génération : Samedi 29 Août 2026
+Date actuelle de génération : Dimanche 30 Août 2026
 Saison en France : ÉTÉ
 
 PÉRIODES EXACTES À RESPECTER IMPÉRATIVEMENT :
@@ -15,39 +15,39 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 29/08/2026 16:45
+Emis le : 30/08/2026 00:30
 
 Vigilance :
-Aujourd'hui et demain, Paris et sa petite couronne sont en vigilance verte.
+Aujourd'hui, Paris et sa petite couronne sont en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Paris-Montsouris : température de 19 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 40 km/h, pression niveau mer 1012 hPa, cumul de précipitations en 12h : 5 mm.
+Aujourd'hui on observait à 00h :
+A Paris-Montsouris : température de 20 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 40 km/h, pression niveau mer 1013 hPa, cumul de précipitations en 12h : 5 mm.
 Au Jardin du Luxembourg : température de 20 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Une bonne partie de la nuit se passe sous un ciel assez bien dégagé, mais les nuages s'accaparent le ciel avant le lever du jour.
-Vent de Sud-Ouest, modéré.
-Températures minimales : de 16 à 17 degrés.
+Le ciel est nuageux en soirée avec quelques averses vers minuit, sur la Seine-Saint-Denis. L'amélioration se généralise en seconde partie de nuit avec de larges éclaircies.
+Vent modéré, de Sud-Ouest.
+Températures minimales : 16 degrés.
 
 • Pour demain dimanche 30 en journée et la nuit suivante :
-Nuages et éclaircies se partagent le ciel. De rares averses sont possibles en fin de journée, sur le nord. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Vent modéré, de Sud-Ouest.
-Températures maximales pour le jour : comprises entre 23 et 24 degrés.
+De nombreux nuages envahissent le ciel en début de journée. Avec l'évolution diurne, ils se déchirent et prennent un caractère instable. Dans le ciel changeant de la fin de matinée, de rares averses sont possibles, à Orly. S'ensuit un ciel d'éclaircies. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
+Vent de Sud-Ouest, modéré.
+Températures maximales pour le jour : comprises entre 24 et 25 degrés.
 Températures minimales pour la nuit suivante : 16 degrés.
 
 • Pour la journée de lundi 31 et la nuit suivante :
-Le soleil domine largement du matin au soir. Pour la nuit : Le temps est calme et de fins nuages d'altitude défilent dans le ciel.
+Le temps est sec et bien dégagé. Un voile nuageux masque temporairement le soleil, sur le nord ainsi que sur le sud-est. Pour la nuit : Le ciel est généralement voilé.
 Vent d'Ouest modéré, en journée ; puis s'atténuant.
 Températures maximales pour le jour : de 23 à 24 degrés.
-Températures minimales pour la nuit suivante : 13 degrés.
+Températures minimales pour la nuit suivante : entre 12 et 14 degrés.
 
 • Pour la journée de mardi 01 septembre :
 Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments.
-Vent variable, faible.
-Températures maximales : comprises entre 23 et 24 degrés.
+Vent faible, variable.
+Températures maximales : 24 degrés.
 
 • Pour mercredi 02 et jeudi 03 :
 Temps le plus souvent ensoleillé.
@@ -68,39 +68,39 @@ Températures minimales : en baisse sur Paris, à l'ouest ainsi que sur la Seine
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===
-Emis le : 29/08/2026 16:45
+Emis le : 30/08/2026 00:30
 
 Vigilance :
-Aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance verte.
+Aujourd'hui, le département des Bouches-du-Rhône est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Marignane : température de 30 degrés, vent de secteur Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1016 hPa.
-A Aix-en-Provence : température de 30 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 30 km/h.
+Aujourd'hui on observait à 00h :
+A Marignane : température de 21 degrés, vent de secteur Sud-Est soufflant jusqu'à 15 km/h, pression niveau mer 1016 hPa.
+A Aix-en-Provence : température de 20 degrés, vent variable faible.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Le ciel est bien étoilé.
-Vent faible de direction variable.
+Le temps est calme et propice à l'observation des étoiles.
+Petit vent d'Ouest-Sud-Ouest généralement faible.
 Températures minimales : du Rhône à Aix et à Marseille entre 17 et 20 degrés. Comprises entre 14 et 15 degrés sur le val de Durance et la Sainte Baume.
 
 • Pour demain dimanche 30 en journée et la nuit suivante :
-Le soleil brille sans discontinuer du matin jusqu'au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+La journée est belle, le soleil est largement présent. Pour la nuit : Le ciel est bien étoilé.
 Vent généralement faible.
-Températures maximales pour le jour : comprises entre 32 et 33 degrés, et 29 degrés à Marseille et dans les Calanques.
-Températures minimales pour la nuit suivante : du Rhône à l'étang de Berre et autour de Marseille entre 19 et 21 degrés. De 15 à 17 degrés entre Peyrolles Aix et Aubagne.
+Températures maximales pour le jour : comprises entre 32 et 34 degrés, et 30 degrés de Marseille à La Ciotat.
+Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille voisines de 17 à 20 degrés. De 13 à 14 degrés sur le val de Durance et la Sainte Baume.
 
 • Pour la journée de lundi 31 et la nuit suivante :
-Le soleil domine largement du matin au soir. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+Le soleil est généreux tout au long de la journée. Pour la nuit : Le ciel est clair toute la nuit.
 Vent faible dans l'ensemble.
-Températures maximales pour le jour : comprises entre 31 et 34 degrés.
-Températures minimales pour la nuit suivante : du Rhône à Aix et à Marseille de 18 à 21 degrés. 15 degrés sur le val de Durance et la Sainte Baume.
+Températures maximales pour le jour : entre 31 et 34 degrés.
+Températures minimales pour la nuit suivante : du Rhône à l'étang de Berre et autour de Marseille entre 20 et 21 degrés. De 14 à 17 degrés entre Peyrolles Aix et Aubagne.
 
 • Pour la journée de mardi 01 septembre :
-Le soleil règne presque en maître du matin au soir, seuls quelques passages nuageux le contrarient un peu en fin de journée.
-Vent faible dans l'ensemble.
-Températures maximales : de 31 à 34 degrés, et 30 degrés de Marseille à La Ciotat.
+La journée est ensoleillée, avec tout au plus quelques nuages très discrets.
+Vent généralement faible.
+Températures maximales : de 31 à 34 degrés, et 30 degrés à Marseille et dans les Calanques.
 
 • Pour mercredi 02 et jeudi 03 :
 Temps largement ensoleillé.
@@ -121,40 +121,41 @@ Températures minimales : stationnaires.
 Températures maximales : en baisse sur la moitié nord du département.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 29/08/2026 16:45
+Emis le : 30/08/2026 00:30
 
 Vigilance :
-Aujourd'hui et demain, le département de la Gironde est en vigilance verte.
+Aujourd'hui, le département de la Gironde est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Bordeaux : température de 28 degrés, vent de secteur Ouest soufflant jusqu'à 40 km/h, pression niveau mer 1017 hPa.
-Au Cap-Ferret : température de 26 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 25 km/h.
-A Libourne : température de 28 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 25 km/h.
+Aujourd'hui on observait à 00h :
+A Bordeaux : température de 21 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1018 hPa.
+Au Cap-Ferret : température de 22 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 20 km/h.
+A Libourne : température de 21 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-La soirée est assez bien dégagée, mais en seconde partie de nuit, les nuages deviennent plus nombreux. Quelques averses sont possibles, sur l'Ouest du département, essentiellement en fin de nuit.
-Vent d'Ouest modéré, sur le littoral.
-Températures minimales : entre 16 et 19 degrés.
+Les passages nuageux laissent par moments apercevoir les étoiles.
+En seconde partie de nuit, vent s'établissant à l'Ouest modéré, sur le littoral ; puis atténuation.
+Températures minimales : de 16 à 19 degrés.
 
 • Pour demain dimanche 30 en journée et la nuit suivante :
-La journée est souvent belle avec de larges éclaircies. Toutefois, sous des passages nuageux temporairement un peu plus conséquents, quelques averses sont possibles par moments, sur le Médoc et le Blayais ainsi que sur la moitié Sud-Est du département. Pour la nuit : Les étoiles sont partout présentes. Seul bémol, des nuages en fin de nuit sur le littoral qui peuvent donner quelques gouttes.
-Vent modéré, de secteur Ouest.
-Températures maximales pour le jour : sur la majeure partie sud du département comprises entre 26 et 29 degrés. De 23 à 24 degrés sur le Médoc et le Blayais.
-Températures minimales pour la nuit suivante : comprises entre 14 et 17 degrés, et 18 degrés sur le littoral.
+Le matin le ciel est souvent bien nuageux. De petites averses sont possibles, sur le Médoc et le Blayais ainsi que sur la moitié Sud-Est du département. Une amélioration se dessine en cours d'après-midi. Non seulement les précipitations se raréfient puis disparaissent en fin de journée, mais de belles éclaircies se développent. Pour la nuit : Dans la nuit, le ciel est bien dégagé. Des averses peuvent cependant se produire avant l'aurore, sur le Médoc et le Blayais.
+On prévoit au maximum jusqu'à 10 millimètres de pluie sur le littoral.
+En fin de nuit, vent s'orientant Ouest-Sud-Ouest assez fort, sur le littoral ; atténuation ensuite.
+Températures maximales pour le jour : sur la majeure partie sud du département de 26 à 29 degrés. Comprises entre 23 et 24 degrés sur le Médoc et le Blayais.
+Températures minimales pour la nuit suivante : entre 14 et 17 degrés, et de 18 à 19 degrés sur le bord de mer.
 
 • Pour la journée de lundi 31 et la nuit suivante :
-Le soleil brille généreusement toute la journée. Des nuages sont toutefois présents en matinée sur l'Est du département. Pour la nuit : La soirée est bien étoilée, mais un voile nuageux se forme en seconde partie de nuit et masque les étoiles.
-En journée et début de nuit, vent d'Ouest à Nord-Ouest, localement modéré. Nouveau renforcement en fin de nuit, sur le littoral, avec orientation au Nord-Nord-Est.
-Températures maximales pour le jour : entre 25 et 28 degrés, et 21 degrés sur le littoral.
-Températures minimales pour la nuit suivante : de 12 à 15 degrés, et 18 degrés sur le littoral.
+Le soleil brille généreusement toute la journée. Des nuages sont toutefois présents en matinée sur le Sud-Est du département. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
+Vent d'Ouest à Nord-Ouest, modéré, en journée et début de nuit ; puis atténuation.
+Températures maximales pour le jour : comprises entre 25 et 28 degrés, et 21 degrés sur le littoral.
+Températures minimales pour la nuit suivante : entre 12 et 15 degrés, et 18 degrés sur le littoral.
 
 • Pour la journée de mardi 01 septembre :
-Les quelques nuages présents ici et là disparaissent au fil du temps et le soleil devient prédominant.
-L'après-midi jusqu'en début de soirée, vent s'établissant au Nord-Ouest modéré, sur l'Ouest du département.
-Températures maximales : entre 26 et 29 degrés, et 22 degrés sur le littoral.
+Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée.
+L'après-midi jusqu'en début de soirée, vent de Nord-Ouest modéré, sur le Nord-Ouest du département.
+Températures maximales : comprises entre 26 et 29 degrés, et 21 degrés sur le littoral.
 
 • Pour mercredi 02 et jeudi 03 :
 Temps largement ensoleillé.
@@ -175,40 +176,40 @@ Températures minimales : en hausse sur l'Est du département.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 29/08/2026 16:45
+Emis le : 30/08/2026 00:30
 
 Vigilance :
-Aujourd'hui et demain, le département du Rhône est en vigilance verte.
+Aujourd'hui, le département du Rhône est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Lyon : température de 28 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1016 hPa.
-Aux Sauvages : température de 24 degrés, vent de secteur Ouest soufflant jusqu'à 35 km/h.
-A Brindas : température de 28 degrés.
+Aujourd'hui on observait à 00h :
+A Lyon : température de 20 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h, pression niveau mer 1017 hPa.
+Aux Sauvages : température de 18 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 25 km/h.
+A Brindas : température de 20 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Des nuages inoffensifs sont présents, sauf en région lyonnaise. Ils se dissipent en début de nuit. La fin de nuit est partout bien étoilée.
-Vent faible, variable.
-Températures minimales : comprises entre 14 et 16 degrés.
+Nuages et belles éclaircies se partagent le ciel en soirée. Au fil des heures, les nuages disparaissent et c'est sous un ciel bien dégagé que se termine la nuit.
+Vent variable, faible.
+Températures minimales : de 13 à 16 degrés.
 
 • Pour demain dimanche 30 en journée et la nuit suivante :
-Le soleil domine dans un ciel parsemé de petits nuages. L'après-midi, ces nuages prennent de l'ampleur en Val de Saône, au confluent Brévenne Turdine Azergues ainsi que sur le relief et peuvent lâcher quelques averses. Pour la nuit : Belle nuit étoilée. Quelques passages nuageux en fin de nuit.
-Vent variable, faible.
-Températures maximales pour le jour : entre 29 et 31 degrés, et entre 26 et 27 degrés sur le relief.
-Températures minimales pour la nuit suivante : de 16 à 18 degrés, et 14 degrés sur le relief.
+Le soleil est largement présent le matin, puis peu à peu, le ciel se voile. En fin de journée, les nuages deviennent plus nombreux, dans le Beaujolais, avec un risque d'orage. Pour la nuit : Nuages et éclaircies se partagent le ciel. En début de nuit, dans le Beaujolais, des averses sont possibles. Elles peuvent même être orageuses dans le Beaujolais. Puis le temps sec se généralise, avec de belles éclaircies.
+En début de nuit, vent s'établissant au Nord-Ouest, généralement modéré ; puis atténuation. Rafales atteignant 95 km/h dans le Beaujolais.
+Températures maximales pour le jour : entre 29 et 32 degrés, et 28 degrés dans le Beaujolais.
+Températures minimales pour la nuit suivante : entre 15 et 18 degrés, et 14 degrés dans les monts du Lyonnais.
 
 • Pour la journée de lundi 31 et la nuit suivante :
-Le soleil domine largement du matin au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-En fin d'après-midi, vent s'orientant au Nord-Ouest, souvent modéré ; atténuation ensuite.
-Températures maximales pour le jour : de 26 à 29 degrés.
-Températures minimales pour la nuit suivante : entre 14 et 16 degrés, et 12 degrés dans les monts du Lyonnais.
+Le temps est ensoleillé du matin au soir. Pour la nuit : Le ciel est clair toute la nuit.
+Etablissement, en fin d'après-midi, d'un vent de Nord-Ouest, modéré ; atténuation ensuite.
+Températures maximales pour le jour : de 26 à 29 degrés, et 25 degrés dans les monts du Lyonnais.
+Températures minimales pour la nuit suivante : comprises entre 14 et 16 degrés, et 11 degrés dans les monts du Lyonnais.
 
 • Pour la journée de mardi 01 septembre :
-La journée est lumineuse, avec un beau soleil parfois contrarié par des passages nuageux qui restent inoffensifs.
-En fin d'après-midi, vent s'établissant au Nord-Est modéré, en Val de Saône.
-Températures maximales : de 25 à 28 degrés.
+Le soleil brille toute la matinée, puis le ciel se voile.
+En fin d'après-midi, établissement d'un vent de Nord-Est, localement modéré.
+Températures maximales : comprises entre 26 et 29 degrés.
 
 • Pour mercredi 02 et jeudi 03 :
 Beau temps sec et ensoleillé.
@@ -229,40 +230,40 @@ Températures minimales : en hausse dans les monts du Lyonnais ainsi qu'en régi
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
-Emis le : 29/08/2026 16:45
+Emis le : 30/08/2026 00:30
 
 Vigilance :
-Aujourd'hui et demain, le département de la Haute-Garonne est en vigilance verte.
+Aujourd'hui, le département de la Haute-Garonne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Toulouse-Blagnac : température de 30 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1017 hPa.
-A Luchon : température de 27 degrés, vent de secteur Nord soufflant jusqu'à 35 km/h.
-A Saint-Félix-Lauragais : température de 27 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 25 km/h.
+Aujourd'hui on observait à 00h :
+A Toulouse-Blagnac : température de 23 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1018 hPa.
+A Luchon : température de 18 degrés, vent de secteur Sud soufflant jusqu'à 15 km/h.
+A Saint-Félix-Lauragais : température de 24 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 10 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
-Le temps est calme et propice à l'observation des étoiles.
-En milieu de nuit, vent s'orientant Ouest, modéré par endroits ; puis atténuation.
-Températures minimales : sur la plaine et le piémont comprises entre 14 et 17 degrés. 12 degrés sur le Cagire et le Luchonnais.
+Le ciel est clair, même si on peut noter quelques nuages plus présents sur le Cagire et le Luchonnais, en soirée.
+En milieu de nuit, vent s'orientant Ouest modéré, sur les coteaux de Gascogne ; atténuation ensuite.
+Températures minimales : sur la plaine et le piémont de 14 à 17 degrés. 11 degrés sur le Cagire et le Luchonnais.
 
 • Pour demain dimanche 30 en journée et la nuit suivante :
-Le soleil brille sans discontinuer du matin jusqu'au soir. Pour la nuit : Ciel étoilé et passages nuageux de plus en plus nombreux se partagent le ciel en la nuit. De petites averses sont même attendues sur le piémont et la montagne.
-En première partie de nuit, vent s'orientant Ouest à Nord-Ouest modéré, sur la plaine et le piémont ; atténuation ensuite.
-Températures maximales pour le jour : entre 30 et 33 degrés, et 34 degrés sur le Lauragais.
+Le soleil domine largement du matin au soir. Pour la nuit : Les nuages sont assez nombreux avec quelques éclaircies, et une petite menace d'averses vers minuit, sur le piémont et la montagne. L'atmosphère est un peu brumeuse, après minuit, sur le Cagire et le Luchonnais.
+En fin d'après-midi et jusqu'en milieu de nuit, vent s'établissant au Nord à Nord-Ouest, modéré ; puis atténuation.
+Températures maximales pour le jour : de 31 à 34 degrés.
 Températures minimales pour la nuit suivante : comprises entre 16 et 19 degrés, et 20 degrés dans l'Agglomération toulousaine.
 
 • Pour la journée de lundi 31 et la nuit suivante :
 Le soleil s'impose largement, malgré quelques passages nuageux en matinée. Pour la nuit : Après dissipation des brouillards locaux sur le Cagire et le Luchonnais, la nuit est belle.
-En cours d'après-midi, vent s'établissant au Nord-Ouest modéré, sur le Lauragais ; puis atténuation.
-Températures maximales pour le jour : sur le Midi Toulousain autour de 26 à 29 degrés. De 23 à 25 degrés sur le piémont et la montagne.
-Températures minimales pour la nuit suivante : entre 14 et 17 degrés, et 18 degrés dans l'Agglomération toulousaine.
+L'après-midi jusqu'en début de soirée, vent s'établissant au Nord-Ouest modéré, sur le Lauragais ; puis atténuation.
+Températures maximales pour le jour : sur le Midi Toulousain entre 26 et 29 degrés. De 23 à 25 degrés sur le piémont et la montagne.
+Températures minimales pour la nuit suivante : entre 13 et 16 degrés, et 18 degrés dans l'Agglomération toulousaine.
 
 • Pour la journée de mardi 01 septembre :
-La matinée est bien ensoleillée. Puis progressivement, des nuages voilent le soleil. En fin de journée, des orages peuvent éclater, sur le Lauragais.
-À la tombée du jour, établissement d'un vent de Nord-Nord-Ouest, souvent modéré.
-Températures maximales : entre 28 et 30 degrés.
+Le soleil est généreux de son lever à son coucher. Quelques nuages circulent ça et là en fin de journée.
+À la tombée du jour, vent de Nord-Nord-Ouest modéré, sur le Lauragais.
+Températures maximales : entre 28 et 31 degrés.
 
 • Pour mercredi 02 et jeudi 03 :
 Sur le Cagire et le Luchonnais, temps changeant accompagné de possibles ondées éparses de mercredi à la mi-journée jusqu'en fin de journée. Sur les autres régions, beau temps sec et bien ensoleillé.
@@ -313,22 +314,22 @@ doute d'actualité par la suite
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 • Infoclimat Direct : Incendies 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
 • Infoclimat Direct : Météo &#xE0; Rabat et territoire Marocain (climat, prévisions, tendances, et variations)
-• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
-• Indicateur Thermique National (ITN 14 jours au 29/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
+• Indicateur Thermique National (ITN 14 jours au 30/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 29 Août 2026.
-Résumé général précédent : Tendance sur 15 jours : temps sec et anticyclonique dominant, avec un épisode de chaleur marquée sur le sud en fin de semaine 1 et début de semaine 2, puis incertitude avec possible atténuation..
+Résumé général précédent : Temps sec et anticyclonique dominant, avec une chaleur marquée sur le sud en fin de semaine 1 et début semaine 2, puis incertitude avec possible atténuation..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé, chaleur modérée au sud, pic moins intense..
+Températures attendues précédemment : Temps sec, averses orageuses possibles lundi au nord, chaleur modestes au sud..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -403,7 +404,7 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié hier à 12:14 par petit âge glaciaire 11
+	Modifié vendredi à 12:14 par petit âge glaciaire 11
 Modifié
 								4
 								2
@@ -415,7 +416,7 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié hier à 14:27 par mathias
+	Modifié vendredi à 14:27 par mathias
 								1
 								2
 								1
@@ -432,7 +433,7 @@ Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le
 	J
 	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
 	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
-	Modifié hier à 16:38 par nickdu77
+	Modifié vendredi à 16:38 par nickdu77
 Oubli d&#039;un mot
 								1
 								1
@@ -450,7 +451,7 @@ Comparatif des températures   à 850hpa des déterministes des principaux mod
 	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
 	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
 	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
-	Modifié hier à 17:49 par petit âge glaciaire 11
+	Modifié vendredi à 17:49 par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -461,7 +462,7 @@ Auteur: edel
 Message:
 Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
 	Pour le sud, il faudra encore patienter...
-	Modifié hier à 17:50 par edel
+	Modifié vendredi à 17:50 par edel
 								8
 
 =======================
@@ -474,7 +475,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié hier à 20:50 par giec 2100
+	Modifié vendredi à 20:50 par giec 2100
 								1
 
 =======================
@@ -484,7 +485,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié hier à 20:11 par Clem68
+	Modifié vendredi à 20:11 par Clem68
 								3
 
 =======================
@@ -544,7 +545,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 9 heures par AmourDaria
+	Modifié il y a 11 heures par AmourDaria
 								1
 								3
 
@@ -566,7 +567,7 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 6 heures par edel
+	Modifié il y a 8 heures par edel
 								2
 								3
 
@@ -584,10 +585,10 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
-								2
-								3
+								4
+								4
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: TornadeScintillante
@@ -661,7 +662,7 @@ Ce matin l'ensemble CEP est le plus chaud avec des signaux d'une vague de chaleu
 	Début du topic :
 	Vendredi :
 	On le voit peu de différence entre le début et la fin du topic pour les cumuls. 
-	Modifié hier à 12:14 par petit âge glaciaire 11
+	Modifié vendredi à 12:14 par petit âge glaciaire 11
 Modifié
 								4
 								2
@@ -673,7 +674,7 @@ Message:
 Coucou, c'est moi. Je suis sûr que je commençais à vous manquer, non?
 	Mai - Juin - Juillet - Août et ... - Septembre. 
 	Ok, c'est GFS et ce n'est qu'une sortie parmi d'autre mais plus les jours passent, plus les tubes s'orientent vers le haut. (centré sur l'Isère et la Gironde)
-	Modifié hier à 14:27 par mathias
+	Modifié vendredi à 14:27 par mathias
 								1
 								2
 								1
@@ -690,7 +691,7 @@ Si je comprends bien ce que je vois, on aurait une petite poussée chaude sur le
 	J
 	Je deviens peut-être neurasthénique et je devrais peut-être aller consulter mais ça me rappelle un peu le chaos qu'on avait pendant l'été où c'était très vite éclaté sans direction claire. La différence, c'est qu'on ne parle pas de 35+ au nord mais pour le sud, ça a l'air d'être vraiment compliqué. Force à vous.
 	Je sens que ce n'est pas totalement terminé, surtout si on regarde les températures encore extrêmement élevées en Afrique du Nord. L'air chaud n'est pas très loin ...
-	Modifié hier à 16:38 par nickdu77
+	Modifié vendredi à 16:38 par nickdu77
 Oubli d&#039;un mot
 								1
 								1
@@ -708,7 +709,7 @@ Comparatif des températures   à 850hpa des déterministes des principaux mod
 	peu de doutes à mon avis pour ce coup de chaud dans lecsud, seul GFS semble occulter la poussée chaude, GEM est lui est le plus chaud et de loin.
 	Si on regarde ce modèle pour dimanche c'est assez impressionnantc avec la grosse chaleurqui remonterait jusqu'au nlrd de la france, mais autant GFS semble trop timoré pour cette nouvelle poussée chaude, autant GEM semble être excessif dans la vigueur de cette remontée très chaude pour un début d'automne météorologique :
 	A suivre et notamment en ce qui concerne la durée de cette nouvelle envolée du thermomètre qui ne devrait pas trop durer à priori ( mais rien de calé à cette échéance) et sur la localisation des régions les plus concernées. 
-	Modifié hier à 17:49 par petit âge glaciaire 11
+	Modifié vendredi à 17:49 par petit âge glaciaire 11
 Modifié
 								2
 								1
@@ -719,7 +720,7 @@ Auteur: edel
 Message:
 Dans l'ensemble, les modèles semblent vouloir limiter la progression de l'air le plus chaud au sud de la France, rien de plus normal, avec les jours qui diminuent, et l'énergie solaire avec, l'entretien d'une masse d'air très chaude devient compliqué au nord de la Loire, où ça commence doucement mais surement à sentir l'automne.
 	Pour le sud, il faudra encore patienter...
-	Modifié hier à 17:50 par edel
+	Modifié vendredi à 17:50 par edel
 								8
 
 =======================
@@ -732,7 +733,7 @@ Il y a 2 heures, edel a dit :
 	si on se place à l'échelle de l'hémisphère N et en temporalité longue la moitié S du pays devrait encaisser deux trois jours chauds fin de semaine prochaine et en rester là... :
 	reste à voir si ça se combine de la sorte au fil des réactualisations... avec par exemple la péninsule ibérique, elle, loin d'être garée des voitures sur la période ;
 	mais on sent bien que la masse d'air chaud déborde très largement la zone intertropicale encore à ce moment de l'année, situation qui pourra s'installer loin dans la saison et la suivante les prochaines années avec le réchauffement climatique accentué ...
-	Modifié hier à 20:50 par giec 2100
+	Modifié vendredi à 20:50 par giec 2100
 								1
 
 =======================
@@ -742,7 +743,7 @@ Message:
 Hello,
 	J’interviens rarement sur ce forum mais j’ai envie de dire encore heureux qu’on a pas les fameux T850&gt;20 qui remontent facilement au nord de la Loire. Pour rappel en début septembre les records se situent justement environ à ce niveau là sur conditions parfaites de relation entre T850 et T2m (ce qui est chose moins gagnée qu’en plein été). Pour autant on est une semaine à l’avance, et y’a encore des ajustements possibles à l’échelle locale qu’est la France (plus qu’à l’échelle synoptique avec le retour des HP confirmé depuis qq jours). Et même « en l’état », peut-être que le nord de la Seine resterait sur des températures proche de 30 vu la masse d’air (donc à quelques degrés des records mais à ne pas banaliser non plus…) mais la zone tampon entre le centre ouest et le nord est pourrait tranquillement les dépasser et selon les conditions de basse couche, on pourrait approcher pourquoi pas les records mensuels localement. Bref c’était juste pour souligner que la « chaleur anormale » pour la saison prévu pour le week end prochain ne semble non seulement pas cantonné au tiers le plus méridional mais pourrait s’étendre temporairement plutôt d’abord sur le centre ouest, puis le nord du centre est/nord est. Pour illustrer mes dires, ci joint le cep det avec les T850 utiles juste pour voir l'advection chaude :
 	NB : en soit gem si on enlève qq degrés en T850 est d’accord avec, et AIFS det aussi, juste la date du pic diffère d’environ 1 jour entre les deux… 
-	Modifié hier à 20:11 par Clem68
+	Modifié vendredi à 20:11 par Clem68
 								3
 
 =======================
@@ -802,7 +803,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 9 heures par AmourDaria
+	Modifié il y a 11 heures par AmourDaria
 								1
 								3
 
@@ -824,7 +825,7 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 6 heures par edel
+	Modifié il y a 8 heures par edel
 								2
 								3
 
@@ -842,7 +843,7 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
-								2
-								3
+								4
+								4
