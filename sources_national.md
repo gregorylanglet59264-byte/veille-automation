@@ -309,11 +309,12 @@ une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Recensement des tornades en France
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 • Infoclimat Direct : Inondations Népal
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
+• Infoclimat Direct : Recensement des tornades en France
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 30/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,26 +322,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 30 Août 2026.
-Résumé général précédent : .
+Résumé général précédent : Tendance générale sur 15 jours : temps sec et chaud, avec un pic de chaleur probable du 4 au 7 septembre sur la moitié sud. Ensuite, forte incertitude : le sud-est pourrait conserver des températures estivales tandis qu’une dégradation atlantique pourrait gagner l’ouest..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Soleil dominant, chaleur sèche, maximales >35°C probables sur la moitié sud ; pas d’orages significatifs hors relief..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Twister83
-Message:
-il y a 4 minutes, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	Sujet déjà abordé plusieurs fois, mais non, une eau plus chaude de la Méditerranée ne favorise pas à elle seule des épisodes méditerranéens intenses.
-	C'est certes un gros réservoir d'énergie, ça augmente la sévérité des épisodes, mais ça ne prédit en rien du temps des prochaines semaines.
-	Si le temps reste anticyclonique ou qu'un flux de Nord-ouest s'installe avec mistral et tramontane, il ne se passe rien, eau chaude ou pas.
-	La tendance actuelle en Méditerranée actuellement (ici à 200km des côtes françaises) : 
-	À part aggraver la chaleur, un temps sec, et rendre la baignade automnale agréable, l'eau chaude ne sert à rien si la synoptique ne bouge pas.
-								3
-								5
-
-=======================
-
 Auteur: Albigeois-du-30
 Message:
 il y a 30 minutes, Tornado75 a dit :
@@ -457,7 +444,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 9 heures par petit âge glaciaire 11
+	Modifié il y a 11 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -490,7 +477,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 9 heures par giec 2100
+	Modifié il y a 11 heures par giec 2100
 								4
 								1
 
@@ -504,7 +491,7 @@ il y a 56 minutes, clem11 a dit :
 								3
 								3
 								1
-								6
+								7
 
 =======================
 
@@ -514,9 +501,9 @@ il y a une heure, Sebaas a dit :
 			Costaud le diagramme ENS pour Toulouse, et pas vraiment de sortie à 15j...
 	Jen viens à me demander si on a pas définitivement basculé dans un climat subtropical avec alternance de saison douce fraîche extrêmement humide et d’une saison chaude et très sèche de 6mois chacune
 								5
-								2
+								3
 								1
-								7
+								8
 
 =======================
 
@@ -524,7 +511,7 @@ Auteur: giec 2100
 Message:
 suivant une expression ancienne, Africa begins at Calais - l'Afrique commence à Calais -, qui traduisait bien le chauvinisme britannique de l'époque, ou la croyance que la "civilisation" s'arrêtait à cette limite géographique...  eh bien le modèle de prévisions européen semble nous servir la même chose, en termes de cumul de précipitations, à l'échéance du 5 septembre !... :
 	régime toujours aussi sec au S du 50ème parallèle en Europe...
-								2
+								3
 
 =======================
 
@@ -543,7 +530,7 @@ Il y a 4 heures, clem11 a dit :
 	Je serai même prêt à signer pour un Septembre 2003... C'est dire...
 	Dans cette synoptique, il ne faut rien espérer avant la dernière décade... Et encore...
 	Malgré la sécheresse, les températures qui restent très élevées pour la période.. on peut néanmoins saluer une baisse des TNs qui permet d'avoir un sommeil à peu près correct.. 
-								3
+								4
 
 =======================
 
@@ -554,24 +541,20 @@ Bonsoir,
 	On commencera la semaine par une belle NAO+ :
 	Mais comme le jet circule de plus en plus nord, cette synoptique qui en fin d'été aurait, il y a quelques années entretenu au moins au nord du pays contribue maintenant à l'accumulation de hauts géopotentiels sur une grande partie de l'Europe occidentale:
 	Un coude du jet, une ondulation ne sont plus nécessaires à l'installation d'une météo estivale, chaude et sèche même en début d'automne. Je pense que cela perturbe grandement la lecture que l'on peut avoir des conditions attendues à nos latitudes en fonction du type de régime de circulation atmosphérique.
-								9
+								15
 								6
+
+=======================
+
+Auteur: giec 2100
+Message:
+le supplice de Tantale version CEP version IA, run 12h : 
+	un manège alléchant de minimums qui tournicotent au-dessus de nos têtes, jusqu'à une date avancée du prochain topic, toujours à distance respectueuse de l'Hexagone, avec sans cesse Cerbère l'anticyclone açorien comme infecte gardien de l'enfer inhabituel de 2026...
+	no future comme on disait dans l'une des branches des lointains ancêtres des Amish (!)...
+								1
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: Twister83
-Message:
-il y a 4 minutes, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	Sujet déjà abordé plusieurs fois, mais non, une eau plus chaude de la Méditerranée ne favorise pas à elle seule des épisodes méditerranéens intenses.
-	C'est certes un gros réservoir d'énergie, ça augmente la sévérité des épisodes, mais ça ne prédit en rien du temps des prochaines semaines.
-	Si le temps reste anticyclonique ou qu'un flux de Nord-ouest s'installe avec mistral et tramontane, il ne se passe rien, eau chaude ou pas.
-	La tendance actuelle en Méditerranée actuellement (ici à 200km des côtes françaises) : 
-	À part aggraver la chaleur, un temps sec, et rendre la baignade automnale agréable, l'eau chaude ne sert à rien si la synoptique ne bouge pas.
-								3
-								5
-
-=======================
-
 Auteur: Albigeois-du-30
 Message:
 il y a 30 minutes, Tornado75 a dit :
@@ -688,7 +671,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 9 heures par petit âge glaciaire 11
+	Modifié il y a 11 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -721,7 +704,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 9 heures par giec 2100
+	Modifié il y a 11 heures par giec 2100
 								4
 								1
 
@@ -735,7 +718,7 @@ il y a 56 minutes, clem11 a dit :
 								3
 								3
 								1
-								6
+								7
 
 =======================
 
@@ -745,9 +728,9 @@ il y a une heure, Sebaas a dit :
 			Costaud le diagramme ENS pour Toulouse, et pas vraiment de sortie à 15j...
 	Jen viens à me demander si on a pas définitivement basculé dans un climat subtropical avec alternance de saison douce fraîche extrêmement humide et d’une saison chaude et très sèche de 6mois chacune
 								5
-								2
+								3
 								1
-								7
+								8
 
 =======================
 
@@ -755,7 +738,7 @@ Auteur: giec 2100
 Message:
 suivant une expression ancienne, Africa begins at Calais - l'Afrique commence à Calais -, qui traduisait bien le chauvinisme britannique de l'époque, ou la croyance que la "civilisation" s'arrêtait à cette limite géographique...  eh bien le modèle de prévisions européen semble nous servir la même chose, en termes de cumul de précipitations, à l'échéance du 5 septembre !... :
 	régime toujours aussi sec au S du 50ème parallèle en Europe...
-								2
+								3
 
 =======================
 
@@ -774,7 +757,7 @@ Il y a 4 heures, clem11 a dit :
 	Je serai même prêt à signer pour un Septembre 2003... C'est dire...
 	Dans cette synoptique, il ne faut rien espérer avant la dernière décade... Et encore...
 	Malgré la sécheresse, les températures qui restent très élevées pour la période.. on peut néanmoins saluer une baisse des TNs qui permet d'avoir un sommeil à peu près correct.. 
-								3
+								4
 
 =======================
 
@@ -785,5 +768,15 @@ Bonsoir,
 	On commencera la semaine par une belle NAO+ :
 	Mais comme le jet circule de plus en plus nord, cette synoptique qui en fin d'été aurait, il y a quelques années entretenu au moins au nord du pays contribue maintenant à l'accumulation de hauts géopotentiels sur une grande partie de l'Europe occidentale:
 	Un coude du jet, une ondulation ne sont plus nécessaires à l'installation d'une météo estivale, chaude et sèche même en début d'automne. Je pense que cela perturbe grandement la lecture que l'on peut avoir des conditions attendues à nos latitudes en fonction du type de régime de circulation atmosphérique.
-								9
+								15
 								6
+
+=======================
+
+Auteur: giec 2100
+Message:
+le supplice de Tantale version CEP version IA, run 12h : 
+	un manège alléchant de minimums qui tournicotent au-dessus de nos têtes, jusqu'à une date avancée du prochain topic, toujours à distance respectueuse de l'Hexagone, avec sans cesse Cerbère l'anticyclone açorien comme infecte gardien de l'enfer inhabituel de 2026...
+	no future comme on disait dans l'une des branches des lointains ancêtres des Amish (!)...
+								1
+								1
