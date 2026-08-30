@@ -15,46 +15,46 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 30/08/2026 06:30
+Emis le : 30/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département du Nord est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Lille-Lesquin : température de 17 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1010 hPa, cumul de précipitations en 12h : 4 mm.
-A Dunkerque : température de 19 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 60 km/h.
+Aujourd'hui on observait à 09h :
+A Lille-Lesquin : température de 18 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1012 hPa.
+A Dunkerque : température de 19 degrés, vent de secteur Ouest soufflant jusqu'à 50 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui dimanche 30 :
 Les nuages sont nombreux toute la journée. En fin de journée, le soleil se montre un peu plus, mais quelques averses sont toutefois possibles, en Flandres.
-Vent modéré, de Sud-Ouest. Avec, en Flandres, des rafales atteignant 65 km/h, à la tombée du jour.
-Températures maximales : entre 22 et 23 degrés.
+Vent de Sud-Ouest, modéré. Avec, en Flandres, des rafales atteignant 65 km/h, à la tombée du jour.
+Températures maximales : comprises entre 22 et 23 degrés.
 
 • Pour la nuit prochaine :
 La nuit est bien étoilée. Mais, que ce soit en début ou en fin de nuit, des orages sont possibles depuis la côte jusqu'au Valenciennois et au Cambrésis.
 On prévoit au maximum jusqu'à 20 millimètres de pluie en Flandre maritime.
-Tôt le matin, vent s'établissant au Sud-Ouest assez fort, de l'agglomération lilloise au Valenciennois et au Cambrésis. Avec des rafales atteignant 65 km/h.
-Températures minimales : de 14 à 15 degrés.
+Aux premières heures du jour, vent s'établissant au Sud-Ouest assez fort, de l'agglomération lilloise au Valenciennois et au Cambrésis. Avec des rafales atteignant 65 km/h.
+Températures minimales : comprises entre 14 et 15 degrés.
 
 • Pour demain lundi 31 en journée et la nuit suivante :
-Sous un ciel couvert, de faibles pluies se produisent le matin. Puis, des éclaircies se forment, et les précipitations s'atténuent et cessent. Mais des averses restent toutefois possibles jusqu'en début d'après-midi, sur l'Avesnois, le Valenciennois et le Cambrésis. Pour la nuit : La soirée est partagée entre passages nuageux et périodes étoilées, mais peu à peu ces dernières s'allongent, et après minuit, la voûte céleste est bien dégagée.
-Les plus forts cumuls de pluie attendus sont de 5 millimètres en Flandre intérieure.
+Sous un ciel couvert, de faibles pluies se produisent le matin. Puis, des éclaircies se forment, et les précipitations s'atténuent et cessent. Mais des averses restent toutefois possibles jusqu'en début d'après-midi, sur l'Avesnois, le Valenciennois et le Cambrésis. Pour la nuit : Après quelques passages nuageux, la deuxième partie de nuit devient bien étoilée.
+Le maximum de pluie attendu est de l'ordre de 5 millimètres en Flandre intérieure.
 Jusqu'en milieu d'après-midi, vent d'Ouest à Sud-Ouest, assez fort ; puis faiblissant. Rafales atteignant 65 km/h.
-Températures maximales pour le jour : de 20 à 22 degrés.
-Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 11 et 13 degrés. 16 degrés en Flandre maritime.
+Températures maximales pour le jour : entre 20 et 22 degrés.
+Températures minimales pour la nuit suivante : dans l'intérieur de 11 à 13 degrés. 16 degrés en Flandre maritime.
 
 • Pour la journée de mardi 01 septembre et la nuit suivante :
 La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi. Pour la nuit : La présence d'un voile de nuages élevés ternit l'éclat des étoiles.
-Vent d'Ouest à Sud-Ouest, modéré.
-Températures maximales pour le jour : comprises entre 21 et 22 degrés.
-Températures minimales pour la nuit suivante : dans l'intérieur comprises entre 11 et 13 degrés. 15 degrés en Flandre maritime.
+Vent modéré, d'Ouest à Sud-Ouest.
+Températures maximales pour le jour : de 21 à 22 degrés.
+Températures minimales pour la nuit suivante : dans l'intérieur entre 11 et 13 degrés. 15 degrés en Flandre maritime.
 
 • Pour la journée de mercredi 02 :
-Les nuages élevés sont omniprésents, mais l'ambiance reste lumineuse.
-Etablissement, en seconde partie de journée, d'un vent de Sud-Ouest assez fort, en Flandre maritime ; atténuation ensuite. Rafales atteignant 65 km/h.
-Températures maximales : entre 22 et 23 degrés.
+De fins nuages d'altitude troublent un peu l'ensoleillement, mais le temps reste agréable.
+Etablissement, l'après-midi, d'un vent de Sud-Ouest assez fort, en Flandre maritime ; atténuation ensuite. Rafales atteignant 65 km/h.
+Températures maximales : comprises entre 22 et 23 degrés.
 
 • Pour jeudi 03 et vendredi 04 :
 Éclaircies prédominantes, risque de pluie ou d'averses temporaire.
@@ -75,46 +75,46 @@ Températures minimales : similaires à la veille.
 Températures maximales : sans changement significatif.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 30/08/2026 06:30
+Emis le : 30/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département du Pas-de-Calais est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Arras : température de 16 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 35 km/h, cumul de précipitations en 12h : 2 mm.
-A Boulogne-Sémaphore : température de 18 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 65 km/h.
+Aujourd'hui on observait à 09h :
+A Arras : température de 17 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 30 km/h.
+A Boulogne-Sémaphore : température de 18 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 50 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui dimanche 30 :
 Le voile nuageux se déchire en cours de matinée, mais les éclaircies ne durent pas. L'après-midi, le ciel se charge peu à peu, et les nuages apportent quelques averses sur les trois quarts Ouest du département.
-Vent de Sud-Ouest, modéré. Avec des rafales jusqu'à 65 km/h, sur les trois quarts Ouest du département, à la tombée du jour.
-Températures maximales : entre 21 et 23 degrés.
+Vent modéré, de Sud-Ouest. Avec, sur les trois quarts Ouest du département, des rafales atteignant 65 km/h, à la tombée du jour.
+Températures maximales : comprises entre 21 et 23 degrés.
 
 • Pour la nuit prochaine :
 Des averses, localement orageuses, tombent en début de nuit. Elles se poursuivent, sur le bassin minier ainsi que sur les trois quarts Ouest du département. Quand les averses cessent, les nuages laissent une belle place aux étoiles.
-20 millimètres est le cumul maximum de pluie attendu près de la Mer du Nord.
-En seconde partie de nuit, établissement d'un vent de Sud-Ouest, souvent assez fort. Rafales atteignant 65 km/h, la nuit.
+Le maximum de pluie attendu est de l'ordre de 20 millimètres près de la Mer du Nord.
+En deuxième partie de nuit, établissement d'un vent de Sud-Ouest, souvent assez fort. Rafales atteignant 65 km/h, en cours de nuit.
 Températures minimales : de 13 à 16 degrés.
 
 • Pour demain lundi 31 en journée et la nuit suivante :
-Le temps est changeant, les nuages qui défilent apportent des averses par moments. En cours d'après-midi, les averses se raréfient et de belles éclaircies se dessinent. Pour la nuit : Les quelques nuages de la soirée se font de plus en plus discrets en cours de nuit.
-Le maximum de pluie attendu est de l'ordre de 15 millimètres sur le Ternois.
+Le temps est changeant, les nuages qui défilent apportent des averses par moments. En cours d'après-midi, les averses se raréfient et de belles éclaircies se dessinent. Pour la nuit : Après quelques passages nuageux, la deuxième partie de nuit devient bien étoilée.
+Les plus forts cumuls de pluie attendus sont de 15 millimètres sur le Ternois.
 Vent d'Ouest, généralement assez fort, en journée et début de nuit ; puis atténuation. Rafales atteignant 65 km/h.
 Températures maximales pour le jour : comprises entre 20 et 22 degrés.
 Températures minimales pour la nuit suivante : sur les côtes de la Manche, ainsi que dans les terres de 11 à 13 degrés. 15 degrés près de la Mer du Nord.
 
 • Pour la journée de mardi 01 septembre et la nuit suivante :
-La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi. Pour la nuit : Le ciel est généralement voilé.
-Vent modéré, d'Ouest à Sud-Ouest.
+La journée débute sous un ciel bien ensoleillé. Des passages nuageux circulent en cours de journée, mais le soleil reprend le dessus en toutes zones en fin d'après-midi. Pour la nuit : Le temps est calme et de fins nuages d'altitude défilent dans le ciel.
+Vent d'Ouest à Sud-Ouest, modéré.
 Températures maximales pour le jour : entre 20 et 22 degrés.
-Températures minimales pour la nuit suivante : sur les côtes de la Manche, ainsi que dans les terres entre 11 et 14 degrés. 15 degrés près de la Mer du Nord.
+Températures minimales pour la nuit suivante : sur les côtes de la Manche, ainsi que dans les terres de 11 à 14 degrés. 15 degrés près de la Mer du Nord.
 
 • Pour la journée de mercredi 02 :
-De fins nuages d'altitude troublent un peu l'ensoleillement, mais le temps reste agréable.
-L'après-midi jusqu'en début de soirée, vent s'établissant à l'Ouest assez fort, du Haut Artois au littoral. Avec des rafales atteignant 55 km/h.
-Températures maximales : de 21 à 23 degrés.
+Le soleil est généralement voilé par des nuages.
+L'après-midi jusqu'en début de soirée, vent d'Ouest assez fort, du Haut Artois au littoral. Avec des rafales atteignant 55 km/h.
+Températures maximales : entre 21 et 23 degrés.
 
 • Pour jeudi 03 et vendredi 04 :
 Risque de pluie ou d'averses jusqu'à vendredi en fin de journée.
@@ -135,44 +135,44 @@ Températures minimales : stables.
 Températures maximales : en baisse sur les côtes de la Manche, sur le Ternois ainsi que de l'Audomarois au Béthunois.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 30/08/2026 06:30
+Emis le : 30/08/2026 09:30
 
 Vigilance :
 Attention, aujourd'hui et demain, le département de la Somme est en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Amiens-Glisy : température de 16 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1012 hPa, cumul de précipitations en 12h : 4 mm.
-A Cayeux-sur-Mer : température de 19 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 50 km/h.
+Aujourd'hui on observait à 09h :
+A Amiens-Glisy : température de 17 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1013 hPa, cumul de précipitations en 12h : 4 mm.
+A Cayeux-sur-Mer : température de 18 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 40 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui dimanche 30 :
 Les nuages sont de plus en plus nombreux le matin. Quelques pluies tombent l'après-midi, au nord et à l'ouest d'Amiens. Elles peuvent parfois être orageuses en fin de journée.
-Vent modéré, de Sud à Sud-Ouest. Avec des rafales atteignant, au nord et à l'ouest d'Amiens, 65 km/h, à la tombée du jour.
+Vent de Sud à Sud-Ouest, modéré. Avec, au nord et à l'ouest d'Amiens, des rafales atteignant 65 km/h, à la tombée du jour.
 Températures maximales : entre 21 et 23 degrés.
 
 • Pour la nuit prochaine :
 Des averses ont lieu toute la nuit. Ces précipitations ont un caractère orageux, sur le Vermandois ainsi que sur les deux tiers ouest du département.
-On attend au maximum jusqu'à 15 millimètres de pluie sur le littoral picard.
-En fin de nuit, établissement d'un vent de Sud-Ouest, généralement assez fort. Rafales atteignant 65 km/h localement, en cours de nuit.
-Températures minimales : comprises entre 13 et 15 degrés.
+15 millimètres est le cumul maximum de pluie attendu sur le littoral picard.
+En fin de nuit, établissement d'un vent de Sud-Ouest, généralement assez fort. Rafales atteignant 65 km/h localement, la nuit.
+Températures minimales : entre 13 et 15 degrés.
 
 • Pour demain lundi 31 en journée et la nuit suivante :
 Le ciel est hésitant avec des nuages entrecoupés d'éclaircies. Les nuages portent parfois de petites averses jusqu'en milieu d'après-midi. En fin de journée, les averses cessent. Pour la nuit : Les éclaircies, déjà belles en soirée, s'élargissent pour nous offrir une seconde partie de nuit quasiment sans nuages. Par endroit le ciel peut être voilé, ternissant l'éclat des étoiles.
-Les plus forts cumuls de pluie attendus sont de 10 millimètres sur le Ponthieu et le Vimeu.
-Vent d'Ouest à Sud-Ouest, assez fort, en journée et début de nuit ; puis atténuation. Rafales atteignant 75 km/h.
-Températures maximales pour le jour : comprises entre 20 et 22 degrés.
-Températures minimales pour la nuit suivante : dans les terres entre 12 et 14 degrés. 16 degrés sur le littoral picard.
+Les plus forts cumuls de pluie peuvent avoisiner 10 millimètres sur le Ponthieu et le Vimeu.
+En journée et début de nuit, vent d'Ouest à Sud-Ouest, assez fort ; puis faiblissant. Rafales atteignant 75 km/h.
+Températures maximales pour le jour : de 20 à 22 degrés.
+Températures minimales pour la nuit suivante : dans les terres de 12 à 14 degrés. 16 degrés sur le littoral picard.
 
 • Pour la journée de mardi 01 septembre et la nuit suivante :
-Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Le temps est calme et de fins nuages d'altitude défilent dans le ciel.
-Vent d'Ouest tournant Sud-Sud-Ouest, modéré.
-Températures maximales pour le jour : de 20 à 21 degrés.
+Le soleil reste largement présent, même si des passages de nuages élevés tentent de le contester par moments. Pour la nuit : Le ciel est généralement voilé.
+Vent modéré, d'Ouest tournant Sud-Sud-Ouest.
+Températures maximales pour le jour : comprises entre 20 et 21 degrés.
 Températures minimales pour la nuit suivante : dans les terres comprises entre 10 et 12 degrés. 14 degrés sur le littoral picard.
 
 • Pour la journée de mercredi 02 :
-De fins nuages d'altitude troublent un peu l'ensoleillement, mais le temps reste agréable.
+Le soleil est généralement voilé par des nuages.
 L'après-midi jusqu'en début de soirée, vent d'Ouest à Sud-Ouest assez fort, sur le littoral picard.
 Températures maximales : de 21 à 24 degrés.
 
@@ -195,43 +195,43 @@ Températures minimales : sans changement significatif.
 Températures maximales : en baisse au nord et à l'ouest d'Amiens.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 30/08/2026 06:30
+Emis le : 30/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Beauvais-Tillé : température de 17 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1013 hPa, cumul de précipitations en 12h : 1 mm.
+Aujourd'hui on observait à 09h :
+A Beauvais-Tillé : température de 17 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 30 km/h, pression niveau mer 1014 hPa, cumul de précipitations en 12h : 1 mm.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui dimanche 30 :
 Le matin, les nuages, peu nombreux, laissent passer le soleil. Puis, progressivement, le ciel devient plus gris, et des averses se produisent ici ou là.
-Vent modéré, de Sud-Ouest. Avec, localement, des rafales atteignant 65 km/h, à la tombée du jour.
-Températures maximales : entre 22 et 24 degrés.
+Vent de Sud-Ouest, modéré. Avec, localement, des rafales atteignant 65 km/h, à la tombée du jour.
+Températures maximales : comprises entre 22 et 24 degrés.
 
 • Pour la nuit prochaine :
 En début de soirée, des averses sont possibles ici ou là. Des coups de tonnerre se font même entendre du Beauvaisis à la Picardie verte ainsi que du Valois Multien au Noyonnais. Le risque orageux disparaît rapidement, mais des averses perdurent très localement. En seconde partie de nuit, le temps est sec.
 En fin de nuit, vent s'établissant au Sud-Ouest assez fort, sur le pays de Bray et la Picardie verte. Avec des rafales atteignant 65 km/h.
-Températures minimales : de 14 à 15 degrés.
+Températures minimales : entre 14 et 15 degrés.
 
 • Pour demain lundi 31 en journée et la nuit suivante :
 La journée commence avec de belles éclaircies. Ensuite, des averses peuvent se produire. En fin de journée, le temps redevient sec et le soleil reste bien présent. Pour la nuit : Les éclaircies, déjà belles en soirée, s'élargissent pour nous offrir une seconde partie de nuit quasiment sans nuages. Par endroit le ciel peut être voilé, ternissant l'éclat des étoiles.
-Vent d'Ouest assez fort, jusqu'en milieu d'après-midi ; puis s'atténuant. Rafales atteignant 55 km/h du Vexin français au Plateau Picard.
-Températures maximales pour le jour : de 20 à 23 degrés.
-Températures minimales pour la nuit suivante : entre 10 et 12 degrés.
+Jusqu'en milieu d'après-midi, vent d'Ouest, assez fort ; puis faiblissant. Rafales atteignant 55 km/h du Vexin français au Plateau Picard.
+Températures maximales pour le jour : comprises entre 20 et 23 degrés.
+Températures minimales pour la nuit suivante : de 10 à 12 degrés.
 
 • Pour la journée de mardi 01 septembre et la nuit suivante :
-Le soleil est bien présent malgré des passages nuageux en milieu de journée. Pour la nuit : Le ciel est voilé, mais laisse apparaître les étoiles.
+Le soleil est bien présent malgré des passages nuageux en milieu de journée. Pour la nuit : Le ciel est généralement voilé.
 Jusqu'en milieu d'après-midi, vent d'Ouest soufflant modérément, sur le pays de Bray et la Picardie verte ; puis atténuation.
-Températures maximales pour le jour : comprises entre 20 et 23 degrés.
-Températures minimales pour la nuit suivante : comprises entre 9 et 12 degrés.
+Températures maximales pour le jour : de 20 à 23 degrés.
+Températures minimales pour la nuit suivante : de 9 à 12 degrés.
 
 • Pour la journée de mercredi 02 :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée.
-Vent d'Ouest à Sud-Ouest, modéré.
-Températures maximales : comprises entre 23 et 25 degrés.
+Vent modéré, d'Ouest à Sud-Ouest.
+Températures maximales : entre 23 et 25 degrés.
 
 • Pour jeudi 03 et vendredi 04 :
 Sur le Vexin français et le pays de Thelle ainsi que sur une large moitié Nord du département, temps plutôt ensoleillé, en dépit de quelques passages nuageux, risque de pluie ou d'averses temporaire. Ailleurs, temps le plus souvent ensoleillé.
@@ -252,39 +252,39 @@ Températures minimales : stables.
 Températures maximales : en baisse du Vexin français au Plateau Picard.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 30/08/2026 06:30
+Emis le : 30/08/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Aisne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Aulnoy-sous-Laon : température de 17 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 20 km/h, cumul de précipitations en 12h : 4 mm.
-A Saint-Quentin : température de 16 degrés.
+Aujourd'hui on observait à 09h :
+A Aulnoy-sous-Laon : température de 18 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 25 km/h, cumul de précipitations en 12h : 4 mm.
+A Saint-Quentin : température de 18 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui dimanche 30 :
 Le voile nuageux se déchire en cours de matinée, mais les éclaircies ne durent pas. L'après-midi, le ciel se charge peu à peu, et les nuages apportent quelques averses sur le Laonnois, sur le Soissonnais, sur le Valois ainsi que sur le Vermandois et la Thiérache.
-Vent modéré, de Sud-Ouest. Avec des rafales à 65 km/h, localement, à la tombée du jour.
+Vent de Sud-Ouest, modéré. Avec des rafales à 65 km/h, localement, à la tombée du jour.
 Températures maximales : de 22 à 24 degrés.
 
 • Pour la nuit prochaine :
 En début de soirée, le ciel est variable, et des orages éclatent. Mais rapidement, le temps s'améliore, même si quelques averses perdurent jusqu'à minuit, très localement. En seconde partie de nuit, les étoiles sont souvent visibles.
-Au lever du jour, vent s'établissant au Sud-Ouest assez fort, sur le Tardenois. Avec des rafales atteignant 65 km/h.
-Températures minimales : de 14 à 15 degrés.
+Tôt le matin, vent s'établissant au Sud-Ouest assez fort, sur le Tardenois. Avec des rafales atteignant 65 km/h.
+Températures minimales : comprises entre 14 et 15 degrés.
 
 • Pour demain lundi 31 en journée et la nuit suivante :
 Le ciel variable se partage entre des éclaircies et des passages nuageux porteurs d'averses. En fin de journée, les éclaircies se généralisent. Pour la nuit : Les étoiles brillent dans la nuit, à peine gênées par moments par quelques passages nuageux.
 Vent de Sud-Ouest, généralement assez fort, en milieu de journée ; puis atténuation. Rafales atteignant 55 km/h localement.
-Températures maximales pour le jour : sur les trois quarts Sud du département, ainsi que sur le Vermandois entre 22 et 24 degrés. 20 degrés sur la Thiérache.
+Températures maximales pour le jour : sur les trois quarts Sud du département, ainsi que sur le Vermandois comprises entre 22 et 24 degrés. 20 degrés sur la Thiérache.
 Températures minimales pour la nuit suivante : entre 9 et 12 degrés.
 
 • Pour la journée de mardi 01 septembre et la nuit suivante :
 Le soleil est bien présent malgré des passages nuageux en milieu de journée. Pour la nuit : Après un début de soirée parfaitement dégagé, le ciel se voile.
-Etablissement, en cours d'après-midi, d'un vent d'Ouest modéré, sur la Thiérache ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 21 et 24 degrés.
-Températures minimales pour la nuit suivante : comprises entre 10 et 12 degrés.
+En cours d'après-midi, vent s'établissant à l'Ouest modéré, sur la Thiérache ; puis atténuation.
+Températures maximales pour le jour : entre 21 et 24 degrés.
+Températures minimales pour la nuit suivante : de 10 à 12 degrés.
 
 • Pour la journée de mercredi 02 :
 Le ciel est passagèrement assez nuageux. Les nuages ont tendance à se dissiper l'après-midi, et en fin de journée, le soleil prend le dessus.
@@ -339,12 +339,12 @@ doute d'actualité par la suite
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Nord - Ao&#xFB;t  2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
-• Infoclimat Direct : Sport en vrac...
-• Infoclimat Direct : Suivi du temps en Belgique.
-• Infoclimat Direct : Coups de vent et temp&#xEA;tes - saison 2026/2027
+• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
+• Infoclimat Direct : Médias, exagération, désinformations sur la météo
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Printemps/été 2026 dans les massifs de l'Est
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 30/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -352,21 +352,52 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 30 Août 2026.
-Résumé général HDF précédent : Après un début de semaine 1 instable, amélioration mardi puis chaleur modérée en fin de semaine 1 ; la semaine 2 reste très incertaine, avec un retour probable d’un flux océanique plus frais..
+Résumé général HDF précédent : **  
+Temps de transition vers l'automne. Après un week-end instable et une semaine 1 en amélioration, une nouvelle dégradation est possible en tout début de semaine 2. Les températures, en hausse en fin de semaine 1, devraient ensuite revenir à des normales de saison. L'automne météorologique s'installe.
+
+**[MOST_RELIABLE_WEEK]**  
+La **Semaine 1 (31 Août - 6 Sept)** est de loin la plus fiable. Les bulletins Météo-France détaillés par département et les discussions forum fournissent une base solide. La semaine 2 n'est qu'une esquisse.
+
+**[GLOBAL_SOLID_POINTS]**  
+1. Amélioration du temps en semaine 1 après lundi.  
+2. Un week-end des 5-6 septembre sec et doux.  
+3. Un changement de temps probable en semaine 2, avec un retour à un flux plus océanique et plus frais.
+
+**[GLOBAL_RECURRING_PHENOMENA]**  
+Le **risque d'orages** est un phénomène récurrent en début de période (dimanche soir et lundi), principalement sur les départements du Nord, du Pas-de-Calais et de la Somme (vigilance jaune). La **sécheresse des sols** reste une préoccupation, car les cumuls de pluie seront faibles au global.
+
+**[GLOBAL_AFFECTED_ZONES]**  
+Toute la région Hauts-de-France est concernée. En semaine 1, le **Nord et le Pas-de-Calais** seront les plus exposés aux averses. En semaine 2, la dégradation pourrait toucher toute la région, mais plus particulièrement le littoral.
+
+**[GLOBAL_MAJOR_UNCERTAINTIES]**  
+1. L'intensité du pic de chaleur en fin de semaine 1 (écart possible de 3 à 5°C sur les maximales).  
+2. L'ampleur et le timing de la dégradation en semaine 2.  
+3. La persistance ou non de la sécheresse de surface.
+
+**[GLOBAL_CONSENSUS_KPI]**  
+Modéré
+**[GLOBAL_CONSENSUS_NOTE]**  
+Accord sur le schéma général (amélioration, puis dégradation), mais forte dispersion sur les détails.
+
+**[GLOBAL_SCENARIO_KPI]**  
+Frais et humide (Sem.2)
+**[GLOBAL_SCENARIO_NOTE]**  
+Retour à un temps océanique classique pour un début septembre.
+
+**[GLOBAL_UNCERTAINTY_KPI]**  
+Élevée
+**[GLOBAL_UNCERTAINTY_NOTE]**  
+L'échéance de la semaine 2 est trop lointaine pour être fiable (pas de sujet forum).
+
+**[LINKEDIN_POST]**  
+📅 **Prévisions HDF – 2 semaines** : Après un lundi orageux, retour du calme et du soleil pour mardi. La fin de semaine s'annonce plus douce et sèche. ⚠️ L'automne météorologique débute le 1er septembre et se fera sentir dès la semaine prochaine : retour probable d'un temps plus frais et humide. Incertitudes fortes à cette échéance. Restez connectés ! #Météo #HautsDeFrance #Prévisions #Automne
+
+**.
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses lundi, vent soutenu, éclaircies mardi, chaleur modérée et temps sec vendredi/samedi..
+Températures attendues précédemment : T850 en hausse mais sans excès, pic mieux cerné. Temps sec et ensoleillé pour le week-end sur les HDF..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: TornadeScintillante
-Message:
-il y a 10 minutes, th38 a dit :
-			il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin
-	Je ne suis pas sûr de cette affirmation. La variabilité est probablement plus forte en juin qu'en septembre. 
-								7
-
-=======================
-
 Auteur: Krholam
 Message:
 Les quelques deterministes de ce matin sont un peu plus rassurant je trouve.
@@ -570,7 +601,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 17 heures par AmourDaria
+	Modifié il y a 19 heures par AmourDaria
 								1
 								3
 
@@ -592,7 +623,7 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 14 heures par edel
+	Modifié il y a 16 heures par edel
 								2
 								3
 
@@ -610,21 +641,20 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 10 heures par petit âge glaciaire 11
+	Modifié il y a 12 heures par petit âge glaciaire 11
 Modifié
 								6
-								4
+								5
+
+=======================
+
+Auteur: Matpo
+Message:
+Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
+	Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
+	Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: TornadeScintillante
-Message:
-il y a 10 minutes, th38 a dit :
-			il n'y a donc pas de raison qu'une vague de chaleur début septembre soit plus modérée que mi-juin
-	Je ne suis pas sûr de cette affirmation. La variabilité est probablement plus forte en juin qu'en septembre. 
-								7
-
-=======================
-
 Auteur: Krholam
 Message:
 Les quelques deterministes de ce matin sont un peu plus rassurant je trouve.
@@ -828,7 +858,7 @@ Il y a 15 heures, Krholam a dit :
 			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
 			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
 	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié il y a 17 heures par AmourDaria
+	Modifié il y a 19 heures par AmourDaria
 								1
 								3
 
@@ -850,7 +880,7 @@ Message:
 Il y a 4 heures, Tornado75 a dit :
 			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
 	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié il y a 14 heures par edel
+	Modifié il y a 16 heures par edel
 								2
 								3
 
@@ -868,7 +898,15 @@ Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'au
 	Paris :
 	A voir l'ensemble CEP  à suivre mais je pense qu'il suivra la tendance de ce soir qui confirme les signaux déjà présents depuis quelques runs. 
 	A voir aussi si les températures matinales et des soirées resteront plus raisonnables que cet été enfin de souffler un peu dans les régions concernées. 
-	Modifié il y a 10 heures par petit âge glaciaire 11
+	Modifié il y a 12 heures par petit âge glaciaire 11
 Modifié
 								6
-								4
+								5
+
+=======================
+
+Auteur: Matpo
+Message:
+Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
+	Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
+	Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
