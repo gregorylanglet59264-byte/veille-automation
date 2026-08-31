@@ -333,12 +333,12 @@ du pays, avec une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps &#xE0; Montréal
-• Infoclimat Direct : Prévisions Centre-Ouest - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Recensement des tornades en France
-• Infoclimat Direct : Recensement des tornades en France
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : =30°C consécutives]]>
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Bugs sur Infoclimat #2
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -346,9 +346,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 31 Août 2026.
-Résumé général précédent : Sur 15 jours, temps chaud et sec, avec un épisode de forte chaleur entre le 3 et le 8 septembre, puis baisse progressive mais incertaine, surtout au nord..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pic de chaleur marqué entre jeudi et dimanche, surtout au sud..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -552,6 +552,7 @@ Message:
 Pour une fois que c’es GFS qui n’est pas le plus chaud.
 	Personnellement je trouve que la petite goutte froide a perdu en vigueur sur les derniers runs sur CEP avec par la même une advection chaude revu à la baisse (ça reste très chaud quand même) renforçant le caractère passager de coup de chaud pour une partie nord plus large.
 	Bon par contre le sud....
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: Matpo
@@ -754,3 +755,4 @@ Message:
 Pour une fois que c’es GFS qui n’est pas le plus chaud.
 	Personnellement je trouve que la petite goutte froide a perdu en vigueur sur les derniers runs sur CEP avec par la même une advection chaude revu à la baisse (ça reste très chaud quand même) renforçant le caractère passager de coup de chaud pour une partie nord plus large.
 	Bon par contre le sud....
+								1
