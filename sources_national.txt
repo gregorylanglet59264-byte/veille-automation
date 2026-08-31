@@ -309,7 +309,7 @@ Températures minimales : en baisse sur le Lauragais.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 310405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le lundi 31 août 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 31 août 2026 à 00H00 UTC, et évolution Dépression relative 1014 hPa au large de la Côte d'Azur aujourd'hui, prévue sur la Mer Ligure demain. Hautes pressions 1023 hPa sur le sud-ouest de la France, s'affaissant 1021 hPa demain matin. 3 - Prévisions pour la journée du lundi 31 août VENT : - de Port-Camargue à La Ciotat : Nord-Ouest 3 à 4, fraîchissant Ouest à Nord-Ouest 4 à 5 en milieu de matinée, puis revenant Ouest à Sud-Ouest l'après-midi. - de La Ciotat à Saint-Raphaël : secteur Ouest 4 à 5, fraîchissant 5 à 6 l'après-midi. MER : belle à peu agitée, devenant peu agitée l'après-midi, localement agitée à l'est de La Ciotat. HOULE : temporairement Sud-Ouest 0.5 m le matin de Port-Camargue à Cap Croisette et Sud-Ouest 0.5 à 1 m à l'est de Cap Camarat, non significative ailleurs. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du lundi 31 août au mardi 1 septembre VENT : Ouest à Nord-Ouest 4 à 5, temporairement 6 le soir à l'est de Porquerolles, mollissant localement Nord à Nord-Ouest 2 à 4 au nord du Cap Camarat en fin de nuit. MER : peu agitée, localement agitée en première partie de nuit à l'est de Sicié, s'atténuant belle au nord de Cap Camarat en fin de nuit. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m à l'est de Cap Couronne, mais non significative à l'ouest. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du mardi 1 septembre VENT : - de Port-Camargue au Levant : secteur Nord-Ouest 4 à 5, revenant Ouest à Sud-Ouest l'après-midi. - du Levant à Saint-Raphaël : Nord à Nord-Est 2 à 3, virant Sud à Sud-Est l'après-midi. MER : s'atténuant belle à peu agitée. HOULE : Ouest à Sud-Ouest proche de 0.5 m de Cap Croisette à Cap Camarat, s'amortissant l'après-midi à l'ouest du Levant. TEMPS : ensoleillé, parfois voilé l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 1 au 2 et la journée du mercredi 2 septembre VENT : De Port Camargue à Marseille secteur Ouest 4 à 5, mollissant 2 à 3 en milieu de nuit, puis fraîchissant 4. De Marseille à St Raphaël Ouest à Nord-Ouest 4 à 6. MER : De Port Camargue à Fos mer belle à peu agitée. De Fos à St Raphaël mer belle à peu agitée, mais temporairement agitée de Porquerolles à St Raphaël. HOULE non significative s'établissant localement à l'Ouest à Sud-Ouest 1 à 1,5 m. 7 - Tendance pour les jours suivants Jeudi 3 septembre Secteur Nord faible à modéré. Indice de confiance : 4 sur 5 Vendredi 4 septembre Faible sans direction bien établie. Indice de confiance : 4 sur 5 Samedi 5 septembre Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 Dimanche 6 septembre Secteur Sud faible à modéré. Indice de confiance : 3 sur 5 8 - Observations le lundi 31 août 2026 à 03H00 UTC Cap Camarat : vent Ouest-Sud-Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 14 noeuds. Porquerolles : vent Ouest 16 noeuds. Cap Couronne : vent Ouest 4 noeuds. Prochain bulletin le lundi 31 août 2026, vers 13H00 légales
+FQCT40 LFML 310945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le lundi 31 août 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 31 août 2026 à 06H00 UTC, et évolution Anticyclone 1023 hPa sur le sud-ouest de la France. Dépression relative 1014 hPa sur la Mer Ligure. 3 - Prévisions pour l'après-midi du lundi 31 août VENT : secteur Ouest 4 à 5, fraîchissant localement 5 à 6 de La Ciotat à Saint-Raphaël. Rafales. MER : devenant peu agitée, localement agitée à l'est du Cap Croisette. HOULE : non significative, localement Sud-Ouest 0.5 à 1 m à l'est du Cap Camarat. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du lundi 31 août au mardi 1 septembre VENT : virant Ouest à Nord-Ouest 4 à 5, temporairement 6 à l'est de Sicié au début, puis mollissant localement Variable 1 à 3 à l'est du Cap Camarat à la fin. MER : peu agitée, parfois agitée à l'est de Sicié le soir, s'atténuant belle au nord de Cap Camarat à la fin. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m à l'est de Cap Couronne, non significative ailleurs. TEMPS : clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du mardi 1 septembre VENT : - de Port-Camargue au Levant : secteur Nord-Ouest 4 à 5, revenant Ouest à Sud-Ouest l'après-midi. - du Levant à Saint-Raphaël : Variable 1 à 3, fraîchissant secteur Sud 2 à 4 l'après-midi. MER : belle à peu agitée. HOULE : Ouest à Sud-Ouest proche de 0.5 m du Cap Croisette au Cap Camarat, s'amortissant progressivement. TEMPS : ensoleillé, parfois voilé l'après-midi. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 1 au 2 et la journée du mercredi 2 septembre VENT : secteur Ouest 2 à 4, parfois 5 le soir, fraîchissant progressivement 4 à 6 d'ouest en est en journée. MER : belle à peu agitée, parfois agitée le soir. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 2 au 3 et la journée du jeudi 3 septembre VENT : De Port Camargue à Fos Ouest à Nord-Ouest 3 à 5, virant temporairement Nord en cours de matinée. De Fos à Porquerolles Ouest à Nord-Ouest 4 à 5, fraîchissant 5 à 6 en seconde partie de nuit, puis mollissant 2 à 3 en cours de matinée. De Porquerolles à St Raphaël Ouest 6 virant Est à Nord-Est 3 à 4 en cours de matinée. MER : peu agitée à agitée, devenant localement et temporairement belle en début de nuit. HOULE : De Port Camargue à Fos houle dominante de Nord à Nord-Est 0,5 à 1 m. De Fos à St Raphaël houle de secteur Ouest inférieure à 1,5 m, s'orientant en cours de matinée à l'Ouest à Nord-Ouest. 8 - Tendance pour les jours suivants Vendredi 4 septembre Variable faible. Indice de confiance : 4 sur 5 Samedi 5 septembre Variable faible. Indice de confiance : 4 sur 5 Dimanche 6 septembre Variable faible. Indice de confiance : 3 sur 5 Lundi 7 septembre Variable faible Indice de confiance : 3 sur 5 9 - Observations le lundi 31 août 2026 à 09H00 UTC Cap Camarat : vent Sud-Sud-Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 4 noeuds. Porquerolles : vent Ouest 4 noeuds, rafales 14 noeuds. Cap Couronne : vent Ouest-Nord-Ouest 10 noeuds. Prochain bulletin le lundi 31 août 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -336,11 +336,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Carte des cumuls de précipitations... sur l'année!
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
 • Infoclimat Direct : Tendance hiver 2026-2027
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
-• Infoclimat Direct : Tendance hiver 2026-2027
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -348,57 +347,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 31 Août 2026.
-Résumé général précédent : Persistance d'un temps très chaud et sec sur une grande partie de la France, avec un pic remarquable les 4-6 septembre et une lente baisse ensuite, sans retour à des valeurs de saison avant au moins le 13 septembre..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Forte chaleur, orages isolés possibles en fin de période, sécheresse..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Albigeois-du-30
-Message:
-il y a 30 minutes, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	Une façon très simple de te rendre compte de la situation Méditerranéenne : va sur le forum court terme des régions Méditerranéennes et au nombre de messages postés tu percevras assez rapidement l’inéquation entre ce paramètre de température maritime et la réalité météorologique. On a eu une belle opportunité qui a d’ailleurs engendré cette tornade dans l’Aude mais ça n’a pas encore creusé en Méditerranée. Désormais calme plat. Je te ferai observer également un autre phénomène qui joue parfois contre nous le Medicane ou bien encore certains orages tropicaux qui restent en mer et dissipe une énergie considérable sans conséquences dans nos régions. Bref les exemples contradictoires sont légion. Et comme dit précédemment un creusement dans le golfe de gêne est c’est mistral des jours durants.
-	Pour synthétiser on observe les creusements dans les Baléares et si El Nino devait favoriser par exemple une accumulation de haut geopotentiels par là-bas alors ce sera un non Automne bien plus significatif que la seule canicule marine 
-								2
-								1
-
-=======================
-
-Auteur: AmourDaria
-Message:
-Il y a 15 heures, Krholam a dit :
-			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
-			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
-	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié samedi à 12:30 par AmourDaria
-								1
-								3
-
-=======================
-
-Auteur: serge26
-Message:
-Il y a 2 heures, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	rien à voir effectivement. Pour avoir des épisodes de fortes pluies en méditerranée, il faut en 1er lieu que la synoptique s'y prete.
-	Et seulement dans ce cas, alors oui, une mer chaude sera un catalyseur pour avoir des precipitations plus intenses
-								2
-								1
-
-=======================
-
-Auteur: edel
-Message:
-Il y a 4 heures, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié samedi à 15:57 par edel
-								3
-								4
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'auberge avec cet horrible été caniculaire qui va revenir (mais est-il vraiment parti depuis juin ?) et reprendre de la vigueur tout ce topic et même sans doute au début du prochain. 
@@ -470,7 +424,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 21 heures par petit âge glaciaire 11
+	Modifié il y a 23 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -503,7 +457,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 21 heures par giec 2100
+	Modifié il y a 23 heures par giec 2100
 								4
 								1
 
@@ -579,53 +533,39 @@ le supplice de Tantale version CEP version IA, run 12h : 
 	no future comme on disait dans l'une des branches des lointains ancêtres des Amish (!)...
 								2
 								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Se dirige-t-on vers un dégradé Nord-Sud ? Pour le Nord, il ne s'agirait que d'un coup de chaud temporaire. Je ne vois pas de vague de chaleur ni de canicule pour cette partie de la France. Mais, peut-être que je me trompe complètement...
+
+=======================
+
+Auteur: Tornado75
+Message:
+Gfs toujours en décalage complet par rapport aux autres modèles pour ce weekend. Bizarre à suivre.
+	Ukmo cep gem sont brûlants avec de nombreux records encore battus pour septembre
+
+=======================
+
+Auteur: nickdu77
+Message:
+Pour le moment, sur GFS, on a une pointe à 16° à 850 hPa le 7-8 septembre
+	et 18° à 850 hPa sur GEM : 
+	Et AIFS donne en températures au sol : 
+	Et on voit bien cette forme en dos de chameau où on a une première poussée vers le 3-4 septembre, pause fraîcheur le 5 puis reprise du coup de chaud à partir du 6 ... Les températures au sol annoncées ne sont pas excessives pour la moitié nord. On resterait assez loin des records (entre 33,9°C et 36,2°C pour cette période à Paris) même si quelques scénarios s'en approchent. C'est encore à affiner mais en toute hypothèse, on est sur des valeurs déjà assez remarquables pour la saison. Pour le sud, par contre, ça s'annonce vraiment compliqué (je compatis très sincèrement, courage à vous) et puis ... il y en a ras-le-bol de cet été interminable. On a eu des canicules exceptionnelles (et c'est pas encore terminé au moins pour le sud), une sécheresse record (pas encore finie), des méga-feux, une éclipse et une tornade qui a ravagé plusieurs communes. On pourrait peut-être faire une pause maintenant...
+	Si on me demande, je vote pour un flux d'ONO tranquille avec un petit arrosage régulier.
+								1
+
+=======================
+
+Auteur: Hassan
+Message:
+Gfs ne voit effectivement pas de grosses chaleurs, ni son run de contrôle avec un flux zonal anticyclonique et un dégradé nord sud dans une ambiance sèche.
+	Température au dessus des normales mais sans excès
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: Albigeois-du-30
-Message:
-il y a 30 minutes, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	Une façon très simple de te rendre compte de la situation Méditerranéenne : va sur le forum court terme des régions Méditerranéennes et au nombre de messages postés tu percevras assez rapidement l’inéquation entre ce paramètre de température maritime et la réalité météorologique. On a eu une belle opportunité qui a d’ailleurs engendré cette tornade dans l’Aude mais ça n’a pas encore creusé en Méditerranée. Désormais calme plat. Je te ferai observer également un autre phénomène qui joue parfois contre nous le Medicane ou bien encore certains orages tropicaux qui restent en mer et dissipe une énergie considérable sans conséquences dans nos régions. Bref les exemples contradictoires sont légion. Et comme dit précédemment un creusement dans le golfe de gêne est c’est mistral des jours durants.
-	Pour synthétiser on observe les creusements dans les Baléares et si El Nino devait favoriser par exemple une accumulation de haut geopotentiels par là-bas alors ce sera un non Automne bien plus significatif que la seule canicule marine 
-								2
-								1
-
-=======================
-
-Auteur: AmourDaria
-Message:
-Il y a 15 heures, Krholam a dit :
-			Je ne suis pas aussi sur que toi concernant les 30⁰C coté Seine. On serait quand même plus proche du Jetstream qui aura repris pas mal de vigueur et le gradient de pression penche en faveur d’un flux plus maritime au nord.
-			Ça n’enleve rien au coup de chaud pour le sud et au ressenti très estival au nord. Mais je pense qu’il est un peu tot pour dire que l’on va s’approcher des records mensuels.
-	bof ... au nord de la Loire je ne vois rien d' estival. Meme pas dit qu'il fera tres beau en marge du courant d'ouest sur les iles britanniques, je vois déja fleurir des 30 degres sur les sites de guillaume sechet et d autres applis (en mode putaclic)  ils pourront les remballer , je parle pour Paris et tout le Nord. En plus on est loin de voir une bonne tenue de l anticyclone qui pourrait vite s'affaler et on le regrettera pas , pour Paris il y aura des pointes a 27 entre 2 paquets nuageux ou sous un epais voile 
-	Modifié samedi à 12:30 par AmourDaria
-								1
-								3
-
-=======================
-
-Auteur: serge26
-Message:
-Il y a 2 heures, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	rien à voir effectivement. Pour avoir des épisodes de fortes pluies en méditerranée, il faut en 1er lieu que la synoptique s'y prete.
-	Et seulement dans ce cas, alors oui, une mer chaude sera un catalyseur pour avoir des precipitations plus intenses
-								2
-								1
-
-=======================
-
-Auteur: edel
-Message:
-Il y a 4 heures, Tornado75 a dit :
-			Excusez moi question un peu HS mais la fournaise de cet été ne devait pas favoriser des inondations en Méditerranée notamment à cause de la mer chaude? Je crois que c'est plutôt un mythe non?
-	Pour répondre directement et synthétiquement à la question, oui, le temps anormalement chaud de cet été favorisera des inondations (via des épisodes de pluies intenses) SI ET SEULEMENT SI la circulation atmosphérique induit la formation d'épisodes méditerranéens.
-	Modifié samedi à 15:57 par edel
-								3
-								4
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Dans le sud, que ça soit le sud-est ou le sud-ouest,  on est pas sorti de l'auberge avec cet horrible été caniculaire qui va revenir (mais est-il vraiment parti depuis juin ?) et reprendre de la vigueur tout ce topic et même sans doute au début du prochain. 
@@ -697,7 +637,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 21 heures par petit âge glaciaire 11
+	Modifié il y a 23 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -730,7 +670,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 21 heures par giec 2100
+	Modifié il y a 23 heures par giec 2100
 								4
 								1
 
@@ -806,3 +746,34 @@ le supplice de Tantale version CEP version IA, run 12h : 
 	no future comme on disait dans l'une des branches des lointains ancêtres des Amish (!)...
 								2
 								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Se dirige-t-on vers un dégradé Nord-Sud ? Pour le Nord, il ne s'agirait que d'un coup de chaud temporaire. Je ne vois pas de vague de chaleur ni de canicule pour cette partie de la France. Mais, peut-être que je me trompe complètement...
+
+=======================
+
+Auteur: Tornado75
+Message:
+Gfs toujours en décalage complet par rapport aux autres modèles pour ce weekend. Bizarre à suivre.
+	Ukmo cep gem sont brûlants avec de nombreux records encore battus pour septembre
+
+=======================
+
+Auteur: nickdu77
+Message:
+Pour le moment, sur GFS, on a une pointe à 16° à 850 hPa le 7-8 septembre
+	et 18° à 850 hPa sur GEM : 
+	Et AIFS donne en températures au sol : 
+	Et on voit bien cette forme en dos de chameau où on a une première poussée vers le 3-4 septembre, pause fraîcheur le 5 puis reprise du coup de chaud à partir du 6 ... Les températures au sol annoncées ne sont pas excessives pour la moitié nord. On resterait assez loin des records (entre 33,9°C et 36,2°C pour cette période à Paris) même si quelques scénarios s'en approchent. C'est encore à affiner mais en toute hypothèse, on est sur des valeurs déjà assez remarquables pour la saison. Pour le sud, par contre, ça s'annonce vraiment compliqué (je compatis très sincèrement, courage à vous) et puis ... il y en a ras-le-bol de cet été interminable. On a eu des canicules exceptionnelles (et c'est pas encore terminé au moins pour le sud), une sécheresse record (pas encore finie), des méga-feux, une éclipse et une tornade qui a ravagé plusieurs communes. On pourrait peut-être faire une pause maintenant...
+	Si on me demande, je vote pour un flux d'ONO tranquille avec un petit arrosage régulier.
+								1
+
+=======================
+
+Auteur: Hassan
+Message:
+Gfs ne voit effectivement pas de grosses chaleurs, ni son run de contrôle avec un flux zonal anticyclonique et un dégradé nord sud dans une ambiance sèche.
+	Température au dessus des normales mais sans excès
