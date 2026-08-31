@@ -303,12 +303,12 @@ du pays, avec une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Recensement des tornades en France
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps aux Etats-Unis.
+• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
+• Infoclimat Direct : Le jeu de l'été saison 2026 !
+• Infoclimat Direct : Hivernophiles : la variabilité naturelle peut-elle sauver la passion ?
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -316,23 +316,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 31 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Temps estival se poursuivant au moins jusqu’au 7-8 septembre, puis hésitation entre maintien de la chaleur et dégradation progressive. Températures au-dessus des normales sur l’ensemble de la période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Temps sec et assez chaud en fin de semaine, sans excès sur les Hauts-de-France..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Matpo
-Message:
-Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
-	Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
-	Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
-								5
-								1
-								1
-
-=======================
-
 Auteur: Coriolis75
 Message:
 il y a 25 minutes, Matpo a dit :
@@ -524,19 +513,15 @@ Pour une fois que c’es GFS qui n’est pas le plus chaud.
 	Bon par contre le sud....
 								1
 								1
+
+=======================
+
+Auteur: djoss
+Message:
++8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
+								13
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: Matpo
-Message:
-Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
-	Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
-	Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
-								5
-								1
-								1
-
-=======================
-
 Auteur: Coriolis75
 Message:
 il y a 25 minutes, Matpo a dit :
@@ -728,3 +713,10 @@ Pour une fois que c’es GFS qui n’est pas le plus chaud.
 	Bon par contre le sud....
 								1
 								1
+
+=======================
+
+Auteur: djoss
+Message:
++8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
+								13
