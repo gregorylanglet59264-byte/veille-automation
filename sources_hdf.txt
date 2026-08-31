@@ -311,12 +311,12 @@ une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps en Belgique.
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest Aout 2026
 • Infoclimat Direct : Printemps - &#xC9;té 2026 dans les Alpes
 • Infoclimat Direct : Suivi du temps en &#xCE;le de France - Ao&#xFB;t 2026
-• Infoclimat Direct : Inondations Népal
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -324,9 +324,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 31 Août 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Deux semaines contrastées : la semaine 1 est bien cernée avec un passage pluvio-orageux lundi, une amélioration nette dès mardi, puis un retour de conditions plus chaudes et estivales en fin de semaine. La semaine 2 reste très incertaine, avec un possible maintien de la chaleur en début de période suivi d'une baisse progressive, à confirmer..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Averses orageuses lundi matin, vent assez fort (rafales 75 km/h), éclaircies ensuite. (75 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -446,7 +446,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -479,7 +479,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								4
 								1
 
@@ -553,7 +553,7 @@ Message:
 le supplice de Tantale version CEP version IA, run 12h : 
 	un manège alléchant de minimums qui tournicotent au-dessus de nos têtes, jusqu'à une date avancée du prochain topic, toujours à distance respectueuse de l'Hexagone, avec sans cesse Cerbère l'anticyclone açorien comme infecte gardien de l'enfer inhabituel de 2026...
 	no future comme on disait dans l'une des branches des lointains ancêtres des Amish (!)...
-								1
+								2
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -673,7 +673,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -706,7 +706,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								4
 								1
 
@@ -780,5 +780,5 @@ Message:
 le supplice de Tantale version CEP version IA, run 12h : 
 	un manège alléchant de minimums qui tournicotent au-dessus de nos têtes, jusqu'à une date avancée du prochain topic, toujours à distance respectueuse de l'Hexagone, avec sans cesse Cerbère l'anticyclone açorien comme infecte gardien de l'enfer inhabituel de 2026...
 	no future comme on disait dans l'une des branches des lointains ancêtres des Amish (!)...
-								1
+								2
 								1
