@@ -303,12 +303,12 @@ du pays, avec une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps aux Etats-Unis.
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Prévisions Centre-Est Aout 2026
 • Infoclimat Direct : Le jeu de l'été saison 2026 !
-• Infoclimat Direct : Hivernophiles : la variabilité naturelle peut-elle sauver la passion ?
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Vigilance Météo France
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - ao&#xFB;t 2026
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -316,23 +316,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 31 Août 2026.
-Résumé général HDF précédent : Temps estival se poursuivant au moins jusqu’au 7-8 septembre, puis hésitation entre maintien de la chaleur et dégradation progressive. Températures au-dessus des normales sur l’ensemble de la période..
+Résumé général HDF précédent : Tendance à un temps estival se poursuivant au moins jusqu'au 7-8 septembre, puis hésitation entre maintien de la chaleur et dégradation progressive. Températures au-dessus des normales sur l'ensemble de la période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et assez chaud en fin de semaine, sans excès sur les Hauts-de-France..
+Températures attendues précédemment : Coup de chaleur vendredi-dimanche, températures 26-29°C possibles sur les terres HDF, ciel sec et ensoleillé. (116 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
-Auteur: Coriolis75
-Message:
-il y a 25 minutes, Matpo a dit :
-			Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
-			Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
-			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
-	Oui 2023, il avait fait localement 35°C en région toulousaine le 1er octobre (35.3°C à Lavaur). Sachant ça 39-40 voire plus sont tout à fait possible début septembre.
-								2
-
-=======================
-
 Auteur: MidiPy
 Message:
 Si les prévisions restent en l'état, il faut s'attendre à de nombreux records mensuels battus dans la moitié sud. La Txm est de 35,3° à Blagnac, et le coup de chaud du 4/5/6 risque de n'en faire qu'une bouchée... 
@@ -519,20 +508,18 @@ Pour une fois que c’es GFS qui n’est pas le plus chaud.
 Auteur: djoss
 Message:
 +8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
-								13
+								2
+								17
+
+=======================
+
+Auteur: Turquoise_ExNico41
+Message:
+Il y a 2 heures, djoss a dit :
+			+8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
+	Honnêtement cela ne m'étonne pas plus que ça. Cependant il y a quelques jours j'avais entendu un bulletin météo la semaine dernière avec 28 degrés à 1800m dans les Alpes (ce qui est inquiétant est vraiment remarquable). En estimant une baisse de 0,65 degrés tous les 100 m, cela ferait presque 14 degrés à 4000m.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: Coriolis75
-Message:
-il y a 25 minutes, Matpo a dit :
-			Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
-			Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
-			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
-	Oui 2023, il avait fait localement 35°C en région toulousaine le 1er octobre (35.3°C à Lavaur). Sachant ça 39-40 voire plus sont tout à fait possible début septembre.
-								2
-
-=======================
-
 Auteur: MidiPy
 Message:
 Si les prévisions restent en l'état, il faut s'attendre à de nombreux records mensuels battus dans la moitié sud. La Txm est de 35,3° à Blagnac, et le coup de chaud du 4/5/6 risque de n'en faire qu'une bouchée... 
@@ -719,4 +706,13 @@ Pour une fois que c’es GFS qui n’est pas le plus chaud.
 Auteur: djoss
 Message:
 +8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
-								13
+								2
+								17
+
+=======================
+
+Auteur: Turquoise_ExNico41
+Message:
+Il y a 2 heures, djoss a dit :
+			+8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
+	Honnêtement cela ne m'étonne pas plus que ça. Cependant il y a quelques jours j'avais entendu un bulletin météo la semaine dernière avec 28 degrés à 1800m dans les Alpes (ce qui est inquiétant est vraiment remarquable). En estimant une baisse de 0,65 degrés tous les 100 m, cela ferait presque 14 degrés à 4000m.
