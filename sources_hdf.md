@@ -303,12 +303,12 @@ du pays, avec une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest. Aout 2026.
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Ao&#xFB;t 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Ouest  Ao&#xFB;t 2026
-• Infoclimat Direct : Bugs sur Infoclimat #2
+• Infoclimat Direct : Recensement des tornades en France
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes -Aout 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Ao&#xFB;t 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est  - Ao&#xFB;t 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 31/08/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -316,9 +316,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 31 Août 2026.
-Résumé général HDF précédent : Tendance à un temps chaud et sec pour les deux semaines, avec un pic de chaleur en début de période, puis une baisse progressive en deuxième semaine. Les Hauts-de-France resteront en dessous des seuils de canicule, mais avec un excédent thermique notable..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses orageuses lundi, puis éclaircies ; jeudi risque d'averses ; week-end plus stable et chaud..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
