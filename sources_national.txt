@@ -321,83 +321,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Dimanche 30 Août 2026.
-Résumé général précédent : **Du 31 août au 13 septembre :** Poursuite d'un temps estival, chaud et sec sur la majeure partie de la France, avec un pic de chaleur très marqué du 4 au 7 septembre. Une possible baisse progressive des températures en seconde semaine, mais sans retour à des conditions fraîches ou pluvieuses.
-
-### [MOST_RELIABLE_WEEK]
-La **semaine 1** est plus fiable, avec un scénario de chaleur intense bien documenté, malgré des divergences sur l'intensité. La **semaine 2** reste très incertaine.
-
-### [GLOBAL_SOLID_POINTS]
-1. **Pic de chaleur quasi certain** du vendredi 4 au dimanche 6 septembre.
-2. **Temps sec et ensoleillé** sur l'ensemble du pays, absence de précipitations significatives.
-3. **Chaleur durable** sur le sud-est et la méditerranée, avec des maximales supérieures aux normales.
-
-### [GLOBAL_RECURRING_PHENOMENA]
-- **Fortes chaleurs** récurrentes sur le sud de la France.
-- **Sécheresse** des sols, avec un déficit hydrique persistant.
-- **Orages** localisés sur les reliefs (Pyrénées, Massif Central) en fin de semaine 2.
-
-### [GLOBAL_AFFECTED_ZONES]
-Principalement : sud-ouest, sud-est, centre, méditerranée. Secondairement : ouest atlantique et nord (pic modéré).
-
-### [GLOBAL_MAJOR_UNCERTAINTIES]
-1. **Intensité maximale** de la chaleur (35 vs 40°C).
-2. **Durée** de l'épisode chaud et date de la baisse.
-3. **Évolution de la semaine 2** : persistance ou dégradation.
-
-### [GLOBAL_CONSENSUS_KPI]
-Modéré
-### [GLOBAL_CONSENSUS_NOTE]
-Consensus sur le coup de chaud, mais divergence sur son intensité et sa durée.
-
-### [GLOBAL_SCENARIO_KPI]
-Scénario très chaud
-### [GLOBAL_SCENARIO_NOTE]
-Deux scénarios possibles : chaleur extrême et brève (CEP/UKMO) ou chaleur plus modérée (GFS/ICON).
-
-### [GLOBAL_UNCERTAINTY_KPI]
-Élevée
-### [GLOBAL_UNCERTAINTY_NOTE]
-Incertitude majeure sur la semaine 2 et sur les valeurs maximales.
-
----
-
-### [LINKEDIN_POST]
-🌡️ **Septembre démarre comme un été !** 
-
-Après un été exceptionnellement chaud, la France connaît un nouveau coup de chaleur marqué cette semaine. D'ici vendredi, les températures pourraient dépasser 35°C dans le sud, avec localement 40°C possibles. Les records mensuels sont menacés.
-
-Mais attention, les modèles divergent encore : certains prévoient une chaleur extrême et brève, d'autres plus modérée. Le sud-est devrait rester très chaud durablement.
-
-La semaine suivante, l'incertitude est encore plus forte. Retour à la normale ou poursuite de la fournaise ? Les prochains jours seront décisifs.
-
-Restez prudents et suivez les conseils des autorités locales.
-
-#météo #prévisions #canicule #chaleur #septembre #france
-
----
-
-##.
+Dernier bulletin généré le Lundi 31 Août 2026.
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pic de chaleur intense de vendredi à dimanche, avec des températures dépassant largement les normales.
-#### [W1_MODEL_AFFECTED_ZONES]
-Sud-ouest, sud-est, centre-est, méditerranée.
-#### [W1_MODEL_EXTRACTION_CONF]
-Élevée (85%)
-#### [W1_MODEL_SCENARIO_SUPPORT]
-Intermédiaire (soutenu par UKMO, contredit par GFS/ICON)
-#### [W1_MODEL_STATUS]
-Documenté
-#### [W1_MODEL_MENTIONS_COUNT]
-7 mentions directes
-#### [W1_MODEL_RUN]
-Runs cités : 00Z, 12Z
-#### [W1_MODEL_TIMING]
-Pic de chaleur du 4 au 6 septembre, avec une possible prolongation au début de la semaine suivante.
-#### [W1_MODEL_DETAILS]
-Le CEP est particulièrement énergique sur le scénario chaud, avec une moyenne d'ensemble à 850 hPa dépassant 20°C sur une grande partie du sud. Il suggère une remontée des hauts géopotentiels depuis l'Afrique du Nord vers l'Espagne et le sud de la France d'ici vendredi. Toutefois, ce scénario est en partie contredit par GFS et ICON qui limitent les fortes chaleurs à l'arc méditerranéen.
-
-####.
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -517,7 +444,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 13 heures par petit âge glaciaire 11
+	Modifié il y a 15 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -550,7 +477,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 13 heures par giec 2100
+	Modifié il y a 15 heures par giec 2100
 								4
 								1
 
@@ -744,7 +671,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 13 heures par petit âge glaciaire 11
+	Modifié il y a 15 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -777,7 +704,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 13 heures par giec 2100
+	Modifié il y a 15 heures par giec 2100
 								4
 								1
 

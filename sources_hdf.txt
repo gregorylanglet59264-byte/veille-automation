@@ -323,10 +323,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Dimanche 30 Août 2026.
-Résumé général HDF précédent : Après un début de semaine 1 perturbé avec averses orageuses et vent fort, amélioration nette dès mardi. Hausse des températures en fin de semaine 1, avec un week-end sec et ensoleillé. La semaine 2 débutera sur un temps variable mais doux, avant une incertitude marquée pour la fin de période..
+Dernier bulletin HDF généré le Lundi 31 Août 2026.
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé, températures pouvant atteindre localement 30°C en HDF, mais incertitude..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 31 Août au Dimanche 6 Septembre 2026) ===
@@ -446,7 +446,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 13 heures par petit âge glaciaire 11
+	Modifié il y a 15 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -479,7 +479,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 13 heures par giec 2100
+	Modifié il y a 15 heures par giec 2100
 								4
 								1
 
@@ -673,7 +673,7 @@ Oui cela se précise maintenant avec certainement un pic de chaleur entre les de
 	Temperatures moyennes vendredi et samedi pour CEP  vendredi et samedi a 14h:
 	Ce sont des moyennes donc il est tout a fait envisageable que la ligne des 20 degrés à 850hpa remonte plus au nord du pays.
 	Même si nous serons début septembre les 35 degrés seront sans doute atteints voire dépassés dans pratiquement toute le moitié sud  de la France et sur plusieurs jours notamment dans les régions méditerranéennes. 
-	Modifié il y a 13 heures par petit âge glaciaire 11
+	Modifié il y a 15 heures par petit âge glaciaire 11
 								3
 								1
 								1
@@ -706,7 +706,7 @@ Il y a 2 heures, Matpo a dit :
 			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
 	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
 	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié il y a 13 heures par giec 2100
+	Modifié il y a 15 heures par giec 2100
 								4
 								1
 
