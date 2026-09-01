@@ -15,43 +15,43 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 01/09/2026 06:30
+Emis le : 01/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Nord est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Lille-Lesquin : température de 15 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1019 hPa.
-A Dunkerque : température de 19 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 09h :
+A Lille-Lesquin : température de 16 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1020 hPa.
+A Dunkerque : température de 18 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 20 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui mardi 01 septembre :
-Le ciel est nuageux le matin, et quelques gouttes se produisent, sur l'Avesnois. L'après-midi, le temps est sec, des éclaircies se forment, parfois belles, mais des nuages persistent.
-Vent d'Ouest, généralement modéré.
+De nombreux nuages envahissent le ciel en début de journée. Avec l'évolution diurne, ils se déchirent et prennent un caractère instable. Dans le ciel changeant de la fin de matinée, de rares averses sont possibles, sur l'Avesnois. S'ensuit un ciel d'éclaircies.
+Vent généralement modéré, d'Ouest.
 Températures maximales : 21 degrés.
 
 • Pour la nuit prochaine :
 Le ciel est souvent voilé en soirée, mais en seconde partie de nuit étoiles et nuages se partagent le ciel.
-Vent faible, variable.
+Vent variable, faible.
 Températures minimales : dans l'intérieur de 9 à 12 degrés. 15 degrés en Flandre maritime.
 
 • Pour demain mercredi 02 en journée et la nuit suivante :
 Les nuages et les éclaircies se partagent le ciel, qui se dégage en fin de journée. Pour la nuit : En soirée, le ciel est limpide, mais une dégradation nuageuse arrive déjà en début de nuit, en Flandre maritime. Pour l'aurore, les dernières éclaircies résistent, sur l'Avesnois, le Valenciennois et le Cambrésis.
 Vent modéré, d'Ouest à Sud-Ouest.
-Températures maximales pour le jour : comprises entre 22 et 23 degrés.
-Températures minimales pour la nuit suivante : dans l'intérieur entre 13 et 16 degrés. 18 degrés en Flandre maritime.
+Températures maximales pour le jour : entre 22 et 23 degrés.
+Températures minimales pour la nuit suivante : dans l'intérieur de 13 à 16 degrés. 18 degrés en Flandre maritime.
 
 • Pour la journée de jeudi 03 et la nuit suivante :
 Les nuages sont nombreux en début de journée. Puis le soleil nous offre une luminosité honorable, malgré des passages nuageux plus ou moins fréquents. Pour la nuit : La soirée est sans nuages. Les premiers se développent à partir de minuit. Le temps devient variable en seconde partie de nuit.
-Jusqu'en milieu d'après-midi, vent d'Ouest à Sud-Ouest soufflant assez fort, en Flandre maritime ; puis atténuation. Rafales atteignant 65 km/h.
-Températures maximales pour le jour : de 23 à 25 degrés.
+Jusqu'en milieu d'après-midi, vent d'Ouest à Sud-Ouest assez fort, en Flandre maritime ; atténuation ensuite. Rafales atteignant 65 km/h.
+Températures maximales pour le jour : entre 23 et 25 degrés.
 Températures minimales pour la nuit suivante : comprises entre 16 et 19 degrés.
 
 • Pour la journée de vendredi 04 :
 Les nuages nombreux en début de journée vont peu à peu laisser place au soleil qui s'impose en fin d'après-midi.
-Jusqu'en milieu d'après-midi, vent d'Ouest à Sud-Ouest assez fort, en Flandre maritime ; atténuation ensuite. Rafales atteignant 65 km/h.
+Jusqu'en milieu d'après-midi, vent d'Ouest à Sud-Ouest soufflant assez fort, en Flandre maritime ; puis atténuation. Rafales atteignant 65 km/h.
 Températures maximales : de 23 à 25 degrés.
 
 • Pour samedi 05 et dimanche 06 :
@@ -73,44 +73,44 @@ Températures minimales : en baisse dans l'intérieur.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 01/09/2026 06:30
+Emis le : 01/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Pas-de-Calais est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Arras : température de 14 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 15 km/h.
-A Boulogne-Sémaphore : température de 17 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 09h :
+A Arras : température de 15 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 15 km/h.
+A Boulogne-Sémaphore : température de 17 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 15 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui mardi 01 septembre :
 Déjà bien présent en matinée, le soleil est de plus en plus généreux l'après-midi.
 Vent modéré, d'Ouest à Sud-Ouest.
-Températures maximales : comprises entre 20 et 22 degrés.
+Températures maximales : entre 20 et 22 degrés.
 
 • Pour la nuit prochaine :
 Le ciel est souvent voilé en soirée, mais en seconde partie de nuit étoiles et nuages se partagent le ciel.
 En deuxième partie de nuit, vent s'orientant au Sud-Ouest modéré, sur les côtes de la Manche ; atténuation ensuite.
-Températures minimales : de 11 à 13 degrés.
+Températures minimales : entre 11 et 13 degrés.
 
 • Pour demain mercredi 02 en journée et la nuit suivante :
 En début de journée, le ciel est bien nuageux. Mais rapidement, les nuages se morcellent, et en fin de journée, le soleil prend le dessus. Pour la nuit : La nuit est souvent bien étoilée. Toutefois, les nuages deviennent plus nombreux, sur les côtes de la Manche ainsi que sur les reliefs de l'Artois, et quelques averses sont alors possibles en fin de nuit.
-Vent d'Ouest-Sud-Ouest modéré à assez fort, sur le littoral, s'atténuant temporairement en milieu de période. Rafales atteignant 55 km/h, en milieu d'après-midi.
-Températures maximales pour le jour : comprises entre 21 et 23 degrés.
-Températures minimales pour la nuit suivante : entre 15 et 18 degrés.
+Vent d'Ouest-Sud-Ouest temporairement modéré à assez fort, sur le littoral. Rafales atteignant 55 km/h, en milieu d'après-midi.
+Températures maximales pour le jour : de 21 à 23 degrés.
+Températures minimales pour la nuit suivante : de 15 à 18 degrés.
 
 • Pour la journée de jeudi 03 et la nuit suivante :
 Tôt le matin, quelques gouttes sont possibles sur les côtes de la Manche ainsi que sur les reliefs de l'Artois. Puis le reste de la journée se passe sous un ciel un peu nuageux, plus ou moins lumineux selon le moment. Pour la nuit : Les éclaircies sont belles. Seul bémol, des nuages et quelques gouttes sont possibles sur les côtes de la Manche en fin de nuit.
 En journée et début de nuit, vent d'Ouest assez fort, sur les trois quarts Ouest du département ; atténuation ensuite. Rafales atteignant 65 km/h.
-Températures maximales pour le jour : de 21 à 23 degrés.
-Températures minimales pour la nuit suivante : comprises entre 16 et 18 degrés.
+Températures maximales pour le jour : comprises entre 21 et 23 degrés.
+Températures minimales pour la nuit suivante : entre 16 et 18 degrés.
 
 • Pour la journée de vendredi 04 :
 Toute la journée, de belles éclaircies occupent le ciel. Cependant, en début d'après-midi, des nuages bourgeonnent, sur le Haut-Artois, et peuvent laisser tomber quelques gouttes. La fin de journée est de nouveau sèche.
 Vent d'Ouest assez fort, du Haut Artois au littoral. Rafales atteignant 55 km/h, en journée.
-Températures maximales : entre 22 et 25 degrés.
+Températures maximales : de 22 à 25 degrés.
 
 • Pour samedi 05 et dimanche 06 :
 Sur le Ternois, risque de pluie jusqu'au petit matin de samedi. Sur les autres régions, temps le plus souvent ensoleillé.
@@ -131,44 +131,44 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 01/09/2026 06:30
+Emis le : 01/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de la Somme est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Amiens-Glisy : température de 15 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1020 hPa.
-A Cayeux-sur-Mer : température de 17 degrés, vent de secteur Ouest soufflant jusqu'à 30 km/h.
+Aujourd'hui on observait à 09h :
+A Amiens-Glisy : température de 16 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1022 hPa.
+A Cayeux-sur-Mer : température de 18 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui mardi 01 septembre :
 La matinée débute sous un ciel nuageux. Puis les éclaircies s'élargissent peu à peu et l'après-midi le soleil prédomine.
-Vent d'Ouest à Nord-Ouest, modéré.
+Vent modéré, d'Ouest à Nord-Ouest.
 Températures maximales : entre 20 et 22 degrés.
 
 • Pour la nuit prochaine :
-Le ciel est voilé, mais laisse apparaître les étoiles.
-Etablissement, en milieu de nuit, d'un vent de Sud-Ouest modéré, sur le littoral picard ; atténuation ensuite.
+Le ciel est généralement voilé.
+En milieu de nuit, vent s'établissant au Sud-Ouest modéré, sur le littoral picard ; puis atténuation.
 Températures minimales : dans les terres entre 10 et 12 degrés. 14 degrés sur le littoral picard.
 
 • Pour demain mercredi 02 en journée et la nuit suivante :
 Les nuages nombreux en début de journée vont peu à peu laisser place au soleil qui s'impose en fin d'après-midi. Pour la nuit : La soirée est bien dégagée. Peu à peu, le ciel se voile. Puis, il se couvre en fin de nuit, et donne de petites averses, au nord et à l'ouest d'Amiens.
-En fin de nuit, vent de Sud-Ouest assez fort, sur le littoral picard.
+En fin de nuit, vent s'établissant au Sud-Ouest assez fort, sur le littoral picard.
 Températures maximales pour le jour : de 22 à 23 degrés.
 Températures minimales pour la nuit suivante : dans les terres de 13 à 15 degrés. 17 degrés sur le littoral picard.
 
 • Pour la journée de jeudi 03 et la nuit suivante :
 De nombreux nuages encombrent le ciel en matinée et peuvent même donner quelques gouttes au nord et à l'ouest d'Amiens. L'après-midi, le temps devient plus changeant, éclaircies et passages nuageux se disputent le ciel. Les nuages sont inoffensifs. Pour la nuit : En soirée, le ciel est bien dégagé. Avant minuit, des nuages se forment, sur le Vermandois ainsi que sur les deux tiers ouest du département. Ils sont persistants, mais restent minoritaires face aux éclaircies.
-En journée, vent d'Ouest à Sud-Ouest soufflant assez fort, sur le littoral picard ; puis atténuation. Rafales atteignant 55 km/h.
+En journée, vent d'Ouest à Sud-Ouest assez fort, sur le littoral picard ; atténuation ensuite. Rafales atteignant 55 km/h.
 Températures maximales pour le jour : comprises entre 22 et 25 degrés.
-Températures minimales pour la nuit suivante : comprises entre 16 et 18 degrés.
+Températures minimales pour la nuit suivante : entre 16 et 18 degrés.
 
 • Pour la journée de vendredi 04 :
 Si les nuages sont prédominants en début de matinée, ils s'effacent progressivement devant un soleil de plus en plus généreux.
 Vent d'Ouest à Sud-Ouest assez fort, sur le littoral picard.
-Températures maximales : dans les terres comprises entre 23 et 26 degrés. 22 degrés sur le littoral picard.
+Températures maximales : dans les terres de 23 à 26 degrés. 22 degrés sur le littoral picard.
 
 • Pour samedi 05 et dimanche 06 :
 Au nord et à l'ouest d'Amiens, soleil entrecoupé de quelques passages nuageux, risque de pluie temporaire. Ailleurs, temps généralement ensoleillé.
@@ -189,14 +189,14 @@ Températures minimales : en baisse sur le littoral picard ainsi que sur une gra
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 01/09/2026 06:30
+Emis le : 01/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Beauvais-Tillé : température de 13 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 10 km/h, pression niveau mer 1021 hPa.
+Aujourd'hui on observait à 09h :
+A Beauvais-Tillé : température de 15 degrés, vent de secteur Ouest soufflant jusqu'à 15 km/h, pression niveau mer 1022 hPa.
 
 Prévisions pour les tout prochains jours :
 
@@ -207,18 +207,18 @@ Températures maximales : entre 21 et 23 degrés.
 
 • Pour la nuit prochaine :
 La nuit est belle, les nuages peu nombreux.
-Vent faible, variable.
-Températures minimales : de 9 à 11 degrés.
+Vent variable, faible.
+Températures minimales : entre 9 et 11 degrés.
 
 • Pour demain mercredi 02 en journée et la nuit suivante :
 Le soleil domine, malgré quelques passages nuageux. Pour la nuit : Le temps est calme. Cependant, en fin de nuit, quelques nuages se manifestent du Vexin français au Plateau Picard.
 L'après-midi jusqu'en début de soirée, vent d'Ouest, localement faible à modéré. Après une atténuation, vent s'établissant en fin de nuit, au Sud-Ouest, sur un grand quart Nord-Ouest.
 Températures maximales pour le jour : de 23 à 24 degrés.
-Températures minimales pour la nuit suivante : entre 12 et 13 degrés.
+Températures minimales pour la nuit suivante : de 12 à 13 degrés.
 
 • Pour la journée de jeudi 03 et la nuit suivante :
-Les nuages et les éclaircies se partagent le ciel, qui se dégage en fin de journée. Pour la nuit : Le ciel est étoilé, avec quelques petits nuages en seconde partie de nuit, sur le pays de Bray et la Picardie verte.
-Vent de secteur Ouest, modéré.
+Les nuages et les éclaircies se partagent le ciel, qui se dégage en fin de journée. Pour la nuit : Le ciel est dégagé, même si quelques nuages s'invitent parfois en fin de nuit.
+Vent modéré, de secteur Ouest.
 Températures maximales pour le jour : comprises entre 24 et 27 degrés.
 Températures minimales pour la nuit suivante : entre 16 et 17 degrés.
 
@@ -246,44 +246,44 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 01/09/2026 06:30
+Emis le : 01/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Aisne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Aulnoy-sous-Laon : température de 14 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 15 km/h.
-A Saint-Quentin : température de 13 degrés.
+Aujourd'hui on observait à 09h :
+A Aulnoy-sous-Laon : température de 15 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 15 km/h.
+A Saint-Quentin : température de 15 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui mardi 01 septembre :
 Éclaircies et passages nuageux alternent dans le ciel tout au long de la journée. De rares averses sont possibles sur la Thiérache.
 Jusqu'en milieu d'après-midi, vent d'Ouest généralement, modéré ; puis faiblissant.
-Températures maximales : entre 21 et 24 degrés.
+Températures maximales : de 21 à 24 degrés.
 
 • Pour la nuit prochaine :
 La soirée débute sous un ciel largement dégagé. Les nuages se font progressivement plus nombreux, même s'il ne s'agit souvent que d'un voile élevé.
-Vent faible, variable.
-Températures minimales : entre 9 et 11 degrés.
+Vent variable, faible.
+Températures minimales : de 9 à 11 degrés.
 
 • Pour demain mercredi 02 en journée et la nuit suivante :
 Un voile nuageux masque temporairement le soleil, qui devient plus franc en fin de journée. Pour la nuit : Le ciel est clair, toute la nuit. Seuls quelques nuages se développent, avant l'aurore, sur la Thiérache. Mais, ils restent minoritaires.
-Vent soufflant faible à modéré par endroits, d'Ouest, l'après-midi ; et de Sud-Ouest, au lever du jour.
-Températures maximales pour le jour : sur les trois quarts Sud du département, ainsi que sur le Vermandois de 23 à 26 degrés. 22 degrés sur la Thiérache.
-Températures minimales pour la nuit suivante : de 11 à 14 degrés.
+Vent soufflant faible à modéré par endroits, d'Ouest, en seconde partie de journée ; et de Sud-Ouest, aux premières heures du jour.
+Températures maximales pour le jour : sur les trois quarts Sud du département, ainsi que sur le Vermandois entre 23 et 26 degrés. 22 degrés sur la Thiérache.
+Températures minimales pour la nuit suivante : comprises entre 11 et 14 degrés.
 
 • Pour la journée de jeudi 03 et la nuit suivante :
-Les nuages et les éclaircies se partagent le ciel, qui se dégage en fin de journée. Pour la nuit : Le ciel est clair. Seuls des nuages discrets, après minuit, agrémentent le ciel, sur le Vermandois.
-Vent d'Ouest à Sud-Ouest, modéré, en journée ; puis atténuation.
+Les nuages et les éclaircies se partagent le ciel, qui se dégage en fin de journée. Pour la nuit : Le temps est bien étoilé, avec juste quelques cumulus fleurissant après minuit, sur le Vermandois.
+Vent d'Ouest à Sud-Ouest modéré, en journée ; puis s'atténuant.
 Températures maximales pour le jour : sur les trois quarts Sud du département, ainsi que sur le Vermandois comprises entre 26 et 28 degrés. 24 degrés sur la Thiérache.
-Températures minimales pour la nuit suivante : de 14 à 16 degrés.
+Températures minimales pour la nuit suivante : comprises entre 14 et 16 degrés.
 
 • Pour la journée de vendredi 04 :
 Le soleil brille généreusement toute la journée. Des nuages sont toutefois présents en matinée sur le Vermandois et la Thiérache.
-Vent d'Ouest à Sud-Ouest, modéré.
-Températures maximales : sur les trois quarts Sud du département entre 27 et 29 degrés. 25 degrés sur le Vermandois et la Thiérache.
+Vent modéré, d'Ouest à Sud-Ouest.
+Températures maximales : sur les trois quarts Sud du département de 27 à 29 degrés. 25 degrés sur le Vermandois et la Thiérache.
 
 • Pour samedi 05 et dimanche 06 :
 Sur la Champagne crayeuse, risque de pluie de samedi matin jusqu'à la mi-journée. Sur les autres régions, temps largement ensoleillé.
@@ -328,12 +328,12 @@ du pays, avec une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massi central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massi central - Septembre 2026
 • Infoclimat Direct : Vigilance Météo France
-• Infoclimat Direct : Vigilance Météo France
-• Infoclimat Direct : Vigilance Météo France
-• Infoclimat Direct : =30°C consécutives]]>
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
+• Infoclimat Direct : Climatologie 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Prévisions Centre-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -341,9 +341,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 1 Septembre 2026.
-Résumé général HDF précédent : Temps sec et de plus en plus chaud jusqu'à dimanche, avec un pic samedi. En semaine 2, une dégradation orageuse est possible en milieu de semaine, avec une baisse progressive des températures, mais les HDF resteront au-dessus des normales..
+Résumé général HDF précédent : Tendance 15 j pour HDF : temps weather et sec d over first rsterdam end; a sharp rejection of south massif; after Sept 8-10, possible seesaw with rains and a moderate freshness; no lasting heat wave for HDF..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Risque de vent assez fort jeudi sur le littoral (rafales 65 km/h), averses possibles mardi matin à l'est. (116 caractères).
+Températures attendues précédemment : Pour HDF : matinées parfois nuageuses, nette écoles après midi, vent d’Ouest à Sud-Ouest, averses concurrentieuses localisées seulement dans le sud courbe (Avesne, Bray)..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 1 au Dimanche 6 Septembre 2026) ===
@@ -534,7 +534,7 @@ Auteur: djoss
 Message:
 +8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
 								2
-								19
+								21
 
 =======================
 
@@ -732,7 +732,7 @@ Auteur: djoss
 Message:
 +8°C à 4000m d'altitude dans les Alpes vendredi prochain (alors qu'avant le RC la TX ne dépassait pratiquement jamais 0°C à 4000m  au plus chaud de l'été, soit entre le 15 juillet et le 15 août. Et là on sera début septembre, quand même...
 								2
-								19
+								21
 
 =======================
 
