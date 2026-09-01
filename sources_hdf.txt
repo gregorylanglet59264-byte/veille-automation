@@ -307,12 +307,12 @@ orange est faible dans le sud-ouest samedi et dimanche.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massi central - Septembre 2026
-• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
+• Infoclimat Direct : Vigilance Météo France
+• Infoclimat Direct : Back to 80's - L'orage en Argentique
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Meteo-Kit, template gratuit en alternative &#xE0; meteotemplate payant
-• Infoclimat Direct : Prévisions Centre-Est - Septembre 2026
-• Infoclimat Direct : &#x26AA;&#x1F7E0;&#x1F7E3;&#x1F3DB;&#xFE0F; L'A&#x1D42C;s&#x1D41E;m&#x1D41B;lée d&#x1D41E;s N&#x1D42E;a&#x1D420;e&#x1D42C; &#x1F3DB;&#xFE0F;&#x1F7E3;&#x1F7E0;&#x26AA; Pronostiquez et devenez le président des prévisions ! MANCHE 3 : Cognac (1.09.26)
+• Infoclimat Direct : Météo France va (enfin) passer &#xE0; la mesure d'une rafale sur 3 s, en norme OMM.
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Bugs sur Infoclimat #2
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -320,9 +320,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 1 Septembre 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaîtront un temps de plus en plus océanique, avec un coup de chaud temporaire en fin de semaine 1, suivi d'une baisse des températures en semaine 2. Le flux d'ouest à sud-ouest deviendra dominant, avec un risque d'averses récurrent sur le littoral. La chaleur intense restera cantonnée au sud de la France..
+Résumé général HDF précédent : Coup de chaud temporaire et sec en fin de semaine 1 (26-31°C en HDF), puis bascule vers un temps océanique plus frais et plus humide en semaine 2. Le flux d'ouest-sud-ouest devient dominant, avec une dégradation probable à partir du 8-9 septembre. Le cœur de la chaleur reste au sud de la France..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafales de sud-ouest possibles sur le littoral, ciel variable jeudi, éclaircies ensuite..
+Températures attendues précédemment : Temps sec et chaud en fin de semaine sur les HDF, averses possibles uniquement sur l'extrême nord..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 1 au Dimanche 6 Septembre 2026) ===
@@ -520,7 +520,7 @@ Pas encore ouvert le nouveau topic ? Pourtant il y a des signaux intéressants q
 	A suivre car même si il y a un changement de synoptique il peut n'être que temporaire.
 	Il va falloir aussi surveiller si ce possible changement affecte aussi le sud, d'après AIFS il semble que oui et surtout suivre les possibilités de précipitations qui pourraient ne concernent que le nord voire l'extrême nord de la France.
 	AIFS Toulouse :
-	Modifié il y a 6 heures par petit âge glaciaire 11
+	Modifié il y a 8 heures par petit âge glaciaire 11
 Modifié
 								5
 								4
@@ -543,7 +543,7 @@ Pas hyper convaincu pour un changement profond de synoptique sur cette semaine.
 	Quand on regarde les modélisations sur le long terme, notamment CEP et GFS, cela reste très antyclonique, avec un zonal plus au moins ondulant.
 	Baisse des températures très probable, mais je ne vois rien de bien enthousiasmant à l'échelle du pays.
 	Petit jeu, à latitude égal de la France, quel est le pays le plus sec de l'hémisphère nord sur les deux prochaines semaines ? (Hors désert de Gobi évidemment)
-	Modifié il y a 4 heures par Twister83
+	Modifié il y a 6 heures par Twister83
 								3
 
 =======================
@@ -563,7 +563,7 @@ Dès la semaine en cours, et en continuité pour le début de ce topic, on a qua
 	Au vu de l'avancée des saisons (géopotentiels polaires bien bas), et de cette branche de jet relativement stable, rectiligne et forte, plusieurs membres proposent des creusement assez rapides et importants. Les temporalités diffèrent, les trajectoires encore plus et la chaleur résiste dans certains cas.
 	Néanmoins, assez probablement à un moment ou à un autre durant cette semaine, une large dépression sur les îles britanniques devrait se former et amener un flux d'ouest ou de nord ouest sur le pays, en espérant que cela atteigne le sud… 
 	Je trouve ces scénarios majoritaires, convaincants. Il reste beaucoup de détails à éclaircir.
-								3
+								4
 
 =======================
 
@@ -577,7 +577,7 @@ il y a 33 minutes, Jojobarbar a dit :
 	Toulouse :
 	Aix-en-Provence :
 	On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
-								4
+								6
 
 =======================
 
@@ -587,4 +587,16 @@ Message:
 			Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS [...]
 			On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
 	Yes, on voit aussi que le changement s'accompagne de timides signaux humides qui loin d'être exceptionnels, témoignent de l'influence de la dépression probable. Pas en tant que source principale, mais au moins en courbant le flux de manière à ce qu'il soit légèrement cyclonique.
-	Modifié il y a 8 minutes par Jojobarbar
+	Modifié il y a 2 heures par Jojobarbar
+								1
+
+=======================
+
+Auteur: giec 2100
+Message:
+oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme de l'échéance...
+	... que ce soit du côté de CEP ou de GFS ça tire sacrément la langue : 
+	les talwegs improductifs en termes d'humidité on n'arrête pas d'en connaître cette année, non... ?
+	au reste ce qui ressort également des ensembles cités par PAG précédemment...
+	7
+	Modifié il y a 33 minutes par giec 2100
