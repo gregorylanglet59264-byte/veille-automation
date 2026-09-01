@@ -337,12 +337,12 @@ orange est faible dans le sud-ouest samedi et dimanche.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massi central - Septembre 2026
+• Infoclimat Direct : Les vagues de chaleur et canicules en France
+• Infoclimat Direct : Suivi du temps dans le Massi central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massi central - Septembre 2026
 • Infoclimat Direct : Vigilance Météo France
-• Infoclimat Direct : Vigilance Météo France
-• Infoclimat Direct : Recensement des tornades en France
-• Infoclimat Direct : =30°C consécutives]]>
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -350,9 +350,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 1 Septembre 2026.
-Résumé général précédent : Sur 15 jours, la France resterait sous l'influence d'un puissant anticyclone ou d'un dôme de chaleur, avec un dégradé nord-sud marqué. La chaleur pourrait persister au sud-est et en Méditerranée, tandis que le nord serait plus sensible à une baisse progressive. L'Indicateur Thermique National oscille entre 22,8°C et 25,8°C, signe d'une chaleur marquée et durable..
+Résumé général précédent : Coup de chaud intense sur le sud en semaine 1, possible baisse temporaire en semaine 2 avec un dégradé nord-sud persistante, mais retour probable de la chaleur ensuite..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Fortes chaleurs sur la moitié sud, temps sec et ensoleillé. Nuits chaudes en Méditerranée. (98 caractères).
+Températures attendues précédemment : Fortes chaleurs samedi-dimanche, temps très sec, nuit chaudes en Méditerranée..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 1 au Dimanche 6 Septembre 2026) ===
@@ -548,11 +548,12 @@ Pas encore ouvert le nouveau topic ? Pourtant il y a des signaux intéressants q
 	A suivre car même si il y a un changement de synoptique il peut n'être que temporaire.
 	Il va falloir aussi surveiller si ce possible changement affecte aussi le sud, d'après AIFS il semble que oui et surtout suivre les possibilités de précipitations qui pourraient ne concernent que le nord voire l'extrême nord de la France.
 	AIFS Toulouse :
-	Modifié il y a 2 heures par petit âge glaciaire 11
+	Modifié il y a 4 heures par petit âge glaciaire 11
 Modifié
-								3
-								2
 								5
+								4
+								5
+								1
 
 =======================
 
@@ -560,6 +561,7 @@ Auteur: Jetrejo
 Message:
 Je suis pas un pro du tout mais je vois les même signaux qui donnent de l'espoir. 
 	Même si temporaire, ça nous permettrait sereinement de passer le 15 septembre, et à partir de là on peut espérer que ça s'améliore nettement niveau chaleur 🤔
+								1
 
 =======================
 
@@ -569,8 +571,8 @@ Pas hyper convaincu pour un changement profond de synoptique sur cette semaine.
 	Quand on regarde les modélisations sur le long terme, notamment CEP et GFS, cela reste très antyclonique, avec un zonal plus au moins ondulant.
 	Baisse des températures très probable, mais je ne vois rien de bien enthousiasmant à l'échelle du pays.
 	Petit jeu, à latitude égal de la France, quel est le pays le plus sec de l'hémisphère nord sur les deux prochaines semaines ? (Hors désert de Gobi évidemment)
-	Modifié il y a 56 minutes par Twister83
-								1
+	Modifié il y a 2 heures par Twister83
+								3
 
 =======================
 
