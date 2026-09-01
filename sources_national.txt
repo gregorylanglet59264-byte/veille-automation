@@ -313,12 +313,11 @@ orange est faible dans le sud-ouest samedi et dimanche.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le nord ouest septembre 2026.
-• Infoclimat Direct : Prévisions Centre-Est - Septembre 2026
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Massi central - Septembre 2026
+• Infoclimat Direct : Suivi ensoleillement 2026
+• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -326,9 +325,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 1 Septembre 2026.
-Résumé général précédent : Sur l'ensemble des deux semaines, temps très sec et chaleur exceptionnelle sur le sud. Coup de chaud marqué en semaine 1, possible fléchissement temporaire au nord en semaine 2, mais le sud pourrait rester chaud. Retour probable de la chaleur ensuite..
+Résumé général précédent : Une première moitié de semaine très chaude et sèche, suivie d'une possibilité d'une dégradation temporaire en fin de semaine 1 / début semaine 2, avec un retour à un temps plus calme (et toujours sec) par la suite..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur modérée au nord, forte sur l'arc méditerranéen, temps sec..
+Températures attendues précédemment : Forte chaleur samedi sur un triangle sud de Lyon-Périgueux, avec 39°C possibles. (max 120 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 1 au Dimanche 6 Septembre 2026) ===
@@ -526,12 +525,12 @@ Pas encore ouvert le nouveau topic ? Pourtant il y a des signaux intéressants q
 	A suivre car même si il y a un changement de synoptique il peut n'être que temporaire.
 	Il va falloir aussi surveiller si ce possible changement affecte aussi le sud, d'après AIFS il semble que oui et surtout suivre les possibilités de précipitations qui pourraient ne concernent que le nord voire l'extrême nord de la France.
 	AIFS Toulouse :
-	Modifié il y a 10 heures par petit âge glaciaire 11
+	Modifié il y a 12 heures par petit âge glaciaire 11
 Modifié
 								5
 								4
 								5
-								1
+								2
 
 =======================
 
@@ -539,7 +538,7 @@ Auteur: Jetrejo
 Message:
 Je suis pas un pro du tout mais je vois les même signaux qui donnent de l'espoir. 
 	Même si temporaire, ça nous permettrait sereinement de passer le 15 septembre, et à partir de là on peut espérer que ça s'améliore nettement niveau chaleur 🤔
-								1
+								2
 
 =======================
 
@@ -549,8 +548,8 @@ Pas hyper convaincu pour un changement profond de synoptique sur cette semaine.
 	Quand on regarde les modélisations sur le long terme, notamment CEP et GFS, cela reste très antyclonique, avec un zonal plus au moins ondulant.
 	Baisse des températures très probable, mais je ne vois rien de bien enthousiasmant à l'échelle du pays.
 	Petit jeu, à latitude égal de la France, quel est le pays le plus sec de l'hémisphère nord sur les deux prochaines semaines ? (Hors désert de Gobi évidemment)
-	Modifié il y a 8 heures par Twister83
-								3
+	Modifié il y a 10 heures par Twister83
+								4
 
 =======================
 
@@ -569,7 +568,7 @@ Dès la semaine en cours, et en continuité pour le début de ce topic, on a qua
 	Au vu de l'avancée des saisons (géopotentiels polaires bien bas), et de cette branche de jet relativement stable, rectiligne et forte, plusieurs membres proposent des creusement assez rapides et importants. Les temporalités diffèrent, les trajectoires encore plus et la chaleur résiste dans certains cas.
 	Néanmoins, assez probablement à un moment ou à un autre durant cette semaine, une large dépression sur les îles britanniques devrait se former et amener un flux d'ouest ou de nord ouest sur le pays, en espérant que cela atteigne le sud… 
 	Je trouve ces scénarios majoritaires, convaincants. Il reste beaucoup de détails à éclaircir.
-								5
+								6
 
 =======================
 
@@ -583,7 +582,7 @@ il y a 33 minutes, Jojobarbar a dit :
 	Toulouse :
 	Aix-en-Provence :
 	On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
-								6
+								7
 
 =======================
 
@@ -593,7 +592,7 @@ Message:
 			Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS [...]
 			On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
 	Yes, on voit aussi que le changement s'accompagne de timides signaux humides qui loin d'être exceptionnels, témoignent de l'influence de la dépression probable. Pas en tant que source principale, mais au moins en courbant le flux de manière à ce qu'il soit légèrement cyclonique.
-	Modifié il y a 4 heures par Jojobarbar
+	Modifié il y a 6 heures par Jojobarbar
 								1
 
 =======================
@@ -605,6 +604,20 @@ oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme d
 	les talwegs improductifs en termes d'humidité on n'arrête pas d'en connaître cette année, non... ?
 	au reste ce qui ressort également des ensembles cités par PAG précédemment...
 	7
-	Modifié il y a 2 heures par giec 2100
+	Modifié il y a 4 heures par giec 2100
 								2
 								1
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+4 hours ago, giec 2100 said:
+			oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme de l'échéance...
+			... que ce soit du côté de CEP ou de GFS ça tire sacrément la langue : 
+			[...]
+	Je n'en suis pas si sûr, les ensembles montrent des scénarios modérément humides, sur plusieurs jours. A mon avis il est trop tôt pour dire que la balance penche d'un côté ou de l'autre. Le tableau me paraît utile dans ces situations, car la temporalité n'étant pas fixée, tout ce qui est moyenne/quantile est tiré vers les 0.
+	Paris :
+	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
+	On voit qu'on peut passer de plusieurs jours de belles pluie à "0.1mm juste pour dire"...
+	Modifié il y a 18 minutes par Jojobarbar
