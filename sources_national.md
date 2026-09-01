@@ -308,12 +308,12 @@ du pays, avec une intensité encore incertaine.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Prévisions régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Vigilance Météo France
 • Infoclimat Direct : Climatologie 2026
 • Infoclimat Direct : Climatologie 2026
 • Infoclimat Direct : Prévisions Centre-Est Aout 2026
-• Infoclimat Direct : Le jeu de l'été saison 2026 !
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 01/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 1 Septembre 2026.
-Résumé général précédent : La France connaîtra une période de temps sec et chaud, avec un pic de chaleur intense sur la moitié sud entre le 4 et le 6 septembre, suivi d'une baisse lente et incertaine des températures la semaine suivante, surtout au nord..
+Résumé général précédent : Période globalement anticyclonique, très chaude et sèche sur la France. Pic de chaleur attendu entre le 4 et le 7 septembre, surtout au sud, suivi d'une baisse lente et incertaine. Le sud-est et la Méditerranée restent les plus exposés..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Forte chaleur sur le sud, jusqu'à 39°C possible samedi, orages isolés en montagne..
+Températures attendues précédemment : Forte chaleur samedi sur le sud d'une ligne Lyon/Périgueux, 35°C possibles, records en vue..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 1 au Dimanche 6 Septembre 2026) ===
