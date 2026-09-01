@@ -1,110 +1,126 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Mardi 1 Septembre 2026
-**Période :** Semaine 1 (Du Mardi 1er au Dimanche 6 Septembre 2026) & Semaine 2 (Du Lundi 7 au Dimanche 13 Septembre 2026
+**Période :** Semaine 1 (Du mardi 1er au dimanche 6 septembre 2026) & Semaine 2 (Du lundi 7 au dimanche 13 septembre 2026
 
-⚠️ Note de transparence : Le sujet S37 n'est pas encore ouvert sur le forum. Cette partie s'appuie sur les projections à long terme évoquées pour la fin du sujet S36. Prudence.)
+⚠️ Le sujet spécifique de la Semaine 37 n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 36.)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord régional*
-- **Fiabilité du scénario majoritaire :** Sec et chaud — *L'anticyclone*
+- **Consensus des modèles :** Modéré — *Accord sur le temps sec et la chaleur modérée, mais divergence sur l'intensité.*
+- **Fiabilité du scénario majoritaire :** Temps sec et chaud, sans canicule — *Scénario le plus probable: anticyclone, soleil, températures au-dessus des normales.*
 - **Stabilité des cartes/scénarios :** 6 / 164 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Modérée — *Les fortes chaleurs au sud ne nous impacteraient pas.*
+- **Niveau d'incertitude global :** Moyenne — *Incertitudes sur la fin de semaine 1 et la semaine 2.*
 
-## 🗓️ SEMAINE 1 : Du Mardi 1er au Dimanche 6 Septembre 2026
+## 🗓️ SEMAINE 1 : Du mardi 1er au dimanche 6 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Temps sec et ensoleillé : La région HDF dominée par un temps sec et des éclaircies de plus en plus généreuses.
-2. Progression des températures : Hausse sensible du thermomètre à partir de jeudi, vers un week-end très doux.
-3. Rafales littorales modérées : Vent d'ouest soutenu en début de période, avec de fortes rafales sur les côtes du 59, 62 et 80.
-4. Bonne visibilité globale : Conditions anticycloniques dominantes, limitant les risques de précipitations, sauf brèves averses lundi.
-5. Fin de semaine radieuse : Week-end placé sous le signe du soleil avec des températures estivales dans l'intérieur des terres.
+1. Coup de chaud temporaire : Le Nord des Hauts-de-France connaîtra une hausse des températures, mais sans atteindre le seuil de canicule.
+2. Temps sec et ensoleillé : L'anticyclone protège la région, avec des éclaircies dominantes et peu de pluie.
+3. Vent parfois assez fort : Rafales possibles jeudi sur le littoral, jusqu'à 65 km/h en Flandre maritime.
+4. Dégradé nord-sud : La chaleur intense restera cantonnée au sud de la France, la HDF en marge.
+5. Incertitudes sur le week-end : GFS et CEP divergent sur l'intensité de la poussée chaude de dimanche.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Temps sec et ensoleillé sur l'ensemble de la région, avec une hausse du mercure.
-- Des rafales de vent d'ouest modérées sur le littoral.
+- Temps sec et anticyclonique sur les Hauts-de-France.
+- Hausse des températures en fin de semaine, mais sans canicule.
+- Dégradé nord-sud marqué, chaleur intense au sud.
 **Points de divergence :**
-- Intensité de la chaleur sur les terres.
-- Possibilités de brèves averses entre le Nord et la Somme.
+- Intensité du pic de chaleur: GFS plus frais que CEP/UKMO/GEM.
+- Timing de la poussée chaude: certains modèles la voient dès vendredi, d'autres dimanche.
+- Possibilité d'orages ou d'averses: peu évoquée, mais bulletins locaux mentionnent des averses côtières.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Analyse principale / Projection long terme** (Retour à la normale après le passage d'un front fuyard.) | Coup de chaud plus marqué pour le Sud, HDF en marge avec un temps sec et doux. | Douceur et temps sec, sans excès de chaleur sur l'ensemble de la région. | Côte Flandre, Côte d'Opale, Littoral Picard, Artois, Boulonnais, leurs arrières-pays. | Modérée (60-70%) : Le scénario anticyclonique est clairement identifié, mais la trajectoire exacte des températures est sujette à débat. | Le dégradé Nord-Sud est la trajectoire la plus probable pour les HDF. La chaleur sera présente pour le Sud, mais pour la région, il s'agit d'une simple hausse des températures sans vague de chaleur majeure. (140 caractères, dans la limite des 160) |
+| **ECMWF (CEP)** (En surveillance) | Advection chaude sur la France, mais revue à la baisse pour le nord; coup de chaud passager en HDF. | Temps sec, températures en hausse, sans excès pour la moitié nord. | Hauts-de-France, plus particulièrement littoral et intérieur. | Modérée (60-70%) | Le CEP voit une poussée chaude, mais l'advection est moins forte que pour le sud; la HDF reste en marge. |
+| **GFS** (Actif) | Flux zonal anticyclonique, dégradé nord-sud, pas de grosses chaleurs pour la HDF. | Temps sec, températures au-dessus des normales mais sans excès. | Hauts-de-France, surtout intérieur. | Modérée (60-70%) | GFS ne voit pas de pic de chaleur marqué, contrairement aux autres modèles; il privilégie un temps calme et sec. |
+| **GEM** (En observation) | Poussée chaude plus marquée, avec 18°C à 850 hPa vers le 7-8 septembre. | Chaleur plus sensible, mais pas de canicule pour le nord. | France, HDF en marge sud. | Faible (40-50%) | GEM est cité comme plus chaud, mais sans précision régionale pour la HDF. |
+| **UKMO** (En observation) | Scénario très chaud pour le sud, avec des records possibles; pour le nord, chaleur modérée. | Temps sec et chaud, mais sans excès en HDF. | Moitié sud surtout, HDF en marge. | Faible (40-50%) | UKMO est cité pour des températures très élevées dans le sud-ouest, mais rien de spécifique pour la HDF. |
+| **AIFS** (Actif) | Températures au sol non excessives pour la moitié nord, avec un pic en dos de chameau. | Temps sec, chaleur modérée, pas de records. | Moitié nord, dont HDF. | Modérée (60-70%) | AIFS montre une première poussée chaude vers le 3-4, une pause le 5, puis une reprise à partir du 6, mais sans excès. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ciel variable, avec des averses possibles en Flandre maritime, mais avec une nette tendance à l'éclaircie. Temps sec et ensoleillé sur le reste du département. | Températures minimales entre 13 et 17°C, maximales en hausse jusqu'à 28°C sous abri. | elevee | Météo-France XML, ECMWF, GFS, CEP, Guillaume Séchet | Hausse des températures sous-estimée par GFS, selon le positionnement exact de la chaleur. |
-| **Pas-de-Calais (62)** | Éclaircies et passages nuageux, avec un temps sec. Ciel quasi dégagé en début de nuit. | Températures minimales entre 12 et 15°C, maximales en hausse jusqu'à 27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet, AIFS | Le passage de la pluie est incertain, principalement sur les hauteurs d'Artois. |
-| **Somme (80)** | Ciel changeant, un peu nuageux en matinée, avec une alternance entre nuages et éclaircies. Puis un net coup de soleil en soirée. | Températures minimales entre 9 et 15°C, maximales douces entre 20 et 26°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet, CEP IA | Le plus grand risque est une hausse des températures plus importante que prévu en vendredi, surtout dans les terres. |
-| **Oise (60)** | Alternance de nuages et d'éclaircies, avec un joli soleil en fin de journée. Attention aux brouillards matinaux sur les plateaux. | Températures minimales de 9 à 13°C, maximales en hausse, comprises entre 24 et 27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Le pic de chaleur pourrait se révéler plus important que les prévisions sur le Vexin, avec des maximales au-delà de 28°C. |
-| **Aisne (02)** | Temps sec avec de belles éclaircies. Le soleil l'emporte, parfois voilé. Généralement sec. | Températures minimales entre 11 et 14°C, maximales entre 26 et 29°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | L'évolution des bancs de brouillard en début de période pourraient freiner la hausse des températures. |
+| **Nord (59)** | Alternance d'éclaircies et de passages nuageux, sec, avec averses possibles en Flandre maritime. | Min 10-18°C, Max 21-28°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Nuances locales selon l'exposition au littoral. |
+| **Pas-de-Calais (62)** | Éclaircies et nuages, sec, averses possibles sur les côtes de la Manche et l'Artois. | Min 11-18°C, Max 20-27°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses plus probables près du littoral et des reliefs. |
+| **Somme (80)** | Soleil et passages nuageux, sec, averses possibles sur le Ponthieu et le Vimeu. | Min 9-17°C, Max 20-26°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Températures plus fraîches sur le littoral. |
+| **Oise (60)** | Passages nuageux puis soleil, sec, avec risque de pluie vendredi sur le pays de Bray. | Min 9-16°C, Max 20-28°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Nuages plus nombreux près du Vexin. |
+| **Aisne (02)** | Beau temps ensoleillé, quelques passages nuageux, sec. | Min 9-15°C, Max 21-29°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Brouillards possibles en Thiérache en début de semaine. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Mardi 1er au Mardi 1er Septembre** : Temps de saison avec un ciel variable, encore un peu frais.
-- **Mercredi 2 Septembre** : Beau et plus doux, les fortes chaleurs restent au sud. Soleil généreux.
-- **Jeudi 3 Septembre** : Les averses possibles s'éliminent, les éclaircies deviennent plus franches.
-- **Vendredi 4 au Dimanche 6 Septembre** : La chaleur arrive : très doux et ensoleillé.
+- **Mardi 1 et mercredi 2 septembre** : Temps sec avec éclaircies, températures de saison, averses possibles près des côtes.
+- **Jeudi 3 septembre** : Vent d'Ouest assez fort sur le littoral, rafales 55-65 km/h, ciel changeant.
+- **Vendredi 4 et samedi 5 septembre** : Risque de pluie ou d'averses vendredi, puis nette amélioration samedi avec hausse des températures.
+- **Dimanche 6 septembre** : Soleil généreux, températures maximales 25-28°C, temps estival mais sans excès.
 
 **Points solides :**
-- Séquence anticyclonique durable.
-- Hausse des températures.
-- Pas de fortes pluies.
+- Temps sec et anticyclonique sur l'ensemble de la HDF.
+- Hausse des températures en fin de semaine, sans canicule.
+- Vent assez fort sur le littoral jeudi.
 
 **Points fragiles :**
-- Vitesse/valeur de la hausse des températures.
-- Comportement du vent sur les côtes.
+- Intensité exacte du pic de chaleur dimanche.
+- Localisation des averses côtières.
+- Évolution après le 6 septembre.
 
 **À surveiller (prochains runs) :**
-- Projections à 850 hPa (températures) et trajectoires des dépressions pour affiner le dossier du week-end.
+- Prochains runs CEP et GFS pour affiner le pic de chaleur.
+- Évolution de la goutte froide sur le proche Atlantique.
+- Bulletins Météo-France pour les averses littorales.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 7 au Dimanche 13 Septembre 2026
+## 🗓️ SEMAINE 2 : Du lundi 7 au dimanche 13 septembre 2026
 
-⚠️ Note de transparence : Le sujet S37 n'est pas encore ouvert sur le forum. Cette partie s'appuie sur les projections à long terme évoquées pour la fin du sujet S36. Prudence.
+⚠️ Le sujet spécifique de la Semaine 37 n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 36.
 ### 💡 Points clés de la semaine 2
-1. Temps radieux : Le soleil pourrait briller sans partage sur la région.
-2. Chaîne de chaleur : Les températures resteraient au-dessus des normales, mais sans excès pour le Nord.
-3. Faible confiance : Aucune parole de membre à l'heure actuelle.
+1. Sujet forum non ouvert : Les prévisions long terme sont issues du sujet Semaine 36, avec de fortes incertitudes.
+2. Baisse progressive possible : Les modèles entrevoient un recul des températures en cours de semaine.
+3. Risque de pluie temporaire : Météo-France évoque des averses possibles mardi 8 et mercredi 9.
+4. Chaleur encore présente : Les maximales pourraient rester élevées en début de semaine, avant une dégradation.
+5. Vigilance jaune possible : Selon l'évolution des masses d'air, des orages pourraient se développer.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Maintien du temps sec.
-- Températures de saison, douces.
+- Baisse des températures en cours de semaine.
+- Maintien d'un temps sec une grande partie de la semaine.
+- Incertitudes fortes sur la fin de semaine.
 **Points de divergence :**
-- Apparition possible de chaleur (GFS) ou pas (CEP).
-- La luminosité du ciel est un paramètre à affiner.
+- Rythme de la baisse des températures.
+- Possibilité d'orages en fin de semaine.
+- Position exacte de la goutte froide.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Projections long terme** (En attente d'analyse des membres.) | Maintien d'un temps sec et chaud. La chaleur pourrait rester dans le Sud. | Ciel clair, l'été se prolonge sur les HDF. | L'ensemble des terres HDF, les températures s'annoncent homogènes. | Faible (40%) : Les informations proviennent des modèles à long terme, sans retour de la communauté. | La précision est limitée, ce sera un début de semaine. |
+| **Projections long terme ECMWF/GFS** (En observation) | Forte dispersion après le 7 septembre; possible baisse des températures, mais incertitude majeure. | Temps encore sec et chaud en début de semaine, puis dégradation possible. | Hauts-de-France | Non estimable (sujet non ouvert) | Le sujet Semaine 37 n'étant pas ouvert, aucune discussion forum n'est disponible. Les bulletins Météo-France indiquent une baisse des températures pour mardi 8 et mercredi 9, avec un risque de pluie ou d'averses temporaire. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Ensoleillé et sec, sans excès de chaleur pour le moment. | Températures en hausse, maximales aux alentours de 24-27°C. | faible | ECMWF, GFS | Tendance basée sur des projections moyen terme, sous réserve d'évolution. |
-| **Pas-de-Calais (62)** | Éclaircies et temps sec. | Températures stables, autour de 24-27°C. | faible | ECMWF, GFS | Confiance limitée en raison de la prévision long terme. |
-| **Somme (80)** | Soleil radieux, aucune précipitation en vue. | Températures maximales en hausse, autour de 25-28°C. | faible | ECMWF, GFS | Sujet aux incertitudes, ne pas se fier à la précision. |
-| **Oise (60)** | Le beau temps estival se poursuit, avec un grand ciel bleu dominant. | Températures proches de 26-28°C. | faible | ECMWF, GFS | Confiance 3/5 pour le moment, les températures et le vent sont à confirmer. |
-| **Aisne (02)** | Beau temps chaud et majoritairement ensoleillé. | Les températures maximales pourraient atteindre les 27-29°C. | faible | ECMWF, GFS | Cette prévision est donnée avec une grande réserve, à réévaluer avec l'arrivée du topic S37. |
+| **Nord (59)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Pas-de-Calais (62)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Somme (80)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Oise (60)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Aisne (02)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 7 et Mardi 8 Septembre** : Beau, sec et encore doux.
-- **Mercredi 9 au Dimanche 13 Septembre** : -
 
 **Points solides :**
-- Temps sec dominant.
-- Températures au-dessus des normales de saison.
+- Baisse des températures annoncée par Météo-France pour mardi 8 et mercredi 9.
+- Temps encore sec en début de semaine.
+- Vent modéré de secteur Ouest à Sud-Ouest.
 
 **Points fragiles :**
-- L'intensité de la chaleur est discutable.
+- Intensité et durée de la baisse.
+- Risque d'orages en fin de semaine.
+- Évolution de la chaleur au-delà du 10 septembre.
 
 **À surveiller (prochains runs) :**
-- Les runs de GFS et CEP de la semaine prochaine. L'ouverture le sujet S37 donnera un nouvel éclairage sur la prévision.
+- Ouverture du sujet Semaine 37 sur Infoclimat.
+- Runs CEP et GFS de la semaine.
+- Bulletins Météo-France J+7.
 
 
 ========================================
@@ -112,27 +128,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-L'anticyclone s'installe durablement, le temps reste sec, la chaleur ne se situe qu'au sud. Un scénario très fiable.
+Sur 15 jours, les Hauts-de-France connaîtront un temps sec et anticyclonique, avec une chaleur modérée en fin de semaine 1, puis une baisse progressive des températures en semaine 2. La chaleur intense restera cantonnée au sud de la France.
 
 ### Période la plus fiable
-La semaine 1 est bien plus fiable que la semaine 2.
+Semaine 1 (du 1er au 6 septembre) : prévisions plus fiables, appuyées par les bulletins Météo-France et un consensus modéré des modèles.
 
 ### Phénomènes récurrents
-Un procès sec, avec une présence de brouillards.
+Averses côtières possibles, vent d'Ouest modéré à assez fort, hausse des températures en fin de semaine.
 
 ### Principales incertitudes
-L'ampleur exacte des températures pour la semaine 2. Si on est en dessous de 30 degrés ou pas.
+Intensité du pic de chaleur en semaine 1, évolution en semaine 2, risque d'orages.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** L'arrivée de l'air chaud, qui selon le spatial grid, va nous arriver entre vendredi et la fin du week-end.
-- **Localisation :** Le comportement du flux de températures pour la semaine 2 est particulièrement difficile à évaluer.
-- **Intensité :** La méthode ETP est très bonne, mais les températures sont légèrement en dessous de ce qui est attendu dans le Nord pour cette échéance.
-- **Informations manquantes :** Le sujet de la semaine 37 n'a pas encore été ouvert, il manque le point de vue des membres Infoclimat, et je n'ai qu'une probabilité de prévisions.
-- **Modèles sous-documentés :** GFS et CEP sont en bonne convergence pour la première semaine mais le tout est fragile sur le deuxième.
-- **Incertitudes images :** J'émets une réserve sur la carte indiquant 28°C pour la semaine prochaine, je l'attendrais plutôt pour la semaine 1.
+- **Timing/Chronologie :** Le timing exact du pic de chaleur (vendredi, samedi ou dimanche) reste incertain, avec des écarts entre GFS et CEP.
+- **Localisation :** Les averses côtières sont difficiles à localiser précisément: Flandre maritime, côtes de la Manche, Ponthieu.
+- **Intensité :** L'intensité de la hausse des températures est incertaine: GFS prévoit des valeurs plus fraîches que CEP/UKMO/GEM.
+- **Informations manquantes :** Le sujet Semaine 37 n'est pas ouvert, limitant l'analyse de la semaine 2. Pas de discussion détaillée sur les orages en HDF.
+- **Modèles sous-documentés :** ICON, GEFS et le run de contrôle GFS sont peu commentés pour la HDF.
+- **Incertitudes images :** Les cartes de géopotentiels et de températures à 850 hPa montrent des divergences entre modèles, notamment pour le week-end.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-Je consulte les tendances pour les Hauts-de-France pour les deux prochaines semaines ! ☀️ La chaleur ne sera pas extrême chez nous, ce sera très ensoleillé. La sécheresse continue.
+🌤️ Hauts-de-France: un début septembre sec et ensoleillé, avec une chaleur modérée ce week-end. Pas de canicule en vue pour notre région, contrairement au sud. Les températures pourront atteindre 28°C dimanche, avant une possible baisse la semaine prochaine. Restez prudents sur le littoral avec des rafales à 65 km/h jeudi. #Météo #HautsDeFrance #Septembre

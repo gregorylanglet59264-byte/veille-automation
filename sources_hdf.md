@@ -315,10 +315,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Lundi 31 Août 2026.
-Résumé général HDF précédent : .
+Dernier bulletin HDF généré le Mardi 1 Septembre 2026.
+Résumé général HDF précédent : L'anticyclone s'installe durablement, le temps reste sec, la chaleur ne se situe qu'au sud. Un scénario très fiable..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Douceur et temps sec, sans excès de chaleur sur l'ensemble de la région..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 1 au Dimanche 6 Septembre 2026) ===
