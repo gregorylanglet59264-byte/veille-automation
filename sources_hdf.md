@@ -14,6 +14,59 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 === SOURCES COMPLÉMENTAIRES HDF (MÉTÉO-FRANCE XML 22SPC + SÉCHET + ITN 14J) ===
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
+=== BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
+Emis le : 02/09/2026 16:45
+
+Vigilance :
+Aujourd'hui et demain, le département du Nord est en vigilance verte.
+
+Observations :
+Aujourd'hui on observait à 16h :
+A Lille-Lesquin : température de 22 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 25 km/h, pression niveau mer 1021 hPa.
+A Dunkerque : température de 21 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 35 km/h.
+
+Prévisions pour les tout prochains jours :
+
+• Pour cette nuit :
+La nuit voit arriver une dégradation nuageuse. Les éclaircies du début de soirée laissent place, à minuit, à un ciel couvert, de la côte à la région lilloise. En fin de nuit, cette couche grise n'épargne personne.
+Vent de Sud-Ouest, modéré.
+Températures minimales : dans l'intérieur entre 14 et 16 degrés. 18 degrés en Flandre maritime.
+
+• Pour demain jeudi 03 en journée et la nuit suivante :
+Le ciel est bien gris, mais le temps est sec. Le soleil peut faire quelques percées l'après-midi. Pour la nuit : Ciel étoilé et passages nuageux de plus en plus nombreux se partagent le ciel en la nuit. De petites averses sont même attendues sur l'Avesnois.
+Vent d'Ouest temporairement modéré à assez fort, de la côte à la région lilloise. Rafales atteignant 55 km/h, en journée.
+Températures maximales pour le jour : comprises entre 22 et 23 degrés.
+Températures minimales pour la nuit suivante : entre 18 et 19 degrés. Ces températures sont au-dessus des valeurs normalement observées.
+
+• Pour la journée de vendredi 04 et la nuit suivante :
+Nuages et éclaircies se partagent le ciel. De rares averses sont possibles en fin de journée, sur la région lilloise et le Douaisis. Pour la nuit : En soirée, les nuages donnent de faibles averses sur l'Avesnois. Ils s'effacent assez vite, et le ciel s'éclaircit dès le milieu de nuit.
+Jusqu'en milieu d'après-midi, vent d'Ouest à Sud-Ouest assez fort, de la côte à la région lilloise ; atténuation ensuite. Rafales atteignant 75 km/h.
+Températures maximales pour le jour : de 23 à 25 degrés.
+Températures minimales pour la nuit suivante : dans l'intérieur entre 12 et 13 degrés. 16 degrés en Flandre maritime.
+
+• Pour la journée de samedi 05 :
+Le temps est sec et ensoleillé. Les quelques nuages présents par places l'après-midi ne gâchent pas l'impression de beau temps.
+Jusqu'en milieu d'après-midi, vent d'Ouest généralement, modéré ; puis faiblissant.
+Températures maximales : de 22 à 24 degrés.
+
+• Pour dimanche 06 et lundi 07 :
+De la côte à la région lilloise, risque de pluie ou d'averses de lundi matin jusqu'à la mi-journée. Ailleurs, temps le plus souvent ensoleillé.
+De la matinée de dimanche jusqu'en début de nuit de lundi à mardi, vent de Sud-Sud-Est tournant Sud-Ouest, souvent modéré.
+Températures minimales : de 11 à 13 degrés.
+Températures maximales : comprises entre 25 et 28 degrés.
+
+• Pour mardi 08 et mercredi 09 :
+Risque de pluie ou d'averses dès le début de matinée de mardi.
+Mercredi en matinée jusqu'à la mi-journée, vent d'Ouest assez fort, en Flandre maritime. Avec risque de fortes rafales.
+Températures minimales : comprises entre 12 et 14 degrés.
+Températures maximales : entre 19 et 22 degrés.
+
+• Pour jeudi 10 et vendredi 11 :
+Soleil entrecoupé de quelques passages nuageux, risque de pluie ou d'averses temporaire.
+Vent modéré, d'Ouest jusqu'à la mi-journée de jeudi ; et de Sud à Sud-Ouest, en cours de nuit de jeudi à vendredi et jusqu'à la mi-journée.
+Températures minimales : en baisse sur l'Avesnois, le Valenciennois et le Cambrésis.
+Températures maximales : en baisse sur l'Avesnois.
+
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
 Emis le : 02/09/2026 16:45
 
@@ -253,12 +306,12 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Aidez nous &#xE0; recenser les erreurs de notre base climatologique
-• Infoclimat Direct : Statistiques et anomalies climatiques nationales
-• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
-• Infoclimat Direct : A Ciel Ouvert
-• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : Suivi du temps aux Etats-Unis.
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Climatologie 2026
+• Infoclimat Direct : la température de votre habitat aux 4 saisons
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 02/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -266,12 +319,38 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 2 Septembre 2026.
-Résumé général HDF précédent : Première semaine sèche et douce, pic de chaleur modéré dimanche 6 ; deuxième semaine plus fraîche et instable avec risque de pluie, sans excès. Les températures resteront au-dessus des normales de saison..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec, éclaircies, vent d'ouest modéré à assez fort, températures en hausse dimanche..
+Températures attendues précédemment : Temps sec et doux, vent d'ouest modéré, températures en hausse lente, aucune précipitation notable sur les 5 départements..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 2 au Dimanche 6 Septembre 2026) ===
+Auteur: clem11
+Message:
+il y a une heure, Sebaas a dit :
+			Costaud le diagramme ENS pour Toulouse, et pas vraiment de sortie à 15j...
+	Jen viens à me demander si on a pas définitivement basculé dans un climat subtropical avec alternance de saison douce fraîche extrêmement humide et d’une saison chaude et très sèche de 6mois chacune
+								5
+								3
+								1
+								8
+
+=======================
+
+Auteur: giec 2100
+Message:
+suivant une expression ancienne, Africa begins at Calais - l'Afrique commence à Calais -, qui traduisait bien le chauvinisme britannique de l'époque, ou la croyance que la "civilisation" s'arrêtait à cette limite géographique...  eh bien le modèle de prévisions européen semble nous servir la même chose, en termes de cumul de précipitations, à l'échéance du 5 septembre !... :
+	régime toujours aussi sec au S du 50ème parallèle en Europe...
+								3
+
+=======================
+
+Auteur: Téton dans les nuages
+Message:
+A ceux qui prendraient le temps d’analyser les Tmax et Tmin en jeu, peut-on déjà parler de vague de chaleur / canicule à partir de Vendredi prochain ? Au-delà des potentiels records de température, pourrions nous battre des records de vigilances canicules tardifs (après avoir battu des records de précocité en Mai) ?
+
+=======================
+
 Auteur: Fournaise-toulousaine
 Message:
 Il y a 4 heures, clem11 a dit :
@@ -412,57 +491,15 @@ Message:
 
 =======================
 
-Auteur: AmourDaria
+Auteur: coolmaster57
 Message:
-Il y a 6 heures, Neige2018 a dit :
-			Tx un peu moins hautes que prévu initialement j’ai l’impression 
-	Au dela de ça, au Nord, 1 gros tiers nord, on s'en fou complètement de cette pseudo vague de chaleur.
-	On est même pas concerné, tout au plus un pic dimanche après midi mais faisant suite à une nuit fraîche et suivi d'une nuit très raisonnable. 
-	Ce qui est intéressant c'est le potentiel de bon rafraîchissement saisonnier ensuite devenant plus marqué ainsi qu'une dégradation générale en mode Nord Ouest. 
+bonsoir, effectivement je suis d'accord avec brice, le sud de la france va avoir des températues hors norme..
+	35 à 40 degrés attendus dans certaines villes..
+	c'est pas normal pour un début septembre..
+	Heureusement, dans le nord, on sera épargné de cette chaleur..
+	Courage et vivement l'hiver..
+	Bonne fin de soirée..
 								1
-								5
-								5
-								1
-
-=======================
-
-Auteur: Run999H
-Message:
-il y a une heure, AmourDaria a dit :
-			Au dela de ça, au Nord, 1 gros tiers nord, on s'en fou complètement de cette pseudo vague de chaleur.
-			On est même pas concerné, tout au plus un pic dimanche après midi mais faisant suite à une nuit fraîche et suivi d'une nuit très raisonnable. 
-			Ce qui est intéressant c'est le potentiel de bon rafraîchissement saisonnier ensuite devenant plus marqué ainsi qu'une dégradation générale en mode Nord Ouest. 
-	Ta pseudo vague de chaleur va quand même titiller voire dépasser les records avec pas loin de 40° en Tx mais surtout on ne sait pas si les minimales dans la nuit de samedi à dimanche descendront sous les 25° du côté de Bordeaux par exemple. On ne sait pas si les 35° ne seront pas atteints 3j consécutifs voire plus sur la moitié sud. 
-	On évitera donc ce genre de commentaires assez indigestes pour qualifier le prochain événement qui se rajoute aux précédents de l’été 2026.
-	Modifié il y a 1 heure par Run999H
-								24
-								17
-								1
-
-=======================
-
-Auteur: clem11
-Message:
-Il y a 1 heure, AmourDaria a dit :
-			Au dela de ça, au Nord, 1 gros tiers nord, on s'en fou complètement de cette pseudo vague de chaleur.
-			On est même pas concerné, tout au plus un pic dimanche après midi mais faisant suite à une nuit fraîche et suivi d'une nuit très raisonnable. 
-			Ce qui est intéressant c'est le potentiel de bon rafraîchissement saisonnier ensuite devenant plus marqué ainsi qu'une dégradation générale en mode Nord Ouest. 
-	Jen ai vu passer des messages sur IC à l’époque où j’étais modo. J’en ai vu passer des ignares. Mais ça ça a sa place au fond du placard. Quelle honte ! Viens faire un tour dans les passoires thermiques du sud de la France 
-								6
-								4
-								1
-								1
-
-=======================
-
-Auteur: edel
-Message:
-Il y a 2 heures, AmourDaria a dit :
-			Au dela de ça, au Nord, 1 gros tiers nord, on s'en fou complètement de cette pseudo vague de chaleur.
-			On est même pas concerné, tout au plus un pic dimanche après midi mais faisant suite à une nuit fraîche et suivi d'une nuit très raisonnable. 
-			Ce qui est intéressant c'est le potentiel de bon rafraîchissement saisonnier ensuite devenant plus marqué ainsi qu'une dégradation générale en mode Nord Ouest. 
-	C'est maladroit sur la forme, il faut enlever "on s'en fou complètement de cette pseudo vague de chaleur" et ça devient plus pertinent.
-	On est sur un topic national, il faut éviter les régionalismes ici.
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: petit âge glaciaire 11
@@ -572,7 +609,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 13 heures par Jojobarbar
+	Modifié il y a 15 heures par Jojobarbar
 								3
 
 =======================
@@ -588,7 +625,7 @@ il y a une heure, Jojobarbar a dit :
 	"wet and see" au lieu de "wait and see"... tellement sont pressants les besoins en précipitations... !
 	sinon pour Paris la moyenne des scénarios de cumul au 13 septembre fluctue modestement de 7 à 13mm sur les trois derniers runs : faudra donc se contenter de peu...
 	pour le reste du pays, hélas, je ronge mon frein...
-	Modifié il y a 21 heures par giec 2100
+	Modifié il y a 23 heures par giec 2100
 								2
 
 =======================
@@ -600,7 +637,7 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 8 heures par petit âge glaciaire 11
-								4
+	Modifié il y a 10 heures par petit âge glaciaire 11
+								5
 								6
 								1
