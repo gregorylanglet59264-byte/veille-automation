@@ -304,7 +304,7 @@ Températures minimales : en baisse.
 Températures maximales : identiques à la veille.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 020405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 2 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 2 septembre 2026 à 00H00 UTC, et évolution Anticyclone 1023/1025 hPa dans le golfe de Gascogne, évoluant peu. Dépression 991 hPa au nord des îles Britanniques, se décalant progressivement vers l'est. Nouvelle dépression 992 hPa au sud-ouest de l'Islande la nuit de mercredi à jeudi, se décalant lentement vers l'est. Flux de Sud-Ouest perturbé sur les Iles britanniques, devenant modéré à assez fort en Manche. 3 - Prévisions pour la journée du mercredi 2 septembre VENT : Ouest à Sud-Ouest 3 à 4, fraîchissant Sud-Ouest 4 à 5 l'après-midi, localement 6 en mer du Nord à la fin. MER : peu agitée. HOULE : non significative, localement Ouest 0.5 à 1 m au sud de Boulogne-sur-Mer. TEMPS : nuageux, quelques pluies ou averses. VISIBILITE : bonne, localement moyenne sous précipitations. 4 - Prévisions pour la nuit du mercredi 2 septembre au jeudi 3 septembre VENT : Sud-Ouest 4 à 5, localement 6 en Mer du Nord, fraîchissant 5 à 6 en milieu de nuit. MER : peu agitée à agitée, devenant agitée en milieu de nuit. HOULE : non significative, mais localement Ouest 0.5 à 1 m au sud de Boulogne-sur-Mer au début. TEMPS : très nuageux à couvert, quelques pluies ou bruines. VISIBILITE : bonne, parfois moyenne sous pluie. 5 - Prévisions pour la journée du jeudi 3 septembre VENT : Sud-Ouest 5 à 6. MER : agitée. HOULE : non significative, parfois Ouest 0.5 à 1 m au sud de Boulogne-sur-Mer. TEMPS : couvert par nuages bas, quelques pluies en journée. VISIBILITE : bonne, parfois moyenne sous pluie. 6 - Prévisions pour la nuit du 3 au 4 et la journée du vendredi 4 septembre VENT : Ouest à Sud-Ouest 5 à 6, fraîchissant temporairement 7 en début de matinée en mer du nord. MER : agitée. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 0,5 à 1,5 m. 7 - Tendance pour les jours suivants Samedi 5 septembre Ouest à Sud-Ouest modéré devenant variable faible. Indice de confiance : 3 sur 5 Dimanche 6 septembre Sud-Ouest modéré. Indice de confiance : 3 sur 5 Lundi 7 septembre secteur Ouest modéré. Indice de confiance : 2 sur 5 Mardi 8 septembre Sud-Ouest modéré, temporairement assez fort. Indice de confiance : 2 sur 5 8 - Observations le mercredi 2 septembre 2026 à 03H00 UTC Dunkerque : vent Sud-Sud-Ouest 6 noeuds, mer peu agitée, 1020 hPa en baisse, nuageux avec éclaircies, visibilité 7 milles. Cap Gris Nez : vent Ouest 14 noeuds. Boulogne : vent Ouest-Sud-Ouest 12 noeuds, 1020 hPa en baisse, très nuageux à couvert, visibilité 10 milles. Bouée Sandettie : vent Ouest-Sud-Ouest 14 noeuds, creux 0,4 mètre, 1019 hPa en baisse, visibilité 10 milles. Prochain bulletin le mercredi 2 septembre 2026, vers 12H30 légales
+FQCT40 LFQQ 020935 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 2 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 2 septembre 2026 à 06H00 UTC, et évolution Dorsale 1023/1025 hPa du golfe de Gascogne aux Açores, évoluant peu demain. Dépression 994 hPa à l'ouest immédiat de la Norvège, se décalant progressivement vers l'est. Nouvelle dépression 985 hPa au sud-ouest de l'Islande cet après-midi, se décalant lentement vers l'est. Flux de Sud-Ouest perturbé sur les Iles Britanniques et en Manche. 3 - Prévisions pour l'après-midi du mercredi 2 septembre VENT : Sud-Ouest 4 à 5, parfois 6 en mer du Nord en fin d'après-midi. MER : peu agitée, devenant localement peu agitée à agitée en fin de journée en mer du Nord. HOULE : Ouest 0.5 à 1 m au sud de Boulogne-sur-Mer, non significative ailleurs. TEMPS : très nuageux, quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 4 - Prévisions pour la nuit du mercredi 2 septembre au jeudi 3 septembre VENT : fraîchissant Sud-Ouest 5 à 6. MER : peu agitée à agitée, devenant agitée en seconde partie de nuit. HOULE : Ouest proche de 0.5 m au sud de Boulogne-sur-Mer, non significative ailleurs. TEMPS : couvert, quelques pluies ou bruines éparses. VISIBILITE : bonne, parfois moyenne sous pluies. 5 - Prévisions pour la journée du jeudi 3 septembre VENT : Sud-Ouest 5 à 6. Rafales. MER : agitée. HOULE : Ouest 0.5 à 1 m au sud de Boulogne-sur-Mer, et temporairement Sud 0.5 à 1 m dans le détroit le matin, non significative ailleurs. TEMPS : très nuageux à couvert, quelques pluies ou bruines éparses le matin. VISIBILITE : bonne, parfois moyenne sous pluies. 6 - Prévisions pour la nuit du 3 au 4 et la journée du vendredi 4 septembre VENT : Sud-Ouest 5 à 6 en Manche, mais fraîchissant 6 à 7 en mer du Nord, mollissant partout Ouest à Sud-Ouest 5 en fin de journée. Rafales. MER : agitée, devenant passagèrement agitée à forte à la mi-journée. HOULE : localement Ouest 0.5 à 1 m au sud de Boulogne-sur-Mer, s'amplifiant Ouest à Sud-Ouest 0.5 à 1.5 m partout en fin de journée. TEMPS : très nuageux à couvert, quelques pluies ou bruines éparses. VISIBILITE : bonne, parfois moyenne sous pluies. 7 - Prévisions pour la nuit du 4 au 5 et la journée du samedi 5 septembre VENT : Ouest à Sud-Ouest 4 à 5. MER : agitée, devenant peu agitée en seconde partie de nuit. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 8 - Tendance pour les jours suivants Dimanche 6 septembre Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5 Lundi 7 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mardi 8 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Mercredi 9 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 9 - Observations le mercredi 2 septembre 2026 à 09H00 UTC Dunkerque : vent Sud-Ouest 8 noeuds, 1021 hPa en hausse. Cap Gris Nez : vent Ouest-Sud-Ouest 16 noeuds. Boulogne : vent Ouest-Sud-Ouest 12 noeuds, 1022 hPa en hausse, très nuageux à couvert, visibilité 10 milles. Prochain bulletin le mercredi 2 septembre 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -332,12 +332,12 @@ orange est faible dans le sud-ouest samedi et dimanche.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Vigilance Météo France
 • Infoclimat Direct : Météo France va (enfin) passer &#xE0; la mesure d'une rafale sur 3 s, en norme OMM.
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Vigilance Météo France
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Climatologie 2026
+• Infoclimat Direct : Meteo-Kit, template gratuit en alternative &#xE0; meteotemplate payant
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 02/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -345,9 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 2 Septembre 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Pour les 15 prochains jours, les Hauts-de-France connaissent un premier épisode chaud et sec jusqu’à lundi 7, puis une dégradation plus fraîche et modérément pluvieuse autour du 8-10, avant un probable retour du temps sec mais moins chaud ; la fin de période reste incertaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Éclaircies puis pluies faibles en soirée de dimanche..
+Températures attendues précédemment : Vent de sud-ouest, hausse des températures vendredi, orages surtout au sud ; rafales possibles en Manche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 2 au Dimanche 6 Septembre 2026) ===
@@ -546,7 +546,7 @@ Pas encore ouvert le nouveau topic ? Pourtant il y a des signaux intéressants q
 	A suivre car même si il y a un changement de synoptique il peut n'être que temporaire.
 	Il va falloir aussi surveiller si ce possible changement affecte aussi le sud, d'après AIFS il semble que oui et surtout suivre les possibilités de précipitations qui pourraient ne concernent que le nord voire l'extrême nord de la France.
 	AIFS Toulouse :
-	Modifié il y a 22 heures par petit âge glaciaire 11
+	Modifié hier à 09:48 par petit âge glaciaire 11
 Modifié
 								5
 								4
@@ -569,7 +569,7 @@ Pas hyper convaincu pour un changement profond de synoptique sur cette semaine.
 	Quand on regarde les modélisations sur le long terme, notamment CEP et GFS, cela reste très antyclonique, avec un zonal plus au moins ondulant.
 	Baisse des températures très probable, mais je ne vois rien de bien enthousiasmant à l'échelle du pays.
 	Petit jeu, à latitude égal de la France, quel est le pays le plus sec de l'hémisphère nord sur les deux prochaines semaines ? (Hors désert de Gobi évidemment)
-	Modifié il y a 20 heures par Twister83
+	Modifié il y a 22 heures par Twister83
 								4
 
 =======================
@@ -613,7 +613,7 @@ Message:
 			Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS [...]
 			On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
 	Yes, on voit aussi que le changement s'accompagne de timides signaux humides qui loin d'être exceptionnels, témoignent de l'influence de la dépression probable. Pas en tant que source principale, mais au moins en courbant le flux de manière à ce qu'il soit légèrement cyclonique.
-	Modifié il y a 16 heures par Jojobarbar
+	Modifié il y a 18 heures par Jojobarbar
 								1
 
 =======================
@@ -625,7 +625,7 @@ oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme d
 	les talwegs improductifs en termes d'humidité on n'arrête pas d'en connaître cette année, non... ?
 	au reste ce qui ressort également des ensembles cités par PAG précédemment...
 	7
-	Modifié il y a 14 heures par giec 2100
+	Modifié il y a 16 heures par giec 2100
 								3
 								1
 
@@ -641,7 +641,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 1 heure par Jojobarbar
+	Modifié il y a 3 heures par Jojobarbar
 								3
 
 =======================
@@ -657,4 +657,5 @@ il y a une heure, Jojobarbar a dit :
 	"wet and see" au lieu de "wait and see"... tellement sont pressants les besoins en précipitations... !
 	sinon pour Paris la moyenne des scénarios de cumul au 13 septembre fluctue modestement de 7 à 13mm sur les trois derniers runs : faudra donc se contenter de peu...
 	pour le reste du pays, hélas, je ronge mon frein...
-	Modifié il y a 9 heures par giec 2100
+	Modifié il y a 11 heures par giec 2100
+								1
