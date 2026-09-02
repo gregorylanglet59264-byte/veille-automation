@@ -1,122 +1,132 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Mercredi 2 Septembre 2026
-**Période :** Semaine 1 (Du Mercredi 2 au Dimanche 6 Septembre 2026) & Semaine 2 (Du Lundi 7 au Dimanche 13 Septembre 2026)
+**Période :** Semaine 1 (Du mercredi 2 au dimanche 6 septembre 2026) & Semaine 2 (Du lundi 7 au dimanche 13 septembre 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *...*
-- **Fiabilité du scénario majoritaire :** Scénario très court — *...*
+- **Consensus des modèles :** Modéré — *Accord CEP/UKMO/GEM sur la chaleur au sud, GFS en retrait; accord sur le rafraîchissement ensuite, mais flou sur les pluies.*
+- **Fiabilité du scénario majoritaire :** Coup de chaud marqué, puis dégradé nord-sud — *Scénario le plus probable : forte chaleur au sud ce week-end, nette baisse des températures en semaine 2, sans retour franc des pluies.*
 - **Stabilité des cartes/scénarios :** 6 / 76 — *6 cartes sur 76 analysées*
-- **Niveau d'incertitude global :** Incertitude forte — *...*
+- **Niveau d'incertitude global :** Forte — *La position de la dépression britannique et les cumuls de pluie restent les principaux points de vigilance.*
 
-## 🗓️ SEMAINE 1 : Du Mercredi 2 au Dimanche 6 Septembre 2026
+## 🗓️ SEMAINE 1 : Du mercredi 2 au dimanche 6 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Pic de chaleur intense : Un dôme de chaleur remonte d'Afrique vers la France, le pic de chaleur s'annonce particulièrement marqué.
-2. Écart Nord-Sud marqué : L'axe principal de la chaleur se situe sur le Sud, le Nord bénéficiant d'un répit plus net.
-3. Temps sec généralisé : L'absence de précipitations notables est quasi unanime, avec un risque lointain d'orages sur le Nord-Est.
-4. Prudence sur les températures : L'incertitude la plus forte concerne l'intensité et la localisation précise du pic de chaleur.
-5. Changement temporaire possible : Une légère dégradation est possible par le Nord en cours de période, sans certitude.
+1. Pic de chaleur au sud : Des maximales de 35 à 40°C sont envisagées samedi entre le Sud-Ouest et le Sud-Est.
+2. Nord plus modéré : Le coup de chaud paraît temporaire et moins intense sur la moitié nord.
+3. GFS en retrait : Le modèle américain est moins chaud que CEP, UKMO et GEM pour le week-end.
+4. Temps sec généralisé : Aucune pluie significative n'est attendue jusqu'à dimanche.
+5. Orages très localisés : Un risque d'orages apparaît dimanche, surtout sur l'ouest et le centre-est.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-Les modèles s'accordent sur un temps très sec, avec un fort ensoleillement et une chaleur généralisée.
-Le scénario majoritaire privilégie un pic de chaleur intense sur le Sud, avec un écart Nord/Sud.
+1. Pic de chaleur samedi sur le Sud-Ouest et le Sud-Est, avec des maximales très au-dessus des normales.
+2. Temps sec généralisé jusqu'à dimanche inclus, sans précipitations notables.
+3. Dégradé nord-sud avec un coup de chaud plus modéré et temporaire sur le nord.
 **Points de divergence :**
-L'intensité et la durée de la chaleur, avec des scénarios allant de "simple" coup de chaud à une crue de chaleur record.
-La localisation de la "goutte froide" et son influence sur la dégradation possible par le Nord.
+1. Intensité et extension de la chaleur : CEP/UKMO/GEM très chauds, GFS/ICON plus modérés.
+2. Records possibles vs valeurs simplement au-dessus des normales.
+3. Date de début du rafraîchissement et arrivée des pluies en tout début de semaine 2.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **CEP (Modèle Européen)** (documented) | CEP très chaud et sec, les plus extrêmes pour le Sud-Ouest dès le week-end. (RNAZ) | Pic de chaleur remarquable sur le Sud, avec 39°C envisagés. (RNAZ) | Sud, Sud-Ouest, Centre-Est, Bassin parisien. | Élevée (85%) | Le modèle européen est le plus extrême, avec des scénarios à 42°C pour le Sud-Ouest. Il est rejoint par UKMO, alors que GFS et ICON sont plus mesurés. |
-| **GFS (Modèle Américain)** (documented) | GFS, plus frais et plus humide, voyant ce coup de chaud comme un épisode temporaire. (RYZ) | Coup de chaud temporaire et moins intense, notamment au Nord. (RYZ) | Moitié Nord, Nord-Est. | Élevée (85%) | En décalage complet par rapport aux autres modèles, il voit une pointe à 16°C à 850 hPa les 7-8 septembre, ce qui est nettement moins chaud que CEP. |
-| **ICON (Modèle Allemand)** (partial) | Scénario modéré, similaire à GFS, atténuant le pic de chaleur. (RYZ) | Chaleur plus mesurée, avec des températures dans les normales hautes. (RYZ) | Nord, Nord-Est. | Faible (45%) | Rejoint GFS pour tempérer les ardeurs. Il est donc en désaccord avec les modèles européen et britannique. |
-| **UKMO (Modèle Britannique)** (partial) | Scénario extrême, voit des températures encore plus élevées que CEP, jusqu'à 42°C. (RNAZ) | Pic de chaleur caniculaire sur le Sud-Ouest. (RNAZ) | Sud-Ouest. | Faible (45%) | Modèle le plus extrême, il rejoint le scénario du CEP. |
-| **AIFS (Modèle IA Européen)** (insufficient) | Non documenté pour cette semaine. (RAS) | Non déterminable. | Non déterminable. | Non estimable | Aucune donnée exploitable n'a été trouvée dans le sujet de la semaine 1. |
+| **ECMWF CEP** (Détaillé) | Chaleur forte et durable sur le sud samedi, au-dessus de 35°C entre Lyon et Périgueux, avec un pic possible à 39°C sur le Midi toulousain. | Pic de chaleur remarquable samedi sur le Sud-Ouest et le Sud-Est, temps sec, orages très localisés dimanche. | Sud-Ouest, Sud-Est, vallée du Rhône, Méditerranée; nord partiellement concerné. | Élevée (85%) | Samedi, CEP place une large partie du sud de la ligne Lyon/Périgueux au-dessus de 35°C, avec environ la moitié des scénarios vers 39°C sur le Midi toulousain. UKMO va même jusqu'à 42°C dans le Sud-Ouest, un chiffre isolé. Le run CEP IA 12Z montre une traîne de minima sans rafraîchissement durable. |
+| **GFS** (Détaillé) | GFS ne voit pas de grosses chaleurs pour le week-end : flux zonal anticyclonique, dégradé nord-sud, températures au-dessus des normales sans excès. | Coup de chaud modéré, temps sec, pas de précipitations notables. | Moitié nord, arc méditerranéen proche du littoral. | Élevée (85%) | GFS est en décalage avec les autres modèles pour le week-end : pas de grosses chaleurs, flux zonal anticyclonique, dégradé nord-sud dans une ambiance sèche. Le run de contrôle va dans le même sens. Températures au-dessus des normales mais sans excès. |
+| **UKMO** (Évoqué) | UKMO rejoint CEP et GEM avec une chaleur très forte, jusqu'à 42°C possibles dans le Sud-Ouest pour le week-end. | Chaleur extrême localisée sur le Sud-Ouest, temps sec. | Sud-Ouest, Sud-Est. | Modérée (65%) | UKMO fait partie des modèles les plus chauds avec CEP et GEM. Le chiffre de 42°C dans le Sud-Ouest reste toutefois isolé et doit être pris avec précaution. |
+| **GEM** (Évoqué) | GEM est également très chaud avec 18°C à 850 hPa autour du 7-8 septembre, soutenant le scénario de forte chaleur sur le sud. | Forte chaleur au sud, maintien d'un temps sec. | Sud, vallée du Rhône, Méditerranée. | Modérée (65%) | GEM est cité aux côtés d'UKMO et de CEP comme un modèle très chaud. La valeur de 18°C à 850 hPa renforce l'hypothèse d'un épisode de forte chaleur sur le sud. |
+| **ICON** (Évoqué) | ICON rejoint GFS pour cantonner les fortes chaleurs à une partie centrale de l'arc méditerranéen proche du littoral. | Chaleur limitée au littoral méditerranéen, temps sec. | Arc méditerranéen, littoral. | Faible (45%) | ICON est seulement évoqué pour soutenir GFS : les fortes chaleurs seraient cantonnées à une partie de l'arc méditerranéen, sans extension vers le nord-ouest. |
+| **AIFS** (Évoqué) | AIFS donne des températures au sol en dos de chameau : première poussée chaude les 3-4, pause le 5, reprise du coup de chaud à partir du 6. | Coup de chaud en deux temps, modéré sur la moitié nord. | Moitié nord, puis sud à partir du 6 septembre. | Modérée (65%) | AIFS montre une forme en dos de chameau avec une première poussée chaude les 3-4, une pause relative le 5, puis une reprise du coup de chaud à partir du 6. Pour la moitié nord, les maximales resteraient en deçà des records. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Ciel voilé, puis éclaircies. Temps sec et plus chaud possible en fin de période. | En hausse, maximales prévues entre 26 et 29°C. | moderee | CEP, GFS, ICON | Risque de ne pas voir le pic de chaleur se concrétiser. |
-| **Nord** | Soleil généreux matin et soir, passages nuageux en journée. Temps sec. | Maximales en hausse, comprises entre 27 et 31°C. | elevee | CEP, GFS, GEFS, ICON, AIFS | L'arrivée plus précoce d'une dégradation est possible. |
-| **Nord-Est** | Temps ensoleillé et sec, chaleur modérée en général. | Maximales en hausse, entre 28 et 31°C. | elevee | CEP, GFS, GEFS, ICON | L'extension de la chaleur vers le nord est incertaine. |
-| **Ouest et Façade Atlantique** | Bel ensoleillement, chaleur de plus en plus prononcée. | Maximales en nette hausse, entre 29 et 36°C, plus fraîches sur le littoral. | elevee | CEP, UKMO, GFS, GEFS, ICON | La baisse des températures par le Nord en cours de week-end est encore incertaine. |
-| **Centre** | Soleil radieux, temps chaud et sec. | Maximales en hausse, entre 30 et 34°C pour les valeurs les plus chaudes. | elevee | CEP, GFS, GEFS, ICON | L'intensité du pic de chaleur est incertaine, avec une fourchette large. |
-| **Sud-Ouest** | Pic de chaleur très remarquable, ensoleillement maximal. | Maximales exceptionnelles pour la saison, entre 35 et 39°C, localement plus encore. | elevee | CEP, UKMO, GFS, GEFS, ICON | Le scénario le plus extrême, porté à 42°C, est encore incertain. |
-| **Sud-Est et Vallée du Rhône** | Chaleur étouffante, ciel limpide, temps sec. | Maximales entre 33 et 37°C, très fortes pour la saison. | elevee | CEP, GFS, GEFS, ICON | L'ensoleillement estival favorise une chaleur importante en journée et la garde en nuit. |
-| **Méditerranée et Corse** | Soleil et chaleur, avec un léger risque de brume côtière en matinée. Temps sec. | Maximales entre 31 et 35°C, plus fraîches sur le littoral. | elevee | CEP, GEFS, GFS, GEM | La prévision de la brise de mer est affinée en gardant un oeil sur la chaleur. |
+| **Nord-Ouest** | Temps sec, éclaircies, coup de chaud limité et temporaire | Non documenté | moderee | GFS, ECMWF | Extension exacte de la chaleur vers le nord-ouest |
+| **Nord** | Beau temps ensoleillé, chaleur en hausse jeudi-vendredi, retour de nuages et pluie possible lundi | Maximales 25-31°C, minimales 16-19°C | elevee | Météo-France, ECMWF, GFS | Localisation des pluies de lundi |
+| **Nord-Est** | Soleil dominant, chaleur modérée, rafraîchissement possible en début de semaine prochaine | Non documenté | faible | GFS, ECMWF | Comportement de la goutte froide et extension de la chaleur |
+| **Ouest et Façade Atlantique** | Ensoleillé et très chaud vendredi-samedi, averses possibles sur Bordeaux dimanche-lundi | Maximales 33-36°C, 25°C sur le littoral, minimales 16-19°C | elevee | Météo-France, CEP, UKMO | Intensité maximale de la chaleur sur le littoral |
+| **Centre** | Temps sec et chaud, orages isolés possibles en fin de période | Non documenté | faible | ECMWF, GFS | Position de la limite nord de la chaleur |
+| **Sud-Ouest** | Soleil et chaleur forte, maximales 35-40°C samedi, orage possible en montagne dimanche | Maximales 35-38°C, localement 40°C sur la plaine, minimales 15-20°C | elevee | Météo-France, CEP, UKMO, GEM | Atteinte ou non des 40°C et records localisés |
+| **Sud-Est et Vallée du Rhône** | Très ensoleillé, chaleur marquée, maximales 33-36°C, orages possibles dimanche hors région lyonnaise | Maximales 33-36°C, minimales 15-19°C | elevee | Météo-France, ECMWF | Localisation exacte des orages de dimanche |
+| **Méditerranée et Corse** | Soleil généreux, chaleur très forte, maximales 35-38°C, 39°C localement samedi | Maximales 34-38°C, minimales 16-23°C, très au-dessus des normales | elevee | Météo-France, CEP, UKMO, GEM | Pic à 39°C des Alpilles au Salonnais |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Mercredi 2 et jeudi 3 septembre** : Temps ensoleillé et sec, chaleur modérée sur le sud et l'est.
-- **Vendredi 4 septembre** : Début d'un pic de chaleur intense, surtout sur le Sud-Ouest.
-- **Samedi 5 et dimanche 6 septembre** : Pic caniculaire, temps lourd et orages possibles en fin de période sur la moitié nord.
-- **Dimanche 6 septembre (soirée)** : Légère dégradation possible pour une partie du pays, le sud restant très chaud.
+- **Mercredi 2 et jeudi 3 septembre** : Temps sec et ensoleillé, chaleur déjà marquée sur le sud.
+- **Vendredi 4 septembre** : Hausse des températures, très chaud sur le Sud-Ouest.
+- **Samedi 5 septembre** : Pic de chaleur avec 35 à 40°C possibles du Sud-Ouest au Sud-Est.
+- **Dimanche 6 septembre** : Chaleur encore forte, apparition d'orages très localisés en fin de journée.
 
 **Points solides :**
-La chaleur va se renforcer pour la période de vendredi à dimanche, avec des températures très élevées.
-Le temps restera sec et ensoleillé sur la majeure partie du pays.
+1. Chaleur forte sur le Sud-Ouest et le Sud-Est vendredi-samedi, cohérente entre CEP/UKMO/GEM et Météo-France.
+2. Temps sec généralisé jusqu'à dimanche inclus.
+3. Nord plus modéré, coup de chaud temporaire.
 
 **Points fragiles :**
-L'amplitude de la chaleur dépend de la trajectoire d'une goutte froide.
-La localisation exacte des fortes chaleurs, et son extension vers le nord, reste floue.
+1. Atteinte des 40°C et records localisés.
+2. Pluies de lundi 7 sur le nord et l'ouest.
+3. GFS en retrait : doute sur l'extension de la chaleur vers le nord.
 
 **À surveiller (prochains runs) :**
-Suivre l'évolution des modèles GFS et CEP pour valider le scénario de fortes chaleurs.
-Analyser si l'axe de chaleur se décale vers le nord au cours du week-end.
+CEP et GFS 12Z, UKMO, GEM; surveiller l'évolution de la goutte froide et du pic de chaleur.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 7 au Dimanche 13 Septembre 2026
+## 🗓️ SEMAINE 2 : Du lundi 7 au dimanche 13 septembre 2026
 ### 💡 Points clés de la semaine 2
+1. Rafraîchissement en vue : Une baisse des températures est probable en milieu de semaine, surtout au nord.
+2. Dépression britannique : Un creusement sur les îles Britanniques pourrait orienter un flux d'ouest à nord-ouest.
+3. Sud encore verrouillé : Le sud garde une chaleur résiduelle et un temps sec, selon plusieurs membres.
+4. Pluies timides : Les signaux humides restent modestes et plutôt septentrionaux.
+5. Mistral en Méditerranée : Un renforcement du mistral est attendu mardi-mercredi, avec des rafales possibles.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-Le scénario majoritaire privilégie une baisse nette des températures pour la semaine prochaine.
-Ce rafraîchissement s'accompagnera d'un passage à un temps plus humide.
+1. Baisse des températures très probable en cours de semaine, surtout au nord.
+2. Pas de retour franc des pluies; signaux humides modestes.
+3. Pression reste haute sur l'Europe du Sud, chaleur résiduelle au sud-est.
 **Points de divergence :**
-Le niveau de pluie est très incertain.
-La chaleur va-t-elle se maintenir sur le Sud-Est ? L'incertitude est forte.
+1. Le rafraîchissement atteint-il le sud ? Oui selon CEP/AIFS, non selon Krholam/Twister83.
+2. Trajectoire et intensité de la dépression britannique.
+3. Cumuls de pluie : de "belles pluies" à 0,1 mm.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **CEP (Modèle Européen)** (documented) | Le CEP, suivi de son IA, voit une dégradation majeure avec un fort refroidissement. (VP) | Forte dégradation, baisse des températures et précipitations. (VP) | Pays entier, en particulier la moitié nord. | Élevée (90%) | Le modèle européen soutient l'hypothèse d'une amélioration. Les perturbations pourraient concerner le pays, même si l'incertitude reste forte. |
-| **GFS/GEFS (Modèle Américain)** (documented) | GFS et son ensemble GEFS confirment la baisse des températures, avec des précipitations possibles sur le nord. (VP) | Baisse significative du mercure, surtout au nord. (VP) | Moitié nord. | Modérée (65%) | Le signal de la baisse des températures est très net, mais le scénario concernant les précipitations est encore flou. |
-| **CEP IA et GEM** (partial) | Le CEP IA et GEM prolongent la chaleur plus longtemps mais finissent par basculer. (VP) | Chaleur résiduelle lundi, nette dégradation en fin de période. (VP) | Sud, Sud-Ouest, vallée du Rhône. | Modérée (65%) | Depuis le début, ces modèles retardent la chute des températures et pourraient préserver la chaleur encore un peu plus longtemps. |
-| **AIFS (Modèle IA Européen)** (documented) | L'IA du CEP (AIFS) confirme l'installation d'un flux d'ouest dépressionnaire. (VP) | Changement de synoptique et arrivée de la pluie. (VP) | Pays entier, en particulier la moitié nord. | Élevée (85%) | S'exprime dans les commentaires des membres, rejoint par GEFS. (VP) |
-| **GEM (Modèle Canadien)** (documented) | GEM propose un scénario radicalement opposé, plus chaud et anticyclonique. (VP) | Chaleur tenace et temps sec sur le pays. (VP) | Sud, Sud-Ouest, vallée du Rhône. | Modérée (65%) | Se distingue des autres modèles et maintient les hautes pressions. Il est toutefois minoritaire. |
-| **Autres modèles (ICON, ...)** (partial) | Non déterminable. | Non déterminable. | Non déterminable. | Faible (45%) | Aucune information fiable pour ces modèles sur ce topic. |
+| **ECMWF CEP** (Détaillé) | Dépression entre le sud de la Grande-Bretagne et le nord de la France mercredi, hautes pressions sur l'Atlantique, baisse nette des températures à 850 hPa. | Rafraîchissement probable mercredi-jeudi, pluies timides plutôt au nord, chaleur résiduelle au sud. | Nord, nord-ouest, puis possiblement centre et sud. | Élevée (85%) | Le déterministe CEP du matin installe mercredi des hautes pressions sur l'Atlantique et une dépression entre le sud de la Grande-Bretagne et le nord de la France. Les ensembles suivent l'IA et montrent une plongée des températures à 850 hPa, y compris pour Toulouse et Aix-en-Provence. |
+| **GEFS** (Détaillé) | Plongée de la moyenne des températures à 850 hPa mercredi pour Paris, avec une majorité de scénarios modérément humides sur plusieurs jours. | Baisse des températures au nord, signaux de pluie faibles à modérés, forte dispersion. | Nord, nord-ouest, puis possiblement sud. | Élevée (85%) | La moyenne GEFS pour Paris voit les températures à 850 hPa plonger mercredi. Les ensembles montrent une majorité de scénarios modérément humides sur plusieurs jours, mais aussi une très forte dispersion, de "belles pluies" à 0,1 mm. |
+| **AIFS** (Évoqué) | Ensemble proche de GEFS, envisage un changement de synoptique même dans le sud, avec des signaux humides timides. | Rafraîchissement possible au sud, précipitations limitées, retour d'un flux plus océanique. | Nord, puis possiblement sud et Méditerranée. | Modérée (65%) | L'ensemble AIFS est un copié-collé de GEFS, ce qui renforce l'hypothèse d'un changement de synoptique. Il envisage une baisse des températures même dans le sud, avec des signaux humides timides. |
+| **GFS (déterministe)** (Évoqué) | GFS déterministe reste anticyclonique et sec, en minorité pour les pluies sur Paris; baisse des températures confirmée mais sans excès. | Temps sec et anticyclonique, rafraîchissement modéré, pluies très limitées. | Nord, centre, puis possiblement sud. | Modérée (65%) | Le GFS déterministe reste plus sec et anticyclonique, en minorité pour les pluies sur Paris. Il confirme la baisse des températures mais pas un retour franc des précipitations. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Dégradation pluvieuse lundi, puis averses en nette baisse des températures. | En baisse, maximales prévues entre 18 et 22°C. | moderee | CEP, GEFS, AIFS | L'ampleur de la dégradation est incertaine. |
-| **Nord** | Averses, puis nette amélioration avec un ciel de traîne. Temps frais. | En baisse, maximales entre 16 et 21°C. | elevee | CEP, GFS, GEFS, AIFS | Une baisse plus tardive des températures est possible. |
-| **Nord-Est** | Changement de temps l'après-midi, avec des orages peu mobiles. | En baisse, maximales entre 20 et 24°C. | moderee | CEP, GEFS, AIFS | La trajectoire de la goutte froide est encore à surveiller. |
-| **Ouest et Façade Atlantique** | Éclaircies, averses se raréfiant. Temps plus sec. | En baisse, maximales entre 21 et 25°C. | moderee | CEP, AIFS | La fiabilité est plus faible pour les départements du Sud-Ouest. |
-| **Centre** | Temps en demi-teinte, alternance de pluies faibles et d'éclaircies. | En baisse, maximales entre 22 et 25°C. | moderee | CEP, GEFS | La présence de la perturbation est modélisée plus à l'ouest. |
-| **Sud-Ouest** | Risque d'orages, surtout en fin de semaine, dans une ambiance plus lourde. | En baisse, maximales entre 25 et 29°C. | moderee | CEP, GEFS, AIFS | Le maintien de la chaleur dépendra de la trajectoire de la dépression. |
-| **Sud-Est et Vallée du Rhône** | Temps sec et ensoleillé, encore très chaud au début, avant une possible baisse.  | En baisse, maximales entre 24 et 28°C. | elevee | CEP, GFS, GEFS, AIFS | La remise en cause de la chaleur se fera plus tardivement. |
-| **Méditerranée et Corse** | Soleil et chaleur, avec un risque d'orages très limité. Temps sec. | En baisse, maximales entre 25 et 29°C. | moderee | CEP, GEFS, AIFS | La dégradation pourrait être trop faible pour atteindre la Méditerranée. |
+| **Nord-Ouest** | Temps plus changeant, fraîchissement probable, pluies possibles mais non garanties | Non documenté | moderee | GEFS, ECMWF, AIFS | Trajectoire de la dépression britannique |
+| **Nord** | Pluie possible lundi, puis nette baisse des températures, soleil et passages nuageux | Maximales 21-30°C, minimales 13-16°C | elevee | Météo-France, GEFS, AIFS | Cumuls exacts des pluies |
+| **Nord-Est** | Rafraîchissement probable, pluies possibles mais peu documentées | Non documenté | faible | GEFS, ECMWF | Rôle exact de la dépression britannique |
+| **Ouest et Façade Atlantique** | Averses possibles mardi-mercredi, nette baisse des températures, soleil jeudi-vendredi | Maximales 21-24°C, minimales 11-18°C | elevee | Météo-France, GEFS, ECMWF | Durée exacte des pluies |
+| **Centre** | Baisse des températures, orages possibles en début de semaine | Non documenté | faible | ECMWF, GFS | Position de la limite pluie/rafraîchissement |
+| **Sud-Ouest** | Averses possibles en montagne, soleil ailleurs, températures en baisse puis hausse vendredi | Maximales 23-27°C mardi-mercredi, minimales 12-16°C | elevee | Météo-France, GEFS, ECMWF | Précipitations en montagne et neige au-dessus de 2600 m |
+| **Sud-Est et Vallée du Rhône** | Passage plus frais et orageux mardi-mercredi, puis soleil jeudi-vendredi | Maximales 25-27°C mardi-mercredi, minimales 12-15°C | elevee | Météo-France, ECMWF | Localisation des ondées |
+| **Méditerranée et Corse** | Temps largement ensoleillé, Mistral assez fort, températures en baisse en fin de semaine | Maximales 30-33°C mardi-mercredi, minimales 15-20°C, baisse ensuite | elevee | Météo-France, CEP, GFS | Force du Mistral et baisse des maximales |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 7 et mardi 8 septembre** : Dégradation par l'ouest, avec un net rafraîchissement.
-- **Mercredi 9 et jeudi 10 septembre** : Temps de traîne humide et agité au Nord-Ouest, belle éclaircies ailleurs.
-- **Jeudi 10 et vendredi 11 septembre** : Possibles orages, principalement dans l'intérieur du pays.
-- **Week-end des 12 et 13 septembre** : Risque orageux sous abats, puis possible retour au sec.
+- **Lundi 7 et mardi 8 septembre** : Chaleur encore présente au sud, pluies possibles sur le nord et l'ouest, mistral en renforcement.
+- **Mercredi 9 septembre** : Baisse nette des températures sur une large partie nord, averses possibles.
+- **Jeudi 10 et vendredi 11 septembre** : Temps plus sec et ensoleillé, températures en baisse, mistral encore localement fort.
+- **Samedi 12 et dimanche 13 septembre** : Incertitude forte : poursuite du temps sec ou retour d'un flux océanique plus humide.
 
 **Points solides :**
-Le retour à un temps plus humide gagne en crédibilité. (VP)
-Une baisse des températures est très probable sur une grande partie du pays. (VP)
+1. Baisse des températures au nord en milieu de semaine.
+2. Temps sec et chaud au sud-est avec Mistral.
+3. Pas d'épisode méditerranéen en vue pour la semaine 2.
 
 **Points fragiles :**
-Les quantités de pluie sont très incertaines.
-La localisation des zones les plus arrosées est encore floue.
+1. Précipitations sur le nord, encore très incertaines.
+2. Extension du changement de synoptique vers le sud.
+3. Retour possible de la chaleur en fin de semaine.
 
 **À surveiller (prochains runs) :**
-Surveiller la trajectoire de la goutte froide qui doit apporter ce rafraîchissement.
-Analyser si les précipitations pourront couvrir l'ensemble du pays.
+CEP et GFS 12Z, ensembles GEFS/AIFS, UKMO; surveiller la formation de la dépression britannique.
 
 
 ========================================
@@ -124,27 +134,27 @@ Analyser si les précipitations pourront couvrir l'ensemble du pays.
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-...Changement de régime à la mi-septembre, avec un temps plus frais et plus humide...
+Première quinzaine de septembre encore très chaude sur le sud, avec un pic ce week-end, puis baisse progressive des températures par le nord; le retour des pluies reste incertain et tardif.
 
 ### Période la plus fiable
-...Semaine 1 (du 2 au 6 septembre)...
+Semaine 1 (02-06/09) : la proximité et les bulletins Météo-France renforcent la fiabilité, malgré l'écart GFS.
 
 ### Phénomènes récurrents
-...Chaleur intense dans le Sud et orages orageux sur le Nord...
+Hauts géopotentiels persistants sur l'Europe, chaleur tardive au sud, sécheresse de surface, orages localisés d'évolution diurne, mistral en Méditerranée.
 
 ### Principales incertitudes
-...Le positionnement exact de la goutte froide et l'ampleur de la chaleur...
+Intensité des 40°C, extension de la chaleur vers le nord, date et ampleur du changement de synoptique, cumuls de pluie.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le moment du rafraîchissement varie de plusieurs jours selon les modèles. Le pic de chaleur et les pluies sont sujets à décalages.
-- **Localisation :** L'incertitude sur la trajectoire de la goutte froide est majeure, impactant la position des zones de pluie et le maintien de la chaleur.
-- **Intensité :** La chaleur pourrait être plus forte que prévu, notamment en Méditerranée, tout comme l'intensité des orages.
-- **Informations manquantes :** Pas d'informations fiables sur les cumuls de pluie, la force du vent (hors divers), et les températures précises pour la fin de période.
-- **Modèles sous-documentés :** Les modèles comme UKMO, GEM, JMA, CMC sont très peu documentés.
-- **Incertitudes images :** Les cartes partagées pourraient ne pas être à la pointe de la modélisation.
+- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes : le pic de chaleur de samedi et le début du rafraîchissement en semaine 2 restent à préciser, notamment la date exacte du passage de la dépression britannique.
+- **Localisation :** Doutes sur la localisation précise et les zones géographiques concernées : la limite entre chaleur et fraîcheur varie selon GFS et CEP; les orages de dimanche-lundi sont encore mal localisés, tout comme les pluies du nord en semaine 2.
+- **Intensité :** Doutes sur l'intensité : possibilité de 40°C ou de records localisés dans le Sud-Ouest et le Sud-Est; incertitude sur la force du mistral et sur les cumuls de pluie, qui peuvent aller de simples traces à plusieurs jours de pluie.
+- **Informations manquantes :** Informations importantes non abordées ou manquantes dans les discussions : vent non documenté sur plusieurs zones, pas de détail pour le nord-est, le centre ou la Bretagne; risque de feux et sécheresse évoqué mais non quantifié.
+- **Modèles sous-documentés :** Modèles peu ou pas commentés par les membres : ICON, GEM, UKMO et AIFS sont peu détaillés; ICON n'est pas mentionné en semaine 2.
+- **Incertitudes images :** Incertitudes sur les graphiques et cartes du forum : les diagrammes ENS et cartes 850 hPa cités ne sont pas reproductibles ici; le run de contrôle GFS et la "goutte froide" CEP sont évoqués sans détail chiffré.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-...
+🌡️ Fort coup de chaud attendu ce week-end sur le sud de la France, avec 35 à 40°C possibles entre le Sud-Ouest et le Sud-Est. Au nord, la chaleur sera plus modérée et temporaire. La semaine prochaine s'annonce plus fraîche, mais le retour des pluies reste très incertain. Retrouvez l'analyse consolidée de la semaine. #Météo #Prévisions #Septembre2026
