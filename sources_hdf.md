@@ -306,12 +306,12 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : &#x200B;&#x2728;&#x200B; &#x1D40B;&#x1D41A; &#x1D402;&#x1D428;&#x1D42E;&#x1D429;&#x1D41E; &#x1D41D;&#x1D41E; &#x1D405;&#x1D42B;&#x1D41A;&#x1D427;&#x1D41C;&#x1D41E; &#x1D41D;&#x1D41E;&#x1D42C; &#x1D402;&#x1D425;&#x1D422;&#x1D426;&#x1D41A;&#x1D42D;&#x1D42C; &#x1D7D0;&#x1D7CE;&#x1D7D0;&#x1D7D4; &#x200B;&#x2728;&#x200B;&#x200B; Poule 6 : Bordeaux, Aurillac, Saint Denis de la Réunion, Montpellier
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : &#x2600;&#xFE0F;&#x1F393;&#x1F3EB; &#x1D40B;'&#x1D400;&#x1D426;&#x1D429;&#x1D421;&#x1D422; &#x1D40C;&#x1D41E;&#x301;&#x1D42D;&#x1D41E;&#x301;&#x1D428; &#x1F3EB;&#x1F393;&#x2600;&#xFE0F; : prédis la météo, deviens... Major de Promo !
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Carte des cumuls de précipitations... sur l'année!
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Carte des cumuls de précipitations... sur l'année!
+• Infoclimat Direct : Statistiques et anomalies climatiques globales
+• Infoclimat Direct : Du 31 ao&#xFB;t au 06 septembre 2026 prévisions météo semaine 36
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 02/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -319,36 +319,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 2 Septembre 2026.
-Résumé général HDF précédent : Première semaine : temps sec, vent d'ouest, pic de chaleur dimanche 6 (25-30°C). Deuxième semaine : bascule probable vers un temps plus frais et plus humide autour du 8-10, puis incertitude sur un éventuel retour anticyclonique en fin de période..
+Résumé général HDF précédent : Première semaine plutôt sèche et douce, avec un coup de chaud modéré en fin de semaine (25-28°C). Deuxième semaine plus fraîche et plus instable, avec un risque de pluie, mais sans excès. Les températures resteront au-dessus des normales de saison..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Ciel changeant, éclaircies, vent d'ouest sensible, chaleur modérée en fin de semaine. (103 caractères).
+Températures attendues précédemment : Ciel variable, vent d'ouest, chaleur modérée en fin de semaine, pas de canicule pour les HDF. (110 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 2 au Dimanche 6 Septembre 2026) ===
-Auteur: Sebaas
-Message:
-il y a 56 minutes, clem11 a dit :
-			Oh que oui les 40 seront approchés dans le sud ouest. Nul doute là dessus vu les masses d’air en jeu. Quel enfer vraiment interminable 
-	Costaud le diagramme ENS pour Toulouse, et pas vraiment de sortie à 15j...
-								3
-								3
-								1
-								7
-
-=======================
-
-Auteur: clem11
-Message:
-il y a une heure, Sebaas a dit :
-			Costaud le diagramme ENS pour Toulouse, et pas vraiment de sortie à 15j...
-	Jen viens à me demander si on a pas définitivement basculé dans un climat subtropical avec alternance de saison douce fraîche extrêmement humide et d’une saison chaude et très sèche de 6mois chacune
-								5
-								3
-								1
-								8
-
-=======================
-
 Auteur: giec 2100
 Message:
 suivant une expression ancienne, Africa begins at Calais - l'Afrique commence à Calais -, qui traduisait bien le chauvinisme britannique de l'époque, ou la croyance que la "civilisation" s'arrêtait à cette limite géographique...  eh bien le modèle de prévisions européen semble nous servir la même chose, en termes de cumul de précipitations, à l'échéance du 5 septembre !... :
@@ -500,6 +476,30 @@ Message:
 	🤔  hummm 
 								4
 
+=======================
+
+Auteur: AmourDaria
+Message:
+Il y a 6 heures, Neige2018 a dit :
+			Tx un peu moins hautes que prévu initialement j’ai l’impression 
+	Au dela de ça, au Nord, 1 gros tiers nord, on s'en fou complètement de cette pseudo vague de chaleur.
+	On est même pas concerné, tout au plus un pic dimanche après midi mais faisant suite à une nuit fraîche et suivi d'une nuit très raisonnable. 
+	Ce qui est intéressant c'est le potentiel de bon rafraîchissement saisonnier ensuite devenant plus marqué ainsi qu'une dégradation générale en mode Nord Ouest. 
+								1
+								1
+
+=======================
+
+Auteur: Run999H
+Message:
+il y a 46 minutes, AmourDaria a dit :
+			Au dela de ça, au Nord, 1 gros tiers nord, on s'en fou complètement de cette pseudo vague de chaleur.
+			On est même pas concerné, tout au plus un pic dimanche après midi mais faisant suite à une nuit fraîche et suivi d'une nuit très raisonnable. 
+			Ce qui est intéressant c'est le potentiel de bon rafraîchissement saisonnier ensuite devenant plus marqué ainsi qu'une dégradation générale en mode Nord Ouest. 
+	Ta pseudo vague de chaleur va quand même titiller voire dépasser les records avec pas loin de 40° en Tx mais surtout on ne sait pas sur les minimales dans la nuit de samedi à dimanche descendront sous les 25° du côté de Bordeaux par exemple. On ne sait pas si les 35° ne seront pas atteints 3j consécutifs voire plus sur la moitié sud. 
+	On évitera donc ce genre de commentaires assez indigestes pour qualifier le prochain événement qui se rajoute aux précédents de l’été 2026.
+								1
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: petit âge glaciaire 11
 Message:
@@ -592,7 +592,7 @@ oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme d
 	les talwegs improductifs en termes d'humidité on n'arrête pas d'en connaître cette année, non... ?
 	au reste ce qui ressort également des ensembles cités par PAG précédemment...
 	7
-	Modifié il y a 22 heures par giec 2100
+	Modifié hier à 17:27 par giec 2100
 								3
 								1
 
@@ -608,7 +608,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 9 heures par Jojobarbar
+	Modifié il y a 11 heures par Jojobarbar
 								3
 
 =======================
@@ -624,7 +624,7 @@ il y a une heure, Jojobarbar a dit :
 	"wet and see" au lieu de "wait and see"... tellement sont pressants les besoins en précipitations... !
 	sinon pour Paris la moyenne des scénarios de cumul au 13 septembre fluctue modestement de 7 à 13mm sur les trois derniers runs : faudra donc se contenter de peu...
 	pour le reste du pays, hélas, je ronge mon frein...
-	Modifié il y a 17 heures par giec 2100
+	Modifié il y a 19 heures par giec 2100
 								2
 
 =======================
@@ -636,7 +636,7 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 4 heures par petit âge glaciaire 11
-								2
+	Modifié il y a 6 heures par petit âge glaciaire 11
+								3
 								6
 								1
