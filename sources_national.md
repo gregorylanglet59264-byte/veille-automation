@@ -337,12 +337,12 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
-• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Météo France va (enfin) passer &#xE0; la mesure d'une rafale sur 3 s, en norme OMM.
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : A Ciel Ouvert
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Climatologie 2026
+• Infoclimat Direct : Suivi ensoleillement 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 02/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -350,26 +350,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 2 Septembre 2026.
-Résumé général précédent : Première quinzaine de septembre encore très chaude sur le sud, pic ce week-end, puis baisse progressive par le nord ; le retour des pluies reste incertain et limité au nord..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur intense et durable sur le sud, coup de chaud marqué sur une partie du nord..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 2 au Dimanche 6 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-Il y a 2 heures, Matpo a dit :
-			Pour le week end, et particulièrement samedi, cep est énervé, en mettant en gros le sud d'une ligne lyon/Périgueux en plaine au dessus de 35°c, avec pas mal de scénarios (une moitié semble-t-il) vers les 39°c sur le midi toulousain.
-			Il est heureusement assez seul, gfs et icon ne sont pas de cet avis et cantonnent ces températures pour une partie centrale de l'arc méditerranéen proche littoral.
-			Ceci dit il est rejoint par ukmo, qui met même jusqu'à 42°c dans le SO... Pour une fois que gfs n'est pas le plus chaud sur cette échéance. Les prochaines maj vont sûrement être parlantes, j'ai vu déjà un 35°c passé le 15 septembre sur Toulouse, une année récente mais je ne sais plus laquelle, tout est possible... Interminable été.
-	oui, "interminable été", situation désespérante, tant au niveau de la température qu'en l'absence de précipitations, avec CEP et GEFS qui ne nous rassurent en rien sur le long terme, au-delà du topic... avec le bout de tube torride - pas la chansonnette.... - du 3 au 7 septembre, suivi d'une très forte dispersion, d'où pourrait bien s'installer une situation ventouse autour ou à plus de 20°C à 850hPa...
-	le scénario mi-mai à mi-septembre pour la période démesurée du "quadrimestre africain 2026" tient hélas la rampe avec les modélisations actuelles... 
-	Modifié dimanche à 10:44 par giec 2100
-								4
-								1
-
-=======================
-
 Auteur: Sebaas
 Message:
 il y a 56 minutes, clem11 a dit :
@@ -535,6 +521,16 @@ Auteur: Neige2018
 Message:
 Tx un peu moins hautes que prévu initialement j’ai l’impression
 
+=======================
+
+Auteur: symaski62
+Message:
+6 sept 
+	hPa  850 temp   14:00
+	temp   14:00 à Précipitations   20:00
+	🤔  hummm 
+								4
+
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: petit âge glaciaire 11
 Message:
@@ -571,6 +567,7 @@ Pas hyper convaincu pour un changement profond de synoptique sur cette semaine.
 	Baisse des températures très probable, mais je ne vois rien de bien enthousiasmant à l'échelle du pays.
 	Petit jeu, à latitude égal de la France, quel est le pays le plus sec de l'hémisphère nord sur les deux prochaines semaines ? (Hors désert de Gobi évidemment)
 	Modifié hier à 11:04 par Twister83
+								1
 								4
 
 =======================
@@ -614,7 +611,7 @@ Message:
 			Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS [...]
 			On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
 	Yes, on voit aussi que le changement s'accompagne de timides signaux humides qui loin d'être exceptionnels, témoignent de l'influence de la dépression probable. Pas en tant que source principale, mais au moins en courbant le flux de manière à ce qu'il soit légèrement cyclonique.
-	Modifié il y a 20 heures par Jojobarbar
+	Modifié il y a 22 heures par Jojobarbar
 								1
 
 =======================
@@ -626,7 +623,7 @@ oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme d
 	les talwegs improductifs en termes d'humidité on n'arrête pas d'en connaître cette année, non... ?
 	au reste ce qui ressort également des ensembles cités par PAG précédemment...
 	7
-	Modifié il y a 18 heures par giec 2100
+	Modifié il y a 20 heures par giec 2100
 								3
 								1
 
@@ -642,7 +639,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 5 heures par Jojobarbar
+	Modifié il y a 7 heures par Jojobarbar
 								3
 
 =======================
@@ -658,7 +655,7 @@ il y a une heure, Jojobarbar a dit :
 	"wet and see" au lieu de "wait and see"... tellement sont pressants les besoins en précipitations... !
 	sinon pour Paris la moyenne des scénarios de cumul au 13 septembre fluctue modestement de 7 à 13mm sur les trois derniers runs : faudra donc se contenter de peu...
 	pour le reste du pays, hélas, je ronge mon frein...
-	Modifié il y a 13 heures par giec 2100
+	Modifié il y a 15 heures par giec 2100
 								2
 
 =======================
@@ -670,4 +667,6 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 5 minutes par petit âge glaciaire 11
+	Modifié il y a 2 heures par petit âge glaciaire 11
+								1
+								6
