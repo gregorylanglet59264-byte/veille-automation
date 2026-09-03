@@ -6,119 +6,119 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur le scénario chaud et sec du week-end, mais divergence GFS et incertitudes semaine 2.*
-- **Fiabilité du scénario majoritaire :** Dégradé nord-sud puis flux océanique — *Chaleur temporaire au nord, durable au sud ; bascule plus automnale en HDF après mercredi.*
+- **Consensus des modèles :** Modéré — *Accord sur le scénario d’ensemble mais désaccord GFS vs CEP pour le week-end.*
+- **Fiabilité du scénario majoritaire :** Coup de chaud puis dégradation — *HDF en marge de la chaleur, bascule océanique à confirmer.*
 - **Stabilité des cartes/scénarios :** 6 / 84 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Forte sur la semaine 2 — *Cumuls pluie et timing du changement encore incertains.*
+- **Niveau d'incertitude global :** Forte en semaine 2 — *Le timing et l’ampleur de la dégradation restent incertains.*
 
 ## 🗓️ SEMAINE 1 : Du jeudi 3 au dimanche 6 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Grisaille jeudi : Pluies faibles sur l’est du Nord et l’Aisne, ciel gris partout.
-2. Coup de vent vendredi : Rafales de 65 à 85 km/h, surtout sur le littoral et le Nord.
-3. Samedi ensoleillé : Éclaircies franches, températures en léger repli.
-4. Pic de chaleur dimanche : 25 à 29°C possibles avant une bascule pluvieuse lundi.
-5. Nord épargné : Pas de canicule en Hauts-de-France, contrairement au sud.
+1. Gris et pluies faibles : Jeudi gris avec petites pluies sur l’est du Nord, le Pas-de-Calais et le littoral picard.
+2. Coup de vent vendredi : Rafales jusqu’à 85 km/h attendues, surtout sur le Nord et le Pas-de-Calais.
+3. Samedi ensoleillé : Éclaircies et fraîcheur relative, températures de saison.
+4. Pic de chaleur dimanche : 25 à 29°C selon les départements, dégradé nord-sud marqué.
+5. Incertitude modèle : GFS en désaccord avec CEP/UKMO/GEM pour le week-end.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- CEP, UKMO, GEM et AIFS convergent vers un coup de chaud temporaire sur HDF ce week-end, avec pic dimanche.
-- Tous s’accordent sur un temps sec de samedi à dimanche, avec un vent d’ouest modéré et peu de précipitations.
-- Les bulletins Météo-France confirment une hausse thermique nette dimanche (25-29°C) avant une bascule pluvieuse lundi.
+- Temps gris et petites pluies jeudi matin, puis amélioration vendredi-samedi.
+- Coup de vent vendredi avec rafales 65 à 85 km/h selon les secteurs.
+- Pic de chaleur dimanche avec 25 à 29°C, plus chaud au sud de la région; pas de canicule pour les HDF.
 **Points de divergence :**
-- GFS reste isolé : pas de grosse chaleur, flux zonal anticyclonique, alors que CEP/UKMO/GEM sont plus chauds.
-- Intensité du pic de dimanche : 25°C sur le littoral, 29°C dans l’Aisne, mais certains scénarios hésitent encore.
-- Timing de la reprise chaude : nette dimanche sur CEP/AIFS, plus tardive et moins marquée sur GFS.
+- Écart GFS vs CEP/UKMO/GEM sur l’intensité de la chaleur du week-end.
+- Localisation des pluies de jeudi (est du Nord, littoral picard, côtes).
+- Timing du retour des averses lundi.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP** (Convergent avec UKMO/GEM, en opposition partielle à GFS) | Goutte froide un peu moins marquée, advection chaude revue à la baisse ; coup de chaud temporaire sur le Nord, records surtout au sud. | Samedi plus frais, dimanche très doux ; pas de canicule pour les Hauts-de-France. | Nord de la France et HDF en limite du pic ; sud du pays beaucoup plus exposé. | Modérée (60-70 %) | CEP voit une poussée chaude jeudi, un repli temporaire vendredi/samedi puis une hausse dimanche. Pour HDF, les températures restent sous les records, avec un flux d’ouest qui évacue la masse d’air brûlante. |
-| **GFS** (Minoritaire / en décalage pour le week-end) | Flux zonal anticyclonique, dégradé nord-sud, pas de grosse chaleur ; températures au-dessus des normales sans excès. | Pas de coup de chaleur marqué pour HDF, temps sec, vent d’ouest modéré. | Hauts-de-France et moitié nord dans une ambiance sèche ; sud moins chaud que sur CEP. | Modérée (60-70 %) | GFS ne voit pas de grosses chaleurs, avec un flux zonal anticyclonique et un dégradé nord-sud. Pour HDF, températures au-dessus des normales mais sans excès ; à surveiller. |
-| **UKMO** (Convergent avec CEP/GEM) | UKMO rejoint CEP et GEM avec des températures très chaudes et des records possibles pour la saison. | Chaleur plus marquée, mais Nord/HDF moins concerné que le sud. | France entière ; HDF en marge du pic le plus chaud. | Faible (40-50 %) | Mention brève dans les discussions : UKMO est « brûlant » avec des records encore battus pour septembre. Aucun détail spécifique HDF ; prudence sur l’application locale. |
-| **GEM** (Convergent avec CEP/UKMO) | GEM propose 18°C à 850 hPa autour du 7-8 septembre, soit une masse d’air très chaude. | Pic de chaleur possible en début de semaine prochaine ; HDF en limite nord. | France, moitié nord en bordure de l’advection chaude. | Faible (40-50 %) | Trop peu de précisions pour HDF ; sert surtout à appuyer le scénario chaud national. |
-| **AIFS (IA ECMWF)** (En accord avec le scénario majoritaire) | Températures au sol en forme de « dos de chameau » : poussée chaude jeudi, pause samedi, reprise dimanche ; pas d’excès pour la moitié nord. | HDF loin des records ; temps sec et chaud de façon temporaire. | Moitié nord (dont HDF) modérément chaude ; sud très chaud. | Modérée (60-70 %) | AIFS montre une première poussée chaude, une pause fraîcheur samedi puis une reprise. Pour HDF, valeurs remarquables mais pas records. |
+| **CEP (ECMWF)** (Commenté en détail) | Masse d’air très chaude pour le sud, coup de chaud temporaire sur le nord avec dégradé; pas de canicule pour les HDF. | Vent assez fort vendredi, pic de chaleur dimanche, retour d’un flux océanique ensuite. | Nord-Pas-de-Calais, Picardie; dégradé nord-sud marqué. | Élevée (80-90%) | CEP voit un coup de chaud temporaire, avec une advection chaude revue à la baisse, renforçant le caractère passager; les records de septembre pourraient être proches mais pas pour le nord. |
+| **GFS** (Commenté en détail) | Flux zonal anticyclonique, températures au-dessus des normales mais sans excès, pas de grosses chaleurs pour le nord. | Temps sec, dégradé nord-sud, pas de coup de vent majeur. | Hauts-de-France, moitié nord | Élevée (80-90%) | GFS est en décalage complet avec CEP/UKMO/GEM pour le week-end; il ne voit pas de pointe de chaleur excessive, avec un flux zonal et un dégradé nord-sud. |
+| **UKMO** (Cité avec tendance) | Scénario très chaud, records de chaleur pour septembre possibles sur une large partie du pays. | Chaleur marquée, temps sec. | France, HDF en marge nord | Modérée (60-70%) | UKMO est dans le camp des modèles « brûlants » avec CEP et GEM, mais sans détail spécifique pour les HDF. |
+| **GEM** (Cité avec tendance) | Scénario très chaud, records possibles, cohérent avec CEP/UKMO. | Chaleur, temps sec. | France | Modérée (60-70%) | GEM fait partie des modèles chauds, mais aucune précision pour les HDF. |
+| **AIFS (IA ECMWF)** (Commenté avec cartes) | Températures au sol non excessives pour la moitié nord, forme en dos de chameau avec pause fraîcheur samedi puis reprise chaude. | Pause fraîcheur samedi, retour de la chaleur dimanche. | Moitié nord, HDF | Élevée (80-90%) | AIFS confirme un coup de chaud modéré pour le nord, assez loin des records, avec une baisse relative samedi. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Jeudi gris avec petites pluies, vendredi éclaircies et averses rares, samedi ensoleillé, dimanche très doux. | Min 11-19°C, max 22-28°C selon les jours ; pic dimanche 25-28°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | GFS plus frais ; localisation exacte des averses vendredi incertaine. |
-| **Pas-de-Calais (62)** | Jeudi gris et souvent sec, vendredi éclaircies après averses côtières matinales, samedi largement ensoleillé, dimanche très doux. | Min 10-19°C, max 20-27°C selon les jours ; pic dimanche 24-27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses de jeudi soir sur les reliefs de l’Artois ; cumuls restent faibles. |
-| **Somme (80)** | Jeudi très nuageux avec petites pluies éparses, vendredi variable et sec, samedi ensoleillé, dimanche chaud et lumineux. | Min 11-18°C, max 21-26°C selon les jours ; max proches de 26°C dimanche. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Le Santerre et le Vermandois pourraient rester plus secs jeudi ; GFS moins chaud. |
-| **Oise (60)** | Jeudi gris, vendredi éclaircies de plus en plus larges, samedi ensoleillé, dimanche beau et chaud. | Min 10-17°C, max 22-27°C ; pic proche de 27°C dimanche. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Fraîcheur relative sur le pays de Bray et la Picardie verte vendredi (23°C). |
-| **Aisne (02)** | Jeudi nuageux avec faibles pluies possibles sur l’est, vendredi soleil et passages nuageux, samedi ensoleillé, dimanche très chaud. | Min 10-17°C, max 23-29°C ; pic 27-29°C dimanche. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Thiérache plus fraîche vendredi (25°C) ; GFS moins chaud pour le pic. |
+| **Nord (59)** | Ciel gris jeudi avec petites pluies locales, puis éclaircies vendredi et samedi ensoleillé; dimanche beau, risque d’averses lundi au nord. | Min 11-19°C, Max 22-28°C selon jours | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Rafales de vendredi à affiner; localisation des pluies jeudi |
+| **Pas-de-Calais (62)** | Gris et sec jeudi, éclaircies vendredi, samedi largement ensoleillé, dimanche beau; risque d’averses lundi. | Min 10-19°C, Max 20-27°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Intensité des averses nocturnes sur le littoral |
+| **Somme (80)** | Très nuageux jeudi avec petites pluies éparses, variable sec vendredi, samedi ensoleillé, dimanche beau; risque pluie lundi. | Min 11-18°C, Max 21-26°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls des pluies jeudi; timing des averses vendredi |
+| **Oise (60)** | Gris jeudi, nette amélioration vendredi avec soleil, samedi ensoleillé, dimanche beau; risque pluie lundi sur Vexin/Plateau Picard. | Min 10-17°C, Max 23-27°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque d’averses lundi localisé |
+| **Aisne (02)** | Nuageux jeudi avec faibles pluies soir sur est, éclaircies vendredi, samedi ensoleillé, dimanche et lundi généralement ensoleillé. | Min 10-17°C, Max 24-29°C | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Éclaircies jeudi incertaines; chaleur vendredi plus marquée au sud |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Jeudi 3 septembre 2026** : Grisaille généralisée, petites pluies sur l’est du Nord et l’Aisne.
-- **Vendredi 4 septembre 2026** : Coup de vent d’ouest, rafales 65-85 km/h, éclaircies progressives.
-- **Samedi 5 septembre 2026** : Soleil généreux, températures en léger repli.
-- **Dimanche 6 septembre 2026** : Pic de chaleur 25-29°C, bascule pluvieuse possible lundi.
+- **Jeudi 3 septembre** : Gris, petites pluies, vent modéré à assez fort.
+- **Vendredi 4 septembre** : Éclaircies, vent fort avec rafales, températures en hausse.
+- **Samedi 5 septembre** : Soleil généreux, fraîcheur relative.
+- **Dimanche 6 septembre** : Chaleur marquée, dégradé nord-sud, risque d’averses lundi.
 
 **Points solides :**
-- Jeudi gris avec petites pluies sur l’est du Nord, l’Aisne et localement le Pas-de-Calais.
-- Vendredi coup de vent d’ouest, rafales 65 à 85 km/h selon les départements.
-- Samedi ensoleillé, dimanche très doux avec 25 à 29°C avant une bascule pluvieuse lundi.
+- Vent fort vendredi sur tout le littoral et l’intérieur.
+- Samedi ensoleillé et plus frais.
+- Dimanche très doux, sans excès caniculaire.
 
 **Points fragiles :**
-- Localisation des averses de vendredi (Lille, Douaisis, côtes de la Manche).
-- Force exacte des rafales vendredi : 85 km/h annoncés dans le Nord par Météo-France.
-- Intensité du pic de chaleur dimanche sur HDF, GFS étant plus frais.
+- Rafales de vendredi (85 km/h) à affiner.
+- Cumuls de pluie jeudi.
+- Évolution du champ de pression pour dimanche.
 
 **À surveiller (prochains runs) :**
-CEP 12Z, GFS 12Z, AIFS et UKMO 00Z du 03/09 ; surveiller la position de la goutte froide et l’évolution de la bascule de lundi.
+Runs CEP et GFS 12z, AIFS, UKMO/GEM, observations de surface.
 
 
 ## 🗓️ SEMAINE 2 : Du lundi 7 au dimanche 13 septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Bascule automnale : Dépression proche des îles Britanniques, flux d’ouest, baisse des températures.
-2. Pluies limitées : Cumuls modestes attendus, surtout au nord ; le sud reste très sec.
-3. Changement synoptique : Hautes pressions sur l’Atlantique, dépressions plus proches de la France.
-4. Fraîcheur durable ? Ensembles CEP, GEFS et AIFS montrent une chute durable après mercredi.
-5. Incertitudes fortes : Localisation des pluies, timing et cumuls encore très incertains.
+1. Bascule océanique : Possible changement de synoptique avec flux d’ouest plus frais.
+2. Pluies au nord : Cumuls modestes mais scénarios humides pour la moitié nord.
+3. Températures en baisse : Nette baisse après mercredi, retour aux normales.
+4. Dégradé nord-sud : Le nord plus exposé aux averses, le sud reste chaud.
+5. Incertitudes fortes : Trajectoire de la dépression et timing à confirmer.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- CEP, GEFS et AIFS convergent vers une baisse nette des températures en milieu de semaine.
-- Tous les modèles voient une dépression atlantique proche des îles Britanniques, avec un flux d’ouest/nord-ouest.
-- Les cumuls de pluie restent limités, surtout sur le nord ; le sud demeure très sec.
+- Baisse des températures en milieu de semaine sur les ensembles CEP, GEFS et AIFS.
+- Flux d’ouest/nord-ouest s’installant, dépressions atlantiques plus proches.
+- Précipitations faibles à modérées, principalement sur le nord.
 **Points de divergence :**
-- Temporalité du changement : mercredi 9 ou plus tard selon les runs.
-- Trajectoire des dépressions : certaines passent sur le nord de la France, d’autres restent plus au nord.
-- Cumuls : scénarios « belles pluies » possibles mais GFS déterministe reste plus sec.
+- Intensité et localisation des pluies (cumuls de 7 à 13 mm sur Paris selon GFS).
+- Durée du changement (temporaire ou durable).
+- Impact sur le sud de la France.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF / CEP** (Majoritaire, mais encore à confirmer) | Hautes pressions sur l’Atlantique mercredi, dépression entre le sud de la GB et le nord de la France ; chute durable des températures à 850 hPa. | Baisse nette des températures après mercredi ; pluies possibles surtout sur le nord. | France ; HDF en première ligne pour le flux d’ouest et les averses. | Modérée (60-70 %) | CEP propose un changement de synoptique avec une dépression entre le sud de la Grande-Bretagne et le nord de la France. Les ensembles montrent une chute importante et durable des températures, mais les précipitations pourraient rester modestes sur HDF. |
-| **GFS / GEFS** (Convergent pour la fraîcheur, incertain sur les pluies) | Moyenne GEFS fait plonger les températures à 850 hPa mercredi ; flux d’ouest/nord-ouest, cumuls modestes de 7 à 13 mm sur Paris. | Fraîcheur plus nette, averses possibles mais pas de gros cumuls. | Moitié nord, dont HDF ; sud encore verrouillé sous les hautes pressions. | Modérée (60-70 %) | GEFS montre une baisse nette des températures à 850 hPa, confirmée par AIFS. Les cumuls restent limités : moyenne de 7 à 13 mm à Paris sur la période, avec une grande dispersion entre scénarios secs et humides. |
-| **AIFS** (En accord avec CEP/GEFS) | Copie conforme de GEFS : changement de synoptique possible, baisse des températures, précipitations surtout au nord. | Temps plus frais et plus humide sur HDF en seconde partie de semaine. | Nord de la France, HDF ; le sud pourrait aussi voir une baisse thermique. | Modérée (60-70 %) | AIFS confirme le scénario d’une dépression proche des îles Britanniques, avec un flux d’ouest sur la France. Pour HDF, le risque d’averses existe mais les cumuls restent très incertains. |
+| **CEP (ECMWF)** (Commenté en détail) | Changement de synoptique en milieu de semaine : hautes pressions sur l’Atlantique, dépression entre GB et nord de la France, chute durable des températures. | Flux d’ouest/nord-ouest, pluies possibles sur le nord, nette baisse des températures. | Nord de la France, HDF en première ligne | Élevée (80-90%) | L’ensemble CEP montre une chute importante et durable des températures à 850 hPa pour Paris, avec des géopotentiels en baisse sur la France; les cumuls de pluie restent toutefois modestes. |
+| **GFS / GEFS** (Commenté en détail) | Moyenne des températures à 850 hPa en plongée mercredi, flux d’ouest, scénarios modérément humides sur plusieurs jours. | Baisse des températures, pluies faibles à modérées possibles, pas de retour franc de l’humidité. | Nord de la France, HDF | Élevée (80-90%) | GEFS est copié-collé par AIFS, avec une baisse marquée des températures; le déterministe GFS est plutôt sec, mais une bonne moitié des scénarios est « sympathiquement humide ». |
+| **AIFS (IA ECMWF)** (Commenté avec cartes) | Copie conforme de GEFS : changement de synoptique, baisse des températures, précipitations possibles surtout au nord. | Refroidissement net, quelques pluies. | Nord de la France, HDF | Élevée (80-90%) | AIFS suit GEFS et donne du poids à l’hypothèse d’un changement de synoptique, avec un impact possible jusqu’au sud. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Lundi encore doux avec risque d’averses, puis dégradation plus automnale à partir de mardi ; mercredi vent d’ouest assez fort en Flandre maritime. | Min 11-14°C, max 19-22°C après un lundi à 25-28°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls très incertains, scénarios secs possibles ; baisse thermique plus ou moins franche. |
-| **Pas-de-Calais (62)** | Dimanche/lundi ensoleillé puis risque de pluie lundi sur le Ternois, l’Artois et le littoral ; mardi/mercredi pluies et vent d’ouest assez fort. | Min 10-13°C, max 18-20°C après un lundi à 24-27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation des pluies entre littoral et intérieur incertaine ; cumuls limités. |
-| **Somme (80)** | Lundi pluvieux par moments, puis éclaircies et averses ; vent d’ouest assez fort sur le littoral mardi/mercredi. | Min 11-14°C, max 18-21°C après un lundi proche de 26°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls plus faibles possibles ; éclaircies plus larges selon les scénarios. |
-| **Oise (60)** | Dimanche/lundi beau et chaud, risque de pluie lundi du Vexin français au Plateau Picard ; mardi/mercredi dégradation pluvieuse puis éclaircies. | Min 10-12°C, max 19-21°C après un lundi proche de 27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Baisse des températures plus ou moins marquée ; scénarios secs possibles. |
-| **Aisne (02)** | Lundi généralement ensoleillé, puis éclaircies prédominantes avec risque d’averses temporaire mardi/mercredi ; plutôt sec ensuite. | Min 10-12°C, max 21-23°C après un lundi à 27-29°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Le risque d’averses semble moins marqué que sur le nord-ouest ; fraîcheur plus lente. |
+| **Nord (59)** | Lundi encore doux avec risque d’averses, puis dégradation mardi-mercredi avec pluies et vent, éclaircies jeudi-vendredi plus fraîches. | Min 11-14°C, Max 19-28°C en baisse | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Changement synoptique à confirmer; intensité des pluies incertaine |
+| **Pas-de-Calais (62)** | Lundi risque d’averses, mardi-mercredi pluvieux et venté, jeudi-vendredi éclaircies et averses, plus frais. | Min 10-13°C, Max 18-27°C en baisse | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Trajectoire de la dépression; cumuls incertains |
+| **Somme (80)** | Lundi pluvieux possible, mardi-mercredi dégradé avec pluies et vent sur littoral, jeudi-vendredi éclaircies et averses. | Min 11-14°C, Max 18-26°C en baisse | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls de pluie dépendants du passage dépressionnaire |
+| **Oise (60)** | Lundi encore chaud avec risque d’averses localisées, mardi-mercredi pluies et vent, jeudi-vendredi éclaircies et averses, plus frais. | Min 11-12°C, Max 19-27°C en baisse | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Localisation des pluies; baisse des températures plus ou moins marquée |
+| **Aisne (02)** | Lundi ensoleillé et chaud, mardi-mercredi éclaircies avec risque d’averses, jeudi-vendredi plutôt ensoleillé, plus frais. | Min 11°C, Max 21-29°C en baisse | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Changement de masse d’air à confirmer; cumuls faibles |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 7 septembre 2026** : Risque de pluie ou d’averses sur le nord-ouest, chaleur encore marquée.
-- **Mardi 8 septembre 2026** : Dégradation plus nette, vent d’ouest-sud-ouest, températures en baisse.
-- **Mercredi 9 - jeudi 10 septembre 2026** : Flux d’ouest assez fort, averses possibles, fraîcheur plus sensible.
-- **Vendredi 11 - dimanche 13 septembre 2026** : Éclaircies et averses temporaires ; incertitudes sur la durée du changement.
+- **Lundi 7 septembre** : Encore chaud, risque d’averses au nord-ouest.
+- **Mardi 8 et mercredi 9 septembre** : Dégradation pluvieuse et ventée, baisse des températures.
+- **Jeudi 10 et vendredi 11 septembre** : Éclaircies, averses résiduelles, fraîcheur.
+- **Samedi 12 et dimanche 13 septembre** : Tendance indéterminée, probable flux océanique.
 
 **Points solides :**
-- Baisse thermique significative après mercredi 9.
-- Retour d’un flux océanique d’ouest/nord-ouest.
-- Pas de canicule pour HDF en semaine 2, mais chaleur possible lundi et mardi.
+- Baisse des températures après le 9 septembre.
+- Vent d’ouest modéré à assez fort mardi-mercredi.
+- Risque de pluie/averses sur la moitié nord.
 
 **Points fragiles :**
-- Cumuls de précipitations exacts : grande dispersion entre scénarios secs et humides.
-- Localisation des pluies : nord-ouest, littoral ou extrême nord ?
-- Durée de la fraîcheur : changement temporaire ou durable ?
+- Cumuls de précipitations très incertains.
+- Trajectoire exacte de la dépression.
+- Maintien de la chaleur au sud.
 
 **À surveiller (prochains runs) :**
-CEP 12Z, GEFS 12Z, AIFS et UKMO 00Z du 03/09 ; surveiller la trajectoire de la dépression et l’extension des pluies vers le sud.
+Évolution des ensembles CEP, GEFS et AIFS, runs 00z et 12z, observations de la dépression islandaise.
 
 
 ========================================
@@ -126,28 +126,27 @@ CEP 12Z, GEFS 12Z, AIFS et UKMO 00Z du 03/09 ; surveiller la trajectoire de la d
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Première partie chaude et sèche, coup de vent vendredi, pic de chaleur dimanche ; ensuite flux océanique plus frais et pluvieux, surtout en deuxième semaine. Les températures redeviennent de saison après le 9 septembre, avec un net dégradé nord-sud.
+Première partie chaude et sèche, coup de vent vendredi, pic de chaleur dimanche, puis flux océanique plus frais et pluvieux en deuxième semaine. Températures redeviennent de saison après le 9 septembre.
 
 ### Période la plus fiable
-Semaine 1 (3-6 septembre) : échéance courte, convergence CEP/AIFS et bulletins Météo-France détaillés.
+Semaine 1 plus fiable (échéance courte), semaine 2 à surveiller.
 
 ### Phénomènes récurrents
-Coup de vent d’ouest vendredi 4, chaleur dimanche 6, bascule pluvieuse lundi 7-mardi 8, flux d’ouest assez fort en milieu de semaine 2.
+Dégradé nord-sud persistant, chaleur au sud, coup de vent sur le nord.
 
 ### Principales incertitudes
-Localisation des pluies de lundi/mardi, cumuls, force des rafales mercredi, durée de la fraîcheur.
+Trajectoire de la dépression en semaine 2, cumuls de pluie, intensité du coup de chaud.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes HDF : la bascule pluvieuse de lundi 7 et le passage plus automnal de mercredi 9 restent à affiner.
-- **Localisation :** Doutes sur la localisation précise HDF : pluies de lundi/mardi entre littoral, Flandre maritime, Avesnois et Thiérache ; averses de vendredi près de Lille et du Douaisis.
-- **Intensité :** Doutes sur l’intensité HDF : rafales de vendredi jusqu’à 85 km/h dans le Nord, fortes rafales possibles mercredi 9, cumuls de pluie très dispersés.
-- **Informations manquantes :** Informations importantes non abordées ou manquantes : pas de détail Infoclimat spécifique aux départements HDF, pas de suivi des sols ni des cours d’eau, évolution au-delà du 13 septembre non documentée.
-- **Modèles sous-documentés :** Modèles peu ou pas commentés par les membres : UKMO, GEM, Arpège et ICON pour les HDF ; AIFS mentionné de manière ponctuelle.
-- **Incertitudes images :** Incertitudes sur les graphiques : cartes et diagrammes cités par les membres non vérifiables directement ; les cartes Météo-France XML restent la référence locale.
+- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes HDF : le passage de la perturbation en semaine 2 est incertain, entre lundi et mercredi.
+- **Localisation :** Doutes sur la localisation précise HDF : les pluies pourraient se limiter au littoral et au nord, ou concerner toute la région.
+- **Intensité :** Doutes sur l’intensité HDF : rafales de vendredi 85 km/h et fortes rafales mardi-mercredi à affiner.
+- **Informations manquantes :** Informations importantes non abordées ou manquantes : prévisions pour samedi 12 et dimanche 13 non détaillées par Météo-France XML; pas de sujet forum semaine 2 complet à ce stade.
+- **Modèles sous-documentés :** Modèles peu ou pas commentés par les membres : UKMO et GEM peu détaillés pour les HDF en semaine 1; non mentionnés en semaine 2.
+- **Incertitudes images :** Incertitudes sur les graphiques : les cartes de cumuls et de températures à 850 hPa montrent de fortes divergences entre modèles.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌦️ Bulletin HDF – 3 au 13 septembre 2026.
-Jeudi gris avec petites pluies, vendredi coup de vent (rafales 65-85 km/h), samedi ensoleillé, dimanche pic de chaleur (25-29°C). La semaine prochaine : bascule plus automnale, pluies possibles et fraîcheur après mercredi. Incertitudes sur les cumuls. Restez prudents ! #Météo #HautsDeFrance #Prévisions #MonsieurMétéo
+🌦️ Hauts-de-France : week-end contrasté avec coup de vent vendredi, samedi ensoleillé, dimanche très doux. La semaine prochaine s’annonce plus fraîche et instable, mais les incertitudes restent fortes. Restez prudents sur le littoral ! #Météo #HautsDeFrance #Prévisions

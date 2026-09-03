@@ -306,22 +306,22 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Vigilance Météo France
 • Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
 • Infoclimat Direct : Suivi du temps aux Etats-Unis.
 • Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Mercredi 2 Septembre 2026.
-Résumé général HDF précédent : Première décade de septembre marquée par un temps sec et doux, avec un coup de chaud temporaire ce week-end, suivi d’une dégradation plus automnale en milieu de semaine prochaine. Les températures devraient baisser nettement après mercredi 9..
+Dernier bulletin HDF généré le Jeudi 3 Septembre 2026.
+Résumé général HDF précédent : Première partie chaude et sèche, coup de vent vendredi, pic de chaleur dimanche ; ensuite flux océanique plus frais et pluvieux, surtout en deuxième semaine. Les températures redeviennent de saison après le 9 septembre, avec un net dégradé nord-sud..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Hausse thermique dimanche, vent d’ouest modéré, pas de précipitations notables sur la région..
+Températures attendues précédemment : Samedi plus frais, dimanche très doux ; pas de canicule pour les Hauts-de-France..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -610,7 +610,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 17 heures par Jojobarbar
+	Modifié il y a 19 heures par Jojobarbar
 								3
 
 =======================
@@ -638,7 +638,7 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 								5
 								6
 								1

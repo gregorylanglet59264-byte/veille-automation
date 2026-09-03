@@ -312,22 +312,22 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Vigilance Météo France
 • Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
 • Infoclimat Direct : Suivi du temps aux Etats-Unis.
 • Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Mercredi 2 Septembre 2026.
-Résumé général précédent : Chaleur remarquable au sud ce week-end, puis rafraîchissement probable en milieu de semaine 2, surtout au nord, mais sans retour franc des pluies. L'indicateur thermique national reste élevé, entre 22,8 et 25,8°C, avec un risque de fortes chaleurs important sur l'échéance J+6 à J+14 et une sécheresse des sols toujours marquée..
+Dernier bulletin généré le Jeudi 3 Septembre 2026.
+Résumé général précédent : Chaleur remarquable sur le sud et le quart sud-est en début de période, coup de chaud temporaire au nord. Baisse des températures probable en cours de semaine 2, surtout au nord, mais sans retour franc des pluies. Indicateur Thermique National élevé, entre 22,8°C et 25,8°C, avec un risque de fortes chaleurs important. Sécheresse des sols toujours marquée..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé, températures au-dessus des normales mais sans excès majeur sur la moitié nord..
+Températures attendues précédemment : Fortes chaleurs persistantes au sud, pic en fin de semaine. Soleil dominant. (85 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -616,7 +616,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 17 heures par Jojobarbar
+	Modifié il y a 19 heures par Jojobarbar
 								3
 
 =======================
@@ -644,7 +644,7 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 12 heures par petit âge glaciaire 11
+	Modifié il y a 14 heures par petit âge glaciaire 11
 								5
 								6
 								1
