@@ -285,16 +285,10 @@ FQCT40 LFQQ 021555 Origine Météo-France . Bulletin côtier pour la bande des 2
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Nouvel épisode de fortes chaleurs prévu, qui devrait être 
-court dans le Sud-Ouest, et plus durable autour de la 
-Méditerranée et le long de la vallée du Rhône.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Dans la continuité des jours précédents, un risque de 
-canicule persiste au sud dimanche.
-Les températures baissent progressivement les jours 
-suivants mais la chaleur pourra persister au Sud-Est lundi et 
-mardi.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -306,12 +300,12 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps en Belgique.
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Vigilance Météo France
 • Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
 • Infoclimat Direct : Suivi du temps aux Etats-Unis.
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -319,9 +313,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 3 Septembre 2026.
-Résumé général HDF précédent : Première partie chaude et sèche, coup de vent vendredi, pic de chaleur dimanche ; ensuite flux océanique plus frais et pluvieux, surtout en deuxième semaine. Les températures redeviennent de saison après le 9 septembre, avec un net dégradé nord-sud..
+Résumé général HDF précédent : Première partie chaude et sèche, coup de vent vendredi, pic de chaleur dimanche, puis flux océanique plus frais et pluvieux en deuxième semaine. Températures redeviennent de saison après le 9 septembre..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Samedi plus frais, dimanche très doux ; pas de canicule pour les Hauts-de-France..
+Températures attendues précédemment : Vent assez fort vendredi, pic de chaleur dimanche, retour d’un flux océanique ensuite..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -610,7 +604,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 19 heures par Jojobarbar
+	Modifié il y a 21 heures par Jojobarbar
 								3
 
 =======================
@@ -638,7 +632,7 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 14 heures par petit âge glaciaire 11
+	Modifié il y a 16 heures par petit âge glaciaire 11
 								5
 								6
 								1

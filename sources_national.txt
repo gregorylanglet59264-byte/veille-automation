@@ -285,22 +285,16 @@ Températures minimales : en baisse.
 Températures maximales : en baisse sur le Cagire et le Luchonnais ainsi que du Lauragais au muretain.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 021625 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le mercredi 2 septembre 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 2 septembre 2026 à 12H00 UTC, et évolution Hautes pressions autour de 1020 hPa, dépression relative se creusant 1016 hPa entre la Côte d'Azur et la Corse en soirée. Hautes pressions se renforçant temporairement vers 1022 hPa près des côtes du Roussillon demain matin. 3 - Prévisions pour la nuit du mercredi 2 septembre au jeudi 3 septembre VENT : - à l'est du Levant : Nord à Nord-Est 2 à 3, mais localement Ouest 4 à 5 avec rafales près du Levant au début. - ailleurs : Ouest à Sud-Ouest 3 à 5, virant Ouest à Nord-Ouest en milieu de nuit, puis Nord-Ouest en seconde partie de nuit. MER : belle à peu agitée, parfois agitée en allant vers le large du cap Croisette à cap Camarat. HOULE : s'amplifiant Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Couronne. TEMPS : voilé. VISIBILITE : bonne. 4 - Prévisions pour la journée du jeudi 3 septembre VENT : - à l'est de Sicié : Variable 1 à 3, parfois Nord-Ouest 4 à 5 au large de Sicié au début, devenant Ouest à Sud-Ouest 2 à 3 l'après-midi. - ailleurs : Nord-Ouest 4 à 5, revenant secteur Ouest à la mi-journée. MER : belle à peu agitée, parfois agitée en allant vers le large de cap Croisette à Sicié le matin. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Couronne. TEMPS : voilé. VISIBILITE : bonne. 5 - Tendance pour la nuit du 3 au 4, et la journée du vendredi 4 septembre VENT : secteur Ouest 2 à 4, virant Nord à Nord-Ouest à l'ouest de cap Croisette mais mollissant Variable 1 à 3 à l'est en milieu de nuit, puis devenant Sud à Sud-Est 1 à 3 partout en milieu de journée. MER : belle à peu agitée, s'atténuant belle en fin de matinée. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Couronne, s'amortissant en fin de matinée. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 4 au 5 et la journée du samedi 5 septembre VENT : De Port Camargue à Porquerolles Ouest à Nord-Ouest 1 à 3, fraîchissant 4 à 5 en cours de matinée, puis mollissant 3 à 4 en milieu d'après-midi. De Porquerolles à St Raphaël variable 1 à 3 s'orientant Ouest 3 à 4 en seconde partie de nuit. MER : belle à peu agitée. HOULE dominante d'Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Dimanche 6 septembre Variable. Indice de confiance : 3 sur 5 Lundi 7 septembre Variable. Indice de confiance : 3 sur 5 Mardi 8 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 9 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 8 - Observations le mercredi 2 septembre 2026 à 15H00 UTC Cap Camarat : vent Sud-Sud-Ouest 14 noeuds. Cap Cepet : vent Ouest 17 noeuds, clair ou peu nuageux, visibilité 13 milles. Le Levant : vent Ouest 10 noeuds, 1017 hPa en baisse. Porquerolles : vent Ouest-Sud-Ouest 12 noeuds. Cap Couronne : vent Ouest-Sud-Ouest 12 noeuds, mer belle, visibilité 13 milles. Prochain bulletin le jeudi 3 septembre 2026, vers 06H30 légales
+FQCT40 LFML 030325 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 3 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 3 septembre 2026 à 00H00 UTC, et évolution Hautes pressions autour de 1020 hPa, dépression relative 1017 hPa entre la Côte d'Azur et la Corse, se comblant en journée. 3 - Prévisions pour la journée du jeudi 3 septembre VENT : - à l'est de Sicié : Variable 1 à 3, parfois Nord-Ouest 4 à 5 au large de Sicié au début. - ailleurs : Nord-Ouest 4 à 5, revenant secteur Ouest 3 à 4 l'après-midi. MER : belle à peu agitée, localement agitée au large de cap Croisette à Sicié le matin. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Couronne, non significative ailleurs. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 3 septembre au vendredi 4 septembre VENT : Secteur Nord-Ouest 3 à 4, localement Variable 1 à 3 à l'est de Sicié, virant Nord à Nord-Ouest 3 à 4, localement secteur Est 2 à 3 à l'est du Cap Croisette, en seconde partie de nuit. MER : belle à peu agitée. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Croisette au Levant, non significative ailleurs. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 4 septembre VENT : Nord 3 à 4, localement secteur Est à l'est du Cap Couronne, mollissant Variable 1 à 3 l'après-midi. MER : belle, localement peu agitée au large le matin. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 4 au 5 et la journée du samedi 5 septembre VENT : De Port Camargue à Marseille secteur Sud-Est 1 à 3, fraîchissant 4 à 5 en début de matinée en virant Ouest à Nord-Ouest. De Marseille à St Raphaël variable 1 à 3 s'orientant Ouest à Nord-Ouest 3 à 4 en milieu de nuit. MER : belle à peu agitée. HOULE dominante d'Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Dimanche 6 septembre Variable. Indice de confiance : 3 sur 5 Lundi 7 septembre Variable. Indice de confiance : 3 sur 5 Mardi 8 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 9 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 8 - Observations le jeudi 3 septembre 2026 à 03H00 UTC Cap Camarat : vent Nord 6 noeuds. Cap Cepet : vent Ouest-Nord-Ouest 16 noeuds. Le Levant : vent Est-Nord-Est 6 noeuds, 1018 hPa stationnaire. Porquerolles : vent Nord-Nord-Ouest 6 noeuds. Cap Couronne : vent Nord-Ouest 14 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le jeudi 3 septembre 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (J+2 et J+3) :
-J+2 et J+3 ﻿Nouvel épisode de fortes chaleurs prévu, qui devrait être 
-court dans le Sud-Ouest, et plus durable autour de la 
-Méditerranée et le long de la vallée du Rhône.
+Poursuite de fortes chaleurs sur une grande partie du pays. Risque d'orages localisés sur les régions centrales et le nord.
 
 • Bulletin Officiel Météo-France « Prochains Jours » (De J+4 à J+7) :
-De J+4 à J+7 ﻿Dans la continuité des jours précédents, un risque de 
-canicule persiste au sud dimanche.
-Les températures baissent progressivement les jours 
-suivants mais la chaleur pourra persister au Sud-Est lundi et 
-mardi.
+Baisse progressive des températures par l'ouest et le nord. Maintien d'un risque d'orages d'évolution diurne et de chaleur résiduelle au sud-est.
 
 === RISQUE D'ORAGES & INDICES CONVECTIFS (KERAUNOS, BLITZORTUNG, METEOTEL XML) ===
 • Blitzortung / Keraunos : Détection des impacts de foudre en temps réel (Token 0). Indice de convection CAPE/LI sous surveillance.
@@ -312,12 +306,12 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps en Belgique.
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Vigilance Météo France
 • Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
 • Infoclimat Direct : Suivi du temps aux Etats-Unis.
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -325,9 +319,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 3 Septembre 2026.
-Résumé général précédent : Chaleur remarquable sur le sud et le quart sud-est en début de période, coup de chaud temporaire au nord. Baisse des températures probable en cours de semaine 2, surtout au nord, mais sans retour franc des pluies. Indicateur Thermique National élevé, entre 22,8°C et 25,8°C, avec un risque de fortes chaleurs important. Sécheresse des sols toujours marquée..
+Résumé général précédent : Tendance à 15 jours : d'abord chaleur remarquable sur le sud, puis probable baisse des températures en semaine 2, avec un temps toujours sec dans l'ensemble. Le signal d'un retour pluvieux durable reste faible..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Fortes chaleurs persistantes au sud, pic en fin de semaine. Soleil dominant. (85 caractères).
+Températures attendues précédemment : Chaleur intense au sud, temporaire au nord, temps sec généralisé..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -616,7 +610,7 @@ Message:
 	Paris :
 	Ce qu'on voit c'est que peu de scénarios sont secs, et une bonne moitié est "sympathiquement humide". La dernière colonne est GFS déterministe (donc la dernière carte que tu as posté. On voit que GFS det est plutôt en minorité.
 	On voit qu'on peut passer de plusieurs jours de belles pluies à "0.1mm juste pour dire"...
-	Modifié il y a 19 heures par Jojobarbar
+	Modifié il y a 21 heures par Jojobarbar
 								3
 
 =======================
@@ -644,7 +638,7 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 14 heures par petit âge glaciaire 11
+	Modifié il y a 16 heures par petit âge glaciaire 11
 								5
 								6
 								1
