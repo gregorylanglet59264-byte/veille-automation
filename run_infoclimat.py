@@ -432,22 +432,44 @@ def render_zones_grid(zones_json_data, is_hdf=False):
             ("oise", "🏰", "Oise (60)"),
             ("aisne", "🍇", "Aisne (02)")
         ]
+        container_id = "zones-hdf-container"
     else:
         fixed_keys = [
             ("nord_ouest", "🧭", "Nord-Ouest"),
             ("nord", "☁️", "Nord"),
             ("nord_est", "🌤️", "Nord-Est"),
-            ("ouest_atlantique", "🌊", "Ouest et Façade Atlantique"),
+            ("ouest_atlantique", "🌊", "Ouest & Atlantique"),
             ("centre", "🌥️", "Centre"),
             ("sud_ouest", "🌡️", "Sud-Ouest"),
-            ("sud_est_rhone", "☀️", "Sud-Est et Vallée du Rhône"),
-            ("mediterranee_corse", "🏖️", "Méditerranée et Corse")
+            ("sud_est_rhone", "☀️", "Sud-Est & Rhône"),
+            ("mediterranee_corse", "🏖️", "Méditerranée & Corse")
         ]
-    cards = []
-    for key, icon, display_name in fixed_keys:
+        container_id = "zones-nat-container"
+        
+    tab_btns = []
+    tab_panels = []
+    for idx, (key, icon, display_name) in enumerate(fixed_keys):
         zdata = zones_json_data.get(key, {})
-        cards.append(build_zone_card_from_dict(icon, display_name, zdata))
-    return "\n".join(cards)
+        panel_id = f"{container_id}-tab-{idx}"
+        is_active = (idx == 0)
+        btn_active_cls = "active" if is_active else ""
+        panel_display = "block" if is_active else "none"
+        
+        tab_btns.append(f'<button type="button" class="zone-tab-btn {btn_active_cls}" onclick="switchZoneTab(\'{container_id}\', \'{panel_id}\', this)"><span>{icon}</span> {display_name}</button>')
+        card_content = build_zone_card_from_dict(icon, display_name, zdata)
+        tab_panels.append(f'<div id="{panel_id}" class="zone-panel" style="display:{panel_display};">{card_content}</div>')
+        
+    return f"""
+    <div id="{container_id}" class="zones-container">
+        <div class="zone-tabs-nav">
+            {"".join(tab_btns)}
+        </div>
+        <div class="zone-panels-wrapper">
+            {"".join(tab_panels)}
+        </div>
+    </div>
+    """
+
 
 def generate_sparklines_html(history_dir="history"):
     if not os.path.exists(history_dir):
@@ -1662,383 +1684,229 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
     linkedin_raw_hdf = extract_tag(global_content_hdf, "LINKEDIN_POST")
     linkedin_clean_hdf = clean_text_typos(linkedin_raw_hdf).replace('<br>', '\n').replace('<br/>', '\n')
 
-    # CSS RESPONSIVE MOBILE MOBILE-FIRST COMPLET (< 650px)
+    # CSS RESPONSIVE MOBILE MOBILE-FIRST COMPLET (Refonte UX 2 Niveaux)
     style = """
-    :root{
-      --bg:#eef4f8;
-      --surface:#ffffff;
-      --surface-2:#f8fbfd;
-      --ink:#13273a;
-      --muted:#64788c;
-      --line:#dce6ee;
-      --navy:#0d2f4f;
-      --blue:#1565d8;
-      --cyan:#1ea7c9;
-      --green:#23936b;
-      --amber:#df9d32;
-      --red:#d85b58;
-      --shadow:0 18px 50px rgba(18,55,88,.10);
-      --r-xl:28px;
-      --r-lg:20px;
-      --r-md:14px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      background:
-        radial-gradient(circle at 12% 0%,rgba(30,167,201,.12),transparent 28%),
-        radial-gradient(circle at 90% 0%,rgba(21,101,216,.11),transparent 30%),
-        var(--bg);
-      color:var(--ink);
-      font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-      line-height:1.5;
-      font-size:15px;
-    }
-    button{font:inherit; min-height:44px;}
-    button:focus-visible, a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 2px; }
-    img{max-width:100%;display:block}
-    .page{width:min(1180px,calc(100% - 24px));margin:20px auto 50px}
-    .hero{
-      position:relative;
-      overflow:hidden;
-      padding:40px;
-      border-radius:32px;
-      color:white;
-      background:
-        linear-gradient(135deg,rgba(8,38,67,.98),rgba(15,79,126,.96) 58%,rgba(26,150,177,.94)),
-        radial-gradient(circle at 80% 20%,rgba(255,255,255,.08),transparent 30%);
-      box-shadow:var(--shadow);
-    }
-    .hero-inner{position:relative;z-index:2}
-    .hero-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
-    .brand{display:flex;gap:12px;align-items:center;font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
-    .brand-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:22px}
-    .demo{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:12px;font-weight:800}
-    .hero h1{margin:24px 0 6px;font-size:clamp(26px,4vw,42px);line-height:1.15;letter-spacing:-.03em;text-transform:uppercase;}
-    .hero-sub{font-size:15px;color:#dcebf3;font-weight:700;margin-bottom:16px;}
-    .hero p{max-width:830px;margin:0;color:#e4f1f8;font-size:15px}
-    .meta-cards{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
-    .meta-card{padding:8px 14px;border-radius:12px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);font-size:12.5px;font-weight:800}
-    .generation-date{font-size:11.5px;color:#cfe5f1;margin-top:8px;}
-    
-    .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
-    .kpi{
-      padding:18px;
-      border-radius:20px;
-      background:rgba(255,255,255,.11);
-      border:1px solid rgba(255,255,255,.16);
-    }
-    .kpi-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#cfe5f1;font-weight:900}
-    .kpi-value{font-size:24px;line-height:1.1;font-weight:900;margin-top:4px}
-    .kpi-note{font-size:12px;color:#dcebf3;margin-top:4px}
-
-    /* Tabs Navigation */
-    .tabs-wrapper { position:sticky; top:0; z-index:20; background:var(--bg); padding:10px 0 4px; }
-    .tabs{
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:10px;
-    }
-    .tabs button{
-      padding:14px 12px;
-      border:1px solid var(--line);
-      border-radius:14px;
-      background:rgba(255,255,255,.96);
-      color:#496176;
-      font-weight:900;
-      cursor:pointer;
-      box-shadow:0 6px 18px rgba(18,55,88,.06);
-      transition: all 0.2s ease;
-      white-space:nowrap;
-    }
-    .tabs button:hover{background:#f8fbfd;}
-    .tabs button.active{background:var(--navy);color:#fff;border-color:var(--navy)}
-    
-    .sub-nav { display:none; gap:6px; overflow-x:auto; padding:6px 0; margin-top:6px; scrollbar-width:none; }
-    .sub-nav a { flex:0 0 auto; padding:6px 12px; border-radius:999px; background:rgba(255,255,255,.8); border:1px solid var(--line); color:var(--navy); font-size:12px; font-weight:800; text-decoration:none; }
-
-    .panel{display:block; margin-bottom: 24px;}
-    .section{
-      margin-top:18px;
-      padding:28px;
-      border-radius:var(--r-xl);
-      background:rgba(255,255,255,.96);
-      border:1px solid rgba(215,227,237,.95);
-      box-shadow:0 12px 34px rgba(18,55,88,.07);
-    }
-    .section-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:20px}
-    .section h2{margin:0;font-size:clamp(20px,3vw,28px);line-height:1.15;letter-spacing:-.03em}
-    .section .sub{margin:7px 0 0;color:var(--muted);font-size:14px;}
-    .badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:#eaf3fb;color:#205d90;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}
-    .grid{display:grid;gap:14px}
-    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-    .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-    .grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
-    .card{
-      padding:20px;
-      border-radius:18px;
-      border:1px solid var(--line);
-      background:var(--surface-2);
-    }
-    .card h3{margin:0 0 8px;font-size:17px;color:var(--navy)}
-    .card p{margin:0;color:var(--muted);font-size:14px}
-    .key{
-      display:flex;
-      gap:14px;
-      align-items:flex-start;
-      padding:18px;
-      border-radius:17px;
-      background:#f3f8fc;
-      border:1px solid var(--line);
-    }
-    .key i{
-      width:38px;height:38px;display:grid;place-items:center;flex:0 0 auto;
-      border-radius:12px;background:#e5f1fb;font-style:normal;font-size:20px
-    }
-    .key strong{display:block;margin-bottom:4px;color:var(--navy);font-size:15px}
-    
-    .model-table{
-      width:100%;
-      border-collapse:separate;
-      border-spacing:0 10px;
-    }
-    .model-table th{
-      padding:0 12px 8px;
-      text-align:left;
-      color:var(--muted);
-      font-size:11px;
-      text-transform:uppercase;
-      letter-spacing:.08em;
-    }
-    .model-table td{
-      padding:16px 12px;
-      background:#f8fbfd;
-      border-top:1px solid var(--line);
-      border-bottom:1px solid var(--line);
-      vertical-align:top;
-      font-size:14px;
-    }
-    .model-table td:first-child{border-left:1px solid var(--line);border-radius:14px 0 0 14px}
-    .model-table td:last-child{border-right:1px solid var(--line);border-radius:0 14px 14px 0}
-    .model-name-box{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-    .model-name{font-weight:900;color:var(--navy);font-size:16px}
-    .status-badge { display:inline-block; padding:3px 8px; border-radius:6px; font-size:10.5px; font-weight:800; text-transform:uppercase; }
-    .status-main { background:#dcfce7; color:#166534; }
-    .status-inter { background:#fef3c7; color:#92400e; }
-    .status-minor { background:#fee2e2; color:#991b1b; }
-    .score-box { background:#ffffff; border:1px solid var(--line); padding:8px 10px; border-radius:10px; }
-    .score-label { font-size:11.5px; color:var(--muted); }
-    .bar{height:7px;background:#e7eef4;border-radius:999px;overflow:hidden;margin-top:4px}
-    .fill{height:100%;border-radius:999px;}
-    .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
-    .chip{padding:4px 8px;border-radius:999px;background:#eaf3fb;color:#315f83;font-size:10.5px;font-weight:800}
-    .model-details { margin-top:10px; border-top:1px dashed var(--line); padding-top:8px; font-size:13px; color:var(--ink); }
-    .model-details summary { font-weight:800; color:var(--blue); cursor:pointer; font-size:12px; }
-    .details-body { margin-top:6px; padding:10px; background:#f1f5f9; border-radius:10px; line-height:1.45; }
-    .m-label { display:none; font-weight:800; color:var(--navy); margin-bottom:4px; font-size:12px; text-transform:uppercase; }
-
-    .table-footnote { margin-top:12px; font-size:12px; color:var(--muted); font-style:italic; }
-    .compare{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:14px;
-    }
-    .compare .card:first-child{border-top:5px solid var(--green)}
-    .compare .card:last-child{border-top:5px solid var(--amber)}
-    
-    .zones{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-    .zone{
-      padding:20px;
-      border-radius:18px;
-      border:1px solid var(--line);
-      background:#fbfdff;
-    }
-    .zone-summary { display:block; cursor:default; }
-    .zone-short-desc { display:none; }
-    .zone-chevron { display:none; }
-    .zone-insufficient { background: #f8fafc; border-style: dashed; }
-    .zone-notice { font-size: 13.5px; color: var(--muted); line-height: 1.5; margin: 10px 0; }
-    .zone-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
-    .zone-icon{font-size:24px}
-    .zone h3{margin:0;font-size:16px;color:var(--navy)}
-    .zone-details{list-style:none;padding:0;margin:0;font-size:13.5px;color:var(--ink)}
-    .zone-details li{margin-bottom:5px;line-height:1.4}
-    .zone-foot{display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:11px;font-weight:800}
-    .chip-conf { color:var(--green); background:#e6f4ea; padding:3px 8px; border-radius:6px; }
-    .chip-uncert { color:var(--amber); background:#fef3c7; padding:3px 8px; border-radius:6px; }
-
-    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-    .phase{
-      min-height:140px;
-      padding:18px;
-      border-radius:17px;
-      border:1px solid var(--line);
-      background:linear-gradient(180deg,#fbfdff,#f3f8fc);
-    }
-    .phase b{display:block;color:var(--blue);margin-bottom:8px}
-    .phase p{margin:0;color:var(--muted);font-size:13.5px}
-
-    .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .image-card{overflow:hidden;border-radius:18px;border:1px solid var(--line);background:white}
-    .image-demo{
-      height:200px;
-      display:grid;
-      place-items:center;
-      padding:20px;
-      text-align:center;
-      background:linear-gradient(135deg,#eef4f8,#dce8f1);
-      color:#4e687d;
-      font-weight:900;
-    }
-    .image-caption{padding:16px}
-    .image-caption h3{margin:0 0 8px;font-size:16px;color:var(--navy)}
-    .image-caption p{margin:0;color:var(--muted);font-size:13px}
-    .image-limit { margin-top:6px; padding:6px 10px; border-radius:8px; background:#fff3cd; color:#856404; font-size:12px; }
-    .image-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-
-    .alert{
-      padding:18px;
-      border-radius:17px;
-      background:#fff8e7;
-      border:1px solid #f2ddb0;
-      color:#7a591d;
-      font-weight:700;
-    }
-    .linkedin-box { position:relative; }
-    .linkedin{
-      padding:20px;
-      border-radius:20px;
-      background:#0d2f4f;
-      color:white;
-      white-space:pre-wrap;
-      line-height:1.65;
-      font-size:14.5px;
-    }
-    .linkedin-toggle-btn { display:none; margin-top:8px; width:100%; padding:10px; border-radius:10px; background:rgba(255,255,255,.15); color:white; border:none; font-weight:800; cursor:pointer; }
-    .linkedin-toolbar { display:flex; justify-content:space-between; align-items:center; margin-top:12px; gap:10px; }
-    .char-counter { font-size:12px; color:var(--muted); font-weight:700; }
-    .copy{
-      padding:12px 20px;border:0;border-radius:12px;
-      background:var(--blue);color:white;font-weight:900;cursor:pointer;
-      transition: background 0.15s ease;
-      min-height:48px;
-    }
-    .copy:hover{background:#114fa8}
-    .footer{padding:28px 8px 0;text-align:center;color:#6a7d8f;font-size:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-
-    .evolution-card { background: var(--surface-2); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
-    .sparkline { font-family: monospace; font-size: 13px; line-height: 1.5; color: var(--ink); background: #ffffff; border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin-top: 8px; }
-    .sparkline-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
-    .trend-pill { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; }
-    .trend-up { background: #dcfce7; color: #166534; }
-    .trend-down { background: #fee2e2; color: #991b1b; }
-
-    @media(max-width:1100px){
-      .zones{grid-template-columns:repeat(2,1fr)}
-    }
-    @media(max-width:950px){
-      .kpis,.grid-4{grid-template-columns:repeat(2,1fr)}
-      .grid-3,.cards3,.timeline{grid-template-columns:repeat(2,1fr)}
-    }
-    @media(max-width:650px){
-      body { font-size:15px; }
-      .page{width:min(100% - 14px,1180px);margin:6px auto 30px}
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface-2: #334155;
+      --ink: #f8fafc;
+      --muted: #94a3b8;
+      --line: rgba(255, 255, 255, 0.1);
+      --navy: #0f172a;
+      --blue: #38bdf8;
+      --cyan: #0284c7;
+      --green: #22c55e;
+      --amber: #f97316;
+      --red: #ef4444;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      --r-xl: 20px;
+      --r-lg: 16px;
+      --r-md: 12px;
       
-      .hero{padding:20px 16px;border-radius:22px;}
-      .hero-top{flex-direction:column; gap:8px;}
-      .hero h1{font-size:clamp(24px, 6vw, 30px); margin:12px 0 4px; line-height:1.2;}
-      .hero-sub{font-size:13.5px; margin-bottom:12px; line-height:1.4;}
-      .hero p{font-size:14px; line-height:1.45;}
-      .meta-cards{display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:14px;}
-      .meta-card{padding:6px 10px; font-size:11.5px; text-align:center;}
-      .generation-date{text-align:center; font-size:11px; margin-top:6px;}
+      --vigi-green: #22c55e;
+      --vigi-orange: #f97316;
+      --vigi-red: #ef4444;
+      --vigi-blue: #38bdf8;
+      --vigi-gray: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      font-size: 15px;
+      padding: 0 0 40px 0;
+    }
+    a { color: var(--blue); }
+    img { max-width: 100%; display: block; border-radius: 12px; }
+    .page { width: min(1100px, calc(100% - 24px)); margin: 20px auto 40px; }
 
-      .kpis { grid-template-columns: 1fr 1fr !important; gap:8px !important; margin-top:14px !important; }
-      @media(max-width:400px){ .kpis { grid-template-columns: 1fr !important; } }
-      .kpi { padding:12px !important; border-radius:14px !important; }
-      .kpi-value { font-size:19px !important; }
-      .kpi-note { font-size:11px !important; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    /* Bandeau Superieur Epure */
+    .hero-clean {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border: 1px solid var(--line);
+      border-radius: var(--r-xl);
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow);
+    }
+    .hero-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .hero-logo { font-size: 28px; }
+    .hero-title { font-size: clamp(22px, 4vw, 32px); font-weight: 800; color: #fff; text-transform: uppercase; letter-spacing: -0.02em; }
+    .hero-dates-bar { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+    .date-chip { padding: 6px 14px; border-radius: 20px; background: rgba(255,255,255,0.06); border: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+    .date-chip strong { color: #fff; }
+    .active-chip { background: rgba(56, 189, 248, 0.15); border-color: var(--blue); color: var(--blue); }
+    .gen-chip { font-size: 12px; }
 
-      .grid-2,.grid-3,.grid-4,.zones,.cards3,.compare {
-        grid-template-columns: 1fr !important;
-        gap:10px !important;
-      }
-      .section{padding:16px !important; border-radius:20px !important; margin-top:14px !important;}
-      .section-head{align-items:flex-start; flex-direction:column; margin-bottom:14px; gap:8px;}
+    /* Synthese Globale (4 Pill-KPIs) */
+    .kpi-pills-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .kpi-pill {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .kpi-icon { font-size: 24px; flex-shrink: 0; }
+    .kpi-pill-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 700; }
+    .kpi-pill-val { font-size: 18px; font-weight: 800; color: #fff; line-height: 1.2; margin-top: 2px; }
+    .kpi-pill-note { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
 
-      .model-table, .model-table tbody, .model-table tr, .model-table td {
-        display: block !important;
-        width: 100% !important;
-      }
-      .model-table thead { display: none !important; }
-      .model-table tr {
-        margin-bottom: 14px;
-        border: 1px solid var(--line);
-        border-radius: 16px;
-        background: #f8fbfd;
-        padding: 14px;
-      }
-      .model-table td {
-        border: none !important;
-        padding: 6px 0 !important;
-      }
-      .m-label { display: block !important; }
+    /* Section Base */
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-xl);
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .section-head { margin-bottom: 16px; }
+    .section h2 { margin: 0; font-size: clamp(18px, 3vw, 24px); font-weight: 700; color: #fff; }
+    .section .sub { margin: 4px 0 0; color: var(--muted); font-size: 13.5px; }
+    
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    .badge-green { background: rgba(34, 197, 94, 0.15); color: var(--vigi-green); border: 1px solid var(--vigi-green); }
+    .badge-orange { background: rgba(249, 115, 22, 0.15); color: var(--vigi-orange); border: 1px solid var(--vigi-orange); }
+    .badge-blue { background: rgba(56, 189, 248, 0.15); color: var(--vigi-blue); border: 1px solid var(--vigi-blue); }
+    .badge-gray { background: rgba(255,255,255,0.08); color: var(--muted); border: 1px solid var(--line); }
 
-      .zone-accordion {
-        padding:0 !important;
-        border-radius:14px !important;
-        overflow:hidden;
-        background:white !important;
-      }
-      .zone-summary {
-        display:flex !important;
-        justify-content:space-between !important;
-        align-items:center !important;
-        padding:14px !important;
-        background:#f8fbfd !important;
-        cursor:pointer !important;
-        list-style:none !important;
-      }
-      .zone-summary::-webkit-details-marker { display:none; }
-      .zone-short-desc { display:block !important; font-size:12.5px; color:var(--muted); margin-top:2px; max-width:210px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-      .zone-chevron { display:inline-block !important; font-size:11px; color:var(--muted); transition:transform 0.2s; }
-      details[open] .zone-chevron { transform:rotate(180deg); }
-      .zone-body { padding:14px !important; border-top:1px solid var(--line); }
+    /* Jour par Jour Accordeons (Niveau 1) */
+    .day-by-day-container { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+    .day-accordion {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .day-accordion:hover { border-color: rgba(56, 189, 248, 0.4); }
+    .day-summary {
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      list-style: none;
+      background: linear-gradient(90deg, #1e293b 0%, #334155 100%);
+    }
+    .day-summary::-webkit-details-marker { display: none; }
+    .day-summary-left { display: flex; align-items: center; gap: 12px; }
+    .day-picto { font-size: 24px; }
+    .day-name { font-size: 16px; font-weight: 700; color: #fff; }
+    .day-short { font-size: 13px; color: var(--muted); margin-top: 2px; }
+    .day-chevron { font-size: 12px; color: var(--muted); transition: transform 0.2s; }
+    details[open] .day-chevron { transform: rotate(180deg); }
+    .day-accordion-body { padding: 16px 20px; font-size: 14px; color: #cbd5e1; border-top: 1px solid var(--line); line-height: 1.6; }
 
-      .timeline {
-        display: flex !important;
-        flex-direction: column !important;
-        position: relative !important;
-        padding-left: 20px !important;
-        border-left: 2.5px solid var(--blue) !important;
-        gap: 12px !important;
-      }
-      .phase {
-        position: relative !important;
-        min-height: auto !important;
-        padding: 12px 14px !important;
-        border-radius: 12px !important;
-      }
-      .phase::before {
-        content: "" !important;
-        position: absolute !important;
-        left: -27px !important;
-        top: 16px !important;
-        width: 11px !important;
-        height: 11px !important;
-        border-radius: 50% !important;
-        background: var(--blue) !important;
-        border: 2px solid white !important;
-      }
+    /* Points cles & Grilles */
+    .grid { display: grid; gap: 12px; }
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    .card { background: rgba(15, 23, 42, 0.6); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 16px; }
+    .card h3 { margin: 0 0 6px; font-size: 15px; color: var(--blue); }
+    .card p { margin: 0; font-size: 13.5px; color: #cbd5e1; }
+    
+    .key { display: flex; gap: 12px; align-items: flex-start; padding: 14px; border-radius: 12px; background: rgba(15, 23, 42, 0.6); border: 1px solid var(--line); }
+    .key i { font-style: normal; font-size: 20px; flex-shrink: 0; }
+    .key strong { color: #fff; font-size: 14px; display: block; margin-bottom: 2px; }
 
-      .linkedin {
-        max-height: none !important;
-        font-size:14px;
-        padding:16px;
-      }
-      .linkedin-toolbar { flex-direction: column; align-items: stretch; }
-      .copy { width: 100%; text-align: center; }
+    /* Departements / Zones Tabbed Navigation */
+    .zones-container { margin-top: 10px; }
+    .zone-tabs-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; border-bottom: 1px solid var(--line); padding-bottom: 12px; }
+    .zone-tab-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .zone-tab-btn:hover { background: rgba(56, 189, 248, 0.1); color: #fff; }
+    .zone-tab-btn.active { background: var(--blue); color: #0f172a; border-color: var(--blue); font-weight: 700; }
+    .zone-panel { animation: fadeIn 0.2s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Analyse Technique (Niveau 2 - Accordeon Replie) */
+    .tech-accordion { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-xl); overflow: hidden; margin-top: 10px; }
+    .tech-summary {
+      padding: 20px 24px;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid transparent;
+    }
+    details[open] .tech-summary { border-bottom-color: var(--line); }
+    .tech-summary::-webkit-details-marker { display: none; }
+    .tech-summary-left { display: flex; align-items: center; gap: 14px; }
+    .tech-icon { font-size: 28px; }
+    .tech-summary h3 { font-size: 18px; font-weight: 700; color: #fff; margin: 0; }
+    .tech-sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+    .tech-badge { background: rgba(56, 189, 248, 0.15); color: var(--blue); padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+
+    .tech-body { padding: 24px; display: flex; flex-direction: column; gap: 24px; }
+    .tech-block h4 { font-size: 16px; font-weight: 700; color: var(--blue); margin-bottom: 12px; border-bottom: 1px dashed var(--line); padding-bottom: 6px; }
+
+    /* Tables & Models */
+    .model-table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 8px; }
+    .model-table th { text-align: left; padding: 10px; background: rgba(15, 23, 42, 0.8); color: var(--muted); font-size: 11px; text-transform: uppercase; border-bottom: 1px solid var(--line); }
+    .model-table td { padding: 12px 10px; border-bottom: 1px solid rgba(255,255,255,0.05); color: #cbd5e1; }
+    .model-name { font-weight: 700; color: #fff; }
+    .status-badge { padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+    .status-main { background: rgba(34, 197, 94, 0.2); color: var(--vigi-green); }
+    .status-inter { background: rgba(249, 115, 22, 0.2); color: var(--vigi-orange); }
+    .status-minor { background: rgba(239, 68, 68, 0.2); color: var(--vigi-red); }
+
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .card-solid { border-top: 3px solid var(--vigi-green); }
+    .card-fragile { border-top: 3px solid var(--vigi-orange); }
+
+    .cards3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .image-card { background: rgba(15, 23, 42, 0.6); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; padding: 12px; }
+    .image-caption h3 { font-size: 14px; color: #fff; margin-bottom: 4px; }
+    .image-caption p { font-size: 12.5px; color: var(--muted); }
+
+    .alert { padding: 14px; border-radius: 10px; background: rgba(249, 115, 22, 0.15); border: 1px solid var(--vigi-orange); color: #fdba74; font-size: 13.5px; }
+
+    /* Footer & Tools */
+    .linkedin { background: rgba(15, 23, 42, 0.8); border: 1px solid var(--line); padding: 16px; border-radius: 12px; color: #cbd5e1; font-size: 13.5px; white-space: pre-wrap; }
+    .copy { background: var(--blue); color: #0f172a; border: 0; padding: 10px 20px; border-radius: 20px; font-weight: 700; cursor: pointer; margin-top: 10px; }
+    .footer-clean { text-align: center; padding: 30px 0 10px; font-size: 12.5px; color: var(--muted); }
+
+    .sparkline { font-family: monospace; font-size: 12px; background: rgba(15, 23, 42, 0.8); padding: 10px; border-radius: 8px; margin-top: 6px; }
+    .sparkline-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+    .trend-pill { padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+    .trend-up { background: rgba(34, 197, 94, 0.2); color: var(--vigi-green); }
+
+    /* Responsive Mobile First */
+    @media (max-width: 768px) {
+      .kpi-pills-bar { grid-template-columns: 1fr 1fr; }
+      .grid-2, .compare, .cards3 { grid-template-columns: 1fr !important; }
+      .hero-dates-bar { flex-direction: column; }
+      .model-table, .model-table tbody, .model-table tr, .model-table td { display: block; width: 100%; }
+      .model-table thead { display: none; }
+      .model-table tr { margin-bottom: 12px; border: 1px solid var(--line); border-radius: 12px; padding: 12px; background: rgba(15, 23, 42, 0.6); }
+      .model-table td { border: none; padding: 4px 0; }
     }
     """
 
@@ -2047,238 +1915,308 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PRÉVISIONS À MOYEN ET LONG TERME — Bulletin premium</title>
+<title>PRÉVISIONS MÉTÉO — Bulletin Exécutif & Analytique</title>
 [STYLE_PLACEHOLDER]
+<script>
+function switchZoneTab(containerId, tabId, btnEl) {
+  var container = document.getElementById(containerId);
+  if (!container) return;
+  var panels = container.querySelectorAll('.zone-panel');
+  var btns = container.querySelectorAll('.zone-tab-btn');
+  panels.forEach(function(p) { p.style.display = 'none'; });
+  btns.forEach(function(b) { b.classList.remove('active'); });
+  var target = document.getElementById(tabId);
+  if (target) target.style.display = 'block';
+  if (btnEl) btnEl.classList.add('active');
+}
+</script>
 </head>
 <body>
 <main class="page">
 
-<header class="hero">
-  <div class="hero-inner">
-    <div class="hero-top">
-      <div class="brand"><div class="brand-icon">🌦️</div>Tendances météo France</div>
-      <div class="demo">Monsieur Météo</div>
-    </div>
-    <h1>PRÉVISIONS À MOYEN ET LONG TERME</h1>
-    <div class="hero-sub">Analyse nationale • Comparaison multi-modèles • Consensus • Incertitudes • Deux prochaines semaines</div>
-    <p>Analyse comparative multi-modèles, temps sensible par grandes zones, niveau de confiance et incertitudes.</p>
-    
-    <div class="meta-cards">
-      <div class="meta-card">Semaine 1 : [W1_DATES_PLACEHOLDER]</div>
-      <div class="meta-card">Semaine 2 : [W2_DATES_PLACEHOLDER]</div>
-    </div>
-    <div class="generation-date">Génération : [TODAY_STR_PLACEHOLDER]</div>
-
-    <div class="kpis">
-      <div class="kpi"><div class="kpi-label">Consensus</div><div class="kpi-value">[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]</div></div>
-      <div class="kpi"><div class="kpi-label">Scénario</div><div class="kpi-value">[GLOBAL_SCENARIO_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]</div></div>
-      <div class="kpi"><div class="kpi-label">Cartes</div><div class="kpi-value">[GLOBAL_CARDS_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_CARDS_NOTE_PLACEHOLDER]</div></div>
-      <div class="kpi"><div class="kpi-label">Incertitude</div><div class="kpi-value">[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]</div><div class="kpi-note">[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]</div></div>
-    </div>
+<!-- 1. Bandeau Supérieur Épuré -->
+<header class="hero-clean">
+  <div class="hero-brand">
+    <span class="hero-logo">🌦️</span>
+    <h1 class="hero-title">Prévisions France</h1>
+  </div>
+  <div class="hero-dates-bar">
+    <div class="date-chip active-chip">📅 <strong>Semaine 1 :</strong> [W1_DATES_PLACEHOLDER]</div>
+    <div class="date-chip">📅 <strong>Semaine 2 :</strong> [W2_DATES_PLACEHOLDER]</div>
+    <div class="date-chip gen-chip">⚡ <strong>Génération :</strong> [TODAY_STR_PLACEHOLDER]</div>
   </div>
 </header>
 
-<section id="week1" class="panel">
-  <div id="sec-w1-keys" class="section">
-    <div class="section-head">
-      <div><span class="badge">À retenir</span><h2>Semaine 1 — [W1_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
-    </div>
-    <div class="grid grid-2">
-      [W1_KEYS_HTML_PLACEHOLDER]
-    </div>
-  </div>
-
-  <div id="sec-w1-models" class="section">
-    <div class="section-head">
-      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles (Semaine 1)</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
-    </div>
-    <table class="model-table">
-      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
-      <tbody>
-        [W1_MODELS_HTML_PLACEHOLDER]
-      </tbody>
-    </table>
-    <div class="table-footnote">
-      📌 La confiance d'extraction mesure la clarté des informations. Le soutien du scénario qualifie son niveau de convergence (Majoritaire, Intermédiaire, Minoritaire, Isolé).
+<!-- 2. Synthèse Globale (4 Pill-KPIs) -->
+<section class="kpi-pills-bar">
+  <div class="kpi-pill">
+    <span class="kpi-icon">🔥</span>
+    <div>
+      <div class="kpi-pill-label">Situation dominante</div>
+      <div class="kpi-pill-val">[GLOBAL_SCENARIO_KPI_PLACEHOLDER]</div>
+      <div class="kpi-pill-note">[GLOBAL_SCENARIO_NOTE_PLACEHOLDER]</div>
     </div>
   </div>
-
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 1)</h2></div></div>
-    <div class="compare">
-      <div class="card"><h3>Ce qui converge</h3><p>[W1_CONVERGENCES_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Ce qui diverge</h3><p>[W1_DIVERGENCES_PLACEHOLDER]</p></div>
+  <div class="kpi-pill">
+    <span class="kpi-icon">📈</span>
+    <div>
+      <div class="kpi-pill-label">Tendance</div>
+      <div class="kpi-pill-val">[GLOBAL_CONSENSUS_KPI_PLACEHOLDER]</div>
+      <div class="kpi-pill-note">[GLOBAL_CONSENSUS_NOTE_PLACEHOLDER]</div>
     </div>
   </div>
-
-  <div id="sec-w1-zones" class="section">
-    <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques (Semaine 1)</h2></div>
-    </div>
-    <div class="zones">
-      [W1_ZONES_HTML_PLACEHOLDER]
-    </div>
-  </div>
-
-  <div id="sec-w1-timeline" class="section">
-    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 1</h2></div></div>
-    <div class="timeline">
-      <div class="phase"><b>[W1_PHASE_1_DATES_PLACEHOLDER]</b><p>[W1_PHASE_1_PLACEHOLDER]</p></div>
-      <div class="phase"><b>[W1_PHASE_2_DATES_PLACEHOLDER]</b><p>[W1_PHASE_2_PLACEHOLDER]</p></div>
-      <div class="phase"><b>[W1_PHASE_3_DATES_PLACEHOLDER]</b><p>[W1_PHASE_3_PLACEHOLDER]</p></div>
-      <div class="phase"><b>[W1_PHASE_4_DATES_PLACEHOLDER]</b><p>[W1_PHASE_4_PLACEHOLDER]</p></div>
+  <div class="kpi-pill">
+    <span class="kpi-icon">⚠️</span>
+    <div>
+      <div class="kpi-pill-label">Évolution & Cartes</div>
+      <div class="kpi-pill-val">[GLOBAL_CARDS_KPI_PLACEHOLDER]</div>
+      <div class="kpi-pill-note">[GLOBAL_CARDS_NOTE_PLACEHOLDER]</div>
     </div>
   </div>
-
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 1)</h2></div></div>
-    <div class="compare">
-      <div class="card"><h3>Éléments solides</h3><p>[W1_SOLID_POINTS_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Éléments fragiles</h3><p>[W1_FRAGILE_POINTS_PLACEHOLDER]</p></div>
-    </div>
-    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : [W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
-  </div>
-
-  <div id="sec-w1-images" class="section">
-    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes (Semaine 1)</h2></div></div>
-    <div class="cards3">
-      [W1_IMAGES_HTML_PLACEHOLDER]
+  <div class="kpi-pill">
+    <span class="kpi-icon">🟢</span>
+    <div>
+      <div class="kpi-pill-label">Niveau de Confiance</div>
+      <div class="kpi-pill-val">[GLOBAL_UNCERTAINTY_KPI_PLACEHOLDER]</div>
+      <div class="kpi-pill-note">[GLOBAL_UNCERTAINTY_NOTE_PLACEHOLDER]</div>
     </div>
   </div>
 </section>
 
-<section id="week2" class="panel">
+<!-- 3. PRÉVISION JOUR PAR JOUR (Cœur interactif - Niveau 1) -->
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="badge badge-green">Niveau 1 — Vue Rapide</span>
+      <h2>🗓️ Chronologie & Évolution Jour par Jour</h2>
+      <p class="sub">Cliquez sur une phase pour afficher le détail des prévisions.</p>
+    </div>
+  </div>
+
+  <div class="day-by-day-container">
+    <details class="day-accordion" open>
+      <summary class="day-summary">
+        <div class="day-summary-left">
+          <span class="day-picto">🗓️</span>
+          <div>
+            <strong class="day-name">[W1_PHASE_1_DATES_PLACEHOLDER]</strong>
+            <div class="day-short">[W1_PHASE_1_PLACEHOLDER]</div>
+          </div>
+        </div>
+        <span class="day-chevron">▼</span>
+      </summary>
+      <div class="day-accordion-body">
+        <p>[W1_PHASE_1_PLACEHOLDER]</p>
+      </div>
+    </details>
+
+    <details class="day-accordion" open>
+      <summary class="day-summary">
+        <div class="day-summary-left">
+          <span class="day-picto">🗓️</span>
+          <div>
+            <strong class="day-name">[W1_PHASE_2_DATES_PLACEHOLDER]</strong>
+            <div class="day-short">[W1_PHASE_2_PLACEHOLDER]</div>
+          </div>
+        </div>
+        <span class="day-chevron">▼</span>
+      </summary>
+      <div class="day-accordion-body">
+        <p>[W1_PHASE_2_PLACEHOLDER]</p>
+      </div>
+    </details>
+
+    <details class="day-accordion">
+      <summary class="day-summary">
+        <div class="day-summary-left">
+          <span class="day-picto">🗓️</span>
+          <div>
+            <strong class="day-name">[W1_PHASE_3_DATES_PLACEHOLDER]</strong>
+            <div class="day-short">[W1_PHASE_3_PLACEHOLDER]</div>
+          </div>
+        </div>
+        <span class="day-chevron">▼</span>
+      </summary>
+      <div class="day-accordion-body">
+        <p>[W1_PHASE_3_PLACEHOLDER]</p>
+      </div>
+    </details>
+
+    <details class="day-accordion">
+      <summary class="day-summary">
+        <div class="day-summary-left">
+          <span class="day-picto">🗓️</span>
+          <div>
+            <strong class="day-name">[W1_PHASE_4_DATES_PLACEHOLDER]</strong>
+            <div class="day-short">[W1_PHASE_4_PLACEHOLDER]</div>
+          </div>
+        </div>
+        <span class="day-chevron">▼</span>
+      </summary>
+      <div class="day-accordion-body">
+        <p>[W1_PHASE_4_PLACEHOLDER]</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- 4. Points Essentiels à Retenir -->
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="badge badge-orange">Essentiel</span>
+      <h2>💡 Les Points à Retenir</h2>
+      <p class="sub">Les informations principales de la semaine 1.</p>
+    </div>
+  </div>
+  <div class="grid grid-2">
+    [W1_KEYS_HTML_PLACEHOLDER]
+  </div>
+</section>
+
+<!-- 5. Prévision par Département / Zone (Nav par Clic) -->
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="badge badge-blue">Localisation</span>
+      <h2>📍 Prévision par Département / Zone</h2>
+      <p class="sub">Cliquez sur un onglet pour consulter le secteur de votre choix.</p>
+    </div>
+  </div>
+  [W1_ZONES_HTML_PLACEHOLDER]
+</section>
+
+<!-- 6. Tendance Semaine Suivante (J+8 à J+14) -->
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="badge badge-gray">Perspective J+8 à J+14</span>
+      <h2>🔮 Tendance Semaine 2 — [W2_DATES_PLACEHOLDER]</h2>
+    </div>
+  </div>
   [W2_NOTICE_HTML_PLACEHOLDER]
-
-  <div class="section">
-    <div class="section-head">
-      <div><span class="badge">À retenir</span><h2>Semaine 2 — [W2_DATES_PLACEHOLDER]</h2><p class="sub">Les 4 à 5 informations principales par ordre d'importance.</p></div>
-    </div>
-    <div class="grid grid-2">
-      [W2_KEYS_HTML_PLACEHOLDER]
-    </div>
+  <div class="grid grid-2" style="margin-top:12px;">
+    [W2_KEYS_HTML_PLACEHOLDER]
   </div>
+</section>
 
-  <div class="section">
-    <div class="section-head">
-      <div><span class="badge">Comparateur</span><h2>Ce que disent les modèles (Semaine 2)</h2><p class="sub">Lecture synthétique et deux niveaux d'analyse.</p></div>
+<!-- 7. 🔬 Analyse Météorologique Détaillée (Niveau 2 - Repliée par défaut) -->
+<section class="tech-accordion">
+  <summary class="tech-summary">
+    <div class="tech-summary-left">
+      <span class="tech-icon">🔬</span>
+      <div>
+        <h3>Analyse Météorologique Détaillée</h3>
+        <div class="tech-sub">Niveau 2 : Modèles numériques, comparateur GFS/CEP/AROME, cartes synoptiques et doutes</div>
+      </div>
     </div>
-    <table class="model-table">
-      <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
-      <tbody>
-        [W2_MODELS_HTML_PLACEHOLDER]
-      </tbody>
-    </table>
-    <div class="table-footnote">
-      📌 La confiance d'extraction mesure la clarté des informations. Le soutien du scénario qualifie son niveau de convergence (Majoritaire, Intermédiaire, Minoritaire, Isolé).
+    <span class="tech-badge">Déplier l'analyse ▾</span>
+  </summary>
+  
+  <div class="tech-body">
+    <div class="tech-block">
+      <h4>🤖 Comparatif des Modèles Numériques (Semaine 1)</h4>
+      <table class="model-table">
+        <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
+        <tbody>
+          [W1_MODELS_HTML_PLACEHOLDER]
+        </tbody>
+      </table>
     </div>
-  </div>
 
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Analyse</span><h2>Convergences et divergences (Semaine 2)</h2></div></div>
-    <div class="compare">
-      <div class="card"><h3>Ce qui converge</h3><p>[W2_CONVERGENCES_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Ce qui diverge</h3><p>[W2_DIVERGENCES_PLACEHOLDER]</p></div>
+    <div class="tech-block">
+      <h4>🤝 Convergences & Divergences des Scénarios</h4>
+      <div class="compare">
+        <div class="card card-solid"><h3>Ce qui converge</h3><p>[W1_CONVERGENCES_PLACEHOLDER]</p></div>
+        <div class="card card-fragile"><h3>Ce qui diverge</h3><p>[W1_DIVERGENCES_PLACEHOLDER]</p></div>
+      </div>
     </div>
-  </div>
 
-  <div class="section">
-    <div class="section-head">
-      <div><span class="badge">Temps sensible</span><h2>Prévision par 8 grandes zones géographiques (Semaine 2)</h2></div>
+    <div class="tech-block">
+      <h4>🛡️ Fiabilité & Éléments à surveiller</h4>
+      <div class="compare">
+        <div class="card card-solid"><h3>Points solides</h3><p>[W1_SOLID_POINTS_PLACEHOLDER]</p></div>
+        <div class="card card-fragile"><h3>Points fragiles</h3><p>[W1_FRAGILE_POINTS_PLACEHOLDER]</p></div>
+      </div>
+      <div class="alert" style="margin-top:12px">À surveiller dans les prochains runs : [W1_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
     </div>
-    <div class="zones">
-      [W2_ZONES_HTML_PLACEHOLDER]
-    </div>
-  </div>
 
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Chronologie</span><h2>Déroulé de la semaine 2</h2></div></div>
-    <div class="timeline">
-      <div class="phase"><b>[W2_PHASE_1_DATES_PLACEHOLDER]</b><p>[W2_PHASE_1_PLACEHOLDER]</p></div>
-      <div class="phase"><b>[W2_PHASE_2_DATES_PLACEHOLDER]</b><p>[W2_PHASE_2_PLACEHOLDER]</p></div>
-      <div class="phase"><b>[W2_PHASE_3_DATES_PLACEHOLDER]</b><p>[W2_PHASE_3_PLACEHOLDER]</p></div>
-      <div class="phase"><b>[W2_PHASE_4_DATES_PLACEHOLDER]</b><p>[W2_PHASE_4_PLACEHOLDER]</p></div>
+    <div class="tech-block">
+      <h4>🖼️ Cartes Synoptiques & Graphiques retenus (Semaine 1)</h4>
+      <div class="cards3">
+        [W1_IMAGES_HTML_PLACEHOLDER]
+      </div>
     </div>
-  </div>
 
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Fiabilité</span><h2>Points solides et points fragiles (Semaine 2)</h2></div></div>
-    <div class="compare">
-      <div class="card"><h3>Éléments solides</h3><p>[W2_SOLID_POINTS_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Éléments fragiles</h3><p>[W2_FRAGILE_POINTS_PLACEHOLDER]</p></div>
+    <div class="tech-block">
+      <h4>🔮 Détails Techniques Semaine 2 (J+8 à J+14)</h4>
+      <table class="model-table">
+        <thead><tr><th>Modèle</th><th>Scénario</th><th>Temps sensible</th><th>Zones</th><th>Confiance & Soutien</th></tr></thead>
+        <tbody>
+          [W2_MODELS_HTML_PLACEHOLDER]
+        </tbody>
+      </table>
+      <div class="compare" style="margin-top:12px;">
+        <div class="card"><h3>Convergences S2</h3><p>[W2_CONVERGENCES_PLACEHOLDER]</p></div>
+        <div class="card"><h3>Divergences S2</h3><p>[W2_DIVERGENCES_PLACEHOLDER]</p></div>
+      </div>
+      <div class="cards3" style="margin-top:12px;">
+        [W2_IMAGES_HTML_PLACEHOLDER]
+      </div>
     </div>
-    <div class="alert" style="margin-top:14px">À surveiller dans les prochains runs : [W2_NEXT_RUNS_TO_WATCH_PLACEHOLDER]</div>
-  </div>
 
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Graphiques clés</span><h2>Les images les plus pertinentes (Semaine 2)</h2></div></div>
-    <div class="cards3">
-      [W2_IMAGES_HTML_PLACEHOLDER]
+    <div class="tech-block">
+      <h4>📊 Transparence Méthodologique & Tableau des Doutes</h4>
+      <div class="grid grid-2">
+        <div class="card"><h3>Calendrier</h3><p>[DOUBTS_TIMING_PLACEHOLDER]</p></div>
+        <div class="card"><h3>Localisation</h3><p>[DOUBTS_LOCATION_PLACEHOLDER]</p></div>
+        <div class="card"><h3>Intensité</h3><p>[DOUBTS_INTENSITY_PLACEHOLDER]</p></div>
+        <div class="card"><h3>Données manquantes</h3><p>[MISSING_INFORMATION_PLACEHOLDER]</p></div>
+        <div class="card"><h3>Modèles peu documentés</h3><p>[LOW_DOCUMENTED_MODELS_PLACEHOLDER]</p></div>
+        <div class="card"><h3>Images incertaines</h3><p>[UNCERTAIN_IMAGES_PLACEHOLDER]</p></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="summary" class="panel">
+<!-- 8. Outils Secondaires & Footer -->
+<section class="section" style="margin-top:20px;">
   [WHAT_CHANGED_BOX_PLACEHOLDER]
 
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Synthèse</span><h2>À retenir sur les deux semaines</h2></div></div>
-    
-    <div id="history-box" class="grid grid-2" style="margin-bottom:20px;">
-        <div class="evolution-card">
-            <h3>📈 Évolution de la confiance</h3>
-            <div class="sparkline">
-                [SPARKLINE_CONF_PLACEHOLDER]
-            </div>
-        </div>
-        <div class="evolution-card">
-            <h3>🌡️ Évolution des températures</h3>
-            <div class="sparkline">
-                [TEMP_EVOLUTION_PLACEHOLDER]
-            </div>
-        </div>
+  <div class="grid grid-2" style="margin-top:14px;">
+    <div class="card">
+      <h3>📈 Évolution de la confiance</h3>
+      <div class="sparkline">[SPARKLINE_CONF_PLACEHOLDER]</div>
     </div>
-
-    <div class="grid grid-2">
-      <div class="card"><h3>Évolution générale</h3><p>[GLOBAL_15_DAY_TREND_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Semaine la plus fiable</h3><p>[MOST_RELIABLE_WEEK_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Phénomènes récurrents</h3><p>[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Incertitude majeure</h3><p>[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]</p></div>
+    <div class="card">
+      <h3>🌡️ Évolution des températures</h3>
+      <div class="sparkline">[TEMP_EVOLUTION_PLACEHOLDER]</div>
     </div>
   </div>
 
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Réseaux sociaux</span><h2>Post LinkedIn</h2></div></div>
+  <div class="grid grid-2" style="margin-top:14px;">
+    <div class="card"><h3>Évolution générale</h3><p>[GLOBAL_15_DAY_TREND_PLACEHOLDER]</p></div>
+    <div class="card"><h3>Semaine la plus fiable</h3><p>[MOST_RELIABLE_WEEK_PLACEHOLDER]</p></div>
+    <div class="card"><h3>Phénomènes récurrents</h3><p>[GLOBAL_RECURRING_PHENOMENA_PLACEHOLDER]</p></div>
+    <div class="card"><h3>Incertitude majeure</h3><p>[GLOBAL_MAJOR_UNCERTAINTIES_PLACEHOLDER]</p></div>
+  </div>
+
+  <div style="margin-top:16px;">
+    <h3>📱 Post LinkedIn</h3>
     <div class="linkedin-box">
       <div id="linkedin" class="linkedin">[LINKEDIN_CLEAN_PLACEHOLDER]</div>
     </div>
   </div>
 </section>
 
-<section id="doubts" class="panel">
-  <div class="section">
-    <div class="section-head"><div><span class="badge">Transparence</span><h2>Méthodologie des scores & doutes</h2></div></div>
-    <div class="alert" style="margin-bottom:16px;">
-      💡 <b>Calcul des scores :</b> La <i>confiance d'extraction</i> évalue la clarté des informations. Le <i>soutien du scénario</i> qualifie le niveau d'accord entre les modélisations sans chiffre artificiel.
-    </div>
-    <div class="grid grid-2">
-      <div class="card"><h3>Calendrier</h3><p>[DOUBTS_TIMING_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Localisation</h3><p>[DOUBTS_LOCATION_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Intensité</h3><p>[DOUBTS_INTENSITY_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Données manquantes</h3><p>[MISSING_INFORMATION_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Modèles peu documentés</h3><p>[LOW_DOCUMENTED_MODELS_PLACEHOLDER]</p></div>
-      <div class="card"><h3>Images incertaines</h3><p>[UNCERTAIN_IMAGES_PLACEHOLDER]</p></div>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-<span>Bulletin généré automatiquement à partir des discussions et images du forum Infoclimat.</span>
+<footer class="footer-clean">
+  <p>Bulletin météo généré automatiquement à partir des discussions du forum Infoclimat et des données Météo-France & Guillaume Séchet.</p>
 </footer>
 
 </main>
 </body>
 </html>"""
+
 
     # Remplacement des variables dans le template
     html = html_template

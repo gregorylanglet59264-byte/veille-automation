@@ -1,0 +1,538 @@
+{
+  "generated_at": "2026-08-18T23:18:00.649239",
+  "stats": {
+    "total": 20,
+    "total_analyzed": 160,
+    "urgents": 7,
+    "importants": 13,
+    "retenirs": 0,
+    "updates": 20,
+    "meteo": 5,
+    "ia_tech": 5,
+    "actu_france": 5,
+    "actu_monde": 5,
+    "avg_score": 80.7
+  },
+  "stories": [
+    {
+      "story_id": "ff219851cb58ccd0",
+      "category": "ia_tech",
+      "title": "Modèle IA sur OpenRouter : Google: Gemini 3.7 Flash (1048k contexte)",
+      "summary": "Dans l'écosystème de l'intelligence artificielle et des technologies de pointe, les dernières annonces marquent une accélération notable du rythme des déploiements. Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step... Concernant l'actualité relative à 'Modèle IA sur OpenRouter : Google: Gemini 3.7 Flash (1048k contexte)', les développements récents mettent en lumière une avancée technique ou stratégique majeure. L'intégration de ces nouvelles capacités ou modèles modifie les standards de performance, d'inférence ou d'outillage, ouvrant des perspectives directes pour les ingénieurs, chercheurs et organisations intégrant des agents et LLM en production.",
+      "why_it_matters": "Avancée sur les capacités d'inférence, réduisant les coûts ou augmentant le raisonnement.",
+      "sources": [
+        {
+          "name": "OpenRouter API",
+          "url": "https://openrouter.ai/google/gemini-3.7-flash"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 90,
+        "importance": 30,
+        "novelty": 22,
+        "reliability": 20,
+        "impact": 8,
+        "interest": 10,
+        "urgency": "🔴 Urgent"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 8,
+      "date_str": "18/08/2026 21:17"
+    },
+    {
+      "story_id": "a79b8d091c4ce442",
+      "category": "ia_tech",
+      "title": "Nouveau modèle open-source : bloomer010/Ling-3.0-flash-GGUF (23 ❤️ sur Hugging Face)",
+      "summary": "Dans l'écosystème de l'intelligence artificielle et des technologies de pointe, les dernières annonces marquent une accélération notable du rythme des déploiements. Publication et mise à jour récente du checkpoint de modèle bloomer010/Ling-3.0-flash-GGUF sur le hub officiel Hugging Face. Concernant l'actualité relative à 'Nouveau modèle open-source : bloomer010/Ling-3.0-flash-GGUF (23 ❤️ sur Hugging Face)', les développements récents mettent en lumière une avancée technique ou stratégique majeure. L'intégration de ces nouvelles capacités ou modèles modifie les standards de performance, d'inférence ou d'outillage, ouvrant des perspectives directes pour les ingénieurs, chercheurs et organisations intégrant des agents et LLM en production.",
+      "why_it_matters": "Avancée sur les capacités d'inférence, réduisant les coûts ou augmentant le raisonnement.",
+      "sources": [
+        {
+          "name": "Hugging Face Hub",
+          "url": "https://huggingface.co/bloomer010/Ling-3.0-flash-GGUF"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 87,
+        "importance": 24,
+        "novelty": 25,
+        "reliability": 20,
+        "impact": 8,
+        "interest": 10,
+        "urgency": "🔴 Urgent"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 8,
+      "date_str": "18/08/2026 21:17"
+    },
+    {
+      "story_id": "b6cfe41dcd56ac7b",
+      "category": "actu_france",
+      "title": "Cyberattaques du fisc : “Ce qui se passe en France est hors norme”",
+      "summary": "Sur le plan politique, institutionnel et économique national en France, l'actualité des dernières 24 heures est marquée par des prises de position et des décisions structurantes. Cyberattaques du fisc : “Ce qui se passe en France est hors norme” &nbsp;&nbsp; Courrier international Les faits rapportés autour de 'Cyberattaques du fisc : “Ce qui se passe en France est hors norme”' s'inscrivent au cœur des débats actuels au sein de l'exécutif, du Parlement ou du tissu économique. Les arbitrages en cours et les réactions des parties prenantes dessinent des orientations majeures dont les répercussions opérationnelles et sociétales se feront sentir à court et moyen terme sur l'ensemble du territoire.",
+      "why_it_matters": "Sujet politique ou socio-économique structurant pour les politiques publiques et les citoyens.",
+      "sources": [
+        {
+          "name": "Courrier international",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbnZfcHBWWFJrOThLYWc1WS05V1ZiS3hIVGhzaTJDY1l4R0lkSW9PWVdwUUdsX21saXJLSGZ6d1JyQW5tOTlDbzZLZ3F4WG1yclY2bl9MMjV4TWI5TzY3ZGp4ejc1T21IdGZucFk3RGFoUGxVS3FjRWVMdXpCN1Y0b0s1dUIyLUhFbU1SRWlJb1VRRHdmdVh0ZzNaU2JDWXZwSG1ybUZkWlVBY2hVa0dKRl8wUHROUXpJNmctcDJPMUdlTXJ2U3ZKRTk1eDQ?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 86,
+        "importance": 30,
+        "novelty": 18,
+        "reliability": 20,
+        "impact": 10,
+        "interest": 8,
+        "urgency": "🔴 Urgent"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 15:11"
+    },
+    {
+      "story_id": "d1c8f869082df180",
+      "category": "actu_france",
+      "title": "Excuses du gouvernement, troisième fuite de données… Ce qu'il faut retenir de la conférence de presse sur le piratage du fisc",
+      "summary": "Sur le plan politique, institutionnel et économique national en France, l'actualité des dernières 24 heures est marquée par des prises de position et des décisions structurantes. Excuses du gouvernement, troisième fuite de données… Ce qu'il faut retenir de la conférence de presse sur le piratage du fisc &nbsp;&nbsp; franceinfo Les faits rapportés autour de 'Excuses du gouvernement, troisième fuite de données… Ce qu'il faut retenir de la conférence de presse sur le piratage du fisc' s'inscrivent au cœur des débats actuels au sein de l'exécutif, du Parlement ou du tissu économique. Les arbitrages en cours et les réactions des parties prenantes dessinent des orientations majeures dont les répercussions opérationnelles et sociétales se feront sentir à court et moyen terme sur l'ensemble du territoire.",
+      "why_it_matters": "Sujet politique ou socio-économique structurant pour les politiques publiques et les citoyens.",
+      "sources": [
+        {
+          "name": "franceinfo",
+          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNdXhGYy1OVERRRzRPWURFZ3hGTTdWaEtkRkJIQ2xFV3daX1ljeDFJcE5CZk5FYkpCN1pBOGpxRDVJaDNldEFGYnpWcHU3SGYydGJnTGYyY012Q2s3Y01YSzFJcEp3a0ZRcHMyRlF2S1RHSXdDS1RSQ2xqOVotTzRDbno0VmlwWktfTWdSam5OTlE1N05jVkNUOGtsUlVCVF9YOG9UZmRFVFdCeUVBY1VxOVMyUDBuRWRweGZWUWN2MDhtdjYyZGl5RExkS2RBTUJVQjRHa1FQM0pHWFZPSlJjN1Nrd0h6cUhsNEV6VDlUSWJPUHpNS2JDQllKUE16NUl5ZUJ2ZGRvVWZEbGMtYTBKUFNhZHl4NDJadFc5cWVvRnU1cTJnYXVaTnd2VEljSHdt?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 84,
+        "importance": 24,
+        "novelty": 22,
+        "reliability": 20,
+        "impact": 10,
+        "interest": 8,
+        "urgency": "🔴 Urgent"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 17:06"
+    },
+    {
+      "story_id": "216243633f70f58e",
+      "category": "ia_tech",
+      "title": "Harvey lance Tenet, son LLM juridique propriétaire",
+      "summary": "Dans l'écosystème de l'intelligence artificielle et des technologies de pointe, les dernières annonces marquent une accélération notable du rythme des déploiements. Harvey lance Tenet, son LLM juridique propriétaire &nbsp;&nbsp; Brief IA Concernant l'actualité relative à 'Harvey lance Tenet, son LLM juridique propriétaire', les développements récents mettent en lumière une avancée technique ou stratégique majeure. L'intégration de ces nouvelles capacités ou modèles modifie les standards de performance, d'inférence ou d'outillage, ouvrant des perspectives directes pour les ingénieurs, chercheurs et organisations intégrant des agents et LLM en production.",
+      "why_it_matters": "Innovation technologique impactant le développement, l'automatisation et la veille stratégique.",
+      "sources": [
+        {
+          "name": "Brief IA",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZjBwVUlteDd6RjhMRmtwZEpSTGFzOFM1UFYzeDRTblFtQkhOUzBXUnVMWjQyM0paYVVSWmJneEx2WGZuc3AyU3J2UUtsdHNPcExzb1ZDOExzTjZPNV9uRHJUODFKX2NnTmJSQTZZV1R3RUZNWnJZZXo1bXB5RHQxUmV0dDJRcFU?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 81,
+        "importance": 24,
+        "novelty": 25,
+        "reliability": 14,
+        "impact": 8,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 19:57"
+    },
+    {
+      "story_id": "3aaf414153ff15f7",
+      "category": "ia_tech",
+      "title": "Accusé d'avoir appâté les enfants, le géant Meta joue gros",
+      "summary": "Dans l'écosystème de l'intelligence artificielle et des technologies de pointe, les dernières annonces marquent une accélération notable du rythme des déploiements. Accusé d'avoir appâté les enfants, le géant Meta joue gros &nbsp;&nbsp; Blick Concernant l'actualité relative à 'Accusé d'avoir appâté les enfants, le géant Meta joue gros', les développements récents mettent en lumière une avancée technique ou stratégique majeure. L'intégration de ces nouvelles capacités ou modèles modifie les standards de performance, d'inférence ou d'outillage, ouvrant des perspectives directes pour les ingénieurs, chercheurs et organisations intégrant des agents et LLM en production.",
+      "why_it_matters": "Innovation technologique impactant le développement, l'automatisation et la veille stratégique.",
+      "sources": [
+        {
+          "name": "Blick",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS3ZBUGhDRnVhRzlhNk5XSjlueDVpalpmd3BqTVBxUXd5T290T0RrbVNodllLNzZLZFhYR0VOSzBNYnVzdXVwY3lubGZXdVBSZ204NEdkdnlnVHpIZ2IzUEFCX1lIV3NEQUdkZUJZNFNtS2ZOSFh1Wm10ay1nUTEySS0tR20tTDI3aVoyVkNfWk0tT1RzNDY2WTBpMGUwd3B3bnpYNi1wYjU?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 81,
+        "importance": 24,
+        "novelty": 25,
+        "reliability": 14,
+        "impact": 8,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 18:59"
+    },
+    {
+      "story_id": "da058a4c4488b42d",
+      "category": "actu_monde",
+      "title": "Face à l’Iran, les États-Unis laissent le Pacifique sans porte-avions",
+      "summary": "Sur la scène internationale et géopolitique, les équilibres diplomatiques et stratégiques mondiaux continuent d'évoluer sous l'effet d'événements majeurs. Face à l’Iran, les États-Unis laissent le Pacifique sans porte-avions &nbsp;&nbsp; Le Figaro Les informations confirmées à propos de 'Face à l’Iran, les États-Unis laissent le Pacifique sans porte-avions' illustrent les tensions, négociations ou accords déterminants entre les grandes puissances et institutions multilatérales. Cette situation génère des réactions en chaîne au niveau des chancelleries et des marchés mondiaux, avec des répercussions directes sur la stabilité régionale et la coopération internationale.",
+      "why_it_matters": "Événement géopolitique majeur modifiant les équilibres diplomatiques et économiques internationaux.",
+      "sources": [
+        {
+          "name": "Le Figaro",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWjZMU2pNOXpJWEtxRVBNcVV1dzZZM3J1S3IyV3JzX1hlVHAyUjBEekhVU25ua3dMNlFSOHczckxfUl96dlB2QmRVR3ZWZFlfcjAzRlNYZkN4Q1BlbzFnOXFIQUQwZVFzaV91dFpGMVdqck9HMUJfSWl3NHktUGJwQVBXT09lNHlFbE04ZHE4ZFlGYUhOS09JblEyRlZIQ0hIbk5RanFHY0ltUHd5dlY1S3kxYnF5QQ?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 81,
+        "importance": 24,
+        "novelty": 22,
+        "reliability": 20,
+        "impact": 8,
+        "interest": 7,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 5,
+      "date_str": "18/08/2026 16:53"
+    },
+    {
+      "story_id": "0f4a347fe2491d4a",
+      "category": "meteo",
+      "title": "Orages violents et pluies intenses : voici les régions où ça risque de taper fort jeudi (voire vendredi) en France",
+      "summary": "Sur le front météorologique et climatique, les relevés des dernières 24 heures et les modèles de prévision mettent en évidence une dynamique atmosphérique significative. Orages violents et pluies intenses : voici les régions où ça risque de taper fort jeudi (voire vendredi) en France &nbsp;&nbsp; Actu.fr Les données d'observation indiquent que la situation concernant 'Orages violents et pluies intenses : voici les régions où ça risque de taper fort jeudi (voire vendredi) en France' mobilise l'attention des services de surveillance et des prévisionnistes. Les cumuls, rafales ou anomalies thermiques mesurés témoignent d'un phénomène remarquable qui influence directement les conditions régionales, imposant une vigilance accrue sur les infrastructures et les activités de plein air.",
+      "why_it_matters": "Évolution météorologique notable à surveiller pour anticiper les risques régionaux.",
+      "sources": [
+        {
+          "name": "Actu.fr",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPS3lIMk9xSmRiWng1WUVrZ09JZ2dtSDFnVjl1cEtnal9SZEN5WW1XT0lWN0swVXNFaHk1ZXczSXJnUFV2d01qREUzNUlhNk55U1BSMkZ6Xzk5UkZickNVcWV2NUZWeXNYckpURmdnRXljd1pjZF9yWXpXTFZTTDB0RERhS3o4Tl9ON0J5VUo3MmtYOElHUENVbW82MW5TMVpsVk94WTdGcFc5SWhHdDBrclRJMEtxcUUzblZZWk1xaWxsMjY2VnFTNGVNYkR3aVVYQXREWlYwYVloY2F5dzZB?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 80,
+        "importance": 24,
+        "novelty": 22,
+        "reliability": 14,
+        "impact": 10,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 16:20"
+    },
+    {
+      "story_id": "9d0452536d10572c",
+      "category": "meteo",
+      "title": "\"Le temps sera durablement plus frais et plus respirable\" : la baisse des températures sera-t-elle durable ? Un prévisionniste de Météo-France lève le voile sur les prochains jours",
+      "summary": "Sur le front météorologique et climatique, les relevés des dernières 24 heures et les modèles de prévision mettent en évidence une dynamique atmosphérique significative. \"Le temps sera durablement plus frais et plus respirable\" : la baisse des températures sera-t-elle durable ? Un prévisionniste de Météo-France lève le voile sur les prochains jours &nbsp;&nbsp; Femme Actuelle Les données d'observation indiquent que la situation concernant '\"Le temps sera durablement plus frais et plus respirable\" : la baisse des températures sera-t-elle durable ? Un prévisionniste de Météo-France lève le voile sur les prochains jours' mobilise l'attention des services de surveillance et des prévisionnistes. Les cumuls, rafales ou anomalies thermiques mesurés témoignent d'un phénomène remarquable qui influence directement les conditions régionales, imposant une vigilance accrue sur les infrastructures et les activités de plein air.",
+      "why_it_matters": "Évolution météorologique notable à surveiller pour anticiper les risques régionaux.",
+      "sources": [
+        {
+          "name": "Femme Actuelle",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPNVVGNWdlOXRHQmQxZFpaaDdqSXFqLXM0R2tiUVllZHdLQ1plLVdhOHNlcy1nbWtDZTE3VE42VWFjb0RqTzdMWUtheWdwYUlIVDVNbXpnRWxya2hJcFVaLTVZT1liSG5nVXEzbTdZM2ZvSUs5S2w1QUNpd1ptMHFwMkNhbkhtVHg4WXhsaHg4STlCREVvb19IX1ROZy10dGlPSHBJV3lpSjY1RVl3OC1WNE9vTHZDMFY2WXVwMUlTaWdGdkR4SjVIcUZQcnZBTGJjNWdkZmdRc2hSVFl3aV9ZeV9lQlVxdHpZT1VocERvMnFKVlNDVGc2Q2pRLVR4TmNVMVJWWk5CODUwQzhGMUlPanlkdUFQTTU0MWpoRDFWd1VNUWVuWlhUVTNKS2F3Zm5RX0lUckNrRXVGWmdEMWpqSkdmOERUbjdLN2c?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 80,
+        "importance": 24,
+        "novelty": 22,
+        "reliability": 14,
+        "impact": 10,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 17:01"
+    },
+    {
+      "story_id": "569206b52e562de8",
+      "category": "actu_france",
+      "title": "Votre Livret A finance déjà l'adaptation au changement climatique, le gouvernement veut aller plus loin",
+      "summary": "Sur le plan politique, institutionnel et économique national en France, l'actualité des dernières 24 heures est marquée par des prises de position et des décisions structurantes. Votre Livret A finance déjà l'adaptation au changement climatique, le gouvernement veut aller plus loin &nbsp;&nbsp; capital.fr Les faits rapportés autour de 'Votre Livret A finance déjà l'adaptation au changement climatique, le gouvernement veut aller plus loin' s'inscrivent au cœur des débats actuels au sein de l'exécutif, du Parlement ou du tissu économique. Les arbitrages en cours et les réactions des parties prenantes dessinent des orientations majeures dont les répercussions opérationnelles et sociétales se feront sentir à court et moyen terme sur l'ensemble du territoire.",
+      "why_it_matters": "Sujet politique ou socio-économique structurant pour les politiques publiques et les citoyens.",
+      "sources": [
+        {
+          "name": "capital.fr",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMjBpLUEtbzhna3l2c0xYWVhDTm9qLUpER1EyaUxfMllPZ3AwdWlVX0xIMDhyY1NIa1NVUkM2U2MxenoxZ244enZWYmFfTmF1aUowMUdPc0FaQkNETkpURVBzTlIxLXppcU9KTnByeF9zN0dwdTBNTUtWMW9yRmpMUWhOWS1rWGdiRUl5NnRNTHhlcTdzQTFMYW1RZGtzTFJPYlpyS0NDX3FMOFdrdVVRRTFOUGZNVG5saDlnaUN1V1B2Yl82aUR5NlQxZUtaNTI3SXd3bS0xaUJHUFM5MTJIb2Ftc2xfdUk?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 80,
+        "importance": 24,
+        "novelty": 18,
+        "reliability": 20,
+        "impact": 10,
+        "interest": 8,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 10:59"
+    },
+    {
+      "story_id": "51708a3efeb92e3b",
+      "category": "actu_france",
+      "title": "\"Je n'ai pas encensé le programme de Jean-Luc Mélenchon\" : la ministre Monique Barbut précise ses propos favorables au candidat LFI tenus dans \"Libération\"",
+      "summary": "Sur le plan politique, institutionnel et économique national en France, l'actualité des dernières 24 heures est marquée par des prises de position et des décisions structurantes. \"Je n'ai pas encensé le programme de Jean-Luc Mélenchon\" : la ministre Monique Barbut précise ses propos favorables au candidat LFI tenus dans \"Libération\" &nbsp;&nbsp; franceinfo Les faits rapportés autour de '\"Je n'ai pas encensé le programme de Jean-Luc Mélenchon\" : la ministre Monique Barbut précise ses propos favorables au candidat LFI tenus dans \"Libération\"' s'inscrivent au cœur des débats actuels au sein de l'exécutif, du Parlement ou du tissu économique. Les arbitrages en cours et les réactions des parties prenantes dessinent des orientations majeures dont les répercussions opérationnelles et sociétales se feront sentir à court et moyen terme sur l'ensemble du territoire.",
+      "why_it_matters": "Sujet politique ou socio-économique structurant pour les politiques publiques et les citoyens.",
+      "sources": [
+        {
+          "name": "franceinfo",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPbFRETWZwdTdMNjc4dkt1SWdzd293SC1NYVVyLXZtNEMzcWhUUjNvQW1CQ1RaeEw1R2RYZm9vR3c0UXlnaXJqODY2RnJhTF94ZzJtblY0THM0SEZRU1V4c0xaUlp2Zm9iQWV2WUpIV1dGSHJYVGZvYW14MXZrODZwaVB3RmRCdUZQWUwzbmR2NDJYUjBNYkZCYk12LTBxRjZxbC1xMTZnaDNBb3JIbER2b3JUcDdrRURhS0JHVEd0dmtaMXZOdnlKZzRpYUFlVy1IbElJWFZNQ3RlOWE5a3hJWC1YeW4wSGt6dXZGQVhWaGFQS2pVR29KTGZtWW5scTktaWlDVkpJYWt5WF9INWdtVXJrc01xY29lM3RqSUNmZEQ3OXdSa1dQNk5ZWlNUdVI3ZXgwd3U5RkFaZmI3Vmo0M3UxaUxHTjY5NDdJOUVaWC1tZw?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 80,
+        "importance": 24,
+        "novelty": 18,
+        "reliability": 20,
+        "impact": 10,
+        "interest": 8,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 11:21"
+    },
+    {
+      "story_id": "c06745309dd3af10",
+      "category": "actu_france",
+      "title": "Les entreprises turques fuient la Russie : “Ce marché n’a pas tenu ses promesses”",
+      "summary": "Sur le plan politique, institutionnel et économique national en France, l'actualité des dernières 24 heures est marquée par des prises de position et des décisions structurantes. Les entreprises turques fuient la Russie : “Ce marché n’a pas tenu ses promesses” &nbsp;&nbsp; Courrier international Les faits rapportés autour de 'Les entreprises turques fuient la Russie : “Ce marché n’a pas tenu ses promesses”' s'inscrivent au cœur des débats actuels au sein de l'exécutif, du Parlement ou du tissu économique. Les arbitrages en cours et les réactions des parties prenantes dessinent des orientations majeures dont les répercussions opérationnelles et sociétales se feront sentir à court et moyen terme sur l'ensemble du territoire.",
+      "why_it_matters": "Sujet politique ou socio-économique structurant pour les politiques publiques et les citoyens.",
+      "sources": [
+        {
+          "name": "Courrier international",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaWUyVi14MEdJYmFHcmJGNFQyYnUySzZFMlNzcHpTOXBwTzc1d1RTTTlMZDZ1VF9kOG96VDV3WGxBTVlnOTJSUlBfVDNkR3RLaDlGdnRPWTR6Rm80ZHZDUU5OejJ4eTZaME56cGZaYjd6WnpIYlNBM25HSFNBUW9UR1JhN0JON0FLQnFQV3R4TmhDclhqcG5LTFRUYjR1RTNLMHNxVGFPZTZtRG01b1IzVUtkRzZTNkk1U2x0MTB0R1I0S1NvUW1vNWJmcmhDVE1mTzFpVmtB?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 80,
+        "importance": 24,
+        "novelty": 18,
+        "reliability": 20,
+        "impact": 10,
+        "interest": 8,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 10:29"
+    },
+    {
+      "story_id": "fe1fe9abc41af61a",
+      "category": "actu_monde",
+      "title": "La Chine rend hommage à l'ex-Premier ministre Zhu Rongji lors de ses funérailles",
+      "summary": "Sur la scène internationale et géopolitique, les équilibres diplomatiques et stratégiques mondiaux continuent d'évoluer sous l'effet d'événements majeurs. La Chine rend hommage à l'ex-Premier ministre Zhu Rongji lors de ses funérailles &nbsp;&nbsp; France 24 Les informations confirmées à propos de 'La Chine rend hommage à l'ex-Premier ministre Zhu Rongji lors de ses funérailles' illustrent les tensions, négociations ou accords déterminants entre les grandes puissances et institutions multilatérales. Cette situation génère des réactions en chaîne au niveau des chancelleries et des marchés mondiaux, avec des répercussions directes sur la stabilité régionale et la coopération internationale.",
+      "why_it_matters": "Événement géopolitique majeur modifiant les équilibres diplomatiques et économiques internationaux.",
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQenNrX0c5RXJDNEtIenZlZEI1eGpIZUJEM1Q0Y3draWVTMGptNTdscDJQRTAzTkZPOGR4MjBIVS1fWnZ3YmFKY0t2QXVpZWJnaDBDZmh4WlNOX0V1aW9XaG95cFF4Uk1uSXladTRxQi03RzJDcGY3eTBNV1U3bkRXcjBEZlZKUy1VZ2RnSE5rZ3Bza2drYUlaNzdsUVBaa055em01MG5CVFdBSXphME5xQjFyU3FUSVA2MnF4SlNGV3pLOVlsdEdYcjZ4RTV4TE1hZ1l3eWZSWlY2YVE?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 79,
+        "importance": 24,
+        "novelty": 18,
+        "reliability": 20,
+        "impact": 10,
+        "interest": 7,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 12:09"
+    },
+    {
+      "story_id": "3342b86a96b470ed",
+      "category": "actu_monde",
+      "title": "Les manœuvres avec les États-Unis ne visent pas à «attaquer» la Corée du Nord, affirme Séoul",
+      "summary": "Sur la scène internationale et géopolitique, les équilibres diplomatiques et stratégiques mondiaux continuent d'évoluer sous l'effet d'événements majeurs. Les manœuvres avec les États-Unis ne visent pas à «attaquer» la Corée du Nord, affirme Séoul &nbsp;&nbsp; Le Figaro Les informations confirmées à propos de 'Les manœuvres avec les États-Unis ne visent pas à «attaquer» la Corée du Nord, affirme Séoul' illustrent les tensions, négociations ou accords déterminants entre les grandes puissances et institutions multilatérales. Cette situation génère des réactions en chaîne au niveau des chancelleries et des marchés mondiaux, avec des répercussions directes sur la stabilité régionale et la coopération internationale.",
+      "why_it_matters": "Événement géopolitique majeur modifiant les équilibres diplomatiques et économiques internationaux.",
+      "sources": [
+        {
+          "name": "Le Figaro",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSE5FV0ZjSmprMS1MQmM2UERTUF9QNElnTFdZRWV1Q3l1dUFOWjZfOWF2ZXBKVzU5aDBhblJfT0ExM3d2VXZLYktMRDlnTVVCTC1sdEVyTkdXOXVsdzJVUTlQeVJ6WVdpb1BwODNwdDNuX3h3Z2Ntc01PdFNxbk90OEhGdENHUlpxNWt1RDN6aHh3cHJzbnl5WWdEU3g0RGxWd0hjX3FEbjdxZTFMUWQ5MG1lV0hiWERzZUQxZi1UQW5hOFpLRExrdXNVdUd0LVBqd244?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 79,
+        "importance": 30,
+        "novelty": 14,
+        "reliability": 20,
+        "impact": 8,
+        "interest": 7,
+        "urgency": "🔴 Urgent"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 02:51"
+    },
+    {
+      "story_id": "001a45ac8b67735a",
+      "category": "meteo",
+      "title": "Plus aucun département n'est en vigilance orange \"canicule\", les températures en \"nette baisse\" à partir de jeudi, selon Météo-France",
+      "summary": "Sur le front météorologique et climatique, les relevés des dernières 24 heures et les modèles de prévision mettent en évidence une dynamique atmosphérique significative. Plus aucun département n'est en vigilance orange \"canicule\", les températures en \"nette baisse\" à partir de jeudi, selon Météo-France &nbsp;&nbsp; franceinfo Les données d'observation indiquent que la situation concernant 'Plus aucun département n'est en vigilance orange \"canicule\", les températures en \"nette baisse\" à partir de jeudi, selon Météo-France' mobilise l'attention des services de surveillance et des prévisionnistes. Les cumuls, rafales ou anomalies thermiques mesurés témoignent d'un phénomène remarquable qui influence directement les conditions régionales, imposant une vigilance accrue sur les infrastructures et les activités de plein air.",
+      "why_it_matters": "Impact direct sur la sécurité des populations, les transports et les activités de plein air.",
+      "sources": [
+        {
+          "name": "franceinfo",
+          "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOU3JEbVdQaWlZdzNON091TDV4OEFnZEtnaWNqM0NRV3BnU2JfVVU0eXlGcGYxVFFjX290TUZKUXAwbnpQbTBka0Voc0lwQzUxZThibkhTVTl5OUg3aC1YaWE5ZUFMQlRFb1hjdk5NYnY3bE5NYzZuZWJleWlyUFloSUkzOGpYaXNSbmhuRTVmZnJNX0pKX1JDbGJRNWQ2LXRDYnU5VFZnQzNGdUdJRjNXNlR6X2hXSW52M2hYQ1pjekF2Qlg2YXZ3RTlnMFE4S0RLSUxvR3hhc0R3WWwyZHh0U25aaFQ2bTFwT1hmcDJ5LWF2RTFsRXJmekVmR2g1OUowYkpzUzVteEN6ZWlDd05wVDdRZUJza2N3Snp4QTdwNGRCRDFKa0JrSlliYWszYm5OZS1BZ0dhREY1Zw?oc=5"
+        }
+      ],
+      "reliability": "Forte",
+      "score_data": {
+        "score": 78,
+        "importance": 24,
+        "novelty": 14,
+        "reliability": 20,
+        "impact": 10,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 04:27"
+    },
+    {
+      "story_id": "29125592c84e0319",
+      "category": "meteo",
+      "title": "Var : canicule ou vague de chaleur, quelle est vraiment la différence ?",
+      "summary": "Sur le front météorologique et climatique, les relevés des dernières 24 heures et les modèles de prévision mettent en évidence une dynamique atmosphérique significative. Var : canicule ou vague de chaleur, quelle est vraiment la différence ? &nbsp;&nbsp; Var Actu Les données d'observation indiquent que la situation concernant 'Var : canicule ou vague de chaleur, quelle est vraiment la différence ?' mobilise l'attention des services de surveillance et des prévisionnistes. Les cumuls, rafales ou anomalies thermiques mesurés témoignent d'un phénomène remarquable qui influence directement les conditions régionales, imposant une vigilance accrue sur les infrastructures et les activités de plein air.",
+      "why_it_matters": "Indicateur climatologique clé confirmant les tendances d'anomalies thermiques et hydriques.",
+      "sources": [
+        {
+          "name": "Var Actu",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVVcwalAwWTRhUS1KSmYxVnhRSUpodkJsYzg2aTZqazhid1JyR3R0VTRWejJnZUNiUmpZeVpja3hHdjdnNXdwbl81TXVPYUVQWjVtTVFoOU12WUNWaUlsYkFfc09RaTJNZjctVlRNb2FkaUVoYzNtVDlXaHhtUjk1YzdjYk5fUHluWkRWZkVPaVNrb0hY?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 78,
+        "importance": 24,
+        "novelty": 22,
+        "reliability": 14,
+        "impact": 8,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 15:21"
+    },
+    {
+      "story_id": "fb60436d49beb568",
+      "category": "meteo",
+      "title": "Météo : les Pyrénées-Atlantiques placées en vigilance jaune pour orages, découvrez les prévisions de ce mercredi",
+      "summary": "Sur le front météorologique et climatique, les relevés des dernières 24 heures et les modèles de prévision mettent en évidence une dynamique atmosphérique significative. Météo : les Pyrénées-Atlantiques placées en vigilance jaune pour orages, découvrez les prévisions de ce mercredi &nbsp;&nbsp; La République des Pyrénées Les données d'observation indiquent que la situation concernant 'Météo : les Pyrénées-Atlantiques placées en vigilance jaune pour orages, découvrez les prévisions de ce mercredi' mobilise l'attention des services de surveillance et des prévisionnistes. Les cumuls, rafales ou anomalies thermiques mesurés témoignent d'un phénomène remarquable qui influence directement les conditions régionales, imposant une vigilance accrue sur les infrastructures et les activités de plein air.",
+      "why_it_matters": "Impact direct sur la sécurité des populations, les transports et les activités de plein air.",
+      "sources": [
+        {
+          "name": "La République des Pyrénées",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNXZBcWtWaUZjRFMxY0FUYmJKazBNaXdxSTFLODVYcXNpcHpvUTEyeWxFYUJhb2ZlMktVaFF4d1MxUDJCYkxSbWFoV0pFRVZ5alZnOUROeGw0ZHpzQ195R1gtRkJPVWtvby1sNlZPejhoeTgzRlMyd2RJNU80bms3ZGRpM3BoUGxQQTZnQThSSEhNMWtZTTRpNEl3SWV5RXFVaWZoME1jUmk0Z05SQkdJemZKeU9TUFIxNm5aUC0tSnNkNVpCVHhFTkZRSF8xdEVEWWJSTGhjb0pKeTBQLXBwU2F0VkVKLVBTQzFobWJVRUdqdFdzdUFtRHBwYkhXWXk3S1ktMXZTc2RGV0M1Q1E?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 78,
+        "importance": 24,
+        "novelty": 22,
+        "reliability": 14,
+        "impact": 8,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 15:19"
+    },
+    {
+      "story_id": "4fe1101ed30b2b31",
+      "category": "ia_tech",
+      "title": "Mark Zuckerberg souhaite que l'IA américaine surpasse la Chine dans la course à la « superintelligence ».",
+      "summary": "Dans l'écosystème de l'intelligence artificielle et des technologies de pointe, les dernières annonces marquent une accélération notable du rythme des déploiements. Mark Zuckerberg souhaite que l'IA américaine surpasse la Chine dans la course à la « superintelligence ». &nbsp;&nbsp; Vietnam.vn Concernant l'actualité relative à 'Mark Zuckerberg souhaite que l'IA américaine surpasse la Chine dans la course à la « superintelligence ».', les développements récents mettent en lumière une avancée technique ou stratégique majeure. L'intégration de ces nouvelles capacités ou modèles modifie les standards de performance, d'inférence ou d'outillage, ouvrant des perspectives directes pour les ingénieurs, chercheurs et organisations intégrant des agents et LLM en production.",
+      "why_it_matters": "Innovation technologique impactant le développement, l'automatisation et la veille stratégique.",
+      "sources": [
+        {
+          "name": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOblB1Q1dtQnBqRElNZklGRTExcGIybzFEbDc2bFRmdFVnSFBWTFEyX0NkVG4xWDZHX3pMOHpTVTJJVGxjcTd3SHRmaHdGMkVDRzlaVzRnMWJyT0dTcndrWUczQ0FnNHQ4dTAwZGI5cEdjMnByQW5lM3B6NmxENEhHNFpvMXRySk91MUFjSTZfS1g1bnZad2doWTNJQV9nZFVDYVE?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 78,
+        "importance": 24,
+        "novelty": 22,
+        "reliability": 14,
+        "impact": 8,
+        "interest": 10,
+        "urgency": "🟠 Important"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 16:01"
+    },
+    {
+      "story_id": "cd9a06072378707b",
+      "category": "actu_monde",
+      "title": "Russie : 620 drones sur Moscou, une attaque record qui interroge l’avenir du conflit",
+      "summary": "Sur la scène internationale et géopolitique, les équilibres diplomatiques et stratégiques mondiaux continuent d'évoluer sous l'effet d'événements majeurs. Russie : 620 drones sur Moscou, une attaque record qui interroge l’avenir du conflit &nbsp;&nbsp; Politique Matin Les informations confirmées à propos de 'Russie : 620 drones sur Moscou, une attaque record qui interroge l’avenir du conflit' illustrent les tensions, négociations ou accords déterminants entre les grandes puissances et institutions multilatérales. Cette situation génère des réactions en chaîne au niveau des chancelleries et des marchés mondiaux, avec des répercussions directes sur la stabilité régionale et la coopération internationale.",
+      "why_it_matters": "Événement géopolitique majeur modifiant les équilibres diplomatiques et économiques internationaux.",
+      "sources": [
+        {
+          "name": "Politique Matin",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GOVVOelpZWGl3TXI0cFF2ak5ZYjlJaTlKOWxGM2l0OEE0MTJQSWZDQTJnQkdNU0lFZTJqYU5kMHRUajh5bzBQXy1YdkxaR0tveGFIU1d1OGJwSzZNT0JsQ3FiNXZyaFA3RktsYUc0dkZtbGF1SmpHdg?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 77,
+        "importance": 30,
+        "novelty": 18,
+        "reliability": 14,
+        "impact": 8,
+        "interest": 7,
+        "urgency": "🔴 Urgent"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 12:34"
+    },
+    {
+      "story_id": "7a35465dc36a1100",
+      "category": "actu_monde",
+      "title": "Les Etats-Unis et Damas accusent Israël d’une attaque contre un aéroport de Syrie",
+      "summary": "Sur la scène internationale et géopolitique, les équilibres diplomatiques et stratégiques mondiaux continuent d'évoluer sous l'effet d'événements majeurs. Les Etats-Unis et Damas accusent Israël d’une attaque contre un aéroport de Syrie &nbsp;&nbsp; 20 Minutes Les informations confirmées à propos de 'Les Etats-Unis et Damas accusent Israël d’une attaque contre un aéroport de Syrie' illustrent les tensions, négociations ou accords déterminants entre les grandes puissances et institutions multilatérales. Cette situation génère des réactions en chaîne au niveau des chancelleries et des marchés mondiaux, avec des répercussions directes sur la stabilité régionale et la coopération internationale.",
+      "why_it_matters": "Événement géopolitique majeur modifiant les équilibres diplomatiques et économiques internationaux.",
+      "sources": [
+        {
+          "name": "20 Minutes",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeHVpSWV4c3RNUDV3WW53S1FVd2tJcnRhRTB6cDg5YmVrN29qcEcydkhxY0gzRS1PSm9IVzJYb2l1Qm5aelVJU09ESWpDRzRVYnZfTWtVczZ0Vkg0dWNYQXFFNFp3YkFJbDBTVHdzbkVWRGdpOURhdmhFYnJpZTJXLS1TZEt1YWJqbmhNeDhCbWdrNHJRbU9BeEx3MmVHZmFSbTZvYjJzMFJxUXEtYzR3ZHhVMjhsYmM?oc=5"
+        }
+      ],
+      "reliability": "Moyenne",
+      "score_data": {
+        "score": 77,
+        "importance": 30,
+        "novelty": 18,
+        "reliability": 14,
+        "impact": 8,
+        "interest": 7,
+        "urgency": "🔴 Urgent"
+      },
+      "status": "MISE À JOUR",
+      "update_count": 4,
+      "date_str": "18/08/2026 13:35"
+    }
+  ]
+}
