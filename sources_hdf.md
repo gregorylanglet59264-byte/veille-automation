@@ -304,7 +304,7 @@ Températures minimales : en hausse sur le Valois.
 Températures maximales : en hausse sur le Soissonnais.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 030425 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 3 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais Nr 123 2 - Situation générale jeudi 3 septembre 2026 à 00H00 UTC, et évolution Dorsale des Açores 1023 à 1025 hPa s'étendant jusqu'au golfe de Gascogne et la France, s'affaissant autour de 1020 hPa vendredi. Dépression 983 hPa au sud-ouest de l'Islande, se décalant lentement vers l'est et générant un flux perturbé de Sud-Ouest sur la Manche. 3 - Prévisions pour la journée du jeudi 3 septembre VENT : Sud-Ouest 5 à 6. Rafales. MER : agitée. HOULE : Sud-Ouest proche de 0.5 1 m, s'amortissant en Manche l'après-midi. TEMPS : très nuageux à couvert avec pluies ou bruines éparses. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 4 - Prévisions pour la nuit du jeudi 3 septembre au vendredi 4 septembre VENT : Sud-Ouest 5 à 6, localement 7 en mer du Nord en soirée, fraîchissant partout 6 à 7 en seconde partie de nuit. Rafales. MER : agitée. HOULE : Ouest proche de 0.5 m en Manche, non significative en Mer du Nord. TEMPS : très nuageux à couvert avec pluies ou bruines éparses. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du vendredi 4 septembre VENT : Sud-Ouest 6 à 7 avec rafales, mollissant 5 à 6 l'après-midi. Rafales. MER : devenant agitée à forte le main, puis agitée l'après-midi. HOULE : s'établissant Sud-Ouest 0.5 à 1 m. TEMPS : très nuageux à couvert, quelques pluies ou bruines éparses en journée. VISIBILITE : bonne, parfois moyenne sous précipitations. 6 - Prévisions pour la nuit du 4 au 5 et la journée du samedi 5 septembre VENT : Secteur Ouest 5 à 6, mollissant 3 en début de matinée, puis fraîchissant 4. MER : agitée, devenant peu agitée en milieu de nuit. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 7 - Tendance pour les jours suivants Dimanche 6 septembre Secteur Sud-Ouest modéré. Indice de confiance : 3 sur 5 Lundi 7 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mardi 8 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Mercredi 9 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 8 - Observations le jeudi 3 septembre 2026 à 03H00 UTC Dunkerque : vent Ouest-Sud-Ouest 14 noeuds, rafales 25 noeuds, mer belle, 1017 hPa en baisse, nuageux avec éclaircies, visibilité 5 milles. Cap Gris Nez : vent Ouest-Sud-Ouest 29 noeuds. Boulogne : vent Ouest-Sud-Ouest 19 noeuds, rafales 31 noeuds, 1018 hPa en baisse. Bouée Sandettie : vent Sud-Ouest 27 noeuds, creux 1,1 mètre, 1016 hPa en baisse, visibilité 5 milles. Prochain bulletin le jeudi 3 septembre 2026, vers 12H30 légales
+FQCT40 LFQQ 030940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 3 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais Nr 124 2 - Situation générale jeudi 3 septembre 2026 à 06H00 UTC, et évolution Dorsale 1023 à 1025 hPa des Açores jusqu'au golfe de Gascogne et la France, s'affaissant autour de 1020 hPa vendredi. Dépression 983 hPa au sud-ouest de l'Islande, se décalant lentement vers l'est et générant un flux perturbé de Sud-Ouest sur la Manche. Thalweg traversant la Manche vendredi après-midi. 3 - Prévisions pour l'après-midi du jeudi 3 septembre VENT : Sud-Ouest 5 à 6. Rafales. MER : agitée. HOULE : non significative, mais Ouest 0.5 à 1 m au sud de Boulogne. TEMPS : très nuageux à couvert avec pluies ou bruines éparses. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 4 - Prévisions pour la nuit du jeudi 3 septembre au vendredi 4 septembre VENT : Sud-Ouest 5 à 6, localement 7 en mer du Nord en fin de soirée, fraîchissant partout 6 à 7 en seconde partie de nuit. Rafales. MER : agitée. HOULE : non significative, mais Ouest 0.5 à 1 m au sud de Boulogne. TEMPS : très nuageux à couvert avec pluies ou bruines éparses. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du vendredi 4 septembre VENT : Sud-Ouest 6 à 7, mollissant Ouest à Sud-Ouest 5 à 6 l'après-midi. Rafales. MER : agitée, parfois forte le matin. HOULE : confondue avec la mer du vent. TEMPS : très nuageux à couvert, quelques pluies ou bruines éparses. Éclaircies en fin de journée. VISIBILITE : bonne, parfois moyenne sous précipitations. 6 - Prévisions pour la nuit du 4 au 5 et la journée du samedi 5 septembre VENT : virant Ouest à Nord-Ouest 4 à 5 en soirée, mollissant 2 à 4 le matin, puis revenant Ouest à Sud-Ouest l'après-midi. MER : peu agitée à agitée, s'atténuant peu agitée le matin. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : nuageux, devenant voilé en fin de nuit. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 5 au 6 et la journée du dimanche 6 septembre VENT : Secteur Sud 2 à 4, revenant Sud-Est en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Lundi 7 septembre secteur Ouest modéré à assez fort Indice de confiance : 3 sur 5 Mardi 8 septembre Ouest à Sud-Ouest modéré à assez fort Indice de confiance : 3 sur 5 Mercredi 9 septembre Ouest à Nord-Ouest modéré à assez fort Indice de confiance : 3 sur 5 Jeudi 10 septembre secteur Ouest modéré à assez fort Indice de confiance : 3 sur 5 9 - Observations le jeudi 3 septembre 2026 à 09H00 UTC Dunkerque : vent Ouest-Sud-Ouest 12 noeuds, 1018 hPa en hausse. Cap Gris Nez : vent Ouest-Sud-Ouest 27 noeuds. Boulogne : vent Ouest-Sud-Ouest 12 noeuds, rafales 27 noeuds, 1019 hPa en hausse, très nuageux à couvert, visibilité 3 milles. Prochain bulletin le jeudi 3 septembre 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -331,12 +331,12 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Prévisions sud ouest - Septembre 2026
+• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Prévisions sud ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
+• Infoclimat Direct : Suivi du temps dans le nord ouest septembre 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -344,9 +344,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 3 Septembre 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaîtront un week-end très doux avec un pic de chaleur dimanche 6 septembre (26-32°C), suivi d'un fraîchissement progressif à partir de mercredi 9 septembre avec le retour d'un flux d'ouest et des températures revenant autour de 18-20°C. L'ITN national oscille entre 22,8°C et 25,8°C (seuil canicule à 25,3°C), confirmant une première décade de septembre anormalement chaude avant une normalisation..
+Résumé général HDF précédent : Sur 15 jours, les Hauts-de-France connaissent un week-end très doux avec un pic de chaleur dimanche 6, suivi d'un net rafraîchissement en semaine 2 et d'un retour à des températures de saison avec un flux d'ouest..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Hausse notable des températures dimanche (26-32°C), ciel clair, vent de sud-est modéré..
+Températures attendues précédemment : Pic de chaleur dimanche 6 sur l'intérieur HDF, 29-32°C..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -524,7 +524,7 @@ bonsoir, effectivement je suis d'accord avec brice, le sud de la france va avoir
 	Heureusement, dans le nord, on sera épargné de cette chaleur..
 	Courage et vivement l'hiver..
 	Bonne fin de soirée..
-								1
+								2
 								1
 								2
 
@@ -664,7 +664,27 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 20 heures par petit âge glaciaire 11
-								5
+	Modifié il y a 22 heures par petit âge glaciaire 11
+								6
 								6
 								1
+
+=======================
+
+Auteur: nickdu77
+Message:
+Ce qui m'inquiète un peu sur ce topic, c'est que j'ai l'impression que ça va être moins humide que prévu. Je misais beaucoup sur mardi 8 et jeudi 10 mais en sortie du 0z, j'ai ça  et ça me paraît un peu maigrichon ... J'ai l'impression que la position des HP repousse tout plus au nord.
+	Pour les températures par contre, ça s'arrange nettement, y compris dans le sud. Heureusement parce que ça doit vraiment être infernal.
+	Là on a encore un petit bout de 20°C sur le SE et dès jeudi, tout le monde est débarrassé de l'infâme 20°C. En espérant qu'il ne revienne pas mais j'ai l'impression qu'il s'éloigne un peu même si en fin de topic, on retrouve de l'air chaud encore sur les deux-tiers de la péninsule ibérique
+	Si je comprends bien, cela pourrait être une semaine moins arrosée que prévue (mais quand même des précipitations dont la quantité reste à déterminer) et une baisse généralisée des températures pour tout le monde cette fois. J'espère que la deuxième quinzaine de septembre ne va pas nous réserver d'autres surprises. Pour me rassurer, je regarde la durée du jour qui diminue et jouera au moins sur les minimales. On se rassure comme on peut ....
+								1
+
+=======================
+
+Auteur: Twister83
+Message:
+J'avoue ne pas trop comprendre l'optimisme de certains.
+	Je suis ok avec la baisse des températures fort appréciable prévu pour cette semaine, mais je ne vois toujours rien de bien concret pour un changement de synoptique durable humide généralisé sur notre pays...
+	Sur le plus long terme il y'a même une forte tendance à dorsale atlantique, coupant tout activité dépressionnaire sur l'Europe de l'ouest.
+	Alors oui il pourrait avoir des plus chanceux avec des anomalies qui pourraient glisser sur le pays, mais globalement la France et tout le bassin méditerranéen pourraient être encore une fois la zone la plus sèche de l'hémisphère nord hors zone désertique et à latitude égal.
+	Modifié à l’instant par Twister83

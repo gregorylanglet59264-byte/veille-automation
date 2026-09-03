@@ -311,7 +311,7 @@ Températures minimales : en hausse sur le piémont et la montagne.
 Températures maximales : en hausse du Lauragais aux coteaux de Cadours ainsi qu'au sud-ouest du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 030325 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 3 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 3 septembre 2026 à 00H00 UTC, et évolution Hautes pressions autour de 1020 hPa, dépression relative 1017 hPa entre la Côte d'Azur et la Corse, se comblant en journée. 3 - Prévisions pour la journée du jeudi 3 septembre VENT : - à l'est de Sicié : Variable 1 à 3, parfois Nord-Ouest 4 à 5 au large de Sicié au début. - ailleurs : Nord-Ouest 4 à 5, revenant secteur Ouest 3 à 4 l'après-midi. MER : belle à peu agitée, localement agitée au large de cap Croisette à Sicié le matin. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Couronne, non significative ailleurs. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 3 septembre au vendredi 4 septembre VENT : Secteur Nord-Ouest 3 à 4, localement Variable 1 à 3 à l'est de Sicié, virant Nord à Nord-Ouest 3 à 4, localement secteur Est 2 à 3 à l'est du Cap Croisette, en seconde partie de nuit. MER : belle à peu agitée. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Croisette au Levant, non significative ailleurs. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 4 septembre VENT : Nord 3 à 4, localement secteur Est à l'est du Cap Couronne, mollissant Variable 1 à 3 l'après-midi. MER : belle, localement peu agitée au large le matin. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 4 au 5 et la journée du samedi 5 septembre VENT : De Port Camargue à Marseille secteur Sud-Est 1 à 3, fraîchissant 4 à 5 en début de matinée en virant Ouest à Nord-Ouest. De Marseille à St Raphaël variable 1 à 3 s'orientant Ouest à Nord-Ouest 3 à 4 en milieu de nuit. MER : belle à peu agitée. HOULE dominante d'Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Dimanche 6 septembre Variable. Indice de confiance : 3 sur 5 Lundi 7 septembre Variable. Indice de confiance : 3 sur 5 Mardi 8 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 3 sur 5 Mercredi 9 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 8 - Observations le jeudi 3 septembre 2026 à 03H00 UTC Cap Camarat : vent Nord 6 noeuds. Cap Cepet : vent Ouest-Nord-Ouest 16 noeuds. Le Levant : vent Est-Nord-Est 6 noeuds, 1018 hPa stationnaire. Porquerolles : vent Nord-Nord-Ouest 6 noeuds. Cap Couronne : vent Nord-Ouest 14 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le jeudi 3 septembre 2026, vers 13H00 légales
+FQCT40 LFML 030940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 3 septembre 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 3 septembre 2026 à 06H00 UTC, et évolution Hautes pressions autour de 1020 hPa, dépression relative 1017 hPa entre la Côte d'Azur et la Corse, se comblant en journée. 3 - Prévisions pour l'après-midi du jeudi 3 septembre VENT : - à l'est de Sicié : Variable 1 à 3, Ouest dominant de Sicié au Levant en milieu d'après-midi. - ailleurs : Ouest à Nord-Ouest 3 à 4, parfois 5 de Beauduc à la Ciotat, revenant localement Sud-Ouest vers la Camargue en milieu d'après-midi. MER : belle à peu agitée. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Couronne, non significative ailleurs. TEMPS : ensoleillé, léger voile sur la Camargue. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 3 septembre au vendredi 4 septembre VENT : Secteur Ouest 3 à 4, localement Variable 1 à 3 à l'est de Sicié, virant Nord à Nord-Ouest 3 à 4, mais devenant secteur Est 2 à 3 à l'est du Cap Croisette, en seconde partie de nuit. MER : belle à peu agitée. HOULE : Ouest Sud-Ouest 0.5 à 1 m à l'est du cap Croisette au Levant s'amortissant à la fin, non significative ailleurs. TEMPS : voilé. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 4 septembre VENT : Nord 3 à 4, mais secteur Est 2 à 4 à l'est du Cap Couronne, mollissant Variable 1 à 3 l'après-midi, secteur Sud dominant l'après-midi, parfois 4 en Camargue à la fin. MER : belle, localement peu agitée au large le matin. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 4 au 5 et la journée du samedi 5 septembre VENT : Variable 1 à 3, fraîchissant temporairement secteur Ouest 3 à 4 à l'est de Sicié en seconde partie de nuit, puis fraîchissant secteur Nord-Ouest 3 à 5 dans le domaine du mistral, en milieu de journée, mais devenant localement Nord-Est 2 à 4 à l'est des iles d'Hyères l'après-midi. MER : belle, devenant peu agitée à l'est du cap Couronne l'après-midi. HOULE : s'amplifiant d'Ouest autour de 0.5 m à l'est de Sicié l'après-midi. TEMPS : léger voile, quelques brumes en Camargue le matin. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 5 au 6 et la journée du dimanche 6 septembre VENT : De Port Camargue à la Ciotat Ouest 3 à 5, revenant Sud à Sud-Est 2 à 4 en cours de matinée. De la Ciotat à St Raphaël Est à Nord-Est 3 à 4. MER : belle à peu agitée. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Lundi 7 septembre variable faible à modéré Indice de confiance : 3 sur 5 Mardi 8 septembre Nord-Ouest modéré à assez fort dans le golfe du Lion, Ouest à Sud-Ouest modéré à assez fort au large de la Provence et de la Corse Indice de confiance : 3 sur 5 Mercredi 9 septembre Ouest à Nord-Ouest modéré à assez fort Indice de confiance : 3 sur 5 Jeudi 10 septembre Ouest à Nord-Ouest modéré à assez fort Indice de confiance : 3 sur 5 9 - Observations le jeudi 3 septembre 2026 à 09H00 UTC Cap Camarat : vent Nord 6 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Est 4 noeuds. Le Levant : vent Est 4 noeuds, 1019 hPa en hausse. Porquerolles : vent Est-Nord-Est 4 noeuds. Cap Couronne : vent Nord-Nord-Ouest 16 noeuds. Prochain bulletin le jeudi 3 septembre 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -338,12 +338,12 @@ mardi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Prévisions sud ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
+• Infoclimat Direct : Suivi du temps dans le nord ouest septembre 2026.
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -351,9 +351,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 3 Septembre 2026.
-Résumé général précédent : Première semaine marquée par une chaleur remarquable sur le sud et le quart sud-est, avec des maximales localement proches de 40°C. En seconde semaine, un changement de synoptique s'amorce avec une baisse des températures par le nord, mais les précipitations resteront limitées et le déficit hydrique persistera..
+Résumé général précédent : Températures exceptionnellement hautes sur la moitié Sud sud-est jusqu’au dimanche 6, puis régression possible à partir du 9-10 ; les cumuls de pluie resteront sans déficit marquant, malgré une très grande incertitude sur le Sud-Est..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé, chaleur modérée au sud, températures au-dessus des normales sans excès pour la moitié nord. (111 caractères).
+Températures attendues précédemment : Temps sec et ensoleillé, chaleur limitée sur la moitié nord, canicule au sud moins fortement marquée..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -531,7 +531,7 @@ bonsoir, effectivement je suis d'accord avec brice, le sud de la france va avoir
 	Heureusement, dans le nord, on sera épargné de cette chaleur..
 	Courage et vivement l'hiver..
 	Bonne fin de soirée..
-								1
+								2
 								1
 								2
 
@@ -671,7 +671,27 @@ Déjà ca fait plaisir de voir une telle carte de la moyenne  de la masse d'air
 	Les dépressions atlantiques semblent commencer à vouloir  migrer vers le sud et les géopotentiels pourraient enfin baisser sur la France  :
 	A voir si ce changement qui semble être significatif va s'inscrire dans la durée, si on regarde l'ensemble CEP pour Paris, il semble que oui 
 	avec en début de topic une chute importante et durable des températures découlant du changement de configuration modélisé par l'Européen :
-	Modifié il y a 20 heures par petit âge glaciaire 11
-								5
+	Modifié il y a 22 heures par petit âge glaciaire 11
+								6
 								6
 								1
+
+=======================
+
+Auteur: nickdu77
+Message:
+Ce qui m'inquiète un peu sur ce topic, c'est que j'ai l'impression que ça va être moins humide que prévu. Je misais beaucoup sur mardi 8 et jeudi 10 mais en sortie du 0z, j'ai ça  et ça me paraît un peu maigrichon ... J'ai l'impression que la position des HP repousse tout plus au nord.
+	Pour les températures par contre, ça s'arrange nettement, y compris dans le sud. Heureusement parce que ça doit vraiment être infernal.
+	Là on a encore un petit bout de 20°C sur le SE et dès jeudi, tout le monde est débarrassé de l'infâme 20°C. En espérant qu'il ne revienne pas mais j'ai l'impression qu'il s'éloigne un peu même si en fin de topic, on retrouve de l'air chaud encore sur les deux-tiers de la péninsule ibérique
+	Si je comprends bien, cela pourrait être une semaine moins arrosée que prévue (mais quand même des précipitations dont la quantité reste à déterminer) et une baisse généralisée des températures pour tout le monde cette fois. J'espère que la deuxième quinzaine de septembre ne va pas nous réserver d'autres surprises. Pour me rassurer, je regarde la durée du jour qui diminue et jouera au moins sur les minimales. On se rassure comme on peut ....
+								1
+
+=======================
+
+Auteur: Twister83
+Message:
+J'avoue ne pas trop comprendre l'optimisme de certains.
+	Je suis ok avec la baisse des températures fort appréciable prévu pour cette semaine, mais je ne vois toujours rien de bien concret pour un changement de synoptique durable humide généralisé sur notre pays...
+	Sur le plus long terme il y'a même une forte tendance à dorsale atlantique, coupant tout activité dépressionnaire sur l'Europe de l'ouest.
+	Alors oui il pourrait avoir des plus chanceux avec des anomalies qui pourraient glisser sur le pays, mais globalement la France et tout le bassin méditerranéen pourraient être encore une fois la zone la plus sèche de l'hémisphère nord hors zone désertique et à latitude égal.
+	Modifié à l’instant par Twister83
