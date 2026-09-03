@@ -311,12 +311,12 @@ envisagés pour cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : la température de votre habitat aux 4 saisons
+• Infoclimat Direct : Automne/hiver 2026-2027 dans les Pyrénées
+• Infoclimat Direct : Prévisions sud ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -324,9 +324,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 3 Septembre 2026.
-Résumé général précédent : Première partie très chaude et sèche, la plus extrême au sud et dans la vallée du Rhône. Nette et très probable baisse des températures en semaine 2, accompagnée d'un retour d'un temps plus humide sur la moitié nord. Le sud, lui, restera sec..
+Résumé général précédent : Semaine 1 : conditions estivales tardives, très chaudes et sèches au sud, coup de chaud limité au nord. Semaine 2 : bascule vers un flux d’ouest/nord-ouest, baisse thermique généralisée, mais précipitations encore trop rares, notamment en Méditerranée..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Très chaud et sec. Succession de records de température en plaine comme en montagne..
+Températures attendues précédemment : Coup de chaud moins marqué au nord, soleil persistant, aucun signal pluvieux notable..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -509,26 +509,6 @@ bonsoir, effectivement je suis d'accord avec brice, le sud de la france va avoir
 								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Pas encore ouvert le nouveau topic ? Pourtant il y a des signaux intéressants qui permettent d'entretenir l'espoir d'un changement possible de synoptique. 
-	CEP n'y va pas de main morte ce matin avec son déterministe avec des hautes pressions qui s'installeraient mercredi sur l'atlantique, une dépression entre le sud de la GB et le nord de la France :
-	Bon c'est très loin mais si on regarde l'ensemble GEFS pour Paris on voit parfaitement la moyenne des températures à 850hpa plonger mercredi :
-	De plus l'ensemble AIFS  ( celui de Cep n'est pas encore sorti) est un copie collé de GEFS ce sui donne du poids à cette hypothèse de changement important de synoptique possible pour ce topic :
-	Il est urgent d'attendre une confirmation mais il est envisageable que cela pourrait enfin bouger.
-	J'attends avec impatience vos avis et post pour ce nouveau topic. 
-	A suivre car même si il y a un changement de synoptique il peut n'être que temporaire.
-	Il va falloir aussi surveiller si ce possible changement affecte aussi le sud, d'après AIFS il semble que oui et surtout suivre les possibilités de précipitations qui pourraient ne concernent que le nord voire l'extrême nord de la France.
-	AIFS Toulouse :
-	Modifié mardi à 09:48 par petit âge glaciaire 11
-Modifié
-								5
-								4
-								5
-								2
-
-=======================
-
 Auteur: Jetrejo
 Message:
 Je suis pas un pro du tout mais je vois les même signaux qui donnent de l'espoir. 
@@ -669,7 +649,7 @@ J'avoue ne pas trop comprendre l'optimisme de certains.
 	Je suis ok avec la baisse des températures fort appréciable prévu pour cette semaine, mais je ne vois toujours rien de bien concret pour un changement de synoptique durable humide généralisé sur notre pays...
 	Sur le plus long terme il y'a même une forte tendance à dorsale atlantique, coupant tout activité dépressionnaire sur l'Europe de l'ouest.
 	Alors oui il pourrait avoir des plus chanceux avec des anomalies qui pourraient glisser sur le pays, mais globalement la France et tout le bassin méditerranéen pourrait être encore une fois la zone la plus sèche de l'hémisphère nord hors zone désertique et à latitude égal.
-	Modifié il y a 8 heures par Twister83
+	Modifié il y a 10 heures par Twister83
 								2
 								1
 
@@ -694,7 +674,7 @@ On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on n
 	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
 	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
 	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
-	Modifié il y a 7 heures par Jojobarbar
+	Modifié il y a 9 heures par Jojobarbar
 								2
 								4
 
@@ -721,7 +701,7 @@ Il y a 3 heures, Girondin33 a dit :
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies. Et tant que les BP restent aussi présentes sur le continent, difficile de parler de véritable changement de régime
 	Le changement de masse d'air et la baisse des T850 semblent de plus en plus crédibles, mais ça ne signifie pas forcément qu'on bascule vers un régime franchement perturbé.
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies.
-	Modifié il y a 3 heures par lilique
+	Modifié il y a 5 heures par lilique
 								1
 
 =======================
@@ -736,7 +716,7 @@ Bon on allume le chauffage jeudi ? 🤣
 	Pour moi le plus important maintenant c'est qu'il pleuve sur notre pays et la ce n'est pas gagné pour le début du topic :
 	Peut-être mieux pour la fin du topic ?
 	A suivre
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 								6
 								2
 								1
@@ -750,8 +730,14 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 			Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
 			Températures jeudi à 14h :
 	Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Modifié il y a 51 minutes par cédric du Lot
+	Modifié il y a 2 heures par cédric du Lot
 								1
+
+=======================
+
+Auteur: Pervanche7
+Message:
+Quand je vois l'évolution des modèles, cette semaine va finir en fraîcheur de saison avec fort peu de précipitations. Alerte sécheresse sans fin !!
 
 =======================
 

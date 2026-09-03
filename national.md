@@ -1,130 +1,129 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Jeudi 3 Septembre 2026
-**Période :** Semaine 1 (Du jeudi 3 septembre au dimanche 6 septembre 2026) & Semaine 2 (Du lundi 7 septembre au dimanche 13 septembre 2026)
+**Période :** Semaine 1 (Du jeudi 3 au dimanche 6 septembre 2026) & Semaine 2 (Du lundi 7 au dimanche 13 septembre 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la baisse thermique en semaine 2, désaccord sur les pluies et sur l’intensité du pic de chaleur du week-end.*
-- **Fiabilité du scénario majoritaire :** Chaud puis baisse — *Scénario le plus probable : fin d’été très chaude, puis flux d’ouest plus frais, sans retour pluvieux durable.*
+- **Consensus des modèles :** Modéré — *Accord sur la chaleur au sud et la baisse thermique en semaine 2 ; désaccord sur les pluies.*
+- **Fiabilité du scénario majoritaire :** Chaud puis plus frais — *Scénario dominant : dôme de chaleur tardif, puis flux de nord-ouest sans retour pluvieux durable.*
 - **Stabilité des cartes/scénarios :** 6 / 101 — *6 cartes sur 101 analysées*
-- **Niveau d'incertitude global :** Forte — *Les modèles divergent encore sur la quantité et la localisation des précipitations de la semaine 2.*
+- **Niveau d'incertitude global :** Pluies incertaines — *La position de la dorsale atlantique conditionne l'extension des pluies au nord.*
 
-## 🗓️ SEMAINE 1 : Du jeudi 3 septembre au dimanche 6 septembre 2026
+## 🗓️ SEMAINE 1 : Du jeudi 3 au dimanche 6 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Chaleur tardive au sud : La fin de semaine pourrait être très chaude, localement remarquable pour un début septembre sur le quart sud-est et le Sud-Ouest.
-2. Vigilance chaude : Des vigilances jaunes pour fortes chaleurs sont possibles vendredi dans le Sud-Ouest et la vallée du Rhône.
-3. Nord moins exposé : La moitié nord connaîtrait plutôt un coup de chaud temporaire, sans excès durable.
-4. Temps sec généralisé : Aucune pluie significative n’est envisagée jusqu’à dimanche soir.
-5. GFS en marge : Le modèle américain reste plus frais que CEP, UKMO et GEM, d’où une incertitude persistante.
+1. Chaleur extrême au sud : Des maximales de 35 à 40°C attendues, surtout vendredi et dimanche.
+2. Nord en coup de chaud : Soleil et 28-31°C, sans vague de chaleur durable.
+3. GFS en embuscade : Le modèle américain propose un scénario plus frais, créant une incertitude réelle pour le nord.
+4. Air très chaud en altitude : +8°C à 4000 m dans les Alpes, un signal remarquable.
+5. Sécheresse qui s'aggrave : L'absence de pluie accentue le déficit hydrique et les risques d'incendie.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-• Accord sur un temps très chaud et sec au sud et dans la vallée du Rhône en semaine 1 ; records de septembre possibles.
-• Les modèles s’accordent sur l’absence de précipitations significatives jusqu’à dimanche 6.
-• Coup de chaud temporaire pour la moitié nord, sans canicule durable, avec un léger répit samedi.
+- Accord CEP/UKMO/GEM/AIFS pour un temps très chaud et sec sur la moitié sud vendredi et dimanche.
+- Accord pour un simple coup de chaud temporaire au nord, sans vague de chaleur durable.
+- Accord pour l'absence de précipitations notables jusqu'à dimanche soir.
 **Points de divergence :**
-• GFS est en décalage et voit moins de chaleur que CEP, UKMO et GEM pour le week-end.
-• Intensité et localisation exactes du pic de dimanche, notamment sur le nord et l’ouest.
-• Influence de la goutte froide sur CEP : encore mal cernée, elle pourrait freiner localement la hausse des températures.
+- GFS isolé avec un scénario plus frais et zonal pour le week-end, contre CEP/UKMO/GEM très chauds.
+- Précision du pic : vendredi 4 ou dimanche 6, avec une possible pause relative samedi 5.
+- Comportement du nord : simple coup de chaud ou températures proches des records selon les modèles.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (avec GEFS)** (Documenté) | Scénario plus frais que les autres : pas de grosse chaleur, flux zonal anticyclonique, dégradé nord-sud, températures au-dessus des normales sans excès. | Coup de chaud moins marqué au nord, soleil persistant, aucun signal pluvieux notable. | Nord, Nord-Ouest, Ouest ; impact moindre sur le quart sud-est. | Modérée (65%) | GFS insiste sur un flux zonal anticyclonique et un dégradé nord-sud sans excès, en décalage avec les modèles plus chauds. Son run de contrôle suit la même logique, d’où une prudence renforcée sur les pics annoncés ailleurs. |
-| **ECMWF (CEP)** (Documenté) | Temps très chaud et sec sur le sud, coup de chaud temporaire au nord, petites gouttes froides peu actives ; records de chaleur possibles pour un mois de septembre. | Chaleur forte sur le sud et la vallée du Rhône, soleil généralisé, aucune pluie significative. | Quart sud-est, Sud-Ouest, vallée du Rhône, nord en coup de chaud passager. | Modérée (65%) | Le CEP reste dans le scénario chaud, avec une advection chaude un peu revue à la baisse sur le nord mais toujours très marquée au sud. La goutte froide a perdu de la vigueur, ce qui limiterait les pluies. |
-| **AIFS (modèle IA ECMWF)** (Documenté) | Chaud mais pas extrême au nord, forme en dos de chameau : poussée chaude les 3-4, pause le 5, reprise le 6 ; sud très chaud. | Soleil, températures remarquables pour la saison, records plutôt évités sur la moitié nord. | Moitié nord, Sud-Ouest, Sud-Est. | Modérée (65%) | AIFS montre une évolution en deux temps pour la moitié nord : nette poussée chaude, répit samedi, puis nouvelle hausse dimanche. Les températures au sol resteraient en-deçà des records pour Paris. |
-| **UKMO** (Partiel) | Scénario très chaud, dans la lignée de CEP et GEM, avec de nombreux records de chaleur envisagés pour septembre. | Chaleur marquée, ciel sec, gradient nord-sud. | Large quart sud, possible coup de chaud nord. | Faible (45%) | UKMO est cité comme « brûlant » par un membre, sans développement détaillé. Il s’inscrit dans le scénario chaud majoritaire, mais les informations manquent pour une analyse fine. |
-| **GEM** (Partiel) | Scénario très chaud, proche de UKMO et CEP, avec des températures à 850 hPa élevées pour la saison. | Chaleur forte, temps sec, gradient nord-sud. | Sud-Ouest, Sud-Est, vallée du Rhône. | Faible (45%) | GEM est également cité dans le camp des modèles très chauds, avec un signal de records possible. Aucune précision supplémentaire n’est apportée sur les paramètres. |
+| **ECMWF / CEP** (Documenté) | Scénario très chaud et sec sur la moitié sud, coup de chaud plus modéré au nord, goutte froide peu active sur le pays. | Soleil dominant, fortes chaleurs sur le sud, pas de précipitations notables. | Sud-Ouest, vallée du Rhône, Méditerranée ; nord moins touché. | Élevée (85%) | CEP/ensemble européen très chaud pour la moitié sud, avec plusieurs scénarios de records pour septembre. Une petite goutte froide a perdu en vigueur sur les derniers runs, renforçant le caractère passager au nord. |
+| **GFS (américain)** (Documenté) | Scénario plus frais et zonal anticyclonique, dégradé nord-sud sans excès de chaleur. | Temps sec, températures au-dessus des normales mais sans fortes chaleurs au nord. | Nord et centre surtout ; sud également chaud mais moins extrême. | Élevée (85%) | GFS reste en décalage complet avec CEP/UKMO/GEM, ne voyant pas de grosses chaleurs. Son run de contrôle propose un flux zonal anticyclonique sec et un dégradé nord-sud, avec des températures au-dessus des normales mais sans excès. |
+| **UKMO (britannique)** (Partiellement documenté) | Scénario très chaud, cohérent avec CEP et GEM, records possibles pour septembre. | Soleil et fortes chaleurs, surtout sur la moitié sud. | Sud-Ouest, vallée du Rhône, Méditerranée. | Modérée (65%) | Cité aux côtés de CEP et GEM comme "brûlant", avec de nombreux records encore battus pour septembre. Peu de détails supplémentaires. |
+| **GEM (canadien)** (Partiellement documenté) | Scénario très chaud, cohérent avec CEP et UKMO, records possibles pour septembre. | Soleil et fortes chaleurs, surtout sur la moitié sud. | Sud-Ouest, vallée du Rhône, Méditerranée. | Modérée (65%) | Cité comme très chaud avec CEP et UKMO ; une sortie GEM affiche 18°C à 850 hPa vers le 7-8 septembre. Peu de détails supplémentaires. |
+| **AIFS (IA ECMWF)** (Partiellement documenté) | Températures en "dos de chameau" : poussée chaude les 3-4, pause relative le 5, reprise à partir du 6. | Soleil, températures remarquables pour la saison mais records peu probables au nord. | Nord, centre, sud-ouest, vallée du Rhône. | Modérée (65%) | AIFS confirme une forme en dos de chameau : première poussée chaude les 3-4, pause relative le 5, reprise à partir du 6. Pour la moitié nord, températures remarquables mais loin des records. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps estival mais sans excès, coup de chaud temporaire, ciel ensoleillé, fraîcheur relative samedi. | Maximales 25 à 31°C selon les jours, minimales 14 à 18°C ; au-dessus des normales. | moderee | GFS, ECMWF, AIFS | Ampleur exacte du coup de chaleur au nord. |
-| **Nord** | Soleil généreux, très doux vendredi, léger repli samedi, nouvelle hausse dimanche. | Vendredi 28-30°C, samedi 25-26°C, dimanche 30-31°C ; minimales 16-18°C. | elevee | GFS, ECMWF, AIFS, Météo-France | Pic de chaleur dimanche selon les modèles. |
-| **Nord-Est** | Temps chaud et sec, coup de chaud temporaire, dégradé nord-sud moins marqué. | Maximales proches de 29-31°C, minimales 15-17°C ; au-dessus des normales. | moderee | GFS, ECMWF, GEM | Manque d'observations spécifiques à l'est ; intensité de la hausse dimanche. |
-| **Ouest et Façade Atlantique** | Temps sec et ensoleillé, chaleur modérée à forte, écart thermique littoral/intérieur. | Maximales estimées 27-34°C, plus fraîches sur la côte ; minimales 15-18°C. | moderee | GFS, ECMWF | Absence de bulletin spécifique pour la façade atlantique. |
-| **Centre** | Chaleur estivale, ciel généralement clair, pic attendu en fin de période. | Maximales 29-36°C selon relief et latitude ; au-dessus des normales. | moderee | GFS, ECMWF, GEM | Détail des températures sur le Massif Central non précisé. |
-| **Sud-Ouest** | Très chaud et sec, soleil dominant, pics de chaleur remarquables dimanche. | Vendredi 34-38°C, dimanche 38-40°C en plaine ; littoral 30-32°C. | elevee | GFS, ECMWF, UKMO, GEM, Météo-France | Pic absolu dimanche selon modèles ; évolution en soirée. |
-| **Sud-Est et Vallée du Rhône** | Très chaud, ensoleillé, chaleur durable sur la vallée du Rhône. | Vendredi 34-37°C, samedi 30-33°C, dimanche 32-34°C. | elevee | GFS, ECMWF, GEM, Météo-France | Durée de la chaleur après dimanche ; orages possibles en début de semaine suivante. |
-| **Méditerranée et Corse** | Ensoleillé et très chaud, chaleur durable sur le pourtour méditerranéen. | Vendredi 34-37°C, samedi 34-38°C en Durance, dimanche 30-36°C. | elevee | GFS, ECMWF, GEM, Météo-France, Marine | Températures littorales atténuées par la brise ; Corse non détaillée dans les sources. |
+| **Nord-Ouest** | Soleil, chaleur modérée, simple coup de chaud temporaire. | Maximales 28-31°C, minimales 14-18°C. | moderee | ECMWF, GFS, AIFS | Intensité du coup de chaud, GFS plus frais que les autres modèles. |
+| **Nord** | Soleil sans partage, coup de chaud temporaire, maximales 28-31°C. | Maximales 28-30°C vendredi, 25-26°C samedi, 30-31°C dimanche ; minimales 14-18°C. | elevee | ECMWF, GFS, AIFS | Évolution de la pointe de chaleur samedi, GFS divergent. |
+| **Nord-Est** | Soleil, températures estivales, pas de précipitations. | Maximales proches de 28-31°C, minimales en légère baisse. | moderee | ECMWF, GFS | Écart entre scénarios sur les températures du week-end. |
+| **Ouest et Façade Atlantique** | Très chaud dans les terres, soleil, littoral plus respirable. | 34-37°C vendredi, 32-35°C samedi, 36-39°C dimanche ; 28-32°C sur le littoral. | elevee | ECMWF, GFS, GEM | Pic à 38-39°C dimanche encore incertain, surtout sur le littoral. |
+| **Centre** | Soleil, chaleur marquée, ambiance sèche. | Maximales 30-35°C, minimales 14-19°C. | moderee | ECMWF, GFS | Précisions sur la baisse relative de samedi puis reprise dimanche. |
+| **Sud-Ouest** | Soleil et très fortes chaleurs, 35-38°C vendredi, 38-40°C dimanche. | Maximales 35-38°C vendredi, 34-37°C samedi, 38-40°C dimanche ; minimales 15-21°C. | elevee | ECMWF, GFS, UKMO, GEM | Atteinte ou non des 40°C dimanche et durée de l'épisode. |
+| **Sud-Est et Vallée du Rhône** | Soleil, fortes chaleurs, vigilance jaune canicule vendredi. | 34-37°C vendredi, 30-33°C samedi, 32-34°C dimanche ; minimales 13-19°C. | elevee | ECMWF, GFS, UKMO, GEM | Maintien de la chaleur après dimanche et orages possibles en début de semaine 2. |
+| **Méditerranée et Corse** | Soleil, très forte chaleur, 34-37°C, 38°C en val de Durance. | Maximales 34-37°C, 38°C en val de Durance, 30°C sur le littoral ; minimales 16-23°C. | elevee | ECMWF, GFS, GEM | Intensité du mistral et maximum de chaleur dans le val de Durance. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Jeudi 3 septembre** : Nuit claire et chaude, conditions estivales sur tout le pays, vent faible.
-- **Vendredi 4 septembre** : Pic de chaleur sur le Sud-Ouest et la vallée du Rhône ; nord très doux.
-- **Samedi 5 septembre** : Léger repli thermique au nord, mais soleil et chaleur toujours forts au sud.
-- **Dimanche 6 septembre** : Nouvelle hausse des températures, extrême sur le Sud-Ouest ; net dégradé nord/sud.
+- **Jeudi 3 septembre** : Nuit douce, journée chaude, soleil généralisé.
+- **Vendredi 4 septembre** : Pic de chaleur au sud, nord encore modéré, vigilance jaune localement.
+- **Samedi 5 septembre** : Légère pause au nord, chaleur toujours forte au sud.
+- **Dimanche 6 septembre** : Chaleur maximale au sud-ouest, 38-40°C possibles, nord 30-31°C.
 
 **Points solides :**
-• Chaleur remarquable sur le quart sud-est et le Sud-Ouest, confirmée par les bulletins officiels.
-• Temps sec et ensoleillé sur la grande majorité du pays jusqu’à dimanche 6.
-• Aucun signal de dégradation pluvieuse durable avant la toute fin de semaine.
+- Très fortes chaleurs sur le sud-ouest, la vallée du Rhône et la Méditerranée, avec des maximales souvent supérieures à 34°C.
+- Temps sec et ensoleillé jusqu'à dimanche, aucune pluie significative.
+- Pas de signal pour une chaleur durable au nord.
 
 **Points fragiles :**
-• Le pic de 38-40°C dimanche sur le Sud-Ouest reste dépendant des prochains runs.
-• Le répit de samedi au nord est modélisé de façon inégale selon les modèles.
-• Extension des vigilances fortes chaleurs encore incertaine.
+- Atteinte des 40°C dimanche au sud-ouest.
+- Le scénario GFS plus frais, qui pourrait indiquer une intensité moindre au nord.
+- La possible petite baisse des températures samedi avant une reprise dimanche.
 
 **À surveiller (prochains runs) :**
-Surveiller les runs 00Z et 12Z de GFS et CEP, ainsi que les ensembles GEFS/CEP, pour la position de la goutte froide et la vigueur de la remontée chaude de dimanche.
+CEP 00Z/12Z, GFS 00Z/12Z, UKMO, GEM, AIFS ; surveiller l'évolution de la goutte froide et de la dorsale.
 
 
-## 🗓️ SEMAINE 2 : Du lundi 7 septembre au dimanche 13 septembre 2026
+## 🗓️ SEMAINE 2 : Du lundi 7 au dimanche 13 septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Baisse thermique probable : La chute des températures semble le signal le plus robuste, à partir du milieu de semaine.
-2. Pluies limitées : Les précipitations resteraient faibles, surtout sur le pourtour méditerranéen.
-3. Changement de synoptique : Une dépression entre le sud de la Grande-Bretagne et le nord de la France est envisagée, sans retour durable des perturbations.
-4. Sud encore verrouillé : Les scénarios humides sont minoritaires sur le sud ; la sécheresse de surface persiste.
-5. Mistral annoncé : Un vent de Nord-Ouest assez fort est prévu mercredi-jeudi en Méditerranée.
+1. Changement de masse d'air : La baisse des températures s'annonce nette et durable.
+2. Baisse enfin généralisée : Le flux de nord-ouest chasse les fortes chaleurs, même dans le sud.
+3. Pluies encore incertaines : Les modèles hésitent entre sec et modérément humide sur le nord.
+4. Pas de vrai retour pluvieux : Les dépressions circulent trop au nord, la dorsale atlantique résiste.
+5. Méditerranée toujours sèche : Les cumuls attendus restent très faibles, pas d'épisode pluvieux en vue.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-• Accord robuste pour une baisse généralisée des températures à partir du 9-10 septembre.
-• Les modèles voient un flux d’ouest/nord-ouest s’installer, mais avec des dépressions assez lointaines.
-• Méditerranée et Sud-Ouest devraient rester les zones les plus sèches.
+- Baisse des températures généralisée et assez durable en semaine 2.
+- Flux d'ouest/nord-ouest confirmé par CEP et GFS.
+- Précipitations globalement faibles, surtout en Méditerranée.
 **Points de divergence :**
-• Quantité de pluie : de quelques belles averses au nord à des cumuls faméliques selon les modèles.
-• Timing exact de la bascule : mardi 8, mercredi 9 ou jeudi 10.
-• Fin de semaine : retour de la chaleur possible sur le sud selon certains scénarios à plus long terme.
+- Quantité de pluie au nord/centre, entre scénarios secs et modérément humides.
+- Position exacte de la dorsale atlantique, qui conditionne l'extension du talweg.
+- Date précise du changement : mardi 8 ou jeudi 10.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP + ensembles)** (Documenté) | Changement de synoptique probable : hautes pressions atlantiques, dépression entre le sud de la Grande-Bretagne et le nord de la France, baisse nette des températures dès mercredi. | Baisse thermique généralisée, pluies possibles mais modérées, plus nettes au nord ; Méditerranée sèche. | Toutes les zones, surtout nord et centre ; sud-ouest et Méditerranée moins arrosés. | Élevée (85%) | L’ensemble CEP confirme une chute des températures à 850 hPa, avec un talweg britannique. Les cumuls restent faméliques sur le pourtour méditerranéen ; le changement de synoptique est probable mais son caractère durable reste incertain. |
-| **GFS (déterministe + GEFS)** (Documenté) | Baisse thermique désormais envisagée, notamment jeudi, avec anomalies négatives à 850 hPa à long terme ; pluies encore limitées. | Forte baisse des températures en milieu de semaine, ciel variable, précipitations faiblardes. | Nord, Est, Centre ; sud moins concerné par les pluies. | Élevée (85%) | Le déterminisme GFS a nettement fraîchi par rapport aux runs précédents et rejoint désormais le scénario CEP/AIFS pour la baisse thermique. Les anomalies négatives à long terme sont encourageantes mais peu fiables à cette échéance. |
-| **AIFS (modèle IA ECMWF)** (Documenté) | Copie de GEFS pour la chute des températures à 850 hPa, signal de changement de synoptique possible y compris dans le sud. | Baisse thermique, précipitations timides ; le sud reste plus sec. | Nord, Centre, Sud-Ouest, Sud-Est en baisse thermique. | Modérée (65%) | AIFS copie le signal GEFS pour la chute des T850, y compris sur Toulouse et Aix-en-Provence, renforçant la crédibilité du changement de masse d’air. Le signal pluvieux reste en revanche très faible. |
+| **ECMWF / CEP** (Documenté) | Baisse nette et durable des températures, flux d'ouest/nord-ouest, précipitations modestes surtout au nord/centre. | Fin des fortes chaleurs, fraîcheur de saison, pluies faibles à modérées. | France entière, surtout nord et centre ; Méditerranée plus sèche. | Élevée (85%) | Les ensembles CEP montrent une chute importante et durable des températures sur Paris, une baisse généralisée des T850 et des géopotentiels enfin en baisse sur la France. Les cumuls restent faméliques sur le pourtour méditerranéen, avec des scénarios secs majoritaires. |
+| **GFS / GEFS (américain)** (Documenté) | Baisse thermique actée, flux de nord-ouest, précipitations incertaines et souvent modestes. | Fraîcheur de saison, quelques pluies possibles, pas de gros cumuls. | Nord, nord-ouest, centre ; Méditerranée très sèche. | Élevée (85%) | Le déterministe GFS a considérablement fraîchi par rapport aux runs précédents, validant la bascule vers un flux d'ouest/nord-ouest. GEFS montre un certain optimisme pour un vrai changement de synoptique, même dans le sud, mais les cumuls de précipitations restent insuffisants. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Baisse thermique sensible en milieu de semaine, passages nuageux et pluies faibles possibles. | Maximales en baisse vers 20-24°C mercredi/jeudi, minimales 12-16°C. | moderee | ECMWF, GFS, AIFS | Quantité et localisation des précipitations. |
-| **Nord** | Beau lundi, dégradation pluvieuse possible mardi, puis éclaircies et averses. | Lundi/mardi 28-30°C, mercredi/jeudi 21°C, vendredi/samedi en hausse. | elevee | GFS, ECMWF, AIFS, Météo-France | Position exacte des pluies ; hausse des températures en fin de semaine. |
-| **Nord-Est** | Baisse thermique nette dès mercredi, ciel variable, pluies incertaines. | Maximales 20-25°C en baisse ; minimales 10-14°C. | moderee | GFS, ECMWF, GEFS | Queues de perturbation ou blocage anticyclonique. |
-| **Ouest et Façade Atlantique** | Temps variable, risque de pluies faibles, baisse des températures en milieu de semaine. | Maximales 21-25°C mercredi/jeudi, puis en hausse ; minimales 12-18°C selon littoral. | moderee | ECMWF, GFS, Météo-France | Cumuls de pluie encore très incertains, signal sec persistant. |
-| **Centre** | Baisse thermique sensible, ciel partagé, pluies faibles et localisées. | Maximales 21-26°C ; minimales 11-15°C. | moderee | ECMWF, GFS, GEFS | Implication réelle des dépressions britanniques. |
-| **Sud-Ouest** | Chaud lundi, nette baisse à partir de mardi/mercredi, éclaircies, pluies faibles possibles. | Lundi 30-32°C, mercredi/jeudi 24-27°C, vendredi/samedi en hausse modérée. | elevee | GFS, ECMWF, AIFS, Météo-France | Quantité des précipitations pyrénéennes et extension vers les plaines. |
-| **Sud-Est et Vallée du Rhône** | Encore très chaud lundi/mardi, puis baisse nette mercredi, soleil et averses localisées. | Lundi/mardi 32-35°C, mercredi/jeudi 22-25°C, vendredi/samedi stables. | elevee | GFS, ECMWF, Météo-France | Passage des perturbations et retour de la chaleur en fin d'échéance. |
-| **Méditerranée et Corse** | Soleil, encore chaud lundi/mardi, baisse ensuite, mistral en fin de semaine. | Lundi/mardi 33-35°C, mercredi/jeudi 27-30°C, stable ensuite. | elevee | GFS, ECMWF, Météo-France, Marine | Force exacte du mistral et éventuelles brumes marines ; Corse non détaillée. |
+| **Nord-Ouest** | Temps plus frais, passages nuageux, pluies faibles à modérées. | Maximales 21-25°C en fin de semaine, minimales 12-16°C. | moderee | ECMWF, GFS | Quantité réelle des précipitations selon la position des dépressions. |
+| **Nord** | Éclaircies, baisse nette des températures, risque de pluie temporaire. | 28-30°C lundi-mardi, puis 21°C mercredi-jeudi, hausse relative vendredi-samedi. | moderee | ECMWF, GFS | Cumuls de pluie encore incertains, entre sec et modérément humide. |
+| **Nord-Est** | Baisse thermique, soleil et passages nuageux, averses possibles. | Maximales autour de 21-25°C, minimales 10-14°C. | faible | ECMWF, GFS | Peu de discussions dédiées ; évolution des averses très incertaine. |
+| **Ouest et Façade Atlantique** | Éclaircies, baisse nette mercredi-jeudi, pluies temporaires sur le littoral. | 27-30°C lundi-mardi, 21-25°C mercredi-jeudi, littoral plus frais. | moderee | ECMWF, GFS | Localisation exacte des averses, surtout sur le littoral. |
+| **Centre** | Baisse thermique nette, soleil encore présent, pluies limitées. | Maximales 22-26°C, minimales 11-15°C. | faible | ECMWF, GFS | Faible documentation pour cette zone ; incertitude sur les pluies. |
+| **Sud-Ouest** | Soleil lundi, orages possibles sur le relief mardi, baisse mercredi-jeudi. | 30-32°C lundi-mardi, 24-27°C mercredi-jeudi, minimales 11-20°C. | moderee | ECMWF, GFS | Intensité des orages sur le relief et limite pluie-neige. |
+| **Sud-Est et Vallée du Rhône** | Chaleur lundi, baisse mercredi-jeudi, pluies locales, mistral modéré. | 32-35°C lundi-mardi, 22-25°C mercredi-jeudi, minimales 11-20°C. | moderee | ECMWF, GFS | Précisions sur les averses et la baisse thermique. |
+| **Méditerranée et Corse** | Soleil, chaleur forte lundi, baisse ensuite, mistral assez fort. | 33-35°C lundi-mardi, 27-30°C mercredi-jeudi, stables ensuite. | moderee | ECMWF, GFS | Intensité du mistral et absence de précipitations. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 7 septembre** : Encore très chaud au sud-est et dans la vallée du Rhône ; beau temps au nord.
-- **Mardi 8 septembre** : Début de changement à l’ouest/nord-ouest avec pluies possibles ; chaleur persiste au sud.
-- **Mercredi 9 et jeudi 10 septembre** : Baisse thermique marquée sur tout le pays ; vent d’ouest modéré, averses localisées.
-- **Vendredi 11 au dimanche 13 septembre** : Temps plus ensoleillé, températures en légère hausse, mistral en Méditerranée.
+- **Lundi 7 - mardi 8 septembre** : Chaleur résiduelle au sud, premières pluies possibles sur l'ouest/nord mardi.
+- **Mercredi 9 - jeudi 10 septembre** : Bascule franche, baisse thermique nette, mistral/tramontane, pluies faibles.
+- **Vendredi 11 - samedi 12 septembre** : Temps assez ensoleillé, averses localisées, fraîcheur de saison.
+- **Dimanche 13 septembre** : Incertitudes, tendance plus fraîche, quelques pluies possibles au nord.
 
 **Points solides :**
-• La chaleur extrême devrait quitter la France en milieu de semaine.
-• Le mistral devrait se renforcer sur la Méditerranée.
-• Aucun signal d’épisode méditerranéen pluvieux pour cette semaine.
+- Baisse généralisée des températures à partir du 9-10 septembre.
+- Flux d'ouest/nord-ouest confirmé par CEP et GFS.
+- Absence d'épisode méditerranéen ; cumuls très faibles sur le pourtour méditerranéen.
 
 **Points fragiles :**
-• Les pluies annoncées restent minces et leur localisation très incertaine.
-• Le début de semaine 2 reste chaud dans le sud-est, avec des maximales possibles de 33-35°C.
-• Un retour de l’anticyclone et de la chaleur est possible en fin d’échéance.
+- Quantité de pluie au nord/centre, entre scénarios secs et modérément humides.
+- Date exacte de la bascule et possible regain de chaleur en fin de semaine.
+- Position de la dorsale atlantique, qui pourrait bloquer le talweg plus au nord.
 
 **À surveiller (prochains runs) :**
-Suivre l’évolution de la dépression britannique, la position de la dorsale atlantique et les ensembles CEP/GEFS pour les cumuls de précipitations.
+CEP ensembles, GEFS, GFS déterministe, AIFS ; surveiller l'évolution de la dorsale atlantique et les scénarios de pluie.
 
 
 ========================================
@@ -132,27 +131,27 @@ Suivre l’évolution de la dépression britannique, la position de la dorsale a
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Semaine 1 : conditions estivales tardives, très chaudes et sèches au sud, coup de chaud limité au nord. Semaine 2 : bascule vers un flux d’ouest/nord-ouest, baisse thermique généralisée, mais précipitations encore trop rares, notamment en Méditerranée.
+Forte chaleur d'abord cantonnée au sud puis généralisée à l'ouest/centre, avant une bascule vers un flux d'ouest/nord-ouest et une baisse thermique nette autour du 9-10 septembre. Les précipitations restent le point noir, surtout en Méditerranée.
 
 ### Période la plus fiable
-Semaine 1, à courte échéance, surtout pour les températures du quart sud-est. La semaine 2 reste entachée d’incertitudes fortes sur les pluies.
+Semaine 1 (3-6 septembre) la plus fiable, surtout pour le sud ; la semaine 2 reste dépendante des modèles pour le timing et les pluies.
 
 ### Phénomènes récurrents
-Fortes chaleurs tardives, sécheresse de surface, absence de perturbations pluvieuses durables, mistral/tramontane, orages localisés possibles sur les reliefs.
+Fortes chaleurs tardives, sécheresse des sols, flux de nord-ouest sans précipitations durables, mistral/tramontane.
 
 ### Principales incertitudes
-Évolution des hautes pressions atlantiques ; capacité des dépressions à atteindre la France ; cumuls de précipitations ; retour possible de la chaleur en fin d’échéance.
+Montant des précipitations, position de la dorsale atlantique, maintien ou non de la chaleur en Méditerranée après le 13.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Chronologie de la bascule thermique en semaine 2 et position exacte des dépressions encore incertaines.
-- **Localisation :** Les pluies pourraient se limiter au nord/nord-ouest ; le sud et le sud-ouest pourraient rester secs.
-- **Intensité :** Pic de chaleur de dimanche 6 encore incertain : 38-40°C localement ou valeurs un peu plus modérées selon GFS.
-- **Informations manquantes :** Peu de détails sur le nord-est, le centre et la façade atlantique ; le vent est non documenté sur plusieurs zones ; pas de suivi précis des orages.
-- **Modèles sous-documentés :** UKMO et GEM mentionnés brièvement ; sous-saisonnier IFS et EFI évoqués sans analyse détaillée.
-- **Incertitudes images :** Les cartes postées par les membres (GFS, CEP, AIFS) n’ont pas toutes de légende de run explicite ; certaines échéances longues restent peu fiables.
+- **Timing/Chronologie :** Chronologie de la bascule en semaine 2 (mardi 8 ou jeudi 10) et retour possible de la chaleur en fin de période.
+- **Localisation :** Localisation exacte des pluies, surtout nord/centre ; les Pyrénées et la vallée du Rhône pourraient concentrer les averses.
+- **Intensité :** Atteinte des 40°C dimanche 6 au sud-ouest ; intensité du mistral et des orages sur le relief.
+- **Informations manquantes :** Pas de discussion spécifique pour le nord-est, la Bretagne et la Corse ; pas d'analyse fine des températures minimales au nord.
+- **Modèles sous-documentés :** ARPEGE, ICON, JMA non cités ; GEM et UKMO seulement mentionnés en passant ; AIFS peu détaillé.
+- **Incertitudes images :** Les cartes de cumuls CEP/GFS à longue échéance sont très changeantes ; les diagrammes montrent une grande dispersion.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌡️ Un week-end encore très chaud avant une bascule ? Analyse à J+10 : la France devrait connaître une fin de semaine 1 remarquablement chaude, surtout au sud, avec 38 à 40°C possibles dimanche. En semaine 2, les modèles entrevoient un net rafraîchissement, avec un flux d’ouest/nord-ouest. ⚠️ Attention : les pluies restent très incertaines et largement insuffisantes, notamment en Méditerranée. Les prochains runs seront décisifs. #Météo #Prévisions #Climat #Septembre
+Coup de chaleur tardif au sud et bascule plus fraîche en vue ? Le point complet avec CEP, GFS, UKMO, GEM et AIFS sur Monsieur Météo. #météo #prévisions #sécheresse
