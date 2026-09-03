@@ -336,12 +336,12 @@ envisagés pour cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi de la secheresse
-• Infoclimat Direct : Application mobile pour les IoT Barani
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Alertes Microsoft Defender sur Infoclimat depuis quelques jours
 • Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Suivi du temps &#xE0; Montréal
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Recensement des tornades en France
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 03/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -349,9 +349,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 3 Septembre 2026.
-Résumé général précédent : Première partie très chaude et sèche, surtout sur la moitié sud, avec un pic possible dimanche 6. Bascule attendue en semaine 2 avec une baisse nette des températures, mais les précipitations devraient rester modestes, notamment sur le pourtour méditerranéen..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Cheveux chauds sur le sud, coup de chaud passager au nord, aucun signal humide significatif..
+Températures attendues précédemment : Conditions météo : Soleil dominant, températures maximales de 35 à 40°C sur le sud, 28 à 33°C sur le nord. Vent faible à modéré, parfois d'autan ou de mistral..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 3 au Dimanche 6 Septembre 2026) ===
@@ -682,7 +682,7 @@ Ce qui m'inquiète un peu sur ce topic, c'est que j'ai l'impression que ça va �
 	Pour les températures par contre, ça s'arrange nettement, y compris dans le sud. Heureusement parce que ça doit vraiment être infernal.
 	Là on a encore un petit bout de 20°C sur le SE et dès jeudi, tout le monde est débarrassé de l'infâme 20°C. En espérant qu'il ne revienne pas mais j'ai l'impression qu'il s'éloigne un peu même si en fin de topic, on retrouve de l'air chaud encore sur les deux-tiers de la péninsule ibérique
 	Si je comprends bien, cela pourrait être une semaine moins arrosée que prévue (mais quand même des précipitations dont la quantité reste à déterminer) et une baisse généralisée des températures pour tout le monde cette fois. J'espère que la deuxième quinzaine de septembre ne va pas nous réserver d'autres surprises. Pour me rassurer, je regarde la durée du jour qui diminue et jouera au moins sur les minimales. On se rassure comme on peut ....
-								1
+								2
 								1
 								1
 
@@ -694,7 +694,7 @@ J'avoue ne pas trop comprendre l'optimisme de certains.
 	Je suis ok avec la baisse des températures fort appréciable prévu pour cette semaine, mais je ne vois toujours rien de bien concret pour un changement de synoptique durable humide généralisé sur notre pays...
 	Sur le plus long terme il y'a même une forte tendance à dorsale atlantique, coupant tout activité dépressionnaire sur l'Europe de l'ouest.
 	Alors oui il pourrait avoir des plus chanceux avec des anomalies qui pourraient glisser sur le pays, mais globalement la France et tout le bassin méditerranéen pourrait être encore une fois la zone la plus sèche de l'hémisphère nord hors zone désertique et à latitude égal.
-	Modifié il y a 37 minutes par Twister83
+	Modifié il y a 2 heures par Twister83
 								2
 								1
 
@@ -705,6 +705,29 @@ Message:
 Oui il n'y a rien en vue avant perpet, je pense qu'on peut même pronostiquer bien au delà du 15 Septembre vu le contexte et synoptique.
 	Je ne serai pas si surpris d'un Septembre globalement &lt;10mm un peu partout sur nos régions Med si ça perdure... on a bien eu l'exemple l'an dernier avec un duo Septembre/Octobre particulièrement sec.
 	Les réjouissances viennent surtout de la baisse des températures, qui semble actée d'ici le 10 Septembre, mais pour la pluie et l'agitation c'est la poursuite du minimum pluvieux tel qu'on le connait habituellement en été, maintenant l'été s'étalant de plus en plus entre Mai à Octobre...
+								2
+								3
+								2
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on ne sera pas au sec ! Pour la méditerranée, c'est très sec, les scénarios humides sont très minoritaires. Pour le reste, la semaine a l'air de s'orienter vers du ni sec, ni humide, plutôt dans les normes.
+	Le mardi, on a un cluster de scénario qui reste assez humide, jusqu'au sud. Je ne dis pas que je suis optimiste ou que le changement de synoptique nous assure contre tout risque de chaleur/sècheresse. Je dis juste qu'on peut encore raisonnablement être incertain quand à l'aspect sec, normale ou humide de cette semaine. 
+	Autrement dit : je rejoins les précédentes interventions : on ne va pas vers un scénario + humide que la normale, on va même vers du plus sec côté méditerranée (ce qui n'était pas si évident il y a deux jours). Mais pour une bonne moitié de la France, on reste dans un entre deux bienvenue, avec à ce jour, une possibilité de bonnes petites pluies bienvenues.
+	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
+	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
+	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
+	Modifié il y a 1 heure par Jojobarbar
 								1
 								2
-								2
+
+=======================
+
+Auteur: Girondin33
+Message:
+il y a 51 minutes, Jojobarbar a dit :
+			On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on ne sera pas au sec ! Pour la méditerranée, c'est très sec, les scénarios humides sont très minoritaires. Pour le reste, la semaine a l'air de s'orienter vers du ni sec, ni humide, plutôt dans les normes.
+	ça reste quand même très faiblard quand on regarde les diagramme on est plutôt bien en dessous des normales que proche ... (Gironde et Loiret) 
+								1
