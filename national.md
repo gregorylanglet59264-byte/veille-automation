@@ -6,121 +6,114 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la baisse thermique, mais désaccord sur les précipitations.*
-- **Fiabilité du scénario majoritaire :** Sec et plus frais — *Temps sec dominant, fraîcheur relative en semaine 1, possible regain de chaleur au sud.*
-- **Stabilité des cartes/scénarios :** 6 / 100 — *6 cartes sur 100 analysées*
-- **Niveau d'incertitude global :** Forte — *Précipitations et semaine 2 restent très incertaines.*
+- **Consensus des modèles :** Modéré — *Accord sur la baisse thermique, désaccord sur les pluies.*
+- **Fiabilité du scénario majoritaire :** Frais et sec — *Temps de saison, sec au sud, pluies faibles au nord.*
+- **Stabilité des cartes/scénarios :** 6 / 104 — *6 cartes sur 104 analysées*
+- **Niveau d'incertitude global :** Précipitations — *Fourchette de cumuls très large, surtout en semaine 2.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 7 au Dimanche 13 Septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Baisse thermique actée : Le changement de masse d'air semble confirmé pour jeudi, avec un net recul des températures.
-2. Pluies modestes attendues : Les précipitations s'annoncent globalement faibles, sans excédent marqué sur la plupart des régions.
-3. Méditerranée toujours sèche : Le pourtour méditerranéen resterait à l'écart des pluies, avec mistral et tramontane possibles.
-4. Signaux sud-ouest à confirmer : Quelques modelés évoquent des pluies sur le sud-ouest, mais les scénarios humides restent minoritaires.
-5. Début de semaine encore chaud : Lundi pourrait être très chaud sur une large moitié sud, avant une dégradation thermique nette.
+1. Baisse thermique probable : Le changement de masse d'air est de plus en plus crédible pour la fin de semaine.
+2. Pluies encore timides : Les cumuls restent souvent sous les normales, surtout au sud et sur le centre.
+3. Méditerranée toujours sèche : Les scénarios humides sont très minoritaires pour le pourtour méditerranéen.
+4. Chaleur résiduelle lundi : Le sud-est garde des maximales élevées lundi avant la dégradation.
+5. Semaine 2 incertaine : Le sujet de la semaine 38 n'est pas ouvert, les tendances restent fragiles.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Baisse nette des températures à partir du 9-10 septembre, vers des valeurs proches des normales.
-2. Précipitations globalement déficitaires sur le pourtour méditerranéen, avec mistral et tramontane.
-3. Pas de signal de retour humide durable, ni de régime franchement perturbé.
+• Baisse des températures crédible par GFS, CEP et ICON à partir du 10 septembre.
+• Méditerranée majoritairement sèche, avec des scénarios humides très minoritaires.
+• Cumuls de pluie globalement faibles, souvent sous les normales sur le sud et le centre.
 **Points de divergence :**
-1. Intensité et localisation des pluies sur le sud-ouest : scénarios humides encore minoritaires.
-2. Possibilité de regain de chaleur sur le sud en toute fin de semaine ou semaine suivante.
-3. Positionnement exact de la dorsale atlantique et son influence sur la France.
+• Le CEP améliore nettement ses cumuls en trois runs, mais certains membres jugent ces pluies irréalistes en flux d'ouest/nord-ouest.
+• La position de la dorsale atlantique reste déterminante : talweg britannique étiré vers la France ou non.
+• La ligne de partage entre zones arrosées et zones sèches reste floue, notamment entre sud-ouest, centre et centre-est.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (modèle américain)** (Documenté) | Baisse des températures bien marquée en fin de semaine ; précipitations limitées, quelques signaux de pluie au sud-ouest. | Fraîcheur relative à partir de jeudi, pluies faibles à modérées possibles sur le quart sud-ouest. | Nord, Ouest, Sud-Ouest, Centre, Méditerranée (vent) | Élevée (85%) | Le déterministe GFS a nettement fraîchi sa solution pour jeudi, avec une chute des températures à 850 hPa. Il entrevoit quelques pluies sur le sud-ouest, mais laisse le pourtour méditerranéen largement au sec. |
-| **CEP / ECMWF** (Documenté) | Baisse thermique robuste, pluies modestes en légère amélioration sur le sud ; Méditerranée sèche. | Temps plus frais, pluies faibles à modérées possibles sur une large moitié nord-ouest, rares au sud-est. | Nord, Ouest, Sud-Ouest, Centre | Élevée (85%) | Le CEP montre une évolution positive des cumuls de pluie au fil des runs, notamment vers le sud-ouest, mais le pourtour méditerranéen reste à l'écart. L'EFI est neutre, sans signal exceptionnel, confirmant l'absence de biais sec ou humide marqué. |
-| **ICON** (Partiel) | Quelques pluies sur le sud-ouest jusqu'à mercredi, pas de signal méditerranéen. | Pluies faibles possibles sur le quart sud-ouest. | Sud-Ouest | Modérée (65%) | ICON entrevoit quelques pluies dans le sud-ouest et des précipitations approchant des côtes méditerranéennes, mais son échéance est limitée à mercredi. |
-| **Ensembles GFS/CEP** (Partiel) | Médiane des précipitations proche des normales sur une partie nord/ouest, sécheresse nette côté Méditerranée. | Signaux humides faibles, risque de pluies modestes. | Nord, Ouest, Centre | Modérée (65%) | Les diagrammes montrent une grande dispersion des cumuls, de quelques millimètres à plus de 40 mm localement, avec une majorité de scénarios sous les normales. Le signal le plus robuste reste la baisse thermique, pas le retour des pluies. |
+| **CEP (ECMWF)** (Documenté) | Passage d'un flux de nord-ouest avec baisse des températures ; cumuls faibles à modérés possibles sur le sud-ouest et le nord, Méditerranée restant sèche. | Pluies faibles sur le nord et le sud-ouest, nette fraîcheur à partir de jeudi, mistral/tramontane en Méditerranée. | Nord-Ouest, Nord, Ouest atlantique, Centre, Sud-Ouest ; Méditerranée-Corse à l'écart. | Élevée (85%) | Le CEP montre une évolution nette des cumuls en trois runs, avec des pluies qui pourraient toucher le sud-ouest et le nord. Le run 06Z augmente encore ces cumuls dans le sud, mais le pourtour méditerranéen et le sud-est restent très secs. |
+| **GFS (déterministe)** (Documenté) | Validation du changement de masse d'air avec une nette baisse des températures à 850 hPa ; quelques signaux de pluie sur le sud-ouest sans certitude. | Air plus frais, pluies faibles possibles sur le sud-ouest, Méditerranée restant très sèche. | Nord, Ouest atlantique, Centre, Sud-Ouest ; Méditerranée-Corse peu arrosée. | Modérée (65%) | Le déterministe GFS a nettement renforcé l'arrivée d'air frais à 850 hPa pour jeudi prochain. Il propose aussi quelques signaux de pluie sur le sud-ouest, mais le pourtour méditerranéen reste globalement sec. |
+| **ICON** (Peu documenté) | Quelques pluies sur le sud-ouest et approche de précipitations près des côtes méditerranéennes, sans les atteindre. | Pluies faibles possibles sur le sud-ouest en tout début de semaine. | Sud-Ouest, Languedoc-Roussillon possible mais sans cumul significatif. | Faible (45%) | Le modèle ICON, disponible jusqu'à mercredi matin, voit quelques pluies sur le sud-ouest et d'autres qui s'approchent des côtes méditerranéennes. Mention isolée, fiabilité limitée. |
+| **IFS (ensembles / EFI)** (Peu documenté) | Médianes de cumuls proches des normales sur une bonne moitié nord, mais sans signal exceptionnel ; EFI neutre à très faiblement négatif sur le sud. | Pluies faibles et réparties de façon très inégale ; fraîcheur de saison probable. | Nord, Centre, Ouest atlantique ; Méditerranée-Corse très sèche. | Modérée (65%) | L'IFS indique des médianes de cumuls plutôt de saison sur une bonne moitié nord, mais sans signal exceptionnel. Le sous-saisonnier IFS confirme un temps sec pour la semaine en cours ; les 50 scénarios évoqués sur Paris donnent une fourchette de quelques mm à plus de 40 mm. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps variable, passages pluvieux possibles en milieu de semaine puis éclaircies plus fraîches. | Maximales en baisse nette : de 26-28°C lundi à 20-22°C de mercredi à dimanche. | moderee | GFS, ECMWF | Quantité de précipitations très incertaine. |
-| **Nord** | Belle journée lundi, puis dégradation nuageuse et pluvieuse temporaire mardi et mercredi, retour d'éclaircies en fin de semaine. | Lundi 28-29°C, puis 21°C de mardi à vendredi, minimales 12-13°C. | elevee | Météo-France, GFS, ECMWF | Cumuls de pluie très variables selon les scénarios. |
-| **Nord-Est** | Temps non déterminable, peu de données disponibles. | Non documenté | non_estimable | Météo-France XML, ECMWF, GFS | Absence de prévisions spécifiques pour cette zone dans les sources analysées. |
-| **Ouest et Façade Atlantique** | Lundi très beau et chaud, puis nuageux avec averses mardi et mercredi, plus sec et plus frais ensuite. | Lundi 28-31°C, mardi et mercredi 25-27°C, jeudi et vendredi 23-25°C. | elevee | Météo-France, GFS, ECMWF | Localisation précise des averses et cumuls associés. |
-| **Centre** | Nuageux avec averses possibles en début de semaine, puis éclaircies plus fraîches. | Maximales en baisse : 25-27°C mardi, puis 21-23°C à partir de jeudi. | moderee | GFS, ECMWF | Cumuls de pluie très dispersés selon les diagrammes. |
-| **Sud-Ouest** | Début de semaine encore chaud et ensoleillé, puis baisse thermique avec risque d'averses. | Lundi 29-32°C (33°C sur le Lauragais), mardi 28-30°C, puis 24-26°C de jeudi à dimanche. | elevee | Météo-France, GFS, ECMWF, ICON | Les scénarios pluvieux restent minoritaires, surtout sur les plaines. |
-| **Sud-Est et Vallée du Rhône** | Lundi encore chaud avec orages possibles en soirée, puis risque d'averses et nette baisse des températures. | Lundi 33-35°C, mardi et mercredi 30-32°C, jeudi et vendredi 21-23°C. | elevee | Météo-France, GFS, ECMWF | Évolution des orages de lundi soir encore incertaine. |
-| **Méditerranée et Corse** | Ensoleillé et très chaud en début de semaine, puis baisse thermique et mistral/tramontane marqués. | Lundi 33-36°C sur l'intérieur (30°C sur le littoral), puis 26-28°C de jeudi à dimanche. | elevee | Météo-France, GFS, ECMWF | Intensité des rafales de mistral/tramontane en fin de semaine. |
+| **Nord-Ouest** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Nord** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Nord-Est** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Ouest et Façade Atlantique** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Centre** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Sud-Ouest** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Sud-Est et Vallée du Rhône** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
+| **Méditerranée et Corse** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 7 septembre** : Encore chaud sur une large moitié sud, très belle journée sur l'ouest et le nord.
-- **Mardi 8 - mercredi 9 septembre** : Dégradation relative avec nuages et averses possibles, températures en baisse par le nord-ouest.
-- **Jeudi 10 - vendredi 11 septembre** : Baisse thermique nette, soleil généreux sur le sud-est et la Méditerranée, fraîcheur ailleurs.
-- **Samedi 12 - dimanche 13 septembre** : Temps changeant avec ondées éparses possibles, températures stables, mistral et tramontane en Méditerranée.
+- **Lundi 7 septembre** : Soleil encore généreux, chaleur au sud-est et au sud-ouest, éclaircies ailleurs.
+- **Mardi 8 et mercredi 9 septembre** : Dégradation temporaire par le nord-ouest, pluies faibles, nette baisse des températures.
+- **Jeudi 10 et vendredi 11 septembre** : Temps plus frais, sec au sud-est, quelques pluies localisées sur les reliefs.
+- **Samedi 12 et dimanche 13 septembre** : Temps changeant, ondées éparses possibles, mistral/tramontane en Méditerranée.
 
 **Points solides :**
-1. Baisse généralisée des températures à partir de jeudi 10 septembre.
-2. Maintien d'un temps sec et ensoleillé sur le pourtour méditerranéen.
-3. Absence de signal de retour humide durable sur l'ensemble du pays.
+• Changement de masse d'air très probable : fin de la chaleur, fraîcheur de saison en fin de semaine 1.
+• Chaleur encore marquée lundi, surtout au sud-est et au sud-ouest.
+• Méditerranée-Corse très sèche, mistral/tramontane probable.
 
 **Points fragiles :**
-1. Cumuls de pluie sur le sud-ouest, encore très incertains.
-2. Possibilité de regain de chaleur sur le sud en fin d'échéance.
-3. Passage perturbé du nord mardi, dont l'intensité reste à confirmer.
+• Cumuls de pluie sur le sud-ouest, améliorés au CEP mais contestés par certains membres.
+• Orages possibles lundi soir sur la vallée du Rhône, localisation et intensité incertaines.
+• Évolution de la semaine 2, faute de sujet dédié sur le forum.
 
 **À surveiller (prochains runs) :**
-À surveiller : les runs de CEP et GFS de ce week-end, notamment l'évolution des géopotentiels sur l'Atlantique et l'orientation exacte du flux de nord-ouest.
+CEP 00Z/12Z, GFS 00Z/12Z et ICON 00Z ; surveiller le creusement du talweg atlantique et la remontée de la dorsale.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 14 au Dimanche 20 Septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Dorsale atlantique probable : Une dorsale pourrait s'installer, bloquant les perturbations et maintenant un temps sec.
-2. Sécheresse persistante : Les projections indiquent une poursuite du déficit pluviométrique, surtout en Méditerranée.
-3. Incertitude majeure : Le sujet forum de la semaine n'est pas encore ouvert, aucune discussion dédiée disponible.
-4. Chaleur au sud à surveiller : De l'air chaud pourrait concerner la péninsule ibérique et déborder sur le sud de la France.
-5. Pas de retour humide : Aucun signal de changement de régime durable ne se dégage à ce stade.
+1. Sujet non ouvert : Aucune discussion dédiée à la semaine 38 sur le forum Infoclimat.
+2. Méditerranée au sec : Les projections pour le pourtour méditerranéen restent très sèches au-delà du 15 septembre.
+3. Incertitude majeure : Aucun scénario pluvieux ne se dégage pour le reste du pays.
+4. Fraîcheur à confirmer : La baisse thermique pourrait se prolonger, mais son intensité reste inconnue.
+5. À surveiller : L'ouverture du sujet semaine 38 et les prochains runs CEP/GFS.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Maintien d'un temps sec sur l'ensemble du pays.
-2. Méditerranée particulièrement épargnée par les pluies.
-3. Risque de retour de l'air chaud par le sud.
+• Temps sec sur la Méditerranée au-delà du 15 septembre.
+• Baisse thermique susceptible de se maintenir.
 **Points de divergence :**
-1. Intensité et position exacte de la dorsale atlantique.
-2. Amplitude de la remontée chaude sur la France.
-3. Possibilité d'ondulations dépressionnaires résiduelles sur le nord.
+• Position de la dorsale atlantique et possible talweg.
+• Cumuls de pluie sur le reste de la France, très incertains.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (projections long terme)** (Partiel) | Régime de dorsale atlantique, temps sec, températures possiblement en hausse sur le sud. | Temps sec et ensoleillé, mistral possible en Méditerranée. | Sud, Méditerranée, Ouest | Faible (45%) | Les sorties long terme de GFS évoquent un blocage anticyclonique atlantique, avec un air chaud résiduel sur la péninsule ibérique. La France serait en marge, avec un temps sec et des températures proches ou un peu au-dessus des normales au sud. |
-| **CEP / ECMWF (projections long terme)** (Documenté) | Forte tendance à la dorsale atlantique, coupant toute activité dépressionnaire sur l'Europe de l'Ouest. | Poursuite du temps sec, notamment sur le bassin méditerranéen. | France entière, surtout Méditerranée | Modérée (65%) | Le CEP privilégie une dorsale atlantique durable, maintenant la France sous un temps sec. Les scénarios humides sont très minoritaires, en particulier en Méditerranée. La baisse des températures observée en semaine 1 pourrait être suivie d'un retour de conditions plus chaudes sur le sud. |
+| **CEP (ECMWF) / GFS (projections long terme)** (Peu documenté) | Sujet non ouvert ; seules des tendances longues sont exploitables : blocage anticyclonique, flux de nord-ouest, Méditerranée sèche. | Temps probablement sec au sud-est, fraîcheur relative, incertitude sur les pluies. | Méditerranée-Corse, Sud-Est ; autres zones non déterminables. | Faible (45%) | Les messages du sujet semaine 37 mentionnent un contexte durablement sec pour le pourtour méditerranéen et des incertitudes marquées pour le reste du pays. Aucun run spécifique n'est commenté pour la semaine du 14 au 20 septembre. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps non déterminable à cette échéance. | Non documenté | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet forum non ouvert, projections long terme encore très incertaines. |
-| **Nord** | Temps probablement sec, parfois nuageux, sans perturbation notable. | Températures proches des normales, possiblement en légère hausse. | faible | ECMWF | Évolution de la dorsale atlantique à confirmer. |
-| **Nord-Est** | Temps non déterminable. | Non documenté | Modérée | ECMWF, GFS, Guillaume Séchet | Aucune données exploitables. |
-| **Ouest et Façade Atlantique** | Temps sec et ensoleillé probable, après une première semaine plus fraîche. | Températures en légère hausse, proches ou un peu au-dessus des normales. | faible | GFS, ECMWF | Position de la dorsale atlantique encore incertaine. |
-| **Centre** | Temps sec, éclaircies, pas de retour humide en vue. | Températures de saison, possiblement en hausse en fin de semaine. | Modérée | ECMWF | Incertitude sur l'évolution du blocage anticyclonique. |
-| **Sud-Ouest** | Temps sec et ensoleillé, possiblement plus chaud que la normale. | Températures en hausse, surtout en fin de semaine. | Modérée | GFS, ECMWF | Remontée chaude encore hypothétique. |
-| **Sud-Est et Vallée du Rhône** | Temps sec, ensoleillé, avec possiblement un retour de la chaleur. | Températures en hausse, notamment en vallée du Rhône. | faible | ECMWF | Amplitude de la remontée chaude incertaine. |
-| **Méditerranée et Corse** | Temps sec et très ensoleillé, chaleur possible. | Températures au-dessus des normales, possiblement élevées. | faible | GFS, ECMWF | Risque de nouvel épisode de chaleur à surveiller. |
+| **Nord-Ouest** | Aucune projection exploitable à cette échéance. | Non détaillées | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet spécifique non ouvert |
+| **Nord** | Aucune projection exploitable à cette échéance. | Non détaillées | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet spécifique non ouvert |
+| **Nord-Est** | Aucune projection exploitable à cette échéance. | Non détaillées | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet spécifique non ouvert |
+| **Ouest et Façade Atlantique** | Aucune projection exploitable à cette échéance. | Non détaillées | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet spécifique non ouvert |
+| **Centre** | Aucune projection exploitable à cette échéance. | Non détaillées | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet spécifique non ouvert |
+| **Sud-Ouest** | Aucune projection exploitable à cette échéance. | Non détaillées | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet spécifique non ouvert |
+| **Sud-Est et Vallée du Rhône** | Aucune projection exploitable à cette échéance. | Non détaillées | non_estimable | ECMWF, GFS, Guillaume Séchet | Sujet spécifique non ouvert |
+| **Méditerranée et Corse** | Temps sec dominant, ensoleillement, mistral/tramontane possibles. | Non détaillées à ce stade ; fraîcheur relative possible. | moderee | ECMWF, GFS | Persistance exacte du blocage anticyclonique |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 14 - mercredi 16 septembre** : Temps sec et stable probable, températures en légère hausse au sud.
-- **Jeudi 17 - dimanche 20 septembre** : Poursuite du temps sec, possiblement chaud sur le sud et l'est.
 
 **Points solides :**
-1. Tendance sèche et anticyclonique dominante.
-2. Méditerranée très probablement à l'écart des précipitations.
-3. Pas de signal de retour humide durable sur la France.
+• Sécheresse méditerranéenne très probable.
+• Fraîcheur de saison susceptible de se maintenir.
 
 **Points fragiles :**
-1. Remontée chaude sur le sud encore hypothétique.
-2. Position exacte de la dorsale atlantique.
-3. Possibilité de faibles ondulations sur le nord.
+• Répartition géographique des pluies.
+• Intensité de la baisse thermique.
 
 **À surveiller (prochains runs) :**
-À surveiller : l'évolution des ensembles CEP et GFS à 10-15 jours, et l'ouverture du sujet forum Semaine 38.
+Ouverture du sujet semaine 38 et prochains runs CEP/GFS/ICON.
 
 
 ========================================
@@ -128,27 +121,35 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Sur 15 jours, baisse thermique nette en semaine 1, puis temps sec et possible retour de la chaleur au sud ; précipitations globalement déficitaires.
+Semaine 1 : nette baisse thermique après un début encore chaud, avec pluies faibles et brèves sur le nord et le sud-ouest. Semaine 2 : poursuite probable d'un temps sec et frais, surtout en Méditerranée, mais grande incertitude.
 
 ### Période la plus fiable
-Semaine 1, car fondée sur des prévisions à courte échéance et des bulletins officiels détaillés.
+Semaine 1, mieux documentée grâce aux bulletins officiels et aux échanges du forum.
 
 ### Phénomènes récurrents
-Mistral et tramontane, fortes chaleurs au sud, blocage anticyclonique, déficit pluviométrique persistant.
+Blocage anticyclonique, flux de nord-ouest, mistral/tramontane, déficit pluviométrique.
 
 ### Principales incertitudes
-Quantité de pluie de la semaine 1, retour éventuel de la chaleur en semaine 2, évolution exacte de la dorsale atlantique.
+Cumuls exacts des précipitations, position de la dorsale atlantique, évolution du talweg en semaine 2.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes : la baisse thermique est attendue entre mardi et jeudi, mais les modèles ajustent encore ; le passage pluvieux du nord de mardi reste à affiner.
-- **Localisation :** Doutes sur la localisation précise et les zones géographiques concernées : les pluies du sud-ouest pourraient se limiter aux reliefs, et la zone de convergence entre air chaud et air frais est encor incertaine.
-- **Intensité :** Doutes sur l'intensité (températures, force des orages, etc.) : l'intensité de la baisse thermique, les rafales de mistral/tramontane et les cumuls de pluie restent à préciser.
-- **Informations manquantes :** Informations importantes non abordées ou manquantes dans les discussions : pas de sujet dédié pour la semaine 2, peu de détails sur le nord-est, la Corse et le Massif Central, absence de données précises sur les orages.
-- **Modèles sous-documentés :** Modèles peu ou pas commentés par les membres : ICON (mentionné une fois), modèles à très courte échéance comme ARPEGE, modèle canadien GEM, etc.
-- **Incertitudes images :** Incertitudes sur les graphiques et cartes du forum : les cartes de cumuls CEP ont évolué entre les runs, et les diagrammes montrent une forte dispersion des scénarios.
+- **Timing/Chronologie :** • La date exacte de la baisse thermique (9, 10 ou 11 septembre) varie légèrement entre les runs.
+• En semaine 2, le passage d'un éventuel talweg est impossible à caler.
+- **Localisation :** • L'axe des pluies faibles reste flou entre Pays basque et Ardennes.
+• La ligne de séparation entre pluie et sec sur le centre-est est incertaine.
+- **Intensité :** • Les cumuls annoncés vont de quelques millimètres à plus de 40 mm sur Paris selon les scénarios.
+• La force du mistral/tramontane, modérée à assez forte, n'est pas stabilisée.
+- **Informations manquantes :** • Aucune précision sur la Corse, le quart nord-est, les Cévennes ou le Roussillon.
+• Pas de données sur les températures minimales pour plusieurs zones.
+• Pas de discussion dédiée à la semaine 2.
+- **Modèles sous-documentés :** • ICON : une seule mention, échéance limitée.
+• IFS/EFI : évoqué globalement, sans détail de runs.
+• GEFS, GEPS, ARPEGE, AROME : non cités dans les échanges exploités.
+- **Incertitudes images :** • Les cartes de cumuls CEP postées montrent une forte évolution entre trois runs, ce qui rend leur lecture fragile.
+• Les cartes d'anomalies à 850 hPa à très long terme sont à prendre avec beaucoup de réserves.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌦️ Analyse météo du 7 au 20 septembre 2026 : après une semaine 1 marquée par une nette baisse des températures, la question des pluies reste cruciale. Les modèles peinent à voir un retour humide durable, et la Méditerranée devrait rester très sèche. La semaine 2 est encore très incertaine, avec un possible retour de la chaleur par le sud. Prudence et conditionnel de rigueur ! #Météo #Prévisions #Sécheresse
+La chaleur s'efface, mais la pluie reste une denrée rare. Sur les 15 prochains jours, la France bascule dans un temps plus frais, avec seulement de faibles passages pluvieux par le nord-ouest. En Méditerranée, le scénario sec s'impose encore. Surveillons de près l'ouverture du sujet semaine 2, car les incertitudes restent fortes. #Météo #Prévisions #Sécheresse #France
