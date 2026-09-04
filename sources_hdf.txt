@@ -308,12 +308,12 @@ Ensuite, pas de phénomène dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Vigilance Météo France
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Prévisions Nord - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 04/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 4 Septembre 2026.
-Résumé général HDF précédent : Commencement encore doux et lumineux, puis bascule à partir de mardi vers un temps océanique plus frais et modérément instable. La 2e semaine se situe beaucoup d'incertitudes, avec une tendance à bloquer ou à sécher sur certaines parties du Nord-H.-de-F..
+Résumé général HDF précédent : Tendance générale sur 15 jours: douceur et soleil ce week-end, puis bascule vers un temps océanique plus frais en semaine 1, avec des pluies modestes; semaine 2 encore très incertaine, dominante de dorsale atlantique possible, donc pas de retour durable des pluies à l’horizon..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées, températures en forte baisse, vent d’Ouest Sud-Ouest, pas d’excès pluviométrique..
+Températures attendues précédemment : Frais sous abri 18-20°C en plaine, vent modéré d’Ouest, rafales possibles sur le littoral, risque d’averses..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -426,7 +426,7 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 			Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
 			Températures jeudi à 14h :
 	Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Modifié il y a 22 heures par cédric du Lot
+	Modifié hier à 19:10 par cédric du Lot
 								1
 
 =======================
@@ -449,7 +449,7 @@ Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article 
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
 	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
-	Modifié il y a 9 heures par nickdu77
+	Modifié il y a 11 heures par nickdu77
 								1
 								1
 								1
@@ -482,7 +482,7 @@ Il y a 17 heures, cédric du Lot a dit :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié il y a 5 heures par petit âge glaciaire 11
+	Modifié il y a 7 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -504,7 +504,7 @@ il y a 31 minutes, petit âge glaciaire 11 a dit :
 			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié il y a 5 heures par Brice3411
+	Modifié il y a 7 heures par Brice3411
 								1
 								1
 
@@ -516,7 +516,7 @@ il y a 16 minutes, Brice3411 a dit :
 			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
 	oui, Hergé a su admirablement illustrer ces fameux mirages...
 	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié il y a 5 heures par giec 2100
+	Modifié il y a 7 heures par giec 2100
 								1
 								1
 
@@ -533,7 +533,7 @@ il y a 29 minutes, giec 2100 a dit :
 	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
 	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
 	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 Modifié
 								3
 								3
@@ -560,6 +560,7 @@ Message:
 il y a une heure, Gabhubert a dit :
 			Bonjour à vous!          Je poste très rarement dans cette partie du forum.....actuellement il n'y a que canicules et sécheresse à perte de vue ,ce qui est dramatique ,tout simplement !  Juste un question naive et simpliste sans doute :  comment un météorologue connu  (Guillaume S. ) peut annoncer aujourd'hui  "Retour des pluies la semaine qui vient"  ceci selon un "modèle européen " ???? Le changement de temps est toujours pour la semaine suivante et ......celà  ne change jamais !!!  Beaucoup de personnes doivent aussi s'interroger et c'est vraiment décevant !!   Qu'en pensez-vous ??????   🙄     ( Je ne parle pas des températures qui baisseront sans doute......provisoirement ! )
 	La prévision des PP est ce qu'il y a de plus difficile. J'ai regardé tout à l'heure avec 50 scénario différents et sur Paris on allait de quelques millimètres à plus de 40 pour la semaine prochaine. Quand à G Séchet, c'est intéressant de lire ce qu'il dit mais il faut en prendre et en laisser et souvent le titre est accrocheur, puis c'est nuance dans l'article. Il faut également bien voir que cet été est très hors norme ce qui complique les prévisions. On est a proprement parler hors normes cet été.
+								2
 
 =======================
 
@@ -568,8 +569,8 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 42 minutes par tao
-								4
+	Modifié il y a 2 heures par tao
+								10
 								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -672,7 +673,7 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 			Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
 			Températures jeudi à 14h :
 	Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Modifié il y a 22 heures par cédric du Lot
+	Modifié hier à 19:10 par cédric du Lot
 								1
 
 =======================
@@ -695,7 +696,7 @@ Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article 
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
 	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
-	Modifié il y a 9 heures par nickdu77
+	Modifié il y a 11 heures par nickdu77
 								1
 								1
 								1
@@ -728,7 +729,7 @@ Il y a 17 heures, cédric du Lot a dit :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié il y a 5 heures par petit âge glaciaire 11
+	Modifié il y a 7 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -750,7 +751,7 @@ il y a 31 minutes, petit âge glaciaire 11 a dit :
 			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié il y a 5 heures par Brice3411
+	Modifié il y a 7 heures par Brice3411
 								1
 								1
 
@@ -762,7 +763,7 @@ il y a 16 minutes, Brice3411 a dit :
 			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
 	oui, Hergé a su admirablement illustrer ces fameux mirages...
 	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié il y a 5 heures par giec 2100
+	Modifié il y a 7 heures par giec 2100
 								1
 								1
 
@@ -779,7 +780,7 @@ il y a 29 minutes, giec 2100 a dit :
 	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
 	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
 	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
-	Modifié il y a 4 heures par petit âge glaciaire 11
+	Modifié il y a 6 heures par petit âge glaciaire 11
 Modifié
 								3
 								3
@@ -806,6 +807,7 @@ Message:
 il y a une heure, Gabhubert a dit :
 			Bonjour à vous!          Je poste très rarement dans cette partie du forum.....actuellement il n'y a que canicules et sécheresse à perte de vue ,ce qui est dramatique ,tout simplement !  Juste un question naive et simpliste sans doute :  comment un météorologue connu  (Guillaume S. ) peut annoncer aujourd'hui  "Retour des pluies la semaine qui vient"  ceci selon un "modèle européen " ???? Le changement de temps est toujours pour la semaine suivante et ......celà  ne change jamais !!!  Beaucoup de personnes doivent aussi s'interroger et c'est vraiment décevant !!   Qu'en pensez-vous ??????   🙄     ( Je ne parle pas des températures qui baisseront sans doute......provisoirement ! )
 	La prévision des PP est ce qu'il y a de plus difficile. J'ai regardé tout à l'heure avec 50 scénario différents et sur Paris on allait de quelques millimètres à plus de 40 pour la semaine prochaine. Quand à G Séchet, c'est intéressant de lire ce qu'il dit mais il faut en prendre et en laisser et souvent le titre est accrocheur, puis c'est nuance dans l'article. Il faut également bien voir que cet été est très hors norme ce qui complique les prévisions. On est a proprement parler hors normes cet été.
+								2
 
 =======================
 
@@ -814,6 +816,6 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 42 minutes par tao
-								4
+	Modifié il y a 2 heures par tao
+								10
 								3
