@@ -311,7 +311,7 @@ Températures minimales : en baisse dans le Muretain, sur les coteaux de Gascogn
 Températures maximales : en hausse sur le Cagire et le Luchonnais.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 040325 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 4 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 4 septembre 2026 à 00H00 UTC, et évolution Hautes pressions se renforçant autour de 1020 hPa. 3 - Prévisions pour la journée du vendredi 4 septembre VENT : Nord 2 à 3, mais secteur Est 2 à 3 à l'est du Cap Couronne, devenant Variable à la mi-journée, secteur Sud dominant l'après-midi. MER : belle, localement peu agitée au large du Var le matin. HOULE : établissement temporaire d'une houle d'Ouest à Nord-Ouest 1 à 1.5 m en milieu de matinée vers les côtes varoises. Non significative sinon. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 4 septembre au samedi 5 septembre VENT : Variable 1 à 3, temporairement Ouest à Nord-Ouest 3 à 4 à l'est du Cap Croisette en seconde partie de nuit. MER : belle. HOULE : non significative. TEMPS : voilé, quelques brumes en Camargue en fin de nuit. VISIBILITE : bonne, localement mauvaise sous brume. 5 - Prévisions pour la journée du samedi 5 septembre VENT : Ouest à Nord-Ouest 2 à 4, mollissant Variable 1 à 3 à l'est des îles d'Hyères en milieu de journée, mais parfois 5 entre le Cap Croisette et le Cap Sicié dans l'après-midi. MER : belle, devenant belle à peu agitée en matinée. HOULE : s'établissant Ouest autour de 0.5 m à l'est du Cap Sicié l'après-midi. Non significative ailleurs. TEMPS : ensoleillé, quelques brumes en Camargue au petit matin. VISIBILITE : bonne, localement mauvaise sous brume. 6 - Prévisions pour la nuit du 5 au 6 et la journée du dimanche 6 septembre VENT : De Port Camargue à la Ciotat Ouest 4 à 6, revenant Sud à Sud-Est 2 à 4 en début de matinée. De la Ciotat à St Raphaël secteur Nord 2 à 4, virant secteur Est en début de nuit. MER : belle à peu agitée, localement agitée à l'ouest de Porquerolles. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 7 - Tendance pour les jours suivants Lundi 7 septembre variable faible à modéré Indice de confiance : 3 sur 5 Mardi 8 septembre Nord-Ouest modéré à assez fort dans le golfe du Lion, Ouest à Sud-Ouest modéré à assez fort au large de la Provence et de la Corse Indice de confiance : 3 sur 5 Mercredi 9 septembre Ouest à Nord-Ouest modéré à assez fort Indice de confiance : 3 sur 5 Jeudi 10 septembre Ouest à Nord-Ouest modéré à assez fort Indice de confiance : 3 sur 5 8 - Observations le vendredi 4 septembre 2026 à 03H00 UTC Cap Camarat : vent Est 2 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est-Nord-Est 12 noeuds. Porquerolles : vent Est-Nord-Est 10 noeuds. Cap Couronne : vent Nord 6 noeuds, rafales 16 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le vendredi 4 septembre 2026, vers 13H00 légales
+FQCT40 LFML 040945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 4 septembre 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 4 septembre 2026 à 06H00 UTC, et évolution Hautes pressions près de 1020 hPa. Dépression relative 1018 hPa près des côtes de Provence, prévue sur la Mer Ligure à la fin. 3 - Prévisions pour l'après-midi du vendredi 4 septembre VENT : Variable 1 à 3, parfois 4, secteur Sud dominant. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 4 septembre au samedi 5 septembre VENT : Variable 1 à 3, fraîchissant progressivement Ouest à Nord-Ouest 3 à 4. MER : belle. HOULE : non significative. TEMPS : voilé, temporairement bancs de brume en Camargue à la fin. VISIBILITE : bonne, temporairement mauvaise par bancs de brume à la fin. 5 - Prévisions pour la journée du samedi 5 septembre VENT : - de Port-Camargue à Porquerolles : Ouest à Nord-Ouest 3 à 4, fraîchissant secteur Ouest 3 à 5 le matin. - de Porquerolles à Saint-Raphaël : Variable 1 à 3, temporairement 4 au début. MER : devenant belle à peu agitée. HOULE : non significative, s'établissant Ouest 0.5 à 1 m à l'est de Sicié l'après-midi. TEMPS : ensoleillé, temporairement bancs de brumes en Camargue au début. VISIBILITE : bonne, temporairement mauvaise par bancs de brume au début. 6 - Prévisions pour la nuit du 5 au 6 et la journée du dimanche 6 septembre VENT : secteur Ouest dominant 2 à 4, parfois 5 le soir, virant progressivement secteur Est. MER : belle à peu agitée. HOULE : Ouest 0.5 à 1 m, s'amortissant en seconde partie de nuit. TEMPS : clair, parfois peu nuageux la nuit. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 6 au 7 et la journée du lundi 7 septembre VENT : Variable 1 à 3, s'orientant Ouest 2 à 4 en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 8 - Tendance pour les jours suivants Mardi 8 septembre secteur Nord-Ouest faible à modéré dans le golfe du Lion, secteur Sud-Ouest faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Mercredi 9 septembre secteur Nord-Ouest modéré à assez fort dans le golfe du Lion, secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 10 septembre secteur Nord-Ouest modéré dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 2 sur 5 Vendredi 11 septembre secteur Nord-Ouest modéré à assez fort dans le golfe du Lion, secteur Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 2 sur 5 9 - Observations le vendredi 4 septembre 2026 à 09H00 UTC Cap Camarat : vent Nord-Est 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est-Nord-Est 8 noeuds. Le Levant : vent Est 10 noeuds, 1019 hPa en hausse. Porquerolles : vent Est-Nord-Est 6 noeuds. Cap Couronne : vent Sud-Sud-Ouest 2 noeuds. Prochain bulletin le vendredi 4 septembre 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -336,11 +336,11 @@ envisagés pour cette période.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Production d'électricité renouvelable et météo
-• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
-• Infoclimat Direct : Application mobile pour les IoT Barani
+• Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Alertes Microsoft Defender sur Infoclimat depuis quelques jours
+• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -349,9 +349,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 4 Septembre 2026.
-Résumé général précédent : Baisse thermique généralisée la première semaine, stabilisation à des niveaux de saison la deuxième, mais retour d'un temps sec et de possibles remontées chaudes en fin d'échéance..
+Résumé général précédent : Baisse thermique marquée en semaine 1, puis incertitude avec possible retour de la chaleur en semaine 2. Précipitations globalement déficitaires, surtout au sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Fraîcheur à partir de jeudi 10, pluies possibles mais modestes, surtout dans le nord..
+Températures attendues précédemment : Temps plus frais à partir du 10, pluies faibles et éparses, nette amélioration thermique. (max 120).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -487,7 +487,7 @@ J'avoue ne pas trop comprendre l'optimisme de certains.
 	Je suis ok avec la baisse des températures fort appréciable prévu pour cette semaine, mais je ne vois toujours rien de bien concret pour un changement de synoptique durable humide généralisé sur notre pays...
 	Sur le plus long terme il y'a même une forte tendance à dorsale atlantique, coupant tout activité dépressionnaire sur l'Europe de l'ouest.
 	Alors oui il pourrait avoir des plus chanceux avec des anomalies qui pourraient glisser sur le pays, mais globalement la France et tout le bassin méditerranéen pourrait être encore une fois la zone la plus sèche de l'hémisphère nord hors zone désertique et à latitude égal.
-	Modifié il y a 20 heures par Twister83
+	Modifié il y a 22 heures par Twister83
 								2
 								2
 
@@ -512,7 +512,7 @@ On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on n
 	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
 	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
 	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
-	Modifié il y a 19 heures par Jojobarbar
+	Modifié il y a 21 heures par Jojobarbar
 								2
 								4
 
@@ -539,7 +539,7 @@ Il y a 3 heures, Girondin33 a dit :
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies. Et tant que les BP restent aussi présentes sur le continent, difficile de parler de véritable changement de régime
 	Le changement de masse d'air et la baisse des T850 semblent de plus en plus crédibles, mais ça ne signifie pas forcément qu'on bascule vers un régime franchement perturbé.
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies.
-	Modifié il y a 15 heures par lilique
+	Modifié il y a 17 heures par lilique
 								1
 
 =======================
@@ -554,7 +554,7 @@ Bon on allume le chauffage jeudi ? 🤣
 	Pour moi le plus important maintenant c'est qu'il pleuve sur notre pays et la ce n'est pas gagné pour le début du topic :
 	Peut-être mieux pour la fin du topic ?
 	A suivre
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 								8
 								2
 								1
@@ -568,7 +568,7 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 			Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
 			Températures jeudi à 14h :
 	Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Modifié il y a 12 heures par cédric du Lot
+	Modifié il y a 14 heures par cédric du Lot
 								1
 
 =======================
@@ -589,8 +589,10 @@ Auteur: nickdu77
 Message:
 Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article sur météo-villes (https://www.meteo-paris.com/actualites/l-hiver-montre-deja-ses-premiers-signes-dans-l-hemisphere-nord) et à regarder les cartes , la banquise a mieux résisté et les températures baissent plus rapidement dans le nord.
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
-	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
+	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
+	Modifié il y a 1 heure par nickdu77
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
 Auteur: Twister83
@@ -725,7 +727,7 @@ J'avoue ne pas trop comprendre l'optimisme de certains.
 	Je suis ok avec la baisse des températures fort appréciable prévu pour cette semaine, mais je ne vois toujours rien de bien concret pour un changement de synoptique durable humide généralisé sur notre pays...
 	Sur le plus long terme il y'a même une forte tendance à dorsale atlantique, coupant tout activité dépressionnaire sur l'Europe de l'ouest.
 	Alors oui il pourrait avoir des plus chanceux avec des anomalies qui pourraient glisser sur le pays, mais globalement la France et tout le bassin méditerranéen pourrait être encore une fois la zone la plus sèche de l'hémisphère nord hors zone désertique et à latitude égal.
-	Modifié il y a 20 heures par Twister83
+	Modifié il y a 22 heures par Twister83
 								2
 								2
 
@@ -750,7 +752,7 @@ On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on n
 	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
 	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
 	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
-	Modifié il y a 19 heures par Jojobarbar
+	Modifié il y a 21 heures par Jojobarbar
 								2
 								4
 
@@ -777,7 +779,7 @@ Il y a 3 heures, Girondin33 a dit :
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies. Et tant que les BP restent aussi présentes sur le continent, difficile de parler de véritable changement de régime
 	Le changement de masse d'air et la baisse des T850 semblent de plus en plus crédibles, mais ça ne signifie pas forcément qu'on bascule vers un régime franchement perturbé.
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies.
-	Modifié il y a 15 heures par lilique
+	Modifié il y a 17 heures par lilique
 								1
 
 =======================
@@ -792,7 +794,7 @@ Bon on allume le chauffage jeudi ? 🤣
 	Pour moi le plus important maintenant c'est qu'il pleuve sur notre pays et la ce n'est pas gagné pour le début du topic :
 	Peut-être mieux pour la fin du topic ?
 	A suivre
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 								8
 								2
 								1
@@ -806,7 +808,7 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 			Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
 			Températures jeudi à 14h :
 	Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Modifié il y a 12 heures par cédric du Lot
+	Modifié il y a 14 heures par cédric du Lot
 								1
 
 =======================
@@ -827,5 +829,7 @@ Auteur: nickdu77
 Message:
 Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article sur météo-villes (https://www.meteo-paris.com/actualites/l-hiver-montre-deja-ses-premiers-signes-dans-l-hemisphere-nord) et à regarder les cartes , la banquise a mieux résisté et les températures baissent plus rapidement dans le nord.
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
-	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
+	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
+	Modifié il y a 1 heure par nickdu77
+								1

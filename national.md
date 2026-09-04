@@ -1,133 +1,127 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Vendredi 4 Septembre 2026
-**Période :** Semaine 1 (Période exacte : Du Lundi 7 au Dimanche 13 Septembre 2026) & Semaine 2 (Période exacte : Du Lundi 14 au Dimanche 20 Septembre 2026
-⚠️ Le sujet spécifique de la Semaine 38 n'est pas encore ouvert sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 37.)
+**Période :** Semaine 1 (Semaine 1 : du lundi 7 au dimanche 13 septembre 2026) & Semaine 2 (Semaine 2 : du lundi 14 au dimanche 20 septembre 2026)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la baisse thermique, désaccord sur l'humidité.*
-- **Fiabilité du scénario majoritaire :** Baisse thermique, pluies insuffisantes — *Scénario majoritaire : fraîcheur sans vrai retour des pluies.*
+- **Consensus des modèles :** Modéré — *Accord sur la baisse des températures, mais divergence sur les précipitations.*
+- **Fiabilité du scénario majoritaire :** Baisse thermique, puis possible retour de la chaleur — *Scénario majoritaire : temps sec, anticyclonique, avec un rafraîchissement temporaire.*
 - **Stabilité des cartes/scénarios :** 6 / 78 — *6 cartes sur 78 analysées*
-- **Niveau d'incertitude global :** Forte sur les pluies et la semaine 2 — *Les modèles fluctuent sur la position des HP et la dorsale.*
+- **Niveau d'incertitude global :** Élevée — *Fortes incertitudes sur la semaine 2, pas de sujet forum ouvert.*
 
-## 🗓️ SEMAINE 1 : Période exacte : Du Lundi 7 au Dimanche 13 Septembre 2026
+## 🗓️ SEMAINE 1 : Semaine 1 : du lundi 7 au dimanche 13 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Baisse thermique attendue : La baisse des températures semble actée, surtout à partir de jeudi.
-2. Pluies limitées : Les cumuls resteraient modestes, notamment sur le sud et la Méditerranée.
-3. Flux océanique probable : Une dépression sur les îles Britanniques pourrait amener un flux d'ouest.
-4. Chaleur initiale : Début de semaine encore chaud, surtout au sud, avant la bascule.
-5. Incertitudes persistantes : Les scénarios humides restent minoritaires, la sécheresse se poursuit.
+1. Baisse thermique marquée : Retour à des températures de saison après un épisode très chaud, surtout à partir du 10 septembre.
+2. Précipitations faibles : Signaux globalement secs, surtout sur le sud et le pourtour méditerranéen, quelques pluies possibles sur le nord.
+3. Changement de flux : Passage à un flux d'ouest/nord-ouest avec une dépression sur les îles britanniques, mais sans véritable dégradation humide.
+4. Méditerranée sèche : Aucun épisode méditerranéen en vue, sécheresse persistante et risques d'incendies.
+5. Incertitude sur les cumuls : Les cumuls de pluie restent très incertains, de 7 à 13 mm sur Paris, mais globalement sous les normales.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Baisse généralisée des températures, plus marquée à partir de jeudi 10.
-- Précipitations faibles à très faibles, en particulier sur le pourtour méditerranéen.
-- Mise en place d'un flux d'ouest à nord-ouest, sans régime franchement perturbé.
+1. Baisse généralisée des températures à partir du 10 septembre, avec un flux d'ouest/nord-ouest.
+2. Précipitations globalement déficitaires, surtout sur le sud et la Méditerranée, avec un risque de sécheresse renforcé.
+3. Pas de véritable épisode pluvieux durable en vue, malgré quelques signaux humides sur le nord.
 **Points de divergence :**
-- Intensité et localisation des pluies : scénarios humides minoritaires côté méditerranée, entre-deux possible sur le nord.
-- Temporalité de la baisse thermique : jeudi pour la plupart, mais ajustements encore possibles.
-- Position de la dorsale atlantique : pourrait bloquer le retour des perturbations.
+1. Intensité des pluies sur le nord : certains scénarios montrent des cumuls notables, d'autres très faibles.
+2. Timing exact de la baisse thermique : jeudi 10 ou plus tard selon les runs.
+3. Comportement de la dorsale atlantique : pourrait bloquer les dépressions plus au nord, ou s'effondrer laissant passer un talweg.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP)** (Documenté) | Baisse significative et durable des températures, géopotentiels en baisse sur la France, mais précipitations insuffisantes, surtout en Méditerranée. (max 160) | Temps plus frais à partir du 10, pluies faibles et éparses, nette amélioration thermique. (max 120) | Nord-ouest, nord, centre, vallée du Rhône, Méditerranée | Élevée (85%) | Les ensembles CEP montrent une chute des températures à 850 hPa sur Paris et le sud, des cumuls méditerranéens faméliques, et des scénarios modérément humides sur la moitié nord. La dorsale atlantique pourrait toutefois rejouer un rôle à plus long terme. |
-| **GFS / GEFS** (Documenté) | Changement de masse d'air validé par les derniers runs, avec un flux d'ouest à nord-ouest, mais pas de retour durable des pluies. (max 160) | Fraîcheur marquée jeudi, quelques pluies possibles, puis tendance anticyclonique. (max 120) | Nord, nord-ouest, centre, sud-ouest, vallée du Rhône | Élevée (85%) | Le déterministe GFS est passé à un scénario plus frais. Les ensembles GEFS montrent un signal humide timide sur le nord, mais la médiane des cumuls reste sous les normales. En fin d'échéance, l'air chaud pourrait revenir sur la péninsule ibérique. |
-| **IFS sous-saisonnier** (Partiel) | Contraste sec pour la semaine actuelle, évolution incertaine ensuite. (max 160) | Semaine 1 plutôt sèche, semaine 2 indéterminée. (max 120) | France entière | Faible (45%) | Mentionné par Jojobarbar pour illustrer la sécheresse de la semaine en cours. Aucun détail sur les sorties long terme. |
+| **CEP (ECMWF)** (documenté) | Tendance à une baisse durable des températures, avec un flux d'ouest à nord-ouest. Précipitations modestes, plus marquées sur le nord, mais sec sur le sud. (145 caractères) | Baisse des températures à partir du 10, pluies faibles et éparses, nette amélioration thermique. (95 caractères) | Toutes les zones, avec un gradient nord/sud pour les précipitations. | Élevée (85%) | Les membres s'accordent sur une chute des températures, mais les cumuls de pluie restent faibles, avec des scénarios humides minoritaires sur le sud. La dorsale atlantique pourrait limiter l'activité dépressionnaire. |
+| **GFS (américain)** (documenté) | Après plusieurs runs hésitants, le modèle américain valide le changement de masse d'air, avec un flux de nord-ouest. Précipitations encore plus faibles que CEP, surtout sur le sud. (140 caractères) | Refroidissement net, quelques pluies éparses sur le nord, sécheresse persistante au sud. (82 caractères) | Nord et centre, peu d'impact sur le sud. | Élevée (80%) | GFS a finalement rejoint le scénario de baisse thermique, mais les cumuls de pluie sont encore plus faibles que CEP, avec un risque de sécheresse renforcée sur le sud. |
+| **GEFS (ensemble GFS)** (partiel) | L'ensemble américain montre une grande variabilité, avec des scénarios humides possibles sur le nord, mais une majorité de membres secs. (96 caractères) | Tendance fraîche, pluies incertaines, plutôt sèches. (47 caractères) | Nord et centre. | Modérée (70%) | Les membres citent les ensembles GEFS pour illustrer la diversité des scénarios, certains montrant des pluies modérées sur Paris, mais sans consensus. |
+| **IFS (ensemble saisonnier)** (insuffisant) | Mentionné par Jojobarbar pour illustrer la sécheresse de la semaine actuelle, mais pas de prévision détaillée pour la semaine 1. (89 caractères) | Non documenté. | Non déterminable. | Faible (50%) | Simple référence à l'ensemble saisonnier IFS pour confirmer la sécheresse actuelle, sans analyse pour la semaine 1. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps changeant, éclaircies et averses faibles possibles, fraîcheur en fin de semaine. | Maximales en baisse de 27°C lundi à 20-22°C jeudi et vendredi. | moderee | ECMWF, GFS | Quantité de pluie très incertaine |
-| **Nord** | Éclaircies puis passages nuageux, risque d'averses mardi et jeudi. | Maximales 27-30°C lundi, puis 21°C jeudi et vendredi. | moderee | ECMWF, GFS | Position des HP repoussant les pluies plus au nord |
-| **Nord-Est** | Temps sec et ensoleillé en début de semaine, puis fraîcheur avec averses possibles. | Baisse nette en fin de semaine, minimales proches de 10-12°C. | faible | ECMWF, GFS | Peu de commentaires spécifiques sur cette zone |
-| **Ouest et Façade Atlantique** | Soleil généreux en début de semaine, puis éclaircies et risque d'averses temporaire. | Chaud dimanche (35-38°C), puis baisse à 24°C jeudi, littoral plus frais (21-22°C). | moderee | ECMWF, GFS | Cumuls sous les normales, dégradé nord-sud |
-| **Centre** | Temps sec et assez ensoleillé, puis fraîcheur avec quelques pluies faibles. | Maximales en baisse de 30°C à 20-22°C en fin de semaine. | faible | ECMWF, GFS | Scénarios secs et humides encore en balance |
-| **Sud-Ouest** | Très chaud et sec en début de semaine, orages possibles lundi, puis nette baisse thermique. | Maximales 38-40°C dimanche, 31-34°C lundi, puis 23-26°C jeudi. | moderee | ECMWF, GFS | Risque orageux et cumuls très incertains |
-| **Sud-Est et Vallée du Rhône** | Ensoleillé et chaud, orages possibles lundi, puis fraîcheur marquée avec mistral. | Maximales 33-35°C lundi, puis 20-23°C jeudi et vendredi. | moderee | ECMWF, GFS | Intensité des orages et timing de la baisse |
-| **Méditerranée et Corse** | Soleil dominant, très sec, chaud en début de semaine, mistral et tramontane possibles. | Maximales 34-37°C lundi, puis 26-28°C jeudi, minimales élevées près du littoral. | moderee | ECMWF, GFS | Persistance de la sécheresse et risques d'incendie |
+| **Nord-Ouest** | Temps changeant, éclaircies et averses possibles, vent d'ouest. | Max 20-24°C, min 12-15°C. | moderee | GFS, CEP | Quantité de pluie incertaine, selon la position de la dépression. |
+| **Nord** | Ensoleillé lundi, puis dégradation avec pluies faibles mardi et jeudi. | Max 27-30°C lundi, puis 20-23°C en fin de semaine. | elevee | GFS, CEP, GEFS | Intensité des pluies, certains scénarios plus secs. |
+| **Nord-Est** | Temps variable, quelques averses possibles, nette baisse des températures. | Max 20-25°C, min 10-14°C. | moderee | GFS, CEP | Position des précipitations, incertitude sur les cumuls. |
+| **Ouest et Façade Atlantique** | Soleil lundi, puis éclaircies et risque d'averses temporaires. | Max 27-30°C lundi, puis 22-25°C. | elevee | GFS, CEP | Intensité des pluies, plus faibles que prévu selon certains runs. |
+| **Centre** | Temps variable, baisse des températures, quelques ondées possibles. | Max 20-26°C, min 10-14°C. | moderee | GFS, CEP | Faible signal de précipitations, risque de sécheresse. |
+| **Sud-Ouest** | Soleil lundi, puis éclaircies, risque d'averses en montagne. | Max 31-34°C lundi, puis 23-27°C. | elevee | GFS, CEP, GEFS | Cumuls faibles, sécheresse persistante. |
+| **Sud-Est et Vallée du Rhône** | Soleil lundi, orages possibles, puis nette baisse des températures. | Max 33-35°C lundi, puis 20-23°C jeudi. | elevee | GFS, CEP | Intensité des orages, risque de grêle. |
+| **Méditerranée et Corse** | Soleil dominant, très sec, mistral possible. | Max 30-34°C, min 18-22°C. | elevee | GFS, CEP, GEFS | Risque d'incendies, sécheresse extrême. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 7 Septembre** : Encore chaud et ensoleillé, orages possibles en fin de journée sur le centre-est et le sud-ouest.
-- **Mardi 8 et Mercredi 9 Septembre** : Baisse thermique amorcée, risque d'averses sur le nord et l'ouest, mistral en Méditerranée.
-- **Jeudi 10 et Vendredi 11 Septembre** : Fraîcheur de saison marquée, températures en nette baisse, pluies faibles et éparses.
-- **Samedi 12 et Dimanche 13 Septembre** : Temps plus calme, éclaircies prédominantes, averses possibles dimanche par endroits.
+- **Lundi 7 et mardi 8 septembre** : Temps encore chaud et ensoleillé, avec un risque d'orages isolés sur le centre-est.
+- **Mercredi 9 et jeudi 10 septembre** : Baisse marquée des températures, passage à un flux d'ouest, quelques pluies faibles sur le nord.
+- **Vendredi 11 et samedi 12 septembre** : Temps variable, éclaircies et averses possibles, températures de saison.
+- **Dimanche 13 septembre** : Amélioration avec un temps plus sec, mais toujours frais pour la saison.
 
 **Points solides :**
-- Baisse des températures sur l'ensemble du pays à partir de jeudi.
-- Absence de précipitations notables sur le pourtour méditerranéen.
-- Mise en place d'un flux d'ouest à nord-ouest.
+1. Baisse des températures à partir du 10 septembre, avec un flux d'ouest/nord-ouest.
+2. Absence de précipitations significatives sur le pourtour méditerranéen.
+3. Sécheresse des sols persistante sur la majeure partie du pays.
 
 **Points fragiles :**
-- Cumuls de pluie sur la moitié nord (7 à 13 mm possibles sur Paris, mais très incertains).
-- Évolution du risque orageux sur le sud-ouest et la vallée du Rhône en début de semaine.
-- Comportement de la dorsale atlantique en fin de semaine.
+1. Cumuls de pluie sur le nord : très incertains, certains scénarios montrent des pluies modérées, d'autres rien.
+2. Timing exact de la baisse thermique : jeudi 10 ou vendredi 11.
+3. Évolution de la dorsale atlantique : pourrait bloquer les dépressions, ou au contraire s'effondrer.
 
 **À surveiller (prochains runs) :**
-- Prochains runs ECMWF 00Z et 12Z pour la temporalité de la baisse thermique.
-- Évolution des ensembles GEFS sur les cumuls de la moitié nord.
-- Positionnement exact de la dépression britannique et de la dorsale atlantique.
+Surveiller les runs de CEP et GFS de ce week-end pour affiner la localisation des précipitations et le timing de la baisse des températures.
 
 
-## 🗓️ SEMAINE 2 : Période exacte : Du Lundi 14 au Dimanche 20 Septembre 2026
-⚠️ Le sujet spécifique de la Semaine 38 n'est pas encore ouvert sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 37.
+## 🗓️ SEMAINE 2 : Semaine 2 : du lundi 14 au dimanche 20 septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Changement durable ? : Le CEP suggère une persistance de la fraîcheur, mais à confirmer.
-2. Sécheresse méditerranéenne : Aucun signal de pluie significative à cet horizon.
-3. Dorsale atlantique : Un retour de la chaleur est possible en fin de quinzaine.
-4. Incertitude majeure : Les membres insistent sur la forte variabilité des scénarios.
-5. Flux océanique à surveiller : Une évolution dépressionnaire pourrait concerner le nord.
+1. Tendance anticyclonique : Les modèles long terme (CEP 15j, GFS 384h) suggèrent un retour de la dorsale atlantique, limitant les perturbations.
+2. Possible regain de chaleur : Les températures pourraient repartir à la hausse, surtout dans le sud, mais avec une grande incertitude.
+3. Sécheresse prolongée : Les précipitations resteraient très faibles, notamment sur le sud et la Méditerranée.
+4. Incertitude forte : Aucun consensus clair à cette échéance, les scénarios varient entre flux d'ouest et blocage anticyclonique.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Maintien d'un temps sec sur le pourtour méditerranéen.
-- Incertitude forte sur la persistance de la fraîcheur.
-- Pas d'épisode méditerranéen en vue.
+1. Tendance à un temps sec, avec des précipitations déficitaires.
+2. Températures possiblement en hausse, mais avec une grande incertitude.
+3. Pas de signal pour un épisode pluvieux majeur.
 **Points de divergence :**
-- Retour possible de la chaleur via la dorsale atlantique.
-- Évolution du flux océanique sur le nord : perturbé ou anticyclonique ?
-- Trajectoire exacte des dépressions britanniques.
+1. Intensité du retour de la chaleur : modéré ou marqué.
+2. Position de la dorsale atlantique : plus ou moins proche de la France.
+3. Possibilité d'incursions océaniques sur le nord, non tranchée.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP) – projection long terme** (Partiel) | La chute des températures pourrait s'inscrire dans la durée, mais la dorsale atlantique menace de bloquer l'humidité. (max 160) | Fraîcheur possible en début de semaine, retour de la chaleur incertain ensuite. (max 120) | France entière, surtout moitié nord et vallée du Rhône | Modérée (65%) | L'ensemble CEP pour Paris montre une baisse durable des températures. Toutefois, les projections long terme indiquent une forte tendance à la dorsale atlantique, susceptible de couper toute activité dépressionnaire sur l'Europe de l'Ouest. |
-| **GFS / GEFS – projection long terme** (Partiel) | Air chaud présent sur la péninsule ibérique en fin d'échéance, possible retour vers la France. (max 160) | Temps sec, températures en hausse possible en seconde partie de semaine. (max 120) | Sud, sud-ouest, Méditerranée | Modérée (65%) | Les membres notent le maintien d'air chaud sur les deux-tiers de la péninsule ibérique en fin de topic. Le scénario d'un retour de la chaleur est évoqué, mais la fiabilité à cette échéance est très faible. |
+| **CEP (ECMWF) - Projections long terme** (partial) | Tendance à une dorsale atlantique, avec un temps sec et des températures en hausse, surtout au sud. (96 caractères) | Possible retour de la chaleur, pas de pluie significative. (48 caractères) | Sud et est, mais incertain. | Modérée (65%) | À cette échéance, les membres évoquent une possible dorsale atlantique, mais avec beaucoup de réserves. Aucun scénario pluvieux fiable. |
+| **GFS (américain) - Projections long terme** (insuffisant) | Montre un retour de l'anticyclone et des températures au-dessus des normales, surtout dans le sud. (87 caractères) | Temps sec, chaleur possible en fin de semaine. (38 caractères) | Sud, sud-est. | Faible (50%) | Simple mention de la tendance à long terme, sans analyse détaillée. Fiabilité très faible à cette échéance. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Tendance fraîche et sèche, averses possibles si le flux océanique se rétablit. | Probablement de saison, sans excès. | faible | ECMWF, GFS | Régime de circulation encore indéterminé |
-| **Nord** | Fraîcheur possible en début de semaine, sec ensuite si dorsale. | En léger rebond possible en fin de semaine. | faible | ECMWF | Persistance de la baisse thermique |
-| **Nord-Est** | Temps sec et calme probable, températures de saison. | Minimales basses possibles. | faible | ECMWF | Aucune donnée spécifique |
-| **Ouest et Façade Atlantique** | Sec et de plus en plus doux, retour de la chaleur possible en fin de semaine. | En hausse si dorsale atlantique. | faible | GFS | Position de la dorsale |
-| **Centre** | Tendance anticyclonique, temps sec et calme. | De saison à légèrement douces. | faible | ECMWF | Manque de données |
-| **Sud-Ouest** | Sec, chaleur possible en fin d'échéance avec l'air ibérique. | En hausse possible, maximales au-dessus des normales. | faible | GFS | Remontée de l'air chaud espagnol |
-| **Sud-Est et Vallée du Rhône** | Temps sec, mistral possible, fraîcheur en début de semaine. | En baisse puis stabilisation. | faible | ECMWF | Intensité du mistral non documentée |
-| **Méditerranée et Corse** | Sec et ensoleillé, chaleur modérée, aucun épisode méditerranéen en vue. | Autour des normales de saison, nuits douces sur le littoral. | faible | ECMWF, GFS | Risque d'incendie élevé |
+| **Nord-Ouest** | Tendance anticyclonique, temps sec possible, mais incertitude forte. | Non documenté, possible retour de la chaleur. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucun sujet forum ouvert, projections long terme très incertaines. |
+| **Nord** | Tendance anticyclonique, possible retour de la chaleur en fin de semaine. | Non documenté, possible hausse. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucun sujet forum ouvert, projections long terme très incertaines. |
+| **Nord-Est** | Tendance anticyclonique, temps sec et possiblement chaud. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucun sujet forum ouvert, projections long terme très incertaines. |
+| **Ouest et Façade Atlantique** | Tendance anticyclonique, possible chaleur. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucun sujet forum ouvert, projections long terme très incertaines. |
+| **Centre** | Tendance anticyclonique, temps sec. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucun sujet forum ouvert, projections long terme très incertaines. |
+| **Sud-Ouest** | Possible retour de la chaleur, temps sec. | Non documenté, possible hausse. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucun sujet forum ouvert, projections long terme très incertaines. |
+| **Sud-Est et Vallée du Rhône** | Tendance anticyclonique, chaleur possible. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Aucun sujet forum ouvert, projections long terme très incertaines. |
+| **Méditerranée et Corse** | Temps sec et chaud, possible mistral. | Non documenté, possible hausse. | faible | GFS | Aucun sujet forum ouvert, mais les projections long terme suggèrent un temps sec et chaud. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 14 et Mardi 15 Septembre** : Fraîcheur de saison possible, surtout au nord, avant une possible remontée.
-- **Mercredi 16 à Vendredi 18 Septembre** : Temps sec et calme, températures en légère hausse.
-- **Samedi 19 et Dimanche 20 Septembre** : Possible regain de chaleur, surtout au sud-ouest, sous l'influence de la dorsale.
-- **Au-delà du 20 Septembre** : Tendance anticyclonique incertaine, risque de sécheresse prolongée.
+- **Non déterminable** : Non documenté.
+- **Non déterminable** : Non documenté.
+- **Non déterminable** : Non documenté.
+- **Non déterminable** : Non documenté.
 
 **Points solides :**
-- Poursuite d'un temps très sec en Méditerranée.
-- Pas d'épisode méditerranéen prévu à cet horizon.
-- Incertitude très forte sur le régime de circulation.
+1. Tendance à un temps sec et anticyclonique.
+2. Possible retour de la chaleur, surtout dans le sud.
+3. Pas de signal pour des pluies significatives.
 
 **Points fragiles :**
-- Retour possible de la chaleur en fin de semaine.
-- Évolution du flux océanique sur le nord.
-- Fiabilité limitée des projections au-delà de 10 jours.
+1. Intensité de la hausse des températures.
+2. Évolution de la dorsale atlantique.
+3. Possibilité d'incursions océaniques sur le nord, très incertaine.
 
 **À surveiller (prochains runs) :**
-- Ouverture du sujet Semaine 38 par les membres d'Infoclimat.
-- Évolution de la dorsale atlantique dans les runs CEP et GFS.
-- Indicateur thermique national (ITN) et risques de vague de chaleur.
+Surveiller l'ouverture du sujet Semaine 38 sur le forum et les runs de CEP et GFS pour affiner les tendances.
 
 
 ========================================
@@ -135,31 +129,27 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Baisse thermique marquée en semaine 1, puis incertitude avec possible retour de la chaleur en semaine 2. Précipitations globalement déficitaires, surtout au sud.
+Sur les deux semaines, baisse thermique nette en semaine 1, puis possible retour de la chaleur en semaine 2. Précipitations très faibles, surtout au sud. Sécheresse persistante.
 
 ### Période la plus fiable
-Semaine 1 (7-13 septembre) : confiance modérée, baisse thermique bien identifiée.
+Semaine 1 (7-13 septembre) avec une confiance modérée, grâce aux discussions détaillées et aux bulletins Météo-France.
 
 ### Phénomènes récurrents
-- Anticyclones récurrents sur l'Europe de l'Ouest.
-- Talwegs improductifs en précipitations.
-- Chaleur résiduelle sur la péninsule ibérique.
+Anticyclone persistant, flux d'ouest temporaire, risque d'incendies dans le sud.
 
 ### Principales incertitudes
-- Retour de la chaleur en semaine 2 (dorsale atlantique).
-- Quantité de pluie sur la moitié nord.
-- Trajectoire des dépressions britanniques.
+Évolution de la dorsale atlantique en semaine 2, intensité des pluies sur le nord, timing exact de la baisse thermique.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la temporalité exacte de la baisse thermique (jeudi 10) et sur le moment d'un éventuel retour de la chaleur en semaine 2.
-- **Localisation :** Localisation précise des averses sur le nord et l'ouest, extension du risque orageux au sud-est.
-- **Intensité :** Incertitude sur l'intensité des pluies (cumuls 7-13 mm à Paris, mais scénarios très variables) et sur le niveau de chaleur en fin de quinzaine.
-- **Informations manquantes :** Peu de détails sur le nord-est, le centre et la Corse. Pas d'analyse spécifique des modèles à haute résolution (AROME, ARPEGE). Pas d'info sur le vent en semaine 2.
-- **Modèles sous-documentés :** ICON, UKMO, ARPEGE, AROME : non cités par les membres sur cette période.
-- **Incertitudes images :** Les cartes de cumuls postées montrent des différences notables entre runs ; les diagrammes de précipitations restent difficiles à interpréter à échéance lointaine.
+- **Timing/Chronologie :** Timing de la baisse des températures en semaine 1 (jeudi 10 ou vendredi 11), et évolution en semaine 2.
+- **Localisation :** Localisation précise des pluies sur le nord et le centre, incertitude sur les zones concernées.
+- **Intensité :** Intensité des orages possibles lundi 7 dans le centre-est, et ampleur du retour de la chaleur en semaine 2.
+- **Informations manquantes :** Pas d'informations sur le vent pour certaines zones, ni sur les phénomènes côtiers. Pas de sujet forum pour la semaine 2.
+- **Modèles sous-documentés :** IFS (ensemble saisonnier) peu commenté, et aucun modèle pour la semaine 2.
+- **Incertitudes images :** Cartes long terme de GFS et CEP pour la semaine 2 très incertaines.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌡️ La France bascule vers la fraîcheur cette semaine, mais la pluie se fait toujours attendre. Les modèles s'accordent sur une baisse nette des températures dès jeudi, tandis que le sud et la Méditerranée restent sous surveillance sécheresse. Pour la semaine suivante, prudence : un retour de la chaleur n'est pas exclu. Restons vigilants ! #Météo #Prévisions #Sécheresse
+🇫🇷 Météo : après une semaine très chaude, un net rafraîchissement est attendu à partir du 10 septembre, avec un flux d'ouest. Cependant, les pluies resteront très faibles, surtout au sud. La sécheresse se poursuit. Pour la semaine du 14 au 20, les modèles hésitent entre retour de la chaleur et temps frais. Restez prudents ! 🌡️💧 #Météo #Prévisions #Sécheresse
