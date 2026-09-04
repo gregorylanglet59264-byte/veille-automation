@@ -333,12 +333,12 @@ Ensuite, pas de phénomène dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Le jeu de l'été saison 2026 !
-• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
-• Infoclimat Direct : Inondations Népal
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps &#xE0; Montréal
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Climatologie 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 04/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -346,62 +346,16 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 4 Septembre 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Sur les 15 jours (7-20 septembre ): bascule vers un temps plus frais et plus variable, sans excès pluvieux; incertitude croissante après le 13 septembre..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Averses temporaires, vent assez fort sur le littoral, fraîcheur en fin de semaine.
+ (120 caractères max approx.
+).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
 Auteur: Jojobarbar
 Message:
-Dès la semaine en cours, et en continuité pour le début de ce topic, on a quand même un fort jet trop septentrionale pour nos compatriotes du sud, qui vient à la fois provoquer cette chaleur tardive et protège la partie nord en évacuant fissa toute tentative de masse d'air brulante.
-	Au vu de l'avancée des saisons (géopotentiels polaires bien bas), et de cette branche de jet relativement stable, rectiligne et forte, plusieurs membres proposent des creusement assez rapides et importants. Les temporalités diffèrent, les trajectoires encore plus et la chaleur résiste dans certains cas.
-	Néanmoins, assez probablement à un moment ou à un autre durant cette semaine, une large dépression sur les îles britanniques devrait se former et amener un flux d'ouest ou de nord ouest sur le pays, en espérant que cela atteigne le sud… 
-	Je trouve ces scénarios majoritaires, convaincants. Il reste beaucoup de détails à éclaircir.
-								6
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-il y a 33 minutes, Jojobarbar a dit :
-			Au vu de l'avancée des saisons (géopotentiels polaires bien bas), et de cette branche de jet relativement stable, rectiligne et forte, plusieurs membres proposent des creusement assez rapides et importants. Les temporalités diffèrent, les trajectoires encore plus et la chaleur résiste dans certains cas.
-			Néanmoins, assez probablement à un moment ou à un autre durant cette semaine, une large dépression sur les îles britanniques devrait se former et amener un flux d'ouest ou de nord ouest sur le pays, en espérant que cela atteigne le sud… 
-			Je trouve ces scénarios majoritaires, convaincants. Il reste beaucoup de détails à éclaircir.
-	Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS:
-	Toulouse :
-	Aix-en-Provence :
-	On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
-								7
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-1 hour ago, petit âge glaciaire 11 said:
-			Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS [...]
-			On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
-	Yes, on voit aussi que le changement s'accompagne de timides signaux humides qui loin d'être exceptionnels, témoignent de l'influence de la dépression probable. Pas en tant que source principale, mais au moins en courbant le flux de manière à ce qu'il soit légèrement cyclonique.
-	Modifié mardi à 15:52 par Jojobarbar
-								1
-
-=======================
-
-Auteur: giec 2100
-Message:
-oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme de l'échéance...
-	... que ce soit du côté de CEP ou de GFS ça tire sacrément la langue : 
-	les talwegs improductifs en termes d'humidité on n'arrête pas d'en connaître cette année, non... ?
-	au reste ce qui ressort également des ensembles cités par PAG précédemment...
-	7
-	Modifié mardi à 17:27 par giec 2100
-								3
-								1
-
-=======================
-
-Auteur: Jojobarbar
-Message:
 12 hours ago, giec 2100 said:
 			oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme de l'échéance...
 			... que ce soit du côté de CEP ou de GFS ça tire sacrément la langue : 
@@ -488,7 +442,7 @@ On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on n
 	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
 	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
 	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
-	Modifié il y a 23 heures par Jojobarbar
+	Modifié hier à 12:23 par Jojobarbar
 								2
 								4
 
@@ -515,7 +469,7 @@ Il y a 3 heures, Girondin33 a dit :
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies. Et tant que les BP restent aussi présentes sur le continent, difficile de parler de véritable changement de régime
 	Le changement de masse d'air et la baisse des T850 semblent de plus en plus crédibles, mais ça ne signifie pas forcément qu'on bascule vers un régime franchement perturbé.
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies.
-	Modifié il y a 19 heures par lilique
+	Modifié il y a 21 heures par lilique
 								1
 
 =======================
@@ -530,7 +484,7 @@ Bon on allume le chauffage jeudi ? 🤣
 	Pour moi le plus important maintenant c'est qu'il pleuve sur notre pays et la ce n'est pas gagné pour le début du topic :
 	Peut-être mieux pour la fin du topic ?
 	A suivre
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 								8
 								2
 								1
@@ -544,7 +498,7 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 			Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
 			Températures jeudi à 14h :
 	Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Modifié il y a 16 heures par cédric du Lot
+	Modifié il y a 18 heures par cédric du Lot
 								1
 
 =======================
@@ -567,7 +521,8 @@ Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article 
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
 	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
-	Modifié il y a 3 heures par nickdu77
+	Modifié il y a 5 heures par nickdu77
+								1
 								1
 								1
 
@@ -578,13 +533,13 @@ Message:
 Il y a 15 heures, cédric du Lot a dit :
 			Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen...
 	C'est même le scénario redouté...une limite barocline orientée NW bien tendu et dynamique, plaçant le sud en mistral + tramontane récurent. Cette transition qui se profile de plus en plus sur les différents modèles est...désastreuse.
-								1
+								2
 
 =======================
 
 Auteur: petit âge glaciaire 11
 Message:
-Il y a 16 heures, cédric du Lot a dit :
+Il y a 17 heures, cédric du Lot a dit :
 			Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
 	Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
 	Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
@@ -598,61 +553,75 @@ Il y a 16 heures, cédric du Lot a dit :
 	Synoptique CEP d'aujourd'hui :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
-	Modifié il y a 3 minutes par petit âge glaciaire 11
+	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
+	Modifié il y a 1 heure par petit âge glaciaire 11
 Modifié
+								1
+
+=======================
+
+Auteur: Brice3411
+Message:
+il y a 31 minutes, petit âge glaciaire 11 a dit :
+			Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
+			Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
+			Cumuls  CEP de ce matin :
+			Cumuls que tu a posté hier :
+			d'autres modèles vont dans ce sens ce matin. 
+			Icon qui ne va que jusqu'à mercredi matin voit quelques pluies dans le sud-ouest et même d'autres qui ne seraient plus très loin des côtes méditerranéennes :
+			GFS modélise aussi quelques signaux de pluie dans le sud-ouest et aussi d'autres proches des régions méditerranéennes du sud-ouest :
+			La configuration a un peu évolué avec des géopotentiels légèrement plus bas sur le sud de la France et à l'est de l'Espagne ainsi que des hautes pressions atlantiques plus méridiennes et légèrement décalées à l'ouest. 
+			Synoptique CEP d'hier :
+			Synoptique CEP d'aujourd'hui :
+			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
+			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
+	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
+	Modifié il y a 1 heure par Brice3411
+								1
+								1
+
+=======================
+
+Auteur: giec 2100
+Message:
+il y a 16 minutes, Brice3411 a dit :
+			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
+	oui, Hergé a su admirablement illustrer ces fameux mirages...
+	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
+	Modifié il y a 1 heure par giec 2100
+								1
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+il y a 29 minutes, giec 2100 a dit :
+			oui, Hergé a su admirablement illustrer ces fameux mirages...
+			hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
+	Dans mon post je parle de signaux car pour avoir des cumuls de précipitations fiables à cette échéance c'est compliqué.
+	Les signaux doivent etre validés par leur consolidation et surtout doivent être repris par d'autres modèles. 
+	Mais en 3 runs ça a quand même bien évolué sur CEP.
+	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
+	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
+	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
+	Modifié il y a 56 minutes par petit âge glaciaire 11
+Modifié
+								4
+								2
+
+=======================
+
+Auteur: greg13
+Message:
+Petite "humidification" sur le Nord et encore bien sec pour cette semaine du 7 septembre 
+	PS : c'est la rentrée des classes sur le forum Convivialités, venez remporter le diplôme de "Major des Prévisions" ici.
+	Au menu : des mises, un bulletin de notes sur 20, et un seul gagnant en fin de saison  👇
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
 Auteur: Jojobarbar
 Message:
-Dès la semaine en cours, et en continuité pour le début de ce topic, on a quand même un fort jet trop septentrionale pour nos compatriotes du sud, qui vient à la fois provoquer cette chaleur tardive et protège la partie nord en évacuant fissa toute tentative de masse d'air brulante.
-	Au vu de l'avancée des saisons (géopotentiels polaires bien bas), et de cette branche de jet relativement stable, rectiligne et forte, plusieurs membres proposent des creusement assez rapides et importants. Les temporalités diffèrent, les trajectoires encore plus et la chaleur résiste dans certains cas.
-	Néanmoins, assez probablement à un moment ou à un autre durant cette semaine, une large dépression sur les îles britanniques devrait se former et amener un flux d'ouest ou de nord ouest sur le pays, en espérant que cela atteigne le sud… 
-	Je trouve ces scénarios majoritaires, convaincants. Il reste beaucoup de détails à éclaircir.
-								6
-
-=======================
-
-Auteur: petit âge glaciaire 11
-Message:
-il y a 33 minutes, Jojobarbar a dit :
-			Au vu de l'avancée des saisons (géopotentiels polaires bien bas), et de cette branche de jet relativement stable, rectiligne et forte, plusieurs membres proposent des creusement assez rapides et importants. Les temporalités diffèrent, les trajectoires encore plus et la chaleur résiste dans certains cas.
-			Néanmoins, assez probablement à un moment ou à un autre durant cette semaine, une large dépression sur les îles britanniques devrait se former et amener un flux d'ouest ou de nord ouest sur le pays, en espérant que cela atteigne le sud… 
-			Je trouve ces scénarios majoritaires, convaincants. Il reste beaucoup de détails à éclaircir.
-	Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS:
-	Toulouse :
-	Aix-en-Provence :
-	On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
-								7
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-1 hour ago, petit âge glaciaire 11 said:
-			Oui quand on voit les ensembles CEP (qui suit son IA ) et GEFS [...]
-			On peut avoir un certain optimiste pour un vrai changement de synoptique même dans le sud.
-	Yes, on voit aussi que le changement s'accompagne de timides signaux humides qui loin d'être exceptionnels, témoignent de l'influence de la dépression probable. Pas en tant que source principale, mais au moins en courbant le flux de manière à ce qu'il soit légèrement cyclonique.
-	Modifié mardi à 15:52 par Jojobarbar
-								1
-
-=======================
-
-Auteur: giec 2100
-Message:
-oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme de l'échéance...
-	... que ce soit du côté de CEP ou de GFS ça tire sacrément la langue : 
-	les talwegs improductifs en termes d'humidité on n'arrête pas d'en connaître cette année, non... ?
-	au reste ce qui ressort également des ensembles cités par PAG précédemment...
-	7
-	Modifié mardi à 17:27 par giec 2100
-								3
-								1
-
-=======================
-
-Auteur: Jojobarbar
-Message:
 12 hours ago, giec 2100 said:
 			oui m'enfin, même la moitié N du pays n'écopera que de clopinettes au terme de l'échéance...
 			... que ce soit du côté de CEP ou de GFS ça tire sacrément la langue : 
@@ -739,7 +708,7 @@ On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on n
 	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
 	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
 	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
-	Modifié il y a 23 heures par Jojobarbar
+	Modifié hier à 12:23 par Jojobarbar
 								2
 								4
 
@@ -766,7 +735,7 @@ Il y a 3 heures, Girondin33 a dit :
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies. Et tant que les BP restent aussi présentes sur le continent, difficile de parler de véritable changement de régime
 	Le changement de masse d'air et la baisse des T850 semblent de plus en plus crédibles, mais ça ne signifie pas forcément qu'on bascule vers un régime franchement perturbé.
 	Donc oui, pour moi le signal le plus robuste à ce stade, c'est surtout la baisse thermique, pas encore le retour durable des pluies.
-	Modifié il y a 19 heures par lilique
+	Modifié il y a 21 heures par lilique
 								1
 
 =======================
@@ -781,7 +750,7 @@ Bon on allume le chauffage jeudi ? 🤣
 	Pour moi le plus important maintenant c'est qu'il pleuve sur notre pays et la ce n'est pas gagné pour le début du topic :
 	Peut-être mieux pour la fin du topic ?
 	A suivre
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 								8
 								2
 								1
@@ -795,7 +764,7 @@ Il y a 2 heures, petit âge glaciaire 11 a dit :
 			Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
 			Températures jeudi à 14h :
 	Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Modifié il y a 16 heures par cédric du Lot
+	Modifié il y a 18 heures par cédric du Lot
 								1
 
 =======================
@@ -818,7 +787,8 @@ Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article 
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
 	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
-	Modifié il y a 3 heures par nickdu77
+	Modifié il y a 5 heures par nickdu77
+								1
 								1
 								1
 
@@ -829,13 +799,13 @@ Message:
 Il y a 15 heures, cédric du Lot a dit :
 			Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen...
 	C'est même le scénario redouté...une limite barocline orientée NW bien tendu et dynamique, plaçant le sud en mistral + tramontane récurent. Cette transition qui se profile de plus en plus sur les différents modèles est...désastreuse.
-								1
+								2
 
 =======================
 
 Auteur: petit âge glaciaire 11
 Message:
-Il y a 16 heures, cédric du Lot a dit :
+Il y a 17 heures, cédric du Lot a dit :
 			Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
 	Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
 	Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
@@ -849,6 +819,68 @@ Il y a 16 heures, cédric du Lot a dit :
 	Synoptique CEP d'aujourd'hui :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
-	Modifié il y a 3 minutes par petit âge glaciaire 11
+	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
+	Modifié il y a 1 heure par petit âge glaciaire 11
 Modifié
+								1
+
+=======================
+
+Auteur: Brice3411
+Message:
+il y a 31 minutes, petit âge glaciaire 11 a dit :
+			Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
+			Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
+			Cumuls  CEP de ce matin :
+			Cumuls que tu a posté hier :
+			d'autres modèles vont dans ce sens ce matin. 
+			Icon qui ne va que jusqu'à mercredi matin voit quelques pluies dans le sud-ouest et même d'autres qui ne seraient plus très loin des côtes méditerranéennes :
+			GFS modélise aussi quelques signaux de pluie dans le sud-ouest et aussi d'autres proches des régions méditerranéennes du sud-ouest :
+			La configuration a un peu évolué avec des géopotentiels légèrement plus bas sur le sud de la France et à l'est de l'Espagne ainsi que des hautes pressions atlantiques plus méridiennes et légèrement décalées à l'ouest. 
+			Synoptique CEP d'hier :
+			Synoptique CEP d'aujourd'hui :
+			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
+			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
+	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
+	Modifié il y a 1 heure par Brice3411
+								1
+								1
+
+=======================
+
+Auteur: giec 2100
+Message:
+il y a 16 minutes, Brice3411 a dit :
+			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
+	oui, Hergé a su admirablement illustrer ces fameux mirages...
+	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
+	Modifié il y a 1 heure par giec 2100
+								1
+								1
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+il y a 29 minutes, giec 2100 a dit :
+			oui, Hergé a su admirablement illustrer ces fameux mirages...
+			hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
+	Dans mon post je parle de signaux car pour avoir des cumuls de précipitations fiables à cette échéance c'est compliqué.
+	Les signaux doivent etre validés par leur consolidation et surtout doivent être repris par d'autres modèles. 
+	Mais en 3 runs ça a quand même bien évolué sur CEP.
+	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
+	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
+	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
+	Modifié il y a 56 minutes par petit âge glaciaire 11
+Modifié
+								4
+								2
+
+=======================
+
+Auteur: greg13
+Message:
+Petite "humidification" sur le Nord et encore bien sec pour cette semaine du 7 septembre 
+	PS : c'est la rentrée des classes sur le forum Convivialités, venez remporter le diplôme de "Major des Prévisions" ici.
+	Au menu : des mises, un bulletin de notes sur 20, et un seul gagnant en fin de saison  👇
 								1
