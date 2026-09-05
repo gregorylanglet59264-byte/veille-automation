@@ -1,124 +1,179 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Samedi 5 Septembre 2026
-**Période :** Semaine 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) & Semaine 2 (Du Lundi 14 au Dimanche 20 Septembre 2026
-⚠️ Le sujet spécifique de la Semaine 38 (du Lundi 14 au Dimanche 20 Septembre 2026) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 37. Aucune discussion fictive n'a été inventée.)
+**Période :** Semaine 1 (Du lundi 7 au dimanche 13 septembre 2026) & Semaine 2 (Du lundi 14 au dimanche 20 septembre 2026
+
+⚠️ Le sujet spécifique de la Semaine 38 (du 14 au  ​20 septembre  ​2026) n’est pas encore ouvert par les membres sur le forum Infoclimat. L’analyse ci-dessous s’appuie sur les projections à long terme extraites du sujet Semaine 37.)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la fraîcheur et les pluies faibles, mais fortes divergences sur les quantités.*
-- **Fiabilité du scénario majoritaire :** Fraîcheur puis retour anticyclonique — *Scénario le plus probable, mais à affiner avec les prochains runs.*
+- **Consensus des modèles :** Faible — *Accord sur la baisse des températures et un passage pluvieux faible, mais désaccord sur localisation/quantités et sur l’ampleur du réchauffement ensuite.*
+- **Fiabilité du scénario majoritaire :** Sec et douceur progressive — *Scénario dominant: hautes pressions reviennent, pluies limitées, températures en hausse modérée sans excès garanti.*
 - **Stabilité des cartes/scénarios :** 6 / 114 — *6 cartes sur 114 analysées*
-- **Niveau d'incertitude global :** Élevée — *Surtout pour la semaine 2, en raison de l'absence de discussions dédiées.*
+- **Niveau d'incertitude global :** Forte sur la semaine 2 — *Sujet semaine 38 non ouvert; projections long terme à considérer avec précaution.*
 
-## 🗓️ SEMAINE 1 : Du Lundi 7 au Dimanche 13 Septembre 2026
+## 🗓️ SEMAINE 1 : Du lundi 7 au dimanche 13 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Forte chaleur résiduelle : Encore très chaud lundi, surtout au sud et en vallée du Rhône.
-2. Bascule en fraîcheur : Nette baisse des températures à partir de mardi-mercredi.
-3. Pluies faibles attendues : Passage pluvieux peu productif entre mardi et mercredi.
-4. Sécheresse persistante : Les cumuls resteront très insuffisants, notamment au sud-est.
-5. Retour des hautes pressions : Amélioration et douceur en fin de semaine.
+1. Chaleur puis bascule : Un début de semaine encore chaud, suivi d’une nette baisse des températures en milieu de semaine.
+2. Pluies faibles attendues : Un passage pluvieux peu productif est envisagé entre mardi et mercredi, avec des cumuls modestes.
+3. Sud-est reste sec : Le pourtour méditerranéen demeure à l’écart des pluies, sous mistral ou tramontane possibles.
+4. Retour anticyclonique : Après la fraîcheur, les hautes pressions pourraient revenir dès la fin de semaine 1.
+5. Sécheresse persistante : Les pluies annoncées ne suffiront probablement pas à résorber une sécheresse toujours sévère.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Bascule vers une fraîcheur de saison en milieu de semaine, après un lundi encore très chaud.
-- Passage pluvieux faible entre mardi et mercredi, plus probable sur le nord-ouest, le nord et le sud-ouest.
-- Retour des hautes pressions ensuite, avec une sécheresse qui perdure.
+- Bascule vers un temps plus frais entre mardi et mercredi sur une large moitié nord.
+
+- Retour des hautes pressions ensuite, probablement en toute fin de semaine 1.
+
+
+
+- Cumuls de pluie faibles, ne résolvant pas la sécheresse.
 **Points de divergence :**
-- Localisation et intensité des pluies de mardi-mercredi : cumuls très variables selon les modèles.
-- Sud-Ouest : certains voient des pluies bénéfiques, d'autres un simple mirage en flux d'ouest/nord-ouest.
-- Fin de semaine : retour de la douceur plus ou moins marqué selon les scénarios.
+- Localisation et intensité du passage pluvieux restent floues entre les modèles.
+
+
+
+- Le sud-est pourrait rester totalement à l’écart ou recevoir quelques pluies près des côtes.
+
+
+
+- Ampleur de la remontée thermique en semaine 2 incertaine.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **CEP (ECMWF)** (Documenté) | Evolution vers une fraîcheur de saison avec un passage pluvieux faible en milieu de semaine, puis retour des hautes pressions. (max 160 char) | Fraîcheur, pluies faibles, quelques averses sur le nord-ouest et le sud-ouest. (max 120) | Nord-ouest, Nord, Ouest Atlantique, Sud-Ouest, Centre | Élevée (85%) | Le CEP améliore ses cumuls de pluie sur le sud-ouest en 3 runs, mais le pourtour méditerranéen reste à l'écart. Les sorties IA du CEP montrent des perturbations possibles sur un grand nord-est, mais pas de fin de sécheresse pour le sud-ouest. |
-| **GFS** (Documenté) | Accorde avec le CEP sur un passage pluvieux faible en milieu de semaine, puis blocage des HP et hausse progressive des températures. | Pluies faibles localisées, températures en baisse puis en hausse en fin de semaine. | Nord, Nord-Est, Ouest Atlantique, Sud-Ouest | Élevée (85%) | GFS montre des signaux de pluie dans le sud-ouest et près des côtes méditerranéennes, mais avec des quantités faibles. Les membres notent une amélioration de l'accord avec le CEP. |
-| **ICON** (Partiel) | Quelques pluies possibles sur le sud-ouest jusqu'à mercredi, mais sans excès. | Pluies faibles sur le sud-ouest, ailleurs temps sec. | Sud-Ouest, Ouest Atlantique | Modérée (65%) | ICON ne va que jusqu'à mercredi matin et voit quelques pluies dans le sud-ouest, éventuellement proches des côtes méditerranéennes. |
-| **UKMO** (Partiel) | Présence dans les cartes de cumuls, tendance aux pluies faibles sur le pays. | Cumuls faibles attendus, surtout au nord et à l'ouest. | Nord-Ouest, Ouest Atlantique, Nord | Modérée (65%) | UKMO est cité dans une liste de cartes de cumuls par petit âge glaciaire 11, sans commentaire détaillé. |
-| **ARPEGE** (Partiel) | Tendance aux pluies faibles, notamment sur le sud-ouest, puis fraîcheur. | Pluies faibles, températures en baisse. | Sud-Ouest, Ouest Atlantique, Centre-Est | Modérée (65%) | Arpège figure dans les cartes de cumuls comparées, sans analyse détaillée. |
+| **CEP (ECMWF)** (Commenté en détail avec plusieurs runs et cartes de cumuls.) | Bascule du flux à l’ouest/nord-ouest, passage pluvieux faible entre mardi et mercredi, puis retour probable des hautes pressions. | Baisse nette des températures, pluies faibles sur un axe sud-ouest/nord-est; sud-est sec. | Sud-ouest, nord-est, centre; pourtour méditerranéen encore à l’écart. | Élevée (85%) | Les trois derniers runs améliorent les cumuls sur le sud, mais le sud-est reste sec; la tendance longue est au retour de l’anticyclone. |
+| **GFS** (Commenté, avec des cartes de cumuls et une évolution positive récente.) | Les sorties récentes s’accordent sur un passage pluvieux peu productif en milieu de semaine, puis retour de l’anticyclone. | Fraîcheur proche des normales; pluies faibles; hautes pressions ensuite. | Sud-ouest, nord-est, signaux proches des côtes méditerranéennes du sud-ouest. | Modérée (65%) | Le modèle américain commence à s’accorder avec le CEP sur un passage pluvieux peu productif, mais la localisation reste floue. |
+| **ICON** (Mentionné avec cartes, mais échéance limitée à mercredi matin.) | Vu jusqu’à mercredi matin, quelques pluies dans le sud-ouest et près des côtes méditerranéennes. | Pluies faibles, pas de fortes chaleurs persistantes sur ces zones. | Sud-ouest, côtes méditerranéennes du sud-ouest. | Modérée (65%) | ICON voit quelques pluies dans le sud-ouest et non loin des côtes méditerranéennes, sans cumuls notables. |
+| **UKMO** (Listé sans commentaire approfondi.) | Aucune analyse détaillée; modèle listé parmi les cartes de cumuls pour le passage pluvieux. | Non déterminable. | Non déterminable (modèle listé sans détail). | Faible (45%) | Aucune information exploitable au-delà de sa présence dans les cartes de cumuls postées par les membres. |
+| **ARPÈGE** (Listé sans commentaire approfondi.) | Modèle listé dans les cartes de cumuls; pas d’analyse détaillée par les membres. | Non déterminable. | Non déterminable (modèle listé sans détail). | Faible (45%) | Aucune information exploitable au-delà de la carte de cumuls mentionnée dans la discussion. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps changeant, passages pluvieux faibles en milieu de semaine, fraîcheur. | Maximales 20-24°C après un lundi encore doux; minimales 12-15°C. | moderee | GFS, CEP | Localisation et quantités des pluies incertaines |
-| **Nord** | Soleil voilé lundi, averses possibles mardi, puis fraîcheur et éclaircies. | Lundi 27-29°C, mardi 20-21°C, puis minimales 12°C, maximales 21°C. | elevee | GFS, CEP, ARPEGE | Intensité des averses de mardi |
-| **Nord-Est** | Sec, éclaircies, fraîcheur en milieu de semaine, quelques pluies possibles. | Maximales 20-25°C, minimales 10-14°C. | faible | GFS, CEP | Aucune précipitation n'est garantie à l'est |
-| **Ouest et Façade Atlantique** | Ensoleillé lundi, pluies faibles possibles mardi-mercredi, puis fraîcheur. | Lundi 27-30°C (22°C littoral), mardi 25-28°C, mercredi 21-24°C. | elevee | CEP, GFS, ICON | Cumuls des pluies |
-| **Centre** | Temps sec et assez ensoleillé, fraîcheur en milieu de semaine. | Maximales 21-25°C après lundi encore doux. | faible | GFS, CEP | Manque de détails spécifiques pour cette zone |
-| **Sud-Ouest** | Très chaud lundi, dégradation mardi-mercredi avec pluies faibles, fraîcheur. | Lundi 31-33°C (39°C dimanche), mardi 27-30°C, mercredi 22-25°C. | elevee | CEP, GFS, ICON, ARPEGE | Cumuls encore incertains, certains modèles voient peu de pluie |
-| **Sud-Est et Vallée du Rhône** | Ensoleillé et chaud lundi, orages possibles mardi, puis nette fraîcheur. | Lundi 33-36°C, mardi 30-33°C puis 20-23°C, minimales 10-13°C. | elevee | CEP, ARPEGE | Localisation des orages |
-| **Méditerranée et Corse** | Très chaud et ensoleillé, mistral/tramontane possibles, très sec. | Maximales 34-37°C lundi, puis 25-28°C; minimales 17-24°C. | elevee | CEP, GFS, UKMO | Intensité du vent et aucune pluie en vue |
+| **Nord-Ouest** | Passage pluvieux faible possible, puis éclaircies et fraîcheur proche des normales | Retour proche des moyennes, sans excès; précisions limitées | faible | ECMWF, GFS | Localisation exacte des pluies incertaine |
+| **Nord** | Lundi ensoleillé puis averses mardi, retour de belles éclaircies dimanche | Max 27-29°C lundi, 20-21°C mardi à dimanche; min 12-20°C | elevee | ECMWF, GFS | Intensité des averses et cumuls encore incertains |
+| **Nord-Est** | Temps sec d'abord, faible passage pluvieux en milieu de semaine, retour sec | Fraîcheur proche des moyennes, précisions limitées | faible | ECMWF, GFS | Cumuls et localisation très incertains |
+| **Ouest et Façade Atlantique** | Soleil généreux lundi, averses possibles mardi, puis éclaircies et fraîcheur | Max 25-30°C lundi, 21-24°C ensuite; min 11-19°C | elevee | ECMWF, GFS | Cumuls réels des averses et pluies |
+| **Centre** | Non déterminable; possible passage pluvieux faible en milieu de semaine | Non déterminable, probable fraîcheur relative | non_estimable | Météo-France XML, ECMWF, GFS | Aucun bulletin détaillé ni discussion spécifique pour cette zone |
+| **Sud-Ouest** | Soleil lundi, puis nuages et averses orageuses mardi; fraîcheur ensuite | Max 27-33°C lundi, 22-25°C après mercredi; min 10-20°C | elevee | ECMWF, GFS | Limite pluie-neige sur Pyrénées et localisation des averses |
+| **Sud-Est et Vallée du Rhône** | Soleil sans partage lundi, orages possibles mardi, puis nette fraîcheur et soleil | Max 30-36°C lundi, 20-23°C après mercredi; min 10-21°C | elevee | ECMWF, GFS | Intensité orageuse et cumuls associés |
+| **Méditerranée et Corse** | Soleil et chaleur lundi-mardi, puis mistral/tramontane et fraîcheur relative | Max 30-37°C lundi-mardi, 25-28°C ensuite; min 11-24°C | elevee | ECMWF, GFS | Puissance du mistral et éventuelles pluies près des côtes |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 7 à mardi 8** : Encore très chaud, surtout au sud et dans la vallée du Rhône, avec début de dégradation orageuse possible mardi.
-- **Mercredi 9 à jeudi 10** : Net rafraîchissement, pluies faibles et éclaircies, retour à des températures proches des normales.
-- **Vendredi 11 à samedi 12** : Temps changeant, risque d'averses surtout à l'ouest, vent de nord-ouest parfois modéré.
-- **Dimanche 13** : Amélioration, soleil généreux, températures stables.
+- **Lundi 7 et mardi 8 matin** : Temps encore chaud et sec, soleil généreux, fortes chaleurs sur le sud-est et le sud-ouest.
+- **Mardi 8 après-midi à jeudi 10** : Bascule plus fraîche, averses orageuses éparses, nette baisse des températures.
+- **Vendredi 11 à samedi 12** : Régime instable avec pluies ou averses possibles, surtout nord-ouest, sud-ouest et reliefs.
+- **Dimanche 13 et lundi 14** : Retour de l’anticyclone, éclaircies, températures stationnaires.
 
 **Points solides :**
-- Baisse nette des températures en milieu de semaine, vers les normales de saison.
-- Passage pluvieux faible, mais réel, sur une partie nord-ouest/nord/sud-ouest.
-- Maintien d'un temps très sec sur le pourtour méditerranéen.
+- Nette baisse des températures en milieu de semaine 1, avec fraîcheur proche des normales.
+
+
+- Passage pluvieux faible et épars probable entre mardi et mercredi.
+
+
+
+- Retour de l’anticyclone et d’un temps plus sec en fin de semaine 1 / début semaine 2.
 
 **Points fragiles :**
-- Cumuls de pluie très incertains, avec des écarts importants entre modèles.
-- L'ampleur de la fraîcheur en fin de semaine reste à confirmer.
-- Le retour des hautes pressions pourrait être plus ou moins rapide.
+- Quantités de pluie très incertaines, cumuls très faibles à modérés.
+
+
+
+- Comportement du pourtour méditerranéen, sous vent de secteur nord-ouest.
+
+
+
+- Remontée des températures en semaine 2: inconnue.
 
 **À surveiller (prochains runs) :**
-Prochains runs CEP et GFS pour affiner la localisation des pluies de mardi-mercredi et la durée de la fraîcheur. Surveiller également les sorties ICON et UKMO à 00Z.
+CEP 00Z/12Z, GFS 00Z/12Z, ICON 12Z; comparer les cartes de cumuls et la position des hautes pressions.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 14 au Dimanche 20 Septembre 2026
-⚠️ Le sujet spécifique de la Semaine 38 (du Lundi 14 au Dimanche 20 Septembre 2026) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 37. Aucune discussion fictive n'a été inventée.
+## 🗓️ SEMAINE 2 : Du lundi 14 au dimanche 20 septembre 2026
+
+⚠️ Le sujet spécifique de la Semaine 38 (du 14 au  ​20 septembre  ​2026) n’est pas encore ouvert par les membres sur le forum Infoclimat. L’analyse ci-dessous s’appuie sur les projections à long terme extraites du sujet Semaine 37.
 ### 💡 Points clés de la semaine 2
-1. Hautes pressions probables : Retour d'un temps sec et stable sur la majeure partie du pays.
-2. Fraîcheur temporaire : Début de semaine encore proche des normales, puis douceur.
-3. Sécheresse qui persiste : Peu ou pas de précipitations à l'horizon.
-4. Incertitude forte : Scénarios à long terme à confirmer.
+1. Semaine sous haute pression : Le scénario le plus probable voit un retour de l’anticyclone et un temps sec sur la France.
+2. Températures en hausse : Une augmentation progressive des températures est envisagée, sans certitude sur son intensité.
+3. Aucun sujet dédié : Les projections pour le 14-20 septembre restent incertaines, faute de discussion spécifique sur le forum.
+4. Sécheresse non résolue : Aucun signal de pluies significatives ne se dégage pour la semaine 2; la sécheresse devrait persister.
+5. Surveiller les runs : Les prochaines sorties CEP et GFS seront décisives pour préciser cette échéance lointaine.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Retour probable des hautes pressions et d'un temps sec.
-- Températures en hausse progressive, sans excès confirmé.
-- Poursuite de la sécheresse.
+- Tendance anticyclonique dominante pour la semaine du 14 au  ​20 septembre.
+
+
+
+- Températures probablement en hausse progressive, mais niveau incertain.
+
+
+
+- Pas de signal pluvieux significatif; sécheresse persiste.
 **Points de divergence :**
-- Intensité de la hausse des températures (simple douceur ou fortes chaleurs ?).
-- Possible faiblesse du flux océanique, mais aucune certitude sur la localisation des éventuelles précipitations.
+- Remontée thermique modérée ou franchement chaude ?
+
+
+
+- Position exacte de l’anticyclone:sur la France ou décalé à l’ouest ?
+
+
+
+- Possibles orages de masse d’air chaud en toute fin d’échéance, non confirmés.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **CEP (ECMWF)** (Insuffisant) | Retour probable des hautes pressions sur la France, blocage des perturbations atlantiques, températures en hausse progressive. | Temps sec et stable, douceur l'après-midi. | Ensemble du pays, surtout moitié sud | Faible (45%) | Seule une tendance générale est évoquée dans les discussions : hautes pressions revenant ensuite, sans précision. |
-| **GFS** (Insuffisant) | Même tendance que le CEP : blocage anticyclonique et retour de températures plus élevées. | Sec, ensoleillé, douceur. | Moitié sud, ouest | Faible (45%) | Mention d'une augmentation progressive des températures sans savoir si elles seront excessives. |
-| **ICON, UKMO, ARPEGE** (Insuffisant) | Non estimable à cette échéance dans les discussions. | Non documenté | Non déterminé | Non estimable | Aucune projection spécifique pour la semaine 2. |
+| **CEP (ECMWF) – projection long terme issue du sujet Semaine 37** (Non dédié à la semaine 2; information indirecte issue des discussions de la semaine 1.) | Retour probable des hautes pressions, blocage des perturbations atlantiques et hausse progressive des températures. | Temps sec, ensoleillé, douceur; incertitude sur de possibles fortes chaleurs. | Toutes zones, surtout moitié sud. | Faible (45%) | Aucune discussion spécifique;simple tendance longue évoquée par les membres après le passage pluvieux. |
+| **GFS – projection long terme issue du sujet Semaine 37** (Non dédié à la semaine 2; information indirecte issue des discussions de la semaine 1.) | Même tendance que le CEP: retour de l’anticyclone, réchauffement progressif, sans certitude sur l’ampleur. | Temps sec, températures en hausse, pas de signal pluvieux franc. | Toutes zones, en particulier la moitié sud. | Faible (45%) | Aucune discussion spécifique; projection à long terme à considérer avec précaution. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps sec, hautes pressions, températures en hausse progressive. | Douceur l'après-midi, gelées improbables. | faible | CEP, GFS | Échéance lointaine sans sujet dédié |
-| **Nord** | Temps sec et stable, températures proches des normales puis en hausse. | Maximales 22-26°C, minimales 12-15°C. | faible | CEP, GFS | Échéance lointaine |
-| **Nord-Est** | Tendance sèche avec hautes pressions, à confirmer. | Non précisé. | faible | CEP, GFS | Aucune information spécifique |
-| **Ouest et Façade Atlantique** | Retour probable des hautes pressions, temps sec et doux. | Maximales 23-27°C, minimales 13-16°C. | faible | CEP, GFS | Échéance lointaine |
-| **Centre** | Tendance anticyclonique, temps sec. | Non précisé. | faible | CEP, GFS | Information très limitée |
-| **Sud-Ouest** | Hautes pressions, temps sec et de plus en plus doux. | Possibilité de températures en hausse, sans excès confirmé. | faible | CEP, GFS | Ampleur de la hausse thermique |
-| **Sud-Est et Vallée du Rhône** | Temps sec et ensoleillé, mistral/tramontane possibles, douceur. | Maximales 25-30°C, minimales 13-18°C. | faible | CEP, GFS | Échéance lointaine |
-| **Méditerranée et Corse** | Temps très sec, ensoleillé, vent de nord-ouest possible. | Chaudes l'après-midi, minimales douces. | faible | CEP, GFS | Position exacte des hautes pressions |
+| **Nord-Ouest** | Retour probable de l'anticyclone, temps sec et éclaircies | Hausse progressive, niveau incertain, douceur | faible | ECMWF, GFS | Ampleur de la remontée thermique |
+| **Nord** | Anticyclone probable, temps sec, éclaircies et douceur progressive | Hausse progressive des températures, niveau incertain | faible | ECMWF, GFS | Intensité du réchauffement et position de l'anticyclone |
+| **Nord-Est** | Retour d'un temps sec, ensoleillé, températures en hausse progressive | Douceur progressive, niveau incertain | faible | ECMWF, GFS | Possibilité de remontées chaudes plus marquées |
+| **Ouest et Façade Atlantique** | Temps sec sous hautes pressions, éclaircies, douceur progressive | Hausse progressive, incertitude sur les maximales | faible | ECMWF, GFS | Retour de chaleurs plus franches possible |
+| **Centre** | Retour probable de l'anticyclone, temps sec, températures en hausse | Douceur progressive, niveau incertain | faible | ECMWF, GFS | Manque de données dédiées pour le Massif Central |
+| **Sud-Ouest** | Hautes pressions, temps sec et ensoleillé, température en hausse progressive | Hausse progressive, possible retour de chaleurs modérées | faible | ECMWF, GFS | Ampleur de la hausse thermique |
+| **Sud-Est et Vallée du Rhône** | Retour de l'anticyclone, temps sec, mistral ou tramontane possibles | Hausse progressive, moins chaud qu'en début de semaine 1 | faible | ECMWF, GFS | Maintien ou non du vent de nord-ouest |
+| **Méditerranée et Corse** | Temps sec et ensoleillé, vent de nord-ouest possible, fraîcheur relative | Températures en hausse progressive, mais modérées | faible | ECMWF, GFS | Régime de vent et niveau des températures |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
+- **Lundi 14 et mardi 15 septembre** : Retour probable de l’anticyclone, temps sec et ensoleillé, douceur.
+- **Mercredi 16 à jeudi 17 septembre** : Hausse progressive des températures, blocage des perturbations atlantiques.
+- **Vendredi 18 et samedi 19 septembre** : Sécheresse persiste, incertitude sur le niveau des températures.
+- **:
+Dimanche 20 septembre** : Scénario incertain, tendance anticyclonique dominante.
 
 **Points solides :**
-- Tendance générale au retour des hautes pressions.
-- Sécheresse non résolue, pas de pluie significative en vue.
+- Forte probabilité d’un retour des hautes pressions sur la France.
+
+
+
+- Pas de signal de pluies significatives pour cette échéance.
+
+
+
+- Températures probablement en hausse progressive, mais sans certitude sur l’intensité.
 
 **Points fragiles :**
-- Absence de sujet dédié sur le forum pour cette semaine.
-- Incertitude sur l'ampleur de la hausse des températures.
+- La semaine 38 n’est pas encore ouverte en discussion sur le forum.
+
+
+
+- La position exacte de l’anticyclone et la trajectoire des perturbations restent inconnues.
+
+
+
+- L’ampleur du réchauffement pourrait varier d’un run à l’autre.
 
 **À surveiller (prochains runs) :**
-Ouverture du sujet Semaine 38 et analyses des runs long terme CEP/GFS (ensembles) pour la semaine du 14 septembre.
+CEP et GFS runs 00Z/12Z; ouverture du sujet Semaine 38 à surveiller.
 
 
 ========================================
@@ -126,27 +181,27 @@ Ouverture du sujet Semaine 38 et analyses des runs long terme CEP/GFS (ensembles
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Après un week-end très chaud, bascule vers une fraîcheur de saison en milieu de semaine 1, pluies faibles et éparses, puis retour probable des hautes pressions et d'une douceur en semaine 2. Sécheresse non résolue.
+Sur 15 jours: week-end très chaud, lundi encore chaud; mardi-mercredi fraîchisse avec pluies faibles; retour anticyclonique et réchauffement progressif en semaine 2, mais sécheresse perdure et incertitude forte.
 
 ### Période la plus fiable
-Semaine 1 (sujet ouvert, échéance plus proche, bulletins officiels disponibles) plus fiable que la semaine 2.
+Semaine 1 (07-13 septembre), sujet forum et bulletins détaillés);la semaine 2 reste spéculative.
 
 ### Phénomènes récurrents
-Sécheresse persistante, mistral/tramontane sur le sud-est, forts contrastes thermiques entre matin et soir.
+Anticyclone persistant sur l’Atlantique ou proche Atlantique; blocage des perturbations; sécheresse des sols; mistral/tramontane possibles sur le sud-est.
 
 ### Principales incertitudes
-Cumuls de pluie très incertains ; intensité de la hausse des températures en semaine 2 ; absence de sujet dédié pour la semaine 38.
+Localisation et cumuls des pluies; intensité de la remontée thermique en semaine 2; comportement du pourtour méditerranéen.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la chronologie exacte du passage pluvieux et sur la durée de la fraîcheur.
-- **Localisation :** Localisation des pluies très incertaine, notamment entre le sud-ouest, le nord et le nord-est.
-- **Intensité :** Incertitude sur les cumuls de pluie (de quelques mm à plus de 40 mm selon les scénarios pour Paris) et sur l'ampleur de la remontée des températures en semaine 2.
-- **Informations manquantes :** Aucune discussion dédiée pour la semaine 2 ; informations manquantes sur le vent dans la plupart des zones, sur la Corse et le Languedoc-Roussillon pour la semaine 1.
-- **Modèles sous-documentés :** ICON, UKMO et ARPEGE ne sont que brièvement cités, sans analyse détaillée.
-- **Incertitudes images :** Les cartes de cumuls postées sur le forum ne sont pas toutes datées, avec des échelles différentes, rendant la comparaison délicate.
+- **Timing/Chronologie :** Le passage pluvieux, attendu entre mardi 8 et mercredi 9, pourrait arriver plus tôt ou plus tard, les modèles évoluant de run en run.
+- **Localisation :** La localisation exacte des pluies est incertaine: axe Pays basque-Ardennes, nord-est, sud-ouest? Le pourtour méditerranéen pourrait rester sec.
+- **Intensité :** Les quantités de pluie sont très incertaines; la remontée des températures en semaine 2 pourrait être modérée ou marquée.
+- **Informations manquantes :** Pas de sujet dédié pour la semaine 2; pas de données précises de vent pour le nord-ouest et le nord-est; pas de consensus sur les cumuls.
+- **Modèles sous-documentés :** UKMO et Arpège ne sont que listés sans analyse approfondie; ICON n’est commenté que jusqu’à mercredi.
+- **Incertitudes images :** Les cartes de cumuls de CEP ont nettement évolué entre les runs; il faut attendre consolidation.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌦️ La France bascule vers un temps de saison cette semaine, après un week-end de fortes chaleurs. Pluies faibles mais réelles au nord et au sud-ouest, fraîcheur en milieu de semaine, puis probable retour des hautes pressions. La sécheresse reste préoccupante, surtout sur le pourtour méditerranéen. Les prévisions pour la semaine suivante sont encore incertaines. #Météo #Prévisions #Sécheresse
+🌡️ Après un week-end très chaud, la France s’achemine vers une baisse des températures en milieu de semaine prochaine. Mais les pluies attendues resteront faibles et ne résoudront pas la sécheresse. Ensuite, l’anticyclone pourrait revenir, avec un temps sec et une douceur progressive. La semaine du 14 au  ​20 septembre est encore très incertaine: le sujet prévisionnel n’est pas ouvert sur Infoclimat et les modèles doivent être suivis. Prudence!#Météo #Prévisions #Sécheresse #Climat
