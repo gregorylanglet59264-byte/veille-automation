@@ -1,121 +1,128 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
-**Généré le :** Vendredi 4 Septembre 2026
-**Période :** Semaine 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) & Semaine 2 (Du Lundi 14 au Dimanche 20 Septembre 2026)
+**Généré le :** Samedi 5 Septembre 2026
+**Période :** Semaine 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) & Semaine 2 (Du Lundi 14 au Dimanche 20 Septembre 2026
+
+⚠️ TRANSPARENCE : Le sujet spécifique de la Semaine 38 n’est pas encore ouvert sur le forum Infoclimat. L’analyse ci-dessous s’appuie uniquement sur les projections à long terme extraites du sujet Semaine 37. Aucune discussion fictive n’a été utilisée.)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la fraîcheur, désaccord sur les pluies.*
-- **Fiabilité du scénario majoritaire :** Chaleur finissante, flux d’ouest — *Bascule thermique nette autour du 8, pluies limitées.*
+- **Consensus des modèles :** Modéré — *Bon accord sur la baisse thermique, faible sur les cumuls.*
+- **Fiabilité du scénario majoritaire :** Bascule océanique — *Fin de la chaleur, retour des averses faibles à modérées.*
 - **Stabilité des cartes/scénarios :** 6 / 104 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Forte en semaine 2 — *Sujet S38 non ouvert, dispersion des modèles.*
+- **Niveau d'incertitude global :** Forte en semaine 2 — *Le sujet Semaine 38 n’étant pas ouvert, toute prévision au-delà du 13 est à prendre avec précaution.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 7 au Dimanche 13 Septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Fin de la chaleur : Baisse thermique nette à partir de mardi 8, retour près des normales de saison pour les HDF.
-2. Pluies modestes : Risque de pluies/averses mardi-mercredi puis jeudi-vendredi, cumuls faibles à modérés.
-3. Dimanche très doux : Pic de chaleur localement 29-30°C dans le sud de l’Oise et l’Aisne avant la bascule.
-4. Vent littoral : Rafales de 55 km/h possibles lundi après-midi en Flandre maritime, Calaisis et Picardie maritime.
-5. Semaine contrastée : Temps encore souvent sec lundi, puis flux d’ouest plus humide et plus frais.
+1. Dernière journée chaude : Lundi 7 encore largement ensoleillé, avec 24 à 28°C selon les départements.
+2. Bascule thermique nette : Dès mardi 8, retour à des températures de saison, autour de 18-21°C.
+3. Vent littoral sensible : Rafales attendues lundi à 55-65 km/h sur le littoral du Nord, du Pas-de-Calais et de la Somme.
+4. Averses faibles à modérées : Temps instable de mardi à dimanche, sans excès ni phénomène violent.
+5. Oise et Aisne en retrait : Ces départements devraient être moins arrosés, avec des éclaircies plus généreuses.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Baisse thermique nette après le 8 septembre : tous les modèles s’accordent sur la fin de la chaleur.
-2. Passage à un flux d’ouest/nord-ouest, mais sans talweg majeur : pluies faibles à modérées.
-3. Dimanche 6 et lundi 7 encore doux, parfois chaud, avant la dégradation.
+- Convergence 1 : Baisse thermique nette à partir de mardi 8, avec retour proche des normales de saison.
+- Convergence 2 : Flux d’ouest/sud-ouest modéré, renforcé sur le littoral.
+- Convergence 3 : Risque d’averses faibles à modérées entre mardi et dimanche, sans excès.
 **Points de divergence :**
-1. Intensité et durée des pluies : CEP un peu plus humide pour le Nord, GFS plus sec.
-2. Localisation des averses : littoral plus exposé, intérieur de l’Oise/Aisne plus épargné.
-3. Fin de semaine 13 : possible retour d’éclaircies ou persistance d’un régime d’averses.
+- Divergence 1 : Cumuls de pluie incertains : signaux faibles à modérés, certains scénarios restant très secs.
+- Divergence 2 : Localisation des averses : littoral plus arrosé, Oise et Aisne en marge.
+- Divergence 3 : Échéance exacte de la bascule : lundi soir ou mardi matin selon les modèles.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Météo-France XML 22SPC / bulletins départementaux** (Officiel) | Temps sec et doux samedi/dimanche, puis risque de pluies/averses de mardi à dimanche avec températures en baisse. | Rafales 55 km/h lundi sur le littoral ; pluies faibles à modérées mardi-mercredi. | Nord, Pas-de-Calais, Somme, Oise, Aisne. | elevee | Ciel dégagé samedi, dimanche voilé et chaud, lundi vent assez fort sur le littoral, puis mardi-mercredi pluies/averses et jeudi-vendredi risque persistant. Fin de semaine sous flux d’ouest modéré. |
-| **ECMWF (CEP)** (Commenté) | Baisse thermique actée après le 8, flux d’ouest, pluies faibles à modérées ; quelques signaux humides sur le nord. | Averses possibles du 8 au 11 ; températures proches des normales ; pas de coup de vent majeur. | France, dont moitié nord ; HDF concernés par une humidification limitée. | moderee | Le CEP montre une évolution positive des cumuls, avec une petite humidification sur le Nord. Les médianes restent proches de 15-20 mm sur une semaine ; le signal thermique est plus robuste que le signal pluvieux. |
-| **GFS (américain)** (Commenté) | Changement de masse d’air validé, anomalies négatives à 850 hPa à long terme ; pluies modestes. | Forte baisse des températures jeudi ; quelques signaux de pluie, surtout proches du sud-ouest. | France ; HDF en bordure des pluies possibles, notamment à l’ouest. | moderee | GFS valide la bascule synoptique vers un flux d’ouest/nord-ouest. Les cumuls prévus pour les HDF restent modestes, avec une confiance plus faible sur les pluies que sur les températures. |
-| **ICON (allemand)** (Peu documenté) | Pluies possibles dans le sud-ouest, aucune certitude pour le nord ; course limitée à mercredi. | Quelques pluies faibles en début de semaine ; fraîcheur en fin de course. | Sud-ouest principalement ; HDF non détaillés. | faible | ICON voit quelques pluies dans le sud-ouest, mais ne permet pas de conclure pour les Hauts-de-France. |
-| **Guillaume Séchet / Météo-Villes** (Mentionné) | Annonce un retour des pluies en semaine 1 selon le modèle européen, avec cumuls probablement faibles. | Pluies faibles, fraîcheur, pas de dégradation majeure. | France, axe Pays basque-Ardennes ; HDF possiblement en marge. | faible | Guillaume Séchet est cité pour un retour des pluies. Les membres restent prudents et soulignent la faiblesse probable des cumuls sur une grande partie du pays. |
+| **Météo-France (bulletins départementaux XML)** (Confirmé) | Beau lundi, puis bascule mardi : flux d’ouest, averses faibles à modérées et températures en nette baisse jusqu’à dimanche. | Rafales 55-65 km/h sur le littoral lundi ; averses mercredi et vendredi ; fraîcheur 18-21°C. | Nord, Pas-de-Calais, Somme (littoral) ; Oise et Aisne plus épargnés par les averses. | Élevée (80-90%) | Prévisions détaillées par département : risque de pluies ou d’averses quasi quotidien de mardi à dimanche, vent modéré à assez fort sur le littoral, températures maximales stabilisées autour de 19-21°C. |
+| **ECMWF (CEP)** (En consolidation) | Baisse des températures confirmée après le 8 ; signal pluie faible à modéré, en amélioration sur le pays mais incertain sur le Nord. | Retour à des valeurs de saison ; quelques averses possibles, sans fortes pluies. | France nord et centre ; pour HDF : littoral et intérieur de manière homogène. | Modérée (60-70%) | Le CEP montre une amélioration des cumuls à l’échelle nationale, mais le pourtour méditerranéen reste sec ; pour les Hauts-de-France, les cumuls prévus restent modestes. |
+| **GFS (américain)** (En cours de validation) | Changement de masse d’air acté : jeudi plus frais à 850 hPa, flux d’ouest/nord-ouest ; pluies encore limitées. | Nette baisse des températures ; quelques précipitations possibles près du littoral. | Nord-ouest de l’Europe ; toutes les Hauts-de-France concernées par la baisse thermique. | Modérée (60-70%) | Le déterministe GFS a nettement fraîchi par rapport aux runs précédents, confirmant la fin de la chaleur ; les anomalies 850 hPa passent en négatif sur la France mais la fiabilité au-delà de J+7 reste limitée. |
+| **ICON (allemand)** (Non déterminant) | À court terme, quelques pluies sur le sud-ouest ; pas de signal franc pour les Hauts-de-France avant mercredi. | Temps plus frais, averses locales possibles en fin d’échéance. | Sud-ouest et proche Méditerranée ; HDF non précisément concernés. | Faible (40-50%) | ICON ne couvre que le début de semaine et montre une amélioration des précipitations dans le sud-ouest, sans être exploitable pour une synthèse HDF fiable. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Soleil dimanche puis ciel variable ; pluies/averses à partir de mardi. | Min 10-16°C, Max 19-27°C selon les jours. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Intensité des pluies variable selon les scénarios ; littoral plus venté. |
-| **Pas-de-Calais (62)** | Belles éclaircies dimanche, puis temps océanique frais et averses mardi-vendredi. | Min 8-16°C, Max 18-26°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls faibles à modérés, plus incertains en fin de semaine. |
-| **Somme (80)** | Soleil samedi/dimanche, voile nuageux lundi ; dégradation mardi-mercredi puis averses. | Min 9-15°C, Max 18-26°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Ponthieu et Vimeu plus frais et ventés ; cumuls incertains. |
-| **Oise (60)** | Ensoleillé dimanche avec chaleur, puis ciel variable et fraîcheur ; averses temporaires. | Min 9-17°C, Max 19-27°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Pays de Bray et Picardie verte un peu plus frais ; averses irrégulières. |
-| **Aisne (02)** | Très chaud dimanche, puis nette baisse lundi soir/mardi ; éclaircies et averses temporaires. | Min 9-17°C, Max 19-29°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Variations locales selon le relief ; scénarios de cumuls encore divergents. |
+| **Nord (59)** | Doux et très ensoleillé lundi, puis ciel nuageux avec averses faibles à modérées de mardi à dimanche. | Min 10-15°C selon littoral/intérieur ; max 19-27°C (lundi 24-27, puis 19). | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls des averses très incertains ; vent sensible surtout sur le littoral. |
+| **Pas-de-Calais (62)** | Soleil voilé lundi, puis temps instable avec passages nuageux et averses ; fraîcheur marquée ensuite. | Min 11-14°C ; max 18-24°C (lundi 21-24, puis 18-20). | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls incertains ; intensité du vent côtier à surveiller. |
+| **Somme (80)** | Ensoleillé lundi, puis ciel de traîne océanique avec averses faibles à modérées jusqu’à dimanche. | Min 11-15°C ; max 18-26°C (lundi 22-26, puis 18-20). | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Cumuls des averses modestes ; vent côtier parfois fort. |
+| **Oise (60)** | Beau temps lundi, puis alternance d’éclaircies et de passages nuageux avec averses temporaires ; fraîcheur de saison. | Min 9-11°C ; max 19-27°C (lundi 25-27, puis 19). | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Averses plus temporaires ; cumuls très faibles possibles. |
+| **Aisne (02)** | Temps clair lundi, puis nuageux avec éclaircies et averses temporaires ; tendance plus sèche en fin de semaine. | Min 9-11°C ; max 19-28°C (lundi 26-28, puis 19-21). | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Temps souvent plus sec que sur le littoral ; cumuls incertains. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 7 septembre** : Matinée ensoleillée, ciel voilé l’après-midi, vent d’ouest assez fort sur le littoral.
-- **Mardi 8 au mercredi 9 septembre** : Forte fraîcheur, pluies/averses possibles, températures maximales autour de 19°C.
-- **Jeudi 10 au vendredi 11 septembre** : Régime d’averses faibles, vent d’ouest modéré, fraîcheur de saison.
-- **Samedi 12 au dimanche 13 septembre** : Risque de pluies/averses en atténuation, températures stables.
+- **Lundi 07 septembre** : Encore chaud et ensoleillé, avec un vent d’ouest qui se renforce sur le littoral en fin de journée.
+- **Mardi 08 et mercredi 09 septembre** : Bascule franche : ciel nuageux, averses, températures maximales en baisse vers 18-20°C.
+- **Jeudi 10 et vendredi 11 septembre** : Régime océanique : averses possibles, vent modéré, fraîcheur de saison.
+- **Samedi 12 et dimanche 13 septembre** : Averses en atténuation, éclaircies de plus en plus larges, températures stables.
 
 **Points solides :**
-1. Dimanche 6 et lundi 7 encore doux, avec 25-30°C possibles selon les secteurs, avant la bascule.
-2. Mardi 8 et mercredi 9 : temps plus frais, pluies/averses possibles, vent modéré.
-3. Rafales littorales lundi 7 (55 km/h) et coups de vent locaux mercredi/vendredi sur les côtes.
+- Lundi 7 encore doux et ensoleillé, avec 24 à 28°C selon les départements.
+- Bascule thermique confirmée entre mardi et mercredi, retour aux normales.
+- Rafales littorales lundi : 55 à 65 km/h sur le littoral nord.
 
 **Points fragiles :**
-1. Cumuls exacts des pluies : faibles ou modérés, selon les scénarios.
-2. Éclaircies de jeudi-vendredi : plus ou moins présentes selon les départements.
-3. Fin de semaine 12-13 : dégradation ou retour sec encore incertain.
+- Cumuls exacts des averses de mardi à dimanche.
+- Persistance des pluies samedi 12 et dimanche 13.
+- Intensité et localisation précises du vent lundi sur le littoral.
 
 **À surveiller (prochains runs) :**
-À surveiller pour HDF : CEP 12Z, GFS 12Z, ICON, AROME pour le littoral lundi, et les ensembles pour la fin de semaine.
+- CEP et GFS 12Z du 05/09, puis runs de dimanche 06 et lundi 07 pour affiner le passage pluvieux de mardi.
+- Évolution de la dorsale atlantique pour la fin de semaine.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 14 au Dimanche 20 Septembre 2026
+
+⚠️ TRANSPARENCE : Le sujet spécifique de la Semaine 38 n’est pas encore ouvert sur le forum Infoclimat. L’analyse ci-dessous s’appuie uniquement sur les projections à long terme extraites du sujet Semaine 37. Aucune discussion fictive n’a été utilisée.
 ### 💡 Points clés de la semaine 2
-1. Prolongement de fraîcheur : Les températures devraient rester proches des normales, sans nouveau pic de chaleur.
-2. Pluies incertaines : Les projections long terme évoquent des pluies faibles et irrégulières, sans certitude.
-3. Sujet S38 absent : Le forum n’a pas encore ouvert les discussions ; prudence maximale sur cette semaine.
+1. Semaine sous surveillance : Le sujet Semaine 38 n’étant pas ouvert, les tendances sont très incertaines.
+2. Probablement de saison : Températures proches des normales, sans pic de chaleur durable.
+3. Pluies toujours limitées : Les projections long terme ne montrent pas de retour franc des précipitations.
+4. Blocage à confirmer : La position de la dorsale atlantique décidera du sort de la semaine.
+5. Prudence absolue : Aucun scénario fiable pour le Nord, le Pas-de-Calais, la Somme, l’Oise et l’Aisne.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Températures plus fraîches que la semaine 1, proches des normales de mi-septembre.
-2. Pas de signal de précipitations durables ni orageuses.
-3. Régime de flux d’ouest dominant, sans talweg majeur bien dessiné.
+- Convergence 1 : Températures de saison, sans canicule.
+- Convergence 2 : Poursuite d’un flux océanique d’ouest/nord-ouest modéré.
+- Convergence 3 : Pas de signal de fortes précipitations.
 **Points de divergence :**
-1. Scénario sec et anticyclonique vs scénario humide et dégradé.
-2. Localisation des pluies : littoral ou intérieur.
-3. Remontée possible des températures en fin de semaine.
+- Divergence 1 : Maintien d’un blocage sec possible, ou retour d’un talweg plus humide.
+- Divergence 2 : Cumuls de pluie très incertains, de 0 à plus de 20 mm selon les projections.
+- Divergence 3 : Températures légèrement sous ou proches des normales.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (projection long terme, sujet S38 non ouvert)** (Non commenté (sujet S38 non ouvert)) | Poursuite du flux d’ouest/nord-ouest après le 14 ; températures de saison, pluies faibles et irrégulières. | Averses océaniques faibles ; pas de coup de chaleur ni de pluie durable. | Nord de la France ; HDF concernés mais sans précision locale. | Non estimable | Le CEP long terme suggère un temps océanique plutôt frais, mais la fiabilité est très faible. Aucun membre n’a commenté spécifiquement cette semaine sur le forum. |
-| **GFS (projection long terme, sujet S38 non ouvert)** (Non commenté (sujet S38 non ouvert)) | Anomalies négatives à 850 hPa à long terme ; signaux pluvieux modestes, scénarios secs encore possibles. | Températures en léger sous-régime, pluies faibles et mal localisées. | France ; HDF en marge des axes pluvieux potentiels. | Non estimable | GFS montre une possible poursuite de la fraîcheur, mais avec une grande dispersion. Il est impossible de préciser la répartition des pluies sur les Hauts-de-France. |
+| **ECMWF / GFS (projections long terme du sujet Semaine 37)** (Très incertain / provisoire) | Pas de signal franc de changement de régime ; poursuite possible d’un temps sec et anticyclonique sur l’Europe, flux d’ouest faible sur le Nord. | Temps calme, fraîcheur de saison, averses faibles possibles ; pas de fortes pluies. | Toute la région HDF, avec une incertitude plus forte sur les cumuls. | Faible (40-50%) - sujet dédié non ouvert | Les discussions du sujet Semaine 37 laissent entrevoir un possible maintien d’un temps sec au-delà du 15, mais sans consensus. La baisse des températures paraît durable, mais le retour des pluies reste très incertain sur les Hauts-de-France. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Tendance très incertaine : temps océanique probable, frais, avec pluies faibles et irrégulières. | Min 8-14°C, Max 17-24°C selon les scénarios. | faible | ECMWF, GFS, Guillaume Séchet, ITN 14 jours | Sujet S38 non ouvert ; dispersion importante des modèles ; localisation des pluies très incertaine. |
-| **Pas-de-Calais (62)** | Tendance très incertaine : temps océanique probable, frais, avec pluies faibles et irrégulières. | Min 8-14°C, Max 17-23°C selon les scénarios. | faible | ECMWF, GFS, Guillaume Séchet, ITN 14 jours | Sujet S38 non ouvert ; scénarios secs ou humides encore possibles. |
-| **Somme (80)** | Tendance très incertaine : temps océanique probable, frais, avec pluies faibles et irrégulières. | Min 8-14°C, Max 17-24°C selon les scénarios. | faible | ECMWF, GFS, Guillaume Séchet, ITN 14 jours | Sujet S38 non ouvert ; position exacte des perturbations inconnue. |
-| **Oise (60)** | Tendance très incertaine : temps océanique probable, frais, avec pluies faibles et irrégulières. | Min 8-14°C, Max 18-24°C selon les scénarios. | faible | ECMWF, GFS, Guillaume Séchet, ITN 14 jours | Sujet S38 non ouvert ; les scénarios anticycloniques ne sont pas exclus. |
-| **Aisne (02)** | Tendance très incertaine : temps océanique probable, frais, avec pluies faibles et irrégulières. | Min 8-14°C, Max 18-24°C selon les scénarios. | faible | ECMWF, GFS, Guillaume Séchet, ITN 14 jours | Sujet S38 non ouvert ; forte dispersion des modèles long terme. |
+| **Nord (59)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Pas-de-Calais (62)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Somme (80)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Oise (60)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Aisne (02)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 14 au mercredi 16 septembre** : Flux d’ouest probable, températures de saison, pluies faibles.
-- **Jeudi 17 au vendredi 18 septembre** : Incertitude élevée ; possibilité d’averses ou d’accalmie.
-- **Samedi 19 au dimanche 20 septembre** : Aucun scénario fiable ; anticyclone ou retour humide encore possibles.
-- **Non définissable à ce jour** : Prudence renforcée.
+- **Lundi 14 et mardi 15 septembre** : Scénario le plus probable : temps sec et calme, températures de saison.
+- **Mercredi 16 et jeudi 17 septembre** : Incertitude sur d’éventuelles averses faibles sous flux d’ouest.
+- **Vendredi 18 et samedi 19 septembre** : Possibilité d’un renforcement du flux océanique, à confirmer.
+- **Dimanche 20 septembre** : Fin de semaine encore très indéterminée.
 
 **Points solides :**
-1. Le signal thermique frais est plus robuste que le signal pluvieux.
-2. Aucun épisode caniculaire n’est prévu du 14 au 20 septembre.
-3. Prudence : sujet S38 non ouvert, prévisions long terme à considérer avec précaution.
+- Fin de la chaleur durable.
+- Pas de phénomène dangereux en vue.
+- Incertitude élevée obligeant à attendre l’ouverture du sujet Semaine 38.
 
 **Points fragiles :**
-1. Cumuls et localisation précise des pluies.
-2. Tendance du week-end des 19-20 septembre.
-3. Possible retour d’un anticyclone sec en fin de semaine.
+- Tout le détail prévisionnel de la semaine 2.
+- Cumuls de pluie.
+- Éventuels renforcements de vent.
 
 **À surveiller (prochains runs) :**
-Ouverture du sujet S38, CEP/GFS long terme, ARPEGE, UKMO et ICON à plus longue échéance.
+- Ouverture du sujet Semaine 38 sur Infoclimat.
+- Runs CEP/GFS 0Z/12Z du 06 au 08/09.
+- Suivi de la dorsale atlantique.
 
 
 ========================================
@@ -123,32 +130,27 @@ Ouverture du sujet S38, CEP/GFS long terme, ARPEGE, UKMO et ICON à plus longue 
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Deux semaines contrastées : chaleur résiduelle jusqu’à lundi 7, puis bascule vers un temps plus frais et océanique. Pluies faibles à modérées entre mardi 8 et dimanche 13. La semaine du 14 au 20 reste très incertaine, probablement de saison, sans excès.
+Deux semaines contrastées : chaleur résiduelle jusqu’à lundi 7, puis fraîchissement et averses faibles à modérées jusqu’au 13 ; semaine du 14 au 20 incertaine, probablement de saison et plutôt sèche.
 
 ### Période la plus fiable
-Semaine 1 : du lundi 7 au dimanche 13 septembre, grâce aux bulletins Météo-France XML et aux discussions forum.
+Semaine 1 (7-13 septembre) : confiance modérée à élevée grâce aux bulletins Météo-France détaillés.
 
 ### Phénomènes récurrents
-Rafales littorales, averses faibles, ciel voilé, amplitude thermique marquée.
+Rafales de vent d’ouest sur le littoral ; averses faibles ; blocage anticyclonique possible en semaine 2.
 
 ### Principales incertitudes
-Semaine 2, cumuls précis, position des perturbations, timing des éclaircies.
+Cumuls des pluies de mardi à dimanche ; scénario de la semaine 2 ; évolution de la dorsale atlantique.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** La bascule thermique est bien calée autour du 8 septembre. En revanche, le timing précis des pluies mardi-mercredi par rapport à jeudi-vendredi reste incertain.
-- **Localisation :** Les discussions forum sont surtout nationales et méditerranéennes. Pour les HDF, les bulletins XML départementaux sont la source locale la plus fiable, mais la répartition exacte des averses littoral/intérieur reste incertaine.
-- **Intensité :** Les cumuls attendus sont faibles à modérés, avec des rafales ponctuelles de 55 km/h. Aucun orage franc n’est prévu, mais l’intensité des pluies de fin de semaine n’est pas tranchée.
-- **Informations manquantes :** Il manque le sujet S38, les cartes d’ensembles détaillées, les bulletins Météo-France au-delà du 13/09 et les commentaires ARPEGE/UKMO.
-- **Modèles sous-documentés :** ICON peu documenté, ARPEGE non commenté, UKMO non commenté, GEM non commenté. Guillaume Séchet n’est mentionné que de façon critique et générale.
-- **Incertitudes images :** Les graphiques évoqués dans les discussions ne sont pas fournis ici. Les descriptions sont donc interprétées avec prudence.
+- **Timing/Chronologie :** Doutes sur l’arrivée exacte des averses mardi et sur leur durée jusqu’au dimanche 13.
+- **Localisation :** Doutes sur la répartition littoral/intérieur : rafales et cumuls difficiles à localiser précisément, Oise et Aisne possiblement moins arrosés.
+- **Intensité :** Cumuls incertains, signaux faibles à modérés ; risque d’orages très faible sur les HDF.
+- **Informations manquantes :** Sujet Semaine 38 non ouvert ; bulletins Météo-France au-delà du 13 non disponibles ; indices CAPE/LI et données Keraunos non chiffrés pour les HDF.
+- **Modèles sous-documentés :** ICON peu commenté ; GFS et CEP évoqués à l’échelle nationale, pas spécifiquement pour les Hauts-de-France.
+- **Incertitudes images :** Cartes de cumuls CEP/GFS issues du forum national, échéances lointaines, pas de zoom HDF fiable.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌦️ Bulletin HDF – Semaines du 7 au 20 septembre
-✅ Le signal le plus robuste : la fin de la chaleur durable.
-🌧️ Semaine 1 : pluies faibles à modérées, surtout mardi-mercredi puis jeudi-vendredi.
-💨 Rafales littorales possibles lundi, jusqu’à 55 km/h.
-⏳ Semaine 2 : très incertaine, sujet forum pas encore ouvert, prudence.
-#Météo #HautsDeFrance #Nord #PasDeCalais #Somme #Oise #Aisne #Prévisions #MonsieurMétéo
+🌦️ Bulletin météo Hauts-de-France – 7 au 20 septembre 2026. Lundi 7 encore doux et ensoleillé (24 à 28°C), puis bascule vers un temps plus frais et océanique : averses faibles à modérées, rafales à 55-65 km/h sur le littoral. La semaine du 14 au 20 est très incertaine (sujet forum pas encore ouvert). Suivez l’évolution avec prudence ! #Météo #HautsDeFrance #Prévisions #ChangementDeTemps
