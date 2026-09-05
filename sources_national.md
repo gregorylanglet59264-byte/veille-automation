@@ -334,11 +334,11 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : El Ni&#xF1;o - La Ni&#xF1;a
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -347,29 +347,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 5 Septembre 2026.
-Résumé général précédent : Un week-end très chaud laisse place à une fraîcheur de saison probable à partir du 9-10 septembre. Les pluies resteront faibles et mal réparties ; le sud-est demeure très sec. La semaine du 14 au 20 septembre est très incertaine, faute de sujet forum ouvert..
+Résumé général précédent : Baisse générale des températures vers des valeurs de saison, avec un flux d'ouest plus actif. Sécheresse méditerranéenne préoccupante..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur lundi/mardi sur le sud-est, fraîcheur mercredi/jeudi, mistral/tramontane..
+Températures attendues précédemment : Changement de masse d'air à partir de mercredi, fraîcheur, pluies faibles à modérées localement..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Bon on allume le chauffage jeudi ? 🤣
-	Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
-	Températures jeudi à 14h :
-	Encore beaucoup d'ajustements à prévoir pour les modèles mais le changement de masse d'air semble acté même pour l'américain qui avait du mal il y a quelques runs à valider complètement le changement de synoptique. 
-	La suite je la poste avec  beaucoup de reserves avec des anomalies à 850 Hpa modélisées toujours par le meme modèle, pour le plaisir de voir enfin du bleu à long terme sur la France, mais on connaît la fiabilité à si long terme :
-	Pour moi le plus important maintenant c'est qu'il pleuve sur notre pays et la ce n'est pas gagné pour le début du topic :
-	Peut-être mieux pour la fin du topic ?
-	A suivre
-	Modifié jeudi à 16:53 par petit âge glaciaire 11
-								8
-								2
-								1
-
-=======================
-
 Auteur: cédric du Lot
 Message:
 Il y a 2 heures, petit âge glaciaire 11 a dit :
@@ -433,7 +416,7 @@ Il y a 17 heures, cédric du Lot a dit :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 12:35 par petit âge glaciaire 11
 Modifié
 								1
 
@@ -455,7 +438,7 @@ il y a 31 minutes, petit âge glaciaire 11 a dit :
 			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié il y a 23 heures par Brice3411
+	Modifié hier à 12:19 par Brice3411
 								1
 								1
 
@@ -467,7 +450,7 @@ il y a 16 minutes, Brice3411 a dit :
 			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
 	oui, Hergé a su admirablement illustrer ces fameux mirages...
 	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié il y a 23 heures par giec 2100
+	Modifié hier à 12:33 par giec 2100
 								1
 								1
 
@@ -484,7 +467,7 @@ il y a 29 minutes, giec 2100 a dit :
 	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
 	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
 	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
-	Modifié il y a 22 heures par petit âge glaciaire 11
+	Modifié hier à 13:04 par petit âge glaciaire 11
 Modifié
 								4
 								3
@@ -496,7 +479,7 @@ Message:
 Petite "humidification" sur le Nord et encore bien sec pour cette semaine du 7 septembre 
 	PS : c'est la rentrée des classes sur le forum Convivialités, venez remporter le diplôme de "Major des Prévisions" ici.
 	Au menu : des mises, un bulletin de notes sur 20, et un seul gagnant en fin de saison  👇
-								1
+								2
 
 =======================
 
@@ -520,7 +503,7 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 18 heures par tao
+	Modifié il y a 20 heures par tao
 								16
 								2
 								4
@@ -533,7 +516,7 @@ il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où son
 	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
 	donc idem pour les mitaines et cache-nez...
 	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								1
 
 =======================
@@ -572,7 +555,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								3
+								7
 
 =======================
 
@@ -581,25 +564,28 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
+								4
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Il y a 1 heure, tao a dit :
+			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
+	Oui les modèles, dont GFS, essaient de s'accorder sur ce passage pluvieux entre mardi et mercredi.  C'est encore flou pour la localisation et les quantités entre les modèles et parfois même pour chaque modèle,  mais rien de plus normal à ces échéances. 
+	Il semble néanmoins probable que certaines régions auront des pluies.
+	Biensur, cela ne va pas enrayer la sécheresse qui est à un niveau catastrophique après cet étécaniculaire et excessivement sec, mais on prendra ce qu'il y aura à prendre. 
+	En effet , malheureusement,  il semble que les hautes pressions aient tendance à revenir ensuite sur la France,  avec un nouveau blocage des perturbations atlantiques et sans doute une augmentation progressive des températures sans qu'on sache si elles vont de nouveau etre  encore excessives.
+	Arpège :
+	GFS :
+	Ukmo :
+	Icon
+	CEP:
+	Modifié il y a 1 heure par petit âge glaciaire 11
+Modifié
+								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Bon on allume le chauffage jeudi ? 🤣
-	Le déterministe de GFS qui vient de sortir est bien frais par rapport au précédent.
-	Températures jeudi à 14h :
-	Encore beaucoup d'ajustements à prévoir pour les modèles mais le changement de masse d'air semble acté même pour l'américain qui avait du mal il y a quelques runs à valider complètement le changement de synoptique. 
-	La suite je la poste avec  beaucoup de reserves avec des anomalies à 850 Hpa modélisées toujours par le meme modèle, pour le plaisir de voir enfin du bleu à long terme sur la France, mais on connaît la fiabilité à si long terme :
-	Pour moi le plus important maintenant c'est qu'il pleuve sur notre pays et la ce n'est pas gagné pour le début du topic :
-	Peut-être mieux pour la fin du topic ?
-	A suivre
-	Modifié jeudi à 16:53 par petit âge glaciaire 11
-								8
-								2
-								1
-
-=======================
-
 Auteur: cédric du Lot
 Message:
 Il y a 2 heures, petit âge glaciaire 11 a dit :
@@ -663,7 +649,7 @@ Il y a 17 heures, cédric du Lot a dit :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 12:35 par petit âge glaciaire 11
 Modifié
 								1
 
@@ -685,7 +671,7 @@ il y a 31 minutes, petit âge glaciaire 11 a dit :
 			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié il y a 23 heures par Brice3411
+	Modifié hier à 12:19 par Brice3411
 								1
 								1
 
@@ -697,7 +683,7 @@ il y a 16 minutes, Brice3411 a dit :
 			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
 	oui, Hergé a su admirablement illustrer ces fameux mirages...
 	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié il y a 23 heures par giec 2100
+	Modifié hier à 12:33 par giec 2100
 								1
 								1
 
@@ -714,7 +700,7 @@ il y a 29 minutes, giec 2100 a dit :
 	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
 	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
 	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
-	Modifié il y a 22 heures par petit âge glaciaire 11
+	Modifié hier à 13:04 par petit âge glaciaire 11
 Modifié
 								4
 								3
@@ -726,7 +712,7 @@ Message:
 Petite "humidification" sur le Nord et encore bien sec pour cette semaine du 7 septembre 
 	PS : c'est la rentrée des classes sur le forum Convivialités, venez remporter le diplôme de "Major des Prévisions" ici.
 	Au menu : des mises, un bulletin de notes sur 20, et un seul gagnant en fin de saison  👇
-								1
+								2
 
 =======================
 
@@ -750,7 +736,7 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 18 heures par tao
+	Modifié il y a 20 heures par tao
 								16
 								2
 								4
@@ -763,7 +749,7 @@ il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où son
 	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
 	donc idem pour les mitaines et cache-nez...
 	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié il y a 15 heures par giec 2100
+	Modifié il y a 17 heures par giec 2100
 								1
 
 =======================
@@ -802,7 +788,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								3
+								7
 
 =======================
 
@@ -811,3 +797,23 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
+								4
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Il y a 1 heure, tao a dit :
+			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
+	Oui les modèles, dont GFS, essaient de s'accorder sur ce passage pluvieux entre mardi et mercredi.  C'est encore flou pour la localisation et les quantités entre les modèles et parfois même pour chaque modèle,  mais rien de plus normal à ces échéances. 
+	Il semble néanmoins probable que certaines régions auront des pluies.
+	Biensur, cela ne va pas enrayer la sécheresse qui est à un niveau catastrophique après cet étécaniculaire et excessivement sec, mais on prendra ce qu'il y aura à prendre. 
+	En effet , malheureusement,  il semble que les hautes pressions aient tendance à revenir ensuite sur la France,  avec un nouveau blocage des perturbations atlantiques et sans doute une augmentation progressive des températures sans qu'on sache si elles vont de nouveau etre  encore excessives.
+	Arpège :
+	GFS :
+	Ukmo :
+	Icon
+	CEP:
+	Modifié il y a 1 heure par petit âge glaciaire 11
+Modifié
+								3
