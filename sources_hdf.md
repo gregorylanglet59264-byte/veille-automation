@@ -281,7 +281,7 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse sur le Tardenois.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 051010 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 5 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 5 septembre 2026 à 06H00 UTC, et évolution Anticyclone 1025 sur la Bretagne, se décalant vers l'est, prévu 1028 hPa sur la Belgique cette nuit, puis 1029 hPa sur l'Allemagne dimanche matin. Dépression au sud de l'Islande avec thalweg 1016 hPa s'étendant jusqu'au fond du Golfe de Gascogne ce soir, prévu en entrée de Manche dimanche après-midi. 3 - Prévisions pour l'après-midi du samedi 5 septembre VENT : revenant Sud-Ouest 3 à 4. MER : peu agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, mais localement Nord-Ouest 05 m à l'est de Gravelines. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 5 septembre au dimanche 6 septembre VENT : Sud-Ouest 2 à 4, revenant Sud-Est en seconde partie de nuit. MER : s'atténuant belle à peu agitée. HOULE : non significative, localement Sud-Ouest 0.5 m en Manche en soirée. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 6 septembre VENT : Sud-Est 3 à 4, devenant Variable 2 à 3 l'après-midi. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : non significative. TEMPS : nuageux à très nuageux, averses éparses en fin de journée. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 6 au 7 et la journée du lundi 7 septembre VENT : Sud à Sud-Est 3 à 4, fraîchissant Sud-Ouest 5 à 6 avec rafales en matinée, avec menace de 7 en mer du Nord l'après-midi. MER : belle à peu agitée, devenant progressivement agitée en journée. HOULE : non significative. TEMPS : averses parfois orageuses en soirée, devenant peu nuageux en matinée, puis voilé l'après-midi. VISIBILITE : bonne, localement moyenne sous averses. 7 - Prévisions pour la nuit du 7 au 8 et la journée du mardi 8 septembre VENT : Ouest 5 à 6. Rafales. MER : peu agitée à agitée. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en début de nuit. 8 - Tendance pour les jours suivants Mercredi 9 septembre secteur Nord-Ouest faible en entrée de Manche, secteur Ouest faible à modéré en Manche. Indice de confiance : 3 sur 5 Jeudi 10 septembre secteur Sud-Ouest faible à modéré à l'est de la zone, variable faible à modéré à l'ouest. Indice de confiance : 3 sur 5 Vendredi 11 septembre secteur Nord-Ouest modéré en entrée de Manche, secteur Ouest modéré à l'est de la zone. Indice de confiance : 2 sur 5 Samedi 12 septembre variable faible à modéré en entrée de Manche, secteur Nord-Ouest faible à modéré à l'est de la zone. Indice de confiance : 2 sur 5 9 - Observations le samedi 5 septembre 2026 à 09H00 UTC Dunkerque : vent Ouest-Nord-Ouest 12 noeuds, 1023 hPa en hausse. Cap Gris Nez : vent Ouest-Nord-Ouest 12 noeuds. Boulogne : vent Ouest-Nord-Ouest 6 noeuds, 1024 hPa en hausse, clair ou peu nuageux, visibilité 9 milles. Bouée Sandettie : vent Ouest-Nord-Ouest 14 noeuds, creux 0,7 mètre, 1023 hPa en baisse, visibilité 5 milles. Prochain bulletin le samedi 5 septembre 2026, vers 18H00 légales
+FQCT40 LFQQ 051625 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 5 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 5 septembre 2026 à 12H00 UTC, et évolution Anticyclone 1026 hPa sur le nord de la France, se décalant vers l'est, prévu 1028 hPa sur l'Allemagne dimanche matin puis s'évacuant vers l'est. Dépression prévue à l'ouest de l'Irlande cette nuit, avec thalweg prévu1018 hPa jusqu'au fond du Golfe de Gascogne Dimanche matin, prévu sur la Manche dimanche après-midi. 3 - Prévisions pour la nuit du samedi 5 septembre au dimanche 6 septembre VENT : Sud-Ouest 2 à 4, revenant Sud-Est en seconde partie de nuit. MER : s'atténuant belle à peu agitée. HOULE : non significative, localement Sud-Ouest 0.5 m en Manche en soirée. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du dimanche 6 septembre VENT : Sud-Est 3 à 4, devenant Variable 2 à 3 l'après-midi. MER : belle à peu agitée, s'atténuant belle l'après-midi. HOULE : non significative. TEMPS : nuageux à très nuageux. VISIBILITE : bonne. 5 - Tendance pour la nuit du 6 au 7, et la journée du lundi 7 septembre VENT : Sud à Sud-Est 3 à 4, fraîchissant Sud-Ouest 5 à 6 avec rafales en matinée, avec menace de 7 en mer du Nord l'après-midi. MER : belle à peu agitée, devenant progressivement agitée en journée. HOULE : non significative. TEMPS : averses parfois orageuses en soirée, devenant peu nuageux en matinée, puis voilé l'après-midi. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 7 au 8 et la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 5 à 6. MER : peu agitée à agitée. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en seconde partie de nuit. 7 - Tendance pour les jours suivants Mercredi 9 septembre secteur Nord-Ouest faible en entrée de Manche, secteur Ouest faible à modéré en Manche. Indice de confiance : 3 sur 5 Jeudi 10 septembre secteur Sud-Ouest faible à modéré à l'est de la zone, variable faible à modéré à l'ouest. Indice de confiance : 3 sur 5 Vendredi 11 septembre secteur Nord-Ouest modéré en entrée de Manche, secteur Ouest modéré à l'est de la zone. Indice de confiance : 2 sur 5 Samedi 12 septembre variable faible à modéré en entrée de Manche, secteur Nord-Ouest faible à modéré à l'est de la zone. Indice de confiance : 2 sur 5 8 - Observations le samedi 5 septembre 2026 à 15H00 UTC Dunkerque : vent Ouest-Nord-Ouest 8 noeuds, 1025 hPa en hausse. Cap Gris Nez : vent Sud-Ouest 16 noeuds. Boulogne : vent Ouest-Sud-Ouest 12 noeuds, 1026 hPa en hausse, clair ou peu nuageux, visibilité 13 milles. Bouée Sandettie : vent Sud-Ouest 12 noeuds, creux 0,4 mètre, 1025 hPa en baisse, visibilité 10 milles. Prochain bulletin le dimanche 6 septembre 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -305,12 +305,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Tendance hiver 2026-2027
+• Infoclimat Direct : Prévisions Nord - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Les vagues de froids en France
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -318,9 +318,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 5 Septembre 2026.
-Résumé général HDF précédent : Après un week-end encore chaud, les Hauts-de-France connaîtront une dégradation océanique en début de semaine 1 avec une baisse des températures et des averses. La semaine 2 s'annonce plus sèche et plus douce avec le retour des hautes pressions..
+Résumé général HDF précédent : Après un week-end chaud, dégradation pluvieuse et fraîcheur en semaine 1, puis retour probable des hautes pressions et de la douceur en semaine 2. Précipitations globalement faibles, sécheresse persistante..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses faibles à modérées, fraîcheur en milieu de semaine, vent d'ouest..
+Températures attendues précédemment : Averses mardi, vent assez fort lundi, températures en baisse..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -462,8 +462,8 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 22 heures par tao
-								16
+	Modifié hier à 17:18 par tao
+								17
 								2
 								4
 
@@ -475,7 +475,7 @@ il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où son
 	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
 	donc idem pour les mitaines et cache-nez...
 	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié il y a 19 heures par giec 2100
+	Modifié il y a 21 heures par giec 2100
 								1
 
 =======================
@@ -503,6 +503,7 @@ Il y a 14 heures, Gabhubert a dit :
 	On peut frémir à ce qui arrivera (car ça arrivera!) quand on aura un été thermique à la 2026 (bien plus chaud que celui de 1976 qui alternait des beaux temps frais, et très chauds mais nettement en deçà des maximas actuels), sans le mois de mai et le mois de février archi pluvieux qui ont précédé, mais avec une sécheresse établie dès novembre précédent...
 	Pour en revenir aux prévis, sur les deux sorties "IA" du cep et de l'GFS, je vois bien quelques perturbations correctes balayer un gros Nord Est du pays, mais une petite moitié Sud Ouest ne me semble pas du tout en fin de sécheresse, et c'est celle qui a le plus souffert de la cagne. Sortir la ceinture de hautes pressions du proche atlantique au large du golfe de Gascogne ne semble pas une mince affaire (hors gouttes froides, ce qui serait peut-être pire encore).
 								1
+								1
 
 =======================
 
@@ -514,7 +515,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								8
+								9
 
 =======================
 
@@ -523,7 +524,7 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
-								5
+								6
 
 =======================
 
@@ -540,7 +541,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
 								3
 
@@ -554,7 +555,7 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 1 heure par bruno50
+	Modifié il y a 3 heures par bruno50
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
 Auteur: Pervanche7
@@ -695,8 +696,8 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 22 heures par tao
-								16
+	Modifié hier à 17:18 par tao
+								17
 								2
 								4
 
@@ -708,7 +709,7 @@ il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où son
 	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
 	donc idem pour les mitaines et cache-nez...
 	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié il y a 19 heures par giec 2100
+	Modifié il y a 21 heures par giec 2100
 								1
 
 =======================
@@ -736,6 +737,7 @@ Il y a 14 heures, Gabhubert a dit :
 	On peut frémir à ce qui arrivera (car ça arrivera!) quand on aura un été thermique à la 2026 (bien plus chaud que celui de 1976 qui alternait des beaux temps frais, et très chauds mais nettement en deçà des maximas actuels), sans le mois de mai et le mois de février archi pluvieux qui ont précédé, mais avec une sécheresse établie dès novembre précédent...
 	Pour en revenir aux prévis, sur les deux sorties "IA" du cep et de l'GFS, je vois bien quelques perturbations correctes balayer un gros Nord Est du pays, mais une petite moitié Sud Ouest ne me semble pas du tout en fin de sécheresse, et c'est celle qui a le plus souffert de la cagne. Sortir la ceinture de hautes pressions du proche atlantique au large du golfe de Gascogne ne semble pas une mince affaire (hors gouttes froides, ce qui serait peut-être pire encore).
 								1
+								1
 
 =======================
 
@@ -747,7 +749,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								8
+								9
 
 =======================
 
@@ -756,7 +758,7 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
-								5
+								6
 
 =======================
 
@@ -773,7 +775,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 3 heures par petit âge glaciaire 11
+	Modifié il y a 5 heures par petit âge glaciaire 11
 Modifié
 								3
 
@@ -787,4 +789,4 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 1 heure par bruno50
+	Modifié il y a 3 heures par bruno50
