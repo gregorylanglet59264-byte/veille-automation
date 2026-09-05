@@ -334,12 +334,12 @@ Ensuite, pas de phénomène dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Prévisions Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Bugs sur Infoclimat #2
+• Infoclimat Direct : Bugs sur Infoclimat #2
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 05/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -347,37 +347,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 5 Septembre 2026.
-Résumé général HDF précédent : Baisse thermique mardi 8/09, puis visture d'un temps de saison ; pluies modestes, jamais durable sur les jeud ; august sabler avec quelques sections 15-20 ; les Hauts-de-France se trouvent dans un régime d’ouest tempéré, sans séquence record..
+Résumé général HDF précédent : Sur 15 jours, les Hauts-de-France connaîtront une baisse thermique nette après un week-end encore chaud, puis un temps de saison, sec et peu perturbé, sans épisode pluvieux majeur. Les températures passeront de 25-28°C à 18-22°C, puis resteront proches des normales. Les pluies seront faibles et éparses, avec un risque d'averses temporaire, principalement mardi 8 et en fin de semaine 1. Le vent sera modéré à assez fort sur le littoral, avec des rafales possibles à 65 km/h lundi 7..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses courtes, vent modéré à assez fort sur le littoral, pas d'orage généralisé..
+Températures attendues précédemment : Temps souvent sec, averses faibles possibles, fraîcheur de saison..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: cirrus007
-Message:
-Oui il n'y a rien en vue avant perpet, je pense qu'on peut même pronostiquer bien au delà du 15 Septembre vu le contexte et synoptique.
-	Je ne serai pas si surpris d'un Septembre globalement &lt;10mm un peu partout sur nos régions Med si ça perdure... on a bien eu l'exemple l'an dernier avec un duo Septembre/Octobre particulièrement sec.
-	Les réjouissances viennent surtout de la baisse des températures, qui semble actée d'ici le 10 Septembre, mais pour la pluie et l'agitation c'est la poursuite du minimum pluvieux tel qu'on le connait habituellement en été, maintenant l'été s'étalant de plus en plus entre Mai à Octobre...
-								2
-								5
-								2
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on ne sera pas au sec ! Pour la méditerranée, c'est très sec, les scénarios humides sont très minoritaires. Pour le reste, la semaine a l'air de s'orienter vers du ni sec, ni humide, plutôt dans les normes.
-	Le mardi, on a un cluster de scénario qui reste assez humide, jusqu'au sud. Je ne dis pas que je suis optimiste ou que le changement de synoptique nous assure contre tout risque de chaleur/sècheresse. Je dis juste qu'on peut encore raisonnablement être incertain quand à l'aspect sec, normale ou humide de cette semaine. 
-	Autrement dit : je rejoins les précédentes interventions : on ne va pas vers un scénario + humide que la normale, on va même vers du plus sec côté méditerranée (ce qui n'était pas si évident il y a deux jours). Mais pour une bonne moitié de la France, on reste dans un entre deux bienvenue, avec à ce jour, une possibilité de bonnes petites pluies bienvenues.
-	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
-	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
-	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
-	Modifié jeudi à 12:23 par Jojobarbar
-								2
-								4
-
-=======================
-
 Auteur: Girondin33
 Message:
 il y a 51 minutes, Jojobarbar a dit :
@@ -451,7 +426,7 @@ Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article 
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
 	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
-	Modifié il y a 23 heures par nickdu77
+	Modifié hier à 08:32 par nickdu77
 								1
 								1
 								1
@@ -484,7 +459,7 @@ Il y a 17 heures, cédric du Lot a dit :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -506,7 +481,7 @@ il y a 31 minutes, petit âge glaciaire 11 a dit :
 			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié il y a 19 heures par Brice3411
+	Modifié il y a 21 heures par Brice3411
 								1
 								1
 
@@ -518,7 +493,7 @@ il y a 16 minutes, Brice3411 a dit :
 			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
 	oui, Hergé a su admirablement illustrer ces fameux mirages...
 	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié il y a 19 heures par giec 2100
+	Modifié il y a 21 heures par giec 2100
 								1
 								1
 
@@ -535,9 +510,9 @@ il y a 29 minutes, giec 2100 a dit :
 	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
 	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
 	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
-	Modifié il y a 18 heures par petit âge glaciaire 11
+	Modifié il y a 20 heures par petit âge glaciaire 11
 Modifié
-								3
+								4
 								3
 
 =======================
@@ -571,8 +546,8 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 14 heures par tao
-								15
+	Modifié il y a 16 heures par tao
+								16
 								2
 								4
 
@@ -584,7 +559,7 @@ il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où son
 	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
 	donc idem pour les mitaines et cache-nez...
 	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié il y a 11 heures par giec 2100
+	Modifié il y a 13 heures par giec 2100
 
 =======================
 
@@ -593,33 +568,25 @@ Message:
 Bonsoir et merci à vous deux pour vos réponses !     Nous sommes d'accord :les titres de ce que publie Guillaume S. sont accrocheurs et sont au final très,très discutables . Evidemment que c'est hors-normes depuis mai......la sécheresse de 1976 n'a pas été d'une durée aussi longue (il a plu vers fin aout ) et ,de plus, les températures étaient nettement moins élevées....c'était il y a juste 50 ans , tout était alors très différent !!   Sur la carte publiée par Tao , les pluies  "annoncées" sont sur un axe qui va du Pays basque aux Ardennes avec des quantités très faibles ......et quand malheureusement on est à  l'est de cette ligne ,comme ici en Saone et Loire , on a vraiment rien du tout comme d'habitude et celà dure depuis un peu plus de 4 mois consécutifs .....et aucun vrai  changement en vue !!!!!   🙄
 								1
 								1
+
+=======================
+
+Auteur: Plancher
+Message:
+On passera d'un extrême à l'autre et on se plaindra de pluies trop abondantes. Ce n'est qu'une supposition évidemment.
+	Pour revenir au topic, les températures sont en nettes baisses, non ?
+
+=======================
+
+Auteur: bruno50
+Message:
+Il y a 14 heures, Gabhubert a dit :
+			Bonsoir et merci à vous deux pour vos réponses !     Nous sommes d'accord :les titres de ce que publie Guillaume S. sont accrocheurs et sont au final très,très discutables . Evidemment que c'est hors-normes depuis mai......la sécheresse de 1976 n'a pas été d'une durée aussi longue (il a plu vers fin aout ) et ,de plus, les températures étaient nettement moins élevées....c'était il y a juste 50 ans , tout était alors très différent !!   Sur la carte publiée par Tao , les pluies  "annoncées" sont sur un axe qui va du Pays basque aux Ardennes avec des quantités très faibles ......et quand malheureusement on est à  l'est de cette ligne ,comme ici en Saone et Loire , on a vraiment rien du tout comme d'habitude et celà dure depuis un peu plus de 4 mois consécutifs .....et aucun vrai  changement en vue !!!!!   🙄
+	La sécheresse de 1976 avait certes été interrompue dès fin août, mais elle avait démarré dès novembre 1975, et c'est cette durée ahurissante dans le bassin parisien qui en a fait un OVNI climatique et avait anéanti l'agriculture encore plus qu'aujourd'hui.
+	On peut frémir à ce qui arrivera (car ça arrivera!) quand on aura un été thermique à la 2026 (bien plus chaud que celui de 1976 qui alternait des beaux temps frais, et très chauds mais nettement en deçà des maximas actuels), sans le mois de mai et le mois de février archi pluvieux qui ont précédé, mais avec une sécheresse établie dès novembre précédent...
+	Pour en revenir aux prévis, sur les deux sorties "IA" du cep et de l'GFS, je vois bien quelques perturbations correctes balayer un gros Nord Est du pays, mais une petite moitié Sud Ouest ne me semble pas du tout en fin de sécheresse, et c'est celle qui a le plus souffert de la cagne. Sortir la ceinture de hautes pressions du proche atlantique au large du golfe de Gascogne ne semble pas une mince affaire (hors gouttes froides, ce qui serait peut-être pire encore).
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: cirrus007
-Message:
-Oui il n'y a rien en vue avant perpet, je pense qu'on peut même pronostiquer bien au delà du 15 Septembre vu le contexte et synoptique.
-	Je ne serai pas si surpris d'un Septembre globalement &lt;10mm un peu partout sur nos régions Med si ça perdure... on a bien eu l'exemple l'an dernier avec un duo Septembre/Octobre particulièrement sec.
-	Les réjouissances viennent surtout de la baisse des températures, qui semble actée d'ici le 10 Septembre, mais pour la pluie et l'agitation c'est la poursuite du minimum pluvieux tel qu'on le connait habituellement en été, maintenant l'été s'étalant de plus en plus entre Mai à Octobre...
-								2
-								5
-								2
-
-=======================
-
-Auteur: Jojobarbar
-Message:
-On a quand même des signaux humides, c'est loin d'être exceptionnel, mais on ne sera pas au sec ! Pour la méditerranée, c'est très sec, les scénarios humides sont très minoritaires. Pour le reste, la semaine a l'air de s'orienter vers du ni sec, ni humide, plutôt dans les normes.
-	Le mardi, on a un cluster de scénario qui reste assez humide, jusqu'au sud. Je ne dis pas que je suis optimiste ou que le changement de synoptique nous assure contre tout risque de chaleur/sècheresse. Je dis juste qu'on peut encore raisonnablement être incertain quand à l'aspect sec, normale ou humide de cette semaine. 
-	Autrement dit : je rejoins les précédentes interventions : on ne va pas vers un scénario + humide que la normale, on va même vers du plus sec côté méditerranée (ce qui n'était pas si évident il y a deux jours). Mais pour une bonne moitié de la France, on reste dans un entre deux bienvenue, avec à ce jour, une possibilité de bonnes petites pluies bienvenues.
-	Niveau EFI on est sur du neutre/très faiblement exceptionnel négativement sur le sud, ce qui ne veut pas dire qu'il n'y pas de scénario extrêmes modélisés, mais qu'ils sont, à ce jour aussi probable que l'indique la climatologie : on n'a pas de "biais" sec ni humide dans la prévision indiquant une situation anormale.
-	En grossissant très approximativement, en septembre en France, on s'attend en moyenne à 70mm (hors massifs montagneux) ce qui nous donne 17,5mm par semaine. La semaine qui arrive présente des médianes de cumuls aux alentours de 15-20mm. Bien sûr c'est très global, très approximatif mais ça donne quand même une indication.
-	En contraste, la semaine actuelle est sèche et était vue sèche par l'ensemble sous saisonnier IFS :
-	Modifié jeudi à 12:23 par Jojobarbar
-								2
-								4
-
-=======================
-
 Auteur: Girondin33
 Message:
 il y a 51 minutes, Jojobarbar a dit :
@@ -693,7 +660,7 @@ Il y a peut-être un point qui va nous aider à terme. Si j'en crois un article 
 	Par exemple, là sur la Laponie, on a du -4°C à 850hPa (surtout en Finlande).
 	Si on est chanceux et si la circulation atmosphérique se positionne correctement - ça n'a pas été trop le cas pour le moment -, ça pourrait accroître les possibilités d'un flux plus important à nos latitudes, l'écart thermique avec les températures au sud se creusant. J'ai l'impression que c'est déjà le cas plus au nord où on voit des précipitations qui me semblent plus abondantes qu'il y a encore quelques semaines. Il suffirait que ça ait la gentillesse de descendre de quelques centaines de kilomètres et on serait bon avec un flux océanique assez puissant. Quelqu'un se sent d'aller mettre un cierge?
 	Il faudra ce qui se met en place pour ce topic et surtout pour le suivant.
-	Modifié il y a 23 heures par nickdu77
+	Modifié hier à 08:32 par nickdu77
 								1
 								1
 								1
@@ -726,7 +693,7 @@ Il y a 17 heures, cédric du Lot a dit :
 	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -748,7 +715,7 @@ il y a 31 minutes, petit âge glaciaire 11 a dit :
 			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
 			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
 	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié il y a 19 heures par Brice3411
+	Modifié il y a 21 heures par Brice3411
 								1
 								1
 
@@ -760,7 +727,7 @@ il y a 16 minutes, Brice3411 a dit :
 			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
 	oui, Hergé a su admirablement illustrer ces fameux mirages...
 	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié il y a 19 heures par giec 2100
+	Modifié il y a 21 heures par giec 2100
 								1
 								1
 
@@ -777,9 +744,9 @@ il y a 29 minutes, giec 2100 a dit :
 	Les 3 runs de CEP  en question en commençant par le plus récent et sachant que le dernier run de CEP (6h) s'arrête jeudi matin :
 	Mais c'est vrai je ne l'ai pas assez précisé même sur le dernier run le pourtour méditerranéen n'a pratiquement aucune pluie la faute au vent oui certainement. 
 	Je voulais juste montrer une évolution positive à l'échelle du pays et un sud-ouest peut-être enfin arrosé et afin de signaux de cumuls de pluie visibles pas très loin des côtes sud française. 
-	Modifié il y a 18 heures par petit âge glaciaire 11
+	Modifié il y a 20 heures par petit âge glaciaire 11
 Modifié
-								3
+								4
 								3
 
 =======================
@@ -813,8 +780,8 @@ Message:
 Bonjour,
 	il y a bien un retour des pluies prévu pour la semaine prochaine.
 	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié il y a 14 heures par tao
-								15
+	Modifié il y a 16 heures par tao
+								16
 								2
 								4
 
@@ -826,7 +793,7 @@ il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où son
 	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
 	donc idem pour les mitaines et cache-nez...
 	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié il y a 11 heures par giec 2100
+	Modifié il y a 13 heures par giec 2100
 
 =======================
 
@@ -835,3 +802,20 @@ Message:
 Bonsoir et merci à vous deux pour vos réponses !     Nous sommes d'accord :les titres de ce que publie Guillaume S. sont accrocheurs et sont au final très,très discutables . Evidemment que c'est hors-normes depuis mai......la sécheresse de 1976 n'a pas été d'une durée aussi longue (il a plu vers fin aout ) et ,de plus, les températures étaient nettement moins élevées....c'était il y a juste 50 ans , tout était alors très différent !!   Sur la carte publiée par Tao , les pluies  "annoncées" sont sur un axe qui va du Pays basque aux Ardennes avec des quantités très faibles ......et quand malheureusement on est à  l'est de cette ligne ,comme ici en Saone et Loire , on a vraiment rien du tout comme d'habitude et celà dure depuis un peu plus de 4 mois consécutifs .....et aucun vrai  changement en vue !!!!!   🙄
 								1
 								1
+
+=======================
+
+Auteur: Plancher
+Message:
+On passera d'un extrême à l'autre et on se plaindra de pluies trop abondantes. Ce n'est qu'une supposition évidemment.
+	Pour revenir au topic, les températures sont en nettes baisses, non ?
+
+=======================
+
+Auteur: bruno50
+Message:
+Il y a 14 heures, Gabhubert a dit :
+			Bonsoir et merci à vous deux pour vos réponses !     Nous sommes d'accord :les titres de ce que publie Guillaume S. sont accrocheurs et sont au final très,très discutables . Evidemment que c'est hors-normes depuis mai......la sécheresse de 1976 n'a pas été d'une durée aussi longue (il a plu vers fin aout ) et ,de plus, les températures étaient nettement moins élevées....c'était il y a juste 50 ans , tout était alors très différent !!   Sur la carte publiée par Tao , les pluies  "annoncées" sont sur un axe qui va du Pays basque aux Ardennes avec des quantités très faibles ......et quand malheureusement on est à  l'est de cette ligne ,comme ici en Saone et Loire , on a vraiment rien du tout comme d'habitude et celà dure depuis un peu plus de 4 mois consécutifs .....et aucun vrai  changement en vue !!!!!   🙄
+	La sécheresse de 1976 avait certes été interrompue dès fin août, mais elle avait démarré dès novembre 1975, et c'est cette durée ahurissante dans le bassin parisien qui en a fait un OVNI climatique et avait anéanti l'agriculture encore plus qu'aujourd'hui.
+	On peut frémir à ce qui arrivera (car ça arrivera!) quand on aura un été thermique à la 2026 (bien plus chaud que celui de 1976 qui alternait des beaux temps frais, et très chauds mais nettement en deçà des maximas actuels), sans le mois de mai et le mois de février archi pluvieux qui ont précédé, mais avec une sécheresse établie dès novembre précédent...
+	Pour en revenir aux prévis, sur les deux sorties "IA" du cep et de l'GFS, je vois bien quelques perturbations correctes balayer un gros Nord Est du pays, mais une petite moitié Sud Ouest ne me semble pas du tout en fin de sécheresse, et c'est celle qui a le plus souffert de la cagne. Sortir la ceinture de hautes pressions du proche atlantique au large du golfe de Gascogne ne semble pas une mince affaire (hors gouttes froides, ce qui serait peut-être pire encore).
