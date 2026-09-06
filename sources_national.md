@@ -316,12 +316,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : =30°C consécutives]]>
-• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -329,9 +329,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 6 Septembre 2026.
-Résumé général précédent : .
+Résumé général précédent : Tendance générale : après une dégradation orageuse en milieu de semaine 1, retour d'un temps sec et anticyclonique avec des températures au-dessus des normales. La sécheresse devrait s'aggraver, surtout au sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Pluies faibles à modérées sur le nord, le centre-est ; sec au sud-ouest et en Méditerranée. (max 120 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -510,7 +510,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 16 heures par djoss
+	Modifié il y a 18 heures par djoss
 								1
 								1
 								4
@@ -541,7 +541,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								1
+								2
 								1
 								5
 
@@ -733,7 +733,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 16 heures par djoss
+	Modifié il y a 18 heures par djoss
 								1
 								1
 								4
@@ -764,7 +764,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								1
+								2
 								1
 								5
 

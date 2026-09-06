@@ -283,7 +283,7 @@ Températures minimales : sans changement significatif.
 Températures maximales : en hausse sur la Thiérache et la Champagne crayeuse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 061005 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 6 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 6 septembre 2026 à 06H00 UTC, et évolution Anticyclone 1028 hPa sur l'Allemagne, se décalant lentement vers l'est. Dépression 988 hPa au nord-ouest de l'Irlande, se décalant vers le nord en se creusant, prévue 973 hPa au sud de l'Islande lundi matin. Thalweg associé, prévu sur la Bretagne le soir, puis en Manche lundi matin. 3 - Prévisions pour l'après-midi du dimanche 6 septembre VENT : Sud à Sud-Est 2 à 4. MER : belle. HOULE : non significative. TEMPS : nuageux à très nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 6 septembre au lundi 7 septembre VENT : Sud à Sud-Est 3 à 4, virant Sud à Sud-Ouest en fin de nuit. MER : belle, devenant belle à peu agitée en seconde partie de nuit. HOULE : non significative. TEMPS : nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du lundi 7 septembre VENT : Ouest à Sud-Ouest fraîchissant 4 à 5, parfois 6 dans le détroit et en Mer du Nord l'après-midi. Rafales. MER : devenant peu agitée, parfois agitée dans le détroit et en Mer du Nord l'après-midi. HOULE : non significative, s'établissant Ouest proche de 0.5 m en Manche à la fin. TEMPS : devenant très nuageux, parfois pluie faible. VISIBILITE : bonne, parfois moyenne sous pluie. 6 - Prévisions pour la nuit du 7 au 8 et la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, parfois 6. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, non significative ailleurs. TEMPS : nuageux, parfois pluie en journée. VISIBILITE : bonne, parfois mauvaise sous pluie en journée. 7 - Prévisions pour la nuit du 8 au 9 et la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest 4 à 5, fraîchissant temporairement 6 en cours de matinée en mer du nord. Rafales. MER : peu agitée devenant agitée en seconde partie de nuit. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en Manche. 8 - Tendance pour les jours suivants Jeudi 10 septembre Sud-Ouest modéré. Indice de confiance : 4 sur 5 Vendredi 11 septembre Sud-Ouest modéré virant Ouest à Nord-Ouest. Indice de confiance : 3 sur 5 Samedi 12 septembre Ouest à Sud-Ouest modéré. Indice de confiance : 3 sur 5 Dimanche 13 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 9 - Observations le dimanche 6 septembre 2026 à 09H00 UTC Dunkerque : vent Sud-Sud-Est 8 noeuds, mer belle, 1025 hPa en baisse, nuageux avec éclaircies, visibilité 5 milles. Cap Gris Nez : vent Sud 12 noeuds. Boulogne : vent Sud-Sud-Est 10 noeuds, 1024 hPa en baisse. Bouée Sandettie : vent Sud-Sud-Est 12 noeuds, creux 0,3 mètre, 1024 hPa en baisse, visibilité 10 milles. Prochain bulletin le dimanche 6 septembre 2026, vers 18H00 légales
+FQCT40 LFQQ 061625 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le dimanche 6 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 6 septembre 2026 à 12H00 UTC, et évolution Anticyclone 1027 hPa sur l'Allemagne, se décalant lentement vers l'est. Dépression 985 hPa sud de l'Islande, prévue 978 hPa lundi soir. Thalweg associé, prévu sur la Bretagne le soir, puis en Manche lundi matin. 3 - Prévisions pour la nuit du dimanche 6 septembre au lundi 7 septembre VENT : Sud à Sud-Est 3 à 4, fraîchissant Sud-Ouest 4 à 5 en fin de nuit. MER : belle, devenant progressivement peu agitée. HOULE : non significative. TEMPS : nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du lundi 7 septembre VENT : Ouest à Sud-Ouest 4 à 5, fraîchissant 5 à 6 dans le détroit et en Mer du Nord l'après-midi. Rafales. MER : peu agitée, devenant agitée dans le détroit et en Mer du Nord l'après-midi. HOULE : non significative, s'établissant Ouest proche de 0.5 m en Manche à la fin. TEMPS : devenant très nuageux, parfois pluie faible. VISIBILITE : bonne, parfois moyenne sous pluie. 5 - Tendance pour la nuit du 7 au 8, et la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, parfois 6. Rafales. MER : peu agitée à agitée, s'atténuant peu agitée à la fin. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, non significative ailleurs. TEMPS : nuageux, parfois pluie en journée. VISIBILITE : bonne, parfois mauvaise sous pluie en journée. 6 - Prévisions pour la nuit du 8 au 9 et la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest 4 à 5, fraîchissant temporairement 6 en cours de matinée en mer du nord. Rafales. MER : peu agitée devenant agitée en seconde partie de nuit. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en Manche. 7 - Tendance pour les jours suivants Jeudi 10 septembre Sud-Ouest modéré. Indice de confiance : 4 sur 5 Vendredi 11 septembre Sud-Ouest modéré virant Ouest à Nord-Ouest. Indice de confiance : 3 sur 5 Samedi 12 septembre Ouest à Sud-Ouest modéré. Indice de confiance : 3 sur 5 Dimanche 13 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le dimanche 6 septembre 2026 à 15H00 UTC Dunkerque : vent Sud 10 noeuds, 1022 hPa en baisse. Cap Gris Nez : vent Sud-Sud-Ouest 6 noeuds. Boulogne : vent Sud-Sud-Est 6 noeuds, 1021 hPa en baisse, très nuageux à couvert, visibilité 13 milles. Bouée Sandettie : vent Sud-Est 4 noeuds, creux 0,3 mètre, 1021 hPa en baisse, visibilité 5 milles. Prochain bulletin le lundi 7 septembre 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -306,12 +306,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : =30°C consécutives]]>
-• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi de l'englacement au p&#xF4;le nord
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -319,9 +319,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 6 Septembre 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaissent une transition entre un temps chaud et sec et un temps plus océanique, avec un rafraîchissement et quelques pluies faibles. La deuxième semaine reste incertaine, faute de discussions dédiées..
+Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaissent une transition nette vers un temps plus océanique et plus frais. La première semaine est marquée par un net rafraîchissement et le retour de pluies faibles à modérées, tandis que la seconde semaine s'annonce plus sèche et plus stable, avec des températures proches des normales de saison..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses faibles à modérées, rafraîchissement net, vent d’ouest..
+Températures attendues précédemment : Rafraîchissement marqué de 8 à 10°C, pluies faibles à modérées, vent d'ouest modéré à assez fort sur le littoral..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -500,7 +500,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 16 heures par djoss
+	Modifié il y a 18 heures par djoss
 								1
 								1
 								4
@@ -531,7 +531,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								1
+								2
 								1
 								5
 
@@ -723,7 +723,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 16 heures par djoss
+	Modifié il y a 18 heures par djoss
 								1
 								1
 								4
@@ -754,7 +754,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								1
+								2
 								1
 								5
 
