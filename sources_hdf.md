@@ -331,12 +331,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : "[StatIC] Restriction de votre station"... Que faire?
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -344,57 +344,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 6 Septembre 2026.
-Résumé général HDF précédent : Sur 15 jours : chute des températures en début de semaine 1, puis stabilisation autour des normales de saison (18-22°C). En semaine 2, possible légère hausse. Pluies faibles et éparses, aucun épisode majeur en vue..
+Résumé général HDF précédent : Après un lundi encore chaud, mardi 8 marque un net rafraîchissement avec pluies faibles ; mercredi est ensoleillé, le week-end mitigé, puis la semaine 2 pourrait redevenir sèche et plus douce sous hautes pressions..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées (2-10 mm) entre mardi matin et mercredi matin, plus copieuses sur littoral picard (10 mm max). Rafales possibles 50-60 km/h au littoral..
+Températures attendues précédemment : Pluies faibles (2-10 mm), rafraîchissement, vent d'ouest modéré à assez fort sur littoral..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Il y a 17 heures, cédric du Lot a dit :
-			Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
-	Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
-	Cumuls  CEP de ce matin :
-	Cumuls que tu a posté hier :
-	d'autres modèles vont dans ce sens ce matin. 
-	Icon qui ne va que jusqu'à mercredi matin voit quelques pluies dans le sud-ouest et même d'autres qui ne seraient plus très loin des côtes méditerranéennes :
-	GFS modélise aussi quelques signaux de pluie dans le sud-ouest et aussi d'autres proches des régions méditerranéennes du sud-ouest :
-	La configuration a un peu évolué avec des géopotentiels légèrement plus bas sur le sud de la France et à l'est de l'Espagne ainsi que des hautes pressions atlantiques plus méridiennes et légèrement décalées à l'ouest. 
-	Synoptique CEP d'hier :
-	Synoptique CEP d'aujourd'hui :
-	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
-	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
-	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié vendredi à 12:35 par petit âge glaciaire 11
-Modifié
-								1
-
-=======================
-
-Auteur: Brice3411
-Message:
-il y a 31 minutes, petit âge glaciaire 11 a dit :
-			Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
-			Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
-			Cumuls  CEP de ce matin :
-			Cumuls que tu a posté hier :
-			d'autres modèles vont dans ce sens ce matin. 
-			Icon qui ne va que jusqu'à mercredi matin voit quelques pluies dans le sud-ouest et même d'autres qui ne seraient plus très loin des côtes méditerranéennes :
-			GFS modélise aussi quelques signaux de pluie dans le sud-ouest et aussi d'autres proches des régions méditerranéennes du sud-ouest :
-			La configuration a un peu évolué avec des géopotentiels légèrement plus bas sur le sud de la France et à l'est de l'Espagne ainsi que des hautes pressions atlantiques plus méridiennes et légèrement décalées à l'ouest. 
-			Synoptique CEP d'hier :
-			Synoptique CEP d'aujourd'hui :
-			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
-			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
-	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié vendredi à 12:19 par Brice3411
-								1
-								1
-
-=======================
-
 Auteur: giec 2100
 Message:
 il y a 16 minutes, Brice3411 a dit :
@@ -533,7 +488,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 12:13 par petit âge glaciaire 11
 Modifié
 								3
 
@@ -547,7 +502,7 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 21 heures par bruno50
+	Modifié il y a 23 heures par bruno50
 								1
 
 =======================
@@ -570,17 +525,18 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 12 heures par djoss
+	Modifié il y a 14 heures par djoss
 								1
 								1
-								2
+								3
 
 =======================
 
 Auteur: Lodu17
 Message:
 La merde? Mais encore?
-								2
+								3
+								1
 								1
 								1
 
@@ -589,53 +545,32 @@ La merde? Mais encore?
 Auteur: Krholam
 Message:
 C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
+								2
+
+=======================
+
+Auteur: cirrus007
+Message:
+il y a une heure, Krholam a dit :
+			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
+	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
+	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
+								1
+								2
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 15 minutes, cirrus007 a dit :
+			Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
+			Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
+	Je parlais du 18z comme il est fait mention dans le commentaire ou le deterministe s’envolait cotoyer les 20⁰C 
+	Par contre oui c’est desespérement sec et on vit en septembre ce qui devrait être en été je te rejoins dessus.
+								2
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Il y a 17 heures, cédric du Lot a dit :
-			Je ne suis pas certains que ce soit la meilleure des nouvelles cette bascule du flux a l'W/NW pour le domaine méditerranéen... (la saison des feux s'étirant a présent presque autant que nos étés).
-	Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
-	Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
-	Cumuls  CEP de ce matin :
-	Cumuls que tu a posté hier :
-	d'autres modèles vont dans ce sens ce matin. 
-	Icon qui ne va que jusqu'à mercredi matin voit quelques pluies dans le sud-ouest et même d'autres qui ne seraient plus très loin des côtes méditerranéennes :
-	GFS modélise aussi quelques signaux de pluie dans le sud-ouest et aussi d'autres proches des régions méditerranéennes du sud-ouest :
-	La configuration a un peu évolué avec des géopotentiels légèrement plus bas sur le sud de la France et à l'est de l'Espagne ainsi que des hautes pressions atlantiques plus méridiennes et légèrement décalées à l'ouest. 
-	Synoptique CEP d'hier :
-	Synoptique CEP d'aujourd'hui :
-	Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
-	Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
-	Édit : le CEP 6Z vient de sortir( il ne va que jusqu'à jeudi matin)et il augmente encore les cumuls dans le sud mais il il est vrai que le pourtour méditerranéen et le sud-est reste encore à l'écart :
-	Modifié vendredi à 12:35 par petit âge glaciaire 11
-Modifié
-								1
-
-=======================
-
-Auteur: Brice3411
-Message:
-il y a 31 minutes, petit âge glaciaire 11 a dit :
-			Je constate ce matin une  amélioration des signaux de cumuls de pluie sur plusieurs modèles.
-			Si on compare la carte des cumuls de CEP d'aujourd'hui avec celle que tu a posté hier on voit que cela a  évolué.
-			Cumuls  CEP de ce matin :
-			Cumuls que tu a posté hier :
-			d'autres modèles vont dans ce sens ce matin. 
-			Icon qui ne va que jusqu'à mercredi matin voit quelques pluies dans le sud-ouest et même d'autres qui ne seraient plus très loin des côtes méditerranéennes :
-			GFS modélise aussi quelques signaux de pluie dans le sud-ouest et aussi d'autres proches des régions méditerranéennes du sud-ouest :
-			La configuration a un peu évolué avec des géopotentiels légèrement plus bas sur le sud de la France et à l'est de l'Espagne ainsi que des hautes pressions atlantiques plus méridiennes et légèrement décalées à l'ouest. 
-			Synoptique CEP d'hier :
-			Synoptique CEP d'aujourd'hui :
-			Tout cela pour dire que ça bouge et que rien n'est forcément acté en terme de pluies pour ce topic.
-			Cela va encore évoluer  espérons que cela sera dans le bon sens car il y a urgence. 
-	Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	Modifié vendredi à 12:19 par Brice3411
-								1
-								1
-
-=======================
-
 Auteur: giec 2100
 Message:
 il y a 16 minutes, Brice3411 a dit :
@@ -774,7 +709,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 23 heures par petit âge glaciaire 11
+	Modifié hier à 12:13 par petit âge glaciaire 11
 Modifié
 								3
 
@@ -788,7 +723,7 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 21 heures par bruno50
+	Modifié il y a 23 heures par bruno50
 								1
 
 =======================
@@ -811,17 +746,18 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 12 heures par djoss
+	Modifié il y a 14 heures par djoss
 								1
 								1
-								2
+								3
 
 =======================
 
 Auteur: Lodu17
 Message:
 La merde? Mais encore?
-								2
+								3
+								1
 								1
 								1
 
@@ -830,3 +766,27 @@ La merde? Mais encore?
 Auteur: Krholam
 Message:
 C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
+								2
+
+=======================
+
+Auteur: cirrus007
+Message:
+il y a une heure, Krholam a dit :
+			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
+	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
+	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
+								1
+								2
+
+=======================
+
+Auteur: Krholam
+Message:
+il y a 15 minutes, cirrus007 a dit :
+			Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
+			Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
+	Je parlais du 18z comme il est fait mention dans le commentaire ou le deterministe s’envolait cotoyer les 20⁰C 
+	Par contre oui c’est desespérement sec et on vit en septembre ce qui devrait être en été je te rejoins dessus.
+								2
+								1
