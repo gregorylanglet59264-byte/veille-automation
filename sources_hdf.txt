@@ -330,12 +330,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : La météo &#xE0; La Réunion
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Prévisions Sud-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -343,9 +343,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 6 Septembre 2026.
-Résumé général HDF précédent : Bascule océanique en semaine 1 (du 7 au 13 septembre) avec nette chute des températures et passage pluvieux mardi 8, puis amélioration progressive. En semaine 2 (du 14 au 20 septembre), retour anticyclonique probable avec un temps plus sec et une hausse des températures, mais l'incertitude reste forte, notamment sur une possible dégradation en fin de période. À surveiller : le risque d'un retour de conditions plus chaudes et plus sèches si l'anticyclone s'impose durablement..
+Résumé général HDF précédent : Semaine 1 : bascule océanique nette avec pluies mardi 8, fraîcheur et amélioration mercredi, puis temps instable. Semaine 2 : retour anticyclonique probable, temps plus sec et plus doux, mais les incertitudes restent importantes..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Passage pluvieux mardi matin, éclaircies mercredi, temps instable avec averses en fin de semaine..
+Températures attendues précédemment : Pluies faibles à modérées puis nette baisse des températures dans les Hauts-de-France..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -528,7 +528,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								9
+								10
 
 =======================
 
@@ -537,7 +537,7 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
-								6
+								8
 
 =======================
 
@@ -554,7 +554,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								3
 
@@ -568,7 +568,7 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 17 heures par bruno50
+	Modifié il y a 19 heures par bruno50
 								1
 
 =======================
@@ -591,7 +591,8 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 8 heures par djoss
+	Modifié il y a 10 heures par djoss
+								1
 								1
 								2
 
@@ -775,7 +776,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								9
+								10
 
 =======================
 
@@ -784,7 +785,7 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
-								6
+								8
 
 =======================
 
@@ -801,7 +802,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								3
 
@@ -815,7 +816,7 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 17 heures par bruno50
+	Modifié il y a 19 heures par bruno50
 								1
 
 =======================
@@ -838,6 +839,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 8 heures par djoss
+	Modifié il y a 10 heures par djoss
+								1
 								1
 								2

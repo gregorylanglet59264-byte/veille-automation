@@ -317,7 +317,7 @@ Températures minimales : en hausse dans le Volvestre.
 Températures maximales : stables.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 060345 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 6 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 6 septembre 2026 à 00H00 UTC, et évolution Faible gradient de pression autour de 1020 hPa et dépression relative 1017 hPa entre la Corse et la côte d"Azur se décalant vers la mer de Sardaigne en se comblant. 3 - Prévisions pour la journée du dimanche 6 septembre VENT : - de Port Camargue au cap Couronne : Nord à Nord-Est 3 à 4, parfois 5 au début, virant Sud à Sud-Est 2 à 3 l'après-midi. - du cap Couronne à Sicié : Est à Sud-Est 2 à 4, mollissant 1 à 3 en fin de journée. - de Sicié à Saint Raphael : Nord-Est 3 à 4, mollissant secteur Est 2 à 3 en milieu de journée. MER : belle à peu agitée. HOULE : Ouest 0.5 à 1 m, s'amortissant ce matin. TEMPS : ensoleillé, parfois voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 6 septembre au lundi 7 septembre VENT : Variable 1 à 3, secteur Est dominant au début, puis Nord-Ouest dominant vers la Camargue. MER : belle. HOULE : non significative. TEMPS : arrivée de nuages bas vers la Camargue, peu nuageux ailleurs. VISIBILITE : parfois moyenne vers la Camargue, sinon bonne. 5 - Prévisions pour la journée du lundi 7 septembre VENT : Nord-Ouest 1 à 3, parfois 4 vers la Camargue, revenant Ouest à Sud-Ouest l'après-midi, parfois 4 vers les Iles d'Hyères. MER : belle. HOULE : non significative. TEMPS : ensoleillé, après dissipation des nuages bas. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 7 au 8 et la journée du mardi 8 septembre VENT : De Port Camargue à Marseille secteur Sud 3 à 4. De Marseille à St Raphaël Ouest à Sud-Ouest 2 à 4, revenant secteur Sud en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Mercredi 9 septembre secteur Nord-Ouest modéré à assez fort dans le golfe du Lion, secteur Sud-Ouest modéré à assez fort entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 10 septembre secteur Nord-Ouest modéré dans le golfe du Lion, secteur Sud-Ouest faible entre Corse et continent. Indice de confiance : 3 sur 5 Vendredi 11 septembre secteur Nord-Ouest modéré à assez fort dans le golfe du Lion, variable faible entre Corse et continent. Indice de confiance : 2 sur 5 Samedi 12 septembre secteur Nord-Ouest modéré à assez fort dans le golfe du Lion, variable faible entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le dimanche 6 septembre 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Ouest 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est 8 noeuds. Le Levant : vent Est-Nord-Est 8 noeuds, 1019 hPa en hausse. Porquerolles : vent Est-Nord-Est 6 noeuds. Cap Couronne : vent Nord-Nord-Ouest 10 noeuds. Prochain bulletin le dimanche 6 septembre 2026, vers 13H00 légales
+FQCT40 LFML 060945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 6 septembre 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 6 septembre 2026 à 06H00 UTC, et évolution Hautes pressions autour de 1020 hPa. 3 - Prévisions pour l'après-midi du dimanche 6 septembre VENT : - de Port Camargue au cap Couronne : Sud à Sud-Est 2 à 4. - du cap Couronne à Sicié : Est à Sud-Est 2 à 4, mollissant 1 à 3 en fin de journée. - de Sicié à Saint Raphael : secteur Nord-Est 1 à 3. MER : s'atténuant belle en fin de journée. HOULE : s'amortissant. TEMPS : ensoleillé, parfois voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du dimanche 6 septembre au lundi 7 septembre VENT : Variable 1 à 3, secteur Est dominant au début, puis Nord-Ouest dominant vers la Camargue. MER : belle. HOULE : non significative. TEMPS : arrivée de nuages bas vers la Camargue, peu nuageux ailleurs. VISIBILITE : parfois moyenne vers la Camargue, sinon bonne. 5 - Prévisions pour la journée du lundi 7 septembre VENT : Nord-Ouest 1 à 3, parfois 4 vers la Camargue, revenant Ouest à Sud-Ouest l'après-midi, parfois 4 vers les Iles d'Hyères. MER : belle. HOULE : non significative. TEMPS : ensoleillé, après dissipation des nuages bas vers la Camargue. VISIBILITE : parfois moyenne vers la Camargue en matinée, sinon bonne. 6 - Prévisions pour la nuit du 7 au 8 et la journée du mardi 8 septembre VENT : à l'ouest de Cap Croisette secteur Sud 1 à 3, fraîchissant Sud-Est 3 à 4 dans l'après-midi. À l'est de Cap Croisette; secteur Sud-Ouest 2 à 4. MER : belle, devenant peu agitée vers le Cap Camarat en fin d'après-midi. HOULE : non significative. TEMPS : arrivée de nuages bas dans la nuit à l'ouest du Cap Croisette, puis devenant ensoleillé en matinée. Ciel peu nuageux à l'est du Cap Croisette. VISIBILITE : bonne, parfois moyenne avec les nuages bas. 7 - Prévisions pour la nuit du 8 au 9 et la journée du mercredi 9 septembre VENT : De Port Camargue à Porquerolles Sud à Sud-Est 2 à 4, fraîchissant 5 à 6 en cours de matinée en virant Nord-Ouest. Fortes rafales. De Porquerolles à St Raphaël secteur Ouest 2 à 4, fraîchissant rapidement 5 en cours de matinée, et atteignant 6 du Levant à St Raphaël. Rafales. MER : belle à peu agitée, devenant agitée en milieu d'après-midi. HOULE non significative s'établissant localement à l'Ouest à Sud-Ouest 1 à 1,5 m. 8 - Tendance pour les jours suivants Jeudi 10 septembre Nord-Ouest assez fort. Ouest à Sud-Ouest modéré autour de la Corse. Indice de confiance : 4 sur 5 Vendredi 11 septembre Nord-Ouest modéré. Ouest faible à modéré autour de la Corse. Indice de confiance : 3 sur 5 Samedi 12 septembre Nord-Ouest modéré. Nord à Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Dimanche 13 septembre Nord-Ouest modéré. Nord-Est faible entre Corse et continent. Indice de confiance : 2 sur 5 9 - Observations le dimanche 6 septembre 2026 à 09H00 UTC Cap Camarat : vent Nord-Est 12 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Le Levant : vent Est 16 noeuds, 1020 hPa en hausse. Porquerolles : vent Est-Nord-Est 6 noeuds, rafales 19 noeuds. Cap Couronne : vent Sud-Sud-Ouest 4 noeuds, mer belle, clair ou peu nuageux, visibilité 10 milles. Prochain bulletin le dimanche 6 septembre 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -342,11 +342,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Prévisions Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Tendance hiver 2026-2027
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -354,7 +354,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 6 Septembre 2026.
-Résumé général précédent : La première semaine est marquée par une transition brutale d'un temps très chaud et sec à un temps plus frais et perturbé. La deuxième semaine montre un retour progressif de conditions anticycloniques, mais avec un flux de Nord-Ouest qui pourrait maintenir des températures proches des normales de saison..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
 Températures attendues précédemment : De saison.
 ============================================
@@ -539,7 +539,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								9
+								10
 
 =======================
 
@@ -548,7 +548,7 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
-								6
+								8
 
 =======================
 
@@ -565,7 +565,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								3
 
@@ -579,7 +579,7 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 17 heures par bruno50
+	Modifié il y a 19 heures par bruno50
 								1
 
 =======================
@@ -602,7 +602,8 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 8 heures par djoss
+	Modifié il y a 10 heures par djoss
+								1
 								1
 								2
 
@@ -786,7 +787,7 @@ il y a 51 minutes, bruno50 a dit :
 	mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
 	Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-								9
+								10
 
 =======================
 
@@ -795,7 +796,7 @@ Message:
 il y a une heure, tao a dit :
 			On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 	Salut ! oui pour le dire autrement des déficits pluviométriques qui autrefois n'entraînaient pas de sécheresse, en causent désormais en raison de la hausse de l'évapotranspiration induite par le "bond des températures".
-								6
+								8
 
 =======================
 
@@ -812,7 +813,7 @@ Il y a 1 heure, tao a dit :
 	Ukmo :
 	Icon
 	CEP:
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								3
 
@@ -826,7 +827,7 @@ Il y a 4 heures, tao a dit :
 			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
 			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
 	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié il y a 17 heures par bruno50
+	Modifié il y a 19 heures par bruno50
 								1
 
 =======================
@@ -849,6 +850,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 8 heures par djoss
+	Modifié il y a 10 heures par djoss
+								1
 								1
 								2
