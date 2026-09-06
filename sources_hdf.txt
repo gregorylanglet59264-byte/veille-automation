@@ -306,12 +306,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -319,24 +319,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 6 Septembre 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaissent une transition nette vers un temps plus océanique et plus frais. La première semaine est marquée par un net rafraîchissement et le retour de pluies faibles à modérées, tandis que la seconde semaine s'annonce plus sèche et plus stable, avec des températures proches des normales de saison..
+Résumé général HDF précédent : Sur les 15 prochains jours,, transition nette vers un temps plus océanique et plus frais en semaine1,, avec un lundi encore estival puis un net rafraîchissement mardi-mercredi et un week-end variable;; la semaine2 s’annonce plus sèche et plus stable,, avec un retour probable des hautes pressions et des températures proches des normales ou en légère hausse. Incertitude forte pour la seconde semaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafraîchissement marqué de 8 à 10°C, pluies faibles à modérées, vent d'ouest modéré à assez fort sur le littoral..
+Températures attendues précédemment : Averses mardi, rafales 55 km/h littoral lundi/mercredi, maximales 18-28°C..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-il y a 16 minutes, Brice3411 a dit :
-			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	oui, Hergé a su admirablement illustrer ces fameux mirages...
-	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié vendredi à 12:33 par giec 2100
-								2
-								1
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 il y a 29 minutes, giec 2100 a dit :
@@ -500,7 +488,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 18 heures par djoss
+	Modifié il y a 20 heures par djoss
 								1
 								1
 								4
@@ -531,7 +519,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								2
+								4
 								1
 								5
 
@@ -544,22 +532,21 @@ il y a 15 minutes, cirrus007 a dit :
 			Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
 	Je parlais du 18z comme il est fait mention dans le commentaire ou le deterministe s’envolait cotoyer les 20⁰C 
 	Par contre oui c’est desespérement sec et on vit en septembre ce qui devrait être en été je te rejoins dessus.
-								3
+								5
 								1
+
+=======================
+
+Auteur: cédric du Lot
+Message:
+Il y a 5 heures, Krholam a dit :
+			Par contre oui c’est desespérement sec 
+	Arf si peu...
+	Modifié il y a 50 minutes par cédric du Lot
+								2
+								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-il y a 16 minutes, Brice3411 a dit :
-			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	oui, Hergé a su admirablement illustrer ces fameux mirages...
-	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié vendredi à 12:33 par giec 2100
-								2
-								1
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 il y a 29 minutes, giec 2100 a dit :
@@ -723,7 +710,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 18 heures par djoss
+	Modifié il y a 20 heures par djoss
 								1
 								1
 								4
@@ -754,7 +741,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								2
+								4
 								1
 								5
 
@@ -767,5 +754,16 @@ il y a 15 minutes, cirrus007 a dit :
 			Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
 	Je parlais du 18z comme il est fait mention dans le commentaire ou le deterministe s’envolait cotoyer les 20⁰C 
 	Par contre oui c’est desespérement sec et on vit en septembre ce qui devrait être en été je te rejoins dessus.
-								3
+								5
 								1
+
+=======================
+
+Auteur: cédric du Lot
+Message:
+Il y a 5 heures, Krholam a dit :
+			Par contre oui c’est desespérement sec 
+	Arf si peu...
+	Modifié il y a 50 minutes par cédric du Lot
+								2
+								3

@@ -15,38 +15,38 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 06/09/2026 16:45
+Emis le : 06/09/2026 22:00
 
 Vigilance :
-Aujourd'hui et demain, Paris et sa petite couronne sont en vigilance verte.
+Aujourd'hui, Paris et sa petite couronne sont en vigilance verte. Demain, elles seront en vigilance jaune pour le phénomène orages.
 
 Observations :
-Aujourd'hui on observait à 16h :
-A Paris-Montsouris : température de 27 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 25 km/h, pression niveau mer 1021 hPa.
-Au Jardin du Luxembourg : température de 28 degrés.
+Aujourd'hui on observait à 21h :
+A Paris-Montsouris : température de 24 degrés, vent de secteur Sud-Est soufflant jusqu'à 10 km/h, pression niveau mer 1020 hPa.
+Au Jardin du Luxembourg : température de 24 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour cette nuit :
 C'est un ciel très largement étoilé qui domine avec des passages nuageux plus nombreux en début et en fin de nuit.
 Vent variable, faible.
-Températures minimales : entre 18 et 19 degrés.
+Températures minimales : de 18 à 19 degrés.
 
 • Pour demain lundi 07 en journée et la nuit suivante :
-C'est un temps très largement ensoleillé qui domine avec des passages nuageux plus nombreux en début et en fin de journée. Pour la nuit : La soirée débute sous un ciel étoilé où quelques nuages sont présents. En fin de nuit les nuages se font plus nombreux et quelques averses sont possibles sur le Val de Marne.
+C'est un temps très largement ensoleillé qui domine avec des passages nuageux plus nombreux en début et en fin de journée. Pour la nuit : La soirée débute sous un ciel étoilé où quelques nuages sont présents. En fin de nuit les nuages se font plus nombreux et quelques averses sont possibles à l'est.
 Vent d'Ouest à Sud-Ouest, modéré, en journée et début de nuit ; puis atténuation.
 Températures maximales pour le jour : entre 28 et 30 degrés.
 Températures minimales pour la nuit suivante : de 17 à 18 degrés.
 
 • Pour la journée de mardi 08 et la nuit suivante :
 Les éclaircies se partagent le ciel en matinée, avec des passages nuageux de plus en plus nombreux, mais encore inoffensifs. En début d'après-midi, le ciel se couvre rapidement et des pluies éparses se produisent. Pour la nuit : En soirée, on aperçoit des étoiles entre les passages nuageux. De rares averses sont possibles, sur Paris, à l'ouest ainsi que sur le sud-est, jusqu'en milieu de nuit. En seconde partie de nuit, le ciel est étoilé.
-Les plus forts cumuls de pluie peuvent avoisiner 10 millimètres au sud.
-Jusqu'en milieu d'après-midi, vent d'Ouest, modéré ; puis faiblissant.
-Températures maximales pour le jour : de 22 à 24 degrés.
+On attend au maximum jusqu'à 10 millimètres de pluie au sud.
+Vent d'Ouest modéré, jusqu'en milieu d'après-midi ; puis s'atténuant.
+Températures maximales pour le jour : comprises entre 22 et 24 degrés.
 Températures minimales pour la nuit suivante : 13 degrés.
 
 • Pour la journée de mercredi 09 :
-Le ciel est très ensoleillé. Seuls quelques rares nuages se montrent timidement en fin de matinée, à Orly.
+Le soleil devrait largement s'imposer, malgré quelques développements nuageux inoffensifs, en fin de matinée, à Orly.
 Vent modéré, d'Ouest à Nord-Ouest.
 Températures maximales : comprises entre 20 et 21 degrés.
 
@@ -316,12 +316,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -329,24 +329,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Dimanche 6 Septembre 2026.
-Résumé général précédent : Tendance générale : après une dégradation orageuse en milieu de semaine 1, retour d'un temps sec et anticyclonique avec des températures au-dessus des normales. La sécheresse devrait s'aggraver, surtout au sud..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées sur le nord, le centre-est ; sec au sud-ouest et en Méditerranée. (max 120 caractères).
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-il y a 16 minutes, Brice3411 a dit :
-			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	oui, Hergé a su admirablement illustrer ces fameux mirages...
-	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié vendredi à 12:33 par giec 2100
-								2
-								1
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 il y a 29 minutes, giec 2100 a dit :
@@ -510,7 +498,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 18 heures par djoss
+	Modifié il y a 20 heures par djoss
 								1
 								1
 								4
@@ -541,7 +529,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								2
+								4
 								1
 								5
 
@@ -554,22 +542,21 @@ il y a 15 minutes, cirrus007 a dit :
 			Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
 	Je parlais du 18z comme il est fait mention dans le commentaire ou le deterministe s’envolait cotoyer les 20⁰C 
 	Par contre oui c’est desespérement sec et on vit en septembre ce qui devrait être en été je te rejoins dessus.
-								3
+								5
 								1
+
+=======================
+
+Auteur: cédric du Lot
+Message:
+Il y a 5 heures, Krholam a dit :
+			Par contre oui c’est desespérement sec 
+	Arf si peu...
+	Modifié il y a 50 minutes par cédric du Lot
+								2
+								3
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-il y a 16 minutes, Brice3411 a dit :
-			Je ne vois pas comment on peut atteindre ces cumuls en flux ouest/Nord-ouest dans le sud LR, à moins d’une tramontane noire et on est très loin de ce genre de configuration, avec un régime bien établi. Ce n’est qu’un mirage. Seuls les reliefs pourraient être relativement concernés, et on parle de 6 à 12 mm soit du pipi de chat quoi.
-	oui, Hergé a su admirablement illustrer ces fameux mirages...
-	hélas ces hautes pressions n'ont de cesse de nous barrer tout espoir de précipitations conséquentes, et ce coup de chalumeau carabiné de fin de semaine n'aura aucune compensation humide...
-	Modifié vendredi à 12:33 par giec 2100
-								2
-								1
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 il y a 29 minutes, giec 2100 a dit :
@@ -733,7 +720,7 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 18 heures par djoss
+	Modifié il y a 20 heures par djoss
 								1
 								1
 								4
@@ -764,7 +751,7 @@ il y a une heure, Krholam a dit :
 			C'est un terme bien superlatif pour une fin d'échéance sur un seul déterministe qui est se retrouve seul isolé dans son ensemble sur un Long Terme
 	Isolé? Si on parle de tonton GFS pas tant que ça par rapport à son ensembliste... bien sur on quitte le spectre caniculaire, mais ça reste chaud et dramatiquement sec tout ça! On dirait un diagramme de plein été, sauf qu'on arrive bientôt mi Septembre... hallucinante cette année 2026 je n'ai pas d'autres mots. 
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
-								2
+								4
 								1
 								5
 
@@ -777,5 +764,16 @@ il y a 15 minutes, cirrus007 a dit :
 			Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
 	Je parlais du 18z comme il est fait mention dans le commentaire ou le deterministe s’envolait cotoyer les 20⁰C 
 	Par contre oui c’est desespérement sec et on vit en septembre ce qui devrait être en été je te rejoins dessus.
-								3
+								5
 								1
+
+=======================
+
+Auteur: cédric du Lot
+Message:
+Il y a 5 heures, Krholam a dit :
+			Par contre oui c’est desespérement sec 
+	Arf si peu...
+	Modifié il y a 50 minutes par cédric du Lot
+								2
+								3
