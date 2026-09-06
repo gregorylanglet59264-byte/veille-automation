@@ -306,12 +306,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi de la secheresse
+• Infoclimat Direct : [Best Of] Imageries Satellite &#x1F6F0;&#xFE0F;
+• Infoclimat Direct : Le jeu de l'été saison 2026 !
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi de la secheresse
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Mon mini labo météo auto-hébergé, cartes AROME, orages en direct et stations StatIC
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 06/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -319,9 +319,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Dimanche 6 Septembre 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours,, transition nette vers un temps plus océanique et plus frais en semaine1,, avec un lundi encore estival puis un net rafraîchissement mardi-mercredi et un week-end variable;; la semaine2 s’annonce plus sèche et plus stable,, avec un retour probable des hautes pressions et des températures proches des normales ou en légère hausse. Incertitude forte pour la seconde semaine..
+Résumé général HDF précédent : Après un lundi 7 encore estival (25-30°C), net rafraîchissement mardi-mercredi avec averses faibles, puis temps variable et océanique jusqu’à dimanche 13. La semaine 2 s’annonce plus sèche, probablement anticyclonique, avec des températures proches des normales ou en légère hausse..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses mardi, rafales 55 km/h littoral lundi/mercredi, maximales 18-28°C..
+Températures attendues précédemment : Chaleur diurne lundi, averses faibles mardi, rafales 55 km/h sur le littoral..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -488,10 +488,10 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 20 heures par djoss
+	Modifié il y a 22 heures par djoss
 								1
 								1
-								4
+								5
 
 =======================
 
@@ -521,7 +521,7 @@ il y a une heure, Krholam a dit :
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
 								4
 								1
-								5
+								6
 
 =======================
 
@@ -542,9 +542,10 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 50 minutes par cédric du Lot
+	Modifié il y a 2 heures par cédric du Lot
 								2
 								3
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
 Auteur: petit âge glaciaire 11
@@ -710,10 +711,10 @@ Il y a 4 heures, bruno50 a dit :
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
-	Modifié il y a 20 heures par djoss
+	Modifié il y a 22 heures par djoss
 								1
 								1
-								4
+								5
 
 =======================
 
@@ -743,7 +744,7 @@ il y a une heure, Krholam a dit :
 	Diag pour ma commune, mais représentatif de tout le pourtour Med. Désolé ça fait un peu régionalisé, mais n'oublions pas nos régions qui souffrent depuis plus de 3 mois.
 								4
 								1
-								5
+								6
 
 =======================
 
@@ -764,6 +765,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 50 minutes par cédric du Lot
+	Modifié il y a 2 heures par cédric du Lot
 								2
 								3
+								1
