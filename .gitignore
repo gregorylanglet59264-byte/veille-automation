@@ -13,3 +13,5 @@ meteo_france/rapports/
 meteo_france/meteo_data/
 
 .env
+output_article/
+veille_intemperies_final.json

@@ -8,11 +8,21 @@ on:
         required: false
         type: string
         default: 'gregory'
+      publish_article:
+        description: "Publier l'article météo automatique sur les 3 sites (true/false)"
+        required: false
+        type: boolean
+        default: true
+      article_point:
+        description: "Point de la veille à transformer en article (auto, 1, 2...)"
+        required: false
+        type: string
+        default: 'auto'
 
 jobs:
   run-veille:
     runs-on: ubuntu-latest
-    timeout-minutes: 8  # Filet de sécurité : tue le job si toujours en cours après 8 min
+    timeout-minutes: 12  # Marge confortable pour la veille + génération d'article
 
     steps:
       - name: Récupérer le code du dépôt
@@ -34,10 +44,25 @@ jobs:
           PYTHONUNBUFFERED: "1"
           GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL || 'langlet.gregory@gmail.com' }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          # Adresse e-mail du/des destinataire(s) dynamique selon le déclencheur (cron, patrick, gregory)
           RECIPIENT_EMAILS: ${{ (github.event.inputs.triggered_by == 'cron') && 'gregory.langlet59264@gmail.com' || ((github.event.inputs.triggered_by == 'patrick') && (secrets.RECIPIENT_EMAILS_PROD || 'patrick.marliere@wanadoo.fr, gregory.langlet@sfr.fr, langlet.gregory@gmail.com') || (secrets.RECIPIENT_EMAILS || 'gregory.langlet@sfr.fr, langlet.gregory@gmail.com')) }}
-          # Clés API configurées dans les Secrets GitHub
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           python run_veille_intemperies.py
+
+      - name: Installer Playwright & Dépendances Visuelles
+        if: ${{ github.event.inputs.publish_article != false }}
+        run: |
+          python -m pip install playwright pillow
+          python -m playwright install --with-deps chromium
+
+      - name: Publier l'Article Météo Automatique (3 sites Zéro-Build)
+        if: ${{ github.event.inputs.publish_article != false }}
+        env:
+          PYTHONUNBUFFERED: "1"
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://ubdevaemtwbzxksjlhjg.supabase.co' }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.SUPABASE_KEY || 'sb_publishable_1qhA0xAnNSd3VxpoLdxYrQ_yUemEhaP' }}
+        run: |
+          python auto_publish_from_veille.py --json veille_intemperies_final.json --point "${{ github.event.inputs.article_point || 'auto' }}" --count 3
+
