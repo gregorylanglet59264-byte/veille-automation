@@ -311,12 +311,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Les vagues de chaleur et canicules en France
-• Infoclimat Direct : Le temps &#xE0; Rovaniemi (Finlande)
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -324,9 +324,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 7 Septembre 2026.
-Résumé général précédent : Sur l'ensemble des deux semaines (7-20 septembre 2026), persistance de conditions anticycloniques, températures globalement supérieures aux normales et sécheresse accentuée. Brève fraîcheur relative en milieu de semaine 1, puis retour marqué de la chaleur en semaine 2, surtout sur la moitié sud..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles, baisse thermique mercredi, chaleur estivale de retour en fin de semaine..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -434,7 +434,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 20 heures par cédric du Lot
+	Modifié il y a 21 heures par cédric du Lot
 								2
 								4
 								1
@@ -674,7 +674,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 20 heures par cédric du Lot
+	Modifié il y a 21 heures par cédric du Lot
 								2
 								4
 								1

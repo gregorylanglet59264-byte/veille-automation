@@ -308,11 +308,11 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Le topic du Jardinage
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
-Résumé général HDF précédent : Semaine 1: dégradation pluvieuse modérée mardi 08, rafraîchissement mercredi, puis retour d’un temps sec et plus doux dès vendredi. Semaine 2: blocage anticyclonique probable, températures au-dessus des normales, sécheresse qui s’accentue..
+Résumé général HDF précédent : Sur les deux semaines, alternance d'un court épisode pluvieux mardi 08, suivi d'un net rafraîchissement mercredi, puis d'un retour à un temps sec et de plus en plus doux jusqu'au week-end du 19-20 septembre. La tendance est nettement anticyclonique avec un déficit pluviométrique persistant..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies éparses, rafales jusqu’à 55 km/h possibles sur littoral, Santerre et Vexin/Thelle mardi, net rafraîchissement mercredi..
+Températures attendues précédemment : Pluies localisées, rafraîchissement bref, puis temps sec et doux..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -431,7 +431,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 20 heures par cédric du Lot
+	Modifié il y a 21 heures par cédric du Lot
 								2
 								4
 								1
@@ -671,7 +671,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 20 heures par cédric du Lot
+	Modifié il y a 21 heures par cédric du Lot
 								2
 								4
 								1
