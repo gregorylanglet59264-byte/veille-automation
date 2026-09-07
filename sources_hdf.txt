@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
-Résumé général HDF précédent : Sur les deux semaines, un temps sec et anticyclonique domine, entrecoupé d'un court épisode pluvieux modéré mardi 08. Les températures restent au-dessus des normales, avec un net rafraîchissement mercredi 09, puis une douceur croissante..
+Résumé général HDF précédent : Semaine 1: dégradation pluvieuse modérée mardi 08, rafraîchissement mercredi, puis retour d’un temps sec et plus doux dès vendredi. Semaine 2: blocage anticyclonique probable, températures au-dessus des normales, sécheresse qui s’accentue..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées mardi, puis temps sec et doux. (60 caractères).
+Températures attendues précédemment : Pluies éparses, rafales jusqu’à 55 km/h possibles sur littoral, Santerre et Vexin/Thelle mardi, net rafraîchissement mercredi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -431,7 +431,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 21 heures par cédric du Lot
+	Modifié il y a 20 heures par cédric du Lot
 								2
 								4
 								1
@@ -671,7 +671,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 21 heures par cédric du Lot
+	Modifié il y a 20 heures par cédric du Lot
 								2
 								4
 								1
