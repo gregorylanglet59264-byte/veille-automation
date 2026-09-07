@@ -315,7 +315,7 @@ Températures minimales : en hausse.
 Températures maximales : similaires à la veille.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 070355 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le lundi 7 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 7 septembre 2026 à 00H00 UTC, et évolution Hautes pressions autour de 1020 hPa. 3 - Prévisions pour la journée du lundi 7 septembre VENT : Ouest à Nord-Ouest 1 à 3, revenant Ouest à Sud-Ouest 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé, après dissipation des nuages bas vers la Camargue. VISIBILITE : parfois moyenne vers la Camargue en matinée, sinon bonne. 4 - Prévisions pour la nuit du lundi 7 septembre au mardi 8 septembre VENT : Ouest à Sud-Ouest 2 à 4, revenant Sud-Est à l'ouest du Cap Croisette en milieu de nuit. MER : belle. HOULE : non significative. TEMPS : ciel clair à peu nuageux, devenant nuageux et brumeux en première partie de nuit à l'ouest de Sicié. VISIBILITE : bonne, parfois moyenne à mauvaise. 5 - Prévisions pour la journée du mardi 8 septembre VENT : - à l'ouest de Sicié : Sud à Sud-Est 1 à 3, fraîchissant 3 à 4 dans l'après-midi. - à l'est de Sicié : secteur Sud-Ouest 2 à 4, fraîchissant parfois 5 vers Camarat en fin d'après-midi. MER : belle, devenant belle à peu agitée en fin d'après-midi. HOULE : non significative. TEMPS : ensoleillé, localement nuageux et brumeux le matin à l'ouest de Sicié. VISIBILITE : bonne, parfois moyenne à mauvaise le matin. 6 - Prévisions pour la nuit du 8 au 9 et la journée du mercredi 9 septembre VENT : De Port Camargue à la Ciotat variable 1 à 3 s'orientant Sud-Est puis Nord-Ouest 6 en milieu de nuit. Rafales. De la Ciotat au Levant variable 1 à 3, s'orientant Ouest à Nord-Ouest en fraîchissant rapidement 6, localement 7 en début de matinée de la Ciotat à Porquerolles. Rafales. Du Levant à St Raphaël Ouest à Sud-Ouest 4, fraîchissant rapidement 6 en début de matinée, et atteignant 7 du Levant à Camarat. MER : De Port Camargue à Porquerolles mer belle à peu agitée devenant agitée, localement forte de la Ciotat à Porquerolles. De Porquerolles à St Raphaël mer belle devenant agitée, localement forte du Levant à Camarat. HOULE non significative s'établissant localement à l'Ouest à Sud-Ouest 1 à 1,5 m. 7 - Tendance pour les jours suivants Jeudi 10 septembre Nord-Ouest assez fort. Ouest à Sud-Ouest modéré autour de la Corse. Indice de confiance : 4 sur 5 Vendredi 11 septembre Nord-Ouest modéré. Ouest faible à modéré autour de la Corse. Indice de confiance : 3 sur 5 Samedi 12 septembre Nord-Ouest modéré. Nord à Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Dimanche 13 septembre Nord-Ouest modéré. Nord-Est faible entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le lundi 7 septembre 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Ouest 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Nord-Nord-Ouest 4 noeuds. Le Levant : vent Est-Sud-Est 4 noeuds, 1021 hPa en baisse. Porquerolles : vent Sud-Ouest 4 noeuds. Cap Couronne : vent Nord-Nord-Ouest 6 noeuds. Prochain bulletin le lundi 7 septembre 2026, vers 13H00 légales
+FQCT40 LFML 070940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le lundi 7 septembre 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 7 septembre 2026 à 06H00 UTC, et évolution Hautes pressions autour de 1020 hPa, en baisse mardi avec l'arrivée d'un talweg, traversant le bassin la nuit suivante. 3 - Prévisions pour l'après-midi du lundi 7 septembre VENT : Ouest à Sud-Ouest 2 à 4. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du lundi 7 septembre au mardi 8 septembre VENT : Ouest à Sud-Ouest 2 à 4, revenant Sud-Est à l'ouest du Cap Croisette en milieu de nuit. MER : belle. HOULE : non significative. TEMPS : ciel clair à peu nuageux, devenant nuageux et brumeux en première partie de nuit à l'ouest de Sicié. VISIBILITE : bonne, parfois moyenne à mauvaise. 5 - Prévisions pour la journée du mardi 8 septembre VENT : - à l'ouest de Sicié : Sud à Sud-Est 1 à 3, fraîchissant 3 à 4 l'après-midi. - à l'est de Sicié : secteur Sud-Ouest 2 à 3, fraîchissant 3 à 4 l'après-midi, parfois 5 vers Camarat à la fin. MER : belle, devenant peu agitée vers la Camargue en fin de journée. HOULE : non significative. TEMPS : ensoleillé, localement nuageux et brumeux le matin à l'ouest de Sicié. VISIBILITE : bonne, parfois moyenne à mauvaise le matin. 6 - Prévisions pour la nuit du 8 au 9 et la journée du mercredi 9 septembre VENT : secteur Nord-Ouest 5 à 6 s'établissant progressivement par l'ouest à partiir du milieu de nuit avec menace de 7. Rafales. MER : belle à peu agitée, devenant peu agitée à agitée en fin de nuit, puis forte au large des iles d'Hyères en fin de journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : passage pluvieux, averses, parfois orageux. Eclaircies en fin de journée. VISIBILITE : moyenne à mauvaise sous pluie ou averses. 7 - Prévisions pour la nuit du 9 au 10 et la journée du jeudi 10 septembre VENT : De Port Camargue à Fos Nord à Nord-Ouest 6, fraîchissant 8 en début de nuit, puis mollissant 4 en milieu d'après-midi. Rafales. De Fos à Porquerolles Nord-Ouest 7 à 8, virant Nord à Nord-Est 2 à 4 en milieu d'après-midi. Fortes rafales. De Porquerolles à St Raphaël Ouest 5 à 6, s'orientant Est 3 à 5 en seconde partie de nuit. MER : agitée à forte devenant peu agitée en seconde partie de nuit. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1,5 à 2 m en début de nuit. 8 - Tendance pour les jours suivants Vendredi 11 septembre Nord-Ouest modéré à assez fort. Ouest faible à modéré autour de la Corse. Indice de confiance : 3 sur 5 Samedi 12 septembre Nord-Ouest modéré à assez fort. Nord à Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Dimanche 13 septembre Nord faible à modéré devenant faible. Indice de confiance : 2 sur 5 Lundi 14 septembre Nord faible. Indice de confiance : 2 sur 5 9 - Observations le lundi 7 septembre 2026 à 09H00 UTC Cap Camarat : vent Est-Sud-Est 2 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Sud-Ouest 4 noeuds. Le Levant : vent Ouest 4 noeuds, 1022 hPa en hausse. Porquerolles : vent Ouest-Nord-Ouest 2 noeuds. Cap Couronne : vent Sud-Sud-Ouest 4 noeuds, mer belle, visibilité 9 milles. Prochain bulletin le lundi 7 septembre 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -338,11 +338,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Tendances automne 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : =30°C consécutives]]>
+• Infoclimat Direct : Migration de la ZCT
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -350,50 +351,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 7 Septembre 2026.
-Résumé général précédent : Sur les deux prochaines semaines, la France connaîtra une évolution en trois temps : d'abord une canicule résiduelle lundi et mardi, puis un rafraîchissement net en milieu de semaine, et enfin un retour progressif de la chaleur avec un temps sec et anticyclonique. Les pluies attendues en début de semaine 1 seront insuffisantes pour résorber la sécheresse..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées mardi/mercredi, rafraîchissement net, retour d'un temps sec et chaud en fin de semaine. (116 caractères).
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: tao
-Message:
-Bonjour,
-	il y a bien un retour des pluies prévu pour la semaine prochaine.
-	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié vendredi à 17:18 par tao
-								17
-								2
-								4
-
-=======================
-
-Auteur: giec 2100
-Message:
-il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où sont stockés les burnous anti-pluie, sauf pour quelques chanceux Bretons et Normands...
-	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
-	donc idem pour les mitaines et cache-nez...
-	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié vendredi à 20:41 par giec 2100
-								1
-
-=======================
-
-Auteur: Gabhubert
-Message:
-Bonsoir et merci à vous deux pour vos réponses !     Nous sommes d'accord :les titres de ce que publie Guillaume S. sont accrocheurs et sont au final très,très discutables . Evidemment que c'est hors-normes depuis mai......la sécheresse de 1976 n'a pas été d'une durée aussi longue (il a plu vers fin aout ) et ,de plus, les températures étaient nettement moins élevées....c'était il y a juste 50 ans , tout était alors très différent !!   Sur la carte publiée par Tao , les pluies  "annoncées" sont sur un axe qui va du Pays basque aux Ardennes avec des quantités très faibles ......et quand malheureusement on est à  l'est de cette ligne ,comme ici en Saone et Loire , on a vraiment rien du tout comme d'habitude et celà dure depuis un peu plus de 4 mois consécutifs .....et aucun vrai  changement en vue !!!!!   🙄
-								2
-								1
-
-=======================
-
-Auteur: Plancher
-Message:
-On passera d'un extrême à l'autre et on se plaindra de pluies trop abondantes. Ce n'est qu'une supposition évidemment.
-	Pour revenir au topic, les températures sont en nettes baisses, non ?
-
-=======================
-
 Auteur: bruno50
 Message:
 Il y a 14 heures, Gabhubert a dit :
@@ -487,7 +450,7 @@ cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de l
 Auteur: Lodu17
 Message:
 La merde? Mais encore?
-								3
+								4
 								1
 								1
 								1
@@ -531,7 +494,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 12 heures par cédric du Lot
+	Modifié il y a 14 heures par cédric du Lot
 								2
 								4
 								1
@@ -546,7 +509,7 @@ Vous parlez d'une semaine fraîche ? Vraiment ?
 	Derrière mercredi et jeudi journées de saison et retour à la chaleur des vendredi et encore plus le weekend prochain 🙏 
 	Il faudrait vraiment se mettre dans la tête que nous entrons dans une nouvelle ère maintenant à moins de se demander sur quelles normes doit on se baser. Si c'est celles de 2026 OK 👍
 								1
-								1
+								2
 								1
 								1
 
@@ -586,49 +549,59 @@ Auteur: fran39
 Message:
 La sécheresse continue en effet (à des niveaux inédits pour la saison) et va continuer de s'aggraver dans les secteurs (en fait la majorité) qui seront évités par la pluie. 
 	Les cumuls qui devaient initialement concerner les régions d'un vaste Nord-Ouest sont graduellement vus remonter vers la Manche...
+								3
+								1
+								5
+
+=======================
+
+Auteur: nickdu77
+Message:
+Je pense surtout l'inquiétude de beaucoup - et c'est tout à fait compréhensible - vient de l'impression que rien ne va jamais changer et que l'on va rester indéfiniment dans cette situation hors norme. Ce n'est tout de même pas ce qui se profile pour la semaine en cours où les températures vont diminuer tout en restant éventuellement au-dessus des normales de saison selon les jours. Les minimales notamment commencent - enfin - à baisser.
+	La vraie inquiétude c'est effectivement les PP mais cela aussi se débloquera un jour et au-delà de 1976 de telles situations ont pu se produire : en 1540 par exemple une sécheresse exceptionnelle, en 1719 pour une canicule exceptionnelle. La différence, c'est que cela n'intervenait pas dans un contexte de réchauffement climatique. Ce sont donc restés des évènements très ponctuels qui ne pouvait se renouveler que sur des échéances du siècle : d'ailleurs on parle de "la canicule de 1719", nous serions bien embêtés, s'il fallait nommer toutes les années caniculaires des trente dernières années. Dans notre situation, on peut craindre que cela se renouvelle dans les prochaines années / décennies.
+	Pour le moment, si je prends les derniers GEFS pour Paris : 
+	Lyon : 
+	Marseille
+	Et Bordeaux:
+	O
+	On reste sur quelque chose de "normal mais assez chaud pour une première quinzaine de septembre" mais effectivement, les PP sont très très décevantes.
+
+=======================
+
+Auteur: cirrus007
+Message:
+il y a une heure, nickdu77 a dit :
+			On reste sur quelque chose de "normal mais assez chaud pour une première quinzaine de septembre" mais effectivement, les PP sont très très décevantes.
+	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
+	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
+	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
 								1
 								1
-								4
+
+=======================
+
+Auteur: nickdu77
+Message:
+Ce que je voulais dire, c'est que c'était une variation qui reste "admissible" mais clairement au-dessus de la moyenne bien sûr : on est juste pas sur de l'apocalyptique et c'est déjà un gros changement😀
+	Quand aux températures "normales" (13/21,5), je ne peux que renvoyer au rapport du GIEC qui aborde cette question - à la fin d'un des rapports si je me souviens bien - des normales dans un contexte de réchauffement où les normes se déplacent. On calcule sur 1990-2020 donc, très grossièrement, sur un "septembre 2005" mais je suis sûr que si nous calculions les normales des 10 derniers mois de septembre, on se situerait plutôt vers 24°C, représente "seulement" +3°C par rapport aux dix derniers mois de septembre et au lieu d'être sur deux sigma (par exemple), on est plus que sur un sigma.
+	C'est d'ailleurs un peu le drame du réchauffement : il "créé de nouvelles normes" auxquelles on s'habitue puisque précisément cela devient de nouvelles normes et c'est à mon avis une des raisons de l'apathie de nos dirigeants et d'une partie de la population par rapport au réchauffement qui finit par dire c'est "normal" alors qu'en fait non pas du tout. Cela créé une forme d'inertie même si le réchauffement est très rapide. D'ailleurs je suis sûr que s'il se mettait à faire 13/21,5°C, ne serait-ce que quelques jours, on aurait droit à des troupeaux de climatosceptiques dans les réseaux sociaux pour expliquer que le RC n'existe pas : il suffit de deux jours de pluie et d'un degré sous les normes (1990-2020) pour les faire sortir ....
+								1
+
+=======================
+
+Auteur: cirrus007
+Message:
+il y a 4 minutes, nickdu77 a dit :
+			Ce que je voulais dire, c'est que c'était une variation qui reste "admissible" mais clairement au-dessus de la moyenne bien sûr : on est juste pas sur de l'apocalyptique et c'est déjà un gros changement😀
+			Quand aux températures "normales" (13/21,5), je ne peux que renvoyer au rapport du GIEC qui aborde cette question - à la fin d'un des rapports si je me souviens bien - des normales dans un contexte de réchauffement où les normes se déplacent. On calcule sur 1990-2020 donc, très grossièrement, sur un "septembre 2005" mais je suis sûr que si nous calculions les normales des 10 derniers mois de septembre, on se situerait plutôt vers 24°C, représente "seulement" +3°C par rapport aux dix derniers mois de septembre et au lieu d'être sur deux sigma (par exemple), on est plus que sur un sigma.
+			C'est d'ailleurs un peu le drame du réchauffement : il "créé de nouvelles normes" auxquelles on s'habitue puisque précisément cela devient de nouvelles normes et c'est à mon avis une des raisons de l'apathie de nos dirigeants et d'une partie de la population par rapport au réchauffement qui finit par dire c'est "normal" alors qu'en fait non pas du tout. Cela créé une forme d'inertie même si le réchauffement est très rapide. D'ailleurs je suis sûr que s'il se mettait à faire 13/21,5°C, ne serait-ce que quelques jours, on aurait droit à des troupeaux de climatosceptiques dans les réseaux sociaux pour expliquer que le RC n'existe pas : il suffit de deux jours de pluie et d'un degré sous les normes (1990-2020) pour les faire sortir ....
+	Tout à fait et c'est un autre débat, un peu hors sujet ici, ce phénomène de "shifting baseline" est bien documenté en sciences humaines.
+	Pour les 10 derniers mois de Septembre à +24°C peut-être pas, je n'ai pas le temps de faire le calcul mais je dirais plutôt quelque chose comme 22.5/23°C, ce qui correspondrait déjà à du +1.5°C par rapport à une norme centrée sur 2005. 2026 est tellement hors norme que revenir à des valeurs de saison s'apparente à une VDF par la plupart, c'est stupéfiant et inquiétant à la fois.
+	Après j'entend que pour la moitié Nord cette semaine à venir (et surtout celle d'après) sera "agréable", même avec +5°C/norme l'été Indien arrivé mi-Septembre reste plaisant et profitable dans la moitié Nord (quoi que). Pour le pourtour Med j'ai regardé les diag ce matin et j'ai cru rêver, il serait même encore possible de dépasser les 35°C à nouveau d'ici 10 jours... mais hors topic! 
+								1
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: tao
-Message:
-Bonjour,
-	il y a bien un retour des pluies prévu pour la semaine prochaine.
-	Peut-être qu'elles seront faibles par rapport à bien des attentes mais en prévision elles existent. La chute des températures est elle aussi au programme si bien que l'on devrait progressivement se situer proche des moyennes de saison.
-	Modifié vendredi à 17:18 par tao
-								17
-								2
-								4
-
-=======================
-
-Auteur: giec 2100
-Message:
-il est sans doute un peu trop tôt pour sortir l'antimites des armoires, où sont stockés les burnous anti-pluie, sauf pour quelques chanceux Bretons et Normands...
-	au reste c'est pas plus mal, car la "fraîcheur" n'est pas non plus au rendez-vous... :
-	donc idem pour les mitaines et cache-nez...
-	voilà pour les premiers conseils de "météo ménagère", astucieusement  pilotée avec les instruments les plus robustes et fiables, l'américain GFS et l'européen CEP...
-	Modifié vendredi à 20:41 par giec 2100
-								1
-
-=======================
-
-Auteur: Gabhubert
-Message:
-Bonsoir et merci à vous deux pour vos réponses !     Nous sommes d'accord :les titres de ce que publie Guillaume S. sont accrocheurs et sont au final très,très discutables . Evidemment que c'est hors-normes depuis mai......la sécheresse de 1976 n'a pas été d'une durée aussi longue (il a plu vers fin aout ) et ,de plus, les températures étaient nettement moins élevées....c'était il y a juste 50 ans , tout était alors très différent !!   Sur la carte publiée par Tao , les pluies  "annoncées" sont sur un axe qui va du Pays basque aux Ardennes avec des quantités très faibles ......et quand malheureusement on est à  l'est de cette ligne ,comme ici en Saone et Loire , on a vraiment rien du tout comme d'habitude et celà dure depuis un peu plus de 4 mois consécutifs .....et aucun vrai  changement en vue !!!!!   🙄
-								2
-								1
-
-=======================
-
-Auteur: Plancher
-Message:
-On passera d'un extrême à l'autre et on se plaindra de pluies trop abondantes. Ce n'est qu'une supposition évidemment.
-	Pour revenir au topic, les températures sont en nettes baisses, non ?
-
-=======================
-
 Auteur: bruno50
 Message:
 Il y a 14 heures, Gabhubert a dit :
@@ -722,7 +695,7 @@ cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de l
 Auteur: Lodu17
 Message:
 La merde? Mais encore?
-								3
+								4
 								1
 								1
 								1
@@ -766,7 +739,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 12 heures par cédric du Lot
+	Modifié il y a 14 heures par cédric du Lot
 								2
 								4
 								1
@@ -781,7 +754,7 @@ Vous parlez d'une semaine fraîche ? Vraiment ?
 	Derrière mercredi et jeudi journées de saison et retour à la chaleur des vendredi et encore plus le weekend prochain 🙏 
 	Il faudrait vraiment se mettre dans la tête que nous entrons dans une nouvelle ère maintenant à moins de se demander sur quelles normes doit on se baser. Si c'est celles de 2026 OK 👍
 								1
-								1
+								2
 								1
 								1
 
@@ -821,6 +794,54 @@ Auteur: fran39
 Message:
 La sécheresse continue en effet (à des niveaux inédits pour la saison) et va continuer de s'aggraver dans les secteurs (en fait la majorité) qui seront évités par la pluie. 
 	Les cumuls qui devaient initialement concerner les régions d'un vaste Nord-Ouest sont graduellement vus remonter vers la Manche...
+								3
+								1
+								5
+
+=======================
+
+Auteur: nickdu77
+Message:
+Je pense surtout l'inquiétude de beaucoup - et c'est tout à fait compréhensible - vient de l'impression que rien ne va jamais changer et que l'on va rester indéfiniment dans cette situation hors norme. Ce n'est tout de même pas ce qui se profile pour la semaine en cours où les températures vont diminuer tout en restant éventuellement au-dessus des normales de saison selon les jours. Les minimales notamment commencent - enfin - à baisser.
+	La vraie inquiétude c'est effectivement les PP mais cela aussi se débloquera un jour et au-delà de 1976 de telles situations ont pu se produire : en 1540 par exemple une sécheresse exceptionnelle, en 1719 pour une canicule exceptionnelle. La différence, c'est que cela n'intervenait pas dans un contexte de réchauffement climatique. Ce sont donc restés des évènements très ponctuels qui ne pouvait se renouveler que sur des échéances du siècle : d'ailleurs on parle de "la canicule de 1719", nous serions bien embêtés, s'il fallait nommer toutes les années caniculaires des trente dernières années. Dans notre situation, on peut craindre que cela se renouvelle dans les prochaines années / décennies.
+	Pour le moment, si je prends les derniers GEFS pour Paris : 
+	Lyon : 
+	Marseille
+	Et Bordeaux:
+	O
+	On reste sur quelque chose de "normal mais assez chaud pour une première quinzaine de septembre" mais effectivement, les PP sont très très décevantes.
+
+=======================
+
+Auteur: cirrus007
+Message:
+il y a une heure, nickdu77 a dit :
+			On reste sur quelque chose de "normal mais assez chaud pour une première quinzaine de septembre" mais effectivement, les PP sont très très décevantes.
+	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
+	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
+	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
 								1
 								1
-								4
+
+=======================
+
+Auteur: nickdu77
+Message:
+Ce que je voulais dire, c'est que c'était une variation qui reste "admissible" mais clairement au-dessus de la moyenne bien sûr : on est juste pas sur de l'apocalyptique et c'est déjà un gros changement😀
+	Quand aux températures "normales" (13/21,5), je ne peux que renvoyer au rapport du GIEC qui aborde cette question - à la fin d'un des rapports si je me souviens bien - des normales dans un contexte de réchauffement où les normes se déplacent. On calcule sur 1990-2020 donc, très grossièrement, sur un "septembre 2005" mais je suis sûr que si nous calculions les normales des 10 derniers mois de septembre, on se situerait plutôt vers 24°C, représente "seulement" +3°C par rapport aux dix derniers mois de septembre et au lieu d'être sur deux sigma (par exemple), on est plus que sur un sigma.
+	C'est d'ailleurs un peu le drame du réchauffement : il "créé de nouvelles normes" auxquelles on s'habitue puisque précisément cela devient de nouvelles normes et c'est à mon avis une des raisons de l'apathie de nos dirigeants et d'une partie de la population par rapport au réchauffement qui finit par dire c'est "normal" alors qu'en fait non pas du tout. Cela créé une forme d'inertie même si le réchauffement est très rapide. D'ailleurs je suis sûr que s'il se mettait à faire 13/21,5°C, ne serait-ce que quelques jours, on aurait droit à des troupeaux de climatosceptiques dans les réseaux sociaux pour expliquer que le RC n'existe pas : il suffit de deux jours de pluie et d'un degré sous les normes (1990-2020) pour les faire sortir ....
+								1
+
+=======================
+
+Auteur: cirrus007
+Message:
+il y a 4 minutes, nickdu77 a dit :
+			Ce que je voulais dire, c'est que c'était une variation qui reste "admissible" mais clairement au-dessus de la moyenne bien sûr : on est juste pas sur de l'apocalyptique et c'est déjà un gros changement😀
+			Quand aux températures "normales" (13/21,5), je ne peux que renvoyer au rapport du GIEC qui aborde cette question - à la fin d'un des rapports si je me souviens bien - des normales dans un contexte de réchauffement où les normes se déplacent. On calcule sur 1990-2020 donc, très grossièrement, sur un "septembre 2005" mais je suis sûr que si nous calculions les normales des 10 derniers mois de septembre, on se situerait plutôt vers 24°C, représente "seulement" +3°C par rapport aux dix derniers mois de septembre et au lieu d'être sur deux sigma (par exemple), on est plus que sur un sigma.
+			C'est d'ailleurs un peu le drame du réchauffement : il "créé de nouvelles normes" auxquelles on s'habitue puisque précisément cela devient de nouvelles normes et c'est à mon avis une des raisons de l'apathie de nos dirigeants et d'une partie de la population par rapport au réchauffement qui finit par dire c'est "normal" alors qu'en fait non pas du tout. Cela créé une forme d'inertie même si le réchauffement est très rapide. D'ailleurs je suis sûr que s'il se mettait à faire 13/21,5°C, ne serait-ce que quelques jours, on aurait droit à des troupeaux de climatosceptiques dans les réseaux sociaux pour expliquer que le RC n'existe pas : il suffit de deux jours de pluie et d'un degré sous les normes (1990-2020) pour les faire sortir ....
+	Tout à fait et c'est un autre débat, un peu hors sujet ici, ce phénomène de "shifting baseline" est bien documenté en sciences humaines.
+	Pour les 10 derniers mois de Septembre à +24°C peut-être pas, je n'ai pas le temps de faire le calcul mais je dirais plutôt quelque chose comme 22.5/23°C, ce qui correspondrait déjà à du +1.5°C par rapport à une norme centrée sur 2005. 2026 est tellement hors norme que revenir à des valeurs de saison s'apparente à une VDF par la plupart, c'est stupéfiant et inquiétant à la fois.
+	Après j'entend que pour la moitié Nord cette semaine à venir (et surtout celle d'après) sera "agréable", même avec +5°C/norme l'été Indien arrivé mi-Septembre reste plaisant et profitable dans la moitié Nord (quoi que). Pour le pourtour Med j'ai regardé les diag ce matin et j'ai cru rêver, il serait même encore possible de dépasser les 35°C à nouveau d'ici 10 jours... mais hors topic! 
+								1
+								1
