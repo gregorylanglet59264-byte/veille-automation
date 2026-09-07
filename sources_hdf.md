@@ -308,12 +308,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Tendance hiver 2026-2027
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Cartes insolites #2
+• Infoclimat Direct : Du 07 septembre au 13 septembre 2026 prévisions météo semaine 37
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,40 +321,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Tendance générale sur les 2 semaines : passage d’une perturbation modeste lundi-mardi (8-9), puis installation d’un temps sec, doux et de plus en plus ensoleillé, avec une hausse progressive des températures en deuxième semaine. Les cumuls de pluie resteront globalement très faibles, insuffisants pour atténuer le déficit hydrique..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Pluies faibles et éparses mardi, puis temps sec et progressivement plus chaud dès vendredi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: bruno50
-Message:
-Il y a 4 heures, tao a dit :
-			Bonjour,
-			mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
-			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
-			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié samedi à 14:47 par bruno50
-								1
-
-=======================
-
-Auteur: giec 2100
-Message:
-Il y a 4 heures, bruno50 a dit :
-			Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	rétrospectivement, si ça peut nous aider à dompter l'étrange des "habituelles situations" de 2026 : 
-	1976 avait commencé à se "remplumer" pluviométriquement dès l'été, avec de petits excédents relativement à la normale, mais surtout l'année a été suivie par 1977 très pluvieuse il me semble, avec des relevés annuels que je n'arrive pas à réunir...
-	par contre pour la seule station de Bordeaux Paulin aller consulter les mois d'automne de 1976, le dernier quadrimestre, est un vrai régal : que des valeurs mensuelles à trois chiffres en mm... !
-	https://www.infoclimat.fr/climatologie/globale/mois-de-decembre/bordeaux-paulin/MF33063001.html
-	alors certes, outre l'éco-anxiété qu'auront pu provoquer ces derniers mois littéralement infernaux, on n'a plus le punch pour imaginer des prévisions météo à court ou moyen terme qui enregistrent un vrai point d'inflexion, tellement on a été frustré par ce verrou anticyclonique permanent, qui s'obstine encore pour l'échéance qui nous concerne...
-	on s'imagine désormais satellisé à jamais à la zone intertropicale, sa partie sèche et chaude du N de l'Afrique, à contempler impuissant le ballet des minimums au-delà du 50°N, idem pour le courant jet...
-	et puis ce super El Niño n'est pas là non plus pour nous tranquilliser, avec de la "nouveauté" en négatif qui risque de faire sortir du routinier prévisionnel...
-								1
-
-=======================
-
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
@@ -412,7 +384,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 22 heures par cédric du Lot
+	Modifié hier à 19:10 par cédric du Lot
 								2
 								4
 								1
@@ -526,8 +498,8 @@ il y a 4 minutes, nickdu77 a dit :
 Auteur: lubo
 Message:
 Alors, je reste dans le h.s, sorry, mais finalement pour 3/4 des urbains que nous sommes, être en tee-shirt en septembre, ne pas peler le matin en hiver, profiter du soleil.....ben.... c'est cool😐
-								1
-								4
+								2
+								6
 
 =======================
 
@@ -553,36 +525,34 @@ Auteur: clem11
 Message:
 Ce jet stream repoussé jusqu’aux confins du nord de l’écosse et du sud Scandinavie est terrible pour nous. On est pas prêt de voir de la pluie de façon conséquente et continue. Et qui plus est avec une chaleur quasi perpétuelle sur une grande partie du pays. Oui on va plutôt sur du 28/35 mais tout de même. On arrive vite à mi septembre et c’est déjà 4 à 10 degrés de trop… J’en pète
 								1
+								1
+								4
+
+=======================
+
+Auteur: giec 2100
+Message:
+@clem11 oui, et le jet en question a l'air bien poussif : 
+	ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
+	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
+	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
+								2
+								1
+
+=======================
+
+Auteur: clem11
+Message:
+il y a 11 minutes, giec 2100 a dit :
+			@clem11 oui, et le jet en question a l'air bien poussif : 
+			ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
+			à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
+			pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
+	Exactement. Et je crois qu’on devine suffisamment bien maintenant ce que ça va pouvoir donner dans notre cadran hémisphérique pour les années à venir…
+	Des extrêmes marqués en terme humide avec de longues périodes sèches et un excès d’ensoleillement et de T. Un vortex réduit à peau de chagrin avec des blocages et des GF. Malheureusement sur notre secteur ça s’accompagne plus souvent par des remontées de HG. On paye notre proximité avec l’Afrique du Nord et la faiblesse chronique du jet. Ça fait peur pour la suite. Particulièrement sur l’aridité fréquente de notre futur climat. On a l’impression de courir après un lièvre pour apercevoir ne serait ce qu’une vraie dépression mi septembre c’est quand même dingue 
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: bruno50
-Message:
-Il y a 4 heures, tao a dit :
-			Bonjour,
-			mai n'a pas été archi pluvieux sauf localement. Il est en dessous des moyennes sur une grande partie du pays, globalement du sud-ouest au nord-est: Par là.
-			Pour avoir bien écouté les explications des hydrologues sur cette sécheresse, il faut bien comprendre que ces réserves dont on entend parler sont bien peu de choses face au bond des températures. On ne peut plus regarder la pluviométrie comme par le passé en miroir de températures contenues dans une fourchette à peu près connue.
-			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-	Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	Modifié samedi à 14:47 par bruno50
-								1
-
-=======================
-
-Auteur: giec 2100
-Message:
-Il y a 4 heures, bruno50 a dit :
-			Salut, ton lien (cartes pluies) signale que les précipitations de mai ont été massivement excédentaires non seulement par chez moi mais aussi sur l'ensemble des Pays de la Loire, et faiblement excédentaires sur les Charentes et l'Aquitaine, bref presque toutes les régions les plus passées au chalumeau en dehors de la traditionnelle bordure méditerranéenne. Seules la Vendée et une partie de la Loire Atlantique sont passées entre les gouttes. Et en 1976, il n'y a pas eu février 2026. Quant aux explications des hydrologues, c'est bien pour ça que je suis très inquiet à la perspective d'associer un jour l'hiver et le printemps de 76 avec l'été 2026, justement parce que l'évapotranspiration n'a plus rien à voir. Un été qui n'est pas vraiment fini sur la moitié sud la semaine prochaine et sans doute au delà.
-	rétrospectivement, si ça peut nous aider à dompter l'étrange des "habituelles situations" de 2026 : 
-	1976 avait commencé à se "remplumer" pluviométriquement dès l'été, avec de petits excédents relativement à la normale, mais surtout l'année a été suivie par 1977 très pluvieuse il me semble, avec des relevés annuels que je n'arrive pas à réunir...
-	par contre pour la seule station de Bordeaux Paulin aller consulter les mois d'automne de 1976, le dernier quadrimestre, est un vrai régal : que des valeurs mensuelles à trois chiffres en mm... !
-	https://www.infoclimat.fr/climatologie/globale/mois-de-decembre/bordeaux-paulin/MF33063001.html
-	alors certes, outre l'éco-anxiété qu'auront pu provoquer ces derniers mois littéralement infernaux, on n'a plus le punch pour imaginer des prévisions météo à court ou moyen terme qui enregistrent un vrai point d'inflexion, tellement on a été frustré par ce verrou anticyclonique permanent, qui s'obstine encore pour l'échéance qui nous concerne...
-	on s'imagine désormais satellisé à jamais à la zone intertropicale, sa partie sèche et chaude du N de l'Afrique, à contempler impuissant le ballet des minimums au-delà du 50°N, idem pour le courant jet...
-	et puis ce super El Niño n'est pas là non plus pour nous tranquilliser, avec de la "nouveauté" en négatif qui risque de faire sortir du routinier prévisionnel...
-								1
-
-=======================
-
 Auteur: djoss
 Message:
 cette nuit le 18z de GFS: le retour de la merde à perte de vue dès la fin de la semaine pro
@@ -640,7 +610,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 22 heures par cédric du Lot
+	Modifié hier à 19:10 par cédric du Lot
 								2
 								4
 								1
@@ -754,8 +724,8 @@ il y a 4 minutes, nickdu77 a dit :
 Auteur: lubo
 Message:
 Alors, je reste dans le h.s, sorry, mais finalement pour 3/4 des urbains que nous sommes, être en tee-shirt en septembre, ne pas peler le matin en hiver, profiter du soleil.....ben.... c'est cool😐
-								1
-								4
+								2
+								6
 
 =======================
 
@@ -781,3 +751,29 @@ Auteur: clem11
 Message:
 Ce jet stream repoussé jusqu’aux confins du nord de l’écosse et du sud Scandinavie est terrible pour nous. On est pas prêt de voir de la pluie de façon conséquente et continue. Et qui plus est avec une chaleur quasi perpétuelle sur une grande partie du pays. Oui on va plutôt sur du 28/35 mais tout de même. On arrive vite à mi septembre et c’est déjà 4 à 10 degrés de trop… J’en pète
 								1
+								1
+								4
+
+=======================
+
+Auteur: giec 2100
+Message:
+@clem11 oui, et le jet en question a l'air bien poussif : 
+	ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
+	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
+	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
+								2
+								1
+
+=======================
+
+Auteur: clem11
+Message:
+il y a 11 minutes, giec 2100 a dit :
+			@clem11 oui, et le jet en question a l'air bien poussif : 
+			ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
+			à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
+			pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
+	Exactement. Et je crois qu’on devine suffisamment bien maintenant ce que ça va pouvoir donner dans notre cadran hémisphérique pour les années à venir…
+	Des extrêmes marqués en terme humide avec de longues périodes sèches et un excès d’ensoleillement et de T. Un vortex réduit à peau de chagrin avec des blocages et des GF. Malheureusement sur notre secteur ça s’accompagne plus souvent par des remontées de HG. On paye notre proximité avec l’Afrique du Nord et la faiblesse chronique du jet. Ça fait peur pour la suite. Particulièrement sur l’aridité fréquente de notre futur climat. On a l’impression de courir après un lièvre pour apercevoir ne serait ce qu’une vraie dépression mi septembre c’est quand même dingue 
+								2
