@@ -292,7 +292,7 @@ Températures minimales : en hausse dans le Volvestre.
 Températures maximales : similaires à la veille.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 061600 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le dimanche 6 septembre 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale dimanche 6 septembre 2026 à 12H00 UTC, et évolution Hautes pressions autour de 1020 hPa. 3 - Prévisions pour la nuit du dimanche 6 septembre au lundi 7 septembre VENT : Variable 1 à 3, secteur Est dominant au début, puis Nord-Ouest dominant vers la Camargue. MER : belle. HOULE : non significative. TEMPS : arrivée de nuages bas vers la Camargue, peu nuageux ailleurs. VISIBILITE : parfois moyenne vers la Camargue, sinon bonne. 4 - Prévisions pour la journée du lundi 7 septembre VENT : Nord-Ouest 1 à 3, parfois 4 vers la Camargue, revenant Ouest à Sud-Ouest l'après-midi, parfois 4 vers les Iles d'Hyères. MER : belle. HOULE : non significative. TEMPS : ensoleillé, après dissipation des nuages bas vers la Camargue. VISIBILITE : parfois moyenne vers la Camargue en matinée, sinon bonne. 5 - Tendance pour la nuit du 7 au 8, et la journée du mardi 8 septembre VENT : à l'ouest de Cap Croisette secteur Sud 1 à 3, fraîchissant Sud-Est 3 à 4 dans l'après-midi. À l'est de Cap Croisette; secteur Sud-Ouest 2 à 4. MER : belle, devenant peu agitée vers le Cap Camarat en fin d'après-midi. HOULE : non significative. TEMPS : arrivée de nuages bas dans la nuit à l'ouest du Cap Croisette, puis devenant ensoleillé en matinée. Ciel peu nuageux à l'est du Cap Croisette. VISIBILITE : bonne, parfois moyenne avec les nuages bas. 6 - Prévisions pour la nuit du 8 au 9 et la journée du mercredi 9 septembre VENT : De Port Camargue à Porquerolles Sud à Sud-Est 2 à 4, fraîchissant 5 à 6 en cours de matinée en virant Nord-Ouest. Fortes rafales. De Porquerolles à St Raphaël secteur Ouest 2 à 4, fraîchissant rapidement 5 en cours de matinée, et atteignant 6 du Levant à St Raphaël. Rafales. MER : belle à peu agitée, devenant agitée en milieu d'après-midi. HOULE non significative s'établissant localement à l'Ouest à Sud-Ouest 1 à 1,5 m. 7 - Tendance pour les jours suivants Jeudi 10 septembre Nord-Ouest assez fort. Ouest à Sud-Ouest modéré autour de la Corse. Indice de confiance : 4 sur 5 Vendredi 11 septembre Nord-Ouest modéré. Ouest faible à modéré autour de la Corse. Indice de confiance : 3 sur 5 Samedi 12 septembre Nord-Ouest modéré. Nord à Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Dimanche 13 septembre Nord-Ouest modéré. Nord-Est faible entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le dimanche 6 septembre 2026 à 15H00 UTC Cap Camarat : vent Nord-Nord-Est 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Est 10 noeuds. Le Levant : vent Est-Nord-Est 10 noeuds, 1020 hPa en baisse. Cap Couronne : vent Sud-Sud-Ouest 6 noeuds. Prochain bulletin le lundi 7 septembre 2026, vers 06H30 légales
+FQCT40 LFML 070355 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le lundi 7 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 7 septembre 2026 à 00H00 UTC, et évolution Hautes pressions autour de 1020 hPa. 3 - Prévisions pour la journée du lundi 7 septembre VENT : Ouest à Nord-Ouest 1 à 3, revenant Ouest à Sud-Ouest 2 à 4 l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé, après dissipation des nuages bas vers la Camargue. VISIBILITE : parfois moyenne vers la Camargue en matinée, sinon bonne. 4 - Prévisions pour la nuit du lundi 7 septembre au mardi 8 septembre VENT : Ouest à Sud-Ouest 2 à 4, revenant Sud-Est à l'ouest du Cap Croisette en milieu de nuit. MER : belle. HOULE : non significative. TEMPS : ciel clair à peu nuageux, devenant nuageux et brumeux en première partie de nuit à l'ouest de Sicié. VISIBILITE : bonne, parfois moyenne à mauvaise. 5 - Prévisions pour la journée du mardi 8 septembre VENT : - à l'ouest de Sicié : Sud à Sud-Est 1 à 3, fraîchissant 3 à 4 dans l'après-midi. - à l'est de Sicié : secteur Sud-Ouest 2 à 4, fraîchissant parfois 5 vers Camarat en fin d'après-midi. MER : belle, devenant belle à peu agitée en fin d'après-midi. HOULE : non significative. TEMPS : ensoleillé, localement nuageux et brumeux le matin à l'ouest de Sicié. VISIBILITE : bonne, parfois moyenne à mauvaise le matin. 6 - Prévisions pour la nuit du 8 au 9 et la journée du mercredi 9 septembre VENT : De Port Camargue à la Ciotat variable 1 à 3 s'orientant Sud-Est puis Nord-Ouest 6 en milieu de nuit. Rafales. De la Ciotat au Levant variable 1 à 3, s'orientant Ouest à Nord-Ouest en fraîchissant rapidement 6, localement 7 en début de matinée de la Ciotat à Porquerolles. Rafales. Du Levant à St Raphaël Ouest à Sud-Ouest 4, fraîchissant rapidement 6 en début de matinée, et atteignant 7 du Levant à Camarat. MER : De Port Camargue à Porquerolles mer belle à peu agitée devenant agitée, localement forte de la Ciotat à Porquerolles. De Porquerolles à St Raphaël mer belle devenant agitée, localement forte du Levant à Camarat. HOULE non significative s'établissant localement à l'Ouest à Sud-Ouest 1 à 1,5 m. 7 - Tendance pour les jours suivants Jeudi 10 septembre Nord-Ouest assez fort. Ouest à Sud-Ouest modéré autour de la Corse. Indice de confiance : 4 sur 5 Vendredi 11 septembre Nord-Ouest modéré. Ouest faible à modéré autour de la Corse. Indice de confiance : 3 sur 5 Samedi 12 septembre Nord-Ouest modéré. Nord à Nord-Est faible à modéré entre Corse et continent. Indice de confiance : 3 sur 5 Dimanche 13 septembre Nord-Ouest modéré. Nord-Est faible entre Corse et continent. Indice de confiance : 2 sur 5 8 - Observations le lundi 7 septembre 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Ouest 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Nord-Nord-Ouest 4 noeuds. Le Levant : vent Est-Sud-Est 4 noeuds, 1021 hPa en baisse. Porquerolles : vent Sud-Ouest 4 noeuds. Cap Couronne : vent Nord-Nord-Ouest 6 noeuds. Prochain bulletin le lundi 7 septembre 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -315,12 +315,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps-Centre du Quebec
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans l'Est de la Gaspésie (Québec/Canada)
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -328,9 +328,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Lundi 7 Septembre 2026.
-Résumé général précédent : Sur les deux semaines : nette baisse des températures la première semaine (mercredi 9), puis retour progressif de la chaleur à partir du dimanche 13 et surtout en seconde semaine. Les pluies restent très faibles, avec un seul passage modéré du 8 au 9 septembre. La sécheresse s'accentue, surtout dans le sud..
+Résumé général précédent : Après un passage pluvieux modéré en milieu de semaine 1, le temps redevient sec et anticyclonique dès jeudi 10. Les températures, en nette baisse mercredi 9, remontent progressivement pour atteindre des niveaux supérieurs aux normales en fin de semaine 2. La sécheresse, déjà sévère, s'accentue sur l'ensemble du territoire, particulièrement sur la moitié sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées sur le nord, plus marginales au sud ; risque d'orages localisés..
+Températures attendues précédemment : Pluies faibles à modérées sur un axe Pays basque-Ardennes, plus marginales au sud. (80 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -551,7 +551,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 6 heures par cédric du Lot
+	Modifié il y a 8 heures par cédric du Lot
 								2
 								3
 								1
@@ -774,7 +774,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 6 heures par cédric du Lot
+	Modifié il y a 8 heures par cédric du Lot
 								2
 								3
 								1
