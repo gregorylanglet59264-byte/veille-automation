@@ -147,26 +147,97 @@ def select_events_from_veille(json_path="veille_intemperies_final.json", point_a
     return selected[:count]
 
 
-def analyze_event(item):
-    """Détecte la région, le phénomène et le modèle adapté."""
-    full_text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
-    
-    selected_region = "france"
-    for reg, kws in REGION_MAPPING.items():
-        if any(kw in full_text for kw in kws):
-            selected_region = reg
-            break
+def scan_arome_physical_maximum(layer="rafales"):
+    """Scanne en direct les valeurs physiques réelles du modèle AROME HD (Météo-France)
+    sur une grille nationale de stations de référence pour identifier la zone de paroxysme réel.
+    """
+    stations = {
+        'bretagne': {'lat': 48.45, 'lon': -5.10},
+        'normandie': {'lat': 49.65, 'lon': -1.60},
+        'hdf': {'lat': 50.87, 'lon': 1.58},
+        'paca': {'lat': 43.10, 'lon': 6.10},
+        'occitanie': {'lat': 43.50, 'lon': 4.00},
+        'naq': {'lat': 44.80, 'lon': -1.20},
+        'ara': {'lat': 45.75, 'lon': 4.85},
+        'grandest': {'lat': 48.50, 'lon': 7.50},
+        'cvl': {'lat': 47.50, 'lon': 1.50},
+        'corse': {'lat': 42.90, 'lon': 9.40}
+    }
+    try:
+        lats = ','.join(str(s['lat']) for s in stations.values())
+        lons = ','.join(str(s['lon']) for s in stations.values())
+        url = f"https://api.open-meteo.com/v1/forecast?latitude={lats}&longitude={lons}&models=meteofrance_arome_france_hd&hourly=wind_gusts_10m,cape,temperature_2m,precipitation&forecast_days=2"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            data = json.loads(r.read().decode('utf-8'))
             
+        param_map = {
+            "rafales": "wind_gusts_10m",
+            "mucape": "cape",
+            "temperature": "temperature_2m",
+            "pluie_cumul": "precipitation"
+        }
+        param_key = param_map.get(layer, "wind_gusts_10m")
+        
+        best_reg = None
+        max_val = -999.0
+        
+        if isinstance(data, list):
+            for reg_id, res in zip(stations.keys(), data):
+                vals = res.get('hourly', {}).get(param_key, [])
+                if vals:
+                    top = max(vals)
+                    if top > max_val:
+                        max_val = top
+                        best_reg = reg_id
+                        
+        if best_reg:
+            print(f"  [Scan Physique AROME HD] Maximum détecté sur le modèle : {best_reg.upper()} ({max_val:.1f}) pour '{param_key}'")
+        return best_reg, max_val
+    except Exception as e:
+        print(f"  [Scan Physique AROME HD] Non disponible ({e})")
+        return None, None
+
+def analyze_event(item):
+    """Détecte la région, le phénomène et le modèle adapté en croisant le texte et la physique réelle du modèle."""
+    title_lower = item.get('title', '').lower()
+    full_text = f"{title_lower} {item.get('summary', '')}".lower()
+    
+    # 1. Phénomène
     selected_layer = "mucape"
     for phenom, layer in LAYER_MAPPING.items():
         if phenom in full_text:
             selected_layer = layer
             break
             
-    # Détection cyclone
     is_cyclone = any(w in full_text for w in ["cyclone", "ouragan", "typhon", "tempête tropicale"])
+    if is_cyclone:
+        if any(w in full_text for w in ["antilles", "guadeloupe", "martinique", "caraïbes"]):
+            return "antilles", selected_layer, True
+        elif any(w in full_text for w in ["réunion", "reunion", "mayotte", "océan indien"]):
+            return "reunion", selected_layer, True
+        return "france", selected_layer, True
+
+    # 2. Détection physique via le modèle AROME HD (interrogation directe de la grille nationale)
+    phys_reg, phys_val = scan_arome_physical_maximum(selected_layer)
     
-    return selected_region, selected_layer, is_cyclone
+    # 3. Détection textuelle
+    text_reg = None
+    for reg, kws in REGION_MAPPING.items():
+        if any(kw in full_text for kw in kws):
+            text_reg = reg
+            break
+            
+    # Si le texte mentionne une région ciblée très spécifique, on la respecte
+    if text_reg in ["paca", "corse", "antilles", "reunion"]:
+        selected_region = text_reg
+    elif phys_reg:
+        # Priorité absolue au modèle météo réel pour cibler le paroxysme sur la carte !
+        selected_region = phys_reg
+    else:
+        selected_region = text_reg or "france"
+        
+    return selected_region, selected_layer, False
 
 def generate_cover_image(bg_path, title_line1, title_line2, title_line3, badge_color=(194, 65, 12), out_path=None):
     """Génère la couverture 16:9 YouTube sans logos de site avec titre centré."""
