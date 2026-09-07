@@ -8,21 +8,11 @@ on:
         required: false
         type: string
         default: 'gregory'
-      publish_article:
-        description: "Publier l'article météo automatique sur les 3 sites (true/false)"
-        required: false
-        type: boolean
-        default: true
-      article_point:
-        description: "Point de la veille à transformer en article (auto, 1, 2...)"
-        required: false
-        type: string
-        default: 'auto'
 
 jobs:
   run-veille:
     runs-on: ubuntu-latest
-    timeout-minutes: 12  # Marge confortable pour la veille + génération d'article
+    timeout-minutes: 8
 
     steps:
       - name: Récupérer le code du dépôt
@@ -50,19 +40,5 @@ jobs:
         run: |
           python run_veille_intemperies.py
 
-      - name: Installer Playwright & Dépendances Visuelles
-        if: ${{ github.event.inputs.publish_article != false }}
-        run: |
-          python -m pip install playwright pillow
-          python -m playwright install --with-deps chromium
 
-      - name: Publier l'Article Météo Automatique (3 sites Zéro-Build)
-        if: ${{ github.event.inputs.publish_article != false }}
-        env:
-          PYTHONUNBUFFERED: "1"
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://ubdevaemtwbzxksjlhjg.supabase.co' }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.SUPABASE_KEY || 'sb_publishable_1qhA0xAnNSd3VxpoLdxYrQ_yUemEhaP' }}
-        run: |
-          python auto_publish_from_veille.py --json veille_intemperies_final.json --point "${{ github.event.inputs.article_point || 'auto' }}" --count 3
 
