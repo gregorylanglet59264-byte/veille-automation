@@ -319,10 +319,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
-Dernier bulletin HDF généré le Dimanche 6 Septembre 2026.
-Résumé général HDF précédent : Sur ces 15 jours, les Hauts-de-France passent d'un temps estival (25-30°C) à un temps océanique variable et plus frais (18-21°C), puis vers un probable retour anticyclonique sec avec une hausse thermique en seconde semaine. Les précipitations restent faibles, insuffisantes pour atténuer la sécheresse..
+Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
+Résumé général HDF précédent : Hauts-de-France : bascule d’un temps estival lundi 07 (max 24-29°C) vers une fraîcheur océanique (18-21°C) en milieu de semaine, puis retour probable d’un temps sec et anticyclonique en seconde semaine. Précipitations globalement faibles, insuffisantes pour la sécheresse..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses faibles mardi, soleil mercredi, nette baisse des températures avant une possible remontée..
+Températures attendues précédemment : Pluies faibles à modérées mardi, rafales Ouest 55 km/h, nette baisse des températures mercredi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -543,7 +543,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 4 heures par cédric du Lot
+	Modifié il y a 6 heures par cédric du Lot
 								2
 								3
 								1
@@ -766,7 +766,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 4 heures par cédric du Lot
+	Modifié il y a 6 heures par cédric du Lot
 								2
 								3
 								1

@@ -327,10 +327,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Dimanche 6 Septembre 2026.
-Résumé général précédent : .
+Dernier bulletin généré le Lundi 7 Septembre 2026.
+Résumé général précédent : Sur les deux semaines : nette baisse des températures la première semaine (mercredi 9), puis retour progressif de la chaleur à partir du dimanche 13 et surtout en seconde semaine. Les pluies restent très faibles, avec un seul passage modéré du 8 au 9 septembre. La sécheresse s'accentue, surtout dans le sud..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Pluies faibles à modérées sur le nord, plus marginales au sud ; risque d'orages localisés..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -551,7 +551,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 4 heures par cédric du Lot
+	Modifié il y a 6 heures par cédric du Lot
 								2
 								3
 								1
@@ -774,7 +774,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 4 heures par cédric du Lot
+	Modifié il y a 6 heures par cédric du Lot
 								2
 								3
 								1
