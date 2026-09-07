@@ -46,16 +46,16 @@ CARTES_ALERTES_DIR = r"C:\Users\grego\Desktop\cartes_alertes"
 
 # Mappings Géographiques & Modèles
 REGION_MAPPING = {
+    "bretagne": ["bretagne", "rennes", "brest", "finistère", "morbihan", "côtes-d'armor", "nord-ouest"],
+    "normandie": ["normandie", "rouen", "caen", "havre", "calvados", "seine-maritime", "manche"],
     "paca": ["paca", "provence", "côte d'azur", "cote d'azur", "marseille", "nice", "var", "alpes-maritimes", "sud-est"],
     "ara": ["ara", "auvergne", "rhône-alpes", "rhone-alpes", "lyon", "grenoble", "isère", "alpes"],
-    "occitanie": ["occitanie", "toulouse", "montpellier", "gard", "hérault", "aude", "pyrénées"],
-    "hdf": ["hdf", "hauts-de-france", "nord", "pas-de-calais", "lille", "somme", "oise", "aisne"],
-    "grandest": ["grand-est", "grand est", "alsace", "lorraine", "strasbourg", "metz", "nancy", "marne"],
-    "normandie": ["normandie", "rouen", "caen", "havre", "calvados", "seine-maritime"],
-    "bretagne": ["bretagne", "rennes", "brest", "finistère", "morbihan"],
+    "occitanie": ["occitanie", "toulouse", "montpellier", "gard", "hérault", "aude", "pyrénées", "sud-ouest"],
+    "hdf": ["hdf", "hauts-de-france", "pas-de-calais", "lille", "somme", "oise", "aisne", "département du nord", "dans le nord"],
+    "grandest": ["grand-est", "grand est", "alsace", "lorraine", "strasbourg", "metz", "nancy", "marne", "nord-est"],
     "naq": ["nouvelle-aquitaine", "bordeaux", "gironde", "charente"],
     "idf": ["ile-de-france", "paris", "petite couronne"],
-    "cvl": ["centre-val de loire", "centre", "orléans", "tours"],
+    "cvl": ["centre-val de loire", "région centre", "orléans", "tours"],
     "bfc": ["bourgogne", "franche-comté", "dijon", "besançon"],
     "corse": ["corse", "ajaccio", "bastia"],
     "antilles": ["antilles", "guadeloupe", "martinique", "saint-martin", "saint-barth", "caraïbes"],
@@ -314,6 +314,10 @@ def collect_visual_assets(region="france", layer="mucape", is_cyclone=False):
     reg_label = region.upper()
     if region == "paca": reg_label = "dans le Sud-Est"
     elif region == "hdf": reg_label = "dans les Hauts-de-France"
+    elif region == "bretagne": reg_label = "dans le Nord-Ouest (Bretagne)"
+    elif region == "normandie": reg_label = "en Normandie"
+    elif region == "occitanie": reg_label = "dans le Sud-Ouest"
+    elif region == "ara": reg_label = "en Auvergne-Rhône-Alpes"
     elif region == "france": reg_label = "en France"
     
     cover_path = generate_cover_image(
