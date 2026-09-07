@@ -333,12 +333,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Coups de vent et temp&#xEA;tes - saison 2026/2027
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
-• Infoclimat Direct : Statistiques et anomalies climatiques nationales
-• Infoclimat Direct : Suivi du temps dans l'Est de la Gaspésie (Québec/Canada)
-• Infoclimat Direct : Glaciers pyrénéens
+• Infoclimat Direct : Prévisions Massif Central - Septembre 2026
+• Infoclimat Direct : Bugs sur Infoclimat #2
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -346,9 +346,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
-Résumé général HDF précédent : Semaine 1: dégradation pluvieuse faible mardi 8, net rafraîchissement mercredi, puis redoux. Semaine 2: temps sec, ensoleillé et anticyclonique, avec probable été indien; sécheresse en fond..
+Résumé général HDF précédent : Semaine 1 : dégradation pluvieuse faible mardi 8 (5-20 mm), rafraîchissement mercredi, puis redoux et retour d'un temps sec. Semaine 2 : anticyclone dominant, temps sec et ensoleillé, températures de plus en plus au-dessus des normales, possible pic de chaleur en fin de semaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées, vent de sud-ouest modéré, températures en baisse mercredi puis en hausse possible..
+Températures attendues précédemment : Rafales 55 km/h possibles sur le littoral et le Santerre mardi soir, mercredi matin..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -477,7 +477,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 16 heures par cédric du Lot
+	Modifié il y a 18 heures par cédric du Lot
 								2
 								4
 								1
@@ -548,6 +548,7 @@ Je pense surtout l'inquiétude de beaucoup - et c'est tout à fait compréhensib
 	Et Bordeaux:
 	O
 	On reste sur quelque chose de "normal mais assez chaud pour une première quinzaine de septembre" mais effectivement, les PP sont très très décevantes.
+								1
 
 =======================
 
@@ -558,7 +559,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								4
+								5
 								1
 
 =======================
@@ -589,6 +590,8 @@ il y a 4 minutes, nickdu77 a dit :
 Auteur: lubo
 Message:
 Alors, je reste dans le h.s, sorry, mais finalement pour 3/4 des urbains que nous sommes, être en tee-shirt en septembre, ne pas peler le matin en hiver, profiter du soleil.....ben.... c'est cool😐
+								1
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
 Auteur: tao
@@ -716,7 +719,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 16 heures par cédric du Lot
+	Modifié il y a 18 heures par cédric du Lot
 								2
 								4
 								1
@@ -787,6 +790,7 @@ Je pense surtout l'inquiétude de beaucoup - et c'est tout à fait compréhensib
 	Et Bordeaux:
 	O
 	On reste sur quelque chose de "normal mais assez chaud pour une première quinzaine de septembre" mais effectivement, les PP sont très très décevantes.
+								1
 
 =======================
 
@@ -797,7 +801,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								4
+								5
 								1
 
 =======================
@@ -828,3 +832,5 @@ il y a 4 minutes, nickdu77 a dit :
 Auteur: lubo
 Message:
 Alors, je reste dans le h.s, sorry, mais finalement pour 3/4 des urbains que nous sommes, être en tee-shirt en septembre, ne pas peler le matin en hiver, profiter du soleil.....ben.... c'est cool😐
+								1
+								2
