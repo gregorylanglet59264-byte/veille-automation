@@ -308,12 +308,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Inondations Népal
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Tendance hiver 2026-2027
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Le topic du Jardinage
+• Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,31 +321,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
-Résumé général HDF précédent : Alternance d'un court épisode pluvieux en début de semaine 1, suivi d'un rafraîchissement temporaire, puis retour à un temps sec et de plus en plus doux jusqu'au week-end du 20. Tendance anticyclonique nette avec un déficit pluviométrique persistant..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies faibles à modérées mardi, rafraîchissement mercredi, puis soleil et chaleur..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Il y a 1 heure, tao a dit :
-			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-	Oui les modèles, dont GFS, essaient de s'accorder sur ce passage pluvieux entre mardi et mercredi.  C'est encore flou pour la localisation et les quantités entre les modèles et parfois même pour chaque modèle,  mais rien de plus normal à ces échéances. 
-	Il semble néanmoins probable que certaines régions auront des pluies.
-	Biensur, cela ne va pas enrayer la sécheresse qui est à un niveau catastrophique après cet étécaniculaire et excessivement sec, mais on prendra ce qu'il y aura à prendre. 
-	En effet , malheureusement,  il semble que les hautes pressions aient tendance à revenir ensuite sur la France,  avec un nouveau blocage des perturbations atlantiques et sans doute une augmentation progressive des températures sans qu'on sache si elles vont de nouveau etre  encore excessives.
-	Arpège :
-	GFS :
-	Ukmo :
-	Icon
-	CEP:
-	Modifié samedi à 12:13 par petit âge glaciaire 11
-Modifié
-								3
-
-=======================
-
 Auteur: bruno50
 Message:
 Il y a 4 heures, tao a dit :
@@ -431,7 +412,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 21 heures par cédric du Lot
+	Modifié il y a 22 heures par cédric du Lot
 								2
 								4
 								1
@@ -513,7 +494,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								5
+								6
 								1
 								1
 
@@ -546,7 +527,7 @@ Auteur: lubo
 Message:
 Alors, je reste dans le h.s, sorry, mais finalement pour 3/4 des urbains que nous sommes, être en tee-shirt en septembre, ne pas peler le matin en hiver, profiter du soleil.....ben.... c'est cool😐
 								1
-								3
+								4
 
 =======================
 
@@ -565,27 +546,15 @@ Message:
 wow    100km/h     jusque  9 septembre  0h00 +40 heures
 	8 septembre   8h00   +24 heures  
 	8   sept   8h00  à   9 sept   0h00
+
+=======================
+
+Auteur: clem11
+Message:
+Ce jet stream repoussé jusqu’aux confins du nord de l’écosse et du sud Scandinavie est terrible pour nous. On est pas prêt de voir de la pluie de façon conséquente et continue. Et qui plus est avec une chaleur quasi perpétuelle sur une grande partie du pays. Oui on va plutôt sur du 28/35 mais tout de même. On arrive vite à mi septembre et c’est déjà 4 à 10 degrés de trop… J’en pète
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Il y a 1 heure, tao a dit :
-			Sinon, niveau prévision le modèle américain commence à s'accorder sur le passage pluvieux du milieu de semaine, pas très productif mais ce sera déjà ça!
-	Oui les modèles, dont GFS, essaient de s'accorder sur ce passage pluvieux entre mardi et mercredi.  C'est encore flou pour la localisation et les quantités entre les modèles et parfois même pour chaque modèle,  mais rien de plus normal à ces échéances. 
-	Il semble néanmoins probable que certaines régions auront des pluies.
-	Biensur, cela ne va pas enrayer la sécheresse qui est à un niveau catastrophique après cet étécaniculaire et excessivement sec, mais on prendra ce qu'il y aura à prendre. 
-	En effet , malheureusement,  il semble que les hautes pressions aient tendance à revenir ensuite sur la France,  avec un nouveau blocage des perturbations atlantiques et sans doute une augmentation progressive des températures sans qu'on sache si elles vont de nouveau etre  encore excessives.
-	Arpège :
-	GFS :
-	Ukmo :
-	Icon
-	CEP:
-	Modifié samedi à 12:13 par petit âge glaciaire 11
-Modifié
-								3
-
-=======================
-
 Auteur: bruno50
 Message:
 Il y a 4 heures, tao a dit :
@@ -671,7 +640,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 21 heures par cédric du Lot
+	Modifié il y a 22 heures par cédric du Lot
 								2
 								4
 								1
@@ -753,7 +722,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								5
+								6
 								1
 								1
 
@@ -786,7 +755,7 @@ Auteur: lubo
 Message:
 Alors, je reste dans le h.s, sorry, mais finalement pour 3/4 des urbains que nous sommes, être en tee-shirt en septembre, ne pas peler le matin en hiver, profiter du soleil.....ben.... c'est cool😐
 								1
-								3
+								4
 
 =======================
 
@@ -805,3 +774,10 @@ Message:
 wow    100km/h     jusque  9 septembre  0h00 +40 heures
 	8 septembre   8h00   +24 heures  
 	8   sept   8h00  à   9 sept   0h00
+
+=======================
+
+Auteur: clem11
+Message:
+Ce jet stream repoussé jusqu’aux confins du nord de l’écosse et du sud Scandinavie est terrible pour nous. On est pas prêt de voir de la pluie de façon conséquente et continue. Et qui plus est avec une chaleur quasi perpétuelle sur une grande partie du pays. Oui on va plutôt sur du 28/35 mais tout de même. On arrive vite à mi septembre et c’est déjà 4 à 10 degrés de trop… J’en pète
+								1
