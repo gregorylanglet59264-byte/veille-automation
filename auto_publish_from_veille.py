@@ -371,6 +371,9 @@ def draft_article_llm(item, uploaded_urls, region, layer):
     tomorrow = now + datetime.timedelta(days=1)
     tomorrow_str = tomorrow.strftime("%A %d %B %Y")
     
+    gif_url = uploaded_urls.get("gif", "")
+    vigi_url = uploaded_urls.get("vigilance", "")
+
     figs_desc = []
     if gif_url:
         figs_desc.append(f"- Figure 1 (Animation Chronologique GIF heure par heure) : {gif_url}")
