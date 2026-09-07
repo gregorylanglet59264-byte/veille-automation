@@ -308,12 +308,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Le topic du Jardinage
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
-Résumé général HDF précédent : Sur les deux semaines, alternance d'un court épisode pluvieux mardi 08, suivi d'un net rafraîchissement mercredi, puis d'un retour à un temps sec et de plus en plus doux jusqu'au week-end du 19-20 septembre. La tendance est nettement anticyclonique avec un déficit pluviométrique persistant..
+Résumé général HDF précédent : Alternance d'un court épisode pluvieux en début de semaine 1, suivi d'un rafraîchissement temporaire, puis retour à un temps sec et de plus en plus doux jusqu'au week-end du 20. Tendance anticyclonique nette avec un déficit pluviométrique persistant..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies localisées, rafraîchissement bref, puis temps sec et doux..
+Températures attendues précédemment : Pluies faibles à modérées mardi, rafraîchissement mercredi, puis soleil et chaleur..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
