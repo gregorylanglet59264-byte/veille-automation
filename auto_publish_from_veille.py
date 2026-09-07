@@ -346,35 +346,45 @@ def collect_visual_assets(region="france", layer="mucape", is_cyclone=False):
             page.evaluate("() => { const ov = document.getElementById('amfm-auth-overlay'); if (ov) ov.classList.add('is-hidden'); }")
             page.wait_for_timeout(1000)
             
-            # Capture statique HD
-            with page.expect_download() as d:
-                page.click('[data-amfm-capture]')
-            d.value.save_as(map_png)
-            assets["model_hd"] = map_png
-            print(f"  ✓ Carte modèle HD téléchargée : {map_png}")
-            
-            # Capture GIF animé (8 étapes temporelles)
-            total_steps = page.evaluate("() => typeof availableSteps === 'function' ? availableSteps().length : 12")
-            start_s = min(2, max(0, total_steps - 8))
-            end_s = min(total_steps, start_s + 8)
+            # Capture des échéances temporelles via le slider AROME (step 6 à 30)
+            steps_to_capture = [6, 10, 14, 18, 22, 26, 30]
             frames = []
             tmp_f = os.path.join(OUT_DIR, ".tmp_frames")
             os.makedirs(tmp_f, exist_ok=True)
-            for s in range(start_s, end_s):
-                page.evaluate(f"() => {{ if (typeof renderStep === 'function') renderStep({s}); }}")
-                page.wait_for_timeout(1100)
+            peak_img = None
+            
+            for s in steps_to_capture:
+                page.evaluate(f"""() => {{
+                    const slider = document.querySelector('input[type=range]');
+                    if (slider) {{
+                        slider.value = {s};
+                        slider.dispatchEvent(new Event('input', {{ bubbles: true }}));
+                        slider.dispatchEvent(new Event('change', {{ bubbles: true }}));
+                    }}
+                }}""")
+                page.wait_for_timeout(1200)
                 fp = os.path.join(tmp_f, f"f_{s:02d}.png")
-                with page.expect_download() as d_step:
-                    page.click('[data-amfm-capture]')
-                d_step.value.save_as(fp)
-                im = Image.open(fp).convert("RGB")
-                im_res = im.resize((960, int(960 * im.height / im.width)), Image.Resampling.LANCZOS)
-                frames.append(im_res)
+                try:
+                    with page.expect_download(timeout=5000) as d_step:
+                        page.click('[data-amfm-capture]')
+                    d_step.value.save_as(fp)
+                    im = Image.open(fp).convert("RGB")
+                    im_res = im.resize((960, int(960 * im.height / im.width)), Image.Resampling.LANCZOS)
+                    frames.append(im_res)
+                    if s == 22 or peak_img is None: # step 22 = pic de la perturbation
+                        peak_img = fp
+                except Exception as e_step:
+                    print(f"    [Step {s}] Erreur capture: {e_step}")
+                    
+            if peak_img and os.path.exists(peak_img):
+                shutil.copy2(peak_img, map_png)
+                assets["model_hd"] = map_png
+                print(f"  ✓ Carte modèle HD (pic d'intensité maximale) : {map_png}")
                 
-            if frames:
-                frames[0].save(gif_path, save_all=True, append_images=frames[1:], duration=650, loop=0, optimize=True)
+            if len(frames) >= 2:
+                frames[0].save(gif_path, save_all=True, append_images=frames[1:], duration=600, loop=0, optimize=True)
                 assets["gif"] = gif_path
-                print(f"  ✓ GIF animé généré : {gif_path} ({os.path.getsize(gif_path)/(1024*1024):.2f} Mo)")
+                print(f"  ✓ Véritable GIF animé généré : {gif_path} ({len(frames)} frames, {os.path.getsize(gif_path)/(1024*1024):.2f} Mo)")
             shutil.rmtree(tmp_f, ignore_errors=True)
             browser.close()
     except Exception as e:
