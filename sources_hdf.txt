@@ -284,7 +284,7 @@ Températures minimales : en hausse sur le Laonnois.
 Températures maximales : similaires à la veille.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 071610 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le lundi 7 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 7 septembre 2026 à 12H00 UTC, et évolution Dépression 975 hPa au sud de l'Islande, se décalant vers le sud-est, prévue 982 hPa au nord de l'Écosse demain matin. Dépression relative se creusant 1010 hPa à l'ouest de la pointe bretonne ce soir, prévue 1005 hPa sur la Bretagne demain matin. Anticyclone 1028 hPa sur l'Europe de l'est. 3 - Prévisions pour la nuit du lundi 7 septembre au mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, localement 6 dans le détroit et en Mer du Nord en première partie de nuit. MER : peu agitée à agitée. HOULE : Ouest 0.5 à 1 m en Manche, non significative ailleurs. TEMPS : couvert, pluie en fin de nuit. VISIBILITE : bonne, puis moyenne sous pluie. 4 - Prévisions pour la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, mollissant Ouest à Nord-Ouest 3 à 4 l'après-midi. MER : peu agitée à agitée, devenant peu agitée en fin de matinée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : pluvieux. VISIBILITE : moyenne à mauvaise sous pluie. 5 - Tendance pour la nuit du 8 au 9, et la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest 4 à 5, fraîchissant temporairement 5 à 6 en Mer du Nord en seconde partie de nuit, puis mollissant Ouest à Nord-Ouest 3 à 4 à la fin. MER : peu agitée, devenant temporairement peu agitée à agitée en milieu de nuit jusqu'à la mi-journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : rares averses la nuit, puis ensoleillé. VISIBILITE : moyenne sous averses, puis bonne. 6 - Prévisions pour la nuit du 9 au 10 et la journée du jeudi 10 septembre VENT : Ouest 3 à 4, revenant Sud à Sud-Ouest en seconde partie de nuit. MER : peu agitée. HOULE d'Ouest à Sud-Ouest inférieure à 1 m, s'orientant en seconde partie de nuit au secteur Nord-Ouest, puis au Nord à Nord-Est. 7 - Tendance pour les jours suivants Vendredi 11 septembre Sud-Ouest modéré virant Ouest à Nord-Ouest. Indice de confiance : 3 sur 5 Samedi 12 septembre Ouest à Sud-Ouest faible à modéré devenant modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 13 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 Lundi 14 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le lundi 7 septembre 2026 à 15H00 UTC Dunkerque : vent Sud-Ouest 14 noeuds, 1018 hPa en hausse. Cap Gris Nez : vent Sud-Ouest 23 noeuds, rafales 33 noeuds. Boulogne : vent Ouest-Sud-Ouest 17 noeuds, rafales 29 noeuds, 1019 hPa en hausse, nuageux avec éclaircies, visibilité 9 milles. Bouée Sandettie : vent Ouest-Sud-Ouest 23 noeuds, creux 1,0 mètre, 1017 hPa en baisse, visibilité 5 milles. Prochain bulletin le mardi 8 septembre 2026, vers 06H30 légales
+FQCT40 LFQQ 071615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le lundi 7 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 7 septembre 2026 à 12H00 UTC, et évolution Dépression 975 hPa au sud de l'Islande, se décalant vers le sud-est, prévue 982 hPa au nord de l'Écosse demain matin. Dépression relative se creusant 1010 hPa à l'ouest de la pointe bretonne ce soir, prévue 1005 hPa sur la Bretagne demain matin. Anticyclone 1028 hPa sur l'Europe de l'est. 3 - Prévisions pour la nuit du lundi 7 septembre au mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, localement 6 dans le détroit et en Mer du Nord en première partie de nuit. MER : peu agitée à agitée. HOULE : Ouest 0.5 à 1 m en Manche, non significative ailleurs. TEMPS : couvert, pluie en fin de nuit. VISIBILITE : bonne, puis moyenne sous pluie. 4 - Prévisions pour la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, mollissant Ouest à Nord-Ouest 3 à 4 l'après-midi. MER : peu agitée à agitée, devenant peu agitée en fin de matinée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : pluvieux. VISIBILITE : moyenne à mauvaise sous pluie. 5 - Tendance pour la nuit du 8 au 9, et la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest 4 à 5, fraîchissant temporairement 5 à 6 en Mer du Nord en seconde partie de nuit, puis mollissant Ouest à Nord-Ouest 3 à 4 à la fin. MER : peu agitée, devenant temporairement peu agitée à agitée en milieu de nuit jusqu'à la mi-journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : rares averses la nuit, puis ensoleillé. VISIBILITE : moyenne sous averses, puis bonne. 6 - Prévisions pour la nuit du 9 au 10 et la journée du jeudi 10 septembre VENT : Ouest 3 à 4, revenant Sud à Sud-Ouest en seconde partie de nuit. MER : peu agitée. HOULE d'Ouest à Sud-Ouest inférieure à 1 m, s'orientant en seconde partie de nuit au secteur Nord-Ouest, puis au Nord à Nord-Est. 7 - Tendance pour les jours suivants Vendredi 11 septembre Sud-Ouest modéré virant Ouest à Nord-Ouest. Indice de confiance : 3 sur 5 Samedi 12 septembre Ouest à Sud-Ouest faible à modéré devenant modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 13 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 Lundi 14 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le lundi 7 septembre 2026 à 15H00 UTC Dunkerque : vent Sud-Ouest 14 noeuds, 1018 hPa en hausse. Cap Gris Nez : vent Sud-Ouest 23 noeuds, rafales 33 noeuds. Boulogne : vent Ouest-Sud-Ouest 17 noeuds, rafales 29 noeuds, 1019 hPa en hausse, nuageux avec éclaircies, visibilité 9 milles. Bouée Sandettie : vent Ouest-Sud-Ouest 23 noeuds, creux 1,0 mètre, 1017 hPa en baisse, visibilité 5 milles. Prochain bulletin le mardi 8 septembre 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -308,12 +308,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Le topic du Jardinage
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Prévisions régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 07/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,9 +321,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Lundi 7 Septembre 2026.
-Résumé général HDF précédent : Semaine 1: dégradation pluvieuse modérée mardi 08, rafraîchissement mercredi, puis retour d’un temps sec et plus doux dès vendredi. Semaine 2: blocage anticyclonique probable, températures au-dessus des normales, sécheresse qui s’accentue..
+Résumé général HDF précédent : Sur les deux semaines, un temps sec et anticyclonique domine, entrecoupé d'un court épisode pluvieux modéré mardi 08. Les températures restent au-dessus des normales, avec un net rafraîchissement mercredi 09, puis une douceur croissante..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies éparses, rafales jusqu’à 55 km/h possibles sur littoral, Santerre et Vexin/Thelle mardi, net rafraîchissement mercredi..
+Températures attendues précédemment : Pluies faibles à modérées mardi, puis temps sec et doux. (60 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 7 au Dimanche 13 Septembre 2026) ===
@@ -431,7 +431,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 20 heures par cédric du Lot
+	Modifié il y a 21 heures par cédric du Lot
 								2
 								4
 								1
@@ -671,7 +671,7 @@ Message:
 Il y a 5 heures, Krholam a dit :
 			Par contre oui c’est desespérement sec 
 	Arf si peu...
-	Modifié il y a 20 heures par cédric du Lot
+	Modifié il y a 21 heures par cédric du Lot
 								2
 								4
 								1
