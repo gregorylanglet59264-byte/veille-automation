@@ -309,12 +309,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Bugs sur Infoclimat #2
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Bugs sur Infoclimat #2
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
+• Infoclimat Direct : Prévisions Automne-hiver dans les massifs de l'est
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,9 +322,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 8 Septembre 2026.
-Résumé général précédent : Tendance générale sur 15 jours : **Blocage anticyclonique persistant**, temps sec et chaud, avec un **rafraîchissement temporaire** vers le 10-11 septembre, puis une **remontée des températures** très nette. La sécheresse se poursuit et s'aggrave..
+Résumé général précédent : Blocage anticyclonique persistant, temps sec et chaud, avec un rafraîchissement temporaire autour du 9-10 septembre, puis une remontée des températures très nette. La sécheresse se poursuit et s'aggrave..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé dominant ; quelques averses possibles sur le nord-ouest en milieu de semaine, puis retour d'un temps chaud et sec pour le week-end..
+Températures attendues précédemment : Vent parfois fort sur le sud-est (mistral/tramontane), averses orageuses localisées mardi, puis temps sec et ensoleillé..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 8 au Dimanche 13 Septembre 2026) ===
@@ -556,7 +556,7 @@ il y a 11 minutes, giec 2100 a dit :
 	Des extrêmes marqués en terme humide avec de longues périodes sèches et un excès d’ensoleillement et de T. Un vortex réduit à peau de chagrin avec des blocages et des GF. Malheureusement sur notre secteur ça s’accompagne plus souvent par des remontées de HG. On paye notre proximité avec l’Afrique du Nord et la faiblesse chronique du jet. Ça fait peur pour la suite. Particulièrement sur l’aridité fréquente de notre futur climat. On a l’impression de courir après un lièvre pour apercevoir ne serait ce qu’une vraie dépression mi septembre c’est quand même dingue 
 								2
 								1
-								10
+								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
 Auteur: giec 2100
@@ -570,7 +570,7 @@ Dernière semaine avant l'équinoxe d'automne pour ces prévisions météo où l
 	Les vents seront de composante N à NW majoritaire.
 	Enfin un point de focale sur les précipitations, avec l'eau précipitable, en début et fin de période : 
 	des valeurs de niveau modeste...
-	Modifié il y a 21 heures par giec 2100
+	Modifié il y a 23 heures par giec 2100
 								2
 								2
 								2
@@ -580,8 +580,8 @@ Dernière semaine avant l'équinoxe d'automne pour ces prévisions météo où l
 Auteur: nickdu77
 Message:
 Pour le niveau modeste des précipitations, on commence à avoir l'habitude ... malheureusement. Ce qui est frappant, c'est qu'on a l'impression que tout est 1000 km trop au nord pour la saison : on a encore un iso à 20°C qui vient nous titiller et qui occupe largement la péninsule ibérique, une zone de hautes pressions qui rappelle un début de mois d'août et donc pas de PP. J'ai l'impression de voir les cartes du 8 août, pas du 8 septembre et avec une situation de blocage qui dure depuis plus de trois mois et des perturbations qui viennent au mieux mourir sur des HP et le pire, c'est que je ne vois pas de raison pour que ça change .... Ca commence à devenir inquiétant, j'espère que c'est une année exceptionnelle et pas le signe d'un point de bascule climatique. Septembre risque d'être presque aussi sec que juillet.
-								1
-								3
+								2
+								5
 
 =======================
 
@@ -595,7 +595,7 @@ D'accord avec toi sur la tendance du début de semaine : sec, sec, sec, chaud.
 	Pour le moment, à choisir, on parierait sur un scénario anticyclonique sans savoir si ce serait très chaud ou simplement chaud à de saison.
 	Pour GEFS Toulouse, on distingue 2 tubes, un chaud, un frais/de saison. Le chaud est plus fourni à date, je n'ai pas pris le temps de voir s'il est homogène, à quelle situation synoptique il correspond, son humidité, bien que les courbes PP ont l'air plutôt plates.
 	Enfin, avec le cluster de ce matin, on retrouve le scénario goutte froide, représentée (mauvaise nouvelle), mais absolument pas majoritaire. On voit souvent des centres d'action bien intenses. On a intérêt à se trouver du bon côté, ou même plutôt à l'interface !
-								5
+								6
 								1
 
 =======================
@@ -606,7 +606,7 @@ Bonjour,
 	Je vous remercie pour vos analyses.
 	Ça reste ouvert pour la seconde moitié du topic mais le fait que ça reste ouvert est en soi problématique. A l'approche de l'automne, on devrait avoir un temps automnal et pas un temps estival+++.
 	Ça me rappelle l'année 2023.
-								2
+								3
 								2
 
 =======================
@@ -630,7 +630,7 @@ On avait un peu échangé avec cirrus007 hier et, après discussion sur la not
 	Pour le topic en cours, les températures ne seront hélas pas si éloignées de celles de ces dernières années.
 	Le point le plus frappant, c'est l'absence de PP.
 Climato_sept.xlsx
-								2
+								4
 								1
 
 =======================
@@ -657,10 +657,10 @@ il y a 52 minutes, nickdu77 a dit :
 			Climato_sept.xlsx 11.13 Ko · 3 téléchargements   
 	Je ne vais pas m'étendre ici, étant plutôt de la climato, mais quand je vois que parmi ces étés entre 2015 et 2025 l'été 2021 a été considéré comme médiocre et frais, effectivement les repères ont sacrément changé , surtout quand on a connu les étés des années 70 et 80 ! 
 	Enfin il n'y a plus grand chose  de rationnel actuellement et pas seulement sur le climat d'ailleurs ! 
-								5
+								8
 								1
 								1
-								2
+								4
 
 =======================
 
@@ -668,3 +668,20 @@ Auteur: Tornado75
 Message:
 Ce début de semaine pourrait à nouveau battre des records. Voir cette masse d'air si chaude au sud ouest de la France et en Espagne on se croirait retourner l'été dernier avec le dôme de chaleur.
 	A suivre encore une fois
+								3
+
+=======================
+
+Auteur: Arkus
+Message:
+Même après ce qu'on a eu cet été, j'arrive encore à être surpris de la vitesse à laquelle l'anomalie médiane des scénarios d'ensemble a augmenté dans les prévisions de la semaine prochaine :
+								3
+								1
+
+=======================
+
+Auteur: thib91
+Message:
+Ce qui est impressionnant c'est que la ceinture de hauts geopotentiels subtropicaux est toujours très haute en latitude. Le jet et les perturbations associées circulent très au nord, et ont des difficultés à franchir la Manche.
+	Et le plus inquiétant c'est que cela semble être devenu structurel depuis des mois. On est pas dans une réelle situation de blocage bien affirmée qui normalement explique ces séquences sèchent à rallonge. C'est une sorte de zonal hybride très nord, comme si les centres d'action étaient remontés de 1000km en latitude. 
+								1
