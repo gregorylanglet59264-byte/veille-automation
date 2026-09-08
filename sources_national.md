@@ -311,22 +311,22 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Suivi du temps en Suisse
 • Infoclimat Direct : Le jeu de l'été saison 2026 !
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Lundi 7 Septembre 2026.
-Résumé général précédent : .
+Dernier bulletin généré le Mardi 8 Septembre 2026.
+Résumé général précédent : Poursuite d’un temps majoritairement sec, ensoleillé et plus chaud que la normale, avec une sécheresse qui s’accentue. Le risque de pic de chaleur en Méditerranée est à surveiller..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Chaleur marquée au sud, orages possibles mardi soir, puis temps sec et ensoleillé..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 8 au Dimanche 13 Septembre 2026) ===
