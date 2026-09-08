@@ -308,7 +308,7 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 080400 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mardi 8 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 8 septembre 2026 à 00H00 UTC, et évolution Dépression 979 hPa au nord de l'Écosse, se décalant vers la Mer du Nord l'après-midi en se comblant progressivement. Dépression relative 1010 hPa à l'ouest de la pointe bretonne, prévue 1005 hPa sur la Bretagne le matin, puis s'évacuant vers l'est en se comblant l'après-midi. Anticyclone se renforçant demain au large du golfe de Gascogne. 3 - Prévisions pour la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, fraîchissant secteur Sud-Ouest 5 à 6 à la mi-journée, puis virant Nord-Ouest l'après-midi. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : pluvieux. VISIBILITE : moyenne à mauvaise sous pluie. 4 - Prévisions pour la nuit du mardi 8 septembre au mercredi 9 septembre VENT : Ouest à Nord-Ouest 5 à 6. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : éclaircies et rares averses. VISIBILITE : bonne, mais moyenne sous averses. 5 - Prévisions pour la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest mollissant 4 à 5, puis 3 à 4 dans l'après-midi. MER : peu agitée à agitée HOULE : Ouest à Sud-Ouest 0.5 à 1 m, mais Nord 0.5 à 1 m en Mer du Nord l'après-midi. TEMPS : belles éclaircies. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 9 au 10 et la journée du jeudi 10 septembre VENT : Ouest à Nord-Ouest 3 à 4, revenant Sud à Sud-Est en milieu de nuit, puis à l'Ouest à Sud-Ouest en milieu de nuit. MER : peu agitée, localement agitée en mer du nord. HOULE d'Ouest inférieure à 1,5 m, s'orientant en début de matinée au Nord à Nord-Est. 7 - Tendance pour les jours suivants Vendredi 11 septembre Sud-Ouest modéré virant Ouest à Nord-Ouest. Indice de confiance : 3 sur 5 Samedi 12 septembre Ouest à Sud-Ouest faible à modéré devenant modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 13 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 Lundi 14 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le mardi 8 septembre 2026 à 03H00 UTC Dunkerque : vent Sud-Sud-Ouest 8 noeuds, 1013 hPa en baisse. Cap Gris Nez : vent Ouest-Sud-Ouest 21 noeuds. Boulogne : vent Ouest-Sud-Ouest 16 noeuds, 1013 hPa en baisse, clair ou peu nuageux, visibilité 8 milles. Prochain bulletin le mardi 8 septembre 2026, vers 12H30 légales
+FQCT40 LFQQ 080935 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mardi 8 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais Nr 127. 2 - Situation générale mardi 8 septembre 2026 à 06H00 UTC, et évolution Dépression relative 1005 hPa sur la Pointe Bretagne, s'évacuant par la Manche en se comblant l'après-midi. Anticyclone au nord des Açores se décalant vers l'est, prévu dans le Golfe de Gascogne demain après-midi. 3 - Prévisions pour l'après-midi du mardi 8 septembre VENT : Sud-Ouest 5 à 6, passagèrement 7 en Manche, virant Nord-Ouest en fin d'après-midi. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : couverte et pluvieux, se dégageant en soirée. VISIBILITE : moyenne à mauvaise sous pluie. 4 - Prévisions pour la nuit du mardi 8 septembre au mercredi 9 septembre VENT : Ouest à Nord-Ouest 5 à 6. MER : peu agitée à agitée. HOULE : Sud-Ouest 0.5 à 1 m. TEMPS : éclaircies et rares averses. VISIBILITE : bonne, mais moyenne sous averses. 5 - Prévisions pour la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest 4 à 5, temporairement 6 en mer du Nord au début, mollissant 3 à 4 à la mi-journée. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, mais Nord 0.5 à 1 m en Mer du Nord l'après-midi. TEMPS : belles éclaircies. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 9 au 10 et la journée du jeudi 10 septembre VENT : secteur Nord-Ouest 2 à 4, virant Sud à Sud-Est le matin, puis Sud-Ouest l'après-midi, et fraîchissant passagèrement 5 en fin d'après-midi. MER : peu agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, mais Nord 0.5 à 1 m en Mer du Nord, s'amortissant à la mi-journée. TEMPS : nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 7 - Prévisions pour la nuit du 10 au 11 et la journée du vendredi 11 septembre VENT : Sud-Ouest 3 à 5, virant Ouest à Nord-Ouest 2 à 4 en milieu d'après-midi. MER : peu agitée. HOULE de secteur Nord-Ouest inférieure à 1 m, s'orientant en cours de matinée à l'Ouest à Sud-Ouest. 8 - Tendance pour les jours suivants Samedi 12 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Dimanche 13 septembre Secteur Sud-Ouest faible à modéré évoluant à secteur Ouest modéré en journée. Indice de confiance : 4 sur 5 Lundi 14 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 9 - Observations le mardi 8 septembre 2026 à 09H00 UTC Dunkerque : vent Sud 8 noeuds, mer belle, 1010 hPa en baisse, très nuageux à couvert, visibilité 3 milles. Cap Gris Nez : vent Sud-Sud-Ouest 8 noeuds. Boulogne : vent Sud-Sud-Ouest 8 noeuds, 1010 hPa en baisse, très nuageux à couvert, visibilité 6 milles. Prochain bulletin le mardi 8 septembre 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -332,12 +332,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Médias, exagération, désinformations sur la météo
-• Infoclimat Direct : Le topic du Jardinage
-• Infoclimat Direct : Tendance hiver 2026-2027
-• Infoclimat Direct : Tendance hiver 2026-2027
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : la température de votre habitat aux 4 saisons
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Production d'électricité renouvelable et météo
+• Infoclimat Direct : Le topic du Jardinage
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -345,9 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 8 Septembre 2026.
-Résumé général HDF précédent : Temps sec et anticyclonique dominant, températures souvent au-dessus des normales, quelques passages pluvieux faibles en début de période, sécheresse de surface qui s'accentue..
+Résumé général HDF précédent : Sur l'ensemble des deux semaines, les Hauts-de-France connaîtront un temps sec et anticyclonique, avec un seul épisode venteux et pluvieux mardi 8. Les températures seront en moyenne au-dessus des normales de saison, avec un pic en fin de deuxième semaine. La sécheresse de surface va s'accentuer..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Vent assez fort mardi, averses faibles, soleil ensuite, chaleur en fin de semaine..
+Températures attendues précédemment : Vent fort mardi, averses éparses, puis temps sec et ensoleillé, chaleur modérée en fin de période..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 8 au Dimanche 13 Septembre 2026) ===
@@ -563,6 +563,7 @@ Message:
 	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
 	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
 								5
+								1
 								5
 
 =======================
@@ -577,6 +578,7 @@ il y a 11 minutes, giec 2100 a dit :
 	Exactement. Et je crois qu’on devine suffisamment bien maintenant ce que ça va pouvoir donner dans notre cadran hémisphérique pour les années à venir…
 	Des extrêmes marqués en terme humide avec de longues périodes sèches et un excès d’ensoleillement et de T. Un vortex réduit à peau de chagrin avec des blocages et des GF. Malheureusement sur notre secteur ça s’accompagne plus souvent par des remontées de HG. On paye notre proximité avec l’Afrique du Nord et la faiblesse chronique du jet. Ça fait peur pour la suite. Particulièrement sur l’aridité fréquente de notre futur climat. On a l’impression de courir après un lièvre pour apercevoir ne serait ce qu’une vraie dépression mi septembre c’est quand même dingue 
 								2
+								1
 								9
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -591,9 +593,18 @@ Dernière semaine avant l'équinoxe d'automne pour ces prévisions météo où l
 	Les vents seront de composante N à NW majoritaire.
 	Enfin un point de focale sur les précipitations, avec l'eau précipitable, en début et fin de période : 
 	des valeurs de niveau modeste...
-	Modifié il y a 9 heures par giec 2100
-								2
+	Modifié il y a 11 heures par giec 2100
 								1
+								2
+								2
+
+=======================
+
+Auteur: nickdu77
+Message:
+Pour le niveau modeste des précipitations, on commence à avoir l'habitude ... malheureusement. Ce qui est frappant, c'est qu'on a l'impression que tout est 1000 km trop au nord pour la saison : on a encore un iso à 20°C qui vient nous titiller et qui occupe largement la péninsule ibérique, une zone de hautes pressions qui rappelle un début de mois d'août et donc pas de PP. J'ai l'impression de voir les cartes du 8 août, pas du 8 septembre et avec une situation de blocage qui dure depuis plus de trois mois et des perturbations qui viennent au mieux mourir sur des HP et le pire, c'est que je ne vois pas de raison pour que ça change .... Ca commence à devenir inquiétant, j'espère que c'est une année exceptionnelle et pas le signe d'un point de bascule climatique. Septembre risque d'être presque aussi sec que juillet.
+								1
+								2
 
 =======================
 
@@ -607,3 +618,14 @@ D'accord avec toi sur la tendance du début de semaine : sec, sec, sec, chaud.
 	Pour le moment, à choisir, on parierait sur un scénario anticyclonique sans savoir si ce serait très chaud ou simplement chaud à de saison.
 	Pour GEFS Toulouse, on distingue 2 tubes, un chaud, un frais/de saison. Le chaud est plus fourni à date, je n'ai pas pris le temps de voir s'il est homogène, à quelle situation synoptique il correspond, son humidité, bien que les courbes PP ont l'air plutôt plates.
 	Enfin, avec le cluster de ce matin, on retrouve le scénario goutte froide, représentée (mauvaise nouvelle), mais absolument pas majoritaire. On voit souvent des centres d'action bien intenses. On a intérêt à se trouver du bon côté, ou même plutôt à l'interface !
+								3
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Bonjour,
+	Je vous remercie pour vos analyses.
+	Ça reste ouvert pour la seconde moitié du topic mais le fait que ça reste ouvert est en soi problématique. A l'approche de l'automne, on devrait avoir un temps automnal et pas un temps estival+++.
+	Ça me rappelle l'année 2023.

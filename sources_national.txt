@@ -336,12 +336,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Médias, exagération, désinformations sur la météo
-• Infoclimat Direct : Le topic du Jardinage
-• Infoclimat Direct : Tendance hiver 2026-2027
-• Infoclimat Direct : Tendance hiver 2026-2027
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : la température de votre habitat aux 4 saisons
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Production d'électricité renouvelable et météo
+• Infoclimat Direct : Le topic du Jardinage
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -349,9 +349,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 8 Septembre 2026.
-Résumé général précédent : Sur le 15 jours : un temps tendant à rester très sec, avec un primaire remonée du bulle atmosphérique ; des températures dAbort normal 89-13, puis clairement trop chaudes jusqu’à mi-septembre. Le conditionnel est recommandé dans le scénario..
+Résumé général précédent : Sur la période de 15 jours, la France reste sous l'influence d'un puissant anticyclone, avec un temps sec et ensoleillé. Les températures sont nettement au-dessus des normales, surtout au sud, et aucune précipitation significative n'est en vue. La sécheresse s'aggrave..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Averses orageuses mardi ; coups de vent en Méditerranée mercredi ; soleil et chaleur pour la fin de semaine..
+Températures attendues précédemment : Sécheresse persistante, pas de pluie significative avant J+10, chaleur modérée à forte..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 8 au Dimanche 13 Septembre 2026) ===
@@ -567,6 +567,7 @@ Message:
 	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
 	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
 								5
+								1
 								5
 
 =======================
@@ -581,6 +582,7 @@ il y a 11 minutes, giec 2100 a dit :
 	Exactement. Et je crois qu’on devine suffisamment bien maintenant ce que ça va pouvoir donner dans notre cadran hémisphérique pour les années à venir…
 	Des extrêmes marqués en terme humide avec de longues périodes sèches et un excès d’ensoleillement et de T. Un vortex réduit à peau de chagrin avec des blocages et des GF. Malheureusement sur notre secteur ça s’accompagne plus souvent par des remontées de HG. On paye notre proximité avec l’Afrique du Nord et la faiblesse chronique du jet. Ça fait peur pour la suite. Particulièrement sur l’aridité fréquente de notre futur climat. On a l’impression de courir après un lièvre pour apercevoir ne serait ce qu’une vraie dépression mi septembre c’est quand même dingue 
 								2
+								1
 								9
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -595,9 +597,18 @@ Dernière semaine avant l'équinoxe d'automne pour ces prévisions météo où l
 	Les vents seront de composante N à NW majoritaire.
 	Enfin un point de focale sur les précipitations, avec l'eau précipitable, en début et fin de période : 
 	des valeurs de niveau modeste...
-	Modifié il y a 9 heures par giec 2100
-								2
+	Modifié il y a 11 heures par giec 2100
 								1
+								2
+								2
+
+=======================
+
+Auteur: nickdu77
+Message:
+Pour le niveau modeste des précipitations, on commence à avoir l'habitude ... malheureusement. Ce qui est frappant, c'est qu'on a l'impression que tout est 1000 km trop au nord pour la saison : on a encore un iso à 20°C qui vient nous titiller et qui occupe largement la péninsule ibérique, une zone de hautes pressions qui rappelle un début de mois d'août et donc pas de PP. J'ai l'impression de voir les cartes du 8 août, pas du 8 septembre et avec une situation de blocage qui dure depuis plus de trois mois et des perturbations qui viennent au mieux mourir sur des HP et le pire, c'est que je ne vois pas de raison pour que ça change .... Ca commence à devenir inquiétant, j'espère que c'est une année exceptionnelle et pas le signe d'un point de bascule climatique. Septembre risque d'être presque aussi sec que juillet.
+								1
+								2
 
 =======================
 
@@ -611,3 +622,14 @@ D'accord avec toi sur la tendance du début de semaine : sec, sec, sec, chaud.
 	Pour le moment, à choisir, on parierait sur un scénario anticyclonique sans savoir si ce serait très chaud ou simplement chaud à de saison.
 	Pour GEFS Toulouse, on distingue 2 tubes, un chaud, un frais/de saison. Le chaud est plus fourni à date, je n'ai pas pris le temps de voir s'il est homogène, à quelle situation synoptique il correspond, son humidité, bien que les courbes PP ont l'air plutôt plates.
 	Enfin, avec le cluster de ce matin, on retrouve le scénario goutte froide, représentée (mauvaise nouvelle), mais absolument pas majoritaire. On voit souvent des centres d'action bien intenses. On a intérêt à se trouver du bon côté, ou même plutôt à l'interface !
+								3
+								1
+
+=======================
+
+Auteur: Plancher
+Message:
+Bonjour,
+	Je vous remercie pour vos analyses.
+	Ça reste ouvert pour la seconde moitié du topic mais le fait que ça reste ouvert est en soi problématique. A l'approche de l'automne, on devrait avoir un temps automnal et pas un temps estival+++.
+	Ça me rappelle l'année 2023.
