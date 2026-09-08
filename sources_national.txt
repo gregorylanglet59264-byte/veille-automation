@@ -311,12 +311,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : &#x2600;&#xFE0F;&#x1F393;&#x1F3EB; &#x1D40B;'&#x1D400;&#x1D426;&#x1D429;&#x1D421;&#x1D422; &#x1D40C;e&#x1D42D;e&#x1D428; &#x1F3EB;&#x1F393;&#x2600;&#xFE0F; : prédis la météo, deviens... Major de Promo !
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Suivi du temps en Suisse
 • Infoclimat Direct : Le jeu de l'été saison 2026 !
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -324,9 +324,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mardi 8 Septembre 2026.
-Résumé général précédent : Poursuite d’un temps majoritairement sec, ensoleillé et plus chaud que la normale, avec une sécheresse qui s’accentue. Le risque de pic de chaleur en Méditerranée est à surveiller..
+Résumé général précédent : Sur les 15 prochains jours, un temps sec, ensoleillé et plus chaud que la normale est probable, avec un net rafraîchissement transitoire en milieu de semaine 1 puis une possible remontée durable des températures. La sécheresse pourrait s'accentuer..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur marquée au sud, orages possibles mardi soir, puis temps sec et ensoleillé..
+Températures attendues précédemment : Chaleur, sécheresse, absence de pluie significative ; un run 18Z plus extrême (20°C à 850 hPa) non repris par l'ensemble..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 8 au Dimanche 13 Septembre 2026) ===
@@ -469,7 +469,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								7
+								8
 								1
 								1
 								1
@@ -541,7 +541,7 @@ Message:
 	ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
 	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
 	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
-								2
+								3
 								3
 
 =======================
@@ -698,7 +698,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								7
+								8
 								1
 								1
 								1
@@ -770,7 +770,7 @@ Message:
 	ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
 	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
 	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
-								2
+								3
 								3
 
 =======================

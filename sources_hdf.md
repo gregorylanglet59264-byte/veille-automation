@@ -285,7 +285,7 @@ Températures minimales : en hausse sur le Laonnois.
 Températures maximales : similaires à la veille.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 071615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le lundi 7 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale lundi 7 septembre 2026 à 12H00 UTC, et évolution Dépression 975 hPa au sud de l'Islande, se décalant vers le sud-est, prévue 982 hPa au nord de l'Écosse demain matin. Dépression relative se creusant 1010 hPa à l'ouest de la pointe bretonne ce soir, prévue 1005 hPa sur la Bretagne demain matin. Anticyclone 1028 hPa sur l'Europe de l'est. 3 - Prévisions pour la nuit du lundi 7 septembre au mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, localement 6 dans le détroit et en Mer du Nord en première partie de nuit. MER : peu agitée à agitée. HOULE : Ouest 0.5 à 1 m en Manche, non significative ailleurs. TEMPS : couvert, pluie en fin de nuit. VISIBILITE : bonne, puis moyenne sous pluie. 4 - Prévisions pour la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, mollissant Ouest à Nord-Ouest 3 à 4 l'après-midi. MER : peu agitée à agitée, devenant peu agitée en fin de matinée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : pluvieux. VISIBILITE : moyenne à mauvaise sous pluie. 5 - Tendance pour la nuit du 8 au 9, et la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest 4 à 5, fraîchissant temporairement 5 à 6 en Mer du Nord en seconde partie de nuit, puis mollissant Ouest à Nord-Ouest 3 à 4 à la fin. MER : peu agitée, devenant temporairement peu agitée à agitée en milieu de nuit jusqu'à la mi-journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : rares averses la nuit, puis ensoleillé. VISIBILITE : moyenne sous averses, puis bonne. 6 - Prévisions pour la nuit du 9 au 10 et la journée du jeudi 10 septembre VENT : Ouest 3 à 4, revenant Sud à Sud-Ouest en seconde partie de nuit. MER : peu agitée. HOULE d'Ouest à Sud-Ouest inférieure à 1 m, s'orientant en seconde partie de nuit au secteur Nord-Ouest, puis au Nord à Nord-Est. 7 - Tendance pour les jours suivants Vendredi 11 septembre Sud-Ouest modéré virant Ouest à Nord-Ouest. Indice de confiance : 3 sur 5 Samedi 12 septembre Ouest à Sud-Ouest faible à modéré devenant modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 13 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 Lundi 14 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le lundi 7 septembre 2026 à 15H00 UTC Dunkerque : vent Sud-Ouest 14 noeuds, 1018 hPa en hausse. Cap Gris Nez : vent Sud-Ouest 23 noeuds, rafales 33 noeuds. Boulogne : vent Ouest-Sud-Ouest 17 noeuds, rafales 29 noeuds, 1019 hPa en hausse, nuageux avec éclaircies, visibilité 9 milles. Bouée Sandettie : vent Ouest-Sud-Ouest 23 noeuds, creux 1,0 mètre, 1017 hPa en baisse, visibilité 5 milles. Prochain bulletin le mardi 8 septembre 2026, vers 06H30 légales
+FQCT40 LFQQ 080400 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mardi 8 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mardi 8 septembre 2026 à 00H00 UTC, et évolution Dépression 979 hPa au nord de l'Écosse, se décalant vers la Mer du Nord l'après-midi en se comblant progressivement. Dépression relative 1010 hPa à l'ouest de la pointe bretonne, prévue 1005 hPa sur la Bretagne le matin, puis s'évacuant vers l'est en se comblant l'après-midi. Anticyclone se renforçant demain au large du golfe de Gascogne. 3 - Prévisions pour la journée du mardi 8 septembre VENT : Ouest à Sud-Ouest 4 à 5, fraîchissant secteur Sud-Ouest 5 à 6 à la mi-journée, puis virant Nord-Ouest l'après-midi. Rafales. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : pluvieux. VISIBILITE : moyenne à mauvaise sous pluie. 4 - Prévisions pour la nuit du mardi 8 septembre au mercredi 9 septembre VENT : Ouest à Nord-Ouest 5 à 6. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : éclaircies et rares averses. VISIBILITE : bonne, mais moyenne sous averses. 5 - Prévisions pour la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest mollissant 4 à 5, puis 3 à 4 dans l'après-midi. MER : peu agitée à agitée HOULE : Ouest à Sud-Ouest 0.5 à 1 m, mais Nord 0.5 à 1 m en Mer du Nord l'après-midi. TEMPS : belles éclaircies. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 9 au 10 et la journée du jeudi 10 septembre VENT : Ouest à Nord-Ouest 3 à 4, revenant Sud à Sud-Est en milieu de nuit, puis à l'Ouest à Sud-Ouest en milieu de nuit. MER : peu agitée, localement agitée en mer du nord. HOULE d'Ouest inférieure à 1,5 m, s'orientant en début de matinée au Nord à Nord-Est. 7 - Tendance pour les jours suivants Vendredi 11 septembre Sud-Ouest modéré virant Ouest à Nord-Ouest. Indice de confiance : 3 sur 5 Samedi 12 septembre Ouest à Sud-Ouest faible à modéré devenant modéré à assez fort. Indice de confiance : 3 sur 5 Dimanche 13 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 Lundi 14 septembre Ouest à Sud-Ouest modéré à assez fort. Indice de confiance : 2 sur 5 8 - Observations le mardi 8 septembre 2026 à 03H00 UTC Dunkerque : vent Sud-Sud-Ouest 8 noeuds, 1013 hPa en baisse. Cap Gris Nez : vent Ouest-Sud-Ouest 21 noeuds. Boulogne : vent Ouest-Sud-Ouest 16 noeuds, 1013 hPa en baisse, clair ou peu nuageux, visibilité 8 milles. Prochain bulletin le mardi 8 septembre 2026, vers 12H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -309,12 +309,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : &#x2600;&#xFE0F;&#x1F393;&#x1F3EB; &#x1D40B;'&#x1D400;&#x1D426;&#x1D429;&#x1D421;&#x1D422; &#x1D40C;e&#x1D42D;e&#x1D428; &#x1F3EB;&#x1F393;&#x2600;&#xFE0F; : prédis la météo, deviens... Major de Promo !
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
 • Infoclimat Direct : Recensement des tornades en France
 • Infoclimat Direct : Suivi du temps en Suisse
 • Infoclimat Direct : Le jeu de l'été saison 2026 !
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,9 +322,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 8 Septembre 2026.
-Résumé général HDF précédent : Temps sec, chaud et de plus en plus ensoleillé sur les Hauts-de-France. Une transition mineure mardi 08 (averses, rafales littorales), puis un net retour des hautes pressions. Les températures restent au-dessus des normales de saison, avec une accentuation possible en semaine 38. Aucune pluie significative en vue jusqu’à J+10..
+Résumé général HDF précédent : Tendance générale : temps sec, chaud et anticyclonique sur les Hauts-de-France. Une brève dégradation est attendue mardi 8, puis le soleil et la chaleur reviennent rapidement. La sécheresse de surface s’accentue, avec des maximales souvent supérieures aux normales de 3 à 6°C..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur marquée, absence de précipitations, « été indien » persistant dans la moitié nord..
+Températures attendues précédemment : Averses faibles mardi, éclaircies mercredi/jeudi, chaleur en hausse vendredi-dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 8 au Dimanche 13 Septembre 2026) ===
@@ -467,7 +467,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								7
+								8
 								1
 								1
 								1
@@ -539,7 +539,7 @@ Message:
 	ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
 	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
 	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
-								2
+								3
 								3
 
 =======================
@@ -696,7 +696,7 @@ il y a une heure, nickdu77 a dit :
 	Je ne comprends pas, je suis désolé mais même pour Paris naviguer entre 10 et 15°C à la 850hPa avec une patate anticyclonique arrivé mi-Septembre c'est tout sauf normal, désolé c'est du tableau GFS brut de décoffrage mais d'ici la fin de semaine les T° redeviennent à nouveau très estivales. Mi-Septembre la norme à Montsouris c'est 13/21.5°C ... pas 17/27.
 	Et je ne parle même plus du pourtour Med, l'été a décidé de résister jusqu'à Octobre on dirait.
 	Cela dit il faudrait ouvrir le topic de la semaine suivante, car autant cette semaine c'est encore "acceptable" thermiquement, mais la suivante risque d'être bien différente! Pour la pluie en bonne quantité on a tous compris que c'était mort jusqu'à J+10 au moins.
-								7
+								8
 								1
 								1
 								1
@@ -768,7 +768,7 @@ Message:
 	ce n'est plus le TGV à plus de 320km/h mais le tortillard, dans tous les sens du terme, avec de très rares apparitions du rouge de la haute vitesse sur l'animation, et encore hors de l'échéance qui nous occupe et de l'autre côté du pôle le plus souvent...
 	à ce train-là (!) faudra pas s'étonner de voir un vortex polaire en mille morceaux les prochaines saisons...
 	pour l'instant c'est un quadripode dont le quatrième larron nous nargue au-dessus du 60°N...
-								2
+								3
 								3
 
 =======================
