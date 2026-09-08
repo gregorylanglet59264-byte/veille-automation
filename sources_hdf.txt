@@ -302,12 +302,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
+• Infoclimat Direct : 20°C consécutives]]>
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 08/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -315,9 +315,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mardi 8 Septembre 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaîtront un temps majoritairement sec et plus doux que la normale. Après un épisode venteux mardi 8, l'accalmie s'installe puis une pulsion chaude est possible en deuxième semaine, avec toutefois des incertitudes sur une dégradation après le 17..
+Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France connaissent un temps sec, ensoleillé et plus chaud que la normale. Un épisode venteux marque le début de période, puis une pulsion chaude est probable en deuxième semaine, avec des incertitudes pour la fin de l'échéance..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Vent fort mardi (rafales 85 km/h), averses, puis éclaircies et températures de saison, maximales 18-25°C..
+Températures attendues précédemment : Pas de temps sensible HDF clairement identifié dans les discussions ; tendance générale chaude et sèche. (101 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mardi 8 au Dimanche 13 Septembre 2026) ===
@@ -549,7 +549,7 @@ il y a 11 minutes, giec 2100 a dit :
 	Des extrêmes marqués en terme humide avec de longues périodes sèches et un excès d’ensoleillement et de T. Un vortex réduit à peau de chagrin avec des blocages et des GF. Malheureusement sur notre secteur ça s’accompagne plus souvent par des remontées de HG. On paye notre proximité avec l’Afrique du Nord et la faiblesse chronique du jet. Ça fait peur pour la suite. Particulièrement sur l’aridité fréquente de notre futur climat. On a l’impression de courir après un lièvre pour apercevoir ne serait ce qu’une vraie dépression mi septembre c’est quand même dingue 
 								2
 								1
-								9
+								10
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
 Auteur: giec 2100
@@ -563,7 +563,7 @@ Dernière semaine avant l'équinoxe d'automne pour ces prévisions météo où l
 	Les vents seront de composante N à NW majoritaire.
 	Enfin un point de focale sur les précipitations, avec l'eau précipitable, en début et fin de période : 
 	des valeurs de niveau modeste...
-	Modifié il y a 17 heures par giec 2100
+	Modifié il y a 19 heures par giec 2100
 								1
 								2
 								2
@@ -600,7 +600,7 @@ Bonjour,
 	Ça reste ouvert pour la seconde moitié du topic mais le fait que ça reste ouvert est en soi problématique. A l'approche de l'automne, on devrait avoir un temps automnal et pas un temps estival+++.
 	Ça me rappelle l'année 2023.
 								2
-								1
+								2
 
 =======================
 
@@ -623,6 +623,7 @@ On avait un peu échangé avec cirrus007 hier et, après discussion sur la not
 	Pour le topic en cours, les températures ne seront hélas pas si éloignées de celles de ces dernières années.
 	Le point le plus frappant, c'est l'absence de PP.
 Climato_sept.xlsx
+								1
 								1
 
 =======================
@@ -649,5 +650,7 @@ il y a 52 minutes, nickdu77 a dit :
 			Climato_sept.xlsx 11.13 Ko · 3 téléchargements   
 	Je ne vais pas m'étendre ici, étant plutôt de la climato, mais quand je vois que parmi ces étés entre 2015 et 2025 l'été 2021 a été considéré comme médiocre et frais, effectivement les repères ont sacrément changé , surtout quand on a connu les étés des années 70 et 80 ! 
 	Enfin il n'y a plus grand chose  de rationnel actuellement et pas seulement sur le climat d'ailleurs ! 
-								2
+								4
+								1
+								1
 								1
