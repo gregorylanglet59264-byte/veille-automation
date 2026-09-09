@@ -255,8 +255,8 @@ function switchZoneTab(containerId, tabId, btnEl) {
     <h1 class="hero-title">Prévisions France</h1>
   </div>
   <div class="hero-dates-bar">
-    <div class="date-chip active-chip">📅 <strong>Semaine 1 :</strong> Période exacte semaine 1 : du mercredi 9 septembre au dimanche 13 septembre 2026 (semaine 37).</div>
-    <div class="date-chip">📅 <strong>Semaine 2 :</strong> Période exacte semaine 2 : du lundi 14 septembre au dimanche 20 septembre 2026 (semaine 38).</div>
+    <div class="date-chip active-chip">📅 <strong>Semaine 1 :</strong> Du mercredi 9 au dimanche 13 septembre 2026</div>
+    <div class="date-chip">📅 <strong>Semaine 2 :</strong> Du lundi 14 au dimanche 20 septembre 2026</div>
     <div class="date-chip gen-chip">⚡ <strong>Génération :</strong> Mercredi 9 Septembre 2026</div>
   </div>
 </header>
@@ -267,16 +267,16 @@ function switchZoneTab(containerId, tabId, btnEl) {
     <span class="kpi-icon">🔥</span>
     <div>
       <div class="kpi-pill-label">Situation dominante</div>
-      <div class="kpi-pill-val">Anticyclone sec et chaud</div>
-      <div class="kpi-pill-note">Le scénario dominant est celui d'un blocage anticyclonique avec des hauts géopotentiels sur la France, provoquant un temps stable et ensoleillé, sans pluie.</div>
+      <div class="kpi-pill-val">Scénario sec et chaud privilégié, avec une alternative plus fraîche et humide en fin de période.</div>
+      <div class="kpi-pill-note">Le scénario le plus probable est le maintien d'un temps sec et chaud, mais un scénario de rupture avec un retour d'un flux océanique plus humide n'est pas exclu.</div>
     </div>
   </div>
   <div class="kpi-pill">
     <span class="kpi-icon">📈</span>
     <div>
       <div class="kpi-pill-label">Tendance</div>
-      <div class="kpi-pill-val">Élevé</div>
-      <div class="kpi-pill-note">Accord remarquable entre GFS, ECMWF et Météo-France pour un temps sec et chaud jusqu'au 17 septembre. Les divergences n'apparaissent qu'en fin d'échéance.</div>
+      <div class="kpi-pill-val">Modéré</div>
+      <div class="kpi-pill-note">Le consensus est bon pour la première semaine, mais se dégrade pour la seconde avec une divergence sur l'évolution des centres d'action.</div>
     </div>
   </div>
   <div class="kpi-pill">
@@ -292,7 +292,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
     <div>
       <div class="kpi-pill-label">Niveau de Confiance</div>
       <div class="kpi-pill-val">Modérée</div>
-      <div class="kpi-pill-note">L'incertitude concerne surtout la dernière partie de la semaine 2 et la localisation des rares averses ; le début de la période est très fiable.</div>
+      <div class="kpi-pill-note">L'incertitude principale réside dans la durée exacte de l'épisode de chaleur et la possible arrivée d'une perturbation.</div>
     </div>
   </div>
 </section>
@@ -313,14 +313,14 @@ function switchZoneTab(containerId, tabId, btnEl) {
         <div class="day-summary-left">
           <span class="day-picto">🗓️</span>
           <div>
-            <strong class="day-name">Mercredi 9 septembre (journée)</strong>
-            <div class="day-short">Nuages matinaux puis nette amélioration, soleil timide puis de plus en plus présent ; mer peu agitée à agitée.</div>
+            <strong class="day-name">Mercredi 9 et jeudi 10 septembre</strong>
+            <div class="day-short">Temps sec avec un ciel voilé, températures en hausse, vent modéré.</div>
           </div>
         </div>
         <span class="day-chevron">▼</span>
       </summary>
       <div class="day-accordion-body">
-        <p>Nuages matinaux puis nette amélioration, soleil timide puis de plus en plus présent ; mer peu agitée à agitée.</p>
+        <p>Temps sec avec un ciel voilé, températures en hausse, vent modéré.</p>
       </div>
     </details>
 
@@ -329,30 +329,14 @@ function switchZoneTab(containerId, tabId, btnEl) {
         <div class="day-summary-left">
           <span class="day-picto">🗓️</span>
           <div>
-            <strong class="day-name">Nuit de mercredi à jeudi et journée de jeudi 10 septembre</strong>
-            <div class="day-short">Nuits fraîches en terres (6 à 10°C), journée ensoleillée avec passages nuageux, averses possibles en fin de nuit sur le littoral.</div>
-          </div>
-        </div>
-        <span class="day-chevron">▼</span>
-      </summary>
-      <div class="day-accordion-body">
-        <p>Nuits fraîches en terres (6 à 10°C), journée ensoleillée avec passages nuageux, averses possibles en fin de nuit sur le littoral.</p>
-      </div>
-    </details>
-
-    <details class="day-accordion">
-      <summary class="day-summary">
-        <div class="day-summary-left">
-          <span class="day-picto">🗓️</span>
-          <div>
             <strong class="day-name">Vendredi 11 et samedi 12 septembre</strong>
-            <div class="day-short">Ciel variable avec averses littorales en matinée, belles éclaircies l'après-midi ; samedi, brumes possibles au réveil puis soleil dominant.</div>
+            <div class="day-short">Ensoleillé et plus chaud, avec des maximales proches de 25°C.</div>
           </div>
         </div>
         <span class="day-chevron">▼</span>
       </summary>
       <div class="day-accordion-body">
-        <p>Ciel variable avec averses littorales en matinée, belles éclaircies l'après-midi ; samedi, brumes possibles au réveil puis soleil dominant.</p>
+        <p>Ensoleillé et plus chaud, avec des maximales proches de 25°C.</p>
       </div>
     </details>
 
@@ -362,13 +346,29 @@ function switchZoneTab(containerId, tabId, btnEl) {
           <span class="day-picto">🗓️</span>
           <div>
             <strong class="day-name">Dimanche 13 septembre</strong>
-            <div class="day-short">Journée la plus douce de la semaine, éclaircies prédominantes, température en hausse (22 à 24°C), vent faible à modéré.</div>
+            <div class="day-short">Toujours sec et doux, mais le vent tourne à l'Ouest, créant un rafraîchissement sur le littoral.</div>
           </div>
         </div>
         <span class="day-chevron">▼</span>
       </summary>
       <div class="day-accordion-body">
-        <p>Journée la plus douce de la semaine, éclaircies prédominantes, température en hausse (22 à 24°C), vent faible à modéré.</p>
+        <p>Toujours sec et doux, mais le vent tourne à l'Ouest, créant un rafraîchissement sur le littoral.</p>
+      </div>
+    </details>
+
+    <details class="day-accordion">
+      <summary class="day-summary">
+        <div class="day-summary-left">
+          <span class="day-picto">🗓️</span>
+          <div>
+            <strong class="day-name">Aucune dégradation significative.</strong>
+            <div class="day-short">Pas de phase de dégradation, stabilité maintenue.</div>
+          </div>
+        </div>
+        <span class="day-chevron">▼</span>
+      </summary>
+      <div class="day-accordion-body">
+        <p>Pas de phase de dégradation, stabilité maintenue.</p>
       </div>
     </details>
   </div>
@@ -384,7 +384,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
     </div>
   </div>
   <div class="grid grid-2">
-    <div class="key"><i>☀️</i><div><strong>Retour du soleil</strong>Après une matinée nuageuse mercredi, les éclaircies s'imposent largement dès l'après-midi sur toute la région HDF.</div></div><div class="key"><i>🌡️</i><div><strong>Nuits fraîches puis douceur</strong>Températures minimales de 7 à 12°C jeudi matin, puis remontée à 12-15°C le week-end.</div></div><div class="key"><i>🌦️</i><div><strong>Averses côtières</strong>Jeudi en seconde partie de nuit et vendredi matin, quelques averses possibles sur le littoral et la Flandre maritime.</div></div><div class="key"><i>💡</i><div><strong>Vigilance verte</strong>Aucun phénomène dangereux sur les 5 départements des Hauts-de-France pour toute la semaine.</div></div><div class="key"><i>🌡️</i><div><strong>Tendance chaude et sèche</strong>Week-end ensoleillé avec températures en hausse, 22 à 25°C attendus, avant un temps plus estival la semaine suivante.</div></div>
+    <div class="key"><i>🌡️</i><div><strong>Temps sec et stable</strong>La région reste sous l'influence d'un anticyclone, garantissant un temps sec et ensoleillé.</div></div><div class="key"><i>🌡️</i><div><strong>Chaleur progressive</strong>Les températures augmentent jour après jour, avec des maximales proches de 25°C dès le week-end.</div></div><div class="key"><i>💨</i><div><strong>Vent modéré</strong>Un flux de secteur Ouest à Sud-Ouest, faible à modéré, concerne principalement le littoral et l'intérieur des terres.</div></div><div class="key"><i>🌡️</i><div><strong>Nuits fraîches</strong>Les températures minimales restent basses, comprises entre 10 et 14°C, avec des brumes matinales localisées.</div></div><div class="key"><i>🌦️</i><div><strong>Sécheresse qui s'accentue</strong>L'absence de pluie aggrave la sécheresse de surface, un point de vigilance pour la végétation.</div></div>
   </div>
 </section>
 
@@ -412,7 +412,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
             <span class="zone-icon">🦁</span>
             <h3>Nord (59)</h3>
           </div>
-          <div class="zone-short-desc">Éclaircies prédominantes, soleil généreux en journée, averses possibles en fin de nuit de jeudi à vendredi sur la Flandre maritime et la côte.</div>
+          <div class="zone-short-desc">Alternance de nuages et d'éclaircies, restant sec.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -421,11 +421,11 @@ function switchZoneTab(containerId, tabId, btnEl) {
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Éclaircies prédominantes, soleil généreux en journée, averses possibles en fin de nuit de jeudi à vendredi sur la Flandre maritime et la côte.</li><li><b>Températures :</b> Min 7 à 15°C, Max 20 à 24°C.</li><li><b>Pluie / Orages :</b> Averses éparses possibles jeudi en seconde partie de nuit de la côte à la région lilloise, et vendredi matin en Flandre maritime. Risque de pluie ou d'averses temporaire samedi/dimanche.</li><li><b>Vent :</b> Vent d'Ouest à Nord-Ouest modéré en journée, s'atténuant en soirée. Vent assez fort en Flandre maritime en début de semaine, rafales possibles jusqu'à 45 km/h.</li><li><b>Période sensible :</b> Jeudi 10 en seconde partie de nuit et vendredi 11 en matinée pour les averses ; samedi 12 et dimanche 13 pour la douceur.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Lille, Dunkerque, Valenciennes, Flandre maritime, Avesnois, Cambrésis, métropole lilloise • 5 mentions</li>
+          <li><b>Temps dominant :</b> Alternance de nuages et d'éclaircies, restant sec.</li><li><b>Températures :</b> Min 11°C, Max 23°C</li><li><b>Pluie / Orages :</b> Aucune précipitation. Averses possibles sur le littoral (faible).</li><li><b>Vent :</b> Ouest à Sud-Ouest, 15 à 45 km/h.</li><li><b>Période sensible :</b> Après-midi du samedi 12 et dimanche 13.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML 22SPC, ECMWF, GFS, Guillaume Séchet, Bulletin Marine • Secteurs : Lille, Dunkerque, Valenciennes • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Localisation exacte des averses incertaine ; risque de brumes matinales samedi.</span>
+          <span class="chip-uncert">Incertitude : Températures maximales sous estimées si le vent tourne au Sud.</span>
         </div>
       </div>
     </details>
@@ -438,7 +438,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
             <span class="zone-icon">🌊</span>
             <h3>Pas-de-Calais (62)</h3>
           </div>
-          <div class="zone-short-desc">Soleil et passages nuageux, belles éclaircies l'après-midi, petites pluies possibles en fin de nuit de jeudi à vendredi.</div>
+          <div class="zone-short-desc">Éclaircies, plus nuageux près du littoral le matin.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -447,11 +447,11 @@ function switchZoneTab(containerId, tabId, btnEl) {
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Soleil et passages nuageux, belles éclaircies l'après-midi, petites pluies possibles en fin de nuit de jeudi à vendredi.</li><li><b>Températures :</b> Min 10 à 14°C, Max 18 à 24°C.</li><li><b>Pluie / Orages :</b> Averses possibles sur les côtes de la Manche jeudi matin, puis pluies faibles se généralisant en seconde partie de nuit. Vendredi, averses littorales en matinée. Risque de pluie temporaire samedi/dimanche.</li><li><b>Vent :</b> Vent d'Ouest à Nord-Ouest modéré, assez fort sur les côtes en début de nuit, puis atténuation. Vent de Sud à Sud-Ouest modéré jeudi.</li><li><b>Période sensible :</b> Jeudi 10 en soirée et nuit suivante pour les pluies ; vendredi 11 matin sur le littoral.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Arras, Calais, Boulogne-sur-Mer, Lens, Haut-Artois, bassin minier, littoral de la Manche • 5 mentions</li>
+          <li><b>Temps dominant :</b> Éclaircies, plus nuageux près du littoral le matin.</li><li><b>Températures :</b> Min 10°C, Max 22°C</li><li><b>Pluie / Orages :</b> Aucune précipitation significative.</li><li><b>Vent :</b> Ouest à Nord-Ouest, puis Sud-Ouest en soirée, 10 à 40 km/h.</li><li><b>Période sensible :</b> Vent de Sud-Ouest plus sensible en fin de semaine.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML 22SPC, ECMWF, GFS, Guillaume Séchet, Bulletin Marine • Secteurs : Arras, Calais, Boulogne-sur-Mer, Lens • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Extension des pluies de la seconde partie de nuit jeudi incertaine vers les terres.</span>
+          <span class="chip-uncert">Incertitude : Précisions sur le passage des bancs de brume côtière.</span>
         </div>
       </div>
     </details>
@@ -464,7 +464,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
             <span class="zone-icon">🦆</span>
             <h3>Somme (80)</h3>
           </div>
-          <div class="zone-short-desc">Temps sec, éclaircies de plus en plus larges, quelques averses possibles jeudi en fin de nuit sur le Vermandois et l'ouest du département.</div>
+          <div class="zone-short-desc">Ciel variable, quelques averses possibles sur l'ouest et le nord.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -473,11 +473,11 @@ function switchZoneTab(containerId, tabId, btnEl) {
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Temps sec, éclaircies de plus en plus larges, quelques averses possibles jeudi en fin de nuit sur le Vermandois et l'ouest du département.</li><li><b>Températures :</b> Min 7 à 15°C, Max 18 à 23°C.</li><li><b>Pluie / Orages :</b> Gouttes possibles en début de nuit mercredi sur Vimeu, Ponthieu, Doullennais, puis temps sec. Averses possibles en seconde partie de nuit jeudi. Vendredi, averses littorales en matinée. Risque de pluie ou d'averses temporaire samedi/dimanche.</li><li><b>Vent :</b> Vent d'Ouest à Nord-Ouest modéré sur le littoral picard, s'atténuant ensuite. Vent de Sud-Ouest modéré au nord et à l'ouest d'Amiens jeudi.</li><li><b>Période sensible :</b> Nuit de jeudi à vendredi pour les averses ; samedi matin pour les brumes possibles.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Amiens, Abbeville, Péronne, Vimeu, Ponthieu, Doullennais, Vermandois, littoral picard • 5 mentions</li>
+          <li><b>Temps dominant :</b> Ciel variable, quelques averses possibles sur l'ouest et le nord.</li><li><b>Températures :</b> Min 13°C, Max 24°C</li><li><b>Pluie / Orages :</b> Averses faibles possibles sur les deux tiers ouest, puis retour au sec.</li><li><b>Vent :</b> Ouest à Sud-Ouest, faible à modéré, 15 à 40 km/h.</li><li><b>Période sensible :</b> Averses possibles en première partie de semaine, puis assèchement.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML 22SPC, ECMWF, GFS, Guillaume Séchet, Bulletin Marine • Secteurs : Amiens, Abbeville, Péronne • 5 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Les averses du Vermandois et des deux tiers ouest jeudi en seconde partie de nuit restent incertaines.</span>
+          <span class="chip-uncert">Incertitude : Risque orageux faible, limité au nord du département.</span>
         </div>
       </div>
     </details>
@@ -490,7 +490,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
             <span class="zone-icon">🏰</span>
             <h3>Oise (60)</h3>
           </div>
-          <div class="zone-short-desc">Belle journée ensoleillée jeudi, ciel variable vendredi, temps plutôt ensoleillé samedi et dimanche.</div>
+          <div class="zone-short-desc">Ensoleillé, avec quelques nuages élevés en journée.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -499,11 +499,11 @@ function switchZoneTab(containerId, tabId, btnEl) {
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Belle journée ensoleillée jeudi, ciel variable vendredi, temps plutôt ensoleillé samedi et dimanche.</li><li><b>Températures :</b> Min 6 à 12°C, Max 19 à 24°C.</li><li><b>Pluie / Orages :</b> Quelques averses possibles en fin de nuit jeudi sur le Vexin français et le pays de Thelle. Risque de pluie ou d'averses samedi matin jusqu'à la mi-journée.</li><li><b>Vent :</b> Vent de Nord-Ouest modéré mercredi, puis secteur Ouest généralement modéré vendredi. Vent d'Ouest modéré dimanche matin.</li><li><b>Période sensible :</b> Fin de nuit de jeudi à vendredi pour les averses sur l'ouest ; samedi matin pour le risque de pluie.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Beauvais, Compiègne, Senlis, Vexin français, pays de Thelle, pays de Bray, Picardie verte, Plateau Picard, Noyonnais • 5 mentions</li>
+          <li><b>Temps dominant :</b> Ensoleillé, avec quelques nuages élevés en journée.</li><li><b>Températures :</b> Min 12°C, Max 25°C</li><li><b>Pluie / Orages :</b> Aucune précipitation.</li><li><b>Vent :</b> Ouest faible, 10 à 20 km/h.</li><li><b>Période sensible :</b> Aucune période sensible, temps calme.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML 22SPC, ECMWF, GFS, Guillaume Séchet • Secteurs : Beauvais, Compiègne, Senlis, Clermont • 4 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Averses du Vexin et du pays de Thelle de courte durée, localisation précise incertaine.</span>
+          <span class="chip-uncert">Incertitude : Amplitude thermique diurne élevée, possibilité de brumes matinales.</span>
         </div>
       </div>
     </details>
@@ -516,7 +516,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
             <span class="zone-icon">🍇</span>
             <h3>Aisne (02)</h3>
           </div>
-          <div class="zone-short-desc">Très ensoleillé jeudi, alternance d'éclaircies et de nuages vendredi, puis temps sec et ensoleillé le week-end.</div>
+          <div class="zone-short-desc">Généralement ensoleillé, devenant plus chaud.</div>
         </div>
         <div style="display:flex; align-items:center; gap:6px;">
           <span class="chip-conf" style="font-size:10px;">Élevée</span>
@@ -525,11 +525,11 @@ function switchZoneTab(containerId, tabId, btnEl) {
       </summary>
       <div class="zone-body">
         <ul class="zone-details">
-          <li><b>Temps dominant :</b> Très ensoleillé jeudi, alternance d'éclaircies et de nuages vendredi, puis temps sec et ensoleillé le week-end.</li><li><b>Températures :</b> Min 7 à 13°C, Max 20 à 25°C.</li><li><b>Pluie / Orages :</b> Quelques gouttes possibles vendredi après-midi sur la Thiérache. Risque de temps pluvieux temporaire samedi sur le sud du département. Aucune pluie significative.</li><li><b>Vent :</b> Vent faible à modéré, d'Ouest à Nord-Ouest mercredi, Sud-Ouest puis Nord-Nord-Ouest vendredi. Vent d'Ouest modéré dimanche matin.</li><li><b>Période sensible :</b> Vendredi après-midi pour les gouttes en Thiérache ; samedi pour le temps pluvieux temporaire sur la moitié sud.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML, ECMWF, GFS, Guillaume Séchet • Secteurs : Laon, Saint-Quentin, Soissons, Laonnois, Vermandois, Thiérache • 5 mentions</li>
+          <li><b>Temps dominant :</b> Généralement ensoleillé, devenant plus chaud.</li><li><b>Températures :</b> Min 11°C, Max 25°C</li><li><b>Pluie / Orages :</b> Aucune précipitation.</li><li><b>Vent :</b> Sud-Ouest à Ouest, faible à modéré, 10 à 20 km/h.</li><li><b>Période sensible :</b> Après-midis les plus chauds en fin de semaine.</li><li style="margin-top:6px; font-size:11.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:4px;"><b>Sources :</b> Modèles : Météo-France XML 22SPC, ECMWF, GFS, Guillaume Séchet • Secteurs : Laon, Saint-Quentin, Soissons, Château-Thierry • 4 mentions</li>
         </ul>
         <div class="zone-foot">
           <span class="chip-conf">Confiance : Élevée</span>
-          <span class="chip-uncert">Incertitude : Le risque pluvieux de samedi est limité dans le temps et dans l'espace, forte incertitude sur les secteurs concernés.</span>
+          <span class="chip-uncert">Incertitude : Évolution des températures maximales si le flux bascule au Sud.</span>
         </div>
       </div>
     </details>
@@ -544,12 +544,12 @@ function switchZoneTab(containerId, tabId, btnEl) {
   <div class="section-head">
     <div>
       <span class="badge badge-gray">Perspective J+8 à J+14</span>
-      <h2>🔮 Tendance Semaine 2 — Période exacte semaine 2 : du lundi 14 septembre au dimanche 20 septembre 2026 (semaine 38).</h2>
+      <h2>🔮 Tendance Semaine 2 — Du lundi 14 au dimanche 20 septembre 2026</h2>
     </div>
   </div>
   
   <div class="grid grid-2" style="margin-top:12px;">
-    <div class="key"><i>🌡️</i><div><strong>Sécheresse et chaleur</strong>Temps sec, ensoleillé et de plus en plus chaud sur l'ensemble de la région pour la majorité de la semaine.</div></div><div class="key"><i>🌦️</i><div><strong>Pluies localisées lundi</strong>Risque de pluie ou d'averses lundi matin sur la Flandre maritime, le Valenciennois, l'Artois, le Ponthieu et le Laonnois, puis amélioration.</div></div><div class="key"><i>🌡️</i><div><strong>Températures estivales</strong>Maximales de 23 à 27°C mardi, très au-dessus des normales de saison.</div></div><div class="key"><i>🌡️</i><div><strong>Baisse en fin de semaine</strong>Mercredi et jeudi, léger repli des températures avec passages nuageux et risque d'averses temporaire.</div></div><div class="key"><i>⚠️</i><div><strong>Scénario incertain</strong>Possibilité d'une goutte froide en fin de période, évoquée par ECMWF mais minoritaire dans les ensembles.</div></div>
+    <div class="key"><i>🌡️</i><div><strong>Stabilité persistante</strong>Les hauts géopotentiels dominent encore, maintenant un temps sec.</div></div><div class="key"><i>🌡️</i><div><strong>Chaleur en retrait</strong>Les températures restent douces mais pourraient légèrement baisser en milieu de semaine.</div></div><div class="key"><i>💨</i><div><strong>Flux variable</strong>Le vent hésite entre secteur Ouest et Sud-Ouest, restant faible à modéré.</div></div><div class="key"><i>🌦️</i><div><strong>Averses limitées</strong>Quelques petites pluies sont possibles mais restent marginales.</div></div><div class="key"><i>⚠️</i><div><strong>Incertitude en fin de période</strong>L'évolution des centres d'action est moins claire, avec un risque de dégradation.</div></div>
   </div>
 </section>
 
@@ -576,90 +576,28 @@ function switchZoneTab(containerId, tabId, btnEl) {
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">GFS (déterministe et ensembles GEFS)</div>
-              <span class="status-badge status-main">Validé par les discussions : GFS déterministe + GEFS utilisés pour la tendance générale. Pas de contradiction majeure pour la semaine 1.</span>
+              <div class="model-name">Météo-France (ARPEGE) & Guillaume Séchet</div>
+              <span class="status-badge status-main">Confirmé</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">6 mentions directes ou indirectes (djoss, Krholam, cirrus007, nickdu77, Tornado75, clem11).</span>
-              <span class="chip">Runs cités : 06z, 00z, 18z</span>
-              <span class="chip">Échéance fin de semaine 1 et semaine 2 : la hausse des températures se met en place dès vendredi 11 septembre.</span>
+              <span class="chip">12 mentions pertinentes.</span>
+              <span class="chip">Run : 09/09/2026 06:30 UTC</span>
+              <span class="chip">Échéance J0 à J+4.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Maintien d'un temps sec et chaud sur la France jusqu'à la fin de la première décade, avec un blocage anticyclonique. Pour les HDF, pas de pluie significative, températures en hausse dès vendredi.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Temps généralement sec et ensoleillé, averses très localisées possibles sur les côtes de la Manche et en Flandre maritime.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Nord-Pas-de-Calais littoral, baie de Somme ; intérieur des Hauts-de-France restant très sec.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>Temps sec et ensoleillé avec des températures en hausse, comprises entre 12 et 25°C. Vent faible à modéré. Fiabilité jugée bonne.</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Températures maximales en hausse, ressenties comme très douces pour la saison.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>L'ensemble des 5 départements des Hauts-de-France.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60-70 %) : GFS est abondamment commenté, mais la discussion est nationale, pas spécifiquement axée sur les HDF.</strong></div>
-              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Un seul run déterministe GFS 18z samedi évoque une dégradation à long terme, mais il est isolé dans son ensemble. Les GEFS privilégient un maintien anticyclonique et sec.</strong></div>
+              <div class="score-label">Extraction : <strong>4 sur 5</strong></div>
+              <div class="bar"><div class="fill" style="width:4%; background:var(--red);"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Consensus avec les modèles GFS et CEP.</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                Les diagrammes GEFS pour Paris et le pourtour méditerranéen montrent un très net déficit de précipitations et une persistance de températures supérieures aux normales de 4 à 8°C pour la saison. Pour le Nord, les courbes restent dans une fourchette chaude et sèche.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">ECMWF (ensemble et déterministe)</div>
-              <span class="status-badge status-main">Convergent avec GFS pour la semaine 1.</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">2 mentions explicites (Jojobarbar, giec 2100).</span>
-              <span class="chip">Run : Run déterministe de lundi, clustering d'ensemble européen (23/51 dépressionnaires, 28/51 anticycloniques pour la fin de semaine 2).</span>
-              <span class="chip">Semaines 1 et 2 entières.</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Le modèle européen est évoqué principalement pour la semaine 2, mais il confirme pour la semaine 1 une dorsale anticyclonique s'étendant vers les îles britanniques, avec une France sous les hauts géopotentiels.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Temps calme, sec, ensoleillé le jour, frais la nuit en début de semaine, puis radoucissement progressif.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>L'ensemble du pays, y compris les Hauts-de-France.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60-70 %) : les clusters ECMWF sont cités dans le détail, mais sans zoom régional HDF.</strong></div>
-              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Les runs déterministes et l'ensemble européen s'accordent sur une situation de blocage. Aucun signal pluvieux significatif jusqu'à la mi-septembre.</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                Le scénario anticyclonique domine pour la semaine 1. La fin de semaine 2 est plus partagée, avec possibilité d'une goutte froide sur la Corogne générant une advection chaude sur la France. Aucune pluie pour le nord du pays.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">Autres modèles (ARPEGE, UKMO, ICON, AROME)</div>
-              <span class="status-badge status-main">Non commenté sur le forum.</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">0.</span>
-              <span class="chip">Run : Aucun.</span>
-              <span class="chip">Sans objet.</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Non évoqués dans les discussions pour la semaine 1.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Non estimable.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Non estimable.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Non estimable</strong></div>
-              <div class="bar" style="background:#e2e8f0;"></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Les bulletins départementaux Météo-France servent de référence factuelle pour le temps sensible HDF.</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                Le bulletin XML Météo-France du 09/09/2026 prévoit pour les HDF un temps sec et ensoleillé, des températures en hausse et des averses localisées sur le littoral.
+                Scénario sec et anticyclonique dominant avec des maximales en hausse. Aucun signal de dégradation significative.
               </div>
             </details>
           </td>
@@ -672,28 +610,28 @@ function switchZoneTab(containerId, tabId, btnEl) {
     <div class="tech-block">
       <h4>🤝 Convergences & Divergences des Scénarios</h4>
       <div class="compare">
-        <div class="card card-solid"><h3>Ce qui converge</h3><p>- Maintien d'un temps sec et anticyclonique sur les Hauts-de-France ; aucune pluie significative en vue.
-- Hausse progressive des températures, avec un week-end samedi 12 et dimanche 13 particulièrement doux, 21 à 25°C.
-- Les averses restent limitées à la frange littorale et à la Flandre maritime ; l'intérieur de la région reste au sec.</p></div>
-        <div class="card card-fragile"><h3>Ce qui diverge</h3><p>- Localisation précise des averses de jeudi/vendredi : littoral du Nord/Pas-de-Calais, ou également Picardie maritime ?
-- Présence de brumes matinales samedi : plus fréquentes dans les terres (Amiénois, Santerre) ou sur le littoral ?
-- Intensité de la hausse des températures le week-end : 22-23°C sur la côte ou 24-25°C dans l'Oise et l'Aisne ?</p></div>
+        <div class="card card-solid"><h3>Ce qui converge</h3><p>- Convergence sur un temps sec et stable pour toute la semaine.
+- Convergence sur des températures en hausse, avec un pic attendu en fin de semaine.
+- Convergence sur un vent faible à modéré, orienté Ouest à Sud-Ouest.</p></div>
+        <div class="card card-fragile"><h3>Ce qui diverge</h3><p>- Divergence sur les températures maximales exactes pour le week-end (23 à 27°C).
+- Divergence mineure sur la présence de bancs de brume matinale en début de journée.
+- Divergence sur la force du vent sur le littoral, en particulier entre Dunkerque et Boulogne.</p></div>
       </div>
     </div>
 
     <div class="tech-block">
       <h4>🛡️ Fiabilité & Éléments à surveiller</h4>
       <div class="compare">
-        <div class="card card-solid"><h3>Points solides</h3><p>- Temps sec et ensoleillé pour l'essentiel de la semaine 1 sur l'ensemble des Hauts-de-France.
-- Pas de risque de phénomène dangereux, vigilance verte maintenue.
-- Températures en hausse ce week-end, avec des maximales de 22 à 24°C en intérieur.</p></div>
-        <div class="card card-fragile"><h3>Points fragiles</h3><p>- Averses de jeudi/vendredi : localisation précise encore incertaine, notamment pour le Pas-de-Calais et la Somme.
-- La présence de brumes matinales samedi et leur durée restent délicates à évaluer.
-- L'ampleur de la remontée thermique dimanche est dépendante de la nébulosité résiduelle.</p></div>
+        <div class="card card-solid"><h3>Points solides</h3><p>- Temps sec et ensoleillé sur toute la région.
+- Températures maximales en hausse constante, atteignant 25°C dans l'Oise et l'Aisne.
+- Vent faible à modéré, ne présentant aucun caractère de tempête.
+- Absence de risque de gel ou de phénomène violent.</p></div>
+        <div class="card card-fragile"><h3>Points fragiles</h3><p>- L'arrivée d'une perturbation par l'ouest en fin de semaine (faible probabilité).
+- La tenue des températures maximales le week-end, qui dépendent de l'orientation du vent.
+- La présence de brumes et brouillards matinaux, réduisant la visibilité.</p></div>
       </div>
-      <div class="alert" style="margin-top:12px">À surveiller dans les prochains runs : - Prochains runs GFS (00z, 06z, 12z) et ECMWF (00z, 12z) pour affiner le passage pluvieux de jeudi/vendredi sur le littoral.
-- Cartes de risque de brumes et de brouillards pour la matinée de samedi.
-- Évolution des ensembles pour la semaine 2 : suivi de la goutte froide potentielle sur la Corogne.</div>
+      <div class="alert" style="margin-top:12px">À surveiller dans les prochains runs : - Prochaine échéance de Météo-France (J+4 à J+7) pour confirmer le pic de chaleur du week-end.
+- Évolution des scénarios CEP et GFS pour le début de la semaine suivante.</div>
     </div>
 
     <div class="tech-block">
@@ -729,90 +667,28 @@ function switchZoneTab(containerId, tabId, btnEl) {
         <tr class="model-row">
           <td data-label="Modèle">
             <div class="model-name-box">
-              <div class="model-name">ECMWF (ensemble et déterministe)</div>
-              <span class="status-badge status-main">Scénario le plus fiable pour la semaine 2 : un temps sec et souvent chaud sur la France, mais la fin de semaine reste à surveiller.</span>
+              <div class="model-name">Météo-France (CEP), GFS & Guillaume Séchet</div>
+              <span class="status-badge status-main">Incertain</span>
             </div>
             <div class="chips" style="margin-top:6px;">
-              <span class="chip">4 mentions détaillées (giec 2100, Jojobarbar, Plancher, Tornado75).</span>
-              <span class="chip">Run : Run déterministe de lundi et mardi, clustering d'ensemble européen, ensembles de Paris et Toulouse.</span>
-              <span class="chip">Semaine entière, avec un pic de chaleur possible mardi 15 et une dégradation incertaine à partir de vendredi 18.</span>
+              <span class="chip">8 mentions pertinentes.</span>
+              <span class="chip">Run : 09/09/2026 00:00 UTC</span>
+              <span class="chip">Échéance J+5 à J+11.</span>
             </div>
           </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Architecture hémisphérique stable, hautes pressions sur la France en début de semaine, puis possible détachement d'une goutte froide sur la Corogne en fin de semaine, avec advection d'air chaud d'origine africaine sur le pays. Pour les HDF, temps sec et chaud, vents de nord-ouest.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Ensoleillé, très doux, absence de précipitations notables. Peut-être un peu plus nuageux mercredi/jeudi avec baisse des températures.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Toute la région Hauts-de-France, avec une sécheresse de surface qui s'accentue.</td>
+          <td data-label="Scénario"><span class="m-label">Scénario :</span>Maintien d'un temps sec et doux, avec 45% des scénarios montrant une évolution dépressionnaire. Températures stables.</td>
+          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Douceur persistante, avec un risque de fraîcheur en soirée.</td>
+          <td data-label="Zones"><span class="m-label">Zones concernées :</span>L'ensemble de la région, notamment les zones côtières pour le vent.</td>
           <td data-label="Confiance & Soutien">
             <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60-70 %) : les clusters ECMWF sont détaillés dans la discussion, avec analyse des scénarios, mais pas de zoom régional précis.</strong></div>
-              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Le run déterministe d'hier montrait une goutte froide sur la Corogne ; le run de ce matin propose un autre scénario. Les ensembles sont polarisés : 28/51 anticycloniques (dont 14 chauds à flux de sud), 23/51 dépressionnaires (flux ouest/nord-ouest).</strong></div>
+              <div class="score-label">Extraction : <strong>3 sur 5</strong></div>
+              <div class="bar"><div class="fill" style="width:3%; background:var(--red);"></div></div>
+              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Scénario sec majoritaire, mais une dégradation est envisagée dans près de la moitié des scénarios.</strong></div>
             </div>
             <details class="model-details" open>
               <summary>Voir le détail d'analyse</summary>
               <div class="details-body">
-                Les diagrammes de Paris indiquent des températures maximales proches de 25°C, avec une tendance à la baisse en milieu de période, puis une remontée possible. Absence quasi totale de précipitations.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">GFS / GEFS (ensemble américain)</div>
-              <span class="status-badge status-main">En accord avec ECMWF pour le début de semaine, plus partagé pour la fin.</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">3 mentions (Jojobarbar, nickdu77, cirrus007).</span>
-              <span class="chip">Run : 00Z</span>
-              <span class="chip">Dimanche 20 septembre et jours suivants.</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Poursuite du temps sec avec des températures au-dessus des normales, mais deux tubes de scénarios se dessinent pour la fin de semaine : l'un chaud et anticyclonique, l'autre plus frais et dépressionnaire.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Pour les HDF, probable maintien d'un temps sec et ensoleillé, avec un vent de nord-ouest et des températures de saison ou légèrement supérieures.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>France entière, HDF inclus. Les précipitations sont très faibles, voire nulles.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Modérée (60-70 %) : analyse des tubes GEFS pour Toulouse et Paris, sans spécificité régionale HDF.</strong></div>
-              <div class="bar"><div class="fill" style="width:60%; background:var(--amber);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>À la date du 9 septembre, le tube chaud est plus fourni que le tube frais dans les GEFS. Les courbes de précipitations sont plates.</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                Les scénarios chauds montrent une persistance des hautes pressions et des températures 5 à 8°C au-dessus des normales. Le scénario frais permettrait un retour à des valeurs de saison mais sans pluie significative.
-              </div>
-            </details>
-          </td>
-        </tr>
-        
-
-        <tr class="model-row">
-          <td data-label="Modèle">
-            <div class="model-name-box">
-              <div class="model-name">Météo-France XML (ARPEGE/AROME, bulletins départementaux)</div>
-              <span class="status-badge status-main">Référence pour le temps sensible ; aucun signal dangereux jusqu'à jeudi.</span>
-            </div>
-            <div class="chips" style="margin-top:6px;">
-              <span class="chip">Non mentionné sur le forum Infoclimat pour la semaine 2, mais utilisé comme source factuelle principale du bulletin HDF.</span>
-              <span class="chip">Run : Analyse du 09/09/2026 à 00h30 UTC, valable jusqu'au 17 septembre.</span>
-              <span class="chip">Lundi 14 au jeudi 17 septembre.</span>
-            </div>
-          </td>
-          <td data-label="Scénario"><span class="m-label">Scénario :</span>Bulletins officiels pour les 5 départements HDF : lundi 14 et mardi 15 encore secs et chauds, mercredi 16 et jeudi 17 plus nuageux avec risque d'averses et baisse des températures.</td>
-          <td data-label="Temps sensible"><span class="m-label">Temps sensible :</span>Soleil prédominant lundi et mardi, passages nuageux mercredi/jeudi avec pluies possibles localement, surtout sur l'Oise et l'est.</td>
-          <td data-label="Zones"><span class="m-label">Zones concernées :</span>Tous les départements HDF, avec des nuances locales : littoral plus venté, intérieur plus chaud.</td>
-          <td data-label="Confiance & Soutien">
-            <div class="score-box">
-              <div class="score-label">Extraction : <strong>Élevée (80-90 %) : bulletins départementaux détaillés pour chaque département, provenant de la source officielle.</strong></div>
-              <div class="bar"><div class="fill" style="width:80%; background:var(--green);"></div></div>
-              <div class="score-label" style="margin-top:6px;">Soutien : <strong>Prévisions à échéance de 8 jours, construites sur les modèles ARPEGE/AROME, cohérentes avec la tendance générale des modèles longue portée.</strong></div>
-            </div>
-            <details class="model-details" open>
-              <summary>Voir le détail d'analyse</summary>
-              <div class="details-body">
-                Nord : risque d'averses lundi matin sur Flandre maritime, Valenciennois, Cambrésis, puis ensoleillé ; mercredi/jeudi, passages nuageux, températures en baisse. Pas-de-Calais : pluie possible lundi matin sur les reliefs de l'Artois, puis beau ; mercredi/jeudi, plutôt ensoleillé. Somme : pluies possibles lundi matin sur Ponthieu, Vimeu, Amiénois ; mercredi/jeudi, soleil entrecoupé. Oise : pluie lundi matin sur pays de Bray et Picardie verte, puis soleil ; mercredi/jeudi, temps pluvieux sur l'ouest et le Compiégnois. Aisne : pluie possible lundi matin sur le Laonnois, puis très ensoleillé ; mercredi/jeudi, beau temps sec.
+                Une dégradation est possible en toute fin de semaine avec un retour d'un flux océanique plus humide. Les températures pourraient alors baisser.
               </div>
             </details>
           </td>
@@ -821,13 +697,12 @@ function switchZoneTab(containerId, tabId, btnEl) {
         </tbody>
       </table>
       <div class="compare" style="margin-top:12px;">
-        <div class="card"><h3>Convergences S2</h3><p>- Week-end et début de semaine 2 marqués par un temps sec, ensoleillé et de plus en plus chaud sur les Hauts-de-France.
-- Absence de précipitations significatives : la sécheresse de surface va s'accentuer.
-- Pic de chaleur probable mardi 15 septembre avec des maximales de 23 à 27°C.
-- Baisse des températures à partir de mercredi/jeudi, mais retour de la douceur possible ensuite.</p></div>
-        <div class="card"><h3>Divergences S2</h3><p>- Comportement de la fin de semaine 2 : scénario chaud et anticyclonique (GEFS tube chaud, 27 % des clusters ECMWF) versus scénario plus frais et dépressionnaire (45 % des clusters ECMWF).
-- Localisation des pluies de lundi matin : limitées aux reliefs, au littoral ou plus étendues dans les terres ?
-- L'ampleur de la baisse des températures mercredi/jeudi : simple pause thermique ou vraie fraîcheur ?</p></div>
+        <div class="card"><h3>Convergences S2</h3><p>- Convergence sur le maintien de hautes pressions en début de semaine.
+- Convergence sur des températures proches des normales de saison.
+- Convergence sur l'absence de fortes précipitations, malgré un risque d'averses.</p></div>
+        <div class="card"><h3>Divergences S2</h3><p>- Divergence majeure sur l'évolution du flux en fin de semaine : Ouest vs Sud-Ouest.
+- Divergence sur la possibilité d'une dégradation orageuse ou pluvieuse.
+- Divergence sur l'intensité de la chaleur, avec un scénario à plus de 30°C en cas de flux de Sud.</p></div>
       </div>
       <div class="cards3" style="margin-top:12px;">
         
@@ -854,12 +729,12 @@ function switchZoneTab(containerId, tabId, btnEl) {
     <div class="tech-block">
       <h4>📊 Transparence Méthodologique & Tableau des Doutes</h4>
       <div class="grid grid-2">
-        <div class="card"><h3>Calendrier</h3><p>Doutes sur la chronologie et le timing des phénomènes HDF : la fin de la semaine 2 hésite entre un maintien de la chaleur et une baisse plus nette des températures. Le moment exact des averses de lundi 14 matin reste incertain.</p></div>
-        <div class="card"><h3>Localisation</h3><p>Doutes sur la localisation précise HDF : les averses concerneront-elles le littoral uniquement ou déborderont-elles vers l'intérieur ? Les pluies de mercredi/jeudi dans l'Oise sont-elles vraiment actives sur le Compiégnois ?</p></div>
-        <div class="card"><h3>Intensité</h3><p>Doutes sur l'intensité HDF : l'ampleur du pic de chaleur de mardi 15 est encore incertaine (23°C ou 27°C selon les scénarios). La baisse de fin de semaine sera-t-elle de 2°C ou de 6°C ?</p></div>
-        <div class="card"><h3>Données manquantes</h3><p>Informations importantes non abordées ou manquantes : les cumuls de pluie exacts pour les averses littorales, l'évolution des nappes phréatiques, l'impact de la sécheresse sur la végétation et les restrictions d'eau, les conditions de baignade et la température de la mer.</p></div>
-        <div class="card"><h3>Modèles peu documentés</h3><p>Modèles peu ou pas commentés par les membres : ARPEGE, AROME, UKMO, ICON. Seuls GFS et ECMWF sont réellement analysés dans les discussions Infoclimat.</p></div>
-        <div class="card"><h3>Images incertaines</h3><p>Incertitudes sur les graphiques : les diagrammes de Paris et Toulouse (mentionnés par les membres) ne sont pas explicitement associés aux HDF ; les cartes de clustering ECMWF ne sont pas publiées dans le fil de discussion consulté.</p></div>
+        <div class="card"><h3>Calendrier</h3><p>Incertitude sur le moment précis de la fin de l'épisode chaud et sec, entre le 17 et le 20 septembre.</p></div>
+        <div class="card"><h3>Localisation</h3><p>Questionnement sur la localisation exacte des maximales les plus élevées (Oise vs Aisne) et sur les températures côtières, souvent plus fraîches.</p></div>
+        <div class="card"><h3>Intensité</h3><p>Doute sur l'intensité de la chaleur en seconde semaine, avec des scénarios allant de 22°C à plus de 30°C pour les maximales.</p></div>
+        <div class="card"><h3>Données manquantes</h3><p>Manque de précisions sur l'évolution des indices de sécheresse et sur les restrictions d'eau potentielles.</p></div>
+        <div class="card"><h3>Modèles peu documentés</h3><p>Les projections à très long terme (J+10 à J+14) sont peu commentées par les membres, le focus étant mis sur la semaine 1.</p></div>
+        <div class="card"><h3>Images incertaines</h3><p>Aucune image satellitaire ou carte de pression détaillée fournie pour affiner l'analyse de la seconde semaine.</p></div>
       </div>
     </div>
   </div>
@@ -873,7 +748,7 @@ function switchZoneTab(containerId, tabId, btnEl) {
     <div class="card">
       <h3>📈 Évolution de la confiance</h3>
       <div class="sparkline"><div class="sparkline-row"><span>08/09 :</span> <span>███████░░░ Modérée</span></div>
-<div class="sparkline-row"><span>08/09 :</span> <span>███████░░░ Modérée</span></div>
+<div class="sparkline-row"><span>09/09 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>09/09 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>09/09 :</span> <span>███████░░░ Modérée</span></div>
 <div class="sparkline-row"><span>09/09 :</span> <span>███████░░░ Modérée</span></div></div>
@@ -881,38 +756,28 @@ function switchZoneTab(containerId, tabId, btnEl) {
     <div class="card">
       <h3>🌡️ Évolution des températures</h3>
       <div class="sparkline">
-            <div class="sparkline-row"><span>Précédent run :</span> <span>Averses possibles jeudi en seconde partie de nuit sur littoral et ouest; brumes samedi matin; risque de pluie ou d’averses temporaire samedi/dimanche.</span></div>
-            <div class="sparkline-row"><span>Run actuel :</span> <span>Temps généralement sec et ensoleillé, averses très localisées possibles sur les côtes de la Manche et en Flandre maritime.</span></div>
-            <div class="sparkline-row"><span>Évolution :</span> <span><span class="trend-pill trend-up">➡️ Évolution</span></span></div>
+            <div class="sparkline-row"><span>Précédent run :</span> <span>Temps généralement sec et ensoleillé, averses très localisées possibles sur les côtes de la Manche et en Flandre maritime.</span></div>
+            <div class="sparkline-row"><span>Run actuel :</span> <span>Températures maximales en hausse, ressenties comme très douces pour la saison.</span></div>
+            <div class="sparkline-row"><span>Évolution :</span> <span><span class="trend-pill trend-up">⬆ Renforcement</span></span></div>
             </div>
     </div>
   </div>
 
   <div class="grid grid-2" style="margin-top:14px;">
-    <div class="card"><h3>Évolution générale</h3><p>Sur les 15 prochains jours, les Hauts-de-France restent sous l'influence d'un temps sec, souvent ensoleillé et de plus en plus chaud, avec une sécheresse de surface qui s'accentue. Quelques averses éparses, notamment sur le littoral, ne suffiront pas à inverser la tendance.</p></div>
-    <div class="card"><h3>Semaine la plus fiable</h3><p>La semaine 1 (du 9 au 13 septembre) est la plus fiable, avec un consensus net entre les modèles sur un temps sec et une hausse des températures. La semaine 2 présente des incertitudes de fin de période.</p></div>
-    <div class="card"><h3>Phénomènes récurrents</h3><p>- Brumes matinales possibles, surtout en début de semaine 2.
-- Averses côtières ou localisées en fin de nuit et début de matinée, sur le littoral et les reliefs.
-- Forte évapotranspiration (5 à 7 mm/jour), accentuant la sécheresse superficielle.
-- Douceur nocturne de plus en plus marquée à l'approche du week-end.</p></div>
-    <div class="card"><h3>Incertitude majeure</h3><p>- Évolution de la situation en fin de semaine 2 : possible retour d'une chaleur très forte (scénario anticyclonique chaud) ou simple temps de saison (scénario dépressionnaire).
-- Localisation précise des rares averses, notamment lundi 14 au matin.
-- Impact de la sécheresse sur l'agriculture : les sols très secs ne recevront quasiment pas d'eau.
-- Trajectoire de la goutte froide sur la Corogne, qui pourrait influencer le temps de la semaine suivante.</p></div>
+    <div class="card"><h3>Évolution générale</h3><p>Sur l'ensemble des 15 prochains jours, les Hauts-de-France restent sous l'influence d'un temps sec, souvent ensoleillé et de plus en plus chaud, avec une sécheresse de surface qui s'accentue, malgré un léger fléchissement en fin de période.</p></div>
+    <div class="card"><h3>Semaine la plus fiable</h3><p>La première semaine (J0 à J+7) présente une fiabilité supérieure avec un temps sec et stable bien modélisé, tandis que la seconde semaine (J+8 à J+14) montre davantage d'incertitudes.</p></div>
+    <div class="card"><h3>Phénomènes récurrents</h3><p>- Sécheresse de surface qui s'accentue.
+- Brumes et brouillards matinaux possibles.
+- Vent faible à modéré, tournant au secteur Ouest en fin de période.</p></div>
+    <div class="card"><h3>Incertitude majeure</h3><p>- Évolution de la position de l'anticyclone en seconde semaine.
+- Possibilité d'une dégradation orageuse en fin de période.
+- Impact de la masse d'air chaude sur les températures maximales.</p></div>
   </div>
 
   <div style="margin-top:16px;">
     <h3>📱 Post LinkedIn</h3>
     <div class="linkedin-box">
-      <div id="linkedin" class="linkedin">🌞☀️ Hauts-de-France : une quinzaine sous le signe de la sécheresse et de la chaleur tardive !
-
-🔹 Semaine 1 (9-13 sept) : temps sec, ensoleillé, températures en hausse, averses localisées sur le littoral.
-🔹 Semaine 2 (14-20 sept) : encore plus chaud ! 23 à 27°C possibles mardi, puis baisse incertaine en fin de semaine.
-🔹 Vigilance verte, mais la sécheresse des sols s'accentue dangereusement.
-
-⚠️ Les scénarios pour le week-end du 19-20 septembre restent partagés : 45% de scénarios plus frais, 55% de scénarios anticycloniques. À suivre de près !
-
-#Météo #HautsDeFrance #Sécheresse #Septembre2026 #Prévisions</div>
+      <div id="linkedin" class="linkedin">🌤️ HDF : Jusqu'à 25-27°C attendus ce week-end ! Un temps sec et ensoleillé qui se prolonge, accentuant la sécheresse de surface. La fiabilité est bonne pour J+7, mais l'incertitude grandit pour la semaine suivante. Restez prudents quant aux éventuels orages en fin de période.</div>
     </div>
   </div>
 </section>
