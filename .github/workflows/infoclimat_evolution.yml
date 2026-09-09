@@ -1,4 +1,4 @@
-name: Infoclimat Evolution & Previsions
+﻿name: Infoclimat Evolution & Previsions
 
 on:
   push:
@@ -52,7 +52,7 @@ jobs:
       - name: Récupérer les bulletins sources National & HDF (cnews)
         run: |
           mkdir -p Hauts-de-France
-          BASE="https://raw.githubusercontent.com/monsieurmeteo/dev-divers/main/cnews/Hauts-de-France"
+          BASE="https://raw.githubusercontent.com/mto-user84925/dev-divers/main/cnews/Hauts-de-France"
           curl -fsSL "$BASE/bulletin_france_premium.md" -o Hauts-de-France/bulletin_france_premium.md || echo "Notice: bulletin_france_premium.md indisponible"
           curl -fsSL "$BASE/bulletin_hauts_de_france_premium.md" -o Hauts-de-France/bulletin_hauts_de_france_premium.md || echo "Notice: bulletin_hauts_de_france_premium.md indisponible"
           echo "=== Fichiers sources récupérés ==="
@@ -81,4 +81,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           keep_files: false
+
 
