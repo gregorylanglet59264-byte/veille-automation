@@ -304,7 +304,7 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 090325 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 9 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 9 septembre 2026 à 00H00 UTC, et évolution Dépression relative 1002 hPa en Mer du Nord, se décale vers l'Allemagne en se comblant. Anticyclone 1026 hPa au nord-ouest de la Corogne avec dorsale associée s'étendant vers les îles britanniques. Nouveau thalweg atlantique prévu sur l'Irlande ce soir. 3 - Prévisions pour la journée du mercredi 9 septembre VENT : Ouest à Nord-Ouest 4 à 5, temporairement 6 en mer du Nord au début, mollissant 2 à 4 à la mi-journée. MER : peu agitée à agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'établissant Nord 0.5 à 1 m en Mer du Nord l'après-midi. TEMPS : nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 9 septembre au jeudi 10 septembre VENT : Secteur Sud-Ouest 2 à 4. MER : peu agitée. HOULE : Ouest 0.5 à 1 m en Manche, s'amortissant en seconde partie de nuit, mais Nord 0.5 à 1 m en Mer du Nord. TEMPS : peu nuageux à nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du jeudi 10 septembre VENT : Sud-Ouest 3 à 4. MER : belle à peu agitée, devenant peu agitée le soir. HOULE : Nord 0.5 à 1 m en Mer du Nord, s'amortissant à la mi-journée. TEMPS : nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 10 au 11 et la journée du vendredi 11 septembre VENT : Secteur Ouest 4, fraîchissant 5 en milieu de nuit, puis mollissant 2 à 3 en milieu d'après-midi. MER : peu agitée, devenant temporairement agitée en milieu de nuit en Manche. HOULE : Établissement temporaire d'une houle d'Ouest à Sud-Ouest 1 à 1,5 m en début de matinée. 7 - Tendance pour les jours suivants Samedi 12 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Dimanche 13 septembre Secteur Sud-Ouest faible à modéré évoluant à secteur Ouest modéré en journée. Indice de confiance : 4 sur 5 Lundi 14 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 8 - Observations le mercredi 9 septembre 2026 à 03H00 UTC Dunkerque : vent Ouest-Nord-Ouest 17 noeuds, mer agitée, 1012 hPa en hausse, nuageux avec éclaircies, visibilité 6 milles. Cap Gris Nez : vent Ouest-Nord-Ouest 23 noeuds. Boulogne : vent Ouest-Nord-Ouest 16 noeuds, 1013 hPa en hausse, clair ou peu nuageux, visibilité 18 milles. Prochain bulletin le mercredi 9 septembre 2026, vers 12H30 légales
+FQCT40 LFQQ 090945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 9 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 9 septembre 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa au nord-ouest de la Corogne avec dorsale associée 1020 hPa se renforçant jusqu'à l'ouest de la France cet après-midi, puis s'affaissant 1018 hPa jeudi. Nouveau thalweg atlantique prévu sur l'ouest de la Manche jeudi après-midi. 3 - Prévisions pour l'après-midi du mercredi 9 septembre VENT : Nord-Ouest 3 à 4, mollissant Ouest à Nord-Ouest 1 à 3 en d'après-midi. MER : peu agitée, localement agitée vers Dunkerque au début. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, mais Nord 0.5 à 1 m en Mer du Nord. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 9 septembre au jeudi 10 septembre VENT : revenant secteur Sud-Ouest 2 à 3, parfois 4 en seconde partie de nuit. MER : peu agitée. HOULE : Sud-Ouest 0.5 à 1 m en Manche, mais Nord 0.5 à 1 m en Mer du Nord. TEMPS : devenant nuageux à très nuageux. Averses éparses en seconde partie de nuit. VISIBILITE : bonne, localement moyenne sous averses. 5 - Prévisions pour la journée du jeudi 10 septembre VENT : Sud-Ouest 3 à 4. MER : peu agitée. HOULE : devenant non significative. TEMPS : nuageux à très nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 10 au 11 et la journée du vendredi 11 septembre VENT : fraîchissant Sud-Ouest 4 à 5 la nuit, mollissant Nord-Ouest 3 à 4 en matinée, puis revenant secteur Sud-Ouest 1 à 3 l'après-midi. MER : peu agitée, s'atténuant en mer du Nord l'après-midi. HOULE : non significative, s'établissant Sud-Ouest 0.5 à 1 m en matinée. TEMPS : très nuageux à couvert avec averses, devenant ensoleillé l'après-midi. VISIBILITE : bonne, localement moyenne sous averses. 7 - Prévisions pour la nuit du 11 au 12 et la journée du samedi 12 septembre VENT : Ouest à Sud-Ouest 2 à 3, fraîchissant 4 à 5 en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante d'Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Dimanche 13 septembre Secteur Ouest faible à modéré; Indice de confiance : 4 sur 5 Lundi 14 septembre Secteur Ouest modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mercredi 16 septembre Secteur Nord-Ouest faible à modéré Indice de confiance : 3 sur 5 9 - Observations le mercredi 9 septembre 2026 à 09H00 UTC Dunkerque : vent Ouest-Nord-Ouest 16 noeuds, mer agitée, 1015 hPa en hausse, nuageux avec éclaircies, visibilité 6 milles. Cap Gris Nez : vent Nord-Ouest 16 noeuds. Boulogne : vent Nord-Ouest 12 noeuds, 1016 hPa en hausse. Prochain bulletin le mercredi 9 septembre 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -327,12 +327,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps en Suisse
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -340,9 +340,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 9 Septembre 2026.
-Résumé général HDF précédent : Sur l'ensemble des 15 prochains jours, les Hauts-de-France restent sous l'influence d'un temps sec, souvent ensoleillé et de plus en plus chaud, avec une sécheresse de surface qui s'accentue, malgré un léger fléchissement en fin de période..
+Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France restent sous l’influence d’un temps sec et anticyclonique. Les températures sont proches des normales en semaine 1, puis augmentent légèrement en semaine 2, avec un pic possible autour de 25°C. La sécheresse de surface s’accentue, et aucun épisode pluvieux majeur n’est en vue, malgré un risque orageux très incertain en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Températures maximales en hausse, ressenties comme très douces pour la saison..
+Températures attendues précédemment : Éclaircies et passages nuageux ; averses isolées possibles sur le Nord, le Pas-de-Calais et la Somme. Températures maximales autour de 20 à 23°C..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 9 au Dimanche 13 Septembre 2026) ===
@@ -720,10 +720,10 @@ Il y a 9 heures, thib91 a dit :
 	Un peu comme ce mardi, de véritables fronts s’organisent progressivement en Atlantique mais rapidement déstructurés par ces HG. Ça se solde par une maigre dégradation pour la saison, suivie d’un rafraîchissement mais aussi du retour des HG / HP. On repart donc sur un réchauffement progressif, un temps très sec et possiblement une petite dégradation au milieu de tout ça qui pourrait rafraîchir l’atmosphère. 
 	Difficile d’imaginer un autre scénario d’ici cette fin de mois sans compter que comme cet été, le scénario sec et plus chaud prend toujours le dessus à mesure qu’on s’approche de l’échéance… 
 	En tout cas niveau climato, septembre pourrait ressembler à l’été 2026 mais peut-être plus nuancé au nord, plus contrasté entre le nord-ouest et le sud-est. 
-	Modifié il y a 1 heure par Run999H
-								4
+	Modifié il y a 3 heures par Run999H
+								6
 								1
-								1
+								2
 
 =======================
 
@@ -731,7 +731,7 @@ Auteur: bernardt60
 Message:
 Ce qui me frappe c'est devoir régulièrement modélisé une masse d'air à 850 hPa atteignant encore les 24°C sur la péninsule ibérique passé la mi-septembre ! 
 								1
-								1
+								3
 
 =======================
 
@@ -745,4 +745,12 @@ Je ne voudrais pas jouer les oiseaux de mauvais augure mais que je vois ce diagr
 	Les cartes ne sont pas plus engageantes. Je fondais un espoir - modeste - sur une perturbation sur l'Islande : 
 	Mais en fait non, le machin est repoussé au nord, comme d'habitude :
 	J'en arrive donc à la conclusion météorologique suivante basée sur une observation attentive de ces données : on n'a pas le c.. sorti des ronces et on est dans la m...
+								2
+								2
+
+=======================
+
+Auteur: Lodu17
+Message:
+Et une région, toujours concernée par la sécheresse sans arrêt depuis mai: le Centre Ouest avec des records de chaleur explosés dans tous les sens.
 								1

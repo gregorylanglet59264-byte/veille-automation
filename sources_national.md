@@ -336,12 +336,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : Suivi du temps dans les Régions Centrales | Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -349,9 +349,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 9 Septembre 2026.
-Résumé général précédent : Sur 15 jours, le blocage anticyclonique et l'absence de précipitations dominent. Les températures restent souvent au-dessus des normales, avec un contraste nord-sud et une chaleur plus marquée sur le sud-ouest et le bassin méditerranéen..
+Résumé général précédent : Sur 15 jours, la France resterait sous un vaste anticyclone très sec. Une courte dégradation est possible en début de période, puis le soleil reprendrait la main. En semaine 2, une advection chaude nord-africaine pourrait faire grimper les températures, avant une éventuelle baisse à la toute fin. Aucun épisode pluvieux durable n'est en vue..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Retour de températures estivales, surtout au sud, avec un temps sec persistant..
+Températures attendues précédemment : Temps sec, soleil fréquent, chaleur de saison, pluies très rares..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 9 au Dimanche 13 Septembre 2026) ===
@@ -729,10 +729,10 @@ Il y a 9 heures, thib91 a dit :
 	Un peu comme ce mardi, de véritables fronts s’organisent progressivement en Atlantique mais rapidement déstructurés par ces HG. Ça se solde par une maigre dégradation pour la saison, suivie d’un rafraîchissement mais aussi du retour des HG / HP. On repart donc sur un réchauffement progressif, un temps très sec et possiblement une petite dégradation au milieu de tout ça qui pourrait rafraîchir l’atmosphère. 
 	Difficile d’imaginer un autre scénario d’ici cette fin de mois sans compter que comme cet été, le scénario sec et plus chaud prend toujours le dessus à mesure qu’on s’approche de l’échéance… 
 	En tout cas niveau climato, septembre pourrait ressembler à l’été 2026 mais peut-être plus nuancé au nord, plus contrasté entre le nord-ouest et le sud-est. 
-	Modifié il y a 1 heure par Run999H
-								4
+	Modifié il y a 3 heures par Run999H
+								6
 								1
-								1
+								2
 
 =======================
 
@@ -740,7 +740,7 @@ Auteur: bernardt60
 Message:
 Ce qui me frappe c'est devoir régulièrement modélisé une masse d'air à 850 hPa atteignant encore les 24°C sur la péninsule ibérique passé la mi-septembre ! 
 								1
-								1
+								3
 
 =======================
 
@@ -754,4 +754,12 @@ Je ne voudrais pas jouer les oiseaux de mauvais augure mais que je vois ce diagr
 	Les cartes ne sont pas plus engageantes. Je fondais un espoir - modeste - sur une perturbation sur l'Islande : 
 	Mais en fait non, le machin est repoussé au nord, comme d'habitude :
 	J'en arrive donc à la conclusion météorologique suivante basée sur une observation attentive de ces données : on n'a pas le c.. sorti des ronces et on est dans la m...
+								2
+								2
+
+=======================
+
+Auteur: Lodu17
+Message:
+Et une région, toujours concernée par la sécheresse sans arrêt depuis mai: le Centre Ouest avec des records de chaleur explosés dans tous les sens.
 								1
