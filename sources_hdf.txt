@@ -302,10 +302,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Résolution des équations de Navier-Stokes ?
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : =30°C consécutives]]>
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Mon site météo avec visualisation claire sur 24h, lisible et sans fioritures
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -314,9 +314,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 9 Septembre 2026.
-Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France devraient connaître un temps souvent sec, ensoleillé et plus chaud que la normale. Les précipitations seront rares, essentiellement sous forme d'averses littorales ou locales. Une dégradation plus marquée reste possible en fin de deuxième semaine, mais elle demeure très incertaine..
+Résumé général HDF précédent : Sur les 15 prochains jours, les Hauts-de-France devraient connaître un temps souvent sec, ensoleillé et plus chaud que la normale. Les précipitations seront rares, essentiellement sous forme d'averses locales ou orageuses en fin de semaine 2. Températures en hausse progressive, avec un pic probable entre le 18 et le 21 septembre..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Absence de précipitations significatives, températures au-dessus des normales, quelques averses possibles sur le littoral HDF. (119 caractères).
+Températures attendues précédemment : Temps agréable, éclaircies généreuses, quelques nuages bas près des côtes. Pas de pluie significative..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 9 au Dimanche 13 Septembre 2026) ===
@@ -638,7 +638,7 @@ Ce qui est impressionnant c'est que la ceinture de hauts geopotentiels subtropic
 	Et le plus inquiétant c'est que cela semble être devenu structurel depuis des mois. On est pas dans une réelle situation de blocage bien affirmée qui normalement explique ces séquences sèchent à rallonge. C'est une sorte de zonal hybride très nord, comme si les centres d'action étaient remontés de 1000km en latitude. 
 								6
 								4
-								4
+								5
 
 =======================
 
@@ -652,8 +652,8 @@ Il y a 9 heures, thib91 a dit :
 	Un peu comme ce mardi, de véritables fronts s’organisent progressivement en Atlantique mais rapidement déstructurés par ces HG. Ça se solde par une maigre dégradation pour la saison, suivie d’un rafraîchissement mais aussi du retour des HG / HP. On repart donc sur un réchauffement progressif, un temps très sec et possiblement une petite dégradation au milieu de tout ça qui pourrait rafraîchir l’atmosphère. 
 	Difficile d’imaginer un autre scénario d’ici cette fin de mois sans compter que comme cet été, le scénario sec et plus chaud prend toujours le dessus à mesure qu’on s’approche de l’échéance… 
 	En tout cas niveau climato, septembre pourrait ressembler à l’été 2026 mais peut-être plus nuancé au nord, plus contrasté entre le nord-ouest et le sud-est. 
-	Modifié il y a 13 heures par Run999H
-								9
+	Modifié il y a 15 heures par Run999H
+								10
 								1
 								3
 
@@ -701,7 +701,7 @@ Il y a 12 heures, thib91 a dit :
 	bien sûr par grand-chose à ma portée sur le plan théorique documenté pour soutenir ça...
 	ça pourrait aussi participer d'une homogénéisation des températures à l'échelle hémisphérique avec disparition progressive du gradient thermique entre zones polaires et zone intertropicale, avec une situation un peu différente hémisphère S, où la grosse glaciaire antarctique fait jouer son inertie...
 		Il y a 12 heures, thib91 a dit :
-	Modifié il y a 9 heures par giec 2100
+	Modifié il y a 11 heures par giec 2100
 								1
 
 =======================
@@ -714,11 +714,11 @@ Enfin une bonne nouvelle! 
 	En effet l'organisme national Grolandais de prédiction météorologique va relever de 5°C ses seuils de canicule dès le mois de mai prochain.
 	Ainsi le nombre de vigilances "orange canicule" devrait mécaniquement chuter. 
 	Une bonne nouvelle pour notre beau pays et notre belle planète ! 😁 
-	Modifié il y a 8 heures par mathias
-								2
+	Modifié il y a 10 heures par mathias
+								3
 								1
 								1
-								21
+								22
 								1
 
 =======================
@@ -743,7 +743,7 @@ Il y a 4 heures, giec 2100 a dit :
 	Nous n'en savons rien (pour l'instant).
 	Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 	Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
-	Modifié il y a 5 heures par thib91
+	Modifié il y a 7 heures par thib91
 								1
 								2
 								2
@@ -758,8 +758,8 @@ il y a 15 minutes, thib91 a dit :
 			Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
 	Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
-	Modifié il y a 5 heures par Banleve7519
-								4
+	Modifié il y a 7 heures par Banleve7519
+								7
 
 =======================
 
@@ -793,7 +793,7 @@ il y a 23 minutes, Pervanche7 a dit :
 								1
 								6
 								1
-								3
+								4
 
 =======================
 
@@ -814,3 +814,5 @@ Bonsoir,
 	si on regarde simplement les graphiques, nous serions de nouveau partis pour une hausse progressive des températures ( et des géopotentiels) pendant à peu près une semaine avant une rupture marquée mais sans invasion humide durable et massive.
 	Sur la semaine prochaine, on rejoue le même scénario?
 	La NAO +, n'a pas permis un réel abaissement de la zone de circulation du jet, l'enfoncement de talwegs devient tellement faible qu'il ne peut plus entrainer de perturbation de la météo sur plusieurs jours notamment au niveau du renouvellement des précipitations. la situation se complique sérieusement!
+								4
+								1
