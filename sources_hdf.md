@@ -279,7 +279,7 @@ Températures minimales : en baisse.
 Températures maximales : en baisse.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 090945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 9 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 9 septembre 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa au nord-ouest de la Corogne avec dorsale associée 1020 hPa se renforçant jusqu'à l'ouest de la France cet après-midi, puis s'affaissant 1018 hPa jeudi. Nouveau thalweg atlantique prévu sur l'ouest de la Manche jeudi après-midi. 3 - Prévisions pour l'après-midi du mercredi 9 septembre VENT : Nord-Ouest 3 à 4, mollissant Ouest à Nord-Ouest 1 à 3 en d'après-midi. MER : peu agitée, localement agitée vers Dunkerque au début. HOULE : Ouest à Sud-Ouest 0.5 à 1 m en Manche, mais Nord 0.5 à 1 m en Mer du Nord. TEMPS : peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la nuit du mercredi 9 septembre au jeudi 10 septembre VENT : revenant secteur Sud-Ouest 2 à 3, parfois 4 en seconde partie de nuit. MER : peu agitée. HOULE : Sud-Ouest 0.5 à 1 m en Manche, mais Nord 0.5 à 1 m en Mer du Nord. TEMPS : devenant nuageux à très nuageux. Averses éparses en seconde partie de nuit. VISIBILITE : bonne, localement moyenne sous averses. 5 - Prévisions pour la journée du jeudi 10 septembre VENT : Sud-Ouest 3 à 4. MER : peu agitée. HOULE : devenant non significative. TEMPS : nuageux à très nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 10 au 11 et la journée du vendredi 11 septembre VENT : fraîchissant Sud-Ouest 4 à 5 la nuit, mollissant Nord-Ouest 3 à 4 en matinée, puis revenant secteur Sud-Ouest 1 à 3 l'après-midi. MER : peu agitée, s'atténuant en mer du Nord l'après-midi. HOULE : non significative, s'établissant Sud-Ouest 0.5 à 1 m en matinée. TEMPS : très nuageux à couvert avec averses, devenant ensoleillé l'après-midi. VISIBILITE : bonne, localement moyenne sous averses. 7 - Prévisions pour la nuit du 11 au 12 et la journée du samedi 12 septembre VENT : Ouest à Sud-Ouest 2 à 3, fraîchissant 4 à 5 en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante d'Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Dimanche 13 septembre Secteur Ouest faible à modéré; Indice de confiance : 4 sur 5 Lundi 14 septembre Secteur Ouest modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mercredi 16 septembre Secteur Nord-Ouest faible à modéré Indice de confiance : 3 sur 5 9 - Observations le mercredi 9 septembre 2026 à 09H00 UTC Dunkerque : vent Ouest-Nord-Ouest 16 noeuds, mer agitée, 1015 hPa en hausse, nuageux avec éclaircies, visibilité 6 milles. Cap Gris Nez : vent Nord-Ouest 16 noeuds. Boulogne : vent Nord-Ouest 12 noeuds, 1016 hPa en hausse. Prochain bulletin le mercredi 9 septembre 2026, vers 18H00 légales
+FQCT40 LFQQ 091625 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le mercredi 9 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale mercredi 9 septembre 2026 à 12H00 UTC, et évolution Anticyclone des Açores 1025 hPa avec dorsale associée 1020 hPa s'étendant jusqu'aux côtes ouest de la France, évoluant peu. Nouveau thalweg atlantique abordant la Bretagne jeudi à la mi-journée, puis traversant la Manche jeudi après-midi et soir. 3 - Prévisions pour la nuit du mercredi 9 septembre au jeudi 10 septembre VENT : secteur Sud-Ouest 2 à 4. MER : peu agitée. HOULE : Sud-Ouest 0.5 à 1 m en Manche, mais Nord 0.5 à 1 m en Mer du Nord. TEMPS : devenant nuageux à très nuageux. Averses éparses en seconde partie de nuit. VISIBILITE : bonne, localement moyenne sous averses. 4 - Prévisions pour la journée du jeudi 10 septembre VENT : Sud-Ouest 3 à 4, fraîchissant 4 à 5 l'après-midi. MER : peu agitée. HOULE : devenant non significative. TEMPS : nuageux à très nuageux avec quelques averses. VISIBILITE : bonne, localement moyenne sous averses. 5 - Tendance pour la nuit du 10 au 11, et la journée du vendredi 11 septembre VENT : Sud-Ouest 4 à 5, mollissant secteur Nord-Ouest 2 à 4 en fin de matinée. MER : peu agitée, s'atténuant en mer du Nord l'après-midi. HOULE : non significative, s'établissant Sud-Ouest 0.5 à 1 m en matinée. TEMPS : très nuageux à couvert avec averses, devenant ensoleillé l'après-midi. VISIBILITE : bonne, localement moyenne sous averses. 6 - Prévisions pour la nuit du 11 au 12 et la journée du samedi 12 septembre VENT : Ouest à Sud-Ouest 2 à 3, fraîchissant 4 à 5 en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante d'Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Dimanche 13 septembre Secteur Ouest faible à modéré; Indice de confiance : 4 sur 5 Lundi 14 septembre Secteur Ouest modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 Mercredi 16 septembre Secteur Nord-Ouest faible à modéré Indice de confiance : 3 sur 5 8 - Observations le mercredi 9 septembre 2026 à 15H00 UTC Dunkerque : vent Ouest-Nord-Ouest 12 noeuds, 1018 hPa en hausse. Cap Gris Nez : vent Ouest-Sud-Ouest 8 noeuds. Boulogne : vent Ouest 8 noeuds, 1018 hPa en hausse, clair ou peu nuageux, visibilité 16 milles. Bouée Sandettie : vent Nord-Ouest 10 noeuds, creux 1,4 mètre, 1018 hPa en baisse, visibilité 10 milles. Prochain bulletin le jeudi 10 septembre 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -301,12 +301,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi de la secheresse
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -314,9 +314,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Mercredi 9 Septembre 2026.
-Résumé général HDF précédent : Sur 15 jours, la région HDF reste sous l’influence dominante des hautes pressions, avec un temps sec et souvent ensoleillé. Les températures sont de saison, puis au-dessus des normales en deuxième semaine. Les précipitations seront faibles et localisées, principalement sur le littoral, les Flandres et le nord de l’Aisne..
+Résumé général HDF précédent : Sur les 15 prochains jours, la région Hauts-de-France restera sous l'influence d'un temps sec et souvent ensoleillé, avec des températures au-dessus des normales de saison. Les précipitations seront rares et faibles, principalement sous forme d'averses localisées sur le littoral. La chaleur persistera, surtout en deuxième semaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et ensoleillé, averses localisées possibles, brumes nocturnes..
+Températures attendues précédemment : Temps chaud et sec, retour de conditions estivales, absence de précipitations significatives. (max 120 chars - OK).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 9 au Dimanche 13 Septembre 2026) ===
@@ -551,24 +551,6 @@ il y a 11 minutes, giec 2100 a dit :
 								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-Dernière semaine avant l'équinoxe d'automne pour ces prévisions météo où la stabilité de la situation risque d'être sa caractéristique principale : 
-	sécheresse et températures élevées pour une part majoritaire du territoire métropolitain...
-	La période commence et finit avec à peu près la même architecture des centres d'action, à l'échelle hémisphérique, avec l'Hexagone sous influence de hauts géopotentiels, à la nuance près qu'un minimum secondaire se détacherait du pseudo vortex polaire dès mardi, pour se transformer en goutte froide au fil des jours, située sur la Corogne en fin d'échéance, à un stade de probable comblement, mais génératrice d'advection d'air chaud en provenance d'Afrique du N tout au long de son évolution...
-	Cette pulsion chaude démarre dès mardi pour s'installer durablement, jusqu'en fin de période...
-	En termes de temps sensible on s'aidera des diagrammes de Paris et Toulouse pour évaluer le contraste possible : 
-	jamais loin de 25°C en Tx à Paris, avec une tendance à la baisse en milieu de période, au-dessus à Toulouse, largement au-dessus même pour certains scénarios, avec la même tendance ; les deux villes ont en commun une absence de précipitations sur la période...
-	Les vents seront de composante N à NW majoritaire.
-	Enfin un point de focale sur les précipitations, avec l'eau précipitable, en début et fin de période : 
-	des valeurs de niveau modeste...
-	Modifié lundi à 22:24 par giec 2100
-								2
-								2
-								2
-
-=======================
-
 Auteur: nickdu77
 Message:
 Pour le niveau modeste des précipitations, on commence à avoir l'habitude ... malheureusement. Ce qui est frappant, c'est qu'on a l'impression que tout est 1000 km trop au nord pour la saison : on a encore un iso à 20°C qui vient nous titiller et qui occupe largement la péninsule ibérique, une zone de hautes pressions qui rappelle un début de mois d'août et donc pas de PP. J'ai l'impression de voir les cartes du 8 août, pas du 8 septembre et avec une situation de blocage qui dure depuis plus de trois mois et des perturbations qui viennent au mieux mourir sur des HP et le pire, c'est que je ne vois pas de raison pour que ça change .... Ca commence à devenir inquiétant, j'espère que c'est une année exceptionnelle et pas le signe d'un point de bascule climatique. Septembre risque d'être presque aussi sec que juillet.
@@ -650,7 +632,7 @@ il y a 52 minutes, nickdu77 a dit :
 			Climato_sept.xlsx 11.13 Ko · 3 téléchargements   
 	Je ne vais pas m'étendre ici, étant plutôt de la climato, mais quand je vois que parmi ces étés entre 2015 et 2025 l'été 2021 a été considéré comme médiocre et frais, effectivement les repères ont sacrément changé , surtout quand on a connu les étés des années 70 et 80 ! 
 	Enfin il n'y a plus grand chose  de rationnel actuellement et pas seulement sur le climat d'ailleurs ! 
-								9
+								10
 								1
 								1
 								4
@@ -668,7 +650,7 @@ Ce début de semaine pourrait à nouveau battre des records. Voir cette masse d'
 Auteur: Arkus
 Message:
 Même après ce qu'on a eu cet été, j'arrive encore à être surpris de la vitesse à laquelle l'anomalie médiane des scénarios d'ensemble a augmenté dans les prévisions de la semaine prochaine :
-								7
+								8
 								2
 								1
 
@@ -678,7 +660,7 @@ Auteur: thib91
 Message:
 Ce qui est impressionnant c'est que la ceinture de hauts geopotentiels subtropicaux est toujours très haute en latitude. Le jet et les perturbations associées circulent très au nord, et ont des difficultés à franchir la Manche.
 	Et le plus inquiétant c'est que cela semble être devenu structurel depuis des mois. On est pas dans une réelle situation de blocage bien affirmée qui normalement explique ces séquences sèchent à rallonge. C'est une sorte de zonal hybride très nord, comme si les centres d'action étaient remontés de 1000km en latitude. 
-								5
+								6
 								4
 								4
 
@@ -694,10 +676,10 @@ Il y a 9 heures, thib91 a dit :
 	Un peu comme ce mardi, de véritables fronts s’organisent progressivement en Atlantique mais rapidement déstructurés par ces HG. Ça se solde par une maigre dégradation pour la saison, suivie d’un rafraîchissement mais aussi du retour des HG / HP. On repart donc sur un réchauffement progressif, un temps très sec et possiblement une petite dégradation au milieu de tout ça qui pourrait rafraîchir l’atmosphère. 
 	Difficile d’imaginer un autre scénario d’ici cette fin de mois sans compter que comme cet été, le scénario sec et plus chaud prend toujours le dessus à mesure qu’on s’approche de l’échéance… 
 	En tout cas niveau climato, septembre pourrait ressembler à l’été 2026 mais peut-être plus nuancé au nord, plus contrasté entre le nord-ouest et le sud-est. 
-	Modifié il y a 9 heures par Run999H
-								8
+	Modifié il y a 11 heures par Run999H
+								9
 								1
-								2
+								3
 
 =======================
 
@@ -706,7 +688,7 @@ Message:
 Ce qui me frappe c'est devoir régulièrement modélisé une masse d'air à 850 hPa atteignant encore les 24°C sur la péninsule ibérique passé la mi-septembre ! 
 								1
 								1
-								5
+								6
 
 =======================
 
@@ -729,8 +711,8 @@ Auteur: Lodu17
 Message:
 Et une région, toujours concernée par la sécheresse sans arrêt depuis mai: le Centre Ouest avec des records de chaleur explosés dans tous les sens.
 								1
-								5
-								1
+								6
+								2
 
 =======================
 
@@ -743,7 +725,7 @@ Il y a 12 heures, thib91 a dit :
 	bien sûr par grand-chose à ma portée sur le plan théorique documenté pour soutenir ça...
 	ça pourrait aussi participer d'une homogénéisation des températures à l'échelle hémisphérique avec disparition progressive du gradient thermique entre zones polaires et zone intertropicale, avec une situation un peu différente hémisphère S, où la grosse glaciaire antarctique fait jouer son inertie...
 		Il y a 12 heures, thib91 a dit :
-	Modifié il y a 5 heures par giec 2100
+	Modifié il y a 7 heures par giec 2100
 								1
 
 =======================
@@ -756,10 +738,22 @@ Enfin une bonne nouvelle! 
 	En effet l'organisme national Grolandais de prédiction météorologique va relever de 5°C ses seuils de canicule dès le mois de mai prochain.
 	Ainsi le nombre de vigilances "orange canicule" devrait mécaniquement chuter. 
 	Une bonne nouvelle pour notre beau pays et notre belle planète ! 😁 
-	Modifié il y a 4 heures par mathias
+	Modifié il y a 6 heures par mathias
 								2
 								1
-								17
+								20
+								1
+
+=======================
+
+Auteur: Turquoise_ExNico41
+Message:
+Il y a 2 heures, giec 2100 a dit :
+				Il y a 15 heures, thib91 a dit :
+					Dérouler  
+			oui, au-delà de ce consensus qui semble s'établir, sur la remontée de leur position habituelle des centres d'action de 1000km ou 10° en latitude (1111km), pourrait-on analyser la situation comme une rétraction du terrain de jeu du vortex polaire, sous l'effet conjugué du réchauffement climatique conjugué à l'épisode de super el niño... ?
+	Le climatologue météorologiste GS avait mis dans un article que le réchauffement climatique avait fait monter la ceinture de géo potentiel en latitude nous exposant moins aux courants perturbés.
+	Je crois que c'est la ceinture de Hadley qui a bougé.
 
 =======================
 
@@ -772,7 +766,8 @@ Il y a 4 heures, giec 2100 a dit :
 	Nous n'en savons rien (pour l'instant).
 	Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 	Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
-	Modifié il y a 1 heure par thib91
+	Modifié il y a 3 heures par thib91
+								1
 								1
 								1
 
@@ -785,8 +780,8 @@ il y a 15 minutes, thib91 a dit :
 			Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
 	Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
-	Modifié il y a 1 heure par Banleve7519
-								1
+	Modifié il y a 3 heures par Banleve7519
+								2
 
 =======================
 
@@ -798,3 +793,24 @@ Message:
 			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
 	J'ai d'ailleurs lu un tweet intéressant sur le sujet que je mets ici.
 	Une bascule ou un pattern temporaire, on verra mais vu que le Groenland est plus en mode fonte que glaciation...
+								1
+								1
+
+=======================
+
+Auteur: Pervanche7
+Message:
+Prochain défi pour les modèles et qui va vraiment influencer notre ressenti la semaine prochaine c'est où va circuler la future probable goutte froide. GFS ce soir est sympa et nous la donne en plein avec un peu de pluie du coup on prend !
+								1
+								1
+
+=======================
+
+Auteur: Run999H
+Message:
+il y a 23 minutes, Pervanche7 a dit :
+			Prochain défi pour les modèles et qui va vraiment influencer notre ressenti la semaine prochaine c'est où va circuler la future probable goutte froide. GFS ce soir est sympa et nous la donne en plein avec un peu de pluie du coup on prend !
+	Et bien je trouve étonnant qu’aucun modèle ait eu la bonne idée de nous la positionner au large de la France en mode pompe à chaleur. Déjà qu’il fera chaud sans cela, ça pourrait nous redonner une petite période caniculaire qui nous manque tant 🤣
+								1
+								2
+								1
