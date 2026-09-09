@@ -6,122 +6,121 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord large sur un temps sec et chaud, mais divergence sur la durée et l’intensité.*
-- **Fiabilité du scénario majoritaire :** Anticyclone chaud et sec — *Scénario dominant avec un léger risque de poche d’air frais en milieu de semaine 2.*
+- **Consensus des modèles :** Modéré — *Accord sur un temps sec et chaud, mais fortes incertitudes pour la fin de semaine 2.*
+- **Fiabilité du scénario majoritaire :** Anticyclonique chaud dominant — *Le scénario majoritaire reste sec et chaud, avec un risque minoritaire de goutte froide.*
 - **Stabilité des cartes/scénarios :** 6 / 93 — *6 cartes sur 93 analysées*
-- **Niveau d'incertitude global :** Goutte froide ou dôme de chaleur ? — *Les modèles hésitent entre un maintien anticyclonique très chaud et une dégradation temporaire par l’ouest.*
+- **Niveau d'incertitude global :** Fin de semaine 2 — *La trajectoire de la goutte froide conditionne la fin de période.*
 
 ## 🗓️ SEMAINE 1 : Du mercredi 9 au dimanche 13 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Soleil de retour : Après un début de semaine mitigé, le soleil s’impose durablement jusqu’au week-end.
-2. Chaleur en hausse : Les températures repartent à la hausse dès vendredi, notamment dans le sud.
-3. Sécheresse persistante : Aucune pluie significative n’est attendue, les sols restent très secs.
-4. Mistral fort en Méditerranée : Des rafales jusqu’à 75 km/h sont possibles jeudi sur l’embouchure du Rhône.
-5. Nuits fraîches : Les minimales s’abaissent nettement, surtout dans les terres et au sud-ouest.
+1. Temps sec généralisé : Aucune pluie significative attendue jusqu’à dimanche.
+2. Chaleur en hausse : Les maximales repartent à la hausse le week-end, jusqu’à 30-32°C.
+3. Nuits plus fraîches : Les minimales baissent nettement, surtout au nord.
+4. Mistral confirmé : Vent fort en Méditerranée jeudi, avec rafales proches de 75 km/h.
+5. Sécheresse qui s’aggrave : Les sols restent très secs malgré l’automne.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Temps sec sur la quasi-totalité du pays, aucune pluie significative.
-2. Hausse des températures à partir de vendredi, week-end ensoleillé.
-3. Nuits plus fraîches, notamment sur les régions intérieures.
+1. Temps sec et ensoleillé sur la quasi-totalité du pays.  
+2. Températures en baisse en milieu de semaine, puis hausse nette le week-end.  
+3. Nuits plus fraîches que lors des semaines précédentes.
 **Points de divergence :**
-1. Intensité du retour de chaleur en fin de semaine.
-2. Localisation des faibles cumuls de pluie, repoussés vers la Manche.
-3. Durée exacte du rafraîchissement en début de semaine.
+1. Intensité exacte du retour de chaleur en fin de semaine.  
+2. Possibilité d’une dégradation par le nord-ouest, très incertaine.  
+3. Échéance d’une éventuelle arrivée de pluie repoussée au-delà de J+10.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (Tendance dominante) | Temps sec et anticyclonique, températures en hausse dès vendredi, week-end de plus en plus chaud. | Soleil dominant, aucune pluie, maximales jusqu’à 26-30°C selon les régions. | Toutes les régions, plus marqué au sud-est. | Élevée (85%) | Le run 18Z évoque un retour de temps plus chaud en fin d’échéance, conforté par les ensembles. La perturbation annoncée en début de semaine s’évapore. |
-| **GEFS (ensemble GFS)** (Conforte le scénario GFS) | Scénario chaud et sec, températures normales à nettement au-dessus, précipitations quasi inexistantes. | Chaleur de saison à très chaude, ensoleillement généreux, aucun cumul notable. | Paris, Lyon, Marseille, Bordeaux ; tendance nationale. | Élevée (85%) | Les diagrammes GEFS pour Paris, Lyon, Marseille et Bordeaux montrent des températures de saison à chaudes, avec un manque cruel de précipitations. |
-| **ECMWF** (Non commenté) | Non estimable : aucun commentaire explicite sur ce modèle dans le topic étudié. | Non déterminable. | Aucune. | Non estimable | Aucune donnée exploitable pour ce modèle dans les discussions de la semaine 1. |
+| **GFS (modèle américain, déterminisme)** (Disponible) | Un run isolé suggère un retour à un temps plus dégradé en fin d’échéance, mais l’ensemble ne suit pas. | Après un temps sec et chaud, possible dégradation en toute fin de période. | Toutes zones, surtout nord-ouest et centre | Élevée (85%) | Discussions autour du run 18Z de GFS évoquant une dégradation lointaine, mais jugé isolé par rapport aux ensembles. La tendance générale reste sèche et chaude. |
+| **GEFS (ensemble GFS)** (Disponible) | Maintien d’un temps sec, ensoleillé et anormalement chaud, sans précipitations significatives jusqu’à J+10. | Beau temps sec, chaleur modérée à forte, nuits plus fraîches. | Toutes les régions, plus marqué au sud | Élevée (85%) | Les diagrammes GEFS pour Paris, Lyon, Marseille et Bordeaux montrent des températures au-dessus des normales et des précipitations très décevantes, quasi nulles. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps sec et ensoleillé, températures proches des normales, aucune pluie attendue. | Minimales 8-12°C, maximales 20-24°C. | moderee | GFS, GEFS | Évolution thermique du week-end |
-| **Nord** | Soleil généreux, températures en hausse, aucun risque de pluie. | Minimales 9-15°C, maximales 20-26°C. | elevee | MF, GFS, GEFS | Rythme précis de la hausse des températures |
-| **Nord-Est** | Temps sec et ensoleillé, chaleur en hausse en fin de semaine. | Minimales 7-12°C, maximales 22-28°C. | moderee | GFS, GEFS | Amplitude thermique en fin de semaine |
-| **Ouest et Façade Atlantique** | Beau temps sec et ensoleillé, maximales 21-29°C, fraîcheur sur le littoral. | Minimales 9-14°C, maximales 21-29°C, littoral plus frais. | elevee | MF, GFS, GEFS | Précisions sur le littoral |
-| **Centre** | Temps sec et souvent ensoleillé, températures en hausse à partir de vendredi. | Minimales 8-12°C, maximales 22-28°C. | moderee | GFS, GEFS | Hausse thermique plus ou moins marquée |
-| **Sud-Ouest** | Ensoleillement excellent, nuits fraîches, journées chaudes en fin de semaine. | Minimales 6-12°C, maximales 21-30°C. | elevee | MF, GFS | Pic de chaleur dimanche |
-| **Sud-Est et Vallée du Rhône** | Soleil généreux, températures en hausse, vent de nord modéré. | Minimales 7-14°C, maximales 19-28°C. | elevee | MF, GFS | Températures en montagne |
-| **Méditerranée et Corse** | Temps chaud et sec, soleil dominant, mistral parfois fort. | Minimales 10-18°C, maximales 23-30°C. | elevee | MF, GFS, GEFS | Force exacte du mistral |
+| **Nord-Ouest** | Temps sec et ensoleillé, nuages inoffensifs possibles. | Maximales 20 à 24°C, minimales 8 à 12°C. | moderee | GFS, GEFS | Pas de bulletin local lors de la semaine 1. |
+| **Nord** | Soleil dominant, ciel parfois voilé, très beau temps. | Maximales 22 à 26°C, minimales 9 à 13°C. | elevee | Météo-France, GEFS | Légère évolution nuageuse vendredi. |
+| **Nord-Est** | Temps probablement sec et ensoleillé. | Maximales 23 à 27°C, minimales 7 à 11°C. | faible | GEFS | Manque de données locales précises. |
+| **Ouest et Façade Atlantique** | Ensoleillé, passages nuageux vendredi, chaleur en hausse. | Maximales 23 à 29°C, littoral plus frais (21°C). | elevee | Météo-France, GFS | Écart thermique littoral/intérieur. |
+| **Centre** | Soleil et temps sec, chaleur modérée. | Maximales 24 à 28°C, minimales 9 à 13°C. | moderee | GEFS | Amplitude thermique nord-sud. |
+| **Sud-Ouest** | Très ensoleillé, chaleur nette le week-end. | Maximales 23 à 32°C, minimales 8 à 13°C. | elevee | Météo-France, GFS, GEFS | Records de chaleur possibles dimanche. |
+| **Sud-Est et Vallée du Rhône** | Soleil, nette baisse des températures en début de semaine. | Maximales 21 à 29°C, minimales 7 à 12°C. | elevee | Météo-France, GFS | Rythme de remontée des températures. |
+| **Méditerranée et Corse** | Soleil dominant, mistral fort, chaleur en hausse. | Maximales 26 à 32°C, minimales 10 à 18°C. | elevee | Météo-France, GFS | Variabilité du mistral selon les secteurs. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Mercredi 9 septembre** : Éclaircies de plus en plus larges, vent modéré, températures de saison.
-- **Jeudi 10 septembre** : Soleil généreux, mistral fort en Méditerranée, nuits fraîches à l’intérieur.
-- **Vendredi 11 et samedi 12 septembre** : Ensoleillement maximal, températures en nette hausse, retour d’un temps estival.
-- **Dimanche 13 septembre** : Soleil toujours présent, chaleur plus marquée sur la moitié sud.
+- **Mercredi 9 septembre** : Nuit étoilée, mistral en Méditerranée, températures déjà en baisse.
+- **Jeudi 10 et vendredi 11 septembre** : Soleil généreux, températures de saison, fraîcheur nocturne.
+- **Samedi 12 septembre** : Ensoleillement excellent, chaleur en hausse sur la moitié sud.
+- **Dimanche 13 septembre** : Temps chaud et sec, maximales proches de 30°C dans le sud.
 
 **Points solides :**
-1. Les bulletins officiels prévoient un ensoleillement généreux sur les régions couvertes.
-2. Aucun risque de précipitations notables jusqu’à dimanche.
-3. Mistral fort sur la Méditerranée jeudi.
+1. Absence quasi totale de pluie sur la semaine.  
+2. Temps ensoleillé et sec sur l’ensemble de la France.  
+3. Baisse des minimales, surtout au nord et dans les vallées.
 
 **Points fragiles :**
-1. Rythme exact de la hausse thermique.
-2. Timing du retour de la chaleur dans le nord.
-3. Possibilité d’averses résiduelles sur les côtes ouest.
+1. Remontée thermique du week-end, notamment dans le sud-ouest et le sud-est.  
+2. Comportement du mistral en Méditerranée.  
+3. Scénario lointain de dégradation, très incertain.
 
 **À surveiller (prochains runs) :**
-Les runs de jeudi et vendredi pour la semaine suivante, notamment l’évolution de la goutte froide potentielle.
+À surveiller : runs 00Z et 12Z de GFS et ECMWF pour confirmer ou infirmer la remontée chaude du week-end.
 
 
 ## 🗓️ SEMAINE 2 : Du lundi 14 au dimanche 20 septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Blocage anticyclonique : Les hautes pressions devraient dominer toute la semaine sur la France.
-2. Chaleur africaine : Une masse d’air très chaude pourrait remonter d’Afrique du Nord dès mardi.
-3. Sécheresse aggravée : Les précipitations semblent absentes, situation préoccupante pour les sols.
-4. Jet stream décalé : Les perturbations circulent très au nord, incapables d’atteindre le pays.
-5. Goutte froide à surveiller : Un scénario minoritaire de dégradation existe, mais il n’est pas majoritaire.
+1. Chaleur record possible : Masse d’air très chaude en début de semaine, jusqu’à 31-32°C.
+2. Blocage anticyclonique : Haute pression persistante, pluies quasi absentes.
+3. Scénarios partagés : Goutte froide possible en fin de semaine, ou chaleur durable.
+4. Sécheresse préoccupante : Septembre pourrait être presque aussi sec que juillet.
+5. Vents de nord dominants : Flux majoritairement de nord à nord-ouest.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Temps sec et anticyclonique sur l’essentiel de la semaine.
-2. Températures au-dessus des normales de saison.
-3. Absence de précipitations significatives.
+1. Début de semaine chaud, sec et souvent ensoleillé.  
+2. Pluies quasi absentes sur la majorité du territoire.  
+3. Haute pression dominante, avec des vents majoritairement de nord.
 **Points de divergence :**
-1. Arrivée ou non d’une goutte froide en fin de semaine.
-2. Intensité de la chaleur, surtout au sud-ouest.
-3. Possibilité d’une petite dégradation en milieu de semaine au nord.
+1. Fin de semaine : scénario dépressionnaire/goutte froide vs maintien anticyclonique.  
+2. Niveau de chaleur : simple chaleur de saison ou chaleur très marquée.  
+3. Impact de la goutte froide sur les régions du sud-ouest.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS / GEFS** (Tendance dominante) | Maintien d’un anticyclone chaud, températures nettement au-dessus des normales, en particulier au sud; scénario de goutte froide minoritaire. | Chaleur, sécheresse, absence de précipitations, vent de nord-ouest. | Toutes les régions, contrastes nord-ouest/sud-est. | Élevée (85%) | Les GEFS 00Z du 9 septembre pour Paris, Toulouse et Marseille indiquent des températures très chaudes pour la saison, sans signal humide. Un tube plus frais existe, mais le tube chaud est mieux fourni. |
-| **ECMWF (ensemble européen)** (Scénario partagé, légère majorité anticyclonique) | Légère majorité de scénarios anticycloniques, dont une partie très chaude; une goutte froide sur la Corogne est possible en fin de semaine. | Chaud et sec dominant, possible baisse en milieu de période, vents de nord-ouest. | France entière, surtout moitié sud. | Élevée (85%) | Le clustering ECMWF montre 28 scénarios anticycloniques sur 51, dont 14 chauds, contre 23 dépressionnaires. Le déterministe propose une goutte froide, mais ce scénario n’est pas majoritaire. |
+| **ECMWF (ensemble européen)** (Disponible) | Scénario anticyclonique majoritaire (55%), dont 27% de scénarios chauds à flux de sud-ouest ; risque de goutte froide en fin de période. | Temps sec et chaud, très peu de pluie ; possible dégradation en fin de semaine. | Toutes zones, principalement sud et ouest | Élevée (85%) | Le clustering de l’ensemble européen montre des scénarios partagés pour la fin de semaine, avec une majorité anticyclonique chaude ou simplement chaude. Une goutte froide sur la Corogne est présente mais minoritaire. |
+| **GEFS (ensemble GFS)** (Disponible) | Tubes de température partagés entre un scénario chaud (plus fourni) et un scénario plus frais ; aucune pluie significative. | Chaleur persistante, sécheresse, très faibles précipitations. | Toutes zones, notamment sud-est et centre-ouest | Élevée (85%) | Les diagrammes GEFS du 9 septembre 00Z pour Paris, Toulouse et Marseille montrent une chaleur encore marquée et des précipitations quasi nulles (moins de 1 mm possibles). |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps sec, températures proches de 22-25°C, possible dégradation en milieu de semaine. | Minimales 10-15°C, maximales 22-26°C. | moderee | GEFS, ECMWF | Passage d’une dégradation ou non |
-| **Nord** | Chaud et sec, températures autour de 25°C, baisse possible en milieu de semaine. | Minimales 12-17°C, maximales 24-28°C. | elevee | GEFS, ECMWF | Baisse temporaire en milieu de semaine |
-| **Nord-Est** | Anticyclone, temps sec et chaud, incertitude sur un rafraîchissement en milieu de semaine. | Minimales 10-15°C, maximales 24-28°C. | moderee | GEFS, ECMWF | Impact de la goutte froide |
-| **Ouest et Façade Atlantique** | Temps sec et chaud, sécheresse importante, possible dégradation temporaire en milieu de semaine. | Minimales 13-18°C, maximales 26-31°C. | moderee | GEFS, ECMWF | Intensité de la chaleur |
-| **Centre** | Chaud et sec, températures au-dessus des normales, pas de pluie. | Minimales 10-16°C, maximales 25-30°C. | moderee | GEFS, ECMWF | Hausse thermique plus ou moins forte |
-| **Sud-Ouest** | Très chaud, sec, ensoleillé, températures pouvant dépasser 30°C. | Minimales 12-18°C, maximales 28-34°C. | elevee | GEFS, ECMWF | Possibilité de records de chaleur |
-| **Sud-Est et Vallée du Rhône** | Chaleur marquée, temps sec, ensoleillement généreux. | Minimales 12-18°C, maximales 27-32°C. | moderee | GEFS, ECMWF | Intensité de la chaleur |
-| **Méditerranée et Corse** | Très chaud, sec, ensoleillé, possible pic à 35°C; mistral ou tramontane. | Minimales 16-20°C, maximales 29-35°C. | elevee | GEFS, ECMWF | Atteinte ou non de 35°C |
+| **Nord-Ouest** | Sec et ensoleillé, chaleur modérée, possible dégradation en fin de semaine. | Maximales 22 à 28°C, minimales 10 à 14°C. | moderee | ECMWF, GEFS | Trajectoire de la goutte froide. |
+| **Nord** | Soleil généreux, chaleur en début de semaine puis baisse possible. | Maximales 25 à 27°C, puis 20-24°C, minimales 11 à 15°C. | elevee | Météo-France, GEFS, ECMWF | Amplitude de la baisse en fin de semaine. |
+| **Nord-Est** | Chaleur possible en début de semaine, puis baisse incertaine. | Maximales 24 à 30°C, minimales 10 à 14°C. | faible | ECMWF | Manque de données locales précises. |
+| **Ouest et Façade Atlantique** | Soleil et chaleur, vent modéré, baisse possible en fin de semaine. | Maximales 29 à 32°C, littoral 22°C, minimales 13 à 16°C. | elevee | Météo-France, ECMWF, GEFS | Baisse thermique de jeudi à vendredi. |
+| **Centre** | Temps sec, chaud, ensoleillé ; sécheresse renforcée. | Maximales 27 à 31°C, minimales 11 à 15°C. | moderee | GEFS, ECMWF | Impact réel de la sécheresse sur les sols. |
+| **Sud-Ouest** | Soleil, très chaud, pluies possibles sur les Pyrénées en fin de semaine. | Maximales 29 à 32°C, minimales 10 à 14°C. | elevee | Météo-France, ECMWF, GEFS | Extension des pluies vers les plaines. |
+| **Sud-Est et Vallée du Rhône** | Soleil, chaleur, vent de nord ; baisse possible en fin de semaine. | Maximales 27 à 30°C, minimales 12 à 15°C. | elevee | Météo-France, GEFS | Rythme de la baisse des températures en fin de semaine. |
+| **Méditerranée et Corse** | Soleil, mistral, chaleur soutenue ; pluie possible en fin de semaine. | Maximales 28 à 31°C, 32°C en val de Durance, minimales 15 à 19°C. | elevee | Météo-France, ECMWF, GEFS | Évolution de la goutte froide en Méditerranée. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 14 et mardi 15 septembre** : Anticyclone, temps sec, températures en hausse; possible pic de chaleur dans le sud.
-- **Mercredi 16 et jeudi 17 septembre** : Incertitude sur une petite dégradation; baisse temporaire possible au nord.
-- **Vendredi 18 et samedi 19 septembre** : Regain de chaleur, surtout au sud; soleil dominant.
-- **Dimanche 20 septembre** : Temps sec et chaud, la goutte froide pourrait s’approcher par l’ouest (incertain).
+- **Lundi 14 septembre** : Temps sec et déjà chaud, surtout au sud.
+- **Mardi 15 et mercredi 16 septembre** : Pic de chaleur possible, soleil généreux, mistral en Méditerranée.
+- **Jeudi 17 et vendredi 18 septembre** : Possible dégradation orageuse, surtout sur les Pyrénées et l’extrême sud-est.
+- **Samedi 19 et dimanche 20 septembre** : Retour à un temps plus calme, chaleur selon le scénario retenu.
 
 **Points solides :**
-1. Le blocage anticyclonique est confirmé par les grandes tendances.
-2. La sécheresse va se poursuivre et s’aggraver.
-3. Les températures resteront au-dessus des normales.
+1. Chaleur marquée en début de semaine sur une grande partie du pays.  
+2. Absence de précipitations significatives au moins jusqu’à mardi-mercredi.  
+3. Vents de nord à nord-ouest dominants.
 
 **Points fragiles :**
-1. Le positionnement exact de la goutte froide.
-2. Le niveau de chaleur extrême possible.
-3. Le passage d’une dégradation orageuse très localisée.
+1. Scénario de fin de semaine (goutte froide ou blocage anticyclonique).  
+2. Possibilité de records de chaleur localisés.  
+3. Localisation exacte des pluies pyrénéennes et méditerranéennes.
 
 **À surveiller (prochains runs) :**
-Surveiller le run ECMWF de jeudi pour la fin de semaine et l’évolution de la goutte froide.
+À surveiller : clustering ECMWF et GEFS des 10 et 11 septembre pour trancher sur la fin de semaine 2.
 
 
 ========================================
@@ -129,27 +128,29 @@ Surveiller le run ECMWF de jeudi pour la fin de semaine et l’évolution de la 
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Un blocage anticyclonique maintient un temps sec, ensoleillé et anormalement chaud pour la mi-septembre. Les pluies seront quasi absentes sur les deux semaines. Une possible dégradation en fin de semaine 2 reste incertaine.
+Temps sec, ensoleillé et anormalement chaud pour la mi-septembre. Pluies quasi absentes. Une possible dégradation en toute fin de période reste très incertaine.
 
 ### Période la plus fiable
-La semaine 1, grâce aux bulletins officiels et à un consensus plus net.
+Semaine 1 (9-13 septembre) : consensus net sur le beau temps sec, avec des températures bien documentées par les bulletins officiels. Semaine 2 plus incertaine en seconde partie.
 
 ### Phénomènes récurrents
-Sécheresse des sols, ensoleillement excessif, mistral et tramontane, nuits fraîches en intérieur.
+Chaleur durable, absence de pluie, mistral en Méditerranée, nuits fraîches possibles, sécheresse des sols.
 
 ### Principales incertitudes
-Évolution d’une goutte froide en semaine 2, intensité de la chaleur, absence totale de pluie.
+1. Trajectoire et impact d’une éventuelle goutte froide en fin de semaine 2.  
+2. Intensité de la remontée chaude en début de semaine 2.  
+3. Éventuel retour des pluies, repoussé au-delà de J+10.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le moment exact du retour de la chaleur en semaine 1 et le passage éventuel d’une dégradation en semaine 2 restent incertains.
-- **Localisation :** La localisation des rares précipitations (Manche, reliefs) est très incertaine; les zones de plus fortes chaleurs varient selon les runs.
-- **Intensité :** Les maximales pourraient atteindre 30-35°C dans le sud si le scénario chaud se confirme, mais une baisse est possible si la goutte froide se déplace plus à l’est.
-- **Informations manquantes :** Peu de détails sur l’humidité, les orages (sauf Méditerranée), et l’évolution des sols.
-- **Modèles sous-documentés :** ICON, Arpège, CEP déterministe, GEM, UKMO ne sont pas ou peu commentés.
-- **Incertitudes images :** Les cartes de clustering et les diagrammes GEFS postés ne sont pas datés pour tous; certains runs ne sont pas identifiés.
+- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes, notamment le passage d’un possible rafraîchissement en fin de semaine 2.
+- **Localisation :** Doutes sur la localisation précise des pluies pyrénéennes et méditerranéennes, ainsi que sur l’extension de la chaleur vers le nord.
+- **Intensité :** Doutes sur l’intensité de la chaleur en début de semaine 2 (records possibles) et sur la force des rafales de mistral.
+- **Informations manquantes :** Informations importantes non abordées dans les discussions : humidité des sols, impact agricole, risque d’incendies, températures marines.
+- **Modèles sous-documentés :** ARPEGE, AROME, ICON et UKMO ne sont pas commentés par les membres. ECMWF est détaillé en semaine 2 seulement.
+- **Incertitudes images :** Incertitudes sur les graphiques et cartes du forum : les diagrammes GEFS et clusters ECMWF sont des captures non sourcées.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-📊 Bulletin météo des 2 prochaines semaines : temps sec et chaud, sécheresse qui s’aggrave. Jusqu’à 30-35°C possibles au sud. Prudence. #Météo #Climat #Sécheresse
+Météo : un blocage anticyclonique maintient un temps sec, ensoleillé et anormalement chaud pour la mi-septembre. Les pluies restent quasi absentes, avec une sécheresse qui s’aggrave. Prudence : la fin de semaine 2 pourrait voir une dégradation, mais le scénario est encore incertain. Suivez les prochains runs ! #Météo #Sécheresse #Septembre2026 #Prévisions
