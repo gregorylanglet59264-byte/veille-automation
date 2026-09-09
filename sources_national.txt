@@ -332,12 +332,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : =30°C consécutives]]>
 • Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi ensoleillement 2026
 • Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Suivi ensoleillement 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 09/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -345,9 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Mercredi 9 Septembre 2026.
-Résumé général précédent : Tendance générale : temps assez stable, souvent sec, avec des températures proches ou légèrement au-dessus des normales. Une dégradation orageuse est possible sur le sud-est en toute fin de période..
+Résumé général précédent : Sur la période des deux semaines, la France reste sous l’influence d’un puissant blocage anticyclonique. Le temps est majoritairement sec, ensoleillé et plus chaud que les normales. Une baisse thermique temporaire est attendue en début de première semaine, puis la chaleur se renforce progressivement, notamment sur le sud et le Centre-Est..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Ciel variable, averses possibles au sud, températures 20-25°C en journée..
+Températures attendues précédemment : Temps sec et ensoleillé, températures de saison à nettement au-dessus, surtout sur le pourtour méditerranéen et le sud“ouest..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Mercredi 9 au Dimanche 13 Septembre 2026) ===
@@ -603,7 +603,7 @@ Dernière semaine avant l'équinoxe d'automne pour ces prévisions météo où l
 Auteur: nickdu77
 Message:
 Pour le niveau modeste des précipitations, on commence à avoir l'habitude ... malheureusement. Ce qui est frappant, c'est qu'on a l'impression que tout est 1000 km trop au nord pour la saison : on a encore un iso à 20°C qui vient nous titiller et qui occupe largement la péninsule ibérique, une zone de hautes pressions qui rappelle un début de mois d'août et donc pas de PP. J'ai l'impression de voir les cartes du 8 août, pas du 8 septembre et avec une situation de blocage qui dure depuis plus de trois mois et des perturbations qui viennent au mieux mourir sur des HP et le pire, c'est que je ne vois pas de raison pour que ça change .... Ca commence à devenir inquiétant, j'espère que c'est une année exceptionnelle et pas le signe d'un point de bascule climatique. Septembre risque d'être presque aussi sec que juillet.
-								2
+								3
 								1
 								5
 
@@ -681,7 +681,7 @@ il y a 52 minutes, nickdu77 a dit :
 			Climato_sept.xlsx 11.13 Ko · 3 téléchargements   
 	Je ne vais pas m'étendre ici, étant plutôt de la climato, mais quand je vois que parmi ces étés entre 2015 et 2025 l'été 2021 a été considéré comme médiocre et frais, effectivement les repères ont sacrément changé , surtout quand on a connu les étés des années 70 et 80 ! 
 	Enfin il n'y a plus grand chose  de rationnel actuellement et pas seulement sur le climat d'ailleurs ! 
-								8
+								9
 								1
 								1
 								4
@@ -725,7 +725,7 @@ Il y a 9 heures, thib91 a dit :
 	Un peu comme ce mardi, de véritables fronts s’organisent progressivement en Atlantique mais rapidement déstructurés par ces HG. Ça se solde par une maigre dégradation pour la saison, suivie d’un rafraîchissement mais aussi du retour des HG / HP. On repart donc sur un réchauffement progressif, un temps très sec et possiblement une petite dégradation au milieu de tout ça qui pourrait rafraîchir l’atmosphère. 
 	Difficile d’imaginer un autre scénario d’ici cette fin de mois sans compter que comme cet été, le scénario sec et plus chaud prend toujours le dessus à mesure qu’on s’approche de l’échéance… 
 	En tout cas niveau climato, septembre pourrait ressembler à l’été 2026 mais peut-être plus nuancé au nord, plus contrasté entre le nord-ouest et le sud-est. 
-	Modifié il y a 5 heures par Run999H
+	Modifié il y a 7 heures par Run999H
 								8
 								1
 								2
@@ -759,6 +759,7 @@ Je ne voudrais pas jouer les oiseaux de mauvais augure mais que je vois ce diagr
 Auteur: Lodu17
 Message:
 Et une région, toujours concernée par la sécheresse sans arrêt depuis mai: le Centre Ouest avec des records de chaleur explosés dans tous les sens.
+								1
 								4
 								1
 
@@ -773,7 +774,7 @@ Il y a 12 heures, thib91 a dit :
 	bien sûr par grand-chose à ma portée sur le plan théorique documenté pour soutenir ça...
 	ça pourrait aussi participer d'une homogénéisation des températures à l'échelle hémisphérique avec disparition progressive du gradient thermique entre zones polaires et zone intertropicale, avec une situation un peu différente hémisphère S, où la grosse glaciaire antarctique fait jouer son inertie...
 		Il y a 12 heures, thib91 a dit :
-	Modifié il y a 1 heure par giec 2100
+	Modifié il y a 3 heures par giec 2100
 								1
 
 =======================
@@ -786,5 +787,5 @@ Enfin une bonne nouvelle! 
 	En effet l'organisme national Grolandais de prédiction météorologique va relever de 5°C ses seuils de canicule dès le mois de mai prochain.
 	Ainsi le nombre de vigilances "orange canicule" devrait mécaniquement chuter. 
 	Une bonne nouvelle pour notre beau pays et notre belle planète ! 😁 
-	Modifié il y a 3 minutes par mathias
-								1
+	Modifié il y a 2 heures par mathias
+								15
