@@ -6,122 +6,125 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Fort consensus sur le temps sec et la baisse thermique en semaine 1. Consensus plus faible en semaine 2 sur le maintien de l’anticyclone.*
-- **Fiabilité du scénario majoritaire :** Scénario anticyclonique — *Le scénario le plus probable est un anticyclone s’étendant sur la France, avec un temps sec et des températures de saison. Un scénario alternatif de goutte froide est minoritaire mais présent.*
+- **Consensus des modèles :** Modéré — *Accord sur la baisse thermique de la semaine 1 et sur la sécheresse relative de la semaine 2, mais désaccord sur la structure météo de la semaine 2.*
+- **Fiabilité du scénario majoritaire :** Incertain — *Le scénario le plus probable pour la semaine 2 reste anticyclonique, mais sans certitude sur son intensité thermique et sa durée.*
 - **Stabilité des cartes/scénarios :** 6 / 86 — *6 cartes sur 86 analysées*
-- **Niveau d'incertitude global :** Élevée — *L’incertitude est élevée pour la semaine 2, notamment sur les températures et la possibilité d’une dégradation orageuse en fin de période.*
+- **Niveau d'incertitude global :** Forte en semaine 2 — *45% des scénarios proposent un flux dépressionnaire ; un run isolé évoque une goutte froide. La prudence est donc nécessaire.*
 
 ## 🗓️ SEMAINE 1 : Du mercredi 9 au dimanche 13 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Baisse des températures : retour près des normales après un début de semaine chaud.
-2. Vigilance jaune orages sur les Bouches-du-Rhône et le Rhône en cours de journée.
-3. Vent d'ouest à nord-ouest modéré, avec rafales sur les reliefs et le littoral atlantique.
-4. Temps généralement sec, quelques faibles précipitations possibles sur l’intérieur aquitain.
-5. Indice de confiance élevé (4/5) pour le week-end, conditions stables anticycloniques.
+1. Refroidissement progressif : les températures baissent et passent durablement sous 30°C, tout en restant parfois au-dessus des normales.
+2. Orages locaux : vigilance jaune sur Rhône et Bouches-du-Rhône le 09/09, avec rafales possibles sous orage.
+3. Nuages et éclaircies : Paris et Bordeaux alternent nuages et éclaircies, avec petites pluies locales possibles.
+4. Vent d’ouest à nord-ouest : flux océanique modéré, plus soutenu sur les côtes, notamment au Cap-Ferret.
+5. Fin d’échéance incertaine : un run GFS isolé évoque un net refroidissement, mais l’ensemble ne le suit pas.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Convergence sur une baisse des températures après le 9 septembre.
-- Convergence sur un temps sec et stable pour le week-end des 12-13 septembre.
-- Convergence sur un vent de secteur ouest à nord-ouest modéré.
+- Baisse thermique générale en semaine 1, avec des températures repassant durablement sous 30°C.
+- Vigilance jaune orages sur Rhône et Bouches-du-Rhône en début de période.
+- Flux océanique d’ouest à nord-ouest assez présent, plus soutenu sur les côtes.
 **Points de divergence :**
-- Divergence sur l’intensité de la baisse thermique : scénario GFS isolé plus frais que la moyenne.
-- Divergence sur le risque orageux en Méditerranée et dans le Rhône, encore incertain.
+- Un run déterministe propose un refroidissement plus marqué en fin de semaine, mais il est isolé dans son ensemble.
+- Amplitude exacte de la baisse par rapport aux normales restée incertaine.
+- Localisation et intensité des orages locaux encore délicates à affiner.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (Documenté par les discussions) | Run déterministe isolé suggérant une fin d’échéance sous les 30°C, mais non représentatif de l’ensemble. | Températures en baisse, temps sec, vent modéré. | Nord, centre, sud-ouest | Faible (45%) | Scénario isolé dans les ensembles, à écarter pour la tendance générale. |
-| **Ensembles** (Documenté par les discussions) | Tendance anticyclonique majoritaire, températures proches des normales. | Temps sec et stable sur la plupart des régions. | Toutes | Modérée (65%) | La majorité des scénarios privilégie un temps sec sous anticyclone, sans excès de chaleur. |
+| **GFS (déterministe)** (Partiellement documenté.) | Refroidissement plus marqué en toute fin de semaine 1, avec 850 hPa autour de 10-15°C sur Paris, mais scénario isolé dans son ensemble. | Possible fin de semaine plus fraîche, nettement sous les normales, mais non confirmée par les autres runs. | Nord, Île-de-France, Centre. | Faible. | Le déterministe se retrouve seul isolé ; il propose une fin d’échéance nettement plus fraîche que la tendance globale. |
+| **Ensembles** (Documenté partiellement.) | Baisse thermique progressive, températures pouvant rester un peu au-dessus des normales selon les jours, puis passage sous 30°C. | Temps souvent sec, nuages et éclaircies, pas de signal durablement froid majoritaire. | France métropolitaine, surtout nord et centre. | Moyenne. | La tendance principale est un refroidissement sans sortie hivernale ; seule une fin d’échéance isolée est beaucoup plus fraîche. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Non documenté | Non documenté | faible | Non documenté | Aucune donnée spécifique dans les sources exploitées |
-| **Nord** | Nuages et éclaircies, vent modéré d'ouest-nord-ouest | 16°C en début de nuit, maximales en baisse autour de 20-22°C | moderee | GFS | Évolution des températures en fin de semaine encore incertaine |
-| **Nord-Est** | Non documenté | Non documenté | faible | Non documenté | Aucune donnée spécifique dans les sources exploitées |
-| **Ouest et Façade Atlantique** | Éclaircies, vent modéré à assez fort sur le littoral | 18-19°C en matinée, maximales autour de 22-24°C | moderee | Non documenté | Précipitations localisées et intensité du vent littoral |
-| **Centre** | Non documenté | Non documenté | faible | Non documenté | Aucune donnée spécifique dans les sources exploitées |
-| **Sud-Ouest** | Ciel variable, vent d'ouest-nord-ouest | 22°C à Toulouse, 18°C à Luchon | moderee | Non documenté | Évolution orageuse possible en fin de semaine |
-| **Sud-Est et Vallée du Rhône** | Risque d'orages, vent de nord-nord-ouest | 24°C à Lyon, 18°C en relief | moderee | Non documenté | Localisation et intensité des orages incertaines |
-| **Méditerranée et Corse** | Risque d'orages, vent de sud-ouest | 24-25°C sur le littoral | moderee | Non documenté | Évolution des orages en soirée |
+| **Nord-Ouest** | Non documenté. | Non documenté. | non_estimable | Météo-France XML, ECMWF, GFS | Absence de données exploitables |
+| **Nord** | Alternance de nuages et d’éclaircies, avec fraîcheur relative en soirée. | Tn autour de 16°C à Paris ; Tx en baisse, sous 30°C. | moderee | GFS, Météo-France | Amplitude de la baisse en fin d’échéance incertaine ; run isolé plus frais. |
+| **Nord-Est** | Non documenté. | Non documenté. | non_estimable | Météo-France XML, ECMWF, GFS | Absence de données exploitables |
+| **Ouest et Façade Atlantique** | Éclaircies, passages nuageux, petites pluies locales possibles. | Environ 18-19°C à Bordeaux et au Cap-Ferret. | moderee | Météo-France | Précipitations localisées non précisément quantifiées. |
+| **Centre** | Non documenté. | Non documenté. | non_estimable | Météo-France XML, ECMWF, GFS | Absence de données exploitables |
+| **Sud-Ouest** | Généralement sec, quelques nuages ; pas de fort signal pluvieux. | Environ 22°C à Toulouse, 18°C à Luchon. | moderee | Météo-France | Évolution en fin de semaine 1 peu détaillée. |
+| **Sud-Est et Vallée du Rhône** | Orages possibles, vigilance jaune ; rafales sous orage. | 24°C à Lyon, 18°C aux Sauvages. | moderee | Météo-France | Localisation et intensité des orages incertaines. |
+| **Méditerranée et Corse** | Risque orageux sur Bouches-du-Rhône ; vent de sud-ouest ; ailleurs variable. | 25°C à Marignane, 24°C à Aix-en-Provence. | moderee | Météo-France, Bulletin marine | Comportement du vent et des orages sur la Corse non détaillé. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Mercredi 9 septembre** : Temps variable avec risque orageux sur le sud-est, températures en baisse sur le nord.
-- **Jeudi 10 et vendredi 11 septembre** : Repli des températures, vent modéré d’ouest, temps sec sur la plupart des régions.
-- **Samedi 12 et dimanche 13 septembre** : Conditions stables et anticycloniques, températures proches des normales, indice de confiance 4/5.
-- **(sans objet)** : Non concerné.
+- **9-10 septembre** : Nuages et éclaircies, orages locaux possibles sur Rhône et Bouches-du-Rhône, vent d’ouest-nord-ouest.
+- **11 septembre** : Poursuite de la baisse thermique, petites pluies possibles sur l’ouest, temps plus sec ailleurs.
+- **12 septembre** : Vent nord-ouest faible à modéré sur le sud-est, températures proches des normales.
+- **13 septembre** : Fin d’échéance incertaine, possible fraîcheur plus marquée si le run isolé se confirme.
 
 **Points solides :**
-- Baisse générale des températures confirmée par les observations et les tendances.
-- Vent d’ouest à nord-ouest modéré sur la moitié nord et l’Atlantique.
-- Vigilance orages uniquement sur Rhône et Bouches-du-Rhône, en journée.
+- Baisse thermique engagée en semaine 1.
+- Vigilance jaune orages documentée sur Rhône et Bouches-du-Rhône.
+- Flux océanique d’ouest à nord-ouest actif sur plusieurs régions.
 
 **Points fragiles :**
-- Scénario GFS isolé plus frais que la moyenne des ensembles.
-- Précipitations sur l’Aquitaine encore incertaines en intensité et localisation.
-- Comportement des orages méditerranéens en fin de journée difficile à cerner.
+- Fin d’échéance très incertaine avec un run déterministe isolé.
+- Amplitude thermique finale par rapport aux normales mal assurée.
+- Localisation précise des orages encore délicate.
 
 **À surveiller (prochains runs) :**
-- Prochaines échéances modélisées pour affiner la baisse thermique du week-end.
-- Évolution des cellules orageuses sur le sud-est en soirée.
+- Surveiller le run déterministe isolé en fin d’échéance.
+- Vérifier l’évolution des ensembles pour J+4 à J+7.
+- Suivre les indices orageux sur Rhône et Bouches-du-Rhône.
 
 
 ## 🗓️ SEMAINE 2 : Du lundi 14 au dimanche 20 septembre 2026
 ### 💡 Points clés de la semaine 2
-1. Stabilité anticyclonique probable, temps sec sur l’ensemble du pays.
-2. Températures proches de 25°C à Paris, plus élevées à Toulouse, avec une baisse possible en milieu de période.
-3. Scénario de goutte froide minoritaire, mais présent sur un run déterministe.
-4. 45% des scénarios des ensembles sont dépressionnaires, incertitude sur la persistance de l’anticyclone.
-5. Pas de précipitations significatives attendues, sauf en cas de scénario dépressif.
+1. Stabilité probable : scénario anticyclonique favori, mais 45% des scénarios restent dépressionnaires.
+2. Chaleur relative : Tx autour de 25°C à Paris, plus élevées à Toulouse, avec baisse en milieu de période.
+3. Sécheresse marquée : peu ou pas de précipitations prévues sur Paris et Toulouse.
+4. Masse d’air chaude au sud-ouest : l’isotherme 20°C à 850 hPa remonte sur la péninsule ibérique, centres d’action décalés vers le nord.
+5. Goutte froide possible : présente dans les ensembles et sur un run déterministe, mais non confirmée.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Convergence sur un temps sec et stable en début de semaine.
-- Convergence sur des températures de saison, autour de 25°C sur le nord, plus chaud au sud-ouest.
-- Convergence sur une baisse thermique en milieu de période, puis retour de la stabilité.
+- Absence de précipitations prévue sur Paris et Toulouse.
+- Tx autour de 25°C à Paris, avec baisse en milieu de période.
+- Maintien d’une masse d’air chaude sur le sud-ouest et l’Espagne.
 **Points de divergence :**
-- Divergence sur l’intensité de la chaleur : scénarios allant de simple « chaud » à « très chaud ».
-- Divergence sur une possible dégradation orageuse en fin de semaine, liée à la goutte froide isolée.
-- Divergence sur la position exacte de l’anticyclone et son influence sur les températures.
+- Anticyclone probable, mais 45% de scénarios dépressionnaires.
+- Présence d’une goutte froide dans les ensembles et sur un déterministe isolé.
+- Chaleur : “très chaude” ou simplement “au-dessus de la normale” selon les scénarios.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (Documenté par les discussions) | Un run déterministe évoque une goutte froide, mais il est isolé dans les ensembles. | Temps sec, températures autour de 25°C à Paris, plus chaud au sud-ouest. | Nord, centre, sud-ouest | Faible (45%) | Scénario de goutte froide présent dans les ensembles mais sur un seul run déterministe, non représentatif de l’ensemble. |
-| **Ensembles** (Documenté par les discussions) | 23/51 (45%) des scénarios sont dépressionnaires sur la France en flux entre ouest et nord. Tendance anticyclonique majoritaire. | Températures proches de 25°C à Paris, absence de précipitations sur la période. | Toutes | Modérée (65%) | La majorité des scénarios privilégie un anticyclone, mais avec une incertitude sur le niveau de chaleur et l’arrivée d’une perturbation en fin de période. |
+| **Ensembles GFS** (Documenté pour les grandes tendances.) | Scénario principal anticyclonique ; cependant 23/51 scénarios sont dépressionnaires sur la France en flux plutôt ouest/nord. | Temps sec, températures autour de 25°C à Paris, plus chaud à Toulouse, baisse relative en milieu de période. | France métropolitaine, surtout nord, centre, sud-ouest. | Moyenne. | La stabilité est le scénario retenu, avec absence de précipitations à Paris et Toulouse ; le niveau de chaleur reste à affiner. |
+| **Run déterministe GFS (goutte froide)** (Partiellement documenté.) | Une goutte froide est présente dans les ensembles et sur un seul run déterministe, sans confirmation globale. | Scénario plus dégradé et plus frais possible, mais non représentatif de la majorité. | France, position géographique non précisée. | Faible. | Le scénario de goutte froide illustre un run par run déterministe “qui ne conduit pas à grand chose” selon la source. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Non documenté | Non documenté | faible | Non documenté | Aucune donnée spécifique dans les sources exploitées |
-| **Nord** | Temps sec et stable, éclaircies | Tx proches de 25°C, tendance à la baisse en milieu de période | moderee | GFS, Ensembles | Incertitude sur le niveau exact de chaleur et l'arrivée d'une dégradation en fin de semaine |
-| **Nord-Est** | Temps sec et stable probable | Non documenté précisément, probablement proches de 25°C | faible | Ensembles | Manque de données spécifiques pour cette zone |
-| **Ouest et Façade Atlantique** | Temps sec, ensoleillé | Tx autour de 24-26°C, légère baisse en milieu de semaine | moderee | Ensembles | Incertitude sur la persistance de l'anticyclone |
-| **Centre** | Temps sec et stable, éclaircies | Tx autour de 25°C, baisse possible en milieu de période | moderee | GFS, Ensembles | Incertitude sur la goutte froide et ses effets |
-| **Sud-Ouest** | Temps chaud et sec, ensoleillé | Tx nettement au-dessus de 25°C, parfois proches de 30°C selon les scénarios | moderee | GFS, Ensembles | Incertitude sur la durée de la chaleur et une possible dégradation orageuse en fin de semaine |
-| **Sud-Est et Vallée du Rhône** | Temps sec, parfois nuageux | Tx autour de 24-26°C | moderee | GFS, Ensembles | Incertitude sur le scénario de goutte froide et son impact |
-| **Méditerranée et Corse** | Temps sec et ensoleillé, quelques nuages sur la Corse | Tx autour de 25-28°C | moderee | Ensembles | Incertitude sur le vent et les températures en fin de semaine |
+| **Nord-Ouest** | Non documenté. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Absence de données exploitables |
+| **Nord** | Temps sec et stable, températures proches de 25°C en Tx, avec baisse en milieu de période. | Tx autour de 25°C à Paris, tendance à la baisse vers le 16-17. | moderee | GFS, Ensembles | Scénario anticyclonique probable mais 45% de scénarios dépressionnaires. |
+| **Nord-Est** | Non documenté. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Absence de données exploitables |
+| **Ouest et Façade Atlantique** | Non documenté pour la semaine 2. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Absence de données exploitables pour cette période |
+| **Centre** | Non documenté. | Non documenté. | non_estimable | ECMWF, GFS, Guillaume Séchet | Absence de données exploitables |
+| **Sud-Ouest** | Temps sec, températures au-dessus des normales, certains scénarios nettement plus chauds. | Tx supérieures à 25°C à Toulouse, jusqu’à nettement au-dessus selon les scénarios. | moderee | GFS, Ensembles | Ampleur de la chaleur très variable selon les scénarios. |
+| **Sud-Est et Vallée du Rhône** | Peu d’éléments directs ; tendance générale stable mais incertaine. | Non documenté en semaine 2. | faible | Météo-France | Héritage des orages du 09/09 et évolution hebdomadaire non précisée. |
+| **Méditerranée et Corse** | Probable temps stable, mais peu de détails pour la Corse et le littoral. | Non documenté. | faible | Météo-France | Manque de données explicites pour la Corse et les précipitations. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 14 et mardi 15 septembre** : Temps sec et stable, températures de saison, anticyclone en place.
-- **Mercredi 16 et jeudi 17 septembre** : Légère baisse des températures, toujours sec, incertitude sur la couverture nuageuse.
-- **Vendredi 18 au dimanche 20 septembre** : Retour probable de conditions stables, mais risque d’une dégradation orageuse si la goutte froide se confirme.
-- **(sans objet)** : Non concerné.
+- **14-15 septembre** : Stabilisation anticyclonique probable, Tx autour de 25°C à Paris, plus chaud à Toulouse.
+- **16-17 septembre** : Baisse thermique relative en milieu de période, toujours sec sur Paris et Toulouse.
+- **18-19 septembre** : Tendance encore incertaine : retour anticyclonique possible ou influence dépressionnaire.
+- **20 septembre** : Échéance équinoque très ouverte, aucune certitude sur le scénario final.
 
 **Points solides :**
-- Absence de précipitations sur l’ensemble de la période, sauf scénario dépressif minoritaire.
-- Températures de saison, autour de 25°C à Paris, plus élevées au sud-ouest.
-- Tendance anticyclonique dominante dans les ensembles.
+- Tendance anticyclonique principale.
+- Sécheresse prévue sur Paris et Toulouse.
+- Chaleur relative maintenue sur le sud-ouest.
 
 **Points fragiles :**
-- Scénario de goutte froide isolé, mais présent sur un run déterministe.
-- 45% des scénarios des ensembles sont dépressionnaires, ce qui fragilise la prévision.
-- Niveau de chaleur en fin de semaine très incertain : « chaud » ou « très chaud » ?
+- 45% de scénarios dépressionnaires restent possibles.
+- Goutte froide évoquée mais isolée.
+- Niveau de chaleur “très chaud” ou simplement “au-dessus des normales” encore incertain.
 
 **À surveiller (prochains runs) :**
-- Prochaines sorties des modèles pour lever l’ambiguïté sur la goutte froide.
-- Évolution des ensembles pour trancher entre anticyclone chaud et dégradation.
+- Équilibre anticyclone / goutte froide.
+- Position de l’isotherme 20°C à 850 hPa.
+- Évolution des températures après le milieu de semaine.
 
 
 ========================================
@@ -129,29 +132,25 @@
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Sur l’ensemble des deux semaines, la France connaît un temps globalement sec et stable, avec des températures qui fléchissent légèrement par rapport aux niveaux estivaux récents. L’anticyclone domine, mais des scénarios d’instabilité (goutte froide) restent présents en seconde semaine. Les températures restent proches des normales de saison, malgré des pics de chaleur possibles sur le sud-ouest.
-
-### Période la plus fiable
-La semaine 1 (du 9 au 13 septembre) est la plus fiable, avec un indice de confiance élevé (4/5 pour le week-end). La semaine 2 (du 14 au 20 septembre) est plus incertaine en raison de la divergence entre les scénarios déterministes et les ensembles.
+Sur l’ensemble des 15 jours, une baisse thermique se dessine en semaine 1, avec un temps devenant plus sec et souvent stable en semaine 2. La semaine 2 pourrait voir un maintien de températures assez douces, notamment sur le sud-ouest, mais la position exacte de l’anticyclone et une éventuelle goutte froide restent très incertaines.
 
 ### Phénomènes récurrents
-- Vent d’ouest à nord-ouest récurrent sur le nord et l’Atlantique.
-- Risque orageux localisé sur les reliefs et la Méditerranée en début de période.
-- Absence de précipitations durables sur l’ensemble du pays.
+- Maintien d’une masse d’air chaude sur le sud-ouest et l’Espagne.
+- Centres d’action décalés vers le nord, avec flux océanique devenant hésitant en semaine 2.
 
 ### Principales incertitudes
-La principale incertitude concerne l’évolution de la semaine 2 : l’anticyclone va-t-il persister ou céder face à une goutte froide ? Les scénarios sont partagés (45% de scénarios dépressionnaires).
+Équilibre anticyclone / scénarios dépressionnaires en semaine 2 ; amplitude thermique ; éventuelle goutte froide.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Le timing de la possible dégradation en semaine 2 est incertain : certains scénarios la placent en fin de semaine, d’autres la repoussent au-delà du 20 septembre.
-- **Localisation :** La localisation de la goutte froide varie selon les modèles : tantôt sur le proche Atlantique, tantôt sur le golfe de Gascogne, avec des impacts différents sur le sud-ouest et le centre.
-- **Intensité :** L’intensité de la chaleur en semaine 2 est très incertaine : les écarts entre scénarios atteignent plusieurs degrés, notamment à Toulouse.
-- **Informations manquantes :** Les observations détaillées pour le nord-est, le centre et le nord-ouest manquent dans les sources exploitées. Les bulletins officiels ne couvrent que certaines grandes villes.
-- **Modèles sous-documentés :** Les modèles ECMWF ne sont pas mentionnés explicitement dans les discussions exploitées. Les informations proviennent principalement de GFS et des ensembles.
-- **Incertitudes images :** Aucune carte ou image satellite n’a été fournie dans les sources. L’analyse repose donc sur les textes des discussions et les bulletins départementaux.
+- **Timing/Chronologie :** Le passage à une éventuelle dégradation en semaine 2 est mal calé ; la baisse thermique de milieu de semaine est elle-même relative.
+- **Localisation :** Les zones exactes des orages du 09/09 restent incertaines ; la masse d’air chaude est bien positionnée sur le sud-ouest et l’Espagne, mais ses débordements vers la France restent flous.
+- **Intensité :** L’intensité de la chaleur en semaine 2 est très incertaine : “très chaude” ou simplement “au-dessus des normales” selon les scénarios. Les précipitations éventuelles liées à une goutte froide restent non quantifiées.
+- **Informations manquantes :** Pas de données explicites pour le nord-ouest, le nord-est et le centre en semaine 2 ; peu de détails sur les vents dans les bulletins disponibles.
+- **Modèles sous-documentés :** La source évoque surtout la famille GFS/ensembles ; aucun scénario européen ou autre modèle n’est cité.
+- **Incertitudes images :** Aucune image ou carte n’est exploitée ; le seul run déterministe évoqué est isolé et ne peut pas être considéré comme fiable.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🌤️ Tendances météo des deux prochaines semaines : un temps sec et stable domine, avec des températures en baisse progressive. Attention aux orages sur le sud-est en début de semaine 1, et à une possible goutte froide en semaine 2 (encore incertaine). Les modèles hésitent entre un anticyclone chaud et une dégradation. Restez à l’écoute ! #Météo #Prévisions #Septembre2026
+Prévisions 15 jours : refroidissement en semaine 1, puis stabilisation plus chaude en semaine 2, mais avec une forte incertitude sur l’équilibre anticyclone/dépression. #météo #prévisions #France
