@@ -307,12 +307,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : 20°C consécutives]]>
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -320,9 +320,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 10 Septembre 2026.
-Résumé général précédent : Anticyclone dominant au moins jusqu'au 15 septembre, baisse progressive des températures en semaine 1 puis hausse modérée en semaine 2, sans excès durable. Précipitations très attendues mais aucun signal fiable..
+Résumé général précédent : La tendance significative se vient sur un dôme anticyclonique et subtropical:Temps sec, souvent trop chaud en journée, surtout au Sud ; pas de signal de pluie, sauf hypothèse – incertaine – d’une goutte froide vers le 17-18, encore plausible au nord. Le déficit hydrique s’aggrave lots ; le seuls froid possible est limité et non durable..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps souvent sec, éclaircies, refroidissement modéré, mistral et tramontane en Méditerranée, orages très isolés, risque de sécheresse locale..
+Températures attendues précédemment : Sec et très souvent ensoleillé, mais pas de précipitations significatives ; températures en baisse transitoire puis possible hausse dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 10 au Dimanche 13 Septembre 2026) ===
@@ -557,32 +557,6 @@ il y a 11 minutes, giec 2100 a dit :
 								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: Banleve7519
-Message:
-il y a 15 minutes, thib91 a dit :
-			Nous n'en savons rien (pour l'instant).
-			Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
-			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
-	Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
-	Modifié hier à 14:54 par Banleve7519
-								10
-
-=======================
-
-Auteur: James
-Message:
-45 minutes ago, thib91 said:
-			Nous n'en savons rien (pour l'instant).
-			Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
-			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
-	J'ai d'ailleurs lu un tweet intéressant sur le sujet que je mets ici.
-	Une bascule ou un pattern temporaire, on verra mais vu que le Groenland est plus en mode fonte que glaciation...
-								5
-								1
-								1
-
-=======================
-
 Auteur: Pervanche7
 Message:
 Prochain défi pour les modèles et qui va vraiment influencer notre ressenti la semaine prochaine c'est où va circuler la future probable goutte froide. GFS ce soir est sympa et nous la donne en plein avec un peu de pluie du coup on prend !
@@ -639,7 +613,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 12 heures par thib91
+	Modifié il y a 14 heures par thib91
 								2
 
 =======================
@@ -662,7 +636,7 @@ C'est toujours le même scénario qui se répète.
 Auteur: nickdu77
 Message:
 Oui mais c'est lié, pour une large part, à un facteur astronomique : la diminution e la durée du jour et la hauteur du soleil. La situation météo a peu évolué et on reste sur le même type de situation que cet été (d'ailleurs toujours pas de PP) même si effectivement, les HP partent un peu vers le sud, ce qui permet d'avoir, de temps à autre de l'air plus frais. Mais on a quand même encore un iso à 24 sur la péninsule ibérique, ce qui n'est vraiment pas rassurant.
-								4
+								5
 								1
 
 =======================
@@ -671,7 +645,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 10 heures par fran39
+	Modifié il y a 12 heures par fran39
 								1
 								1
 
@@ -689,7 +663,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 9 heures par petit âge glaciaire 11
+	Modifié il y a 11 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -730,7 +704,7 @@ Message:
 Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
 	Affligeant !!!
 								1
-								4
+								6
 								1
 
 =======================
@@ -738,9 +712,9 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 59 minutes par Neigedu38
+	Modifié il y a 2 heures par Neigedu38
 								1
-								3
+								4
 
 =======================
 
@@ -749,4 +723,29 @@ Message:
 il y a 2 minutes, Neigedu38 a dit :
 			Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
 	Encore et toujours la zone la plus sèche de l'hémisphère nord hors zone désertique.
-								3
+								6
+
+=======================
+
+Auteur: giec 2100
+Message:
+bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que ça tient bon... dans la continuité avec cette sécheresse, le verrou anticyclonique et de temps à autre une petite poussée chaude par le SW, avec l'anxiété du traçage aléatoire de la goutte froide baladeuse... 
+	si nous n'étions pas à ce stade du réchauffement climatique et avec une modalité particulière d'El Niño cette année on pourrait s'aider des archives des grandes sécheresses du XXe s., mais sans dire qu'on fait une comparaison "toutes choses égales par ailleurs"...
+	ça n'aurait pas trop de sens non plus d'affirmer qu'on pourrait assister à l'installation d'une "sécheresse centennale"...
+	mais ça vaudrait peut-être le coup d'œil comme disait le cyclope (!), tant en cumul annuel qu'en succession de mois sans précipitations : 
+	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
+	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
+	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
+	Modifié il y a 14 minutes par giec 2100
+								1
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+1 hour ago, giec 2100 said:
+			bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que ça tient bon... 
+			[...]
+			en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
+	Le coup du laptop ne vient peut-être pas de nulle part... Je dis ça je dis rien (je travaille chez Enedis 😆)
+	Niveau prévi, la fin de semaine reste encore ouverte, mais on a quand même une majorité de scénario anticyclonique. On a aussi quelques possibilités humide autour du vendredi, selon la latitude atteinte par le talweg, mais c'est peu et surtout ces scénarios se comptent sur les doigts d'une main. On a effectivement bien vu les scénario à GF sur la France se réduire petit à petit à peau de chagrin. La suite en sous saisonnier a l'air plus engageant, mais c'est lointain.
