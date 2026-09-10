@@ -303,12 +303,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Bugs sur Infoclimat #2
-• Infoclimat Direct : Temps en Italie (depuis 2017)
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
+• Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
+• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -318,7 +318,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin HDF généré le Jeudi 10 Septembre 2026.
 Résumé général HDF précédent : Sur 15 jours, une dorsale anticyclonique persistante maintient un temps sec, souvent ensoleillé et doux à chaud sur les Hauts-de-France. Une baisse temporaire des températures est attendue en milieu de semaine 2, mais le retour des pluies significatives n'est pas modélisé avant le 20 septembre. La sécheresse de surface s'accentue..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Pluies éparses vendredi en Flandre/Lille/Douaisis, brumes et brouillards samedi matin, averses rares dimanche..
+Températures attendues précédemment : Sécheresse de surface marquée, températures au-dessus des normales de saison..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 10 au Dimanche 13 Septembre 2026) ===
@@ -553,37 +553,6 @@ il y a 11 minutes, giec 2100 a dit :
 								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-Il y a 12 heures, thib91 a dit :
-			Ce qui est impressionnant c'est que la ceinture de hauts geopotentiels subtropicaux est toujours très haute en latitude. Le jet et les perturbations associées circulent très au nord, et ont des difficultés à franchir la Manche.
-			Et le plus inquiétant c'est que cela semble être devenu structurel depuis des mois. On est pas dans une réelle situation de blocage bien affirmée qui normalement explique ces séquences sèchent à rallonge. C'est une sorte de zonal hybride très nord, comme si les centres d'action étaient remontés de 1000km en latitude. 
-	oui, au-delà de ce consensus qui semble s'établir, sur la remontée de leur position habituelle des centres d'action de 1000km ou 10° en latitude (1111km), pourrait-on analyser la situation comme une rétraction du terrain de jeu du vortex polaire, sous l'effet conjugué du réchauffement climatique conjugué à l'épisode de super el niño... ?
-	bien sûr par grand-chose à ma portée sur le plan théorique documenté pour soutenir ça...
-	ça pourrait aussi participer d'une homogénéisation des températures à l'échelle hémisphérique avec disparition progressive du gradient thermique entre zones polaires et zone intertropicale, avec une situation un peu différente hémisphère S, où la grosse glaciaire antarctique fait jouer son inertie...
-		Il y a 12 heures, thib91 a dit :
-	Modifié hier à 10:29 par giec 2100
-								1
-
-=======================
-
-Auteur: mathias
-Message:
-Enfin une bonne nouvelle! 
-	Après un été caniculaire, un plan d'action "Non au réchauffement climatique !" est en train d'être préparé dans les hautes instances. 
-	Il est prévu de diviser par 3 voire par 4 le nombre de jours de canicule dès l'année 2027 malgré un budget très restreint. 
-	En effet l'organisme national Grolandais de prédiction météorologique va relever de 5°C ses seuils de canicule dès le mois de mai prochain.
-	Ainsi le nombre de vigilances "orange canicule" devrait mécaniquement chuter. 
-	Une bonne nouvelle pour notre beau pays et notre belle planète ! 😁 
-	Modifié hier à 11:57 par mathias
-								3
-								1
-								1
-								26
-								1
-
-=======================
-
 Auteur: Turquoise_ExNico41
 Message:
 Il y a 2 heures, giec 2100 a dit :
@@ -693,7 +662,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 8 heures par thib91
+	Modifié il y a 10 heures par thib91
 								1
 
 =======================
@@ -701,6 +670,7 @@ Il y a 16 heures, Banleve7519 a dit :
 Auteur: pegaze9
 Message:
 Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
+								1
 
 =======================
 
@@ -724,7 +694,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 6 heures par fran39
+	Modifié il y a 8 heures par fran39
 								1
 								1
 
@@ -742,7 +712,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 5 heures par petit âge glaciaire 11
+	Modifié il y a 7 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -767,3 +737,20 @@ Il y a 1 heure, Krholam a dit :
 			Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
 	On est bien d'accord. C'est pour ça que j'ai parlé de chances infimes mais ce que je trouve également intéressant, c'est l'augmentation de la puissance du jet. Je croise les doigts pour que ce soit ce qui se passe au final et qu'il pleuve enfin et qu'on sorte de ce jour sans fin.
 								2
+
+=======================
+
+Auteur: nickdu77
+Message:
+Il y a 8 heures, pegaze9 a dit :
+			Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
+	Je n'ai pas la réponse mais bienvenu sur le forum. 😀
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
+	Affligeant !!!
+								1
+								1

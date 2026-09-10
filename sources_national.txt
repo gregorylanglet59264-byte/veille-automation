@@ -285,7 +285,7 @@ Températures minimales : en baisse dans le Volvestre.
 Températures maximales : en hausse dans le Volvestre ainsi que sur le piémont et la montagne.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 100945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 10 septembre 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais à coup de vent Nr 295 pour LANGUEDOC-ROUSSILLON, PROVENCE, CORSE 2 - Situation générale jeudi 10 septembre 2026 à 06H00 UTC, et évolution Zone dépressionnaire près de 1007 hPa de la Côte d'Azur à la Mer Tyrrhénienne, se comblant progressivement 1012 hPa la nuit prochaine, puis 1015 hPa demain midi. Anticyclone 1020 hPa sur l'Espagne, dorsale associée se renforçant par l'ouest du bassin aujourd'hui. 3 - Prévisions pour l'après-midi du jeudi 10 septembre VENT : - de Port Camargue à Sicié : Nord-Ouest 6 à 7. Rafales. - de Sicié à Saint-Raphaël : Variable 2 à 4, mais Ouest à Nord-Ouest 5 à 6 avec rafales de Sicié au Levant. MER : peu agitée à agitée, mais belle à peu agitée à l'ouest de Beauduc et au nord du Levant. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 1.5 m à l'est de Porquerolles. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du jeudi 10 septembre au vendredi 11 septembre VENT : - de Port Camargue à Sicié : Nord-Ouest 5 à 6, parfois 7 en soirée. Rafales. - de Sicié à Saint-Raphaël : Variable 2 à 4, mais Ouest à Nord-Ouest 5 à 6 avec rafales de Sicié au Levant en soirée. MER : peu agitée à agitée, localement belle à peu agitée du Levant à Saint-Raphaël. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 2 m au large des îles d'Hyères. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du vendredi 11 septembre VENT : Ouest à Nord-Ouest 3 à 5, localement 5 à 6 de Beauduc au Levant, mais Variable 2 à 4 du Levant à Saint-Raphaël. Rafales. MER : peu agitée à agité de Beauduc au Levant, belle à peu agitée ailleurs. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, parfois 1.5 m à l'est de Porquerolles l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 11 au 12 et la journée du samedi 12 septembre VENT : - de Port-Camargue à Porquerolles : secteur Nord-Ouest 4 à 5, temporairement 6 de Beauduc au Cap Croisette en milieu de nuit, mollissant secteur Nord 3 à 5 en fin de nuit, puis Variable 2 à 4 l'après-midi. - de Porquerolles à Saint-Raphaël : secteur Nord-Est mollissant 3 à 4, puis 1 à 3 l'après-midi. MER : belle à peu agitée, temporairement agitée vers le large en début de nuit. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, devenant progressivement non significative l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 12 au 13 et la journée du dimanche 13 septembre VENT : De Port Camargue à Marseille Ouest 3 à 4, virant temporairement Nord en début de nuit. De Marseille à St Raphaël variable 1 à 3, s'orientant Ouest 3 à 4 en milieu d'après-midi. MER : belle à peu agitée. HOULE dominante de Nord-Est 0,5 à 1 m. 8 - Tendance pour les jours suivants Lundi 14 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Sud-Est faible à modéré dans le golfe du Lion, Sud-Ouest faible à modéré ailleurs. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 17 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 9 - Observations le jeudi 10 septembre 2026 à 09H00 UTC Cap Camarat : vent Nord 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest-Nord-Ouest 12 noeuds. Le Levant : vent Ouest 6 noeuds, 1010 hPa en hausse. Porquerolles : vent Ouest-Nord-Ouest 6 noeuds. Cap Couronne : vent Nord-Ouest 17 noeuds, rafales 33 noeuds, mer peu agitée, visibilité 9 milles. Prochain bulletin le jeudi 10 septembre 2026, vers 18H30 légales
+FQCT40 LFML 101620 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 10 septembre 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais Nr 296 pour PROVENCE, CORSE 2 - Situation générale jeudi 10 septembre 2026 à 12H00 UTC, et évolution Zone dépressionnaire près de 1009 hPa de la Côte d'Azur à la Mer Tyrrhénienne, se comblant progressivement 1012 hPa la nuit prochaine, puis 1016 hPa demain midi. Anticyclone 1020 hPa sur l'Espagne, dorsale associée se renforçant progressivement par l'ouest du bassin. 3 - Prévisions pour la nuit du jeudi 10 septembre au vendredi 11 septembre VENT : - de Port Camargue à Porquerolles : Nord-Ouest 5 à 6, localement 6 à 7 de Beauduc à Porquerolles, mollissant localement 2 à 4 de Sicié à Porquerolles en seconde partie de nuit. Rafales. - de Porquerolles à Saint-Raphaël : Variable 2 à 4, s'orientant Nord-Ouest en seconde partie de nuit. MER : peu agitée à agitée, localement belle à peu agitée du Levant à Saint-Raphaël. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 2 m au large des îles d'Hyères. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du vendredi 11 septembre VENT : Ouest à Nord-Ouest 3 à 5, localement 5 à 6 de Beauduc au Levant, mais Variable 2 à 4 du Levant à Saint-Raphaël. Rafales. MER : peu agitée à agité de Beauduc au Levant, belle à peu agitée ailleurs. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, parfois 1.5 m à l'est de Porquerolles l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 5 - Tendance pour la nuit du 11 au 12, et la journée du samedi 12 septembre VENT : - de Port-Camargue à Porquerolles : secteur Nord-Ouest 4 à 5, temporairement 6 de Beauduc au Cap Croisette en milieu de nuit, mollissant secteur Nord 2 à 4 le matin, puis Variable 1 à 3 l'après-midi. - de Porquerolles à Saint-Raphaël : secteur Nord-Est 3 à 4, mollissant 1 à 3 l'après-midi. MER : belle à peu agitée, temporairement agitée vers le large la nuit. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, devenant progressivement non significative l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 12 au 13 et la journée du dimanche 13 septembre VENT : De Port Camargue à Marseille Ouest à Nord-Ouest 3 à 4, virant temporairement Nord en seconde partie de nuit. De Marseille à St Raphaël variable 1 à 3, s'orientant Ouest 3 à 4 en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Lundi 14 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Sud-Est faible à modéré dans le golfe du Lion, Sud-Ouest faible à modéré ailleurs. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 17 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 8 - Observations le jeudi 10 septembre 2026 à 15H00 UTC Cap Camarat : vent Nord-Nord-Est 12 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 17 noeuds, rafales 27 noeuds. Le Levant : vent Est 4 noeuds, rafales 19 noeuds, 1010 hPa en hausse. Porquerolles : vent Ouest 17 noeuds, rafales 27 noeuds. Cap Couronne : vent Ouest-Nord-Ouest 23 noeuds, rafales 39 noeuds, mer forte, visibilité 10 milles. Prochain bulletin le vendredi 11 septembre 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -307,11 +307,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Temps en Italie (depuis 2017)
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
 • Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
-• Infoclimat Direct : Résolution des équations de Navier-Stokes ?
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -319,7 +320,7 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 10 Septembre 2026.
-Résumé général précédent : .
+Résumé général précédent : Sur l’horizon 10-20 septembre, l’indice thermique 14 jours reste entre 22,8 et 25,8 °C, proche du seuil d’alerte mais sans excès durable. Le vent fort en Méditerranée est le signal le plus net, avec un risque de coup de vent autour du 16-17 septembre..
 Confiance précédente de la semaine 1 : Modérée.
 Températures attendues précédemment : De saison.
 ============================================
@@ -556,37 +557,6 @@ il y a 11 minutes, giec 2100 a dit :
 								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: giec 2100
-Message:
-Il y a 12 heures, thib91 a dit :
-			Ce qui est impressionnant c'est que la ceinture de hauts geopotentiels subtropicaux est toujours très haute en latitude. Le jet et les perturbations associées circulent très au nord, et ont des difficultés à franchir la Manche.
-			Et le plus inquiétant c'est que cela semble être devenu structurel depuis des mois. On est pas dans une réelle situation de blocage bien affirmée qui normalement explique ces séquences sèchent à rallonge. C'est une sorte de zonal hybride très nord, comme si les centres d'action étaient remontés de 1000km en latitude. 
-	oui, au-delà de ce consensus qui semble s'établir, sur la remontée de leur position habituelle des centres d'action de 1000km ou 10° en latitude (1111km), pourrait-on analyser la situation comme une rétraction du terrain de jeu du vortex polaire, sous l'effet conjugué du réchauffement climatique conjugué à l'épisode de super el niño... ?
-	bien sûr par grand-chose à ma portée sur le plan théorique documenté pour soutenir ça...
-	ça pourrait aussi participer d'une homogénéisation des températures à l'échelle hémisphérique avec disparition progressive du gradient thermique entre zones polaires et zone intertropicale, avec une situation un peu différente hémisphère S, où la grosse glaciaire antarctique fait jouer son inertie...
-		Il y a 12 heures, thib91 a dit :
-	Modifié hier à 10:29 par giec 2100
-								1
-
-=======================
-
-Auteur: mathias
-Message:
-Enfin une bonne nouvelle! 
-	Après un été caniculaire, un plan d'action "Non au réchauffement climatique !" est en train d'être préparé dans les hautes instances. 
-	Il est prévu de diviser par 3 voire par 4 le nombre de jours de canicule dès l'année 2027 malgré un budget très restreint. 
-	En effet l'organisme national Grolandais de prédiction météorologique va relever de 5°C ses seuils de canicule dès le mois de mai prochain.
-	Ainsi le nombre de vigilances "orange canicule" devrait mécaniquement chuter. 
-	Une bonne nouvelle pour notre beau pays et notre belle planète ! 😁 
-	Modifié hier à 11:57 par mathias
-								3
-								1
-								1
-								26
-								1
-
-=======================
-
 Auteur: Turquoise_ExNico41
 Message:
 Il y a 2 heures, giec 2100 a dit :
@@ -696,7 +666,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 8 heures par thib91
+	Modifié il y a 10 heures par thib91
 								1
 
 =======================
@@ -704,6 +674,7 @@ Il y a 16 heures, Banleve7519 a dit :
 Auteur: pegaze9
 Message:
 Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
+								1
 
 =======================
 
@@ -727,7 +698,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 6 heures par fran39
+	Modifié il y a 8 heures par fran39
 								1
 								1
 
@@ -745,7 +716,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 5 heures par petit âge glaciaire 11
+	Modifié il y a 7 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -770,3 +741,20 @@ Il y a 1 heure, Krholam a dit :
 			Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
 	On est bien d'accord. C'est pour ça que j'ai parlé de chances infimes mais ce que je trouve également intéressant, c'est l'augmentation de la puissance du jet. Je croise les doigts pour que ce soit ce qui se passe au final et qu'il pleuve enfin et qu'on sorte de ce jour sans fin.
 								2
+
+=======================
+
+Auteur: nickdu77
+Message:
+Il y a 8 heures, pegaze9 a dit :
+			Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
+	Je n'ai pas la réponse mais bienvenu sur le forum. 😀
+
+=======================
+
+Auteur: petit âge glaciaire 11
+Message:
+Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
+	Affligeant !!!
+								1
+								1
