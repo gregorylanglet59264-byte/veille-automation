@@ -328,12 +328,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Glaciers alpins
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : la température de votre habitat aux 4 saisons
+• Infoclimat Direct : Les trous &#xE0; froid en France
+• Infoclimat Direct : la température de votre habitat aux 4 saisons
+• Infoclimat Direct : Statistiques et anomalies climatiques nationales
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -341,9 +341,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 10 Septembre 2026.
-Résumé général HDF précédent : Sur 15 jours, les Hauts-de-France restent sous l’influence de hautes pressions : temps souvent sec, ensoleillé et doux, avec un pic de chaleur lundi-mardi, un léger rafraîchissement mercredi-jeudi et une possible dégradation limitée en fin de semaine 2, encore incertaine..
+Résumé général HDF précédent : "Sur 15 jours, la structure porte-couleur ne: un synoptique still". Early: and hot start; briefly refreshing and actual risk until Sunday Av. Ocean/AG..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Aucun signal de pluie durable; temps sec et doux à chaud pour les HDF, dégradation lointaine très incertaine..
+Températures attendues précédemment : Pluies éparses vendredi, brumes matinales samedi, puis soleil; aucune restitution durable en vue..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 10 au Dimanche 13 Septembre 2026) ===
@@ -578,30 +578,6 @@ il y a 11 minutes, giec 2100 a dit :
 								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: bernardt60
-Message:
-Ce qui me frappe c'est devoir régulièrement modélisé une masse d'air à 850 hPa atteignant encore les 24°C sur la péninsule ibérique passé la mi-septembre ! 
-								1
-								1
-								7
-
-=======================
-
-Auteur: nickdu77
-Message:
-Je ne voudrais pas jouer les oiseaux de mauvais augure mais que je vois ce diagramme (j'ai pris le GEFS 00z du 9/9)
-		pour Paris: 
-		Celui-là pour Toulouse : 
-		Et celui-ci pour Marseille : 
-	Pour une deuxième décade de septembre, ça reste très chaud (même pour Paris) et on a toujours pas de signaux humides réels. Si on arrive à avoir 0,8 mm, c'est la fête.
-	Les cartes ne sont pas plus engageantes. Je fondais un espoir - modeste - sur une perturbation sur l'Islande : 
-	Mais en fait non, le machin est repoussé au nord, comme d'habitude :
-	J'en arrive donc à la conclusion météorologique suivante basée sur une observation attentive de ces données : on n'a pas le c.. sorti des ronces et on est dans la m...
-								4
-								5
-
-=======================
-
 Auteur: Lodu17
 Message:
 Et une région, toujours concernée par la sécheresse sans arrêt depuis mai: le Centre Ouest avec des records de chaleur explosés dans tous les sens.
@@ -662,7 +638,7 @@ Il y a 4 heures, giec 2100 a dit :
 	Nous n'en savons rien (pour l'instant).
 	Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 	Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
-	Modifié il y a 21 heures par thib91
+	Modifié il y a 23 heures par thib91
 								2
 								2
 								2
@@ -677,7 +653,7 @@ il y a 15 minutes, thib91 a dit :
 			Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
 	Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
-	Modifié il y a 21 heures par Banleve7519
+	Modifié il y a 23 heures par Banleve7519
 								10
 
 =======================
@@ -751,7 +727,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 4 heures par thib91
+	Modifié il y a 6 heures par thib91
 								1
 
 =======================
@@ -773,6 +749,7 @@ C'est toujours le même scénario qui se répète.
 Auteur: nickdu77
 Message:
 Oui mais c'est lié, pour une large part, à un facteur astronomique : la diminution e la durée du jour et la hauteur du soleil. La situation météo a peu évolué et on reste sur le même type de situation que cet été (d'ailleurs toujours pas de PP) même si effectivement, les HP partent un peu vers le sud, ce qui permet d'avoir, de temps à autre de l'air plus frais. Mais on a quand même encore un iso à 24 sur la péninsule ibérique, ce qui n'est vraiment pas rassurant.
+								2
 								1
 
 =======================
@@ -781,7 +758,8 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 2 heures par fran39
+	Modifié il y a 4 heures par fran39
+								1
 								1
 
 =======================
@@ -798,5 +776,19 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 1 heure par petit âge glaciaire 11
+	Modifié il y a 3 heures par petit âge glaciaire 11
 Modifié
+								1
+
+=======================
+
+Auteur: nickdu77
+Message:
+On a peut-être une bonne chance tout à fait infime que ça se débloque un peu - au moins au nord- vers l'équinoxe. Même si l'horizon est très lointain, on pourrait commencer à avoir un basculement du jet vers le 20 septembre et ça commencerait à devenir un peu plus consistant avec des vitesses de vent &gt;200 km/h. Le début d'un "wind of change" (ça parlera aux vieux comme moi ...)?
+								1
+
+=======================
+
+Auteur: Krholam
+Message:
+Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream

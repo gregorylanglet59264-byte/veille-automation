@@ -8,7 +8,7 @@
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
 - **Consensus des modèles :** Modéré — *Accord sur la chaleur, intensité débattue*
 - **Fiabilité du scénario majoritaire :** Forte chaleur possible — *Intensité débattue en semaine 2*
-- **Stabilité des cartes/scénarios :** 5 / 101 — *5 cartes sur 101 analysées*
+- **Stabilité des cartes/scénarios :** 6 / 102 — *6 cartes sur 102 analysées*
 - **Niveau d'incertitude global :** Intensité — *Écart GFS et ECMWF*
 
 ## 🗓️ SEMAINE 1 : Du Jeudi 10 au Dimanche 13 Septembre 2026
@@ -62,3 +62,9 @@ Aucun modèle spécifique détaillé.
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### 🚨 Analyse des doutes et lacunes
+- **Timing/Chronologie :** Doutes sur la fiabilité du run long terme à 10 jours et sur la chronologie des changements après le 13 septembre.
+- **Localisation :** Localisation exacte des zones de vent fort en Méditerranée et des éventuelles entrées maritimes.
+- **Intensité :** Intensité des températures : proches des normales ou encore légèrement au-dessus ? Risque de vent fort mercredi-jeudi à confirmer.
+- **Informations manquantes :** Pas de précipitations détaillées pour la semaine 2 ; pas de cartes d’ensembles ; pas d’informations sur l’humidité, les orages ou les minimales nocturnes.
+- **Modèles sous-documentés :** ARPEGE, CEP, UKMO, ICON, GEM, etc. non cités dans les éléments disponibles. Seul GFS apparaît explicitement.
+- **Incertitudes images :** Les cartes de jet stream et les sorties long terme sont jugées incertaines ; aucune carte d’ensemble n’est fournie.
