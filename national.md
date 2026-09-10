@@ -6,7 +6,7 @@
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord sur la chaleur, intensité débattue*
+- **Consensus des modèles :** Modéré — *Accord sur un temps de septembre sans excès durable, mais divergence sur l’ampleur du refroidissement et la répartition des pluies.*
 - **Fiabilité du scénario majoritaire :** Forte chaleur possible — *Intensité débattue en semaine 2*
 - **Stabilité des cartes/scénarios :** 6 / 102 — *6 cartes sur 102 analysées*
 - **Niveau d'incertitude global :** Intensité — *Écart GFS et ECMWF*
@@ -61,10 +61,10 @@ Aucun modèle spécifique détaillé.
 
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
+### Tendance 15 jours
+Sur l’horizon 10-20 septembre, l’indice thermique 14 jours reste entre 22,8 et 25,8 °C, proche du seuil d’alerte mais sans excès durable. Le vent fort en Méditerranée est le signal le plus net, avec un risque de coup de vent autour du 16-17 septembre.
+
+### Phénomènes récurrents
+Le vent de nord-ouest puis nord-est revient en Méditerranée ; les températures restent souvent proches ou au-dessus des normales ; les pluies restent rares.
+
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes sur la fiabilité du run long terme à 10 jours et sur la chronologie des changements après le 13 septembre.
-- **Localisation :** Localisation exacte des zones de vent fort en Méditerranée et des éventuelles entrées maritimes.
-- **Intensité :** Intensité des températures : proches des normales ou encore légèrement au-dessus ? Risque de vent fort mercredi-jeudi à confirmer.
-- **Informations manquantes :** Pas de précipitations détaillées pour la semaine 2 ; pas de cartes d’ensembles ; pas d’informations sur l’humidité, les orages ou les minimales nocturnes.
-- **Modèles sous-documentés :** ARPEGE, CEP, UKMO, ICON, GEM, etc. non cités dans les éléments disponibles. Seul GFS apparaît explicitement.
-- **Incertitudes images :** Les cartes de jet stream et les sorties long terme sont jugées incertaines ; aucune carte d’ensemble n’est fournie.
