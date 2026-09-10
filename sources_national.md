@@ -15,44 +15,44 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL PARIS ET PETITE COURONNE (DEPT75) ===
-Emis le : 10/09/2026 06:30
+Emis le : 10/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, Paris et sa petite couronne sont en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Paris-Montsouris : température de 12 degrés, vent de secteur Ouest soufflant jusqu'à 5 km/h, pression niveau mer 1020 hPa.
-Au Jardin du Luxembourg : température de 12 degrés.
+Aujourd'hui on observait à 09h :
+A Paris-Montsouris : température de 13 degrés, vent de secteur Ouest soufflant jusqu'à 10 km/h, pression niveau mer 1021 hPa.
+Au Jardin du Luxembourg : température de 14 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 10 :
-Le soleil brille sans discontinuer du matin jusqu'au soir.
-Vent faible, variable.
+Le soleil brille sans interruption.
+Vent variable, faible.
 Températures maximales : de 22 à 24 degrés.
 
 • Pour la nuit prochaine :
 Le ciel est souvent voilé en soirée, mais en seconde partie de nuit étoiles et nuages se partagent le ciel.
-Vent variable, faible.
-Températures minimales : de 13 à 15 degrés.
+Vent faible, variable.
+Températures minimales : comprises entre 13 et 15 degrés.
 
 • Pour demain vendredi 11 en journée et la nuit suivante :
 La journée est belle. Un grand soleil le matin est parfois contrarié par des passages nuageux l'après-midi. Pour la nuit : Nuages et éclaircies se partagent le ciel. En fin de nuit, des brouillards se forment sur une grande moité ouest.
 Vent faible, variable.
-Températures maximales pour le jour : comprises entre 24 et 25 degrés.
+Températures maximales pour le jour : entre 24 et 25 degrés.
 Températures minimales pour la nuit suivante : comprises entre 13 et 14 degrés.
 
 • Pour la journée de samedi 12 et la nuit suivante :
-Le soleil brille sans interruption. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.
+Le temps est ensoleillé du matin au soir. Pour la nuit : Le ciel est souvent clair, ce n'est qu'avant l'aube que quelques nuages viennent prendre un peu de place.
 Vent variable, faible.
-Températures maximales pour le jour : entre 24 et 26 degrés.
-Températures minimales pour la nuit suivante : entre 12 et 14 degrés.
+Températures maximales pour le jour : de 24 à 26 degrés.
+Températures minimales pour la nuit suivante : comprises entre 12 et 14 degrés.
 
 • Pour la journée de dimanche 13 :
 C'est une belle journée qui s'annonce. Les quelques nuages du petit matin cèdent rapidement la place à de larges éclaircies. L'après-midi promet d'être bien ensoleillée.
-Vent variable, faible.
-Températures maximales : comprises entre 26 et 28 degrés.
+Vent faible, variable.
+Températures maximales : de 26 à 28 degrés.
 
 • Pour lundi 14 et mardi 15 :
 Temps largement ensoleillé.
@@ -73,44 +73,44 @@ Températures minimales : stables.
 Températures maximales : sans changement significatif.
 
 === BULLETIN DÉPARTEMENTAL BOUCHES-DU-RHÔNE (DEPT13) ===
-Emis le : 10/09/2026 06:30
+Emis le : 10/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département des Bouches-du-Rhône est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Marignane : température de 18 degrés, vent de secteur Nord-Ouest soufflant jusqu'à 45 km/h, pression niveau mer 1011 hPa.
-A Aix-en-Provence : température de 12 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h.
+Aujourd'hui on observait à 09h :
+A Marignane : température de 19 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 45 km/h, pression niveau mer 1012 hPa.
+A Aix-en-Provence : température de 16 degrés, vent de secteur Sud Sud-Est soufflant jusqu'à 10 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 10 :
-Le temps est ensoleillé du matin au soir.
+La journée est ensoleillée, avec tout au plus quelques nuages très discrets.
 Mistral assez fort, du Rhône à l'étang de Berre et jusqu'aux Calanques. Rafales atteignant 75 km/h, en journée.
-Températures maximales : comprises entre 26 et 29 degrés, et 25 degrés des Alpilles au Salonnais.
+Températures maximales : comprises entre 26 et 29 degrés, et 25 degrés autour des Alpilles.
 
 • Pour la nuit prochaine :
-Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Petit vent de Nord-Ouest généralement faible.
-Températures minimales : du Rhône à l'étang de Berre et autour de Marseille de 16 à 18 degrés. De 10 à 11 degrés entre Peyrolles Aix et Aubagne.
+Le ciel est clair toute la nuit.
+Vent de Nord-Ouest assez faible.
+Températures minimales : du Rhône à l'étang de Berre et autour de Marseille comprises entre 16 et 18 degrés. De 10 à 11 degrés entre Aix Aubagne et Jouques.
 
 • Pour demain vendredi 11 en journée et la nuit suivante :
-L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : Le ciel est clair toute la nuit.
-Vent de Nord-Nord-Ouest assez fort, sur les Alpilles la Camargue et la Crau, s'atténuant temporairement en milieu de période. Rafales atteignant 55 km/h, en milieu de nuit.
+La journée est belle, le soleil est largement présent. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Vent de Nord-Nord-Ouest temporairement assez fort, sur les Alpilles la Camargue et la Crau. Rafales atteignant 55 km/h, en milieu de nuit.
 Températures maximales pour le jour : entre 28 et 30 degrés.
-Températures minimales pour la nuit suivante : du Rhône à l'étang de Berre et autour de Marseille de 15 à 18 degrés. Entre 11 et 13 degrés entre Aix Aubagne et Jouques.
+Températures minimales pour la nuit suivante : du Rhône à l'étang de Berre et autour de Marseille de 15 à 18 degrés. De 11 à 13 degrés entre Peyrolles Aix et Aubagne.
 
 • Pour la journée de samedi 12 et la nuit suivante :
-La journée est belle, le soleil est largement présent. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Le soleil domine largement du matin au soir. Pour la nuit : Le ciel est bien étoilé.
 Vent généralement faible.
-Températures maximales pour le jour : comprises entre 29 et 30 degrés.
-Températures minimales pour la nuit suivante : dans les terres comprises entre 13 et 15 degrés. Entre 17 et 19 degrés sur le bord de mer.
+Températures maximales pour le jour : entre 29 et 30 degrés.
+Températures minimales pour la nuit suivante : dans l'intérieur du département comprises entre 13 et 15 degrés. Comprises entre 17 et 19 degrés près du littoral.
 
 • Pour la journée de dimanche 13 :
-Le soleil brille sans interruption.
+Le temps est ensoleillé du matin au soir.
 Vent faible dans l'ensemble.
-Températures maximales : de 28 à 31 degrés.
+Températures maximales : entre 28 et 31 degrés.
 
 • Pour lundi 14 et mardi 15 :
 Soleil et ciel bleu prédominent.
@@ -131,45 +131,45 @@ Températures minimales : en baisse autour des Alpilles.
 Températures maximales : en baisse sur la Camargue et la Crau ainsi que sur une large moitié Est du département.
 
 === BULLETIN DÉPARTEMENTAL GIRONDE (DEPT33) ===
-Emis le : 10/09/2026 06:30
+Emis le : 10/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de la Gironde est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Bordeaux : température de 10 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 10 km/h, pression niveau mer 1020 hPa.
-Au Cap-Ferret : température de 14 degrés, vent de secteur Est Nord-Est soufflant jusqu'à 15 km/h.
-A Libourne : température de 6 degrés, vent variable faible.
+Aujourd'hui on observait à 09h :
+A Bordeaux : température de 13 degrés, vent de secteur Sud-Est soufflant jusqu'à 10 km/h, pression niveau mer 1020 hPa.
+Au Cap-Ferret : température de 16 degrés, vent de secteur Est soufflant jusqu'à 10 km/h.
+A Libourne : température de 11 degrés, vent variable faible.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 10 :
 C'est une belle journée qui s'annonce. Les quelques nuages du petit matin cèdent rapidement la place à de larges éclaircies. L'après-midi promet d'être bien ensoleillée.
-L'après-midi jusqu'en début de soirée, vent s'établissant à l'Ouest à Nord-Ouest modéré, sur l'Ouest du département.
-Températures maximales : de 24 à 26 degrés.
+L'après-midi jusqu'en début de soirée, vent d'Ouest à Nord-Ouest modéré, sur l'Ouest du département.
+Températures maximales : comprises entre 24 et 26 degrés.
 
 • Pour la nuit prochaine :
-Le ciel est clair, même si on peut noter quelques nuages plus présents sur le Bassin d'Arcachon, en soirée.
-Vent de Nord à Nord-Ouest, localement modéré, en début de nuit ; puis atténuation.
-Températures minimales : comprises entre 9 et 12 degrés.
+Le ciel est bien dégagé. Les nuages présents en soirée, sur le Bassin d'Arcachon, se dissipent rapidement.
+En début de nuit, vent de Nord à Nord-Ouest, localement modéré ; ensuite atténuation.
+Températures minimales : de 9 à 12 degrés.
 
 • Pour demain vendredi 11 en journée et la nuit suivante :
-Le temps est sec et ensoleillé. Les quelques nuages présents par places l'après-midi ne gâchent pas l'impression de beau temps. Pour la nuit : Le ciel est clair toute la nuit.
-Etablissement, l'après-midi et une grande partie de la nuit suivante, d'un vent de secteur Nord, généralement modéré ; atténuation ensuite.
-Températures maximales pour le jour : comprises entre 24 et 27 degrés.
-Températures minimales pour la nuit suivante : de 12 à 15 degrés.
+Le temps est sec et ensoleillé. Les quelques nuages présents par places l'après-midi ne gâchent pas l'impression de beau temps. Pour la nuit : Le ciel est bien étoilé.
+L'après-midi et une grande partie de la nuit suivante, vent s'établissant au secteur Nord, généralement modéré ; puis atténuation.
+Températures maximales pour le jour : de 24 à 27 degrés.
+Températures minimales pour la nuit suivante : comprises entre 12 et 15 degrés.
 
 • Pour la journée de samedi 12 et la nuit suivante :
-La journée est belle, le soleil est largement présent. Pour la nuit : Le ciel est bien étoilé.
-Etablissement, l'après-midi et une grande partie de la nuit suivante, d'un vent de Nord à Nord-Est modéré, sur le Nord-Ouest du département ; atténuation ensuite.
+Le soleil domine largement du matin au soir. Pour la nuit : Les rares nuages présents n'empêchent nullement l'observation des étoiles.
+L'après-midi et une grande partie de la nuit suivante, vent s'orientant au Nord à Nord-Est modéré, sur le Nord-Ouest du département ; atténuation ensuite.
 Températures maximales pour le jour : entre 26 et 28 degrés, et 23 degrés sur le littoral.
 Températures minimales pour la nuit suivante : autour de 12 à 15 degrés, et 19 degrés sur le littoral.
 
 • Pour la journée de dimanche 13 :
-Le soleil règne en maître du matin au soir.
-L'après-midi jusqu'en début de soirée, vent de Nord à Nord-Ouest modéré, sur le Nord-Ouest du département.
-Températures maximales : entre 28 et 31 degrés, et 24 degrés sur le littoral.
+Le soleil brille sans discontinuer du matin jusqu'au soir.
+L'après-midi jusqu'en début de soirée, vent s'établissant au Nord à Nord-Ouest modéré, sur le Nord-Ouest du département.
+Températures maximales : de 28 à 31 degrés, et 24 degrés sur le littoral.
 
 • Pour lundi 14 et mardi 15 :
 Soleil généreux.
@@ -190,43 +190,43 @@ Températures minimales : similaires à la veille.
 Températures maximales : sans changement significatif.
 
 === BULLETIN DÉPARTEMENTAL RHÔNE (DEPT69) ===
-Emis le : 10/09/2026 06:30
+Emis le : 10/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Rhône est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Lyon : température de 13 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1017 hPa.
-Aux Sauvages : température de 8 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 35 km/h.
-A Brindas : température de 14 degrés.
+Aujourd'hui on observait à 09h :
+A Lyon : température de 15 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 35 km/h, pression niveau mer 1017 hPa.
+Aux Sauvages : température de 11 degrés, vent de secteur Nord Nord-Ouest soufflant jusqu'à 20 km/h.
+A Brindas : température de 16 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 10 :
-Le soleil est généreux tout au long de la journée.
-Vent modéré, de Nord.
-Températures maximales : entre 21 et 24 degrés.
+Le soleil brille sans interruption.
+Vent de Nord, modéré.
+Températures maximales : de 21 à 24 degrés.
 
 • Pour la nuit prochaine :
 La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
-Vent variable, faible.
+Vent faible, variable.
 Températures minimales : voisines de 9 à 12 degrés, et 7 degrés dans les monts du Lyonnais.
 
 • Pour demain vendredi 11 en journée et la nuit suivante :
-Le soleil brille sans interruption. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Jusqu'en milieu d'après-midi, vent de Nord, localement faible à modéré. Nouveau renforcement en milieu de nuit, sur les coteaux du Lyonnais, avec orientation au Nord-Ouest.
-Températures maximales pour le jour : comprises entre 23 et 26 degrés.
-Températures minimales pour la nuit suivante : voisines de 10 à 13 degrés, et 9 degrés dans les monts du Lyonnais.
+Le temps est ensoleillé du matin au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+Jusqu'en milieu d'après-midi, vent de Nord, localement faible à modéré. Après une atténuation, vent s'établissant en milieu de nuit, au Nord-Ouest, sur les coteaux du Lyonnais.
+Températures maximales pour le jour : entre 23 et 26 degrés.
+Températures minimales pour la nuit suivante : autour de 10 à 13 degrés, et 9 degrés dans les monts du Lyonnais.
 
 • Pour la journée de samedi 12 et la nuit suivante :
-Le soleil règne en maître du matin au soir. Pour la nuit : Le ciel est bien étoilé.
-L'après-midi jusqu'en début de soirée, vent s'établissant au Nord à Nord-Est, modéré ; puis atténuation.
-Températures maximales pour le jour : entre 26 et 28 degrés, et 24 degrés dans les monts du Lyonnais.
-Températures minimales pour la nuit suivante : de 10 à 13 degrés, et 9 degrés dans les monts du Lyonnais.
+Le soleil domine largement du matin au soir. Pour la nuit : Le ciel est clair toute la nuit.
+Etablissement, l'après-midi jusqu'en début de soirée, d'un vent de Nord à Nord-Est, modéré ; atténuation ensuite.
+Températures maximales pour le jour : de 26 à 28 degrés, et 24 degrés dans les monts du Lyonnais.
+Températures minimales pour la nuit suivante : comprises entre 10 et 13 degrés, et 9 degrés dans les monts du Lyonnais.
 
 • Pour la journée de dimanche 13 :
-La journée est belle, le soleil est largement présent.
+Le soleil brille sans discontinuer du matin jusqu'au soir.
 Vent faible, variable.
 Températures maximales : entre 27 et 29 degrés.
 
@@ -249,45 +249,45 @@ Températures minimales : similaires à la veille.
 Températures maximales : stationnaires.
 
 === BULLETIN DÉPARTEMENTAL HAUTE-GARONNE (DEPT31) ===
-Emis le : 10/09/2026 06:30
+Emis le : 10/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de la Haute-Garonne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Toulouse-Blagnac : température de 10 degrés, vent de secteur Sud soufflant jusqu'à 10 km/h, pression niveau mer 1020 hPa.
-A Luchon : température de 8 degrés, vent de secteur Ouest Nord-Ouest soufflant jusqu'à 15 km/h.
-A Saint-Félix-Lauragais : température de 11 degrés, vent de secteur Ouest soufflant jusqu'à 25 km/h.
+Aujourd'hui on observait à 09h :
+A Toulouse-Blagnac : température de 13 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 10 km/h, pression niveau mer 1021 hPa.
+A Luchon : température de 8 degrés, vent de secteur Nord soufflant jusqu'à 10 km/h.
+A Saint-Félix-Lauragais : température de 12 degrés, vent de secteur Ouest soufflant jusqu'à 25 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui jeudi 10 :
 La journée s'annonce très ensoleillée, malgré quelques nuages passagers, totalement inoffensifs, présents le matin, très localement.
 Vent de Nord-Ouest, localement modéré, jusqu'en milieu d'après-midi ; puis atténuation.
-Températures maximales : entre 22 et 25 degrés.
+Températures maximales : comprises entre 22 et 25 degrés.
 
 • Pour la nuit prochaine :
-Les rares nuages présents n'empêchent nullement l'observation des étoiles.
-Au lever du jour, vent s'établissant à l'Ouest-Sud-Ouest modéré, sur les coteaux de Gascogne.
-Températures minimales : sur la plaine et le piémont entre 9 et 11 degrés. 5 degrés sur le Cagire et le Luchonnais.
+Le ciel est clair toute la nuit.
+Au lever du jour, vent d'Ouest-Sud-Ouest modéré, sur les coteaux de Gascogne.
+Températures minimales : sur la plaine et le piémont de 9 à 11 degrés. 5 degrés sur le Cagire et le Luchonnais.
 
 • Pour demain vendredi 11 en journée et la nuit suivante :
-Le soleil règne en maître du matin au soir. Pour la nuit : Le ciel est clair toute la nuit.
-En seconde partie de journée, vent s'établissant au Nord-Ouest, généralement modéré ; puis atténuation.
+Le temps est ensoleillé du matin au soir. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
+En seconde partie de journée, vent s'orientant au Nord-Ouest, souvent modéré ; atténuation ensuite.
 Températures maximales pour le jour : sur la plaine et le piémont de 25 à 27 degrés. 22 degrés sur le Cagire et le Luchonnais.
-Températures minimales pour la nuit suivante : sur la plaine et le piémont voisines de 10 à 13 degrés. 8 degrés sur le Cagire et le Luchonnais.
+Températures minimales pour la nuit suivante : sur la plaine et le piémont autour de 10 à 13 degrés. 8 degrés sur le Cagire et le Luchonnais.
 
 • Pour la journée de samedi 12 et la nuit suivante :
-La journée est belle, le soleil est largement présent. Pour la nuit : Le temps est calme et propice à l'observation des étoiles.
-Vent faible, variable.
-Températures maximales pour le jour : sur la plaine et le piémont de 25 à 28 degrés. 24 degrés sur le Cagire et le Luchonnais.
-Températures minimales pour la nuit suivante : sur la plaine et le piémont autour de 11 à 14 degrés. 7 degrés sur le Cagire et le Luchonnais.
+L'ensoleillement est excellent et le soleil règne sans partage. Pour la nuit : Le ciel est bien étoilé.
+Vent variable, faible.
+Températures maximales pour le jour : sur la plaine et le piémont comprises entre 25 et 28 degrés. 24 degrés sur le Cagire et le Luchonnais.
+Températures minimales pour la nuit suivante : sur la plaine et le piémont voisines de 11 à 14 degrés. 7 degrés sur le Cagire et le Luchonnais.
 
 • Pour la journée de dimanche 13 :
-Le soleil brille sans interruption.
-Vent variable, faible.
-Températures maximales : comprises entre 28 et 30 degrés.
+Le soleil domine largement du matin au soir.
+Vent faible, variable.
+Températures maximales : entre 28 et 30 degrés.
 
 • Pour lundi 14 et mardi 15 :
 Beau temps sec et bien ensoleillé.
@@ -333,11 +333,11 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Prévisions &#xCE;le-de-France Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -345,63 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Jeudi 10 Septembre 2026.
-Résumé général précédent : Semaine 1 plutôt variable et moins chaude, avec un mistral sensible en Méditerranée. Semaine 2 nettement plus incertaine : une masse d’air chaude présente entre le sud-ouest de la France et l’Espagne pourrait remonter, mais aucun scénario durable n’est validé.
-
-## [GLOBAL_MOST_RELIABLE_WEEK]
-**Semaine 1 (10-13 septembre)** : appuyée par les bulletins officiels Météo-France et des indices de confiance plus élevés.
-
-## [GLOBAL_SOLID_POINTS]
-- Baisse temporaire des températures en semaine 1.
-- Vent de nord-ouest assez fort en Méditerranée.
-- Vigilance verte ou ponctuellement jaune, pas d’épisode majeur.
-
-## [GLOBAL_RECURRING_PHENOMENA]
-- Vent de nord-ouest en Méditerranée.
-- Fraîcheur matinale.
-- Faibles perturbations mal définies.
-- Possible remontée de chaleur depuis l’Espagne en semaine 2.
-
-## [GLOBAL_AFFECTED_ZONES]
-Nord, Île-de-France, Rhône, Méditerranée, Sud-Ouest, Massif Central partiellement. Nord-Ouest et Nord-Est restent peu documentés.
-
-## [GLOBAL_MAJOR_UNCERTAINTIES]
-- Remontée ou non de la masse d’air chaude espagnole.
-- Localisation exacte des éventuelles pluies méditerranéennes.
-- Comportement du jet et des talwegs sous NAO+.
-- Fiabilité des runs longs après le 16 septembre.
-
-## [GLOBAL_CONSENSUS_KPI]
-Modéré
-
-## [GLOBAL_CONSENSUS_NOTE]
-Consensus sur un temps variable et moins chaud en semaine 1, mais net désaccord sur l’ampleur de la chaleur en semaine 2.
-
-## [GLOBAL_SCENARIO_KPI]
-Variable et frais, puis chaleur incertaine.
-
-## [GLOBAL_SCENARIO_NOTE]
-Le scénario GFS frais est isolé ; la masse d’air chaude sud-ouest/Espagne est le principal élément à surveiller.
-
-## [GLOBAL_UNCERTAINTY_KPI]
-Forte après le 16 septembre.
-
-## [GLOBAL_UNCERTAINTY_NOTE]
-Les divergences portent sur la remontée de chaleur et les éventuelles pluies méditerranéennes.
-
-## [GLOBAL_LINKEDIN_POST]
-🌦️ **Point météo des 10-20 septembre 2026**
-
-Semaine 1 : temps variable, températures en baisse mais parfois au-dessus des normales. Vent de nord-ouest en Méditerranée.
-
-Semaine 2 : grande incertitude. La masse d’air chaude du sud-ouest / Espagne pourrait remonter, mais rien n’est confirmé. Le run GFS le plus frais est isolé dans son ensemble.
-
-Restons prudents : les échéances lointaines restent conditionnelles.
-
-#Météo #Prévisions #Infoclimat
-
-###.
+Résumé général précédent : Sur l'ensemble de la période, le temps reste très sec avec des températures souvent au-dessus des normales. Une petite baisse est attendue en fin de semaine 1, avant un probable rebond de la chaleur en semaine 2..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : De saison.
+Températures attendues précédemment : Soleil, pas de pluie significative, températures de saison à légèrement au-dessus..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 10 au Dimanche 13 Septembre 2026) ===
@@ -636,41 +582,6 @@ il y a 11 minutes, giec 2100 a dit :
 								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: Plancher
-Message:
-Bonjour,
-	Je vous remercie pour vos analyses.
-	Ça reste ouvert pour la seconde moitié du topic mais le fait que ça reste ouvert est en soi problématique. A l'approche de l'automne, on devrait avoir un temps automnal et pas un temps estival+++.
-	Ça me rappelle l'année 2023.
-								4
-								2
-
-=======================
-
-Auteur: nickdu77
-Message:
-On avait un peu échangé avec cirrus007 hier et, après discussion sur la notion de "shifting baseline" et j'ai eu un un peu de temps pour calculer les Tn / Tx sur les dix dernières années sur Paris-Montsouris pour mesurer l'écart de ce que nous vivions par rapport à ces dernières années. Ce n'est pas une durée pertinente climatologiquement mais je n'ai pas été déçu du voyage ... Ca me donne (en °C) : 
-				Moyenne Tn decade 1 (2015-2025)
-				15,09
-				Moyenne Tx decade 1 (2015-2025)
-				24,46
-				Moyenne Tn decade 1 (2020 - 2025)
-				16,17
-				Moyenne Tx decade 1 (2020 - 2025)
-				25,98
-	Je vous joins le fichier Excel pour vérifier mes calculs et j'ai pris les données par décade sur le site d'infoclimat.
-	Je sais bien que ce n'est absolument pas une durée adéquate pour de la climato mais ça donne une idée et sur 2020-2025, ça fait peur ...
-	Pour mémoire, Tn "normales" de septembre (1991-2020) : 13°C et Tx / 21,5°C.
-	Du coup, ça remet en perspective la chaleur actuelle qui, dans le contexte du RC, finit par apparaître comme "normale" à beaucoup, dont nos décideurs ... alors que ce que l'on voit, c'est une augmentation extrêmement rapide des températures. Si j'ai du courage, je tenterai une régression linéaire pour voir.
-	Les températures - très élevées - que nous connaissons sont très éloignés de la norme de référence mais malheureusement beaucoup moins éloignées de celles de ces derniers mois de septembre.
-	Pour le topic en cours, les températures ne seront hélas pas si éloignées de celles de ces dernières années.
-	Le point le plus frappant, c'est l'absence de PP.
-Climato_sept.xlsx
-								4
-								1
-
-=======================
-
 Auteur: bernardt60
 Message:
 il y a 52 minutes, nickdu77 a dit :
@@ -723,7 +634,7 @@ Ce qui est impressionnant c'est que la ceinture de hauts geopotentiels subtropic
 	Et le plus inquiétant c'est que cela semble être devenu structurel depuis des mois. On est pas dans une réelle situation de blocage bien affirmée qui normalement explique ces séquences sèchent à rallonge. C'est une sorte de zonal hybride très nord, comme si les centres d'action étaient remontés de 1000km en latitude. 
 								6
 								4
-								5
+								6
 
 =======================
 
@@ -737,8 +648,8 @@ Il y a 9 heures, thib91 a dit :
 	Un peu comme ce mardi, de véritables fronts s’organisent progressivement en Atlantique mais rapidement déstructurés par ces HG. Ça se solde par une maigre dégradation pour la saison, suivie d’un rafraîchissement mais aussi du retour des HG / HP. On repart donc sur un réchauffement progressif, un temps très sec et possiblement une petite dégradation au milieu de tout ça qui pourrait rafraîchir l’atmosphère. 
 	Difficile d’imaginer un autre scénario d’ici cette fin de mois sans compter que comme cet été, le scénario sec et plus chaud prend toujours le dessus à mesure qu’on s’approche de l’échéance… 
 	En tout cas niveau climato, septembre pourrait ressembler à l’été 2026 mais peut-être plus nuancé au nord, plus contrasté entre le nord-ouest et le sud-est. 
-	Modifié il y a 23 heures par Run999H
-								10
+	Modifié hier à 06:55 par Run999H
+								11
 								1
 								3
 
@@ -749,7 +660,7 @@ Message:
 Ce qui me frappe c'est devoir régulièrement modélisé une masse d'air à 850 hPa atteignant encore les 24°C sur la péninsule ibérique passé la mi-septembre ! 
 								1
 								1
-								6
+								7
 
 =======================
 
@@ -764,7 +675,7 @@ Je ne voudrais pas jouer les oiseaux de mauvais augure mais que je vois ce diagr
 	Mais en fait non, le machin est repoussé au nord, comme d'habitude :
 	J'en arrive donc à la conclusion météorologique suivante basée sur une observation attentive de ces données : on n'a pas le c.. sorti des ronces et on est dans la m...
 								4
-								4
+								5
 
 =======================
 
@@ -772,7 +683,7 @@ Auteur: Lodu17
 Message:
 Et une région, toujours concernée par la sécheresse sans arrêt depuis mai: le Centre Ouest avec des records de chaleur explosés dans tous les sens.
 								1
-								6
+								7
 								2
 
 =======================
@@ -786,7 +697,7 @@ Il y a 12 heures, thib91 a dit :
 	bien sûr par grand-chose à ma portée sur le plan théorique documenté pour soutenir ça...
 	ça pourrait aussi participer d'une homogénéisation des températures à l'échelle hémisphérique avec disparition progressive du gradient thermique entre zones polaires et zone intertropicale, avec une situation un peu différente hémisphère S, où la grosse glaciaire antarctique fait jouer son inertie...
 		Il y a 12 heures, thib91 a dit :
-	Modifié il y a 19 heures par giec 2100
+	Modifié il y a 21 heures par giec 2100
 								1
 
 =======================
@@ -799,11 +710,11 @@ Enfin une bonne nouvelle! 
 	En effet l'organisme national Grolandais de prédiction météorologique va relever de 5°C ses seuils de canicule dès le mois de mai prochain.
 	Ainsi le nombre de vigilances "orange canicule" devrait mécaniquement chuter. 
 	Une bonne nouvelle pour notre beau pays et notre belle planète ! 😁 
-	Modifié il y a 18 heures par mathias
+	Modifié il y a 20 heures par mathias
 								3
 								1
 								1
-								22
+								25
 								1
 
 =======================
@@ -828,11 +739,11 @@ Il y a 4 heures, giec 2100 a dit :
 	Nous n'en savons rien (pour l'instant).
 	Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 	Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
-	Modifié il y a 15 heures par thib91
-								1
+	Modifié il y a 17 heures par thib91
 								2
 								2
-								1
+								2
+								3
 
 =======================
 
@@ -843,8 +754,8 @@ il y a 15 minutes, thib91 a dit :
 			Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
 			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
 	Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
-	Modifié il y a 15 heures par Banleve7519
-								7
+	Modifié il y a 17 heures par Banleve7519
+								9
 
 =======================
 
@@ -856,7 +767,7 @@ Message:
 			Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
 	J'ai d'ailleurs lu un tweet intéressant sur le sujet que je mets ici.
 	Une bascule ou un pattern temporaire, on verra mais vu que le Groenland est plus en mode fonte que glaciation...
-								3
+								4
 								1
 								1
 
@@ -876,7 +787,7 @@ il y a 23 minutes, Pervanche7 a dit :
 			Prochain défi pour les modèles et qui va vraiment influencer notre ressenti la semaine prochaine c'est où va circuler la future probable goutte froide. GFS ce soir est sympa et nous la donne en plein avec un peu de pluie du coup on prend !
 	Et bien je trouve étonnant qu’aucun modèle ait eu la bonne idée de nous la positionner au large de la France en mode pompe à chaleur. Déjà qu’il fera chaud sans cela, ça pourrait nous redonner une petite période caniculaire qui nous manque tant 🤣
 								1
-								6
+								7
 								1
 								5
 
@@ -889,7 +800,7 @@ C'est vraiment sans fin...
 	J'ignore ce qu'il se passe, mais il faudra à mon avis un profond changement atmosphérique pour que le situation se débloque sur l'Europe de l'ouest en ce début d'automne.
 								2
 								1
-								2
+								4
 
 =======================
 
@@ -899,5 +810,21 @@ Bonsoir,
 	si on regarde simplement les graphiques, nous serions de nouveau partis pour une hausse progressive des températures ( et des géopotentiels) pendant à peu près une semaine avant une rupture marquée mais sans invasion humide durable et massive.
 	Sur la semaine prochaine, on rejoue le même scénario?
 	La NAO +, n'a pas permis un réel abaissement de la zone de circulation du jet, l'enfoncement de talwegs devient tellement faible qu'il ne peut plus entrainer de perturbation de la météo sur plusieurs jours notamment au niveau du renouvellement des précipitations. la situation se complique sérieusement!
-								5
+								7
 								1
+
+=======================
+
+Auteur: Kyrion
+Message:
+Oui, et plus les mois passent plus il va falloir une séquence exceptionnellement humide et durable pour espérer combler le déficit. Septembre me semble plié pour quelque chose de généralisé, a minima jusqu'au 20/25.
+	Je pense qu'on ne peut désormais plus exclure que nous sommes entrée dans une récurrence pluri-mensuelle voire annuelle comme a pu vivre par exemple la Californie ou d'autres régions du monde ces dernières années. Je ne sais si nous y sommes préparés.
+
+=======================
+
+Auteur: thib91
+Message:
+Il y a 16 heures, Banleve7519 a dit :
+			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
+	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
+	Modifié il y a 21 minutes par thib91
