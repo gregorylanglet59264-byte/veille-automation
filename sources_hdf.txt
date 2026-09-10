@@ -303,12 +303,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
-• Infoclimat Direct : Suivi du temps dans le Nord-Ouest - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : 20°C consécutives]]>
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 10/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -316,9 +316,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Jeudi 10 Septembre 2026.
-Résumé général HDF précédent : Sur 15 jours, une dorsale anticyclonique persistante maintient un temps sec, souvent ensoleillé et doux à chaud sur les Hauts-de-France. Une baisse temporaire des températures est attendue en milieu de semaine 2, mais le retour des pluies significatives n'est pas modélisé avant le 20 septembre. La sécheresse de surface s'accentue..
+Résumé général HDF précédent : Période sous l'influence d'une dorsale anticyclonique persistante, avec un temps sec, souvent ensoleillé et doux à chaud. Une baisse temporaire des températures est attendue en milieu de semaine 2, mais le retour des pluies significatives n'est pas modélisé avant le 20 septembre. La sécheresse de surface s'accentue..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Sécheresse de surface marquée, températures au-dessus des normales de saison..
+Températures attendues précédemment : Passage pluvieux vendredi, amélioration samedi, averses résiduelles dimanche..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Jeudi 10 au Dimanche 13 Septembre 2026) ===
@@ -553,34 +553,6 @@ il y a 11 minutes, giec 2100 a dit :
 								11
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: Turquoise_ExNico41
-Message:
-Il y a 2 heures, giec 2100 a dit :
-				Il y a 15 heures, thib91 a dit :
-					Dérouler  
-			oui, au-delà de ce consensus qui semble s'établir, sur la remontée de leur position habituelle des centres d'action de 1000km ou 10° en latitude (1111km), pourrait-on analyser la situation comme une rétraction du terrain de jeu du vortex polaire, sous l'effet conjugué du réchauffement climatique conjugué à l'épisode de super el niño... ?
-	Le climatologue météorologiste GS avait mis dans un article que le réchauffement climatique avait fait monter la ceinture de géo potentiel en latitude nous exposant moins aux courants perturbés.
-	Je crois que c'est la ceinture de Hadley qui a bougé.
-
-=======================
-
-Auteur: thib91
-Message:
-Il y a 4 heures, giec 2100 a dit :
-			oui, au-delà de ce consensus qui semble s'établir, sur la remontée de leur position habituelle des centres d'action de 1000km ou 10° en latitude (1111km), pourrait-on analyser la situation comme une rétraction du terrain de jeu du vortex polaire, sous l'effet conjugué du réchauffement climatique conjugué à l'épisode de super el niño... ?
-			bien sûr par grand-chose à ma portée sur le plan théorique documenté pour soutenir ça...
-			ça pourrait aussi participer d'une homogénéisation des températures à l'échelle hémisphérique avec disparition progressive du gradient thermique entre zones polaires et zone intertropicale, avec une situation un peu différente hémisphère S, où la grosse glaciaire antarctique fait jouer son inertie...
-	Nous n'en savons rien (pour l'instant).
-	Ma crainte étant que nous vivions un point de bascule brutal concernant la circulation atmosphérique sur la région Euro-Atlantique.
-	Comme si la remontée vers le nord du jet-stream et l'extension de la cellule de Hadley, plutôt modélisée comme un processus linéaire et progressif avec des va et vient liées à de la variabilité naturelles, soit finalement plus rapide et brutal que prévu (tipping point). Après des années où l'on a clairement observé une multiplication de ces configurations anormales, tout d'un coup la circulation de l'Atlantique Nord bascule définitivement en quelques mois, aboutissant à  nouvel "équilibre" stabilisant cette nouvelle position septentrionale du jet et de la ceinture anticyclonique subtropicale.  Ce type de changement rapide sur quelques mois a semble-t-il existé par le passé, notamment vers la fin de la dernière période glaciaire.
-	Modifié hier à 14:40 par thib91
-								2
-								2
-								2
-								3
-
-=======================
-
 Auteur: Banleve7519
 Message:
 il y a 15 minutes, thib91 a dit :
@@ -610,7 +582,7 @@ Message:
 Auteur: Pervanche7
 Message:
 Prochain défi pour les modèles et qui va vraiment influencer notre ressenti la semaine prochaine c'est où va circuler la future probable goutte froide. GFS ce soir est sympa et nous la donne en plein avec un peu de pluie du coup on prend !
-								1
+								2
 								1
 
 =======================
@@ -654,6 +626,7 @@ Auteur: Kyrion
 Message:
 Oui, et plus les mois passent plus il va falloir une séquence exceptionnellement humide et durable pour espérer combler le déficit. Septembre me semble plié pour quelque chose de généralisé, a minima jusqu'au 20/25.
 	Je pense qu'on ne peut désormais plus exclure que nous sommes entrée dans une récurrence pluri-mensuelle voire annuelle comme a pu vivre par exemple la Californie ou d'autres régions du monde ces dernières années. Je ne sais si nous y sommes préparés.
+								1
 
 =======================
 
@@ -662,8 +635,8 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 10 heures par thib91
-								1
+	Modifié il y a 12 heures par thib91
+								2
 
 =======================
 
@@ -685,7 +658,7 @@ C'est toujours le même scénario qui se répète.
 Auteur: nickdu77
 Message:
 Oui mais c'est lié, pour une large part, à un facteur astronomique : la diminution e la durée du jour et la hauteur du soleil. La situation météo a peu évolué et on reste sur le même type de situation que cet été (d'ailleurs toujours pas de PP) même si effectivement, les HP partent un peu vers le sud, ce qui permet d'avoir, de temps à autre de l'air plus frais. Mais on a quand même encore un iso à 24 sur la péninsule ibérique, ce qui n'est vraiment pas rassurant.
-								2
+								4
 								1
 
 =======================
@@ -694,7 +667,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 8 heures par fran39
+	Modifié il y a 10 heures par fran39
 								1
 								1
 
@@ -712,7 +685,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 7 heures par petit âge glaciaire 11
+	Modifié il y a 9 heures par petit âge glaciaire 11
 Modifié
 								1
 
@@ -753,4 +726,23 @@ Message:
 Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
 	Affligeant !!!
 								1
+								4
 								1
+
+=======================
+
+Auteur: Neigedu38
+Message:
+Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
+	Modifié il y a 59 minutes par Neigedu38
+								1
+								3
+
+=======================
+
+Auteur: Twister83
+Message:
+il y a 2 minutes, Neigedu38 a dit :
+			Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
+	Encore et toujours la zone la plus sèche de l'hémisphère nord hors zone désertique.
+								3
