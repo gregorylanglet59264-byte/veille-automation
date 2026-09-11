@@ -302,12 +302,12 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Bugs sur Infoclimat #2
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Météo &#xE0; Rabat et territoire Marocain (climat, prévisions, tendances, et variations)
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -315,22 +315,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 11 Septembre 2026.
-Résumé général HDF précédent : Temps sec et très doux sous anticyclone sur les Hauts-de-France du 14 au 20 septembre ; possible dégradation plus fraîche et ventée à partir du 21-22 septembre, mais très incertaine..
+Résumé général HDF précédent : 15 jours dominés par une anomalie anticyclonique très puissante. Temps sec, très doux en journée et frais la nuit. Précipitations quasi inexistantes sur toute la région HDF..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Soleil et passages nuageux, fraîcheur relative jeudi-vendredi, vent d’ouest modéré à assez fort sur le littoral..
+Températures attendues précédemment : Temps sec, ensoleillé, avec un léger risque d'averses isolées sur le littoral. Pas de coup de vent majeur..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
-	Affligeant !!!
-								1
-								6
-								1
-
-=======================
-
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
@@ -359,7 +349,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 22 heures par giec 2100
+	Modifié hier à 21:47 par giec 2100
 								3
 
 =======================
@@ -454,7 +444,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 5 heures par nickdu77
+	Modifié il y a 7 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -471,7 +461,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 4 heures par Nicolas L
+	Modifié il y a 6 heures par Nicolas L
 								4
 								1
 
@@ -480,7 +470,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 40 minutes par Victor hurricane tempête
+	Modifié il y a 2 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -516,18 +506,17 @@ Et puis tant qu'il ne passe rien de côté là pour donner un coup de pouce à d
 Auteur: superbolt
 Message:
 C'est déjà arrivé une saison blanche? Sans aucun ouragan sur l'atlantique?
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+On est loin d'avoir un défilé de perturbation en effet, à perte de vue 🥲..
+	On n'est pas si loin en revanche d'avoir de temps à autre une petite perturbation, bien humide...
+	On a vraiment une bataille entre HG et cyclogenès au sud du groenland. Une cyclogenèse un peu plus forte et vaste, et on peut toucher le jackpot. Sur les ensemblistes, ces scénarios restent minoritaires mais ils sont tout de même pas loin (entre 1/4 et 1/3 des scénarios). Une maigre consolation.. si tant est qu'elle advienne.
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
-	Affligeant !!!
-								1
-								6
-								1
-
-=======================
-
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
@@ -556,7 +545,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 22 heures par giec 2100
+	Modifié hier à 21:47 par giec 2100
 								3
 
 =======================
@@ -651,7 +640,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 5 heures par nickdu77
+	Modifié il y a 7 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -668,7 +657,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 4 heures par Nicolas L
+	Modifié il y a 6 heures par Nicolas L
 								4
 								1
 
@@ -677,7 +666,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 40 minutes par Victor hurricane tempête
+	Modifié il y a 2 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -713,3 +702,12 @@ Et puis tant qu'il ne passe rien de côté là pour donner un coup de pouce à d
 Auteur: superbolt
 Message:
 C'est déjà arrivé une saison blanche? Sans aucun ouragan sur l'atlantique?
+
+=======================
+
+Auteur: Jojobarbar
+Message:
+On est loin d'avoir un défilé de perturbation en effet, à perte de vue 🥲..
+	On n'est pas si loin en revanche d'avoir de temps à autre une petite perturbation, bien humide...
+	On a vraiment une bataille entre HG et cyclogenès au sud du groenland. Une cyclogenèse un peu plus forte et vaste, et on peut toucher le jackpot. Sur les ensemblistes, ces scénarios restent minoritaires mais ils sont tout de même pas loin (entre 1/4 et 1/3 des scénarios). Une maigre consolation.. si tant est qu'elle advienne.
+								1
