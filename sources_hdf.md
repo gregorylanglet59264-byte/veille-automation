@@ -327,12 +327,12 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Bugs sur Infoclimat #2
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : Temps en Espagne
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Automne-Hiver 2026-2027 dans les Alpes
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -342,35 +342,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 Dernier bulletin HDF généré le Vendredi 11 Septembre 2026.
 Résumé général HDF précédent : Tendance générale sur 15 jours (14-27 septembre) : Maintien probable d'un temps sec et doux sous anticyclone, avec une possible (mais très incertaine) dégradation à partir du 21-22 septembre. La sécheresse de surface reste préoccupante, aucune pluie significative en vue pour les HDF..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps calme, doux en journée, frais la nuit. Averses faibles et isolées possibles en milieu de semaine..
+Températures attendues précédemment : Temps sec, doux, avec quelques averses faibles et isolées possibles en milieu de semaine. (110 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: Kyrion
-Message:
-Oui, et plus les mois passent plus il va falloir une séquence exceptionnellement humide et durable pour espérer combler le déficit. Septembre me semble plié pour quelque chose de généralisé, a minima jusqu'au 20/25.
-	Je pense qu'on ne peut désormais plus exclure que nous sommes entrée dans une récurrence pluri-mensuelle voire annuelle comme a pu vivre par exemple la Californie ou d'autres régions du monde ces dernières années. Je ne sais si nous y sommes préparés.
-								1
-
-=======================
-
-Auteur: thib91
-Message:
-Il y a 16 heures, Banleve7519 a dit :
-			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
-	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié hier à 07:39 par thib91
-								3
-
-=======================
-
-Auteur: pegaze9
-Message:
-Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
-								2
-
-=======================
-
 Auteur: Plancher
 Message:
 C'est toujours le même scénario qui se répète.
@@ -459,7 +434,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 16 heures par Neigedu38
+	Modifié il y a 18 heures par Neigedu38
 								1
 								4
 
@@ -470,6 +445,7 @@ Message:
 il y a 2 minutes, Neigedu38 a dit :
 			Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
 	Encore et toujours la zone la plus sèche de l'hémisphère nord hors zone désertique.
+								1
 								11
 
 =======================
@@ -483,7 +459,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 14 heures par giec 2100
+	Modifié il y a 16 heures par giec 2100
 								2
 
 =======================
@@ -520,7 +496,7 @@ Auteur: edel
 Message:
 On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
 								2
-								2
+								3
 
 =======================
 
@@ -529,36 +505,41 @@ Message:
 C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
 	Car si je prends les diagrammes de ma localité ( je fais du régionalisme mais je ne pense pas  qu'à l'échelle nationale il y ait beaucoup de différences) ce n'est pas gagné d'espérer voir une "amélioration" significative même à TLT :
 	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
+								1
 								2
-								4
 								5
+								6
+
+=======================
+
+Auteur: Banleve7519
+Message:
+Les tendances sont désespérément sèches et il n’y a pour l’instant pas de porte de sortie visible sur les ensembles hormis quelques perturbations atténuées dans la nord du pays.
+	J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
+	Moyenne de l’ensemble européen pour le 16 septembre:
+								3
+
+=======================
+
+Auteur: nickdu77
+Message:
+il y a 11 minutes, Banleve7519 a dit :
+			Les tendances sont désespérément sèches et il n’y a pour l’instant pas de porte de sortie visible sur les ensembles hormis quelques perturbations atténuées dans la nord du pays.
+			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
+			Moyenne de l’ensemble européen pour le 16 septembre:
+	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
+								3
+
+=======================
+
+Auteur: Banleve7519
+Message:
+il y a 30 minutes, nickdu77 a dit :
+			Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
+	Bien sûr, l’année 1997 avait globalement rien à voir et la végétation se portait certainement plutôt bien en septembre 1997, malgré un mois d’août chaud (les mois précédents étaient frais et humides). Mais je voulais souligner la similitude au niveau synoptique avec ce qu’on vit actuellement, un rail dépressionnaire qui circule bien trop au nord et cette impression d’avoir une succession de patates depuis l’Atlantique sur la France. 
+								2
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: Kyrion
-Message:
-Oui, et plus les mois passent plus il va falloir une séquence exceptionnellement humide et durable pour espérer combler le déficit. Septembre me semble plié pour quelque chose de généralisé, a minima jusqu'au 20/25.
-	Je pense qu'on ne peut désormais plus exclure que nous sommes entrée dans une récurrence pluri-mensuelle voire annuelle comme a pu vivre par exemple la Californie ou d'autres régions du monde ces dernières années. Je ne sais si nous y sommes préparés.
-								1
-
-=======================
-
-Auteur: thib91
-Message:
-Il y a 16 heures, Banleve7519 a dit :
-			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
-	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié hier à 07:39 par thib91
-								3
-
-=======================
-
-Auteur: pegaze9
-Message:
-Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
-								2
-
-=======================
-
 Auteur: Plancher
 Message:
 C'est toujours le même scénario qui se répète.
@@ -647,7 +628,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 16 heures par Neigedu38
+	Modifié il y a 18 heures par Neigedu38
 								1
 								4
 
@@ -658,6 +639,7 @@ Message:
 il y a 2 minutes, Neigedu38 a dit :
 			Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
 	Encore et toujours la zone la plus sèche de l'hémisphère nord hors zone désertique.
+								1
 								11
 
 =======================
@@ -671,7 +653,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 14 heures par giec 2100
+	Modifié il y a 16 heures par giec 2100
 								2
 
 =======================
@@ -708,7 +690,7 @@ Auteur: edel
 Message:
 On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
 								2
-								2
+								3
 
 =======================
 
@@ -717,6 +699,36 @@ Message:
 C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
 	Car si je prends les diagrammes de ma localité ( je fais du régionalisme mais je ne pense pas  qu'à l'échelle nationale il y ait beaucoup de différences) ce n'est pas gagné d'espérer voir une "amélioration" significative même à TLT :
 	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
+								1
 								2
-								4
 								5
+								6
+
+=======================
+
+Auteur: Banleve7519
+Message:
+Les tendances sont désespérément sèches et il n’y a pour l’instant pas de porte de sortie visible sur les ensembles hormis quelques perturbations atténuées dans la nord du pays.
+	J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
+	Moyenne de l’ensemble européen pour le 16 septembre:
+								3
+
+=======================
+
+Auteur: nickdu77
+Message:
+il y a 11 minutes, Banleve7519 a dit :
+			Les tendances sont désespérément sèches et il n’y a pour l’instant pas de porte de sortie visible sur les ensembles hormis quelques perturbations atténuées dans la nord du pays.
+			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
+			Moyenne de l’ensemble européen pour le 16 septembre:
+	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
+								3
+
+=======================
+
+Auteur: Banleve7519
+Message:
+il y a 30 minutes, nickdu77 a dit :
+			Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
+	Bien sûr, l’année 1997 avait globalement rien à voir et la végétation se portait certainement plutôt bien en septembre 1997, malgré un mois d’août chaud (les mois précédents étaient frais et humides). Mais je voulais souligner la similitude au niveau synoptique avec ce qu’on vit actuellement, un rail dépressionnaire qui circule bien trop au nord et cette impression d’avoir une succession de patates depuis l’Atlantique sur la France. 
+								2
