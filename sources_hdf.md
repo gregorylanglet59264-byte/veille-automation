@@ -279,7 +279,7 @@ Températures minimales : similaires à la veille.
 Températures maximales : en hausse sur le Vermandois, sur la Thiérache et la Champagne crayeuse ainsi que sur la moitié Sud du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 101605 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le jeudi 10 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale jeudi 10 septembre 2026 à 12H00 UTC, et évolution Vaste dépression 975 hPa sur le nord-ouest de l'Islande avec thalweg associé jusqu'à la Bretagne, traversant la Manche. Anticyclone des Açores 1025 hPa avec dorsale associée 1020 hPa s'étendant jusqu'aux côtes atlantique de la France, puis sur toute la France demain vendredi. 3 - Prévisions pour la nuit du jeudi 10 septembre au vendredi 11 septembre VENT : Sud-Ouest 4 à 5, parfois 6 en seconde partie de nuit. MER : peu agitée, peu agitée à agitée en seconde partie de nuit. HOULE : non significative. TEMPS : nuageux, devenant couvert et pluvieux en seconde partie de nuit. VISIBILITE : bonne, puis moyenne sous pluie. 4 - Prévisions pour la journée du vendredi 11 septembre VENT : Ouest à Sud-Ouest 4 à 5, virant Ouest à Nord-Ouest 2 à 4 le matin, puis revenant Ouest à Sud-Ouest l'après-midi. MER : peu agitée à agitée, devenant belle à peu agitée l'après-midi. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m en matinée. TEMPS : très nuageux à couvert avec quelques pluies, éclaircies l'après-midi. VISIBILITE : bonne, localement moyenne sous averses. 5 - Tendance pour la nuit du 11 au 12, et la journée du samedi 12 septembre VENT : Ouest à Sud-Ouest 2 à 4, fraîchissant 4 à 5 à la mi-journée, puis 5 à 6 en Mer du Nord l'après-midi. MER : belle à peu agitée, devenant peu agitée à agitée l'après-midi. HOULE : non significative. TEMPS : nuageux par nuages bas. VISIBILITE : moyenne sous nuages bas. 6 - Prévisions pour la nuit du 12 au 13 et la journée du dimanche 13 septembre VENT : Ouest 5 à 6, mollissant 3 à 4 en milieu d'après-midi. MER : agitée, devenant peu agitée en milieu d'après-midi. HOULE d'Ouest à Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Lundi 14 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Nord-Ouest modéré. Indice de confiance : 3 sur 5 Jeudi 17 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 8 - Observations le jeudi 10 septembre 2026 à 15H00 UTC Dunkerque : vent Sud-Ouest 10 noeuds, 1018 hPa en baisse. Cap Gris Nez : vent Ouest-Sud-Ouest 21 noeuds. Boulogne : vent Ouest-Sud-Ouest 10 noeuds, rafales 21 noeuds, 1019 hPa en baisse, nuageux avec éclaircies, visibilité 13 milles. Bouée Sandettie : vent Sud-Ouest 19 noeuds, creux 0,4 mètre, 1018 hPa en baisse, visibilité 10 milles. Prochain bulletin le vendredi 11 septembre 2026, vers 06H30 légales
+FQCT40 LFQQ 110405 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le vendredi 11 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 11 septembre 2026 à 00H00 UTC, et évolution Perturbation peu active axée de la pointe Bretagne au sud de la mer du Nord se décalant vers l'est en journée. Dorsale Atlantique s'établissant 1026 hPa sur la France la nuit prochaine et demain. 3 - Prévisions pour la journée du vendredi 11 septembre VENT : Ouest à Sud-Ouest 4 à 5, virant Ouest à Nord-Ouest 2 à 4 le matin puis revenant Ouest à Sud-Ouest en milieu d'après-midi. MER : peu agitée, localement agitée en Manche le matin, devenant belle en mer du Nord en fin de journée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : nuageux à très nuageux avec quelques pluies. VISIBILITE : bonne, localement moyenne sous pluie. 4 - Prévisions pour la nuit du vendredi 11 septembre au samedi 12 septembre VENT : secteur Sud-Ouest 2 à 4. MER : belle à peu agitée. HOULE : Ouest 0.5 m en Manche. TEMPS : ciel passagèrement nuageux. VISIBILITE : bonne. 5 - Prévisions pour la journée du samedi 12 septembre VENT : Ouest à Sud-Ouest 3 à 4, fraîchissant 4 à 5 à la mi-journée, localement 6 en mer du Nord l'après-midi. MER : peu agitée. HOULE : non significative. TEMPS : ciel peu nuageux à nuageux. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 12 au 13 et la journée du dimanche 13 septembre VENT : Ouest 5 à 6. MER : agitée, devenant peu agitée en milieu d'après-midi. HOULE dominante de secteur Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Lundi 14 septembre Secteur Sud-Ouest faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Nord-Ouest modéré. Indice de confiance : 3 sur 5 Jeudi 17 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 8 - Observations le vendredi 11 septembre 2026 à 03H00 UTC Dunkerque : vent Sud 8 noeuds, 1017 hPa en baisse. Cap Gris Nez : vent Ouest-Sud-Ouest 23 noeuds. Boulogne : vent Ouest-Sud-Ouest 16 noeuds, 1017 hPa en baisse, nuageux avec éclaircies, visibilité 13 milles. Bouée Sandettie : vent Ouest-Sud-Ouest 21 noeuds, creux 0,4 mètre, 1017 hPa en baisse, visibilité 1 mille. Prochain bulletin le vendredi 11 septembre 2026, vers 12H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -301,12 +301,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps en Belgique.
+• Infoclimat Direct : Prévisions Nord - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -314,9 +314,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 11 Septembre 2026.
-Résumé général HDF précédent : .
+Résumé général HDF précédent : Temps sec et anticyclonique dominant sur les Hauts-de-France, avec une chaleur modérée à forte en début de période, une brève baisse en milieu de semaine 1, puis un retour probable à un temps sec et doux. Incertitude marquée en semaine 2 (sujet S39 non ouvert)..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec dominant, chaleur modérée, risque de pluie/averses sur l’ouest et le Vermandois..
+Températures attendues précédemment : Pluie possible, températures en baisse, ciel chargé. (max 120).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -368,7 +368,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 18 heures par thib91
+	Modifié il y a 20 heures par thib91
 								2
 
 =======================
@@ -400,7 +400,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 16 heures par fran39
+	Modifié il y a 18 heures par fran39
 								1
 								1
 
@@ -418,7 +418,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -467,7 +467,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 6 heures par Neigedu38
+	Modifié il y a 8 heures par Neigedu38
 								1
 								4
 
@@ -491,7 +491,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 4 heures par giec 2100
+	Modifié il y a 6 heures par giec 2100
 								2
 
 =======================
@@ -562,7 +562,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 18 heures par thib91
+	Modifié il y a 20 heures par thib91
 								2
 
 =======================
@@ -594,7 +594,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 16 heures par fran39
+	Modifié il y a 18 heures par fran39
 								1
 								1
 
@@ -612,7 +612,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -661,7 +661,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 6 heures par Neigedu38
+	Modifié il y a 8 heures par Neigedu38
 								1
 								4
 
@@ -685,7 +685,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 4 heures par giec 2100
+	Modifié il y a 6 heures par giec 2100
 								2
 
 =======================

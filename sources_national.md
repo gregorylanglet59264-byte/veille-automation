@@ -285,7 +285,7 @@ Températures minimales : en baisse dans le Volvestre.
 Températures maximales : en hausse dans le Volvestre ainsi que sur le piémont et la montagne.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 101620 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le jeudi 10 septembre 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Avis de grand frais Nr 296 pour PROVENCE, CORSE 2 - Situation générale jeudi 10 septembre 2026 à 12H00 UTC, et évolution Zone dépressionnaire près de 1009 hPa de la Côte d'Azur à la Mer Tyrrhénienne, se comblant progressivement 1012 hPa la nuit prochaine, puis 1016 hPa demain midi. Anticyclone 1020 hPa sur l'Espagne, dorsale associée se renforçant progressivement par l'ouest du bassin. 3 - Prévisions pour la nuit du jeudi 10 septembre au vendredi 11 septembre VENT : - de Port Camargue à Porquerolles : Nord-Ouest 5 à 6, localement 6 à 7 de Beauduc à Porquerolles, mollissant localement 2 à 4 de Sicié à Porquerolles en seconde partie de nuit. Rafales. - de Porquerolles à Saint-Raphaël : Variable 2 à 4, s'orientant Nord-Ouest en seconde partie de nuit. MER : peu agitée à agitée, localement belle à peu agitée du Levant à Saint-Raphaël. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, localement 1 à 2 m au large des îles d'Hyères. TEMPS : ciel clair à peu nuageux. VISIBILITE : bonne. 4 - Prévisions pour la journée du vendredi 11 septembre VENT : Ouest à Nord-Ouest 3 à 5, localement 5 à 6 de Beauduc au Levant, mais Variable 2 à 4 du Levant à Saint-Raphaël. Rafales. MER : peu agitée à agité de Beauduc au Levant, belle à peu agitée ailleurs. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, parfois 1.5 m à l'est de Porquerolles l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 5 - Tendance pour la nuit du 11 au 12, et la journée du samedi 12 septembre VENT : - de Port-Camargue à Porquerolles : secteur Nord-Ouest 4 à 5, temporairement 6 de Beauduc au Cap Croisette en milieu de nuit, mollissant secteur Nord 2 à 4 le matin, puis Variable 1 à 3 l'après-midi. - de Porquerolles à Saint-Raphaël : secteur Nord-Est 3 à 4, mollissant 1 à 3 l'après-midi. MER : belle à peu agitée, temporairement agitée vers le large la nuit. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, devenant progressivement non significative l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 12 au 13 et la journée du dimanche 13 septembre VENT : De Port Camargue à Marseille Ouest à Nord-Ouest 3 à 4, virant temporairement Nord en seconde partie de nuit. De Marseille à St Raphaël variable 1 à 3, s'orientant Ouest 3 à 4 en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Lundi 14 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Sud-Est faible à modéré dans le golfe du Lion, Sud-Ouest faible à modéré ailleurs. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 17 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 8 - Observations le jeudi 10 septembre 2026 à 15H00 UTC Cap Camarat : vent Nord-Nord-Est 12 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 17 noeuds, rafales 27 noeuds. Le Levant : vent Est 4 noeuds, rafales 19 noeuds, 1010 hPa en hausse. Porquerolles : vent Ouest 17 noeuds, rafales 27 noeuds. Cap Couronne : vent Ouest-Nord-Ouest 23 noeuds, rafales 39 noeuds, mer forte, visibilité 10 milles. Prochain bulletin le vendredi 11 septembre 2026, vers 06H30 légales
+FQCT40 LFML 110340 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 11 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 11 septembre 2026 à 00H00 UTC, et évolution Zone dépressionnaire proche de 1013 hPa de la Côte d'Azur à la Mer Tyrrhénienne, se comblant progressivement 1016 hPa aujourd'hui, puis se décalant à l'est de la Corse demain. Anticyclone 1020 hPa sur l'Espagne. 3 - Prévisions pour la journée du vendredi 11 septembre VENT : Ouest à Nord-Ouest 4 à 6, mais Variable 2 à 4 du Levant à Saint-Raphaël. MER : peu agitée à agité de Beauduc au Levant, belle à peu agitée ailleurs. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, parfois 1.5 m à l'est de Porquerolles l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 11 septembre au samedi 12 septembre VENT : Nord à Nord-Ouest 5 à 6, localement Nord-Est 3 à 5 à l'est de Sicié. MER : peu agitée, localement agitée au large des îles d'Hyères en première partie de nuit. HOULE : Secteur Ouest 0.5 à 1 m, jusqu'à 1.5 m en début de nuit. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du samedi 12 septembre VENT : Secteur Nord 2 à 4, mollissant Variable 1 à 3 l'après-midi. MER : belle à peu agitée. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, devenant non significative l'après-midi. TEMPS : beau temps. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 12 au 13 et la journée du dimanche 13 septembre VENT : De Port Camargue à Marseille Ouest à Nord-Ouest 2 à 4, virant temporairement Nord en milieu de nuit. De Marseille à St Raphaël variable 1 à 3, s'orientant Ouest à Sud-Ouest 2 à 4 en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Lundi 14 septembre Variable faible à modéré. Indice de confiance : 4 sur 5 Mardi 15 septembre Secteur Sud-Est faible à modéré dans le golfe du Lion, Sud-Ouest faible à modéré ailleurs. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 Jeudi 17 septembre Secteur Nord-Est modéré à assez fort, risque de vent fort, dans le golfe du Lion, secteur Sud-Ouest modéré entre Corse et continent. Indice de confiance : 3 sur 5 8 - Observations le vendredi 11 septembre 2026 à 03H00 UTC Cap Camarat : vent Nord-Ouest 4 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Sud-Ouest 2 noeuds. Le Levant : vent Ouest 4 noeuds, 1014 hPa en hausse. Porquerolles : vent Nord-Nord-Ouest 10 noeuds. Cap Couronne : vent Nord-Ouest 12 noeuds. Prochain bulletin le vendredi 11 septembre 2026, vers 13H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -307,12 +307,12 @@ De J+4 à J+7 ﻿Pas de phénomène météorologique dangereux prévu.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Suivi du temps en Belgique.
+• Infoclimat Direct : Prévisions Nord - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
 • Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -320,9 +320,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 11 Septembre 2026.
-Résumé général précédent : Tendance générale à un temps sec et anticyclonique, avec une chaleur estivale en début de période, un léger rafraîchissement en milieu de semaine 1, puis une nouvelle hausse possible en début de semaine 2, avant une rupture incertaine en fin de quinzaine..
+Résumé général précédent : Tendance générale pour la quinzaine : temps sec, anticyclonique et chaud, avec un pic de chaleur en début de période, un léger rafraîchissement en milieu de semaine 1, puis une nouvelle hausse des températures en début de semaine 2 avant une rupture incertaine en fin de quinzaine..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et chaud en début de semaine, possible dégradation orageuse très localisée et incertaine en fin de semaine. (114 caractères).
+Températures attendues précédemment : Tendance chaude et sèche dominante, léger rafraîchissement en milieu de semaine, orages très localisés possibles. (113 caractères).
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -374,7 +374,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 18 heures par thib91
+	Modifié il y a 20 heures par thib91
 								2
 
 =======================
@@ -406,7 +406,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 16 heures par fran39
+	Modifié il y a 18 heures par fran39
 								1
 								1
 
@@ -424,7 +424,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -473,7 +473,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 6 heures par Neigedu38
+	Modifié il y a 8 heures par Neigedu38
 								1
 								4
 
@@ -497,7 +497,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 4 heures par giec 2100
+	Modifié il y a 6 heures par giec 2100
 								2
 
 =======================
@@ -568,7 +568,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 18 heures par thib91
+	Modifié il y a 20 heures par thib91
 								2
 
 =======================
@@ -600,7 +600,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 16 heures par fran39
+	Modifié il y a 18 heures par fran39
 								1
 								1
 
@@ -618,7 +618,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 15 heures par petit âge glaciaire 11
+	Modifié il y a 17 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -667,7 +667,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 6 heures par Neigedu38
+	Modifié il y a 8 heures par Neigedu38
 								1
 								4
 
@@ -691,7 +691,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 4 heures par giec 2100
+	Modifié il y a 6 heures par giec 2100
 								2
 
 =======================

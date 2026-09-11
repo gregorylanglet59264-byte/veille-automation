@@ -1,118 +1,130 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (NATIONAL)
 **Généré le :** Vendredi 11 Septembre 2026
-**Période :** Semaine 1 (Du Lundi 14 Septembre 2026 au Dimanche 20 Septembre 2026 - Semaine 38) & Semaine 2 (Du Lundi 21 Septembre au Dimanche 27 Septembre 2026 - Semaine 39 - ⚠️ Sujet spécifique non ouvert sur le forum Infoclimat. Analyse basée sur les projections long-terme du sujet Semaine 38.)
+**Période :** Semaine 1 (Période exacte semaine 1 : Du Lundi 14 Septembre 2026 au Dimanche 20 Septembre 2026) & Semaine 2 (⚠️ Sujet Semaine 2 non ouvert sur le forum Infoclimat. Période analysée : Du Lundi 21 Septembre 2026 au Dimanche 27 Septembre 2026, à partir des projections long terme de la semaine 38.)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Fort consensus sur le temps sec et chaud pour la semaine 1, mais consensus fragile pour la semaine 2.*
-- **Fiabilité du scénario majoritaire :** Temps sec et chaud prolongé — *Le scénario dominant reste celui d'un été indien, avec une dégradation qui semble se faire attendre.*
+- **Consensus des modèles :** Modéré — *Convergence sur un temps anticyclonique et une hausse progressive des températures, mais désaccord sur l’ampleur et le timing de la rupture.*
+- **Fiabilité du scénario majoritaire :** Anticyclone persistant, dégradation limitée — *Scénario le plus probable : blocage anticyclonique avec chaleur modérée, sans canicule ni invasion humide durable.*
 - **Stabilité des cartes/scénarios :** 6 / 76 — *6 cartes sur 76 analysées*
-- **Niveau d'incertitude global :** Incertitude forte pour la fin de quinzaine — *La fiabilité des modèles s'effondre au-delà de J+10, rendant toute prévision détaillée hasardeuse.*
+- **Niveau d'incertitude global :** Forte — *Les runs déterministes à 10 jours sont peu fiables, et la semaine 2 manque de discussions dédiées.*
 
-## 🗓️ SEMAINE 1 : Du Lundi 14 Septembre 2026 au Dimanche 20 Septembre 2026 - Semaine 38
+## 🗓️ SEMAINE 1 : Période exacte semaine 1 : Du Lundi 14 Septembre 2026 au Dimanche 20 Septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Verrouillage anticyclonique : L'anticyclone subtropical s'impose durablement, garantissant un temps majoritairement sec et ensoleillé.
-2. Pic de chaleur marqué : Mardi et mercredi, les températures grimpent nettement, avec un risque de dépasser les 30°C, voire 35°C localement dans le Sud-Ouest.
-3. Rafraîchissement en milieu de semaine : Une baisse sensible des températures est attendue mercredi et jeudi, principalement au nord et au centre, sous l'influence d'un possible talweg.
-4. Goutte froide incertaine : Sa trajectoire est très fluctuante dans les modèles ; elle ne devrait apporter que des pluies faibles et très localisées, principalement en fin de semaine.
-5. Sécheresse toujours préoccupante : L'absence de précipitations significatives se poursuit, aggravant encore le bilan hydrique des sols sur une large moitié nord et ouest.
+1. Anticyclone persistant : Le temps reste calme avec des cellules anticycloniques en circulation zonale.
+2. Hausse progressive des températures : La hausse sera nette surtout dans le sud, mais sans excès durable.
+3. Pas d’invasion humide durable : Les talwegs restent trop faibles pour entraîner des perturbations durables.
+4. Run GFS isolé avec pluie : Un run du soir évoque un peu de pluie en fin de semaine, à confirmer.
+5. Jet à surveiller : Possible basculement du jet vers le 20 septembre, mais fiabilité limitée à 10 jours.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Temps majoritairement sec et anticyclonique pour toute la semaine, avec une absence quasi totale de précipitations généralisées.
-2. Pic de chaleur attendu entre lundi et mercredi, notamment dans le sud, avant un rafraîchissement net en milieu ou fin de semaine.
-3. La goutte froide ne parvient pas à s'imposer ; elle se décale ou se comble, laissant la France sous l'influence des hautes pressions.
+1. Temps anticyclonique persistant avec hausse progressive des températures et des géopotentiels.
+2. Pas d’invasion humide durable : talwegs trop faibles, contexte NAO+.
+3. Le sud est davantage concerné par la hausse thermique, mais sans dépassement net de 20°C à 850 hPa.
 **Points de divergence :**
-1. Trajectoire exacte de la goutte froide, qui peut passer sur la France ou remonter plus au nord, modifiant localement la pluie.
-2. Intensité du rafraîchissement de jeudi : très marqué au nord (isothermes plus basses) ou plus modéré selon les modèles.
-3. Rapidité de la remontée chaude en fin de semaine, entre vendredi et dimanche, qui pourrait être plus ou moins forte.
+1. Le timing exact de la baisse des champs en fin de semaine reste incertain.
+2. Le run GFS avec pluie est isolé ; AIFS évoque plutôt une baisse sans invasion durable.
+3. Fiabilité limitée des runs déterministes à 10 jours pour le comportement du jet.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP)** (documented) | Scénario anticyclonique majoritaire avec une goutte froide qui perd du terrain, se décalant vers les îles Britanniques. Les cumuls de pluie sont revus à la baisse pour la France. (153 caractères) | Tendance chaude et sèche dominante, léger rafraîchissement en milieu de semaine, orages très localisés possibles. (113 caractères) | Nord-Ouest, Nord, Centre, Sud-Ouest (légèrement) | Modérée (65%) | Les membres notent une baisse significative des cumuls de pluie entre les runs (Neigedu38). Les températures à 850 hPa resteraient élevées pour la saison dans le sud (17-19°C), mais sous le seuil des 20°C, ce qui limite l'excès. |
-| **GFS (déterministe et ensembles)** (documented) | Positionnement de la goutte froide très incertain, majorité des scénarios secs et chauds. Des sorties pluvieuses se réduisent progressivement à peau de chagrin. (141 caractères) | Temps sec et chaud, avec une dégradation très éphémère possible en cours de semaine. (88 caractères) | Nord, Nord-Ouest, Sud-Ouest | Modérée (60%) | Un retour humide est évoqué pour vendredi selon certaines sorties, mais Jojobarbar souligne que ces scénarios sont minoritaires et peu fiables à cette échéance. Le run déterministe donne la goutte froide plus au nord. |
-| **AIFS (ensemble)** (partial) | Baisse des géopotentiels en milieu de semaine prochaine, indiquant une faiblesse possible du blocage anticyclonique, sans révolution météorologique majeure. | Modulation humide possible au nord de la Seine en milieu de semaine, sinon temps sec. | Nord de la Seine, Île-de-France, Normandie | Faible (45%) | L'ensemble AIFS voit une baisse de champs sur l'ensemble de la France à cette échéance, et la pression moyenne pourrait descendre sous les 1015 hPa. Cela pourrait permettre quelques pluies faibles. |
-| **Météo-France (ARPEGE/AROME - Sources officielles)** (documented) | Beau temps sec et ensoleillé dominant, avec un net rafraîchissement mercredi/jeudi, suivi d'une hausse des températures samedi. Pas de phénomène dangereux. | Temps sec, ensoleillé, rafraîchissement en milieu de période, retour de la chaleur le week-end. | Toutes zones (détails départementaux précis) | Non estimable (modèle officiel non discuté directement dans le forum, intégré via les bulletins Météo-France) | Bulletins Départementaux : Paris et petite couronne : max 27°C lundi/mardi, chute à 21°C jeudi. Gironde : 31-33°C mardi, puis 24°C jeudi. BDR : 28-31°C mardi, mistral mercredi/jeudi. Haute-Garonne : 30-33°C mardi, puis orages/pluie possible en fin de semaine. |
+| **GFS** (Documenté mais run individuel) | Run du soir plutôt favorable à une timide dégradation avec un peu de pluie, après une hausse progressive des températures et des géopotentiels. | Pluie possible lors de la baisse des champs, chaleur relative en journée. | Nord-Ouest, Nord, Centre, Sud-Ouest selon le run | Modérée (65%) | Le run GFS est jugé « sympa » par un membre car il amène un peu de pluie, mais il s’agit d’un run isolé, sans consensus. |
+| **AIFS (ECMWF)** (Documenté) | Tendance récente à une baisse des champs à J+6/J+7, sans invasion humide durable. Températures en hausse surtout au sud, 850 hPa sous 20°C. | Hausse progressive des températures, rupture partielle en fin de semaine. | Ensemble du territoire, plus marqué au sud | Modérée (65%) | Un membre note une tendance à la baisse des champs sur l’ensemble AIFS, tout en mettant en garde sur la fiabilité d’un run déterministe à 10 jours concernant le jet. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps sec et ensoleillé, passages nuageux, rafraîchissement net mercredi et jeudi. | Max 24-27°C en début de semaine, chute à 19-21°C en milieu de semaine, retour à 24°C dimanche. | moderee | ECMWF, GFS | Trajectoire de la goutte froide pouvant apporter une petite averse. |
-| **Nord** | Beau temps sec et ensoleillé, chaleur estivale en début de semaine puis nette baisse. | Max 25-27°C lundi/mardi, chute à 21°C jeudi, remontée à 24°C dimanche. | elevee | ECMWF, Météo-France | Ensoleillement persistant malgré le passage nuageux de jeudi. |
-| **Nord-Est** | Soleil généreux mais températures plus contrastées, baisse mercredi et jeudi. | Max 24-26°C lundi/mardi, baisse à 20-22°C en milieu de semaine, remontée dès samedi. | moderee | ECMWF | Le réchauffement de fin de semaine pourrait être plus rapide que prévu. |
-| **Ouest et Façade Atlantique** | Ciel bleu dominant, chaleur croissante en début de semaine, risque de pluie vendredi matin. | Max 27-29°C samedi, 31-33°C mardi, chute à 24°C jeudi, puis hausse samedi. | elevee | Météo-France, ECMWF, GFS | La position du talweg déterminera les cumuls de pluie de vendredi. |
-| **Centre** | Temps sec et bien ensoleillé, fraîcheur matinale, chaleur en journée mais rafraîchissement net en milieu de semaine. | Max 25-29°C en début de semaine, chute à 21-23°C mercredi/jeudi, remontée progressive ensuite. | elevee | Météo-France, ECMWF | Risque de brume matinale localisée en début de semaine. |
-| **Sud-Ouest** | Ensoleillement maximal, chaleur très marquée en début de semaine, dégradation possible en fin de semaine. | Max 26-30°C dimanche, 30-33°C mardi, baisse à 22-25°C jeudi, puis retour des 30°C samedi. | elevee | Météo-France, ECMWF, GFS | La dépression peut apporter des orages plus intenses ou rester au large. |
-| **Sud-Est et Vallée du Rhône** | Soleil radieux toute la semaine, chaleur soutenue en début jusqu'à mi-semaine, mistral en perspective. | Max 27-31°C lundi/mardi, 27-30°C mercredi/jeudi, retour à 28-31°C ce week-end. | elevee | Météo-France, ECMWF | Intensité du mistral et températures nocturnes en baisse. |
-| **Méditerranée et Corse** | Beau temps chaud et ensoleillé, houle modérée, vent de nord-ouest parfois soutenu en début de semaine. | Max 27-30°C sur le littoral, 28-31°C vers l'intérieur, stables. | elevee | Météo-France, ECMWF | Rafales de mistral sur le golfe du Lion en fin de semaine. |
+| **Nord-Ouest** | Temps calme, passages nuageux, hausse progressive des températures. | Minimales voisines de 15°C; maximales en hausse modérée, non précisées. | moderee | GFS, AIFS | Régime anticyclonique plutôt dominant, mais humidité résiduelle possible. |
+| **Nord** | Régime anticyclonique, éclaircies, températures en légère hausse. | Observation Paris-Montsouris : 15°C en début de nuit. Tendance haussière en journée. | moderee | GFS, AIFS | Manque de précision sur les maximales et l’humidité. |
+| **Nord-Est** | Temps sec et calme, géopotentiels en hausse. | Températures proches des normales, en légère hausse. | faible | AIFS | Absence de discussion dédiée pour cette zone. |
+| **Ouest et Façade Atlantique** | Vigilance verte, alternance d’éclaircies et de nuages. | Bordeaux : 16°C relevés (heure non précisée). | moderee | GFS, AIFS | Évolution de la dégradation en fin de semaine. |
+| **Centre** | Temps anticyclonique, hausse thermique progressive. | Tendance en hausse, valeurs non documentées. | faible | GFS, AIFS | Manque de données spécifiques pour cette zone. |
+| **Sud-Ouest** | Vigilance verte, conditions stables, chaleur relative en hausse. | Toulouse-Blagnac : 16°C relevés (heure non précisée). Maximales en hausse. | moderee | GFS, AIFS | Évolution orageuse en fin de semaine. |
+| **Sud-Est et Vallée du Rhône** | Temps stable, quelques entrées maritimes possibles, hausse thermique modérée. | Aix-en-Provence : 16°C relevés (heure non précisée). Tendance haussière. | moderee | GFS, AIFS | Influence du mistral et de la tramontane à confirmer. |
+| **Méditerranée et Corse** | Vigilance verte, vent parfois fort dans le golfe du Lion, modéré entre Corse et continent. | Marignane : 20°C relevés (heure non précisée). | moderee | GFS, AIFS | Renforcement du vent en cours de semaine possible. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 14 et Mardi 15 Septembre 2026** : Temps sec et très ensoleillé, net regain de chaleur avec des maximales estivales, pouvant atteindre 27°C au nord et 33°C au sud-ouest.
-- **Mercredi 16 et Jeudi 17 Septembre 2026** : Rafraîchissement sensible sous un ciel plus voilé, avec un risque très faible d'averses isolées et un vent de nord-ouest modéré.
-- **Vendredi 18 et Samedi 19 Septembre 2026** : Retour progressif du soleil et de la chaleur par le sud, mais des pluies faibles possibles près de l'Atlantique et du relief pyrénéen vendredi.
-- **Dimanche 20 Septembre 2026** : Dernier jour de la semaine sous haute pression, temps calme, sec et chaud pour la saison.
+- **Du lundi 14 au mardi 15 septembre** : Conditions calmes et anticycloniques, températures en légère hausse.
+- **Du mercredi 16 au vendredi 18 septembre** : Hausse plus nette des températures, surtout au sud, sans signal durable au-delà de 20°C à 850 hPa.
+- **Samedi 19 au dimanche 20 septembre** : Possible baisse des champs et timide dégradation, mais sans invasion humide durable.
+- **Au-delà du 20 septembre (transition semaine 2)** : Basculement du jet à surveiller, pour l’instant très incertain.
 
 **Points solides :**
-1. Pic de chaleur confirmé entre lundi et mercredi sur l'ensemble du pays, surtout au sud.
-2. Absence de précipitations majeures sur l'ensemble de la semaine.
-3. Rafraîchissement généralisé mercredi et jeudi, plus marqué au nord.
+1. Maintien d’une circulation zonale avec cellules anticycloniques.
+2. Absence de réel abaissement du jet, donc pas de perturbation durable.
+3. Températures en hausse modérée, surtout au sud, sans signal caniculaire.
 
 **Points fragiles :**
-1. Trajectoire exacte de la goutte froide, source de toutes les divergences entre modèles.
-2. Le retour de la chaleur en fin de semaine pourrait être plus ou moins intense.
-3. Les pluies orageuses de vendredi sont très incertaines et conditionnées à un scénario minoritaire.
+1. La dégradation de fin de semaine (pluie/orages) n’est pas confirmée par le consensus.
+2. Les runs déterministes à longue échéance sur le jet sont peu fiables.
+3. La répartition géographique exacte des températures les plus élevées reste à préciser.
 
 **À surveiller (prochains runs) :**
-À surveiller l'évolution du CEP 12Z de ce soir pour la trajectoire de la goutte froide, ainsi que les runs GFS de cette nuit pour la fin de semaine 38 et l'amorce de la semaine 39.
+- Prochains runs GFS et AIFS (00Z/12Z), notamment l’évolution du jet vers le 20 septembre.
+- Sorties d’ensemble pour confirmer ou infirmer la baisse des champs entre J+6 et J+10.
+- Températures à 850 hPa, avec un seuil clé sous 20°C sur le sud.
 
 
-## 🗓️ SEMAINE 2 : Du Lundi 21 Septembre au Dimanche 27 Septembre 2026 - Semaine 39 - ⚠️ Sujet spécifique non ouvert sur le forum Infoclimat. Analyse basée sur les projections long-terme du sujet Semaine 38.
+## 🗓️ SEMAINE 2 : ⚠️ Sujet Semaine 2 non ouvert sur le forum Infoclimat. Période analysée : Du Lundi 21 Septembre 2026 au Dimanche 27 Septembre 2026, à partir des projections long terme de la semaine 38.
 ### 💡 Points clés de la semaine 2
+1. Hausse limitée du mercure : Les températures pourraient rester sous les 20°C à 850 hPa, surtout au sud.
+2. Jet à surveiller : Un éventuel basculement du jet vers le 20 septembre pourrait amorcer un changement.
+3. Anticyclone persistant : Le scénario dominant reste une cellule anticyclonique, au moins en début de semaine 2.
+4. Pas d’invasion humide durable : Les talwegs resteraient trop faibles pour des perturbations durables.
+5. Incertitude forte : Aucun run n’est confirmé ; le sujet n’étant pas ouvert, toute prévision détaillée est prématurée.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. Récurrence anticyclonique et sécheresse persistante au moins jusqu'au 25 septembre.
-2. Pas de précipitations significatives en vue sur la majeure partie du pays, accentuant le déficit hydrique.
-3. Possibilité d'une nouvelle poussée chaude en tout début de semaine 39, avec des températures localement proches de 35°C dans le sud-ouest.
+1. Les sorties long terme convergent vers une poursuite de la dorsale anticyclonique.
+2. Pas de signal pour une invasion humide durable.
+3. Températures à 850 hPa inférieures à 20°C, donc chaleur modérée.
 **Points de divergence :**
-1. Rythme de la rupture annoncée pour le 25-27 : un simple fléchissement ou une vraie dégradation ?
-2. Latitude de la goutte froide, qui pourrait venir mourir sur la France ou rester au large des côtes.
-3. Fiabilité du signal de basculement du jet stream autour du 20, perçu comme fragile par les membres.
+1. Le basculement du jet pourrait intervenir ou non autour du 20 septembre.
+2. Une dégradation orageuse en fin de semaine 2 est possible mais sans consensus.
+3. La répartition spatiale des températures les plus élevées reste floue.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **ECMWF (CEP) et GFS (Longue portée)** (partial) | Convergence vers une poursuite du blocage anticyclonique, avec une hausse progressive des températures sur l'Europe de l'Ouest. Une rupture est évoquée en toute fin de période, mais sans invasion pluvieuse durable. | Chaleur marquée, surtout dans le sud, absence de précipitations généralisées, incertitude en toute fin de semaine. | Sud-Ouest, Sud-Est, Massif Central (plus exposés à la chaleur) | Modérée (60%) - Projections d'ensemble issues du sujet 38 | "Une hausse progressive des températures pendant à peu près une semaine avant une rupture marquée mais sans invasion humide durable" (tao). "Septembre me semble plié pour quelque chose de généralisé, a minima jusqu'au 20/25" (Kyrion). |
+| **ECMWF/AIFS (projections long terme)** (Projection long terme, sujet non ouvert) | Poursuite d’un temps anticyclonique avec hausse progressive des températures, puis possible baisse des champs ; incertitude majeure. | Chaleur relative au sud, pas de canicule ; dégradation orageuse possible mais non confirmée. | Sud, Méditerranée, puis ensemble du pays | Faible (45%) | Les discussions de la semaine 38 évoquent une tendance à la baisse des champs sur AIFS à J+6/J+7 et un possible basculement du jet vers le 20 septembre. Aucune confirmation en sujet 2. |
+| **GFS (projections long terme / 384h)** (Projection long terme, sujet non ouvert) | Scénario très incertain ; pas de sortie stabilisée pour la semaine 2. | Temps sec probable en début de semaine, incertitude orageuse ensuite. | Non déterminable | Faible (45%) | Aucune discussion dédiée. Seule la tendance générale de la semaine 38 (anticyclone, absence de perturbation durable) peut être extrapolée avec prudence. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Nord** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Nord-Est** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Ouest et Façade Atlantique** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Centre** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Sud-Ouest** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Sud-Est et Vallée du Rhône** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Méditerranée et Corse** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Nord-Ouest** | Tendance anticyclonique possible, peu de pluie. | Températures de saison, en légère hausse si le scénario anticyclonique se confirme. | faible | ECMWF/AIFS, GFS | Sujet non ouvert, aucun run dédié analysé. |
+| **Nord** | Conditions calmes probablement maintenues. | Pas de valeur documentée; tendance proche des normales. | faible | ECMWF/AIFS, GFS | Absence de discussion dédiée à la semaine 2. |
+| **Nord-Est** | Possible maintien d’un temps sec et anticyclonique. | Tendance non précisée. | faible | ECMWF/AIFS, GFS | Aucun élément spécifique pour cette zone. |
+| **Ouest et Façade Atlantique** | Temps sec probable, éclaircies. | Pas de valeur documentée. | faible | ECMWF/AIFS, GFS | Projections long terme peu fiables à cette échéance. |
+| **Centre** | Tendance anticyclonique, chaleur modérée possible. | Hausse possible mais non confirmée. | faible | ECMWF/AIFS, GFS | Évolution du jet très incertaine. |
+| **Sud-Ouest** | Chaleur relative possible, surtout en début de semaine 2. | 850 hPa sous 20°C, donc chaleur modérée. | faible | ECMWF/AIFS, GFS | Aucune discussion directe sur cette zone. |
+| **Sud-Est et Vallée du Rhône** | Temps sec probable, possible hausse thermique. | Tendance chaude modérée, sans canicule. | faible | ECMWF/AIFS, GFS | Influence du relief et des entrées maritimes non précisée. |
+| **Méditerranée et Corse** | Temps sec et assez chaud possible, avec du vent. | Valeurs non documentées; tendance chaude modérée. | faible | ECMWF/AIFS, GFS | Aucun run maritime dédié aux conditions de vent. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
+- **Du lundi 21 au mardi 22 septembre** : Poursuite probable du temps anticyclonique, chaleur modérée surtout au sud.
+- **Du mercredi 23 au jeudi 24 septembre** : Hausse thermique possible mais limitée, sans signal caniculaire.
+- **Vendredi 25 au samedi 26 septembre** : Incertitude maximale, possible baisse des champs avec orages non confirmés.
+- **Dimanche 27 septembre** : Transition incertaine vers octobre, dépendante du jet stream.
 
 **Points solides :**
-1. Le déficit de précipitations devrait se poursuivre, au moins jusqu'au 25 septembre.
-2. Une nouvelle poussée chaude est extrêmement probable en tout début de semaine 39, surtout au sud.
-3. Les membres du forum (S38) s'accordent sur le fait que la semaine 39 ne marquera pas de rupture durable et humide.
+1. Le contexte de blocage anticyclonique est le plus probable à cette échéance.
+2. Les températures ne montrent pas de signal de canicule.
+3. L’incertitude sur le jet est le principal facteur de risque.
 
 **Points fragiles :**
-1. La rupture marquée envisagée après le 25 septembre est sujette à caution.
-2. L'absence totale de précipitations pourrait être remise en cause par des orages isolés très localisés.
-3. La fiabilité des runs déterministes à 10 jours est très faible, surtout sur le jet stream.
+1. Aucun run d’ensemble n’est encore analysé pour cette semaine.
+2. Le timing du basculement du jet est très fragile.
+3. Toute prévision orageuse pour le 21-27 septembre est prématurée.
 
 **À surveiller (prochains runs) :**
-Ouverture du sujet Semaine 39 sur le forum Infoclimat (attendue ce week-end), suivi des runs GFS 00Z et CEP 12Z pour l'évolution de la goutte froide et du jet stream.
+- Ouverture du sujet semaine 2 et premiers commentaires des membres.
+- Runs d’ensemble ECMWF/AIFS et GFS, notamment l’évolution du jet après le 20 septembre.
+- Indice de confiance Météo-France J+6 à J+14 (matrice de risques).
 
 
 ========================================
@@ -120,27 +132,27 @@ Ouverture du sujet Semaine 39 sur le forum Infoclimat (attendue ce week-end), su
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Tendance générale pour la quinzaine : temps sec, anticyclonique et chaud, avec un pic de chaleur en début de période, un léger rafraîchissement en milieu de semaine 1, puis une nouvelle hausse des températures en début de semaine 2 avant une rupture incertaine en fin de quinzaine.
+Temps anticyclonique persistant, hausse progressive des températures (surtout au sud), puis possible rupture limitée autour du 20 septembre, sans invasion humide durable. La semaine 2 reste très incertaine.
 
 ### Période la plus fiable
-Semaine 1 (du 14 au 20 septembre) est la plus fiable, soutenue par un sujet forum actif et des bulletins officiels précis. La semaine 2 est entachée d'une incertitude majeure liée à l'absence de sujet dédié et à la limite des échéances.
+Semaine 1 (14-20 septembre), avec une confiance modérée ; la semaine 2 n’est pas encore ouverte.
 
 ### Phénomènes récurrents
-Anticyclone subtropical quasi stationnaire, goutte froide atlantique errante mais inefficace, mistral et tramontane en Méditerranée, sécheresse de surface accentuée.
+Cellules anticycloniques en circulation zonale, absence de thalweg profond, chaleur relative au sud, faibles précipitations.
 
 ### Principales incertitudes
-Trajectoire de la goutte froide en semaine 1, et surtout rapidité et intensité de la rupture de régime en toute fin de semaine 2.
+Timing de la baisse des champs, comportement du jet après le 20 septembre, possibilité d’orages non confirmée.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Doutes majeurs sur la chronologie de la rupture en fin de semaine 2. Le signal d'un possible changement de régime vers le 25-27 septembre est présent mais très fragile.
-- **Localisation :** Localisation exacte des pluies de la goutte froide de vendredi 18 : Bordeaux, relief pyrénéen, ou rien du tout ? Les modèles sont en désaccord.
-- **Intensité :** Intensité du pic de chaleur de mardi prochain : approche-t-on les 35°C dans le Sud-Ouest ? Les T°C à 850 hPa suggèrent des valeurs très élevées mais les journées raccourcissent.
-- **Informations manquantes :** Absence totale de données concernant la semaine 2 sur le forum (sujet non ouvert). Manque d'informations précises sur le vent en semaine 2, et sur les températures minimales pour de nombreuses zones.
-- **Modèles sous-documentés :** AROME/ARPEGE (modèles fines échelles) non discutés sur le forum pour l'échéance S2. AIFS très peu documenté (1 seul membre).
-- **Incertitudes images :** Les cartes de cumuls de pluie postées sur le forum sont très fluctuantes et peu fiables ; les images d'animation des runs déterministes à J+10 pour le jet stream sont jugées peu fiables par les membres eux-mêmes.
+- **Timing/Chronologie :** Doutes sur le timing exact de la baisse des champs en fin de semaine 1 et sur le basculement éventuel du jet autour du 20 septembre.
+- **Localisation :** L’extension géographique de la hausse thermique et de la dégradation orageuse reste floue : sud uniquement ou remontée vers le nord ?
+- **Intensité :** Intensité de la chaleur au sud (850 hPa sous 20°C) et du vent en Méditerranée, notamment dans le golfe du Lion.
+- **Informations manquantes :** Cumuls de pluie, évolution des sols, températures minimales, risques orageux localisés et indices de confiance par zone.
+- **Modèles sous-documentés :** AIFS et GFS seuls évoqués ; ECMWF long terme utilisé indirectement ; aucune sortie AROME, ARPEGE, ICON ou UKMO dans les extraits.
+- **Incertitudes images :** Les cartes citées (graphiques de géopotentiels, runs GFS/AIFS) ne sont pas reproductibles dans le texte ; leur fiabilité à longue échéance est incertaine.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-☀️ [ANALYSE MÉTÉO] Le verrouillage anticyclonique se poursuit en France pour ce mois de septembre. La semaine à venir (14-20) sera marquée par un temps sec et ensoleillé, avec un pic de chaleur attendu mardi (jusqu'à 33°C dans le Sud-Ouest) avant un rafraîchissement net jeudi. 🌡️ La sécheresse reste préoccupante, et l'absence de pluies généralisées devrait se poursuivre la semaine suivante. Les incertitudes demeurent fortes pour la fin du mois. 🌍 #Météo #Septembre #Climat #Prévisions
+📅 Point météo du 11 septembre 2026 pour les deux prochaines semaines. Semaine 1 (14-20 septembre) : temps anticyclonique, hausse progressive des températures, surtout au sud, avec une possible petite dégradation en fin de semaine. Semaine 2 (21-27 septembre) : grande incertitude, sujet pas encore ouvert sur le forum ; le jet pourrait basculer vers le 20 septembre. Prudence, conditionnel et suivi des runs GFS/AIFS. #Météo #Prévisions #Anticyclone #Infoclimat
