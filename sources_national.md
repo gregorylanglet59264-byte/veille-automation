@@ -308,12 +308,12 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : La saison des champignons bat son plein...
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Bugs sur Infoclimat #2
+• Infoclimat Direct : Le temps au Brésil
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,43 +321,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 11 Septembre 2026.
-Résumé général précédent : : Force, anticyclone dominant au sul des îles, event days, absence de pluie malgré un fléchissement thermimétriques (fldg25 back toe make, léger retroceschancé a marquéees temp) ** simplified**..
+Résumé général précédent : Sur l'ensemble des deux semaines, le temps restera dominé par un puissant anticyclone, avec un ensoleillement généreux, des températures très supérieures aux normales en début de période, puis un léger rafraîchissement possible en milieu de semaine 1, avant une probable remontée. Les précipitations seront quasiment absentes, ce qui aggrave une sécheresse déjà préoccupante..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Poursuite d’un temps sec et ensoleillé, chaleur estivale sous une courte période, puis léger rafraîchissement transitoire par le Nord-Ouest en fin de semaine..
+Températures attendues précédemment : Cumuls infimes, 3 mm seulement à Paris jusqu'au 27/09 ; net contraste thermique entre le nord-ouest frais et le sud chaud..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: nickdu77
-Message:
-On a peut-être une bonne chance tout à fait infime que ça se débloque un peu - au moins au nord- vers l'équinoxe. Même si l'horizon est très lointain, on pourrait commencer à avoir un basculement du jet vers le 20 septembre et ça commencerait à devenir un peu plus consistant avec des vitesses de vent &gt;200 km/h. Le début d'un "wind of change" (ça parlera aux vieux comme moi ...)?
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
-
-=======================
-
-Auteur: nickdu77
-Message:
-Il y a 1 heure, Krholam a dit :
-			Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
-	On est bien d'accord. C'est pour ça que j'ai parlé de chances infimes mais ce que je trouve également intéressant, c'est l'augmentation de la puissance du jet. Je croise les doigts pour que ce soit ce qui se passe au final et qu'il pleuve enfin et qu'on sorte de ce jour sans fin.
-								3
-
-=======================
-
-Auteur: nickdu77
-Message:
-Il y a 8 heures, pegaze9 a dit :
-			Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
-	Je n'ai pas la réponse mais bienvenu sur le forum. 😀
-								2
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
@@ -371,7 +340,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 22 heures par Neigedu38
+	Modifié hier à 19:01 par Neigedu38
 								1
 								4
 
@@ -396,7 +365,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 20 heures par giec 2100
+	Modifié il y a 22 heures par giec 2100
 								3
 
 =======================
@@ -445,7 +414,7 @@ C'est à se demander si comme on avait fait en hiver une année recherche de sig
 								1
 								2
 								7
-								8
+								9
 
 =======================
 
@@ -465,7 +434,7 @@ il y a 11 minutes, Banleve7519 a dit :
 			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
 			Moyenne de l’ensemble européen pour le 16 septembre:
 	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
-								4
+								5
 
 =======================
 
@@ -491,10 +460,11 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 3 heures par nickdu77
+	Modifié il y a 5 heures par nickdu77
 Erreur de frappe
 								1
 								1
+								2
 
 =======================
 
@@ -507,7 +477,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 2 heures par Nicolas L
+	Modifié il y a 4 heures par Nicolas L
 								4
 								1
 
@@ -515,40 +485,45 @@ Il y a 8 heures, Jean-Séb a dit :
 
 Auteur: Victor hurricane tempête
 Message:
+En attente de suppression.
+	Modifié il y a 40 minutes par Victor hurricane tempête
+Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
+								1
+								1
 
+=======================
+
+Auteur: giec 2100
+Message:
+@Victor hurricane tempête un point d'exclamation en réaction au message vide !
+	mais c'est peut-être intentionnel ce blanc ?
+	ben oui, comme cette synoptique perpétuelle de blocages anticycloniques nous donne toujours les même perspectives je pensais que ce message de vacuité était un hommage aux prévisionnistes météo, désormais inutiles... !
+	comme quoi il y aussi les anticyclones comme tueurs des professions intellectuelles, avec ici l'IA qui n'y est pour rien...
+	bon, plus sérieusement, toujours avec cette maudite IA je me demande si l'on pourrait essayer, toujours dans la démarche historique, de récupérer tous les derniers quadrimestres depuis le début du XXe s. pour voir s'il a pu exister une série terrible de quatre mois sans pluie, ou approchant, et voir quel type de synoptique accompagne ce genre de phénomène...
+								1
+								1
+
+=======================
+
+Auteur: Turquoise_ExNico41
+Message:
+Il y a 2 heures, Victor hurricane tempête a dit :
+	Je n'arrive pas à voir ton illustration. Je ne vois pas de message
+
+=======================
+
+Auteur: bernardt60
+Message:
+Et puis tant qu'il ne passe rien de côté là pour donner un coup de pouce à de l'agitation sur  l'Atlantique:
+								1
+
+=======================
+
+Auteur: superbolt
+Message:
+C'est déjà arrivé une saison blanche? Sans aucun ouragan sur l'atlantique?
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: nickdu77
-Message:
-On a peut-être une bonne chance tout à fait infime que ça se débloque un peu - au moins au nord- vers l'équinoxe. Même si l'horizon est très lointain, on pourrait commencer à avoir un basculement du jet vers le 20 septembre et ça commencerait à devenir un peu plus consistant avec des vitesses de vent &gt;200 km/h. Le début d'un "wind of change" (ça parlera aux vieux comme moi ...)?
-								1
-
-=======================
-
-Auteur: Krholam
-Message:
-Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
-
-=======================
-
-Auteur: nickdu77
-Message:
-Il y a 1 heure, Krholam a dit :
-			Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
-	On est bien d'accord. C'est pour ça que j'ai parlé de chances infimes mais ce que je trouve également intéressant, c'est l'augmentation de la puissance du jet. Je croise les doigts pour que ce soit ce qui se passe au final et qu'il pleuve enfin et qu'on sorte de ce jour sans fin.
-								3
-
-=======================
-
-Auteur: nickdu77
-Message:
-Il y a 8 heures, pegaze9 a dit :
-			Bonjour, ceci est mon premier message sur ce forum, mais ca fait un moment que je vous lis sans intervenir. Je me posais la question si l'absence de changement de régime pour ce mois de septembre, avec cette ceinture subtropicale qui ne nous lâche pas, pouvait être liée à l'absence totale de cyclone dans l'atlantique cette année, alors que nous sommes au pic de la saison? Merci pour vos réponses éclairées. 🙂
-	Je n'ai pas la réponse mais bienvenu sur le forum. 😀
-								2
-
-=======================
-
 Auteur: petit âge glaciaire 11
 Message:
 Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dans le nord on ne peut qu'espérer que cela va changer :
@@ -562,7 +537,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 22 heures par Neigedu38
+	Modifié hier à 19:01 par Neigedu38
 								1
 								4
 
@@ -587,7 +562,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 20 heures par giec 2100
+	Modifié il y a 22 heures par giec 2100
 								3
 
 =======================
@@ -636,7 +611,7 @@ C'est à se demander si comme on avait fait en hiver une année recherche de sig
 								1
 								2
 								7
-								8
+								9
 
 =======================
 
@@ -656,7 +631,7 @@ il y a 11 minutes, Banleve7519 a dit :
 			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
 			Moyenne de l’ensemble européen pour le 16 septembre:
 	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
-								4
+								5
 
 =======================
 
@@ -682,10 +657,11 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 3 heures par nickdu77
+	Modifié il y a 5 heures par nickdu77
 Erreur de frappe
 								1
 								1
+								2
 
 =======================
 
@@ -698,7 +674,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 2 heures par Nicolas L
+	Modifié il y a 4 heures par Nicolas L
 								4
 								1
 
@@ -706,4 +682,40 @@ Il y a 8 heures, Jean-Séb a dit :
 
 Auteur: Victor hurricane tempête
 Message:
+En attente de suppression.
+	Modifié il y a 40 minutes par Victor hurricane tempête
+Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
+								1
+								1
 
+=======================
+
+Auteur: giec 2100
+Message:
+@Victor hurricane tempête un point d'exclamation en réaction au message vide !
+	mais c'est peut-être intentionnel ce blanc ?
+	ben oui, comme cette synoptique perpétuelle de blocages anticycloniques nous donne toujours les même perspectives je pensais que ce message de vacuité était un hommage aux prévisionnistes météo, désormais inutiles... !
+	comme quoi il y aussi les anticyclones comme tueurs des professions intellectuelles, avec ici l'IA qui n'y est pour rien...
+	bon, plus sérieusement, toujours avec cette maudite IA je me demande si l'on pourrait essayer, toujours dans la démarche historique, de récupérer tous les derniers quadrimestres depuis le début du XXe s. pour voir s'il a pu exister une série terrible de quatre mois sans pluie, ou approchant, et voir quel type de synoptique accompagne ce genre de phénomène...
+								1
+								1
+
+=======================
+
+Auteur: Turquoise_ExNico41
+Message:
+Il y a 2 heures, Victor hurricane tempête a dit :
+	Je n'arrive pas à voir ton illustration. Je ne vois pas de message
+
+=======================
+
+Auteur: bernardt60
+Message:
+Et puis tant qu'il ne passe rien de côté là pour donner un coup de pouce à de l'agitation sur  l'Atlantique:
+								1
+
+=======================
+
+Auteur: superbolt
+Message:
+C'est déjà arrivé une saison blanche? Sans aucun ouragan sur l'atlantique?
