@@ -302,12 +302,12 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord - Septembre 2026
 • Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : La saison des champignons bat son plein...
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -315,30 +315,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 11 Septembre 2026.
-Résumé général HDF précédent : Tendance générale sur 15 jours (14-27 septembre) : maintien probable d'un temps sec et doux sous anticyclone, avec une possible mais très incertaine dégradation à partir du 21-22 septembre. La sécheresse de surface reste préoccupante, aucune pluie significative en vue pour les Hauts-de-France..
+Résumé général HDF précédent : Sur l'ensemble des 15 jours (14-27 septembre), maintien probable d'un temps sec et doux sous anticyclone en première semaine, puis possible dégradation plus fraîche et ventée à partir du 21-22 septembre. La frontière entre les deux régimes est très incertaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Soleil dominant, passages nuageux, averses isolées possibles mardi/mercredi, pluies localisées samedi matin..
+Températures attendues précédemment : Sec et doux, 20 à 25°C, vent ouest 20-35 km/h, rafales possibles..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Oui les températures vont monter nettement surtout dans le sud mais cela devrait se faire progressivement et il semble que cela ne sera pas trop durable, les températures a 850hpa devraient rester cantonnées au dessous des 20 degrés, sachant que biensur cela peut encore évoluer.
-	Avec des journées bien plus courtes cela devrait etre plus supportable que cet été et sutement moins excessif que le tout dernier épisode que nous venons de vivre il y a quelques jours.
-	Pour moi la préoccupation principale reste la sécheresse et l'absence de précipitations dans les modélisations. 
-	Dans le sud-ouest, mercredi cela va bien baisser à nouveau après avoir frôlé les 20 degrés à 850hpa. 
-	Dans le sud-est on se situerait plutôt vers les 17 degrés à 850hpa ce qui est quand-même beaucoup pour la saison. 
-	Mardi et mercredi on pourrait avoir à nouveau, ici et la , notamment dans le sud-ouest,  des températures supérieures à 30 degrés,  et pourquoi pas approcher  ponctuellement les 35 degrés ?
-	Ensemble CEP :
-	Toulouse :
-	Aix-en-Provence :
-	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié hier à 10:44 par petit âge glaciaire 11
-Modifié
-								2
-
-=======================
-
 Auteur: nickdu77
 Message:
 On a peut-être une bonne chance tout à fait infime que ça se débloque un peu - au moins au nord- vers l'équinoxe. Même si l'horizon est très lointain, on pourrait commencer à avoir un basculement du jet vers le 20 septembre et ça commencerait à devenir un peu plus consistant avec des vitesses de vent &gt;200 km/h. Le début d'un "wind of change" (ça parlera aux vieux comme moi ...)?
@@ -383,7 +365,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 20 heures par Neigedu38
+	Modifié il y a 22 heures par Neigedu38
 								1
 								4
 
@@ -408,7 +390,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 18 heures par giec 2100
+	Modifié il y a 20 heures par giec 2100
 								3
 
 =======================
@@ -456,8 +438,8 @@ C'est à se demander si comme on avait fait en hiver une année recherche de sig
 	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
 								1
 								2
-								6
-								6
+								7
+								8
 
 =======================
 
@@ -477,7 +459,7 @@ il y a 11 minutes, Banleve7519 a dit :
 			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
 			Moyenne de l’ensemble européen pour le 16 septembre:
 	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
-								3
+								4
 
 =======================
 
@@ -503,7 +485,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 1 heure par nickdu77
+	Modifié il y a 3 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -519,28 +501,17 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 27 minutes par Nicolas L
-								2
+	Modifié il y a 2 heures par Nicolas L
+								4
+								1
+
+=======================
+
+Auteur: Victor hurricane tempête
+Message:
+
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Oui les températures vont monter nettement surtout dans le sud mais cela devrait se faire progressivement et il semble que cela ne sera pas trop durable, les températures a 850hpa devraient rester cantonnées au dessous des 20 degrés, sachant que biensur cela peut encore évoluer.
-	Avec des journées bien plus courtes cela devrait etre plus supportable que cet été et sutement moins excessif que le tout dernier épisode que nous venons de vivre il y a quelques jours.
-	Pour moi la préoccupation principale reste la sécheresse et l'absence de précipitations dans les modélisations. 
-	Dans le sud-ouest, mercredi cela va bien baisser à nouveau après avoir frôlé les 20 degrés à 850hpa. 
-	Dans le sud-est on se situerait plutôt vers les 17 degrés à 850hpa ce qui est quand-même beaucoup pour la saison. 
-	Mardi et mercredi on pourrait avoir à nouveau, ici et la , notamment dans le sud-ouest,  des températures supérieures à 30 degrés,  et pourquoi pas approcher  ponctuellement les 35 degrés ?
-	Ensemble CEP :
-	Toulouse :
-	Aix-en-Provence :
-	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié hier à 10:44 par petit âge glaciaire 11
-Modifié
-								2
-
-=======================
-
 Auteur: nickdu77
 Message:
 On a peut-être une bonne chance tout à fait infime que ça se débloque un peu - au moins au nord- vers l'équinoxe. Même si l'horizon est très lointain, on pourrait commencer à avoir un basculement du jet vers le 20 septembre et ça commencerait à devenir un peu plus consistant avec des vitesses de vent &gt;200 km/h. Le début d'un "wind of change" (ça parlera aux vieux comme moi ...)?
@@ -585,7 +556,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 20 heures par Neigedu38
+	Modifié il y a 22 heures par Neigedu38
 								1
 								4
 
@@ -610,7 +581,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 18 heures par giec 2100
+	Modifié il y a 20 heures par giec 2100
 								3
 
 =======================
@@ -658,8 +629,8 @@ C'est à se demander si comme on avait fait en hiver une année recherche de sig
 	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
 								1
 								2
-								6
-								6
+								7
+								8
 
 =======================
 
@@ -679,7 +650,7 @@ il y a 11 minutes, Banleve7519 a dit :
 			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
 			Moyenne de l’ensemble européen pour le 16 septembre:
 	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
-								3
+								4
 
 =======================
 
@@ -705,7 +676,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 1 heure par nickdu77
+	Modifié il y a 3 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -721,5 +692,12 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 27 minutes par Nicolas L
-								2
+	Modifié il y a 2 heures par Nicolas L
+								4
+								1
+
+=======================
+
+Auteur: Victor hurricane tempête
+Message:
+

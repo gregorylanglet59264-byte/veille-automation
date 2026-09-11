@@ -285,7 +285,7 @@ Températures minimales : identiques à la veille.
 Températures maximales : en hausse dans le Volvestre ainsi que dans le Saint-Gaudinois.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 110930 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 11 septembre 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 11 septembre 2026 à 06H00 UTC, et évolution Zone dépressionnaire près de 1013 hPa de la Côte d'Azur à la Mer Tyrrhénienne, se comblant progressivement 1016 hPa aujourd'hui, puis prévue 1017 hPa sur la Mer Tyrrhénienne demain après-midi. Anticyclone 1020 hPa sur l'Espagne, se renforçant 1025 hPa sur la France la nuit. 3 - Prévisions pour l'après-midi du vendredi 11 septembre VENT : - à l'ouest du Levant : Ouest à Nord-Ouest 4 à 5, localement 5 à 6 du Cap Crosiette à Porquerolles, revenant secteur Ouest en fin d'après-midi. - à l'est du Levant : secteur Sud-Ouest 2 à 4. MER : peu agitée à agité de Beauduc au Levant, belle à peu agitée ailleurs. HOULE : Ouest 0.5 à 1 m à l'est de Porquerolles, non significative ailleurs. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du vendredi 11 septembre au samedi 12 septembre VENT : - à l'ouest de Sicié : Ouest à Nord-Ouest 4 à 5, virant Nord à Nord-Ouest en milieu de nuit, parfois 6, mais mollissant secteur Nord 2 à 4 à l'est du Cap Croisette. - à l'est de Sicié : Variable dépressionnaire 2 à 4, mais Nord-Ouest 4 à 5 à l'ouest du Levant au début, s'orientant Nord-Est 3 à 4 en milieu de nuit. MER : peu agitée, localement agitée au large des îles d'Hyères en première partie de nuit. HOULE : Ouest 0.5 à 1 m, jusqu'à 1.5 m au large du Levant en début de nuit. TEMPS : ciel clair. VISIBILITE : bonne. 5 - Prévisions pour la journée du samedi 12 septembre VENT : - à l'ouest de Sicié : Nord 2 à 4, localement 5 à l'ouest de Beauduc au début, revenant secteur Ouest dominant 2 à 3 l'après-midi. - à l'est de Sicié : secteur Nord-Est 2 à 4, devenant Variable 1 à 3 l'après-midi. MER : belle à peu agitée. HOULE : Ouest 0.5 à 1 m à l'est du Cap Croisette, devenant non significative l'après-midi. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 12 au 13 et la journée du dimanche 13 septembre VENT : Ouest à Nord-Ouest 1 à 3, fraîchissant Nord à Nord-Ouest 3 à 4 à l'ouest du Cap Croisette en fin de soirée, mais devenant Variable 1 à 3 ailleurs, puis s'orientant Ouest à Sud-Ouest 2 à 4 partout l'après-midi. MER : belle, temporairement peu agitée au large de Beauduc le matin. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 13 au 14 et la journée du lundi 14 septembre VENT : Ouest à Sud-Ouest 2 à 4, mollissant en cours de matinée en virant Nord à Nord-Ouest puis devenant variable faible. MER : belle à peu agitée. Pas de houle significative. 8 - Tendance pour les jours suivants Mardi 15 septembre Secteur Sud-Est faible à modéré dans le golfe du Lion et en Provence. Secteur Nord-Ouest à l'est de la Corse. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Ouest modéré à assez fort. Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Ouest fiable à modéré. Secteur Est faible à modéré en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 Vendredi 18 septembre Secteur Ouest modéré à assez fort. Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 9 - Observations le vendredi 11 septembre 2026 à 09H00 UTC Cap Camarat : vent Nord-Est 6 noeuds, nuageux avec éclaircies. Cap Cepet : vent Sud-Sud-Ouest 2 noeuds, nuageux avec éclaircies, visibilité 10 milles. Le Levant : vent Nord-Ouest 2 noeuds, 1016 hPa en hausse. Porquerolles : vent Ouest-Nord-Ouest 6 noeuds. Cap Couronne : vent Nord-Ouest 12 noeuds. Prochain bulletin le vendredi 11 septembre 2026, vers 18H30 légales
+FQCT40 LFML 111610 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le vendredi 11 septembre 2026 à 18H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale vendredi 11 septembre 2026 à 12H00 UTC, et évolution Zone dépressionnaire près de 1016 hPa de la Côte d'Azur à la Mer Tyrrhénienne, prévue 1018 hPa sur la Mer Tyrrhénienne demain matin. Anticyclone 1020 hPa sur l'Espagne, se renforçant 1025 hPa sur la France la nuit. 3 - Prévisions pour la nuit du vendredi 11 septembre au samedi 12 septembre VENT : - à l'ouest de Sicié : Ouest à Nord-Ouest 4 à 5, virant Nord à Nord-Ouest en milieu de nuit, parfois 6, mais mollissant secteur Nord 2 à 4 à l'est du Cap Croisette. - à l'est de Sicié : Variable dépressionnaire 2 à 4, mais Nord-Ouest 4 à 5 à l'ouest du Levant au début, s'orientant Est à Nord-Est 3 à 4 en milieu de nuit. MER : peu agitée, localement agitée au large des îles d'Hyères en première partie de nuit. HOULE : Ouest 0.5 à 1 m. TEMPS : ciel clair. VISIBILITE : bonne. 4 - Prévisions pour la journée du samedi 12 septembre VENT : - à l'ouest de Sicié : Nord 2 à 4, localement 5 à l'ouest de Beauduc au début, revenant secteur Ouest dominant 2 à 3 l'après-midi. - à l'est de Sicié : secteur Nord-Est 2 à 4, devenant Variable 1 à 3 l'après-midi. MER : belle à peu agitée. HOULE : Ouest 0.5 à 1 m à l'est du Cap Croisette, devenant non significative l'après-midi. TEMPS : ensoleillé, passagèrement nuageux à l'est de Sicié le matin. VISIBILITE : bonne. 5 - Tendance pour la nuit du 12 au 13, et la journée du dimanche 13 septembre VENT : Ouest à Nord-Ouest 1 à 3, fraîchissant Nord à Nord-Ouest 3 à 4 à l'ouest du Cap Croisette en milieu de nuit, mais devenant Variable 1 à 3 ailleurs, puis s'orientant Ouest à Sud-Ouest 2 à 4 partout l'après-midi. MER : belle, temporairement peu agitée au large de Beauduc le matin. HOULE : non significative. TEMPS : ciel clair. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 13 au 14 et la journée du lundi 14 septembre VENT : Ouest à Sud-Ouest 2 à 4, mollissant en cours de matinée en virant Nord à Nord-Ouest puis devenant variable faible. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Mardi 15 septembre Secteur Sud-Est faible à modéré dans le golfe du Lion et en Provence. Secteur Nord-Ouest à l'est de la Corse. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Ouest modéré à assez fort. Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Ouest fiable à modéré. Secteur Est faible à modéré en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 Vendredi 18 septembre Secteur Ouest modéré à assez fort. Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 8 - Observations le vendredi 11 septembre 2026 à 15H00 UTC Cap Camarat : vent Sud-Sud-Ouest 12 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Ouest 12 noeuds. Le Levant : vent Sud-Ouest 8 noeuds, 1016 hPa en baisse. Porquerolles : vent Ouest-Sud-Ouest 12 noeuds. Cap Couronne : vent Nord-Ouest 16 noeuds, rafales 27 noeuds. Prochain bulletin le samedi 12 septembre 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -308,12 +308,12 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
 • Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Résolution des équations de Navier-Stokes ?
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
+• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : La saison des champignons bat son plein...
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 11/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -321,30 +321,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Vendredi 11 Septembre 2026.
-Résumé général précédent : Sur la quinzaine, la France reste dominée par un puissant anticyclone. Le temps est sec, très ensoleillé et chaud pour la saison. Une dégradation orageuse ou pluvieuse pourrait se dessiner en toute fin de période, mais reste très incertaine..
+Résumé général précédent : : Force, anticyclone dominant au sul des îles, event days, absence de pluie malgré un fléchissement thermimétriques (fldg25 back toe make, léger retroceschancé a marquéees temp) ** simplified**..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Chaleur marquée dans le sud, orages possibles dans le nord-est en milieu de semaine..
+Températures attendues précédemment : Poursuite d’un temps sec et ensoleillé, chaleur estivale sous une courte période, puis léger rafraîchissement transitoire par le Nord-Ouest en fin de semaine..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Oui les températures vont monter nettement surtout dans le sud mais cela devrait se faire progressivement et il semble que cela ne sera pas trop durable, les températures a 850hpa devraient rester cantonnées au dessous des 20 degrés, sachant que biensur cela peut encore évoluer.
-	Avec des journées bien plus courtes cela devrait etre plus supportable que cet été et sutement moins excessif que le tout dernier épisode que nous venons de vivre il y a quelques jours.
-	Pour moi la préoccupation principale reste la sécheresse et l'absence de précipitations dans les modélisations. 
-	Dans le sud-ouest, mercredi cela va bien baisser à nouveau après avoir frôlé les 20 degrés à 850hpa. 
-	Dans le sud-est on se situerait plutôt vers les 17 degrés à 850hpa ce qui est quand-même beaucoup pour la saison. 
-	Mardi et mercredi on pourrait avoir à nouveau, ici et la , notamment dans le sud-ouest,  des températures supérieures à 30 degrés,  et pourquoi pas approcher  ponctuellement les 35 degrés ?
-	Ensemble CEP :
-	Toulouse :
-	Aix-en-Provence :
-	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié hier à 10:44 par petit âge glaciaire 11
-Modifié
-								2
-
-=======================
-
 Auteur: nickdu77
 Message:
 On a peut-être une bonne chance tout à fait infime que ça se débloque un peu - au moins au nord- vers l'équinoxe. Même si l'horizon est très lointain, on pourrait commencer à avoir un basculement du jet vers le 20 septembre et ça commencerait à devenir un peu plus consistant avec des vitesses de vent &gt;200 km/h. Le début d'un "wind of change" (ça parlera aux vieux comme moi ...)?
@@ -389,7 +371,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 20 heures par Neigedu38
+	Modifié il y a 22 heures par Neigedu38
 								1
 								4
 
@@ -414,7 +396,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 18 heures par giec 2100
+	Modifié il y a 20 heures par giec 2100
 								3
 
 =======================
@@ -462,8 +444,8 @@ C'est à se demander si comme on avait fait en hiver une année recherche de sig
 	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
 								1
 								2
-								6
-								6
+								7
+								8
 
 =======================
 
@@ -483,7 +465,7 @@ il y a 11 minutes, Banleve7519 a dit :
 			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
 			Moyenne de l’ensemble européen pour le 16 septembre:
 	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
-								3
+								4
 
 =======================
 
@@ -509,7 +491,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 1 heure par nickdu77
+	Modifié il y a 3 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -525,28 +507,17 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 27 minutes par Nicolas L
-								2
+	Modifié il y a 2 heures par Nicolas L
+								4
+								1
+
+=======================
+
+Auteur: Victor hurricane tempête
+Message:
+
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: petit âge glaciaire 11
-Message:
-Oui les températures vont monter nettement surtout dans le sud mais cela devrait se faire progressivement et il semble que cela ne sera pas trop durable, les températures a 850hpa devraient rester cantonnées au dessous des 20 degrés, sachant que biensur cela peut encore évoluer.
-	Avec des journées bien plus courtes cela devrait etre plus supportable que cet été et sutement moins excessif que le tout dernier épisode que nous venons de vivre il y a quelques jours.
-	Pour moi la préoccupation principale reste la sécheresse et l'absence de précipitations dans les modélisations. 
-	Dans le sud-ouest, mercredi cela va bien baisser à nouveau après avoir frôlé les 20 degrés à 850hpa. 
-	Dans le sud-est on se situerait plutôt vers les 17 degrés à 850hpa ce qui est quand-même beaucoup pour la saison. 
-	Mardi et mercredi on pourrait avoir à nouveau, ici et la , notamment dans le sud-ouest,  des températures supérieures à 30 degrés,  et pourquoi pas approcher  ponctuellement les 35 degrés ?
-	Ensemble CEP :
-	Toulouse :
-	Aix-en-Provence :
-	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié hier à 10:44 par petit âge glaciaire 11
-Modifié
-								2
-
-=======================
-
 Auteur: nickdu77
 Message:
 On a peut-être une bonne chance tout à fait infime que ça se débloque un peu - au moins au nord- vers l'équinoxe. Même si l'horizon est très lointain, on pourrait commencer à avoir un basculement du jet vers le 20 septembre et ça commencerait à devenir un peu plus consistant avec des vitesses de vent &gt;200 km/h. Le début d'un "wind of change" (ça parlera aux vieux comme moi ...)?
@@ -591,7 +562,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 20 heures par Neigedu38
+	Modifié il y a 22 heures par Neigedu38
 								1
 								4
 
@@ -616,7 +587,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 18 heures par giec 2100
+	Modifié il y a 20 heures par giec 2100
 								3
 
 =======================
@@ -664,8 +635,8 @@ C'est à se demander si comme on avait fait en hiver une année recherche de sig
 	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
 								1
 								2
-								6
-								6
+								7
+								8
 
 =======================
 
@@ -685,7 +656,7 @@ il y a 11 minutes, Banleve7519 a dit :
 			J’ai trouvé une bonne analogie avec ce qu’on est en train de vivre, septembre 1997:
 			Moyenne de l’ensemble européen pour le 16 septembre:
 	Oui mais il y avait une différence de taille : on sortait d'un mois d'août à plus de 100 mm sur Paris par exemple. Là ce qui est ennuyeux, c'est la durée de l'épisode de sécheresse et le fait qu'on ne voit pas de porte de sortie. Et même s'il se remettait à pleuvoir demain, il faudrait déjà que les sols se réhumidifient (quelques semaines selon les sols, que la végétation - enfin celle qui est encore vivante - prenne ce dont elle a besoin avant que ça n'arrive aux nappes largement vidangées. Cette année est un véritable enfer et j'espère qu'on va en sortir.
-								3
+								4
 
 =======================
 
@@ -711,7 +682,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 1 heure par nickdu77
+	Modifié il y a 3 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -727,5 +698,12 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 27 minutes par Nicolas L
-								2
+	Modifié il y a 2 heures par Nicolas L
+								4
+								1
+
+=======================
+
+Auteur: Victor hurricane tempête
+Message:
+
