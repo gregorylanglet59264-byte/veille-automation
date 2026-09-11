@@ -15,45 +15,45 @@ TRANSPARENCE SUJETS FORUM INFOCLIMAT :
 
 === BULLETINS OFFICIELS MÉTÉO-FRANCE METEOTEL (XML 22SPC / SCHAPI05 EN DIRECT) ===
 === BULLETIN DÉPARTEMENTAL NORD (DEPT59) ===
-Emis le : 11/09/2026 06:30
+Emis le : 11/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Nord est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Lille-Lesquin : température de 15 degrés, vent de secteur Sud soufflant jusqu'à 15 km/h, pression niveau mer 1018 hPa.
-A Dunkerque : température de 16 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 20 km/h.
+Aujourd'hui on observait à 09h :
+A Lille-Lesquin : température de 16 degrés, vent de secteur Sud soufflant jusqu'à 20 km/h, pression niveau mer 1019 hPa.
+A Dunkerque : température de 16 degrés, vent de secteur Sud soufflant jusqu'à 20 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui vendredi 11 :
 De nombreux nuages encombrent le ciel en matinée et peuvent même donner quelques gouttes sur le Valenciennois et le Cambrésis ainsi qu'en Flandres. L'après-midi, le temps devient plus changeant, éclaircies et passages nuageux se disputent le ciel. Les nuages sont inoffensifs.
-5 millimètres est le cumul maximum de pluie attendu en Flandre maritime.
-Vent d'Ouest à Sud-Ouest virant Ouest à Nord-Ouest, modéré, jusqu'en milieu d'après-midi ; puis atténuation.
-Températures maximales : comprises entre 21 et 23 degrés.
+Les plus forts cumuls de pluie peuvent avoisiner 5 millimètres en Flandre maritime.
+Vent d'Ouest à Sud-Ouest virant Ouest à Nord-Ouest modéré, jusqu'en milieu d'après-midi ; puis s'atténuant.
+Températures maximales : de 21 à 23 degrés.
 
 • Pour la nuit prochaine :
 La soirée est claire, malgré la présence de quelques nuages dans le ciel. Des brouillards se forment, principalement en seconde partie de nuit, dans l'intérieur.
-Vent faible, variable.
+Vent variable, faible.
 Températures minimales : dans l'intérieur comprises entre 10 et 12 degrés. 14 degrés en Flandre maritime.
 
 • Pour demain samedi 12 en journée et la nuit suivante :
 Le temps est lumineux. Les nuages peu nombreux se partagent le ciel avec des éclaircies. Pour la nuit : La soirée débute sous un ciel étoilé où quelques nuages sont présents. En fin de nuit les nuages se font plus nombreux et quelques averses sont possibles en Flandre maritime.
-Etablissement, en début de nuit, d'un vent de Sud-Ouest assez fort, en Flandre maritime ; atténuation ensuite.
+En début de nuit, vent s'établissant au Sud-Ouest assez fort, en Flandre maritime ; puis atténuation.
 Températures maximales pour le jour : entre 22 et 24 degrés.
-Températures minimales pour la nuit suivante : dans l'intérieur entre 12 et 15 degrés. 17 degrés en Flandre maritime.
+Températures minimales pour la nuit suivante : dans l'intérieur de 12 à 15 degrés. 17 degrés en Flandre maritime.
 
 • Pour la journée de dimanche 13 et la nuit suivante :
 Les éclaircies sont timides et les nuages sont menaçants. Ils apportent quelques averses. L'après-midi, le soleil gagne du terrain en Flandres. Pour la nuit : Nuages et éclaircies se partagent le ciel toute la nuit. Des brumes, parfois des bancs de brouillard, se forment en cours de nuit dans l'intérieur.
-Vent d'Ouest modéré, en journée et début de nuit ; puis s'atténuant.
-Températures maximales pour le jour : de 21 à 23 degrés.
+En journée et début de nuit, vent d'Ouest, modéré ; puis faiblissant.
+Températures maximales pour le jour : comprises entre 21 et 23 degrés.
 Températures minimales pour la nuit suivante : 15 degrés.
 
 • Pour la journée de lundi 14 :
 Le ciel est partiellement nuageux et des brumes et brouillards se forment çà et là sur l'Avesnois. Ils se dissipent plus ou moins rapidement en matinée et laissent place à une après-midi bien ensoleillée.
-Vent d'Ouest à Sud-Ouest, généralement modéré.
-Températures maximales : entre 22 et 25 degrés.
+Vent généralement modéré, d'Ouest à Sud-Ouest.
+Températures maximales : de 22 à 25 degrés.
 
 • Pour mardi 15 et mercredi 16 :
 Éclaircies prédominantes, risque de pluie ou d'averses temporaire.
@@ -74,44 +74,44 @@ Températures minimales : identiques à la veille.
 Températures maximales : sans changement significatif.
 
 === BULLETIN DÉPARTEMENTAL PAS-DE-CALAIS (DEPT62) ===
-Emis le : 11/09/2026 06:30
+Emis le : 11/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département du Pas-de-Calais est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Arras : température de 14 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 10 km/h.
-A Boulogne-Sémaphore : température de 18 degrés, vent de secteur Ouest Sud-Ouest soufflant jusqu'à 45 km/h.
+Aujourd'hui on observait à 09h :
+A Arras : température de 15 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 15 km/h.
+A Boulogne-Sémaphore : température de 18 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 45 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui vendredi 11 :
 Quelques averses sont attendues en début de matinée, sur les côtes de la Manche, de l'Audomarois au Béthunois ainsi que sur les reliefs de l'Artois, mais elles cessent rapidement. Ensuite, le reste de la journée est partout agréable, sous un ciel peu nuageux, parfois voilé.
-Vent de secteur Ouest, modéré, jusqu'en milieu d'après-midi ; puis atténuation.
-Températures maximales : comprises entre 20 et 22 degrés.
+Jusqu'en milieu d'après-midi, vent de secteur Ouest, modéré ; puis faiblissant.
+Températures maximales : de 20 à 22 degrés.
 
 • Pour la nuit prochaine :
 Les quelques averses, attendues en soirée, cessent rapidement. Le temps est sec pour le reste de la nuit. Après minuit, des brumes commencent à se former sur les côtes de la Manche, sur le Ternois ainsi que sur la plaine d'Arras, et en toute fin de nuit elles sont partout présentes.
-Vent faible, variable.
+Vent variable, faible.
 Températures minimales : de 12 à 14 degrés.
 
 • Pour demain samedi 12 en journée et la nuit suivante :
 Toute la journée, le ciel est bien lumineux. Les nuages déjà peu nombreux en matinée, se font encore plus discrets en cours d'après-midi. Par endroits le soleil est voilé, mais c'est tout de même l'impression de beau temps qui prédomine. Pour la nuit : Les nuages sont peu nombreux en soirée. En seconde partie de nuit, ils deviennent plus nombreux, et peuvent donner une ou deux averses en fin de nuit.
-En début de nuit, vent s'établissant à l'Ouest assez fort, près de la Mer du Nord ; puis atténuation.
+Etablissement, en première partie de nuit, d'un vent d'Ouest assez fort, près de la Mer du Nord ; atténuation ensuite.
 Températures maximales pour le jour : dans l'intérieur, mais aussi dans le Calaisis entre 21 et 24 degrés. 20 degrés sur les côtes de la Manche.
 Températures minimales pour la nuit suivante : entre 14 et 17 degrés.
 
 • Pour la journée de dimanche 13 et la nuit suivante :
 De rares averses sont possibles jusqu'en milieu d'après-midi, voire jusqu'en soirée sur le Ternois ainsi que sur la plaine d'Arras. Le ciel couvert jusqu'en début d'après-midi, laisse ensuite entrevoir des éclaircies. Pour la nuit : Nuages et éclaircies se partagent le ciel toute la nuit. Des brumes, parfois des bancs de brouillard, se forment en cours de nuit dans les terres.
-Vent d'Ouest à Sud-Ouest, modéré.
+Vent modéré, d'Ouest à Sud-Ouest.
 Températures maximales pour le jour : comprises entre 20 et 22 degrés.
-Températures minimales pour la nuit suivante : entre 14 et 16 degrés.
+Températures minimales pour la nuit suivante : de 14 à 16 degrés.
 
 • Pour la journée de lundi 14 :
 Les nuages, ou parfois de la brume sur le Ternois, sont présents en début de journée. Cette couche nuageuse se morcelle en fin de matinée, laissant apparaître de belles éclaircies. L'après-midi, ces éclaircies s'élargissent.
 Vent modéré, d'Ouest à Sud-Ouest.
-Températures maximales : de 21 à 24 degrés.
+Températures maximales : comprises entre 21 et 24 degrés.
 
 • Pour mardi 15 et mercredi 16 :
 Risque de pluie ou d'averses jusqu'en fin de journée de mardi.
@@ -132,38 +132,38 @@ Températures minimales : stables.
 Températures maximales : similaires à la veille.
 
 === BULLETIN DÉPARTEMENTAL SOMME (DEPT80) ===
-Emis le : 11/09/2026 06:30
+Emis le : 11/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de la Somme est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Amiens-Glisy : température de 13 degrés, vent de secteur Sud soufflant jusqu'à 10 km/h, pression niveau mer 1019 hPa.
-A Cayeux-sur-Mer : température de 14 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 15 km/h.
+Aujourd'hui on observait à 09h :
+A Amiens-Glisy : température de 16 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 20 km/h, pression niveau mer 1020 hPa.
+A Cayeux-sur-Mer : température de 16 degrés, vent de secteur Sud Sud-Ouest soufflant jusqu'à 20 km/h.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui vendredi 11 :
 Le ciel est variable, avec des averses ici ou là en matinée au nord et à l'ouest d'Amiens. Les éclaircies sont souvent belles l'après-midi.
 Vent d'Ouest à Sud-Ouest, modéré, jusqu'en milieu d'après-midi ; puis atténuation.
-Températures maximales : comprises entre 21 et 23 degrés.
+Températures maximales : de 21 à 23 degrés.
 
 • Pour la nuit prochaine :
 La soirée est claire, malgré la présence de quelques nuages dans le ciel. Des brouillards se forment, principalement en seconde partie de nuit, dans les terres.
-Vent faible, variable.
-Températures minimales : de 10 à 12 degrés.
+Vent variable, faible.
+Températures minimales : entre 10 et 12 degrés.
 
 • Pour demain samedi 12 en journée et la nuit suivante :
 Le ciel est partiellement nuageux et des brumes et brouillards se forment çà et là sur le Vermandois. Ils se dissipent plus ou moins rapidement en matinée et laissent place à une après-midi bien ensoleillée. Pour la nuit : Le ciel est parfaitement dégagé en première partie de nuit, plus partagé ensuite. En fin de nuit, quelques averses sont possibles, sur le littoral picard.
-En fin de nuit, vent s'établissant au Sud-Ouest assez fort, sur le littoral picard.
+En fin de nuit, vent de Sud-Ouest assez fort, sur le littoral picard.
 Températures maximales pour le jour : de 21 à 24 degrés.
-Températures minimales pour la nuit suivante : dans les terres comprises entre 12 et 14 degrés. 17 degrés sur le littoral picard.
+Températures minimales pour la nuit suivante : dans les terres entre 12 et 14 degrés. 17 degrés sur le littoral picard.
 
 • Pour la journée de dimanche 13 et la nuit suivante :
 Le ciel est couvert avec de petites pluies éparses sur le Vermandois ainsi que sur les deux tiers ouest du département le matin. L'après-midi, les nuages se déchirent et laissent passer quelques rayons de soleil. De rares averses sont encore possibles, mais elles deviennent plus rares en fin de journée. Pour la nuit : Nuages et éclaircies se partagent le ciel toute la nuit. Des brumes, parfois des bancs de brouillard, se forment en cours de nuit sur le Vermandois ainsi que sur le Vimeu, le Ponthieu et le Doullennais.
 En milieu de journée, vent d'Ouest soufflant assez fort, sur le littoral picard ; puis atténuation.
-Températures maximales pour le jour : entre 20 et 23 degrés.
+Températures maximales pour le jour : comprises entre 20 et 23 degrés.
 Températures minimales pour la nuit suivante : comprises entre 15 et 16 degrés.
 
 • Pour la journée de lundi 14 :
@@ -190,38 +190,38 @@ Températures minimales : similaires à la veille.
 Températures maximales : en hausse sur le littoral picard.
 
 === BULLETIN DÉPARTEMENTAL OISE (DEPT60) ===
-Emis le : 11/09/2026 06:30
+Emis le : 11/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Oise est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Beauvais-Tillé : température de 11 degrés, vent variable faible, pression niveau mer 1019 hPa.
+Aujourd'hui on observait à 09h :
+A Beauvais-Tillé : température de 14 degrés, vent de secteur Nord soufflant jusqu'à 5 km/h, pression niveau mer 1020 hPa.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui vendredi 11 :
 En matinée, les nuages laissent place à de belles éclaircies. En cours d'après-midi, sur le Vexin français et le pays de Thelle ainsi que sur le Beauvaisis et le plateau picard, les nuages sont plus nombreux, et peuvent donner quelques averses.
-Vent d'Ouest, modéré, jusqu'en milieu d'après-midi ; puis atténuation.
-Températures maximales : de 21 à 24 degrés.
+Jusqu'en milieu d'après-midi, vent d'Ouest, modéré ; puis faiblissant.
+Températures maximales : entre 21 et 24 degrés.
 
 • Pour la nuit prochaine :
 À la faveur des éclaircies nocturnes largement présentes en début de nuit, de nombreux brouillards, parfois denses, se forment progressivement.
 Vent faible, variable.
-Températures minimales : entre 9 et 10 degrés.
+Températures minimales : de 9 à 10 degrés.
 
 • Pour demain samedi 12 en journée et la nuit suivante :
 La journée est ensoleillée malgré quelques passages nuageux. À noter toutefois en cours de matinée, sur le Vexin français et le pays de Thelle, des formations brumeuses qui se dissipent rapidement. Pour la nuit : La soirée est sans nuages. Le ciel se voile en seconde partie de nuit.
-En seconde partie de journée, vent d'Ouest, localement faible à modéré. Après une atténuation, vent s'établissant en fin de nuit, à l'Ouest-Sud-Ouest, sur le pays de Bray et la Picardie verte.
-Températures maximales pour le jour : comprises entre 22 et 24 degrés.
-Températures minimales pour la nuit suivante : comprises entre 11 et 12 degrés.
+L'après-midi, vent d'Ouest, localement faible à modéré. Nouveau renforcement en fin de nuit, sur le pays de Bray et la Picardie verte, avec orientation à l'Ouest-Sud-Ouest.
+Températures maximales pour le jour : de 22 à 24 degrés.
+Températures minimales pour la nuit suivante : entre 11 et 12 degrés.
 
 • Pour la journée de dimanche 13 et la nuit suivante :
 De larges éclaircies sont prévues, ponctuées de nuages, un peu plus présents en milieu de journée, sur le Vexin français et le pays de Thelle ainsi que sur une large moitié Nord du département. Pour la nuit : Les éclaircies sont belles en soirée, puis elles s'amenuisent. Le ciel devient très nuageux à couvert, avec des brumes après minuit, sur le pays de Bray et la Picardie verte.
-En journée, vent d'Ouest, modéré ; puis faiblissant.
-Températures maximales pour le jour : entre 22 et 25 degrés.
-Températures minimales pour la nuit suivante : comprises entre 14 et 15 degrés.
+Vent d'Ouest modéré, en journée ; puis s'atténuant.
+Températures maximales pour le jour : comprises entre 22 et 25 degrés.
+Températures minimales pour la nuit suivante : entre 14 et 15 degrés.
 
 • Pour la journée de lundi 14 :
 Le ciel est partiellement nuageux et des brumes et brouillards se forment çà et là sur le pays de Bray et la Picardie verte. Ils se dissipent plus ou moins rapidement en matinée et laissent place à une après-midi bien ensoleillée.
@@ -247,38 +247,38 @@ Températures minimales : en baisse sur le Beauvaisis et le Clermontois.
 Températures maximales : en hausse sur le Vexin français et le pays de Thelle.
 
 === BULLETIN DÉPARTEMENTAL AISNE (DEPT02) ===
-Emis le : 11/09/2026 06:30
+Emis le : 11/09/2026 09:30
 
 Vigilance :
 Aujourd'hui et demain, le département de l'Aisne est en vigilance verte.
 
 Observations :
-Aujourd'hui on observait à 06h :
-A Aulnoy-sous-Laon : température de 13 degrés, vent de secteur Sud-Ouest soufflant jusqu'à 10 km/h.
-A Saint-Quentin : température de 12 degrés.
+Aujourd'hui on observait à 09h :
+A Aulnoy-sous-Laon : température de 15 degrés, vent de secteur Sud soufflant jusqu'à 10 km/h.
+A Saint-Quentin : température de 15 degrés.
 
 Prévisions pour les tout prochains jours :
 
 • Pour aujourd'hui vendredi 11 :
-Le temps est calme, mais la présence des nuages réduit assez nettement le taux d'ensoleillement.
+Les nuages sont relativement nombreux, mais quelques éclaircies se produisent de temps en temps.
 Etablissement, en seconde partie de journée, d'un vent d'Ouest, généralement modéré ; atténuation ensuite.
-Températures maximales : comprises entre 22 et 24 degrés.
+Températures maximales : de 22 à 24 degrés.
 
 • Pour la nuit prochaine :
 Le ciel est clair, et des formations brumeuses sont attendues passé minuit, sur les trois quarts Nord du département.
 Vent faible, variable.
-Températures minimales : comprises entre 9 et 12 degrés.
+Températures minimales : entre 9 et 12 degrés.
 
 • Pour demain samedi 12 en journée et la nuit suivante :
 La journée est ensoleillée malgré quelques passages nuageux. À noter toutefois en cours de matinée, sur le Vermandois ainsi que sur le Laonnois, des formations brumeuses qui se dissipent rapidement. Pour la nuit : La nuit est belle, le plus souvent très étoilée. Quelques nuages circulent ça et là en fin de nuit.
 L'après-midi, vent s'orientant Ouest, souvent modéré ; atténuation ensuite.
-Températures maximales pour le jour : de 23 à 26 degrés.
-Températures minimales pour la nuit suivante : entre 10 et 12 degrés.
+Températures maximales pour le jour : entre 23 et 26 degrés.
+Températures minimales pour la nuit suivante : de 10 à 12 degrés.
 
 • Pour la journée de dimanche 13 et la nuit suivante :
 Le temps est sec en début de matinée, mais de faibles averses pourraient cependant survenir sur la moitié Nord du département en milieu de journée. Les nuages restent majoritaires. Pour la nuit : De façon générale, de petites éclaircies se développent. Des brumes ou brouillards légers peuvent se former en fin de nuit, sur la Thiérache.
 Vent d'Ouest modéré, en journée ; puis s'atténuant.
-Températures maximales pour le jour : de 22 à 25 degrés.
+Températures maximales pour le jour : comprises entre 22 et 25 degrés.
 Températures minimales pour la nuit suivante : comprises entre 14 et 16 degrés.
 
 • Pour la journée de lundi 14 :
@@ -328,10 +328,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -340,47 +340,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Vendredi 11 Septembre 2026.
-Résumé général HDF précédent : Sur l’ensemble des deux semaines, les Hauts-de-France devraient connaître un temps majoritairement sec, souvent très doux pour la saison, avec un pic de chaleur modérée autour du 14-15 septembre, une brève baisse thermique vers le 16-17, puis un retour àla douceur. L’incertitude devient forte à partir du 21-22, avec un possible maintien anticyclonique ou une dégradation liée à une goutte froide. La sécheresse reste le fil conducteur, avec un déficit de précipitations persistant...
+Résumé général HDF précédent : Tendance générale sur 15 jours : temps souvent sec et doux avec pic de chaleur modérée en première semaine, puis incertitude avec possible dégradation en seconde semaine..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec et très doux, devenant localement chaud en journée; rares averses possibles en fin de semaine..
+Températures attendues précédemment : Temps sec, averses isolées possibles en fin de période..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: Run999H
-Message:
-il y a 23 minutes, Pervanche7 a dit :
-			Prochain défi pour les modèles et qui va vraiment influencer notre ressenti la semaine prochaine c'est où va circuler la future probable goutte froide. GFS ce soir est sympa et nous la donne en plein avec un peu de pluie du coup on prend !
-	Et bien je trouve étonnant qu’aucun modèle ait eu la bonne idée de nous la positionner au large de la France en mode pompe à chaleur. Déjà qu’il fera chaud sans cela, ça pourrait nous redonner une petite période caniculaire qui nous manque tant 🤣
-								1
-								7
-								1
-								5
-
-=======================
-
-Auteur: Twister83
-Message:
-C'est vraiment sans fin...
-	Je pense que c'est peine perdue pour ce mois de septembre, la ceinture subtropical se comporte comme en pleine été.
-	J'ignore ce qu'il se passe, mais il faudra à mon avis un profond changement atmosphérique pour que le situation se débloque sur l'Europe de l'ouest en ce début d'automne.
-								2
-								1
-								1
-								4
-
-=======================
-
-Auteur: tao
-Message:
-Bonsoir,
-	si on regarde simplement les graphiques, nous serions de nouveau partis pour une hausse progressive des températures ( et des géopotentiels) pendant à peu près une semaine avant une rupture marquée mais sans invasion humide durable et massive.
-	Sur la semaine prochaine, on rejoue le même scénario?
-	La NAO +, n'a pas permis un réel abaissement de la zone de circulation du jet, l'enfoncement de talwegs devient tellement faible qu'il ne peut plus entrainer de perturbation de la météo sur plusieurs jours notamment au niveau du renouvellement des précipitations. la situation se complique sérieusement!
-								8
-								1
-
-=======================
-
 Auteur: Kyrion
 Message:
 Oui, et plus les mois passent plus il va falloir une séquence exceptionnellement humide et durable pour espérer combler le déficit. Septembre me semble plié pour quelque chose de généralisé, a minima jusqu'au 20/25.
@@ -394,7 +359,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 22 heures par thib91
+	Modifié hier à 07:39 par thib91
 								3
 
 =======================
@@ -426,7 +391,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 20 heures par fran39
+	Modifié il y a 22 heures par fran39
 								1
 								1
 
@@ -444,7 +409,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -468,7 +433,7 @@ Message:
 Il y a 1 heure, Krholam a dit :
 			Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
 	On est bien d'accord. C'est pour ça que j'ai parlé de chances infimes mais ce que je trouve également intéressant, c'est l'augmentation de la puissance du jet. Je croise les doigts pour que ce soit ce qui se passe au final et qu'il pleuve enfin et qu'on sorte de ce jour sans fin.
-								2
+								3
 
 =======================
 
@@ -493,7 +458,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 10 heures par Neigedu38
+	Modifié il y a 12 heures par Neigedu38
 								1
 								4
 
@@ -504,7 +469,7 @@ Message:
 il y a 2 minutes, Neigedu38 a dit :
 			Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
 	Encore et toujours la zone la plus sèche de l'hémisphère nord hors zone désertique.
-								9
+								11
 
 =======================
 
@@ -517,7 +482,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 8 heures par giec 2100
+	Modifié il y a 10 heures par giec 2100
 								2
 
 =======================
@@ -530,51 +495,41 @@ Message:
 			en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
 	Le coup du laptop ne vient peut-être pas de nulle part... Je dis ça je dis rien (je travaille chez Enedis 😆)
 	Niveau prévi, la fin de semaine reste encore ouverte, mais on a quand même une majorité de scénario anticyclonique. On a aussi quelques possibilités humide autour du vendredi, selon la latitude atteinte par le talweg, mais c'est peu et surtout ces scénarios se comptent sur les doigts d'une main. On a effectivement bien vu les scénario à GF sur la France se réduire petit à petit à peau de chagrin. La suite en sous saisonnier a l'air plus engageant, mais c'est lointain.
-								2
+								3
 
 =======================
 
 Auteur: giec 2100
 Message:
 je fais un petit essai "d'archéologie météo" en affichant deux cartes de septembre 1921, une du 14 et l'autre du 27 ; ce sont les cartes de réanalyse NOAA ; il faut savoir que pour la station de Mérignac on a enregistré un cumul de 17mm ce mois de septembre 1921 sur deux jours très distants dans la période ; alors bien sûr on pourrait appliquer la formule « toute ressemblance avec la réalité actuelle est purement fortuite » si l'on voulait les rapprocher de celles de la première décade de septembre 2026...
+								3
+
+=======================
+
+Auteur: Jean-Séb
+Message:
+Bonjour à tous, 
+	On sent ce matin qu'il y a encore quelques espoirs, et que la date du 21-22 septembre peut être charnière (tiens c'est l'automne !). Bon, on est à 
+	https://www.meteociel.fr/modeles/gfse_cartes.php?mode=0&amp;ech=204
+								1
+
+=======================
+
+Auteur: edel
+Message:
+On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
+								2
+
+=======================
+
+Auteur: bernardt60
+Message:
+C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
+	Car si je prends les diagrammes de ma localité ( je fais du régionalisme mais je ne pense pas  qu'à l'échelle nationale il y ait beaucoup de différences) ce n'est pas gagné d'espérer voir une "amélioration" significative même à TLT :
+	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
 								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: Run999H
-Message:
-il y a 23 minutes, Pervanche7 a dit :
-			Prochain défi pour les modèles et qui va vraiment influencer notre ressenti la semaine prochaine c'est où va circuler la future probable goutte froide. GFS ce soir est sympa et nous la donne en plein avec un peu de pluie du coup on prend !
-	Et bien je trouve étonnant qu’aucun modèle ait eu la bonne idée de nous la positionner au large de la France en mode pompe à chaleur. Déjà qu’il fera chaud sans cela, ça pourrait nous redonner une petite période caniculaire qui nous manque tant 🤣
-								1
-								7
-								1
-								5
-
-=======================
-
-Auteur: Twister83
-Message:
-C'est vraiment sans fin...
-	Je pense que c'est peine perdue pour ce mois de septembre, la ceinture subtropical se comporte comme en pleine été.
-	J'ignore ce qu'il se passe, mais il faudra à mon avis un profond changement atmosphérique pour que le situation se débloque sur l'Europe de l'ouest en ce début d'automne.
-								2
-								1
-								1
-								4
-
-=======================
-
-Auteur: tao
-Message:
-Bonsoir,
-	si on regarde simplement les graphiques, nous serions de nouveau partis pour une hausse progressive des températures ( et des géopotentiels) pendant à peu près une semaine avant une rupture marquée mais sans invasion humide durable et massive.
-	Sur la semaine prochaine, on rejoue le même scénario?
-	La NAO +, n'a pas permis un réel abaissement de la zone de circulation du jet, l'enfoncement de talwegs devient tellement faible qu'il ne peut plus entrainer de perturbation de la météo sur plusieurs jours notamment au niveau du renouvellement des précipitations. la situation se complique sérieusement!
-								8
-								1
-
-=======================
-
 Auteur: Kyrion
 Message:
 Oui, et plus les mois passent plus il va falloir une séquence exceptionnellement humide et durable pour espérer combler le déficit. Septembre me semble plié pour quelque chose de généralisé, a minima jusqu'au 20/25.
@@ -588,7 +543,7 @@ Message:
 Il y a 16 heures, Banleve7519 a dit :
 			Oui enfin, il se disait la même chose en 2022 avec une récurrence anticyclonique qui n’en finissait pas et un jet anormalement au nord. Et même en 2023. Pourtant on a bien vu 2024, une des plus dépressionnaires en Europe de l’ouest depuis le début des relevés il me semble. Ou encore l’hiver 2026 avec des bp très au sud et une pluviométrie très fortement excédentaire sur le pourtour méditerranéen. Je resterai très prudent là-dessus. Je verrais bien ce jet anormalement au nord plutôt comme une continuation de l’été, qui désormais dure de mai à septembre, avant probablement un changement progressif (ou brutal) pour octobre-novembre.
 	Tu as raison et je n'affirme rien. Ce qui m'interpelle c'est qu'en 2022 ou 2023 il s'agissait surtout de situation de blocage avec un jet dévié par des HP sur l'Europe. Là on est dans une situation "classique" dans le sens que c'est une circulation zonale, sauf que ce qui circule à notre latitude ce sont des cellules anticycloniques.  Et pourtant j'en ai vu des horreurs météo (je suis sur IC depuis 2004), mais là empiriquement cela me semble différent.
-	Modifié il y a 22 heures par thib91
+	Modifié hier à 07:39 par thib91
 								3
 
 =======================
@@ -620,7 +575,7 @@ Auteur: fran39
 Message:
 Bonjour, c'est pas le Pérou mais je note quand même - dans ce marasme et à une échéance qui n'est pas si déraisonnable que cela (J+6 J+7) - une tendance récente à une baisse de champs sur l'ensemble AIFS. (idem en Pmer la moyenne descendrait sous les 1015 hPa) Pas de remise en cause de la tendance générale sèche, mais sans doute une modulation plus humide possible vers le milieu de semaine possible au nord de la Seine ?
 	échéance montrée : jeudi 17 - 18 UTC, ensemble AIFS Z 500 hPa
-	Modifié il y a 20 heures par fran39
+	Modifié il y a 22 heures par fran39
 								1
 								1
 
@@ -638,7 +593,7 @@ Oui les températures vont monter nettement surtout dans le sud mais cela devrai
 	Toulouse :
 	Aix-en-Provence :
 	A Paris no soucis pour les températures qui seront quand-même estivales durant 3 jours.
-	Modifié il y a 19 heures par petit âge glaciaire 11
+	Modifié il y a 21 heures par petit âge glaciaire 11
 Modifié
 								2
 
@@ -662,7 +617,7 @@ Message:
 Il y a 1 heure, Krholam a dit :
 			Je ne suis pas trop sur de la fiabilité d’un run deterministe à 10j sur un composante comme le jet stream
 	On est bien d'accord. C'est pour ça que j'ai parlé de chances infimes mais ce que je trouve également intéressant, c'est l'augmentation de la puissance du jet. Je croise les doigts pour que ce soit ce qui se passe au final et qu'il pleuve enfin et qu'on sorte de ce jour sans fin.
-								2
+								3
 
 =======================
 
@@ -687,7 +642,7 @@ Quand on voit des modélisations à 10 jours ne montrer que quelques gouttes dan
 Auteur: Neigedu38
 Message:
 Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
-	Modifié il y a 10 heures par Neigedu38
+	Modifié il y a 12 heures par Neigedu38
 								1
 								4
 
@@ -698,7 +653,7 @@ Message:
 il y a 2 minutes, Neigedu38 a dit :
 			Et le CEP de ce soir a bien diminué les cumuls par rapport a son 0z...
 	Encore et toujours la zone la plus sèche de l'hémisphère nord hors zone désertique.
-								9
+								11
 
 =======================
 
@@ -711,7 +666,7 @@ bon Enedis m'a encore privé du laptop durant ces deux jours et je constate que 
 	par exemple l'année 1921 à Paris Montsouris et ses 267mm, ou les sept mois de la même année, d'avril à octobre, à Mérignac avec 251.7mm, ou encore pour cette dernière station les 257,5mm d'avril – octobre 1945...
 	quelle synoptique typique répétitive pour ces périodes, quel rapprochement approprié pourrait-on faire... ?
 	en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
-	Modifié il y a 8 heures par giec 2100
+	Modifié il y a 10 heures par giec 2100
 								2
 
 =======================
@@ -724,11 +679,36 @@ Message:
 			en attendant la dernière photo flash pour mardi prochain remet déjà en cause ma prévision où l'on devait être sous l'influence d'une goutte froide ou de ses restes de comblement... j'aurais bien fait de suivre les conseils de @Jojobarbar...
 	Le coup du laptop ne vient peut-être pas de nulle part... Je dis ça je dis rien (je travaille chez Enedis 😆)
 	Niveau prévi, la fin de semaine reste encore ouverte, mais on a quand même une majorité de scénario anticyclonique. On a aussi quelques possibilités humide autour du vendredi, selon la latitude atteinte par le talweg, mais c'est peu et surtout ces scénarios se comptent sur les doigts d'une main. On a effectivement bien vu les scénario à GF sur la France se réduire petit à petit à peau de chagrin. La suite en sous saisonnier a l'air plus engageant, mais c'est lointain.
-								2
+								3
 
 =======================
 
 Auteur: giec 2100
 Message:
 je fais un petit essai "d'archéologie météo" en affichant deux cartes de septembre 1921, une du 14 et l'autre du 27 ; ce sont les cartes de réanalyse NOAA ; il faut savoir que pour la station de Mérignac on a enregistré un cumul de 17mm ce mois de septembre 1921 sur deux jours très distants dans la période ; alors bien sûr on pourrait appliquer la formule « toute ressemblance avec la réalité actuelle est purement fortuite » si l'on voulait les rapprocher de celles de la première décade de septembre 2026...
+								3
+
+=======================
+
+Auteur: Jean-Séb
+Message:
+Bonjour à tous, 
+	On sent ce matin qu'il y a encore quelques espoirs, et que la date du 21-22 septembre peut être charnière (tiens c'est l'automne !). Bon, on est à 
+	https://www.meteociel.fr/modeles/gfse_cartes.php?mode=0&amp;ech=204
+								1
+
+=======================
+
+Auteur: edel
+Message:
+On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
+								2
+
+=======================
+
+Auteur: bernardt60
+Message:
+C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
+	Car si je prends les diagrammes de ma localité ( je fais du régionalisme mais je ne pense pas  qu'à l'échelle nationale il y ait beaucoup de différences) ce n'est pas gagné d'espérer voir une "amélioration" significative même à TLT :
+	Donc je ne suis pas prêt de revoir l’eau couler à nouveau dans le Ninian( oui en Bretagne !) :
 								1
