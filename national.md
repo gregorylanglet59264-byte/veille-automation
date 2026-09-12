@@ -2,129 +2,132 @@
 **Généré le :** Samedi 12 Septembre 2026
 **Période :** Semaine 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) & Semaine 2 (Du Lundi 21 au Dimanche 27 Septembre 2026
 
-⚠️ Le sujet spécifique de la Semaine 39 (du Lundi 21 au Dimanche 27 Septembre 2026) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 38.)
+⚠️ Le sujet spécifique de la Semaine 39 n’est pas encore ouvert sur le forum Infoclimat. Cette analyse s’appuie uniquement sur les projections à long terme extraites du sujet Semaine 38.)
 *Analyse nationale par grandes zones géographiques.*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Élevé — *Consensus fort sur le temps sec et anticyclonique.*
-- **Fiabilité du scénario majoritaire :** Temps sec et chaud — *Scénario majoritaire : anticyclone, soleil, chaleur.*
+- **Consensus des modèles :** Modéré — *Accord net pour la semaine 1, incertitude marquée pour la semaine 2.*
+- **Fiabilité du scénario majoritaire :** Anticyclone tenace — *Sec et chaud dominant, les scénarios humides restent minoritaires.*
 - **Stabilité des cartes/scénarios :** 6 / 100 — *6 cartes sur 100 analysées*
-- **Niveau d'incertitude global :** Faible pour W1, Forte pour W2 — *La fiabilité est bonne pour la semaine 1, mais se dégrade nettement pour la semaine 2.*
+- **Niveau d'incertitude global :** Forte en S2 — *Le 21-22 septembre reste l’inconnue principale.*
 
 ## 🗓️ SEMAINE 1 : Du Lundi 14 au Dimanche 20 Septembre 2026
 ### 💡 Points clés de la semaine 1
-1. Blocage anticyclonique persistant : Un puissant anticyclone continue de verrouiller le temps sur la France, avec un temps sec et ensoleillé.
-2. Chaleur toujours présente : Les températures restent très douces pour la saison, avec des maximales fréquemment supérieures aux normales, parfois de plus de 5°C.
-3. Sécheresse des sols qui s'accentue : L'absence de précipitations significatives aggrave la sécheresse superficielle, un sujet de préoccupation majeur.
-4. Rafraîchissement limité en milieu de semaine : Une légère baisse des températures est possible vers jeudi 17 et vendredi 18, mais sans apport de pluie significatif.
-5. Fin de semaine toujours sèche : Le week-end des 19 et 20 septembre se poursuit sous un soleil généreux, avec une remontée des températures.
+1. Verrou anticyclonique : Scénario sec et ensoleillé très majoritaire pour cette semaine.
+2. Chaleur sans excès : Températures souvent au-dessus des normales, avec un pic possible mardi-mercredi.
+3. Petit coup de frais : Léger rafraîchissement attendu entre jeudi et vendredi, sans pluie durable.
+4. Pluies marginales : Risque localisé d’averses en Bretagne, littoral atlantique, Pyrénées et nord-est.
+5. Semaine 2 floue : La dégradation évoquée autour du 21-22 septembre reste très incertaine.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-1. Tous les modèles et discussions convergent vers un temps sec et anticyclonique pour la majorité de la semaine 1.
-2. Les températures devraient rester au-dessus des normales de saison, avec un pic de chaleur possible en début de semaine.
-3. Une légère baisse des températures est attendue autour du 17-18, mais sans précipitations associées.
+• Convergence forte sur un temps sec et ensoleillé pendant la majeure partie de la semaine.
+• Convergence sur un léger rafraîchissement en milieu de semaine, sans précipitations durables.
+• Convergence sur des scénarios humides minoritaires, y compris pour l’échéance du 21-22 septembre.
 **Points de divergence :**
-1. La principale divergence concerne l'évolution en fin de semaine (18-20) : maintien d'un blocage solide ou amorce d'une dégradation.
-2. L'intensité de la chaleur est incertaine, notamment sur le Sud-Ouest où les 33-34°C sont possibles en début de semaine.
-3. La position exacte et l'influence d'un éventuel talweg atlantique restent floues.
+• Divergence sur la latitude exacte du talweg et son impact sur le nord du pays.
+• Divergence sur la trajectoire possible d’une goutte froide en Méditerranée.
+• Divergence sur l’ampleur de la chaleur dans le Sud-Ouest, avec des valeurs potentiellement élevées en début de semaine.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (Modèle Global Forecast System)** (Documented) | GFS maintient un temps sec et anticyclonique sur toute la France, avec quelques scénarios humides minoritaires en fin de semaine autour du 18-20. | Absence de précipitations, températures chaudes pour la saison (25-33°C), soleil dominant. | Toutes les zones, avec des températures plus élevées sur le Sud-Ouest et le Sud-Est. | Élevée (85%) | GFS est le modèle le plus commenté. Il est utilisé pour illustrer la continuité du blocage anticyclonique et l'absence de précipitations notables, avec un cumul de seulement 3,3 mm prévu sur Paris jusqu'au 27 septembre (référence au run du 11/09 06Z). Une attention est portée sur les scénarios de fin de semaine, qui pourraient voir une faiblesse se créer, mais ceux-ci restent très minoritaires dans les ensembles. |
-| **CEP / ECMWF (Centre Européen de Prévisions Météorologiques à Moyen Terme)** (Documented) | Le CEP privilégie un temps sec et anticyclonique, avec un possible coup de frais venu du Nord-Ouest vers le 15-17 septembre, mais sans précipitations. | Temps sec, ensoleillement généreux, températures en légère baisse en milieu de semaine puis en hausse. | Nord-Ouest, Nord, puis l'ensemble du pays pour la baisse des températures. | Modérée (65%) | Le CEP confirme la tendance anticyclonique. Il est également souligné que le run du soir a diminué les cumuls de précipitations par rapport à son 0Z, renforçant l'idée d'un temps très sec. Le signal d'un talweg est évoqué pour le 21-22 septembre, mais il est jugé fragile. |
-| **Ensembles (CEP/GEFS)** (Documented) | Les ensembles montrent une majorité de scénarios secs et anticycloniques, avec une minorité (environ 1/4 à 1/3) de scénarios plus humides en fin de semaine. | Temps sec dominant, faible probabilité de pluie en fin de semaine. | Nord du pays principalement. | Modérée (65%) | Les discussions mentionnent que les scénarios humides restent minoritaires, mais un intervenant note qu'ils ne sont pas si loin : "entre 1/4 et 1/3 des scénarios" pour une dégradation. Cependant, la tendance principale est au maintien des hautes pressions. Une analogie avec septembre 1997 est évoquée pour la synoptique. |
+| **CEP (ECMWF)** (Documenté) | Temps sec et anticyclonique probable, avec un signal plus frais par le Nord-Ouest vers le 15-17; cumuls très faibles. | Rafraîchissement relatif possible entre le 15 et le 17, sans précipitations durables. | Nord-ouest, puis quasi-totalité du pays pour le frais; pluies très limitées. | Élevée (85%) | Le run du soir réduit les cumuls par rapport au 00Z. Le CEP envoie un signal plus frais par le Nord-Ouest, pouvant concerner la quasi-totalité du pays d’ici le 17, mais sans rétablissement pluvieux. |
+| **GFS et GFS-Ensemble** (Documenté) | Tendance très sèche et anticyclonique jusqu’à la fin de période; une charnière possible le 21-22 ne fait pas consensus. | Soleil et chaleur récurrents, aucune sortie humide nette visible. | France entière; nord-ouest et nord plus concernés par un possible talweg. | Modérée (65%) | Le run GFS du 11/09 06Z affiche un cumul très faible à Paris jusqu’au 27/09. Les cartes d’ensemble montrent des scénarios de dégradation possibles mais minoritaires. |
+| **Ensembles (ECMWF/GFS)** (Documenté) | Verrou anticyclonique dominant; scénarios humides présents mais minoritaires à l’échéance du 21-22. | Pas de retour franc des pluies; perturbations très atténuées possibles sur le nord. | Nord, nord-ouest; plus marginalement tout le pays. | Modérée (65%) | Les sorties ensemblistes montrent une bataille entre hautes pressions et cyclogenèses au sud du Groenland. Une cyclogenèse plus vaste pourrait apporter un épisode pluvieux, mais ces scénarios restent minoritaires. |
+| **NASA-GEOS (évoqué)** (Insuffisant) | Circulation zonale très décalée sur l’Écosse et la Scandinavie, hautes pressions quasi permanentes sur la France. | Temps sec et chaud, aucun signal humide franc. | France entière. | Faible (45%) | Mentionné de passage pour illustrer la persistance du blocage anticyclonique, sans analyse détaillée des paramètres. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Temps sec et ensoleillé. Légère baisse des températures en fin de semaine. | Maximales de 20 à 24°C en fin de semaine, après des valeurs plus douces en début de semaine (voisines de 20-23°C). | moderee | GFS, CEP | Incertitude sur la baisse des températures et l'arrivée d'un temps plus frais. |
-| **Nord** | Temps très ensoleillé, sec, avec des températures douces. Rafraîchissement possible en milieu de semaine. | Maximales de 26 à 28°C en début de semaine, puis baisse à 21-22°C jeudi et vendredi. | elevee | GFS, CEP, Météo-France | Risque de précipitations très incertain et localisé. |
-| **Nord-Est** | Temps sec et ensoleillé, probablement chaud en début de semaine. | Non documenté précisément, probablement proches des normales ou au-dessus. | non_estimable | GFS | Informations très limitées sur cette zone. |
-| **Ouest et Façade Atlantique** | Soleil généreux, très chaud pour la saison, notamment en début de semaine. | Maximales de 30 à 33°C lundi 14 et mardi 15, puis baisse à 24-26°C jeudi et vendredi, avant une remontée le week-end. | elevee | GFS, CEP, Météo-France | Le risque de pluie sur le littoral en fin de semaine est incertain. |
-| **Centre** | Temps sec et ensoleillé, températures chaudes. | Maximales de 28 à 31°C en début de semaine, en baisse en fin de semaine. | moderee | GFS | Informations limitées, tendance régionale extrapolée. |
-| **Sud-Ouest** | Temps très ensoleillé et chaud. Pic de chaleur lundi et mardi. | Maximales de 31 à 34°C lundi et mardi, puis baisse nette à 24-26°C jeudi et vendredi, avant une remontée. | elevee | GFS, Météo-France | Comportement des orages sur le relief, limite pluie-neige élevée. |
-| **Sud-Est et Vallée du Rhône** | Beau temps sec et ensoleillé, chaleur marquée en début de semaine. | Maximales de 29 à 31°C, avec 33°C possibles lundi. Baisse à 26-29°C en fin de semaine. | elevee | Météo-France, GFS | L'intensité du mistral et la baisse des températures. |
-| **Méditerranée et Corse** | Temps ensoleillé, sec et chaud. Vent d'Ouest à Nord-Ouest en fin de semaine. | Maximales de 28 à 31°C, 27°C sur le littoral. Minimales douces de 16 à 18°C. | elevee | Météo-France, Marine Nationale | Force du vent en fin de semaine et températures sur le littoral. |
+| **Nord-Ouest** | Temps sec et ensoleillé, quelques passages nuageux possibles en fin de semaine. | Non documentées en détail; probablement proches des normales ou au-dessus. | moderee | ECMWF, GFS | Position du talweg et d’éventuels restes de perturbations atlantiques |
+| **Nord** | Soleil dominant, nuages élevés, temps sec; risque de pluie très localisé mercredi matin. | Maximales 21-29°C, minimales 12-18°C; plus chaud mardi-mercredi. | elevee | Météo-France, ECMWF, GFS | Portée exacte du risque de pluie mercredi |
+| **Nord-Est** | Très ensoleillé et sec, chaud en journée; risque d’orages isolés mercredi. | Non documentées en détail; probablement chaud en journée. | moderee | Météo-France, ECMWF | Déclenchement orageux mercredi et localisation précise |
+| **Ouest et Façade Atlantique** | Soleil généreux, très chaud en journée; possible pluie littorale vendredi. | Maximales 24-33°C, plus fraîches sur le littoral; minimales 10-19°C. | elevee | Météo-France, ECMWF, GFS | Extension des pluies littorales vers l’intérieur |
+| **Centre** | Ensoleillé et sec, chaud; fraîchissement relatif jeudi-vendredi. | Maximales 22-31°C; minimales 9-16°C; plus frais en monts du Lyonnais. | elevee | Météo-France, ECMWF | Intensité du rafraîchissement en fin de semaine |
+| **Sud-Ouest** | Très ensoleillé, très chaud; averses possibles en montagne et coteaux en fin de semaine. | Maximales 24-34°C, minimales 7-16°C; très chaud mardi-mercredi. | elevee | Météo-France, GFS | Localisation précise des averses et limite pluie-neige |
+| **Sud-Est et Vallée du Rhône** | Soleil et chaleur durables, ciel bleu; mistral/tramontane possibles mercredi. | Maximales 26-33°C selon secteurs; minimales 11-19°C; chaleur marquée lundi. | elevee | Météo-France, ECMWF | Force des rafales sous mistral/tramontane |
+| **Méditerranée et Corse** | Ensoleillé, mer belle; vent secteur Ouest modéré en cours de semaine. | Non documentées en détail sur la Corse; littoral provençal : 26-30°C selon bulletins. | moderee | Météo-France, GFS | Évolution du mistral et de la tramontane en mer |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Lundi 14 et mardi 15 Septembre** : Pics de chaleur possibles, surtout au sud de la Loire, avec des maximales de 30 à 34°C.
-- **Mercredi 16 Septembre** : Légère baisse des températures par le nord-ouest, mais temps toujours sec.
-- **Jeudi 17 et vendredi 18 Septembre** : Rafraîchissement plus net avec des maximales en baisse, mais sans précipitations significatives.
-- **Samedi 19 et dimanche 20 Septembre** : Retour d'un temps calme, sec et ensoleillé, avec une remontée des températures.
+- **Lundi 14 au mercredi 16 septembre** : Soleil généreux, chaleur diurne, vent faible; quelques nuages sans conséquence, orage isolé possible dans le nord-est mercredi.
+- **Jeudi 17 au vendredi 18 septembre** : Léger refroidissement, pluies très localisées possibles sur le nord-ouest, le littoral atlantique et les Pyrénées.
+- **Samedi 19 au dimanche 20 septembre** : Retour d’un temps sec et ensoleillé, températures en hausse, vent faible.
+- **Au-delà du 20 septembre (tendance)** : Tendance incertaine pour le 21-22 : possible dégradation par le nord-ouest, à surveiller.
 
 **Points solides :**
-1. Le blocage anticyclonique est le scénario dominant pour toute la semaine 1.
-2. Les températures seront nettement supérieures aux normales, surtout en début de semaine.
-3. Les précipitations seront quasi inexistantes, ce qui aggrave la sécheresse des sols.
+• Consensus net sur un temps sec et anticyclonique en semaine 1.
+• Une sécheresse de surface qui va se poursuivre.
+• Des températures souvent au-dessus des normales, sans excès durable.
 
 **Points fragiles :**
-1. La baisse des températures en milieu de semaine reste à confirmer dans son amplitude et sa durée.
-2. Les scénarios d'une dégradation orageuse en fin de semaine sont très minoritaires.
-3. L'évolution exacte du talweg atlantique est très incertaine.
+• Portée exacte du talweg de vendredi sur le nord.
+• Possibilité d’une perturbation très atténuée sur le littoral atlantique.
+• Trajectoire d’une éventuelle goutte froide en Méditerranée.
 
 **À surveiller (prochains runs) :**
-Surveiller les runs de ce week-end (12-13/09) pour la fin de semaine 1 et le début de semaine 2. Une attention particulière sera portée sur l'évolution des scénarios humides (25-33% des membres) et sur la possibilité d'un fléchissement du blocage anticyclonique.
+CEP 12Z/00Z, GFS 06Z, ensembles long terme, position du talweg atlantique.
 
 
 ## 🗓️ SEMAINE 2 : Du Lundi 21 au Dimanche 27 Septembre 2026
 
-⚠️ Le sujet spécifique de la Semaine 39 (du Lundi 21 au Dimanche 27 Septembre 2026) n'est pas encore ouvert par les membres sur le forum Infoclimat. L'analyse ci-dessous s'appuie sur les projections à long terme extraites du sujet Semaine 38.
+⚠️ Le sujet spécifique de la Semaine 39 n’est pas encore ouvert sur le forum Infoclimat. Cette analyse s’appuie uniquement sur les projections à long terme extraites du sujet Semaine 38.
 ### 💡 Points clés de la semaine 2
-1. Poursuite du blocage anticyclonique : Les projections à long terme indiquent que l'anticyclone pourrait rester durablement installé sur la France.
-2. Sécheresse qui perdure : Aucune amélioration significative n'est en vue pour les précipitations, avec des cumuls attendus très faibles, voire nuls.
-3. Températures toujours douces : La chaleur pourrait persister, avec des températures encore supérieures aux normales de saison.
-4. Porte de sortie incertaine : Certains scénarios, minoritaires, évoquent une possible dégradation autour du 21-22 septembre, mais cela reste fragile.
+1. Sujet non ouvert : L’analyse de la semaine 2 s’appuie sur les projections long terme de la semaine 38.
+2. Échéance charnière : Le 21-22 septembre pourrait être une fenêtre de changement, sans aucune certitude.
+3. Sec dominant : Les scénarios humides restent minoritaires sur les ensembles.
+4. Chaleur possible : Les températures pourraient rester au-dessus des normales.
+5. Prudence absolue : Les runs au-delà de J+10 sont peu fiables et à ne pas considérer comme une prévision.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-1. La poursuite du temps sec et anticyclonique est le scénario le plus probable.
-2. La sécheresse de surface va continuer de s'aggraver.
-3. Les températures devraient rester douces pour la saison.
+• Les projections long terme convergent vers un maintien de l’anticyclone.
+• Les scénarios de précipitations significatives restent minoritaires.
+• Le passage du 21-22 septembre est identifié comme la principale fenêtre d’incertitude.
 **Points de divergence :**
-1. La possibilité d'une dégradation autour du 21-22 septembre reste très incertaine.
-2. L'intensité de la chaleur en fin de mois est inconnue.
-3. L'impact du talweg atlantique est encore flou.
+• Trajectoire exacte du talweg ou de la goutte froide.
+• Intensité d’un éventuel rafraîchissement en début de semaine.
+• Possibilité d’averses ou d’orages sur les reliefs.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS (Projections à long terme)** (Documented) | GFS maintient un temps sec et anticyclonique jusqu'au 27 septembre, avec des cumuls de précipitations très faibles sur la quasi-totalité du pays. | Absence de précipitations, ensoleillement excessif, températures élevées. | Toutes les zones, avec un risque de sécheresse accru. | Modérée (65%) | Le run GFS du 11 septembre à 06Z indique un cumul de précipitations de seulement 3,3 mm sur Paris jusqu'au 27 septembre, illustrant la persistance de la sécheresse. Ce scénario est jugé "largement pas impossible" par un membre, qui évoque un "climat sahélien frais". |
-| **CEP / ECMWF (Projections long terme)** (Partial) | Le CEP maintient une synoptique de blocage, avec un talweg qui pourrait s'approcher de la France autour du 21-22 septembre, mais son influence réelle est incertaine. | Temps sec dominant, mais avec une possibilité de temps plus humide en toute fin de période. | Nord et Nord-Ouest en priorité. | Faible (45%) | Un membre mentionne que la date du 21-22 septembre pourrait être charnière, mais reste prudent : "on est loin d'avoir un défilé de perturbation". Quelques scénarios de cyclogenèse plus forte au sud du Groenland pourraient apporter de l'humidité, mais ils restent minoritaires. |
+| **CEP (ECMWF)** (Insuffisant) | Projection lointaine vers le 21-22 : possible charnière humide, mais cumuls annoncés en baisse; incertitude majeure. | Faible dégradation possible par le nord-ouest, fortement incertaine. | Nord-ouest, nord; potentiellement centre. | Faible (45%) | Le sujet Semaine 39 n’étant pas ouvert, il s’agit d’extrapolations à partir des discussions de la semaine 38. À ne pas prendre comme certitude. |
+| **GFS** (Insuffisant) | Tendance très sèche jusqu’au 27, avec un cumul très faible à Paris selon le run du 11/09; échéance à revoir. | Soleil et chaleur probables, sans signal pluvieux franc. | Toutes; nord plus documenté. | Faible (45%) | Ce run isolé ne suffit pas à valider un scénario, d’autant plus que les ensembles maintiennent une petite part de scénarios humides. |
+| **Ensembles (ECMWF/GFS)** (Insuffisant) | Scénarios humides minoritaires mais non négligeables; l’anticyclone tient encore à l’échéance du 21-22. | Quelques perturbations atténuées possibles sur le nord, sans retour pluvieux durable. | Nord, nord-ouest. | Faible (45%) | D’après les ensembles, les scénarios humides se comptent sur les doigts d’une main; le signal dominant reste sec. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord-Ouest** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Nord** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Nord-Est** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Ouest et Façade Atlantique** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Centre** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Sud-Ouest** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Sud-Est et Vallée du Rhône** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Méditerranée et Corse** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
+| **Nord-Ouest** | Possibilité de dégradation très atténuée autour du 21-22, sinon temps sec. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
+| **Nord** | Sec et ensoleillé, avec un très faible risque de pluie en début de semaine. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
+| **Nord-Est** | Temps sec, chaud; orages très incertains en cas de talweg. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
+| **Ouest et Façade Atlantique** | Soleil et chaleur probables; pluies peu probables, échéance incertaine. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
+| **Centre** | Sec, températures près ou au-dessus des normales; aucun signal pluvieux fiable. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
+| **Sud-Ouest** | Chaud et sec; averses orageuses possibles mais non fiables à cette échéance. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
+| **Sud-Est et Vallée du Rhône** | Beau temps sec possible; incertitude sur la fin de période. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
+| **Méditerranée et Corse** | Ensoleillé, aucun signal de pluie. | Anomalie chaude possible; fraîchissement incertain autour du 21-22. | faible | ECMWF, GFS | Sujet Semaine 39 non ouvert; échéance lointaine |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Lundi 21 et mardi 22 Septembre** : Période charnière potentielle, mais maintien probable de l'anticyclone.
-- **Mercredi 23 et jeudi 24 Septembre** : Temps sec et ensoleillé très probable.
-- **Vendredi 25 et samedi 26 Septembre** : Poursuite du temps sec, possibilité de températures en hausse.
-- **Dimanche 27 Septembre** : Aucune évolution notable attendue, temps sec.
+- **Lundi 21 au mardi 22 septembre** : Possible charnière entre anticyclone et talweg, mais trop incertaine pour être affirmée.
+- **Mercredi 23 au jeudi 24 septembre** : Retour probable de l’anticyclone après le 22, avec un temps sec.
+- **Vendredi 25 au dimanche 27 septembre** : Maintien probable d’un temps sec et chaud, sans signal pluvieux franc.
+- **Au-delà du 27 septembre** : Tendances sous-saisonnières suggérant un flux plus océanique, très peu fiables à ce stade.
 
 **Points solides :**
-1. Le scénario sec et anticyclonique est le plus probable pour cette semaine.
-2. La sécheresse devrait se poursuivre, faute de précipitations.
-3. Les températures devraient rester au-dessus des normales.
+• Le scénario principal reste anticyclonique.
+• Aucun signal de précipitations majeures.
+• La sécheresse de surface devrait s’accentuer.
 
 **Points fragiles :**
-1. L'éventuelle dégradation autour du 21-22 septembre est très incertaine.
-2. La localisation et l'intensité des pluies, si elles surviennent, sont inconnues.
-3. Les températures pourraient être encore plus chaudes que prévu en cas de maintien du blocage.
+• Tout le détail de la semaine 2 est fragile.
+• Sujet dédié non ouvert, discussions extrapolées depuis la semaine 38.
+• Les runs au-delà de J+10 sont peu fiables.
 
 **À surveiller (prochains runs) :**
-Surveiller les runs de la semaine 1 (14-20/09) pour évaluer la robustesse du blocage anticyclonique et l'évolution du talweg atlantique. Les sorties des ensembles seront cruciales pour affiner la confiance.
+Ouverture du sujet Semaine 39; runs CEP 00Z/12Z; GFS 06Z; position de la goutte froide atlantique.
 
 
 ========================================
@@ -132,44 +135,27 @@ Surveiller les runs de la semaine 1 (14-20/09) pour évaluer la robustesse du bl
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
 ### Tendance 15 jours
-Sur les deux prochaines semaines (14-27 septembre 2026), la France devrait rester sous l'influence d'un puissant anticyclone. Le temps sera sec, très ensoleillé et plus chaud que la normale. Une légère baisse des températures est possible en milieu de semaine 1 (17-18/09), mais sans pluie. La sécheresse des sols va s'accentuer. Une incertitude demeure sur une possible dégradation autour du 21-22 septembre, mais les scénarios humides restent minoritaires.
+Sur les 15 prochains jours, le scénario dominant reste sec, anticyclonique et plus chaud que la normale, avec un léger refroidissement temporaire en semaine 1 et une incertitude réelle, mais non majoritaire, sur une dégradation autour du 21-22 septembre.
 
 ### Période la plus fiable
-La semaine 1 (14-20 septembre) est la plus fiable, car elle est mieux documentée par les discussions et les bulletins officiels.
+Semaine 1 (14-20/09), grâce aux bulletins officiels et à un consensus net; semaine 2 à réévaluer dès l’ouverture du sujet dédié.
 
 ### Phénomènes récurrents
-Blocage anticyclonique, sécheresse de surface, nuits fraîches et journées chaudes, mistral et tramontane en Méditerranée.
+Anticyclone à répétition, flux d’ouest décalé vers les Îles Britanniques, sécheresse des sols, brumes matinales sur les littoraux, fraîcheurs nocturnes en vallées.
 
 ### Principales incertitudes
-La principale incertitude concerne la fin de période (21-27 septembre) : le blocage va-t-il se poursuivre ou une dégradation est-elle possible ? L'arrivée d'un talweg atlantique est possible mais incertaine.
+Charnière du 21-22 septembre, localisation des orages du nord-est, intensité de la chaleur dans le Sud-Ouest, risque de goutte froide méditerranéenne.
 
 ### 🚨 Analyse des doutes et lacunes
-- **Timing/Chronologie :** Incertitude majeure sur la date d'une éventuelle dégradation. Le signal du 21-22 septembre est évoqué mais reste très fragile et minoritaire dans les modèles. Le timing de la baisse des températures en semaine 1 est aussi incertain.
-- **Localisation :** La principale incertitude concerne la localisation des éventuelles précipitations en fin de semaine 1 et en semaine 2. Si une dégradation se produit, elle pourrait concerner le nord du pays, mais c'est loin d'être acquis. Les zones les plus à risque pour la sécheresse sont le Sud-Ouest et le Centre.
-- **Intensité :** Incertitude sur l'intensité de la chaleur, notamment en début de semaine 1 et en semaine 2. Les 34°C sont possibles localement dans le Sud-Ouest, mais cela dépendra de l'évolution du blocage. L'intensité des éventuelles pluies est également inconnue.
-- **Informations manquantes :** Les discussions ne fournissent pas d'informations détaillées sur :
-- Les températures en semaine 2.
-- Le vent dans la plupart des régions.
-- Les conditions météo en Corse et dans le Nord-Est.
-- L'état exact des nappes phréatiques et des sols.
-- **Modèles sous-documentés :** Les modèles à haute résolution (AROME, WRF) ne sont pas commentés. Les modèles saisonniers sont évoqués mais leur analyse est limitée. Le modèle canadien (CMC) et le modèle britannique (UKMO) ne sont pas mentionnés.
-- **Incertitudes images :** Les cartes évoquées dans les discussions (GFS, CEP) sont difficiles à interpréter sans visuel direct. L'analogie avec 1997 est mentionnée mais la comparaison doit être faite avec précaution.
+- **Timing/Chronologie :** Doutes sur la chronologie et le timing des phénomènes : le rafraîchissement de mi-semaine et l’éventuelle dégradation du 21-22 restent flous.
+- **Localisation :** Doutes sur la localisation précise : pluies possibles sur le littoral atlantique, le nord-ouest, le nord-est et les Pyrénées, mais avec une grande incertitude géographique.
+- **Intensité :** Doutes sur l’intensité : force des rafales en Méditerranée, ampleur des températures dans le Sud-Ouest, caractère orageux ou non des averses.
+- **Informations manquantes :** Informations manquantes : pas de sujet dédié pour la semaine 2, pas de données précises sur le vent au nord-ouest et au nord-est, peu de détails sur le suivi hydrologique.
+- **Modèles sous-documentés :** Modèles peu ou pas commentés : NASA-GEOS mentionné sans détail; UKMO, ARPEGE et ICON non commentés; Météo-France utilisé via bulletins officiels.
+- **Incertitudes images :** Incertitudes sur les images : les cartes CEP/GFS au-delà de J+10 sont peu fiables; un membre rappelle qu’elles relèvent du mirage à cette échéance.
 
 
 ========================================
 
 ## 📝 PROPOSITION DE POST LINKEDIN
-🇫🇷 Après un été déjà bien sec, l'automne débute sous le signe du soleil et de la chaleur ! ☀️
-
-Les prévisions pour les deux prochaines semaines (du 14 au 27 septembre) confirment un temps remarquablement sec et anticyclonique sur l'ensemble de la France.
-
-📊 Les points clés :
-• Un puissant anticyclone fait barrage aux perturbations atlantiques.
-• Les températures restent nettement au-dessus des normales, avec des pics possibles à 33-34°C dans le Sud-Ouest en début de semaine.
-• Les précipitations seront quasi inexistantes, ce qui aggrave une sécheresse des sols déjà préoccupante.
-• Seule une légère baisse des températures est attendue autour du 17-18 septembre, mais sans pluie.
-• Incertitude pour la semaine du 21 au 27 septembre, avec une possible (mais fragile) dégradation.
-
-🌍 En résumé : un temps estival qui se prolonge, mais une situation de sécheresse qui devient de plus en plus critique. Nous surveillons de près l'évolution des modèles pour la fin du mois.
-
-#Météo #Prévisions #Sécheresse #Automne #Chaleur
+Les deux prochaines semaines s’annoncent majoritairement sèches et anticycloniques sur la France. Un léger rafraîchissement est possible entre jeudi et vendredi, sans pluie durable. Pour la semaine du 21 au 27 septembre, l’incertitude reste forte : une dégradation autour du 21-22 n’est pas exclue, mais les scénarios humides demeurent minoritaires. #météo #sécheresse #prévisions
