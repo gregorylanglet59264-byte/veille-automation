@@ -1,128 +1,167 @@
 # BULLETIN DE PRÉVISIONS MÉTÉO INFOCLIMAT (RÉGIONAL HAUTS-DE-FRANCE)
 **Généré le :** Samedi 12 Septembre 2026
-**Période :** Semaine 1 (Du lundi 14 au dimanche 20 septembre 2026) & Semaine 2 (Du lundi 21 au dimanche 27 septembre 2026)
+**Période :** Semaine 1 (Du lundi 14 septembre au dimanche 20 septembre 2026) & Semaine 2 (Du lundi 21 septembre au dimanche 27 septembre 2026)
 *Analyse régionale ciblée sur les départements : Nord (59), Pas-de-Calais (62), Somme (80), Oise (60) et Aisne (02).*
 
 ========================================
 
 ## 📈 SYNTHÈSE DES INDICATEURS DE CONFIANCE
-- **Consensus des modèles :** Modéré — *Accord régional*
-- **Fiabilité du scénario majoritaire :** Stable — *Incertitude en semaine 2*
-- **Stabilité des cartes/scénarios :** 6 / 100 — *6 cartes analysées*
-- **Niveau d'incertitude global :** Timing — *Transition thermique*
+- **Consensus des modèles :** Modéré — *Les modèles s'accordent sur la persistance de l'anticyclone, mais le détail des précipitations reste incertain.*
+- **Fiabilité du scénario majoritaire :** Anticyclone persistant — *Le scénario dominant est un temps sec et ensoleillé, avec de rares passages pluvieux.*
+- **Stabilité des cartes/scénarios :** 6 / 108 — *6 cartes analysées*
+- **Niveau d'incertitude global :** Modérée à forte — *L'incertitude concerne principalement les précipitations, très faibles, et la température en seconde semaine (signal de chaleur en fin de mois).*
 
-## 🗓️ SEMAINE 1 : Du lundi 14 au dimanche 20 septembre 2026
+## 🗓️ SEMAINE 1 : Du lundi 14 septembre au dimanche 20 septembre 2026
 ### 💡 Points clés de la semaine 1
-1. **Verrou anticyclonique :** Un anticyclone puissant couvre les Hauts-de-France, maintenant un temps sec et souvent ensoleillé.
-2. **Flux de sud-ouest :** Le flux de sud à sud-ouest apporte une douceur parfois marquée, avec de rares averses côtières.
-3. **Vigilance verte :** Les cinq départements restent en vigilance verte, avec un risque localisé d’averses sur le littoral.
-4. **Averses littorales :** Le littoral, le Ternois et le nord-ouest de la Somme peuvent connaître des pluies temporaires.
-5. **Échéance 20-21 :** Une possible charnière est attendue le 20-21 septembre, avec un risque de fortes rafales à surveiller.
+1. Sécheresse tenace : Le défilé des hautes pressions se poursuit, laissant les sols toujours très secs, notamment sur le Sud de la région HDF.
+2. Gros coup de chaleur : Mardi 15 septembre, le soleil brille sans partage, avec des maximales jusqu'à 28-30°C dans l'intérieur, bien au-dessus des normales.
+3. Dégradation modérée en vue : A partir de mercredi 16 et jeudi 17, le risque d'averses augmente, accompagné d'un net rafraîchissement (19-21°C max).
+4. Vent de secteur ouest : Le vent, modéré à assez fort sur le littoral (Nord, Pas-de-Calais, Somme), se renforce en fin de semaine avec des rafales possibles.
+5. Prudence sur les tempêtes : La combinaison de l'air chaud et de l'arrivée d'air plus frais pourrait générer des orages localisés, principalement mercredi et jeudi.
 
 ### 🤝 Modèles et scénarios (Semaine 1)
 **Points de convergence :**
-- Large convergence sur un temps sec et anticyclonique sur les Hauts-de-France.  
-- Maintien d’un flux de sud-ouest doux, sans coup de froid.  
-- Cumuls de pluie très faibles sur l’ensemble de la semaine selon les modèles.
+- Tous les modèles s'accordent sur la persistance d'un anticyclone dominant sur la France pour la première partie de la semaine.
+- Le refroidissement est attendu à partir de mercredi, mais il s'accompagne de précipitations faibles et irrégulières.
+- Les températures de mardi (jusqu'à 28-30°C en Oise et Aisne) sont largement soutenues par les modèles et les bulletins départementaux.
 **Points de divergence :**
-- Position exacte des averses sur le littoral, le Ternois et le nord-ouest de la Somme.  
-- Timing de l’échéance 20-21 : simple passage nuageux ou dégradation plus active ?  
-- Risque orageux localisé, encore mal dessiné en fin de semaine.
+- L'ampleur de la dégradation de jeudi et vendredi varie fortement selon les modèles : pour le CEP, elle est modérée ; pour le GFS, elle est très limitée.
+- La localisation exacte des averses et des orages reste incertaine : littoral et intérieur sont en balance.
+- Le retour de l'anticyclone en fin de semaine est plus ou moins rapide selon les scénarios.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 1)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Météo-France XML (22SPC / SCHAPI)** (Disponible et détaillé jusqu’à l’échéance du lundi 21 inclus.) | Anticyclone 1024-1026 hPa, flux de sud-ouest, temps sec et éclaircies, averses possibles sur le littoral et le Ternois, vigilance verte. | Vent SO 4-5 en mer, rafales 6 dans le détroit ; températures 11-18 °C selon les stations ; risque d’averses temporaires. | Nord, Pas-de-Calais, Somme, Oise, Aisne, Manche, mer du Nord. | Élevée (80 % à 90 %) | Vigilance verte maintenue ; vent SO modéré et averses côtières possibles ; risque de rafales renforcé autour du 20-21. |
-| **GFS** (Commenté et chiffré dans les discussions.) | GFS du 11/09 6z : cumul très faible, 3,3 mm sur Montsouris jusqu’au 27 ; blocage anticyclonique sur la France, pas de dégradation nette. | Temps sec, doux, pluie quasi absente ; petites pluies possibles sur les côtes. | Hauts-de-France ; Paris/Montsouris utilisé comme proxy. | Modérée (60 % à 70 %) | Cumul quasi nul à très faible ; aucune amélioration pluvieuse significative même à très long terme. |
-| **ECMWF** (Non commenté directement.) | Non détaillé dans les extraits ; les diagrammes évoqués vont dans le sens d’un maintien du temps sec, sans amélioration pluvieuse franche. | Non estimable ; aucun paramètre sensible attribuable à ECMWF dans les extraits. | France / Hauts-de-France. | Non estimable | Ne pas attribuer à ECMWF une tendance détaillée ; source complémentaire à surveiller. |
-| **Expertise Guillaume Séchet / Météo-Villes** (Intégré comme source experte.) | Tendance confirmée : temps sec et anticyclonique, vigilance verte, pas de changement majeur avant le 20 septembre. | Averses possibles sur le Pas-de-Calais et la Somme, vent SO modéré. | Hauts-de-France. | Faible (40 % à 50 %) | Pas de citation directe ; simple confirmation de la tendance générale. |
+| **ECMWF (CEP)** (Documenté) | Signal plus frais par le Nord-Ouest entre le 15 et le 17, mais les précipitations restent limitées et la dorsale anticyclonique persiste en arrière-plan. | Rafraîchissement temporaire par le nord-ouest, avec une perturbation atténuée passant sur les Hauts-de-France. | Toute la région, avec un impact plus net sur le Littoral et l'intérieur Nord/Pas-de-Calais/Somme. | Modérée (60-70%) | Le CEP propose une poche d'air plus frais qui glisse sur la moitié nord à partir de jeudi. Toutefois, les membres restent très partagés : la plupart des scénarios ne voient que peu de pluie, et les cumuls attendus restent faibles. La fiabilité est limitée à cette échéance. |
+| **GFS (déterministe)** (Documenté) | Maintien d'un puissant anticyclone sur la France, avec une sécheresse qui perdure et des cumuls de pluie quasi nuls jusqu'au 27 septembre. | Temps sec et ensoleillé, mais chaleur modérée pour la saison ; les précipitations sont quasi inexistantes. | Toute la région HDF, avec un contraste plus sec sur l'Oise et l'Aisne. | Modérée (60-70%) | Le modèle américain, suivi sur l'ensemble de la période, ne montre pas de changement synoptique majeur. La France est sous l'influence d'un dôme anticyclonique, qui repousse les perturbations vers les îles Britanniques et la mer du Nord. Les Hauts-de-France échappent donc aux précipitations, mais le risque d'orages en fin de semaine reste à surveiller. |
+| **Ensemble européen (EPS)** (Documenté) | Les membres s'accordent sur un blocage anticyclonique récurrent, avec un rail dépressionnaire trop nordique, et des scénarios de pluie très minoritaires. | Temps sec et souvent ensoleillé, mais pas de canicule ; l'humidité reste très faible. | Tous les départements de la région, avec un impact plus marqué sur les sols et la végétation. | Modérée (60-70%) | L'ensemble européen est très cohérent : les hautes pressions dominent, avec une faible amplitude des scénarios. Les précipitations sont faibles, mais pas totalement nulles ; quelques averses ou orages très localisés pourraient se produire en fin de semaine. |
+| **Ensemble nord-américain (GEFS)** (Documenté) | Une petite fenêtre d'instabilité est possible entre jeudi 17 et samedi 19, mais les scénarios de pluie restent minoritaires (25 à 30% des membres). | Ciel partagé, averses isolées, températures en baisse. | Nord, Pas-de-Calais, Somme, avec moins d'impact sur l'Oise et l'Aisne. | Modérée (60-70%) | Le GEFS montre une cyclogenèse plus marquée au sud du Groenland, ce qui pourrait envoyer une perturbation affaiblie vers le nord de la France. Toutefois, la majorité des membres garde un scénario sec, et les cumuls attendus restent modestes. |
+| **NASA/GMAO (modèle global)** (Peu documenté) | Les sorties à long terme confirment la persistance d'une circulation zonale trop nordique, avec un blocage anticyclonique récurrent sur l'Europe occidentale. | Temps sec et stable, avec un ensoleillement généreux mais un assèchement des sols qui se poursuit. | Toute la région HDF, mais la sécheresse est plus préoccupante sur les sols déjà fragilisés. | Faible (40-50%) | La NASA/GMAO est utilisée comme illustration du blocage synoptique : la situation ne montre aucun signe d'amélioration à l'échelle hebdomadaire. Le modèle sert d'appui aux discussions, mais il n'est pas cité en détail par les membres, ce qui explique la confiance faible. |
 
 ### 📍 Synthèse par zones/départements (Semaine 1)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps sec et éclaircies, passages nuageux ; averses possibles près du littoral et de la mer du Nord. | Min 13-15°C, max 22-24°C ; Lille 15°C et Dunkerque 17°C observés le 12/09 à 09h. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur l’arrivée de la goutte froide en fin de période ; littoral plus exposé. |
-| **Pas-de-Calais (62)** | Beau temps chaud | 26°C à 32°C | Élevée | Météo-France XML, ECMWF, GFS | Validé d'après bulletins XML Meteotel |
-| **Somme (80)** | Souvent sec, mais passages pluvieux possibles sur le nord-ouest du département. | Min 11-13°C, max 21-24°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Risque d’averses plus marqué dans le nord-ouest que dans l’est du département. |
-| **Oise (60)** | Temps sec et plutôt ensoleillé, avec quelques nuages sans grande conséquence. | Min 10-12°C, max 22-25°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Seul un débordement de la goutte froide pourrait apporter quelques gouttes. |
-| **Aisne (02)** | Temps sec et souvent ensoleillé ; département le moins exposé aux averses. | Min 9-12°C, max 22-25°C. | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Protégé par l’anticyclone, mais sous surveillance en cas de remontée humide. |
+| **Nord (59)** | Alternance d'éclaircies et de passages nuageux, avec un risque d'averses en fin de journée de dimanche, puis un temps sec et ensoleillé en début de semaine. Le temps se dégrade légèrement en milieu de semaine avec des averses possibles. | Min 14-16°C en début de semaine, max 23-25°C lundi, puis 25-28°C mardi dans l'intérieur, et 19°C en fin de semaine | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur l'intensité des averses de mercredi et jeudi, et sur la localisation exacte des orages (plus probables sur l'intérieur). |
+| **Pas-de-Calais (62)** | Temps sec et souvent ensoleillé en début de semaine, mais risque d'averses dès dimanche matin sur le littoral. Début de semaine très ensoleillé, puis net rafraîchissement avec averses mercredi et jeudi. | Min 14-17°C, max 21-24°C dimanche, 23-25°C lundi, 22-27°C mardi (selon secteurs), puis 18-20°C en fin de semaine | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Le contraste thermique entre le littoral et l'intérieur reste marqué, notamment mardi. Incertitude sur l'activité orageuse de mercredi. |
+| **Somme (80)** | Soleil généreux en début de semaine après une matinée de dimanche nuageuse et averses possibles. Temps sec lundi et mardi, puis averses et rafraîchissement en milieu de semaine. | Min 13-17°C, max 21-23°C dimanche, 22-24°C lundi, 22-29°C mardi (selon secteurs), puis 18-20°C en fin de semaine | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Le contraste thermique entre le littoral et l'intérieur sera marqué mardi. Incertitude sur le timing exact des averses de fin de semaine. |
+| **Oise (60)** | Temps sec, ensoleillé et très doux en début de semaine, notamment mardi où le soleil est radieux. Dégradation passagère mercredi et jeudi avec des averses, puis retour d'éclaircies. | Min 11-15°C, max 22-25°C dimanche, 23-26°C lundi, 26-29°C mardi, puis 19-21°C en fin de semaine | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | L'arrivée de la dégradation mercredi est plus incertaine, les nuages pourraient se dissiper plus rapidement que prévu. |
+| **Aisne (02)** | Temps très ensoleillé et chaud en début de semaine, notamment mardi avec des températures estivales. Début de semaine très doux, puis dégradation avec averses mercredi et jeudi, avant un retour du soleil dimanche. | Min 11-15°C, max 21-26°C dimanche, 23-27°C lundi, 27-30°C mardi, puis 19-21°C en fin de semaine | elevee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur l'arrivée des averses mercredi (plus probables sur le nord du département) et sur la baisse des températures en fin de semaine. |
 
 ### ⏳ Déroulé chronologique (Semaine 1)
-- **Phase 1** : **14-15 septembre :** flux de sud-ouest, temps sec au sud et à l’est, averses possibles près des côtes et sur le Ternois.
-- **Phase 2** : **16-17 septembre :** passage d’un secteur nord-ouest modéré, températures en léger recul, aucune pluie durable.
-- **Phase 3** : **18-19 septembre :** retour d’un temps sec et ensoleillé, avec une petite poussée chaude par le sud-ouest.
-- **Phase 4** : **20 septembre :** charnière avec la semaine suivante, risque d’averses et de rafales en soirée.
+- **Lundi 14 et mardi 15 septembre** : Temps sec et ensoleillé, avec une hausse nette des températures mardi, atteignant des valeurs estivales sur l'intérieur.
+- **Mercredi 16 et jeudi 17 septembre** : Dégradation modérée avec des averses et des températures en baisse, surtout jeudi.
+- **Vendredi 18 et samedi 19 septembre** : Temps partagé entre éclaircies et passages nuageux, avec un risque de pluie ou d'averses temporaire, mais sans grand événement.
+- **Dimanche 20 septembre** : Éclaircies prédominantes sur la plupart des départements, avec un risque de pluie résiduel sur le littoral du Nord et du Pas-de-Calais. Températures stables.
 
 **Points solides :**
-- Pressions élevées : blocage anticyclonique solide sur le nord de la France.  
-- Vigilance verte sur les cinq départements, avec des conditions globalement sèches.  
-- Températures de saison, sans coup de froid ni chaleur excessive.
+- L'anticyclone reste dominant sur la région, offrant un temps sec et ensoleillé pour l'essentiel de la semaine, avec un pic de chaleur mardi.
+- Les températures de mardi seront nettement supérieures aux normales, avec des maximales comprises entre 25 et 30°C selon les départements.
+- Le refroidissement est attendu à partir de mercredi, mais il s'accompagnera de précipitations limitées et irrégulières.
 
 **Points fragiles :**
-- Échéance du 20-21 septembre, avec un risque de rafales et d’averses encore mal calibré.  
-- Averses côtières parfois temporaires, notamment sur le Pas-de-Calais et la Somme.  
-- Trajectoire d’une éventuelle goutte froide en toute fin de semaine.
+- Le passage d'une perturbation en milieu de semaine est modélisé, mais son intensité et sa localisation restent incertaines (risque de voir les pluies rester très faibles).
+- La possibilité d'orages en fin de semaine existe, mais les modèles sont divisés sur leur déclenchement.
+- La durée de la période de sécheresse reste préoccupante, avec un risque de dégradation des sols qui se poursuit.
 
 **À surveiller (prochains runs) :**
-Prochains runs ECMWF et GFS des 12-14 septembre, en particulier les ensembles 12Z, pour préciser l’échéance du 20-21. Surveillance également de l’évolution de la goutte froide sur le proche Atlantique.
+- Suivre l'évolution du CEP et du GFS pour la dégradation de mercredi et jeudi.
+- Surveiller les sorties de minuit et du matin pour affiner le risque d'orages localisés.
+- Analyse des diagrammes d'ensemble pour évaluer la probabilité de précipitations en fin de semaine.
 
 
-## 🗓️ SEMAINE 2 : Du lundi 21 au dimanche 27 septembre 2026
+## 🗓️ SEMAINE 2 : Du lundi 21 septembre au dimanche 27 septembre 2026
 ### 💡 Points clés de la semaine 2
-1. **Sujet pas encore ouvert :** L’analyse repose sur les projections long terme ; le sujet Infoclimat de la semaine 39 n’est pas encore ouvert.
-2. **Date charnière 21-22 :** Le passage à l’automne pourrait s’accompagner d’une évolution, sans scénario fiable.
-3. **Cumuls très faibles :** Selon GFS, seulement 3,3 mm sont attendus jusqu’au 27 sur Montsouris ; les HDF restent très secs.
-4. **Goutte froide baladeuse :** La trajectoire d’une éventuelle goutte froide reste le principal facteur d’incertitude.
-5. **Pas d’amélioration nette :** Même à très long terme, les diagrammes ne montrent pas de retour significatif de la pluie.
+1. Sécheresse prolongée : Les modèles à long terme (GFS, CEP) maintiennent une anomalie anticyclonique sur la France, limitant fortement les précipitations.
+2. Chaleur en fin de mois : Plusieurs membres évoquent un signal de remontée des températures en fin de mois, sans parler de canicule, mais avec un temps anormalement doux.
+3. Incertitude sur la date de sortie : Le scénario d'une dégradation plus marquée reste minoritaire, et rien n'indique une amélioration nette avant la fin de la période.
 
 ### 🤝 Modèles et scénarios (Semaine 2)
 **Points de convergence :**
-- Les projections long terme s’accordent sur des cumuls de pluie très faibles.  
-- Maintien probable des températures de saison, sans coup de froid.  
-- Le blocage anticyclonique devrait rester présent, au moins en première partie de semaine.
+- Tous les modèles long terme s'accordent sur un temps majoritairement sec et anticyclonique.
+- Les températures devraient rester douces pour la saison, avec un possible pic de chaleur en toute fin de mois.
+- La pluie reste très rare, et les cumuls attendus sur la période sont faibles.
 **Points de divergence :**
-- Trajectoire exacte de la goutte froide : simple passage nuageux ou orages localisés ?  
-- Intensité de la poussée chaude par le sud-ouest sous l’anticyclone.  
-- Position exacte de l’anticyclone : sur la France ou décalé vers l’Atlantique ?
+- L'arrivée d'une éventuelle dégradation en fin de mois est très incertaine, avec des scénarios allant d'une simple baisse des températures à un passage pluvieux modéré.
+- Les modèles sont en désaccord sur l'ampleur de la hausse des températures en fin de période.
+- La répartition des rares averses, si elles se produisent, reste inconnue.
 
 ### 🤖 Scénarios détaillés des modèles (Semaine 2)
 | Modèle | Scénario | Temps sensible | Zones concernées | Confiance | Détails d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **GFS** (Commenté pour une échéance allant jusqu’au 27 septembre.) | GFS 11/09 6z : cumul de 3,3 mm sur Montsouris jusqu’au 27 ; pas de retour pluvieux significatif sur la France, HDF inclus. | Temps sec, douceur de saison, pluie très faible, incertitude orageuse liée à une goutte froide. | Hauts-de-France, avec Paris/Montsouris comme référence. | Modérée (60 % à 70 %) | Scénario sec dominant, mais une goutte froide pourrait générer des orages très localisés. |
-| **ECMWF** (Non commenté directement.) | Projections long terme du sujet Semaine 38 : maintien probable de l’anticyclone, flux de sud-ouest, aucune dégradation durable. | Non détaillé dans les extraits ; à confirmer par les prochains runs. | France / Hauts-de-France. | Non estimable | Source complémentaire à surveiller ; ne pas lui attribuer une tendance trop fine. |
-| **Météo-France XML** (Disponible uniquement jusqu’au lundi 21 pour cette échéance.) | Le bulletin du 12/09 signale un risque de rafales et d’averses pour le 20-21 ; aucune tendance détaillée fiable au-delà de lundi 21. | Lundi 21 encore marqué par un risque de rafales et d’averses ; ensuite incertitude. | Hauts-de-France, Manche, mer du Nord. | Faible (40 % à 50 %) | Au-delà du lundi 21, la confiance est très limitée. |
-| **Expertise Guillaume Séchet / Météo-Villes** (Source experte peu documentée pour cette échéance.) | Aucun élément nouveau après le 21 dans les extraits ; prolongation du temps sec plausible, mais sujet Semaine 39 pas ouvert. | Non précisé ; prudence conseillée. | Hauts-de-France. | Faible (40 % à 50 %) | Ne pas surinterpréter l’absence de commentaire comme une confirmation forte. |
+| **ECMWF (CEP) — projection long terme** (Peu documenté) | Le CEP entrevoit une possible évolution à partir du 21-22 septembre, avec un rafraîchissement mais sans précipitations durables. Les signaux restent fragiles. | Temps sec et assez doux, avec des passages nuageux, mais pas d'épisode pluvieux significatif en vue. | Toute la région HDF, principalement le nord de la France. | Faible (40-50%) | Les membres du forum s'accordent à dire que les modélisations longues distances sont peu fiables. Le CEP envoie des signaux de baisse des températures pour la semaine 39, mais les précipitations ne sont pas au rendez-vous. |
+| **GFS (déterministe) — projection long terme** (Peu documenté) | Le GFS maintient des conditions anticycloniques persistantes jusqu'à la fin du mois, avec des cumuls de pluie très faibles, de l'ordre de 3 à 4 mm sur la région. | Temps généralement sec, avec un ensoleillement restant généreux et des températures proches ou légèrement au-dessus des normales. | Tous les départements HDF, avec des pluies éparses. | Faible (40-50%) | Le GFS est cité pour illustrer la sécheresse persistante. Les membres s'inquiètent de l'absence de porte de sortie, et le modèle confirme un scénario très sec pour la fin du mois. |
 
 ### 📍 Synthèse par zones/départements (Semaine 2)
 | Zone / Département | Temps sensible | Températures | Fiabilité | Modèles | Notes d'analyse |
 | --- | --- | --- | --- | --- | --- |
-| **Nord (59)** | Temps sec sous anticyclone, risque d’averses côtières en début de semaine, incertitude ensuite. | Min 12-15°C, max 20-24°C. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Sujet Semaine 39 non ouvert ; trajectoire de la goutte froide incertaine. |
-| **Pas-de-Calais (62)** | Chaleur d'été | 25°C à 30°C | Modérée | ECMWF, GFS, Guillaume Séchet | Incertitude habituelle J+14 |
-| **Somme (80)** | Temps sec probable après le passage de lundi 21. | Min 10-13°C, max 21-24°C. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Incertitude sur un éventuel orage isolé en fin de semaine. |
-| **Oise (60)** | Temps sec et plutôt bien ensoleillé. | Min 9-12°C, max 21-25°C. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Département protégé, mais sous surveillance en cas de remontée orageuse. |
-| **Aisne (02)** | Temps sec, souvent ensoleillé. | Min 8-11°C, max 21-25°C. | moderee | Météo-France XML, ECMWF, GFS, Guillaume Séchet | Seule une goutte froide très décalée pourrait apporter quelques gouttes. |
+| **Nord (59)** | Temps généralement sec et ensoleillé, avec un risque d'averses très limité. Les conditions anticycloniques persistent, avec une possible dégradation en fin de période. | Min 10-14°C, max 18-22°C, avec une possible hausse en fin de semaine | moderee | ECMWF, GFS | Projections à long terme ; la fiabilité est limitée à cette échéance. |
+| **Pas-de-Calais (62)** | Temps sec et souvent ensoleillé, avec un léger risque d'averses en début de semaine. La sécheresse se poursuit. | Min 10-14°C, max 18-21°C, stables en fin de semaine | moderee | ECMWF, GFS | La persistance de l'anticyclone est probable mais pas certaine ; des averses pourraient se produire plus à l'ouest. |
+| **Somme (80)** | Temps sec, souvent ensoleillé, avec un risque de pluie très faible. Conditions anticycloniques dominantes. | Min 9-13°C, max 18-22°C, en légère hausse en fin de semaine | moderee | ECMWF, GFS | Possibilité de passages nuageux plus nombreux en début de semaine, sans pluie significative. |
+| **Oise (60)** | Temps sec et ensoleillé, avec des températures douces. La sécheresse se prolonge, et le risque de pluie est très faible. | Min 9-12°C, max 19-22°C, avec une hausse possible en fin de semaine | moderee | ECMWF, GFS | Les modèles sont peu fiables à cette échéance ; un passage pluvieux isolé n'est pas exclu. |
+| **Aisne (02)** | Temps sec, ensoleillé et doux, avec un risque de pluie très faible. Sécheresse persistante. | Min 8-12°C, max 19-23°C, en légère hausse en fin de semaine | moderee | ECMWF, GFS | Fiabilité réduite à cette échéance ; une dégradation plus marquée en fin de semaine est possible mais incertaine. |
 
 ### ⏳ Déroulé chronologique (Semaine 2)
-- **Phase 1** : **21-22 septembre :** date charnière automnale, évolution possible mais non assurée.
-- **Phase 2** : **23-24 septembre :** probable prolongation du blocage anticyclonique, temps sec.
-- **Phase 3** : **25-26 septembre :** goutte froide à surveiller ; cumuls très faibles selon GFS.
-- **Phase 4** : **27 septembre :** fin de quinzaine sans amélioration pluvieuse nette, forte incertitude.
+- **Lundi 21 et mardi 22 septembre** : Temps sec, souvent ensoleillé, avec des températures proches des normales.
+- **Mercredi 23 et jeudi 24 septembre** : Conditions stables, anticycloniques, avec un temps sec et des températures en hausse.
+- **Vendredi 25 et samedi 26 septembre** : Temps sec et ensoleillé, avec un risque de hausse des températures.
+- **Dimanche 27 septembre** : Poursuite du temps sec, avec un ensoleillement généreux et des températures douces.
 
 **Points solides :**
-- Selon GFS, pas de retour pluvieux significatif d’ici le 27 septembre.  
-- Températures probables comprises entre 20 et 25°C en journée.  
-- Risque de dégradation majeure faible, mais avec une incertitude réelle.
+- La persistance d'un temps sec et anticyclonique est le scénario le plus probable, soutenu par l'ensemble des modèles long terme.
+- Les températures devraient rester douces pour la saison, avec des maximales comprises entre 18 et 23°C.
+- Le risque de pluie est très faible, mais pas totalement nul, notamment sur les zones côtières.
 
 **Points fragiles :**
-- Sujet Infoclimat Semaine 39 pas encore ouvert.  
-- Cumuls localement plus élevés possibles sous orages isolés.  
-- Échéance du 21-22 septembre encore fragile, avec un risque de bascule rapide.
+- La fiabilité des projections à long terme est faible, et les modèles pourraient évoluer dans les prochains jours.
+- Le signal de chaleur en fin de mois est présent, mais son intensité et sa localisation restent incertaines.
+- Une dégradation plus marquée, bien que minoritaire dans les scénarios, pourrait se produire en toute fin de période.
 
 **À surveiller (prochains runs) :**
-Surveiller les runs ECMWF et GFS des 12-14 septembre, notamment les cartes d’anomalies de géopotentiel et de précipitations. L’ouverture du sujet Infoclimat Semaine 39 sera décisive.
+- Surveiller l'ouverture du sujet Semaine 39 sur le forum Infoclimat pour de nouvelles analyses.
+- Analyser les diagrammes d'ensemble (CEP, GFS) pour évaluer la probabilité d'une dégradation fin septembre.
+- Examiner les sorties des modèles à haute résolution (AROME, ARPEGE) dès que la semaine 39 sera abordée.
 
 
 ========================================
 
 ## 🔮 TENDANCE GLOBALE À 15 JOURS ET DOUTES
 
+### Tendance 15 jours
+Vaste zone anticyclonique sur la France pour les deux semaines. La première semaine est marquée par un temps sec et très doux, avec un pic de chaleur mardi 15 septembre. Un léger rafraîchissement est attendu à partir de mercredi, mais les précipitations restent faibles et irrégulières. Pour la seconde semaine, le scénario sec et anticyclonique se prolonge, avec des températures possiblement en hausse en fin de mois. La sécheresse des sols reste préoccupante.
+
+### Période la plus fiable
+La première semaine (du 14 au 20 septembre) est plus fiable, car elle est documentée par les bulletins officiels Météo-France et les discussions de prévision à courte échéance. La seconde semaine est beaucoup plus incertaine, le sujet Semaine 39 n'étant pas encore ouvert et les modèles à long terme restant peu fiables.
+
+### Phénomènes récurrents
+Sécheresse des sols, absence de précipitations notables, ensoleillement généreux, températures supérieures aux normales, risque d'orages localisés en fin de première semaine, et possible hausse des températures en fin de seconde semaine.
+
+### Principales incertitudes
+- La dégradation de mercredi 16 et jeudi 17 : son intensité, sa localisation et sa durée restent incertaines.
+- Le retour de l'anticyclone en fin de première semaine et son maintien en seconde semaine.
+- La hausse des températures en fin de seconde semaine, avec un signal de chaleur en fin de mois.
+- L'absence de pluie significative, qui aggrave la sécheresse.
+
 ### 🚨 Analyse des doutes et lacunes
+- **Timing/Chronologie :** Les doutes concernent principalement la chronologie de la dégradation en milieu de première semaine (mercredi 16 et jeudi 17) et le timing du retour de l'anticyclone. En seconde semaine, la date d'une éventuelle hausse des températures est incertaine.
+- **Localisation :** Incertitude sur la localisation exacte des averses en première semaine (littoral ou intérieur) et sur les zones qui pourraient bénéficier de pluies faibles en seconde semaine. Le contraste thermique entre le littoral et l'intérieur est également difficile à cerner.
+- **Intensité :** Les doutes portent sur l'intensité des averses orageuses de mercredi et jeudi, et sur l'ampleur du pic de chaleur de mardi. En seconde semaine, l'intensité du signal de hausse des températures en fin de mois est très incertaine.
+- **Informations manquantes :** Le sujet Semaine 39 n'étant pas encore ouvert sur le forum Infoclimat, l'analyse de la seconde semaine repose uniquement sur les projections à long terme extraites du sujet Semaine 38. Les discussions à venir pourront apporter des précisions.
+- **Modèles sous-documentés :** Le modèle NASA/GMAO est peu documenté, n'étant cité qu'une seule fois par un membre. Les modèles AROME et ARPEGE ne sont pas encore analysés pour la seconde semaine. D'autres modèles (ICON, UKMO) ne sont que très peu évoqués par les membres.
+- **Incertitudes images :** Les cartes partagées par les membres (diagrammes GFS, CEP, NASA) montrent des tendances à long terme, mais leur fiabilité est faible à cette échéance. Les cartes de cumul de pluie sont également peu fiables à plus de 10 jours.
+
+
+========================================
+
+## 📝 PROPOSITION DE POST LINKEDIN
+🔎 Bulletin de prévisions pour les Hauts-de-France – Semaines du 14 au 27 septembre 2026
+
+*À retenir :*
+• Un puissant anticyclone reste installé sur la France, bloquant les perturbations.
+• Pic de chaleur mardi 15 septembre : jusqu'à 28-30°C dans l'intérieur, bien au-dessus des normales.
+• Rafraîchissement temporaire à partir de mercredi, mais avec des pluies très limitées.
+• Sécheresse des sols qui se poursuit, notamment sur la Somme, l'Oise et l'Aisne.
+• En seconde semaine, le scénario sec se prolonge, avec un possible regain de chaleur en fin de mois (à confirmer). ⚠️
+
+Restons prudents : la fiabilité à longue échéance reste faible. Suivez les prochains bulletins pour affiner ces tendances.
+
+#Météo #HautsDeFrance #Prévisions #Sécheresse #MétéoFrance
