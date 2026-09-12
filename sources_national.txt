@@ -308,8 +308,8 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
+• Infoclimat Direct : Rencontre Sud-Ouest - Automne 2026
 • Infoclimat Direct : Suivi ensoleillement 2026
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
@@ -320,10 +320,10 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
-Dernier bulletin généré le Vendredi 11 Septembre 2026.
-Résumé général précédent : Du 14 au 27 septembre 2026, la France reste sous l'influence d'un puissant anticyclone. Le temps est sec et très ensoleillé, avec des températures souvent supérieures aux normales. Les précipitations sont quasi inexistantes. Une baisse thermique est possible en fin de semaine 1, suivie d'un léger regain de chaleur, mais sans pluie durable. La sécheresse des sols s'accentue..
+Dernier bulletin généré le Samedi 12 Septembre 2026.
+Résumé général précédent : Sur la période 14-27 septembre, un puissant anticyclone domine. Temps sec, très ensoleillé et doux pour la saison, avec un rafraîchissement temporaire autour du 17-18 puis un possible retour de la chaleur. Pluies très rares, sécheresse des sols qui s’accentue. Incertitude sur une éventuelle dégradation autour du 21-22..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Temps sec, fraîchissement relatif en milieu de semaine, aucun cumul significatif..
+Températures attendues précédemment : Temps sec, ensoleillement généreux, fraîchissement modéré en milieu de semaine, précipitations très limitées..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -450,7 +450,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 9 heures par nickdu77
+	Modifié il y a 11 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -467,7 +467,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 8 heures par Nicolas L
+	Modifié il y a 10 heures par Nicolas L
 								4
 								1
 
@@ -476,7 +476,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 4 heures par Victor hurricane tempête
+	Modifié il y a 6 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -646,7 +646,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 9 heures par nickdu77
+	Modifié il y a 11 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -663,7 +663,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 8 heures par Nicolas L
+	Modifié il y a 10 heures par Nicolas L
 								4
 								1
 
@@ -672,7 +672,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 4 heures par Victor hurricane tempête
+	Modifié il y a 6 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
