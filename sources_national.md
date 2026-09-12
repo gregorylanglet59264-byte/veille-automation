@@ -309,7 +309,7 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse sur le Cagire et le Luchonnais.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT13-83] ===
-FQCT40 LFML 120355 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 12 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 12 septembre 2026 à 00H00 UTC, et évolution Pression vers 1020 hPa à l'ouest du bassin avec dépression relative près de 1018 hPa au large des côtes de Provence, se comblant progressivement en journée. Peu de changement demain. 3 - Prévisions pour la journée du samedi 12 septembre VENT : - à l'ouest de Sicié : Nord à Nord-Ouest 2 à 4, localement 5 à l'ouest de Fos au début, mollissant secteur Ouest 1 à 3 l'après-midi. - à l'est de Sicié : Nord-Est 3 à 4, mollissant Variable 1 à 3 l'après-midi, secteur Nord-Ouest dominant. MER : belle à peu agitée, du rivage vers le large, s'atténuant belle partout l'après-midi. HOULE : Ouest 0.5 à 1 m à l'est du Cap Croisette, devenant non significative l'après-midi. TEMPS : ensoleillé, passagèrement nuageux à l'est de Sicié le matin. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 12 septembre au dimanche 13 septembre VENT : - à l'ouest de Sicié : Variable 1 à 3, secteur Ouest dominant, fraîchissant Nord-Ouest 2 à 4 à l'ouest de Cap Croisette en seconde partie de nuit. - à l'est de Sicié : Variable 1 à 3, secteur Nord-Ouest dominant. MER : belle. HOULE : non significative. TEMPS : ciel voilé en fin de nuit. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 13 septembre VENT : Nord à Nord-Ouest 3 à 4 à l'ouest du Cap Croisette, mais Variable 1 à 3 ailleurs, puis s'orientant Ouest à Sud-Ouest 2 à 4 partout l'après-midi. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 13 au 14 et la journée du lundi 14 septembre VENT : Ouest à Sud-Ouest 2 à 4, virant Nord à Nord-Ouest en milieu de nuit, puis à l'Est à Sud-Est en milieu d'après-midi. MER : belle à peu agitée. Pas de houle significative. 7 - Tendance pour les jours suivants Mardi 15 septembre Secteur Sud-Est faible à modéré dans le golfe du Lion et en Provence. Secteur Nord-Ouest à l'est de la Corse. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Ouest modéré à assez fort. Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Ouest fiable à modéré. Secteur Est faible à modéré en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 Vendredi 18 septembre Secteur Ouest modéré à assez fort. Variable faible en mer de Ligure et à l'est de la Corse. Indice de confiance : 3 sur 5 8 - Observations le samedi 12 septembre 2026 à 03H00 UTC Cap Camarat : vent Nord-Nord-Est 10 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est-Nord-Est 12 noeuds, clair ou peu nuageux, visibilité 10 milles. Le Levant : vent Est-Nord-Est 12 noeuds, 1019 hPa en hausse. Porquerolles : vent Est 10 noeuds. Cap Couronne : vent Nord 10 noeuds, mer peu agitée, visibilité 10 milles. Prochain bulletin le samedi 12 septembre 2026, vers 13H00 légales
+FQCT40 LFML 120940 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de Port-Camargue à Saint-Raphaël. Emis le samedi 12 septembre 2026 à 13H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 12 septembre 2026 à 06H00 UTC, et évolution Pression vers 1020 hPa à l'ouest du bassin avec dépression relative près de 1018 hPa au large des côtes de Provence, se comblant progressivement en journée. Peu de changement demain. 3 - Prévisions pour l'après-midi du samedi 12 septembre VENT : - à l'ouest de Sicié : secteur Ouest 1 à 3, parfois 4 près du rivage. - à l'est de Sicié : Variable 1 à 3. MER : belle. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 12 septembre au dimanche 13 septembre VENT : - à l'ouest de Cap Croisette : Ouest 1 à 3, virant Nord à Nord-Ouest 3 à 4 en seconde partie de nuit. - à l'est de Cap Croisette : Variable 1 à 3, secteur Nord-Ouest dominant. MER : belle, devenant peu agitée au large de la Camargue en fin de nuit. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 5 - Prévisions pour la journée du dimanche 13 septembre VENT : - à l'ouest de Cap Croisette : Nord à Nord-Ouest 3 à 4, revenant Ouest à Sud-Ouest l'après-midi. - à l'est de Cap Croisette : Variable 1 à 2. MER : belle, localement peu agitée au large de la Camargue le matin. HOULE : non significative. TEMPS : ensoleillé. VISIBILITE : bonne. 6 - Prévisions pour la nuit du 13 au 14 et la journée du lundi 14 septembre VENT : - à l'ouest de Cap Croisette : Ouest à Sud-Ouest 3 à 4, virant Nord à Nord-Ouest la nuit, parfois 5, s'orientant secteur Sud 2 à 4 l'après-midi. - à l'est de Cap Croisette : Variable 1 à 2, s'orientant secteur Est 2 à 4 en début de journée. MER : belle, localement peu agitée à l'ouest du Cap Croisette. HOULE : non significative. TEMPS : clair à peu nuageux, parfois voilé en journée. VISIBILITE : bonne. 7 - Prévisions pour la nuit du 14 au 15 et la journée du mardi 15 septembre VENT : Variable 1 à 3. MER : belle. Pas de houle significative. 8 - Tendance pour les jours suivants Mercredi 16 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Ouest modéré à assez fort de la frontière espagnole à Saint-Raphaël et en Corse. Secteur Est faible à modéré de Saint-Raphaël à Menton. Indice de confiance : 4 sur 5 Vendredi 18 septembre Secteur Ouest modéré à assez fort de la frontière espagnole à Saint-Raphaël et en Corse. Secteur Est faible à modéré de Saint-Raphaël à Menton Indice de confiance : 4 sur 5 Samedi 19 septembre Variable faible à modéré. Indice de confiance : 3 sur 5 9 - Observations le samedi 12 septembre 2026 à 09H00 UTC Cap Camarat : vent Nord-Nord-Est 10 noeuds, clair ou peu nuageux, visibilité 10 milles. Cap Cepet : vent Est-Nord-Est 8 noeuds, clair ou peu nuageux, visibilité 10 milles. Le Levant : vent Est-Nord-Est 8 noeuds, 1021 hPa en hausse. Cap Couronne : vent Sud 4 noeuds, mer belle, visibilité 10 milles. Prochain bulletin le samedi 12 septembre 2026, vers 18H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (France entière) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -332,12 +332,12 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
-• Infoclimat Direct : Automne 2026 et hiver 2026-2027 dans les Massifs de l'Est
-• Infoclimat Direct : Suivi du temps ailleurs au Canada.
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
+• Infoclimat Direct : Suivi ensoleillement 2026
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -345,9 +345,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 12 Septembre 2026.
-Résumé général précédent : Sur l'ensemble des deux semaines, un temps sec, anticyclonique et plus chaud que la normale est attendu, avec un léger refroidissement temporaire autour du 16-17 septembre et une incertitude réelle, mais non majoritaire, sur une dégradation autour du 21-22 septembre..
+Résumé général précédent : .
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Sécheresse persistante, fortes chaleurs, absence de pluie généralisée..
+Températures attendues précédemment : De saison.
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -474,7 +474,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 17 heures par nickdu77
+	Modifié il y a 19 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -491,7 +491,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 16 heures par Nicolas L
+	Modifié il y a 18 heures par Nicolas L
 								4
 								1
 
@@ -500,7 +500,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 12 heures par Victor hurricane tempête
+	Modifié il y a 14 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -544,7 +544,8 @@ Message:
 On est loin d'avoir un défilé de perturbation en effet, à perte de vue 🥲..
 	On n'est pas si loin en revanche d'avoir de temps à autre une petite perturbation, bien humide...
 	On a vraiment une bataille entre HG et cyclogenès au sud du groenland. Une cyclogenèse un peu plus forte et vaste, et on peut toucher le jackpot. Sur les ensemblistes, ces scénarios restent minoritaires mais ils sont tout de même pas loin (entre 1/4 et 1/3 des scénarios). Une maigre consolation.. si tant est qu'elle advienne.
-								4
+								6
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
 Auteur: Neigedu38
@@ -670,7 +671,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 17 heures par nickdu77
+	Modifié il y a 19 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -687,7 +688,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 16 heures par Nicolas L
+	Modifié il y a 18 heures par Nicolas L
 								4
 								1
 
@@ -696,7 +697,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 12 heures par Victor hurricane tempête
+	Modifié il y a 14 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -740,4 +741,5 @@ Message:
 On est loin d'avoir un défilé de perturbation en effet, à perte de vue 🥲..
 	On n'est pas si loin en revanche d'avoir de temps à autre une petite perturbation, bien humide...
 	On a vraiment une bataille entre HG et cyclogenès au sud du groenland. Une cyclogenèse un peu plus forte et vaste, et on peut toucher le jackpot. Sur les ensemblistes, ces scénarios restent minoritaires mais ils sont tout de même pas loin (entre 1/4 et 1/3 des scénarios). Une maigre consolation.. si tant est qu'elle advienne.
-								4
+								6
+								1

@@ -304,7 +304,7 @@ Températures minimales : stationnaires.
 Températures maximales : en hausse sur le Laonnois ainsi que sur la moitié Sud du département.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 120425 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 12 septembre 2026 à 06H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 12 septembre 2026 à 00H00 UTC, et évolution Anticyclone 1026 hPa sur l'ouest de la France. Thalweg en Manche l'après-midi, prévu en mer du Nord dimanche matin. 3 - Prévisions pour la journée du samedi 12 septembre VENT : Ouest à Sud-Ouest 3 à 4, fraîchissant 4 à 5 à la mi-journée, localement 6 dans le détroit du Pas de Calais et en mer du Nord. Rafales. MER : belle à peu agitée, devenant peu agitée à agitée en mer du Nord à la fin. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 12 septembre au dimanche 13 septembre VENT : Ouest à Sud-Ouest 5 à 6, mollissant 4 à 5 en milieu de nuit. Rafales. MER : peu agitée à agitée. HOULE : non significative, parfois Ouest à Nord-Ouest 0.5 à 1 m en Manche. TEMPS : devenant très nuageux à couvert, parfois pluie en seconde partie de nuit. VISIBILITE : bonne, parfois moyenne sous pluie en seconde partie de nuit. 5 - Prévisions pour la journée du dimanche 13 septembre VENT : Ouest à Sud-Ouest 4 à 5. MER : peu agitée à agitée. HOULE : s'établissant Sud-Ouest 0.5 à 1 m. TEMPS : couvert avec pluie. VISIBILITE : moyenne à mauvaise sous pluie. 6 - Prévisions pour la nuit du 13 au 14 et la journée du lundi 14 septembre VENT : Ouest à Sud-Ouest 3 à 4, fraîchissant 5 en milieu d'après-midi en mer du nord. MER : belle à peu agitée. HOULE d'Ouest à Sud-Ouest inférieure à 1,5 m, s'atténuant ensuite. 7 - Tendance pour les jours suivants Mardi 15 septembre Secteur Nord-Ouest faible à modéré. Indice de confiance : 4 sur 5 Mercredi 16 septembre Secteur Nord-Ouest modéré. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 Vendredi 18 septembre Secteur Ouest modéré. Indice de confiance : 3 sur 5 8 - Observations le samedi 12 septembre 2026 à 03H00 UTC Dunkerque : vent Sud 6 noeuds, mer belle, 1024 hPa en baisse, clair ou peu nuageux, visibilité 7 milles. Cap Gris Nez : vent Sud-Ouest 14 noeuds. Boulogne : vent Ouest-Sud-Ouest 10 noeuds, 1024 hPa en baisse, clair ou peu nuageux, visibilité 10 milles. Bouée Sandettie : vent Sud-Ouest 8 noeuds, creux 0,4 mètre, 1023 hPa en baisse, visibilité 10 milles. Prochain bulletin le samedi 12 septembre 2026, vers 12H30 légales
+FQCT40 LFQQ 120945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 12 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 12 septembre 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa sur le Golfe de Gascogne et la France. Thalweg en Manche l'après-midi, prévu en mer du Nord dimanche matin. 3 - Prévisions pour l'après-midi du samedi 12 septembre VENT : Ouest à Sud-Ouest 4 à 5, localement 6 dans le détroit du Pas de Calais et en mer du Nord. Rafales. MER : devenant peu agitée à agitée. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 12 septembre au dimanche 13 septembre VENT : Ouest à Sud-Ouest 5 à 6, mollissant 4 à 5 par le sud en soirée. Rafales. MER : peu agitée à agitée, devenant peu agitée à la fin. HOULE : non significative, mais localement Ouest 0.5 m prés du rivage en Manche. TEMPS : devenant très nuageux à couvert, quelques pluie en seconde partie de nuit. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du dimanche 13 septembre VENT : Ouest à Sud-Ouest 4 à 5. MER : peu agitée, parfois agitée en Manche. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : couvert, quelques pluie en mer du Nord. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 6 - Prévisions pour la nuit du 13 au 14 et la journée du lundi 14 septembre VENT : Ouest à Sud-Ouest 3 à 4, parfois 5 en Mer du Nord, l'après-midi. MER : peu agitée, devenant belle à peu agitée en Mer du Nord, la nuit, jusqu'en en milieu d'après-midi. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant progressivement par le nord. TEMPS : très nuageux à couvert. VISIBILITE : bonne 7 - Prévisions pour la nuit du 14 au 15 et la journée du mardi 15 septembre VENT : Sud à Sud-Ouest 4 à 5. Rafales. MER : peu agitée. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Mercredi 16 septembre Secteur Nord-Ouest modéré. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Vendredi 18 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Samedi 19 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 9 - Observations le samedi 12 septembre 2026 à 09H00 UTC Dunkerque : vent Ouest 10 noeuds, mer belle, 1025 hPa en hausse, très nuageux à couvert, visibilité 6 milles. Cap Gris Nez : vent Ouest-Sud-Ouest 17 noeuds. Boulogne : vent Ouest-Sud-Ouest 12 noeuds, 1025 hPa en hausse, nuageux avec éclaircies, visibilité 13 milles. Prochain bulletin le samedi 12 septembre 2026, vers 18H00 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -327,11 +327,11 @@ quelques possibles orages dans le nord-est mercredi.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Sud-Ouest - Septembre 2026
-• Infoclimat Direct : Tendances automne 2026
-• Infoclimat Direct : [Réseau StatIC] Suivi du déploiement
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
+• Infoclimat Direct : Du 14 septembre au 20 septembre 2026 prévisions météo semaine 38
+• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
+• Infoclimat Direct : Suivi du temps dans le Centre-Ouest Septembre 2026
+• Infoclimat Direct : Saison cyclonique 2026 - Pacifique Nord-est
+• Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Nord-Est - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
@@ -340,9 +340,9 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 12 Septembre 2026.
-Résumé général HDF précédent : Sur l'ensemble de la quinzaine, un temps majoritairement sec et anticyclonique se dessine, avec une douceur parfois marquée la première semaine et un net refroidissement en cours de semaine 1. La semaine 2 reste très incertaine, mais le scénario sec domine encore..
+Résumé général HDF précédent : Sur l'ensemble de la quinzaine, la région Hauts-de-France reste sous l'influence d'un puissant anticyclone, avec un temps majoritairement sec et ensoleillé. Un léger fléchissement thermique est attendu en cours de semaine 1, avec quelques averses éparses, avant un retour au calme. La semaine 2 s'annonce également sèche, mais avec une incertitude plus marquée en fin de période..
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Tendance sèche, fraîcheur relative en fin de semaine, quelques faibles pluies possibles au nord..
+Températures attendues précédemment : Fraîcheur relative et averses possibles mercredi/jeudi, suivies d'un temps plus calme..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
@@ -469,7 +469,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 17 heures par nickdu77
+	Modifié il y a 19 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -486,7 +486,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 16 heures par Nicolas L
+	Modifié il y a 18 heures par Nicolas L
 								4
 								1
 
@@ -495,7 +495,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 12 heures par Victor hurricane tempête
+	Modifié il y a 14 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -539,7 +539,8 @@ Message:
 On est loin d'avoir un défilé de perturbation en effet, à perte de vue 🥲..
 	On n'est pas si loin en revanche d'avoir de temps à autre une petite perturbation, bien humide...
 	On a vraiment une bataille entre HG et cyclogenès au sud du groenland. Une cyclogenèse un peu plus forte et vaste, et on peut toucher le jackpot. Sur les ensemblistes, ces scénarios restent minoritaires mais ils sont tout de même pas loin (entre 1/4 et 1/3 des scénarios). Une maigre consolation.. si tant est qu'elle advienne.
-								4
+								6
+								1
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
 Auteur: Neigedu38
@@ -665,7 +666,7 @@ il y a 6 minutes, Banleve7519 a dit :
 Auteur: nickdu77
 Message:
 Et pour achever de nous saper le moral, en PP (sur Montsouris mais ça marche pour à peu près tout le monde sauf peut-être le SE), on aurait 3,3 mm jusqu'au 27 septembre (selon le run GFS du 11/9 - 6z lien : ). C'est loin, hors topic et ça peut encore évoluer mais l'ennui, c'est que ça me semble largement pas impossible et que ça risque d'arriver. Sympa, ce climat sub-sahélien. On va pouvoir créer une nouvelle zone climatique, style "climat sahélien frais" par exemple ou "climat proto-désertique d'Europe occidentale".
-	Modifié il y a 17 heures par nickdu77
+	Modifié il y a 19 heures par nickdu77
 Erreur de frappe
 								1
 								1
@@ -682,7 +683,7 @@ Il y a 8 heures, Jean-Séb a dit :
 	Et au 6Z, on a ceci... 
 	Pour rester dans le topic et oublier ces cartes désastreuses, CEP envoit un signal plus frais vers le 15 septembre par le Nord-ouest et pourrait concerner la quasi totalité du pays d'ici le 17. 
 	Cependant, ce n'est pas pour autant que les précipitations vont se ruer. J'espère vivement le retour de notre bon vieux zonal à l'automne pour déloger ces hautes pressions récurrentes et cette sécheresse à n'en plus finir. 
-	Modifié il y a 16 heures par Nicolas L
+	Modifié il y a 18 heures par Nicolas L
 								4
 								1
 
@@ -691,7 +692,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 12 heures par Victor hurricane tempête
+	Modifié il y a 14 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -735,4 +736,5 @@ Message:
 On est loin d'avoir un défilé de perturbation en effet, à perte de vue 🥲..
 	On n'est pas si loin en revanche d'avoir de temps à autre une petite perturbation, bien humide...
 	On a vraiment une bataille entre HG et cyclogenès au sud du groenland. Une cyclogenèse un peu plus forte et vaste, et on peut toucher le jackpot. Sur les ensemblistes, ces scénarios restent minoritaires mais ils sont tout de même pas loin (entre 1/4 et 1/3 des scénarios). Une maigre consolation.. si tant est qu'elle advienne.
-								4
+								6
+								1
