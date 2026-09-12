@@ -309,12 +309,12 @@ façade est du pays.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
+• Infoclimat Direct : La sécheresse exceptionnelle de 1921 en Europe
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Script - Vigilance météo
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -322,20 +322,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN (POUR COMPARAISON) ===
 Dernier bulletin généré le Samedi 12 Septembre 2026.
-Résumé général précédent : Période des 15 prochains jours dominée par un temps sec et anticyclonique, avec une chaleur marquée en début de semaine 1, un rafraîchissement modéré en milieu de semaine 1, puis un possible regain de chaleur en semaine 2. Les précipitations resteront très faibles, aggravant la sécheresse..
+Résumé général précédent : Sur l'ensemble de la période du 14 au 27 septembre, un temps sec et anticyclonique domine, avec des températures au-dessus des normales, un rafraîchissement temporaire en milieu de semaine 1, puis un retour probable de la chaleur en fin de semaine 2..
 Confiance précédente de la semaine 1 : Modérée.
-Températures attendues précédemment : Soleil dominant, chaleur, sécheresse, quelques pluies atténuées possibles sur le nord..
+Températures attendues précédemment : Sécheresse prolongée, températures élevées en début et fin de semaine, orages isolés possibles mercredi..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: edel
-Message:
-On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
-								2
-								3
-
-=======================
-
 Auteur: bernardt60
 Message:
 C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
@@ -416,7 +408,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 20 heures par Victor hurricane tempête
+	Modifié il y a 22 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -469,7 +461,7 @@ Auteur: Virgile
 Message:
 Hors topic mais les modèles convergent avec des signaux importants d'un nouvel épisode de chaleur en fin de mois (On ne parlerait pas de canicule vu la saison).
 								3
-								6
+								7
 								2
 
 =======================
@@ -504,7 +496,8 @@ Message:
 il y a 30 minutes, Nicolas L a dit :
 			La semaine du 15 au 22 pourrait quand même être un début de sortie de crise pour la moitié nord. C’est la suite qui reste incertaine et volatile avec peu de fiabilité à cette échéance. Évidemment, ça reste extrêmement fragile pour la moitié sud. 
 	Loin d'être convaincu qu'on soit réellement  en début de sortie de crise même si une pause s'opère en milieu de semaine, sûrement pas en tout cas côté sécheresse, diagrammes de Paris:
-								2
+								1
+								3
 
 =======================
 
@@ -514,17 +507,20 @@ Message:
 	à se demander si l'impensable ne va pas finir par se réaliser : dépasser en gravité l'année 1921*, où en termes de niveau de température c'est déjà fait, réchauffement climatique aidant : 
 	en tout cas la semaine 14-20 septembre 2026 ne dépare en rien la ribambelle de celles où l'enfoncement des 1015 hPa n'apparaît plus sur les diagrammes...
 	*https://forums.infoclimat.fr/f/topic/61375-la-sécheresse-exceptionnelle-de-1921-en-europe/#comment-4138855
-								1
+								3
+
+=======================
+
+Auteur: giec 2100
+Message:
+sur CEP AI, dernière mouture, écrasante majorité de scénarios à puissante dorsale anticyclonique recouvrant le pays en fin d'échéance, dimanche 20 septembre 2026...
+	le flux de S à SE associé aux très hauts géopotentiels nous installerait dans une énième pulsion chaude...
+	il faudra vraiment savourer la "fraîcheur" de milieu de semaine prochaine pour se requinquer avant la nouvelle coulée de lave...
+	l'astronomie nous protégera un peu de la météorologie féroce, avec 20 minutes de nuit en plus par semaine près de l'équinoxe...
+	comme le naufragé on se raccroche à ce qu'on trouve...
+	Modifié il y a 18 minutes par giec 2100
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: edel
-Message:
-On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
-								2
-								3
-
-=======================
-
 Auteur: bernardt60
 Message:
 C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
@@ -605,7 +601,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 20 heures par Victor hurricane tempête
+	Modifié il y a 22 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -658,7 +654,7 @@ Auteur: Virgile
 Message:
 Hors topic mais les modèles convergent avec des signaux importants d'un nouvel épisode de chaleur en fin de mois (On ne parlerait pas de canicule vu la saison).
 								3
-								6
+								7
 								2
 
 =======================
@@ -693,7 +689,8 @@ Message:
 il y a 30 minutes, Nicolas L a dit :
 			La semaine du 15 au 22 pourrait quand même être un début de sortie de crise pour la moitié nord. C’est la suite qui reste incertaine et volatile avec peu de fiabilité à cette échéance. Évidemment, ça reste extrêmement fragile pour la moitié sud. 
 	Loin d'être convaincu qu'on soit réellement  en début de sortie de crise même si une pause s'opère en milieu de semaine, sûrement pas en tout cas côté sécheresse, diagrammes de Paris:
-								2
+								1
+								3
 
 =======================
 
@@ -703,4 +700,15 @@ Message:
 	à se demander si l'impensable ne va pas finir par se réaliser : dépasser en gravité l'année 1921*, où en termes de niveau de température c'est déjà fait, réchauffement climatique aidant : 
 	en tout cas la semaine 14-20 septembre 2026 ne dépare en rien la ribambelle de celles où l'enfoncement des 1015 hPa n'apparaît plus sur les diagrammes...
 	*https://forums.infoclimat.fr/f/topic/61375-la-sécheresse-exceptionnelle-de-1921-en-europe/#comment-4138855
-								1
+								3
+
+=======================
+
+Auteur: giec 2100
+Message:
+sur CEP AI, dernière mouture, écrasante majorité de scénarios à puissante dorsale anticyclonique recouvrant le pays en fin d'échéance, dimanche 20 septembre 2026...
+	le flux de S à SE associé aux très hauts géopotentiels nous installerait dans une énième pulsion chaude...
+	il faudra vraiment savourer la "fraîcheur" de milieu de semaine prochaine pour se requinquer avant la nouvelle coulée de lave...
+	l'astronomie nous protégera un peu de la météorologie féroce, avec 20 minutes de nuit en plus par semaine près de l'équinoxe...
+	comme le naufragé on se raccroche à ce qu'on trouve...
+	Modifié il y a 18 minutes par giec 2100

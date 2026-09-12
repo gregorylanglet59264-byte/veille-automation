@@ -282,7 +282,7 @@ Températures minimales : stationnaires.
 Températures maximales : similaires à la veille.
 
 === BULLETIN MARINE OFFICIEL MÉTÉO-FRANCE [DEPT59-62-80] ===
-FQCT40 LFQQ 120945 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 12 septembre 2026 à 12H30 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 12 septembre 2026 à 06H00 UTC, et évolution Anticyclone 1026 hPa sur le Golfe de Gascogne et la France. Thalweg en Manche l'après-midi, prévu en mer du Nord dimanche matin. 3 - Prévisions pour l'après-midi du samedi 12 septembre VENT : Ouest à Sud-Ouest 4 à 5, localement 6 dans le détroit du Pas de Calais et en mer du Nord. Rafales. MER : devenant peu agitée à agitée. HOULE : non significative. TEMPS : voilé. VISIBILITE : bonne. 4 - Prévisions pour la nuit du samedi 12 septembre au dimanche 13 septembre VENT : Ouest à Sud-Ouest 5 à 6, mollissant 4 à 5 par le sud en soirée. Rafales. MER : peu agitée à agitée, devenant peu agitée à la fin. HOULE : non significative, mais localement Ouest 0.5 m prés du rivage en Manche. TEMPS : devenant très nuageux à couvert, quelques pluie en seconde partie de nuit. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 5 - Prévisions pour la journée du dimanche 13 septembre VENT : Ouest à Sud-Ouest 4 à 5. MER : peu agitée, parfois agitée en Manche. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : couvert, quelques pluie en mer du Nord. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 6 - Prévisions pour la nuit du 13 au 14 et la journée du lundi 14 septembre VENT : Ouest à Sud-Ouest 3 à 4, parfois 5 en Mer du Nord, l'après-midi. MER : peu agitée, devenant belle à peu agitée en Mer du Nord, la nuit, jusqu'en en milieu d'après-midi. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant progressivement par le nord. TEMPS : très nuageux à couvert. VISIBILITE : bonne 7 - Prévisions pour la nuit du 14 au 15 et la journée du mardi 15 septembre VENT : Sud à Sud-Ouest 4 à 5. Rafales. MER : peu agitée. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 8 - Tendance pour les jours suivants Mercredi 16 septembre Secteur Nord-Ouest modéré. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Vendredi 18 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Samedi 19 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 9 - Observations le samedi 12 septembre 2026 à 09H00 UTC Dunkerque : vent Ouest 10 noeuds, mer belle, 1025 hPa en hausse, très nuageux à couvert, visibilité 6 milles. Cap Gris Nez : vent Ouest-Sud-Ouest 17 noeuds. Boulogne : vent Ouest-Sud-Ouest 12 noeuds, 1025 hPa en hausse, nuageux avec éclaircies, visibilité 13 milles. Prochain bulletin le samedi 12 septembre 2026, vers 18H00 légales
+FQCT40 LFQQ 121615 Origine Météo-France . Bulletin côtier pour la bande des 20 milles, de la frontière belge à la baie de Somme. Emis le samedi 12 septembre 2026 à 18H00 légales. Vent moyen selon échelle Beaufort. Mer selon échelle Douglas. Heure légale = heure UTC+1 en hiver et heure UTC+2 en été. Attention : en situation normale, les rafales peuvent être supérieures de 40 % au vent moyen et les vagues maximales atteindre 2 fois la hauteur significative. 1 - Pas d'avis de vent fort en cours ni prévu. 2 - Situation générale samedi 12 septembre 2026 à 12H00 UTC, et évolution Anticyclone 1026 hPa sur le Golfe de Gascogne et la France. Thalweg en Mer du Nord, s'évacuant vers l'ouest, dimanche matin. 3 - Prévisions pour la nuit du samedi 12 septembre au dimanche 13 septembre VENT : Ouest à Sud-Ouest 5 à 6, mollissant 4 à 5 par le sud en soirée. Rafales. MER : peu agitée à agitée, devenant peu agitée à la fin. HOULE : non significative, mais localement Ouest 0.5 m prés du rivage en Manche. TEMPS : devenant très nuageux à couvert, quelques pluie en Mer du Nord, en seconde partie de nuit. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 4 - Prévisions pour la journée du dimanche 13 septembre VENT : Ouest à Sud-Ouest 4 à 5, parfois 6 en Mer du Nord le matin, mollissant 3 à 4 l'après-midi, et devenant localement Variable 2 à 4, prés de le frontière Belge. MER : peu agitée, parfois agitée en Manche. HOULE : s'établissant Ouest à Sud-Ouest 0.5 à 1 m. TEMPS : couvert, quelques pluie en mer du Nord. VISIBILITE : bonne, localement moyenne à mauvaise sous précipitations. 5 - Tendance pour la nuit du 13 au 14, et la journée du lundi 14 septembre VENT : Ouest à Sud-Ouest mollissant 2 à 4 la nuit, puis fraichissant Sud-Ouest 3 à 4, le matin, et mollissant 2 à 4 , en Manche, l'après-midi. MER : peu agitée, devenant belle à peu agitée en Mer du Nord, la nuit, jusqu'en en milieu d'après-midi. HOULE : Ouest à Sud-Ouest 0.5 à 1 m, s'amortissant progressivement par le nord. TEMPS : très nuageux à couvert. VISIBILITE : bonne 6 - Prévisions pour la nuit du 14 au 15 et la journée du mardi 15 septembre VENT : Sud à Sud-Ouest 4 à 6, virant Ouest en milieu d'après-midi. MER : peu agitée, devenant agitée en milieu d'après-midi en Manche. HOULE dominante d'Ouest à Sud-Ouest 0,5 à 1 m. 7 - Tendance pour les jours suivants Mercredi 16 septembre Secteur Nord-Ouest modéré. Indice de confiance : 4 sur 5 Jeudi 17 septembre Secteur Sud-Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Vendredi 18 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 4 sur 5 Samedi 19 septembre Secteur Ouest modéré à assez fort. Indice de confiance : 3 sur 5 8 - Observations le samedi 12 septembre 2026 à 15H00 UTC Dunkerque : vent Sud-Ouest 12 noeuds, rafales 23 noeuds, 1023 hPa en baisse. Cap Gris Nez : vent Sud-Ouest 21 noeuds, rafales 31 noeuds. Boulogne : vent Ouest-Sud-Ouest 16 noeuds, 1024 hPa en baisse, nuageux avec éclaircies, visibilité 13 milles. Prochain bulletin le dimanche 13 septembre 2026, vers 06H30 légales
 
 === COMPTE-RENDU VIGILANCE & ÉVOLUTION PROCHAINS JOURS (MÉTÉO-FRANCE) ===
 Statut Vigilance Officielle (Nord (59), Pas-de-Calais (62), Somme (80), Oise (60), Aisne (02)) : Vigilance Verte/Jaune en cours selon les risques d'orages ou de fortes chaleurs.
@@ -306,12 +306,12 @@ façade est du pays.
 Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === OBSERVATIONS & FLUX EN TEMPS RÉEL INFOCLIMAT ===
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
-• Infoclimat Direct : Suivi du temps en &#xCE;le de France - Septembre 2026
+• Infoclimat Direct : Suivi du temps dans les régions méditerranéennes - Septembre 2026
 • Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Suivi du temps dans le Centre-Est - Septembre 2026
-• Infoclimat Direct : Saison cyclonique 2026 - Atlantique Nord
+• Infoclimat Direct : La sécheresse exceptionnelle de 1921 en Europe
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
+• Infoclimat Direct : Script - Vigilance météo
+• Infoclimat Direct : Suivi du temps dans le Massif Central - Septembre 2026
 
 === INDICATEUR THERMIQUE NATIONAL (ITN) & RISQUES PHYSIQUES (14 JOURS) ===
 • Indicateur Thermique National (ITN 14 jours au 12/09/2026) : Moyenne nationale des 30 stations Météo-France oscillant entre 22.8°C et 25.8°C (seuil d'alerte canicule à 25.3°C). Matrice des risques physiques J+6 à J+14 : Vague de chaleur forte (70%), Risque d'orages de masse d'air chaud (65%), Sécheresse superficielle (80%).
@@ -319,20 +319,12 @@ Expertise Guillaume Séchet (Météo-Villes) intégrée.
 
 === PRÉCÉDENT BULLETIN HDF (POUR COMPARAISON) ===
 Dernier bulletin HDF généré le Samedi 12 Septembre 2026.
-Résumé général HDF précédent : Vaste zone anticyclonique sur la France pour les deux semaines. La première semaine est marquée par un temps sec et très doux, avec un pic de chaleur mardi 15 septembre. Un léger rafraîchissement est attendu à partir de mercredi, mais les précipitations restent faibles et irrégulières. Pour la seconde semaine, le scénario sec et anticyclonique se prolonge, avec des températures possiblement en hausse en fin de mois. La sécheresse des sols reste préoccupante..
+Résumé général HDF précédent : .
 Confiance précédente HDF de la semaine 1 : Modérée.
-Températures attendues précédemment : Rafraîchissement temporaire par le nord-ouest, avec une perturbation atténuée passant sur les Hauts-de-France..
+Températures attendues précédemment : Vent Ouest à Sud-Ouest 4-5, rafales 35-45 km/h sur le littoral ; températures 22-24°C..
 ============================================
 
 === DISCUSSIONS APPLICABLES SEMAINE 1 (Du Lundi 14 au Dimanche 20 Septembre 2026) ===
-Auteur: edel
-Message:
-On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
-								2
-								3
-
-=======================
-
 Auteur: bernardt60
 Message:
 C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
@@ -413,7 +405,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 20 heures par Victor hurricane tempête
+	Modifié il y a 22 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -466,7 +458,7 @@ Auteur: Virgile
 Message:
 Hors topic mais les modèles convergent avec des signaux importants d'un nouvel épisode de chaleur en fin de mois (On ne parlerait pas de canicule vu la saison).
 								3
-								6
+								7
 								2
 
 =======================
@@ -501,7 +493,8 @@ Message:
 il y a 30 minutes, Nicolas L a dit :
 			La semaine du 15 au 22 pourrait quand même être un début de sortie de crise pour la moitié nord. C’est la suite qui reste incertaine et volatile avec peu de fiabilité à cette échéance. Évidemment, ça reste extrêmement fragile pour la moitié sud. 
 	Loin d'être convaincu qu'on soit réellement  en début de sortie de crise même si une pause s'opère en milieu de semaine, sûrement pas en tout cas côté sécheresse, diagrammes de Paris:
-								2
+								1
+								3
 
 =======================
 
@@ -511,17 +504,20 @@ Message:
 	à se demander si l'impensable ne va pas finir par se réaliser : dépasser en gravité l'année 1921*, où en termes de niveau de température c'est déjà fait, réchauffement climatique aidant : 
 	en tout cas la semaine 14-20 septembre 2026 ne dépare en rien la ribambelle de celles où l'enfoncement des 1015 hPa n'apparaît plus sur les diagrammes...
 	*https://forums.infoclimat.fr/f/topic/61375-la-sécheresse-exceptionnelle-de-1921-en-europe/#comment-4138855
-								1
+								3
+
+=======================
+
+Auteur: giec 2100
+Message:
+sur CEP AI, dernière mouture, écrasante majorité de scénarios à puissante dorsale anticyclonique recouvrant le pays en fin d'échéance, dimanche 20 septembre 2026...
+	le flux de S à SE associé aux très hauts géopotentiels nous installerait dans une énième pulsion chaude...
+	il faudra vraiment savourer la "fraîcheur" de milieu de semaine prochaine pour se requinquer avant la nouvelle coulée de lave...
+	l'astronomie nous protégera un peu de la météorologie féroce, avec 20 minutes de nuit en plus par semaine près de l'équinoxe...
+	comme le naufragé on se raccroche à ce qu'on trouve...
+	Modifié il y a 18 minutes par giec 2100
 
 === DISCUSSIONS ET PROJECTIONS APPLICABLES SEMAINE 2 (Du Lundi 21 au Dimanche 27 Septembre 2026) ===
-Auteur: edel
-Message:
-On sait ce que valent les modélisations &gt; J+10 d'un seul déterministe, ce sont des mirages auxquels il ne faut apporter que peu de crédit. J'oserai à peine parler de potentiel à ce niveau.
-								2
-								3
-
-=======================
-
 Auteur: bernardt60
 Message:
 C'est à se demander si comme on avait fait en hiver une année recherche de signaux de VDF à TLT tant l'attente était devenue insupportable ; il ne faudrait pas le faire aussi pour la recherche de signaux de précipitations significatives à TLT 😊
@@ -602,7 +598,7 @@ Il y a 8 heures, Jean-Séb a dit :
 Auteur: Victor hurricane tempête
 Message:
 En attente de suppression.
-	Modifié il y a 20 heures par Victor hurricane tempête
+	Modifié il y a 22 heures par Victor hurricane tempête
 Oups je viens de voir que quelqu&#039;un a réagit à un post que je n&#039;avais pas le souvenir d&#039;avoir écrit... Et d&#039;ailleurs &quot;écrit&quot; pas vraiment... Il n&#039;y a rien... À supprimer.
 								1
 								1
@@ -655,7 +651,7 @@ Auteur: Virgile
 Message:
 Hors topic mais les modèles convergent avec des signaux importants d'un nouvel épisode de chaleur en fin de mois (On ne parlerait pas de canicule vu la saison).
 								3
-								6
+								7
 								2
 
 =======================
@@ -690,7 +686,8 @@ Message:
 il y a 30 minutes, Nicolas L a dit :
 			La semaine du 15 au 22 pourrait quand même être un début de sortie de crise pour la moitié nord. C’est la suite qui reste incertaine et volatile avec peu de fiabilité à cette échéance. Évidemment, ça reste extrêmement fragile pour la moitié sud. 
 	Loin d'être convaincu qu'on soit réellement  en début de sortie de crise même si une pause s'opère en milieu de semaine, sûrement pas en tout cas côté sécheresse, diagrammes de Paris:
-								2
+								1
+								3
 
 =======================
 
@@ -700,4 +697,15 @@ Message:
 	à se demander si l'impensable ne va pas finir par se réaliser : dépasser en gravité l'année 1921*, où en termes de niveau de température c'est déjà fait, réchauffement climatique aidant : 
 	en tout cas la semaine 14-20 septembre 2026 ne dépare en rien la ribambelle de celles où l'enfoncement des 1015 hPa n'apparaît plus sur les diagrammes...
 	*https://forums.infoclimat.fr/f/topic/61375-la-sécheresse-exceptionnelle-de-1921-en-europe/#comment-4138855
-								1
+								3
+
+=======================
+
+Auteur: giec 2100
+Message:
+sur CEP AI, dernière mouture, écrasante majorité de scénarios à puissante dorsale anticyclonique recouvrant le pays en fin d'échéance, dimanche 20 septembre 2026...
+	le flux de S à SE associé aux très hauts géopotentiels nous installerait dans une énième pulsion chaude...
+	il faudra vraiment savourer la "fraîcheur" de milieu de semaine prochaine pour se requinquer avant la nouvelle coulée de lave...
+	l'astronomie nous protégera un peu de la météorologie féroce, avec 20 minutes de nuit en plus par semaine près de l'équinoxe...
+	comme le naufragé on se raccroche à ce qu'on trouve...
+	Modifié il y a 18 minutes par giec 2100
